@@ -2067,6 +2067,7 @@ function localAvatarOverlay(game, channel = nch()) {
       const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
+        contentStatus: ch.contentStatus,
         // Facts fallback for agents Prydwen only stubs (attribute/specialty "Unknown")
         el: profileText(profileFirst(ch.element)),
         spec: profileText(profileFirst(ch.specialty)),
@@ -3654,25 +3655,17 @@ function buildWuwaSkillIconMap() {
 function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null, signatureByName = null, kitByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
-  const betaOverlay = GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)
+  const betaOverlay = GAMEDATA_CHANNEL === 'live' && game !== 'zzz' && betaChannelAvailable(game)
     ? localAvatarOverlay(game, 'beta')
     : null;
-  // Live rosters can carry beta-status stubs. Pull their available signatures from
-  // beta; ZZZ also needs beta requirements and kits instead of its live placeholders.
-  let betaReqByName = null;
-  let betaKitByName = null;
+  // HSR keeps its beta signature fallback for live rows. ZZZ beta-only rows must
+  // remain upcoming until the beta channel is merged.
   let betaSignatureByName = null;
-  if ((game === 'zzz' || game === 'hsr') && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)) {
+  if (game === 'hsr' && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)) {
     const prevChannel = GAMEDATA_CHANNEL;
     GAMEDATA_CHANNEL = 'beta';
     try {
-      if (game === 'zzz') {
-        betaReqByName = buildZzzReqMap();
-        betaKitByName = buildZzzKitMap();
-        betaSignatureByName = buildZzzGameDataSignatureMap();
-      } else {
-        betaSignatureByName = buildHsrGameDataSignatureMap();
-      }
+      betaSignatureByName = buildHsrGameDataSignatureMap();
     } finally {
       GAMEDATA_CHANNEL = prevChannel;
     }
@@ -3715,9 +3708,9 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
     const isBetaChar = Boolean(effectiveStatus && effectiveStatus !== 'live' && officialPortrait?.status !== 'released');
     const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || (zzzAliasKey ? map?.get(zzzAliasKey) : null) || null;
-    const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
+    const req = lookupByName(reqByName);
     const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
-    const kit = (isBetaChar && lookupByName(betaKitByName)) || lookupByName(kitByName);
+    const kit = lookupByName(kitByName);
     const gamedataSignature = (isBetaChar && lookupByName(betaSignatureByName)) || lookupByName(signatureByName);
     const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || gamedataSignature) : null;
     const signatureEquipment = signatureLightCone

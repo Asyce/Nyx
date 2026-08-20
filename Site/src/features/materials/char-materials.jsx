@@ -561,7 +561,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandles
             <span className="cm-item-frame-eye-soft"></span>
           </span>
           <span className="cm-item-frame-icon">
-            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">{glyph || '?'}</span>}
+            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">?</span>}
           </span>
         </span>
         {bandless ? (

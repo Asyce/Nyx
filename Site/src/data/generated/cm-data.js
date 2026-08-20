@@ -63,8 +63,8 @@ const CM_BETA_META = {
   "zzz": {
     "version": "3.2.3+18283617",
     "liveVersion": "3.1",
-    "newCount": 0,
-    "changedCount": 1
+    "newCount": 2,
+    "changedCount": 2
   }
 };
 const CM_LEVELING = {

@@ -438,11 +438,23 @@ test('ZZZ identities and structured HSR/ZZZ/WuWa signature links survive future 
   const betaNew = new Set(zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').map((ch) => ch.n));
   assert.equal(betaNew.has('Soldier 0 - Anby'), false, 'released Soldier 0 is not resurfaced as new beta');
   assert.equal(betaNew.has('Starlight - Billy'), false, 'released Starlight Billy is not resurfaced as new beta');
+  assert.equal(betaNew.has('Sigrid'), false, 'released Sigrid is not resurfaced as new beta');
   const liveRoxy = zzz.roster.find((ch) => ch.n === 'Roxy');
   const liveClaret = zzz.roster.find((ch) => ch.n === 'Claret');
-  assert.equal(liveRoxy?.upcoming, undefined, 'Roxy uses complete beta data in Live');
-  assert.equal(liveClaret?.upcoming, undefined, 'Claret uses GachaBase beta materials in Live');
-  assert.ok(liveRoxy?.kit?.sections?.length, 'Roxy keeps her complete beta kit');
+  const betaRoxy = zzzBeta.roster.find((ch) => ch.n === 'Roxy');
+  const betaClaret = zzzBeta.roster.find((ch) => ch.n === 'Claret');
+  assert.equal(betaNew.has('Roxy'), true, 'Roxy is added by the beta delta');
+  assert.equal(betaNew.has('Claret'), true, 'Claret is added by the beta delta');
+  for (const character of [liveRoxy, liveClaret]) {
+    assert.equal(character?.status, 'beta');
+    assert.equal(character?.upcoming, true, `${character?.n} stays upcoming in Live`);
+    assert.equal(character?.req, undefined, `${character?.n} has no beta requirements in Live`);
+  }
+  assert.equal(betaRoxy?.status, 'beta');
+  assert.equal(betaRoxy?.betaStatus, 'new');
+  assert.ok(betaRoxy?.kit?.sections?.length, 'Roxy keeps her complete beta kit');
+  assert.equal(betaClaret?.status, 'beta');
+  assert.equal(betaClaret?.betaStatus, 'new');
   for (const field of ['icon', 'art', 'card']) {
     assert.match(liveRoxy?.[field] || '', /Prydwen\/zzz\/assets\/characters\/roxy-[a-f0-9]+\.webp$/, `Roxy ${field} uses exact-name local art`);
   }
@@ -451,15 +463,17 @@ test('ZZZ identities and structured HSR/ZZZ/WuWa signature links survive future 
   assert.notDeepEqual(await fs.readFile(localAsset(liveRoxy.icon)), await fs.readFile(localAsset(remielle.icon)), 'Roxy no longer reuses Remielle portrait bytes');
   assert.equal(liveRoxy?.signatureWeaponName, undefined, 'placeholder W-Engine name is not published as a signature');
 
-  assert.deepEqual([liveClaret?.r, liveClaret?.el, liveClaret?.spec], ['S', 'Electric', 'Armorer']);
-  assert.equal(liveClaret?.facts?.faction, 'Roscaelifer');
-  assert.equal(liveClaret?.req?.ascCost + liveClaret?.req?.talentCost, 3705000);
-  assert.equal(liveClaret?.req?.weapon?.cost, 400000);
-  assert.equal(liveClaret?.req?.currency, 4105000);
-  assert.equal(liveClaret?.signatureWeaponName, 'Crimson Thirst');
+  assert.equal(liveRoxy?.facts?.fullName, 'Roxy Ifrita Pryce');
+  assert.doesNotMatch(JSON.stringify(liveRoxy), /"fullName":"\.\.\."/);
+  assert.deepEqual([betaClaret?.r, betaClaret?.el, betaClaret?.spec], ['S', 'Electric', 'Armorer']);
+  assert.equal(betaClaret?.facts?.faction, 'Roscaelifer');
+  assert.equal(betaClaret?.req?.ascCost + betaClaret?.req?.talentCost, 3705000);
+  assert.equal(betaClaret?.req?.weapon?.cost, 400000);
+  assert.equal(betaClaret?.req?.currency, 4105000);
+  assert.equal(betaClaret?.signatureWeaponName, 'Crimson Thirst');
   const claretMaterials = new Map([
-    ...(liveClaret?.req?.ascension || []),
-    ...(liveClaret?.req?.talents || []),
+    ...(betaClaret?.req?.ascension || []),
+    ...(betaClaret?.req?.talents || []),
   ].map((item) => [item.name, item.qty]));
   assert.deepEqual(Object.fromEntries(claretMaterials), {
     'Beginner Armorer Certification Seal': 4,
@@ -473,18 +487,14 @@ test('ZZZ identities and structured HSR/ZZZ/WuWa signature links survive future 
     'Higher Dimensional Data: Simulated Core': 60,
   });
 
-  const zzzCharacter = (name) => zzzBeta.roster.find((ch) => ch.n === name) || zzz.roster.find((ch) => ch.n === name);
-  const roxy = zzzCharacter('Roxy');
-  const claret = zzzCharacter('Claret');
-  assert.equal(roxy?.facts?.fullName, 'Roxy Ifrita Pryce');
-  assert.doesNotMatch(JSON.stringify(roxy), /"fullName":"\.\.\."/);
-  assert.ok(claret?.icon || claret?.card, 'Claret keeps trusted local Prydwen art');
-  assert.ok((await fs.stat(localAsset(claret.icon || claret.card))).size > 0, 'Claret art exists locally');
-  assert.equal(zzzCharacter('Sigrid')?.signatureWeaponName, "Knight's Extolment");
-  assert.equal(zzzCharacter('Anby')?.signatureWeaponName, 'Demara Battery Mark II');
-  assert.equal(zzzCharacter('Anby: Soldier 0')?.status, 'live');
-  assert.equal(zzzCharacter('Anby: Soldier 0')?.signatureWeaponName, 'Severed Innocence');
-  assert.equal(zzzCharacter('Billy - Starlight')?.status, 'live');
+  assert.ok(betaClaret?.icon || betaClaret?.card, 'Claret keeps trusted local Prydwen art');
+  assert.ok((await fs.stat(localAsset(betaClaret.icon || betaClaret.card))).size > 0, 'Claret art exists locally');
+  assert.equal((zzzBeta.roster.find((ch) => ch.n === 'Sigrid') || zzz.roster.find((ch) => ch.n === 'Sigrid'))?.signatureWeaponName, "Knight's Extolment");
+  assert.equal((zzzBeta.roster.find((ch) => ch.n === 'Anby') || zzz.roster.find((ch) => ch.n === 'Anby'))?.signatureWeaponName, 'Demara Battery Mark II');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Anby: Soldier 0')?.status, 'live');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Anby: Soldier 0')?.signatureWeaponName, 'Severed Innocence');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Billy - Starlight')?.status, 'live');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Sigrid')?.status, 'live');
 
   const wuwaCharacter = (name) => wuwa.roster.find((ch) => ch.n === name);
   assert.equal(wuwaCharacter('Qingxiao')?.signatureWeaponName, 'Glint of Clouds');
@@ -581,6 +591,17 @@ test('materials share cards use Nyx purple and shrink names without ellipses', a
   assert.ok(fitted.lines.length <= 2);
   assert.equal(fitted.lines.join(' '), name);
   assert.equal(fitted.lines.some((line) => line.includes('…')), false);
+});
+
+test('missing material art uses a question mark in the UI and downloaded cards', async () => {
+  const [materials, shareCard] = await Promise.all([
+    read('src/features/materials/char-materials.jsx'),
+    read('src/features/materials/char-materials-share-card.js'),
+  ]);
+  assert.match(materials, /title="Missing item">\?<\/span>/);
+  assert.doesNotMatch(materials, /\{glyph \|\| '\?'\}/);
+  assert.match(shareCard, /ctx\.fillText\('\?', x \+ 75, y \+ 76\)/);
+  assert.doesNotMatch(shareCard, /function nyxMaterialsCardGlyph/);
 });
 
 test('materials share models include max-level EXP packs and leveling currency for every game', async () => {

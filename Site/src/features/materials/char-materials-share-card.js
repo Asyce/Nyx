@@ -230,12 +230,6 @@ function nyxMaterialsCardFrameColors(tier){
   };
 }
 
-function nyxMaterialsCardGlyph(kind){
-  return kind === 'currency' ? '\u25CE' : kind === 'crown' ? '\u265B' : kind === 'gem' ? '\u25C8'
-    : kind === 'book' ? '\u25A4' : kind === 'weekly' ? '\u2726' : kind === 'boss' ? '\u2756'
-      : kind === 'specialty' ? '\u273F' : kind === 'weapon' ? '\u25A6' : '\u25C9';
-}
-
 function nyxMaterialsCardResolveUrl(source){
   if (!source) return null;
   try { return new URL(String(source), document.baseURI).href; } catch (error) { return null; }
@@ -487,7 +481,7 @@ function nyxMaterialsCardDrawTile(ctx, item, assets, x, y){
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.font = '400 58px "GI", sans-serif';
-    ctx.fillText(nyxMaterialsCardGlyph(item.kind), x + 75, y + 76);
+    ctx.fillText('?', x + 75, y + 76);
   }
 
   ctx.strokeStyle = 'rgba(255,255,255,.35)';

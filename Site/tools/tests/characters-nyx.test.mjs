@@ -121,6 +121,7 @@ test('characters without reliable details stay visible but cannot open blank pag
   assert.match(materials, /const unavailable = !hideMode && cmIsUpcomingOnly\(ch\);/);
   assert.match(materials, /disabled=\{unavailable\}/);
   assert.match(materials, /if \(!ch \|\| cmIsUpcomingOnly\(ch\)\) return false;/);
+  assert.match(materials, /if \(!selectedName \|\| !cfg\) return;/, 'direct Beta links wait for their data pack before deciding availability');
   assert.match(materials, /if \(!opened\) \{[\s\S]*if \(onSelectedClose\) onSelectedClose\(\);[\s\S]*return;/);
   assert.match(app, /detailAvailable:!cmIsUpcomingOnly\(ch\)/);
   assert.match(app, /if \(ch\.detailAvailable === false\) return;/);

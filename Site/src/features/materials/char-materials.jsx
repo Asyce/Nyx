@@ -3040,9 +3040,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     setDetailTab('materials');
   }, [sharedCard]);
   React.useEffect(() => {
-    if (!selectedName) return;
+    if (!selectedName || !cfg) return;
     const activeGame = game || gk;
-    const nextCfg = cfg || CM_CFG[activeGame] || { roster:[] };
+    const nextCfg = cfg;
     const wanted = String(selectedName).toLowerCase();
     const wantedSlug = cmRouteSlug(selectedName);
     const nextRoster = (nextCfg.roster || [])

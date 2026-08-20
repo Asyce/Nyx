@@ -5104,7 +5104,7 @@ function NyxApp(){
     };
     const onWheel = (event) => {
       if (event.defaultPrevented || event.ctrlKey || event.metaKey) return;
-      if (Math.abs(event.deltaY) < 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
+      if (Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
       const target = event.target instanceof Element ? event.target : null;
       const bannerList = target?.closest('.gp-ovb-scroll');
       if (bannerList) {
@@ -5112,6 +5112,7 @@ function NyxApp(){
         bannerList.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
         return;
       }
+      if (Math.abs(event.deltaY) < 1) return;
       const closestContent = target && contentScrollTargets
         .map((selector) => target.closest(selector))
         .find((el) => canScrollY(el, event.deltaY));

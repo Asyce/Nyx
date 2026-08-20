@@ -61,6 +61,8 @@ test('the Genshin plan and bottom pin order stay explicit', () => {
 test('the banner list owns its wheel scrolling', () => {
   assert.match(sharedCss, /\.gp-ovb-scroll\{[^}]*overscroll-behavior:contain/);
   assert.match(appSource, /const bannerList = target\?\.closest\('\.gp-ovb-scroll'\);\s*if \(bannerList\) \{\s*event\.preventDefault\(\);\s*bannerList\.scrollBy/);
+  const wheelHandler = appSource.slice(appSource.indexOf('const onWheel ='), appSource.indexOf("window.addEventListener('wheel'"));
+  assert.ok(wheelHandler.indexOf('const bannerList') < wheelHandler.indexOf('Math.abs(event.deltaY) < 1'));
 });
 
 test('every shipped banner character carries a debut verdict', () => {

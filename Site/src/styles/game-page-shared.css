@@ -1527,8 +1527,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   background:linear-gradient(180deg, var(--nyx-compat-color-306c851d2f0b), var(--nyx-compat-color-69661123ff29)); }
 /* left brand — the living eye sits BEHIND the "Nyx" wordmark on the decorative
    plate; the whole group (and the right-hand Pengo icon) link to the index */
-/* Wordmark pulled well to the left (user 2026-08-09) — it used to start where
-   the living eye needed room, and the eye has moved to the corner. */
+/* Compact/default positioning; the desktop shell applies the shared +64px move below. */
 .gp-topbar .tb-brand{ position:absolute; top:50%; left:24px; transform:translateY(-50%); z-index:6;
   display:inline-flex; align-items:center; height:96px; padding:0 var(--nyx-space-28) 0 var(--nyx-space-12); text-decoration:none; }
 .gp-topbar .tb-brand .plate{ position:absolute; left:-14px; top:50%; transform:translateY(-50%);
@@ -1540,13 +1539,13 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-topbar .tb-brand .brand-mark{ position:relative; display:inline-flex; align-items:center; gap:var(--nyx-compat-spacing-30px); }
 /* Pengo stands behind the wordmark: big, quiet and centred on the text, so the
    letters still read cleanly over it (user 2026-08-09). */
-/* Mirrored to face right and nudged past the wordmark's centre by just over
-   its own width. Smaller and at full strength (user 2026-08-09) — it reads
+/* Mirrored to face right and nudged slightly past the wordmark's centre.
+   Smaller and at full strength (user 2026-08-09) — it reads
    as the mascot standing beside the word, not a watermark behind it. */
-.gp-topbar .tb-brand .brand-pengo{ position:absolute; left:50%; top:50%; transform:translate(106%,-50%) scaleX(-1);
+.gp-topbar .tb-brand .brand-pengo{ position:absolute; left:50%; top:50%; transform:translate(18%,-50%) scaleX(-1);
   height:62px; width:auto; z-index:1; opacity:1; pointer-events:none;
   filter:drop-shadow(0 4px 14px rgba(0,0,0,.6)); transition:transform .3s; }
-.gp-topbar .tb-brand:hover .brand-pengo{ transform:translate(106%,-50%) scaleX(-1) scale(1.05); }
+.gp-topbar .tb-brand:hover .brand-pengo{ transform:translate(18%,-50%) scaleX(-1) scale(1.05); }
 /* The living eye left the top bar 2026-08-09 and now sits in the bottom-left
    corner, directly above the Ko-fi badge. Decoration only. */
 .gp-nav-eye{ display:flex; justify-content:center; pointer-events:none; }
@@ -7835,13 +7834,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gp-topbar .tb-brand {
     position:relative!important;
     inset:auto!important;
-    transform:none!important;
+    transform:translateX(64px)!important;
     grid-column:1 / 3;
     grid-row:1;
     z-index:20;
     width:328px;
     height:132px;
-    /* Pulled left 2026-08-09 to match the desktop wordmark position. */
+    /* Keep the original internal spacing while the full group shifts right. */
     padding:0 var(--nyx-space-24) 0 var(--nyx-space-4);
     overflow:visible;
     border:0;

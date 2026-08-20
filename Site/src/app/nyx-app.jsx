@@ -4247,15 +4247,6 @@ function routeSlug(value){
     .replace(/^-+|-+$/g, '');
 }
 
-function routeDisplayName(value){
-  const raw = String(value || '').trim();
-  if (!raw) return '';
-  if (raw === raw.toLowerCase()) {
-    return raw.split(/[-_]+/).filter(Boolean).map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
-  }
-  return raw;
-}
-
 function routeFromLocation(){
   try {
     const parts = location.pathname
@@ -4307,21 +4298,6 @@ function routeStateFor(key, tab, selection){
     nyxCharacter:selection && selection.game === key ? (selection.name || selection.slug || null) : null,
     nyxFrom:selection && selection.game === key && (selection.from === 'calendar' || selection.from === 'nyx') ? selection.from : null,
   };
-}
-
-function routeTitleFor(key, tab, selection, timelineGame){
-  const cfg = key === 'nyx' ? NYX_META : GAME_REGISTRY[key];
-  const name = cfg?.name || 'Nyx';
-  const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
-  if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
-  if (key === 'nyx') {
-    // The hub's overview tab is titled Banners (user 2026-08-09).
-    const nyxLabel = { overview:'Banners', characters:'Pinned Characters', codes:'Redemption Codes' }[tab]
-      || (tab ? tab.replace(/\b\w/g, (c) => c.toUpperCase()) : '');
-    return nyxLabel ? 'Nyx \u2014 ' + nyxLabel : 'Nyx';
-  }
-  const label = { mats:'Characters', database:'Database', gallery:'Gallery', tracker:'Tracker', shadow:'TPS: Shadow Realm', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', settings:'Settings' }[tab] || '';
-  return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
@@ -4992,7 +4968,7 @@ function NyxApp(){
         const method = opts && opts.replace ? 'replaceState' : 'pushState';
         window.history[method](routeStateFor(safeKey, safeTab, selection), '', target);
       }
-      document.title = routeTitleFor(safeKey, safeTab, selection, game);
+      document.title = ({ nyx:'Pengo: Nyx', gi:'Pengo: GI', hsr:'Pengo: HSR', zzz:'Pengo: ZZZ', wuwa:'Pengo: WW', ae:'Pengo: AKE' })[safeKey] || 'Pengo';
     } catch (e) {}
   }, []);
 

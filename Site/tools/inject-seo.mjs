@@ -118,7 +118,7 @@ for (const [file, g] of Object.entries(GAMES)) {
   const paras = [`${g.name} tools on Pengo: ${g.tools}.`];
   if (cur) paras.push(`Current banner: ${cur}.`);
   if (n) paras.push(`${n} active redemption code${n === 1 ? '' : 's'} tracked.`);
-  if (inject(file, { title, headHtml: headMeta({ title, descr, url, ld }), bodyHtml: srOnlySection(`${g.name} — materials, banners & codes on Pengo`, paras) })) injected += 1;
+  if (inject(file, { headHtml: headMeta({ title, descr, url, ld }), bodyHtml: srOnlySection(`${g.name} — materials, banners & codes on Pengo`, paras) })) injected += 1;
 }
 
 // ---- Nyx hub ----
@@ -127,7 +127,7 @@ for (const [file, g] of Object.entries(GAMES)) {
   const title = 'Nyx — all-games banners, codes & pulls hub — Pengo';
   const descr = 'The Nyx hub on Pengo: banners, redemption codes and pull overviews across Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, Wuthering Waves and Arknights: Endfield in one place.';
   const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url, isPartOf: website };
-  if (inject('nyx.html', { title, headHtml: headMeta({ title, descr, url, ld }),
+  if (inject('nyx.html', { headHtml: headMeta({ title, descr, url, ld }),
     bodyHtml: srOnlySection('Nyx — the all-games hub on Pengo', [descr]) })) injected += 1;
 }
 
@@ -140,7 +140,7 @@ for (const [file, g] of Object.entries(GAMES)) {
     '@context': 'https://schema.org', '@type': 'WebSite', name: 'Pengo', url: ORIGIN,
     description: descr,
   };
-  if (inject('index.html', { title, headHtml: headMeta({ title, descr, url, ld }),
+  if (inject('index.html', { headHtml: headMeta({ title, descr, url, ld }),
     bodyHtml: srOnlySection('Pengo — gacha game companion tools', [
       descr,
       'Choose a game: Genshin Impact, Honkai: Star Rail, Zenless Zone Zero, Wuthering Waves, or Arknights: Endfield.',

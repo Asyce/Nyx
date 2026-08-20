@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-19T15:06:22.674Z",
+  "generatedAt": "2026-08-20T16:46:17.156Z",
   "codes": {
     "updated": "2026-08-18T00:40:57.915Z",
     "maxAgeDays": 28,
@@ -762,7 +762,7 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Pearl",
-            "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -1115,20 +1115,20 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "3.5 Phase 2",
-          "start": "2026-07-30T15:00:00.000Z",
-          "end": "2026-08-19T16:59:00.000Z",
+          "phase": "3.6 Phase 1",
+          "start": "2026-08-20T15:00:00.000Z",
+          "end": "2026-09-10T14:59:00.000Z",
           "characters": [
             {
-              "name": "Suisui",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-30"
+              "debut": false,
+              "debutAt": "2026-05-21"
             },
             {
               "name": "Baizhi",
@@ -1142,47 +1142,27 @@ var NYX_DB = {
               "debutAt": "2024-07-22"
             },
             {
-              "name": "Mortefi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
+              "name": "Yangyang",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMofeite.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleYangyang.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-05-23"
+              "debutAt": "2024-06-28"
             },
             {
-              "name": "Lumi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
+              "name": "Sanhua",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDengdeng.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSanhua.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-12-12"
+              "debutAt": "2024-06-28"
             },
-            {
-              "name": "Aemeath",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleAimisi.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-02-05"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": null,
-          "teased": false,
-          "start": "2026-08-20T10:00:00.000Z",
-          "end": "2026-09-10T10:00:00.000Z",
-          "characters": [
             {
               "name": "Qingxiao",
               "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
@@ -1192,55 +1172,43 @@ var NYX_DB = {
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": null
-            },
-            {
-              "name": "Denia",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-05-21"
+              "debutAt": "2026-08-20"
             }
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-10T10:00:00.000Z",
-            "end": "2026-09-30T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Mornye",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": "2026-01-15"
-              },
-              {
-                "name": "Hiyuki",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": null
-              }
-            ],
-            "subBanners": []
-          }
-        ],
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-09-10T10:00:00.000Z",
+          "end": "2026-09-30T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Mornye",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-01-15"
+            },
+            {
+              "name": "Hiyuki",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [],
         "roadmap": [
           {
             "name": "Jingran",
@@ -1258,7 +1226,7 @@ var NYX_DB = {
           },
           {
             "name": "Suoming",
-            "icon": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
@@ -1272,7 +1240,7 @@ var NYX_DB = {
           },
           {
             "name": "Hsin",
-            "icon": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
@@ -1385,30 +1353,19 @@ var NYX_DB = {
         "upcoming": [],
         "beta": [
           {
-            "name": "Anby",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+            "name": "Claret",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole01.webp",
+            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "namecard": null,
-            "rarity": "A",
-            "debut": false,
-            "debutAt": "2025-03-12"
-          },
-          {
-            "name": "Billy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
-            "namecard": null,
-            "rarity": "A",
+            "rarity": "S",
             "debut": true,
             "debutAt": null
           },
           {
             "name": "Roxy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
@@ -1421,10 +1378,10 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Claret",
-            "icon": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1435,10 +1392,10 @@ var NYX_DB = {
           },
           {
             "name": "Roxy",
-            "icon": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1449,10 +1406,10 @@ var NYX_DB = {
           },
           {
             "name": "Sunbringer",
-            "icon": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1463,10 +1420,10 @@ var NYX_DB = {
           },
           {
             "name": "Phoenix",
-            "icon": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1477,10 +1434,10 @@ var NYX_DB = {
           },
           {
             "name": "The Storyteller",
-            "icon": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -171567,7 +171524,7 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Pearl",
-            "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -171609,6 +171566,10 @@ var NYX_DB = {
           "facts": {
             "title": "Over the Glided Tides"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23064.webp"
+          ],
           "status": "beta",
           "upcoming": true,
           "reliableData": false,
@@ -171622,7 +171583,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Ice",
           "role": "Elation",
-          "icon": null,
+          "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
           "facts": {},
           "status": "beta",
@@ -171644,6 +171605,10 @@ var NYX_DB = {
           "facts": {
             "title": "Summer Chorus"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
+          ],
           "status": "beta",
           "upcoming": true,
           "reliableData": false,
@@ -171667,6 +171632,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171686,6 +171652,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171705,6 +171672,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171724,6 +171692,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171743,6 +171712,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23058.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171762,6 +171732,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23054.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171781,6 +171752,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23048.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171801,6 +171773,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23024.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171820,6 +171793,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23036.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171839,6 +171813,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23041.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171858,6 +171833,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23046.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171878,6 +171854,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23018.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171897,6 +171874,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23056.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171917,6 +171895,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23023.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171937,6 +171916,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23013.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171957,6 +171937,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23022.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171977,6 +171958,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23009.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171996,6 +171978,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23027.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172016,6 +171999,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23003.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172035,6 +172019,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23040.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172054,6 +172039,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23043.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172074,6 +172060,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23002.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172093,6 +172080,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23052.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172113,6 +172101,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23015.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172132,6 +172121,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23051.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172152,6 +172142,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23020.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172171,6 +172162,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23031.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172190,6 +172182,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23025.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172210,6 +172203,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23011.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172230,6 +172224,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23005.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172250,6 +172245,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172270,6 +172266,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23017.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172289,6 +172286,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23042.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172308,6 +172306,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23047.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172327,6 +172326,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23028.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172346,6 +172346,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23029.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172366,6 +172367,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23010.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172386,6 +172388,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23014.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172406,6 +172409,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23006.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172425,6 +172429,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23032.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172445,6 +172450,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23008.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172464,6 +172470,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172483,6 +172490,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23039.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172502,6 +172510,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23044.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172521,6 +172530,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23033.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172540,6 +172550,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23026.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172560,6 +172571,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23019.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172579,6 +172591,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23045.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172599,6 +172612,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23001.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172619,6 +172633,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23007.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172638,6 +172653,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23057.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172658,6 +172674,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23021.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172677,6 +172694,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23053.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172697,6 +172715,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23034.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172716,6 +172735,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23050.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172735,6 +172755,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23037.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172754,6 +172775,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172774,6 +172796,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23016.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172798,6 +172821,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23015.webp"
           ],
+          "status": "live",
           "forms": [
             {
               "name": "Trailblazer \u2022 Destruction",
@@ -172882,6 +172906,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23038.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172902,6 +172927,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23004.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172922,6 +172948,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23012.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172941,6 +172968,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23030.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172959,6 +172987,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21012.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172977,6 +173006,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21032.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -172997,6 +173027,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/24001.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173017,6 +173048,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21035.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173035,6 +173067,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21008.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173055,6 +173088,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21011.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173073,6 +173107,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173091,6 +173126,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21005.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173109,6 +173145,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21015.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173127,6 +173164,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21028.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173145,6 +173183,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21002.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173161,6 +173200,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23012.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173181,6 +173221,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/24000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173200,6 +173241,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21010.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173218,6 +173260,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173236,6 +173279,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21015.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173254,6 +173298,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21034.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173272,6 +173317,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21008.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173290,6 +173336,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21013.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173308,6 +173355,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21010.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173326,6 +173374,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21032.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173344,6 +173393,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21042.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173362,6 +173412,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21025.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173370,7 +173421,7 @@ var NYX_DB = {
           "aliases": [],
           "rarity": 5,
           "element": "Ice",
-          "role": "Memory",
+          "role": "Remembrance",
           "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
           "facts": {},
@@ -173378,6 +173429,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -173386,7 +173438,7 @@ var NYX_DB = {
           "aliases": [],
           "rarity": 5,
           "element": "Fire",
-          "role": "Warlock",
+          "role": "Nihility",
           "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
           "facts": {},
@@ -173394,6 +173446,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
           ],
+          "status": "live",
           "forms": []
         }
       ]
@@ -173401,7 +173454,7 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 56,
+      "rosterCount": 64,
       "collections": [
         {
           "key": "w-engines",
@@ -177289,30 +177342,19 @@ var NYX_DB = {
         "upcoming": [],
         "beta": [
           {
-            "name": "Anby",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+            "name": "Claret",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole01.webp",
+            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "namecard": null,
-            "rarity": "A",
-            "debut": false,
-            "debutAt": "2025-03-12"
-          },
-          {
-            "name": "Billy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
-            "namecard": null,
-            "rarity": "A",
+            "rarity": "S",
             "debut": true,
             "debutAt": null
           },
           {
             "name": "Roxy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
@@ -177325,10 +177367,10 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Claret",
-            "icon": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -177339,10 +177381,10 @@ var NYX_DB = {
           },
           {
             "name": "Roxy",
-            "icon": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -177353,10 +177395,10 @@ var NYX_DB = {
           },
           {
             "name": "Sunbringer",
-            "icon": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -177367,10 +177409,10 @@ var NYX_DB = {
           },
           {
             "name": "Phoenix",
-            "icon": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -177381,10 +177423,10 @@ var NYX_DB = {
           },
           {
             "name": "The Storyteller",
-            "icon": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -177410,6 +177452,7 @@ var NYX_DB = {
             "faction": "Roscaelifer",
             "birthday": "April 23"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177428,6 +177471,25 @@ var NYX_DB = {
             "birthday": "August 30",
             "title": "Within Her Heterochromatic Gaze"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-anby-demara-soldier-0",
+          "name": "Anby: Soldier 0",
+          "aliases": [],
+          "title": "Gelatin Silver Dance",
+          "rarity": "S",
+          "element": "Electric",
+          "role": "Attack",
+          "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
+          "facts": {
+            "fullName": "Soldier 0 - Anby",
+            "faction": "New Eridu Defense Force",
+            "title": "Gelatin Silver Dance"
+          },
+          "status": "live",
           "forms": []
         },
         {
@@ -177446,6 +177508,7 @@ var NYX_DB = {
             "birthday": "June 7",
             "title": "Kingdom of Delusion"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177464,6 +177527,7 @@ var NYX_DB = {
             "birthday": "January 31",
             "title": "Firelight Palm"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177482,6 +177546,25 @@ var NYX_DB = {
             "birthday": "July 24",
             "title": "No Way Back"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-billy-starlight",
+          "name": "Billy - Starlight",
+          "aliases": [],
+          "title": "Hero Pose",
+          "rarity": "S",
+          "element": "Physical",
+          "role": "Rupture",
+          "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
+          "facts": {
+            "fullName": "Starlight - Billy Kid",
+            "faction": "Cunning Hares",
+            "title": "Hero Pose"
+          },
+          "status": "live",
           "forms": []
         },
         {
@@ -177500,6 +177583,7 @@ var NYX_DB = {
             "birthday": "May 23",
             "title": "An Invitation or Provocation?"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177518,6 +177602,7 @@ var NYX_DB = {
             "birthday": "March 16",
             "title": "After the Battle"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177536,6 +177621,7 @@ var NYX_DB = {
             "birthday": "January 10",
             "title": "Couch Royalty"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177554,6 +177640,7 @@ var NYX_DB = {
             "birthday": "May 28",
             "title": "Meet With Me"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177572,6 +177659,7 @@ var NYX_DB = {
             "birthday": "January 4",
             "title": "I'll Take Care of It"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177590,6 +177678,7 @@ var NYX_DB = {
             "birthday": "October 7",
             "title": "Impromptu Combat Practice"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177608,6 +177697,7 @@ var NYX_DB = {
             "birthday": "April 14",
             "title": "A Promise Unbroken"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177626,6 +177716,7 @@ var NYX_DB = {
             "birthday": "July 19",
             "title": "Feathered Blade Approaching"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177644,6 +177735,7 @@ var NYX_DB = {
             "birthday": "August 20",
             "title": "Conspirator"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177662,6 +177754,7 @@ var NYX_DB = {
             "birthday": "February 16",
             "title": "Anonymity"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177680,6 +177773,7 @@ var NYX_DB = {
             "birthday": "January 6",
             "title": "Super Scary Big Tiger"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177698,6 +177792,7 @@ var NYX_DB = {
             "birthday": "August 10",
             "title": "Pink Bear"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177716,6 +177811,7 @@ var NYX_DB = {
             "birthday": "December 27",
             "title": "Black Boxing Gloves"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177734,6 +177830,7 @@ var NYX_DB = {
             "birthday": "March 17",
             "title": "The Story Continues"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177752,6 +177849,7 @@ var NYX_DB = {
             "birthday": "October 4",
             "title": "Thank You For Requesting Me"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177770,6 +177868,7 @@ var NYX_DB = {
             "birthday": "June 19",
             "title": "Today's Training"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177788,6 +177887,7 @@ var NYX_DB = {
             "birthday": "September 29",
             "title": "Tear Gland Insurance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177806,6 +177906,7 @@ var NYX_DB = {
             "birthday": "July 30",
             "title": "Patience of a Cat"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177824,6 +177925,7 @@ var NYX_DB = {
             "birthday": "July 26",
             "title": "En-Nah Time"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177842,6 +177944,7 @@ var NYX_DB = {
             "birthday": "November 3",
             "title": "Peach-Flavored Flash Suppressor"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177860,6 +177963,7 @@ var NYX_DB = {
             "birthday": "December 23",
             "title": "The Only Option"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177874,6 +177978,7 @@ var NYX_DB = {
           "facts": {
             "faction": "Phaethon"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177892,6 +177997,7 @@ var NYX_DB = {
             "birthday": "January 1",
             "title": "Drink Hot Water"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177910,6 +178016,7 @@ var NYX_DB = {
             "birthday": "March 14",
             "title": "Stray Birds"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177928,6 +178035,7 @@ var NYX_DB = {
             "birthday": "September 23",
             "title": "The Truth"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177946,6 +178054,7 @@ var NYX_DB = {
             "birthday": "November 22",
             "title": "Pale Blue Flower of Sorrow"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177964,6 +178073,7 @@ var NYX_DB = {
             "birthday": "March 21",
             "title": "Trust Your Life"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -177982,6 +178092,7 @@ var NYX_DB = {
             "birthday": "July 18",
             "title": "Teardrop Necklace"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178000,6 +178111,7 @@ var NYX_DB = {
             "birthday": "April 21",
             "title": "The Bloom of Asphodels"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178018,6 +178130,7 @@ var NYX_DB = {
             "birthday": "September 22",
             "title": "Beyond Etiquette"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178036,6 +178149,7 @@ var NYX_DB = {
             "birthday": "April 10",
             "title": "Love Like a Bouquet"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178054,6 +178168,7 @@ var NYX_DB = {
             "birthday": "September 21",
             "title": "Final Emergency Plan"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178072,6 +178187,7 @@ var NYX_DB = {
             "birthday": "January 20",
             "title": "Another Self"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178090,6 +178206,7 @@ var NYX_DB = {
             "birthday": "March 19",
             "title": "One of a Kind"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178108,6 +178225,7 @@ var NYX_DB = {
             "birthday": "December 3",
             "title": "Clarity of Mind"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178126,6 +178244,7 @@ var NYX_DB = {
             "birthday": "November 2",
             "title": "Proof of Companionship"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178144,6 +178263,7 @@ var NYX_DB = {
             "birthday": "October 14",
             "title": "Non-Business Card"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178162,6 +178282,7 @@ var NYX_DB = {
             "birthday": "September 1",
             "title": "Justice and Order"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178180,6 +178301,7 @@ var NYX_DB = {
             "birthday": "February 20",
             "title": "Ending Theme"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178198,6 +178320,7 @@ var NYX_DB = {
             "birthday": "May 2",
             "title": "Everyone Get Fired Up!"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178216,6 +178339,7 @@ var NYX_DB = {
             "birthday": "December 23",
             "title": "Careful Contemplation"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178234,6 +178358,7 @@ var NYX_DB = {
             "birthday": "November 25",
             "title": "Perfect Pose"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178252,6 +178377,7 @@ var NYX_DB = {
             "birthday": "June 2",
             "title": "Good Friends"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178270,6 +178396,7 @@ var NYX_DB = {
             "birthday": "August 14",
             "title": "Little Boars, Coming Right Up"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178288,6 +178415,7 @@ var NYX_DB = {
             "birthday": "January 5",
             "title": "The First Safehouse"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178306,6 +178434,7 @@ var NYX_DB = {
             "birthday": "November 11",
             "title": "Precise Focus"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178324,6 +178453,7 @@ var NYX_DB = {
             "birthday": "May 10",
             "title": "Greater Hermit of the City"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178342,6 +178472,7 @@ var NYX_DB = {
             "birthday": "October 21",
             "title": "Taste in Shows"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178360,6 +178491,7 @@ var NYX_DB = {
             "birthday": "June 19",
             "title": "Moment of Vulnerability"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178378,6 +178510,7 @@ var NYX_DB = {
             "birthday": "April 8",
             "title": "Leave It To Me"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -178396,6 +178529,103 @@ var NYX_DB = {
             "birthday": "January 23",
             "title": "Take a Break"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-claret",
+          "name": "Claret",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "facts": {
+            "fullName": "Claret Flint"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-phoenix",
+          "name": "Phoenix",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-roxy",
+          "name": "Roxy",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "facts": {
+            "fullName": "Roxy Ifrita Pryce"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-severian",
+          "name": "Severian",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
+          "facts": {
+            "fullName": "Severian Lowell"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-sunbringer",
+          "name": "Sunbringer",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-the-storyteller",
+          "name": "The Storyteller",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         }
       ]
@@ -182265,20 +182495,20 @@ var NYX_DB = {
           "message": "This game failed to scrape during the latest banner check; preserved previous data."
         },
         "current": {
-          "phase": "3.5 Phase 2",
-          "start": "2026-07-30T15:00:00.000Z",
-          "end": "2026-08-19T16:59:00.000Z",
+          "phase": "3.6 Phase 1",
+          "start": "2026-08-20T15:00:00.000Z",
+          "end": "2026-09-10T14:59:00.000Z",
           "characters": [
             {
-              "name": "Suisui",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-30"
+              "debut": false,
+              "debutAt": "2026-05-21"
             },
             {
               "name": "Baizhi",
@@ -182292,47 +182522,27 @@ var NYX_DB = {
               "debutAt": "2024-07-22"
             },
             {
-              "name": "Mortefi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
+              "name": "Yangyang",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMofeite.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleYangyang.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-05-23"
+              "debutAt": "2024-06-28"
             },
             {
-              "name": "Lumi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
+              "name": "Sanhua",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDengdeng.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSanhua.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-12-12"
+              "debutAt": "2024-06-28"
             },
-            {
-              "name": "Aemeath",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleAimisi.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-02-05"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": null,
-          "teased": false,
-          "start": "2026-08-20T10:00:00.000Z",
-          "end": "2026-09-10T10:00:00.000Z",
-          "characters": [
             {
               "name": "Qingxiao",
               "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
@@ -182342,55 +182552,43 @@ var NYX_DB = {
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": null
-            },
-            {
-              "name": "Denia",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-05-21"
+              "debutAt": "2026-08-20"
             }
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-10T10:00:00.000Z",
-            "end": "2026-09-30T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Mornye",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": "2026-01-15"
-              },
-              {
-                "name": "Hiyuki",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": null
-              }
-            ],
-            "subBanners": []
-          }
-        ],
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-09-10T10:00:00.000Z",
+          "end": "2026-09-30T10:00:00.000Z",
+          "characters": [
+            {
+              "name": "Mornye",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-01-15"
+            },
+            {
+              "name": "Hiyuki",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [],
         "roadmap": [
           {
             "name": "Jingran",
@@ -182408,7 +182606,7 @@ var NYX_DB = {
           },
           {
             "name": "Suoming",
-            "icon": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
@@ -182422,7 +182620,7 @@ var NYX_DB = {
           },
           {
             "name": "Hsin",
-            "icon": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
@@ -182452,6 +182650,7 @@ var NYX_DB = {
             "influence": "Ministry of War",
             "title": "Voices of Azure Plume"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182468,6 +182667,7 @@ var NYX_DB = {
             "influence": "The Fractsidus",
             "title": "Symphony of Beyond"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182486,6 +182686,7 @@ var NYX_DB = {
             "influence": "The Fisalia Family",
             "title": "Sea of Dreams"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182504,6 +182705,7 @@ var NYX_DB = {
             "influence": "Troupe of Fools",
             "title": "Stage in the Box"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182516,6 +182718,7 @@ var NYX_DB = {
           "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.webp",
           "facts": {},
+          "status": "live",
           "forms": [
             {
               "name": "Rover (Spectro)",
@@ -182577,6 +182780,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Sanguine Blossom"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182595,6 +182799,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Scarlet Shade"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182613,6 +182818,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Blossom of Slashes"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182629,6 +182835,7 @@ var NYX_DB = {
             "influence": "Lahai-Roi",
             "title": "Xeno-Domain Hacking"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182646,6 +182853,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Phase Transition"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182663,6 +182871,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Radiant Spectrum"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182680,6 +182889,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Eye of Unravelling"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182697,6 +182907,7 @@ var NYX_DB = {
             "influence": "The Montelli Family",
             "title": "Scorched Radiance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182714,6 +182925,7 @@ var NYX_DB = {
             "influence": "Order of the Deep",
             "title": "Graceful Luminescence"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182732,6 +182944,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Euphonic Chrysalis"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182749,6 +182962,7 @@ var NYX_DB = {
             "influence": "Lollo Logistics",
             "title": "Kaleido Refraction"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182767,6 +182981,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Nature Calling"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182782,6 +182997,7 @@ var NYX_DB = {
             "nation": "Huanglong",
             "influence": "Ministry of War"
           },
+          "status": "beta",
           "forms": []
         },
         {
@@ -182799,6 +183015,7 @@ var NYX_DB = {
             "influence": "Roya Tribe",
             "title": "True Name Manifestation"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182816,6 +183033,7 @@ var NYX_DB = {
             "influence": "Mingting",
             "title": "Bambooscape"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182833,6 +183051,7 @@ var NYX_DB = {
             "influence": "Septimont",
             "title": "Stasis, Cycle, Renewal"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182850,6 +183069,7 @@ var NYX_DB = {
             "influence": "Ragunna",
             "title": "Feathered Tempest"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182867,6 +183087,7 @@ var NYX_DB = {
             "influence": "Ragunna",
             "title": "Woven Melodies"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182885,6 +183106,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Guiding Starlance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182903,6 +183125,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Windborne Rider"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182921,6 +183144,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Mistcloak Strike"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182939,6 +183163,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Breath of Winds"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182954,6 +183179,7 @@ var NYX_DB = {
           "facts": {
             "title": "Fury-Type Arsenal"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182971,6 +183197,7 @@ var NYX_DB = {
             "influence": "Black Shores",
             "title": "Divine Hearing"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -182988,6 +183215,7 @@ var NYX_DB = {
             "influence": "Septimont",
             "title": "Magnetism Before Light"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183005,6 +183233,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Matter Weaver"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183023,6 +183252,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Thawborn Renewal"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183041,6 +183271,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Fist of Thunder"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183059,6 +183290,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Lightning of Execution"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183077,6 +183309,7 @@ var NYX_DB = {
             "influence": "\"Ghost Hounds\"",
             "title": "Phantom Hunters"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183092,6 +183325,7 @@ var NYX_DB = {
             "nation": "Huanglong",
             "influence": "Nethermancer"
           },
+          "status": "beta",
           "forms": []
         },
         {
@@ -183109,6 +183343,7 @@ var NYX_DB = {
             "influence": "Fractsidus",
             "title": "Bubbles of Nihility"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183126,6 +183361,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Guiding Starlance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183143,6 +183379,7 @@ var NYX_DB = {
             "influence": "Spacetrek Collective",
             "title": "Astral Mapping"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183160,6 +183397,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Infernal Descent"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183177,6 +183415,7 @@ var NYX_DB = {
             "influence": "Septimont",
             "title": "Howling Flame"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183194,6 +183433,7 @@ var NYX_DB = {
             "influence": "Troupe of Fools",
             "title": "Flamebound Compass"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183212,6 +183452,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Eternal Blaze"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183230,6 +183471,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Dragon's Breath"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183248,6 +183490,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Wooly\u2013counting Game"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183266,6 +183509,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Gallant Blaze"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183283,6 +183527,7 @@ var NYX_DB = {
             "influence": "Zhaoming Commerce Guild",
             "title": "Host of Harmony"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183300,6 +183545,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Memory Palace"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183317,6 +183563,7 @@ var NYX_DB = {
             "influence": "Miko of Flaming Sakura",
             "title": "Futures' Tithe"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183334,6 +183581,7 @@ var NYX_DB = {
             "influence": "The Montelli Family",
             "title": "Crystal Remorph"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183352,6 +183600,7 @@ var NYX_DB = {
             "influence": "Chongzhou",
             "title": "Cryogenic Wonders"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183370,6 +183619,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Enchanted Brush"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183388,6 +183638,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Frosty Gusto"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183406,6 +183657,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Healing You'tan"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183424,6 +183676,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Snow Waltz"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -183434,7 +183687,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": null,
+          "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
           "facts": {
             "title": "The Moon Fox"
@@ -183452,7 +183705,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": null,
+          "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
           "facts": {},
           "status": "beta",

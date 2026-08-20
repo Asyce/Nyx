@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "a2d7330bf7718cc5e25c582303362b56315eac0ebd16291db725b72011cf8192",
-  "generatedAt": "2026-08-19T15:06:24.286Z",
+  "revision": "c6c46be4b56e3e505c1251fb3fab980e3a4c8090e95114b354bb0717c88509a2",
+  "generatedAt": "2026-08-20T16:46:18.762Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 1104814
+          "durationSeconds": 1012420
         },
         "characters": [
           {
@@ -389,7 +389,7 @@
         "remaining": {
           "startsAt": "2026-08-05T11:00:00.000Z",
           "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 514415
+          "durationSeconds": 422021
         },
         "characters": [
           {
@@ -819,7 +819,7 @@
         "remaining": {
           "startsAt": "2026-07-29T03:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1698814
+          "durationSeconds": 1606420
         },
         "characters": [
           {
@@ -1061,35 +1061,35 @@
     },
     "wuwa": {
       "game": "wuwa",
-      "region": "america",
+      "region": "europe",
       "current": {
-        "phase": "3.5",
-        "start": "2026-07-30T15:00:00.000Z",
-        "end": "2026-08-19T16:59:00.000Z",
+        "phase": "3.6",
+        "start": "2026-08-20T09:00:00.000Z",
+        "end": "2026-09-10T08:59:00.000Z",
         "remaining": {
-          "startsAt": "2026-07-30T15:00:00.000Z",
-          "endsAt": "2026-08-19T16:59:00.000Z",
-          "durationSeconds": 6755
+          "startsAt": "2026-08-20T09:00:00.000Z",
+          "endsAt": "2026-09-10T08:59:00.000Z",
+          "durationSeconds": 1786361
         },
         "characters": [
           {
-            "id": "1110",
-            "name": "Suisui",
+            "id": "1211",
+            "name": "Denia",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-07-30T02:00:00.000Z",
+            "debut": "2026-05-21T02:00:00.000Z",
             "icon": {
-              "id": "1110-icon",
+              "id": "1211-icon",
               "source": "character-icon",
-              "path": "/launcher-art/8dcbbd74a08c6e5b36bc2ba9f63624a73332e8d08c882612d1deff38a720d56a.webp",
-              "url": "https://pengo.gg/dist/launcher-art/8dcbbd74a08c6e5b36bc2ba9f63624a73332e8d08c882612d1deff38a720d56a.webp",
+              "path": "/launcher-art/7176c8ddcc1dd67f7c8dabea155d870aec1aa92627d9ba30fd7f486f31effb9b.webp",
+              "url": "https://pengo.gg/dist/launcher-art/7176c8ddcc1dd67f7c8dabea155d870aec1aa92627d9ba30fd7f486f31effb9b.webp",
               "mime": "image/webp",
-              "size": 31182,
+              "size": 34346,
               "dimensions": {
                 "width": 256,
                 "height": 256
               },
-              "sha256": "8dcbbd74a08c6e5b36bc2ba9f63624a73332e8d08c882612d1deff38a720d56a",
+              "sha256": "7176c8ddcc1dd67f7c8dabea155d870aec1aa92627d9ba30fd7f486f31effb9b",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
@@ -1105,22 +1105,22 @@
             },
             "variants": [
               {
-                "id": "1110-splash",
+                "id": "1211-splash",
                 "source": "splash",
-                "path": "/launcher-art/973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4.webp",
-                "url": "https://pengo.gg/dist/launcher-art/973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4.webp",
+                "path": "/launcher-art/3729cdb654f2af3f8222b2d1cefe85429988816779e611d4cd45d0ead0ff408e.webp",
+                "url": "https://pengo.gg/dist/launcher-art/3729cdb654f2af3f8222b2d1cefe85429988816779e611d4cd45d0ead0ff408e.webp",
                 "mime": "image/webp",
-                "size": 618534,
+                "size": 753392,
                 "dimensions": {
-                  "width": 1582,
-                  "height": 2005
+                  "width": 2030,
+                  "height": 2048
                 },
-                "sha256": "973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4",
+                "sha256": "3729cdb654f2af3f8222b2d1cefe85429988816779e611d4cd45d0ead0ff408e",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 1582,
-                  "bottom": 2005
+                  "right": 2030,
+                  "bottom": 2048
                 },
                 "placement": {
                   "anchor": "center",
@@ -1132,23 +1132,23 @@
             ]
           },
           {
-            "id": "1210",
-            "name": "Aemeath",
+            "id": "1413",
+            "name": "Qingxiao",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-02-05T00:55:00.000Z",
+            "debut": "2026-08-20T02:00:00.000Z",
             "icon": {
-              "id": "1210-icon",
+              "id": "1413-icon",
               "source": "character-icon",
-              "path": "/launcher-art/472d936b939231c01199b8b855a2f3bb383c6ecb7893545b3cb0cb71bc971329.webp",
-              "url": "https://pengo.gg/dist/launcher-art/472d936b939231c01199b8b855a2f3bb383c6ecb7893545b3cb0cb71bc971329.webp",
+              "path": "/launcher-art/87d3eef9c2538e803f752792635c833952ab78247580eebd1d556dc06a01a41c.webp",
+              "url": "https://pengo.gg/dist/launcher-art/87d3eef9c2538e803f752792635c833952ab78247580eebd1d556dc06a01a41c.webp",
               "mime": "image/webp",
-              "size": 35006,
+              "size": 35952,
               "dimensions": {
                 "width": 256,
                 "height": 256
               },
-              "sha256": "472d936b939231c01199b8b855a2f3bb383c6ecb7893545b3cb0cb71bc971329",
+              "sha256": "87d3eef9c2538e803f752792635c833952ab78247580eebd1d556dc06a01a41c",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
@@ -1164,22 +1164,22 @@
             },
             "variants": [
               {
-                "id": "1210-splash",
+                "id": "1413-splash",
                 "source": "splash",
-                "path": "/launcher-art/394dad1ac8de69ff6a5ea6a31d3218e32b864d70caff8a3b9f3c65fff8333d47.webp",
-                "url": "https://pengo.gg/dist/launcher-art/394dad1ac8de69ff6a5ea6a31d3218e32b864d70caff8a3b9f3c65fff8333d47.webp",
+                "path": "/launcher-art/2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a.webp",
+                "url": "https://pengo.gg/dist/launcher-art/2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a.webp",
                 "mime": "image/webp",
-                "size": 1220578,
+                "size": 460040,
                 "dimensions": {
-                  "width": 2048,
-                  "height": 1730
+                  "width": 1399,
+                  "height": 2048
                 },
-                "sha256": "394dad1ac8de69ff6a5ea6a31d3218e32b864d70caff8a3b9f3c65fff8333d47",
+                "sha256": "2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 2048,
-                  "bottom": 1730
+                  "right": 1399,
+                  "bottom": 2048
                 },
                 "placement": {
                   "anchor": "center",
@@ -1192,23 +1192,23 @@
           }
         ],
         "selectedCharacter": {
-          "id": "1110",
-          "name": "Suisui",
+          "id": "1413",
+          "name": "Qingxiao",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-07-30T02:00:00.000Z",
+          "debut": "2026-08-20T02:00:00.000Z",
           "icon": {
-            "id": "1110-icon",
+            "id": "1413-icon",
             "source": "character-icon",
-            "path": "/launcher-art/8dcbbd74a08c6e5b36bc2ba9f63624a73332e8d08c882612d1deff38a720d56a.webp",
-            "url": "https://pengo.gg/dist/launcher-art/8dcbbd74a08c6e5b36bc2ba9f63624a73332e8d08c882612d1deff38a720d56a.webp",
+            "path": "/launcher-art/87d3eef9c2538e803f752792635c833952ab78247580eebd1d556dc06a01a41c.webp",
+            "url": "https://pengo.gg/dist/launcher-art/87d3eef9c2538e803f752792635c833952ab78247580eebd1d556dc06a01a41c.webp",
             "mime": "image/webp",
-            "size": 31182,
+            "size": 35952,
             "dimensions": {
               "width": 256,
               "height": 256
             },
-            "sha256": "8dcbbd74a08c6e5b36bc2ba9f63624a73332e8d08c882612d1deff38a720d56a",
+            "sha256": "87d3eef9c2538e803f752792635c833952ab78247580eebd1d556dc06a01a41c",
             "transparentBounds": {
               "left": 0,
               "top": 0,
@@ -1224,22 +1224,22 @@
           },
           "variants": [
             {
-              "id": "1110-splash",
+              "id": "1413-splash",
               "source": "splash",
-              "path": "/launcher-art/973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4.webp",
-              "url": "https://pengo.gg/dist/launcher-art/973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4.webp",
+              "path": "/launcher-art/2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a.webp",
+              "url": "https://pengo.gg/dist/launcher-art/2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a.webp",
               "mime": "image/webp",
-              "size": 618534,
+              "size": 460040,
               "dimensions": {
-                "width": 1582,
-                "height": 2005
+                "width": 1399,
+                "height": 2048
               },
-              "sha256": "973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4",
+              "sha256": "2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
-                "right": 1582,
-                "bottom": 2005
+                "right": 1399,
+                "bottom": 2048
               },
               "placement": {
                 "anchor": "center",
@@ -1250,26 +1250,26 @@
             }
           ]
         },
-        "selectedCharacterId": "1110",
+        "selectedCharacterId": "1413",
         "selectionReason": "newer-limited-debut",
         "variants": [
           {
-            "id": "1110-splash",
+            "id": "1211-splash",
             "source": "splash",
-            "path": "/launcher-art/973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4.webp",
-            "url": "https://pengo.gg/dist/launcher-art/973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4.webp",
+            "path": "/launcher-art/3729cdb654f2af3f8222b2d1cefe85429988816779e611d4cd45d0ead0ff408e.webp",
+            "url": "https://pengo.gg/dist/launcher-art/3729cdb654f2af3f8222b2d1cefe85429988816779e611d4cd45d0ead0ff408e.webp",
             "mime": "image/webp",
-            "size": 618534,
+            "size": 753392,
             "dimensions": {
-              "width": 1582,
-              "height": 2005
+              "width": 2030,
+              "height": 2048
             },
-            "sha256": "973a96a7187e296af945759bfa4623879ab018dbd48df98962cbab798b2b2dc4",
+            "sha256": "3729cdb654f2af3f8222b2d1cefe85429988816779e611d4cd45d0ead0ff408e",
             "transparentBounds": {
               "left": 0,
               "top": 0,
-              "right": 1582,
-              "bottom": 2005
+              "right": 2030,
+              "bottom": 2048
             },
             "placement": {
               "anchor": "center",
@@ -1279,22 +1279,22 @@
             }
           },
           {
-            "id": "1210-splash",
+            "id": "1413-splash",
             "source": "splash",
-            "path": "/launcher-art/394dad1ac8de69ff6a5ea6a31d3218e32b864d70caff8a3b9f3c65fff8333d47.webp",
-            "url": "https://pengo.gg/dist/launcher-art/394dad1ac8de69ff6a5ea6a31d3218e32b864d70caff8a3b9f3c65fff8333d47.webp",
+            "path": "/launcher-art/2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a.webp",
+            "url": "https://pengo.gg/dist/launcher-art/2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a.webp",
             "mime": "image/webp",
-            "size": 1220578,
+            "size": 460040,
             "dimensions": {
-              "width": 2048,
-              "height": 1730
+              "width": 1399,
+              "height": 2048
             },
-            "sha256": "394dad1ac8de69ff6a5ea6a31d3218e32b864d70caff8a3b9f3c65fff8333d47",
+            "sha256": "2aeeb0778aa4465fda00823a8c7afbd4f8fc624aa42bbc7d15a510dae2a5c41a",
             "transparentBounds": {
               "left": 0,
               "top": 0,
-              "right": 2048,
-              "bottom": 1730
+              "right": 1399,
+              "bottom": 2048
             },
             "placement": {
               "anchor": "center",
@@ -1307,6 +1307,30 @@
       },
       "upcoming": [],
       "news": [
+        {
+          "id": "wuwa-kuro-article-26b6e09662b3",
+          "title": "[Version 3.6 Featured Resonator/Weapon Convene: Phase I]",
+          "type": "banner",
+          "start": "2026-09-10T01:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5318"
+        },
+        {
+          "id": "wuwa-kuro-article-5dffcf297d1b",
+          "title": "[Wind of Transcendence] Featured Resonator Convene",
+          "type": "banner",
+          "start": "2026-09-10T01:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5331"
+        },
+        {
+          "id": "wuwa-kuro-article-d65989f1d32b",
+          "title": "[Glint of Clouds] Featured Weapon Convene",
+          "type": "banner",
+          "start": "2026-09-10T01:59:00.000Z",
+          "end": null,
+          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5332"
+        },
         {
           "id": "wuwa-kuro-article-b65ae5342125",
           "title": "Tidal Photography: Land of Xuanfang Photo Challenge is now underway!",
@@ -1346,30 +1370,6 @@
           "start": "2026-07-30T02:00:00.000Z",
           "end": "2026-08-19T03:59:00.000Z",
           "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5227"
-        },
-        {
-          "id": "wuwa-kuro-article-ec83f0c0e367",
-          "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase II]",
-          "type": "banner",
-          "start": "2026-07-30T02:00:00.000Z",
-          "end": "2026-08-19T03:59:00.000Z",
-          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220"
-        },
-        {
-          "id": "wuwa-kuro-article-10dc1ae9d256",
-          "title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase I]",
-          "type": "banner",
-          "start": "2026-07-30T01:59:00.000Z",
-          "end": null,
-          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039"
-        },
-        {
-          "id": "wuwa-kuro-article-22b221c941ef",
-          "title": "[Azure Oath] Featured Weapon Convene",
-          "type": "banner",
-          "start": "2026-07-30T01:59:00.000Z",
-          "end": null,
-          "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5056"
         }
       ],
       "codes": [
@@ -1403,7 +1403,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 1148014
+          "durationSeconds": 1055620
         },
         "characters": [
           {

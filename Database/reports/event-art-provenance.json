@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/events/art.mjs",
-  "generatedAt": "2026-08-17T04:00:35.350Z",
+  "generatedAt": "2026-08-20T16:45:24.868Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": [
@@ -833,6 +833,25 @@
     },
     {
       "game": "wuwa",
+      "fileName": "88428f04088935e43bcf7985063a932355c029799ce7011056b717eac92595b3.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1787068800000/sj53struwv4fsm6zmd-1787122279095.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1787068800000/sj53struwv4fsm6zmd-1787122279095.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/88428f04088935e43bcf7985063a932355c029799ce7011056b717eac92595b3.jpg",
+      "localPath": "Site/assets/events/wuwa/88428f04088935e43bcf7985063a932355c029799ce7011056b717eac92595b3.jpg",
+      "sha256": "88428f04088935e43bcf7985063a932355c029799ce7011056b717eac92595b3",
+      "bytes": 87456,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"B5FFC207DB2BB3C0B2374AE754C9D237\"",
+      "lastModified": "Wed, 19 Aug 2026 06:51:19 GMT",
+      "retrievedAt": "2026-08-20T16:45:24.868Z",
+      "eventIds": [
+        "wuwa-kuro-article-d65989f1d32b"
+      ]
+    },
+    {
+      "game": "wuwa",
       "fileName": "88461b9dba20c6daddba2b914dc5da01a6da8b318ae963ea9c0d73d749ce7820.jpg",
       "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/lusfvsk8jii8a44bkq-1783570246928.jpg",
       "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783526400000/lusfvsk8jii8a44bkq-1783570246928.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
@@ -867,6 +886,44 @@
       "retrievedAt": "2026-08-08T00:08:26.163Z",
       "eventIds": [
         "wuwa-kuro-article-9d4f07af0521"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "9786509f5028e3f9966ed3e49263ed35b9d0eb400479dd6b6a739f1dcb99c040.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1786896000000/s3e99j6gid2i7a2hx6-1786959176595.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1786896000000/s3e99j6gid2i7a2hx6-1786959176595.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/9786509f5028e3f9966ed3e49263ed35b9d0eb400479dd6b6a739f1dcb99c040.jpg",
+      "localPath": "Site/assets/events/wuwa/9786509f5028e3f9966ed3e49263ed35b9d0eb400479dd6b6a739f1dcb99c040.jpg",
+      "sha256": "9786509f5028e3f9966ed3e49263ed35b9d0eb400479dd6b6a739f1dcb99c040",
+      "bytes": 147789,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"7DAFCB537932B3FA59473AC47043D5AE\"",
+      "lastModified": "Mon, 17 Aug 2026 09:32:56 GMT",
+      "retrievedAt": "2026-08-20T16:45:24.868Z",
+      "eventIds": [
+        "wuwa-kuro-article-26b6e09662b3"
+      ]
+    },
+    {
+      "game": "wuwa",
+      "fileName": "9a4b9a8a0475b6b63f4d3e8f663bf9d76e870ee1350927d59a9f0b5c5fd65f57.jpg",
+      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1787068800000/jiueimtxsgg8x1np2u-1787121746717.jpg",
+      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1787068800000/jiueimtxsgg8x1np2u-1787121746717.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
+      "runtimePath": "/assets/events/wuwa/9a4b9a8a0475b6b63f4d3e8f663bf9d76e870ee1350927d59a9f0b5c5fd65f57.jpg",
+      "localPath": "Site/assets/events/wuwa/9a4b9a8a0475b6b63f4d3e8f663bf9d76e870ee1350927d59a9f0b5c5fd65f57.jpg",
+      "sha256": "9a4b9a8a0475b6b63f4d3e8f663bf9d76e870ee1350927d59a9f0b5c5fd65f57",
+      "bytes": 129305,
+      "mediaType": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "etag": "\"99B53182585CFAC53D485965EBC00FA1\"",
+      "lastModified": "Wed, 19 Aug 2026 06:42:27 GMT",
+      "retrievedAt": "2026-08-20T16:45:24.868Z",
+      "eventIds": [
+        "wuwa-kuro-article-5dffcf297d1b"
       ]
     },
     {

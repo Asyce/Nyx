@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-20T19:54:14.171Z",
+  "generatedAt": "2026-08-20T23:13:04.837Z",
   "codes": {
     "updated": "2026-08-18T00:40:57.915Z",
     "maxAgeDays": 28,
@@ -1178,11 +1178,25 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "3.6 Phase 2",
           "teased": false,
           "start": "2026-09-10T10:00:00.000Z",
           "end": "2026-09-30T10:00:00.000Z",
           "characters": [
+            {
+              "name": "Jingran",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": null,
+              "hint": "Qingxiao and Jingran in Version 3.6",
+              "source": "game8",
+              "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+            },
             {
               "name": "Mornye",
               "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
@@ -182558,11 +182572,25 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "3.6 Phase 2",
           "teased": false,
           "start": "2026-09-10T10:00:00.000Z",
           "end": "2026-09-30T10:00:00.000Z",
           "characters": [
+            {
+              "name": "Jingran",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": null,
+              "hint": "Qingxiao and Jingran in Version 3.6",
+              "source": "game8",
+              "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
+            },
             {
               "name": "Mornye",
               "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",

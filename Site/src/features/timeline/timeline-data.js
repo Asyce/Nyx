@@ -792,8 +792,8 @@ function nyxTlEventBlockForRegion(e, now, regionKey){
   return block;
 }
 
-// What the game Overview's "Current Events" card shows: what is running right
-// now (soonest to end first), then what starts next (soonest first) as filler.
+// What the game Overview's "Current Events" card shows: every live or upcoming
+// event, ordered by its real end date (then start date), with open ends last.
 // Never invents a date — undated/needs-review rows and banner rows (which have
 // their own strip) are excluded outright.
 // Some feeds publish a start with no end ("until the next version update").
@@ -806,8 +806,8 @@ var NYX_TL_OPEN_END_MAX_AGE_MS = 120 * NYX_TL_DAY_MS;
 
 function nyxTlCurrentEvents(events, now, regionKey, limit){
   now = Number.isFinite(now) ? now : Date.now();
-  var max = Number.isFinite(limit) && limit > 0 ? limit : 6;
-  var dated = [], ongoing = [], upcoming = [];
+  var max = Number.isFinite(limit) && limit > 0 ? limit : Infinity;
+  var eligible = [];
   var list = Array.isArray(events) ? events : [];
   for (var i = 0; i < list.length; i++) {
     var e = list[i];
@@ -820,19 +820,18 @@ function nyxTlCurrentEvents(events, now, regionKey, limit){
       if (block.openEnd) {
         if (block.startMs < now - NYX_TL_OPEN_END_MAX_AGE_MS) continue;
         block.status = 'ongoing';
-        ongoing.push(block);
       } else {
         block.status = 'live';
-        dated.push(block);
       }
-    } else if (status === 'upcoming') { block.status = status; upcoming.push(block); }
+      eligible.push(block);
+    } else if (status === 'upcoming') { block.status = status; eligible.push(block); }
   }
-  // Confirmed end first (soonest to expire is the most useful), then the
-  // open-ended ones newest-first, then what starts next.
-  dated.sort(function(a, b){ return a.endMs - b.endMs; });
-  ongoing.sort(function(a, b){ return b.startMs - a.startMs; });
-  upcoming.sort(function(a, b){ return a.startMs - b.startMs; });
-  return dated.concat(ongoing, upcoming).slice(0, max);
+  eligible.sort(function(a, b){
+    var aEnd = a.openEnd ? Infinity : a.endMs;
+    var bEnd = b.openEnd ? Infinity : b.endMs;
+    return aEnd === bEnd ? a.startMs - b.startMs : aEnd - bEnd;
+  });
+  return eligible.slice(0, max);
 }
 
 // ---- Search ----------------------------------------------------------

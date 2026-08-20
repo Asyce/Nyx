@@ -486,14 +486,14 @@ test('structured GI/HSR/ZZZ/WuWa signature links and ZZZ identities survive futu
   const giVodyanitsa = giBeta.roster.find((ch) => ch.n === 'Vodyanitsa');
   const giVesna = giBeta.roster.find((ch) => ch.n === 'Vesna');
   assert.equal(giVodyanitsa?.signatureWeaponId, '14524');
-  assert.equal(giVodyanitsa?.signatureWeaponName, '?');
+  assert.equal(giVodyanitsa?.signatureWeaponName, '漩流颂歌');
   assert.equal(giVodyanitsa?.signatureWeapon?.educated, true);
   assert.equal(giVesna?.signatureWeaponId, '11522');
-  assert.equal(giVesna?.signatureWeaponName, '?');
+  assert.equal(giVesna?.signatureWeaponName, '蝶变');
   assert.equal(giVesna?.signatureWeapon?.educated, true);
   const giBetaWeapons = new Map((giBeta.weapons || []).map((weapon) => [String(weapon.id), weapon]));
-  assert.equal(giBetaWeapons.get('14524')?.name, '?');
-  assert.equal(giBetaWeapons.get('11522')?.name, '?');
+  assert.equal(giBetaWeapons.get('14524')?.name, '漩流颂歌');
+  assert.equal(giBetaWeapons.get('11522')?.name, '蝶变');
   assert.equal(giBetaWeapons.get('390002')?.name, '?', 'ID-only beta weapon labels stay hidden');
   const giMavuika = gi.roster.find((ch) => ch.n === 'Mavuika');
   assert.equal(giMavuika?.signatureWeaponId, '12514', 'explicit signature mappings still win');

@@ -2462,6 +2462,7 @@ function sumGiWeaponMaterials(weapon) {
 function buildGiWeaponRoster() {
   const rel = `GameData/gi/${nch()}/weapons.json`;
   if (!exists(rel)) return [];
+  const localized = loadGiWeaponLocales();
   return readJson(rel)
     .filter((weapon) => weapon?.name && rarityNumber(weapon.rarity, 0) >= 3)
     .map((weapon) => {
@@ -2469,7 +2470,7 @@ function buildGiWeaponRoster() {
       const type = weaponMap[weapon.type] || weapon.type || 'Weapon';
       return {
         id: String(weapon.id),
-        name: sanitizeGiWeaponName(weapon.name),
+        name: sanitizeGiWeaponName(weapon.name, localized[String(weapon.id)]),
         rarity: rarityNumber(weapon.rarity, 0),
         weaponType: type,
         type,
@@ -2542,14 +2543,24 @@ function buildGiKit(raw) {
   return sections.length ? { ...kitSource('gi'), sections } : null;
 }
 
-function sanitizeGiWeaponName(value) {
+function loadGiWeaponLocales() {
+  const rel = `GameData/gi/${nch()}/raw/weapons.json`;
+  return exists(rel) ? readJson(rel) : {};
+}
+
+function sanitizeGiWeaponName(value, localized = {}) {
   const name = cleanText(value, 90);
-  return !name || /^\d+$/.test(name) || looksLikeTextMapKey(name) || /^weapon(?:\s*:\s*.+)?$/i.test(name) ? '?' : name;
+  if (name && !/^\d+$/.test(name) && !looksLikeTextMapKey(name) && !/^weapon(?:\s*:\s*.+)?$/i.test(name)) return name;
+  const chinese = cleanText(localized.zh, 90);
+  return !localized.skin && chinese && !/^\d+$/.test(chinese) && !looksLikeTextMapKey(chinese) && !/^武器(?:\s*[-:：·]?\s*.+)?$/.test(chinese)
+    ? chinese
+    : '?';
 }
 
 function loadGiSignatureMap() {
   const rel = 'AsIveHoarded/gi-signatures.json';
   const map = new Map();
+  const localized = loadGiWeaponLocales();
   if (exists(rel)) {
     const src = readJson(rel);
     const rows = src.signatures || src;
@@ -2557,7 +2568,7 @@ function loadGiSignatureMap() {
       if (!name || !entry?.weaponId) continue;
       map.set(normKey(name), {
         id: String(entry.weaponId),
-        name: sanitizeGiWeaponName(entry.weaponName || ''),
+        name: sanitizeGiWeaponName(entry.weaponName || '', localized[String(entry.weaponId)]),
         build: cleanText(entry.build || '', 90) || undefined,
         educated: !!entry.educated,
       });
@@ -2609,7 +2620,7 @@ function loadGiSignatureMap() {
     if (!key || map.has(key)) continue;
     map.set(key, {
       id: String(weapon.id),
-      name: sanitizeGiWeaponName(weapon.name),
+      name: sanitizeGiWeaponName(weapon.name, localized[String(weapon.id)]),
       educated: true,
     });
   }

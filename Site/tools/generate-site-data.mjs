@@ -2131,8 +2131,10 @@ function trustedPrydwenIcon(game, ch) {
   if (!slug) return null;
   for (const rel of [ch?.art?.icon, ch?.art?.card, ch?.art?.full]) {
     if (!rel) continue;
-    const base = normKey(path.basename(String(rel)).replace(/-[a-f0-9]+\.[a-z0-9]+$/i, ''));
-    if (!base || !base.includes(slug)) continue;
+    const base = normKey(path.basename(String(rel))
+      .replace(/-[a-f0-9]+\.[a-z0-9]+$/i, '')
+      .replace(/-(?:card|icon|full)$/i, ''));
+    if (!base || base !== slug) continue;
     const asset = dbAsset(rel);
     if (asset) return asset;
   }
@@ -3722,10 +3724,13 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
     const trustedIcon = trustedPrydwenIcon(game, ch);
-    const icon = officialPortrait?.icon || local?.icon || trustedIcon;
-    const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
+    // Nanoka's unreleased partner icons can be stale copies of another agent.
+    // Prefer Prydwen's exact-slug local portrait for ZZZ beta characters when present.
+    const zzzBetaPortrait = game === 'zzz' && isBetaChar ? trustedIcon : null;
+    const icon = officialPortrait?.icon || zzzBetaPortrait || local?.icon || trustedIcon;
+    const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || ((!local?.icon || icon === zzzBetaPortrait) && icon ? 1.18 : undefined);
     // D1: the game's own splash art wins; scraped overlay art is the fallback
-    const zzzBetaCard = game === 'zzz' && isBetaChar ? (local?.icon || local?.splash) : null;
+    const zzzBetaCard = game === 'zzz' && isBetaChar ? (zzzBetaPortrait || local?.icon || local?.splash) : null;
     const art = local?.splash || zzzBetaCard || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const card = zzzBetaCard || dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const hasReliableData = !!(primaryLocal || req || kit);

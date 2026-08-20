@@ -443,8 +443,11 @@ test('ZZZ identities and structured ZZZ/WuWa signature links survive future data
   assert.equal(liveClaret?.upcoming, undefined, 'Claret uses GachaBase beta materials in Live');
   assert.ok(liveRoxy?.kit?.sections?.length, 'Roxy keeps her complete beta kit');
   for (const field of ['icon', 'art', 'card']) {
-    assert.match(liveRoxy?.[field] || '', /IconRoleCircle68\.webp$/, `Roxy ${field} uses agent 1621 GameData art`);
+    assert.match(liveRoxy?.[field] || '', /Prydwen\/zzz\/assets\/characters\/roxy-[a-f0-9]+\.webp$/, `Roxy ${field} uses exact-name local art`);
   }
+  assert.equal(liveRoxy?.iconZoom, 1.18, 'Roxy full portrait is cropped for the roster icon');
+  const remielle = zzz.roster.find((ch) => ch.n === 'Remielle');
+  assert.notDeepEqual(await fs.readFile(localAsset(liveRoxy.icon)), await fs.readFile(localAsset(remielle.icon)), 'Roxy no longer reuses Remielle portrait bytes');
   assert.equal(liveRoxy?.signatureWeaponName, undefined, 'placeholder W-Engine name is not published as a signature');
 
   assert.deepEqual([liveClaret?.r, liveClaret?.el, liveClaret?.spec], ['S', 'Electric', 'Armorer']);

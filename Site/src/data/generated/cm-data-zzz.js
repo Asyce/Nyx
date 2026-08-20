@@ -2976,8 +2976,9 @@
         "status": "announced",
         "sourceUrl": "https://www.hoyolab.com/article_pre/18014398241023132"
       },
+      "iconZoom": 1.18,
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
-      "card": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle66.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
       "signatureWeapon": {
         "id": "14159",
         "name": "Knight's Extolment",
@@ -239076,9 +239077,10 @@
         "english": "Bryn Apprill",
         "japanese": "Akasaki Chinatsu"
       },
-      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
-      "art": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
-      "card": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+      "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
       "status": "beta",
       "labels": [
         "3.x"

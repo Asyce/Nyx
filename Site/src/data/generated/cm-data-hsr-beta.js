@@ -40,7 +40,7 @@
         "name": "Summer Rides the Surf",
         "path": "Elation",
         "type": "Elation",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "23064",
       "signatureWeaponName": "Summer Rides the Surf",
@@ -2254,7 +2254,7 @@
         "name": "Rise and Sing",
         "path": "Remembrance",
         "type": "Remembrance",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "23063",
       "signatureWeaponName": "Rise and Sing",
@@ -37012,7 +37012,7 @@
       "labels": [],
       "r": 5,
       "el": "Ice",
-      "path": "Memory",
+      "path": "Remembrance",
       "baseStats": {
         "level1": {
           "hp": 179.52,
@@ -37134,7 +37134,6 @@
         "id": "23049",
         "name": "To Evernight's Stars",
         "path": "Remembrance",
-        "type": "Remembrance",
         "educated": false
       },
       "signatureWeaponId": "23049",
@@ -38911,30 +38910,6 @@
           "path": "Remembrance",
           "items": [
             {
-              "id": "110251",
-              "name": "B\u012bja of Consciousness",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-            },
-            {
-              "id": "110252",
-              "name": "Seedling of Manas",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-            },
-            {
-              "id": "110253",
-              "name": "Flower of \u0100laya",
-              "qty": 15,
-              "rar": 5,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-            },
-            {
               "id": "115011",
               "name": "Ethereal Omen",
               "qty": 20,
@@ -38957,6 +38932,30 @@
               "rar": 5,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+            },
+            {
+              "id": "110251",
+              "name": "B\u012bja of Consciousness",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+            },
+            {
+              "id": "110252",
+              "name": "Seedling of Manas",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+            },
+            {
+              "id": "110253",
+              "name": "Flower of \u0100laya",
+              "qty": 15,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
             }
           ],
           "cost": 385000

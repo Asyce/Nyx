@@ -2956,7 +2956,7 @@ function buildHsrGameDataSignatureMap() {
     setReqMapEntry(out, ch.name, {
       ...lightCone,
       source: 'GameData recommended light cone',
-      educated: false,
+      educated: true,
     }, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
@@ -3201,10 +3201,10 @@ function prydwenRecommendedEquipment(game, ch) {
   for (const section of recommendationSectionsForCharacter(ch, key)) {
     for (const asset of section.assets || []) {
       const hit = byNorm.get(normKey(asset.name));
-      if (hit) return hit;
+      if (hit) return { ...hit, source:'Prydwen recommendation', educated:true };
     }
     const textHit = findRecommendedEquipmentInText(section.text, weapons);
-    if (textHit) return textHit;
+    if (textHit) return { ...textHit, source:'Prydwen recommendation', educated:true };
   }
 
   return null;
@@ -3657,19 +3657,22 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   const betaOverlay = GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)
     ? localAvatarOverlay(game, 'beta')
     : null;
-  // Beta-status ZZZ agents can exist in the live GameData channel only as placeholder
-  // stubs (default spec/element → wrong cert-seal materials), so source their
-  // requirements, kit, and signature from beta when building the live roster.
+  // Live rosters can carry beta-status stubs. Pull their available signatures from
+  // beta; ZZZ also needs beta requirements and kits instead of its live placeholders.
   let betaReqByName = null;
   let betaKitByName = null;
   let betaSignatureByName = null;
-  if (game === 'zzz' && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable('zzz')) {
+  if ((game === 'zzz' || game === 'hsr') && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)) {
     const prevChannel = GAMEDATA_CHANNEL;
     GAMEDATA_CHANNEL = 'beta';
     try {
-      betaReqByName = buildZzzReqMap();
-      betaKitByName = buildZzzKitMap();
-      betaSignatureByName = buildZzzGameDataSignatureMap();
+      if (game === 'zzz') {
+        betaReqByName = buildZzzReqMap();
+        betaKitByName = buildZzzKitMap();
+        betaSignatureByName = buildZzzGameDataSignatureMap();
+      } else {
+        betaSignatureByName = buildHsrGameDataSignatureMap();
+      }
     } finally {
       GAMEDATA_CHANNEL = prevChannel;
     }
@@ -3825,7 +3828,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       const req = lookupByName(reqByName, display) || lookupByName(reqByName, character.name);
       const skillIcons = lookupByName(skillIconsByName, display) || lookupByName(skillIconsByName, character.name);
       const kit = lookupByName(kitByName, display) || lookupByName(kitByName, character.name);
-      const characterPath = profileText(profileFirst(character.path));
+      const characterPath = hsrReadablePath(profileText(profileFirst(character.path)));
       const gamedataSignature = lookupByName(signatureByName, display) || lookupByName(signatureByName, character.name);
       const signatureLightCone = hsrSignatureForCharacter(display, characterPath) || gamedataSignature;
       const signatureReq = signatureLightCone

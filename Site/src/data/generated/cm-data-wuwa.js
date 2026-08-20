@@ -27569,7 +27569,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -29690,7 +29690,7 @@
             "id": "21020016",
             "name": "Blazing Brilliance",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020016",
           "signatureWeaponName": "Blazing Brilliance",
@@ -31810,7 +31810,7 @@
             "id": "21020026",
             "name": "Red Spring",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020026",
           "signatureWeaponName": "Red Spring",
@@ -36372,7 +36372,7 @@
             "id": "21020016",
             "name": "Blazing Brilliance",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020016",
           "signatureWeaponName": "Blazing Brilliance",
@@ -42069,7 +42069,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -44253,7 +44253,7 @@
         "id": "21010024",
         "name": "Discord",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010024",
       "signatureWeaponName": "Discord",
@@ -67374,7 +67374,7 @@
         "id": "21010026",
         "name": "Ages of Harvest",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010026",
       "signatureWeaponName": "Ages of Harvest",
@@ -69720,7 +69720,7 @@
         "id": "21050024",
         "name": "Variation",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050024",
       "signatureWeaponName": "Variation",
@@ -89096,7 +89096,7 @@
         "id": "21040016",
         "name": "Verity's Handle",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040016",
       "signatureWeaponName": "Verity's Handle",
@@ -93892,7 +93892,7 @@
         "id": "21030016",
         "name": "The Last Dance",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030016",
       "signatureWeaponName": "The Last Dance",
@@ -95817,7 +95817,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -101138,7 +101138,7 @@
         "id": "21050016",
         "name": "Stringmaster",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050016",
       "signatureWeaponName": "Stringmaster",
@@ -111389,7 +111389,7 @@
         "id": "21040016",
         "name": "Verity's Handle",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040016",
       "signatureWeaponName": "Verity's Handle",
@@ -115982,7 +115982,7 @@
         "id": "21010036",
         "name": "Wildfire Mark",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010036",
       "signatureWeaponName": "Wildfire Mark",
@@ -142385,7 +142385,7 @@
         "id": "21030015",
         "name": "Static Mist",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030015",
       "signatureWeaponName": "Static Mist",
@@ -144387,7 +144387,7 @@
         "id": "21050016",
         "name": "Stringmaster",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050016",
       "signatureWeaponName": "Stringmaster",
@@ -146741,7 +146741,7 @@
         "id": "21030016",
         "name": "The Last Dance",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030016",
       "signatureWeaponName": "The Last Dance",
@@ -161009,7 +161009,7 @@
         "id": "21040024",
         "name": "Marcato",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040024",
       "signatureWeaponName": "Marcato",
@@ -165684,7 +165684,7 @@
         "id": "21040046",
         "name": "Moongazer's Sigil",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040046",
       "signatureWeaponName": "Moongazer's Sigil",
@@ -168006,7 +168006,7 @@
         "id": "21050036",
         "name": "Stellar Symphony",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050036",
       "signatureWeaponName": "Stellar Symphony",
@@ -170017,7 +170017,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",

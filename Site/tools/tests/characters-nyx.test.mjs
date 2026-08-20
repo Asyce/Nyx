@@ -424,8 +424,9 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
   assert.match(materials, /onError=\{\(\) => setSourceIndex/);
 });
 
-test('ZZZ identities and structured ZZZ/WuWa signature links survive future data refreshes', async () => {
-  const [zzz, zzzBeta, wuwa, cmBase] = await Promise.all([
+test('ZZZ identities and structured HSR/ZZZ/WuWa signature links survive future data refreshes', async () => {
+  const [hsr, zzz, zzzBeta, wuwa, cmBase] = await Promise.all([
+    loadGenerated('cm-data-hsr.js', 'hsr'),
     loadGenerated('cm-data-zzz.js', 'zzz'),
     loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
     loadGenerated('cm-data-wuwa.js', 'wuwa'),
@@ -490,6 +491,16 @@ test('ZZZ identities and structured ZZZ/WuWa signature links survive future data
   assert.equal(wuwaCharacter('Jingran')?.signatureWeaponName, 'Thousandfold Deliverance');
   assert.equal(wuwaCharacter('Xiangli Yao')?.signatureWeaponName, "Verity's Handle");
   assert.equal(wuwaCharacter('Qingxiao')?.signatureWeapon?.educated, true, 'WuWa recommendations remain explicitly educated');
+  assert.equal(wuwaCharacter('Danjin')?.signatureWeapon?.educated, true, 'Prydwen best-weapon fallbacks are not presented as certain signatures');
+
+  const hsrCharacter = (name) => hsr.roster.find((ch) => ch.n === name);
+  assert.equal(hsrCharacter('Aventurine Waveflair')?.signatureWeaponName, 'Summer Rides the Surf');
+  assert.equal(hsrCharacter('Aventurine Waveflair')?.signatureWeapon?.educated, true, 'HSR beta recommendations flow into Live as educated matches');
+  assert.equal(hsrCharacter('Asta')?.signatureWeapon?.educated, true, 'HSR recommendations are not presented as certain signatures');
+  assert.equal(hsrCharacter('Evernight')?.signatureWeaponName, "To Evernight's Stars");
+  assert.notEqual(hsrCharacter('Evernight')?.signatureWeapon?.educated, true, 'raw HSR paths resolve to authoritative signature mappings');
+  assert.equal(hsrCharacter('Fugue')?.signatureWeaponName, 'Long Road Leads Home');
+  assert.notEqual(hsrCharacter('Fugue')?.signatureWeapon?.educated, true, 'raw HSR paths resolve to authoritative signature mappings');
 });
 
 test('materials share URLs round-trip unknown selections in deterministic order', async () => {

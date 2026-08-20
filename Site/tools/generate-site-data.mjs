@@ -561,7 +561,8 @@ function gamedataCharacterAliases(game, ch) {
   if (key === 'zzz') {
     // Prydwen and GameData sometimes reverse variant names ("Billy - Starlight"
     // vs "Starlight - Billy"). A sorted token alias keeps future variants joined.
-    aliases.push(zzzNameOrderAlias(name), zzzNameOrderAlias(resolved));
+    const fullName = resolvedProfileText(ch?.profile?.full_name);
+    aliases.push(ch?.codeName, fullName, zzzNameOrderAlias(name), zzzNameOrderAlias(resolved), zzzNameOrderAlias(fullName));
     // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
     if (id === '1261') aliases.push('Jane Doe');
   }
@@ -2060,7 +2061,8 @@ function localAvatarOverlay(game, channel = nch()) {
 
   if (key === 'zzz' && exists(`GameData/zzz/${channel}/agents.json`)) {
     const localized = rawCharacterLocaleMap('zzz', channel);
-    for (const ch of readJson(`GameData/zzz/${channel}/agents.json`)) {
+    const agents = readJson(`GameData/zzz/${channel}/agents.json`);
+    for (const ch of agents) {
       if (!ch?.name) continue;
       const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
@@ -2081,6 +2083,18 @@ function localAvatarOverlay(game, channel = nch()) {
         releasePatch: meta?.releasePatch,
         ...zzzProfileData(ch),
       }, gamedataCharacterAliases('zzz', ch));
+    }
+    const localIds = new Set(agents.map((agent) => String(agent?.id || '')).filter(Boolean));
+    for (const detail of zzzBetaAgentDetails(channel)) {
+      if (localIds.has(String(detail.id))) continue;
+      const identity = { id: detail.id, name: detail.name };
+      setNamedMapEntry(byName, detail.name, {
+        contentStatus: 'beta',
+        el: profileText(detail.attribute),
+        spec: profileText(detail.specialty),
+        rarity: detail.rarity === 'S' ? 4 : detail.rarity === 'A' ? 3 : undefined,
+        facts: { faction: profileText(detail.faction) },
+      }, gamedataCharacterAliases('zzz', identity));
     }
   }
 
@@ -3334,6 +3348,46 @@ function zzzRequirements(raw) {
   };
 }
 
+const zzzBetaAgentDetailsCache = new Map();
+
+function zzzBetaAgentDetails(channel = nch()) {
+  if (channel !== 'beta') return [];
+  if (zzzBetaAgentDetailsCache.has(channel)) return zzzBetaAgentDetailsCache.get(channel);
+  const details = exists('GachaBase/zzz/beta-changelog.json')
+    ? (readJson('GachaBase/zzz/beta-changelog.json').agentDetails || [])
+    : [];
+  const agents = exists(`GameData/zzz/${channel}/agents.json`) ? readJson(`GameData/zzz/${channel}/agents.json`) : [];
+  const localIds = new Set(agents.map((agent) => String(agent?.id || '')).filter(Boolean));
+  const localNames = new Set(agents.flatMap((agent) => gamedataCharacterAliases('zzz', agent)).map(normKey));
+  const out = details.filter((detail) => detail?.id !== undefined
+    && detail?.name
+    && !localIds.has(String(detail.id))
+    && !gamedataCharacterAliases('zzz', detail).some((name) => localNames.has(normKey(name))));
+  zzzBetaAgentDetailsCache.set(channel, out);
+  return out;
+}
+
+function zzzDetailRequirements(detail) {
+  if (!detail?.materials?.length) return null;
+  const total = sumGameDataMaterialPairs(
+    'zzz',
+    (detail?.materials || []).map((row) => [row.id, row.qty]),
+    zzzMaterialKind,
+    '10',
+  );
+  const ascension = total.items.filter((item) => item.kind === 'gem');
+  const talents = total.items.filter((item) => item.kind !== 'gem');
+  const ascCost = ascension.length && total.cost >= 800000 ? 800000 : 0;
+  const talentCost = Math.max(0, total.cost - ascCost);
+  return {
+    ascension,
+    talents,
+    ascCost,
+    talentCost,
+    currency: total.cost,
+  };
+}
+
 function buildZzzKit(raw) {
   if (!raw) return null;
   const sections = [];
@@ -3403,6 +3457,10 @@ function buildZzzReqMap() {
     const rawRel = `GameData/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)), gamedataCharacterAliases('zzz', ch));
+  }
+  for (const detail of zzzBetaAgentDetails()) {
+    const req = zzzDetailRequirements(detail);
+    if (req) setReqMapEntry(out, detail.name, req, gamedataCharacterAliases('zzz', detail));
   }
   return out;
 }
@@ -3598,16 +3656,18 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     ? localAvatarOverlay(game, 'beta')
     : null;
   // Beta-status ZZZ agents can exist in the live GameData channel only as placeholder
-  // stubs (default spec/element → wrong cert-seal materials), so source their req/kit
-  // from the beta channel instead when building the live roster.
+  // stubs (default spec/element → wrong cert-seal materials), so source their
+  // requirements, kit, and signature from beta when building the live roster.
   let betaReqByName = null;
   let betaKitByName = null;
+  let betaSignatureByName = null;
   if (game === 'zzz' && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable('zzz')) {
     const prevChannel = GAMEDATA_CHANNEL;
     GAMEDATA_CHANNEL = 'beta';
     try {
       betaReqByName = buildZzzReqMap();
       betaKitByName = buildZzzKitMap();
+      betaSignatureByName = buildZzzGameDataSignatureMap();
     } finally {
       GAMEDATA_CHANNEL = prevChannel;
     }
@@ -3634,7 +3694,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const selectedOverlay = chooseCharacterOverlay({
       game,
       primary: primaryLocal,
-      beta: primaryLocal ? betaLocal : null,
+      beta: betaLocal,
       sourceStatus: ch.contentStatus,
     });
     const local = selectedOverlay.local;
@@ -3650,20 +3710,24 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
     const isBetaChar = Boolean(effectiveStatus && effectiveStatus !== 'live' && officialPortrait?.status !== 'released');
     const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || (zzzAliasKey ? map?.get(zzzAliasKey) : null) || null;
-    const req = (isBetaChar && primaryLocal && lookupByName(betaReqByName)) || lookupByName(reqByName);
+    const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
     const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
-    const kit = (isBetaChar && primaryLocal && lookupByName(betaKitByName)) || lookupByName(kitByName);
-    const gamedataSignature = lookupByName(signatureByName);
+    const kit = (isBetaChar && lookupByName(betaKitByName)) || lookupByName(kitByName);
+    const gamedataSignature = (isBetaChar && lookupByName(betaSignatureByName)) || lookupByName(signatureByName);
     const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || gamedataSignature) : null;
-    const signatureEquipment = signatureLightCone ? null : (gamedataSignature || prydwenRecommendedEquipment(game, ch));
+    const signatureEquipment = signatureLightCone
+      ? null
+      : (gamedataSignature || (game === 'zzz' ? null : prydwenRecommendedEquipment(game, ch)));
     const signatureDisplay = signatureLightCone || signatureEquipment;
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
-    const icon = officialPortrait?.icon || local?.icon || trustedPrydwenIcon(game, ch);
+    const trustedIcon = trustedPrydwenIcon(game, ch);
+    const icon = officialPortrait?.icon || local?.icon || trustedIcon;
     const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
     // D1: the game's own splash art wins; scraped overlay art is the fallback
-    const art = local?.splash || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
-    const card = dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
+    const zzzBetaCard = game === 'zzz' && isBetaChar ? (local?.icon || local?.splash) : null;
+    const art = local?.splash || zzzBetaCard || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
+    const card = zzzBetaCard || dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const hasReliableData = !!(primaryLocal || req || kit);
     const upcomingOnly = effectiveStatus && effectiveStatus !== 'live' && !hasReliableData;
     const title = local?.title || displayTitle(overlayGame, ch, ch.facts || {});

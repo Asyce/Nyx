@@ -425,18 +425,49 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
 });
 
 test('ZZZ identities and structured ZZZ/WuWa signature links survive future data refreshes', async () => {
-  const [zzz, zzzBeta, wuwa] = await Promise.all([
+  const [zzz, zzzBeta, wuwa, cmBase] = await Promise.all([
     loadGenerated('cm-data-zzz.js', 'zzz'),
     loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
     loadGenerated('cm-data-wuwa.js', 'wuwa'),
+    read('src/data/generated/cm-data.js'),
   ]);
+  const betaMeta = JSON.parse(cmBase.match(/const CM_BETA_META = (\{[\s\S]*?\});\s*const CM_LEVELING/)?.[1] || '{}');
+  assert.equal(betaMeta.zzz?.newCount, zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').length);
+  assert.equal(betaMeta.zzz?.changedCount, zzzBeta.roster.filter((ch) => ch.betaStatus === 'changed').length);
   const betaNew = new Set(zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').map((ch) => ch.n));
   assert.equal(betaNew.has('Soldier 0 - Anby'), false, 'released Soldier 0 is not resurfaced as new beta');
   assert.equal(betaNew.has('Starlight - Billy'), false, 'released Starlight Billy is not resurfaced as new beta');
-  assert.equal(betaNew.has('Roxy'), true);
-  assert.equal(betaNew.has('Claret'), true);
-  assert.equal(zzz.roster.find((ch) => ch.n === 'Roxy')?.upcoming, true, 'Roxy stays an upcoming placeholder in Live');
-  assert.equal(zzz.roster.find((ch) => ch.n === 'Claret')?.upcoming, true, 'Claret stays an upcoming placeholder in Live');
+  const liveRoxy = zzz.roster.find((ch) => ch.n === 'Roxy');
+  const liveClaret = zzz.roster.find((ch) => ch.n === 'Claret');
+  assert.equal(liveRoxy?.upcoming, undefined, 'Roxy uses complete beta data in Live');
+  assert.equal(liveClaret?.upcoming, undefined, 'Claret uses GachaBase beta materials in Live');
+  assert.ok(liveRoxy?.kit?.sections?.length, 'Roxy keeps her complete beta kit');
+  for (const field of ['icon', 'art', 'card']) {
+    assert.match(liveRoxy?.[field] || '', /IconRoleCircle68\.webp$/, `Roxy ${field} uses agent 1621 GameData art`);
+  }
+  assert.equal(liveRoxy?.signatureWeaponName, undefined, 'placeholder W-Engine name is not published as a signature');
+
+  assert.deepEqual([liveClaret?.r, liveClaret?.el, liveClaret?.spec], ['S', 'Electric', 'Armorer']);
+  assert.equal(liveClaret?.facts?.faction, 'Roscaelifer');
+  assert.equal(liveClaret?.req?.ascCost + liveClaret?.req?.talentCost, 3705000);
+  assert.equal(liveClaret?.req?.weapon?.cost, 400000);
+  assert.equal(liveClaret?.req?.currency, 4105000);
+  assert.equal(liveClaret?.signatureWeaponName, 'Crimson Thirst');
+  const claretMaterials = new Map([
+    ...(liveClaret?.req?.ascension || []),
+    ...(liveClaret?.req?.talents || []),
+  ].map((item) => [item.name, item.qty]));
+  assert.deepEqual(Object.fromEntries(claretMaterials), {
+    'Beginner Armorer Certification Seal': 4,
+    'High-Grade Armorer Certification Seal': 32,
+    'Blade Bearer Certification Seal': 30,
+    'Basic Shock Chip': 25,
+    'Advanced Shock Chip': 75,
+    'Specialized Shock Chip': 250,
+    'Hamster Cage Pass': 5,
+    'Forged Away Core': 9,
+    'Higher Dimensional Data: Simulated Core': 60,
+  });
 
   const zzzCharacter = (name) => zzzBeta.roster.find((ch) => ch.n === name) || zzz.roster.find((ch) => ch.n === name);
   const roxy = zzzCharacter('Roxy');

@@ -3,7 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { load } from 'cheerio';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const root = path.resolve(__dirname, '..', '..');
 const outRoot = path.resolve(root, 'Database', 'GachaBase');
 
@@ -152,6 +153,83 @@ function extractEntries(html, game) {
   return entries;
 }
 
+function textOf($, selector) {
+  return $(selector).first().text().replace(/\s+/g, ' ').trim() || null;
+}
+
+function filterText($, key) {
+  return $(`a[href*="filter=${key}:"]`).map((_, el) => (
+    $(el).text().replace(/\s+/g, ' ').trim()
+      || $(el).find('img[alt]').first().attr('alt')?.trim()
+      || $(el).find('img[title]').first().attr('title')?.trim()
+  )).get().find(Boolean) || null;
+}
+
+function parseMaterialRows($, section) {
+  const rows = [];
+  const seen = new Set();
+  $(section).find('a[href*="/items/"]').each((_, el) => {
+    const href = $(el).attr('href') || '';
+    const id = href.match(/\/items\/[^/]+\/(\d+)(?:\/|$)/)?.[1];
+    const name = $(el).find('img[alt]').first().attr('alt')?.trim() || null;
+    const values = $(el).find('span').map((__, span) => $(span).text().replace(/\s+/g, ' ').trim()).get();
+    const qtyText = [...values].reverse().find((value) => /^\d[\d,]*$/.test(value));
+    const qty = Number(String(qtyText || '').replace(/,/g, ''));
+    if (!id || !name || !Number.isFinite(qty) || qty <= 0 || seen.has(id)) return;
+    seen.add(id);
+    rows.push({ id, name, qty });
+  });
+  return rows;
+}
+
+export function parseAgentDetail(html) {
+  const $ = load(html);
+  const calculator = $('h2').filter((_, el) => /Materials Calculator/i.test($(el).text())).first();
+  const materials = calculator.length ? parseMaterialRows($, calculator.closest('section')) : [];
+  const rank = filterText($, 'r')?.match(/([SAB])\s*Rank/i)?.[1] || null;
+  const id = textOf($, 'body')?.match(/\bID\s+(\d+)\b/)?.[1] || null;
+  return {
+    game: 'zzz',
+    type: 'agents',
+    id,
+    name: textOf($, 'h1'),
+    rarity: rank,
+    specialty: filterText($, 's'),
+    attribute: filterText($, 'e'),
+    faction: filterText($, 'f'),
+    materials,
+  };
+}
+
+function sameAgentName(left, right) {
+  const words = (value) => String(value || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+  const a = words(left);
+  const b = words(right);
+  return a.length > 0 && b.length > 0
+    && (a.every((word) => b.includes(word)) || b.every((word) => a.includes(word)));
+}
+
+export function sameKnownAgentName(left, right) {
+  const keys = (value) => {
+    const words = String(value || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+    return new Set([words.join(''), [...words].sort().join('')].filter(Boolean));
+  };
+  const a = keys(left);
+  return [...keys(right)].some((key) => a.has(key));
+}
+
+export function validateAgentDetail(detail, expected) {
+  if (String(detail?.id || '') !== String(expected?.id || '')) {
+    throw new Error(`Unexpected agent ID ${detail?.id || 'missing'} for ${expected?.id || 'unknown'}`);
+  }
+  if (!sameAgentName(detail?.name, expected?.name)) {
+    throw new Error(`Unexpected agent name ${detail?.name || 'missing'} for ${expected?.name || 'unknown'}`);
+  }
+  const missing = ['rarity', 'specialty', 'attribute', 'faction'].filter((key) => !detail?.[key]);
+  if (missing.length) throw new Error(`Missing agent metadata: ${missing.join(', ')}`);
+  if (!detail?.materials?.length) throw new Error('No Materials Calculator items parsed');
+}
+
 async function fetchHtml(url) {
   const res = await fetch(url, {
     headers: {
@@ -165,12 +243,65 @@ async function fetchHtml(url) {
   return html;
 }
 
+function latestZzzAgentEntries(entries) {
+  const latest = new Map();
+  for (const entry of entries || []) {
+    if (entry?.type !== 'agents' || entry?.id === undefined || !entry.href) continue;
+    const id = String(entry.id);
+    const previous = latest.get(id);
+    if (!previous || Number(entry.revision || 0) >= Number(previous.revision || 0)) latest.set(id, entry);
+  }
+  return [...latest.values()];
+}
+
+function zzzBetaAgentIdentity() {
+  const file = path.resolve(root, 'Database', 'GameData', 'zzz', 'beta', 'agents.json');
+  const rows = readJsonIfExists(file);
+  const agents = Array.isArray(rows) ? rows : [];
+  return {
+    ids: new Set(agents.map((row) => String(row?.id || '')).filter(Boolean)),
+    names: agents.flatMap((row) => [row?.name, row?.codeName, row?.profile?.full_name]).filter(Boolean),
+  };
+}
+
+async function scrapeZzzAgentDetails(entries, previousPayload) {
+  const local = zzzBetaAgentIdentity();
+  const knownAgent = (row) => local.ids.has(String(row?.id)) || local.names.some((name) => sameKnownAgentName(row?.name, name));
+  const previous = new Map((previousPayload?.agentDetails || [])
+    .map((detail) => [String(detail?.id || ''), detail])
+    .filter(([id, detail]) => id && !knownAgent(detail) && detail?.materials?.length));
+  const details = new Map(previous);
+  const errors = [];
+  for (const entry of latestZzzAgentEntries(entries).filter((row) => !knownAgent(row))) {
+    const old = details.get(String(entry.id));
+    if (old && Number(old.revision || 0) >= Number(entry.revision || 0)) continue;
+    try {
+      const detail = parseAgentDetail(await fetchHtml(entry.href));
+      validateAgentDetail(detail, entry);
+      details.set(String(entry.id), {
+        ...entry,
+        ...detail,
+        id: String(entry.id),
+        name: entry.name,
+        fetchedAt: new Date().toISOString(),
+      });
+    } catch (error) {
+      errors.push(`${entry.id}: ${error.message}`);
+      console.warn(`[gachabase-beta] zzz agent ${entry.id}: ${error.message}; ${old ? 'preserved previous detail' : 'no previous detail'}`);
+    }
+  }
+  return { details: [...details.values()], errors };
+}
+
 async function scrapeGame(game) {
   const scrapedAt = new Date().toISOString();
   const html = await fetchHtml(game.sourceUrl);
   const $ = load(html);
   const entries = extractEntries(html, game);
   if (!entries.length) throw new Error(`No GachaBase beta entries parsed for ${game.key}`);
+  const previous = readJsonIfExists(path.join(outRoot, game.key, 'beta-changelog.json'));
+  const agentDetails = game.key === 'zzz' ? await scrapeZzzAgentDetails(entries, previous) : { details: [], errors: [] };
+  if (agentDetails.errors.length) throw new Error(`Agent detail refresh failed: ${agentDetails.errors.join('; ')}`);
   return {
     game: game.key,
     label: game.label,
@@ -181,10 +312,12 @@ async function scrapeGame(game) {
     categoryLinks: extractCategoryLinks($, game.baseUrl),
     counts: {
       entries: entries.length,
+      agentDetails: agentDetails.details.length,
       byType: countBy(entries, (entry) => entry.type),
       byStatus: countBy(entries, (entry) => entry.status),
     },
     entries,
+    ...(agentDetails.details.length ? { agentDetails: agentDetails.details } : {}),
   };
 }
 
@@ -251,7 +384,9 @@ async function main() {
   if (errors.length) process.exitCode = 1;
 }
 
-main().catch((error) => {
-  console.error(`[gachabase-beta] ${error.stack || error.message}`);
-  process.exitCode = 1;
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
+  main().catch((error) => {
+    console.error(`[gachabase-beta] ${error.stack || error.message}`);
+    process.exitCode = 1;
+  });
+}

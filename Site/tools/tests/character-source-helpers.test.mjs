@@ -28,6 +28,13 @@ test('ZZZ keeps its complete beta overlay for an explicit beta placeholder', () 
   }), { local: beta, status: 'beta' });
 });
 
+test('ZZZ uses a beta-only overlay when the live agent is missing', () => {
+  const beta = { contentStatus: 'beta', marker: 'beta-only' };
+  assert.deepEqual(chooseCharacterOverlay({
+    game: 'zzz', primary: null, beta, sourceStatus: 'beta',
+  }), { local: beta, status: 'beta' });
+});
+
 test('HSR GameData-only fallback keeps signature light-cone materials', async () => {
   const generator = await fs.readFile(path.resolve(import.meta.dirname, '../generate-site-data.mjs'), 'utf8');
   const fallback = generator.split('Do not make a fresh Nanoka HSR character')[1]

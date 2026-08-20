@@ -171609,6 +171609,10 @@ var NYX_DB = {
           "facts": {
             "title": "Over the Glided Tides"
           },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -171621,6 +171625,10 @@ var NYX_DB = {
           "icon": null,
           "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
           "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -171636,6 +171644,10 @@ var NYX_DB = {
           "facts": {
             "title": "Summer Chorus"
           },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -183427,6 +183439,10 @@ var NYX_DB = {
           "facts": {
             "title": "The Moon Fox"
           },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -183439,6 +183455,10 @@ var NYX_DB = {
           "icon": null,
           "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
           "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         }
       ]

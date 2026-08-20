@@ -28,6 +28,10 @@ function getCmRoster(key){
     overviewArt: ch.overviewArt,
     overviewArtPool: ch.overviewArtPool,
     overviewArtZoom: ch.overviewArtZoom,
+    status: ch.status,
+    upcoming: ch.upcoming,
+    reliableData: ch.reliableData,
+    noReliableInfo: ch.noReliableInfo,
     forms: ch.forms || [],
   }));
 }
@@ -183,7 +187,7 @@ function overviewCardArt(cfg, ch, offset = 0){
 
 function makeRoster(cfg, settings, characterImagePrefs){
   const source = cfg.roster || getCmRoster(cfg.key);
-  if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon }];
+  if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon, detailAvailable:false }];
   const seen = new Set();
   const out = [];
   source.forEach((ch, i) => {
@@ -207,6 +211,7 @@ function makeRoster(cfg, settings, characterImagePrefs){
       el:ch.el || ch.element,
       rarity:ch.r,
       forms:ch.forms || [],
+      detailAvailable:!cmIsUpcomingOnly(ch),
     };
     const customGameKey = row.gameKey && row.gameKey !== 'nyx' ? row.gameKey : cfg.key;
     out.push(typeof nyxApplyCharacterCustomImages === 'function'
@@ -630,6 +635,7 @@ function weaponItemsFor(gameKey){
 function rosterUnitMap(gameCfg){
   const map = new Map();
   makeRoster(gameCfg).forEach((ch) => {
+    if (ch.detailAvailable === false) return;
     [ch.name, ch.rawName, ...(ch.aliases || [])].filter(Boolean).forEach((name) => {
       const key = normalizeUnitName(name);
       if (key && !map.has(key)) map.set(key, ch);
@@ -5184,6 +5190,13 @@ function NyxApp(){
   const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;
     if (!targetGame || targetGame === 'nyx' || !name) return;
+    const wanted = normalizeUnitName(name);
+    const fullRoster = getCmRoster(targetGame) || [];
+    const matching = fullRoster.find((ch) => [
+      ch.n, ch.name, ch.rawName, ...(ch.aliases || []),
+      ...((ch.forms || []).flatMap((form) => [form.n, form.name, form.rawName, form.label])),
+    ].filter(Boolean).some((value) => normalizeUnitName(value) === wanted));
+    if (matching && cmIsUpcomingOnly(matching)) return;
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);

@@ -6731,6 +6731,10 @@ const nyxData = {
         overviewArt: ch.overviewArt,
         overviewArtPool: ch.overviewArtPool,
         overviewArtZoom: ch.overviewArtZoom,
+        ...(ch.status ? { status: ch.status } : {}),
+        ...(ch.upcoming ? { upcoming: true } : {}),
+        ...(ch.reliableData === false ? { reliableData: false } : {}),
+        ...(ch.noReliableInfo ? { noReliableInfo: true } : {}),
         forms: (ch.forms || []).map((form) => ({
           name: form.rawName || form.n,
           label: form.formLabel,

@@ -2170,10 +2170,12 @@ function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
 
 /* a roster cell */
 function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
+  const unavailable = !hideMode && cmIsUpcomingOnly(ch);
   return (
-    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
+    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '') + (unavailable ? ' unavailable' : '')}
          style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
       <button type="button" className="cm-cell-open"
+        disabled={unavailable}
         title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
         aria-pressed={hideMode ? !!hidden : undefined}
         onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>
@@ -2920,10 +2922,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   }, [gk]);
 
   const openCharacter = React.useCallback((ch, opts) => {
-    if (!ch) return;
+    if (!ch || cmIsUpcomingOnly(ch)) return false;
     setDetailTab('materials');
     setSel(ch);
     if (onSelectCharacter && !(opts && opts.silent)) onSelectCharacter(ch);
+    return true;
   }, [onSelectCharacter]);
 
   React.useEffect(() => {
@@ -3059,7 +3062,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     ));
     if (found) {
       const form = (found.forms || []).find((row) => [row.rawName, row.n, row.label].some(matchesSelected));
-      openCharacter(found, { silent:true });
+      const opened = openCharacter(found, { silent:true });
+      if (!opened) {
+        setSel(null);
+        setActiveVariant(null);
+        setActiveGender(null);
+        if (onSelectedClose) onSelectedClose();
+        return;
+      }
       if (form) {
         setActiveVariant(form.variantKey || null);
         setActiveGender(form.gender || null);

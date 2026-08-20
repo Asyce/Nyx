@@ -68,6 +68,12 @@ async function loadGenerated(file, key, beta = false){
   return beta ? window.CM_CFG_BETA[key] : window.CM_CFG[key];
 }
 
+async function loadNyxData(){
+  const window = {};
+  vm.runInNewContext(await fs.readFile(path.join(generated, 'nyx-data.js'), 'utf8'), { window });
+  return window.NYX_DB;
+}
+
 const localAsset = (ref) => String(ref).startsWith('../../Database/')
   ? path.resolve(site, '..', 'Database', String(ref).slice('../../Database/'.length))
   : path.resolve(site, ref);
@@ -92,6 +98,34 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
   // 1fr columns made the active-tab underline far wider than the word.
   assert.match(css, /\.cm-tabs\{[^}]*display:inline-flex/, 'each tab sizes to its own label (2026-08-09)');
   assert.doesNotMatch(css, /\.cm-tabs\{[^}]*grid-auto-columns:1fr/);
+});
+
+test('characters without reliable details stay visible but cannot open blank pages', async () => {
+  const [app, materials, css, hsr, nyxData] = await Promise.all([
+    read('src/app/nyx-app.jsx'),
+    read('src/features/materials/char-materials.jsx'),
+    read('src/styles/game-page-shared.css'),
+    loadGenerated('cm-data-hsr.js', 'hsr'),
+    loadNyxData(),
+  ]);
+  const pearl = hsr.roster.find((character) => character.n === 'Pearl');
+  assert.equal(pearl?.upcoming, true);
+  assert.equal(pearl?.reliableData, false);
+  assert.equal(pearl?.noReliableInfo, true);
+  const liteContext = { window:{ CM_CFG:{}, NYX_DB:nyxData } };
+  const getRosterSource = app.slice(app.indexOf('function getCmRoster'), app.indexOf('function requestCmGame'));
+  const upcomingSource = materials.slice(materials.indexOf('function cmIsUpcomingOnly'), materials.indexOf('function cmRosterSort'));
+  vm.runInNewContext(`${getRosterSource}\n${upcomingSource}\nthis.pearl = getCmRoster('hsr').find((character) => character.n === 'Pearl');\nthis.unavailable = cmIsUpcomingOnly(this.pearl);`, liteContext);
+  assert.equal(liteContext.pearl?.noReliableInfo, true);
+  assert.equal(liteContext.unavailable, true, 'the Nyx hub blocks Pearl before the full HSR bundle loads');
+  assert.match(materials, /const unavailable = !hideMode && cmIsUpcomingOnly\(ch\);/);
+  assert.match(materials, /disabled=\{unavailable\}/);
+  assert.match(materials, /if \(!ch \|\| cmIsUpcomingOnly\(ch\)\) return false;/);
+  assert.match(materials, /if \(!opened\) \{[\s\S]*if \(onSelectedClose\) onSelectedClose\(\);[\s\S]*return;/);
+  assert.match(app, /detailAvailable:!cmIsUpcomingOnly\(ch\)/);
+  assert.match(app, /if \(ch\.detailAvailable === false\) return;/);
+  assert.match(app, /if \(matching && cmIsUpcomingOnly\(matching\)\) return;/);
+  assert.match(css, /\.cm-cell\.unavailable:hover\{ transform:none; \}/);
 });
 
 test('character pages expose clean artwork and keep guide actions below maxed totals', async () => {

@@ -5538,6 +5538,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-grid-recent{ grid-template-columns:repeat(auto-fit, minmax(96px, 108px)); }
 .cm-cell{ position:relative; width:96px; padding:0; transition:transform .2s; }
 .cm-cell-open{ width:100%; border:none; background:none; cursor:pointer; padding:0; display:flex; flex-direction:column; align-items:center; gap:var(--nyx-space-6); color:inherit; }
+.cm-cell.unavailable,.cm-cell.unavailable .cm-cell-open{ cursor:default; }
+.cm-cell.unavailable:hover{ transform:none; }
 .cm-cell:hover{ transform:translateY(-3px); }
 .cm-cell-open:focus-visible{ outline:none; }
 .cm-cell:hover .disc,.cm-cell:focus-within .disc{ box-shadow:inset 0 0 0 2.5px var(--character-hover),0 0 20px var(--character-hover-glow),0 5px 12px rgba(0,0,0,.55); }

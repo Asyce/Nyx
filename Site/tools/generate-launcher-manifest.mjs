@@ -697,14 +697,29 @@ function hasRecentGame8Observation(freshness, nowMs) {
     && nowMs - successfulMs <= RAW_FUTURE_MAX_AGE_MS;
 }
 
+function hasPreservedGame8Observation(freshness, nowMs) {
+  const source = cleanText(freshness?.source, 32);
+  const successfulMs = timestamp(iso(freshness?.lastSuccessfulFetch));
+  return source === 'game8'
+    && successfulMs != null
+    && successfulMs <= nowMs + 60_000
+    && nowMs - successfulMs <= RAW_FUTURE_MAX_HORIZON_MS;
+}
+
 function hasRecentGame8Source(group, nowMs) {
   const status = cleanText(group?.freshness?.status, 32);
   return ['fresh', 'transition'].includes(status)
     && hasRecentGame8Observation(group?.freshness, nowMs);
 }
 
+function hasPreservedGame8Source(group, nowMs) {
+  return cleanText(group?.freshness?.status, 32) === 'stale'
+    && cleanText(group?.freshness?.message, 256) === 'This game failed to scrape during the latest banner check; preserved previous data.'
+    && hasPreservedGame8Observation(group?.freshness, nowMs);
+}
+
 function trustedRawFuturePhases(group, nowMs) {
-  if (!hasRecentGame8Source(group, nowMs)) return [];
+  if (!hasRecentGame8Source(group, nowMs) && !hasPreservedGame8Source(group, nowMs)) return [];
 
   const windows = new Map();
   for (const raw of [group?.next, ...(group?.upcoming ?? [])]) {
@@ -795,11 +810,11 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
             return betaRoadmap.length ? betaRoadmap : group.roadmap;
           })() }]
         : [];
-    const announcedIsFresh = hasRecentGame8Source(corroboratingGroup, nowMs)
-      && hasRecentGame8Observation(
-        game === 'ae' ? corroboratingGroup?.teaserFreshness : corroboratingGroup?.roadmapFreshness,
-        nowMs,
-      );
+    const announcedFreshness = game === 'ae' ? corroboratingGroup?.teaserFreshness : corroboratingGroup?.roadmapFreshness;
+    const announcedIsFresh = (hasRecentGame8Source(corroboratingGroup, nowMs)
+        && hasRecentGame8Observation(announcedFreshness, nowMs))
+      || (hasPreservedGame8Source(corroboratingGroup, nowMs)
+        && hasPreservedGame8Observation(announcedFreshness, nowMs));
     group._displayAnnounced = announcedIsFresh
       ? announcedSource
         .map((phase) => ({
@@ -935,7 +950,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
     }).sort((left, right) => left.start.localeCompare(right.start));
     group._displayUpcoming = mergeFuturePhases(trustedUpcoming, group._displayUpcoming, group.current.end);
     // Current state remains history-authoritative. Future Game8 windows may fill
-    // gaps only while the Pengo-owned scrape is recent and fully bounded.
+    // gaps from a recent scrape or its explicitly preserved bounded fallback.
   }
   return copy;
 }
@@ -957,15 +972,21 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
     .filter((phase) => !phase.uncertain && phase.startMs > nowMs)
     .sort((left, right) => left.startMs - right.startMs)
     .slice(0, 5)
-    .map((phase) => ({
-      phase: phase.phase,
-      start: phase.start,
-      end: phase.end,
-      characters: phase.characters
+    .map((phase) => {
+      const characters = phase.characters
         .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
         .filter(Boolean)
-        .map((character) => ({ ...character, variants: [] })),
-    }))
+        .map((character) => ({ ...character, variants: [] }));
+      const selected = selectCharacter(characters).selected;
+      return {
+        phase: phase.phase,
+        start: phase.start,
+        end: phase.end,
+        characters: selected
+          ? [selected, ...characters.filter((character) => character.id !== selected.id)]
+          : characters,
+      };
+    })
     // Upcoming art is optional. Omit an incomplete phase instead of shipping
     // a broken remote reference or failing the known-good current feed.
     .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
@@ -1182,6 +1203,9 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
     const current = chooseCurrent(group, now);
     const chars = current.phase ? (current.phase.characters.map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts)).filter(Boolean)) : [];
     const selected = current.phase ? selectCharacter(chars) : { selected: null, reason: current.reason ?? 'no-current-phase' };
+    const orderedChars = selected.selected
+      ? [selected.selected, ...chars.filter((character) => character.id !== selected.selected.id)]
+      : chars;
     const upcoming = buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, now);
     const news = buildNews(game, events?.[game]);
     const healthStatus = group && current.phase && news.length ? 'ok' : group ? 'degraded' : 'missing';
@@ -1194,11 +1218,11 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
         start: current.phase.start,
         end: current.phase.end,
         remaining: { startsAt: current.phase.start, endsAt: current.phase.end, durationSeconds: Math.max(0, Math.floor((current.phase.endMs - now) / 1000)) },
-        characters: chars,
+        characters: orderedChars,
         selectedCharacter: selected.selected,
         selectedCharacterId: selected.selected?.id ?? null,
         selectionReason: selected.reason,
-        variants: chars.flatMap((character) => character.variants),
+        variants: orderedChars.flatMap((character) => character.variants),
       } : null,
       upcoming,
       news,

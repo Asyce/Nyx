@@ -528,6 +528,32 @@ test('stale, non-Game8, and malformed future windows stay out of the launcher fe
   }
 });
 
+test('explicitly preserved Game8 futures survive a bounded source outage', () => {
+  const now = Date.parse('2026-07-26T00:00:00.000Z');
+  const preserved = {
+    id: 'hsr',
+    freshness: {
+      status: 'stale',
+      source: 'game8',
+      lastSuccessfulFetch: '2026-07-17T00:00:00.000Z',
+      message: 'This game failed to scrape during the latest banner check; preserved previous data.',
+    },
+    roadmapFreshness: { source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
+    next: phase('2026-08-08T00:00:00Z', '2026-08-29T00:00:00Z', [{ name: 'Waveflair' }]),
+    roadmap: [{ name: 'Pearl', image: '/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png' }],
+  };
+
+  const missingHistory = path.join(ROOT, 'missing-banner-history');
+  const normalized = applySourcedBannerWindows({ games: [preserved] }, missingHistory, now).games[0];
+  assert.deepEqual(normalized._displayUpcoming.map((entry) => entry.characters.map((character) => character.name)), [['Waveflair']]);
+  assert.deepEqual(normalized._displayAnnounced.map((entry) => entry.characters.map((character) => character.name)), [['Pearl']]);
+
+  preserved.freshness.message = 'stale for an unrelated reason';
+  const rejected = applySourcedBannerWindows({ games: [preserved] }, missingHistory, now).games[0];
+  assert.deepEqual(rejected._displayUpcoming, []);
+  assert.deepEqual(rejected._displayAnnounced, []);
+});
+
 test('production preprocessing admits only independently identified active history channels', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-test-'));
   try {
@@ -562,7 +588,7 @@ test('production preprocessing admits only independently identified active histo
     assert.ok(normalized.games[0].current._sourceChannels.every((entry) => entry.recordId && entry.category));
     const manifest = buildManifest({ banners: normalized, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z', db });
     assert.equal(manifest.games.gi.region, 'europe');
-    assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Alpha', 'Beta']);
+    assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Beta', 'Alpha']);
   } finally {
     fs.rmSync(db, { recursive: true, force: true });
   }
@@ -877,10 +903,10 @@ test('current Pengo scrape projects every scheduled and announced launcher row',
   const remielle = manifest.games.zzz.current.characters.find((character) => character.name === 'Remielle Dan');
   assert.match(remielle.icon.path, /IconRoleCircle67\.webp$/);
   assert.notEqual(remielle.icon.sha256, remielle.variants[0].sha256);
-  assert.deepEqual(upcomingNames('gi'), [['Ineffa', 'Flins'], ['Vesna', 'Vodyanitsa']]);
+  assert.deepEqual(upcomingNames('gi'), [['Flins', 'Ineffa'], ['Vesna', 'Vodyanitsa']]);
   assert.deepEqual(upcomingNames('hsr'), [['Robin • Summeretto'], ['Aventurine • Waveflair'], ['Pearl', 'Nihilux']]);
   assert.deepEqual(upcomingNames('zzz'), [['Sigrid', 'Dialyn', 'Yuzuha', 'Harumasa'], ['Claret', 'Roxy', 'Sunbringer', 'Phoenix', 'The Storyteller']]);
-  assert.deepEqual(upcomingNames('wuwa'), [['Qingxiao', 'Denia'], ['Mornye', 'Hiyuki'], ['Jingran', 'Suoming', 'Hsin']]);
+  assert.deepEqual(upcomingNames('wuwa'), [['Qingxiao', 'Denia'], ['Hiyuki', 'Mornye'], ['Jingran', 'Suoming', 'Hsin']]);
   assert.deepEqual(manifest.games.ae.current.characters.map((character) => character.name), ['Liino', 'Arcane', 'Camille']);
   assert.equal(manifest.games.ae.current.selectedCharacter.name, 'Liino');
   assert.ok(manifest.games.ae.current.selectedCharacter.variants.some((variant) => /liino/i.test(variant.path)));
@@ -932,8 +958,15 @@ test('Endfield announced art accepts only exact Pengo-owned local splash paths',
   const valid = applySourcedBannerWindows(source, path.join(ROOT, 'Database'), announcedNow);
   assert.equal(valid.games.find((game) => game.id === 'endfield')._displayAnnounced.length, 1);
 
+  const preserved = structuredClone(source);
+  preserved.games.find((game) => game.id === 'endfield').teaserFreshness = { source: 'game8', lastSuccessfulFetch: '2026-08-01T00:00:00.000Z' };
+  assert.equal(
+    applySourcedBannerWindows(preserved, path.join(ROOT, 'Database'), announcedNow).games.find((game) => game.id === 'endfield')._displayAnnounced.length,
+    1,
+  );
+
   for (const teaserFreshness of [
-    { source: 'game8', lastSuccessfulFetch: '2026-08-01T00:00:00.000Z' },
+    { source: 'game8', lastSuccessfulFetch: '2026-01-01T00:00:00.000Z' },
     null,
   ]) {
     const candidate = structuredClone(source);

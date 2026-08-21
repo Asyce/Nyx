@@ -148,6 +148,10 @@ jobs:
         id: launcher_visuals
         working-directory: Site
         run: |
+          if ! command -v ffmpeg >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --no-install-recommends -y ffmpeg
+          fi
           npm run generate:launcher-visuals
           npm run verify:launcher-visuals:source
           if [ -n "$(git status --porcelain -- src/data/generated/launcher-visuals src/data/generated/launcher-visuals-v1.json)" ]; then
@@ -264,4 +268,4 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' && steps.banner_refresh.outputs.fresh == 'true' && steps.launcher_snapshot.outputs.fresh == 'true' && steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: npx --yes wrangler deploy
+        run: node ./node_modules/wrangler/bin/wrangler.js deploy

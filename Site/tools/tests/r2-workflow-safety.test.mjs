@@ -87,6 +87,13 @@ test('daily deploy syncs pushed main and verifies a renewed exact snapshot befor
   assert.doesNotMatch(source.slice(deploy), /npx --yes wrangler/);
 });
 
+test('data refresh deploy uses the installed pinned Wrangler', async () => {
+  const source = await fs.readFile(path.resolve(workflowDir, 'data-refresh.yml'), 'utf8');
+  const deploy = source.indexOf('- name: Deploy to Cloudflare');
+  assert.match(source.slice(deploy), /node \.\/node_modules\/wrangler\/bin\/wrangler\.js deploy/);
+  assert.doesNotMatch(source.slice(deploy), /npx --yes wrangler/);
+});
+
 test('daily deploy rebuilds the newest main before retrying a rejected push', async () => {
   const source = await fs.readFile(path.resolve(workflowDir, 'daily-deploy.yml'), 'utf8');
   const pushBlocks = source.match(/- name: Push (?:verified launcher|exact deployment) snapshot[\s\S]*?(?=\n      - name:)/g) || [];

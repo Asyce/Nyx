@@ -136,30 +136,6 @@ function hasTrustedBannerHistoryIdentity(history, record, game) {
   }
 }
 
-function hasIndependentCurrentCorroboration(group, record, window, nowMs) {
-  if (record?.confirmed === true) return true;
-  const current = group?.current;
-  const rawSource = cleanText(current?.source, 64);
-  const freshnessSource = cleanText(group?.freshness?.source, 64);
-  const checkedMs = timestamp(iso(group?.freshness?.lastSuccessfulFetch ?? group?.freshness?.checkedAt));
-  const startMs = timestamp(iso(window?.start));
-  const rawEndMs = timestamp(iso(current?.end));
-  if (group?.freshness?.status !== 'fresh'
-    || !rawSource
-    || rawSource !== freshnessSource
-    || /maintained[- ]?wiki|fandom|wiki\.gg/i.test(rawSource)
-    || checkedMs == null
-    || startMs == null
-    || checkedMs < startMs
-    || checkedMs > nowMs
-    || rawEndMs == null
-    || nowMs >= rawEndMs) return false;
-  const rawNames = new Set((current?.characters ?? []).map((entry) => cleanText(entry?.name ?? entry, 80)).filter(Boolean));
-  return (record?.featured ?? []).some((entry) => entry?.primary === true
-    && typeof entry?.name === 'string'
-    && rawNames.has(cleanText(entry.name, 80)));
-}
-
 function iso(value) {
   if (value == null || value === '') return null;
   let input = value;
@@ -448,7 +424,13 @@ function rosterEntry(rosters, game, name, sourceIcon = null) {
       : null;
     if (bySource) return bySource;
   }
-  const exact = rows.find((entry) => norm(entry?.name) === wanted || norm(entry?.displayName) === wanted || norm(entry?.id) === wanted);
+  const exact = rows.find((entry) => [
+    entry?.name,
+    entry?.displayName,
+    entry?.id,
+    entry?.profile?.full_name,
+    entry?.facts?.fullName,
+  ].some((value) => norm(value) === wanted));
   if (exact || game === 'wuwa') return exact ?? null;
   const aliases = rows.filter((entry) => {
     const candidate = norm(entry?.name ?? entry?.displayName);
@@ -529,11 +511,26 @@ function loadRosters(db = DATABASE) {
 
 function loadPrydwen(db = DATABASE) {
   const load = (file) => exists(path.join(db, file)) ? readJson(path.join(db, file)) : [];
-  return {
+  const result = {
     hsr: load('Prydwen/hsr/characters.json'),
     zzz: load('Prydwen/zzz/characters.json'),
     wuwa: load('Prydwen/ww/characters.json'),
   };
+  const titlesFile = path.join(db, 'WikiTitles', 'character-titles.json');
+  if (exists(titlesFile)) {
+    const titles = readJson(titlesFile)?.games ?? {};
+    for (const [game, rows] of Object.entries(result)) {
+      const sourceGame = game === 'wuwa' ? 'ww' : game;
+      const fullNames = new Map((titles[sourceGame]?.entries ?? [])
+        .filter((entry) => entry?.name && entry?.pageTitle)
+        .map((entry) => [norm(entry.name), cleanText(entry.pageTitle, 80)]));
+      for (const row of rows) {
+        const fullName = fullNames.get(norm(row?.name));
+        if (fullName && norm(fullName) !== norm(row?.name)) row.facts = { ...row.facts, fullName };
+      }
+    }
+  }
+  return result;
 }
 
 function localVariants(game, character, roster, db = DATABASE, prydwen = {}) {
@@ -551,9 +548,9 @@ function localVariants(game, character, roster, db = DATABASE, prydwen = {}) {
     add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.72, y: 0.5 });
     if (!variants.length) add(assets.drawCard, 'splash', 'draw-card', { fit: 'contain', x: 0.72, y: 0.5 });
   } else if (game === 'zzz') {
-    add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.74, y: 0.52 });
+    add(prydwen?.art?.full, 'splash', 'splash', { fit: 'contain', x: 0.74, y: 0.52 });
     const icon = assets.icon ?? assets.partnerIcon ?? assets.roleIcon;
-    if (!variants.length) add(icon, 'splash-fallback', 'icon', 'contain');
+    if (!variants.length) add(icon, 'splash-fallback', 'icon', { fit: 'contain', x: 0.74, y: 0.52 });
   } else if (game === 'wuwa') {
     add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.72, y: 0.52 });
     if (!variants.length) add(assets.portrait, 'splash-fallback', 'activity', { fit: 'contain', x: 0.72, y: 0.52 });
@@ -628,8 +625,10 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
   if (!name) return null;
   const roster = rosterEntry(rosters, game, name, raw?.image ?? raw?.icon);
   const provider = rosterEntry({ [game]: prydwen }, game, name);
-  const rosterIsExact = roster && [roster.name, roster.displayName, roster.id].some((value) => norm(value) === norm(name));
-  const providerIsExact = provider && [provider.name, provider.displayName, provider.id].some((value) => norm(value) === norm(name));
+  const rosterIsExact = roster && [roster.name, roster.displayName, roster.id, roster.profile?.full_name, roster.facts?.fullName]
+    .some((value) => norm(value) === norm(name));
+  const providerIsExact = provider && [provider.name, provider.displayName, provider.id, provider.profile?.full_name, provider.facts?.fullName]
+    .some((value) => norm(value) === norm(name));
   const record = rosterIsExact ? roster : providerIsExact ? provider : roster ?? provider ?? {};
   const rarity = parseRarity(raw?.rarity ?? record.rarity ?? record.facts?.rarity);
   const debut = parseDebut({ ...record, ...raw }) ?? sourcedDebut(debuts?.[game], name);
@@ -645,12 +644,16 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
     placement: { anchor: 'center', fit: 'cover', x: 0.5, y: 0.5 },
   } : null;
   const approvedLocalIcon = inspectAsset(raw?.image, 'character-icon', `${id}-icon`, { fit: 'cover', x: 0.5, y: 0.5 }, db);
-  const icon = localCharacterIcon(game, record, db) ?? approvedLocalIcon ?? verifiedArtIcon ?? remoteCharacterIcon(game, raw, `${id}-icon`);
-  const displayName = game === 'hsr'
-    && record
-    && norm(record.name) !== norm(name)
-    && norm(record.name).endsWith(norm(name))
-    ? cleanText(record.name, 80)
+  const icon = localCharacterIcon(game, record, db)
+    ?? (roster !== record ? localCharacterIcon(game, roster, db) : null)
+    ?? approvedLocalIcon
+    ?? verifiedArtIcon
+    ?? remoteCharacterIcon(game, raw, `${id}-icon`);
+  const expandedName = cleanText(record?.facts?.fullName ?? record?.profile?.full_name ?? record?.displayName ?? record?.name, 80);
+  const displayName = expandedName
+    && norm(expandedName) !== norm(name)
+    && (norm(expandedName).startsWith(norm(name)) || norm(expandedName).endsWith(norm(name)))
+    ? expandedName
     : name;
   return { id, name: displayName, rarity, limited, debut, icon, variants };
 }
@@ -789,6 +792,71 @@ function mergeFuturePhases(trusted, raw, currentEnd) {
   return result.sort((left, right) => left.start.localeCompare(right.start) || left.end.localeCompare(right.end));
 }
 
+function roadmapPhaseLabel(entry) {
+  const hint = cleanText(entry?.hint, 256);
+  const match = hint.match(/\b(?:Version|Patch)\s+(\d+(?:\.\d+)+)\b/i)
+    ?? hint.match(/\bRelease\s+in\s+(\d+(?:\.\d+)+)\b/i);
+  return match ? `Version ${match[1]}` : null;
+}
+
+function groupRoadmapAnnouncements(rows) {
+  const groups = new Map();
+  for (const row of rows) {
+    const phase = roadmapPhaseLabel(row);
+    const key = phase ?? '';
+    const group = groups.get(key) ?? { phase, characters: [] };
+    group.characters.push(row);
+    groups.set(key, group);
+  }
+  return [...groups.values()];
+}
+
+function mergePatchOnlyRoadmapIntoUpcoming(current, upcoming, roadmap) {
+  const currentMatch = cleanText(current?.phase, 48).match(/^(\d+(?:\.\d+)+)(?:\s+Phase\s+1)?$/i);
+  const next = upcoming?.[0];
+  if (!currentMatch || !next?.characters?.length) return;
+  const version = currentMatch[1];
+  const nextLabel = cleanText(next.phase, 48);
+  const labeledNext = nextLabel.match(/^(\d+(?:\.\d+)+)\s+Phase\s+2$/i);
+  if (nextLabel && labeledNext?.[1] !== version) return;
+  if (labeledNext?.[1] === version) current.phase = `${version} Phase 1`;
+  if (!nextLabel && /\bPhase\s+1$/i.test(current.phase)) next.phase = `${version} Phase 2`;
+  const seen = new Set([...(current.characters ?? []), ...next.characters]
+    .map((row) => norm(row?.name)).filter(Boolean));
+  const additions = [];
+  for (const row of roadmap) {
+    const name = norm(row?.name);
+    if (!name || seen.has(name)) continue;
+    const hint = cleanText(row?.hint, 256);
+    const versions = [...hint.matchAll(/\b(?:(?:Version|Patch)\s*|Release\s+in\s+)(\d+(?:\.\d+)+)\b/gi)]
+      .map((match) => match[1]);
+    const phases = [...hint.matchAll(/\bPhase\s*(\d+)\b/gi)].map((match) => Number(match[1]));
+    if (!versions.length || versions.some((value) => value !== version) || phases.some((value) => value !== 2)) continue;
+    additions.push(row);
+    seen.add(name);
+  }
+  if (!additions.length) return;
+  if (!next.phase) next.phase = `${version} Phase 2`;
+  current.phase = `${version} Phase 1`;
+  next.characters = [...additions, ...next.characters];
+}
+
+function historyPhaseLabel(records, region, version, targetStart) {
+  const weekMs = 7 * 24 * 60 * 60 * 1000;
+  const starts = [...new Set(records
+    .filter((record) => record?.bannerType === 'character'
+      && record?.permanent !== true
+      && cleanText(record?.version, 48) === version
+      && timestamp(iso(record.windowsByRegion?.[region]?.end)) > timestamp(iso(record.windowsByRegion?.[region]?.start)))
+    .map((record) => iso(record.windowsByRegion?.[region]?.start))
+    .filter(Boolean))]
+    .sort((left, right) => timestamp(left) - timestamp(right));
+  const first = timestamp(starts[0]);
+  const target = timestamp(targetStart);
+  if (!starts.some((start) => timestamp(start) - first >= weekMs)) return version;
+  return `${version} Phase ${target - first >= weekMs ? 2 : 1}`;
+}
+
 export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.now()) {
   const copy = structuredClone(banners ?? { games: [] });
   for (const group of copy.games ?? []) {
@@ -796,20 +864,17 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
     if (!game) continue;
     const corroboratingGroup = structuredClone(group);
     group._displayUpcoming = trustedRawFuturePhases(corroboratingGroup, nowMs);
+    const betaFile = { gi: 'GameData/gi/beta/characters.json', hsr: 'GameData/hsr/beta/characters.json', zzz: 'GameData/zzz/beta/agents.json', wuwa: 'GameData/ww/beta/characters.json' }[game];
+    const betaNames = new Set((betaFile && exists(path.join(db, betaFile)) ? readJson(path.join(db, betaFile)) : [])
+      .filter((entry) => entry?.contentStatus === 'beta')
+      .map((entry) => norm(entry?.name)));
+    const betaRoadmap = betaNames.size
+      ? (group.roadmap ?? []).filter((entry) => betaNames.has(norm(entry?.name)))
+      : [];
+    const roadmap = betaRoadmap.length ? betaRoadmap : (group.roadmap ?? []);
     const announcedSource = game === 'ae'
       ? (group.upcoming ?? []).filter((phase) => phase?.teased === true && phase?.start == null && phase?.end == null)
-      : Array.isArray(group.roadmap) && group.roadmap.length
-        ? [{ phase: null, characters: (() => {
-            const betaFile = { gi: 'GameData/gi/beta/characters.json', hsr: 'GameData/hsr/beta/characters.json', zzz: 'GameData/zzz/beta/agents.json', wuwa: 'GameData/ww/beta/characters.json' }[game];
-            const betaNames = new Set((betaFile && exists(path.join(db, betaFile)) ? readJson(path.join(db, betaFile)) : [])
-              .filter((entry) => entry?.contentStatus === 'beta')
-              .map((entry) => norm(entry?.name)));
-            const betaRoadmap = betaNames.size
-              ? group.roadmap.filter((entry) => betaNames.has(norm(entry?.name)))
-              : [];
-            return betaRoadmap.length ? betaRoadmap : group.roadmap;
-          })() }]
-        : [];
+      : groupRoadmapAnnouncements(roadmap);
     const announcedFreshness = game === 'ae' ? corroboratingGroup?.teaserFreshness : corroboratingGroup?.roadmapFreshness;
     const announcedIsFresh = (hasRecentGame8Source(corroboratingGroup, nowMs)
         && hasRecentGame8Observation(announcedFreshness, nowMs))
@@ -854,17 +919,15 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         const start = iso(window?.start);
         const end = iso(window?.end);
         if (!(timestamp(start) <= nowMs && nowMs < timestamp(end))) continue;
-        if (!hasIndependentCurrentCorroboration(corroboratingGroup, record, window, nowMs)) continue;
         const characters = (record.featured ?? [])
-          .filter((entry) => (entry?.primary === true || (game === 'ae' && parseRarity(entry?.rarity) === 6)) && norm(entry?.name))
+          .filter((entry) => norm(entry?.name) && (game !== 'ae' || parseRarity(entry?.rarity) === 6))
           .map((entry) => ({ name: cleanText(entry.name, 80), rarity: parseRarity(entry.rarity), limited: entry?.primary === true }));
         if (!characters.length) continue;
         candidateActive.push({ recordId: record.id, category: record.category, version: cleanText(record.version, 48) || null, start, end, characters });
       }
-      if (candidateActive.length) {
+      if (candidateActive.length > active.length) {
         region = candidateRegion;
         active = candidateActive;
-        break;
       }
     }
     if (!region || !active.length) continue;
@@ -903,8 +966,10 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         const activeEnd = timestamp(end);
         return Math.abs((leftEnd ?? 0) - activeEnd) - Math.abs((rightEnd ?? 0) - activeEnd);
       })[0];
+    const currentVersion = [...versions][0];
     group.current = {
-      phase: cleanText(labelledRawPhase?.phase, 48) || [...versions][0],
+      phase: cleanText(labelledRawPhase?.phase, 48)
+        || historyPhaseLabel(trusted, region, currentVersion, start),
       start,
       end,
       characters,
@@ -914,7 +979,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
     };
     const futureWindows = new Map();
     for (const record of trusted) {
-      if (record?.confirmed !== true || record?.bannerType !== 'character' || record?.permanent === true || !record?.category) continue;
+      if (record?.bannerType !== 'character' || record?.permanent === true || !record?.category) continue;
       const window = record.windowsByRegion?.[region];
       const futureStart = iso(window?.start);
       const futureEnd = iso(window?.end);
@@ -931,15 +996,17 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       for (const record of records.sort((left, right) => left.id.localeCompare(right.id))) {
         for (const featured of record.featured ?? []) {
           const futureName = cleanText(featured?.name, 80);
-          if (featured?.primary !== true || !futureName || futureCharacters.some((entry) => sameBannerCharacter(game, entry.name, futureName))) continue;
+          if (!futureName
+            || game === 'ae' && parseRarity(featured?.rarity) !== 6
+            || futureCharacters.some((entry) => sameBannerCharacter(game, entry.name, futureName))) continue;
           const image = sourceImages.get(norm(futureName));
-          const character = { name: futureName, rarity: parseRarity(featured.rarity), limited: true };
+          const character = { name: futureName, rarity: parseRarity(featured.rarity), limited: featured?.primary === true };
           futureCharacters.push(image ? { ...character, image } : character);
         }
       }
       if (!futureCharacters.length) return [];
       return [{
-        phase: [...futureVersions][0],
+        phase: historyPhaseLabel(trusted, region, [...futureVersions][0], futureStart),
         start: futureStart,
         end: futureEnd,
         characters: futureCharacters,
@@ -949,6 +1016,17 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       }];
     }).sort((left, right) => left.start.localeCompare(right.start));
     group._displayUpcoming = mergeFuturePhases(trustedUpcoming, group._displayUpcoming, group.current.end);
+    mergePatchOnlyRoadmapIntoUpcoming(group.current, group._displayUpcoming, roadmap);
+    const scheduledNames = new Set([group.current, ...group._displayUpcoming]
+      .flatMap((phase) => phase?.characters ?? [])
+      .map((entry) => norm(entry?.name))
+      .filter(Boolean));
+    group._displayAnnounced = group._displayAnnounced
+      .map((phase) => ({
+        ...phase,
+        characters: phase.characters.filter((entry) => !scheduledNames.has(norm(entry?.name))),
+      }))
+      .filter((phase) => phase.characters.length > 0);
     // Current state remains history-authoritative. Future Game8 windows may fill
     // gaps from a recent scrape or its explicitly preserved bounded fallback.
   }

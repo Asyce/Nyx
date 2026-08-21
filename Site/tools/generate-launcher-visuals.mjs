@@ -1,6 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import os from 'node:os';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 
@@ -40,6 +43,7 @@ const WUWA_MEDIA_HOSTS = new Set([
 
 const sha256 = (bytes) => crypto.createHash('sha256').update(bytes).digest('hex');
 const cleanText = (value, max = 80) => String(value ?? '').replace(/[\u0000-\u001f\u007f]/g, '').trim().slice(0, max);
+const execFileAsync = promisify(execFile);
 
 function canonicalizeEntry(entry) {
   if (!entry || !Array.isArray(entry.assets)) return entry;
@@ -274,6 +278,29 @@ function isWebm(bytes) {
   return bytes.length >= 4 && bytes.subarray(0, 4).equals(Buffer.from([0x1a, 0x45, 0xdf, 0xa3]));
 }
 
+export async function transcodeGenshinVideo(bytes, { execFileImpl = execFileAsync } = {}) {
+  if (!Buffer.isBuffer(bytes) || !isWebm(bytes)) throw new Error('Genshin launcher animation is not a WebM file.');
+  const directory = await fs.mkdtemp(path.join(os.tmpdir(), 'nyx-genshin-video-'));
+  const input = path.join(directory, 'input.webm');
+  const output = path.join(directory, 'output.mp4');
+  try {
+    await fs.writeFile(input, bytes);
+    await execFileImpl('ffmpeg', [
+      '-hide_banner', '-loglevel', 'error', '-nostdin', '-y',
+      '-i', input, '-map', '0:v:0', '-an',
+      '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '23',
+      '-pix_fmt', 'yuv420p', '-movflags', '+faststart',
+      '-map_metadata', '-1', '-metadata', 'creation_time=1970-01-01T00:00:00Z',
+      '-fflags', '+bitexact', '-flags:v', '+bitexact', '-threads', '1', output,
+    ], { windowsHide: true, timeout: 5 * 60_000, maxBuffer: 1024 * 1024 });
+    const result = await fs.readFile(output);
+    if (!isMp4(result) || result.length > MAX_VIDEO_BYTES) throw new Error('Genshin launcher animation transcode is invalid.');
+    return result;
+  } finally {
+    await fs.rm(directory, { recursive: true, force: true });
+  }
+}
+
 async function buildWuwaEntry(fetchImpl, previous) {
   try {
     const configBytes = await fetchTrustedBytes(WUWA_CONFIG_URL, {
@@ -337,33 +364,42 @@ async function buildWuwaEntry(fetchImpl, previous) {
 async function verifiedPreviousHoyoEntry(game, entry, corroborated = null) {
   try {
     const asset = entry?.kind === 'video' && entry?.assets?.length === 1 ? entry.assets[0] : null;
+    const genshin = game === 'gi';
+    const mediaType = genshin ? 'video/mp4' : 'video/webm';
+    const extension = genshin ? '.mp4' : '.webm';
     if (!asset
-      || asset.mediaType !== 'video/webm'
+      || asset.mediaType !== mediaType
       || !/^[a-f0-9]{64}$/.test(asset.sha256)
       || !Number.isSafeInteger(asset.size)
       || asset.size <= 0
       || asset.size > MAX_VIDEO_BYTES) return null;
     const assetUrl = new URL(asset.url);
-    if (assetUrl.href !== `${ASSET_ORIGIN}/launcher-visuals/${asset.sha256}.webm`) return null;
+    if (assetUrl.href !== `${ASSET_ORIGIN}/launcher-visuals/${asset.sha256}${extension}`) return null;
 
     const parsed = corroborated ? null : parseOfficialHoyoVideo(entry?.source?.officialUrl);
     const sourcePath = corroborated?.path ?? (parsed && `${ARCHIVE_DIRECTORIES[game]}${parsed.date}_${parsed.file}`);
     const officialUrl = corroborated?.officialUrl ?? parsed?.url;
     const officialDigest = corroborated?.officialDigest ?? parsed?.digest;
-    if (!sourcePath || !officialUrl || !officialDigest || entry?.source?.path !== sourcePath) return null;
+    if (!sourcePath
+      || !officialUrl
+      || !officialDigest
+      || entry?.source?.path !== sourcePath
+      || genshin && (entry?.source?.encoding !== 'h264-yuv420p' || entry?.source?.officialMd5 !== officialDigest)) return null;
 
-    const file = path.join(VISUALS, `${asset.sha256}.webm`);
+    const file = path.join(VISUALS, `${asset.sha256}${extension}`);
     const stat = await fs.lstat(file);
     if (!stat.isFile() || stat.size !== asset.size) return null;
     const bytes = await fs.readFile(file);
     if (sha256(bytes) !== asset.sha256
-      || crypto.createHash('md5').update(bytes).digest('hex') !== officialDigest) return null;
+      || !(genshin ? isMp4(bytes) : isWebm(bytes))
+      || !genshin && crypto.createHash('md5').update(bytes).digest('hex') !== officialDigest) return null;
     return {
       kind: 'video',
       source: {
         repository: `https://github.com/${ARCHIVE_REPO}`,
         path: sourcePath,
         officialUrl,
+        ...(genshin ? { officialMd5: officialDigest, encoding: 'h264-yuv420p' } : {}),
       },
       assets: [{ ...asset, url: assetUrl.href }],
     };
@@ -428,14 +464,16 @@ async function buildHoyoEntries(fetchImpl, previousGames = {}) {
         || crypto.createHash('md5').update(bytes).digest('hex') !== current.officialDigest) {
         throw new Error(`${game} official launcher animation does not match its official filename.`);
       }
+      const output = game === 'gi' ? await transcodeGenshinVideo(bytes) : bytes;
       entries[game] = {
         kind: 'video',
         source: {
           repository: `https://github.com/${ARCHIVE_REPO}`,
           path: current.path,
           officialUrl: current.officialUrl,
+          ...(game === 'gi' ? { officialMd5: current.officialDigest, encoding: 'h264-yuv420p' } : {}),
         },
-        assets: [await mirror(bytes, '.webm', 'video/webm')],
+        assets: [await mirror(output, game === 'gi' ? '.mp4' : '.webm', game === 'gi' ? 'video/mp4' : 'video/webm')],
       };
     } catch (error) {
       entries[game] = matchingPrevious ?? await verifiedPreviousHoyoEntry(game, previous);

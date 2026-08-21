@@ -10,6 +10,7 @@ import {
   parseOfficialEndfieldVideo,
   parseWuwaBackground,
   selectCorroboratedArchiveFiles,
+  transcodeGenshinVideo,
 } from '../generate-launcher-visuals.mjs';
 import { verifyLauncherVisuals } from '../verify-launcher-visuals.mjs';
 import {
@@ -75,6 +76,22 @@ test('the exact official launcher animation is selected despite a newer archive 
 
   assert.equal(selected.gi.path, 'archive/gopR6Cufr3/20260811_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_1.webm');
   assert.equal(selected.gi.officialUrl, officialUrls.gi);
+});
+
+test('Genshin launcher WebM is converted to WinUI-compatible H.264 MP4', async () => {
+  const source = Buffer.from([0x1a, 0x45, 0xdf, 0xa3, 1, 2, 3, 4]);
+  let args;
+  const result = await transcodeGenshinVideo(source, {
+    execFileImpl: async (file, received) => {
+      assert.equal(file, 'ffmpeg');
+      args = received;
+      await fs.writeFile(received.at(-1), Buffer.from('0000ftypisom-genshin-test'));
+    },
+  });
+
+  assert.equal(result.toString(), '0000ftypisom-genshin-test');
+  assert.ok(args.includes('libx264'));
+  assert.ok(args.includes('yuv420p'));
 });
 
 test('trusted downloads reject redirects and unexpected media types', async () => {
@@ -157,6 +174,8 @@ test('daily data refresh verifies and pushes launcher backgrounds before publish
   const push = workflow.indexOf('run: git push', verify);
   const publish = workflow.indexOf('npm run sync:launcher-visuals:r2 -- --apply', push);
   assert.ok(refresh >= 0 && verify > refresh && visualOnlyFeed > verify && snapshot > visualOnlyFeed && push > snapshot && publish > push);
+  const refreshBlock = workflow.slice(workflow.lastIndexOf('- name: Refresh and verify official launcher backgrounds', refresh), visualOnlyFeed);
+  assert.match(refreshBlock, /command -v ffmpeg[\s\S]*apt-get install --no-install-recommends -y ffmpeg[\s\S]*npm run generate:launcher-visuals/);
   const visualOnlyBlock = workflow.slice(visualOnlyFeed, snapshot);
   assert.match(visualOnlyBlock, /steps\.data_commit\.outputs\.changed != 'true' && steps\.launcher_visuals\.outputs\.changed == 'true'/);
   assert.match(visualOnlyBlock, /npm run generate:data && npm run refresh:launcher/);

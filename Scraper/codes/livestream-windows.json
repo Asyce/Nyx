@@ -1,3 +1,13 @@
 {
-  "windows": []
+  "windows": [
+    {
+      "game": "wuwa",
+      "startsAt": "2026-08-21T03:00:06Z",
+      "endsAt": "2026-08-24T15:00:06Z",
+      "mode": "deep",
+      "note": "Insider Channel: Special Program | Crystal Clear",
+      "source": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=om6QZVMX9-M"
+    }
+  ]
 }

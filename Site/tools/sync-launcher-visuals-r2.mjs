@@ -12,7 +12,7 @@ const generated = path.join(site, 'src', 'data', 'generated');
 const bucket = 'nyx-database-assets';
 const immutableCache = 'public,max-age=31536000,immutable';
 const manifestCache = 'public,max-age=60,must-revalidate';
-const requestTimeoutMs = 15_000;
+const requestTimeoutMs = 60_000;
 const maxManifestBytes = 512 * 1024;
 const wranglerScript = path.join(site, 'node_modules', 'wrangler', 'bin', 'wrangler.js');
 const execFileAsync = promisify(execFile);

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T00:44:10.125Z",
+  "generatedAt": "2026-08-21T15:24:44.733Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-21T00:44:10.125Z",
+      "lastSuccessfulFetch": "2026-08-21T15:24:44.632Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -158,7 +158,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-21T00:44:10.116Z",
+      "lastSuccessfulFetch": "2026-08-21T15:24:44.656Z",
       "codes": [
         {
           "code": "NSJR3B97ZZ5X",
@@ -326,7 +326,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-21T00:44:10.120Z",
+      "lastSuccessfulFetch": "2026-08-21T15:24:44.598Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -380,7 +380,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-21T00:44:10.095Z",
+      "lastSuccessfulFetch": "2026-08-21T15:24:44.732Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -434,8 +434,18 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-21T00:44:10.075Z",
+      "lastSuccessfulFetch": "2026-08-21T15:24:44.221Z",
       "codes": [
+        {
+          "code": "AKENDFIELDSUB",
+          "rewards": "100 Oroberyl",
+          "added": "2026-08-20",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=AKENDFIELDSUB",
+          "premium": true,
+          "premium100": true,
+          "cwSeen": false,
+          "firstSeen": "2026-08-21T15:24:44.221Z"
+        },
         {
           "code": "ENDFIELDRENEW",
           "rewards": "One Safety Helmet Sticker and 71,600 T Creds",

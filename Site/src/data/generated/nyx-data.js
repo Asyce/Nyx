@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-21T15:01:48.179Z",
+  "generatedAt": "2026-08-21T15:25:05.522Z",
   "codes": {
-    "updated": "2026-08-21T00:44:10.125Z",
+    "updated": "2026-08-21T15:24:44.733Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -480,6 +480,23 @@ var NYX_DB = {
         }
       ],
       "ae": [
+        {
+          "code": "AKENDFIELDSUB",
+          "reward": "100 Oroberyl",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-08-20",
+          "firstSeen": "2026-08-21T15:24:44.221Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=AKENDFIELDSUB",
+          "redeemUrl": null
+        },
         {
           "code": "ENDFIELDRENEW",
           "reward": "One Safety Helmet Sticker and 71,600 T Creds",
@@ -187886,6 +187903,23 @@ var NYX_DB = {
         }
       ],
       "codes": [
+        {
+          "code": "AKENDFIELDSUB",
+          "reward": "100 Oroberyl",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-08-20",
+          "firstSeen": "2026-08-21T15:24:44.221Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=AKENDFIELDSUB",
+          "redeemUrl": null
+        },
         {
           "code": "ENDFIELDRENEW",
           "reward": "One Safety Helmet Sticker and 71,600 T Creds",

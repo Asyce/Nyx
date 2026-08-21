@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "8337e25ce5ab4f6dfb4c45f147ff6bb0005a56e908a6509a5cf80eefaf417ca5",
-  "generatedAt": "2026-08-21T15:01:49.789Z",
+  "revision": "cfa2efaaf720f3ea4a813a60b2c413e2ff9d4ac821fc605669f3aa1e4a15092a",
+  "generatedAt": "2026-08-21T15:25:07.120Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 932289
+          "durationSeconds": 930891
         },
         "characters": [
           {
@@ -789,7 +789,7 @@
         "remaining": {
           "startsAt": "2026-08-05T04:00:00.000Z",
           "endsAt": "2026-08-25T07:00:00.000Z",
-          "durationSeconds": 316690
+          "durationSeconds": 315292
         },
         "characters": [
           {
@@ -1982,7 +1982,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1526289
+          "durationSeconds": 1524891
         },
         "characters": [
           {
@@ -2918,7 +2918,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1706230
+          "durationSeconds": 1704832
         },
         "characters": [
           {
@@ -3685,7 +3685,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 975489
+          "durationSeconds": 974091
         },
         "characters": [
           {
@@ -4181,6 +4181,12 @@
         }
       ],
       "codes": [
+        {
+          "code": "AKENDFIELDSUB",
+          "added": "2026-08-20",
+          "amount": 100,
+          "currency": "Oroberyl"
+        },
         {
           "code": "ENDFIELDGIFT",
           "added": "2026-05-03",

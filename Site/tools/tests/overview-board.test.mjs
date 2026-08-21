@@ -116,6 +116,68 @@ test('what is live comes from the official history, not the community scrape', (
   // the build at every phase boundary.
 });
 
+test('Endfield loss pool follows Chartered banner history', async () => {
+  const history = JSON.parse(await readFile(path.resolve(root, '../Database/BannerHistory/ae.json'), 'utf8'));
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(`
+    ${sourceFunction('endfieldLossPool', generator)}
+    ${sourceFunction('latestBannerRow', generator)}
+    ${sourceFunction('endfieldLiveLossPool', generator)}
+    window.endfieldLossPool = endfieldLossPool;
+    window.latestBannerRow = latestBannerRow;
+    window.endfieldLiveLossPool = endfieldLiveLossPool;
+  `, box);
+
+  const earliestStart = (record) => Math.min(...Object.values(record.windowsByRegion || {})
+    .map((window) => Date.parse(window?.start)).filter(Number.isFinite));
+  const eligible = history.records
+    .filter((record) => record.bannerType === 'character' && !record.permanent)
+    .map((record) => ({
+      record,
+      primary:(record.featured || []).find((entry) => entry.primary === true && Number(entry.rarity) === 6 && entry.name),
+      start:earliestStart(record),
+    }))
+    .filter((row) => row.primary && Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start);
+  assert.ok(eligible.length >= 3, 'real history needs a current and two preceding Chartered rate-ups');
+  const permanent = [...new Set(history.records
+    .filter((record) => record.bannerType === 'character' && record.permanent)
+    .flatMap((record) => record.featured || [])
+    .filter((entry) => Number(entry.rarity) === 6 && entry.name)
+    .map((entry) => entry.name))];
+  for (const [index, current] of eligible.entries()) {
+    const pool = box.window.endfieldLossPool(history.records, current.record);
+    assert.equal(pool.current.name, current.primary.name);
+    assert.deepEqual(
+      Array.from(pool.previous, (entry) => entry.name),
+      eligible.slice(Math.max(0, index - 2), index).reverse().map((row) => row.primary.name),
+    );
+    assert.deepEqual(Array.from(pool.permanent, (entry) => entry.name), permanent);
+  }
+  const rollover = [
+    { start:eligible.at(-2).start, record:eligible.at(-2).record },
+    { start:eligible.at(-1).start, record:eligible.at(-1).record },
+  ];
+  assert.equal(box.window.endfieldLiveLossPool(history.records, rollover).current.name, eligible.at(-1).primary.name);
+  assert.equal(box.window.endfieldLiveLossPool(history.records, rollover.reverse()).current.name, eligible.at(-1).primary.name);
+
+  const primaryless = history.records
+    .filter((record) => record.bannerType === 'character' && !record.permanent && !(record.featured || []).some((entry) => entry.primary === true))
+    .map((record) => ({ record, start:earliestStart(record) }))
+    .filter((row) => Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start)
+    .at(-1);
+  const preceding = primaryless && eligible.filter((row) => row.start < primaryless.start).at(-1);
+  assert.ok(primaryless && preceding, 'real history needs a primary-less overlap candidate');
+  const filteredPool = box.window.endfieldLiveLossPool(history.records, [
+    { start:preceding.start, record:preceding.record },
+    primaryless,
+  ]);
+  assert.equal(filteredPool.current.name, preceding.primary.name);
+  assert.match(generator, /const pool = key === 'ae' \? endfieldLiveLossPool\(records, live\) : null/);
+});
+
 test('a patch-only roadmap character joins the known second phase', () => {
   const box = { window:{} };
   vm.createContext(box);
@@ -160,10 +222,13 @@ test('the board splits each phase into a headline banner and the rest', () => {
   // Lower-rarity featured units are omitted; Endfield alone keeps its 50/50
   // loss pool on the headline card.
   assert.match(appSource, /cfg\.key === 'ae' \? ranked\.filter/);
+  assert.match(appSource, /support:lossPool \? lossPool\.previous/);
+  assert.match(appSource, /current:phase\.lossPool\.current \? phaseUnit/);
+  assert.match(appSource, /lossPool,/);
   assert.doesNotMatch(appSource, /function BannerBoardRail/);
   assert.doesNotMatch(sharedCss, /\.gp-ovb-rank-rail/);
   assert.match(appSource, /others:cfg\.key === 'ae' \? column\.support : \[\]/);
-  assert.match(appSource, /support:cfg\.key === 'ae'[\s\S]*?: \[\]/);
+  assert.match(appSource, /:\s*cfg\.key === 'ae' \? ranked\.filter[\s\S]*?: \[\]/);
 });
 
 test('the overview renders five banner columns and folds the old rail into the grid', () => {
@@ -199,11 +264,37 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   // Losing the 50/50 in Endfield gives one of the previous banner characters,
   // so those names are a loss pool, not banners running alongside.
   assert.match(appSource, /const lossPool = cfg\.key === 'ae'/);
-  // The pool now sits on the headline card, labelled there...
-  assert.match(appSource, /supportLabel:cfg\.key === 'ae' \? 'Available on loss' : null/);
-  // The "?" opens a self-hosted copy of the rate table — never a hotlink.
-  assert.match(appSource, /assets\/info\/endfield-loss-rates\.webp/);
-  assert.doesNotMatch(appSource, /cdn\.prydwen\.gg/);
+  // The full white label is the one help button; there is no nested "?".
+  assert.match(appSource, /supportLabel:column\.lossPool \? 'Available on loss' : null/);
+  assert.match(appSource, /\{\(card\.supportLabel \|\| card\.others\.length > 0\) && \(/);
+  assert.match(appSource, /<button type="button" className="gp-oban-supports-label"[\s\S]{0,180}>\{card\.supportLabel\}<\/button>/);
+  assert.match(appSource, /aria-haspopup="dialog"/);
+  assert.doesNotMatch(appSource, /gp-oban-supports-help/);
+  assert.doesNotMatch(sharedCss, /gp-oban-supports-help/);
+  assert.doesNotMatch(appSource, /endfield-loss-rates\.webp/);
+  assert.match(sharedCss, /\.gp-oban-supports-label\{[\s\S]{0,400}color:var\(--nyx-color-text-max\)/);
+  assert.match(sharedCss, /button\.gp-oban-supports-label:focus-visible/);
+  // Native dialog behavior supplies focus trapping and Escape; Nyx wires open,
+  // close, and backdrop clicks while rendering the generated pool itself.
+  assert.match(appSource, /const currentLossPool = board\.current\?\.lossPool/);
+  assert.match(appSource, /dialog\.showModal\(\)/);
+  assert.match(appSource, /<dialog ref=\{lossDialogRef\}/);
+  const lossDialogStart = appSource.indexOf('<dialog ref={lossDialogRef}');
+  const lossDialog = appSource.slice(lossDialogStart, appSource.indexOf('</dialog>', lossDialogStart));
+  assert.doesNotMatch(lossDialog, /onCancel=/);
+  assert.match(lossDialog, /event\.key === 'Escape'/);
+  assert.match(appSource, /event\.target === event\.currentTarget/);
+  assert.match(appSource, /outcome:'Rate-up win'/);
+  assert.match(appSource, /outcome:'Available on loss'/);
+  assert.match(appSource, /<strong>\{row\.outcome\}<\/strong>/);
+  assert.match(appSource, /currentLossPool\.permanent\.map/);
+  assert.match(appSource, /<BannerUnit unit=\{row\.unit\}/);
+  assert.match(sharedCss, /\.gp-ovb-modal\{[\s\S]{0,250}margin:auto/);
+  assert.match(sharedCss, /\.gp-ovb-modal::backdrop/);
+  assert.match(sharedCss, /@media \(max-width:640px\)\{[\s\S]*?\.gp-ovb-loss-sequence/);
+  assert.match(generator, /function endfieldLossPool/);
+  assert.match(generator, /current\.lossPool = \{/);
+  assert.match(generator, /normalizeBannerCharacter\(rosters, key, pool\.current, runCounts\)/);
   // Endfield fills columns 2-4 with what is coming and drops the fifth.
   assert.match(appSource, /const aeUpcoming = lossPool \? laterUnits\.slice\(0, 3\) : \[\]/);
   assert.match(appSource, /if \(!lossPool\) \{/);

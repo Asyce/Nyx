@@ -832,18 +832,14 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
             <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} />
           ))}
         </div>
-        {!!card.others.length && (
+        {(card.supportLabel || card.others.length > 0) && (
           <div className="gp-oban-supports">
-            {card.supportLabel && (
-              <span className="gp-oban-supports-label">
-                {card.supportLabel}
-                {card.supportHelp && (
-                  <button type="button" className="gp-oban-supports-help"
-                          aria-label={card.supportHelp.label}
-                          onClick={() => card.supportHelp.onOpen()}>?</button>
-                )}
-              </span>
-            )}
+            {card.supportLabel && (card.supportHelp
+              ? <button type="button" className="gp-oban-supports-label"
+                        aria-label={card.supportHelp.label}
+                        aria-haspopup="dialog"
+                        onClick={card.supportHelp.onOpen}>{card.supportLabel}</button>
+              : <span className="gp-oban-supports-label">{card.supportLabel}</span>)}
             {card.others.map((unit) => (
               <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} showBadge={false} />
             ))}
@@ -877,26 +873,35 @@ function bannerBoardColumn(cfg, phase, status){
   if (!phase) return null;
   const rosterMap = rosterUnitMap(cfg);
   const rank = bannerFeaturedRank(cfg.key);
+  const lossPool = phase.lossPool ? {
+    current:phase.lossPool.current ? phaseUnit(cfg, phase.lossPool.current, rosterMap, 0) : null,
+    previous:dedupeByName((phase.lossPool.previous || []).map((unit, index) => phaseUnit(cfg, unit, rosterMap, index))).filter((unit) => unit.name),
+    permanent:dedupeByName((phase.lossPool.permanent || []).map((unit, index) => phaseUnit(cfg, unit, rosterMap, index))).filter((unit) => unit.name),
+  } : null;
   const all = dedupeByName((phase.characters || []).map((ch, i) => phaseUnit(cfg, ch, rosterMap, i))).filter((unit) => unit.name);
   const units = all.filter((unit) => !unit.rarity || unit.rarity >= rank);
-  if (!units.length) return null;
+  if (!units.length && !lossPool?.current) return null;
   // Headline order: whoever is debuting, else whoever joined the game most
   // recently (user 2026-08-08 — a phase pairing a recent character with an
   // ancient rerun should lead with the recent one), else feed order.
   const ranked = [...units].sort(bannerUnitRecency);
   // Endfield keeps its paired headline cards; every other game demotes the
   // simultaneous 5-star banners into compact rows under the newest one.
-  const heroes = cfg.key === 'ae' && units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1);
+  const heroes = lossPool?.current
+    ? [lossPool.current]
+    : (cfg.key === 'ae' && units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1));
   return {
     status,
     label:phase.phase || null,
     start:phase.start ? new Date(phase.start).getTime() : NaN,
     end:phase.end ? new Date(phase.end).getTime() : NaN,
     heroes,
-    others:ranked.filter((unit) => !heroes.includes(unit)),
+    others:ranked.filter((unit) => !heroes.some((hero) => normalizeUnitName(hero.name) === normalizeUnitName(unit.name))),
     // Endfield's off-banner headliners are its loss pool. Other games omit
     // lower-rarity featured characters (user 2026-08-13).
-    support:cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit)) : [],
+    support:lossPool ? lossPool.previous
+      : cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit)) : [],
+    lossPool,
   };
 }
 
@@ -1118,8 +1123,15 @@ function BannerBoardNote({ title, children }){
 
 function OverviewBannerBoard({ cfg, onOpenMaterial }){
   const now = useNowTick(1000);
-  // Endfield's loss-rate explainer, opened from the "?" beside the pool.
-  const [lossHelp, setLossHelp] = React.useState(false);
+  const lossDialogRef = React.useRef(null);
+  const openLossHelp = React.useCallback(() => {
+    const dialog = lossDialogRef.current;
+    if (dialog && !dialog.open) dialog.showModal();
+  }, []);
+  const closeLossHelp = React.useCallback(() => {
+    const dialog = lossDialogRef.current;
+    if (dialog?.open) dialog.close();
+  }, []);
   const board = React.useMemo(() => overviewBannerBoard(cfg), [cfg.key]);
   // A banner name is a link into that character's own page, and the Back button
   // there returns here rather than to the roster (user 2026-08-09). Only units
@@ -1138,6 +1150,10 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       ? () => openUnit(unit)
       : null
   ), [onOpenMaterial, rosterMap, openUnit]);
+  const lossUnitLink = React.useCallback((unit) => {
+    const open = unitLink(unit);
+    return open ? () => { closeLossHelp(); open(); } : null;
+  }, [unitLink, closeLossHelp]);
   // The column heading above already names the phase, so the card does not
   // repeat it — that space belongs to the splash art.
   const heroCard = (column, hero, index) => ({
@@ -1153,9 +1169,9 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     // ZZZ agent renders are full-body; letting them cover the card crops the
     // agent to a torso, so they are contained and zoomed instead.
     containArt:cfg.key === 'zzz',
-    supportLabel:cfg.key === 'ae' ? 'Available on loss' : null,
-    supportHelp:cfg.key === 'ae'
-      ? { label:'How the loss rates work', onOpen:() => setLossHelp(true) }
+    supportLabel:column.lossPool ? 'Available on loss' : null,
+    supportHelp:column.lossPool
+      ? { label:'Available on loss', onOpen:openLossHelp }
       : null,
     // One art only — a two-entry pool would crossfade the splash against the
     // namecard every few seconds.
@@ -1163,6 +1179,12 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   });
   const heroCards = (column) => (column ? column.heroes.map((hero, index) => heroCard(column, hero, index)) : []);
   const currentHeroes = heroCards(board.current);
+  const currentLossPool = board.current?.lossPool || null;
+  const lossSequence = currentLossPool ? [
+    { label:'Current banner', outcome:'Rate-up win', unit:currentLossPool.current },
+    { label:'Previous banner', outcome:'Available on loss', unit:currentLossPool.previous[0] },
+    { label:'Two banners ago', outcome:'Available on loss', unit:currentLossPool.previous[1] },
+  ].filter((row) => row.unit) : [];
   // Endfield's off-banner characters are the loss pool, not parallel banners.
   const lossPool = cfg.key === 'ae';
   const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, column, label:bannerPhaseHeading(column) })));
@@ -1250,14 +1272,38 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       <BannerBoardColumn>
         {aeColumn(2)}
       </BannerBoardColumn>
-      {lossHelp && (
-        <div className="gp-ovb-modal" role="dialog" aria-modal="true" aria-label="Endfield loss rates"
-             onClick={() => setLossHelp(false)}>
-          <div className="gp-ovb-modal-box" onClick={(event) => event.stopPropagation()}>
-            <button type="button" className="gp-ovb-modal-close" onClick={() => setLossHelp(false)} aria-label="Close">×</button>
-            <img src="../assets/info/endfield-loss-rates.webp" alt="Arknights: Endfield headhunting rates, showing what a 50/50 loss can give" />
+      {currentLossPool && (
+        <dialog ref={lossDialogRef} className="gp-ovb-modal" aria-labelledby="gp-endfield-loss-title"
+                onKeyDown={(event) => { if (event.key === 'Escape') closeLossHelp(); }}
+                onClick={(event) => { if (event.target === event.currentTarget) closeLossHelp(); }}>
+          <div className="gp-ovb-modal-box">
+            <div className="gp-ovb-modal-head">
+              <div>
+                <span>Chartered Headhunting</span>
+                <h2 id="gp-endfield-loss-title">Available on loss</h2>
+              </div>
+              <button type="button" className="gp-ovb-modal-close" onClick={closeLossHelp} aria-label="Close">×</button>
+            </div>
+            <p className="gp-ovb-loss-rule">The current banner is the win. On a 6★ loss, you can get up to two preceding rate-ups or a permanent operator. A rate-up leaves after its third Chartered banner.</p>
+            <div className="gp-ovb-loss-sequence" aria-label="Recent Chartered rate-ups">
+              {lossSequence.map((row) => (
+                <div className="gp-ovb-loss-step" key={row.label}>
+                  <span>{row.label}</span>
+                  <BannerUnit unit={row.unit} onOpen={lossUnitLink(row.unit)} showBadge={false} />
+                  <strong>{row.outcome}</strong>
+                </div>
+              ))}
+            </div>
+            <section className="gp-ovb-loss-permanent" aria-labelledby="gp-endfield-permanent-title">
+              <h3 id="gp-endfield-permanent-title">Permanent operators · Available on loss</h3>
+              <div>
+                {currentLossPool.permanent.map((unit) => (
+                  <BannerUnit key={unit.name} unit={unit} onOpen={lossUnitLink(unit)} showBadge={false} />
+                ))}
+              </div>
+            </section>
           </div>
-        </div>
+        </dialog>
       )}
     </section>
   );

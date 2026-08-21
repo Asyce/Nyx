@@ -6230,6 +6230,46 @@ function normalizeBannerPhase(rosters, key, phase, runCounts) {
   };
 }
 
+function endfieldLossPool(records, currentRecord) {
+  const primary = (record) => (record?.featured || [])
+    .find((entry) => entry?.primary === true && Number(entry.rarity) === 6 && entry.name);
+  const earliestStart = (record) => Math.min(...Object.values(record?.windowsByRegion || {})
+    .map((window) => Date.parse(window?.start)).filter(Number.isFinite));
+  const chartered = (records || [])
+    .filter((record) => record?.bannerType === 'character' && !record.permanent)
+    .map((record) => ({ record, entry:primary(record), start:earliestStart(record) }))
+    .filter((row) => row.entry && Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start);
+  const currentIndex = chartered.findIndex(({ record }) => record === currentRecord
+    || (record?.id && record.id === currentRecord?.id));
+  const permanent = [];
+  const seen = new Set();
+  for (const record of (records || []).filter((row) => row?.bannerType === 'character' && row.permanent)) {
+    for (const entry of record.featured || []) {
+      const id = String(entry?.name || '').toLowerCase();
+      if (Number(entry?.rarity) !== 6 || !id || seen.has(id)) continue;
+      seen.add(id);
+      permanent.push(entry);
+    }
+  }
+  return {
+    current:currentIndex < 0 ? null : chartered[currentIndex].entry,
+    previous:currentIndex < 0 ? [] : chartered.slice(Math.max(0, currentIndex - 2), currentIndex).reverse().map((row) => row.entry),
+    permanent,
+  };
+}
+
+function latestBannerRow(rows) {
+  return rows.reduce((latest, row) => row.start > latest.start ? row : latest, rows[0]);
+}
+
+function endfieldLiveLossPool(records, liveRows) {
+  const eligible = (liveRows || [])
+    .map((row) => ({ ...row, lossPool:endfieldLossPool(records, row.record) }))
+    .filter((row) => row.lossPool.current);
+  return eligible.length ? latestBannerRow(eligible).lossPool : null;
+}
+
 // What is live right now, straight from the official banner history.
 //
 // The community banner scrape is the only source for what is COMING, but it
@@ -6255,7 +6295,7 @@ function officialPhaseFrom(rows, key, rosters, runCounts) {
   if (!characters.length) return null;
   // A just-announced phase often has a start and no published end yet.
   const ends = rows.map((row) => row.end).filter((value) => Number.isFinite(value));
-  const latestPhase = rows.reduce((latest, row) => row.start > latest.start ? row : latest, rows[0]);
+  const latestPhase = latestBannerRow(rows);
   return {
     phase: latestPhase.phase || latestPhase.record.version || null,
     start: new Date(Math.min(...rows.map((row) => row.start))).toISOString(),
@@ -6335,8 +6375,17 @@ function officialPhases(key, rosters, runCounts, now) {
   // "Next" is only the soonest future phase, not everything on the wiki.
   const soonest = future.length ? Math.min(...future.map((row) => row.start)) : null;
   const nextRows = soonest === null ? [] : future.filter((row) => row.start - soonest < 36 * 60 * 60 * 1000);
+  const current = officialPhaseFrom(live, key, rosters, runCounts);
+  const pool = key === 'ae' ? endfieldLiveLossPool(records, live) : null;
+  if (current && pool) {
+    current.lossPool = {
+      current:normalizeBannerCharacter(rosters, key, pool.current, runCounts),
+      previous:pool.previous.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
+      permanent:pool.permanent.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
+    };
+  }
   return {
-    current:officialPhaseFrom(live, key, rosters, runCounts),
+    current,
     next:officialPhaseFrom(nextRows, key, rosters, runCounts),
   };
 }

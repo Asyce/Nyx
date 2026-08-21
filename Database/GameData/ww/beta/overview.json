@@ -10,7 +10,7 @@
     "3.6",
     "3.6+365"
   ],
-  "scrapedAt": "2026-08-19T15:02:39.532Z",
+  "scrapedAt": "2026-08-21T14:57:41.238Z",
   "counts": {
     "characters": 62,
     "weapons": 131,
@@ -94,7 +94,7 @@
       89103066,
       89400006
     ],
-    "hotfix": "3.6.4"
+    "hotfix": "3.6.7"
   },
   "files": {
     "characters": "GameData/ww/beta/characters.json",

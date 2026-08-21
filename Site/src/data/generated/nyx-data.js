@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-21T00:05:34.379Z",
+  "generatedAt": "2026-08-21T00:44:30.504Z",
   "codes": {
-    "updated": "2026-08-18T00:40:57.915Z",
+    "updated": "2026-08-21T00:44:10.125Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -408,7 +408,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ2YEAR",
-          "reward": "50 Polychrome",
+          "reward": "Polychrome x 50",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -422,7 +422,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ31REMIELLE",
-          "reward": "60 Polychrome and 6,666 Denny",
+          "reward": "Polychrome x 60, Denny x 6,666",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -177230,7 +177230,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ2YEAR",
-          "reward": "50 Polychrome",
+          "reward": "Polychrome x 50",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -177244,7 +177244,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ31REMIELLE",
-          "reward": "60 Polychrome and 6,666 Denny",
+          "reward": "Polychrome x 60, Denny x 6,666",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",

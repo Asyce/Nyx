@@ -1988,13 +1988,41 @@
   },
   "fairy_recommend": {
     "slot4": 33400,
-    "slot2": 32800,
-    "slot_sub": 31600,
+    "slot2": 31600,
+    "slot_sub": 32800,
     "part_sub_list": [
       12102,
       12103
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33400,
+          31600
+        ],
+        "part_sub_list": [
+          12102,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          33400,
+          32800
+        ],
+        "part_sub_list": [
+          12102,
+          11102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          30502,
+          12102
+        ]
+      }
+    ],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",

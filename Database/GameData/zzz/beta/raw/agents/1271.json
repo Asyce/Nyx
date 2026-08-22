@@ -1863,7 +1863,36 @@
       12102,
       31203
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33700,
+          31900
+        ],
+        "part_sub_list": [
+          12102,
+          31203
+        ]
+      },
+      {
+        "suit_list": [
+          31900,
+          31400
+        ],
+        "part_sub_list": [
+          12102,
+          31803
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          30502,
+          12102,
+          12202
+        ]
+      }
+    ],
     "part4": {
       "prop": 30502,
       "name": "Energy Regen",
@@ -1883,10 +1912,10 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconThunder.png"
     },
     "part_sub": {
-      "prop": 11102,
-      "name": "HP",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
+      "prop": 31203,
+      "name": "Anomaly Proficiency",
+      "format": "{0:0}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
     }
   },
   "strategy": [

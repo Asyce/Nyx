@@ -3059,7 +3059,35 @@
       20103,
       12102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33500,
+          32700
+        ],
+        "part_sub_list": [
+          21103,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          33500,
+          31100
+        ],
+        "part_sub_list": [
+          31503,
+          12102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          12102,
+          11102
+        ]
+      }
+    ],
     "part4": {
       "prop": 21103,
       "name": "CRIT DMG",

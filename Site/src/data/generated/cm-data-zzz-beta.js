@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.3+18283617",
+  "version": "3.2.4+18409985",
   "liveVersion": "3.1",
   "newCount": 2,
   "changedCount": 2,
@@ -187,7 +187,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.3+18283617",
+        "version": "3.2.4+18409985",
         "sections": [
           {
             "title": "Skills",
@@ -1085,11 +1085,29 @@
               {
                 "name": "EX Special Attack: Scattered Jade",
                 "type": "Special",
-                "desc": "With enough Energy and while not in the state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy and while not in the state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nWhen EX Special Attack: Scattered Jade is chained after Basic Attack: Frost-Tipped Spear, Basic Attack: Frost-Tipped Spear's hit count will be retained.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 125,
                     "end": 132,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 175,
+                    "end": 208,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 226,
+                    "end": 258,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 260,
+                    "end": 292,
                     "kind": "tone",
                     "tone": "cryo"
                   }
@@ -1153,11 +1171,29 @@
               {
                 "name": "EX Special Attack: Shattered Jade",
                 "type": "Special",
-                "desc": "With enough Energy and while in the state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy and while in the state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nWhen EX Special Attack: Shattered Jade is chained after Basic Attack: Frost-Tipped Spear, Basic Attack: Frost-Tipped Spear's hit count will be retained.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 129,
                     "end": 136,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 179,
+                    "end": 212,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 230,
+                    "end": 262,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 264,
+                    "end": 296,
                     "kind": "tone",
                     "tone": "cryo"
                   }
@@ -1416,107 +1452,113 @@
               {
                 "name": "Core Passive: Sky Knight",
                 "type": "Core Passive",
-                "desc": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                "desc": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                 "descFormat": [
                   {
-                    "start": 19,
-                    "end": 31,
+                    "start": 15,
+                    "end": 47,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 49,
+                    "end": 82,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 37,
-                    "end": 54,
+                    "start": 84,
+                    "end": 117,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 56,
-                    "end": 72,
+                    "start": 119,
+                    "end": 152,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 154,
+                    "end": 183,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 185,
+                    "end": 209,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 74,
-                    "end": 86,
+                    "start": 215,
+                    "end": 243,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 88,
-                    "end": 96,
+                    "start": 381,
+                    "end": 411,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 102,
-                    "end": 115,
+                    "start": 543,
+                    "end": 573,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 262,
-                    "end": 292,
+                    "start": 669,
+                    "end": 699,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 424,
-                    "end": 454,
+                    "start": 743,
+                    "end": 744,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 550,
-                    "end": 580,
+                    "start": 745,
+                    "end": 746,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 624,
-                    "end": 625,
+                    "start": 747,
+                    "end": 748,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 626,
-                    "end": 627,
+                    "start": 775,
+                    "end": 805,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 628,
-                    "end": 629,
+                    "start": 907,
+                    "end": 910,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 656,
-                    "end": 686,
+                    "start": 915,
+                    "end": 916,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 788,
-                    "end": 791,
+                    "start": 960,
+                    "end": 961,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 796,
-                    "end": 797,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 841,
-                    "end": 842,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 864,
-                    "end": 866,
+                    "start": 983,
+                    "end": 985,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -1524,107 +1566,113 @@
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 33% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 33% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -1632,107 +1680,113 @@
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 39% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 39% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -1740,107 +1794,113 @@
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 44% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 44% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -1848,107 +1908,113 @@
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 50% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 50% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -1956,107 +2022,113 @@
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 55% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 55% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -2064,107 +2136,113 @@
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 61% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 61% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -2172,107 +2250,113 @@
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered attacks.\nWhenever Sigrid uses and hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 19,
-                        "end": 31,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 37,
-                        "end": 54,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 56,
-                        "end": 72,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 74,
-                        "end": 86,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 88,
-                        "end": 96,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 102,
-                        "end": 115,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 262,
-                        "end": 292,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 424,
-                        "end": 454,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 580,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 624,
-                        "end": 625,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 626,
-                        "end": 627,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 628,
-                        "end": 629,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 656,
-                        "end": 686,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 791,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 796,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 841,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 864,
-                        "end": 866,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -2320,7 +2404,7 @@
               {
                 "name": "Long, Long Ago",
                 "type": "Mindscape 1",
-                "desc": "Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%.",
+                "desc": "Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the Aerial Patrol Spear and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%.",
                 "descFormat": [
                   {
                     "start": 33,
@@ -2329,44 +2413,50 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 113,
-                    "end": 143,
+                    "start": 76,
+                    "end": 95,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 180,
-                    "end": 210,
+                    "start": 133,
+                    "end": 163,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 240,
-                    "end": 270,
+                    "start": 200,
+                    "end": 230,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 303,
-                    "end": 307,
+                    "start": 260,
+                    "end": 290,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 318,
-                    "end": 325,
+                    "start": 323,
+                    "end": 327,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 338,
+                    "end": 345,
                     "kind": "tone",
                     "tone": "cryo"
                   },
                   {
-                    "start": 336,
-                    "end": 339,
+                    "start": 356,
+                    "end": 359,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 353,
-                    "end": 356,
+                    "start": 373,
+                    "end": 376,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -2375,17 +2465,29 @@
               {
                 "name": "Legend's First Act",
                 "type": "Mindscape 2",
-                "desc": "PEN Ratio of attacks and Basic Attack: Converging Spear increases by 24%. The duration of is extended by 2s. Sigrid's Decibel Generation Rate increases by 10%.",
+                "desc": "PEN Ratio of Unbridled Spear attacks and Basic Attack: Converging Spear increases by 24%. The duration of Aerial Patrol Spear is extended by 2s. Sigrid's Decibel Generation Rate increases by 10%.",
                 "descFormat": [
                   {
-                    "start": 25,
-                    "end": 55,
+                    "start": 13,
+                    "end": 28,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 69,
-                    "end": 72,
+                    "start": 41,
+                    "end": 71,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 85,
+                    "end": 88,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 106,
+                    "end": 125,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -2431,29 +2533,35 @@
               {
                 "name": "Hero in Training",
                 "type": "Mindscape 4",
-                "desc": "Each time is refreshed, DMG dealt increases by 18% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.",
+                "desc": "Each time upon gaining Aerial Patrol Spear, DMG dealt increases by 18% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.",
                 "descFormat": [
                   {
-                    "start": 47,
-                    "end": 50,
+                    "start": 23,
+                    "end": 42,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 55,
-                    "end": 56,
+                    "start": 67,
+                    "end": 70,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 100,
-                    "end": 101,
+                    "start": 75,
+                    "end": 76,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 123,
-                    "end": 125,
+                    "start": 120,
+                    "end": 121,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 145,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -2499,7 +2607,7 @@
               {
                 "name": "Knight of the Skies",
                 "type": "Mindscape 6",
-                "desc": "When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG. There is no more limit on the number of times Sigrid can enter the state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. state's Basic Attack: Converging Spear will activate faster.",
+                "desc": "When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG. There is no more limit on the number of times Sigrid can enter the Formation Breaker state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. Formation Breaker state's Basic Attack: Converging Spear will activate faster.",
                 "descFormat": [
                   {
                     "start": 5,
@@ -2532,14 +2640,26 @@
                     "tone": "cryo"
                   },
                   {
-                    "start": 234,
-                    "end": 263,
+                    "start": 194,
+                    "end": 211,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 252,
+                    "end": 281,
                     "kind": "tone",
                     "tone": "cryo"
                   },
                   {
-                    "start": 273,
-                    "end": 303,
+                    "start": 283,
+                    "end": 300,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 309,
+                    "end": 339,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -4300,7 +4420,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.3+18283617",
+        "version": "3.2.4+18409985",
         "sections": [
           {
             "title": "Skills",
@@ -4308,7 +4428,7 @@
               {
                 "name": "Basic Attack: Smash 'n' Bash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the second Strike, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the first part, press or hold to chain into the second part, and the follow-up attack effect of the first Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 25% for 40s, repeated triggers refresh the duration, and for each stack of [Furnace Fire] consumed, the DMG dealt by the second Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced [Basic Attack], Koleda will automatically launch the second Enhanced [Basic Attack] on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the first Enhanced [Basic Attack] will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth [Basic Attack] Strike and during the Enhanced [Basic Attack];\nThe invulnerability duration of the second Enhanced [Basic Attack] is extended.",
+                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the second Strike, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the first part, press or hold to chain into the second part, and the follow-up attack effect of the first Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 35% for 40s, repeated triggers refresh the duration, and for each stack of [Furnace Fire] consumed, the DMG dealt by the second Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced [Basic Attack], Koleda will automatically launch the second Enhanced [Basic Attack] on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the first Enhanced [Basic Attack] will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth [Basic Attack] Strike and during the Enhanced [Basic Attack];\nThe invulnerability duration of the second Enhanced [Basic Attack] is extended.",
                 "descFormat": [
                   {
                     "start": 54,
@@ -8214,12 +8334,12 @@
       "card": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
       "signatureWeapon": {
         "id": "14161",
-        "name": "Crimson Thirst",
+        "name": "Crimson Craving",
         "type": "Armorer",
         "educated": false
       },
       "signatureWeaponId": "14161",
-      "signatureWeaponName": "Crimson Thirst",
+      "signatureWeaponName": "Crimson Craving",
       "status": "beta",
       "labels": [
         "3.x"
@@ -8378,7 +8498,7 @@
         "talentCost": 2905000,
         "currency": 4105000,
         "weapon": {
-          "name": "Crimson Thirst",
+          "name": "Crimson Craving",
           "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1611.webp",
           "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1611.webp",
           "items": [
@@ -8417,7 +8537,10 @@
       "id": "zzz-roxy",
       "n": "Roxy",
       "localizedNames": {
-        "zh": "\u6d1b\u514b\u831c"
+        "en": "Roxy",
+        "zh": "\u6d1b\u514b\u831c",
+        "ja": "\u30ed\u30af\u30b7\u30fc",
+        "ko": "\ub85d\uc2dc"
       },
       "slug": "roxy",
       "updated": 1778544000000,
@@ -8445,7 +8568,7 @@
           "def": 51,
           "critRate": 0.05,
           "critDmg": 0.5,
-          "impact": 78,
+          "impact": 100,
           "anomalyProficiency": 110,
           "anomalyMastery": 63
         },
@@ -8456,7 +8579,7 @@
           "def": 641.63,
           "critRate": 0.05,
           "critDmg": 0.5,
-          "impact": 78,
+          "impact": 100,
           "anomalyProficiency": 110,
           "anomalyMastery": 63
         },
@@ -8470,7 +8593,7 @@
             "def": 51,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -8483,7 +8606,7 @@
             "def": 149.33,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -8496,7 +8619,7 @@
             "def": 255.59,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -8509,7 +8632,7 @@
             "def": 360.85,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -8522,7 +8645,7 @@
             "def": 467.11,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -8535,7 +8658,7 @@
             "def": 572.37,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -8548,7 +8671,7 @@
             "def": 641.63,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           }
@@ -8568,7 +8691,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.3+18283617",
+        "version": "3.2.4+18409985",
         "sections": [
           {
             "title": "Skills",
@@ -8640,35 +8763,35 @@
                       {
                         "label": "3rd-Hit DMG Multiplier",
                         "values": [
-                          "185.3%",
-                          "202.2%",
-                          "219.1%",
-                          "236%",
-                          "252.9%",
-                          "269.8%",
-                          "286.7%",
-                          "303.6%",
-                          "320.5%",
-                          "337.4%",
-                          "354.3%",
-                          "371.2%"
+                          "172.4%",
+                          "188.1%",
+                          "203.8%",
+                          "219.5%",
+                          "235.2%",
+                          "250.9%",
+                          "266.6%",
+                          "282.3%",
+                          "298%",
+                          "313.7%",
+                          "329.4%",
+                          "345.1%"
                         ]
                       },
                       {
-                        "label": "DMG Multiplier",
+                        "label": "4th-Hit DMG Multiplier",
                         "values": [
-                          "194.5%",
-                          "212.2%",
-                          "229.9%",
-                          "247.6%",
-                          "265.3%",
-                          "283%",
-                          "300.7%",
-                          "318.4%",
-                          "336.1%",
-                          "353.8%",
-                          "371.5%",
-                          "389.2%"
+                          "192.5%",
+                          "210%",
+                          "227.5%",
+                          "245%",
+                          "262.5%",
+                          "280%",
+                          "297.5%",
+                          "315%",
+                          "332.5%",
+                          "350%",
+                          "367.5%",
+                          "385%"
                         ]
                       },
                       {
@@ -8708,75 +8831,38 @@
                       {
                         "label": "3rd-Hit Daze Multiplier",
                         "values": [
-                          "156.3%",
-                          "163.5%",
+                          "144.3%",
+                          "150.9%",
+                          "157.5%",
+                          "164.1%",
                           "170.7%",
-                          "177.9%",
-                          "185.1%",
-                          "192.3%",
-                          "199.5%",
-                          "206.7%",
-                          "213.9%",
-                          "221.1%",
-                          "228.3%",
-                          "235.5%"
+                          "177.3%",
+                          "183.9%",
+                          "190.5%",
+                          "197.1%",
+                          "203.7%",
+                          "210.3%",
+                          "216.9%"
                         ]
                       },
                       {
                         "label": "4th-Hit Daze Multiplier",
                         "values": [
-                          "173.6%",
-                          "181.5%",
-                          "189.4%",
-                          "197.3%",
-                          "205.2%",
-                          "213.1%",
-                          "221%",
-                          "228.9%",
-                          "236.8%",
-                          "244.7%",
-                          "252.6%",
-                          "260.5%"
+                          "171.9%",
+                          "179.8%",
+                          "187.7%",
+                          "195.6%",
+                          "203.5%",
+                          "211.4%",
+                          "219.3%",
+                          "227.2%",
+                          "235.1%",
+                          "243%",
+                          "250.9%",
+                          "258.8%"
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Don't Let the Door Hit Ya",
-                "type": "Basic",
-                "desc": "[EX Special Attack: Rest in Peace] automatically triggers upon conclusion if at least 3 [Wind Eyes] exist on the field:\nHurls a hammer at enemies on the field, dealing Wind DMG;\n[Wind Eyes] hit by this skill will be detonated, generating tornadoes based on the number of Wind Eyes hit that continuously track enemies and deal Wind DMG;\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 34,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 88,
-                    "end": 99,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 168,
-                    "end": 176,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 178,
-                    "end": 189,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 326,
-                    "end": 334,
-                    "kind": "tone",
-                    "tone": "anemo"
                   }
                 ]
               },
@@ -9109,6 +9195,40 @@
                           "395.3%",
                           "407.7%"
                         ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
                       }
                     ]
                   }
@@ -9170,18 +9290,104 @@
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "458.7%",
-                          "479.6%",
-                          "500.5%",
-                          "521.4%",
-                          "542.3%",
-                          "563.2%",
-                          "584.1%",
-                          "605%",
-                          "625.9%",
-                          "646.8%",
-                          "667.7%",
-                          "688.6%"
+                          "389.9%",
+                          "407.7%",
+                          "425.5%",
+                          "443.3%",
+                          "461.1%",
+                          "478.9%",
+                          "496.7%",
+                          "514.5%",
+                          "532.3%",
+                          "550.1%",
+                          "567.9%",
+                          "585.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Don't Let the Door Hit Ya",
+                "type": "Special",
+                "desc": "[EX Special Attack: Rest in Peace] Upon conclusion, automatically activates when at least 3 exist on the field:\nThrows a hammer at enemies on the field, dealing Wind DMG;\n hit by this skill will be detonated, up to a maximum of 3 . Generates mini cyclones based on the number of hit, dealing Wind DMG;\nIf 3 are detonated at once, a giant cyclone is generated instead, dealing Wind DMG;\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 34,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 161,
+                    "end": 169,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 292,
+                    "end": 300,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 376,
+                    "end": 384,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "666.6%",
+                          "727.2%",
+                          "787.8%",
+                          "848.4%",
+                          "909%",
+                          "969.6%",
+                          "1030.2%",
+                          "1090.8%",
+                          "1151.4%",
+                          "1212%",
+                          "1272.6%",
+                          "1333.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "141.1%",
+                          "147.6%",
+                          "154.1%",
+                          "160.6%",
+                          "167.1%",
+                          "173.6%",
+                          "180.1%",
+                          "186.6%",
+                          "193.1%",
+                          "199.6%",
+                          "206.1%",
+                          "212.6%"
                         ]
                       }
                     ]
@@ -9259,7 +9465,7 @@
               {
                 "name": "EX Special Attack: Watch for the Chill",
                 "type": "Special",
-                "desc": "With enough energy, press or hold to activate:\nSlides forward, dealing Wind DMG;\nIf is held during the slide, Roxy enters the [Spin] state:\nIn the [Spin] state, Roxy transforms into a tornado. Drag the joystick to control the tornado's movement direction. Energy is continuously consumed during this time, dealing Wind DMG to enemies in its path. The [Spin] state ends when Energy is depleted or when is released without dragging the joystick;\nWhen the slide ends or the [Spin] state is exited, automatically follows up with [EX Special Attack: Rest in Peace];\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough energy, press or hold to activate:\nSlides forward, dealing Wind DMG;\nIf is held during the slide, Roxy enters the [Spin] state:\nIn the [Spin] state, Roxy transforms into a tornado. Drag the joystick to control the tornado's movement direction. Energy is continuously consumed while dealing Wind DMG to enemies in the path. The [Spin] state ends when Energy is depleted or when is released without dragging the joystick;\nWhen the slide ends or the [Spin] state is exited, automatically follows up with [EX Special Attack: Rest in Peace];\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 71,
@@ -9280,38 +9486,26 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 314,
-                    "end": 322,
+                    "start": 302,
+                    "end": 310,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 351,
-                    "end": 357,
+                    "start": 339,
+                    "end": 345,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 471,
-                    "end": 477,
+                    "start": 459,
+                    "end": 465,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 525,
-                    "end": 559,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 566,
-                    "end": 577,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 637,
-                    "end": 649,
+                    "start": 513,
+                    "end": 547,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9337,35 +9531,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "93.2%",
-                          "101.7%",
-                          "110.2%",
-                          "118.7%",
-                          "127.2%",
-                          "135.7%",
-                          "144.2%",
-                          "152.7%",
-                          "161.2%",
-                          "169.7%",
-                          "178.2%",
-                          "186.7%"
+                          "27.3%",
+                          "29.8%",
+                          "32.3%",
+                          "34.8%",
+                          "37.3%",
+                          "39.8%",
+                          "42.3%",
+                          "44.8%",
+                          "47.3%",
+                          "49.8%",
+                          "52.3%",
+                          "54.8%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "39.5%",
-                          "41.3%",
-                          "43.1%",
-                          "44.9%",
-                          "46.7%",
-                          "48.5%",
-                          "50.3%",
-                          "52.1%",
-                          "53.9%",
-                          "55.7%",
-                          "57.5%",
-                          "59.3%"
+                          "11.6%",
+                          "12.2%",
+                          "12.8%",
+                          "13.4%",
+                          "14%",
+                          "14.6%",
+                          "15.2%",
+                          "15.8%",
+                          "16.4%",
+                          "17%",
+                          "17.6%",
+                          "18.2%"
                         ]
                       },
                       {
@@ -9388,18 +9582,18 @@
                       {
                         "label": "Spin Daze Multiplier Per Second",
                         "values": [
-                          "410.2%",
-                          "428.9%",
-                          "447.6%",
-                          "466.3%",
-                          "485%",
-                          "503.7%",
-                          "522.4%",
-                          "541.1%",
-                          "559.8%",
-                          "578.5%",
-                          "597.2%",
-                          "615.9%"
+                          "463%",
+                          "484.1%",
+                          "505.2%",
+                          "526.3%",
+                          "547.4%",
+                          "568.5%",
+                          "589.6%",
+                          "610.7%",
+                          "631.8%",
+                          "652.9%",
+                          "674%",
+                          "695.1%"
                         ]
                       }
                     ]
@@ -9409,7 +9603,7 @@
               {
                 "name": "EX Special Attack: Rest in Peace",
                 "type": "Special",
-                "desc": "[EX Special Attack: Watch Out for Wind Chill] automatically activates upon conclusion and is not considered an EX Special Attack:\nConsumes all [Wind Energy] to fire a wind cannon forward, dealing Wind DMG;\nFor each point of [Wind Energy] consumed, deals an additional instance of Wind DMG after the attack and generates 1 [Eye of the Storm] in place;\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
+                "desc": "[EX Special Attack: Watch Out for Wind Chill] automatically activates upon conclusion:\nConsumes all to fire a wind cannon forward, dealing Wind DMG;\nFor every 1 consumed, deals an additional instance of Wind DMG after the attack, and generates 1 at the current position;\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -9418,44 +9612,20 @@
                     "tone": "anemo"
                   },
                   {
-                    "start": 143,
-                    "end": 156,
+                    "start": 139,
+                    "end": 147,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 196,
-                    "end": 204,
+                    "start": 203,
+                    "end": 211,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 224,
-                    "end": 237,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 280,
-                    "end": 288,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 322,
-                    "end": 340,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 356,
-                    "end": 367,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 427,
-                    "end": 439,
+                    "start": 347,
+                    "end": 359,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9481,69 +9651,52 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "93.2%",
-                          "101.7%",
-                          "110.2%",
-                          "118.7%",
-                          "127.2%",
-                          "135.7%",
-                          "144.2%",
-                          "152.7%",
-                          "161.2%",
-                          "169.7%",
-                          "178.2%",
-                          "186.7%"
+                          "63.7%",
+                          "69.5%",
+                          "75.3%",
+                          "81.1%",
+                          "86.9%",
+                          "92.7%",
+                          "98.5%",
+                          "104.3%",
+                          "110.1%",
+                          "115.9%",
+                          "121.7%",
+                          "127.5%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "39.5%",
-                          "41.3%",
-                          "43.1%",
-                          "44.9%",
-                          "46.7%",
-                          "48.5%",
-                          "50.3%",
-                          "52.1%",
-                          "53.9%",
-                          "55.7%",
-                          "57.5%",
-                          "59.3%"
+                          "27%",
+                          "28.3%",
+                          "29.6%",
+                          "30.9%",
+                          "32.2%",
+                          "33.5%",
+                          "34.8%",
+                          "36.1%",
+                          "37.4%",
+                          "38.7%",
+                          "40%",
+                          "41.3%"
                         ]
                       },
                       {
                         "label": "Additional Explosion DMG Multiplier",
                         "values": [
-                          "41.7%",
-                          "45.5%",
-                          "49.3%",
-                          "53.1%",
+                          "52.1%",
                           "56.9%",
-                          "60.7%",
-                          "64.5%",
-                          "68.3%",
-                          "72.1%",
-                          "75.9%",
-                          "79.7%",
-                          "83.5%"
-                        ]
-                      },
-                      {
-                        "label": "Additional Explosion Daze Multiplier",
-                        "values": [
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%"
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
                         ]
                       }
                     ]
@@ -9553,7 +9706,7 @@
               {
                 "name": "Eye of the Storm",
                 "type": "Special",
-                "desc": "[EX Special Attack: Rest in Peace] Generated after consuming [Wind Energy], lasts 30 seconds;\n[Wind Eye] can exist up to 9 at a time. When the limit is exceeded, the earliest generated [Wind Eye] will automatically detonate;\nWhen hit by [Special Attack: No Need to See You Off] or [Ultimate: Requiem of the Burial Night], they will be detonated. If fewer than 3 are hit simultaneously, each [Wind Eye] position will generate 1 small tornado that tracks enemies and deals Wind DMG, lasting 1 second;\nIf 3 are hit simultaneously, 1 large tornado will be generated as a replacement, dealing Wind DMG, lasting 1 second.\nWhen detonated by any means, [Wind Eye] deals one instance of Wind DMG to nearby enemies.",
+                "desc": "[EX Special Attack: Rest in Peace] Generated after consuming , lasts 30 seconds;\n A maximum of 9 can exist simultaneously. When the limit is exceeded, the earliest generated will automatically detonate;\nWhen hit by [Special Attack: No Need to See You Off] or [Ultimate: Burial Night Requiem], they will be detonated. If fewer than 3 are hit simultaneously, each position will generate 1 mini vortex that tracks enemies and deals Wind DMG, lasting 1 second;\nIf 3 are hit simultaneously, 1 giant vortex will be generated instead, dealing Wind DMG, lasting 1 second.\nWhen detonated by any means, will emit an Explosive blast dealing Wind DMG to nearby enemies.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -9562,62 +9715,32 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 61,
-                    "end": 74,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 94,
-                    "end": 104,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 185,
-                    "end": 195,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 237,
-                    "end": 277,
+                    "start": 215,
+                    "end": 255,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 281,
-                    "end": 320,
+                    "start": 259,
+                    "end": 291,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 391,
-                    "end": 401,
+                    "start": 429,
+                    "end": 437,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 471,
-                    "end": 479,
+                    "start": 536,
+                    "end": 544,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 588,
-                    "end": 596,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 645,
-                    "end": 655,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 678,
-                    "end": 686,
+                    "start": 630,
+                    "end": 638,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9641,147 +9764,88 @@
                     ],
                     "rows": [
                       {
-                        "label": "DMG Multiplier on Destroy",
+                        "label": "Detonation DMG Multiplier",
                         "values": [
-                          "41.7%",
-                          "45.5%",
-                          "49.3%",
-                          "53.1%",
+                          "52.1%",
                           "56.9%",
-                          "60.7%",
-                          "64.5%",
-                          "68.3%",
-                          "72.1%",
-                          "75.9%",
-                          "79.7%",
-                          "83.5%"
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
                         ]
                       },
                       {
-                        "label": "Mini Tornado DMG Multiplier Per Second",
+                        "label": "Micro Wind Vortex DMG Multiplier Per Second",
                         "values": [
-                          "62.5%",
-                          "68.2%",
+                          "78.2%",
+                          "85.4%",
+                          "92.6%",
+                          "99.8%",
+                          "107%",
+                          "114.2%",
+                          "121.4%",
+                          "128.6%",
+                          "135.8%",
+                          "143%",
+                          "150.2%",
+                          "157.4%"
+                        ]
+                      },
+                      {
+                        "label": "Micro Wind Vortex Daze Multiplier Per Second",
+                        "values": [
+                          "17.7%",
+                          "18.6%",
+                          "19.5%",
+                          "20.4%",
+                          "21.3%",
+                          "22.2%",
+                          "23.1%",
+                          "24%",
+                          "24.9%",
+                          "25.8%",
+                          "26.7%",
+                          "27.6%"
+                        ]
+                      },
+                      {
+                        "label": "Giant Wind Vortex DMG Multiplier Per Second",
+                        "values": [
+                          "312.5%",
+                          "341%",
+                          "369.5%",
+                          "398%",
+                          "426.5%",
+                          "455%",
+                          "483.5%",
+                          "512%",
+                          "540.5%",
+                          "569%",
+                          "597.5%",
+                          "626%"
+                        ]
+                      },
+                      {
+                        "label": "Giant Wind Vortex Daze Multiplier Per Second",
+                        "values": [
+                          "70.6%",
                           "73.9%",
-                          "79.6%",
-                          "85.3%",
-                          "91%",
-                          "96.7%",
-                          "102.4%",
-                          "108.1%",
-                          "113.8%",
-                          "119.5%",
-                          "125.2%"
-                        ]
-                      },
-                      {
-                        "label": "Mini Tornado Daze Multiplier Per Second",
-                        "values": [
-                          "35.3%",
-                          "37%",
-                          "38.7%",
-                          "40.4%",
-                          "42.1%",
-                          "43.8%",
-                          "45.5%",
-                          "47.2%",
-                          "48.9%",
-                          "50.6%",
-                          "52.3%",
-                          "54%"
-                        ]
-                      },
-                      {
-                        "label": "Large Tornado DMG Multiplier Per Second",
-                        "values": [
-                          "250%",
-                          "272.8%",
-                          "295.6%",
-                          "318.4%",
-                          "341.2%",
-                          "364%",
-                          "386.8%",
-                          "409.6%",
-                          "432.4%",
-                          "455.2%",
-                          "478%",
-                          "500.8%"
-                        ]
-                      },
-                      {
-                        "label": "Large Tornado Daze Multiplier Per Second",
-                        "values": [
-                          "141.1%",
-                          "147.6%",
-                          "154.1%",
-                          "160.6%",
-                          "167.1%",
-                          "173.6%",
-                          "180.1%",
-                          "186.6%",
-                          "193.1%",
-                          "199.6%",
-                          "206.1%",
-                          "212.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Don't Let the Door Hit Ya",
-                "type": "Special",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "554.6%",
-                          "605.1%",
-                          "655.6%",
-                          "706.1%",
-                          "756.6%",
-                          "807.1%",
-                          "857.6%",
-                          "908.1%",
-                          "958.6%",
-                          "1009.1%",
-                          "1059.6%",
-                          "1110.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "234.7%",
-                          "245.4%",
-                          "256.1%",
-                          "266.8%",
-                          "277.5%",
-                          "288.2%",
-                          "298.9%",
-                          "309.6%",
-                          "320.3%",
-                          "331%",
-                          "341.7%",
-                          "352.4%"
+                          "77.2%",
+                          "80.5%",
+                          "83.8%",
+                          "87.1%",
+                          "90.4%",
+                          "93.7%",
+                          "97%",
+                          "100.3%",
+                          "103.6%",
+                          "106.9%"
                         ]
                       }
                     ]
@@ -9791,7 +9855,7 @@
               {
                 "name": "Chain Attack: Funeral Wind Greathammer",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies ahead, dealing massive Wind DMG.\nAfter using this skill, restore 1 Wind Energy.\nCharacter is invulnerable while using this skill.",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful Strike at enemies ahead, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 7,
@@ -9802,12 +9866,6 @@
                   {
                     "start": 130,
                     "end": 138,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 174,
-                    "end": 185,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9871,11 +9929,11 @@
               {
                 "name": "Ultimate: Requiem of the Buried Night",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating reaches [Maximum], press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG;\nAfter using this skill, recovers 1 ;\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 135,
-                    "end": 143,
+                    "start": 139,
+                    "end": 147,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9918,18 +9976,18 @@
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "1219.3%",
-                          "1274.8%",
-                          "1330.3%",
-                          "1385.8%",
-                          "1441.3%",
-                          "1496.8%",
-                          "1552.3%",
-                          "1607.8%",
-                          "1663.3%",
-                          "1718.8%",
-                          "1774.3%",
-                          "1829.8%"
+                          "1054.3%",
+                          "1102.3%",
+                          "1150.3%",
+                          "1198.3%",
+                          "1246.3%",
+                          "1294.3%",
+                          "1342.3%",
+                          "1390.3%",
+                          "1438.3%",
+                          "1486.3%",
+                          "1534.3%",
+                          "1582.3%"
                         ]
                       }
                     ]
@@ -9942,157 +10000,121 @@
             "title": "Core Skill",
             "entries": [
               {
-                "name": "Core Passive: First Embrace Under the Moon",
+                "name": "Core Passive: First Embrace of the Fevered Night",
                 "type": "Core Passive",
-                "desc": "For every 20 Energy consumed, gain 1 point of [Wind Energy]. [Wind Energy] caps at 3 points.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 the excess surpasses, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: See Ya Never] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] is reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or reapplies [Windswept] to an enemy already afflicted with [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 1%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 0.5%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
+                "desc": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 40%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 20%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
                 "descFormat": [
                   {
-                    "start": 46,
-                    "end": 59,
+                    "start": 37,
+                    "end": 50,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 61,
-                    "end": 74,
+                    "start": 52,
+                    "end": 65,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 113,
-                    "end": 125,
+                    "start": 96,
+                    "end": 108,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 134,
-                    "end": 137,
+                    "start": 195,
+                    "end": 198,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 149,
-                    "end": 153,
+                    "start": 257,
+                    "end": 261,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 193,
-                    "end": 194,
+                    "start": 268,
+                    "end": 312,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 224,
-                    "end": 229,
+                    "start": 339,
+                    "end": 350,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 255,
-                    "end": 258,
+                    "start": 354,
+                    "end": 369,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 288,
-                    "end": 290,
+                    "start": 383,
+                    "end": 392,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 297,
-                    "end": 327,
+                    "start": 402,
+                    "end": 417,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 357,
-                    "end": 368,
+                    "start": 436,
+                    "end": 447,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 372,
-                    "end": 387,
+                    "start": 489,
+                    "end": 504,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 401,
-                    "end": 410,
+                    "start": 506,
+                    "end": 515,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 412,
-                    "end": 427,
+                    "start": 528,
+                    "end": 539,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 443,
-                    "end": 454,
+                    "start": 578,
+                    "end": 589,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 496,
-                    "end": 505,
+                    "start": 632,
+                    "end": 641,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 519,
-                    "end": 530,
+                    "start": 766,
+                    "end": 768,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 566,
-                    "end": 577,
+                    "start": 775,
+                    "end": 784,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 600,
-                    "end": 602,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 680,
-                    "end": 689,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 763,
-                    "end": 764,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 773,
-                    "end": 775,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 782,
-                    "end": 791,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 871,
-                    "end": 874,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 883,
-                    "end": 885,
+                    "start": 886,
+                    "end": 888,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -10100,7 +10122,487 @@
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above that threshold, ATK increases by 6, up to a maximum increase of 1,152; Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: No Free Rides] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] is reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or reapplies [Windswept] to an enemy already afflicted with [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 1%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 0.5%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond that threshold, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] will revert to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or re-applies [Windswept] to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 20%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 10%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 97,
+                        "end": 109,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 209,
+                        "end": 212,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 271,
+                        "end": 273,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 280,
+                        "end": 324,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 354,
+                        "end": 365,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 369,
+                        "end": 384,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 398,
+                        "end": 407,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 409,
+                        "end": 424,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 440,
+                        "end": 451,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 493,
+                        "end": 508,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 510,
+                        "end": 519,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 535,
+                        "end": 546,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 573,
+                        "end": 584,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 627,
+                        "end": 636,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 758,
+                        "end": 761,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 767,
+                        "end": 776,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 875,
+                        "end": 878,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] has a maximum of 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse]. The [Contamination] effect reverts to a [Windswept] effect.\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contamination or Cleanse attribute and Wind attribute by 0.4%, up to 23%, and [Armorer] Characters gain increased Laceration DMG of the Cleanse attribute and Wind attribute by 0.2%, up to 11.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 106,
+                        "end": 118,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 205,
+                        "end": 208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 267,
+                        "end": 269,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 276,
+                        "end": 320,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 347,
+                        "end": 358,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 362,
+                        "end": 377,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 391,
+                        "end": 400,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 406,
+                        "end": 421,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 442,
+                        "end": 453,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 502,
+                        "end": 517,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 519,
+                        "end": 528,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 541,
+                        "end": 552,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 591,
+                        "end": 602,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 645,
+                        "end": 654,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 779,
+                        "end": 781,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 898,
+                        "end": 902,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain Contamination or Cleanse attribute and Wind CRIT DMG increased by 0.4%, up to 26%, and [Armorer] Characters gain Cleanse attribute and Wind Laceration DMG increased by 0.2%, up to 13%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 97,
+                        "end": 109,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 208,
+                        "end": 211,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 270,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 323,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 350,
+                        "end": 361,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 365,
+                        "end": 380,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 394,
+                        "end": 403,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 413,
+                        "end": 428,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 447,
+                        "end": 458,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 500,
+                        "end": 515,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 517,
+                        "end": 526,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 539,
+                        "end": 550,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 589,
+                        "end": 600,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 643,
+                        "end": 652,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 760,
+                        "end": 762,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 769,
+                        "end": 778,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 862,
+                        "end": 864,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to the [Windswept] effect;\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 29%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 14.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 97,
+                        "end": 109,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 208,
+                        "end": 211,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 270,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 323,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 350,
+                        "end": 361,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 365,
+                        "end": 380,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 394,
+                        "end": 403,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 413,
+                        "end": 428,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 451,
+                        "end": 462,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 511,
+                        "end": 526,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 528,
+                        "end": 537,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 561,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 594,
+                        "end": 605,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 648,
+                        "end": 657,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 779,
+                        "end": 781,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 896,
+                        "end": 900,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 32%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 16%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
                     "format": [
                       {
                         "start": 37,
@@ -10121,44 +10623,20 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 117,
-                        "end": 120,
+                        "start": 195,
+                        "end": 198,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 132,
-                        "end": 136,
+                        "start": 257,
+                        "end": 259,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 177,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 207,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 234,
-                        "end": 237,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 267,
-                        "end": 269,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 276,
-                        "end": 307,
+                        "start": 266,
+                        "end": 310,
                         "kind": "tone",
                         "tone": "accent"
                       },
@@ -10181,698 +10659,62 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 392,
-                        "end": 407,
+                        "start": 400,
+                        "end": 415,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 423,
-                        "end": 434,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 476,
-                        "end": 485,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 499,
-                        "end": 510,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 546,
-                        "end": 557,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 580,
-                        "end": 582,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 660,
-                        "end": 669,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 743,
-                        "end": 744,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 753,
-                        "end": 755,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 762,
-                        "end": 771,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 851,
-                        "end": 854,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 863,
-                        "end": 865,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above that threshold, ATK increases by 6, up to a maximum increase of 1,152; Impact increases by 0.4, up to a maximum increase of 77;\n[Special Attack: Don't Let the Door Hit Ya] hitting enemies afflicted with [Windswept] or [Contamination] triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%; [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 96,
-                        "end": 108,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 117,
-                        "end": 120,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 132,
-                        "end": 136,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 176,
-                        "end": 177,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 207,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 234,
-                        "end": 237,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 267,
-                        "end": 269,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 314,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 346,
-                        "end": 357,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 361,
-                        "end": 376,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 386,
-                        "end": 395,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 397,
-                        "end": 412,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 435,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 464,
-                        "end": 473,
+                        "start": 434,
+                        "end": 445,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
                         "start": 487,
-                        "end": 498,
+                        "end": 502,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 525,
-                        "end": 536,
+                        "start": 504,
+                        "end": 513,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 559,
-                        "end": 561,
+                        "start": 526,
+                        "end": 537,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 639,
-                        "end": 648,
+                        "start": 576,
+                        "end": 587,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 665,
-                        "end": 666,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 729,
-                        "end": 731,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 734,
-                        "end": 743,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 760,
-                        "end": 763,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 832,
-                        "end": 834,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above that threshold, ATK increases by 6, up to a maximum increase of 1,152; Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: No See-Off] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] will be reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or applies [Windswept] again to an enemy already affected by [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 100%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 50%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 96,
-                        "end": 108,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 117,
-                        "end": 120,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 132,
-                        "end": 136,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 176,
-                        "end": 177,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 207,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 234,
-                        "end": 237,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 267,
-                        "end": 269,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 276,
-                        "end": 304,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 331,
-                        "end": 342,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 346,
-                        "end": 361,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 375,
-                        "end": 384,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 386,
-                        "end": 401,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 422,
-                        "end": 433,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 475,
-                        "end": 484,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 496,
-                        "end": 507,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 546,
-                        "end": 557,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 580,
-                        "end": 582,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 660,
-                        "end": 669,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 743,
-                        "end": 746,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 755,
-                        "end": 757,
+                        "start": 630,
+                        "end": 639,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
                         "start": 764,
-                        "end": 773,
+                        "end": 766,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 853,
-                        "end": 855,
+                        "start": 773,
+                        "end": 782,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond the threshold, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: Don't Let the Door Hit Ya] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate is greater than 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, non-[Armorer] Characters in the whole squad gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%, and [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 118,
-                        "end": 121,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 133,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 177,
-                        "end": 178,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 208,
-                        "end": 213,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 239,
-                        "end": 242,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 272,
-                        "end": 274,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 324,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 354,
-                        "end": 365,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 369,
-                        "end": 384,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 398,
-                        "end": 407,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 409,
-                        "end": 424,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 436,
-                        "end": 447,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 476,
-                        "end": 485,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 499,
-                        "end": 510,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 537,
-                        "end": 548,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 579,
-                        "end": 581,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 641,
-                        "end": 650,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 686,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 750,
-                        "end": 752,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 759,
-                        "end": 768,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 785,
-                        "end": 788,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 857,
-                        "end": 859,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond the threshold, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: Don't Let the Door Hit Ya] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate is greater than 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, non-[Armorer] Characters in the whole squad gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%, and [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 118,
-                        "end": 121,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 133,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 177,
-                        "end": 178,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 208,
-                        "end": 213,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 239,
-                        "end": 242,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 272,
-                        "end": 274,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 324,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 354,
-                        "end": 365,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 369,
-                        "end": 384,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 398,
-                        "end": 407,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 409,
-                        "end": 424,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 436,
-                        "end": 447,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 476,
-                        "end": 485,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 499,
-                        "end": 510,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 537,
-                        "end": 548,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 579,
-                        "end": 581,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 641,
-                        "end": 650,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 686,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 750,
-                        "end": 752,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 759,
-                        "end": 768,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 785,
-                        "end": 788,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 857,
-                        "end": 859,
+                        "start": 884,
+                        "end": 886,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10880,7 +10722,7 @@
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond the threshold, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: Don't Let the Door Hit Ya] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate is greater than 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, non-[Armorer] Characters in the whole squad gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%, and [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to the [Windswept] effect;\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 35%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 17.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
                     "format": [
                       {
                         "start": 37,
@@ -10901,68 +10743,164 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 118,
-                        "end": 121,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 133,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 177,
-                        "end": 178,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
                         "start": 208,
-                        "end": 213,
+                        "end": 211,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 239,
-                        "end": 242,
+                        "start": 270,
+                        "end": 272,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 272,
-                        "end": 274,
+                        "start": 279,
+                        "end": 323,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 281,
-                        "end": 324,
+                        "start": 350,
+                        "end": 361,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 365,
+                        "end": 380,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 394,
+                        "end": 403,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 413,
+                        "end": 428,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 451,
+                        "end": 462,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 511,
+                        "end": 526,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 528,
+                        "end": 537,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 561,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 594,
+                        "end": 605,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 648,
+                        "end": 657,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 779,
+                        "end": 781,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 896,
+                        "end": 900,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 40%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 20%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 96,
+                        "end": 108,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 195,
+                        "end": 198,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 257,
+                        "end": 261,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 268,
+                        "end": 312,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 339,
+                        "end": 350,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
                         "start": 354,
-                        "end": 365,
+                        "end": 369,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 369,
-                        "end": 384,
+                        "start": 383,
+                        "end": 392,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 398,
-                        "end": 407,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 409,
-                        "end": 424,
+                        "start": 402,
+                        "end": 417,
                         "kind": "tone",
                         "tone": "accent"
                       },
@@ -10973,218 +10911,50 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 476,
-                        "end": 485,
+                        "start": 489,
+                        "end": 504,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 499,
-                        "end": 510,
+                        "start": 506,
+                        "end": 515,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 537,
-                        "end": 548,
+                        "start": 528,
+                        "end": 539,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 579,
-                        "end": 581,
+                        "start": 578,
+                        "end": 589,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 641,
-                        "end": 650,
+                        "start": 632,
+                        "end": 641,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 686,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 750,
-                        "end": 752,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 759,
+                        "start": 766,
                         "end": 768,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 785,
-                        "end": 788,
+                        "start": 775,
+                        "end": 784,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 857,
-                        "end": 859,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "For every 20 Energy consumed, gain 1 point of [Wind Energy]. [Wind Energy] caps at 3 points.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 the excess surpasses, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: See Ya Never] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] is reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or reapplies [Windswept] to an enemy already afflicted with [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 1%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 0.5%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 46,
-                        "end": 59,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 61,
-                        "end": 74,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 113,
-                        "end": 125,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 149,
-                        "end": 153,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 193,
-                        "end": 194,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 224,
-                        "end": 229,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 255,
-                        "end": 258,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 288,
-                        "end": 290,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 297,
-                        "end": 327,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 357,
-                        "end": 368,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 372,
-                        "end": 387,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 401,
-                        "end": 410,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 412,
-                        "end": 427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 443,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 496,
-                        "end": 505,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 519,
-                        "end": 530,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 566,
-                        "end": 577,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 600,
-                        "end": 602,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 680,
-                        "end": 689,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 763,
-                        "end": 764,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 773,
-                        "end": 775,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 782,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 871,
-                        "end": 874,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 885,
+                        "start": 886,
+                        "end": 888,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -11195,7 +10965,7 @@
               {
                 "name": "Additional Ability: Porcelloy Heart",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is an [Attack] Character, [Rupture] Character, or [Armorer] Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%;\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by [Windswept] or [Contamination], the Wind Attribute direct DMG and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 10%;\nUpon entering the battlefield, recover 40 Energy. This effect can trigger once every 180s in Investigation Zone mode;\nThe duration of [Windswept] effects applied by all squad members is extended by 20s;\nWhen using [EX Special Attack], Anomaly Buildup Rate increases by 25% for 40s. Repeated triggers reset the duration.",
+                "desc": "When another character in your squad is an [Attack], [Rupture], or [Armorer] Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by [Windswept] or [Contamination], Wind direct DMG and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of [Windswept] effects applied by all squad members is extended by 20s.\nWhen using [EX Special Attack], Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration.",
                 "descFormat": [
                   {
                     "start": 43,
@@ -11204,50 +10974,50 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 63,
-                    "end": 72,
+                    "start": 53,
+                    "end": 62,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 87,
-                    "end": 96,
+                    "start": 67,
+                    "end": 76,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 503,
-                    "end": 514,
+                    "start": 481,
+                    "end": 492,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 518,
-                    "end": 533,
+                    "start": 496,
+                    "end": 511,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 539,
-                    "end": 564,
+                    "start": 513,
+                    "end": 528,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 804,
-                    "end": 815,
+                    "start": 768,
+                    "end": 779,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 884,
-                    "end": 903,
+                    "start": 848,
+                    "end": 867,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 939,
-                    "end": 941,
+                    "start": 903,
+                    "end": 905,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -11260,9 +11030,9 @@
             "title": "Mindscape Cinema",
             "entries": [
               {
-                "name": "All-Round Attendant",
+                "name": "...",
                 "type": "Mindscape 1",
-                "desc": "[EX Special Attack: Rest in Peace] On hit, reduces the enemy's All-Attribute RES by 15% for 40s; increases own CRIT DMG by 30%.",
+                "desc": "[EX Special Attack: Rest in Peace] On hit, reduces the enemy's All-Attribute RES by 15% for 50s; increases own CRIT DMG by 40%.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -11273,50 +11043,62 @@
                 ]
               },
               {
-                "name": "Never Overtime",
+                "name": "...",
                 "type": "Mindscape 2",
-                "desc": "For each [Wind Eye] detonated, the next [EX Special Attack: Watch for Wind Chill] deals 5% more Daze, up to a max of 15%. When [EX Special Attack: Watch for Wind Chill] is launched and enters [Spin] state to switch characters, Roxy maintains the [Spin] state for 0.25s without consuming Energy, up to a max of 0.75s. When [EX Special Attack: Watch for Wind Chill] hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
+                "desc": "[EX Special Attack: Watch for Wind Chill] Daze inflicted increases by 5%; each [Wind Eye] detonated grants 1 stack of [Flow Momentum], up to a maximum of 3 stacks; when switching out during [Spin] state while [EX Special Attack: Watch for Wind Chill] is active, Roxy consumes all [Flow Momentum] stacks, with each stack consumed maintaining [Spin] state for 0.2s without consuming Energy, up to a maximum of 0.6s; when [EX Special Attack: Watch for Wind Chill] hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
                 "descFormat": [
                   {
-                    "start": 9,
-                    "end": 19,
+                    "start": 0,
+                    "end": 41,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 40,
-                    "end": 81,
+                    "start": 79,
+                    "end": 89,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 127,
-                    "end": 168,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 192,
-                    "end": 198,
+                    "start": 118,
+                    "end": 133,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 246,
-                    "end": 252,
+                    "start": 190,
+                    "end": 196,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 322,
-                    "end": 363,
+                    "start": 209,
+                    "end": 250,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 280,
+                    "end": 295,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 341,
+                    "end": 347,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 419,
+                    "end": 460,
                     "kind": "tone",
                     "tone": "anemo"
                   }
                 ]
               },
               {
-                "name": "Insomniac Tales",
+                "name": "...",
                 "type": "Mindscape 3",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -11353,9 +11135,9 @@
                 ]
               },
               {
-                "name": "R.I.P",
+                "name": "...",
                 "type": "Mindscape 4",
-                "desc": "When launching [Defensive Assist], Roxy recovers 1 Energy, up to 1 time per skill; when [Dodge Counter: Giving Back] hits an enemy, recovers 2 Energy, up to 1 time per skill; [Ultimate: Requiem of the Buried Night] DMG increases by 25%, and Daze increases by 10%.",
+                "desc": "When launching [Defensive Assist], Roxy recovers 1 Energy, up to 1 time per skill; when [Dodge Counter: Giving Back] hits an enemy, recovers 2 Energy, up to 1 time per skill; [Ultimate: Requiem of the Buried Night] DMG increases by 20%, and Daze increases by 10%.",
                 "descFormat": [
                   {
                     "start": 15,
@@ -11378,7 +11160,7 @@
                 ]
               },
               {
-                "name": "Second Heartbeat",
+                "name": "...",
                 "type": "Mindscape 5",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -11415,31 +11197,31 @@
                 ]
               },
               {
-                "name": "Eternity and the Clockwork Automaton",
+                "name": "...",
                 "type": "Mindscape 6",
-                "desc": "Upon entering the battlefield, DMG dealt by self ignores 30% of the target's Wind DMG RES; when [Special Attack: Don't Bother Seeing Me Out] detonates [Wind Eye] to generate a large tornado, the main target is granted the [Vengeance] effect, generating a large tornado at the target's position once every 3 seconds, for a total of 4 additional large tornadoes; the DMG Multiplier of large tornadoes is increased by 400%, and the Daze dealt is increased by 100%. On repeated triggers, the additional generation count stacks.",
+                "desc": "DMG dealt ignores 20% of the target's Wind DMG RES; When [Special Attack: Don't Bother Seeing Me Out] detonates [Wind Eye] to generate a giant wind vortex, the main target is afflicted with the [Reverberation] effect, generating a giant wind vortex at the target's position once every 3s, for a total of 2 additional giant wind vortices. Upon repeated triggers, the number of additional generations stacks.; The DMG Multiplier of giant wind vortices becomes 250% of the original, and Daze inflicted is increased by 30%.",
                 "descFormat": [
                   {
-                    "start": 77,
-                    "end": 89,
+                    "start": 38,
+                    "end": 50,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 96,
-                    "end": 140,
+                    "start": 57,
+                    "end": 101,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 151,
-                    "end": 161,
+                    "start": 112,
+                    "end": 122,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 222,
-                    "end": 233,
+                    "start": 194,
+                    "end": 209,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -12981,7 +12763,7 @@
   "weapons": [
     {
       "id": "14161",
-      "name": "Crimson Thirst",
+      "name": "Crimson Craving",
       "rarity": 4,
       "weaponType": "Armorer",
       "type": "Armorer",

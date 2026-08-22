@@ -1,5 +1,21 @@
 [
   {
+    "path": "GameData/zzz/assets/agents/icons/IconRole1611.webp",
+    "gamedataAssetPath": "IconRole1611.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/agents/partner-icons/IconRoleCircle1611.webp",
+    "gamedataAssetPath": "IconRoleCircle1611.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/agents/role-icons/IconRole1611.webp",
+    "gamedataAssetPath": "IconRole1611.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/agents/icons/IconRole68.webp",
+    "gamedataAssetPath": "IconRole68.webp"
+  },
+  {
     "path": "GameData/zzz/assets/agents/role-icons/IconRole68.webp",
     "gamedataAssetPath": "IconRole68.webp"
   },
@@ -12,52 +28,8 @@
     "gamedataAssetPath": "Monster_EvolvedBee.webp"
   },
   {
-    "path": "GameData/zzz/assets/monsters/Monster_Greatsworder.webp",
-    "gamedataAssetPath": "Monster_Greatsworder.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_Halberdier.webp",
-    "gamedataAssetPath": "Monster_Halberdier.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_RoscaSolider.webp",
-    "gamedataAssetPath": "Monster_RoscaSolider.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_EvolvedCannoneer.webp",
-    "gamedataAssetPath": "Monster_EvolvedCannoneer.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_EvolvedRifleman.webp",
-    "gamedataAssetPath": "Monster_EvolvedRifleman.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_EvolvedBlader.webp",
-    "gamedataAssetPath": "Monster_EvolvedBlader.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_EvolvedHeavyJaeger.webp",
-    "gamedataAssetPath": "Monster_EvolvedHeavyJaeger.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_EvolvedFootRover.webp",
-    "gamedataAssetPath": "Monster_EvolvedFootRover.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_EvolvedHeavyStriker.webp",
-    "gamedataAssetPath": "Monster_EvolvedHeavyStriker.webp"
-  },
-  {
     "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
     "gamedataAssetPath": "Monster_MazingerGoldenBomb.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_PcyHACMecha.webp",
-    "gamedataAssetPath": "Monster_PcyHACMecha.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/monsters/Monster_HACMecha.webp",
-    "gamedataAssetPath": "Monster_HACMecha.webp"
   },
   {
     "path": "GameData/zzz/assets/monsters/Monster_Mutant_HC.webp",
@@ -136,12 +108,20 @@
     "gamedataAssetPath": "SuitPope01.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/HallowBuff02.webp",
-    "gamedataAssetPath": "HallowBuff02.webp"
+    "path": "GameData/zzz/assets/items/CardDailyUse1611.webp",
+    "gamedataAssetPath": "CardDailyUse1611.webp"
   },
   {
     "path": "GameData/zzz/assets/items/CardDailyUse1621.webp",
     "gamedataAssetPath": "CardDailyUse1621.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/CardSharpDMG.webp",
+    "gamedataAssetPath": "CardSharpDMG.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/HallowBuff02.webp",
+    "gamedataAssetPath": "HallowBuff02.webp"
   },
   {
     "path": "GameData/zzz/assets/items/CardDailyUse1631.webp",
@@ -150,34 +130,6 @@
   {
     "path": "GameData/zzz/assets/items/CardDailyUse1641.webp",
     "gamedataAssetPath": "CardDailyUse1641.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/CardDailyUse1651.webp",
-    "gamedataAssetPath": "CardDailyUse1651.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Relic107.webp",
-    "gamedataAssetPath": "Relic107.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Relic108.webp",
-    "gamedataAssetPath": "Relic108.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Relic109.webp",
-    "gamedataAssetPath": "Relic109.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Relic110.webp",
-    "gamedataAssetPath": "Relic110.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Relic111.webp",
-    "gamedataAssetPath": "Relic111.webp"
-  },
-  {
-    "path": "GameData/zzz/assets/items/Relic112.webp",
-    "gamedataAssetPath": "Relic112.webp"
   },
   {
     "path": "GameData/zzz/assets/items/IconWallpaperPiece12.webp",

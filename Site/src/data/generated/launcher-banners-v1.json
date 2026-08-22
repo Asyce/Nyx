@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "bf3e2c474b7ad127f6f258c8ec524f2719dcf3cf68bca18ca3532ad922b49468",
-  "generatedAt": "2026-08-22T09:38:01.549Z",
+  "revision": "b89292c00cc76840e4fbcbeea062d786f266cf4e5d5121f8d86fda2a10b93b52",
+  "generatedAt": "2026-08-22T14:47:17.392Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 865317
+          "durationSeconds": 846761
         },
         "characters": [
           {
@@ -789,7 +789,7 @@
         "remaining": {
           "startsAt": "2026-08-05T04:00:00.000Z",
           "endsAt": "2026-08-25T07:00:00.000Z",
-          "durationSeconds": 249718
+          "durationSeconds": 231162
         },
         "characters": [
           {
@@ -1982,7 +1982,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1459317
+          "durationSeconds": 1440761
         },
         "characters": [
           {
@@ -2646,168 +2646,28 @@
           "end": null,
           "characters": [
             {
-              "id": "claret",
-              "name": "Claret Flint",
-              "rarity": null,
+              "id": "1621",
+              "name": "Roxy",
+              "rarity": 4,
               "limited": null,
               "debut": null,
               "icon": {
-                "id": "claret-icon",
+                "id": "1621-icon",
                 "source": "character-icon",
-                "path": "/launcher-art/0923838922fe114abc44127776c2163f2d24be791b903446f7fe4ac637797ebd.webp",
-                "url": "https://pengo.gg/dist/launcher-art/0923838922fe114abc44127776c2163f2d24be791b903446f7fe4ac637797ebd.webp",
+                "path": "/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
+                "url": "https://pengo.gg/dist/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
                 "mime": "image/webp",
-                "size": 72658,
+                "size": 8596,
                 "dimensions": {
-                  "width": 728,
-                  "height": 410
+                  "width": 142,
+                  "height": 142
                 },
-                "sha256": "0923838922fe114abc44127776c2163f2d24be791b903446f7fe4ac637797ebd",
+                "sha256": "16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 728,
-                  "bottom": 410
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            },
-            {
-              "id": "roxy",
-              "name": "Roxy Ifrita Pryce",
-              "rarity": null,
-              "limited": null,
-              "debut": null,
-              "icon": {
-                "id": "roxy-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/7429b2b5e1eda1507e6e00bcf28537ffb2c17b2202baa27490bd1440494eb4c0.webp",
-                "url": "https://pengo.gg/dist/launcher-art/7429b2b5e1eda1507e6e00bcf28537ffb2c17b2202baa27490bd1440494eb4c0.webp",
-                "mime": "image/webp",
-                "size": 67752,
-                "dimensions": {
-                  "width": 728,
-                  "height": 410
-                },
-                "sha256": "7429b2b5e1eda1507e6e00bcf28537ffb2c17b2202baa27490bd1440494eb4c0",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 728,
-                  "bottom": 410
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            }
-          ]
-        },
-        {
-          "phase": null,
-          "announced": true,
-          "start": null,
-          "end": null,
-          "characters": [
-            {
-              "id": "sunbringer",
-              "name": "Sunbringer",
-              "rarity": null,
-              "limited": null,
-              "debut": null,
-              "icon": {
-                "id": "sunbringer-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/bc038d3e177c45f546004c2ddea8010e68ac7381b14133616bec335db771d0aa.webp",
-                "url": "https://pengo.gg/dist/launcher-art/bc038d3e177c45f546004c2ddea8010e68ac7381b14133616bec335db771d0aa.webp",
-                "mime": "image/webp",
-                "size": 33486,
-                "dimensions": {
-                  "width": 437,
-                  "height": 436
-                },
-                "sha256": "bc038d3e177c45f546004c2ddea8010e68ac7381b14133616bec335db771d0aa",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 437,
-                  "bottom": 436
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            },
-            {
-              "id": "phoenix",
-              "name": "Phoenix",
-              "rarity": null,
-              "limited": null,
-              "debut": null,
-              "icon": {
-                "id": "phoenix-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/4b62fab59665a7122fbe4ab4f68341bcc1acc6ac8af69d6643ad57d2aaabfc40.webp",
-                "url": "https://pengo.gg/dist/launcher-art/4b62fab59665a7122fbe4ab4f68341bcc1acc6ac8af69d6643ad57d2aaabfc40.webp",
-                "mime": "image/webp",
-                "size": 49088,
-                "dimensions": {
-                  "width": 437,
-                  "height": 436
-                },
-                "sha256": "4b62fab59665a7122fbe4ab4f68341bcc1acc6ac8af69d6643ad57d2aaabfc40",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 437,
-                  "bottom": 436
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            },
-            {
-              "id": "the-storyteller",
-              "name": "The Storyteller",
-              "rarity": null,
-              "limited": null,
-              "debut": null,
-              "icon": {
-                "id": "the-storyteller-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/b3dad4f67b327af9223971637f92bd33c5e36caf9206b8838ae1b0005018e5c9.webp",
-                "url": "https://pengo.gg/dist/launcher-art/b3dad4f67b327af9223971637f92bd33c5e36caf9206b8838ae1b0005018e5c9.webp",
-                "mime": "image/webp",
-                "size": 50382,
-                "dimensions": {
-                  "width": 437,
-                  "height": 436
-                },
-                "sha256": "b3dad4f67b327af9223971637f92bd33c5e36caf9206b8838ae1b0005018e5c9",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 437,
-                  "bottom": 436
+                  "right": 142,
+                  "bottom": 142
                 },
                 "placement": {
                   "anchor": "center",
@@ -2918,7 +2778,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1639258
+          "durationSeconds": 1620702
         },
         "characters": [
           {
@@ -3685,7 +3545,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 908517
+          "durationSeconds": 889961
         },
         "characters": [
           {

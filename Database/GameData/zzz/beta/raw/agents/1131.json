@@ -2195,14 +2195,47 @@
     }
   },
   "fairy_recommend": {
-    "slot4": 31400,
-    "slot2": 32500,
-    "slot_sub": 31600,
+    "slot4": 33400,
+    "slot2": 31600,
+    "slot_sub": 32500,
     "part_sub_list": [
       12102,
       31203
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          31600,
+          31400
+        ],
+        "part_sub_list": [
+          12102,
+          31203,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          31300,
+          33000
+        ],
+        "part_sub_list": [
+          12102,
+          31703
+        ]
+      },
+      {
+        "suit_list": [
+          31300,
+          31600
+        ],
+        "part_sub_list": [
+          12102,
+          31402,
+          30502
+        ]
+      }
+    ],
     "part4": {
       "prop": 12102,
       "name": "ATK",

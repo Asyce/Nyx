@@ -1982,14 +1982,45 @@
     }
   },
   "fairy_recommend": {
-    "slot4": 31300,
+    "slot4": 33400,
     "slot2": 31100,
-    "slot_sub": 32400,
+    "slot_sub": 31600,
     "part_sub_list": [
       12102,
       31203
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          31600,
+          31100
+        ],
+        "part_sub_list": [
+          31203,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          31300,
+          31100
+        ],
+        "part_sub_list": [
+          23103,
+          12102
+        ]
+      },
+      {
+        "suit_list": [
+          33400,
+          31100
+        ],
+        "part_sub_list": [
+          30502,
+          31402
+        ]
+      }
+    ],
     "part4": {
       "prop": 23103,
       "name": "PEN Ratio",
@@ -2003,16 +2034,16 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
     },
     "part6": {
-      "prop": 20103,
-      "name": "CRIT Rate",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
-    },
-    "part_sub": {
       "prop": 12102,
       "name": "ATK",
       "format": "{0:0.#%}",
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    "part_sub": {
+      "prop": 31203,
+      "name": "Anomaly Proficiency",
+      "format": "{0:0}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
     }
   },
   "strategy": [

@@ -2136,7 +2136,35 @@
       21103,
       12102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33200,
+          31000
+        ],
+        "part_sub_list": [
+          20103,
+          21103
+        ]
+      },
+      {
+        "suit_list": [
+          33200,
+          33400
+        ],
+        "part_sub_list": [
+          12102,
+          31503
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          30502,
+          12202
+        ]
+      }
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",
@@ -2156,10 +2184,10 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconBreakStun.png"
     },
     "part_sub": {
-      "prop": 12102,
-      "name": "ATK",
+      "prop": 31503,
+      "name": "Physical DMG Bonus",
       "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+      "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png"
     }
   },
   "strategy": [

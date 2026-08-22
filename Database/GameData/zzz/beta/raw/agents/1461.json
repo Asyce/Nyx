@@ -2076,7 +2076,36 @@
       21103,
       12102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33300,
+          31000
+        ],
+        "part_sub_list": [
+          20103,
+          21103
+        ]
+      },
+      {
+        "suit_list": [
+          33300,
+          32700
+        ],
+        "part_sub_list": [
+          31803,
+          12102,
+          23103
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          12102,
+          30502
+        ]
+      }
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

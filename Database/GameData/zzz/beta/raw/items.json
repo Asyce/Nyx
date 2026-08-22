@@ -645,7 +645,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooSnack.png",
     "rank": 3,
     "class": 1,
-    "name": "Snacks"
+    "name": "Item__Activity_Digiboo_FoodType_02"
   },
   "501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconStamina.png",
@@ -1107,13 +1107,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece69.png",
     "rank": 4,
     "class": 3,
-    "name": "Avatar_Female_Size02_Claret"
+    "name": "Claret"
   },
   "1621": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece68.png",
     "rank": 4,
     "class": 3,
-    "name": "Avatar_Female_Size01_Pryce"
+    "name": "Roxy"
   },
   "2011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece01.png",
@@ -1503,7 +1503,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece68.png",
     "rank": 4,
     "class": 4,
-    "name": "Avatar_Female_Size01_Pryce_Piece"
+    "name": "Agent Focus · Roxy"
   },
   "6011": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRolePiece/UnPacker/IconRolePiece01.png",
@@ -2115,7 +2115,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1611.png",
     "rank": 4,
     "class": 5,
-    "name": "Crimson Thirst"
+    "name": "Crimson Craving"
   },
   "14162": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1621.png",
@@ -7886,6 +7886,12 @@
     "class": 20,
     "name": "Item_Questitem_304073_name"
   },
+  "304074": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/QuestItem_ActivityDetectiveV2_Doll.png",
+    "rank": 2,
+    "class": 20,
+    "name": "Bangboo Plushie"
+  },
   "305001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconHollowClueItem/UnPacker/IconQuestItem_Abyss_0001.png",
     "rank": 2,
@@ -9758,6 +9764,18 @@
     "class": 18,
     "name": "Gear Coins"
   },
+  "601571": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
+    "rank": 2,
+    "class": 18,
+    "name": "Gear Coins"
+  },
+  "601581": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
+    "rank": 2,
+    "class": 18,
+    "name": "Gear Coins"
+  },
   "610001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
     "rank": 2,
@@ -10578,7 +10596,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/S_EngineFreePick.png",
     "rank": 4,
     "class": 29,
-    "name": "Item_Weapon_Choose_Show"
+    "name": "..."
   },
   "900102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitFool01.png",
@@ -12710,6 +12728,18 @@
     "class": 31,
     "name": "[Ether] High-Efficiency Lightning Rod"
   },
+  "1002001": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png",
+    "rank": 4,
+    "class": 31,
+    "name": "Blood Rose"
+  },
+  "1002002": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
+    "rank": 4,
+    "class": 31,
+    "name": "Insomnia Syndrome"
+  },
   "1002101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardToy01.png",
     "rank": 4,
@@ -12835,6 +12865,12 @@
     "rank": 3,
     "class": 31,
     "name": "[Affinity] Rupture Tactical Exchange"
+  },
+  "1002307": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSharpDMG.png",
+    "rank": 3,
+    "class": 31,
+    "name": "[Affinity] Armorer Tactical Exchange"
   },
   "1002401": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardTenacity02.png",
@@ -13256,6 +13292,18 @@
     "class": 20,
     "name": "Legendary Ascent"
   },
+  "1003001": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png",
+    "rank": 4,
+    "class": 20,
+    "name": "Blood Rose"
+  },
+  "1003002": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
+    "rank": 4,
+    "class": 20,
+    "name": "Insomnia Syndrome"
+  },
   "1005001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse32.png",
     "rank": 3,
@@ -13275,7 +13323,7 @@
     "name": "[Rupture] Armor-Piercing Bullet"
   },
   "1006002": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardRuin.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardSharpDMG.png",
     "rank": 3,
     "class": 31,
     "name": "[Armorer] Unstoppable Edge"
@@ -17631,25 +17679,25 @@
     "name": "Sigrid"
   },
   "1341075": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png",
     "rank": 4,
     "class": 83,
     "name": "Claret"
   },
   "1341076": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1631.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
     "rank": 4,
     "class": 83,
     "name": "Roxy"
   },
   "1341077": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1641.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1631.png",
     "rank": 4,
     "class": 83,
     "name": "Choice_1341077_name"
   },
   "1341078": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1651.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1641.png",
     "rank": 4,
     "class": 83,
     "name": "Choice_1341078_name"
@@ -21216,7 +21264,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/XboxOnlyBundle.png",
     "rank": 2,
     "class": 51,
-    "name": "Zenless Zone Zero Xbox Game Pass Ultimate Reward"
+    "name": "Zenless Zone Zero Xbox Game Pass Reward"
   },
   "2000034": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Testgift.png",
@@ -22940,6 +22988,18 @@
     "class": 64,
     "name": "Agent Avatar: Sigrid"
   },
+  "3231611": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ItemProfileGeneral.png",
+    "rank": 4,
+    "class": 64,
+    "name": "Agent Avatar: Claret"
+  },
+  "3231621": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ItemProfileGeneral.png",
+    "rank": 4,
+    "class": 64,
+    "name": "Agent Avatar - Roxy"
+  },
   "3300001": {
     "icon": "",
     "rank": 3,
@@ -23642,6 +23702,18 @@
     "class": 65,
     "name": "Sigrid's Namecard"
   },
+  "3311611": {
+    "icon": "",
+    "rank": 3,
+    "class": 65,
+    "name": "Claret's Namecard"
+  },
+  "3311621": {
+    "icon": "",
+    "rank": 3,
+    "class": 65,
+    "name": "Roxy's Namecard"
+  },
   "3321011": {
     "icon": "",
     "rank": 3,
@@ -23983,6 +24055,18 @@
     "rank": 3,
     "class": 65,
     "name": "Armor Maintenance"
+  },
+  "3321611": {
+    "icon": "",
+    "rank": 3,
+    "class": 65,
+    "name": "..."
+  },
+  "3321621": {
+    "icon": "",
+    "rank": 3,
+    "class": 65,
+    "name": "..."
   },
   "3500000": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconRoleTrust/UnPacker/LiveWallpaper01.png",
@@ -25688,6 +25772,30 @@
     "class": 77,
     "name": "Title \"{0}\""
   },
+  "3800247": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/TitleIcon.png",
+    "rank": 4,
+    "class": 77,
+    "name": "Title \"{0}\""
+  },
+  "3800248": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/TitleIcon.png",
+    "rank": 4,
+    "class": 77,
+    "name": "Title \"{0}\""
+  },
+  "3800249": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/TitleIcon.png",
+    "rank": 4,
+    "class": 77,
+    "name": "Title \"{0}\""
+  },
+  "3800250": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/TitleIcon.png",
+    "rank": 4,
+    "class": 77,
+    "name": "Title \"{0}\""
+  },
   "3900001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBangbooPiece/UnPacker/IconBangbooDefenseUnknown.png",
     "rank": 3,
@@ -26437,6 +26545,12 @@
     "rank": 3,
     "class": 72,
     "name": "MessageItem_4000214_name"
+  },
+  "4000215": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PoliceOfficerLetter07.png",
+    "rank": 3,
+    "class": 72,
+    "name": "MessageItem_4000215_name"
   },
   "4100001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBangbooObservaboo.png",
@@ -29264,6 +29378,12 @@
     "class": 10,
     "name": "Safe Expansion Plug-In"
   },
+  "4300005": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_011.png",
+    "rank": 4,
+    "class": 10,
+    "name": "ZKItem_4300005_Name"
+  },
   "4300010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconCurrency.png",
     "rank": 5,
@@ -29272,7 +29392,7 @@
   },
   "4300018": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/AbyssShopCoin.png",
-    "rank": 5,
+    "rank": 4,
     "class": 130,
     "name": "Z-Merits"
   },
@@ -29730,7 +29850,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_007.png",
     "rank": 2,
     "class": 132,
-    "name": "[Weakened] Base Gear - General - Lv.30"
+    "name": "[Weak] Advanced Gear: General - Lv.30"
   },
   "4320121": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_001.png",
@@ -29820,7 +29940,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_007.png",
     "rank": 2,
     "class": 132,
-    "name": ""
+    "name": "[Weak] Advanced Gear: General - Lv.40"
   },
   "4320151": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_001.png",
@@ -30138,13 +30258,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable][Claret]-Lv.50"
+    "name": "[Vulnerable][Claret] Fracture Onslaught-Lv.50"
   },
   "4321024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "[Vulnerable][Roxy]-Lv.50"
+    "name": "[Fragile][Roxy]Lead Hammer Tempering-Lv.50"
+  },
+  "4321025": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Fragile][Zhao]Storm Frost Enigma-Lv.50"
+  },
+  "4321026": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Vulnerable][Banyue]Asura's Way-Lv.50"
+  },
+  "4321027": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Fragile][Yidhari]Cold Light Aura-Lv.50"
+  },
+  "4321028": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Fragile][Starlight - Billy] Knight Belt-Lv.50"
   },
   "4322001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
@@ -30282,13 +30426,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 5,
     "class": 132,
-    "name": "[Claret]-Lv.60"
+    "name": "[Claret]Riftforge Onslaught-Lv.60"
   },
   "4322024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 5,
     "class": 132,
-    "name": "[Roxy]-Lv.60"
+    "name": "[Roxy]Lead Hammer Tempering-Lv.60"
+  },
+  "4322025": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 5,
+    "class": 132,
+    "name": "[Zhao] Lanfrost Enigma-Lv.60"
+  },
+  "4322026": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 5,
+    "class": 132,
+    "name": "[Banyue] The Way of Asura - Lv.60"
+  },
+  "4322027": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 5,
+    "class": 132,
+    "name": "[Yidhari] Frigid Radiance - Lv.60"
+  },
+  "4322028": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 5,
+    "class": 132,
+    "name": "[Starlight - Billy] Knight Belt-Lv.60"
   },
   "4323101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
@@ -30798,13 +30966,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "[Claret]-Lv.50"
+    "name": "[Claret]Riftforge Onslaught-Lv.50"
   },
   "4326024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
     "rank": 4,
     "class": 132,
-    "name": "[Roxy]-Lv.50"
+    "name": "[Roxy]Lead Hammer Tempering-Lv.50"
+  },
+  "4326025": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Zhao] Lanfrost Enigma-Lv.50"
+  },
+  "4326026": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Banyue] The Way of Asura - Lv.50"
+  },
+  "4326027": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Yidhari] Frigid Radiance - Lv.50"
+  },
+  "4326028": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png",
+    "rank": 4,
+    "class": 132,
+    "name": "[Starlight - Billy] Knight Belt-Lv.50"
   },
   "4331001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_001.png",
@@ -31788,13 +31980,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint][Claret]-Lv.50"
+    "name": "[Blueprint][Claret]Riftforge Onslaught-Lv.50"
   },
   "4350324": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "[Blueprint][Roxy]-Lv.50"
+    "name": "[Blueprint][Roxy]Lead Tempered-Lv.50"
+  },
+  "4350325": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "[Blueprint][Zhao]Misty Frost Enigma-Lv.50"
+  },
+  "4350326": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "[Blueprint][Banyue] The Way of Asura-Lv.50"
+  },
+  "4350327": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "[Blueprint][Yidhari] Frigid Gleam Aura - Lv.50"
+  },
+  "4350328": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "[Blueprint][Starlight - Billy] Knight Belt-Lv.50"
   },
   "4350501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008_Blueprint.png",
@@ -31932,13 +32148,37 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint][Claret]-Lv.60"
+    "name": "[Blueprint][Claret]Riftforge Onslaught-Lv.60"
   },
   "4350524": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "[Blueprint][Roxy]-Lv.60"
+    "name": "[Blueprint][Roxy] Hammer Refined - Lv.60"
+  },
+  "4350525": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "[Blueprint][Zhao]Misty Frost Enigma-Lv.60"
+  },
+  "4350526": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "[Blueprint][Banyue] Asura's Way - Lv.60"
+  },
+  "4350527": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "[Blueprint][Yidhari] Frigid Gleam Shroud-Lv.60"
+  },
+  "4350528": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "[Blueprint][Starlight - Billy] Knight Belt-Lv.60"
   },
   "4360001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_001.png",
@@ -32221,6 +32461,132 @@
     "rank": 5,
     "class": 130,
     "name": "ZKItem_4360047_Name"
+  },
+  "4360048": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360048_Name"
+  },
+  "4360049": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360049_Name"
+  },
+  "4360050": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360050_Name"
+  },
+  "4360051": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360051_Name"
+  },
+  "4360052": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360052_Name"
+  },
+  "4360053": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360053_Name"
+  },
+  "4360054": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360054_Name"
+  },
+  "4360055": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360055_Name"
+  },
+  "4360056": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360056_Name"
+  },
+  "4360057": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360057_Name"
+  },
+  "4360058": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360058_Name"
+  },
+  "4360059": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360059_Name"
+  },
+  "4360060": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360060_Name"
+  },
+  "4360061": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360061_Name"
+  },
+  "4360062": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360062_Name"
+  },
+  "4360063": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360063_Name"
+  },
+  "4360064": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360064_Name"
+  },
+  "4360065": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360065_Name"
+  },
+  "4360066": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360066_Name"
+  },
+  "4360067": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360067_Name"
+  },
+  "4360068": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360068_Name"
   },
   "4360084": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_022.png",
@@ -33948,7 +34314,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Chest_WaistOrnament_04.png",
     "rank": 3,
     "class": 95,
-    "name": "Accessoriy_412011322"
+    "name": "..."
   },
   "412011381": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Back_Pendant_Default.png",
@@ -34296,7 +34662,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Chest_WaistOrnament_04.png",
     "rank": 3,
     "class": 95,
-    "name": "Accessoriy_412021322"
+    "name": "..."
   },
   "412021381": {
     "icon": "Assets/NapResources/UI/Sprite/A5DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_Pendant_Default.png",

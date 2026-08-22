@@ -2160,14 +2160,45 @@
     }
   },
   "fairy_recommend": {
-    "slot4": 31600,
+    "slot4": 33400,
     "slot2": 33000,
-    "slot_sub": 31300,
+    "slot_sub": 31600,
     "part_sub_list": [
       12102,
       31203
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          31600,
+          33000
+        ],
+        "part_sub_list": [
+          12102,
+          31203
+        ]
+      },
+      {
+        "suit_list": [
+          33400,
+          33000
+        ],
+        "part_sub_list": [
+          12102,
+          31503
+        ]
+      },
+      {
+        "suit_list": [
+          32800,
+          33000
+        ],
+        "part_sub_list": [
+          31402,
+          12102
+        ]
+      }
+    ],
     "part4": {
       "prop": 31402,
       "name": "Anomaly Mastery",
@@ -2187,10 +2218,10 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
     },
     "part_sub": {
-      "prop": 20103,
-      "name": "CRIT Rate",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+      "prop": 31203,
+      "name": "Anomaly Proficiency",
+      "format": "{0:0}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
     }
   },
   "strategy": [

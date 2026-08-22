@@ -37,6 +37,26 @@ jobs:
         with:
           ref: main
 
+      # Checkout no longer smudges LFS (the cache below supplies the objects), so the
+      # LFS filters and hooks must be installed here instead. Keep this UNCONDITIONAL:
+      # steps that `git add` LFS-tracked paths rely on the clean filter to stage a
+      # pointer rather than the full blob, and the pre-push hook is what uploads new
+      # LFS objects. Those steps do not all share the LFS pull step's `if:` guard.
+      - name: Configure Git LFS
+        run: git lfs install --local
+
+      # Only gi/ and hsr/ live rosters are LFS-tracked (~36 MB combined), and they change
+      # just a few times a year -- but every run used to re-download both, which is what
+      # exhausted the account's 10 GB/month LFS bandwidth. Caching .git/lfs against the
+      # pointer files means an object is re-fetched only when it actually changed; the
+      # restore-keys prefix also lets a run reuse whichever of the two is still current.
+      - name: Cache LFS objects
+        uses: actions/cache@v6
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
+          restore-keys: lfs-
+
       - uses: actions/setup-node@v6
         with:
           node-version: "20"

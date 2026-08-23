@@ -264,6 +264,51 @@ function zzzBetaAgentIdentity() {
   };
 }
 
+// ---------------------------------------------------------------------------
+// Specialty icons. A game ships a new specialty before we have art for it -
+// Claret arrived as the first Armorer - and the agent page already carries what
+// we need: the specialty's icon_path_hash, and a refs.assets map resolving that
+// hash to a CDN file. Record any specialty we have no local icon for, with the
+// URL, so the gap is visible instead of silently rendering a fallback glyph.
+//
+// Deliberately reports rather than downloads: these assets are normalised by
+// hand to a 64x64 frame to sit level with their siblings, and there is no image
+// library here to do that. Fetching the URL is the easy half.
+const SPEC_ICON_DIR = path.resolve(root, 'Site', 'assets', 'meta', 'zzz');
+
+export function parseSpecialtyIcon(html) {
+  const block = /specialties:\{(.*?)\},factions:/s.exec(html || '');
+  if (!block) return null;
+  const name = /text:"([^"]+)"/.exec(block[1])?.[1];
+  const hash = /icon_path_hash:"(\d+)"/.exec(block[1])?.[1];
+  if (!name || !hash) return null;
+  const asset = new RegExp(`"${hash}":\{[^}]*?url:"([^"]+)"[^}]*?\}`).exec(html || '');
+  return { name, hash, url: asset?.[1] || null };
+}
+
+function specialtyIconSlug(name) {
+  return String(name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function specialtyIconMissing(name) {
+  const slug = specialtyIconSlug(name);
+  if (!slug || slug === 'unknown') return false;
+  return !fs.existsSync(path.resolve(SPEC_ICON_DIR, `spec_${slug}.webp`));
+}
+
+function writeSpecialtyIconGaps(gaps) {
+  const file = path.resolve(root, 'Database', 'reports', 'zzz-specialty-icon-gaps.json');
+  const missing = [...new Map(gaps.map((row) => [row.specialty, row])).values()]
+    .sort((a, b) => String(a.specialty).localeCompare(String(b.specialty)));
+  writeJson(file, {
+    generatedAt: new Date().toISOString(),
+    note: 'ZZZ specialties with no Site/assets/meta/zzz/spec_<name>.webp. Download the url, trim to the artwork and centre it in a 64x64 frame with the glyph about 52px, then save as webp. No code change is needed: cmMetaIconSrc finds it by convention.',
+    count: missing.length,
+    missing,
+  });
+  return missing;
+}
+
 async function scrapeZzzAgentDetails(entries, previousPayload) {
   const local = zzzBetaAgentIdentity();
   const knownAgent = (row) => local.ids.has(String(row?.id)) || local.names.some((name) => sameKnownAgentName(row?.name, name));
@@ -272,12 +317,20 @@ async function scrapeZzzAgentDetails(entries, previousPayload) {
     .filter(([id, detail]) => id && !knownAgent(detail) && detail?.materials?.length));
   const details = new Map(previous);
   const errors = [];
+  const iconGaps = [];
   for (const entry of latestZzzAgentEntries(entries).filter((row) => !knownAgent(row))) {
     const old = details.get(String(entry.id));
     if (old && Number(old.revision || 0) >= Number(entry.revision || 0)) continue;
     try {
-      const detail = parseAgentDetail(await fetchHtml(entry.href));
+      const html = await fetchHtml(entry.href);
+      const detail = parseAgentDetail(html);
       validateAgentDetail(detail, entry);
+      const icon = parseSpecialtyIcon(html);
+      if (icon && specialtyIconMissing(icon.name)) {
+        iconGaps.push({ specialty: icon.name, agent: entry.name, agentId: String(entry.id),
+                        expects: `Site/assets/meta/zzz/spec_${specialtyIconSlug(icon.name)}.webp`,
+                        url: icon.url, source: entry.href });
+      }
       details.set(String(entry.id), {
         ...entry,
         ...detail,
@@ -290,7 +343,11 @@ async function scrapeZzzAgentDetails(entries, previousPayload) {
       console.warn(`[gachabase-beta] zzz agent ${entry.id}: ${error.message}; ${old ? 'preserved previous detail' : 'no previous detail'}`);
     }
   }
-  return { details: [...details.values()], errors };
+  const missingIcons = writeSpecialtyIconGaps(iconGaps);
+  for (const row of missingIcons) {
+    console.warn(`[gachabase-beta] zzz specialty "${row.specialty}" has no icon; expected ${row.expects}`);
+  }
+  return { details: [...details.values()], errors, missingIcons };
 }
 
 async function scrapeGame(game) {

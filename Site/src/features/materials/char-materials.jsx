@@ -1247,11 +1247,29 @@ const CM_META_ICONS = {
   },
 };
 
+// How each game names these files on disk, so a value the table above has never
+// heard of still finds its icon. Games ship new specialties, paths and classes
+// between our releases - Claret arrived as the first Armorer - and the asset is
+// usually added before anyone remembers the lookup table.
+const CM_META_CONVENTION = {
+  gi:   { el:['', '.webp'], w:['', '.png'] },
+  hsr:  { el:['', '.png'],  path:['path_', '.png'] },
+  zzz:  { el:['', '.webp'], spec:['spec_', '.webp'] },
+  wuwa: { el:['', '.webp'], w:['wp_', '.webp'] },
+  ae:   { el:['', '.png'],  cls:['cls_', '.png'], w:['wp_', '.png'] },
+};
+
 function cmMetaIconSrc(gameKey, field, value){
   const g = CM_META_ICONS[gameKey];
   if (!g || !g[field]) return null;
   const key = String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-  return g[field][key] ? CM_META_ICON_BASE + g[field][key] : null;
+  if (g[field][key]) return CM_META_ICON_BASE + g[field][key];
+  // Fall back to the naming convention: dropping the asset in is then enough,
+  // no code change. A file that is not there simply 404s and CMMetaIcon falls
+  // through to its SVG glyph, which is what an unknown value rendered anyway.
+  const shape = CM_META_CONVENTION[gameKey] && CM_META_CONVENTION[gameKey][field];
+  if (!shape || !key || key === 'unknown') return null;
+  return `${CM_META_ICON_BASE}${gameKey}/${shape[0]}${key}${shape[1]}`;
 }
 
 function cmMetaColor(value){

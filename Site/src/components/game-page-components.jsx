@@ -75,12 +75,18 @@ function GPBack({ small, style }){
 }
 
 /* plain left-click is intercepted for an in-app tab switch (no reload);
-   the href stays real so the link is shareable + cmd/middle-click still opens it. */
-function gpNav(e, onSwitch, key){
-  if (!onSwitch) return;
+   the href stays real so the link is shareable + cmd/middle-click still opens it.
+   Every navigable control in the app routes its click through here, so anything
+   with an address can be ctrl/cmd/middle-clicked into a new tab for free. */
+function nyxNavClick(e, run){
+  if (!run) return;
   if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1) return;
   e.preventDefault();
-  onSwitch(key);
+  run();
+}
+
+function gpNav(e, onSwitch, key){
+  nyxNavClick(e, onSwitch ? () => onSwitch(key) : null);
 }
 
 function GPMedallion({ game, size, on, dim, title, href, onSwitch, railRival }){
@@ -268,15 +274,28 @@ function GPFnRows(){
 
 // `arrow` is retained for callers but no longer renders: the hover chevron was
 // removed 2026-08-08 at the user's request.
-function GPSectionNavButton({ active, label, onActivate, diamond = true, className = '' }){
-  return (
-    <button type="button"
-            className={'gp-fn-row click gp-section-nav-button' + (active ? ' on' : '') + (className ? ' ' + className : '')}
-            aria-current={active ? 'page' : undefined}
-            onClick={onActivate}>
+/* `href` is optional: sections that live at a real address render as links so
+   they can be opened in a new tab, while in-panel tabs with no address of their
+   own (Roster / Talents / Boss) keep rendering as plain buttons. */
+function GPSectionNavButton({ active, label, onActivate, diamond = true, className = '', href }){
+  const cls = 'gp-fn-row click gp-section-nav-button' + (active ? ' on' : '') + (className ? ' ' + className : '');
+  const body = (
+    <React.Fragment>
       {diamond && <span className="dia" aria-hidden="true"></span>}
       <span>{label}</span>
-    </button>
+    </React.Fragment>
+  );
+  if (href) {
+    return (
+      <a className={cls} href={href} draggable={false}
+         aria-current={active ? 'page' : undefined}
+         onClick={(e) => nyxNavClick(e, onActivate)}>{body}</a>
+    );
+  }
+  return (
+    <button type="button" className={cls}
+            aria-current={active ? 'page' : undefined}
+            onClick={onActivate}>{body}</button>
   );
 }
 

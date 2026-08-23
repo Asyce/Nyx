@@ -2169,22 +2169,32 @@ function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
 }
 
 /* a roster cell */
-function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
+function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned, href }){
   const unavailable = !hideMode && cmIsUpcomingOnly(ch);
-  return (
-    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '') + (unavailable ? ' unavailable' : '')}
-         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
-      <button type="button" className="cm-cell-open"
-        disabled={unavailable}
-        title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
-        aria-pressed={hideMode ? !!hidden : undefined}
-        onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>
+  // Hide mode turns the tile into a hidden/unhide toggle, and an upcoming unit
+  // has no page to open — both of those stay buttons. Every other tile is a real
+  // link, so a character can be ctrl/cmd/middle-clicked into its own tab.
+  const asLink = !!href && !hideMode && !unavailable;
+  const inner = (
+    <React.Fragment>
       <CMAvatar ch={ch} />
       <span className="cn">{String(ch.n || '').replace(/\s*[•·]\s*/g, ' ')}</span>
       {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
       {cmIsUpcomingOnly(ch) && !ch.__betaNew && <span className="cm-beta-tag upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
-      </button>
+    </React.Fragment>
+  );
+  return (
+    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '') + (unavailable ? ' unavailable' : '')}
+         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
+      {asLink
+        ? <a className="cm-cell-open" href={href} draggable={false} title={ch.n}
+             onClick={(event) => nyxNavClick(event, onClick)}>{inner}</a>
+        : <button type="button" className="cm-cell-open"
+            disabled={unavailable}
+            title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
+            aria-pressed={hideMode ? !!hidden : undefined}
+            onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>{inner}</button>}
       {!hideMode && <button type="button" className={'cm-favourite-star' + (pinned ? ' on' : '')}
                            aria-label={(pinned ? 'Unfavourite ' : 'Favourite ') + ch.n} aria-pressed={!!pinned}
                            title={(pinned ? 'Unfavourite ' : 'Favourite ') + ch.n}
@@ -2857,7 +2867,7 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel, shar
   );
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter, sharedCard, onCloseSharedCard }){
+function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter, characterHref, sharedCard, onCloseSharedCard }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -3278,6 +3288,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       hidden={isHidden(c)}
       onToggleHidden={toggleHidden}
       onClick={() => openCharacter(c)}
+      href={characterHref ? characterHref(c) : undefined}
       pinned={pinnedIds.some((row) => String(row) === cmHiddenKey(c))}
       onTogglePinned={togglePinnedCharacter}
     />

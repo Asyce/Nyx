@@ -698,11 +698,15 @@ const QUALITY_RARITY = {
   QUALITY_BLUE: 3,
   QUALITY_PURPLE: 4,
   QUALITY_ORANGE: 5,
+  // Star Rail's ladder runs Normal < NotNormal < Rare < VeryRare < SuperRare.
+  // SuperRare is the top: it is what Stellar Jade, Oneiric Shard and the Star
+  // Rail Special Pass are filed as. These two were the wrong way round, which
+  // painted every 4-star purple material gold and every 5-star gold one purple.
   Normal: 1,
   NotNormal: 2,
   Rare: 3,
-  SuperRare: 4,
-  VeryRare: 5,
+  VeryRare: 4,
+  SuperRare: 5,
 };
 
 function rarityNumber(value, fallback = 1) {
@@ -2758,12 +2762,13 @@ function hsrMaterialKind(id) {
   return 'mob';
 }
 
+// Same ladder as QUALITY_RARITY above; SuperRare is the top tier.
 const HSR_RARITY_SCORE = {
   Normal: 1,
   NotNormal: 2,
   Rare: 3,
-  SuperRare: 4,
-  VeryRare: 5,
+  VeryRare: 4,
+  SuperRare: 5,
 };
 
 function hsrRarityScore(value) {

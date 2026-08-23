@@ -1152,7 +1152,7 @@
             "id": "110443",
             "name": "Sneering Harlequin",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
           },
@@ -1176,7 +1176,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           }
@@ -1217,7 +1217,7 @@
                 "id": "110443",
                 "name": "Sneering Harlequin",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
               },
@@ -1239,7 +1239,7 @@
                 "id": "110443",
                 "name": "Sneering Harlequin",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
               },
@@ -1261,7 +1261,7 @@
                 "id": "110443",
                 "name": "Sneering Harlequin",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
               },
@@ -1269,7 +1269,7 @@
                 "id": "114013",
                 "name": "Shards of Desires",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
               }
@@ -1283,7 +1283,7 @@
                 "id": "110443",
                 "name": "Sneering Harlequin",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
               },
@@ -1291,7 +1291,7 @@
                 "id": "114013",
                 "name": "Shards of Desires",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
               }
@@ -1320,7 +1320,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           },
@@ -1328,7 +1328,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -1352,7 +1352,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -1360,7 +1360,7 @@
             "id": "110509",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
           }
@@ -1437,7 +1437,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1445,7 +1445,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -1458,7 +1458,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1466,7 +1466,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -1578,7 +1578,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1586,7 +1586,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -1599,7 +1599,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1607,7 +1607,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 },
@@ -1615,7 +1615,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -1628,7 +1628,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1636,7 +1636,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -1644,7 +1644,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -1657,7 +1657,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1665,7 +1665,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -1673,7 +1673,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -1785,7 +1785,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1793,7 +1793,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -1806,7 +1806,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1814,7 +1814,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 },
@@ -1822,7 +1822,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -1835,7 +1835,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1843,7 +1843,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -1851,7 +1851,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -1864,7 +1864,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -1872,7 +1872,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -1880,7 +1880,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -1992,7 +1992,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -2000,7 +2000,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -2013,7 +2013,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -2021,7 +2021,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 },
@@ -2029,7 +2029,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -2042,7 +2042,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -2050,7 +2050,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -2058,7 +2058,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -2071,7 +2071,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -2079,7 +2079,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -2087,7 +2087,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -2116,7 +2116,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           },
@@ -2124,7 +2124,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -2148,7 +2148,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 59,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -2156,7 +2156,7 @@
             "id": "110509",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
           }
@@ -2191,7 +2191,7 @@
               "id": "110263",
               "name": "The Fluffy Collector's Edition",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             },
@@ -2215,7 +2215,7 @@
               "id": "114013",
               "name": "Shards of Desires",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
             }
@@ -3039,7 +3039,7 @@
             "id": "110435",
             "name": "Charred Bud of Twilight",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
           },
@@ -3063,7 +3063,7 @@
             "id": "114003",
             "name": "Dream Making Engine",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
           }
@@ -3104,7 +3104,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -3126,7 +3126,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -3148,7 +3148,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -3156,7 +3156,7 @@
                 "id": "114003",
                 "name": "Dream Making Engine",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
               }
@@ -3170,7 +3170,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -3178,7 +3178,7 @@
                 "id": "114003",
                 "name": "Dream Making Engine",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
               }
@@ -3207,7 +3207,7 @@
             "id": "114003",
             "name": "Dream Making Engine",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
           },
@@ -3215,7 +3215,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -3239,7 +3239,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -3247,7 +3247,7 @@
             "id": "110509",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
           }
@@ -3324,7 +3324,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3332,7 +3332,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3345,7 +3345,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3353,7 +3353,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3465,7 +3465,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3473,7 +3473,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3486,7 +3486,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3494,7 +3494,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 },
@@ -3502,7 +3502,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3515,7 +3515,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3523,7 +3523,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -3531,7 +3531,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -3544,7 +3544,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3552,7 +3552,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -3560,7 +3560,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -3672,7 +3672,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3680,7 +3680,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3693,7 +3693,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3701,7 +3701,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 },
@@ -3709,7 +3709,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3722,7 +3722,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3730,7 +3730,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -3738,7 +3738,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -3751,7 +3751,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3759,7 +3759,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -3767,7 +3767,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -3879,7 +3879,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3887,7 +3887,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3900,7 +3900,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3908,7 +3908,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 },
@@ -3916,7 +3916,7 @@
                   "id": "114003",
                   "name": "Dream Making Engine",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
                 }
@@ -3929,7 +3929,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3937,7 +3937,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -3945,7 +3945,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -3958,7 +3958,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -3966,7 +3966,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -3974,7 +3974,7 @@
                   "id": "110509",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
                 }
@@ -4003,7 +4003,7 @@
             "id": "114003",
             "name": "Dream Making Engine",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
           },
@@ -4011,7 +4011,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -4035,7 +4035,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 53,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -4043,7 +4043,7 @@
             "id": "110509",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
           }
@@ -4078,7 +4078,7 @@
               "id": "110253",
               "name": "Flower of \u0100laya",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
             },
@@ -4102,7 +4102,7 @@
               "id": "114003",
               "name": "Dream Making Engine",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
             }
@@ -5626,7 +5626,7 @@
             "id": "110432",
             "name": "Radiant Prominence",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
           },
@@ -5650,7 +5650,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -5691,7 +5691,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -5713,7 +5713,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -5735,7 +5735,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -5743,7 +5743,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -5757,7 +5757,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -5765,7 +5765,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -5794,7 +5794,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -5802,7 +5802,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -5826,7 +5826,7 @@
             "id": "110293",
             "name": "Cosmic Sandpit",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
           },
@@ -5834,7 +5834,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -5911,7 +5911,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -5919,7 +5919,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -5932,7 +5932,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -5940,7 +5940,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6052,7 +6052,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6060,7 +6060,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6073,7 +6073,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6081,7 +6081,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -6089,7 +6089,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6102,7 +6102,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6110,7 +6110,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -6118,7 +6118,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -6131,7 +6131,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6139,7 +6139,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -6147,7 +6147,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -6259,7 +6259,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6267,7 +6267,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6280,7 +6280,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6288,7 +6288,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -6296,7 +6296,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6309,7 +6309,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6317,7 +6317,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -6325,7 +6325,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -6338,7 +6338,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6346,7 +6346,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -6354,7 +6354,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -6466,7 +6466,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6474,7 +6474,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6487,7 +6487,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6495,7 +6495,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -6503,7 +6503,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -6516,7 +6516,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6524,7 +6524,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -6532,7 +6532,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -6545,7 +6545,7 @@
                   "id": "110293",
                   "name": "Cosmic Sandpit",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
                 },
@@ -6553,7 +6553,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -6561,7 +6561,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -6590,7 +6590,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -6598,7 +6598,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -6622,7 +6622,7 @@
             "id": "110293",
             "name": "Cosmic Sandpit",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
           },
@@ -6630,7 +6630,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -6665,7 +6665,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -6689,7 +6689,7 @@
               "id": "110293",
               "name": "Cosmic Sandpit",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
             }
@@ -7637,7 +7637,7 @@
             "id": "110432",
             "name": "Radiant Prominence",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
           },
@@ -7661,7 +7661,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -7702,7 +7702,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -7724,7 +7724,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -7746,7 +7746,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -7754,7 +7754,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -7768,7 +7768,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -7776,7 +7776,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -7805,7 +7805,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -7813,7 +7813,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -7837,7 +7837,7 @@
             "id": "110313",
             "name": "Heart of Phagousa",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
           },
@@ -7845,7 +7845,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -7922,7 +7922,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -7930,7 +7930,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -7943,7 +7943,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -7951,7 +7951,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8063,7 +8063,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8071,7 +8071,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8084,7 +8084,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8092,7 +8092,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -8100,7 +8100,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8113,7 +8113,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8121,7 +8121,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -8129,7 +8129,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -8142,7 +8142,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8150,7 +8150,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -8158,7 +8158,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -8270,7 +8270,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8278,7 +8278,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8291,7 +8291,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8299,7 +8299,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -8307,7 +8307,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8320,7 +8320,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8328,7 +8328,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -8336,7 +8336,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -8349,7 +8349,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8357,7 +8357,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -8365,7 +8365,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -8477,7 +8477,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8485,7 +8485,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8498,7 +8498,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8506,7 +8506,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -8514,7 +8514,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -8527,7 +8527,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8535,7 +8535,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -8543,7 +8543,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -8556,7 +8556,7 @@
                   "id": "110313",
                   "name": "Heart of Phagousa",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
                 },
@@ -8564,7 +8564,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -8572,7 +8572,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -8601,7 +8601,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -8609,7 +8609,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -8633,7 +8633,7 @@
             "id": "110313",
             "name": "Heart of Phagousa",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
           },
@@ -8641,7 +8641,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -8676,7 +8676,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -8700,7 +8700,7 @@
               "id": "110313",
               "name": "Heart of Phagousa",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110313.webp"
             }
@@ -9771,7 +9771,7 @@
             "id": "110431",
             "name": "Invasive Clot",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
           },
@@ -9795,7 +9795,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -9836,7 +9836,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -9858,7 +9858,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -9880,7 +9880,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -9888,7 +9888,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -9902,7 +9902,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -9910,7 +9910,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -9939,7 +9939,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -9947,7 +9947,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -9971,7 +9971,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -9979,7 +9979,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -10056,7 +10056,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10064,7 +10064,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10077,7 +10077,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10085,7 +10085,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10197,7 +10197,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10205,7 +10205,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10218,7 +10218,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10226,7 +10226,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -10234,7 +10234,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10247,7 +10247,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10255,7 +10255,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -10263,7 +10263,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -10276,7 +10276,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10284,7 +10284,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -10292,7 +10292,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -10404,7 +10404,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10412,7 +10412,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10425,7 +10425,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10433,7 +10433,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -10441,7 +10441,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10454,7 +10454,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10462,7 +10462,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -10470,7 +10470,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -10483,7 +10483,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10491,7 +10491,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -10499,7 +10499,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -10611,7 +10611,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10619,7 +10619,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10632,7 +10632,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10640,7 +10640,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -10648,7 +10648,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -10661,7 +10661,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10669,7 +10669,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -10677,7 +10677,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -10690,7 +10690,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -10698,7 +10698,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -10706,7 +10706,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -10735,7 +10735,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -10743,7 +10743,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -10767,7 +10767,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 59,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -10775,7 +10775,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -10810,7 +10810,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -10834,7 +10834,7 @@
               "id": "110263",
               "name": "The Fluffy Collector's Edition",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             }
@@ -11795,7 +11795,7 @@
             "id": "110431",
             "name": "Invasive Clot",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
           },
@@ -11819,7 +11819,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -11860,7 +11860,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -11882,7 +11882,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -11904,7 +11904,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -11912,7 +11912,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -11926,7 +11926,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -11934,7 +11934,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -11963,7 +11963,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -11971,7 +11971,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -11995,7 +11995,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -12003,7 +12003,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -12080,7 +12080,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12088,7 +12088,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12101,7 +12101,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12109,7 +12109,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12221,7 +12221,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12229,7 +12229,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12242,7 +12242,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12250,7 +12250,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -12258,7 +12258,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12271,7 +12271,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12279,7 +12279,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -12287,7 +12287,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -12300,7 +12300,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12308,7 +12308,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -12316,7 +12316,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -12428,7 +12428,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12436,7 +12436,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12449,7 +12449,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12457,7 +12457,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -12465,7 +12465,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12478,7 +12478,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12486,7 +12486,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -12494,7 +12494,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -12507,7 +12507,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12515,7 +12515,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -12523,7 +12523,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -12635,7 +12635,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12643,7 +12643,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12656,7 +12656,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12664,7 +12664,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -12672,7 +12672,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -12685,7 +12685,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12693,7 +12693,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -12701,7 +12701,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -12714,7 +12714,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -12722,7 +12722,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -12730,7 +12730,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -12759,7 +12759,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -12767,7 +12767,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -12791,7 +12791,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 59,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -12799,7 +12799,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -12834,7 +12834,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -12858,7 +12858,7 @@
               "id": "110263",
               "name": "The Fluffy Collector's Edition",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             }
@@ -13661,7 +13661,7 @@
             "id": "110435",
             "name": "Charred Bud of Twilight",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
           },
@@ -13685,7 +13685,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           }
@@ -13726,7 +13726,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -13748,7 +13748,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -13770,7 +13770,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -13778,7 +13778,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -13792,7 +13792,7 @@
                 "id": "110435",
                 "name": "Charred Bud of Twilight",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
               },
@@ -13800,7 +13800,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -13829,7 +13829,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -13837,7 +13837,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -13861,7 +13861,7 @@
             "id": "110233",
             "name": "Heavenly Melody",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
           },
@@ -13869,7 +13869,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -13946,7 +13946,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -13954,7 +13954,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -13967,7 +13967,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -13975,7 +13975,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14087,7 +14087,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14095,7 +14095,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14108,7 +14108,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14116,7 +14116,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -14124,7 +14124,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14137,7 +14137,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14145,7 +14145,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -14153,7 +14153,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -14166,7 +14166,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14174,7 +14174,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -14182,7 +14182,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -14294,7 +14294,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14302,7 +14302,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14315,7 +14315,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14323,7 +14323,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -14331,7 +14331,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14344,7 +14344,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14352,7 +14352,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -14360,7 +14360,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -14373,7 +14373,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14381,7 +14381,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -14389,7 +14389,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -14501,7 +14501,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14509,7 +14509,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14522,7 +14522,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14530,7 +14530,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -14538,7 +14538,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -14551,7 +14551,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14559,7 +14559,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -14567,7 +14567,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -14580,7 +14580,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -14588,7 +14588,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -14596,7 +14596,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -14625,7 +14625,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -14633,7 +14633,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -14657,7 +14657,7 @@
             "id": "110233",
             "name": "Heavenly Melody",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
           },
@@ -14665,7 +14665,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -14700,7 +14700,7 @@
               "id": "115013",
               "name": "Eternal Lament",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
             },
@@ -14724,7 +14724,7 @@
               "id": "110233",
               "name": "Heavenly Melody",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
             }
@@ -15584,7 +15584,7 @@
             "id": "110434",
             "name": "Thunder Strum",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
           },
@@ -15608,7 +15608,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -15649,7 +15649,7 @@
                 "id": "110434",
                 "name": "Thunder Strum",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
               },
@@ -15671,7 +15671,7 @@
                 "id": "110434",
                 "name": "Thunder Strum",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
               },
@@ -15693,7 +15693,7 @@
                 "id": "110434",
                 "name": "Thunder Strum",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
               },
@@ -15701,7 +15701,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -15715,7 +15715,7 @@
                 "id": "110434",
                 "name": "Thunder Strum",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
               },
@@ -15723,7 +15723,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -15752,7 +15752,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -15760,7 +15760,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -15784,7 +15784,7 @@
             "id": "110273",
             "name": "Lance of Retribution",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
           },
@@ -15792,7 +15792,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -15869,7 +15869,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -15877,7 +15877,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -15890,7 +15890,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -15898,7 +15898,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16010,7 +16010,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16018,7 +16018,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16031,7 +16031,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16039,7 +16039,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -16047,7 +16047,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16060,7 +16060,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16068,7 +16068,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -16076,7 +16076,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -16089,7 +16089,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16097,7 +16097,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -16105,7 +16105,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -16217,7 +16217,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16225,7 +16225,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16238,7 +16238,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16246,7 +16246,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -16254,7 +16254,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16267,7 +16267,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16275,7 +16275,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -16283,7 +16283,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -16296,7 +16296,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16304,7 +16304,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -16312,7 +16312,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -16424,7 +16424,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16432,7 +16432,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16445,7 +16445,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16453,7 +16453,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -16461,7 +16461,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -16474,7 +16474,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16482,7 +16482,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -16490,7 +16490,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -16503,7 +16503,7 @@
                   "id": "110273",
                   "name": "Lance of Retribution",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
                 },
@@ -16511,7 +16511,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -16519,7 +16519,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -16548,7 +16548,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -16556,7 +16556,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -16580,7 +16580,7 @@
             "id": "110273",
             "name": "Lance of Retribution",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
           },
@@ -16588,7 +16588,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -16623,7 +16623,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -16647,7 +16647,7 @@
               "id": "110273",
               "name": "Lance of Retribution",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110273.webp"
             }
@@ -17505,7 +17505,7 @@
             "id": "110436",
             "name": "Darkveil Moonlight",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
           },
@@ -17529,7 +17529,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           }
@@ -17570,7 +17570,7 @@
                 "id": "110436",
                 "name": "Darkveil Moonlight",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
               },
@@ -17592,7 +17592,7 @@
                 "id": "110436",
                 "name": "Darkveil Moonlight",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
               },
@@ -17614,7 +17614,7 @@
                 "id": "110436",
                 "name": "Darkveil Moonlight",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
               },
@@ -17622,7 +17622,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -17636,7 +17636,7 @@
                 "id": "110436",
                 "name": "Darkveil Moonlight",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110436.webp"
               },
@@ -17644,7 +17644,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -17673,7 +17673,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -17681,7 +17681,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -17705,7 +17705,7 @@
             "id": "110223",
             "name": "Heaven Incinerator",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
           },
@@ -17713,7 +17713,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -17790,7 +17790,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -17798,7 +17798,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -17811,7 +17811,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -17819,7 +17819,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -17931,7 +17931,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -17939,7 +17939,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -17952,7 +17952,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -17960,7 +17960,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -17968,7 +17968,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -17981,7 +17981,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -17989,7 +17989,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -17997,7 +17997,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -18010,7 +18010,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18018,7 +18018,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -18026,7 +18026,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -18138,7 +18138,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18146,7 +18146,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -18159,7 +18159,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18167,7 +18167,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -18175,7 +18175,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -18188,7 +18188,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18196,7 +18196,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -18204,7 +18204,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -18217,7 +18217,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18225,7 +18225,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -18233,7 +18233,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -18345,7 +18345,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18353,7 +18353,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -18366,7 +18366,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18374,7 +18374,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -18382,7 +18382,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -18395,7 +18395,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18403,7 +18403,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -18411,7 +18411,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -18424,7 +18424,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -18432,7 +18432,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -18440,7 +18440,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -18469,7 +18469,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -18477,7 +18477,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -18501,7 +18501,7 @@
             "id": "110223",
             "name": "Heaven Incinerator",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
           },
@@ -18509,7 +18509,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -18544,7 +18544,7 @@
               "id": "115013",
               "name": "Eternal Lament",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
             },
@@ -18568,7 +18568,7 @@
               "id": "110223",
               "name": "Heaven Incinerator",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
             }
@@ -19478,7 +19478,7 @@
             "id": "110433",
             "name": "Sea Siren's Torn Fin",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
             "source": "Lady of Crashing Waves",
@@ -19509,7 +19509,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           }
@@ -19550,7 +19550,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -19579,7 +19579,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -19608,7 +19608,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -19623,7 +19623,7 @@
                 "id": "115003",
                 "name": "Glory-Aspersed Torso",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
               }
@@ -19637,7 +19637,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -19652,7 +19652,7 @@
                 "id": "115003",
                 "name": "Glory-Aspersed Torso",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
               }
@@ -19681,7 +19681,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           },
@@ -19689,7 +19689,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -19713,7 +19713,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -19721,7 +19721,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -19798,7 +19798,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -19806,7 +19806,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -19819,7 +19819,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -19827,7 +19827,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -19939,7 +19939,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -19947,7 +19947,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -19960,7 +19960,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -19968,7 +19968,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -19976,7 +19976,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -19989,7 +19989,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -19997,7 +19997,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -20005,7 +20005,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -20018,7 +20018,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20026,7 +20026,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -20034,7 +20034,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -20146,7 +20146,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20154,7 +20154,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -20167,7 +20167,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20175,7 +20175,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -20183,7 +20183,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -20196,7 +20196,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20204,7 +20204,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -20212,7 +20212,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -20225,7 +20225,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20233,7 +20233,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -20241,7 +20241,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -20353,7 +20353,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20361,7 +20361,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -20374,7 +20374,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20382,7 +20382,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -20390,7 +20390,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -20403,7 +20403,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20411,7 +20411,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -20419,7 +20419,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -20432,7 +20432,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -20440,7 +20440,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -20448,7 +20448,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -20477,7 +20477,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           },
@@ -20485,7 +20485,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -20509,7 +20509,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 53,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -20517,7 +20517,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -20552,7 +20552,7 @@
               "id": "115003",
               "name": "Glory-Aspersed Torso",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
             },
@@ -20576,7 +20576,7 @@
               "id": "110253",
               "name": "Flower of \u0100laya",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
             }
@@ -21459,7 +21459,7 @@
             "id": "110431",
             "name": "Invasive Clot",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
           },
@@ -21483,7 +21483,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           }
@@ -21524,7 +21524,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -21546,7 +21546,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -21568,7 +21568,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -21576,7 +21576,7 @@
                 "id": "115003",
                 "name": "Glory-Aspersed Torso",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
               }
@@ -21590,7 +21590,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -21598,7 +21598,7 @@
                 "id": "115003",
                 "name": "Glory-Aspersed Torso",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
               }
@@ -21627,7 +21627,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           },
@@ -21635,7 +21635,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -21659,7 +21659,7 @@
             "id": "110213",
             "name": "Divine Amber",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
           },
@@ -21667,7 +21667,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -21744,7 +21744,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -21752,7 +21752,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -21765,7 +21765,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -21773,7 +21773,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -21885,7 +21885,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -21893,7 +21893,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -21906,7 +21906,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -21914,7 +21914,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -21922,7 +21922,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -21935,7 +21935,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -21943,7 +21943,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -21951,7 +21951,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -21964,7 +21964,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -21972,7 +21972,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -21980,7 +21980,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -22092,7 +22092,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22100,7 +22100,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -22113,7 +22113,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22121,7 +22121,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -22129,7 +22129,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -22142,7 +22142,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22150,7 +22150,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -22158,7 +22158,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -22171,7 +22171,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22179,7 +22179,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -22187,7 +22187,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -22299,7 +22299,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22307,7 +22307,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -22320,7 +22320,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22328,7 +22328,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -22336,7 +22336,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -22349,7 +22349,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22357,7 +22357,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -22365,7 +22365,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -22378,7 +22378,7 @@
                   "id": "110213",
                   "name": "Divine Amber",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
                 },
@@ -22386,7 +22386,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -22394,7 +22394,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -22423,7 +22423,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           },
@@ -22431,7 +22431,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -22455,7 +22455,7 @@
             "id": "110213",
             "name": "Divine Amber",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
           },
@@ -22463,7 +22463,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -22498,7 +22498,7 @@
               "id": "115003",
               "name": "Glory-Aspersed Torso",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
             },
@@ -22522,7 +22522,7 @@
               "id": "110213",
               "name": "Divine Amber",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110213.webp"
             }
@@ -23322,7 +23322,7 @@
             "id": "110431",
             "name": "Invasive Clot",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
           },
@@ -23346,7 +23346,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           }
@@ -23387,7 +23387,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -23409,7 +23409,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -23431,7 +23431,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -23439,7 +23439,7 @@
                 "id": "115003",
                 "name": "Glory-Aspersed Torso",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
               }
@@ -23453,7 +23453,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -23461,7 +23461,7 @@
                 "id": "115003",
                 "name": "Glory-Aspersed Torso",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
               }
@@ -23490,7 +23490,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           },
@@ -23498,7 +23498,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -23522,7 +23522,7 @@
             "id": "110223",
             "name": "Heaven Incinerator",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
           },
@@ -23530,7 +23530,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -23607,7 +23607,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23615,7 +23615,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -23628,7 +23628,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23636,7 +23636,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -23748,7 +23748,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23756,7 +23756,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -23769,7 +23769,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23777,7 +23777,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -23785,7 +23785,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -23798,7 +23798,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23806,7 +23806,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -23814,7 +23814,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -23827,7 +23827,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23835,7 +23835,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -23843,7 +23843,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -23955,7 +23955,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23963,7 +23963,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -23976,7 +23976,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -23984,7 +23984,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -23992,7 +23992,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -24005,7 +24005,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -24013,7 +24013,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -24021,7 +24021,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -24034,7 +24034,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -24042,7 +24042,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -24050,7 +24050,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -24162,7 +24162,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -24170,7 +24170,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -24183,7 +24183,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -24191,7 +24191,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -24199,7 +24199,7 @@
                   "id": "115003",
                   "name": "Glory-Aspersed Torso",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
                 }
@@ -24212,7 +24212,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -24220,7 +24220,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -24228,7 +24228,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -24241,7 +24241,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -24249,7 +24249,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -24257,7 +24257,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -24286,7 +24286,7 @@
             "id": "115003",
             "name": "Glory-Aspersed Torso",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
           },
@@ -24294,7 +24294,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -24318,7 +24318,7 @@
             "id": "110223",
             "name": "Heaven Incinerator",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
           },
@@ -24326,7 +24326,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -24361,7 +24361,7 @@
               "id": "115003",
               "name": "Glory-Aspersed Torso",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115003.webp"
             },
@@ -24385,7 +24385,7 @@
               "id": "110223",
               "name": "Heaven Incinerator",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
             }
@@ -25274,7 +25274,7 @@
             "id": "110433",
             "name": "Sea Siren's Torn Fin",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
             "source": "Lady of Crashing Waves",
@@ -25305,7 +25305,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           }
@@ -25346,7 +25346,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -25375,7 +25375,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -25404,7 +25404,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -25419,7 +25419,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -25433,7 +25433,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -25448,7 +25448,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -25477,7 +25477,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -25485,7 +25485,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -25509,7 +25509,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -25517,7 +25517,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -25594,7 +25594,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25602,7 +25602,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -25615,7 +25615,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25623,7 +25623,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -25735,7 +25735,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25743,7 +25743,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -25756,7 +25756,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25764,7 +25764,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -25772,7 +25772,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -25785,7 +25785,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25793,7 +25793,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -25801,7 +25801,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -25814,7 +25814,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25822,7 +25822,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -25830,7 +25830,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -25942,7 +25942,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25950,7 +25950,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -25963,7 +25963,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -25971,7 +25971,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -25979,7 +25979,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -25992,7 +25992,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -26000,7 +26000,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -26008,7 +26008,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -26021,7 +26021,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -26029,7 +26029,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -26037,7 +26037,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -26149,7 +26149,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -26157,7 +26157,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -26170,7 +26170,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -26178,7 +26178,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -26186,7 +26186,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -26199,7 +26199,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -26207,7 +26207,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -26215,7 +26215,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -26228,7 +26228,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -26236,7 +26236,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -26244,7 +26244,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -26273,7 +26273,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -26281,7 +26281,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -26305,7 +26305,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 53,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -26313,7 +26313,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -26348,7 +26348,7 @@
               "id": "115013",
               "name": "Eternal Lament",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
             },
@@ -26372,7 +26372,7 @@
               "id": "110253",
               "name": "Flower of \u0100laya",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
             }
@@ -27674,7 +27674,7 @@
             "id": "110431",
             "name": "Invasive Clot",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
           },
@@ -27698,7 +27698,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           }
@@ -27739,7 +27739,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -27761,7 +27761,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -27783,7 +27783,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -27791,7 +27791,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -27805,7 +27805,7 @@
                 "id": "110431",
                 "name": "Invasive Clot",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110431.webp"
               },
@@ -27813,7 +27813,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -27842,7 +27842,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -27850,7 +27850,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -27874,7 +27874,7 @@
             "id": "110183",
             "name": "Moon Rage Fang",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
           },
@@ -27882,7 +27882,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -27959,7 +27959,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -27967,7 +27967,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -27980,7 +27980,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -27988,7 +27988,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28100,7 +28100,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28108,7 +28108,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28121,7 +28121,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28129,7 +28129,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -28137,7 +28137,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28150,7 +28150,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28158,7 +28158,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -28166,7 +28166,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -28179,7 +28179,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28187,7 +28187,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -28195,7 +28195,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -28307,7 +28307,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28315,7 +28315,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28328,7 +28328,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28336,7 +28336,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -28344,7 +28344,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28357,7 +28357,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28365,7 +28365,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -28373,7 +28373,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -28386,7 +28386,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28394,7 +28394,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -28402,7 +28402,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -28514,7 +28514,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28522,7 +28522,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28535,7 +28535,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28543,7 +28543,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -28551,7 +28551,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -28564,7 +28564,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28572,7 +28572,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -28580,7 +28580,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -28593,7 +28593,7 @@
                   "id": "110183",
                   "name": "Moon Rage Fang",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
                 },
@@ -28601,7 +28601,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -28609,7 +28609,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -28638,7 +28638,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -28646,7 +28646,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -28670,7 +28670,7 @@
             "id": "110183",
             "name": "Moon Rage Fang",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
           },
@@ -28678,7 +28678,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -28713,7 +28713,7 @@
               "id": "115013",
               "name": "Eternal Lament",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
             },
@@ -28737,7 +28737,7 @@
               "id": "110183",
               "name": "Moon Rage Fang",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110183.webp"
             }
@@ -29970,7 +29970,7 @@
             "id": "110437",
             "name": "Harbinger of Strife",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
           },
@@ -29994,7 +29994,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -30035,7 +30035,7 @@
                 "id": "110437",
                 "name": "Harbinger of Strife",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
               },
@@ -30057,7 +30057,7 @@
                 "id": "110437",
                 "name": "Harbinger of Strife",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
               },
@@ -30079,7 +30079,7 @@
                 "id": "110437",
                 "name": "Harbinger of Strife",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
               },
@@ -30087,7 +30087,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -30101,7 +30101,7 @@
                 "id": "110437",
                 "name": "Harbinger of Strife",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110437.webp"
               },
@@ -30109,7 +30109,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -30138,7 +30138,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -30146,7 +30146,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -30170,7 +30170,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -30178,7 +30178,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -30255,7 +30255,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30263,7 +30263,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30276,7 +30276,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30284,7 +30284,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30396,7 +30396,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30404,7 +30404,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30417,7 +30417,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30425,7 +30425,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -30433,7 +30433,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30446,7 +30446,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30454,7 +30454,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -30462,7 +30462,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -30475,7 +30475,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30483,7 +30483,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -30491,7 +30491,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -30603,7 +30603,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30611,7 +30611,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30624,7 +30624,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30632,7 +30632,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -30640,7 +30640,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30653,7 +30653,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30661,7 +30661,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -30669,7 +30669,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -30682,7 +30682,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30690,7 +30690,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -30698,7 +30698,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -30810,7 +30810,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30818,7 +30818,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30831,7 +30831,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30839,7 +30839,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -30847,7 +30847,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -30860,7 +30860,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30868,7 +30868,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -30876,7 +30876,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -30889,7 +30889,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -30897,7 +30897,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -30905,7 +30905,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -30934,7 +30934,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -30942,7 +30942,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -30966,7 +30966,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 59,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -30974,7 +30974,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -31009,7 +31009,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -31033,7 +31033,7 @@
               "id": "110263",
               "name": "The Fluffy Collector's Edition",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             }
@@ -32150,7 +32150,7 @@
             "id": "110432",
             "name": "Radiant Prominence",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
           },
@@ -32174,7 +32174,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           }
@@ -32215,7 +32215,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -32237,7 +32237,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -32259,7 +32259,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -32267,7 +32267,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -32281,7 +32281,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -32289,7 +32289,7 @@
                 "id": "116003",
                 "name": "Lucid Awl",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
               }
@@ -32318,7 +32318,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -32326,7 +32326,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -32350,7 +32350,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -32358,7 +32358,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -32435,7 +32435,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32443,7 +32443,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -32456,7 +32456,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32464,7 +32464,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -32576,7 +32576,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32584,7 +32584,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -32597,7 +32597,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32605,7 +32605,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -32613,7 +32613,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -32626,7 +32626,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32634,7 +32634,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -32642,7 +32642,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -32655,7 +32655,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32663,7 +32663,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -32671,7 +32671,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -32783,7 +32783,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32791,7 +32791,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -32804,7 +32804,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32812,7 +32812,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -32820,7 +32820,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -32833,7 +32833,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32841,7 +32841,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -32849,7 +32849,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -32862,7 +32862,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32870,7 +32870,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -32878,7 +32878,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -32990,7 +32990,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -32998,7 +32998,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -33011,7 +33011,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -33019,7 +33019,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -33027,7 +33027,7 @@
                   "id": "116003",
                   "name": "Lucid Awl",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
                 }
@@ -33040,7 +33040,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -33048,7 +33048,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -33056,7 +33056,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -33069,7 +33069,7 @@
                   "id": "110263",
                   "name": "The Fluffy Collector's Edition",
                   "qty": 12,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
                 },
@@ -33077,7 +33077,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -33085,7 +33085,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -33114,7 +33114,7 @@
             "id": "116003",
             "name": "Lucid Awl",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
           },
@@ -33122,7 +33122,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -33146,7 +33146,7 @@
             "id": "110263",
             "name": "The Fluffy Collector's Edition",
             "qty": 59,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
           },
@@ -33154,7 +33154,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -33189,7 +33189,7 @@
               "id": "116003",
               "name": "Lucid Awl",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
             },
@@ -33213,7 +33213,7 @@
               "id": "110263",
               "name": "The Fluffy Collector's Edition",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             }
@@ -33958,7 +33958,7 @@
             "id": "110427",
             "name": "Chordal Mirage",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
             "source": "The silver strings from the red instruments carried by the troupe",
@@ -33988,7 +33988,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           }
@@ -34029,7 +34029,7 @@
                 "id": "110427",
                 "name": "Chordal Mirage",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
                 "source": "The silver strings from the red instruments carried by the troupe",
@@ -34057,7 +34057,7 @@
                 "id": "110427",
                 "name": "Chordal Mirage",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
                 "source": "The silver strings from the red instruments carried by the troupe",
@@ -34085,7 +34085,7 @@
                 "id": "110427",
                 "name": "Chordal Mirage",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
                 "source": "The silver strings from the red instruments carried by the troupe",
@@ -34099,7 +34099,7 @@
                 "id": "114013",
                 "name": "Shards of Desires",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
               }
@@ -34113,7 +34113,7 @@
                 "id": "110427",
                 "name": "Chordal Mirage",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110427.webp",
                 "source": "The silver strings from the red instruments carried by the troupe",
@@ -34127,7 +34127,7 @@
                 "id": "114013",
                 "name": "Shards of Desires",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
               }
@@ -34156,7 +34156,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           },
@@ -34164,7 +34164,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -34188,7 +34188,7 @@
             "id": "110233",
             "name": "Heavenly Melody",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
           },
@@ -34196,7 +34196,7 @@
             "id": "110505",
             "name": "Lost Echo of the Shared Wish",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
           }
@@ -34273,7 +34273,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34281,7 +34281,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34294,7 +34294,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34302,7 +34302,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34414,7 +34414,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34422,7 +34422,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34435,7 +34435,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34443,7 +34443,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 },
@@ -34451,7 +34451,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34464,7 +34464,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34472,7 +34472,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -34480,7 +34480,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 }
@@ -34493,7 +34493,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34501,7 +34501,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -34509,7 +34509,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 }
@@ -34621,7 +34621,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34629,7 +34629,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34642,7 +34642,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34650,7 +34650,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 },
@@ -34658,7 +34658,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34671,7 +34671,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34679,7 +34679,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -34687,7 +34687,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 }
@@ -34700,7 +34700,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34708,7 +34708,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -34716,7 +34716,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 }
@@ -34828,7 +34828,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34836,7 +34836,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34849,7 +34849,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34857,7 +34857,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 },
@@ -34865,7 +34865,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -34878,7 +34878,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34886,7 +34886,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -34894,7 +34894,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 }
@@ -34907,7 +34907,7 @@
                   "id": "110233",
                   "name": "Heavenly Melody",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
                 },
@@ -34915,7 +34915,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -34923,7 +34923,7 @@
                   "id": "110505",
                   "name": "Lost Echo of the Shared Wish",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
                 }
@@ -34952,7 +34952,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           },
@@ -34960,7 +34960,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -34984,7 +34984,7 @@
             "id": "110233",
             "name": "Heavenly Melody",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
           },
@@ -34992,7 +34992,7 @@
             "id": "110505",
             "name": "Lost Echo of the Shared Wish",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110505.webp"
           }
@@ -35027,7 +35027,7 @@
               "id": "114013",
               "name": "Shards of Desires",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
             },
@@ -35051,7 +35051,7 @@
               "id": "110233",
               "name": "Heavenly Melody",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110233.webp"
             }
@@ -35920,7 +35920,7 @@
             "id": "110432",
             "name": "Radiant Prominence",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
           },
@@ -35944,7 +35944,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           }
@@ -35985,7 +35985,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -36007,7 +36007,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -36029,7 +36029,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -36037,7 +36037,7 @@
                 "id": "114013",
                 "name": "Shards of Desires",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
               }
@@ -36051,7 +36051,7 @@
                 "id": "110432",
                 "name": "Radiant Prominence",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110432.webp"
               },
@@ -36059,7 +36059,7 @@
                 "id": "114013",
                 "name": "Shards of Desires",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
               }
@@ -36088,7 +36088,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           },
@@ -36096,7 +36096,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -36120,7 +36120,7 @@
             "id": "110223",
             "name": "Heaven Incinerator",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
           },
@@ -36128,7 +36128,7 @@
             "id": "110508",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -36205,7 +36205,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36213,7 +36213,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36226,7 +36226,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36234,7 +36234,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36346,7 +36346,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36354,7 +36354,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36367,7 +36367,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36375,7 +36375,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -36383,7 +36383,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36396,7 +36396,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36404,7 +36404,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -36412,7 +36412,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -36425,7 +36425,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36433,7 +36433,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -36441,7 +36441,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -36553,7 +36553,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36561,7 +36561,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36574,7 +36574,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36582,7 +36582,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -36590,7 +36590,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36603,7 +36603,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36611,7 +36611,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -36619,7 +36619,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -36632,7 +36632,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36640,7 +36640,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -36648,7 +36648,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -36760,7 +36760,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36768,7 +36768,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 3,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36781,7 +36781,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36789,7 +36789,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 },
@@ -36797,7 +36797,7 @@
                   "id": "114013",
                   "name": "Shards of Desires",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
                 }
@@ -36810,7 +36810,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 8,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36818,7 +36818,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -36826,7 +36826,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -36839,7 +36839,7 @@
                   "id": "110223",
                   "name": "Heaven Incinerator",
                   "qty": 14,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
                 },
@@ -36847,7 +36847,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -36855,7 +36855,7 @@
                   "id": "110508",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
                 }
@@ -36884,7 +36884,7 @@
             "id": "114013",
             "name": "Shards of Desires",
             "qty": 30,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
           },
@@ -36892,7 +36892,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -36916,7 +36916,7 @@
             "id": "110223",
             "name": "Heaven Incinerator",
             "qty": 38,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
           },
@@ -36924,7 +36924,7 @@
             "id": "110508",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110508.webp"
           }
@@ -36959,7 +36959,7 @@
               "id": "114013",
               "name": "Shards of Desires",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
             },
@@ -36983,7 +36983,7 @@
               "id": "110223",
               "name": "Heaven Incinerator",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
             }
@@ -37855,7 +37855,7 @@
             "id": "110433",
             "name": "Sea Siren's Torn Fin",
             "qty": 65,
-            "rar": 5,
+            "rar": 4,
             "kind": "boss",
             "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
             "source": "Lady of Crashing Waves",
@@ -37886,7 +37886,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 15,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           }
@@ -37927,7 +37927,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 3,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -37956,7 +37956,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 7,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -37985,7 +37985,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 20,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -38000,7 +38000,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 6,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -38014,7 +38014,7 @@
                 "id": "110433",
                 "name": "Sea Siren's Torn Fin",
                 "qty": 35,
-                "rar": 5,
+                "rar": 4,
                 "kind": "boss",
                 "icon": "../../Database/GameData/hsr/assets/items/110433.webp",
                 "source": "Lady of Crashing Waves",
@@ -38029,7 +38029,7 @@
                 "id": "115013",
                 "name": "Eternal Lament",
                 "qty": 9,
-                "rar": 5,
+                "rar": 4,
                 "kind": "mob",
                 "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
               }
@@ -38058,7 +38058,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 58,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -38066,7 +38066,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 8,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -38090,7 +38090,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 139,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -38098,7 +38098,7 @@
             "id": "110507",
             "name": "...",
             "qty": 12,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -38175,7 +38175,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38183,7 +38183,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38196,7 +38196,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38204,7 +38204,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38316,7 +38316,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38324,7 +38324,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38337,7 +38337,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38345,7 +38345,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -38353,7 +38353,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38366,7 +38366,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38374,7 +38374,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -38382,7 +38382,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -38395,7 +38395,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38403,7 +38403,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -38411,7 +38411,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -38523,7 +38523,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38531,7 +38531,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38544,7 +38544,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38552,7 +38552,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -38560,7 +38560,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38573,7 +38573,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38581,7 +38581,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -38589,7 +38589,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -38602,7 +38602,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38610,7 +38610,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -38618,7 +38618,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -38730,7 +38730,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38738,7 +38738,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 2,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38751,7 +38751,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 5,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38759,7 +38759,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 },
@@ -38767,7 +38767,7 @@
                   "id": "115013",
                   "name": "Eternal Lament",
                   "qty": 4,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
                 }
@@ -38780,7 +38780,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 6,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38788,7 +38788,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -38796,7 +38796,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -38809,7 +38809,7 @@
                   "id": "110253",
                   "name": "Flower of \u0100laya",
                   "qty": 13,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "book",
                   "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
                 },
@@ -38817,7 +38817,7 @@
                   "id": "241",
                   "name": "Tracks of Destiny",
                   "qty": 1,
-                  "rar": 4,
+                  "rar": 5,
                   "kind": "mob",
                   "icon": "../../Database/GameData/hsr/assets/items/241.webp"
                 },
@@ -38825,7 +38825,7 @@
                   "id": "110507",
                   "name": "...",
                   "qty": 1,
-                  "rar": 5,
+                  "rar": 4,
                   "kind": "weekly",
                   "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
                 }
@@ -38854,7 +38854,7 @@
             "id": "115013",
             "name": "Eternal Lament",
             "qty": 36,
-            "rar": 5,
+            "rar": 4,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
           },
@@ -38862,7 +38862,7 @@
             "id": "241",
             "name": "Tracks of Destiny",
             "qty": 2,
-            "rar": 4,
+            "rar": 5,
             "kind": "mob",
             "icon": "../../Database/GameData/hsr/assets/items/241.webp"
           },
@@ -38886,7 +38886,7 @@
             "id": "110253",
             "name": "Flower of \u0100laya",
             "qty": 53,
-            "rar": 5,
+            "rar": 4,
             "kind": "book",
             "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
           },
@@ -38894,7 +38894,7 @@
             "id": "110507",
             "name": "...",
             "qty": 3,
-            "rar": 5,
+            "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/hsr/assets/items/110507.webp"
           }
@@ -38929,7 +38929,7 @@
               "id": "115013",
               "name": "Eternal Lament",
               "qty": 14,
-              "rar": 5,
+              "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
             },
@@ -38953,7 +38953,7 @@
               "id": "110253",
               "name": "Flower of \u0100laya",
               "qty": 15,
-              "rar": 5,
+              "rar": 4,
               "kind": "book",
               "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
             }
@@ -38994,7 +38994,7 @@
           "id": "110263",
           "name": "The Fluffy Collector's Edition",
           "qty": 15,
-          "rar": 5,
+          "rar": 4,
           "kind": "book",
           "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
         },
@@ -39018,7 +39018,7 @@
           "id": "114013",
           "name": "Shards of Desires",
           "qty": 14,
-          "rar": 5,
+          "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
         }
@@ -39054,7 +39054,7 @@
           "id": "110253",
           "name": "Flower of \u0100laya",
           "qty": 15,
-          "rar": 5,
+          "rar": 4,
           "kind": "book",
           "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
         },
@@ -39078,7 +39078,7 @@
           "id": "114003",
           "name": "Dream Making Engine",
           "qty": 14,
-          "rar": 5,
+          "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
         }
@@ -39114,7 +39114,7 @@
           "id": "110263",
           "name": "The Fluffy Collector's Edition",
           "qty": 12,
-          "rar": 5,
+          "rar": 4,
           "kind": "book",
           "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
         },
@@ -39138,7 +39138,7 @@
           "id": "116003",
           "name": "Lucid Awl",
           "qty": 12,
-          "rar": 5,
+          "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
         }
@@ -39174,7 +39174,7 @@
           "id": "110193",
           "name": "Countertemporal Shot",
           "qty": 12,
-          "rar": 5,
+          "rar": 4,
           "kind": "book",
           "icon": "../../Database/GameData/hsr/assets/items/110193.webp"
         },
@@ -39198,7 +39198,7 @@
           "id": "116003",
           "name": "Lucid Awl",
           "qty": 12,
-          "rar": 5,
+          "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
         }

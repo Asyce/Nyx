@@ -43,7 +43,8 @@ jobs:
       # pointer files means an object is re-fetched only when it actually changed; the
       # restore-keys prefix also lets a run reuse whichever of the two is still current.
       - name: Cache LFS objects
-        uses: actions/cache@v6
+        id: lfs_cache
+        uses: actions/cache/restore@v6
         with:
           path: .git/lfs
           key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
@@ -51,7 +52,11 @@ jobs:
 
       - name: Ensure LFS objects resolved
         run: |
-          git lfs pull
+          # local objects first; only ask the server if pointers survive
+          git lfs checkout || true
+          if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+            git lfs pull
+          fi
           if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database; then
             echo "::error::Database still contains an unresolved LFS pointer"
             exit 1

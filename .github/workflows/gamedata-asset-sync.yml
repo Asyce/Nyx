@@ -39,7 +39,8 @@ jobs:
       # pointer files means an object is re-fetched only when it actually changed; the
       # restore-keys prefix also lets a run reuse whichever of the two is still current.
       - name: Cache LFS objects
-        uses: actions/cache@v6
+        id: lfs_cache
+        uses: actions/cache/restore@v6
         with:
           path: .git/lfs
           key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
@@ -47,10 +48,16 @@ jobs:
 
       - name: Ensure LFS objects resolved
         run: |
-          for i in 1 2 3; do
-            git lfs pull && break
-            echo "git lfs pull attempt $i failed; retrying" && sleep 5
-          done
+          # Resolve from the objects we already have before asking the server.
+          # With a warm cache this makes no network call at all, so an exhausted
+          # LFS budget can no longer break a run that needs nothing new.
+          git lfs checkout || true
+          if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+            for i in 1 2 3; do
+              git lfs pull && break
+              echo "git lfs pull attempt $i failed; retrying" && sleep 5
+            done
+          fi
           for f in Database/GameData/hsr/live/characters.json Database/GameData/gi/live/characters.json; do
             if head -c 40 "$f" | grep -q 'git-lfs'; then
               echo "::error::$f is still an LFS pointer after git lfs pull"; exit 1

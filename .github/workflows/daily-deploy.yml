@@ -47,7 +47,8 @@ jobs:
       # pointer files means an object is re-fetched only when it actually changed; the
       # restore-keys prefix also lets a run reuse whichever of the two is still current.
       - name: Cache LFS objects
-        uses: actions/cache@v6
+        id: lfs_cache
+        uses: actions/cache/restore@v6
         with:
           path: .git/lfs
           key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
@@ -84,14 +85,44 @@ jobs:
       - name: Ensure LFS objects resolved
         if: ${{ steps.deploy_needed.outputs.needed == 'true' }}
         run: |
-          for i in 1 2 3; do
-            git lfs pull && break
-            echo "git lfs pull attempt $i failed; retrying" && sleep 5
-          done
+          # Resolve from the objects we already have before asking the server.
+          # With a warm cache this makes no network call at all, so an exhausted
+          # LFS budget can no longer break a run that needs nothing new.
+          git lfs checkout || true
+          if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+            for i in 1 2 3; do
+              git lfs pull && break
+              echo "git lfs pull attempt $i failed; retrying" && sleep 5
+            done
+          fi
           if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database; then
             echo "::error::Database still contains an unresolved LFS pointer"
             exit 1
           fi
+
+      # This is the ONLY place that writes the LFS cache; every workflow that
+      # touches LFS restores it read-only. On 2026-08-23 the hourly code-watch
+      # run reached the shared key first, skipped its guarded pull, and saved an
+      # empty .git/lfs - and actions/cache never replaces an existing key, so a
+      # 447-byte entry was pinned and every run re-downloaded all 36 MB.
+      # Saving only from here, and only once the objects are actually on disk,
+      # is what stops that happening again.
+      - name: Measure LFS objects
+        id: lfs_state
+        if: ${{ steps.deploy_needed.outputs.needed == 'true' }}
+        run: |
+          mb=$(du -sm .git/lfs 2>/dev/null | cut -f1 || echo 0)
+          echo "megabytes=$mb" >> "$GITHUB_OUTPUT"
+          echo ".git/lfs holds ${mb} MB"
+
+      - name: Save LFS cache
+        if: ${{ steps.deploy_needed.outputs.needed == 'true'
+                && steps.lfs_cache.outputs.cache-hit != 'true'
+                && fromJSON(steps.lfs_state.outputs.megabytes) >= 20 }}
+        uses: actions/cache/save@v6
+        with:
+          path: .git/lfs
+          key: ${{ steps.lfs_cache.outputs.cache-primary-key }}
 
       - name: Install site dependencies
         if: ${{ steps.deploy_needed.outputs.needed == 'true' }}
@@ -149,7 +180,10 @@ jobs:
             fi
             git fetch origin main
             git switch --detach origin/main
-            git lfs pull
+            git lfs checkout || true
+            if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+              git lfs pull
+            fi
             (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
             git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
             git add -A Site/src/data/generated/launcher-art
@@ -225,7 +259,10 @@ jobs:
             fi
             git fetch origin main
             git switch --detach origin/main
-            git lfs pull
+            git lfs checkout || true
+            if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+              git lfs pull
+            fi
             (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
             git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
             git add -A Site/src/data/generated/launcher-art

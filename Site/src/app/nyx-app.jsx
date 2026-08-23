@@ -764,7 +764,7 @@ function FitText({ as:Tag = 'b', text, className, multiline = false }){
   return <Tag ref={ref} className={className}>{text}</Tag>;
 }
 
-function BannerUnit({ unit, onOpen, showBadge = true }){
+function BannerUnit({ unit, onOpen, showBadge = true, href }){
   const inner = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
@@ -773,13 +773,19 @@ function BannerUnit({ unit, onOpen, showBadge = true }){
     </React.Fragment>
   );
   if (!onOpen) return <span className="gp-oban-unit" title={unit.name}>{inner}</span>;
+  if (href) {
+    return (
+      <a className="gp-oban-unit is-link" href={href} draggable={false} title={'Open ' + unit.name}
+         onClick={(event) => nyxNavClick(event, onOpen)}>{inner}</a>
+    );
+  }
   return (
     <button type="button" className="gp-oban-unit is-link" title={'Open ' + unit.name}
             onClick={onOpen}>{inner}</button>
   );
 }
 
-function BannerPhaseCard({ card, now, showGame, unitLink }){
+function BannerPhaseCard({ card, now, showGame, unitLink, unitHref }){
   const artPool = card.artPool || [];
   const [artIndex, setArtIndex] = React.useState(0);
   // Splash files can lag behind banner data for brand-new characters. The art
@@ -829,7 +835,7 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
         </div>
         <div className="gp-oban-featured" aria-label="Featured units">
           {card.featured.map((unit) => (
-            <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} />
+            <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} href={unitHref && unitHref(unit)} />
           ))}
         </div>
         {(card.supportLabel || card.others.length > 0) && (
@@ -841,7 +847,7 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
                         onClick={card.supportHelp.onOpen}>{card.supportLabel}</button>
               : <span className="gp-oban-supports-label">{card.supportLabel}</span>)}
             {card.others.map((unit) => (
-              <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} showBadge={false} />
+              <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} href={unitHref && unitHref(unit)} showBadge={false} />
             ))}
           </div>
         )}
@@ -1078,7 +1084,7 @@ function bannerApplyPlanLabels(current, next, planned, roadmap){
   }
 }
 
-function BannerBoardRow({ unit, status, onOpen, note }){
+function BannerBoardRow({ unit, status, onOpen, note, href }){
   const body = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />}
@@ -1091,10 +1097,13 @@ function BannerBoardRow({ unit, status, onOpen, note }){
   return (
     <div className={'gp-ovb-row st-' + status + (note ? ' has-note' : '')}>
       {unit.splash && <div className="gp-ovb-row-art" style={{ backgroundImage:bgUrl(unit.splash) }}></div>}
-      {onOpen
-        ? <button type="button" className="gp-ovb-row-body is-link" title={'Open ' + unit.name}
-                  onClick={onOpen}>{body}</button>
-        : <div className="gp-ovb-row-body">{body}</div>}
+      {onOpen && href
+        ? <a className="gp-ovb-row-body is-link" href={href} draggable={false} title={'Open ' + unit.name}
+             onClick={(event) => nyxNavClick(event, onOpen)}>{body}</a>
+        : onOpen
+          ? <button type="button" className="gp-ovb-row-body is-link" title={'Open ' + unit.name}
+                    onClick={onOpen}>{body}</button>
+          : <div className="gp-ovb-row-body">{body}</div>}
     </div>
   );
 }
@@ -1150,6 +1159,13 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       ? () => openUnit(unit)
       : null
   ), [onOpenMaterial, rosterMap, openUnit]);
+  // The matching address for the same units, so a linked name can also be
+  // ctrl/cmd/middle-clicked into its own tab. Resolved through the roster so the
+  // address matches exactly what a plain click navigates to.
+  const unitHref = React.useCallback((unit) => {
+    const match = unit?.name ? rosterMap.get(normalizeUnitName(unit.name)) : null;
+    return match ? nyxCharacterHref(cfg.key, match.rawName || match.name || unit.name) : undefined;
+  }, [cfg.key, rosterMap]);
   const lossUnitLink = React.useCallback((unit) => {
     const open = unitLink(unit);
     return open ? () => { closeLossHelp(); open(); } : null;
@@ -1204,16 +1220,16 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     supportHelp:null,
   }));
   const aeColumn = (index) => (aeUpcomingCards[index]
-    ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} />
+    ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} unitHref={unitHref} />
     : null);
   const phaseColumn = (column) => {
     const cards = heroCards(column);
     if (!cards.length) return null;
     return (
       <React.Fragment>
-        <BannerPhaseCard card={cards[0]} now={now} unitLink={unitLink} />
+        <BannerPhaseCard card={cards[0]} now={now} unitLink={unitLink} unitHref={unitHref} />
         {column.others.map((unit) => (
-          <BannerBoardRow key={unit.name} unit={unit} status={column.status} onOpen={unitLink(unit)} />
+          <BannerBoardRow key={unit.name} unit={unit} status={column.status} onOpen={unitLink(unit)} href={unitHref(unit)} />
         ))}
       </React.Fragment>
     );
@@ -1243,14 +1259,14 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
           {board.future.length > 0 && (
             <div className="gp-ovb-scroll">
               {board.future.map((unit) => (
-                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} />
+                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} href={unitHref(unit)} />
               ))}
             </div>
           )}
           {board.pinned.length > 0 && (
             <div className="gp-ovb-pins">
               {board.pinned.map((unit) => (
-                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" note="copium" onOpen={unitLink(unit)} />
+                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" note="copium" onOpen={unitLink(unit)} href={unitHref(unit)} />
               ))}
             </div>
           )}
@@ -1261,7 +1277,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   return (
     <section className="gp-ovb" aria-label="Banner schedule">
       <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
-        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : null}
+        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} unitHref={unitHref} /> : null}
       </BannerBoardColumn>
       <BannerBoardColumn heading={aeUpcoming.length ? 'Upcoming' : null}>
         {aeColumn(0)}
@@ -1289,7 +1305,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
               {lossSequence.map((row) => (
                 <div className="gp-ovb-loss-step" key={row.label}>
                   <span>{row.label}</span>
-                  <BannerUnit unit={row.unit} onOpen={lossUnitLink(row.unit)} showBadge={false} />
+                  <BannerUnit unit={row.unit} onOpen={lossUnitLink(row.unit)} href={unitHref(row.unit)} showBadge={false} />
                   <strong>{row.outcome}</strong>
                 </div>
               ))}
@@ -1298,7 +1314,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
               <h3 id="gp-endfield-permanent-title">Permanent operators · Available on loss</h3>
               <div>
                 {currentLossPool.permanent.map((unit) => (
-                  <BannerUnit key={unit.name} unit={unit} onOpen={lossUnitLink(unit)} showBadge={false} />
+                  <BannerUnit key={unit.name} unit={unit} onOpen={lossUnitLink(unit)} href={unitHref(unit)} showBadge={false} />
                 ))}
               </div>
             </section>
@@ -1811,15 +1827,21 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 /* ---------------- pinned favourites ---------------- */
 
 
-function FavIconPinned({ ch, cfg, onOpen }){
+function FavIconPinned({ ch, cfg, onOpen, href }){
+  const inner = (
+    <React.Fragment>
+      <span>
+        <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
+      </span>
+      <b>{ch.name}</b>
+    </React.Fragment>
+  );
   return (
     <div className="gp-fav-icon gp-fav-icon--sim">
-      <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>
-        <span>
-          <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
-        </span>
-        <b>{ch.name}</b>
-      </button>
+      {href
+        ? <a className="gp-fav-icon-open" href={href} draggable={false} aria-label={ch.name}
+             onClick={(event) => nyxNavClick(event, () => onOpen(ch))}>{inner}</a>
+        : <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>{inner}</button>}
     </div>
   );
 }
@@ -1871,6 +1893,10 @@ function Favourites({ cfg, onOpenMaterial, settings }){
     const game = ch.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key;
     if (game && game !== 'nyx') onOpenMaterial(game, ch.name, { from:cfg.key === 'nyx' ? 'nyx' : 'characters' });
   };
+  // Same game resolution as openCharacter, so the link and the click agree.
+  const characterHref = (ch) => (
+    nyxCharacterHref(ch?.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key, ch?.name)
+  );
 
   return (
     <section className={'gp-favs game-' + cfg.key} aria-labelledby={'gp-favs-title-' + cfg.key}>
@@ -1881,7 +1907,7 @@ function Favourites({ cfg, onOpenMaterial, settings }){
       {cards.length === 0
         ? <p className="gp-fav-empty">Favourite a character from the roster to pin them here.</p>
         : <div className="gp-fav-icon-grid">
-            {cards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} />)}
+            {cards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} href={characterHref(ch)} />)}
           </div>}
     </section>
   );
@@ -2362,9 +2388,11 @@ function CollectionLibrary({ game, view, onViewChange }){
           </button>
         ))}
         {specialViews.map(s => (
-          <button type="button" key={s.key} className={view === s.key ? 'on' : ''} onClick={() => onViewChange && onViewChange(s.key)}>
+          <a key={s.key} className={view === s.key ? 'on' : ''} href={routePathFor(game, s.key, null)} draggable={false}
+             aria-current={view === s.key ? 'page' : undefined}
+             onClick={(event) => nyxNavClick(event, () => onViewChange && onViewChange(s.key))}>
             <span>{s.title}</span>
-          </button>
+          </a>
         ))}
         {!specialActive && (
         <div className="db-search-tools">
@@ -3558,10 +3586,8 @@ function GenshinPotView(){
 }
 
 /* ================= content panels ================= */
-// Keyboard activation for role="button" nav rows (Enter / Space).
-function navKeyDown(fn){
-  return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
-}
+// (navKeyDown removed: the Achievements nav row was the only role="button" row
+// left, and it is now a real link that Enter activates on its own.)
 
 // Which games have an achievement tracker.
 //
@@ -3638,10 +3664,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^gallery$/i.test(f) ? 'gallery' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
   const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), { key:'settings', label:'Settings' }];
+  // Each section already has a real address; handing it to the nav row as an
+  // href is what makes ctrl/cmd/middle-click open the section in a new tab.
+  const tabHref = (key) => routePathFor(cfg.key, key, null);
   return (
     <div className="gp-layout">
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
-        <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} onActivate={() => setTab('overview')} />
+        <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} href={tabHref('overview')} onActivate={() => setTab('overview')} />
         {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
           const isGallery = /^gallery$/i.test(f);
@@ -3651,20 +3680,21 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           // Database nav row lit.
           const isOn = tab === key || (key === 'database' && (tab === 'shadow' || tab === 'tcg' || tab === 'pot' || tab === 'wonderland'));
           return (
-            <GPSectionNavButton key={f} active={isOn} label={f} onActivate={() => setTab(key)} />
+            <GPSectionNavButton key={f} active={isOn} label={f} href={tabHref(key)} onActivate={() => setTab(key)} />
           );
         })}
         {hasAchievements && (
-          <div className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === 'achievements' ? 'page' : undefined}
-               onClick={() => setTab('achievements')} onKeyDown={navKeyDown(() => setTab('achievements'))}>
+          <a className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
+             href={tabHref('achievements')} draggable={false}
+             aria-current={tab === 'achievements' ? 'page' : undefined}
+             onClick={(event) => nyxNavClick(event, () => setTab('achievements'))}>
             <span className="dia" aria-hidden="true"></span><span>Achievements</span>
-          </div>
+          </a>
         )}
         {hasLibrary && (
-          <GPSectionNavButton active={tab === 'books'} label="Library" onActivate={() => setTab('books')} />
+          <GPSectionNavButton active={tab === 'books'} label="Library" href={tabHref('books')} onActivate={() => setTab('books')} />
         )}
-        <GPSectionNavButton active={tab === 'settings'} label="Settings" onActivate={() => setTab('settings')} />
+        <GPSectionNavButton active={tab === 'settings'} label="Settings" href={tabHref('settings')} onActivate={() => setTab('settings')} />
       </nav>
 
       {/* Overview board (user layout, 2026-08-08). One full-width grid: the
@@ -3708,6 +3738,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             pinnedFavourites={!materialSelection?.name ? <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} /> : null}
             onCustomizeCharacter={openCharacterCustomize}
             onSelectCharacter={(ch) => onSelectMaterialCharacter && onSelectMaterialCharacter(cfg.key, ch)}
+            characterHref={(ch) => nyxCharacterHref(cfg.key, ch && (ch.rawName || ch.baseName || ch.n || ch.name))}
             onSelectedClose={() => {
               if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
               else if (setMaterialSelection) setMaterialSelection(null);
@@ -3784,15 +3815,23 @@ function BdayChip({ entry, onOpenMaterial, onEdit }){
   }, [entry.iconBlob]);
   const gameLabel = GAME_REGISTRY[entry.game]?.name || entry.label || (entry.custom ? 'Custom birthday' : entry.game);
   const activate = (event) => entry.custom ? onEdit?.(entry, event.currentTarget) : onOpenMaterial?.(entry.game, entry.name);
+  // A custom birthday opens the editor rather than a character page, so it has
+  // no address and stays a button.
+  const href = entry.custom ? undefined : nyxCharacterHref(entry.game, entry.name);
+  const cls = 'bcal-chip g-' + entry.game;
+  const title = entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + gameLabel + ')' + (entry.custom ? ' — edit' : '');
+  const label = entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + gameLabel + (entry.custom ? ', edit birthday' : '');
+  const inner = (blobUrl || entry.icon)
+    ? <img src={blobUrl || entry.icon} alt="" draggable="false" loading="lazy" />
+    : <span className="bcal-chip-fallback">{nyxBirthdayInitials(entry.name)}</span>;
+  if (href) {
+    return (
+      <a className={cls} href={href} draggable={false} title={title} aria-label={label}
+         onClick={(event) => nyxNavClick(event, () => onOpenMaterial?.(entry.game, entry.name))}>{inner}</a>
+    );
+  }
   return (
-    <button type="button" className={'bcal-chip g-' + entry.game}
-            title={entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + gameLabel + ')' + (entry.custom ? ' — edit' : '')}
-            aria-label={entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + gameLabel + (entry.custom ? ', edit birthday' : '')}
-            onClick={activate}>
-      {(blobUrl || entry.icon)
-        ? <img src={blobUrl || entry.icon} alt="" draggable="false" loading="lazy" />
-        : <span className="bcal-chip-fallback">{nyxBirthdayInitials(entry.name)}</span>}
-    </button>
+    <button type="button" className={cls} title={title} aria-label={label} onClick={activate}>{inner}</button>
   );
 }
 
@@ -4067,6 +4106,11 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
   const unitLink = (unit) => (
     onOpenMaterial && unit?.name && rosterMap.has(normalizeUnitName(unit.name)) ? () => openUnit(unit) : null
   );
+  // Hub rows link into the game's own character page, never a hub address.
+  const unitHref = (unit) => {
+    const match = unit?.name ? rosterMap.get(normalizeUnitName(unit.name)) : null;
+    return match ? nyxCharacterHref(cfg.key, match.rawName || match.name || unit.name) : undefined;
+  };
   const sections = [];
   // A unit is listed once per column. The ZZZ feed in particular repeats the
   // same names across its next and upcoming phases, and two sections carrying
@@ -4119,7 +4163,7 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
             )}
           </div>
           {section.units.map((unit) => (
-            <BannerBoardRow key={section.key + unit.name} unit={unit} status={section.status} onOpen={unitLink(unit)} />
+            <BannerBoardRow key={section.key + unit.name} unit={unit} status={section.status} onOpen={unitLink(unit)} href={unitHref(unit)} />
           ))}
         </div>
       ))}
@@ -4177,7 +4221,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
     <div className="gp-layout">
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Sections">
         {NAV.map(n => (
-          <GPSectionNavButton key={n.key} active={tab === n.key} label={n.label} diamond={false} onActivate={() => setTab(n.key)} />
+          <GPSectionNavButton key={n.key} active={tab === n.key} label={n.label} diamond={false} href={routePathFor('nyx', n.key, null)} onActivate={() => setTab(n.key)} />
         ))}
       </nav>
       {/* The server-region control, reset timers and codes aside were removed
@@ -4341,6 +4385,15 @@ function routePathFor(key, tab, selection, timelineGame){
   const safeTab = coerceTabForKey(key, tab || 'overview');
   const slug = GAME_TAB_TO_ROUTE[safeTab] || '';
   return slug ? base + '/' + slug : base;
+}
+
+// The address of a character's own page. Every control that opens a character
+// hands this to its `href`, so ctrl/cmd/middle-click lands them in a new tab
+// while a plain click stays an in-app switch. The hub has no character pages of
+// its own — those always belong to a game.
+function nyxCharacterHref(key, name){
+  if (!key || key === 'nyx' || !name) return undefined;
+  return routePathFor(key, 'mats', { game:key, name });
 }
 
 function routeStateFor(key, tab, selection){

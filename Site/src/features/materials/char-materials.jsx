@@ -1234,7 +1234,7 @@ const CM_META_ICONS = {
   },
   zzz: {
     el:   { physical:'zzz/physical.webp', fire:'zzz/fire.webp', ice:'zzz/ice.webp', electric:'zzz/electric.webp', ether:'zzz/ether.webp' },
-    spec: { attack:'zzz/spec_attack.webp', stun:'zzz/spec_stun.webp', anomaly:'zzz/spec_anomaly.webp', support:'zzz/spec_support.webp', defense:'zzz/spec_defense.webp', defence:'zzz/spec_defense.webp', rupture:'zzz/spec_rupture.webp' },
+    spec: { attack:'zzz/spec_attack.webp', stun:'zzz/spec_stun.webp', anomaly:'zzz/spec_anomaly.webp', support:'zzz/spec_support.webp', defense:'zzz/spec_defense.webp', defence:'zzz/spec_defense.webp', rupture:'zzz/spec_rupture.webp', armorer:'zzz/spec_armorer.webp' },
   },
   wuwa: {
     el: { glacio:'wuwa/glacio.webp', fusion:'wuwa/fusion.webp', electro:'wuwa/electro.webp', aero:'wuwa/aero.webp', spectro:'wuwa/spectro.webp', havoc:'wuwa/havoc.webp' },

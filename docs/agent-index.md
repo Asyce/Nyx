@@ -12,6 +12,12 @@ Use this as the first reference when Codex, Claude, or another coding agent work
 
 Read these before implementing review-driven work:
 
+CURRENT. [Combined launcher, Endfield, and HoYo execution plan](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md)
+    and its [execution tracker](nyx-launcher-endfield-hoyolab-execution-tracker-2026-08-24.md)
+    — **CANONICAL COMBINED EXECUTION ORDER.**
+    They supersede the three source plans' execution order. The source plans
+    remain contract evidence.
+
 0000. `docs/feedback-characters-database-library-endfield-plan-2026-07-14.md` — **COMPLETED FEEDBACK PLAN.**
     Five dependency-ordered batches covering Characters scrolling and Trounce
     data/layout, Database rarity frames, Library phrase navigation, Endfield

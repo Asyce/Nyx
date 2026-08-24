@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-23T19:34:16.600Z",
+  "generatedAt": "2026-08-24T03:53:21.213Z",
   "codes": {
     "updated": "2026-08-21T15:24:44.733Z",
     "maxAgeDays": 28,
@@ -569,18 +569,17 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-14T04:06:56.603Z",
-    "checkedAt": "2026-08-16T05:52:46.401Z",
+    "updated": "2026-08-24T02:51:02.524Z",
+    "checkedAt": "2026-08-24T02:51:02.524Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.4 Phase 2",
@@ -734,8 +733,8 @@ var NYX_DB = {
           {
             "phase": null,
             "teased": false,
-            "start": "2026-09-16T16:00:00.000Z",
-            "end": "2026-10-06T16:00:00.000Z",
+            "start": "2026-09-12T16:00:00.000Z",
+            "end": "2026-09-27T16:00:00.000Z",
             "characters": [
               {
                 "name": "Aventurine \u2022 Waveflair",
@@ -747,6 +746,17 @@ var NYX_DB = {
                 "rarity": 5,
                 "debut": true,
                 "debutAt": null
+              },
+              {
+                "name": "Ashveil",
+                "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
+                "iconZoom": false,
+                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2026-03-25"
               }
             ],
             "subBanners": []
@@ -787,7 +797,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+            "hint": "Pearl Release in Phase 1 of Version 4.6",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
           },
@@ -810,12 +820,11 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -881,7 +890,7 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "7.0 Phase 2",
           "teased": false,
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T10:00:00.000Z",
@@ -947,7 +956,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters from Official Channels",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -961,7 +970,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters Mentioned In-Game",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -1034,7 +1043,9 @@ var NYX_DB = {
             "hint": "Characters from Official Channels",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
+          }
+        ],
+        "pinned": [
           {
             "name": "Alice",
             "icon": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
@@ -1062,74 +1073,17 @@ var NYX_DB = {
             "hint": "Characters That Appear in the Story",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pantalone",
-            "icon": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Rerir",
-            "icon": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pulcinella",
-            "icon": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pierro",
-            "icon": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           }
         ]
       },
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "3.6 Phase 1",
@@ -1195,10 +1149,10 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "3.6 Phase 2",
+          "phase": null,
           "teased": false,
           "start": "2026-09-10T10:00:00.000Z",
-          "end": "2026-09-30T10:00:00.000Z",
+          "end": "2026-09-29T10:00:00.000Z",
           "characters": [
             {
               "name": "Jingran",
@@ -1209,21 +1163,7 @@ var NYX_DB = {
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": null,
-              "hint": "Qingxiao and Jingran in Version 3.6",
-              "source": "game8",
-              "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-            },
-            {
-              "name": "Mornye",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-01-15"
+              "debutAt": null
             },
             {
               "name": "Hiyuki",
@@ -1235,26 +1175,23 @@ var NYX_DB = {
               "rarity": 5,
               "debut": true,
               "debutAt": null
+            },
+            {
+              "name": "Mornye",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-01-15"
             }
           ],
           "subBanners": []
         },
         "upcoming": [],
         "roadmap": [
-          {
-            "name": "Jingran",
-            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
-            "namecard": null,
-            "rarity": 5,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Qingxiao and Jingran in Version 3.6",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-          },
           {
             "name": "Suoming",
             "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
@@ -1288,12 +1225,11 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "3.1 Phase 2",
@@ -1408,34 +1344,6 @@ var NYX_DB = {
         ],
         "roadmap": [
           {
-            "name": "Claret",
-            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Claret Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
-            "name": "Roxy",
-            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Roxy Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
             "name": "Sunbringer",
             "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "iconFallback": null,
@@ -1482,12 +1390,11 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -1635,7 +1542,26 @@ var NYX_DB = {
             ]
           }
         },
-        "next": null,
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-09-02T02:00:00.000Z",
+          "end": "2026-09-30T02:00:00.000Z",
+          "characters": [
+            {
+              "name": "Typhoeus",
+              "icon": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "namecard": null,
+              "rarity": 6,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
+          "subBanners": []
+        },
         "upcoming": [
           {
             "phase": null,
@@ -1644,7 +1570,7 @@ var NYX_DB = {
             "end": null,
             "characters": [
               {
-                "name": "Si (Feranmut Proxy)",
+                "name": "Si",
                 "icon": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "iconFallback": null,
                 "iconZoom": false,
@@ -1660,17 +1586,6 @@ var NYX_DB = {
                 "iconFallback": null,
                 "iconZoom": false,
                 "art": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
-                "namecard": null,
-                "rarity": null,
-                "debut": true,
-                "debutAt": null
-              },
-              {
-                "name": "Sarkaz Archer",
-                "icon": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -5970,12 +5885,11 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -6041,7 +5955,7 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "7.0 Phase 2",
           "teased": false,
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T10:00:00.000Z",
@@ -6107,7 +6021,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters from Official Channels",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -6121,7 +6035,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters Mentioned In-Game",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -6194,7 +6108,9 @@ var NYX_DB = {
             "hint": "Characters from Official Channels",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
+          }
+        ],
+        "pinned": [
           {
             "name": "Alice",
             "icon": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
@@ -6220,62 +6136,6 @@ var NYX_DB = {
             "debut": true,
             "debutAt": null,
             "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pantalone",
-            "icon": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Rerir",
-            "icon": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pulcinella",
-            "icon": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pierro",
-            "icon": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           }
@@ -171445,12 +171305,11 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.4 Phase 2",
@@ -171604,8 +171463,8 @@ var NYX_DB = {
           {
             "phase": null,
             "teased": false,
-            "start": "2026-09-16T16:00:00.000Z",
-            "end": "2026-10-06T16:00:00.000Z",
+            "start": "2026-09-12T16:00:00.000Z",
+            "end": "2026-09-27T16:00:00.000Z",
             "characters": [
               {
                 "name": "Aventurine \u2022 Waveflair",
@@ -171617,6 +171476,17 @@ var NYX_DB = {
                 "rarity": 5,
                 "debut": true,
                 "debutAt": null
+              },
+              {
+                "name": "Ashveil",
+                "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
+                "iconZoom": false,
+                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2026-03-25"
               }
             ],
             "subBanners": []
@@ -171657,7 +171527,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+            "hint": "Pearl Release in Phase 1 of Version 4.6",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
           },
@@ -177371,12 +177241,11 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "3.1 Phase 2",
@@ -177490,34 +177359,6 @@ var NYX_DB = {
           }
         ],
         "roadmap": [
-          {
-            "name": "Claret",
-            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Claret Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
-            "name": "Roxy",
-            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Roxy Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
           {
             "name": "Sunbringer",
             "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
@@ -182612,12 +182453,11 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "3.6 Phase 1",
@@ -182683,10 +182523,10 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "3.6 Phase 2",
+          "phase": null,
           "teased": false,
           "start": "2026-09-10T10:00:00.000Z",
-          "end": "2026-09-30T10:00:00.000Z",
+          "end": "2026-09-29T10:00:00.000Z",
           "characters": [
             {
               "name": "Jingran",
@@ -182697,21 +182537,7 @@ var NYX_DB = {
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": null,
-              "hint": "Qingxiao and Jingran in Version 3.6",
-              "source": "game8",
-              "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-            },
-            {
-              "name": "Mornye",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-01-15"
+              "debutAt": null
             },
             {
               "name": "Hiyuki",
@@ -182723,26 +182549,23 @@ var NYX_DB = {
               "rarity": 5,
               "debut": true,
               "debutAt": null
+            },
+            {
+              "name": "Mornye",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-01-15"
             }
           ],
           "subBanners": []
         },
         "upcoming": [],
         "roadmap": [
-          {
-            "name": "Jingran",
-            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
-            "namecard": null,
-            "rarity": 5,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Qingxiao and Jingran in Version 3.6",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-          },
           {
             "name": "Suoming",
             "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
@@ -187992,12 +187815,11 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -188145,7 +187967,26 @@ var NYX_DB = {
             ]
           }
         },
-        "next": null,
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-09-02T02:00:00.000Z",
+          "end": "2026-09-30T02:00:00.000Z",
+          "characters": [
+            {
+              "name": "Typhoeus",
+              "icon": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "namecard": null,
+              "rarity": 6,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
+          "subBanners": []
+        },
         "upcoming": [
           {
             "phase": null,
@@ -188154,7 +187995,7 @@ var NYX_DB = {
             "end": null,
             "characters": [
               {
-                "name": "Si (Feranmut Proxy)",
+                "name": "Si",
                 "icon": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "iconFallback": null,
                 "iconZoom": false,
@@ -188170,17 +188011,6 @@ var NYX_DB = {
                 "iconFallback": null,
                 "iconZoom": false,
                 "art": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
-                "namecard": null,
-                "rarity": null,
-                "debut": true,
-                "debutAt": null
-              },
-              {
-                "name": "Sarkaz Archer",
-                "icon": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,

@@ -1,16 +1,15 @@
 {
-  "checkedAt": "2026-08-16T05:52:46.401Z",
-  "updated": "2026-08-14T04:06:56.603Z",
+  "checkedAt": "2026-08-24T02:51:02.524Z",
+  "updated": "2026-08-24T02:51:02.524Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-08-16T05:52:46.401Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "source": "game8"
       },
       "current": {
         "phase": "4.4",
@@ -34,28 +33,28 @@
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1304.webp"
           },
           {
-            "name": "Rin Tohsaka",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1508.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
-          },
-          {
             "name": "Gilgamesh",
             "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
             "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1509.webp",
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
           },
           {
-            "name": "Saber",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1014.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1014.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp"
+            "name": "Rin Tohsaka",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
+            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1508.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
           },
           {
             "name": "Archer",
             "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1015.webp",
             "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1015.webp",
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1015.webp"
+          },
+          {
+            "name": "Saber",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1014.webp",
+            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1014.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp"
           }
         ],
         "end": "2026-08-25T16:00:00.000Z",
@@ -68,10 +67,16 @@
             "name": "Summeretto",
             "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
             "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp"
+          },
+          {
+            "name": "Hyacine",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1409.webp",
+            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1409.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1409.webp"
           }
         ],
         "start": "2026-08-25T16:00:00.000Z",
-        "end": "2026-09-16T16:00:00.000Z",
+        "end": "2026-09-12T16:00:00.000Z",
         "source": "game8"
       },
       "upcoming": [
@@ -81,10 +86,16 @@
               "name": "Summeretto",
               "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
               "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp"
+            },
+            {
+              "name": "Hyacine",
+              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1409.webp",
+              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1409.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1409.webp"
             }
           ],
           "start": "2026-08-25T16:00:00.000Z",
-          "end": "2026-09-16T16:00:00.000Z"
+          "end": "2026-09-12T16:00:00.000Z"
         },
         {
           "characters": [
@@ -92,17 +103,23 @@
               "name": "Waveflair",
               "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
               "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp"
+            },
+            {
+              "name": "Ashveil",
+              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1504.webp",
+              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1504.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp"
             }
           ],
-          "start": "2026-09-16T16:00:00.000Z",
-          "end": "2026-10-06T16:00:00.000Z"
+          "start": "2026-09-12T16:00:00.000Z",
+          "end": "2026-09-27T16:00:00.000Z"
         }
       ],
       "roadmap": [
         {
           "name": "Pearl",
           "image": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
-          "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+          "hint": "Pearl Release in Phase 1 of Version 4.6",
           "imageSource": "https://img.game8.co/4583947/4c18ce22132d458c3363deed4f419db0.png/show",
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
@@ -118,39 +135,20 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-14T04:06:56.603Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
       }
     },
     {
       "id": "genshin",
       "name": "Genshin Impact",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-08-16T05:52:46.401Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
-      },
-      "current": {
-        "phase": "6.7 Phase 2",
-        "characters": [
-          {
-            "name": "Raiden Shogun",
-            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Shougun_Circle.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Shougun.webp",
-            "imageFallbackZoom": true
-          },
-          {
-            "name": "Columbina",
-            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Columbina.webp",
-            "imageFallbackZoom": true
-          }
-        ],
-        "end": "2026-08-11T10:00:00.000Z",
+        "status": "fresh",
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
         "source": "game8"
       },
-      "next": {
+      "current": {
         "phase": "7.0 Phase 1",
         "characters": [
           {
@@ -166,8 +164,27 @@
             "imageFallbackZoom": true
           }
         ],
-        "start": "2026-08-12T10:00:00.000Z",
         "end": "2206-09-01T10:00:00.000Z",
+        "source": "game8"
+      },
+      "next": {
+        "phase": "7.0 Phase 2",
+        "characters": [
+          {
+            "name": "Ineffa",
+            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa_Circle.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+            "imageFallbackZoom": true
+          },
+          {
+            "name": "Flins",
+            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins_Circle.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+            "imageFallbackZoom": true
+          }
+        ],
+        "start": "2026-09-01T10:00:00.000Z",
+        "end": "2026-09-22T10:00:00.000Z",
         "source": "game8"
       },
       "upcoming": [
@@ -188,43 +205,30 @@
           ],
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T10:00:00.000Z"
-        },
-        {
-          "characters": [
-            {
-              "name": "Odette",
-              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette_Circle.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
-              "imageFallbackZoom": true
-            },
-            {
-              "name": "Arlecchino",
-              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "imageFallbackZoom": true
-            },
-            {
-              "name": "Ineffa",
-              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa_Circle.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
-              "imageFallbackZoom": true
-            },
-            {
-              "name": "Flins",
-              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins_Circle.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
-              "imageFallbackZoom": true
-            }
-          ],
-          "start": "2026-08-12T10:00:00.000Z",
-          "end": "2206-09-01T10:00:00.000Z"
         }
       ],
       "roadmap": [
         {
+          "name": "Vodyanitsa",
+          "image": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+          "hint": "Available Characters in the Version 7.1 Update",
+          "imageSource": "https://img.game8.co/4543260/0116c26fa74f1168cfa729c68003e791.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
+          "name": "Vesna",
+          "image": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+          "hint": "Available Characters in the Version 7.1 Update",
+          "imageSource": "https://img.game8.co/4543306/5e9d45898e0311d7d3974ee9b5411668.png/show",
+          "source": "game8",
+          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
+        },
+        {
           "name": "Alice",
           "image": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
           "hint": "Characters That Appear in the Story",
+          "pinned": true,
           "imageSource": "https://img.game8.co/4226271/b2008ad7d738ab74ad24d0b112c6dc9a.png/show",
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
@@ -233,31 +237,8 @@
           "name": "Dainsleif",
           "image": "/assets/banners/genshin/afa049120deb9bb971c2398cd7f1ea98.png",
           "hint": "Characters That Appear in the Story",
+          "pinned": true,
           "imageSource": "https://img.game8.co/3295010/ab8f71b69adfdb2e479eed626aa17009.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-        },
-        {
-          "name": "Pantalone",
-          "image": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-          "hint": "Characters That Appear in the Story",
-          "imageSource": "https://img.game8.co/3547114/6d53a278cee17b1905053e49f64126f8.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-        },
-        {
-          "name": "Rerir",
-          "image": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-          "hint": "Characters That Appear in the Story",
-          "imageSource": "https://img.game8.co/4275048/f8cca0e2d0af4f192067a4deeaf1450e.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-        },
-        {
-          "name": "Vesna",
-          "image": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
-          "hint": "Characters from Official Channels",
-          "imageSource": "https://img.game8.co/4543306/5e9d45898e0311d7d3974ee9b5411668.png/show",
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
         },
@@ -294,72 +275,30 @@
           "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
         },
         {
-          "name": "Pulcinella",
-          "image": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-          "hint": "Characters from Official Channels",
-          "imageSource": "https://img.game8.co/3547107/01f4c97b40f61ada48e67064abb2d2ee.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-        },
-        {
-          "name": "Pierro",
-          "image": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-          "hint": "Characters from Official Channels",
-          "imageSource": "https://img.game8.co/3547108/95df31eba5740cf2f9fd04a1bd6fd665.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-        },
-        {
           "name": "Tsaritsa",
           "image": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
           "hint": "Characters Mentioned In-Game",
           "imageSource": "https://img.game8.co/4543364/833b140879211c4968885b1525645c19.png/show",
           "source": "game8",
           "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-        },
-        {
-          "name": "Vodyanitsa",
-          "image": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
-          "hint": "Characters Mentioned In-Game",
-          "imageSource": "https://img.game8.co/4543260/0116c26fa74f1168cfa729c68003e791.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
         }
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-14T04:06:56.603Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
       }
     },
     {
       "id": "wuwa",
       "name": "Wuthering Waves",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-08-16T05:52:46.401Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
-      },
-      "current": {
-        "phase": null,
-        "characters": [
-          {
-            "name": "Suisui",
-            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
-            "rarity": 5
-          },
-          {
-            "name": "Aemeath",
-            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
-            "rarity": 5
-          }
-        ],
-        "end": "2026-08-19T10:00:00.000Z",
+        "status": "fresh",
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
         "source": "game8"
       },
-      "next": {
+      "current": {
         "phase": null,
         "characters": [
           {
@@ -373,79 +312,34 @@
             "rarity": 5
           }
         ],
-        "start": "2026-08-20T10:00:00.000Z",
         "end": "2026-09-10T10:00:00.000Z",
         "source": "game8"
       },
-      "upcoming": [
-        {
-          "characters": [
-            {
-              "name": "Mornye",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-              "rarity": 5
-            },
-            {
-              "name": "Hiyuki",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-              "rarity": 5
-            }
-          ],
-          "start": "2026-09-10T10:00:00.000Z",
-          "end": "2026-09-30T10:00:00.000Z"
-        },
-        {
-          "characters": [
-            {
-              "name": "Mornye",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-              "rarity": 5
-            },
-            {
-              "name": "Hiyuki",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-              "rarity": 5
-            },
-            {
-              "name": "Qingxiao",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
-              "rarity": 5
-            },
-            {
-              "name": "Denia",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
-              "rarity": 5
-            }
-          ],
-          "start": "2026-08-20T10:00:00.000Z",
-          "end": "2026-09-30T10:00:00.000Z"
-        },
-        {
-          "characters": [
-            {
-              "name": "Qingxiao",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
-              "rarity": 5
-            },
-            {
-              "name": "Denia",
-              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
-              "rarity": 5
-            }
-          ],
-          "start": "2026-08-20T10:00:00.000Z",
-          "end": "2026-09-10T10:00:00.000Z"
-        }
-      ],
+      "next": {
+        "phase": null,
+        "characters": [
+          {
+            "name": "Jingran",
+            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
+            "rarity": 5
+          },
+          {
+            "name": "Hiyuki",
+            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
+            "rarity": 5
+          },
+          {
+            "name": "Mornye",
+            "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+            "rarity": 5
+          }
+        ],
+        "start": "2026-09-10T10:00:00.000Z",
+        "end": "2026-09-29T10:00:00.000Z",
+        "source": "game8"
+      },
+      "upcoming": [],
       "roadmap": [
-        {
-          "name": "Jingran",
-          "image": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
-          "hint": "Qingxiao and Jingran in Version 3.6",
-          "imageSource": "https://img.game8.co/4572123/18932eed923cdd845d400e0990924543.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-        },
         {
           "name": "Suoming",
           "image": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
@@ -465,19 +359,18 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-14T04:06:56.603Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
       }
     },
     {
       "id": "zzz",
       "name": "Zenless Zone Zero",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-08-16T05:52:46.401Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "source": "game8"
       },
       "current": {
         "phase": null,
@@ -490,9 +383,30 @@
             "rarity": 4
           },
           {
-            "name": "Aria",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle57.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect57.webp",
+            "name": "Sigrid",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
+          },
+          {
+            "name": "Dialyn",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle54.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
+          },
+          {
+            "name": "Yuzuha",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle47.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
+          },
+          {
+            "name": "Harumasa",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle35.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
             "imageFallbackZoom": true,
             "rarity": 4
           }
@@ -501,66 +415,50 @@
         "source": "game8"
       },
       "next": {
-        "phase": null,
+        "phase": "3.2",
         "characters": [
           {
-            "name": "Sigrid",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle66.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
+            "name": "Claret",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle1611.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
+          },
+          {
+            "name": "Roxy",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle68.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect68.webp",
             "imageFallbackZoom": true,
             "rarity": 4
           }
         ],
         "start": "2026-08-19T10:00:00.000Z",
-        "end": "2026-09-08T10:00:00.000Z",
+        "end": "2026-09-09T10:00:00.000Z",
         "source": "game8"
       },
       "upcoming": [
         {
           "characters": [
             {
-              "name": "Dialyn",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle54.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
+              "name": "Claret",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle1611.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
               "imageFallbackZoom": true,
               "rarity": 4
             },
             {
-              "name": "Yuzuha",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle47.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
-              "imageFallbackZoom": true,
-              "rarity": 4
-            },
-            {
-              "name": "Harumasa",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle35.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
+              "name": "Roxy",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle68.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect68.webp",
               "imageFallbackZoom": true,
               "rarity": 4
             }
           ],
-          "start": "2026-08-19T10:00:00.000Z",
-          "end": "2026-09-08T10:00:00.000Z"
+          "start": null,
+          "end": "2026-09-09T10:00:00.000Z"
         }
       ],
       "roadmap": [
-        {
-          "name": "Claret",
-          "image": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
-          "hint": "Claret Release in 3.2",
-          "imageSource": "https://img.game8.co/4581362/77f1bcaea6d3de6108e2d242f32f2150.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-        },
-        {
-          "name": "Roxy",
-          "image": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
-          "hint": "Roxy Release in 3.2",
-          "imageSource": "https://img.game8.co/4581324/9169a4a2d47ca1e8f589aca86b35ece5.png/show",
-          "source": "game8",
-          "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-        },
         {
           "name": "Sunbringer",
           "image": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
@@ -588,19 +486,18 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-14T04:06:56.603Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
       }
     },
     {
       "id": "endfield",
       "name": "Arknights: Endfield",
       "freshness": {
-        "status": "stale",
-        "checkedAt": "2026-08-16T05:52:46.401Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-        "source": "game8",
-        "message": "This game failed to scrape during the latest banner check; preserved previous data."
+        "status": "fresh",
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "source": "game8"
       },
       "current": {
         "phase": "1.4 Phase 2",
@@ -616,16 +513,22 @@
       },
       "next": {
         "phase": null,
-        "characters": [],
-        "start": "2026-08-09T02:00:00.000Z",
-        "end": "2026-08-30T02:00:00.000Z",
+        "characters": [
+          {
+            "name": "Typhoeus",
+            "image": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+            "rarity": 6
+          }
+        ],
+        "start": "2026-09-02T02:00:00.000Z",
+        "end": "2026-09-30T02:00:00.000Z",
         "source": "game8"
       },
       "upcoming": [
         {
           "characters": [
             {
-              "name": "Si (Feranmut Proxy)",
+              "name": "Si",
               "image": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
               "imageSource": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show"
             },
@@ -633,11 +536,6 @@
               "name": "Hongshan Imperial Guard",
               "image": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
               "imageSource": "https://img.game8.co/4556702/e097cc052bb598300312ad87ea3cef28.png/show"
-            },
-            {
-              "name": "Sarkaz Archer",
-              "image": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
-              "imageSource": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show"
             }
           ],
           "start": null,
@@ -647,8 +545,8 @@
       ],
       "teaserFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-14T04:06:56.603Z",
-        "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z"
+        "checkedAt": "2026-08-24T02:51:02.524Z",
+        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
       }
     }
   ]

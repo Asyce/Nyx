@@ -442,9 +442,20 @@ function rosterEntry(rosters, game, name, sourceIcon = null) {
 
 function parseRarity(value) {
   if (typeof value === 'number' && Number.isFinite(value)) return value;
-  const found = String(value ?? '').match(/[3-6]|[S]/i);
+  const found = String(value ?? '').match(/[3-6]|[SA]/i);
   if (!found) return null;
-  return found[0].toUpperCase() === 'S' ? 5 : Number(found[0]);
+  return found[0].toUpperCase() === 'S' ? 5 : found[0].toUpperCase() === 'A' ? 4 : Number(found[0]);
+}
+
+function launcherRarity(game, value) {
+  const rarity = parseRarity(value);
+  if (game !== 'zzz' || typeof value !== 'number') return rarity;
+  return rarity === 4 ? 5 : rarity === 3 ? 4 : rarity;
+}
+
+function isHeadlineCharacter(game, character) {
+  const minimum = game === 'ae' ? 6 : 5;
+  return character.rarity == null || character.rarity >= minimum;
 }
 
 function parseDebut(entry) {
@@ -551,6 +562,7 @@ function localVariants(game, character, roster, db = DATABASE, prydwen = {}) {
     add(prydwen?.art?.full, 'splash', 'splash', { fit: 'contain', x: 0.74, y: 0.52 });
     const icon = assets.icon ?? assets.partnerIcon ?? assets.roleIcon;
     if (!variants.length) add(icon, 'splash-fallback', 'icon', { fit: 'contain', x: 0.74, y: 0.52 });
+    if (!variants.length) add(prydwen?.art?.card, 'splash-fallback', 'card', { fit: 'contain', x: 0.74, y: 0.52 });
   } else if (game === 'wuwa') {
     add(prydwen?.art?.full ?? prydwen?.art?.card, 'splash', 'splash', { fit: 'contain', x: 0.72, y: 0.52 });
     if (!variants.length) add(assets.portrait, 'splash-fallback', 'activity', { fit: 'contain', x: 0.72, y: 0.52 });
@@ -623,15 +635,17 @@ function stableCharacterId(game, entry, roster) {
 function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
   const name = cleanText(raw?.name ?? raw, 80);
   if (!name) return null;
-  const roster = rosterEntry(rosters, game, name, raw?.image ?? raw?.icon);
   const provider = rosterEntry({ [game]: prydwen }, game, name);
-  const rosterIsExact = roster && [roster.name, roster.displayName, roster.id, roster.profile?.full_name, roster.facts?.fullName]
-    .some((value) => norm(value) === norm(name));
-  const providerIsExact = provider && [provider.name, provider.displayName, provider.id, provider.profile?.full_name, provider.facts?.fullName]
-    .some((value) => norm(value) === norm(name));
-  const record = rosterIsExact ? roster : providerIsExact ? provider : roster ?? provider ?? {};
-  const rarity = parseRarity(raw?.rarity ?? record.rarity ?? record.facts?.rarity);
-  const debut = parseDebut({ ...record, ...raw }) ?? sourcedDebut(debuts?.[game], name);
+  const roster = rosterEntry(rosters, game, name, raw?.image ?? raw?.icon)
+    ?? (provider ? rosterEntry(rosters, game, provider.name) : null);
+  const record = roster ?? provider ?? {};
+  const rarity = raw?.rarity == null
+    ? launcherRarity(game, record.rarity ?? record.facts?.rarity)
+    : parseRarity(raw.rarity);
+  const displayName = cleanText(record?.name, 80) || name;
+  const debut = parseDebut({ ...record, ...raw })
+    ?? sourcedDebut(debuts?.[game], name)
+    ?? sourcedDebut(debuts?.[game], displayName);
   const limited = typeof raw?.limited === 'boolean' ? raw.limited : isLimited(record);
   const variants = localVariants(game, record, roster, db, provider ?? {});
   const id = stableCharacterId(game, raw, record);
@@ -649,33 +663,30 @@ function buildCharacter(game, raw, rosters, prydwen, db, debuts) {
     ?? approvedLocalIcon
     ?? verifiedArtIcon
     ?? remoteCharacterIcon(game, raw, `${id}-icon`);
-  const expandedName = cleanText(record?.facts?.fullName ?? record?.profile?.full_name ?? record?.displayName ?? record?.name, 80);
-  const displayName = expandedName
-    && norm(expandedName) !== norm(name)
-    && (norm(expandedName).startsWith(norm(name)) || norm(expandedName).endsWith(norm(name)))
-    ? expandedName
-    : name;
   return { id, name: displayName, rarity, limited, debut, icon, variants };
 }
 
-function selectCharacter(characters) {
-  if (!characters.length) return { selected: null, reason: 'no-characters' };
-  const sorted = characters.map((character, index) => ({ character, index })).sort((left, right) => {
+function orderBannerCharacters(characters) {
+  return characters.map((character, index) => ({ character, index })).sort((left, right) => {
     const a = left.character;
     const b = right.character;
     const rarity = (b.rarity ?? -1) - (a.rarity ?? -1);
     if (rarity) return rarity;
-    if (a.limited === true && b.limited !== true) return -1;
-    if (b.limited === true && a.limited !== true) return 1;
     if (a.debut && b.debut && a.debut !== b.debut) return b.debut.localeCompare(a.debut);
     if (a.debut && !b.debut) return 1;
     if (!a.debut && b.debut) return -1;
+    if (a.limited === true && b.limited !== true) return -1;
+    if (b.limited === true && a.limited !== true) return 1;
     const aNumeric = Number.parseInt(a.id, 10);
     const bNumeric = Number.parseInt(b.id, 10);
     if (Number.isFinite(aNumeric) && Number.isFinite(bNumeric) && aNumeric !== bNumeric) return bNumeric - aNumeric;
-    return a.id.localeCompare(b.id);
-  });
-  const selected = sorted[0].character;
+    return left.index - right.index;
+  }).map(({ character }) => character);
+}
+
+function selectCharacter(characters) {
+  if (!characters.length) return { selected: null, reason: 'no-characters' };
+  const selected = orderBannerCharacters(characters)[0];
   const sameRarity = characters.filter((entry) => (entry.rarity ?? -1) === (selected.rarity ?? -1));
   const sameRarityWithDebut = sameRarity.filter((entry) => entry.debut);
   const reason = selected.limited === true && sameRarity.some((entry) => entry.limited !== true)
@@ -872,9 +883,17 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       ? (group.roadmap ?? []).filter((entry) => betaNames.has(norm(entry?.name)))
       : [];
     const roadmap = betaRoadmap.length ? betaRoadmap : (group.roadmap ?? []);
+    const rawNextStart = timestamp(iso(group?.next?.start));
+    const rawNextEnd = timestamp(iso(group?.next?.end));
+    const rawNextAnnouncement = cleanText(group?.next?.phase, 48)
+      && Array.isArray(group?.next?.characters)
+      && group.next.characters.length > 0
+      && (rawNextStart == null || rawNextStart <= nowMs || rawNextEnd == null || rawNextEnd <= rawNextStart)
+        ? [{ ...group.next, _allowLocalRosterArt: true }]
+        : [];
     const announcedSource = game === 'ae'
       ? (group.upcoming ?? []).filter((phase) => phase?.teased === true && phase?.start == null && phase?.end == null)
-      : groupRoadmapAnnouncements(roadmap);
+      : [...rawNextAnnouncement, ...groupRoadmapAnnouncements(roadmap)];
     const announcedFreshness = game === 'ae' ? corroboratingGroup?.teaserFreshness : corroboratingGroup?.roadmapFreshness;
     const announcedIsFresh = (hasRecentGame8Source(corroboratingGroup, nowMs)
         && hasRecentGame8Observation(announcedFreshness, nowMs))
@@ -885,18 +904,20 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         .map((phase) => ({
           phase: cleanText(phase?.phase, 48) || null,
           announced: true,
+          _allowLocalRosterArt: phase?._allowLocalRosterArt === true,
           start: null,
           end: null,
           characters: (phase?.characters ?? []).map((character) => ({
             name: cleanText(character?.name, 80),
-            rarity: parseRarity(character?.rarity),
+            rarity: launcherRarity(game, character?.rarity),
             limited: typeof character?.limited === 'boolean' ? character.limited : null,
             image: announcedArtPath(game, character?.image ?? character?.icon, db),
           })),
         }))
         .filter((phase) => phase.characters.length > 0
           && phase.characters.length <= 8
-          && phase.characters.every((character) => character.name && character.image)
+          && phase.characters.every((character) => character.name
+            && (character.image || phase._allowLocalRosterArt))
           && new Set(phase.characters.map((character) => norm(character.name))).size === phase.characters.length)
       : [];
     group.current = null;
@@ -1051,18 +1072,16 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
     .sort((left, right) => left.startMs - right.startMs)
     .slice(0, 5)
     .map((phase) => {
-      const characters = phase.characters
+      const characters = orderBannerCharacters(phase.characters
         .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
         .filter(Boolean)
+        .filter((character) => isHeadlineCharacter(game, character)))
         .map((character) => ({ ...character, variants: [] }));
-      const selected = selectCharacter(characters).selected;
       return {
         phase: phase.phase,
         start: phase.start,
         end: phase.end,
-        characters: selected
-          ? [selected, ...characters.filter((character) => character.id !== selected.id)]
-          : characters,
+        characters,
       };
     })
     // Upcoming art is optional. Omit an incomplete phase instead of shipping
@@ -1075,9 +1094,10 @@ function buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, nowMs) {
       announced: true,
       start: null,
       end: null,
-      characters: phase.characters
+      characters: orderBannerCharacters(phase.characters
         .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
         .filter(Boolean)
+        .filter((character) => isHeadlineCharacter(game, character)))
         .map((character) => ({ ...character, variants: [] })),
     }))
     .filter((phase) => phase.characters.length > 0 && phase.characters.every((character) => character.icon));
@@ -1279,11 +1299,14 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
   for (const game of GAMES) {
     const group = groups.get(game);
     const current = chooseCurrent(group, now);
-    const chars = current.phase ? (current.phase.characters.map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts)).filter(Boolean)) : [];
+    const chars = current.phase
+      ? orderBannerCharacters(current.phase.characters
+          .map((entry) => buildCharacter(game, entry, rosters ?? {}, prydwen[game] ?? [], db, debuts))
+          .filter(Boolean)
+          .filter((character) => isHeadlineCharacter(game, character)))
+      : [];
     const selected = current.phase ? selectCharacter(chars) : { selected: null, reason: current.reason ?? 'no-current-phase' };
-    const orderedChars = selected.selected
-      ? [selected.selected, ...chars.filter((character) => character.id !== selected.selected.id)]
-      : chars;
+    const orderedChars = chars;
     const upcoming = buildUpcomingPhases(game, group, rosters, prydwen, db, debuts, now);
     const news = buildNews(game, events?.[game]);
     const healthStatus = group && current.phase && news.length ? 'ok' : group ? 'degraded' : 'missing';

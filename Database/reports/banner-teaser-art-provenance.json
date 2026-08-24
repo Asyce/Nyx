@@ -10,15 +10,7 @@
         "mediaType": "image/png"
       },
       {
-        "name": "Sarkaz Archer",
-        "localPath": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
-        "sourceUrl": "https://img.game8.co/4556703/aad0545c854d09ac00a9b816f70230c0.png/show",
-        "sourceSha256": "8b301e87737de7bee77d0207b15af0f891071e8d5b29ef281de3bb618a23debb",
-        "sourceBytes": 171114,
-        "mediaType": "image/png"
-      },
-      {
-        "name": "Si (Feranmut Proxy)",
+        "name": "Si",
         "localPath": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
         "sourceUrl": "https://img.game8.co/4556216/2c5a1a5333a8fd3ec41795dfa39e175e.png/show",
         "sourceSha256": "fd3eda13a889b82719e4542a2adfeb3bfb8d5b3436e706ddbd8a769c3727ab96",
@@ -86,38 +78,6 @@
         "mediaType": "image/png"
       },
       {
-        "name": "Pantalone",
-        "localPath": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-        "sourceUrl": "https://img.game8.co/3547114/6d53a278cee17b1905053e49f64126f8.png/show",
-        "sourceSha256": "05aa86240a66ec6bd5c097373af92c7531e5db15ce8310d935ed8c472bd8b3e9",
-        "sourceBytes": 22132,
-        "mediaType": "image/png"
-      },
-      {
-        "name": "Pierro",
-        "localPath": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-        "sourceUrl": "https://img.game8.co/3547108/95df31eba5740cf2f9fd04a1bd6fd665.png/show",
-        "sourceSha256": "ead7070e5d899c4cbb95ea612e9f7ef301c38a405c09857a403c753515b84be3",
-        "sourceBytes": 19430,
-        "mediaType": "image/png"
-      },
-      {
-        "name": "Pulcinella",
-        "localPath": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-        "sourceUrl": "https://img.game8.co/3547107/01f4c97b40f61ada48e67064abb2d2ee.png/show",
-        "sourceSha256": "4fc7003735f484a65249863c9c2705f2a8277071ed532f629b7ccc58091a9493",
-        "sourceBytes": 22461,
-        "mediaType": "image/png"
-      },
-      {
-        "name": "Rerir",
-        "localPath": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-        "sourceUrl": "https://img.game8.co/4275048/f8cca0e2d0af4f192067a4deeaf1450e.png/show",
-        "sourceSha256": "e97496825dac0c5a75b2da2087a137429914ca76fcf466a4800dc5a0bb3ded88",
-        "sourceBytes": 23485,
-        "mediaType": "image/png"
-      },
-      {
         "name": "Tsaritsa",
         "localPath": "/assets/banners/genshin/cdefdbb52093ca1327576623c156a77e.png",
         "sourceUrl": "https://img.game8.co/4543364/833b140879211c4968885b1525645c19.png/show",
@@ -160,14 +120,6 @@
         "mediaType": "image/png"
       },
       {
-        "name": "Jingran",
-        "localPath": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
-        "sourceUrl": "https://img.game8.co/4572123/18932eed923cdd845d400e0990924543.png/show",
-        "sourceSha256": "a0e1e743f0d6efa832282a01068b456a50c5893a632732867845f7124b2204e1",
-        "sourceBytes": 288503,
-        "mediaType": "image/png"
-      },
-      {
         "name": "Suoming",
         "localPath": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
         "sourceUrl": "https://img.game8.co/4533350/fb1039862fba37364d660df79f24c38d.png/show",
@@ -178,27 +130,11 @@
     ],
     "zzz": [
       {
-        "name": "Claret",
-        "localPath": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
-        "sourceUrl": "https://img.game8.co/4581362/77f1bcaea6d3de6108e2d242f32f2150.png/show",
-        "sourceSha256": "f66bfa90111ddba48430580e96a4e07933cd497f7ad269dbc3e57c4dc083a562",
-        "sourceBytes": 135715,
-        "mediaType": "image/png"
-      },
-      {
         "name": "Phoenix",
         "localPath": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
         "sourceUrl": "https://img.game8.co/4485334/c963d61f5bc9d92dfa54234fdad01ccf.png/show",
         "sourceSha256": "037940a9eae08de1fe62a8adcb5c1b0ca991887df68c394c7f9dc3ff99fb1068",
         "sourceBytes": 261452,
-        "mediaType": "image/png"
-      },
-      {
-        "name": "Roxy",
-        "localPath": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
-        "sourceUrl": "https://img.game8.co/4581324/9169a4a2d47ca1e8f589aca86b35ece5.png/show",
-        "sourceSha256": "1012e67e8352eb03ae2266095558ca8e84ddb0130f2bbe8d69da5556847fe1b8",
-        "sourceBytes": 123818,
         "mediaType": "image/png"
       },
       {
@@ -219,6 +155,6 @@
       }
     ]
   },
-  "generatedAt": "2026-08-14T04:07:09.224Z",
+  "generatedAt": "2026-08-24T02:51:15.727Z",
   "policy": "Teaser stills are copied to our own origin because the site CSP blocks publisher CDNs. Filenames are the source sha256 prefix."
 }

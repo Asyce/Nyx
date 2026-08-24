@@ -585,7 +585,7 @@ test('production preprocessing admits every trusted active history channel from 
     assert.ok(normalized.games[0].current._sourceChannels.every((entry) => entry.recordId && entry.category));
     const manifest = buildManifest({ banners: normalized, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z', db });
     assert.equal(manifest.games.gi.region, 'europe');
-    assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Beta', 'Alpha', 'Unconfirmed']);
+    assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Beta', 'Unconfirmed', 'Alpha']);
   } finally {
     fs.rmSync(db, { recursive: true, force: true });
   }
@@ -793,7 +793,7 @@ test('selection uses stable identity when debut dates are missing', () => {
     { id: 'a', name: 'Rerun', rarity: 5 },
   ] };
   const manifest = buildManifest({ banners, events, rosters: customRosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
-  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Rerun');
+  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'New');
   assert.equal(manifest.games.zzz.current.selectionReason, 'stable-identity');
 });
 
@@ -851,7 +851,7 @@ test('production snapshot selects the newest splash art and exposes future patch
   });
   assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Sandrone');
   assert.equal(manifest.games.hsr.current.selectedCharacter.name, 'Himeko • Nova');
-  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Norma Hollowell');
+  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Norma');
   assert.equal(manifest.games.wuwa.current.selectedCharacter.name, 'Yangyang: Xuanling');
   assert.equal(manifest.games.ae.current.selectedCharacter.name, 'Arcane');
   assert.ok(manifest.games.hsr.current.selectedCharacter.variants.every((variant) => variant.source === 'splash'));
@@ -862,7 +862,7 @@ test('production snapshot selects the newest splash art and exposes future patch
   }
   assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
   assert.deepEqual(manifest.games.zzz.upcoming, []);
-  assert.deepEqual(manifest.games.wuwa.upcoming[0].characters.map((character) => character.name), ['Suisui', 'Baizhi', 'Mortefi', 'Lumi', 'Aemeath']);
+  assert.deepEqual(manifest.games.wuwa.upcoming[0].characters.map((character) => character.name), ['Suisui', 'Aemeath']);
   assert.deepEqual(manifest.games.ae.upcoming[0].characters.map((character) => character.name), ['Liino', 'Arcane', 'Camille']);
 });
 
@@ -878,33 +878,34 @@ test('production source rolls Genshin from Sandrone to Columbina at the trusted 
   assert.deepEqual(manifest.games.gi.upcoming, []);
 });
 
-test('current Pengo scrape projects every scheduled and announced launcher row', async () => {
-  const productionNow = Date.parse('2026-08-21T12:00:00.000Z');
+test('current Pengo scrape projects headline characters with short names and known patch labels', async () => {
+  const productionNow = Date.parse('2026-08-24T12:00:00.000Z');
   const manifest = buildManifest({
     ...loadManifestInputs({ now: productionNow }),
     now: productionNow,
-    generatedAt: '2026-08-21T12:00:00.000Z',
+    generatedAt: '2026-08-24T12:00:00.000Z',
   });
   const upcomingNames = (game) => manifest.games[game].upcoming.map((phase) => phase.characters.map((character) => character.name));
-  const remielle = manifest.games.zzz.current.characters.find((character) => character.name === 'Remielle Dan');
+  const remielle = manifest.games.zzz.current.characters.find((character) => character.name === 'Remielle');
   assert.match(remielle.icon.path, /IconRoleCircle67\.webp$/);
   assert.notEqual(remielle.icon.sha256, remielle.variants[0].sha256);
   assert.deepEqual(manifest.games.hsr.current.characters.map((character) => character.name), [
-    'Himeko • Nova', 'Moze', 'Hanya', 'Serval', 'Cerydra', 'Anaxa', 'Aventurine',
+    'Himeko • Nova', 'Cerydra', 'Anaxa', 'Aventurine',
   ]);
   assert.equal(manifest.games.hsr.current.phase, '4.4 Phase 2');
   assert.deepEqual(manifest.games.zzz.current.characters.map((character) => character.name), [
-    "Sigrid de L'Azur", 'Dialyn', 'Ukinami Yuzuha', 'Asaba Harumasa', 'Remielle Dan', 'Piper Wheel', 'Seth Lowell',
+    'Sigrid', 'Remielle', 'Dialyn', 'Yuzuha', 'Harumasa',
   ]);
-  const sigrid = manifest.games.zzz.current.characters.find((character) => character.name === "Sigrid de L'Azur");
-  const yuzuha = manifest.games.zzz.current.characters.find((character) => character.name === 'Ukinami Yuzuha');
-  assert.ok(sigrid.variants.every((asset) => Math.max(asset.dimensions.width, asset.dimensions.height) >= 800 && asset.placement.x > 0.5));
+  const sigrid = manifest.games.zzz.current.characters.find((character) => character.name === 'Sigrid');
+  const yuzuha = manifest.games.zzz.current.characters.find((character) => character.name === 'Yuzuha');
+  assert.ok(sigrid.variants.every((asset) => asset.sha256 !== sigrid.icon.sha256 && asset.placement.x > 0.5));
+  assert.ok(Math.max(sigrid.variants[0].dimensions.width, sigrid.variants[0].dimensions.height) >= 1000);
   assert.ok(yuzuha.variants.every((asset) => asset.sha256 !== yuzuha.icon.sha256));
   assert.deepEqual(upcomingNames('gi'), [['Flins', 'Ineffa'], ['Vesna', 'Vodyanitsa']]);
   assert.equal(manifest.games.gi.upcoming[0].phase, '7.0 Phase 2');
   assert.deepEqual(upcomingNames('hsr'), [
-    ['Hyacine', 'Dan Heng', 'Qingque', 'Gallagher', 'Robin • Summeretto'],
-    ['Ashveil', 'Sampo', 'Hook', 'Guinaifen', 'Aventurine • Waveflair'],
+    ['Hyacine', 'Robin • Summeretto'],
+    ['Ashveil', 'Aventurine • Waveflair'],
     ['Pearl'],
     ['Nihilux'],
   ]);
@@ -914,12 +915,12 @@ test('current Pengo scrape projects every scheduled and announced launcher row',
   assert.equal(manifest.games.hsr.upcoming[2].phase, 'Version 4.6');
   assert.equal(manifest.games.hsr.upcoming[3].phase, null);
   assert.deepEqual(upcomingNames('zzz'), [
-    ['Claret Flint', 'Roxy Ifrita Pryce'],
+    ['Claret', 'Roxy'],
     ['Sunbringer', 'Phoenix', 'The Storyteller'],
   ]);
-  assert.deepEqual(upcomingNames('wuwa'), [['Jingran', 'Mornye', 'Hiyuki'], ['Suoming', 'Hsin']]);
-  assert.equal(manifest.games.wuwa.current.phase, '3.6 Phase 1');
-  assert.equal(manifest.games.wuwa.upcoming[0].phase, '3.6 Phase 2');
+  assert.equal(manifest.games.zzz.upcoming[0].phase, '3.2');
+  assert.deepEqual(upcomingNames('wuwa'), [['Jingran', 'Hiyuki', 'Mornye'], ['Suoming', 'Hsin']]);
+  assert.equal(manifest.games.wuwa.current.phase, '3.6');
   assert.deepEqual(manifest.games.ae.current.characters.map((character) => character.name), ['Liino', 'Arcane', 'Camille']);
   assert.equal(manifest.games.ae.current.selectedCharacter.name, 'Liino');
   assert.ok(manifest.games.ae.current.selectedCharacter.variants.some((variant) => /liino/i.test(variant.path)));
@@ -927,14 +928,23 @@ test('current Pengo scrape projects every scheduled and announced launcher row',
   assert.equal(manifest.games.ae.upcoming[0].start, null);
   assert.equal(manifest.games.ae.upcoming[0].end, null);
   assert.deepEqual(manifest.games.ae.upcoming[0].characters.map((character) => character.name), [
-    'Si (Feranmut Proxy)',
+    'Si',
     'Hongshan Imperial Guard',
-    'Sarkaz Archer',
   ]);
   assert.ok(manifest.games.ae.upcoming[0].characters.every((character) =>
     /^\/Site\/assets\/banners\/ae\/[a-f0-9]{32}\.png$/.test(character.icon.path)
     && character.icon.sourceUrl === undefined));
   assert.match(manifest.games.hsr.upcoming[0].characters.find((character) => character.name === 'Robin • Summeretto').icon.path, /(?:robin-summeretto|1512)/);
+  assert.equal(manifest.games.gi.upcoming[1].phase, 'Version 7.1');
+  assert.deepEqual(manifest.games.gi.upcoming[1].characters.map((character) => character.name), ['Vesna', 'Vodyanitsa']);
+  assert.doesNotMatch(JSON.stringify(manifest.games.zzz), /Sigrid de L'Azur|Remielle Dan|Roxy Ifrita Pryce|Claret Flint/);
+  for (const [game, minimum] of Object.entries({ gi: 5, hsr: 5, zzz: 5, wuwa: 5, ae: 6 })) {
+    const characters = [
+      ...manifest.games[game].current.characters,
+      ...manifest.games[game].upcoming.flatMap((phase) => phase.characters),
+    ];
+    assert.ok(characters.every((character) => character.rarity == null || character.rarity >= minimum));
+  }
   for (const game of ['gi', 'hsr', 'zzz', 'wuwa']) {
     assert.ok(manifest.games[game].upcoming.flatMap((phase) => phase.characters).every((character) => /^\/(?:Database|Site\/assets\/banners)\//.test(character.icon?.path ?? '') && character.icon.sourceUrl === undefined));
   }
@@ -942,7 +952,7 @@ test('current Pengo scrape projects every scheduled and announced launcher row',
   const second = buildManifest({
     ...loadManifestInputs({ now: productionNow }),
     now: productionNow + 1000,
-    generatedAt: '2026-08-21T12:00:01.000Z',
+    generatedAt: '2026-08-24T12:00:01.000Z',
   });
   assert.equal(firstRevision, second.revision);
 
@@ -967,12 +977,12 @@ test('Endfield announced art accepts only exact Pengo-owned local splash paths',
   const source = JSON.parse(fs.readFileSync(path.join(ROOT, 'Database', 'Banners', 'banners.json'), 'utf8'));
   const ae = source.games.find((game) => game.id === 'endfield');
   assert.ok(ae);
-  const announcedNow = Date.parse('2026-08-14T12:00:00.000Z');
+  const announcedNow = Date.parse('2026-08-24T12:00:00.000Z');
   const valid = applySourcedBannerWindows(source, path.join(ROOT, 'Database'), announcedNow);
   assert.equal(valid.games.find((game) => game.id === 'endfield')._displayAnnounced.length, 1);
 
   const preserved = structuredClone(source);
-  preserved.games.find((game) => game.id === 'endfield').teaserFreshness = { source: 'game8', lastSuccessfulFetch: '2026-08-01T00:00:00.000Z' };
+  preserved.games.find((game) => game.id === 'endfield').teaserFreshness = { source: 'game8', lastSuccessfulFetch: '2026-08-18T00:00:00.000Z' };
   assert.equal(
     applySourcedBannerWindows(preserved, path.join(ROOT, 'Database'), announcedNow).games.find((game) => game.id === 'endfield')._displayAnnounced.length,
     1,

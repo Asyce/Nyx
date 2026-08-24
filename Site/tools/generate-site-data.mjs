@@ -5497,6 +5497,21 @@ function buildLazyCollections() {
   };
 }
 
+const GENSHIN_FIREARM_ACCESSORY_EFFECTS = {
+  "Shatanaya's Frostsilver: Muzzle": "When using a Normal Attack, gain 1 stack of Skymirror's Sight, which grants a 1% Cryo DMG Bonus and Physical DMG Bonus. This effect lasts 2s. Max 50 stacks. When you have more than 2 Skymirror's Sight stacks, your Normal Attacks will deal Cryo DMG instead.",
+  "Shatanaya's Frostsilver: Ammo Feed": 'Increases initial ammo by 30 and firing speed by 10%. In Breakthrough mode, the maximum number of Rayspear uses is increased by 2.',
+  "Shatanaya's Frostsilver: Gunstock": 'Firearm becomes more stable when fired. Additionally, each Rayspear charge consumed increases Normal Attack DMG by 5% for 10s. Max 2 stacks.',
+  "Shatanaya's Frostsilver: Sight": "Unlocks an advanced aiming mechanism. Additionally, when a Rayspear hits an opponent, it will cause this opponent's Cryo RES and Physical RES to decrease by 30% for 8s.",
+  "Balsag's Sunwheel: Muzzle": 'When aiming, you can tap the Simulated Elemental Skill to fire off rounds of the current Elemental Type. Doing this will also switch the weapon to rounds of the next Elemental Type in this sequence: Pyro > Hydro > Cryo.',
+  "Balsag's Sunwheel: Ammo Feed": 'Reloading speed is greatly increased. The number of rounds loaded at once is increased to 3.',
+  "Balsag's Sunwheel: Gunstock": 'Firearms are more stable when firing. When you perform a slide, you also automatically reload your gun. Additionally, the equipping character gains a 20% Pyro, Hydro, and Cryo DMG Bonus.',
+  "Balsag's Sunwheel: Sight": "When this weapon's attacks hit an opponent, decreases that opponent's DEF by 25% for 8s.",
+  "Ashamez's Thunder: Muzzle": 'Chain Lightning can bounce two more times and can now bounce to previously hit targets.',
+  "Ashamez's Thunder: Ammo Feed": 'Increases initial ammo by 20. In the Lightsear mode, after firing Chain Lightning 12 times, the next 3 Chain Lightning shots will be converted to the more powerful Gathered Storm, dealing 10% ATK as Electro DMG that is considered Stellar-Conduct reaction DMG, and 3% ATK as Electro DMG that is considered Stellar-Conduct reaction upon bouncing to a target.',
+  "Ashamez's Thunder: Gunstock": "When this gun's attacks hit an opponent, there is 33% chance to decrease Simulated Elemental Skill CD by 1 second. This effect can trigger once every 2s. Additionally, if the opponent hit is within a Polestar Field, this will decrease Simulated Elemental Skill CD by an additional 0.25 seconds.",
+  "Ashamez's Thunder: Sight": 'Unlocks an advanced aiming mechanism and gains 25% Electro DMG Bonus, while Electro DMG that is considered Stellar-Conduct DMG is increased by 25%.',
+};
+
 function buildGenshinShadowRealm() {
   const weapons = readJson('GameData/gi/live/weapons.json')
     .filter((item) => item?.name && item.type === 'ITEM_TPS_WEAPON')
@@ -5517,7 +5532,7 @@ function buildGenshinShadowRealm() {
       kind:'item',
       art:dbAsset(item.assets?.icon),
       fields:{ rarity:databaseRarityLabel(item.rarity), type:'Firearm Accessory Blueprint' },
-      text:cleanDatabaseText(item.description),
+      text:cleanDatabaseText(GENSHIN_FIREARM_ACCESSORY_EFFECTS[item.name] || item.description),
     }));
   return { items:[...weapons, ...accessories] };
 }
@@ -6168,7 +6183,7 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
     icon: BANNER_ICON_OVERRIDES[assetKey] || local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || entryImage || beta?.art || null,
+    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || beta?.art || entryImage || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,

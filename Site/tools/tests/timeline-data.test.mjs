@@ -482,6 +482,23 @@ test('the event blurb drops the dates the card already counts down', () => {
   assert.equal(clean(null), '');
 });
 
+test('event details become semantic blocks without losing publisher text', () => {
+  const source = 'Opening paragraph. 〓Event Rules〓 Follow the trail. ● Find the first item. ● Return to camp. ※ Rewards are sent by mail. ✦Bonus Details✦ Claim them before expiry.';
+  const blocks = plain(api.eventDetails(source));
+  assert.deepEqual(blocks, [
+    { type:'paragraph', text:'Opening paragraph.' },
+    { type:'heading', text:'Event Rules' },
+    { type:'paragraph', text:'Follow the trail.' },
+    { type:'list', items:['Find the first item.', 'Return to camp.'] },
+    { type:'note', text:'Rewards are sent by mail.' },
+    { type:'heading', text:'Bonus Details' },
+    { type:'paragraph', text:'Claim them before expiry.' },
+  ]);
+  const renderedText = blocks.flatMap((block) => block.items || [block.text]).join(' ');
+  assert.equal(renderedText, source.replace(/[〓✦●※]/g, ' ').replace(/\s+/g, ' ').trim());
+  assert.deepEqual(plain(api.eventDetails(null)), []);
+});
+
 // 2026-08-09: the card no longer links out to the official notice — that page
 // is being replaced by an API. Clicking it opens the full description instead.
 test('the event card opens its full description and never links out', () => {
@@ -496,7 +513,11 @@ test('the event card opens its full description and never links out', () => {
   assert.match(viewSource, /<dt>Start<\/dt><dd><strong>\{startCountdown\}<\/strong><span>\{nyxTlViewDate\(block\.startMs/);
   assert.match(viewSource, /<dt>End<\/dt><dd><strong>\{endCountdown\}<\/strong>/);
   assert.match(viewSource, /<h3>Event Details<\/h3>/);
-  assert.match(viewSource, /<p>\{block\.description \|\| 'No description was published for this event\.'\}<\/p>/, 'the pop-up keeps the full raw description as React text');
+  assert.match(viewSource, /var details = nyxTlEventDetails\(block\.description\)/);
+  assert.match(viewSource, /part\.type === 'heading'[\s\S]*?<h4[\s\S]*?\{part\.text\}<\/h4>/);
+  assert.match(viewSource, /part\.type === 'list'[\s\S]*?<ul[\s\S]*?<li key=\{bulletIndex\}>\{item\}<\/li>/);
+  assert.match(viewSource, /className=\{part\.type === 'note' \? 'gp-oev-modal-note' : undefined\}/);
+  assert.doesNotMatch(viewSource, /dangerouslySetInnerHTML/);
   assert.match(viewSource, /<h2>\{block\.title\}<\/h2>/, 'row one uses the compact event name');
   assert.match(viewSource, /'--gp-oev-modal-art':block\.image/);
   assert.match(sharedCss, /\.gp-oev-modal-card\{[\s\S]*?background-image:[\s\S]*?var\(--gp-oev-modal-art\)/);

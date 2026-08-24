@@ -2603,16 +2603,18 @@ function CollectionCard({ item, onOpen }){
   );
 }
 
-function CollectionDetailModal({ item, onClose }){
+function CollectionDetailModal({ item, context, onClose }){
   const closeRef = React.useRef(null);
   const cardRef = React.useRef(null);
+  const isShadowRealm = context === 'shadowRealm';
   const kind = String(item.kind || '').toLowerCase();
   const isWeapon = kind === 'weapon' || kind === 'weapons';
-  const hideKind = kind === 'artifact' || isWeapon || kind === 'monster' || kind === 'item';
-  const fields = Object.entries(item.fields || {}).filter(([key, value]) => dbHasValue(value)
+  const hideKind = isShadowRealm || kind === 'artifact' || isWeapon || kind === 'monster' || kind === 'item';
+  const fields = isShadowRealm ? [] : Object.entries(item.fields || {}).filter(([key, value]) => dbHasValue(value)
     && !((kind === 'artifact' || kind === 'item') && (key === 'rarity' || key === 'type'))
     && !(kind === 'monster' && key === 'type'));
-  const skills = Array.isArray(item.skills) ? item.skills.filter((skill) => dbHasValue(skill)) : [];
+  const realWeapon = isWeapon && ['baseAttack', 'subStat', 'weaponEffect'].every((key) => fields.some(([field]) => field === key));
+  const skills = isShadowRealm ? [] : Array.isArray(item.skills) ? item.skills.filter((skill) => dbHasValue(skill)) : [];
 
   React.useEffect(() => {
     const onKeyDown = (event) => {
@@ -2653,9 +2655,9 @@ function CollectionDetailModal({ item, onClose }){
           <h2>{item.name}</h2>
           {item.text && <p className="db-modal-description">{item.text}</p>}
           {fields.length > 0 && (
-            <dl className={'db-modal-fields' + (isWeapon ? ' is-weapon' : '')}>
+            <dl className={'db-modal-fields' + (isWeapon ? ' is-weapon' : '') + (realWeapon ? ' is-real-weapon' : '')}>
               {fields.map(([key, value]) => (
-                <div key={key}><dt>{dbFieldLabel(key)}</dt><dd>{dbFieldValue(value)}</dd></div>
+                <div key={key} className={realWeapon && key === 'weaponEffect' ? 'is-wide' : undefined}><dt>{dbFieldLabel(key)}</dt><dd>{dbFieldValue(value)}</dd></div>
               ))}
             </dl>
           )}
@@ -2699,7 +2701,7 @@ function GenshinShadowRealmView(){
       <DatabaseGroupedList items={visible} showAllRarities groupKey="type"
         renderItem={(item) => <CollectionCard key={item.id} item={item} onOpen={setDetail} />} />
       {visible.length === 0 && <div className="db-empty">No Shadow Realm items match your search.</div>}
-      {detail && <CollectionDetailModal item={detail} onClose={() => setDetail(null)} />}
+      {detail && <CollectionDetailModal item={detail} context="shadowRealm" onClose={() => setDetail(null)} />}
     </div>
   );
 }

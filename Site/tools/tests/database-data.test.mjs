@@ -357,6 +357,10 @@ test('Genshin Items routes duplicate tabs, currencies, Gallery, and Pot from sou
   const tpsWeapons = normalized.filter((row) => row.type === 'Firearm Accessory Blueprint').length
     + readJson('Database/GameData/gi/live/weapons.json').filter((row) => row.type === 'ITEM_TPS_WEAPON').length;
   assert.equal(nyx.shadowRealm.items.length, tpsWeapons);
+  const firearmAccessories = nyx.shadowRealm.items.filter((row) => row.id.startsWith('gi-shadow-item-'));
+  assert.equal(firearmAccessories.every((row) => !/^Blueprint for a firearm accessory/i.test(row.text)), true);
+  assert.equal(firearmAccessories.find((row) => row.name === "Balsag's Sunwheel: Ammo Feed").text,
+    'Reloading speed is greatly increased. The number of rounds loaded at once is increased to 3.');
   assert.equal(nyx.collections.find((row) => row.key === 'weapons').items.some((row) => row.fields?.type === 'ITEM_TPS_WEAPON'), false);
   assert.equal(nyx.gallery.namecards.length, Object.values(raw).filter((row) => row.material_type === 'MATERIAL_NAMECARD').length);
   for (const row of nyx.gallery.namecards) {

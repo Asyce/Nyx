@@ -15,16 +15,6 @@
         "version": 1,
         "blocks": [
           {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
-          },
-          {
             "type": "list",
             "ordered": true,
             "items": [

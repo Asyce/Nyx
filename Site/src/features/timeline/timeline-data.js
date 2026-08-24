@@ -770,6 +770,33 @@ function nyxTlCleanEventText(value){
     .trim();
 }
 
+// Publisher descriptions arrive flattened into one line. Keep every word,
+// but turn their surviving formatting markers into semantic display blocks.
+function nyxTlEventDetails(value){
+  var text = String(value || '').trim();
+  if (!text) return [];
+  var blocks = [], mode = 'paragraph', cursor = 0, match;
+  var markers = /([〓✦])([^〓✦]+)\1|([●※])|\r?\n+/g;
+  function add(type, value){
+    var clean = String(value || '').replace(/\s+/g, ' ').trim();
+    if (!clean) return;
+    if (type === 'bullet') {
+      var last = blocks[blocks.length - 1];
+      if (last && last.type === 'list') last.items.push(clean);
+      else blocks.push({ type:'list', items:[clean] });
+    } else blocks.push({ type:type, text:clean });
+  }
+  while ((match = markers.exec(text))) {
+    add(mode, text.slice(cursor, match.index));
+    if (match[2]) { add('heading', match[2]); mode = 'paragraph'; }
+    else if (match[3]) mode = match[3] === '●' ? 'bullet' : 'note';
+    else mode = 'paragraph';
+    cursor = markers.lastIndex;
+  }
+  add(mode, text.slice(cursor));
+  return blocks;
+}
+
 // Region-aware event block. The events feed publishes windowsByRegion for
 // every officially dated event, so the overview card can show the player's own
 // server times instead of the merge's europe-first top-level start/end. Falls
@@ -1148,6 +1175,7 @@ if (typeof window !== 'undefined') {
     buildEventBlocks: nyxTlBuildEventBlocks,
     eventDisplayTitle: nyxTlEventDisplayTitle,
     cleanEventText: nyxTlCleanEventText,
+    eventDetails: nyxTlEventDetails,
     eventBlockForRegion: nyxTlEventBlockForRegion,
     currentEvents: nyxTlCurrentEvents,
     splitEventBlocks: nyxTlSplitEventBlocks,

@@ -109,13 +109,27 @@ test('Database search rows sit below tabs, stay compact, and align left in every
   assert.doesNotMatch(sharedCss, /min-width:min\(440px,100%\)/);
 });
 
-test('shared collection details hide redundant metadata and list weapon facts in one column', () => {
+test('shared collection details hide redundant metadata and lay out complete real-weapon facts', () => {
   const modal = appSource.slice(appSource.indexOf('function CollectionDetailModal'), appSource.indexOf('function GenshinShadowRealmView'));
-  assert.match(modal, /const hideKind = kind === 'artifact' \|\| isWeapon \|\| kind === 'monster' \|\| kind === 'item'/);
+  assert.match(modal, /const hideKind = isShadowRealm \|\| kind === 'artifact' \|\| isWeapon \|\| kind === 'monster' \|\| kind === 'item'/);
   assert.match(modal, /\(kind === 'artifact' \|\| kind === 'item'\) && \(key === 'rarity' \|\| key === 'type'\)/);
   assert.match(modal, /kind === 'monster' && key === 'type'/);
-  assert.match(modal, /className=\{'db-modal-fields' \+ \(isWeapon \? ' is-weapon' : ''\)\}/);
+  assert.match(modal, /\['baseAttack', 'subStat', 'weaponEffect'\]\.every/);
+  assert.match(modal, /className=\{'db-modal-fields' \+ \(isWeapon \? ' is-weapon' : ''\) \+ \(realWeapon \? ' is-real-weapon' : ''\)\}/);
   assert.match(sharedCss, /\.db-modal-fields\.is-weapon\{ grid-template-columns:minmax\(0, 1fr\); \}/);
+  assert.match(sharedCss, /\.db-modal-fields\.is-real-weapon\{ grid-template-columns:repeat\(2, minmax\(0, 1fr\)\); \}/);
+  assert.match(modal, /className=\{realWeapon && key === 'weaponEffect' \? 'is-wide' : undefined\}/);
+  assert.match(sharedCss, /\.db-modal-fields\.is-real-weapon \.is-wide\{ grid-column:1\/-1; \}/);
+  assert.match(sharedCss, /@media \(max-width: 820px\)\{[\s\S]*?\.db-modal-fields\.is-real-weapon\{\s*grid-template-columns:1fr;/);
+});
+
+test('Shadow Realm context omits every metadata and skill box, including for weapons', () => {
+  const modal = appSource.slice(appSource.indexOf('function CollectionDetailModal'), appSource.indexOf('function GenshinShadowRealmView'));
+  const shadow = appSource.slice(appSource.indexOf('function GenshinShadowRealmView'), appSource.indexOf('const GALLERY_TABS'));
+  assert.match(modal, /const isShadowRealm = context === 'shadowRealm'/);
+  assert.match(modal, /const fields = isShadowRealm \? \[\] : Object\.entries/);
+  assert.match(modal, /const skills = isShadowRealm \? \[\] : Array\.isArray/);
+  assert.match(shadow, /<CollectionDetailModal item=\{detail\} context="shadowRealm"/);
 });
 
 test('TCG facts and ordinary actions use compact flat shared chrome', () => {

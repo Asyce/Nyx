@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-24T20:10:00.451Z",
+  "generatedAt": "2026-08-24T20:35:14.689Z",
   "codes": {
     "updated": "2026-08-21T15:24:44.733Z",
     "maxAgeDays": 28,
@@ -951,7 +951,7 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -965,7 +965,7 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -6580,7 +6580,7 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -6594,7 +6594,7 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -161236,7 +161236,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When using a Normal Attack, gain 1 stack of Skymirror's Sight, which grants a 1% Cryo DMG Bonus and Physical DMG Bonus. This effect lasts 2s. Max 50 stacks. When you have more than 2 Skymirror's Sight stacks, your Normal Attacks will deal Cryo DMG instead."
           },
           {
             "id": "gi-shadow-item-223112",
@@ -161247,7 +161247,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Increases initial ammo by 30 and firing speed by 10%. In Breakthrough mode, the maximum number of Rayspear uses is increased by 2."
           },
           {
             "id": "gi-shadow-item-223113",
@@ -161258,7 +161258,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Firearm becomes more stable when fired. Additionally, each Rayspear charge consumed increases Normal Attack DMG by 5% for 10s. Max 2 stacks."
           },
           {
             "id": "gi-shadow-item-223114",
@@ -161269,7 +161269,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Unlocks an advanced aiming mechanism. Additionally, when a Rayspear hits an opponent, it will cause this opponent's Cryo RES and Physical RES to decrease by 30% for 8s."
           },
           {
             "id": "gi-shadow-item-223121",
@@ -161280,7 +161280,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When aiming, you can tap the Simulated Elemental Skill to fire off rounds of the current Elemental Type. Doing this will also switch the weapon to rounds of the next Elemental Type in this sequence: Pyro > Hydro > Cryo."
           },
           {
             "id": "gi-shadow-item-223122",
@@ -161291,7 +161291,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Reloading speed is greatly increased. The number of rounds loaded at once is increased to 3."
           },
           {
             "id": "gi-shadow-item-223123",
@@ -161302,7 +161302,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Firearms are more stable when firing. When you perform a slide, you also automatically reload your gun. Additionally, the equipping character gains a 20% Pyro, Hydro, and Cryo DMG Bonus."
           },
           {
             "id": "gi-shadow-item-223124",
@@ -161313,7 +161313,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When this weapon's attacks hit an opponent, decreases that opponent's DEF by 25% for 8s."
           },
           {
             "id": "gi-shadow-item-223131",
@@ -161324,7 +161324,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Chain Lightning can bounce two more times and can now bounce to previously hit targets."
           },
           {
             "id": "gi-shadow-item-223132",
@@ -161335,7 +161335,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Increases initial ammo by 20. In the Lightsear mode, after firing Chain Lightning 12 times, the next 3 Chain Lightning shots will be converted to the more powerful Gathered Storm, dealing 10% ATK as Electro DMG that is considered Stellar-Conduct reaction DMG, and 3% ATK as Electro DMG that is considered Stellar-Conduct reaction upon bouncing to a target."
           },
           {
             "id": "gi-shadow-item-223133",
@@ -161346,7 +161346,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When this gun's attacks hit an opponent, there is 33% chance to decrease Simulated Elemental Skill CD by 1 second. This effect can trigger once every 2s. Additionally, if the opponent hit is within a Polestar Field, this will decrease Simulated Elemental Skill CD by an additional 0.25 seconds."
           },
           {
             "id": "gi-shadow-item-223134",
@@ -161357,7 +161357,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Unlocks an advanced aiming mechanism and gains 25% Electro DMG Bonus, while Electro DMG that is considered Stellar-Conduct DMG is increased by 25%."
           }
         ]
       },

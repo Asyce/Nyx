@@ -241,16 +241,6 @@
             "children": [
               {
                 "type": "strong",
-                "children": []
-              }
-            ],
-            "id": "p-882a20e6379eb83a"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "strong",
                 "children": [
                   {
                     "type": "text",
@@ -350,16 +340,6 @@
               }
             ],
             "id": "p-73d219d209031f29"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

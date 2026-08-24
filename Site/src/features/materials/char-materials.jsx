@@ -3658,7 +3658,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
             <div className="cm-tbtns">
               <button type="button" className={'cm-tool' + (showFilt || Object.keys(filt).length ? ' on' : '')}
                       title="Filter" onClick={() => { setHideMenu(false); setShowFilt(s => !s); }}><span className="i-filter"></span></button>
-              <button type="button" className={'cm-tool' + (hideMenu || hideMode ? ' on warn' : '')}
+              <button type="button" className={'cm-tool cm-hide-tool' + (hideMenu || hideMode ? ' on' : '')}
                       title="Hidden character options" onClick={() => { setShowFilt(false); setHideMenu(s => !s); }}>
                 <span className="i-eyeoff"></span>{hiddenCount > 0 && <span className="cm-tool-badge">{hiddenCount}</span>}
               </button>

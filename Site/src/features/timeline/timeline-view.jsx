@@ -561,6 +561,7 @@ function EventDetailDialog({ block, timePreference, game, now, onClose }){
     : block.endMs > now
       ? 'Ends in ' + nyxTlCountdownLabel(block.endMs - now)
       : 'Ended ' + nyxTlCountdownLabel(now - block.endMs) + ' ago';
+  var details = nyxTlEventDetails(block.description);
   return ReactDOM.createPortal(
     <div className="gp-oev-modal" role="presentation" onMouseDown={function(e){ if (e.target === e.currentTarget) onClose(); }}>
       <div className="gp-oev-modal-card" ref={cardRef} role="dialog" aria-modal="true" aria-label={block.title}
@@ -575,7 +576,11 @@ function EventDetailDialog({ block, timePreference, game, now, onClose }){
         </dl>
         <section className="gp-oev-modal-body">
           <h3>Event Details</h3>
-          <p>{block.description || 'No description was published for this event.'}</p>
+          {details.length ? details.map(function(part, index){
+            if (part.type === 'heading') return <h4 key={'detail-' + index}>{part.text}</h4>;
+            if (part.type === 'list') return <ul key={'detail-' + index}>{part.items.map(function(item, bulletIndex){ return <li key={bulletIndex}>{item}</li>; })}</ul>;
+            return <p key={'detail-' + index} className={part.type === 'note' ? 'gp-oev-modal-note' : undefined}>{part.text}</p>;
+          }) : <p>No description was published for this event.</p>}
         </section>
       </div>
     </div>,

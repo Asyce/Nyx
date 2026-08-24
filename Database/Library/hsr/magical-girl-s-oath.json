@@ -426,11 +426,6 @@
           },
           {
             "type": "paragraph",
-            "children": [],
-            "id": "p-882a20e6379eb83a"
-          },
-          {
-            "type": "paragraph",
             "children": [
               {
                 "type": "text",
@@ -468,16 +463,6 @@
               }
             ],
             "id": "p-b29fd7ce22a48a91"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

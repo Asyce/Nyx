@@ -1115,11 +1115,15 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
 .gp-oev-modal-countdowns span{ margin-top:var(--nyx-space-4); color:var(--nyx-compat-color-hex-ded8f5); font-size:var(--nyx-type-small); }
 .gp-oev-modal-body{ padding-top:var(--nyx-space-16); border-top:1px solid var(--nyx-compat-color-79f2e0da8494); }
 .gp-oev-modal-body h3{ margin:0 0 var(--nyx-space-10); color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-lead); font-weight:var(--nyx-weight-regular); }
+.gp-oev-modal-body h4{ margin:var(--nyx-space-16) 0 var(--nyx-space-8); color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-body); font-weight:var(--nyx-weight-semibold); }
 .gp-oev-modal-body p{
   margin:0 0 var(--nyx-space-12);
   color:var(--nyx-compat-color-hex-ded8f5);
   font-size:var(--nyx-type-body); line-height:1.55; overflow-wrap:anywhere; white-space:pre-wrap;
 }
+.gp-oev-modal-body ul{ margin:0 0 var(--nyx-space-12); padding-left:var(--nyx-space-20); color:var(--nyx-compat-color-hex-ded8f5); font-size:var(--nyx-type-body); line-height:1.55; }
+.gp-oev-modal-body li + li{ margin-top:var(--nyx-space-6); }
+.gp-oev-modal-body .gp-oev-modal-note{ padding-left:var(--nyx-space-10); border-left:2px solid var(--nyx-color-accent); color:var(--nyx-color-text-soft); }
 .gp-oev-modal-body p:last-child{ margin-bottom:0; }
 @media (max-width:560px){ .gp-oev-modal-countdowns{ grid-template-columns:1fr; } }
 .gp-oban-empty{
@@ -5419,6 +5423,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-modal-description{ margin:var(--nyx-space-14) 0 0; color:var(--nyx-compat-color-hex-e1daf8); font-size:var(--nyx-type-body); line-height:1.55; white-space:pre-wrap; overflow-wrap:anywhere; }
 .db-modal-fields{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:var(--nyx-space-8); margin:var(--nyx-space-18) 0 0; }
 .db-modal-fields.is-weapon{ grid-template-columns:minmax(0, 1fr); }
+.db-modal-fields.is-real-weapon{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+.db-modal-fields.is-real-weapon .is-wide{ grid-column:1/-1; }
 .db-modal-fields div{ min-width:0; padding:var(--nyx-space-10) var(--nyx-space-12); border-radius:var(--nyx-compat-radius-9px); background:var(--nyx-compat-color-0557dea73665);
   box-shadow:var(--nyx-compat-shadow-box-566d2ebc31c8); }
 .db-modal-fields dt{ color:var(--nyx-compat-color-hex-9f95ca); font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-black); letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
@@ -6781,10 +6787,10 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   transition:color .2s, box-shadow .2s, background .2s; }
 .cm-tool:hover{ color:var(--nyx-color-text-max); box-shadow:var(--nyx-compat-shadow-box-2f69a871c254); }
 .cm-tool.on{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-3db4de94bbbc); box-shadow:var(--nyx-compat-shadow-box-50379f5f18a4); }
-.cm-tool.warn.on{ box-shadow:var(--nyx-compat-shadow-box-b6386996f3cd); }
+.cm-hide-tool.on{ color:var(--nyx-color-text-max); background-color:var(--nyx-color-accent); background-image:none; box-shadow:none; }
 .cm-tool-badge{ position:absolute; right:-5px; top:-6px; min-width:18px; height:18px; padding:0 var(--nyx-compat-spacing-5px); border-radius:var(--nyx-radius-pill);
-  display:grid; place-items:center; font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); line-height:1; color:var(--nyx-compat-color-hex-160712);
-  background:linear-gradient(160deg,var(--nyx-compat-color-hex-ff9db4),var(--nyx-compat-color-hex-dd0044)); box-shadow:var(--nyx-compat-shadow-box-3a446408a7ce); }
+  display:grid; place-items:center; font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); line-height:1; color:var(--nyx-color-text-max);
+  background:var(--nyx-color-accent); box-shadow:none; }
 .i-filter{ width:15px; height:12px; background:currentColor; clip-path:polygon(0% 0%,100% 0%,62% 42%,62% 100%,38% 78%,38% 42%); }
 .i-eye{ position:relative; width:18px; height:11px; }
 .i-eye::before{ content:""; position:absolute; inset:0; border:1.6px solid currentColor; border-radius:50%; }
@@ -7246,6 +7252,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   }
   .db-modal-fields{
     grid-template-columns:1fr;
+  }
+  .db-modal-fields.is-real-weapon{
+    grid-template-columns:1fr;
+  }
+  .db-modal-fields.is-real-weapon .is-wide{
+    grid-column:auto;
   }
 }
 

@@ -485,8 +485,12 @@ test('the five-column model matches each requested game roadmap', () => {
 test('banner art overrides survive automatic data regeneration', () => {
   const pearl = banners.hsr?.roadmap?.find((row) => row.name === 'Pearl');
   const qingxiao = phases(banners.wuwa).flatMap((phase) => phase.characters || []).find((row) => row.name === 'Qingxiao');
+  const vesna = banners.gi?.roadmap?.find((row) => row.name === 'Vesna');
+  const vodyanitsa = banners.gi?.roadmap?.find((row) => row.name === 'Vodyanitsa');
   assert.equal(pearl?.art, '/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png');
   assert.equal(qingxiao?.icon, '/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png');
+  assert.equal(vesna?.art, '../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp');
+  assert.equal(vodyanitsa?.art, '../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp');
 });
 
 test('story NPCs never reach Announced, and the copium pair is pinned separately', () => {

@@ -16,11 +16,6 @@
         "blocks": [
           {
             "type": "paragraph",
-            "children": [],
-            "id": "p-882a20e6379eb83a"
-          },
-          {
-            "type": "paragraph",
             "children": [
               {
                 "type": "text",
@@ -101,20 +96,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b8198f6af022e644"
+            "id": "p-c25a396e81353309"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Why do the tombs call forth such sorrowful plight?"
+                "text": "Why do the tombs call forth such sorrowful plight?"
               },
               {
                 "type": "br"
@@ -198,20 +189,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-a4820a4ec1764652"
+            "id": "p-03a1f58a12f69a47"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Have you beheld a dream more bright than gold?"
+                "text": "Have you beheld a dream more bright than gold?"
               },
               {
                 "type": "br"
@@ -274,21 +261,13 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-ea19f6cfa4729025"
+            "id": "p-48bd049962cda245"
           },
           {
             "type": "paragraph",
             "children": [
-              {
-                "type": "text",
-                "text": "-->"
-              },
               {
                 "type": "br"
               },
@@ -357,20 +336,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-bf44782f974e737b"
+            "id": "p-6ba7ad5a1979c4aa"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->The biting gale blew with fervor, whilst the calamity was cast into the blackened light."
+                "text": "The biting gale blew with fervor, whilst the calamity was cast into the blackened light."
               },
               {
                 "type": "br"
@@ -405,20 +380,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-969d8afa1bcb9ac5"
+            "id": "p-f297f7cdf2bc75e0"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->A generation akin to thunder's roar,"
+                "text": "A generation akin to thunder's roar,"
               },
               {
                 "type": "br"
@@ -453,40 +424,32 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-926709d0d134744b"
+            "id": "p-b1e62fcfe659a786"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->..."
+                "text": "..."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-a1fcc2bb2b30fe1e"
+            "id": "p-d00f6679058df6eb"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->— Sergei Semyonovich Mayakov —"
+                "text": "— Sergei Semyonovich Mayakov —"
               },
               {
                 "type": "br"
@@ -528,20 +491,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-c65913a222948d95"
+            "id": "p-1c1f7ab485ed0ffa"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->The voice in the mist spoke to him thus:"
+                "text": "The voice in the mist spoke to him thus:"
               },
               {
                 "type": "br"
@@ -674,20 +633,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b92541d63047e332"
+            "id": "p-b868dbbdadb18182"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->He faced the ocean, shadowed by his gloom,"
+                "text": "He faced the ocean, shadowed by his gloom,"
               },
               {
                 "type": "br"
@@ -698,13 +653,9 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-841dae881a664170"
+            "id": "p-a60347f900042cc1"
           }
         ]
       }

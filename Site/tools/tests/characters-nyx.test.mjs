@@ -11,6 +11,7 @@ const plain = (value) => JSON.parse(JSON.stringify(value));
 
 test('side-nav emblem, shared search, and Hidden Characters menu keep their focused behavior', async () => {
   const css = await read('src/styles/game-page-shared.css');
+  const materials = await read('src/features/materials/char-materials.jsx');
   assert.match(css, /\.gp-side-nav \.gp-fn-row:not\(\.on\):hover \.dia\{[\s\S]*?opacity:1;/);
   assert.match(css, /\.gp-side-nav \.gp-fn-row\.on \.dia\{ opacity:0; filter:none; \}/);
   assert.match(css, /\.gp-fn-row:focus-visible\{ outline:2px solid/);
@@ -23,6 +24,14 @@ test('side-nav emblem, shared search, and Hidden Characters menu keep their focu
   assert.doesNotMatch(css, /\.cm-hide-menu button\.clear,\.cm-unfav-actions/);
   assert.match(css, /:is\(\.gp-search,\.cm-search,\.library-search\):focus-within\{[\s\S]*?box-shadow:none;/);
   assert.match(css, /\.gp :is\(\.gp-search,\.cm-search,\.library-search\) input:focus-visible,[\s\S]*?outline:0;/);
+  assert.match(materials, /className=\{'cm-tool cm-hide-tool' \+ \(hideMenu \|\| hideMode \? ' on' : ''\)\}/);
+  assert.doesNotMatch(materials, /on warn/);
+  assert.doesNotMatch(css, /\.cm-tool\.warn\.on/);
+  assert.match(css, /\.cm-hide-tool\.on\{[^}]*background-color:var\(--nyx-color-accent\);[^}]*background-image:none;[^}]*box-shadow:none;/);
+  const badge = css.match(/\.cm-tool-badge\{[^}]*\}/)?.[0] || '';
+  assert.match(badge, /background:var\(--nyx-color-accent\);/);
+  assert.match(badge, /box-shadow:none;/);
+  assert.doesNotMatch(badge, /gradient|#dd0044|#ff9db4/i);
 });
 
 async function loadMaterialsShareCard(){

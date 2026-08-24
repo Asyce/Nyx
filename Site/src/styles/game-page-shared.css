@@ -1564,9 +1564,11 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   height:62px; width:auto; z-index:1; opacity:1; pointer-events:none;
   filter:drop-shadow(0 4px 14px rgba(0,0,0,.6)); transition:transform .3s; }
 .gp-topbar .tb-brand:hover .brand-pengo{ transform:translate(18%,-50%) scaleX(-1) scale(1.05); }
-/* The living eye left the top bar 2026-08-09 and now sits in the bottom-left
-   corner, directly above the Ko-fi badge. Decoration only. */
-.gp-nav-eye{ display:flex; justify-content:center; pointer-events:none; }
+/* The living-eye shimeji control sits directly above the Ko-fi badge. */
+.gp-nav-eye{ appearance:none; display:flex; justify-content:center; width:64px; height:64px; border:0; border-radius:50%; padding:0;
+  color:inherit; background:transparent; cursor:pointer; pointer-events:auto; transition:background .18s ease, box-shadow .18s ease; }
+.gp-nav-eye:hover{ background:var(--nyx-compat-color-acca2f28522d); box-shadow:var(--nyx-compat-shadow-box-ed8239814032); }
+.gp-nav-eye:focus-visible{ outline:2px solid var(--nyx-color-text-max); outline-offset:3px; box-shadow:0 0 14px rgba(183,170,255,.55); }
 .gp-nav-eye .tb-eye{ position:relative; width:64px; height:64px; flex:none;
   filter:var(--nyx-compat-shadow-drop-8f46e6767a0d) var(--nyx-compat-shadow-drop-83ef4fb15a2c); transition:filter .35s; }
 /* The word is the only clickable part of the brand (user 2026-08-09). */

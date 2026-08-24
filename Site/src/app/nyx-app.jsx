@@ -3599,10 +3599,8 @@ function GenshinPotView(){
 // of the launcher work and is not bundled yet. Until it is, fall back to the
 // two games that already shipped a tracker — without this the tab silently
 // disappears and /<game>/achievements stops routing.
-/* The living eye, moved out of the top bar and parked under Settings at the
-   foot of the side nav (user 2026-08-09). Decoration only — the Pengo wordmark
-   in the top bar keeps the back-to-Worlds link. Owns its own wander timer so it
-   survives switching between the hub and a game page. */
+/* The living eye opens the Pengo shimeji controls. It owns its wander timer so
+   the animation survives switching between the hub and a game page. */
 function NyxNavEye(){
   const ballRef = React.useRef(null);
   React.useEffect(() => {
@@ -3618,13 +3616,15 @@ function NyxNavEye(){
     return () => clearTimeout(tm);
   }, []);
   return (
-    <div className="gp-nav-eye" aria-hidden="true">
-      <span className="tb-eye">
+    <button type="button" id="nyx-shimeji-toggle" className="gp-nav-eye"
+            aria-label="Open Magnum Opus Pengonis" aria-haspopup="dialog"
+            aria-controls="nyx-shimeji-menu" aria-expanded="false">
+      <span className="tb-eye" aria-hidden="true">
         <span className="elayer ball" ref={ballRef}></span>
         <span className="elayer lid"></span>
         <span className="elayer drips"></span>
       </span>
-    </div>
+    </button>
   );
 }
 
@@ -4459,17 +4459,7 @@ const NYX_PENGO_DEFAULTS = {
   language: NYX_LANGUAGE_DEFAULTS,
   specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
   alwaysBeta: false,
-  lapis: false,
-  energy: 35,
-  spawn: 1,
-  sacrifice: 1,
 };
-
-function clampPengoNumber(value, min, max){
-  const n = parseInt(value, 10);
-  if (!isFinite(n)) return min;
-  return Math.max(min, Math.min(max, n));
-}
 
 function sanitizeNyxIdentity(raw){
   const src = (raw && typeof raw === 'object') ? raw : {};
@@ -4512,9 +4502,6 @@ function loadPengoSettings(){
       language: sanitizeNyxLanguage(raw.language),
       specialUnits: sanitizeSpecialUnits(raw.specialUnits),
       alwaysBeta: raw.alwaysBeta === true,
-      energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
-      spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
-      sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
     });
   } catch (e) {
     return Object.assign({}, NYX_PENGO_DEFAULTS);
@@ -4704,12 +4691,6 @@ function PengoMenu({ settings, setSettings, inline }){
   const language = sanitizeNyxLanguage(settings.language);
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
   const setLanguage = (gameKey, value) => update({ language:Object.assign({}, language, { [gameKey]:value }) });
-  const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
-  const setOpusCount = (value) => {
-    const next = clampPengoNumber(value, 0, 9999);
-    update({ spawn:next, sacrifice:next });
-  };
-  const bumpOpusCount = (delta) => setOpusCount(opusCount + delta);
   const toggleDisplayGame = (key) => update({
     displayGames:Object.assign({}, displayGames, { [key]:displayGames[key] === false }),
   });
@@ -4747,12 +4728,6 @@ function PengoMenu({ settings, setSettings, inline }){
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
     alwaysBeta: NYX_PENGO_DEFAULTS.alwaysBeta,
   });
-  const resetOpus = () => update({
-    lapis: NYX_PENGO_DEFAULTS.lapis,
-    energy: NYX_PENGO_DEFAULTS.energy,
-    spawn: NYX_PENGO_DEFAULTS.spawn,
-    sacrifice: NYX_PENGO_DEFAULTS.sacrifice,
-  });
   const resetGame = (gameKey, groupKey, specials) => update({
     displayGames:Object.assign({}, displayGames, { [gameKey]:NYX_PENGO_DISPLAY_DEFAULTS[gameKey] }),
     gameIcons:Object.fromEntries(Object.entries(gameIcons).filter(([key]) => key !== gameKey)),
@@ -4779,33 +4754,6 @@ function PengoMenu({ settings, setSettings, inline }){
          aria-label="Pengo settings"
          onClick={(e) => e.stopPropagation()}>
       <div className="settings-nyx-col">
-        <section className="pm-section pm-opus">
-          <h3>Magnum Opus Pengonis</h3>
-          <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
-                  onClick={() => update({ lapis:!settings.lapis })}>
-            <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
-          </button>
-          <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
-            <span>Energy</span>
-            <input type="range" min="1" max="69" value={settings.energy}
-                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
-            <input type="number" min="1" max="69" inputMode="numeric" value={settings.energy}
-                   aria-label="Energy value"
-                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })}
-                   onFocus={(e) => e.target.select()} />
-          </label>
-          <div className="pm-opus-actions">
-            <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
-            <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
-            <div className="pm-stepper" aria-label="Pengo count">
-              <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
-              <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
-                     aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
-              <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
-            </div>
-          </div>
-          <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={() => askReset('Magnum Opus Pengonis', resetOpus)}>Reset</button>
-        </section>
         <section className="pm-section pm-interface">
           <h3>Interface</h3>
           <button type="button" className={'pm-row media ' + settings.animation}

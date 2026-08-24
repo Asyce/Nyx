@@ -1,0 +1,163 @@
+
+@font-face{font-family:"GI";src:url(@@FONT_GI@@) format("woff2");font-display:swap}
+@font-face{font-family:"HSRui";src:url(@@FONT_HSR@@) format("woff2");font-display:swap}
+*{box-sizing:border-box}
+body{margin:0;padding:26px;background:#05040b;display:inline-block;
+  font-family:"HSRui",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45;color:#f3f0ff}
+
+/* Nyx panel: 2px metallic rim showing through the body, plain rounded corners. */
+.panel{position:relative;width:max-content;padding:2px;border-radius:15px;
+  box-shadow:0 22px 58px rgba(0,0,0,.55),0 0 22px rgba(139,123,255,.14)}
+.rim{position:absolute;inset:0;border-radius:15px;
+  background:linear-gradient(158deg,rgba(202,191,255,.85) 0%,rgba(106,90,200,.7) 30%,
+                             rgba(43,34,92,.8) 64%,rgba(140,122,235,.8) 100%)}
+.body{position:relative;display:flex;flex-direction:column;overflow:hidden;
+  border-radius:13px;background:linear-gradient(180deg,rgba(27,20,58,.99),rgba(10,7,24,.99))}
+.top{position:relative;display:grid;grid-template-columns:auto 1fr}
+.ambient{position:absolute;inset:-26% -14% auto auto;width:52%;height:66%;pointer-events:none;
+  z-index:0;background:radial-gradient(circle,color-mix(in oklab,var(--el) 30%,transparent),
+  transparent 66%);filter:blur(4px);opacity:.7}
+
+/* splash runs past the panel edge; its darkening lives inside the masked layer
+   so neither the art nor the scrim can leave a vertical seam */
+.bleed{position:absolute;left:0;top:0;bottom:0;width:330px;z-index:0;
+  background-size:cover;background-position:50% 26%;
+  -webkit-mask:linear-gradient(90deg,#000 0,#000 186px,transparent 330px);
+  mask:linear-gradient(90deg,#000 0,#000 186px,transparent 330px)}
+.bleed::after{content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(12,9,34,0) 52%,rgba(12,9,34,.55) 78%,rgba(12,9,34,.88) 100%),
+             linear-gradient(90deg,rgba(12,9,34,.38),rgba(12,9,34,0) 42%)}
+.hero{position:relative;z-index:2;width:214px}
+.hero-txt{position:absolute;left:0;right:0;bottom:0;z-index:2;display:flex;flex-direction:column;
+  align-items:center;gap:5px;padding:0 10px 13px}
+.hero-txt b{font-family:"GI",serif;font-weight:400;font-size:32px;line-height:1;
+  text-shadow:0 2px 10px rgba(0,0,0,.9)}
+.meta{display:flex;align-items:center;gap:5px}
+.chip{width:17px;height:17px;display:inline-flex}
+.chip img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 1px 3px rgba(0,0,0,.9))}
+.lv{font-family:"GI",serif;font-size:12px;color:#cfc6f5;text-shadow:0 1px 4px rgba(0,0,0,.9)}
+
+.side{position:relative;z-index:2;display:flex;align-items:center;padding:14px 20px 15px}
+.mats{display:grid;grid-template-columns:repeat(var(--cols,5),@@TILE@@px);
+  grid-template-rows:auto auto auto;gap:3px 10px;align-items:end}
+
+/* ---------- row 1: where each material comes from ---------- */
+.hd{justify-self:center;align-self:end}
+/* a portrait with its name beneath, for games whose enemy art is unreadable
+   at this size */
+.bosswrap{display:flex;flex-direction:column;align-items:center;gap:4px}
+.bosswrap .boss{flex:none}
+.bosswrap .sites{display:flex;flex-direction:column;align-items:center}
+.boss{position:relative;width:@@BOSS@@px;height:@@BOSS@@px;border-radius:50%;overflow:hidden;
+  background:#191333;box-shadow:0 0 0 2px #0c0922,0 0 0 3px rgba(183,170,255,.5),
+  0 4px 10px rgba(0,0,0,.65)}
+.boss img{width:100%;height:100%;object-fit:cover;display:block}
+.boss::after{content:"";position:absolute;left:50%;bottom:-8px;width:2px;height:8px;
+  transform:translateX(-50%);background:linear-gradient(rgba(183,170,255,.65),rgba(183,170,255,0))}
+/* four drop sources at a quarter of the area, so the block matches one portrait */
+.cluster{position:relative;display:grid;gap:3px;width:@@CLUSTER@@px}
+.cm{aspect-ratio:1;border-radius:50%;overflow:hidden;background:#191333;
+  box-shadow:0 0 0 1.5px #0c0922,0 0 0 2.5px rgba(183,170,255,.42)}
+.cm img{width:100%;height:100%;object-fit:cover;display:block}
+/* seventh and eighth sources sit in the gaps between the six */
+.cx{position:absolute;width:21px;height:21px;border-radius:50%;overflow:hidden;background:#191333;
+  transform:translate(-50%,-50%);z-index:3;
+  box-shadow:0 0 0 2px #0c0922,0 0 0 3px rgba(183,170,255,.45),0 2px 5px rgba(0,0,0,.6)}
+.cx img{width:100%;height:100%;object-fit:cover;display:block}
+.cx1{left:32.75%;top:50%}
+.cx2{left:67.25%;top:50%}
+/* gather sites, each line scaled to span the tile */
+.sites{display:flex;flex-direction:column;align-items:center;gap:3px;width:@@TILE@@px;
+  padding-bottom:0}
+.sites .site{display:block;overflow:visible}
+.sites text{font-family:"HSRui",system-ui,sans-serif;fill:#fff;
+  paint-order:stroke;stroke:rgba(0,0,0,.55);stroke-width:1.6px;stroke-linejoin:round}
+/* talent targets */
+.bar{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:2px}
+.sks{display:flex;align-items:center;gap:9px;margin-bottom:1px}
+.sk{display:grid;place-items:center}
+.sk img{width:23px;height:23px;object-fit:contain;filter:drop-shadow(0 1px 3px rgba(0,0,0,.75))}
+.k{font-family:"GI",serif;display:block;overflow:visible}
+.k text{font-family:"GI",serif}
+.k.hi text{fill:#fff}
+.k.lo text{fill:#8d82bd}
+
+/* ---------- material cells ---------- */
+.cell{display:flex;flex-direction:column;align-items:center;gap:6px}
+.tile{position:relative;display:block;width:@@TILE@@px;height:@@TILE@@px;border-radius:9px;
+  border:2px solid var(--line);background:linear-gradient(180deg,var(--top),var(--mid) 52%,var(--bot))}
+.tile::before{content:"";position:absolute;inset:3px;border-radius:6px;
+  border:1px solid rgba(255,255,255,.30);pointer-events:none}
+.tile > img{position:absolute;inset:7px;width:calc(100% - 14px);height:calc(100% - 14px);
+  object-fit:contain;z-index:3;filter:drop-shadow(0 2px 4px rgba(0,0,0,.45))}
+/* the same two layers .cm-item-frame uses: rarity glow, then the Nyx eye */
+.tile .glow{position:absolute;left:50%;top:46%;width:98%;height:98%;border-radius:50%;
+  transform:translate(-50%,-50%);background:var(--glow);filter:blur(4px);z-index:1}
+.tile .eye{position:absolute;left:50%;top:50%;width:88%;height:88%;transform:translate(-50%,-50%);
+  opacity:.22;background:var(--eye);z-index:2;
+  -webkit-mask:url(@@EYE@@) center/contain no-repeat;mask:url(@@EYE@@) center/contain no-repeat}
+
+.nums{display:grid;justify-content:center;align-items:baseline;font-family:"GI",serif;
+  line-height:1.12;column-gap:1px}
+.nums i,.nums s{font-style:normal;text-decoration:none;text-align:center}
+.nums i{font-size:18px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.9)}
+.nums s{font-size:16px;color:rgba(255,255,255,.5)}
+.nums .r2{font-size:14px;color:#9c93c4;text-shadow:0 1px 2px rgba(0,0,0,.8)}
+.nums .off{visibility:hidden}
+
+/* ---------- weapon band: same shell, deliberately detached ---------- */
+/* the weapon is a section of the same panel, marked off by a rule rather than
+   a gap, and always exactly as wide as the character block above it */
+.wrow{position:relative;display:grid;grid-template-columns:214px 1fr;
+  background:linear-gradient(180deg,rgba(20,14,44,.92),rgba(11,8,26,.96))}
+.wrow::before{content:"";position:absolute;left:16px;right:16px;top:0;height:1px;
+  background:linear-gradient(90deg,rgba(183,170,255,0),rgba(183,170,255,.38) 22%,
+                             rgba(183,170,255,.38) 78%,rgba(183,170,255,0))}
+/* same construction as the character panel: art owns the column, name and
+   level sit over its foot */
+.whead{position:relative;z-index:2;overflow:hidden}
+.wart{position:absolute;inset:0;background-size:auto 104%;background-position:50% 4%;
+  background-repeat:no-repeat;filter:drop-shadow(0 3px 10px rgba(0,0,0,.55))}
+.wart.card{background-size:auto 86%;background-position:50% 5%;
+  -webkit-mask-image:radial-gradient(42% 60% at 50% 40%,#000 68%,transparent 100%);
+  mask-image:radial-gradient(42% 60% at 50% 40%,#000 68%,transparent 100%)}
+.whead::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(180deg,rgba(16,11,38,0) 44%,rgba(16,11,38,.80) 74%,
+                             rgba(16,11,38,.94) 100%)}
+.whead b,.whead .meta{position:relative;z-index:2}
+.whead b{display:block;font-family:"GI",serif;font-weight:400;font-size:21px;line-height:1.05;
+  color:#f3f0ff;text-align:center;text-shadow:0 2px 8px rgba(0,0,0,.9)}
+.whead .meta{justify-content:center;margin-top:4px;padding-bottom:12px}
+.whead{display:flex;flex-direction:column;justify-content:flex-end;padding:0 10px}
+.wside{position:relative;z-index:2;display:flex;align-items:flex-end;padding:13px 20px 15px}
+.wmats{grid-template-rows:auto auto;align-items:end}
+/* the weapon drop sources are the character cluster's icons, one line only */
+.cm.more{display:grid;place-items:center;font-family:"GI",serif;font-size:14px;color:#cfc6f5;
+  background:#231b42}
+
+/* ---------- branding, in the slot the grid leaves free ---------- */
+.brand{gap:6px}
+.brand-mark{width:@@TILE@@px;height:@@TILE@@px;display:grid;place-items:center}
+/* matched to the item art inside a tile, which is the tile inset by 7px */
+.brand-mark img{width:76px;height:76px;object-fit:contain;opacity:.6;
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,.6))}
+/* inherits .nums i sizing, so it matches an item's figure exactly */
+.brand-txt{color:#cfc6f5;letter-spacing:.02em}
+
+/* page chrome for the multi-card sheet */
+body{display:block}
+.lbl{font-family:"GI",serif;font-size:20px;color:#f3f0ff;margin:26px 0 10px;
+  display:flex;align-items:baseline;gap:14px}
+.lbl:first-child{margin-top:0}
+.lbl em{font-family:"HSRui",sans-serif;font-style:normal;font-size:11.5px;color:#8d82bd;
+  letter-spacing:.04em}
+.miss{font-family:"HSRui",sans-serif;color:#de7892;font-size:13px}
+
+/* a family whose source the database does not know yet */
+.newtag{align-self:end;justify-self:center;padding:2px 9px 3px;border-radius:9px;
+  font-family:"GI",serif;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:#cfc6f5;background:rgba(183,170,255,.14);
+  box-shadow:inset 0 0 0 1px rgba(183,170,255,.34)}
+
+.newtag.named{max-width:@@TILE@@px;font-family:"HSRui",sans-serif;font-size:9px;letter-spacing:.02em;
+  text-transform:none;line-height:1.2;text-align:center;padding:3px 6px}

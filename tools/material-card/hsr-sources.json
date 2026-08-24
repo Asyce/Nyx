@@ -1,0 +1,352 @@
+{
+ "Charred Bud of Twilight": {
+  "kind": "shadow",
+  "name": "Cinders"
+ },
+ "Dream Making Engine": {
+  "kind": "enemy",
+  "name": "Dreamjolt Troupe"
+ },
+ "Flower of Ālaya": {
+  "kind": "calyx",
+  "name": "Remembrance"
+ },
+ "Harbinger of Strife": {
+  "kind": "shadow",
+  "name": "Sloggyre"
+ },
+ "High Hopes of the Falsely Enlightened": {
+  "kind": "echo",
+  "name": "The Comedy of Doom",
+  "bosses": [
+   "Lord of Saṃvartasthāyi, Asat Pramad",
+   "Lord of Saṃvartasthāyi",
+   "Asat Pramad",
+   "Lord of Saṃvartasthāyi, Asat Pramad: \"Existence\"",
+   "\"Existence\"",
+   "Lord of Saṃvartasthāyi, Asat Pramad: \"Decay\"",
+   "\"Decay\"",
+   "Asat Pramad",
+   "Akivili"
+  ]
+ },
+ "Invasive Clot": {
+  "kind": "shadow",
+  "name": "Deepsheaf"
+ },
+ "Lucid Awl": {
+  "kind": "enemy",
+  "name": "Imagenated Creatures"
+ },
+ "The Fluffy Collector's Edition": {
+  "kind": "calyx",
+  "name": "Elation"
+ },
+ "Tracks of Destiny": {
+  "kind": "enemy",
+  "name": "Simulated Universe Point Rewards"
+ },
+ "Vanquished Flow's Reticence": {
+  "kind": "echo",
+  "name": "Rusted Crypt of the Iron Carcass",
+  "bosses": [
+   "Anti-Creator, Hatred Inundate",
+   "Anti-Creator",
+   "Hatred Inundate",
+   "Irontomb"
+  ]
+ },
+ "Auspice Sliver": {
+  "kind": "echo",
+  "name": "Inner Beast's Battlefield",
+  "bosses": [
+   "Shadow of \"Feixiao\"",
+   "Feixiao",
+   "Flying Aureus",
+   "Lan"
+  ]
+ },
+ "Conqueror's Will": {
+  "kind": "enemy",
+  "name": "Antimatter Legion"
+ },
+ "Darkveil Moonlight": {
+  "kind": "shadow",
+  "name": "Gelidmoon"
+ },
+ "Eternal Lament": {
+  "kind": "enemy",
+  "name": "Black Tide Creatures"
+ },
+ "Obsidian of Obsession": {
+  "kind": "calyx",
+  "name": "Nihility"
+ },
+ "Regret of Infinite Ochema": {
+  "kind": "echo",
+  "name": "Divine Seed",
+  "bosses": [
+   "Phantylia",
+   "Nanook"
+  ]
+ },
+ "Shape Shifter's Lightning Staff": {
+  "kind": "shadow",
+  "name": "Doom"
+ },
+ "A Glass of the Besotted Era": {
+  "kind": "shadow",
+  "name": "Gloam"
+ },
+ "Artifex's Gyreheart": {
+  "kind": "enemy",
+  "name": "Entranced Ingenia"
+ },
+ "Daythunder Anamnesis": {
+  "kind": "echo",
+  "name": "Glance of Twilight",
+  "bosses": [
+   "Sublime, Radiant, Avatar of the Sky",
+   "Sublime",
+   "Radiant",
+   "Avatar of the Sky",
+   "Decimator, Karma of Daythunder, Eye of Twilight",
+   "Decimator",
+   "Karma of Daythunder",
+   "Eye of Twilight",
+   "Seliose"
+  ]
+ },
+ "Destroyer's Final Road": {
+  "kind": "echo",
+  "name": "Destruction's Beginning",
+  "bosses": [
+   "Doomsday Beast",
+   "Warforge",
+   "Leviathan",
+   "Doomsday Beast"
+  ]
+ },
+ "Dream Fridge": {
+  "kind": "shadow",
+  "name": "Nectar"
+ },
+ "Heaven Incinerator": {
+  "kind": "calyx",
+  "name": "Nihility"
+ },
+ "Heavenly Melody": {
+  "kind": "calyx",
+  "name": "Harmony"
+ },
+ "Moon Rage Fang": {
+  "kind": "calyx",
+  "name": "Destruction"
+ },
+ "Netherworld Token": {
+  "kind": "shadow",
+  "name": "Perdition"
+ },
+ "Past Evils of the Borehole Planet Disaster": {
+  "kind": "echo",
+  "name": "Borehole Planet's Past Nightmares",
+  "bosses": [
+   "Starcrusher Swarm King: Skaracabaz",
+   "Starcrusher Swarm King",
+   "Skaracabaz",
+   "The Swarm",
+   "Tayzzyronth",
+   "Skaracabaz"
+  ]
+ },
+ "Radiant Prominence": {
+  "kind": "shadow",
+  "name": "Ashes"
+ },
+ "Shards of Desires": {
+  "kind": "enemy",
+  "name": "Memory Zone Meme"
+ },
+ "Squirming Core": {
+  "kind": "enemy",
+  "name": "Fragmentum Monsters"
+ },
+ "Stellaris Symphony": {
+  "kind": "calyx",
+  "name": "Harmony"
+ },
+ "Worldbreaker Blade": {
+  "kind": "calyx",
+  "name": "Destruction"
+ },
+ "Ancient Engine": {
+  "kind": "enemy",
+  "name": "Automatons"
+ },
+ "Arrow of the Starchaser": {
+  "kind": "calyx",
+  "name": "The"
+ },
+ "Ascendant Debris": {
+  "kind": "shadow",
+  "name": "Celestial"
+ },
+ "Broken Teeth of Iron Wolf": {
+  "kind": "shadow",
+  "name": "Spike"
+ },
+ "Chordal Mirage": {
+  "kind": "shadow",
+  "name": "Timbre"
+ },
+ "Cosmic Sandpit": {
+  "kind": "calyx",
+  "name": "Erudition"
+ },
+ "Countertemporal Shot": {
+  "kind": "calyx",
+  "name": "The"
+ },
+ "Divine Amber": {
+  "kind": "calyx",
+  "name": "Preservation"
+ },
+ "Dream Flamer": {
+  "kind": "shadow",
+  "name": "Roast"
+ },
+ "Endotherm Chitin": {
+  "kind": "shadow",
+  "name": "Blaze"
+ },
+ "Enigmatic Ectostella": {
+  "kind": "enemy",
+  "name": "Mission Rewards"
+ },
+ "Exquisite Colored Draft": {
+  "kind": "calyx",
+  "name": "Erudition"
+ },
+ "Flower of Eternity": {
+  "kind": "calyx",
+  "name": "Abundance"
+ },
+ "Gelid Chitin": {
+  "kind": "shadow",
+  "name": "Icicle"
+ },
+ "Glory-Aspersed Torso": {
+  "kind": "enemy",
+  "name": "Titankin"
+ },
+ "Golden Crown of the Past Shadow": {
+  "kind": "shadow",
+  "name": "Mirage"
+ },
+ "Guardian's Lament": {
+  "kind": "echo",
+  "name": "End of the Eternal Freeze",
+  "bosses": [
+   "Cocolia, Mother of Deception",
+   "Cocolia",
+   "Mother of Deception",
+   "Cocolia"
+  ]
+ },
+ "Heart of Phagousa": {
+  "kind": "calyx",
+  "name": "Nihility"
+ },
+ "Horn of Snow": {
+  "kind": "shadow",
+  "name": "Rime"
+ },
+ "IPC Work Permit": {
+  "kind": "shadow",
+  "name": "Duty"
+ },
+ "Immortal Lumintwig": {
+  "kind": "enemy",
+  "name": "Abominations of Abundance"
+ },
+ "Key of Wisdom": {
+  "kind": "calyx",
+  "name": "Erudition"
+ },
+ "Lance of Retribution": {
+  "kind": "calyx",
+  "name": "The"
+ },
+ "Lightning Crown of the Past Shadow": {
+  "kind": "shadow",
+  "name": "Fulmination"
+ },
+ "Lost Echo of the Shared Wish": {
+  "kind": "echo",
+  "name": "Salutations of Ashen Dreams",
+  "bosses": [
+   "\"Harmonious Choir\" The Great Septimus",
+   "Ena",
+   "Sunday",
+   "Xipe",
+   "Beyond the Sky Choir",
+   "Dominicus"
+  ]
+ },
+ "Myriad Fruit": {
+  "kind": "calyx",
+  "name": "Abundance"
+ },
+ "Nail of the Ape": {
+  "kind": "shadow",
+  "name": "Abomination"
+ },
+ "Nail of the Beast Coffin": {
+  "kind": "shadow",
+  "name": "Mechwolf"
+ },
+ "Omnicolor, Fool's Own": {
+  "kind": "calyx",
+  "name": "Destruction"
+ },
+ "Raging Heart": {
+  "kind": "shadow",
+  "name": "Ire"
+ },
+ "Safeguard of Amber": {
+  "kind": "calyx",
+  "name": "Preservation"
+ },
+ "Sea Siren's Torn Fin": {
+  "kind": "shadow",
+  "name": "Sirens"
+ },
+ "Searing Steel Blade": {
+  "kind": "shadow",
+  "name": "Scorch"
+ },
+ "Silvermane Medal": {
+  "kind": "enemy",
+  "name": "Everwinter Shadewalker and Incineration Shadewalker"
+ },
+ "Sneering Harlequin": {
+  "kind": "shadow",
+  "name": "Devour"
+ },
+ "Storm Eye": {
+  "kind": "shadow",
+  "name": "Gust"
+ },
+ "Suppressing Edict": {
+  "kind": "shadow",
+  "name": "Puppetry"
+ },
+ "Thunder Strum": {
+  "kind": "shadow",
+  "name": "Soundburst"
+ },
+ "Void Cast Iron": {
+  "kind": "shadow",
+  "name": "Quanta"
+ }
+}

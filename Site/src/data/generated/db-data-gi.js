@@ -12379,7 +12379,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100021.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A berry with thorns that often gets attached to a wolf's pelt. When you look at it, you can almost hear the echoing cries of the wolves in the woods."
@@ -12390,7 +12390,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100022.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A plump and translucent berry that has a fragrant smell and a sweet, refreshing taste. In the past, the storm watchers' only solace was the sweetness of this fruit and hope for the city's peace."
@@ -12401,7 +12401,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100023.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A beautiful flower with a name that suits its appearance. It only grows where harsh winds blow, and is just as intangible as the true heart of an unbound soul."
@@ -12412,7 +12412,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100024.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A plant that adores the wind. To the proud children of the wind, or the citizens of Mondstadt, the Windwheel Asters are \"the visible winds.\""
@@ -12423,7 +12423,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100025.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A fungus that grows in the warm caress of the wind. It is as everlasting as the wind, nourishing life."
@@ -12445,7 +12445,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100027.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "A spicy plant native to Liyue. Merely smelling it makes one hot and thirsty."
@@ -12456,7 +12456,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100028.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "A rare mineral that glimmers in the dark. It's said to be a mutated gemstone condensed from the flourishing elements of the world."
@@ -12467,7 +12467,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100029.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "A crimson flower that blooms like the rainbow clouds in Liyue. It can be made into silky-smooth fabric."
@@ -12478,7 +12478,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100030.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "An extremely ancient flower that was said to be commonly seen in Liyue. It transforms the memories of the land into its fragrance during florescence."
@@ -12489,7 +12489,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100031.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops."
@@ -12511,7 +12511,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100033.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "Empty seashells brought ashore by the tides. Hold one close to your ear, and hear the longing calls of the sea."
@@ -12522,7 +12522,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100034.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "A small flower with strong vitality. It is said that its downward-blooming flower keeps its fragrance from dissipating."
@@ -12577,7 +12577,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100055.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A wild grass that emits light at night. Used in cooking to enhance other flavors."
@@ -12588,7 +12588,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100056.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A flower that grows near water sources. When cooked, the petals have a chunky texture, yet are sweet and a little bitter."
@@ -12599,7 +12599,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100057.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A tiny seed that rides on the wind. Even without its feathered wings, it still holds the hope from afar within."
@@ -12610,7 +12610,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_100058.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "A precious crystal of condensed pure Geo element that usually grows along with other minerals. It's also commonly called \"Cor Petrae.\""
@@ -21514,7 +21514,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101201.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "A strange beetle that inhabits areas rich with Electro energy. Its docile and sedentary temperament could not be more different from the fierce, demonic visage displayed on its armored shell."
@@ -21525,7 +21525,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101202.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "Blossoms from the Sacred Sakura at the Grand Narukami Shrine, filled with a fondness for Inazuma."
@@ -21536,7 +21536,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101203.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "A crystal that contains a sliver of Tatarigami power. Adding this material during smelting will greatly increase the strength and toughness of metals."
@@ -21547,7 +21547,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101204.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "A vibrant plant that has also been named the \"lycoris\" by the poets. It was once thought extinct in the Inazuman archipelago, only to re-emerge now upon the battlefields. It is said that it blooms most enchantingly where much blood was spilled."
@@ -21558,7 +21558,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101205.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "Even on windless days, this plant will tremble lightly amid the cries of thunder. The parts of it that resemble petals are in fact extensions of the leaves meant to protect the fragile flower."
@@ -21569,7 +21569,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101206.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "A plant species that only grows in certain regions and islands of the ocean. Though it looks like a fungus of some sort, it actually comes from a substance secreted by certain soft-bodied organisms."
@@ -21580,7 +21580,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101207.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "A precious pearl that grows in the coral of Watatsumi. Gives off a cool sheen like that of the moonlight."
@@ -21591,7 +21591,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101208.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "The fruit of the Amakumo Grass, which grows on Seirai Island. You can hear it crackling with a tiny current if you hold it up to your ear."
@@ -21602,7 +21602,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101209.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Inazuma)"
           },
           "text": "A mushroom that glows like a night-light. Some curious power lies hidden within it."
@@ -21646,7 +21646,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101213.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "A fungus that grows in layers upon layers, like a sea of clouds, and which mostly grows on trees deep in the rainforest."
@@ -21657,7 +21657,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101214.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "A holy and noble plant. The conditions for growth in its environment are very demanding. The flower buds can be processed to make valuable spices."
@@ -21668,7 +21668,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101215.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "Growing in the forest wetlands, these plants only bloom at night with flowers as bright as the moon."
@@ -21690,7 +21690,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101217.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "Flowers from vines that grow on cliff sides. It is called a lotus only because it has a similar appearance to one. Aside from that, it bears no other similar properties to the lotus."
@@ -21723,7 +21723,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101220.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "A fruit that grows even in the most hostile of desert environments. Its vibrant crimson fruits are made even more lovely against a backdrop of yellow sand."
@@ -21745,7 +21745,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101222.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "You can only find such husks deep in the desert where the Quicksand Eels breed. The hardened shell is meant to protect the Quicksand Eels' larval bodies until they finally acclimate to the conditions of the dry desert."
@@ -21756,7 +21756,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101223.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "Crimson flowers that bloom on ancient battlefields. They can even flourish in the depths of the desert. Their drooping flowers seem to be in mourning for heroes long past."
@@ -21767,7 +21767,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101224.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "A splendorous stone that can be found in the depths of desolate mountains, seemingly formed from congealed elemental energy."
@@ -21778,7 +21778,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101225.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Sumeru)"
           },
           "text": "A tenacious beetle that finds repose within the vast ocean of desert sand. The golden pattern on such beetles' shells hints at some deep relationship between them and the ancient ruins that dot the desert."
@@ -21855,7 +21855,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101232.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "A conch-like structure that gives off a faint glow. Despite the name, it is not a shell but something condensed from pure elemental energy."
@@ -21866,7 +21866,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101233.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "An ethereal and elegant blue flower. Its tender petals are elastic and water-absorbent, making it the ideal raw material for various daily necessities."
@@ -21888,7 +21888,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101235.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "A serene and tranquil violet flower. It has a light, soft, and lasting scent and is often used for making luxurious perfumes."
@@ -21899,7 +21899,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101236.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "A delicate and tender pink flower. Despite their name, Rainbow Roses are essentially more akin to Lilies."
@@ -21910,7 +21910,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101237.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "A soft-bodied animal that emits a gentle light. Often found climbing the walls of buildings near the water or underwater."
@@ -21921,7 +21921,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101238.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "A clear and clean azure flower, it is born where Water Veins come together. It has a simple, cool, and elegant fragrance, pungent and refreshing yet gentle."
@@ -21932,7 +21932,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101239.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "Detection units produced by Fontaine Research Institute using new models of artificed components. Its original purpose was monitoring all kinds of environmental data."
@@ -21943,7 +21943,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101240.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Fontaine)"
           },
           "text": "A limpid drop of dew floating amidst the waters of Morte Region. It is different from other pure water bodies, as though it is a conglomeration of even more pure and primordial Elemental Energy."
@@ -21954,7 +21954,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101241.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Liyue)"
           },
           "text": "Jade from Chenyu Vale. Named for its cool, refreshing touch, that is much like clear water."
@@ -22020,7 +22020,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101247.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "A special feather-shaped species that grows by the seaside. It looks kind of like a seagrass but is in truth a soft-bodied aquatic coral with a unique shape."
@@ -22031,7 +22031,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101248.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "A flower with a shape like floating wings. Its petals sway in an unbelievably relaxed, serene manner as they are caressed by the wind."
@@ -22042,7 +22042,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101249.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "Bluish, juicy berries that grow in large amounts near the Scions of the Canopy. Their shape is similar to that of Flamegranates."
@@ -22053,7 +22053,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101250.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "A succulent shaped like the paw of a great animal."
@@ -22075,7 +22075,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101252.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "A fungus that emits a faint light in the darkness. It is so named because its shape resembles the horny crest of an Iktomisaurus."
@@ -22086,7 +22086,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101253.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "A flower, the leaves and petals of which look scorched and withered, that can often be seen in places where ash abounds."
@@ -22097,7 +22097,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101254.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "A strange plant whose flower's exterior resembles stone. Only in bloom does it reveal a resplendent, crystal-like core."
@@ -22108,7 +22108,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101255.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Natlan)"
           },
           "text": "Formed gradually in areas rich in Phlogiston, these red, scale-like crystals are blazing-hot to the touch."
@@ -22130,7 +22130,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101257.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Nod Krai)"
           },
           "text": "A portable bearing of a type that was mass-produced after the Fatui moved into Nod-Krai. Excessively worn units are discarded like obsolete personnel.\nA few of them have a vestige of kuuvahki left inside. As they are difficult to imitate, they are occasionally used as currency by merchants in Nasha Town.\nIt's said that people tried to forge these bearings for that reason, but went bankrupt in the end because the cost of forging them was higher than their market value."
@@ -22152,7 +22152,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101261.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Nod Krai)"
           },
           "text": "A flower that resembles a candle lamp, commonly found near water. It emits a cold, simple aroma that has a calming effect.\nThe contrasting colors of its stamen and stem are thought to symbolize the two different types of kuuvahki, yet despite this symbolism, it is one of the few rare plants that are immune to kuuvahki's influence. As a result, the Frostmoon Scions sometimes regard it as a symbol of faithlessness and apostasy.\nIt is said that this strangely shaped flower first appeared at the end of the dark calamity five hundred years ago, but this claim has never been rigorously verified."
@@ -22174,7 +22174,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101263.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Nod Krai)"
           },
           "text": "A silver crystal as pure and pristine as moonlight. It possesses almost perfect elemental affinity.\nIn the legacy of the Frostmoon Scions, these crystals were born five hundred years ago alongside the Moon Maiden, and were believed by the Moonchanter at the time to be a gift from the moon, hence the name \"Moonfall Silver\". However, in older documents written by Snezhnayan chroniclers, the descendants of the golden realm were already using secret silver woven by the Frostmoon thousands of years in the past. The threads that connect these two tales are unclear \u2014 the only certain thing is that these crystals make excellent elemental conductors in the eyes of Nod-Krai's craftspeople."
@@ -22207,7 +22207,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101266.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Nod Krai)"
           },
           "text": "A hardy plant known for withstanding relentless wind and frost, it survives even in the coldest depths of winter."
@@ -22218,7 +22218,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101269.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Nod Krai)"
           },
           "text": "A gem formed from the resin of the towering ancient trees that once blanketed Nod-Krai. Over ages, the resin hardened into crystalline amber, now shining with vivid, radiant hues."
@@ -22229,7 +22229,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101270.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Nod Krai)"
           },
           "text": "A clear, radiant azure crystal that holds an exceptionally pure form of kuuvahki. It possesses a near-perfect affinity with all types of elemental energy."
@@ -22251,7 +22251,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101272.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Mondstadt)"
           },
           "text": "A singular entity bathed in a divine, golden radiance, drifting through uncanny interstices as if a moth in flight."
@@ -22262,7 +22262,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101275.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Snezhnaya)"
           },
           "text": "A sacred flower that blooms no matter how harsh the wind and snow. It always radiates a faint, mesmerizing glow that draws the hearts of all who see it."
@@ -22273,7 +22273,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101276.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Snezhnaya)"
           },
           "text": "A peculiar plant once suspected to be a hybrid of plant and animal, though it was later proven to be nothing more than an ordinary plant covered in a coat of animal-like fuzz."
@@ -22284,7 +22284,7 @@
           "kind": "item",
           "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_101277.webp",
           "fields": {
-            "rarity": "Unknown",
+            "rarity": "1 \u2605",
             "type": "Local Specialty (Snezhnaya)"
           },
           "text": "A fern whose edges radiate a faint golden shimmer. It is said to take on a remarkably unique flavor when stewed."

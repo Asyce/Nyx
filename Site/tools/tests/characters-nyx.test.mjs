@@ -9,6 +9,22 @@ const generated = path.join(site, 'src/data/generated');
 const read = (rel) => fs.readFile(path.join(site, rel), 'utf8');
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
+test('side-nav emblem, shared search, and Hidden Characters menu keep their focused behavior', async () => {
+  const css = await read('src/styles/game-page-shared.css');
+  assert.match(css, /\.gp-side-nav \.gp-fn-row:not\(\.on\):hover \.dia\{[\s\S]*?opacity:1;/);
+  assert.match(css, /\.gp-side-nav \.gp-fn-row\.on \.dia\{ opacity:0; filter:none; \}/);
+  assert.match(css, /\.gp-fn-row:focus-visible\{ outline:2px solid/);
+  const ordinaryStart = css.indexOf('/* ===== shared ordinary chrome =====');
+  const ordinaryEnd = css.indexOf('/* Settings rows keep their grid layout', ordinaryStart);
+  const ordinary = css.slice(ordinaryStart, ordinaryEnd);
+  assert.doesNotMatch(ordinary, /\.cm-hide-menu button,/);
+  const surfaces = css.slice(css.indexOf(':is(.gt-panel-box'), css.indexOf(':is(.db-load-state', css.indexOf(':is(.gt-panel-box')));
+  assert.doesNotMatch(surfaces, /\.cm-hide-menu/);
+  assert.doesNotMatch(css, /\.cm-hide-menu button\.clear,\.cm-unfav-actions/);
+  assert.match(css, /:is\(\.gp-search,\.cm-search,\.library-search\):focus-within\{[\s\S]*?box-shadow:none;/);
+  assert.match(css, /\.gp :is\(\.gp-search,\.cm-search,\.library-search\) input:focus-visible,[\s\S]*?outline:0;/);
+});
+
 async function loadMaterialsShareCard(){
   const requirementCalls = [];
   const currencyCosts = [];

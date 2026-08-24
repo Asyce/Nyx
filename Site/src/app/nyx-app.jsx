@@ -2380,7 +2380,6 @@ function CollectionLibrary({ game, view, onViewChange }){
 
   return (
     <div className="db-lib">
-      {/* No page title; the search docks after the last tab (user 2026-07-16). */}
       <div className="db-tabs">
         {collections.map(c => (
           <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
@@ -2394,7 +2393,8 @@ function CollectionLibrary({ game, view, onViewChange }){
             <span>{s.title}</span>
           </a>
         ))}
-        {!specialActive && (
+      </div>
+      {!specialActive && (
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2405,8 +2405,7 @@ function CollectionLibrary({ game, view, onViewChange }){
             filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
             facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
         </div>
-        )}
-      </div>
+      )}
       {!specialActive && extraState === 'loading' && (
         <div className="db-load-state" role="status" aria-live="polite">
           <span className="db-load-spinner" aria-hidden="true"></span>
@@ -2607,7 +2606,12 @@ function CollectionCard({ item, onOpen }){
 function CollectionDetailModal({ item, onClose }){
   const closeRef = React.useRef(null);
   const cardRef = React.useRef(null);
-  const fields = Object.entries(item.fields || {}).filter(([, value]) => dbHasValue(value));
+  const kind = String(item.kind || '').toLowerCase();
+  const isWeapon = kind === 'weapon' || kind === 'weapons';
+  const hideKind = kind === 'artifact' || isWeapon || kind === 'monster' || kind === 'item';
+  const fields = Object.entries(item.fields || {}).filter(([key, value]) => dbHasValue(value)
+    && !((kind === 'artifact' || kind === 'item') && (key === 'rarity' || key === 'type'))
+    && !(kind === 'monster' && key === 'type'));
   const skills = Array.isArray(item.skills) ? item.skills.filter((skill) => dbHasValue(skill)) : [];
 
   React.useEffect(() => {
@@ -2645,11 +2649,11 @@ function CollectionDetailModal({ item, onClose }){
         <button type="button" ref={closeRef} className="db-modal-close" aria-label={'Close ' + item.name + ' details'} onClick={onClose}>{'\u2715'}</button>
         <DatabaseItemFrame className="db-modal-media" art={item.art} fallback={simInitials(item.name)} rarity={item.fields?.rarity} />
         <div className="db-modal-copy">
-          <span className="db-modal-kind">{dbFieldLabel(item.kind || 'Database record')}</span>
+          {!hideKind && <span className="db-modal-kind">{dbFieldLabel(item.kind || 'Database record')}</span>}
           <h2>{item.name}</h2>
           {item.text && <p className="db-modal-description">{item.text}</p>}
           {fields.length > 0 && (
-            <dl className="db-modal-fields">
+            <dl className={'db-modal-fields' + (isWeapon ? ' is-weapon' : '')}>
               {fields.map(([key, value]) => (
                 <div key={key}><dt>{dbFieldLabel(key)}</dt><dd>{dbFieldValue(value)}</dd></div>
               ))}

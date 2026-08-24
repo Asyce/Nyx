@@ -522,11 +522,6 @@ function BannerTimeline({ game, gameName }){
 //
 // Fails silent by design: a missing or broken feed renders nothing rather than
 // putting a warning banner on the overview.
-const NYX_EVENT_TYPE_LABEL = {
-  event:'Event', challenge:'Challenge', login:'Login event',
-  web_event:'Web event', shop:'Shop', permanent:'Permanent',
-};
-
 function nyxEventCardStatus(block, now){
   if (block.startMs > now) {
     return { cls:'upcoming', headline:'Starts in ' + nyxTlCountdownLabel(block.startMs - now) };
@@ -558,23 +553,30 @@ function EventDetailDialog({ block, timePreference, game, now, onClose }){
     requestAnimationFrame(function(){ closeRef.current && closeRef.current.focus(); });
     return function(){ document.removeEventListener('keydown', onKeyDown); };
   }, [onClose]);
-  var meta = nyxEventCardStatus(block, now);
+  var startCountdown = block.startMs > now
+    ? 'Starts in ' + nyxTlCountdownLabel(block.startMs - now)
+    : 'Started ' + nyxTlCountdownLabel(now - block.startMs) + ' ago';
+  var endCountdown = block.openEnd
+    ? 'Not announced'
+    : block.endMs > now
+      ? 'Ends in ' + nyxTlCountdownLabel(block.endMs - now)
+      : 'Ended ' + nyxTlCountdownLabel(now - block.endMs) + ' ago';
   return ReactDOM.createPortal(
     <div className="gp-oev-modal" role="presentation" onMouseDown={function(e){ if (e.target === e.currentTarget) onClose(); }}>
-      <div className="gp-oev-modal-card" ref={cardRef} role="dialog" aria-modal="true" aria-label={block.fullTitle || block.title}>
+      <div className="gp-oev-modal-card" ref={cardRef} role="dialog" aria-modal="true" aria-label={block.title}
+           style={{ '--gp-oev-modal-art':block.image ? 'url("' + block.image + '")' : 'none' }}>
         <div className="gp-oev-modal-head">
-          <h2>{block.fullTitle || block.title}</h2>
+          <h2>{block.title}</h2>
           <button type="button" ref={closeRef} className="gp-oev-modal-x" aria-label="Close event details" title="Close" onClick={onClose}>{'✕'}</button>
         </div>
-        <p className="gp-oev-modal-status">{meta.headline}</p>
-        <dl className="gp-oev-modal-facts">
-          <dt>Start</dt><dd>{nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}</dd>
-          <dt>End</dt><dd>{block.openEnd ? 'Not announced' : nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}</dd>
-          <dt>Type</dt><dd>{NYX_EVENT_TYPE_LABEL[block.type] || 'Event'}</dd>
+        <dl className="gp-oev-modal-countdowns">
+          <div><dt>Start</dt><dd><strong>{startCountdown}</strong><span>{nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}</span></dd></div>
+          <div><dt>End</dt><dd><strong>{endCountdown}</strong><span>{block.openEnd ? 'Exact date unavailable' : nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}</span></dd></div>
         </dl>
-        {block.description
-          ? <div className="gp-oev-modal-body"><p>{block.description}</p></div>
-          : <div className="gp-oev-modal-body"><p>No description was published for this event.</p></div>}
+        <section className="gp-oev-modal-body">
+          <h3>Event Details</h3>
+          <p>{block.description || 'No description was published for this event.'}</p>
+        </section>
       </div>
     </div>,
     document.body
@@ -621,7 +623,7 @@ function CurrentEventsStrip({ game, gameName, limit }){
           request; only the quiet updated stamp remains. */}
       {/* The "Updated <date>" stamp was removed 2026-08-09 at the user's
           request — it is not information a player acts on. */}
-      <div className={'gp-event-grid' + (cards.length > 6 ? ' is-scrollable' : '')}>
+      <div className={'gp-event-grid' + (cards.length > 9 ? ' is-scrollable' : '')}>
         {cards.map(function(block){
           var meta = nyxEventCardStatus(block, now);
           return (

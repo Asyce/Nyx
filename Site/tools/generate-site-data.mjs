@@ -5255,13 +5255,44 @@ function buildCollections() {
   ]));
 }
 
+const GENSHIN_WEAPON_SUB_STATS = {
+  FIGHT_PROP_ATTACK_PERCENT:'ATK',
+  FIGHT_PROP_CHARGE_EFFICIENCY:'Energy Recharge',
+  FIGHT_PROP_CRITICAL:'CRIT Rate',
+  FIGHT_PROP_CRITICAL_HURT:'CRIT DMG',
+  FIGHT_PROP_DEFENSE_PERCENT:'DEF',
+  FIGHT_PROP_ELEMENT_MASTERY:'Elemental Mastery',
+  FIGHT_PROP_HP_PERCENT:'HP',
+  FIGHT_PROP_NONE:'None',
+  FIGHT_PROP_PHYSICAL_ADD_HURT:'Physical DMG Bonus',
+};
+
+function genshinWeaponFields(item, type) {
+  const statName = GENSHIN_WEAPON_SUB_STATS[item.subStat] || 'Unknown';
+  const stat = item.subStat && item.stats?.[item.subStat.toLowerCase()];
+  const level90 = Number(stat?.base) * Number(stat?.levels?.['90']);
+  const subStat = statName === 'None' || statName === 'Unknown' ? statName
+    : !Number.isFinite(level90) ? 'Unknown'
+      : `${statName} · ${statName === 'Elemental Mastery' ? Math.round(level90) : (level90 * 100).toFixed(1) + '%'}`;
+  const refinement = item.refinements?.['1'];
+  const refinementName = cleanText(refinement?.name, 120);
+  const refinementDescription = cleanDatabaseText(refinement?.desc);
+  return {
+    rarity:databaseRarityLabel(item.rarity),
+    type,
+    baseAttack:Number.isFinite(Number(item.attack)) ? Math.round(Number(item.attack)) : 'Unknown',
+    subStat,
+    weaponEffect:refinementName && refinementDescription ? `${refinementName}: ${refinementDescription}` : 'None',
+  };
+}
+
 function buildCollectionsRaw() {
   const genshinWeapons = normalizeGameDataItems('GameData/gi/live/weapons.json', 'Weapons', 'GameData', (it) => ({
     id: 'gi-wpn-' + it.id,
     name: it.name,
     kind: 'weapon',
     art: dbAsset(it.assets?.icon || it.assets?.gacha),
-    fields: { rarity: databaseRarityLabel(it.rarity), type: weaponMap[it.type] || it.type, atk: it.attack },
+    fields: genshinWeaponFields(it, weaponMap[it.type] || it.type),
     text: cleanDatabaseText(it.description),
   }));
   genshinWeapons.items = genshinWeapons.items.filter((item) => item.fields.type !== 'ITEM_TPS_WEAPON');
@@ -5396,7 +5427,11 @@ function buildLazyCollections() {
           name: it.name,
           kind: 'item',
           ...genshinItemArt(it),
-          fields: { rarity: databaseRarityLabel(it.rarity), type: genshinItemType(it) },
+          fields: {
+            rarity:/local specialty/i.test(String(source?.type || it.type || ''))
+              ? databaseRarityLabel(1) : databaseRarityLabel(it.rarity),
+            type:genshinItemType(it),
+          },
           text: cleanDatabaseText(it.description),
         };
       }),
@@ -5470,7 +5505,7 @@ function buildGenshinShadowRealm() {
       name:item.name,
       kind:'weapon',
       art:dbAsset(item.assets?.icon || item.assets?.gacha),
-      fields:{ rarity:databaseRarityLabel(item.rarity), type:'Weapon', atk:item.attack },
+      fields:genshinWeaponFields(item, 'Weapon'),
       text:cleanDatabaseText(item.description),
     }));
   const accessories = readJson('GameData/gi/live/items.json')

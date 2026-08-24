@@ -19,6 +19,9 @@ test('retained official rows receive traceable legacy provenance without invente
   assert.equal(normalized.scheduleStatus, 'exact');
   assert.deepEqual(validateEvent(normalized), []);
 
+  assert.equal(normalizeRetainedEvent({ ...base, title:'V3.1 Limited-Time Channels', type:'event' }, '2026-07-14T00:00:00.000Z').type, 'banner');
+  assert.equal(normalizeRetainedEvent({ ...base, title:'Random Festival', type:'challenge' }, '2026-07-14T00:00:00.000Z').type, 'challenge');
+
   const untraceable = normalizeRetainedEvent({ ...base, source:{ name:'Official', url:'https://official.example/no-id', priority:1 } }, '2026-07-14T00:00:00.000Z');
   assert.ok(validateEvent(untraceable).some((error) => /missing source provenance/.test(error)));
 });
@@ -61,10 +64,13 @@ test('toIso applies offsets and rejects garbage', () => {
   assert.equal(toIso('not a date'), null);
 });
 
-test('description snippets strip HTML, normalize whitespace, and stay bounded', () => {
-  const snippet = descriptionSnippet('<p>Hello &amp; <b>travelers</b>.</p>&lt;t class="date"&gt;2026/07/01&lt;/t&gt;\n<div>' + 'reward '.repeat(80) + '</div>');
-  assert.ok(snippet.startsWith('Hello & travelers. 2026/07/01 reward'));
-  assert.ok(!/[<>]/.test(snippet));
+test('descriptions are fully cleaned by default and accept an explicit finite limit', () => {
+  const raw = '<p>Hello &amp; <b>travelers</b>.</p>&lt;t class="date"&gt;2026/07/01&lt;/t&gt;\n<div>' + 'reward '.repeat(80) + '</div>';
+  const full = descriptionSnippet(raw);
+  const snippet = descriptionSnippet(raw, 240);
+  assert.ok(full.startsWith('Hello & travelers. 2026/07/01 reward'));
+  assert.ok(full.length > 240);
+  assert.ok(!/[<>]/.test(full));
   assert.ok(snippet.length <= 240);
   assert.ok(snippet.endsWith('…'));
   assert.equal(descriptionSnippet('   '), null);
@@ -148,6 +154,8 @@ test('classifyType maps titles deterministically', () => {
   assert.equal(classifyType('Event Wish "Starry Night\'s Whispers"'), 'banner');
   assert.equal(classifyType('[Reverb Resonator Convene]'), 'banner');
   assert.equal(classifyType('[Expunger of Sin] Chartered Headhunting'), 'banner');
+  assert.equal(classifyType('V3.1 Limited-Time Channels (Phase II)'), 'banner');
+  assert.equal(classifyType('[Scarlet Pearl Issue] LTO Details'), 'banner');
   assert.equal(classifyType('HoYoLAB Community "Daily Check-In" Feature'), 'login');
   assert.equal(classifyType('Stygian Onslaught Event'), 'challenge');
   assert.equal(classifyType('Some Web Event Details'), 'web_event');

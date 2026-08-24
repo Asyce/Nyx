@@ -1004,7 +1004,7 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   gap:var(--nyx-space-12);
 }
 .gp-event-grid.is-scrollable{
-  max-height:calc(264px + var(--nyx-space-12));
+  max-height:calc(396px + var(--nyx-space-12) + var(--nyx-space-12));
   overflow-y:auto;
   scrollbar-gutter:stable;
   scrollbar-width:thin;
@@ -1019,13 +1019,13 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   .gp-ov-lower{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
   .gp-ov-lower > .gp-current-events{ grid-column:1 / -1; }
   .gp-event-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
-  .gp-event-grid.is-scrollable{ max-height:calc(396px + var(--nyx-space-12) + var(--nyx-space-12)); }
+  .gp-event-grid.is-scrollable{ max-height:calc(660px + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12)); }
 }
 @media (max-width:900px){
   .gp-ovb,
   .gp-ov-lower,
   .gp-event-grid{ grid-template-columns:minmax(0, 1fr); }
-  .gp-event-grid.is-scrollable{ max-height:calc(792px + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12)); }
+  .gp-event-grid.is-scrollable{ max-height:calc(1188px + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12)); }
   .gp-ov-region{ justify-content:flex-start; }
 }
 
@@ -1082,7 +1082,14 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   padding:var(--nyx-space-24);
   border-radius:var(--nyx-compat-radius-16px);
   color:var(--nyx-color-heading);
-  background:linear-gradient(180deg,var(--nyx-compat-color-hex-211946),var(--nyx-color-surface));
+  background-color:var(--nyx-color-surface);
+  background-image:
+    linear-gradient(180deg,rgba(18,13,39,.88),rgba(12,9,26,.96)),
+    linear-gradient(90deg,rgba(18,13,39,.92),rgba(18,13,39,.72)),
+    var(--gp-oev-modal-art);
+  background-position:center,center,50% 32%;
+  background-size:cover;
+  background-repeat:no-repeat;
   box-shadow:var(--nyx-compat-shadow-box-4f7cd9937d9b);
 }
 .gp-oev-modal-card::-webkit-scrollbar{ width:7px; }
@@ -1099,26 +1106,22 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   width:32px; height:32px; border-radius:var(--nyx-compat-radius-9px);
   background:var(--nyx-compat-color-c201d2dab2c4); color:var(--nyx-compat-color-hex-ded8f5);
 }
-.gp-oev-modal-status{
-  margin:var(--nyx-space-8) 0 var(--nyx-space-14);
-  color:var(--nyx-color-heading);
-  font-family:var(--nyx-font-mono); font-size:var(--nyx-type-body); font-weight:var(--nyx-weight-semibold);
-}
-.gp-oev-modal-facts{
-  display:grid; grid-template-columns:auto minmax(0, 1fr); gap:var(--nyx-space-6) var(--nyx-space-12);
-  margin:0 0 var(--nyx-space-16);
-  color:var(--nyx-compat-color-hex-9f94c8);
-  font-family:var(--nyx-font-mono); font-size:var(--nyx-type-small);
-}
-.gp-oev-modal-facts dt{ color:var(--nyx-compat-color-hex-ded8f5); font-weight:var(--nyx-weight-semibold); }
-.gp-oev-modal-facts dd{ min-width:0; overflow-wrap:anywhere; }
+.gp-oev-modal-countdowns{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--nyx-space-10); margin:var(--nyx-space-16) 0; }
+.gp-oev-modal-countdowns div{ min-width:0; padding:var(--nyx-space-12); background:rgba(12,9,26,.72); }
+.gp-oev-modal-countdowns dt{ color:var(--nyx-compat-color-hex-9f94c8); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-small); }
+.gp-oev-modal-countdowns dd{ min-width:0; margin:var(--nyx-space-4) 0 0; overflow-wrap:anywhere; }
+.gp-oev-modal-countdowns :is(strong,span){ display:block; }
+.gp-oev-modal-countdowns strong{ color:var(--nyx-color-heading); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-body); }
+.gp-oev-modal-countdowns span{ margin-top:var(--nyx-space-4); color:var(--nyx-compat-color-hex-ded8f5); font-size:var(--nyx-type-small); }
 .gp-oev-modal-body{ padding-top:var(--nyx-space-16); border-top:1px solid var(--nyx-compat-color-79f2e0da8494); }
+.gp-oev-modal-body h3{ margin:0 0 var(--nyx-space-10); color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-lead); font-weight:var(--nyx-weight-regular); }
 .gp-oev-modal-body p{
   margin:0 0 var(--nyx-space-12);
   color:var(--nyx-compat-color-hex-ded8f5);
   font-size:var(--nyx-type-body); line-height:1.55; overflow-wrap:anywhere; white-space:pre-wrap;
 }
 .gp-oev-modal-body p:last-child{ margin-bottom:0; }
+@media (max-width:560px){ .gp-oev-modal-countdowns{ grid-template-columns:1fr; } }
 .gp-oban-empty{
   min-width:0;
   padding:var(--nyx-space-18) var(--nyx-space-16);
@@ -2855,7 +2858,7 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   align-items:center;
   gap:var(--nyx-space-14);
 }
-.tcg-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); min-width:min(440px,100%); }
+.tcg-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); width:min(380px,100%); min-width:0; margin-top:var(--nyx-space-10); }
 .tcg-search-tools .gp-search{ flex:1 1 auto; min-width:0; }
 .tcg-filter-button{ flex:none; min-height:38px; border:0; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-13px); cursor:pointer; display:flex; align-items:center; gap:var(--nyx-compat-spacing-7px);
   color:var(--nyx-compat-color-hex-c9c0e9); background:var(--nyx-compat-color-143120cacd00); box-shadow:var(--nyx-compat-shadow-box-16dee3c0fdb2); font:var(--nyx-compat-font-5981e2444f4b); letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
@@ -3138,19 +3141,19 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
 }
 .tcg-stat-grid{
   display:grid;
-  grid-template-columns:repeat(2, minmax(0, 1fr));
-  gap:var(--nyx-space-8);
-  margin-top:var(--nyx-space-16);
+  grid-template-columns:repeat(auto-fit, minmax(104px, 1fr));
+  gap:var(--nyx-space-4);
+  margin-top:var(--nyx-space-8);
 }
 .tcg-stat-grid span{
   min-width:0;
   display:flex;
   flex-direction:column;
-  gap:var(--nyx-compat-spacing-3px);
-  border-radius:var(--nyx-compat-radius-7px);
-  padding:var(--nyx-space-8) var(--nyx-compat-spacing-9px);
+  gap:var(--nyx-space-2);
+  border-radius:var(--nyx-radius-small);
+  padding:var(--nyx-space-4) var(--nyx-space-6);
   background:var(--nyx-compat-color-108ef61fc9ce);
-  box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a);
+  box-shadow:none;
 }
 .tcg-stat-grid span b{
   color:var(--nyx-compat-color-hex-9f95ca);
@@ -3167,8 +3170,7 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
   color:var(--nyx-compat-color-hex-f4efff);
   font-size:var(--nyx-type-small);
   line-height:1.25;
-  overflow:hidden;
-  text-overflow:ellipsis;
+  overflow-wrap:anywhere;
 }
 .tcg-effect{
   margin-top:var(--nyx-space-16);
@@ -5210,7 +5212,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* ===== Database-backed collection library ===== */
 .db-lib{ flex:1 1 0%; min-width:0; min-height:0; display:flex; flex-direction:column; }
 .db-lib-head{ display:flex; align-items:center; gap:var(--nyx-space-16); flex:none; padding-top:var(--nyx-space-2); }
-.db-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); min-width:min(440px,100%); }
+.db-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); width:min(380px,100%); min-width:0; }
 .db-search-tools .gp-search{ flex:1 1 auto; min-width:0; }
 .db-filter-control{ position:relative; flex:none; }
 .db-filter-button{ min-height:38px; border:0; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-13px); cursor:pointer; display:flex; align-items:center; gap:var(--nyx-compat-spacing-7px);
@@ -5233,9 +5235,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-filter-group button:hover,.db-filter-group button:focus-visible{ color:var(--nyx-color-text-max); outline:1px solid var(--nyx-compat-color-hex-cdbfff); }
 .db-filter-group button.on{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-hex-6652b3); box-shadow:var(--nyx-compat-shadow-box-8f773f638f85); }
 .db-filter-group button.on em{ color:var(--nyx-compat-color-hex-eeeaff); }
-/* Bare tab bar; the collection search docks after the last tab (user 2026-07-16). */
+/* Bare tab bar; collection search sits on its own row below. */
 .db-tabs{ display:flex; align-items:center; flex-wrap:wrap; gap:var(--nyx-space-6); flex:none; margin-top:var(--nyx-space-8); padding:0; overflow:visible; }
-.db-tabs .db-search-tools{ margin-left:auto; min-width:min(360px,100%); }
+.db-tabs + .db-search-tools{ margin-top:var(--nyx-space-10); }
 .db-tabs :is(button,a){ border:none; cursor:pointer; min-width:98px; height:34px; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-9px);
   display:flex; align-items:center; justify-content:center; gap:var(--nyx-compat-spacing-9px); background:none; color:var(--nyx-color-text-muted);
   font-family:var(--nyx-compat-family-ffc6cbbeca26); font-size:var(--nyx-type-small); letter-spacing:var(--nyx-compat-tracking-p12em); text-transform:uppercase;
@@ -5299,7 +5301,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-rarity-toggle:hover,.db-rarity-toggle:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d8ceff); outline-offset:2px; background:var(--nyx-compat-color-d57b2d640b5a); }
 .db-group .db-grid{ flex:none; overflow:visible; margin-top:0; padding:0; }
 .db-special-view{ min-height:0; display:flex; flex:1 1 auto; flex-direction:column; gap:var(--nyx-space-14); }
-.db-special-view > .db-search-tools{ justify-content:flex-end; }
+.db-special-view > .db-search-tools{ justify-content:flex-start; margin-top:var(--nyx-space-10); }
 
 /* Gallery: wide namecards stay wide; portraits and frames use the same quiet
    caption rhythm without borrowing Database rarity frames. */
@@ -5414,6 +5416,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-modal-copy h2{ margin:var(--nyx-compat-spacing-7px) var(--nyx-compat-spacing-42px) 0 0; color:var(--nyx-color-text-max); font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-32px); line-height:1.05; font-weight:var(--nyx-weight-regular); }
 .db-modal-description{ margin:var(--nyx-space-14) 0 0; color:var(--nyx-compat-color-hex-e1daf8); font-size:var(--nyx-type-body); line-height:1.55; white-space:pre-wrap; overflow-wrap:anywhere; }
 .db-modal-fields{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:var(--nyx-space-8); margin:var(--nyx-space-18) 0 0; }
+.db-modal-fields.is-weapon{ grid-template-columns:minmax(0, 1fr); }
 .db-modal-fields div{ min-width:0; padding:var(--nyx-space-10) var(--nyx-space-12); border-radius:var(--nyx-compat-radius-9px); background:var(--nyx-compat-color-0557dea73665);
   box-shadow:var(--nyx-compat-shadow-box-566d2ebc31c8); }
 .db-modal-fields dt{ color:var(--nyx-compat-color-hex-9f95ca); font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-black); letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
@@ -7193,7 +7196,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
     --tcg-art-h:282px;
     grid-template-columns:repeat(auto-fill, minmax(144px, 1fr));
   }
-  .tcg-search-tools{ width:100%; min-width:0; }
+  .tcg-search-tools{ width:min(380px,100%); }
   .gallery-toolbar{ align-items:stretch; flex-direction:column; }
   .gallery-toolbar .gp-search{ flex-basis:auto; width:100%; }
   .gallery-grid{ grid-template-columns:1fr; }
@@ -7986,10 +7989,11 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
   filter:none; transition:opacity .18s ease,filter .18s ease;
 }
-.gp-side-nav .gp-fn-row.on .dia{
+.gp-side-nav .gp-fn-row:not(.on):hover .dia{
   opacity:1;
   filter:drop-shadow(0 0 4px rgba(183,170,255,.75)) drop-shadow(0 0 9px rgba(139,123,255,.35));
 }
+.gp-side-nav .gp-fn-row.on .dia{ opacity:0; filter:none; }
 .gp-side-nav .gp-fn-row>span:last-child{position:relative}
 .gp-side-nav .gp-fn-row:is(:hover,:focus-visible,.on){color:var(--nyx-color-text-max);text-shadow:0 0 8px rgba(183,170,255,.35)}
 .gp-side-nav .gp-fn-row:is(:hover,:focus-visible,.on)>span:last-child::after{
@@ -8095,7 +8099,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .pm-select-menu button,.pm-reset-confirm button,.pm-collab-expand,.nyx-beta-card button,
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
-  .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
+  .cm-fopt,.cm-presets button,.cm-form-row button,
   .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
   .cm-ledger-customize-entry button,.cm-weapon-pick,.cm-weapon-options button,.cm-total-checks button,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
@@ -8133,7 +8137,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .pm-select-menu button,.pm-reset-confirm button,.pm-collab-expand,.nyx-beta-card button,
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
-  .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
+  .cm-fopt,.cm-presets button,.cm-form-row button,
   .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
   .cm-ledger-customize-entry button,.cm-weapon-pick,.cm-weapon-options button,.cm-total-checks button,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
@@ -8157,9 +8161,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
 ):is(:hover,:focus-visible,:active,.on,[aria-current="page"],[aria-selected="true"],[aria-pressed="true"],[aria-expanded="true"]){
   color:var(--nyx-color-text-max); background-color:transparent;
-  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
-  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
-  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+  background-image:none;
+  box-shadow:none; filter:none; text-shadow:none; transform:none;
 }
 .nyx-time-pref-switch .nyx-time-pref-regions button{
   gap:0; padding-inline:var(--nyx-space-4);
@@ -8186,7 +8189,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 }
 :is(.gt-sync-delete,.pm-reset-all .pm-reset.danger,
   .pm-reset-confirm[aria-label="Reset all Nyx settings"] button.primary,
-  .cm-hide-menu button.clear,.cm-unfav-actions button.danger,.nyx-img-library-head button,
+  .cm-unfav-actions button.danger,.nyx-img-library-head button,
   .library-note-actions button.danger,.library-stale-marks button,
   .bcal-dialog-actions button.danger,.gp-reset-tile.custom button:last-child,
   .achievement-category-actions > .achievement-quiet-button,
@@ -8305,16 +8308,18 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   box-shadow:none;
 }
 :is(.gp-search,.cm-search,.library-search):focus-within{
-  border-color:var(--nyx-color-accent-bright); outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+  border-color:var(--nyx-color-accent-bright); outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); box-shadow:none;
 }
 :is(.gp-search,.cm-search,.library-search) input{ border:0; outline:0; background:transparent; box-shadow:none; }
+.gp :is(.gp-search,.cm-search,.library-search) input:focus-visible,
+:is(.gp-search,.cm-search,.library-search) input:focus-visible{ outline:0; outline-offset:0; }
 
 :is(.gt-panel,.cm-panel,.db-modal-card,.bcal-dialog,.achievement-manage,.library-reader,.ntl-gi-detail){
   border-radius:var(--nyx-radius-panel); background:var(--nyx-gradient-panel); box-shadow:var(--nyx-shadow-panel);
 }
 :is(.gt-panel-box,.gt-method,.gt-sync,.gt-archive-card,.gt-total-unit,.gt-recent-five-row,
   .gt-banner-history-row,.gp-reset-panel,.gp-reset-tile,.nyx-time-pref-popover,
-  .nyx-pengo-menu.as-tab .pm-section,.cm-filter,.cm-hide-menu,.cm-weapon-menu,.cm-custom-art-panel,
+  .nyx-pengo-menu.as-tab .pm-section,.cm-filter,.cm-weapon-menu,.cm-custom-art-panel,
   .nyx-img-editor,.cm-kit-entry,.ntl-detail,.ntl-popover,.db-load-state,.db-modal-fields div,
   .db-modal-skills > article,.library-status,.library-annotation-toolbar,.library-note-popover,
   .library-stale-marks,.bcal-next,.bcal-cell,.achievement-toolbar,.achievement-import-preview,
@@ -8456,9 +8461,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* Back / Customize sit in the same bar as quiet siblings */
 :is(.cm-character-tabs .cm-detail-back):nth-child(n){ color:var(--nyx-color-text-soft); }
 
-/* Special database views (TCG / Pot / Wonderland) have no page title; their
-   search rows right-align to mirror the collection search position. */
-.tcg-head,.pot-head,.wonder-head{ justify-content:flex-end; }
+/* Database search rows stay compact and left-aligned. */
+.tcg-head,.pot-head,.wonder-head{ justify-content:flex-start; }
 /* The favourites HIDE toggle and its Card/Icon siblings were removed
    2026-08-09 — pinned favourites are always icons, always shown. */
 

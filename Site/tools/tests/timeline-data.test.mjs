@@ -449,14 +449,14 @@ test('the event name is the marked span in the official title, across all five f
   assert.equal(api.eventDisplayTitle(null), '');
 });
 
-test('the events card shows the short name and keeps the official title for details', () => {
+test('the event card and dialog show the short event name while retaining the source title in data', () => {
   const now = Date.parse('2026-08-08T12:00:00.000Z');
   const full = '"Ley Line Overflow" Event - Double Drops From Blossoms of Wealth!';
   const [card] = api.currentEvents([eventRecord('ley', { title:full, start:'2026-08-03T00:00:00.000Z', end:'2026-08-10T00:00:00.000Z' })], now, 'eu', 6);
   assert.equal(card.title, 'Ley Line Overflow');
   assert.equal(card.fullTitle, full);
   assert.match(viewSource, /<h3 className="gp-oev-title">\{block\.title\}<\/h3>/);
-  assert.match(viewSource, /<h2>\{block\.fullTitle \|\| block\.title\}<\/h2>/);
+  assert.match(viewSource, /<h2>\{block\.title\}<\/h2>/);
 });
 
 test('the event blurb drops the dates the card already counts down', () => {
@@ -487,15 +487,19 @@ test('the event blurb drops the dates the card already counts down', () => {
 test('the event card opens its full description and never links out', () => {
   assert.doesNotMatch(viewSource, /className="gp-oev-link"/);
   assert.doesNotMatch(viewSource, /Official notice<\/a>/);
-  assert.match(viewSource, /NYX_EVENT_TYPE_LABEL\[block\.type\]/);
+  assert.doesNotMatch(viewSource, /NYX_EVENT_TYPE_LABEL|<dt>Type<\/dt>/);
   assert.match(viewSource, /className="gp-oev-open"/);
   assert.match(viewSource, /function EventDetailDialog/);
   assert.match(viewSource, /aria-label=\{'View details for ' \+ block\.title\}/);
   assert.match(viewSource, /aria-label="Close event details"/);
-  assert.match(viewSource, /<p className="gp-oev-modal-status">\{meta\.headline\}<\/p>/);
-  assert.match(viewSource, /<dt>Start<\/dt><dd>\{nyxTlViewDate\(block\.startMs/);
-  assert.match(viewSource, /<dt>End<\/dt><dd>\{block\.openEnd \? 'Not announced'/);
-  assert.match(viewSource, /<p>\{block\.description\}<\/p>/, 'the pop-up keeps the full raw description as React text');
+  assert.match(viewSource, /className="gp-oev-modal-countdowns"/);
+  assert.match(viewSource, /<dt>Start<\/dt><dd><strong>\{startCountdown\}<\/strong><span>\{nyxTlViewDate\(block\.startMs/);
+  assert.match(viewSource, /<dt>End<\/dt><dd><strong>\{endCountdown\}<\/strong>/);
+  assert.match(viewSource, /<h3>Event Details<\/h3>/);
+  assert.match(viewSource, /<p>\{block\.description \|\| 'No description was published for this event\.'\}<\/p>/, 'the pop-up keeps the full raw description as React text');
+  assert.match(viewSource, /<h2>\{block\.title\}<\/h2>/, 'row one uses the compact event name');
+  assert.match(viewSource, /'--gp-oev-modal-art':block\.image/);
+  assert.match(sharedCss, /\.gp-oev-modal-card\{[\s\S]*?background-image:[\s\S]*?var\(--gp-oev-modal-art\)/);
   const stripSource = viewSource.slice(viewSource.indexOf('function CurrentEventsStrip'), viewSource.indexOf('function NyxGameTimelines'));
   assert.doesNotMatch(stripSource, /block\.description/, 'compact cards contain no description');
   assert.doesNotMatch(sharedCss, /\.gp-oev-text/);
@@ -572,18 +576,18 @@ test('the game overview shows the events card and no stale-banner disclaimer', (
   assert.match(appSource, /<CurrentEventsStrip game=\{cfg\.key\}/);
   assert.match(viewSource, /function CurrentEventsStrip\(\{ game, gameName, limit \}\)/);
   assert.match(viewSource, /nyxTlCurrentEvents\(payload\.events, now, region, limit\)/);
-  assert.match(viewSource, /cards\.length > 6 \? ' is-scrollable' : ''/);
+  assert.match(viewSource, /cards\.length > 9 \? ' is-scrollable' : ''/);
   assert.match(viewSource, /headline:'Starts in ' \+ nyxTlCountdownLabel/);
   assert.match(viewSource, /'Ends in ' \+ nyxTlCountdownLabel/);
   assert.match(viewSource, /'End date not announced'/);
   assert.match(sharedCss, /grid-template-columns:repeat\(3, minmax\(0, 1fr\)\)/);
   assert.match(sharedCss, /@media \(max-width:1500px\)\{[\s\S]*?\.gp-event-grid\{ grid-template-columns:repeat\(2, minmax\(0, 1fr\)\); \}/);
   assert.match(sharedCss, /@media \(max-width:900px\)\{[\s\S]*?\.gp-event-grid\{ grid-template-columns:minmax\(0, 1fr\); \}/);
-  assert.match(sharedCss, /\.gp-event-grid\.is-scrollable\{\s*max-height:calc\(264px \+ var\(--nyx-space-12\)\);[\s\S]*?overflow-y:auto;/);
-  assert.match(sharedCss, /@media \(max-width:1500px\)\{[\s\S]*?\.gp-event-grid\.is-scrollable\{ max-height:calc\(396px/);
-  assert.match(sharedCss, /@media \(max-width:900px\)\{[\s\S]*?\.gp-event-grid\.is-scrollable\{ max-height:calc\(792px/);
+  assert.match(sharedCss, /\.gp-event-grid\.is-scrollable\{\s*max-height:calc\(396px[\s\S]*?overflow-y:auto;/);
+  assert.match(sharedCss, /@media \(max-width:1500px\)\{[\s\S]*?\.gp-event-grid\.is-scrollable\{ max-height:calc\(660px/);
+  assert.match(sharedCss, /@media \(max-width:900px\)\{[\s\S]*?\.gp-event-grid\.is-scrollable\{ max-height:calc\(1188px/);
   assert.match(sharedCss, /grid-auto-rows:var\(--gp-event-row-height\)/);
-  assert.match(sharedCss, /\.gp-oev-modal-card\{\s*box-sizing:border-box;/);
+  assert.match(sharedCss, /\.gp-oev-modal-card\{[^}]*box-sizing:border-box;/);
   // Removed 2026-08-08 at the user's request; the quiet "Updated" line stays.
   assert.doesNotMatch(appSource, /Banner data may be out of date/);
   assert.doesNotMatch(appSource, /BannerFreshnessNote/);

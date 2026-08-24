@@ -9,6 +9,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '../..');
 const helperSource = await fs.readFile(path.join(root, 'src/features/database/database-ui.js'), 'utf8');
 const appSource = await fs.readFile(path.join(root, 'src/app/nyx-app.jsx'), 'utf8');
+const sharedCss = await fs.readFile(path.join(root, 'src/styles/game-page-shared.css'), 'utf8');
 const context = { console };
 vm.runInNewContext(`${helperSource}\n;globalThis.__api={NYX_DATABASE_PAGE_SIZE,NYX_DATABASE_UNRELEASED_LABEL,nyxDatabaseFacetValue,nyxDatabaseRarityTier,nyxDatabaseActiveFilterCount,nyxDatabaseHasFacets,nyxDatabaseFacetLabel,nyxDatabaseSortFacetValues,nyxDatabaseNextLimit,nyxDatabaseEscapeAction,nyxDatabaseGroupCollapsed,nyxDatabaseGroupItems,nyxDatabaseApplyRarityFloor};`, context);
 const api = context.__api;
@@ -99,6 +100,33 @@ test('all Database details unmount before restoring tile focus without scrolling
   assert.match(appSource, /target\.focus\(\{ preventScroll:true \}\)/);
 });
 
+test('Database search rows sit below tabs, stay compact, and align left in every special view', () => {
+  assert.match(appSource, /<div className="db-tabs">[\s\S]*?<\/div>\s*\{!specialActive && \(\s*<div className="db-search-tools">/);
+  assert.match(sharedCss, /\.db-search-tools\{[^}]*width:min\(380px,100%\);[^}]*min-width:0;/);
+  assert.match(sharedCss, /\.tcg-search-tools\{[^}]*width:min\(380px,100%\);[^}]*min-width:0;/);
+  assert.match(sharedCss, /\.db-special-view > \.db-search-tools\{ justify-content:flex-start; margin-top:var\(--nyx-space-10\); \}/);
+  assert.match(sharedCss, /\.tcg-head,\.pot-head,\.wonder-head\{ justify-content:flex-start; \}/);
+  assert.doesNotMatch(sharedCss, /min-width:min\(440px,100%\)/);
+});
+
+test('shared collection details hide redundant metadata and list weapon facts in one column', () => {
+  const modal = appSource.slice(appSource.indexOf('function CollectionDetailModal'), appSource.indexOf('function GenshinShadowRealmView'));
+  assert.match(modal, /const hideKind = kind === 'artifact' \|\| isWeapon \|\| kind === 'monster' \|\| kind === 'item'/);
+  assert.match(modal, /\(kind === 'artifact' \|\| kind === 'item'\) && \(key === 'rarity' \|\| key === 'type'\)/);
+  assert.match(modal, /kind === 'monster' && key === 'type'/);
+  assert.match(modal, /className=\{'db-modal-fields' \+ \(isWeapon \? ' is-weapon' : ''\)\}/);
+  assert.match(sharedCss, /\.db-modal-fields\.is-weapon\{ grid-template-columns:minmax\(0, 1fr\); \}/);
+});
+
+test('TCG facts and ordinary actions use compact flat shared chrome', () => {
+  assert.match(sharedCss, /\.tcg-stat-grid\{[\s\S]*?grid-template-columns:repeat\(auto-fit, minmax\(104px, 1fr\)\);[\s\S]*?gap:var\(--nyx-space-4\);[\s\S]*?margin-top:var\(--nyx-space-8\);/);
+  assert.match(sharedCss, /\.tcg-stat-grid span\{[\s\S]*?padding:var\(--nyx-space-4\) var\(--nyx-space-6\);[\s\S]*?box-shadow:none;/);
+  const ordinaryHover = sharedCss.slice(sharedCss.indexOf('):is(:hover,:focus-visible,:active,.on'), sharedCss.indexOf('.nyx-time-pref-switch .nyx-time-pref-regions'));
+  assert.match(ordinaryHover, /background-image:none;/);
+  assert.match(ordinaryHover, /text-shadow:none;/);
+  assert.doesNotMatch(ordinaryHover, /linear-gradient|\.cm-hide-menu button/);
+});
+
 test('collection, Wonderland, TCG, and Pot tab buttons do not render count badges', () => {
   const collectionTabs = appSource.slice(appSource.indexOf('<div className="db-tabs">'), appSource.indexOf('</div>', appSource.indexOf('<div className="db-tabs">')) + 6);
   const wonderTabs = appSource.slice(appSource.indexOf('<div className="wonder-tabs"'), appSource.indexOf('</div>', appSource.indexOf('<div className="wonder-tabs"')) + 6);
@@ -151,7 +179,6 @@ test('Genshin navigation exposes Gallery and Shadow Realm in the requested order
 });
 
 test('Genshin Gallery includes splash art and leaves portraits and frames unboxed', async () => {
-  const css = await fs.readFile(path.join(root, 'src/styles/game-page-shared.css'), 'utf8');
   assert.match(appSource, /\['portraits', 'Portraits'\],[\s\S]*\['splashArts', 'Splash Art'\],[\s\S]*\['avatarFrames', 'Avatar Frames'\]/);
-  assert.match(css, /\.gallery-grid\.is-portraits \.gallery-art,\.gallery-grid\.is-avatarFrames \.gallery-art,\.gallery-grid\.is-splashArts \.gallery-art\{[\s\S]*background:transparent; box-shadow:none;/);
+  assert.match(sharedCss, /\.gallery-grid\.is-portraits \.gallery-art,\.gallery-grid\.is-avatarFrames \.gallery-art,\.gallery-grid\.is-splashArts \.gallery-art\{[\s\S]*background:transparent; box-shadow:none;/);
 });

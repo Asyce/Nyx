@@ -246,7 +246,8 @@ test('every supported normalized source rarity matches its generated Database ti
         const sourceId = String(row.id).replace(new RegExp(`^${config.prefix}-(?:item|mon)-`), '');
         const sourceRow = byId.get(sourceId);
         if (!sourceRow || !Object.hasOwn(sourceRow, 'rarity')) continue;
-        const expected = databaseRarityLabel(sourceRow.rarity);
+        const expected = game === 'gi' && collection === 'items' && /local specialty/i.test(String(sourceRow.type || ''))
+          ? '1 \u2605' : databaseRarityLabel(sourceRow.rarity);
         const actual = row.fields?.rarity || 'Unknown';
         if (expected !== actual) mismatches.push({ game, collection, sourceId, expected, actual });
       }
@@ -272,7 +273,7 @@ test('Unknown rarity gates remain explicit until a trustworthy source exists', (
     endfieldGear:countUnknown(inlineCollection('ae', 'gear')),
   }, {
     giMonsters:547,
-    giItems:2353,
+    giItems:2292,
     hsrMonsters:612,
     hsrRelicSets:60,
     hsrLightCones:4,
@@ -346,6 +347,9 @@ test('Genshin Items routes duplicate tabs, currencies, Gallery, and Pot from sou
   assert.equal(items.some((row) => row.fields?.type === 'Unknown Weapon'), false);
   assert.equal(items.some((row) => row.fields?.type === 'Firearm Accessory Blueprint'), false);
   assert.equal(items.filter((row) => row.fields?.type === 'Special Currency').length, 10);
+  const localSpecialties = items.filter((row) => /local specialty/i.test(row.fields?.type || ''));
+  assert.equal(localSpecialties.length, 61);
+  assert.equal(localSpecialties.every((row) => row.fields?.rarity === '1 \u2605'), true);
   for (const type of ['Wishing Item', 'Limited Wishing Item', 'Superior Voucher', 'Common Voucher']) {
     assert.equal(items.some((row) => row.fields?.type === type), false, type);
   }
@@ -382,6 +386,23 @@ test('Genshin Items routes duplicate tabs, currencies, Gallery, and Pot from sou
   assert.equal(nyx.gallery.splashArts.every((row) => row.art), true);
   assert.equal(nyx.furniture.blueprints.length, normalized.filter((row) => /Blueprint/i.test(row.type || '') && ['Furnishing Blueprint', 'Furnishing Blueprints', 'Furnishing Set Blueprint'].includes(row.type)).length);
   assert.equal(nyx.furniture.materials.every((row) => row.category === 'Material' && /\bfurniture\b|\bRealm Within\b/i.test(row.description || '')), true);
+});
+
+test('Genshin normal and Shadow Realm weapons expose ordered Lv.90 facts and cleaned R1 effects', () => {
+  const gi = readNyxDatabase().games.gi;
+  const weapons = gi.collections.find((row) => row.key === 'weapons').items;
+  const shadowWeapons = gi.shadowRealm.items.filter((row) => row.kind === 'weapon');
+  for (const row of [...weapons, ...shadowWeapons]) {
+    assert.deepEqual(Object.keys(row.fields), ['rarity', 'type', 'baseAttack', 'subStat', 'weaponEffect'], row.name);
+  }
+  assert.equal(weapons.find((row) => row.name === 'Cool Steel').fields.subStat, 'ATK \u00b7 35.2%');
+  assert.equal(weapons.find((row) => row.name === 'Dark Iron Sword').fields.subStat, 'Elemental Mastery \u00b7 141');
+  assert.equal(weapons.find((row) => row.name === 'Dull Blade').fields.subStat, 'None');
+  const coolSteelEffect = weapons.find((row) => row.name === 'Cool Steel').fields.weaponEffect;
+  assert.match(coolSteelEffect, /^Bane of Water and Ice: /);
+  assert.match(coolSteelEffect, /12%/);
+  assert.doesNotMatch(coolSteelEffect, /<[^>]+>/);
+  assert.equal(shadowWeapons.every((row) => row.fields.baseAttack === 'Unknown' && row.fields.subStat === 'Unknown'), true);
 });
 
 test('trusted exact-source Genshin backfill stays hashed after duplicate TCG variants leave Items', () => {

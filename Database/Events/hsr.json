@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-08-24T04:04:03.417Z",
+  "generatedAt": "2026-08-24T21:51:29.880Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
@@ -154,7 +154,7 @@
       "id": "hsr-hoyo-ann-59582dfb96bb",
       "title": "Version 4.4 Event Warp: Phase II",
       "type": "banner",
-      "start": "2026-08-03T22:00:00.000Z",
+      "start": "2026-08-04T04:00:00.000Z",
       "end": "2026-08-25T14:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
@@ -163,7 +163,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294",
         "kind": "official-announcement-api",
         "recordId": "1294",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -171,10 +171,10 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/c37212ec4cf6f3f79a4a51d7ad7f3b0db79966535b8728808d4c9ef152c29c78.png",
-      "description": null,
+      "description": "Dear Trailblazers,\nThe drop rates of the limited 5-star character Himeko • Nova (Erudition: Fire) and the limited 5-star Light Cone A Star That Lights the Night (Erudition) will be boosted for a limited time. The drop rates of the 4-star characters Moze (The Hunt: Lightning), Hanya (Harmony: Physical), and Serval (Erudition: Lightning), as well as the 4-star Light Cones After the Charmony Fall (Erudition), Under the Blue Sky (Destruction), and The Birth of the Self (Erudition) will also be boosted for a limited time. The Warp period is from after the Version 4.4 update to 2026/08/25 15:00:00.\nThe limited 5-star characters Cerydra (Harmony: Wind), Anaxa (Erudition: Wind), and Aventurine (Preservation: Imaginary), alongside the limited 5-star Light Cones Epoch Etched in Golden Blood (Harmony), Life Should Be Cast to Flames (Erudition), and Inherently Unjust Destiny (Preservation), will return. The Warp period is 2026/08/05 12:00:00 - 2026/08/25 15:00:00.\n〓\"Ad Astra Nova\" and \"Brilliant Fixation: A Star That Lights the Night\" Event Warps〓\n● During the \"Ad Astra Nova\" Character Event Warp, the drop rates of the limited 5-star character Himeko • Nova (Erudition: Fire) and 4-star characters Moze (The Hunt: Lightning), Hanya (Harmony: Physical), and Serval (Erudition: Lightning) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Character\nDrop Rate Boost: 4-Star Characters\nAfter the Version 4.4 update – 2026/08/25 15:00:00\nHimeko • Nova (Erudition: Fire)\nMoze (The Hunt: Lightning)\nHanya (Harmony: Physical)\nServal (Erudition: Lightning)\n● During the \"Brilliant Fixation: A Star That Lights the Night\" Light Cone Event Warp, the drop rates of the limited 5-star Light Cone A Star That Lights the Night (Erudition) and 4-star Light Cones After the Charmony Fall (Erudition), Under the Blue Sky (Destruction), and The Birth of the Self (Erudition) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Light Cone\nDrop Rate Boost: 4-Star Light Cones\nAfter the Version 4.4 update – 2026/08/25 15:00:00\nA Star That Lights the Night (Erudition)\nAfter the Charmony Fall (Erudition)\nUnder the Blue Sky (Destruction)\nThe Birth of the Self (Erudition)\n〓\"Indelible Coterie: Cerydra\" and \"Coalesced Truths: Epoch Etched in Golden Blood\" Event Warps〓\n● During the \"Indelible Coterie: Cerydra\" Character Event Warp, the drop rates of the limited 5-star character Cerydra (Harmony: Wind) and 4-star characters Moze (The Hunt: Lightning), Hanya (Harmony: Physical), and Serval (Erudition: Lightning) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Character\nDrop Rate Boost: 4-Star Characters\n2026/08/05 12:00:00 – 2026/08/25 15:00:00\nCerydra (Harmony: Wind)\nMoze (The Hunt: Lightning)\nHanya (Harmony: Physical)\nServal (Erudition: Lightning)\n● During the Light Cone Event Warp \"Coalesced Truths: Epoch Etched in Golden Blood,\" the drop rates of the limited 5-star Light Cone Epoch Etched in Golden Blood (Harmony), and 4-star Light Cones After the Charmony Fall (Erudition), Under the Blue Sky (Destruction), and The Birth of the Self (Erudition) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Light Cone\nDrop Rate Boost: 4-Star Light Cones\n2026/08/05 12:00:00 – 2026/08/25 15:00:00\nEpoch Etched in Golden Blood (Harmony)\nAfter the Charmony Fall (Erudition)\nUnder the Blue Sky (Destruction)\nThe Birth of the Self (Erudition)\n〓\"Indelible Coterie: Anaxa\" and \"Coalesced Truths: Life Should Be Cast to Flames\" Event Warps〓\n● During the \"Indelible Coterie: Anaxa\" Character Event Warp, the drop rates of the limited 5-star character Anaxa (Erudition: Wind) and 4-star characters Moze (The Hunt: Lightning), Hanya (Harmony: Physical), and Serval (Erudition: Lightning) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Character\nDrop Rate Boost: 4-Star Characters\n2026/08/05 12:00:00 – 2026/08/25 15:00:00\nAnaxa (Erudition: Wind)\nMoze (The Hunt: Lightning)\nHanya (Harmony: Physical)\nServal (Erudition: Lightning)\n● During the \"Coalesced Truths: Life Should Be Cast to Flames\" Light Cone Event Warp, the drop rates of the limited 5-star Light Cone Life Should Be Cast to Flames (Erudition), and 4-star Light Cones After the Charmony Fall (Erudition), Under the Blue Sky (Destruction), and The Birth of the Self (Erudition) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Light Cone\nDrop Rate Boost: 4-Star Light Cones\n2026/08/05 12:00:00 – 2026/08/25 15:00:00\nLife Should Be Cast to Flames (Erudition)\nAfter the Charmony Fall (Erudition)\nUnder the Blue Sky (Destruction)\nThe Birth of the Self (Erudition)\n〓\"Indelible Coterie: Aventurine\" and \"Coalesced Truths: Inherently Unjust Destiny\" Event Warps〓\n● During the \"Indelible Coterie: Aventurine\" Character Event Warp, the drop rates of the limited 5-star character Aventurine (Preservation: Imaginary) and 4-star characters Moze (The Hunt: Lightning), Hanya (Harmony: Physical), and Serval (Erudition: Lightning) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Character\nDrop Rate Boost: 4-Star Characters\n2026/08/05 12:00:00 – 2026/08/25 15:00:00\nAventurine (Preservation: Imaginary)\nMoze (The Hunt: Lightning)\nHanya (Harmony: Physical)\nServal (Erudition: Lightning)\n● During the \"Coalesced Truths: Inherently Unjust Destiny\" Light Cone Event Warp, the drop rates of the limited 5-star Light Cone Inherently Unjust Destiny (Preservation) and the 4-star Light Cones After the Charmony Fall (Erudition), Under the Blue Sky (Destruction), and The Birth of the Self (Erudition) will be boosted for a limited time.\nEvent Period\nDrop Rate Boost: 5-Star Light Cone\nDrop Rate Boost: 4-Star Light Cones\n2026/08/05 12:00:00 – 2026/08/25 15:00:00\nInherently Unjust Destiny (Preservation)\nAfter the Charmony Fall (Erudition)\nUnder the Blue Sky (Destruction)\nThe Birth of the Self (Erudition)\n〓Event Warp Details〓\n※ Among the above characters and Light Cones, limited characters and limited Light Cones will not be available in the Stellar Warp event.\n※ In this phase of Warp, obtainable 5-star characters include the featured 5-star characters and the custom-selected characters from \"Celestial Invitation.\"\n※ During the Event Warp, the limited 5-star character Himeko • Nova (Erudition: Fire) can only be obtained from the \"Ad Astra Nova\" Character Event Warp, and the limited 5-star characters Cerydra (Harmony: Wind), Anaxa (Erudition: Wind), and Aventurine (Preservation: Imaginary) can only be obtained from the corresponding \"Indelible Coterie\" Character Event Warps.\n※ During the Event Warp, the limited 5-star Light Cone A Star That Lights the Night (Erudition) can only be obtained from the \"Brilliant Fixation: A Star That Lights the Night\" Light Cone Event Warp. The limited 5-star Light Cones Epoch Etched in Golden Blood (Harmony), Life Should Be Cast to Flames (Erudition), and Inherently Unjust Destiny (Preservation) can only be obtained from the corresponding \"Coalesced Truths\" Light Cone Event Warps.\n※ \"Ad Astra Nova\" and \"Indelible Coterie\" are Character Event Warps that share the same guaranteed drop counter. The cumulative Warp count for a guaranteed 5-star character in any Character Event Warp will always be carried over to other Character Event Warps, but is independent of and unaffected by other types of Warps.\n※ \"Brilliant Fixation\" and \"Coalesced Truths\" are considered Light Cone Event Warps, and share the same guaranteed drop counter. The cumulative Warp count for a guaranteed 5-star Light Cone in any Light Cone Event Warp will always be carried over to other Light Cone Event Warps, but is independent of and unaffected by other types of Warps.\n※ The \"Indelible Coterie\" Character Event Warp and the \"Coalesced Truths\" Light Cone Event Warp will irregularly become available in future version updates. For more details, please stay tuned for official announcements.\n※ The 4-star characters and Light Cones with increased drop rates in Phase 1 and Phase 2 of Version 4.4's Warp events will remain unchanged.\n※ For more information, please head to the Warp screen.\n〓\"Aptitude Showcase\" Character Trial Event〓\n● Requirement: Unlock Travel Log\n● Event Details: After the Version 4.4 update - 2026/08/25 15:00:00, trial characters Himeko • Nova (Erudition: Fire), Moze (The Hunt: Lightning), Hanya (Harmony: Physical), and Serval (Erudition: Lightning) can be used to experience the stages; 2026/08/05 12:00:00 - 2026/08/25 15:00:00, trial characters Cerydra (Harmony: Wind), Anaxa (Erudition: Wind), and Aventurine (Preservation: Imaginary) can be used to experience the stages. Complete the challenges to obtain Stellar Jades, Adventure Logs, Universal Enhancement Materials, and credits.\n〓Celestial Invitation Custom Characters〓\n● Trailblazers can customize 7 \"Celestial Invitation\" characters in the Character Event Warp. The selectable characters are as follows.\n\"Celestial Invitation\" Selectable Characters\nYunli (Destruction: Physical)\nArgenti (Erudition: Physical)\nSilver Wolf (Nihility: Quantum)\nFu Xuan (Preservation: Quantum)\nBlade (Destruction: Wind)\nSeele (The Hunt: Quantum)\nHimeko (Erudition: Fire)\nWelt (Nihility: Imaginary)\nBronya (Harmony: Wind)\nGepard (Preservation: Ice)\nClara (Destruction: Physical)\nYanqing (The Hunt: Ice)\nBailu (Abundance: Lightning)\n/\n/\n※ The first time you obtain a 5-star character in this Warp event, there is a 50% chance that it will be one of the featured 5-star characters. There is also a 50% chance that it will be any of the obtainable 5-star characters in this Warp phase, with equal chance among them.\n※ If the Celestial Invitation characters include this phase's featured 5-star character, when you fail to trigger the 50% chance to immediately obtain the featured 5-star character, you will obtain 1 character from the featured character and 7 Celestial Invitation characters. The Celestial Invitation characters each have a consistent 12.5% drop rate while the featured character is at 25%.\n※ Regardless of whether you trigger the featured guarantee, it will be reset when you obtain the featured character.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-08-03T22:00:00.000Z",
+          "start": "2026-08-04T04:00:00.000Z",
           "end": "2026-08-25T14:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
@@ -186,7 +186,7 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
         },
         "america": {
-          "start": "2026-08-04T04:00:00.000Z",
+          "start": "2026-08-04T10:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
@@ -242,8 +242,8 @@
       "id": "hsr-hoyo-ann-38b45482599c",
       "title": "\"Imagenae: Holy Grail War\" Event Details",
       "type": "event",
-      "start": "2026-07-22T21:00:00.000Z",
-      "end": "2026-08-25T16:00:00.000Z",
+      "start": "2026-07-23T03:00:00.000Z",
+      "end": "2026-08-25T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -251,7 +251,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304",
         "kind": "official-announcement-api",
         "recordId": "1304",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -259,11 +259,11 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/b2a0883263abbc135cde6231a342f5de1dedacc67d27230fd30324b57251f863.png",
-      "description": null,
+      "description": "〓\"Imagenae: Holy Grail War\" Event Details〓\nA golden rain falls. A Holy Grail, stolen. Somewhere in the shadows beyond the Phantasmoon's reach, a certain king's treasury has unexpectedly shattered into shambles. To prevent chaos, you'll have no choice but to team up with Rin Tohsaka, a mage from another world, to restore order, and while you're at it, to claim your own share of the treasure.\n※ This collaboration event \"Fate/Star Rail Night\" will unfold as the story progresses.\n〓Limited-Time Event Period〓\n2026/07/24 12:00:00 - 2026/08/26 03:59:00\n※ After the limited-time event concludes, Fate/Star Rail Night will be moved to Conventional Memoir, where Trailblazers can continue to experience the Trailblaze Continuance and its gameplay.\n〓Participation Requirements〓\nTrailblaze Level ≥ 3\n※ Trailblaze Continuance \"Imagenae: Holy Grail War\" can be experienced in advance through the Finality's Vision function.\n※ It is recommended that Trailblazers complete the Trailblaze Mission \"Planarcadia — So Laughed the Masses\" before experiencing this content.\n〓Event Rewards〓\nLimited-Time Rewards\nPermanent Rewards\n〓Event Details:〓\n● In \"Fate/Star Rail Night\", the Trailblazer will participate in the Imagenae Holy Grail War, teaming up with Rin Tohsaka to collect scattered Treasures and use Conceptual Mystic Codes in combat.\n● The Trailblaze Continuance includes storylines such as \"The Opening Battle,\" \"Muscle Magic,\" and \"West Wind Blossom.\" As the story progresses, more usable Servants and \"Conceptual Mystic Code\" cards will be unlocked.\n● In combat, several Conceptual Mystic Code cards will be drawn each turn. Select a card to view its specific effects. Drag a card to play it and trigger the Conceptual Mystic Code effect.\n● Used Conceptual Mystic Code cards will go to the Discard Pile. When the Draw Pile is empty, the cards in the Discard Pile will be shuffled back into the Draw Pile.\n● Using Conceptual Mystic Code cards consumes corresponding magical energy. If you do not have enough magical energy or run out of cards in your hand, you can select End Turn.\n● Defeating enemies or using Conceptual Mystic Code cards will charge the corresponding Master or Servant. Once Energy is full, you can use an Ultimate with special effects.\n● The ally squad has a set amount of Team HP. Defeat all enemies before Team HP reaches zero to win.\n● Complete the Trailblaze Continuance \"After Daybreak\" to unlock Infinite Trial. You can use collected Conceptual Mystic Codes to continue taking on higher-difficulty challenges.\n〓Notes〓\n● After the \"Fate/Star Rail Night\" limited-time event ends, Trailblazers will no longer be able to obtain the limited-time rewards offered during the event, but they can still visit the Dovebrook District to experience the event and obtain permanent rewards.\n〓\"Fate Contract: Renewal\" Event Details〓\nThe wheel of fate turns endlessly, and our paths converge today. Will you renew an ancient oath, or seal a brand-new pact? Command your Servant, and fight as one.\n〓Event Period〓\n2026/07/24 12:00:00 — Before Version 4.6 ends\n〓Participation Requirements〓\nTrailblaze Level ≥ 3\n〓Event Details:〓\n● During the event, Trailblazers can log in to the game to claim the limited 5-star collaboration character Gilgamesh (Destruction: Lightning) ×1 or Archer (The Hunt: Quantum) ×1 and materials to build him to Lv. 60.\n〓\"Fate Gift\" Event Details〓\n〓Event Period〓\nDuring Version 4.4\n〓Participation Requirements〓\nUnlock Warp\n〓Event Details:〓\n● During the event, Trailblazers who spend 200 Star Rail Special Passes in any Version 4.4 Warp event can select and claim 1 limited 5-Star Light Cone from I Am As You Behold (Destruction) and The Hell Where Ideals Burn (The Hunt) after the new Version 4.4 Collaboration Warp begins at 2026/07/24 12:00:00.\n● All Warp events in Version 4.4 share the accumulated total of Star Rail Special Pass uses.\n● Trailblazers who meet the event conditions but do not claim their rewards in time will be able to select and claim 1 of the limited 5-Star Light Cones I Am As You Behold (Destruction) or The Hell Where Ideals Burn (The Hunt) via in-game mail after the event ends. The mail will be valid for 30 days.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-22T21:00:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
+          "start": "2026-07-23T03:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
@@ -274,8 +274,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
         "america": {
-          "start": "2026-07-23T03:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-07-23T09:00:00.000Z",
+          "end": "2026-08-26T04:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         }
@@ -286,8 +286,8 @@
       "id": "hsr-hoyo-ann-12c1a7a21c89",
       "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
       "type": "event",
-      "start": "2026-07-13T21:30:00.000Z",
-      "end": "2026-08-25T13:59:00.000Z",
+      "start": "2026-07-14T03:30:00.000Z",
+      "end": "2026-08-25T19:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -295,7 +295,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
         "kind": "official-announcement-api",
         "recordId": "1301",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -303,11 +303,11 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/3b36516edb600c7829a0a9dee92af8ab65f72c81b1d21726cb8df3e3eda51197.png",
-      "description": null,
+      "description": "No corner stays dust-free forever. At Aventurine's request, you launched an investigation into IPC corruption by hacking into their database.\n〓Limited-Time Event Period〓\nAfter the Version 4.4 update - 2026/08/26 03:59:00\n※ After the limited-time event concludes, Antigraft Brickbuster will be moved to Conventional Memoir, where Trailblazers can continue to experience its gameplay.\n〓Participation Requirement〓\nTrailblaze Level ≥ 21\n※ This content can be experienced in advance through the Finality's Vision function.\n※ It is recommended that Trailblazers complete the Trailblaze Missions \"Penacony — Stranger in a Strange Land\" and \"Planarcadia — Real Holy Laughter!\" before experiencing this content.\n〓Event Rewards〓\n〓Limited-Time Rewards〓\n〓Permanent Rewards〓\n〓Event Details〓\n● This event is divided into Story Mode and Multiplayer Mode.\n● In Story Mode, the Trailblazer will carry out a hack with the assistance of Silver Wolf and Prometheus. Place the extracted data blocks, counter the firewall's ability mechanics, and complete the hack as smoothly as possible.\n● Story Mode contains a total of 7 stages. Successfully completing a stage unlocks the next one. During the challenge, Trailblazers can obtain powerful abilities to tackle higher-difficulty challenges.\n● Multiplayer Mode will unlock after completing the Story Mode. Trailblazers can choose to team up with other cyber hackers to take on higher-difficulty challenges, or continue partnering with Silver Wolf and Prometheus.\n〓Note〓\n● After the Antigraft Brickbuster limited-time event ends, Trailblazers will no longer be able to obtain the limited-time rewards during the event period, but they can still visit the Radiant Feldspar map to speak with Prometheus, experience the event, and obtain permanent rewards.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-13T21:30:00.000Z",
-          "end": "2026-08-25T13:59:00.000Z",
+          "start": "2026-07-14T03:30:00.000Z",
+          "end": "2026-08-25T19:59:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
@@ -318,8 +318,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
         "america": {
-          "start": "2026-07-14T03:30:00.000Z",
-          "end": "2026-08-25T19:59:00.000Z",
+          "start": "2026-07-14T09:30:00.000Z",
+          "end": "2026-08-26T01:59:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         }
@@ -330,8 +330,8 @@
       "id": "hsr-hoyo-ann-5869c3577b20",
       "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
       "type": "event",
-      "start": "2026-07-12T22:00:00.000Z",
-      "end": "2026-11-10T16:00:00.000Z",
+      "start": "2026-07-13T04:00:00.000Z",
+      "end": "2026-11-10T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -339,7 +339,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296",
         "kind": "official-announcement-api",
         "recordId": "1296",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -347,11 +347,11 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/869a0a01780023886bf7515002180a25e49f6007c506a064174414248d8aa368.png",
-      "description": null,
+      "description": "After the Version 4.4 update, \"Currency Wars: Zero-Sum Game\" welcomes a season expansion!\nMortenax Blade and Himeko • Nova will come on board as new employees, entering Currency Wars immediately after the version update. Collaboration characters Rin Tohsaka and Gilgamesh will also officially join Currency Wars following the collaboration event update! Additionally, the Holy Grail of Destiny Bond has been added, delivering a brand-new match experience!\nSampo, Blade, Pela, and Himeko will become \"Expert Advisors\" and feature exclusive gameplay.\nIn this expansion, the Ascension Level Cap will be increased to Level 170. New content has been added to Expected Profit and Bond Links, from which Trailblazers can obtain even more rewards. The highest Rank difficulty will also be increased to A8 Wealth Creator 50.\nAdditionally, the Strategic Investment Department has strengthened a huge number of Bonds and characters, while also optimizing and adjusting some characters' Bonds, costs, positioning, and abilities. We hope Trailblazers can experience more lineups and gameplay possibilities. At the same time, a massive amount of content, including Investment Environments, Investment Strategies, and opponent factions, has been added to enrich the match environment.\nLet's check out the full update details!\n〓Update Time〓\nAfter the Version 4.4 update\n〓Reward Preview〓\n〓Expansion Content Overview〓\n● Adds four new characters: Mortenax Blade, Himeko • Nova, Rin Tohsaka, and Gilgamesh. Mortenax Blade and Himeko • Nova will immediately join Currency Wars after the version update. Rin Tohsaka and Gilgamesh will also officially join Currency Wars following the collaboration event update!\n● Adds the Holy Grail of Destiny Bond, providing a brand-new gameplay experience.\n● Sampo, Blade, Pela, and Himeko will become \"Expert Advisors\" and have their own exclusive gameplay.\n● Enhances and adjusts a huge number of characters, Bonds, and more, allowing Trailblazers to explore even more team lineups and gameplay strategies.\n● Ascension Level Cap expanded to Level 170. Increasing your Ascension Level grants rewards such as Self-Modeling Resin, Stellar Jades, and more.\n● New content has been added to Expected Profit and Bond Links. Complete them to obtain rewards such as Stellar Jades, Relic Remains, and Traveler's Guides.\n● Adds massive amounts of gameplay content including Investment Environments, Investment Strategies, Opponents, Enemy Affixes, and more.\n● Max rank difficulty increased to A8 Wealth Creator 50.\n〓New Characters〓\n■ Mortenax Blade (Nihility: Fire)\n● Cost: 2-cost\n● Bonds: Stellaron Hunters, Bloodflame, Debuff\nOff-field: Before entering combat, Mortenax Blade will forge a piece of temporary advanced equipment tailored to this unit. If Mortenax Blade is already equipped with 3 pieces of equipment, he will temporarily upgrade 1 of them at random into privileged equipment.\nAt the start of combat, Mortenax Blade will use his Ultimate to deploy a Zone, weakening enemies and buffing allies. When taking action, Mortenax Blade consumes HP to attack enemies, and using his Ultimate can restore HP. Additionally, when on-field teammates attack, Mortenax Blade can gain Charge to use an extra Skill.\n■ Himeko • Nova (Erudition: Fire)\n● Cost: 3-cost\n● Bonds: Express Cohort, Navigator (Independent Bond)\n● Character Empowerment:\nOn-field: Gains more Base On-Field Strength upon star-up, and \"Trailblaze Companions\" members can also use \"Assist Skill\" while off-field.\n● Navigator (Independent Bond):\nYou can select other characters from the \"Express Cohort\" Bond to enhance.\nAfter selecting a character, Himeko • Nova gains the following buffs:\nHimeko • Nova will directly join the selected character's school Bond, obtain the corresponding Bond effect, and increase the Bond tally by 1.\nObtain the equipment effect of the selected character's first piece of equipment.\nDepending on the chosen character, the \"Astral Express\" summoned by \"Express Cohort\" will vary, and Himeko • Nova's abilities will gain different enhancement effects. Additionally, the \"Light Rail\" provided upon impact by the \"Astral Express\" will also produce different additional effects based on the selected character.\n■ Rin Tohsaka (Erudition: Quantum)\n● Cost: 1-cost\n● Bonds: Skill Points, Holy Grail of Destiny\n● Character Empowerment:\nOn-field: After obtaining a certain amount of \"Gem Energy,\" a Joint Follow-Up ATK with Archer can be launched regardless of whether Archer is on the field. After using the Enhanced Skill, \"Gem Energy\" will be consumed to increase the ally squad's CRIT DMG.\nOff-field: When Skill Points change, gains \"Gem Energy\" and can launch a Joint ATK. When taking action, consumes all \"Gem Energy\" to attack enemies and provide CRIT DMG to allies.\n※ After the Version 4.4 update – 2026/07/24 12:00:00 before the collaboration content goes live, Rin Tohsaka will appear in the store in her \"Projection\" form. Rin Tohsaka in the \"Projection\" state possesses this unit's Bonds and \"Projection\" state effects. In the \"Projection\" state, star-up is unavailable, and the character model and ability effects will not be displayed.\n■ Gilgamesh (Destruction: Lightning)\n● Cost: 2-cost\n● Bonds: Energy, Holy Grail of Destiny\n● Character Empowerment:\nOn-field: Increases all allies' Lucky Strike DMG based on the squad's equipment count. Gilgamesh himself gains an even greater bonus.\nOff-field: Enters an enhanced state based on squad actions, using Skill and Ultimate to attack all enemies. Increases Lucky Strike DMG for all allies based on the squad's equipment count. Gilgamesh himself gains double this bonus.\n※ After the Version 4.4 update – 2026/07/24 12:00:00 before the collaboration content goes live, Gilgamesh will appear in the Store in \"Projection\" form. In the \"Projection\" state, Gilgamesh possesses this unit's Bonds and \"Projection\" state effects. While in the \"Projection\" state, star up is unavailable, and the character model and ability effects will not be displayed.\n〓New Bond〓\n■ School Bond: Holy Grail of Destiny\n● Bond Levels: 2/3/4/5\n● Bond Members: Rin Tohsaka, Gilgamesh, Saber, Archer\n● Bond Effect:\nThe Bond Level provides On/Off-Field Strength to characters within the Bond.\nAdditionally, when your Bond level increases, you can perform one \"Holy Grail Wish.\" The Holy Grail will randomly issue two wish missions. Complete either one of your choice to obtain the corresponding wish mission reward.\nMission difficulty and rewards both scale with your Bond level. Complete missions for a chance to score \"Destiny Components\" such as \"Avalon\" and \"Enuma Elish.\" Equip them to unlock powerful bonus effects! You might also snag rewards like Gold Coins, Emblems, various items, or even recruit Archer directly in the early stages!\n● Enhanced Character: Saber\nSaber: Increased the character's base DMG.\n※ Following the Version 4.4 update and prior to the collaboration content going live at 2026/07/24 12:00:00, the Holy Grail's magical energy will not yet be fully replenished, and thus wish missions will not be issued. During this phase, the \"Holy Grail of Destiny\" Bond will provide temporary buffs to the entire team based on the Bond level.\n〓Expert Advisors〓\n● After the Version 4.4 update, Sampo, Blade, Pela, and Himeko will become \"Expert Advisors\" and feature exclusive gameplay.\n〓Character & Bond Adjustments〓\n■ DoT\n● New Bond member added: Jiaoqiu (1-Cost)\n● Became an Expert Advisor: Sampo.\n● Increased the DMG Amplification provided by the Bond effect. Increased the DoT multiplier applied to the enemy when \"Super Excitation\" is triggered. Increased the trigger count of \"Super Excitation\" at Bond Level 6.\n● Since Jiaoqiu will be joining the \"DoT\" Bond, he will leave the \"Heal\" Bond.\n● Enhanced Character: Jiaoqiu\nJiaoqiu: Jiaoqiu can immediately use his Ultimate at the start of combat. His Ultimate also increases the DoT taken by enemies.\n■ Bloodflame\n● New Bond member added: Mortenax Blade (2-Cost)\n● Became an Expert Advisor: Blade.\n● Bond Member Cost Adjustments: Mydei (2-Cost → 1-Cost), and adjusted the Base Stats corresponding to each star rating.\n● Increased the DMG Amplification provided by \"Bloodflame Arena\" for \"Bloodflame\" team members.\n● Enhanced Characters: Mydei, Jingliu\nMydei: Increased the character's base DMG.\nJingliu: Increased the character's base DMG. When consuming squad members' HP, additionally increases their CRIT DMG.\n■ Energy\n● New Bond member added: Gilgamesh (2-Cost)\n● Sunday: Added off-field positioning. When off-field, the original \"The Light Is With Us\" effect can still be triggered. Adjusted Sunday's auto-battle logic.\n● Due to the addition of a new member, Argenti will leave the \"Energy\" Bond.\nIncreased Argenti's character base DMG, and increased the ATK provided by the Character Empowerment \"Sublime Object.\"\n● Increased the Ultimate DMG Amplification provided by Bond levels and the DMG Amplification provided by \"Energy Tiles.\"\n● Enhanced Characters: Saber, Yunli\nSaber: Increased the character's base DMG.\nYunli: Increased the character's base DMG.\n■ Cosmic Scholar\n● Increased the DMG Mitigation effect provided by \"Cake Cat.\"\n● Enhanced Characters: Ruan Mei, The Herta\nRuan Mei: Increased the All-Type RES PEN effect provided by the Ultimate, and increased the DMG Boost effect provided by the Skill.\nThe Herta: Increased the character's base DMG.\n■ Wolf Hunt\n● Increased the DMG multiplier and Lucky Strike chance for \"Borisin\" at each level.\n● Enhanced Characters: Jiaoqiu, Jingliu, Yanqing, Yunli\nJiaoqiu: Jiaoqiu can immediately use his Ultimate at the start of combat. His Ultimate also increases the DoT taken by enemies.\nJingliu: Increased the character's base DMG. When consuming squad members' HP, additionally increases their CRIT DMG.\nYanqing: Increased the character's base DMG.\nYunli: Increased the character's base DMG.\n■ Belobog\n● Became Expert Advisors: Sampo, Pela.\n● Bond Level Adjustment: As Sampo and Pela have become Expert Advisors, Bond levels are adjusted from 2/4/6 to 2/4. The previous effects of the 4/6 Bond levels will now apply to the 2/4 Bond levels.\n● The Max Charge of the \"Engine of Creation\" has been reduced from 12 to 10. When fully charged with 10 Energy, the \"Engine of Creation\" can take action.\n■ Debuff\n● New Bond member added: Mortenax Blade (2-Cost)\n● Became an Expert Advisor: Pela.\n● Enhanced Characters: Jiaoqiu, Yanqing\nJiaoqiu: Jiaoqiu can immediately use his Ultimate at the start of combat. His Ultimate also increases the DoT taken by enemies.\nYanqing: Increased the character's base DMG.\n■ Express Cohort\n● New Bond member added: Himeko • Nova (3-Cost)\n● Became an Expert Advisor: Himeko.\n● Enhanced Character: March 7th\nMarch 7th: New Talent \"Poem of Flawlessness\": Increases DMG dealt by the ally squad.\n■ Break\n● Became an Expert Advisor: Himeko.\n● Bond Level Adjustments: Since Himeko has become an Expert Advisor, the Bond levels have been adjusted from 2/4/6/8/10 to 2/4/6/9, and the effects of each Bond level have been adjusted accordingly.\n■ Night Demigod\n● Bond Member Cost Adjustments: Mydei (2-Cost → 1-Cost), and adjusted the Base Stats corresponding to each star rating.\n● Increased the on/off-field strength provided to \"Night Demigod\" team members at different Bond levels.\n● Enhanced Character: Mydei\nMydei: Increased the character's base DMG.\n■ Stellaron Hunters\n● New Bond member added: Mortenax Blade (2-Cost)\nMortenax Blade \"Star Hunter\" Effect: After every 6 attacks by a \"Stellaron Hunter,\" Mortenax Blade immediately uses Ultimate to attack the enemy. Attack count begins at 4 at the start of combat.\n● Became an Expert Advisor: Blade.\n■ Galactic Voyager\n● New Bond member added: Welt (5-Cost)\n● Became an Expert Advisor: Sampo.\n● \"Galactic Voyager\" Welt Character Effect: Increases Lucky Strike Rate.\n● As Saber and Archer will join the \"Holy Grail of Destiny\" Bond, they will leave the \"Galactic Voyager\" Bond.\n■ Skill Points\n● New Bond member added: Rin Tohsaka (1-Cost)\n● Due to the addition of a new member, Yao Guang will leave the \"Skill Points\" Bond.\n〓New Rewards〓\n● \"Ascension Level\": Cap expanded to Lv. 170. Increasing your Ascension Level grants rewards such as Self-Modeling Resins, Stellar Jades, and more.\n● \"Bond Link\": New content added. Complete it to obtain Stellar Jades and other rewards.\n● \"Expected Profit\": A new mission module \"Phase Rewards III\" has been added. Complete it to obtain Relic Remains, Traveler's Guides, and other rewards.\n〓Equipment〓\n● Added \"Holy Grail of Destiny Emblem.\"\nEmblem Effect: The wearer joins the \"Holy Grail of Destiny\" Bond.\n〓Investment Environments and Strategies〓\n■ New Investment Environment & Investment Strategies\n● Added 3 new Investment Environments and 19 new Investment Strategies.\n■ Investment Strategy Adjustments\n● \"Twin Dragons\": Investment Strategy tier adjusted to Golden.\n● \"Companion in White\": Investment Strategy tier adjusted to Golden.\n〓Enemies〓\n■ Opponent Faction\n● Adds 1 brand new opponent faction.\n\"The Artist Family Business\": Boss \"Murata Graphia, Founding Artist\"\n■ Enemy Affixes\n● Adds new enemy affixes.\n〓Rank Difficulty〓\n● Max rank difficulty increased to A8 Wealth Creator 50.\n〓Other Major Bug Fixes〓\n● Fixes an issue in the Currency Wars gameplay where some DMG was not considered as Follow-Up ATK DMG when the Follow-Up ATK Emblem was equipped.\n● Fixes an issue in the Currency Wars gameplay where the effect of the Investment Strategy \"Liquidate\" was abnormal under specific circumstances during combat against the enemy The Giver, Master of Legions, Lance of Fury.\n● Fixes an issue in the Currency Wars gameplay where some DMG types for the character Evanescia (Elation: Physical) were incorrect under specific circumstances.\n● Fixes an issue in the Currency Wars gameplay where HP displays abnormally during the preparation phase under specific circumstances.\n● Fixes an issue in the Currency Wars gameplay where certain values in the \"Character Index\" displayed abnormally under specific circumstances.\n● Fixes an issue where certain in-game UI elements displayed abnormally.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-12T22:00:00.000Z",
-          "end": "2026-11-10T16:00:00.000Z",
+          "start": "2026-07-13T04:00:00.000Z",
+          "end": "2026-11-10T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
@@ -362,8 +362,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
         "america": {
-          "start": "2026-07-13T04:00:00.000Z",
-          "end": "2026-11-10T22:00:00.000Z",
+          "start": "2026-07-13T10:00:00.000Z",
+          "end": "2026-11-11T04:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         }
@@ -374,8 +374,8 @@
       "id": "hsr-hoyo-ann-ca5a1c47222c",
       "title": "Version 4.4 Store Update",
       "type": "event",
-      "start": "2026-07-03T07:00:00.000Z",
-      "end": "2026-08-25T16:00:00.000Z",
+      "start": "2026-07-03T13:00:00.000Z",
+      "end": "2026-08-25T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -383,7 +383,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299",
         "kind": "official-announcement-api",
         "recordId": "1299",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -391,11 +391,11 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8.png",
-      "description": null,
+      "description": "Dear Trailblazers,\nIn Version 4.4, Sparxie's brand-new Outfit \"Candy-Coated Waves\" will be available in the in-game Store! Super value bundles will also be available for a limited time! Additionally, a new pet, Trailblaze Fashion, and more will be added to the \"Gift of Stardust\" Exchange Shop!\n〓Sparxie Outfit \"Candy-Coated Waves\" Available at a Discount〓\nFollowing the Version 4.4 update, the Candy-Coated Waves outfit will be temporarily sold at Oneiric Shard ×1,350.\n〓Discount Period〓\nAfter the Version 4.4 update - 2026/08/26 06:00:00\n〓Outfit Details〓\n● For the duration of this special promotion, the Candy-Coated Waves outfit will be temporarily sold at Oneiric Shard ×1,350. After the event ends, this outfit will revert to the original price of Oneiric Shard ×1,680.\n● \"Candy-Coated Waves\" can only be used by Sparxie.\n● Obtaining the outfit will unlock the corresponding avatar.\n● This outfit is limited to 1 piece per account and cannot be acquired repeatedly.\n● After changing into \"Candy-Coated Waves,\" Sparxie will wear the corresponding outfit during exploration and combat.\n● Outfits wore will not change the outfit shown on the characters during cinematics.\n〓Limited-Time Pack \"Special Ticket\"〓\nPurchase this pack to get Star Rail Special Pass ×1, Star Rail Pass ×1, and credit ×30,000!\n〓Release Time〓\nAfter the Version 4.4 update – 2026/08/25 15:00:00\n〓Package Details〓\n● Purchase to get Star Rail Special Pass ×1, Star Rail Pass ×1, and credit ×30,000!\n● During the sale period, this pack can only be purchased once. In case of accidental duplicate purchases, Oneiric Shard ×60 will be directly refunded.\n● Trailblazers who purchase the pack through external channels (such as the web top-up center) should log in to the game promptly after purchase to claim their rewards. If you log in after the pack is no longer available, you will receive Oneiric Shard ×60 directly instead.\n〓Limited-Time Pack \"Trailblaze Assistance\"〓\nLog in daily to gain rewards! Log in for 5 days to receive a total of Oneiric Shard ×320, Star Rail Special Pass ×4, and Fuel ×10!\n〓Release Time〓\nAfter the Version 4.4 update – 2026/08/25 15:00:00\n〓Package Details〓\n● Upon purchase, Trailblazers will immediately receive the first-day reward of Oneiric Shard ×320 and Fuel ×2.\n● Starting from the next day, log in daily to unlock Star Rail Special Pass ×1 and Fuel ×2 as rewards, for a total of 4 sets.\n● From the day of purchase, Trailblazers can log in daily within 10 days to unlock the corresponding rewards. One reward can be unlocked per day, and any unclaimed rewards will be forfeited.\n● During the sale period, this pack can only be purchased once. If duplicate purchases occur due to special circumstances, Oneiric Shard ×330 will be refunded directly.\n● Trailblazers who purchase the pack through external channels (such as the web top-up center) should log in to the game promptly after purchase to claim their rewards. If you log in after the pack is no longer available, you will receive Oneiric Shard ×330 directly instead.\n〓Limited-Time Pack \"Special Pass Exclusive Giftbox\"〓\nPurchase this pack to get Star Rail Special Pass ×10 and credit ×100,000!\n〓Release Time〓\nAfter the Version 4.4 update – 2026/08/25 15:00:00\n〓Package Details〓\n● Purchase to get Star Rail Special Pass ×10 and credit ×100,000!\n● During the sale period, this pack can only be purchased 2 times. In case of accidental duplicate purchases, Oneiric Shard ×1,090 will be directly refunded for each purchase.\n● Trailblazers who purchase the pack through external channels (such as the web top-up center) should log in to the game promptly after purchase to claim their rewards. If you log in after the pack is no longer available, you will receive Oneiric Shard ×1,090 directly instead.\n〓Notes on Limited-Time Packs \"Special Ticket,\" \"Trailblaze Assistance,\" and \"Special Pass Exclusive Giftbox\"〓\n● For the \"Special Ticket,\" \"Trailblaze Assistance,\" and \"Special Pass Exclusive Giftbox\" packs, Trailblazers should refer to the actual prices displayed in the Store after the packs are listed.\n● In the Web Top-up Center, the purchase period for the \"Special Ticket,\" \"Trailblaze Assistance,\" and \"Special Pass Exclusive Giftbox\" bundles will end at 2026/08/24 15:00:00. Trailblazers using web top-up should take note of the available purchase time.\n〓Gift of Stardust Store Updated for Version 4.4〓\n〓New Arrival Time〓\nAfter the Version 4.4 update\n〓New Exchange Items〓\n● Pet \"Pentaflavor Emoti\" Exchange Price: Lone Stardust ×1600\n● Trailblaze Fashion - Headwear \"Fan-Made Lygus\" Exchange Price: Lone Stardust ×800\n● Avatar - \"Thanks So Much, Meow\" Exchange Price: Lone Stardust ×400\n● Avatar - \"Where the Will Leads\" Exchange Price: Lone Stardust ×400\n● Name Card - \"Soar Beyond\" Exchange Price: Lone Stardust ×400\n〓Version 4.4 Contract Shop Store Update〓\n〓Availability Period〓\nAfter the Version 4.4 update – 2026/08/25 15:00:00\n〓The Herta Contract: Strategic Support〓\nContract Content: Selectable item combo bundle. The Trailblazer can pick any two of the following items (One item may be chosen multiple times):\nSelf-Modeling Resin ×1, Relic Remains ×800, Tears of Dreams ×240, Traveler's Guide ×100, Refined Aether ×80, Lost Crystal ×120\nPrice: Oneiric Shard ×720. A maximum of 5 can be purchased per account while the item is available.\n〓The Herta Contract: Strategic Cooperation〓\nContract Content: Selectable item combo bundle. The Trailblazer will obtain Star Rail Special Pass ×10 and can pick any three of the following items (One item may be chosen multiple times):\nSelf-Modeling Resin ×2, Relic Remains ×1,600, Tears of Dreams ×480, Lost Crystal ×240\nPrice: Oneiric Shard ×2,680. A maximum of 5 can be purchased per account while the item is available.\n〓Herta Contract: Roaming Refill〓\nContent: Traveler's Guide ×20, Refined Aether ×15, and credit ×60,000\nPrice: Oneiric Shard ×330. A maximum of 8 can be purchased per account while the item is available.\n〓Herta Contract: Resource Supply V2〓\nContent: Universal Path material Tears of Dreams ×150 and credit ×60,000\nPrice: Oneiric Shard ×660. A maximum of 5 can be purchased per account while the item is available.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-03T07:00:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
+          "start": "2026-07-03T13:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         },
@@ -406,8 +406,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         },
         "america": {
-          "start": "2026-07-03T13:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-07-03T19:00:00.000Z",
+          "end": "2026-08-26T04:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         }
@@ -418,7 +418,7 @@
       "id": "hsr-hoyo-ann-093f57d0dc07",
       "title": "Fate[UBW] Collaboration Warp Details",
       "type": "banner",
-      "start": "2026-07-03T06:55:00.000Z",
+      "start": "2026-07-03T12:55:00.000Z",
       "end": null,
       "server": "europe",
       "timezone": "UTC+01:00",
@@ -427,7 +427,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339",
         "kind": "official-announcement-api",
         "recordId": "1339",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -435,10 +435,10 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
-      "description": null,
+      "description": "Dear Trailblazers,\nCharacters Rin Tohsaka and Gilgamesh, as well as Light Cones Flickering Stars and I Am As You Behold, will be added to the Fate[UBW] Collaboration Warp, and will be available long-term after 2026/07/24 12:00:00.\nThe Fate[UBW] Collaboration Warp includes the following:\n〓\"The Gem Coursing in Red\" Character Collaboration Warp〓\n● During the \"The Gem Coursing in Red\" Character Collaboration Warp period, the drop rate of the limited 5-star collaboration character Rin Tohsaka (Erudition: Quantum) will be boosted.\n〓\"Kaleidic Coruscation\" Light Cone Collaboration Warp〓\n● During the \"Kaleidic Coruscation\" Collaboration Light Cone Warp period, the drop rate of the limited 5-star collaboration Light Cone Flickering Stars (Erudition) will be boosted.\n〓\"Of the Beginning, Enuma Elish\" Character Collaboration Warp〓\n● During the \"Of the Beginning, Enuma Elish\" Character Collaboration Warp period, the drop rate of the limited 5-star collaboration character Gilgamesh (Destruction: Lightning) will be boosted.\n〓\"Age of Gods Golden Gate\" Light Cone Collaboration Warp〓\n● During the \"Age of Gods Golden Gate\" Light Cone Collaboration Warp period, the drop rate of the limited 5-star collaboration Light Cone I Am As You Behold (Destruction) will be boosted.\n〓\"Excalibur Excelsior\" Character Collaboration Warp〓\n● During the \"Excalibur Excelsior\" Character Collaboration Warp period, the drop rate of the limited 5-star collaboration character Saber (Destruction: Wind) will be boosted.\n〓\"Birth of a King\" Light Cone Collaboration Warp〓\n● During the \"Birth of a King\" Light Cone Collaboration Warp period, the drop rate of the limited 5-star collaboration Light Cone A Thankless Coronation (Destruction) will be boosted.\n〓\"I Am the Bone of My Sword\" Character Collaboration Warp〓\n● During the \"I Am the Bone of My Sword\" Character Collaboration Warp period, the drop rate of the limited 5-star collaboration character Archer (The Hunt: Quantum) will be boosted.\n〓\"Red Radiance of Fuyuki\" Light Cone Collaboration Warp〓\n● During the \"Red Radiance of Fuyuki\" Light Cone Collaboration Warp period, the drop rate of the limited 5-star collaboration Light Cone The Hell Where Ideals Burn (The Hunt) will be boosted.\n※ Characters Rin Tohsaka, Gilgamesh, Saber, and Archer, as well as Light Cones Flickering Stars, I Am As You Behold, A Thankless Coronation, and The Hell Where Ideals Burn all belong to the Fate[UBW] Collaboration Warp. Please see below for details regarding the guarantee rules.\n〓Fate[UBW] Collaboration Warp Details〓\n※ \"The Gem Coursing in Red,\" \"Of the Beginning, Enuma Elish,\" and the currently available \"Excalibur Excelsior\" and \"I Am the Bone of My Sword\" Warps are all considered Fate[UBW] Character Collaboration Warps, and share the same guaranteed drop counter. The cumulative Warp count for a guaranteed 5-star character in any Fate[UBW] Character Collaboration Warp will always be carried over to other Fate[UBW] Character Collaboration Warps, but is independent of and unaffected by other types of Warps.\n※ The \"Kaleidic Coruscation\" and \"Age of Gods Golden Gate\" Warps, as well as the currently available \"Birth of a King\" and \"Red Radiance of Fuyuki\" Warps, are all considered Fate[UBW] Light Cone Collaboration Warps, and share the same guaranteed drop counter. The cumulative Warp count for a guaranteed 5-star Light Cone in any Fate[UBW] Light Cone Collaboration Warp will always be carried over to other Fate[UBW] Light Cone Collaboration Warps, but is independent of and unaffected by other types of Warps.\n※ During the Collaboration Warp period, the limited 5-star collaboration character Rin Tohsaka (Erudition: Quantum) can only be obtained from the \"The Gem Coursing in Red\" Character Collaboration Warp, and the limited 5-star collaboration character Gilgamesh (Destruction: Lightning) can only be obtained from the \"Of the Beginning, Enuma Elish\" Character Collaboration Warp. The limited 5-star collaboration character Saber (Destruction: Wind) can only be obtained from the \"Excalibur Excelsior\" Character Collaboration Warp, and the limited 5-star collaboration character Archer (The Hunt: Quantum) can only be obtained from the \"I Am the Bone of My Sword\" Character Collaboration Warp.\n※ During the Collaboration Warp period, the limited 5-star collaboration Light Cone Flickering Stars (Erudition) can only be obtained from the \"Kaleidic Coruscation\" Light Cone Collaboration Warp, and the limited 5-star collaboration Light Cone I Am As You Behold (Destruction) can only be obtained from the \"Age of Gods Golden Gate\" Light Cone Collaboration Warp. The limited 5-star collaboration Light Cone A Thankless Coronation (Destruction) can only be obtained from the \"Birth of a King\" Light Cone Collaboration Warp, and the limited 5-star collaboration Light Cone The Hell Where Ideals Burn (The Hunt) can only be obtained from the \"Red Radiance of Fuyuki\" Light Cone Collaboration Warp.\n※ In the Fate[UBW] Character Collaboration Warp, obtainable 5-star characters include the featured 5-star characters and the custom-selected characters from \"Celestial Invitation.\"\n※ In the Fate[UBW] Character Collaboration Warp, there are no featured 4-star rate-up characters. The drop rates for all 4-star characters are equal.\n※ In the Fate[UBW] Light Cone Collaboration Warp, there are no featured 4-star rate-up Light Cones. The drop rates for all 4-star Light Cones are equal.\n※ The Fate[UBW] Collaboration Warp will be available for a long time, with no scheduled end date.\n※ For more details, please head to the Warp screen.\n※ Should any of the above details change, a prior notice will be issued.\n※ Special Note on Collaboration Character English Voiceovers: The collaboration characters have no English voiceovers. Without changing your audio language in Settings, you may individually switch each collaboration character's interaction, combat, and idle voice lines to the Fate[UBW] Original Licensed Voice (Japanese) via Character Details Profile Voice.\n〓Character Trial Event: Along With Heroic Spirits Update〓\n● Requirement: Unlock Travel Log\n● Event Period: Updates after 2026/07/24 12:00:00\n● Event Details: Trial stages for the new characters Rin Tohsaka (Erudition: Quantum) and Gilgamesh (Destruction: Lightning) have been added. Upon completing the challenges, Trailblazers can obtain Stellar Jades, Adventure Logs, Universal Enhancement Materials, and credits.\n〓Celestial Invitation Custom Characters〓\nTrailblazers can customize 7 \"Celestial Invitation\" characters in the Fate[UBW] Character Collaboration Warp.\n※ The first time you obtain a 5-star character in this Warp event, there is a 50% chance that it will be one of the featured 5-star characters. There is also a 50% chance that it will be any of the obtainable 5-star characters in this Warp phase, with equal chance among them.\n※ The selectable character catalog of \"Celestial Invitation\" in the \"Fate[UBW] Character Collaboration Warp\" will remain identical to that in the \"Character Event Warp\" and will be updated simultaneously.\n※ Regardless of whether you trigger the featured guarantee, it will be reset when you obtain the featured character.\n〓5-Star Character Eidolon Surplus Special Note〓\n● When Trailblazers obtain a 5-star character's Eidolon (including limited collaboration characters) that has already reached max Eidolons, they will additionally receive Silver Companion Spirit ×1.\n● The optimization for 5-star character Eidolon surplus applies to all sources and methods of obtaining 5-star characters.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-03T06:55:00.000Z",
+          "start": "2026-07-03T12:55:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         },
@@ -448,8 +448,7 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         },
         "america": {
-          "start": "2026-08-14T09:00:00.000Z",
-          "end": "2026-08-24T08:59:00.000Z",
+          "start": "2026-07-03T18:55:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         }
@@ -460,8 +459,8 @@
       "id": "hsr-hoyo-ann-df1a5352d767",
       "title": "Stellar Companions: Log in to receive Golden Companion Spirit ×1",
       "type": "event",
-      "start": "2026-04-10T06:55:00.000Z",
-      "end": "2026-08-25T16:00:00.000Z",
+      "start": "2026-04-10T12:55:00.000Z",
+      "end": "2026-08-25T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -469,7 +468,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232",
         "kind": "official-announcement-api",
         "recordId": "1232",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -477,11 +476,11 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/4bf78cbe301d96400af64abce9bd4fec2d883f7a644efc9a5d0c3d21c3203a7a.png",
-      "description": null,
+      "description": "〓Event Period〓\nAfter the Version 4.2 update – Before Version 4.4 ends\n〓Participation Requirement〓\nTrailblaze Level ≥4 and unlock the Travel Log\n〓Event Reward〓\n〓Event Details〓\n● Use Golden Companion Spirits at the Stellar Convergence shop to exchange characters and items.\n● The following characters can be exchanged:\nRobin (Harmony: Physical), Huohuo (Abundance: Wind), Topaz & Numby (The Hunt: Fire), Ruan Mei (Harmony: Ice), Luocha (Abundance: Imaginary)\nHimeko (Erudition: Fire), Welt (Nihility: Imaginary), Bronya (Harmony: Wind), Gepard (Preservation: Ice), Clara (Destruction: Physical), Yanqing (The Hunt: Ice), and Bailu (Abundance: Lightning)",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-04-10T06:55:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
+          "start": "2026-04-10T12:55:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         },
@@ -492,8 +491,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         },
         "america": {
-          "start": "2026-04-10T12:55:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-04-10T18:55:00.000Z",
+          "end": "2026-08-26T04:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         }
@@ -504,8 +503,8 @@
       "id": "hsr-hoyo-ann-77749febed58",
       "title": "\"Divergent Universe: Arcadian Chronicles\": Massive Update to New Divergent Universe Subject",
       "type": "event",
-      "start": "2026-03-23T04:00:00.000Z",
-      "end": "2026-08-25T16:00:00.000Z",
+      "start": "2026-03-23T10:00:00.000Z",
+      "end": "2026-08-25T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -513,7 +512,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211",
         "kind": "official-announcement-api",
         "recordId": "1211",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -521,11 +520,11 @@
       "permanence": "timed",
       "needs_review": false,
       "image": "/assets/events/hsr/98310d03bd63f9ae262601083ef2cc1a2c3d87d2c44b043f443dc7cdef223fe2.png",
-      "description": null,
+      "description": "The Phantasmoon is full once more, and countless acts of \"Elation\" are staging themselves in every corner of the universe. And the subject of extrapolation this time is none other than these games, one after another...\n〓Update Time〓\nAfter the Version 4.1 update\n〓Participation Requirements〓\nClear Simulated Universe: World 3\n※ This content can be experienced in advance through the Finality's Vision function.\n〓Divergent Universe: Arcadian Chronicles Rewards Preview〓\n〓Update Notes〓\nA new subject in the Divergent Universe is now available! Not only does it feature the brand-new \"Mask\" gameplay and a new way to select Domains, but it also includes massive updates to Blessings, Equations, Weighted Curios, and random Occurrences!\n■ Supplicant's Mask\n● The new \"Supplicant's Mask\" gameplay mode is now available! Select a mask before each run to decide your play style.\n● Different masks possess different \"Mask Effects,\" providing various buffs during combat.\n● Different masks can obtain \"Wishpower\" in various ways to level up. After leveling up, you can select a \"miracle\" that either enhances \"Mask Effects\" or provides various buffs.\n● \"Highlights\" will appear during combat. When \"Highlights\" Charge reaches 100%, it will enhance the character and cause them to immediately take action. Mask Level Ups will further enhance the effects of \"Highlights.\"\n■ Domains & Beacons\n● The brand-new \"Deck\" system combines with the \"Supplicant's Mask\" effects to make Domain Selection more strategic than ever!\n● At the start of every extrapolation, you will obtain a deck which includes the Domains you may encounter during this run.\n● Before entering each Domain, the Trailblazer will draw several Domains from the deck's Draw Pile, and select the Domain to proceed to.\n● The Domain drawn this time will enter the discard pile. After the draw pile is depleted, Domains in the discard pile will return to the draw pile after a Shuffle.\n● Domains can be leveled up. After leveling up a Domain, its contents will be enhanced.\n● Most Domains can have \"beacons\" attached to them, granting the Domain various bonus effects.\n● Mask effects and \"miracles\" obtained from Level Ups will also bring various effects to your deck and Domains.\n■ Moonlit Tales\n● Completing the extrapolation will grant the \"Cartridge\" item, used to activate \"Moonlit Tales.\"\n● Activate \"Moonlit Tales\" to obtain various buffs. You can also unlock and view Secrets.\n■ Character Trial & Enhancement Effects\n● Trial characters will be available in the Divergent Universe. You will be able to try out all characters released from two versions ago or earlier.\n● In the Divergent Universe, all characters will receive different buffs.\n〓Special Notice〓\n● After this update, the Divergent Universe: Protean Hero rewards will be reset. The reset contents include:\n\"Gallery of Possibilities\" Rewards and Collection Progress\n\"Stable Computing Array\" Rewards\n\"Synchronicity Level\" Rewards & Levels\nOrdinary Extrapolation First-Time Clearance Rewards\n\"Divergent Universe: Protean Hero\" - Related Tutorials Entries\n※ \"Threshold Protocol\" progress and the \"Divergent Universe: Protean Hero\" title will be carried over based on specific rules.\n※ Activated Nodes and claimed \"Inspiration\" in the \"Inspiration Circuit\" will not be reset.\n※ After the countdown ends, all Operational Records of Divergent Universe: Protean Hero will be unlocked.\nDon't forget to claim your rewards in time, Trailblazer~",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-03-23T04:00:00.000Z",
-          "end": "2026-08-25T16:00:00.000Z",
+          "start": "2026-03-23T10:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         },
@@ -536,8 +535,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         },
         "america": {
-          "start": "2026-03-23T10:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-03-23T16:00:00.000Z",
+          "end": "2026-08-26T04:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         }
@@ -557,7 +556,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1386",
         "kind": "official-announcement-api",
         "recordId": "1386",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "low",
@@ -565,7 +564,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Trailblazers, Starting today, Trailblazers who have linked their Discord accounts can check in via the \"Astral Express\" bot on the official Discord server during every version. Each check-in grants 30 Stellar Jades! Link account What are you waiting for? Head over to Discord to link your account and join the official Discord server to claim your rewards! Important Reminder: Trailblazers who link their accounts for the first time will also receive an extra 30 Stellar Jades.",
+      "description": "Dear Trailblazers,\nStarting today, Trailblazers who have linked their Discord accounts can check in via the \"Astral Express\" bot on the official Discord server during every version. Each check-in grants 30 Stellar Jades!\nLink account\nWhat are you waiting for? Head over to Discord to link your account and join the official Discord server to claim your rewards!\nImportant Reminder: Trailblazers who link their accounts for the first time will also receive an extra 30 Stellar Jades.",
       "windowsByRegion": {}
     },
     {
@@ -582,7 +581,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1361",
         "kind": "official-announcement-api",
         "recordId": "1361",
-        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "fetchedAt": "2026-08-24T21:51:32.485Z",
         "priority": 1
       },
       "confidence": "low",
@@ -590,7 +589,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Trailblazers, During the event, Trailblazers can increase their Nameless Honor level to obtain rewards such as Star Rail Passes, Self-Modeling Resins, and Tracks of Destiny. After unlocking Nameless Glory, you will immediately obtain Stellar Jade ×680. In addition, increasing Nameless Honor levels will allow Trailblazers to obtain Light Cone Memory Shard ×1, Star Rail Special Pass ×4, a 4-star Light Cone of your choice, Variable Dice ×1, Self-Modeling Resin ×2, Relic Remains, the universal Path material Tears of Dreams, and more! If the Trailblazer unlocks the Nameless Medal, in addition to the previous rewards, they will immediately increase their Honor level by 10, and obtain the avatar \"Robin • Summeretto: Race,\" the avatar \"Aventurine • Waveflair: Race,\" Light Cone Memory Shard ×1, Stellar Jade ×200, and Fuel rewards! ※ The EXP required to level up \"Nameless Honor\" this period will be reduced, and the EXP obtained from some Nameless Honor missions will also be adjusted accordingly. This will allow Trailblazers to obtain Level Rewards faster within the 5-week period. For more details, please check within the game. Start Date After the Version 4.5 update — 2026/09/28 03:59:00 Participation Requirements Trailblaze Level ≥ 12 and have completed the Trailblaze Mission \"Jarilo-VI — Long Wait for the Blade's Edge\" About Nameless Honor After Nameless Honor is unlocked, the Nameless Gift will automatically be unlocked. Trailblazers can obtain EXP and increase their Nameless Honor level via This Week's Missions and This Period's Missions. The maximum Nameless Honor level is capped at Level 70. Attaining specific levels will allow the Trailblazer to obtain Star Rail Passes, Self-Modeling Resin, Tracks of Destiny, and more. This Week's Missions will reset every Monday at 04:00 (server time). Trailblazers who have unlocked the Nameless Glory can purchase Honor Badge to upgrade to Nameless Medal. Attention After reaching level cap, EXP will no longer be awarded through missions during this period. In the event of special circumstances leading to the repeated purchase of Nameless Glory or Nameless Medal, The Nameless EXP will not be accumulated, and Oneiric Shards ×750 (or Oneiric Shards ×1,410) will be refunded depending on the price of the purchase. In the event of special circumstances leading to the repeated purchase of the Honor Badge, Oneiric Shards ×860 will be refunded. The purchase of Nameless Glory, Nameless Medal, and Honor Badge will be closed for this period at 2026/09/28 02:59:00. After the purchase is closed, Trailblazers can still complete the Nameless Honor missions and receive rewards. Please note the available purchase time and event period. In the webpage top-up center, the purchase deadline for Nameless Glory, Nameless Medal, and Honor Badge will be 2026/09/27 03:59:00. Trailblazers who top up on the webpage should pay attention to the purchase availability time.",
+      "description": "Dear Trailblazers,\nDuring the event, Trailblazers can increase their Nameless Honor level to obtain rewards such as Star Rail Passes, Self-Modeling Resins, and Tracks of Destiny.\nAfter unlocking Nameless Glory, you will immediately obtain Stellar Jade ×680. In addition, increasing Nameless Honor levels will allow Trailblazers to obtain Light Cone Memory Shard ×1, Star Rail Special Pass ×4, a 4-star Light Cone of your choice, Variable Dice ×1, Self-Modeling Resin ×2, Relic Remains, the universal Path material Tears of Dreams, and more!\nIf the Trailblazer unlocks the Nameless Medal, in addition to the previous rewards, they will immediately increase their Honor level by 10, and obtain the avatar \"Robin • Summeretto: Race,\" the avatar \"Aventurine • Waveflair: Race,\" Light Cone Memory Shard ×1, Stellar Jade ×200, and Fuel rewards!\n※ The EXP required to level up \"Nameless Honor\" this period will be reduced, and the EXP obtained from some Nameless Honor missions will also be adjusted accordingly. This will allow Trailblazers to obtain Level Rewards faster within the 5-week period. For more details, please check within the game.\n〓Start Date〓\nAfter the Version 4.5 update — 2026/09/28 03:59:00\n〓Participation Requirements〓\nTrailblaze Level ≥ 12 and have completed the Trailblaze Mission \"Jarilo-VI — Long Wait for the Blade's Edge\"\n〓About Nameless Honor〓\n● After Nameless Honor is unlocked, the Nameless Gift will automatically be unlocked. Trailblazers can obtain EXP and increase their Nameless Honor level via This Week's Missions and This Period's Missions. The maximum Nameless Honor level is capped at Level 70. Attaining specific levels will allow the Trailblazer to obtain Star Rail Passes, Self-Modeling Resin, Tracks of Destiny, and more.\n● This Week's Missions will reset every Monday at 04:00 (server time).\n● Trailblazers who have unlocked the Nameless Glory can purchase Honor Badge to upgrade to Nameless Medal.\n〓Attention〓\n● After reaching level cap, EXP will no longer be awarded through missions during this period.\n● In the event of special circumstances leading to the repeated purchase of Nameless Glory or Nameless Medal, The Nameless EXP will not be accumulated, and Oneiric Shards ×750 (or Oneiric Shards ×1,410) will be refunded depending on the price of the purchase.\n● In the event of special circumstances leading to the repeated purchase of the Honor Badge, Oneiric Shards ×860 will be refunded.\n● The purchase of Nameless Glory, Nameless Medal, and Honor Badge will be closed for this period at 2026/09/28 02:59:00. After the purchase is closed, Trailblazers can still complete the Nameless Honor missions and receive rewards. Please note the available purchase time and event period.\n● In the webpage top-up center, the purchase deadline for Nameless Glory, Nameless Medal, and Honor Badge will be 2026/09/27 03:59:00. Trailblazers who top up on the webpage should pay attention to the purchase availability time.",
       "windowsByRegion": {}
     }
   ]

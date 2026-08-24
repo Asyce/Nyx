@@ -12,7 +12,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { cleanTitle, classifyType, decodeEntities, makeEvent, mergeRegionalEvents, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange, toIso } from './core.mjs';
+import { cleanTitle, classifyType, decodeEntities, makeEvent, mergeRegionalEvents, monthNameToIso, parseEndfieldAvailability, parseHoyoDuration, parseScopedDateRange, stripTags, toIso } from './core.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const RAW_DIR = path.join(here, 'raw');
@@ -131,10 +131,24 @@ function flattenAnnList(payload) {
   return { anns, retcode: payload?.retcode };
 }
 
-// A picture announcement carries no body, so its own window IS the event
-// window. Some carry a placeholder end a decade out ("Fate/UBW Collaboration
+// A picture-list card carries no body itself, so its own window is the fallback
+// when the matching content record has no usable duration. Some carry a
+// placeholder end a decade out ("Fate/UBW Collaboration
 // Warp Details" ends 2036) — that is "no announced end", not a ten-year event.
 const HOYO_PIC_HORIZON_MS = 2 * 365 * 24 * 60 * 60 * 1000;
+
+function hoyoGlobalProgramWindow(ann, content) {
+  if (!ann?._pic || !/special program|livestream/i.test(cleanTitle(ann.title))) return null;
+  const match = stripTags(content).match(/\b(?:will\s+)?(?:begin|start|air)(?:s)?\s+(?:on\s+)?(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})(?:,\s*(20\d{2}))?\s+at\s+(\d{1,2}):(\d{2})\s*\(\s*(?:UTC|GMT)\s*([+-]\d{1,2}(?::\d{2})?)\s*\)/i);
+  const year = match?.[3] || String(ann.end_time || '').match(/^(20\d{2})/)?.[1];
+  if (!match || !year) return null;
+  const end = monthNameToIso(`${match[1]} ${match[2]}, ${year} at ${match[4]}:${match[5]}`, match[6]);
+  const rawStart = toIso(ann.start_time, '+00:00');
+  const rawEnd = toIso(ann.end_time, '+00:00');
+  const span = Date.parse(rawEnd) - Date.parse(rawStart);
+  if (!end || !Number.isFinite(span) || span <= 0 || span > HOYO_PIC_HORIZON_MS) return null;
+  return { start:new Date(Date.parse(end) - span).toISOString(), end };
+}
 
 export function hoyoPicWindow(ann, offset) {
   if (!ann?._pic) return { start:null, end:null };
@@ -182,7 +196,10 @@ function hoyoVersionStarts(anns, contentById) {
 export function parseHoyo(game, listPayload, contentPayload, region = 'europe', fetchedAt = null) {
   const cfg = hoyoRegionConfig(game, region);
   const { anns } = flattenAnnList(listPayload);
-  const contentById = new Map((contentPayload?.data?.list || []).map((c) => [c.ann_id, c]));
+  const contentById = new Map();
+  for (const content of [...(contentPayload?.data?.list || []), ...(contentPayload?.data?.pic_list || [])]) {
+    if (!contentById.get(content.ann_id)?.content || content.content) contentById.set(content.ann_id, content);
+  }
   const versionStarts = hoyoVersionStarts(anns, contentById);
   const events = [];
   for (const ann of anns) {
@@ -191,13 +208,16 @@ export function parseHoyo(game, listPayload, contentPayload, region = 'europe', 
     const body = contentById.get(ann.ann_id);
     if (!isHoyoEventCandidate(ann, body)) continue;
     let start = null; let end = null; let permanent = false; let dateSource = 'content';
-    if (body) {
+    const globalProgram = hoyoGlobalProgramWindow(ann, body?.content);
+    if (globalProgram) {
+      ({ start, end } = globalProgram);
+    } else if (body) {
       const parsed = parseHoyoDuration(body.content, cfg.offset, versionStarts);
       if (parsed.permanent) permanent = true;
       if (parsed.start) { start = parsed.start; end = parsed.end; dateSource = 'content'; }
     }
-    // Picture announcements have no body to read, so their own window is the
-    // event window — the only dates those events ever publish here.
+    // If the paired picture-announcement body has no usable duration, its card
+    // window is the only remaining publisher-supplied schedule.
     if (!start && ann._pic) {
       const picked = hoyoPicWindow(ann, cfg.offset);
       if (picked.start) { start = picked.start; end = picked.end; dateSource = 'list'; }

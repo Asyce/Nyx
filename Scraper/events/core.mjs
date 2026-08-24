@@ -52,7 +52,21 @@ export function cleanTitle(value = '') {
 
 export function descriptionSnippet(value = '', maxLength = Infinity) {
   if (value === null || value === undefined) return null;
-  const text = stripTags(decodeEntities(String(value))).replace(/[<>]/g, ' ').replace(/\s+/g, ' ').replace(/\s+([.,!?;:])/g, '$1').trim();
+  const heading = (inner) => `\n〓${stripTags(inner)}〓\n`;
+  const text = decodeEntities(String(value))
+    .replace(/<!--[^]*?-->/g, ' ')
+    .replace(/<p\b[^>]*>\s*(<span\b[^>]*>)((?:(?!<\/span>)[^])*)<\/span>\s*<\/p>/gi, (all, open, inner) => /color:\s*(?:rgb\(\s*255\s*,\s*255\s*,\s*255\s*\)|#f{3}(?:f{3})?)/i.test(open) ? heading(inner) : all)
+    .replace(/<h([1-6])\b[^>]*>([^]*?)<\/h\1>/gi, (_, level, inner) => heading(inner))
+    .replace(/<summary\b[^>]*>([^]*?)<\/summary>/gi, (_, inner) => heading(inner))
+    .replace(/<p\b[^>]*>\s*■\s*([^]*?)<\/p>/gi, (_, inner) => heading(inner))
+    .replace(/<li\b[^>]*>/gi, '\n● ')
+    .replace(/<br\s*\/?\s*>|<\/(?:p|div|section|article|li|tr|td|table|ul|ol|details)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[<>]/g, ' ')
+    .split(/\r?\n/)
+    .map((line) => line.replace(/\s+/g, ' ').replace(/\s+([.,!?;:])/g, '$1').trim().replace(/^•\s*/, '● '))
+    .filter(Boolean)
+    .join('\n');
   if (!text) return null;
   const limit = Number.isFinite(Number(maxLength)) ? Math.max(40, Number(maxLength)) : Infinity;
   if (text.length <= limit) return text;

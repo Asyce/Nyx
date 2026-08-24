@@ -68,7 +68,7 @@ test('descriptions are fully cleaned by default and accept an explicit finite li
   const raw = '<p>Hello &amp; <b>travelers</b>.</p>&lt;t class="date"&gt;2026/07/01&lt;/t&gt;\n<div>' + 'reward '.repeat(80) + '</div>';
   const full = descriptionSnippet(raw);
   const snippet = descriptionSnippet(raw, 240);
-  assert.ok(full.startsWith('Hello & travelers. 2026/07/01 reward'));
+  assert.ok(full.startsWith('Hello & travelers.\n2026/07/01\nreward'));
   assert.ok(full.length > 240);
   assert.ok(!/[<>]/.test(full));
   assert.ok(snippet.length <= 240);
@@ -217,6 +217,55 @@ test('parseHoyo filters notices and never uses list visibility windows as event 
   assert.equal(challenge.needs_review, true);
   assert.ok(!events.some((e) => /Fair Gaming|Survey/.test(e.title)));
   assert.equal(isHoyoEventCandidate({ title:'Social Media Fair Use Notice', type_label:'Event' }, null), false);
+});
+
+test('parseHoyo reads and formats event bodies from the official picture-content list', () => {
+  const list = { retcode:0, data:{ pic_list:[{ type_label:'Events', type_list:[{ list:[
+    { ann_id:150, title:'"Marcel Test Gift" Event Details', start_time:'2026-08-12 10:00:00', end_time:'2026-08-25 03:59:00' },
+  ] }] }] } };
+  const body = [
+    '<h1>Event Duration</h1>',
+    '<p>2026/08/12 10:00 - 2026/08/25 03:59</p>',
+    '<p><span style="color: rgb(255, 255, 255);">Featured Reward</span> remains ordinary prose.</p>',
+    '<p><span style="color: rgb(255, 255, 255);">Event Details</span></p>',
+    '<ul><li><p>Log in during the event.</p></li><li>Claim the gift.</li></ul>',
+    '<p>• Complete one commission.</p>',
+    '<p>※ Rewards expire after the event.</p>',
+  ].join('');
+  const content = { data:{
+    list:[{ ann_id:150, content:'' }],
+    pic_list:[{ ann_id:150, content:body }],
+  } };
+
+  const [event] = parseHoyo('zzz', list, content);
+  assert.equal(event.description, [
+    '〓Event Duration〓',
+    '2026/08/12 10:00 - 2026/08/25 03:59',
+    'Featured Reward remains ordinary prose.',
+    '〓Event Details〓',
+    '● Log in during the event.',
+    '● Claim the gift.',
+    '● Complete one commission.',
+    '※ Rewards expire after the event.',
+  ].join('\n'));
+  assert.equal(event.start, '2026-08-12T09:00:00.000Z');
+  assert.equal(event.end, '2026-08-25T02:59:00.000Z');
+});
+
+test('ZZZ picture special programs anchor region-shifted card windows to their explicit UTC time', () => {
+  const clocks = {
+    europe:{ start_time:'2026-08-24 12:00:00', end_time:'2026-08-28 19:30:00' },
+    asia:{ start_time:'2026-08-24 05:00:00', end_time:'2026-08-28 12:30:00' },
+    america:{ start_time:'2026-08-23 23:00:00', end_time:'2026-08-28 06:30:00' },
+  };
+  for (const region of ['europe', 'asia', 'america']) {
+    const ann = { ann_id:232, title:'Version 3.2 Special Program Announcement', ...clocks[region] };
+    const list = { retcode:0, data:{ pic_list:[{ type_label:'Events', type_list:[{ list:[ann] }] }] } };
+    const content = { data:{ pic_list:[{ ann_id:232, content:'<p>The program begins August 28 at 19:30 (UTC+8).</p>' }] } };
+    const [event] = parseHoyo('zzz', list, content, region);
+    assert.equal(event.start, '2026-08-24T04:00:00.000Z', region);
+    assert.equal(event.end, '2026-08-28T11:30:00.000Z', region);
+  }
 });
 
 test('parseHoyo derives open event starts from the official update schedule', () => {

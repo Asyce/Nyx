@@ -7,9 +7,9 @@ Canonical plan: [Nyx launcher, Endfield, and HoYo execution plan](nyx-launcher-e
 - **Overall status:** `blocked`
 - **Current phase:** [Phase 1 - Trustworthy launcher releases](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-1---trustworthy-launcher-releases) (`blocked`)
 - **Current STOP:** [STOP 1](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#stop-1)
-- **Last verified (Europe/Paris):** 2026-08-24 22:18:20 CEST (UTC+02:00)
+- **Last verified (Europe/Paris):** 2026-08-24 22:21:33 CEST (UTC+02:00)
 - **Next action:** Restore GitHub Actions billing/spending access for `Asyce/Nyx-Launcher`, then rerun hosted run `32771877535` (or its replacement) and accept STOP 1 only if it passes.
-- **Active blockers:** Four pushed workflows allocated no runner because recent account payments failed or the Actions spending limit must be increased. Local implementation, final stable sealing, native smoke, and independent local review are green.
+- **Active blockers:** Five attempts across four pushed workflows allocated no runner because recent account payments failed or the Actions spending limit must be increased. Local implementation, final stable sealing, native smoke, and independent local review are green.
 
 ## Status vocabulary
 
@@ -109,6 +109,7 @@ Append dated rows; do not rewrite or remove accepted evidence.
 | 2026-08-24 | Phase 1 | Repeated back-to-back pre-final smoke runs exposed two intermittent native WinUI crashes, one while switching media and one on immediate restart. Older August WER records contain the same crash family. The bounded focus/control fixes address observed automation races; two normally cadenced runs then passed, including the final exact package. | Sanitized WER facts: `CoreMessagingXP.dll` and `Microsoft.UI.Xaml.dll`; commits `3d8d175` and `bc26695`; final evidence above. | Independent review classed this as an inherited Phase 3 background/media lifecycle issue. A normal-use reproduction must block release. |
 | 2026-08-24 | STOP 1 | Pushed run `32767778458` failed before checkout with zero executed steps and no runner allocation. GitHub's failure annotation says recent account payments failed or the Actions spending limit must be increased. | `gh run view 32767778458`; check-run annotation for job `97561055973`. | External billing blocker recorded. This is not a code/test failure; hosted checks remain unproven and STOP 1 is not accepted. |
 | 2026-08-24 | STOP 1 | The same external failure repeated at `8249722`, `3d8d175`, and final commit `bc26695`. Latest run `32771877535`, job `97573838619`, again contains zero steps and the same billing/spending annotation. | Runs `32769156278`, `32770307143`, and `32771877535`; latest check-run annotation. | Confirms the code never received a hosted runner. STOP 1 remains blocked. |
+| 2026-08-24 | STOP 1 | A live manual retry of final run `32771877535` also failed before checkout. Attempt `2`, job `97578711594`, contains zero steps and repeats the exact billing/spending annotation. | `gh run rerun 32771877535`; `gh run view` and attempt-2 check-run annotation. | Confirms billing access was still blocked at 22:21 CEST; no code ran. |
 
 ## Decisions/deviations
 
@@ -127,7 +128,7 @@ Append dated rows when a status becomes `blocked`; keep resolved rows and note t
 
 | Date (Europe/Paris) | Phase/release | Blocker | Needed to resume | Resolution |
 |---|---|---|---|---|
-| 2026-08-24 | STOP 1 | GitHub Actions refused to allocate `windows-latest` because recent owner-account payments failed or the Actions spending limit must be increased. Runs `32767778458`, `32769156278`, `32770307143`, and `32771877535` each executed zero verification steps. | Repository owner restores billing/spending access, then the final branch workflow is rerun and passes. | Open. |
+| 2026-08-24 | STOP 1 | GitHub Actions refused to allocate `windows-latest` because recent owner-account payments failed or the Actions spending limit must be increased. Runs `32767778458`, `32769156278`, `32770307143`, `32771877535`, and final-run retry attempt `2` each executed zero verification steps. | Repository owner restores billing/spending access, then the final branch workflow is rerun and passes. | Open. |
 
 ## Final unresolved items
 

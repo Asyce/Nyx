@@ -4760,6 +4760,7 @@ function buildGiTalentDomains(roster) {
 
   return domains.map((domain) => {
     const known = GI_DOMAIN_SPECS.find((spec) => spec.trios.some((trio) => trio.firstId === domain.trios[0]?.firstId));
+    const knownName = domain.trios[0]?.firstId === 104365 ? 'Snezhnaya - Relics of the Fallen Grace' : known?.name;
     const counts = new Map();
     for (const name of domain.trios.flatMap((trio) => trio.chars)) {
       const ch = rosterByName.get(name);
@@ -4771,7 +4772,7 @@ function buildGiTalentDomains(roster) {
       ? `${region} Talent Domain`
       : `${domain.trios.map((trio) => trio.name).join(' / ')} Talent Domain`;
     return {
-      name: known?.name || fallback,
+      name: knownName || fallback,
       trios: domain.trios.map((trio) => ({ ...trio, chars:trio.chars.sort((a, b) => a.localeCompare(b)) })),
     };
   });

@@ -501827,7 +501827,7 @@
       ]
     },
     {
-      "name": "Snezhnaya Talent Domain",
+      "name": "Snezhnaya - Relics of the Fallen Grace",
       "trios": [
         {
           "name": "Charity",

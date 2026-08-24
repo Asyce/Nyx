@@ -260,8 +260,11 @@ test('material groups cover the current source catalogs in live and beta', async
   const generatedFamilies = new Map(gi.talentDomains.flatMap((domain) => domain.trios.map((trio) => [trio.name, trio.trioIndex])));
   assert.deepEqual([...generatedFamilies].sort(), [...sourceFamilies].sort(), 'every sourced talent family and weekday is generated');
   const snezhnaya = gi.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name));
+  assert.equal(snezhnaya?.name, 'Snezhnaya - Relics of the Fallen Grace');
   assert.deepEqual(plain(snezhnaya?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
-  assert.deepEqual(plain(giBetaCfg.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name))?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
+  const snezhnayaBeta = giBetaCfg.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name));
+  assert.equal(snezhnayaBeta?.name, 'Snezhnaya - Relics of the Fallen Grace');
+  assert.deepEqual(plain(snezhnayaBeta?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
 
   const hsrCatalog = (item) => item.subType === 'WeeklyMonsterDrop' && /^1105\d{2}$/.test(String(item.id));
   const zzzCatalog = (item) => /^1100\d{2}$/.test(String(item.id));

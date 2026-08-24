@@ -2546,8 +2546,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   flex-direction:column;
   gap:var(--nyx-space-12);
 }
-.cm-custom-back,
-.cm-ledger-customize-entry button{
+.cm-custom-back{
   min-height:38px;
   border:0;
   border-radius:var(--nyx-radius-control);
@@ -2566,26 +2565,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   letter-spacing:var(--nyx-compat-tracking-p11em);
   text-transform:uppercase;
 }
-.cm-custom-back:hover,
-.cm-ledger-customize-entry button:hover{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-aab699f6afa8); }
+.cm-custom-back:hover{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-aab699f6afa8); }
 .cm-custom-back span{ font-size:var(--nyx-type-section); line-height:1; }
-.cm-ledger-customize-entry{
-  display:flex;
-  justify-content:flex-end;
-  padding:var(--nyx-space-8) 0 0;
-}
-.cm-ledger-customize-entry button{
-  flex-direction:column;
-  align-items:flex-end;
-  gap:var(--nyx-compat-spacing-1px);
-  min-width:230px;
-  min-height:48px;
-}
-.cm-ledger-customize-entry b{
-  color:var(--nyx-color-text-muted);
-  font-size:var(--nyx-compat-size-8px);
-  letter-spacing:var(--nyx-compat-tracking-p12em);
-}
 .cm-custom-page{
   width:100%;
   min-height:100%;
@@ -5795,24 +5776,20 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-pop.ledger .cm-presets-ledger button:disabled{ cursor:wait; opacity:.55; }
 .cm-share-status{ flex:1 0 100%; padding-top:var(--nyx-space-4); text-align:left; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
 .cm-share-status.error{ color:var(--nyx-color-danger); }
-/* Share buttons sit in the Total row's LEFT column, under the "Total" label and
-   its section checkboxes (user 2026-08-14). They used to hang off the right end
-   under the material tiles, where they read as part of the tile grid. */
-.cm-share-actions{ grid-column:1; display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:var(--nyx-space-8); }
+/* The Infographic button now sits inside the Total row's label column, directly
+   above the Ascension / Talents / Weapon checkboxes (user 2026-08-18). */
+.cm-share-actions{ display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:var(--nyx-space-8); }
 .cm-share-actions button{ min-height:34px; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-radius-control); cursor:pointer;
   padding:var(--nyx-space-6) var(--nyx-space-12); color:var(--nyx-compat-color-hex-efe8ff); background:var(--nyx-compat-color-26ecac6a6aec); font:inherit; }
 .cm-share-actions button:hover:not(:disabled){ border-color:var(--nyx-compat-color-hex-9a89ea); }
 .cm-share-actions button:disabled{ cursor:not-allowed; opacity:.45; }
-.cm-share-preview{ min-height:360px; display:flex; flex-direction:column; align-items:center; gap:var(--nyx-space-12); padding:var(--nyx-space-14);
-  border:1px solid var(--nyx-compat-color-7c44b5fd4230); border-radius:var(--nyx-radius-card); background:var(--nyx-compat-color-a4cfb227c1ed); }
-.cm-share-preview-actions{ align-self:stretch; display:flex; flex-wrap:wrap; align-items:center; gap:var(--nyx-space-8); }
-.cm-share-preview-actions button{ min-height:34px; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-radius-control); cursor:pointer;
-  padding:var(--nyx-space-6) var(--nyx-space-12); color:var(--nyx-compat-color-hex-efe8ff); background:var(--nyx-compat-color-26ecac6a6aec); font:inherit; }
-.cm-share-preview-actions button:hover:not(:disabled){ border-color:var(--nyx-compat-color-hex-9a89ea); }
-.cm-share-preview-actions button:disabled{ cursor:not-allowed; opacity:.45; }
-.cm-share-preview-status{ align-self:stretch; min-height:20px; color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); }
-.cm-share-preview-status.error{ color:var(--nyx-color-danger); }
-.cm-share-preview > img{ display:block; width:min(100%, 1000px); height:auto; border-radius:var(--nyx-radius-control); box-shadow:var(--nyx-compat-shadow-box-11c181ca8b74); }
+.cm-infographic-btn{ display:inline-flex; align-items:center; gap:var(--nyx-space-8); }
+.cm-infographic-icon{ flex:none; display:inline-flex; width:17px; height:17px; }
+.cm-infographic-icon svg{ width:100%; height:100%; }
+/* Release stamp takes the slot the old "Link" button used: bottom-left of the
+   Total row, under the label column (user 2026-08-18). */
+.cm-ledger-release{ grid-column:1; align-self:end; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
+.cm-ledger-release b{ font-weight:var(--nyx-weight-regular); color:var(--nyx-color-text-soft); }
 .cm-form-switches.compact{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:var(--nyx-space-8);
   padding:var(--nyx-space-8) var(--nyx-space-10); border-radius:var(--nyx-radius-card); background:var(--nyx-compat-color-a4cfb227c1ed); }
 .cm-form-switches.compact .cm-form-row{ grid-template-columns:74px minmax(0, 1fr); }
@@ -6045,8 +6022,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .cm-weapon-menu{ left:0; right:auto; width:min(290px, 100%); }
   .cm-sig-tip{ width:min(240px, 78vw); }
   .cm-character-tabs{ margin-left:0; margin-top:var(--nyx-space-8); flex-wrap:wrap; }
-  .cm-ledger-info-row{ align-items:flex-start; flex-direction:column; }
-  .cm-ledger-info-row .cm-pop-meta-text{ justify-content:flex-start; }
   .cm-kit-list{ grid-template-columns:1fr; }
 }
 
@@ -6157,78 +6132,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-detail-nav .cm-detail-back{
   margin:0;
 }
-.cm-detail-custom{
-  min-width:0;
-  min-height:38px;
-  border:0;
-  border-radius:var(--nyx-radius-control);
-  padding:0 var(--nyx-compat-spacing-13px);
-  display:inline-flex;
-  align-items:center;
-  gap:var(--nyx-compat-spacing-9px);
-  cursor:pointer;
-  color:var(--nyx-compat-color-hex-efe9ff);
-  background:var(--nyx-compat-color-202cf7aa7285);
-  box-shadow:var(--nyx-compat-shadow-box-a5ecdbef0df7);
-  font-family:var(--nyx-compat-family-bbbd64e38bdd);
-  letter-spacing:var(--nyx-compat-tracking-p1em);
-  text-transform:uppercase;
-}
-.cm-detail-custom:hover{
-  color:var(--nyx-color-text-max);
-  background:var(--nyx-compat-color-d57b2d640b5a);
-}
-.cm-detail-custom span{
-  font-size:var(--nyx-type-label);
-  font-weight:var(--nyx-weight-black);
-}
-.cm-detail-custom b{
-  color:var(--nyx-color-text-muted);
-  font-size:var(--nyx-type-caption);
-  font-weight:var(--nyx-weight-black);
-}
-.cm-pop-meta-text{
-  min-width:240px;
-  max-width:100%;
-  display:flex;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:var(--nyx-space-6) var(--nyx-space-12);
-  color:var(--nyx-compat-color-hex-dcd4f6);
-  font-family:var(--nyx-compat-family-bbbd64e38bdd);
-  font-size:var(--nyx-compat-size-11px);
-  line-height:1.35;
-  letter-spacing:var(--nyx-compat-tracking-p02em);
-}
-.cm-pop-meta-text > span{
-  min-width:0;
-  display:inline-flex;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:var(--nyx-compat-spacing-5px);
-}
-.cm-pop-meta-text b{
-  color:var(--nyx-compat-color-hex-f5f1ff);
-  font-size:var(--nyx-type-label);
-  font-weight:var(--nyx-weight-black);
-  letter-spacing:var(--nyx-compat-tracking-p1em);
-  text-transform:uppercase;
-}
-.cm-pop-meta-text em{
-  font-style:normal;
-  color:var(--nyx-compat-color-hex-dcd4f6);
-}
-.cm-pop-meta-text a{
-  color:var(--nyx-compat-color-hex-f5f1ff);
-  text-decoration:none;
-  border-bottom:1px solid var(--nyx-compat-color-2858389f363e);
-}
-.cm-pop-meta-text a:hover{
-  color:var(--nyx-color-text-max);
-  border-bottom-color:var(--nyx-compat-color-0d130f06bc25);
-}
-
-/* ===== Character Materials — controls row (tabs + search + tools) ===== */
 .cm-beta-tag.upcoming{
   color:var(--nyx-color-text-max);
   background:linear-gradient(160deg,#8b7bff,#6f4ec3);
@@ -6628,17 +6531,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .cm-kit-levels *,
   .cm-kit-term-tip{ transition:none!important; scroll-behavior:auto!important; }
 }
-.cm-ledger-info-row{
-  position:relative;
-  z-index:2;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:var(--nyx-space-14);
-  padding:var(--nyx-compat-spacing-13px) var(--nyx-space-2) 0;
-}
-.cm-ledger-info-row .cm-pop-meta-text{ justify-content:flex-end; }
-
 .cm-controls{ position:relative; display:flex; flex-direction:row; align-items:center; flex-wrap:wrap; gap:var(--nyx-space-14); flex:none; margin-top:var(--nyx-space-14); }
 .cm-controls .cm-tabs{ margin-top:0; }
 /* Each tab hugs its own label rather than every tab sharing one width
@@ -8038,7 +7930,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
   .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
-  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
   .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
   .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
@@ -8072,7 +7964,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
   .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
-  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
   .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
   .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
@@ -8097,7 +7989,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
   .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
-  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,.cm-detail-custom,
+  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
   .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
   .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,

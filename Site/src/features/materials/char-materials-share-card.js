@@ -14,40 +14,6 @@ const NYX_MATERIALS_CARD_ROUTES = { gi:'genshin', hsr:'hsr', zzz:'zzz', wuwa:'wu
 // nyxWeaponLeveling), which the character page reads too — the two disagreed
 // until 2026-08-14, when only this image added it.
 
-function nyxMaterialsCardQueryValue(value){
-  if (value === undefined || value === null) return null;
-  const text = String(value).trim();
-  return text || null;
-}
-
-function nyxParseMaterialsCardSearch(search){
-  const query = new URLSearchParams(String(search || '').replace(/^[^?]*\?/, ''));
-  if (query.get('card') !== '1') return null;
-  return {
-    weaponId:nyxMaterialsCardQueryValue(query.get('weapon')),
-    variantKey:nyxMaterialsCardQueryValue(query.get('form')),
-    gender:nyxMaterialsCardQueryValue(query.get('gender')),
-    channel:query.get('channel') === 'beta' ? 'beta' : 'live',
-  };
-}
-
-function nyxMaterialsCardUrl({ origin, gameKey, characterName, weaponId, variantKey, gender, channel }){
-  const segment = NYX_MATERIALS_CARD_ROUTES[gameKey];
-  const slug = cmRouteSlug(characterName);
-  if (!segment || !slug) throw new Error('This character cannot be shared.');
-  const base = new URL(origin || location.origin);
-  const url = new URL('/' + segment + '/characters/' + slug, base.origin);
-  url.searchParams.append('card', '1');
-  const weapon = nyxMaterialsCardQueryValue(weaponId);
-  const form = nyxMaterialsCardQueryValue(variantKey);
-  const artwork = nyxMaterialsCardQueryValue(gender);
-  if (weapon) url.searchParams.append('weapon', weapon);
-  if (form) url.searchParams.append('form', form);
-  if (artwork) url.searchParams.append('gender', artwork);
-  url.searchParams.append('channel', channel === 'beta' ? 'beta' : 'live');
-  return url.href;
-}
-
 function nyxMaterialsCardFilename({ gameKey, view }){
   const slug = cmRouteSlug(view?.rawName || view?.baseName || view?.n || 'character') || 'character';
   return 'pengo-' + (NYX_MATERIALS_CARD_ROUTES[gameKey] || gameKey || 'game') + '-' + slug + '-materials.png';

@@ -4,12 +4,12 @@ Date created: 2026-08-24
 
 Canonical plan: [Nyx launcher, Endfield, and HoYo execution plan](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md)
 
-- **Overall status:** `in-progress`
-- **Current phase:** [Phase 1 - Trustworthy launcher releases](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-1---trustworthy-launcher-releases) (`in-progress`)
+- **Overall status:** `blocked`
+- **Current phase:** [Phase 1 - Trustworthy launcher releases](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-1---trustworthy-launcher-releases) (`blocked`)
 - **Current STOP:** [STOP 1](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#stop-1)
-- **Last verified (Europe/Paris):** 2026-08-24 20:10:56 CEST (UTC+02:00)
-- **Next action:** Implement Phase 1 release metadata/packaging/CI and native smoke work, fixing its recorded readiness and path-length baselines.
-- **Active blockers:** None recorded.
+- **Last verified (Europe/Paris):** 2026-08-24 22:18:20 CEST (UTC+02:00)
+- **Next action:** Restore GitHub Actions billing/spending access for `Asyce/Nyx-Launcher`, then rerun hosted run `32771877535` (or its replacement) and accept STOP 1 only if it passes.
+- **Active blockers:** Four pushed workflows allocated no runner because recent account payments failed or the Actions spending limit must be increased. Local implementation, final stable sealing, native smoke, and independent local review are green.
 
 ## Status vocabulary
 
@@ -24,8 +24,8 @@ Canonical plan: [Nyx launcher, Endfield, and HoYo execution plan](nyx-launcher-e
 
 | Component | Branch/state | Commit/version | Recorded state |
 |---|---|---|---|
-| Nyx Site/Worker | `codex/nyx-combined-execution-20260824` at `C:\Pengo\Nyx-combined-execution-20260824` | `6758c6b2174ca4c0c46606d6c89e5e29ee5f604f` | Clean worktree created from `origin/main`. Baseline-generated timestamp/line-ending changes were verified and restored; only the three Phase 0 documents are pending. |
-| Launcher | `codex/nyx-combined-execution-20260824` at `D:\PengoNyx\Nyx Launcher\Worktrees\combined-execution-20260824` | `5ede520e8d8d86234e5f47442bf0bb29b940b9b9` / tag `v1.4` | Clean execution base in the separate launcher repository. |
+| Nyx Site/Worker | `codex/nyx-combined-execution-20260824` at `C:\Pengo\Nyx-combined-execution-20260824` | Documentation-only branch on implementation base `6758c6b2174ca4c0c46606d6c89e5e29ee5f604f` | Clean worktree. The combined plan, index, and tracker commits are branch-only; re-fetch/rebase before Site implementation because `origin/main` has advanced. |
+| Launcher | `codex/nyx-combined-execution-20260824` at `D:\PengoNyx\Nyx Launcher\Worktrees\combined-execution-20260824` | `bc26695cf05291029be1ae0006967b33d7108c9f` | Clean Phase 1 branch pushed to the separate launcher repository. The local-only `v1.5` validation tags existed only in deleted disposable clones and were never pushed or released. |
 | Production website | `/version.json` | `6758c6b2174ca4c0c46606d6c89e5e29ee5f604f` | `builtAt: 2026-08-24T17:37:52.662Z`; current pre-release rollback reference. |
 | Distributed launcher | GitHub tag/release state | tag `v1.4` exists | Latest-release API returns 404; Phase 1 repairs release metadata, so this is not a STOP 0 blocker. |
 
@@ -46,7 +46,7 @@ Re-fetch and re-verify every base, live state, and rollback point immediately be
 | Phase | Status | Remaining/next | Launcher commit | Nyx commit | Evidence | Review |
 |---|---|---|---|---|---|---|
 | [Phase 0 - Reproducible bases and execution records](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-0---reproducible-bases-and-execution-records) | `complete` | None. | `5ede520e8d8d86234e5f47442bf0bb29b940b9b9` | `6758c6b2174ca4c0c46606d6c89e5e29ee5f604f` | Bases, live deploy, preservation ledger, approval scope, and baseline rows below. | STOP 0 accepted by main Sol on 2026-08-24. |
-| [Phase 1 - Trustworthy launcher releases](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-1---trustworthy-launcher-releases) | `in-progress` | Implement release metadata, stable/development packaging, hosted checks, and native smoke. | `5ede520e8d8d86234e5f47442bf0bb29b940b9b9` | — | Phase 0 launcher baseline below. | Pending. |
+| [Phase 1 - Trustworthy launcher releases](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-1---trustworthy-launcher-releases) | `blocked` | Fix owner billing/spending access and rerun the pushed hosted workflow; do not start Phase 2 before STOP 1. | `bc26695cf05291029be1ae0006967b33d7108c9f` | — | Local hosted-equivalent commands, final sealed stable package, full manifest/hash audit, and PENGO native smoke pass; hosted run `32771877535` had no runner. | Independent local review accepted the final local result; STOP 1 remains pending the hosted pass. |
 | [Phase 2 - Requested launcher behavior](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-2---requested-launcher-behavior) | `not-started` | Start after STOP 1. | — | — | — | — |
 | [Phase 3 - Static and animated background lifecycle](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-3---static-and-animated-background-lifecycle) | `not-started` | Start after STOP 2. | — | — | — | — |
 | [Phase 4 - Confirmed cleanup and existing lifecycle features](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-4---confirmed-cleanup-and-existing-lifecycle-features) | `not-started` | Start after STOP 3. | — | — | — | — |
@@ -103,6 +103,12 @@ Append dated rows; do not rewrite or remove accepted evidence.
 | 2026-08-24 | Phase 0 | Worker database-assets contract has 13/13 passing. Wrangler 4.86 dry-run parses/bundles the Worker and bindings successfully; no deploy occurred. | `node --test tools/tests/worker-database-assets.test.mjs`; `wrangler deploy --dry-run --config wrangler.jsonc`. | Passed. |
 | 2026-08-24 | Phase 0 | Production `/version.json` matches Site base `6758c6b2`; previous candidate rollback commits are `b604afa0` and `e9965e57`, subject to re-verification immediately before deployment. | Live `/version.json`; `git log -5 origin/main`. | Current deployment and candidates recorded. |
 | 2026-08-24 | STOP 0 | Both clean worktrees, all three linked documents, current/rollback state, preservation and approval decisions, inherited baselines, and Phase 1 next action are present and internally consistent. Required-plan coverage check found 19 phase headers, 19 tracker rows, and zero missing locked phrases. | Main Sol review; `git diff --check`; focused plan/tracker consistency script. | Accepted. |
+| 2026-08-24 | Phase 1 | Launcher readiness, tag-driven stable/development packaging, unsigned hash documentation, Visual Studio tool discovery, hosted Windows workflow, packaged native smoke, brittle XAML-test retirement, embedded manifest derivation, full-frame inspection, and bounded focus/control waits are implemented in ten reviewable commits. Exact hosted-equivalent local commands pass: Release build has 0 warnings/errors; .NET has 2,153 main and 72 packaging tests passing; Rust has 54/54 passing. One existing Windows junction fixture failed once during the final full run and passed on its exact 72/72 rerun. | Launcher `dfe2d9f` through `bc26695`; audited restore, solution build/test, focused rerun, and `cargo test --locked`. | Local implementation checks passed; the transient fixture result is not attributed to product code. |
+| 2026-08-24 | Phase 1 | A fresh disposable clone at `bc26695` with local-only tag `v1.5` produced the final sealed unsigned stable package under the same `pwsh` runtime used by the workflow. Version, embedded Windows manifest, assembly, file/product versions, commit, channel, fixed URL, 396 file entries, all sizes, and all per-file hashes agree. Outer size/hash are `122224131` bytes / `0240b7af7d2f97ea8f8ec6c24e3f60b485253c61145b7525ef64dc3e62a99179`; payload size/hash are `82553632` bytes / `e61a1aac4ff8c8ad4de2a79a6c10d6f88cc999dbf1c7d206bd8a23593ac1ebd3`. | `build-stable-package.ps1`; independent ZIP/manifest/hash/binary audit; sanitized proof at `Desktop/packaging/artifacts/phase1-stable-validation-bc26695`. | Final local package predicates passed. No tag or release was pushed; all disposable clones and tags were deleted. |
+| 2026-08-24 | Phase 1 | The final exact-package native smoke passed all five games, inspected 15 side-effect controls without invoking any, recorded the actual retry state for every game, exercised banner/account collapse plus main/modal Tab, Shift+Tab, Enter, and Escape, analyzed six full `1280x720` frames, retained only sanitized `120`-pixel strips, restored both data roots, left zero Nyx processes, and produced no new WER crash. | `test-native-smoke.ps1`; `Desktop/packaging/artifacts/phase1-stable-validation-bc26695/native-smoke/evidence.json`; local WER/process check. | Final PENGO smoke predicates passed. Retry was correctly absent in the healthy isolated state. |
+| 2026-08-24 | Phase 1 | Repeated back-to-back pre-final smoke runs exposed two intermittent native WinUI crashes, one while switching media and one on immediate restart. Older August WER records contain the same crash family. The bounded focus/control fixes address observed automation races; two normally cadenced runs then passed, including the final exact package. | Sanitized WER facts: `CoreMessagingXP.dll` and `Microsoft.UI.Xaml.dll`; commits `3d8d175` and `bc26695`; final evidence above. | Independent review classed this as an inherited Phase 3 background/media lifecycle issue. A normal-use reproduction must block release. |
+| 2026-08-24 | STOP 1 | Pushed run `32767778458` failed before checkout with zero executed steps and no runner allocation. GitHub's failure annotation says recent account payments failed or the Actions spending limit must be increased. | `gh run view 32767778458`; check-run annotation for job `97561055973`. | External billing blocker recorded. This is not a code/test failure; hosted checks remain unproven and STOP 1 is not accepted. |
+| 2026-08-24 | STOP 1 | The same external failure repeated at `8249722`, `3d8d175`, and final commit `bc26695`. Latest run `32771877535`, job `97573838619`, again contains zero steps and the same billing/spending annotation. | Runs `32769156278`, `32770307143`, and `32771877535`; latest check-run annotation. | Confirms the code never received a hosted runner. STOP 1 remains blocked. |
 
 ## Decisions/deviations
 
@@ -113,6 +119,7 @@ Append dated rows before dependent work begins; keep approval records sanitized.
 | 2026-08-24 | Phase 0 | Use standalone launcher `v1.4` as the only implementation base; preserve `ca2a50618` as evidence and do not reconstruct from binaries or the missing old worktree. | This is the newest verified launcher source and avoids overwriting either repository's unrelated work. | Canonical plan boundary plus verified refs/path state. |
 | 2026-08-24 | HoYo stages | Approval covers the plan's automated static comparison, account reading, encrypted sync, caching/refresh, public account display, and deletion for the listed GI/HSR/ZZZ capabilities. No private correspondence is stored. | User confirmed approval; the approved sanitized scope is sufficient for implementation. | User decision recorded in the canonical plan and this tracker. |
 | 2026-08-24 | Phase 0 | Treat current package version/channel, readiness, formatting, path-length, and Site file-ceiling failures as inherited baselines, not STOP 0 failures. | Each was reproduced before implementation; later STOPs explicitly require their relevant paths to pass. | Exact evidence rows above. |
+| 2026-08-24 | Phase 1 | Native smoke records the actual five-game retry state but does not force a failed real-game launch or add a production test hook. Existing deterministic coordinator/projector tests prove failed dispatch to retry wording/action; the healthy isolated package correctly reports `not-present`. | Launch failure is the only safe existing transition to retry; invoking it would violate the smoke's no-side-effect boundary. | Accepted by the independent local reviewer at `8249722`; retained unchanged at `bc26695`. |
 
 ## Active blockers
 
@@ -120,8 +127,10 @@ Append dated rows when a status becomes `blocked`; keep resolved rows and note t
 
 | Date (Europe/Paris) | Phase/release | Blocker | Needed to resume | Resolution |
 |---|---|---|---|---|
+| 2026-08-24 | STOP 1 | GitHub Actions refused to allocate `windows-latest` because recent owner-account payments failed or the Actions spending limit must be increased. Runs `32767778458`, `32769156278`, `32770307143`, and `32771877535` each executed zero verification steps. | Repository owner restores billing/spending access, then the final branch workflow is rerun and passes. | Open. |
 
 ## Final unresolved items
 
 | Item | Status | Evidence | Resolution needed |
 |---|---|---|---|
+| Intermittent native WinUI crash during repeated back-to-back smoke launches | `tracked` | Two pre-final WER events match an older August crash family; two normally cadenced runs then passed and the final exact package produced no new crash. | Investigate the background/media lifecycle in Phase 3 before Release A. A normal-use reproduction blocks release until fixed and re-smoked. |

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-08-22T03:54:51.941Z",
+  "generatedAt": "2026-08-24T04:04:03.417Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
@@ -22,8 +22,8 @@
       "id": "hsr-hoyo-ann-221b1cf18831",
       "title": "Myriad Celestia Trailer: \"Beyond the Chorus\"",
       "type": "event",
-      "start": "2026-08-21T04:00:00.000Z",
-      "end": "2026-08-24T16:00:00.000Z",
+      "start": "2026-08-20T22:00:00.000Z",
+      "end": "2026-08-24T10:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -31,7 +31,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1343",
         "kind": "official-announcement-api",
         "recordId": "1343",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -42,20 +42,20 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-08-21T04:00:00.000Z",
-          "end": "2026-08-24T16:00:00.000Z",
+          "start": "2026-08-20T22:00:00.000Z",
+          "end": "2026-08-24T10:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1343"
         },
         "asia": {
-          "start": "2026-08-21T04:00:00.000Z",
-          "end": "2026-08-24T16:00:00.000Z",
+          "start": "2026-08-20T15:00:00.000Z",
+          "end": "2026-08-24T03:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1343"
         },
         "america": {
-          "start": "2026-08-21T17:00:00.000Z",
-          "end": "2026-08-25T05:00:00.000Z",
+          "start": "2026-08-21T04:00:00.000Z",
+          "end": "2026-08-24T16:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1343"
         }
@@ -151,54 +151,10 @@
     },
     {
       "game": "hsr",
-      "id": "hsr-hoyo-ann-093f57d0dc07",
-      "title": "Fate[UBW] Collaboration Warp Details",
-      "type": "banner",
-      "start": "2026-08-14T03:00:00.000Z",
-      "end": "2026-08-24T02:59:00.000Z",
-      "server": "europe",
-      "timezone": "UTC+01:00",
-      "source": {
-        "name": "Honkai: Star Rail Official",
-        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339",
-        "kind": "official-announcement-api",
-        "recordId": "1339",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
-        "priority": 1
-      },
-      "confidence": "high",
-      "scheduleStatus": "exact",
-      "permanence": "timed",
-      "needs_review": false,
-      "image": "/assets/events/hsr/f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
-      "description": "Event Period 2026/08/14 04:00:00 - 2026/08/24 03:59:00 Participation Requirement Complete the Adventure Mission \"Calyx (Golden): Bud of Memories\" Event Details During the Garden of Plenty event, beat Calyx (Golden) and Calyx (Crimson)…",
-      "windowsByRegion": {
-        "europe": {
-          "start": "2026-08-14T03:00:00.000Z",
-          "end": "2026-08-24T02:59:00.000Z",
-          "timezone": "UTC+01:00",
-          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
-        },
-        "asia": {
-          "start": "2026-08-13T20:00:00.000Z",
-          "end": "2026-08-23T19:59:00.000Z",
-          "timezone": "UTC+08:00",
-          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
-        },
-        "america": {
-          "start": "2026-08-14T09:00:00.000Z",
-          "end": "2026-08-24T08:59:00.000Z",
-          "timezone": "UTC-05:00",
-          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
-        }
-      }
-    },
-    {
-      "game": "hsr",
       "id": "hsr-hoyo-ann-59582dfb96bb",
       "title": "Version 4.4 Event Warp: Phase II",
       "type": "banner",
-      "start": "2026-08-04T04:00:00.000Z",
+      "start": "2026-08-03T22:00:00.000Z",
       "end": "2026-08-25T14:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
@@ -207,7 +163,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294",
         "kind": "official-announcement-api",
         "recordId": "1294",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -218,19 +174,19 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-08-04T04:00:00.000Z",
+          "start": "2026-08-03T22:00:00.000Z",
           "end": "2026-08-25T14:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
         },
         "asia": {
-          "start": "2026-08-04T04:00:00.000Z",
+          "start": "2026-08-03T15:00:00.000Z",
           "end": "2026-08-25T07:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
         },
         "america": {
-          "start": "2026-08-04T17:00:00.000Z",
+          "start": "2026-08-04T04:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
@@ -258,7 +214,7 @@
       "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "/assets/events/hsr/4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "image": null,
       "description": "Event Period 2026/07/27 04:00:00 - 2026/08/10 03:59:00 Participation Requirement Unlock Planar Ornament Event Details During the Planar Fissure event, receive double rewards when obtaining Immersion Rewards or performing Ornament…",
       "windowsByRegion": {
         "europe": {
@@ -286,8 +242,8 @@
       "id": "hsr-hoyo-ann-38b45482599c",
       "title": "\"Imagenae: Holy Grail War\" Event Details",
       "type": "event",
-      "start": "2026-07-23T03:00:00.000Z",
-      "end": "2026-08-25T22:00:00.000Z",
+      "start": "2026-07-22T21:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -295,7 +251,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304",
         "kind": "official-announcement-api",
         "recordId": "1304",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -306,20 +262,20 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-23T03:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-07-22T21:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
         "asia": {
-          "start": "2026-07-23T03:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-07-22T14:00:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
         "america": {
-          "start": "2026-07-23T16:00:00.000Z",
-          "end": "2026-08-26T11:00:00.000Z",
+          "start": "2026-07-23T03:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         }
@@ -330,8 +286,8 @@
       "id": "hsr-hoyo-ann-12c1a7a21c89",
       "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
       "type": "event",
-      "start": "2026-07-14T03:30:00.000Z",
-      "end": "2026-08-25T19:59:00.000Z",
+      "start": "2026-07-13T21:30:00.000Z",
+      "end": "2026-08-25T13:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -339,7 +295,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
         "kind": "official-announcement-api",
         "recordId": "1301",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -350,20 +306,20 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-14T03:30:00.000Z",
-          "end": "2026-08-25T19:59:00.000Z",
+          "start": "2026-07-13T21:30:00.000Z",
+          "end": "2026-08-25T13:59:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
         "asia": {
-          "start": "2026-07-14T03:30:00.000Z",
-          "end": "2026-08-25T19:59:00.000Z",
+          "start": "2026-07-13T14:30:00.000Z",
+          "end": "2026-08-25T06:59:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
         "america": {
-          "start": "2026-07-14T16:30:00.000Z",
-          "end": "2026-08-26T08:59:00.000Z",
+          "start": "2026-07-14T03:30:00.000Z",
+          "end": "2026-08-25T19:59:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         }
@@ -374,8 +330,8 @@
       "id": "hsr-hoyo-ann-5869c3577b20",
       "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
       "type": "event",
-      "start": "2026-07-13T04:00:00.000Z",
-      "end": "2026-11-10T22:00:00.000Z",
+      "start": "2026-07-12T22:00:00.000Z",
+      "end": "2026-11-10T16:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -383,7 +339,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296",
         "kind": "official-announcement-api",
         "recordId": "1296",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -394,20 +350,20 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-13T04:00:00.000Z",
-          "end": "2026-11-10T22:00:00.000Z",
+          "start": "2026-07-12T22:00:00.000Z",
+          "end": "2026-11-10T16:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
         "asia": {
-          "start": "2026-07-13T04:00:00.000Z",
-          "end": "2026-11-10T22:00:00.000Z",
+          "start": "2026-07-12T15:00:00.000Z",
+          "end": "2026-11-10T09:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
         "america": {
-          "start": "2026-07-13T17:00:00.000Z",
-          "end": "2026-11-11T11:00:00.000Z",
+          "start": "2026-07-13T04:00:00.000Z",
+          "end": "2026-11-10T22:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         }
@@ -418,8 +374,8 @@
       "id": "hsr-hoyo-ann-ca5a1c47222c",
       "title": "Version 4.4 Store Update",
       "type": "event",
-      "start": "2026-07-03T13:00:00.000Z",
-      "end": "2026-08-25T22:00:00.000Z",
+      "start": "2026-07-03T07:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -427,7 +383,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299",
         "kind": "official-announcement-api",
         "recordId": "1299",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -438,22 +394,64 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-03T13:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-07-03T07:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         },
         "asia": {
-          "start": "2026-07-03T13:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-07-03T00:00:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         },
         "america": {
-          "start": "2026-07-04T02:00:00.000Z",
-          "end": "2026-08-26T11:00:00.000Z",
+          "start": "2026-07-03T13:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
+        }
+      }
+    },
+    {
+      "game": "hsr",
+      "id": "hsr-hoyo-ann-093f57d0dc07",
+      "title": "Fate[UBW] Collaboration Warp Details",
+      "type": "banner",
+      "start": "2026-07-03T06:55:00.000Z",
+      "end": null,
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Honkai: Star Rail Official",
+        "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339",
+        "kind": "official-announcement-api",
+        "recordId": "1339",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
+        "priority": 1
+      },
+      "confidence": "medium",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/hsr/f8db8be42060d2e8d199d417ebf04957c9730f2b52bbfddf7665cd4d0cc831bf.png",
+      "description": null,
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-07-03T06:55:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        },
+        "asia": {
+          "start": "2026-07-02T23:55:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
+        },
+        "america": {
+          "start": "2026-08-14T09:00:00.000Z",
+          "end": "2026-08-24T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         }
       }
     },
@@ -462,8 +460,8 @@
       "id": "hsr-hoyo-ann-df1a5352d767",
       "title": "Stellar Companions: Log in to receive Golden Companion Spirit ×1",
       "type": "event",
-      "start": "2026-04-10T12:55:00.000Z",
-      "end": "2026-08-25T22:00:00.000Z",
+      "start": "2026-04-10T06:55:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -471,7 +469,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232",
         "kind": "official-announcement-api",
         "recordId": "1232",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -482,20 +480,20 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-04-10T12:55:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-04-10T06:55:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         },
         "asia": {
-          "start": "2026-04-10T12:55:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-04-09T23:55:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         },
         "america": {
-          "start": "2026-04-11T01:55:00.000Z",
-          "end": "2026-08-26T11:00:00.000Z",
+          "start": "2026-04-10T12:55:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         }
@@ -506,8 +504,8 @@
       "id": "hsr-hoyo-ann-77749febed58",
       "title": "\"Divergent Universe: Arcadian Chronicles\": Massive Update to New Divergent Universe Subject",
       "type": "event",
-      "start": "2026-03-23T10:00:00.000Z",
-      "end": "2026-08-25T22:00:00.000Z",
+      "start": "2026-03-23T04:00:00.000Z",
+      "end": "2026-08-25T16:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -515,7 +513,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211",
         "kind": "official-announcement-api",
         "recordId": "1211",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -526,20 +524,20 @@
       "description": null,
       "windowsByRegion": {
         "europe": {
-          "start": "2026-03-23T10:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-03-23T04:00:00.000Z",
+          "end": "2026-08-25T16:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         },
         "asia": {
-          "start": "2026-03-23T10:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
+          "start": "2026-03-22T21:00:00.000Z",
+          "end": "2026-08-25T09:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         },
         "america": {
-          "start": "2026-03-23T23:00:00.000Z",
-          "end": "2026-08-26T11:00:00.000Z",
+          "start": "2026-03-23T10:00:00.000Z",
+          "end": "2026-08-25T22:00:00.000Z",
           "timezone": "UTC-05:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         }
@@ -559,7 +557,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1386",
         "kind": "official-announcement-api",
         "recordId": "1386",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "low",
@@ -584,7 +582,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1361",
         "kind": "official-announcement-api",
         "recordId": "1361",
-        "fetchedAt": "2026-08-22T03:54:55.849Z",
+        "fetchedAt": "2026-08-24T04:04:07.797Z",
         "priority": 1
       },
       "confidence": "low",

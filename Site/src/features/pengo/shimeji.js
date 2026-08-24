@@ -10,6 +10,7 @@
   const ENABLED_KEY = 'nyx-shimeji-enabled';
 
   const sprite = (n) => `${SHIMEJI_BASE}/shime${n}.png`;
+  const spriteImages = new Array(46);
   const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
 
   const ACTIONS = {
@@ -92,8 +93,12 @@
     constructor(layer, seed = 0, scale = 0.78) {
       this.layer = layer;
       this.seed = seed;
-      this.el = document.createElement('div');
+      this.el = new Image();
       this.el.className = 'mascot';
+      this.el.alt = '';
+      this.el.setAttribute('aria-hidden', 'true');
+      this.el.draggable = false;
+      this.el.decoding = 'sync';
       this.layer.appendChild(this.el);
 
       this.anchorX = 64;
@@ -137,7 +142,7 @@
     leftWallX() { return 12; }
     rightWallX() { return window.innerWidth - 12; }
 
-    setFrame(n) { this.el.style.backgroundImage = `url("${sprite(n)}")`; }
+    setFrame(n) { this.el.src = spriteImages[n - 1]?.src || sprite(n); }
 
     setAction(name, reset = false) {
       if (this.actionName === name && !reset) return;
@@ -687,7 +692,7 @@
     const style = document.createElement('style');
     style.textContent = [
       '.mascot-layer{position:fixed;inset:0;pointer-events:none;z-index:1200;overflow:hidden}',
-      '.mascot{position:absolute;width:128px;height:128px;background-repeat:no-repeat;background-position:left top;background-size:128px 128px;transform-origin:64px 128px;will-change:transform,left,top;pointer-events:auto;cursor:grab;user-select:none;filter:drop-shadow(0 8px 18px rgba(0,0,0,0.35))}',
+      '.mascot{position:absolute;display:block;width:128px;height:128px;transform-origin:64px 128px;will-change:transform,left,top;pointer-events:auto;cursor:grab;user-select:none;filter:drop-shadow(0 8px 18px rgba(0,0,0,0.35))}',
       '.mascot.dragging{cursor:grabbing;transition:none !important}',
       // Popover panel anchored next to the toggle button. Position is
       // computed at open time so it follows the toggle wherever the
@@ -1073,7 +1078,13 @@
     for (let i = 1; i <= 46; i++) {
       promises.push(new Promise((res) => {
         const img = new Image();
-        img.onload = img.onerror = () => res();
+        spriteImages[i - 1] = img;
+        img.decoding = 'sync';
+        img.onload = async () => {
+          try { await img.decode(); } catch {}
+          res();
+        };
+        img.onerror = () => res();
         img.src = sprite(i);
       }));
     }

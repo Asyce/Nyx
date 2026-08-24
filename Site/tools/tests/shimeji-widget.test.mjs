@@ -38,6 +38,18 @@ test('the old Pengo shimeji ships through the Nyx eye control', async () => {
   assert.match(engineSource, /syncPopover\(\);\s*popoverEls\.on\.focus\(\{ preventScroll:true \}\)/);
   assert.match(engineSource, /popoverEls\.on\.setAttribute\('aria-pressed', String\(!!window\.shimejisEnabled\)\)/);
   assert.match(engineSource, /popoverEls\.off\.setAttribute\('aria-pressed', String\(!window\.shimejisEnabled\)\)/);
+  assert.match(engineSource, /const spriteImages = new Array\(46\)/);
+  assert.match(engineSource, /this\.el = new Image\(\)/);
+  assert.match(engineSource, /this\.el\.alt = ''/);
+  assert.match(engineSource, /this\.el\.setAttribute\('aria-hidden', 'true'\)/);
+  assert.match(engineSource, /this\.el\.draggable = false/);
+  assert.match(engineSource, /this\.el\.decoding = 'sync'/);
+  assert.match(engineSource, /setFrame\(n\) \{ this\.el\.src = spriteImages\[n - 1\]\?\.src \|\| sprite\(n\); \}/);
+  assert.doesNotMatch(engineSource, /style\.backgroundImage/);
+  const mascotCss = engineSource.match(/'\.mascot\{([^']+)\}'/)?.[1] || '';
+  assert.match(mascotCss, /display:block/);
+  assert.doesNotMatch(mascotCss, /background-(?:repeat|position|size)/);
+  assert.match(engineSource, /spriteImages\[i - 1\] = img;\s*img\.decoding = 'sync';\s*img\.onload = async \(\) => \{\s*try \{ await img\.decode\(\); \} catch \{\}\s*res\(\);\s*\};\s*img\.onerror = \(\) => res\(\)/);
 
   const preloadFillSource = engineSource.match(/for \(let i = mascots\.length; i < startCount; i\+\+\) spawnOne\(\);/)?.[0];
   assert.ok(preloadFillSource, 'preload fill loop not found');

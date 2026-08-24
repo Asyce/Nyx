@@ -12869,6 +12869,318 @@
       ],
       "cost": 320000
     }
+  ],
+  "weeklyBosses": [
+    {
+      "bossName": "Corrupted Overlord - Pompey",
+      "drops": [
+        {
+          "id": "110004",
+          "name": "Scarlet Engine",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss004.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss004.webp",
+          "source": "Corrupted Overlord - Pompey",
+          "sourceDetails": [
+            {
+              "name": "Corrupted Overlord - Pompey",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_TyrantPompey.webp"
+            }
+          ],
+          "chars": [
+            "Burnice",
+            "Caesar",
+            "Evelyn",
+            "Lighter",
+            "Orphie & Magus",
+            "Pulchra"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Corrupted Wandering Hunter",
+      "drops": [
+        {
+          "id": "110007",
+          "name": "Crimson Miasma Spike",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+          "source": "Corrupted Wandering Hunter",
+          "sourceDetails": [
+            {
+              "name": "Wandering Hunter",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+            }
+          ],
+          "chars": [
+            "Banyue",
+            "Lucia",
+            "Manato",
+            "Sigrid",
+            "Yidhari"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Dead End Butcher",
+      "drops": [
+        {
+          "id": "110001",
+          "name": "Ferocious Grip",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+          "source": "Dead End Butcher",
+          "sourceDetails": [
+            {
+              "name": "Dead End Butcher",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CottusGrey.webp"
+            }
+          ],
+          "chars": [
+            "Anby",
+            "Billy",
+            "Ellen",
+            "Jane Doe",
+            "Lucy",
+            "Nekomata",
+            "Nicole",
+            "Trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "giant beast \"Sobek\" controlled by The Thrall",
+      "drops": [
+        {
+          "id": "110008",
+          "name": "Clouded Crystalline Substance",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
+          "source": "giant beast \"Sobek\" controlled by The Thrall",
+          "sourceDetails": [
+            {
+              "name": "giant beast \"Sobek\" controlled by The Thrall"
+            }
+          ],
+          "chars": [
+            "Aria",
+            "Billy - Starlight",
+            "Sunna",
+            "Ye Shunguang",
+            "Zhao"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Girtablullu",
+      "drops": [
+        {
+          "id": "110010",
+          "name": "Timeworn Husk",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+          "source": "Girtablullu",
+          "sourceDetails": [
+            {
+              "name": "Girtablullu",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+            }
+          ],
+          "chars": [
+            "Norma",
+            "Pyrois",
+            "Remielle",
+            "Velina"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Kusarikku",
+      "drops": [
+        {
+          "id": "110011",
+          "name": "Forged Away Core",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": null,
+          "source": "Kusarikku",
+          "sourceDetails": [
+            {
+              "name": "Kusarikku"
+            }
+          ],
+          "chars": [
+            "Claret",
+            "Roxy"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Miasma Priest",
+      "drops": [
+        {
+          "id": "110006",
+          "name": "Exuvia of Refinement",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss006.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss006.webp",
+          "source": "Miasma Priest",
+          "sourceDetails": [
+            {
+              "name": "Miasma Priest",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MentorMevorakh.webp"
+            }
+          ],
+          "chars": [
+            "Cissia",
+            "Dialyn",
+            "Ju Fufu",
+            "Pan Yinhu",
+            "Seed",
+            "Yixuan"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sacrifice",
+      "drops": [
+        {
+          "id": "110005",
+          "name": "Sycophant's Refinement",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss005.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss005.webp",
+          "source": "Sacrifice",
+          "sourceDetails": [
+            {
+              "name": "Sacrifice - Covenant Guardian",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+            }
+          ],
+          "chars": [
+            "Alice",
+            "Harumasa",
+            "Miyabi",
+            "Vivian",
+            "Yuzuha"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sanguine Sweeper",
+      "drops": [
+        {
+          "id": "110009",
+          "name": "Marrow-Draining Thorn",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss009.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss009.webp",
+          "source": "Sanguine Sweeper",
+          "sourceDetails": [
+            {
+              "name": "Sanguine Sweeper",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_GraymaneCenturion.webp"
+            }
+          ],
+          "chars": [
+            "Nangong Yu",
+            "Promeia"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Twin Marionettes",
+      "drops": [
+        {
+          "id": "110003",
+          "name": "Finale Dance Shoes",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+          "source": "Twin Marionettes",
+          "sourceDetails": [
+            {
+              "name": "Twin Marionettes",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+            }
+          ],
+          "chars": [
+            "Astra Yao",
+            "Corin",
+            "Hugo",
+            "Lycaon",
+            "Piper",
+            "Rina",
+            "Soldier 11",
+            "Soukaku"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Unknown Corruption Complex",
+      "drops": [
+        {
+          "id": "110002",
+          "name": "Living Drive",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+          "source": "Unknown Corruption Complex",
+          "sourceDetails": [
+            {
+              "name": "Unknown Corruption Complex",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+            }
+          ],
+          "chars": [
+            "Anby: Soldier 0",
+            "Anton",
+            "Ben",
+            "Grace",
+            "Koleda",
+            "Qingyi",
+            "Seth",
+            "Yanagi",
+            "Zhu Yuan"
+          ]
+        }
+      ]
+    }
   ]
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-beta-loaded', { detail:{ key:"zzz" } }));

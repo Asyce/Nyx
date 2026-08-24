@@ -501825,6 +501825,70 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Snezhnaya Talent Domain",
+      "trios": [
+        {
+          "name": "Charity",
+          "firstId": 104365,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104367",
+            "name": "Philosophies of Charity",
+            "n": "Philosophies of Charity",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104367.webp"
+          },
+          "chars": [
+            "Odette",
+            "Traveler"
+          ]
+        },
+        {
+          "name": "Fortitude",
+          "firstId": 104368,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104370",
+            "name": "Philosophies of Fortitude",
+            "n": "Philosophies of Fortitude",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104370.webp"
+          },
+          "chars": [
+            "Alyosha"
+          ]
+        },
+        {
+          "name": "Glory",
+          "firstId": 104371,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104373",
+            "name": "Philosophies of Glory",
+            "n": "Philosophies of Glory",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104373.webp"
+          },
+          "chars": []
+        }
+      ]
     }
   ],
   "boss": {

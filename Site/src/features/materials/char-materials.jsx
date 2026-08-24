@@ -2759,8 +2759,13 @@ function cmMergeBetaCfg(liveCfg, betaPack){
     ...(isNew ? { recent:true } : {}),
   }));
   const weapons = cmMergeBetaRows(liveCfg.weapons, betaPack.weapons);
-  if (roster === liveCfg.roster && weapons === liveCfg.weapons) return liveCfg;
-  return { ...liveCfg, roster, weapons, __betaActive:true };
+  const grouped = Object.fromEntries(
+    ['talentDomains', 'weeklyBosses']
+      .filter((field) => Array.isArray(betaPack[field]))
+      .map((field) => [field, betaPack[field]]),
+  );
+  if (roster === liveCfg.roster && weapons === liveCfg.weapons && !Object.keys(grouped).length) return liveCfg;
+  return { ...liveCfg, ...grouped, roster, weapons, __betaActive:true };
 }
 
 function cmDownloadMaterialsCard(blob, filename){
@@ -3341,7 +3346,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         const chars = (trio.chars || []).map(resolve).filter(show);
         return { domain, trio, chars, key:'talent-' + di + '-' + ti };
       })
-      .filter((row) => row.chars.length > 0);
+      .filter((row) => row.chars.length > 0 || (!hasCharacterFilter && (row.trio.chars || []).length === 0));
     const art = cmArtFor(cmNewestChar(rows.flatMap((r) => r.chars)) || {});
     return rows.length ? { domain, rows, art } : null;
   }).filter(Boolean);
@@ -3358,7 +3363,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       boss,
       drops,
       art:boss.art || '',
-      order:Number.isFinite(sourceOrder) ? sourceOrder : cmCharRelease(newest),
+      order:Number.isFinite(sourceOrder) ? sourceOrder : (newest ? cmCharRelease(newest) : Number.MAX_SAFE_INTEGER),
     } : null;
   }).filter(Boolean).sort((a, b) => b.order - a.order);
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))

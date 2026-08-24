@@ -187777,6 +187777,20 @@
   ],
   "weeklyBosses": [
     {
+      "bossName": "High Hopes of the Falsely Enlightened",
+      "drops": [
+        {
+          "id": "110509",
+          "name": "High Hopes of the Falsely Enlightened",
+          "n": "High Hopes of the Falsely Enlightened",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110509.webp",
+          "chars": []
+        }
+      ]
+    },
+    {
       "bossName": "Vanquished Flow",
       "drops": [
         {

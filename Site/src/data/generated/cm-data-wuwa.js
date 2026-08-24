@@ -172433,7 +172433,7 @@
   },
   "bossGroups": [
     {
-      "title": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+      "title": "Bell-Borne Geochelone",
       "mats": [
         {
           "id": "41400094",
@@ -172475,7 +172475,28 @@
       ]
     },
     {
-      "title": "Denia / Denia - Early Access",
+      "title": "Cetus the Tidebreaker",
+      "mats": [
+        {
+          "id": "41400104",
+          "name": "Wave-Cutting Tooth",
+          "n": "Wave-Cutting Tooth",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_005_UI.webp",
+          "source": "Cetus the Tidebreaker",
+          "sourceDetails": [
+            {
+              "name": "Cetus the Tidebreaker"
+            }
+          ],
+          "chars": []
+        }
+      ],
+      "chars": []
+    },
+    {
+      "title": "Denia",
       "mats": [
         {
           "id": "41400304",
@@ -172511,7 +172532,7 @@
       ]
     },
     {
-      "title": "Dreamless / Dreamless - Early Access",
+      "title": "Dreamless",
       "mats": [
         {
           "id": "41400124",
@@ -172547,7 +172568,7 @@
       ]
     },
     {
-      "title": "Fleurdelys / Fleurdelys - Early Access",
+      "title": "Fleurdelys",
       "mats": [
         {
           "id": "41400204",
@@ -172583,7 +172604,7 @@
       ]
     },
     {
-      "title": "Hecate / Hecate - Early Access",
+      "title": "Hecate",
       "mats": [
         {
           "id": "41400194",
@@ -172623,7 +172644,7 @@
       ]
     },
     {
-      "title": "Scar / Scar - Early Access",
+      "title": "Scar",
       "mats": [
         {
           "id": "41400114",
@@ -172666,7 +172687,7 @@
       ]
     },
     {
-      "title": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+      "title": "Sentinel Ju\u00e9",
       "mats": [
         {
           "id": "41400144",
@@ -172700,7 +172721,7 @@
       ]
     },
     {
-      "title": "Sigillum / Sigillum - Early Access",
+      "title": "Sigillum",
       "mats": [
         {
           "id": "41400294",
@@ -172732,7 +172753,7 @@
       ]
     },
     {
-      "title": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+      "title": "Thousand-Puppet Pavilion",
       "mats": [
         {
           "id": "41400324",
@@ -172762,7 +172783,7 @@
       ]
     },
     {
-      "title": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+      "title": "Threnodian: Leviathan",
       "mats": [
         {
           "id": "41400254",
@@ -172794,7 +172815,7 @@
   ],
   "weeklyBosses": [
     {
-      "bossName": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+      "bossName": "Bell-Borne Geochelone",
       "drops": [
         {
           "id": "41400094",
@@ -172825,7 +172846,27 @@
       ]
     },
     {
-      "bossName": "Denia / Denia - Early Access",
+      "bossName": "Cetus the Tidebreaker",
+      "drops": [
+        {
+          "id": "41400104",
+          "name": "Wave-Cutting Tooth",
+          "n": "Wave-Cutting Tooth",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_005_UI.webp",
+          "source": "Cetus the Tidebreaker",
+          "sourceDetails": [
+            {
+              "name": "Cetus the Tidebreaker"
+            }
+          ],
+          "chars": []
+        }
+      ]
+    },
+    {
+      "bossName": "Denia",
       "drops": [
         {
           "id": "41400304",
@@ -172853,7 +172894,7 @@
       ]
     },
     {
-      "bossName": "Dreamless / Dreamless - Early Access",
+      "bossName": "Dreamless",
       "drops": [
         {
           "id": "41400124",
@@ -172881,7 +172922,7 @@
       ]
     },
     {
-      "bossName": "Fleurdelys / Fleurdelys - Early Access",
+      "bossName": "Fleurdelys",
       "drops": [
         {
           "id": "41400204",
@@ -172909,7 +172950,7 @@
       ]
     },
     {
-      "bossName": "Hecate / Hecate - Early Access",
+      "bossName": "Hecate",
       "drops": [
         {
           "id": "41400194",
@@ -172939,7 +172980,7 @@
       ]
     },
     {
-      "bossName": "Scar / Scar - Early Access",
+      "bossName": "Scar",
       "drops": [
         {
           "id": "41400114",
@@ -172972,7 +173013,7 @@
       ]
     },
     {
-      "bossName": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+      "bossName": "Sentinel Ju\u00e9",
       "drops": [
         {
           "id": "41400144",
@@ -172999,7 +173040,7 @@
       ]
     },
     {
-      "bossName": "Sigillum / Sigillum - Early Access",
+      "bossName": "Sigillum",
       "drops": [
         {
           "id": "41400294",
@@ -173025,7 +173066,7 @@
       ]
     },
     {
-      "bossName": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+      "bossName": "Thousand-Puppet Pavilion",
       "drops": [
         {
           "id": "41400324",
@@ -173050,7 +173091,7 @@
       ]
     },
     {
-      "bossName": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+      "bossName": "Threnodian: Leviathan",
       "drops": [
         {
           "id": "41400254",

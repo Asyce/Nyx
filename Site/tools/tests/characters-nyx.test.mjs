@@ -224,6 +224,71 @@ test('WuWa weekly challenges are built from only the selected weekly material', 
   assert.ok(wuwa.weeklyBosses.every((boss) => boss.drops.length === 1 && boss.drops[0].kind === 'weekly'));
 });
 
+test('material groups cover the current source catalogs in live and beta', async () => {
+  const dbJson = async (rel) => JSON.parse(await fs.readFile(path.resolve(site, '..', 'Database', rel), 'utf8'));
+  const weeklyIds = (cfg) => plain(cfg.weeklyBosses.flatMap((boss) => boss.drops.map((drop) => String(drop.id)))).sort();
+  const itemIds = (items, include) => items.filter(include).map((item) => String(item.id)).sort();
+  const effectiveGroups = (live, pack = {}) => ({
+    ...live,
+    ...Object.fromEntries(['talentDomains', 'weeklyBosses'].filter((field) => Array.isArray(pack?.[field])).map((field) => [field, pack[field]])),
+  });
+  const [gi, hsr, zzz, wuwa, giBeta, hsrBeta, zzzBeta, giRaw, hsrItems, zzzItems, wuwaItems, hsrBetaItems, zzzBetaItems] = await Promise.all([
+    loadGenerated('cm-data-gi.js', 'gi'),
+    loadGenerated('cm-data-hsr.js', 'hsr'),
+    loadGenerated('cm-data-zzz.js', 'zzz'),
+    loadGenerated('cm-data-wuwa.js', 'wuwa'),
+    loadGenerated('cm-data-gi-beta.js', 'gi', true),
+    loadGenerated('cm-data-hsr-beta.js', 'hsr', true),
+    loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
+    dbJson('GameData/gi/live/raw/itemAll.json'),
+    dbJson('GameData/hsr/live/items.json'),
+    dbJson('GameData/zzz/live/items.json'),
+    dbJson('GameData/ww/live/items.json'),
+    dbJson('GameData/hsr/beta/items.json'),
+    dbJson('GameData/zzz/beta/items.json'),
+  ]);
+  const giBetaCfg = effectiveGroups(gi, giBeta);
+  const hsrBetaCfg = effectiveGroups(hsr, hsrBeta);
+  const zzzBetaCfg = effectiveGroups(zzz, zzzBeta);
+
+  const sourceFamilies = new Map();
+  for (const [id, item] of Object.entries(giRaw)) {
+    if (item.type !== 'Character Talent Material') continue;
+    const family = String(item.name || '').match(/^(?:Teachings of|Guide to|Philosophies of)\s+(.+)$/i)?.[1];
+    if (family) sourceFamilies.set(family, Number(item.week));
+  }
+  const generatedFamilies = new Map(gi.talentDomains.flatMap((domain) => domain.trios.map((trio) => [trio.name, trio.trioIndex])));
+  assert.deepEqual([...generatedFamilies].sort(), [...sourceFamilies].sort(), 'every sourced talent family and weekday is generated');
+  const snezhnaya = gi.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name));
+  assert.deepEqual(plain(snezhnaya?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
+  assert.deepEqual(plain(giBetaCfg.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name))?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
+
+  const hsrCatalog = (item) => item.subType === 'WeeklyMonsterDrop' && /^1105\d{2}$/.test(String(item.id));
+  const zzzCatalog = (item) => /^1100\d{2}$/.test(String(item.id));
+  const wuwaCatalog = (item) => Array.isArray(item.tag) && item.tag.includes('Skill Upgrade Material');
+  assert.deepEqual(weeklyIds(hsr), itemIds(hsrItems, hsrCatalog));
+  assert.deepEqual(weeklyIds(zzz), itemIds(zzzItems, zzzCatalog));
+  assert.deepEqual(weeklyIds(wuwa), itemIds(wuwaItems, wuwaCatalog));
+  assert.deepEqual(weeklyIds(hsrBetaCfg), itemIds(hsrBetaItems, hsrCatalog));
+  assert.deepEqual(weeklyIds(zzzBetaCfg), itemIds(zzzBetaItems, zzzCatalog));
+  assert.ok(weeklyIds(wuwa).includes('41400104'), 'unused WuWa source drops stay visible');
+  assert.equal(hsrBetaCfg.weeklyBosses.find((boss) => boss.drops.some((drop) => String(drop.id) === '110509'))?.drops[0].name, 'High Hopes of the Falsely Enlightened');
+  assert.equal(zzzBetaCfg.weeklyBosses.find((boss) => boss.drops.some((drop) => String(drop.id) === '110011'))?.bossName, 'Kusarikku');
+
+  for (const [live, pack] of [[gi, giBeta], [hsr, hsrBeta], [zzz, zzzBeta]]) {
+    const groupedIds = new Set(weeklyIds(effectiveGroups(live, pack)));
+    const requiredIds = (pack?.roster || []).flatMap((ch) => (ch.req?.talents || []).filter((mat) => mat.kind === 'weekly').map((mat) => String(mat.id)));
+    assert.ok(requiredIds.every((id) => groupedIds.has(id)), 'beta weekly requirements are represented by beta groups');
+  }
+
+  const materials = await read('src/features/materials/char-materials.jsx');
+  assert.match(materials, /newest \? cmCharRelease\(newest\) : Number\.MAX_SAFE_INTEGER/, 'source-only weekly groups sort before older used groups');
+  const mergeSource = materials.slice(materials.indexOf('function cmMergeBetaRows'), materials.indexOf('function cmDownloadMaterialsCard'));
+  const mergeContext = {};
+  vm.runInNewContext(`${mergeSource}; this.merged = cmMergeBetaCfg({ roster:[], weapons:[], weeklyBosses:[{ bossName:'live' }] }, { roster:[], weeklyBosses:[{ bossName:'beta' }] });`, mergeContext);
+  assert.equal(mergeContext.merged.weeklyBosses[0].bossName, 'beta', 'the browser overlays beta grouping metadata');
+});
+
 test('Genshin weekly bosses keep exact drops, local boss art, chronology, and sourced character equality', async () => {
   const materials = await read('src/features/materials/char-materials.jsx');
   const helperSource = materials.match(/function cmKeepWeeklyDrop\([\s\S]*?\n\}/)?.[0];
@@ -235,6 +300,18 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   assert.equal(helperContext.keepWeeklyDrop({ chars:['A'] }, [], false), false, 'populated drops hide when no character is visible');
   assert.equal(helperContext.keepWeeklyDrop({ chars:['A'] }, [{}], true), true, 'matching populated drops remain visible');
   const gi = await loadGenerated('cm-data-gi.js', 'gi');
+  const rawItems = JSON.parse(await fs.readFile(path.resolve(site, '..', 'Database/GameData/gi/live/raw/itemAll.json'), 'utf8'));
+  const sourceGroups = new Map();
+  for (const [id, item] of Object.entries(rawItems)) {
+    const sources = Array.isArray(item.jump_descs) ? item.jump_descs : [item.jump_descs];
+    const challenge = sources.find((source) => /\bChallenge Reward\b/i.test(String(source || '')));
+    if (!challenge) continue;
+    if (!sourceGroups.has(challenge)) sourceGroups.set(challenge, []);
+    sourceGroups.get(challenge).push(id);
+  }
+  const catalogDropGroups = [...sourceGroups.values()]
+    .map((ids) => ids.sort((a, b) => Number(a) - Number(b)))
+    .sort((a, b) => Number(b[0]) - Number(a[0]));
   const expected = [
     ['Exalted Master of the Heretical Path', ['113087', '113088', '113089']],
     ['The Doctor', ['113081', '113082', '113083']],
@@ -251,17 +328,24 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
     ['Andrius', ['113006', '113007', '113008']],
     ['Stormterror Dvalin', ['113003', '113004', '113005']],
   ];
-  assert.equal(gi.weeklyBosses.length, 14);
-  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.bossName)), expected.map(([name]) => name));
-  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.releaseOrder)), Array.from({ length:14 }, (_, index) => 14 - index));
-  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.drops.map((drop) => String(drop.id)))), expected.map(([, ids]) => ids));
+  const generatedDropGroups = plain(gi.weeklyBosses.map((boss) => boss.drops.map((drop) => String(drop.id))));
+  assert.deepEqual(generatedDropGroups, catalogDropGroups, 'all GameData Challenge Reward groups are generated');
+  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.releaseOrder)), Array.from({ length:catalogDropGroups.length }, (_, index) => catalogDropGroups.length - index));
+  for (const [name, ids] of expected) {
+    assert.equal(gi.weeklyBosses.find((boss) => String(boss.drops[0]?.id) === ids[0])?.bossName, name);
+  }
   const drops = gi.weeklyBosses.flatMap((boss) => boss.drops);
-  assert.equal(drops.length, 42);
-  assert.equal(new Set(drops.map((drop) => String(drop.id))).size, 42);
+  const catalogDropIds = catalogDropGroups.flat();
+  assert.equal(drops.length, catalogDropIds.length);
+  assert.equal(new Set(drops.map((drop) => String(drop.id))).size, catalogDropIds.length);
   assert.match(materials, /\.filter\(\(row\) => cmKeepWeeklyDrop\(row\.drop, row\.chars, hasCharacterFilter\)\)/);
+  const knownFirstIds = new Set(expected.map(([, ids]) => ids[0]));
   for (const boss of gi.weeklyBosses) {
-    assert.match(boss.art, /^\.\.\/\.\.\/Database\/GameData\/gi\/assets\/monsters\//, boss.bossName + ' uses boss art');
-    assert.ok((await fs.stat(localAsset(boss.art))).size > 0, boss.bossName + ' boss art exists');
+    if (knownFirstIds.has(String(boss.drops[0]?.id))) assert.ok(boss.art, `${boss.bossName} keeps its known local boss art`);
+    if (boss.art) {
+      assert.match(boss.art, /^\.\.\/\.\.\/Database\/GameData\/gi\/assets\/monsters\//, boss.bossName + ' uses local boss art');
+      assert.ok((await fs.stat(localAsset(boss.art))).size > 0, boss.bossName + ' boss art exists');
+    }
     assert.equal(boss.drops.length, 3);
     for (const drop of boss.drops) {
       assert.equal(drop.kind, 'weekly');
@@ -274,7 +358,7 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   assert.equal(azhdahaCrown.name, "Dragon Lord's Crown");
   assert.deepEqual(plain(azhdahaCrown.chars.filter((name) => ['Eula', 'Yoimiya'].includes(name)).sort()), ['Eula', 'Yoimiya']);
 
-  const exactDropIds = new Set(expected.flatMap(([, ids]) => ids));
+  const exactDropIds = new Set(catalogDropIds);
   const sourcedCharacters = new Set();
   const travelerIds = new Set();
   for (const character of gi.roster) {
@@ -296,7 +380,7 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   const rosterCharacters = new Set(gi.roster.map((character) => character.n));
   assert.deepEqual([...sourcedCharacters].sort(), [...rosterCharacters].sort());
   assert.deepEqual([...generatedCharacters].sort(), [...sourcedCharacters].sort());
-  assert.deepEqual([...travelerIds].sort(), ['113005', '113006', '113017', '113032', '113046', '113075']);
+  assert.ok(['113005', '113006', '113017', '113032', '113046', '113075'].every((id) => travelerIds.has(id)));
   assert.ok(!drops.some((drop) => String(drop.id) === '113063'), 'Pyro Traveler story reward is not a weekly boss drop');
 });
 

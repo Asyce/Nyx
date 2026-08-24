@@ -806,6 +806,7 @@ function isGenericSource(value) {
   const text = cleanSourceText(value);
   if (!text) return true;
   if (/^alchemy$/i.test(text)) return true;
+  if (/^(?:echo of war|notorious hunt|weekly challenge)$/i.test(text)) return true;
   return GENERIC_SOURCE_RE.test(text);
 }
 
@@ -825,7 +826,8 @@ function extraSourceCandidates(game, item, id) {
       const trio = spec?.trios?.[weapon.ti];
       if (spec && trio) out.push(`${trio.name} - ${spec.name}`);
     }
-    const weekly = GI_WEEKLY_BOSS_SPECS.find((boss) => boss.matIds.includes(sid));
+    const weekly = GI_WEEKLY_BOSS_SPECS.find((boss) => boss.matIds.includes(sid))
+      || giWeeklyCatalog().find((boss) => boss.matIds.includes(sid));
     if (weekly) out.push(weekly.bossName);
   }
   if (game === 'hsr') {
@@ -1787,11 +1789,11 @@ function giItemLookup() {
 
 const gamedataItemLookupCache = new Map();
 
-function gamedataItemLookup(game) {
-  const cacheKey = `${game}:${nch()}`;
+function gamedataItemLookup(game, channel = nch()) {
+  const cacheKey = `${game}:${channel}`;
   if (gamedataItemLookupCache.has(cacheKey)) return gamedataItemLookupCache.get(cacheKey);
   const byKey = new Map();
-  const rel = `GameData/${game}/${nch()}/items.json`;
+  const rel = `GameData/${game}/${channel}/items.json`;
   if (!exists(rel)) {
     gamedataItemLookupCache.set(cacheKey, byKey);
     return byKey;
@@ -1803,6 +1805,17 @@ function gamedataItemLookup(game) {
   }
   gamedataItemLookupCache.set(cacheKey, byKey);
   return byKey;
+}
+
+const gamedataRawItemLookupCache = new Map();
+
+function gamedataRawItemLookup(game, channel = nch()) {
+  const cacheKey = `${game}:${channel}`;
+  if (gamedataRawItemLookupCache.has(cacheKey)) return gamedataRawItemLookupCache.get(cacheKey);
+  const rel = `GameData/${game}/${channel}/raw/itemAll.json`;
+  const byId = new Map(exists(rel) ? Object.entries(readJson(rel)) : []);
+  gamedataRawItemLookupCache.set(cacheKey, byId);
+  return byId;
 }
 
 const localAvatarOverlayCache = new Map();
@@ -2200,9 +2213,9 @@ function sumMaterials(rows, lookup = null, game = 'gi') {
         rar: rarity,
         // GI weekly-drop identity is the exact sourced ID set. Name matching
         // would incorrectly classify Dragon Lord's Crown as Crown of Insight.
-        kind: game === 'gi' && GI_WEEKLY_DROP_IDS.has(String(id))
+        kind: game === 'gi' && isGiWeeklyDropId(id)
           ? 'weekly'
-          : (game === 'gi' && GI_NON_WEEKLY_113_IDS.has(String(id))
+          : (game === 'gi' && /^113\d{3}$/.test(String(id)) && rarity >= 5
             ? 'specialty'
             : inferMatKind(name, mat.rank, item)),
         icon,
@@ -2376,9 +2389,32 @@ const GI_WEEKLY_BOSS_SPECS = [
   { bossName: 'Exalted Master of the Heretical Path', releaseOrder:14, artAliases:['Il Dottore'], matIds: ['113087', '113088', '113089'] },
 ];
 
-const GI_WEEKLY_DROP_IDS = new Set(GI_WEEKLY_BOSS_SPECS.flatMap((boss) => boss.matIds));
-// The Pyro Traveler's Cornerstone is a story reward, not a Trounce Domain drop.
-const GI_NON_WEEKLY_113_IDS = new Set(['113063']);
+const giWeeklyCatalogCache = new Map();
+
+function giWeeklyCatalog() {
+  if (giWeeklyCatalogCache.has(nch())) return giWeeklyCatalogCache.get(nch());
+  const groups = new Map();
+  for (const [id, item] of gamedataRawItemLookup('gi')) {
+    if (item?.type !== 'Character Level-Up Material' || Number(item?.rank) !== 5) continue;
+    const sources = Array.isArray(item?.jump_descs) ? item.jump_descs : [item?.jump_descs];
+    const challenge = sources.find((source) => /\bChallenge Reward\b/i.test(String(source || '')));
+    if (!challenge) continue;
+    const bossName = sourceBaseName(challenge);
+    if (!bossName) continue;
+    if (!groups.has(bossName)) groups.set(bossName, { bossName, matIds: [] });
+    groups.get(bossName).matIds.push(String(id));
+  }
+  const catalog = [...groups.values()]
+    .map((group) => ({ ...group, matIds: group.matIds.sort((a, b) => Number(a) - Number(b)) }))
+    .sort((a, b) => Number(a.matIds[0]) - Number(b.matIds[0]));
+  giWeeklyCatalogCache.set(nch(), catalog);
+  return catalog;
+}
+
+function isGiWeeklyDropId(id) {
+  const sid = String(id || '');
+  return giWeeklyCatalog().some((group) => group.matIds.includes(sid));
+}
 
 function giWeeklyBossArt(spec) {
   const wanted = new Set([spec.bossName, ...(spec.artAliases || [])].map(normKey));
@@ -4664,49 +4700,98 @@ function groupByPreferred(roster, key, order, matMap = (x) => [{ n: x }]) {
   }));
 }
 
+function giTalentFamilyName(name) {
+  return String(name || '').match(/^(?:Teachings of|Guide to|Philosophies of)\s+(.+)$/i)?.[1]?.trim() || null;
+}
+
+function giTalentCatalog() {
+  const families = new Map();
+  for (const [id, item] of gamedataRawItemLookup('gi')) {
+    if (item?.type !== 'Character Talent Material') continue;
+    const name = giTalentFamilyName(item?.name);
+    if (!name) continue;
+    const key = normKey(name);
+    if (!families.has(key)) families.set(key, { name, firstId:Number(id), itemIds:[], trioIndex:Number(item?.week) });
+    const family = families.get(key);
+    family.firstId = Math.min(family.firstId, Number(id));
+    family.itemIds.push(String(id));
+    if (Number.isInteger(Number(item?.week))) family.trioIndex = Number(item.week);
+  }
+  return [...families.values()]
+    .map((family) => ({ ...family, itemIds:family.itemIds.sort((a, b) => Number(a) - Number(b)) }))
+    .sort((a, b) => a.firstId - b.firstId);
+}
+
+function giRegionLabel(value) {
+  return String(value || '')
+    .replace(/\s+STAR$/i, '')
+    .trim()
+    .toLowerCase()
+    .replace(/(^|[\s-])([a-z])/g, (_, lead, letter) => lead + letter.toUpperCase());
+}
+
 function buildGiTalentDomains(roster) {
   const lookup = giItemLookup();
-  const domains = GI_DOMAIN_SPECS.map((domain) => ({
-    name: domain.name,
-    trios: domain.trios.map((trio, trioIndex) => ({
-      name: trio.name,
-      firstId: trio.firstId,
+  const domains = [];
+  const byMaterialId = new Map();
+  for (const family of giTalentCatalog()) {
+    if (!domains.length || family.trioIndex === 0 || domains[domains.length - 1].trios.length >= 3) domains.push({ trios:[] });
+    const domain = domains[domains.length - 1];
+    const trioIndex = Number.isInteger(family.trioIndex) ? family.trioIndex : domain.trios.length;
+    const materialId = family.itemIds[family.itemIds.length - 1];
+    const trio = {
+      name: family.name,
+      firstId: family.firstId,
       trioIndex,
       days: trioIndex === 0 ? ['Mon', 'Thu'] : trioIndex === 1 ? ['Tue', 'Fri'] : ['Wed', 'Sat'],
-      material: materialPayloadById(trio.firstId + 2, lookup, `Philosophies of ${trio.name}`, 'book'),
+      material: materialPayloadById(materialId, lookup, `Philosophies of ${family.name}`, 'book'),
       chars: [],
-    })),
-  }));
-
-  for (const ch of cmRosterSource(roster)) {
-    const hit = (ch.req?.talents || [])
-      .map((mat) => GI_BOOK_LOOKUP.get(String(mat.id)))
-      .find(Boolean);
-    if (hit) pushUnique(domains[hit.di].trios[hit.ti].chars, ch.n);
+    };
+    domain.trios.push(trio);
+    family.itemIds.forEach((id) => byMaterialId.set(id, trio));
   }
 
-  return domains
-    .map((domain) => ({
-      ...domain,
-      trios: domain.trios.map((trio) => ({
-        ...trio,
-        chars: trio.chars.sort((a, b) => a.localeCompare(b)),
-      })),
-    }))
-    .filter((domain) => domain.trios.some((trio) => trio.chars.length > 0));
+  const sourceRoster = cmRosterSource(roster);
+  const rosterByName = new Map(sourceRoster.map((ch) => [ch.n, ch]));
+  for (const ch of sourceRoster) {
+    const trio = (ch.req?.talents || []).map((mat) => byMaterialId.get(String(mat.id))).find(Boolean);
+    if (trio) pushUnique(trio.chars, ch.n);
+  }
+
+  return domains.map((domain) => {
+    const known = GI_DOMAIN_SPECS.find((spec) => spec.trios.some((trio) => trio.firstId === domain.trios[0]?.firstId));
+    const counts = new Map();
+    for (const name of domain.trios.flatMap((trio) => trio.chars)) {
+      const ch = rosterByName.get(name);
+      const region = giRegionLabel(ch?.tag || ch?.facts?.nation);
+      if (region) counts.set(region, (counts.get(region) || 0) + 1);
+    }
+    const region = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0];
+    const fallback = region
+      ? `${region} Talent Domain`
+      : `${domain.trios.map((trio) => trio.name).join(' / ')} Talent Domain`;
+    return {
+      name: known?.name || fallback,
+      trios: domain.trios.map((trio) => ({ ...trio, chars:trio.chars.sort((a, b) => a.localeCompare(b)) })),
+    };
+  });
 }
 
 function buildGiWeeklyBosses(roster) {
   const lookup = giItemLookup();
-  const bosses = GI_WEEKLY_BOSS_SPECS.map((spec) => ({
-    bossName: spec.bossName,
-    releaseOrder: spec.releaseOrder,
-    art: giWeeklyBossArt(spec),
-    drops: spec.matIds.map((id) => ({
-      ...materialPayloadById(id, lookup, GI_BOSS_MAT_NAME_FALLBACKS[id], 'weekly'),
-      chars: [],
-    })),
-  }));
+  const bosses = giWeeklyCatalog().map((group, index) => {
+    const spec = GI_WEEKLY_BOSS_SPECS.find((known) => known.matIds.some((id) => group.matIds.includes(id)));
+    const matched = matchMonsterSource(group.bossName, monsterSourceIndex('gi'));
+    return {
+      bossName: spec?.bossName || matched?.name || group.bossName,
+      releaseOrder: index + 1,
+      ...(spec ? { art:giWeeklyBossArt(spec) } : (matched?.icon ? { art:matched.icon } : {})),
+      drops: group.matIds.map((id) => ({
+        ...materialPayloadById(id, lookup, GI_BOSS_MAT_NAME_FALLBACKS[id], 'weekly'),
+        chars: [],
+      })),
+    };
+  });
   const byId = new Map();
   bosses.forEach((boss) => boss.drops.forEach((drop) => byId.set(String(drop.id), drop)));
   const sourcedCharacters = new Set();
@@ -4726,7 +4811,7 @@ function buildGiWeeklyBosses(roster) {
       if (row) {
         pushUnique(row.chars, ch.n);
         sourcedCharacters.add(ch.n);
-      } else if (!GI_NON_WEEKLY_113_IDS.has(id)) {
+      } else if (isGiWeeklyDropId(id)) {
         if (!unknownWeeklyIds.has(id)) unknownWeeklyIds.set(id, new Set());
         unknownWeeklyIds.get(id).add(ch.n);
       }
@@ -4737,7 +4822,7 @@ function buildGiWeeklyBosses(roster) {
     const named = [...unknownWeeklyIds.entries()]
       .map(([id, names]) => `${id} (${[...names].sort().join(', ')})`)
       .join('; ');
-    throw new Error(`GI weekly requirements are missing from GI_WEEKLY_BOSS_SPECS: ${named}`);
+    throw new Error(`GI weekly requirements are missing from the GameData weekly catalog: ${named}`);
   }
 
   const known = bosses
@@ -4776,6 +4861,61 @@ const HSR_BOSS_NAMES = {
   110508: 'Vanquished Flow',
 };
 
+function usableCatalogItem(item) {
+  const name = cleanSourceText(item?.name);
+  return name && !/^(?:\.{2,}|-)$/i.test(name) && !/\{TextID#/i.test(name);
+}
+
+function specificWeeklySource(material) {
+  const clean = (value) => sourceBaseName(value).replace(/\s*-\s*Early Access$/i, '').trim();
+  const direct = String(material?.source || '').split(/\s+\/\s+/)
+    .map(clean)
+    .find((name) => name && !isGenericSource(name) && !/\{TextID#/i.test(name));
+  if (direct) return direct;
+  const details = (material?.sourceDetails || [])
+    .map((detail) => clean(detail?.name))
+    .find((name) => name && !isGenericSource(name) && !/\{TextID#/i.test(name));
+  return details || null;
+}
+
+function buildWeeklyBossesFromCatalog({ game, dataGame = game, roster, include, title, sort }) {
+  const lookup = gamedataItemLookup(dataGame);
+  const liveLookup = gamedataItemLookup(dataGame, 'live');
+  const groups = new Map();
+  const materialForId = (id, fallback = null) => {
+    const current = lookup.get(String(id));
+    const source = usableCatalogItem(current) ? current : (liveLookup.get(String(id)) || current);
+    const sourceLookup = source === current ? lookup : liveLookup;
+    return materialPayloadById(id, sourceLookup, usableCatalogItem(fallback) ? fallback.name : null, 'weekly', game);
+  };
+  const add = (id, fallback = null) => {
+    const sid = String(id || '');
+    if (!sid || groups.has(sid)) return groups.get(sid);
+    const weekly = materialForId(sid, fallback);
+    const bossName = title?.(sid, weekly) || specificWeeklySource(weekly) || weekly.name;
+    const boss = { bossName, drops:[{ ...weekly, chars:[] }] };
+    groups.set(sid, boss);
+    return boss;
+  };
+
+  for (const [key, item] of lookup) {
+    if (key === String(item?.id) && include(item)) add(item.id, item);
+  }
+  for (const ch of cmRosterSource(roster)) {
+    const weekly = (ch.req?.talents || []).find((mat) => mat.kind === 'weekly');
+    if (!weekly) continue;
+    const boss = add(weekly.id || weekly.name, weekly);
+    if (usableCatalogItem(weekly)) boss.drops[0] = { ...weekly, chars:boss.drops[0].chars };
+    pushUnique(boss.drops[0].chars, ch.n);
+  }
+  return [...groups.entries()]
+    .sort(sort)
+    .map(([, boss]) => ({
+      ...boss,
+      drops:boss.drops.map((drop) => ({ ...drop, chars:drop.chars.sort((a, b) => a.localeCompare(b)) })),
+    }));
+}
+
 function buildHsrTraceGroups(roster) {
   const groups = new Map();
   for (const ch of cmRosterSource(roster)) {
@@ -4796,25 +4936,13 @@ function buildHsrTraceGroups(roster) {
 }
 
 function buildHsrWeeklyBosses(roster) {
-  const groups = new Map();
-  for (const ch of cmRosterSource(roster)) {
-    const weekly = (ch.req?.talents || []).find((m) => m.kind === 'weekly');
-    if (!weekly) continue;
-    const id = String(weekly.id);
-    if (!groups.has(id)) {
-      groups.set(id, {
-        bossName: HSR_BOSS_NAMES[id] || weekly.source || 'Echo of War',
-        drops: [{ ...weekly, chars: [] }],
-      });
-    }
-    pushUnique(groups.get(id).drops[0].chars, ch.n);
-  }
-  return [...groups.entries()]
-    .sort((a, b) => Number(b[0]) - Number(a[0]))
-    .map(([, boss]) => ({
-      ...boss,
-      drops: boss.drops.map((drop) => ({ ...drop, chars: drop.chars.sort((a, b) => a.localeCompare(b)) })),
-    }));
+  return buildWeeklyBossesFromCatalog({
+    game:'hsr',
+    roster,
+    include:(item) => item?.subType === 'WeeklyMonsterDrop' && /^1105\d{2}$/.test(String(item.id)),
+    title:(id) => HSR_BOSS_NAMES[id],
+    sort:(a, b) => Number(b[0]) - Number(a[0]),
+  });
 }
 
 function zzzChipFamilyName(name) {
@@ -4855,25 +4983,12 @@ function buildZzzSkillGroups(roster) {
 }
 
 function buildZzzWeeklyBosses(roster) {
-  const groups = new Map();
-  for (const ch of cmRosterSource(roster)) {
-    const weekly = (ch.req?.talents || []).find((m) => m.kind === 'weekly');
-    if (!weekly) continue;
-    const id = String(weekly.id || weekly.name);
-    if (!groups.has(id)) {
-      groups.set(id, {
-        bossName: weekly.source || weekly.name,
-        drops: [{ ...weekly, chars: [] }],
-      });
-    }
-    pushUnique(groups.get(id).drops[0].chars, ch.n);
-  }
-  return [...groups.entries()]
-    .sort((a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)))
-    .map(([, boss]) => ({
-      ...boss,
-      drops: boss.drops.map((drop) => ({ ...drop, chars: drop.chars.sort((a, b) => a.localeCompare(b)) })),
-    }));
+  return buildWeeklyBossesFromCatalog({
+    game:'zzz',
+    roster,
+    include:(item) => /^1100\d{2}$/.test(String(item?.id)),
+    sort:(a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)),
+  });
 }
 
 function wuwaSkillFamilyName(name) {
@@ -4925,25 +5040,13 @@ function buildWuwaSkillGroups(roster) {
 }
 
 function buildWuwaWeeklyBosses(roster) {
-  const groups = new Map();
-  for (const ch of cmRosterSource(roster)) {
-    const weekly = (ch.req?.talents || []).find((m) => m.kind === 'weekly');
-    if (!weekly) continue;
-    const id = String(weekly.id || weekly.name);
-    if (!groups.has(id)) {
-      groups.set(id, {
-        bossName: weekly.source || weekly.name,
-        drops: [{ ...weekly, chars: [] }],
-      });
-    }
-    pushUnique(groups.get(id).drops[0].chars, ch.n);
-  }
-  return [...groups.entries()]
-    .sort((a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)))
-    .map(([, boss]) => ({
-      ...boss,
-      drops: boss.drops.map((drop) => ({ ...drop, chars: drop.chars.sort((a, b) => a.localeCompare(b)) })),
-    }));
+  return buildWeeklyBossesFromCatalog({
+    game:'wuwa',
+    dataGame:'ww',
+    roster,
+    include:(item) => Array.isArray(item?.tag) && item.tag.includes('Skill Upgrade Material'),
+    sort:(a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)),
+  });
 }
 
 function buildCmCfg(rosters) {
@@ -6741,7 +6844,12 @@ const cmBetaDeltas = (() => {
         const lw = liveWeaponsById.get(bw.id);
         return !lw || rowSig(bw) !== rowSig(lw);
       });
-    if (!delta.length && !weaponDelta.length) continue;
+    const groupedDelta = Object.fromEntries(
+      ['talentDomains', 'weeklyBosses']
+        .filter((field) => rowSig(betaCfg[key]?.[field]) !== rowSig(cmCfg[key]?.[field]))
+        .map((field) => [field, betaCfg[key][field]]),
+    );
+    if (!delta.length && !weaponDelta.length && !Object.keys(groupedDelta).length) continue;
     const manifestKey = key === 'wuwa' ? 'ww' : key;
     out[key] = {
       version: gamedataManifest[manifestKey]?.latest || null,
@@ -6750,6 +6858,7 @@ const cmBetaDeltas = (() => {
       changedCount: delta.filter((ch) => ch.betaStatus === 'changed').length,
       roster: delta,
       ...(weaponDelta.length ? { weapons: weaponDelta } : {}),
+      ...groupedDelta,
     };
   }
   return out;

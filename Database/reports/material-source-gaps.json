@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-22T14:47:15.114Z",
+  "generatedAt": "2026-08-24T23:19:29.155Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 236,
+  "count": 237,
   "missing": [
     {
       "game": "gi",
@@ -1080,6 +1080,13 @@
       "id": "110233",
       "name": "Heavenly Melody",
       "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "High Hopes of the Falsely Enlightened weekly",
+      "id": "110509",
+      "name": "High Hopes of the Falsely Enlightened",
+      "kind": "weekly"
     },
     {
       "game": "hsr",

@@ -39205,6 +39205,236 @@
       ],
       "cost": 308000
     }
+  ],
+  "weeklyBosses": [
+    {
+      "bossName": "High Hopes of the Falsely Enlightened",
+      "drops": [
+        {
+          "id": "110509",
+          "name": "High Hopes of the Falsely Enlightened",
+          "n": "High Hopes of the Falsely Enlightened",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110509.webp",
+          "chars": [
+            "Aventurine Waveflair",
+            "Robin Summeretto"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Vanquished Flow",
+      "drops": [
+        {
+          "id": "110508",
+          "name": "Vanquished Flow's Reticence",
+          "n": "Vanquished Flow's Reticence",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110508.webp",
+          "chars": [
+            "Ashveil",
+            "Evanescia",
+            "Himeko Nova",
+            "Mortenax Blade",
+            "Silver Wolf \u2022 Lv. 999",
+            "Sparxie",
+            "The Dahlia",
+            "Trailblazer",
+            "Yao Guang"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Daythunder",
+      "drops": [
+        {
+          "id": "110507",
+          "name": "Daythunder Anamnesis",
+          "n": "Daythunder Anamnesis",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110507.webp",
+          "chars": [
+            "Cerydra",
+            "Cipher",
+            "Cyrene",
+            "Dan Heng \u2022 Permansor Terrae",
+            "Evernight",
+            "Hysilens",
+            "March 7th \u2022 Evernight",
+            "Phainon"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Inner Beast",
+      "drops": [
+        {
+          "id": "110506",
+          "name": "Auspice Sliver",
+          "qty": 12,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110506.webp",
+          "chars": [
+            "Aglaea",
+            "Castorice",
+            "Lingsha",
+            "Moze",
+            "Mydei",
+            "The Herta",
+            "Trailblazer"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Salutations of Ashen Dreams",
+      "drops": [
+        {
+          "id": "110505",
+          "name": "Lost Echo of the Shared Wish",
+          "qty": 12,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110505.webp",
+          "chars": [
+            "Anaxa",
+            "Boothill",
+            "Firefly",
+            "Hyacine",
+            "Jade",
+            "Rappa",
+            "Sunday",
+            "Tribbie"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Borehole Planet's Old Crater",
+      "drops": [
+        {
+          "id": "110504",
+          "name": "Past Evils of the Borehole Planet Disaster",
+          "qty": 12,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110504.webp",
+          "chars": [
+            "Acheron",
+            "Aventurine",
+            "Black Swan",
+            "Dr. Ratio",
+            "Gallagher",
+            "Misha",
+            "Robin",
+            "Ruan Mei",
+            "Sparkle",
+            "Trailblazer",
+            "Xueyi"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Divine Seed",
+      "drops": [
+        {
+          "id": "110503",
+          "name": "Regret of Infinite Ochema",
+          "qty": 12,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110503.webp",
+          "chars": [
+            "Argenti",
+            "Blade",
+            "Dan Heng \u2022 Imbibitor Lunae",
+            "Feixiao",
+            "Fu Xuan",
+            "Fugue",
+            "Guinaifen",
+            "Hanya",
+            "Huohuo",
+            "Jiaoqiu",
+            "Jingliu",
+            "Kafka",
+            "Luka",
+            "Lynx",
+            "Tingyun \u2022 Fugue",
+            "Topaz & Numby",
+            "Yunli"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "End of the Eternal Freeze",
+      "drops": [
+        {
+          "id": "110502",
+          "name": "Guardian's Lament",
+          "qty": 12,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110502.webp",
+          "chars": [
+            "Archer",
+            "Bailu",
+            "Bronya",
+            "Clara",
+            "Gepard",
+            "Gilgamesh",
+            "Hook",
+            "Luocha",
+            "Natasha",
+            "Pela",
+            "Qingque",
+            "Sampo",
+            "Seele",
+            "Serval",
+            "Sushang",
+            "Yanqing"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Destruction's Beginning",
+      "drops": [
+        {
+          "id": "110501",
+          "name": "Destroyer's Final Road",
+          "qty": 12,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110501.webp",
+          "chars": [
+            "Arlan",
+            "Asta",
+            "Dan Heng",
+            "Herta",
+            "Himeko",
+            "Jing Yuan",
+            "March 7th",
+            "March 7th \u2022 The Hunt",
+            "Rin Tohsaka",
+            "Saber",
+            "Silver Wolf",
+            "Tingyun",
+            "Trailblazer",
+            "Welt",
+            "Yukong"
+          ]
+        }
+      ]
+    }
   ]
 };
   window.dispatchEvent(new CustomEvent('nyx:cm-beta-loaded', { detail:{ key:"hsr" } }));

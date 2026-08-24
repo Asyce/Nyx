@@ -295,7 +295,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 5,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },
@@ -325,7 +325,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 13,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },
@@ -355,7 +355,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 23,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },
@@ -385,7 +385,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 42,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },
@@ -415,7 +415,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 83,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },
@@ -445,7 +445,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 149,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },
@@ -475,7 +475,7 @@ const CM_LEVELING = {
             "id": "213",
             "name": "Traveler's Guide",
             "qty": 287,
-            "rar": 5,
+            "rar": 4,
             "kind": "exp",
             "icon": "../../Database/GameData/hsr/assets/items/213.webp"
           },

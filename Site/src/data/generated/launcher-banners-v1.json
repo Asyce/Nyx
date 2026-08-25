@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "ba36c0ad3abdd20a80a93cff063b5958401bf4f98a0babdfc0af654c9ad8a70b",
-  "generatedAt": "2026-08-25T19:14:45.293Z",
+  "revision": "f4bbca1362971ee3fb78997baf109d0befaa67e4cd746081ffb75a5265cc2f7d",
+  "generatedAt": "2026-08-25T19:29:24.858Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 571513
+          "durationSeconds": 570634
         },
         "characters": [
           {
@@ -525,7 +525,8 @@
           "amount": 60,
           "currency": "Primogems"
         }
-      ]
+      ],
+      "collections": []
     },
     "hsr": {
       "game": "hsr",
@@ -537,7 +538,7 @@
         "remaining": {
           "startsAt": "2026-08-05T17:00:00.000Z",
           "endsAt": "2026-08-25T20:00:00.000Z",
-          "durationSeconds": 2714
+          "durationSeconds": 1835
         },
         "characters": [
           {
@@ -1185,7 +1186,8 @@
           "amount": 60,
           "currency": "Stellar Jade"
         }
-      ]
+      ],
+      "collections": []
     },
     "zzz": {
       "game": "zzz",
@@ -1197,7 +1199,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1165513
+          "durationSeconds": 1164634
         },
         "characters": [
           {
@@ -1953,7 +1955,8 @@
           "amount": 60,
           "currency": "Polychrome"
         }
-      ]
+      ],
+      "collections": []
     },
     "wuwa": {
       "game": "wuwa",
@@ -1965,7 +1968,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1345454
+          "durationSeconds": 1344575
         },
         "characters": [
           {
@@ -2468,7 +2471,8 @@
           "amount": 100,
           "currency": "Astrite"
         }
-      ]
+      ],
+      "collections": []
     },
     "ae": {
       "game": "ae",
@@ -2480,7 +2484,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 614713
+          "durationSeconds": 613834
         },
         "characters": [
           {
@@ -2955,7 +2959,8 @@
           "amount": 150,
           "currency": "Oroberyl"
         }
-      ]
+      ],
+      "collections": []
     }
   }
 }

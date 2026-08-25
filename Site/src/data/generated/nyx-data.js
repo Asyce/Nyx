@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-24T21:16:45.659Z",
+  "generatedAt": "2026-08-25T00:42:32.179Z",
   "codes": {
-    "updated": "2026-08-21T15:24:44.733Z",
+    "updated": "2026-08-25T00:42:11.912Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -336,7 +336,7 @@ var NYX_DB = {
         },
         {
           "code": "STARRAILFATE2026",
-          "reward": "Three Traveler S Guides and Two the Fluffy Multi Functional Fan Glowsticks",
+          "reward": "three traveler's guides and two the fluffy multi",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -171849,7 +171849,7 @@ var NYX_DB = {
         },
         {
           "code": "STARRAILFATE2026",
-          "reward": "Three Traveler S Guides and Two the Fluffy Multi Functional Fan Glowsticks",
+          "reward": "three traveler's guides and two the fluffy multi",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",

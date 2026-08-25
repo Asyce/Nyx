@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-08-24T21:51:29.880Z",
+  "generatedAt": "2026-08-25T03:58:02.711Z",
   "source": {
     "name": "Honkai: Star Rail Official",
     "endpoint": "sg-hkrpg-api.hoyoverse.com getAnnList+getAnnContent"
@@ -163,7 +163,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294",
         "kind": "official-announcement-api",
         "recordId": "1294",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -180,7 +180,7 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
         },
         "asia": {
-          "start": "2026-08-03T15:00:00.000Z",
+          "start": "2026-08-03T21:00:00.000Z",
           "end": "2026-08-25T07:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
@@ -251,7 +251,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304",
         "kind": "official-announcement-api",
         "recordId": "1304",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -268,8 +268,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
         "asia": {
-          "start": "2026-07-22T14:00:00.000Z",
-          "end": "2026-08-25T09:00:00.000Z",
+          "start": "2026-07-22T20:00:00.000Z",
+          "end": "2026-08-25T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
         },
@@ -295,7 +295,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301",
         "kind": "official-announcement-api",
         "recordId": "1301",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -312,8 +312,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
         "asia": {
-          "start": "2026-07-13T14:30:00.000Z",
-          "end": "2026-08-25T06:59:00.000Z",
+          "start": "2026-07-13T20:30:00.000Z",
+          "end": "2026-08-25T12:59:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
         },
@@ -339,7 +339,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296",
         "kind": "official-announcement-api",
         "recordId": "1296",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -356,8 +356,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
         "asia": {
-          "start": "2026-07-12T15:00:00.000Z",
-          "end": "2026-11-10T09:00:00.000Z",
+          "start": "2026-07-12T21:00:00.000Z",
+          "end": "2026-11-10T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         },
@@ -383,7 +383,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299",
         "kind": "official-announcement-api",
         "recordId": "1299",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -400,8 +400,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         },
         "asia": {
-          "start": "2026-07-03T00:00:00.000Z",
-          "end": "2026-08-25T09:00:00.000Z",
+          "start": "2026-07-03T06:00:00.000Z",
+          "end": "2026-08-25T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1299"
         },
@@ -427,7 +427,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339",
         "kind": "official-announcement-api",
         "recordId": "1339",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -443,7 +443,7 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         },
         "asia": {
-          "start": "2026-07-02T23:55:00.000Z",
+          "start": "2026-07-03T05:55:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1339"
         },
@@ -468,7 +468,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232",
         "kind": "official-announcement-api",
         "recordId": "1232",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -485,8 +485,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         },
         "asia": {
-          "start": "2026-04-09T23:55:00.000Z",
-          "end": "2026-08-25T09:00:00.000Z",
+          "start": "2026-04-10T05:55:00.000Z",
+          "end": "2026-08-25T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1232"
         },
@@ -512,7 +512,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211",
         "kind": "official-announcement-api",
         "recordId": "1211",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -529,8 +529,8 @@
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         },
         "asia": {
-          "start": "2026-03-22T21:00:00.000Z",
-          "end": "2026-08-25T09:00:00.000Z",
+          "start": "2026-03-23T03:00:00.000Z",
+          "end": "2026-08-25T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1211"
         },
@@ -556,7 +556,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1386",
         "kind": "official-announcement-api",
         "recordId": "1386",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "low",
@@ -581,7 +581,7 @@
         "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1361",
         "kind": "official-announcement-api",
         "recordId": "1361",
-        "fetchedAt": "2026-08-24T21:51:32.485Z",
+        "fetchedAt": "2026-08-25T03:58:07.386Z",
         "priority": 1
       },
       "confidence": "low",

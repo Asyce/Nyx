@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-08-24T21:51:29.880Z",
+  "generatedAt": "2026-08-25T03:58:02.711Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
@@ -31,7 +31,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1276",
         "kind": "official-announcement-api",
         "recordId": "1276",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "high",
@@ -75,7 +75,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=232",
         "kind": "official-announcement-api",
         "recordId": "232",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "high",
@@ -119,7 +119,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231",
         "kind": "official-announcement-api",
         "recordId": "231",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "high",
@@ -163,7 +163,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275",
         "kind": "official-announcement-api",
         "recordId": "1275",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "high",
@@ -207,7 +207,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274",
         "kind": "official-announcement-api",
         "recordId": "1274",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "high",
@@ -251,7 +251,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230",
         "kind": "official-announcement-api",
         "recordId": "230",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -268,8 +268,8 @@
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         },
         "asia": {
-          "start": "2026-08-17T04:00:00.000Z",
-          "end": "2026-09-08T21:59:00.000Z",
+          "start": "2026-08-16T21:00:00.000Z",
+          "end": "2026-09-08T14:59:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         },
@@ -359,7 +359,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220",
         "kind": "official-announcement-api",
         "recordId": "220",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -376,8 +376,8 @@
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
         "asia": {
-          "start": "2026-07-27T05:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T22:45:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
@@ -403,7 +403,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226",
         "kind": "official-announcement-api",
         "recordId": "226",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -420,8 +420,8 @@
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
         "asia": {
-          "start": "2026-07-27T05:30:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T22:30:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         }
@@ -441,7 +441,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227",
         "kind": "official-announcement-api",
         "recordId": "227",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -458,8 +458,8 @@
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
         "asia": {
-          "start": "2026-07-27T04:45:00.000Z",
-          "end": "2026-09-08T22:00:00.000Z",
+          "start": "2026-07-26T21:45:00.000Z",
+          "end": "2026-09-08T15:00:00.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
@@ -485,7 +485,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218",
         "kind": "official-announcement-api",
         "recordId": "218",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -502,7 +502,7 @@
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
         },
         "asia": {
-          "start": "2026-07-27T04:30:00.000Z",
+          "start": "2026-07-26T21:30:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
@@ -774,7 +774,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1236",
         "kind": "official-announcement-api",
         "recordId": "1236",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",
@@ -799,7 +799,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1238",
         "kind": "official-announcement-api",
         "recordId": "1238",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",
@@ -824,7 +824,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1242",
         "kind": "official-announcement-api",
         "recordId": "1242",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",
@@ -849,7 +849,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1237",
         "kind": "official-announcement-api",
         "recordId": "1237",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",
@@ -874,7 +874,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1234",
         "kind": "official-announcement-api",
         "recordId": "1234",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",
@@ -899,7 +899,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1239",
         "kind": "official-announcement-api",
         "recordId": "1239",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",
@@ -924,7 +924,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1240",
         "kind": "official-announcement-api",
         "recordId": "1240",
-        "fetchedAt": "2026-08-24T21:51:35.351Z",
+        "fetchedAt": "2026-08-25T03:58:12.087Z",
         "priority": 1
       },
       "confidence": "low",

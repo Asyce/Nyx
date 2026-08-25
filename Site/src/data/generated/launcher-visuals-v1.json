@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": "87069e68a2ddb12f5ec4716ea924a0f73da58ed49c5e736a2a9c7977f76565a8",
-  "generatedAt": "2026-08-21T01:28:40.364Z",
+  "revision": "eb6524a0ea08736627631d8380944854d0dfb4c6fafcaf595405d5ccf5866790",
+  "generatedAt": "2026-08-25T03:59:54.830Z",
   "games": {
     "gi": {
       "kind": "video",
@@ -25,14 +25,14 @@
       "kind": "video",
       "source": {
         "repository": "https://github.com/nano-shino/hyvbgarchive",
-        "path": "archive/4ziysqXOQ8/20260709_afba5bfdb3678ac02b6cd2705e44e8db_635706159057290737.webm",
-        "officialUrl": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/07/09/afba5bfdb3678ac02b6cd2705e44e8db_635706159057290737.webm"
+        "path": "archive/4ziysqXOQ8/20260821_e03cdbee1cd9f23890a912539cdbd24b_6037866158777122843.webm",
+        "officialUrl": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/08/21/e03cdbee1cd9f23890a912539cdbd24b_6037866158777122843.webm"
       },
       "assets": [
         {
-          "url": "https://assets.pengo.gg/launcher-visuals/30c4d0e858dd9d71fed3623dee83d324e6aceb7a8c2e81aebec9f47684ac34f2.webm",
-          "sha256": "30c4d0e858dd9d71fed3623dee83d324e6aceb7a8c2e81aebec9f47684ac34f2",
-          "size": 3645092,
+          "url": "https://assets.pengo.gg/launcher-visuals/edc965718f6a881b6ad4c60656414d2203c03cf3510ba0522eeddbb05cb70adf.webm",
+          "sha256": "edc965718f6a881b6ad4c60656414d2203c03cf3510ba0522eeddbb05cb70adf",
+          "size": 16004616,
           "mediaType": "video/webm"
         }
       ]

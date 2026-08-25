@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-25T14:47:04.025Z",
+  "generatedAt": "2026-08-25T14:51:10.059Z",
   "codes": {
     "updated": "2026-08-25T00:42:11.912Z",
     "maxAgeDays": 28,
@@ -575,7 +575,7 @@ var NYX_DB = {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -809,7 +809,7 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -1068,7 +1068,7 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -1214,7 +1214,7 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -1379,7 +1379,7 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -6438,7 +6438,7 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -171882,7 +171882,7 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -177807,7 +177807,7 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -183019,7 +183019,7 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",
@@ -188381,7 +188381,7 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "fresh",
+          "status": "stale",
           "checkedAt": "2026-08-24T02:51:02.524Z",
           "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
           "lastValidUpdate": "2026-08-24T02:51:02.524Z",

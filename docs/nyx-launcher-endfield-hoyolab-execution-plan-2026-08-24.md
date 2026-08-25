@@ -22,7 +22,7 @@ The source documents remain evidence for their locked contracts. Where their old
 - HoYo approval is confirmed for the automated static-data, account-reading, encrypted-sync, caching, refresh, public display, and deletion scope below. Record only a sanitized scope summary; never commit private correspondence.
 - Endfield imports remain local to the browser profile for this goal. No Endfield login, backend, telemetry, or cross-device sync.
 - Endfield V1 supports Windows global Gryphline, not CN/Hypergryph. Playtime has no export or cloud sync.
-- Genshin and ZZZ achievement completion remains disabled. WuWa/ZZZ achievement research, SignPath, and temporary signing are outside this goal.
+- This plan adds no HoYo account-achievement capability for Genshin or ZZZ; it preserves the existing separate Genshin achievement export and the separate ZZZ lane's current disabled state. WuWa/ZZZ achievement research, SignPath, and temporary signing are outside this goal.
 
 ## Execution and review rules
 
@@ -346,19 +346,19 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 
 ## Phase 16 - Genshin account capabilities
 
-Add roles, resin/check-in, inventory, characters, talents, weapons, artifacts, exploration, Spiral Abyss, Imaginarium Theater, events, and currency reports where complete. Keep Genshin achievements disabled.
+Add roles, resin/check-in, inventory, characters, talents, weapons, artifacts, exploration, Spiral Abyss, Imaginarium Theater, events, and currency reports where complete. Do not add a HoYo account-achievement capability; preserve the existing separate Genshin achievement export unchanged.
 
 ### STOP 16
 
-- Every listed Genshin capability whose approved source is complete passes account-boundary, calculator, per-capability, multi-role, manual-sync, privacy, and dedicated test-role checks; incomplete capabilities and Genshin achievements remain disabled.
+- Every listed Genshin capability whose approved source is complete passes account-boundary, calculator, per-capability, multi-role, manual-sync, privacy, and dedicated test-role checks; incomplete capabilities and HoYo account-achievement completion remain disabled, while the existing separate Genshin achievement export remains unchanged.
 
 ## Phase 17 - ZZZ account capabilities
 
-Add roles, battery/check-in, inventory, Agents, skills, W-Engines, Drive Discs, Hollow Zero, Shiyu Defense, Deadly Assault, events, and currency reports where complete. Keep ZZZ achievements disabled.
+Add roles, battery/check-in, inventory, Agents, skills, W-Engines, Drive Discs, Hollow Zero, Shiyu Defense, Deadly Assault, events, and currency reports where complete. Do not add a HoYo account-achievement capability; preserve the separate ZZZ achievement lane's current disabled state.
 
 ### STOP 17
 
-- Every listed ZZZ capability whose approved source is complete passes account-boundary, calculator, per-capability, multi-role, manual-sync, privacy, and dedicated test-role checks; incomplete capabilities and ZZZ achievements remain disabled.
+- Every listed ZZZ capability whose approved source is complete passes account-boundary, calculator, per-capability, multi-role, manual-sync, privacy, and dedicated test-role checks; incomplete capabilities and HoYo account-achievement completion remain disabled, and the separate ZZZ achievement lane remains unchanged.
 
 ## Phase 18 - Automatic sync and source retirement
 

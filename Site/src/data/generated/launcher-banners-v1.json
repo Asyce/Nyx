@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "d5aaa4f1d394772c74d11972517cc8cf1f27b1288232e112f4fb891a7d417311",
-  "generatedAt": "2026-08-25T09:47:01.316Z",
+  "revision": "817683dd58ca64f3dae8fc63bf06bd2a6bc3481e684db2617ece4fb2d4755893",
+  "generatedAt": "2026-08-25T14:47:05.638Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 605577
+          "durationSeconds": 587573
         },
         "characters": [
           {
@@ -529,15 +529,15 @@
     },
     "hsr": {
       "game": "hsr",
-      "region": "europe",
+      "region": "america",
       "current": {
         "phase": "4.4",
-        "start": "2026-08-05T11:00:00.000Z",
-        "end": "2026-08-25T14:00:00.000Z",
+        "start": "2026-08-05T17:00:00.000Z",
+        "end": "2026-08-25T20:00:00.000Z",
         "remaining": {
-          "startsAt": "2026-08-05T11:00:00.000Z",
-          "endsAt": "2026-08-25T14:00:00.000Z",
-          "durationSeconds": 15178
+          "startsAt": "2026-08-05T17:00:00.000Z",
+          "endsAt": "2026-08-25T20:00:00.000Z",
+          "durationSeconds": 18774
         },
         "characters": [
           {
@@ -859,79 +859,6 @@
       },
       "upcoming": [
         {
-          "phase": "4.5 Phase 1",
-          "start": "2026-08-25T16:00:00.000Z",
-          "end": "2026-09-12T16:00:00.000Z",
-          "characters": [
-            {
-              "id": "1409",
-              "name": "Hyacine",
-              "rarity": 5,
-              "limited": null,
-              "debut": "2025-05-21T09:00:00.000Z",
-              "icon": {
-                "id": "1409-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/da095af877d9315e22c6d3a024dfd92f9df83300cbcc6c870d545f65d77260cc.webp",
-                "url": "https://pengo.gg/dist/launcher-art/da095af877d9315e22c6d3a024dfd92f9df83300cbcc6c870d545f65d77260cc.webp",
-                "mime": "image/webp",
-                "size": 10270,
-                "dimensions": {
-                  "width": 128,
-                  "height": 128
-                },
-                "sha256": "da095af877d9315e22c6d3a024dfd92f9df83300cbcc6c870d545f65d77260cc",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 128,
-                  "bottom": 128
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            },
-            {
-              "id": "1512",
-              "name": "Robin • Summeretto",
-              "rarity": 5,
-              "limited": null,
-              "debut": "2024-05-08T03:00:00.000Z",
-              "icon": {
-                "id": "1512-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/ec3a7f736c593c99860de239f40eee28423dd3a11147b122d3391c9feee181fc.webp",
-                "url": "https://pengo.gg/dist/launcher-art/ec3a7f736c593c99860de239f40eee28423dd3a11147b122d3391c9feee181fc.webp",
-                "mime": "image/webp",
-                "size": 10366,
-                "dimensions": {
-                  "width": 125,
-                  "height": 126
-                },
-                "sha256": "ec3a7f736c593c99860de239f40eee28423dd3a11147b122d3391c9feee181fc",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 125,
-                  "bottom": 126
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            }
-          ]
-        },
-        {
           "phase": null,
           "start": "2026-09-12T16:00:00.000Z",
           "end": "2026-09-27T16:00:00.000Z",
@@ -1196,7 +1123,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1199577
+          "durationSeconds": 1181573
         },
         "characters": [
           {
@@ -1964,7 +1891,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1379518
+          "durationSeconds": 1361514
         },
         "characters": [
           {
@@ -2479,7 +2406,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 648777
+          "durationSeconds": 630773
         },
         "characters": [
           {

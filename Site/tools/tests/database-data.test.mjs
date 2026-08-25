@@ -204,7 +204,7 @@ test('GI artifact sets expose their highest obtainable rarity tier', () => {
   }
   assert.deepEqual(
     Object.fromEntries([...new Set(artifacts.items.map((row) => row.fields.rarity))].sort().map((tier) => [tier, artifacts.items.filter((row) => row.fields.rarity === tier).length])),
-    { '4 \u2605':3, '5 \u2605':60 },
+    { '4 \u2605':3, '5 \u2605':62 },
   );
 });
 
@@ -345,14 +345,14 @@ test('Unknown rarity gates remain explicit until a trustworthy source exists', (
     wuwaEchoes:countUnknown(inlineCollection('wuwa', 'echoes')),
     endfieldGear:countUnknown(inlineCollection('ae', 'gear')),
   }, {
-    giMonsters:547,
+    giMonsters:584,
     giItems:2292,
     hsrMonsters:612,
     hsrRelicSets:60,
     hsrLightCones:4,
-    zzzDriveDiscs:28,
-    wuwaEchoes:180,
-    endfieldGear:152,
+    zzzDriveDiscs:29,
+    wuwaEchoes:181,
+    endfieldGear:158,
   });
   const tcg = [...(inline.gi.tcg.characterCards || []), ...(inline.gi.tcg.otherCards || [])];
   assert.equal(tcg.length, 619);

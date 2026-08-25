@@ -3,7 +3,7 @@
   "label": "Zenless Zone Zero",
   "source": "GachaBase beta changelog",
   "sourceUrl": "https://zzz.gachabase.net/changelog/beta?lang=en",
-  "scrapedAt": "2026-08-16T05:52:34.391Z",
+  "scrapedAt": "2026-08-20T12:53:31.993Z",
   "title": "Changelog - v3.2.X | Zenless Zone Zero | Gachabase",
   "categoryLinks": [
     {
@@ -85,32 +85,62 @@
       "type": "agents",
       "href": "https://zzz.gachabase.net/agents/1621/1621/beta?lang=en",
       "text": "Pryce"
-    },
-    {
-      "type": "agents",
-      "href": "https://zzz.gachabase.net/agents/1611/1611/beta?lang=en",
-      "text": "Claret"
-    },
-    {
-      "type": "w-engines",
-      "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta?lang=en",
-      "text": "..."
     }
   ],
   "counts": {
-    "entries": 147,
+    "entries": 150,
+    "agentDetails": 1,
     "byType": {
-      "agents": 114,
-      "w-engines": 28,
+      "agents": 116,
+      "w-engines": 29,
       "bangboo": 1,
       "drive-discs": 4
     },
     "byStatus": {
-      "updated": 144,
+      "updated": 147,
       "new": 3
     }
   },
   "entries": [
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": null,
+      "name": "Claret",
+      "iconHash": "46041a1fd403c311377d75602a84f8f0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18258799",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18254958&cur=beta_3.2.3_18258799",
+      "betaVersion": "3.2.3",
+      "revision": "18258799"
+    },
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1621",
+      "rarity": null,
+      "name": "Pryce",
+      "iconHash": null,
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1621/1621/beta/3.2.3/18258799",
+      "diff": "https://zzz.gachabase.net/diff/agents/1621/1621?prev=beta_3.2.3_18254958&cur=beta_3.2.3_18258799",
+      "betaVersion": "3.2.3",
+      "revision": "18258799"
+    },
+    {
+      "game": "zzz",
+      "type": "w-engines",
+      "id": "14162",
+      "rarity": null,
+      "name": "...",
+      "iconHash": "d9b01b6fd82d507d866137a816f83ba9",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/w-engines/14162/14162/beta/3.2.3/18258799",
+      "diff": "https://zzz.gachabase.net/diff/w-engines/14162/14162?prev=beta_3.2.3_18254958&cur=beta_3.2.3_18258799",
+      "betaVersion": "3.2.3",
+      "revision": "18258799"
+    },
     {
       "game": "zzz",
       "type": "agents",
@@ -2018,6 +2048,77 @@
       "diff": "https://zzz.gachabase.net/diff/drive-discs/34200/thorned-rose?prev=beta_3.1.5_17516165&cur=beta_3.2.0_17749587",
       "betaVersion": "3.2.0",
       "revision": "17749587"
+    }
+  ],
+  "agentDetails": [
+    {
+      "game": "zzz",
+      "type": "agents",
+      "id": "1611",
+      "rarity": "S",
+      "name": "Claret",
+      "iconHash": "46041a1fd403c311377d75602a84f8f0",
+      "status": "updated",
+      "href": "https://zzz.gachabase.net/agents/1611/1611/beta/3.2.3/18258799",
+      "diff": "https://zzz.gachabase.net/diff/agents/1611/1611?prev=beta_3.2.3_18254958&cur=beta_3.2.3_18258799",
+      "betaVersion": "3.2.3",
+      "revision": "18258799",
+      "specialty": "Armorer",
+      "attribute": "Electric",
+      "faction": "Roscaelifer",
+      "materials": [
+        {
+          "id": "10",
+          "name": "Denny",
+          "qty": 3705000
+        },
+        {
+          "id": "100113",
+          "name": "Basic Shock Chip",
+          "qty": 25
+        },
+        {
+          "id": "100123",
+          "name": "Advanced Shock Chip",
+          "qty": 75
+        },
+        {
+          "id": "100133",
+          "name": "Specialized Shock Chip",
+          "qty": 250
+        },
+        {
+          "id": "100217",
+          "name": "Beginner Armorer Certification Seal",
+          "qty": 4
+        },
+        {
+          "id": "100227",
+          "name": "High-Grade Armorer Certification Seal",
+          "qty": 32
+        },
+        {
+          "id": "100237",
+          "name": "Blade Bearer Certification Seal",
+          "qty": 30
+        },
+        {
+          "id": "100941",
+          "name": "Hamster Cage Pass",
+          "qty": 5
+        },
+        {
+          "id": "110011",
+          "name": "?",
+          "qty": 9
+        },
+        {
+          "id": "110516",
+          "name": "?",
+          "qty": 60
+        }
+      ],
+      "fetchedAt": "2026-08-20T12:53:32.426Z"
     }
   ]
 }

@@ -51699,7 +51699,7 @@
   },
   {
     "id": "14159",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Knight's Extolment",
     "codeName": "Weapon_S_1591",
     "rarity": 4,
@@ -52206,34 +52206,34 @@
     "talents": {
       "1": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>32%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>20%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>32%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>20%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "2": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>36.8%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>23%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>36.8%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>23%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "3": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>41.6%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>26%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>41.6%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>26%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "4": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>46.4%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>29%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>46.4%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>29%</color> of the target's <color=#98EFF0>Ice RES</color>."
       },
       "5": {
         "name": "Knight's Rite",
-        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by <color=#2BAD00>51.2%</color> for 25s.\nRepeated triggers of <color=#FFFFFF>Battle Edge</color> refresh the duration of <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>32%</color> of the target's <color=#98EFF0>Ice RES</color>."
+        "desc": "When the equipper's <color=#FFFFFF>Basic Attack</color> or <color=#FFFFFF>EX Special Attack</color>'s heavy attack hits an enemy, they gain 1 stack of <color=#FFFFFF>Battle Edge</color>, increasing CRIT DMG by <color=#2BAD00>51.2%</color> for 25s. <color=#FFFFFF>Battle Edge</color> can stack up to 2 times, and each skill type can provide up to 1 stack. Repeated triggers refresh the duration of all <color=#FFFFFF>Battle Edge</color>.\nAt 2 stacks of <color=#FFFFFF>Battle Edge</color>, the equipper gains <color=#FFFFFF>Bonechill</color>: Their DMG ignores <color=#2BAD00>32%</color> of the target's <color=#98EFF0>Ice RES</color>."
       }
     },
     "liveComparison": {
       "liveHash": "476490665c8911410cfe816a6d6297b6fe08898c5bbef92ee8dbea6eb5e1f662",
-      "currentHash": "17528765fdd176bdf6b911054937771728d096cb28ffe31d1d9c7251f71b1e04"
+      "currentHash": "476490665c8911410cfe816a6d6297b6fe08898c5bbef92ee8dbea6eb5e1f662"
     }
   },
   {
     "id": "14161",
     "contentStatus": "beta",
-    "name": "Crimson Thirst",
+    "name": "Crimson Craving",
     "codeName": "Weapon_S_1611",
     "rarity": 4,
     "type": {
@@ -52759,7 +52759,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "3f4bca6fa7a0195bc9ade87a02d47fa5d3e0a098ba59c0853fabae7a7b47dea3"
+      "currentHash": "ab2855bdc7b0b3ef9342704505eaa79efa256bd4f05d5f413fcb0309adc9591d"
     }
   },
   {
@@ -53271,27 +53271,27 @@
     "talents": {
       "1": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>24%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>25%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>16%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>20%</color>, lasting 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "2": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>26%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>27.6%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>28.5%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>26%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>18.4%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>23%</color> for 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "3": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>28%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted increases by <color=#2BAD00>31.2%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>32%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>28%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted increases by <color=#2BAD00>20.8%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>26%</color> for 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "4": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>30%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>34.8%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>35.5%</color>, lasting 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>30%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, the Daze inflicted is increased by <color=#2BAD00>23.2%</color>, and DMG dealt by all other characters in the squad is increased by <color=#2BAD00>29%</color>, lasting 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       },
       "5": {
         "name": "...",
-        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>32%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>38.4%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>40%</color> for 40s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
+        "desc": "Increases the equipper's CRIT Rate by <color=#2BAD00>32%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind Attribute RES</color>. When the equipper launches an <color=#FFFFFF>[EX Special Attack]</color> that deals <color=#A6C5FD>Wind</color> DMG, Daze inflicted increases by <color=#2BAD00>25.6%</color>, and DMG dealt by all other characters in the squad increases by <color=#2BAD00>32%</color> for 50s. Repeated triggers reset the duration. The DMG increase effect is unique across the whole squad."
       }
     },
     "liveComparison": {
-      "currentHash": "ddb7364c6c2f6c7a5430cfbc5979488c1dbfbb380b9421a7c60608f46e3fd4c6"
+      "currentHash": "e0705d20c733e9211a4cfed57a7812b91d36a66175afe2fd966447337fab610c"
     }
   }
 ]

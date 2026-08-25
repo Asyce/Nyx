@@ -450,6 +450,26 @@
     ]
   },
   {
+    "name": "Jingran",
+    "pageTitle": "Jingran",
+    "aliases": [
+      "Jingran",
+      "1212"
+    ],
+    "releaseDate": null,
+    "releasePatch": "3.6",
+    "voiceActors": {
+      "chinese": "|voiceJP = Kengo Kawanishi|Kawanishi Kengo (ja=河西 健吾)",
+      "japanese": "Kengo Kawanishi|Kawanishi Kengo (ja=河西 健吾)",
+      "korean": "}}"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.5",
+      "Category:Released in Version 3.6",
+      "Category:Version"
+    ]
+  },
+  {
     "name": "Jinhsi",
     "pageTitle": "Jinhsi",
     "aliases": [
@@ -710,6 +730,27 @@
     "categories": [
       "Category:Introduced in Version 1.0",
       "Category:Released in Version 2.5",
+      "Category:Version"
+    ]
+  },
+  {
+    "name": "Qingxiao",
+    "pageTitle": "Qingxiao",
+    "aliases": [
+      "Qingxiao",
+      "1413"
+    ],
+    "releaseDate": "2026-08-20",
+    "releasePatch": "3.6",
+    "voiceActors": {
+      "english": "imdb:nm2830835|Kirsty Rider",
+      "chinese": "https://zh.moegirl.org.cn/姜贺|Jiang He (zh=姜贺)",
+      "japanese": "Hitomi Nabatame|Nabatame Hitomi (ja=生天目 仁美)",
+      "korean": "https://namu.wiki/w/박리나|Park Ri-na (ko=박리나)"
+    },
+    "categories": [
+      "Category:Introduced in Version 3.5",
+      "Category:Released in Version 3.6",
       "Category:Version"
     ]
   },

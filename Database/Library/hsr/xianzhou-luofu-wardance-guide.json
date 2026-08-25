@@ -5,7 +5,7 @@
   "name": "Xianzhou Luofu Wardance Guide",
   "sortId": 64735,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Xianzhou_Luofu_Wardance_Guide",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -338,16 +338,6 @@
               }
             ],
             "id": "p-0ff20cf6b7d51b09"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:23:22.642Z",
+  "generatedAt": "2026-08-19T07:31:33.953Z",
   "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
   "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Kafka/Media",
   "requestedWidth": 1600,
@@ -2089,6 +2089,18 @@
           "height": 900,
           "originalWidth": 1655,
           "originalHeight": 931,
+          "mime": "image/png"
+        },
+        {
+          "file": "Qixi Festival 2026.png",
+          "title": "Qixi Festival 2026.png (1.59 MB)",
+          "localAsset": "HsrWiki/holiday-art/ruanmei/04-Qixi Festival 2026.png",
+          "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Ruan%20Mei/Media",
+          "sourceFile": "https://honkai-star-rail.fandom.com/wiki/File:Qixi_Festival_2026.png",
+          "width": 1000,
+          "height": 1000,
+          "originalWidth": 1000,
+          "originalHeight": 1000,
           "mime": "image/png"
         }
       ]

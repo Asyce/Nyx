@@ -47,24 +47,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp *{ box-sizing:border-box; margin:0; padding:0; }
 
 /* Shared contracts stay dormant until their feature-by-feature migrations. */
-.nyx-btn{
-  appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
-  clip-path:var(--nyx-clip-control); text-transform:uppercase; letter-spacing:var(--nyx-tracking-control);
-  min-height:38px; box-sizing:border-box; border:0; border-radius:0;
-  padding:var(--nyx-space-8) var(--nyx-space-14); color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control);
-  font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-compat-tracking-p04em);
-  text-decoration:none; cursor:pointer;
-  transition:border-color .16s ease,background-color .16s ease,color .16s ease,filter .16s ease,transform .16s ease;
-}
-.nyx-btn:hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
-.nyx-btn:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
-.nyx-btn:active{ transform:translateY(1px); }
-.nyx-btn:disabled,.nyx-btn[aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
-.nyx-btn--primary{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-active); }
-.nyx-btn--primary:hover{ background:var(--nyx-color-control-active); filter:brightness(1.07); }
-.nyx-btn--icon{ width:34px; min-width:34px; height:34px; min-height:34px; padding:0; }
-
 .nyx-input{
   min-height:38px; box-sizing:border-box; border:1px solid var(--nyx-color-border-strong);
   border-radius:var(--nyx-radius-control); outline:0; padding:var(--nyx-space-8) var(--nyx-space-12);
@@ -359,6 +341,16 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   background:var(--nyx-compat-color-5f4cd78a5abc); box-shadow:var(--nyx-compat-shadow-box-ec221b14b392); }
 
 /* ===== misc rows ===== */
+/* Controls that navigate are real links now, so ctrl/cmd/middle-click can open
+   them in their own tab. This strips the browser's link styling without
+   disturbing whatever colour each control already sets: :where() holds the whole
+   selector at zero specificity, so every existing rule below still wins. */
+:where(a.gp-fn-row, a.cm-cell-open, a.gp-oban-unit, a.gp-ovb-row-body, a.bcal-chip,
+  a.gp-fav-icon-open, .db-tabs a){
+  text-decoration:none;
+  color:inherit;
+}
+
 .gp-fn-row{ display:flex; align-items:center; gap:var(--nyx-space-10); cursor:pointer; padding:var(--nyx-space-12) var(--nyx-compat-spacing-11px);
   clip-path:var(--hclip); transition:background .25s; color:var(--nyx-compat-color-hex-d9d1fb); font-size:var(--nyx-compat-size-13p5px); letter-spacing:var(--nyx-compat-tracking-p05em);
   text-transform:uppercase; white-space:nowrap; }
@@ -606,12 +598,22 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 /* Endfield labels this row: those names are the 50/50 loss pool, not extra
    featured units (user 2026-08-11). */
 .gp-oban-supports-label{
+  appearance:none;
+  display:inline-flex;
+  align-items:center;
+  margin:0;
+  border:0;
+  padding:0;
+  background:none;
   font-family:var(--nyx-compat-family-bbbd64e38bdd);
   font-size:var(--nyx-type-caption);
   letter-spacing:var(--nyx-compat-tracking-p14em);
   text-transform:uppercase;
-  color:var(--nyx-color-text-muted);
+  color:var(--nyx-color-text-max);
 }
+button.gp-oban-supports-label{ cursor:pointer; }
+button.gp-oban-supports-label:hover{ text-shadow:0 0 10px rgba(183,170,255,.85); }
+button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
 .gp-oban-supports{
   min-width:0;
   display:flex;
@@ -630,7 +632,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   text-transform:none;
   color:var(--nyx-compat-color-hex-f4efff);
 }
-.gp-oban-supports > span:not(.gp-oban-unit){
+.gp-oban-supports > span:not(.gp-oban-unit):not(.gp-oban-supports-label){
   color:var(--nyx-compat-color-hex-9f95ca);
   font-family:var(--nyx-compat-family-bbbd64e38bdd);
   font-size:var(--nyx-type-caption);
@@ -738,13 +740,13 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    and letting it scroll takes it out of the height calculation, so the phase
    columns size to their own content again. */
 .gp-ovb-col.is-announced .gp-ovb-body{ max-height:340px; }
-.gp-ovb-scroll{ min-height:0; flex:1 1 auto; overflow-y:auto; display:flex; flex-direction:column; gap:var(--nyx-space-8);
+.gp-ovb-scroll{ min-height:0; flex:1 1 auto; overflow-y:auto; overscroll-behavior:contain; display:flex; flex-direction:column; gap:var(--nyx-space-8);
   scrollbar-width:thin; scrollbar-color:var(--nyx-color-border-active) transparent; }
 /* Pins live outside the scroller so they are always visible at the foot of the
    column and never push the cap. They are a running joke, not schedule data,
    so they run at two thirds the height of a real row and leave the space to
    the entries that mean something. */
-.gp-ovb-pins{ flex:0 0 auto; display:flex; flex-direction:column; gap:var(--nyx-space-6); margin-top:var(--nyx-space-2); }
+.gp-ovb-pins{ flex:0 0 auto; display:flex; flex-direction:row; gap:var(--nyx-space-6); margin-top:var(--nyx-space-2); }
 .gp-ovb-pins .gp-ovb-row{ min-height:40px; opacity:.6; }
 .gp-ovb-pins .gp-ovb-row img{ width:28px; height:28px; }
 .gp-ovb-pins .gp-ovb-row-body{ padding:var(--nyx-space-4) var(--nyx-space-10); gap:var(--nyx-space-8); }
@@ -754,8 +756,8 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
    (user 2026-08-09): a row is exactly its 44px icon plus padding, so four or
    five fit in the space that used to hold two. */
 .gp-ovb-body > .gp-ovb-row,
-.gp-ovb-scroll > .gp-ovb-row,
-.gp-ovb-pins > .gp-ovb-row{ flex:0 0 auto; }
+.gp-ovb-scroll > .gp-ovb-row{ flex:0 0 auto; }
+.gp-ovb-pins > .gp-ovb-row{ flex:1 1 0; min-width:0; }
 /* The card is a flex column so its body fills the stretched height — without
    this the body keeps its content height and the countdown footer rides up
    under the name instead of sitting at the bottom. */
@@ -994,28 +996,42 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   font-size:calc(var(--nyx-type-body) * var(--fit, 1));
 }
 .gp-event-grid{
+  --gp-event-row-height:132px;
   min-width:0;
   display:grid;
   grid-template-columns:repeat(3, minmax(0, 1fr));
+  grid-auto-rows:var(--gp-event-row-height);
   gap:var(--nyx-space-12);
 }
-.gp-event-cell{ min-width:0; display:flex; flex-direction:column; }
+.gp-event-grid.is-scrollable{
+  max-height:calc(396px + var(--nyx-space-12) + var(--nyx-space-12));
+  overflow-y:auto;
+  scrollbar-gutter:stable;
+  scrollbar-width:thin;
+  scrollbar-color:var(--nyx-compat-color-f77d2c801a14) transparent;
+}
+.gp-event-grid.is-scrollable::-webkit-scrollbar{ width:7px; }
+.gp-event-grid.is-scrollable::-webkit-scrollbar-track{ background:transparent; }
+.gp-event-grid.is-scrollable::-webkit-scrollbar-thumb{ background:var(--nyx-compat-color-f77d2c801a14); border-radius:var(--nyx-compat-radius-4px); }
+.gp-event-cell{ min-width:0; height:var(--gp-event-row-height); display:flex; flex-direction:column; }
 @media (max-width:1500px){
   .gp-ovb{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
   .gp-ov-lower{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
   .gp-ov-lower > .gp-current-events{ grid-column:1 / -1; }
   .gp-event-grid{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .gp-event-grid.is-scrollable{ max-height:calc(660px + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12)); }
 }
 @media (max-width:900px){
   .gp-ovb,
   .gp-ov-lower,
   .gp-event-grid{ grid-template-columns:minmax(0, 1fr); }
+  .gp-event-grid.is-scrollable{ max-height:calc(1188px + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12) + var(--nyx-space-12)); }
   .gp-ov-region{ justify-content:flex-start; }
 }
 
 .gp-current-events{ margin-top:var(--nyx-space-16); }
 .gp-oev,
-.gp-oev .gp-oban-body{ min-height:196px; }
+.gp-oev .gp-oban-body{ height:100%; min-height:0; }
 /* Matches the brightness of the banner cards above it (user 2026-08-09): event
    art used to sit at half opacity and read as washed out beside them. */
 .gp-oev-art{
@@ -1044,21 +1060,6 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   -webkit-box-orient:vertical;
   overflow:hidden;
 }
-/* Runs the full width of the card down to the countdown, with a generous cap so
-   every card in the row still ends up the same height — the rest is one click
-   away in the pop-up (user 2026-08-09). */
-.gp-oev-text{
-  min-width:0;
-  width:100%;
-  margin:0;
-  color:var(--nyx-compat-color-hex-ded8f5);
-  font-size:var(--nyx-type-small);
-  line-height:1.45;
-  display:-webkit-box;
-  -webkit-line-clamp:6;
-  -webkit-box-orient:vertical;
-  overflow:hidden;
-}
 /* Invisible hit area over the whole card — opens the description pop-up. */
 .gp-oev-open{
   position:absolute; inset:0; z-index:2; width:100%; height:100%;
@@ -1075,13 +1076,25 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   background:var(--nyx-compat-color-eac178282411); backdrop-filter:blur(6px);
 }
 .gp-oev-modal-card{
-  width:min(620px,100%); max-height:82vh; overflow:auto;
+  box-sizing:border-box; width:min(620px,100%); max-height:82vh; overflow:auto;
+  overscroll-behavior:contain; scrollbar-gutter:stable;
+  scrollbar-width:thin; scrollbar-color:var(--nyx-compat-color-f77d2c801a14) transparent;
   padding:var(--nyx-space-24);
   border-radius:var(--nyx-compat-radius-16px);
   color:var(--nyx-color-heading);
-  background:linear-gradient(180deg,var(--nyx-compat-color-hex-211946),var(--nyx-color-surface));
+  background-color:var(--nyx-color-surface);
+  background-image:
+    linear-gradient(180deg,rgba(18,13,39,.88),rgba(12,9,26,.96)),
+    linear-gradient(90deg,rgba(18,13,39,.92),rgba(18,13,39,.72)),
+    var(--gp-oev-modal-art);
+  background-position:center,center,50% 32%;
+  background-size:cover;
+  background-repeat:no-repeat;
   box-shadow:var(--nyx-compat-shadow-box-4f7cd9937d9b);
 }
+.gp-oev-modal-card::-webkit-scrollbar{ width:7px; }
+.gp-oev-modal-card::-webkit-scrollbar-track{ background:transparent; }
+.gp-oev-modal-card::-webkit-scrollbar-thumb{ background:var(--nyx-compat-color-f77d2c801a14); border-radius:var(--nyx-compat-radius-4px); }
 .gp-oev-modal-head{ display:flex; align-items:flex-start; gap:var(--nyx-space-12); }
 .gp-oev-modal-head h2{
   flex:1; margin:0;
@@ -1093,17 +1106,26 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   width:32px; height:32px; border-radius:var(--nyx-compat-radius-9px);
   background:var(--nyx-compat-color-c201d2dab2c4); color:var(--nyx-compat-color-hex-ded8f5);
 }
-.gp-oev-modal-when{
-  margin:var(--nyx-space-8) 0 var(--nyx-space-16);
-  color:var(--nyx-compat-color-hex-9f94c8);
-  font-family:var(--nyx-font-mono); font-size:var(--nyx-type-small);
-}
+.gp-oev-modal-countdowns{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--nyx-space-10); margin:var(--nyx-space-16) 0; }
+.gp-oev-modal-countdowns div{ min-width:0; padding:var(--nyx-space-12); background:rgba(12,9,26,.72); }
+.gp-oev-modal-countdowns dt{ color:var(--nyx-compat-color-hex-9f94c8); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-small); }
+.gp-oev-modal-countdowns dd{ min-width:0; margin:var(--nyx-space-4) 0 0; overflow-wrap:anywhere; }
+.gp-oev-modal-countdowns :is(strong,span){ display:block; }
+.gp-oev-modal-countdowns strong{ color:var(--nyx-color-heading); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-body); }
+.gp-oev-modal-countdowns span{ margin-top:var(--nyx-space-4); color:var(--nyx-compat-color-hex-ded8f5); font-size:var(--nyx-type-small); }
+.gp-oev-modal-body{ padding-top:var(--nyx-space-16); border-top:1px solid var(--nyx-compat-color-79f2e0da8494); }
+.gp-oev-modal-body h3{ margin:0 0 var(--nyx-space-10); color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-lead); font-weight:var(--nyx-weight-regular); }
+.gp-oev-modal-body h4{ margin:var(--nyx-space-16) 0 var(--nyx-space-8); color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-body); font-weight:var(--nyx-weight-semibold); }
 .gp-oev-modal-body p{
   margin:0 0 var(--nyx-space-12);
   color:var(--nyx-compat-color-hex-ded8f5);
-  font-size:var(--nyx-type-body); line-height:1.55;
+  font-size:var(--nyx-type-body); line-height:1.55; overflow-wrap:anywhere; white-space:pre-wrap;
 }
+.gp-oev-modal-body ul{ margin:0 0 var(--nyx-space-12); padding-left:var(--nyx-space-20); color:var(--nyx-compat-color-hex-ded8f5); font-size:var(--nyx-type-body); line-height:1.55; }
+.gp-oev-modal-body li + li{ margin-top:var(--nyx-space-6); }
+.gp-oev-modal-body .gp-oev-modal-note{ padding-left:var(--nyx-space-10); border-left:2px solid var(--nyx-color-accent); color:var(--nyx-color-text-soft); }
 .gp-oev-modal-body p:last-child{ margin-bottom:0; }
+@media (max-width:560px){ .gp-oev-modal-countdowns{ grid-template-columns:1fr; } }
 .gp-oban-empty{
   min-width:0;
   padding:var(--nyx-space-18) var(--nyx-space-16);
@@ -1527,10 +1549,9 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   background:linear-gradient(180deg, var(--nyx-compat-color-306c851d2f0b), var(--nyx-compat-color-69661123ff29)); }
 /* left brand — the living eye sits BEHIND the "Nyx" wordmark on the decorative
    plate; the whole group (and the right-hand Pengo icon) link to the index */
-/* Wordmark pulled well to the left (user 2026-08-09) — it used to start where
-   the living eye needed room, and the eye has moved to the corner. */
+/* Compact/default positioning; the desktop shell applies the shared +64px move below. */
 .gp-topbar .tb-brand{ position:absolute; top:50%; left:24px; transform:translateY(-50%); z-index:6;
-  display:inline-flex; align-items:center; height:96px; padding:0 var(--nyx-space-28) 0 var(--nyx-space-12); text-decoration:none; }
+  display:inline-flex; align-items:center; height:96px; padding:0 var(--nyx-space-28) 0 var(--nyx-space-12); text-decoration:none; pointer-events:none; }
 .gp-topbar .tb-brand .plate{ position:absolute; left:-14px; top:50%; transform:translateY(-50%);
   width:448px; height:86px; pointer-events:none;
   background:url('../../assets/decor/achievement_cycle.png') center/100% 100% no-repeat;
@@ -1540,22 +1561,24 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 .gp-topbar .tb-brand .brand-mark{ position:relative; display:inline-flex; align-items:center; gap:var(--nyx-compat-spacing-30px); }
 /* Pengo stands behind the wordmark: big, quiet and centred on the text, so the
    letters still read cleanly over it (user 2026-08-09). */
-/* Mirrored to face right and nudged past the wordmark's centre by a bit over
-   half its own width. Smaller and at full strength (user 2026-08-09) — it reads
+/* Mirrored to face right and nudged slightly past the wordmark's centre.
+   Smaller and at full strength (user 2026-08-09) — it reads
    as the mascot standing beside the word, not a watermark behind it. */
 .gp-topbar .tb-brand .brand-pengo{ position:absolute; left:50%; top:50%; transform:translate(18%,-50%) scaleX(-1);
   height:62px; width:auto; z-index:1; opacity:1; pointer-events:none;
   filter:drop-shadow(0 4px 14px rgba(0,0,0,.6)); transition:transform .3s; }
 .gp-topbar .tb-brand:hover .brand-pengo{ transform:translate(18%,-50%) scaleX(-1) scale(1.05); }
-/* The living eye left the top bar 2026-08-09 and now sits in the bottom-left
-   corner, directly above the Ko-fi badge. Decoration only. */
-.gp-nav-eye{ display:flex; justify-content:center; pointer-events:none; }
+/* The living-eye shimeji control sits directly above the Ko-fi badge. */
+.gp-nav-eye{ appearance:none; display:flex; justify-content:center; width:64px; height:64px; border:0; border-radius:50%; padding:0;
+  color:inherit; background:transparent; cursor:pointer; pointer-events:auto; transition:background .18s ease, box-shadow .18s ease; }
+.gp-nav-eye:hover{ background:var(--nyx-compat-color-acca2f28522d); box-shadow:var(--nyx-compat-shadow-box-ed8239814032); }
+.gp-nav-eye:focus-visible{ outline:2px solid var(--nyx-color-text-max); outline-offset:3px; box-shadow:0 0 14px rgba(183,170,255,.55); }
 .gp-nav-eye .tb-eye{ position:relative; width:64px; height:64px; flex:none;
   filter:var(--nyx-compat-shadow-drop-8f46e6767a0d) var(--nyx-compat-shadow-drop-83ef4fb15a2c); transition:filter .35s; }
 /* The word is the only clickable part of the brand (user 2026-08-09). */
 .gp-topbar .tb-brand .wm{ position:relative; z-index:2; font-family:var(--nyx-font-display); font-size:var(--nyx-type-display-large); line-height:.9;
   letter-spacing:var(--nyx-compat-tracking-p06em); color:var(--nyx-compat-color-hex-f7f4ff); text-shadow:var(--nyx-compat-shadow-text-af39948cc325);
-  text-decoration:none; cursor:pointer; }
+  text-decoration:none; cursor:pointer; pointer-events:auto; }
 .gp-topbar .tb-brand .wm:hover{ color:var(--nyx-color-text-max); text-shadow:var(--nyx-compat-shadow-text-ece6b39df816); }
 .gp-topbar .tb-brand .wm:focus-visible{ outline:2px solid var(--nyx-color-text-max); outline-offset:4px; }
 /* right — Pengo icon, also links to the index */
@@ -2822,7 +2845,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   align-items:center;
   gap:var(--nyx-space-14);
 }
-.tcg-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); min-width:min(440px,100%); }
+.tcg-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); width:min(380px,100%); min-width:0; margin-top:var(--nyx-space-10); }
 .tcg-search-tools .gp-search{ flex:1 1 auto; min-width:0; }
 .tcg-filter-button{ flex:none; min-height:38px; border:0; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-13px); cursor:pointer; display:flex; align-items:center; gap:var(--nyx-compat-spacing-7px);
   color:var(--nyx-compat-color-hex-c9c0e9); background:var(--nyx-compat-color-143120cacd00); box-shadow:var(--nyx-compat-shadow-box-16dee3c0fdb2); font:var(--nyx-compat-font-5981e2444f4b); letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
@@ -3105,19 +3128,19 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
 }
 .tcg-stat-grid{
   display:grid;
-  grid-template-columns:repeat(2, minmax(0, 1fr));
-  gap:var(--nyx-space-8);
-  margin-top:var(--nyx-space-16);
+  grid-template-columns:repeat(auto-fit, minmax(104px, 1fr));
+  gap:var(--nyx-space-4);
+  margin-top:var(--nyx-space-8);
 }
 .tcg-stat-grid span{
   min-width:0;
   display:flex;
   flex-direction:column;
-  gap:var(--nyx-compat-spacing-3px);
-  border-radius:var(--nyx-compat-radius-7px);
-  padding:var(--nyx-space-8) var(--nyx-compat-spacing-9px);
+  gap:var(--nyx-space-2);
+  border-radius:var(--nyx-radius-small);
+  padding:var(--nyx-space-4) var(--nyx-space-6);
   background:var(--nyx-compat-color-108ef61fc9ce);
-  box-shadow:var(--nyx-compat-shadow-box-1766dc5e697a);
+  box-shadow:none;
 }
 .tcg-stat-grid span b{
   color:var(--nyx-compat-color-hex-9f95ca);
@@ -3134,8 +3157,7 @@ html:not(.nyx-app-ready) .gp{ opacity:0; animation:nyxGpReveal .45s ease 5s forw
   color:var(--nyx-compat-color-hex-f4efff);
   font-size:var(--nyx-type-small);
   line-height:1.25;
-  overflow:hidden;
-  text-overflow:ellipsis;
+  overflow-wrap:anywhere;
 }
 .tcg-effect{
   margin-top:var(--nyx-space-16);
@@ -3733,17 +3755,14 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .gp-aside-time .nyx-time-pref{ width:100%; }
 .gp-aside-time .nyx-time-pref-switch{ width:100%; box-sizing:border-box; }
 .gp-aside-time .nyx-time-pref-popover{ left:0; right:0; }
-/* Plain compact text choices: EU / NA / ASIA, then Custom.
-   The active choice glows rather than filling.
-   Deliberately NOT named *-buttons: the shared control chrome near the end of
-   this file hexagon-clips every button inside .nyx-time-pref-buttons. */
+/* Plain compact text choices: EU / NA / ASIA, then Custom. */
 .nyx-time-pref-switch{ display:flex; align-items:center; }
 .nyx-time-pref-regions{
   display:inline-flex; align-items:center; height:32px; padding:0;
 }
 /* A quiet divider separates Custom from the server choices. */
 .nyx-time-pref-div{
-  width:1px; height:12px; flex:none; margin:0 var(--nyx-space-8);
+  width:1px; height:12px; flex:none; margin:0 var(--nyx-space-4);
   background:var(--nyx-compat-color-fe41f066fa45);
 }
 .nyx-time-pref-switch button{
@@ -3755,8 +3774,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 }
 /* Slash separators between the three server buttons only — the divider element
    already separates Custom. */
-.nyx-time-pref-regions button + button:not(.nyx-time-pref-custom)::before{
-  content:"/"; margin:0 var(--nyx-space-4); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
+.nyx-time-pref-regions button:nth-of-type(-n+2)::after{
+  content:"/"; margin-left:var(--nyx-space-2); color:var(--nyx-compat-color-fe41f066fa45); text-shadow:none;
 }
 .nyx-time-pref-switch button:hover{ color:var(--nyx-color-text-soft); }
 .nyx-time-pref-regions button.on,
@@ -5180,7 +5199,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* ===== Database-backed collection library ===== */
 .db-lib{ flex:1 1 0%; min-width:0; min-height:0; display:flex; flex-direction:column; }
 .db-lib-head{ display:flex; align-items:center; gap:var(--nyx-space-16); flex:none; padding-top:var(--nyx-space-2); }
-.db-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); min-width:min(440px,100%); }
+.db-search-tools{ position:relative; display:flex; align-items:center; gap:var(--nyx-space-8); width:min(380px,100%); min-width:0; }
 .db-search-tools .gp-search{ flex:1 1 auto; min-width:0; }
 .db-filter-control{ position:relative; flex:none; }
 .db-filter-button{ min-height:38px; border:0; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-13px); cursor:pointer; display:flex; align-items:center; gap:var(--nyx-compat-spacing-7px);
@@ -5203,19 +5222,19 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-filter-group button:hover,.db-filter-group button:focus-visible{ color:var(--nyx-color-text-max); outline:1px solid var(--nyx-compat-color-hex-cdbfff); }
 .db-filter-group button.on{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-hex-6652b3); box-shadow:var(--nyx-compat-shadow-box-8f773f638f85); }
 .db-filter-group button.on em{ color:var(--nyx-compat-color-hex-eeeaff); }
-/* Bare tab bar; the collection search docks after the last tab (user 2026-07-16). */
+/* Bare tab bar; collection search sits on its own row below. */
 .db-tabs{ display:flex; align-items:center; flex-wrap:wrap; gap:var(--nyx-space-6); flex:none; margin-top:var(--nyx-space-8); padding:0; overflow:visible; }
-.db-tabs .db-search-tools{ margin-left:auto; min-width:min(360px,100%); }
-.db-tabs button{ border:none; cursor:pointer; min-width:98px; height:34px; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-9px);
+.db-tabs + .db-search-tools{ margin-top:var(--nyx-space-10); }
+.db-tabs :is(button,a){ border:none; cursor:pointer; min-width:98px; height:34px; border-radius:var(--nyx-radius-control); padding:0 var(--nyx-compat-spacing-9px);
   display:flex; align-items:center; justify-content:center; gap:var(--nyx-compat-spacing-9px); background:none; color:var(--nyx-color-text-muted);
   font-family:var(--nyx-compat-family-ffc6cbbeca26); font-size:var(--nyx-type-small); letter-spacing:var(--nyx-compat-tracking-p12em); text-transform:uppercase;
   transition:color .2s, background .2s, box-shadow .2s; }
-.db-tabs button b{ min-width:24px; height:20px; display:grid; place-items:center; border-radius:var(--nyx-compat-radius-20px);
+.db-tabs :is(button,a) b{ min-width:24px; height:20px; display:grid; place-items:center; border-radius:var(--nyx-compat-radius-20px);
   font-size:var(--nyx-compat-size-11px); color:var(--nyx-color-surface); background:var(--nyx-color-text-faint); }
-.db-tabs button:hover{ color:var(--nyx-color-text-max); }
-.db-tabs button:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d8ceff); outline-offset:2px; }
-.db-tabs button.on{ color:var(--nyx-color-text-max); background:linear-gradient(160deg,var(--nyx-compat-color-hex-7a63c8),var(--nyx-compat-color-hex-5a47a8)); box-shadow:var(--nyx-compat-shadow-box-2c6fa8497efb); }
-.db-tabs button.on b{ background:var(--nyx-color-heading); }
+.db-tabs :is(button,a):hover{ color:var(--nyx-color-text-max); }
+.db-tabs :is(button,a):focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d8ceff); outline-offset:2px; }
+.db-tabs :is(button,a).on{ color:var(--nyx-color-text-max); background:linear-gradient(160deg,var(--nyx-compat-color-hex-7a63c8),var(--nyx-compat-color-hex-5a47a8)); box-shadow:var(--nyx-compat-shadow-box-2c6fa8497efb); }
+.db-tabs :is(button,a).on b{ background:var(--nyx-color-heading); }
 .db-filters{ flex:none; display:flex; flex-direction:column; gap:var(--nyx-space-8); margin-top:var(--nyx-space-12); }
 .db-filter-row{ display:flex; align-items:center; gap:var(--nyx-compat-spacing-7px); min-width:0; overflow-x:auto; padding:var(--nyx-space-2) var(--nyx-compat-spacing-1px); }
 .db-filter-row > b{ position:sticky; left:0; z-index:1; flex:none; padding:var(--nyx-space-6) var(--nyx-compat-spacing-9px); color:var(--nyx-color-text-muted);
@@ -5269,7 +5288,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-rarity-toggle:hover,.db-rarity-toggle:focus-visible{ outline:2px solid var(--nyx-compat-color-hex-d8ceff); outline-offset:2px; background:var(--nyx-compat-color-d57b2d640b5a); }
 .db-group .db-grid{ flex:none; overflow:visible; margin-top:0; padding:0; }
 .db-special-view{ min-height:0; display:flex; flex:1 1 auto; flex-direction:column; gap:var(--nyx-space-14); }
-.db-special-view > .db-search-tools{ justify-content:flex-end; }
+.db-special-view > .db-search-tools{ justify-content:flex-start; margin-top:var(--nyx-space-10); }
 
 /* Gallery: wide namecards stay wide; portraits and frames use the same quiet
    caption rhythm without borrowing Database rarity frames. */
@@ -5384,6 +5403,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .db-modal-copy h2{ margin:var(--nyx-compat-spacing-7px) var(--nyx-compat-spacing-42px) 0 0; color:var(--nyx-color-text-max); font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-32px); line-height:1.05; font-weight:var(--nyx-weight-regular); }
 .db-modal-description{ margin:var(--nyx-space-14) 0 0; color:var(--nyx-compat-color-hex-e1daf8); font-size:var(--nyx-type-body); line-height:1.55; white-space:pre-wrap; overflow-wrap:anywhere; }
 .db-modal-fields{ display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:var(--nyx-space-8); margin:var(--nyx-space-18) 0 0; }
+.db-modal-fields.is-weapon{ grid-template-columns:minmax(0, 1fr); }
+.db-modal-fields.is-real-weapon{ grid-template-columns:repeat(2, minmax(0, 1fr)); }
+.db-modal-fields.is-real-weapon .is-wide{ grid-column:1/-1; }
 .db-modal-fields div{ min-width:0; padding:var(--nyx-space-10) var(--nyx-space-12); border-radius:var(--nyx-compat-radius-9px); background:var(--nyx-compat-color-0557dea73665);
   box-shadow:var(--nyx-compat-shadow-box-566d2ebc31c8); }
 .db-modal-fields dt{ color:var(--nyx-compat-color-hex-9f95ca); font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-black); letter-spacing:var(--nyx-compat-tracking-p11em); text-transform:uppercase; }
@@ -5520,6 +5542,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-grid-recent{ grid-template-columns:repeat(auto-fit, minmax(96px, 108px)); }
 .cm-cell{ position:relative; width:96px; padding:0; transition:transform .2s; }
 .cm-cell-open{ width:100%; border:none; background:none; cursor:pointer; padding:0; display:flex; flex-direction:column; align-items:center; gap:var(--nyx-space-6); color:inherit; }
+.cm-cell.unavailable,.cm-cell.unavailable .cm-cell-open{ cursor:default; }
+.cm-cell.unavailable:hover{ transform:none; }
 .cm-cell:hover{ transform:translateY(-3px); }
 .cm-cell-open:focus-visible{ outline:none; }
 .cm-cell:hover .disc,.cm-cell:focus-within .disc{ box-shadow:inset 0 0 0 2.5px var(--character-hover),0 0 20px var(--character-hover-glow),0 5px 12px rgba(0,0,0,.55); }
@@ -6241,6 +6265,13 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 }
 .cm-kit-panel{ display:flex; flex-direction:column; gap:var(--nyx-space-16); padding:var(--nyx-space-2) 0 var(--nyx-space-16); }
 .cm-kit-profile{ display:flex; flex-direction:column; gap:var(--nyx-space-10); }
+.cm-profile-layout{
+  width:min(960px, 100%);
+  display:grid;
+  grid-template-columns:minmax(0, 2fr) minmax(240px, 1fr);
+  align-items:start;
+  gap:var(--nyx-space-18);
+}
 .cm-profile-facts{ display:flex; flex-wrap:wrap; gap:var(--nyx-compat-spacing-7px); }
 .cm-profile-facts span{
   min-width:0;
@@ -6263,8 +6294,27 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   text-transform:uppercase;
 }
 .cm-profile-facts em{ min-width:0; color:var(--nyx-compat-color-hex-f5f1ff); font-style:normal; font-size:var(--nyx-compat-size-11p5px); line-height:1.3; overflow-wrap:anywhere; }
+.cm-profile-details{ min-width:0; margin:0; }
+.cm-profile-details > div{
+  display:grid;
+  grid-template-columns:minmax(96px, .75fr) minmax(0, 1.25fr);
+  gap:var(--nyx-space-12);
+  padding:var(--nyx-space-8) var(--nyx-space-2);
+  border-bottom:1px solid var(--nyx-compat-color-e3785321a1c3);
+}
+.cm-profile-details > div:first-child{ border-top:1px solid var(--nyx-compat-color-e3785321a1c3); }
+.cm-profile-details dt{
+  color:var(--nyx-color-text-muted);
+  font-family:var(--nyx-compat-family-bbbd64e38bdd);
+  font-size:var(--nyx-type-small);
+  font-weight:var(--nyx-weight-black);
+  letter-spacing:var(--nyx-compat-tracking-p08em);
+  text-transform:uppercase;
+  overflow-wrap:anywhere;
+}
+.cm-profile-details dd{ min-width:0; margin:0; color:var(--nyx-color-text-soft); font-size:var(--nyx-type-body); line-height:1.4; overflow-wrap:anywhere; }
 .cm-profile-stat-grid{
-  width:min(720px, 100%);
+  width:100%;
   overflow:hidden;
   border-radius:var(--nyx-radius-control);
   background:var(--nyx-compat-color-fd59c5911642);
@@ -6283,7 +6333,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-profile-level-control label,
 .cm-profile-level-control output{
   font-family:var(--nyx-compat-family-bbbd64e38bdd);
-  font-size:var(--nyx-type-caption);
+  font-size:var(--nyx-type-small);
   font-weight:var(--nyx-weight-black);
   letter-spacing:var(--nyx-compat-tracking-p08em);
   text-transform:uppercase;
@@ -6305,9 +6355,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-profile-stat-table{ width:100%; border-collapse:collapse; table-layout:fixed; }
 .cm-profile-stat-table th,
 .cm-profile-stat-table td{ padding:var(--nyx-space-7, 7px) var(--nyx-space-10); border-top:1px solid var(--nyx-compat-color-e3785321a1c3); }
-.cm-profile-stat-table th{ color:var(--nyx-compat-color-hex-f5f1ff); font-size:var(--nyx-compat-size-11px); text-align:left; overflow-wrap:anywhere; }
-.cm-profile-stat-table td,
-.cm-profile-stat-table thead th:last-child{ color:var(--nyx-compat-color-hex-dcd4f6); font-size:var(--nyx-compat-size-11px); text-align:right; font-variant-numeric:tabular-nums; }
+.cm-profile-stat-table tbody th{ color:var(--nyx-compat-color-hex-f5f1ff); font-size:var(--nyx-type-body); text-align:left; overflow-wrap:anywhere; }
+.cm-profile-stat-table tbody td{ color:var(--nyx-compat-color-hex-dcd4f6); font-size:var(--nyx-compat-size-15px); text-align:right; font-variant-numeric:tabular-nums; }
+.cm-profile-stat-table thead th:last-child{ color:var(--nyx-compat-color-hex-dcd4f6); text-align:right; font-variant-numeric:tabular-nums; }
 .cm-profile-stat-table thead th{ color:var(--nyx-color-text-muted); font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-black); letter-spacing:var(--nyx-compat-tracking-p08em); text-transform:uppercase; }
 .cm-kit-source{
   width:max-content;
@@ -6509,6 +6559,9 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 @media (max-width:1050px){
   .cm-kit-list{ grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr)); }
 }
+@media (max-width:760px){
+  .cm-profile-layout{ grid-template-columns:minmax(0, 1fr); }
+}
 @media (max-width:600px){
   .cm-profile-level-control,
   .cm-kit-level-control{ grid-template-columns:minmax(0,1fr) auto; }
@@ -6626,10 +6679,10 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   transition:color .2s, box-shadow .2s, background .2s; }
 .cm-tool:hover{ color:var(--nyx-color-text-max); box-shadow:var(--nyx-compat-shadow-box-2f69a871c254); }
 .cm-tool.on{ color:var(--nyx-color-text-max); background:var(--nyx-compat-color-3db4de94bbbc); box-shadow:var(--nyx-compat-shadow-box-50379f5f18a4); }
-.cm-tool.warn.on{ box-shadow:var(--nyx-compat-shadow-box-b6386996f3cd); }
+.cm-hide-tool.on{ color:var(--nyx-color-text-max); background-color:var(--nyx-color-accent); background-image:none; box-shadow:none; }
 .cm-tool-badge{ position:absolute; right:-5px; top:-6px; min-width:18px; height:18px; padding:0 var(--nyx-compat-spacing-5px); border-radius:var(--nyx-radius-pill);
-  display:grid; place-items:center; font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); line-height:1; color:var(--nyx-compat-color-hex-160712);
-  background:linear-gradient(160deg,var(--nyx-compat-color-hex-ff9db4),var(--nyx-compat-color-hex-dd0044)); box-shadow:var(--nyx-compat-shadow-box-3a446408a7ce); }
+  display:grid; place-items:center; font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); line-height:1; color:var(--nyx-color-text-max);
+  background:var(--nyx-color-accent); box-shadow:none; }
 .i-filter{ width:15px; height:12px; background:currentColor; clip-path:polygon(0% 0%,100% 0%,62% 42%,62% 100%,38% 78%,38% 42%); }
 .i-eye{ position:relative; width:18px; height:11px; }
 .i-eye::before{ content:""; position:absolute; inset:0; border:1.6px solid currentColor; border-radius:50%; }
@@ -6701,8 +6754,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-days button.on::after{
   content:""; position:absolute; left:var(--nyx-space-4); right:var(--nyx-space-4); bottom:2px; height:2px;
   border-radius:2px;
-  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 22%,
-    var(--nyx-color-accent-bright) 78%, transparent);
+  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 12%,
+    var(--nyx-color-accent-bright) 88%, transparent);
   box-shadow:0 0 10px rgba(139,123,255,.75), 0 0 20px rgba(139,123,255,.35);
 }
 
@@ -6879,8 +6932,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .stage.is-compact-stage .gp-topbar .tb-brand .brand-mark{ gap:var(--nyx-space-6); }
   .stage.is-compact-stage .gp-topbar .tb-brand .wm{ font-size:var(--nyx-compat-size-26px); }
   .stage.is-compact-stage .gp-topbar .tb-center{ margin-left:var(--nyx-compat-spacing-128px); max-width:calc(100vw - 184px); }
-  .stage.is-compact-stage .nyx-time-pref-buttons button{ min-width:32px; height:30px; padding:0 var(--nyx-space-6); font-size:var(--nyx-type-caption); }
-  .stage.is-compact-stage .nyx-time-pref-buttons button:last-child{ min-width:52px; }
+  .stage.is-compact-stage .nyx-time-pref-switch button{ min-width:32px; height:30px; padding:0 var(--nyx-space-6); font-size:var(--nyx-type-caption); }
+  .stage.is-compact-stage .nyx-time-pref-switch button:last-child{ min-width:52px; }
   .stage.is-compact-stage .nyx-time-pref-popover{ top:72px; right:8px; width:min(300px,calc(100vw - 16px)); }
   .stage.is-compact-stage .gp-corner{ right:8px; top:8px; }
   .stage.is-compact-stage .gp-corner .tb-pengo.corner{ width:40px; height:40px; }
@@ -7043,7 +7096,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
     --tcg-art-h:282px;
     grid-template-columns:repeat(auto-fill, minmax(144px, 1fr));
   }
-  .tcg-search-tools{ width:100%; min-width:0; }
+  .tcg-search-tools{ width:min(380px,100%); }
   .gallery-toolbar{ align-items:stretch; flex-direction:column; }
   .gallery-toolbar .gp-search{ flex-basis:auto; width:100%; }
   .gallery-grid{ grid-template-columns:1fr; }
@@ -7091,6 +7144,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   }
   .db-modal-fields{
     grid-template-columns:1fr;
+  }
+  .db-modal-fields.is-real-weapon{
+    grid-template-columns:1fr;
+  }
+  .db-modal-fields.is-real-weapon .is-wide{
+    grid-column:auto;
   }
 }
 
@@ -7368,12 +7427,12 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-reward{display:grid;grid-template-columns:auto auto;align-items:center;justify-items:end;min-width:72px;text-align:right}.achievement-reward img{grid-row:1/3;width:25px;height:25px;margin-right:var(--nyx-space-6);object-fit:contain}.achievement-reward b{color:var(--ach-gold);font-size:var(--nyx-type-body)}.achievement-reward small{grid-column:2;color:var(--nyx-compat-color-hex-777080);font-size:var(--nyx-compat-size-7px);letter-spacing:var(--nyx-compat-tracking-p05em);text-transform:uppercase}
 .achievement-row-detail{grid-column:2/-1;display:grid;grid-template-columns:minmax(220px,1fr) minmax(260px,.75fr);gap:var(--nyx-space-18);margin:var(--nyx-space-2) 0 var(--nyx-space-4);padding:var(--nyx-space-14) var(--nyx-space-16);border:1px solid var(--nyx-compat-color-eb8a84a2f940);border-radius:var(--nyx-compat-radius-11px);background:var(--nyx-compat-color-5fc5e6e19a67)}.achievement-row-detail>div>span{color:var(--ach-accent);font-size:var(--nyx-compat-size-8px);font-weight:var(--nyx-weight-extrabold);letter-spacing:var(--nyx-compat-tracking-p12em);text-transform:uppercase}.achievement-row-detail p{margin:var(--nyx-space-6) 0 0;color:var(--nyx-compat-color-hex-b5aebe);font-size:var(--nyx-compat-size-11px);line-height:1.55}.achievement-row-detail dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--nyx-compat-spacing-9px);margin:0}.achievement-row-detail dl>div{min-width:0}.achievement-row-detail dt{color:var(--nyx-compat-color-hex-716a7d);font-size:var(--nyx-compat-size-7px);font-weight:var(--nyx-weight-extrabold);letter-spacing:var(--nyx-compat-tracking-p08em);text-transform:uppercase}.achievement-row-detail dd{overflow-wrap:anywhere;margin:var(--nyx-space-4) 0 0;color:var(--nyx-compat-color-hex-c7c0d0);font-size:var(--nyx-compat-size-9p5px)}
 .achievement-empty,.achievement-zero-guide{display:grid;justify-items:center;gap:var(--nyx-compat-spacing-7px);padding:var(--nyx-compat-spacing-42px) var(--nyx-space-20);color:var(--nyx-compat-color-hex-8e869a);text-align:center}.achievement-empty-seal{width:56px;height:56px;margin-bottom:var(--nyx-space-4)}.achievement-empty strong,.achievement-zero-guide strong{color:var(--nyx-compat-color-hex-ddd6e8);font:var(--nyx-compat-font-cd3d319cfe7f)}.achievement-empty span,.achievement-zero-guide span{font-size:var(--nyx-type-label)}.achievement-empty button,.achievement-zero-guide button{margin-top:var(--nyx-compat-spacing-5px)}.achievement-zero-guide{border-top:1px solid var(--nyx-compat-color-8caa693a1d6f);background:var(--nyx-compat-color-a39b8af67668)}
-.achievement-load-more{display:grid!important;justify-items:center;gap:var(--nyx-space-4);min-height:56px!important;margin:var(--nyx-space-10) var(--nyx-compat-spacing-15px)!important;border-style:dashed!important;background:var(--nyx-compat-color-885f85cc3a5a)!important}.achievement-load-more span{color:var(--nyx-compat-color-hex-777080);font-size:var(--nyx-compat-size-8px);font-weight:var(--nyx-compat-weight-500)}
+.achievement-load-more{display:grid!important;justify-items:center;gap:var(--nyx-space-4);min-height:56px!important;margin:var(--nyx-space-10) var(--nyx-compat-spacing-15px)!important}.achievement-load-more span{color:var(--nyx-compat-color-hex-777080);font-size:var(--nyx-compat-size-8px);font-weight:var(--nyx-compat-weight-500)}
 .achievement-disclaimer{padding:var(--nyx-space-12);color:var(--nyx-compat-color-hex-6d6675);font-size:var(--nyx-compat-size-8px);line-height:1.65}
 .achievement-manage-layer{position:fixed;z-index:90;inset:0;display:flex;justify-content:flex-end}.achievement-manage-scrim{position:absolute!important;inset:0;min-height:100%!important;border:0!important;border-radius:0!important;background:var(--nyx-compat-color-44837c62bfcc)!important;backdrop-filter:blur(5px)}
 .achievement-manage{position:relative;z-index:1;width:min(520px,100vw);height:100%;overflow-y:auto;border-left:1px solid var(--nyx-compat-color-a0d022bb7dfc);background:radial-gradient(circle at 80% 0,var(--nyx-compat-color-c00f3dba3ae7),transparent 30%),var(--nyx-compat-color-hex-0b0918);box-shadow:var(--nyx-compat-shadow-box-16f45bc51428);animation:achievement-sheet-in .2s ease-out}
 @keyframes achievement-sheet-in{from{transform:translateX(28px);opacity:.55}}
-.achievement-manage>header{position:sticky;z-index:2;top:0;display:flex;align-items:center;justify-content:space-between;padding:var(--nyx-space-20) var(--nyx-compat-spacing-22px);border-bottom:1px solid var(--nyx-compat-color-0d923d38199d);background:var(--nyx-compat-color-4cfe955755e4);backdrop-filter:blur(12px)}.achievement-manage>header h2{margin:var(--nyx-space-4) 0 0;color:var(--nyx-color-text-max);font:var(--nyx-compat-font-2a6c6516c849)}.achievement-manage-close{display:grid;width:40px;min-height:40px!important;place-items:center;padding:0!important;border-radius:50%!important;font-size:var(--nyx-type-section)!important}
+.achievement-manage>header{position:sticky;z-index:2;top:0;display:flex;align-items:center;justify-content:space-between;padding:var(--nyx-space-20) var(--nyx-compat-spacing-22px);border-bottom:1px solid var(--nyx-compat-color-0d923d38199d);background:var(--nyx-compat-color-4cfe955755e4);backdrop-filter:blur(12px)}.achievement-manage>header h2{margin:var(--nyx-space-4) 0 0;color:var(--nyx-color-text-max);font:var(--nyx-compat-font-2a6c6516c849)}.achievement-manage-close{display:grid;width:40px;min-height:40px!important;place-items:center;padding:0!important;border-radius:0;font-size:var(--nyx-type-section)!important}
 .achievement-manage>nav{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--nyx-space-6);padding:var(--nyx-space-12) var(--nyx-space-18);border-bottom:1px solid var(--nyx-compat-color-1ef7f9315602)}.achievement-manage>nav button{border-color:transparent;background:transparent;color:var(--nyx-compat-color-hex-91899f)}.achievement-manage>nav button.on{border-color:var(--nyx-compat-color-12376054c278);background:var(--nyx-compat-color-c00f3dba3ae7);color:var(--nyx-compat-color-hex-f2edff)}
 .achievement-manage-section{display:grid;gap:var(--nyx-space-16);padding:var(--nyx-compat-spacing-22px)}.achievement-manage-intro{display:grid;gap:var(--nyx-compat-spacing-5px)}.achievement-manage-intro h3{margin:0;color:var(--nyx-compat-color-hex-eee9f6);font:var(--nyx-compat-font-d3044a79dc0a)}.achievement-manage-intro p{margin:var(--nyx-space-2) 0 0;color:var(--nyx-compat-color-hex-9991a6);font-size:var(--nyx-compat-size-11px);line-height:1.6}
 .achievement-file-button{position:relative}.achievement-manage-section>.achievement-file-button{justify-self:start;min-height:44px}.achievement-file-button input{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
@@ -7394,7 +7453,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-archive{grid-template-columns:1fr;gap:var(--nyx-space-10)}.achievement-atlas{position:static;display:none;max-height:min(70vh,620px)}.achievement-atlas.open{display:flex}.achievement-atlas nav>button{min-height:62px}.achievement-ledger{max-height:none;overflow:visible}.achievement-ledger-heading{grid-template-columns:54px minmax(0,1fr);gap:var(--nyx-space-12);padding:var(--nyx-compat-spacing-15px)}.achievement-ledger-icon{width:50px;height:50px}.achievement-ledger-heading h2{font-size:var(--nyx-compat-size-21px)}.achievement-category-actions{display:grid;grid-template-columns:1fr 1fr}.achievement-category-actions button{min-height:44px}.achievement-inline-confirm{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;max-width:none}.achievement-inline-confirm span{grid-column:1/-1}
   .achievement-filter-bar,.achievement-hsr .achievement-filter-bar{grid-template-columns:repeat(2,minmax(0,1fr));padding:var(--nyx-space-12)}.achievement-search,.achievement-status-filter{grid-column:1/-1}.achievement-status-filter button{min-height:44px}.achievement-filter-bar :is(input,select){min-height:44px}.achievement-result-strip{padding-inline:var(--nyx-space-12)}
   .achievement-row{grid-template-columns:44px minmax(0,1fr) auto;gap:var(--nyx-space-8);padding:var(--nyx-compat-spacing-11px) var(--nyx-space-10)}.achievement-row .achievement-check{width:44px;min-height:44px}.achievement-row-main>strong{font-size:var(--nyx-compat-size-13px)}.achievement-row-main>span:last-child{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}.achievement-row-meta em{max-width:130px}.achievement-reward{min-width:48px}.achievement-reward small{display:none}.achievement-row-detail{grid-column:1/-1;grid-template-columns:1fr;gap:var(--nyx-space-12)}.achievement-row-detail dl{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .achievement-profile-tools select,.achievement-manage :is(button,input,select){min-height:44px}.achievement-manage{width:100vw}.achievement-manage>header{padding:var(--nyx-compat-spacing-17px)}.achievement-manage-section{padding:var(--nyx-space-18)}.achievement-manage>nav{padding-inline:var(--nyx-space-12)}.achievement-manage-close{width:44px!important}.achievement-profile-form{grid-template-columns:1fr}.achievement-profile-form button{grid-column:1}.achievement-create-profile{grid-template-columns:1fr}.achievement-manage .achievement-import-preview{grid-template-columns:repeat(2,1fr)}.achievement-backup-actions{display:grid}.achievement-backup-actions>*{width:100%}
+  .achievement-profile-tools select,.achievement-manage :is(button,input,select){min-height:44px}.achievement-manage{width:100vw}.achievement-manage>header{padding:var(--nyx-compat-spacing-17px)}.achievement-manage-section{padding:var(--nyx-space-18)}.achievement-manage>nav{padding-inline:var(--nyx-space-12)}.achievement-manage-close{width:44px!important;min-height:44px!important}.achievement-profile-form{grid-template-columns:1fr}.achievement-profile-form button{grid-column:1}.achievement-create-profile{grid-template-columns:1fr}.achievement-manage .achievement-import-preview{grid-template-columns:repeat(2,1fr)}.achievement-backup-actions{display:grid}.achievement-backup-actions>*{width:100%}
 }
 @media (max-width:420px){.achievement-observatory{grid-template-columns:1fr}.achievement-astral-seal{width:88px}.achievement-observatory-copy{grid-column:1}.achievement-profile-tools{grid-template-columns:1fr}.achievement-manage-button{min-height:44px}.achievement-filter-bar,.achievement-hsr .achievement-filter-bar{grid-template-columns:1fr}.achievement-search,.achievement-status-filter{grid-column:1}.achievement-row{grid-template-columns:42px minmax(0,1fr)}.achievement-reward{grid-column:2;display:flex;justify-items:start;justify-self:start;gap:var(--nyx-space-4)}.achievement-row-detail{grid-column:1/-1}.achievement-category-actions{grid-template-columns:1fr}.achievement-inline-confirm{grid-template-columns:1fr}.achievement-inline-confirm>*{grid-column:1}.achievement-manage>nav button{padding-inline:var(--nyx-space-6);font-size:var(--nyx-type-label)}}
 @media (prefers-reduced-motion:reduce){.achievement-page *{animation:none!important;transition:none!important}.achievement-manage{animation:none}}
@@ -7465,7 +7524,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-toolbar .achievement-status-filter{display:grid;grid-template-columns:repeat(3,auto);gap:var(--nyx-compat-spacing-3px);padding:var(--nyx-compat-spacing-3px);border:1px solid var(--nyx-compat-color-c201d2dab2c4);border-radius:var(--nyx-radius-card);background:var(--nyx-compat-color-99cc84676c14)}
 .achievement-toolbar .achievement-status-filter button{min-height:34px;padding:var(--nyx-compat-spacing-7px) var(--nyx-space-12);border:0;background:transparent;color:var(--nyx-compat-color-hex-847b90)}
 .achievement-toolbar .achievement-status-filter button.on{background:var(--ach-paper-sel);color:var(--ach-paper-ink);box-shadow:var(--nyx-compat-shadow-box-4928ac5770ed)}
-.achievement-gallery-toggle{min-height:42px!important;white-space:nowrap}
+.achievement-gallery-toggle{min-height:var(--nyx-size-control);white-space:nowrap}
 
 .achievement-category-gallery{
   display:grid;
@@ -7709,8 +7768,6 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .achievement-row-detail>div>span{color:var(--ach-accent)}.achievement-row-detail p,.achievement-row-detail dd{color:var(--ach-paper-ink)}.achievement-row-detail dt{color:var(--ach-paper-muted)}
 .achievement-empty,.achievement-zero-guide{color:var(--ach-paper-muted)}
 .achievement-empty strong,.achievement-zero-guide strong{color:var(--ach-paper-ink)}
-.achievement-load-more{margin:var(--nyx-space-8);border-color:var(--ach-paper-line)!important;background:var(--ach-paper-field)!important;color:var(--ach-paper-ink)!important}
-
 @media(max-width:1180px){.achievement-archive{grid-template-columns:minmax(300px,340px) minmax(0,1fr)}.achievement-row-main>strong{font-size:var(--nyx-type-lead)}}
 @media(max-width:760px){.achievement-archive{grid-template-columns:1fr}.achievement-atlas-search,.achievement-atlas-check{display:flex}.achievement-ledger{clip-path:none}.achievement-row-main>strong{font-size:var(--nyx-compat-size-15px)}}
 
@@ -7727,19 +7784,19 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .gp-topbar .tb-brand {
     position:relative!important;
     inset:auto!important;
-    transform:none!important;
+    transform:translateX(64px)!important;
     grid-column:1 / 3;
     grid-row:1;
     z-index:20;
     width:328px;
     height:132px;
-    /* Pulled left 2026-08-09 to match the desktop wordmark position. */
+    /* Keep the original internal spacing while the full group shifts right. */
     padding:0 var(--nyx-space-24) 0 var(--nyx-space-4);
     overflow:visible;
     border:0;
     background:transparent;
   }
-  .gp-topbar .tb-brand .plate{left:12px;width:316px;opacity:.56}
+  .gp-topbar .tb-brand .plate{left:-52px;width:316px;opacity:.56}
   .gp-topbar .tb-brand .brand-mark{width:100%;justify-content:flex-start;gap:var(--nyx-compat-spacing-22px)}
   .gp-topbar .tb-brand .wm{font-size:var(--nyx-compat-size-46px)}
 
@@ -7824,15 +7881,33 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-chan-switch{padding:0;border-radius:0;background:transparent;box-shadow:none}
 .cm-chan-switch::before{display:none}
 
-.gp-fn-row,.gp-fn-row:hover,.gp-fn-row.on,.gp-fn-row:focus-visible {
+.gp-side-nav .gp-fn-row,.gp-side-nav .gp-fn-row:hover,.gp-side-nav .gp-fn-row.on,.gp-side-nav .gp-fn-row:focus-visible {
   clip-path:none;
   border-radius:0;
   background:transparent;
   box-shadow:none;
+  transform:none;
 }
-.gp-fn-row.on{color:var(--nyx-color-text-max);text-shadow:var(--nyx-compat-shadow-text-d64b9a7534db)}
-.gp-fn-row:hover{color:var(--nyx-color-text-max);background:linear-gradient(90deg,var(--nyx-compat-color-87c0bf79f667),transparent 72%)}
-.gp-game-rail :is(a,button):focus-visible,.gp-game-rail-icons :is(a,button):focus-visible {
+.gp-side-nav .gp-fn-row .dia{
+  display:block; width:16px; height:14px; flex:0 0 16px; opacity:0;
+  background:linear-gradient(165deg,var(--nyx-compat-color-hex-d3c8ff),var(--nyx-compat-color-hex-8b79ea));
+  -webkit-mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
+  mask:url('../../assets/icon/nyx_logo.png') center/contain no-repeat;
+  filter:none; transition:opacity .18s ease,filter .18s ease;
+}
+.gp-side-nav .gp-fn-row:not(.on):hover .dia{
+  opacity:1;
+  filter:drop-shadow(0 0 4px rgba(183,170,255,.75)) drop-shadow(0 0 9px rgba(139,123,255,.35));
+}
+.gp-side-nav .gp-fn-row.on .dia{ opacity:0; filter:none; }
+.gp-side-nav .gp-fn-row>span:last-child{position:relative}
+.gp-side-nav .gp-fn-row:is(:hover,:focus-visible,.on){color:var(--nyx-color-text-max);text-shadow:0 0 8px rgba(183,170,255,.35)}
+.gp-side-nav .gp-fn-row:is(:hover,:focus-visible,.on)>span:last-child::after{
+  content:"";position:absolute;left:-6px;width:calc(100% + 12px - .18em);bottom:calc(var(--nyx-space-6) * -1);height:2px;
+  background:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  box-shadow:0 0 10px rgba(139,123,255,.75),0 0 20px rgba(139,123,255,.35);
+}
+.gp .gp-game-rail :is(a,button):focus-visible,.gp .gp-game-rail-icons :is(a,button):focus-visible {
   outline:2px solid var(--nyx-color-text-max);
   outline-offset:3px;
   border-radius:50%;
@@ -7917,125 +7992,195 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* ===== shared ordinary chrome =====
    Feature-specific geometry and artwork stay local. These final groups make
    ordinary controls and surfaces consume one behavior and token contract. */
-.gp :is(button,a,[role="button"],input,select,textarea):focus-visible{
+.gp :is(button:not(:where(.cm-chan-option,.cm-favourite-star)),a,[role="button"],input,select,textarea):focus-visible,
+:is(button:not(:where(.cm-chan-option,.cm-favourite-star)),a,[role="button"],input,select,textarea):focus-visible{
   outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
 }
-.gp :is(button,input,select,textarea):disabled,
-.gp [aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
+:is(button,input,select,textarea):disabled,
+[aria-disabled="true"]{ cursor:not-allowed; opacity:.48; }
 
 :is(
   .gp-code .cp,.gp-code .mark,.gp-reset-form button,
-  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
-  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .nyx-time-pref-switch button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.pm-collab-expand,.nyx-beta-card button,
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
-  .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
+  .cm-fopt,.cm-presets button,.cm-form-row button,
   .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,
+  .cm-weapon-pick,.cm-weapon-options button,.cm-total-checks button,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
-  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
-  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
-  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
-  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .nyx-img-editor-head label span,.nyx-img-pickpreview-actions button,.nyx-img-library-head button,.cm-share-actions button,
+  .cm-share-preview-actions button,.cm-story-retry,
+  .db-filter-button,.db-filter-pop-head button,.db-filter-group button,.db-tabs :is(button,a),
+  .db-filter-row button,.db-load-state button,.db-load-more,.db-rarity-toggle,.wonder-tabs button,
   .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
   .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .pot-extra-toggle,.gallery-lightbox-actions button,
   .library-status button,.library-back,.library-volumes button,.library-count-row button,
-  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-toolbar button:not(.library-highlight-swatch),.library-annotation-overflow button,
   .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
-  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-add,.bcal-toggle,.bcal-today-btn,.bcal-icon-field > button,
   .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
-  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-gallery-toggle,.achievement-status-filter button,.achievement-category-actions button,
+  .achievement-result-strip button,.achievement-empty button,.achievement-zero-guide button,
+  .achievement-load-more,.achievement-inline-confirm button,.achievement-manage > nav button,
   .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
   .achievement-create-profile button,.achievement-danger-zone > button,
   .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
 ){
-  appearance:none; display:inline-flex; align-items:center; justify-content:center; gap:var(--nyx-space-8);
-  min-height:var(--nyx-size-control); box-sizing:border-box; border:0; border-radius:0;
-  clip-path:var(--nyx-clip-control);
-  padding:var(--nyx-space-8) var(--nyx-space-18); color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface);
-  font:var(--nyx-compat-font-872b97fb43e6); letter-spacing:var(--nyx-tracking-control);
-  text-transform:uppercase; text-decoration:none; cursor:pointer;
-  transition:border-color .16s ease,background-color .16s ease,color .16s ease,filter .16s ease,transform .16s ease;
+  position:relative; appearance:none; display:inline-flex; align-items:center; justify-content:center;
+  gap:var(--nyx-space-8); min-height:var(--nyx-size-control); box-sizing:border-box;
+  border:0; border-radius:0; clip-path:none; overflow:visible; padding:var(--nyx-space-8) var(--nyx-space-18);
+  color:var(--nyx-color-text-faint); background-color:transparent; background-image:none;
+  box-shadow:none; filter:none; transform:none;
+  font-family:var(--nyx-font-display); font-size:var(--nyx-type-small); font-weight:var(--nyx-weight-regular);
+  letter-spacing:.18em; line-height:1.2; text-transform:uppercase; text-decoration:none; cursor:pointer;
+  transition:color .18s ease,text-shadow .18s ease;
 }
 :is(
   .gp-code .cp,.gp-code .mark,.gp-reset-form button,
-  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
-  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
+  .nyx-time-pref-switch button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
+  .pm-select-menu button,.pm-reset-confirm button,.pm-collab-expand,.nyx-beta-card button,
   .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
   .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
-  .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
+  .cm-fopt,.cm-presets button,.cm-form-row button,
   .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,
+  .cm-weapon-pick,.cm-weapon-options button,.cm-total-checks button,
   .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
-  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
-  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
-  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
-  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
+  .nyx-img-editor-head label span,.nyx-img-pickpreview-actions button,.nyx-img-library-head button,.cm-share-actions button,
+  .cm-share-preview-actions button,.cm-story-retry,
+  .db-filter-button,.db-filter-pop-head button,.db-filter-group button,.db-tabs :is(button,a),
+  .db-filter-row button,.db-load-state button,.db-load-more,.db-rarity-toggle,.wonder-tabs button,
   .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
   .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
+  .pot-extra-toggle,.gallery-lightbox-actions button,
   .library-status button,.library-back,.library-volumes button,.library-count-row button,
-  .library-annotation-toolbar button,.library-annotation-overflow button,
+  .library-annotation-toolbar button:not(.library-highlight-swatch),.library-annotation-overflow button,
   .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
-  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
+  .bcal-add,.bcal-toggle,.bcal-today-btn,.bcal-icon-field > button,
   .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
-  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
+  .achievement-gallery-toggle,.achievement-status-filter button,.achievement-category-actions button,
+  .achievement-result-strip button,.achievement-empty button,.achievement-zero-guide button,
+  .achievement-load-more,.achievement-inline-confirm button,.achievement-manage > nav button,
   .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
   .achievement-create-profile button,.achievement-danger-zone > button,
   .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
-):hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
-:is(
-  .gp-code .cp,.gp-code .mark,.gp-reset-form button,
-  .nyx-time-pref-buttons button,.pm-action,.pm-reset,.pm-icon-search button,.pm-select-trigger,
-  .pm-select-menu button,.pm-reset-confirm button,.nyx-beta-card button,.beta-diff-actions button,
-  .gt-import-tab,.gt-go,.gt-method-action,.gt-cmd button,.gt-sync-row button,.gt-sync-delete,
-  .gt-title-import,.gt-mode-tabs button,.gt-filter-pills button,.gt-pity-filters button,
-  .cm-fopt,.cm-hide-menu button,.cm-presets button,.cm-form-row button,
-  .cm-character-tabs button,.cm-trace-max,.cm-custom-back,.cm-detail-back,
-  .cm-unfav-actions button,.nyx-img-choice-head button,.nyx-img-flips button,.nyx-img-actions button,
-  .nyx-img-pickpreview-actions button,.nyx-img-library-head button,
-  .ntl-tools > button,.ntl-marker-form > button,.ntl-results > button,.ntl-gi-search-runs button,
-  .ntl-gi-layer-buttons button,.db-filter-button,.db-filter-pop-head button,.db-filter-group button,
-  .db-tabs button,.db-filter-row button,.db-load-state button,.db-load-more,.wonder-tabs button,
-  .wonder-filter-row button,.wonder-back,.tcg-filter-button,.tcg-filter-pop-head button,
-  .tcg-active-filters button,.tcg-tabs button,.tcg-back,.pot-tabs button,.pot-back,
-  .library-status button,.library-back,.library-volumes button,.library-count-row button,
-  .library-annotation-toolbar button,.library-annotation-overflow button,
-  .library-annotation-message button,.library-stale-marks button,.library-note-actions button,
-  .bcal-add,.bcal-toggle,.bcal-nav,.bcal-today-btn,.bcal-icon-field > button,
-  .bcal-dialog-actions button,.bcal-file,.achievement-manage-button,.achievement-notice button,
-  .achievement-gallery-toggle,.achievement-inline-confirm button,.achievement-manage > nav button,
-  .achievement-file-button,.achievement-import-actions button,.achievement-profile-form button,
-  .achievement-create-profile button,.achievement-danger-zone > button,
-  .achievement-danger-confirm button,.achievement-backup-actions > :is(button,.achievement-file-button)
-):active{ transform:translateY(1px); }
+):is(:hover,:focus-visible,:active,.on,[aria-current="page"],[aria-selected="true"],[aria-pressed="true"],[aria-expanded="true"]){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:none;
+  box-shadow:none; filter:none; text-shadow:none; transform:none;
+}
+.nyx-time-pref-switch .nyx-time-pref-regions button{
+  gap:0; padding-inline:var(--nyx-space-4);
+}
+.nyx-time-pref-switch .nyx-time-pref-regions button:nth-child(n):is(:hover,:focus-visible,:active,.on,[aria-pressed="true"],[aria-expanded="true"]){
+  background-size:100% 2px;
+}
+.nyx-img-editor-head label:focus-within span{
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+  text-shadow:0 0 8px rgba(183,170,255,.35);
+}
 
 :is(.gt-go,.pm-action.primary,.pm-reset-confirm button.primary,.nyx-beta-card button.primary,
-  .beta-diff-actions button.primary,.nyx-img-actions button.primary,.nyx-img-pickpreview-actions button.apply,
-  .bcal-dialog-actions button.primary,.achievement-import-actions button.primary,
+  .nyx-img-actions button.primary,.nyx-img-pickpreview-actions button.apply,
+  .library-note-actions button:first-child,.bcal-dialog-actions button.primary,.achievement-import-actions button:first-child,
   .achievement-create-profile button,.achievement-profile-form button[type="submit"]){
-  color:var(--nyx-color-text-max); background:var(--nyx-color-control-active);
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
 }
-:is(.gt-mode-tabs button.on,.gt-filter-pills button.on,.gt-pity-filters button.on,
-  .cm-presets button.on,.cm-character-tabs button.on,.db-tabs button.on,
-  .wonder-tabs button.on,.tcg-tabs button.on,.pot-tabs button.on,.achievement-manage > nav button.on){
-  color:var(--nyx-color-text-max); background:var(--nyx-color-control-active);
-}
-:is(.gt-sync-delete,.achievement-danger-zone > button,.achievement-danger-confirm button:first-of-type){
-  color:var(--nyx-color-chip-danger); background:var(--nyx-color-chip-danger-surface);
-  box-shadow:var(--nyx-compat-shadow-box-d0ffda305757);
+:is(.gt-sync-delete,.pm-reset-all .pm-reset.danger,
+  .pm-reset-confirm[aria-label="Reset all Nyx settings"] button.primary,
+  .cm-unfav-actions button.danger,.nyx-img-library-head button,
+  .library-note-actions button.danger,.library-stale-marks button,
+  .bcal-dialog-actions button.danger,.gp-reset-tile.custom button:last-child,
+  .achievement-category-actions > .achievement-quiet-button,
+  .achievement-import-preview:has(.achievement-replace-confirm) .achievement-import-actions button:first-child,
+  .achievement-danger-zone > button,.achievement-danger-confirm button:first-of-type):nth-child(n){
+  color:var(--nyx-color-danger); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-danger) 12%,var(--nyx-color-danger) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(222,120,146,.3); transform:none;
 }
 
-:is(.gt-x,.cm-x,.cm-pop-close,.cm-tool,.ntl-gi-modal-close,.db-modal-close,
-  .library-note-close,.library-annotation-close,.bcal-dialog-close,.achievement-manage-close,
-  .gp-search .x){
-  appearance:none; display:inline-grid; place-items:center; width:var(--nyx-size-icon); min-width:var(--nyx-size-icon);
-  height:var(--nyx-size-icon); min-height:var(--nyx-size-icon); box-sizing:border-box; border:0;
-  border-radius:var(--nyx-radius-control); padding:0; color:var(--nyx-color-control-text);
-  background:var(--nyx-color-control-surface); box-shadow:var(--nyx-shadow-control); cursor:pointer;
-  transition:background-color .16s ease,color .16s ease,transform .16s ease;
+:is(.gt-x,.cc-copy,.cm-x,.cm-pop-close,.cm-tool,.cm-search .x,.db-modal-close,.library-note-close,
+  .library-note-popover-head button,
+  .library-annotation-close,.bcal-dialog-close,.achievement-manage-close,.gp-search .x,
+  .gp-reset-tile.custom button,.pm-stepper button,.db-group-toggle,.achievement-check,.bcal-nav,
+  .gp-oev-modal-x,
+  .gp-ovb-modal-close){
+  appearance:none; display:inline-grid; place-items:center; min-width:var(--nyx-size-icon);
+  min-height:var(--nyx-size-icon); box-sizing:border-box; border:0; border-radius:0; clip-path:none; padding:0;
+  color:var(--nyx-color-control-text);
+  background-color:transparent; background-image:none; box-shadow:none; filter:none; transform:none;
+  cursor:pointer; transition:color .18s ease,text-shadow .18s ease;
 }
-:is(.gt-x,.cm-x,.cm-pop-close,.cm-tool,.ntl-gi-modal-close,.db-modal-close,
-  .library-note-close,.library-annotation-close,.bcal-dialog-close,.achievement-manage-close,
-  .gp-search .x):hover{ color:var(--nyx-color-text-max); background:var(--nyx-color-control-surface-hover); }
+:is(.gt-x,.cc-copy,.cm-x,.cm-pop-close,.cm-tool,.cm-search .x,.db-modal-close,.library-note-close,
+  .library-note-popover-head button,
+  .library-annotation-close,.bcal-dialog-close,.achievement-manage-close,.gp-search .x,
+  .gp-reset-tile.custom button,.pm-stepper button,.db-group-toggle,.achievement-check,.bcal-nav,
+  .gp-oev-modal-x,
+  .gp-ovb-modal-close):is(:hover,:focus-visible,:active,.on,[aria-current="page"],[aria-selected="true"],[aria-pressed="true"],[aria-expanded="true"]){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 1px; background-repeat:no-repeat; background-size:calc(100% - 8px) 2px;
+  box-shadow:none; filter:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
+:is(.gt-x,.cc-copy,.cm-x,.cm-pop-close,.cm-tool,.cm-search .x,.db-modal-close,.library-note-close,
+  .library-note-popover-head button,
+  .library-annotation-close,.bcal-dialog-close,.achievement-manage-close,.gp-search .x,
+  .gp-reset-tile.custom button,.pm-stepper button,.db-group-toggle,.achievement-check,.bcal-nav,
+  .gp-oev-modal-x,
+  .gp-ovb-modal-close):focus-visible{
+  outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+}
+
+/* Settings rows keep their grid layout, but use the same flat rail as every
+   other ordinary control. Icon/image pickers remain structural. */
+.nyx-pengo-menu.as-tab :is(.pm-row,.pm-action,.pm-reset,.pm-choice-set button,.pm-collab-expand){
+  appearance:none; min-height:var(--nyx-size-control); border:0; border-radius:0; clip-path:none;
+  color:var(--nyx-color-text-faint); background-color:transparent; background-image:none;
+  box-shadow:none; filter:none; transform:none;
+}
+.nyx-pengo-menu.as-tab :is(.pm-row,.pm-action,.pm-reset:not(.danger),.pm-choice-set button,.pm-collab-expand):is(:hover,:focus-visible,:active,.on,[aria-pressed="true"],[aria-expanded="true"]){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright) 12%,var(--nyx-color-accent-bright) 88%,transparent);
+  background-position:center bottom 2px; background-repeat:no-repeat; background-size:calc(100% - 24px) 2px;
+  box-shadow:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
+.nyx-pengo-menu.as-tab .pm-row .pm-state,
+.nyx-pengo-menu.as-tab .pm-row.media.pause .pm-state,
+.nyx-pengo-menu.as-tab .pm-row.media.stop .pm-state{
+  border-radius:0; background:transparent; box-shadow:none;
+}
+.nyx-pengo-menu.as-tab .pm-stepper{
+  min-height:var(--nyx-size-control); grid-template-columns:var(--nyx-size-control) minmax(0,1fr) var(--nyx-size-control);
+  border-radius:0; background:transparent; box-shadow:none;
+}
+.nyx-pengo-menu.as-tab .pm-stepper :is(button,input){ height:var(--nyx-size-control); }
+.gp-reset-tile.custom{
+  padding-right:calc(var(--nyx-size-icon) + var(--nyx-size-icon) + var(--nyx-space-16));
+}
+.gp-reset-tile.custom button{ top:calc((100% - var(--nyx-size-icon)) / 2); right:var(--nyx-space-6); }
+.gp-reset-tile.custom button[aria-pressed]{ right:calc(var(--nyx-size-icon) + var(--nyx-space-10)); }
+.cm-weapon-options button:nth-child(n){
+  display:grid; grid-template-columns:28px minmax(0,1fr); justify-content:initial; text-align:left;
+}
+.cm-num-step{
+  border-radius:0; clip-path:none; color:var(--nyx-color-control-text);
+  background-color:transparent; background-image:none; box-shadow:none; filter:none; transform:none;
+  transition:color .18s ease,text-shadow .18s ease;
+}
+.cm-num-step:is(:hover,:focus-visible,:active){
+  color:var(--nyx-color-text-max); background-color:transparent;
+  background-image:linear-gradient(90deg,transparent,var(--nyx-color-accent-bright),transparent);
+  background-position:center bottom; background-repeat:no-repeat; background-size:calc(100% - 2px) 1px;
+  box-shadow:none; text-shadow:0 0 8px rgba(183,170,255,.35); transform:none;
+}
 
 :is(
   .gp-reset-form input,.gp-reset-form select,.nyx-time-pref-popover select,.pm-icon-search input,
@@ -8048,7 +8193,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   .achievement-toolbar input,.achievement-toolbar select,.achievement-manage input,.achievement-manage select
 ){
   min-height:var(--nyx-size-control); box-sizing:border-box; border:1px solid var(--nyx-color-border-strong);
-  border-radius:var(--nyx-radius-control); outline:0; padding:var(--nyx-space-8) var(--nyx-space-12);
+  border-radius:var(--nyx-radius-control); padding:var(--nyx-space-8) var(--nyx-space-12);
   color:var(--nyx-color-heading); background:var(--nyx-color-input-surface);
   font:var(--nyx-compat-font-8182614572fa);
 }
@@ -8069,16 +8214,18 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   box-shadow:none;
 }
 :is(.gp-search,.cm-search,.library-search):focus-within{
-  border-color:var(--nyx-color-accent-bright); outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
+  border-color:var(--nyx-color-accent-bright); outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); box-shadow:none;
 }
 :is(.gp-search,.cm-search,.library-search) input{ border:0; outline:0; background:transparent; box-shadow:none; }
+.gp :is(.gp-search,.cm-search,.library-search) input:focus-visible,
+:is(.gp-search,.cm-search,.library-search) input:focus-visible{ outline:0; outline-offset:0; }
 
 :is(.gt-panel,.cm-panel,.db-modal-card,.bcal-dialog,.achievement-manage,.library-reader,.ntl-gi-detail){
   border-radius:var(--nyx-radius-panel); background:var(--nyx-gradient-panel); box-shadow:var(--nyx-shadow-panel);
 }
 :is(.gt-panel-box,.gt-method,.gt-sync,.gt-archive-card,.gt-total-unit,.gt-recent-five-row,
   .gt-banner-history-row,.gp-reset-panel,.gp-reset-tile,.nyx-time-pref-popover,
-  .nyx-pengo-menu.as-tab .pm-section,.cm-filter,.cm-hide-menu,.cm-weapon-menu,.cm-custom-art-panel,
+  .nyx-pengo-menu.as-tab .pm-section,.cm-filter,.cm-weapon-menu,.cm-custom-art-panel,
   .nyx-img-editor,.cm-kit-entry,.ntl-detail,.ntl-popover,.db-load-state,.db-modal-fields div,
   .db-modal-skills > article,.library-status,.library-annotation-toolbar,.library-note-popover,
   .library-stale-marks,.bcal-next,.bcal-cell,.achievement-toolbar,.achievement-import-preview,
@@ -8114,7 +8261,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .library-text-match{ color:var(--nyx-color-chip-info); background:var(--nyx-color-chip-info-surface); }
 
 :is(.ntl-block,.ntl-marker > button,.ntl-gi-mini,.db-card,.wonder-card,.tcg-card,.pot-card,
-  .library-tile,.library-cover,.bcal-chip,.cm-cell-open,.cm-favourite-star):focus-visible{
+  .library-tile,.library-cover,.bcal-chip,.cm-cell-open):focus-visible{
   outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset);
 }
 
@@ -8173,7 +8320,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
    logo straddling it, integrated like the item-frame emblem.
    :nth-child(n) lifts specificity above the shared contracts.
    ============================================================ */
-:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs button,
+:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs :is(button,a),
   .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n){
   position:relative; appearance:none; display:inline-flex; align-items:center; justify-content:center;
   /* Tightened 2026-08-09: the tab used to be 18px wider than its word on each
@@ -8188,24 +8335,28 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   letter-spacing:.18em; text-transform:uppercase; line-height:1.2; text-align:center;
   transition:color .18s ease, text-shadow .18s ease;
 }
-:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs button,
-  .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n):hover,
-:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs button,
-  .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n):focus-visible{
-  color:var(--nyx-color-text-soft); background:transparent; box-shadow:none; transform:none; outline:none;
+@media (max-width:760px){
+  :is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs :is(button,a),
+    .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n){ min-height:var(--nyx-size-control); }
 }
-:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs button.on,
+:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs :is(button,a),
+  .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n):hover,
+:is(.cm-tabs .gp-section-nav-button, .cm-character-tabs button, .gt-mode-tabs button, .gt-import-tab, .db-tabs :is(button,a),
+  .wonder-tabs button, .tcg-tabs button, .pot-tabs button):nth-child(n):focus-visible{
+  color:var(--nyx-color-text-soft); background:transparent; box-shadow:none; transform:none;
+}
+:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs :is(button,a).on,
   .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on):nth-child(n){
   z-index:2; color:var(--nyx-color-text-max); background:transparent;
   text-shadow:0 0 8px rgba(183,170,255,.35); box-shadow:none;
 }
 /* underline rail */
-:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs button.on,
+:is(.cm-tabs .gp-section-nav-button.on, .cm-character-tabs button.on, .gt-mode-tabs button.on, .gt-import-tab.on, .db-tabs :is(button,a).on,
   .wonder-tabs button.on, .tcg-tabs button.on, .pot-tabs button.on):nth-child(n)::after{
   content:""; position:absolute; left:var(--nyx-space-4); right:var(--nyx-space-4); bottom:2px; height:2px;
   border-radius:2px;
-  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 22%,
-    var(--nyx-color-accent-bright) 78%, transparent);
+  background:linear-gradient(90deg, transparent, var(--nyx-color-accent-bright) 12%,
+    var(--nyx-color-accent-bright) 88%, transparent);
   box-shadow:0 0 10px rgba(139,123,255,.75), 0 0 20px rgba(139,123,255,.35);
 }
 /* The emblem that straddled the old rail was removed 2026-08-08; the
@@ -8216,9 +8367,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 /* Back / Customize sit in the same bar as quiet siblings */
 :is(.cm-character-tabs .cm-detail-back):nth-child(n){ color:var(--nyx-color-text-soft); }
 
-/* Special database views (TCG / Pot / Wonderland) have no page title; their
-   search rows right-align to mirror the collection search position. */
-.tcg-head,.pot-head,.wonder-head{ justify-content:flex-end; }
+/* Database search rows stay compact and left-aligned. */
+.tcg-head,.pot-head,.wonder-head{ justify-content:flex-start; }
 /* The favourites HIDE toggle and its Card/Icon siblings were removed
    2026-08-09 — pinned favourites are always icons, always shown. */
 
@@ -8239,30 +8389,41 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
   transform:scale(1.2);
   transform-origin:50% 0%;
 }
-/* The "?" beside Endfield's loss pool. */
-.gp-oban-supports-label{ display:inline-flex; align-items:center; gap:var(--nyx-space-6); }
-.gp-oban-supports-help{
-  width:16px; height:16px; flex:none; display:inline-flex; align-items:center; justify-content:center;
-  border:1px solid var(--nyx-compat-color-97cd05e0c6e8); border-radius:50%;
-  background:var(--nyx-compat-color-e1b276e64ad6); color:var(--nyx-compat-color-hex-cfc4ff);
-  font-family:var(--nyx-compat-family-bbbd64e38bdd); font-size:var(--nyx-type-caption); line-height:1;
-  cursor:pointer; padding:0;
-}
-.gp-oban-supports-help:hover,
-.gp-oban-supports-help:focus-visible{ color:var(--nyx-color-text-max); border-color:var(--nyx-compat-color-d489b77ef351); }
-/* Loss-rate explainer overlay. */
+/* Native Endfield loss-pool dialog. */
 .gp-ovb-modal{
-  position:fixed; inset:0; z-index:80; display:flex; align-items:center; justify-content:center;
-  padding:var(--nyx-space-20); background:var(--nyx-compat-color-9fa4120a9f58); backdrop-filter:blur(2px);
+  box-sizing:border-box; width:min(760px, calc(100% - 40px)); max-height:min(88vh, 760px); margin:auto;
+  border:1px solid var(--nyx-compat-color-86adf8edfa1d); border-radius:var(--nyx-compat-radius-16px); padding:0;
+  color:var(--nyx-color-heading); background:linear-gradient(180deg,var(--nyx-compat-color-hex-211946),var(--nyx-color-surface));
+  box-shadow:var(--nyx-compat-shadow-box-4f7cd9937d9b); overflow:hidden;
 }
+.gp-ovb-modal::backdrop{ background:var(--nyx-compat-color-9fa4120a9f58); backdrop-filter:blur(4px); }
 .gp-ovb-modal-box{
-  position:relative; max-width:min(920px, 92vw); max-height:88vh; overflow:auto;
-  padding:var(--nyx-space-12); border-radius:var(--nyx-radius-card);
-  background:var(--nyx-color-surface); box-shadow:var(--nyx-compat-shadow-box-4f7cd9937d9b);
+  box-sizing:border-box; max-height:min(88vh, 760px); overflow:auto;
+  padding:var(--nyx-space-24); scrollbar-width:thin; scrollbar-color:var(--nyx-compat-color-f77d2c801a14) transparent;
 }
-.gp-ovb-modal-box img{ display:block; max-width:100%; height:auto; border-radius:var(--nyx-radius-control); }
+.gp-ovb-modal-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:var(--nyx-space-16); }
+.gp-ovb-modal-head span,
+.gp-ovb-loss-step > span{
+  color:var(--nyx-color-text-muted); font-family:var(--nyx-compat-family-ffc6cbbeca26);
+  font-size:var(--nyx-type-label); letter-spacing:var(--nyx-compat-tracking-p13em); text-transform:uppercase;
+}
+.gp-ovb-modal-head h2{ margin:var(--nyx-space-4) 0 0; color:var(--nyx-color-text-max); font-family:var(--nyx-font-display); font-size:var(--nyx-compat-size-25px); font-weight:var(--nyx-weight-regular); }
 .gp-ovb-modal-close{
-  position:absolute; top:var(--nyx-space-6); right:var(--nyx-space-8);
-  width:28px; height:28px; border:0; border-radius:50%; cursor:pointer;
-  background:var(--nyx-compat-color-e1b276e64ad6); color:var(--nyx-color-text-max); font-size:var(--nyx-type-body); line-height:1;
+  width:34px; height:34px; flex:none; border:0; border-radius:0; cursor:pointer;
+  background-color:transparent; box-shadow:none; color:var(--nyx-color-text-max); font-size:var(--nyx-compat-size-21px); line-height:1;
+}
+.gp-ovb-loss-rule{ margin:var(--nyx-space-16) 0; color:var(--nyx-compat-color-hex-ded8f5); line-height:1.5; }
+.gp-ovb-loss-sequence{ display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:var(--nyx-space-10); }
+.gp-ovb-loss-step{ min-width:0; display:grid; gap:var(--nyx-space-8); padding:var(--nyx-space-12); border-radius:var(--nyx-radius-control); background:var(--nyx-compat-color-e1b276e64ad6); }
+.gp-ovb-loss-step strong{ color:var(--nyx-color-text-max); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-caption); font-weight:var(--nyx-weight-semibold); }
+.gp-ovb-loss-step .gp-oban-unit,
+.gp-ovb-loss-permanent .gp-oban-unit{ box-sizing:border-box; width:100%; padding:var(--nyx-space-6); border-radius:var(--nyx-radius-control); background:var(--nyx-compat-color-a4cfb227c1ed); }
+.gp-ovb-loss-permanent{ margin-top:var(--nyx-space-20); padding-top:var(--nyx-space-16); border-top:1px solid var(--nyx-compat-color-79f2e0da8494); }
+.gp-ovb-loss-permanent h3{ margin:0 0 var(--nyx-space-10); color:var(--nyx-color-heading); font-family:var(--nyx-font-display); font-size:var(--nyx-type-lead); }
+.gp-ovb-loss-permanent > div{ display:grid; grid-template-columns:repeat(auto-fit, minmax(170px, 1fr)); gap:var(--nyx-space-8); }
+@media (max-width:640px){
+  .gp-ovb-modal{ width:calc(100% - 16px); max-height:calc(100vh - 16px); }
+  .gp-ovb-modal-box{ max-height:calc(100vh - 16px); padding:var(--nyx-space-18); }
+  .gp-ovb-loss-sequence,
+  .gp-ovb-loss-permanent > div{ grid-template-columns:minmax(0, 1fr); }
 }

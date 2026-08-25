@@ -5,7 +5,7 @@
   "name": "The Little Witch and the Undying Fire",
   "sortId": 309239,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/The_Little_Witch_and_the_Undying_Fire",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -144,20 +144,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-2347a47dd67cbbb6"
+            "id": "p-0b12db1b47b1aff3"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Anyway, so the little witch was soaring upon her broom beneath the blood-green moon, and then, she met a young lady who claimed to be a \"fortune teller.\""
+                "text": "Anyway, so the little witch was soaring upon her broom beneath the blood-green moon, and then, she met a young lady who claimed to be a \"fortune teller.\""
               },
               {
                 "type": "br"
@@ -213,20 +209,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-c908697e713f8008"
+            "id": "p-1f23ea8985ffef55"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->After the little witch finished listening, she was very impressed by the fortune teller's learning and technique."
+                "text": "After the little witch finished listening, she was very impressed by the fortune teller's learning and technique."
               },
               {
                 "type": "br"
@@ -247,20 +239,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-2c2b6ab3209b0bac"
+            "id": "p-bbcab0ac1e1da08d"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->\"It is a shame that I am still not a great witch. I can't make you my familiar yet, \" said the little witch."
+                "text": "\"It is a shame that I am still not a great witch. I can't make you my familiar yet, \" said the little witch."
               },
               {
                 "type": "br"
@@ -281,20 +269,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-e71219a02da3467e"
+            "id": "p-7bf74333c3974d80"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->By the way, the Night Carnival is an ancient, taboo ceremony. Legend has it that at such times, the witches' magical powers are at their apex. They hold rituals in secret, offering sacrifices and keeping the bonfires burning through the night. This tradition had been forgotten in the westernmost parts of the magical continent but, for some reason, it had been revived within the deep woods. Normally, this was an event that only great witches or figures greater still could be invited to, or invite others to attend."
+                "text": "By the way, the Night Carnival is an ancient, taboo ceremony. Legend has it that at such times, the witches' magical powers are at their apex. They hold rituals in secret, offering sacrifices and keeping the bonfires burning through the night. This tradition had been forgotten in the westernmost parts of the magical continent but, for some reason, it had been revived within the deep woods. Normally, this was an event that only great witches or figures greater still could be invited to, or invite others to attend."
               },
               {
                 "type": "br"
@@ -308,40 +292,32 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-393af75de57bcb6e"
+            "id": "p-7c354edb2176ebbb"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In any case, for some totally unknown reason, the astrologist knew all about witches while the witch knew nothing about astrologists at all. The point is, they decided to go and check out the Night Carnival. Let's just go with it being a way to deal with the anxiety the little witch felt over not being able to find the \"undying fire.\""
+                "text": "In any case, for some totally unknown reason, the astrologist knew all about witches while the witch knew nothing about astrologists at all. The point is, they decided to go and check out the Night Carnival. Let's just go with it being a way to deal with the anxiety the little witch felt over not being able to find the \"undying fire.\""
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-15e6dbbe123418ae"
+            "id": "p-3dc2ac068577adaa"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Under the blood-green moon, the great witches danced around the bonfire."
+                "text": "Under the blood-green moon, the great witches danced around the bonfire."
               },
               {
                 "type": "br"
@@ -355,20 +331,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-d72114873b3bc2d7"
+            "id": "p-021fffd92331dba9"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->\"We just need to wait till the day after the ancient, forbidden night of revelry, when the dawn light first breaks and the various great witches depart."
+                "text": "\"We just need to wait till the day after the ancient, forbidden night of revelry, when the dawn light first breaks and the various great witches depart."
               },
               {
                 "type": "br"
@@ -403,20 +375,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-059a97c2b6c0f4ed"
+            "id": "p-00da7b92274e9e66"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->And so, under the blood-green moonlight, the great witches sang their song:"
+                "text": "And so, under the blood-green moonlight, the great witches sang their song:"
               },
               {
                 "type": "br"
@@ -458,20 +426,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-5873b3a834ecaa28"
+            "id": "p-d8cdadba6bbba3fa"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->A sense of shame surged forth within the little witch as she listened from the shadows — it wasn't out of worry that those present, great witches and greater still, might include her teacher, school principal, instructors, or anything like that. She knew everyone at her school, and she was sure no one familiar was present."
+                "text": "A sense of shame surged forth within the little witch as she listened from the shadows — it wasn't out of worry that those present, great witches and greater still, might include her teacher, school principal, instructors, or anything like that. She knew everyone at her school, and she was sure no one familiar was present."
               },
               {
                 "type": "br"
@@ -485,20 +449,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-9cffb5f15907532e"
+            "id": "p-9e9a2365f177c600"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Back to the story. She said to the fortune teller:"
+                "text": "Back to the story. She said to the fortune teller:"
               },
               {
                 "type": "br"
@@ -526,23 +486,19 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-0181ad109f9638bf"
+            "id": "p-c5f2e2d590967900"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Actually, there's a story behind this crystal ball. It—"
+                "text": "Actually, there's a story behind this crystal ball. It—"
               }
             ],
-            "id": "p-b1befa1a485f3b72"
+            "id": "p-91171bbd0ebf7e0f"
           }
         ]
       }
@@ -601,20 +557,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b25a8863629eccf9"
+            "id": "p-fe7a3653b93c706f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->They encountered the mimic demon king in a run-down old house. At first, no one knew what was going on, assuming that the place had just gone moldy."
+                "text": "They encountered the mimic demon king in a run-down old house. At first, no one knew what was going on, assuming that the place had just gone moldy."
               },
               {
                 "type": "br"
@@ -691,20 +643,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-4378165100c58990"
+            "id": "p-4118474a015aad0f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Then, they encountered a chipmunk demon king, which her comrades had claimed beforehand was also a species of demon king."
+                "text": "Then, they encountered a chipmunk demon king, which her comrades had claimed beforehand was also a species of demon king."
               },
               {
                 "type": "br"
@@ -774,20 +722,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-eaea67a36a33ec99"
+            "id": "p-c2dacb4f26ac61b0"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Many demon kings seem very powerful, but they all have their weaknesses. The same is true for alchemical lifeforms."
+                "text": "Many demon kings seem very powerful, but they all have their weaknesses. The same is true for alchemical lifeforms."
               },
               {
                 "type": "br"
@@ -797,7 +741,7 @@
                 "text": "Finally, the little witch had to face a standard demon king, a great demon king of the primate order."
               }
             ],
-            "id": "p-e9173cabc15d5b46"
+            "id": "p-3d73c43fe9b20762"
           }
         ]
       }
@@ -842,20 +786,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b5f8d339dfc739fa"
+            "id": "p-348134e9282ca156"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->As a trainee of the Western witches who had come out to take her exam, she naturally had credentials that proved her identity. This provided her convenient passage through the many mortal kingdoms — such things were also proven to be immensely hard to forge, thus avoiding the possibility of any cliche plotlines."
+                "text": "As a trainee of the Western witches who had come out to take her exam, she naturally had credentials that proved her identity. This provided her convenient passage through the many mortal kingdoms — such things were also proven to be immensely hard to forge, thus avoiding the possibility of any cliche plotlines."
               },
               {
                 "type": "br"
@@ -883,20 +823,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-092ec32a88b68ca8"
+            "id": "p-e9b6a02dec41af85"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->So this was fast turning into a diplomatic and political issue. Of course, the mayor could just stick the Western witches with all the blame, but that would offend every witch on the continent."
+                "text": "So this was fast turning into a diplomatic and political issue. Of course, the mayor could just stick the Western witches with all the blame, but that would offend every witch on the continent."
               },
               {
                 "type": "br"
@@ -924,23 +860,19 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-f7adf06eda3c461e"
+            "id": "p-f4ee489863d7e34a"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Finally, I hope everyone remembers that crystal ball, because the little witch's goals had become foggy at this stage, so she decided to take it out and have a look at it."
+                "text": "Finally, I hope everyone remembers that crystal ball, because the little witch's goals had become foggy at this stage, so she decided to take it out and have a look at it."
               }
             ],
-            "id": "p-363b640371e19539"
+            "id": "p-3a577965676b91f1"
           }
         ]
       }
@@ -984,20 +916,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-ba7af4c93699faaf"
+            "id": "p-d6080329d7d9d1cb"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->\"Octavia's back. Go catch up with her.\""
+                "text": "\"Octavia's back. Go catch up with her.\""
               },
               {
                 "type": "br"
@@ -1025,20 +953,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-20981606306bba4a"
+            "id": "p-dc30d23952b54abd"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->\"The entire cosmos is going to die soon. Things peaked but not long ago, and are about to go south very fast.\" Octavia was sitting in a yard swathed in flowing sunlight, pouring tea into the teacups she and the little witch loved most."
+                "text": "\"The entire cosmos is going to die soon. Things peaked but not long ago, and are about to go south very fast.\" Octavia was sitting in a yard swathed in flowing sunlight, pouring tea into the teacups she and the little witch loved most."
               },
               {
                 "type": "br"
@@ -1115,20 +1039,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-e11686d3696e65b5"
+            "id": "p-435fc4e5c25efc48"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->And by way of apology for interrupting the process of the little witch becoming a proper one, she gave the latter a piece of news:"
+                "text": "And by way of apology for interrupting the process of the little witch becoming a proper one, she gave the latter a piece of news:"
               },
               {
                 "type": "br"
@@ -1145,7 +1065,7 @@
                 "text": "\"The 'undying fire' really exists. It may be found at—\""
               }
             ],
-            "id": "p-ac659b1ad5555914"
+            "id": "p-13eaf765cf70820b"
           }
         ]
       }

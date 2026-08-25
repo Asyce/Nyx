@@ -797,6 +797,148 @@
       "cost": 330000
     },
     {
+      "id": "21010076",
+      "name": "Thousandfold Deliverance",
+      "rarity": 5,
+      "weaponType": "Broadblade",
+      "type": "Broadblade",
+      "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
+      "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
+      "items": [
+        {
+          "id": "41100081",
+          "name": "Fractured Exoswarm Pendant",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100082",
+          "name": "Worn Exoswarm Pendant",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+          "source": "Roya Outcasts / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100083",
+          "name": "Chipped Exoswarm Pendant",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "41100084",
+          "name": "Intact Exoswarm Pendant",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+          "source": "Roya Outcasts",
+          "sourceDetails": [
+            {
+              "name": "Roya Outcasts"
+            }
+          ]
+        },
+        {
+          "id": "43021041",
+          "name": "LF Carved Crystal",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021042",
+          "name": "MF Carved Crystal",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021043",
+          "name": "HF Carved Crystal",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021044",
+          "name": "FF Carved Crystal",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Corroded Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
       "id": "21010046",
       "name": "Thunderflare Dominion",
       "rarity": 5,
@@ -6309,6 +6451,148 @@
       "cost": 330000
     },
     {
+      "id": "21020106",
+      "name": "Glint of Clouds",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
+      "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
+      "items": [
+        {
+          "id": "41100071",
+          "name": "LF Mech Core",
+          "qty": 6,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100072",
+          "name": "MF Mech Core",
+          "qty": 6,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            },
+            {
+              "name": "Forgery Challenge"
+            }
+          ]
+        },
+        {
+          "id": "41100073",
+          "name": "HF Mech Core",
+          "qty": 10,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "41100074",
+          "name": "FF Mech Core",
+          "qty": 12,
+          "rar": 5,
+          "kind": "mob",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+          "source": "Clamorling TDs in Lahai-Roi",
+          "sourceDetails": [
+            {
+              "name": "Clamorling TDs in Lahai-Roi"
+            }
+          ]
+        },
+        {
+          "id": "43021011",
+          "name": "Broken Wing Polarizer",
+          "qty": 6,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021012",
+          "name": "Monowing Polarizer",
+          "qty": 8,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021013",
+          "name": "Polywing Polarizer",
+          "qty": 6,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        },
+        {
+          "id": "43021014",
+          "name": "Layered Wing Polarizer",
+          "qty": 20,
+          "rar": 5,
+          "kind": "book",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+          "sourceDetails": [
+            {
+              "name": "Forgery Challenge: Cloudfall Chasm"
+            },
+            {
+              "name": "Forgery Challenge: Forsaken Remnants"
+            }
+          ]
+        }
+      ],
+      "cost": 330000
+    },
+    {
       "id": "21020045",
       "name": "Laser Shearer",
       "rarity": 5,
@@ -6449,6 +6733,17 @@
         }
       ],
       "cost": 330000
+    },
+    {
+      "id": "80080009",
+      "name": "Projection: Blade of a Thousand Arts",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.webp",
+      "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.webp",
+      "items": [],
+      "cost": 0
     },
     {
       "id": "21020026",
@@ -16231,7 +16526,7 @@
         "id": "21020096",
         "name": "Azure Oath",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020096",
       "signatureWeaponName": "Azure Oath",
@@ -16334,7 +16629,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -18671,7 +18966,7 @@
               {
                 "name": "Let the Azure Keep Its Light",
                 "type": "Sequence 6",
-                "desc": "After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for {0}s. While Voice Flux is active, the Heavy Attack DMG from Yangyang: Xuanling is increased by {1}.\n\nCasting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for {2}s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to {3} of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.\n\nShadow of Xuanling: Still as Withered Wood can be summoned once every {4}s, and Still as Withered Wood expires after it is summoned {5} times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of {6}s.",
+                "desc": "After Yangyang: Xuanling inflicts Havoc Bane on a target, gain Voice Flux for {0}s. While Voice Flux is active, targets take {1} more Heavy Attack DMG from Yangyang: Xuanling.\n\nCasting Resonance Skill - Sword Stance Flow: Azure or Resonance Skill - Sword Stance Flow: Feather grants Still as Withered Wood for {2}s. While Still as Withered Wood is active, if Yangyang: Xuanling is on the field, then after nearby Resonators in the team inflict Glacio Chafe, Fusion Burst, Electro Flare, Aero Erosion, Spectro Frazzle, or Havoc Bane, Yangyang: Xuanling summons Shadow of Xuanling: Still as Withered Wood to attack the target, dealing Havoc DMG equal to {3} of Yangyang: Xuanling's ATK. The DMG of Shadow of Xuanling: Still as Withered Wood is considered Heavy Attack DMG and is guaranteed to be a critical hit.\n\nShadow of Xuanling: Still as Withered Wood can be summoned once every {4}s, and Still as Withered Wood expires after it is summoned {5} times. When Still as Withered Wood expires or is removed, reset the available summon charges of Shadow of Xuanling: Still as Withered Wood. Still as Withered Wood has a Cooldown of {6}s.",
                 "descFormat": [
                   {
                     "start": 34,
@@ -18692,116 +18987,116 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 187,
-                    "end": 229,
+                    "start": 185,
+                    "end": 227,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 233,
-                    "end": 277,
+                    "start": 231,
+                    "end": 275,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 285,
-                    "end": 307,
+                    "start": 283,
+                    "end": 305,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 324,
-                    "end": 346,
+                    "start": 322,
+                    "end": 344,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 446,
-                    "end": 458,
+                    "start": 444,
+                    "end": 456,
                     "kind": "tone",
                     "tone": "cryo"
                   },
                   {
-                    "start": 460,
-                    "end": 472,
+                    "start": 458,
+                    "end": 470,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 474,
-                    "end": 487,
+                    "start": 472,
+                    "end": 485,
                     "kind": "tone",
                     "tone": "electro"
                   },
                   {
-                    "start": 489,
-                    "end": 501,
+                    "start": 487,
+                    "end": 499,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 503,
-                    "end": 518,
+                    "start": 501,
+                    "end": 516,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 523,
-                    "end": 533,
+                    "start": 521,
+                    "end": 531,
                     "kind": "tone",
                     "tone": "havoc"
                   },
                   {
-                    "start": 562,
-                    "end": 604,
+                    "start": 560,
+                    "end": 602,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 635,
-                    "end": 644,
+                    "start": 633,
+                    "end": 642,
                     "kind": "tone",
                     "tone": "havoc"
                   },
                   {
-                    "start": 698,
-                    "end": 740,
+                    "start": 696,
+                    "end": 738,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 755,
-                    "end": 771,
+                    "start": 753,
+                    "end": 769,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 813,
-                    "end": 855,
+                    "start": 811,
+                    "end": 853,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 893,
-                    "end": 915,
+                    "start": 891,
+                    "end": 913,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 961,
-                    "end": 983,
+                    "start": 959,
+                    "end": 981,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1045,
-                    "end": 1087,
+                    "start": 1043,
+                    "end": 1085,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1089,
-                    "end": 1111,
+                    "start": 1087,
+                    "end": 1109,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -19519,9 +19814,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-phrolova",
@@ -19551,7 +19844,7 @@
         "id": "21050066",
         "name": "Lethean Elegy",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050066",
       "signatureWeaponName": "Lethean Elegy",
@@ -19653,7 +19946,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -22380,9 +22673,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-cantarella",
@@ -22412,7 +22703,7 @@
         "id": "21050056",
         "name": "Whispers of Sirens",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050056",
       "signatureWeaponName": "Whispers of Sirens",
@@ -22516,7 +22807,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -25188,9 +25479,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-roccia",
@@ -25220,7 +25509,7 @@
         "id": "21040026",
         "name": "Tragicomedy",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040026",
       "signatureWeaponName": "Tragicomedy",
@@ -25324,7 +25613,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -27253,9 +27542,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "wuwa-rover",
@@ -27282,7 +27569,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -27381,7 +27668,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -29403,7 +29690,7 @@
             "id": "21020016",
             "name": "Blazing Brilliance",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020016",
           "signatureWeaponName": "Blazing Brilliance",
@@ -29502,7 +29789,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.5",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -31523,7 +31810,7 @@
             "id": "21020026",
             "name": "Red Spring",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020026",
           "signatureWeaponName": "Red Spring",
@@ -31622,7 +31909,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.5",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -33812,8 +34099,6 @@
               "cost": 330000
             }
           },
-          "recent": 1,
-          "recentFallback": 1,
           "rawName": "Rover (Havoc)",
           "baseName": "Rover",
           "variantValue": "Havoc",
@@ -33847,7 +34132,7 @@
             "id": "21020046",
             "name": "Bloodpact's Pledge",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020046",
           "signatureWeaponName": "Bloodpact's Pledge",
@@ -33946,7 +34231,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.5",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -36087,7 +36372,7 @@
             "id": "21020016",
             "name": "Blazing Brilliance",
             "type": "Sword",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21020016",
           "signatureWeaponName": "Blazing Brilliance",
@@ -36188,7 +36473,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.5",
+            "version": "3.6+365",
             "sections": [
               {
                 "title": "Skills",
@@ -36196,7 +36481,7 @@
                   {
                     "name": "Deterrence",
                     "type": "Normal Attack",
-                    "desc": "Basic Attack\nPerform up to {0} consecutive attacks, dealing Electro DMG.\n\nParry Stance\nHold Normal Attack to enter Parry Stance at the cost of STA.\nWhile active, Rover is immune to interruptions, takes {1}% less DMG, and continuously consumes STA. Release Normal Attack to exit Parry Stance and perform Basic Attack - Riposte Strike, dealing Electro DMG.\nIf an attack hits Rover during a certain period of Basic Attack - Riposte Strike, neutralize this attack and temporarily Stagnate the target before performing Basic Attack - Riposte Strike: Crumble, dealing Electro DMG.\n Normal Attack shortly after casting Basic Attack - Riposte Strike to cast Basic Attack Stage {3}.\n Normal Attack shortly after casting Basic Attack - Riposte Strike: Crumble to cast Mid-air Attack - Havoc\nIn Parry Stance, use Dodge to consume STA to perform Dodge: Flicker, which can trigger successful Dodges during the action of this skill shortly after it's cast.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack from mid-air, dealing Electro DMG.\n\nMid-air Attack - Havoc\nPerform up to {4} consecutive strikes, dealing Havoc DMG. Normal Attack shortly after casting Stage {5} of this skill to perform Basic Attack Stage {6}.\n\nDodge Counter\n Normal Attack right after a successful Dodge to attack the target, dealing Electro DMG.\n Normal Attack shortly after to perform Basic Attack Stage {7}.\n\nMid-air Dodge Counter\n Normal Attack right after a successful Dodge in mid-air to perform Plunging Attack at the cost of STA, dealing Electro DMG.",
+                    "desc": "Basic Attack\nPerform up to {0} consecutive attacks, dealing Electro DMG.\n\nParry Stance\nHold Normal Attack to enter Parry Stance at the cost of STA.\nWhile active, Rover is immune to interruptions, takes {1}% less DMG, and continuously consumes STA. Release Normal Attack to exit Parry Stance and perform Basic Attack - Riposte Strike, dealing Electro DMG.\nIf an attack hits Rover during a certain period of Basic Attack - Riposte Strike, neutralize this attack and temporarily Stagnate the target before performing Basic Attack - Riposte Strike: Crumble, dealing Electro DMG.\n Normal Attack shortly after casting Basic Attack - Riposte Strike to cast Basic Attack Stage {3}.\n Normal Attack shortly after casting Basic Attack - Riposte Strike: Crumble to cast Mid-air Attack - Havoc\nIn Parry Stance, use Dodge to consume STA to perform Dodge: Flicker, which can trigger successful Dodges during the action of this skill shortly after it's cast.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack from mid-air, dealing Electro DMG.\n\nMid-air Attack - Havoc\nPerform up to {4} consecutive strikes, dealing Havoc DMG. Normal Attack shortly after casting Stage {5} of this skill to perform Basic Attack - Repel.\n\nDodge Counter\n Normal Attack right after a successful Dodge to attack the target, dealing Electro DMG.\n Normal Attack shortly after to perform Basic Attack Stage {6}.\n\nMid-air Dodge Counter\n Normal Attack right after a successful Dodge in mid-air to perform Plunging Attack at the cost of STA, dealing Electro DMG.",
                     "descFormat": [
                       {
                         "start": 0,
@@ -36356,67 +36641,67 @@
                       },
                       {
                         "start": 1188,
-                        "end": 1210,
+                        "end": 1208,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1213,
-                        "end": 1226,
+                        "start": 1211,
+                        "end": 1224,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1228,
-                        "end": 1241,
+                        "start": 1226,
+                        "end": 1239,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1267,
-                        "end": 1272,
+                        "start": 1265,
+                        "end": 1270,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1303,
-                        "end": 1314,
+                        "start": 1301,
+                        "end": 1312,
                         "kind": "tone",
                         "tone": "electro"
                       },
                       {
-                        "start": 1317,
-                        "end": 1330,
+                        "start": 1315,
+                        "end": 1328,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1356,
-                        "end": 1378,
+                        "start": 1354,
+                        "end": 1376,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1381,
-                        "end": 1402,
+                        "start": 1379,
+                        "end": 1400,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1404,
-                        "end": 1417,
+                        "start": 1402,
+                        "end": 1415,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1443,
-                        "end": 1448,
+                        "start": 1441,
+                        "end": 1446,
                         "kind": "tone",
                         "tone": "spectro"
                       },
                       {
-                        "start": 1515,
-                        "end": 1526,
+                        "start": 1513,
+                        "end": 1524,
                         "kind": "tone",
                         "tone": "electro"
                       }
@@ -39049,7 +39334,7 @@
         "id": "21020026",
         "name": "Red Spring",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020026",
       "signatureWeaponName": "Red Spring",
@@ -39151,7 +39436,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -41754,9 +42039,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-danjin",
@@ -41786,7 +42069,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -41890,7 +42173,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -43940,9 +44223,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-taoqi",
@@ -43972,7 +44253,7 @@
         "id": "21010024",
         "name": "Discord",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010024",
       "signatureWeaponName": "Discord",
@@ -44076,7 +44357,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -46098,9 +46379,7 @@
           ],
           "cost": 264000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-lucy",
@@ -46130,7 +46409,7 @@
         "id": "21030056",
         "name": "Spectral Trigger",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030056",
       "signatureWeaponName": "Spectral Trigger",
@@ -46232,7 +46511,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -49922,9 +50201,7 @@
           ],
           "cost": 330000
         }
-      },
-      "recent": 1,
-      "recentFallback": 1
+      }
     },
     {
       "id": "ww-luuk-herssen",
@@ -49954,7 +50231,7 @@
         "id": "21040056",
         "name": "Daybreaker's Spine",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040056",
       "signatureWeaponName": "Daybreaker's Spine",
@@ -50057,7 +50334,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -52751,7 +53028,7 @@
         "id": "21030046",
         "name": "Spectrum Blaster",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030046",
       "signatureWeaponName": "Spectrum Blaster",
@@ -52854,7 +53131,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -56025,7 +56302,7 @@
         "id": "21010056",
         "name": "Kumokiri",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010056",
       "signatureWeaponName": "Kumokiri",
@@ -56128,7 +56405,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -59505,7 +59782,7 @@
         "id": "21040036",
         "name": "Blazing Justice",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040036",
       "signatureWeaponName": "Blazing Justice",
@@ -59608,7 +59885,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -60763,7 +61040,7 @@
               {
                 "name": "There Will Be A Light",
                 "type": "Forte Circuit",
-                "desc": "Heliacal Ember\nWhen Zani is in the team and a nearby Resonator inflicts Spectro Frazzle upon a target, immediately consume all Spectro Frazzle stacks and trigger the corresponding DMG, then convert Spectro Frazzle into an equal number of Heliacal Embers. Every time the conversion happens, Zani obtains Blaze based on the stacks of Heliacal Ember inflicted. Heliacal Ember is capped at {0} stacks, with each stack lasting for {1}s. Heliacal Ember stacks are counted toward the Spectro Frazzle stacks for the Eternal Radiance Sonata Effect.\n\nScorching Light\nWhen Zani is in Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash become available, which deal Spectro DMG that is considered both Heavy Attack DMG and Spectro Frazzle DMG.\nWhen Blaze is no less than {2}, Resonance Skill Standard Defense Protocol is replaced with Resonance Skill Scorching Light.\nHold Resonance Skill to enter Ready Stance, during which Zani is immune to interruption. This state ends early when Zani is switched off the field. While in Ready Stance, release Resonance Skill button within a certain time to consume Blaze and perform Heavy Slash - Daybreak.\nWhen attacked in a certain time after entering Ready Stance, reduce this instance of damage by 100% and Stagnate nearby targets, then perform Heavy Slash - Lightsmash, consuming Blazes and further reducing their Vibration Strength by {3}. Zani's DMG taken within the next {4}s is reduced by {5}.\nAfter casting Heavy Slash - Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall, consuming up to {6} Blazes on hit, with each Blaze increasing the DMG Multiplier of Heavy Slash - Nightfall. If Heavy Slash - Nightfall Stage 1 is interrupted, Basic Attack again to cast Heavy Slash - Nightfall Stage 2.\nUpon releasing the button after a certain time or when Ready Stance ends, immediately perform Heavy Slash - Nightfall.\nWhen Blaze is no less than {2}, Basic Attack is replaced with Heavy Slash - Daybreak. After entering Inferno Mode, casting Basic Attack immediately replaces the current Basic Attack with Resonance Skill Scorching Light. Hold Basic Attack to enter Ready Stance.\nAfter performing Heavy Slash - Daybreak, Basic Attack immediately to perform Heavy Slash - Dawning at the cost of Blaze.\nAfter performing Heavy Slash - Dawning, Basic Attack is replaced with Heavy Slash - Nightfall.\nIf Basic Attack is not replaced with Heavy Slash - Nightfall after a successful Dodge and Zani has no less than {2} Blazes, Normal Attack within a certain time to perform Heavy Slash - Lightsmash a",
+                "desc": "Heliacal Ember\nWhen Zani is in the team and a nearby Resonator inflicts Spectro Frazzle upon a target, immediately trigger the DMG of all Spectro Frazzle stacks and convert Spectro Frazzle into an equal number of Heliacal Embers. Every time the conversion happens, Zani obtains Blaze based on the stacks of Heliacal Ember inflicted. Heliacal Ember is capped at {0} stacks, with each stack lasting for {1}s. Heliacal Ember stacks are counted toward the Spectro Frazzle stacks for the Eternal Radiance Sonata Effect.\n\nScorching Light\nWhen Zani is in Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash become available, which deal Spectro DMG that is considered both Heavy Attack DMG and Spectro Frazzle DMG.\nWhen Blaze is no less than {2}, Resonance Skill Standard Defense Protocol is replaced with Resonance Skill Scorching Light.\nHold Resonance Skill to enter Ready Stance, during which Zani is immune to interruption. This state ends early when Zani is switched off the field. While in Ready Stance, release Resonance Skill button within a certain time to consume Blaze and perform Heavy Slash - Daybreak.\nWhen attacked in a certain time after entering Ready Stance, reduce this instance of damage by 100% and Stagnate nearby targets, then perform Heavy Slash - Lightsmash, consuming Blazes and further reducing their Vibration Strength by {3}. Zani's DMG taken within the next {4}s is reduced by {5}.\nAfter casting Heavy Slash - Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall, consuming up to {6} Blazes on hit, with each Blaze increasing the DMG Multiplier of Heavy Slash - Nightfall. If Heavy Slash - Nightfall Stage 1 is interrupted, Basic Attack again to cast Heavy Slash - Nightfall Stage 2.\nUpon releasing the button after a certain time or when Ready Stance ends, immediately perform Heavy Slash - Nightfall.\nWhen Blaze is no less than {2}, Basic Attack is replaced with Heavy Slash - Daybreak. After entering Inferno Mode, casting Basic Attack immediately replaces the current Basic Attack with Resonance Skill Scorching Light. Hold Basic Attack to enter Ready Stance.\nAfter performing Heavy Slash - Daybreak, Basic Attack immediately to perform Heavy Slash - Dawning at the cost of Blaze.\nAfter performing Heavy Slash - Dawning, Basic Attack is replaced with Heavy Slash - Nightfall.\nIf Basic Attack is not replaced with Heavy Slash - Nightfall after a successful Dodge and Zani has no less than {2} Blazes, Normal Attack within a certain time to perform Heavy Slash - Lightsmash at the cost of Blazes.\n\nRe",
                 "descFormat": [
                   {
                     "start": 0,
@@ -60778,268 +61055,274 @@
                     "tone": "spectro"
                   },
                   {
-                    "start": 541,
-                    "end": 556,
+                    "start": 516,
+                    "end": 531,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 573,
-                    "end": 585,
+                    "start": 548,
+                    "end": 560,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 587,
-                    "end": 609,
+                    "start": 562,
+                    "end": 584,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 611,
+                    "start": 586,
+                    "end": 607,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 609,
                     "end": 632,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 634,
-                    "end": 657,
+                    "start": 638,
+                    "end": 662,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 663,
-                    "end": 687,
+                    "start": 692,
+                    "end": 703,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 717,
-                    "end": 728,
+                    "start": 749,
+                    "end": 764,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 774,
-                    "end": 789,
+                    "start": 818,
+                    "end": 843,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 843,
-                    "end": 868,
+                    "start": 877,
+                    "end": 892,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 902,
-                    "end": 917,
+                    "start": 899,
+                    "end": 914,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
                     "start": 924,
-                    "end": 939,
+                    "end": 936,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 949,
-                    "end": 961,
+                    "start": 1051,
+                    "end": 1063,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1076,
+                    "start": 1073,
                     "end": 1088,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1098,
-                    "end": 1113,
+                    "start": 1147,
+                    "end": 1169,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1172,
-                    "end": 1194,
+                    "start": 1218,
+                    "end": 1230,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1243,
-                    "end": 1255,
+                    "start": 1313,
+                    "end": 1337,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1338,
-                    "end": 1362,
+                    "start": 1481,
+                    "end": 1505,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1506,
-                    "end": 1530,
+                    "start": 1507,
+                    "end": 1519,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1532,
-                    "end": 1544,
+                    "start": 1537,
+                    "end": 1560,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1562,
-                    "end": 1585,
+                    "start": 1646,
+                    "end": 1669,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1671,
-                    "end": 1694,
+                    "start": 1674,
+                    "end": 1705,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1699,
-                    "end": 1730,
+                    "start": 1722,
+                    "end": 1734,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1747,
-                    "end": 1759,
+                    "start": 1749,
+                    "end": 1780,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1774,
-                    "end": 1805,
+                    "start": 1837,
+                    "end": 1849,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1862,
-                    "end": 1874,
+                    "start": 1876,
+                    "end": 1899,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1901,
-                    "end": 1924,
+                    "start": 1933,
+                    "end": 1945,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1958,
-                    "end": 1970,
+                    "start": 1963,
+                    "end": 1985,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1988,
-                    "end": 2010,
+                    "start": 2002,
+                    "end": 2014,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2027,
-                    "end": 2039,
+                    "start": 2024,
+                    "end": 2036,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2049,
-                    "end": 2061,
+                    "start": 2070,
+                    "end": 2082,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2095,
-                    "end": 2107,
+                    "start": 2104,
+                    "end": 2119,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2129,
-                    "end": 2144,
+                    "start": 2126,
+                    "end": 2138,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2151,
-                    "end": 2163,
+                    "start": 2148,
+                    "end": 2160,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2173,
-                    "end": 2185,
+                    "start": 2179,
+                    "end": 2201,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2204,
-                    "end": 2226,
+                    "start": 2203,
+                    "end": 2215,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2228,
-                    "end": 2240,
+                    "start": 2239,
+                    "end": 2260,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2264,
-                    "end": 2285,
+                    "start": 2300,
+                    "end": 2321,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2325,
-                    "end": 2346,
+                    "start": 2323,
+                    "end": 2335,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2348,
-                    "end": 2360,
+                    "start": 2353,
+                    "end": 2376,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2378,
-                    "end": 2401,
+                    "start": 2381,
+                    "end": 2393,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2406,
-                    "end": 2418,
+                    "start": 2415,
+                    "end": 2438,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2440,
-                    "end": 2463,
+                    "start": 2502,
+                    "end": 2515,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2527,
-                    "end": 2540,
+                    "start": 2549,
+                    "end": 2573,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2574,
-                    "end": 2598,
+                    "start": 2598,
+                    "end": 2600,
                     "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "accent"
                   }
                 ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniY.webp",
@@ -62315,7 +62598,7 @@
         "id": "21050046",
         "name": "Luminous Hymn",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050046",
       "signatureWeaponName": "Luminous Hymn",
@@ -62418,7 +62701,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -64683,7 +64966,7 @@
         "id": "21050036",
         "name": "Stellar Symphony",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050036",
       "signatureWeaponName": "Stellar Symphony",
@@ -64787,7 +65070,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -67091,7 +67374,7 @@
         "id": "21010026",
         "name": "Ages of Harvest",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010026",
       "signatureWeaponName": "Ages of Harvest",
@@ -67194,7 +67477,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -69437,7 +69720,7 @@
         "id": "21050024",
         "name": "Variation",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050024",
       "signatureWeaponName": "Variation",
@@ -69541,7 +69824,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -71668,6 +71951,3037 @@
       }
     },
     {
+      "id": "ww-qingxiao",
+      "n": "Qingxiao",
+      "localizedNames": {
+        "en": "Qingxiao",
+        "zh": "\u6e05\u5bb5",
+        "ja": "\u6e05\u5bb5",
+        "ko": "\uccad\ucd08"
+      },
+      "slug": "qingxiao",
+      "release": 1787184000000,
+      "releasePatch": "3.6",
+      "updated": 1784246400000,
+      "sourceOrder": 1413,
+      "voiceActors": {
+        "english": "imdb:nm2830835|Kirsty Rider",
+        "japanese": "Hitomi Nabatame|Nabatame Hitomi (ja=\u751f\u5929\u76ee \u4ec1\u7f8e)",
+        "chinese": "https://zh.moegirl.org.cn/\u59dc\u8d3a|Jiang He (zh=\u59dc\u8d3a)",
+        "korean": "https://namu.wiki/w/\ubc15\ub9ac\ub098|Park Ri-na (ko=\ubc15\ub9ac\ub098)"
+      },
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
+      "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
+      "signatureWeapon": {
+        "id": "21020106",
+        "name": "Glint of Clouds",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "21020106",
+      "signatureWeaponName": "Glint of Clouds",
+      "status": "beta",
+      "labels": [
+        "3.6"
+      ],
+      "r": 5,
+      "el": "Aero",
+      "w": "Sword",
+      "baseStats": {
+        "level1": {
+          "hp": 824,
+          "atk": 37,
+          "def": 91
+        },
+        "max": {
+          "level": 90,
+          "hp": 10300,
+          "atk": 462.5,
+          "def": 1112.22
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 824,
+            "atk": 37,
+            "def": 91
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2692.58,
+            "atk": 123.99,
+            "def": 292.44
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4630.72,
+            "atk": 214.1,
+            "def": 501.38
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5874.46,
+            "atk": 273.03,
+            "def": 635.34
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7118.12,
+            "atk": 331.96,
+            "def": 769.31
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8361.87,
+            "atk": 381.64,
+            "def": 903.28
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9605.62,
+            "atk": 431.32,
+            "def": 1037.24
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10300,
+            "atk": 462.5,
+            "def": 1112.22
+          }
+        ]
+      },
+      "facts": {
+        "nation": "Huanglong",
+        "influence": "Ministry of War"
+      },
+      "skillIcons": [
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoB1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoC1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoY.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoQTE.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "3.6+365",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Strings to Steel",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Stringblade\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG.\nBasic Attack - Stringblade Stage 1 and Basic Attack - Stringblade Stage 4 are in Sheathed Stance.\nBasic Attack - Stringblade Stage 2 and Basic Attack - Stringblade Stage 3 are in Drawn Stance.\n\nHeavy Attack - Stringblade\nWhen Qin Heart and Sword Cadence are full, Heavy Attack - Stringblade becomes available.\nHold Normal Attack to consume STA and cast this skill, dealing Aero DMG.\nCasting this skill consumes all Qin Heart and Sword Cadence and sends Qingxiao into the Ephemeral Transcendence state.\n\nMid-air Attack - Stringblade\n Normal Attack consecutively or hold it down to perform up to 3 consecutive attacks, dealing Aero DMG.\nThis skill is in Drawn Stance.\nAfter landing from Mid-air Attack - Stringblade Stage 3, or hold Normal Attack within a certain time to cast Basic Attack - Stringblade Stage 3.\nWhile in mid-air, Resonance Skill is replaced by Mid-air Attack - Stringblade Stage 3.\n\nPlunging Attack\nWhile in the Sword Flight state, Jump is replaced by Plunging Attack.\nConsume STA to perform a Plunging Attack, dealing Aero DMG.\nWhile out of the Ephemeral Transcendence state, Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 3.\n\nDodge Counter - Stringblade\n Normal Attack within a certain time after a successful Dodge to attack the target, dealing Aero DMG.\nThis skill is in Drawn Stance.\n or hold Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 4.\n\nSword Glide\nWhile in mid-air, Dodge is replaced by Sword Glide.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 26,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 47,
+                    "end": 60,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 109,
+                    "end": 117,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 119,
+                    "end": 153,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 158,
+                    "end": 192,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 200,
+                    "end": 215,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 217,
+                    "end": 251,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 256,
+                    "end": 290,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 298,
+                    "end": 310,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 313,
+                    "end": 339,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 345,
+                    "end": 354,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 359,
+                    "end": 372,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 383,
+                    "end": 409,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 434,
+                    "end": 447,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 492,
+                    "end": 500,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 534,
+                    "end": 543,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 548,
+                    "end": 561,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 590,
+                    "end": 613,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 622,
+                    "end": 650,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 652,
+                    "end": 665,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 744,
+                    "end": 752,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 771,
+                    "end": 783,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 804,
+                    "end": 840,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 850,
+                    "end": 863,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 894,
+                    "end": 928,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 948,
+                    "end": 963,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 979,
+                    "end": 1015,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1018,
+                    "end": 1033,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1047,
+                    "end": 1059,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1067,
+                    "end": 1071,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1087,
+                    "end": 1102,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1154,
+                    "end": 1162,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 1181,
+                    "end": 1204,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1212,
+                    "end": 1225,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1281,
+                    "end": 1315,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1318,
+                    "end": 1345,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1347,
+                    "end": 1360,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1438,
+                    "end": 1446,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 1465,
+                    "end": 1477,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1488,
+                    "end": 1501,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1557,
+                    "end": 1591,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1594,
+                    "end": 1605,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1624,
+                    "end": 1629,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1645,
+                    "end": 1656,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Basic Attack - Stringblade Stage 1 DMG",
+                        "values": [
+                          "15.16%*2",
+                          "16.40%*2",
+                          "17.65%*2",
+                          "19.39%*2",
+                          "20.63%*2",
+                          "22.06%*2",
+                          "24.05%*2",
+                          "26.03%*2",
+                          "28.02%*2",
+                          "30.13%*2",
+                          "32.62%*2",
+                          "35.11%*2",
+                          "37.59%*2",
+                          "40.08%*2",
+                          "42.56%*2",
+                          "45.05%*2",
+                          "47.53%*2",
+                          "50.02%*2",
+                          "52.50%*2",
+                          "54.99%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Stringblade Stage 2 DMG",
+                        "values": [
+                          "18.66%*2",
+                          "20.19%*2",
+                          "21.72%*2",
+                          "23.86%*2",
+                          "25.39%*2",
+                          "27.15%*2",
+                          "29.60%*2",
+                          "32.04%*2",
+                          "34.49%*2",
+                          "37.09%*2",
+                          "40.15%*2",
+                          "43.21%*2",
+                          "46.27%*2",
+                          "49.33%*2",
+                          "52.39%*2",
+                          "55.45%*2",
+                          "58.51%*2",
+                          "61.57%*2",
+                          "64.63%*2",
+                          "67.69%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Stringblade Stage 3 DMG",
+                        "values": [
+                          "12.25%*4",
+                          "13.26%*4",
+                          "14.26%*4",
+                          "15.67%*4",
+                          "16.67%*4",
+                          "17.83%*4",
+                          "19.44%*4",
+                          "21.04%*4",
+                          "22.65%*4",
+                          "24.36%*4",
+                          "26.37%*4",
+                          "28.38%*4",
+                          "30.39%*4",
+                          "32.40%*4",
+                          "34.40%*4",
+                          "36.41%*4",
+                          "38.42%*4",
+                          "40.43%*4",
+                          "42.44%*4",
+                          "44.45%*4"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Stringblade Stage 4 DMG",
+                        "values": [
+                          "43.63%+2.73%*4",
+                          "47.21%+2.96%*4",
+                          "50.78%+3.18%*4",
+                          "55.79%+3.49%*4",
+                          "59.37%+3.72%*4",
+                          "63.48%+3.97%*4",
+                          "69.21%+4.33%*4",
+                          "74.93%+4.69%*4",
+                          "80.65%+5.05%*4",
+                          "86.73%+5.43%*4",
+                          "93.89%+5.87%*4",
+                          "101.04%+6.32%*4",
+                          "108.20%+6.77%*4",
+                          "115.35%+7.21%*4",
+                          "122.51%+7.66%*4",
+                          "129.66%+8.11%*4",
+                          "136.81%+8.56%*4",
+                          "143.97%+9.00%*4",
+                          "151.12%+9.45%*4",
+                          "158.28%+9.90%*4"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Stringblade DMG",
+                        "values": [
+                          "7.35%*3+11.03%*6+132.30%",
+                          "7.96%*3+11.93%*6+143.15%",
+                          "8.56%*3+12.84%*6+154.00%",
+                          "9.40%*3+14.10%*6+169.19%",
+                          "10.01%*3+15.01%*6+180.04%",
+                          "10.70%*3+16.05%*6+192.51%",
+                          "11.66%*3+17.49%*6+209.87%",
+                          "12.63%*3+18.94%*6+227.23%",
+                          "13.59%*3+20.39%*6+244.59%",
+                          "14.62%*3+21.92%*6+263.03%",
+                          "15.82%*3+23.73%*6+284.73%",
+                          "17.03%*3+25.54%*6+306.43%",
+                          "18.23%*3+27.35%*6+328.12%",
+                          "19.44%*3+29.16%*6+349.82%",
+                          "20.64%*3+30.96%*6+371.52%",
+                          "21.85%*3+32.77%*6+393.21%",
+                          "23.06%*3+34.58%*6+414.91%",
+                          "24.26%*3+36.39%*6+436.61%",
+                          "25.47%*3+38.20%*6+458.31%",
+                          "26.67%*3+40.00%*6+480.00%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Stringblade Stage 1 DMG",
+                        "values": [
+                          "3.64%*5+27.30%",
+                          "3.94%*5+29.54%",
+                          "4.24%*5+31.78%",
+                          "4.66%*5+34.92%",
+                          "4.96%*5+37.15%",
+                          "5.30%*5+39.73%",
+                          "5.78%*5+43.31%",
+                          "6.26%*5+46.89%",
+                          "6.73%*5+50.47%",
+                          "7.24%*5+54.28%",
+                          "7.84%*5+58.76%",
+                          "8.44%*5+63.23%",
+                          "9.03%*5+67.71%",
+                          "9.63%*5+72.19%",
+                          "10.23%*5+76.67%",
+                          "10.82%*5+81.14%",
+                          "11.42%*5+85.62%",
+                          "12.02%*5+90.10%",
+                          "12.61%*5+94.57%",
+                          "13.21%*5+99.05%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Stringblade Stage 2 DMG",
+                        "values": [
+                          "22.58%+11.29%*2",
+                          "24.43%+12.22%*2",
+                          "26.28%+13.14%*2",
+                          "28.87%+14.44%*2",
+                          "30.73%+15.37%*2",
+                          "32.85%+16.43%*2",
+                          "35.82%+17.91%*2",
+                          "38.78%+19.39%*2",
+                          "41.74%+20.87%*2",
+                          "44.89%+22.45%*2",
+                          "48.59%+24.30%*2",
+                          "52.29%+26.15%*2",
+                          "55.99%+28.00%*2",
+                          "59.70%+29.85%*2",
+                          "63.40%+31.70%*2",
+                          "67.10%+33.55%*2",
+                          "70.80%+35.40%*2",
+                          "74.50%+37.25%*2",
+                          "78.21%+39.11%*2",
+                          "81.91%+40.96%*2"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Stringblade Stage 3 DMG",
+                        "values": [
+                          "5.60%*5+42.00%",
+                          "6.06%*5+45.45%",
+                          "6.52%*5+48.89%",
+                          "7.17%*5+53.71%",
+                          "7.63%*5+57.16%",
+                          "8.15%*5+61.12%",
+                          "8.89%*5+66.63%",
+                          "9.62%*5+72.14%",
+                          "10.36%*5+77.65%",
+                          "11.14%*5+83.51%",
+                          "12.06%*5+90.39%",
+                          "12.98%*5+97.28%",
+                          "13.89%*5+104.17%",
+                          "14.81%*5+111.06%",
+                          "15.73%*5+117.95%",
+                          "16.65%*5+124.83%",
+                          "17.57%*5+131.72%",
+                          "18.49%*5+138.61%",
+                          "19.40%*5+145.50%",
+                          "20.32%*5+152.39%"
+                        ]
+                      },
+                      {
+                        "label": "Plunging Attack DMG",
+                        "values": [
+                          "43.40%",
+                          "46.96%",
+                          "50.52%",
+                          "55.50%",
+                          "59.06%",
+                          "63.16%",
+                          "68.85%",
+                          "74.54%",
+                          "80.24%",
+                          "86.29%",
+                          "93.41%",
+                          "100.52%",
+                          "107.64%",
+                          "114.76%",
+                          "121.88%",
+                          "128.99%",
+                          "136.11%",
+                          "143.23%",
+                          "150.35%",
+                          "157.46%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Stringblade DMG",
+                        "values": [
+                          "22.75%*4",
+                          "24.62%*4",
+                          "26.49%*4",
+                          "29.10%*4",
+                          "30.96%*4",
+                          "33.11%*4",
+                          "36.09%*4",
+                          "39.08%*4",
+                          "42.06%*4",
+                          "45.23%*4",
+                          "48.97%*4",
+                          "52.70%*4",
+                          "56.43%*4",
+                          "60.16%*4",
+                          "63.89%*4",
+                          "67.62%*4",
+                          "71.35%*4",
+                          "75.08%*4",
+                          "78.81%*4",
+                          "82.54%*4"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Stringblade STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Plunging Attack STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Sword Glide STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Severing Note",
+                "type": "Resonance Skill",
+                "desc": "Severing Note: Judgement\nDeal Aero DMG. During this skill, gain {0} {Cus:Sap,S=point P=points SapTag=0} of Qin Heart.\nWhile not in the Ephemeral Transcendence state, or hold Normal Attack within a certain time after casting this skill to cast Basic Attack - Stringblade Stage 4.\n\nSevering Note: Ascendant\nWhile casting Basic Attack - Stringblade Stage 2, Basic Attack - Stringblade Stage 3, or Dodge Counter - Stringblade, Resonance Skill is replaced by Severing Note: Ascendant.\nDeal Aero DMG.\nThis skill is in Drawn Stance.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 24,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 30,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 107,
+                    "end": 116,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 135,
+                    "end": 158,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 174,
+                    "end": 187,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 243,
+                    "end": 277,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 280,
+                    "end": 304,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 319,
+                    "end": 353,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 355,
+                    "end": 389,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 394,
+                    "end": 421,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 423,
+                    "end": 438,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 454,
+                    "end": 478,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 485,
+                    "end": 493,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 512,
+                    "end": 524,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoB1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Severing Note: Judgement DMG",
+                        "values": [
+                          "10.50%*2+49.00%",
+                          "11.37%*2+53.02%",
+                          "12.23%*2+57.04%",
+                          "13.43%*2+62.67%",
+                          "14.29%*2+66.68%",
+                          "15.28%*2+71.30%",
+                          "16.66%*2+77.73%",
+                          "18.04%*2+84.16%",
+                          "19.42%*2+90.59%",
+                          "20.88%*2+97.42%",
+                          "22.60%*2+105.46%",
+                          "24.32%*2+113.49%",
+                          "26.05%*2+121.53%",
+                          "27.77%*2+129.57%",
+                          "29.49%*2+137.60%",
+                          "31.21%*2+145.64%",
+                          "32.93%*2+153.67%",
+                          "34.66%*2+161.71%",
+                          "36.38%*2+169.75%",
+                          "38.10%*2+177.78%"
+                        ]
+                      },
+                      {
+                        "label": "Severing Note: Ascendant DMG",
+                        "values": [
+                          "14.28%+16.66%*2",
+                          "15.46%+18.03%*2",
+                          "16.63%+19.40%*2",
+                          "18.27%+21.31%*2",
+                          "19.44%+22.68%*2",
+                          "20.78%+24.25%*2",
+                          "22.66%+26.43%*2",
+                          "24.53%+28.62%*2",
+                          "26.40%+30.80%*2",
+                          "28.40%+33.13%*2",
+                          "30.74%+35.86%*2",
+                          "33.08%+38.59%*2",
+                          "35.42%+41.32%*2",
+                          "37.76%+44.06%*2",
+                          "40.10%+46.79%*2",
+                          "42.45%+49.52%*2",
+                          "44.79%+52.25%*2",
+                          "47.13%+54.98%*2",
+                          "49.47%+57.72%*2",
+                          "51.81%+60.45%*2"
+                        ]
+                      },
+                      {
+                        "label": "Severing Note: Judgement Cooldown",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Billows Beneath Heaven",
+                "type": "Resonance Liberation",
+                "desc": "Deal Aero DMG.\nCan be cast in mid-air close to the ground.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoC1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "16.80%*10+672.00%",
+                          "18.18%*10+727.11%",
+                          "19.56%*10+782.21%",
+                          "21.49%*10+859.36%",
+                          "22.87%*10+914.46%",
+                          "24.45%*10+977.83%",
+                          "26.65%*10+1066.00%",
+                          "28.86%*10+1154.16%",
+                          "31.06%*10+1242.33%",
+                          "33.41%*10+1336.01%",
+                          "36.16%*10+1446.22%",
+                          "38.92%*10+1556.42%",
+                          "41.67%*10+1666.63%",
+                          "44.43%*10+1776.84%",
+                          "47.18%*10+1887.05%",
+                          "49.94%*10+1997.26%",
+                          "52.69%*10+2107.46%",
+                          "55.45%*10+2217.67%",
+                          "58.20%*10+2327.88%",
+                          "60.96%*10+2438.09%"
+                        ]
+                      },
+                      {
+                        "label": "Cooldown",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      },
+                      {
+                        "label": "Resonance Cost",
+                        "values": [
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Formless Heart Sword",
+                "type": "Forte Circuit",
+                "desc": "Ephemeral Transcendence\nWhile Qingxiao is in the Ephemeral Transcendence state, Basic Attack - Ephemeral Transcendence and Dodge Counter - Ephemeral Transcendence become available.\n\nBasic Attack - Ephemeral Transcendence\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Aero DMG.\nBefore Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by {0}.\nCan be cast in mid-air.\n\nDodge Counter - Ephemeral Transcendence\n or hold Normal Attack within a certain time after a successful Dodge to attack the target, dealing Aero DMG.\nBefore Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available, this skill's DMG Multiplier is increased by {0}.\nCan be cast in mid-air.\n\nHeavy Attack - Heaven's Reckoning: Ephemeral Transcendence\nWhen Heart Sword Intent is full, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence becomes available. Hold Normal Attack to cast the skill, dealing Aero DMG.\nCasting this skill consumes all Heart Sword Intent and ends the Ephemeral Transcendence state.\n\nMindlock\nMindlock stacks up to {1} times.\nEach time a Resonator in the team inflicts Tune Strain - Interfered on a target, inflict {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Mindlock on the target.\nFor each stack of Mindlock on the target, DMG taken from Qingxiao's following skills is Amplified by {3}, with an additional {5} per stack for the first {4} {Cus:Sap,S=stack P=stacks SapTag=4}.\n- Heavy Attack - Stringblade, Basic Attack - Ephemeral Transcendence, Dodge Counter - Ephemeral Transcendence, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven.\n\nHeaven's Clarity\nUpon entering combat or casting Resonance Liberation Billows Beneath Heaven, gain Heaven's Clarity.\nWhen Sheathed Stance/Drawn Stance skills deal damage, the rates at which Qin Heart/Sword Cadence are obtained increase by {16}.\nWhen casting Heavy Attack - Stringblade, inflict {6} {Cus:Sap,S=stack P=stacks SapTag=6} of Mindlock on nearby targets, and enhance the next Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence: its DMG Multiplier is increased by {7} and it builds additional Off-Tune Level on the target. Switching to another Resonator ends the Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence enhancement.\nCasting Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence removes Heaven's Clarity.\n\nSwordlight Ward\nCasting Intro Skill - Tonality Shift or Heavy Attack - Stringblade grants {8} {Cus:Sap,S=stack P=stacks SapTag=8} of Swordli",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 23,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 72,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 80,
+                    "end": 118,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 123,
+                    "end": 162,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 182,
+                    "end": 220,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 241,
+                    "end": 254,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 303,
+                    "end": 311,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 320,
+                    "end": 378,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 472,
+                    "end": 511,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 521,
+                    "end": 534,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 612,
+                    "end": 620,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 629,
+                    "end": 687,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 781,
+                    "end": 839,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 845,
+                    "end": 863,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 873,
+                    "end": 931,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 956,
+                    "end": 969,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 997,
+                    "end": 1005,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 1039,
+                    "end": 1057,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1071,
+                    "end": 1094,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1103,
+                    "end": 1111,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1112,
+                    "end": 1120,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1188,
+                    "end": 1212,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1277,
+                    "end": 1285,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1319,
+                    "end": 1327,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1497,
+                    "end": 1523,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1525,
+                    "end": 1563,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1565,
+                    "end": 1604,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1606,
+                    "end": 1664,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1666,
+                    "end": 1711,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1714,
+                    "end": 1730,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1784,
+                    "end": 1806,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1813,
+                    "end": 1829,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1836,
+                    "end": 1851,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1852,
+                    "end": 1864,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1904,
+                    "end": 1913,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1914,
+                    "end": 1927,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1972,
+                    "end": 1998,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2051,
+                    "end": 2059,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2100,
+                    "end": 2158,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2294,
+                    "end": 2352,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2374,
+                    "end": 2432,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2441,
+                    "end": 2457,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2460,
+                    "end": 2475,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2484,
+                    "end": 2512,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2516,
+                    "end": 2542,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2593,
+                    "end": 2600,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoY.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Basic Attack - Ephemeral Transcendence Stage 1 DMG",
+                        "values": [
+                          "22.58%+11.29%*2",
+                          "24.43%+12.22%*2",
+                          "26.28%+13.14%*2",
+                          "28.87%+14.44%*2",
+                          "30.73%+15.37%*2",
+                          "32.85%+16.43%*2",
+                          "35.82%+17.91%*2",
+                          "38.78%+19.39%*2",
+                          "41.74%+20.87%*2",
+                          "44.89%+22.45%*2",
+                          "48.59%+24.30%*2",
+                          "52.29%+26.15%*2",
+                          "55.99%+28.00%*2",
+                          "59.70%+29.85%*2",
+                          "63.40%+31.70%*2",
+                          "67.10%+33.55%*2",
+                          "70.80%+35.40%*2",
+                          "74.50%+37.25%*2",
+                          "78.21%+39.11%*2",
+                          "81.91%+40.96%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Ephemeral Transcendence Stage 2 DMG",
+                        "values": [
+                          "11.62%*5",
+                          "12.58%*5",
+                          "13.53%*5",
+                          "14.86%*5",
+                          "15.82%*5",
+                          "16.91%*5",
+                          "18.44%*5",
+                          "19.96%*5",
+                          "21.49%*5",
+                          "23.11%*5",
+                          "25.01%*5",
+                          "26.92%*5",
+                          "28.82%*5",
+                          "30.73%*5",
+                          "32.64%*5",
+                          "34.54%*5",
+                          "36.45%*5",
+                          "38.35%*5",
+                          "40.26%*5",
+                          "42.16%*5"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Ephemeral Transcendence Stage 3 DMG",
+                        "values": [
+                          "10.50%*3+15.75%*2",
+                          "11.37%*3+17.05%*2",
+                          "12.23%*3+18.34%*2",
+                          "13.43%*3+20.15%*2",
+                          "14.29%*3+21.44%*2",
+                          "15.28%*3+22.92%*2",
+                          "16.66%*3+24.99%*2",
+                          "18.04%*3+27.06%*2",
+                          "19.42%*3+29.12%*2",
+                          "20.88%*3+31.32%*2",
+                          "22.60%*3+33.90%*2",
+                          "24.32%*3+36.48%*2",
+                          "26.05%*3+39.07%*2",
+                          "27.77%*3+41.65%*2",
+                          "29.49%*3+44.23%*2",
+                          "31.21%*3+46.82%*2",
+                          "32.93%*3+49.40%*2",
+                          "34.66%*3+51.98%*2",
+                          "36.38%*3+54.56%*2",
+                          "38.10%*3+57.15%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Ephemeral Transcendence Stage 4 DMG",
+                        "values": [
+                          "9.10%*4+54.60%",
+                          "9.85%*4+59.08%",
+                          "10.60%*4+63.56%",
+                          "11.64%*4+69.83%",
+                          "12.39%*4+74.30%",
+                          "13.25%*4+79.45%",
+                          "14.44%*4+86.62%",
+                          "15.63%*4+93.78%",
+                          "16.83%*4+100.94%",
+                          "18.10%*4+108.56%",
+                          "19.59%*4+117.51%",
+                          "21.08%*4+126.46%",
+                          "22.57%*4+135.42%",
+                          "24.07%*4+144.37%",
+                          "25.56%*4+153.33%",
+                          "27.05%*4+162.28%",
+                          "28.54%*4+171.24%",
+                          "30.04%*4+180.19%",
+                          "31.53%*4+189.14%",
+                          "33.02%*4+198.10%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Ephemeral Transcendence DMG",
+                        "values": [
+                          "13.30%*4+79.80%",
+                          "14.40%*4+86.35%",
+                          "15.49%*4+92.89%",
+                          "17.01%*4+102.05%",
+                          "18.10%*4+108.60%",
+                          "19.36%*4+116.12%",
+                          "21.10%*4+126.59%",
+                          "22.85%*4+137.06%",
+                          "24.59%*4+147.53%",
+                          "26.45%*4+158.66%",
+                          "28.63%*4+171.74%",
+                          "30.81%*4+184.83%",
+                          "32.99%*4+197.92%",
+                          "35.17%*4+211.00%",
+                          "37.35%*4+224.09%",
+                          "39.53%*4+237.18%",
+                          "41.72%*4+250.27%",
+                          "43.90%*4+263.35%",
+                          "46.08%*4+276.44%",
+                          "48.26%*4+289.53%"
+                        ]
+                      },
+                      {
+                        "label": "Heaven's Reckoning: Ephemeral Transcendence DMG",
+                        "values": [
+                          "14.00%*9+224.00%",
+                          "15.15%*9+242.37%",
+                          "16.30%*9+260.74%",
+                          "17.91%*9+286.46%",
+                          "19.06%*9+304.82%",
+                          "20.38%*9+325.95%",
+                          "22.21%*9+355.34%",
+                          "24.05%*9+384.72%",
+                          "25.89%*9+414.11%",
+                          "27.84%*9+445.34%",
+                          "30.13%*9+482.08%",
+                          "32.43%*9+518.81%",
+                          "34.73%*9+555.55%",
+                          "37.02%*9+592.28%",
+                          "39.32%*9+629.02%",
+                          "41.61%*9+665.76%",
+                          "43.91%*9+702.49%",
+                          "46.21%*9+739.23%",
+                          "48.50%*9+775.96%",
+                          "50.80%*9+812.70%"
+                        ]
+                      },
+                      {
+                        "label": "Sword Step Cooldown",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Heaven's Reckoning: Ephemeral Transcendence Concerto Regen",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tonality Shift",
+                "type": "Intro Skill",
+                "desc": "Deal Aero DMG. Casting the skill restores {0} {Cus:Sap,S=point P=points SapTag=0} of Sword Cadence and grants Resonant Chime.\n\nResonant Chime\nCasting Resonance Skill - Severing Note: Judgement grants {1} {Cus:Sap,S=point P=points SapTag=1} of Qin Heart and removes Resonant Chime.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 85,
+                    "end": 98,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 110,
+                    "end": 124,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 127,
+                    "end": 141,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 150,
+                    "end": 192,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 243,
+                    "end": 252,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 265,
+                    "end": 279,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoQTE.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "20.02%+23.35%*2",
+                          "21.66%+25.27%*2",
+                          "23.30%+27.18%*2",
+                          "25.60%+29.86%*2",
+                          "27.24%+31.78%*2",
+                          "29.13%+33.98%*2",
+                          "31.75%+37.04%*2",
+                          "34.38%+40.11%*2",
+                          "37.00%+43.17%*2",
+                          "39.79%+46.42%*2",
+                          "43.07%+50.25%*2",
+                          "46.36%+54.08%*2",
+                          "49.64%+57.91%*2",
+                          "52.92%+61.74%*2",
+                          "56.20%+65.57%*2",
+                          "59.49%+69.40%*2",
+                          "62.77%+73.23%*2",
+                          "66.05%+77.06%*2",
+                          "69.33%+80.89%*2",
+                          "72.61%+84.72%*2"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Lingering Song",
+                "type": "Outro Skill",
+                "desc": "Deal Aero DMG equal to {0} of Qingxiao's ATK.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. DMG+",
+                "desc": "Crit. DMG increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.webp"
+              },
+              {
+                "name": "Draw and Sunder",
+                "type": "Tune Break",
+                "desc": "Qingxiao inflicts Tune Strain - Shifting on the target after dealing damage with skills. Each skill can only trigger this once for the same target.\nQingxiao can respond to Tune Strain - Interfered.\nResponding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the target, every point of Qingxiao's Tune Break Boost increases the total DMG Qingxiao deals to that target by {0}. While Qingxiao is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by {1}.\nAdditionally, when the target's Off-Tune Level is full, Qingxiao can cast Tune Break on it. While on the ground and not in the Ephemeral Transcendence state, Normal Attack within a certain time after casting Tune Break to cast Basic Attack - Stringblade Stage 3.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 40,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 172,
+                    "end": 196,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 212,
+                    "end": 236,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 256,
+                    "end": 280,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 455,
+                    "end": 479,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 545,
+                    "end": 559,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 587,
+                    "end": 597,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 640,
+                    "end": 663,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 671,
+                    "end": 684,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 721,
+                    "end": 731,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 740,
+                    "end": 774,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+              },
+              {
+                "name": "Sea of Thought, World of Dust",
+                "type": "Inherent Skill",
+                "desc": "Upon entering combat, gain {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Gathered Mind.\n\nAfter damage dealt directly by Resonators in the team defeats a target inflicted with the Mindlock effect:\nIf Qingxiao does not have the Gathered Mind effect, gain Gathered Mind with stacks equal to the target's Mindlock stacks.\nIf Qingxiao already has Gathered Mind and the target's Mindlock stacks are no fewer than Qingxiao's Gathered Mind stacks, Qingxiao's Gathered Mind stacks will be matched to the target's Mindlock stacks.\n\nGathered Mind\nAfter Resonators in the team deal damage to a target, inflict Mindlock equal to Qingxiao's Gathered Mind stacks. This effect can only trigger {1} {Cus:Sap,S=time P=times SapTag=1} on the same target.\nWhen Resonators in the team cast Tune Break, if the target has Tune Strain - Shifting, additionally inflict {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Tune Strain - Interfered on the target. This effect can only trigger {3} {Cus:Sap,S=time P=times SapTag=3} on the same target.\nWhen Qingxiao is knocked out, she can no longer gain Gathered Mind, and any existing Gathered Mind effect becomes inactive.\nGathered Mind stacks up to {4} times and lasts for {5}s.",
+                "descFormat": [
+                  {
+                    "start": 70,
+                    "end": 83,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 176,
+                    "end": 184,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 223,
+                    "end": 236,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 250,
+                    "end": 263,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 298,
+                    "end": 306,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 339,
+                    "end": 352,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 370,
+                    "end": 378,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 415,
+                    "end": 428,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 448,
+                    "end": 461,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 501,
+                    "end": 509,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 519,
+                    "end": 532,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 519,
+                    "end": 532,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 595,
+                    "end": 603,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 624,
+                    "end": 637,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 766,
+                    "end": 776,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 796,
+                    "end": 818,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 884,
+                    "end": 908,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1064,
+                    "end": 1077,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1096,
+                    "end": 1109,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1135,
+                    "end": 1148,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoD1.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Like Clouds That Meet and Drift Apart",
+                "type": "Sequence 1",
+                "desc": "Crit. Rate is increased by {0}.\n\nThe max stack limit of Swordlight Ward is increased to {1}. Casting Heavy Attack - Stringblade additionally grants {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Swordlight Ward.\n\nUpon entering combat, gain {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Exorcising Seal.\nAfter Basic Attack - Stringblade, Mid-air Attack - Stringblade, or Basic Attack - Ephemeral Transcendence deals damage, if Qingxiao has Exorcising Seal, remove all Exorcising Seal stacks and trigger Juque Perdition, dealing Aero DMG equal to {4} of Qingxiao's ATK, considered Basic Attack DMG. This effect can be triggered up to once per second. For each stack of Exorcising Seal removed, the target takes {5} more DMG from Juque Perdition for {6}s.\nExorcising Seal stacks up to {7} times.",
+                "descFormat": [
+                  {
+                    "start": 56,
+                    "end": 71,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 101,
+                    "end": 127,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 191,
+                    "end": 206,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 279,
+                    "end": 294,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 302,
+                    "end": 328,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 330,
+                    "end": 358,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 363,
+                    "end": 401,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 432,
+                    "end": 447,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 460,
+                    "end": 475,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 495,
+                    "end": 510,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 520,
+                    "end": 528,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 660,
+                    "end": 675,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 720,
+                    "end": 735,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 746,
+                    "end": 761,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Like Petals That Fall Without a Sound",
+                "type": "Sequence 2",
+                "desc": "The DMG Multiplier of Heavy Attack - Stringblade is increased by {0}.\n\nAfter entering combat, the max stack limit of Mindlock on nearby enemies is increased to {1}.\nThe max stack limit of Gathered Mind from Inherent Skill - Sea of Thought, World of Dust is increased to {2}.\n\nHeaven's Clarity is enhanced:\nCasting Heavy Attack - Stringblade now inflicts {3} {Cus:Sap,S=stack P=stacks SapTag=3} of Mindlock on nearby targets.",
+                "descFormat": [
+                  {
+                    "start": 22,
+                    "end": 48,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 117,
+                    "end": 125,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 188,
+                    "end": 201,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 207,
+                    "end": 253,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 276,
+                    "end": 292,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 314,
+                    "end": 340,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 397,
+                    "end": 405,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Dreams Fade, Sword Abides",
+                "type": "Sequence 3",
+                "desc": "The Crit. DMG of Resonance Liberation - Billows Beneath Heaven is increased by {0}.\n\nDuring Heavy Attack - Stringblade, gain World in Chorus stacks equal to the highest Mindlock stack count present among nearby enemies.\nWorld in Chorus: Each stack increases the DMG Multiplier of Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence by {1}. World in Chorus is removed after casting Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence.\n\nThe Gathered Mind effect of Inherent Skill - Sea of Thought, World of Dust now inflicts {2} {Cus:Sap,S=stack P=stacks SapTag=2} of Tune Strain - Interfered.",
+                "descFormat": [
+                  {
+                    "start": 17,
+                    "end": 62,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 92,
+                    "end": 118,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 125,
+                    "end": 140,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 169,
+                    "end": 177,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 220,
+                    "end": 235,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 280,
+                    "end": 338,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 347,
+                    "end": 362,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 388,
+                    "end": 446,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 453,
+                    "end": 466,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 477,
+                    "end": 523,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 580,
+                    "end": 604,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Wherever the Road Leads, Side by Side",
+                "type": "Sequence 4",
+                "desc": "After a Resonator in the team inflicts Tune Strain - Shifting, their ATK is increased by {0} for {1}s.",
+                "descFormat": [
+                  {
+                    "start": 39,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Cold Steel That Longs to Warm the Snow",
+                "type": "Sequence 5",
+                "desc": "The DMG Multiplier of Resonance Skill - Severing Note: Judgement is increased by {0}.\n\nWhile moving in Sword Flight, Flight Qi cost is reduced by {1}.",
+                "descFormat": [
+                  {
+                    "start": 22,
+                    "end": 64,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 103,
+                    "end": 115,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 117,
+                    "end": 126,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Cleanse This Tarnished Age, Till All Runs Clear",
+                "type": "Sequence 6",
+                "desc": "Targets take {0} more DMG from Qingxiao's Heavy Attack - Stringblade, Heavy Attack - Heaven's Reckoning: Ephemeral Transcendence, Resonance Liberation - Billows Beneath Heaven, and Juque Perdition.\n\nDuring Heavy Attack - Stringblade, gain Exorcising Seal stacks equal to the highest Mindlock stack count present among nearby enemies.\n\nFor each stack of Mindlock on the target, the DMG of Juque Perdition taken by the target is Amplified by {2}. The first {3} {Cus:Sap,S=stack P=stacks SapTag=3} additionally grant {4} DMG Amplification.\n\nWhen Inherent Skill - To Know, To Banish is unlocked, the DMG of Juque Perdition on targets with Mindlock is increased by {5} for each stack of Mindlock. The first {6} {Cus:Sap,S=stack P=stacks SapTag=6} additionally grant {7} DMG increase.\n\nThe effect of Qingxiao's response to Tune Strain - Interfered is increased by {1}.",
+                "descFormat": [
+                  {
+                    "start": 42,
+                    "end": 68,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 70,
+                    "end": 128,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 130,
+                    "end": 175,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 181,
+                    "end": 196,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 206,
+                    "end": 232,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 239,
+                    "end": 254,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 283,
+                    "end": 291,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 353,
+                    "end": 361,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 388,
+                    "end": 403,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 543,
+                    "end": 578,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 603,
+                    "end": 618,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 635,
+                    "end": 643,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 682,
+                    "end": 690,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 817,
+                    "end": 841,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "41100091",
+            "name": "LF Autopuppet Kernel",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "MF Autopuppet Kernel",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "HF Autopuppet Kernel",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "FF Autopuppet Kernel",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41400344",
+            "name": "Forged Empyrean's Sigh",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+            "source": "Calamity Effigy / Calamity Effigy - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Calamity Effigy",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "42601620",
+            "name": "Blade Blossom",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+            "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+            "sourceDetails": [
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Huaxu Apothecary"
+              }
+            ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100091",
+                "name": "LF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601620",
+                "name": "Blade Blossom",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100092",
+                "name": "MF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+                "source": "Autopuppets / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601620",
+                "name": "Blade Blossom",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601620",
+                "name": "Blade Blossom",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100093",
+                "name": "HF Autopuppet Kernel",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601620",
+                "name": "Blade Blossom",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100094",
+                "name": "FF Autopuppet Kernel",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+                "source": "Autopuppets",
+                "sourceDetails": [
+                  {
+                    "name": "Autopuppet Scout",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601620",
+                "name": "Blade Blossom",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_078_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100091",
+            "name": "LF Autopuppet Kernel",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_1_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100092",
+            "name": "MF Autopuppet Kernel",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_2_UI.webp",
+            "source": "Autopuppets / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100093",
+            "name": "HF Autopuppet Kernel",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_3_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41100094",
+            "name": "FF Autopuppet Kernel",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_013_4_UI.webp",
+            "source": "Autopuppets",
+            "sourceDetails": [
+              {
+                "name": "Autopuppet Scout",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1003_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "41400304",
+            "name": "We Who Question",
+            "qty": 26,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+            "source": "Denia / Denia - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Denia",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "43021011",
+            "name": "Broken Wing Polarizer",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021012",
+            "name": "Monowing Polarizer",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021013",
+            "name": "Polywing Polarizer",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021014",
+            "name": "Layered Wing Polarizer",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Forsaken Remnants"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2530000,
+        "weapon": {
+          "name": "Glint of Clouds",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
+          "items": [
+            {
+              "id": "41100071",
+              "name": "LF Mech Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100072",
+              "name": "MF Mech Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100073",
+              "name": "HF Mech Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "41100074",
+              "name": "FF Mech Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
+              "sourceDetails": [
+                {
+                  "name": "Clamorling TDs in Lahai-Roi"
+                }
+              ]
+            },
+            {
+              "id": "43021011",
+              "name": "Broken Wing Polarizer",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021012",
+              "name": "Monowing Polarizer",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021013",
+              "name": "Polywing Polarizer",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021014",
+              "name": "Layered Wing Polarizer",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Forsaken Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
+      },
+      "recent": 1
+    },
+    {
       "id": "ww-sigrika",
       "n": "Sigrika",
       "localizedNames": {
@@ -71695,7 +75009,7 @@
         "id": "21040066",
         "name": "Solsworn Ciphers",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040066",
       "signatureWeaponName": "Solsworn Ciphers",
@@ -71798,7 +75112,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -74577,7 +77891,7 @@
         "id": "21020066",
         "name": "Emerald Sentence",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020066",
       "signatureWeaponName": "Emerald Sentence",
@@ -74680,7 +77994,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -76857,7 +80171,7 @@
         "id": "21040046",
         "name": "Moongazer's Sigil",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040046",
       "signatureWeaponName": "Moongazer's Sigil",
@@ -76960,7 +80274,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -79937,7 +83251,7 @@
         "id": "21020056",
         "name": "Defier's Thorn",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020056",
       "signatureWeaponName": "Defier's Thorn",
@@ -80040,7 +83354,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -83591,7 +86905,7 @@
         "id": "21030026",
         "name": "Woodland Aria",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030026",
       "signatureWeaponName": "Woodland Aria",
@@ -83694,7 +87008,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -85782,7 +89096,7 @@
         "id": "21040016",
         "name": "Verity's Handle",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040016",
       "signatureWeaponName": "Verity's Handle",
@@ -85886,7 +89200,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -88362,7 +91676,7 @@
         "id": "21010016",
         "name": "Verdant Summit",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010016",
       "signatureWeaponName": "Verdant Summit",
@@ -88466,7 +91780,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -90578,7 +93892,7 @@
         "id": "21030016",
         "name": "The Last Dance",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030016",
       "signatureWeaponName": "The Last Dance",
@@ -90682,7 +93996,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -92503,7 +95817,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -92607,7 +95921,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -94439,7 +97753,7 @@
         "id": "21030066",
         "name": "Skull Thrasher",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030066",
       "signatureWeaponName": "Skull Thrasher",
@@ -94540,7 +97854,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -97824,7 +101138,7 @@
         "id": "21050016",
         "name": "Stringmaster",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050016",
       "signatureWeaponName": "Stringmaster",
@@ -97927,7 +101241,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -100217,7 +103531,7 @@
         "id": "21010046",
         "name": "Thunderflare Dominion",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010046",
       "signatureWeaponName": "Thunderflare Dominion",
@@ -100320,7 +103634,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -103219,13 +106533,13 @@
       "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleXiangliyao.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/xiangli-yao-de2311c30de7.webp",
       "signatureWeapon": {
-        "id": "21040046",
-        "name": "Moongazer's Sigil",
+        "id": "21040016",
+        "name": "Verity's Handle",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
-      "signatureWeaponId": "21040046",
-      "signatureWeaponName": "Moongazer's Sigil",
+      "signatureWeaponId": "21040016",
+      "signatureWeaponName": "Verity's Handle",
       "status": "live",
       "labels": [],
       "r": 5,
@@ -103325,7 +106639,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -105461,9 +108775,9 @@
         "talentCost": 2030000,
         "currency": 2530000,
         "weapon": {
-          "name": "Moongazer's Sigil",
-          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
-          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040046_UI.webp",
+          "name": "Verity's Handle",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040016_UI.webp",
           "items": [
             {
               "id": "41100021",
@@ -105631,7 +108945,7 @@
         "id": "21010026",
         "name": "Ages of Harvest",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010026",
       "signatureWeaponName": "Ages of Harvest",
@@ -105735,7 +109049,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -108075,7 +111389,7 @@
         "id": "21040016",
         "name": "Verity's Handle",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040016",
       "signatureWeaponName": "Verity's Handle",
@@ -108179,7 +111493,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -110458,7 +113772,7 @@
         "id": "21050016",
         "name": "Stringmaster",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050016",
       "signatureWeaponName": "Stringmaster",
@@ -110562,7 +113876,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -112668,7 +115982,7 @@
         "id": "21010036",
         "name": "Wildfire Mark",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010036",
       "signatureWeaponName": "Wildfire Mark",
@@ -112772,7 +116086,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -115036,6 +118350,3294 @@
       }
     },
     {
+      "id": "ww-jingran",
+      "n": "Jingran",
+      "localizedNames": {
+        "en": "Jingran",
+        "zh": "\u666f\u71c3",
+        "ja": "\u666f\u71c3",
+        "ko": "\uacbd\uc5f0"
+      },
+      "slug": "jingran",
+      "releasePatch": "3.6",
+      "updated": 1784246400000,
+      "sourceOrder": 1212,
+      "voiceActors": {
+        "japanese": "Kengo Kawanishi|Kawanishi Kengo (ja=\u6cb3\u897f \u5065\u543e)",
+        "chinese": "|voiceJP = Kengo Kawanishi|Kawanishi Kengo (ja=\u6cb3\u897f \u5065\u543e)",
+        "korean": "}}"
+      },
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
+      "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
+      "signatureWeapon": {
+        "id": "21010076",
+        "name": "Thousandfold Deliverance",
+        "type": "Broadblade",
+        "educated": true
+      },
+      "signatureWeaponId": "21010076",
+      "signatureWeaponName": "Thousandfold Deliverance",
+      "status": "beta",
+      "labels": [
+        "3.6"
+      ],
+      "r": 5,
+      "el": "Fusion",
+      "w": "Broadblade",
+      "baseStats": {
+        "level1": {
+          "hp": 1230,
+          "atk": 25,
+          "def": 0
+        },
+        "max": {
+          "level": 90,
+          "hp": 15375,
+          "atk": 312.5,
+          "def": 0
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 1230,
+            "atk": 25,
+            "def": 0
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 4019.27,
+            "atk": 83.78,
+            "def": 0
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 6912.35,
+            "atk": 144.66,
+            "def": 0
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 8768.92,
+            "atk": 184.48,
+            "def": 0
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 10625.35,
+            "atk": 224.3,
+            "def": 0
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 12481.92,
+            "atk": 257.87,
+            "def": 0
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 14338.48,
+            "atk": 291.43,
+            "def": 0
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 15375,
+            "atk": 312.5,
+            "def": 0
+          }
+        ]
+      },
+      "facts": {
+        "nation": "Huanglong",
+        "influence": "Nethermancer"
+      },
+      "skillIcons": [
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranB1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranC1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranY.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranQTE.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "3.6+365",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Edge of Life and Death",
+                "type": "Normal Attack",
+                "desc": "Basic Attack - Drink Soul\nWhile in the Yin Vessel state, perform up to 4 consecutive attacks, dealing Fusion DMG.\nCasting Basic Attack - Drink Soul Stage 3 restores {0} {Cus:Sap,S=point P=points SapTag=0} of Qi, dealing Heavy Attack DMG.\nCasting Basic Attack - Drink Soul Stage 4 restores {1} {Cus:Sap,S=point P=points SapTag=1} of Qi, dealing Heavy Attack DMG.\n\nBasic Attack - Devil's Bane\nWhile in the Yang Font state, perform up to 4 consecutive attacks, dealing Fusion DMG.\nCasting Basic Attack - Devil's Bane Stage 3 restores {2} {Cus:Sap,S=point P=points SapTag=2} of Qi, dealing Heavy Attack DMG.\nCasting Basic Attack - Devil's Bane Stage 4 restores {3} {Cus:Sap,S=point P=points SapTag=3} of Qi, dealing Heavy Attack DMG.\n\nMid-air Attack\nConsume STA to perform a Plunging Attack in the air, dealing Fusion DMG.\nWhile in the Yin Vessel state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.\n\nDodge Counter - Nether Dive\nWhile in the Yin Vessel state, or hold Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCasting Dodge Counter - Nether Dive restores {4} {Cus:Sap,S=point P=points SapTag=4} of Qi, dealing Heavy Attack DMG.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 4.\n\nDodge Counter - Light Watch\nWhile in the Yang Font state, or hold Normal Attack shortly after a successful Dodge to attack the target, dealing Fusion DMG.\nCasting Dodge Counter - Light Watch restores {5} {Cus:Sap,S=point P=points SapTag=5} of Qi, dealing Heavy Attack DMG.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 4.\n\nShadow Step\nWhile in combat and on the ground, Dodge with directional input to cast Shadow Step, dealing a fixed amount of Fusion DMG, considered Basic Attack DMG. This instance of damage is not affected by any DMG Bonus effects. A successful Dodge may be triggered within a certain time during the action of this skill.\nWhile in the Yin Vessel state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 25,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 39,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 102,
+                    "end": 112,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 122,
+                    "end": 155,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 208,
+                    "end": 210,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 246,
+                    "end": 279,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 332,
+                    "end": 334,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 363,
+                    "end": 390,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 404,
+                    "end": 413,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 466,
+                    "end": 476,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 486,
+                    "end": 521,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 574,
+                    "end": 576,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 612,
+                    "end": 647,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 700,
+                    "end": 702,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 731,
+                    "end": 745,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 807,
+                    "end": 817,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 832,
+                    "end": 842,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 858,
+                    "end": 871,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 913,
+                    "end": 946,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 961,
+                    "end": 970,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 986,
+                    "end": 999,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1041,
+                    "end": 1076,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1079,
+                    "end": 1106,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1120,
+                    "end": 1130,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1146,
+                    "end": 1159,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1223,
+                    "end": 1233,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1243,
+                    "end": 1270,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1323,
+                    "end": 1325,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1362,
+                    "end": 1375,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1417,
+                    "end": 1450,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1453,
+                    "end": 1480,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1494,
+                    "end": 1503,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1519,
+                    "end": 1532,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1596,
+                    "end": 1606,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1616,
+                    "end": 1643,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1696,
+                    "end": 1698,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1735,
+                    "end": 1748,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1790,
+                    "end": 1825,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1828,
+                    "end": 1839,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1874,
+                    "end": 1880,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1912,
+                    "end": 1923,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1951,
+                    "end": 1961,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 2162,
+                    "end": 2172,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2188,
+                    "end": 2201,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2243,
+                    "end": 2276,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2291,
+                    "end": 2300,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2316,
+                    "end": 2329,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2371,
+                    "end": 2406,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Basic Attack - Drink Soul Stage 1 DMG",
+                        "values": [
+                          "22.50%",
+                          "24.35%",
+                          "26.19%",
+                          "28.78%",
+                          "30.62%",
+                          "32.74%",
+                          "35.70%",
+                          "38.65%",
+                          "41.60%",
+                          "44.74%",
+                          "48.43%",
+                          "52.12%",
+                          "55.81%",
+                          "59.50%",
+                          "63.19%",
+                          "66.88%",
+                          "70.57%",
+                          "74.26%",
+                          "77.95%",
+                          "81.64%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Drink Soul Stage 2 DMG",
+                        "values": [
+                          "18.75%+18.75%",
+                          "20.29%+20.29%",
+                          "21.83%+21.83%",
+                          "23.98%+23.98%",
+                          "25.52%+25.52%",
+                          "27.29%+27.29%",
+                          "29.75%+29.75%",
+                          "32.21%+32.21%",
+                          "34.67%+34.67%",
+                          "37.28%+37.28%",
+                          "40.36%+40.36%",
+                          "43.43%+43.43%",
+                          "46.51%+46.51%",
+                          "49.58%+49.58%",
+                          "52.66%+52.66%",
+                          "55.73%+55.73%",
+                          "58.81%+58.81%",
+                          "61.88%+61.88%",
+                          "64.96%+64.96%",
+                          "68.03%+68.03%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Drink Soul Stage 3 DMG",
+                        "values": [
+                          "13.75%*4",
+                          "14.88%*4",
+                          "16.00%*4",
+                          "17.58%*4",
+                          "18.71%*4",
+                          "20.00%*4",
+                          "21.81%*4",
+                          "23.61%*4",
+                          "25.41%*4",
+                          "27.33%*4",
+                          "29.58%*4",
+                          "31.84%*4",
+                          "34.09%*4",
+                          "36.34%*4",
+                          "38.60%*4",
+                          "40.85%*4",
+                          "43.11%*4",
+                          "45.36%*4",
+                          "47.61%*4",
+                          "49.87%*4"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Drink Soul Stage 4 DMG",
+                        "values": [
+                          "23.11%+23.11%+15.41%+15.41%",
+                          "25.01%+25.01%+16.67%+16.67%",
+                          "26.90%+26.90%+17.94%+17.94%",
+                          "29.55%+29.55%+19.70%+19.70%",
+                          "31.45%+31.45%+20.97%+20.97%",
+                          "33.63%+33.63%+22.42%+22.42%",
+                          "36.66%+36.66%+24.44%+24.44%",
+                          "39.69%+39.69%+26.46%+26.46%",
+                          "42.72%+42.72%+28.48%+28.48%",
+                          "45.95%+45.95%+30.63%+30.63%",
+                          "49.73%+49.73%+33.16%+33.16%",
+                          "53.52%+53.52%+35.68%+35.68%",
+                          "57.31%+57.31%+38.21%+38.21%",
+                          "61.10%+61.10%+40.74%+40.74%",
+                          "64.89%+64.89%+43.26%+43.26%",
+                          "68.68%+68.68%+45.79%+45.79%",
+                          "72.47%+72.47%+48.32%+48.32%",
+                          "76.26%+76.26%+50.84%+50.84%",
+                          "80.05%+80.05%+53.37%+53.37%",
+                          "83.84%+83.84%+55.90%+55.90%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Devil's Bane Stage 1 DMG",
+                        "values": [
+                          "20.03%",
+                          "21.67%",
+                          "23.31%",
+                          "25.61%",
+                          "27.26%",
+                          "29.14%",
+                          "31.77%",
+                          "34.40%",
+                          "37.03%",
+                          "39.82%",
+                          "43.10%",
+                          "46.38%",
+                          "49.67%",
+                          "52.95%",
+                          "56.24%",
+                          "59.52%",
+                          "62.81%",
+                          "66.09%",
+                          "69.37%",
+                          "72.66%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Devil's Bane Stage 2 DMG",
+                        "values": [
+                          "30.02%+20.01%",
+                          "32.48%+21.66%",
+                          "34.94%+23.30%",
+                          "38.39%+25.59%",
+                          "40.85%+27.23%",
+                          "43.68%+29.12%",
+                          "47.62%+31.75%",
+                          "51.56%+34.37%",
+                          "55.49%+37.00%",
+                          "59.68%+39.79%",
+                          "64.60%+43.07%",
+                          "69.52%+46.35%",
+                          "74.45%+49.63%",
+                          "79.37%+52.91%",
+                          "84.29%+56.20%",
+                          "89.21%+59.48%",
+                          "94.14%+62.76%",
+                          "99.06%+66.04%",
+                          "103.98%+69.32%",
+                          "108.90%+72.60%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Devil's Bane Stage 3 DMG",
+                        "values": [
+                          "24.01%+24.01%+32.01%",
+                          "25.98%+25.98%+34.64%",
+                          "27.95%+27.95%+37.26%",
+                          "30.71%+30.71%+40.94%",
+                          "32.67%+32.67%+43.56%",
+                          "34.94%+34.94%+46.58%",
+                          "38.09%+38.09%+50.78%",
+                          "41.24%+41.24%+54.98%",
+                          "44.39%+44.39%+59.18%",
+                          "47.73%+47.73%+63.64%",
+                          "51.67%+51.67%+68.89%",
+                          "55.61%+55.61%+74.14%",
+                          "59.55%+59.55%+79.39%",
+                          "63.48%+63.48%+84.64%",
+                          "67.42%+67.42%+89.89%",
+                          "71.36%+71.36%+95.14%",
+                          "75.29%+75.29%+100.39%",
+                          "79.23%+79.23%+105.64%",
+                          "83.17%+83.17%+110.89%",
+                          "87.11%+87.11%+116.14%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Devil's Bane Stage 4 DMG",
+                        "values": [
+                          "43.74%+6.25%*3",
+                          "47.32%+6.76%*3",
+                          "50.91%+7.28%*3",
+                          "55.93%+7.99%*3",
+                          "59.52%+8.51%*3",
+                          "63.64%+9.10%*3",
+                          "69.38%+9.92%*3",
+                          "75.12%+10.74%*3",
+                          "80.85%+11.55%*3",
+                          "86.95%+12.43%*3",
+                          "94.12%+13.45%*3",
+                          "101.29%+14.47%*3",
+                          "108.47%+15.50%*3",
+                          "115.64%+16.52%*3",
+                          "122.81%+17.55%*3",
+                          "129.98%+18.57%*3",
+                          "137.15%+19.60%*3",
+                          "144.33%+20.62%*3",
+                          "151.50%+21.65%*3",
+                          "158.67%+22.67%*3"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack DMG",
+                        "values": [
+                          "46.50%",
+                          "50.32%",
+                          "54.13%",
+                          "59.47%",
+                          "63.28%",
+                          "67.67%",
+                          "73.77%",
+                          "79.87%",
+                          "85.97%",
+                          "92.45%",
+                          "100.08%",
+                          "107.70%",
+                          "115.33%",
+                          "122.96%",
+                          "130.58%",
+                          "138.21%",
+                          "145.83%",
+                          "153.46%",
+                          "161.09%",
+                          "168.71%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Nether Dive DMG",
+                        "values": [
+                          "25.00%*4",
+                          "27.05%*4",
+                          "29.10%*4",
+                          "31.97%*4",
+                          "34.02%*4",
+                          "36.37%*4",
+                          "39.65%*4",
+                          "42.93%*4",
+                          "46.21%*4",
+                          "49.70%*4",
+                          "53.79%*4",
+                          "57.89%*4",
+                          "61.99%*4",
+                          "66.09%*4",
+                          "70.19%*4",
+                          "74.29%*4",
+                          "78.39%*4",
+                          "82.49%*4",
+                          "86.59%*4",
+                          "90.68%*4"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Light Watch DMG",
+                        "values": [
+                          "37.51%+37.51%+50.01%",
+                          "40.59%+40.59%+54.12%",
+                          "43.66%+43.66%+58.22%",
+                          "47.97%+47.97%+63.96%",
+                          "51.05%+51.05%+68.06%",
+                          "54.58%+54.58%+72.77%",
+                          "59.50%+59.50%+79.34%",
+                          "64.42%+64.42%+85.90%",
+                          "69.35%+69.35%+92.46%",
+                          "74.57%+74.57%+99.43%",
+                          "80.72%+80.72%+107.63%",
+                          "86.88%+86.88%+115.83%",
+                          "93.03%+93.03%+124.03%",
+                          "99.18%+99.18%+132.24%",
+                          "105.33%+105.33%+140.44%",
+                          "111.48%+111.48%+148.64%",
+                          "117.63%+117.63%+156.84%",
+                          "123.78%+123.78%+165.04%",
+                          "129.93%+129.93%+173.24%",
+                          "136.09%+136.09%+181.45%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Shadow Step DMG",
+                        "values": [
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25",
+                          "30+25"
+                        ]
+                      },
+                      {
+                        "label": "Shadow Step STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Malevolent Encounter",
+                "type": "Resonance Skill",
+                "desc": "Resonance Skill - Encroaching Yin\nWhile in the Yin Vessel state, Resonance Skill - Encroaching Yin is available, which deals Fusion DMG.\nResonance Skill - Encroaching Yin can be cast in mid-air.\n\nResonance Skill - Scorching Yang\nWhile in the Yang Font state, Resonance Skill - Scorching Yang is available, which deals Fusion DMG.\nResonance Skill - Scorching Yang can be cast in mid-air.\n\nCleanse of Impurity\nCasting Resonance Skill - Encroaching Yin or Resonance Skill - Scorching Yang grants Cleanse of Impurity for {0}s or until one of the following conditions is met:\n- Switching to another Resonator.\n- Switching to the Yin Vessel or Yang Font state.\n- Casting Resonance Skill - Netherworld Traverse or Resonance Skill - Afterlife's Guide.\n\nResonance Skill - Netherworld Traverse\nWhile in the Yin Vessel state with Cleanse of Impurity, or hold Normal Attack in mid-air to cast Resonance Skill - Netherworld Traverse, dealing Fusion DMG, considered Heavy Attack DMG.\nCasting Resonance Skill - Netherworld Traverse restores {1} {Cus:Sap,S=point P=points SapTag=1} of Qi.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\n\nResonance Skill - Afterlife's Guide\nWhile in the Yang Font state with Cleanse of Impurity, or hold Normal Attack in mid-air to cast Resonance Skill - Afterlife's Guide, dealing Fusion DMG, considered Heavy Attack DMG.\nCasting Resonance Skill - Afterlife's Guide restores {2} {Cus:Sap,S=point P=points SapTag=2} of Qi.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 47,
+                    "end": 57,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 65,
+                    "end": 98,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 125,
+                    "end": 135,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 137,
+                    "end": 170,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 196,
+                    "end": 228,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 242,
+                    "end": 251,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 259,
+                    "end": 291,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 318,
+                    "end": 328,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 330,
+                    "end": 362,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 388,
+                    "end": 407,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 416,
+                    "end": 449,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 453,
+                    "end": 485,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 493,
+                    "end": 512,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 624,
+                    "end": 634,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 638,
+                    "end": 647,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 665,
+                    "end": 703,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 707,
+                    "end": 742,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 745,
+                    "end": 783,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 797,
+                    "end": 807,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 819,
+                    "end": 838,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 848,
+                    "end": 861,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 881,
+                    "end": 919,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 929,
+                    "end": 939,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 978,
+                    "end": 1016,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1069,
+                    "end": 1071,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1082,
+                    "end": 1095,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1137,
+                    "end": 1170,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1173,
+                    "end": 1208,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1222,
+                    "end": 1231,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1243,
+                    "end": 1262,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1272,
+                    "end": 1285,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1305,
+                    "end": 1340,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1350,
+                    "end": 1360,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1399,
+                    "end": 1434,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1487,
+                    "end": 1489,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1500,
+                    "end": 1513,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1555,
+                    "end": 1590,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranB1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Encroaching Yin DMG",
+                        "values": [
+                          "33.00%+16.50%*3",
+                          "35.71%+17.86%*3",
+                          "38.42%+19.21%*3",
+                          "42.21%+21.11%*3",
+                          "44.91%+22.46%*3",
+                          "48.02%+24.01%*3",
+                          "52.35%+26.18%*3",
+                          "56.68%+28.34%*3",
+                          "61.01%+30.51%*3",
+                          "65.61%+32.81%*3",
+                          "71.02%+35.51%*3",
+                          "76.44%+38.22%*3",
+                          "81.85%+40.93%*3",
+                          "87.26%+43.63%*3",
+                          "92.67%+46.34%*3",
+                          "98.08%+49.04%*3",
+                          "103.50%+51.75%*3",
+                          "108.91%+54.46%*3",
+                          "114.32%+57.16%*3",
+                          "119.73%+59.87%*3"
+                        ]
+                      },
+                      {
+                        "label": "Netherworld Traverse DMG",
+                        "values": [
+                          "26.00%+13.00%*2+19.50%*4",
+                          "28.13%+14.07%*2+21.10%*4",
+                          "30.26%+15.13%*2+22.70%*4",
+                          "33.25%+16.63%*2+24.94%*4",
+                          "35.38%+17.69%*2+26.54%*4",
+                          "37.83%+18.92%*2+28.37%*4",
+                          "41.24%+20.62%*2+30.93%*4",
+                          "44.65%+22.33%*2+33.49%*4",
+                          "48.06%+24.03%*2+36.05%*4",
+                          "51.69%+25.85%*2+38.77%*4",
+                          "55.95%+27.98%*2+41.96%*4",
+                          "60.21%+30.11%*2+45.16%*4",
+                          "64.48%+32.24%*2+48.36%*4",
+                          "68.74%+34.37%*2+51.56%*4",
+                          "73.00%+36.50%*2+54.75%*4",
+                          "77.26%+38.63%*2+57.95%*4",
+                          "81.53%+40.77%*2+61.15%*4",
+                          "85.79%+42.90%*2+64.34%*4",
+                          "90.05%+45.03%*2+67.54%*4",
+                          "94.32%+47.16%*2+70.74%*4"
+                        ]
+                      },
+                      {
+                        "label": "Scorching Yang DMG",
+                        "values": [
+                          "33.00%+16.50%*3",
+                          "35.71%+17.86%*3",
+                          "38.42%+19.21%*3",
+                          "42.21%+21.11%*3",
+                          "44.91%+22.46%*3",
+                          "48.02%+24.01%*3",
+                          "52.35%+26.18%*3",
+                          "56.68%+28.34%*3",
+                          "61.01%+30.51%*3",
+                          "65.61%+32.81%*3",
+                          "71.02%+35.51%*3",
+                          "76.44%+38.22%*3",
+                          "81.85%+40.93%*3",
+                          "87.26%+43.63%*3",
+                          "92.67%+46.34%*3",
+                          "98.08%+49.04%*3",
+                          "103.50%+51.75%*3",
+                          "108.91%+54.46%*3",
+                          "114.32%+57.16%*3",
+                          "119.73%+59.87%*3"
+                        ]
+                      },
+                      {
+                        "label": "Afterlife's Guide DMG",
+                        "values": [
+                          "33.14%+33.14%+66.27%",
+                          "35.85%+35.85%+71.70%",
+                          "38.57%+38.57%+77.13%",
+                          "42.37%+42.37%+84.74%",
+                          "45.09%+45.09%+90.18%",
+                          "48.21%+48.21%+96.42%",
+                          "52.56%+52.56%+105.12%",
+                          "56.91%+56.91%+113.81%",
+                          "61.25%+61.25%+122.50%",
+                          "65.87%+65.87%+131.74%",
+                          "71.31%+71.31%+142.61%",
+                          "76.74%+76.74%+153.48%",
+                          "82.17%+82.17%+164.34%",
+                          "87.61%+87.61%+175.21%",
+                          "93.04%+93.04%+186.08%",
+                          "98.47%+98.47%+196.94%",
+                          "103.91%+103.91%+207.81%",
+                          "109.34%+109.34%+218.68%",
+                          "114.77%+114.77%+229.54%",
+                          "120.21%+120.21%+240.41%"
+                        ]
+                      },
+                      {
+                        "label": "Encroaching Yin Cooldown",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15"
+                        ]
+                      },
+                      {
+                        "label": "Scorching Yang Cooldown",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Burial of Thousand Souls",
+                "type": "Resonance Liberation",
+                "desc": "Resonance Liberation - Burial of Thousand Souls can be cast in mid-air close to the ground.\nAttack the target, dealing Fusion DMG, considered Heavy Attack DMG, and granting {0} {Cus:Sap,S=point P=points SapTag=0} of Fire of Life.\nGain the following effects after casting this skill:\n- If Jingran's current HP is above {1} of the Max HP, reduce his current HP to {2} of the Max HP.\n- Gain {3} {Cus:Sap,S=point P=points SapTag=3} of Qi.\n- Gain {4} {Cus:Sap,S=stack P=stacks SapTag=4} of Wayfarer's Mark.\n- Enter the Yinghuo state for {5}s.\n\nWayfarer's Mark\nMax {6} stacks.\nCasting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander restores {7} {Cus:Sap,S=point P=points SapTag=7} of Qi and reduces {8} {Cus:Sap,S=stack P=stacks SapTag=8} of Wayfarer's Mark. This effect lasts for {9}s.\n\nYinghuo\n- Dealing damage with Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander summons Chimei Wangliang to attack the targets, which deals Fusion DMG, considered Heavy Attack DMG. This effect can be triggered once per Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander.\n- All Fire of Life will be removed as Yinghuo ends.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 47,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 119,
+                    "end": 129,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 216,
+                    "end": 228,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 431,
+                    "end": 433,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 485,
+                    "end": 500,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 514,
+                    "end": 521,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 539,
+                    "end": 554,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 579,
+                    "end": 603,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 607,
+                    "end": 638,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 691,
+                    "end": 693,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 749,
+                    "end": 764,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 795,
+                    "end": 802,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 825,
+                    "end": 849,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 853,
+                    "end": 884,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 893,
+                    "end": 909,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 945,
+                    "end": 955,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1024,
+                    "end": 1048,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1052,
+                    "end": 1083,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1091,
+                    "end": 1103,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1123,
+                    "end": 1130,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranC1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Burial of Thousand Souls DMG",
+                        "values": [
+                          "46.86%*8",
+                          "50.70%*8",
+                          "54.54%*8",
+                          "59.92%*8",
+                          "63.76%*8",
+                          "68.18%*8",
+                          "74.33%*8",
+                          "80.47%*8",
+                          "86.62%*8",
+                          "93.15%*8",
+                          "100.84%*8",
+                          "108.52%*8",
+                          "116.20%*8",
+                          "123.89%*8",
+                          "131.57%*8",
+                          "139.26%*8",
+                          "146.94%*8",
+                          "154.62%*8",
+                          "162.31%*8",
+                          "169.99%*8"
+                        ]
+                      },
+                      {
+                        "label": "Chimei Wangliang DMG",
+                        "values": [
+                          "42.00%",
+                          "45.45%",
+                          "48.89%",
+                          "53.71%",
+                          "57.16%",
+                          "61.12%",
+                          "66.63%",
+                          "72.14%",
+                          "77.65%",
+                          "83.51%",
+                          "90.39%",
+                          "97.28%",
+                          "104.17%",
+                          "111.06%",
+                          "117.95%",
+                          "124.83%",
+                          "131.72%",
+                          "138.61%",
+                          "145.50%",
+                          "152.39%"
+                        ]
+                      },
+                      {
+                        "label": "Cooldown",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25"
+                        ]
+                      },
+                      {
+                        "label": "Resonance Cost",
+                        "values": [
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Upstream Along Santu",
+                "type": "Forte Circuit",
+                "desc": "Qi Modulation\nJingran switches between the Yin Vessel and Yang Font states by casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander. Jingran is in the Yang Font state by default.\n\nHeavy Attack - Soul Raid\nWhen Jingran holds {0} points of Qi while in the Yin Vessel state, hold Normal Attack to consume {1} {Cus:Sap,S=point P=points SapTag=1} of Qi to cast Heavy Attack - Soul Raid, dealing Fusion DMG.\nAfter casting Heavy Attack - Soul Raid, Jingran switches to the Yang Font state.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.\n\nHeavy Attack - Stardome Meander\nWhen Jingran holds {2} points of Qi while in the Yang Font state, hold Normal Attack to consume {3} {Cus:Sap,S=point P=points SapTag=3} of Qi to cast Heavy Attack - Stardome Meander, dealing Fusion DMG.\nAfter casting Heavy Attack - Stardome Meander, Jingran switches to the Yin Vessel state.\n or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nHeavy Attack - Stardome Meander can be cast in mid-air.\n\nQi\nMax {4} points.\n- Casting Basic Attack - Drink Soul Stage 3, Basic Attack - Drink Soul Stage 4, Basic Attack - Devil's Bane Stage 3, or Basic Attack - Devil's Bane Stage 4 restores {5} {Cus:Sap,S=point P=points SapTag=5} of Qi.\n- Casting Dodge Counter - Nether Dive, Dodge Counter - Light Watch, Resonance Skill - Netherworld Traverse, Resonance Skill - Afterlife's Guide, or Intro Skill - Question the Tombs restores {6} {Cus:Sap,S=point P=points SapTag=6} of Qi.\n- Casting Resonance Liberation - Burial of Thousand Souls or casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander with Wayfarer's Mark restores {7} {Cus:Sap,S=point P=points SapTag=7} of Qi.\n\nFire of Life\nMax {8} points.\n- Casting Resonance Liberation - Burial of Thousand Souls grants {9} {Cus:Sap,S=point P=points SapTag=9} of Fire of Life.\n- All Fire of Life is cleared when Yinghuo ends.\nWhile in Yinghuo, if Fire of Life is not at {10} {Cus:Sap,S=point P=points SapTag=A}, casting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander consumes {11} {Cus:Sap,S=point P=points SapTag=B} of Fire of Life, and the DMG Multiplier of this Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander is increased based on Jingran's Max HP: The DMG Multiplier of this Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander is increased for every {13} {Cus:Sap,S=point P=points SapTag=C} of Jingran's Max HP over {12}. Up to {14} points of Jingran's Max HP count towards this effect.\n\nNether to Light\n- Jingran's DEF is fixed at {1",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 13,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 43,
+                    "end": 53,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 58,
+                    "end": 67,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 86,
+                    "end": 110,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 114,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 165,
+                    "end": 174,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 194,
+                    "end": 218,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 252,
+                    "end": 254,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 268,
+                    "end": 278,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 286,
+                    "end": 304,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 359,
+                    "end": 361,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 370,
+                    "end": 394,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 404,
+                    "end": 414,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 430,
+                    "end": 454,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 480,
+                    "end": 489,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 506,
+                    "end": 519,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 561,
+                    "end": 596,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 599,
+                    "end": 630,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 664,
+                    "end": 666,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 680,
+                    "end": 689,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 697,
+                    "end": 715,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 770,
+                    "end": 772,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 781,
+                    "end": 812,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 822,
+                    "end": 832,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 848,
+                    "end": 879,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 905,
+                    "end": 915,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 932,
+                    "end": 945,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 987,
+                    "end": 1020,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1022,
+                    "end": 1053,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1079,
+                    "end": 1081,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1108,
+                    "end": 1141,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1143,
+                    "end": 1176,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1178,
+                    "end": 1213,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1218,
+                    "end": 1253,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1306,
+                    "end": 1308,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1320,
+                    "end": 1347,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1349,
+                    "end": 1376,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1378,
+                    "end": 1416,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1418,
+                    "end": 1453,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1458,
+                    "end": 1490,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1543,
+                    "end": 1545,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1557,
+                    "end": 1604,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1616,
+                    "end": 1640,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1644,
+                    "end": 1675,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1681,
+                    "end": 1696,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1749,
+                    "end": 1751,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1754,
+                    "end": 1766,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1793,
+                    "end": 1840,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1891,
+                    "end": 1903,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1911,
+                    "end": 1923,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1940,
+                    "end": 1947,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1963,
+                    "end": 1970,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1975,
+                    "end": 1987,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 2048,
+                    "end": 2072,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2076,
+                    "end": 2107,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2161,
+                    "end": 2173,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 2206,
+                    "end": 2230,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2234,
+                    "end": 2265,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2333,
+                    "end": 2357,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2361,
+                    "end": 2392,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2554,
+                    "end": 2569,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranY.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Heavy Attack - Soul Raid DMG Increase per 1,000 Max HP",
+                        "values": [
+                          "0.75%*2+0.96%*3+6.26%",
+                          "0.81%*2+1.04%*3+6.77%",
+                          "0.87%*2+1.12%*3+7.29%",
+                          "0.95%*2+1.23%*3+8.01%",
+                          "1.02%*2+1.30%*3+8.52%",
+                          "1.09%*2+1.39%*3+9.11%",
+                          "1.18%*2+1.52%*3+9.93%",
+                          "1.28%*2+1.64%*3+10.75%",
+                          "1.38%*2+1.77%*3+11.57%",
+                          "1.48%*2+1.90%*3+12.44%",
+                          "1.60%*2+2.06%*3+13.47%",
+                          "1.72%*2+2.22%*3+14.50%",
+                          "1.85%*2+2.37%*3+15.52%",
+                          "1.97%*2+2.53%*3+16.55%",
+                          "2.09%*2+2.69%*3+17.57%",
+                          "2.21%*2+2.84%*3+18.60%",
+                          "2.33%*2+3.00%*3+19.63%",
+                          "2.45%*2+3.15%*3+20.65%",
+                          "2.58%*2+3.31%*3+21.68%",
+                          "2.70%*2+3.47%*3+22.71%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Stardome Meander DMG Increase per 1,000 Max HP",
+                        "values": [
+                          "1.09%+1.09%+2.18%+6.53%",
+                          "1.18%+1.18%+2.36%+7.07%",
+                          "1.27%+1.27%+2.54%+7.60%",
+                          "1.40%+1.40%+2.79%+8.35%",
+                          "1.49%+1.49%+2.97%+8.89%",
+                          "1.59%+1.59%+3.17%+9.50%",
+                          "1.73%+1.73%+3.46%+10.36%",
+                          "1.87%+1.87%+3.74%+11.22%",
+                          "2.02%+2.02%+4.03%+12.07%",
+                          "2.17%+2.17%+4.33%+12.98%",
+                          "2.35%+2.35%+4.69%+14.06%",
+                          "2.53%+2.53%+5.05%+15.13%",
+                          "2.70%+2.70%+5.40%+16.20%",
+                          "2.88%+2.88%+5.76%+17.27%",
+                          "3.06%+3.06%+6.12%+18.34%",
+                          "3.24%+3.24%+6.47%+19.41%",
+                          "3.42%+3.42%+6.83%+20.48%",
+                          "3.60%+3.60%+7.19%+21.55%",
+                          "3.77%+3.77%+7.54%+22.62%",
+                          "3.95%+3.95%+7.90%+23.69%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Soul Raid DMG",
+                        "values": [
+                          "8.25%*2+10.61%*3+69.53%",
+                          "8.93%*2+11.48%*3+75.23%",
+                          "9.61%*2+12.35%*3+80.93%",
+                          "10.55%*2+13.57%*3+88.91%",
+                          "11.23%*2+14.44%*3+94.61%",
+                          "12.01%*2+15.44%*3+101.16%",
+                          "13.09%*2+16.83%*3+110.29%",
+                          "14.17%*2+18.22%*3+119.41%",
+                          "15.25%*2+19.61%*3+128.53%",
+                          "16.40%*2+21.09%*3+138.22%",
+                          "17.76%*2+22.83%*3+149.62%",
+                          "19.11%*2+24.57%*3+161.02%",
+                          "20.46%*2+26.31%*3+172.42%",
+                          "21.81%*2+28.05%*3+183.82%",
+                          "23.17%*2+29.78%*3+195.22%",
+                          "24.52%*2+31.52%*3+206.63%",
+                          "25.87%*2+33.26%*3+218.03%",
+                          "27.22%*2+35.00%*3+229.43%",
+                          "28.58%*2+36.74%*3+240.83%",
+                          "29.93%*2+38.48%*3+252.23%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Stardome Meander DMG",
+                        "values": [
+                          "12.09%+12.09%+24.18%+72.54%",
+                          "13.09%+13.09%+26.17%+78.49%",
+                          "14.08%+14.08%+28.15%+84.44%",
+                          "15.47%+15.47%+30.93%+92.77%",
+                          "16.46%+16.46%+32.91%+98.72%",
+                          "17.60%+17.60%+35.19%+105.56%",
+                          "19.18%+19.18%+38.36%+115.08%",
+                          "20.77%+20.77%+41.53%+124.59%",
+                          "22.36%+22.36%+44.71%+134.11%",
+                          "24.04%+24.04%+48.08%+144.22%",
+                          "26.02%+26.02%+52.04%+156.12%",
+                          "28.01%+28.01%+56.01%+168.01%",
+                          "29.99%+29.99%+59.97%+179.91%",
+                          "31.97%+31.97%+63.94%+191.81%",
+                          "33.95%+33.95%+67.90%+203.70%",
+                          "35.94%+35.94%+71.87%+215.60%",
+                          "37.92%+37.92%+75.84%+227.50%",
+                          "39.90%+39.90%+79.80%+239.39%",
+                          "41.89%+41.89%+83.77%+251.29%",
+                          "43.87%+43.87%+87.73%+263.19%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Question the Tombs",
+                "type": "Intro Skill",
+                "desc": "Attack the target, dealing Fusion DMG. Consume and convert all Ghost Shroud to equal stacks of Fortune in Disguise.\nCasting Question the Tombs restores {0} {Cus:Sap,S=point P=points SapTag=0} of Qi.\nWhile in the Yin Vessel state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Drink Soul Stage 2.\nWhile in the Yang Font state, or hold Normal Attack shortly after casting this skill to cast Basic Attack - Devil's Bane Stage 2.\n\nFortune in Disguise\nMax {1} stacks. Each stack of Fortune in Disguise grants additional Fusion DMG Bonus based on Jingran's Max HP: For every {2} points of Max HP, Jingran gains {3} additional Fusion DMG Bonus for {5}s, up to {4} for each stack of Fortune in Disguise.\nSwitching to another Resonator ends the effect.\n\nGhost Shroud\n- Max {6} points.\n- When Jingran gains a Shield, he gains {7} {Cus:Sap,S=point P=points SapTag=7} of Ghost Shroud. This effect can be triggered once every {8}s.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 37,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 63,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 95,
+                    "end": 114,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 124,
+                    "end": 142,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 195,
+                    "end": 197,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 212,
+                    "end": 222,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 238,
+                    "end": 251,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 293,
+                    "end": 326,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 341,
+                    "end": 350,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 366,
+                    "end": 379,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 421,
+                    "end": 456,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 459,
+                    "end": 478,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 509,
+                    "end": 528,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 707,
+                    "end": 726,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 777,
+                    "end": 789,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 891,
+                    "end": 903,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranQTE.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "100.00%",
+                          "108.20%",
+                          "116.40%",
+                          "127.88%",
+                          "136.08%",
+                          "145.51%",
+                          "158.63%",
+                          "171.75%",
+                          "184.87%",
+                          "198.81%",
+                          "215.21%",
+                          "231.61%",
+                          "248.01%",
+                          "264.41%",
+                          "280.81%",
+                          "297.21%",
+                          "313.61%",
+                          "330.01%",
+                          "346.41%",
+                          "362.81%"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Rising Fortune and Ebbing Evil",
+                "type": "Outro Skill",
+                "desc": "Deal Fusion DMG equal to {0} of Jingran's ATK.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 15,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranT.webp"
+              },
+              {
+                "name": "Crit. Rate Up",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Hark the Dust",
+                "type": "Inherent Skill",
+                "desc": "Casting Intro Skill - Question the Tombs, Resonance Skill - Encroaching Yin, or Resonance Skill - Scorching Yang grants Earth Charm.\n\nEarth Charm\nFor {0}s, if Jingran is the active Resonator in the team, gain an unstackable Shield equal to {1} of Max HP + {2} that lasts for {3}s when dealing damage. This effect can be triggered once every {4}s. This Shield will not be passed on to the incoming Resonator.\nWhile Jingran is in the Yinghuo state, if he is the active Resonator in the team, he gains an unstackable Shield equal to {5} of Max HP + {6} that lasts for {7}s when dealing damage. This effect can be triggered once every {8}s. This Shield will not be passed on to the incoming Resonator.",
+                "descFormat": [
+                  {
+                    "start": 8,
+                    "end": 40,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 42,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 80,
+                    "end": 112,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 120,
+                    "end": 131,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 134,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 432,
+                    "end": 439,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD1.webp"
+              },
+              {
+                "name": "HP Up",
+                "desc": "HP increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.webp"
+              },
+              {
+                "name": "Tune Break: Broadblade",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.\nWhile in Yin Vessel, or hold Normal Attack shortly after casting this skill to Basic Attack - Drink Soul Stage 2.\nWhile in Yang Font, or hold Normal Attack shortly after casting this skill to Basic Attack - Devil's Bane Stage 2.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 32,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 65,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 100,
+                    "end": 110,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 120,
+                    "end": 133,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 170,
+                    "end": 203,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 214,
+                    "end": 223,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 233,
+                    "end": 246,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 283,
+                    "end": 318,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Yin and Yang in Harmony, the Ultimate Law of Being",
+                "type": "Sequence 1",
+                "desc": "The DMG Multipliers of Resonance Skill - Encroaching Yin, Resonance Skill - Netherworld Traverse, Resonance Skill - Scorching Yang, and Resonance Skill - Afterlife's Guide are increased by {0}.\nResonance Skill - Encroaching Yin, Resonance Skill - Netherworld Traverse, Resonance Skill - Scorching Yang, and Resonance Skill - Afterlife's Guide are now immune to interruption.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 56,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 58,
+                    "end": 96,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 98,
+                    "end": 130,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 136,
+                    "end": 171,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 194,
+                    "end": 227,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 229,
+                    "end": 267,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 269,
+                    "end": 301,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 307,
+                    "end": 342,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "A Solitary Lantern, Across Lands Shade-Trodden",
+                "type": "Sequence 2",
+                "desc": "The DMG Multipliers of Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander are increased by {0}. While in the Yinghuo state, the DMG Multiplier increase effect via Fire of Life on Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander is increased by {1}.\n\nUpon entering combat, Jingran gains the following effects, triggered once every {2}s:\n- Gains {3} {Cus:Sap,S=point P=points SapTag=3} of Qi.\n- Gains Netherworld's Boon.\n\nNetherworld's Boon\nCasting Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander restores {4} of Max Resonance Energy and grants Heavy Attack - Soul Raid and Heavy Attack - Stardome Meander {5} DMG Amplification for {6}s.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 47,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 52,
+                    "end": 83,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 119,
+                    "end": 126,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 173,
+                    "end": 185,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 189,
+                    "end": 213,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 218,
+                    "end": 249,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 409,
+                    "end": 411,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 421,
+                    "end": 439,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 442,
+                    "end": 460,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 469,
+                    "end": 493,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 497,
+                    "end": 528,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 577,
+                    "end": 601,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 606,
+                    "end": 637,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "World's Course Shifts, Each to Their Rightful Paths",
+                "type": "Sequence 3",
+                "desc": "When Jingran casts Heavy Attack - Soul Raid or Heavy Attack - Stardome Meander, gain {0} {Cus:Sap,S=point P=points SapTag=0} of Ghost Shroud.\n\nWhen Jingran casts Resonance Liberation - Burial of Thousand Souls, Yang Changes, Yin Unites is replaced by Yin-Yang Everflow for {1}s.\n\nYin-Yang Everflow\nJingran gains additional ATK based on Max HP: For every {2} {Cus:Sap,S=point P=points SapTag=2} of Jingran's Max HP, gain {3} additional ATK, up to {4}.",
+                "descFormat": [
+                  {
+                    "start": 19,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 47,
+                    "end": 78,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 128,
+                    "end": 140,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 162,
+                    "end": 209,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 211,
+                    "end": 235,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 251,
+                    "end": 268,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 280,
+                    "end": 297,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Where Reality Meets Illusion, Where Living Meet Dead",
+                "type": "Sequence 4",
+                "desc": "When a Resonator in the team gains a Shield, all Resonators in the team gain {0} All-Attribute DMG Bonus for {1}s."
+              },
+              {
+                "name": "Ends Return to Beginnings, Truth of Life Laid Bare",
+                "type": "Sequence 5",
+                "desc": "When Jingran takes a fatal blow, he will not fall and will instead gain a Shield equal to {0} of Max HP for {1}s. This effect can be triggered once every {2} min. This Shield will not be passed on to the incoming Resonator."
+              },
+              {
+                "name": "As Favors and Feuds Fade, New Stories Await",
+                "type": "Sequence 6",
+                "desc": "Targets take {0} more Heavy Attack DMG from Jingran.\n\nThe DMG Multiplier of Chimei Wangliang is increased by {1}.\n\nUpon entering the Yinghuo state, Jingran gains the Parade of Thousand Souls effect for {2}s. During this effect, if Jingran is the active Resonator in the team, upon dealing damage, Jingran summons Chimei Wangliang to attack the targets, dealing Fusion DMG, considered Heavy Attack DMG.\n\nChimei Wangliang can be summoned this way at an interval of {3}s for up to 8 times. Parade of Thousand Souls ends and the available summon charges of Chimei Wangliang reset when either of the following conditions is met:\n- Cast Resonance Liberation - Burial of Thousand Souls.\n- Yinghuo ends or is removed.",
+                "descFormat": [
+                  {
+                    "start": 76,
+                    "end": 92,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 133,
+                    "end": 140,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 166,
+                    "end": 190,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 313,
+                    "end": 329,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 361,
+                    "end": 371,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 403,
+                    "end": 419,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 487,
+                    "end": 511,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 553,
+                    "end": 569,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 631,
+                    "end": 678,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 682,
+                    "end": 689,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "41100011",
+            "name": "LF Whisperin Core",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100012",
+            "name": "MF Whisperin Core",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100013",
+            "name": "HF Whisperin Core",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41100014",
+            "name": "FF Whisperin Core",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41400344",
+            "name": "Forged Empyrean's Sigh",
+            "qty": 46,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+            "source": "Calamity Effigy / Calamity Effigy - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Calamity Effigy",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "42601600",
+            "name": "Cloudperch Seed",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+            "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+            "sourceDetails": [
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Huaxu Apothecary"
+              }
+            ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 6,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 9,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 12,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
+                "qty": 16,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42601600",
+                "name": "Cloudperch Seed",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_083_UI.webp",
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
+                "sourceDetails": [
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Huaxu Apothecary"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100011",
+            "name": "LF Whisperin Core",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100012",
+            "name": "MF Whisperin Core",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100013",
+            "name": "HF Whisperin Core",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41100014",
+            "name": "FF Whisperin Core",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41400324",
+            "name": "Skyward Glazed Heart",
+            "qty": 26,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+            "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Thousand-Puppet Pavilion",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "43021041",
+            "name": "LF Carved Crystal",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Corroded Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021042",
+            "name": "MF Carved Crystal",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Corroded Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021043",
+            "name": "HF Carved Crystal",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Corroded Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43021044",
+            "name": "FF Carved Crystal",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Cloudfall Chasm"
+              },
+              {
+                "name": "Forgery Challenge: Corroded Remnants"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2530000,
+        "weapon": {
+          "name": "Thousandfold Deliverance",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
+          "items": [
+            {
+              "id": "41100081",
+              "name": "Fractured Exoswarm Pendant",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100082",
+              "name": "Worn Exoswarm Pendant",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
+              "source": "Roya Outcasts / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100083",
+              "name": "Chipped Exoswarm Pendant",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "41100084",
+              "name": "Intact Exoswarm Pendant",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
+              "source": "Roya Outcasts",
+              "sourceDetails": [
+                {
+                  "name": "Roya Outcasts"
+                }
+              ]
+            },
+            {
+              "id": "43021041",
+              "name": "LF Carved Crystal",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021042",
+              "name": "MF Carved Crystal",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021043",
+              "name": "HF Carved Crystal",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43021044",
+              "name": "FF Carved Crystal",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Cloudfall Chasm"
+                },
+                {
+                  "name": "Forgery Challenge: Corroded Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
+      },
+      "recent": 1
+    },
+    {
       "id": "ww-denia",
       "n": "Denia",
       "localizedNames": {
@@ -115062,7 +121664,7 @@
         "id": "21050076",
         "name": "Forged Dwarf Star",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050076",
       "signatureWeaponName": "Forged Dwarf Star",
@@ -115165,7 +121767,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -118294,7 +124896,7 @@
         "id": "21020076",
         "name": "Everbright Polestar",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020076",
       "signatureWeaponName": "Everbright Polestar",
@@ -118397,7 +124999,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -122158,7 +128760,7 @@
         "id": "21010066",
         "name": "Starfield Calibrator",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010066",
       "signatureWeaponName": "Starfield Calibrator",
@@ -122261,7 +128863,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -124820,7 +131422,7 @@
         "id": "21030036",
         "name": "Lux & Umbra",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030036",
       "signatureWeaponName": "Lux & Umbra",
@@ -124923,7 +131525,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -128082,7 +134684,7 @@
         "id": "21010036",
         "name": "Wildfire Mark",
         "type": "Broadblade",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010036",
       "signatureWeaponName": "Wildfire Mark",
@@ -128185,7 +134787,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -129142,7 +135744,7 @@
               {
                 "name": "Fire-Kissed Glory",
                 "type": "Resonance Liberation",
-                "desc": "Attack the target and deal Fusion DMG. Performing this attack consumes all Wolfaith and restores {0} points of Wolflame. Use Basic Attack or Resonance Skill in time to cast Resonance Skill Foebreaker.\nCan be performed in mid-air close to the ground.\nPerforming this skill strengthens all Resonators in the team. Within {1}s:\n- All Resonators in the team gain Pack Hunt effect.\n- If the active Resonator is hit or launched into the air, they immediately recover and are considered to have successfully dodged the attack when they are on the ground. Can be triggered up to 3 times.\n\nPack Hunt\nResonators with Pack Hunt gain a {2} ATK increase, and {3} Fusion DMG Bonus when they attack Overlord Class or Calamity Class targets (Both are non-stackable). If there are {7} Fusion Resonators in the team, the Fusion DMG Bonus against Overlord Class or Calamity Class targets additionally increases by {8}. When the active Resonator casts Intro Skill, Pack Hunt is enhanced, granting an additional {4} ATK increase to all Resonators in the team, up to a maximum of {5}.\nIf Lupa's Pack Hunt reaches its cap within its duration, she enters Wild Hunt and Intro Skill Nowhere to Run! becomes available. Wild Hunt can be triggered once per Pack Hunt.\n\nResonance Skill - Foebreaker\nConsume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burning Matchpoint state.\n\nBurning Matchpoint\nNormal Attacks retore {6} more Wolflame on hit. Cannot perform Resonance Skill Shewolf's Hunt and Resonance Skill Feral Fang in this state.",
+                "desc": "Attack the target and deal Fusion DMG. Performing this attack consumes all Wolfaith and restores {0} points of Wolflame. Use Basic Attack or Resonance Skill in time to cast Resonance Skill Foebreaker.\nCan be performed in mid-air close to the ground.\nPerforming this skill strengthens all Resonators in the team. Within {1}s:\n- All Resonators in the team gain Pack Hunt effect.\n- If the active Resonator is hit or launched into the air, they immediately recover and are considered to have successfully dodged the attack when they are on the ground. Can be triggered up to 3 times.\n\nPack Hunt\nResonators with Pack Hunt gain a {2} ATK increase, and {3} Fusion DMG Bonus when they attack Overlord Class or Calamity Class targets (Both are non-stackable). If there are {7} Fusion Resonators in the team, the Fusion DMG Bonus against Overlord Class or Calamity Class targets additionally increases by {8}. When the active Resonator casts Intro Skill, Pack Hunt is enhanced, granting an additional {4} ATK increase to all Resonators in the team, up to a maximum of {5}.\nIf Lupa's Pack Hunt reaches its cap within its duration, she enters Wild Hunt and Intro Skill Nowhere to Run! becomes available. Wild Hunt can be triggered once per Pack Hunt.\n\nResonance Skill - Foebreaker\nConsume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burning Matchpoint state.\n\nBurning Matchpoint\nNormal Attacks restore {6} more Wolflame on hit. Cannot perform Resonance Skill Shewolf's Hunt and Resonance Skill Feral Fang in this state.",
                 "descFormat": [
                   {
                     "start": 27,
@@ -129247,14 +135849,14 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 1470,
-                    "end": 1484,
+                    "start": 1471,
+                    "end": 1485,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1505,
-                    "end": 1515,
+                    "start": 1506,
+                    "end": 1516,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -130928,7 +137530,7 @@
         "id": "21020036",
         "name": "Unflickering Valor",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020036",
       "signatureWeaponName": "Unflickering Valor",
@@ -131031,7 +137633,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -133528,7 +140130,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -133632,7 +140234,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -135783,7 +142385,7 @@
         "id": "21030015",
         "name": "Static Mist",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030015",
       "signatureWeaponName": "Static Mist",
@@ -135887,7 +142489,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -137785,7 +144387,7 @@
         "id": "21050016",
         "name": "Stringmaster",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050016",
       "signatureWeaponName": "Stringmaster",
@@ -137889,7 +144491,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -140139,7 +146741,7 @@
         "id": "21030016",
         "name": "The Last Dance",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030016",
       "signatureWeaponName": "The Last Dance",
@@ -140243,7 +146845,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -142066,7 +148668,7 @@
         "id": "21050096",
         "name": "Firstlight's Herald",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050096",
       "signatureWeaponName": "Firstlight's Herald",
@@ -142171,7 +148773,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -143045,7 +149647,7 @@
               {
                 "name": "Lambent Gold",
                 "type": "Forte Circuit",
-                "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n Normal Attack repeatedly to perform up to 4 consequtive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill in one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} of Cloud Breath when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting Dodge - Parting Mist restores {2} {Cus:Sap,S=point P=points SapTag=2} of Cloud Breath.\n\nFloral Epistle\n",
+                "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n Normal Attack repeatedly to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill in one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} of Cloud Breath when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting Dodge - Parting Mist restores {2} {Cus:Sap,S=point P=points SapTag=2} of Cloud Breath.\n\nFloral Epistle\n",
                 "descFormat": [
                   {
                     "start": 0,
@@ -144181,7 +150783,7 @@
                     "tone": "spectro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.webp"
               }
             ]
           },
@@ -145134,7 +151736,8 @@
           ],
           "cost": 330000
         }
-      }
+      },
+      "recent": 1
     },
     {
       "id": "ww-lucilla",
@@ -145164,7 +151767,7 @@
         "id": "21050086",
         "name": "Freeze Frame",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050086",
       "signatureWeaponName": "Freeze Frame",
@@ -145267,7 +151870,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -148206,7 +154809,7 @@
         "id": "21020086",
         "name": "Frostburn",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020086",
       "signatureWeaponName": "Frostburn",
@@ -148309,7 +154912,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -151775,7 +158378,7 @@
         "id": "21030016",
         "name": "The Last Dance",
         "type": "Pistols",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21030016",
       "signatureWeaponName": "The Last Dance",
@@ -151878,7 +158481,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -154406,7 +161009,7 @@
         "id": "21040024",
         "name": "Marcato",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040024",
       "signatureWeaponName": "Marcato",
@@ -154510,7 +161113,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -156833,7 +163436,7 @@
         "id": "21050026",
         "name": "Rime-Draped Sprouts",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050026",
       "signatureWeaponName": "Rime-Draped Sprouts",
@@ -156937,7 +163540,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -159081,7 +165684,7 @@
         "id": "21040046",
         "name": "Moongazer's Sigil",
         "type": "Gauntlets",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21040046",
       "signatureWeaponName": "Moongazer's Sigil",
@@ -159185,7 +165788,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -161403,7 +168006,7 @@
         "id": "21050036",
         "name": "Stellar Symphony",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21050036",
       "signatureWeaponName": "Stellar Symphony",
@@ -161507,7 +168110,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -163414,7 +170017,7 @@
         "id": "21020016",
         "name": "Blazing Brilliance",
         "type": "Sword",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21020016",
       "signatureWeaponName": "Blazing Brilliance",
@@ -163518,7 +170121,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.5",
+        "version": "3.6+365",
         "sections": [
           {
             "title": "Skills",
@@ -165481,7 +172084,8 @@
       "slug": "hsin",
       "updated": 1781481600000,
       "sourceOrder": 0,
-      "icon": null,
+      "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
       "status": "beta",
@@ -165501,58 +172105,13 @@
       "recent": false
     },
     {
-      "id": "ww-jingran",
-      "n": "Jingran",
-      "slug": "jingran",
-      "updated": 1784246400000,
-      "sourceOrder": 0,
-      "icon": null,
-      "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/jingran-0e6d2cc79ad5.webp",
-      "status": "beta",
-      "labels": [
-        "3.6"
-      ],
-      "r": 5,
-      "el": "Fusion",
-      "w": "Broadblade",
-      "baseStats": {},
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
-    },
-    {
-      "id": "ww-qingxiao",
-      "n": "Qingxiao",
-      "slug": "qingxiao",
-      "updated": 1784246400000,
-      "sourceOrder": 0,
-      "icon": null,
-      "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
-      "status": "beta",
-      "labels": [
-        "3.6"
-      ],
-      "r": 5,
-      "el": "Aero",
-      "w": "Sword",
-      "baseStats": {},
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
-    },
-    {
       "id": "ww-suoming",
       "n": "Suoming",
       "slug": "suoming",
       "updated": 1781481600000,
       "sourceOrder": 0,
-      "icon": null,
+      "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
       "card": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
       "status": "beta",
@@ -165625,6 +172184,7 @@
         }
       ],
       "chars": [
+        "Jingran",
         "Mornye"
       ]
     },
@@ -165861,6 +172421,7 @@
       "chars": [
         "Aemeath",
         "Hiyuki",
+        "Qingxiao",
         "Rover",
         "Yangyang Xuanling"
       ]
@@ -165872,7 +172433,7 @@
   },
   "bossGroups": [
     {
-      "title": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+      "title": "Bell-Borne Geochelone",
       "mats": [
         {
           "id": "41400094",
@@ -165914,7 +172475,28 @@
       ]
     },
     {
-      "title": "Denia / Denia - Early Access",
+      "title": "Cetus the Tidebreaker",
+      "mats": [
+        {
+          "id": "41400104",
+          "name": "Wave-Cutting Tooth",
+          "n": "Wave-Cutting Tooth",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_005_UI.webp",
+          "source": "Cetus the Tidebreaker",
+          "sourceDetails": [
+            {
+              "name": "Cetus the Tidebreaker"
+            }
+          ],
+          "chars": []
+        }
+      ],
+      "chars": []
+    },
+    {
+      "title": "Denia",
       "mats": [
         {
           "id": "41400304",
@@ -165934,6 +172516,7 @@
             "Denia",
             "Hiyuki",
             "Lucilla",
+            "Qingxiao",
             "Rebecca",
             "Rover"
           ]
@@ -165943,12 +172526,13 @@
         "Denia",
         "Hiyuki",
         "Lucilla",
+        "Qingxiao",
         "Rebecca",
         "Rover"
       ]
     },
     {
-      "title": "Dreamless / Dreamless - Early Access",
+      "title": "Dreamless",
       "mats": [
         {
           "id": "41400124",
@@ -165984,7 +172568,7 @@
       ]
     },
     {
-      "title": "Fleurdelys / Fleurdelys - Early Access",
+      "title": "Fleurdelys",
       "mats": [
         {
           "id": "41400204",
@@ -166020,7 +172604,7 @@
       ]
     },
     {
-      "title": "Hecate / Hecate - Early Access",
+      "title": "Hecate",
       "mats": [
         {
           "id": "41400194",
@@ -166060,7 +172644,7 @@
       ]
     },
     {
-      "title": "Scar / Scar - Early Access",
+      "title": "Scar",
       "mats": [
         {
           "id": "41400114",
@@ -166103,7 +172687,7 @@
       ]
     },
     {
-      "title": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+      "title": "Sentinel Ju\u00e9",
       "mats": [
         {
           "id": "41400144",
@@ -166137,7 +172721,7 @@
       ]
     },
     {
-      "title": "Sigillum / Sigillum - Early Access",
+      "title": "Sigillum",
       "mats": [
         {
           "id": "41400294",
@@ -166169,7 +172753,7 @@
       ]
     },
     {
-      "title": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+      "title": "Thousand-Puppet Pavilion",
       "mats": [
         {
           "id": "41400324",
@@ -166186,18 +172770,20 @@
             }
           ],
           "chars": [
+            "Jingran",
             "Suisui",
             "Yangyang Xuanling"
           ]
         }
       ],
       "chars": [
+        "Jingran",
         "Suisui",
         "Yangyang Xuanling"
       ]
     },
     {
-      "title": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+      "title": "Threnodian: Leviathan",
       "mats": [
         {
           "id": "41400254",
@@ -166229,7 +172815,7 @@
   ],
   "weeklyBosses": [
     {
-      "bossName": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+      "bossName": "Bell-Borne Geochelone",
       "drops": [
         {
           "id": "41400094",
@@ -166260,7 +172846,27 @@
       ]
     },
     {
-      "bossName": "Denia / Denia - Early Access",
+      "bossName": "Cetus the Tidebreaker",
+      "drops": [
+        {
+          "id": "41400104",
+          "name": "Wave-Cutting Tooth",
+          "n": "Wave-Cutting Tooth",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_005_UI.webp",
+          "source": "Cetus the Tidebreaker",
+          "sourceDetails": [
+            {
+              "name": "Cetus the Tidebreaker"
+            }
+          ],
+          "chars": []
+        }
+      ]
+    },
+    {
+      "bossName": "Denia",
       "drops": [
         {
           "id": "41400304",
@@ -166280,6 +172886,7 @@
             "Denia",
             "Hiyuki",
             "Lucilla",
+            "Qingxiao",
             "Rebecca",
             "Rover"
           ]
@@ -166287,7 +172894,7 @@
       ]
     },
     {
-      "bossName": "Dreamless / Dreamless - Early Access",
+      "bossName": "Dreamless",
       "drops": [
         {
           "id": "41400124",
@@ -166315,7 +172922,7 @@
       ]
     },
     {
-      "bossName": "Fleurdelys / Fleurdelys - Early Access",
+      "bossName": "Fleurdelys",
       "drops": [
         {
           "id": "41400204",
@@ -166343,7 +172950,7 @@
       ]
     },
     {
-      "bossName": "Hecate / Hecate - Early Access",
+      "bossName": "Hecate",
       "drops": [
         {
           "id": "41400194",
@@ -166373,7 +172980,7 @@
       ]
     },
     {
-      "bossName": "Scar / Scar - Early Access",
+      "bossName": "Scar",
       "drops": [
         {
           "id": "41400114",
@@ -166406,7 +173013,7 @@
       ]
     },
     {
-      "bossName": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+      "bossName": "Sentinel Ju\u00e9",
       "drops": [
         {
           "id": "41400144",
@@ -166433,7 +173040,7 @@
       ]
     },
     {
-      "bossName": "Sigillum / Sigillum - Early Access",
+      "bossName": "Sigillum",
       "drops": [
         {
           "id": "41400294",
@@ -166459,7 +173066,7 @@
       ]
     },
     {
-      "bossName": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+      "bossName": "Thousand-Puppet Pavilion",
       "drops": [
         {
           "id": "41400324",
@@ -166476,6 +173083,7 @@
             }
           ],
           "chars": [
+            "Jingran",
             "Suisui",
             "Yangyang Xuanling"
           ]
@@ -166483,7 +173091,7 @@
       ]
     },
     {
-      "bossName": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+      "bossName": "Threnodian: Leviathan",
       "drops": [
         {
           "id": "41400254",

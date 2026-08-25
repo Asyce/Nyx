@@ -5,7 +5,7 @@
   "name": "Excerpt from Penaconian Art History",
   "sortId": 70889,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Excerpt_from_Penaconian_Art_History",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -517,16 +517,6 @@
               }
             ],
             "id": "p-dfc3ab3590c469d6-4"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

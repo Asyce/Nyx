@@ -187,7 +187,7 @@
     "atk": 282,
     "desc": "...",
     "sub": "DEF",
-    "ko": "Item_Weapon_B_Common_16_Name",
+    "ko": "「루나」-반달",
     "zh": "「月相」-弦",
     "ja": "「月相」-弦"
   },
@@ -391,7 +391,7 @@
     "atk": 356,
     "desc": "...",
     "sub": "DEF",
-    "ko": "Item_Weapon_A_Common_17_Name",
+    "ko": "묘운이 눈앞에",
     "zh": "喵运当头",
     "ja": "ニャン運到来"
   },
@@ -439,7 +439,7 @@
     "atk": 356,
     "desc": "...",
     "sub": "CRIT Rate",
-    "ko": "Item_Weapon_A_Common_21_Name",
+    "ko": "진혈의 비갑",
     "zh": "血髓秘匣",
     "ja": "ブラッドボックス"
   },
@@ -1179,12 +1179,12 @@
     "icon": "Weapon_S_1611",
     "rank": 4,
     "type": 7,
-    "en": "Crimson Thirst",
+    "en": "Crimson Craving",
     "atk": 431,
     "desc": "...",
     "sub": "DEF",
-    "ko": "Item_Weapon_S_1611_Name",
-    "zh": "腥红渴望",
+    "ko": "핏빛 갈망",
+    "zh": "猩红渴望",
     "ja": "深紅の渇望"
   },
   "14162": {
@@ -1195,7 +1195,7 @@
     "atk": 713,
     "desc": "...",
     "sub": "Energy Regen",
-    "ko": "Item_Weapon_S_1621_Name",
+    "ko": "...",
     "zh": "...",
     "ja": "..."
   }

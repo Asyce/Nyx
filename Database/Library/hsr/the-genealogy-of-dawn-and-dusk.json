@@ -5,7 +5,7 @@
   "name": "The Genealogy of Dawn and Dusk",
   "sortId": 103869,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/The_Genealogy_of_Dawn_and_Dusk",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -431,16 +431,6 @@
               }
             ],
             "id": "p-a17cf3cf9f41b40b"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

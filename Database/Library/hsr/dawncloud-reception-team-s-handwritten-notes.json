@@ -5,7 +5,7 @@
   "name": "Dawncloud Reception Team's Handwritten Notes",
   "sortId": 98464,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Dawncloud_Reception_Team%27s_Handwritten_Notes",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -229,16 +229,6 @@
               }
             ],
             "id": "p-ffedcb3785d40c6b"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

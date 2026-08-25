@@ -50,11 +50,25 @@ export function cleanTitle(value = '') {
   return stripTags(value).replace(/\s+/g, ' ').trim();
 }
 
-export function descriptionSnippet(value = '', maxLength = 240) {
+export function descriptionSnippet(value = '', maxLength = Infinity) {
   if (value === null || value === undefined) return null;
-  const text = stripTags(decodeEntities(String(value))).replace(/[<>]/g, ' ').replace(/\s+/g, ' ').replace(/\s+([.,!?;:])/g, '$1').trim();
-  const limit = Math.max(40, Math.min(240, Number(maxLength) || 240));
+  const heading = (inner) => `\n〓${stripTags(inner)}〓\n`;
+  const text = decodeEntities(String(value))
+    .replace(/<!--[^]*?-->/g, ' ')
+    .replace(/<p\b[^>]*>\s*(<span\b[^>]*>)((?:(?!<\/span>)[^])*)<\/span>\s*<\/p>/gi, (all, open, inner) => /color:\s*(?:rgb\(\s*255\s*,\s*255\s*,\s*255\s*\)|#f{3}(?:f{3})?)/i.test(open) ? heading(inner) : all)
+    .replace(/<h([1-6])\b[^>]*>([^]*?)<\/h\1>/gi, (_, level, inner) => heading(inner))
+    .replace(/<summary\b[^>]*>([^]*?)<\/summary>/gi, (_, inner) => heading(inner))
+    .replace(/<p\b[^>]*>\s*■\s*([^]*?)<\/p>/gi, (_, inner) => heading(inner))
+    .replace(/<li\b[^>]*>/gi, '\n● ')
+    .replace(/<br\s*\/?\s*>|<\/(?:p|div|section|article|li|tr|td|table|ul|ol|details)>/gi, '\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[<>]/g, ' ')
+    .split(/\r?\n/)
+    .map((line) => line.replace(/\s+/g, ' ').replace(/\s+([.,!?;:])/g, '$1').trim().replace(/^•\s*/, '● '))
+    .filter(Boolean)
+    .join('\n');
   if (!text) return null;
+  const limit = Number.isFinite(Number(maxLength)) ? Math.max(40, Number(maxLength)) : Infinity;
   if (text.length <= limit) return text;
   const clipped = text.slice(0, limit - 1).replace(/\s+\S*$/, '').trim();
   return `${clipped || text.slice(0, limit - 1)}…`;
@@ -182,7 +196,7 @@ export function parseScopedDateRange(html, offset = '+00:00', headings = ['Durat
 }
 
 // ---- classification (deterministic keyword map) ----
-const BANNER_RE = /\b(event wish|epitome invocation|wish\b|character event warp|light cone event|warp\b|convene\b|signal search|w-engine|featured (?:resonator|weapon|character|agent|light cone)|chronicled|headhunting|arsenal exchange|rate ?up|banner)\b/i;
+const BANNER_RE = /\b(event wish|epitome invocation|wish\b|character event warp|light cone event|warp\b|convene\b|signal search|w-engine|featured (?:resonator|weapon|character|agent|light cone)|chronicled|headhunting|arsenal exchange|rate ?up|banner|limited-time channels?|lto details)\b/i;
 const LOGIN_RE = /\b(check-?in|log-?in|login|sign-?in|daily reward|web-?event login|check in)\b/i;
 const CHALLENGE_RE = /\b(onslaught|abyss|memory of chaos|pure fiction|apocalyptic shadow|shiyu defense|deadly assault|hollow zero|combat (?:event|trial|challenge)|tacet crisis|realm of the strange|stygian|tower|boss challenge|forgotten hall|combat simulation)\b/i;
 const SHOP_RE = /\b(shop|bundle|gift pack|supply pack|top-?up|mall|monthly card|blessing of|welkin)\b/i;
@@ -276,9 +290,11 @@ export function normalizeRetainedEvent(event, observedAt) {
   const scheduleStatus = event.scheduleStatus
     ? (event.scheduleStatus === 'exact' && event.permanence !== 'permanent' && !event.start ? 'expected' : event.scheduleStatus)
     : source.kind === 'legacy-official-snapshot' ? (event.permanence === 'permanent' || event.start ? 'exact' : 'expected') : null;
+  const classifiedType = classifyType(event.title, { permanent:event.permanence === 'permanent' });
   return {
     ...event,
     source,
+    ...(event.type === 'event' && classifiedType !== 'event' ? { type:classifiedType } : {}),
     image:normalizeEventImage(event.image),
     ...(scheduleStatus ? { scheduleStatus } : {}),
   };
@@ -404,7 +420,7 @@ export function validateEvent(ev) {
   if (!CONFIDENCE.has(ev?.confidence)) errs.push(`bad confidence ${ev?.confidence} (${ev?.id})`);
   if (!PERMANENCE.has(ev?.permanence)) errs.push(`bad permanence ${ev?.permanence} (${ev?.id})`);
   if (typeof ev?.needs_review !== 'boolean') errs.push(`needs_review not bool (${ev?.id})`);
-  if (ev?.description !== null && ev?.description !== undefined && (typeof ev.description !== 'string' || ev.description.length > 240 || /[<>]/.test(ev.description))) errs.push(`bad description (${ev?.id})`);
+  if (ev?.description !== null && ev?.description !== undefined && (typeof ev.description !== 'string' || /[<>]/.test(ev.description))) errs.push(`bad description (${ev?.id})`);
   if (ev?.image !== null && ev?.image !== undefined && normalizeEventImage(ev.image) !== ev.image) errs.push(`bad event image (${ev?.id})`);
   if (!ev?.source?.name || !ev?.source?.url || typeof ev?.source?.priority !== 'number') errs.push(`bad source (${ev?.id})`);
   if (!ev?.source?.kind || !ev?.source?.recordId) errs.push(`missing source provenance (${ev?.id})`);

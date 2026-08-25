@@ -25,14 +25,40 @@ jobs:
       - uses: actions/checkout@v7
         with:
           ref: main
-          lfs: true
+
+      # Checkout no longer smudges LFS (the cache below supplies the objects), so the
+      # LFS filters and hooks must be installed here instead. Keep this UNCONDITIONAL:
+      # steps that `git add` LFS-tracked paths rely on the clean filter to stage a
+      # pointer rather than the full blob, and the pre-push hook is what uploads new
+      # LFS objects. Those steps do not all share the LFS pull step's `if:` guard.
+      - name: Configure Git LFS
+        run: git lfs install --local
+
+      # Only gi/ and hsr/ live rosters are LFS-tracked (~36 MB combined), and they change
+      # just a few times a year -- but every run used to re-download both, which is what
+      # exhausted the account's 10 GB/month LFS bandwidth. Caching .git/lfs against the
+      # pointer files means an object is re-fetched only when it actually changed; the
+      # restore-keys prefix also lets a run reuse whichever of the two is still current.
+      - name: Cache LFS objects
+        id: lfs_cache
+        uses: actions/cache/restore@v6
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
+          restore-keys: lfs-
 
       - name: Resolve LFS data
         run: |
-          for i in 1 2 3; do
-            git lfs pull && break
-            echo "git lfs pull attempt $i failed; retrying" && sleep 5
-          done
+          # Resolve from the objects we already have before asking the server.
+          # With a warm cache this makes no network call at all, so an exhausted
+          # LFS budget can no longer break a run that needs nothing new.
+          git lfs checkout || true
+          if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+            for i in 1 2 3; do
+              git lfs pull && break
+              echo "git lfs pull attempt $i failed; retrying" && sleep 5
+            done
+          fi
 
       - uses: actions/setup-node@v6
         with:

@@ -5,7 +5,7 @@
   "name": "Clipping of the Herald of Death Incident",
   "sortId": 137707,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Clipping_of_the_Herald_of_Death_Incident",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -216,16 +216,6 @@
               }
             ],
             "id": "p-3e5f28e6ac61127f"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

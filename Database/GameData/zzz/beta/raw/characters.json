@@ -1540,19 +1540,19 @@
     "ja": "シグリッド"
   },
   "1611": {
-    "code": "Avatar_Female_Size02_Claret_En",
+    "code": "Claret",
     "rank": 4,
     "type": 7,
     "element": 203,
     "hit": 101,
     "camp": 16,
-    "icon": "",
+    "icon": "IconRole1611",
     "potential": [],
-    "en": "Avatar_Female_Size02_Claret",
+    "en": "Claret",
     "skin": {
       "3116110": {
-        "name": "AvatarSkin_Claret_Name_000",
-        "desc": "AvatarSkin_Claret_Desc_000",
+        "name": "...",
+        "desc": "...",
         "obtain_desc": "",
         "image": "IconRole1611"
       }
@@ -1560,7 +1560,7 @@
     "desc": "...",
     "ko": "Avatar_Female_Size02_Claret",
     "zh": "克拉蕾",
-    "ja": "Avatar_Female_Size02_Claret"
+    "ja": "クラレッタ"
   },
   "1621": {
     "code": "Roxy",
@@ -1569,20 +1569,20 @@
     "element": 204,
     "hit": 102,
     "camp": 16,
-    "icon": "",
+    "icon": "IconRole68",
     "potential": [],
-    "en": "Avatar_Female_Size01_Pryce",
+    "en": "Roxy",
     "skin": {
       "3116210": {
-        "name": "AvatarSkin_Pryce_Name_000",
-        "desc": "AvatarSkin_Pryce_Desc_000",
+        "name": "...",
+        "desc": "...",
         "obtain_desc": "",
         "image": "IconRole68"
       }
     },
     "desc": "...",
-    "ko": "Avatar_Female_Size01_Pryce",
+    "ko": "록시",
     "zh": "洛克茜",
-    "ja": "Avatar_Female_Size01_Pryce"
+    "ja": "ロクシー"
   }
 }

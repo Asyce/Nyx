@@ -5,7 +5,7 @@
   "name": "Ode to the Dawn Device",
   "sortId": 103859,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ode_to_the_Dawn_Device",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -323,16 +323,6 @@
               }
             ],
             "id": "p-d1c895f8f072b53b"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

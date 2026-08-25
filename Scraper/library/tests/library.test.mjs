@@ -61,6 +61,13 @@ test('hostile wiki markup cannot survive as executable or remote content', () =>
   assert.match(serialized, /they/);
 });
 
+test('wiki comments spanning paragraphs never reach readable books', () => {
+  const result = parseReadableWikitext('-->Prelude\n\nBefore\n\n<!--\n\nhidden editor note\n\n-->After\n\n<!--Tail');
+  const text = nyxLibraryDocumentText(result);
+  assert.equal(text, 'Prelude\nBefore\nAfter\nTail');
+  assert.doesNotMatch(JSON.stringify(result), /<!--|-->|hidden editor note/);
+});
+
 test('GI collection parsing accepts dotted, undotted, and nested volume headings', () => {
   const result = parseReadableWikitext("===Vol 1===\nFirst\n===Vol. 2===\nSecond");
   assert.equal(result.blocks.filter((block) => block.type === 'heading').length, 2);

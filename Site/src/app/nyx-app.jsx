@@ -28,6 +28,10 @@ function getCmRoster(key){
     overviewArt: ch.overviewArt,
     overviewArtPool: ch.overviewArtPool,
     overviewArtZoom: ch.overviewArtZoom,
+    status: ch.status,
+    upcoming: ch.upcoming,
+    reliableData: ch.reliableData,
+    noReliableInfo: ch.noReliableInfo,
     forms: ch.forms || [],
   }));
 }
@@ -183,7 +187,7 @@ function overviewCardArt(cfg, ch, offset = 0){
 
 function makeRoster(cfg, settings, characterImagePrefs){
   const source = cfg.roster || getCmRoster(cfg.key);
-  if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon }];
+  if (!source || !source.length) return [{ id:cfg.key + '-main', name:cfg.charName, tag:'', art:cfg.art, icon:cfg.benchIcon, detailAvailable:false }];
   const seen = new Set();
   const out = [];
   source.forEach((ch, i) => {
@@ -207,6 +211,7 @@ function makeRoster(cfg, settings, characterImagePrefs){
       el:ch.el || ch.element,
       rarity:ch.r,
       forms:ch.forms || [],
+      detailAvailable:!cmIsUpcomingOnly(ch),
     };
     const customGameKey = row.gameKey && row.gameKey !== 'nyx' ? row.gameKey : cfg.key;
     out.push(typeof nyxApplyCharacterCustomImages === 'function'
@@ -630,6 +635,7 @@ function weaponItemsFor(gameKey){
 function rosterUnitMap(gameCfg){
   const map = new Map();
   makeRoster(gameCfg).forEach((ch) => {
+    if (ch.detailAvailable === false) return;
     [ch.name, ch.rawName, ...(ch.aliases || [])].filter(Boolean).forEach((name) => {
       const key = normalizeUnitName(name);
       if (key && !map.has(key)) map.set(key, ch);
@@ -758,7 +764,7 @@ function FitText({ as:Tag = 'b', text, className, multiline = false }){
   return <Tag ref={ref} className={className}>{text}</Tag>;
 }
 
-function BannerUnit({ unit, onOpen, showBadge = true }){
+function BannerUnit({ unit, onOpen, showBadge = true, href }){
   const inner = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" />}
@@ -767,13 +773,19 @@ function BannerUnit({ unit, onOpen, showBadge = true }){
     </React.Fragment>
   );
   if (!onOpen) return <span className="gp-oban-unit" title={unit.name}>{inner}</span>;
+  if (href) {
+    return (
+      <a className="gp-oban-unit is-link" href={href} draggable={false} title={'Open ' + unit.name}
+         onClick={(event) => nyxNavClick(event, onOpen)}>{inner}</a>
+    );
+  }
   return (
     <button type="button" className="gp-oban-unit is-link" title={'Open ' + unit.name}
             onClick={onOpen}>{inner}</button>
   );
 }
 
-function BannerPhaseCard({ card, now, showGame, unitLink }){
+function BannerPhaseCard({ card, now, showGame, unitLink, unitHref }){
   const artPool = card.artPool || [];
   const [artIndex, setArtIndex] = React.useState(0);
   // Splash files can lag behind banner data for brand-new characters. The art
@@ -823,23 +835,19 @@ function BannerPhaseCard({ card, now, showGame, unitLink }){
         </div>
         <div className="gp-oban-featured" aria-label="Featured units">
           {card.featured.map((unit) => (
-            <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} />
+            <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} href={unitHref && unitHref(unit)} />
           ))}
         </div>
-        {!!card.others.length && (
+        {(card.supportLabel || card.others.length > 0) && (
           <div className="gp-oban-supports">
-            {card.supportLabel && (
-              <span className="gp-oban-supports-label">
-                {card.supportLabel}
-                {card.supportHelp && (
-                  <button type="button" className="gp-oban-supports-help"
-                          aria-label={card.supportHelp.label}
-                          onClick={() => card.supportHelp.onOpen()}>?</button>
-                )}
-              </span>
-            )}
+            {card.supportLabel && (card.supportHelp
+              ? <button type="button" className="gp-oban-supports-label"
+                        aria-label={card.supportHelp.label}
+                        aria-haspopup="dialog"
+                        onClick={card.supportHelp.onOpen}>{card.supportLabel}</button>
+              : <span className="gp-oban-supports-label">{card.supportLabel}</span>)}
             {card.others.map((unit) => (
-              <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} showBadge={false} />
+              <BannerUnit key={unit.name} unit={unit} onOpen={unitLink && unitLink(unit)} href={unitHref && unitHref(unit)} showBadge={false} />
             ))}
           </div>
         )}
@@ -871,26 +879,35 @@ function bannerBoardColumn(cfg, phase, status){
   if (!phase) return null;
   const rosterMap = rosterUnitMap(cfg);
   const rank = bannerFeaturedRank(cfg.key);
+  const lossPool = phase.lossPool ? {
+    current:phase.lossPool.current ? phaseUnit(cfg, phase.lossPool.current, rosterMap, 0) : null,
+    previous:dedupeByName((phase.lossPool.previous || []).map((unit, index) => phaseUnit(cfg, unit, rosterMap, index))).filter((unit) => unit.name),
+    permanent:dedupeByName((phase.lossPool.permanent || []).map((unit, index) => phaseUnit(cfg, unit, rosterMap, index))).filter((unit) => unit.name),
+  } : null;
   const all = dedupeByName((phase.characters || []).map((ch, i) => phaseUnit(cfg, ch, rosterMap, i))).filter((unit) => unit.name);
   const units = all.filter((unit) => !unit.rarity || unit.rarity >= rank);
-  if (!units.length) return null;
+  if (!units.length && !lossPool?.current) return null;
   // Headline order: whoever is debuting, else whoever joined the game most
   // recently (user 2026-08-08 — a phase pairing a recent character with an
   // ancient rerun should lead with the recent one), else feed order.
   const ranked = [...units].sort(bannerUnitRecency);
   // Endfield keeps its paired headline cards; every other game demotes the
   // simultaneous 5-star banners into compact rows under the newest one.
-  const heroes = cfg.key === 'ae' && units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1);
+  const heroes = lossPool?.current
+    ? [lossPool.current]
+    : (cfg.key === 'ae' && units.length === 2 ? ranked.slice(0, 2) : ranked.slice(0, 1));
   return {
     status,
     label:phase.phase || null,
     start:phase.start ? new Date(phase.start).getTime() : NaN,
     end:phase.end ? new Date(phase.end).getTime() : NaN,
     heroes,
-    others:ranked.filter((unit) => !heroes.includes(unit)),
+    others:ranked.filter((unit) => !heroes.some((hero) => normalizeUnitName(hero.name) === normalizeUnitName(unit.name))),
     // Endfield's off-banner headliners are its loss pool. Other games omit
     // lower-rarity featured characters (user 2026-08-13).
-    support:cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit)) : [],
+    support:lossPool ? lossPool.previous
+      : cfg.key === 'ae' ? ranked.filter((unit) => !heroes.includes(unit)) : [],
+    lossPool,
   };
 }
 
@@ -904,7 +921,8 @@ const BANNER_ROADMAP_DENY = {
 // ...and the two the user wants kept as a joke, pinned under the real entries
 // with a "copium" note. Sourced from `group.pinned` when the scraper has run;
 // otherwise recovered from the roadmap rows the denylist above just removed.
-const BANNER_COPIUM_PINS = { gi:['Dainsleif', 'Alice'] };
+const BANNER_COPIUM_PINS = { gi:['Alice', 'Dainsleif'] };
+const BANNER_PLAN_LABELS = { gi:{ vesna:'7.1 Phase 1', vodyanitsa:'7.1 Phase 2' } };
 
 function bannerRoadmapAllowed(cfg, unit){
   const deny = BANNER_ROADMAP_DENY[cfg.key];
@@ -957,7 +975,7 @@ function overviewBannerBoard(cfg){
   const planned = rows.slice(0, 2).map((row) => ({
     ...(row.column || {}),
     status:'upcoming',
-    label:row.column?.label || null,
+    label:row.column?.label || BANNER_PLAN_LABELS[cfg.key]?.[normalizeUnitName(row.unit?.name)] || null,
     phaseUnknown:row.source === 'beta' && !row.column?.label,
     hint:row.hint,
     start:NaN,
@@ -1066,7 +1084,7 @@ function bannerApplyPlanLabels(current, next, planned, roadmap){
   }
 }
 
-function BannerBoardRow({ unit, status, onOpen, note }){
+function BannerBoardRow({ unit, status, onOpen, note, href }){
   const body = (
     <React.Fragment>
       {unit.icon && <img src={unit.icon} alt="" draggable="false" loading="lazy" />}
@@ -1079,10 +1097,13 @@ function BannerBoardRow({ unit, status, onOpen, note }){
   return (
     <div className={'gp-ovb-row st-' + status + (note ? ' has-note' : '')}>
       {unit.splash && <div className="gp-ovb-row-art" style={{ backgroundImage:bgUrl(unit.splash) }}></div>}
-      {onOpen
-        ? <button type="button" className="gp-ovb-row-body is-link" title={'Open ' + unit.name}
-                  onClick={onOpen}>{body}</button>
-        : <div className="gp-ovb-row-body">{body}</div>}
+      {onOpen && href
+        ? <a className="gp-ovb-row-body is-link" href={href} draggable={false} title={'Open ' + unit.name}
+             onClick={(event) => nyxNavClick(event, onOpen)}>{body}</a>
+        : onOpen
+          ? <button type="button" className="gp-ovb-row-body is-link" title={'Open ' + unit.name}
+                    onClick={onOpen}>{body}</button>
+          : <div className="gp-ovb-row-body">{body}</div>}
     </div>
   );
 }
@@ -1111,8 +1132,15 @@ function BannerBoardNote({ title, children }){
 
 function OverviewBannerBoard({ cfg, onOpenMaterial }){
   const now = useNowTick(1000);
-  // Endfield's loss-rate explainer, opened from the "?" beside the pool.
-  const [lossHelp, setLossHelp] = React.useState(false);
+  const lossDialogRef = React.useRef(null);
+  const openLossHelp = React.useCallback(() => {
+    const dialog = lossDialogRef.current;
+    if (dialog && !dialog.open) dialog.showModal();
+  }, []);
+  const closeLossHelp = React.useCallback(() => {
+    const dialog = lossDialogRef.current;
+    if (dialog?.open) dialog.close();
+  }, []);
   const board = React.useMemo(() => overviewBannerBoard(cfg), [cfg.key]);
   // A banner name is a link into that character's own page, and the Back button
   // there returns here rather than to the roster (user 2026-08-09). Only units
@@ -1131,6 +1159,17 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       ? () => openUnit(unit)
       : null
   ), [onOpenMaterial, rosterMap, openUnit]);
+  // The matching address for the same units, so a linked name can also be
+  // ctrl/cmd/middle-clicked into its own tab. Resolved through the roster so the
+  // address matches exactly what a plain click navigates to.
+  const unitHref = React.useCallback((unit) => {
+    const match = unit?.name ? rosterMap.get(normalizeUnitName(unit.name)) : null;
+    return match ? nyxCharacterHref(cfg.key, match.rawName || match.name || unit.name) : undefined;
+  }, [cfg.key, rosterMap]);
+  const lossUnitLink = React.useCallback((unit) => {
+    const open = unitLink(unit);
+    return open ? () => { closeLossHelp(); open(); } : null;
+  }, [unitLink, closeLossHelp]);
   // The column heading above already names the phase, so the card does not
   // repeat it — that space belongs to the splash art.
   const heroCard = (column, hero, index) => ({
@@ -1146,9 +1185,9 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     // ZZZ agent renders are full-body; letting them cover the card crops the
     // agent to a torso, so they are contained and zoomed instead.
     containArt:cfg.key === 'zzz',
-    supportLabel:cfg.key === 'ae' ? 'Available on loss' : null,
-    supportHelp:cfg.key === 'ae'
-      ? { label:'How the loss rates work', onOpen:() => setLossHelp(true) }
+    supportLabel:column.lossPool ? 'Available on loss' : null,
+    supportHelp:column.lossPool
+      ? { label:'Available on loss', onOpen:openLossHelp }
       : null,
     // One art only — a two-entry pool would crossfade the splash against the
     // namecard every few seconds.
@@ -1156,6 +1195,12 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   });
   const heroCards = (column) => (column ? column.heroes.map((hero, index) => heroCard(column, hero, index)) : []);
   const currentHeroes = heroCards(board.current);
+  const currentLossPool = board.current?.lossPool || null;
+  const lossSequence = currentLossPool ? [
+    { label:'Current banner', outcome:'Rate-up win', unit:currentLossPool.current },
+    { label:'Previous banner', outcome:'Available on loss', unit:currentLossPool.previous[0] },
+    { label:'Two banners ago', outcome:'Available on loss', unit:currentLossPool.previous[1] },
+  ].filter((row) => row.unit) : [];
   // Endfield's off-banner characters are the loss pool, not parallel banners.
   const lossPool = cfg.key === 'ae';
   const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, column, label:bannerPhaseHeading(column) })));
@@ -1175,16 +1220,16 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
     supportHelp:null,
   }));
   const aeColumn = (index) => (aeUpcomingCards[index]
-    ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} />
+    ? <BannerPhaseCard card={aeUpcomingCards[index]} now={now} unitLink={unitLink} unitHref={unitHref} />
     : null);
   const phaseColumn = (column) => {
     const cards = heroCards(column);
     if (!cards.length) return null;
     return (
       <React.Fragment>
-        <BannerPhaseCard card={cards[0]} now={now} unitLink={unitLink} />
+        <BannerPhaseCard card={cards[0]} now={now} unitLink={unitLink} unitHref={unitHref} />
         {column.others.map((unit) => (
-          <BannerBoardRow key={unit.name} unit={unit} status={column.status} onOpen={unitLink(unit)} />
+          <BannerBoardRow key={unit.name} unit={unit} status={column.status} onOpen={unitLink(unit)} href={unitHref(unit)} />
         ))}
       </React.Fragment>
     );
@@ -1214,14 +1259,14 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
           {board.future.length > 0 && (
             <div className="gp-ovb-scroll">
               {board.future.map((unit) => (
-                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} />
+                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" onOpen={unitLink(unit)} href={unitHref(unit)} />
               ))}
             </div>
           )}
           {board.pinned.length > 0 && (
             <div className="gp-ovb-pins">
               {board.pinned.map((unit) => (
-                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" note="copium" onOpen={unitLink(unit)} />
+                <BannerBoardRow key={unit.name} unit={unit} status="upcoming" note="copium" onOpen={unitLink(unit)} href={unitHref(unit)} />
               ))}
             </div>
           )}
@@ -1232,7 +1277,7 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   return (
     <section className="gp-ovb" aria-label="Banner schedule">
       <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
-        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} /> : null}
+        {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} unitHref={unitHref} /> : null}
       </BannerBoardColumn>
       <BannerBoardColumn heading={aeUpcoming.length ? 'Upcoming' : null}>
         {aeColumn(0)}
@@ -1243,14 +1288,38 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       <BannerBoardColumn>
         {aeColumn(2)}
       </BannerBoardColumn>
-      {lossHelp && (
-        <div className="gp-ovb-modal" role="dialog" aria-modal="true" aria-label="Endfield loss rates"
-             onClick={() => setLossHelp(false)}>
-          <div className="gp-ovb-modal-box" onClick={(event) => event.stopPropagation()}>
-            <button type="button" className="gp-ovb-modal-close" onClick={() => setLossHelp(false)} aria-label="Close">×</button>
-            <img src="../assets/info/endfield-loss-rates.webp" alt="Arknights: Endfield headhunting rates, showing what a 50/50 loss can give" />
+      {currentLossPool && (
+        <dialog ref={lossDialogRef} className="gp-ovb-modal" aria-labelledby="gp-endfield-loss-title"
+                onKeyDown={(event) => { if (event.key === 'Escape') closeLossHelp(); }}
+                onClick={(event) => { if (event.target === event.currentTarget) closeLossHelp(); }}>
+          <div className="gp-ovb-modal-box">
+            <div className="gp-ovb-modal-head">
+              <div>
+                <span>Chartered Headhunting</span>
+                <h2 id="gp-endfield-loss-title">Available on loss</h2>
+              </div>
+              <button type="button" className="gp-ovb-modal-close" onClick={closeLossHelp} aria-label="Close">×</button>
+            </div>
+            <p className="gp-ovb-loss-rule">The current banner is the win. On a 6★ loss, you can get up to two preceding rate-ups or a permanent operator. A rate-up leaves after its third Chartered banner.</p>
+            <div className="gp-ovb-loss-sequence" aria-label="Recent Chartered rate-ups">
+              {lossSequence.map((row) => (
+                <div className="gp-ovb-loss-step" key={row.label}>
+                  <span>{row.label}</span>
+                  <BannerUnit unit={row.unit} onOpen={lossUnitLink(row.unit)} href={unitHref(row.unit)} showBadge={false} />
+                  <strong>{row.outcome}</strong>
+                </div>
+              ))}
+            </div>
+            <section className="gp-ovb-loss-permanent" aria-labelledby="gp-endfield-permanent-title">
+              <h3 id="gp-endfield-permanent-title">Permanent operators · Available on loss</h3>
+              <div>
+                {currentLossPool.permanent.map((unit) => (
+                  <BannerUnit key={unit.name} unit={unit} onOpen={lossUnitLink(unit)} href={unitHref(unit)} showBadge={false} />
+                ))}
+              </div>
+            </section>
           </div>
-        </div>
+        </dialog>
       )}
     </section>
   );
@@ -1758,15 +1827,21 @@ const buildTrack = (cfg) => Object.assign({ pull:'Wish', pulls:'Wishes', currenc
 /* ---------------- pinned favourites ---------------- */
 
 
-function FavIconPinned({ ch, cfg, onOpen }){
+function FavIconPinned({ ch, cfg, onOpen, href }){
+  const inner = (
+    <React.Fragment>
+      <span>
+        <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
+      </span>
+      <b>{ch.name}</b>
+    </React.Fragment>
+  );
   return (
     <div className="gp-fav-icon gp-fav-icon--sim">
-      <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>
-        <span>
-          <img src={ch.icon || cfg.benchIcon} alt="" draggable="false" />
-        </span>
-        <b>{ch.name}</b>
-      </button>
+      {href
+        ? <a className="gp-fav-icon-open" href={href} draggable={false} aria-label={ch.name}
+             onClick={(event) => nyxNavClick(event, () => onOpen(ch))}>{inner}</a>
+        : <button type="button" className="gp-fav-icon-open" onClick={() => onOpen(ch)} aria-label={ch.name}>{inner}</button>}
     </div>
   );
 }
@@ -1818,6 +1893,10 @@ function Favourites({ cfg, onOpenMaterial, settings }){
     const game = ch.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key;
     if (game && game !== 'nyx') onOpenMaterial(game, ch.name, { from:cfg.key === 'nyx' ? 'nyx' : 'characters' });
   };
+  // Same game resolution as openCharacter, so the link and the click agree.
+  const characterHref = (ch) => (
+    nyxCharacterHref(ch?.gameKey && ch.gameKey !== 'nyx' ? ch.gameKey : cfg.key, ch?.name)
+  );
 
   return (
     <section className={'gp-favs game-' + cfg.key} aria-labelledby={'gp-favs-title-' + cfg.key}>
@@ -1828,7 +1907,7 @@ function Favourites({ cfg, onOpenMaterial, settings }){
       {cards.length === 0
         ? <p className="gp-fav-empty">Favourite a character from the roster to pin them here.</p>
         : <div className="gp-fav-icon-grid">
-            {cards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} />)}
+            {cards.map((ch) => <FavIconPinned key={nyxPinnedCharacterId(cfg.key, ch)} ch={ch} cfg={cfg} onOpen={openCharacter} href={characterHref(ch)} />)}
           </div>}
     </section>
   );
@@ -2301,7 +2380,6 @@ function CollectionLibrary({ game, view, onViewChange }){
 
   return (
     <div className="db-lib">
-      {/* No page title; the search docks after the last tab (user 2026-07-16). */}
       <div className="db-tabs">
         {collections.map(c => (
           <button type="button" key={c.key} className={!specialActive && cur && c.key === cur.key ? 'on' : ''} onClick={() => pickCollection(c.key)}>
@@ -2309,11 +2387,14 @@ function CollectionLibrary({ game, view, onViewChange }){
           </button>
         ))}
         {specialViews.map(s => (
-          <button type="button" key={s.key} className={view === s.key ? 'on' : ''} onClick={() => onViewChange && onViewChange(s.key)}>
+          <a key={s.key} className={view === s.key ? 'on' : ''} href={routePathFor(game, s.key, null)} draggable={false}
+             aria-current={view === s.key ? 'page' : undefined}
+             onClick={(event) => nyxNavClick(event, () => onViewChange && onViewChange(s.key))}>
             <span>{s.title}</span>
-          </button>
+          </a>
         ))}
-        {!specialActive && (
+      </div>
+      {!specialActive && (
         <div className="db-search-tools">
           <div className="gp-search">
             <span className="ic"></span>
@@ -2324,8 +2405,7 @@ function CollectionLibrary({ game, view, onViewChange }){
             filters={filters} onClear={() => setFilters({})} onToggle={toggleFilter}
             facets={facets.map((facet) => ({ key:facet.key, label:nyxDatabaseFacetLabel(facet.key), values:facet.values }))} />}
         </div>
-        )}
-      </div>
+      )}
       {!specialActive && extraState === 'loading' && (
         <div className="db-load-state" role="status" aria-live="polite">
           <span className="db-load-spinner" aria-hidden="true"></span>
@@ -2523,11 +2603,18 @@ function CollectionCard({ item, onOpen }){
   );
 }
 
-function CollectionDetailModal({ item, onClose }){
+function CollectionDetailModal({ item, context, onClose }){
   const closeRef = React.useRef(null);
   const cardRef = React.useRef(null);
-  const fields = Object.entries(item.fields || {}).filter(([, value]) => dbHasValue(value));
-  const skills = Array.isArray(item.skills) ? item.skills.filter((skill) => dbHasValue(skill)) : [];
+  const isShadowRealm = context === 'shadowRealm';
+  const kind = String(item.kind || '').toLowerCase();
+  const isWeapon = kind === 'weapon' || kind === 'weapons';
+  const hideKind = isShadowRealm || kind === 'artifact' || isWeapon || kind === 'monster' || kind === 'item';
+  const fields = isShadowRealm ? [] : Object.entries(item.fields || {}).filter(([key, value]) => dbHasValue(value)
+    && !((kind === 'artifact' || kind === 'item') && (key === 'rarity' || key === 'type'))
+    && !(kind === 'monster' && key === 'type'));
+  const realWeapon = isWeapon && ['baseAttack', 'subStat', 'weaponEffect'].every((key) => fields.some(([field]) => field === key));
+  const skills = isShadowRealm ? [] : Array.isArray(item.skills) ? item.skills.filter((skill) => dbHasValue(skill)) : [];
 
   React.useEffect(() => {
     const onKeyDown = (event) => {
@@ -2564,13 +2651,13 @@ function CollectionDetailModal({ item, onClose }){
         <button type="button" ref={closeRef} className="db-modal-close" aria-label={'Close ' + item.name + ' details'} onClick={onClose}>{'\u2715'}</button>
         <DatabaseItemFrame className="db-modal-media" art={item.art} fallback={simInitials(item.name)} rarity={item.fields?.rarity} />
         <div className="db-modal-copy">
-          <span className="db-modal-kind">{dbFieldLabel(item.kind || 'Database record')}</span>
+          {!hideKind && <span className="db-modal-kind">{dbFieldLabel(item.kind || 'Database record')}</span>}
           <h2>{item.name}</h2>
           {item.text && <p className="db-modal-description">{item.text}</p>}
           {fields.length > 0 && (
-            <dl className="db-modal-fields">
+            <dl className={'db-modal-fields' + (isWeapon ? ' is-weapon' : '') + (realWeapon ? ' is-real-weapon' : '')}>
               {fields.map(([key, value]) => (
-                <div key={key}><dt>{dbFieldLabel(key)}</dt><dd>{dbFieldValue(value)}</dd></div>
+                <div key={key} className={realWeapon && key === 'weaponEffect' ? 'is-wide' : undefined}><dt>{dbFieldLabel(key)}</dt><dd>{dbFieldValue(value)}</dd></div>
               ))}
             </dl>
           )}
@@ -2614,7 +2701,7 @@ function GenshinShadowRealmView(){
       <DatabaseGroupedList items={visible} showAllRarities groupKey="type"
         renderItem={(item) => <CollectionCard key={item.id} item={item} onOpen={setDetail} />} />
       {visible.length === 0 && <div className="db-empty">No Shadow Realm items match your search.</div>}
-      {detail && <CollectionDetailModal item={detail} onClose={() => setDetail(null)} />}
+      {detail && <CollectionDetailModal item={detail} context="shadowRealm" onClose={() => setDetail(null)} />}
     </div>
   );
 }
@@ -3505,10 +3592,8 @@ function GenshinPotView(){
 }
 
 /* ================= content panels ================= */
-// Keyboard activation for role="button" nav rows (Enter / Space).
-function navKeyDown(fn){
-  return (e) => { if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); fn(); } };
-}
+// (navKeyDown removed: the Achievements nav row was the only role="button" row
+// left, and it is now a real link that Enter activates on its own.)
 
 // Which games have an achievement tracker.
 //
@@ -3516,10 +3601,8 @@ function navKeyDown(fn){
 // of the launcher work and is not bundled yet. Until it is, fall back to the
 // two games that already shipped a tracker — without this the tab silently
 // disappears and /<game>/achievements stops routing.
-/* The living eye, moved out of the top bar and parked under Settings at the
-   foot of the side nav (user 2026-08-09). Decoration only — the Pengo wordmark
-   in the top bar keeps the back-to-Worlds link. Owns its own wander timer so it
-   survives switching between the hub and a game page. */
+/* The living eye opens the Pengo shimeji controls. It owns its wander timer so
+   the animation survives switching between the hub and a game page. */
 function NyxNavEye(){
   const ballRef = React.useRef(null);
   React.useEffect(() => {
@@ -3535,13 +3618,15 @@ function NyxNavEye(){
     return () => clearTimeout(tm);
   }, []);
   return (
-    <div className="gp-nav-eye" aria-hidden="true">
-      <span className="tb-eye">
+    <button type="button" id="nyx-shimeji-toggle" className="gp-nav-eye"
+            aria-label="Open Magnum Opus Pengonis" aria-haspopup="dialog"
+            aria-controls="nyx-shimeji-menu" aria-expanded="false">
+      <span className="tb-eye" aria-hidden="true">
         <span className="elayer ball" ref={ballRef}></span>
         <span className="elayer lid"></span>
         <span className="elayer drips"></span>
       </span>
-    </div>
+    </button>
   );
 }
 
@@ -3585,10 +3670,13 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
   // G13: the section list the Characters header icon-dropdown switches between.
   const sectionKey = (f) => /tracker$/i.test(f) ? 'tracker' : /^gallery$/i.test(f) ? 'gallery' : /^(characters|character materials)$/i.test(f) ? 'mats' : 'database';
   const sections = [{ key:'overview', label:'Overview' }, ...visibleFns.map((f) => ({ key:sectionKey(f), label:f })), ...(hasAchievements ? [{ key:'achievements', label:'Achievements' }] : []), ...(hasLibrary ? [{ key:'books', label:'Library' }] : []), { key:'settings', label:'Settings' }];
+  // Each section already has a real address; handing it to the nav row as an
+  // href is what makes ctrl/cmd/middle-click open the section in a new tab.
+  const tabHref = (key) => routePathFor(cfg.key, key, null);
   return (
     <div className="gp-layout">
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Tools">
-        <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} onActivate={() => setTab('overview')} />
+        <GPSectionNavButton active={tab === 'overview'} label="Overview" arrow={false} href={tabHref('overview')} onActivate={() => setTab('overview')} />
         {visibleFns.map(f => {
           const isTracker = /tracker$/i.test(f);
           const isGallery = /^gallery$/i.test(f);
@@ -3598,20 +3686,21 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
           // Database nav row lit.
           const isOn = tab === key || (key === 'database' && (tab === 'shadow' || tab === 'tcg' || tab === 'pot' || tab === 'wonderland'));
           return (
-            <GPSectionNavButton key={f} active={isOn} label={f} onActivate={() => setTab(key)} />
+            <GPSectionNavButton key={f} active={isOn} label={f} href={tabHref(key)} onActivate={() => setTab(key)} />
           );
         })}
         {hasAchievements && (
-          <div className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
-               role="button" tabIndex={0} aria-current={tab === 'achievements' ? 'page' : undefined}
-               onClick={() => setTab('achievements')} onKeyDown={navKeyDown(() => setTab('achievements'))}>
+          <a className={'gp-fn-row click' + (tab === 'achievements' ? ' on' : '')}
+             href={tabHref('achievements')} draggable={false}
+             aria-current={tab === 'achievements' ? 'page' : undefined}
+             onClick={(event) => nyxNavClick(event, () => setTab('achievements'))}>
             <span className="dia" aria-hidden="true"></span><span>Achievements</span>
-          </div>
+          </a>
         )}
         {hasLibrary && (
-          <GPSectionNavButton active={tab === 'books'} label="Library" onActivate={() => setTab('books')} />
+          <GPSectionNavButton active={tab === 'books'} label="Library" href={tabHref('books')} onActivate={() => setTab('books')} />
         )}
-        <GPSectionNavButton active={tab === 'settings'} label="Settings" onActivate={() => setTab('settings')} />
+        <GPSectionNavButton active={tab === 'settings'} label="Settings" href={tabHref('settings')} onActivate={() => setTab('settings')} />
       </nav>
 
       {/* Overview board (user layout, 2026-08-08). One full-width grid: the
@@ -3651,6 +3740,7 @@ function GameContent({ cfg, tab, setTab, onOpenMaterial, settings, setSettings, 
             pinnedFavourites={!materialSelection?.name ? <Favourites key={cfg.key} cfg={cfg} onOpenMaterial={onOpenMaterial} settings={settings} /> : null}
             onCustomizeCharacter={openCharacterCustomize}
             onSelectCharacter={(ch) => onSelectMaterialCharacter && onSelectMaterialCharacter(cfg.key, ch)}
+            characterHref={(ch) => nyxCharacterHref(cfg.key, ch && (ch.rawName || ch.baseName || ch.n || ch.name))}
             onSelectedClose={() => {
               if (onCloseMaterialCharacter) onCloseMaterialCharacter(cfg.key);
               else if (setMaterialSelection) setMaterialSelection(null);
@@ -3727,15 +3817,23 @@ function BdayChip({ entry, onOpenMaterial, onEdit }){
   }, [entry.iconBlob]);
   const gameLabel = GAME_REGISTRY[entry.game]?.name || entry.label || (entry.custom ? 'Custom birthday' : entry.game);
   const activate = (event) => entry.custom ? onEdit?.(entry, event.currentTarget) : onOpenMaterial?.(entry.game, entry.name);
+  // A custom birthday opens the editor rather than a character page, so it has
+  // no address and stays a button.
+  const href = entry.custom ? undefined : nyxCharacterHref(entry.game, entry.name);
+  const cls = 'bcal-chip g-' + entry.game;
+  const title = entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + gameLabel + ')' + (entry.custom ? ' — edit' : '');
+  const label = entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + gameLabel + (entry.custom ? ', edit birthday' : '');
+  const inner = (blobUrl || entry.icon)
+    ? <img src={blobUrl || entry.icon} alt="" draggable="false" loading="lazy" />
+    : <span className="bcal-chip-fallback">{nyxBirthdayInitials(entry.name)}</span>;
+  if (href) {
+    return (
+      <a className={cls} href={href} draggable={false} title={title} aria-label={label}
+         onClick={(event) => nyxNavClick(event, () => onOpenMaterial?.(entry.game, entry.name))}>{inner}</a>
+    );
+  }
   return (
-    <button type="button" className={'bcal-chip g-' + entry.game}
-            title={entry.name + ' — ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ' (' + gameLabel + ')' + (entry.custom ? ' — edit' : '')}
-            aria-label={entry.name + ', birthday ' + BDAY_MONTHS[entry.month] + ' ' + entry.day + ', ' + gameLabel + (entry.custom ? ', edit birthday' : '')}
-            onClick={activate}>
-      {(blobUrl || entry.icon)
-        ? <img src={blobUrl || entry.icon} alt="" draggable="false" loading="lazy" />
-        : <span className="bcal-chip-fallback">{nyxBirthdayInitials(entry.name)}</span>}
-    </button>
+    <button type="button" className={cls} title={title} aria-label={label} onClick={activate}>{inner}</button>
   );
 }
 
@@ -4010,6 +4108,11 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
   const unitLink = (unit) => (
     onOpenMaterial && unit?.name && rosterMap.has(normalizeUnitName(unit.name)) ? () => openUnit(unit) : null
   );
+  // Hub rows link into the game's own character page, never a hub address.
+  const unitHref = (unit) => {
+    const match = unit?.name ? rosterMap.get(normalizeUnitName(unit.name)) : null;
+    return match ? nyxCharacterHref(cfg.key, match.rawName || match.name || unit.name) : undefined;
+  };
   const sections = [];
   // A unit is listed once per column. The ZZZ feed in particular repeats the
   // same names across its next and upcoming phases, and two sections carrying
@@ -4062,7 +4165,7 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
             )}
           </div>
           {section.units.map((unit) => (
-            <BannerBoardRow key={section.key + unit.name} unit={unit} status={section.status} onOpen={unitLink(unit)} />
+            <BannerBoardRow key={section.key + unit.name} unit={unit} status={section.status} onOpen={unitLink(unit)} href={unitHref(unit)} />
           ))}
         </div>
       ))}
@@ -4120,7 +4223,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
     <div className="gp-layout">
       <nav ref={sideNavRef} className="gp-side-nav" aria-label="Sections">
         {NAV.map(n => (
-          <GPSectionNavButton key={n.key} active={tab === n.key} label={n.label} diamond={false} onActivate={() => setTab(n.key)} />
+          <GPSectionNavButton key={n.key} active={tab === n.key} label={n.label} diamond={false} href={routePathFor('nyx', n.key, null)} onActivate={() => setTab(n.key)} />
         ))}
       </nav>
       {/* The server-region control, reset timers and codes aside were removed
@@ -4242,15 +4345,6 @@ function routeSlug(value){
     .replace(/^-+|-+$/g, '');
 }
 
-function routeDisplayName(value){
-  const raw = String(value || '').trim();
-  if (!raw) return '';
-  if (raw === raw.toLowerCase()) {
-    return raw.split(/[-_]+/).filter(Boolean).map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
-  }
-  return raw;
-}
-
 function routeFromLocation(){
   try {
     const parts = location.pathname
@@ -4294,6 +4388,15 @@ function routePathFor(key, tab, selection, timelineGame){
   return slug ? base + '/' + slug : base;
 }
 
+// The address of a character's own page. Every control that opens a character
+// hands this to its `href`, so ctrl/cmd/middle-click lands them in a new tab
+// while a plain click stays an in-app switch. The hub has no character pages of
+// its own — those always belong to a game.
+function nyxCharacterHref(key, name){
+  if (!key || key === 'nyx' || !name) return undefined;
+  return routePathFor(key, 'mats', { game:key, name });
+}
+
 function routeStateFor(key, tab, selection){
   return {
     nyxKey:key,
@@ -4301,21 +4404,6 @@ function routeStateFor(key, tab, selection){
     nyxCharacter:selection && selection.game === key ? (selection.name || selection.slug || null) : null,
     nyxFrom:selection && selection.game === key && (selection.from === 'calendar' || selection.from === 'nyx') ? selection.from : null,
   };
-}
-
-function routeTitleFor(key, tab, selection, timelineGame){
-  const cfg = key === 'nyx' ? NYX_META : GAME_REGISTRY[key];
-  const name = cfg?.name || 'Nyx';
-  const selectedName = selection && selection.game === key ? routeDisplayName(selection.name) : '';
-  if (selectedName) return 'Nyx \u2014 ' + selectedName + ' \u2014 ' + name;
-  if (key === 'nyx') {
-    // The hub's overview tab is titled Banners (user 2026-08-09).
-    const nyxLabel = { overview:'Banners', characters:'Pinned Characters', codes:'Redemption Codes' }[tab]
-      || (tab ? tab.replace(/\b\w/g, (c) => c.toUpperCase()) : '');
-    return nyxLabel ? 'Nyx \u2014 ' + nyxLabel : 'Nyx';
-  }
-  const label = { mats:'Characters', database:'Database', gallery:'Gallery', tracker:'Tracker', shadow:'TPS: Shadow Realm', tcg:'TCG', pot:'Serenitea Pot', wonderland:'Miliastra Wonderland', achievements:'Achievements', books:'Library', settings:'Settings' }[tab] || '';
-  return label ? 'Nyx \u2014 ' + label + ' \u2014 ' + name : 'Nyx \u2014 ' + name;
 }
 
 function validTabsForKey(key){
@@ -4368,17 +4456,7 @@ const NYX_PENGO_DEFAULTS = {
   language: NYX_LANGUAGE_DEFAULTS,
   specialUnits: NYX_SPECIAL_UNIT_DEFAULTS,
   alwaysBeta: false,
-  lapis: false,
-  energy: 35,
-  spawn: 1,
-  sacrifice: 1,
 };
-
-function clampPengoNumber(value, min, max){
-  const n = parseInt(value, 10);
-  if (!isFinite(n)) return min;
-  return Math.max(min, Math.min(max, n));
-}
 
 function sanitizeNyxIdentity(raw){
   const src = (raw && typeof raw === 'object') ? raw : {};
@@ -4421,9 +4499,6 @@ function loadPengoSettings(){
       language: sanitizeNyxLanguage(raw.language),
       specialUnits: sanitizeSpecialUnits(raw.specialUnits),
       alwaysBeta: raw.alwaysBeta === true,
-      energy: clampPengoNumber(raw.energy ?? NYX_PENGO_DEFAULTS.energy, 1, 69),
-      spawn: clampPengoNumber(raw.spawn ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999),
-      sacrifice: clampPengoNumber(raw.sacrifice ?? NYX_PENGO_DEFAULTS.sacrifice, 0, 9999),
     });
   } catch (e) {
     return Object.assign({}, NYX_PENGO_DEFAULTS);
@@ -4613,12 +4688,6 @@ function PengoMenu({ settings, setSettings, inline }){
   const language = sanitizeNyxLanguage(settings.language);
   const setIdentity = (group, value) => update({ identity:Object.assign({}, identity, { [group]:value }) });
   const setLanguage = (gameKey, value) => update({ language:Object.assign({}, language, { [gameKey]:value }) });
-  const opusCount = clampPengoNumber(settings.spawn ?? settings.sacrifice ?? NYX_PENGO_DEFAULTS.spawn, 0, 9999);
-  const setOpusCount = (value) => {
-    const next = clampPengoNumber(value, 0, 9999);
-    update({ spawn:next, sacrifice:next });
-  };
-  const bumpOpusCount = (delta) => setOpusCount(opusCount + delta);
   const toggleDisplayGame = (key) => update({
     displayGames:Object.assign({}, displayGames, { [key]:displayGames[key] === false }),
   });
@@ -4656,12 +4725,6 @@ function PengoMenu({ settings, setSettings, inline }){
     khaenriah: NYX_PENGO_DEFAULTS.khaenriah,
     alwaysBeta: NYX_PENGO_DEFAULTS.alwaysBeta,
   });
-  const resetOpus = () => update({
-    lapis: NYX_PENGO_DEFAULTS.lapis,
-    energy: NYX_PENGO_DEFAULTS.energy,
-    spawn: NYX_PENGO_DEFAULTS.spawn,
-    sacrifice: NYX_PENGO_DEFAULTS.sacrifice,
-  });
   const resetGame = (gameKey, groupKey, specials) => update({
     displayGames:Object.assign({}, displayGames, { [gameKey]:NYX_PENGO_DISPLAY_DEFAULTS[gameKey] }),
     gameIcons:Object.fromEntries(Object.entries(gameIcons).filter(([key]) => key !== gameKey)),
@@ -4688,33 +4751,6 @@ function PengoMenu({ settings, setSettings, inline }){
          aria-label="Pengo settings"
          onClick={(e) => e.stopPropagation()}>
       <div className="settings-nyx-col">
-        <section className="pm-section pm-opus">
-          <h3>Magnum Opus Pengonis</h3>
-          <button type="button" className="pm-row" data-tip="Power assistant Pengo On/Off"
-                  onClick={() => update({ lapis:!settings.lapis })}>
-            <span>Lapis Philosophorum</span><b className="pm-state">{settings.lapis ? 'On' : 'Off'}</b>
-          </button>
-          <label className="pm-slider" data-tip="Change how much energy is being poured into Pengo. Size change.">
-            <span>Energy</span>
-            <input type="range" min="1" max="69" value={settings.energy}
-                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })} />
-            <input type="number" min="1" max="69" inputMode="numeric" value={settings.energy}
-                   aria-label="Energy value"
-                   onChange={(e) => update({ energy:clampPengoNumber(e.target.value, 1, 69) })}
-                   onFocus={(e) => e.target.select()} />
-          </label>
-          <div className="pm-opus-actions">
-            <button type="button" className="pm-action" data-tip="Summon more Pengo assistants to keep you company!">Summon</button>
-            <button type="button" className="pm-action" data-tip="Every Pengo returns to the Void. There, they await your inevitable arrival, ready to serve once more.">Sacrifice</button>
-            <div className="pm-stepper" aria-label="Pengo count">
-              <button type="button" aria-label="Decrease Pengo count" onClick={() => bumpOpusCount(-1)}>-</button>
-              <input type="text" inputMode="numeric" pattern="[0-9]*" value={opusCount}
-                     aria-label="Pengo count" onChange={(e) => setOpusCount(e.target.value)} />
-              <button type="button" aria-label="Increase Pengo count" onClick={() => bumpOpusCount(1)}>+</button>
-            </div>
-          </div>
-          <button type="button" className="pm-reset" data-tip="Reset the Magnum Opus Pengonis to default" onClick={() => askReset('Magnum Opus Pengonis', resetOpus)}>Reset</button>
-        </section>
         <section className="pm-section pm-interface">
           <h3>Interface</h3>
           <button type="button" className={'pm-row media ' + settings.animation}
@@ -4980,7 +5016,7 @@ function NyxApp(){
         const method = opts && opts.replace ? 'replaceState' : 'pushState';
         window.history[method](routeStateFor(safeKey, safeTab, selection), '', target);
       }
-      document.title = routeTitleFor(safeKey, safeTab, selection, game);
+      document.title = ({ nyx:'Pengo: Nyx', gi:'Pengo: GI', hsr:'Pengo: HSR', zzz:'Pengo: ZZZ', wuwa:'Pengo: WW', ae:'Pengo: AKE' })[safeKey] || 'Pengo';
     } catch (e) {}
   }, []);
 
@@ -5092,8 +5128,15 @@ function NyxApp(){
     };
     const onWheel = (event) => {
       if (event.defaultPrevented || event.ctrlKey || event.metaKey) return;
-      if (Math.abs(event.deltaY) < 1 || Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
+      if (Math.abs(event.deltaX) > Math.abs(event.deltaY) * 1.2) return;
       const target = event.target instanceof Element ? event.target : null;
+      const bannerList = target?.closest('.gp-ovb-scroll');
+      if (bannerList) {
+        event.preventDefault();
+        bannerList.scrollBy({ top:event.deltaY, left:0, behavior:'auto' });
+        return;
+      }
+      if (Math.abs(event.deltaY) < 1) return;
       const closestContent = target && contentScrollTargets
         .map((selector) => target.closest(selector))
         .find((el) => canScrollY(el, event.deltaY));
@@ -5189,6 +5232,13 @@ function NyxApp(){
   const openMaterialPage = (game, name, options) => {
     const targetGame = (game && game !== 'nyx') ? game : activeKey;
     if (!targetGame || targetGame === 'nyx' || !name) return;
+    const wanted = normalizeUnitName(name);
+    const fullRoster = getCmRoster(targetGame) || [];
+    const matching = fullRoster.find((ch) => [
+      ch.n, ch.name, ch.rawName, ...(ch.aliases || []),
+      ...((ch.forms || []).flatMap((form) => [form.n, form.name, form.rawName, form.label])),
+    ].filter(Boolean).some((value) => normalizeUnitName(value) === wanted));
+    if (matching && cmIsUpcomingOnly(matching)) return;
     setActiveKey(targetGame);
     setTab('mats');
     setCharacterCustomize(null);

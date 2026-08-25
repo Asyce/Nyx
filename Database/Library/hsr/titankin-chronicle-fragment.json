@@ -5,7 +5,7 @@
   "name": "Titankin Chronicle Fragment",
   "sortId": 103872,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Titankin_Chronicle_Fragment",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -123,16 +123,6 @@
               }
             ],
             "id": "p-46fd109b4efdb11b"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

@@ -56764,10 +56764,10 @@
       "release": 1786406400000,
       "releasePatch": "7.0",
       "voiceActors": {
+        "english": "imdb:nm8517409|Kevin Andrew Rivera",
         "japanese": "Gen Sat\u014d|Sato Gen (\u4f50\u85e4 \u5143)",
         "chinese": "https://zh.moegirl.org.cn/\u738b\u8f85\u5e73|Wang Fuping (\u738b\u8f85\u5e73)",
-        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)",
-        "english": "Kevin Andrew Rivera"
+        "korean": "https://namu.wiki/w/\uae40\ud61c\uc131(\uc131\uc6b0)|Kim Hye-sung (\uae40\ud61c\uc131)"
       },
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
@@ -190619,7 +190619,8 @@
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Chiori.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/chiori/01-Chiori Birthday 2024.png",
-        "../../Database/GenshinWiki/birthday-art/chiori/02-Chiori Birthday 2025.png"
+        "../../Database/GenshinWiki/birthday-art/chiori/02-Chiori Birthday 2025.png",
+        "../../Database/GenshinWiki/birthday-art/chiori/03-Chiori Birthday 2026.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Chiori.png",
       "skillIcons": [
@@ -203374,7 +203375,8 @@
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/navia/01-Navia Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/navia/02-Navia Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/navia/03-Navia Birthday 2026.jpg"
+        "../../Database/GenshinWiki/birthday-art/navia/03-Navia Birthday 2026.jpg",
+        "../../Database/GenshinWiki/birthday-art/navia/04-Navia Birthday 2026.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Navia.png",
       "skillIcons": [
@@ -501821,6 +501823,70 @@
             "Linnea",
             "Sandrone"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Snezhnaya - Relics of the Fallen Grace",
+      "trios": [
+        {
+          "name": "Charity",
+          "firstId": 104365,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104367",
+            "name": "Philosophies of Charity",
+            "n": "Philosophies of Charity",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104367.webp"
+          },
+          "chars": [
+            "Odette",
+            "Traveler"
+          ]
+        },
+        {
+          "name": "Fortitude",
+          "firstId": 104368,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104370",
+            "name": "Philosophies of Fortitude",
+            "n": "Philosophies of Fortitude",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104370.webp"
+          },
+          "chars": [
+            "Alyosha"
+          ]
+        },
+        {
+          "name": "Glory",
+          "firstId": 104371,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104373",
+            "name": "Philosophies of Glory",
+            "n": "Philosophies of Glory",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104373.webp"
+          },
+          "chars": []
         }
       ]
     }

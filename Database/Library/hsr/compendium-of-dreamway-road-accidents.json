@@ -5,7 +5,7 @@
   "name": "Compendium of Dreamway Road Accidents",
   "sortId": 70884,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Compendium_of_Dreamway_Road_Accidents",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -248,16 +248,6 @@
               }
             ],
             "id": "p-c3d223826188b91b"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

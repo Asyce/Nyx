@@ -5,7 +5,7 @@
   "name": "Bragi's Resignation Letter",
   "sortId": 137705,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Bragi%27s_Resignation_Letter",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -151,13 +151,9 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-80ea410f34e2bb4b"
+            "id": "p-cb6669b5eeb68cca"
           }
         ]
       }

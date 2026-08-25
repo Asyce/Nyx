@@ -78,7 +78,7 @@
     {
       "type": 1,
       "title": "Join Team: III",
-      "content": "I will be there for everyone... As we head toward our shared future, leaving the past behind.",
+      "content": "Let me be there for everyone... As we head toward our shared future, leaving the past behind.",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_nvzhu_join_team_03.play_favor_word_nvzhu_join_team_03"
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "type": 2,
-      "title": "CONCERTO SKILL",
+      "title": "Intro Skill",
       "content": "Thunderous aftershock!",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_thunder_nvzhu_skill_qte.play_favor_word_thunder_nvzhu_skill_qte"
     },

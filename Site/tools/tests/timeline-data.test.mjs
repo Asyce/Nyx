@@ -449,13 +449,14 @@ test('the event name is the marked span in the official title, across all five f
   assert.equal(api.eventDisplayTitle(null), '');
 });
 
-test('the events card shows the short name and keeps the official title for the tooltip', () => {
+test('the event card and dialog show the short event name while retaining the source title in data', () => {
   const now = Date.parse('2026-08-08T12:00:00.000Z');
   const full = '"Ley Line Overflow" Event - Double Drops From Blossoms of Wealth!';
   const [card] = api.currentEvents([eventRecord('ley', { title:full, start:'2026-08-03T00:00:00.000Z', end:'2026-08-10T00:00:00.000Z' })], now, 'eu', 6);
   assert.equal(card.title, 'Ley Line Overflow');
   assert.equal(card.fullTitle, full);
-  assert.match(viewSource, /title=\{block\.fullTitle \|\| block\.title\}/);
+  assert.match(viewSource, /<h3 className="gp-oev-title">\{block\.title\}<\/h3>/);
+  assert.match(viewSource, /<h2>\{block\.title\}<\/h2>/);
 });
 
 test('the event blurb drops the dates the card already counts down', () => {
@@ -481,15 +482,48 @@ test('the event blurb drops the dates the card already counts down', () => {
   assert.equal(clean(null), '');
 });
 
+test('event details become semantic blocks without losing publisher text', () => {
+  const source = 'Opening paragraph. 〓Event Rules〓 Follow the trail. ● Find the first item. ● Return to camp. ※ Rewards are sent by mail. ✦Bonus Details✦ Claim them before expiry.';
+  const blocks = plain(api.eventDetails(source));
+  assert.deepEqual(blocks, [
+    { type:'paragraph', text:'Opening paragraph.' },
+    { type:'heading', text:'Event Rules' },
+    { type:'paragraph', text:'Follow the trail.' },
+    { type:'list', items:['Find the first item.', 'Return to camp.'] },
+    { type:'note', text:'Rewards are sent by mail.' },
+    { type:'heading', text:'Bonus Details' },
+    { type:'paragraph', text:'Claim them before expiry.' },
+  ]);
+  const renderedText = blocks.flatMap((block) => block.items || [block.text]).join(' ');
+  assert.equal(renderedText, source.replace(/[〓✦●※]/g, ' ').replace(/\s+/g, ' ').trim());
+  assert.deepEqual(plain(api.eventDetails(null)), []);
+});
+
 // 2026-08-09: the card no longer links out to the official notice — that page
 // is being replaced by an API. Clicking it opens the full description instead.
 test('the event card opens its full description and never links out', () => {
   assert.doesNotMatch(viewSource, /className="gp-oev-link"/);
   assert.doesNotMatch(viewSource, /Official notice<\/a>/);
-  assert.doesNotMatch(viewSource, /NYX_EVENT_TYPE_LABEL\[block\.type\]/);
+  assert.doesNotMatch(viewSource, /NYX_EVENT_TYPE_LABEL|<dt>Type<\/dt>/);
   assert.match(viewSource, /className="gp-oev-open"/);
   assert.match(viewSource, /function EventDetailDialog/);
-  assert.match(viewSource, /var excerpt = nyxTlCleanEventText\(block\.description\)/, 'the card blurb is no longer pre-truncated');
+  assert.match(viewSource, /aria-label=\{'View details for ' \+ block\.title\}/);
+  assert.match(viewSource, /aria-label="Close event details"/);
+  assert.match(viewSource, /className="gp-oev-modal-countdowns"/);
+  assert.match(viewSource, /<dt>Start<\/dt><dd><strong>\{startCountdown\}<\/strong><span>\{nyxTlViewDate\(block\.startMs/);
+  assert.match(viewSource, /<dt>End<\/dt><dd><strong>\{endCountdown\}<\/strong>/);
+  assert.match(viewSource, /<h3>Event Details<\/h3>/);
+  assert.match(viewSource, /var details = nyxTlEventDetails\(block\.description\)/);
+  assert.match(viewSource, /part\.type === 'heading'[\s\S]*?<h4[\s\S]*?\{part\.text\}<\/h4>/);
+  assert.match(viewSource, /part\.type === 'list'[\s\S]*?<ul[\s\S]*?<li key=\{bulletIndex\}>\{item\}<\/li>/);
+  assert.match(viewSource, /className=\{part\.type === 'note' \? 'gp-oev-modal-note' : undefined\}/);
+  assert.doesNotMatch(viewSource, /dangerouslySetInnerHTML/);
+  assert.match(viewSource, /<h2>\{block\.title\}<\/h2>/, 'row one uses the compact event name');
+  assert.match(viewSource, /'--gp-oev-modal-art':block\.image/);
+  assert.match(sharedCss, /\.gp-oev-modal-card\{[\s\S]*?background-image:[\s\S]*?var\(--gp-oev-modal-art\)/);
+  const stripSource = viewSource.slice(viewSource.indexOf('function CurrentEventsStrip'), viewSource.indexOf('function NyxGameTimelines'));
+  assert.doesNotMatch(stripSource, /block\.description/, 'compact cards contain no description');
+  assert.doesNotMatch(sharedCss, /\.gp-oev-text/);
 });
 
 test('the overview events card reads the player region window, not the merged europe-first one', () => {
@@ -515,32 +549,36 @@ test('the overview events card reads the player region window, not the merged eu
   assert.equal(asiaOnly.region, null);
 });
 
-test('the overview events card shows what is live now, then what starts next', () => {
+test('the overview events card returns every live or upcoming row ordered by end, then start', () => {
   const now = Date.parse('2026-08-08T12:00:00.000Z');
   const records = [
     eventRecord('live-later', { start:'2026-08-01T00:00:00.000Z', end:'2026-08-30T00:00:00.000Z' }),
     eventRecord('live-soon', { start:'2026-08-02T00:00:00.000Z', end:'2026-08-09T00:00:00.000Z' }),
     eventRecord('next-week', { start:'2026-08-15T00:00:00.000Z', end:'2026-08-25T00:00:00.000Z' }),
     eventRecord('tomorrow', { start:'2026-08-09T00:00:00.000Z', end:'2026-08-25T00:00:00.000Z' }),
+    eventRecord('live-middle', { start:'2026-08-03T00:00:00.000Z', end:'2026-08-12T00:00:00.000Z' }),
+    eventRecord('live-twentieth', { start:'2026-08-01T00:00:00.000Z', end:'2026-08-20T00:00:00.000Z' }),
+    eventRecord('upcoming-middle', { start:'2026-08-10T00:00:00.000Z', end:'2026-08-22T00:00:00.000Z' }),
     eventRecord('ended', { start:'2026-07-01T00:00:00.000Z', end:'2026-07-20T00:00:00.000Z' }),
   ];
-  const picked = api.currentEvents(records, now, 'eu', 6);
-  assert.deepEqual(plain(picked.map((row) => row.id)), ['live-soon', 'live-later', 'tomorrow', 'next-week']);
-  assert.deepEqual(plain(picked.map((row) => row.status)), ['live', 'live', 'upcoming', 'upcoming']);
-  assert.deepEqual(plain(api.currentEvents(records, now, 'eu', 2).map((row) => row.id)), ['live-soon', 'live-later'], 'the card is capped');
+  const picked = api.currentEvents(records, now, 'eu');
+  assert.deepEqual(plain(picked.map((row) => row.id)), ['live-soon', 'live-middle', 'live-twentieth', 'upcoming-middle', 'tomorrow', 'next-week', 'live-later']);
+  assert.deepEqual(plain(picked.map((row) => row.status)), ['live', 'live', 'live', 'upcoming', 'upcoming', 'upcoming', 'live']);
+  assert.equal(picked.length, 7, 'omitting the limit returns all eligible rows');
+  assert.deepEqual(plain(api.currentEvents(records, now, 'eu', 2).map((row) => row.id)), ['live-soon', 'live-middle'], 'an explicit positive numeric limit is still honoured');
 });
 
-test('an open-ended event stops counting as live once it is a year stale', () => {
+test('open-ended events sort last by start date and stale ones are excluded', () => {
   const now = Date.parse('2026-08-08T12:00:00.000Z');
   const records = [
-    eventRecord('no-end-recent', { start:'2026-07-08T00:00:00.000Z', end:null }),
+    eventRecord('no-end-older', { start:'2026-07-08T00:00:00.000Z', end:null }),
+    eventRecord('no-end-newer', { start:'2026-08-01T00:00:00.000Z', end:null }),
     eventRecord('no-end-ancient', { start:'2024-12-31T00:00:00.000Z', end:null }),
     eventRecord('dated', { start:'2026-08-01T00:00:00.000Z', end:'2026-08-12T00:00:00.000Z' }),
   ];
-  const picked = api.currentEvents(records, now, 'eu', 6);
-  // Confirmed end first, then the open-ended one; last year's preview is gone.
-  assert.deepEqual(plain(picked.map((row) => row.id)), ['dated', 'no-end-recent']);
-  assert.deepEqual(plain(picked.map((row) => row.status)), ['live', 'ongoing']);
+  const picked = api.currentEvents(records, now, 'eu');
+  assert.deepEqual(plain(picked.map((row) => row.id)), ['dated', 'no-end-older', 'no-end-newer']);
+  assert.deepEqual(plain(picked.map((row) => row.status)), ['live', 'ongoing', 'ongoing']);
 });
 
 test('the overview events card never shows a banner row, a permanent feature, or a guessed date', () => {
@@ -558,6 +596,19 @@ test('the overview events card never shows a banner row, a permanent feature, or
 test('the game overview shows the events card and no stale-banner disclaimer', () => {
   assert.match(appSource, /<CurrentEventsStrip game=\{cfg\.key\}/);
   assert.match(viewSource, /function CurrentEventsStrip\(\{ game, gameName, limit \}\)/);
+  assert.match(viewSource, /nyxTlCurrentEvents\(payload\.events, now, region, limit\)/);
+  assert.match(viewSource, /cards\.length > 9 \? ' is-scrollable' : ''/);
+  assert.match(viewSource, /headline:'Starts in ' \+ nyxTlCountdownLabel/);
+  assert.match(viewSource, /'Ends in ' \+ nyxTlCountdownLabel/);
+  assert.match(viewSource, /'End date not announced'/);
+  assert.match(sharedCss, /grid-template-columns:repeat\(3, minmax\(0, 1fr\)\)/);
+  assert.match(sharedCss, /@media \(max-width:1500px\)\{[\s\S]*?\.gp-event-grid\{ grid-template-columns:repeat\(2, minmax\(0, 1fr\)\); \}/);
+  assert.match(sharedCss, /@media \(max-width:900px\)\{[\s\S]*?\.gp-event-grid\{ grid-template-columns:minmax\(0, 1fr\); \}/);
+  assert.match(sharedCss, /\.gp-event-grid\.is-scrollable\{\s*max-height:calc\(396px[\s\S]*?overflow-y:auto;/);
+  assert.match(sharedCss, /@media \(max-width:1500px\)\{[\s\S]*?\.gp-event-grid\.is-scrollable\{ max-height:calc\(660px/);
+  assert.match(sharedCss, /@media \(max-width:900px\)\{[\s\S]*?\.gp-event-grid\.is-scrollable\{ max-height:calc\(1188px/);
+  assert.match(sharedCss, /grid-auto-rows:var\(--gp-event-row-height\)/);
+  assert.match(sharedCss, /\.gp-oev-modal-card\{[^}]*box-sizing:border-box;/);
   // Removed 2026-08-08 at the user's request; the quiet "Updated" line stays.
   assert.doesNotMatch(appSource, /Banner data may be out of date/);
   assert.doesNotMatch(appSource, /BannerFreshnessNote/);

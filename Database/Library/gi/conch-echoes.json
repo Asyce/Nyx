@@ -5,7 +5,7 @@
   "name": "Conch Echoes",
   "sortId": 404301,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Conch_Echoes",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -14,11 +14,6 @@
       "document": {
         "version": 1,
         "blocks": [
-          {
-            "type": "paragraph",
-            "children": [],
-            "id": "p-882a20e6379eb83a"
-          },
           {
             "type": "paragraph",
             "children": [
@@ -94,20 +89,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-90ae954697430f1c"
+            "id": "p-877b4ee468fca12b"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->Yes, this was the secret pact made by the children around the bonfire, to resist the adults who had made slaves of them."
+                "text": "Yes, this was the secret pact made by the children around the bonfire, to resist the adults who had made slaves of them."
               },
               {
                 "type": "br"
@@ -163,20 +154,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-e75d2e4c7fe31fbb"
+            "id": "p-127aaa0d3f4a8e3f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->\"So you think you can hold the conch?\""
+                "text": "\"So you think you can hold the conch?\""
               },
               {
                 "type": "br"
@@ -242,7 +229,7 @@
                 "text": "After that night, the boy who once held the conch seemed to have vanished into thin air."
               }
             ],
-            "id": "p-2535c2975ba8335f"
+            "id": "p-38f201b081594ad3"
           }
         ]
       }
@@ -254,11 +241,6 @@
       "document": {
         "version": 1,
         "blocks": [
-          {
-            "type": "paragraph",
-            "children": [],
-            "id": "p-882a20e6379eb83a"
-          },
           {
             "type": "paragraph",
             "children": [
@@ -341,20 +323,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-caddf3f57621570e"
+            "id": "p-dfb43939cd718095"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->\"When did you start seeing this?\""
+                "text": "\"When did you start seeing this?\""
               },
               {
                 "type": "br"
@@ -382,20 +360,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-df27a7747740216c"
+            "id": "p-d139fd7e7540be13"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->A pair of hands, holding a conch, emerged from between the boy and the girl. The owner of the hands stepped forward and placed the conch in the boy's hands."
+                "text": "A pair of hands, holding a conch, emerged from between the boy and the girl. The owner of the hands stepped forward and placed the conch in the boy's hands."
               },
               {
                 "type": "br"
@@ -468,7 +442,7 @@
                 "text": "And placed the conch amidst the children."
               }
             ],
-            "id": "p-7d2f8406b96a946d"
+            "id": "p-601ea51a1b56373c"
           }
         ]
       }

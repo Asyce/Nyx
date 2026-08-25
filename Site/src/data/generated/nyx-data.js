@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-18T10:00:12.047Z",
+  "generatedAt": "2026-08-25T09:46:59.632Z",
   "codes": {
-    "updated": "2026-08-18T00:40:57.915Z",
+    "updated": "2026-08-25T00:42:11.912Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -336,7 +336,7 @@ var NYX_DB = {
         },
         {
           "code": "STARRAILFATE2026",
-          "reward": "Three Traveler S Guides and Two the Fluffy Multi Functional Fan Glowsticks",
+          "reward": "three traveler's guides and two the fluffy multi",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -408,7 +408,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ2YEAR",
-          "reward": "50 Polychrome",
+          "reward": "Polychrome x 50",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -422,7 +422,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ31REMIELLE",
-          "reward": "60 Polychrome and 6,666 Denny",
+          "reward": "Polychrome x 60, Denny x 6,666",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -480,6 +480,23 @@ var NYX_DB = {
         }
       ],
       "ae": [
+        {
+          "code": "AKENDFIELDSUB",
+          "reward": "100 Oroberyl",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-08-20",
+          "firstSeen": "2026-08-21T15:24:44.221Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=AKENDFIELDSUB",
+          "redeemUrl": null
+        },
         {
           "code": "ENDFIELDRENEW",
           "reward": "One Safety Helmet Sticker and 71,600 T Creds",
@@ -552,34 +569,55 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-14T04:06:56.603Z",
-    "checkedAt": "2026-08-16T05:52:46.401Z",
+    "updated": "2026-08-24T02:51:02.524Z",
+    "checkedAt": "2026-08-24T02:51:02.524Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.4 Phase 2",
-          "start": "2026-07-15T03:00:00.000Z",
+          "start": "2026-08-05T17:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "characters": [
             {
-              "name": "Himeko Nova",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
+              "name": "Cerydra",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-15"
+              "debut": false,
+              "debutAt": "2025-09-02"
+            },
+            {
+              "name": "Anaxa",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-04-30"
+            },
+            {
+              "name": "Aventurine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2024-04-17"
             },
             {
               "name": "Moze",
@@ -613,39 +651,6 @@ var NYX_DB = {
               "rarity": 4,
               "debut": false,
               "debutAt": "2023-06-07"
-            },
-            {
-              "name": "Cerydra",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-09-02"
-            },
-            {
-              "name": "Anaxa",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-04-30"
-            },
-            {
-              "name": "Aventurine",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-17"
             }
           ],
           "subBanners": []
@@ -717,8 +722,8 @@ var NYX_DB = {
           {
             "phase": null,
             "teased": false,
-            "start": "2026-09-16T16:00:00.000Z",
-            "end": "2026-10-06T16:00:00.000Z",
+            "start": "2026-09-12T16:00:00.000Z",
+            "end": "2026-09-27T16:00:00.000Z",
             "characters": [
               {
                 "name": "Aventurine \u2022 Waveflair",
@@ -730,6 +735,17 @@ var NYX_DB = {
                 "rarity": 5,
                 "debut": true,
                 "debutAt": null
+              },
+              {
+                "name": "Ashveil",
+                "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
+                "iconZoom": false,
+                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2026-03-25"
               }
             ],
             "subBanners": []
@@ -762,7 +778,7 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Pearl",
-            "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -770,7 +786,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+            "hint": "Pearl Release in Phase 1 of Version 4.6",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
           },
@@ -793,12 +809,11 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -864,7 +879,7 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "7.0 Phase 2",
           "teased": false,
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T10:00:00.000Z",
@@ -925,12 +940,12 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters from Official Channels",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -939,12 +954,12 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters Mentioned In-Game",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -1017,7 +1032,9 @@ var NYX_DB = {
             "hint": "Characters from Official Channels",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
+          }
+        ],
+        "pinned": [
           {
             "name": "Alice",
             "icon": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
@@ -1045,90 +1062,33 @@ var NYX_DB = {
             "hint": "Characters That Appear in the Story",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pantalone",
-            "icon": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Rerir",
-            "icon": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pulcinella",
-            "icon": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pierro",
-            "icon": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           }
         ]
       },
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
-          "phase": "3.5 Phase 2",
-          "start": "2026-07-30T15:00:00.000Z",
-          "end": "2026-08-19T16:59:00.000Z",
+          "phase": "3.6 Phase 1",
+          "start": "2026-08-20T15:00:00.000Z",
+          "end": "2026-09-10T14:59:00.000Z",
           "characters": [
             {
-              "name": "Suisui",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-30"
+              "debut": false,
+              "debutAt": "2026-05-21"
             },
             {
               "name": "Baizhi",
@@ -1142,37 +1102,37 @@ var NYX_DB = {
               "debutAt": "2024-07-22"
             },
             {
-              "name": "Mortefi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
+              "name": "Yangyang",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMofeite.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleYangyang.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-05-23"
+              "debutAt": "2024-06-28"
             },
             {
-              "name": "Lumi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
+              "name": "Sanhua",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDengdeng.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSanhua.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-12-12"
+              "debutAt": "2024-06-28"
             },
             {
-              "name": "Aemeath",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
+              "name": "Qingxiao",
+              "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleAimisi.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-02-05"
+              "debut": true,
+              "debutAt": "2026-08-20"
             }
           ],
           "subBanners": []
@@ -1180,85 +1140,50 @@ var NYX_DB = {
         "next": {
           "phase": null,
           "teased": false,
-          "start": "2026-08-20T10:00:00.000Z",
-          "end": "2026-09-10T10:00:00.000Z",
+          "start": "2026-09-10T10:00:00.000Z",
+          "end": "2026-09-29T10:00:00.000Z",
           "characters": [
             {
-              "name": "Qingxiao",
-              "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
+              "name": "Jingran",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
               "debutAt": null
             },
             {
-              "name": "Denia",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
+              "name": "Hiyuki",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": "2026-05-21"
+              "debutAt": null
+            },
+            {
+              "name": "Mornye",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-01-15"
             }
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-10T10:00:00.000Z",
-            "end": "2026-09-30T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Mornye",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": "2026-01-15"
-              },
-              {
-                "name": "Hiyuki",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": null
-              }
-            ],
-            "subBanners": []
-          }
-        ],
+        "upcoming": [],
         "roadmap": [
           {
-            "name": "Jingran",
-            "icon": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
-            "namecard": null,
-            "rarity": 5,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Qingxiao and Jingran in Version 3.6",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-          },
-          {
             "name": "Suoming",
-            "icon": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
@@ -1272,7 +1197,7 @@ var NYX_DB = {
           },
           {
             "name": "Hsin",
-            "icon": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
@@ -1289,28 +1214,27 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
-          "phase": "3.1 Phase 1",
+          "phase": "3.1 Phase 2",
           "start": "2026-07-29T03:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
             {
-              "name": "Aria",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": false,
-              "debutAt": "2026-03-04"
+              "debut": true,
+              "debutAt": "2026-07-29"
             },
             {
               "name": "Piper",
@@ -1334,25 +1258,6 @@ var NYX_DB = {
               "debut": false,
               "debutAt": "2024-09-04"
             },
-            {
-              "name": "Remielle",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
-              "namecard": null,
-              "rarity": "S",
-              "debut": true,
-              "debutAt": "2026-07-29"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "3.1 Phase 2",
-          "start": "2026-08-19T04:00:00.000Z",
-          "end": "2026-09-08T06:59:59.000Z",
-          "characters": [
             {
               "name": "Dialyn",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
@@ -1400,33 +1305,23 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": [],
         "beta": [
           {
-            "name": "Anby",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+            "name": "Claret",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole01.webp",
+            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "namecard": null,
-            "rarity": "A",
-            "debut": false,
-            "debutAt": "2025-03-12"
-          },
-          {
-            "name": "Billy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
-            "namecard": null,
-            "rarity": "A",
+            "rarity": "S",
             "debut": true,
             "debutAt": null
           },
           {
             "name": "Roxy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
@@ -1438,39 +1333,11 @@ var NYX_DB = {
         ],
         "roadmap": [
           {
-            "name": "Claret",
-            "icon": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Claret Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
-            "name": "Roxy",
-            "icon": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Roxy Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
             "name": "Sunbringer",
-            "icon": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1481,10 +1348,10 @@ var NYX_DB = {
           },
           {
             "name": "Phoenix",
-            "icon": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1495,10 +1362,10 @@ var NYX_DB = {
           },
           {
             "name": "The Storyteller",
-            "icon": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -1512,12 +1379,11 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -1569,9 +1435,122 @@ var NYX_DB = {
               "debutAt": "2026-01-22"
             }
           ],
+          "subBanners": [],
+          "lossPool": {
+            "current": {
+              "name": "Liino",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": true,
+              "debutAt": "2026-08-09"
+            },
+            "previous": [
+              {
+                "name": "Arcane",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-07-16"
+              },
+              {
+                "name": "Camille",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-06-26"
+              }
+            ],
+            "permanent": [
+              {
+                "name": "Ardelia",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Pogranichnik",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Last Rite",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Ember",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Lifeng",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              }
+            ]
+          }
+        },
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-09-02T02:00:00.000Z",
+          "end": "2026-09-30T02:00:00.000Z",
+          "characters": [
+            {
+              "name": "Typhoeus",
+              "icon": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "namecard": null,
+              "rarity": 6,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
           "subBanners": []
         },
-        "next": null,
         "upcoming": [
           {
             "phase": null,
@@ -1580,7 +1559,7 @@ var NYX_DB = {
             "end": null,
             "characters": [
               {
-                "name": "Si (Feranmut Proxy)",
+                "name": "Si",
                 "icon": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "iconFallback": null,
                 "iconZoom": false,
@@ -1596,17 +1575,6 @@ var NYX_DB = {
                 "iconFallback": null,
                 "iconZoom": false,
                 "art": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
-                "namecard": null,
-                "rarity": null,
-                "debut": true,
-                "debutAt": null
-              },
-              {
-                "name": "Sarkaz Archer",
-                "icon": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,
@@ -2366,7 +2334,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "1 \u2605",
                 "type": "Sword",
-                "atk": 185
+                "baseAttack": 185,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "Youthful dreams and the thrill of adventure. If this isn't enough, then make it up with valiance."
             },
@@ -2378,7 +2348,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "2 \u2605",
                 "type": "Sword",
-                "atk": 243
+                "baseAttack": 243,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A sword for exorcising demons. Everyone knows it's made of a silver alloy, not pure silver."
             },
@@ -2390,7 +2362,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "ATK \u00b7 35.2%",
+                "weaponEffect": "Bane of Water and Ice: Increases DMG against opponents affected by Hydro or Cryo by 12%."
               },
               "text": "A reliable steel-forged weapon that serves as a testament to the great adventures of its old master."
             },
@@ -2402,7 +2376,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "CRIT DMG \u00b7 46.9%",
+                "weaponEffect": "Vigorous: When HP is above 90%, increases CRIT Rate by 14%."
               },
               "text": "A sword that once shone like the sun. The wielder of this sword will be blessed with a \"feel-good\" buff. The reflective material on the blade has long worn off."
             },
@@ -2414,7 +2390,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atk": 448
+                "baseAttack": 448,
+                "subStat": "DEF \u00b7 29.3%",
+                "weaponEffect": "Journey: Each Elemental Orb or Particle collected restores 1% HP."
               },
               "text": "A handy steel sword which contains scissors, a magnifying glass, tinder, and other useful items in its sheath."
             },
@@ -2426,7 +2404,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "Elemental Mastery \u00b7 141",
+                "weaponEffect": "Overloaded: Upon causing an Overloaded, Superconduct, Stellar-Conduct, Electro-Charged, Quicken, Aggravate, Hyperbloom, Lunar-Charged, or Electro-infused Swirl reaction, ATK is increased by 20% for 12s."
               },
               "text": "A perfectly ordinary iron sword, just slightly darker than most."
             },
@@ -2438,7 +2418,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "ATK \u00b7 35.2%",
+                "weaponEffect": "Gash: On hit, has a 50% chance to deal 240% ATK DMG to a single opponent. Can only occur once every 15s."
               },
               "text": "A sharp filleting knife. The blade is long, thin, and incredibly sharp."
             },
@@ -2450,7 +2432,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Sword",
-                "atk": 354
+                "baseAttack": 354,
+                "subStat": "Energy Recharge \u00b7 52.1%",
+                "weaponEffect": "Determination: Using an Elemental Burst grants a 12% increase in ATK and Movement SPD for 15s."
               },
               "text": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword..."
             },
@@ -2462,7 +2446,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Windfall: CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."
               },
               "text": "A standard-issue longsword of the Knights of Favonius. When you're armed with this agile and sharp weapon, channeling the power of the elements has never been so easy!",
               "released": "2020-12-23"
@@ -2475,7 +2461,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Chord: Normal or Charged Attacks grant a Harmonic on hits. Gaining 5 Harmonics triggers the power of music and deals 100% ATK DMG to surrounding opponents. Harmonics last up to 30s, and a maximum of 1 can be gained every 0.5s."
               },
               "text": "Beneath its rusty exterior is a lavishly decorated thin blade. It swings as swiftly as the wind.",
               "released": "2020-09-28"
@@ -2488,7 +2476,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Composed: After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."
               },
               "text": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
               "released": "2020-10-20"
@@ -2501,7 +2491,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Focus: Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."
               },
               "text": "An old longsword that belonged to the erstwhile rulers of Mondstadt. Exquisitely crafted, the carvings and embellishments testify to the stature of its owner."
             },
@@ -2513,7 +2505,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Bane of Fire and Thunder: Increases DMG against opponents affected by Pyro or Electro by 20%."
               },
               "text": "A sharp blade with extravagant carvings that somehow does not compromise on durability and sharpness. It roars like a lion as it cuts through the air.",
               "released": "2020-12-01"
@@ -2526,7 +2520,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Physical DMG Bonus \u00b7 34.5%",
+                "weaponEffect": "Smashed Stone: On hit, Normal or Charged Attacks increase ATK and DEF by 4% for 6s. Max 4 stacks. This effect can only occur once every 0.3s."
               },
               "text": "An ancient longsword discovered in the Blackcliff Forge that cuts through rocks like a hot knife through butter."
             },
@@ -2538,7 +2534,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Infusion Stinger: Dealing Elemental DMG increases all DMG by 6% for 6s. Max 2 stacks. Can occur once every 1s."
               },
               "text": "An exotic long-bladed rapier that somehow found its way into Liyue via foreign traders. It is light, agile, and sharp."
             },
@@ -2550,7 +2548,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "CRIT DMG \u00b7 36.8%",
+                "weaponEffect": "Press the Advantage: After defeating an opponent, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
               },
               "text": "A sword made of a material known as \"blackcliff.\" It has a dark crimson glow on its black blade."
             },
@@ -2562,7 +2562,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Justice: Increases DMG dealt by Normal and Charged Attacks by 20%. Additionally, regenerates 60% of ATK as HP when Normal and Charged Attacks score a CRIT Hit. This effect can occur once every 5s."
               },
               "text": "A pitch-black longsword that thirsts for violence and conflict. It is said that this weapon can cause its user to become drunk on the red wine of slaughter."
             },
@@ -2574,7 +2576,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 620
+                "baseAttack": 620,
+                "subStat": "Elemental Mastery \u00b7 55",
+                "weaponEffect": "Itinerant Hero: Increases DMG dealt by the character equipping this weapon by 12%. Taking DMG disables this effect for 5s."
               },
               "text": "A straight sword as black as the night. It once belonged to a thief who roamed the benighted streets.",
               "released": "2021-03-17"
@@ -2587,7 +2591,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 440
+                "baseAttack": 440,
+                "subStat": "ATK \u00b7 35.2%",
+                "weaponEffect": "Descension: Effective only on the following platform:\n\"PlayStation\u2122Network\"\nHitting opponents with Normal and Charged Attacks grants a 50% chance to deal 200% ATK as DMG in a small AoE. This effect can only occur once every 10s. Additionally, if the Traveler equips the Sword of Descension, their ATK is increased by 66."
               },
               "text": "A sword of unique craftsmanship. It does not appear to belong to this world."
             },
@@ -2599,7 +2605,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Undying Admiration: Increases Elemental Skill DMG by 16% and Elemental Skill CRIT Rate by 6%."
               },
               "text": "A creepy straight sword that almost seems to yearn for life. It drips with a shriveling venom that could even corrupt a mighty dragon."
             },
@@ -2611,7 +2619,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "ATK \u00b7 55.1%",
+                "weaponEffect": "Iwakura Succession: After casting an Elemental Skill, gain 1 Succession Seed. This effect can be triggered once every 5s. The Succession Seed lasts for 30s. Up to 3 Succession Seeds may exist simultaneously. After using an Elemental Burst, all Succession Seeds are consumed and after 2s, the character regenerates 6 Energy for each seed consumed."
               },
               "text": "A blade custom made for a famed samurai who could strike down a tengu warrior, known for their incredible agility, in midair."
             },
@@ -2623,7 +2633,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "DEF \u00b7 69.0%",
+                "weaponEffect": "Spotless Heart: Elemental Skill DMG is increased by 40% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG."
               },
               "text": "A sword made from materials that do not belong in this world. The power within might even be able to withstand the corruption of a venom that could corrode a mighty dragon."
             },
@@ -2635,7 +2647,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Isshin Art Clarity: When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s."
               },
               "text": "This famed blade was born in a nation to the far north. But in the name of \"Isshin,\" it was stained with many a dark deed on its home-bound journey."
             },
@@ -2647,7 +2661,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Forest Sanctuary: After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
               },
               "text": "A weapon you obtained from an Aranara tale. It has taken on the shape of a blade that can cut down the foes of the forest."
             },
@@ -2659,7 +2675,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Jinni's Whisper: The following effect will trigger every 10s: The equipping character will gain 0.036% Energy Recharge for each point of Elemental Mastery they possess for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
               },
               "text": "This ancient double-edged sword glimmers with moonlight. It is said that a now-silent Jinni dwells within it.",
               "released": "2022-10-14"
@@ -2672,7 +2690,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Kaidan: Rainfall Earthbinder: After an attack hits opponents, it will inflict an instance of Cursed Parasol upon one of them for 10s. This effect can be triggered once every 15s. If this opponent is defeated during Cursed Parasol's duration, Cursed Parasol's CD will be refreshed immediately. The character wielding this weapon will deal 16% more DMG to the opponent affected by Cursed Parasol."
               },
               "text": "A rather special oil-paper umbrella. While long wanderings may make one used to the wind and the rain, there might be some fun in admiring a rainy scene beneath this parasol."
             },
@@ -2684,7 +2704,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Northwind Wolf: DMG dealt by Elemental Skill and Elemental Burst is increased by 16%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by 2%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by 2%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s."
               },
               "text": "Legend has it that this longsword was once used by a wandering knight in the distant past."
             },
@@ -2696,7 +2718,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "An End Sublime: When using an Elemental Skill, ATK will be increased by 12% for 15s, and a Bond of Life worth 25% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, a maximum of 150 ATK will be gained based on 2.4% of the total amount of the Life Bond cleared, lasting for 15s."
               },
               "text": "This longsword is as silent as the mysterious ocean depths. It is even more ancient than its stylings might imply."
             },
@@ -2708,7 +2732,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Ironbone: Increases Elemental Skill CRIT Rate by 8%. Additionally, increases Energy Recharge by 16% for 5s after using an Elemental Skill."
               },
               "text": "A handy length of abandoned copper pipe that was once used as a weapon. It was famous \u2014 or infamous, depending \u2014 in some circles."
             },
@@ -2720,7 +2746,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Sea Shanty: When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
               },
               "text": "A convenient cutting tool that you can rarely find nowadays. You can replace the blades as they are dulled by usage.",
               "released": "2023-09-27"
@@ -2733,7 +2761,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Hero's Blade: When the equipping character does not have an Arkhe: When Normal Attacks, Charged Attacks, or Plunging Attacks strike, a Pneuma or Ousia energy blast will be unleashed, dealing 160% of ATK as DMG. This effect can be triggered once every 12s. The energy blast type is determined by the current type of the Sword of Narzissenkreuz."
               },
               "text": "A sword whose power faded when the story ended. It will now embark upon a new journey with the power that remains within it, which commemorates a certain great dream."
             },
@@ -2745,7 +2775,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Trapper's Pride: Sprint or Alternate Sprint Stamina Consumption decreased by 15%. Additionally, after using Sprint or Alternate Sprint, Normal Attack DMG is increased by 16% of ATK. This effect expires after triggering 18 times or 7s."
               },
               "text": "A longsword made of bone that has only grown harder after being hit and swung countless times. It is said that this was the hero Wanjiru's reliable weapon.",
               "released": "2024-10-09"
@@ -2758,7 +2790,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "DEF \u00b7 69.0%",
+                "weaponEffect": "Smoke-and-Mirror Mystery: Using an Elemental Skill increases DEF by 16% for 15s."
               },
               "text": "A peculiarly shaped jade longsword that has been passed down amongst the Masters of the Night-Wind as a \"priestly flute.\""
             },
@@ -2770,7 +2804,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Diffusing Boundary: While characters are protected by a Shield, DMG dealt by Normal and Charged Attacks is increased by 20%, and Normal and Charged Attack CRIT Rate is increased by 8%."
               },
               "text": "A ceremonial blade forged by Sanhaj, the great high priest of the Masters of the Night-Wind. In tales of bygone days, Sanhaj could use this curved blade to perform rituals, blurring the boundary between the Night Kingdom and the present world."
             },
@@ -2782,7 +2818,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Solemn Silence: Upon causing an Elemental Reaction, increases Max HP by 16% for 12s. Moonsign: Ascendant Gleam: Max HP from this effect is further increased by 16%. This effect can be triggered even if the equipping character is off-field."
               },
               "text": "A longsword forged from metal that makes a mournful sound when swung."
             },
@@ -2794,7 +2832,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Secret Silver's Testament: Increases Elemental Burst DMG by 20%. When the equipping character's Energy Capacity does not exceed 60/40, their Elemental Burst DMG is increased by an additional 16%/28%."
               },
               "text": "An immaculate, sharp silver sword that can slice through armor like moonlight flowing through the empty night. According to legend, it is a divine blade, blessed by the first Moonchanter herself.",
               "released": "2025-10-22"
@@ -2807,7 +2847,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Lone Light's Blessing: After the equipping character uses their Elemental Skill, they gain \"Gleam of First Light.\" While active, Gleam of First Light tracks their distance traveled. Each second, the equipping character gains an ATK Bonus ranging from 18% to 36% based on the distance traveled during the previous second. Gleam of First Light lasts 14s, can be triggered once every 14s, and is removed when the equipping character leaves the field."
               },
               "text": "He drew this weapon once more when he first met that God of Flame, revered by all, but it had been too long since he had last used it."
             },
@@ -2819,7 +2861,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Sword",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Starfire Upon the Snowplains: Triggering an Elemental Reaction increases the equipping character's ATK by 16% for 12s. Triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field."
               },
               "text": "A longsword that is entirely gemstone, said to be crafted for the path of righteousness. When unsheathed, it glows with the luster of blue flame."
             },
@@ -2831,7 +2875,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "Physical DMG Bonus \u00b7 41.3%",
+                "weaponEffect": "Falcon's Defiance: ATK is increased by 20%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of resistance aloft, regenerating HP equal to 100% of ATK and dealing 200% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s."
               },
               "text": "The soul of the Knights of Favonius. Millennia later, it still calls on the winds of swift justice to vanquish all evil \u2014 just like the last heroine who wielded it.",
               "released": "2020-09-28"
@@ -2844,7 +2890,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "Energy Recharge \u00b7 55.1%",
+                "weaponEffect": "Sky-Piercing Fang: CRIT Rate increased by 4%. Gains Skypiercing Might upon using an Elemental Burst: Increases Movement SPD by 10%, increases ATK SPD by 10%, and Normal and Charged hits deal additional DMG equal to 20% of ATK. Skypiercing Might lasts for 12s."
               },
               "text": "The sword of a knight that symbolizes the restored honor of Dvalin. The blessings of the Anemo Archon rest on the fuller of the blade, imbuing the sword with the powers of the sky and the wind.",
               "released": "2021-03-17"
@@ -2857,7 +2905,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "Elemental Mastery \u00b7 198",
+                "weaponEffect": "Revolutionary Chorale: A part of the \"Millennial Movement\" that wanders amidst the winds. Increases DMG by 10%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s and can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain \"Millennial Movement: Song of Resistance\" for 12s. \"Millennial Movement: Song of Resistance\" increases Normal, Charged and Plunging Attack DMG by 16% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
               },
               "text": "A straight sword, azure as antediluvian song, and as keen as the oaths of freedom taken in the Land of Wind.",
               "released": "2021-06-29"
@@ -2870,7 +2920,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "ATK \u00b7 49.6%",
+                "weaponEffect": "Golden Majesty: Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
               },
               "text": "A symbol of a legendary pact, this sharp blade once cut off the peak of a mountain.",
               "released": "2020-12-23"
@@ -2883,7 +2935,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT Rate \u00b7 44.1%",
+                "weaponEffect": "Protector's Virtue: HP increased by 20%. Additionally, provides an ATK Bonus based on 1.2% of the wielder's Max HP."
               },
               "text": "A ceremonial sword masterfully carved from pure jade. There almost seems to be an audible sigh in the wind as it is swung.",
               "released": "2021-02-03"
@@ -2896,7 +2950,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT DMG \u00b7 44.1%",
+                "weaponEffect": "Mistsplitter's Edge: Gain a 12% Elemental DMG Bonus for all elements and receive the might of the Mistsplitter's Emblem. At stack levels 1/2/3, the Mistsplitter's Emblem provides a 8/16/28% Elemental DMG Bonus for the character's Elemental Type. The character will obtain 1 stack of Mistsplitter's Emblem in each of the following scenarios: Normal Attack deals Elemental DMG (stack lasts 5s), casting Elemental Burst (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
               },
               "text": "A sword that blazes with a fierce violet light. The name \"Reforged\" comes from it having been broken once before.",
               "released": "2021-07-21"
@@ -2909,7 +2965,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Honed Flow: Obtain 12% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20% for 8s."
               },
               "text": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
               "released": "2022-03-30"
@@ -2922,7 +2980,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "HP \u00b7 66.2%",
+                "weaponEffect": "Sunken Song of the Sands: HP increased by 20%. When an Elemental Skill hits opponents, you gain the Grand Hymn effect for 20s. This effect increases the equipping character's Elemental Mastery by 0.12% of their Max HP. This effect can trigger once every 0.3s. Max 3 stacks. When this effect gains 3 stacks, or when the third stack's duration is refreshed, the Elemental Mastery of all nearby party members will be increased by 0.2% of the equipping character's max HP for 20s."
               },
               "text": "One of a paired set of scepters fashioned from obsidian. They say that this can be used as a key to open the gate to a paradise that lies at the end of the ocean of sand.",
               "released": "2022-10-14"
@@ -2935,7 +2995,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Whitemoon Bristle: CRIT Rate is increased by 4%. After Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 120% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s."
               },
               "text": "This gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest.",
               "released": "2023-01-18"
@@ -2948,7 +3010,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Dawn and Dusk by the Lake: When the equipping character's current HP increases or decreases, Elemental Skill DMG dealt will be increased by 8% for 6s. Max 3 stacks. This effect can be triggered once every 0.2s. When other party members' current HP increases or decreases, the equipping character's Max HP will be increased by 14% for 6s. Max 2 stacks. This effect can be triggered once every 0.2s. The aforementioned effects can be triggered even if the wielder is off-field."
               },
               "text": "A scepter around which swirls pure water. In days long past, it once symbolized the highest authority over the seas.",
               "released": "2023-11-08"
@@ -2961,7 +3025,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Brocade Bloom, Shrine Sword: Normal Attack DMG is increased by 16% and Elemental Skill DMG is increased by 24%. After a nearby active character deals Geo DMG, the aforementioned effects increase by 100% for 15s. Additionally, the wielder's DEF is increased by 20%."
               },
               "text": "This famous blade was once created by the hand of Urakusai, the renowned literatus. Legend has it that it has never cut any living creature in all these hundreds of years.",
               "released": "2024-03-13"
@@ -2974,7 +3040,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT DMG \u00b7 44.1%",
+                "weaponEffect": "Deathly Pact: CRIT DMG increased by 20%. Increasing the value of a Bond of Life increases the DMG the equipping character deals by 16% for 6s. Max 3 stacks."
               },
               "text": "A rapier once wielded by a deceiver who had forsaken everything. In the past, it was primarily used as a tool when he had to disguise his identity.",
               "released": "2024-06-05"
@@ -2987,7 +3055,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "DEF \u00b7 82.7%",
+                "weaponEffect": "Halcyon Years Unending: Gain \"Ode to Flowers\" after Normal or Plunging Attacks hit an opponent: DEF increases by 8% and gain a 10% All Elemental DMG Bonus for 6s. Max 2 stacks. Can trigger once per 0.1s. When this effect reaches 2 stacks or the 2nd stack's duration is refreshed, increase all nearby party members' All Elemental DMG Bonus by 8% for every 1,000 DEF the equipping character has, up to a maximum of 25.6%, for 15s."
               },
               "text": "An obsidian blade of unparalleled sharpness, light as a song. It was modified by a certain artisan to come equipped with a record-playing detachable Phlogiston Device.",
               "released": "2024-10-09"
@@ -3000,7 +3070,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Whitehill's Bestowal: Within 12s after an Elemental Skill is used, ATK is increased by 24%. During this time, when the equipping character has 0 Energy, ATK will be further increased by 24%, and CRIT DMG will be increased by 40%."
               },
               "text": "This blade was once pure and pristine as a white dawn star, but it has since been tinted a deep, dark blue.",
               "released": "2025-06-18"
@@ -3013,7 +3085,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Day King's Splendor Solis: CRIT DMG from Elemental Bursts is increased by 16%. When an Elemental Burst hits an opponent, gain the Blade of the Daylight Hours effect: ATK is increased by 20%. Nearby active party members other than the equipping character have their ATK increased by 16% for 3s.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, the effects of Blade of the Daylight Hours are increased by an additional 75%. This effect can be triggered even if the equipping character is off-field."
               },
               "text": "A precious sword gifted by the Day King to the brave hero in the little witch's story, only for the witch to take it and defeat the hero herself.",
               "released": "2025-12-03"
@@ -3026,7 +3100,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Legacy of Lang-Gan: Increases DEF by 20%. DMG inflicted by Lunar-Crystallize reactions increases by 64% for 5s after the equipping character uses an Elemental Skill."
               },
               "text": "A legendary sword, said to be forged from the glimmering moonlight gathered in a well by an adeptus hidden among clear springs. Its true form is revealed only at the meeting of dusk and dawn.",
               "released": "2026-02-03"
@@ -3039,7 +3115,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Snow Swan's Finale: When the equipping character hits an opponent with their Elemental Skill, they gain \"Lake-Hued Lament\": ATK increases by 8% for 8s. This effect can trigger once every 0.1s. Max 3 stacks, and each stack's duration is independent. At 3 stacks, the CRIT DMG of any Stellar Glimmer reaction DMG caused by the equipping character is increased by 50%, and triggering Stellar Glimmer reactions or Stellar Glimmer reaction DMG will also restore 4 Elemental Energy to the character. This Energy recovery effect can trigger once every 3.5s. Can be triggered even when the equipping character is off-field."
               },
               "text": "A longsword light as the feathers of a snow swan, and which stays pure and untainted at all times.",
               "released": "2026-08-12"
@@ -3052,7 +3130,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Sword",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Traveler's Path: When the Traveler equips this, their ATK will increase by 16% for 8s after they hit an opponent. At the same time, they will also regenerate 3 Elemental Energy. This effect can trigger once every 5s. This can be triggered even when the character is not on the field."
               },
               "text": "A longsword that once shone with the light of the very stars. In the voyager's hand, it becomes a brand-new light that has nothing to do with any past era."
             },
@@ -3064,7 +3144,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "1 \u2605",
                 "type": "Claymore",
-                "atk": 185
+                "baseAttack": 185,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A sturdy sheet of iron that may be powerful enough to break apart mountains if wielded with enough willpower."
             },
@@ -3076,7 +3158,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "2 \u2605",
                 "type": "Claymore",
-                "atk": 243
+                "baseAttack": 243,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A battle-tested greatsword that has seen better days and worse."
             },
@@ -3088,7 +3172,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Claymore",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "HP \u00b7 35.2%",
+                "weaponEffect": "Unbending: When HP falls below 70%, increases Charged Attack DMG by 30% and Charged Attacks become harder to interrupt."
               },
               "text": "A replica of the famed sword of Arundolyn, the Lion of Light. Feel the power of a legendary hero as you hold this sword in your hand! Imagine yourself as the great warrior himself! Note: Daydreaming not recommended in live combat."
             },
@@ -3100,7 +3186,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Claymore",
-                "atk": 354
+                "baseAttack": 354,
+                "subStat": "Elemental Mastery \u00b7 187",
+                "weaponEffect": "Bane of Fire and Thunder: Increases DMG dealt against opponents affected by Pyro or Electro by 12%."
               },
               "text": "A steel sword that is said to have been coated with dragon blood, rendering it invulnerable to damage. This effect is not extended to its wielder, however."
             },
@@ -3112,7 +3200,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Claymore",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "DEF \u00b7 43.9%",
+                "weaponEffect": "Cull the Weak: Defeating an opponent restores 8% HP."
               },
               "text": "A claymore made from white iron. Lightweight without compromising on power. Effective even when wielded by one of average strength, it is extremely deadly in the hands of a physically stronger wielder."
             },
@@ -3124,7 +3214,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Claymore",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "ATK \u00b7 35.2%",
+                "weaponEffect": "Blunt Conclusion: After using an Elemental Skill, on hit, Normal and Charged Attacks deal additional DMG equal to 60% of ATK in a small AoE. Effect lasts 15s. DMG can only occur once every 3s."
               },
               "text": "A handy club made of fine steel. The most persuasive line of reasoning in any debater's arsenal."
             },
@@ -3136,7 +3228,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Claymore",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "Physical DMG Bonus \u00b7 43.9%",
+                "weaponEffect": "Courage: On hit, Normal or Charged Attacks increase ATK by 6% for 6s. Max 4 stacks. Can occur once every 0.5s."
               },
               "text": "A reliable steel sword. The legendary Skyrider once tried to ride it as a flying sword... for the second time."
             },
@@ -3148,7 +3242,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Windfall: CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."
               },
               "text": "A heavy ceremonial sword of the Knights of Favonius. It channels elemental power easily and is highly destructive.",
               "released": "2020-12-23"
@@ -3161,7 +3257,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Rebellious Guardian: Taking DMG generates a shield which absorbs DMG up to 20% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12% increased DMG."
               },
               "text": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
               "released": "2020-09-28"
@@ -3174,7 +3272,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Composed: After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."
               },
               "text": "A ceremonial greatsword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
               "released": "2020-10-20"
@@ -3187,7 +3287,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Focus: Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."
               },
               "text": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only."
             },
@@ -3199,7 +3301,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Bane of Storm and Tide: Increases DMG against opponents affected by Hydro or Electro by 20%."
               },
               "text": "A fluorescent greatsword with no sharp edge that crushes enemies with brute force and raw power.",
               "released": "2020-11-11"
@@ -3212,7 +3316,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Crush: On hit, Normal or Charged Attacks have a 50% chance to deal an additional 240% ATK DMG to opponents within a small AoE. Can only occur once every 15s."
               },
               "text": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself."
             },
@@ -3224,7 +3330,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "DEF \u00b7 51.7%",
+                "weaponEffect": "Infusion Blade: On hit, Normal or Charged Attacks increase ATK and DEF by 6% for 6s. Max 4 stacks. This effect can only occur once every 0.5s."
               },
               "text": "An exotic sword with one section of the blade left blunt. It made its way into Liyue via the hands of foreign traders. Incredibly powerful in the hands of someone who knows how to use it."
             },
@@ -3236,7 +3344,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT DMG \u00b7 55.1%",
+                "weaponEffect": "Press the Advantage: After defeating an opponent, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
               },
               "text": "An extremely sturdy greatsword from the Blackcliff Forge. It has a dark crimson color from the blade to pommel."
             },
@@ -3248,7 +3358,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Wavesplitter: Every 4s a character is on the field, they will deal 6% more DMG and take 3% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG."
               },
               "text": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it."
             },
@@ -3260,7 +3372,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Lithic Axiom: Unity: For every character in the party who hails from Liyue, the character who equips this weapon gains a 7% ATK increase and a 3% CRIT Rate increase. This effect stacks up to 4 times."
               },
               "text": "A greatsword carved and chiseled from the very bedrock of Liyue.",
               "released": "2021-02-23"
@@ -3273,7 +3387,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Physical DMG Bonus \u00b7 34.5%",
+                "weaponEffect": "Frost Burial: Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s."
               },
               "text": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow."
             },
@@ -3285,7 +3401,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "ATK \u00b7 55.1%",
+                "weaponEffect": "Oceanic Victory: Increases Elemental Burst DMG by 12%. When Elemental Burst hits opponents, there is a 100% chance of summoning a huge onrush of tuna that deals 100% ATK as AoE DMG. This effect can occur once every 15s."
               },
               "text": "The great king of the ocean. Having been air-dried, it makes for a fine weapon as well as emergency sustenance."
             },
@@ -3297,7 +3415,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Samurai Conduct: Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
               },
               "text": "A blade that was once made in Tatarasuna. Heavy and tough."
             },
@@ -3309,7 +3429,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Desert Pavilion: The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
               },
               "text": "An ancient greatsword that gleams like the waters themselves. A thousand years of sand erosion has not dulled its unnaturally sharp edge one bit.",
               "released": "2022-09-28"
@@ -3322,7 +3444,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Watatsumi Wavewalker: For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way."
               },
               "text": "The beloved sword of the legendary \"Akuou.\" The blade is huge and majestic, but is surprisingly easy to wield.",
               "released": "2021-10-13"
@@ -3335,7 +3459,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Forest Sanctuary: After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack."
               },
               "text": "A weapon you obtained from an Aranara tale. It has taken on the shape of a greatsword that shall cut down the foes of the forest."
             },
@@ -3347,7 +3473,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Elemental Mastery \u00b7 110",
+                "weaponEffect": "Whispers of Wind and Flower: Within 8s after the character's Elemental Skill hits an opponent or the character triggers an Elemental Reaction, their ATK and Elemental Mastery will be increased by 12% and 48 respectively."
               },
               "text": "A graceful and elegant greatsword that is decorated with flowers and ribbons."
             },
@@ -3359,7 +3487,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "CRIT Rate \u00b7 18.4%",
+                "weaponEffect": "\"The Silver Tongue\": ATK will be increased by 16% for 15s after being affected by Pyro. This effect can be triggered once every 12s. All Elemental DMG Bonus will be increased by 12% for 15s after being affected by Hydro, Cryo, Electro, or Dendro. This effect can be triggered once every 12s."
               },
               "text": "Most people will find this obsidian-inlaid club quite convincing indeed."
             },
@@ -3371,7 +3501,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "White Cruising Wave: After the wielder is healed, ATK will be increased by 24% for 8s. This can be triggered even when the character is not on the field."
               },
               "text": "An exquisitely-crafted, standard-model sword forged for the high-ranking officers and flagship captains of Fontaine's old navy."
             },
@@ -3383,7 +3515,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Melussistance!: ATK increased by 12%. That's not all! The support from all Melusines you've helped in Merusea Village fills you with strength! Based on the number of them you've helped, your ATK is increased by up to an additional 12%."
               },
               "text": "A magical sword that can only be wielded by the ultimate overlord who rules the seas. As it has been made with special water-resistant materials, it will not get ruined by water damage even after being immersed. Why, one might even call it invincible!"
             },
@@ -3395,7 +3529,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "HP \u00b7 55.1%",
+                "weaponEffect": "Sea Shanty: When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40 Elemental Mastery, and 2s after the effect occurs, 2 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
               },
               "text": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
               "released": "2023-09-27"
@@ -3408,7 +3544,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "The Weight of Falling Branches: Increase Plunging Attack CRIT Rate by 16%; After a Plunging Attack hits an opponent, Normal, Charged, and Plunging Attack DMG increased by 16% for 10s."
               },
               "text": "Bold Burkina from the Scions of the Canopy once made this weapon with the hero Tenoch's help \u2014 all for the sake of obtaining Flamegranates unmatched throughout Natlan.",
               "released": "2024-10-29"
@@ -3421,7 +3559,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Oath of Qhapaq Nan: After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 16% for 8s. This effect can be triggered even when the triggering party member is not on the field."
               },
               "text": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away."
             },
@@ -3433,7 +3573,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Mind in Bloom: When Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Crystallize or Lunar-Crystallize is triggered, restore 12 Elemental Energy and increase Elemental Mastery by 60 for 15 seconds. This effect can be triggered at most once every 15s and can be triggered even when the equipping character is off-field."
               },
               "text": "Tribal tales tell of a great blade forged by the People of the Springs to protect a child who would embark on a distant journey. This particular weapon appears to be a replica of that legendary sword."
             },
@@ -3445,7 +3587,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Fall Into Place: Upon causing an Elemental Reaction, increases Elemental Mastery by 60 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60. This effect can be triggered even if the equipping character is off-field."
               },
               "text": "A heavy greatsword with a razor-sharp blade. Power is a key that can open almost any lock."
             },
@@ -3457,7 +3601,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Day and Night in Counterpoint: Every 10s, the equipping character plays a \"Harmonic Movement\" of the corresponding type for a boost in the following order: +18% ATK > +120 Elemental Mastery > +28% Stellar Glimmer reaction DMG. Each instance of Harmonic Movement lasts 10s. This effect can trigger even when the equipping character is not on the field.\nTriggering a Stellar Glimmer reaction will also grant an additional 12-second instance of \"Harmonic Movement: Contrapuntal\" with the same effects as the Harmonic Movement active when Stellar Glimmer is triggered. This effect stacks with the original Harmonic Movement effect, and can trigger once every 12s."
               },
               "text": "A greatsword decorated in gold. Legend has it that it was the favored weapon of a certain exalted Harmost back in the distant past."
             },
@@ -3469,7 +3615,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Claymore",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Repentance and Redemption: Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 64 for 12s, while triggering a Stellar Glimmer reaction increases their ATK by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field."
               },
               "text": "A greatsword passed down by the Luchkin. It is said that only the bravest warrior is qualified to wield it."
             },
@@ -3481,7 +3629,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "Energy Recharge \u00b7 36.8%",
+                "weaponEffect": "Sky-ripping Dragon Spine: Increases all DMG by 8%. After using an Elemental Burst, a vacuum blade that does 80% of ATK as DMG to opponents along its path will be created when Normal or Charged Attacks hit. Lasts for 20s or 8 vacuum blades."
               },
               "text": "A claymore that symbolizes the pride of Dvalin soaring through the skies. When swung, it emits a deep hum as the full force of Dvalin's command of the sky and the wind is unleashed.",
               "released": "2021-01-12"
@@ -3494,7 +3644,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "ATK \u00b7 49.6%",
+                "weaponEffect": "Wolfish Tracker: Increases ATK by 20%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by 40% for 12s. Can only occur once every 30s."
               },
               "text": "A longsword used by the Wolf Knight. Originally just a heavy sheet of iron given to the knight by a blacksmith from the city, it became endowed with legendary power owing to his friendship with the wolves.",
               "released": "2020-10-20"
@@ -3507,7 +3659,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 741
+                "baseAttack": 741,
+                "subStat": "Physical DMG Bonus \u00b7 20.7%",
+                "weaponEffect": "Rebel's Banner-Hymn: A part of the \"Millennial Movement\" that wanders amidst the winds. Increases ATK by 16%, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess 4 Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Banner-Hymn\" effect for 12s. \"Millennial Movement: Banner-Hymn\" increases Normal ATK SPD by 12% and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
               },
               "text": "A greatsword as light as the sigh of grass in the breeze, yet as merciless to the corrupt as a typhoon.",
               "released": "2021-05-18"
@@ -3520,7 +3674,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "ATK \u00b7 49.6%",
+                "weaponEffect": "Golden Majesty: Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
               },
               "text": "Capable of driving away evil spirits and wicked people alike, this edgeless claymore seems to possess divine might.",
               "released": "2020-12-01"
@@ -3533,7 +3689,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Gokadaiou Otogibanashi: DEF is increased by 28%. Normal and Charged Attack DMG is increased by 40% of DEF."
               },
               "text": "According to its previous owner, this weapon is the \"Mighty Redhorn Stoic Stonethreshing Gilded Goldcrushing Lion Lord\" that can send any monster packing with its tail between its legs.",
               "released": "2021-12-14"
@@ -3546,7 +3704,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Desert Watch: After the character's Elemental Skill hits an opponent, their ATK will be increased by 20% for 8s. After the character takes DMG, their ATK will be increased by 20% for 8s. The 2 aforementioned effects can be triggered even when the character is not on the field. Additionally, when not protected by a shield, the character's Max HP will be increased by 32%."
               },
               "text": "A large, flat-tipped sword designed in to fit as the weapon of an ancient king or some ceremonial instrument.",
               "released": "2023-03-01"
@@ -3559,7 +3719,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Many Oaths of Dawn and Dusk: Increases ATK by 20%. When party members obtain Elemental Shards from Crystallize or trigger Lunar-Crystallize reactions, the equipping character will gain 1 Seal, increasing Elemental Skill DMG by 18%. The Seal lasts for 15s, and the equipper may have up to 2 Seals at once. All of the equipper's Seals will disappear 0.2s after their Elemental Skill deals DMG. Up to 1 Seal may be obtained every second through the Lunar-Crystallize reaction."
               },
               "text": "A weapon once used by a young maiden who forsook her family name, stained with the blood of enemies and loved ones both.",
               "released": "2023-12-20"
@@ -3572,7 +3734,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 741
+                "baseAttack": 741,
+                "subStat": "CRIT Rate \u00b7 11.0%",
+                "weaponEffect": "Turquoise Hunt: Gain 1 stack of Canopy's Favor after hitting an opponent with an Elemental Skill. This can be triggered once every 0.5s. After a nearby party member triggers a Burning or Burgeon reaction, the equipping character will gain 3 stacks. This effect can be triggered once every 2s and can be triggered even when the triggering party member is off-field. Canopy's Favor: Elemental Skill and Burst DMG is increased by 10% for 6s. Max 6 stacks. Each stack is counted independently."
               },
               "text": "A giant sword forged from pure turquoise. Due to its greater weight than most ordinary weapons, it was named for Kongomato the Mountain King.",
               "released": "2024-09-17"
@@ -3585,7 +3749,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 741
+                "baseAttack": 741,
+                "subStat": "CRIT Rate \u00b7 11.0%",
+                "weaponEffect": "Sunset Reignites the Dawn: Gain the \"Scorching Brilliance\" effect when using an Elemental Skill or Burst: CRIT DMG increased by 20% and ATK increased by 28% for 6s. This effect can trigger once every 10s.\nWhile a \"Scorching Brilliance\" instance is active, its duration is increased by 2s after Normal or Charged attacks deal Elemental DMG. This effect can trigger once every second, and the max duration increase is 6s.\nAdditionally, when the equipping character is in the Nightsoul's Blessing state, \"Scorching Brilliance\" effects are increased by 75%, and its duration will not count down when the equipping character is off-field."
               },
               "text": "A greatsword that dazzles like the rising sun. It has witnessed the extinguishing and rekindling of innumerable suns.",
               "released": "2025-01-01"
@@ -3598,7 +3764,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Indomitable Chivalry: Increase ATK SPD by 10%. Every time the equipping character's Normal Attack(s) hit opponent(s), when they cast their Elemental Skill, or when they begin their Charged Attack(s), gain 1/2/2 stacks of Four Winds' Hymn respectively: DMG dealt is increased by 7.5% for 4s. Max 4 stacks. This effect can be triggered once every 0.01s.\nAdditionally, when the party has the \"Hexerei: Secret Rite\" effect, each stack of Four Winds' Hymn also increases the equipping character's CRIT DMG by 7.5%."
               },
               "text": "Legend has it that this greatsword was forged by the hand of Ravenwood, who inherited the name of Boreas, prior to his ascension to knighthood.",
               "released": "2026-02-25"
@@ -3611,7 +3779,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Claymore",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT DMG \u00b7 44.1%",
+                "weaponEffect": "White Fairy's Queening: ATK is increased by 28%.\nAdditionally, each time the equipping character hits an opponent with their Charged Attack, they attain \"Transcendence\" for a short time: their Stellar-Conduct and Stellar Swirl reaction DMG is increased by 16% for 5s. This effect can stack once every 0.2s, max 3 stacks."
               },
               "text": "An object of fantasy with countless definitions amidst an endless sea of stories. On the grand scale of the universe or the realm of dreams, there is no real difference between the holy sword of the brave warrior and the princess's teaspoon, or between the ice-cold clockspring and the key that will unlock the gates of transcendence...",
               "released": "2026-07-01"
@@ -3624,7 +3794,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "1 \u2605",
                 "type": "Polearm",
-                "atk": 185
+                "baseAttack": 185,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A polearm as straight as a flag pole. Well suited to most combat situations, it has an imposing presence when swung."
             },
@@ -3636,7 +3808,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "2 \u2605",
                 "type": "Polearm",
-                "atk": 243
+                "baseAttack": 243,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "Sharp and pointy at one end, it is a balanced weapon that is quite popular among travelers."
             },
@@ -3648,7 +3822,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Polearm",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "CRIT Rate \u00b7 23.4%",
+                "weaponEffect": "Sharp: Increases Normal Attack DMG by 24%."
               },
               "text": "A standard-issue weapon of the Millelith soldiers. It has a sturdy shaft and sharp spearhead. It's a reliable weapon."
             },
@@ -3660,7 +3836,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Polearm",
-                "atk": 448
+                "baseAttack": 448,
+                "subStat": "ATK \u00b7 23.5%",
+                "weaponEffect": "Heavy: Normal Attacks deal an additional 160% ATK as DMG. Can only occur once every 10s."
               },
               "text": "A polearm with an axe blade mounted on top that can deal quite a lot of damage. It's favored by the Millelith officers."
             },
@@ -3672,7 +3850,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Polearm",
-                "atk": 354
+                "baseAttack": 354,
+                "subStat": "HP \u00b7 46.9%",
+                "weaponEffect": "Bane of the Soft: Increases DMG against slimes by 40%."
               },
               "text": "An exceptionally powerful polearm that also offers a simple but elegant solution to the issue of the easily stained white tassel."
             },
@@ -3684,7 +3864,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Elemental Mastery \u00b7 221",
+                "weaponEffect": "Bane of Flame and Water: Increases DMG against opponents affected by Hydro or Pyro by 20%."
               },
               "text": "A polearm decorated with an entwining golden dragon. Light and sharp, this weapon may very well kill dragons with ease.",
               "released": "2020-10-20"
@@ -3697,7 +3879,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Magic Affinity: After using an Elemental Skill, increases Normal and Charged Attack DMG by 8% for 12s. Max 2 stacks."
               },
               "text": "A hooked spear discovered hidden away in the Blackcliff Forge. The glimmers along the sharp edge are like stars in the night."
             },
@@ -3709,7 +3893,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Physical DMG Bonus \u00b7 34.5%",
+                "weaponEffect": "Infusion Needle: After picking up an Elemental Orb/Particle, Normal and Charged Attacks deal additional DMG equal to 20% of ATK for 5s."
               },
               "text": "An exotic weapon with an extremely long blade on the top and a crescent blade at the bottom. It found its way into Liyue through foreign traders. With practice, it can deal heavy damage."
             },
@@ -3721,7 +3907,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT DMG \u00b7 55.1%",
+                "weaponEffect": "Press the Advantage: After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
               },
               "text": "A weapon made of blackcliff and aerosiderite. There is a dark crimson glow on its cold black sheen."
             },
@@ -3733,7 +3921,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "CRIT Rate \u00b7 36.8%",
+                "weaponEffect": "Gladiator: If there are at least 2 opponents nearby, ATK is increased by 16% and DEF is increased by 16%. If there are fewer than 2 opponents nearby, ATK is increased by 24%."
               },
               "text": "A sharp crimson polearm that was once a gladiator's priceless treasure. Its awl has been stained by the blood of countless beasts and men."
             },
@@ -3745,7 +3935,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Lithic Axiom: Unity: For every character in the party who hails from Liyue, the character who equips this weapon gains a 7% ATK increase and a 3% CRIT Rate increase. This effect stacks up to 4 times."
               },
               "text": "A spear forged from the rocks of the Guyun Stone Forest. Its hardness knows no equal.",
               "released": "2021-02-23"
@@ -3758,7 +3950,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Windfall: CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."
               },
               "text": "A polearm made in the style of the Knights of Favonius. Its shaft is straight, and its tip flows lightly like the wind.",
               "released": "2020-09-28"
@@ -3771,7 +3965,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Focus: Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."
               },
               "text": "This polearm was once cherished by a member of the old nobility that governed Mondstadt long ago. Although it has never seen the light of day, it is still incomparably sharp."
             },
@@ -3783,7 +3979,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Physical DMG Bonus \u00b7 69.0%",
+                "weaponEffect": "Frost Burial: Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s."
               },
               "text": "A spear created from the fang of a dragon. It is oddly warm to the touch."
             },
@@ -3795,7 +3993,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Elemental Mastery \u00b7 110",
+                "weaponEffect": "Samurai Conduct: Increases Elemental Skill DMG by 6%. After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates 3 Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field."
               },
               "text": "A special lance that was once used by a famed warrior who guarded the Tatarigami on Yashiori Island."
             },
@@ -3807,7 +4007,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Shanty: Increases Elemental Burst DMG by 16% and Elemental Burst CRIT Rate by 6%."
               },
               "text": "In the distant past, this was the beloved spear of a famed Inazuman bandit."
             },
@@ -3819,7 +4021,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 620
+                "baseAttack": 620,
+                "subStat": "ATK \u00b7 13.8%",
+                "weaponEffect": "Watatsumi Wavewalker: For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way."
               },
               "text": "A naginata forged from luminescent material deep in the ocean depths. It was once the possession of the tengu race.",
               "released": "2021-11-02"
@@ -3832,7 +4036,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Elemental Mastery \u00b7 110",
+                "weaponEffect": "Stillwood Moonshadow: After triggering Burning, Quicken, Aggravate, Spread, Bloom, Lunar-Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field."
               },
               "text": "A weapon you obtained from an Aranara tale. It is shaped like a giant arrow and can be used as a spear."
             },
@@ -3844,7 +4050,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "The Wind Unattained: Within 10s after an Elemental Reaction is triggered, ATK is increased by 12% and Elemental Mastery is increased by 48."
               },
               "text": "A beacon that shows the direction of the wind. Not every idyll carried on the breeze remains a gentle thing..."
             },
@@ -3856,7 +4064,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Tales of the Tundra: When there are at least 3 different Elemental Types in your party, Elemental Mastery will be increased by 120."
               },
               "text": "A polearm used by those seeking to catch fish in the tundra. It lets none escape."
             },
@@ -3868,7 +4078,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "HP \u00b7 27.6%",
+                "weaponEffect": "Tip of the Spear: When the wielder is healed, restore 8 Energy. This effect can be triggered once every 10s, and can occur even when the character is not on the field."
               },
               "text": "A sharp spear. Only its tip remains freshly bloodstained."
             },
@@ -3880,7 +4092,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Principle of Equilibrium: When the wielder performs healing, restore 8 Energy. This effect can be triggered once every 10s and can occur even when the character is not on the field."
               },
               "text": "A caduceus symbolizing the glory of alchemy, made from special alloys to match its special status. It is exceedingly rigid and heavy, and would probably hurt pretty bad if used as a cudgel."
             },
@@ -3892,7 +4106,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Masons' Ditty: When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3% ATK and 7% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
               },
               "text": "A long-handled drill that you can rarely find nowadays. It was often used in delving and in carving stones.",
               "released": "2023-10-17"
@@ -3905,7 +4121,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Hope Beyond the Peaks: Decreases Climbing Stamina Consumption by 15% and increases Elemental Skill DMG by 12%. Also, after other nearby party members use Elemental Skills, the equipping character's Elemental Skill DMG will also increase by 12% for 8s."
               },
               "text": "This polearm was once jointly forged by the craftsmen in the mines as a sacrifice to the spirits of the mountains.",
               "released": "2024-10-09"
@@ -3918,7 +4136,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "DEF \u00b7 51.7%",
+                "weaponEffect": "Pact of Flowing Springs: Using an Elemental Skill increases DEF by 16% for 15s."
               },
               "text": "A keen polearm forged from jade. It gives off rainbow-hued light when exposed to sunlight."
             },
@@ -3930,7 +4150,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Busybody's Running Light: Increase ATK by 20% and Movement SPD by 10% for 10s when using an Elemental Skill."
               },
               "text": "Once upon a time, there was a youkai that roamed Inazuma in the form of a lantern's flame. This must once have been one of its vessels."
             },
@@ -3942,7 +4164,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Swift and Sure: Electro-Charged DMG is increased by 48%, and Lunar-Charged DMG is increased by 12%. Moonsign: Ascendant Gleam: Lunar-Charged DMG is increased by an additional 12%."
               },
               "text": "A polearm that appears to have been crafted from a metal agricultural tool. At first glance, it could not look more ordinary, yet its discreet design hides fittings that are both lavish and undeniably exquisite."
             },
@@ -3954,7 +4178,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 620
+                "baseAttack": 620,
+                "subStat": "CRIT Rate \u00b7 9.2%",
+                "weaponEffect": "Untainted Desire: For 6s after an Elemental Skill hits an opponent, ATK is increased by 8% and Energy Recharge is increased by 6%. Max 3 stacks. This effect can be triggered even when the equipping character is off-field."
               },
               "text": "A silver-white polearm, pure and completely without blemish. Legend has it that it was used by the Archpriestesses of Hyperborea in ages past to guide their flock of Frostmoon Scions.",
               "released": "2025-10-22"
@@ -3967,7 +4193,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "A Cast Real Far: Triggering a Cryo or Hydro-related elemental reaction increases the equipping character's ATK by 20% for the next 15s, as well as regenerates 6 Elemental Energy for other members of their party. This effect can trigger once every 16s."
               },
               "text": "A spear of solid ice imbued with an icy chill. It is said that it once belonged to the Belyi Tsar who ruled Snezhnaya in the distant past."
             },
@@ -3979,7 +4207,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Polearm",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Elemental Mastery \u00b7 110",
+                "weaponEffect": "Cadence of Days Gone By: Triggering an Elemental Reaction regenerates 4 Elemental Energy for the equipping character. This effect can trigger once every 9s. On the other hand, triggering a Stellar Glimmer reaction increases their ATK by 20% for 12s. The aforementioned effects can trigger even when the character is not on the field."
               },
               "text": "A long spear that once stood guard over all. Today, it has found a new purpose with children and their games of make-believe."
             },
@@ -3991,7 +4221,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "Reckless Cinnabar: HP increased by 20%. Additionally, provides an ATK Bonus based on 0.8% of the wielder's Max HP. When the wielder's HP is less than 50%, this ATK Bonus is increased by an additional 1% of Max HP."
               },
               "text": "A \"firewood staff\" that was once used in ancient and long-lost rituals.",
               "released": "2021-02-23"
@@ -4004,7 +4236,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "Energy Recharge \u00b7 36.8%",
+                "weaponEffect": "Black Wing: Increases CRIT Rate by 8% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vacuum blade that deals 40% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s."
               },
               "text": "A polearm that symbolizes Dvalin's firm resolve. The upright shaft of this weapon points towards the heavens, clad in the might of sky and wind.",
               "released": "2021-07-21"
@@ -4017,7 +4251,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "ATK \u00b7 49.6%",
+                "weaponEffect": "Golden Majesty: Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
               },
               "text": "This sharp polearm can seemingly pierce through anything. When swung, one can almost see the rift it tears in the air.",
               "released": "2020-12-01"
@@ -4030,7 +4266,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Eagle Spear of Justice: On hit, increases ATK by 3.2% for 6s. Max 7 stacks. This effect can only occur once every 0.3s. While in possession of the maximum possible stacks, DMG dealt is increased by 12%."
               },
               "text": "A jade polearm made by the archons, capable of slaying ancient beasts.",
               "released": "2021-02-03"
@@ -4043,7 +4281,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 741
+                "baseAttack": 741,
+                "subStat": "ATK \u00b7 16.5%",
+                "weaponEffect": "Extinguishing Precept: Gain 12% All Elemental DMG Bonus. Obtain Consummation for 20s after using an Elemental Skill, causing ATK to increase by 3.2% per second. This ATK increase has a maximum of 6 stacks. When the character equipped with this weapon is not on the field, Consummation's ATK increase is doubled."
               },
               "text": "A keenly honed weapon forged from some strange crystal. Its faint blue light seems to whisper of countless matters now past.",
               "released": "2022-01-05"
@@ -4056,7 +4296,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "Energy Recharge \u00b7 55.1%",
+                "weaponEffect": "Timeless Dream: Eternal Stove: ATK increased by 28% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80% ATK. Gain 30% Energy Recharge for 12s after using an Elemental Burst."
               },
               "text": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
               "released": "2021-09-01"
@@ -4069,7 +4311,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT Rate \u00b7 44.1%",
+                "weaponEffect": "Heat Haze at Horizon's End: The equipping character gains 52% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28% of their Elemental Mastery as bonus ATK. Max 3 stacks."
               },
               "text": "One of a paired set of scepters fashioned from obsidian. Legend has it that these staves grant the right to lead the people of the desert, but no retainer now lives who can verify the proper appearance of these regalia.",
               "released": "2022-09-28"
@@ -4082,7 +4326,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Ashen Sun's Shadow: Grants a Bond of Life equal to 25% of Max HP when a Charged Attack hits an opponent. This effect can be triggered up to once every 14s. In addition, when the equipping character has a Bond of Life, they gain a 12% DMG Bonus; if the value of the Bond of Life is greater than or equal to 30% of Max HP, then gain an additional 24% DMG Bonus."
               },
               "text": "A keen-edged weapon, luster dazzling as the crimson moon. It is said that an ancient dynasty once regarded it as a ritual object that could bridge two worlds, but none still remember the beliefs and ceremonies of that bygone age.",
               "released": "2024-04-24"
@@ -4095,7 +4341,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Bright Dawn Overture: ATK increased by 15%. After the equipping character triggers Burning on an opponent or deals Dendro DMG to Burning opponents, the DMG dealt is increased by 18%. This effect lasts for 8s, max 2 stacks. When 2 stacks are reached or when the duration is refreshed at 2 stacks, restore 12 Energy. Energy can be restored this way once every 12s. The 2 aforementioned effects can be triggered even when the character is off-field."
               },
               "text": "A magnificent polearm adorned with azure crystal. It is said to have been a certain legendary Champion Duelist's treasure \u2014 and yet, not once was it ever used.",
               "released": "2024-08-06"
@@ -4108,7 +4356,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "Seasoned Symphony: ATK is increased by 12%. When the equipping character is off-field, ATK is increased by an additional 12%. After initiating healing, the equipping character and the character(s) they have healed will obtain the \"Sweet Echoes\" effect, increasing their ATK by 32% for 3s. This effect can be triggered even if the equipping character is off-field."
               },
               "text": "An elegantly built polearm, said to have been a conductor's baton wielded by a great musician to bridge tune and taste.",
               "released": "2025-05-07"
@@ -4121,7 +4371,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "Purifying Crown: After an Elemental Skill or Elemental Burst is used, ATK is increased by 24% for 20s. If the equipping character creates a Shield while this effect is active, they will gain the Electrifying Edict effect for 20s: All nearby party members deal 40% more Lunar-Charged DMG."
               },
               "text": "A spinning mechanical blade produced by the Clink-Clank Krumkake Craftshop that seems to hide secrets from a bygone era...",
               "released": "2025-07-30"
@@ -4134,7 +4386,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Mournful Tribute: For 3.5s after using an Elemental Burst, the equipping character's Lunar-Charged DMG dealt to opponents is increased by 36%. Additionally, after triggering a Lunar-Charged reaction, the equipping character will gain Requiem of Ruin: CRIT DMG is increased by 28% for 6s. They will also regain 12 Elemental Energy. Elemental Energy can be restored this way once every 14s."
               },
               "text": "A long spear tainted black by unrelenting battle, it shines with an ethereal glow beneath the ghostly blue light of lantern-fire.",
               "released": "2025-09-30"
@@ -4147,7 +4401,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Polearm",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Dolorous Stroke: After the equipping character uses an Elemental Skill, they gain \"Path of Conflict\" for 17s, as well as \"Unforgivable\" and \"Irreparable\" for 3s each. This effect can trigger once every 18s.\nUnforgivable: Increases the equipping character's Normal Attack and Charged Attack DMG by 40%.\nIrreparable: Increases the equipping character's Elemental Skill and Elemental Burst DMG by 40%.\nWhile Path of Conflict is in effect, when the equipping character hits an opponent with a Normal Attack or Charged Attack, Irreparable's duration will be increased by 1s. When the equipping character hits an opponent with their Elemental Skill or Elemental Burst, Unforgivable's duration will be increased by 1s. Each of the above effects can be triggered once every 0.1s. When Path of Conflict ends or the equipping character leaves the field, both Unforgivable and Irreparable will be removed.\nHexerei: Secret Rite: The above DMG boosts are increased by 75%."
               },
               "text": "A polearm forged from Whitestone and Starsilver. Its keen point is constantly enveloped in a bone-piercing chill.",
               "released": "2026-06-09"
@@ -4160,7 +4416,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "1 \u2605",
                 "type": "Catalyst",
-                "atk": 185
+                "baseAttack": 185,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "Notes left behind by a top student. Many useful spells are listed, and the handwriting is beautiful."
             },
@@ -4172,7 +4430,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "2 \u2605",
                 "type": "Catalyst",
-                "atk": 243
+                "baseAttack": 243,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A carefully compiled notebook featuring the essentials needed to pass a magic exam."
             },
@@ -4184,7 +4444,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Catalyst",
-                "atk": 354
+                "baseAttack": 354,
+                "subStat": "Elemental Mastery \u00b7 187",
+                "weaponEffect": "Bane of Storm and Tide: Increases DMG against opponents affected by Hydro or Electro by 12%."
               },
               "text": "Version 12. A reprint featuring corrections to Version 11 and brand-new additions based on recent developments."
             },
@@ -4196,7 +4458,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Catalyst",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "HP \u00b7 35.2%",
+                "weaponEffect": "Heritage: When switching characters, the new character taking the field has their ATK increased by 24% for 10s. This effect can only occur once every 20s."
               },
               "text": "A fictional story of a band of five heroes who go off on a dragon hunt. It is poorly written and structurally incoherent. Its value lies in the many lessons that can be learned from failure."
             },
@@ -4208,7 +4472,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Catalyst",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "Energy Recharge \u00b7 39.0%",
+                "weaponEffect": "Energy Shower: Picking up an Elemental Energy Orb/Particle recovers 1% HP."
               },
               "text": "A cheap fantasy novel with no value whatsoever. Any claim that it possesses the power of catalysis is also pure fantasy."
             },
@@ -4220,7 +4486,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Catalyst",
-                "atk": 448
+                "baseAttack": 448,
+                "subStat": "Elemental Mastery \u00b7 94",
+                "weaponEffect": "Rapids: Upon causing a Vaporize, Electro-Charged, Frozen, Bloom, Lunar-Charged, Lunar-Bloom, or a Hydro-infused Swirl reaction, ATK is increased by 20% for 12s."
               },
               "text": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\""
             },
@@ -4232,7 +4500,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Catalyst",
-                "atk": 448
+                "baseAttack": 448,
+                "subStat": "CRIT Rate \u00b7 15.6%",
+                "weaponEffect": "Guerilla Tactics: Defeating an opponent increases Movement SPD and ATK by 12% for 15s."
               },
               "text": "A jade pendant formed by piecing together two jade stones."
             },
@@ -4244,7 +4514,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Windfall: CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."
               },
               "text": "A secret tome that belonged to the scholars of the Knights of Favonius. It describes the logic and power of elements and matter.",
               "released": "2020-12-01"
@@ -4257,7 +4529,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT DMG \u00b7 55.1%",
+                "weaponEffect": "Debut: When the character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. Recitative: ATK is increased by 60%. Aria: Increases all Elemental DMG by 48%. Interlude: Elemental Mastery is increased by 240."
               },
               "text": "A heavy notebook filled with musical scores. Though suffering from moth damage and heavy wear-and-tear, there is still much power to be found among the hand-written words within.",
               "released": "2020-09-28"
@@ -4270,7 +4544,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Elemental Mastery \u00b7 221",
+                "weaponEffect": "Composed: After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."
               },
               "text": "A weathered script, the text of which is no longer legible. A cursed item eroded by the winds of time.",
               "released": "2020-10-20"
@@ -4283,7 +4559,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Focus: Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."
               },
               "text": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells."
             },
@@ -4295,7 +4573,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Solar Shine: Normal Attack hits increase Elemental Skill and Elemental Burst DMG by 20% for 6s. Likewise, Elemental Skill or Elemental Burst hits increase Normal Attack DMG by 20% for 6s."
               },
               "text": "A dull, golden pearl made of an unknown substance that harbors the light of the sun and the moon and pulses with a warm strength."
             },
@@ -4307,7 +4587,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Gilding: Using an Elemental Burst regenerates 4 Energy every 2s for 6s. All party members will regenerate 4% HP every 2s for this duration."
               },
               "text": "A dully gilded catalyst secretly guarded in the Blackcliff Forge. It seems to glow with the very light from the sky."
             },
@@ -4319,7 +4601,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Elemental Mastery \u00b7 110",
+                "weaponEffect": "Infusion Scroll: Triggering an Elemental reaction grants a 8% Elemental DMG Bonus for 10s. Max 2 stacks."
               },
               "text": "A nautical chart featuring nearby currents and climates that somehow found its way into Liyue via foreign traders."
             },
@@ -4331,7 +4615,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT DMG \u00b7 55.1%",
+                "weaponEffect": "Press the Advantage: After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
               },
               "text": "A mysterious catalyst made of a material known as \"blackcliff.\" It has an ominous crimson glow that seems to pulse in synchronization with the tremors from deep within the earth."
             },
@@ -4343,7 +4629,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "ATK \u00b7 55.1%",
+                "weaponEffect": "Echo: Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing 240% ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every 12s."
               },
               "text": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
               "released": "2020-11-11"
@@ -4356,7 +4644,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Ever-Changing: Hitting an opponent with a Normal Attack decreases the Stamina consumption of Sprint or Alternate Sprint by 14% for 5s. Additionally, using a Sprint or Alternate Sprint ability increases ATK by 20% for 5s."
               },
               "text": "A songbook from the bygone aristocratic era, whose composer has become forgotten. It chronicles the tale of a certain heroic outlaw.",
               "released": "2021-03-17"
@@ -4369,7 +4659,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Frost Burial: Hitting an opponent with Normal and Charged Attacks has a 60% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200% of ATK. Can only occur once every 10s."
               },
               "text": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it."
             },
@@ -4381,7 +4673,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "ATK \u00b7 55.1%",
+                "weaponEffect": "Dodoventure!: Normal Attack hits on opponents increase Charged Attack DMG by 16% for 6s. Charged Attack hits on opponents increase ATK by 8% for 6s."
               },
               "text": "A children's book filled with childish short stories at which one cannot help but laugh.\nEven those readers who have long reached adulthood cannot help but be absorbed by the innocent, naive little adventures portrayed within."
             },
@@ -4393,7 +4687,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Sakura Saiguu: After the character equipped with this weapon triggers an Electro elemental reaction, nearby party members of an Elemental Type involved in the elemental reaction receive a 10% Elemental DMG Bonus for their element, lasting 6s. Elemental Bonuses gained in this way cannot be stacked."
               },
               "text": "A catalyst that carries the memory of the Kitsune Saiguu of ancient times. However, this device is but an impoverished vessel for the full breadth of her thought."
             },
@@ -4405,7 +4701,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "People of the Faltering Light: Increases Energy Recharge by 24% for 10s after using an Elemental Skill."
               },
               "text": "A national treasure of Byakuyakoku stored in the Dainichi Mikoshi. With the coming of the Serpent God, this item was used to notarize great oaths and wishes."
             },
@@ -4417,7 +4715,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Wildling Nightstar: The following effect will trigger every 10s: The equipping character will gain 24% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field."
               },
               "text": "This was originally a device used by researchers to observe and perform calculations on celestial phenomena. It serves as a conduit and catalyst.",
               "released": "2022-10-14"
@@ -4430,7 +4730,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Full Circle: Obtain the \"Wax and Wane\" effect after an Elemental Reaction is triggered, gaining 24 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field."
               },
               "text": "A fruit you obtained from an Aranara tale. It holds the potential to conquer any crisis."
             },
@@ -4442,7 +4744,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "CRIT Rate \u00b7 36.8%",
+                "weaponEffect": "Jade Circulation: When not on the field for more than 5s, Max HP will be increased by 32% and Elemental Mastery will be increased by 40. These effects will be canceled after the wielder has been on the field for 10s."
               },
               "text": "An ancient jade pendant that gleams like clear water. It seems to have been used in ancient ceremonies."
             },
@@ -4454,7 +4758,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Unfinished Masterpiece: When using an Elemental Skill, All Elemental DMG Bonus will be increased by 8% for 15s, and a Bond of Life worth 24% of Max HP will be granted. This effect can be triggered once every 10s. When the Bond of Life is cleared, every 1,000 HP cleared in the process will provide 2% All Elemental DMG Bonus, up to a maximum of 12%. This effect lasts 15s."
               },
               "text": "A strangely-shaped anthology of scripts. All the scripts written by Coppelius are recorded within."
             },
@@ -4466,7 +4772,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Azure Skies: Within 6s after Normal or Charged Attacks hit an opponent, Normal Attack DMG will be increased by 8% and Charged Attack DMG will be increased by 6%. Max 3 stacks. This effect can be triggered once every 0.3s."
               },
               "text": "An anthology of exquisite poetry. It contains quite a few poems beloved by Mondstadters, concerning the skies, dandelions, and other such topics."
             },
@@ -4478,7 +4786,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Tupac's Grip: When an attack hits an opponent, deal AoE DMG equal to 40% of Max HP at the target location. This effect can be triggered once every 15s."
               },
               "text": "A ritual vessel passed down amongst the Meztli. They say that this was once a treasure much-valued, yet never used, by the hero \"Giant\" Tupac."
             },
@@ -4490,7 +4800,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Fangs Flying To and Fro: Decreases Swimming Stamina consumption by 15%. In addition, for 10s after using an Elemental Skill, Max HP is increased by 20%. For every Hydro Elemental Type character in the party, Max HP is increased by another 12%, and the maximum increase that can be achieved in this way is 24%. Can be triggered once every 15s."
               },
               "text": "A boomerang made from the fangs of a giant sea serpent. It was a rare weapon indeed that the giant Tupac would call \"trusty.\"",
               "released": "2024-11-20"
@@ -4503,7 +4815,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Echoes of the Plentiful Land: Using an Elemental Skill grants the Jade-Forged Crown effect: Every 1,000 Max HP will increase the Normal Attack DMG dealt by the equipping character by 0.6% for 10s. Normal Attack DMG can be increased this way by a maximum of 16%."
               },
               "text": "This jade vessel was created by a hero of yesteryear. Legend has it that it once shot the giant dragon that dwelt in the volcano down from the skies."
             },
@@ -4515,7 +4829,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Last Singer: For 20s after using an Elemental Skill, the equipping character's Elemental Mastery is increased by 100."
               },
               "text": "A lute whose golden strings are as radiant as sunlight. It appears to be a relic from the Seelie of old."
             },
@@ -4527,7 +4843,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Elemental Mastery \u00b7 221",
+                "weaponEffect": "Token of Covenant: Bloom DMG is increased by 48%, and Lunar-Bloom DMG is increased by 12%. Moonsign: Ascendant Gleam: Lunar-Bloom DMG is increased by an additional 12%."
               },
               "text": "A lantern that emits a faint, ghostly glow, contained by a midnight-black alloy that resembles interlocking bones. It is said to have once been revered as a precious treasure by a certain secret organization."
             },
@@ -4539,7 +4857,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT DMG \u00b7 55.1%",
+                "weaponEffect": "Nocturnal Dreams: For 10s after a Charged Attack hits an opponent, Elemental Mastery is increased by 72. For 10s after an Elemental Skill hits an opponent, Elemental Mastery is increased by 48."
               },
               "text": "A silver-forged ritual vessel, pure and completely without blemish. It is said to be a sacred relic passed down for generations among the priestesses of the far north.",
               "released": "2025-10-22"
@@ -4552,7 +4872,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Without Heed for Day nor Night: Using an Elemental Skill grants the equipping character \"Laws of the Board,\" which increases their ATK by 20% and their Elemental Mastery by 100. This effect lasts 6s and can trigger once every 12s. Does not stack. The duration of this effect will also be extended by 6s if the equipping character hits an opponent with a Charged Attack while it is active. The effect can be extended for max 6s in this way."
               },
               "text": "A golden box lavishly inlaid with precious jewels. It houses a game much beloved by the kings of the sands."
             },
@@ -4564,7 +4886,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Catalyst",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Echo of a Vow: Triggering an Elemental Reaction increases the equipping character's Elemental Mastery by 60 for 12s, while triggering a Stellar Glimmer reaction increases their Stellar Glimmer reaction DMG dealt by 16% for 12s. The aforementioned effects can trigger even when the character is not on the field."
               },
               "text": "A Catalyst said to crystallize voice. Within it lies a sealed oath of loyalty, as well as a heart long since forgotten by mankind."
             },
@@ -4576,7 +4900,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "ATK \u00b7 33.1%",
+                "weaponEffect": "Wandering Clouds: Increases Elemental DMG Bonus by 12%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160% ATK DMG. Can only occur once every 30s."
               },
               "text": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
               "released": "2020-12-23"
@@ -4589,7 +4915,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Boundless Blessing: Increases Movement SPD by 10%. When in battle, gain an 8% Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat."
               },
               "text": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
               "released": "2020-10-20"
@@ -4602,7 +4930,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "ATK \u00b7 49.6%",
+                "weaponEffect": "Golden Majesty: Increases Shield Strength by 20%. Scoring hits on opponents increases ATK by 4% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%."
               },
               "text": "A stone dumbbell containing distant memories. Its endless transformations reveal the power within.",
               "released": "2020-11-11"
@@ -4615,7 +4945,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "HP \u00b7 49.6%",
+                "weaponEffect": "Primordial Jade Regalia: For 3s after using an Elemental Burst or creating a shield, the equipping character can gain the Primordial Jade Regalia effect: Restore 4.5 Energy every 2.5s, and gain 0.3% Elemental DMG Bonus for their corresponding Elemental Type for every 1,000 Max HP they possess, up to 12%. Primordial Jade Regalia will still take effect even if the equipping character is not on the field."
               },
               "text": "A ritual vessel carved from jade that reflects the luster of the skies and the clear waters.",
               "released": "2023-05-02"
@@ -4628,7 +4960,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "HP \u00b7 49.6%",
+                "weaponEffect": "Byakuya Kougetsu: Healing Bonus increased by 10%, Normal Attack DMG is increased by 1% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s."
               },
               "text": "A string of lovely jasper from the deep sea. It shines with a pure radiance like that of the moon, and just as ever-distant.",
               "released": "2021-09-21"
@@ -4641,7 +4975,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "Kagura Dance of the Sacred Sakura: Using an Elemental Skill grants the Kagura Dance effect, increasing the wielding character's Elemental Skill DMG by 12% as well as their Stellar-Conduct DMG by 12% for 24s. Max 3 stacks. This character will gain a 12% All Elemental DMG Bonus when they possess 3 stacks."
               },
               "text": "The bells used when performing the Kagura Dance, blessed by the Guuji herself. The scent of the Sacred Sakura tree lingers on it.",
               "released": "2022-02-16"
@@ -4654,7 +4990,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "Elemental Mastery \u00b7 265",
+                "weaponEffect": "A Thousand Nights' Dawnsong: Party members other than the equipping character will provide the equipping character with buffs based on whether their Elemental Type is the same as the latter or not. If their Elemental Types are the same, increase Elemental Mastery by 32. If not, increase the equipping character's DMG Bonus from their Elemental Type by 10%. Each of the aforementioned effects can have up to 3 stacks. Additionally, all nearby party members other than the equipping character will have their Elemental Mastery increased by 40. Multiple such effects from multiple such weapons can stack."
               },
               "text": "This lamp illuminates the dreams that float up over a thousand nights, and in its emerald-green light flows a song of ancient days.",
               "released": "2022-11-02"
@@ -4667,7 +5005,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT DMG \u00b7 44.1%",
+                "weaponEffect": "Bygone Azure Teardrop: Normal Attack SPD is increased by 10%. After the wielder unleashes an Elemental Skill, Normal Attack DMG will increase by 4.8% every second for 14s. After hitting an opponent with a Normal Attack during this duration, Normal Attack DMG will be increased by 9.6%. This increase can be triggered once every 0.3s. The maximum Normal Attack DMG increase per single duration of the overall effect is 48%. The effect will be removed when the wielder leaves the field, and using the Elemental Skill again will reset all DMG buffs."
               },
               "text": "A bell crafted of deep sapphire and sterling silver. Its echoes are as crisp as they are distant.",
               "released": "2022-12-07"
@@ -4680,7 +5020,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Golden Blood-Tide: ATK is increased by 16%. When current HP increases or decreases, Normal Attack DMG is increased by 16%, Charged Attack DMG is increased by 14%, and Stellar-Conduct DMG is increased by 14% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by 8%."
               },
               "text": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
               "released": "2023-10-17"
@@ -4693,7 +5035,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Aeon Wave: HP is increased by 16%. When current HP increases or decreases, Charged Attack DMG will be increased by 14% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the character has 3 stacks or a third stack's duration refreshes, 8 Energy will be restored. This Energy restoration effect can be triggered once every 12s."
               },
               "text": "A manual that was once passed down from generation to generation within an underwater priory. Today, none know of its existence.",
               "released": "2023-09-27"
@@ -4706,7 +5050,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 741
+                "baseAttack": 741,
+                "subStat": "ATK \u00b7 16.5%",
+                "weaponEffect": "Cloudfall Axiom: After the equipping character hits an opponent with a Plunging Attack, all nearby party members' Plunging Attacks will deal 28% increased DMG for 20s. When nearby party members hit opponents with Plunging Attacks, they will restore 2.5 Energy to the equipping character. Energy can be restored this way every 0.7s. This energy regain effect can be triggered even if the equipping character is not on the field."
               },
               "text": "A fan carved from pure jade, around which swirls an ancient aura of adeptal energy.",
               "released": "2024-01-31"
@@ -4719,7 +5065,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Aqua Remembrance: Max HP increased by 20%. Once every 15s, for the 14s after using an Elemental Skill: Gain 4 Scorching Summer stacks. Each stack increases Normal Attack DMG by 12%. For the duration of the effect, once every 1.5s, lose 1 stack after a Normal Attack hits an opponent; once every 1.5s, gain 1 stack after triggering a Vaporize reaction on an opponent. Max 4 Scorching Summer stacks."
               },
               "text": "A commemorative item originally reserved for the champion of the \"First All-Tribe Surfing Championship.\" Since said tournament is currently in the preparatory stage, the prize is in temporary storage at the Leisurely Puffer, with the shop owner as its custodian.",
               "released": "2024-08-28"
@@ -4732,7 +5080,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "Elemental Mastery \u00b7 265",
+                "weaponEffect": "Offering Unto Wind and Sun: Increases Elemental Mastery by 100. Gain the \"Mirror of Night\" effect within 15s after the equipping character creates a shield: The current active party member deals 28% increased DMG to nearby opponents. You can gain the \"Mirror of Night\" effect once every 14s."
               },
               "text": "A statue carved in the shape of an eagle, a sacred relic of the Masters of the Night-Wind that has been passed down from generation to generation.",
               "released": "2025-01-01"
@@ -4745,7 +5095,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "Elemental Mastery \u00b7 265",
+                "weaponEffect": "Bathhouses, Hawks, and Narukami: Elemental Mastery increases by 120 for 6s after triggering Swirl or Stellar Swirl. Elemental Mastery increases by 96 for 9s after the wielder's Elemental Skill hits an opponent. Elemental Mastery increases by 32 for 30s after the wielder's Elemental Burst hits an opponent."
               },
               "text": "A bell lantern forged from purple jade. They say it brings sweet dreams when placed beside one's pillow.",
               "released": "2025-02-12"
@@ -4758,7 +5110,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT DMG \u00b7 44.1%",
+                "weaponEffect": "Falling Rainbow's Wish: ATK is increased by 28%. When you use a Plunging Attack, you will gain the \"Dawn's First Hue\" effect: Plunging Attack CRIT DMG is increased by 28%. When you use an Elemental Skill or Burst, you will gain the \"Twilight's Splendor\" effect: Plunging Attack CRIT DMG is increased by 40%. The two effects above each last for 15s, and will be canceled 0.1s after the ground impact hits a target."
               },
               "text": "A trophy made from gemstones from the Collective of Plenty and crystals from the Flower-Feather Clan. It is said to have once belonged to a legendary wrestler.",
               "released": "2025-03-26"
@@ -4771,7 +5125,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "Elemental Mastery \u00b7 265",
+                "weaponEffect": "Millennial Hymn: When the equipping character's Elemental Skill deals Hydro or Dendro DMG, they will gain Prayer of the Far North: Elemental Mastery is increased by 60 for 4.5s. When nearby party members trigger Lunar-Bloom reactions, the equipping character gains New Moon Verse: Elemental Mastery is increased by 60 for 10s. When both Prayer of the Far North and New Moon Verse are in effect, all nearby party members' Bloom DMG is increased by 120%, their Hyperbloom and Burgeon DMG is increased by 80%, and their Lunar-Bloom DMG is increased by 40%. This effect cannot stack. The aforementioned effects can be triggered even if the equipping character is off-field."
               },
               "text": "A mirror crafted from flawless silver that is said to have witnessed the birth of the Moon Maiden. It is seen as a relic of unrivalled provenance by the Frostmoon Scions.",
               "released": "2025-09-10"
@@ -4784,7 +5140,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Essence of Falsity: CRIT Rate is increased by 8%. When the equipping character unleashes an Elemental Skill, they gain the Secret of Lies effect: Elemental Mastery is increased by 80 for 12s. When the equipping character deals Lunar-Bloom DMG to an opponent, they gain the Moon of Truth effect: CRIT DMG is increased by 24% for 4s. When both the Secret of Lies and Moon of Truth effects are active at the same time, the results of both effects will be increased by 50%."
               },
               "text": "An angular box carved from gold and jade. Legend has it that it was once enshrined in a temple deep within Tulaytullah, the Sapphire City.",
               "released": "2025-10-22"
@@ -4797,7 +5155,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Ballad of the Crossroads: Max HP increases by 10%. When triggering Lunar reactions or inflicting Lunar Reaction DMG on opponents, the equipping character will recover 14 Energy, and receive the Bountiful Sea's Sacred Wine effect for 12s: Max HP increases by an additional 14%, CRIT DMG from Lunar Reaction DMG increases by 60%. The Energy recovery effect can be triggered at most once every 18s, and can be triggered even when the equipping character is off-field."
               },
               "text": "A jade pearl shrouded in the light of the moon. Even in the coldest winter night, its gentle warmth lingers like a song.",
               "released": "2026-01-14"
@@ -4810,7 +5170,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Catalyst",
-                "atk": 741
+                "baseAttack": 741,
+                "subStat": "ATK \u00b7 16.5%",
+                "weaponEffect": "Crown of the Final Scion: ATK is increased by 12%. After the equipping character creates a Shield, they gain \"Pathfinder's Light\" for 20s: Increases your active party member's DMG by 10% for every 1,000 ATK the equipping character has, up to a maximum of 26%. Additionally, when the equipping character creates a Shield, they will also gain \"Guide's Contentment\": Restores 14 Elemental Energy to the equipping character. The aforementioned effect can trigger once every 14s, and can also be triggered when any type of chest is opened outside of combat. The equipping character may trigger this effect even when they are an off-field.\nHexerei: Secret Rite: When your own Hexerei character is off-field in the party, they will also gain 50% of the DMG increase from Pathfinder's Light."
               },
               "text": "A golden box as splendid as the light of the heavens. According to legend, it once belonged to a divine envoy of the Eternal Court.",
               "released": "2026-05-20"
@@ -4823,7 +5185,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "1 \u2605",
                 "type": "Bow",
-                "atk": 185
+                "baseAttack": 185,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A hunter's music consists of but two sounds: the twang of the bowstring and the whoosh of soaring arrows."
             },
@@ -4835,7 +5199,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "2 \u2605",
                 "type": "Bow",
-                "atk": 243
+                "baseAttack": 243,
+                "subStat": "None",
+                "weaponEffect": "None"
               },
               "text": "A bow that has been well-polished by time and meticulously cared for by its owner. It feels almost like an extension of the archer's arm."
             },
@@ -4847,7 +5213,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Bow",
-                "atk": 448
+                "baseAttack": 448,
+                "subStat": "Elemental Mastery \u00b7 94",
+                "weaponEffect": "Bane of Flame and Water: Increases DMG against opponents affected by Hydro or Pyro by 12%."
               },
               "text": "Ravens are known to be the ferrymen of the dead. This bow's limb is decorated with raven feathers, which forebode the imminent death of its target."
             },
@@ -4859,7 +5227,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Bow",
-                "atk": 401
+                "baseAttack": 401,
+                "subStat": "CRIT DMG \u00b7 46.9%",
+                "weaponEffect": "Precise: Increases DMG against weak spots by 24%."
               },
               "text": "This superior bow once belonged to a master archer. However, it gives off a strong scent, thus making it unsuitable for hunting."
             },
@@ -4871,7 +5241,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Bow",
-                "atk": 354
+                "baseAttack": 354,
+                "subStat": "HP \u00b7 46.9%",
+                "weaponEffect": "Cull the Weak: Defeating an opponent restores 8% HP."
               },
               "text": "It is said that this bow can shoot down eagles in flight, but ultimately how true that is depends on the skill of the archer."
             },
@@ -4883,7 +5255,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Bow",
-                "atk": 354
+                "baseAttack": 354,
+                "subStat": "CRIT Rate \u00b7 31.2%",
+                "weaponEffect": "Slingshot: If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%. Otherwise, decreases DMG by 10%."
               },
               "text": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow."
             },
@@ -4895,7 +5269,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "3 \u2605",
                 "type": "Bow",
-                "atk": 448
+                "baseAttack": 448,
+                "subStat": "CRIT DMG \u00b7 31.2%",
+                "weaponEffect": "Archer's Message: Charged Attack hits on weak points deal an additional 100% ATK DMG as CRIT DMG. Can only occur once every 10s."
               },
               "text": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication."
             },
@@ -4907,7 +5283,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Windfall: CRIT Hits have a 60% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every 12s."
               },
               "text": "A standard-issue recurve bow of the Knights of Favonius. Only the best archers can unleash its full potential.",
               "released": "2020-12-01"
@@ -4920,7 +5298,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Arrowless Song: Increases Elemental Skill and Elemental Burst DMG by 24%."
               },
               "text": "A bow that once served as an extraordinary instrument. It is no longer capable of getting people up and dancing.",
               "released": "2020-09-28"
@@ -4933,7 +5313,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Composed: After damaging an opponent with an Elemental Skill, the skill has a 40% chance to end its own CD. Can only occur once every 30s."
               },
               "text": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
               "released": "2020-10-20"
@@ -4946,7 +5328,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Focus: Upon damaging an opponent, increases CRIT Rate by 8%. Max 5 stacks. A CRIT Hit removes all stacks."
               },
               "text": "An old longbow that belonged to the erstwhile aristocratic rulers of Mondstadt. Countless generations later, the bowstring is still tight and can still fire arrows with great force."
             },
@@ -4958,7 +5342,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Rapid Firing: Increases Normal Attack DMG by 40% but decreases Charged Attack DMG by 10%."
               },
               "text": "A completely rusted iron greatbow. The average person would lack the strength to even lift it, let alone fire it.",
               "released": "2020-11-11"
@@ -4971,7 +5357,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Unreturning: Charged Attack hits on weak points increase Movement SPD by 10% and ATK by 36% for 10s."
               },
               "text": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight."
             },
@@ -4983,7 +5371,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Physical DMG Bonus \u00b7 69.0%",
+                "weaponEffect": "Infusion Arrow: Normal Attack and Charged Attack hits increase ATK by 4% and Normal ATK SPD by 1.2% for 6s. Max 4 stacks. Can only occur once every 0.3s."
               },
               "text": "An exotic metallic bow from a distant land. Though extremely difficult to maintain, it is easy to nock and fires with tremendous force."
             },
@@ -4995,7 +5385,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "CRIT DMG \u00b7 36.8%",
+                "weaponEffect": "Press the Advantage: After defeating an enemy, ATK is increased by 12% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others."
               },
               "text": "A bow made of blackcliff that features extremely sturdy bow limbs. It requires an archer with a strong bow arm to use."
             },
@@ -5007,7 +5399,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "Verdant Wind: Upon hit, Normal and Charged Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing 40% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every 14s."
               },
               "text": "A pure green hunting bow. This once belonged to a certain hunter whose home was the forest."
             },
@@ -5019,7 +5413,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Oppidan Ambush: While the character equipped with this weapon is in the party but not on the field, their DMG increases by 2% every second up to a max of 20%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by 4% per second until it reaches 0%."
               },
               "text": "An intricate, opulent longbow. It once belonged to a gentleman thief who was never caught.",
               "released": "2021-04-06"
@@ -5032,7 +5428,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "Energy Recharge \u00b7 30.6%",
+                "weaponEffect": "Radiance of the Deeps: Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6%/10%/14% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field."
               },
               "text": "A precious bow made of platinum, inlaid with an orb that shimmers with the light of eventide."
             },
@@ -5044,7 +5442,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Physical DMG Bonus \u00b7 51.7%",
+                "weaponEffect": "Evernight Duet: Normal Attack hits on opponents increase Elemental Skill DMG by 20% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by 20% for 5s."
               },
               "text": "A bow painted the color of transgression and nights of illusion.",
               "released": "2021-06-09"
@@ -5057,7 +5457,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Windblume Wish: After using an Elemental Skill, receive a boon from the ancient wish of the Windblume, increasing ATK by 16% for 6s."
               },
               "text": "A bow adorned with nameless flowers that bears the earnest hopes of an equally nameless person."
             },
@@ -5069,7 +5471,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "ATK \u00b7 55.1%",
+                "weaponEffect": "Full Draw: Increases Normal Attack DMG by 16% and Charged Attack DMG by 12%. When the equipping character's Energy reaches 100%, this effect is increased by 100%."
               },
               "text": "A certain shrine maiden once owned this warbow. It was made with surpassing skill, and is both intricate and sturdy."
             },
@@ -5081,7 +5485,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Strong Strike: Effective only on the following platform:\n\"PlayStation\u2122Network\"\nDealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66."
               },
               "text": "A uniquely-designed bow. This should not belong in this world."
             },
@@ -5093,7 +5499,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Watatsumi Wavewalker: For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12%. A maximum of 40% increased Elemental Burst DMG can be achieved this way."
               },
               "text": "A lovely warbow made from seashells and coral. A mournful brilliance flows along its moonlight-colored arms.",
               "released": "2021-11-02"
@@ -5106,7 +5514,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "ATK \u00b7 55.1%",
+                "weaponEffect": "Labyrinth Lord's Instruction: Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s."
               },
               "text": "A weapon you obtained from an Aranara tale. It has taken on the shape of a bow that can shoot the enemies of the forest down."
             },
@@ -5118,7 +5528,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Net Snapper: Triggers the Flowrider effect after using an Elemental Skill, dealing 80% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s."
               },
               "text": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow."
             },
@@ -5130,7 +5542,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Secret Wisdom's Favor: The character's Elemental Mastery will increase by 40 within 6s after Charged Attacks hit opponents. Max 2 stacks. This effect can be triggered once every 0.5s."
               },
               "text": "A golden bow forged from the description in the story. If you use it as a normal weapon, you can also view it as a part of a fictional world that has made it off the pages."
             },
@@ -5142,7 +5556,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "CRIT Rate \u00b7 18.4%",
+                "weaponEffect": "The Way of Sunfire: After a Charged Attack hits an opponent, a Sunfire Arrow will descend upon the opponent hit, dealing 60% ATK as DMG, and applying the Heartsearer effect to the opponent damaged by said Arrow for 10s. Opponents affected by Heartsearer take 28% more Charged Attack DMG from the wielder. A Sunfire Arrow can be triggered once every 10s."
               },
               "text": "An ancient longbow that is a remnant of King Deshret's ancient era. An indecipherable ancient text and solemn patterns have been carved into it."
             },
@@ -5154,7 +5570,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Benthic Pulse: After the wielder is healed, they will deal 16% more DMG for 8s. This can be triggered even when the character is not on the field."
               },
               "text": "A strange longbow that resembles a sea creature. Its string makes no sound at all."
             },
@@ -5166,7 +5584,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Elemental Mastery \u00b7 165",
+                "weaponEffect": "Crag-Chiseled Forge: After Elemental Energy is decreased, the equipping character's Elemental Mastery will increase by 40 for 18s. Max 2 stacks."
               },
               "text": "A prototype for a standard-issue weapon the Yuheng commissioned from Blackcliff Forge after having analyzed the ancient mechanisms that protected the adeptal abode upon Tianheng."
             },
@@ -5178,7 +5598,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Masons' Ditty: When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3% ATK and 7% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field."
               },
               "text": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
               "released": "2023-10-17"
@@ -5191,7 +5613,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "ATK \u00b7 41.3%",
+                "weaponEffect": "Inflorescence Unattainable: Decreases Gliding Stamina consumption by 15%. When using Aimed Shots, the DMG dealt by Charged Attacks increases by 6% every 0.5s. This effect can stack up to 6 times and will be removed 10s after leaving Aiming Mode."
               },
               "text": "A longbow that burns like a flame. The feathers that adorn it are said to have come from the ancient tyrant Ngoubou.",
               "released": "2024-11-20"
@@ -5204,7 +5628,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 565
+                "baseAttack": 565,
+                "subStat": "ATK \u00b7 27.6%",
+                "weaponEffect": "Flower-Feather Song: For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24 Elemental Mastery."
               },
               "text": "A jade-adorned longbow. The gentle winds always seem to swirl gently about its string. Legends claim that this weapon was made in a far more ancient era by a dragon artisan."
             },
@@ -5216,7 +5642,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "HP \u00b7 41.3%",
+                "weaponEffect": "Silent Trigger: When an attack hits an opponent, deal AoE DMG equal to 40% of Max HP at the target location. This effect can be triggered once every 15s."
               },
               "text": "A mechanical longbow purpose-built for long shots and silent kills. Its twang is swallowed up amidst the night, the note lengthy and cold."
             },
@@ -5228,7 +5656,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 454
+                "baseAttack": 454,
+                "subStat": "Energy Recharge \u00b7 61.3%",
+                "weaponEffect": "Phantom Flash: Upon causing an Elemental Reaction, increases Elemental Mastery by 60 for 12s. Moonsign: Ascendant Gleam: Elemental Mastery from this effect is further increased by 60. This effect can be triggered even if the equipping character is off-field."
               },
               "text": "The stave of this bow is comprised of metal alloy and yet remains surprisingly light. Even when faced with thick, heavy snares, the arrows it fires can pass through unhindered."
             },
@@ -5240,7 +5670,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "Energy Recharge \u00b7 45.9%",
+                "weaponEffect": "Astral Whispers Beyond the Sacred Throne: ATK is increased by 28% for 8s after the equipping character's attacks hit an opponent while the equipping character is off-field."
               },
               "text": "An ancient ceremonial weapon passed down by the Masters of the Night-Wind. This dark bow is forever wreathed in an unshakable chill."
             },
@@ -5252,7 +5684,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "CRIT Rate \u00b7 27.6%",
+                "weaponEffect": "A Candle Woven From the Night: For every party member other than the equipping character: \u00b7 Who is of the same Elemental Type as the equipper: The equipping character's Elemental Mastery is increased by 64; \u00b7 Who is not of the same Elemental Type as the equipper: The equipping character's ATK increases by 12%. The two effects described above can stack up to 3 times in total, with Elemental Mastery buffs applied first."
               },
               "text": "A longbow of immense strength. It shines with the radiance of dreams even in the darkest of nights."
             },
@@ -5264,7 +5698,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "4 \u2605",
                 "type": "Bow",
-                "atk": 510
+                "baseAttack": 510,
+                "subStat": "DEF \u00b7 51.7%",
+                "weaponEffect": "The Law's Equilibrium: For 12s after the equipping character uses an Elemental Skill, their Elemental Mastery is increased by 120."
               },
               "text": "A longbow crafted to preserve order. Its cold radiance perfectly emanates the ideals of absolute fairness and justice."
             },
@@ -5276,7 +5712,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT Rate \u00b7 22.1%",
+                "weaponEffect": "Echoing Ballad: Increases CRIT DMG by 20%. Hits have a 60% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every 4s."
               },
               "text": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
               "released": "2020-11-11"
@@ -5289,7 +5727,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "ATK \u00b7 49.6%",
+                "weaponEffect": "Strong-Willed: Increases Normal and Charged Attack DMG by 12%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8% every 0.1s the arrow is in the air for up to 5 times."
               },
               "text": "An extremely ancient bow that has retained its power despite its original master being long gone. It draws power from everyone and everything in the world, and the further away you are from that which your heart desires, the more powerful it is.",
               "released": "2020-09-28"
@@ -5302,7 +5742,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "Energy Recharge \u00b7 55.1%",
+                "weaponEffect": "The Parting Refrain: A part of the \"Millennial Movement\" that wanders amidst the winds. Increases Elemental Mastery by 60. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the \"Millennial Movement: Farewell Song\" effect for 12s. \"Millennial Movement: Farewell Song\" increases Elemental Mastery by 100 and increases ATK by 20%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the \"Millennial Movement,\" buffs of the same type will not stack."
               },
               "text": "A bow as lovely as any bard's lyre, its arrows pierce the heart like a lamenting sigh.",
               "released": "2021-03-17"
@@ -5315,7 +5757,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT Rate \u00b7 33.1%",
+                "weaponEffect": "Daylight's Augury: Elemental Skill and Elemental Burst DMG increased by 12%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/20/30/48%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others."
               },
               "text": "A pristine bow that is as sharp as the glaciers of the far north.",
               "released": "2021-10-13"
@@ -5328,7 +5772,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "The Cleansing Form: HP is increased by 16%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20%. This will take effect whether the character is on-field or not."
               },
               "text": "This longbow's color is unpredictable. Under the light, it takes on a lustrous, watery blue.",
               "released": "2022-05-31"
@@ -5341,7 +5787,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "Rule by Thunder: Increases ATK by 20% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12/24/40%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently."
               },
               "text": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
               "released": "2021-08-10"
@@ -5354,7 +5802,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT Rate \u00b7 44.1%",
+                "weaponEffect": "At the End of the Beast-Paths: Gain 12% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s."
               },
               "text": "This gilded bow was made using precious white branches. It has felled countless wicked beasts attempting to infiltrate the woods.",
               "released": "2022-08-24"
@@ -5367,7 +5817,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "Parsifal the Great: DMG dealt by Charged Attacks increased by 16%. For every party member with the same Elemental Type as the wielder (including the wielder themselves), gain 1 Gimmick stack. For every party member with a different Elemental Type from the wielder, gain 1 Theatrics stack. When the wielder has 1/2/3 or more Gimmick stacks, ATK will be increased by 16%/32%/48%. When the wielder has 1/2/3 or more Theatrics stacks, Movement SPD will be increased by 4%/7%/10%."
               },
               "text": "A stage prop once used by a past \"Great Magician.\" Its final secret was that it was also a weapon beyond the pale.",
               "released": "2023-08-16"
@@ -5380,7 +5832,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "HP \u00b7 66.2%",
+                "weaponEffect": "Dryas's Nocturne: The equipping character can gain the Remedy effect. When they possess 1/2/3 Remedy stacks, Max HP will increase by 12%/24%/40%. 1 stack may be gained when the following conditions are met: 1 stack for 25s when using an Elemental Skill; 1 stack for 25s when the value of a Bond of Life value increases; 1 stack for 20s for performing healing. Stacks can still be triggered when the equipping character is not on the field. Each stack's duration is counted independently. In addition, when 3 stacks are active, Elemental Burst CRIT Rate will be increased by 28%. This effect will be canceled 4s after falling under 3 stacks."
               },
               "text": "Legendary bow of the fairies. Whether on the stage or the battlefield, it can easily touch the hearts of the listener.",
               "released": "2024-06-25"
@@ -5393,7 +5847,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 608
+                "baseAttack": 608,
+                "subStat": "CRIT DMG \u00b7 66.2%",
+                "weaponEffect": "The Moonring Sighted: For 12s after triggering a Swirl or Stellar Swirl reaction, ATK increases by 24%. In addition, when 1/2 or more characters in the party are of a different Elemental Type from the equipping character, the DMG dealt by the equipping character's Charged Attacks is increased by 20%/48%, and Elemental Burst DMG dealt is increased by 10%/24%."
               },
               "text": "An ancient longbow crested with red feathers, a sacred relic of the Flower-Feather Clan that has been passed down from generation to generation.",
               "released": "2024-11-20"
@@ -5406,7 +5862,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 674
+                "baseAttack": 674,
+                "subStat": "CRIT DMG \u00b7 44.1%",
+                "weaponEffect": "Ode Beyond Time: The equipping character gains Stirring Dawn Breeze: 3s after leaving combat, Normal Attack, Elemental Skill, and Elemental Burst DMG is increased by 60%. While in combat, this DMG Bonus will decrease by 10% per second until it reaches 0%. When the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for the corresponding DMG type is increased by 10% until it reaches 60%. This effect can be triggered once every 0.1s for each of the attack types mentioned above. This effect can be triggered even if the equipping character is off-field.\nAdditionally, when the party possesses Hexerei: Secret Rite effects, when the equipping character's Normal Attacks, Elemental Skills, or Elemental Bursts hit an opponent, the DMG Bonus for all these DMG types is increased by 20% instead."
               },
               "text": "The songs of resistance come hither on the wind to settle as gentle tones upon these strings, their combined power great enough to rip boundless darkness asunder with the light of the breaking dawn.",
               "released": "2025-12-03"
@@ -5419,7 +5877,9 @@ var NYX_DB = {
               "fields": {
                 "rarity": "5 \u2605",
                 "type": "Bow",
-                "atk": 542
+                "baseAttack": 542,
+                "subStat": "CRIT DMG \u00b7 88.2%",
+                "weaponEffect": "Dawn's Salutation Returned: Increase DEF by 16%. When the equipping character's Elemental Skill or Lunar-Crystallize attacks hit opponents, gain the Frost Fae's Favor effect for 6s: Geo DMG inflicted by the equipping character increases by 40%, Lunar-Crystallize Reaction DMG increases by 40%. While this effect is active, if there are Moondrifts near the equipping character, all other nearby party members will gain the Frost Fae's Mischief effect: Geo DMG dealt increases by 20% and Lunar-Crystallize Reaction DMG increases by 20%. This effect can be triggered even when the equipping character is off-field."
               },
               "text": "A longbow carved from ancient whitewood, once, in ages past, wielded by the Jack Frost King of the northern lands.",
               "released": "2026-04-08"
@@ -5431,7 +5891,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Sword"
+                "type": "Sword",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a golden sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5444,7 +5907,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Sword"
+                "type": "Sword",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory sword glimmering with the power of \"Life\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this sword once held the name \"Logseims\" when it was wielded by a transcendent sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5457,7 +5923,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Sword"
+                "type": "Sword",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longsword upon the high priest of Arcadia, granting them the right to lead the holy city blessed by the thousand winds.",
               "artStatus": "intentional-fallback",
@@ -5470,7 +5939,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Sword"
+                "type": "Sword",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Arcadia, granting them the right to lead the holy city before it was entombed by death.",
               "artStatus": "intentional-fallback",
@@ -5483,7 +5955,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Claymore"
+                "type": "Claymore",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory claymore that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by an wise sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5496,7 +5971,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Claymore"
+                "type": "Claymore",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory claymore glimmering with the power of \"Reason\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this claymore once held the name \"Starkuthr\" when it was wielded by a transcendent sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5509,7 +5987,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Claymore"
+                "type": "Claymore",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this claymore upon the high priest of Ys, granting them the right to lead the harbor where waters and grasses flourished.",
               "artStatus": "intentional-fallback",
@@ -5522,7 +6003,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Claymore"
+                "type": "Claymore",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longsword upon the high priest of Ys, granting them the right to lead the harbor before it sank beneath the sands.",
               "artStatus": "intentional-fallback",
@@ -5535,7 +6019,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Polearm"
+                "type": "Polearm",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory polearm that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a moon-hunting sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5548,7 +6035,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Polearm"
+                "type": "Polearm",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory polearm glimmering with the power of \"Death\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this polearm once held the name \"Barnstokkr\" when it was wielded by a transcendent sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5561,7 +6051,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Polearm"
+                "type": "Polearm",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state wreathed in verdant shade.",
               "artStatus": "intentional-fallback",
@@ -5574,7 +6067,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Polearm"
+                "type": "Polearm",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded spear upon the high priest of Sal Vindagnyr, granting them the right to lead the city-state before it was buried in silver frost.",
               "artStatus": "intentional-fallback",
@@ -5587,7 +6083,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Catalyst"
+                "type": "Catalyst",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory catalyst that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by an oracle-issuing sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5600,7 +6099,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Catalyst"
+                "type": "Catalyst",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory catalyst glimmering with the power of \"Time\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its user. Legend has it that this catalyst once held the name \"Gleipnir\" when it was used by a transcendent sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5613,7 +6115,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Catalyst"
+                "type": "Catalyst",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed her sacred sigil upon the high priest of Hyperborea, granting them the right to lead the resplendent city of gold.",
               "artStatus": "intentional-fallback",
@@ -5626,7 +6131,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Catalyst"
+                "type": "Catalyst",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, the first divine envoy bestowed the gilded sacred sigil upon the high priest of Hyperborea, granting them the right to lead the great city, ere it faded into the shadows.",
               "artStatus": "intentional-fallback",
@@ -5639,7 +6147,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Bow"
+                "type": "Bow",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory bow that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a foul sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5652,7 +6163,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Bow"
+                "type": "Bow",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory bow glimmering with the power of \"Void\" that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. Legend has it that this bow once held the name \"Gusisnautar\" when it was wielded by a transcendent sinner in an ancient land.",
               "artStatus": "intentional-fallback",
@@ -5665,7 +6179,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Bow"
+                "type": "Bow",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines. It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed this longbow upon the high priest of Lang-Gan, granting them the right to lead the newborn civilization.",
               "artStatus": "intentional-fallback",
@@ -5678,7 +6195,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "5 \u2605",
-                "type": "Bow"
+                "type": "Bow",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory weapon that emerged from the depths of the Ley Lines, shimmering with the light of \"Eternity.\" It can change its appearance based on the Elemental Type of its wielder. It is said that, in an ancient age beyond all recollection, a divine envoy of the high heavens bestowed the gilded longbow upon the high priest of Lang-Gan, granting them the right to lead the civilization before it plunged into the abyss.",
               "artStatus": "intentional-fallback",
@@ -5691,7 +6211,10 @@ var NYX_DB = {
               "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Catalyst_Kristall.webp",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Catalyst"
+                "type": "Catalyst",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "\"In principle, many phenomena in this world can be called 'images.' Therefore, the image you glimpsed in the crystal ball can, in a sense, be considered an extension of physical reality. In short, even if Alice and Nicole don't acknowledge it, Hydromancy is still very much a real thing!\""
             },
@@ -5702,7 +6225,10 @@ var NYX_DB = {
               "art": "../../Database/Shared/database-fallbacks/gi.svg",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Claymore"
+                "type": "Claymore",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A gift from the Little Hexenzirkel to a good friend. Due to insufficient available materials, the design has been based on a magical item from the Fontainian text, \"Tales of a Snow-Winged Goose.\"\nYou won't be able to open doors to different realms as one can in fairy tales, but this item is more than durable enough to accompany friends through countless such realms.",
               "artStatus": "intentional-fallback",
@@ -5715,7 +6241,10 @@ var NYX_DB = {
               "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_Icecream.webp",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Sword"
+                "type": "Sword",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A small gift from the Jack Frosts to their good friends! It looks wildly tasty and seems berry jam-flavored. One bite, and a refreshing chill and delightful sweetness would surely dance together across your tongue... if only this were actually edible. It looks super delicious, though."
             },
@@ -5726,7 +6255,10 @@ var NYX_DB = {
               "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Claymore_VarkaTunkeldegen.webp",
               "fields": {
                 "rarity": "4 \u2605",
-                "type": "Claymore"
+                "type": "Claymore",
+                "baseAttack": "Unknown",
+                "subStat": "Unknown",
+                "weaponEffect": "None"
               },
               "text": "A glorious, illusory sword that emerged from the depths of the Ley Lines. It is said that in the past, it was wielded by the white knight under the name Durandarte.\nIts name, in ancient tongues, means \"the blade that is never destroyed.\" Just like the sword he bore, the path the knight believed in has never wavered \u2014 no matter how the once-pure steel has since been darkened."
             }
@@ -5906,12 +6438,11 @@ var NYX_DB = {
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -5977,7 +6508,7 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "7.0 Phase 2",
           "teased": false,
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T10:00:00.000Z",
@@ -6038,12 +6569,12 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/0337246ce778ffd2dbd49ef89e98c850.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters from Official Channels",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -6052,12 +6583,12 @@ var NYX_DB = {
             "icon": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/genshin/32d0b3910929f0da9a9a16dfc0f9ea9a.png",
+            "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Characters Mentioned In-Game",
+            "hint": "Available Characters in the Version 7.1 Update",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           },
@@ -6130,7 +6661,9 @@ var NYX_DB = {
             "hint": "Characters from Official Channels",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
+          }
+        ],
+        "pinned": [
           {
             "name": "Alice",
             "icon": "/assets/banners/genshin/6547ae5643cabb528dc333b57e6913f6.png",
@@ -6156,62 +6689,6 @@ var NYX_DB = {
             "debut": true,
             "debutAt": null,
             "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pantalone",
-            "icon": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/05aa86240a66ec6bd5c097373af92c75.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Rerir",
-            "icon": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/e97496825dac0c5a75b2da2087a13742.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters That Appear in the Story",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pulcinella",
-            "icon": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/4fc7003735f484a65249863c9c2705f2.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
-          },
-          {
-            "name": "Pierro",
-            "icon": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/genshin/ead7070e5d899c4cbb95ea612e9f7ef3.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Characters from Official Channels",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Genshin-Impact/archives/307054"
           }
@@ -125182,8 +125659,8 @@ var NYX_DB = {
         ]
       },
       "wonderland": {
-        "updated": "2026-08-07T08:04:06.112Z",
-        "version": "6.7.54",
+        "updated": "2026-08-19T07:32:12.709Z",
+        "version": "7.0.51",
         "langMap": {
           "slot": {
             "none": "Voice-Overs",
@@ -125226,9 +125703,9 @@ var NYX_DB = {
           }
         },
         "counts": {
-          "costumes": 641,
-          "suits": 204,
-          "items": 1513
+          "costumes": 665,
+          "suits": 230,
+          "items": 1596
         },
         "costumes": [
           {
@@ -127108,6 +127585,25 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263935",
+            "name": "Cloud From the Peaks",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0458.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "262590",
             "name": "Color Whimsy",
             "kind": "Costume",
@@ -127377,6 +127873,42 @@ var NYX_DB = {
             ],
             "slot": [
               "Footwear"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263003",
+            "name": "Craftsman's Focus",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0437.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Shape"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263004",
+            "name": "Craftsman's Focus",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0437.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [
+              "Eye Shape"
             ],
             "nameMissing": false
           },
@@ -127784,6 +128316,25 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "262694",
+            "name": "Dark-Chasing Edge",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0455.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "264108",
             "name": "Dawn Clouds",
             "kind": "Costume",
@@ -128183,6 +128734,63 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262756",
+            "name": "Dreambuilder's Chisel",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0435.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262758",
+            "name": "Dreampainter's Brush",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0436.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263728",
+            "name": "Drifting Mist Veil",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0459.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "White"
+            ],
+            "slot": [
+              "Eye Makeup"
             ],
             "nameMissing": false
           },
@@ -128880,6 +129488,26 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263310",
+            "name": "First Light of Dawn",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0457.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "Yellow"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "262433",
             "name": "Fluffy Buns: Cerulean",
             "kind": "Costume",
@@ -129523,6 +130151,84 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263230",
+            "name": "Illusion Trick - Blue & Yellow",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0430.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Yellow",
+              "Blue"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263224",
+            "name": "Illusion Trick - Red & Blue",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0429.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "Blue"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262623",
+            "name": "Illusion's Whisper - Light Orange",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0424.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Yellow"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262625",
+            "name": "Illusion's Whisper - Pink",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0425.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
             ],
             "nameMissing": false
           },
@@ -130632,6 +131338,25 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "264269",
+            "name": "Melancholy Teardrop Glasses",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyewear_P0451.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Accessory"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "263605",
             "name": "Midnight Incantation",
             "kind": "Costume",
@@ -130703,6 +131428,82 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263919",
+            "name": "Miracle Stars - Brilliant Light",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0433.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263912",
+            "name": "Miracle Stars - Radiant Spirit",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0431.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263916",
+            "name": "Miracle Stars - Shadow",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0432.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Blue"
+            ],
+            "slot": [
+              "Facial Makeup"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263921",
+            "name": "Miracle Stars - Twilight Beauty",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0434.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Blue"
+            ],
+            "slot": [
+              "Facial Makeup"
             ],
             "nameMissing": false
           },
@@ -132212,6 +133013,42 @@ var NYX_DB = {
             ],
             "slot": [
               "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262942",
+            "name": "Radiant Flourish",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0428.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Shape"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262943",
+            "name": "Radiant Flourish",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0428.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Black"
+            ],
+            "slot": [
+              "Eye Shape"
             ],
             "nameMissing": false
           },
@@ -134532,6 +135369,46 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263295",
+            "name": "Spinning Dream",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0438.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "Red"
+            ],
+            "slot": [
+              "Iris"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "264274",
+            "name": "Spooky Boo Hat",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0512.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "White",
+              "Blue"
+            ],
+            "slot": [
+              "Headwear"
+            ],
+            "nameMissing": false
+          },
+          {
             "id": "261651",
             "name": "Sprout Mid-Calf Boots",
             "kind": "Costume",
@@ -134636,6 +135513,44 @@ var NYX_DB = {
             ],
             "slot": [
               "Bottom"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262627",
+            "name": "Stage Whisper - Light Orange",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0426.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Yellow"
+            ],
+            "slot": [
+              "Eyebrows"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "262629",
+            "name": "Stage Whisper - Pink",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0427.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl",
+              "Boy"
+            ],
+            "color": [
+              "Red"
+            ],
+            "slot": [
+              "Eyebrows"
             ],
             "nameMissing": false
           },
@@ -134962,6 +135877,24 @@ var NYX_DB = {
             ],
             "color": [
               "Black"
+            ],
+            "slot": [
+              "Eye Shape"
+            ],
+            "nameMissing": false
+          },
+          {
+            "id": "263013",
+            "name": "Swallowtail Willow",
+            "kind": "Costume",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0456.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
             ],
             "slot": [
               "Eye Shape"
@@ -137021,6 +137954,41 @@ var NYX_DB = {
         ],
         "suits": [
           {
+            "id": "265465",
+            "name": "Amber Nectar",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0171.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Yellow",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265466",
+            "name": "Amber Nectar",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0171.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Yellow",
+              "Brown",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265018",
             "name": "Astral Beacon",
             "kind": "Set",
@@ -137116,6 +138084,41 @@ var NYX_DB = {
             "color": [
               "Green",
               "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265481",
+            "name": "Azure Mountainshade",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0189.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "Yellow",
+              "Gray"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265482",
+            "name": "Azure Mountainshade",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0189.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "Gray"
             ],
             "slot": [],
             "nameMissing": false
@@ -137619,6 +138622,39 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265362",
+            "name": "Cloudbound Flight",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "Orange"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265363",
+            "name": "Cloudbound Journey",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265225",
             "name": "Comedy Performance",
             "kind": "Set",
@@ -137682,6 +138718,40 @@ var NYX_DB = {
             ],
             "color": [
               "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265392",
+            "name": "Crowned by the Breeze",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0157.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Green",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265393",
+            "name": "Crowned by the Breeze",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0157.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Green",
+              "White"
             ],
             "slot": [],
             "nameMissing": false
@@ -138167,6 +139237,38 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265507",
+            "name": "Fun Under Open Skies",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0198.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265508",
+            "name": "Fun Under Open Skies",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0198.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265229",
             "name": "Galaxy Wanderer",
             "kind": "Set",
@@ -138560,6 +139662,40 @@ var NYX_DB = {
             "color": [
               "Purple",
               "Black"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265459",
+            "name": "Letter Crane Courier",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265460",
+            "name": "Letter Crane Courier",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "White"
             ],
             "slot": [],
             "nameMissing": false
@@ -139214,6 +140350,40 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265445",
+            "name": "Precision Strike",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0176.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265446",
+            "name": "Precision Strike",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0176.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "White"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265103",
             "name": "Prelude to Spring",
             "kind": "Set",
@@ -139584,6 +140754,42 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265449",
+            "name": "Scary Cat",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0177.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Black",
+              "Blue",
+              "Gray"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265450",
+            "name": "Scary Cat",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0177.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Black",
+              "Blue",
+              "Gray"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265055",
             "name": "Scorching Roar",
             "kind": "Set",
@@ -139691,6 +140897,38 @@ var NYX_DB = {
             ],
             "color": [
               "Multi-Colored"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265455",
+            "name": "Sleuth's Verdict",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0170.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265456",
+            "name": "Sleuth's Verdict",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0170.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Brown"
             ],
             "slot": [],
             "nameMissing": false
@@ -140166,6 +141404,40 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265457",
+            "name": "Twilight Phantom Thief",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0167.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Blue",
+              "Purple"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265458",
+            "name": "Twilight Phantom Thief",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0167.webp",
+            "rank": "Purple",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Blue",
+              "Purple"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "265315",
             "name": "Verdant Chase",
             "kind": "Set",
@@ -140197,6 +141469,42 @@ var NYX_DB = {
               "Orange",
               "Black",
               "Blue"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265451",
+            "name": "Warrior of the Winning Hand",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0173.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Black"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265452",
+            "name": "Warrior of the Winning Hand",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0173.webp",
+            "rank": "Blue",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Gray"
             ],
             "slot": [],
             "nameMissing": false
@@ -140263,6 +141571,78 @@ var NYX_DB = {
             ],
             "color": [
               "Yellow"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265064",
+            "name": "Whimsical Spectacle",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0165.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265065",
+            "name": "Whimsical Spectacle",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0165.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Brown"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265066",
+            "name": "Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0166.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Girl"
+            ],
+            "color": [
+              "Red",
+              "Black",
+              "Blue"
+            ],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265067",
+            "name": "Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Set",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0166.webp",
+            "rank": "Orange",
+            "type": "",
+            "body": [
+              "Boy"
+            ],
+            "color": [
+              "Red",
+              "White",
+              "Blue"
             ],
             "slot": [],
             "nameMissing": false
@@ -140801,6 +142181,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258539",
+            "name": "Chronicle Cache: Elite",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Type Unrepeatable Selectable Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258501",
             "name": "Chronicle Cache: Exceptional",
             "kind": "Inventory Item",
@@ -140961,6 +142353,30 @@ var NYX_DB = {
             "name": "Chronicle Cache: Exceptional",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0147.webp",
+            "rank": "3",
+            "type": "Material Type Unrepeatable Selectable Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258537",
+            "name": "Chronicle Cache: Exceptional",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0176.webp",
+            "rank": "3",
+            "type": "Material Type Unrepeatable Selectable Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258538",
+            "name": "Chronicle Cache: Exceptional",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0177.webp",
             "rank": "3",
             "type": "Material Type Unrepeatable Selectable Chest",
             "body": [],
@@ -145273,6 +146689,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258021",
+            "name": "Cosmetic Bundle: \"Cloudbound\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258005",
             "name": "Cosmetic Bundle: \"Comedy Performance\"",
             "kind": "Inventory Item",
@@ -145285,10 +146713,34 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258020",
+            "name": "Cosmetic Bundle: \"Dreamy Summer Leisure\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0143.webp",
+            "rank": "4",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258003",
             "name": "Cosmetic Bundle: \"Free Silver Star\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0075.webp",
+            "rank": "3",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258023",
+            "name": "Cosmetic Bundle: \"Fun Under Open Skies\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0198.webp",
             "rank": "3",
             "type": "Material Type Bundle",
             "body": [],
@@ -145397,6 +146849,18 @@ var NYX_DB = {
             "name": "Cosmetic Bundle: \"Triumphal Golden Apple\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0107.webp",
+            "rank": "3",
+            "type": "Material Type Bundle",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258022",
+            "name": "Cosmetic Bundle: \"Warrior of the Winning Hand\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0173.webp",
             "rank": "3",
             "type": "Material Type Bundle",
             "body": [],
@@ -145981,6 +147445,30 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "264269",
+            "name": "General Cosmetic - Melancholy Teardrop Glasses",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyewear_P0451.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "264274",
+            "name": "General Cosmetic - Spooky Boo Hat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0512.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263712",
             "name": "General Eye Makeup - \"Brilliant Turquoise: Matte\"",
             "kind": "Inventory Item",
@@ -146081,6 +147569,18 @@ var NYX_DB = {
             "name": "General Eye Makeup - \"Unyielding Warrior: Dark Flame\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0324.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263728",
+            "name": "General Eye Makeup - Drifting Mist Veil",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0459.webp",
             "rank": "4",
             "type": "Material Costume",
             "body": [],
@@ -147133,6 +148633,90 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "262694",
+            "name": "General Eyebrows - Dark-Chasing Edge",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0455.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262756",
+            "name": "General Eyebrows - Dreambuilder's Chisel",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0435.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262758",
+            "name": "General Eyebrows - Dreampainter's Brush",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0436.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262623",
+            "name": "General Eyebrows - Illusion's Whisper: Light Orange",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0424.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262625",
+            "name": "General Eyebrows - Illusion's Whisper: Pink",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0425.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262627",
+            "name": "General Eyebrows - Stage Whisper: Light Orange",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0426.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262629",
+            "name": "General Eyebrows - Stage Whisper: Pink",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0427.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263947",
             "name": "General Facial Makeup - \"Aura Blush: Falling Blossoms\"",
             "kind": "Inventory Item",
@@ -147305,6 +148889,66 @@ var NYX_DB = {
             "name": "General Facial Makeup - \"Verdant Dew Gleam\"",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0484.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263935",
+            "name": "General Facial Makeup - Cloud From the Peaks",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0458.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263919",
+            "name": "General Facial Makeup - Miracle Stars: Brilliant Light",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0433.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263912",
+            "name": "General Facial Makeup - Miracle Stars: Radiant Spirit",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0431.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263916",
+            "name": "General Facial Makeup - Miracle Stars: Shadow",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0432.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263921",
+            "name": "General Facial Makeup - Miracle Stars: Twilight Beauty",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0434.webp",
             "rank": "4",
             "type": "Material Costume",
             "body": [],
@@ -147889,6 +149533,54 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263310",
+            "name": "General Iris - First Light of Dawn",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0457.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263230",
+            "name": "General Iris - Illusion Trick: Blue & Yellow",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0430.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263224",
+            "name": "General Iris - Illusion Trick: Red & Blue",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0429.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263295",
+            "name": "General Iris - Spinning Dream",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0438.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263613",
             "name": "General Lipstick - \"Festive Pumpkin\"",
             "kind": "Inventory Item",
@@ -148351,6 +150043,42 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_250012.webp",
             "rank": "3",
             "type": "Material Normal",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "251209",
+            "name": "Magic Chessboard",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Transfer_BP_SuperRare_S0166.webp",
+            "rank": "4",
+            "type": "Material Transfer Effect",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250480",
+            "name": "Magic Hour",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_S0166_Girl_01.webp",
+            "rank": "5",
+            "type": "Material Emoji",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250479",
+            "name": "Magic Time",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_S0166_Boy_01.webp",
+            "rank": "5",
+            "type": "Material Emoji",
             "body": [],
             "color": [],
             "slot": [],
@@ -152257,6 +153985,126 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265466",
+            "name": "Manekin Cosmetic - Amber Nectar",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280078",
+            "name": "Manekin Cosmetic - Amber Nectar Short Hair",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Hair_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280080",
+            "name": "Manekin Cosmetic - Amber Nectar Short Socks",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_LegAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280079",
+            "name": "Manekin Cosmetic - Amber Nectar Sun Hat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Headwear_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280081",
+            "name": "Manekin Cosmetic - Amber Nectar Waist Pack",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_WaistAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280076",
+            "name": "Manekin Cosmetic - Amber Nectar Work Overalls",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280077",
+            "name": "Manekin Cosmetic - Amber Nectar Work Shoes",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Shoe_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265482",
+            "name": "Manekin Cosmetic - Azure Mountainshade",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0189.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265363",
+            "name": "Manekin Cosmetic - Cloudbound Journey",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265393",
+            "name": "Manekin Cosmetic - Crowned by the Breeze",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0157.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "260075",
             "name": "Manekin Cosmetic - Dignified Formal Shirt: Ash White",
             "kind": "Inventory Item",
@@ -152269,12 +154117,108 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265508",
+            "name": "Manekin Cosmetic - Fun Under Open Skies",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0198.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265460",
+            "name": "Manekin Cosmetic - Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "260055",
             "name": "Manekin Cosmetic - Palm Tree Casual Shirt: Marine Blue",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_P0224.webp",
             "rank": "2",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265446",
+            "name": "Manekin Cosmetic - Precision Strike",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0176.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265450",
+            "name": "Manekin Cosmetic - Scary Cat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0177.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265456",
+            "name": "Manekin Cosmetic - Sleuth's Verdict",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0170.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265458",
+            "name": "Manekin Cosmetic - Twilight Phantom Thief",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0167.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265452",
+            "name": "Manekin Cosmetic - Warrior of the Winning Hand",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0173.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265065",
+            "name": "Manekin Cosmetic - Whimsical Spectacle",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0165.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -152323,6 +154267,18 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Shoe_S0009.webp",
             "rank": "3",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265067",
+            "name": "Manekin Cosmetic: Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0166.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -152658,6 +154614,30 @@ var NYX_DB = {
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0144.webp",
             "rank": "2",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263003",
+            "name": "Manekin Eye Shape - Craftsman's Focus",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0437.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262942",
+            "name": "Manekin Eye Shape - Radiant Flourish",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0428.webp",
+            "rank": "4",
             "type": "Material Costume",
             "body": [],
             "color": [],
@@ -156553,6 +158533,150 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "265465",
+            "name": "Manekina Cosmetic - Amber Nectar",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280073",
+            "name": "Manekina Cosmetic - Amber Nectar Hair Ornament",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280074",
+            "name": "Manekina Cosmetic - Amber Nectar Long Socks",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_LegAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280072",
+            "name": "Manekina Cosmetic - Amber Nectar Short Hair",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Hair_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280070",
+            "name": "Manekina Cosmetic - Amber Nectar Short Skirt",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Bottom_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280075",
+            "name": "Manekina Cosmetic - Amber Nectar Waist Pack",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_WaistAcc_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280069",
+            "name": "Manekina Cosmetic - Amber Nectar Work Overalls",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Top_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "280071",
+            "name": "Manekina Cosmetic - Amber Nectar Work Shoes",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_S0171.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265481",
+            "name": "Manekina Cosmetic - Azure Mountainshade",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0189.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265362",
+            "name": "Manekina Cosmetic - Cloudbound Flight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265392",
+            "name": "Manekina Cosmetic - Crowned by the Breeze",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0157.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265507",
+            "name": "Manekina Cosmetic - Fun Under Open Skies",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0198.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "260028",
             "name": "Manekina Cosmetic - Knit Bubble Sleeve Blouse: Cloud White",
             "kind": "Inventory Item",
@@ -156571,6 +158695,90 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Top_P0103.webp",
             "rank": "2",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265459",
+            "name": "Manekina Cosmetic - Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265445",
+            "name": "Manekina Cosmetic - Precision Strike",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0176.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265449",
+            "name": "Manekina Cosmetic - Scary Cat",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0177.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265455",
+            "name": "Manekina Cosmetic - Sleuth's Verdict",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0170.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265457",
+            "name": "Manekina Cosmetic - Twilight Phantom Thief",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0167.webp",
+            "rank": "4",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265451",
+            "name": "Manekina Cosmetic - Warrior of the Winning Hand",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0173.webp",
+            "rank": "3",
+            "type": "Material Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265064",
+            "name": "Manekina Cosmetic - Whimsical Spectacle",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0165.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -156619,6 +158827,18 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_S0009.webp",
             "rank": "3",
             "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "265066",
+            "name": "Manekina Cosmetic: Whimsical Spectacle - Sugarcube Sleight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0166.webp",
+            "rank": "5",
+            "type": "Material Costume Suit",
             "body": [],
             "color": [],
             "slot": [],
@@ -156997,6 +159217,42 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "263004",
+            "name": "Manekina Eye Shape - Craftsman's Focus",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0437.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "262943",
+            "name": "Manekina Eye Shape - Radiant Flourish",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0428.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "263013",
+            "name": "Manekina Eye Shape - Swallowtail Willow",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0456.webp",
+            "rank": "4",
+            "type": "Material Costume",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "263910",
             "name": "Manekina Facial Makeup - \"Rose's Remembrance\"",
             "kind": "Inventory Item",
@@ -157069,6 +159325,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "251010",
+            "name": "Miracle Theater: Light and Shadow Spectacle",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_HallThemeIcon_Msqy.webp",
+            "rank": "4",
+            "type": "Material Hall Unlock",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "250005",
             "name": "Muse Infuse",
             "kind": "Inventory Item",
@@ -157086,6 +159354,18 @@ var NYX_DB = {
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_S0058_Boy_01.webp",
             "rank": "5",
+            "type": "Material Emoji",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250477",
+            "name": "Nailed It",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_Rare_18.webp",
+            "rank": "3",
             "type": "Material Emoji",
             "body": [],
             "color": [],
@@ -157135,6 +159415,18 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_ActionIcon_UAggression01.webp",
             "rank": "3",
             "type": "Material Pose",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "250478",
+            "name": "Paper Crane Ride",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_UGC_Emoji_SuperRare_24.webp",
+            "rank": "4",
+            "type": "Material Emoji",
             "body": [],
             "color": [],
             "slot": [],
@@ -157345,6 +159637,18 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "258541",
+            "name": "Random Try-On Cape: Manekin Cosmetic",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp",
+            "rank": "4",
+            "type": "Material Type Drop Extra Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "258505",
             "name": "Random Try-On Cape: Manekina Cosmetic",
             "kind": "Inventory Item",
@@ -157418,6 +159722,18 @@ var NYX_DB = {
           },
           {
             "id": "258535",
+            "name": "Random Try-On Cape: Manekina Cosmetic",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp",
+            "rank": "4",
+            "type": "Material Type Drop Extra Chest",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "258540",
             "name": "Random Try-On Cape: Manekina Cosmetic",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp",
@@ -157609,6 +159925,20 @@ var NYX_DB = {
             "color": [],
             "slot": [],
             "nameMissing": false
+          },
+          {
+            "id": "275392",
+            "name": "Set Catalog - \"Crowned by the Breeze\"",
+            "kind": "Inventory Item",
+            "art": "../../Database/Shared/database-fallbacks/gi.svg",
+            "rank": "4",
+            "type": "Material Costume Drawing",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false,
+            "artStatus": "intentional-fallback",
+            "artSource": "neutral-database-placeholder"
           },
           {
             "id": "275024",
@@ -158145,6 +160475,30 @@ var NYX_DB = {
             "nameMissing": false
           },
           {
+            "id": "257041",
+            "name": "Try-On Cape: Cloudbound Flight",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "257042",
+            "name": "Try-On Cape: Cloudbound Journey",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
             "id": "257027",
             "name": "Try-On Cape: Comedy Performance",
             "kind": "Inventory Item",
@@ -158257,6 +160611,30 @@ var NYX_DB = {
             "name": "Try-On Cape: Invigorating Chill",
             "kind": "Inventory Item",
             "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0191.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "257043",
+            "name": "Try-On Cape: Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp",
+            "rank": "4",
+            "type": "Material Trial Costume Suit",
+            "body": [],
+            "color": [],
+            "slot": [],
+            "nameMissing": false
+          },
+          {
+            "id": "257044",
+            "name": "Try-On Cape: Letter Crane Courier",
+            "kind": "Inventory Item",
+            "art": "../../Database/GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp",
             "rank": "4",
             "type": "Material Trial Costume Suit",
             "body": [],
@@ -158731,7 +161109,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Glacia.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "An assault rifle that can accumulate Frigid Glory using Normal Attacks to switch to Breakthrough mode and use Charged Attacks."
           },
@@ -158742,7 +161123,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_AssaultRifle_Fulmen.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "An assault rifle that can switch Normal Attacks to Chain Lightning mode, allowing you to lock onto and track targets."
           },
@@ -158753,7 +161137,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_GrenadeLauncher_Ignis.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "A grenade launcher that can cycle between Pyro, Hydro, and Cryo as the current grenade Elemental Type."
           },
@@ -158764,7 +161151,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Fire.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "Tactical throwable that can deal AoE Pyro DMG."
           },
@@ -158775,7 +161165,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Water.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "Tactical throwable that can deal AoE Hydro DMG."
           },
@@ -158786,7 +161179,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Electric.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "Tactical throwable that can deal AoE Electro DMG."
           },
@@ -158797,7 +161193,10 @@ var NYX_DB = {
             "art": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Grenade_Ice.webp",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "Tactical throwable that can deal AoE Cryo DMG."
           },
@@ -158808,7 +161207,10 @@ var NYX_DB = {
             "art": "../../Database/Shared/database-fallbacks/gi.svg",
             "fields": {
               "rarity": "4 \u2605",
-              "type": "Weapon"
+              "type": "Weapon",
+              "baseAttack": "Unknown",
+              "subStat": "Unknown",
+              "weaponEffect": "None"
             },
             "text": "Tactical throwable that can deal massive damage to Shadow Realm constructs",
             "artStatus": "intentional-fallback",
@@ -158823,7 +161225,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When using a Normal Attack, gain 1 stack of Skymirror's Sight, which grants a 1% Cryo DMG Bonus and Physical DMG Bonus. This effect lasts 2s. Max 50 stacks. When you have more than 2 Skymirror's Sight stacks, your Normal Attacks will deal Cryo DMG instead."
           },
           {
             "id": "gi-shadow-item-223112",
@@ -158834,7 +161236,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Increases initial ammo by 30 and firing speed by 10%. In Breakthrough mode, the maximum number of Rayspear uses is increased by 2."
           },
           {
             "id": "gi-shadow-item-223113",
@@ -158845,7 +161247,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Firearm becomes more stable when fired. Additionally, each Rayspear charge consumed increases Normal Attack DMG by 5% for 10s. Max 2 stacks."
           },
           {
             "id": "gi-shadow-item-223114",
@@ -158856,7 +161258,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Unlocks an advanced aiming mechanism. Additionally, when a Rayspear hits an opponent, it will cause this opponent's Cryo RES and Physical RES to decrease by 30% for 8s."
           },
           {
             "id": "gi-shadow-item-223121",
@@ -158867,7 +161269,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When aiming, you can tap the Simulated Elemental Skill to fire off rounds of the current Elemental Type. Doing this will also switch the weapon to rounds of the next Elemental Type in this sequence: Pyro > Hydro > Cryo."
           },
           {
             "id": "gi-shadow-item-223122",
@@ -158878,7 +161280,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Reloading speed is greatly increased. The number of rounds loaded at once is increased to 3."
           },
           {
             "id": "gi-shadow-item-223123",
@@ -158889,7 +161291,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Firearms are more stable when firing. When you perform a slide, you also automatically reload your gun. Additionally, the equipping character gains a 20% Pyro, Hydro, and Cryo DMG Bonus."
           },
           {
             "id": "gi-shadow-item-223124",
@@ -158900,7 +161302,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When this weapon's attacks hit an opponent, decreases that opponent's DEF by 25% for 8s."
           },
           {
             "id": "gi-shadow-item-223131",
@@ -158911,7 +161313,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Chain Lightning can bounce two more times and can now bounce to previously hit targets."
           },
           {
             "id": "gi-shadow-item-223132",
@@ -158922,7 +161324,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Increases initial ammo by 20. In the Lightsear mode, after firing Chain Lightning 12 times, the next 3 Chain Lightning shots will be converted to the more powerful Gathered Storm, dealing 10% ATK as Electro DMG that is considered Stellar-Conduct reaction DMG, and 3% ATK as Electro DMG that is considered Stellar-Conduct reaction upon bouncing to a target."
           },
           {
             "id": "gi-shadow-item-223133",
@@ -158933,7 +161335,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "When this gun's attacks hit an opponent, there is 33% chance to decrease Simulated Elemental Skill CD by 1 second. This effect can trigger once every 2s. Additionally, if the opponent hit is within a Polestar Field, this will decrease Simulated Elemental Skill CD by an additional 0.25 seconds."
           },
           {
             "id": "gi-shadow-item-223134",
@@ -158944,7 +161346,7 @@ var NYX_DB = {
               "rarity": "4 \u2605",
               "type": "Firearm Accessory Blueprint"
             },
-            "text": "Blueprint for a firearm accessory that can be used to create said inscribed weapon accessory by consuming materials in the Eye of Graeae's HUD."
+            "text": "Unlocks an advanced aiming mechanism and gains 25% Electro DMG Bonus, while Electro DMG that is considered Stellar-Conduct DMG is increased by 25%."
           }
         ]
       },
@@ -169436,7 +171838,7 @@ var NYX_DB = {
         },
         {
           "code": "STARRAILFATE2026",
-          "reward": "Three Traveler S Guides and Two the Fluffy Multi Functional Fan Glowsticks",
+          "reward": "three traveler's guides and two the fluffy multi",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -169480,28 +171882,49 @@ var NYX_DB = {
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "4.4 Phase 2",
-          "start": "2026-07-15T03:00:00.000Z",
+          "start": "2026-08-05T17:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "characters": [
             {
-              "name": "Himeko Nova",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
+              "name": "Cerydra",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-15"
+              "debut": false,
+              "debutAt": "2025-09-02"
+            },
+            {
+              "name": "Anaxa",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-04-30"
+            },
+            {
+              "name": "Aventurine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2024-04-17"
             },
             {
               "name": "Moze",
@@ -169535,39 +171958,6 @@ var NYX_DB = {
               "rarity": 4,
               "debut": false,
               "debutAt": "2023-06-07"
-            },
-            {
-              "name": "Cerydra",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-09-02"
-            },
-            {
-              "name": "Anaxa",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-04-30"
-            },
-            {
-              "name": "Aventurine",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-17"
             }
           ],
           "subBanners": []
@@ -169639,8 +172029,8 @@ var NYX_DB = {
           {
             "phase": null,
             "teased": false,
-            "start": "2026-09-16T16:00:00.000Z",
-            "end": "2026-10-06T16:00:00.000Z",
+            "start": "2026-09-12T16:00:00.000Z",
+            "end": "2026-09-27T16:00:00.000Z",
             "characters": [
               {
                 "name": "Aventurine \u2022 Waveflair",
@@ -169652,6 +172042,17 @@ var NYX_DB = {
                 "rarity": 5,
                 "debut": true,
                 "debutAt": null
+              },
+              {
+                "name": "Ashveil",
+                "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
+                "iconZoom": false,
+                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": false,
+                "debutAt": "2026-03-25"
               }
             ],
             "subBanners": []
@@ -169684,7 +172085,7 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Pearl",
-            "icon": "/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png",
+            "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -169692,7 +172093,7 @@ var NYX_DB = {
             "rarity": 5,
             "debut": true,
             "debutAt": null,
-            "hint": "Robin - Summeretto Release in Phase 1 of Version 4.6",
+            "hint": "Pearl Release in Phase 1 of Version 4.6",
             "source": "game8",
             "sourceUrl": "https://game8.co/games/Honkai-Star-Rail/archives/415899"
           },
@@ -169726,6 +172127,14 @@ var NYX_DB = {
           "facts": {
             "title": "Over the Glided Tides"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23064.webp"
+          ],
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -169735,9 +172144,13 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Ice",
           "role": "Elation",
-          "icon": null,
+          "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
           "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
           "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -169753,6 +172166,14 @@ var NYX_DB = {
           "facts": {
             "title": "Summer Chorus"
           },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
+          ],
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -169772,6 +172193,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169791,6 +172213,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169810,6 +172233,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169829,6 +172253,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23059.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169848,6 +172273,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23058.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169867,6 +172293,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23054.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169886,6 +172313,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23048.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169906,6 +172334,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23024.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169925,6 +172354,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23036.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169944,6 +172374,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23041.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169963,6 +172394,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23046.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -169983,6 +172415,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23018.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170002,6 +172435,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23056.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170022,6 +172456,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23023.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170042,6 +172477,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23013.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170062,6 +172498,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23022.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170082,6 +172519,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23009.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170101,6 +172539,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23027.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170121,6 +172560,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23003.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170140,6 +172580,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23040.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170159,6 +172600,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23043.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170179,6 +172621,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23002.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170198,6 +172641,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23052.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170218,6 +172662,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23015.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170237,6 +172682,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23051.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170257,6 +172703,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23020.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170276,6 +172723,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23031.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170295,6 +172743,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23025.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170315,6 +172764,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23011.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170335,6 +172785,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23005.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170355,6 +172806,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170375,6 +172827,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23017.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170394,6 +172847,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23042.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170413,6 +172867,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23047.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170432,6 +172887,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23028.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170451,6 +172907,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23029.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170471,6 +172928,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23010.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170491,6 +172949,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23014.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170511,6 +172970,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23006.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170530,6 +172990,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23032.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170550,6 +173011,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23008.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170569,6 +173031,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170588,6 +173051,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23039.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170607,6 +173071,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23044.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170626,6 +173091,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23033.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170645,6 +173111,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23026.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170665,6 +173132,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23019.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170684,6 +173152,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23045.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170704,6 +173173,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23001.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170724,6 +173194,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23007.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170743,6 +173214,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23057.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170763,6 +173235,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23021.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170782,6 +173255,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23053.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170802,6 +173276,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23034.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170821,6 +173296,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23050.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170840,6 +173316,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23037.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170859,6 +173336,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170879,6 +173357,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23016.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -170903,6 +173382,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23015.webp"
           ],
+          "status": "live",
           "forms": [
             {
               "name": "Trailblazer \u2022 Destruction",
@@ -170987,6 +173467,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23038.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171007,6 +173488,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23004.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171027,6 +173509,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23012.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171046,6 +173529,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23030.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171064,6 +173548,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21012.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171082,6 +173567,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21032.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171102,6 +173588,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/24001.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171122,6 +173609,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21035.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171140,6 +173628,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21008.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171160,6 +173649,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21011.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171178,6 +173668,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171196,6 +173687,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21005.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171214,6 +173706,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21015.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171232,6 +173725,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21028.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171250,6 +173744,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21002.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171266,6 +173761,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23012.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171286,6 +173782,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/24000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171305,6 +173802,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21010.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171323,6 +173821,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21000.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171341,6 +173840,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21015.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171359,6 +173859,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21034.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171377,6 +173878,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21008.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171395,6 +173897,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21013.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171413,6 +173916,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21010.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171431,6 +173935,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21032.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171449,6 +173954,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21042.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171467,6 +173973,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/21025.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171475,7 +173982,7 @@ var NYX_DB = {
           "aliases": [],
           "rarity": 5,
           "element": "Ice",
-          "role": "Memory",
+          "role": "Remembrance",
           "icon": "../../Database/GameData/hsr/assets/characters/round/1413.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1413.webp",
           "facts": {},
@@ -171483,6 +173990,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23049.webp"
           ],
+          "status": "live",
           "forms": []
         },
         {
@@ -171491,7 +173999,7 @@ var NYX_DB = {
           "aliases": [],
           "rarity": 5,
           "element": "Fire",
-          "role": "Warlock",
+          "role": "Nihility",
           "icon": "../../Database/GameData/hsr/assets/characters/round/1225.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1225.webp",
           "facts": {},
@@ -171499,6 +174007,7 @@ var NYX_DB = {
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23035.webp"
           ],
+          "status": "live",
           "forms": []
         }
       ]
@@ -171506,7 +174015,7 @@ var NYX_DB = {
     "zzz": {
       "name": "Zenless Zone Zero",
       "icon": "../assets/icon/zzzicon.png",
-      "rosterCount": 56,
+      "rosterCount": 64,
       "collections": [
         {
           "key": "w-engines",
@@ -175268,7 +177777,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ2YEAR",
-          "reward": "50 Polychrome",
+          "reward": "Polychrome x 50",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -175282,7 +177791,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZ31REMIELLE",
-          "reward": "60 Polychrome and 6,666 Denny",
+          "reward": "Polychrome x 60, Denny x 6,666",
           "premium": true,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -175298,28 +177807,27 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
-          "phase": "3.1 Phase 1",
+          "phase": "3.1 Phase 2",
           "start": "2026-07-29T03:00:00.000Z",
           "end": "2026-09-08T06:59:59.000Z",
           "characters": [
             {
-              "name": "Aria",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle57.webp",
+              "name": "Remielle",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole57.webp",
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": false,
-              "debutAt": "2026-03-04"
+              "debut": true,
+              "debutAt": "2026-07-29"
             },
             {
               "name": "Piper",
@@ -175343,25 +177851,6 @@ var NYX_DB = {
               "debut": false,
               "debutAt": "2024-09-04"
             },
-            {
-              "name": "Remielle",
-              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
-              "namecard": null,
-              "rarity": "S",
-              "debut": true,
-              "debutAt": "2026-07-29"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
-          "phase": "3.1 Phase 2",
-          "start": "2026-08-19T04:00:00.000Z",
-          "end": "2026-09-08T06:59:59.000Z",
-          "characters": [
             {
               "name": "Dialyn",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
@@ -175409,33 +177898,23 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": [],
         "beta": [
           {
-            "name": "Anby",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle01.webp",
+            "name": "Claret",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole01.webp",
+            "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
             "namecard": null,
-            "rarity": "A",
-            "debut": false,
-            "debutAt": "2025-03-12"
-          },
-          {
-            "name": "Billy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle10.webp",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole10.webp",
-            "namecard": null,
-            "rarity": "A",
+            "rarity": "S",
             "debut": true,
             "debutAt": null
           },
           {
             "name": "Roxy",
-            "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
@@ -175447,39 +177926,11 @@ var NYX_DB = {
         ],
         "roadmap": [
           {
-            "name": "Claret",
-            "icon": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/zzz/f66bfa90111ddba48430580e96a4e079.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Claret Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
-            "name": "Roxy",
-            "icon": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "/assets/banners/zzz/1012e67e8352eb03ae2266095558ca8e.png",
-            "namecard": null,
-            "rarity": null,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Roxy Release in 3.2",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Zenless-Zone-Zero/archives/460160"
-          },
-          {
             "name": "Sunbringer",
-            "icon": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/3a1947e4be23cefcd7bced059562905b.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -175490,10 +177941,10 @@ var NYX_DB = {
           },
           {
             "name": "Phoenix",
-            "icon": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/037940a9eae08de1fe62a8adcb5c1b0c.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -175504,10 +177955,10 @@ var NYX_DB = {
           },
           {
             "name": "The Storyteller",
-            "icon": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/zzz/7eada0eff64d90692d083489f83c57ad.png",
+            "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
             "namecard": null,
             "rarity": null,
             "debut": true,
@@ -175533,6 +177984,7 @@ var NYX_DB = {
             "faction": "Roscaelifer",
             "birthday": "April 23"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175551,6 +178003,25 @@ var NYX_DB = {
             "birthday": "August 30",
             "title": "Within Her Heterochromatic Gaze"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-anby-demara-soldier-0",
+          "name": "Anby: Soldier 0",
+          "aliases": [],
+          "title": "Gelatin Silver Dance",
+          "rarity": "S",
+          "element": "Electric",
+          "role": "Attack",
+          "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
+          "facts": {
+            "fullName": "Soldier 0 - Anby",
+            "faction": "New Eridu Defense Force",
+            "title": "Gelatin Silver Dance"
+          },
+          "status": "live",
           "forms": []
         },
         {
@@ -175569,6 +178040,7 @@ var NYX_DB = {
             "birthday": "June 7",
             "title": "Kingdom of Delusion"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175587,6 +178059,7 @@ var NYX_DB = {
             "birthday": "January 31",
             "title": "Firelight Palm"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175605,6 +178078,25 @@ var NYX_DB = {
             "birthday": "July 24",
             "title": "No Way Back"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-billy-starlight",
+          "name": "Billy - Starlight",
+          "aliases": [],
+          "title": "Hero Pose",
+          "rarity": "S",
+          "element": "Physical",
+          "role": "Rupture",
+          "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
+          "facts": {
+            "fullName": "Starlight - Billy Kid",
+            "faction": "Cunning Hares",
+            "title": "Hero Pose"
+          },
+          "status": "live",
           "forms": []
         },
         {
@@ -175623,6 +178115,7 @@ var NYX_DB = {
             "birthday": "May 23",
             "title": "An Invitation or Provocation?"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175641,6 +178134,7 @@ var NYX_DB = {
             "birthday": "March 16",
             "title": "After the Battle"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175659,6 +178153,7 @@ var NYX_DB = {
             "birthday": "January 10",
             "title": "Couch Royalty"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175677,6 +178172,7 @@ var NYX_DB = {
             "birthday": "May 28",
             "title": "Meet With Me"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175695,6 +178191,7 @@ var NYX_DB = {
             "birthday": "January 4",
             "title": "I'll Take Care of It"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175713,6 +178210,7 @@ var NYX_DB = {
             "birthday": "October 7",
             "title": "Impromptu Combat Practice"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175731,6 +178229,7 @@ var NYX_DB = {
             "birthday": "April 14",
             "title": "A Promise Unbroken"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175749,6 +178248,7 @@ var NYX_DB = {
             "birthday": "July 19",
             "title": "Feathered Blade Approaching"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175767,6 +178267,7 @@ var NYX_DB = {
             "birthday": "August 20",
             "title": "Conspirator"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175785,6 +178286,7 @@ var NYX_DB = {
             "birthday": "February 16",
             "title": "Anonymity"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175803,6 +178305,7 @@ var NYX_DB = {
             "birthday": "January 6",
             "title": "Super Scary Big Tiger"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175821,6 +178324,7 @@ var NYX_DB = {
             "birthday": "August 10",
             "title": "Pink Bear"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175839,6 +178343,7 @@ var NYX_DB = {
             "birthday": "December 27",
             "title": "Black Boxing Gloves"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175857,6 +178362,7 @@ var NYX_DB = {
             "birthday": "March 17",
             "title": "The Story Continues"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175875,6 +178381,7 @@ var NYX_DB = {
             "birthday": "October 4",
             "title": "Thank You For Requesting Me"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175893,6 +178400,7 @@ var NYX_DB = {
             "birthday": "June 19",
             "title": "Today's Training"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175911,6 +178419,7 @@ var NYX_DB = {
             "birthday": "September 29",
             "title": "Tear Gland Insurance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175929,6 +178438,7 @@ var NYX_DB = {
             "birthday": "July 30",
             "title": "Patience of a Cat"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175947,6 +178457,7 @@ var NYX_DB = {
             "birthday": "July 26",
             "title": "En-Nah Time"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175965,6 +178476,7 @@ var NYX_DB = {
             "birthday": "November 3",
             "title": "Peach-Flavored Flash Suppressor"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175983,6 +178495,7 @@ var NYX_DB = {
             "birthday": "December 23",
             "title": "The Only Option"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -175997,6 +178510,7 @@ var NYX_DB = {
           "facts": {
             "faction": "Phaethon"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176015,6 +178529,7 @@ var NYX_DB = {
             "birthday": "January 1",
             "title": "Drink Hot Water"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176033,6 +178548,7 @@ var NYX_DB = {
             "birthday": "March 14",
             "title": "Stray Birds"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176051,6 +178567,7 @@ var NYX_DB = {
             "birthday": "September 23",
             "title": "The Truth"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176069,6 +178586,7 @@ var NYX_DB = {
             "birthday": "November 22",
             "title": "Pale Blue Flower of Sorrow"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176087,6 +178605,7 @@ var NYX_DB = {
             "birthday": "March 21",
             "title": "Trust Your Life"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176105,6 +178624,7 @@ var NYX_DB = {
             "birthday": "July 18",
             "title": "Teardrop Necklace"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176123,6 +178643,7 @@ var NYX_DB = {
             "birthday": "April 21",
             "title": "The Bloom of Asphodels"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176141,6 +178662,7 @@ var NYX_DB = {
             "birthday": "September 22",
             "title": "Beyond Etiquette"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176159,6 +178681,7 @@ var NYX_DB = {
             "birthday": "April 10",
             "title": "Love Like a Bouquet"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176177,6 +178700,7 @@ var NYX_DB = {
             "birthday": "September 21",
             "title": "Final Emergency Plan"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176195,6 +178719,7 @@ var NYX_DB = {
             "birthday": "January 20",
             "title": "Another Self"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176213,6 +178738,7 @@ var NYX_DB = {
             "birthday": "March 19",
             "title": "One of a Kind"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176231,6 +178757,7 @@ var NYX_DB = {
             "birthday": "December 3",
             "title": "Clarity of Mind"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176249,6 +178776,7 @@ var NYX_DB = {
             "birthday": "November 2",
             "title": "Proof of Companionship"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176267,6 +178795,7 @@ var NYX_DB = {
             "birthday": "October 14",
             "title": "Non-Business Card"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176285,6 +178814,7 @@ var NYX_DB = {
             "birthday": "September 1",
             "title": "Justice and Order"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176303,6 +178833,7 @@ var NYX_DB = {
             "birthday": "February 20",
             "title": "Ending Theme"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176321,6 +178852,7 @@ var NYX_DB = {
             "birthday": "May 2",
             "title": "Everyone Get Fired Up!"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176339,6 +178871,7 @@ var NYX_DB = {
             "birthday": "December 23",
             "title": "Careful Contemplation"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176357,6 +178890,7 @@ var NYX_DB = {
             "birthday": "November 25",
             "title": "Perfect Pose"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176375,6 +178909,7 @@ var NYX_DB = {
             "birthday": "June 2",
             "title": "Good Friends"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176393,6 +178928,7 @@ var NYX_DB = {
             "birthday": "August 14",
             "title": "Little Boars, Coming Right Up"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176411,6 +178947,7 @@ var NYX_DB = {
             "birthday": "January 5",
             "title": "The First Safehouse"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176429,6 +178966,7 @@ var NYX_DB = {
             "birthday": "November 11",
             "title": "Precise Focus"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176447,6 +178985,7 @@ var NYX_DB = {
             "birthday": "May 10",
             "title": "Greater Hermit of the City"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176465,6 +179004,7 @@ var NYX_DB = {
             "birthday": "October 21",
             "title": "Taste in Shows"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176483,6 +179023,7 @@ var NYX_DB = {
             "birthday": "June 19",
             "title": "Moment of Vulnerability"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176501,6 +179042,7 @@ var NYX_DB = {
             "birthday": "April 8",
             "title": "Leave It To Me"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -176519,6 +179061,103 @@ var NYX_DB = {
             "birthday": "January 23",
             "title": "Take a Break"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-claret",
+          "name": "Claret",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+          "facts": {
+            "fullName": "Claret Flint"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-phoenix",
+          "name": "Phoenix",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/phoenix-004477e43e6a.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-roxy",
+          "name": "Roxy",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+          "facts": {
+            "fullName": "Roxy Ifrita Pryce"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-severian",
+          "name": "Severian",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/severian-3825b4c9fad3.webp",
+          "facts": {
+            "fullName": "Severian Lowell"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-sunbringer",
+          "name": "Sunbringer",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/sunbringer-dd4ba74d5d7d.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "zzz-the-storyteller",
+          "name": "The Storyteller",
+          "aliases": [],
+          "element": "Unknown",
+          "role": "Unknown",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
+          "art": "../../Database/Prydwen/zzz/assets/characters/the-storyteller-3c5a2a31b657.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         }
       ]
@@ -178349,7 +180988,7 @@ var NYX_DB = {
           "key": "echoes",
           "title": "Echoes",
           "source": "GameData",
-          "count": 180,
+          "count": 181,
           "items": [
             {
               "id": "ww-echo-6000038",
@@ -179876,6 +182515,17 @@ var NYX_DB = {
               "text": "340000310"
             },
             {
+              "id": "ww-echo-6000221",
+              "name": "Calamity Effigy",
+              "kind": "echo",
+              "art": "../../Database/GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp",
+              "fields": {
+                "rarity": "Unknown",
+                "cost": 2
+              },
+              "text": "340000320"
+            },
+            {
               "id": "ww-echo-390070051",
               "name": "Vanguard Junrock",
               "kind": "echo",
@@ -180369,28 +183019,27 @@ var NYX_DB = {
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
-          "phase": "3.5 Phase 2",
-          "start": "2026-07-30T15:00:00.000Z",
-          "end": "2026-08-19T16:59:00.000Z",
+          "phase": "3.6 Phase 1",
+          "start": "2026-08-20T15:00:00.000Z",
+          "end": "2026-09-10T14:59:00.000Z",
           "characters": [
             {
-              "name": "Suisui",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-30"
+              "debut": false,
+              "debutAt": "2026-05-21"
             },
             {
               "name": "Baizhi",
@@ -180404,37 +183053,37 @@ var NYX_DB = {
               "debutAt": "2024-07-22"
             },
             {
-              "name": "Mortefi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_13_UI.webp",
+              "name": "Yangyang",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMofeite.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleYangyang.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-05-23"
+              "debutAt": "2024-06-28"
             },
             {
-              "name": "Lumi",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.webp",
+              "name": "Sanhua",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDengdeng.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSanhua.webp",
               "namecard": null,
               "rarity": 4,
               "debut": false,
-              "debutAt": "2024-12-12"
+              "debutAt": "2024-06-28"
             },
             {
-              "name": "Aemeath",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_53_UI.webp",
+              "name": "Qingxiao",
+              "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleAimisi.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-02-05"
+              "debut": true,
+              "debutAt": "2026-08-20"
             }
           ],
           "subBanners": []
@@ -180442,85 +183091,50 @@ var NYX_DB = {
         "next": {
           "phase": null,
           "teased": false,
-          "start": "2026-08-20T10:00:00.000Z",
-          "end": "2026-09-10T10:00:00.000Z",
+          "start": "2026-09-10T10:00:00.000Z",
+          "end": "2026-09-29T10:00:00.000Z",
           "characters": [
             {
-              "name": "Qingxiao",
-              "icon": "/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png",
+              "name": "Jingran",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
               "debutAt": null
             },
             {
-              "name": "Denia",
-              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_64_UI.webp",
+              "name": "Hiyuki",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleDaniya.webp",
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
               "namecard": null,
               "rarity": 5,
               "debut": true,
-              "debutAt": "2026-05-21"
+              "debutAt": null
+            },
+            {
+              "name": "Mornye",
+              "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-01-15"
             }
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-10T10:00:00.000Z",
-            "end": "2026-09-30T10:00:00.000Z",
-            "characters": [
-              {
-                "name": "Mornye",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_61_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleMoning.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": "2026-01-15"
-              },
-              {
-                "name": "Hiyuki",
-                "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_67_UI.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleFeixue.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": null
-              }
-            ],
-            "subBanners": []
-          }
-        ],
+        "upcoming": [],
         "roadmap": [
           {
-            "name": "Jingran",
-            "icon": "/assets/banners/wuwa/a0e1e743f0d6efa832282a01068b456a.png",
-            "iconFallback": null,
-            "iconZoom": false,
-            "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
-            "namecard": null,
-            "rarity": 5,
-            "debut": true,
-            "debutAt": null,
-            "hint": "Qingxiao and Jingran in Version 3.6",
-            "source": "game8",
-            "sourceUrl": "https://game8.co/games/Wuthering-Waves/archives/452883"
-          },
-          {
             "name": "Suoming",
-            "icon": "/assets/banners/wuwa/2bfd02b98d9d13d873f2ea210ed6eea3.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
@@ -180534,7 +183148,7 @@ var NYX_DB = {
           },
           {
             "name": "Hsin",
-            "icon": "/assets/banners/wuwa/95b3dcd95d0da5c9dd2b8907fb4f3f17.png",
+            "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
@@ -180564,6 +183178,7 @@ var NYX_DB = {
             "influence": "Ministry of War",
             "title": "Voices of Azure Plume"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180580,6 +183195,7 @@ var NYX_DB = {
             "influence": "The Fractsidus",
             "title": "Symphony of Beyond"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180598,6 +183214,7 @@ var NYX_DB = {
             "influence": "The Fisalia Family",
             "title": "Sea of Dreams"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180616,6 +183233,7 @@ var NYX_DB = {
             "influence": "Troupe of Fools",
             "title": "Stage in the Box"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180628,6 +183246,7 @@ var NYX_DB = {
           "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_4_UI.webp",
           "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.webp",
           "facts": {},
+          "status": "live",
           "forms": [
             {
               "name": "Rover (Spectro)",
@@ -180689,6 +183308,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Sanguine Blossom"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180707,6 +183327,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Scarlet Shade"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180725,6 +183346,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Blossom of Slashes"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180741,6 +183363,7 @@ var NYX_DB = {
             "influence": "Lahai-Roi",
             "title": "Xeno-Domain Hacking"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180758,6 +183381,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Phase Transition"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180775,6 +183399,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Radiant Spectrum"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180792,6 +183417,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Eye of Unravelling"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180809,6 +183435,7 @@ var NYX_DB = {
             "influence": "The Montelli Family",
             "title": "Scorched Radiance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180826,6 +183453,7 @@ var NYX_DB = {
             "influence": "Order of the Deep",
             "title": "Graceful Luminescence"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180844,6 +183472,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Euphonic Chrysalis"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180861,6 +183490,7 @@ var NYX_DB = {
             "influence": "Lollo Logistics",
             "title": "Kaleido Refraction"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180879,6 +183509,23 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Nature Calling"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "ww-qingxiao",
+          "name": "Qingxiao",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Aero",
+          "role": "Sword",
+          "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
+          "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
+          "facts": {
+            "nation": "Huanglong",
+            "influence": "Ministry of War"
+          },
+          "status": "beta",
           "forms": []
         },
         {
@@ -180896,6 +183543,7 @@ var NYX_DB = {
             "influence": "Roya Tribe",
             "title": "True Name Manifestation"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180913,6 +183561,7 @@ var NYX_DB = {
             "influence": "Mingting",
             "title": "Bambooscape"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180930,6 +183579,7 @@ var NYX_DB = {
             "influence": "Septimont",
             "title": "Stasis, Cycle, Renewal"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180947,6 +183597,7 @@ var NYX_DB = {
             "influence": "Ragunna",
             "title": "Feathered Tempest"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180964,6 +183615,7 @@ var NYX_DB = {
             "influence": "Ragunna",
             "title": "Woven Melodies"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -180982,6 +183634,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Guiding Starlance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181000,6 +183653,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Windborne Rider"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181018,6 +183672,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Mistcloak Strike"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181036,6 +183691,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Breath of Winds"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181051,6 +183707,7 @@ var NYX_DB = {
           "facts": {
             "title": "Fury-Type Arsenal"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181068,6 +183725,7 @@ var NYX_DB = {
             "influence": "Black Shores",
             "title": "Divine Hearing"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181085,6 +183743,7 @@ var NYX_DB = {
             "influence": "Septimont",
             "title": "Magnetism Before Light"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181102,6 +183761,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Matter Weaver"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181120,6 +183780,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Thawborn Renewal"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181138,6 +183799,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Fist of Thunder"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181156,6 +183818,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Lightning of Execution"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181174,6 +183837,23 @@ var NYX_DB = {
             "influence": "\"Ghost Hounds\"",
             "title": "Phantom Hunters"
           },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "ww-jingran",
+          "name": "Jingran",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Fusion",
+          "role": "Broadblade",
+          "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
+          "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
+          "facts": {
+            "nation": "Huanglong",
+            "influence": "Nethermancer"
+          },
+          "status": "beta",
           "forms": []
         },
         {
@@ -181191,6 +183871,7 @@ var NYX_DB = {
             "influence": "Fractsidus",
             "title": "Bubbles of Nihility"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181208,6 +183889,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Guiding Starlance"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181225,6 +183907,7 @@ var NYX_DB = {
             "influence": "Spacetrek Collective",
             "title": "Astral Mapping"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181242,6 +183925,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Infernal Descent"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181259,6 +183943,7 @@ var NYX_DB = {
             "influence": "Septimont",
             "title": "Howling Flame"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181276,6 +183961,7 @@ var NYX_DB = {
             "influence": "Troupe of Fools",
             "title": "Flamebound Compass"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181294,6 +183980,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Eternal Blaze"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181312,6 +183999,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Dragon's Breath"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181330,6 +184018,7 @@ var NYX_DB = {
             "influence": "The Black Shores",
             "title": "Wooly\u2013counting Game"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181348,6 +184037,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Gallant Blaze"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181365,6 +184055,7 @@ var NYX_DB = {
             "influence": "Zhaoming Commerce Guild",
             "title": "Host of Harmony"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181382,6 +184073,7 @@ var NYX_DB = {
             "influence": "Startorch Academy",
             "title": "Memory Palace"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181399,6 +184091,7 @@ var NYX_DB = {
             "influence": "Miko of Flaming Sakura",
             "title": "Futures' Tithe"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181416,6 +184109,7 @@ var NYX_DB = {
             "influence": "The Montelli Family",
             "title": "Crystal Remorph"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181434,6 +184128,7 @@ var NYX_DB = {
             "influence": "Chongzhou",
             "title": "Cryogenic Wonders"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181452,6 +184147,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Enchanted Brush"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181470,6 +184166,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Frosty Gusto"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181488,6 +184185,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Healing You'tan"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181506,6 +184204,7 @@ var NYX_DB = {
             "influence": "Jinzhou",
             "title": "Snow Waltz"
           },
+          "status": "live",
           "forms": []
         },
         {
@@ -181516,35 +184215,15 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": null,
+          "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
           "facts": {
             "title": "The Moon Fox"
           },
-          "forms": []
-        },
-        {
-          "id": "ww-jingran",
-          "name": "Jingran",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Fusion",
-          "role": "Broadblade",
-          "icon": null,
-          "art": "../../Database/Prydwen/ww/assets/characters/jingran-2b0e720255d4.webp",
-          "facts": {},
-          "forms": []
-        },
-        {
-          "id": "ww-qingxiao",
-          "name": "Qingxiao",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Aero",
-          "role": "Sword",
-          "icon": null,
-          "art": "../../Database/Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
-          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         },
         {
@@ -181554,9 +184233,13 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Unknown",
           "role": "Unknown",
-          "icon": null,
+          "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
           "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
           "forms": []
         }
       ]
@@ -185610,6 +188293,23 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "AKENDFIELDSUB",
+          "reward": "100 Oroberyl",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Oroberyl",
+            "needle": "oroberyl",
+            "aliases": [
+              "originium"
+            ],
+            "icon": "../../Database/EndfieldWiki/endfield/material-icons/Oroberyl.png"
+          },
+          "added": "2026-08-20",
+          "firstSeen": "2026-08-21T15:24:44.221Z",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=AKENDFIELDSUB",
+          "redeemUrl": null
+        },
+        {
           "code": "ENDFIELDRENEW",
           "reward": "One Safety Helmet Sticker and 71,600 T Creds",
           "premium": false,
@@ -185681,12 +188381,11 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-16T05:52:46.401Z",
-          "lastSuccessfulFetch": "2026-08-14T04:06:56.603Z",
-          "lastValidUpdate": "2026-08-14T04:06:56.603Z",
-          "source": "game8",
-          "message": "This game failed to scrape during the latest banner check; preserved previous data."
+          "status": "fresh",
+          "checkedAt": "2026-08-24T02:51:02.524Z",
+          "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+          "lastValidUpdate": "2026-08-24T02:51:02.524Z",
+          "source": "game8"
         },
         "current": {
           "phase": "1.4 Phase 2",
@@ -185738,9 +188437,122 @@ var NYX_DB = {
               "debutAt": "2026-01-22"
             }
           ],
+          "subBanners": [],
+          "lossPool": {
+            "current": {
+              "name": "Liino",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": true,
+              "debutAt": "2026-08-09"
+            },
+            "previous": [
+              {
+                "name": "Arcane",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-07-16"
+              },
+              {
+                "name": "Camille",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-06-26"
+              }
+            ],
+            "permanent": [
+              {
+                "name": "Ardelia",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Pogranichnik",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Last Rite",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Ember",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Lifeng",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              }
+            ]
+          }
+        },
+        "next": {
+          "phase": null,
+          "teased": false,
+          "start": "2026-09-02T02:00:00.000Z",
+          "end": "2026-09-30T02:00:00.000Z",
+          "characters": [
+            {
+              "name": "Typhoeus",
+              "icon": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "https://cdn.perlica.moe/images/operators/portraits/typhoeus.webp",
+              "namecard": null,
+              "rarity": 6,
+              "debut": true,
+              "debutAt": null
+            }
+          ],
           "subBanners": []
         },
-        "next": null,
         "upcoming": [
           {
             "phase": null,
@@ -185749,7 +188561,7 @@ var NYX_DB = {
             "end": null,
             "characters": [
               {
-                "name": "Si (Feranmut Proxy)",
+                "name": "Si",
                 "icon": "/assets/banners/ae/fd3eda13a889b82719e4542a2adfeb3b.png",
                 "iconFallback": null,
                 "iconZoom": false,
@@ -185765,17 +188577,6 @@ var NYX_DB = {
                 "iconFallback": null,
                 "iconZoom": false,
                 "art": "/assets/banners/ae/d6bb2d5206e6c0769a39bf0ad08c5839.png",
-                "namecard": null,
-                "rarity": null,
-                "debut": true,
-                "debutAt": null
-              },
-              {
-                "name": "Sarkaz Archer",
-                "icon": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "/assets/banners/ae/8b301e87737de7bee77d0207b15af0f8.png",
                 "namecard": null,
                 "rarity": null,
                 "debut": true,

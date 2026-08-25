@@ -56,9 +56,6 @@
   --nyx-color-control-surface-hover:rgba(139,123,255,.2);
   --nyx-color-control-active:rgba(139,123,255,.32);
   --nyx-color-control-edge:rgba(204,187,255,.24);
-  /* Canonical control silhouette: the section-selector angled row (user decision 2026-07-15).
-     Ordinary text buttons take this clip; icon buttons stay square. */
-  --nyx-clip-control:polygon(0% 50%, 12px 0%, calc(100% - 12px) 0%, 100% 50%, calc(100% - 12px) 100%, 12px 100%);
   --nyx-tracking-control:.05em;
   --nyx-color-input-surface:rgba(13,10,30,.85);
   --nyx-color-chip-text:#c9c0e8;
@@ -1823,6 +1820,10 @@
   --nyx-compat-weight-750:750;
   --nyx-compat-weight-850:850;
   /* END GENERATED NYX COMPAT TOKENS */
+}
+
+@media (max-width:760px){
+  :root{ --nyx-size-control:44px; --nyx-size-icon:44px; }
 }
 
 /* BEGIN GENERATED NYX SCOPED COMPAT TOKENS */

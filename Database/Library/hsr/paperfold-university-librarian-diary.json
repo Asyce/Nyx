@@ -5,7 +5,7 @@
   "name": "Paperfold University Librarian Diary",
   "sortId": 70890,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paperfold_University_Librarian_Diary",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -756,16 +756,6 @@
               }
             ],
             "id": "p-8a2c7a4875ecd162"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

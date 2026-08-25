@@ -79,12 +79,38 @@ test('daily deploy syncs pushed main and verifies a renewed exact snapshot befor
   assert(install < launcherSnapshot && launcherSnapshot < firstBuild && firstBuild < firstSmoke && firstSmoke < firstPush && firstPush < sync, 'the rebased launcher snapshot must be verified and pushed before R2');
   assert(sync < refresh && refresh < snapshot, 'launcher freshness must be renewed after R2');
   assert(snapshot < build && build < smoke && smoke < push && push < deploy, 'the renewed commit must build, smoke, and push before deploy');
-  assert.match(source.slice(sync, refresh), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.launcher_snapshot\.outputs\.sha \}\}/);
+  assert.match(source.slice(sync, refresh), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.pushed_launcher_snapshot\.outputs\.sha \}\}/);
   assert.match(source.slice(build, smoke), /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.deployment_snapshot\.outputs\.sha \}\}/);
   assert.match(source.slice(deploy), /steps\.deployment_snapshot\.outputs\.fresh == 'true'/);
   assert.match(source.slice(deploy), /working-directory: Site/);
   assert.match(source.slice(deploy), /node \.\/node_modules\/wrangler\/bin\/wrangler\.js deploy/);
   assert.doesNotMatch(source.slice(deploy), /npx --yes wrangler/);
+});
+
+test('data refresh deploy uses the installed pinned Wrangler', async () => {
+  const source = await fs.readFile(path.resolve(workflowDir, 'data-refresh.yml'), 'utf8');
+  const deploy = source.indexOf('- name: Deploy to Cloudflare');
+  assert.match(source.slice(deploy), /node \.\/node_modules\/wrangler\/bin\/wrangler\.js deploy/);
+  assert.doesNotMatch(source.slice(deploy), /npx --yes wrangler/);
+});
+
+test('daily deploy rebuilds the newest main before retrying a rejected push', async () => {
+  const source = await fs.readFile(path.resolve(workflowDir, 'daily-deploy.yml'), 'utf8');
+  const pushBlocks = source.match(/- name: Push (?:verified launcher|exact deployment) snapshot[\s\S]*?(?=\n      - name:)/g) || [];
+
+  assert.equal(pushBlocks.length, 2);
+  for (const block of pushBlocks) {
+    assert.match(block, /for attempt in 1 2 3/);
+    assert.match(block, /git push origin HEAD:main/);
+    assert.match(block, /git fetch origin main[\s\S]*git switch --detach origin\/main[\s\S]*git lfs pull/);
+    assert.match(block, /npm ci --no-audit --no-fund[\s\S]*npm run generate:data && npm run refresh:launcher/);
+    assert.match(block, /PENGO_DEPLOY_COMMIT="\$sha" npm run build:deploy && npm run smoke:deploy/);
+    assert.match(block, /echo "sha=\$\(git rev-parse HEAD\)" >> "\$GITHUB_OUTPUT"/);
+  }
+  assert.match(pushBlocks[1], /R2_ACCOUNT_ID: \$\{\{ vars\.CLOUDFLARE_ACCOUNT_ID \}\}/);
+  assert.match(pushBlocks[1], /PENGO_DEPLOY_COMMIT="\$launcher_sha" npm run sync:database-assets:r2 -- --apply/);
+  assert.match(pushBlocks[1], /sync:database-assets:r2[\s\S]*npm run generate:data && npm run refresh:launcher[\s\S]*npm run build:deploy && npm run smoke:deploy/);
+  assert.match(source, /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.pushed_launcher_snapshot\.outputs\.sha \}\}/);
 });
 
 test('GameData preflight and rebased checks use the configured Database asset mode', async () => {

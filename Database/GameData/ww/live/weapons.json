@@ -31829,6 +31829,1658 @@
     }
   },
   {
+    "id": "21010076",
+    "contentStatus": "live",
+    "name": "Thousandfold Deliverance",
+    "rarity": 5,
+    "type": 1,
+    "description": "Endless stretches the Netherworld; the long night knows no end. Ten thousand souls lie hushed, and all sound fades to silence.\nWhen cold, golden rays illuminate the Nether Gate, the sunken dreams of ages past shall at last be brought to light.",
+    "attack": 412,
+    "subStat": "HP",
+    "assets": {
+      "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp"
+    },
+    "stats": {
+      "0": {
+        "1": [
+          {
+            "name": "ATK",
+            "value": 33,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.16050000488758087,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "2": [
+          {
+            "name": "ATK",
+            "value": 35.7786,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.16050000488758087,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "3": [
+          {
+            "name": "ATK",
+            "value": 38.5605,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.16050000488758087,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "4": [
+          {
+            "name": "ATK",
+            "value": 41.3424,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.16050000488758087,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "5": [
+          {
+            "name": "ATK",
+            "value": 44.121,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.1917012058377266,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "6": [
+          {
+            "name": "ATK",
+            "value": 46.9029,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.1917012058377266,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "7": [
+          {
+            "name": "ATK",
+            "value": 49.6848,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.1917012058377266,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "8": [
+          {
+            "name": "ATK",
+            "value": 52.4634,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.1917012058377266,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "9": [
+          {
+            "name": "ATK",
+            "value": 55.2453,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.1917012058377266,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "10": [
+          {
+            "name": "ATK",
+            "value": 58.0272,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.22290240678787232,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "11": [
+          {
+            "name": "ATK",
+            "value": 60.8058,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.22290240678787232,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "12": [
+          {
+            "name": "ATK",
+            "value": 63.5877,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.22290240678787232,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "13": [
+          {
+            "name": "ATK",
+            "value": 66.3696,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.22290240678787232,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "14": [
+          {
+            "name": "ATK",
+            "value": 69.1515,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.22290240678787232,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "15": [
+          {
+            "name": "ATK",
+            "value": 71.9301,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.2541196577385068,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "16": [
+          {
+            "name": "ATK",
+            "value": 74.712,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.2541196577385068,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "17": [
+          {
+            "name": "ATK",
+            "value": 77.4939,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.2541196577385068,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "18": [
+          {
+            "name": "ATK",
+            "value": 80.2725,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.2541196577385068,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "19": [
+          {
+            "name": "ATK",
+            "value": 83.0544,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.2541196577385068,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "20": [
+          {
+            "name": "ATK",
+            "value": 85.8363,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.28532085868865253,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      },
+      "1": {
+        "20": [
+          {
+            "name": "ATK",
+            "value": 107.8341,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.28532085868865253,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "21": [
+          {
+            "name": "ATK",
+            "value": 110.616,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.28532085868865253,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "22": [
+          {
+            "name": "ATK",
+            "value": 113.3979,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.28532085868865253,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "23": [
+          {
+            "name": "ATK",
+            "value": 116.1765,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.28532085868865253,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "24": [
+          {
+            "name": "ATK",
+            "value": 118.9584,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.28532085868865253,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "25": [
+          {
+            "name": "ATK",
+            "value": 121.7403,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.31653810963928697,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "26": [
+          {
+            "name": "ATK",
+            "value": 124.5222,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.31653810963928697,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "27": [
+          {
+            "name": "ATK",
+            "value": 127.3008,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.31653810963928697,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "28": [
+          {
+            "name": "ATK",
+            "value": 130.0827,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.31653810963928697,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "29": [
+          {
+            "name": "ATK",
+            "value": 132.8646,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.31653810963928697,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "30": [
+          {
+            "name": "ATK",
+            "value": 135.6432,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3477393105894327,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "31": [
+          {
+            "name": "ATK",
+            "value": 138.4251,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3477393105894327,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "32": [
+          {
+            "name": "ATK",
+            "value": 141.207,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3477393105894327,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "33": [
+          {
+            "name": "ATK",
+            "value": 143.9856,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3477393105894327,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "34": [
+          {
+            "name": "ATK",
+            "value": 146.7675,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3477393105894327,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "35": [
+          {
+            "name": "ATK",
+            "value": 149.5494,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3789565615400672,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "36": [
+          {
+            "name": "ATK",
+            "value": 152.3313,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3789565615400672,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "37": [
+          {
+            "name": "ATK",
+            "value": 155.1099,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3789565615400672,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "38": [
+          {
+            "name": "ATK",
+            "value": 157.8918,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3789565615400672,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "39": [
+          {
+            "name": "ATK",
+            "value": 160.6737,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.3789565615400672,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "40": [
+          {
+            "name": "ATK",
+            "value": 163.4523,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4101577624902129,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      },
+      "2": {
+        "40": [
+          {
+            "name": "ATK",
+            "value": 185.4534,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4101577624902129,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "41": [
+          {
+            "name": "ATK",
+            "value": 188.2353,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4101577624902129,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "42": [
+          {
+            "name": "ATK",
+            "value": 191.0139,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4101577624902129,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "43": [
+          {
+            "name": "ATK",
+            "value": 193.7958,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4101577624902129,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "44": [
+          {
+            "name": "ATK",
+            "value": 196.5777,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4101577624902129,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "45": [
+          {
+            "name": "ATK",
+            "value": 199.3563,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4413750134408474,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "46": [
+          {
+            "name": "ATK",
+            "value": 202.1382,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4413750134408474,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "47": [
+          {
+            "name": "ATK",
+            "value": 204.9201,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4413750134408474,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "48": [
+          {
+            "name": "ATK",
+            "value": 207.702,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4413750134408474,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "49": [
+          {
+            "name": "ATK",
+            "value": 210.4806,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4413750134408474,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "50": [
+          {
+            "name": "ATK",
+            "value": 213.2625,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4725762143909931,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      },
+      "3": {
+        "50": [
+          {
+            "name": "ATK",
+            "value": 235.2636,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4725762143909931,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "51": [
+          {
+            "name": "ATK",
+            "value": 238.0422,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4725762143909931,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "52": [
+          {
+            "name": "ATK",
+            "value": 240.8241,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4725762143909931,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "53": [
+          {
+            "name": "ATK",
+            "value": 243.606,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4725762143909931,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "54": [
+          {
+            "name": "ATK",
+            "value": 246.3846,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.4725762143909931,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "55": [
+          {
+            "name": "ATK",
+            "value": 249.1665,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5037774153411388,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "56": [
+          {
+            "name": "ATK",
+            "value": 251.9484,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5037774153411388,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "57": [
+          {
+            "name": "ATK",
+            "value": 254.7303,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5037774153411388,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "58": [
+          {
+            "name": "ATK",
+            "value": 257.5089,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5037774153411388,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "59": [
+          {
+            "name": "ATK",
+            "value": 260.2908,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5037774153411388,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "60": [
+          {
+            "name": "ATK",
+            "value": 263.0727,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5349946662917733,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      },
+      "4": {
+        "60": [
+          {
+            "name": "ATK",
+            "value": 285.0705,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5349946662917733,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "61": [
+          {
+            "name": "ATK",
+            "value": 287.8524,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5349946662917733,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "62": [
+          {
+            "name": "ATK",
+            "value": 290.6343,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5349946662917733,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "63": [
+          {
+            "name": "ATK",
+            "value": 293.4129,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5349946662917733,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "64": [
+          {
+            "name": "ATK",
+            "value": 296.1948,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5349946662917733,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "65": [
+          {
+            "name": "ATK",
+            "value": 298.9767,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5661958672419191,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "66": [
+          {
+            "name": "ATK",
+            "value": 301.7553,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5661958672419191,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "67": [
+          {
+            "name": "ATK",
+            "value": 304.5372,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5661958672419191,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "68": [
+          {
+            "name": "ATK",
+            "value": 307.3191,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5661958672419191,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "69": [
+          {
+            "name": "ATK",
+            "value": 310.101,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5661958672419191,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "70": [
+          {
+            "name": "ATK",
+            "value": 312.8796,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5974131181925535,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      },
+      "5": {
+        "70": [
+          {
+            "name": "ATK",
+            "value": 334.8807,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5974131181925535,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "71": [
+          {
+            "name": "ATK",
+            "value": 337.6626,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5974131181925535,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "72": [
+          {
+            "name": "ATK",
+            "value": 340.4412,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5974131181925535,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "73": [
+          {
+            "name": "ATK",
+            "value": 343.2231,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5974131181925535,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "74": [
+          {
+            "name": "ATK",
+            "value": 346.005,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.5974131181925535,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "75": [
+          {
+            "name": "ATK",
+            "value": 348.7836,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6286143191426993,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "76": [
+          {
+            "name": "ATK",
+            "value": 351.5655,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6286143191426993,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "77": [
+          {
+            "name": "ATK",
+            "value": 354.3474,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6286143191426993,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "78": [
+          {
+            "name": "ATK",
+            "value": 357.126,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6286143191426993,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "79": [
+          {
+            "name": "ATK",
+            "value": 359.9079,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6286143191426993,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "80": [
+          {
+            "name": "ATK",
+            "value": 362.6898,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6598315700933337,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      },
+      "6": {
+        "80": [
+          {
+            "name": "ATK",
+            "value": 384.6909,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6598315700933337,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "81": [
+          {
+            "name": "ATK",
+            "value": 387.4695,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6598315700933337,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "82": [
+          {
+            "name": "ATK",
+            "value": 390.2514,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6598315700933337,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "83": [
+          {
+            "name": "ATK",
+            "value": 393.0333,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6598315700933337,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "84": [
+          {
+            "name": "ATK",
+            "value": 395.8119,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6598315700933337,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "85": [
+          {
+            "name": "ATK",
+            "value": 398.5938,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6910327710434795,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "86": [
+          {
+            "name": "ATK",
+            "value": 401.3757,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6910327710434795,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "87": [
+          {
+            "name": "ATK",
+            "value": 404.1543,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6910327710434795,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "88": [
+          {
+            "name": "ATK",
+            "value": 406.9362,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6910327710434795,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "89": [
+          {
+            "name": "ATK",
+            "value": 409.7181,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.6910327710434795,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ],
+        "90": [
+          {
+            "name": "ATK",
+            "value": 412.5,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "HP",
+            "value": 0.7222500219941139,
+            "is_ratio": true,
+            "is_percent": false
+          }
+        ]
+      }
+    },
+    "effect": {
+      "name": "Hark, Spirits and Stars",
+      "description": "Grants {0} All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield as the active Resonator grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to <SapTag=1>{1}</SapTag> {Cus:Sap,S=time P=times SapTag=1}, lasting for {2}s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reaches <SapTag=A>{10}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=A}, the Crit. Rate of Heavy Attack DMG is increased by {11}.\nCradle of Life: Casting Heavy Attack consumes up to {5} stacks of Cradle of Life. For every <SapTag=6>{6}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=6} of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
+      "params": [
+        [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        [
+          "7",
+          "7",
+          "7",
+          "7",
+          "7"
+        ],
+        [
+          "4%",
+          "5%",
+          "6%",
+          "7%",
+          "8%"
+        ],
+        [
+          "24%",
+          "30%",
+          "36%",
+          "42%",
+          "48%"
+        ],
+        [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "15%",
+          "17.5%",
+          "20%",
+          "22.5%",
+          "25%"
+        ],
+        [
+          "30%",
+          "35%",
+          "40%",
+          "45%",
+          "50%"
+        ],
+        [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        [
+          "6",
+          "6",
+          "6",
+          "6",
+          "6"
+        ],
+        [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ]
+      ]
+    },
+    "ascensions": {
+      "0": [
+        {
+          "itemId": "41100081",
+          "quantity": 6,
+          "name": "Fractured Exoswarm Pendant",
+          "rarity": 2,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 10000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "1": [
+        {
+          "itemId": "43021041",
+          "quantity": 6,
+          "name": "LF Carved Crystal",
+          "rarity": 2,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100082",
+          "quantity": 6,
+          "name": "Worn Exoswarm Pendant",
+          "rarity": 3,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 20000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "2": [
+        {
+          "itemId": "43021042",
+          "quantity": 8,
+          "name": "MF Carved Crystal",
+          "rarity": 3,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100083",
+          "quantity": 4,
+          "name": "Chipped Exoswarm Pendant",
+          "rarity": 4,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 40000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "3": [
+        {
+          "itemId": "43021043",
+          "quantity": 6,
+          "name": "HF Carved Crystal",
+          "rarity": 4,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100083",
+          "quantity": 6,
+          "name": "Chipped Exoswarm Pendant",
+          "rarity": 4,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 60000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "4": [
+        {
+          "itemId": "43021044",
+          "quantity": 8,
+          "name": "FF Carved Crystal",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100084",
+          "quantity": 4,
+          "name": "Intact Exoswarm Pendant",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 80000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "5": [
+        {
+          "itemId": "43021044",
+          "quantity": 12,
+          "name": "FF Carved Crystal",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100084",
+          "quantity": 8,
+          "name": "Intact Exoswarm Pendant",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 120000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "6": [
+        {
+          "itemId": "2",
+          "quantity": 0,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ]
+    }
+  },
+  {
     "id": "21010084",
     "contentStatus": "live",
     "name": "Waning Redshift",
@@ -77987,6 +79639,1623 @@
         {
           "itemId": "2",
           "quantity": 96000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "6": [
+        {
+          "itemId": "2",
+          "quantity": 0,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "21020106",
+    "contentStatus": "live",
+    "name": "Glint of Clouds",
+    "rarity": 5,
+    "type": 2,
+    "description": "Wreathed in mist and cloud, still waters blend with the sky in seamless blue. Sparse shadows slant across as a rain of petals falls.\nMay I bear this jade blade into the mortal realm, cleanse a tarnished age, and put the wicked to the sword.",
+    "attack": 500,
+    "subStat": "Crit. Rate",
+    "assets": {
+      "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp"
+    },
+    "stats": {
+      "0": {
+        "1": [
+          {
+            "name": "ATK",
+            "value": 40,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 800,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "2": [
+          {
+            "name": "ATK",
+            "value": 43.368,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 800,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "3": [
+          {
+            "name": "ATK",
+            "value": 46.74,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 800,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "4": [
+          {
+            "name": "ATK",
+            "value": 50.112,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 800,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "5": [
+          {
+            "name": "ATK",
+            "value": 53.48,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 955.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "6": [
+          {
+            "name": "ATK",
+            "value": 56.852,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 955.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "7": [
+          {
+            "name": "ATK",
+            "value": 60.224,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 955.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "8": [
+          {
+            "name": "ATK",
+            "value": 63.592,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 955.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "9": [
+          {
+            "name": "ATK",
+            "value": 66.964,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 955.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "10": [
+          {
+            "name": "ATK",
+            "value": 70.336,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1111.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "11": [
+          {
+            "name": "ATK",
+            "value": 73.704,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1111.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "12": [
+          {
+            "name": "ATK",
+            "value": 77.076,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1111.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "13": [
+          {
+            "name": "ATK",
+            "value": 80.448,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1111.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "14": [
+          {
+            "name": "ATK",
+            "value": 83.82,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1111.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "15": [
+          {
+            "name": "ATK",
+            "value": 87.188,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1266.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "16": [
+          {
+            "name": "ATK",
+            "value": 90.56,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1266.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "17": [
+          {
+            "name": "ATK",
+            "value": 93.932,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1266.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "18": [
+          {
+            "name": "ATK",
+            "value": 97.3,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1266.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "19": [
+          {
+            "name": "ATK",
+            "value": 100.672,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1266.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "20": [
+          {
+            "name": "ATK",
+            "value": 104.044,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1422.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      },
+      "1": {
+        "20": [
+          {
+            "name": "ATK",
+            "value": 130.708,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1422.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "21": [
+          {
+            "name": "ATK",
+            "value": 134.08,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1422.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "22": [
+          {
+            "name": "ATK",
+            "value": 137.452,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1422.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "23": [
+          {
+            "name": "ATK",
+            "value": 140.82,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1422.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "24": [
+          {
+            "name": "ATK",
+            "value": 144.192,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1422.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "25": [
+          {
+            "name": "ATK",
+            "value": 147.564,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1577.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "26": [
+          {
+            "name": "ATK",
+            "value": 150.936,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1577.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "27": [
+          {
+            "name": "ATK",
+            "value": 154.304,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1577.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "28": [
+          {
+            "name": "ATK",
+            "value": 157.676,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1577.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "29": [
+          {
+            "name": "ATK",
+            "value": 161.048,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1577.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "30": [
+          {
+            "name": "ATK",
+            "value": 164.416,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1733.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "31": [
+          {
+            "name": "ATK",
+            "value": 167.788,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1733.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "32": [
+          {
+            "name": "ATK",
+            "value": 171.16,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1733.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "33": [
+          {
+            "name": "ATK",
+            "value": 174.528,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1733.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "34": [
+          {
+            "name": "ATK",
+            "value": 177.9,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1733.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "35": [
+          {
+            "name": "ATK",
+            "value": 181.272,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1888.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "36": [
+          {
+            "name": "ATK",
+            "value": 184.644,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1888.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "37": [
+          {
+            "name": "ATK",
+            "value": 188.012,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1888.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "38": [
+          {
+            "name": "ATK",
+            "value": 191.384,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1888.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "39": [
+          {
+            "name": "ATK",
+            "value": 194.756,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 1888.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "40": [
+          {
+            "name": "ATK",
+            "value": 198.124,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2044.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      },
+      "2": {
+        "40": [
+          {
+            "name": "ATK",
+            "value": 224.792,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2044.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "41": [
+          {
+            "name": "ATK",
+            "value": 228.164,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2044.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "42": [
+          {
+            "name": "ATK",
+            "value": 231.532,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2044.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "43": [
+          {
+            "name": "ATK",
+            "value": 234.904,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2044.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "44": [
+          {
+            "name": "ATK",
+            "value": 238.276,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2044.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "45": [
+          {
+            "name": "ATK",
+            "value": 241.644,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2200,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "46": [
+          {
+            "name": "ATK",
+            "value": 245.016,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2200,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "47": [
+          {
+            "name": "ATK",
+            "value": 248.388,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2200,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "48": [
+          {
+            "name": "ATK",
+            "value": 251.76,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2200,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "49": [
+          {
+            "name": "ATK",
+            "value": 255.128,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2200,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "50": [
+          {
+            "name": "ATK",
+            "value": 258.5,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2355.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      },
+      "3": {
+        "50": [
+          {
+            "name": "ATK",
+            "value": 285.168,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2355.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "51": [
+          {
+            "name": "ATK",
+            "value": 288.536,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2355.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "52": [
+          {
+            "name": "ATK",
+            "value": 291.908,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2355.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "53": [
+          {
+            "name": "ATK",
+            "value": 295.28,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2355.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "54": [
+          {
+            "name": "ATK",
+            "value": 298.648,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2355.52,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "55": [
+          {
+            "name": "ATK",
+            "value": 302.02,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2511.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "56": [
+          {
+            "name": "ATK",
+            "value": 305.392,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2511.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "57": [
+          {
+            "name": "ATK",
+            "value": 308.764,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2511.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "58": [
+          {
+            "name": "ATK",
+            "value": 312.132,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2511.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "59": [
+          {
+            "name": "ATK",
+            "value": 315.504,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2511.04,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "60": [
+          {
+            "name": "ATK",
+            "value": 318.876,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2666.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      },
+      "4": {
+        "60": [
+          {
+            "name": "ATK",
+            "value": 345.54,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2666.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "61": [
+          {
+            "name": "ATK",
+            "value": 348.912,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2666.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "62": [
+          {
+            "name": "ATK",
+            "value": 352.284,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2666.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "63": [
+          {
+            "name": "ATK",
+            "value": 355.652,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2666.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "64": [
+          {
+            "name": "ATK",
+            "value": 359.024,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2666.64,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "65": [
+          {
+            "name": "ATK",
+            "value": 362.396,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2822.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "66": [
+          {
+            "name": "ATK",
+            "value": 365.764,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2822.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "67": [
+          {
+            "name": "ATK",
+            "value": 369.136,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2822.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "68": [
+          {
+            "name": "ATK",
+            "value": 372.508,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2822.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "69": [
+          {
+            "name": "ATK",
+            "value": 375.88,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2822.16,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "70": [
+          {
+            "name": "ATK",
+            "value": 379.248,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2977.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      },
+      "5": {
+        "70": [
+          {
+            "name": "ATK",
+            "value": 405.916,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2977.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "71": [
+          {
+            "name": "ATK",
+            "value": 409.288,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2977.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "72": [
+          {
+            "name": "ATK",
+            "value": 412.656,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2977.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "73": [
+          {
+            "name": "ATK",
+            "value": 416.028,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2977.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "74": [
+          {
+            "name": "ATK",
+            "value": 419.4,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 2977.76,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "75": [
+          {
+            "name": "ATK",
+            "value": 422.768,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3133.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "76": [
+          {
+            "name": "ATK",
+            "value": 426.14,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3133.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "77": [
+          {
+            "name": "ATK",
+            "value": 429.512,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3133.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "78": [
+          {
+            "name": "ATK",
+            "value": 432.88,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3133.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "79": [
+          {
+            "name": "ATK",
+            "value": 436.252,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3133.28,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "80": [
+          {
+            "name": "ATK",
+            "value": 439.624,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3288.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      },
+      "6": {
+        "80": [
+          {
+            "name": "ATK",
+            "value": 466.292,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3288.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "81": [
+          {
+            "name": "ATK",
+            "value": 469.66,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3288.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "82": [
+          {
+            "name": "ATK",
+            "value": 473.032,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3288.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "83": [
+          {
+            "name": "ATK",
+            "value": 476.404,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3288.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "84": [
+          {
+            "name": "ATK",
+            "value": 479.772,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3288.88,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "85": [
+          {
+            "name": "ATK",
+            "value": 483.144,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3444.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "86": [
+          {
+            "name": "ATK",
+            "value": 486.516,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3444.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "87": [
+          {
+            "name": "ATK",
+            "value": 489.884,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3444.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "88": [
+          {
+            "name": "ATK",
+            "value": 493.256,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3444.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "89": [
+          {
+            "name": "ATK",
+            "value": 496.628,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3444.4,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ],
+        "90": [
+          {
+            "name": "ATK",
+            "value": 500,
+            "is_ratio": false,
+            "is_percent": false
+          },
+          {
+            "name": "Crit. Rate",
+            "value": 3600,
+            "is_ratio": false,
+            "is_percent": true
+          }
+        ]
+      }
+    },
+    "effect": {
+      "name": "Evil's Scourge",
+      "description": "ATK is increased by {0}. Inflicting Tune Strain - Shifting grants {1} Aero DMG Bonus for {2}s, stacking up to {3} times. This effect can be triggered once every {4}s. Upon reaching the max stack limit, gain the following effects:\n- This Aero DMG Bonus effect's duration is extended to {5}s.\n- Aero DMG ignores {6} of the target's DEF during this effect.",
+      "params": [
+        [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
+        ],
+        [
+          "11.2%",
+          "14%",
+          "16.8%",
+          "19.6%",
+          "22.4%"
+        ],
+        [
+          "2",
+          "2",
+          "2",
+          "2",
+          "2"
+        ],
+        [
+          "5",
+          "5",
+          "5",
+          "5",
+          "5"
+        ],
+        [
+          "0.5",
+          "0.5",
+          "0.5",
+          "0.5",
+          "0.5"
+        ],
+        [
+          "30",
+          "30",
+          "30",
+          "30",
+          "30"
+        ],
+        [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
+      ]
+    },
+    "ascensions": {
+      "0": [
+        {
+          "itemId": "41100071",
+          "quantity": 6,
+          "name": "LF Mech Core",
+          "rarity": 2,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 10000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "1": [
+        {
+          "itemId": "43021011",
+          "quantity": 6,
+          "name": "Broken Wing Polarizer",
+          "rarity": 2,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100072",
+          "quantity": 6,
+          "name": "MF Mech Core",
+          "rarity": 3,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 20000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "2": [
+        {
+          "itemId": "43021012",
+          "quantity": 8,
+          "name": "Monowing Polarizer",
+          "rarity": 3,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100073",
+          "quantity": 4,
+          "name": "HF Mech Core",
+          "rarity": 4,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 40000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "3": [
+        {
+          "itemId": "43021013",
+          "quantity": 6,
+          "name": "Polywing Polarizer",
+          "rarity": 4,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100073",
+          "quantity": 6,
+          "name": "HF Mech Core",
+          "rarity": 4,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 60000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "4": [
+        {
+          "itemId": "43021014",
+          "quantity": 8,
+          "name": "Layered Wing Polarizer",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100074",
+          "quantity": 4,
+          "name": "FF Mech Core",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 80000,
+          "name": "Shell Credit",
+          "rarity": 3,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_hsb_UI.webp"
+          }
+        }
+      ],
+      "5": [
+        {
+          "itemId": "43021014",
+          "quantity": 12,
+          "name": "Layered Wing Polarizer",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp"
+          }
+        },
+        {
+          "itemId": "41100074",
+          "quantity": 8,
+          "name": "FF Mech Core",
+          "rarity": 5,
+          "type": 4,
+          "assets": {
+            "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp"
+          }
+        },
+        {
+          "itemId": "2",
+          "quantity": 120000,
           "name": "Shell Credit",
           "rarity": 3,
           "assets": {
@@ -191065,6 +194334,20 @@
     "description": "To fishers, the sea is their field of harvest. Harvest means hope.",
     "assets": {
       "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050036_UI.webp"
+    },
+    "effect": {
+      "params": []
+    }
+  },
+  {
+    "id": "80080009",
+    "contentStatus": "live",
+    "name": "Projection: Blade of a Thousand Arts",
+    "rarity": 5,
+    "type": 2,
+    "description": "A projection that reshapes the sword.\nThe silhouette of this sword clearly echoes ancient Huanglong craftsmanship, yet its creator gave it a radical redesign: swapping the traditional metallic edge for an ultra-fine energy jet.\nMuch like other entities from the Endstate Matrix, a familiar weapon has been digitally warped into something entirely unprecedented.",
+    "assets": {
+      "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.webp"
     },
     "effect": {
       "params": []

@@ -31910,14 +31910,16 @@
   },
   {
     "id": "21010076",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Thousandfold Deliverance",
     "rarity": 5,
     "type": 1,
     "description": "Endless stretches the Netherworld; the long night knows no end. Ten thousand souls lie hushed, and all sound fades to silence.\nWhen cold, golden rays illuminate the Nether Gate, the sunken dreams of ages past shall at last be brought to light.",
     "attack": 412,
     "subStat": "HP",
-    "assets": {},
+    "assets": {
+      "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp"
+    },
     "stats": {
       "0": {
         "1": [
@@ -33280,7 +33282,7 @@
     },
     "effect": {
       "name": "Hark, Spirits and Stars",
-      "description": "Grants {0} All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to <SapTag=1>{1}</SapTag> {Cus:Sap,S=time P=times SapTag=1}, lasting for {2}s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reaches <SapTag=A>{10}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=A}, the Crit. Rate of Heavy Attack DMG is increased by {11}.\nCradle of Life: Casting Heavy Attack consumes up to {5} stacks of Cradle of Life. For every <SapTag=6>{6}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=6} of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
+      "description": "Grants {0} All-Attribute DMG Bonus. Casting Intro Skill or gaining a Shield as the active Resonator grants 1 stack of Nature's Order and 1 stack of Cradle of Life. This effect can be triggered via gaining a Shield once every 0.5s, stacking up to <SapTag=1>{1}</SapTag> {Cus:Sap,S=time P=times SapTag=1}, lasting for {2}s. Switching to another Resonator ends both Nature's Order and Cradle of Life immediately.\nNature's Order: Crit. DMG is increased by {3}, up to {4}. When Nature's Order reaches <SapTag=A>{10}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=A}, the Crit. Rate of Heavy Attack DMG is increased by {11}.\nCradle of Life: Casting Heavy Attack consumes up to {5} stacks of Cradle of Life. For every <SapTag=6>{6}</SapTag> {Cus:Sap,S=stack P=stacks SapTag=6} of Cradle of Life consumed, Heavy Attack DMG ignores {7} of the target's DEF, up to {8}. The effect lasts for {9}s.",
       "params": [
         [
           "12%",
@@ -33558,7 +33560,8 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "0ad00e1b3413706acaa5b7d47a7f045bacd28acbaa5a2c5b8b281588a9016608"
+      "liveHash": "36b15834a17e25c17cdec6dd65a059ecb6f63c0aec576442268c4e9a030befe3",
+      "currentHash": "36b15834a17e25c17cdec6dd65a059ecb6f63c0aec576442268c4e9a030befe3"
     }
   },
   {
@@ -79858,14 +79861,16 @@
   },
   {
     "id": "21020106",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Glint of Clouds",
     "rarity": 5,
     "type": 2,
     "description": "Wreathed in mist and cloud, still waters blend with the sky in seamless blue. Sparse shadows slant across as a rain of petals falls.\nMay I bear this jade blade into the mortal realm, cleanse a tarnished age, and put the wicked to the sword.",
     "attack": 500,
     "subStat": "Crit. Rate",
-    "assets": {},
+    "assets": {
+      "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp"
+    },
     "stats": {
       "0": {
         "1": [
@@ -81471,7 +81476,8 @@
       ]
     },
     "liveComparison": {
-      "currentHash": "00cb9e84b1d30fe9f3a4a5a167bad604aee7a7b4c360ed9d4c1815f68f86a226"
+      "liveHash": "78287970968bc4b6933dcf4e14a8434fc0b7d54ac0ce359601cd365c19d7715b",
+      "currentHash": "78287970968bc4b6933dcf4e14a8434fc0b7d54ac0ce359601cd365c19d7715b"
     }
   },
   {
@@ -194855,10 +194861,11 @@
   },
   {
     "id": "80080009",
-    "contentStatus": "beta",
-    "name": "80080009",
+    "contentStatus": "live",
+    "name": "Projection: Blade of a Thousand Arts",
     "rarity": 5,
     "type": 2,
+    "description": "A projection that reshapes the sword.\nThe silhouette of this sword clearly echoes ancient Huanglong craftsmanship, yet its creator gave it a radical redesign: swapping the traditional metallic edge for an ultra-fine energy jet.\nMuch like other entities from the Endstate Matrix, a familiar weapon has been digitally warped into something entirely unprecedented.",
     "assets": {
       "icon": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.webp"
     },
@@ -194866,7 +194873,8 @@
       "params": []
     },
     "liveComparison": {
-      "currentHash": "3480dd00f18fe298a2107238023b5d262b8807e1b4889b58c91cd2c1a9f238d9"
+      "liveHash": "ffd4bba89f50075ce1795a3a73eb4e2f53652e2c6d71966697da4eeae687c6fd",
+      "currentHash": "ffd4bba89f50075ce1795a3a73eb4e2f53652e2c6d71966697da4eeae687c6fd"
     }
   }
 ]

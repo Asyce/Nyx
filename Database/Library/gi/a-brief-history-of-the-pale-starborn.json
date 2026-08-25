@@ -5,7 +5,7 @@
   "name": "A Brief History of the Pale Starborn",
   "sortId": 431296,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/A_Brief_History_of_the_Pale_Starborn",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -14,11 +14,6 @@
       "document": {
         "version": 1,
         "blocks": [
-          {
-            "type": "paragraph",
-            "children": [],
-            "id": "p-882a20e6379eb83a"
-          },
           {
             "type": "paragraph",
             "children": [
@@ -38,160 +33,128 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-aff06f4a67aa5db7"
+            "id": "p-44ba79bdb7549f3f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->The fourth year of the 428th Cycle."
+                "text": "The fourth year of the 428th Cycle."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-2c93203860aa49bb"
+            "id": "p-7c73018c7761469f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->The fifth year of the 428th Cycle."
+                "text": "The fifth year of the 428th Cycle."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-e11cf4a8aaf18ecd"
+            "id": "p-46918a244c8db043"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the sixth year of the 428th Cycle, King Miscislav spoke to his people, his kin, and his confederates, accusing the Pale Star court of breaking the standing peace agreement. He demanded that the Emperor pay tribute for ten years — the grain of six hundred granaries and gold to fill thirty storehouses, and sufficient slaves to transport such bounty. This was thirty times the amount that had been demanded of the Vila. The Emperor rejected this ultimatum, and both sides prepared for war [130] thereafter. The Emperor said, \"To sacrifice ourselves for the homeland is honorable. Let our comrades in this be our swords and our love. Our enemies proclaim peace, for they wish to stir up war. Should we shamefully give in to them (meaning the Volkodlak), our sons and daughters shall face war greater still. Thus, let us fight bravely for our survival. Let us taste the honeyed wine of victory, or let us make of ourselves a glorious oblation!\""
+                "text": "In the sixth year of the 428th Cycle, King Miscislav spoke to his people, his kin, and his confederates, accusing the Pale Star court of breaking the standing peace agreement. He demanded that the Emperor pay tribute for ten years — the grain of six hundred granaries and gold to fill thirty storehouses, and sufficient slaves to transport such bounty. This was thirty times the amount that had been demanded of the Vila. The Emperor rejected this ultimatum, and both sides prepared for war [130] thereafter. The Emperor said, \"To sacrifice ourselves for the homeland is honorable. Let our comrades in this be our swords and our love. Our enemies proclaim peace, for they wish to stir up war. Should we shamefully give in to them (meaning the Volkodlak), our sons and daughters shall face war greater still. Thus, let us fight bravely for our survival. Let us taste the honeyed wine of victory, or let us make of ourselves a glorious oblation!\""
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-5ffdf1fc77a6fba8"
+            "id": "p-08ea16e4694d6e4f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the seventh year of the 428th Cycle, King Miscislav launched an assault upon Kitezh at the head of a great host: The Miscislavli clans marched with him, as did the people of Nyholmgarthir [131], Dalegrad [132], Cirnareka [133], and their numerous servants [134]. Three times the armies clashed at Kitezh, in the foothills, at the frozen lake, and on the plains; the Emperor slew King Miscislav [135] and many princes who followed him. Grand Duke Seriviiki [136] was fortunate to escape with his life, but both Grand Dukes Skoldyryt [137] and Vodyanoy [138] were pierced by the Emperor's spear [139] and slain. In his mercy and love the Emperor sought their bodies out and had them returned to their clans for burial. The Emperor said thus: \"They were not kings, nor born of sacred blood [140]. Never were they meant for rulership. Yet, heir to the Pale Star, and protector of all fae am I.\" Thus did the remaining clans of the fae seek an audience with him, and thus did he gain the authority to govern them. From that day forth, he named himself the Belyi Tsar."
+                "text": "In the seventh year of the 428th Cycle, King Miscislav launched an assault upon Kitezh at the head of a great host: The Miscislavli clans marched with him, as did the people of Nyholmgarthir [131], Dalegrad [132], Cirnareka [133], and their numerous servants [134]. Three times the armies clashed at Kitezh, in the foothills, at the frozen lake, and on the plains; the Emperor slew King Miscislav [135] and many princes who followed him. Grand Duke Seriviiki [136] was fortunate to escape with his life, but both Grand Dukes Skoldyryt [137] and Vodyanoy [138] were pierced by the Emperor's spear [139] and slain. In his mercy and love the Emperor sought their bodies out and had them returned to their clans for burial. The Emperor said thus: \"They were not kings, nor born of sacred blood [140]. Never were they meant for rulership. Yet, heir to the Pale Star, and protector of all fae am I.\" Thus did the remaining clans of the fae seek an audience with him, and thus did he gain the authority to govern them. From that day forth, he named himself the Belyi Tsar."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-03f54f5197205cf2"
+            "id": "p-0a8772eca2fb6a18"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[127] Kitezh was the first city in all of Snezhnaya. This imperial capital was built after the custom of the fae ancestors, remaining the center of power over the frozen lands from the fourth year of the 417th Cycle — that is, the year of its founding — until His Majesty the Emperor, in his boundless mercy and grace, pardoned humanity and gave them membership in his realm, moving his seat to Snezhnograd."
+                "text": "[127] Kitezh was the first city in all of Snezhnaya. This imperial capital was built after the custom of the fae ancestors, remaining the center of power over the frozen lands from the fourth year of the 417th Cycle — that is, the year of its founding — until His Majesty the Emperor, in his boundless mercy and grace, pardoned humanity and gave them membership in his realm, moving his seat to Snezhnograd."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b314fcede54693e8"
+            "id": "p-857667bd72e0bace"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[128] Miscislav, known in The Volkhov Chronicles as the Blood-Devourer. The great ruler of all Volkodlak, the wise blood-drinker, the master of the Miscislavli alliance. According to the Volkodlak under his command, King Miscislav was a hulking figure, standing out even upon great battlefields like a mighty mountain. As such, he was also known by fae chroniclers as \"Gorynishche,\" or \"Son of the Mountain.\""
+                "text": "[128] Miscislav, known in The Volkhov Chronicles as the Blood-Devourer. The great ruler of all Volkodlak, the wise blood-drinker, the master of the Miscislavli alliance. According to the Volkodlak under his command, King Miscislav was a hulking figure, standing out even upon great battlefields like a mighty mountain. As such, he was also known by fae chroniclers as \"Gorynishche,\" or \"Son of the Mountain.\""
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-fef715f70a147b45"
+            "id": "p-5e84ea4f125b64d9"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[129] The term \"lovely,\" as pointed out in the \"Theory of Fae Language,\" can also be translated in our modern context as \"beneficial, lovable, or endearing.\" It should be evident that these words meant rather similar things in those days. The meaning of the Emperor's envoys' words, therefore, should be understood to mean: \"Their demand for tributes [from you] is undesirable (or perhaps 'unbeneficial') to you.\" Some scholars have as such interpreted the envoys' words as a veiled threat. For more relevant information, as well as the precise semantic scope of this term, please refer to the discussion found within the \"Theory of Fae Language.\""
+                "text": "[129] The term \"lovely,\" as pointed out in the \"Theory of Fae Language,\" can also be translated in our modern context as \"beneficial, lovable, or endearing.\" It should be evident that these words meant rather similar things in those days. The meaning of the Emperor's envoys' words, therefore, should be understood to mean: \"Their demand for tributes [from you] is undesirable (or perhaps 'unbeneficial') to you.\" Some scholars have as such interpreted the envoys' words as a veiled threat. For more relevant information, as well as the precise semantic scope of this term, please refer to the discussion found within the \"Theory of Fae Language.\""
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-38d0cb1f100cb21a"
+            "id": "p-de746d439505a6ba"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[130] Even to the eye of later generations, Miscislavli, the realm established by the wise amongst the Volkodlak, was entirely preposterous in its accusations against the Pale Star's royal court."
+                "text": "[130] Even to the eye of later generations, Miscislavli, the realm established by the wise amongst the Volkodlak, was entirely preposterous in its accusations against the Pale Star's royal court."
               },
               {
                 "type": "br"
@@ -219,100 +182,80 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-0d1bbd4a29bb64dd"
+            "id": "p-e7a7cf0d94dcc364"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[131] The Nyholmgarthir were Volkodlak of bovine aspect."
+                "text": "[131] The Nyholmgarthir were Volkodlak of bovine aspect."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-fe4957bb8e566e3d"
+            "id": "p-73096c10cc3a58d5"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[132] The Dalegrad were a clan of water imps."
+                "text": "[132] The Dalegrad were a clan of water imps."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b00582580a7f38d6"
+            "id": "p-a6f48b98abdec082"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[133] The Cirnareka were Volkodlak with wolf-like appearances."
+                "text": "[133] The Cirnareka were Volkodlak with wolf-like appearances."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-cb69d42d783feda3"
+            "id": "p-64364677129f2d85"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[134] Primarily military retainers."
+                "text": "[134] Primarily military retainers."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-d439f7787d0101c3"
+            "id": "p-cb171eadd68908a7"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[135] King Miscislav took personal command in these three large-scale battles against the Emperor. Legend has it that, driven by despair in that final battle, he sought to use the power of the Shadow Realm to delay the advance of the Pale Star court's forces. Though this measure failed to turn the tide, it did have an impact on the Emperor's future decisions."
+                "text": "[135] King Miscislav took personal command in these three large-scale battles against the Emperor. Legend has it that, driven by despair in that final battle, he sought to use the power of the Shadow Realm to delay the advance of the Pale Star court's forces. Though this measure failed to turn the tide, it did have an impact on the Emperor's future decisions."
               },
               {
                 "type": "br"
@@ -347,20 +290,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-55b8ab11ae241559"
+            "id": "p-4b8db27f5538c506"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[136] Seriviiki, the \"Gray Wolf,\" so The Volkhov Chronicles record."
+                "text": "[136] Seriviiki, the \"Gray Wolf,\" so The Volkhov Chronicles record."
               },
               {
                 "type": "br"
@@ -395,20 +334,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-419e7f86c3c51ed9"
+            "id": "p-5fcf3f1607c1a0b5"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[137] Skoldyryt, known as the Deepwood Bull in The Volkhov Chronicles."
+                "text": "[137] Skoldyryt, known as the Deepwood Bull in The Volkhov Chronicles."
               },
               {
                 "type": "br"
@@ -450,20 +385,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-13ec69aaadbae902"
+            "id": "p-991a0209f32be201"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[138] Vodyanoy, given the appellation \"The Lackland\" by The Volkhov Chronicles."
+                "text": "[138] Vodyanoy, given the appellation \"The Lackland\" by The Volkhov Chronicles."
               },
               {
                 "type": "br"
@@ -498,20 +429,16 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-9387d637a75ddc1b"
+            "id": "p-0e0e64ca06f3dba0"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[139] The emperor's spear — Those unfamiliar with the battlefield often question many descriptions in the battle accounts, including the records of him wielding it to slay the enemy commanders as the two armies fought it out."
+                "text": "[139] The emperor's spear — Those unfamiliar with the battlefield often question many descriptions in the battle accounts, including the records of him wielding it to slay the enemy commanders as the two armies fought it out."
               },
               {
                 "type": "br"
@@ -539,40 +466,32 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b23718e31156e476"
+            "id": "p-615f021db664e335"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->[140] A sacred bloodline, the meaning of which is unknown. Emperor Monomakh laid claim to the title \"lord of all fae,\" and as such, he should have been of the same blood as the other fairies. It would seem that he merely used phrase as a means to establish legitimacy."
+                "text": "[140] A sacred bloodline, the meaning of which is unknown. Emperor Monomakh laid claim to the title \"lord of all fae,\" and as such, he should have been of the same blood as the other fairies. It would seem that he merely used phrase as a means to establish legitimacy."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-0cf58d5d772d4896"
+            "id": "p-6072976aa8fc1618"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->..."
+                "text": "..."
               },
               {
                 "type": "br"
@@ -586,120 +505,96 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-f1b4efd5c781fc91"
+            "id": "p-47fdc9de2962631f"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the second year of the 799th Cycle, the humans of Port Belovodye, taking advantage of Emperor Monomakh's demise, declared self-governance in the winter, rebelling against the fae princes. Grand Duke Drevogorye launched an assault against them, but failed to secure victory."
+                "text": "In the second year of the 799th Cycle, the humans of Port Belovodye, taking advantage of Emperor Monomakh's demise, declared self-governance in the winter, rebelling against the fae princes. Grand Duke Drevogorye launched an assault against them, but failed to secure victory."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-06274ca758004c19"
+            "id": "p-4e1709535a570dc0"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the third year of the 799th Cycle, Tsaritsa Anastasya deployed troops to attack the forces of the independent government, occupying the territory of the Drevogorye, Volkhovan, and Cirnareka clans along the way. Charging them with negligence and condoning rebellion, their princely titles as rulers of these territories were revoked, their positions taken over by non-hereditary officials. Unlike Emperor Monomakh, she did not muster the Druzhna, but rather established a force known as the Fatui. It was they who conquered the lands of the fae princes. Grand Duke Drevogorye accused the Tsaritsa herself of treason, and met the Fatui with his own forces, and there he perished. On the tenth day of the third month, the Tsaritsa dispatched envoys to Port Belovodye. They calmed the separatist forces and requested that they hand over the instigators of the rebellion, promising amnesty to all others. The request was accepted, and thus did the port escape being leveled. On the twenty-third day of that same month, she then sent emissaries to all the fae princes who had not yet come to seek an audience with her. She demanded they hand over all their authority, promising that they would retain their honorary titles as aristocracy. Many would pass on before they could make their replies, and those who remained acceded. Thus did Tsaritsa Anastasya take control of the north."
+                "text": "In the third year of the 799th Cycle, Tsaritsa Anastasya deployed troops to attack the forces of the independent government, occupying the territory of the Drevogorye, Volkhovan, and Cirnareka clans along the way. Charging them with negligence and condoning rebellion, their princely titles as rulers of these territories were revoked, their positions taken over by non-hereditary officials. Unlike Emperor Monomakh, she did not muster the Druzhna, but rather established a force known as the Fatui. It was they who conquered the lands of the fae princes. Grand Duke Drevogorye accused the Tsaritsa herself of treason, and met the Fatui with his own forces, and there he perished. On the tenth day of the third month, the Tsaritsa dispatched envoys to Port Belovodye. They calmed the separatist forces and requested that they hand over the instigators of the rebellion, promising amnesty to all others. The request was accepted, and thus did the port escape being leveled. On the twenty-third day of that same month, she then sent emissaries to all the fae princes who had not yet come to seek an audience with her. She demanded they hand over all their authority, promising that they would retain their honorary titles as aristocracy. Many would pass on before they could make their replies, and those who remained acceded. Thus did Tsaritsa Anastasya take control of the north."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b9541554bddc6b01"
+            "id": "p-93a6f4b38dad4453"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the fourth year of the 799th Cycle, the Tsaritsa bade the Fatui build a new fortress near Snezhnograd. Its name would be Glupov, meaning \"the city of fools.\""
+                "text": "In the fourth year of the 799th Cycle, the Tsaritsa bade the Fatui build a new fortress near Snezhnograd. Its name would be Glupov, meaning \"the city of fools.\""
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-a0291fb515533564"
+            "id": "p-291a7c0c06e39ce9"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->The fifth year of the 799th Cycle."
+                "text": "The fifth year of the 799th Cycle."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-b014270bc1621836"
+            "id": "p-73233c2f05176cb2"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the sixth year of the 799th Cycle, the Tsaritsa established the Snezhnograd Veche to handle the administrative issues caused by the absence of the various princes. The human, Ioanna Ivanovna, was appointed its first chairperson."
+                "text": "In the sixth year of the 799th Cycle, the Tsaritsa established the Snezhnograd Veche to handle the administrative issues caused by the absence of the various princes. The human, Ioanna Ivanovna, was appointed its first chairperson."
               },
               {
                 "type": "br"
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-431835054df60e20"
+            "id": "p-aebce56610d43490"
           },
           {
             "type": "paragraph",
             "children": [
               {
                 "type": "text",
-                "text": "-->In the seventh year of the 799th Cycle, the Imperial Order Reformation Edict was published. A great many princely fae, deeply grateful for the Tsaritsa's mercy and virtue, voluntarily forsook their noble titles and departed Snezhnaya."
+                "text": "In the seventh year of the 799th Cycle, the Imperial Order Reformation Edict was published. A great many princely fae, deeply grateful for the Tsaritsa's mercy and virtue, voluntarily forsook their noble titles and departed Snezhnaya."
               },
               {
                 "type": "br"
@@ -709,7 +604,7 @@
                 "text": "..."
               }
             ],
-            "id": "p-89726984c1dbd6af"
+            "id": "p-6a07036964a0782e"
           }
         ]
       }

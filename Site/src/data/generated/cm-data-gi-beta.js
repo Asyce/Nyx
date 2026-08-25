@@ -1348,6 +1348,14 @@
         "nation": "Snezhnaya Star"
       },
       "book": "Glory",
+      "signatureWeapon": {
+        "id": "11522",
+        "name": "\u8776\u53d8",
+        "educated": true
+      },
+      "signatureWeaponId": "11522",
+      "signatureWeaponName": "\u8776\u53d8",
+      "signatureWeaponEducated": true,
       "req": {
         "ascension": [
           {
@@ -4775,6 +4783,14 @@
         "nation": "Snezhnaya"
       },
       "book": "Fortitude",
+      "signatureWeapon": {
+        "id": "14524",
+        "name": "\u6f29\u6d41\u9882\u6b4c",
+        "educated": true
+      },
+      "signatureWeaponId": "14524",
+      "signatureWeaponName": "\u6f29\u6d41\u9882\u6b4c",
+      "signatureWeaponEducated": true,
       "req": {
         "ascension": [
           {
@@ -6932,7 +6948,7 @@
   "weapons": [
     {
       "id": "14524",
-      "name": "Weapon: Catalyst",
+      "name": "\u6f29\u6d41\u9882\u6b4c",
       "rarity": 5,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -7180,7 +7196,7 @@
     },
     {
       "id": "11522",
-      "name": "Weapon: Sword",
+      "name": "\u8776\u53d8",
       "rarity": 5,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7356,7 +7372,7 @@
     },
     {
       "id": "15437",
-      "name": "Weapon: Bow",
+      "name": "\u67d4\u98ce\u6e38\u5f26",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -7580,7 +7596,7 @@
     },
     {
       "id": "14437",
-      "name": "Weapon: Catalyst",
+      "name": "\u51dd\u96ea\u6c89\u5fc3",
       "rarity": 4,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -7780,7 +7796,7 @@
     },
     {
       "id": "390002",
-      "name": "390002",
+      "name": "?",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7791,7 +7807,7 @@
     },
     {
       "id": "390003",
-      "name": "390003",
+      "name": "?",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7802,7 +7818,7 @@
     },
     {
       "id": "11437",
-      "name": "Weapon: Sword",
+      "name": "\u65b0\u679d",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7978,7 +7994,7 @@
     },
     {
       "id": "11438",
-      "name": "Weapon: Sword",
+      "name": "\u94f6\u91ed",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -8211,6 +8227,1685 @@
         }
       ],
       "cost": 150000
+    }
+  ],
+  "talentDomains": [
+    {
+      "name": "Mondstadt - Forsaken Rift",
+      "trios": [
+        {
+          "name": "Freedom",
+          "firstId": 104301,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104303",
+            "name": "Philosophies of Freedom",
+            "n": "Philosophies of Freedom",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104303.webp",
+            "source": "Freedom - Mondstadt - Forsaken Rift",
+            "sourceDetails": [
+              {
+                "name": "Freedom - Mondstadt - Forsaken Rift"
+              }
+            ]
+          },
+          "chars": [
+            "Amber",
+            "Barbara",
+            "Diona",
+            "Klee",
+            "Sucrose",
+            "Tartaglia",
+            "Traveler",
+            "Varka"
+          ]
+        },
+        {
+          "name": "Resistance",
+          "firstId": 104304,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104306",
+            "name": "Philosophies of Resistance",
+            "n": "Philosophies of Resistance",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104306.webp",
+            "source": "Resistance - Mondstadt - Forsaken Rift",
+            "sourceDetails": [
+              {
+                "name": "Resistance - Mondstadt - Forsaken Rift"
+              }
+            ]
+          },
+          "chars": [
+            "Bennett",
+            "Diluc",
+            "Eula",
+            "Jean",
+            "Lohen",
+            "Mona",
+            "Noelle",
+            "Prune",
+            "Razor"
+          ]
+        },
+        {
+          "name": "Ballad",
+          "firstId": 104307,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104309",
+            "name": "Philosophies of Ballad",
+            "n": "Philosophies of Ballad",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104309.webp",
+            "source": "Ballad - Mondstadt - Forsaken Rift",
+            "sourceDetails": [
+              {
+                "name": "Ballad - Mondstadt - Forsaken Rift"
+              }
+            ]
+          },
+          "chars": [
+            "Albedo",
+            "Dahlia",
+            "Durin",
+            "Fischl",
+            "Kaeya",
+            "Lisa",
+            "Mika",
+            "Rosaria",
+            "Venti"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liyue - Taishan Mansion",
+      "trios": [
+        {
+          "name": "Prosperity",
+          "firstId": 104310,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104312",
+            "name": "Philosophies of Prosperity",
+            "n": "Philosophies of Prosperity",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104312.webp",
+            "source": "Prosperity - Liyue - Taishan Mansion",
+            "sourceDetails": [
+              {
+                "name": "Prosperity - Liyue - Taishan Mansion"
+              }
+            ]
+          },
+          "chars": [
+            "Gaming",
+            "Keqing",
+            "Ningguang",
+            "Qiqi",
+            "Shenhe",
+            "Xiao",
+            "Yelan"
+          ]
+        },
+        {
+          "name": "Diligence",
+          "firstId": 104313,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104315",
+            "name": "Philosophies of Diligence",
+            "n": "Philosophies of Diligence",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104315.webp",
+            "source": "Diligence - Liyue - Taishan Mansion",
+            "sourceDetails": [
+              {
+                "name": "Diligence - Liyue - Taishan Mansion"
+              }
+            ]
+          },
+          "chars": [
+            "Chongyun",
+            "Ganyu",
+            "Hu Tao",
+            "Kaedehara Kazuha",
+            "Lan Yan",
+            "Xiangling",
+            "Yaoyao",
+            "Yun Jin"
+          ]
+        },
+        {
+          "name": "Gold",
+          "firstId": 104316,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104318",
+            "name": "Philosophies of Gold",
+            "n": "Philosophies of Gold",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104318.webp",
+            "source": "Gold - Liyue - Taishan Mansion",
+            "sourceDetails": [
+              {
+                "name": "Gold - Liyue - Taishan Mansion"
+              }
+            ]
+          },
+          "chars": [
+            "Baizhu",
+            "Beidou",
+            "Xianyun",
+            "Xingqiu",
+            "Xinyan",
+            "Yanfei",
+            "Zhongli",
+            "Zibai"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inazuma - Violet Court",
+      "trios": [
+        {
+          "name": "Transience",
+          "firstId": 104320,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104322",
+            "name": "Philosophies of Transience",
+            "n": "Philosophies of Transience",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104322.webp",
+            "source": "Transience - Inazuma - Violet Court",
+            "sourceDetails": [
+              {
+                "name": "Transience - Inazuma - Violet Court"
+              }
+            ]
+          },
+          "chars": [
+            "Kirara",
+            "Sangonomiya Kokomi",
+            "Shikanoin Heizou",
+            "Thoma",
+            "Traveler",
+            "Yoimiya",
+            "Yumemizuki Mizuki"
+          ]
+        },
+        {
+          "name": "Elegance",
+          "firstId": 104323,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104325",
+            "name": "Philosophies of Elegance",
+            "n": "Philosophies of Elegance",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104325.webp",
+            "source": "Elegance - Inazuma - Violet Court",
+            "sourceDetails": [
+              {
+                "name": "Elegance - Inazuma - Violet Court"
+              }
+            ]
+          },
+          "chars": [
+            "Arataki Itto",
+            "Kamisato Ayaka",
+            "Kamisato Ayato",
+            "Kujou Sara",
+            "Kuki Shinobu"
+          ]
+        },
+        {
+          "name": "Light",
+          "firstId": 104326,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104328",
+            "name": "Philosophies of Light",
+            "n": "Philosophies of Light",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104328.webp",
+            "source": "Light - Inazuma - Violet Court",
+            "sourceDetails": [
+              {
+                "name": "Light - Inazuma - Violet Court"
+              }
+            ]
+          },
+          "chars": [
+            "Chiori",
+            "Gorou",
+            "Raiden Shogun",
+            "Sayu",
+            "Yae Miko"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sumeru - Steeple of Ignorance",
+      "trios": [
+        {
+          "name": "Admonition",
+          "firstId": 104329,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104331",
+            "name": "Philosophies of Admonition",
+            "n": "Philosophies of Admonition",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104331.webp",
+            "source": "Admonition - Sumeru - Steeple of Ignorance",
+            "sourceDetails": [
+              {
+                "name": "Admonition - Sumeru - Steeple of Ignorance"
+              }
+            ]
+          },
+          "chars": [
+            "Candace",
+            "Cyno",
+            "Faruzan",
+            "Tighnari",
+            "Traveler"
+          ]
+        },
+        {
+          "name": "Ingenuity",
+          "firstId": 104332,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104334",
+            "name": "Philosophies of Ingenuity",
+            "n": "Philosophies of Ingenuity",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104334.webp",
+            "source": "Ingenuity - Sumeru - Steeple of Ignorance",
+            "sourceDetails": [
+              {
+                "name": "Ingenuity - Sumeru - Steeple of Ignorance"
+              }
+            ]
+          },
+          "chars": [
+            "Alhaitham",
+            "Dori",
+            "Kaveh",
+            "Layla",
+            "Nahida"
+          ]
+        },
+        {
+          "name": "Praxis",
+          "firstId": 104335,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104337",
+            "name": "Philosophies of Praxis",
+            "n": "Philosophies of Praxis",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104337.webp",
+            "source": "Praxis - Sumeru - Steeple of Ignorance",
+            "sourceDetails": [
+              {
+                "name": "Praxis - Sumeru - Steeple of Ignorance"
+              }
+            ]
+          },
+          "chars": [
+            "Collei",
+            "Dehya",
+            "Nilou",
+            "Sethos",
+            "Wanderer"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fontaine - Pale Forgotten Glory",
+      "trios": [
+        {
+          "name": "Equity",
+          "firstId": 104338,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104340",
+            "name": "Philosophies of Equity",
+            "n": "Philosophies of Equity",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104340.webp",
+            "source": "Equity - Fontaine - Pale Forgotten Glory",
+            "sourceDetails": [
+              {
+                "name": "Equity - Fontaine - Pale Forgotten Glory"
+              }
+            ]
+          },
+          "chars": [
+            "Lyney",
+            "Navia",
+            "Neuvillette",
+            "Sigewinne",
+            "Traveler"
+          ]
+        },
+        {
+          "name": "Justice",
+          "firstId": 104341,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104343",
+            "name": "Philosophies of Justice",
+            "n": "Philosophies of Justice",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104343.webp",
+            "source": "Justice - Fontaine - Pale Forgotten Glory",
+            "sourceDetails": [
+              {
+                "name": "Justice - Fontaine - Pale Forgotten Glory"
+              }
+            ]
+          },
+          "chars": [
+            "Charlotte",
+            "Clorinde",
+            "Escoffier",
+            "Freminet",
+            "Furina"
+          ]
+        },
+        {
+          "name": "Order",
+          "firstId": 104344,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104346",
+            "name": "Philosophies of Order",
+            "n": "Philosophies of Order",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104346.webp",
+            "source": "Order - Fontaine - Pale Forgotten Glory",
+            "sourceDetails": [
+              {
+                "name": "Order - Fontaine - Pale Forgotten Glory"
+              }
+            ]
+          },
+          "chars": [
+            "Arlecchino",
+            "Chevreuse",
+            "Emilie",
+            "Lynette",
+            "Wriothesley"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Natlan - Blazing Ruins",
+      "trios": [
+        {
+          "name": "Contention",
+          "firstId": 104347,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104349",
+            "name": "Philosophies of Contention",
+            "n": "Philosophies of Contention",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104349.webp",
+            "source": "Contention - Natlan - Blazing Ruins",
+            "sourceDetails": [
+              {
+                "name": "Contention - Natlan - Blazing Ruins"
+              }
+            ]
+          },
+          "chars": [
+            "Iansan",
+            "Mavuika",
+            "Mualani",
+            "Skirk",
+            "Traveler"
+          ]
+        },
+        {
+          "name": "Kindling",
+          "firstId": 104350,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104352",
+            "name": "Philosophies of Kindling",
+            "n": "Philosophies of Kindling",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104352.webp",
+            "source": "Kindling - Natlan - Blazing Ruins",
+            "sourceDetails": [
+              {
+                "name": "Kindling - Natlan - Blazing Ruins"
+              }
+            ]
+          },
+          "chars": [
+            "Citlali",
+            "Kinich",
+            "Ororon",
+            "Xilonen"
+          ]
+        },
+        {
+          "name": "Conflict",
+          "firstId": 104353,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104355",
+            "name": "Philosophies of Conflict",
+            "n": "Philosophies of Conflict",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104355.webp",
+            "source": "Conflict - Natlan - Blazing Ruins",
+            "sourceDetails": [
+              {
+                "name": "Conflict - Natlan - Blazing Ruins"
+              }
+            ]
+          },
+          "chars": [
+            "Chasca",
+            "Ifa",
+            "Ineffa",
+            "Kachina",
+            "Varesa"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nod-Krai - Lightless Capital",
+      "trios": [
+        {
+          "name": "Moonlight",
+          "firstId": 104356,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104358",
+            "name": "Philosophies of Moonlight",
+            "n": "Philosophies of Moonlight",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104358.webp",
+            "source": "Moonlight - Nod-Krai - Lightless Capital",
+            "sourceDetails": [
+              {
+                "name": "Moonlight - Nod-Krai - Lightless Capital"
+              }
+            ]
+          },
+          "chars": [
+            "Columbina",
+            "Lauma"
+          ]
+        },
+        {
+          "name": "Elysium",
+          "firstId": 104359,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104361",
+            "name": "Philosophies of Elysium",
+            "n": "Philosophies of Elysium",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104361.webp",
+            "source": "Elysium - Nod-Krai - Lightless Capital",
+            "sourceDetails": [
+              {
+                "name": "Elysium - Nod-Krai - Lightless Capital"
+              }
+            ]
+          },
+          "chars": [
+            "Aino",
+            "Illuga",
+            "Nefer",
+            "Nicole"
+          ]
+        },
+        {
+          "name": "Vagrancy",
+          "firstId": 104362,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104364",
+            "name": "Philosophies of Vagrancy",
+            "n": "Philosophies of Vagrancy",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104364.webp",
+            "source": "Vagrancy - Nod-Krai - Lightless Capital",
+            "sourceDetails": [
+              {
+                "name": "Vagrancy - Nod-Krai - Lightless Capital"
+              }
+            ]
+          },
+          "chars": [
+            "Flins",
+            "Jahoda",
+            "Linnea",
+            "Sandrone"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Snezhnaya - Relics of the Fallen Grace",
+      "trios": [
+        {
+          "name": "Charity",
+          "firstId": 104365,
+          "trioIndex": 0,
+          "days": [
+            "Mon",
+            "Thu"
+          ],
+          "material": {
+            "id": "104367",
+            "name": "Philosophies of Charity",
+            "n": "Philosophies of Charity",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104367.webp"
+          },
+          "chars": [
+            "Odette",
+            "Traveler"
+          ]
+        },
+        {
+          "name": "Fortitude",
+          "firstId": 104368,
+          "trioIndex": 1,
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "material": {
+            "id": "104370",
+            "name": "Philosophies of Fortitude",
+            "n": "Philosophies of Fortitude",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104370.webp"
+          },
+          "chars": [
+            "Alyosha",
+            "Vodyanitsa"
+          ]
+        },
+        {
+          "name": "Glory",
+          "firstId": 104371,
+          "trioIndex": 2,
+          "days": [
+            "Wed",
+            "Sat"
+          ],
+          "material": {
+            "id": "104373",
+            "name": "Philosophies of Glory",
+            "n": "Philosophies of Glory",
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_104373.webp"
+          },
+          "chars": [
+            "Vesna"
+          ]
+        }
+      ]
+    }
+  ],
+  "weeklyBosses": [
+    {
+      "bossName": "Exalted Master of the Heretical Path",
+      "releaseOrder": 14,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_DrData.webp",
+      "drops": [
+        {
+          "id": "113087",
+          "name": "Counterfeit Resin",
+          "n": "Counterfeit Resin",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113087.webp",
+          "source": "Exalted Master of the Heretical Path",
+          "sourceDetails": [
+            {
+              "name": "Exalted Master of the Heretical Path"
+            }
+          ],
+          "chars": [
+            "Nicole"
+          ]
+        },
+        {
+          "id": "113088",
+          "name": "Twisted Withered Branch",
+          "n": "Twisted Withered Branch",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113088.webp",
+          "source": "Exalted Master of the Heretical Path",
+          "sourceDetails": [
+            {
+              "name": "Exalted Master of the Heretical Path"
+            }
+          ],
+          "chars": [
+            "Odette"
+          ]
+        },
+        {
+          "id": "113089",
+          "name": "Profaned Sprout",
+          "n": "Profaned Sprout",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113089.webp",
+          "source": "Exalted Master of the Heretical Path",
+          "sourceDetails": [
+            {
+              "name": "Exalted Master of the Heretical Path"
+            }
+          ],
+          "chars": [
+            "Vesna"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "The Doctor",
+      "releaseOrder": 13,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp",
+      "drops": [
+        {
+          "id": "113081",
+          "name": "Mask of the Virtuous Doctor",
+          "n": "Mask of the Virtuous Doctor",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113081.webp",
+          "source": "The Doctor",
+          "sourceDetails": [
+            {
+              "name": "The Doctor",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+            }
+          ],
+          "chars": [
+            "Columbina",
+            "Prune"
+          ]
+        },
+        {
+          "id": "113082",
+          "name": "Madman's Restraint",
+          "n": "Madman's Restraint",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113082.webp",
+          "source": "The Doctor",
+          "sourceDetails": [
+            {
+              "name": "The Doctor",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+            }
+          ],
+          "chars": [
+            "Sandrone",
+            "Vodyanitsa"
+          ]
+        },
+        {
+          "id": "113083",
+          "name": "Elixir of the Heretic",
+          "n": "Elixir of the Heretic",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113083.webp",
+          "source": "The Doctor",
+          "sourceDetails": [
+            {
+              "name": "The Doctor",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dotorre_Moon.webp"
+            }
+          ],
+          "chars": [
+            "Alyosha",
+            "Linnea"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "The Game Before the Gate",
+      "releaseOrder": 12,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp",
+      "drops": [
+        {
+          "id": "113073",
+          "name": "Ascended Sample: Knight",
+          "n": "Ascended Sample: Knight",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113073.webp",
+          "source": "The Game Before the Gate",
+          "sourceDetails": [
+            {
+              "name": "The Game Before the Gate",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+            }
+          ],
+          "chars": [
+            "Jahoda",
+            "Lohen",
+            "Skirk"
+          ]
+        },
+        {
+          "id": "113074",
+          "name": "Ascended Sample: Rook",
+          "n": "Ascended Sample: Rook",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113074.webp",
+          "source": "The Game Before the Gate",
+          "sourceDetails": [
+            {
+              "name": "The Game Before the Gate",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+            }
+          ],
+          "chars": [
+            "Ifa",
+            "Nefer",
+            "Varka"
+          ]
+        },
+        {
+          "id": "113075",
+          "name": "Ascended Sample: Queen",
+          "n": "Ascended Sample: Queen",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113075.webp",
+          "source": "The Game Before the Gate",
+          "sourceDetails": [
+            {
+              "name": "The Game Before the Gate",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_GiantChess.webp"
+            }
+          ],
+          "chars": [
+            "Flins",
+            "Traveler",
+            "Zibai"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Lord of Eroded Primal Fire",
+      "releaseOrder": 11,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyssXiuhcoatl.webp",
+      "drops": [
+        {
+          "id": "113068",
+          "name": "Eroded Horn",
+          "n": "Eroded Horn",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113068.webp",
+          "source": "Lord of Eroded Primal Fire",
+          "sourceDetails": [
+            {
+              "name": "Lord of Eroded Primal Fire",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyssXiuhcoatl.webp"
+            }
+          ],
+          "chars": [
+            "Escoffier",
+            "Illuga",
+            "Mavuika"
+          ]
+        },
+        {
+          "id": "113069",
+          "name": "Eroded Sunfire",
+          "n": "Eroded Sunfire",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113069.webp",
+          "source": "Lord of Eroded Primal Fire",
+          "sourceDetails": [
+            {
+              "name": "Lord of Eroded Primal Fire",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyssXiuhcoatl.webp"
+            }
+          ],
+          "chars": [
+            "Durin",
+            "Ineffa",
+            "Lan Yan"
+          ]
+        },
+        {
+          "id": "113070",
+          "name": "Eroded Scale-Feather",
+          "n": "Eroded Scale-Feather",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113070.webp",
+          "source": "Lord of Eroded Primal Fire",
+          "sourceDetails": [
+            {
+              "name": "Lord of Eroded Primal Fire",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_TheAbyssXiuhcoatl.webp"
+            }
+          ],
+          "chars": [
+            "Dahlia",
+            "Lauma",
+            "Varesa"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "The Knave",
+      "releaseOrder": 10,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nihil.webp",
+      "drops": [
+        {
+          "id": "113060",
+          "name": "Fading Candle",
+          "n": "Fading Candle",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113060.webp",
+          "source": "The Knave",
+          "sourceDetails": [
+            {
+              "name": "The Knave",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nihil.webp"
+            }
+          ],
+          "chars": [
+            "Arlecchino",
+            "Kachina",
+            "Yumemizuki Mizuki"
+          ]
+        },
+        {
+          "id": "113061",
+          "name": "Silken Feather",
+          "n": "Silken Feather",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113061.webp",
+          "source": "The Knave",
+          "sourceDetails": [
+            {
+              "name": "The Knave",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nihil.webp"
+            }
+          ],
+          "chars": [
+            "Aino",
+            "Chasca",
+            "Emilie"
+          ]
+        },
+        {
+          "id": "113062",
+          "name": "Denial and Judgment",
+          "n": "Denial and Judgment",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113062.webp",
+          "source": "The Knave",
+          "sourceDetails": [
+            {
+              "name": "The Knave",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nihil.webp"
+            }
+          ],
+          "chars": [
+            "Citlali",
+            "Iansan",
+            "Kinich"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "All-Devouring Narwhal",
+      "releaseOrder": 9,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Ptahur_Devourer.webp",
+      "drops": [
+        {
+          "id": "113054",
+          "name": "Lightless Silk String",
+          "n": "Lightless Silk String",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113054.webp",
+          "source": "All-Devouring Narwhal",
+          "sourceDetails": [
+            {
+              "name": "All-Devouring Narwhal",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Ptahur_Devourer.webp"
+            }
+          ],
+          "chars": [
+            "Charlotte",
+            "Chiori",
+            "Navia",
+            "Ororon"
+          ]
+        },
+        {
+          "id": "113055",
+          "name": "Lightless Eye of the Maelstrom",
+          "n": "Lightless Eye of the Maelstrom",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113055.webp",
+          "source": "All-Devouring Narwhal",
+          "sourceDetails": [
+            {
+              "name": "All-Devouring Narwhal",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Ptahur_Devourer.webp"
+            }
+          ],
+          "chars": [
+            "Chevreuse",
+            "Sigewinne",
+            "Xianyun"
+          ]
+        },
+        {
+          "id": "113056",
+          "name": "Lightless Mass",
+          "n": "Lightless Mass",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113056.webp",
+          "source": "All-Devouring Narwhal",
+          "sourceDetails": [
+            {
+              "name": "All-Devouring Narwhal",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Ptahur_Devourer.webp"
+            }
+          ],
+          "chars": [
+            "Furina",
+            "Gaming",
+            "Mualani"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Guardian of Apep's Oasis",
+      "releaseOrder": 8,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Apep.webp",
+      "drops": [
+        {
+          "id": "113046",
+          "name": "Worldspan Fern",
+          "n": "Worldspan Fern",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113046.webp",
+          "source": "Guardian of Apep's Oasis",
+          "sourceDetails": [
+            {
+              "name": "Guardian of Apep's Oasis",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Apep.webp"
+            }
+          ],
+          "chars": [
+            "Baizhu",
+            "Freminet",
+            "Traveler"
+          ]
+        },
+        {
+          "id": "113047",
+          "name": "Primordial Greenbloom",
+          "n": "Primordial Greenbloom",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113047.webp",
+          "source": "Guardian of Apep's Oasis",
+          "sourceDetails": [
+            {
+              "name": "Guardian of Apep's Oasis",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Apep.webp"
+            }
+          ],
+          "chars": [
+            "Kaveh",
+            "Lyney",
+            "Wriothesley"
+          ]
+        },
+        {
+          "id": "113048",
+          "name": "Everamber",
+          "n": "Everamber",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113048.webp",
+          "source": "Guardian of Apep's Oasis",
+          "sourceDetails": [
+            {
+              "name": "Guardian of Apep's Oasis",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Apep.webp"
+            }
+          ],
+          "chars": [
+            "Clorinde",
+            "Kirara",
+            "Lynette",
+            "Neuvillette"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Everlasting Lord of Arcane Wisdom",
+      "releaseOrder": 7,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Nada.webp",
+      "drops": [
+        {
+          "id": "113041",
+          "name": "Puppet Strings",
+          "n": "Puppet Strings",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113041.webp",
+          "source": "Everlasting Lord of Arcane Wisdom",
+          "sourceDetails": [
+            {
+              "name": "Everlasting Lord of Arcane Wisdom"
+            }
+          ],
+          "chars": [
+            "Dehya",
+            "Faruzan",
+            "Nahida"
+          ]
+        },
+        {
+          "id": "113042",
+          "name": "Mirror of Mushin",
+          "n": "Mirror of Mushin",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113042.webp",
+          "source": "Everlasting Lord of Arcane Wisdom",
+          "sourceDetails": [
+            {
+              "name": "Everlasting Lord of Arcane Wisdom"
+            }
+          ],
+          "chars": [
+            "Alhaitham",
+            "Layla",
+            "Mika",
+            "Xilonen"
+          ]
+        },
+        {
+          "id": "113043",
+          "name": "Daka's Bell",
+          "n": "Daka's Bell",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113043.webp",
+          "source": "Everlasting Lord of Arcane Wisdom",
+          "sourceDetails": [
+            {
+              "name": "Everlasting Lord of Arcane Wisdom"
+            }
+          ],
+          "chars": [
+            "Sethos",
+            "Wanderer",
+            "Yaoyao"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Magatsu Mitake Narukami no Mikoto",
+      "releaseOrder": 6,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp",
+      "drops": [
+        {
+          "id": "113032",
+          "name": "Mudra of the Malefic General",
+          "n": "Mudra of the Malefic General",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113032.webp",
+          "source": "Magatsu Mitake Narukami no Mikoto",
+          "sourceDetails": [
+            {
+              "name": "Magatsu Mitake Narukami no Mikoto",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+            }
+          ],
+          "chars": [
+            "Cyno",
+            "Kamisato Ayato",
+            "Traveler"
+          ]
+        },
+        {
+          "id": "113033",
+          "name": "Tears of the Calamitous God",
+          "n": "Tears of the Calamitous God",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113033.webp",
+          "source": "Magatsu Mitake Narukami no Mikoto",
+          "sourceDetails": [
+            {
+              "name": "Magatsu Mitake Narukami no Mikoto",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+            }
+          ],
+          "chars": [
+            "Candace",
+            "Collei",
+            "Kuki Shinobu",
+            "Nilou"
+          ]
+        },
+        {
+          "id": "113034",
+          "name": "The Meaning of Aeons",
+          "n": "The Meaning of Aeons",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113034.webp",
+          "source": "Magatsu Mitake Narukami no Mikoto",
+          "sourceDetails": [
+            {
+              "name": "Magatsu Mitake Narukami no Mikoto",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Shougun_Mitakenarukami.webp"
+            }
+          ],
+          "chars": [
+            "Shikanoin Heizou",
+            "Tighnari",
+            "Yae Miko"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "La Signora",
+      "releaseOrder": 5,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LaSignora.webp",
+      "drops": [
+        {
+          "id": "113025",
+          "name": "Molten Moment",
+          "n": "Molten Moment",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113025.webp",
+          "source": "La Signora",
+          "sourceDetails": [
+            {
+              "name": "La Signora",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LaSignora.webp"
+            }
+          ],
+          "chars": [
+            "Gorou",
+            "Raiden Shogun"
+          ]
+        },
+        {
+          "id": "113026",
+          "name": "Hellfire Butterfly",
+          "n": "Hellfire Butterfly",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113026.webp",
+          "source": "La Signora",
+          "sourceDetails": [
+            {
+              "name": "La Signora",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LaSignora.webp"
+            }
+          ],
+          "chars": [
+            "Sangonomiya Kokomi",
+            "Shenhe",
+            "Thoma"
+          ]
+        },
+        {
+          "id": "113027",
+          "name": "Ashen Heart",
+          "n": "Ashen Heart",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113027.webp",
+          "source": "La Signora",
+          "sourceDetails": [
+            {
+              "name": "La Signora",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LaSignora.webp"
+            }
+          ],
+          "chars": [
+            "Arataki Itto",
+            "Kujou Sara",
+            "Yun Jin"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Azhdaha",
+      "releaseOrder": 4,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dahaka.webp",
+      "drops": [
+        {
+          "id": "113017",
+          "name": "Dragon Lord's Crown",
+          "n": "Dragon Lord's Crown",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113017.webp",
+          "source": "Azhdaha",
+          "sourceDetails": [
+            {
+              "name": "Azhdaha",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dahaka.webp"
+            }
+          ],
+          "chars": [
+            "Eula",
+            "Traveler",
+            "Yoimiya"
+          ]
+        },
+        {
+          "id": "113018",
+          "name": "Bloodjade Branch",
+          "n": "Bloodjade Branch",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113018.webp",
+          "source": "Azhdaha",
+          "sourceDetails": [
+            {
+              "name": "Azhdaha",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dahaka.webp"
+            }
+          ],
+          "chars": [
+            "Dori",
+            "Kamisato Ayaka",
+            "Yanfei"
+          ]
+        },
+        {
+          "id": "113019",
+          "name": "Gilded Scale",
+          "n": "Gilded Scale",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113019.webp",
+          "source": "Azhdaha",
+          "sourceDetails": [
+            {
+              "name": "Azhdaha",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dahaka.webp"
+            }
+          ],
+          "chars": [
+            "Kaedehara Kazuha",
+            "Sayu",
+            "Yelan"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Childe",
+      "releaseOrder": 3,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Tartaglia.webp",
+      "drops": [
+        {
+          "id": "113013",
+          "name": "Tusk of Monoceros Caeli",
+          "n": "Tusk of Monoceros Caeli",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113013.webp",
+          "source": "Childe",
+          "sourceDetails": [
+            {
+              "name": "Childe",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Tartaglia.webp"
+            }
+          ],
+          "chars": [
+            "Albedo",
+            "Xinyan",
+            "Zhongli"
+          ]
+        },
+        {
+          "id": "113014",
+          "name": "Shard of a Foul Legacy",
+          "n": "Shard of a Foul Legacy",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113014.webp",
+          "source": "Childe",
+          "sourceDetails": [
+            {
+              "name": "Childe",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Tartaglia.webp"
+            }
+          ],
+          "chars": [
+            "Diona",
+            "Hu Tao",
+            "Tartaglia"
+          ]
+        },
+        {
+          "id": "113015",
+          "name": "Shadow of the Warrior",
+          "n": "Shadow of the Warrior",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113015.webp",
+          "source": "Childe",
+          "sourceDetails": [
+            {
+              "name": "Childe",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Tartaglia.webp"
+            }
+          ],
+          "chars": [
+            "Ganyu",
+            "Rosaria",
+            "Xiao"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Andrius",
+      "releaseOrder": 2,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_LupiBoreas.webp",
+      "drops": [
+        {
+          "id": "113006",
+          "name": "Tail of Boreas",
+          "n": "Tail of Boreas",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113006.webp",
+          "source": "Andrius",
+          "sourceDetails": [
+            {
+              "name": "Andrius"
+            }
+          ],
+          "chars": [
+            "Qiqi",
+            "Traveler",
+            "Venti",
+            "Xingqiu"
+          ]
+        },
+        {
+          "id": "113007",
+          "name": "Ring of Boreas",
+          "n": "Ring of Boreas",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113007.webp",
+          "source": "Andrius",
+          "sourceDetails": [
+            {
+              "name": "Andrius"
+            }
+          ],
+          "chars": [
+            "Barbara",
+            "Keqing",
+            "Klee",
+            "Mona"
+          ]
+        },
+        {
+          "id": "113008",
+          "name": "Spirit Locket of Boreas",
+          "n": "Spirit Locket of Boreas",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113008.webp",
+          "source": "Andrius",
+          "sourceDetails": [
+            {
+              "name": "Andrius"
+            }
+          ],
+          "chars": [
+            "Fischl",
+            "Kaeya",
+            "Ningguang",
+            "Sucrose"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Stormterror Dvalin",
+      "releaseOrder": 1,
+      "art": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dvalin.webp",
+      "drops": [
+        {
+          "id": "113003",
+          "name": "Dvalin's Plume",
+          "n": "Dvalin's Plume",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113003.webp",
+          "source": "Stormterror Dvalin",
+          "sourceDetails": [
+            {
+              "name": "Stormterror",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dvalin.webp"
+            }
+          ],
+          "chars": [
+            "Bennett",
+            "Diluc",
+            "Jean"
+          ]
+        },
+        {
+          "id": "113004",
+          "name": "Dvalin's Claw",
+          "n": "Dvalin's Claw",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113004.webp",
+          "source": "Stormterror Dvalin",
+          "sourceDetails": [
+            {
+              "name": "Stormterror",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dvalin.webp"
+            }
+          ],
+          "chars": [
+            "Lisa",
+            "Noelle",
+            "Razor",
+            "Xiangling"
+          ]
+        },
+        {
+          "id": "113005",
+          "name": "Dvalin's Sigh",
+          "n": "Dvalin's Sigh",
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_113005.webp",
+          "source": "Stormterror Dvalin",
+          "sourceDetails": [
+            {
+              "name": "Stormterror",
+              "icon": "../../Database/GameData/gi/assets/monsters/UI_MonsterIcon_Dvalin.webp"
+            }
+          ],
+          "chars": [
+            "Amber",
+            "Beidou",
+            "Chongyun",
+            "Traveler"
+          ]
+        }
+      ]
     }
   ]
 };

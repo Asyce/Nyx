@@ -124,6 +124,7 @@ await compileJsxBundle(
     'features/achievements/achievement-import.js',
     'features/achievements/achievement-view-model.js',
     'features/achievements/achievement-view.jsx',
+    'features/pengo/shimeji.js',
     'app/nyx-app.jsx',
   ],
   'game-page.bundle.js',

@@ -296,19 +296,19 @@
     },
     {
       "type": 2,
-      "title": "Basic Attack: VI",
+      "title": "Basic Attack: VII",
       "content": "Moonlit shoals.",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_suisui_atk_atk04_pro_02.play_favor_word_suisui_atk_atk04_pro_02"
     },
     {
       "type": 2,
-      "title": "Basic Attack: VII",
+      "title": "Basic Attack: VIII",
       "content": "A leaf ferries...",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_suisui_atk_atk03_pro_03.play_favor_word_suisui_atk_atk03_pro_03"
     },
     {
       "type": 2,
-      "title": "Basic Attack: VIII",
+      "title": "Basic Attack: IX",
       "content": "Verdant Hills.",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_suisui_atk_atk04_pro_03.play_favor_word_suisui_atk_atk04_pro_03"
     },
@@ -5261,7 +5261,10 @@
       21050036,
       21050024
     ],
-    "property": "",
-    "param": []
+    "property": "Energy Regen",
+    "param": [
+      2,
+      26000
+    ]
   }
 }

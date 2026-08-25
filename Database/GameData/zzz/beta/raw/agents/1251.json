@@ -2146,14 +2146,46 @@
     }
   },
   "fairy_recommend": {
-    "slot4": 31200,
-    "slot2": 32400,
-    "slot_sub": 31600,
+    "slot4": 33200,
+    "slot2": 31200,
+    "slot_sub": 31000,
     "part_sub_list": [
-      12102,
-      20103
+      20103,
+      12102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          31200,
+          32400
+        ],
+        "part_sub_list": [
+          20103,
+          12102,
+          21103
+        ]
+      },
+      {
+        "suit_list": [
+          33200,
+          31200
+        ],
+        "part_sub_list": [
+          31803,
+          12102
+        ]
+      },
+      {
+        "suit_list": [
+          31200,
+          31600
+        ],
+        "part_sub_list": [
+          12202,
+          12102
+        ]
+      }
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

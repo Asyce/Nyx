@@ -5,7 +5,7 @@
   "name": "Piso's Diary",
   "sortId": 110477,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Piso%27s_Diary",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -231,13 +231,9 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-ca7e84bfac83c4f2"
+            "id": "p-ac58198af13e68f0"
           }
         ]
       }

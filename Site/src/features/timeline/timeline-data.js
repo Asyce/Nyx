@@ -770,6 +770,33 @@ function nyxTlCleanEventText(value){
     .trim();
 }
 
+// Publisher descriptions arrive flattened into one line. Keep every word,
+// but turn their surviving formatting markers into semantic display blocks.
+function nyxTlEventDetails(value){
+  var text = String(value || '').trim();
+  if (!text) return [];
+  var blocks = [], mode = 'paragraph', cursor = 0, match;
+  var markers = /([〓✦])([^〓✦]+)\1|([●※])|\r?\n+/g;
+  function add(type, value){
+    var clean = String(value || '').replace(/\s+/g, ' ').trim();
+    if (!clean) return;
+    if (type === 'bullet') {
+      var last = blocks[blocks.length - 1];
+      if (last && last.type === 'list') last.items.push(clean);
+      else blocks.push({ type:'list', items:[clean] });
+    } else blocks.push({ type:type, text:clean });
+  }
+  while ((match = markers.exec(text))) {
+    add(mode, text.slice(cursor, match.index));
+    if (match[2]) { add('heading', match[2]); mode = 'paragraph'; }
+    else if (match[3]) mode = match[3] === '●' ? 'bullet' : 'note';
+    else mode = 'paragraph';
+    cursor = markers.lastIndex;
+  }
+  add(mode, text.slice(cursor));
+  return blocks;
+}
+
 // Region-aware event block. The events feed publishes windowsByRegion for
 // every officially dated event, so the overview card can show the player's own
 // server times instead of the merge's europe-first top-level start/end. Falls
@@ -792,8 +819,8 @@ function nyxTlEventBlockForRegion(e, now, regionKey){
   return block;
 }
 
-// What the game Overview's "Current Events" card shows: what is running right
-// now (soonest to end first), then what starts next (soonest first) as filler.
+// What the game Overview's "Current Events" card shows: every live or upcoming
+// event, ordered by its real end date (then start date), with open ends last.
 // Never invents a date — undated/needs-review rows and banner rows (which have
 // their own strip) are excluded outright.
 // Some feeds publish a start with no end ("until the next version update").
@@ -806,8 +833,8 @@ var NYX_TL_OPEN_END_MAX_AGE_MS = 120 * NYX_TL_DAY_MS;
 
 function nyxTlCurrentEvents(events, now, regionKey, limit){
   now = Number.isFinite(now) ? now : Date.now();
-  var max = Number.isFinite(limit) && limit > 0 ? limit : 6;
-  var dated = [], ongoing = [], upcoming = [];
+  var max = Number.isFinite(limit) && limit > 0 ? limit : Infinity;
+  var eligible = [];
   var list = Array.isArray(events) ? events : [];
   for (var i = 0; i < list.length; i++) {
     var e = list[i];
@@ -820,19 +847,18 @@ function nyxTlCurrentEvents(events, now, regionKey, limit){
       if (block.openEnd) {
         if (block.startMs < now - NYX_TL_OPEN_END_MAX_AGE_MS) continue;
         block.status = 'ongoing';
-        ongoing.push(block);
       } else {
         block.status = 'live';
-        dated.push(block);
       }
-    } else if (status === 'upcoming') { block.status = status; upcoming.push(block); }
+      eligible.push(block);
+    } else if (status === 'upcoming') { block.status = status; eligible.push(block); }
   }
-  // Confirmed end first (soonest to expire is the most useful), then the
-  // open-ended ones newest-first, then what starts next.
-  dated.sort(function(a, b){ return a.endMs - b.endMs; });
-  ongoing.sort(function(a, b){ return b.startMs - a.startMs; });
-  upcoming.sort(function(a, b){ return a.startMs - b.startMs; });
-  return dated.concat(ongoing, upcoming).slice(0, max);
+  eligible.sort(function(a, b){
+    var aEnd = a.openEnd ? Infinity : a.endMs;
+    var bEnd = b.openEnd ? Infinity : b.endMs;
+    return aEnd === bEnd ? a.startMs - b.startMs : aEnd - bEnd;
+  });
+  return eligible.slice(0, max);
 }
 
 // ---- Search ----------------------------------------------------------
@@ -1149,6 +1175,7 @@ if (typeof window !== 'undefined') {
     buildEventBlocks: nyxTlBuildEventBlocks,
     eventDisplayTitle: nyxTlEventDisplayTitle,
     cleanEventText: nyxTlCleanEventText,
+    eventDetails: nyxTlEventDetails,
     eventBlockForRegion: nyxTlEventBlockForRegion,
     currentEvents: nyxTlCurrentEvents,
     splitEventBlocks: nyxTlSplitEventBlocks,

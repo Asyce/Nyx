@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T00:40:57.915Z",
+  "generatedAt": "2026-08-25T00:42:11.912Z",
   "games": {
     "gi": [
       {
@@ -108,6 +108,12 @@
     ],
     "ae": [
       {
+        "code": "AKENDFIELDSUB",
+        "added": "2026-08-20",
+        "amount": 100,
+        "currency": "Oroberyl"
+      },
+      {
         "code": "ENDFIELDGIFT",
         "added": "2026-05-03",
         "amount": 150,
@@ -115,5 +121,5 @@
       }
     ]
   },
-  "revision": "f50d89599d0f6002b9b14868302accacb89ab5621b334ae2c7772717d808abe5"
+  "revision": "4a73b9ad1f9a9369114c2b324b5c33f1685504a6dd8b7981edbbb00d3c7edefb"
 }

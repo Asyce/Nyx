@@ -256,6 +256,14 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0191.webp"
   },
   {
+    "id": "258539",
+    "name": "Chronicle Cache: Elite",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0168",
+    "type": "BEYOND_MATERIAL_TYPE_UNREPEATABLE_SELECTABLE_CHEST",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0168.webp"
+  },
+  {
     "id": "258501",
     "name": "Chronicle Cache: Exceptional",
     "rank": "3",
@@ -366,6 +374,22 @@
     "icon": "UI_Beyd_Avatar_Optional_Suit_S0147",
     "type": "BEYOND_MATERIAL_TYPE_UNREPEATABLE_SELECTABLE_CHEST",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0147.webp"
+  },
+  {
+    "id": "258537",
+    "name": "Chronicle Cache: Exceptional",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0176",
+    "type": "BEYOND_MATERIAL_TYPE_UNREPEATABLE_SELECTABLE_CHEST",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0176.webp"
+  },
+  {
+    "id": "258538",
+    "name": "Chronicle Cache: Exceptional",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0177",
+    "type": "BEYOND_MATERIAL_TYPE_UNREPEATABLE_SELECTABLE_CHEST",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0177.webp"
   },
   {
     "id": "250114",
@@ -3144,6 +3168,14 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0111.webp"
   },
   {
+    "id": "258021",
+    "name": "Cosmetic Bundle: \"Cloudbound\"",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0001",
+    "type": "BEYOND_MATERIAL_TYPE_BUNDLE",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0001.webp"
+  },
+  {
     "id": "258005",
     "name": "Cosmetic Bundle: \"Comedy Performance\"",
     "rank": "4",
@@ -3152,12 +3184,28 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0103.webp"
   },
   {
+    "id": "258020",
+    "name": "Cosmetic Bundle: \"Dreamy Summer Leisure\"",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0143",
+    "type": "BEYOND_MATERIAL_TYPE_BUNDLE",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0143.webp"
+  },
+  {
     "id": "258003",
     "name": "Cosmetic Bundle: \"Free Silver Star\"",
     "rank": "3",
     "icon": "UI_Beyd_Avatar_Optional_Suit_S0075",
     "type": "BEYOND_MATERIAL_TYPE_BUNDLE",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0075.webp"
+  },
+  {
+    "id": "258023",
+    "name": "Cosmetic Bundle: \"Fun Under Open Skies\"",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0198",
+    "type": "BEYOND_MATERIAL_TYPE_BUNDLE",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0198.webp"
   },
   {
     "id": "258006",
@@ -3230,6 +3278,14 @@
     "icon": "UI_Beyd_Avatar_Optional_Suit_S0107",
     "type": "BEYOND_MATERIAL_TYPE_BUNDLE",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0107.webp"
+  },
+  {
+    "id": "258022",
+    "name": "Cosmetic Bundle: \"Warrior of the Winning Hand\"",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Optional_Suit_S0173",
+    "type": "BEYOND_MATERIAL_TYPE_BUNDLE",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0173.webp"
   },
   {
     "id": "258012",
@@ -3616,6 +3672,22 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0359.webp"
   },
   {
+    "id": "264269",
+    "name": "General Cosmetic - Melancholy Teardrop Glasses",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyewear_P0451",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyewear_P0451.webp"
+  },
+  {
+    "id": "264274",
+    "name": "General Cosmetic - Spooky Boo Hat",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Headwear_P0512",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0512.webp"
+  },
+  {
     "id": "263712",
     "name": "General Eye Makeup - \"Brilliant Turquoise: Matte\"",
     "rank": "4",
@@ -3686,6 +3758,14 @@
     "icon": "UI_Beyd_Avatar_Girl_EyeShadow_P0324",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0324.webp"
+  },
+  {
+    "id": "263728",
+    "name": "General Eye Makeup - Drifting Mist Veil",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_EyeShadow_P0459",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0459.webp"
   },
   {
     "id": "262526",
@@ -4384,6 +4464,62 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0040.webp"
   },
   {
+    "id": "262694",
+    "name": "General Eyebrows - Dark-Chasing Edge",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0455",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0455.webp"
+  },
+  {
+    "id": "262756",
+    "name": "General Eyebrows - Dreambuilder's Chisel",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0435",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0435.webp"
+  },
+  {
+    "id": "262758",
+    "name": "General Eyebrows - Dreampainter's Brush",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0436",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0436.webp"
+  },
+  {
+    "id": "262623",
+    "name": "General Eyebrows - Illusion's Whisper: Light Orange",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0424",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0424.webp"
+  },
+  {
+    "id": "262625",
+    "name": "General Eyebrows - Illusion's Whisper: Pink",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0425",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0425.webp"
+  },
+  {
+    "id": "262627",
+    "name": "General Eyebrows - Stage Whisper: Light Orange",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0426",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0426.webp"
+  },
+  {
+    "id": "262629",
+    "name": "General Eyebrows - Stage Whisper: Pink",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0427",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0427.webp"
+  },
+  {
     "id": "263947",
     "name": "General Facial Makeup - \"Aura Blush: Falling Blossoms\"",
     "rank": "4",
@@ -4502,6 +4638,46 @@
     "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0484",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0484.webp"
+  },
+  {
+    "id": "263935",
+    "name": "General Facial Makeup - Cloud From the Peaks",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0458",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0458.webp"
+  },
+  {
+    "id": "263919",
+    "name": "General Facial Makeup - Miracle Stars: Brilliant Light",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0433",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0433.webp"
+  },
+  {
+    "id": "263912",
+    "name": "General Facial Makeup - Miracle Stars: Radiant Spirit",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0431",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0431.webp"
+  },
+  {
+    "id": "263916",
+    "name": "General Facial Makeup - Miracle Stars: Shadow",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0432",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0432.webp"
+  },
+  {
+    "id": "263921",
+    "name": "General Facial Makeup - Miracle Stars: Twilight Beauty",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0434",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0434.webp"
   },
   {
     "id": "263204",
@@ -4888,6 +5064,38 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0068.webp"
   },
   {
+    "id": "263310",
+    "name": "General Iris - First Light of Dawn",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0457",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0457.webp"
+  },
+  {
+    "id": "263230",
+    "name": "General Iris - Illusion Trick: Blue & Yellow",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0430",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0430.webp"
+  },
+  {
+    "id": "263224",
+    "name": "General Iris - Illusion Trick: Red & Blue",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0429",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0429.webp"
+  },
+  {
+    "id": "263295",
+    "name": "General Iris - Spinning Dream",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0438",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0438.webp"
+  },
+  {
     "id": "263613",
     "name": "General Lipstick - \"Festive Pumpkin\"",
     "rank": "4",
@@ -5198,6 +5406,30 @@
     "icon": "UI_ItemIcon_250012",
     "type": "BEYOND_MATERIAL_NORMAL",
     "localAsset": "GameData/gi/beyond/assets/UI_ItemIcon_250012.webp"
+  },
+  {
+    "id": "251209",
+    "name": "Magic Chessboard",
+    "rank": "4",
+    "icon": "UI_UGC_Transfer_BP_SuperRare_S0166",
+    "type": "BEYOND_MATERIAL_TRANSFER_EFFECT",
+    "localAsset": "GameData/gi/beyond/assets/UI_UGC_Transfer_BP_SuperRare_S0166.webp"
+  },
+  {
+    "id": "250480",
+    "name": "Magic Hour",
+    "rank": "5",
+    "icon": "UI_UGC_Emoji_S0166_Girl_01",
+    "type": "BEYOND_MATERIAL_EMOJI",
+    "localAsset": "GameData/gi/beyond/assets/UI_UGC_Emoji_S0166_Girl_01.webp"
+  },
+  {
+    "id": "250479",
+    "name": "Magic Time",
+    "rank": "5",
+    "icon": "UI_UGC_Emoji_S0166_Boy_01",
+    "type": "BEYOND_MATERIAL_EMOJI",
+    "localAsset": "GameData/gi/beyond/assets/UI_UGC_Emoji_S0166_Boy_01.webp"
   },
   {
     "id": "250460",
@@ -7800,6 +8032,86 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_S0032.webp"
   },
   {
+    "id": "265466",
+    "name": "Manekin Cosmetic - Amber Nectar",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0171.webp"
+  },
+  {
+    "id": "280078",
+    "name": "Manekin Cosmetic - Amber Nectar Short Hair",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Hair_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Hair_S0171.webp"
+  },
+  {
+    "id": "280080",
+    "name": "Manekin Cosmetic - Amber Nectar Short Socks",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_LegAcc_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_LegAcc_S0171.webp"
+  },
+  {
+    "id": "280079",
+    "name": "Manekin Cosmetic - Amber Nectar Sun Hat",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Headwear_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Headwear_S0171.webp"
+  },
+  {
+    "id": "280081",
+    "name": "Manekin Cosmetic - Amber Nectar Waist Pack",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_WaistAcc_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_WaistAcc_S0171.webp"
+  },
+  {
+    "id": "280076",
+    "name": "Manekin Cosmetic - Amber Nectar Work Overalls",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Top_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_S0171.webp"
+  },
+  {
+    "id": "280077",
+    "name": "Manekin Cosmetic - Amber Nectar Work Shoes",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Shoe_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Shoe_S0171.webp"
+  },
+  {
+    "id": "265482",
+    "name": "Manekin Cosmetic - Azure Mountainshade",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0189",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0189.webp"
+  },
+  {
+    "id": "265363",
+    "name": "Manekin Cosmetic - Cloudbound Journey",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0001",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp"
+  },
+  {
+    "id": "265393",
+    "name": "Manekin Cosmetic - Crowned by the Breeze",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0157",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0157.webp"
+  },
+  {
     "id": "260075",
     "name": "Manekin Cosmetic - Dignified Formal Shirt: Ash White",
     "rank": "2",
@@ -7808,12 +8120,76 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_P0257.webp"
   },
   {
+    "id": "265508",
+    "name": "Manekin Cosmetic - Fun Under Open Skies",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0198",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0198.webp"
+  },
+  {
+    "id": "265460",
+    "name": "Manekin Cosmetic - Letter Crane Courier",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0168",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp"
+  },
+  {
     "id": "260055",
     "name": "Manekin Cosmetic - Palm Tree Casual Shirt: Marine Blue",
     "rank": "2",
     "icon": "UI_Beyd_Avatar_Boy_Top_P0224",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Top_P0224.webp"
+  },
+  {
+    "id": "265446",
+    "name": "Manekin Cosmetic - Precision Strike",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0176",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0176.webp"
+  },
+  {
+    "id": "265450",
+    "name": "Manekin Cosmetic - Scary Cat",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0177",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0177.webp"
+  },
+  {
+    "id": "265456",
+    "name": "Manekin Cosmetic - Sleuth's Verdict",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0170",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0170.webp"
+  },
+  {
+    "id": "265458",
+    "name": "Manekin Cosmetic - Twilight Phantom Thief",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0167",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0167.webp"
+  },
+  {
+    "id": "265452",
+    "name": "Manekin Cosmetic - Warrior of the Winning Hand",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0173",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0173.webp"
+  },
+  {
+    "id": "265065",
+    "name": "Manekin Cosmetic - Whimsical Spectacle",
+    "rank": "5",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0165",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0165.webp"
   },
   {
     "id": "261627",
@@ -7846,6 +8222,14 @@
     "icon": "UI_Beyd_Avatar_Boy_Shoe_S0009",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Shoe_S0009.webp"
+  },
+  {
+    "id": "265067",
+    "name": "Manekin Cosmetic: Whimsical Spectacle - Sugarcube Sleight",
+    "rank": "5",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0166",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0166.webp"
   },
   {
     "id": "262934",
@@ -8070,6 +8454,22 @@
     "icon": "UI_Beyd_Avatar_Boy_Face_P0144",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0144.webp"
+  },
+  {
+    "id": "263003",
+    "name": "Manekin Eye Shape - Craftsman's Focus",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Face_P0437",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0437.webp"
+  },
+  {
+    "id": "262942",
+    "name": "Manekin Eye Shape - Radiant Flourish",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Face_P0428",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0428.webp"
   },
   {
     "id": "261612",
@@ -10664,6 +11064,102 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_LegAcc_S0032.webp"
   },
   {
+    "id": "265465",
+    "name": "Manekina Cosmetic - Amber Nectar",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0171.webp"
+  },
+  {
+    "id": "280073",
+    "name": "Manekina Cosmetic - Amber Nectar Hair Ornament",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Headwear_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_S0171.webp"
+  },
+  {
+    "id": "280074",
+    "name": "Manekina Cosmetic - Amber Nectar Long Socks",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_LegAcc_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_LegAcc_S0171.webp"
+  },
+  {
+    "id": "280072",
+    "name": "Manekina Cosmetic - Amber Nectar Short Hair",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Hair_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Hair_S0171.webp"
+  },
+  {
+    "id": "280070",
+    "name": "Manekina Cosmetic - Amber Nectar Short Skirt",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Bottom_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Bottom_S0171.webp"
+  },
+  {
+    "id": "280075",
+    "name": "Manekina Cosmetic - Amber Nectar Waist Pack",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_WaistAcc_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_WaistAcc_S0171.webp"
+  },
+  {
+    "id": "280069",
+    "name": "Manekina Cosmetic - Amber Nectar Work Overalls",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Top_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Top_S0171.webp"
+  },
+  {
+    "id": "280071",
+    "name": "Manekina Cosmetic - Amber Nectar Work Shoes",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Shoe_S0171",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_S0171.webp"
+  },
+  {
+    "id": "265481",
+    "name": "Manekina Cosmetic - Azure Mountainshade",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0189",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0189.webp"
+  },
+  {
+    "id": "265362",
+    "name": "Manekina Cosmetic - Cloudbound Flight",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0001",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp"
+  },
+  {
+    "id": "265392",
+    "name": "Manekina Cosmetic - Crowned by the Breeze",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0157",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0157.webp"
+  },
+  {
+    "id": "265507",
+    "name": "Manekina Cosmetic - Fun Under Open Skies",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0198",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0198.webp"
+  },
+  {
     "id": "260028",
     "name": "Manekina Cosmetic - Knit Bubble Sleeve Blouse: Cloud White",
     "rank": "2",
@@ -10678,6 +11174,62 @@
     "icon": "UI_Beyd_Avatar_Girl_Top_P0103",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Top_P0103.webp"
+  },
+  {
+    "id": "265459",
+    "name": "Manekina Cosmetic - Letter Crane Courier",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0168",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp"
+  },
+  {
+    "id": "265445",
+    "name": "Manekina Cosmetic - Precision Strike",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0176",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0176.webp"
+  },
+  {
+    "id": "265449",
+    "name": "Manekina Cosmetic - Scary Cat",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0177",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0177.webp"
+  },
+  {
+    "id": "265455",
+    "name": "Manekina Cosmetic - Sleuth's Verdict",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0170",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0170.webp"
+  },
+  {
+    "id": "265457",
+    "name": "Manekina Cosmetic - Twilight Phantom Thief",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0167",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0167.webp"
+  },
+  {
+    "id": "265451",
+    "name": "Manekina Cosmetic - Warrior of the Winning Hand",
+    "rank": "3",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0173",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0173.webp"
+  },
+  {
+    "id": "265064",
+    "name": "Manekina Cosmetic - Whimsical Spectacle",
+    "rank": "5",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0165",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0165.webp"
   },
   {
     "id": "261641",
@@ -10710,6 +11262,14 @@
     "icon": "UI_Beyd_Avatar_Girl_Shoe_S0009",
     "type": "BEYOND_MATERIAL_COSTUME",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_S0009.webp"
+  },
+  {
+    "id": "265066",
+    "name": "Manekina Cosmetic: Whimsical Spectacle - Sugarcube Sleight",
+    "rank": "5",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0166",
+    "type": "BEYOND_MATERIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0166.webp"
   },
   {
     "id": "263714",
@@ -10960,6 +11520,30 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0144.webp"
   },
   {
+    "id": "263004",
+    "name": "Manekina Eye Shape - Craftsman's Focus",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Face_P0437",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0437.webp"
+  },
+  {
+    "id": "262943",
+    "name": "Manekina Eye Shape - Radiant Flourish",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Face_P0428",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0428.webp"
+  },
+  {
+    "id": "263013",
+    "name": "Manekina Eye Shape - Swallowtail Willow",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Face_P0456",
+    "type": "BEYOND_MATERIAL_COSTUME",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0456.webp"
+  },
+  {
     "id": "263910",
     "name": "Manekina Facial Makeup - \"Rose's Remembrance\"",
     "rank": "4",
@@ -11008,6 +11592,14 @@
     "localAsset": "GameData/gi/beyond/assets/UI_UGC_Emoji_Rare_16.webp"
   },
   {
+    "id": "251010",
+    "name": "Miracle Theater: Light and Shadow Spectacle",
+    "rank": "4",
+    "icon": "UI_Beyd_HallThemeIcon_Msqy",
+    "type": "BEYOND_MATERIAL_HALL_UNLOCK",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_HallThemeIcon_Msqy.webp"
+  },
+  {
     "id": "250005",
     "name": "Muse Infuse",
     "rank": "3",
@@ -11022,6 +11614,14 @@
     "icon": "UI_UGC_Emoji_S0058_Boy_01",
     "type": "BEYOND_MATERIAL_EMOJI",
     "localAsset": "GameData/gi/beyond/assets/UI_UGC_Emoji_S0058_Boy_01.webp"
+  },
+  {
+    "id": "250477",
+    "name": "Nailed It",
+    "rank": "3",
+    "icon": "UI_UGC_Emoji_Rare_18",
+    "type": "BEYOND_MATERIAL_EMOJI",
+    "localAsset": "GameData/gi/beyond/assets/UI_UGC_Emoji_Rare_18.webp"
   },
   {
     "id": "250138",
@@ -11054,6 +11654,14 @@
     "icon": "UI_UGC_ActionIcon_UAggression01",
     "type": "BEYOND_MATERIAL_POSE",
     "localAsset": "GameData/gi/beyond/assets/UI_UGC_ActionIcon_UAggression01.webp"
+  },
+  {
+    "id": "250478",
+    "name": "Paper Crane Ride",
+    "rank": "4",
+    "icon": "UI_UGC_Emoji_SuperRare_24",
+    "type": "BEYOND_MATERIAL_EMOJI",
+    "localAsset": "GameData/gi/beyond/assets/UI_UGC_Emoji_SuperRare_24.webp"
   },
   {
     "id": "250435",
@@ -11192,6 +11800,14 @@
     "localAsset": "GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp"
   },
   {
+    "id": "258541",
+    "name": "Random Try-On Cape: Manekin Cosmetic",
+    "rank": "4",
+    "icon": "UI_ItemIcon_BydBox_4",
+    "type": "BEYOND_MATERIAL_TYPE_DROP_EXTRA_CHEST",
+    "localAsset": "GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp"
+  },
+  {
     "id": "258505",
     "name": "Random Try-On Cape: Manekina Cosmetic",
     "rank": "4",
@@ -11241,6 +11857,14 @@
   },
   {
     "id": "258535",
+    "name": "Random Try-On Cape: Manekina Cosmetic",
+    "rank": "4",
+    "icon": "UI_ItemIcon_BydBox_4",
+    "type": "BEYOND_MATERIAL_TYPE_DROP_EXTRA_CHEST",
+    "localAsset": "GameData/gi/beyond/assets/UI_ItemIcon_BydBox_4.webp"
+  },
+  {
+    "id": "258540",
     "name": "Random Try-On Cape: Manekina Cosmetic",
     "rank": "4",
     "icon": "UI_ItemIcon_BydBox_4",
@@ -11366,6 +11990,14 @@
     "icon": "UI_Beyd_Avatar_Optional_Suit_S0112",
     "type": "BEYOND_MATERIAL_COSTUME_DRAWING",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Optional_Suit_S0112.webp"
+  },
+  {
+    "id": "275392",
+    "name": "Set Catalog - \"Crowned by the Breeze\"",
+    "rank": "4",
+    "icon": null,
+    "type": "BEYOND_MATERIAL_COSTUME_DRAWING",
+    "localAsset": null
   },
   {
     "id": "275024",
@@ -11720,6 +12352,22 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0062.webp"
   },
   {
+    "id": "257041",
+    "name": "Try-On Cape: Cloudbound Flight",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0001",
+    "type": "BEYOND_MATERIAL_TRIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0001.webp"
+  },
+  {
+    "id": "257042",
+    "name": "Try-On Cape: Cloudbound Journey",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0001",
+    "type": "BEYOND_MATERIAL_TRIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0001.webp"
+  },
+  {
     "id": "257027",
     "name": "Try-On Cape: Comedy Performance",
     "rank": "4",
@@ -11798,6 +12446,22 @@
     "icon": "UI_Beyd_Avatar_Boy_Suit_S0191",
     "type": "BEYOND_MATERIAL_TRIAL_COSTUME_SUIT",
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0191.webp"
+  },
+  {
+    "id": "257043",
+    "name": "Try-On Cape: Letter Crane Courier",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Girl_Suit_S0168",
+    "type": "BEYOND_MATERIAL_TRIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Suit_S0168.webp"
+  },
+  {
+    "id": "257044",
+    "name": "Try-On Cape: Letter Crane Courier",
+    "rank": "4",
+    "icon": "UI_Beyd_Avatar_Boy_Suit_S0168",
+    "type": "BEYOND_MATERIAL_TRIAL_COSTUME_SUIT",
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Suit_S0168.webp"
   },
   {
     "id": "257010",

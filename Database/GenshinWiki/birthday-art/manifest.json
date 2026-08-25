@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T07:21:38.456Z",
+  "generatedAt": "2026-08-19T07:29:51.685Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -1263,6 +1263,18 @@
           "localAsset": "GenshinWiki/birthday-art/chiori/02-Chiori Birthday 2025.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Chiori/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Chiori_Birthday_2025.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/png"
+        },
+        {
+          "file": "Chiori Birthday 2026.png",
+          "title": "Chiori Birthday 2026.png (2.53 MB)",
+          "localAsset": "GenshinWiki/birthday-art/chiori/03-Chiori Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Chiori/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Chiori_Birthday_2026.png",
           "width": 1800,
           "height": 1800,
           "originalWidth": 3000,
@@ -5397,6 +5409,18 @@
           "originalWidth": 3000,
           "originalHeight": 3000,
           "mime": "image/jpeg"
+        },
+        {
+          "file": "Navia Birthday 2026.png",
+          "title": "Navia Birthday 2026.png (9.46 MB)",
+          "localAsset": "GenshinWiki/birthday-art/navia/04-Navia Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Navia/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Navia_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 2500,
+          "originalHeight": 2500,
+          "mime": "image/png"
         }
       ]
     },

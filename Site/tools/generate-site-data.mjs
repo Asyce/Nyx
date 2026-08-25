@@ -527,6 +527,11 @@ function resolvedCharacterName(ch) {
   return raw.replace(/^Avatar_[A-Za-z]+_Size\d+_/i, '').replace(/_En$/i, '').replace(/_/g, ' ').trim() || raw;
 }
 
+function zzzNameOrderAlias(value) {
+  const words = String(value || '').toLowerCase().match(/[a-z0-9]+/g) || [];
+  return words.length > 1 ? words.sort().join(' ') : undefined;
+}
+
 function gamedataCharacterAliases(game, ch) {
   const key = game === 'wuwa' ? 'ww' : game;
   const id = String(ch?.id || '');
@@ -553,8 +558,14 @@ function gamedataCharacterAliases(game, ch) {
 
   if (key === 'ww' && name && !/^the\s+/i.test(name)) aliases.push(`The ${name}`);
 
-  // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
-  if (key === 'zzz' && id === '1261') aliases.push('Jane Doe');
+  if (key === 'zzz') {
+    // Prydwen and GameData sometimes reverse variant names ("Billy - Starlight"
+    // vs "Starlight - Billy"). A sorted token alias keeps future variants joined.
+    const fullName = resolvedProfileText(ch?.profile?.full_name);
+    aliases.push(ch?.codeName, fullName, zzzNameOrderAlias(name), zzzNameOrderAlias(resolved), zzzNameOrderAlias(fullName));
+    // GameData names agent 1261 "Jane"; Prydwen (and the game's UI) use "Jane Doe".
+    if (id === '1261') aliases.push('Jane Doe');
+  }
 
   return uniq(aliases.map((alias) => cleanText(alias, 120)).filter(Boolean));
 }
@@ -690,7 +701,7 @@ const QUALITY_RARITY = {
   // Star Rail's ladder runs Normal < NotNormal < Rare < VeryRare < SuperRare.
   // SuperRare is the top: it is what Stellar Jade, Oneiric Shard and the Star
   // Rail Special Pass are filed as. These two were the wrong way round, which
-  // painted every 4-star purple material gold and vice versa.
+  // painted every 4-star purple material gold and every 5-star gold one purple.
   Normal: 1,
   NotNormal: 2,
   Rare: 3,
@@ -795,6 +806,7 @@ function isGenericSource(value) {
   const text = cleanSourceText(value);
   if (!text) return true;
   if (/^alchemy$/i.test(text)) return true;
+  if (/^(?:echo of war|notorious hunt|weekly challenge)$/i.test(text)) return true;
   return GENERIC_SOURCE_RE.test(text);
 }
 
@@ -814,7 +826,8 @@ function extraSourceCandidates(game, item, id) {
       const trio = spec?.trios?.[weapon.ti];
       if (spec && trio) out.push(`${trio.name} - ${spec.name}`);
     }
-    const weekly = GI_WEEKLY_BOSS_SPECS.find((boss) => boss.matIds.includes(sid));
+    const weekly = GI_WEEKLY_BOSS_SPECS.find((boss) => boss.matIds.includes(sid))
+      || giWeeklyCatalog().find((boss) => boss.matIds.includes(sid));
     if (weekly) out.push(weekly.bossName);
   }
   if (game === 'hsr') {
@@ -962,11 +975,14 @@ function loadWikiTitleCache() {
   const src = readJson(rel);
   for (const [game, group] of Object.entries(src.games || {})) {
     const key = game === 'ww' ? 'wuwa' : game;
-    cache[key] = new Map();
+    const title = new Map();
+    const pageTitle = new Map();
     for (const entry of group.entries || []) {
-      if (!entry?.name || !entry.title) continue;
-      cache[key].set(normKey(entry.name), cleanText(entry.title, 90));
+      if (!entry?.name) continue;
+      if (entry.title) title.set(normKey(entry.name), cleanText(entry.title, 90));
+      if (entry.pageTitle) pageTitle.set(normKey(entry.name), cleanText(entry.pageTitle, 120));
     }
+    cache[key] = { title, pageTitle };
   }
   return cache;
 }
@@ -1319,7 +1335,7 @@ const MANUAL_OVERVIEW_ART_ZOOM = {
 function titleOverride(game, name) {
   const key = game === 'ww' ? 'wuwa' : game;
   const normalized = normKey(name);
-  return WIKI_TITLE_CACHE[key]?.get(normalized) || MANUAL_CHARACTER_TITLE_OVERRIDES[key]?.[normalized] || undefined;
+  return WIKI_TITLE_CACHE[key]?.title?.get(normalized) || MANUAL_CHARACTER_TITLE_OVERRIDES[key]?.[normalized] || undefined;
 }
 
 function displayTitle(game, source, facts = {}) {
@@ -1773,11 +1789,11 @@ function giItemLookup() {
 
 const gamedataItemLookupCache = new Map();
 
-function gamedataItemLookup(game) {
-  const cacheKey = `${game}:${nch()}`;
+function gamedataItemLookup(game, channel = nch()) {
+  const cacheKey = `${game}:${channel}`;
   if (gamedataItemLookupCache.has(cacheKey)) return gamedataItemLookupCache.get(cacheKey);
   const byKey = new Map();
-  const rel = `GameData/${game}/${nch()}/items.json`;
+  const rel = `GameData/${game}/${channel}/items.json`;
   if (!exists(rel)) {
     gamedataItemLookupCache.set(cacheKey, byKey);
     return byKey;
@@ -1789,6 +1805,17 @@ function gamedataItemLookup(game) {
   }
   gamedataItemLookupCache.set(cacheKey, byKey);
   return byKey;
+}
+
+const gamedataRawItemLookupCache = new Map();
+
+function gamedataRawItemLookup(game, channel = nch()) {
+  const cacheKey = `${game}:${channel}`;
+  if (gamedataRawItemLookupCache.has(cacheKey)) return gamedataRawItemLookupCache.get(cacheKey);
+  const rel = `GameData/${game}/${channel}/raw/itemAll.json`;
+  const byId = new Map(exists(rel) ? Object.entries(readJson(rel)) : []);
+  gamedataRawItemLookupCache.set(cacheKey, byId);
+  return byId;
 }
 
 const localAvatarOverlayCache = new Map();
@@ -1814,7 +1841,7 @@ function profileNumber(value, digits = 2) {
 
 function profileText(value, max = 120) {
   const text = cleanText(value, max);
-  if (!text || /^(?:unknown|none|n\/a|-+|\?+|[■□]+)$/i.test(text)) return undefined;
+  if (!text || /^(?:unknown|none|n\/a|-+|\?+|\.+|[■□]+)$/i.test(text)) return undefined;
   return text;
 }
 
@@ -2051,11 +2078,13 @@ function localAvatarOverlay(game, channel = nch()) {
 
   if (key === 'zzz' && exists(`GameData/zzz/${channel}/agents.json`)) {
     const localized = rawCharacterLocaleMap('zzz', channel);
-    for (const ch of readJson(`GameData/zzz/${channel}/agents.json`)) {
+    const agents = readJson(`GameData/zzz/${channel}/agents.json`);
+    for (const ch of agents) {
       if (!ch?.name) continue;
       const displayName = cleanText(resolvedCharacterName(ch), 120);
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       setNamedMapEntry(byName, displayName, {
+        contentStatus: ch.contentStatus,
         // Facts fallback for agents Prydwen only stubs (attribute/specialty "Unknown")
         el: profileText(profileFirst(ch.element)),
         spec: profileText(profileFirst(ch.specialty)),
@@ -2072,6 +2101,18 @@ function localAvatarOverlay(game, channel = nch()) {
         releasePatch: meta?.releasePatch,
         ...zzzProfileData(ch),
       }, gamedataCharacterAliases('zzz', ch));
+    }
+    const localIds = new Set(agents.map((agent) => String(agent?.id || '')).filter(Boolean));
+    for (const detail of zzzBetaAgentDetails(channel)) {
+      if (localIds.has(String(detail.id))) continue;
+      const identity = { id: detail.id, name: detail.name };
+      setNamedMapEntry(byName, detail.name, {
+        contentStatus: 'beta',
+        el: profileText(detail.attribute),
+        spec: profileText(detail.specialty),
+        rarity: detail.rarity === 'S' ? 4 : detail.rarity === 'A' ? 3 : undefined,
+        facts: { faction: profileText(detail.faction) },
+      }, gamedataCharacterAliases('zzz', identity));
     }
   }
 
@@ -2104,12 +2145,18 @@ function localAvatarOverlay(game, channel = nch()) {
 }
 
 function trustedPrydwenIcon(game, ch) {
-  const rel = ch?.art?.icon;
-  if (!rel) return null;
   const slug = normKey(ch?.slug || ch?.id || ch?.name);
-  const base = normKey(path.basename(String(rel)).replace(/-[a-f0-9]+\.[a-z0-9]+$/i, ''));
-  if (!slug || !base || !base.includes(slug)) return null;
-  return dbAsset(rel);
+  if (!slug) return null;
+  for (const rel of [ch?.art?.icon, ch?.art?.card, ch?.art?.full]) {
+    if (!rel) continue;
+    const base = normKey(path.basename(String(rel))
+      .replace(/-[a-f0-9]+\.[a-z0-9]+$/i, '')
+      .replace(/-(?:card|icon|full)$/i, ''));
+    if (!base || base !== slug) continue;
+    const asset = dbAsset(rel);
+    if (asset) return asset;
+  }
+  return null;
 }
 
 function materialLookup(mat, lookup) {
@@ -2166,9 +2213,9 @@ function sumMaterials(rows, lookup = null, game = 'gi') {
         rar: rarity,
         // GI weekly-drop identity is the exact sourced ID set. Name matching
         // would incorrectly classify Dragon Lord's Crown as Crown of Insight.
-        kind: game === 'gi' && GI_WEEKLY_DROP_IDS.has(String(id))
+        kind: game === 'gi' && isGiWeeklyDropId(id)
           ? 'weekly'
-          : (game === 'gi' && GI_NON_WEEKLY_113_IDS.has(String(id))
+          : (game === 'gi' && /^113\d{3}$/.test(String(id)) && rarity >= 5
             ? 'specialty'
             : inferMatKind(name, mat.rank, item)),
         icon,
@@ -2342,9 +2389,32 @@ const GI_WEEKLY_BOSS_SPECS = [
   { bossName: 'Exalted Master of the Heretical Path', releaseOrder:14, artAliases:['Il Dottore'], matIds: ['113087', '113088', '113089'] },
 ];
 
-const GI_WEEKLY_DROP_IDS = new Set(GI_WEEKLY_BOSS_SPECS.flatMap((boss) => boss.matIds));
-// The Pyro Traveler's Cornerstone is a story reward, not a Trounce Domain drop.
-const GI_NON_WEEKLY_113_IDS = new Set(['113063']);
+const giWeeklyCatalogCache = new Map();
+
+function giWeeklyCatalog() {
+  if (giWeeklyCatalogCache.has(nch())) return giWeeklyCatalogCache.get(nch());
+  const groups = new Map();
+  for (const [id, item] of gamedataRawItemLookup('gi')) {
+    if (item?.type !== 'Character Level-Up Material' || Number(item?.rank) !== 5) continue;
+    const sources = Array.isArray(item?.jump_descs) ? item.jump_descs : [item?.jump_descs];
+    const challenge = sources.find((source) => /\bChallenge Reward\b/i.test(String(source || '')));
+    if (!challenge) continue;
+    const bossName = sourceBaseName(challenge);
+    if (!bossName) continue;
+    if (!groups.has(bossName)) groups.set(bossName, { bossName, matIds: [] });
+    groups.get(bossName).matIds.push(String(id));
+  }
+  const catalog = [...groups.values()]
+    .map((group) => ({ ...group, matIds: group.matIds.sort((a, b) => Number(a) - Number(b)) }))
+    .sort((a, b) => Number(a.matIds[0]) - Number(b.matIds[0]));
+  giWeeklyCatalogCache.set(nch(), catalog);
+  return catalog;
+}
+
+function isGiWeeklyDropId(id) {
+  const sid = String(id || '');
+  return giWeeklyCatalog().some((group) => group.matIds.includes(sid));
+}
 
 function giWeeklyBossArt(spec) {
   const wanted = new Set([spec.bossName, ...(spec.artAliases || [])].map(normKey));
@@ -2432,6 +2502,7 @@ function sumGiWeaponMaterials(weapon) {
 function buildGiWeaponRoster() {
   const rel = `GameData/gi/${nch()}/weapons.json`;
   if (!exists(rel)) return [];
+  const localized = loadGiWeaponLocales();
   return readJson(rel)
     .filter((weapon) => weapon?.name && rarityNumber(weapon.rarity, 0) >= 3)
     .map((weapon) => {
@@ -2439,7 +2510,7 @@ function buildGiWeaponRoster() {
       const type = weaponMap[weapon.type] || weapon.type || 'Weapon';
       return {
         id: String(weapon.id),
-        name: cleanText(weapon.name, 90),
+        name: sanitizeGiWeaponName(weapon.name, localized[String(weapon.id)]),
         rarity: rarityNumber(weapon.rarity, 0),
         weaponType: type,
         type,
@@ -2512,19 +2583,85 @@ function buildGiKit(raw) {
   return sections.length ? { ...kitSource('gi'), sections } : null;
 }
 
+function loadGiWeaponLocales() {
+  const rel = `GameData/gi/${nch()}/raw/weapons.json`;
+  return exists(rel) ? readJson(rel) : {};
+}
+
+function sanitizeGiWeaponName(value, localized = {}) {
+  const name = cleanText(value, 90);
+  if (name && !/^\d+$/.test(name) && !looksLikeTextMapKey(name) && !/^weapon(?:\s*:\s*.+)?$/i.test(name)) return name;
+  const chinese = cleanText(localized.zh, 90);
+  return !localized.skin && chinese && !/^\d+$/.test(chinese) && !looksLikeTextMapKey(chinese) && !/^武器(?:\s*[-:：·]?\s*.+)?$/.test(chinese)
+    ? chinese
+    : '?';
+}
+
 function loadGiSignatureMap() {
   const rel = 'AsIveHoarded/gi-signatures.json';
-  if (!exists(rel)) return new Map();
-  const src = readJson(rel);
-  const rows = src.signatures || src;
   const map = new Map();
-  for (const [name, entry] of Object.entries(rows || {})) {
-    if (!name || !entry?.weaponId) continue;
-    map.set(normKey(name), {
-      id: String(entry.weaponId),
-      name: cleanText(entry.weaponName || '', 90),
-      build: cleanText(entry.build || '', 90) || undefined,
-      educated: !!entry.educated,
+  const localized = loadGiWeaponLocales();
+  if (exists(rel)) {
+    const src = readJson(rel);
+    const rows = src.signatures || src;
+    for (const [name, entry] of Object.entries(rows || {})) {
+      if (!name || !entry?.weaponId) continue;
+      map.set(normKey(name), {
+        id: String(entry.weaponId),
+        name: sanitizeGiWeaponName(entry.weaponName || '', localized[String(entry.weaponId)]),
+        build: cleanText(entry.build || '', 90) || undefined,
+        educated: !!entry.educated,
+      });
+    }
+  }
+
+  const manifest = exists('GameData/manifest.json') ? readJson('GameData/manifest.json') : {};
+  const overviewRel = `GameData/gi/${nch()}/overview.json`;
+  const overview = exists(overviewRel) ? readJson(overviewRel) : {};
+  const cohort = manifest.gi?.new || overview.newInManifest || {};
+  const newCharacterIds = new Set((cohort.character || []).map((id) => String(id)));
+  const newWeaponIds = new Set((cohort.weapon || []).map((id) => String(id)));
+  if (!newCharacterIds.size || !newWeaponIds.size) return map;
+
+  const charactersRel = `GameData/gi/${nch()}/characters.json`;
+  const weaponsRel = `GameData/gi/${nch()}/weapons.json`;
+  if (!exists(charactersRel) || !exists(weaponsRel)) return map;
+  const characters = readJson(charactersRel)
+    .filter((ch) => newCharacterIds.has(String(ch?.id))
+      && ch?.name
+      && rarityNumber(ch.rarity, 0) === 5
+      && weaponMap[ch.weapon]);
+  const weapons = readJson(weaponsRel)
+    .filter((weapon) => newWeaponIds.has(String(weapon?.id))
+      && weapon?.name
+      && rarityNumber(weapon.rarity, 0) === 5
+      && weapon?.type);
+  const charactersByType = new Map();
+  const weaponsByType = new Map();
+  for (const character of characters) {
+    const type = character.weapon;
+    const rows = charactersByType.get(type) || [];
+    rows.push(character);
+    charactersByType.set(type, rows);
+  }
+  for (const weapon of weapons) {
+    const type = weapon.type;
+    const rows = weaponsByType.get(type) || [];
+    rows.push(weapon);
+    weaponsByType.set(type, rows);
+  }
+  for (const [type, characterRows] of charactersByType) {
+    const weaponRows = weaponsByType.get(type) || [];
+    if (characterRows.length !== 1 || weaponRows.length !== 1) continue;
+    const character = characterRows[0];
+    const weapon = weaponRows[0];
+    const name = cleanText(resolvedCharacterName(character), 120);
+    const key = normKey(name);
+    if (!key || map.has(key)) continue;
+    map.set(key, {
+      id: String(weapon.id),
+      name: sanitizeGiWeaponName(weapon.name, localized[String(weapon.id)]),
+      educated: true,
     });
   }
   return map;
@@ -2928,7 +3065,7 @@ function buildHsrGameDataSignatureMap() {
     setReqMapEntry(out, ch.name, {
       ...lightCone,
       source: 'GameData recommended light cone',
-      educated: false,
+      educated: true,
     }, gamedataCharacterAliases('hsr', ch), { force: String(ch.id) === '1001' });
   }
   return out;
@@ -2997,7 +3134,7 @@ function zzzWEngineType(engine) {
 function buildZzzWEngineRoster() {
   if (!exists(`GameData/zzz/${nch()}/w-engines.json`)) return [];
   return readJson(`GameData/zzz/${nch()}/w-engines.json`)
-    .filter((engine) => engine?.name && rarityNumber(engine.rarity, 0) >= 3)
+    .filter((engine) => profileText(engine?.name) && rarityNumber(engine.rarity, 0) >= 3)
     .map((engine) => {
       const summed = sumZzzWEngineMaterials(engine);
       const type = zzzWEngineType(engine);
@@ -3014,6 +3151,40 @@ function buildZzzWEngineRoster() {
       };
     })
     .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
+function loadZzzBetaIdentityMap() {
+  const out = new Map();
+  if (GAMEDATA_CHANNEL !== 'beta' || !exists('GachaBase/zzz/beta-changelog.json')) return out;
+  for (const row of readJson('GachaBase/zzz/beta-changelog.json').entries || []) {
+    if (row?.game !== 'zzz' || row?.type !== 'agents' || row?.id === undefined || !row?.name) continue;
+    const id = String(row.id);
+    if (!out.has(id)) out.set(id, { id, name: cleanText(row.name, 120) });
+  }
+  return out;
+}
+
+function buildZzzGameDataSignatureMap() {
+  const out = new Map();
+  const agentRel = `GameData/zzz/${nch()}/agents.json`;
+  const engineRel = `GameData/zzz/${nch()}/w-engines.json`;
+  if (!exists(agentRel) || !exists(engineRel)) return out;
+  const agents = new Map(readJson(agentRel).filter((agent) => agent?.id !== undefined).map((agent) => [String(agent.id), agent]));
+  const fallback = loadZzzBetaIdentityMap();
+  const weapons = new Map(buildZzzWEngineRoster().map((weapon) => [String(weapon.id), weapon]));
+  for (const engine of readJson(engineRel)) {
+    const match = String(engine?.codeName || '').match(/^Weapon_[SA]_(\d+)$/i);
+    if (!match) continue;
+    const agent = agents.get(match[1]) || (!agents.has(match[1]) ? fallback.get(match[1]) : null);
+    const weapon = weapons.get(String(engine.id));
+    if (!agent?.name || !weapon) continue;
+    setNamedMapEntry(out, agent.name, {
+      ...weapon,
+      source: 'GameData W-Engine ownership',
+      educated: false,
+    }, gamedataCharacterAliases('zzz', agent));
+  }
+  return out;
 }
 
 function sumWuwaWeaponMaterials(weapon) {
@@ -3044,6 +3215,28 @@ function buildWuwaWeaponRoster() {
       };
     })
     .sort((a, b) => b.rarity - a.rarity || String(a.weaponType || '').localeCompare(String(b.weaponType || '')) || a.name.localeCompare(b.name));
+}
+
+function buildWuwaGameDataSignatureMap() {
+  const out = new Map();
+  const characterRel = `GameData/ww/${nch()}/characters.json`;
+  if (!exists(characterRel)) return out;
+  const weapons = new Map(buildWuwaWeaponRoster().map((weapon) => [String(weapon.id), weapon]));
+  for (const ch of readJson(characterRel)) {
+    if (Number(ch?.rarity) !== 5) continue;
+    const rawRel = `GameData/ww/${nch()}/raw/characters/${ch.id}.json`;
+    if (!ch?.name || !exists(rawRel)) continue;
+    const raw = readJson(rawRel);
+    const firstId = raw?.recommend?.weapon?.[0];
+    const weapon = weapons.get(String(firstId?.id ?? firstId));
+    if (!weapon || Number(weapon.rarity) !== 5 || /^210[1-5]0015$/.test(String(weapon.id))) continue;
+    setNamedMapEntry(out, ch.name, {
+      ...weapon,
+      source: 'GameData recommendation',
+      educated: true,
+    }, gamedataCharacterAliases('ww', ch));
+  }
+  return out;
 }
 
 const weaponRosterCache = new Map();
@@ -3117,10 +3310,10 @@ function prydwenRecommendedEquipment(game, ch) {
   for (const section of recommendationSectionsForCharacter(ch, key)) {
     for (const asset of section.assets || []) {
       const hit = byNorm.get(normKey(asset.name));
-      if (hit) return hit;
+      if (hit) return { ...hit, source:'Prydwen recommendation', educated:true };
     }
     const textHit = findRecommendedEquipmentInText(section.text, weapons);
-    if (textHit) return textHit;
+    if (textHit) return { ...textHit, source:'Prydwen recommendation', educated:true };
   }
 
   return null;
@@ -3266,6 +3459,46 @@ function zzzRequirements(raw) {
   };
 }
 
+const zzzBetaAgentDetailsCache = new Map();
+
+function zzzBetaAgentDetails(channel = nch()) {
+  if (channel !== 'beta') return [];
+  if (zzzBetaAgentDetailsCache.has(channel)) return zzzBetaAgentDetailsCache.get(channel);
+  const details = exists('GachaBase/zzz/beta-changelog.json')
+    ? (readJson('GachaBase/zzz/beta-changelog.json').agentDetails || [])
+    : [];
+  const agents = exists(`GameData/zzz/${channel}/agents.json`) ? readJson(`GameData/zzz/${channel}/agents.json`) : [];
+  const localIds = new Set(agents.map((agent) => String(agent?.id || '')).filter(Boolean));
+  const localNames = new Set(agents.flatMap((agent) => gamedataCharacterAliases('zzz', agent)).map(normKey));
+  const out = details.filter((detail) => detail?.id !== undefined
+    && detail?.name
+    && !localIds.has(String(detail.id))
+    && !gamedataCharacterAliases('zzz', detail).some((name) => localNames.has(normKey(name))));
+  zzzBetaAgentDetailsCache.set(channel, out);
+  return out;
+}
+
+function zzzDetailRequirements(detail) {
+  if (!detail?.materials?.length) return null;
+  const total = sumGameDataMaterialPairs(
+    'zzz',
+    (detail?.materials || []).map((row) => [row.id, row.qty]),
+    zzzMaterialKind,
+    '10',
+  );
+  const ascension = total.items.filter((item) => item.kind === 'gem');
+  const talents = total.items.filter((item) => item.kind !== 'gem');
+  const ascCost = ascension.length && total.cost >= 800000 ? 800000 : 0;
+  const talentCost = Math.max(0, total.cost - ascCost);
+  return {
+    ascension,
+    talents,
+    ascCost,
+    talentCost,
+    currency: total.cost,
+  };
+}
+
 function buildZzzKit(raw) {
   if (!raw) return null;
   const sections = [];
@@ -3335,6 +3568,10 @@ function buildZzzReqMap() {
     const rawRel = `GameData/zzz/${nch()}/raw/agents/${ch.id}.json`;
     if (!ch?.name || !exists(rawRel)) continue;
     setReqMapEntry(out, ch.name, zzzRequirements(readJson(rawRel)), gamedataCharacterAliases('zzz', ch));
+  }
+  for (const detail of zzzBetaAgentDetails()) {
+    const req = zzzDetailRequirements(detail);
+    if (req) setReqMapEntry(out, detail.name, req, gamedataCharacterAliases('zzz', detail));
   }
   return out;
 }
@@ -3526,20 +3763,17 @@ function buildWuwaSkillIconMap() {
 function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName = null, signatureByName = null, kitByName = null) {
   const overlayGame = game === 'ww' ? 'wuwa' : game;
   const overlay = localAvatarOverlay(game);
-  const betaOverlay = GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)
+  const betaOverlay = GAMEDATA_CHANNEL === 'live' && game !== 'zzz' && betaChannelAvailable(game)
     ? localAvatarOverlay(game, 'beta')
     : null;
-  // Beta-status ZZZ agents can exist in the live GameData channel only as placeholder
-  // stubs (default spec/element → wrong cert-seal materials), so source their req/kit
-  // from the beta channel instead when building the live roster.
-  let betaReqByName = null;
-  let betaKitByName = null;
-  if (game === 'zzz' && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable('zzz')) {
+  // HSR keeps its beta signature fallback for live rows. ZZZ beta-only rows must
+  // remain upcoming until the beta channel is merged.
+  let betaSignatureByName = null;
+  if (game === 'hsr' && GAMEDATA_CHANNEL === 'live' && betaChannelAvailable(game)) {
     const prevChannel = GAMEDATA_CHANNEL;
     GAMEDATA_CHANNEL = 'beta';
     try {
-      betaReqByName = buildZzzReqMap();
-      betaKitByName = buildZzzKitMap();
+      betaSignatureByName = buildHsrGameDataSignatureMap();
     } finally {
       GAMEDATA_CHANNEL = prevChannel;
     }
@@ -3551,11 +3785,16 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
   // (which arrive without icons/data). Other games keep the full Prydwen roster.
   const chars = (game === 'zzz' ? rawChars.filter((ch) => {
     const official = ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name));
-    return overlay.has(normKey(ch.name)) || official?.status === 'released' || (GAMEDATA_CHANNEL === 'beta' && official?.status === 'announced');
+    return overlay.has(normKey(ch.name))
+      || overlay.has(normKey(zzzNameOrderAlias(ch.name)))
+      || official?.status === 'released'
+      || (GAMEDATA_CHANNEL === 'beta' && official?.status === 'announced')
+      || trustedPrydwenIcon(game, ch);
   }) : rawChars).map((ch) => {
     const mapped = mapFacts(ch.facts || {});
-    const primaryLocal = overlay.get(normKey(ch.name));
-    const betaLocal = betaOverlay?.get(normKey(ch.name)) || null;
+    const zzzAliasKey = game === 'zzz' ? normKey(zzzNameOrderAlias(ch.name)) : null;
+    const primaryLocal = overlay.get(normKey(ch.name)) || (zzzAliasKey ? overlay.get(zzzAliasKey) : null);
+    const betaLocal = betaOverlay?.get(normKey(ch.name)) || (zzzAliasKey ? betaOverlay?.get(zzzAliasKey) : null) || null;
     // ZZZ beta-status agents can have a live placeholder stub while beta has the
     // real kit. Other games let Nanoka's live row win as soon as it appears.
     const selectedOverlay = chooseCharacterOverlay({
@@ -3576,24 +3815,32 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const meta = fandom.get(normKey(ch.name));
     const officialPortrait = game === 'zzz' ? ZZZ_OFFICIAL_CHARACTER_PORTRAITS.get(normKey(ch.name)) : null;
     const isBetaChar = Boolean(effectiveStatus && effectiveStatus !== 'live' && officialPortrait?.status !== 'released');
-    const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || null;
-    const req = (isBetaChar && lookupByName(betaReqByName)) || lookupByName(reqByName);
+    const lookupByName = (map) => map?.get(String(ch.name || '').toLowerCase()) || map?.get(normKey(ch.name)) || (zzzAliasKey ? map?.get(zzzAliasKey) : null) || null;
+    const req = lookupByName(reqByName);
     const skillIcons = lookupByName(skillIconsByName) || (game === 'zzz' ? ZZZ_SKILL_ICONS : null);
-    const kit = (isBetaChar && lookupByName(betaKitByName)) || lookupByName(kitByName);
-    const gamedataSignature = signatureByName?.get(String(ch.name || '').toLowerCase()) || signatureByName?.get(normKey(ch.name)) || null;
+    const kit = lookupByName(kitByName);
+    const gamedataSignature = (isBetaChar && lookupByName(betaSignatureByName)) || lookupByName(signatureByName);
     const signatureLightCone = game === 'hsr' ? (hsrSignatureForCharacter(ch.name, mapped.path) || gamedataSignature) : null;
-    const signatureEquipment = signatureLightCone ? null : prydwenRecommendedEquipment(game, ch);
+    const signatureEquipment = signatureLightCone
+      ? null
+      : (gamedataSignature || (game === 'zzz' ? null : prydwenRecommendedEquipment(game, ch)));
     const signatureDisplay = signatureLightCone || signatureEquipment;
     const signatureReq = signatureLightCone ? (signatureLightCone.items ? signatureLightCone : hsrLightConeReqMap?.get(normKey(signatureLightCone.name))) : signatureEquipment;
     const holidayArtPool = game === 'hsr' ? (HSR_HOLIDAY_ART.get(normKey(ch.name)) || []) : [];
-    const icon = officialPortrait?.icon || local?.icon || trustedPrydwenIcon(game, ch);
-    const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || (!local?.icon && icon ? 1.18 : undefined);
+    const trustedIcon = trustedPrydwenIcon(game, ch);
+    // Nanoka's unreleased partner icons can be stale copies of another agent.
+    // Prefer Prydwen's exact-slug local portrait for ZZZ beta characters when present.
+    const zzzBetaPortrait = game === 'zzz' && isBetaChar ? trustedIcon : null;
+    const icon = officialPortrait?.icon || zzzBetaPortrait || local?.icon || trustedIcon;
+    const iconZoom = MANUAL_ICON_ZOOM[overlayGame]?.[normKey(ch.name)] || ((!local?.icon || icon === zzzBetaPortrait) && icon ? 1.18 : undefined);
     // D1: the game's own splash art wins; scraped overlay art is the fallback
-    const art = local?.splash || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
-    const card = dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
+    const zzzBetaCard = game === 'zzz' && isBetaChar ? (zzzBetaPortrait || local?.icon || local?.splash) : null;
+    const art = local?.splash || zzzBetaCard || dbAsset(ch.art?.full || ch.art?.card || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
+    const card = zzzBetaCard || dbAsset(ch.art?.card || ch.art?.full || (!local?.fallbackArt ? ch.art?.icon : null)) || local?.fallbackArt;
     const hasReliableData = !!(primaryLocal || req || kit);
     const upcomingOnly = effectiveStatus && effectiveStatus !== 'live' && !hasReliableData;
     const title = local?.title || displayTitle(overlayGame, ch, ch.facts || {});
+    const wikiFullName = game === 'zzz' ? WIKI_TITLE_CACHE.zzz?.pageTitle?.get(normKey(ch.name)) : null;
     const mergedReq = req || signatureReq
       ? {
           ...(req || {}),
@@ -3638,7 +3885,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
           name: signatureDisplay.name,
           path: signatureDisplay.path,
           type: signatureDisplay.weaponType || signatureDisplay.type,
-          educated: false,
+          educated: Boolean(signatureDisplay.educated),
         },
         signatureWeaponId: signatureDisplay.id,
         signatureWeaponName: signatureDisplay.name,
@@ -3651,7 +3898,11 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       labels: ch.statusLabels || [],
       ...mapped,
       baseStats: local?.baseStats || {},
-      facts: { ...(local?.facts || {}), ...(title ? { title } : {}) },
+      facts: {
+        ...(local?.facts || {}),
+        ...(!local?.facts?.fullName && wikiFullName && normKey(wikiFullName) !== normKey(ch.name) ? { fullName:wikiFullName } : {}),
+        ...(title ? { title } : {}),
+      },
       ...(skillIcons ? { skillIcons } : {}),
       ...(kit ? { kit } : {}),
       ...(upcomingOnly ? {
@@ -3678,7 +3929,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
       const req = lookupByName(reqByName, display) || lookupByName(reqByName, character.name);
       const skillIcons = lookupByName(skillIconsByName, display) || lookupByName(skillIconsByName, character.name);
       const kit = lookupByName(kitByName, display) || lookupByName(kitByName, character.name);
-      const characterPath = profileText(profileFirst(character.path));
+      const characterPath = hsrReadablePath(profileText(profileFirst(character.path)));
       const gamedataSignature = lookupByName(signatureByName, display) || lookupByName(signatureByName, character.name);
       const signatureLightCone = hsrSignatureForCharacter(display, characterPath) || gamedataSignature;
       const signatureReq = signatureLightCone
@@ -3734,7 +3985,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
             name: signatureLightCone.name,
             path: signatureLightCone.path,
             type: signatureLightCone.weaponType || signatureLightCone.type,
-            educated: false,
+            educated: Boolean(signatureLightCone.educated),
           },
           signatureWeaponId: signatureLightCone.id,
           signatureWeaponName: signatureLightCone.name,
@@ -3754,7 +4005,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
     const have = new Set(chars.map((c) => normKey(c.n)));
     const firstVal = (v) => (v && typeof v === 'object' ? Object.values(v)[0] : v);
     for (const ag of readJson(`GameData/zzz/${nch()}/agents.json`)) {
-      if (!/^beta/.test(String(ag.contentStatus || '').toLowerCase())) continue;
+      if (String(ag.contentStatus || '').toLowerCase() !== 'beta') continue;
       const display = cleanText(resolvedCharacterName(ag), 120);
       // Match against every known alias, not just the display name — GameData's
       // "Jane" is Prydwen's "Jane Doe", and a display-only check would resurface
@@ -4449,49 +4700,99 @@ function groupByPreferred(roster, key, order, matMap = (x) => [{ n: x }]) {
   }));
 }
 
+function giTalentFamilyName(name) {
+  return String(name || '').match(/^(?:Teachings of|Guide to|Philosophies of)\s+(.+)$/i)?.[1]?.trim() || null;
+}
+
+function giTalentCatalog() {
+  const families = new Map();
+  for (const [id, item] of gamedataRawItemLookup('gi')) {
+    if (item?.type !== 'Character Talent Material') continue;
+    const name = giTalentFamilyName(item?.name);
+    if (!name) continue;
+    const key = normKey(name);
+    if (!families.has(key)) families.set(key, { name, firstId:Number(id), itemIds:[], trioIndex:Number(item?.week) });
+    const family = families.get(key);
+    family.firstId = Math.min(family.firstId, Number(id));
+    family.itemIds.push(String(id));
+    if (Number.isInteger(Number(item?.week))) family.trioIndex = Number(item.week);
+  }
+  return [...families.values()]
+    .map((family) => ({ ...family, itemIds:family.itemIds.sort((a, b) => Number(a) - Number(b)) }))
+    .sort((a, b) => a.firstId - b.firstId);
+}
+
+function giRegionLabel(value) {
+  return String(value || '')
+    .replace(/\s+STAR$/i, '')
+    .trim()
+    .toLowerCase()
+    .replace(/(^|[\s-])([a-z])/g, (_, lead, letter) => lead + letter.toUpperCase());
+}
+
 function buildGiTalentDomains(roster) {
   const lookup = giItemLookup();
-  const domains = GI_DOMAIN_SPECS.map((domain) => ({
-    name: domain.name,
-    trios: domain.trios.map((trio, trioIndex) => ({
-      name: trio.name,
-      firstId: trio.firstId,
+  const domains = [];
+  const byMaterialId = new Map();
+  for (const family of giTalentCatalog()) {
+    if (!domains.length || family.trioIndex === 0 || domains[domains.length - 1].trios.length >= 3) domains.push({ trios:[] });
+    const domain = domains[domains.length - 1];
+    const trioIndex = Number.isInteger(family.trioIndex) ? family.trioIndex : domain.trios.length;
+    const materialId = family.itemIds[family.itemIds.length - 1];
+    const trio = {
+      name: family.name,
+      firstId: family.firstId,
       trioIndex,
       days: trioIndex === 0 ? ['Mon', 'Thu'] : trioIndex === 1 ? ['Tue', 'Fri'] : ['Wed', 'Sat'],
-      material: materialPayloadById(trio.firstId + 2, lookup, `Philosophies of ${trio.name}`, 'book'),
+      material: materialPayloadById(materialId, lookup, `Philosophies of ${family.name}`, 'book'),
       chars: [],
-    })),
-  }));
-
-  for (const ch of cmRosterSource(roster)) {
-    const hit = (ch.req?.talents || [])
-      .map((mat) => GI_BOOK_LOOKUP.get(String(mat.id)))
-      .find(Boolean);
-    if (hit) pushUnique(domains[hit.di].trios[hit.ti].chars, ch.n);
+    };
+    domain.trios.push(trio);
+    family.itemIds.forEach((id) => byMaterialId.set(id, trio));
   }
 
-  return domains
-    .map((domain) => ({
-      ...domain,
-      trios: domain.trios.map((trio) => ({
-        ...trio,
-        chars: trio.chars.sort((a, b) => a.localeCompare(b)),
-      })),
-    }))
-    .filter((domain) => domain.trios.some((trio) => trio.chars.length > 0));
+  const sourceRoster = cmRosterSource(roster);
+  const rosterByName = new Map(sourceRoster.map((ch) => [ch.n, ch]));
+  for (const ch of sourceRoster) {
+    const trio = (ch.req?.talents || []).map((mat) => byMaterialId.get(String(mat.id))).find(Boolean);
+    if (trio) pushUnique(trio.chars, ch.n);
+  }
+
+  return domains.map((domain) => {
+    const known = GI_DOMAIN_SPECS.find((spec) => spec.trios.some((trio) => trio.firstId === domain.trios[0]?.firstId));
+    const knownName = domain.trios[0]?.firstId === 104365 ? 'Snezhnaya - Relics of the Fallen Grace' : known?.name;
+    const counts = new Map();
+    for (const name of domain.trios.flatMap((trio) => trio.chars)) {
+      const ch = rosterByName.get(name);
+      const region = giRegionLabel(ch?.tag || ch?.facts?.nation);
+      if (region) counts.set(region, (counts.get(region) || 0) + 1);
+    }
+    const region = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))[0]?.[0];
+    const fallback = region
+      ? `${region} Talent Domain`
+      : `${domain.trios.map((trio) => trio.name).join(' / ')} Talent Domain`;
+    return {
+      name: knownName || fallback,
+      trios: domain.trios.map((trio) => ({ ...trio, chars:trio.chars.sort((a, b) => a.localeCompare(b)) })),
+    };
+  });
 }
 
 function buildGiWeeklyBosses(roster) {
   const lookup = giItemLookup();
-  const bosses = GI_WEEKLY_BOSS_SPECS.map((spec) => ({
-    bossName: spec.bossName,
-    releaseOrder: spec.releaseOrder,
-    art: giWeeklyBossArt(spec),
-    drops: spec.matIds.map((id) => ({
-      ...materialPayloadById(id, lookup, GI_BOSS_MAT_NAME_FALLBACKS[id], 'weekly'),
-      chars: [],
-    })),
-  }));
+  const bosses = giWeeklyCatalog().map((group, index) => {
+    const spec = GI_WEEKLY_BOSS_SPECS.find((known) => known.matIds.some((id) => group.matIds.includes(id)));
+    const matched = matchMonsterSource(group.bossName, monsterSourceIndex('gi'));
+    return {
+      bossName: spec?.bossName || matched?.name || group.bossName,
+      releaseOrder: index + 1,
+      ...(spec ? { art:giWeeklyBossArt(spec) } : (matched?.icon ? { art:matched.icon } : {})),
+      drops: group.matIds.map((id) => ({
+        ...materialPayloadById(id, lookup, GI_BOSS_MAT_NAME_FALLBACKS[id], 'weekly'),
+        chars: [],
+      })),
+    };
+  });
   const byId = new Map();
   bosses.forEach((boss) => boss.drops.forEach((drop) => byId.set(String(drop.id), drop)));
   const sourcedCharacters = new Set();
@@ -4511,7 +4812,7 @@ function buildGiWeeklyBosses(roster) {
       if (row) {
         pushUnique(row.chars, ch.n);
         sourcedCharacters.add(ch.n);
-      } else if (!GI_NON_WEEKLY_113_IDS.has(id)) {
+      } else if (isGiWeeklyDropId(id)) {
         if (!unknownWeeklyIds.has(id)) unknownWeeklyIds.set(id, new Set());
         unknownWeeklyIds.get(id).add(ch.n);
       }
@@ -4522,7 +4823,7 @@ function buildGiWeeklyBosses(roster) {
     const named = [...unknownWeeklyIds.entries()]
       .map(([id, names]) => `${id} (${[...names].sort().join(', ')})`)
       .join('; ');
-    throw new Error(`GI weekly requirements are missing from GI_WEEKLY_BOSS_SPECS: ${named}`);
+    throw new Error(`GI weekly requirements are missing from the GameData weekly catalog: ${named}`);
   }
 
   const known = bosses
@@ -4561,6 +4862,61 @@ const HSR_BOSS_NAMES = {
   110508: 'Vanquished Flow',
 };
 
+function usableCatalogItem(item) {
+  const name = cleanSourceText(item?.name);
+  return name && !/^(?:\.{2,}|-)$/i.test(name) && !/\{TextID#/i.test(name);
+}
+
+function specificWeeklySource(material) {
+  const clean = (value) => sourceBaseName(value).replace(/\s*-\s*Early Access$/i, '').trim();
+  const direct = String(material?.source || '').split(/\s+\/\s+/)
+    .map(clean)
+    .find((name) => name && !isGenericSource(name) && !/\{TextID#/i.test(name));
+  if (direct) return direct;
+  const details = (material?.sourceDetails || [])
+    .map((detail) => clean(detail?.name))
+    .find((name) => name && !isGenericSource(name) && !/\{TextID#/i.test(name));
+  return details || null;
+}
+
+function buildWeeklyBossesFromCatalog({ game, dataGame = game, roster, include, title, sort }) {
+  const lookup = gamedataItemLookup(dataGame);
+  const liveLookup = gamedataItemLookup(dataGame, 'live');
+  const groups = new Map();
+  const materialForId = (id, fallback = null) => {
+    const current = lookup.get(String(id));
+    const source = usableCatalogItem(current) ? current : (liveLookup.get(String(id)) || current);
+    const sourceLookup = source === current ? lookup : liveLookup;
+    return materialPayloadById(id, sourceLookup, usableCatalogItem(fallback) ? fallback.name : null, 'weekly', game);
+  };
+  const add = (id, fallback = null) => {
+    const sid = String(id || '');
+    if (!sid || groups.has(sid)) return groups.get(sid);
+    const weekly = materialForId(sid, fallback);
+    const bossName = title?.(sid, weekly) || specificWeeklySource(weekly) || weekly.name;
+    const boss = { bossName, drops:[{ ...weekly, chars:[] }] };
+    groups.set(sid, boss);
+    return boss;
+  };
+
+  for (const [key, item] of lookup) {
+    if (key === String(item?.id) && include(item)) add(item.id, item);
+  }
+  for (const ch of cmRosterSource(roster)) {
+    const weekly = (ch.req?.talents || []).find((mat) => mat.kind === 'weekly');
+    if (!weekly) continue;
+    const boss = add(weekly.id || weekly.name, weekly);
+    if (usableCatalogItem(weekly)) boss.drops[0] = { ...weekly, chars:boss.drops[0].chars };
+    pushUnique(boss.drops[0].chars, ch.n);
+  }
+  return [...groups.entries()]
+    .sort(sort)
+    .map(([, boss]) => ({
+      ...boss,
+      drops:boss.drops.map((drop) => ({ ...drop, chars:drop.chars.sort((a, b) => a.localeCompare(b)) })),
+    }));
+}
+
 function buildHsrTraceGroups(roster) {
   const groups = new Map();
   for (const ch of cmRosterSource(roster)) {
@@ -4581,25 +4937,13 @@ function buildHsrTraceGroups(roster) {
 }
 
 function buildHsrWeeklyBosses(roster) {
-  const groups = new Map();
-  for (const ch of cmRosterSource(roster)) {
-    const weekly = (ch.req?.talents || []).find((m) => m.kind === 'weekly');
-    if (!weekly) continue;
-    const id = String(weekly.id);
-    if (!groups.has(id)) {
-      groups.set(id, {
-        bossName: HSR_BOSS_NAMES[id] || weekly.source || 'Echo of War',
-        drops: [{ ...weekly, chars: [] }],
-      });
-    }
-    pushUnique(groups.get(id).drops[0].chars, ch.n);
-  }
-  return [...groups.entries()]
-    .sort((a, b) => Number(b[0]) - Number(a[0]))
-    .map(([, boss]) => ({
-      ...boss,
-      drops: boss.drops.map((drop) => ({ ...drop, chars: drop.chars.sort((a, b) => a.localeCompare(b)) })),
-    }));
+  return buildWeeklyBossesFromCatalog({
+    game:'hsr',
+    roster,
+    include:(item) => item?.subType === 'WeeklyMonsterDrop' && /^1105\d{2}$/.test(String(item.id)),
+    title:(id) => HSR_BOSS_NAMES[id],
+    sort:(a, b) => Number(b[0]) - Number(a[0]),
+  });
 }
 
 function zzzChipFamilyName(name) {
@@ -4640,25 +4984,12 @@ function buildZzzSkillGroups(roster) {
 }
 
 function buildZzzWeeklyBosses(roster) {
-  const groups = new Map();
-  for (const ch of cmRosterSource(roster)) {
-    const weekly = (ch.req?.talents || []).find((m) => m.kind === 'weekly');
-    if (!weekly) continue;
-    const id = String(weekly.id || weekly.name);
-    if (!groups.has(id)) {
-      groups.set(id, {
-        bossName: weekly.source || weekly.name,
-        drops: [{ ...weekly, chars: [] }],
-      });
-    }
-    pushUnique(groups.get(id).drops[0].chars, ch.n);
-  }
-  return [...groups.entries()]
-    .sort((a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)))
-    .map(([, boss]) => ({
-      ...boss,
-      drops: boss.drops.map((drop) => ({ ...drop, chars: drop.chars.sort((a, b) => a.localeCompare(b)) })),
-    }));
+  return buildWeeklyBossesFromCatalog({
+    game:'zzz',
+    roster,
+    include:(item) => /^1100\d{2}$/.test(String(item?.id)),
+    sort:(a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)),
+  });
 }
 
 function wuwaSkillFamilyName(name) {
@@ -4710,25 +5041,13 @@ function buildWuwaSkillGroups(roster) {
 }
 
 function buildWuwaWeeklyBosses(roster) {
-  const groups = new Map();
-  for (const ch of cmRosterSource(roster)) {
-    const weekly = (ch.req?.talents || []).find((m) => m.kind === 'weekly');
-    if (!weekly) continue;
-    const id = String(weekly.id || weekly.name);
-    if (!groups.has(id)) {
-      groups.set(id, {
-        bossName: weekly.source || weekly.name,
-        drops: [{ ...weekly, chars: [] }],
-      });
-    }
-    pushUnique(groups.get(id).drops[0].chars, ch.n);
-  }
-  return [...groups.entries()]
-    .sort((a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)))
-    .map(([, boss]) => ({
-      ...boss,
-      drops: boss.drops.map((drop) => ({ ...drop, chars: drop.chars.sort((a, b) => a.localeCompare(b)) })),
-    }));
+  return buildWeeklyBossesFromCatalog({
+    game:'wuwa',
+    dataGame:'ww',
+    roster,
+    include:(item) => Array.isArray(item?.tag) && item.tag.includes('Skill Upgrade Material'),
+    sort:(a, b) => String(a[1].bossName).localeCompare(String(b[1].bossName)),
+  });
 }
 
 function buildCmCfg(rosters) {
@@ -5040,13 +5359,44 @@ function buildCollections() {
   ]));
 }
 
+const GENSHIN_WEAPON_SUB_STATS = {
+  FIGHT_PROP_ATTACK_PERCENT:'ATK',
+  FIGHT_PROP_CHARGE_EFFICIENCY:'Energy Recharge',
+  FIGHT_PROP_CRITICAL:'CRIT Rate',
+  FIGHT_PROP_CRITICAL_HURT:'CRIT DMG',
+  FIGHT_PROP_DEFENSE_PERCENT:'DEF',
+  FIGHT_PROP_ELEMENT_MASTERY:'Elemental Mastery',
+  FIGHT_PROP_HP_PERCENT:'HP',
+  FIGHT_PROP_NONE:'None',
+  FIGHT_PROP_PHYSICAL_ADD_HURT:'Physical DMG Bonus',
+};
+
+function genshinWeaponFields(item, type) {
+  const statName = GENSHIN_WEAPON_SUB_STATS[item.subStat] || 'Unknown';
+  const stat = item.subStat && item.stats?.[item.subStat.toLowerCase()];
+  const level90 = Number(stat?.base) * Number(stat?.levels?.['90']);
+  const subStat = statName === 'None' || statName === 'Unknown' ? statName
+    : !Number.isFinite(level90) ? 'Unknown'
+      : `${statName} · ${statName === 'Elemental Mastery' ? Math.round(level90) : (level90 * 100).toFixed(1) + '%'}`;
+  const refinement = item.refinements?.['1'];
+  const refinementName = cleanText(refinement?.name, 120);
+  const refinementDescription = cleanDatabaseText(refinement?.desc);
+  return {
+    rarity:databaseRarityLabel(item.rarity),
+    type,
+    baseAttack:Number.isFinite(Number(item.attack)) ? Math.round(Number(item.attack)) : 'Unknown',
+    subStat,
+    weaponEffect:refinementName && refinementDescription ? `${refinementName}: ${refinementDescription}` : 'None',
+  };
+}
+
 function buildCollectionsRaw() {
   const genshinWeapons = normalizeGameDataItems('GameData/gi/live/weapons.json', 'Weapons', 'GameData', (it) => ({
     id: 'gi-wpn-' + it.id,
     name: it.name,
     kind: 'weapon',
     art: dbAsset(it.assets?.icon || it.assets?.gacha),
-    fields: { rarity: databaseRarityLabel(it.rarity), type: weaponMap[it.type] || it.type, atk: it.attack },
+    fields: genshinWeaponFields(it, weaponMap[it.type] || it.type),
     text: cleanDatabaseText(it.description),
   }));
   genshinWeapons.items = genshinWeapons.items.filter((item) => item.fields.type !== 'ITEM_TPS_WEAPON');
@@ -5181,7 +5531,11 @@ function buildLazyCollections() {
           name: it.name,
           kind: 'item',
           ...genshinItemArt(it),
-          fields: { rarity: databaseRarityLabel(it.rarity), type: genshinItemType(it) },
+          fields: {
+            rarity:/local specialty/i.test(String(source?.type || it.type || ''))
+              ? databaseRarityLabel(1) : databaseRarityLabel(it.rarity),
+            type:genshinItemType(it),
+          },
           text: cleanDatabaseText(it.description),
         };
       }),
@@ -5247,6 +5601,21 @@ function buildLazyCollections() {
   };
 }
 
+const GENSHIN_FIREARM_ACCESSORY_EFFECTS = {
+  "Shatanaya's Frostsilver: Muzzle": "When using a Normal Attack, gain 1 stack of Skymirror's Sight, which grants a 1% Cryo DMG Bonus and Physical DMG Bonus. This effect lasts 2s. Max 50 stacks. When you have more than 2 Skymirror's Sight stacks, your Normal Attacks will deal Cryo DMG instead.",
+  "Shatanaya's Frostsilver: Ammo Feed": 'Increases initial ammo by 30 and firing speed by 10%. In Breakthrough mode, the maximum number of Rayspear uses is increased by 2.',
+  "Shatanaya's Frostsilver: Gunstock": 'Firearm becomes more stable when fired. Additionally, each Rayspear charge consumed increases Normal Attack DMG by 5% for 10s. Max 2 stacks.',
+  "Shatanaya's Frostsilver: Sight": "Unlocks an advanced aiming mechanism. Additionally, when a Rayspear hits an opponent, it will cause this opponent's Cryo RES and Physical RES to decrease by 30% for 8s.",
+  "Balsag's Sunwheel: Muzzle": 'When aiming, you can tap the Simulated Elemental Skill to fire off rounds of the current Elemental Type. Doing this will also switch the weapon to rounds of the next Elemental Type in this sequence: Pyro > Hydro > Cryo.',
+  "Balsag's Sunwheel: Ammo Feed": 'Reloading speed is greatly increased. The number of rounds loaded at once is increased to 3.',
+  "Balsag's Sunwheel: Gunstock": 'Firearms are more stable when firing. When you perform a slide, you also automatically reload your gun. Additionally, the equipping character gains a 20% Pyro, Hydro, and Cryo DMG Bonus.',
+  "Balsag's Sunwheel: Sight": "When this weapon's attacks hit an opponent, decreases that opponent's DEF by 25% for 8s.",
+  "Ashamez's Thunder: Muzzle": 'Chain Lightning can bounce two more times and can now bounce to previously hit targets.',
+  "Ashamez's Thunder: Ammo Feed": 'Increases initial ammo by 20. In the Lightsear mode, after firing Chain Lightning 12 times, the next 3 Chain Lightning shots will be converted to the more powerful Gathered Storm, dealing 10% ATK as Electro DMG that is considered Stellar-Conduct reaction DMG, and 3% ATK as Electro DMG that is considered Stellar-Conduct reaction upon bouncing to a target.',
+  "Ashamez's Thunder: Gunstock": "When this gun's attacks hit an opponent, there is 33% chance to decrease Simulated Elemental Skill CD by 1 second. This effect can trigger once every 2s. Additionally, if the opponent hit is within a Polestar Field, this will decrease Simulated Elemental Skill CD by an additional 0.25 seconds.",
+  "Ashamez's Thunder: Sight": 'Unlocks an advanced aiming mechanism and gains 25% Electro DMG Bonus, while Electro DMG that is considered Stellar-Conduct DMG is increased by 25%.',
+};
+
 function buildGenshinShadowRealm() {
   const weapons = readJson('GameData/gi/live/weapons.json')
     .filter((item) => item?.name && item.type === 'ITEM_TPS_WEAPON')
@@ -5255,7 +5624,7 @@ function buildGenshinShadowRealm() {
       name:item.name,
       kind:'weapon',
       art:dbAsset(item.assets?.icon || item.assets?.gacha),
-      fields:{ rarity:databaseRarityLabel(item.rarity), type:'Weapon', atk:item.attack },
+      fields:genshinWeaponFields(item, 'Weapon'),
       text:cleanDatabaseText(item.description),
     }));
   const accessories = readJson('GameData/gi/live/items.json')
@@ -5267,7 +5636,7 @@ function buildGenshinShadowRealm() {
       kind:'item',
       art:dbAsset(item.assets?.icon),
       fields:{ rarity:databaseRarityLabel(item.rarity), type:'Firearm Accessory Blueprint' },
-      text:cleanDatabaseText(item.description),
+      text:cleanDatabaseText(GENSHIN_FIREARM_ACCESSORY_EFFECTS[item.name] || item.description),
     }));
   return { items:[...weapons, ...accessories] };
 }
@@ -5918,7 +6287,7 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
     icon: BANNER_ICON_OVERRIDES[assetKey] || local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || entryImage || beta?.art || null,
+    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || beta?.art || entryImage || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,
@@ -5961,6 +6330,32 @@ function bannerRoadmapCharacters(rosters, key, rows, runCounts) {
   }).filter(Boolean);
 }
 
+function mergePatchOnlyRoadmapIntoNext(current, next, roadmap) {
+  const currentMatch = String(current?.phase || '').trim().match(/^(\d+(?:\.\d+)+)\s+Phase\s+1$/i);
+  if (!currentMatch || !next?.characters?.length) return;
+  const version = currentMatch[1];
+  const nextLabel = String(next.phase || '').trim();
+  const labeledNext = nextLabel.match(/^(\d+(?:\.\d+)+)\s+Phase\s+2$/i);
+  if (nextLabel && labeledNext?.[1] !== version) return;
+  const seen = new Set([...(current.characters || []), ...next.characters]
+    .map((row) => rosterNameKey(row?.name)).filter(Boolean));
+  const additions = [];
+  for (const row of roadmap || []) {
+    const name = rosterNameKey(row?.name);
+    if (!name || seen.has(name)) continue;
+    const hint = String(row?.hint || '');
+    const versions = [...hint.matchAll(/\b(?:(?:Version|Patch)\s*|Release\s+in\s+)(\d+(?:\.\d+)+)\b/gi)]
+      .map((match) => match[1]);
+    const phases = [...hint.matchAll(/\bPhase\s*(\d+)\b/gi)].map((match) => Number(match[1]));
+    if (!versions.length || versions.some((value) => value !== version) || phases.some((value) => value !== 2)) continue;
+    additions.push(row);
+    seen.add(name);
+  }
+  if (!additions.length) return;
+  if (!nextLabel) next.phase = `${version} Phase 2`;
+  next.characters = [...additions, ...next.characters];
+}
+
 // Community banner pages occasionally publish a typo'd year (2026-08-08: the
 // Genshin 7.0 Phase 1 end read "2206-09-01"). A date years out is not a
 // schedule, and shipping it means a countdown claiming 180 years.
@@ -5994,6 +6389,46 @@ function normalizeBannerPhase(rosters, key, phase, runCounts) {
   };
 }
 
+function endfieldLossPool(records, currentRecord) {
+  const primary = (record) => (record?.featured || [])
+    .find((entry) => entry?.primary === true && Number(entry.rarity) === 6 && entry.name);
+  const earliestStart = (record) => Math.min(...Object.values(record?.windowsByRegion || {})
+    .map((window) => Date.parse(window?.start)).filter(Number.isFinite));
+  const chartered = (records || [])
+    .filter((record) => record?.bannerType === 'character' && !record.permanent)
+    .map((record) => ({ record, entry:primary(record), start:earliestStart(record) }))
+    .filter((row) => row.entry && Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start);
+  const currentIndex = chartered.findIndex(({ record }) => record === currentRecord
+    || (record?.id && record.id === currentRecord?.id));
+  const permanent = [];
+  const seen = new Set();
+  for (const record of (records || []).filter((row) => row?.bannerType === 'character' && row.permanent)) {
+    for (const entry of record.featured || []) {
+      const id = String(entry?.name || '').toLowerCase();
+      if (Number(entry?.rarity) !== 6 || !id || seen.has(id)) continue;
+      seen.add(id);
+      permanent.push(entry);
+    }
+  }
+  return {
+    current:currentIndex < 0 ? null : chartered[currentIndex].entry,
+    previous:currentIndex < 0 ? [] : chartered.slice(Math.max(0, currentIndex - 2), currentIndex).reverse().map((row) => row.entry),
+    permanent,
+  };
+}
+
+function latestBannerRow(rows) {
+  return rows.reduce((latest, row) => row.start > latest.start ? row : latest, rows[0]);
+}
+
+function endfieldLiveLossPool(records, liveRows) {
+  const eligible = (liveRows || [])
+    .map((row) => ({ ...row, lossPool:endfieldLossPool(records, row.record) }))
+    .filter((row) => row.lossPool.current);
+  return eligible.length ? latestBannerRow(eligible).lossPool : null;
+}
+
 // What is live right now, straight from the official banner history.
 //
 // The community banner scrape is the only source for what is COMING, but it
@@ -6019,7 +6454,7 @@ function officialPhaseFrom(rows, key, rosters, runCounts) {
   if (!characters.length) return null;
   // A just-announced phase often has a start and no published end yet.
   const ends = rows.map((row) => row.end).filter((value) => Number.isFinite(value));
-  const latestPhase = rows.reduce((latest, row) => row.start > latest.start ? row : latest, rows[0]);
+  const latestPhase = latestBannerRow(rows);
   return {
     phase: latestPhase.phase || latestPhase.record.version || null,
     start: new Date(Math.min(...rows.map((row) => row.start))).toISOString(),
@@ -6099,8 +6534,17 @@ function officialPhases(key, rosters, runCounts, now) {
   // "Next" is only the soonest future phase, not everything on the wiki.
   const soonest = future.length ? Math.min(...future.map((row) => row.start)) : null;
   const nextRows = soonest === null ? [] : future.filter((row) => row.start - soonest < 36 * 60 * 60 * 1000);
+  const current = officialPhaseFrom(live, key, rosters, runCounts);
+  const pool = key === 'ae' ? endfieldLiveLossPool(records, live) : null;
+  if (current && pool) {
+    current.lossPool = {
+      current:normalizeBannerCharacter(rosters, key, pool.current, runCounts),
+      previous:pool.previous.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
+      permanent:pool.permanent.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
+    };
+  }
   return {
-    current:officialPhaseFrom(live, key, rosters, runCounts),
+    current,
     next:officialPhaseFrom(nextRows, key, rosters, runCounts),
   };
 }
@@ -6118,6 +6562,8 @@ function buildBannersData(rosters, betaDeltas = {}) {
     const scrapedCurrent = normalizeBannerPhase(rosters, key, group.current, runCounts);
     const scrapedNext = normalizeBannerPhase(rosters, key, group.next, runCounts);
     const official = officialPhases(key, rosters, runCounts, now);
+    const roadmapRows = group.roadmap || [];
+    const roadmap = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => !row?.pinned), runCounts);
     // The official feed wins for what is live and what is confirmed next. Keep
     // the community phase label ("6.7 Phase 2") only when it describes the same
     // banner — otherwise the label belongs to a phase that already ended.
@@ -6154,6 +6600,7 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // 2) Re-thread current/next/upcoming from the timeline and compute honest
     //    freshness (drops expired-as-current, merges identical windows).
     games[key] = reflowBannerGroup(normalized, now);
+    mergePatchOnlyRoadmapIntoNext(games[key].current, games[key].next, roadmap);
     if (teased.length) games[key].upcoming = [...(games[key].upcoming || []), ...teased];
     const beta = (betaDeltas[key]?.roster || [])
       .filter((row) => row?.betaStatus === 'new')
@@ -6169,8 +6616,6 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // joke (Genshin's Dainsleif + Alice). The scraper flags them inside
     // `roadmap` so they localize their art like everyone else; the split is a
     // display decision, so it happens here.
-    const roadmapRows = group.roadmap || [];
-    const roadmap = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => !row?.pinned), runCounts);
     if (roadmap.length) games[key].roadmap = roadmap;
     const pinned = bannerRoadmapCharacters(rosters, key, roadmapRows.filter((row) => row?.pinned), runCounts);
     if (pinned.length) games[key].pinned = pinned;
@@ -6287,8 +6732,8 @@ function buildRostersForChannel(channel) {
     const rawRosters = {
       gi: buildGiRoster(),
       hsr: buildPrydwenRoster('hsr', (f) => ({ r: f.rarity, el: f.element, path: f.path }), buildHsrReqMap(), buildHsrSkillIconMap(), buildHsrGameDataSignatureMap(), buildHsrKitMap()),
-      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap(), null, null, buildZzzKitMap()),
-      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap(), null, buildWuwaKitMap()),
+      zzz: buildPrydwenRoster('zzz', (f) => ({ r: f.rarity, el: f.attribute, spec: f.specialty, tag: f.faction }), buildZzzReqMap(), null, buildZzzGameDataSignatureMap(), buildZzzKitMap()),
+      wuwa: buildPrydwenRoster('ww', (f) => ({ r: f.rarity, el: f.element, w: f.weapon }), buildWuwaReqMap(), buildWuwaSkillIconMap(), buildWuwaGameDataSignatureMap(), buildWuwaKitMap()),
       ae: buildEndfieldRoster(),
     };
     return Object.fromEntries(
@@ -6400,7 +6845,12 @@ const cmBetaDeltas = (() => {
         const lw = liveWeaponsById.get(bw.id);
         return !lw || rowSig(bw) !== rowSig(lw);
       });
-    if (!delta.length && !weaponDelta.length) continue;
+    const groupedDelta = Object.fromEntries(
+      ['talentDomains', 'weeklyBosses']
+        .filter((field) => rowSig(betaCfg[key]?.[field]) !== rowSig(cmCfg[key]?.[field]))
+        .map((field) => [field, betaCfg[key][field]]),
+    );
+    if (!delta.length && !weaponDelta.length && !Object.keys(groupedDelta).length) continue;
     const manifestKey = key === 'wuwa' ? 'ww' : key;
     out[key] = {
       version: gamedataManifest[manifestKey]?.latest || null,
@@ -6409,6 +6859,7 @@ const cmBetaDeltas = (() => {
       changedCount: delta.filter((ch) => ch.betaStatus === 'changed').length,
       roster: delta,
       ...(weaponDelta.length ? { weapons: weaponDelta } : {}),
+      ...groupedDelta,
     };
   }
   return out;
@@ -6588,6 +7039,10 @@ const nyxData = {
         overviewArt: ch.overviewArt,
         overviewArtPool: ch.overviewArtPool,
         overviewArtZoom: ch.overviewArtZoom,
+        ...(ch.status ? { status: ch.status } : {}),
+        ...(ch.upcoming ? { upcoming: true } : {}),
+        ...(ch.reliableData === false ? { reliableData: false } : {}),
+        ...(ch.noReliableInfo ? { noReliableInfo: true } : {}),
         forms: (ch.forms || []).map((form) => ({
           name: form.rawName || form.n,
           label: form.formLabel,

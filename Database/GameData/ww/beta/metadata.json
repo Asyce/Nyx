@@ -3,31 +3,27 @@
   "game": "ww",
   "gameName": "Wuthering Waves",
   "channel": "beta",
-  "version": "3.6.7",
-  "liveVersion": "3.5",
-  "betaVersion": "3.6.7",
+  "version": "3.6+365",
+  "liveVersion": "3.6+365",
+  "betaVersion": "3.6+365",
   "availableVersions": [
-    "3.5",
-    "3.6.1",
-    "3.6.1+8296177",
-    "3.6.5",
-    "3.6.6",
-    "3.6.7"
+    "3.6",
+    "3.6+365"
   ],
-  "scrapedAt": "2026-08-14T15:36:02.406Z",
+  "scrapedAt": "2026-08-21T14:57:41.238Z",
   "counts": {
-    "characters": 60,
+    "characters": 62,
     "weapons": 131,
-    "echoes": 183,
-    "monsters": 293,
-    "items": 2327
+    "echoes": 181,
+    "monsters": 302,
+    "items": 2345
   },
   "sourceCounts": {
     "characters": 62,
     "weapons": 131,
-    "echoes": 183,
-    "monsters": 293,
-    "items": 2327
+    "echoes": 181,
+    "monsters": 302,
+    "items": 2345
   },
   "newInManifest": {
     "character": [
@@ -39,25 +35,37 @@
       21020106
     ],
     "echo": [
-      6000219,
-      6000220,
       6000221
     ],
     "monster": [
       310001030,
       320000690,
+      340000113,
+      340000123,
+      340000142,
+      340000172,
+      340000212,
+      340000213,
+      340000221,
+      340000222,
+      340000252,
+      340000261,
       340000320,
-      350000430,
-      350000440
+      350000430
     ],
     "item": [
+      51058,
+      55005,
+      55006,
       41400344,
       44010063,
-      44010064,
+      71200015,
+      71200016,
+      71200017,
+      71200018,
+      71200019,
       71300514,
       71300515,
-      71300516,
-      71300517,
       71500098,
       71500099,
       71500100,
@@ -66,14 +74,27 @@
       71500103,
       71500104,
       71500105,
+      80001090,
+      80001091,
+      80110539,
+      80110540,
+      80110541,
+      80110542,
+      80110543,
+      80110544,
+      80110545,
+      80110546,
+      80130066,
+      80130067,
       80131014,
       80700041,
       80700042,
       80700051,
       89103065,
-      89103066
+      89103066,
+      89400006
     ],
-    "hotfix": "3.5.5"
+    "hotfix": "3.6.7"
   },
   "files": {
     "characters": "GameData/ww/beta/characters.json",
@@ -83,40 +104,17 @@
     "items": "GameData/ww/beta/items.json",
     "raw": "GameData/ww/beta/raw"
   },
-  "assetsPlanned": 2917,
+  "assetsPlanned": 3025,
   "betaOmissions": {
-    "count": 2,
-    "records": [
-      {
-        "section": "characters",
-        "id": "1212",
-        "name": "Stay tuned",
-        "missingAssets": [
-          "GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
-          "GameData/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jingran_UI.webp",
-          "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp",
-          "GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp"
-        ]
-      },
-      {
-        "section": "characters",
-        "id": "1413",
-        "name": "Qingxiao",
-        "missingAssets": [
-          "GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
-          "GameData/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qingxiao_UI.webp",
-          "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySuiSui.webp",
-          "GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp"
-        ]
-      }
-    ]
+    "count": 0,
+    "records": []
   },
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
-    "requested": 2917,
+    "requested": 3025,
     "downloaded": 0,
-    "cached": 2821,
-    "missing": 96,
+    "cached": 2965,
+    "missing": 60,
     "missingAssets": [
       {
         "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodySanhua.webp",
@@ -187,44 +185,8 @@
         "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDaNiYa.webp"
       },
       {
-        "path": "GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_74_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jingran_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Jingran_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranB1.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranB1.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranC1.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranC1.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD1.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD1.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD2.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranD2.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranQTE.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranQTE.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranY.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranY.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranT.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconJingran/SP_IconJingranT.webp"
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJingRan.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJingRan.webp"
       },
       {
         "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp",
@@ -287,64 +249,8 @@
         "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp"
       },
       {
-        "path": "GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_73_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/characters/backgrounds/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qingxiao_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconRolePile/T_IconRole_Pile_Qingxiao_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoB1.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoB1.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoC1.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoC1.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoD1.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoD1.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoD2.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoD2.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoQTE.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoQTE.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoY.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoY.webp"
-      },
-      {
-        "path": "GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoT.webp",
-        "gamedataAssetPath": "UIResources/Common/Atlas/SkillIcon/SkillIconQingxiao/SP_IconQingxiaoT.webp"
-      },
-      {
-        "path": "GameData/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM1_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM1_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM2_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM2_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM3_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM3_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM4_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM4_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/chains/UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM6_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconDevice/T_IconDevice_QingxiaoM6_UI.webp"
+        "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQingXiao.webp",
+        "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQingXiao.webp"
       },
       {
         "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDengdeng.webp",
@@ -407,38 +313,6 @@
         "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyXuanLing.webp"
       },
       {
-        "path": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconWeapon/T_IconWeapon21010076_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconWeapon/T_IconWeapon21020106_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
-      },
-      {
         "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp",
         "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_33022_UI.webp"
       },
@@ -449,14 +323,6 @@
       {
         "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31090_UI.webp",
         "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31090_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34030_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34030_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31102_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_31102_UI.webp"
       },
       {
         "path": "GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_dj_27_UI.webp",
@@ -479,14 +345,6 @@
         "gamedataAssetPath": "UIResources/Common/Image/IconRup/T_IconRup_Part_1628_UI.webp"
       },
       {
-        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34030_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34030_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31102_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31102_UI.webp"
-      },
-      {
         "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.webp",
         "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_38_UI.webp"
       },
@@ -497,10 +355,6 @@
       {
         "path": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp",
         "gamedataAssetPath": "UIResources/Common/Image/IconA/T_IconA_shlb_39_UI.webp"
-      },
-      {
-        "path": "GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_249_UI.webp",
-        "gamedataAssetPath": "UIResources/Common/Image/IconTask/T_IconTask_Task_249_UI.webp"
       }
     ]
   },

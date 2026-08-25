@@ -2239,18 +2239,46 @@
       31203,
       12102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33600,
+          33000
+        ],
+        "part_sub_list": [
+          31203,
+          12102
+        ]
+      },
+      {
+        "suit_list": [
+          33000,
+          33600
+        ],
+        "part_sub_list": [
+          31903,
+          12102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          31402,
+          12102
+        ]
+      }
+    ],
     "part4": {
-      "prop": 31402,
-      "name": "Anomaly Mastery",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
-    },
-    "part5": {
       "prop": 31203,
       "name": "Anomaly Proficiency",
       "format": "{0:0}",
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
+    },
+    "part5": {
+      "prop": 31402,
+      "name": "Anomaly Mastery",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
     },
     "part6": {
       "prop": 31903,

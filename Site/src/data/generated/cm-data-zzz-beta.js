@@ -7,166 +7,207 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.3+18283617",
+  "version": "3.2.4+18409985",
   "liveVersion": "3.1",
-  "newCount": 3,
-  "changedCount": 1,
+  "newCount": 2,
+  "changedCount": 2,
   "roster": [
     {
-      "id": "zzz-1381",
-      "n": "Soldier 0 - Anby",
-      "updated": 9007199254740991,
+      "id": "zzz-sigrid",
+      "n": "Sigrid",
+      "localizedNames": {
+        "en": "Sigrid",
+        "zh": "\u5e0c\u683c\u8389\u5fb7",
+        "ja": "\u30b7\u30b0\u30ea\u30c3\u30c9",
+        "ko": "\uc2dc\uadf8\ub9ac\ub4dc"
+      },
+      "slug": "sigrid",
+      "release": 1787097600000,
+      "releasePatch": "3.1",
+      "updated": 1786665600000,
       "sourceOrder": 0,
-      "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
-      "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
-      "card": "../../Database/GameData/zzz/assets/agents/icons/IconRole40.webp",
+      "voiceActors": {
+        "english": "imdb:nm8792229|Dani Chambers",
+        "japanese": "Y\u016bko Kaida|Kaida Y\u016bko (\u7532\u6590\u7530 \u88d5\u5b50)",
+        "chinese": "https://zh.moegirl.org.cn/\u8d3a\u82e5\u5e06|He Ruofan (\u8d3a\u82e5\u5e06)",
+        "korean": "https://namu.wiki/w/\uac15\ud574\ub098|Kang Hae-na (\uac15\ud574\ub098)"
+      },
+      "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "portraitProvenance": {
+        "status": "announced",
+        "sourceUrl": "https://www.hoyolab.com/article_pre/18014398241023132"
+      },
+      "iconZoom": 1.18,
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+      "signatureWeapon": {
+        "id": "14159",
+        "name": "Knight's Extolment",
+        "type": "Attack",
+        "educated": false
+      },
+      "signatureWeaponId": "14159",
+      "signatureWeaponName": "Knight's Extolment",
+      "status": "beta_changed",
+      "labels": [
+        "3.1"
+      ],
       "r": "S",
-      "el": "Electric",
+      "el": "Ice",
       "spec": "Attack",
-      "status": "beta",
+      "tag": "Unknown",
       "baseStats": {
         "level1": {
-          "hp": 617,
-          "atk": 134,
+          "hp": 626,
+          "atk": 135,
           "def": 49,
           "critRate": 0.05,
           "critDmg": 0.5,
           "impact": 93,
-          "anomalyProficiency": 94,
-          "anomalyMastery": 93
+          "anomalyProficiency": 92,
+          "anomalyMastery": 90
         },
         "max": {
           "level": 60,
-          "hp": 7673.7,
-          "atk": 854.76,
-          "def": 612.6,
+          "hp": 7788.7,
+          "atk": 863.21,
+          "def": 606.6,
           "critRate": 0.05,
           "critDmg": 0.5,
           "impact": 93,
-          "anomalyProficiency": 94,
-          "anomalyMastery": 93
+          "anomalyProficiency": 92,
+          "anomalyMastery": 90
         },
         "levels": [
           {
             "label": "Lv. 1/10",
             "level": 1,
             "cap": 10,
-            "hp": 617,
-            "atk": 134,
+            "hp": 626,
+            "atk": 135,
             "def": 49,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           },
           {
             "label": "Lv. 10/20",
             "level": 10,
             "cap": 20,
-            "hp": 1793.51,
-            "atk": 255.49,
-            "def": 143.19,
+            "hp": 1820.8,
+            "atk": 257.32,
+            "def": 141.58,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           },
           {
             "label": "Lv. 20/30",
             "level": 20,
             "cap": 30,
-            "hp": 3054.75,
-            "atk": 384.14,
-            "def": 244.08,
+            "hp": 3099.58,
+            "atk": 387.9,
+            "def": 241.79,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           },
           {
             "label": "Lv. 30/40",
             "level": 30,
             "cap": 40,
-            "hp": 4314.99,
-            "atk": 513.8,
-            "def": 343.96,
+            "hp": 4379.36,
+            "atk": 519.48,
+            "def": 340.99,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           },
           {
             "label": "Lv. 40/50",
             "level": 40,
             "cap": 50,
-            "hp": 5576.23,
-            "atk": 643.45,
-            "def": 444.84,
+            "hp": 5659.14,
+            "atk": 650.05,
+            "def": 441.19,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           },
           {
             "label": "Lv. 50/60",
             "level": 50,
             "cap": 60,
-            "hp": 6836.47,
-            "atk": 773.1,
-            "def": 545.72,
+            "hp": 6938.92,
+            "atk": 780.63,
+            "def": 540.39,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           },
           {
             "label": "Lv. 60/60",
             "level": 60,
             "cap": 60,
-            "hp": 7673.7,
-            "atk": 854.76,
-            "def": 612.6,
+            "hp": 7788.7,
+            "atk": 863.21,
+            "def": 606.6,
             "critRate": 0.05,
             "critDmg": 0.5,
             "impact": 93,
-            "anomalyProficiency": 94,
-            "anomalyMastery": 93
+            "anomalyProficiency": 92,
+            "anomalyMastery": 90
           }
         ]
       },
       "facts": {
-        "faction": "New Eridu Defense Force"
+        "fullName": "Sigrid de L'Azur",
+        "faction": "Roscaelifer",
+        "birthday": "April 23"
       },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.3+18283617",
+        "version": "3.2.4+18409985",
         "sections": [
           {
             "title": "Skills",
             "entries": [
               {
-                "name": "Basic Attack: Penetrating Shock",
+                "name": "Basic Attack: Frost-Tipped Spear",
                 "type": "Basic",
-                "desc": "Press to activate:\nPerform up to five slashes ahead, dealing Electric DMG. After the 4th attack hits the enemy, repeatedly press or hold to quickly pass through enemies in front up to 5 times.\n\nPress to activate:\nPerform up to five slashes ahead, dealing Electric DMG.\nOn the 3rd hit of the Basic Attack, enemies are continuously pulled in.\nAfter the 4th attack hits the enemy, repeatedly press or hold to quickly pass through enemies in front up to 5 times.",
+                "desc": "Press to activate:\nLaunches up to four forward slashes, dealing Ice DMG.\nThe 4th hit of Basic Attack: Frost-Tipped Spear is considered an attack.",
                 "descFormat": [
                   {
-                    "start": 61,
-                    "end": 73,
+                    "start": 64,
+                    "end": 71,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   },
                   {
-                    "start": 255,
-                    "end": 267,
+                    "start": 88,
+                    "end": 120,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -190,239 +231,137 @@
                       {
                         "label": "1st-Hit DMG Multiplier",
                         "values": [
-                          "32.7%",
-                          "35.7%",
-                          "38.7%",
-                          "41.7%",
-                          "44.7%",
-                          "47.7%",
-                          "50.7%",
-                          "53.7%",
-                          "56.7%",
-                          "59.7%",
-                          "62.7%",
-                          "65.7%"
+                          "77%",
+                          "84%",
+                          "91%",
+                          "98%",
+                          "105%",
+                          "112%",
+                          "119%",
+                          "126%",
+                          "133%",
+                          "140%",
+                          "147%",
+                          "154%"
                         ]
                       },
                       {
                         "label": "2nd-Hit DMG Multiplier",
                         "values": [
-                          "62.2%",
-                          "67.9%",
-                          "73.6%",
-                          "79.3%",
-                          "85%",
-                          "90.7%",
-                          "96.4%",
-                          "102.1%",
-                          "107.8%",
-                          "113.5%",
-                          "119.2%",
-                          "124.9%"
+                          "143.8%",
+                          "156.9%",
+                          "170%",
+                          "183.1%",
+                          "196.2%",
+                          "209.3%",
+                          "222.4%",
+                          "235.5%",
+                          "248.6%",
+                          "261.7%",
+                          "274.8%",
+                          "287.9%"
                         ]
                       },
                       {
                         "label": "3rd-Hit DMG Multiplier",
                         "values": [
-                          "80.1%",
-                          "87.4%",
-                          "94.7%",
-                          "102%",
-                          "109.3%",
-                          "116.6%",
-                          "123.9%",
-                          "131.2%",
-                          "138.5%",
-                          "145.8%",
-                          "153.1%",
-                          "160.4%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "100.1%",
-                          "109.2%",
-                          "118.3%",
-                          "127.4%",
-                          "136.5%",
-                          "145.6%",
-                          "154.7%",
-                          "163.8%",
-                          "172.9%",
-                          "182%",
-                          "191.1%",
-                          "200.2%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Finisher DMG Multiplier",
-                        "values": [
-                          "39.9%",
-                          "43.6%",
-                          "47.3%",
-                          "51%",
-                          "54.7%",
-                          "58.4%",
-                          "62.1%",
-                          "65.8%",
-                          "69.5%",
-                          "73.2%",
-                          "76.9%",
-                          "80.6%"
+                          "101.4%",
+                          "110.7%",
+                          "120%",
+                          "129.3%",
+                          "138.6%",
+                          "147.9%",
+                          "157.2%",
+                          "166.5%",
+                          "175.8%",
+                          "185.1%",
+                          "194.4%",
+                          "203.7%"
                         ]
                       },
                       {
                         "label": "4th-Hit DMG Multiplier",
                         "values": [
-                          "154.5%",
-                          "168.6%",
-                          "182.7%",
-                          "196.8%",
-                          "210.9%",
-                          "225%",
-                          "239.1%",
-                          "253.2%",
-                          "267.3%",
-                          "281.4%",
-                          "295.5%",
-                          "309.6%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit DMG Multiplier",
-                        "values": [
-                          "148.5%",
-                          "162%",
-                          "175.5%",
-                          "189%",
-                          "202.5%",
-                          "216%",
-                          "229.5%",
-                          "243%",
-                          "256.5%",
-                          "270%",
-                          "283.5%",
-                          "297%"
+                          "221%",
+                          "241.1%",
+                          "261.2%",
+                          "281.3%",
+                          "301.4%",
+                          "321.5%",
+                          "341.6%",
+                          "361.7%",
+                          "381.8%",
+                          "401.9%",
+                          "422%",
+                          "442.1%"
                         ]
                       },
                       {
                         "label": "1st-Hit Daze Multiplier",
                         "values": [
-                          "27.9%",
-                          "29.2%",
-                          "30.5%",
-                          "31.8%",
-                          "33.1%",
-                          "34.4%",
-                          "35.7%",
-                          "37%",
-                          "38.3%",
-                          "39.6%",
-                          "40.9%",
-                          "42.2%"
+                          "45.4%",
+                          "47.5%",
+                          "49.6%",
+                          "51.7%",
+                          "53.8%",
+                          "55.9%",
+                          "58%",
+                          "60.1%",
+                          "62.2%",
+                          "64.3%",
+                          "66.4%",
+                          "68.5%"
                         ]
                       },
                       {
                         "label": "2nd-Hit Daze Multiplier",
                         "values": [
-                          "54.5%",
-                          "57%",
-                          "59.5%",
-                          "62%",
-                          "64.5%",
-                          "67%",
-                          "69.5%",
-                          "72%",
-                          "74.5%",
-                          "77%",
-                          "79.5%",
-                          "82%"
+                          "88.7%",
+                          "92.8%",
+                          "96.9%",
+                          "101%",
+                          "105.1%",
+                          "109.2%",
+                          "113.3%",
+                          "117.4%",
+                          "121.5%",
+                          "125.6%",
+                          "129.7%",
+                          "133.8%"
                         ]
                       },
                       {
                         "label": "3rd-Hit Daze Multiplier",
                         "values": [
-                          "71.9%",
-                          "75.2%",
-                          "78.5%",
-                          "81.8%",
-                          "85.1%",
-                          "88.4%",
-                          "91.7%",
-                          "95%",
-                          "98.3%",
-                          "101.6%",
-                          "104.9%",
-                          "108.2%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "77%",
-                          "80.5%",
-                          "84%",
-                          "87.5%",
-                          "91%",
-                          "94.5%",
-                          "98%",
-                          "101.5%",
-                          "105%",
-                          "108.5%",
-                          "112%",
-                          "115.5%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Finisher Daze Multiplier",
-                        "values": [
-                          "62.1%",
-                          "65%",
-                          "67.9%",
-                          "70.8%",
-                          "73.7%",
+                          "55.8%",
+                          "58.4%",
+                          "61%",
+                          "63.6%",
+                          "66.2%",
+                          "68.8%",
+                          "71.4%",
+                          "74%",
                           "76.6%",
-                          "79.5%",
-                          "82.4%",
-                          "85.3%",
-                          "88.2%",
-                          "91.1%",
-                          "94%"
+                          "79.2%",
+                          "81.8%",
+                          "84.4%"
                         ]
                       },
                       {
                         "label": "4th-Hit Daze Multiplier",
                         "values": [
-                          "137.7%",
-                          "144%",
-                          "150.3%",
-                          "156.6%",
-                          "162.9%",
-                          "169.2%",
-                          "175.5%",
-                          "181.8%",
-                          "188.1%",
-                          "194.4%",
-                          "200.7%",
-                          "207%"
-                        ]
-                      },
-                      {
-                        "label": "5th-Hit Daze Multiplier",
-                        "values": [
-                          "130.9%",
-                          "136.9%",
-                          "142.9%",
-                          "148.9%",
-                          "154.9%",
-                          "160.9%",
-                          "166.9%",
-                          "172.9%",
-                          "178.9%",
-                          "184.9%",
-                          "190.9%",
-                          "196.9%"
+                          "138.5%",
+                          "144.8%",
+                          "151.1%",
+                          "157.4%",
+                          "163.7%",
+                          "170%",
+                          "176.3%",
+                          "182.6%",
+                          "188.9%",
+                          "195.2%",
+                          "201.5%",
+                          "207.8%"
                         ]
                       }
                     ]
@@ -430,20 +369,282 @@
                 ]
               },
               {
-                "name": "Dodge: Strobe",
+                "name": "Basic Attack: Converging Spear",
+                "type": "Basic",
+                "desc": "While in the state and Basic Attack: Converging Spear can be used, hold to activate:\nLaunches the corresponding Basic Attack: Converging Spear based on the current stage, dealing Ice DMG.\nBasic Attack: Converging Spear has three stages. Each use advances it to the next stage. After performing the third stage of Basic Attack: Converging Spear, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of Basic Attack: Converging Spear, she blocks with her shield. On a successful block, the attack's DMG is negated, the next Basic Attack: Converging Spear deals 100% more Daze, the state is refreshed, and she gains one use of Basic Attack: Converging Spear. Press after a successful block to perform the corresponding stage of Basic Attack: Converging Spear.\nBasic Attack: Converging Spear performed after Basic Attack: Frost-Tipped Spear retains the current stage of Basic Attack: Frost-Tipped Spear.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt level is increased while using this skill.\nCharacter is invulnerable during the third stage of Basic Attack: Converging Spear.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 53,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 112,
+                    "end": 142,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 179,
+                    "end": 186,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 188,
+                    "end": 218,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 313,
+                    "end": 343,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 436,
+                    "end": 466,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 557,
+                    "end": 587,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 659,
+                    "end": 689,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 760,
+                    "end": 790,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 792,
+                    "end": 822,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 839,
+                    "end": 871,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 901,
+                    "end": 933,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 1092,
+                    "end": 1122,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 1st Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "358.3%",
+                          "390.9%",
+                          "423.5%",
+                          "456.1%",
+                          "488.7%",
+                          "521.3%",
+                          "553.9%",
+                          "586.5%",
+                          "619.1%",
+                          "651.7%",
+                          "684.3%",
+                          "716.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "86.3%",
+                          "90.3%",
+                          "94.3%",
+                          "98.3%",
+                          "102.3%",
+                          "106.3%",
+                          "110.3%",
+                          "114.3%",
+                          "118.3%",
+                          "122.3%",
+                          "126.3%",
+                          "130.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 2nd Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "609.1%",
+                          "664.5%",
+                          "719.9%",
+                          "775.3%",
+                          "830.7%",
+                          "886.1%",
+                          "941.5%",
+                          "996.9%",
+                          "1052.3%",
+                          "1107.7%",
+                          "1163.1%",
+                          "1218.5%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "143.1%",
+                          "149.7%",
+                          "156.3%",
+                          "162.9%",
+                          "169.5%",
+                          "176.1%",
+                          "182.7%",
+                          "189.3%",
+                          "195.9%",
+                          "202.5%",
+                          "209.1%",
+                          "215.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Basic Attack: Converging Spear 3rd Stage",
+                "type": "Basic",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "814.6%",
+                          "888.7%",
+                          "962.8%",
+                          "1036.9%",
+                          "1111%",
+                          "1185.1%",
+                          "1259.2%",
+                          "1333.3%",
+                          "1407.4%",
+                          "1481.5%",
+                          "1555.6%",
+                          "1629.7%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "196.2%",
+                          "205.2%",
+                          "214.2%",
+                          "223.2%",
+                          "232.2%",
+                          "241.2%",
+                          "250.2%",
+                          "259.2%",
+                          "268.2%",
+                          "277.2%",
+                          "286.2%",
+                          "295.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Cloudstep",
                 "type": "Dodge",
                 "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
               },
               {
-                "name": "Dash Attack: Torrent",
+                "name": "Dash Attack: Windchase",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nPerform a horizontal slash forward, then follow up with a thrust attack, dealing Electric DMG.",
+                "desc": "Press during a dodge to activate:\nPerforms a forward cleaving slash, dealing Physical DMG.",
                 "descFormat": [
                   {
-                    "start": 115,
-                    "end": 127,
+                    "start": 77,
+                    "end": 89,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "physical"
                   }
                 ],
                 "scaling": [
@@ -467,35 +668,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "82.5%",
-                          "90%",
-                          "97.5%",
-                          "105%",
-                          "112.5%",
-                          "120%",
-                          "127.5%",
-                          "135%",
-                          "142.5%",
-                          "150%",
-                          "157.5%",
-                          "165%"
+                          "119%",
+                          "129.9%",
+                          "140.8%",
+                          "151.7%",
+                          "162.6%",
+                          "173.5%",
+                          "184.4%",
+                          "195.3%",
+                          "206.2%",
+                          "217.1%",
+                          "228%",
+                          "238.9%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "41.3%",
-                          "43.2%",
-                          "45.1%",
-                          "47%",
-                          "48.9%",
-                          "50.8%",
-                          "52.7%",
-                          "54.6%",
-                          "56.5%",
-                          "58.4%",
-                          "60.3%",
-                          "62.2%"
+                          "46.8%",
+                          "49%",
+                          "51.2%",
+                          "53.4%",
+                          "55.6%",
+                          "57.8%",
+                          "60%",
+                          "62.2%",
+                          "64.4%",
+                          "66.6%",
+                          "68.8%",
+                          "71%"
                         ]
                       }
                     ]
@@ -503,9 +704,9 @@
                 ]
               },
               {
-                "name": "Dodge Counter: Ground Flash Counter",
+                "name": "Dodge Counter: Counterthrust",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nRepeatedly slash enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n\nPress during a Perfect Dodge to activate:\nPerform consecutive slashes at enemies in front, dealing Electric DMG. On hit, gain the Voltage Overload state for 15s. Repeated triggers refresh the duration.\nWhile in the Voltage Overload state, dodge performance is enhanced. Additionally, when using Basic Attack/Dash Attack/Dodge Counter, if the enemy target has White Thunder, pressing will immediately cancel the current skill and launch Special Attack: Azure Flash.\nWhile in this state, if the enemy does not have White Thunder, press to directly launch EX Special Attack: Sundering Bolt.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press during a Perfect Dodge to activate:\nCondenses frost around the spearhead before unleashing a powerful counterattack, dealing Ice DMG.\nWhen performed after Basic Attack: Frost-Tipped Spear, Dodge Counter: Counterthrust retains the current stage of Basic Attack: Frost-Tipped Spear.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 15,
@@ -514,40 +715,28 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 85,
-                    "end": 97,
+                    "start": 131,
+                    "end": 138,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   },
                   {
-                    "start": 165,
-                    "end": 178,
+                    "start": 161,
+                    "end": 193,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 195,
+                    "end": 223,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 249,
-                    "end": 261,
+                    "start": 253,
+                    "end": 285,
                     "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 509,
-                    "end": 522,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 586,
-                    "end": 613,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 663,
-                    "end": 676,
-                    "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -571,35 +760,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "250.6%",
-                          "273.4%",
-                          "296.2%",
-                          "319%",
-                          "341.8%",
-                          "364.6%",
-                          "387.4%",
-                          "410.2%",
-                          "433%",
-                          "455.8%",
-                          "478.6%",
-                          "501.4%"
+                          "243.1%",
+                          "265.2%",
+                          "287.3%",
+                          "309.4%",
+                          "331.5%",
+                          "353.6%",
+                          "375.7%",
+                          "397.8%",
+                          "419.9%",
+                          "442%",
+                          "464.1%",
+                          "486.2%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "218.2%",
-                          "228.2%",
-                          "238.2%",
-                          "248.2%",
-                          "258.2%",
-                          "268.2%",
-                          "278.2%",
-                          "288.2%",
-                          "298.2%",
-                          "308.2%",
-                          "318.2%",
-                          "328.2%"
+                          "172.3%",
+                          "180.2%",
+                          "188.1%",
+                          "196%",
+                          "203.9%",
+                          "211.8%",
+                          "219.7%",
+                          "227.6%",
+                          "235.5%",
+                          "243.4%",
+                          "251.3%",
+                          "259.2%"
                         ]
                       }
                     ]
@@ -607,15 +796,15 @@
                 ]
               },
               {
-                "name": "Quick Assist: Cloud Flash",
+                "name": "Quick Assist: Iron Sentinel",
                 "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nRepeatedly slash enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "When the active character is launched, press to activate:\nCondenses ice before lunging forward, dealing Ice DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 101,
-                    "end": 113,
+                    "start": 104,
+                    "end": 111,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -639,35 +828,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "108.2%",
-                          "118.1%",
-                          "128%",
-                          "137.9%",
-                          "147.8%",
-                          "157.7%",
-                          "167.6%",
-                          "177.5%",
-                          "187.4%",
-                          "197.3%",
-                          "207.2%",
-                          "217.1%"
+                          "39.7%",
+                          "43.4%",
+                          "47.1%",
+                          "50.8%",
+                          "54.5%",
+                          "58.2%",
+                          "61.9%",
+                          "65.6%",
+                          "69.3%",
+                          "73%",
+                          "76.7%",
+                          "80.4%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "108.2%",
-                          "113.2%",
-                          "118.2%",
-                          "123.2%",
-                          "128.2%",
-                          "133.2%",
-                          "138.2%",
-                          "143.2%",
-                          "148.2%",
-                          "153.2%",
-                          "158.2%",
-                          "163.2%"
+                          "31.2%",
+                          "32.7%",
+                          "34.2%",
+                          "35.7%",
+                          "37.2%",
+                          "38.7%",
+                          "40.2%",
+                          "41.7%",
+                          "43.2%",
+                          "44.7%",
+                          "46.2%",
+                          "47.7%"
                         ]
                       }
                     ]
@@ -675,7 +864,7 @@
                 ]
               },
               {
-                "name": "Defensive Assist: Counter Surge",
+                "name": "Defensive Assist: Dauntless Cold",
                 "type": "Assist",
                 "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
                 "scaling": [
@@ -752,9 +941,9 @@
                 ]
               },
               {
-                "name": "Assist Follow-Up: Conducting Blow",
+                "name": "Assist Follow-Up: Devouring Frost",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nDash forward and unleash a series of slashes at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press after a Defensive Assist to activate:\nSwings the spear upward before following with a powerful downward attack, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 14,
@@ -763,10 +952,10 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 115,
-                    "end": 127,
+                    "start": 134,
+                    "end": 141,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -790,35 +979,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "407.1%",
-                          "444.2%",
-                          "481.3%",
-                          "518.4%",
-                          "555.5%",
-                          "592.6%",
-                          "629.7%",
-                          "666.8%",
-                          "703.9%",
-                          "741%",
-                          "778.1%",
-                          "815.2%"
+                          "514.9%",
+                          "561.8%",
+                          "608.7%",
+                          "655.6%",
+                          "702.5%",
+                          "749.4%",
+                          "796.3%",
+                          "843.2%",
+                          "890.1%",
+                          "937%",
+                          "983.9%",
+                          "1030.8%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "356.2%",
-                          "372.4%",
-                          "388.6%",
-                          "404.8%",
-                          "421%",
-                          "437.2%",
-                          "453.4%",
-                          "469.6%",
-                          "485.8%",
-                          "502%",
-                          "518.2%",
-                          "534.4%"
+                          "353.8%",
+                          "369.9%",
+                          "386%",
+                          "402.1%",
+                          "418.2%",
+                          "434.3%",
+                          "450.4%",
+                          "466.5%",
+                          "482.6%",
+                          "498.7%",
+                          "514.8%",
+                          "530.9%"
                         ]
                       }
                     ]
@@ -826,15 +1015,15 @@
                 ]
               },
               {
-                "name": "Special Attack: Celestial Thunder",
+                "name": "Special Attack: Frostflower",
                 "type": "Special",
-                "desc": "Press to activate:\nDash diagonally forward, then unleash a cross slash, dealing Electric DMG.\nAnti-Interrupt level is increased while using this skill.",
+                "desc": "Press to activate:\nPerforms three forward thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.",
                 "descFormat": [
                   {
-                    "start": 80,
-                    "end": 92,
+                    "start": 59,
+                    "end": 66,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -858,35 +1047,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "59.6%",
-                          "65.1%",
-                          "70.6%",
-                          "76.1%",
-                          "81.6%",
-                          "87.1%",
-                          "92.6%",
-                          "98.1%",
-                          "103.6%",
-                          "109.1%",
-                          "114.6%",
-                          "120.1%"
+                          "53.7%",
+                          "58.6%",
+                          "63.5%",
+                          "68.4%",
+                          "73.3%",
+                          "78.2%",
+                          "83.1%",
+                          "88%",
+                          "92.9%",
+                          "97.8%",
+                          "102.7%",
+                          "107.6%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "59.6%",
-                          "62.4%",
-                          "65.2%",
-                          "68%",
-                          "70.8%",
-                          "73.6%",
-                          "76.4%",
-                          "79.2%",
-                          "82%",
-                          "84.8%",
-                          "87.6%",
-                          "90.4%"
+                          "42.2%",
+                          "44.2%",
+                          "46.2%",
+                          "48.2%",
+                          "50.2%",
+                          "52.2%",
+                          "54.2%",
+                          "56.2%",
+                          "58.2%",
+                          "60.2%",
+                          "62.2%",
+                          "64.2%"
                         ]
                       }
                     ]
@@ -894,251 +1083,33 @@
                 ]
               },
               {
-                "name": "Special Attack: Azure Flash",
+                "name": "EX Special Attack: Scattered Jade",
                 "type": "Special",
-                "desc": "When Soldier 0 - Anby's attacks hit an enemy, they apply the Silver Star mark and charges the target\nFor every one-third of charge, the enemy receives 1 stack of White Thunder, stacking up to 3 times.\nWhen the enemy has White Thunder, press to activate:\nQuickly dash forward, slashing through enemies and dealing multiple hits of Electric DMG.\nWhen the skill hits an enemy, it will consume 1 stack of White Thunder to trigger an Aftershock that deals 1 extra instance of Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy and while not in the state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nWhen EX Special Attack: Scattered Jade is chained after Basic Attack: Frost-Tipped Spear, Basic Attack: Frost-Tipped Spear's hit count will be retained.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 61,
-                    "end": 72,
+                    "start": 125,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 175,
+                    "end": 208,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 162,
-                    "end": 175,
+                    "start": 226,
+                    "end": 258,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   },
                   {
-                    "start": 220,
-                    "end": 233,
+                    "start": 260,
+                    "end": 292,
                     "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 330,
-                    "end": 342,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 401,
-                    "end": 414,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 429,
-                    "end": 439,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 471,
-                    "end": 483,
-                    "kind": "tone",
-                    "tone": "electro"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "White Thunder DMG Multiplier",
-                        "values": [
-                          "167.2%",
-                          "182.4%",
-                          "197.6%",
-                          "212.8%",
-                          "228%",
-                          "243.2%",
-                          "258.4%",
-                          "273.6%",
-                          "288.8%",
-                          "304%",
-                          "319.2%",
-                          "334.4%"
-                        ]
-                      },
-                      {
-                        "label": "White Thunder Daze Multiplier",
-                        "values": [
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%"
-                        ]
-                      },
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "43%",
-                          "47%",
-                          "51%",
-                          "55%",
-                          "59%",
-                          "63%",
-                          "67%",
-                          "71%",
-                          "75%",
-                          "79%",
-                          "83%",
-                          "87%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "33.1%",
-                          "34.7%",
-                          "36.3%",
-                          "37.9%",
-                          "39.5%",
-                          "41.1%",
-                          "42.7%",
-                          "44.3%",
-                          "45.9%",
-                          "47.5%",
-                          "49.1%",
-                          "50.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Thunder Smite",
-                "type": "Special",
-                "desc": "When the additional damage from White Thunder triggers 3 times on the same enemy:\nA lightning strike will fall at the enemy's location, dealing Electric DMG to enemies within range.\nThis DMG is considered Aftershock DMG.",
-                "descFormat": [
-                  {
-                    "start": 32,
-                    "end": 45,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 144,
-                    "end": 156,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 205,
-                    "end": 215,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Thunder Smite DMG Multiplier",
-                        "values": [
-                          "188.1%",
-                          "205.2%",
-                          "222.3%",
-                          "239.4%",
-                          "256.5%",
-                          "273.6%",
-                          "290.7%",
-                          "307.8%",
-                          "324.9%",
-                          "342%",
-                          "359.1%",
-                          "376.2%"
-                        ]
-                      },
-                      {
-                        "label": "Thunder Smite Daze Multiplier",
-                        "values": [
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Azure Flash - Boundary",
-                "type": "Special",
-                "desc": "When Special Attack: Thunder Smite DMG is triggered:\nIf EX Special Attack: Sundering Bolt or Special Attack: Azure Flash is currently being used, then Special Attack: Azure Flash - Boundary will automatically trigger when the current skill ends, unleashing a flurry of slashes that deal multiple instances of Electric DMG. This skill counts as an Aftershock.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 5,
-                    "end": 34,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 151,
-                    "end": 189,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 309,
-                    "end": 321,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 347,
-                    "end": 357,
-                    "kind": "tone",
-                    "tone": "accent"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -1162,35 +1133,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "249.4%",
-                          "272.1%",
-                          "294.8%",
-                          "317.5%",
-                          "340.2%",
-                          "362.9%",
-                          "385.6%",
-                          "408.3%",
-                          "431%",
-                          "453.7%",
-                          "476.4%",
-                          "499.1%"
+                          "438.8%",
+                          "478.7%",
+                          "518.6%",
+                          "558.5%",
+                          "598.4%",
+                          "638.3%",
+                          "678.2%",
+                          "718.1%",
+                          "758%",
+                          "797.9%",
+                          "837.8%",
+                          "877.7%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "95.4%",
-                          "99.8%",
-                          "104.2%",
-                          "108.6%",
-                          "113%",
-                          "117.4%",
-                          "121.8%",
-                          "126.2%",
-                          "130.6%",
-                          "135%",
-                          "139.4%",
-                          "143.8%"
+                          "274.3%",
+                          "286.8%",
+                          "299.3%",
+                          "311.8%",
+                          "324.3%",
+                          "336.8%",
+                          "349.3%",
+                          "361.8%",
+                          "374.3%",
+                          "386.8%",
+                          "399.3%",
+                          "411.8%"
                         ]
                       }
                     ]
@@ -1198,21 +1169,33 @@
                 ]
               },
               {
-                "name": "EX Special Attack: Sundering Bolt",
+                "name": "EX Special Attack: Shattered Jade",
                 "type": "Special",
-                "desc": "With enough energy, hold to activate:\nCombines her twin swords and throws them forward for a high-speed slash, dealing massive Electric DMG.\nWhen the skill hits an enemy, it will fully charge Silver Star.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough Energy and while in the state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an attack.\nWhen EX Special Attack: Shattered Jade is chained after Basic Attack: Frost-Tipped Spear, Basic Attack: Frost-Tipped Spear's hit count will be retained.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 127,
-                    "end": 139,
+                    "start": 129,
+                    "end": 136,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
                   },
                   {
-                    "start": 192,
-                    "end": 203,
+                    "start": 179,
+                    "end": 212,
                     "kind": "tone",
                     "tone": "accent"
+                  },
+                  {
+                    "start": 230,
+                    "end": 262,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 264,
+                    "end": 296,
+                    "kind": "tone",
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -1236,35 +1219,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "379.6%",
-                          "414.2%",
-                          "448.8%",
-                          "483.4%",
-                          "518%",
-                          "552.6%",
-                          "587.2%",
-                          "621.8%",
-                          "656.4%",
-                          "691%",
-                          "725.6%",
-                          "760.2%"
+                          "1047.8%",
+                          "1143.1%",
+                          "1238.4%",
+                          "1333.7%",
+                          "1429%",
+                          "1524.3%",
+                          "1619.6%",
+                          "1714.9%",
+                          "1810.2%",
+                          "1905.5%",
+                          "2000.8%",
+                          "2096.1%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "458.6%",
-                          "479.5%",
-                          "500.4%",
-                          "521.3%",
-                          "542.2%",
-                          "563.1%",
-                          "584%",
-                          "604.9%",
-                          "625.8%",
-                          "646.7%",
-                          "667.6%",
-                          "688.5%"
+                          "362.6%",
+                          "379.1%",
+                          "395.6%",
+                          "412.1%",
+                          "428.6%",
+                          "445.1%",
+                          "461.6%",
+                          "478.1%",
+                          "494.6%",
+                          "511.1%",
+                          "527.6%",
+                          "544.1%"
                         ]
                       }
                     ]
@@ -1272,9 +1255,9 @@
                 ]
               },
               {
-                "name": "Chain Attack: Leaping Thunderstrike",
+                "name": "Chain Attack: Encroaching Ice",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nLeap forward, then quickly dive and perform a cross slash, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nPerforms a powerful piercing attack against enemies ahead, dealing massive Ice DMG.\nUpon activating this skill, gains the Tempered effect, increasing the DMG dealt by subsequent Basic Attack: Converging Spear attacks by 20% for 50s.\nWhen the current skill hits a Stunned elite or boss enemy for the first time, the current stage of Basic Attack: Converging Spear is recorded and then reset before entering the state. While in , 's duration will not be reduced. Hold to continuously activate the 1st through 3rd stage of Basic Attack: Converging Spear. After activating the 3rd stage of Basic Attack: Converging Spear, ends and Basic Attack: Converging Spear's stage is restored to the recorded stage.\n can trigger at most once against the same target before the target recovers from Stun.\nThis skill is considered an attack.\nWhile in the state, Basic Attack: Converging Spear does not trigger the Chain Attack window when hitting Stunned enemies.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 7,
@@ -1284,9 +1267,51 @@
                   },
                   {
                     "start": 143,
-                    "end": 155,
+                    "end": 150,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 190,
+                    "end": 198,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 246,
+                    "end": 276,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 400,
+                    "end": 430,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 588,
+                    "end": 618,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 654,
+                    "end": 684,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 695,
+                    "end": 725,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 913,
+                    "end": 943,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ],
                 "scaling": [
@@ -1310,35 +1335,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "563.8%",
-                          "615.1%",
-                          "666.4%",
-                          "717.7%",
-                          "769%",
-                          "820.3%",
-                          "871.6%",
-                          "922.9%",
-                          "974.2%",
-                          "1025.5%",
-                          "1076.8%",
-                          "1128.1%"
+                          "943.7%",
+                          "1029.5%",
+                          "1115.3%",
+                          "1201.1%",
+                          "1286.9%",
+                          "1372.7%",
+                          "1458.5%",
+                          "1544.3%",
+                          "1630.1%",
+                          "1715.9%",
+                          "1801.7%",
+                          "1887.5%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "198.1%",
-                          "207.2%",
-                          "216.3%",
-                          "225.4%",
-                          "234.5%",
-                          "243.6%",
-                          "252.7%",
-                          "261.8%",
-                          "270.9%",
-                          "280%",
-                          "289.1%",
-                          "298.2%"
+                          "137.6%",
+                          "143.9%",
+                          "150.2%",
+                          "156.5%",
+                          "162.8%",
+                          "169.1%",
+                          "175.4%",
+                          "181.7%",
+                          "188%",
+                          "194.3%",
+                          "200.6%",
+                          "206.9%"
                         ]
                       }
                     ]
@@ -1346,9 +1371,9 @@
                 ]
               },
               {
-                "name": "Ultimate: Voidstrike",
+                "name": "Ultimate: Frozen Heavens",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nPerform a powerful series of slashes at a large area in front, followed by a lightning strike, dealing massive Electric DMG.\nWhen the skill hits an enemy, it will fully charge Silver Star.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nGathers the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive Ice DMG.\nThis skill is considered an attack.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 26,
@@ -1357,16 +1382,10 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 165,
-                    "end": 177,
+                    "start": 163,
+                    "end": 170,
                     "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 230,
-                    "end": 241,
-                    "kind": "tone",
-                    "tone": "accent"
+                    "tone": "cryo"
                   }
                 ],
                 "scaling": [
@@ -1390,35 +1409,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "1734.9%",
-                          "1892.7%",
-                          "2050.5%",
-                          "2208.3%",
-                          "2366.1%",
-                          "2523.9%",
-                          "2681.7%",
-                          "2839.5%",
-                          "2997.3%",
-                          "3155.1%",
-                          "3312.9%",
-                          "3470.7%"
+                          "2189.8%",
+                          "2388.9%",
+                          "2588%",
+                          "2787.1%",
+                          "2986.2%",
+                          "3185.3%",
+                          "3384.4%",
+                          "3583.5%",
+                          "3782.6%",
+                          "3981.7%",
+                          "4180.8%",
+                          "4379.9%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "276.9%",
-                          "289.5%",
+                          "265.8%",
+                          "277.9%",
+                          "290%",
                           "302.1%",
-                          "314.7%",
-                          "327.3%",
-                          "339.9%",
-                          "352.5%",
-                          "365.1%",
-                          "377.7%",
-                          "390.3%",
-                          "402.9%",
-                          "415.5%"
+                          "314.2%",
+                          "326.3%",
+                          "338.4%",
+                          "350.5%",
+                          "362.6%",
+                          "374.7%",
+                          "386.8%",
+                          "398.9%"
                         ]
                       }
                     ]
@@ -1431,37 +1450,115 @@
             "title": "Core Skill",
             "entries": [
               {
-                "name": "Core Passive: Voltage Gap",
+                "name": "Core Passive: Sky Knight",
                 "type": "Core Passive",
-                "desc": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 25%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 30% of Soldier 0 - Anby's CRIT DMG.",
+                "desc": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                 "descFormat": [
                   {
-                    "start": 48,
-                    "end": 59,
+                    "start": 15,
+                    "end": 47,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 49,
+                    "end": 82,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 78,
-                    "end": 81,
+                    "start": 84,
+                    "end": 117,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 113,
-                    "end": 124,
+                    "start": 119,
+                    "end": 152,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 154,
+                    "end": 183,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 185,
+                    "end": 209,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 153,
-                    "end": 163,
+                    "start": 215,
+                    "end": 243,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 196,
-                    "end": 199,
+                    "start": 381,
+                    "end": 411,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 543,
+                    "end": 573,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 669,
+                    "end": 699,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 743,
+                    "end": 744,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 745,
+                    "end": 746,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 747,
+                    "end": 748,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 775,
+                    "end": 805,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 907,
+                    "end": 910,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 915,
+                    "end": 916,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 960,
+                    "end": 961,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 983,
+                    "end": 985,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -1469,131 +1566,113 @@
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 12.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 15% of Soldier 0 - Anby's CRIT DMG.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 33% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 48,
-                        "end": 59,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 83,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 115,
-                        "end": 126,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 155,
-                        "end": 165,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 198,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 1",
-                    "text": "Soldier 0 - Anby deals 12.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 15% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
-                    "format": [
-                      {
-                        "start": 23,
-                        "end": 28,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 61,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 106,
+                        "start": 84,
                         "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
                         "start": 154,
-                        "end": 165,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 179,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 261,
-                        "end": 272,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 291,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 487,
-                        "end": 500,
-                        "kind": "tone",
-                        "tone": "electro"
-                      },
-                      {
-                        "start": 536,
-                        "end": 565,
-                        "kind": "tone",
-                        "tone": "electro"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 14.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 17.5% of Soldier 0 - Anby's CRIT DMG.",
-                    "format": [
-                      {
-                        "start": 48,
-                        "end": 59,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 83,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 115,
-                        "end": 126,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 155,
-                        "end": 165,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 198,
-                        "end": 203,
+                        "start": 775,
+                        "end": 805,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 907,
+                        "end": 910,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 915,
+                        "end": 916,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 960,
+                        "end": 961,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -1601,191 +1680,227 @@
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Soldier 0 - Anby deals 14.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 17.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 39% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 23,
-                        "end": 28,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 61,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 106,
+                        "start": 84,
                         "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
                         "start": 154,
-                        "end": 165,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 181,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 263,
-                        "end": 274,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 281,
-                        "end": 293,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 489,
-                        "end": 502,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
                       },
                       {
-                        "start": 538,
-                        "end": 567,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 745,
+                        "end": 746,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 747,
+                        "end": 748,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 775,
+                        "end": 805,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 907,
+                        "end": 910,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 915,
+                        "end": 916,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 960,
+                        "end": 961,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 983,
+                        "end": 985,
+                        "kind": "tone",
+                        "tone": "accent"
                       }
                     ]
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 16.5%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 20% of Soldier 0 - Anby's CRIT DMG.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 44% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 48,
-                        "end": 59,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 83,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 115,
-                        "end": 126,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 155,
-                        "end": 165,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 198,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Soldier 0 - Anby deals 16.5% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 20% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
-                    "format": [
-                      {
-                        "start": 23,
-                        "end": 28,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 61,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 106,
+                        "start": 84,
                         "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
                         "start": 154,
-                        "end": 165,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 179,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 261,
-                        "end": 272,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 291,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 487,
-                        "end": 500,
-                        "kind": "tone",
-                        "tone": "electro"
-                      },
-                      {
-                        "start": 536,
-                        "end": 565,
-                        "kind": "tone",
-                        "tone": "electro"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 18.8%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 22.5% of Soldier 0 - Anby's CRIT DMG.",
-                    "format": [
-                      {
-                        "start": 48,
-                        "end": 59,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 83,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 115,
-                        "end": 126,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 155,
-                        "end": 165,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 198,
-                        "end": 203,
+                        "start": 775,
+                        "end": 805,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 907,
+                        "end": 910,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 915,
+                        "end": 916,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 960,
+                        "end": 961,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -1793,287 +1908,341 @@
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Soldier 0 - Anby deals 18.8% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 22.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 50% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 23,
-                        "end": 28,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 61,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 106,
+                        "start": 84,
                         "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
                         "start": 154,
-                        "end": 165,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 181,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 263,
-                        "end": 274,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 281,
-                        "end": 293,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 489,
-                        "end": 502,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
                       },
                       {
-                        "start": 538,
-                        "end": 567,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 745,
+                        "end": 746,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 747,
+                        "end": 748,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 775,
+                        "end": 805,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 907,
+                        "end": 910,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 915,
+                        "end": 916,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 960,
+                        "end": 961,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 983,
+                        "end": 985,
+                        "kind": "tone",
+                        "tone": "accent"
                       }
                     ]
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 20.8%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 25% of Soldier 0 - Anby's CRIT DMG.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 55% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 48,
-                        "end": 59,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 83,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 115,
-                        "end": 126,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 155,
-                        "end": 165,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 198,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Soldier 0 - Anby deals 20.8% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 25% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
-                    "format": [
-                      {
-                        "start": 23,
-                        "end": 28,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 61,
-                        "end": 72,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 106,
+                        "start": 84,
                         "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
                         "start": 154,
-                        "end": 165,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 179,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 261,
-                        "end": 272,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 291,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 487,
-                        "end": 500,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
                       },
                       {
-                        "start": 536,
-                        "end": 565,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 745,
+                        "end": 746,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 747,
+                        "end": 748,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 775,
+                        "end": 805,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 907,
+                        "end": 910,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 915,
+                        "end": 916,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 960,
+                        "end": 961,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 983,
+                        "end": 985,
+                        "kind": "tone",
+                        "tone": "accent"
                       }
                     ]
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 23%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 27.5% of Soldier 0 - Anby's CRIT DMG.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 61% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 48,
-                        "end": 59,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 81,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 113,
-                        "end": 124,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 153,
-                        "end": 163,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 196,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Soldier 0 - Anby deals 23% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 27.5% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
-                    "format": [
-                      {
-                        "start": 23,
-                        "end": 26,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 59,
-                        "end": 70,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 104,
-                        "end": 115,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 152,
-                        "end": 163,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 174,
-                        "end": 179,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 261,
-                        "end": 272,
+                        "start": 747,
+                        "end": 748,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 291,
+                        "start": 775,
+                        "end": 805,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 487,
-                        "end": 500,
-                        "kind": "tone",
-                        "tone": "electro"
-                      },
-                      {
-                        "start": 536,
-                        "end": 565,
-                        "kind": "tone",
-                        "tone": "electro"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Soldier 0 - Anby's DMG against enemies with the Silver Star mark increases by 25%. After an enemy is marked with Silver Star, the CRIT DMG received from Aftershock attacks is further increased by 30% of Soldier 0 - Anby's CRIT DMG.",
-                    "format": [
-                      {
-                        "start": 48,
-                        "end": 59,
+                        "start": 907,
+                        "end": 910,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 78,
-                        "end": 81,
+                        "start": 915,
+                        "end": 916,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 113,
-                        "end": 124,
+                        "start": 960,
+                        "end": 961,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 153,
-                        "end": 163,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 196,
-                        "end": 199,
+                        "start": 983,
+                        "end": 985,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -2081,644 +2250,151 @@
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Soldier 0 - Anby deals 25% more DMG to enemies marked with Silver Star. When an enemy is afflicted with Silver Star, they take additional CRIT DMG from Aftershocks, equal to 30% of Soldier 0 - Anby's CRIT DMG. When marked with a Silver Star, DMG from allies' Aftershocks builds Silver Star charge on the enemy. This effect can trigger once every 5s.\nThe Aftershock CRIT DMG bonus from Silver Star is further increased by 5% of Soldier 0 - Anby's CRIT DMG. When an enemy afflicted with White Thunder is defeated, automatically unleash Special Attack: Thunder Smite on the nearest enemy target.",
+                    "text": "The 4th hit of Basic Attack: Frost-Tipped Spear, EX Special Attack: Scattered Jade, EX Special Attack: Shattered Jade, Assist Follow-Up: Devouring Frost, Chain Attack: Encroaching Ice, Ultimate: Frozen Heavens, and Dodge Counter: Counterthrust are considered attacks.\nWhenever Sigrid hits an enemy with any in combat while not in the state, she enters the state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the state, when Sigrid hits an enemy with an skill, the state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhen triggering or refreshing , its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s.\nWhen ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing increases Sigrid's CRIT Rate by 66% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.\nWhen Sigrid hits a Stunned enemy while in , the Stun DMG Multiplier of her DMG dealt to the target is increased by 20%.",
                     "format": [
                       {
-                        "start": 23,
-                        "end": 26,
+                        "start": 15,
+                        "end": 47,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 49,
+                        "end": 82,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 59,
-                        "end": 70,
+                        "start": 84,
+                        "end": 117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 104,
-                        "end": 115,
+                        "start": 119,
+                        "end": 152,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 154,
+                        "end": 183,
+                        "kind": "tone",
+                        "tone": "cryo"
+                      },
+                      {
+                        "start": 185,
+                        "end": 209,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 152,
-                        "end": 163,
+                        "start": 215,
+                        "end": 243,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 174,
-                        "end": 177,
+                        "start": 381,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 259,
-                        "end": 270,
+                        "start": 543,
+                        "end": 573,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 277,
-                        "end": 289,
+                        "start": 669,
+                        "end": 699,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 485,
-                        "end": 498,
+                        "start": 743,
+                        "end": 744,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
                       },
                       {
-                        "start": 534,
-                        "end": 563,
+                        "start": 745,
+                        "end": 746,
                         "kind": "tone",
-                        "tone": "electro"
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 747,
+                        "end": 748,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 775,
+                        "end": 805,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 907,
+                        "end": 910,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 915,
+                        "end": 916,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 960,
+                        "end": 961,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 983,
+                        "end": 985,
+                        "kind": "tone",
+                        "tone": "accent"
                       }
                     ]
                   }
                 ]
               },
               {
-                "name": "Additional Ability: Voltage Surge",
+                "name": "Additional Ability: Legion of the Skies",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
+                "desc": "When another character in your squad is a Support or Stun character:\nSigrid's ATK increases by 120. This effect scales with character level, with each level providing an additional increase of 12, up to a maximum increase of 840.\nDMG increases by 15% when hitting enemies in the Contamination state.",
                 "descFormat": [
                   {
                     "start": 42,
-                    "end": 46,
+                    "end": 49,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 50,
+                    "start": 53,
                     "end": 57,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 182,
-                    "end": 192,
+                    "start": 247,
+                    "end": 250,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 215,
-                    "end": 226,
+                    "start": 279,
+                    "end": 292,
                     "kind": "tone",
                     "tone": "accent"
                   }
                 ],
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 1",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When Soldier 0 - Anby is the active character, all squad members' Aftershock DMG to enemies with a Silver Star mark increases by 25%.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 182,
-                        "end": 192,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 215,
-                        "end": 226,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When another character in your squad is a Stun or Support character:\nSoldier 0 - Anby's CRIT Rate increases by 10%. When the current active character is Soldier 0 - Anby, all squad members' Aftershocks deal 25% more DMG to enemies marked with Silver Star.\nSoldier 0 - Anby's Chain Attack and Ultimate are treated as Aftershock DMG.",
-                    "format": [
-                      {
-                        "start": 42,
-                        "end": 46,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 50,
-                        "end": 57,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 190,
-                        "end": 201,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 243,
-                        "end": 254,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 275,
-                        "end": 287,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 292,
-                        "end": 300,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 316,
-                        "end": 326,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  }
-                ]
+                "levels": []
               }
             ]
           },
@@ -2726,99 +2402,99 @@
             "title": "Mindscape Cinema",
             "entries": [
               {
-                "name": "Static Charge",
+                "name": "Long, Long Ago",
                 "type": "Mindscape 1",
-                "desc": "When Soldier 0 - Anby uses an EX Special Attack to hit an enemy, it triggers the additional DMG from White Thunder 3 times. This effect does not consume any White Thunder stacks.",
+                "desc": "Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the Aerial Patrol Spear and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25%.",
                 "descFormat": [
                   {
-                    "start": 30,
-                    "end": 47,
+                    "start": 33,
+                    "end": 63,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 101,
-                    "end": 114,
+                    "start": 76,
+                    "end": 95,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
                   },
                   {
-                    "start": 157,
-                    "end": 170,
+                    "start": 133,
+                    "end": 163,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 200,
+                    "end": 230,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 260,
+                    "end": 290,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 323,
+                    "end": 327,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 338,
+                    "end": 345,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 356,
+                    "end": 359,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 373,
+                    "end": 376,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ]
               },
               {
-                "name": "Fail-Safe Protocol",
+                "name": "Legend's First Act",
                 "type": "Mindscape 2",
-                "desc": "Soldier 0 - Anby's CRIT Rate increases by 12%. When she uses her Ultimate, she gains 6 stacks of Thunder's Cry (max 6 stacks). With Thunder's Cry, when using Special Attack: Azure Flash to hit an enemy with White Thunder, it will consume 1 stack of Thunder's Cry instead. Only 1 stack of Thunder's Cry will be consumed when a single use of a skill hits multiple enemies, and consuming Thunder's Cry will still activate the additional DMG from White Thunder.\nAfter activating potential, every 3 stacks of Thunder's Cry consumed, the next Special Attack: Azure Flash - Boundary will be activated faster.",
+                "desc": "PEN Ratio of Unbridled Spear attacks and Basic Attack: Converging Spear increases by 24%. The duration of Aerial Patrol Spear is extended by 2s. Sigrid's Decibel Generation Rate increases by 10%.",
                 "descFormat": [
                   {
-                    "start": 65,
-                    "end": 73,
+                    "start": 13,
+                    "end": 28,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 97,
-                    "end": 110,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 132,
-                    "end": 145,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 158,
-                    "end": 185,
+                    "start": 41,
+                    "end": 71,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 207,
-                    "end": 220,
+                    "start": 85,
+                    "end": 88,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
                   },
                   {
-                    "start": 249,
-                    "end": 262,
+                    "start": 106,
+                    "end": 125,
                     "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 288,
-                    "end": 301,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 385,
-                    "end": 398,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 443,
-                    "end": 456,
-                    "kind": "tone",
-                    "tone": "electro"
-                  },
-                  {
-                    "start": 504,
-                    "end": 517,
-                    "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
                   }
                 ]
               },
               {
-                "name": "Past Glory",
+                "name": "Protector of Miracles",
                 "type": "Mindscape 3",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -2855,26 +2531,44 @@
                 ]
               },
               {
-                "name": "Silver Reverb",
+                "name": "Hero in Training",
                 "type": "Mindscape 4",
-                "desc": "When hitting an enemy marked with Silver Star, Soldier 0 - Anby ignores 12% of the target's Electric RES.",
+                "desc": "Each time upon gaining Aerial Patrol Spear, DMG dealt increases by 18% for 8s. Repeated triggers extend the duration by 8s, up to a maximum of 40s.",
                 "descFormat": [
                   {
-                    "start": 34,
-                    "end": 45,
+                    "start": 23,
+                    "end": 42,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 92,
-                    "end": 104,
+                    "start": 67,
+                    "end": 70,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 75,
+                    "end": 76,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 120,
+                    "end": 121,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ]
               },
               {
-                "name": "Director's Cut",
+                "name": "Skybound Oath",
                 "type": "Mindscape 5",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -2911,25 +2605,61 @@
                 ]
               },
               {
-                "name": "Prequel Protagonist",
+                "name": "Knight of the Skies",
                 "type": "Mindscape 6",
-                "desc": "Upon triggering 6 instances of White Thunder's additional DMG, an electromagnetic vortex will be generated, dealing 1,000% of Soldier 0 - Anby's ATK as Electric DMG against the target and surrounding enemies. This DMG is considered Aftershock DMG.",
+                "desc": "When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG. There is no more limit on the number of times Sigrid can enter the Formation Breaker state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. Formation Breaker state's Basic Attack: Converging Spear will activate faster.",
                 "descFormat": [
                   {
-                    "start": 31,
-                    "end": 44,
+                    "start": 5,
+                    "end": 35,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
                   },
                   {
-                    "start": 152,
-                    "end": 164,
+                    "start": 98,
+                    "end": 101,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "accent"
                   },
                   {
-                    "start": 232,
-                    "end": 242,
+                    "start": 102,
+                    "end": 105,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 106,
+                    "end": 110,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 118,
+                    "end": 125,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 194,
+                    "end": 211,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 252,
+                    "end": 281,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 283,
+                    "end": 300,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 309,
+                    "end": 339,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -3088,12 +2818,12 @@
         ],
         "talents": [
           {
-            "id": "100113",
-            "name": "Basic Shock Chip",
+            "id": "100112",
+            "name": "Basic Freeze Chip",
             "qty": 25,
             "rar": 1,
             "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -3102,12 +2832,12 @@
             ]
           },
           {
-            "id": "100123",
-            "name": "Advanced Shock Chip",
+            "id": "100122",
+            "name": "Advanced Freeze Chip",
             "qty": 75,
             "rar": 3,
             "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -3116,12 +2846,12 @@
             ]
           },
           {
-            "id": "100133",
-            "name": "Specialized Shock Chip",
+            "id": "100132",
+            "name": "Specialized Freeze Chip",
             "qty": 250,
             "rar": 4,
             "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
             "source": "Combat Simulation - Agent Skills",
             "sourceDetails": [
               {
@@ -3144,34 +2874,34 @@
             ]
           },
           {
-            "id": "110002",
-            "name": "Living Drive",
+            "id": "110007",
+            "name": "Crimson Miasma Spike",
             "qty": 9,
             "rar": 5,
             "kind": "weekly",
-            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-            "source": "Unknown Corruption Complex",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+            "source": "Corrupted Wandering Hunter",
             "sourceDetails": [
               {
-                "name": "Unknown Corruption Complex",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                "name": "Wandering Hunter",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
               }
             ]
           },
           {
-            "id": "110509",
-            "name": "Higher Dimensional Data: Mortal Cleave",
+            "id": "110512",
+            "name": "Higher Dimensional Data: Corrupted Dreamsteel",
             "qty": 60,
             "rar": 4,
             "kind": "boss",
-            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-            "source": "Autonomous Tactical Unit - Lumberjack / Expert Challenge",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+            "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "Lumberjack",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Harvester.webp"
+                "name": "Doppelganger Komano Manato",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
               },
               {
                 "name": "Expert Challenge"
@@ -3185,12 +2915,12 @@
               "cost": 2000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 2,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3204,12 +2934,12 @@
               "cost": 3000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 3,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3223,12 +2953,12 @@
               "cost": 6000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3242,12 +2972,12 @@
               "cost": 9000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 3,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3261,12 +2991,12 @@
               "cost": 12000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3280,12 +3010,12 @@
               "cost": 18000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3299,12 +3029,12 @@
               "cost": 45000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 5,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3318,12 +3048,12 @@
               "cost": 67500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 8,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3337,12 +3067,12 @@
               "cost": 90000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 10,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3356,12 +3086,12 @@
               "cost": 112500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3375,12 +3105,12 @@
               "cost": 135000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 15,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3410,12 +3140,12 @@
               "cost": 2000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 2,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3429,12 +3159,12 @@
               "cost": 3000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 3,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3448,12 +3178,12 @@
               "cost": 6000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3467,12 +3197,12 @@
               "cost": 9000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 3,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3486,12 +3216,12 @@
               "cost": 12000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3505,12 +3235,12 @@
               "cost": 18000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3524,12 +3254,12 @@
               "cost": 45000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 5,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3543,12 +3273,12 @@
               "cost": 67500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 8,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3562,12 +3292,12 @@
               "cost": 90000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 10,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3581,12 +3311,12 @@
               "cost": 112500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3600,12 +3330,12 @@
               "cost": 135000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 15,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3635,12 +3365,12 @@
               "cost": 2000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 2,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3654,12 +3384,12 @@
               "cost": 3000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 3,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3673,12 +3403,12 @@
               "cost": 6000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3692,12 +3422,12 @@
               "cost": 9000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 3,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3711,12 +3441,12 @@
               "cost": 12000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3730,12 +3460,12 @@
               "cost": 18000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3749,12 +3479,12 @@
               "cost": 45000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 5,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3768,12 +3498,12 @@
               "cost": 67500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 8,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3787,12 +3517,12 @@
               "cost": 90000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 10,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3806,12 +3536,12 @@
               "cost": 112500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3825,12 +3555,12 @@
               "cost": 135000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 15,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3860,12 +3590,12 @@
               "cost": 2000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 2,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3879,12 +3609,12 @@
               "cost": 3000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 3,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3898,12 +3628,12 @@
               "cost": 6000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3917,12 +3647,12 @@
               "cost": 9000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 3,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3936,12 +3666,12 @@
               "cost": 12000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3955,12 +3685,12 @@
               "cost": 18000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3974,12 +3704,12 @@
               "cost": 45000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 5,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -3993,12 +3723,12 @@
               "cost": 67500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 8,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4012,12 +3742,12 @@
               "cost": 90000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 10,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4031,12 +3761,12 @@
               "cost": 112500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4050,12 +3780,12 @@
               "cost": 135000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 15,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4085,12 +3815,12 @@
               "cost": 2000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 2,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4104,12 +3834,12 @@
               "cost": 3000,
               "items": [
                 {
-                  "id": "100113",
-                  "name": "Basic Shock Chip",
+                  "id": "100112",
+                  "name": "Basic Freeze Chip",
                   "qty": 3,
                   "rar": 1,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4123,12 +3853,12 @@
               "cost": 6000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 2,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4142,12 +3872,12 @@
               "cost": 9000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 3,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4161,12 +3891,12 @@
               "cost": 12000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 4,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4180,12 +3910,12 @@
               "cost": 18000,
               "items": [
                 {
-                  "id": "100123",
-                  "name": "Advanced Shock Chip",
+                  "id": "100122",
+                  "name": "Advanced Freeze Chip",
                   "qty": 6,
                   "rar": 3,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillIce02.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4199,12 +3929,12 @@
               "cost": 45000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 5,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4218,12 +3948,12 @@
               "cost": 67500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 8,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4237,12 +3967,12 @@
               "cost": 90000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 10,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4256,12 +3986,12 @@
               "cost": 112500,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 12,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4275,12 +4005,12 @@
               "cost": 135000,
               "items": [
                 {
-                  "id": "100133",
-                  "name": "Specialized Shock Chip",
+                  "id": "100132",
+                  "name": "Specialized Freeze Chip",
                   "qty": 15,
                   "rar": 4,
                   "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpIce01.webp",
                   "source": "Combat Simulation - Agent Skills",
                   "sourceDetails": [
                     {
@@ -4314,18 +4044,18 @@
               "cost": 12000,
               "items": [
                 {
-                  "id": "110509",
-                  "name": "Higher Dimensional Data: Mortal Cleave",
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
                   "qty": 2,
                   "rar": 4,
                   "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "source": "Autonomous Tactical Unit - Lumberjack / Expert Challenge",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "Lumberjack",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Harvester.webp"
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
                     },
                     {
                       "name": "Expert Challenge"
@@ -4338,18 +4068,18 @@
               "cost": 28000,
               "items": [
                 {
-                  "id": "110509",
-                  "name": "Higher Dimensional Data: Mortal Cleave",
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
                   "qty": 4,
                   "rar": 4,
                   "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "source": "Autonomous Tactical Unit - Lumberjack / Expert Challenge",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "Lumberjack",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Harvester.webp"
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
                     },
                     {
                       "name": "Expert Challenge"
@@ -4362,34 +4092,34 @@
               "cost": 60000,
               "items": [
                 {
-                  "id": "110002",
-                  "name": "Living Drive",
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
                   "qty": 2,
                   "rar": 5,
                   "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "source": "Unknown Corruption Complex",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
                   "sourceDetails": [
                     {
-                      "name": "Unknown Corruption Complex",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
                     }
                   ]
                 },
                 {
-                  "id": "110509",
-                  "name": "Higher Dimensional Data: Mortal Cleave",
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
                   "qty": 9,
                   "rar": 4,
                   "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "source": "Autonomous Tactical Unit - Lumberjack / Expert Challenge",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "Lumberjack",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Harvester.webp"
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
                     },
                     {
                       "name": "Expert Challenge"
@@ -4402,34 +4132,34 @@
               "cost": 100000,
               "items": [
                 {
-                  "id": "110002",
-                  "name": "Living Drive",
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
                   "qty": 3,
                   "rar": 5,
                   "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "source": "Unknown Corruption Complex",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
                   "sourceDetails": [
                     {
-                      "name": "Unknown Corruption Complex",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
                     }
                   ]
                 },
                 {
-                  "id": "110509",
-                  "name": "Higher Dimensional Data: Mortal Cleave",
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
                   "qty": 15,
                   "rar": 4,
                   "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "source": "Autonomous Tactical Unit - Lumberjack / Expert Challenge",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "Lumberjack",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Harvester.webp"
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
                     },
                     {
                       "name": "Expert Challenge"
@@ -4442,34 +4172,34 @@
               "cost": 200000,
               "items": [
                 {
-                  "id": "110002",
-                  "name": "Living Drive",
+                  "id": "110007",
+                  "name": "Crimson Miasma Spike",
                   "qty": 4,
                   "rar": 5,
                   "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "source": "Unknown Corruption Complex",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+                  "source": "Corrupted Wandering Hunter",
                   "sourceDetails": [
                     {
-                      "name": "Unknown Corruption Complex",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                      "name": "Wandering Hunter",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
                     }
                   ]
                 },
                 {
-                  "id": "110509",
-                  "name": "Higher Dimensional Data: Mortal Cleave",
+                  "id": "110512",
+                  "name": "Higher Dimensional Data: Corrupted Dreamsteel",
                   "qty": 30,
                   "rar": 4,
                   "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss009.webp",
-                  "source": "Autonomous Tactical Unit - Lumberjack / Expert Challenge",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss012.webp",
+                  "source": "Miasmic Doppelganger - Komano Manato / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "Lumberjack",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Harvester.webp"
+                      "name": "Doppelganger Komano Manato",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_NoranoEgo_Slime.webp"
                     },
                     {
                       "name": "Expert Challenge"
@@ -4482,4271 +4212,42 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Knight's Extolment",
+          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1591.webp",
+          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1591.webp",
+          "items": [
+            {
+              "id": "101010",
+              "name": "Attack Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankDamage01.webp"
+            },
+            {
+              "id": "101020",
+              "name": "Reinforced Attack Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankDamage02.webp"
+            },
+            {
+              "id": "101030",
+              "name": "Specialized Attack Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankDamage03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1,
-      "betaStatus": "new"
-    },
-    {
-      "id": "zzz-1531",
-      "n": "Starlight - Billy",
-      "updated": 9007199254740991,
-      "sourceOrder": 0,
-      "icon": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
-      "art": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
-      "card": "../../Database/GameData/zzz/assets/agents/icons/IconRole62.webp",
-      "r": "S",
-      "el": "Physical",
-      "spec": "Rupture",
-      "status": "beta",
-      "baseStats": {
-        "level1": {
-          "hp": 683,
-          "atk": 124,
-          "def": 36,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 95,
-          "anomalyProficiency": 90,
-          "anomalyMastery": 89
-        },
-        "max": {
-          "level": 60,
-          "hp": 8497.14,
-          "atk": 784.91,
-          "def": 446,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 95,
-          "anomalyProficiency": 90,
-          "anomalyMastery": 89
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/10",
-            "level": 1,
-            "cap": 10,
-            "hp": 683,
-            "atk": 124,
-            "def": 36,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          },
-          {
-            "label": "Lv. 10/20",
-            "level": 10,
-            "cap": 20,
-            "hp": 1986.43,
-            "atk": 235.1,
-            "def": 104.78,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 3382.57,
-            "atk": 353.67,
-            "def": 177.42,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 4778.71,
-            "atk": 472.23,
-            "def": 251.07,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 6173.86,
-            "atk": 591.79,
-            "def": 323.71,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 7570,
-            "atk": 710.35,
-            "def": 397.36,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          },
-          {
-            "label": "Lv. 60/60",
-            "level": 60,
-            "cap": 60,
-            "hp": 8497.14,
-            "atk": 784.91,
-            "def": 446,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 95,
-            "anomalyProficiency": 90,
-            "anomalyMastery": 89
-          }
-        ]
-      },
-      "facts": {
-        "faction": "Cunning Hares"
-      },
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "3.2.3+18283617",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Knight's Technique",
-                "type": "Basic",
-                "desc": "Press to activate:\nPerforms up to four attacks forward, dealing Physical DMG.\nDuring the 4th hit, press to use Special Attack: Drive Suppression, reducing HP consumption by 50%.\nRestores a small amount of HP on hit.",
-                "descFormat": [
-                  {
-                    "start": 64,
-                    "end": 76,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 111,
-                    "end": 144,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "50.3%",
-                          "54.9%",
-                          "59.5%",
-                          "64.1%",
-                          "68.7%",
-                          "73.3%",
-                          "77.9%",
-                          "82.5%",
-                          "87.1%",
-                          "91.7%",
-                          "96.3%",
-                          "100.9%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "68%",
-                          "74.2%",
-                          "80.4%",
-                          "86.6%",
-                          "92.8%",
-                          "99%",
-                          "105.2%",
-                          "111.4%",
-                          "117.6%",
-                          "123.8%",
-                          "130%",
-                          "136.2%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "54.5%",
-                          "59.5%",
-                          "64.5%",
-                          "69.5%",
-                          "74.5%",
-                          "79.5%",
-                          "84.5%",
-                          "89.5%",
-                          "94.5%",
-                          "99.5%",
-                          "104.5%",
-                          "109.5%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "206%",
-                          "224.8%",
-                          "243.6%",
-                          "262.4%",
-                          "281.2%",
-                          "300%",
-                          "318.8%",
-                          "337.6%",
-                          "356.4%",
-                          "375.2%",
-                          "394%",
-                          "412.8%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "39.9%",
-                          "41.8%",
-                          "43.7%",
-                          "45.6%",
-                          "47.5%",
-                          "49.4%",
-                          "51.3%",
-                          "53.2%",
-                          "55.1%",
-                          "57%",
-                          "58.9%",
-                          "60.8%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "56.8%",
-                          "59.4%",
-                          "62%",
-                          "64.6%",
-                          "67.2%",
-                          "69.8%",
-                          "72.4%",
-                          "75%",
-                          "77.6%",
-                          "80.2%",
-                          "82.8%",
-                          "85.4%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "48%",
-                          "50.2%",
-                          "52.4%",
-                          "54.6%",
-                          "56.8%",
-                          "59%",
-                          "61.2%",
-                          "63.4%",
-                          "65.6%",
-                          "67.8%",
-                          "70%",
-                          "72.2%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "163.5%",
-                          "171%",
-                          "178.5%",
-                          "186%",
-                          "193.5%",
-                          "201%",
-                          "208.5%",
-                          "216%",
-                          "223.5%",
-                          "231%",
-                          "238.5%",
-                          "246%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Basic Attack: Full-Throttle Starlight",
-                "type": "Basic",
-                "desc": "With enough Determination, hold to activate:\nCharges forward on the motorcycle, then fires a laser beam, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 12,
-                    "end": 25,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 121,
-                    "end": 133,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1043.2%",
-                          "1138.1%",
-                          "1233%",
-                          "1327.9%",
-                          "1422.8%",
-                          "1517.7%",
-                          "1612.6%",
-                          "1707.5%",
-                          "1802.4%",
-                          "1897.3%",
-                          "1992.2%",
-                          "2087.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "341.1%",
-                          "356.7%",
-                          "372.3%",
-                          "387.9%",
-                          "403.5%",
-                          "419.1%",
-                          "434.7%",
-                          "450.3%",
-                          "465.9%",
-                          "481.5%",
-                          "497.1%",
-                          "512.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Close Call!",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dodge: Through the Galaxy",
-                "type": "Dodge",
-                "desc": "During Special Attack: Drive Suppression, drag the or hold to activate:\nDrifts with the motorcycle, enabling Perfect Dodges for a brief duration.\nIf a Perfect Dodge is successfully triggered, it immediately chains into Dodge Counter: Afterfire Spin.\nDuring this skill, continue dragging the or holding to continue drifting.\nDuring this skill, the duration of Special Attack: Drive Suppression will continue, and upon reaching the maximum duration, it automatically chains into EX Special Attack: Cool Wheelie.\nIf the skill ends early, it automatically chains into Special Attack: Run Wild.\nCharacter is briefly invulnerable and Anti-Interrupt Level increases during this skill.",
-                "descFormat": [
-                  {
-                    "start": 7,
-                    "end": 40,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 109,
-                    "end": 123,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 151,
-                    "end": 164,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 219,
-                    "end": 248,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 359,
-                    "end": 392,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 477,
-                    "end": 508,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 564,
-                    "end": 588,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Dash Attack: Starlight Retribution",
-                "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nPerforms a quick forward slash, dealing Physical DMG.",
-                "descFormat": [
-                  {
-                    "start": 74,
-                    "end": 86,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "45.1%",
-                          "49.2%",
-                          "53.3%",
-                          "57.4%",
-                          "61.5%",
-                          "65.6%",
-                          "69.7%",
-                          "73.8%",
-                          "77.9%",
-                          "82%",
-                          "86.1%",
-                          "90.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "23.9%",
-                          "25%",
-                          "26.1%",
-                          "27.2%",
-                          "28.3%",
-                          "29.4%",
-                          "30.5%",
-                          "31.6%",
-                          "32.7%",
-                          "33.8%",
-                          "34.9%",
-                          "36%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Duel King",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nFires a blast from his arm cannon, dealing Physical DMG.\nIf this skill is triggered via a Perfect Dodge, hitting an enemy restores 10% of Max HP, and it can be chained into the 4th hit of Basic Attack: Knight's Technique.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 15,
-                    "end": 28,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 85,
-                    "end": 97,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 132,
-                    "end": 145,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 230,
-                    "end": 262,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "119.5%",
-                          "130.4%",
-                          "141.3%",
-                          "152.2%",
-                          "163.1%",
-                          "174%",
-                          "184.9%",
-                          "195.8%",
-                          "206.7%",
-                          "217.6%",
-                          "228.5%",
-                          "239.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "97.3%",
-                          "101.8%",
-                          "106.3%",
-                          "110.8%",
-                          "115.3%",
-                          "119.8%",
-                          "124.3%",
-                          "128.8%",
-                          "133.3%",
-                          "137.8%",
-                          "142.3%",
-                          "146.8%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Afterfire Spin",
-                "type": "Dodge",
-                "desc": "During Dodge: Through the Galaxy, trigger a Perfect Dodge to activate:\nSpins with the bike to deal Physical DMG to surrounding enemies.\nAfter using this skill, it automatically chains into EX Special Attack: Cool Wheelie.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 7,
-                    "end": 32,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 44,
-                    "end": 57,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 99,
-                    "end": 111,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 189,
-                    "end": 220,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "198.7%",
-                          "216.8%",
-                          "234.9%",
-                          "253%",
-                          "271.1%",
-                          "289.2%",
-                          "307.3%",
-                          "325.4%",
-                          "343.5%",
-                          "361.6%",
-                          "379.7%",
-                          "397.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "187%",
-                          "195.5%",
-                          "204%",
-                          "212.5%",
-                          "221%",
-                          "229.5%",
-                          "238%",
-                          "246.5%",
-                          "255%",
-                          "263.5%",
-                          "272%",
-                          "280.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Starlight - Power of Bonds",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nFires a blast from his arm cannon ahead, dealing Physical DMG. When HP is above 25%, this skill is replaced with Special Attack: Drive Suppression. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 107,
-                    "end": 119,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 171,
-                    "end": 204,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "92%",
-                          "100.4%",
-                          "108.8%",
-                          "117.2%",
-                          "125.6%",
-                          "134%",
-                          "142.4%",
-                          "150.8%",
-                          "159.2%",
-                          "167.6%",
-                          "176%",
-                          "184.4%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "48.7%",
-                          "51%",
-                          "53.3%",
-                          "55.6%",
-                          "57.9%",
-                          "60.2%",
-                          "62.5%",
-                          "64.8%",
-                          "67.1%",
-                          "69.4%",
-                          "71.7%",
-                          "74%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Hero's Entrance",
-                "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "271.3%",
-                          "283.7%",
-                          "296.1%",
-                          "308.5%",
-                          "320.9%",
-                          "333.3%",
-                          "345.7%",
-                          "358.1%",
-                          "370.5%",
-                          "382.9%",
-                          "395.3%",
-                          "407.7%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "342.8%",
-                          "358.4%",
-                          "374%",
-                          "389.6%",
-                          "405.2%",
-                          "420.8%",
-                          "436.4%",
-                          "452%",
-                          "467.6%",
-                          "483.2%",
-                          "498.8%",
-                          "514.4%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "166.8%",
-                          "174.4%",
-                          "182%",
-                          "189.6%",
-                          "197.2%",
-                          "204.8%",
-                          "212.4%",
-                          "220%",
-                          "227.6%",
-                          "235.2%",
-                          "242.8%",
-                          "250.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Villain's Exit",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nKicks the motorcycle at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 14,
-                    "end": 30,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 96,
-                    "end": 108,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "229.6%",
-                          "250.5%",
-                          "271.4%",
-                          "292.3%",
-                          "313.2%",
-                          "334.1%",
-                          "355%",
-                          "375.9%",
-                          "396.8%",
-                          "417.7%",
-                          "438.6%",
-                          "459.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "203.7%",
-                          "213%",
-                          "222.3%",
-                          "231.6%",
-                          "240.9%",
-                          "250.2%",
-                          "259.5%",
-                          "268.8%",
-                          "278.1%",
-                          "287.4%",
-                          "296.7%",
-                          "306%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Drive Suppression",
-                "type": "Special",
-                "desc": "When HP is above 25%, press to activate:\nConsumes HP equal to 16% of Max HP to summon a motorcycle and swiftly crash into enemies, continuously dealing Physical DMG.\nIf attacked by an enemy as the active character shortly upon activating this skill, triggers a block, negating the attack and restoring 5 Determination.\nAfter triggering a block, immediately chains into EX Special Attack: Cool Wheelie.\nAfter the skill continues for a while, it automatically chains into EX Special Attack: Cool Wheelie.\nAnti-Interrupt level is increased while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 152,
-                    "end": 164,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 304,
-                    "end": 317,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 369,
-                    "end": 400,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 470,
-                    "end": 501,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "52%",
-                          "56.8%",
-                          "61.6%",
-                          "66.4%",
-                          "71.2%",
-                          "76%",
-                          "80.8%",
-                          "85.6%",
-                          "90.4%",
-                          "95.2%",
-                          "100%",
-                          "104.8%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "110%",
-                          "115%",
-                          "120%",
-                          "125%",
-                          "130%",
-                          "135%",
-                          "140%",
-                          "145%",
-                          "150%",
-                          "155%",
-                          "160%",
-                          "165%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Run Wild",
-                "type": "Special",
-                "desc": "Triggers automatically when Dodge: Through the Galaxy is interrupted:\nKicks his motorcycle at enemies, dealing Physical DMG.\nAfter using this skill, it can be chained into Dodge Counter: Duel King.\nAnti-Interrupt level is increased while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 28,
-                    "end": 53,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 111,
-                    "end": 123,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 172,
-                    "end": 196,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "72.1%",
-                          "78.7%",
-                          "85.3%",
-                          "91.9%",
-                          "98.5%",
-                          "105.1%",
-                          "111.7%",
-                          "118.3%",
-                          "124.9%",
-                          "131.5%",
-                          "138.1%",
-                          "144.7%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "58.7%",
-                          "61.4%",
-                          "64.1%",
-                          "66.8%",
-                          "69.5%",
-                          "72.2%",
-                          "74.9%",
-                          "77.6%",
-                          "80.3%",
-                          "83%",
-                          "85.7%",
-                          "88.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Cool Wheelie",
-                "type": "Special",
-                "desc": "Triggers automatically when Special Attack: Drive Suppression reaches its maximum duration or a block is triggered:\nLifts the motorcycle to attack enemies, dealing Physical DMG.\nOn hit, restores an additional 8 Determination.\nAfter using this skill, with enough Adrenaline, press or hold to chain into EX Special Attack: Rocking Footwork.\nAfter the skill animation ends, automatically chains into Special Attack: Run Wild.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 28,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 164,
-                    "end": 176,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 211,
-                    "end": 224,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 302,
-                    "end": 337,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 397,
-                    "end": 421,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "389.7%",
-                          "425.2%",
-                          "460.7%",
-                          "496.2%",
-                          "531.7%",
-                          "567.2%",
-                          "602.7%",
-                          "638.2%",
-                          "673.7%",
-                          "709.2%",
-                          "744.7%",
-                          "780.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "139.3%",
-                          "145.7%",
-                          "152.1%",
-                          "158.5%",
-                          "164.9%",
-                          "171.3%",
-                          "177.7%",
-                          "184.1%",
-                          "190.5%",
-                          "196.9%",
-                          "203.3%",
-                          "209.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: High-Traction Wheels",
-                "type": "Special",
-                "desc": "With enough Adrenaline, hold to activate:\nSlams down with the motorcycle, dealing Physical DMG.\nRestores 30% of Max HP upon activating this skill.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 82,
-                    "end": 94,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "929.9%",
-                          "1014.5%",
-                          "1099.1%",
-                          "1183.7%",
-                          "1268.3%",
-                          "1352.9%",
-                          "1437.5%",
-                          "1522.1%",
-                          "1606.7%",
-                          "1691.3%",
-                          "1775.9%",
-                          "1860.5%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "795.4%",
-                          "831.6%",
-                          "867.8%",
-                          "904%",
-                          "940.2%",
-                          "976.4%",
-                          "1012.6%",
-                          "1048.8%",
-                          "1085%",
-                          "1121.2%",
-                          "1157.4%",
-                          "1193.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Rocking Footwork",
-                "type": "Special",
-                "desc": "After activating EX Special Attack: Cool Wheelie and with enough Adrenaline, press or hold to activate:\nUses the motorcycle and hand cannon for a combined attack, dealing Physical DMG.\nUpon activating this skill, restore 15% of Max HP.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 17,
-                    "end": 48,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 171,
-                    "end": 183,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "959%",
-                          "1046.2%",
-                          "1133.4%",
-                          "1220.6%",
-                          "1307.8%",
-                          "1395%",
-                          "1482.2%",
-                          "1569.4%",
-                          "1656.6%",
-                          "1743.8%",
-                          "1831%",
-                          "1918.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "824%",
-                          "861.5%",
-                          "899%",
-                          "936.5%",
-                          "974%",
-                          "1011.5%",
-                          "1049%",
-                          "1086.5%",
-                          "1124%",
-                          "1161.5%",
-                          "1199%",
-                          "1236.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Knight's Swagger",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nLaunches a series of attacks forward, dealing massive Physical DMG.\nUpon activating this skill, gains 15 Determination.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 7,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 122,
-                    "end": 134,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 173,
-                    "end": 186,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "662.9%",
-                          "723.2%",
-                          "783.5%",
-                          "843.8%",
-                          "904.1%",
-                          "964.4%",
-                          "1024.7%",
-                          "1085%",
-                          "1145.3%",
-                          "1205.6%",
-                          "1265.9%",
-                          "1326.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "262.2%",
-                          "274.2%",
-                          "286.2%",
-                          "298.2%",
-                          "310.2%",
-                          "322.2%",
-                          "334.2%",
-                          "346.2%",
-                          "358.2%",
-                          "370.2%",
-                          "382.2%",
-                          "394.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Starlight Knight Flying Kick",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nLeaps into the air and delivers a flying kick at the target, dealing massive Physical DMG.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 26,
-                    "end": 33,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 131,
-                    "end": 143,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1592.1%",
-                          "1736.9%",
-                          "1881.7%",
-                          "2026.5%",
-                          "2171.3%",
-                          "2316.1%",
-                          "2460.9%",
-                          "2605.7%",
-                          "2750.5%",
-                          "2895.3%",
-                          "3040.1%",
-                          "3184.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "449.2%",
-                          "469.7%",
-                          "490.2%",
-                          "510.7%",
-                          "531.2%",
-                          "551.7%",
-                          "572.2%",
-                          "592.7%",
-                          "613.2%",
-                          "633.7%",
-                          "654.2%",
-                          "674.7%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Knight's Resolve",
-                "type": "Core Passive",
-                "desc": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 90% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                "descFormat": [
-                  {
-                    "start": 127,
-                    "end": 139,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 458,
-                    "end": 491,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 559,
-                    "end": 562,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 700,
-                    "end": 713,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 789,
-                    "end": 802,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 883,
-                    "end": 914,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 927,
-                    "end": 957,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1001,
-                    "end": 1014,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1029,
-                    "end": 1042,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1067,
-                    "end": 1080,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1128,
-                    "end": 1141,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1195,
-                    "end": 1208,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1222,
-                    "end": 1259,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1283,
-                    "end": 1315,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1369,
-                    "end": 1393,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1414,
-                    "end": 1427,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1447,
-                    "end": 1486,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1490,
-                    "end": 1525,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 45% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 53% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 60% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 68% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 75% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 83% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Starlight - Billy gains extra Sheer Force based on his Max HP, with every 1 point of Max HP increasing Sheer Force by 0.1. All Physical DMG Starlight - Billy deals is Sheer DMG, ignoring enemy DEF and using his Sheer Force stat as the DMG Multiplier.\nStarlight - Billy restores 60 Adrenaline upon entering the battlefield. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhen his HP is greater than 25%, press to consume HP and activate Special Attack: Drive Suppression. While in combat, each use of this skill increases his CRIT DMG by 90% for 45s. Repeated triggers refresh the duration. When HP is at or below 25%, the DMG he takes is reduced by 50%.\nStarlight - Billy gains Determination when his attacks hit enemies, with the amount depending on the skill used. Determination regenerates slowly while in combat, and is capped at 120. Hitting an enemy with EX Special Attack: Cool Wheelie, activating Chain Attack: Knight's Swagger, or triggering a block restores additional Determination. Triggering a Perfect Dodge by any means restores 3 Determination. This effect can trigger once every 0.5s.\nWhen Determination is greater than or equal to 100, hold to consume 100 Determination and activate Basic Attack: Full-Throttle Starlight.\nHitting an enemy with Basic Attack: Knight's Technique restores a small amount of HP. Hitting an enemy with Dodge Counter: Duel King activated through a Perfect Dodge restores HP. Using EX Special Attack: High-Traction Wheels or EX Special Attack: Rocking Footwork restores HP.",
-                    "format": [
-                      {
-                        "start": 127,
-                        "end": 139,
-                        "kind": "tone",
-                        "tone": "physical"
-                      },
-                      {
-                        "start": 458,
-                        "end": 491,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 559,
-                        "end": 562,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 700,
-                        "end": 713,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 789,
-                        "end": 802,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 914,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 927,
-                        "end": 957,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1001,
-                        "end": 1014,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1029,
-                        "end": 1042,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1067,
-                        "end": 1080,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1128,
-                        "end": 1141,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1195,
-                        "end": 1208,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1222,
-                        "end": 1259,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1283,
-                        "end": 1315,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1369,
-                        "end": 1393,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1414,
-                        "end": 1427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1447,
-                        "end": 1486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1490,
-                        "end": 1525,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Blazing Starlight",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad is a Stun, Defense, or Support character:\nHitting an enemy with EX Special Attack: Cool Wheelie, the 4th hit of Basic Attack: Knight's Technique, Chain Attack, or Ultimate grants 1 stack of Starlight for 45s, up to a maximum of 2 stacks, Only one stack can be obtained per use of a skill. Each stack increases the DMG of Chain Attacks, Ultimates, EX Special Attacks, and Basic Attack: Full-Throttle Starlight by 20%.",
-                "descFormat": [
-                  {
-                    "start": 42,
-                    "end": 46,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 48,
-                    "end": 55,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 60,
-                    "end": 67,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 101,
-                    "end": 132,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 149,
-                    "end": 181,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 183,
-                    "end": 195,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 200,
-                    "end": 208,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 227,
-                    "end": 236,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 358,
-                    "end": 371,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 373,
-                    "end": 382,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 384,
-                    "end": 402,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 408,
-                    "end": 445,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": []
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Heroic Entrance",
-                "type": "Mindscape 1",
-                "desc": "Core Passive: Knight's Resolve restores an additional 60 Adrenaline upon entering the battlefield. Hitting an enemy with an EX Special Attack causes Starlight - Billy's DMG to ignore 18% Physical RES for 45s. Repeated triggers refresh the duration.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 30,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 124,
-                    "end": 141,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 187,
-                    "end": 199,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ]
-              },
-              {
-                "name": "Wasteland Automaton",
-                "type": "Mindscape 2",
-                "desc": "Increases the DMG dealt by Basic Attack: Full-Throttle Starlight, EX Special Attack: Cool Wheelie, and Ultimate: Starlight Knight Flying Kick by 50%. Activating EX Special Attack: Rocking Footwork, EX Special Attack: High-Traction Wheels, or hitting a Stunned enemy with Special Attack: Drive Suppression grants the Turbocharged effect: Special Attack: Drive Suppression consumes this effect to immediately follow up with EX Special Attack: Cool Wheelie, and increases that instance's CRIT DMG by 50%. Only 1 stack of Turbocharged can be held.",
-                "descFormat": [
-                  {
-                    "start": 27,
-                    "end": 64,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 66,
-                    "end": 97,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 103,
-                    "end": 141,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 161,
-                    "end": 196,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 198,
-                    "end": 237,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 271,
-                    "end": 304,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 316,
-                    "end": 328,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 337,
-                    "end": 370,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 422,
-                    "end": 453,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 518,
-                    "end": 530,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Knight's Chivalry",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 12,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 21,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 29,
-                    "end": 43,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 49,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Flames of Justice",
-                "type": "Mindscape 4",
-                "desc": "While in combat, each use of Special Attack: Drive Suppression increases Starlight - Billy's CRIT DMG by 8%, stacking up to 2 times and lasting 45s. Repeated triggers reset the duration. If HP is below 35% and Starlight - Billy is not the active character, he continuously recovers HP, up to 35%.",
-                "descFormat": [
-                  {
-                    "start": 29,
-                    "end": 62,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Radiant Armaments",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 12,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 21,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 29,
-                    "end": 43,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 49,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Starlight Knight",
-                "type": "Mindscape 6",
-                "desc": "Ultimate: Starlight Knight Flying Kick and Basic Attack: Full-Throttle Starlight's Sheer DMG increases by 18%. Landing the 4th hit of Basic Attack: Knight's Technique, EX Special Attack: Cool Wheelie, or Chain Attack: Knight's Swagger grants 1 stack of Brilliant Starlight, stacking up to 6 times, and gaining at most 1 stack per skill use. When using Ultimate: Starlight Knight Flying Kick or Basic Attack: Full-Throttle Starlight, consumes up to 2 stacks of Brilliant Starlight, with each stack consumed causing that skill's final hit to deal 100% Sheer Force as additional Physical DMG.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 38,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 43,
-                    "end": 80,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 134,
-                    "end": 166,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 168,
-                    "end": 199,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 204,
-                    "end": 234,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 253,
-                    "end": 272,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 352,
-                    "end": 390,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 394,
-                    "end": 431,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 460,
-                    "end": 479,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 576,
-                    "end": 588,
-                    "kind": "tone",
-                    "tone": "physical"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100216",
-            "name": "Basic Rupture Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100226",
-            "name": "Advanced Rupture Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100236",
-            "name": "Arbiter Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "ascensionStages": [
-          {
-            "cap": 20,
-            "items": [
-              {
-                "id": "100216",
-                "name": "Basic Rupture Certification Seal",
-                "qty": 4,
-                "rar": 1,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin01.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 24000
-          },
-          {
-            "cap": 30,
-            "items": [
-              {
-                "id": "100226",
-                "name": "Advanced Rupture Certification Seal",
-                "qty": 12,
-                "rar": 3,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin02.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 56000
-          },
-          {
-            "cap": 40,
-            "items": [
-              {
-                "id": "100226",
-                "name": "Advanced Rupture Certification Seal",
-                "qty": 20,
-                "rar": 3,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin02.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 120000
-          },
-          {
-            "cap": 50,
-            "items": [
-              {
-                "id": "100236",
-                "name": "Arbiter Certification Seal",
-                "qty": 10,
-                "rar": 4,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin03.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 200000
-          },
-          {
-            "cap": 60,
-            "items": [
-              {
-                "id": "100236",
-                "name": "Arbiter Certification Seal",
-                "qty": 20,
-                "rar": 4,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankRuin03.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 400000
-          }
-        ],
-        "talents": [
-          {
-            "id": "100110",
-            "name": "Basic Physical Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100120",
-            "name": "Advanced Physical Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100130",
-            "name": "Specialized Physical Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110008",
-            "name": "Clouded Crystalline Substance",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-            "source": "giant beast \"Sobek\" controlled by The Thrall",
-            "sourceDetails": [
-              {
-                "name": "giant beast \"Sobek\" controlled by The Thrall"
-              }
-            ]
-          },
-          {
-            "id": "110514",
-            "name": "Higher Dimensional Data: Bloodstained Miasma Feather",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-            "source": "Sacrifice - Covenant Guardian / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Sacrifice - Covenant Guardian",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100110",
-                  "name": "Basic Physical Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100120",
-                  "name": "Advanced Physical Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillPhys02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100130",
-                  "name": "Specialized Physical Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpPhysDmg01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110514",
-                  "name": "Higher Dimensional Data: Bloodstained Miasma Feather",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "source": "Sacrifice - Covenant Guardian / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Sacrifice - Covenant Guardian",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110514",
-                  "name": "Higher Dimensional Data: Bloodstained Miasma Feather",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "source": "Sacrifice - Covenant Guardian / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Sacrifice - Covenant Guardian",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110008",
-                  "name": "Clouded Crystalline Substance",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-                  "source": "giant beast \"Sobek\" controlled by The Thrall",
-                  "sourceDetails": [
-                    {
-                      "name": "giant beast \"Sobek\" controlled by The Thrall"
-                    }
-                  ]
-                },
-                {
-                  "id": "110514",
-                  "name": "Higher Dimensional Data: Bloodstained Miasma Feather",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "source": "Sacrifice - Covenant Guardian / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Sacrifice - Covenant Guardian",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110008",
-                  "name": "Clouded Crystalline Substance",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-                  "source": "giant beast \"Sobek\" controlled by The Thrall",
-                  "sourceDetails": [
-                    {
-                      "name": "giant beast \"Sobek\" controlled by The Thrall"
-                    }
-                  ]
-                },
-                {
-                  "id": "110514",
-                  "name": "Higher Dimensional Data: Bloodstained Miasma Feather",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "source": "Sacrifice - Covenant Guardian / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Sacrifice - Covenant Guardian",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110008",
-                  "name": "Clouded Crystalline Substance",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
-                  "source": "giant beast \"Sobek\" controlled by The Thrall",
-                  "sourceDetails": [
-                    {
-                      "name": "giant beast \"Sobek\" controlled by The Thrall"
-                    }
-                  ]
-                },
-                {
-                  "id": "110514",
-                  "name": "Higher Dimensional Data: Bloodstained Miasma Feather",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss014.webp",
-                  "source": "Sacrifice - Covenant Guardian / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Sacrifice - Covenant Guardian",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 3705000
-      },
-      "recent": 1,
-      "betaStatus": "new"
+      "betaStatus": "changed"
     },
     {
       "id": "zzz-koleda",
@@ -8769,7 +4270,8 @@
         "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u7a46\u96ea\u5a77|Mu Xueting (\u7a46\u96ea\u5a77)",
         "korean": "https://namu.wiki/w/\uc815\ud574\uc740(\uc131\uc6b0)|Jeong Hae-eun (\uc815\ud574\uc740)"
       },
-      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle14.webp",
+      "icon": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole14.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
       "signatureWeapon": {
@@ -8780,7 +4282,7 @@
       },
       "signatureWeaponId": "14110",
       "signatureWeaponName": "Hellfire Gears",
-      "status": "live",
+      "status": "beta_changed",
       "labels": [],
       "r": "S",
       "el": "Fire",
@@ -8918,7 +4420,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.3+18283617",
+        "version": "3.2.4+18409985",
         "sections": [
           {
             "title": "Skills",
@@ -8926,7 +4428,7 @@
               {
                 "name": "Basic Attack: Smash 'n' Bash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the second Strike, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the first part, press or hold to chain into the second part, and the follow-up attack effect of the first Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 25% for 40s, repeated triggers refresh the duration, and for each stack of [Furnace Fire] consumed, the DMG dealt by the second Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced [Basic Attack], Koleda will automatically launch the second Enhanced [Basic Attack] on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the first Enhanced [Basic Attack] will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth [Basic Attack] Strike and during the Enhanced [Basic Attack];\nThe invulnerability duration of the second Enhanced [Basic Attack] is extended.",
+                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the second Strike, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the first part, press or hold to chain into the second part, and the follow-up attack effect of the first Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 35% for 40s, repeated triggers refresh the duration, and for each stack of [Furnace Fire] consumed, the DMG dealt by the second Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced [Basic Attack], Koleda will automatically launch the second Enhanced [Basic Attack] on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the first Enhanced [Basic Attack] will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth [Basic Attack] Strike and during the Enhanced [Basic Attack];\nThe invulnerability duration of the second Enhanced [Basic Attack] is extended.",
                 "descFormat": [
                   {
                     "start": 54,
@@ -12817,10 +8319,228 @@
       "betaStatus": "changed"
     },
     {
+      "id": "zzz-claret",
+      "n": "Claret",
+      "slug": "claret",
+      "updated": 1778544000000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Cassandra Lee Morris",
+        "japanese": "Ueda Kana"
+      },
+      "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+      "signatureWeapon": {
+        "id": "14161",
+        "name": "Crimson Craving",
+        "type": "Armorer",
+        "educated": false
+      },
+      "signatureWeaponId": "14161",
+      "signatureWeaponName": "Crimson Craving",
+      "status": "beta",
+      "labels": [
+        "3.x"
+      ],
+      "r": "S",
+      "el": "Electric",
+      "spec": "Armorer",
+      "tag": "Unknown",
+      "baseStats": {},
+      "facts": {
+        "faction": "Roscaelifer",
+        "fullName": "Claret Flint"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "req": {
+        "ascension": [
+          {
+            "id": "100217",
+            "name": "Beginner Armorer Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankArmorer01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100227",
+            "name": "High-Grade Armorer Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankArmorer02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100237",
+            "name": "Blade Bearer Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankArmorer03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "talents": [
+          {
+            "id": "100113",
+            "name": "Basic Shock Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100123",
+            "name": "Advanced Shock Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillThunder02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100133",
+            "name": "Specialized Shock Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpThunder01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110011",
+            "name": "Forged Away Core",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": null,
+            "source": "Kusarikku",
+            "sourceDetails": [
+              {
+                "name": "Kusarikku"
+              }
+            ]
+          },
+          {
+            "id": "110516",
+            "name": "Higher Dimensional Data: Simulated Core",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": null,
+            "source": "the \"Conqueror\" / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "the \"Conqueror\""
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Crimson Craving",
+          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1611.webp",
+          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1611.webp",
+          "items": [
+            {
+              "id": "101016",
+              "name": "Armorer Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer01.webp"
+            },
+            {
+              "id": "101026",
+              "name": "Reinforced Armorer Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer02.webp"
+            },
+            {
+              "id": "101036",
+              "name": "Blasting Armorer Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "new"
+    },
+    {
       "id": "zzz-roxy",
       "n": "Roxy",
       "localizedNames": {
-        "zh": "\u6d1b\u514b\u831c"
+        "en": "Roxy",
+        "zh": "\u6d1b\u514b\u831c",
+        "ja": "\u30ed\u30af\u30b7\u30fc",
+        "ko": "\ub85d\uc2dc"
       },
       "slug": "roxy",
       "updated": 1778544000000,
@@ -12829,7 +8549,8 @@
         "english": "Bryn Apprill",
         "japanese": "Akasaki Chinatsu"
       },
-      "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle68.webp",
+      "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
       "status": "beta",
@@ -12847,7 +8568,7 @@
           "def": 51,
           "critRate": 0.05,
           "critDmg": 0.5,
-          "impact": 78,
+          "impact": 100,
           "anomalyProficiency": 110,
           "anomalyMastery": 63
         },
@@ -12858,7 +8579,7 @@
           "def": 641.63,
           "critRate": 0.05,
           "critDmg": 0.5,
-          "impact": 78,
+          "impact": 100,
           "anomalyProficiency": 110,
           "anomalyMastery": 63
         },
@@ -12872,7 +8593,7 @@
             "def": 51,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -12885,7 +8606,7 @@
             "def": 149.33,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -12898,7 +8619,7 @@
             "def": 255.59,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -12911,7 +8632,7 @@
             "def": 360.85,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -12924,7 +8645,7 @@
             "def": 467.11,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -12937,7 +8658,7 @@
             "def": 572.37,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           },
@@ -12950,14 +8671,14 @@
             "def": 641.63,
             "critRate": 0.05,
             "critDmg": 0.5,
-            "impact": 78,
+            "impact": 100,
             "anomalyProficiency": 110,
             "anomalyMastery": 63
           }
         ]
       },
       "facts": {
-        "fullName": "...",
+        "fullName": "Roxy Ifrita Pryce",
         "faction": "Roscaelifer"
       },
       "skillIcons": [
@@ -12970,7 +8691,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.3+18283617",
+        "version": "3.2.4+18409985",
         "sections": [
           {
             "title": "Skills",
@@ -13042,35 +8763,35 @@
                       {
                         "label": "3rd-Hit DMG Multiplier",
                         "values": [
-                          "185.3%",
-                          "202.2%",
-                          "219.1%",
-                          "236%",
-                          "252.9%",
-                          "269.8%",
-                          "286.7%",
-                          "303.6%",
-                          "320.5%",
-                          "337.4%",
-                          "354.3%",
-                          "371.2%"
+                          "172.4%",
+                          "188.1%",
+                          "203.8%",
+                          "219.5%",
+                          "235.2%",
+                          "250.9%",
+                          "266.6%",
+                          "282.3%",
+                          "298%",
+                          "313.7%",
+                          "329.4%",
+                          "345.1%"
                         ]
                       },
                       {
-                        "label": "DMG Multiplier",
+                        "label": "4th-Hit DMG Multiplier",
                         "values": [
-                          "194.5%",
-                          "212.2%",
-                          "229.9%",
-                          "247.6%",
-                          "265.3%",
-                          "283%",
-                          "300.7%",
-                          "318.4%",
-                          "336.1%",
-                          "353.8%",
-                          "371.5%",
-                          "389.2%"
+                          "192.5%",
+                          "210%",
+                          "227.5%",
+                          "245%",
+                          "262.5%",
+                          "280%",
+                          "297.5%",
+                          "315%",
+                          "332.5%",
+                          "350%",
+                          "367.5%",
+                          "385%"
                         ]
                       },
                       {
@@ -13110,75 +8831,38 @@
                       {
                         "label": "3rd-Hit Daze Multiplier",
                         "values": [
-                          "156.3%",
-                          "163.5%",
+                          "144.3%",
+                          "150.9%",
+                          "157.5%",
+                          "164.1%",
                           "170.7%",
-                          "177.9%",
-                          "185.1%",
-                          "192.3%",
-                          "199.5%",
-                          "206.7%",
-                          "213.9%",
-                          "221.1%",
-                          "228.3%",
-                          "235.5%"
+                          "177.3%",
+                          "183.9%",
+                          "190.5%",
+                          "197.1%",
+                          "203.7%",
+                          "210.3%",
+                          "216.9%"
                         ]
                       },
                       {
                         "label": "4th-Hit Daze Multiplier",
                         "values": [
-                          "173.6%",
-                          "181.5%",
-                          "189.4%",
-                          "197.3%",
-                          "205.2%",
-                          "213.1%",
-                          "221%",
-                          "228.9%",
-                          "236.8%",
-                          "244.7%",
-                          "252.6%",
-                          "260.5%"
+                          "171.9%",
+                          "179.8%",
+                          "187.7%",
+                          "195.6%",
+                          "203.5%",
+                          "211.4%",
+                          "219.3%",
+                          "227.2%",
+                          "235.1%",
+                          "243%",
+                          "250.9%",
+                          "258.8%"
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Don't Let the Door Hit Ya",
-                "type": "Basic",
-                "desc": "[EX Special Attack: Rest in Peace] automatically triggers upon conclusion if at least 3 [Wind Eyes] exist on the field:\nHurls a hammer at enemies on the field, dealing Wind DMG;\n[Wind Eyes] hit by this skill will be detonated, generating tornadoes based on the number of Wind Eyes hit that continuously track enemies and deal Wind DMG;\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 34,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 88,
-                    "end": 99,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 168,
-                    "end": 176,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 178,
-                    "end": 189,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 326,
-                    "end": 334,
-                    "kind": "tone",
-                    "tone": "anemo"
                   }
                 ]
               },
@@ -13511,6 +9195,40 @@
                           "395.3%",
                           "407.7%"
                         ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "342.8%",
+                          "358.4%",
+                          "374%",
+                          "389.6%",
+                          "405.2%",
+                          "420.8%",
+                          "436.4%",
+                          "452%",
+                          "467.6%",
+                          "483.2%",
+                          "498.8%",
+                          "514.4%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "166.8%",
+                          "174.4%",
+                          "182%",
+                          "189.6%",
+                          "197.2%",
+                          "204.8%",
+                          "212.4%",
+                          "220%",
+                          "227.6%",
+                          "235.2%",
+                          "242.8%",
+                          "250.4%"
+                        ]
                       }
                     ]
                   }
@@ -13572,18 +9290,104 @@
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "458.7%",
-                          "479.6%",
-                          "500.5%",
-                          "521.4%",
-                          "542.3%",
-                          "563.2%",
-                          "584.1%",
-                          "605%",
-                          "625.9%",
-                          "646.8%",
-                          "667.7%",
-                          "688.6%"
+                          "389.9%",
+                          "407.7%",
+                          "425.5%",
+                          "443.3%",
+                          "461.1%",
+                          "478.9%",
+                          "496.7%",
+                          "514.5%",
+                          "532.3%",
+                          "550.1%",
+                          "567.9%",
+                          "585.7%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Don't Let the Door Hit Ya",
+                "type": "Special",
+                "desc": "[EX Special Attack: Rest in Peace] Upon conclusion, automatically activates when at least 3 exist on the field:\nThrows a hammer at enemies on the field, dealing Wind DMG;\n hit by this skill will be detonated, up to a maximum of 3 . Generates mini cyclones based on the number of hit, dealing Wind DMG;\nIf 3 are detonated at once, a giant cyclone is generated instead, dealing Wind DMG;\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 34,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 161,
+                    "end": 169,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 292,
+                    "end": 300,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 376,
+                    "end": 384,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "666.6%",
+                          "727.2%",
+                          "787.8%",
+                          "848.4%",
+                          "909%",
+                          "969.6%",
+                          "1030.2%",
+                          "1090.8%",
+                          "1151.4%",
+                          "1212%",
+                          "1272.6%",
+                          "1333.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "141.1%",
+                          "147.6%",
+                          "154.1%",
+                          "160.6%",
+                          "167.1%",
+                          "173.6%",
+                          "180.1%",
+                          "186.6%",
+                          "193.1%",
+                          "199.6%",
+                          "206.1%",
+                          "212.6%"
                         ]
                       }
                     ]
@@ -13661,7 +9465,7 @@
               {
                 "name": "EX Special Attack: Watch for the Chill",
                 "type": "Special",
-                "desc": "With enough energy, press or hold to activate:\nSlides forward, dealing Wind DMG;\nIf is held during the slide, Roxy enters the [Spin] state:\nIn the [Spin] state, Roxy transforms into a tornado. Drag the joystick to control the tornado's movement direction. Energy is continuously consumed during this time, dealing Wind DMG to enemies in its path. The [Spin] state ends when Energy is depleted or when is released without dragging the joystick;\nWhen the slide ends or the [Spin] state is exited, automatically follows up with [EX Special Attack: Rest in Peace];\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough energy, press or hold to activate:\nSlides forward, dealing Wind DMG;\nIf is held during the slide, Roxy enters the [Spin] state:\nIn the [Spin] state, Roxy transforms into a tornado. Drag the joystick to control the tornado's movement direction. Energy is continuously consumed while dealing Wind DMG to enemies in the path. The [Spin] state ends when Energy is depleted or when is released without dragging the joystick;\nWhen the slide ends or the [Spin] state is exited, automatically follows up with [EX Special Attack: Rest in Peace];\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 71,
@@ -13682,38 +9486,26 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 314,
-                    "end": 322,
+                    "start": 302,
+                    "end": 310,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 351,
-                    "end": 357,
+                    "start": 339,
+                    "end": 345,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 471,
-                    "end": 477,
+                    "start": 459,
+                    "end": 465,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 525,
-                    "end": 559,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 566,
-                    "end": 577,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 637,
-                    "end": 649,
+                    "start": 513,
+                    "end": 547,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -13739,35 +9531,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "93.2%",
-                          "101.7%",
-                          "110.2%",
-                          "118.7%",
-                          "127.2%",
-                          "135.7%",
-                          "144.2%",
-                          "152.7%",
-                          "161.2%",
-                          "169.7%",
-                          "178.2%",
-                          "186.7%"
+                          "27.3%",
+                          "29.8%",
+                          "32.3%",
+                          "34.8%",
+                          "37.3%",
+                          "39.8%",
+                          "42.3%",
+                          "44.8%",
+                          "47.3%",
+                          "49.8%",
+                          "52.3%",
+                          "54.8%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "39.5%",
-                          "41.3%",
-                          "43.1%",
-                          "44.9%",
-                          "46.7%",
-                          "48.5%",
-                          "50.3%",
-                          "52.1%",
-                          "53.9%",
-                          "55.7%",
-                          "57.5%",
-                          "59.3%"
+                          "11.6%",
+                          "12.2%",
+                          "12.8%",
+                          "13.4%",
+                          "14%",
+                          "14.6%",
+                          "15.2%",
+                          "15.8%",
+                          "16.4%",
+                          "17%",
+                          "17.6%",
+                          "18.2%"
                         ]
                       },
                       {
@@ -13790,18 +9582,18 @@
                       {
                         "label": "Spin Daze Multiplier Per Second",
                         "values": [
-                          "410.2%",
-                          "428.9%",
-                          "447.6%",
-                          "466.3%",
-                          "485%",
-                          "503.7%",
-                          "522.4%",
-                          "541.1%",
-                          "559.8%",
-                          "578.5%",
-                          "597.2%",
-                          "615.9%"
+                          "463%",
+                          "484.1%",
+                          "505.2%",
+                          "526.3%",
+                          "547.4%",
+                          "568.5%",
+                          "589.6%",
+                          "610.7%",
+                          "631.8%",
+                          "652.9%",
+                          "674%",
+                          "695.1%"
                         ]
                       }
                     ]
@@ -13811,7 +9603,7 @@
               {
                 "name": "EX Special Attack: Rest in Peace",
                 "type": "Special",
-                "desc": "[EX Special Attack: Watch Out for Wind Chill] automatically activates upon conclusion and is not considered an EX Special Attack:\nConsumes all [Wind Energy] to fire a wind cannon forward, dealing Wind DMG;\nFor each point of [Wind Energy] consumed, deals an additional instance of Wind DMG after the attack and generates 1 [Eye of the Storm] in place;\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
+                "desc": "[EX Special Attack: Watch Out for Wind Chill] automatically activates upon conclusion:\nConsumes all to fire a wind cannon forward, dealing Wind DMG;\nFor every 1 consumed, deals an additional instance of Wind DMG after the attack, and generates 1 at the current position;\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -13820,44 +9612,20 @@
                     "tone": "anemo"
                   },
                   {
-                    "start": 143,
-                    "end": 156,
+                    "start": 139,
+                    "end": 147,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 196,
-                    "end": 204,
+                    "start": 203,
+                    "end": 211,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 224,
-                    "end": 237,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 280,
-                    "end": 288,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 322,
-                    "end": 340,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 356,
-                    "end": 367,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 427,
-                    "end": 439,
+                    "start": 347,
+                    "end": 359,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -13883,69 +9651,52 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "93.2%",
-                          "101.7%",
-                          "110.2%",
-                          "118.7%",
-                          "127.2%",
-                          "135.7%",
-                          "144.2%",
-                          "152.7%",
-                          "161.2%",
-                          "169.7%",
-                          "178.2%",
-                          "186.7%"
+                          "63.7%",
+                          "69.5%",
+                          "75.3%",
+                          "81.1%",
+                          "86.9%",
+                          "92.7%",
+                          "98.5%",
+                          "104.3%",
+                          "110.1%",
+                          "115.9%",
+                          "121.7%",
+                          "127.5%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "39.5%",
-                          "41.3%",
-                          "43.1%",
-                          "44.9%",
-                          "46.7%",
-                          "48.5%",
-                          "50.3%",
-                          "52.1%",
-                          "53.9%",
-                          "55.7%",
-                          "57.5%",
-                          "59.3%"
+                          "27%",
+                          "28.3%",
+                          "29.6%",
+                          "30.9%",
+                          "32.2%",
+                          "33.5%",
+                          "34.8%",
+                          "36.1%",
+                          "37.4%",
+                          "38.7%",
+                          "40%",
+                          "41.3%"
                         ]
                       },
                       {
                         "label": "Additional Explosion DMG Multiplier",
                         "values": [
-                          "41.7%",
-                          "45.5%",
-                          "49.3%",
-                          "53.1%",
+                          "52.1%",
                           "56.9%",
-                          "60.7%",
-                          "64.5%",
-                          "68.3%",
-                          "72.1%",
-                          "75.9%",
-                          "79.7%",
-                          "83.5%"
-                        ]
-                      },
-                      {
-                        "label": "Additional Explosion Daze Multiplier",
-                        "values": [
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%",
-                          "0%"
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
                         ]
                       }
                     ]
@@ -13955,7 +9706,7 @@
               {
                 "name": "Eye of the Storm",
                 "type": "Special",
-                "desc": "[EX Special Attack: Rest in Peace] Generated after consuming [Wind Energy], lasts 30 seconds;\n[Wind Eye] can exist up to 9 at a time. When the limit is exceeded, the earliest generated [Wind Eye] will automatically detonate;\nWhen hit by [Special Attack: No Need to See You Off] or [Ultimate: Requiem of the Burial Night], they will be detonated. If fewer than 3 are hit simultaneously, each [Wind Eye] position will generate 1 small tornado that tracks enemies and deals Wind DMG, lasting 1 second;\nIf 3 are hit simultaneously, 1 large tornado will be generated as a replacement, dealing Wind DMG, lasting 1 second.\nWhen detonated by any means, [Wind Eye] deals one instance of Wind DMG to nearby enemies.",
+                "desc": "[EX Special Attack: Rest in Peace] Generated after consuming , lasts 30 seconds;\n A maximum of 9 can exist simultaneously. When the limit is exceeded, the earliest generated will automatically detonate;\nWhen hit by [Special Attack: No Need to See You Off] or [Ultimate: Burial Night Requiem], they will be detonated. If fewer than 3 are hit simultaneously, each position will generate 1 mini vortex that tracks enemies and deals Wind DMG, lasting 1 second;\nIf 3 are hit simultaneously, 1 giant vortex will be generated instead, dealing Wind DMG, lasting 1 second.\nWhen detonated by any means, will emit an Explosive blast dealing Wind DMG to nearby enemies.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -13964,62 +9715,32 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 61,
-                    "end": 74,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 94,
-                    "end": 104,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 185,
-                    "end": 195,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 237,
-                    "end": 277,
+                    "start": 215,
+                    "end": 255,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 281,
-                    "end": 320,
+                    "start": 259,
+                    "end": 291,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 391,
-                    "end": 401,
+                    "start": 429,
+                    "end": 437,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 471,
-                    "end": 479,
+                    "start": 536,
+                    "end": 544,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 588,
-                    "end": 596,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 645,
-                    "end": 655,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 678,
-                    "end": 686,
+                    "start": 630,
+                    "end": 638,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -14043,147 +9764,88 @@
                     ],
                     "rows": [
                       {
-                        "label": "DMG Multiplier on Destroy",
+                        "label": "Detonation DMG Multiplier",
                         "values": [
-                          "41.7%",
-                          "45.5%",
-                          "49.3%",
-                          "53.1%",
+                          "52.1%",
                           "56.9%",
-                          "60.7%",
-                          "64.5%",
-                          "68.3%",
-                          "72.1%",
-                          "75.9%",
-                          "79.7%",
-                          "83.5%"
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
                         ]
                       },
                       {
-                        "label": "Mini Tornado DMG Multiplier Per Second",
+                        "label": "Micro Wind Vortex DMG Multiplier Per Second",
                         "values": [
-                          "62.5%",
-                          "68.2%",
+                          "78.2%",
+                          "85.4%",
+                          "92.6%",
+                          "99.8%",
+                          "107%",
+                          "114.2%",
+                          "121.4%",
+                          "128.6%",
+                          "135.8%",
+                          "143%",
+                          "150.2%",
+                          "157.4%"
+                        ]
+                      },
+                      {
+                        "label": "Micro Wind Vortex Daze Multiplier Per Second",
+                        "values": [
+                          "17.7%",
+                          "18.6%",
+                          "19.5%",
+                          "20.4%",
+                          "21.3%",
+                          "22.2%",
+                          "23.1%",
+                          "24%",
+                          "24.9%",
+                          "25.8%",
+                          "26.7%",
+                          "27.6%"
+                        ]
+                      },
+                      {
+                        "label": "Giant Wind Vortex DMG Multiplier Per Second",
+                        "values": [
+                          "312.5%",
+                          "341%",
+                          "369.5%",
+                          "398%",
+                          "426.5%",
+                          "455%",
+                          "483.5%",
+                          "512%",
+                          "540.5%",
+                          "569%",
+                          "597.5%",
+                          "626%"
+                        ]
+                      },
+                      {
+                        "label": "Giant Wind Vortex Daze Multiplier Per Second",
+                        "values": [
+                          "70.6%",
                           "73.9%",
-                          "79.6%",
-                          "85.3%",
-                          "91%",
-                          "96.7%",
-                          "102.4%",
-                          "108.1%",
-                          "113.8%",
-                          "119.5%",
-                          "125.2%"
-                        ]
-                      },
-                      {
-                        "label": "Mini Tornado Daze Multiplier Per Second",
-                        "values": [
-                          "35.3%",
-                          "37%",
-                          "38.7%",
-                          "40.4%",
-                          "42.1%",
-                          "43.8%",
-                          "45.5%",
-                          "47.2%",
-                          "48.9%",
-                          "50.6%",
-                          "52.3%",
-                          "54%"
-                        ]
-                      },
-                      {
-                        "label": "Large Tornado DMG Multiplier Per Second",
-                        "values": [
-                          "250%",
-                          "272.8%",
-                          "295.6%",
-                          "318.4%",
-                          "341.2%",
-                          "364%",
-                          "386.8%",
-                          "409.6%",
-                          "432.4%",
-                          "455.2%",
-                          "478%",
-                          "500.8%"
-                        ]
-                      },
-                      {
-                        "label": "Large Tornado Daze Multiplier Per Second",
-                        "values": [
-                          "141.1%",
-                          "147.6%",
-                          "154.1%",
-                          "160.6%",
-                          "167.1%",
-                          "173.6%",
-                          "180.1%",
-                          "186.6%",
-                          "193.1%",
-                          "199.6%",
-                          "206.1%",
-                          "212.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Don't Let the Door Hit Ya",
-                "type": "Special",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "554.6%",
-                          "605.1%",
-                          "655.6%",
-                          "706.1%",
-                          "756.6%",
-                          "807.1%",
-                          "857.6%",
-                          "908.1%",
-                          "958.6%",
-                          "1009.1%",
-                          "1059.6%",
-                          "1110.1%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "234.7%",
-                          "245.4%",
-                          "256.1%",
-                          "266.8%",
-                          "277.5%",
-                          "288.2%",
-                          "298.9%",
-                          "309.6%",
-                          "320.3%",
-                          "331%",
-                          "341.7%",
-                          "352.4%"
+                          "77.2%",
+                          "80.5%",
+                          "83.8%",
+                          "87.1%",
+                          "90.4%",
+                          "93.7%",
+                          "97%",
+                          "100.3%",
+                          "103.6%",
+                          "106.9%"
                         ]
                       }
                     ]
@@ -14193,7 +9855,7 @@
               {
                 "name": "Chain Attack: Funeral Wind Greathammer",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies ahead, dealing massive Wind DMG.\nAfter using this skill, restore 1 Wind Energy.\nCharacter is invulnerable while using this skill.",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful Strike at enemies ahead, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 7,
@@ -14204,12 +9866,6 @@
                   {
                     "start": 130,
                     "end": 138,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 174,
-                    "end": 185,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -14273,11 +9929,11 @@
               {
                 "name": "Ultimate: Requiem of the Buried Night",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating reaches [Maximum], press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG;\nAfter using this skill, recovers 1 ;\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 135,
-                    "end": 143,
+                    "start": 139,
+                    "end": 147,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -14320,18 +9976,18 @@
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "1219.3%",
-                          "1274.8%",
-                          "1330.3%",
-                          "1385.8%",
-                          "1441.3%",
-                          "1496.8%",
-                          "1552.3%",
-                          "1607.8%",
-                          "1663.3%",
-                          "1718.8%",
-                          "1774.3%",
-                          "1829.8%"
+                          "1054.3%",
+                          "1102.3%",
+                          "1150.3%",
+                          "1198.3%",
+                          "1246.3%",
+                          "1294.3%",
+                          "1342.3%",
+                          "1390.3%",
+                          "1438.3%",
+                          "1486.3%",
+                          "1534.3%",
+                          "1582.3%"
                         ]
                       }
                     ]
@@ -14344,157 +10000,121 @@
             "title": "Core Skill",
             "entries": [
               {
-                "name": "Core Passive: First Embrace Under the Moon",
+                "name": "Core Passive: First Embrace of the Fevered Night",
                 "type": "Core Passive",
-                "desc": "For every 20 Energy consumed, gain 1 point of [Wind Energy]. [Wind Energy] caps at 3 points.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 the excess surpasses, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: See Ya Never] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] is reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or reapplies [Windswept] to an enemy already afflicted with [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 1%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 0.5%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
+                "desc": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 40%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 20%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
                 "descFormat": [
                   {
-                    "start": 46,
-                    "end": 59,
+                    "start": 37,
+                    "end": 50,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 61,
-                    "end": 74,
+                    "start": 52,
+                    "end": 65,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 113,
-                    "end": 125,
+                    "start": 96,
+                    "end": 108,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 134,
-                    "end": 137,
+                    "start": 195,
+                    "end": 198,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 149,
-                    "end": 153,
+                    "start": 257,
+                    "end": 261,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 193,
-                    "end": 194,
+                    "start": 268,
+                    "end": 312,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 224,
-                    "end": 229,
+                    "start": 339,
+                    "end": 350,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 255,
-                    "end": 258,
+                    "start": 354,
+                    "end": 369,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 288,
-                    "end": 290,
+                    "start": 383,
+                    "end": 392,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 297,
-                    "end": 327,
+                    "start": 402,
+                    "end": 417,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 357,
-                    "end": 368,
+                    "start": 436,
+                    "end": 447,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 372,
-                    "end": 387,
+                    "start": 489,
+                    "end": 504,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 401,
-                    "end": 410,
+                    "start": 506,
+                    "end": 515,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 412,
-                    "end": 427,
+                    "start": 528,
+                    "end": 539,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 443,
-                    "end": 454,
+                    "start": 578,
+                    "end": 589,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 496,
-                    "end": 505,
+                    "start": 632,
+                    "end": 641,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 519,
-                    "end": 530,
+                    "start": 766,
+                    "end": 768,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 566,
-                    "end": 577,
+                    "start": 775,
+                    "end": 784,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 600,
-                    "end": 602,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 680,
-                    "end": 689,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 763,
-                    "end": 764,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 773,
-                    "end": 775,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 782,
-                    "end": 791,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 871,
-                    "end": 874,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 883,
-                    "end": 885,
+                    "start": 886,
+                    "end": 888,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -14502,7 +10122,487 @@
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above that threshold, ATK increases by 6, up to a maximum increase of 1,152; Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: No Free Rides] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] is reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or reapplies [Windswept] to an enemy already afflicted with [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 1%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 0.5%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond that threshold, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] will revert to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or re-applies [Windswept] to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 20%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 10%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 97,
+                        "end": 109,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 209,
+                        "end": 212,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 271,
+                        "end": 273,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 280,
+                        "end": 324,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 354,
+                        "end": 365,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 369,
+                        "end": 384,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 398,
+                        "end": 407,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 409,
+                        "end": 424,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 440,
+                        "end": 451,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 493,
+                        "end": 508,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 510,
+                        "end": 519,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 535,
+                        "end": 546,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 573,
+                        "end": 584,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 627,
+                        "end": 636,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 758,
+                        "end": 761,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 767,
+                        "end": 776,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 875,
+                        "end": 878,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] has a maximum of 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse]. The [Contamination] effect reverts to a [Windswept] effect.\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contamination or Cleanse attribute and Wind attribute by 0.4%, up to 23%, and [Armorer] Characters gain increased Laceration DMG of the Cleanse attribute and Wind attribute by 0.2%, up to 11.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 106,
+                        "end": 118,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 205,
+                        "end": 208,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 267,
+                        "end": 269,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 276,
+                        "end": 320,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 347,
+                        "end": 358,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 362,
+                        "end": 377,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 391,
+                        "end": 400,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 406,
+                        "end": 421,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 442,
+                        "end": 453,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 502,
+                        "end": 517,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 519,
+                        "end": 528,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 541,
+                        "end": 552,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 591,
+                        "end": 602,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 645,
+                        "end": 654,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 779,
+                        "end": 781,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 898,
+                        "end": 902,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain Contamination or Cleanse attribute and Wind CRIT DMG increased by 0.4%, up to 26%, and [Armorer] Characters gain Cleanse attribute and Wind Laceration DMG increased by 0.2%, up to 13%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 97,
+                        "end": 109,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 208,
+                        "end": 211,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 270,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 323,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 350,
+                        "end": 361,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 365,
+                        "end": 380,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 394,
+                        "end": 403,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 413,
+                        "end": 428,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 447,
+                        "end": 458,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 500,
+                        "end": 515,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 517,
+                        "end": 526,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 539,
+                        "end": 550,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 589,
+                        "end": 600,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 643,
+                        "end": 652,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 760,
+                        "end": 762,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 769,
+                        "end": 778,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 862,
+                        "end": 864,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to the [Windswept] effect;\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 29%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 14.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 97,
+                        "end": 109,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 208,
+                        "end": 211,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 270,
+                        "end": 272,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 279,
+                        "end": 323,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 350,
+                        "end": 361,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 365,
+                        "end": 380,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 394,
+                        "end": 403,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 413,
+                        "end": 428,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 451,
+                        "end": 462,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 511,
+                        "end": 526,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 528,
+                        "end": 537,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 561,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 594,
+                        "end": 605,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 648,
+                        "end": 657,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 779,
+                        "end": 781,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 896,
+                        "end": 900,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 32%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 16%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
                     "format": [
                       {
                         "start": 37,
@@ -14523,44 +10623,20 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 117,
-                        "end": 120,
+                        "start": 195,
+                        "end": 198,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 132,
-                        "end": 136,
+                        "start": 257,
+                        "end": 259,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 176,
-                        "end": 177,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 207,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 234,
-                        "end": 237,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 267,
-                        "end": 269,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 276,
-                        "end": 307,
+                        "start": 266,
+                        "end": 310,
                         "kind": "tone",
                         "tone": "accent"
                       },
@@ -14583,698 +10659,62 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 392,
-                        "end": 407,
+                        "start": 400,
+                        "end": 415,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 423,
-                        "end": 434,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 476,
-                        "end": 485,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 499,
-                        "end": 510,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 546,
-                        "end": 557,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 580,
-                        "end": 582,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 660,
-                        "end": 669,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 743,
-                        "end": 744,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 753,
-                        "end": 755,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 762,
-                        "end": 771,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 851,
-                        "end": 854,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 863,
-                        "end": 865,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above that threshold, ATK increases by 6, up to a maximum increase of 1,152; Impact increases by 0.4, up to a maximum increase of 77;\n[Special Attack: Don't Let the Door Hit Ya] hitting enemies afflicted with [Windswept] or [Contamination] triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%; [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 96,
-                        "end": 108,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 117,
-                        "end": 120,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 132,
-                        "end": 136,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 176,
-                        "end": 177,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 207,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 234,
-                        "end": 237,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 267,
-                        "end": 269,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 314,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 346,
-                        "end": 357,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 361,
-                        "end": 376,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 386,
-                        "end": 395,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 397,
-                        "end": 412,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 424,
-                        "end": 435,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 464,
-                        "end": 473,
+                        "start": 434,
+                        "end": 445,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
                         "start": 487,
-                        "end": 498,
+                        "end": 502,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 525,
-                        "end": 536,
+                        "start": 504,
+                        "end": 513,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 559,
-                        "end": 561,
+                        "start": 526,
+                        "end": 537,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 639,
-                        "end": 648,
+                        "start": 576,
+                        "end": 587,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 665,
-                        "end": 666,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 729,
-                        "end": 731,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 734,
-                        "end": 743,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 760,
-                        "end": 763,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 832,
-                        "end": 834,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above that threshold, ATK increases by 6, up to a maximum increase of 1,152; Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: No See-Off] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] will be reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or applies [Windswept] again to an enemy already affected by [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 100%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 50%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 96,
-                        "end": 108,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 117,
-                        "end": 120,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 132,
-                        "end": 136,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 176,
-                        "end": 177,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 207,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 234,
-                        "end": 237,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 267,
-                        "end": 269,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 276,
-                        "end": 304,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 331,
-                        "end": 342,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 346,
-                        "end": 361,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 375,
-                        "end": 384,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 386,
-                        "end": 401,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 422,
-                        "end": 433,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 475,
-                        "end": 484,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 496,
-                        "end": 507,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 546,
-                        "end": 557,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 580,
-                        "end": 582,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 660,
-                        "end": 669,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 743,
-                        "end": 746,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 755,
-                        "end": 757,
+                        "start": 630,
+                        "end": 639,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
                         "start": 764,
-                        "end": 773,
+                        "end": 766,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 853,
-                        "end": 855,
+                        "start": 773,
+                        "end": 782,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 864,
-                        "end": 866,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond the threshold, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: Don't Let the Door Hit Ya] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate is greater than 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, non-[Armorer] Characters in the whole squad gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%, and [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 118,
-                        "end": 121,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 133,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 177,
-                        "end": 178,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 208,
-                        "end": 213,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 239,
-                        "end": 242,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 272,
-                        "end": 274,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 324,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 354,
-                        "end": 365,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 369,
-                        "end": 384,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 398,
-                        "end": 407,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 409,
-                        "end": 424,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 436,
-                        "end": 447,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 476,
-                        "end": 485,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 499,
-                        "end": 510,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 537,
-                        "end": 548,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 579,
-                        "end": 581,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 641,
-                        "end": 650,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 686,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 750,
-                        "end": 752,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 759,
-                        "end": 768,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 785,
-                        "end": 788,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 857,
-                        "end": 859,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond the threshold, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: Don't Let the Door Hit Ya] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate is greater than 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, non-[Armorer] Characters in the whole squad gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%, and [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 37,
-                        "end": 50,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 118,
-                        "end": 121,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 133,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 177,
-                        "end": 178,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 208,
-                        "end": 213,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 239,
-                        "end": 242,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 272,
-                        "end": 274,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 324,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 354,
-                        "end": 365,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 369,
-                        "end": 384,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 398,
-                        "end": 407,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 409,
-                        "end": 424,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 436,
-                        "end": 447,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 476,
-                        "end": 485,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 499,
-                        "end": 510,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 537,
-                        "end": 548,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 579,
-                        "end": 581,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 641,
-                        "end": 650,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 686,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 750,
-                        "end": 752,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 759,
-                        "end": 768,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 785,
-                        "end": 788,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 857,
-                        "end": 859,
+                        "start": 884,
+                        "end": 886,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -15282,7 +10722,7 @@
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "For every 20 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond the threshold, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: Don't Let the Door Hit Ya] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] reverts to [Windswept];\nWhen any teammate triggers [Cleanse] or reapplies [Windswept] to an enemy already under [Windswept], if CRIT Rate is greater than 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, non-[Armorer] Characters in the whole squad gain 1% increased CRIT DMG of the Cleansed attribute and Wind, up to 50%, and [Armorer] Characters gain 0.5% increased Laceration DMG of the Cleansed attribute and Wind, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to the [Windswept] effect;\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 35%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 17.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
                     "format": [
                       {
                         "start": 37,
@@ -15303,68 +10743,164 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 118,
-                        "end": 121,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 133,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 177,
-                        "end": 178,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
                         "start": 208,
-                        "end": 213,
+                        "end": 211,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 239,
-                        "end": 242,
+                        "start": 270,
+                        "end": 272,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 272,
-                        "end": 274,
+                        "start": 279,
+                        "end": 323,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 281,
-                        "end": 324,
+                        "start": 350,
+                        "end": 361,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 365,
+                        "end": 380,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 394,
+                        "end": 403,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 413,
+                        "end": 428,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 451,
+                        "end": 462,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 511,
+                        "end": 526,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 528,
+                        "end": 537,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 550,
+                        "end": 561,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 594,
+                        "end": 605,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 648,
+                        "end": 657,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 779,
+                        "end": 781,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 788,
+                        "end": 797,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 896,
+                        "end": 900,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 40%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 20%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "format": [
+                      {
+                        "start": 37,
+                        "end": 50,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 52,
+                        "end": 65,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 96,
+                        "end": 108,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 195,
+                        "end": 198,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 257,
+                        "end": 261,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 268,
+                        "end": 312,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 339,
+                        "end": 350,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
                         "start": 354,
-                        "end": 365,
+                        "end": 369,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 369,
-                        "end": 384,
+                        "start": 383,
+                        "end": 392,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 398,
-                        "end": 407,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 409,
-                        "end": 424,
+                        "start": 402,
+                        "end": 417,
                         "kind": "tone",
                         "tone": "accent"
                       },
@@ -15375,218 +10911,50 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 476,
-                        "end": 485,
+                        "start": 489,
+                        "end": 504,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 499,
-                        "end": 510,
+                        "start": 506,
+                        "end": 515,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 537,
-                        "end": 548,
+                        "start": 528,
+                        "end": 539,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 579,
-                        "end": 581,
+                        "start": 578,
+                        "end": 589,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 641,
-                        "end": 650,
+                        "start": 632,
+                        "end": 641,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 686,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 750,
-                        "end": 752,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 759,
+                        "start": 766,
                         "end": 768,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 785,
-                        "end": 788,
+                        "start": 775,
+                        "end": 784,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 857,
-                        "end": 859,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "For every 20 Energy consumed, gain 1 point of [Wind Energy]. [Wind Energy] caps at 3 points.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 the excess surpasses, ATK increases by 6, up to a maximum increase of 1,152, and Impact increases by 0.4, up to a maximum increase of 77;\nWhen [Special Attack: See Ya Never] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] is reverted to [Windswept];\nWhen any teammate in the squad triggers [Cleanse] or reapplies [Windswept] to an enemy already afflicted with [Windswept], if CRIT Rate exceeds 50%, for every 1% Roxy's CRIT Rate exceeds the threshold, the whole squad's non-[Armorer] Characters gain increased CRIT DMG of the Cleansed attribute and Wind by 1%, up to 50%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind by 0.5%, up to 25%. Each attribute buff lasts 40s; repeated triggers reset the duration.",
-                    "format": [
-                      {
-                        "start": 46,
-                        "end": 59,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 61,
-                        "end": 74,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 113,
-                        "end": 125,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 137,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 149,
-                        "end": 153,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 193,
-                        "end": 194,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 224,
-                        "end": 229,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 255,
-                        "end": 258,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 288,
-                        "end": 290,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 297,
-                        "end": 327,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 357,
-                        "end": 368,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 372,
-                        "end": 387,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 401,
-                        "end": 410,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 412,
-                        "end": 427,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 443,
-                        "end": 454,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 496,
-                        "end": 505,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 519,
-                        "end": 530,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 566,
-                        "end": 577,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 600,
-                        "end": 602,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 680,
-                        "end": 689,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 763,
-                        "end": 764,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 773,
-                        "end": 775,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 782,
-                        "end": 791,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 871,
-                        "end": 874,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 883,
-                        "end": 885,
+                        "start": 886,
+                        "end": 888,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -15597,7 +10965,7 @@
               {
                 "name": "Additional Ability: Porcelloy Heart",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is an [Attack] Character, [Rupture] Character, or [Armorer] Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%;\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, their Stun duration is extended by 2s;\nWhen an enemy is affected by [Windswept] or [Contamination], the Wind Attribute direct DMG and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 10%;\nUpon entering the battlefield, recover 40 Energy. This effect can trigger once every 180s in Investigation Zone mode;\nThe duration of [Windswept] effects applied by all squad members is extended by 20s;\nWhen using [EX Special Attack], Anomaly Buildup Rate increases by 25% for 40s. Repeated triggers reset the duration.",
+                "desc": "When another character in your squad is an [Attack], [Rupture], or [Armorer] Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by [Windswept] or [Contamination], Wind direct DMG and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of [Windswept] effects applied by all squad members is extended by 20s.\nWhen using [EX Special Attack], Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration.",
                 "descFormat": [
                   {
                     "start": 43,
@@ -15606,50 +10974,50 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 63,
-                    "end": 72,
+                    "start": 53,
+                    "end": 62,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 87,
-                    "end": 96,
+                    "start": 67,
+                    "end": 76,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 503,
-                    "end": 514,
+                    "start": 481,
+                    "end": 492,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 518,
-                    "end": 533,
+                    "start": 496,
+                    "end": 511,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 539,
-                    "end": 564,
+                    "start": 513,
+                    "end": 528,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 804,
-                    "end": 815,
+                    "start": 768,
+                    "end": 779,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 884,
-                    "end": 903,
+                    "start": 848,
+                    "end": 867,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 939,
-                    "end": 941,
+                    "start": 903,
+                    "end": 905,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -15662,9 +11030,9 @@
             "title": "Mindscape Cinema",
             "entries": [
               {
-                "name": "All-Round Attendant",
+                "name": "...",
                 "type": "Mindscape 1",
-                "desc": "[EX Special Attack: Rest in Peace] On hit, reduces the enemy's All-Attribute RES by 15% for 40s; increases own CRIT DMG by 30%.",
+                "desc": "[EX Special Attack: Rest in Peace] On hit, reduces the enemy's All-Attribute RES by 15% for 50s; increases own CRIT DMG by 40%.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -15675,50 +11043,62 @@
                 ]
               },
               {
-                "name": "Never Overtime",
+                "name": "...",
                 "type": "Mindscape 2",
-                "desc": "For each [Wind Eye] detonated, the next [EX Special Attack: Watch for Wind Chill] deals 5% more Daze, up to a max of 15%. When [EX Special Attack: Watch for Wind Chill] is launched and enters [Spin] state to switch characters, Roxy maintains the [Spin] state for 0.25s without consuming Energy, up to a max of 0.75s. When [EX Special Attack: Watch for Wind Chill] hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
+                "desc": "[EX Special Attack: Watch for Wind Chill] Daze inflicted increases by 5%; each [Wind Eye] detonated grants 1 stack of [Flow Momentum], up to a maximum of 3 stacks; when switching out during [Spin] state while [EX Special Attack: Watch for Wind Chill] is active, Roxy consumes all [Flow Momentum] stacks, with each stack consumed maintaining [Spin] state for 0.2s without consuming Energy, up to a maximum of 0.6s; when [EX Special Attack: Watch for Wind Chill] hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
                 "descFormat": [
                   {
-                    "start": 9,
-                    "end": 19,
+                    "start": 0,
+                    "end": 41,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 40,
-                    "end": 81,
+                    "start": 79,
+                    "end": 89,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 127,
-                    "end": 168,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 192,
-                    "end": 198,
+                    "start": 118,
+                    "end": 133,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 246,
-                    "end": 252,
+                    "start": 190,
+                    "end": 196,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 322,
-                    "end": 363,
+                    "start": 209,
+                    "end": 250,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 280,
+                    "end": 295,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 341,
+                    "end": 347,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 419,
+                    "end": 460,
                     "kind": "tone",
                     "tone": "anemo"
                   }
                 ]
               },
               {
-                "name": "Insomniac Tales",
+                "name": "...",
                 "type": "Mindscape 3",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -15755,9 +11135,9 @@
                 ]
               },
               {
-                "name": "R.I.P",
+                "name": "...",
                 "type": "Mindscape 4",
-                "desc": "When launching [Defensive Assist], Roxy recovers 1 Energy, up to 1 time per skill; when [Dodge Counter: Giving Back] hits an enemy, recovers 2 Energy, up to 1 time per skill; [Ultimate: Requiem of the Buried Night] DMG increases by 25%, and Daze increases by 10%.",
+                "desc": "When launching [Defensive Assist], Roxy recovers 1 Energy, up to 1 time per skill; when [Dodge Counter: Giving Back] hits an enemy, recovers 2 Energy, up to 1 time per skill; [Ultimate: Requiem of the Buried Night] DMG increases by 20%, and Daze increases by 10%.",
                 "descFormat": [
                   {
                     "start": 15,
@@ -15780,7 +11160,7 @@
                 ]
               },
               {
-                "name": "Second Heartbeat",
+                "name": "...",
                 "type": "Mindscape 5",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -15817,31 +11197,31 @@
                 ]
               },
               {
-                "name": "Eternity and the Clockwork Automaton",
+                "name": "...",
                 "type": "Mindscape 6",
-                "desc": "Upon entering the battlefield, DMG dealt by self ignores 30% of the target's Wind DMG RES; when [Special Attack: Don't Bother Seeing Me Out] detonates [Wind Eye] to generate a large tornado, the main target is granted the [Vengeance] effect, generating a large tornado at the target's position once every 3 seconds, for a total of 4 additional large tornadoes; the DMG Multiplier of large tornadoes is increased by 400%, and the Daze dealt is increased by 100%. On repeated triggers, the additional generation count stacks.",
+                "desc": "DMG dealt ignores 20% of the target's Wind DMG RES; When [Special Attack: Don't Bother Seeing Me Out] detonates [Wind Eye] to generate a giant wind vortex, the main target is afflicted with the [Reverberation] effect, generating a giant wind vortex at the target's position once every 3s, for a total of 2 additional giant wind vortices. Upon repeated triggers, the number of additional generations stacks.; The DMG Multiplier of giant wind vortices becomes 250% of the original, and Daze inflicted is increased by 30%.",
                 "descFormat": [
                   {
-                    "start": 77,
-                    "end": 89,
+                    "start": 38,
+                    "end": 50,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 96,
-                    "end": 140,
+                    "start": 57,
+                    "end": 101,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 151,
-                    "end": 161,
+                    "start": 112,
+                    "end": 122,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 222,
-                    "end": 233,
+                    "start": 194,
+                    "end": 209,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -17383,7 +12763,7 @@
   "weapons": [
     {
       "id": "14161",
-      "name": "Crimson Thirst",
+      "name": "Crimson Craving",
       "rarity": 4,
       "weaponType": "Armorer",
       "type": "Armorer",
@@ -17413,42 +12793,6 @@
           "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
-        }
-      ],
-      "cost": 400000
-    },
-    {
-      "id": "14162",
-      "name": "...",
-      "rarity": 4,
-      "weaponType": "Stun",
-      "type": "Stun",
-      "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
-      "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
-      "items": [
-        {
-          "id": "101011",
-          "name": "Stun Component",
-          "qty": 4,
-          "rar": 1,
-          "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
-        },
-        {
-          "id": "101021",
-          "name": "Reinforced Stun Component",
-          "qty": 32,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
-        },
-        {
-          "id": "101031",
-          "name": "Specialized Stun Component",
-          "qty": 30,
-          "rar": 4,
-          "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
         }
       ],
       "cost": 400000
@@ -17524,6 +12868,318 @@
         }
       ],
       "cost": 320000
+    }
+  ],
+  "weeklyBosses": [
+    {
+      "bossName": "Corrupted Overlord - Pompey",
+      "drops": [
+        {
+          "id": "110004",
+          "name": "Scarlet Engine",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss004.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss004.webp",
+          "source": "Corrupted Overlord - Pompey",
+          "sourceDetails": [
+            {
+              "name": "Corrupted Overlord - Pompey",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_TyrantPompey.webp"
+            }
+          ],
+          "chars": [
+            "Burnice",
+            "Caesar",
+            "Evelyn",
+            "Lighter",
+            "Orphie & Magus",
+            "Pulchra"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Corrupted Wandering Hunter",
+      "drops": [
+        {
+          "id": "110007",
+          "name": "Crimson Miasma Spike",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss007.webp",
+          "source": "Corrupted Wandering Hunter",
+          "sourceDetails": [
+            {
+              "name": "Wandering Hunter",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_WanderingHunter.webp"
+            }
+          ],
+          "chars": [
+            "Banyue",
+            "Lucia",
+            "Manato",
+            "Sigrid",
+            "Yidhari"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Dead End Butcher",
+      "drops": [
+        {
+          "id": "110001",
+          "name": "Ferocious Grip",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss001.webp",
+          "source": "Dead End Butcher",
+          "sourceDetails": [
+            {
+              "name": "Dead End Butcher",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CottusGrey.webp"
+            }
+          ],
+          "chars": [
+            "Anby",
+            "Billy",
+            "Ellen",
+            "Jane Doe",
+            "Lucy",
+            "Nekomata",
+            "Nicole",
+            "Trigger"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "giant beast \"Sobek\" controlled by The Thrall",
+      "drops": [
+        {
+          "id": "110008",
+          "name": "Clouded Crystalline Substance",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss008.webp",
+          "source": "giant beast \"Sobek\" controlled by The Thrall",
+          "sourceDetails": [
+            {
+              "name": "giant beast \"Sobek\" controlled by The Thrall"
+            }
+          ],
+          "chars": [
+            "Aria",
+            "Billy - Starlight",
+            "Sunna",
+            "Ye Shunguang",
+            "Zhao"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Girtablullu",
+      "drops": [
+        {
+          "id": "110010",
+          "name": "Timeworn Husk",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss010.webp",
+          "source": "Girtablullu",
+          "sourceDetails": [
+            {
+              "name": "Girtablullu",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Girtablu.webp"
+            }
+          ],
+          "chars": [
+            "Norma",
+            "Pyrois",
+            "Remielle",
+            "Velina"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Kusarikku",
+      "drops": [
+        {
+          "id": "110011",
+          "name": "Forged Away Core",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": null,
+          "source": "Kusarikku",
+          "sourceDetails": [
+            {
+              "name": "Kusarikku"
+            }
+          ],
+          "chars": [
+            "Claret",
+            "Roxy"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Miasma Priest",
+      "drops": [
+        {
+          "id": "110006",
+          "name": "Exuvia of Refinement",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss006.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss006.webp",
+          "source": "Miasma Priest",
+          "sourceDetails": [
+            {
+              "name": "Miasma Priest",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MentorMevorakh.webp"
+            }
+          ],
+          "chars": [
+            "Cissia",
+            "Dialyn",
+            "Ju Fufu",
+            "Pan Yinhu",
+            "Seed",
+            "Yixuan"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sacrifice",
+      "drops": [
+        {
+          "id": "110005",
+          "name": "Sycophant's Refinement",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss005.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss005.webp",
+          "source": "Sacrifice",
+          "sourceDetails": [
+            {
+              "name": "Sacrifice - Covenant Guardian",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_CovenantGuardian.webp"
+            }
+          ],
+          "chars": [
+            "Alice",
+            "Harumasa",
+            "Miyabi",
+            "Vivian",
+            "Yuzuha"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sanguine Sweeper",
+      "drops": [
+        {
+          "id": "110009",
+          "name": "Marrow-Draining Thorn",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss009.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss009.webp",
+          "source": "Sanguine Sweeper",
+          "sourceDetails": [
+            {
+              "name": "Sanguine Sweeper",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_GraymaneCenturion.webp"
+            }
+          ],
+          "chars": [
+            "Nangong Yu",
+            "Promeia"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Twin Marionettes",
+      "drops": [
+        {
+          "id": "110003",
+          "name": "Finale Dance Shoes",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss003.webp",
+          "source": "Twin Marionettes",
+          "sourceDetails": [
+            {
+              "name": "Twin Marionettes",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_Marionette_Twins.webp"
+            }
+          ],
+          "chars": [
+            "Astra Yao",
+            "Corin",
+            "Hugo",
+            "Lycaon",
+            "Piper",
+            "Rina",
+            "Soldier 11",
+            "Soukaku"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Unknown Corruption Complex",
+      "drops": [
+        {
+          "id": "110002",
+          "name": "Living Drive",
+          "qty": 9,
+          "rar": 5,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+          "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+          "source": "Unknown Corruption Complex",
+          "sourceDetails": [
+            {
+              "name": "Unknown Corruption Complex",
+              "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+            }
+          ],
+          "chars": [
+            "Anby: Soldier 0",
+            "Anton",
+            "Ben",
+            "Grace",
+            "Koleda",
+            "Qingyi",
+            "Seth",
+            "Yanagi",
+            "Zhu Yuan"
+          ]
+        }
+      ]
     }
   ]
 };

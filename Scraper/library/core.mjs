@@ -68,9 +68,12 @@ function stripTemplates(value) {
   return text.replace(/\{\{[\s\S]*?\}\}/g, ' ');
 }
 
+function stripWikiComments(value) {
+  return String(value || '').replace(/<!--[\s\S]*?-->/g, ' ').replace(/<!--|-->/g, ' ');
+}
+
 function safeWikitext(value) {
-  return cleanText(stripTemplates(String(value || '')
-    .replace(/<!--[\s\S]*?-->/g, ' ')
+  return cleanText(stripTemplates(stripWikiComments(value)
     .replace(/<ref\b[^>]*>[\s\S]*?<\/ref\s*>/gi, ' ')
     .replace(/<ref\b[^>]*\/?\s*>/gi, ' ')
     .replace(/<(script|style|iframe|embed|object|form|input|button|video|audio|source)\b[\s\S]*?<\/\1\s*>/gi, ' ')
@@ -122,7 +125,7 @@ function readableFallback(content) {
 }
 
 export function parseReadableWikitext(value) {
-  const lines = String(value || '').replace(/\r/g, '').split('\n');
+  const lines = stripWikiComments(value).replace(/\r/g, '').split('\n');
   const blocks = [];
   let para = [];
   let list = null;

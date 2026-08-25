@@ -1,17 +1,13 @@
 {
   "windows": [
     {
-      "game": "hsr",
-      "startsAt": "2026-08-10T04:00:49Z",
-      "endsAt": "2026-08-17T18:30:01Z",
+      "game": "wuwa",
+      "startsAt": "2026-08-21T03:00:06Z",
+      "endsAt": "2026-08-24T15:00:06Z",
       "mode": "deep",
-      "note": "Honkai: Star Rail Version 4.5 \"To Roll the Stars in Astropolis\" Special Program",
+      "note": "Insider Channel: Special Program | Crystal Clear",
       "source": "youtube",
-      "sourceUrls": [
-        "https://www.youtube.com/shorts/VpVUbWjB_sQ",
-        "https://www.youtube.com/watch?v=d8-TuT09EME",
-        "https://www.youtube.com/watch?v=xpZoM9t7KRA"
-      ]
+      "sourceUrl": "https://www.youtube.com/watch?v=om6QZVMX9-M"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": 30052,
-  "monster_id": 31631,
+  "monster_id": 31635,
   "monster_info": {
     "31631": {
       "id": 31631,
@@ -13,12 +13,12 @@
       ],
       "type": "Monster",
       "element": {
-        "ice": 1,
+        "ice": 0,
         "fire": 0,
         "electric": 0,
         "ether": 0,
-        "physical": -1,
-        "wind": 1
+        "physical": 0,
+        "wind": 0
       },
       "stats": {
         "hp": 20309,
@@ -506,12 +506,12 @@
       ],
       "type": "Monster",
       "element": {
-        "ice": 1,
+        "ice": 0,
         "fire": 0,
         "electric": 0,
         "ether": 0,
-        "physical": -1,
-        "wind": 1
+        "physical": 0,
+        "wind": 0
       },
       "stats": {
         "hp": 41317,

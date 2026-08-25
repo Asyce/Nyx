@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "endfield",
-  "generatedAt": "2026-08-18T03:56:13.874Z",
+  "generatedAt": "2026-08-25T03:58:02.711Z",
   "source": {
     "name": "Arknights: Endfield Official",
     "endpoint": "web-news.gryphline.com /api/bulletin"
@@ -9,10 +9,10 @@
   "counts": {
     "total": 30,
     "needs_review": 23,
-    "banner": 10,
+    "banner": 21,
     "byType": {
-      "event": 18,
-      "banner": 10,
+      "banner": 21,
+      "event": 7,
       "login": 2
     }
   },
@@ -21,7 +21,7 @@
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-ac9f742eafce",
       "title": "[Crimson Hued Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": "2026-06-26T04:00:00.000Z",
       "end": null,
       "server": "global",
@@ -31,7 +31,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1321",
         "kind": "official-bulletin-api",
         "recordId": "1321",
-        "fetchedAt": "2026-08-18T03:56:58.821Z",
+        "fetchedAt": "2026-08-25T03:58:40.464Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -46,7 +46,7 @@
         }
       },
       "image": "/assets/events/endfield/fee417039b96c088c12f10b92a6e195aa2ecab7aeec21e60ac010f7e3b5e484d.jpg",
-      "description": "Dear Endministrator, While [Crimson Hued Issue] is available, the chance of getting the 6★ weapon [Blessing of Lustrous Carmine (Polearm)] is increased! ▼// [Crimson Hued Issue] · Availability: Opens June 26, 2026 at 12:00 (server time),…"
+      "description": "Dear Endministrator,\nWhile [Crimson Hued Issue] is available, the chance of getting the 6★ weapon [Blessing of Lustrous Carmine (Polearm)] is increased!\n▼// [Crimson Hued Issue]\n· Availability: Opens June 26, 2026 at 12:00 (server time), and ends after 3 [Chartered Headhunting] banners (starting from [Expunger of Sin])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Crimson Hued Issue] features the Rate-UP 6★ weapon [Blessing of Lustrous Carmine (Polearm)].\n· 6★ weapons that may appear in [Crimson Hued Issue] include: Blessing of Lustrous Carmine (Polearm) / Valiant (Polearm) / JET (Polearm) / Clannibal (Handcannon) / Thermite Cutter (Sword) / Oblivion (Arts Unit) / Exemplar (Greatsword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
@@ -62,7 +62,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6175",
         "kind": "official-bulletin-api",
         "recordId": "6175",
-        "fetchedAt": "2026-08-18T03:56:59.050Z",
+        "fetchedAt": "2026-08-25T03:58:40.667Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -77,7 +77,7 @@
         }
       },
       "image": "/assets/events/endfield/08cd874848f9871273dd086591c4dce7cf0bc883288361e7277b633c52ac369f.jpg",
-      "description": "Dear Endministrator, During [Expunger of Sin] Chartered Headhunting, the 6★ operator [Camille] is Rate-UP! The [Peacekeeper's Nocturne] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
+      "description": "Dear Endministrator,\nDuring [Expunger of Sin] Chartered Headhunting, the 6★ operator [Camille] is Rate-UP!\nThe [Peacekeeper's Nocturne] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Peacekeeper's Nocturne HH Permit]×5. You can also exchange for [Peacekeeper's Nocturne HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [Expunger of Sin] Chartered Headhunting Details\n· Availability: June 26, 2026 at 12:00 (server time) – Before version update and maintenance\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Expunger of Sin] Chartered Headhunting features the Rate-UP 6★ operator [Camille].\n· 6★ operators that may appear in [Expunger of Sin] Chartered Headhunting include: Camille / Mi Fu / Zhuang Fangyi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Expunger of Sin] Chartered Headhunting, you can use [Peacekeeper's Nocturne HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Expunger of Sin] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n■ Urgent Recruitment\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n■ Headhunting Dossier\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to Special HH Permit×10 of the said [Chartered Headhunting] banner. However, the HH Permits will also expire once the said banner ends.\n■ Token Tribute\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Expunger of Sin] Chartered Headhunting, the following content will also be available:\n▼// [Peacekeeper's Nocturne] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Peacekeeper's Nocturne HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Camille]. Complete the specified stage with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Peacekeeper's Nocturne HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -93,7 +93,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0759",
         "kind": "official-bulletin-api",
         "recordId": "0759",
-        "fetchedAt": "2026-08-18T03:57:00.203Z",
+        "fetchedAt": "2026-08-25T03:58:41.679Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -108,7 +108,7 @@
         }
       },
       "image": "/assets/events/endfield/a7a0859195a930ecb744b132a2e46d0f5bfd8d51dc692a9890b36c2db73ff6d9.png",
-      "description": "Dear Endministrator, During [Fists of No Regrets] Chartered Headhunting, the 6★ operator [Mi Fu] is Rate-UP! The [One with Her Fists] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [One…"
+      "description": "Dear Endministrator,\nDuring [Fists of No Regrets] Chartered Headhunting, the 6★ operator [Mi Fu] is Rate-UP!\nThe [One with Her Fists] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [One with Her Fists HH Permit]×5. You can also exchange for [One with Her Fists HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [Fists of No Regrets] Chartered Headhunting Details\n· Availability: After [Sketches of Lost Heirlooms] version release – June 26, 2026 at 11:59 (server time)\n※Asia Server Time Zone: UTC+8\n※Americas / Europe Server Time Zone: UTC-5\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Fists of No Regrets] Chartered Headhunting features the Rate-UP 6★ operator [Mi Fu].\n· 6★ operators that may appear in [Fists of No Regrets] Chartered Headhunting include: Mi Fu / Zhuang Fangyi / Rossi / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Fists of No Regrets] Chartered Headhunting, you can use [One with Her Fists HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Fists of No Regrets] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to Special HH Permit×10 of the said [Chartered Headhunting] banner. However, the HH Permits will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Fists of No Regrets] Chartered Headhunting, the following content will also be available:\n▼// [One with Her Fists] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [One with Her Fists HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Mi Fu]. Complete the specified stage with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [One with Her Fists HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -124,7 +124,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9579",
         "kind": "official-bulletin-api",
         "recordId": "9579",
-        "fetchedAt": "2026-08-18T03:57:02.072Z",
+        "fetchedAt": "2026-08-25T03:58:43.341Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -139,13 +139,13 @@
         }
       },
       "image": "/assets/events/endfield/55faef2cb1d4aebb47f4e69310ab0b6541f04cf681afecd20b6e4cdec7cbf4b4.jpg",
-      "description": "Dear Endministrator: During [Thunder of Renewal] Chartered Headhunting, the 6★ operator [Zhuang Fangyi] is Rate-UP! The [Blitz of Verdance] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
+      "description": "Dear Endministrator:\nDuring [Thunder of Renewal] Chartered Headhunting, the 6★ operator [Zhuang Fangyi] is Rate-UP!\nThe [Blitz of Verdance] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Blitz of Verdance HH Permit]×5. You can also exchange for [Blitz of Verdance HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [Thunder of Renewal] Chartered Headhunting Details\n· Availability: After [At the Wake of Spring] version release – May 22, 2026 at 11:59 (server time)\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Thunder of Renewal] Chartered Headhunting features the Rate-UP 6★ operator [Zhuang Fangyi].\n· 6★ operators that may appear in [Thunder of Renewal] Chartered Headhunting include: Zhuang Fangyi / Rossi / Tangtang / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Thunder of Renewal] Chartered Headhunting, you can use [Blitz of Verdance HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Thunder of Renewal] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to Special HH Permit×10 of the said [Chartered Headhunting] banner. However, the HH Permits will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Thunder of Renewal] Chartered Headhunting, the following content will also be available:\n▼// [Blitz of Verdance] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Blitz of Verdance HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Zhuang Fangyi]. Complete the specified stages with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Blitz of Verdance HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center].."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-245c88274682",
       "title": "[Smelting Fire Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": "2026-05-14T04:00:00.000Z",
       "end": null,
       "server": "global",
@@ -155,7 +155,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2669",
         "kind": "official-bulletin-api",
         "recordId": "2669",
-        "fetchedAt": "2026-08-18T03:57:01.155Z",
+        "fetchedAt": "2026-08-25T03:58:42.541Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -170,13 +170,13 @@
         }
       },
       "image": "/assets/events/endfield/d9beb6485d939eec496e8361517b2f41e8579d5d564b3b635aedb7d6a2b5adb5.jpg",
-      "description": "Dear Endministrator, While [Smelting Fire Issue] is available, the chance of getting 6★ weapon [Forgeborn Scathe (Sword)] is increased! ▼// [Smelting Fire Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time…"
+      "description": "Dear Endministrator,\nWhile [Smelting Fire Issue] is available, the chance of getting 6★ weapon [Forgeborn Scathe (Sword)] is increased!\n▼// [Smelting Fire Issue]\n· Availability:\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nOpens May 14, 2026 at 12:00 (server time); ends at the same time as [Fest of Brilliance] Special Headhunting.\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Smelting Fire Issue] features the Rate-UP 6★ weapon [Forgeborn Scathe (Sword)].\n· 6★ weapons that may appear in [Smelting Fire Issue] include: Forgeborn Scathe (Sword) / Thermite Cutter (Sword) / White Night Nova (Sword) / Clannibal (Handcannon) / Detonation Unit (Arts Unit) / Valiant (Polearm) / Former Finery (Greatsword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-734a0f7abac7",
       "title": "[Swift Walker Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": "2026-05-14T04:00:00.000Z",
       "end": null,
       "server": "global",
@@ -186,7 +186,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5210",
         "kind": "official-bulletin-api",
         "recordId": "5210",
-        "fetchedAt": "2026-08-18T03:57:00.434Z",
+        "fetchedAt": "2026-08-25T03:58:41.882Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -201,7 +201,7 @@
         }
       },
       "image": "/assets/events/endfield/8f52d4bece0d50b2921acf84df9df243fb5dd6021cb62b9fe8bcc6b3162d5383.jpg",
-      "description": "Dear Endministrator, While [Swift Walker Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased! ▼// [Swift Walker Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server…"
+      "description": "Dear Endministrator,\nWhile [Swift Walker Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased!\n▼// [Swift Walker Issue]\n· Availability:\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nOpens May 14, 2026 at 12:00 (server time); ends at the same time as [Fest of Brilliance] Special Headhunting.\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Swift Walker Issue] features the Rate-UP 6★ weapon [Delivery Guaranteed (Arts Unit)].\n· 6★ weapons that may appear in [Swift Walker Issue] include: Delivery Guaranteed (Arts Unit) / Oblivion (Arts Unit) / Detonation Unit (Arts Unit) / Wedge (Handcannon) / White Night Nova (Sword) / Exemplar (Greatsword) / Valiant (Polearm).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
@@ -217,7 +217,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7024",
         "kind": "official-bulletin-api",
         "recordId": "7024",
-        "fetchedAt": "2026-08-18T03:57:01.385Z",
+        "fetchedAt": "2026-08-25T03:58:42.743Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -232,7 +232,7 @@
         }
       },
       "image": "/assets/events/endfield/a4622dbc20fc359342a99103b4a26f2fcb92a06b69c2ff93a3db1315f355b76d.jpg",
-      "description": "Dear Endministrator, 6★ operators that may appear in [Fest of Brilliance] Special Headhunting include: Laevatain / Gilberta / Ardelia / Pogranichnik. The [Shimmering Moment] limited-time sign-in event will open simultaneously. Accumulate…"
+      "description": "Dear Endministrator,\n6★ operators that may appear in [Fest of Brilliance] Special Headhunting include: Laevatain / Gilberta / Ardelia / Pogranichnik.\nThe [Shimmering Moment] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Shimmering Moment HH Permit]×5. You can also exchange for [Shimmering Moment HH Permit] at a discount in [AIC Quota Exchange].\n▼// [Fest of Brilliance] Special Headhunting Details\n· Availability: May 14, 2026 at 12:00 (server time) – Before version update and maintenance\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· 6★ operators that may appear in [Fest of Brilliance] Special Headhunting include: Laevatain / Gilberta / Ardelia / Pogranichnik.\n· In [Fest of Brilliance] Special Headhunting, you can use [Shimmering Moment HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ [Fest of Brilliance] is a special headhunting banner exclusive to the [At the Wake of Spring] version, opened for this special arrangement and governed by rules applicable only to this banner. [Fest of Brilliance] is separate from existing headhunting types and rules, and does not carry over to or from other headhunting banners.\n▼// [Fest of Brilliance] Special Headhunting Rewards\nIn [Fest of Brilliance] Special Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓[Fest of Brilliance] Tribute: Bond Quota〓\n· In [Fest of Brilliance] Special Headhunting, each headhunting or Urgent Recruitment attempt gives a bonus [Bond Quota]×1.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts in [Fest of Brilliance] Special Headhunting, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Fest of Brilliance] Special Headhunting banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of [Fest of Brilliance] Special Headhunting, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· The free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for [Fest of Brilliance] Special Headhunting or other headhunting banners. It also will not be added to the total headhunting attempts required for [Fest of Brilliance] Special Headhunting rewards.\n〓[Fest of Brilliance] Tribute: Basic HH Permit〓\n· Perform a total of 60 headhunting attempts in [Fest of Brilliance] Special Headhunting to additionally receive [Basic HH Permit]×10. This bonus can only trigger 1 time in [Fest of Brilliance] Special Headhunting.\n〓[Fest of Brilliance] Tribute: Shimmering Moment Designation Permit〓\n· Perform a total of 120 headhunting attempts in [Fest of Brilliance] Special Headhunting to receive a bonus [Shimmering Moment Designation Permit]×1. This lets you choose and get one 6★ operator for free from the following: Laevatain / Gilberta / Ardelia / Pogranichnik. This bonus can only trigger 1 time in [Fest of Brilliance] Special Headhunting.\n〓[Fest of Brilliance] Tribute: Shimmering Moment Token Supply〓\n· For every 240 headhunting attempts performed in [Fest of Brilliance] Special Headhunting, you will receive a bonus [Shimmering Moment Token Supply]×1. This lets you choose and get one token for free from the following: Laevatain's Token / Gilberta's Token / Ardelia's Token / Pogranichnik's Token.\n※ You cannot choose a token for any listed 6★ operator you do not own.\n※ The items listed above in the [Fest of Brilliance] Tribute are bonus rewards available in this Special Headhunting banner. They will not affect operator drop rates or the guarantee count for [Fest of Brilliance] Special Headhunting or other headhunting banners.\n※ Upon the conclusion of [Fest of Brilliance] Special Headhunting, the accumulated attempts will reset to zero and will not carry over to any future headhunting banners.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Fest of Brilliance] Special Headhunting, the following content will also be available:\n▼// [Shimmering Moment] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Shimmering Moment HH Permit]×5.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Shimmering Moment HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -248,7 +248,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2677",
         "kind": "official-bulletin-api",
         "recordId": "2677",
-        "fetchedAt": "2026-08-18T03:57:05.593Z",
+        "fetchedAt": "2026-08-25T03:58:46.462Z",
         "priority": 1
       },
       "confidence": "low",
@@ -256,7 +256,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "1. Before participating in this event, please ensure that you are of legal age in your country/region, or that you have obtained consent from a guardian. 2. The winners will be announced within 20 business days after the event concludes,…"
+      "description": "1. Before participating in this event, please ensure that you are of legal age in your country/region, or that you have obtained consent from a guardian.\n2. The winners will be announced within 20 business days after the event concludes, in the comment section of the event post. Winners need to complete the information collection form within the designated period to ensure they receive their rewards. Failure to do so will be considered a forfeiture of the prize, and no reissue will be made. As part of the winner announcement, Endministrators who participate in this event are deemed to agree to the public sharing of their social media usernames, profile links, and other information during the public announcement stage.\n※To ensure smooth delivery of rewards, winners must fill out their information truthfully and verify that all information is accurate.\n3. Please refrain from posting content that violates community guidelines or platform rules, or any irrelevant information (including but not limited to unrelated links and advertisements). Any behavior that disrupts or attempts to disrupt the fairness of the event (including but not limited to cheating tools) may result in disqualification from participation and prize eligibility, and could lead to restrictions on future event participation.\n4. Please note that if your account has hidden tweets or if you delete any event-related tweets/comments during the event period, we will not be able to verify your eligibility, and your entry will be considered invalid. The event period is from the start date of the event until the announcement of the winners.\n5. Participants must follow the official Arknights: Endfield account to participate in the event. We will only contact eligible winners via direct message from the official account.\n6. Endministrators can participate in this event multiple times, but each person is only eligible to receive one prize. Rewards cannot be stacked.\n7. Winners across all official community platforms for the same event will be announced together. There is no fixed number of winners for each region/platform. The final number of winners will be determined based on the actual participation in each region/platform. The prize count mentioned in the event tweet reflects the total number of winners across all platforms, not just this platform. Events with identical content, rewards, number of winners, and duration is regarded as the same event.\n8. \"Physical prizes and other rewards\" will be shipped within 4 months of the winner announcement. Please note that customs duties, taxes, and other fees may apply during shipping, depending on your country or region. Winners are responsible for declaring and paying any taxes according to local policies. Additionally, due to local laws or regulatory requirements in certain regions, winners may need to provide extra tax information or complete identity verification in advance. We will reach out using the contact details you provided. Please remain attentive to relevant messages.\n※In the event of stock shortages, logistics issues, or other unforeseen circumstances that prevent us from fulfilling the shipment, we may substitute the prize with another of equal value. Please note that there may be delays in prize delivery, and we appreciate your understanding. For international shipments, the recipient is responsible for handling customs clearance with local authorities. We will not reissue prizes in the event of delivery failure due to customs clearance issues. If the item is damaged, please contact the shipping provider first.\n9. \"In-game rewards\" will be sent via the in-game mail within 60 business days of the winner announcement. Please stay attentive to the winner announcement and your in-game mail, and be sure to claim your reward promptly. Failure to claim the reward within the designated period will be considered as forfeiting the prize.\n10. The value of the gift card will be in USD. The actual amount received and the currency may be subject to exchange rates and redemption rules set by the gift card platform.\n11. Cash prizes (if any) will require the collection of details, including the payment account. Transaction fees for international transfers will be covered by us, but you will be responsible for any applicable taxes based on the actual amount received.\n12. Winners are solely responsible for fulfilling any tax obligations in accordance with the tax laws and regulations of their country/region of residence.\n13. All information collected through Google Forms will be used solely for the distribution of event rewards and necessary communication with you. We strictly comply with all relevant laws, regulations, and our Privacy Policy to ensure the proper protection and security of your personal data.\n14. Any matters not specified in these event rules shall be governed by the Arknights: Endfield Terms of Service and Privacy Policy, as confirmed by the Endministrator.\n15. Please contact customer support for any questions: endfield_cs@gryphline.com"
     },
     {
       "game": "endfield",
@@ -272,7 +272,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2656",
         "kind": "official-bulletin-api",
         "recordId": "2656",
-        "fetchedAt": "2026-08-18T03:56:58.131Z",
+        "fetchedAt": "2026-08-25T03:58:39.861Z",
         "priority": 1
       },
       "confidence": "low",
@@ -280,13 +280,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator, During [North Yearns the Rift Vigile] Chartered Headhunting, the 6★ operator [Arcane] is Rate-UP! The [Gaze North to the Rift] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards…"
+      "description": "Dear Endministrator,\nDuring [North Yearns the Rift Vigile] Chartered Headhunting, the 6★ operator [Arcane] is Rate-UP!\nThe [Gaze North to the Rift] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Gaze North to the Rift HH Permit]×5. You can also exchange for [Gaze North to the Rift HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [North Yearns the Rift Vigile] Chartered Headhunting Details\n· Availability: After [Homecoming] version release – Aug. 9, 2026 at 11:59 (server time)\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [North Yearns the Rift Vigile] Chartered Headhunting features the Rate-UP 6★ operator [Arcane].\n· 6★ operators that may appear in [North Yearns the Rift Vigile] Chartered Headhunting include: Arcane / Camille / Mi Fu / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [North Yearns the Rift Vigile] Chartered Headhunting, you can use [Gaze North to the Rift HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [North Yearns the Rift Vigile] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to Special HH Permit×10 of the said [Chartered Headhunting] banner. However, the HH Permits will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [North Yearns the Rift Vigile] Chartered Headhunting, the following content will also be available:\n▼// [Gaze North to the Rift] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Gaze North to the Rift HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] will become available for trying out the 6★ operator [Arcane]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Gaze North to the Rift HH Permit]×5.\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-4de63babcc1b",
       "title": "[Scarlet Pearl Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -296,7 +296,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2660",
         "kind": "official-bulletin-api",
         "recordId": "2660",
-        "fetchedAt": "2026-08-18T03:57:02.304Z",
+        "fetchedAt": "2026-08-25T03:58:43.540Z",
         "priority": 1
       },
       "confidence": "low",
@@ -304,13 +304,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: While [Scarlet Pearl Issue] is available, the chance of getting the 6★ weapon [Lupine Scarlet (Sword)] is increased! ▼// [Scarlet Pearl Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time…"
+      "description": "Dear Endministrator:\nWhile [Scarlet Pearl Issue] is available, the chance of getting the 6★ weapon [Lupine Scarlet (Sword)] is increased!\n▼// [Scarlet Pearl Issue]\n· Availability:\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nAsia Server: Opens Mar. 29, 2026 at 12:00 (server time); ends after 3 [Chartered Headhunting] banners (starting from [Wolf Pearl])\nAmericas / Europe Server: Opens Mar. 29, 2026 at 12:00 (server time); ends after 3 [Chartered Headhunting] banners (starting from [Wolf Pearl])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Scarlet Pearl Issue] features the Rate-UP 6★ weapon [Lupine Scarlet (Sword)].\n· 6★ weapons that may appear in [Scarlet Pearl Issue] include: Lupine Scarlet (Sword) / Rapid Ascent (Sword) / Eminent Repute (Sword) / Wedge (Handcannon) / Former Finery (Greatsword) / Detonation Unit (Arts Unit) / Valiant (Polearm).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, please visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-52d0091fef8a",
       "title": "[Graffiti Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -320,7 +320,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8909",
         "kind": "official-bulletin-api",
         "recordId": "8909",
-        "fetchedAt": "2026-08-18T03:57:03.453Z",
+        "fetchedAt": "2026-08-25T03:58:44.539Z",
         "priority": 1
       },
       "confidence": "low",
@@ -328,13 +328,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: While [Graffiti Issue] is available, the chance of getting 6★ weapon [Artzy Tyrannical (Handcannon)] is increased! ▼// [Graffiti Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe Server Time Zone:…"
+      "description": "Dear Endministrator:\nWhile [Graffiti Issue] is available, the chance of getting 6★ weapon [Artzy Tyrannical (Handcannon)] is increased!\n▼// [Graffiti Issue]\n· Availability:\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nAsia Server: Opens Feb. 24, 2026 at 12:00 PM (server time); ends after 3 [Chartered Headhunting] banners (starting from [Hues of Passion])\nAmericas / Europe Server: Opens Feb. 24, 2026 at 12:00 PM (server time); ends after 3 [Chartered Headhunting] banners (starting from [Hues of Passion])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Graffiti Issue] features the Rate-UP 6★ weapon [Artzy Tyrannical (Handcannon)].\n· 6★ weapons that may appear in [Graffiti Issue] include: Artzy Tyrannical (Handcannon) / Wedge (Handcannon) / Rapid Ascent (Sword) / White Night Nova (Sword) / JET (Polearm) / Chivalric Virtues (Arts Unit) / Sundered Prince (Greatsword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-6ea3ebfbf8d8",
       "title": "[Express Delivery Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -344,7 +344,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0754",
         "kind": "official-bulletin-api",
         "recordId": "0754",
-        "fetchedAt": "2026-08-18T03:57:04.172Z",
+        "fetchedAt": "2026-08-25T03:58:45.193Z",
         "priority": 1
       },
       "confidence": "low",
@@ -352,7 +352,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: While [Express Delivery Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased! ▼// [Express Delivery Issue] · Availability: Asia Server Time Zone: UTC+8 Americas / Europe…"
+      "description": "Dear Endministrator:\nWhile [Express Delivery Issue] is available, the chance of getting 6★ weapon [Delivery Guaranteed (Arts Unit)] is increased!\n▼// [Express Delivery Issue]\n· Availability:\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nAsia Server: Opens Feb. 7, 2026 at 12:00 PM (server time); ends after 3 [Chartered Headhunting] banners (starting from [The Floaty Messenger])\nAmericas / Europe Server: Opens Feb. 7, 2026 at 12:00 PM (server time); ends after 3 [Chartered Headhunting] banners (starting from [The Floaty Messenger])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Express Delivery Issue] features the Rate-UP 6★ weapon [Delivery Guaranteed (Arts Unit)].\n· 6★ weapons that may appear in [Express Delivery Issue] include: Delivery Guaranteed (Arts Unit) / Chivalric Virtues (Arts Unit) / Oblivion (Arts Unit) / Wedge (Handcannon) / Thermite Cutter (Sword) / White Night Nova (Sword) / Exemplar (Greatsword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
@@ -368,7 +368,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7028",
         "kind": "official-bulletin-api",
         "recordId": "7028",
-        "fetchedAt": "2026-08-18T03:57:04.405Z",
+        "fetchedAt": "2026-08-25T03:58:45.394Z",
         "priority": 1
       },
       "confidence": "low",
@@ -376,7 +376,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: During [The Floaty Messenger] Chartered Headhunting, 6★ operator [Gilberta] is Rate-UP! The [Messenger Express] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
+      "description": "Dear Endministrator:\nDuring [The Floaty Messenger] Chartered Headhunting, 6★ operator [Gilberta] is Rate-UP!\nThe [Messenger Express] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Messenger Express HH Permit]×5. You can also exchange for [Messenger Express HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [The Floaty Messenger] Chartered Headhunting Details\n· Availability:\nAmericas / Europe: Feb. 7, 2026 at 12:00 – Feb. 24, 2026 at 11:59 (server time)\nAsia: Feb. 7, 2026 at 12:00 – Feb. 24, 2026 at 11:59 (server time)\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [The Floaty Messenger] Chartered Headhunting features the Rate-UP 6★ operator [Gilberta].\n· 6★ operators that may appear in [The Floaty Messenger] Chartered Headhunting include: Gilberta / Yvonne / Laevatain / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [The Floaty Messenger] Chartered Headhunting, you can use [Messenger Express HH Permit], [Messenger Express 10×Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [The Floaty Messenger] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n■ Urgent Recruitment\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of [Chartered Headhunting], and the free 10× headhunting attempt guarantees a 5★ or higher operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n■ Headhunting Dossier\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] begins, this [Headhunting Dossier] will be automatically converted to a special 10×Permit of the said [Chartered Headhunting] banner. However, this 10×Permit will also expire once the said banner ends.\n■ Token Tribute\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [The Floaty Messenger] Chartered Headhunting, the following content will also be available:\n▼// [Messenger Express] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Messenger Express HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Gilberta]. Complete the specified stages with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Messenger Express HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center].\n※ Americas / Europe Time Zone: UTC-5\n※ Asia Time Zone: UTC+8"
     },
     {
       "game": "endfield",
@@ -392,7 +392,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4484",
         "kind": "official-bulletin-api",
         "recordId": "4484",
-        "fetchedAt": "2026-08-18T03:56:58.590Z",
+        "fetchedAt": "2026-08-25T03:58:40.260Z",
         "priority": 1
       },
       "confidence": "low",
@@ -400,7 +400,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "▼// Update Time June 26, 2026 at 12:00 (server time) ※ Asia Server Time Zone: UTC+8 ※ Americas / Europe Server Time Zone: UTC-5 ▼// Update Details Added the following auto-unlocked Test Criteria: · [Team: Encumbered] · [Ambient: Time…"
+      "description": "▼// Update Time\nJune 26, 2026 at 12:00 (server time)\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n▼// Update Details\nAdded the following auto-unlocked Test Criteria:\n· [Team: Encumbered]\n· [Ambient: Time Limit III]\n· [Edit: Flashfreeze]\n· [Ambient: RE-Construct I]\n· [Ambient: RE-Construct II]\nIf a Criteria Set is still locked, its newly added Test Criteria cannot be selected. Achieve higher Total Test Criteria records to unlock the Criteria Set.\n▼// Participation Criteria\n· Complete the main mission [Chapter I Process II: Paving the Way]\n· Authority Level ≥30\n▼// Event Details\n· This update adds Phase 2 content to the [Contingency Contract: Re-Ignition Experimental Operation] limited-time challenge event. All basic rules, reward exchange, [Sanctuary Rating], and other mechanics remain unchanged from Phase 1. Freely combine Test Criteria to achieve higher Total Test Criteria records!\n· A new cycle mission will be added every 3 days (updated at 04:00 server time) during the event. There are 7 cycle missions in total, and all challenges and missions will remain available until the event ends.\n▼// Important Notes\n· All Contract Missions and combat challenges will close when the event ends.\n· After the event ends, [Secret Sanctuary] will remain open for reward exchange until July 23, 2026 at 04:00 (server time). Once [Secret Sanctuary] closes, all unused [Vitrified Coins] will be cleared.\n※ For more event details, check the in-game [Event Center]."
     },
     {
       "game": "endfield",
@@ -416,7 +416,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3847",
         "kind": "official-bulletin-api",
         "recordId": "3847",
-        "fetchedAt": "2026-08-18T03:57:04.640Z",
+        "fetchedAt": "2026-08-25T03:58:45.598Z",
         "priority": 1
       },
       "confidence": "low",
@@ -424,7 +424,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: During [Scars of the Forge] Chartered Headhunting, 6★ operator [Laevatain] is Rate-UP! The [Firewalker's Trail] limited-time sign-in event is available at the same time. Sign in over multiple days to earn rewards such…"
+      "description": "Dear Endministrator:\nDuring [Scars of the Forge] Chartered Headhunting, 6★ operator [Laevatain] is Rate-UP!\nThe [Firewalker's Trail] limited-time sign-in event is available at the same time. Sign in over multiple days to earn rewards such as [Firewalker's Trail HH Permit]×5. In addition, [AIC Quota Exchange] offers a discounted exchange for [Firewalker's Trail HH Permit]. The [Combat Drills] operator trial event is also available.\n▼// [Scars of the Forge] Chartered Headhunting Details\n· Availability:\nAmericas / Europe Server Time Zone: UTC-5\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server: After start of the official release – Feb. 7, 2026 at 11:59 AM (server time)\nAsia Server: After start of the official release – Feb. 7, 2026 at 11:59 AM (server time)\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Scars of the Forge] Chartered Headhunting features the Rate-UP 6★ operator [Laevatain].\n· 6★ operators that may appear in [Scars of the Forge] Chartered Headhunting include: Laevatain / Gilberta / Yvonne / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Scars of the Forge] Chartered Headhunting, you can use [Firewalker's Trail HH Permit], [Firewalker's Trail 10×Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Scars of the Forge] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n■ Urgent Recruitment\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of [Chartered Headhunting], and the free 10× headhunting attempt guarantees a 5★ or higher operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n■ Headhunting Dossier\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next Chartered Headhunting begins, this [Headhunting Dossier] will be automatically converted to a special 10×Permit of the said Chartered Headhunting banner. However, this 10×Permit will also expire once the said banner ends.\n■ Token Tribute\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Scars of the Forge] Chartered Headhunting, the following content will also be available:\n▼// [Firewalker's Trail] Limited-Time Sign-In Event\n· Sign in for a total of 7 days to earn rewards such as [Firewalker's Trail HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Laevatain]. Complete the specified stages with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Firewalker's Trail HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -440,7 +440,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9566",
         "kind": "official-bulletin-api",
         "recordId": "9566",
-        "fetchedAt": "2026-08-18T03:56:59.281Z",
+        "fetchedAt": "2026-08-25T03:58:40.869Z",
         "priority": 1
       },
       "confidence": "low",
@@ -448,7 +448,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Share your operation results screenshots and challenge insights to win Oroberyl×500! Ancient obligations shall be honored, and forgotten partnerships restored. [Contingency Contract: Re-Ignition Experimental Operation] is now underway!…"
+      "description": "Share your operation results screenshots and challenge insights to win Oroberyl×500!\nAncient obligations shall be honored, and forgotten partnerships restored.\n[Contingency Contract: Re-Ignition Experimental Operation] is now underway! How are your operations going? Do you have any challenge insights, strategies, or thoughts you'd like to share with your fellow Endministrators?\n▼ How to Participate\nHead to the exclusive event channel and share your [Contingency Contract: Re-Ignition Experimental Operation] results screenshots along with your challenge insights to successfully participate in the event.\nParticipate Here: https://discord.gg/PBa4dUGc6u?event=1516712592624717855\n▼ Event Rewards\nFrom all Endministrators who successfully participate in the event, we will:\nRandomly select 50 Endministrators to each receive Oroberyl×500\n▼ Event Time\nJune 20, 2026 – July 15, 2026 at 23:59 (UTC+8)\n▼ Event Rules\n1. Before participating in this event, please ensure that you are of legal age in your country/region, or that you have obtained consent from a guardian.\n2. All content must comply with the Discord Community Guidelines and Server Rules. Any violating content will be deemed an invalid entry, resulting in disqualification and removal.\n3. Do not post any content that violates platform rules or is unrelated to the event (including but not limited to advertising links, and promotional materials). In the event that you're proven to have violated rules or undermined fairness in any way (including but not limited to the use of cheating/hacking software), we reserve the right to revoke your eligibility to participate and/or any prizes won. If considered necessary, you may also be prohibited from participating in any future events.\n4. Please note: If your account is suspended or canceled between the start of the event and the winner announcement, or if you delete your post/comment made to participate during this period, we will have no way to confirm your eligibility and your participation will be deemed invalid.\n5. Multiple submissions per account are allowed, but each account can receive at most one prize during this event.\n6. For lucky draw events, the winning odds will vary based on the actual number of valid entries.\n7. Winners will be announced on the official Discord server within 20 business days of the event's conclusion. Winners must fill out the prize information form within the specified timeframe to ensure successful reward delivery. Failure to complete the form before the deadline will be deemed forfeiture of the prize, and no replacement rewards will be issued.\n8. If you win a virtual prize from this event, please redeem or claim it by the deadline stated in the winner announcement. If you miss the deadline, the prize will be considered forfeited.\n9. In-game rewards will be distributed via in-game mail within 60 business days after the winners are announced. Please keep an eye on the winner announcement and your in-game mail to claim them promptly. Failure to claim the rewards before they expire will be deemed forfeiture of the rewards.\n10. If the collection of any personal information is required for this event, it will be used solely for sending out prizes and any necessary communication with you. We strictly comply with all relevant laws and regulations, along with those set out in our Privacy Policy, to protect your personal information and ensure data security.\n11. If you have any questions about this event, please contact the official Discord mod team via @Modmail. Gryphline reserves the right of final interpretation of this event to the extent permitted by law."
     },
     {
       "game": "endfield",
@@ -464,7 +464,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3843",
         "kind": "official-bulletin-api",
         "recordId": "3843",
-        "fetchedAt": "2026-08-18T03:57:02.535Z",
+        "fetchedAt": "2026-08-25T03:58:43.741Z",
         "priority": 1
       },
       "confidence": "low",
@@ -472,7 +472,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: During [Wolf Pearl] Chartered Headhunting, the 6★ operator [Rossi] is Rate-UP! The [Pearl of the Pack] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Pearl of the…"
+      "description": "Dear Endministrator:\nDuring [Wolf Pearl] Chartered Headhunting, the 6★ operator [Rossi] is Rate-UP!\nThe [Pearl of the Pack] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Pearl of the Pack HH Permit]×5. You can also exchange for [Pearl of the Pack HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [Wolf Pearl] Chartered Headhunting Details\n· Availability:\nAsia Server: Mar. 29, 2026 at 12:00 (server time) – Before version update and maintenance\nAmericas / Europe Server: Mar. 29, 2026 at 12:00 (server time) – Before version update and maintenance\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Wolf Pearl] Chartered Headhunting features the Rate-UP 6★ operator [Rossi].\n· 6★ operators that may appear in [Wolf Pearl] Chartered Headhunting include: Rossi / Tangtang / Yvonne / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Wolf Pearl] Chartered Headhunting, you can use [Pearl of the Pack HH Permit], [Pearl of the Pack 10×Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Wolf Pearl] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of [Chartered Headhunting], and the free 10× headhunting attempt guarantees a 5★ or higher operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] begins, this [Headhunting Dossier] will be automatically converted to a special 10×Permit of the said [Chartered Headhunting] banner. However, this 10×Permit will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Wolf Pearl] Chartered Headhunting, the following content will also be available:\n▼// [Pearl of the Pack] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Pearl of the Pack HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Rossi]. Complete the specified stages with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Pearl of the Pack HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -488,7 +488,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2657",
         "kind": "official-bulletin-api",
         "recordId": "2657",
-        "fetchedAt": "2026-08-18T03:56:59.511Z",
+        "fetchedAt": "2026-08-25T03:58:41.072Z",
         "priority": 1
       },
       "confidence": "low",
@@ -496,13 +496,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "▼// Availability June 19, 2026 at 12:00 (server time) – Before version update and maintenance ※ Asia Server Time Zone: UTC+8 ※ Americas / Europe Server Time Zone: UTC-5 ▼// Event Update Time June 26, 2026 at 12:00 (server time) ▼//…"
+      "description": "▼// Availability\nJune 19, 2026 at 12:00 (server time) – Before version update and maintenance\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n▼// Event Update Time\nJune 26, 2026 at 12:00 (server time)\n▼// [Secret Sanctuary] Availability\nJune 19, 2026 at 12:00 – July 23, 2026 at 04:00 (server time)\n▼// Event Rewards\nComplete mission goals during the event to earn rewards such as [Portrait: Ancient Contract], [Portrait Frame: Contingent Inscription], and [Vitrified Coins].\nSpend [Vitrified Coins] at the [Secret Sanctuary] to exchange for great rewards including [Sticker: Contingency Contract], [Oroberyls], and [Advanced Progression Selection Crate I].\n▼// Participation Criteria\n· Complete the main mission [Chapter I Process II: Paving the Way]\n· Authority Level ≥30\n▼// Event Details\n· [Contingency Contract] is a high-difficulty free challenge mode, where you can freely combine Test Criteria of varying difficulties to complete combat challenges.\n· Combat comprises a total of 4 waves. Defeat all enemies to beat the challenge. If you fail the challenge, the challenge must be re-attempted from the beginning.\n· Test Criteria come in three difficulty levels: 1/2/3. Your Total Test Criteria is the sum of difficulty levels of all selected Test Criteria. As you reach higher Total Test Criteria records, Criteria Sets for different regions will unlock over time.\n· Some Test Criteria are [Locked Criteria]. Select the specified [Key Criteria] to unlock them.\n· After event launch, new Test Criteria will be added on day 8. However, they cannot be selected if their Criteria Set is still locked.\n· A new cycle mission will be added every 3 days during the event. There are 7 cycle missions in total, and all missions will remain available until the event ends.\n· During the event, meet specified conditions to obtain the event-exclusive engraved medal.\n▼// [Sanctuary Rating] Display System\n· Successfully completing a challenge with a Total Test Criteria of at least 1 activates the event-exclusive [Sanctuary Rating], which can be displayed on your Friends screen.\n· [Sanctuary Rating] will only be active for the duration of this event.\n▼// Important Notes\n· All Contract Missions and combat challenges will close when the event ends.\n· After the event ends, [Secret Sanctuary] will remain open until 04:00, July 23, 2026 (server time) for you to exchange rewards. Once [Secret Sanctuary] closes, all unused [Vitrified Coins] will be cleared.\n※ For more event details, check the in-game [Event Center]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-a8aca5a4d6d7",
       "title": "[Drifting Raft Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -512,7 +512,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5212",
         "kind": "official-bulletin-api",
         "recordId": "5212",
-        "fetchedAt": "2026-08-18T03:57:01.839Z",
+        "fetchedAt": "2026-08-25T03:58:43.142Z",
         "priority": 1
       },
       "confidence": "low",
@@ -520,7 +520,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: While [Drifting Raft Issue] is available, the chance of getting 6★ weapon [Lone Barge (Arts Unit)] is increased! ▼// [Drifting Raft Issue] · Availability: Opens after [At the Wake of Spring] version update, and ends…"
+      "description": "Dear Endministrator:\nWhile [Drifting Raft Issue] is available, the chance of getting 6★ weapon [Lone Barge (Arts Unit)] is increased!\n▼// [Drifting Raft Issue]\n· Availability: Opens after [At the Wake of Spring] version update, and ends after 3 [Chartered Headhunting] banners (starting from [Thunder of Renewal])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Drifting Raft Issue] features the Rate-UP 6★ weapon [Lone Barge (Arts Unit)].\n· 6★ weapons that may appear in [Drifting Raft Issue] include: Lone Barge (Arts Unit) / Oblivion (Arts Unit) / Chivalric Virtues (Arts Unit) / Eminent Repute (Sword) / JET (Polearm) / Wedge (Handcannon) / Exemplar (Greatsword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, please visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
@@ -536,7 +536,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5211",
         "kind": "official-bulletin-api",
         "recordId": "5211",
-        "fetchedAt": "2026-08-18T03:57:01.612Z",
+        "fetchedAt": "2026-08-25T03:58:42.942Z",
         "priority": 1
       },
       "confidence": "low",
@@ -544,7 +544,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Endministrator, you have a pending Blueprint Assistance notification: Round 2 of the [AIC Factory Blueprint Showcase] is now live! Join the in-game event [AIC Support: Palm-Top Savior] by submitting Xiranite Gourds to earn Wuling Stock…"
+      "description": "Endministrator, you have a pending Blueprint Assistance notification: Round 2 of the [AIC Factory Blueprint Showcase] is now live!\nJoin the in-game event [AIC Support: Palm-Top Savior] by submitting Xiranite Gourds to earn Wuling Stock Bills and Fruits of Altruism Certs, which can be exchanged for supplies.\nShare your blueprint design approach outside the game to exchange ideas with fellow players and get a chance to win Amazon Gift Cards!\nSmall as the gourd may be, it holds a whole universe within. And for that universe to be revealed to the world... we need you, Endministrator, to showcase your creativity and share your blueprints!\nHead over to the official Discord community to share your blueprint design approach! Exchange ideas with fellow players and get a chance to win Amazon Gift Cards or a one-month Discord Nitro subscription! 🎁\n▼ Event Time: Apr. 29, 2026 at 17:00 – May 31, 2026 at 23:59 (UTC+8)\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nJoin Now https://discord.gg/qjmfxZDEXN\nPlease visit our official Discord for more participation details and event rules."
     },
     {
       "game": "endfield",
@@ -560,7 +560,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1338",
         "kind": "official-bulletin-api",
         "recordId": "1338",
-        "fetchedAt": "2026-08-18T03:57:02.999Z",
+        "fetchedAt": "2026-08-25T03:58:44.143Z",
         "priority": 1
       },
       "confidence": "low",
@@ -568,7 +568,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: During [River's Daughter] Chartered Headhunting, the 6★ operator [Tangtang] is Rate-UP! The [Gently Flows Qingbo] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as…"
+      "description": "Dear Endministrator:\nDuring [River's Daughter] Chartered Headhunting, the 6★ operator [Tangtang] is Rate-UP!\nThe [Gently Flows Qingbo] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Gently Flows Qingbo HH Permit]×5. You can also exchange for [Gently Flows Qingbo HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [River's Daughter] Chartered Headhunting Details\n· Availability:\nAmericas / Europe Server: After [Old Deep Water Dies, by Rising Tide It is Denied] version release – Mar. 29, 2026 at 11:59 (server time)\nAsia Server: After [Old Deep Water Dies, by Rising Tide It is Denied] version release – Mar. 29, 2026 at 11:59 (server time)\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [River's Daughter] Chartered Headhunting features the Rate-UP 6★ operator [Tangtang].\n· 6★ operators that may appear in [River's Daughter] Chartered Headhunting include: Tangtang / Yvonne / Gilberta / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [River's Daughter] Chartered Headhunting, you can use [Gently Flows Qingbo HH Permit], [Gently Flows Qingbo 10×Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [River's Daughter] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of [Chartered Headhunting], and the free 10× headhunting attempt guarantees a 5★ or higher operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] begins, this [Headhunting Dossier] will be automatically converted to a special 10×Permit of the said [Chartered Headhunting] banner. However, this 10×Permit will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [River's Daughter] Chartered Headhunting, the following content will also be available:\n▼// [Gently Flows Qingbo] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Gently Flows Qingbo HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] is available for trying out the 6★ operator [Tangtang]. Complete the specified stages with the preset team that includes the trial operator and go to the [Event Center] screen to claim the rewards.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Gently Flows Qingbo HH Permit]×5.\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -584,7 +584,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1339",
         "kind": "official-bulletin-api",
         "recordId": "1339",
-        "fetchedAt": "2026-08-18T03:57:03.224Z",
+        "fetchedAt": "2026-08-25T03:58:44.339Z",
         "priority": 1
       },
       "confidence": "low",
@@ -592,7 +592,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "▼// Event Time Asia Server Time Zone: UTC+8 Americas / Europe Server Time Zone: UTC-5 Mar. 5, 2026 at 12:00 (server time) – Before version update and maintenance ▼// Participation Requirements Complete the main mission [Chapter I Process…"
+      "description": "▼// Event Time\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nMar. 5, 2026 at 12:00 (server time) – Before version update and maintenance\n▼// Participation Requirements\nComplete the main mission [Chapter I Process I: Break the Siege]\n▼// Event Details\n· Log into the game every day to claim sign-in rewards.\n· Complete the 3-day sign-in to earn rich rewards, including [Basic HH Permit]×2 and [Oroberyl]×500."
     },
     {
       "game": "endfield",
@@ -608,7 +608,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8903",
         "kind": "official-bulletin-api",
         "recordId": "8903",
-        "fetchedAt": "2026-08-18T03:56:59.744Z",
+        "fetchedAt": "2026-08-25T03:58:41.275Z",
         "priority": 1
       },
       "confidence": "low",
@@ -616,13 +616,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Join the discussion for a chance to win Oroberyl×500! \"Our fists know no regret, to live or die is the river's ways.\" This is the code Mi Fu used to live by back in Qingbo Stockade, and it remains her consistent way of doing things to…"
+      "description": "Join the discussion for a chance to win Oroberyl×500!\n\"Our fists know no regret, to live or die is the river's ways.\"\nThis is the code Mi Fu used to live by back in Qingbo Stockade, and it remains her consistent way of doing things to this day.\nHer personality has always been just like her fist martial arts style: sharp, decisive, and never looking back. Yet when handling the daily, trivial matters of Wuling City, she reveals an unexpected side of iron-willed tenderness and meticulous patience.\nFrom your initial meeting to fighting side by side now, what was your first impression of Mi Fu, and what are some of the most memorable moments you've shared during your time together?\n▼ How to Participate\nHead to the exclusive event channel and share your first impression of Mi Fu, or a memorable moment from your time together, to successfully participate in the event.\nParticipate Now: https://discord.gg/XFKFays656?event=1511647997870735510\n▼ Event Rewards\nFrom all Endministrators who successfully participate in the event, we will:\nRandomly select 50 Endministrators to each receive Oroberyl×500\n▼ Event Time\nJune 5, 2026 – June 20, 2026 at 23:59 (UTC+8)\n▼ Event Rules\n1. Before participating in this event, please ensure that you are of legal age in your country/region, or that you have obtained consent from a guardian.\n2. All content must comply with the Discord Community Guidelines and Server Rules. Any violating content will be deemed an invalid entry, resulting in disqualification and removal.\n3. Do not post any content that violates platform rules or is unrelated to the event (including but not limited to advertising links, and promotional materials). In the event that you're proven to have violated rules or undermined fairness in any way (including but not limited to the use of cheating/hacking software), we reserve the right to revoke your eligibility to participate and/or any prizes won. If considered necessary, you may also be prohibited from participating in any future events.\n4. Please note: If your account is suspended or canceled between the start of the event and the winner announcement, or if you delete your post/comment made to participate during this period, we will have no way to confirm your eligibility and your participation will be deemed invalid.\n5. Multiple submissions per account are allowed, but each account can receive at most one prize during this event.\n6. For lucky draw events, the winning odds will vary based on the actual number of valid entries.\n7. Winners will be announced on the official Discord server within 20 business days of the event's conclusion. Winners must fill out the prize information form within the specified timeframe to ensure successful reward delivery. Failure to complete the form before the deadline will be deemed forfeiture of the prize, and no replacement rewards will be issued.\n8. If you win a virtual prize from this event, please redeem or claim it by the deadline stated in the winner announcement. If you miss the deadline, the prize will be considered forfeited.\n9. In-game rewards will be distributed via in-game mail within 60 business days after the winners are announced. Please keep an eye on the winner announcement and your in-game mail to claim them promptly. Failure to claim the rewards before they expire will be deemed forfeiture of the rewards.\n10. If the collection of any personal information is required for this event, it will be used solely for sending out prizes and any necessary communication with you. We strictly comply with all relevant laws and regulations, along with those set out in our Privacy Policy, to protect your personal information and ensure data security.\n11. If you have any questions about this event, please contact the official Discord mod team via @Modmail. Gryphline reserves the right of final interpretation of this event to the extent permitted by law."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-de147ad098d8",
       "title": "[Military Grade Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -632,7 +632,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6174",
         "kind": "official-bulletin-api",
         "recordId": "6174",
-        "fetchedAt": "2026-08-18T03:56:57.896Z",
+        "fetchedAt": "2026-08-25T03:58:39.654Z",
         "priority": 1
       },
       "confidence": "low",
@@ -640,7 +640,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator, While [Military Grade Issue] is available, the chance of getting 6★ weapon [Type 42: Solemn Phalanx (Arts Unit)] is increased! ▼// [Military Grade Issue] · Availability: Opens after [Homecoming] version update; ends…"
+      "description": "Dear Endministrator,\nWhile [Military Grade Issue] is available, the chance of getting 6★ weapon [Type 42: Solemn Phalanx (Arts Unit)] is increased!\n▼// [Military Grade Issue]\n· Availability: Opens after [Homecoming] version update; ends after 3 [Chartered Headhunting] banners (starting from [North Yearns the Rift Vigile])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Military Grade Issue] features the Rate-UP 6★ weapon [Type 42: Solemn Phalanx (Arts Unit)].\n· 6★ weapons that may appear in [Military Grade Issue] include: Type 42: Solemn Phalanx (Arts Unit) / Former Finery (Greatsword) / Wedge (Handcannon) / Eminent Repute (Sword) / JET (Polearm) / Detonation Unit (Arts Unit) / Oblivion (Arts Unit).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
@@ -656,7 +656,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5202",
         "kind": "official-bulletin-api",
         "recordId": "5202",
-        "fetchedAt": "2026-08-18T03:56:58.363Z",
+        "fetchedAt": "2026-08-25T03:58:40.062Z",
         "priority": 1
       },
       "confidence": "low",
@@ -664,7 +664,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Join the discussion for a chance to win Oroberyl×500! Amid an endless chase of fire and carnage, this time, the Expunger of Sin walks alone no more. Camille is accustomed to concealing his emotions behind an aloof, stone-cold facade, yet…"
+      "description": "Join the discussion for a chance to win Oroberyl×500!\nAmid an endless chase of fire and carnage, this time, the Expunger of Sin walks alone no more.\nCamille is accustomed to concealing his emotions behind an aloof, stone-cold facade, yet he's wholly willing to trust those deemed worthy of his companionship.\nEndmin, what are your first impressions of this companion? Which of his qualities do you find most captivating?\n▼ How to Participate\nTo successfully participate in this event, head over to the exclusive event channel and share your first impressions of Camille or describe his most captivating qualities.\nParticipate Now: https://discord.gg/mhehBaUrR?event=1519227468006035506\n▼ Event Time\nJune 26, 2026 – July 11, 2026 at 23:59 (UTC+8)\n▼ Event Rules\n1. Before participating in this event, please ensure that you are of legal age in your country/region, or that you have obtained consent from a guardian.\n2. All content must comply with the Discord Community Guidelines and Server Rules. Any violating content will be deemed an invalid entry, resulting in disqualification and removal.\n3. Do not post any content that violates platform rules or is unrelated to the event (including but not limited to advertising links, and promotional materials). In the event that you're proven to have violated rules or undermined fairness in any way (including but not limited to the use of cheating/hacking software), we reserve the right to revoke your eligibility to participate and/or any prizes won. If considered necessary, you may also be prohibited from participating in any future events.\n4. Please note: If your account is suspended or canceled between the start of the event and the winner announcement, or if you delete your post/comment made to participate during this period, we will have no way to confirm your eligibility and your participation will be deemed invalid.\n5. Multiple submissions per account are allowed, but each account can receive at most one prize during this event.\n6. For lucky draw events, the winning odds will vary based on the actual number of valid entries.\n7. Winners will be announced on the official Discord server within 20 business days of the event's conclusion. Winners must fill out the prize information form within the specified timeframe to ensure successful reward delivery. Failure to complete the form before the deadline will be deemed forfeiture of the prize, and no replacement rewards will be issued.\n8. If you win a virtual prize from this event, please redeem or claim it by the deadline stated in the winner announcement. If you miss the deadline, the prize will be considered forfeited.\n9. In-game rewards will be distributed via in-game mail within 60 business days after the winners are announced. Please keep an eye on the winner announcement and your in-game mail to claim them promptly. Failure to claim the rewards before they expire will be deemed forfeiture of the rewards.\n10. If the collection of any personal information is required for this event, it will be used solely for sending out prizes and any necessary communication with you. We strictly comply with all relevant laws and regulations, along with those set out in our Privacy Policy, to protect your personal information and ensure data security."
     },
     {
       "game": "endfield",
@@ -680,7 +680,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3831",
         "kind": "official-bulletin-api",
         "recordId": "3831",
-        "fetchedAt": "2026-08-18T03:56:57.436Z",
+        "fetchedAt": "2026-08-25T03:58:39.254Z",
         "priority": 1
       },
       "confidence": "low",
@@ -688,7 +688,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator, During [Good Morning from Your Dawnstar] Chartered Headhunting, the 6★ operator [Liino] is Rate-UP! The [Bedazzling Dawnstar] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards…"
+      "description": "Dear Endministrator,\nDuring [Good Morning from Your Dawnstar] Chartered Headhunting, the 6★ operator [Liino] is Rate-UP!\nThe [Bedazzling Dawnstar] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Bedazzling Dawnstar HH Permit]×5. You can also exchange for [Bedazzling Dawnstar HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [Good Morning from Your Dawnstar] Chartered Headhunting Details\n· Availability: Aug. 9, 2026 at 12:00 (server time) – Before version update and maintenance\n· Participation Criteria: Complete main mission [Chapter I Process I: Break the Siege]\n· [Good Morning from Your Dawnstar] Chartered Headhunting features the Rate-UP 6★ operator [Liino].\n· 6★ operators that may appear in [Good Morning from Your Dawnstar] Chartered Headhunting include: Liino / Arcane / Camille / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Good Morning from Your Dawnstar] Chartered Headhunting, you can use [Bedazzling Dawnstar HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Good Morning from Your Dawnstar] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to Special HH Permit×10 of the said [Chartered Headhunting] banner. However, the HH Permits will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Good Morning from Your Dawnstar] Chartered Headhunting, the following content will also be available:\n▼// [Bedazzling Dawnstar] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Bedazzling Dawnstar HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] will become available for trying out the 6★ operator [Liino]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Bedazzling Dawnstar HH Permit]×5.\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -704,7 +704,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1332",
         "kind": "official-bulletin-api",
         "recordId": "1332",
-        "fetchedAt": "2026-08-18T03:57:04.879Z",
+        "fetchedAt": "2026-08-25T03:58:45.807Z",
         "priority": 1
       },
       "confidence": "low",
@@ -712,13 +712,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator, Arknights: Endfield will be launching on the PlayStation®5 platform on January 22, 2026 (UTC+8). Below you'll find answers to common questions about PlayStation™Network (PSN), Gryphline Accounts, and cross-platform…"
+      "description": "Dear Endministrator,\nArknights: Endfield will be launching on the PlayStation®5 platform on January 22, 2026 (UTC+8). Below you'll find answers to common questions about PlayStation™Network (PSN), Gryphline Accounts, and cross-platform game progress synchronization.\n〓Game Progress Synchronization〓\nQ: What does account linking between PSN and a Gryphline Account mean?\nA: Account linking allows accounts on two different platforms, a PSN account and a Gryphline Account, to share and carry over game progress and data. After an eligible PSN account and Gryphline Account are linked, you can log in using the Gryphline Account on iOS, Android, or PC, or use the linked PSN account on PlayStation®. In all cases, the same game progress will be shared.\nQ: Is my game data shared across different servers or platforms under the same Gryphline Account?\nA: Account data is not shared between different servers. For example, progress on the Americas / Europe servers is not shared with the Asia server.\nHowever, within the same server, account data is shared across different platforms, including PC, Android, iOS, and PS5™.\nQ: Which servers are supported on the PS5™ version of Arknights: Endfield?\nA: The PS5™ version of Arknights: Endfield supports the Americas / Europe server and the Asia server.\nWhen you log in on PS5™, the game server will be automatically assigned based on the region of your PSN account. Manual server selection is not currently supported.\nExamples\n1. If your PSN account region is North America, you will be assigned to the Americas / Europe server.\n2. If your PSN account region is Hong Kong, you will be assigned to the Asia server.\nFor details on your PSN account region, please refer to the table below or contact PlayStation Support directly.\nQ: How do I enable account linking?\nA: You must first link a PSN account that meets the linking requirements with a Gryphline Account. Once linked, both accounts will share the same game progress.\n〓Account Linking〓\nQ: Which accounts can be linked?\nA: A PSN account and a Gryphline Account can be linked if one of the following conditions is met:\n1. The PSN account has never logged into the game; or\n2. The email address has never been registered with a Gryphline Account.\nThe steps are as follows:\n1. If the PSN account has never logged into the game, you can link the email address of an existing Gryphline Account to that PSN account.\n2. If the email address has not been used to register a Gryphline Account, you can link it to a PSN account that has already logged into the game. The email address will then be automatically registered as a Gryphline Account.\nThe following cases do not meet the linking requirements:\nA PSN account has already logged into the game, and the email you attempt to link is already registered with a Gryphline Account.\nThis is because the first time a PSN account logs into the game, a Gryphline Account is automatically created for it. That PSN account cannot later be linked to a different existing Gryphline Account.\nTo link a PSN account that has already logged into the game, you must use an email address that has not been registered with a Gryphline Account.\nQ: How do I link accounts?\nA: The linking process is explained below by scenario:\nScenario 1:\nYou already have game progress on iOS, Android, or PC and want to link it to a PSN account that has never logged into the game.\nHow to link:\nOn PlayStation®, launch the game for the first time using a PSN account that has not previously logged in. Follow the on-screen prompt to link the email address of an existing Gryphline Account.\n*Note: The linking prompt appears only when the PSN account logs into the game for the first time and accepts the user agreement. You can link an existing Gryphline Account only through this prompt. If you skip the prompt and choose quick login instead, the PSN account will automatically register a new Gryphline Account, making it impossible to link to another already registered Gryphline Account email.\nScenario 2:\nYou already have game progress on PlayStation® and want to link it to an email address that has not been registered as a Gryphline Account.\nHow to link:\nLog in to the game on PlayStation®. Go to Settings → Platform & Account → User Center → Link Email, then link an email address that is not registered with a Gryphline Account using your current PSN account. Once the linking is complete, you can log in on iOS, Android, PC, or PlayStation® on the same server with this account, and your game progress will be shared across platforms.\nQ: Can I unlink my PSN account after linking?\nA: Yes. You can unlink it in the Gryphline Account User Center. However, each account can only unlink once. Please proceed carefully.\nQ: What if the game closed abnormally during the first PSN login and the linking was not completed?\nA: In this case, the linking pop-up will appear again the next time you log into the game.\nQ: After linking, can I log in on iOS, Android or PC using a PSN account, or log in on PlayStation® using the linked PSN account email?\nA: No. These login methods are not currently supported. Regardless of whether accounts are linked:\n1. On iOS, Android, or PC, you can only log in using a Gryphline Account.\n2. On PlayStation®, you can only log in using a PSN account.\nQ: Can a PSN account with existing progress be linkedto an already registered Gryphline Account email?\nA: No. Currently, only emails that are not registered as Gryphline Accounts can be linked. This is because a PSN account with existing progress is already associated with a Gryphline Account and cannot coexist with another Gryphline Account.\nQ: How can I check which Gryphline Account email is linked?\nA: After logging into the game, go to Settings → Platform & Account → User Center to view the linked email.\nQ: Can a PSN account or an email be linked to multiple accounts?\nA: No. One PSN account can only be linked to one Gryphline Account. One registered Gryphline Account email can only be bound to one PSN account.\nQ: My email is already registered with a Gryphline Account. After logging into the game on PlayStation®, can I link this email in the User Center?\nA: No. When a PSN account logs into the game, it automatically registers a Gryphline Account. Therefore, under Settings → Platform & Account → User Center → Link Email, you can only link an email that is not registered as a Gryphline Account.\nIt is recommended to use a PSN account that has never logged into the game and complete the linking through the pop-up shown at first launch.\nQ: My email is registered as a Gryphline Account but has never logged into the game. Can I log in on PlayStation® and link this email in the User Center?\nA: No. An email that is already registered with a Gryphline Account cannot be linked to a PSN account that has logged into the game.\nYou may either change the linked email of the Gryphline Account to release the email from the current Gryphline Account, or use a different email that has not been registered as a Gryphline Account.\nQ: If I miss the linking pop-up on first login, will it appear again? Can I link later in the User Center?\nA: No. The linking pop-up only appears on first login. If you skip it, it will not appear again. Please be careful when linking your account.\nWhen you log in for the first time with a PSN account and see the pop-up, it means this PSN account has not yet been linked to any Gryphline account. If you skip the pop-up, a new Gryphline account is automatically created for that PSN account. After that, you cannot link it to an existing email through the User Center.\nQ: How do I check my linked PSN account?\nA: After logging into the game on any platform, go to Settings → Platform & Account → User Center to view the linked PSN account.\nQ: After linking, will iOS, Android, or PC progress unlock PlayStation® trophies?\nA: Yes. After linking, the corresponding trophies will unlock automatically when you log in on PlayStation®.\n〓Top-up〓\nQ: How are Arknights: Endfield pre-order packs distributed on the PlayStation™Store?\nA: The pre-order packs will be delivered after the official launch of the PlayStation®5 version of Arknights: Endfield, to the in-game character under the Gryphline Account used when first entering the game on PlayStation®.\n〓Friends〓\nQ: How are friends lists displayed after linking my PlayStation® account with my iOS, Android, or PC account?\nA: Once your accounts are linked, two friend lists will be shown: 1. Arknights: Endfield Friends – visible on all platforms. 2. PlayStation™Network Friends – visible only when logged in on PlayStation®.\nQ: What is the relationship between the Arknights: Endfield Friends List and the PlayStation™Network Friends List?\nA: Arknights: Endfield Friends are friends you add in-game. PlayStation™Network Friends are friends from the PSN account.\nActions on friends on iOS, Android, or PC do not affect PlayStation™Network friend status.\nBlocking a friend of your PSN account removes them from both PlayStation™Network Friends List and Arknights: Endfield Friends List. The friend remains visible when you play on other platforms.\nRemoving a friend from your PSN account only removes them from the PlayStation™Network Friends List. The Arknights: Endfield Friends List remains unchanged.\nQ: What interactive features are supported in each friend list?\nA: Arknights: Endfield Friends – Full interactions such as visiting ships, chatting, and viewing profiles. PlayStation™Network Friends – Basic information viewing only.\nQ: How can I view a PlayStation™Network friend's Online ID?\nA: The Online ID can only be viewed in the Friends interface when both you and the friend are logged into the PlayStation® platform."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-e9d4cd6cec5a",
       "title": "[Scarlet Knot Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -728,7 +728,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4492",
         "kind": "official-bulletin-api",
         "recordId": "4492",
-        "fetchedAt": "2026-08-18T03:56:59.974Z",
+        "fetchedAt": "2026-08-25T03:58:41.478Z",
         "priority": 1
       },
       "confidence": "low",
@@ -736,13 +736,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator, While [Scarlet Knot Issue] is available, the chance of getting the 6★ weapon [Amaranthine Tassel (Greatsword)] is increased! ▼// [Scarlet Knot Issue] · Availability: Opens after [Sketches of Lost Heirlooms] version…"
+      "description": "Dear Endministrator,\nWhile [Scarlet Knot Issue] is available, the chance of getting the 6★ weapon [Amaranthine Tassel (Greatsword)] is increased!\n▼// [Scarlet Knot Issue]\n· Availability: Opens after [Sketches of Lost Heirlooms] version update, and ends after 3 [Chartered Headhunting] banners (starting from [Fists of No Regrets])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Scarlet Knot Issue] features the Rate-UP 6★ weapon [Amaranthine Tassel (Greatsword)].\n· 6★ weapons that may appear in [Scarlet Knot Issue] include: Amaranthine Tassel (Greatsword) / Former Finery (Greatsword) / Sundered Prince (Greatsword) / Clannibal (Handcannon) / Rapid Ascent (Sword) / Detonation Unit (Arts Unit) / Valiant (Polearm).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-f51bae0ee862",
       "title": "[Bedazzled Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -752,7 +752,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9564",
         "kind": "official-bulletin-api",
         "recordId": "9564",
-        "fetchedAt": "2026-08-18T03:56:57.666Z",
+        "fetchedAt": "2026-08-25T03:58:39.456Z",
         "priority": 1
       },
       "confidence": "low",
@@ -760,13 +760,13 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator, While [Bedazzled Issue] is available, the chance of getting the 6★ weapon [Bedazzling Night Debut (Polearm)] is increased! ▼// [Bedazzled Issue] · Availability: Opens Aug. 9, 2026 at 12:00 (server time); ends after 3…"
+      "description": "Dear Endministrator,\nWhile [Bedazzled Issue] is available, the chance of getting the 6★ weapon [Bedazzling Night Debut (Polearm)] is increased!\n▼// [Bedazzled Issue]\n· Availability: Opens Aug. 9, 2026 at 12:00 (server time); ends after 3 [Chartered Headhunting] banners (starting from [Good Morning from Your Dawnstar])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Bedazzled Issue] features the Rate-UP 6★ weapon [Bedazzling Night Debut (Polearm)].\n· 6★ weapons that may appear in [Bedazzled Issue] include: Bedazzling Night Debut (Polearm) / Sundered Prince (Greatsword) / Clannibal (Handcannon) / Valiant (Polearm) / JET (Polearm) / Detonation Unit (Arts Unit) / Thermite Cutter (Sword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
       "id": "endfield-gryphline-bulletin-f89ae00ead7f",
       "title": "[Budding Anew Issue] LTO Details",
-      "type": "event",
+      "type": "banner",
       "start": null,
       "end": null,
       "server": "global",
@@ -776,7 +776,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5213",
         "kind": "official-bulletin-api",
         "recordId": "5213",
-        "fetchedAt": "2026-08-18T03:57:02.766Z",
+        "fetchedAt": "2026-08-25T03:58:43.942Z",
         "priority": 1
       },
       "confidence": "low",
@@ -784,7 +784,7 @@
       "permanence": "unknown",
       "needs_review": true,
       "image": null,
-      "description": "Dear Endministrator: While [Budding Anew Issue] is available, the chance of getting the 6★ weapon [Brigand's Calling (Handcannon)] is increased! ▼// [Budding Anew Issue] · Availability: Opens after [Old Deep Water Dies, by Rising Tide It…"
+      "description": "Dear Endministrator:\nWhile [Budding Anew Issue] is available, the chance of getting the 6★ weapon [Brigand's Calling (Handcannon)] is increased!\n▼// [Budding Anew Issue]\n· Availability: Opens after [Old Deep Water Dies, by Rising Tide It is Denied] version update, and ends after 3 [Chartered Headhunting] banners (starting from [River's Daughter])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Budding Anew Issue] features the Rate-UP 6★ weapon [Brigand's Calling (Handcannon)].\n· 6★ weapons that may appear in [Budding Anew Issue] include: Brigand's Calling (Handcannon) / Clannibal (Handcannon) / Wedge (Handcannon) / Chivalric Virtues (Arts Unit) / Thermite Cutter (Sword) / Sundered Prince (Greatsword) / JET (Polearm).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, please visit the in-game [Acquisition Center - Arsenal Exchange].."
     }
   ]
 }

@@ -2405,7 +2405,35 @@
       21103,
       11102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          33100,
+          31000
+        ],
+        "part_sub_list": [
+          21103,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          33100,
+          31000
+        ],
+        "part_sub_list": [
+          31903,
+          11102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          11102,
+          12102
+        ]
+      }
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",
@@ -2419,16 +2447,16 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
     },
     "part6": {
-      "prop": 11102,
-      "name": "HP",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
-    },
-    "part_sub": {
       "prop": 31903,
       "name": "Ether DMG Bonus",
       "format": "{0:0.#%}",
       "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconDungeonBuffEther.png"
+    },
+    "part_sub": {
+      "prop": 11102,
+      "name": "HP",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
     }
   },
   "strategy": [

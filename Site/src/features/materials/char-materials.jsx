@@ -561,7 +561,7 @@ function CMItemFrame({ icon, sprite, glyph, rarity, quantity, className, bandles
             <span className="cm-item-frame-eye-soft"></span>
           </span>
           <span className="cm-item-frame-icon">
-            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">{glyph || '?'}</span>}
+            {sprite ? <ZzzSpriteIcon icon={icon} sprite={sprite} alt="" /> : icon ? <img src={icon} alt="" draggable="false" /> : <span className="glyph cm-missing" title="Missing item">?</span>}
           </span>
         </span>
         {bandless ? (
@@ -1235,7 +1235,7 @@ const CM_META_ICONS = {
   },
   zzz: {
     el:   { physical:'zzz/physical.webp', fire:'zzz/fire.webp', ice:'zzz/ice.webp', electric:'zzz/electric.webp', ether:'zzz/ether.webp' },
-    spec: { attack:'zzz/spec_attack.webp', stun:'zzz/spec_stun.webp', anomaly:'zzz/spec_anomaly.webp', support:'zzz/spec_support.webp', defense:'zzz/spec_defense.webp', defence:'zzz/spec_defense.webp', rupture:'zzz/spec_rupture.webp' },
+    spec: { attack:'zzz/spec_attack.webp', stun:'zzz/spec_stun.webp', anomaly:'zzz/spec_anomaly.webp', support:'zzz/spec_support.webp', defense:'zzz/spec_defense.webp', defence:'zzz/spec_defense.webp', rupture:'zzz/spec_rupture.webp', armorer:'zzz/spec_armorer.webp' },
   },
   wuwa: {
     el: { glacio:'wuwa/glacio.webp', fusion:'wuwa/fusion.webp', electro:'wuwa/electro.webp', aero:'wuwa/aero.webp', spectro:'wuwa/spectro.webp', havoc:'wuwa/havoc.webp' },
@@ -1248,11 +1248,29 @@ const CM_META_ICONS = {
   },
 };
 
+// How each game names these files on disk, so a value the table above has never
+// heard of still finds its icon. Games ship new specialties, paths and classes
+// between our releases - Claret arrived as the first Armorer - and the asset is
+// usually added before anyone remembers the lookup table.
+const CM_META_CONVENTION = {
+  gi:   { el:['', '.webp'], w:['', '.png'] },
+  hsr:  { el:['', '.png'],  path:['path_', '.png'] },
+  zzz:  { el:['', '.webp'], spec:['spec_', '.webp'] },
+  wuwa: { el:['', '.webp'], w:['wp_', '.webp'] },
+  ae:   { el:['', '.png'],  cls:['cls_', '.png'], w:['wp_', '.png'] },
+};
+
 function cmMetaIconSrc(gameKey, field, value){
   const g = CM_META_ICONS[gameKey];
   if (!g || !g[field]) return null;
   const key = String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-  return g[field][key] ? CM_META_ICON_BASE + g[field][key] : null;
+  if (g[field][key]) return CM_META_ICON_BASE + g[field][key];
+  // Fall back to the naming convention: dropping the asset in is then enough,
+  // no code change. A file that is not there simply 404s and CMMetaIcon falls
+  // through to its SVG glyph, which is what an unknown value rendered anyway.
+  const shape = CM_META_CONVENTION[gameKey] && CM_META_CONVENTION[gameKey][field];
+  if (!shape || !key || key === 'unknown') return null;
+  return `${CM_META_ICON_BASE}${gameKey}/${shape[0]}${key}${shape[1]}`;
 }
 
 function cmMetaColor(value){
@@ -2060,20 +2078,32 @@ function CMUnfavouriteConfirm({ character, onCancel, onConfirm }){
 }
 
 /* a roster cell */
-function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned }){
-  return (
-    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '')}
-         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
-      <button type="button" className="cm-cell-open"
-        title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
-        aria-pressed={hideMode ? !!hidden : undefined}
-        onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>
+function CMCell({ ch, onClick, hideMode, hidden, onToggleHidden, pinned, onTogglePinned, href }){
+  const unavailable = !hideMode && cmIsUpcomingOnly(ch);
+  // Hide mode turns the tile into a hidden/unhide toggle, and an upcoming unit
+  // has no page to open — both of those stay buttons. Every other tile is a real
+  // link, so a character can be ctrl/cmd/middle-clicked into its own tab.
+  const asLink = !!href && !hideMode && !unavailable;
+  const inner = (
+    <React.Fragment>
       <CMAvatar ch={ch} />
       <span className="cn">{String(ch.n || '').replace(/\s*[•·]\s*/g, ' ')}</span>
       {ch.__betaNew && <span className="cm-beta-tag" title="Beta (latest) data — upcoming, not yet released">Beta</span>}
       {cmIsUpcomingOnly(ch) && !ch.__betaNew && <span className="cm-beta-tag upcoming" title="Upcoming unit - currently no reliable material data">Upcoming</span>}
       {hideMode && <span className="hm">{hidden ? 'Hidden' : 'Hide'}</span>}
-      </button>
+    </React.Fragment>
+  );
+  return (
+    <div className={'cm-cell' + (hideMode ? ' hide-mode' : '') + (hidden ? ' hidden' : '') + (unavailable ? ' unavailable' : '')}
+         style={{ '--el':CM_ELEM[ch.el] || 'var(--nyx-color-accent-bright)' }}>
+      {asLink
+        ? <a className="cm-cell-open" href={href} draggable={false} title={ch.n}
+             onClick={(event) => nyxNavClick(event, onClick)}>{inner}</a>
+        : <button type="button" className="cm-cell-open"
+            disabled={unavailable}
+            title={hideMode ? (hidden ? 'Unhide ' : 'Hide ') + ch.n : ch.n}
+            aria-pressed={hideMode ? !!hidden : undefined}
+            onClick={() => { if (hideMode && onToggleHidden) onToggleHidden(ch); else if (onClick) onClick(); }}>{inner}</button>}
       {!hideMode && <button type="button" className={'cm-favourite-star' + (pinned ? ' on' : '')}
                            aria-label={(pinned ? 'Unfavourite ' : 'Favourite ') + ch.n} aria-pressed={!!pinned}
                            title={(pinned ? 'Unfavourite ' : 'Favourite ') + ch.n}
@@ -2159,31 +2189,35 @@ function CharacterProfile({ gameKey, baseStats, facts, characterName }){
   return (
     <section className="cm-kit-profile" aria-labelledby="cm-profile-title">
       <div className="cm-kit-section-title" id="cm-profile-title">Profile</div>
-      {factRows.length > 0 && (
-        <div className="cm-profile-facts">
-          {factRows.map((row) => <span key={row.key}><b>{row.label}</b><em>{row.value}</em></span>)}
-        </div>
-      )}
-      {statRows.length > 0 && (
-        <div className="cm-profile-stat-grid">
-          <CMLevelSlider
-            className="cm-profile-level-control"
-            label={`${characterName || 'Character'} profile level`}
-            stops={checkpoints.map((row, index) => index)}
-            value={Math.min(levelIndex, Math.max(0, checkpoints.length - 1))}
-            onChange={setLevelIndex}
-            format={(index) => checkpoints[index]?.label || ''}
-          />
-          <table className="cm-profile-stat-table">
-            <thead><tr><th>Base Stat</th><th>{checkpoint.label}</th></tr></thead>
-            <tbody>
-              {statRows.map(([key, label]) => (
-                <tr key={key}><th scope="row">{label}</th><td>{cmProfileValue(key, checkpoint[key])}</td></tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
+      <div className="cm-profile-layout">
+        {statRows.length > 0 && (
+          <div className="cm-profile-stat-grid">
+            <CMLevelSlider
+              className="cm-profile-level-control"
+              label={`${characterName || 'Character'} profile level`}
+              stops={checkpoints.map((row, index) => index)}
+              value={Math.min(levelIndex, Math.max(0, checkpoints.length - 1))}
+              onChange={setLevelIndex}
+              format={(index) => checkpoints[index]?.label || ''}
+            />
+            <table className="cm-profile-stat-table">
+              <thead><tr><th>Base Stat</th><th>{checkpoint.label}</th></tr></thead>
+              <tbody>
+                {statRows.map(([key, label]) => (
+                  <tr key={key}><th scope="row">{label}</th><td>{cmProfileValue(key, checkpoint[key])}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+        {factRows.length > 0 && (
+          <dl className="cm-profile-details">
+            {factRows.map((row) => (
+              <div key={row.key}><dt>{row.label}</dt><dd>{row.value}</dd></div>
+            ))}
+          </dl>
+        )}
+      </div>
     </section>
   );
 }
@@ -2616,8 +2650,13 @@ function cmMergeBetaCfg(liveCfg, betaPack){
     ...(isNew ? { recent:true } : {}),
   }));
   const weapons = cmMergeBetaRows(liveCfg.weapons, betaPack.weapons);
-  if (roster === liveCfg.roster && weapons === liveCfg.weapons) return liveCfg;
-  return { ...liveCfg, roster, weapons, __betaActive:true };
+  const grouped = Object.fromEntries(
+    ['talentDomains', 'weeklyBosses']
+      .filter((field) => Array.isArray(betaPack[field]))
+      .map((field) => [field, betaPack[field]]),
+  );
+  if (roster === liveCfg.roster && weapons === liveCfg.weapons && !Object.keys(grouped).length) return liveCfg;
+  return { ...liveCfg, ...grouped, roster, weapons, __betaActive:true };
 }
 
 function cmDownloadMaterialsCard(blob, filename){
@@ -2672,7 +2711,7 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel }){
   );
 }
 
-function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter }){
+function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom, modalOnly, pageTab, onPageTab, sections, pinnedFavourites, customizeOnly, onCustomizeCharacter, onBackCustomize, onSelectedClose, onSelectCharacter, characterHref }){
   const [gk, setGk] = React.useState(game || 'gi');
   const [channel, setChannel] = React.useState(() => cmLoadChannel(game || 'gi'));
   const [dataTick, setDataTick] = React.useState(0);
@@ -2734,10 +2773,11 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
   }, [gk]);
 
   const openCharacter = React.useCallback((ch, opts) => {
-    if (!ch) return;
+    if (!ch || cmIsUpcomingOnly(ch)) return false;
     setDetailTab('materials');
     setSel(ch);
     if (onSelectCharacter && !(opts && opts.silent)) onSelectCharacter(ch);
+    return true;
   }, [onSelectCharacter]);
 
   React.useEffect(() => {
@@ -2846,9 +2886,9 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     try { localStorage.setItem('nyx:character-material-tab:v1', tab); } catch (e) {}
   }, [tab]);
   React.useEffect(() => {
-    if (!selectedName) return;
+    if (!selectedName || !cfg) return;
     const activeGame = game || gk;
-    const nextCfg = cfg || CM_CFG[activeGame] || { roster:[] };
+    const nextCfg = cfg;
     const wanted = String(selectedName).toLowerCase();
     const wantedSlug = cmRouteSlug(selectedName);
     const nextRoster = (nextCfg.roster || [])
@@ -2866,7 +2906,14 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     ));
     if (found) {
       const form = (found.forms || []).find((row) => [row.rawName, row.n, row.label].some(matchesSelected));
-      openCharacter(found, { silent:true });
+      const opened = openCharacter(found, { silent:true });
+      if (!opened) {
+        setSel(null);
+        setActiveVariant(null);
+        setActiveGender(null);
+        if (onSelectedClose) onSelectedClose();
+        return;
+      }
       if (form) {
         setActiveVariant(form.variantKey || null);
         setActiveGender(form.gender || null);
@@ -3067,6 +3114,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       hidden={isHidden(c)}
       onToggleHidden={toggleHidden}
       onClick={() => openCharacter(c)}
+      href={characterHref ? characterHref(c) : undefined}
       pinned={pinnedIds.some((row) => String(row) === cmHiddenKey(c))}
       onTogglePinned={togglePinnedCharacter}
     />
@@ -3101,7 +3149,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
         const chars = (trio.chars || []).map(resolve).filter(show);
         return { domain, trio, chars, key:'talent-' + di + '-' + ti };
       })
-      .filter((row) => row.chars.length > 0);
+      .filter((row) => row.chars.length > 0 || (!hasCharacterFilter && (row.trio.chars || []).length === 0));
     const art = cmArtFor(cmNewestChar(rows.flatMap((r) => r.chars)) || {});
     return rows.length ? { domain, rows, art } : null;
   }).filter(Boolean);
@@ -3118,7 +3166,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
       boss,
       drops,
       art:boss.art || '',
-      order:Number.isFinite(sourceOrder) ? sourceOrder : cmCharRelease(newest),
+      order:Number.isFinite(sourceOrder) ? sourceOrder : (newest ? cmCharRelease(newest) : Number.MAX_SAFE_INTEGER),
     } : null;
   }).filter(Boolean).sort((a, b) => b.order - a.order);
   const activePreset = CM_GI_PRESETS.find((p) => p.targets.every((v, i) => v === giTargets[i]))
@@ -3371,7 +3419,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
             <div className="cm-tbtns">
               <button type="button" className={'cm-tool' + (showFilt || Object.keys(filt).length ? ' on' : '')}
                       title="Filter" onClick={() => { setHideMenu(false); setShowFilt(s => !s); }}><span className="i-filter"></span></button>
-              <button type="button" className={'cm-tool' + (hideMenu || hideMode ? ' on warn' : '')}
+              <button type="button" className={'cm-tool cm-hide-tool' + (hideMenu || hideMode ? ' on' : '')}
                       title="Hidden character options" onClick={() => { setShowFilt(false); setHideMenu(s => !s); }}>
                 <span className="i-eyeoff"></span>{hiddenCount > 0 && <span className="cm-tool-badge">{hiddenCount}</span>}
               </button>

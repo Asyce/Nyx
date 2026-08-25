@@ -33,6 +33,27 @@ jobs:
         with:
           ref: main
 
+      # Checkout no longer smudges LFS (the cache below supplies the objects), so the
+      # LFS filters and hooks must be installed here instead. Keep this UNCONDITIONAL:
+      # steps that `git add` LFS-tracked paths rely on the clean filter to stage a
+      # pointer rather than the full blob, and the pre-push hook is what uploads new
+      # LFS objects. Those steps do not all share the LFS pull step's `if:` guard.
+      - name: Configure Git LFS
+        run: git lfs install --local
+
+      # Only gi/ and hsr/ live rosters are LFS-tracked (~36 MB combined), and they change
+      # just a few times a year -- but every run used to re-download both, which is what
+      # exhausted the account's 10 GB/month LFS bandwidth. Caching .git/lfs against the
+      # pointer files means an object is re-fetched only when it actually changed; the
+      # restore-keys prefix also lets a run reuse whichever of the two is still current.
+      - name: Cache LFS objects
+        id: lfs_cache
+        uses: actions/cache/restore@v6
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
+          restore-keys: lfs-
+
       - uses: actions/setup-node@v6
         with:
           node-version: "20"
@@ -64,14 +85,44 @@ jobs:
       - name: Ensure LFS objects resolved
         if: ${{ steps.deploy_needed.outputs.needed == 'true' }}
         run: |
-          for i in 1 2 3; do
-            git lfs pull && break
-            echo "git lfs pull attempt $i failed; retrying" && sleep 5
-          done
+          # Resolve from the objects we already have before asking the server.
+          # With a warm cache this makes no network call at all, so an exhausted
+          # LFS budget can no longer break a run that needs nothing new.
+          git lfs checkout || true
+          if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+            for i in 1 2 3; do
+              git lfs pull && break
+              echo "git lfs pull attempt $i failed; retrying" && sleep 5
+            done
+          fi
           if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database; then
             echo "::error::Database still contains an unresolved LFS pointer"
             exit 1
           fi
+
+      # This is the ONLY place that writes the LFS cache; every workflow that
+      # touches LFS restores it read-only. On 2026-08-23 the hourly code-watch
+      # run reached the shared key first, skipped its guarded pull, and saved an
+      # empty .git/lfs - and actions/cache never replaces an existing key, so a
+      # 447-byte entry was pinned and every run re-downloaded all 36 MB.
+      # Saving only from here, and only once the objects are actually on disk,
+      # is what stops that happening again.
+      - name: Measure LFS objects
+        id: lfs_state
+        if: ${{ steps.deploy_needed.outputs.needed == 'true' }}
+        run: |
+          mb=$(du -sm .git/lfs 2>/dev/null | cut -f1 || echo 0)
+          echo "megabytes=$mb" >> "$GITHUB_OUTPUT"
+          echo ".git/lfs holds ${mb} MB"
+
+      - name: Save LFS cache
+        if: ${{ steps.deploy_needed.outputs.needed == 'true'
+                && steps.lfs_cache.outputs.cache-hit != 'true'
+                && fromJSON(steps.lfs_state.outputs.megabytes) >= 20 }}
+        uses: actions/cache/save@v6
+        with:
+          path: .git/lfs
+          key: ${{ steps.lfs_cache.outputs.cache-primary-key }}
 
       - name: Install site dependencies
         if: ${{ steps.deploy_needed.outputs.needed == 'true' }}
@@ -113,15 +164,42 @@ jobs:
         run: npm run smoke:deploy
 
       - name: Push verified launcher snapshot
+        id: pushed_launcher_snapshot
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' }}
-        run: git push
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
+        run: |
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::main changed during all three verified push attempts"
+              exit 1
+            fi
+            git fetch origin main
+            git switch --detach origin/main
+            git lfs checkout || true
+            if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+              git lfs pull
+            fi
+            (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
+            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+            git add -A Site/src/data/generated/launcher-art
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(data): refresh daily launcher snapshot [skip ci]"
+            fi
+            sha="$(git rev-parse HEAD)"
+            (cd Site && PENGO_DEPLOY_COMMIT="$sha" npm run build:deploy && npm run smoke:deploy)
+          done
 
       - name: Additively sync Database assets to R2
         id: r2_sync
         if: ${{ steps.launcher_snapshot.outputs.fresh == 'true' && env.DATABASE_ASSET_MODE != 'local' }}
         working-directory: Site
         env:
-          PENGO_DEPLOY_COMMIT: ${{ steps.launcher_snapshot.outputs.sha }}
+          PENGO_DEPLOY_COMMIT: ${{ steps.pushed_launcher_snapshot.outputs.sha }}
           R2_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -162,8 +240,48 @@ jobs:
         run: npm run smoke:deploy
 
       - name: Push exact deployment snapshot
+        id: pushed_deployment_snapshot
         if: ${{ steps.deployment_snapshot.outputs.fresh == 'true' }}
-        run: git push
+        env:
+          PENGO_DATABASE_ASSET_MODE: ${{ vars.DATABASE_ASSET_MODE || 'local' }}
+          R2_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: |
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "::error::main changed during all three verified push attempts"
+              exit 1
+            fi
+            git fetch origin main
+            git switch --detach origin/main
+            git lfs checkout || true
+            if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
+              git lfs pull
+            fi
+            (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
+            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+            git add -A Site/src/data/generated/launcher-art
+            if ! git diff --cached --quiet; then
+              git commit -m "chore(data): refresh retry launcher snapshot [skip ci]"
+            fi
+            launcher_sha="$(git rev-parse HEAD)"
+            if [ "$PENGO_DATABASE_ASSET_MODE" != "local" ]; then
+              (cd Site && PENGO_DEPLOY_COMMIT="$launcher_sha" npm run sync:database-assets:r2 -- --apply)
+              (cd Site && npm run generate:data && npm run refresh:launcher)
+              git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+              git add -A Site/src/data/generated/launcher-art
+              if ! git diff --cached --quiet; then
+                git commit -m "chore(data): refresh retry deployment snapshot [skip ci]"
+              fi
+            fi
+            sha="$(git rev-parse HEAD)"
+            (cd Site && PENGO_DEPLOY_COMMIT="$sha" npm run build:deploy && npm run smoke:deploy)
+          done
 
       - name: Deploy to Cloudflare
         if: ${{ steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T00:40:57.915Z",
+  "generatedAt": "2026-08-25T00:42:11.912Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-18T00:40:57.355Z",
+      "lastSuccessfulFetch": "2026-08-25T00:42:11.898Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -158,7 +158,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-18T00:40:57.915Z",
+      "lastSuccessfulFetch": "2026-08-25T00:42:11.563Z",
       "codes": [
         {
           "code": "NSJR3B97ZZ5X",
@@ -288,9 +288,10 @@
         },
         {
           "code": "STARRAILFATE2026",
-          "rewards": "Three Traveler S Guides and Two the Fluffy Multi Functional Fan Glowsticks",
+          "rewards": "three traveler's guides and two the fluffy multi",
           "added": "2026-07-27",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026",
+          "hoyoVerified": true,
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -326,7 +327,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-18T00:40:57.435Z",
+      "lastSuccessfulFetch": "2026-08-25T00:42:11.912Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -351,9 +352,10 @@
         },
         {
           "code": "ZZZ2YEAR",
-          "rewards": "50 Polychrome",
+          "rewards": "Polychrome x 50",
           "added": "2026-07-23",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ2YEAR",
+          "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -361,9 +363,10 @@
         },
         {
           "code": "ZZZ31REMIELLE",
-          "rewards": "60 Polychrome and 6,666 Denny",
+          "rewards": "Polychrome x 60, Denny x 6,666",
           "added": "2026-07-23",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE",
+          "hoyoVerified": true,
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -378,7 +381,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-18T00:40:57.290Z",
+      "lastSuccessfulFetch": "2026-08-25T00:42:11.507Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -432,8 +435,18 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-18T00:40:57.323Z",
+      "lastSuccessfulFetch": "2026-08-25T00:42:11.518Z",
       "codes": [
+        {
+          "code": "AKENDFIELDSUB",
+          "rewards": "100 Oroberyl",
+          "added": "2026-08-20",
+          "sourceUrl": "https://nexus-codes.app/copy/?code=AKENDFIELDSUB",
+          "premium": true,
+          "premium100": true,
+          "cwSeen": false,
+          "firstSeen": "2026-08-21T15:24:44.221Z"
+        },
         {
           "code": "ENDFIELDRENEW",
           "rewards": "One Safety Helmet Sticker and 71,600 T Creds",

@@ -5,7 +5,7 @@
   "name": "Opinion About the Claretwheel Temple Issue",
   "sortId": 64733,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Opinion_About_the_Claretwheel_Temple_Issue",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -143,16 +143,6 @@
               }
             ],
             "id": "p-6f0ce083aecb0d21"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

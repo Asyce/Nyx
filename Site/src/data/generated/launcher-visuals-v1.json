@@ -1,21 +1,23 @@
 {
   "schema": 1,
-  "revision": "31b9b7f16d408a93647eba2567e5606f5febed1248d44d9dda02c0704755b3d4",
-  "generatedAt": "2026-08-14T03:34:00.527Z",
+  "revision": "eb6524a0ea08736627631d8380944854d0dfb4c6fafcaf595405d5ccf5866790",
+  "generatedAt": "2026-08-25T03:59:54.830Z",
   "games": {
     "gi": {
       "kind": "video",
       "source": {
         "repository": "https://github.com/nano-shino/hyvbgarchive",
         "path": "archive/gopR6Cufr3/20260811_8e1c78aaa6e33ed60b88e12a461f8ee5_960034339638640640.webm",
-        "officialUrl": "https://launcher-webstatic.hoyoverse.com/launcher-public/2026/08/11/8e1c78aaa6e33ed60b88e12a461f8ee5_960034339638640640.webm"
+        "officialUrl": "https://launcher-webstatic.hoyoverse.com/launcher-public/2026/08/11/8e1c78aaa6e33ed60b88e12a461f8ee5_960034339638640640.webm",
+        "officialMd5": "8e1c78aaa6e33ed60b88e12a461f8ee5",
+        "encoding": "h264-yuv420p"
       },
       "assets": [
         {
-          "url": "https://assets.pengo.gg/launcher-visuals/ecfd3076b55791871caaacf94e504c176842632738f6c43ca59c8a31e41c0ddb.webm",
-          "sha256": "ecfd3076b55791871caaacf94e504c176842632738f6c43ca59c8a31e41c0ddb",
-          "size": 19304099,
-          "mediaType": "video/webm"
+          "url": "https://assets.pengo.gg/launcher-visuals/174a529955be6b4398ff5fd4ca636b5a8de847bb60717d880927e0b730b4e0bb.mp4",
+          "sha256": "174a529955be6b4398ff5fd4ca636b5a8de847bb60717d880927e0b730b4e0bb",
+          "size": 2987098,
+          "mediaType": "video/mp4"
         }
       ]
     },
@@ -23,14 +25,14 @@
       "kind": "video",
       "source": {
         "repository": "https://github.com/nano-shino/hyvbgarchive",
-        "path": "archive/4ziysqXOQ8/20260709_afba5bfdb3678ac02b6cd2705e44e8db_635706159057290737.webm",
-        "officialUrl": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/07/09/afba5bfdb3678ac02b6cd2705e44e8db_635706159057290737.webm"
+        "path": "archive/4ziysqXOQ8/20260821_e03cdbee1cd9f23890a912539cdbd24b_6037866158777122843.webm",
+        "officialUrl": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/08/21/e03cdbee1cd9f23890a912539cdbd24b_6037866158777122843.webm"
       },
       "assets": [
         {
-          "url": "https://assets.pengo.gg/launcher-visuals/30c4d0e858dd9d71fed3623dee83d324e6aceb7a8c2e81aebec9f47684ac34f2.webm",
-          "sha256": "30c4d0e858dd9d71fed3623dee83d324e6aceb7a8c2e81aebec9f47684ac34f2",
-          "size": 3645092,
+          "url": "https://assets.pengo.gg/launcher-visuals/edc965718f6a881b6ad4c60656414d2203c03cf3510ba0522eeddbb05cb70adf.webm",
+          "sha256": "edc965718f6a881b6ad4c60656414d2203c03cf3510ba0522eeddbb05cb70adf",
+          "size": 16004616,
           "mediaType": "video/webm"
         }
       ]
@@ -39,14 +41,14 @@
       "kind": "video",
       "source": {
         "repository": "https://github.com/nano-shino/hyvbgarchive",
-        "path": "archive/U5hbdsT9W7/20260727_ac4360ca5c3247dd5630ecb5a261d9ca_2272221460347633592.webm",
-        "officialUrl": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/07/27/ac4360ca5c3247dd5630ecb5a261d9ca_2272221460347633592.webm"
+        "path": "archive/U5hbdsT9W7/20260817_f1ca2e4158a18b4a770bb956a07f8ea8_823680119809509683.webm",
+        "officialUrl": "https://fastcdn.hoyoverse.com/static-resource-v2/2026/08/17/f1ca2e4158a18b4a770bb956a07f8ea8_823680119809509683.webm"
       },
       "assets": [
         {
-          "url": "https://assets.pengo.gg/launcher-visuals/d58191d004714b7d033467362d21369730387acce9d6ed1d59078eb471ef8745.webm",
-          "sha256": "d58191d004714b7d033467362d21369730387acce9d6ed1d59078eb471ef8745",
-          "size": 18980819,
+          "url": "https://assets.pengo.gg/launcher-visuals/a6f32890598990d6beb6a663c5a85444c24247cafde013617252001363cdf5a2.webm",
+          "sha256": "a6f32890598990d6beb6a663c5a85444c24247cafde013617252001363cdf5a2",
+          "size": 14658100,
           "mediaType": "video/webm"
         }
       ]

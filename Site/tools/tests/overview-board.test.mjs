@@ -19,14 +19,14 @@ const banners = sandbox.window.NYX_DB?.banners?.games || {};
 const GAMES = ['gi', 'hsr', 'zzz', 'wuwa', 'ae'];
 const phases = (group) => [group?.current, group?.next, ...(group?.upcoming || [])].filter(Boolean);
 
-function sourceFunction(name) {
-  const from = appSource.indexOf(`function ${name}`);
+function sourceFunction(name, source = appSource) {
+  const from = source.indexOf(`function ${name}`);
   assert.ok(from >= 0, `${name} not found`);
-  const open = appSource.indexOf('{', from);
+  const open = source.indexOf('{', from);
   let depth = 0;
-  for (let index = open; index < appSource.length; index += 1) {
-    if (appSource[index] === '{') depth += 1;
-    else if (appSource[index] === '}' && --depth === 0) return appSource.slice(from, index + 1);
+  for (let index = open; index < source.length; index += 1) {
+    if (source[index] === '{') depth += 1;
+    else if (source[index] === '}' && --depth === 0) return source.slice(from, index + 1);
   }
   throw new Error(`${name} is incomplete`);
 }
@@ -44,6 +44,26 @@ function sourceConst(name) {
   }
   throw new Error(`${name} is incomplete`);
 }
+
+test('the Genshin plan and bottom pin order stay explicit', () => {
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(`${sourceConst('BANNER_PLAN_LABELS')} ${sourceConst('BANNER_COPIUM_PINS')} window.values = { labels:BANNER_PLAN_LABELS.gi, pins:BANNER_COPIUM_PINS.gi };`, box);
+  assert.deepEqual(JSON.parse(JSON.stringify(box.window.values)), {
+    labels:{ vesna:'7.1 Phase 1', vodyanitsa:'7.1 Phase 2' },
+    pins:['Alice', 'Dainsleif'],
+  });
+  assert.match(appSource, /label:row\.column\?\.label \|\| BANNER_PLAN_LABELS\[cfg\.key\]/);
+  assert.match(sharedCss, /\.gp-ovb-pins\{[^}]*flex-direction:row/);
+  assert.match(sharedCss, /\.gp-ovb-pins > \.gp-ovb-row\{[^}]*flex:1 1 0;[^}]*min-width:0/);
+});
+
+test('the banner list owns its wheel scrolling', () => {
+  assert.match(sharedCss, /\.gp-ovb-scroll\{[^}]*overscroll-behavior:contain/);
+  assert.match(appSource, /const bannerList = target\?\.closest\('\.gp-ovb-scroll'\);\s*if \(bannerList\) \{\s*event\.preventDefault\(\);\s*bannerList\.scrollBy/);
+  const wheelHandler = appSource.slice(appSource.indexOf('const onWheel ='), appSource.indexOf("window.addEventListener('wheel'"));
+  assert.ok(wheelHandler.indexOf('const bannerList') < wheelHandler.indexOf('Math.abs(event.deltaY) < 1'));
+});
 
 test('every shipped banner character carries a debut verdict', () => {
   const games = Object.keys(banners);
@@ -96,6 +116,100 @@ test('what is live comes from the official history, not the community scrape', (
   // the build at every phase boundary.
 });
 
+test('Endfield loss pool follows Chartered banner history', async () => {
+  const history = JSON.parse(await readFile(path.resolve(root, '../Database/BannerHistory/ae.json'), 'utf8'));
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(`
+    ${sourceFunction('endfieldLossPool', generator)}
+    ${sourceFunction('latestBannerRow', generator)}
+    ${sourceFunction('endfieldLiveLossPool', generator)}
+    window.endfieldLossPool = endfieldLossPool;
+    window.latestBannerRow = latestBannerRow;
+    window.endfieldLiveLossPool = endfieldLiveLossPool;
+  `, box);
+
+  const earliestStart = (record) => Math.min(...Object.values(record.windowsByRegion || {})
+    .map((window) => Date.parse(window?.start)).filter(Number.isFinite));
+  const eligible = history.records
+    .filter((record) => record.bannerType === 'character' && !record.permanent)
+    .map((record) => ({
+      record,
+      primary:(record.featured || []).find((entry) => entry.primary === true && Number(entry.rarity) === 6 && entry.name),
+      start:earliestStart(record),
+    }))
+    .filter((row) => row.primary && Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start);
+  assert.ok(eligible.length >= 3, 'real history needs a current and two preceding Chartered rate-ups');
+  const permanent = [...new Set(history.records
+    .filter((record) => record.bannerType === 'character' && record.permanent)
+    .flatMap((record) => record.featured || [])
+    .filter((entry) => Number(entry.rarity) === 6 && entry.name)
+    .map((entry) => entry.name))];
+  for (const [index, current] of eligible.entries()) {
+    const pool = box.window.endfieldLossPool(history.records, current.record);
+    assert.equal(pool.current.name, current.primary.name);
+    assert.deepEqual(
+      Array.from(pool.previous, (entry) => entry.name),
+      eligible.slice(Math.max(0, index - 2), index).reverse().map((row) => row.primary.name),
+    );
+    assert.deepEqual(Array.from(pool.permanent, (entry) => entry.name), permanent);
+  }
+  const rollover = [
+    { start:eligible.at(-2).start, record:eligible.at(-2).record },
+    { start:eligible.at(-1).start, record:eligible.at(-1).record },
+  ];
+  assert.equal(box.window.endfieldLiveLossPool(history.records, rollover).current.name, eligible.at(-1).primary.name);
+  assert.equal(box.window.endfieldLiveLossPool(history.records, rollover.reverse()).current.name, eligible.at(-1).primary.name);
+
+  const primaryless = history.records
+    .filter((record) => record.bannerType === 'character' && !record.permanent && !(record.featured || []).some((entry) => entry.primary === true))
+    .map((record) => ({ record, start:earliestStart(record) }))
+    .filter((row) => Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start)
+    .at(-1);
+  const preceding = primaryless && eligible.filter((row) => row.start < primaryless.start).at(-1);
+  assert.ok(primaryless && preceding, 'real history needs a primary-less overlap candidate');
+  const filteredPool = box.window.endfieldLiveLossPool(history.records, [
+    { start:preceding.start, record:preceding.record },
+    primaryless,
+  ]);
+  assert.equal(filteredPool.current.name, preceding.primary.name);
+  assert.match(generator, /const pool = key === 'ae' \? endfieldLiveLossPool\(records, live\) : null/);
+});
+
+test('a patch-only roadmap character joins the known second phase', () => {
+  const box = { window:{} };
+  vm.createContext(box);
+  vm.runInContext(`
+    ${sourceFunction('rosterNameKey', generator)}
+    ${sourceFunction('mergePatchOnlyRoadmapIntoNext', generator)}
+    window.merge = mergePatchOnlyRoadmapIntoNext;
+  `, box);
+  const current = { phase:'3.6 Phase 1', characters:[{ name:'Qingxiao' }] };
+  const next = { phase:null, characters:[{ name:'Hiyuki' }, { name:'Mornye' }] };
+  const roadmap = [
+    { name:'Jingran', hint:'Qingxiao and Jingran in Version 3.6' },
+    { name:'Qing Xiao', hint:'Version 3.6' },
+    { name:'Hiyuki', hint:'Version 3.6 Phase 2' },
+    { name:'Too Early', hint:'Version 3.6 Phase 1' },
+    { name:'Later Patch', hint:'Version 3.7 Phase 2' },
+  ];
+
+  box.window.merge(current, next, roadmap);
+  assert.equal(next.phase, '3.6 Phase 2');
+  assert.deepEqual(Array.from(next.characters, (row) => row.name), ['Jingran', 'Hiyuki', 'Mornye']);
+
+  const labeled = { phase:'3.6 Phase 2', characters:[{ name:'Hiyuki' }, { name:'Mornye' }] };
+  box.window.merge(current, labeled, [{ name:'Camellya', hint:'Patch 3.6 Phase 2' }]);
+  assert.deepEqual(Array.from(labeled.characters, (row) => row.name), ['Camellya', 'Hiyuki', 'Mornye']);
+
+  const otherPatch = { phase:'3.7 Phase 1', characters:[{ name:'Hiyuki' }, { name:'Mornye' }] };
+  box.window.merge(current, otherPatch, roadmap);
+  assert.equal(otherPatch.phase, '3.7 Phase 1');
+  assert.deepEqual(Array.from(otherPatch.characters, (row) => row.name), ['Hiyuki', 'Mornye']);
+});
+
 test('the board splits each phase into a headline banner and the rest', () => {
   assert.match(appSource, /function bannerBoardColumn/);
   assert.match(appSource, /function overviewBannerBoard/);
@@ -108,10 +222,13 @@ test('the board splits each phase into a headline banner and the rest', () => {
   // Lower-rarity featured units are omitted; Endfield alone keeps its 50/50
   // loss pool on the headline card.
   assert.match(appSource, /cfg\.key === 'ae' \? ranked\.filter/);
+  assert.match(appSource, /support:lossPool \? lossPool\.previous/);
+  assert.match(appSource, /current:phase\.lossPool\.current \? phaseUnit/);
+  assert.match(appSource, /lossPool,/);
   assert.doesNotMatch(appSource, /function BannerBoardRail/);
   assert.doesNotMatch(sharedCss, /\.gp-ovb-rank-rail/);
   assert.match(appSource, /others:cfg\.key === 'ae' \? column\.support : \[\]/);
-  assert.match(appSource, /support:cfg\.key === 'ae'[\s\S]*?: \[\]/);
+  assert.match(appSource, /:\s*cfg\.key === 'ae' \? ranked\.filter[\s\S]*?: \[\]/);
 });
 
 test('the overview renders five banner columns and folds the old rail into the grid', () => {
@@ -147,11 +264,37 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   // Losing the 50/50 in Endfield gives one of the previous banner characters,
   // so those names are a loss pool, not banners running alongside.
   assert.match(appSource, /const lossPool = cfg\.key === 'ae'/);
-  // The pool now sits on the headline card, labelled there...
-  assert.match(appSource, /supportLabel:cfg\.key === 'ae' \? 'Available on loss' : null/);
-  // The "?" opens a self-hosted copy of the rate table — never a hotlink.
-  assert.match(appSource, /assets\/info\/endfield-loss-rates\.webp/);
-  assert.doesNotMatch(appSource, /cdn\.prydwen\.gg/);
+  // The full white label is the one help button; there is no nested "?".
+  assert.match(appSource, /supportLabel:column\.lossPool \? 'Available on loss' : null/);
+  assert.match(appSource, /\{\(card\.supportLabel \|\| card\.others\.length > 0\) && \(/);
+  assert.match(appSource, /<button type="button" className="gp-oban-supports-label"[\s\S]{0,180}>\{card\.supportLabel\}<\/button>/);
+  assert.match(appSource, /aria-haspopup="dialog"/);
+  assert.doesNotMatch(appSource, /gp-oban-supports-help/);
+  assert.doesNotMatch(sharedCss, /gp-oban-supports-help/);
+  assert.doesNotMatch(appSource, /endfield-loss-rates\.webp/);
+  assert.match(sharedCss, /\.gp-oban-supports-label\{[\s\S]{0,400}color:var\(--nyx-color-text-max\)/);
+  assert.match(sharedCss, /button\.gp-oban-supports-label:focus-visible/);
+  // Native dialog behavior supplies focus trapping and Escape; Nyx wires open,
+  // close, and backdrop clicks while rendering the generated pool itself.
+  assert.match(appSource, /const currentLossPool = board\.current\?\.lossPool/);
+  assert.match(appSource, /dialog\.showModal\(\)/);
+  assert.match(appSource, /<dialog ref=\{lossDialogRef\}/);
+  const lossDialogStart = appSource.indexOf('<dialog ref={lossDialogRef}');
+  const lossDialog = appSource.slice(lossDialogStart, appSource.indexOf('</dialog>', lossDialogStart));
+  assert.doesNotMatch(lossDialog, /onCancel=/);
+  assert.match(lossDialog, /event\.key === 'Escape'/);
+  assert.match(appSource, /event\.target === event\.currentTarget/);
+  assert.match(appSource, /outcome:'Rate-up win'/);
+  assert.match(appSource, /outcome:'Available on loss'/);
+  assert.match(appSource, /<strong>\{row\.outcome\}<\/strong>/);
+  assert.match(appSource, /currentLossPool\.permanent\.map/);
+  assert.match(appSource, /<BannerUnit unit=\{row\.unit\}/);
+  assert.match(sharedCss, /\.gp-ovb-modal\{[\s\S]{0,250}margin:auto/);
+  assert.match(sharedCss, /\.gp-ovb-modal::backdrop/);
+  assert.match(sharedCss, /@media \(max-width:640px\)\{[\s\S]*?\.gp-ovb-loss-sequence/);
+  assert.match(generator, /function endfieldLossPool/);
+  assert.match(generator, /current\.lossPool = \{/);
+  assert.match(generator, /normalizeBannerCharacter\(rosters, key, pool\.current, runCounts\)/);
   // Endfield fills columns 2-4 with what is coming and drops the fifth.
   assert.match(appSource, /const aeUpcoming = lossPool \? laterUnits\.slice\(0, 3\) : \[\]/);
   assert.match(appSource, /if \(!lossPool\) \{/);
@@ -297,6 +440,7 @@ test('the five-column model matches each requested game roadmap', () => {
     ${sourceFunction('bannerApplyPlanLabels')}
     ${sourceConst('BANNER_ROADMAP_DENY')}
     ${sourceConst('BANNER_COPIUM_PINS')}
+    ${sourceConst('BANNER_PLAN_LABELS')}
     ${sourceFunction('bannerRoadmapAllowed')}
     ${sourceFunction('overviewBannerPins')}
     ${sourceFunction('overviewBannerBoard')}
@@ -313,7 +457,7 @@ test('the five-column model matches each requested game roadmap', () => {
   assert.equal(gi.next.heroes[0].name, 'Flins');
   assert.deepEqual(names(gi.next.others), ['Ineffa']);
   assert.deepEqual(gi.planned.map((column) => column.heroes[0].name), ['Vesna', 'Vodyanitsa']);
-  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase ?', '7.1 Phase ?']);
+  assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase 1', '7.1 Phase 2']);
   assert.ok(gi.planned.every((column) => column.start === null && column.end === null));
   assert.deepEqual(names(gi.future).slice(0, 5), ['Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy']);
 
@@ -341,8 +485,12 @@ test('the five-column model matches each requested game roadmap', () => {
 test('banner art overrides survive automatic data regeneration', () => {
   const pearl = banners.hsr?.roadmap?.find((row) => row.name === 'Pearl');
   const qingxiao = phases(banners.wuwa).flatMap((phase) => phase.characters || []).find((row) => row.name === 'Qingxiao');
+  const vesna = banners.gi?.roadmap?.find((row) => row.name === 'Vesna');
+  const vodyanitsa = banners.gi?.roadmap?.find((row) => row.name === 'Vodyanitsa');
   assert.equal(pearl?.art, '/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png');
   assert.equal(qingxiao?.icon, '/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png');
+  assert.equal(vesna?.art, '../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp');
+  assert.equal(vodyanitsa?.art, '../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp');
 });
 
 test('story NPCs never reach Announced, and the copium pair is pinned separately', () => {
@@ -381,6 +529,7 @@ test('story NPCs never reach Announced, and the copium pair is pinned separately
     ${sourceFunction('bannerApplyPlanLabels')}
     ${sourceConst('BANNER_ROADMAP_DENY')}
     ${sourceConst('BANNER_COPIUM_PINS')}
+    ${sourceConst('BANNER_PLAN_LABELS')}
     ${sourceFunction('bannerRoadmapAllowed')}
     ${sourceFunction('overviewBannerPins')}
     ${sourceFunction('overviewBannerBoard')}
@@ -394,7 +543,7 @@ test('story NPCs never reach Announced, and the copium pair is pinned separately
   assert.deepEqual(listed.filter((name) => ['Mitya', 'Noy'].includes(name)).sort(), ['Mitya', 'Noy'], 'real roadmap names survive');
   // The two the user keeps as a joke come back as a separate pinned list, so
   // the board can render them under the real entries with a "copium" note.
-  assert.deepEqual(board.pinned.map((row) => row.name), ['Dainsleif', 'Alice']);
+  assert.deepEqual(board.pinned.map((row) => row.name), ['Alice', 'Dainsleif']);
   // Other games have neither a denylist nor pins.
   assert.deepEqual(JSON.parse(JSON.stringify(box.window.board)).pinned.length, 2);
 });

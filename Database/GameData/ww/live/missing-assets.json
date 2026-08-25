@@ -68,6 +68,10 @@
     "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDaNiYa.webp"
   },
   {
+    "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJingRan.webp",
+    "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJingRan.webp"
+  },
+  {
     "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp",
     "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyYinlin.webp"
   },
@@ -126,6 +130,10 @@
   {
     "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp",
     "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityHalfBodyXigelika.webp"
+  },
+  {
+    "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQingXiao.webp",
+    "gamedataAssetPath": "UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyQingXiao.webp"
   },
   {
     "path": "GameData/ww/assets/characters/stands/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyDengdeng.webp",

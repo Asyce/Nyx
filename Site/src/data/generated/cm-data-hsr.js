@@ -37,9 +37,7 @@
         "Harmony",
         "Abundance",
         "Remembrance",
-        "Elation",
-        "Memory",
-        "Warlock"
+        "Elation"
       ]
     },
     {
@@ -9989,6 +9987,26 @@
       "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
+      "signatureLightCone": {
+        "id": "23064",
+        "name": "Summer Rides the Surf",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23064.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23064",
+        "name": "Summer Rides the Surf",
+        "path": "Elation",
+        "type": "Elation",
+        "educated": true
+      },
+      "signatureWeaponId": "23064",
+      "signatureWeaponName": "Summer Rides the Surf",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23064.webp"
+      ],
       "status": "beta",
       "labels": [
         "4.5"
@@ -10111,6 +10129,66 @@
       "upcoming": true,
       "reliableData": false,
       "noReliableInfo": true,
+      "req": {
+        "weapon": {
+          "name": "Summer Rides the Surf",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23064.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+            },
+            {
+              "id": "114011",
+              "name": "Tatters of Thought",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+            },
+            {
+              "id": "114012",
+              "name": "Fragments of Impression",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+            },
+            {
+              "id": "114013",
+              "name": "Shards of Desires",
+              "qty": 14,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+            }
+          ],
+          "cost": 385000
+        },
+        "currency": 385000
+      },
       "recent": false
     },
     {
@@ -10129,7 +10207,8 @@
         "chinese": "https://zh.moegirl.org.cn/zh-hans/\u82cf\u5a49|Su Wan (\u82cf\u5a49)",
         "korean": "https://en.namu.wiki/w/\uc5ec\uc724\ubbf8|Yeo Yoon-mi (\uc5ec\uc724\ubbf8)"
       },
-      "icon": null,
+      "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+      "iconZoom": 1.18,
       "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
       "status": "beta",
@@ -10162,6 +10241,26 @@
       "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "signatureLightCone": {
+        "id": "23063",
+        "name": "Rise and Sing",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+        "path": "Remembrance"
+      },
+      "signatureWeapon": {
+        "id": "23063",
+        "name": "Rise and Sing",
+        "path": "Remembrance",
+        "type": "Remembrance",
+        "educated": true
+      },
+      "signatureWeaponId": "23063",
+      "signatureWeaponName": "Rise and Sing",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
+      ],
       "status": "beta",
       "labels": [
         "4.5"
@@ -10284,6 +10383,66 @@
       "upcoming": true,
       "reliableData": false,
       "noReliableInfo": true,
+      "req": {
+        "weapon": {
+          "name": "Rise and Sing",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+          "path": "Remembrance",
+          "items": [
+            {
+              "id": "110251",
+              "name": "B\u012bja of Consciousness",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+            },
+            {
+              "id": "110252",
+              "name": "Seedling of Manas",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+            },
+            {
+              "id": "110253",
+              "name": "Flower of \u0100laya",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+            },
+            {
+              "id": "114001",
+              "name": "Dream Collection Component",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+            },
+            {
+              "id": "114002",
+              "name": "Dream Flow Valve",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+            },
+            {
+              "id": "114003",
+              "name": "Dream Making Engine",
+              "qty": 14,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+            }
+          ],
+          "cost": 385000
+        },
+        "currency": 385000
+      },
       "recent": false
     },
     {
@@ -99967,7 +100126,8 @@
       "holidayArtPool": [
         "../../Database/HsrWiki/holiday-art/ruanmei/01-Chinese New Year 2024 Ruan Mei.png",
         "../../Database/HsrWiki/holiday-art/ruanmei/02-Valentine's Day 2024 Ruan Mei.png",
-        "../../Database/HsrWiki/holiday-art/ruanmei/03-Chinese New Year 2025.png"
+        "../../Database/HsrWiki/holiday-art/ruanmei/03-Chinese New Year 2025.png",
+        "../../Database/HsrWiki/holiday-art/ruanmei/04-Qixi Festival 2026.png"
       ],
       "signatureLightCone": {
         "id": "23019",
@@ -123361,7 +123521,7 @@
         "name": "Brighter Than the Sun",
         "path": "Destruction",
         "type": "Destruction",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "23015",
       "signatureWeaponName": "Brighter Than the Sun",
@@ -125279,7 +125439,7 @@
             "name": "Brighter Than the Sun",
             "path": "Destruction",
             "type": "Destruction",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "23015",
           "signatureWeaponName": "Brighter Than the Sun",
@@ -127186,7 +127346,7 @@
             "name": "Moment of Victory",
             "path": "Preservation",
             "type": "Preservation",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "23005",
           "signatureWeaponName": "Moment of Victory",
@@ -128997,7 +129157,7 @@
             "name": "In Pursuit of the Wind",
             "path": "Harmony",
             "type": "Harmony",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21056",
           "signatureWeaponName": "In Pursuit of the Wind",
@@ -130769,7 +130929,7 @@
             "name": "Victory In a Blink",
             "path": "Remembrance",
             "type": "Remembrance",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "21050",
           "signatureWeaponName": "Victory In a Blink",
@@ -132687,7 +132847,7 @@
             "name": "When She Decided to See",
             "path": "Elation",
             "type": "Elation",
-            "educated": false
+            "educated": true
           },
           "signatureWeaponId": "23054",
           "signatureWeaponName": "When She Decided to See",
@@ -142092,7 +142252,7 @@
         "name": "A Secret Vow",
         "path": "Destruction",
         "type": "Destruction",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21012",
       "signatureWeaponName": "A Secret Vow",
@@ -143827,7 +143987,7 @@
         "name": "Carve the Moon, Weave the Clouds",
         "path": "Harmony",
         "type": "Harmony",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21032",
       "signatureWeaponName": "Carve the Moon, Weave the Clouds",
@@ -145562,7 +145722,7 @@
         "name": "Cruising in the Stellar Sea",
         "path": "Hunt",
         "type": "Hunt",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "24001",
       "signatureWeaponName": "Cruising in the Stellar Sea",
@@ -147307,7 +147467,7 @@
         "name": "What Is Real?",
         "path": "Abundance",
         "type": "Abundance",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21035",
       "signatureWeaponName": "What Is Real?",
@@ -149130,7 +149290,7 @@
         "name": "Eyes of the Prey",
         "path": "Nihility",
         "type": "Nihility",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21008",
       "signatureWeaponName": "Eyes of the Prey",
@@ -150930,7 +151090,7 @@
         "name": "Planetary Rendezvous",
         "path": "Harmony",
         "type": "Harmony",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21011",
       "signatureWeaponName": "Planetary Rendezvous",
@@ -152701,7 +152861,7 @@
         "name": "Night on the Milky Way",
         "path": "Erudition",
         "type": "Erudition",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "23000",
       "signatureWeaponName": "Night on the Milky Way",
@@ -154446,7 +154606,7 @@
         "name": "The Moles Welcome You",
         "path": "Destruction",
         "type": "Destruction",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21005",
       "signatureWeaponName": "The Moles Welcome You",
@@ -156264,7 +156424,7 @@
         "name": "Resolution Shines As Pearls of Sweat",
         "path": "Nihility",
         "type": "Nihility",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21015",
       "signatureWeaponName": "Resolution Shines As Pearls of Sweat",
@@ -158127,7 +158287,7 @@
         "name": "Warmth Shortens Cold Nights",
         "path": "Abundance",
         "type": "Abundance",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21028",
       "signatureWeaponName": "Warmth Shortens Cold Nights",
@@ -159953,7 +160113,7 @@
         "name": "Day One of My New Life",
         "path": "Preservation",
         "type": "Preservation",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21002",
       "signatureWeaponName": "Day One of My New Life",
@@ -161769,7 +161929,7 @@
         "name": "Sleep Like the Dead",
         "path": "Hunt",
         "type": "Hunt",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "23012",
       "signatureWeaponName": "Sleep Like the Dead",
@@ -163622,7 +163782,7 @@
         "name": "On the Fall of an Aeon",
         "path": "Destruction",
         "type": "Destruction",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "24000",
       "signatureWeaponName": "On the Fall of an Aeon",
@@ -165427,7 +165587,7 @@
         "name": "Swordplay",
         "path": "Hunt",
         "type": "Hunt",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010",
       "signatureWeaponName": "Swordplay",
@@ -167282,7 +167442,7 @@
         "name": "Post-Op Conversation",
         "path": "Abundance",
         "type": "Abundance",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21000",
       "signatureWeaponName": "Post-Op Conversation",
@@ -169080,7 +169240,7 @@
         "name": "Resolution Shines As Pearls of Sweat",
         "path": "Nihility",
         "type": "Nihility",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21015",
       "signatureWeaponName": "Resolution Shines As Pearls of Sweat",
@@ -170881,7 +171041,7 @@
         "name": "Today Is Another Peaceful Day",
         "path": "Erudition",
         "type": "Erudition",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21034",
       "signatureWeaponName": "Today Is Another Peaceful Day",
@@ -172659,7 +172819,7 @@
         "name": "Eyes of the Prey",
         "path": "Nihility",
         "type": "Nihility",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21008",
       "signatureWeaponName": "Eyes of the Prey",
@@ -174450,7 +174610,7 @@
         "name": "Make the World Clamor",
         "path": "Erudition",
         "type": "Erudition",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21013",
       "signatureWeaponName": "Make the World Clamor",
@@ -176232,7 +176392,7 @@
         "name": "Swordplay",
         "path": "Hunt",
         "type": "Hunt",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21010",
       "signatureWeaponName": "Swordplay",
@@ -177983,7 +178143,7 @@
         "name": "Carve the Moon, Weave the Clouds",
         "path": "Harmony",
         "type": "Harmony",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21032",
       "signatureWeaponName": "Carve the Moon, Weave the Clouds",
@@ -179721,7 +179881,7 @@
         "name": "Indelible Promise",
         "path": "Destruction",
         "type": "Destruction",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21042",
       "signatureWeaponName": "Indelible Promise",
@@ -181477,7 +181637,7 @@
         "name": "Past and Future",
         "path": "Harmony",
         "type": "Harmony",
-        "educated": false
+        "educated": true
       },
       "signatureWeaponId": "21025",
       "signatureWeaponName": "Past and Future",
@@ -183215,7 +183375,7 @@
       "labels": [],
       "r": 5,
       "el": "Ice",
-      "path": "Memory",
+      "path": "Remembrance",
       "baseStats": {
         "level1": {
           "hp": 179.52,
@@ -183337,7 +183497,6 @@
         "id": "23049",
         "name": "To Evernight's Stars",
         "path": "Remembrance",
-        "type": "Remembrance",
         "educated": false
       },
       "signatureWeaponId": "23049",
@@ -185114,30 +185273,6 @@
           "path": "Remembrance",
           "items": [
             {
-              "id": "110251",
-              "name": "B\u012bja of Consciousness",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-            },
-            {
-              "id": "110252",
-              "name": "Seedling of Manas",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-            },
-            {
-              "id": "110253",
-              "name": "Flower of \u0100laya",
-              "qty": 15,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-            },
-            {
               "id": "115011",
               "name": "Ethereal Omen",
               "qty": 20,
@@ -185160,6 +185295,30 @@
               "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/115013.webp"
+            },
+            {
+              "id": "110251",
+              "name": "B\u012bja of Consciousness",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+            },
+            {
+              "id": "110252",
+              "name": "Seedling of Manas",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+            },
+            {
+              "id": "110253",
+              "name": "Flower of \u0100laya",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
             }
           ],
           "cost": 385000
@@ -185191,7 +185350,7 @@
       "labels": [],
       "r": 5,
       "el": "Fire",
-      "path": "Warlock",
+      "path": "Nihility",
       "baseStats": {
         "level1": {
           "hp": 153.12,
@@ -185313,7 +185472,6 @@
         "id": "23035",
         "name": "Long Road Leads Home",
         "path": "Nihility",
-        "type": "Nihility",
         "educated": false
       },
       "signatureWeaponId": "23035",
@@ -187013,30 +187171,6 @@
           "path": "Nihility",
           "items": [
             {
-              "id": "110221",
-              "name": "Fiery Spirit",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
-            },
-            {
-              "id": "110222",
-              "name": "Starfire Essence",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
-            },
-            {
-              "id": "110223",
-              "name": "Heaven Incinerator",
-              "qty": 15,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
-            },
-            {
               "id": "113001",
               "name": "Immortal Scionette",
               "qty": 20,
@@ -187059,6 +187193,30 @@
               "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/113003.webp"
+            },
+            {
+              "id": "110221",
+              "name": "Fiery Spirit",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110221.webp"
+            },
+            {
+              "id": "110222",
+              "name": "Starfire Essence",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110222.webp"
+            },
+            {
+              "id": "110223",
+              "name": "Heaven Incinerator",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110223.webp"
             }
           ],
           "cost": 385000
@@ -187618,6 +187776,20 @@
     }
   ],
   "weeklyBosses": [
+    {
+      "bossName": "High Hopes of the Falsely Enlightened",
+      "drops": [
+        {
+          "id": "110509",
+          "name": "High Hopes of the Falsely Enlightened",
+          "n": "High Hopes of the Falsely Enlightened",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/hsr/assets/items/110509.webp",
+          "chars": []
+        }
+      ]
+    },
     {
       "bossName": "Vanquished Flow",
       "drops": [

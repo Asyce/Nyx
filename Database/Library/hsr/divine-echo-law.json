@@ -5,7 +5,7 @@
   "name": "Divine Echo: Law",
   "sortId": 98466,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Divine_Echo:_Law",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -44,16 +44,6 @@
               }
             ],
             "id": "p-c5b623bd1c51ee88"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

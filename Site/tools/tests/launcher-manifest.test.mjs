@@ -425,7 +425,7 @@ test('Prydwen source-hash aliases keep verified current art and provide an icon 
       id: 'remielle',
       name: 'Remielle',
       facts: { rarity: 'S' },
-      art: { card: 'Prydwen/zzz/assets/characters/remielle-card-0123456789ab.webp' },
+      art: { full: 'Prydwen/zzz/assets/characters/remielle-full-0123456789ab.webp' },
     }] };
 
     const manifest = buildManifest({
@@ -528,17 +528,40 @@ test('stale, non-Game8, and malformed future windows stay out of the launcher fe
   }
 });
 
-test('production preprocessing admits only independently identified active history channels', () => {
+test('explicitly preserved Game8 futures survive a bounded source outage', () => {
+  const now = Date.parse('2026-07-26T00:00:00.000Z');
+  const preserved = {
+    id: 'hsr',
+    freshness: {
+      status: 'stale',
+      source: 'game8',
+      lastSuccessfulFetch: '2026-07-17T00:00:00.000Z',
+      message: 'This game failed to scrape during the latest banner check; preserved previous data.',
+    },
+    roadmapFreshness: { source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
+    next: phase('2026-08-08T00:00:00Z', '2026-08-29T00:00:00Z', [{ name: 'Waveflair' }]),
+    roadmap: [{ name: 'Pearl', image: '/assets/banners/hsr/30988ea93b8d36c7cd124310a61341f3.png' }],
+  };
+
+  const missingHistory = path.join(ROOT, 'missing-banner-history');
+  const normalized = applySourcedBannerWindows({ games: [preserved] }, missingHistory, now).games[0];
+  assert.deepEqual(normalized._displayUpcoming.map((entry) => entry.characters.map((character) => character.name)), [['Waveflair']]);
+  assert.deepEqual(normalized._displayAnnounced.map((entry) => entry.characters.map((character) => character.name)), [['Pearl']]);
+
+  preserved.freshness.message = 'stale for an unrelated reason';
+  const rejected = applySourcedBannerWindows({ games: [preserved] }, missingHistory, now).games[0];
+  assert.deepEqual(rejected._displayUpcoming, []);
+  assert.deepEqual(rejected._displayAnnounced, []);
+});
+
+test('production preprocessing admits every trusted active history channel from the most complete region', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-test-'));
   try {
     fs.mkdirSync(path.join(db, 'BannerHistory'));
     const trustedSource = { url: 'https://genshin-impact.fandom.com/wiki/Wish', kind: 'maintained-wiki', revision: 7 };
     const record = (id, name, start, end, overrides = {}) => ({
       id: `gi:character:Character Event:${id}`, game: 'gi', bannerType: 'character', category: 'Character Event', version: '6.7', permanent: false,
-      windowsByRegion: {
-        europe: { start, end },
-        asia: { start: '2026-07-15T00:00:00Z', end: '2026-07-19T00:00:00Z' },
-      },
+      windowsByRegion: { europe: { start, end } },
       featured: [{ name, rarity: 5, primary: true }], source: trustedSource, confirmed: true, ...overrides,
     });
     fs.writeFileSync(path.join(db, 'BannerHistory', 'gi.json'), JSON.stringify({ schemaVersion: 1, game: 'gi', records: [
@@ -553,7 +576,7 @@ test('production preprocessing admits only independently identified active histo
     ] }));
     const raw = { games: [{ id: 'gi', current: phase(null, '2026-07-19T00:00:00Z', [{ name: 'Untrusted' }]), next: phase('2026-07-16T00:00:00Z', '2026-07-20T00:00:00Z', [{ name: 'Unsupported overlap' }]) }] };
     const normalized = applySourcedBannerWindows(raw, db, NOW);
-    assert.deepEqual(normalized.games[0].current.characters.map((entry) => entry.name), ['Alpha', 'Beta']);
+    assert.deepEqual(normalized.games[0].current.characters.map((entry) => entry.name), ['Alpha', 'Beta', 'Unconfirmed']);
     assert.equal(normalized.games[0].current.start, '2026-07-16T12:00:00.000Z');
     assert.equal(normalized.games[0].current.end, '2026-07-17T12:00:00.000Z');
     assert.equal(normalized.games[0].current.phase, '6.7');
@@ -562,13 +585,13 @@ test('production preprocessing admits only independently identified active histo
     assert.ok(normalized.games[0].current._sourceChannels.every((entry) => entry.recordId && entry.category));
     const manifest = buildManifest({ banners: normalized, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z', db });
     assert.equal(manifest.games.gi.region, 'europe');
-    assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Alpha', 'Beta']);
+    assert.deepEqual(manifest.games.gi.current.characters.map((entry) => entry.name), ['Beta', 'Unconfirmed', 'Alpha']);
   } finally {
     fs.rmSync(db, { recursive: true, force: true });
   }
 });
 
-test('production preprocessing gives complete confirmed history precedence over an earlier overlapping raw window', () => {
+test('production preprocessing gives trusted history precedence over an earlier overlapping raw window', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-upcoming-trust-test-'));
   const source = { url: 'https://genshin-impact.fandom.com/wiki/Wish', kind: 'maintained-wiki', revision: 7 };
   const record = (id, name, start, end, overrides = {}) => ({
@@ -601,11 +624,18 @@ test('production preprocessing gives complete confirmed history precedence over 
       start: entry.start,
       end: entry.end,
       names: entry.characters.map((character) => character.name),
-    })), [{
-      start: '2026-07-19T00:00:00.000Z',
-      end: '2026-07-20T00:00:00.000Z',
-      names: ['Trusted Future'],
-    }]);
+    })), [
+      {
+        start: '2026-07-19T00:00:00.000Z',
+        end: '2026-07-20T00:00:00.000Z',
+        names: ['Trusted Future'],
+      },
+      {
+        start: '2026-07-21T00:00:00.000Z',
+        end: '2026-07-22T00:00:00.000Z',
+        names: ['Unconfirmed Future'],
+      },
+    ]);
     const unprocessed = buildManifest({ banners: raw, events, rosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
     assert.deepEqual(unprocessed.games.gi.upcoming, [], 'raw provider future rows must never publish without trusted preprocessing');
   } finally {
@@ -646,7 +676,7 @@ test('a matching sourced phase label replaces an unhelpful history version', () 
   }
 });
 
-test('wrong-game, unconfirmed, and untrusted history cannot fall back to raw current data', () => {
+test('wrong-game and untrusted history cannot fall back to raw current data', () => {
   const source = { url: 'https://genshin-impact.fandom.com/wiki/Wish', kind: 'maintained-wiki', revision: 7 };
   const base = {
     id: 'gi:character:Character Event:bad', game: 'gi', bannerType: 'character', category: 'Character Event', version: '6.7', permanent: false,
@@ -656,7 +686,6 @@ test('wrong-game, unconfirmed, and untrusted history cannot fall back to raw cur
   const cases = [
     { name: 'wrong dataset game', historyGame: 'hsr', record: base },
     { name: 'wrong record game', historyGame: 'gi', record: { ...base, game: 'hsr' } },
-    { name: 'unconfirmed', historyGame: 'gi', record: { ...base, confirmed: false } },
     { name: 'untrusted host', historyGame: 'gi', record: { ...base, source: { ...source, url: 'https://evil.genshin-impact.fandom.com/wiki/Wish' } } },
     { name: 'untrusted kind', historyGame: 'gi', record: { ...base, source: { ...source, kind: 'mirror' } } },
     { name: 'missing revision', historyGame: 'gi', record: { ...base, source: { url: source.url, kind: source.kind } } },
@@ -675,7 +704,7 @@ test('wrong-game, unconfirmed, and untrusted history cannot fall back to raw cur
   }
 });
 
-test('fresh independent raw current corroborates only an exact unconfirmed primary character', () => {
+test('trusted maintained history does not require a second raw provider to publish active characters', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-corroboration-test-'));
   const source = { url: 'https://honkai-star-rail.fandom.com/wiki/Warp', kind: 'maintained-wiki', revision: 9 };
   const record = (id, name) => ({
@@ -683,33 +712,16 @@ test('fresh independent raw current corroborates only an exact unconfirmed prima
     windowsByRegion: { asia: { start: '2026-07-16T00:00:00Z', end: '2026-07-20T00:00:00Z' } },
     featured: [{ name, rarity: 5, primary: true }], source, confirmed: false,
   });
-  const rawGame = (overrides = {}) => ({
-    id: 'hsr',
-    freshness: { status: 'fresh', checkedAt: '2026-07-17T00:00:00Z', lastSuccessfulFetch: '2026-07-17T00:00:00Z', source: 'independent-feed' },
-    current: { phase: '1.0', characters: [{ name: 'Alpha' }], end: '2026-07-19T00:00:00Z', source: 'independent-feed' },
-    ...overrides,
-  });
   try {
     fs.mkdirSync(path.join(db, 'BannerHistory'));
     fs.writeFileSync(path.join(db, 'BannerHistory', 'hsr.json'), JSON.stringify({ schemaVersion: 1, game: 'hsr', records: [
       record('exact', 'Alpha'),
       record('different-primary', 'Himeko Nova'),
     ] }));
-    const normalized = applySourcedBannerWindows({ games: [rawGame()] }, db, NOW);
+    const normalized = applySourcedBannerWindows({ games: [{ id: 'hsr' }] }, db, NOW);
     assert.equal(normalized.games[0].current._sourceRegion, 'asia');
     assert.equal(normalized.games[0].current.phase, '4.4');
-    assert.deepEqual(normalized.games[0].current.characters.map((entry) => entry.name), ['Alpha']);
-
-    const rejected = [
-      rawGame({ freshness: { status: 'stale', checkedAt: '2026-07-17T00:00:00Z', lastSuccessfulFetch: '2026-07-17T00:00:00Z', source: 'independent-feed' } }),
-      rawGame({ freshness: { status: 'fresh', checkedAt: '2026-07-15T00:00:00Z', lastSuccessfulFetch: '2026-07-15T00:00:00Z', source: 'independent-feed' } }),
-      rawGame({ current: { phase: '1.0', characters: [{ name: 'Alpha' }], end: '2026-07-16T00:00:00Z', source: 'independent-feed' } }),
-      rawGame({ current: { phase: '1.0', characters: [{ name: 'Alpha' }], end: '2026-07-19T00:00:00Z', source: 'maintained-wiki' } }),
-      rawGame({ current: { phase: '1.0', characters: [{ name: 'Alpha Extra' }], end: '2026-07-19T00:00:00Z', source: 'independent-feed' } }),
-    ];
-    for (const candidate of rejected) {
-      assert.equal(applySourcedBannerWindows({ games: [candidate] }, db, NOW).games[0].current, null);
-    }
+    assert.deepEqual(normalized.games[0].current.characters.map((entry) => entry.name), ['Himeko Nova', 'Alpha']);
   } finally {
     fs.rmSync(db, { recursive: true, force: true });
   }
@@ -781,7 +793,7 @@ test('selection uses stable identity when debut dates are missing', () => {
     { id: 'a', name: 'Rerun', rarity: 5 },
   ] };
   const manifest = buildManifest({ banners, events, rosters: customRosters, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
-  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Rerun');
+  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'New');
   assert.equal(manifest.games.zzz.current.selectionReason, 'stable-identity');
 });
 
@@ -839,7 +851,7 @@ test('production snapshot selects the newest splash art and exposes future patch
   });
   assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Sandrone');
   assert.equal(manifest.games.hsr.current.selectedCharacter.name, 'Himeko • Nova');
-  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Norma Hollowell');
+  assert.equal(manifest.games.zzz.current.selectedCharacter.name, 'Norma');
   assert.equal(manifest.games.wuwa.current.selectedCharacter.name, 'Yangyang: Xuanling');
   assert.equal(manifest.games.ae.current.selectedCharacter.name, 'Arcane');
   assert.ok(manifest.games.hsr.current.selectedCharacter.variants.every((variant) => variant.source === 'splash'));
@@ -851,7 +863,7 @@ test('production snapshot selects the newest splash art and exposes future patch
   assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
   assert.deepEqual(manifest.games.zzz.upcoming, []);
   assert.deepEqual(manifest.games.wuwa.upcoming[0].characters.map((character) => character.name), ['Suisui', 'Aemeath']);
-  assert.deepEqual(manifest.games.ae.upcoming[0].characters.map((character) => character.name), ['Liino']);
+  assert.deepEqual(manifest.games.ae.upcoming[0].characters.map((character) => character.name), ['Liino', 'Arcane', 'Camille']);
 });
 
 test('production source rolls Genshin from Sandrone to Columbina at the trusted boundary', () => {
@@ -866,21 +878,49 @@ test('production source rolls Genshin from Sandrone to Columbina at the trusted 
   assert.deepEqual(manifest.games.gi.upcoming, []);
 });
 
-test('current Pengo scrape projects every scheduled and announced launcher row', async () => {
-  const productionNow = Date.parse('2026-08-14T12:00:00.000Z');
+test('current Pengo scrape projects headline characters with short names and known patch labels', async () => {
+  const productionNow = Date.parse('2026-08-24T12:00:00.000Z');
   const manifest = buildManifest({
     ...loadManifestInputs({ now: productionNow }),
     now: productionNow,
-    generatedAt: '2026-08-14T12:00:00.000Z',
+    generatedAt: '2026-08-24T12:00:00.000Z',
   });
   const upcomingNames = (game) => manifest.games[game].upcoming.map((phase) => phase.characters.map((character) => character.name));
-  const remielle = manifest.games.zzz.current.characters.find((character) => character.name === 'Remielle Dan');
+  const remielle = manifest.games.zzz.current.characters.find((character) => character.name === 'Remielle');
   assert.match(remielle.icon.path, /IconRoleCircle67\.webp$/);
   assert.notEqual(remielle.icon.sha256, remielle.variants[0].sha256);
-  assert.deepEqual(upcomingNames('gi'), [['Ineffa', 'Flins'], ['Vesna', 'Vodyanitsa']]);
-  assert.deepEqual(upcomingNames('hsr'), [['Robin • Summeretto'], ['Aventurine • Waveflair'], ['Pearl', 'Nihilux']]);
-  assert.deepEqual(upcomingNames('zzz'), [['Sigrid', 'Dialyn', 'Yuzuha', 'Harumasa'], ['Claret', 'Roxy', 'Sunbringer', 'Phoenix', 'The Storyteller']]);
-  assert.deepEqual(upcomingNames('wuwa'), [['Qingxiao', 'Denia'], ['Mornye', 'Hiyuki'], ['Jingran', 'Suoming', 'Hsin']]);
+  assert.deepEqual(manifest.games.hsr.current.characters.map((character) => character.name), [
+    'Himeko • Nova', 'Cerydra', 'Anaxa', 'Aventurine',
+  ]);
+  assert.equal(manifest.games.hsr.current.phase, '4.4 Phase 2');
+  assert.deepEqual(manifest.games.zzz.current.characters.map((character) => character.name), [
+    'Sigrid', 'Remielle', 'Dialyn', 'Yuzuha', 'Harumasa',
+  ]);
+  const sigrid = manifest.games.zzz.current.characters.find((character) => character.name === 'Sigrid');
+  const yuzuha = manifest.games.zzz.current.characters.find((character) => character.name === 'Yuzuha');
+  assert.ok(sigrid.variants.every((asset) => asset.sha256 !== sigrid.icon.sha256 && asset.placement.x > 0.5));
+  assert.ok(Math.max(sigrid.variants[0].dimensions.width, sigrid.variants[0].dimensions.height) >= 1000);
+  assert.ok(yuzuha.variants.every((asset) => asset.sha256 !== yuzuha.icon.sha256));
+  assert.deepEqual(upcomingNames('gi'), [['Flins', 'Ineffa'], ['Vesna', 'Vodyanitsa']]);
+  assert.equal(manifest.games.gi.upcoming[0].phase, '7.0 Phase 2');
+  assert.deepEqual(upcomingNames('hsr'), [
+    ['Hyacine', 'Robin • Summeretto'],
+    ['Ashveil', 'Aventurine • Waveflair'],
+    ['Pearl'],
+    ['Nihilux'],
+  ]);
+  assert.deepEqual(manifest.games.hsr.upcoming.slice(0, 2).map((phase) => phase.phase), [
+    '4.5 Phase 1', '4.5 Phase 2',
+  ]);
+  assert.equal(manifest.games.hsr.upcoming[2].phase, 'Version 4.6');
+  assert.equal(manifest.games.hsr.upcoming[3].phase, null);
+  assert.deepEqual(upcomingNames('zzz'), [
+    ['Claret', 'Roxy'],
+    ['Sunbringer', 'Phoenix', 'The Storyteller'],
+  ]);
+  assert.equal(manifest.games.zzz.upcoming[0].phase, '3.2');
+  assert.deepEqual(upcomingNames('wuwa'), [['Jingran', 'Hiyuki', 'Mornye'], ['Suoming', 'Hsin']]);
+  assert.equal(manifest.games.wuwa.current.phase, '3.6');
   assert.deepEqual(manifest.games.ae.current.characters.map((character) => character.name), ['Liino', 'Arcane', 'Camille']);
   assert.equal(manifest.games.ae.current.selectedCharacter.name, 'Liino');
   assert.ok(manifest.games.ae.current.selectedCharacter.variants.some((variant) => /liino/i.test(variant.path)));
@@ -888,14 +928,23 @@ test('current Pengo scrape projects every scheduled and announced launcher row',
   assert.equal(manifest.games.ae.upcoming[0].start, null);
   assert.equal(manifest.games.ae.upcoming[0].end, null);
   assert.deepEqual(manifest.games.ae.upcoming[0].characters.map((character) => character.name), [
-    'Si (Feranmut Proxy)',
+    'Si',
     'Hongshan Imperial Guard',
-    'Sarkaz Archer',
   ]);
   assert.ok(manifest.games.ae.upcoming[0].characters.every((character) =>
     /^\/Site\/assets\/banners\/ae\/[a-f0-9]{32}\.png$/.test(character.icon.path)
     && character.icon.sourceUrl === undefined));
-  assert.match(manifest.games.hsr.upcoming[0].characters[0].icon.path, /(?:robin-summeretto|1512)/);
+  assert.match(manifest.games.hsr.upcoming[0].characters.find((character) => character.name === 'Robin • Summeretto').icon.path, /(?:robin-summeretto|1512)/);
+  assert.equal(manifest.games.gi.upcoming[1].phase, 'Version 7.1');
+  assert.deepEqual(manifest.games.gi.upcoming[1].characters.map((character) => character.name), ['Vesna', 'Vodyanitsa']);
+  assert.doesNotMatch(JSON.stringify(manifest.games.zzz), /Sigrid de L'Azur|Remielle Dan|Roxy Ifrita Pryce|Claret Flint/);
+  for (const [game, minimum] of Object.entries({ gi: 5, hsr: 5, zzz: 5, wuwa: 5, ae: 6 })) {
+    const characters = [
+      ...manifest.games[game].current.characters,
+      ...manifest.games[game].upcoming.flatMap((phase) => phase.characters),
+    ];
+    assert.ok(characters.every((character) => character.rarity == null || character.rarity >= minimum));
+  }
   for (const game of ['gi', 'hsr', 'zzz', 'wuwa']) {
     assert.ok(manifest.games[game].upcoming.flatMap((phase) => phase.characters).every((character) => /^\/(?:Database|Site\/assets\/banners)\//.test(character.icon?.path ?? '') && character.icon.sourceUrl === undefined));
   }
@@ -903,7 +952,7 @@ test('current Pengo scrape projects every scheduled and announced launcher row',
   const second = buildManifest({
     ...loadManifestInputs({ now: productionNow }),
     now: productionNow + 1000,
-    generatedAt: '2026-08-14T12:00:01.000Z',
+    generatedAt: '2026-08-24T12:00:01.000Z',
   });
   assert.equal(firstRevision, second.revision);
 
@@ -928,12 +977,19 @@ test('Endfield announced art accepts only exact Pengo-owned local splash paths',
   const source = JSON.parse(fs.readFileSync(path.join(ROOT, 'Database', 'Banners', 'banners.json'), 'utf8'));
   const ae = source.games.find((game) => game.id === 'endfield');
   assert.ok(ae);
-  const announcedNow = Date.parse('2026-08-14T12:00:00.000Z');
+  const announcedNow = Date.parse('2026-08-24T12:00:00.000Z');
   const valid = applySourcedBannerWindows(source, path.join(ROOT, 'Database'), announcedNow);
   assert.equal(valid.games.find((game) => game.id === 'endfield')._displayAnnounced.length, 1);
 
+  const preserved = structuredClone(source);
+  preserved.games.find((game) => game.id === 'endfield').teaserFreshness = { source: 'game8', lastSuccessfulFetch: '2026-08-18T00:00:00.000Z' };
+  assert.equal(
+    applySourcedBannerWindows(preserved, path.join(ROOT, 'Database'), announcedNow).games.find((game) => game.id === 'endfield')._displayAnnounced.length,
+    1,
+  );
+
   for (const teaserFreshness of [
-    { source: 'game8', lastSuccessfulFetch: '2026-08-01T00:00:00.000Z' },
+    { source: 'game8', lastSuccessfulFetch: '2026-01-01T00:00:00.000Z' },
     null,
   ]) {
     const candidate = structuredClone(source);

@@ -1,0 +1,6 @@
+{
+  "generatedAt": "2026-08-23T10:20:39.800Z",
+  "note": "ZZZ specialties with no Site/assets/meta/zzz/spec_<name>.webp. Download the url, trim to the artwork and centre it in a 64x64 frame with the glyph about 52px, then save as webp. No code change is needed: cmMetaIconSrc finds it by convention.",
+  "count": 0,
+  "missing": []
+}

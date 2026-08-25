@@ -5,7 +5,7 @@
   "name": "Wispae Protection Initiative",
   "sortId": 137049,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Wispae_Protection_Initiative",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -134,16 +134,6 @@
               }
             ],
             "id": "p-07d426d3d82a4df9"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

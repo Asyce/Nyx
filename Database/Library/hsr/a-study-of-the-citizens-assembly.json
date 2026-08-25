@@ -5,7 +5,7 @@
   "name": "A Study of the Citizens' Assembly",
   "sortId": 98460,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Study_of_the_Citizens%27_Assembly",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -58,10 +58,6 @@
             "type": "paragraph",
             "children": [
               {
-                "type": "strong",
-                "children": []
-              },
-              {
                 "type": "br"
               },
               {
@@ -107,10 +103,6 @@
           {
             "type": "paragraph",
             "children": [
-              {
-                "type": "strong",
-                "children": []
-              },
               {
                 "type": "br"
               },
@@ -168,10 +160,6 @@
             "type": "paragraph",
             "children": [
               {
-                "type": "strong",
-                "children": []
-              },
-              {
                 "type": "br"
               },
               {
@@ -218,10 +206,6 @@
             "type": "paragraph",
             "children": [
               {
-                "type": "strong",
-                "children": []
-              },
-              {
                 "type": "br"
               },
               {
@@ -253,16 +237,6 @@
               }
             ],
             "id": "p-6dac9f761f7fdd5f"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

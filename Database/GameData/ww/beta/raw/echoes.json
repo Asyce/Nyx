@@ -2644,7 +2644,6 @@
     ],
     "en": "Smolder",
     "intensity": 0,
-    "phantom": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_31102_UI.T_IconMonsterGoods_SG_31102_UI",
     "ko": "불씨의 사냥꾼",
     "zh": "不熄猎手",
     "ja": "熄えぬ狩人"
@@ -2728,45 +2727,9 @@
     "zh": "千傀重楼",
     "ja": "千傀の重楼"
   },
-  "6000219": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.T_IconMonsterHead_31103_UI",
-    "code": "T1-",
-    "rank": [
-      2,
-      3,
-      4,
-      5
-    ],
-    "group": [
-      33
-    ],
-    "en": "Stay tuned",
-    "intensity": 0,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
-  },
-  "6000220": {
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.T_IconMonsterHead_32069_UI",
-    "code": "T1-",
-    "rank": [
-      2,
-      3,
-      4,
-      5
-    ],
-    "group": [
-      33
-    ],
-    "en": "Stay tuned",
-    "intensity": 1,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
-  },
   "6000221": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.T_IconMonsterHead_34032_UI",
-    "code": "T1-",
+    "code": "X81-",
     "rank": [
       2,
       3,
@@ -2777,11 +2740,11 @@
       34,
       35
     ],
-    "en": "Stay tuned",
+    "en": "Calamity Effigy",
     "intensity": 2,
-    "ko": "Stay tuned",
-    "zh": "敬请期待",
-    "ja": "Stay tuned"
+    "ko": "하늘의 기관 인형 · 겁살",
+    "zh": "天傀劫煞",
+    "ja": "天傀劫殺"
   },
   "390070051": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_011_UI.T_IconMonsterGoods_011_UI",

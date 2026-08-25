@@ -2123,7 +2123,35 @@
       31203,
       12103
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          34100,
+          31300
+        ],
+        "part_sub_list": [
+          31203,
+          12102
+        ]
+      },
+      {
+        "suit_list": [
+          34100,
+          31800
+        ],
+        "part_sub_list": [
+          12102,
+          11102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          12102,
+          31402
+        ]
+      }
+    ],
     "part4": {
       "prop": 31203,
       "name": "Anomaly Proficiency",

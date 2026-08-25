@@ -5,7 +5,7 @@
   "name": "Fragment Scroll of the Cleaners' Registry",
   "sortId": 103854,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Fragment_Scroll_of_the_Cleaners%27_Registry",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -238,16 +238,6 @@
               }
             ],
             "id": "p-ee566c1d24037815"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

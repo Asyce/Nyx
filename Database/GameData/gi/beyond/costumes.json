@@ -1672,6 +1672,23 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_LegAcc_S0036.webp"
   },
   {
+    "id": "263935",
+    "name": "Cloud From the Peaks",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0458",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "FacialMakeup"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0458.webp"
+  },
+  {
     "id": "262590",
     "name": "Color Whimsy",
     "rank": "Purple",
@@ -1913,6 +1930,38 @@
       "Shoes"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Shoe_P0119.webp"
+  },
+  {
+    "id": "263003",
+    "name": "Craftsman's Focus",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Face_P0437",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Black"
+    ],
+    "slot": [
+      "EyeSocket"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0437.webp"
+  },
+  {
+    "id": "263004",
+    "name": "Craftsman's Focus",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Face_P0437",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "slot": [
+      "EyeSocket"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0437.webp"
   },
   {
     "id": "260880",
@@ -2274,6 +2323,23 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0270.webp"
   },
   {
+    "id": "262694",
+    "name": "Dark-Chasing Edge",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0455",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0455.webp"
+  },
+  {
     "id": "264108",
     "name": "Dawn Clouds",
     "rank": "None",
@@ -2631,6 +2697,57 @@
       "Pupil"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0321.webp"
+  },
+  {
+    "id": "262756",
+    "name": "Dreambuilder's Chisel",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0435",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0435.webp"
+  },
+  {
+    "id": "262758",
+    "name": "Dreampainter's Brush",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0436",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0436.webp"
+  },
+  {
+    "id": "263728",
+    "name": "Drifting Mist Veil",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_EyeShadow_P0459",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "White"
+    ],
+    "slot": [
+      "EyeShadow"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_EyeShadow_P0459.webp"
   },
   {
     "id": "262517",
@@ -3252,6 +3369,24 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Lipstick_P0031.webp"
   },
   {
+    "id": "263310",
+    "name": "First Light of Dawn",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0457",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Yellow"
+    ],
+    "slot": [
+      "Pupil"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0457.webp"
+  },
+  {
     "id": "262433",
     "name": "Fluffy Buns: Cerulean",
     "rank": "Green",
@@ -3827,6 +3962,76 @@
       "Pupil"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0149.webp"
+  },
+  {
+    "id": "263230",
+    "name": "Illusion Trick - Blue & Yellow",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0430",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow",
+      "Blue"
+    ],
+    "slot": [
+      "Pupil"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0430.webp"
+  },
+  {
+    "id": "263224",
+    "name": "Illusion Trick - Red & Blue",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0429",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red",
+      "Blue"
+    ],
+    "slot": [
+      "Pupil"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0429.webp"
+  },
+  {
+    "id": "262623",
+    "name": "Illusion's Whisper - Light Orange",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0424",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0424.webp"
+  },
+  {
+    "id": "262625",
+    "name": "Illusion's Whisper - Pink",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0425",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0425.webp"
   },
   {
     "id": "263601",
@@ -4814,6 +5019,23 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0077.webp"
   },
   {
+    "id": "264269",
+    "name": "Melancholy Teardrop Glasses",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyewear_P0451",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Black"
+    ],
+    "slot": [
+      "Eyewear"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyewear_P0451.webp"
+  },
+  {
     "id": "263605",
     "name": "Midnight Incantation",
     "rank": "Purple",
@@ -4879,6 +5101,74 @@
       "Pupil"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0063.webp"
+  },
+  {
+    "id": "263919",
+    "name": "Miracle Stars - Brilliant Light",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0433",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "FacialMakeup"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0433.webp"
+  },
+  {
+    "id": "263912",
+    "name": "Miracle Stars - Radiant Spirit",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0431",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "FacialMakeup"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0431.webp"
+  },
+  {
+    "id": "263916",
+    "name": "Miracle Stars - Shadow",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0432",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "slot": [
+      "FacialMakeup"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0432.webp"
+  },
+  {
+    "id": "263921",
+    "name": "Miracle Stars - Twilight Beauty",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_FacialMakeup_P0434",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue"
+    ],
+    "slot": [
+      "FacialMakeup"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_FacialMakeup_P0434.webp"
   },
   {
     "id": "262678",
@@ -6224,6 +6514,38 @@
       "Pupil"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0286.webp"
+  },
+  {
+    "id": "262942",
+    "name": "Radiant Flourish",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Boy_Face_P0428",
+    "body": [
+      "BODY_BOY"
+    ],
+    "color": [
+      "Black"
+    ],
+    "slot": [
+      "EyeSocket"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Face_P0428.webp"
+  },
+  {
+    "id": "262943",
+    "name": "Radiant Flourish",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Face_P0428",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Black"
+    ],
+    "slot": [
+      "EyeSocket"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0428.webp"
   },
   {
     "id": "262578",
@@ -8288,6 +8610,42 @@
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Hair_P0124.webp"
   },
   {
+    "id": "263295",
+    "name": "Spinning Dream",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Pupil_P0438",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Blue",
+      "Red"
+    ],
+    "slot": [
+      "Pupil"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Pupil_P0438.webp"
+  },
+  {
+    "id": "264274",
+    "name": "Spooky Boo Hat",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Headwear_P0512",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "White",
+      "Blue"
+    ],
+    "slot": [
+      "Headwear"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Headwear_P0512.webp"
+  },
+  {
     "id": "261651",
     "name": "Sprout Mid-Calf Boots",
     "rank": "Blue",
@@ -8382,6 +8740,40 @@
       "LowerCloth"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Boy_Bottom_S0064.webp"
+  },
+  {
+    "id": "262627",
+    "name": "Stage Whisper - Light Orange",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0426",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Yellow"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0426.webp"
+  },
+  {
+    "id": "262629",
+    "name": "Stage Whisper - Pink",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Eyebrow_P0427",
+    "body": [
+      "BODY_GIRL",
+      "BODY_BOY"
+    ],
+    "color": [
+      "Red"
+    ],
+    "slot": [
+      "Eyebrows"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Eyebrow_P0427.webp"
   },
   {
     "id": "262903",
@@ -8675,6 +9067,22 @@
       "EyeSocket"
     ],
     "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0056.webp"
+  },
+  {
+    "id": "263013",
+    "name": "Swallowtail Willow",
+    "rank": "Purple",
+    "icon": "UI_Beyd_Avatar_Girl_Face_P0456",
+    "body": [
+      "BODY_GIRL"
+    ],
+    "color": [
+      "Brown"
+    ],
+    "slot": [
+      "EyeSocket"
+    ],
+    "localAsset": "GameData/gi/beyond/assets/UI_Beyd_Avatar_Girl_Face_P0456.webp"
   },
   {
     "id": "263907",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-17T14:54:14.776Z",
+  "generatedAt": "2026-08-24T23:19:29.155Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
-  "count": 236,
+  "count": 237,
   "missing": [
     {
       "game": "gi",
@@ -733,7 +733,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aglaea talents",
+      "context": "Robin Summeretto weapon",
       "id": "110251",
       "name": "Bīja of Consciousness",
       "kind": "book"
@@ -845,7 +845,7 @@
     },
     {
       "game": "hsr",
-      "context": "Acheron ascension",
+      "context": "Robin Summeretto weapon",
       "id": "114001",
       "name": "Dream Collection Component",
       "kind": "mob"
@@ -859,7 +859,7 @@
     },
     {
       "game": "hsr",
-      "context": "Acheron ascension",
+      "context": "Robin Summeretto weapon",
       "id": "114002",
       "name": "Dream Flow Valve",
       "kind": "mob"
@@ -873,7 +873,7 @@
     },
     {
       "game": "hsr",
-      "context": "Acheron ascension",
+      "context": "Robin Summeretto weapon",
       "id": "114003",
       "name": "Dream Making Engine",
       "kind": "mob"
@@ -971,7 +971,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aglaea talents",
+      "context": "Robin Summeretto weapon",
       "id": "110253",
       "name": "Flower of Ālaya",
       "kind": "book"
@@ -992,7 +992,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine ascension",
+      "context": "Aventurine Waveflair weapon",
       "id": "114012",
       "name": "Fragments of Impression",
       "kind": "mob"
@@ -1080,6 +1080,13 @@
       "id": "110233",
       "name": "Heavenly Melody",
       "kind": "book"
+    },
+    {
+      "game": "hsr",
+      "context": "High Hopes of the Falsely Enlightened weekly",
+      "id": "110509",
+      "name": "High Hopes of the Falsely Enlightened",
+      "kind": "weekly"
     },
     {
       "game": "hsr",
@@ -1328,7 +1335,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aglaea talents",
+      "context": "Robin Summeretto weapon",
       "id": "110252",
       "name": "Seedling of Manas",
       "kind": "book"
@@ -1342,7 +1349,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine ascension",
+      "context": "Aventurine Waveflair weapon",
       "id": "114013",
       "name": "Shards of Desires",
       "kind": "mob"
@@ -1433,7 +1440,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine ascension",
+      "context": "Aventurine Waveflair weapon",
       "id": "114011",
       "name": "Tatters of Thought",
       "kind": "mob"
@@ -1447,21 +1454,21 @@
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Aventurine Waveflair weapon",
       "id": "110263",
       "name": "The Fluffy Collector's Edition",
       "kind": "book"
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Aventurine Waveflair weapon",
       "id": "110261",
       "name": "The Fluffy Hand-drawn Storyboards",
       "kind": "book"
     },
     {
       "game": "hsr",
-      "context": "Evanescia talents",
+      "context": "Aventurine Waveflair weapon",
       "id": "110262",
       "name": "The Fluffy Serialization Memorial Issue",
       "kind": "book"
@@ -1538,7 +1545,7 @@
     },
     {
       "game": "zzz",
-      "context": "Cissia weapon",
+      "context": "Sigrid weapon",
       "id": "101010",
       "name": "Attack Component",
       "kind": "mob"
@@ -1559,7 +1566,7 @@
     },
     {
       "game": "zzz",
-      "context": "Cissia weapon",
+      "context": "Sigrid weapon",
       "id": "101020",
       "name": "Reinforced Attack Component",
       "kind": "mob"
@@ -1608,7 +1615,7 @@
     },
     {
       "game": "zzz",
-      "context": "Cissia weapon",
+      "context": "Sigrid weapon",
       "id": "101030",
       "name": "Specialized Attack Component",
       "kind": "mob"

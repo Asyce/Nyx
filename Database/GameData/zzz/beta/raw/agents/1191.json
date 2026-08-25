@@ -2850,15 +2850,44 @@
     }
   },
   "fairy_recommend": {
-    "slot4": 32500,
+    "slot4": 33300,
     "slot2": 31000,
-    "slot_sub": 31400,
+    "slot_sub": 31100,
     "part_sub_list": [
       20103,
       21103,
       12102
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          32500,
+          31000
+        ],
+        "part_sub_list": [
+          21103,
+          20103
+        ]
+      },
+      {
+        "suit_list": [
+          32500,
+          32700
+        ],
+        "part_sub_list": [
+          31703,
+          12102,
+          23103
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          12102,
+          12202
+        ]
+      }
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",
@@ -2872,16 +2901,16 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
     },
     "part6": {
-      "prop": 12102,
-      "name": "ATK",
-      "format": "{0:0.#%}",
-      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "part_sub": {
       "prop": 21103,
       "name": "CRIT DMG",
       "format": "{0:0.#%}",
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    "part_sub": {
+      "prop": 12102,
+      "name": "ATK",
+      "format": "{0:0.#%}",
+      "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "strategy": [

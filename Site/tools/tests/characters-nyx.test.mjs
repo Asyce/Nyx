@@ -9,6 +9,31 @@ const generated = path.join(site, 'src/data/generated');
 const read = (rel) => fs.readFile(path.join(site, rel), 'utf8');
 const plain = (value) => JSON.parse(JSON.stringify(value));
 
+test('side-nav emblem, shared search, and Hidden Characters menu keep their focused behavior', async () => {
+  const css = await read('src/styles/game-page-shared.css');
+  const materials = await read('src/features/materials/char-materials.jsx');
+  assert.match(css, /\.gp-side-nav \.gp-fn-row:not\(\.on\):hover \.dia\{[\s\S]*?opacity:1;/);
+  assert.match(css, /\.gp-side-nav \.gp-fn-row\.on \.dia\{ opacity:0; filter:none; \}/);
+  assert.match(css, /\.gp-fn-row:focus-visible\{ outline:2px solid/);
+  const ordinaryStart = css.indexOf('/* ===== shared ordinary chrome =====');
+  const ordinaryEnd = css.indexOf('/* Settings rows keep their grid layout', ordinaryStart);
+  const ordinary = css.slice(ordinaryStart, ordinaryEnd);
+  assert.doesNotMatch(ordinary, /\.cm-hide-menu button,/);
+  const surfaces = css.slice(css.indexOf(':is(.gt-panel-box'), css.indexOf(':is(.db-load-state', css.indexOf(':is(.gt-panel-box')));
+  assert.doesNotMatch(surfaces, /\.cm-hide-menu/);
+  assert.doesNotMatch(css, /\.cm-hide-menu button\.clear,\.cm-unfav-actions/);
+  assert.match(css, /:is\(\.gp-search,\.cm-search,\.library-search\):focus-within\{[\s\S]*?box-shadow:none;/);
+  assert.match(css, /\.gp :is\(\.gp-search,\.cm-search,\.library-search\) input:focus-visible,[\s\S]*?outline:0;/);
+  assert.match(materials, /className=\{'cm-tool cm-hide-tool' \+ \(hideMenu \|\| hideMode \? ' on' : ''\)\}/);
+  assert.doesNotMatch(materials, /on warn/);
+  assert.doesNotMatch(css, /\.cm-tool\.warn\.on/);
+  assert.match(css, /\.cm-hide-tool\.on\{[^}]*background-color:var\(--nyx-color-accent\);[^}]*background-image:none;[^}]*box-shadow:none;/);
+  const badge = css.match(/\.cm-tool-badge\{[^}]*\}/)?.[0] || '';
+  assert.match(badge, /background:var\(--nyx-color-accent\);/);
+  assert.match(badge, /box-shadow:none;/);
+  assert.doesNotMatch(badge, /gradient|#dd0044|#ff9db4/i);
+});
+
 async function loadMaterialsShareCard(){
   const requirementCalls = [];
   const currencyCosts = [];
@@ -68,6 +93,12 @@ async function loadGenerated(file, key, beta = false){
   return beta ? window.CM_CFG_BETA[key] : window.CM_CFG[key];
 }
 
+async function loadNyxData(){
+  const window = {};
+  vm.runInNewContext(await fs.readFile(path.join(generated, 'nyx-data.js'), 'utf8'), { window });
+  return window.NYX_DB;
+}
+
 const localAsset = (ref) => String(ref).startsWith('../../Database/')
   ? path.resolve(site, '..', 'Database', String(ref).slice('../../Database/'.length))
   : path.resolve(site, ref);
@@ -92,6 +123,35 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
   // 1fr columns made the active-tab underline far wider than the word.
   assert.match(css, /\.cm-tabs\{[^}]*display:inline-flex/, 'each tab sizes to its own label (2026-08-09)');
   assert.doesNotMatch(css, /\.cm-tabs\{[^}]*grid-auto-columns:1fr/);
+});
+
+test('characters without reliable details stay visible but cannot open blank pages', async () => {
+  const [app, materials, css, hsr, nyxData] = await Promise.all([
+    read('src/app/nyx-app.jsx'),
+    read('src/features/materials/char-materials.jsx'),
+    read('src/styles/game-page-shared.css'),
+    loadGenerated('cm-data-hsr.js', 'hsr'),
+    loadNyxData(),
+  ]);
+  const pearl = hsr.roster.find((character) => character.n === 'Pearl');
+  assert.equal(pearl?.upcoming, true);
+  assert.equal(pearl?.reliableData, false);
+  assert.equal(pearl?.noReliableInfo, true);
+  const liteContext = { window:{ CM_CFG:{}, NYX_DB:nyxData } };
+  const getRosterSource = app.slice(app.indexOf('function getCmRoster'), app.indexOf('function requestCmGame'));
+  const upcomingSource = materials.slice(materials.indexOf('function cmIsUpcomingOnly'), materials.indexOf('function cmRosterSort'));
+  vm.runInNewContext(`${getRosterSource}\n${upcomingSource}\nthis.pearl = getCmRoster('hsr').find((character) => character.n === 'Pearl');\nthis.unavailable = cmIsUpcomingOnly(this.pearl);`, liteContext);
+  assert.equal(liteContext.pearl?.noReliableInfo, true);
+  assert.equal(liteContext.unavailable, true, 'the Nyx hub blocks Pearl before the full HSR bundle loads');
+  assert.match(materials, /const unavailable = !hideMode && cmIsUpcomingOnly\(ch\);/);
+  assert.match(materials, /disabled=\{unavailable\}/);
+  assert.match(materials, /if \(!ch \|\| cmIsUpcomingOnly\(ch\)\) return false;/);
+  assert.match(materials, /if \(!selectedName \|\| !cfg\) return;/, 'direct Beta links wait for their data pack before deciding availability');
+  assert.match(materials, /if \(!opened\) \{[\s\S]*if \(onSelectedClose\) onSelectedClose\(\);[\s\S]*return;/);
+  assert.match(app, /detailAvailable:!cmIsUpcomingOnly\(ch\)/);
+  assert.match(app, /if \(ch\.detailAvailable === false\) return;/);
+  assert.match(app, /if \(matching && cmIsUpcomingOnly\(matching\)\) return;/);
+  assert.match(css, /\.cm-cell\.unavailable:hover\{ transform:none; \}/);
 });
 
 test('character pages expose clean artwork and keep guide actions below maxed totals', async () => {
@@ -173,6 +233,74 @@ test('WuWa weekly challenges are built from only the selected weekly material', 
   assert.ok(wuwa.weeklyBosses.every((boss) => boss.drops.length === 1 && boss.drops[0].kind === 'weekly'));
 });
 
+test('material groups cover the current source catalogs in live and beta', async () => {
+  const dbJson = async (rel) => JSON.parse(await fs.readFile(path.resolve(site, '..', 'Database', rel), 'utf8'));
+  const weeklyIds = (cfg) => plain(cfg.weeklyBosses.flatMap((boss) => boss.drops.map((drop) => String(drop.id)))).sort();
+  const itemIds = (items, include) => items.filter(include).map((item) => String(item.id)).sort();
+  const effectiveGroups = (live, pack = {}) => ({
+    ...live,
+    ...Object.fromEntries(['talentDomains', 'weeklyBosses'].filter((field) => Array.isArray(pack?.[field])).map((field) => [field, pack[field]])),
+  });
+  const [gi, hsr, zzz, wuwa, giBeta, hsrBeta, zzzBeta, giRaw, hsrItems, zzzItems, wuwaItems, hsrBetaItems, zzzBetaItems] = await Promise.all([
+    loadGenerated('cm-data-gi.js', 'gi'),
+    loadGenerated('cm-data-hsr.js', 'hsr'),
+    loadGenerated('cm-data-zzz.js', 'zzz'),
+    loadGenerated('cm-data-wuwa.js', 'wuwa'),
+    loadGenerated('cm-data-gi-beta.js', 'gi', true),
+    loadGenerated('cm-data-hsr-beta.js', 'hsr', true),
+    loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
+    dbJson('GameData/gi/live/raw/itemAll.json'),
+    dbJson('GameData/hsr/live/items.json'),
+    dbJson('GameData/zzz/live/items.json'),
+    dbJson('GameData/ww/live/items.json'),
+    dbJson('GameData/hsr/beta/items.json'),
+    dbJson('GameData/zzz/beta/items.json'),
+  ]);
+  const giBetaCfg = effectiveGroups(gi, giBeta);
+  const hsrBetaCfg = effectiveGroups(hsr, hsrBeta);
+  const zzzBetaCfg = effectiveGroups(zzz, zzzBeta);
+
+  const sourceFamilies = new Map();
+  for (const [id, item] of Object.entries(giRaw)) {
+    if (item.type !== 'Character Talent Material') continue;
+    const family = String(item.name || '').match(/^(?:Teachings of|Guide to|Philosophies of)\s+(.+)$/i)?.[1];
+    if (family) sourceFamilies.set(family, Number(item.week));
+  }
+  const generatedFamilies = new Map(gi.talentDomains.flatMap((domain) => domain.trios.map((trio) => [trio.name, trio.trioIndex])));
+  assert.deepEqual([...generatedFamilies].sort(), [...sourceFamilies].sort(), 'every sourced talent family and weekday is generated');
+  const snezhnaya = gi.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name));
+  assert.equal(snezhnaya?.name, 'Snezhnaya - Relics of the Fallen Grace');
+  assert.deepEqual(plain(snezhnaya?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
+  const snezhnayaBeta = giBetaCfg.talentDomains.find((domain) => /Snezhnaya/i.test(domain.name));
+  assert.equal(snezhnayaBeta?.name, 'Snezhnaya - Relics of the Fallen Grace');
+  assert.deepEqual(plain(snezhnayaBeta?.trios.map((trio) => trio.name)), ['Charity', 'Fortitude', 'Glory']);
+
+  const hsrCatalog = (item) => item.subType === 'WeeklyMonsterDrop' && /^1105\d{2}$/.test(String(item.id));
+  const zzzCatalog = (item) => /^1100\d{2}$/.test(String(item.id));
+  const wuwaCatalog = (item) => Array.isArray(item.tag) && item.tag.includes('Skill Upgrade Material');
+  assert.deepEqual(weeklyIds(hsr), itemIds(hsrItems, hsrCatalog));
+  assert.deepEqual(weeklyIds(zzz), itemIds(zzzItems, zzzCatalog));
+  assert.deepEqual(weeklyIds(wuwa), itemIds(wuwaItems, wuwaCatalog));
+  assert.deepEqual(weeklyIds(hsrBetaCfg), itemIds(hsrBetaItems, hsrCatalog));
+  assert.deepEqual(weeklyIds(zzzBetaCfg), itemIds(zzzBetaItems, zzzCatalog));
+  assert.ok(weeklyIds(wuwa).includes('41400104'), 'unused WuWa source drops stay visible');
+  assert.equal(hsrBetaCfg.weeklyBosses.find((boss) => boss.drops.some((drop) => String(drop.id) === '110509'))?.drops[0].name, 'High Hopes of the Falsely Enlightened');
+  assert.equal(zzzBetaCfg.weeklyBosses.find((boss) => boss.drops.some((drop) => String(drop.id) === '110011'))?.bossName, 'Kusarikku');
+
+  for (const [live, pack] of [[gi, giBeta], [hsr, hsrBeta], [zzz, zzzBeta]]) {
+    const groupedIds = new Set(weeklyIds(effectiveGroups(live, pack)));
+    const requiredIds = (pack?.roster || []).flatMap((ch) => (ch.req?.talents || []).filter((mat) => mat.kind === 'weekly').map((mat) => String(mat.id)));
+    assert.ok(requiredIds.every((id) => groupedIds.has(id)), 'beta weekly requirements are represented by beta groups');
+  }
+
+  const materials = await read('src/features/materials/char-materials.jsx');
+  assert.match(materials, /newest \? cmCharRelease\(newest\) : Number\.MAX_SAFE_INTEGER/, 'source-only weekly groups sort before older used groups');
+  const mergeSource = materials.slice(materials.indexOf('function cmMergeBetaRows'), materials.indexOf('function cmDownloadMaterialsCard'));
+  const mergeContext = {};
+  vm.runInNewContext(`${mergeSource}; this.merged = cmMergeBetaCfg({ roster:[], weapons:[], weeklyBosses:[{ bossName:'live' }] }, { roster:[], weeklyBosses:[{ bossName:'beta' }] });`, mergeContext);
+  assert.equal(mergeContext.merged.weeklyBosses[0].bossName, 'beta', 'the browser overlays beta grouping metadata');
+});
+
 test('Genshin weekly bosses keep exact drops, local boss art, chronology, and sourced character equality', async () => {
   const materials = await read('src/features/materials/char-materials.jsx');
   const helperSource = materials.match(/function cmKeepWeeklyDrop\([\s\S]*?\n\}/)?.[0];
@@ -184,6 +312,18 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   assert.equal(helperContext.keepWeeklyDrop({ chars:['A'] }, [], false), false, 'populated drops hide when no character is visible');
   assert.equal(helperContext.keepWeeklyDrop({ chars:['A'] }, [{}], true), true, 'matching populated drops remain visible');
   const gi = await loadGenerated('cm-data-gi.js', 'gi');
+  const rawItems = JSON.parse(await fs.readFile(path.resolve(site, '..', 'Database/GameData/gi/live/raw/itemAll.json'), 'utf8'));
+  const sourceGroups = new Map();
+  for (const [id, item] of Object.entries(rawItems)) {
+    const sources = Array.isArray(item.jump_descs) ? item.jump_descs : [item.jump_descs];
+    const challenge = sources.find((source) => /\bChallenge Reward\b/i.test(String(source || '')));
+    if (!challenge) continue;
+    if (!sourceGroups.has(challenge)) sourceGroups.set(challenge, []);
+    sourceGroups.get(challenge).push(id);
+  }
+  const catalogDropGroups = [...sourceGroups.values()]
+    .map((ids) => ids.sort((a, b) => Number(a) - Number(b)))
+    .sort((a, b) => Number(b[0]) - Number(a[0]));
   const expected = [
     ['Exalted Master of the Heretical Path', ['113087', '113088', '113089']],
     ['The Doctor', ['113081', '113082', '113083']],
@@ -200,17 +340,24 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
     ['Andrius', ['113006', '113007', '113008']],
     ['Stormterror Dvalin', ['113003', '113004', '113005']],
   ];
-  assert.equal(gi.weeklyBosses.length, 14);
-  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.bossName)), expected.map(([name]) => name));
-  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.releaseOrder)), Array.from({ length:14 }, (_, index) => 14 - index));
-  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.drops.map((drop) => String(drop.id)))), expected.map(([, ids]) => ids));
+  const generatedDropGroups = plain(gi.weeklyBosses.map((boss) => boss.drops.map((drop) => String(drop.id))));
+  assert.deepEqual(generatedDropGroups, catalogDropGroups, 'all GameData Challenge Reward groups are generated');
+  assert.deepEqual(plain(gi.weeklyBosses.map((boss) => boss.releaseOrder)), Array.from({ length:catalogDropGroups.length }, (_, index) => catalogDropGroups.length - index));
+  for (const [name, ids] of expected) {
+    assert.equal(gi.weeklyBosses.find((boss) => String(boss.drops[0]?.id) === ids[0])?.bossName, name);
+  }
   const drops = gi.weeklyBosses.flatMap((boss) => boss.drops);
-  assert.equal(drops.length, 42);
-  assert.equal(new Set(drops.map((drop) => String(drop.id))).size, 42);
+  const catalogDropIds = catalogDropGroups.flat();
+  assert.equal(drops.length, catalogDropIds.length);
+  assert.equal(new Set(drops.map((drop) => String(drop.id))).size, catalogDropIds.length);
   assert.match(materials, /\.filter\(\(row\) => cmKeepWeeklyDrop\(row\.drop, row\.chars, hasCharacterFilter\)\)/);
+  const knownFirstIds = new Set(expected.map(([, ids]) => ids[0]));
   for (const boss of gi.weeklyBosses) {
-    assert.match(boss.art, /^\.\.\/\.\.\/Database\/GameData\/gi\/assets\/monsters\//, boss.bossName + ' uses boss art');
-    assert.ok((await fs.stat(localAsset(boss.art))).size > 0, boss.bossName + ' boss art exists');
+    if (knownFirstIds.has(String(boss.drops[0]?.id))) assert.ok(boss.art, `${boss.bossName} keeps its known local boss art`);
+    if (boss.art) {
+      assert.match(boss.art, /^\.\.\/\.\.\/Database\/GameData\/gi\/assets\/monsters\//, boss.bossName + ' uses local boss art');
+      assert.ok((await fs.stat(localAsset(boss.art))).size > 0, boss.bossName + ' boss art exists');
+    }
     assert.equal(boss.drops.length, 3);
     for (const drop of boss.drops) {
       assert.equal(drop.kind, 'weekly');
@@ -223,7 +370,7 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   assert.equal(azhdahaCrown.name, "Dragon Lord's Crown");
   assert.deepEqual(plain(azhdahaCrown.chars.filter((name) => ['Eula', 'Yoimiya'].includes(name)).sort()), ['Eula', 'Yoimiya']);
 
-  const exactDropIds = new Set(expected.flatMap(([, ids]) => ids));
+  const exactDropIds = new Set(catalogDropIds);
   const sourcedCharacters = new Set();
   const travelerIds = new Set();
   for (const character of gi.roster) {
@@ -245,7 +392,7 @@ test('Genshin weekly bosses keep exact drops, local boss art, chronology, and so
   const rosterCharacters = new Set(gi.roster.map((character) => character.n));
   assert.deepEqual([...sourcedCharacters].sort(), [...rosterCharacters].sort());
   assert.deepEqual([...generatedCharacters].sort(), [...sourcedCharacters].sort());
-  assert.deepEqual([...travelerIds].sort(), ['113005', '113006', '113017', '113032', '113046', '113075']);
+  assert.ok(['113005', '113006', '113017', '113032', '113046', '113075'].every((id) => travelerIds.has(id)));
   assert.ok(!drops.some((drop) => String(drop.id) === '113063'), 'Pyro Traveler story reward is not a weekly boss drop');
 });
 
@@ -325,6 +472,7 @@ test('all character profiles use generic sourced checkpoints and the shared leve
     read('tools/generate-site-data.mjs'), read('src/styles/game-page-shared.css'),
   ]);
   const configs = { gi, hsr, zzz, wuwa, ae };
+  const profileRenderer = materials.match(/function CharacterProfile\([\s\S]*?(?=\nfunction cmKitLevelLabels\()/)?.[0] || '';
   const legacyMaxLevels = { gi:90, hsr:80, zzz:60, wuwa:90 };
   const targets = {
     gi:{ name:'Odette', labels:['Lv. 1/20', 'Lv. 20/40', 'Lv. 40/50', 'Lv. 50/60', 'Lv. 60/70', 'Lv. 70/80', 'Lv. 80/90', 'Lv. 90/90'], sections:3, entries:13, controls:3 },
@@ -372,6 +520,12 @@ test('all character profiles use generic sourced checkpoints and the shared leve
   assert.match(materials, /levelRows\.length === labels\.length[\s\S]*\? levelIndex[\s\S]*: cmKitMatchingIndex/, 'description sliders preserve duplicate-label source rows by position');
   assert.match(materials, /entry\.scaling\?\.length \? 'Multiplier table' : 'Level values'/);
   assert.match(materials, /<CharacterProfile key=\{characterName \|\| gameKey\}/, 'profile level resets when the selected character changes');
+  assert.equal((materials.match(/function CharacterProfile\(/g) || []).length, 1, 'one shared profile renderer covers every game');
+  assert.match(profileRenderer, /<div className="cm-profile-layout">/, 'the shared profile uses the dossier layout');
+  assert.ok(profileRenderer.indexOf('className="cm-profile-stat-grid"') < profileRenderer.indexOf('className="cm-profile-details"'), 'stats render before facts');
+  assert.match(profileRenderer, /CM_PROFILE_FACTS\[gameKey\] \|\| CM_PROFILE_FACTS\.ae/, 'future characters use the shared game facts map');
+  assert.match(profileRenderer, /<dl className="cm-profile-details">[\s\S]*<div key=\{row\.key\}><dt>\{row\.label\}<\/dt><dd>\{row\.value\}<\/dd><\/div>/, 'profile facts use definition-list rows');
+  assert.doesNotMatch(profileRenderer, /cm-profile-facts/, 'profile facts do not reuse the Voice Cast pill class');
   assert.doesNotMatch(materials, /assets\/icon\/nyx_logo\.png/, 'missing skill art leaves no fake icon');
   assert.match(materials, /\{icon && <img src=\{icon\}/, 'skill art only renders when a real icon exists');
   assert.doesNotMatch(materials, /cmKitEntryGroups|cm-kit-type-title/, 'section type pills never duplicate card labels');
@@ -387,6 +541,12 @@ test('all character profiles use generic sourced checkpoints and the shared leve
   assert.match(generator, /function endfieldPrydwenKitSections\(page\)/);
   assert.match(generator, /const page = endfieldPageForCharacter\(ch\);[\s\S]*buildEndfieldKit\(ch, page\)[\s\S]*endfieldProfileData\(ch, page\)/, 'future Endfield rows use their matching local page without name routing');
   assert.match(css, /\.cm-kit-list\{[^}]*repeat\(var\(--cm-kit-columns,1\),minmax\(0,1fr\)\)/, 'kit cards use the shared capped column layout');
+  assert.match(css, /\.cm-profile-layout\{[^}]*grid-template-columns:minmax\(0,\s*2fr\) minmax\(240px,\s*1fr\)[^}]*align-items:start/, 'desktop profiles use the shared two-column dossier');
+  assert.match(css, /@media \(max-width:760px\)\{\s*\.cm-profile-layout\{[^}]*grid-template-columns:minmax\(0,\s*1fr\)/, 'narrow profiles stack stats before facts');
+  assert.match(css, /\.cm-profile-level-control label,\s*\.cm-profile-level-control output\{[^}]*font-size:var\(--nyx-type-small\)/, 'profile slider text is at least the small token');
+  assert.match(css, /\.cm-profile-stat-table tbody th\{[^}]*font-size:var\(--nyx-type-body\)/, 'profile stat labels use body-size text');
+  assert.match(css, /\.cm-profile-stat-table tbody td\{[^}]*font-size:var\(--nyx-compat-size-15px\)/, 'profile stat numbers are larger than body text');
+  assert.doesNotMatch(css.match(/\.cm-profile-details\{([^}]*)\}/)?.[1] || '', /(?:background|box-shadow|border-radius)\s*:/, 'profile facts have no filled or raised container');
   assert.doesNotMatch(css, /\.cm-kit-type-title/, 'duplicate type pills have no styling residue');
   assert.match(css, /@media \(max-width:1050px\)[\s\S]*auto-fit/, 'kit cards collapse responsively');
   assert.match(css, /\.cm-kit-term:hover \.cm-kit-term-tip,[\s\S]*\.cm-kit-term:focus-within/, 'term explanations work with pointer and keyboard focus');
@@ -431,6 +591,113 @@ test('released and announced ZZZ portraits are local, status-correct, and Mavuik
   assert.ok((await fs.stat(mavuika)).size > 0);
   assert.match(materials, /ch\.icon, ch\.originalIcon, ch\.circle, ch\.card, ch\.art/);
   assert.match(materials, /onError=\{\(\) => setSourceIndex/);
+});
+
+test('structured GI/HSR/ZZZ/WuWa signature links and ZZZ identities survive future data refreshes', async () => {
+  const [gi, giBeta, hsr, zzz, zzzBeta, wuwa, cmBase] = await Promise.all([
+    loadGenerated('cm-data-gi.js', 'gi'),
+    loadGenerated('cm-data-gi-beta.js', 'gi', true),
+    loadGenerated('cm-data-hsr.js', 'hsr'),
+    loadGenerated('cm-data-zzz.js', 'zzz'),
+    loadGenerated('cm-data-zzz-beta.js', 'zzz', true),
+    loadGenerated('cm-data-wuwa.js', 'wuwa'),
+    read('src/data/generated/cm-data.js'),
+  ]);
+  const betaMeta = JSON.parse(cmBase.match(/const CM_BETA_META = (\{[\s\S]*?\});\s*const CM_LEVELING/)?.[1] || '{}');
+  const giVodyanitsa = giBeta.roster.find((ch) => ch.n === 'Vodyanitsa');
+  const giVesna = giBeta.roster.find((ch) => ch.n === 'Vesna');
+  assert.equal(giVodyanitsa?.signatureWeaponId, '14524');
+  assert.equal(giVodyanitsa?.signatureWeaponName, '漩流颂歌');
+  assert.equal(giVodyanitsa?.signatureWeapon?.educated, true);
+  assert.equal(giVesna?.signatureWeaponId, '11522');
+  assert.equal(giVesna?.signatureWeaponName, '蝶变');
+  assert.equal(giVesna?.signatureWeapon?.educated, true);
+  const giBetaWeapons = new Map((giBeta.weapons || []).map((weapon) => [String(weapon.id), weapon]));
+  assert.equal(giBetaWeapons.get('14524')?.name, '漩流颂歌');
+  assert.equal(giBetaWeapons.get('11522')?.name, '蝶变');
+  assert.equal(giBetaWeapons.get('390002')?.name, '?', 'ID-only beta weapon labels stay hidden');
+  const giMavuika = gi.roster.find((ch) => ch.n === 'Mavuika');
+  assert.equal(giMavuika?.signatureWeaponId, '12514', 'explicit signature mappings still win');
+  assert.equal(giMavuika?.signatureWeaponName, 'A Thousand Blazing Suns');
+  assert.notEqual(giMavuika?.signatureWeapon?.educated, true);
+  assert.equal(betaMeta.zzz?.newCount, zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').length);
+  assert.equal(betaMeta.zzz?.changedCount, zzzBeta.roster.filter((ch) => ch.betaStatus === 'changed').length);
+  const betaNew = new Set(zzzBeta.roster.filter((ch) => ch.betaStatus === 'new').map((ch) => ch.n));
+  assert.equal(betaNew.has('Soldier 0 - Anby'), false, 'released Soldier 0 is not resurfaced as new beta');
+  assert.equal(betaNew.has('Starlight - Billy'), false, 'released Starlight Billy is not resurfaced as new beta');
+  assert.equal(betaNew.has('Sigrid'), false, 'released Sigrid is not resurfaced as new beta');
+  const liveRoxy = zzz.roster.find((ch) => ch.n === 'Roxy');
+  const liveClaret = zzz.roster.find((ch) => ch.n === 'Claret');
+  const betaRoxy = zzzBeta.roster.find((ch) => ch.n === 'Roxy');
+  const betaClaret = zzzBeta.roster.find((ch) => ch.n === 'Claret');
+  assert.equal(betaNew.has('Roxy'), true, 'Roxy is added by the beta delta');
+  assert.equal(betaNew.has('Claret'), true, 'Claret is added by the beta delta');
+  for (const character of [liveRoxy, liveClaret]) {
+    assert.equal(character?.status, 'beta');
+    assert.equal(character?.upcoming, true, `${character?.n} stays upcoming in Live`);
+    assert.equal(character?.req, undefined, `${character?.n} has no beta requirements in Live`);
+  }
+  assert.equal(betaRoxy?.status, 'beta');
+  assert.equal(betaRoxy?.betaStatus, 'new');
+  assert.ok(betaRoxy?.kit?.sections?.length, 'Roxy keeps her complete beta kit');
+  assert.equal(betaClaret?.status, 'beta');
+  assert.equal(betaClaret?.betaStatus, 'new');
+  for (const field of ['icon', 'art', 'card']) {
+    assert.match(liveRoxy?.[field] || '', /Prydwen\/zzz\/assets\/characters\/roxy-[a-f0-9]+\.webp$/, `Roxy ${field} uses exact-name local art`);
+  }
+  assert.equal(liveRoxy?.iconZoom, 1.18, 'Roxy full portrait is cropped for the roster icon');
+  const remielle = zzz.roster.find((ch) => ch.n === 'Remielle');
+  assert.notDeepEqual(await fs.readFile(localAsset(liveRoxy.icon)), await fs.readFile(localAsset(remielle.icon)), 'Roxy no longer reuses Remielle portrait bytes');
+  assert.equal(liveRoxy?.signatureWeaponName, undefined, 'placeholder W-Engine name is not published as a signature');
+
+  assert.equal(liveRoxy?.facts?.fullName, 'Roxy Ifrita Pryce');
+  assert.doesNotMatch(JSON.stringify(liveRoxy), /"fullName":"\.\.\."/);
+  assert.deepEqual([betaClaret?.r, betaClaret?.el, betaClaret?.spec], ['S', 'Electric', 'Armorer']);
+  assert.equal(betaClaret?.facts?.faction, 'Roscaelifer');
+  assert.equal(betaClaret?.req?.ascCost + betaClaret?.req?.talentCost, 3705000);
+  assert.equal(betaClaret?.req?.weapon?.cost, 400000);
+  assert.equal(betaClaret?.req?.currency, 4105000);
+  assert.equal(betaClaret?.signatureWeaponName, 'Crimson Craving');
+  const claretMaterials = new Map([
+    ...(betaClaret?.req?.ascension || []),
+    ...(betaClaret?.req?.talents || []),
+  ].map((item) => [item.name, item.qty]));
+  assert.deepEqual(Object.fromEntries(claretMaterials), {
+    'Beginner Armorer Certification Seal': 4,
+    'High-Grade Armorer Certification Seal': 32,
+    'Blade Bearer Certification Seal': 30,
+    'Basic Shock Chip': 25,
+    'Advanced Shock Chip': 75,
+    'Specialized Shock Chip': 250,
+    'Hamster Cage Pass': 5,
+    'Forged Away Core': 9,
+    'Higher Dimensional Data: Simulated Core': 60,
+  });
+
+  assert.ok(betaClaret?.icon || betaClaret?.card, 'Claret keeps trusted local Prydwen art');
+  assert.ok((await fs.stat(localAsset(betaClaret.icon || betaClaret.card))).size > 0, 'Claret art exists locally');
+  assert.equal((zzzBeta.roster.find((ch) => ch.n === 'Sigrid') || zzz.roster.find((ch) => ch.n === 'Sigrid'))?.signatureWeaponName, "Knight's Extolment");
+  assert.equal((zzzBeta.roster.find((ch) => ch.n === 'Anby') || zzz.roster.find((ch) => ch.n === 'Anby'))?.signatureWeaponName, 'Demara Battery Mark II');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Anby: Soldier 0')?.status, 'live');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Anby: Soldier 0')?.signatureWeaponName, 'Severed Innocence');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Billy - Starlight')?.status, 'live');
+  assert.equal(zzz.roster.find((ch) => ch.n === 'Sigrid')?.status, 'live');
+
+  const wuwaCharacter = (name) => wuwa.roster.find((ch) => ch.n === name);
+  assert.equal(wuwaCharacter('Qingxiao')?.signatureWeaponName, 'Glint of Clouds');
+  assert.equal(wuwaCharacter('Jingran')?.signatureWeaponName, 'Thousandfold Deliverance');
+  assert.equal(wuwaCharacter('Xiangli Yao')?.signatureWeaponName, "Verity's Handle");
+  assert.equal(wuwaCharacter('Qingxiao')?.signatureWeapon?.educated, true, 'WuWa recommendations remain explicitly educated');
+  assert.equal(wuwaCharacter('Danjin')?.signatureWeapon?.educated, true, 'Prydwen best-weapon fallbacks are not presented as certain signatures');
+
+  const hsrCharacter = (name) => hsr.roster.find((ch) => ch.n === name);
+  assert.equal(hsrCharacter('Aventurine Waveflair')?.signatureWeaponName, 'Summer Rides the Surf');
+  assert.equal(hsrCharacter('Aventurine Waveflair')?.signatureWeapon?.educated, true, 'HSR beta recommendations flow into Live as educated matches');
+  assert.equal(hsrCharacter('Asta')?.signatureWeapon?.educated, true, 'HSR recommendations are not presented as certain signatures');
+  assert.equal(hsrCharacter('Evernight')?.signatureWeaponName, "To Evernight's Stars");
+  assert.notEqual(hsrCharacter('Evernight')?.signatureWeapon?.educated, true, 'raw HSR paths resolve to authoritative signature mappings');
+  assert.equal(hsrCharacter('Fugue')?.signatureWeaponName, 'Long Road Leads Home');
+  assert.notEqual(hsrCharacter('Fugue')?.signatureWeapon?.educated, true, 'raw HSR paths resolve to authoritative signature mappings');
 });
 
 test('materials share models always use every game max, standard art, and a literal zero weapon cost', async () => {
@@ -490,6 +757,17 @@ test('materials share cards use Nyx purple and shrink names without ellipses', a
   assert.ok(fitted.lines.length <= 2);
   assert.equal(fitted.lines.join(' '), name);
   assert.equal(fitted.lines.some((line) => line.includes('…')), false);
+});
+
+test('missing material art uses a question mark in the UI and downloaded cards', async () => {
+  const [materials, shareCard] = await Promise.all([
+    read('src/features/materials/char-materials.jsx'),
+    read('src/features/materials/char-materials-share-card.js'),
+  ]);
+  assert.match(materials, /title="Missing item">\?<\/span>/);
+  assert.doesNotMatch(materials, /\{glyph \|\| '\?'\}/);
+  assert.match(shareCard, /ctx\.fillText\('\?', x \+ 75, y \+ 76\)/);
+  assert.doesNotMatch(shareCard, /function nyxMaterialsCardGlyph/);
 });
 
 test('materials share models include max-level EXP packs and leveling currency for every game', async () => {

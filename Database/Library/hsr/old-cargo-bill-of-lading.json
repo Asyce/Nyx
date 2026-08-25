@@ -5,7 +5,7 @@
   "name": "Old Cargo Bill of Lading",
   "sortId": 110476,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Old_Cargo_Bill_of_Lading",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -256,13 +256,9 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-8ab60ab99358ced5"
+            "id": "p-f7dc181fc1d45ebb"
           }
         ]
       }

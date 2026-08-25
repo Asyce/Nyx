@@ -515,35 +515,27 @@ function BannerTimeline({ game, gameName }){
 // ============================================================
 // Game Overview "Current Events" strip (2026-08-08).
 //
-// The small sibling of Current Banners: what is running in-game right now,
-// then what starts next. Reads the same published /data/events/<game>.json the
-// timeline uses — no second source, no second date parser (dates come from
+// The small sibling of Current Banners: every live or upcoming event, ordered
+// by end date. Reads the same published /data/events/<game>.json the timeline
+// uses — no second source, no second date parser (dates come from
 // nyxTlCurrentEvents, which resolves the player's server region).
 //
 // Fails silent by design: a missing or broken feed renders nothing rather than
 // putting a warning banner on the overview.
-const NYX_EVENT_TYPE_LABEL = {
-  event:'Event', challenge:'Challenge', login:'Login event',
-  web_event:'Web event', shop:'Shop', permanent:'Permanent',
-};
-
 function nyxEventCardStatus(block, now){
-  if (block.status === 'upcoming') {
-    return { cls:'upcoming', label:'Upcoming', headline:'Starts in ' + nyxTlCountdownLabel(block.startMs - now), pct:null };
+  if (block.startMs > now) {
+    return { cls:'upcoming', headline:'Starts in ' + nyxTlCountdownLabel(block.startMs - now) };
   }
-  var span = Math.max(1, block.endMs - block.startMs);
-  return {
-    cls:'live',
-    label:block.status === 'ongoing' ? 'Ongoing' : 'Live now',
-    headline:block.openEnd ? 'Runs until the next update' : nyxTlCountdownLabel(block.endMs - now) + ' left',
-    pct:block.openEnd ? null : Math.max(0, Math.min(100, Math.round((now - block.startMs) / span * 100))),
-  };
+  if (block.openEnd) return { cls:'live', headline:'End date not announced' };
+  return block.endMs < now
+    ? { cls:'ended', headline:'Ended' }
+    : { cls:'live', headline:'Ends in ' + nyxTlCountdownLabel(block.endMs - now) };
 }
 
-// Pop-up holding an event's full description. Replaces the old whole-card link
+// Pop-up holding an event's full details. Replaces the old whole-card link
 // to the official notice, which pointed at a page we are replacing with an API
 // (user 2026-08-09).
-function EventDetailDialog({ block, timePreference, game, onClose }){
+function EventDetailDialog({ block, timePreference, game, now, onClose }){
   var cardRef = React.useRef(null);
   var closeRef = React.useRef(null);
   React.useEffect(function(){
@@ -561,21 +553,35 @@ function EventDetailDialog({ block, timePreference, game, onClose }){
     requestAnimationFrame(function(){ closeRef.current && closeRef.current.focus(); });
     return function(){ document.removeEventListener('keydown', onKeyDown); };
   }, [onClose]);
-  var text = nyxTlCleanEventText(block.description);
+  var startCountdown = block.startMs > now
+    ? 'Starts in ' + nyxTlCountdownLabel(block.startMs - now)
+    : 'Started ' + nyxTlCountdownLabel(now - block.startMs) + ' ago';
+  var endCountdown = block.openEnd
+    ? 'Not announced'
+    : block.endMs > now
+      ? 'Ends in ' + nyxTlCountdownLabel(block.endMs - now)
+      : 'Ended ' + nyxTlCountdownLabel(now - block.endMs) + ' ago';
+  var details = nyxTlEventDetails(block.description);
   return ReactDOM.createPortal(
     <div className="gp-oev-modal" role="presentation" onMouseDown={function(e){ if (e.target === e.currentTarget) onClose(); }}>
-      <div className="gp-oev-modal-card" ref={cardRef} role="dialog" aria-modal="true" aria-label={block.fullTitle || block.title}>
+      <div className="gp-oev-modal-card" ref={cardRef} role="dialog" aria-modal="true" aria-label={block.title}
+           style={{ '--gp-oev-modal-art':block.image ? 'url("' + block.image + '")' : 'none' }}>
         <div className="gp-oev-modal-head">
-          <h2>{block.fullTitle || block.title}</h2>
-          <button type="button" ref={closeRef} className="gp-oev-modal-x" title="Close" onClick={onClose}>{'✕'}</button>
+          <h2>{block.title}</h2>
+          <button type="button" ref={closeRef} className="gp-oev-modal-x" aria-label="Close event details" title="Close" onClick={onClose}>{'✕'}</button>
         </div>
-        <p className="gp-oev-modal-when">
-          {nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}
-          {!block.openEnd && ' – ' + nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}
-        </p>
-        {text
-          ? <div className="gp-oev-modal-body">{text.split(/\n{2,}/).map(function(part, i){ return <p key={i}>{part}</p>; })}</div>
-          : <div className="gp-oev-modal-body"><p>No description was published for this event.</p></div>}
+        <dl className="gp-oev-modal-countdowns">
+          <div><dt>Start</dt><dd><strong>{startCountdown}</strong><span>{nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}</span></dd></div>
+          <div><dt>End</dt><dd><strong>{endCountdown}</strong><span>{block.openEnd ? 'Exact date unavailable' : nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}</span></dd></div>
+        </dl>
+        <section className="gp-oev-modal-body">
+          <h3>Event Details</h3>
+          {details.length ? details.map(function(part, index){
+            if (part.type === 'heading') return <h4 key={'detail-' + index}>{part.text}</h4>;
+            if (part.type === 'list') return <ul key={'detail-' + index}>{part.items.map(function(item, bulletIndex){ return <li key={bulletIndex}>{item}</li>; })}</ul>;
+            return <p key={'detail-' + index} className={part.type === 'note' ? 'gp-oev-modal-note' : undefined}>{part.text}</p>;
+          }) : <p>No description was published for this event.</p>}
+        </section>
       </div>
     </div>,
     document.body
@@ -612,11 +618,8 @@ function CurrentEventsStrip({ game, gameName, limit }){
   React.useEffect(function(){ var id = setInterval(function(){ setNow(Date.now()); }, 1000); return function(){ clearInterval(id); }; }, []);
 
   var cards = React.useMemo(function(){
-    return nyxTlCurrentEvents(payload.events, now, region, Number(limit) || 6);
-    // `now` intentionally excluded: re-selecting every tick would rebuild every
-    // card each second. Status flips settle on the next feed/region change, and
-    // the countdown below reads the live `now` directly.
-  }, [payload.events, region, limit]);
+    return nyxTlCurrentEvents(payload.events, now, region, limit);
+  }, [payload.events, now, region, limit]);
 
   if (payload.loading || payload.error || !cards.length) return null;
   return (
@@ -625,10 +628,9 @@ function CurrentEventsStrip({ game, gameName, limit }){
           request; only the quiet updated stamp remains. */}
       {/* The "Updated <date>" stamp was removed 2026-08-09 at the user's
           request — it is not information a player acts on. */}
-      <div className="gp-event-grid">
+      <div className={'gp-event-grid' + (cards.length > 9 ? ' is-scrollable' : '')}>
         {cards.map(function(block){
           var meta = nyxEventCardStatus(block, now);
-          var excerpt = nyxTlCleanEventText(block.description);
           return (
             <div className="gp-event-cell" key={block.id}>
               <article className={'gp-oban gp-oev st-' + meta.cls}>
@@ -641,13 +643,12 @@ function CurrentEventsStrip({ game, gameName, limit }){
                   {/* The status pill and the type label were both removed
                       2026-08-08: the countdown says live vs upcoming, and the
                       type added nothing the title did not. */}
-                  <h3 className="gp-oev-title" title={block.fullTitle || block.title}>{block.title}</h3>
-                  {excerpt && <p className="gp-oev-text">{excerpt}</p>}
+                  <h3 className="gp-oev-title">{block.title}</h3>
                   <div className="gp-oban-foot">
                     <b>{meta.headline}</b>
                     <span>
                       {nyxTlViewDate(block.startMs, block.dateOnly, timePreference, game)}
-                      {!block.openEnd && ' – ' + nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game)}
+                      {' – ' + (block.openEnd ? 'End date not announced' : nyxTlViewDate(block.endMs, block.dateOnly, timePreference, game))}
                     </span>
                   </div>
                 </div>
@@ -656,14 +657,14 @@ function CurrentEventsStrip({ game, gameName, limit }){
                     useless). Clicking it opens the full description instead —
                     user 2026-08-09. */}
                 <button type="button" className="gp-oev-open"
-                        aria-label={'Read the full description for ' + block.title}
+                        aria-label={'View details for ' + block.title}
                         onClick={function(event){ openerRef.current = event.currentTarget; setDetail(block); }}></button>
               </article>
             </div>
           );
         })}
       </div>
-      {detail && <EventDetailDialog block={detail} timePreference={timePreference} game={game} onClose={closeDetail} />}
+      {detail && <EventDetailDialog block={detail} timePreference={timePreference} game={game} now={now} onClose={closeDetail} />}
     </section>
   );
 }

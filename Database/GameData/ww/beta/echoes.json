@@ -112,7 +112,7 @@
   },
   {
     "id": "6000039",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tempest Mephis",
     "code": "W75-",
     "rarity": [
@@ -236,7 +236,7 @@
     },
     "monsterInfo": 330000010,
     "liveComparison": {
-      "liveHash": "addfcb33c16aacd0609526a8ae73b05d8ef477d639ecf35422ed92933967d23b",
+      "liveHash": "7a0bc79c84b5e646ed16dcf377dced2d2768cdda0a7e7034a6b55bf5a3fc97fb",
       "currentHash": "7a0bc79c84b5e646ed16dcf377dced2d2768cdda0a7e7034a6b55bf5a3fc97fb"
     }
   },
@@ -620,7 +620,7 @@
   },
   {
     "id": "6000043",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Feilian Beringal",
     "code": "H71-",
     "rarity": [
@@ -743,7 +743,7 @@
     },
     "monsterInfo": 330000050,
     "liveComparison": {
-      "liveHash": "def4bc4891ea9b81633ce473558d072f16d7016f23df29d04043611c768dac3f",
+      "liveHash": "4dc7721931280a7544a5344f437c9cdad47ccaf0fbbac1bd1db7a466ff115473",
       "currentHash": "4dc7721931280a7544a5344f437c9cdad47ccaf0fbbac1bd1db7a466ff115473"
     }
   },
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "6000047",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Chirpuff",
     "code": "H02-",
     "rarity": [
@@ -1278,7 +1278,7 @@
     },
     "monsterInfo": 310000130,
     "liveComparison": {
-      "liveHash": "6b00ff8ebb2a644da4fab1775dea46395c1062373906b063c5c5f92851b98829",
+      "liveHash": "3695fc300db9601fce813e7cd5ee7d01d38f135e854483d509a22909dae24aa3",
       "currentHash": "3695fc300db9601fce813e7cd5ee7d01d38f135e854483d509a22909dae24aa3"
     }
   },
@@ -1431,7 +1431,7 @@
   },
   {
     "id": "6000049",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Autopuppet Scout",
     "code": "X53-",
     "rarity": [
@@ -1536,13 +1536,13 @@
     },
     "monsterInfo": 320000180,
     "liveComparison": {
-      "liveHash": "33c8538f4d83a4b63706b25ee9a7adbf3aabb540caf50c5dbf6b50147be148d0",
+      "liveHash": "93032fa96d6b616f40c4d8d6fc18e795a2a8359b7ebdd0e60a9ff7508008f0c4",
       "currentHash": "93032fa96d6b616f40c4d8d6fc18e795a2a8359b7ebdd0e60a9ff7508008f0c4"
     }
   },
   {
     "id": "6000050",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Traffic Illuminator",
     "code": "X54-",
     "rarity": [
@@ -1648,7 +1648,7 @@
     },
     "monsterInfo": 310000330,
     "liveComparison": {
-      "liveHash": "461ee06494612f665c953ca97129a55a6a8d2622dc08764c2137a2d0eb267e62",
+      "liveHash": "8b23951c8a056ca5f729bf8da5830dfcb296804760964d42b288b15d0f73f898",
       "currentHash": "8b23951c8a056ca5f729bf8da5830dfcb296804760964d42b288b15d0f73f898"
     }
   },
@@ -10989,7 +10989,7 @@
   },
   {
     "id": "6000163",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nightmare: Electro Predator",
     "code": "W25-",
     "rarity": [
@@ -11092,7 +11092,7 @@
     },
     "monsterInfo": 310000650,
     "liveComparison": {
-      "liveHash": "fc9e0a305d29eb48aa6b6a2539fc8f688d021270d5441a4b9d737a871ce91d94",
+      "liveHash": "5654b782e94b7a14f12018402e6c4f956abf1f8c03ca747cf07948c64bbfd223",
       "currentHash": "5654b782e94b7a14f12018402e6c4f956abf1f8c03ca747cf07948c64bbfd223"
     }
   },
@@ -11185,7 +11185,7 @@
   },
   {
     "id": "6000165",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nightmare: Gulpuff",
     "code": "H01-",
     "rarity": [
@@ -11271,13 +11271,13 @@
     },
     "monsterInfo": 310000670,
     "liveComparison": {
-      "liveHash": "8f72b0fed0f88986117acd8bf148140431cf20b34f4f2956e2805d345fb8de54",
+      "liveHash": "03f965168814400acb39b2b355c6e02c9215bf9d7d1b5ae36f002fdac9af74bd",
       "currentHash": "03f965168814400acb39b2b355c6e02c9215bf9d7d1b5ae36f002fdac9af74bd"
     }
   },
   {
     "id": "6000166",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nightmare: Chirpuff",
     "code": "H02-",
     "rarity": [
@@ -11363,7 +11363,7 @@
     },
     "monsterInfo": 310000680,
     "liveComparison": {
-      "liveHash": "d4e3568b90a7899afda46d3ef20150fbbb824c05902fd9cebce0878c1e6cba7a",
+      "liveHash": "975dc3bbd7a844824588e3ba14f2a9ddd401cd06e3b263ccb89608bdb901805e",
       "currentHash": "975dc3bbd7a844824588e3ba14f2a9ddd401cd06e3b263ccb89608bdb901805e"
     }
   },
@@ -11508,7 +11508,7 @@
   },
   {
     "id": "6000168",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nightmare: Viridblaze Saurian",
     "code": "H46-",
     "rarity": [
@@ -11590,7 +11590,7 @@
     },
     "monsterInfo": 320000470,
     "liveComparison": {
-      "liveHash": "42a6b4b6d5ccbe17efb4d2ed21bd827bbc2b62769c97756ece069381ea9ee8d9",
+      "liveHash": "e3e45035ae3aa93978145b70814362af18703c24b304e301503b927cf9408d60",
       "currentHash": "e3e45035ae3aa93978145b70814362af18703c24b304e301503b927cf9408d60"
     }
   },
@@ -11757,7 +11757,7 @@
   },
   {
     "id": "6000171",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Nightmare: Tick Tack",
     "code": "G04-",
     "rarity": [
@@ -11868,7 +11868,7 @@
     },
     "monsterInfo": 310000750,
     "liveComparison": {
-      "liveHash": "26bee3f8faeb9b69f200bd154a5052ebbdda0b4ddf7ed758f5b21583ce9d9d04",
+      "liveHash": "8ef977f5de5dd2c1cc5f947960296c6cad4b4b8ebd29e99a3d52b410fe472606",
       "currentHash": "8ef977f5de5dd2c1cc5f947960296c6cad4b4b8ebd29e99a3d52b410fe472606"
     }
   },
@@ -17809,7 +17809,7 @@
   },
   {
     "id": "6000218",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Thousand-Puppet Pavilion",
     "code": "N91-",
     "rarity": [
@@ -17941,224 +17941,15 @@
     },
     "monsterInfo": 340000310,
     "liveComparison": {
-      "liveHash": "2d9748f19470ea06e6b4152ce3540a3a658b928fa80b9188f50c8d0e35b26ebb",
+      "liveHash": "d7b64e27be19f9421f7d9292c0006494980626234fc5b020a0602819a4b4ad5d",
       "currentHash": "d7b64e27be19f9421f7d9292c0006494980626234fc5b020a0602819a4b4ad5d"
     }
   },
   {
-    "id": "6000219",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T1-",
-    "rarity": [
-      2,
-      3,
-      4,
-      5
-    ],
-    "group": {
-      "33": {
-        "id": 33,
-        "name": "Song of Feathered Trace",
-        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
-        "color": "FFFFFF00",
-        "set": {
-          "2": {
-            "desc": "Energy Regen + {0}",
-            "param": [
-              "10%"
-            ]
-          },
-          "5": {
-            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
-            "param": [
-              "20%",
-              "35%",
-              "15",
-              "1%",
-              "0.1%",
-              "25%",
-              "10"
-            ]
-          }
-        }
-      }
-    },
-    "assets": {
-      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
-    },
-    "skill": {
-      "desc": "Summon a Jade Nether Serpent that bombards the target with fireballs, dealing {0} Fusion DMG 5 times, then {1} Fusion DMG once.\nCD: {2}s",
-      "simple_desc": "Summon a Jade Nether Serpent to deal Fusion DMG to the target.",
-      "param": [
-        [
-          "7.20%",
-          "36.00%",
-          "8"
-        ],
-        [
-          "8.64%",
-          "43.20%",
-          "8"
-        ],
-        [
-          "10.08%",
-          "50.40%",
-          "8"
-        ],
-        [
-          "11.52%",
-          "57.60%",
-          "8"
-        ],
-        [
-          "12.96%",
-          "64.80%",
-          "8"
-        ]
-      ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
-      "damage": {
-        "20015001": {
-          "element": 2,
-          "related_property": "ATK",
-          "type": 5,
-          "rate_lv": [
-            720,
-            864,
-            1008,
-            1152,
-            1296
-          ],
-          "energy": 18,
-          "element_power": 0,
-          "hardness_lv": 10000,
-          "tough_lv": 720,
-          "weakness_lvl": 0
-        },
-        "20015002": {
-          "element": 2,
-          "related_property": "ATK",
-          "type": 5,
-          "rate_lv": [
-            3600,
-            4320,
-            5040,
-            5760,
-            6480
-          ],
-          "energy": 90,
-          "element_power": 0,
-          "hardness_lv": 10000,
-          "tough_lv": 3600,
-          "weakness_lvl": 0
-        }
-      }
-    },
-    "monsterInfo": 310001030,
-    "liveComparison": {
-      "currentHash": "ebae459b5e0d579fcee7b578e1f2cc2f36af9c40177b6d453e6b75dd4cd36696"
-    }
-  },
-  {
-    "id": "6000220",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T1-",
-    "rarity": [
-      2,
-      3,
-      4,
-      5
-    ],
-    "intensity": 1,
-    "group": {
-      "33": {
-        "id": 33,
-        "name": "Song of Feathered Trace",
-        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
-        "color": "FFFFFF00",
-        "set": {
-          "2": {
-            "desc": "Energy Regen + {0}",
-            "param": [
-              "10%"
-            ]
-          },
-          "5": {
-            "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
-            "param": [
-              "20%",
-              "35%",
-              "15",
-              "1%",
-              "0.1%",
-              "25%",
-              "10"
-            ]
-          }
-        }
-      }
-    },
-    "assets": {
-      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
-    },
-    "skill": {
-      "desc": "Summon a Skywatch Lancer to attack the target, dealing {0} Havoc DMG 6 times.\nCD: {1}s",
-      "simple_desc": "Summon a Skywatch Lancer to deal Havoc DMG to the target.",
-      "param": [
-        [
-          "17.83%",
-          "15"
-        ],
-        [
-          "21.39%",
-          "15"
-        ],
-        [
-          "24.96%",
-          "15"
-        ],
-        [
-          "28.52%",
-          "15"
-        ],
-        [
-          "32.09%",
-          "15"
-        ]
-      ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
-      "damage": {
-        "20015101": {
-          "element": 6,
-          "related_property": "ATK",
-          "type": 5,
-          "rate_lv": [
-            1783,
-            2139,
-            2496,
-            2852,
-            3209
-          ],
-          "energy": 44,
-          "element_power": 0,
-          "hardness_lv": 10000,
-          "tough_lv": 1783,
-          "weakness_lvl": 0
-        }
-      }
-    },
-    "monsterInfo": 320000690,
-    "liveComparison": {
-      "currentHash": "bfbd09be6ca5971771cc93f064f09eecb4a459aa242664a5bf45183bada354ff"
-    }
-  },
-  {
     "id": "6000221",
-    "contentStatus": "beta",
-    "name": "Stay tuned",
-    "code": "T1-",
+    "contentStatus": "live",
+    "name": "Calamity Effigy",
+    "code": "X81-",
     "rarity": [
       2,
       3,
@@ -18215,7 +18006,8 @@
       }
     },
     "assets": {
-      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.webp"
+      "icon": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp",
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_34032_UI.webp"
     },
     "skill": {
       "desc": "Transform into Calamity Effigy to deal {0} Aero DMG.\nThe Resonator with this Echo equipped in the main slot gains {1} Aero DMG Bonus, and additionally gains {2} Aero DMG Bonus for {3}s when inflicting Tune Strain - Shifting on the target.\nCD: {4}s",
@@ -18257,7 +18049,7 @@
           "25"
         ]
       ],
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34032_UI.T_MstSkil_34032_UI",
       "damage": {
         "28004401": {
           "element": 4,
@@ -18280,12 +18072,13 @@
     },
     "monsterInfo": 340000320,
     "liveComparison": {
-      "currentHash": "9a637e95da1ab150e8abdd1eac92503014bb2898b53f6f1542ba84a3654ce54d"
+      "liveHash": "422afcc7012312ebf5eaf4ef2df5711b71a960d34e0ae0305082502d77e7e9e1",
+      "currentHash": "422afcc7012312ebf5eaf4ef2df5711b71a960d34e0ae0305082502d77e7e9e1"
     }
   },
   {
     "id": "390070051",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Vanguard Junrock",
     "code": "S08-",
     "rarity": [
@@ -18412,7 +18205,7 @@
     },
     "monsterInfo": 310000010,
     "liveComparison": {
-      "liveHash": "5c1263da37184557643b405e698bb1ebbaf6feae3bb6b030b1a720b455ef3aa1",
+      "liveHash": "4fbf06fcef6644d5ebc86c4fc7f99a352614c9ec0f1f5de1961e7fb6361b64bd",
       "currentHash": "4fbf06fcef6644d5ebc86c4fc7f99a352614c9ec0f1f5de1961e7fb6361b64bd"
     }
   },
@@ -18549,7 +18342,7 @@
   },
   {
     "id": "390070053",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Electro Predator",
     "code": "W25-",
     "rarity": [
@@ -18678,7 +18471,7 @@
     },
     "monsterInfo": 310000030,
     "liveComparison": {
-      "liveHash": "16d33e8fdd4f0e7cbe23e833e4d7a5f2fd798d906d90f4c9f78a75799143e7ad",
+      "liveHash": "68cd10cc3e39303cf33663fb16e27478a413d460dfc42433ddf6350b486c18bc",
       "currentHash": "68cd10cc3e39303cf33663fb16e27478a413d460dfc42433ddf6350b486c18bc"
     }
   },
@@ -18970,7 +18763,7 @@
   },
   {
     "id": "390070066",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Snip Snap",
     "code": "G02-",
     "rarity": [
@@ -19096,7 +18889,7 @@
     },
     "monsterInfo": 310000080,
     "liveComparison": {
-      "liveHash": "5059dfe1b8f847cb76c393cb1cc538c01fd4fa2d6d0b1a5f54b48ed11545bd39",
+      "liveHash": "978ceebe92a233f644858055506dc93c09fca1da9dfb5b8d0b63e4e47753e6d7",
       "currentHash": "978ceebe92a233f644858055506dc93c09fca1da9dfb5b8d0b63e4e47753e6d7"
     }
   },
@@ -19234,7 +19027,7 @@
   },
   {
     "id": "390070068",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Whiff Whaff",
     "code": "G01-",
     "rarity": [
@@ -19389,13 +19182,13 @@
     },
     "monsterInfo": 310000100,
     "liveComparison": {
-      "liveHash": "2b5c5e3f33ba5cac24a7c3cccabf94d1a8be91947b8a5737e9f3a4a79ed852f5",
+      "liveHash": "7bd9ad78e1fa3ca8d93b5bcb622cd69ae60451a99a47955237e8483026652873",
       "currentHash": "7bd9ad78e1fa3ca8d93b5bcb622cd69ae60451a99a47955237e8483026652873"
     }
   },
   {
     "id": "390070069",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Tick Tack",
     "code": "G04-",
     "rarity": [
@@ -19559,7 +19352,7 @@
     },
     "monsterInfo": 310000110,
     "liveComparison": {
-      "liveHash": "987fff1afe40a4f2854814b216f837e4cabcf3d163bb183adad29719dd9eff84",
+      "liveHash": "63636e3bf7aee43b48f5f066f91d1edd31b550c35b95258714a638551650e9fb",
       "currentHash": "63636e3bf7aee43b48f5f066f91d1edd31b550c35b95258714a638551650e9fb"
     }
   },
@@ -19835,7 +19628,7 @@
   },
   {
     "id": "390070074",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Cruisewing",
     "code": "H12-",
     "rarity": [
@@ -19968,13 +19761,13 @@
     },
     "monsterInfo": 310000180,
     "liveComparison": {
-      "liveHash": "19aa891f7c4a048b983d370471e07d0307b190f638bd60e383c2da62fef3dbc0",
+      "liveHash": "80bfd6ab4eccc450d5d5aca4b94c07ed086235a16713f3f23245938b3248411b",
       "currentHash": "80bfd6ab4eccc450d5d5aca4b94c07ed086235a16713f3f23245938b3248411b"
     }
   },
   {
     "id": "390070075",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Sabyr Boar",
     "code": "H08-",
     "rarity": [
@@ -20098,13 +19891,13 @@
     },
     "monsterInfo": 310000190,
     "liveComparison": {
-      "liveHash": "cbedfe3eb53af38cfd5ff3408564cea957457101069a70ee0c019b48c23aae9e",
+      "liveHash": "ac2ebce12e563f2c4637d4596798aab09dd6bd332bd2e40c2222706fde5a269e",
       "currentHash": "ac2ebce12e563f2c4637d4596798aab09dd6bd332bd2e40c2222706fde5a269e"
     }
   },
   {
     "id": "390070076",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Gulpuff",
     "code": "H01-",
     "rarity": [
@@ -20216,7 +20009,7 @@
     },
     "monsterInfo": 310000120,
     "liveComparison": {
-      "liveHash": "397b718a070d685b1091268a811a08442463c90254e4846bf7b591effe946437",
+      "liveHash": "0e90f6b607bd3af3bf7b41ccddd0d91d21dba398c125bd8709433e622151997f",
       "currentHash": "0e90f6b607bd3af3bf7b41ccddd0d91d21dba398c125bd8709433e622151997f"
     }
   },
@@ -20551,7 +20344,7 @@
   },
   {
     "id": "390070100",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Fusion Dreadmane",
     "code": "H09-",
     "rarity": [
@@ -20654,7 +20447,7 @@
     },
     "monsterInfo": 310000280,
     "liveComparison": {
-      "liveHash": "dd01093d61fa0fce6758a9e905d703e2691e15dd78b2ef235f5b0b008d73756f",
+      "liveHash": "c16aa1619bf16edcc790cbff51f57bd17dcf271c950f0f79922892f95d8d87fe",
       "currentHash": "c16aa1619bf16edcc790cbff51f57bd17dcf271c950f0f79922892f95d8d87fe"
     }
   },
@@ -20980,7 +20773,7 @@
   },
   {
     "id": "390077012",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Fusion Prism",
     "code": "N12-",
     "rarity": [
@@ -21106,7 +20899,7 @@
     },
     "monsterInfo": 310000150,
     "liveComparison": {
-      "liveHash": "daaf99604be48f54988186807fa5189acee70899dddf9621a37c24ba881ad406",
+      "liveHash": "c24ad27390d387b4e09b66de5cac55feb007d7a0de9cf435e9bf1f48aae3067d",
       "currentHash": "c24ad27390d387b4e09b66de5cac55feb007d7a0de9cf435e9bf1f48aae3067d"
     }
   },
@@ -21248,7 +21041,7 @@
   },
   {
     "id": "390077016",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Spectro Prism",
     "code": "N14-",
     "rarity": [
@@ -21380,13 +21173,13 @@
     },
     "monsterInfo": 310000160,
     "liveComparison": {
-      "liveHash": "976b471d7435d5f56ace4e272bd73fafff312c1f1c3bd8e1f65491f052610e71",
+      "liveHash": "0042acc699cf23492f87fffd83046e8fb72dfc653c5b5588e99e26f054116a69",
       "currentHash": "0042acc699cf23492f87fffd83046e8fb72dfc653c5b5588e99e26f054116a69"
     }
   },
   {
     "id": "390077017",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Havoc Prism",
     "code": "N13-",
     "rarity": [
@@ -21515,7 +21308,7 @@
     },
     "monsterInfo": 310000170,
     "liveComparison": {
-      "liveHash": "af97e4c0462bc9440ef44d8dba75d09c32a11e020f245fdf34c9ee31a30df54b",
+      "liveHash": "bc40fb811cbbe48563e59480b397635ba01cc6835a0880d33665de241a3ef546",
       "currentHash": "bc40fb811cbbe48563e59480b397635ba01cc6835a0880d33665de241a3ef546"
     }
   },
@@ -21667,7 +21460,7 @@
   },
   {
     "id": "390077022",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Flautist",
     "code": "W61-",
     "rarity": [
@@ -21782,7 +21575,7 @@
     },
     "monsterInfo": 320000040,
     "liveComparison": {
-      "liveHash": "b95c186d1e26aeecbcf4fec719e6031a24869fa92e587f26bcae7ca5b998b8c0",
+      "liveHash": "089aa546912dfddce87799b42b74ebc571f306c41f76b5a4a32f169712a090b6",
       "currentHash": "089aa546912dfddce87799b42b74ebc571f306c41f76b5a4a32f169712a090b6"
     }
   },
@@ -22077,7 +21870,7 @@
   },
   {
     "id": "390077025",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Chasm Guardian",
     "code": "W62-",
     "rarity": [
@@ -22228,13 +22021,13 @@
     },
     "monsterInfo": 320000070,
     "liveComparison": {
-      "liveHash": "e3fc1f4504d919668404baf3adee651e8d8542e9f88df0d4a71db4f1b1da95c6",
+      "liveHash": "dbbdc31605ef6cc886d4dde241222d00be6a45f4e58f7fe22a132bb151aff923",
       "currentHash": "dbbdc31605ef6cc886d4dde241222d00be6a45f4e58f7fe22a132bb151aff923"
     }
   },
   {
     "id": "390077028",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Viridblaze Saurian",
     "code": "H46-",
     "rarity": [
@@ -22341,7 +22134,7 @@
     },
     "monsterInfo": 320000080,
     "liveComparison": {
-      "liveHash": "415ae06d36746ebf7a802f20cbffb41347b1a0b0f351b98d1a25faa2c007c756",
+      "liveHash": "fab37d78e00a68e1af7d752318945fd592cec5720b8e7465b426a44e031680d0",
       "currentHash": "fab37d78e00a68e1af7d752318945fd592cec5720b8e7465b426a44e031680d0"
     }
   },
@@ -22637,7 +22430,7 @@
   },
   {
     "id": "390077038",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Spearback",
     "code": "H48-",
     "rarity": [
@@ -22769,7 +22562,7 @@
     },
     "monsterInfo": 320000120,
     "liveComparison": {
-      "liveHash": "53dcf958ee2a4d21f3c0e9b9da9566e82062f2e82628fbe477ee1acc74c68a95",
+      "liveHash": "1a68671ed43bc01ddd407a4764738aacb3779a7df3fa4c3f43ac392c0f6469ea",
       "currentHash": "1a68671ed43bc01ddd407a4764738aacb3779a7df3fa4c3f43ac392c0f6469ea"
     }
   },

@@ -342,7 +342,7 @@
         },
         {
           "name": "Basic Attack: Smash 'n' Bash",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to four Strikes forward, dealing <color=#F0D12B>Physical DMG</color>;\nWhen Koleda has the <color=#FFFFFF>[Furnace Fire]</color> effect, she can launch an Enhanced <color=#FFFFFF>[Basic Attack]</color> after the second Strike, consuming the <color=#FFFFFF>[Furnace Fire]</color> effect and dealing massive <color=#FF5521>Fire DMG</color>;\nThe Enhanced <color=#FFFFFF>[Basic Attack]</color> consists of two parts. After launching the first part, press or hold <IconMap:Icon_Normal> to chain into the second part, and the follow-up attack effect of the first Enhanced <color=#FFFFFF>[Basic Attack]</color> is strengthened;\nThe <color=#FFFFFF>[Furnace Fire]</color> effect can stack up to 2 times. Launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> consumes all <color=#FFFFFF>[Furnace Fire]</color> stacks;\nWhen <color=#FFFFFF>[Furnace Fire]</color> is consumed, DMG dealt by the whole squad's Agents is increased by 25% for 40s, repeated triggers refresh the duration, and for each stack of <color=#FFFFFF>[Furnace Fire]</color> consumed, the DMG dealt by the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced <color=#FFFFFF>[Basic Attack]</color>, Koleda will automatically launch the second Enhanced <color=#FFFFFF>[Basic Attack]</color> on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> without switching Agents during the first Enhanced <color=#FFFFFF>[Basic Attack]</color> will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth <color=#FFFFFF>[Basic Attack]</color> Strike and during the Enhanced <color=#FFFFFF>[Basic Attack]</color>;\nThe invulnerability duration of the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is extended.",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to four Strikes forward, dealing <color=#F0D12B>Physical DMG</color>;\nWhen Koleda has the <color=#FFFFFF>[Furnace Fire]</color> effect, she can launch an Enhanced <color=#FFFFFF>[Basic Attack]</color> after the second Strike, consuming the <color=#FFFFFF>[Furnace Fire]</color> effect and dealing massive <color=#FF5521>Fire DMG</color>;\nThe Enhanced <color=#FFFFFF>[Basic Attack]</color> consists of two parts. After launching the first part, press or hold <IconMap:Icon_Normal> to chain into the second part, and the follow-up attack effect of the first Enhanced <color=#FFFFFF>[Basic Attack]</color> is strengthened;\nThe <color=#FFFFFF>[Furnace Fire]</color> effect can stack up to 2 times. Launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> consumes all <color=#FFFFFF>[Furnace Fire]</color> stacks;\nWhen <color=#FFFFFF>[Furnace Fire]</color> is consumed, DMG dealt by the whole squad's Agents is increased by 35% for 40s, repeated triggers refresh the duration, and for each stack of <color=#FFFFFF>[Furnace Fire]</color> consumed, the DMG dealt by the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced <color=#FFFFFF>[Basic Attack]</color>, Koleda will automatically launch the second Enhanced <color=#FFFFFF>[Basic Attack]</color> on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> without switching Agents during the first Enhanced <color=#FFFFFF>[Basic Attack]</color> will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth <color=#FFFFFF>[Basic Attack]</color> Strike and during the Enhanced <color=#FFFFFF>[Basic Attack]</color>;\nThe invulnerability duration of the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is extended.",
           "potential": [
             110100,
             110101,
@@ -2371,14 +2371,44 @@
     }
   },
   "fairy_recommend": {
-    "slot4": 31200,
-    "slot2": 31300,
-    "slot_sub": 31600,
+    "slot4": 33200,
+    "slot2": 31200,
+    "slot_sub": 31000,
     "part_sub_list": [
+      20103,
       12102,
-      20103
+      21103
     ],
-    "alt_build": [],
+    "alt_build": [
+      {
+        "suit_list": [
+          31200,
+          31600
+        ],
+        "part_sub_list": [
+          20103,
+          12102,
+          21103
+        ]
+      },
+      {
+        "suit_list": [
+          33200,
+          31200
+        ],
+        "part_sub_list": [
+          31603,
+          12102
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          12202,
+          30502
+        ]
+      }
+    ],
     "part4": {
       "prop": 20103,
       "name": "CRIT Rate",

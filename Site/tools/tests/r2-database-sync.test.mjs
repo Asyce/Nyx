@@ -10,6 +10,7 @@ import {
   buildDatabaseAssetEntry,
 } from '../database-assets.mjs';
 import {
+  loadRemoteLatestManifest,
   normalizeR2Credentials,
   R2S3Client,
   syncDatabaseAssets,
@@ -220,7 +221,59 @@ test('source mutation after inventory aborts before uploading that object', asyn
   assert(!client.operations.some(([method]) => method === 'PUT'));
 });
 
-test('prior manifests never bypass existing-object metadata checks', async (t) => {
+test('matching verified prior manifest skips per-asset checks and republishes current manifests', async (t) => {
+  const { rootDir, entry, manifest } = await fixture();
+  t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+  const client = new MemoryR2();
+  await syncDatabaseAssets({ manifest, rootDir, client, apply: true });
+  const priorManifest = await loadRemoteLatestManifest(client);
+  const currentManifest = {
+    ...manifest,
+    gitCommit: 'b'.repeat(40),
+    generatedAt: '2026-08-20T00:00:00Z',
+  };
+  client.operations.length = 0;
+  const result = await syncDatabaseAssets({
+    manifest: currentManifest,
+    rootDir,
+    client,
+    apply: true,
+    priorManifest,
+  });
+  assert.equal(result.reusedPriorInventory, true);
+  assert.equal(result.canonicalChecks, 0);
+  assert.equal(result.aliasChecks, 0);
+  assert(!client.operations.some(([method, key]) => method === 'HEAD' && key === entry.objectKey));
+  assert(!client.operations.some(([method, key]) => method === 'HEAD' && key === entry.legacyKey));
+  assert(!client.operations.some(([method, key]) => method === 'PUT'
+    && (key === entry.objectKey || key === entry.legacyKey)));
+  assert.equal(result.verificationGets, 2);
+  assert(client.objects.has(`_manifests/releases/${currentManifest.gitCommit}.json`));
+  assert.equal(JSON.parse(client.objects.get('_manifests/latest.json').bytes).gitCommit, currentManifest.gitCommit);
+  assert.deepEqual(client.operations.at(-3), ['PUT', '_manifests/latest.json']);
+});
+
+test('changed prior inventory falls back to the exhaustive checks', async (t) => {
+  const { rootDir, entry, manifest } = await fixture();
+  t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+  const client = new MemoryR2();
+  await syncDatabaseAssets({ manifest, rootDir, client, apply: true });
+  client.operations.length = 0;
+  const result = await syncDatabaseAssets({
+    manifest,
+    rootDir,
+    client,
+    apply: true,
+    priorManifest: { ...manifest, entries: [{ ...entry, sha256: '0'.repeat(64) }] },
+  });
+  assert.equal(result.reusedPriorInventory, false);
+  assert.equal(result.canonicalChecks, 1);
+  assert.equal(result.aliasChecks, 1);
+  assert(client.operations.some(([method, key]) => method === 'HEAD' && key === entry.objectKey));
+  assert(client.operations.some(([method, key]) => method === 'HEAD' && key === entry.legacyKey));
+});
+
+test('verify-all never reuses a matching prior inventory', async (t) => {
   const { rootDir, entry, manifest } = await fixture();
   t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
   const client = new MemoryR2();
@@ -232,15 +285,29 @@ test('prior manifests never bypass existing-object metadata checks', async (t) =
     client,
     apply: true,
     priorManifest: manifest,
+    verifyAll: true,
   });
+  assert.equal(result.reusedPriorInventory, false);
   assert.equal(result.canonicalChecks, 1);
   assert.equal(result.aliasChecks, 1);
-  assert(client.operations.some(([method, key]) => method === 'HEAD' && key === entry.objectKey));
-  assert(client.operations.some(([method, key]) => method === 'HEAD' && key === entry.legacyKey));
-  assert(!client.operations.some(([method, key]) => method === 'PUT'
-    && (key === entry.objectKey || key === entry.legacyKey)));
-  assert.equal(result.verificationGets, 1);
-  assert.deepEqual(client.operations.at(-3), ['PUT', '_manifests/latest.json']);
+  assert(client.operations.some(([method, key]) => method === 'GET' && key === entry.objectKey));
+  assert(client.operations.some(([method, key]) => method === 'GET' && key === entry.legacyKey));
+});
+
+test('remote latest manifest is reusable only when its bytes and metadata verify', async (t) => {
+  const { rootDir, manifest } = await fixture();
+  t.after(() => fs.rm(rootDir, { recursive: true, force: true }));
+  const client = new MemoryR2();
+  await syncDatabaseAssets({ manifest, rootDir, client, apply: true });
+  assert.equal((await loadRemoteLatestManifest(client)).gitCommit, manifest.gitCommit);
+
+  const latest = client.objects.get('_manifests/latest.json');
+  latest.sha256 = '0'.repeat(64);
+  assert.equal(await loadRemoteLatestManifest(client), null);
+
+  latest.bytes = Buffer.from('{');
+  latest.sha256 = hash(latest.bytes);
+  assert.equal(await loadRemoteLatestManifest(client), null);
 });
 
 test('initial-cutover verification GETs and hashes every canonical object and alias', async (t) => {

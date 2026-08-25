@@ -5,7 +5,7 @@
   "name": "Business Wisdom of Viotis the Wealthy",
   "sortId": 103846,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Business_Wisdom_of_Viotis_the_Wealthy",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -243,16 +243,6 @@
               }
             ],
             "id": "p-5acb622c60f784a9"
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "text": "<!--"
-              }
-            ],
-            "id": "p-fd0498e2522c8f32"
           }
         ]
       }

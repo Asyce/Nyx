@@ -5,7 +5,7 @@
   "name": "Handwritten Planting Manual",
   "sortId": 110487,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Handwritten_Planting_Manual",
-  "scrapedAt": "2026-08-16T07:24:06.474Z",
+  "scrapedAt": "2026-08-19T07:32:12.800Z",
   "volumes": [
     {
       "id": "1",
@@ -610,13 +610,9 @@
               },
               {
                 "type": "br"
-              },
-              {
-                "type": "text",
-                "text": "<!--"
               }
             ],
-            "id": "p-9d83734f8d369042"
+            "id": "p-7040aae24857e4bc"
           }
         ]
       }

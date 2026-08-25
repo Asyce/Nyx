@@ -125,6 +125,22 @@ export function validatePriorManifest(prior, expectedOrigin) {
   return { sources, objects };
 }
 
+function matchesPriorAssetInventory(prior, current) {
+  if (!prior) return false;
+  try {
+    validatePriorManifest(prior, current.assetOrigin);
+  } catch {
+    return false;
+  }
+  const inventory = (manifest) => JSON.stringify({
+    schemaVersion: manifest.schemaVersion,
+    assetOrigin: manifest.assetOrigin,
+    totals: manifest.totals,
+    entries: manifest.entries,
+  });
+  return inventory(prior) === inventory(current);
+}
+
 async function mapLimit(items, concurrency, fn) {
   let next = 0;
   const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
@@ -170,7 +186,6 @@ export async function syncDatabaseAssets({
   if (!rootDir) throw new Error('rootDir is required');
   if (apply && !client) throw new Error('an R2 client is required with apply=true');
   assertR2SyncConcurrency(concurrency);
-  validatePriorManifest(priorManifest, manifest.assetOrigin);
   const uniqueObjects = new Map();
   for (const entry of manifest.entries) {
     const existing = uniqueObjects.get(entry.objectKey);
@@ -179,6 +194,7 @@ export async function syncDatabaseAssets({
   }
   const objectEntries = [...uniqueObjects.values()];
   const plan = {
+    reusedPriorInventory: apply && !verifyAll && matchesPriorAssetInventory(priorManifest, manifest),
     canonicalChecks: 0,
     canonicalUploads: 0,
     aliasChecks: 0,
@@ -187,7 +203,8 @@ export async function syncDatabaseAssets({
     verificationGets: 0,
   };
 
-  await mapLimit(objectEntries, concurrency, async (entry) => {
+  const canonicalEntries = plan.reusedPriorInventory ? [] : objectEntries;
+  await mapLimit(canonicalEntries, concurrency, async (entry) => {
     plan.canonicalChecks += 1;
     if (!apply) {
       plan.canonicalUploads += 1;
@@ -219,7 +236,8 @@ export async function syncDatabaseAssets({
     plan.verificationGets += 1;
   });
 
-  await mapLimit(manifest.entries, concurrency, async (entry) => {
+  const aliasEntries = plan.reusedPriorInventory ? [] : manifest.entries;
+  await mapLimit(aliasEntries, concurrency, async (entry) => {
     plan.aliasChecks += 1;
     if (!apply) {
       plan.aliasUploads += 1;
@@ -314,9 +332,13 @@ export async function loadRemoteLatestManifest(client) {
   const head = await client.head('_manifests/latest.json');
   if (!head) return null;
   const bytes = await client.get('_manifests/latest.json');
+  if (head.bytes !== bytes.length
+    || head.sha256 !== sha256(bytes)
+    || head.mediaType !== R2_METADATA.manifestMediaType
+    || head.cacheControl !== R2_METADATA.latestCacheControl) return null;
   try {
     return JSON.parse(bytes.toString('utf8'));
   } catch {
-    throw new Error('remote latest Database asset manifest is not valid JSON');
+    return null;
   }
 }

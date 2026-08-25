@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "generate:data": "node ./tools/generate-site-data.mjs",
+    "generate:card-data": "node ./tools/generate-card-data.mjs",
     "backfill:database-art": "node ./tools/backfill-database-art.mjs",
     "generate:launcher-codes": "node ./tools/generate-launcher-codes.mjs",
     "reconcile:launcher-codes": "node ./tools/reconcile-launcher-codes.mjs",
@@ -29,8 +30,8 @@
     "scrape:hsr-holidays": "node ./tools/scrape-hsr-holiday-art.mjs",
     "scrape:hsr-signatures": "node ./tools/scrape-hsr-signature-lightcones.mjs",
     "scrape:side-data": "node ./tools/run-side-data-sync.mjs",
-    "build": "npm run verify:launcher:source && npm run generate:data && npm run generate:weapons && node ./tools/build-site.mjs && npm run verify:launcher:dist",
-    "build:generated": "npm run generate:data && npm run refresh:launcher && npm run generate:weapons && node ./tools/build-site.mjs",
+    "build": "npm run verify:launcher:source && npm run generate:data && npm run generate:card-data && npm run generate:weapons && node ./tools/build-site.mjs && npm run verify:launcher:dist",
+    "build:generated": "npm run generate:data && npm run generate:card-data && npm run refresh:launcher && npm run generate:weapons && node ./tools/build-site.mjs",
     "build:deploy": "npm run build && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs && npm run verify:launcher:deploy",
     "build:deploy:generated": "npm run build:generated && node ./tools/build-deploy.mjs && node ./tools/inject-seo.mjs",
     "inventory:database-assets": "node ./tools/generate-database-asset-manifest.mjs",

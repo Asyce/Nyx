@@ -37,8 +37,61 @@ than a lookup table and cannot point a Star Rail card at Genshin's Mora coin.
 It runs standalone from `tools/material-card/` — the font subsets it needs are
 in `fonts/`, and wiki responses cache under `wiki-cache/`.
 
-The live renderer to replace is `nyxRenderMaterialsCard` in
-`Site/src/features/materials/char-materials-share-card.js`.
+## Where it runs
+
+The card is **live** on the character page (2026-08-25). The offline pipeline
+above is still the design surface, but the site no longer uses the old canvas
+renderer for it:
+
+```
+generate-site-data.mjs  ->  cm-data-<game>.js      the game data, as the site sees it
+generate-card-data.mjs  ->  cm-card-<game>.js      one card model per character
+                            cm-card-<game>-weapons.js
+                            cm-card-style.js       card.css + the two font subsets
+char-materials-card.js  ->  the PNG the button downloads
+```
+
+`Site/tools/generate-card-data.mjs` runs `extract.mjs` once per game as part of
+`npm run build`, straight after `generate:data` — it reads the generated packs,
+so the order matters. The output is git-ignored: it is derived from data the
+daily refresh rewrites, and every build regenerates it.
+
+`char-materials-card.js` is a port of `render.py`. It builds the same markup,
+wraps it in an SVG `<foreignObject>` and draws that into a canvas, so the
+browser does the layout and the gradients, masks and stretched captions come out
+as they do offline. Three consequences shape the code:
+
+- **The foreignObject is its own document.** It cannot reach the page's
+  stylesheets, fonts or images, so every asset is inlined as a data URI first
+  and `card.css` ships inside `cm-card-style.js` with both font subsets baked in.
+- **It is parsed as XML.** A bare `<` or `&` anywhere in the style sheet — a
+  comment mentioning a tag is enough — makes the document malformed and the
+  image fails to load with no error worth reading. The sheet goes in a CDATA
+  section.
+- **Captions are sized by measuring text**, where `render.py` reads advance
+  widths out of the font. The measuring face has to be loaded before the markup
+  is built, or every caption is sized against a fallback.
+
+What `render.py` resolved by looking at the filesystem — meta icons, the weapon's
+gacha art, gather sites — is baked into the card data at build time instead.
+
+The old canvas renderer, `nyxRenderMaterialsCard` in
+`Site/src/features/materials/char-materials-share-card.js`, stays as the
+fallback: the button tries this card first and drops back to it for a character
+with no card data, or a browser that cannot rasterise. Nobody loses their image.
+
+Two things the offline sheet does not have to answer:
+
+- **The weapon can change.** The page has a weapon picker, and the signature
+  baked into the character is only its default. An explicit swap loads
+  `cm-card-<game>-weapons.js` and recomputes the combined lower line (§2a).
+- **A form character is several cards.** Traveler, Trailblazer and Rover are
+  filed per element as `Name:Element`; the runtime addresses them from the
+  active form and titles the card with the name the page shows — "Aether
+  (Anemo)", not "Traveler (Anemo)".
+
+Verified across all 367 cards in the five games: every one renders, median under
+a second (Star Rail ~1.8s, the slowest game).
 
 Validated against the full 120-character roster: every family resolves to its
 expected tier count, with one intentional exception (Traveler, who has no

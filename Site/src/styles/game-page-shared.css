@@ -5800,8 +5800,8 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-pop.ledger .cm-presets-ledger button:disabled{ cursor:wait; opacity:.55; }
 .cm-share-status{ flex:1 0 100%; padding-top:var(--nyx-space-4); text-align:left; font-size:var(--nyx-type-caption); color:var(--nyx-color-text-muted); }
 .cm-share-status.error{ color:var(--nyx-color-danger); }
-/* The Infographic button now sits inside the Total row's label column, directly
-   above the Ascension / Talents / Weapon checkboxes (user 2026-08-18). */
+/* The Infographic button leads the Ascension row's label column, above the
+   heading (user 2026-08-25). It sat under Total until then. */
 .cm-share-actions{ display:flex; flex-wrap:wrap; align-items:center; justify-content:flex-start; gap:var(--nyx-space-8); }
 .cm-share-actions button{ min-height:34px; border:1px solid var(--nyx-compat-color-92028f0fbac1); border-radius:var(--nyx-radius-control); cursor:pointer;
   padding:var(--nyx-space-6) var(--nyx-space-12); color:var(--nyx-compat-color-hex-efe8ff); background:var(--nyx-compat-color-26ecac6a6aec); font:inherit; }
@@ -6121,6 +6121,10 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-detail-back span{
   font-size:var(--nyx-compat-size-24px);
   line-height:1;
+  /* U+2039 is a quotation mark, not an arrow: its ink sits low in the em
+     box, so flex centring lands it 1.4px under the cap-height label beside
+     it. Nudge the glyph, not the box (user 2026-08-25). */
+  transform:translateY(-1.5px);
 }
 .cm-detail-back b{
   font-size:var(--nyx-type-label);

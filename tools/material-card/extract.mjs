@@ -9,8 +9,10 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 
-const REPO = 'C:/Pengo/Nyx-characters';
 const HERE = new URL('.', import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1');
+// tools/material-card/ -> repo root. Derived, not hard-coded, because CI
+// checks the tree out somewhere else entirely.
+const REPO = HERE.replace(/\/tools\/material-card\/?$/, '');
 const SITE = `${REPO}/Site`;
 const GAME = (process.env.CARD_GAME || 'gi').toLowerCase();
 const PROFILE = {
@@ -1120,9 +1122,33 @@ const buildCharacter = { hsr:buildCharacterHSR, zzz:buildCharacterZZZ,
 const buildWeapon = { hsr:buildLightCone, zzz:buildWEngine, wuwa:buildWeaponWUWA,
                       ae:() => null }[GAME] || buildWeaponGI;
 
-const NAMES = process.argv.slice(3);
+// No names given means the whole roster - what the site build wants. Named
+// arguments stay for spot-checking one character while iterating.
+//
+// A character with forms is not one card. Traveler, Trailblazer, Rover and
+// Endministrator each ascend on a different set per element, so every element
+// that actually carries an ascension gets its own entry, addressed the way
+// find() addresses it. Elements with no ascension data are skipped rather
+// than emitted as errors - those are forms the game has not shipped yet.
+const rosterNames = () => {
+  const names = [];
+  for (const c of roster) {
+    const base = String(c.n || c.rawName || '');
+    if (!base || names.some((x) => x === base || x.startsWith(`${base}:`))) continue;
+    const els = [...new Set((c.forms || [])
+      .filter((f) => f.req?.ascension?.length && f.el)
+      .map((f) => String(f.el)))];
+    if (els.length) names.push(...els.map((el) => `${base}:${el}`));
+    else names.push(base);
+  }
+  return names;
+};
+const NAMES = process.argv.slice(3).length ? process.argv.slice(3) : rosterNames();
 const out = NAMES.map((n) => {
   const c = buildCharacter(n);
+  // how the card was addressed, so a consumer can find it again without
+  // re-deriving "Traveler (Anemo)" back into "Traveler:Anemo"
+  c.key = n;
   if (c.error) return c;
   c.weapon = c.signature ? buildWeapon(c.signature, c) : null;
   if (!c.error) addWeaponTotals(c);
@@ -1142,10 +1168,26 @@ const out = NAMES.map((n) => {
   delete c.owedTotal;
   return c;
 });
+// Every weapon the game ships, not just the signatures, because the character
+// page lets a reader swap the weapon and the card has to follow. Costing one is
+// independent of who holds it; only the combined lower line is per-pair, and
+// that is arithmetic the consumer can do (see addWeaponTotals).
+const allWeapons = process.env.CARD_WEAPONS === '1' ? (() => {
+  const map = {};
+  for (const w of weapons) {
+    const name = String(w.name || '');
+    if (!name || map[name]) continue;
+    let built = null;
+    try { built = buildWeapon(name); } catch (e) { built = null; }
+    if (built) map[name] = built;
+  }
+  return map;
+})() : undefined;
 fs.writeFileSync(process.argv[2], JSON.stringify(
   { game:GAME, claimsNew:PROFILE.claimsNew, showsTargets:PROFILE.showsTargets,
+    lowerMode:PROFILE.lowerMode,
     layout:PROFILE.layout, maxLevel:PROFILE.maxLevel,
-    namesBosses:!!PROFILE.namesBosses, characters:out }, null, 1));
+    namesBosses:!!PROFILE.namesBosses, characters:out, weapons:allWeapons }, null, 1));
 for (const c of out) {
   if (c.error) { console.log(`${c.name}: ${c.error}`); continue; }
   const f = c.families;

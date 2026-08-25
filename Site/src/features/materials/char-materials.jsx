@@ -2681,7 +2681,18 @@ function CMMaterialsShareCard({ gameKey, view, cfg, activeWeapon, midLabel }){
     const run = ++runRef.current;
     setRenderState({ status:'busy', message:'Rendering image…' });
     try {
-      const blob = await nyxRenderMaterialsCard({ gameKey, view, cfg, activeWeapon, midLabel });
+      // The current card (char-materials-card.js) lays out real markup and
+      // rasterises it; the older canvas renderer stays as the fallback for a
+      // character it has no data for, or a browser that cannot do the
+      // rasterising (user 2026-08-25).
+      let blob = null;
+      try {
+        blob = await nyxRenderCharacterCard({ gameKey, view, activeWeapon });
+      } catch (cardError) {
+        blob = null;
+      }
+      if (run !== runRef.current) return;
+      if (!blob) blob = await nyxRenderMaterialsCard({ gameKey, view, cfg, activeWeapon, midLabel });
       if (run !== runRef.current) return;
       if (!(blob instanceof Blob)) throw new Error('The image renderer returned no image.');
       cmDownloadMaterialsCard(blob, nyxMaterialsCardFilename({ gameKey, view }));
@@ -3381,6 +3392,19 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
     activeWeapon?.name,
     dataTick,
   ].join('|');
+  /* One instance, placed once. It rides above the Ascension heading (user
+     2026-08-25) and falls back to the Total label on the rare character
+     with no ascension row, so the button never disappears. */
+  const shareCardNode = canShareMaterials ? (
+    <CMMaterialsShareCard
+      key={materialsShareRenderKey}
+      gameKey={gk}
+      view={view}
+      cfg={cfg}
+      activeWeapon={activeWeapon}
+      midLabel={displayTabs.mid}
+    />
+  ) : null;
   const hasBoss = !!displayTabs.boss;
   const tabs = [{ k:'roster', label:'Roster' }, { k:'mid', label:displayTabs.mid }];
   if (hasBoss) tabs.push({ k:'boss', label:displayTabs.boss });
@@ -3776,7 +3800,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                   {selArt && <div className="cm-ledger-art" aria-hidden="true"><img src={selArt} alt="" draggable="false" /></div>}
                   {hasAscData && (
                     <div className="cm-ledger-row">
-                      <div className="cm-ledger-label"><b>Ascension</b>
+                      <div className="cm-ledger-label">{shareCardNode}<b>Ascension</b>
                         {/* The same slider the Character Kit tab uses, so both
                             tabs answer "at what level?" the same way. Games
                             without sourced per-phase costs keep the plain
@@ -3957,16 +3981,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                     <div className="cm-ledger-row total">
                       <div className="cm-ledger-label">
                         <b>Total</b>
-                        {canShareMaterials && (
-                          <CMMaterialsShareCard
-                            key={materialsShareRenderKey}
-                            gameKey={gk}
-                            view={view}
-                            cfg={cfg}
-                            activeWeapon={activeWeapon}
-                            midLabel={displayTabs.mid}
-                          />
-                        )}
+                        {!hasAscData && shareCardNode}
                         <div className="cm-total-checks">
                           {ascReq.length > 0 && (
                             <button type="button" className={ledgerInclude.ascension ? 'on' : ''} aria-pressed={ledgerInclude.ascension} onClick={() => toggleLedger('ascension')}>

@@ -73,7 +73,10 @@ await fs.rm(path.resolve(distDir, 'launcher-art'), { recursive: true, force: tru
 
 await copyFile(path.resolve(generatedDataDir, 'cm-data.js'), path.resolve(distDir, 'cm-data.js'));
 for (const entry of await fs.readdir(generatedDataDir)) {
-  if (/^(?:cm|db)-data-[a-z]+(?:-beta)?\.js$/.test(entry)) {
+  // cm-card-* is the Infographic renderer's data: one pack per game, plus the
+  // shared style sheet and the on-demand weapon tables. All lazy-loaded.
+  if (/^(?:cm|db)-data-[a-z]+(?:-beta)?\.js$/.test(entry)
+      || /^cm-card-(?:style|[a-z]+(?:-weapons)?)\.js$/.test(entry)) {
     await copyFile(path.resolve(generatedDataDir, entry), path.resolve(distDir, entry));
   }
 }
@@ -99,6 +102,7 @@ await compileJsxBundle(
     'features/materials/char-materials-leveling.js',
     'features/materials/char-materials.jsx',
     'features/materials/char-materials-share-card.js',
+    'features/materials/char-materials-card.js',
     'data/generated/pulls-weapons-gi.js',
     'data/generated/pulls-weapons-hsr.js',
     'data/generated/pulls-weapons-zzz.js',

@@ -167,16 +167,21 @@ test('character pages expose clean artwork and keep guide actions below maxed to
   assert.match(materials, /<b>Ascension<\/b>/);
   assert.match(materials, /<b>\{displayTabs\.mid \|\| 'Materials'\}<\/b>/);
   assert.match(materials, /return 'Light Cone';[\s\S]*return 'W-Engine';[\s\S]*return 'Weapon';/);
-  // 2026-08-18: the Infographic button sits inside the Total row's label column,
-  // above the Ascension checkbox, and the Release stamp takes the bottom-left
-  // slot the old "Link" button used.
+  // 2026-08-25: the Infographic button leads the Ascension row's label column,
+  // above the heading. It sat under Total until then; the Release stamp still
+  // takes the bottom-left slot the old "Link" button used.
+  assert.match(
+    materials,
+    /<div className="cm-ledger-label">\{shareCardNode\}<b>Ascension<\/b>/,
+    'the Infographic button renders above the Ascension heading',
+  );
   const total = materials.indexOf('<div className="cm-ledger-row total">');
-  const actions = materials.indexOf('<CMMaterialsShareCard', total);
   const checks = materials.indexOf('<div className="cm-total-checks">', total);
   const release = materials.indexOf('className="cm-ledger-release"', total);
-  assert.ok(total >= 0 && actions > total, 'the share actions render inside the Total row');
-  assert.ok(actions < checks, 'the Infographic button renders above the Ascension checkbox');
+  assert.ok(total >= 0 && checks > total, 'the section checkboxes stay in the Total row');
   assert.ok(release > checks, 'the Release stamp renders after the section checkboxes');
+  // one instance only, so it cannot render twice on a character that has both
+  assert.match(materials, /\{!hasAscData && shareCardNode\}/, 'Total keeps the button only when there is no Ascension row');
   assert.match(css, /\.cm-share-actions\{[^}]*justify-content:flex-start/);
   assert.match(css, /\.cm-ledger-release\{[^}]*grid-column:1/);
   assert.match(materials, /'Infographic'/, 'the button is labelled Infographic');

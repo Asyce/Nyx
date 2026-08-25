@@ -13,7 +13,10 @@ import path from 'node:path';
 
 const API = 'https://genshin-impact.fandom.com/api.php';
 const UA = 'pengo-nyx/1.0 (material card gather-site scraper)';
-const CACHE = process.env.SITE_CACHE || 'wiki-cache';
+// beside the script, not beside the caller: running this from the repo root
+// otherwise starts a second, empty cache there and re-fetches everything
+const CACHE = process.env.SITE_CACHE
+  || path.join(path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/, '$1')), 'wiki-cache');
 const MAX_LINES = 3;                    // the card has room for three
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -242,7 +245,9 @@ export function classify(fields) {
   let m;
   if ((m = /Stagnant Shadow:\s*Shape of\s+([^(]+)/i.exec(target)))
     return { kind: 'shadow', name: m[1].trim() };
-  if ((m = /Calyx\s*\(Crimson\):\s*Bud of\s+([A-Za-z']+)/i.exec(target)))
+  // [^(] rather than a single word: "Bud of The Hunt" is the one Path whose
+  // name is two words, and a \w+ capture left it reading "The"
+  if ((m = /Calyx\s*\(Crimson\):\s*Bud of\s+([^(]+)/i.exec(target)))
     return { kind: 'calyx', name: m[1].trim() };
   if ((m = /Echo of War:\s*([^(]+)/i.exec(target)))
     return { kind: 'echo', name: m[1].trim(), bosses };

@@ -2,7 +2,10 @@
 @font-face{font-family:"GI";src:url(@@FONT_GI@@) format("woff2");font-display:swap}
 @font-face{font-family:"HSRui";src:url(@@FONT_HSR@@) format("woff2");font-display:swap}
 *{box-sizing:border-box}
-body{margin:0;padding:26px;background:#05040b;display:inline-block;
+/* .cardroot is the same shell without a <body>: the in-page renderer draws
+   into an SVG foreignObject, which has no body element, so anything that
+   only body carried - the colour above all - never reached the card. */
+body,.cardroot{margin:0;padding:26px;background:#05040b;display:inline-block;
   font-family:"HSRui",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45;color:#f3f0ff}
 
 /* Nyx panel: 2px metallic rim showing through the body, plain rounded corners. */
@@ -156,7 +159,7 @@ body{margin:0;padding:26px;background:#05040b;display:inline-block;
 .brand-txt{color:#cfc6f5;letter-spacing:.02em}
 
 /* page chrome for the multi-card sheet */
-body{display:block}
+body,.cardroot{display:block}
 .lbl{font-family:"GI",serif;font-size:20px;color:#f3f0ff;margin:26px 0 10px;
   display:flex;align-items:baseline;gap:14px}
 .lbl:first-child{margin-top:0}

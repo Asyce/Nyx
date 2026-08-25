@@ -101,12 +101,13 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 
 ### Banner layout
 
-- Remove fixed 704-DIP widths and 390-DIP heights from XAML and code; keep only a 704-DIP maximum.
+- Remove fixed widths and 390-DIP heights from XAML and code; keep only an 848-DIP maximum that fits five 160-DIP tiles.
 - Make the translucent surface hug its content in width and height.
-- Use 132-DIP tiles, 38-DIP icon backing, 34-DIP portraits, and 15-DIP names.
+- Use 160-DIP tiles, 38-DIP icon backing, 34-DIP portraits, and 15-DIP names.
 - Use `Enumerable.Chunk(5)` with native horizontal row stacks inside one vertical list; do not add a custom panel.
 - Remove calculated widths that spread small groups across the panel.
-- Use wrapping text with no ellipsis, shrinking, or line limit. Every name remains visible.
+- Use wrapping text with a 20-DIP block line height and no ellipsis, shrinking, or line limit. Every name remains visible.
+- Keep small banner bodies naturally sized. If valid multi-phase content exceeds 330 DIP, use the native vertical scroll viewer; never add horizontal scrolling or hide names.
 
 ### Pre-install warning
 
@@ -115,13 +116,15 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 - Keep Endfield detection off until an exact official GRYPHLINK signal is proven.
 - Above energy show `Pre-install available — open Official Launcher` or `Update and pre-install available — open Official Launcher`.
 - Make the text red, bold, keyboard accessible, screen-reader announced only on transition, and wired to the existing Official Launcher action.
+- Enable the notice only while that existing Official Launcher action is available and not already busy; direct game launch remains independent.
 - Give Official Launcher a static 2-DIP red border and faint tint only during pre-install. Do not animate or block direct launch; ordinary updates are not highlighted.
 
 ### STOP 2
 
 - All ten different-game pairs and same-game exclusion pass.
+- A second simultaneous launcher still redirects to the existing window, while close followed by immediate reopen releases the old instance cleanly.
 - All five account identity surfaces pass, including WuWa stale/mismatch cases.
-- Banner cases 1/2/5/10, every current name, `Hongshan Imperial Guard`, and an unbroken 80-character name pass at 100-200% scaling.
+- Banner cases 1/2/5/10, a five-phase maximum-content fixture, every current name, `Hongshan Imperial Guard`, and an unbroken 80-character name pass at 100-200% scaling. Small fixtures remain natural-sized; the maximum fixture exposes every name through native vertical scrolling.
 - All pre-install transitions and accessibility checks pass.
 
 ## Phase 3 - Static and animated background lifecycle

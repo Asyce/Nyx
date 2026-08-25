@@ -8,7 +8,7 @@ const here = path.dirname(fileURLToPath(import.meta.url));
 const site = path.resolve(here, '..');
 const root = path.resolve(site, '..');
 const committedPrefix = 'Site/src/data/generated';
-const fixedFiles = ['launcher-codes-v1.json', 'launcher-banners-v1.json'];
+const fixedFiles = ['launcher-codes-v1.json', 'launcher-banners-v1.json', 'launcher-tools-v1.json'];
 
 function git(args, options = {}) {
   return execFileSync('git', args, { cwd: root, maxBuffer: 64 * 1024 * 1024, ...options });
@@ -18,6 +18,7 @@ function committedFiles() {
   const stdout = git(['ls-tree', '-r', '--name-only', 'HEAD', '--',
     `${committedPrefix}/launcher-codes-v1.json`,
     `${committedPrefix}/launcher-banners-v1.json`,
+    `${committedPrefix}/launcher-tools-v1.json`,
     `${committedPrefix}/launcher-art`,
   ], { encoding: 'utf8' });
   return stdout.trim().split(/\r?\n/).filter(Boolean).sort();

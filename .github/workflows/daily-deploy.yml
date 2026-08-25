@@ -140,7 +140,7 @@ jobs:
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
-          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
           git add -A Site/src/data/generated/launcher-art
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): refresh daily launcher snapshot [skip ci]"
@@ -185,7 +185,7 @@ jobs:
               git lfs pull
             fi
             (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
-            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
             git add -A Site/src/data/generated/launcher-art
             if ! git diff --cached --quiet; then
               git commit -m "chore(data): refresh daily launcher snapshot [skip ci]"
@@ -216,7 +216,7 @@ jobs:
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
-          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
           git add -A Site/src/data/generated/launcher-art
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): refresh daily deployment snapshot [skip ci]"
@@ -264,7 +264,7 @@ jobs:
               git lfs pull
             fi
             (cd Site && npm ci --no-audit --no-fund && npm run generate:data && npm run refresh:launcher)
-            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+            git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
             git add -A Site/src/data/generated/launcher-art
             if ! git diff --cached --quiet; then
               git commit -m "chore(data): refresh retry launcher snapshot [skip ci]"
@@ -273,7 +273,7 @@ jobs:
             if [ "$PENGO_DATABASE_ASSET_MODE" != "local" ]; then
               (cd Site && PENGO_DEPLOY_COMMIT="$launcher_sha" npm run sync:database-assets:r2 -- --apply)
               (cd Site && npm run generate:data && npm run refresh:launcher)
-              git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+              git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
               git add -A Site/src/data/generated/launcher-art
               if ! git diff --cached --quiet; then
                 git commit -m "chore(data): refresh retry deployment snapshot [skip ci]"

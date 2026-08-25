@@ -108,7 +108,7 @@ jobs:
         id: launcher_snapshot
         if: ${{ steps.history_commit.outputs.changed == 'true' }}
         run: |
-          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
           git add -A Site/src/data/generated/launcher-art
           if ! git diff --cached --quiet; then
             git commit --amend --no-edit
@@ -159,7 +159,7 @@ jobs:
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
-          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json
+          git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json
           git add -A Site/src/data/generated/launcher-art
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): refresh final deployment snapshot [skip ci]"

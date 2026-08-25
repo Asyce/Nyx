@@ -86,6 +86,10 @@ await copyFile(
   path.resolve(distDir, 'launcher-codes-v1.json'),
 );
 await copyFile(
+  path.resolve(generatedDataDir, 'launcher-tools-v1.json'),
+  path.resolve(distDir, 'launcher-tools-v1.json'),
+);
+await copyFile(
   path.resolve(generatedDataDir, 'launcher-banners-v1.json'),
   path.resolve(distDir, 'launcher-banners-v1.json'),
 );

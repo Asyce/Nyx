@@ -7,6 +7,7 @@ import { inspectAchievementIconBytes, validateCatalog as validateAchievementCata
 import { buildDatabaseAssetEntry } from './database-assets.mjs';
 import { assertDeployCommitIdentity } from './deploy-commit.mjs';
 import { buildManifest, loadManifestInputs, validatePackagedManifest } from './generate-launcher-manifest.mjs';
+import { validateLauncherTools } from './generate-launcher-tools.mjs';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
 
@@ -360,6 +361,23 @@ async function verifyLauncherBanners(base) {
   };
 }
 
+async function verifyLauncherTools(base) {
+  const file = path.resolve(deployDir, 'dist', 'launcher-tools-v1.json');
+  const bytes = await fs.readFile(file);
+  const feed = JSON.parse(bytes.toString('utf8'));
+  validateLauncherTools(feed);
+
+  const response = await fetch(`${base}/dist/launcher-tools-v1.json`);
+  const fetched = Buffer.from(await response.arrayBuffer());
+  if (response.status !== 200 || !String(response.headers.get('content-type')).startsWith('application/json')) throw new Error('launcher tools HTTP probe failed');
+  if (!fetched.equals(bytes)) throw new Error('launcher tools HTTP bytes differ from deploy artifact');
+  return {
+    bytes: bytes.length,
+    sha256: crypto.createHash('sha256').update(bytes).digest('hex'),
+    rows: feed.tools.length,
+  };
+}
+
 async function main() {
   if (!(await exists(deployDir))) throw new Error(`Missing deploy directory: ${deployDir}`);
 
@@ -367,6 +385,7 @@ async function main() {
   const base = await listen(server);
   const results = [];
   let launcherBanners;
+  let launcherTools;
   try {
     for (const [route, marker, minBytes] of [
       ['/', 'Pengo'],
@@ -393,12 +412,14 @@ async function main() {
       ['/version.json', '"app": "pengo-nyx"', 50],
       ['/dist/launcher-codes-v1.json', '"schemaVersion": 1', 100],
       ['/dist/launcher-banners-v1.json', '"schemaVersion": 1', 1_000],
+      ['/dist/launcher-tools-v1.json', '"schemaVersion": 1', 100],
       ['/scripts/pengo-achievements.ps1', 'Pengo Nyx - offline achievement screenshot reader', 50_000],
       ['/scripts/pengo-hsr-hoyolab-achievements.js', 'Pengo HSR achievement export', 20_000],
     ]) {
       results.push(`${route} ${await checkFetch(base, route, marker, minBytes)} bytes`);
     }
     launcherBanners = await verifyLauncherBanners(base);
+    launcherTools = await verifyLauncherTools(base);
     results.push(`runtime data ${await verifyRuntimeData(base)} files`);
   } finally {
     await close(server);
@@ -557,6 +578,7 @@ async function main() {
   console.log(`  launcher manifest ${launcherBanners.manifestBytes} bytes sha256 ${launcherBanners.manifestSha256} revision ${launcherBanners.revision}`);
   console.log(`  launcher art ${launcherBanners.uniqueAssets} unique/${launcherBanners.occurrences} occurrences ${launcherBanners.artBytes} bytes`);
   console.log(`  launcher selections ${JSON.stringify(launcherBanners.selections)}`);
+  console.log(`  launcher tools ${launcherTools.rows} rows ${launcherTools.bytes} bytes sha256 ${launcherTools.sha256}`);
   console.log(`  commit ${version.shortCommit}`);
   console.log(`  deploy files ${deployFileCount}/${CLOUDFLARE_ASSET_FILE_LIMIT}`);
 }

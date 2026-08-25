@@ -57,7 +57,7 @@ test('code watch commits a full fresh launcher snapshot with authoritative codes
   const generated = workflow.indexOf('npm run generate:data && npm run refresh:launcher', refresh);
   const sourceStaged = workflow.indexOf('git add Database/Codes/codes.json', sourceCommit);
   const pull = workflow.indexOf('git pull --rebase origin main', sourceCommit);
-  const feedsStaged = workflow.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json', snapshot);
+  const feedsStaged = workflow.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json', snapshot);
   const artStaged = workflow.indexOf('git add -A Site/src/data/generated/launcher-art', snapshot);
   const sourceChangedCondition = "if: ${{ steps.changes.outputs.source_changed == 'true' }}";
 
@@ -242,7 +242,7 @@ test('data owners commit regenerated launcher feeds before exact production buil
   for (const file of ['data-refresh.yml', 'banner-history-refresh.yml', 'roster-sync.yml']) {
     const source = workflow(file);
     const refresh = source.indexOf('npm run generate:data && npm run refresh:launcher');
-    const stageManifest = source.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json');
+    const stageManifest = source.indexOf('git add Site/src/data/generated/nyx-data.js Site/src/data/generated/launcher-codes-v1.json Site/src/data/generated/launcher-banners-v1.json Site/src/data/generated/launcher-tools-v1.json');
     const stageArt = source.indexOf('git add -A Site/src/data/generated/launcher-art');
     const snapshot = source.indexOf('- name: Commit refreshed launcher snapshot');
     const amend = source.indexOf('git commit --amend --no-edit', snapshot);
@@ -260,4 +260,23 @@ test('data owners commit regenerated launcher feeds before exact production buil
   const exactSmoke = gameData.indexOf('npm run smoke:deploy', amend);
   const push = gameData.indexOf('git push', exactSmoke);
   assert(amend >= 0 && exactSmoke > amend && push > exactSmoke, 'GameData must verify committed deploy bytes after amend and before push');
+});
+
+test('every explicit launcher-feed staging list includes the reviewed tools feed', () => {
+  for (const file of [
+    'banner-history-refresh.yml',
+    'code-watch.yml',
+    'daily-deploy.yml',
+    'data-refresh.yml',
+    'gamedata-asset-sync.yml',
+    'gamedata-watch.yml',
+    'r2-database-reconcile.yml',
+    'roster-sync.yml',
+    'side-data-sync.yml',
+  ]) {
+    const lines = fs.readFileSync(path.join(root, '.github/workflows', file), 'utf8').split(/\r?\n/);
+    const staging = lines.filter((line) => /git add .*launcher-(?:codes|banners)-v1\.json/.test(line));
+    assert(staging.length > 0, `${file} must explicitly stage launcher feeds`);
+    assert(staging.every((line) => line.includes('Site/src/data/generated/launcher-tools-v1.json')), `${file} must stage launcher tools with every explicit feed list`);
+  }
 });

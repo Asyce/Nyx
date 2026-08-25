@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-25T18:11:26.337Z",
+  "tools": [
+    {
+      "game": "gi",
+      "id": "wiki",
+      "label": "Wiki",
+      "url": "https://wiki.hoyolab.com/pc/genshin/home"
+    },
+    {
+      "game": "gi",
+      "id": "material-calculator",
+      "label": "Material Calculator",
+      "url": "https://act.hoyolab.com/ys/event/calculator-sea/index.html"
+    },
+    {
+      "game": "gi",
+      "id": "battle-records",
+      "label": "Battle Records",
+      "url": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=2#/ys"
+    },
+    {
+      "game": "gi",
+      "id": "upgrade-guide",
+      "label": "Upgrade Guide",
+      "url": "https://act.hoyolab.com/ys/event/bbs-lineup-ys-sea/index.html"
+    },
+    {
+      "game": "hsr",
+      "id": "wiki",
+      "label": "Wiki",
+      "url": "https://wiki.hoyolab.com/pc/hsr/home"
+    },
+    {
+      "game": "hsr",
+      "id": "material-calculator",
+      "label": "Material Calculator",
+      "url": "https://act.hoyolab.com/sr/event/calculator/index.html"
+    },
+    {
+      "game": "hsr",
+      "id": "battle-records",
+      "label": "Battle Records",
+      "url": "https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=6#/hsr"
+    },
+    {
+      "game": "hsr",
+      "id": "upgrade-guide",
+      "label": "Upgrade Guide",
+      "url": "https://act.hoyolab.com/sr/event/cultivation-tool/#/tools/suggestion"
+    },
+    {
+      "game": "zzz",
+      "id": "wiki",
+      "label": "Wiki",
+      "url": "https://wiki.hoyolab.com/pc/zzz/home"
+    },
+    {
+      "game": "zzz",
+      "id": "battle-records",
+      "label": "Battle Records",
+      "url": "https://act.hoyolab.com/app/zzz-game-record/index.html"
+    },
+    {
+      "game": "ae",
+      "id": "wiki",
+      "label": "Wiki",
+      "url": "https://wiki.skport.com/endfield"
+    },
+    {
+      "game": "ae",
+      "id": "material-calculator",
+      "label": "Material Calculator",
+      "url": "https://game.skport.com/tools/endfield/cost-calculator?header=0"
+    },
+    {
+      "game": "ae",
+      "id": "team-recommendations",
+      "label": "Team Recommendations",
+      "url": "https://game.skport.com/tools/endfield/rec-team"
+    }
+  ]
+}

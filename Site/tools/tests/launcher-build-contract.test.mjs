@@ -17,25 +17,33 @@ test('byte-verified launcher files have checkout-stable Git attributes', () => {
     '--',
     'Site/src/data/generated/launcher-banners-v1.json',
     'Site/src/data/generated/launcher-codes-v1.json',
+    'Site/src/data/generated/launcher-tools-v1.json',
     'Site/src/data/generated/launcher-art/021af660df0417d1ddc5cda915459c0af07e6b1adfc4cdd0274245ffbd72a0d8.webp',
   ], { cwd: root, encoding: 'utf8' });
   assert.match(attributes, /launcher-banners-v1\.json: text: set/);
   assert.match(attributes, /launcher-banners-v1\.json: eol: lf/);
   assert.match(attributes, /launcher-codes-v1\.json: text: set/);
   assert.match(attributes, /launcher-codes-v1\.json: eol: lf/);
+  assert.match(attributes, /launcher-tools-v1\.json: text: set/);
+  assert.match(attributes, /launcher-tools-v1\.json: eol: lf/);
   assert.match(attributes, /launcher-art\/.+\.webp: text: unset/);
 });
 
 test('production build packages committed launcher bytes and keeps regeneration explicit', async () => {
   const pkg = JSON.parse(await fs.readFile(path.join(site, 'package.json'), 'utf8'));
+  const buildSite = await fs.readFile(path.join(site, 'tools', 'build-site.mjs'), 'utf8');
   const smoke = await fs.readFile(path.join(site, 'tools', 'smoke-deploy.mjs'), 'utf8');
   assert.match(pkg.scripts.build, /verify:launcher:source/);
   assert.match(pkg.scripts.build, /verify:launcher:dist/);
-  assert.doesNotMatch(pkg.scripts.build, /refresh:launcher|generate:launcher-(?:codes|manifest)/);
+  assert.doesNotMatch(pkg.scripts.build, /refresh:launcher|generate:launcher-(?:codes|manifest|tools)/);
   assert.match(pkg.scripts['build:generated'], /refresh:launcher/);
   assert.match(pkg.scripts['build:deploy'], /verify:launcher:deploy/);
   assert.match(pkg.scripts['smoke:deploy'], /verify:launcher:deploy/);
+  assert.match(buildSite, /launcher-tools-v1\.json/);
   assert.match(smoke, /validatePackagedManifest\(manifest, \{ now: Date\.now\(\) \}\)/);
+  assert.match(smoke, /validateLauncherTools\(feed\)/);
+  assert.match(smoke, /fetch\(`\$\{base\}\/dist\/launcher-tools-v1\.json`\)/);
+  assert.match(smoke, /fetched\.equals\(bytes\)/);
   assert.doesNotMatch(smoke, /validatePackagedManifest\(manifest, \{ now: generatedAt \}\)/);
   assert.match(smoke, /execFileSync\('git', \['rev-parse', 'HEAD'\]/);
   assert.match(smoke, /assertDeployCommitIdentity\(\{ head: headCommit, version, pages: deployPages \}\)/);
@@ -89,9 +97,13 @@ test('committed launcher verifier rejects byte changes and extra art', async () 
   try {
     await fs.copyFile(path.join(source, 'launcher-codes-v1.json'), path.join(temp, 'launcher-codes-v1.json'));
     await fs.copyFile(path.join(source, 'launcher-banners-v1.json'), path.join(temp, 'launcher-banners-v1.json'));
+    await fs.copyFile(path.join(source, 'launcher-tools-v1.json'), path.join(temp, 'launcher-tools-v1.json'));
     await fs.cp(path.join(source, 'launcher-art'), path.join(temp, 'launcher-art'), { recursive: true });
     await assert.doesNotReject(verifyLauncherTree(temp));
 
+    await fs.appendFile(path.join(temp, 'launcher-tools-v1.json'), ' ');
+    await assert.rejects(verifyLauncherTree(temp), /launcher-tools-v1\.json bytes differ from HEAD/);
+    await fs.copyFile(path.join(source, 'launcher-tools-v1.json'), path.join(temp, 'launcher-tools-v1.json'));
     await fs.appendFile(path.join(temp, 'launcher-banners-v1.json'), ' ');
     await assert.rejects(verifyLauncherTree(temp), /bytes differ from HEAD/);
     await fs.copyFile(path.join(source, 'launcher-banners-v1.json'), path.join(temp, 'launcher-banners-v1.json'));

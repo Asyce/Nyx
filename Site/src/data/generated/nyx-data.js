@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-25T03:59:03.556Z",
+  "generatedAt": "2026-08-25T09:42:51.873Z",
   "codes": {
     "updated": "2026-08-25T00:42:11.912Z",
     "maxAgeDays": 28,
@@ -583,19 +583,41 @@ var NYX_DB = {
         },
         "current": {
           "phase": "4.4 Phase 2",
-          "start": "2026-07-15T03:00:00.000Z",
+          "start": "2026-08-05T17:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "characters": [
             {
-              "name": "Himeko Nova",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
+              "name": "Cerydra",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-15"
+              "debut": false,
+              "debutAt": "2025-09-02"
+            },
+            {
+              "name": "Anaxa",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-04-30"
+            },
+            {
+              "name": "Aventurine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2024-04-17"
             },
             {
               "name": "Moze",
@@ -629,39 +651,6 @@ var NYX_DB = {
               "rarity": 4,
               "debut": false,
               "debutAt": "2023-06-07"
-            },
-            {
-              "name": "Cerydra",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-09-02"
-            },
-            {
-              "name": "Anaxa",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-04-30"
-            },
-            {
-              "name": "Aventurine",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-17"
             }
           ],
           "subBanners": []
@@ -171901,19 +171890,41 @@ var NYX_DB = {
         },
         "current": {
           "phase": "4.4 Phase 2",
-          "start": "2026-07-15T03:00:00.000Z",
+          "start": "2026-08-05T17:00:00.000Z",
           "end": "2026-08-25T20:00:00.000Z",
           "characters": [
             {
-              "name": "Himeko Nova",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1510.webp",
+              "name": "Cerydra",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
               "iconFallback": null,
               "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1510.webp",
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
               "namecard": null,
               "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-07-15"
+              "debut": false,
+              "debutAt": "2025-09-02"
+            },
+            {
+              "name": "Anaxa",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2025-04-30"
+            },
+            {
+              "name": "Aventurine",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2024-04-17"
             },
             {
               "name": "Moze",
@@ -171947,39 +171958,6 @@ var NYX_DB = {
               "rarity": 4,
               "debut": false,
               "debutAt": "2023-06-07"
-            },
-            {
-              "name": "Cerydra",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-09-02"
-            },
-            {
-              "name": "Anaxa",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-04-30"
-            },
-            {
-              "name": "Aventurine",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-17"
             }
           ],
           "subBanners": []

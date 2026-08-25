@@ -250,26 +250,37 @@ def numbers(fam):
         s2 = ' style="color:%s"' % F[t]['num2'] if (multi and changed) else ''
         bottom.append('<i class="r2%s"%s>%s</i>' % ('' if changed else ' off', s2,
                                                     alt if changed else h))
-    return ('<span class="nums" style="grid-template-columns:repeat(%d,auto)">%s%s</span>'
+    # A four-tier ladder prints eleven characters where a three-tier one prints
+    # eight, and at the standard size that overruns the tile and collides with
+    # its neighbour. Scale the row down once it stops fitting.
+    width = sum(len(str(x)) for x in hi) + len(hi) - 1
+    scale = ';font-size:%.0f%%' % (min(1.0, 8.0 / width) * 100) if width > 8 else ''
+    return ('<span class="nums" style="grid-template-columns:repeat(%d,auto)%s">%s%s</span>'
             # the second row is emitted even where every figure is hidden: it
             # is what keeps cells the same height, and the grid bottom-aligns
             # them, so dropping it lifts that tile above its neighbours
-            % (len(top), ''.join(top), ''.join(bottom) if HAS_LOWER else ''))
+            % (len(top), scale, ''.join(top), ''.join(bottom) if HAS_LOWER else ''))
 
 
 
 
-def tile_cell(fam, col, row):
+def tile_cell(fam, col, row, cap=False):
     f = F[max(1, min(5, int(fam.get('tier') or 3)))]
     icon = tile_uri(fam.get('icon'))
     if not icon:
         raise SystemExit('no icon for tile %r - check the currency item name '
                          'in the game profile' % fam.get('name'))
-    return ('<span class="cell" style="grid-column:%d;grid-row:%d">'
+    # In a wide layout a caption cannot live in the header strip, because the
+    # tiles run over several rows - so it rides inside the cell instead. Every
+    # cell reserves the slot, or tiles in one row would sit at different levels.
+    head = ('<span class="cap">%s</span>'
+            % (lines_head(fam.get('lines'), col, cap=10, bare=True) or '')) if cap else ''
+    return ('<span class="cell%s" style="grid-column:%d;grid-row:%d">%s'
             '<span class="tile" style="--top:%s;--mid:%s;--bot:%s;--line:%s;--eye:%s;--glow:%s">'
             '<span class="glow"></span><span class="eye"></span>'
             '<img src="%s" alt="%s"></span>%s</span>'
-            % (col, row, f['top'], f['mid'], f['bot'], f['line'], f['eye'], f['glow'],
+            % (' capped' if cap else '', col, row, head,
+               f['top'], f['mid'], f['bot'], f['line'], f['eye'], f['glow'],
                icon, fam.get('name', ''), numbers(fam)))
 
 
@@ -316,7 +327,11 @@ def sources_head(fam, col, row=1, one_line=False, per_row=3):
     # a weapon tile has room for a single line, so past what fits the last
     # slot becomes the +N; the character block can run to a second row.
     cap = (len(srcs) if len(srcs) <= per_row else per_row - 1) if one_line           else min(len(srcs), 8)
-    shown, extra = srcs[:cap], len(srcs) - min(cap, len(srcs))
+    shown = srcs[:cap]
+    # only the weapon strip counts what it dropped. The character cluster is a
+    # picture of where a material comes from, not an inventory, and a "+21"
+    # beside eight faces is noise rather than information.
+    extra = (len(srcs) - cap) if one_line else 0
     grid, nested = shown[:6], shown[6:8]
     cells = ''.join('<span class="cm"><img src="%s" alt="%s"></span>'
                     % (circle_uri(s['icon']), s['name']) for s in grid)
@@ -430,10 +445,13 @@ def weapon_section(w):
     fams = w['families']
     tiles = ''.join(tile_cell(f, i + 1, 2) for i, f in enumerate(fams))
     # source clusters over the two enemy-drop families (positions 2 and 3)
-    # the ascension domain is not an enemy - its "source" is the domain's own
-    # name, which is already the tile - so only the drop families get a header.
-    # Four tiers identifies it in Genshin; Star Rail has no such family at all.
-    heads = ''.join('' if len(f.get('qty') or []) == 4
+    # Genshin's weapon ascension domain is not an enemy - its "source" is the
+    # domain's own name, which the tile already shows - so it gets no header.
+    # Four tiers identifies it there, but elsewhere four tiers is just how the
+    # game builds a family, and skipping those left every Wuthering Waves
+    # weapon bare.
+    skip_domain = GAME == 'gi'
+    heads = ''.join('' if (skip_domain and len(f.get('qty') or []) == 4)
                     else sources_head(f, i + 1, row=1, one_line=True)
                     for i, f in enumerate(fams[:-2]))
     src = w.get('icon') or ''
@@ -471,8 +489,10 @@ def card_wide(ch):
         # one whose header is a place rather than a creature
         parts.append(sites_head(fam, col) if i == head - 1 else sources_head(fam, col))
     parts.append(talents_head(ch, cols))
+    # caption inside the cell when any tile past the header strip carries one
+    inline = any(f.get('lines') for f in tiles[head:])
     for i, fam in enumerate(tiles):
-        parts.append(tile_cell(fam, i % cols + 1, 2 + i // cols))
+        parts.append(tile_cell(fam, i % cols + 1, 2 + i // cols, cap=inline))
     slot = len(tiles)
     parts.append(brand_cell(slot % cols + 1, 2 + slot // cols))
     return parts, cols
@@ -544,7 +564,7 @@ for ch in data:
     if boss and not (boss.get('sources') or boss.get('lines')):
         flags.append('no boss source recorded')
     spec = ch['families'].get('specialty')
-    if spec and not GATHER_SITES.get(spec['name']):
+    if GATHER_SITES and spec and not GATHER_SITES.get(spec['name']):
         flags.append('no gather sites recorded')
     if not ch.get('weapon'):
         flags.append('no signature %s' % ('light cone' if GAME == 'hsr' else 'weapon'))

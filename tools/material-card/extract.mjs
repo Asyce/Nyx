@@ -27,6 +27,10 @@ const PROFILE = {
   //                the one-below-max build; 'withWeapon' is the character and
   //                the signature weapon together.
   //   layout       the tile order, since not every game has the same families.
+  //   dbDir        where Database/GameData keeps this game, when the folder is
+  //                not named after the game key - Wuthering Waves is 'ww'.
+  //   alwaysWide   the game has more families than any fixed layout holds, so
+  //                every card gets an explicit tile order (§4a).
   //   maxLevel     the level the card is costed to. Genshin and Star Rail cap
   //                at 90, Zenless at 60.
   //
@@ -48,8 +52,17 @@ const PROFILE = {
          claimsNew:false, showsTargets:false, lowerMode:'withWeapon',
          layout:{ rowA:['weekly', 'boss', 'gem', 'books'],
                   rowB:['crown', 'exp', 'mora'] } },
+  wuwa:{ weaponWord:'weapon', maxLevel:90, dbDir:'ww',
+         claimsNew:false, showsTargets:false, lowerMode:'withWeapon',
+         layout:{ rowA:['weekly', 'boss', 'common', 'books'],
+                  rowB:['specialty', 'exp', 'mora'] } },
+  ae:  { weaponWord:'weapon', maxLevel:80, alwaysWide:true,
+         claimsNew:false, showsTargets:false, lowerMode:'withWeapon',
+         layout:{ rowA:[], rowB:[] } },
 }[GAME];
-if (!PROFILE) throw new Error(`unknown CARD_GAME '${GAME}' (expected gi, hsr or zzz)`);
+if (!PROFILE) throw new Error(
+  `unknown CARD_GAME '${GAME}' (expected gi, hsr, zzz, wuwa or ae)`);
+const DB = PROFILE.dbDir || GAME;
 
 const ctx = { window:{ addEventListener(){}, dispatchEvent(){} }, CustomEvent:class{},
               document:{ addEventListener(){} }, console };
@@ -58,7 +71,9 @@ vm.createContext(ctx);
 for (const f of [`src/data/generated/cm-data-${GAME}.js`,
                  `src/data/generated/cm-data-${GAME}-beta.js`,
                  'src/features/materials/char-materials-leveling.js']) {
-  vm.runInContext(fs.readFileSync(`${SITE}/${f}`, 'utf8'), ctx);
+  // not every game ships a beta pack
+  const path = `${SITE}/${f}`;
+  if (fs.existsSync(path)) vm.runInContext(fs.readFileSync(path, 'utf8'), ctx);
 }
 const live = (ctx.window.CM_CFG || ctx.CM_CFG || {})[GAME];
 const beta = (ctx.window.CM_CFG_BETA || {})[GAME] || {};
@@ -70,10 +85,40 @@ const LEVELING = vm.runInContext('NYX_MATERIALS_LEVELING', ctx)[GAME];
 const EXP_VALUE = new Map();
 const CURRENCY = String(live?.cur || 'Currency');
 const CURRENCY_ICON = live?.curIcon || null;
+// the frame colour is the money's own rarity - Shell Credit is blue, Mora gold
+let CURRENCY_TIER = 3;
 
 // Where each Star Rail material comes from, scraped from the wiki's item
 // infobox by `scrape-sites.mjs --hsr`. The game data records nothing at all, so
 // this file is what turns four blank header slots into captions and a portrait.
+// Which nation each Forgery Challenge sits in, scraped by
+// `scrape-sites.mjs --wuwa`. The challenge's own name is long and says little;
+// the nation is what a reader is actually navigating by.
+const WW_WIKI = (() => {
+  const path = `${HERE}/ww-nations.json`;
+  const raw = fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, 'utf8')) : {};
+  return { nations:raw.nations || {}, families:raw.families || {} };
+})();
+const WW_NATIONS = WW_WIKI.nations;
+
+// How many distinct items name each source. A specific enemy shows up on a
+// handful; a game mode or a shop - "Forgery Challenge", "Souvenir Store" -
+// shows up on hundreds, and is a place rather than something to draw.
+const SOURCE_USE = (() => {
+  const count = new Map();
+  for (const stage of ['live', 'beta']) {
+    const path = `${REPO}/Database/GameData/${DB}/${stage}/items.json`;
+    if (!fs.existsSync(path)) continue;
+    const raw = JSON.parse(fs.readFileSync(path, 'utf8'));
+    const rows = Array.isArray(raw) ? raw : (raw.items || Object.values(raw)[0] || []);
+    for (const it of rows)
+      for (const s of (Array.isArray(it.source) ? it.source : []))
+        count.set(String(s), (count.get(String(s)) || 0) + 1);
+  }
+  return count;
+})();
+const isPlace = (name) => (SOURCE_USE.get(String(name)) || 0) > 20;
+
 const WIKI_SOURCES = (() => {
   const path = `${HERE}/hsr-sources.json`;
   return fs.existsSync(path) ? JSON.parse(fs.readFileSync(path, 'utf8')) : {};
@@ -99,7 +144,7 @@ const realName = (it) => {
 const MONSTERS = (() => {
   const index = new Map();
   for (const stage of ['live', 'beta']) {
-    const path = `${REPO}/Database/GameData/${GAME}/${stage}/monsters.json`;
+    const path = `${REPO}/Database/GameData/${DB}/${stage}/monsters.json`;
     if (!fs.existsSync(path)) continue;
     const raw = JSON.parse(fs.readFileSync(path, 'utf8'));
     const rows = Array.isArray(raw) ? raw : (raw.monsters || Object.values(raw)[0] || []);
@@ -155,7 +200,7 @@ const WEEKLY_ALIASES = (() => {
 const ITEM_DESC = (() => {
   const map = new Map();
   for (const stage of ['live', 'beta']) {
-    const path = `${REPO}/Database/GameData/${GAME}/${stage}/items.json`;
+    const path = `${REPO}/Database/GameData/${DB}/${stage}/items.json`;
     if (!fs.existsSync(path)) continue;
     const raw = JSON.parse(fs.readFileSync(path, 'utf8'));
     const rows = Array.isArray(raw) ? raw : (raw.items || Object.values(raw)[0] || []);
@@ -167,10 +212,13 @@ const ITEM_DESC = (() => {
       // placeholder must never displace a name we already have
       if (it.name && !PLACEHOLDER.test(String(it.name)))
         ITEM_NAME.set(String(it.id), String(it.name));
+      if (it.name === CURRENCY && Number(it.rarity)) CURRENCY_TIER = Number(it.rarity);
       for (const tok of new Set(String(it.name || '').toLowerCase().split(/[^a-z0-9]+/)))
         if (tok.length >= 7) WORD_USE.set(tok, (WORD_USE.get(tok) || 0) + 1);
-      // "Gives 20,000 EXP" / "Provides <unbreak>6000</unbreak> Light Cone EXP"
-      const exp = /(?:Gives|Provides)\s*(?:<unbreak>)?\s*([\d,]+)\s*(?:<\/unbreak>)?\s*(?:Character |Light Cone )?EXP/i
+      // "Gives 20,000 EXP", "Provides <unbreak>6000</unbreak> Light Cone EXP",
+      // "Provides 1,000 Resonator EXP" - the qualifier is whatever the game
+      // calls its own experience, so allow any words before EXP
+      const exp = /(?:Gives|Provides)\s*(?:<unbreak>)?\s*([\d,]+)\s*(?:<\/unbreak>)?(?:\s+[A-Za-z]+){0,3}\s+EXP/i
         .exec(it.description || '');
       if (exp) EXP_VALUE.set(it.name, Number(exp[1].replace(/,/g, '')));
     }
@@ -322,6 +370,25 @@ const bySource = (items) => {
     Unioned across every tier: GI records the same list on all of them, but HSR
     records none at all and each tier names a different enemy in its flavour
     text, so the union is what produces a cluster instead of a lone face. */
+/** "Clamorlings or Tranquilites" is two enemies in one entry. Split those, so
+    each can be looked up and drawn on its own. */
+const splitNames = (name) => String(name).split(/\s+or\s+|\s*\/\s*/)
+  .map((s) => s.trim()).filter(Boolean);
+
+/** An enemy family named where the database keeps individual monsters. The
+    wiki's category for it lists the members; draw the ones we have art for. */
+function familyMembers(name) {
+  const members = WW_WIKI.families[name] || [];
+  const out = [];
+  for (const m of members) {
+    // "Exile (Enemy)" disambiguates the page, not the monster
+    const clean = m.replace(/\s*\(Enemy\)\s*$/i, '').trim();
+    const icon = resolveIcon(clean);
+    if (icon && !out.some((x) => x.icon === icon)) out.push({ name:clean, icon });
+  }
+  return out;
+}
+
 function sourcesFor(items) {
   const out = [];
   const seen = new Set();
@@ -333,7 +400,19 @@ function sourcesFor(items) {
   };
   for (const it of items) {
     const listed = (it.sourceDetails || [])
-      .map((s) => ({ name:s.name, icon:s.icon || resolveIcon(s.name) || null }));
+      .filter((s) => s.icon || !isPlace(s.name))
+      .flatMap((s) => splitNames(s.name).flatMap((n, i) => {
+        // A family wins over a single face, even one the data handed us:
+        // "Exile" is both one enemy and a group of three, and the group is
+        // what drops the material. Checking this only when the data gave us
+        // nothing left Exile as a lone icon.
+        const members = familyMembers(n);
+        if (members.length > 1) return members;
+        // the shipped icon belongs to the whole entry, so only the first of a
+        // split name may claim it
+        const icon = (i === 0 && s.icon) || resolveIcon(n);
+        return [{ name:n, icon: icon || null }];
+      }));
     if (listed.length) { listed.forEach(add); continue; }
     const guessed = sourceFromDescription(it)
       || (DROPPED_BY_MONSTERS.has(it.kind) ? sourceFromTokens(it) : null);
@@ -379,6 +458,39 @@ function domainLines(sources) {
   return parts.length > 1 ? parts : null;
 }
 
+/** Sum duplicate ids, so a material billed by both ascension and talents lands
+    in one entry before anything reads the ladders. */
+const sumIds = (items) => {
+  const acc = new Map();
+  for (const it of items) {
+    const prev = acc.get(String(it.id));
+    acc.set(String(it.id), prev ? { ...prev, qty:prev.qty + it.qty } : { ...it });
+  }
+  return [...acc.values()];
+};
+
+/** A rarity ladder in id order, ignoring the source list. Wuthering Waves
+    records a different source for the lower two tiers of a family than for the
+    upper two - the weak ones also drop from a Forgery Challenge - so grouping
+    on the source splits every family in half. The ladder is the real shape. */
+const byLadder = (items) => {
+  const sorted = [...items].sort((a, b) => String(a.id).localeCompare(String(b.id)));
+  const runs = [];
+  let run = [];
+  for (const it of sorted) {
+    if (run.length && it.rar <= run[run.length - 1].rar) { runs.push(run); run = []; }
+    run.push(it);
+  }
+  if (run.length) runs.push(run);
+  return runs;
+};
+
+/** A width that fills its rows evenly: 15 cells go 5x3, not 7+7+1. */
+const gridCols = (cells) => {
+  const rows = cells <= 12 ? 2 : 3;
+  return Math.max(4, Math.ceil(cells / rows));
+};
+
 // a family: top-tier icon, one figure per tier, plus its shared source list.
 // An absent family is null, not an empty shell - Pyro Traveler genuinely has no
 // weekly boss material, and the card should leave that column out.
@@ -393,6 +505,7 @@ const family = (items, extra = {}) => {
     tiers: items.map((i) => i.rar),
     qty: items.map((i) => i.qty),
     sources: [], lines: asLines,
+    rawSources: [...new Set(items.flatMap((i) => (i.sourceDetails || []).map((s) => s.name)))],
     lookup: realName(top),
     ...extra,
   };
@@ -402,6 +515,9 @@ const family = (items, extra = {}) => {
     tiers: items.map((i) => i.rar),
     qty: items.map((i) => i.qty),
     sources: found,
+    // every name the data listed, before places were filtered and captions
+    // replaced them - the scrapers key off this
+    rawSources: [...new Set(items.flatMap((i) => (i.sourceDetails || []).map((s) => s.name)))],
     lookup: realName(top),
     ...extra,
   };
@@ -584,7 +700,7 @@ function buildCharacterGI(name) {
     const head = [...weeks, ...mobs, family(pick(asc, 'specialty'))];
     const rest = [family(gemGroup), withLo(family(crown), crown9), ...vols,
                   expEquivalent(lvl.items),
-                  { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3],
+                  { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
                     qty:[mora(moraMax)], lo:[mora(mora9)], sources:[] }];
     tiles = [...head, ...rest].filter((f) => f && f.qty.length);
     // wide enough that the header strip clears the talent block in the corner
@@ -608,7 +724,7 @@ function buildCharacterGI(name) {
       crown: withLo(family(crown), crown9),
       gem: family(gemGroup),
       exp: expEquivalent(lvl.items),
-      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3], qty:[mora(moraMax)],
+      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER], qty:[mora(moraMax)],
               lo:[mora(mora9)], sources:[] },
     },
   };
@@ -631,7 +747,7 @@ function buildWeaponGI(weaponName) {
     families: [
       family(domain),
       ...mobs.map((g) => family(g)),
-      { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3], qty:[mora(total)], sources:[] },
+      { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER], qty:[mora(total)], sources:[] },
       expEquivalent(lvl.items),
     ],
   };
@@ -708,7 +824,7 @@ function buildCharacterHSR(name) {
       crown: tracks.length ? family(tracks) : null,
       gem: null,
       exp: expEquivalent(lvl.items),
-      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3],
+      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
               qty:[mora(credits)], raw:credits, sources:[] },
     },
   };
@@ -728,7 +844,7 @@ function buildLightCone(coneName, owner) {
     families: [
       ...groups.map((g) => family(g, wikiHeader(g.at(-1), owner))),
       expEquivalent(lvl.items),
-      { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3],
+      { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
         qty:[mora(total)], raw:total, sources:[] },
     ],
   };
@@ -812,7 +928,7 @@ function buildCharacterZZZ(name) {
       common: null,
       specialty: null,
       exp: expEquivalent(lvl.items),
-      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3],
+      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
               qty:[mora(money)], raw:money, sources:[] },
     },
   };
@@ -830,15 +946,179 @@ function buildWEngine(engineName) {
     families: [
       ...groups.map((g) => family(g, { lines:['W-Engine Mod', zzzKind(g)], sources:[] })),
       expEquivalent(lvl.items),
-      { name:CURRENCY, icon:CURRENCY_ICON, tier:3, tiers:[3],
+      { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
         qty:[mora(total)], raw:total, sources:[] },
     ],
   };
 }
 
-const buildCharacter = { hsr:buildCharacterHSR, zzz:buildCharacterZZZ }[GAME]
+// ---------------------------------------------------------------------------
+// Wuthering Waves. Four-tier ladders where the others have three, one gather
+// item filed as an enemy drop, and no gem or crown at all.
+// ---------------------------------------------------------------------------
+
+/** "Forgery Challenge" over the nations its challenges sit in. */
+function forgeryCaption(items) {
+  // a family we can illustrate keeps its faces; the caption is for the ones we
+  // cannot, or the weapon's enemy tile loses its Exile to a Forgery Challenge
+  // that merely also drops the material
+  if (sourcesFor(items).some((s) => s.icon)) return {};
+  const nations = new Set();
+  let anyChallenge = false;
+  for (const it of items)
+    for (const s of it.sourceDetails || []) {
+      if (!/^Forgery Challenge/i.test(s.name)) continue;
+      anyChallenge = true;
+      if (WW_NATIONS[s.name]) nations.add(WW_NATIONS[s.name]);
+    }
+  // the newest challenges have no wiki page yet, so the type alone is all the
+  // caption can honestly say
+  return anyChallenge ? { lines:['Forgery Challenge', ...nations], sources:[] } : {};
+}
+
+function buildCharacterWUWA(name) {
+  const ch = find(name);
+  if (!ch) return { name, error:'not in roster' };
+  if (!ch.req?.ascension?.length) return { name, error:'no material data yet' };
+  const asc = ch.req?.ascension || [];
+  const talents = ch.req?.talents || [];
+  const lvl = LEVELING.character;
+  const all = sumIds([...asc, ...talents]);
+  const owedTotal = all.filter((i) => i.kind !== 'exp').reduce((s, i) => s + i.qty, 0);
+
+  const pick = (kind) => all.filter((i) => i.kind === kind).sort((a, b) => a.rar - b.rar);
+  const ladders = byLadder(pick('mob')).filter((g) => g.length > 1);
+  const common = ladders.sort((a, b) => b.length - a.length)[0] || [];
+  // Two singles are left once the enemy ladder is taken: the boss drop and a
+  // plant picked off the ground. `kind` separates them for some characters and
+  // calls both 'mob' for others, so go by rarity - the boss drop is the rare
+  // one, the plant is the common one.
+  const leftover = pick('mob').filter((i) => !common.includes(i));
+  const bossDrop = pick('boss')[0] || leftover.find((i) => i.rar >= 4);
+  const gathered = leftover.filter((i) => i !== bossDrop);
+
+  const money = (ch.req?.ascCost || 0) + (ch.req?.talentCost || 0) + (lvl.cost || 0);
+  return {
+    name: displayName(ch.n), title: ch.title || '', element: ch.el, weaponType: ch.w,
+    art: ch.art, icon: ch.icon, skills: ch.skillIcons || [], beta: !!ch.__beta,
+    targets: { hi: talentCaps(ch).join(' / '), lo: null },
+    owedTotal, tiles: null, cols: null, headerCount: null,
+    signature: ch.signatureWeaponName || null,
+    families: {
+      weekly: family(pick('weekly')),
+      boss: family(bossDrop ? [bossDrop] : []),
+      common: family(common),
+      specialty: family(gathered),
+      books: family(byLadder(pick('book'))[0] || [], forgeryCaption(pick('book'))),
+      crown: null,
+      gem: null,
+      exp: expEquivalent(lvl.items),
+      mora: { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
+              qty:[mora(money)], raw:money, sources:[] },
+    },
+  };
+}
+
+// Endfield keeps its materials in a scraped wiki file rather than in the game
+// data, and each carries a `source` line - "Area found: Wuling Outskirts, Rare
+// Gathering Sites, ..." - which is the only provenance the game exposes.
+const AE_SOURCES = (() => {
+  const map = new Map();
+  const path = `${REPO}/Database/EndfieldWiki/endfield/items.json`;
+  if (GAME !== 'ae' || !fs.existsSync(path)) return map;
+  const raw = JSON.parse(fs.readFileSync(path, 'utf8'));
+  for (const [, it] of Object.entries(raw.items || {})) {
+    const where = String(it.source || '').replace(/^Area found:\s*/i, '').split(',')[0].trim();
+    if (it.name && where) map.set(it.name, where);
+  }
+  return map;
+})();
+
+// ---------------------------------------------------------------------------
+// Endfield. No sources recorded anywhere, money is an ordinary item rather than
+// a cost, and a character wants eight separate gathered materials - far more
+// families than any fixed layout holds, so every card is a wide one (§4a).
+// ---------------------------------------------------------------------------
+
+function buildCharacterAE(name) {
+  const ch = find(name);
+  if (!ch) return { name, error:'not in roster' };
+  if (!ch.req?.ascension?.length) return { name, error:'no material data yet' };
+  const lvl = LEVELING.character;
+  const all = sumIds([...(ch.req.ascension || []), ...(ch.req.talents || []),
+                      ...(ch.req.extras || [])]);
+  const owedTotal = all.filter((i) => i.kind !== 'exp' && i.kind !== 'currency')
+                       .reduce((s, i) => s + i.qty, 0);
+  const of = (kind) => all.filter((i) => i.kind === kind).sort((a, b) => a.rar - b.rar);
+
+  const levelCash = (lvl.items || []).filter((i) => i.kind === 'currency');
+  const cash = [...of('currency'), ...levelCash].reduce((s, i) => s + i.qty, 0);
+  const cashIcon = (of('currency')[0] || levelCash[0] || {}).icon || CURRENCY_ICON;
+  // Endfield states no EXP values anywhere, so the packs cannot collapse to a
+  // top-tier equivalent (§3). They render as the ladders they are instead.
+  // Endfield ids are names, so id order says nothing about tier. The packs come
+  // in two lines - Combat Records and Cognitive Carriers - and the last two
+  // words of the name are what separates them.
+  const expLadders = [...(lvl.items || []).filter((i) => i.kind === 'exp')
+    .reduce((acc, i) => {
+      const line = i.name.split(/\s+/).slice(-2).join(' ');
+      acc.set(line, [...(acc.get(line) || []), i]);
+      return acc;
+    }, new Map()).values()].map((g) => g.sort((a, b) => a.rar - b.rar));
+  const caption = (i) => {
+    const where = AE_SOURCES.get(i.name);
+    return where ? { lines:[where], sources:[] } : {};
+  };
+  // one tile per ladder, then every gathered material on its own
+  const tiles = [
+    family(of('gem')), family(of('book')),
+    ...of('skill').map((i) => family([i], caption(i))),
+    ...of('specialty').map((i) => family([i], caption(i))),
+    ...expLadders.map((g) => family(g)),
+    { name:of('currency')[0]?.name || CURRENCY, icon:cashIcon, tier:4, tiers:[4],
+      qty:[mora(cash)], raw:cash, sources:[] },
+  ].filter((f) => f && f.qty.length);
+
+  return {
+    name: displayName(ch.n), title: ch.title || '', element: ch.el,
+    weaponType: ch.cls || ch.w, art: ch.art, icon: ch.icon,
+    skills: ch.skillIcons || [], beta: !!ch.__beta,
+    targets: { hi: talentCaps(ch).join(' / '), lo: null },
+    owedTotal, tiles, cols: gridCols(tiles.length + 1), headerCount: 0,
+    signature: ch.signatureWeaponName || null,
+    families: { weekly:null, boss:null, common:null, specialty:null, books:null,
+                crown:null, gem:null, exp:null, mora:null },
+  };
+}
+
+function buildWeaponWUWA(weaponName, owner) {
+  const w = weapons.find((x) => (x.name || '') === weaponName);
+  if (!w) return null;
+  const lvl = LEVELING.weapon[Number(w.rarity)] || LEVELING.weapon[5];
+  // same four-tier ladders as the character, and the same reason to read them
+  // off the ids rather than the source lists
+  const groups = byLadder(sumIds(w.items || [])).filter((g) => g.length > 1)
+    .sort((a, b) => b[b.length - 1].rar - a[a.length - 1].rar);
+  const total = Number(w.cost || 0) + Number(lvl.cost || 0);
+  return {
+    name: w.name, rarity: w.rarity, type: w.weaponType || w.type,
+    icon: w.art || w.icon,
+    families: [
+      // only the forgery material is captioned by its challenge; an enemy line
+      // keeps its own name even when we have no face for it
+      ...groups.map((g) => family(g, g[0].kind === 'book' ? forgeryCaption(g) : {})),
+      expEquivalent(lvl.items),
+      { name:CURRENCY, icon:CURRENCY_ICON, tier:CURRENCY_TIER, tiers:[CURRENCY_TIER],
+        qty:[mora(total)], raw:total, sources:[] },
+    ],
+  };
+}
+
+const buildCharacter = { hsr:buildCharacterHSR, zzz:buildCharacterZZZ,
+                         wuwa:buildCharacterWUWA, ae:buildCharacterAE }[GAME]
                        || buildCharacterGI;
-const buildWeapon = { hsr:buildLightCone, zzz:buildWEngine }[GAME] || buildWeaponGI;
+const buildWeapon = { hsr:buildLightCone, zzz:buildWEngine, wuwa:buildWeaponWUWA,
+                      ae:() => null }[GAME] || buildWeaponGI;
 
 const NAMES = process.argv.slice(3);
 const out = NAMES.map((n) => {
@@ -882,7 +1162,8 @@ for (const c of out) {
   // the shape check assumes one family per slot; a wide entry has several, and
   // theirs are legitimately uneven - Traveler's Resistance and Ballad lines run
   // two tiers because those talents start above the Teachings rank
-  const shapes = c.tiles ? [] : { hsr: [[f.common, 3], [f.books, 3], [f.weekly, 1], [f.boss, 1], [f.crown, 1]],
+  const shapes = c.tiles ? [] : { wuwa: [[f.common, 4], [f.books, 4], [f.weekly, 1], [f.boss, 1]],
+                                  hsr: [[f.common, 3], [f.books, 3], [f.weekly, 1], [f.boss, 1], [f.crown, 1]],
                    zzz: [[f.gem, 3], [f.books, 3], [f.weekly, 1], [f.boss, 1], [f.crown, 1]],
                  }[GAME] || [[f.gem, 4], [f.common, 3], [f.books, 3], [f.weekly, 1], [f.crown, 1]];
   const odd = shapes.filter(([x, n]) => x && x.qty.length !== n)
@@ -890,8 +1171,9 @@ for (const c of out) {
   if (c.weapon) {
     const wf = c.weapon.families;
     if (GAME !== 'gi') {
-      for (const g of wf.slice(0, -2)) if (g.qty.length !== 3)
-        odd.push(`${PROFILE.weaponWord} ${g.name} has ${g.qty.length} tiers, expected 3`);
+      const want = GAME === 'wuwa' ? 4 : 3;
+      for (const g of wf.slice(0, -2)) if (g.qty.length !== want)
+        odd.push(`${PROFILE.weaponWord} ${g.name} has ${g.qty.length} tiers, expected ${want}`);
     } else {
       if (wf[0].qty.length !== 4) odd.push(`weapon domain has ${wf[0].qty.length} tiers, expected 4`);
       for (const g of wf.slice(1, -2)) if (g.qty.length !== 3)

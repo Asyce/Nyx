@@ -12,18 +12,20 @@ node scrape-sites.mjs --for chars.json sites.json   the wiki   -> sites.json
 python render.py      cards.html                    both       -> cards.html
 ```
 
-Genshin is the default; `CARD_GAME=hsr` and `CARD_GAME=zzz` select Star Rail
-(§10) and Zenless (§11). One engine serves all three — the profile in
+Genshin is the default; `CARD_GAME` selects the others — `hsr` (§10), `zzz`
+(§11), `wuwa` (§12) and `ae` (§13). One engine serves all five — the profile in
 `extract.mjs` says only which families that game has and how to present them:
 
-| flag | what it decides | gi | hsr | zzz |
-|---|---|---|---|---|
-| `layout` | the tile order (§4) | 5 wide | 4 wide | 4 wide |
-| `maxLevel` | the level the card is costed to | 90 | 90 | 60 |
-| `showsTargets` | whether the talent block appears at all (§2) | yes | no | no |
-| `lowerMode` | what the dim second figure means (§2a) | talents | with weapon | with weapon |
-| `claimsNew` | whether a missing source means "too new to be catalogued" (§5) | yes | no | no |
-| `weaponWord` | what the second block is called | weapon | light cone | W-Engine |
+| flag | what it decides | gi | hsr | zzz | wuwa | ae |
+|---|---|---|---|---|---|---|
+| `layout` | the tile order (§4) | 5 wide | 4 wide | 4 wide | 4 wide | — |
+| `maxLevel` | the level the card is costed to | 90 | 90 | 60 | 90 | 80 |
+| `showsTargets` | whether the talent block appears (§2) | yes | no | no | no | no |
+| `lowerMode` | what the dim second figure means (§2a) | talents | with weapon | with weapon | with weapon | with weapon |
+| `claimsNew` | a missing source means "too new to be catalogued" (§5) | yes | no | no | no | no |
+| `weaponWord` | what the second block is called | weapon | light cone | W-Engine | weapon | weapon |
+| `dbDir` | where `Database/GameData` keeps it, when not the game key | — | — | — | `ww` | — |
+| `alwaysWide` | every card gets an explicit tile order (§4a) | — | — | — | — | yes |
 
 Every boolean defaults to the conservative answer for a game nobody has looked
 at yet: no talent block, no **new** claim.
@@ -336,6 +338,13 @@ unavoidable price of a full circle, and it affects 9 of 90 source icons.
   Where it does not, the line is absent entirely — not blank, not zeroed.
 - A figure that drops to **0 prints nothing**.
 - Currency ≥ 1 000 000 → `X.XXM`, else grouped with `.`.
+- A row too wide for its tile **scales its figures down**, which four-tier
+  ladders need — `29/40/52/61` is eleven characters under a 90px tile and used
+  to collide with the next column.
+- **Line heights are fixed pixels, not multiples of the font size.** Cells are
+  bottom-aligned, so a row that shrank its own height lifted its tile out of
+  line with its neighbours — visible wherever one tile's figures scaled and the
+  next tile's did not.
 
 ### 6a. Every icon belongs to its own game
 
@@ -648,7 +657,102 @@ the Zenless monster database uses the same names.
 newest, like Sigrid — render as a character block alone, which §8 already
 covers.
 
-## 12. Known gaps
+## 12. Wuthering Waves
+
+`CARD_GAME=wuwa`, and the database folder is `ww` rather than the game key.
+Four columns like Star Rail, but its ladders run **four tiers**, not three:
+
+| family | shape |
+|---|---|
+| enemy drop | LF / MF / HF / FF, 4 tiers |
+| forgery material | 4 tiers, captioned with its Forgery Challenge |
+| ascension boss drop | 1 |
+| weekly boss drop | 1 |
+| gathered plant | 1 |
+
+**The currency tile takes the money's own rarity**, read from `items.json` — a
+Shell Credit is blue where Mora is gold, and hard-coding a tier painted it
+wrong.
+
+**The forgery material is captioned by nation, not by challenge.** A material
+lists the challenges that drop it — "Forgery Challenge: Abyss of Confession" —
+and each challenge's wiki page names the nation it sits in. Three lines:
+`Forgery Challenge`, then each distinct nation. `scrape-sites.mjs --wuwa`
+collects them; a challenge too new to have a page contributes no line, so the
+caption falls back to the type alone.
+
+**A source that is a place is not drawn as one.** Wuthering Waves lists game
+modes and shops beside enemies — "Forgery Challenge", "Souvenir Store" — and
+they were crowding out the creatures. A source naming **more than 20 distinct
+items** is a mode, not a monster; specific enemies name a handful. The same
+frequency test that separates a boss's proper noun from ordinary vocabulary
+(§5) separates a place from a creature here.
+
+Two more things needed care:
+
+1. **Families are read off the ids, not the sources.** The lower two tiers of a
+   family list a different source from the upper two — the weak ones also drop
+   from a Forgery Challenge — so grouping on the source list splits every family
+   clean in half. `byLadder` walks the ids and breaks where the rarity stops
+   climbing, ignoring the source entirely.
+2. **`kind` separates the boss drop from the plant for some characters and calls
+   both `mob` for others.** Rarity separates them reliably: the boss drop is the
+   rare one, the plant is the common one.
+
+3. **An enemy family is a wiki category.** Wuthering Waves names the *family* —
+   "Whisperins", "Clamorlings", "Howlers" — where the database holds individual
+   monsters. The wiki files each as `Category:<Family> Enemies`, and its members
+   are exactly those monsters, so `scrape-sites.mjs --wuwa` collects them and
+   the card draws the ones it has art for.
+
+   The family list is built from `rawSources`, the unfiltered names the data
+   listed, because by the time a caption has replaced them the names are gone.
+   `"Clamorlings or Tranquilites"` is two families in one string and is split on
+   both sides — in the scraper and in the extractor.
+
+   A page title may disambiguate where the monster does not: `Exile (Enemy)` is
+   the monster `Exile`. A source may also be qualified by where it was seen —
+   `Clamorling TDs in Lahai-Roi` is the Clamorling family — so the qualifier and
+   the plural are stripped before the category is asked for.
+
+   **The family wins over a single face, including one the data supplied.**
+   `Exile` is both an individual monster and a group of three, and the group is
+   what drops the material; checking the category only when the data gave us
+   nothing left that tile showing one icon instead of three.
+
+The **+N** chip is a weapon-strip thing only. A character cluster is a picture
+of where a material comes from, not an inventory, and "+21" beside eight faces
+is noise rather than information.
+
+Four tiers also means eleven characters of figures under a 90px tile, which
+overran into the neighbouring column. The number row now scales down once it
+stops fitting (§6).
+
+## 13. Endfield
+
+`CARD_GAME=ae`. The most different of the five, and the only game that is
+**always wide** (§4a) — a character wants eight separate gathered materials on
+top of its ladders, which no fixed layout holds.
+
+| | Endfield |
+|---|---|
+| ids | strings (`ae:Talos_Cap`), so id order says nothing about tier |
+| sources | none in the game data at all |
+| money | an ordinary item (`T-Creds`), not a cost |
+| EXP | **no stated values anywhere**, so the packs cannot collapse (§3) |
+| gathered materials | eight per character, each its own tile |
+
+- **EXP renders as the ladders it is**, `1/7/74` and `6/46`, rather than a
+  top-tier equivalent. The two lines are told apart by the last two words of the
+  item name — Combat Record and Cognitive Carrier — since the ids cannot.
+- **Captions come from a scraped wiki file**, `Database/EndfieldWiki/endfield/
+  items.json`, whose `source` field reads "Area found: Wuling Outskirts, Rare
+  Gathering Sites, …". The first place named is the caption.
+- Those captions sit **inside the cell**, above the tile, because a wide card's
+  tiles run over several rows and the header strip only spans the first. Every
+  cell reserves the slot so tiles in a row still line up.
+
+## 14. Known gaps
 
 1. **Signature weapon is an automated guess.** The site already warns about this.
    Raiden Shogun resolves to Dragon's Bane, which is wrong.

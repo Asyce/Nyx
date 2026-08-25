@@ -278,3 +278,87 @@ if (process.argv[2] === '--hsr') {
   fs.writeFileSync(process.argv[4], JSON.stringify(out, null, 1));
   console.log('\n' + Object.keys(out).length + '/' + names.size + ' materials resolved');
 }
+
+// ---------------------------------------------------------------------------
+// Wuthering Waves. A forgery material lists the challenges that drop it -
+// "Forgery Challenge: Abyss of Confession" - and the challenge's own page names
+// the nation it sits in. That nation is what the caption wants; the challenge's
+// own name is too long and says less.
+// ---------------------------------------------------------------------------
+const WW_API = 'https://wutheringwaves.fandom.com/api.php';
+
+async function wwWikitext(page) {
+  const file = cacheFile('ww', page);
+  fs.mkdirSync(CACHE, { recursive: true });
+  if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'));
+  const url = `${WW_API}?${new URLSearchParams({ format:'json', formatversion:'2',
+    action:'parse', page, prop:'wikitext', redirects:'1' })}`;
+  const res = await fetch(url, { headers:{ 'user-agent':UA } });
+  const json = res.ok ? await res.json() : null;
+  const text = json?.parse?.wikitext || '';
+  fs.writeFileSync(file, JSON.stringify(text));
+  await sleep(300);
+  return text;
+}
+
+/** The nation an infobox names, whichever infobox the page happens to use. */
+/** Wuthering Waves names an enemy *family* where the database holds individual
+    monsters - "Clamorlings", "Whisperins". The wiki files each as a category,
+    `Category:Clamorling Enemies`, whose members are the monsters themselves. */
+export async function wwCategory(family) {
+  // "Clamorling TDs in Lahai-Roi" is the Clamorling family, seen in one place.
+  // Strip the qualifier and the plural before asking for the category.
+  const stem = String(family)
+    .replace(/\s+TDs?\s.*$/i, '')
+    .replace(/\s+in\s+.*$/i, '')
+    .replace(/s$/, '')
+    .trim();
+  const cat = `Category:${stem} Enemies`;
+  const file = cacheFile('wwcat', cat);
+  fs.mkdirSync(CACHE, { recursive: true });
+  if (fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, 'utf8'));
+  const url = `${WW_API}?${new URLSearchParams({ format:'json', formatversion:'2',
+    action:'query', list:'categorymembers', cmtitle:cat, cmlimit:'max', cmtype:'page' })}`;
+  const res = await fetch(url, { headers:{ 'user-agent':UA } });
+  const json = res.ok ? await res.json() : null;
+  const names = (json?.query?.categorymembers || []).map((m) => m.title);
+  fs.writeFileSync(file, JSON.stringify(names));
+  await sleep(300);
+  return names;
+}
+
+export async function wwNation(challenge) {
+  const text = await wwWikitext(challenge);
+  const m = /\|\s*nation\s*=\s*([^\n|}]+)/i.exec(text);
+  return m ? m[1].trim() : null;
+}
+
+if (process.argv[2] === '--wuwa') {
+  const data = JSON.parse(fs.readFileSync(process.argv[3], 'utf8'));
+  const named = new Set();
+  for (const c of data.characters || []) {
+    if (c.error) continue;
+    const fams = [...Object.values(c.families || {}), ...(c.weapon?.families || [])];
+    // "Clamorlings or Tranquilites" is two families in one string
+    for (const f of fams) for (const n of (f?.rawSources || []))
+      for (const one of String(n).split(/\s+or\s+|\s*\/\s*/))
+        if (one.trim()) named.add(one.trim());
+  }
+  const challenges = [...named].filter((n) => /^Forgery Challenge:/i.test(n)).sort();
+  const families = [...named].filter((n) => !/^Forgery Challenge/i.test(n)).sort();
+
+  const out = { nations:{}, families:{} };
+  for (const name of challenges) {
+    const nation = await wwNation(name);
+    if (nation) out.nations[name] = nation;
+    console.log(`${name.slice(0, 44).padEnd(45)} ${nation || '-- no nation --'}`);
+  }
+  for (const fam of families) {
+    const members = await wwCategory(fam);
+    if (members.length) out.families[fam] = members;
+    console.log(`${fam.slice(0, 44).padEnd(45)} ${members.length || '--'} members`);
+  }
+  fs.writeFileSync(process.argv[4], JSON.stringify(out, null, 1));
+  console.log(`\n${Object.keys(out.nations).length}/${challenges.length} challenges, `
+    + `${Object.keys(out.families).length}/${families.length} enemy families resolved`);
+}

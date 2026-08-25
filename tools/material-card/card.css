@@ -84,6 +84,11 @@ body{margin:0;padding:26px;background:#05040b;display:inline-block;
 
 /* ---------- material cells ---------- */
 .cell{display:flex;flex-direction:column;align-items:center;gap:6px}
+/* a wide layout captions each tile in place; the slot is reserved on every
+   cell so the tiles in a row still line up */
+.cell.capped{justify-content:flex-end}
+.cell.capped .cap{display:flex;flex-direction:column;justify-content:flex-end;
+  min-height:26px;margin-bottom:-2px}
 .tile{position:relative;display:block;width:@@TILE@@px;height:@@TILE@@px;border-radius:9px;
   border:2px solid var(--line);background:linear-gradient(180deg,var(--top),var(--mid) 52%,var(--bot))}
 .tile::before{content:"";position:absolute;inset:3px;border-radius:6px;
@@ -97,12 +102,18 @@ body{margin:0;padding:26px;background:#05040b;display:inline-block;
   opacity:.22;background:var(--eye);z-index:2;
   -webkit-mask:url(@@EYE@@) center/contain no-repeat;mask:url(@@EYE@@) center/contain no-repeat}
 
-.nums{display:grid;justify-content:center;align-items:baseline;font-family:"GI",serif;
-  line-height:1.12;column-gap:1px}
+/* line heights are fixed pixels, not multiples of the font size: a long ladder
+   scales its figures down (see numbers() in render.py) and a proportional
+   line-height would shrink the row with them. The cells are bottom-aligned, so
+   a shorter row lifts its tile out of line with its neighbours. */
+.nums{display:grid;justify-content:center;align-items:baseline;font-family:"GI",serif;font-size:18px;
+  line-height:20px;column-gap:1px}
+/* sized in em off the row, so a long ladder can scale the whole row down and
+   the separators and second line shrink with it */
 .nums i,.nums s{font-style:normal;text-decoration:none;text-align:center}
-.nums i{font-size:18px;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.9)}
-.nums s{font-size:16px;color:rgba(255,255,255,.5)}
-.nums .r2{font-size:14px;color:#9c93c4;text-shadow:0 1px 2px rgba(0,0,0,.8)}
+.nums i{font-size:1em;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.9)}
+.nums s{font-size:.89em;color:rgba(255,255,255,.5)}
+.nums .r2{font-size:.78em;line-height:16px;color:#9c93c4;text-shadow:0 1px 2px rgba(0,0,0,.8)}
 .nums .off{visibility:hidden}
 
 /* ---------- weapon band: same shell, deliberately detached ---------- */

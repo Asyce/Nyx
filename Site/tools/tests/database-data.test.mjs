@@ -208,6 +208,79 @@ test('GI artifact sets expose their highest obtainable rarity tier', () => {
   );
 });
 
+test('HSR Relic Sets use the complete live GameData facts without source residue', () => {
+  const source = readJson('Database/GameData/hsr/live/relics.json');
+  const hsr = readNyxDatabase().games.hsr;
+  const relics = hsr.collections.find((row) => row.key === 'relic-sets');
+  const typeMap = new Map([
+    ['cavern relic', 'RELIC SET'],
+    ['planar ornament', 'PLANETARY ORNAMENT SET'],
+  ]);
+  const renderValue = (value, percent) => {
+    const number = Number(value);
+    if (!Number.isFinite(number)) return String(value ?? '');
+    const raw = percent && Math.abs(number) <= 10 ? number * 100 : number;
+    const fixed = Math.abs(raw) >= 100 ? raw.toFixed(0)
+      : Math.abs(raw) >= 10 ? raw.toFixed(1) : raw.toFixed(2);
+    return fixed.replace(/\.0+$/, '').replace(/(\.\d*[1-9])0+$/, '$1') + (percent ? '%' : '');
+  };
+  const renderBonus = (effect) => cleanDatabaseText(`(${effect.pieces}) ${String(effect.description || '')
+    .replace(/#(\d+)(?:\[[^\]]+\])?(%)?/g, (token, index, percent) => {
+      const value = (effect.params || [])[Number(index) - 1];
+      return value === undefined ? token : renderValue(value, !!percent);
+    })}`);
+
+  assert.equal(relics.key, 'relic-sets');
+  assert.equal(relics.title, 'Relic Sets');
+  assert.equal(relics.source, 'GameData');
+  assert.equal(source.length, 60);
+  assert.equal(source.every((row) => row.contentStatus === 'live'), true);
+  assert.equal(relics.count, 60);
+  assert.equal(relics.items.length, 60);
+  assert.equal(source.reduce((count, row) => count + (row.setEffects || []).length, 0), 92);
+  assert.equal(relics.items.reduce((count, row) => count + row.fields.bonuses.length, 0), 92);
+  assert.equal(new Set(relics.items.map((row) => row.id)).size, 60);
+  const lightCones = hsr.collections.find((row) => row.key === 'light-cones');
+  const lightConeSource = readJson('Database/Prydwen/hsr/collections/light-cones.json');
+  assert.equal(lightCones.source, 'Prydwen');
+  assert.equal(lightCones.count, lightConeSource.entries.length);
+  assert.equal(lightCones.items.length, lightConeSource.entries.length);
+
+  const byId = new Map(relics.items.map((row) => [row.id, row]));
+  for (const row of source) {
+    const type = typeMap.get(row.type);
+    assert.ok(type, `${row.id}: unsupported type ${row.type}`);
+    const bonuses = (row.setEffects || []).map(renderBonus);
+    const actual = byId.get(`hsr-relic-${row.id}`);
+    assert.ok(actual, row.name);
+    assert.deepEqual({
+      id:actual.id,
+      name:actual.name,
+      kind:actual.kind,
+      art:actual.art,
+      fields:actual.fields,
+      status:actual.status,
+      labels:actual.labels,
+    }, {
+      id:`hsr-relic-${row.id}`,
+      name:row.name,
+      kind:'relics',
+      art:`../../Database/${row.assets.icon}`,
+      fields:{ type, bonuses },
+      status:row.contentStatus,
+      labels:[],
+    }, row.name);
+    assert.equal(actual.text, cleanDatabaseText([row.name, `Type: ${type}`, ...bonuses].join('\n')), row.name);
+    assert.equal(fs.existsSync(path.resolve(root, 'Database', row.assets.icon)), true, row.name);
+  }
+
+  const rendered = relics.items.flatMap((row) => [row.text, ...row.fields.bonuses]).join('\n');
+  assert.doesNotMatch(rendered, /#\d+(?:\[[^\]]+\])?/);
+  assert.doesNotMatch(rendered, /<[^>]+>/);
+  assert.equal(relics.items.every((row) => row.art && row.status === 'live'), true);
+  assert.equal(relics.items.some((row) => /Prydwen/i.test(row.art)), false);
+});
+
 test('HSR Monsters and ZZZ Drive Discs expose trustworthy source-native facets', () => {
   const hsrMonsters = readGenerated('hsr').collections.find((row) => row.key === 'monsters');
   const ranks = [...new Set(hsrMonsters.items.map((row) => row.fields.rank).filter(Boolean))].sort();

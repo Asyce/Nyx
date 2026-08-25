@@ -5417,7 +5417,29 @@ function buildCollectionsRaw() {
     ],
     hsr: [
       normalizePrydwenCollection('Prydwen/hsr/collections/light-cones.json', 'Light Cones'),
-      normalizePrydwenCollection('Prydwen/hsr/collections/relic-sets.json', 'Relic Sets'),
+      {
+        ...normalizeGameDataItems('GameData/hsr/live/relics.json', 'Relic Sets', 'GameData', (it) => {
+          if (it.contentStatus !== 'live') return null;
+          const type = {
+            'cavern relic':'RELIC SET',
+            'planar ornament':'PLANETARY ORNAMENT SET',
+          }[it.type];
+          if (!type) return null;
+          const bonuses = (it.setEffects || []).map((effect) =>
+            `(${effect.pieces}) ${cleanDatabaseText(applyKitParams(effect.description, effect.params))}`);
+          return {
+            id:`hsr-relic-${it.id}`,
+            name:it.name,
+            kind:'relics',
+            art:dbAsset(it.assets?.icon),
+            fields:{ type, bonuses },
+            text:cleanDatabaseText([it.name, `Type: ${type}`, ...bonuses].join('\n')),
+            status:it.contentStatus,
+            labels:[],
+          };
+        }),
+        key:'relic-sets',
+      },
     ],
     zzz: [
       normalizePrydwenCollection('Prydwen/zzz/collections/w-engines.json', 'W-Engines'),

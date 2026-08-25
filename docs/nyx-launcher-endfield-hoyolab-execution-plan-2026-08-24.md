@@ -311,6 +311,10 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 3. Observe three genuine upstream changes including a version boundary. Failures remain non-blocking and existing data stays last-known-good.
 4. Promote fields individually only after complete coverage.
 
+### STOP 13
+
+- Items 1-4 and the static-source comparison checks pass; sanitized evidence proves no publication, non-blocking last-known-good failure behavior, three genuine upstream changes including a version boundary, and complete coverage for every promoted field.
+
 ## Phase 14 - Local HSR multi-role bundles
 
 1. Reuse one isolated HoYo WebView profile, exact allowlists, per-capability consent, one operation gate, cancellation generation, and stale-result rejection.
@@ -319,6 +323,10 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 4. Keep separate observations for resources, inventory, builds, achievements, exploration, endgame, events, and currency. Missing means not refreshed; deletion requires a timestamped tombstone.
 5. Migrate through temporary write, flush, reread, decrypt, validate, then atomic replace. V1 stays authoritative on failure and through the first v2 release. Remove it only in a later stable release after another successful validation; never overwrite newer v2 with v1.
 6. For HSR, cover roles, stamina/reserve/check-in, inventory, characters, traces, Light Cones, relics, completed achievements, treasure/exploration, endgame modes, events, and currency reports where the approved source is complete.
+
+### STOP 14
+
+- Items 1-6 and the account-boundary, per-capability, multi-role, migration, privacy, and dedicated test-role checks pass; incomplete capabilities remain disabled, and v1 remains authoritative through the first v2 release.
 
 ## Phase 15 - Encrypted HSR sync and My HoYo
 
@@ -332,13 +340,25 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 8. Add website My HoYo, role/capability status, sync health, deletion, inventory-aware materials, owned builds, and complete approved record cards.
 9. Keep full materials/gear UI on the website; launcher gets quick status, role management, sync, and Open My HoYo. Stale/unsupported data links to the official tool and never shows fake zero progress.
 
+### STOP 15
+
+- Items 1-9 and the calculator, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo; automatic sync remains off.
+
 ## Phase 16 - Genshin account capabilities
 
 Add roles, resin/check-in, inventory, characters, talents, weapons, artifacts, exploration, Spiral Abyss, Imaginarium Theater, events, and currency reports where complete. Keep Genshin achievements disabled.
 
+### STOP 16
+
+- Every listed Genshin capability whose approved source is complete passes account-boundary, calculator, per-capability, multi-role, manual-sync, privacy, and dedicated test-role checks; incomplete capabilities and Genshin achievements remain disabled.
+
 ## Phase 17 - ZZZ account capabilities
 
 Add roles, battery/check-in, inventory, Agents, skills, W-Engines, Drive Discs, Hollow Zero, Shiyu Defense, Deadly Assault, events, and currency reports where complete. Keep ZZZ achievements disabled.
+
+### STOP 17
+
+- Every listed ZZZ capability whose approved source is complete passes account-boundary, calculator, per-capability, multi-role, manual-sync, privacy, and dedicated test-role checks; incomplete capabilities and ZZZ achievements remain disabled.
 
 ## Phase 18 - Automatic sync and source retirement
 
@@ -348,6 +368,10 @@ Add roles, battery/check-in, inventory, Agents, skills, W-Engines, Drive Discs, 
 4. Retire the injected HSR reader only after launcher sync and local/file fallbacks are accepted.
 5. Retire factual third-party data only after complete coverage, three-change shadow evidence including a version boundary, successful builds, and tested fallback.
 6. Keep Nyx recommendations, Library/lore, banners/events/codes, WuWa, and Endfield sources unchanged.
+
+### STOP 18
+
+- Items 1-6 pass; automatic sync is enabled only after every item 1 test passes, the injected HSR reader has accepted launcher-sync and local/file-fallback evidence, and each retired factual source has complete-coverage, three-change/version-boundary, build, and tested-fallback evidence.
 
 ## Completion audit
 

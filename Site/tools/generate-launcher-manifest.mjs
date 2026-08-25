@@ -1328,6 +1328,7 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
       upcoming,
       news,
       codes: codes.get(game) ?? [],
+      collections: [],
     };
   }
   // Revision is content-addressed and deliberately excludes the clock. A
@@ -1357,6 +1358,7 @@ export function validatePackagedManifest(manifest, { now = Date.now(), maxAgeMs 
   for (const game of GAMES) {
     const entry = manifest?.games?.[game];
     if (entry?.game !== game || manifest?.health?.games?.[game]?.status !== 'ok') errors.push(`${game} identity or health is invalid`);
+    if (!Object.hasOwn(entry ?? {}, 'collections') || !Array.isArray(entry.collections) || entry.collections.length !== 0) errors.push(`${game} collections must be an empty array`);
     if (!entry?.current?.selectedCharacter?.name) errors.push(`${game} has no current selection`);
     if (!(entry?.current?.selectedCharacter?.variants?.length > 0)) errors.push(`${game} current selection has no splash art`);
     const currentStart = Date.parse(entry?.current?.start ?? '');

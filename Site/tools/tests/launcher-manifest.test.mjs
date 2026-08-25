@@ -46,6 +46,22 @@ test('launcher code reconciliation rejects malformed or partial feeds without mu
   assert.deepEqual(manifest, original, 'input manifest must remain unchanged after rejected feeds');
 });
 
+test('launcher schema v1 emits and validates empty game collections', () => {
+  const manifest = buildManifest({ banners: {}, events: {}, rosters: {}, now: NOW, generatedAt: '2026-07-17T00:00:00.000Z' });
+  for (const game of Object.values(manifest.games)) {
+    assert.equal(Object.hasOwn(game, 'collections'), true);
+    assert.deepEqual(game.collections, []);
+  }
+
+  const missing = structuredClone(manifest);
+  delete missing.games.gi.collections;
+  assert.throws(() => validatePackagedManifest(missing, { now: NOW }), /gi collections must be an empty array/);
+
+  const nonEmpty = structuredClone(manifest);
+  nonEmpty.games.gi.collections = ['unexpected'];
+  assert.throws(() => validatePackagedManifest(nonEmpty, { now: NOW }), /gi collections must be an empty array/);
+});
+
 test('strict official links accept only HTTPS publisher hosts', () => {
   assert.equal(officialUrl('https://genshin.hoyoverse.com/en/news/1#unsafe', 'gi'), 'https://genshin.hoyoverse.com/en/news/1');
   assert.equal(officialUrl('https://example.com/news', 'gi'), null);
@@ -276,6 +292,7 @@ test('packaged manifest validation rejects stale time, expired windows, bad coun
   };
   const games = Object.fromEntries(['gi', 'hsr', 'zzz', 'wuwa', 'ae'].map((game) => [game, {
     game,
+    collections: [],
     current: {
       start: '2026-07-16T00:00:00.000Z',
       end: '2026-07-18T00:00:00.000Z',

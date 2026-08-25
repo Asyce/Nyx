@@ -188,6 +188,7 @@ function normalizeText(text = '') {
 }
 
 const MONTH_SHORT = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
+const YEAR_MS = 365 * 24 * 60 * 60 * 1000;
 
 // Parse a single date expression like "April 21, 2026" or "Apr. 17, 2026".
 // Returns { year, month0, day } or null.
@@ -256,6 +257,15 @@ function extractDateRange(str, hourUtc) {
 
   const tokens = parseDateTokens(str);
   return { start: null, end: tokensToIso(tokens, hourUtc) };
+}
+
+function repairImpossibleCurrentEnd(result) {
+  const currentEnd = Date.parse(result?.current?.end);
+  const nextStart = Date.parse(result?.next?.start);
+  if (Number.isFinite(currentEnd) && Number.isFinite(nextStart) && currentEnd - nextStart > YEAR_MS) {
+    result.current.end = result.next.start;
+  }
+  return result;
 }
 
 function extractWuwaAvailableRows($, hourUtc, now) {
@@ -1250,7 +1260,7 @@ async function tryGame8(game) {
   console.log(`[${game.id}] Fetching game8: ${game.game8Url}`);
   try {
     const html = await fetchHtml(game.game8Url);
-    const result = parseGame8Page(html, game);
+    const result = repairImpossibleCurrentEnd(parseGame8Page(html, game));
     if (result && (result.current.end || result.next.end)) {
       console.log(`[${game.id}] game8 OK — current end: ${result.current.end}, next end: ${result.next.end}`);
       return { result, source: 'game8' };
@@ -1908,6 +1918,7 @@ module.exports = {
   localizeTeaserArt,
   parseGame8RoadmapCharacters,
   parseGame8UpcomingCharacters,
+  repairImpossibleCurrentEnd,
   roadmapSnapshot,
   scrapeGame8RoadmapCharacters,
   scrapeGame8UpcomingCharacters,

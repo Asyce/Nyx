@@ -12,6 +12,7 @@ const {
   fetchTeaserArt,
   localizeTeaserArt,
   parseGame8RoadmapCharacters,
+  repairImpossibleCurrentEnd,
   requiredCurrentSourceFailures,
   roadmapSnapshot,
   scrapeGame8RoadmapCharacters,
@@ -26,6 +27,15 @@ const { requiredBannerFreshnessFailures } = require('../normalize.cjs');
 
 const silentLogger = { error() {} };
 const quietLogger = { log() {}, error() {} };
+
+test('an impossible current end uses the known next-phase boundary', () => {
+  const result = repairImpossibleCurrentEnd({
+    current:{ end:'2206-09-01T10:00:00.000Z' },
+    next:{ start:'2026-09-01T10:00:00.000Z' },
+  });
+
+  assert.equal(result.current.end, result.next.start);
+});
 
 test('an expected source outage has the distinct retryable exit status 2', async () => {
   const exitCode = await runCli(async () => {

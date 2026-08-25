@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-24T02:51:02.524Z",
-  "updated": "2026-08-24T02:51:02.524Z",
+  "checkedAt": "2026-08-25T18:54:15.313Z",
+  "updated": "2026-08-25T18:54:15.313Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
         "source": "game8"
       },
       "current": {
@@ -135,8 +135,8 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z"
       }
     },
     {
@@ -144,8 +144,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
         "source": "game8"
       },
       "current": {
@@ -164,7 +164,7 @@
             "imageFallbackZoom": true
           }
         ],
-        "end": "2206-09-01T10:00:00.000Z",
+        "end": "2026-09-01T10:00:00.000Z",
         "source": "game8"
       },
       "next": {
@@ -285,8 +285,8 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z"
       }
     },
     {
@@ -294,8 +294,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
         "source": "game8"
       },
       "current": {
@@ -359,8 +359,8 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z"
       }
     },
     {
@@ -368,8 +368,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
         "source": "game8"
       },
       "current": {
@@ -486,8 +486,8 @@
       ],
       "roadmapFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z"
       }
     },
     {
@@ -495,8 +495,8 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z",
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
         "source": "game8"
       },
       "current": {
@@ -545,8 +545,8 @@
       ],
       "teaserFreshness": {
         "source": "game8",
-        "checkedAt": "2026-08-24T02:51:02.524Z",
-        "lastSuccessfulFetch": "2026-08-24T02:51:02.524Z"
+        "checkedAt": "2026-08-25T18:54:15.313Z",
+        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z"
       }
     }
   ]

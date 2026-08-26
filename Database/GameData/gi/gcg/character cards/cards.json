@@ -713,7 +713,7 @@
     },
     "type": "Character",
     "cost": 3,
-    "hp": 10,
+    "hp": 12,
     "relatedCardId": "211081",
     "icon": "UI_Gcg_CardFace_Char_Avatar_Qiqi",
     "tags": [
@@ -1987,7 +1987,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -2062,7 +2062,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 }
               }
             }
@@ -2164,7 +2164,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k51": {
                   "name": "<color=#FFFFFFFF>Charged Attack</color>",
@@ -2225,7 +2225,7 @@
                     },
                     "k102": {
                       "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                      "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                      "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                     },
                     "k51": {
                       "name": "<color=#FFFFFFFF>Charged Attack</color>",
@@ -2283,7 +2283,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k51": {
                   "name": "<color=#FFFFFFFF>Charged Attack</color>",
@@ -2379,7 +2379,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -2476,7 +2476,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -2502,7 +2502,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -2602,7 +2602,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -2723,7 +2723,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -2798,7 +2798,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 }
               }
             }
@@ -2820,7 +2820,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -2849,7 +2849,7 @@
                 },
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 }
               }
             }
@@ -3060,7 +3060,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k5": {
                   "name": "<color=#FFFFFFFF>Piercing DMG</color>",
@@ -3204,7 +3204,7 @@
                   "child": {
                     "k102": {
                       "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                      "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                      "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                     },
                     "c112133": {
                       "name": "Small Bolstering Bubblebalm",
@@ -3447,7 +3447,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -3648,7 +3648,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -3665,7 +3665,7 @@
         },
         "12164": {
           "name": "Modular Efficiency Protocol",
-          "desc": "<color=#FFFFFFFF>When $[K3006] is attached to your card</color>: If there is <color=#FFFFFFFF>$[C112161]</color> on your side, it gains 1 Usage, otherwise, gains 1 $[K310]. (Once per Round)",
+          "desc": "(Passive) <color=#FFFFFFFF>When $[K3006] is attached to your card</color>: If there is <color=#FFFFFFFF>$[C112161]</color> on your side, it gains 1 Usage, otherwise, gains 1 $[K310]. (Once per Round)",
           "child": {
             "k3006": {
               "name": "<color=#FFFFFFFF>Empowerment</color>",
@@ -3677,7 +3677,7 @@
               "child": {
                 "k102": {
                   "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -3698,6 +3698,144 @@
     },
     "playableCharacter": "Aino",
     "localAsset": "GameData/gi/gcg/character cards/assets/1216-Aino.webp"
+  },
+  {
+    "id": "1217",
+    "name": "Columbina",
+    "title": "\"Welkin Moon's Homecoming\" Columbina",
+    "description": "Moonlit Dove, Where Lies Your Cove?",
+    "source": "Reward for inviting Columbina to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with her",
+    "sourceUrl": "https://gi.nanoka.cc/gcg/1217",
+    "localizedNames": {
+      "en": "Columbina",
+      "zh": "哥伦比娅",
+      "ja": "コロンビーナ",
+      "ko": "콜롬비나"
+    },
+    "type": "Character",
+    "cost": 3,
+    "hp": 10,
+    "relatedCardId": "212171",
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Columbina",
+    "tags": [
+      "Hydro",
+      "Catalyst",
+      "Nod-Krai"
+    ],
+    "details": {
+      "talent": {
+        "12171": {
+          "name": "Moondew Cascade",
+          "desc": "Deal $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].\\nIf there is a card with $[K3005] attached to it in your Hand, place 1 random card on top of your Deck, then deal 1 $[K107] DMG. (Once per Round)",
+          "child": {
+            "d_key_damage": 1,
+            "d_key_element": "GCG_ELEMENT_HYDRO",
+            "k3005": {
+              "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+              "desc": ""
+            },
+            "k107": {
+              "name": "{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>",
+              "desc": "Applies {SPRITE_PRESET#2107}Dendro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+            }
+          },
+          "tag": "GCG_SKILL_TAG_A",
+          "cost": {
+            "gcg_cost_dice_hydro": 1,
+            "gcg_cost_dice_void": 2
+          }
+        },
+        "12172": {
+          "name": "Eternal Tides",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C112172]</color>.",
+          "child": {
+            "c112172": {
+              "name": "Gravity Ripple",
+              "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+              "child": {
+                "k102": {
+                  "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
+                  "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
+                },
+                "k3": {
+                  "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                  "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                }
+              }
+            }
+          },
+          "tag": "GCG_SKILL_TAG_E",
+          "cost": {
+            "gcg_cost_dice_hydro": 3
+          }
+        },
+        "12173": {
+          "name": "Moonlit Melancholy",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C112171]</color>.",
+          "child": {
+            "c112171": {
+              "name": "Lunar Domain",
+              "desc": "",
+              "child": {}
+            }
+          },
+          "tag": "GCG_SKILL_TAG_Q",
+          "cost": {
+            "gcg_cost_dice_hydro": 3,
+            "gcg_cost_energy": 3
+          }
+        },
+        "12174": {
+          "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+          "desc": "[Passive] During this match, when your opponent takes <color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}Electro-Charged Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}Bloom Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}Hydro Crystallize Reaction</color> DMG, the reaction will be converted to the <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction.\\nAfter your opponent takes <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction DMG: Deals 1 $[K104]/$[K107]/$[K106]. (Once per Round)",
+          "child": {
+            "k3001": {
+              "name": "<color=#FFFFFFFF>Lunar-Charged</color>",
+              "desc": "Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit.)\\nWhen the [<color=#FFFFFFFF>Thundercloud</color>] is created or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand."
+            },
+            "k3009": {
+              "name": "<color=#FFFFFFFF>Lunar-Bloom</color>",
+              "desc": "Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand."
+            },
+            "k3010": {
+              "name": "<color=#FFFFFFFF>Lunar-Crystallize</color>",
+              "desc": "This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
+            },
+            "k104": {
+              "name": "{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color>",
+              "desc": "Applies {SPRITE_PRESET#2104}Electro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Overloaded</color>: DMG +2 for this instance, the target is forcibly switched to the next character\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Superconduct</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2104}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)"
+            },
+            "k107": {
+              "name": "{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro DMG</color>",
+              "desc": "Applies {SPRITE_PRESET#2107}Dendro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Burning</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Burning Flame</color>] that will deal 1 Pyro DMG at the end of the Round (Takes effect once, max 2 stacks)\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Quicken</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Catalyzing Field</color>] that grants +1 DMG to the next 2 instances of Dendro or Electro DMG\\n{SPRITE_PRESET#2107}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+            },
+            "k106": {
+              "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
+              "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
+            }
+          },
+          "tag": "GCG_SKILL_TAG_PASSIVE",
+          "cost": {}
+        },
+        "12175": {
+          "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+          "desc": "",
+          "child": {},
+          "tag": "GCG_SKILL_TAG_PASSIVE",
+          "cost": {}
+        },
+        "12176": {
+          "name": "Moondew Cascade",
+          "desc": "",
+          "child": {},
+          "tag": "GCG_SKILL_TAG_PASSIVE",
+          "cost": {}
+        }
+      },
+      "related": "212171"
+    },
+    "playableCharacter": "Columbina",
+    "localAsset": "GameData/gi/gcg/character cards/assets/1217-Columbina.webp"
   },
   {
     "id": "1301",
@@ -5548,7 +5686,7 @@
             "d_key_element": "GCG_ELEMENT_PYRO",
             "c113175": {
               "name": "Essential Transmutation",
-              "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
+              "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 1 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
               "child": {
                 "k103": {
                   "name": "{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro DMG</color>",
@@ -7426,7 +7564,7 @@
             },
             "k102": {
               "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-              "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+              "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
             },
             "c114163": {
               "name": "Nightsoul's Blessing",
@@ -7447,7 +7585,7 @@
             },
             "k102": {
               "name": "{SPRITE_PRESET#2102}<color=#80C0FFFF>Hydro DMG</color>",
-              "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>：DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usages: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand"
+              "desc": "Applies {SPRITE_PRESET#2102}Hydro and can trigger the following Elemental Reactions:\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Vaporize</color>: DMG +2 for this instance\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro-Charged</color>: DMG +1 for this instance, deal 1 Piercing DMG to all opposing characters except the target.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Frozen</color>: DMG +1 for this instance, the target is unable to perform any Actions this Round. (Can be removed in advance after the target receives +2 Physical or Pyro DMG)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Bloom</color>: DMG +1 for this instance, creates a [<color=#FFFFFFFF>Dendro Core</color>] that grants +2 DMG to the next instance of Pyro or Electro DMG.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Lunar-Charged</color>: Creates a [<color=#FFFFFFFF>Thundercloud</color>] that deals 2 {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro DMG</color> at the end of the Round. (Usage: 1. Can stack, no stack limit. When created, or when its usages increase, apply [<color=#FFFFFFFF>Electric Shock</color>] to a random card in your opponent's Hand.)\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}<color=#FFFFFFFF>Lunar Bloom</color>: Deal +1 DMG for this instance, and apply [<color=#FFFFFFFF>Cost Reduction</color>] to a random card in your Hand.\\n{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 [<color=#FFFFFFFF>Moondrift Harmony</color>] that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
             },
             "c114163": {
               "name": "Nightsoul's Blessing",
@@ -9353,7 +9491,7 @@
             },
             "c115161": {
               "name": "Purr-loined Treasure Flask",
-              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K105]</color> once again.",
               "child": {
                 "a1516": "Jahoda",
                 "k1": {
@@ -9401,11 +9539,11 @@
         },
         "15164": {
           "name": "Moonsign Benediction: Rooftop Dash",
-          "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
+          "desc": "(Passive) When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
           "child": {
             "c115161": {
               "name": "Purr-loined Treasure Flask",
-              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K105]</color> once again.",
               "child": {
                 "a1516": "Jahoda",
                 "k1": {
@@ -9428,11 +9566,11 @@
         },
         "15165": {
           "name": "Moonsign Benediction: Rooftop Dash",
-          "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
+          "desc": "(Passive) When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)",
           "child": {
             "c115161": {
               "name": "Purr-loined Treasure Flask",
-              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+              "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K105]</color> once again.",
               "child": {
                 "a1516": "Jahoda",
                 "k1": {
@@ -9628,7 +9766,7 @@
                 },
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -9699,7 +9837,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -9725,7 +9863,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -9821,7 +9959,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -9855,7 +9993,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k3": {
                   "name": "<color=#FFFFFFFF>Usage(s)</color>",
@@ -9943,7 +10081,7 @@
                 },
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 }
               }
             },
@@ -9987,7 +10125,7 @@
                 },
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -10062,7 +10200,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -10088,7 +10226,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -10102,7 +10240,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "c111": {
                   "name": "Crystallize",
@@ -10315,7 +10453,7 @@
                 },
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k4": {
                   "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -10359,7 +10497,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "c116081": {
                   "name": "Crystal Shrapnel",
@@ -10536,7 +10674,7 @@
                   "child": {
                     "k106": {
                       "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                     },
                     "k5": {
                       "name": "<color=#FFFFFFFF>Piercing DMG</color>",
@@ -10579,7 +10717,7 @@
               "child": {
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k5": {
                   "name": "<color=#FFFFFFFF>Piercing DMG</color>",
@@ -10661,7 +10799,7 @@
                 },
                 "k106": {
                   "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                 },
                 "k58": {
                   "name": "<color=#FFFFFFFF>{SPRITE_PRESET#3008}Technique</color>",
@@ -10698,7 +10836,7 @@
                   "child": {
                     "k106": {
                       "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                     },
                     "k4": {
                       "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -10729,7 +10867,7 @@
                   "child": {
                     "k106": {
                       "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
-                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)"
+                      "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
                     },
                     "k4": {
                       "name": "<color=#FFFFFFFF>Duration (Rounds)</color>",
@@ -10748,6 +10886,111 @@
     },
     "playableCharacter": "Xilonen",
     "localAsset": "GameData/gi/gcg/character cards/assets/1611-Xilonen.webp"
+  },
+  {
+    "id": "1612",
+    "name": "Illuga",
+    "title": "\"Nightmare's Burning Heart\" Illuga",
+    "description": "Shining Through Nightmares, Herald of the Day.",
+    "source": "Reward for inviting Illuga to a duel at The Cat's Tail and claiming victory in a Friendly Fracas with him",
+    "sourceUrl": "https://gi.nanoka.cc/gcg/1612",
+    "localizedNames": {
+      "en": "Illuga",
+      "zh": "叶洛亚",
+      "ja": "イルーガ",
+      "ko": "일루가"
+    },
+    "type": "Character",
+    "cost": 2,
+    "hp": 10,
+    "relatedCardId": "216121",
+    "icon": "UI_Gcg_CardFace_Char_Avatar_Illuga",
+    "tags": [
+      "Geo",
+      "Polearm",
+      "Nod-Krai"
+    ],
+    "details": {
+      "talent": {
+        "16121": {
+          "name": "Oathkeeper's Spear",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].",
+          "child": {
+            "d_key_damage": 2,
+            "d_key_element": "GCG_ELEMENT_VOID"
+          },
+          "tag": "GCG_SKILL_TAG_A",
+          "cost": {
+            "gcg_cost_dice_geo": 1,
+            "gcg_cost_dice_void": 2
+          }
+        },
+        "16122": {
+          "name": "Dawnbearing Songbird",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C116121]</color> to your Hand.",
+          "child": {
+            "c116121": {
+              "name": "Aedon",
+              "desc": "$[K1]: Select 1 opposing character and deal 1 <color=#FFFFFFFF>$[K106]</color> to them.",
+              "child": {
+                "k1": {
+                  "name": "<color=#FFFFFFFF>Combat Action</color>",
+                  "desc": "After you finish 1 Combat Action, it will be your opponent's turn.\\n<color=#FFFFFFFF>Playing a card from your Hand with this rule is also a Combat Action rather than a Fast Action</color>."
+                },
+                "k106": {
+                  "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
+                }
+              }
+            }
+          },
+          "tag": "GCG_SKILL_TAG_E",
+          "cost": {
+            "gcg_cost_dice_geo": 3
+          }
+        },
+        "16123": {
+          "name": "Shadowless Reflection",
+          "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C116122]</color> with 3 Usage(s).",
+          "child": {
+            "c116122": {
+              "name": "Nightingale's Song",
+              "desc": "Enemy target takes +1 <color=#FFFFFFFF>$[K106]</color>.\\n<color=#FFFFFFFF>$[K3]: 1</color> (Can stack, no stack limit)\\nAfter you bring forth a Summon, this card gains 1 <color=#FFFFFFFF>Usage</color>.",
+              "child": {
+                "k106": {
+                  "name": "{SPRITE_PRESET#2106}<color=#FFE699FF>Geo DMG</color>",
+                  "desc": "Reacts with Elements if they are already applied:\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2101}<color=#FFFFFFFF>Cryo Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Hydro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2103}<color=#FFFFFFFF>Pyro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2104}<color=#FFFFFFFF>Electro Crystallize</color>: DMG +1 for this instance, your active character gains 1 Shield point (Can stack, max 2 points)\\n{SPRITE_PRESET#2106}{SPRITE_PRESET#2102}<color=#FFFFFFFF>Lunar-Crystallize</color>: This DMG +1, and create 1 <color=#FFFFFFFF>Moondrift Harmony</color> that can summon and enhance <color=#FFFFFFFF>Moondrift</color> and add it to your Hand."
+                },
+                "k3": {
+                  "name": "<color=#FFFFFFFF>Usage(s)</color>",
+                  "desc": "After this card's effect is triggered, 1 <color=#FFFFFFFF>Usage</color> of it will be consumed.\\nThis card will be discarded immediately once it has 0 <color=#FFFFFFFF>Usages</color> remaining."
+                }
+              }
+            }
+          },
+          "tag": "GCG_SKILL_TAG_Q",
+          "cost": {
+            "gcg_cost_dice_geo": 3,
+            "gcg_cost_energy": 2
+          }
+        },
+        "16124": {
+          "name": "Moonsign Benediction: Unwithering in Winter",
+          "desc": "(Passive) When a card whose name was not in your initial deck is added to your Hand, apply it $[K3005]. (Once per Round)",
+          "child": {
+            "k3005": {
+              "name": "<color=#FFFFFFFF>Cost Reduction</color>",
+              "desc": ""
+            }
+          },
+          "tag": "GCG_SKILL_TAG_PASSIVE",
+          "cost": {}
+        }
+      },
+      "related": "216121"
+    },
+    "playableCharacter": "Illuga",
+    "localAsset": "GameData/gi/gcg/character cards/assets/1612-Illuga.webp"
   },
   {
     "id": "1701",

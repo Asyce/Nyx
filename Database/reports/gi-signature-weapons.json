@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-19T07:31:02.331Z",
-  "startedAt": "2026-08-19T07:30:06.520Z",
+  "generatedAt": "2026-08-26T07:35:33.330Z",
+  "startedAt": "2026-08-26T07:34:42.598Z",
   "dryRun": false,
   "source": "GameWith character build pages + web consensus fallback",
   "sourcePage": "https://gamewith.net/genshin-impact/article/show/22357",
@@ -110,17 +110,17 @@
           "status": "no-match"
         },
         {
-          "title": "Alyosha Best Build and Teams | Genshin Impact｜Game8",
-          "url": "https://game8.co/games/Genshin-Impact/archives/606884",
-          "domain": "game8.co",
+          "title": "Alyosha | Genshin Impact Wiki | Fandom",
+          "url": "https://genshin-impact.fandom.com/wiki/Alyosha",
+          "domain": "genshin-impact.fandom.com",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
         },
         {
-          "title": "Alyosha | Genshin Impact Wiki | Fandom",
-          "url": "https://genshin-impact.fandom.com/wiki/Alyosha",
-          "domain": "genshin-impact.fandom.com",
+          "title": "Alyosha Best Build and Teams | Genshin Impact｜Game8",
+          "url": "https://game8.co/games/Genshin-Impact/archives/606884",
+          "domain": "game8.co",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
@@ -138,25 +138,9 @@
           "matchedText": "w are Alyosha's best weapons. Alyosha mainly wants Energy Recharge to use his Elemental Burst every rotation, while also benefiting from ATK due to his healing and damage scaling. Engulfing Lightning R1 Timeless Dream: Eternal Stove Base ATK: 608 Energy Recharge: 55.1% ATK increased by 28% / 35% / 42% / 49% / 56% of Energy Recharge over the base 100%. You ca"
         },
         {
-          "title": "Alyosha Guide, Profile, Talents and Constellations",
-          "url": "https://www.icy-veins.com/genshin-impact/alyosha-profile-talents-constellations",
-          "domain": "icy-veins.com",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Alyosha Build - Genshin.gg",
-          "url": "https://genshin.gg/characters/alyosha/",
-          "domain": "genshin.gg",
-          "query": "Alyosha Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Alyosha Best Build Guide - vgtimes.com",
-          "url": "https://vgtimes.com/guides/164250-genshin-impact-alyosha-best-build-guide.html",
-          "domain": "vgtimes.com",
+          "title": "Alyosha Quick Guide - KQM - KeqingMains",
+          "url": "https://keqingmains.com/q/alyosha-quickguide/",
+          "domain": "keqingmains.com",
           "query": "Alyosha Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
@@ -217,49 +201,17 @@
           "status": "no-match"
         },
         {
-          "title": "Vesna Profile, Talents and Constellations - Icy Veins",
-          "url": "https://www.icy-veins.com/genshin-impact/vesna-profile-talents-constellations",
+          "title": "Vesna Guide and Best Builds - Genshin Impact - Icy Veins",
+          "url": "https://www.icy-veins.com/genshin-impact/vesna-guide-best-builds",
           "domain": "icy-veins.com",
           "query": "Vesna Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
         },
         {
-          "title": "Genshin 7.1 Banners - Vesna and Vodyanitsa leaks and release date",
-          "url": "https://www.u7buy.com/blog/genshin-impact-7-1-banners/",
-          "domain": "u7buy.com",
-          "query": "Vesna Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact | Vesna - Release Date & Who Is? - GameWith",
-          "url": "https://gamewith.net/genshin-impact/article/show/76472",
-          "domain": "gamewith.net",
-          "query": "Vesna Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Vesna kit leaked: Talents, passive, and constellations",
-          "url": "https://www.sportskeeda.com/esports/genshin-impact-vesna-kit-leaked-talents-passive-constellations",
-          "domain": "sportskeeda.com",
-          "query": "Vesna Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin 7.0 Banners: Odette, Alyosha, Reruns & Pull Guide",
-          "url": "https://www.gamsgo.com/blog/genshin-impact-7-0-banners",
-          "domain": "gamsgo.com",
-          "query": "Vesna Genshin Impact signature weapon",
-          "searchProvider": "bing-rss",
-          "status": "no-match"
-        },
-        {
-          "title": "Genshin Impact Vesna Rarity and Element Revealed | Beebom",
-          "url": "https://beebom.com/genshin-impact-vesna-rarity-and-element-revealed/",
-          "domain": "beebom.com",
+          "title": "Vesna Build Guide: Best Weapons, Gear, Teams, and Rotation | Genshin ...",
+          "url": "https://buffhub.com/blog/genshin-impact/genshin-impact-vesna-build-guide.html",
+          "domain": "buffhub.com",
           "query": "Vesna Genshin Impact signature weapon",
           "searchProvider": "bing-rss",
           "status": "no-match"
@@ -279,7 +231,31 @@
       "status": "no-explicit-signature-phrase",
       "characterPage": "https://gamewith.net/genshin-impact/article/show/73767",
       "consensusStatus": "no-consensus-signature",
-      "consensusCandidates": [],
+      "consensusCandidates": [
+        {
+          "weaponId": "14302",
+          "weaponName": "Thrilling Tales of Dragon Slayers",
+          "sourceCount": 1,
+          "signatureSourceCount": 1,
+          "score": 2,
+          "sources": [
+            {
+              "character": "Vodyanitsa",
+              "weaponId": "14302",
+              "weaponName": "Thrilling Tales of Dragon Slayers",
+              "matchedAlias": "Thrilling Tales of Dragon Slayers",
+              "kind": "signature",
+              "strength": 2,
+              "matchedText": "more Max HP through its passive, and an ATK buff for the active character. It becomes even stronger in Frozen and Stellar Swirl teams, which are already her main team archetypes. Thrilling Tales of Dragon Slayers R5 Heritage Base ATK: 401 HP: 35.2% When switching characters, the new character taking the field has their ATK increased by 24% / 30% / 36% / 42%",
+              "title": "Vodyanitsa Guide and Best Builds - Genshin Impact - Icy Veins",
+              "url": "https://www.icy-veins.com/genshin-impact/vodyanitsa-guide-best-builds",
+              "domain": "icy-veins.com",
+              "query": "Vodyanitsa Genshin Impact signature weapon",
+              "searchProvider": "bing-rss"
+            }
+          ]
+        }
+      ],
       "consensusSources": [
         {
           "title": "Vodyanitsa Genshin Impact kit",
@@ -319,6 +295,42 @@
           "domain": "beebom.com",
           "query": "source-template",
           "searchProvider": "source-template",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Guide, Profile, Talents and Constellations",
+          "url": "https://www.icy-veins.com/genshin-impact/vodyanitsa-profile-talents-constellations",
+          "domain": "icy-veins.com",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Guide and Best Builds - Genshin Impact - Icy Veins",
+          "url": "https://www.icy-veins.com/genshin-impact/vodyanitsa-guide-best-builds",
+          "domain": "icy-veins.com",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "matched",
+          "weaponId": "14302",
+          "weaponName": "Thrilling Tales of Dragon Slayers",
+          "kind": "signature",
+          "matchedText": "more Max HP through its passive, and an ATK buff for the active character. It becomes even stronger in Frozen and Stellar Swirl teams, which are already her main team archetypes. Thrilling Tales of Dragon Slayers R5 Heritage Base ATK: 401 HP: 35.2% When switching characters, the new character taking the field has their ATK increased by 24% / 30% / 36% / 42%"
+        },
+        {
+          "title": "Genshin Impact | Vodyanitsa - Release Date & Who Is?",
+          "url": "https://gamewith.net/genshin-impact/article/show/73767",
+          "domain": "gamewith.net",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
+          "status": "no-match"
+        },
+        {
+          "title": "Vodyanitsa Build – Full Kit, Builds, and Best Teams | Genshin Impact",
+          "url": "https://www.ldshop.gg/blog/genshin-impact/vodyanitsa-build.html",
+          "domain": "ldshop.gg",
+          "query": "Vodyanitsa Genshin Impact signature weapon",
+          "searchProvider": "bing-rss",
           "status": "no-match"
         }
       ],

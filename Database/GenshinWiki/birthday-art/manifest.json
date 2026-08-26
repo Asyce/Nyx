@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T07:29:51.685Z",
+  "generatedAt": "2026-08-26T07:34:31.663Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -547,6 +547,18 @@
           "height": 1800,
           "originalWidth": 3000,
           "originalHeight": 3000,
+          "mime": "image/png"
+        },
+        {
+          "file": "Arlecchino Birthday 2026.png",
+          "title": "Arlecchino Birthday 2026.png (4.11 MB)",
+          "localAsset": "GenshinWiki/birthday-art/arlecchino/03-Arlecchino Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Arlecchino/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Arlecchino_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 2500,
+          "originalHeight": 2500,
           "mime": "image/png"
         }
       ]
@@ -2429,9 +2441,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Faruzan Birthday 2026.jpg",
+          "title": "Faruzan Birthday 2026.jpg (2.37 MB)",
+          "localAsset": "GenshinWiki/birthday-art/faruzan/04-Faruzan Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Faruzan/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Faruzan_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 4560,
+          "originalHeight": 4560,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Faruzan TPRGT 2023 - Aether.png",
           "title": "Faruzan TPRGT 2023 - Aether.png (3.28 MB)",
-          "localAsset": "GenshinWiki/birthday-art/faruzan/04-Faruzan TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/faruzan/05-Faruzan TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Faruzan/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Faruzan_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -2443,7 +2467,7 @@
         {
           "file": "Faruzan TPRGT 2023 - Lumine.png",
           "title": "Faruzan TPRGT 2023 - Lumine.png (3.26 MB)",
-          "localAsset": "GenshinWiki/birthday-art/faruzan/05-Faruzan TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/faruzan/06-Faruzan TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Faruzan/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Faruzan_TPRGT_2023_-_Lumine.png",
           "width": 1800,
@@ -5714,9 +5738,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Ningguang Birthday 2026.jpg",
+          "title": "Ningguang Birthday 2026.jpg (8.17 MB)",
+          "localAsset": "GenshinWiki/birthday-art/ningguang/08-Ningguang Birthday 2026.jpg",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Ningguang/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Ningguang_Birthday_2026.jpg",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 5000,
+          "originalHeight": 5000,
+          "mime": "image/jpeg"
+        },
+        {
           "file": "Ningguang TPRGT 2022 - Aether.png",
           "title": "Ningguang TPRGT 2022 - Aether.png (2.16 MB)",
-          "localAsset": "GenshinWiki/birthday-art/ningguang/08-Ningguang TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/ningguang/09-Ningguang TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Ningguang/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Ningguang_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -5728,7 +5764,7 @@
         {
           "file": "Ningguang TPRGT 2022 - Lumine.png",
           "title": "Ningguang TPRGT 2022 - Lumine.png (2.2 MB)",
-          "localAsset": "GenshinWiki/birthday-art/ningguang/09-Ningguang TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/ningguang/10-Ningguang TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Ningguang/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Ningguang_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -5740,7 +5776,7 @@
         {
           "file": "Ningguang TPRGT 2023 - Aether.png",
           "title": "Ningguang TPRGT 2023 - Aether.png (1.84 MB)",
-          "localAsset": "GenshinWiki/birthday-art/ningguang/10-Ningguang TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/ningguang/11-Ningguang TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Ningguang/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Ningguang_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -5752,7 +5788,7 @@
         {
           "file": "Ningguang TPRGT 2023 - Lumine.png",
           "title": "Ningguang TPRGT 2023 - Lumine.png (1.84 MB)",
-          "localAsset": "GenshinWiki/birthday-art/ningguang/11-Ningguang TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/ningguang/12-Ningguang TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Ningguang/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Ningguang_TPRGT_2023_-_Lumine.png",
           "width": 1800,

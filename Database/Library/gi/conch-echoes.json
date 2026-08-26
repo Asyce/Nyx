@@ -5,7 +5,7 @@
   "name": "Conch Echoes",
   "sortId": 404301,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Conch_Echoes",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -14,6 +14,11 @@
       "document": {
         "version": 1,
         "blocks": [
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
+          },
           {
             "type": "paragraph",
             "children": [
@@ -89,13 +94,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-877b4ee468fca12b"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "Yes, this was the secret pact made by the children around the bonfire, to resist the adults who had made slaves of them."
@@ -154,13 +153,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-127aaa0d3f4a8e3f"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "\"So you think you can hold the conch?\""
@@ -229,7 +222,7 @@
                 "text": "After that night, the boy who once held the conch seemed to have vanished into thin air."
               }
             ],
-            "id": "p-38f201b081594ad3"
+            "id": "p-dd649f96055da446"
           }
         ]
       }
@@ -241,6 +234,11 @@
       "document": {
         "version": 1,
         "blocks": [
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
+          },
           {
             "type": "paragraph",
             "children": [
@@ -323,13 +321,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-dfb43939cd718095"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "\"When did you start seeing this?\""
@@ -360,13 +352,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-d139fd7e7540be13"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "A pair of hands, holding a conch, emerged from between the boy and the girl. The owner of the hands stepped forward and placed the conch in the boy's hands."
@@ -442,7 +428,7 @@
                 "text": "And placed the conch amidst the children."
               }
             ],
-            "id": "p-601ea51a1b56373c"
+            "id": "p-4ff98c9485eb2916"
           }
         ]
       }

@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-08-08T06:06:45.912Z",
+  "generatedAt": "2026-08-26T07:36:46.582Z",
   "sourceUrl": "https://gi.nanoka.cc/gcg",
   "payloads": {
-    "gcg": 619,
-    "card": 1992,
-    "details": 619,
-    "skill": 3491
+    "gcg": 629,
+    "card": 2012,
+    "details": 629,
+    "skill": 3534
   },
   "counts": {
-    "characterCards": 106,
-    "otherCards": 513,
+    "characterCards": 108,
+    "otherCards": 521,
     "missingPlayableCharacters": 10
   },
   "missingPlayableCharacters": [
-    "Columbina",
-    "Illuga",
+    "Alyosha",
     "Linnea",
     "Lohen",
     "Nicole",
+    "Odette",
     "Prune",
     "Sandrone",
     "Traveler",

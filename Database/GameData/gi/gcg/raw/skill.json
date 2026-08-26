@@ -343,6 +343,10 @@
     "name": "Lunar-Bloom",
     "desc": ""
   },
+  "143": {
+    "name": "Lunar-Crystallize",
+    "desc": ""
+  },
   "201": {
     "name": "",
     "desc": ""
@@ -712,6 +716,14 @@
     "desc": ""
   },
   "2101": {
+    "name": "",
+    "desc": ""
+  },
+  "2111": {
+    "name": "",
+    "desc": ""
+  },
+  "2121": {
     "name": "",
     "desc": ""
   },
@@ -1221,7 +1233,31 @@
   },
   "12164": {
     "name": "Modular Efficiency Protocol",
-    "desc": "<color=#FFFFFFFF>When $[K3006] is attached to your card</color>: If there is <color=#FFFFFFFF>$[C112161]</color> on your side, it gains 1 Usage, otherwise, gains 1 $[K310]. (Once per Round)"
+    "desc": "(Passive) <color=#FFFFFFFF>When $[K3006] is attached to your card</color>: If there is <color=#FFFFFFFF>$[C112161]</color> on your side, it gains 1 Usage, otherwise, gains 1 $[K310]. (Once per Round)"
+  },
+  "12171": {
+    "name": "Moondew Cascade",
+    "desc": "Deal $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].\\nIf there is a card with $[K3005] attached to it in your Hand, place 1 random card on top of your Deck, then deal 1 $[K107] DMG. (Once per Round)"
+  },
+  "12172": {
+    "name": "Eternal Tides",
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C112172]</color>."
+  },
+  "12173": {
+    "name": "Moonlit Melancholy",
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C112171]</color>."
+  },
+  "12174": {
+    "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+    "desc": "[Passive] During this match, when your opponent takes <color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}Electro-Charged Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}Bloom Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}Hydro Crystallize Reaction</color> DMG, the reaction will be converted to the <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction.\\nAfter your opponent takes <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction DMG: Deals 1 $[K104]/$[K107]/$[K106]. (Once per Round)"
+  },
+  "12175": {
+    "name": "Moonsign Benediction: Moonlight, Lent Unto You",
+    "desc": ""
+  },
+  "12176": {
+    "name": "Moondew Cascade",
+    "desc": ""
   },
   "13011": {
     "name": "Tempered Sword",
@@ -1993,11 +2029,11 @@
   },
   "15164": {
     "name": "Moonsign Benediction: Rooftop Dash",
-    "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)"
+    "desc": "(Passive) When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)"
   },
   "15165": {
     "name": "Moonsign Benediction: Rooftop Dash",
-    "desc": "(Passive)  When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)"
+    "desc": "(Passive) When battle begins, create 1 <color=#FFFFFFFF>$[C115161]</color> in your Hand.\\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach $[K3005] to all <color=#FFFFFFFF>$[C115161]</color> in your Hand. (Twice per Round)"
   },
   "16011": {
     "name": "Sparkling Scatter",
@@ -2150,6 +2186,22 @@
   "16114": {
     "name": "Source Sample",
     "desc": "(Passive) When the battle begins, create 3 stacks of <color=#FFFFFFFF>$[C116113]</color>. When you have Pyro, Hydro, Cryo, or Electro characters on your side, then convert 1 stack of <color=#FFFFFFFF>$[C116113]</color> to a <color=#FFFFFFFF>Source Sample</color> of the corresponding Element."
+  },
+  "16121": {
+    "name": "Oathkeeper's Spear",
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]."
+  },
+  "16122": {
+    "name": "Dawnbearing Songbird",
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#FFFFFFFF>$[C116121]</color> to your Hand."
+  },
+  "16123": {
+    "name": "Shadowless Reflection",
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C116122]</color> with 3 Usage(s)."
+  },
+  "16124": {
+    "name": "Moonsign Benediction: Unwithering in Winter",
+    "desc": "(Passive) When a card whose name was not in your initial deck is added to your Hand, apply it $[K3005]. (Once per Round)"
   },
   "17011": {
     "name": "Supplicant's Bowmanship",
@@ -2417,7 +2469,7 @@
   },
   "21052": {
     "name": "Radiance in Flux",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], places 1 <color=#FFFFFFFF>$[C121051]</color> third from the top of your deck, and $[K59] 1 of 3 random <color=#FFFFFFFF>$[C121051]</color> enhancement effects."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], places 1 <color=#FFFFFFFF>$[C121051]</color> third from the top of your deck. If this is one of the first 4 times this skill is being used this game, then $[K59] 1 of 3 random <color=#FFFFFFFF>$[C121051]</color> enhancement effects."
   },
   "21053": {
     "name": "Chilling Illustration",
@@ -5967,6 +6019,18 @@
     "name": "",
     "desc": ""
   },
+  "1121711": {
+    "name": "",
+    "desc": ""
+  },
+  "1121721": {
+    "name": "",
+    "desc": ""
+  },
+  "1121731": {
+    "name": "",
+    "desc": ""
+  },
   "1130111": {
     "name": "",
     "desc": ""
@@ -6791,6 +6855,10 @@
     "name": "",
     "desc": ""
   },
+  "1160421": {
+    "name": "",
+    "desc": ""
+  },
   "1160511": {
     "name": "",
     "desc": ""
@@ -6922,6 +6990,18 @@
   "1161131": {
     "name": "High-Speed Leap",
     "desc": "The character to which this is attached consumes 1 <color=#FFFFFFFF>Nightsoul point</color>. Draw 3 cards."
+  },
+  "1161211": {
+    "name": "",
+    "desc": ""
+  },
+  "1161221": {
+    "name": "",
+    "desc": ""
+  },
+  "1161222": {
+    "name": "",
+    "desc": ""
   },
   "1170111": {
     "name": "",
@@ -8619,6 +8699,14 @@
     "name": "",
     "desc": ""
   },
+  "2121711": {
+    "name": "",
+    "desc": ""
+  },
+  "2121712": {
+    "name": "",
+    "desc": ""
+  },
   "2130111": {
     "name": "",
     "desc": ""
@@ -8767,6 +8855,14 @@
     "name": "",
     "desc": ""
   },
+  "2140221": {
+    "name": "",
+    "desc": ""
+  },
+  "2140222": {
+    "name": "",
+    "desc": ""
+  },
   "2140311": {
     "name": "",
     "desc": ""
@@ -8872,6 +8968,14 @@
     "desc": ""
   },
   "2150111": {
+    "name": "",
+    "desc": ""
+  },
+  "2150121": {
+    "name": "",
+    "desc": ""
+  },
+  "2150122": {
     "name": "",
     "desc": ""
   },
@@ -9015,6 +9119,14 @@
     "name": "",
     "desc": ""
   },
+  "2160421": {
+    "name": "",
+    "desc": ""
+  },
+  "2160422": {
+    "name": "",
+    "desc": ""
+  },
   "2160511": {
     "name": "",
     "desc": ""
@@ -9056,6 +9168,14 @@
     "desc": ""
   },
   "2161131": {
+    "name": "",
+    "desc": ""
+  },
+  "2161211": {
+    "name": "",
+    "desc": ""
+  },
+  "2161212": {
     "name": "",
     "desc": ""
   },
@@ -9471,6 +9591,18 @@
     "name": "",
     "desc": ""
   },
+  "3000111": {
+    "name": "",
+    "desc": ""
+  },
+  "3000121": {
+    "name": "",
+    "desc": ""
+  },
+  "3000122": {
+    "name": "",
+    "desc": ""
+  },
   "3010181": {
     "name": "",
     "desc": ""
@@ -9856,6 +9988,22 @@
     "desc": ""
   },
   "3031121": {
+    "name": "",
+    "desc": ""
+  },
+  "3031211": {
+    "name": "",
+    "desc": ""
+  },
+  "3031212": {
+    "name": "",
+    "desc": ""
+  },
+  "3031221": {
+    "name": "",
+    "desc": ""
+  },
+  "3031222": {
     "name": "",
     "desc": ""
   },
@@ -10659,6 +10807,14 @@
     "name": "",
     "desc": ""
   },
+  "3120461": {
+    "name": "",
+    "desc": ""
+  },
+  "3120462": {
+    "name": "",
+    "desc": ""
+  },
   "3121011": {
     "name": "",
     "desc": ""
@@ -11355,6 +11511,10 @@
     "name": "",
     "desc": ""
   },
+  "3300141": {
+    "name": "",
+    "desc": ""
+  },
   "3310041": {
     "name": "",
     "desc": ""
@@ -11448,6 +11608,18 @@
     "desc": ""
   },
   "3310113": {
+    "name": "",
+    "desc": ""
+  },
+  "3310121": {
+    "name": "",
+    "desc": ""
+  },
+  "3310122": {
+    "name": "",
+    "desc": ""
+  },
+  "3310123": {
     "name": "",
     "desc": ""
   },

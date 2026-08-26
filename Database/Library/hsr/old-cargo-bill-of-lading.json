@@ -5,7 +5,7 @@
   "name": "Old Cargo Bill of Lading",
   "sortId": 110476,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Old_Cargo_Bill_of_Lading",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -253,12 +253,9 @@
               {
                 "type": "text",
                 "text": "These scrolls were chosen for the village students, covering history, politics, and rhetoric. If anyone asks about the world beyond, now you'll have books to show them. Curiosity, like a seed, will one day take root, just as you wished. It will grow from Aedes Elysiae into the wider world beyond."
-              },
-              {
-                "type": "br"
               }
             ],
-            "id": "p-f7dc181fc1d45ebb"
+            "id": "p-6fda33809b83500a"
           }
         ]
       }

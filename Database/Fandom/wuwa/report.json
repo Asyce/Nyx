@@ -2,10 +2,10 @@
   "game": "wuwa",
   "label": "Wuthering Waves",
   "source": "https://wutheringwaves.fandom.com/api.php",
-  "scrapedAt": "2026-08-19T07:28:35.105Z",
+  "scrapedAt": "2026-08-26T07:33:29.477Z",
   "total": 58,
   "saved": 54,
-  "withReleaseDate": 53,
+  "withReleaseDate": 54,
   "withReleasePatch": 54,
   "withVoiceActors": 54,
   "missing": [

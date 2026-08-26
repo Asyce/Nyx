@@ -22,13 +22,13 @@
   },
   {
     "name": "Anby",
-    "pageTitle": "Soldier 0 - Anby",
+    "pageTitle": "Anby Demara",
     "aliases": [
       "Anby",
       "1011"
     ],
-    "releaseDate": "2025-03-12",
-    "releasePatch": "1.6",
+    "releaseDate": "2024-07-04",
+    "releasePatch": "1.0",
     "voiceActors": {
       "english": "imdb:nm7430885|Sam Slade",
       "chinese": "https://mzh.moegirl.org.cn/zh-hans/宴宁|Yanning (宴宁)",
@@ -36,8 +36,7 @@
       "korean": "ko:김보나|Kim Bo-na (김보나)"
     },
     "categories": [
-      "Category:Introduced in Version 1.5",
-      "Category:Released in Version 1.6",
+      "Category:Released in Version 1.0",
       "Category:Version"
     ]
   },
@@ -476,23 +475,14 @@
   },
   {
     "name": "Lucy",
-    "pageTitle": "Luciana de Montefio",
+    "pageTitle": "Tutorial/(Character Intro) Lucy",
     "aliases": [
       "Lucy",
       "1151"
     ],
-    "releaseDate": "2024-07-04",
-    "releasePatch": "1.0",
-    "voiceActors": {
-      "english": "imdb:nm4716053|Elsie Lovelock",
-      "chinese": "https://zh.moegirl.org.cn/zh/闲踏梧桐|Xian Ta Wutong (闲踏梧桐)",
-      "japanese": "Ayaka Asai|Asai Ayaka (朝井 彩加)",
-      "korean": "Kim Mi-so (김미소)"
-    },
-    "categories": [
-      "Category:Released in Version 1.0",
-      "Category:Version"
-    ]
+    "releaseDate": null,
+    "releasePatch": null,
+    "categories": []
   },
   {
     "name": "Lycaon",
@@ -579,14 +569,17 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Tutorial/(Character Intro) Nekomata",
+    "pageTitle": "Agent Focus: Nekomata",
     "aliases": [
       "Nekomata",
       "1021"
     ],
     "releaseDate": null,
-    "releasePatch": null,
-    "categories": []
+    "releasePatch": "1.0",
+    "categories": [
+      "Category:Released in Version 1.0",
+      "Category:Version"
+    ]
   },
   {
     "name": "Nicole",
@@ -629,21 +622,14 @@
   },
   {
     "name": "Orphie & Magus",
-    "pageTitle": "Orphie Magnusson & Magus",
+    "pageTitle": "Agent Focus: Orphie & Magus",
     "aliases": [
       "Orphie & Magus",
       "1301"
     ],
-    "releaseDate": "2025-09-24",
+    "releaseDate": null,
     "releasePatch": "2.2",
-    "voiceActors": {
-      "english": "Dawn M. Bennett",
-      "chinese": "https://mzh.moegirl.org.cn/zh-hans/刘十四|Liu Shisi (刘十四)",
-      "japanese": "Yume Miyamoto|Miyamoto Yume (宮本 侑芽)",
-      "korean": "https://namu.wiki/w/류지아|Ryu Ji-a (류지아)"
-    },
     "categories": [
-      "Category:Introduced in Version 1.0",
       "Category:Released in Version 2.2",
       "Category:Version"
     ]

@@ -344,6 +344,16 @@
     "desc": "<color=#FFFFFFFF>When the character to which this is attached takes DMG:</color> Decrease DMG taken by 1. (Can stack, no stack limit)",
     "icon": ""
   },
+  "211": {
+    "name": "Lunar Symphony",
+    "desc": "Summons 1 <color=#FFFFFFFF>$[K3012]</color>. If the <color=#FFFFFFFF>$[K3012]</color> is already on your field, it gains +1 to its number of effects.",
+    "icon": "Gcg_CardFace_Summon_MoonRock"
+  },
+  "212": {
+    "name": "Moondrift",
+    "desc": "<color=#FFFFFFFF>End Phase:</color> Deals 1 $[K106].\\n<color=#FFFFFFFF>$[K3]: 2</color>\\n<color=#FFFFFFFF>When this card's number of effects reaches 3:</color> Immediately deals 3 $[K106], then change this card's number of effects to 1.",
+    "icon": "Gcg_CardFace_Summon_MoonRock"
+  },
   "100001": {
     "name": "Stun",
     "desc": "<color=#FFFFFFFF>Character cannot use Skills.</color> (Lasts until the end of this Round)",
@@ -1064,6 +1074,21 @@
     "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 2 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
     "icon": "Gcg_CardFace_Summon_Aino"
   },
+  "112171": {
+    "name": "Lunar Domain",
+    "desc": "",
+    "icon": ""
+  },
+  "112172": {
+    "name": "Gravity Ripple",
+    "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K102].\\n<color=#FFFFFFFF>$[K3]: 2</color>",
+    "icon": ""
+  },
+  "112173": {
+    "name": "RES",
+    "desc": "<color=#FFFFFFFF>When your active character receives DMG:</color> Decrease DMG taken by 2.",
+    "icon": ""
+  },
   "113011": {
     "name": "Pyro Infusion",
     "desc": "The character to which this is attached has their $[K100] dealt converted to $[K103].\\n<color=#FFFFFFFF>$[K4]: 2</color>",
@@ -1306,7 +1331,7 @@
   },
   "113175": {
     "name": "Essential Transmutation",
-    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 2 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
+    "desc": "<color=#FFFFFFFF>When the attached character uses a Normal Attack:</color> Deals 1 $[K103].\\n<color=#FFFFFFFF>When the attached character uses an Elemental Skill:</color> Generate 1 stack of <color=#FFFFFFFF>$[C169]</color>.",
     "icon": ""
   },
   "114011": {
@@ -1831,27 +1856,27 @@
   },
   "115161": {
     "name": "Purr-loined Treasure Flask",
-    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 1 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Repeat once.",
+    "desc": "<color=#FFFFFFFF>When $[A1516] switches to become the active character:</color> If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element.\\n$[K1]: Deal 2 <color=#FFFFFFFF>$[K105]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K105]</color> once again.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Wind"
   },
   "115162": {
     "name": "Purr-loined Treasure Flask: Pyro",
-    "desc": "$[K1]: Deal 1 <color=#FFFFFFFF>$[K103]</color> to the opponent's active character. Repeat once.",
+    "desc": "$[K1]: Deal 2 <color=#FFFFFFFF>$[K103]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K103]</color> once again.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Fire"
   },
   "115163": {
     "name": "Purr-loined Treasure Flask: Hydro",
-    "desc": "$[K1]: Deal 1 <color=#FFFFFFFF>$[K102]</color> to the opponent's active character. Repeat once.",
+    "desc": "$[K1]: Deal 2 <color=#FFFFFFFF>$[K102]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K102]</color> once again.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Water"
   },
   "115164": {
     "name": "Purr-loined Treasure Flask: Electro",
-    "desc": "$[K1]: Deal 1 <color=#FFFFFFFF>$[K104]</color> to the opponent's active character. Repeat once.",
+    "desc": "$[K1]: Deal 2 <color=#FFFFFFFF>$[K104]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K104]</color> once again.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Elec"
   },
   "115165": {
     "name": "Purr-loined Treasure Flask: Cryo",
-    "desc": "$[K1]: Deal 1 <color=#FFFFFFFF>$[K101]</color> to the opponent's active character. Repeat once.",
+    "desc": "$[K1]: Deal 2 <color=#FFFFFFFF>$[K101]</color> to the opponent's active character. Then, deal 1 <color=#FFFFFFFF>$[K101]</color> once again.",
     "icon": "Gcg_CardFace_Summon_Jahoda_Ice"
   },
   "115166": {
@@ -1893,6 +1918,11 @@
     "name": "Solar Isotoma",
     "desc": "<color=#FFFFFFFF>End Phase:</color> Deal 1 $[K106].\\n<color=#FFFFFFFF>$[K3]: 3</color>\\n<color=#FFFFFFFF>When you perform \"Switch Character\" and this Summon is on the field:</color> This switch is considered a $[K2] instead of a $[K1]. (Once per Round)",
     "icon": "Gcg_CardFace_Summon_Albedo"
+  },
+  "116042": {
+    "name": "Silver Isotoma",
+    "desc": "<color=#FFFFFFFF>After one of your characters $[K52]:</color> Deal 1 <color=#FFFFFFFF>$[K5]</color> DMG to all opposing characters on standby.",
+    "icon": ""
   },
   "116051": {
     "name": "Ushi",
@@ -2052,6 +2082,16 @@
   "116117": {
     "name": "Source Sample: Electro",
     "desc": "<color=#FFFFFFFF>When the Round begins:</color> If the character to which this is attached has 2 <color=#FFFFFFFF>Nightsoul points</color>, create 1 <color=#FFFFFFFF>$[C216117]</color> on the opponent's side of the field. After activating all <color=#FFFFFFFF>Source Samples</color>, consume 2 <color=#FFFFFFFF>Nightsoul points</color>.",
+    "icon": ""
+  },
+  "116121": {
+    "name": "Aedon",
+    "desc": "$[K1]: Select 1 opposing character and deal 1 <color=#FFFFFFFF>$[K106]</color> to them.",
+    "icon": "Gcg_CardFace_Summon_Illuga"
+  },
+  "116122": {
+    "name": "Nightingale's Song",
+    "desc": "Enemy target takes +1 <color=#FFFFFFFF>$[K106]</color>.\\n<color=#FFFFFFFF>$[K3]: 1</color> (Can stack, no stack limit)\\nAfter you bring forth a Summon, this card gains 1 <color=#FFFFFFFF>Usage</color>.",
     "icon": ""
   },
   "117011": {
@@ -4304,6 +4344,11 @@
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1216]</color>, equip this card.\\nAfter $[A1216] equips this card, immediately use <color=#FFD780FF>$[S12163]</color> once.\\n<color=#FFFFFFFF>When your <color=#FFFFFFFF>$[A1216]</color>, who has this card equipped, is on the field, and you trigger an Electro-Charged, Lunar-Charged, Bloom, or Lunar-Bloom reaction:</color> Deal +2 DMG for this instance and attach <color=#FFFFFFFF>$[K3006]</color> to the 1 card with the highest <color=#FFFFFFFF>$[K3002]</color> from your Hand. (Once per Round)\\n(You must have $[A1216] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Aino"
   },
+  "212171": {
+    "name": "Radiance Over Blossoms and Peaks",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1217]</color>, equip this card.\\nAfter $[A1217] equips this card, immediately use <color=#FFD780FF>$[S12172]</color> once.\\n<color=#FFFFFFFF>While your <color=#FFFFFFFF>$[A1217]</color> with this card equipped is on the field,</color><color=#FFFFFFFF> after your side triggers <color=#FFFFFFFF>$[K3001]</color>:</color> One of your characters without maximum Energy gains 1 $[K310].\\n<color=#FFFFFFFF>After your side triggers <color=#FFFFFFFF>$[K3009]</color>:</color> Your active character takes 2 less DMG the next time they take DMG.\\n<color=#FFFFFFFF>After your side triggers <color=#FFFFFFFF>$[K3010]</color>:</color> Automatically play the Moondrift with the highest <color=#FFFFFFFF>$[K3002]</color> from your Hand for free. (Twice per Round)\\n(You must have $[A1217] in your deck to add this card to your deck.)",
+    "icon": "Gcg_CardFace_Modify_Talent_Columbina"
+  },
   "213011": {
     "name": "Flowing Flame",
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1301]</color>, equip this card.\\nAfter $[A1301] equips this card, immediately use <color=#FFD780FF>$[S13012]</color> once.\\nWhen your $[A1301], who has this card equipped, uses <color=#FFFFFFFF>$[S13012]</color> for the second and third times in one Round, spend 1 less {SPRITE_PRESET#1103}<color=#FF9999FF>Pyro Die</color>.\\n(You must have $[A1301] in your deck to add this card to your deck.)",
@@ -4409,6 +4454,11 @@
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1402]</color>, equip this card.\\nAfter $[A1402] equips this card, immediately use <color=#FFD780FF>$[S14022]</color> once.\\nAfter your $[A1402], who has this card equipped, uses <color=#FFFFFFFF>$[S14022]</color>: One of your Electro characters gains 1 Energy. (One per Round, active character prioritized)\\n(You must have $[A1402] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Razor"
   },
+  "214022": {
+    "name": "Surge of Lightning",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1402]</color>, equip this card.\\nIf your <color=#FFFFFFFF>$[A1402]</color> does not have <color=#FFFFFFFF>$[C114021]</color> attached, attach <color=#FFFFFFFF>$[C114021]</color> with 1 Duration.\\nWhile your $[A1402] has <color=#FFFFFFFF>$[C114021]</color> attached with this card equipped, DMG dealt by your $[C114021] is increased by 1.\\n(You must have $[A1402] in your deck to add this card to your deck.)",
+    "icon": "Gcg_CardFace_Modify_Talent_Modao_Razor"
+  },
   "214031": {
     "name": "Thundering Penance",
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1403]</color>, equip this card.\\nAfter $[A1403] equips this card, immediately use <color=#FFD780FF>$[S14032]</color> once.\\nWhen your $[A1403], who has this card equipped, creates an <color=#FFFFFFFF>$[C114032]</color>, it will have the following effects:\\nStarting $[K4] +1, $[K104] dealt by the character to which this is attached +1.\\n(You must have $[A1403] in your deck to add this card to your deck.)",
@@ -4498,6 +4548,11 @@
     "name": "Chaotic Entropy",
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1501]</color>, equip this card.\\nAfter $[A1501] equips this card, immediately use <color=#FFD780FF>$[S15013]</color> once.\\nAfter the <color=#FFFFFFFF>$[C115011]</color> created by your $[A1501], who had this card equipped, has converted to another Elemental Type: Deal +1 DMG of this Elemental Type.\\n(You must have $[A1501] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Constellation_Sucrose"
+  },
+  "215012": {
+    "name": "Sevenfold Transmutation",
+    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1501]</color>.\\nSummon <color=#FFFFFFFF>$[C115011]</color>.\\nWhile <color=#FFFFFFFF>$[C115011]</color> is on the field, characters on your side with {SPRITE_PRESET#3006} Talent attached deal +1 DMG.\\n(You must have $[A1501] in your deck to add this card to your deck.)",
+    "icon": "Gcg_CardFace_Modify_Talent_Modao_Sucrose"
   },
   "215021": {
     "name": "Lands of Dandelion",
@@ -4604,6 +4659,11 @@
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1604]</color>, equip this card.\\nAfter $[A1604] equips this card, immediately use <color=#FFD780FF>$[S16042]</color>.\\nWhen there is $[A1604] on the field who has this card equipped, if your side of the field has <color=#FFFFFFFF>$[C116041]</color>, then your characters' $[K52] costs 1 less $[K309] and deals +1 DMG.\\n(You must have $[A1604] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Constellation_Albedo"
   },
+  "216042": {
+    "name": "Book of Blinding Light",
+    "desc": "$[K2]: Equip this to your <color=#FFFFFFFF>$[A1604]</color>.\\nSummon <color=#FFFFFFFF>$[C116041]</color>.\\n<color=#FFFFFFFF>When you summon $[C116041]</color>, create 2 stacks of <color=#FFFFFFFF>$[C116042]</color>, and generate 1 random basic Elemental Die.\\n(You must have $[A1604] in your deck to add this card to your deck.)",
+    "icon": "Gcg_CardFace_Modify_Talent_Modao_Albedo"
+  },
   "216051": {
     "name": "Arataki Ichiban",
     "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1605]</color>, equip this card.\\nAfter $[A1605] equips this card, immediately use <color=#FFD780FF>$[S16051]</color> once.\\nAfter your $[A1605], who has this card equipped, uses <color=#FFFFFFFF>$[S16051]</color> for the second time or more in one Round: If $[K1007] is triggered, deal +1 additional DMG.\\n(You must have $[A1605] in your deck to add this card to your deck.)",
@@ -4663,6 +4723,11 @@
     "name": "Take Extra Electro DMG",
     "desc": "Your $[K104] taken is increased by 1.\\n<color=#FFFFFFFF>$[K4]: 1</color>",
     "icon": ""
+  },
+  "216121": {
+    "name": "Elk With Fanged Antlers",
+    "desc": "$[K2]: When your active character is <color=#FFFFFFFF>$[A1612]</color>, equip this card.\\nCreate 1 stack of <color=#FFFFFFFF>$[C116122]</color>.\\n<color=#FFFFFFFF>While your <color=#FFFFFFFF>$[A1612]</color> with this card equipped is on the field:</color> For every 2 stacks of <color=#FFFFFFFF>$[C116122]</color> consumed, create 1 <color=#FFFFFFFF>$[C116121]</color> to your Hand.\\n(You must have $[A1612] in your deck to add this card to your deck.)",
+    "icon": "Gcg_CardFace_Modify_Talent_Illuga"
   },
   "217011": {
     "name": "Floral Sidewinder",
@@ -4776,7 +4841,7 @@
   },
   "221057": {
     "name": "Radiant Hues: Swift Shadow",
-    "desc": "<color=#FFFFFFFF>When you play $[C121051]:</color> Grant  a random highest-cost card in your Hand <color=#FFFFFFFF>$[C202]</color> equal to the number of stacks of this status.",
+    "desc": "<color=#FFFFFFFF>When you play $[C121051]:</color> Grant a random highest-cost card in your Hand <color=#FFFFFFFF>$[C202]</color> equal to the number of stacks of this status.",
     "icon": ""
   },
   "222011": {
@@ -5007,6 +5072,16 @@
   "300010": {
     "name": "The Other Side of the Frostmoon: In Effect",
     "desc": "<color=#FFFFFFFF>At the start of the Action Phase:</color> Attach <color=#FFFFFFFF>$[K3005]</color> to 1 random card in your Hand.",
+    "icon": ""
+  },
+  "300011": {
+    "name": "Moonlit Radiance",
+    "desc": "<color=#FFFFFFFF>When Action Phase begins:</color> Heal 3 HP for all your on-field characters.",
+    "icon": ""
+  },
+  "300012": {
+    "name": "The Return",
+    "desc": "<color=#FFFFFFFF>At the start of the Action Phase:</color> If this card's Countdown is 0, add the 3 $[K56] cards to your Hand and give each of them 3 stacks of <color=#FFFFFFFF>$[K3005]</color>.",
     "icon": ""
   },
   "301018": {
@@ -5528,6 +5603,16 @@
     "name": "Elemental Resonance: Shattering Ice (In Effect)",
     "desc": "During this Round, your current active character will deal +2 DMG for the next instance.",
     "icon": ""
+  },
+  "303121": {
+    "name": "Overloaded: Pursuing Fire",
+    "desc": "<color=#FFFFFFFF>Roll Phase:</color> Always roll 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color> and 2 {SPRITE_PRESET#1103}<color=#FF9999FF>Pyro Dice</color>.\\n<color=#FFFFFFFF>After the opponent has switched characters 3 times:</color> Before your next Action, draw 1 card and automatically play the card with the highest Cost from your Hand for free.",
+    "icon": "Gcg_CardFace_Event_Resonance_ElecFireF"
+  },
+  "303122": {
+    "name": "Overloaded: Thunderstrike",
+    "desc": "<color=#FFFFFFFF>Roll Phase:</color> Always roll 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color> and 2 {SPRITE_PRESET#1103}<color=#FF9999FF>Pyro Dice</color>.\\n<color=#FFFFFFFF>After the opponent switches characters:</color> Deal 1 $[K5] to opponent's active character.",
+    "icon": "Gcg_CardFace_Event_Resonance_ElecFireE"
   },
   "303132": {
     "name": "Elemental Resonance: Fervent Flames (In Effect)",
@@ -6399,6 +6484,11 @@
     "desc": "The character to which this is attached deals +1 $[K100].\\n<color=#FFFFFFFF>When the character to which this is attached is your only character still not defeated:</color> Their Normal Attack costs 1 fewer $[K309] and deals +1 DMG. (Twice per Round)\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004} Artifact)",
     "icon": "Gcg_CardFace_Modify_Artifact_JuedoushiDa"
   },
+  "312046": {
+    "name": "Recollection of Days Past",
+    "desc": "<color=#FFFFFFFF>After your character receives healing from a source other than an Artifact:</color> This card gains 1 stack of <color=#FFFFFFFF>Yearning</color> (max 2). At the start of the round, for each stack of <color=#FFFFFFFF>Yearning</color>, heal the attached character for 1 HP.\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
+    "icon": "Gcg_CardFace_Modify_Artifact_XishiXiao"
+  },
   "312101": {
     "name": "Broken Rime's Echo",
     "desc": "<color=#FFFFFFFF>When you play a {SPRITE_PRESET#3006}Talent card or a Character uses a Skill:</color> Spend 1 less {SPRITE_PRESET#1101}<color=#99FFFFFF>Cryo</color> Die. (Once per Round)\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
@@ -6999,6 +7089,11 @@
     "desc": "<color=#FFFFFFFF>When played, and at the start of each Action Phase:</color> Attach <color=#FFFFFFFF>$[K3005]</color> to 1 random card in your Hand.\\n(Only one {SPRITE_PRESET#3007}\"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
     "icon": "Gcg_CardFace_Event_Event_Yueyuwu"
   },
+  "330014": {
+    "name": "Return of the Three Moons",
+    "desc": "$[K56] the 3 cards with the highest $[K3002] in your Hand.\\nAt the start of your next Round, heal all your characters on the field for 3.\\nAt the start of the Round after that, add the 3 cards $[K56] to your Hand and give each of them 3 stacks of <color=#FFFFFFFF>$[K3005]</color>.\\n(Only one {SPRITE_PRESET#3007} \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+    "icon": "Gcg_CardFace_Event_Event_Sanyue"
+  },
   "331004": {
     "name": "Elemental Transfiguration: Superconduct Blessing",
     "desc": "<color=#FFFFFFFF>$[K67]</color>: {SPRITE_PRESET#2101}<color=#99FFFFFF>Cryo</color> {SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>\\n<color=#FFFFFFFF>Roll Phase</color>: Always roll 2 {SPRITE_PRESET#1101}<color=#99FFFFFF>Cryo Dice</color> and 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color>.\\n<color=#FFFFFFFF>After you trigger {SPRITE_PRESET#2101}{SPRITE_PRESET#2104}Superconduct reaction(s)</color>: Discard this card, then choose either <color=#FFFFFFFF>$[C303041]</color> or <color=#FFFFFFFF>$[C303042]</color> and add it to your Hand.",
@@ -7038,6 +7133,11 @@
     "name": "Elemental Transfiguration: Thunderbloom Blessing",
     "desc": "<color=#FFFFFFFF>$[K67]:</color>{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>{SPRITE_PRESET#2107}<color=#7EC236FF>Dendro</color>\\n<color=#FFFFFFFF>Roll Phase:</color> Always roll 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color> and 2 {SPRITE_PRESET#1107}<color=#7EC236FF>Dendro Dice</color>.\\n<color=#FFFFFFFF>After you trigger a {SPRITE_PRESET#2104}{SPRITE_PRESET#2107}Catalyze reaction:</color> Discard this card, then choose either <color=#FFFFFFFF>$[C303111]</color> or <color=#FFFFFFFF>$[C3003112]</color> and add it to your Hand.",
     "icon": "Gcg_CardFace_Event_Resonance_ElecGrass"
+  },
+  "331012": {
+    "name": "Elemental Transfiguration: Overload Blessing",
+    "desc": "<color=#FFFFFFFF>$[K67]:</color>{SPRITE_PRESET#2104}<color=#FFACFFFF>Electro</color>{SPRITE_PRESET#2103}<color=#FF9999FF>Pyro</color>\\n<color=#FFFFFFFF>Roll Phase:</color> Always roll 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color> and 2 {SPRITE_PRESET#1103}<color=#FF9999FF>Pyro Dice</color>.\\n<color=#FFFFFFFF>After you trigger a {SPRITE_PRESET#2104}{SPRITE_PRESET#2103}Overloaded reaction:</color> Discard this card, then choose either <color=#FFFFFFFF>$[C303121]</color> or <color=#FFFFFFFF>$[C303122]</color> and add it to your Hand.",
+    "icon": "Gcg_CardFace_Event_Resonance_ElecFire"
   },
   "331101": {
     "name": "Elemental Resonance: Woven Ice",

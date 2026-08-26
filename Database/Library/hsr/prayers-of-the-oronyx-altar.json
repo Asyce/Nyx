@@ -5,7 +5,7 @@
   "name": "Prayers of the Oronyx Altar",
   "sortId": 110483,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Prayers_of_the_Oronyx_Altar",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -594,18 +594,9 @@
               {
                 "type": "text",
                 "text": "As you bless each memory."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
               }
             ],
-            "id": "p-58465b55a90e4408"
+            "id": "p-7b42e4a575bc14e9"
           }
         ]
       }

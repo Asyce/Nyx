@@ -1104,6 +1104,7 @@
     "localizedNames": {
       "en": "Teahouse Candlestand: Scentless Flame",
       "zh": "茶室烛台-「无味火」",
+      "ja": "茶屋燭台-「無臭の炎」",
       "ko": "찻집 촛대-「덧없는 불」"
     },
     "localAsset": "GameData/gi/furniture/assets/360407.webp"
@@ -1503,6 +1504,7 @@
     "localizedNames": {
       "en": "Countless Homes Light Up the Moon",
       "zh": "「万家华灯照朗月」",
+      "ja": "「煌々たる灯りは月を照らす」",
       "ko": "「달을 밝히는 수많은 등불」"
     },
     "localAsset": "GameData/gi/furniture/assets/360417.webp"
@@ -3761,6 +3763,7 @@
     "localizedNames": {
       "en": "Vibrant Xiao Lantern: \"May All Your Wishes Come True\"",
       "zh": "明彩霄灯-「所愿皆成」",
+      "ja": "明彩霄灯-「成就される願い」",
       "ko": "빛나는 소등-「소원성취」"
     },
     "localAsset": "GameData/gi/furniture/assets/360478.webp"
@@ -3868,7 +3871,8 @@
     "localizedNames": {
       "en": "City Street Lamp: \"Low Lanternlight\"",
       "zh": "城镇路灯-「低空照明」",
-      "ja": "町の街灯-「低空照明」"
+      "ja": "町の街灯-「低空照明」",
+      "ko": "마을 가로등-「낮은 조명」"
     },
     "localAsset": "GameData/gi/furniture/assets/360481.webp"
   },
@@ -3984,10 +3988,88 @@
     "localizedNames": {
       "en": "\"Chirping About As Birds Do\"",
       "zh": "「如鸟雀般对鸣」",
-      "ja": "「小鳥が鳴き交わすように」JP3A",
+      "ja": "「小鳥のような共鳴」",
       "ko": "「마주 지저귀는 새」"
     },
     "localAsset": "GameData/gi/furniture/assets/360484.webp"
+  },
+  {
+    "id": "360485",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 105,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101304",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Ly_Lamp_Light_ZYJdenglong_02_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "GameData/gi/furniture/assets/360485.webp"
+  },
+  {
+    "id": "360486",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 105,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101304",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 8
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Ly_Lamp_Light_ZYJdenglong_03_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "GameData/gi/furniture/assets/360486.webp"
   },
   {
     "id": "360504",
@@ -5106,7 +5188,7 @@
     "localizedNames": {
       "en": "\"Opening Business Hours\"",
       "zh": "「开启营业日」",
-      "ja": "「営業日開始」JP3A",
+      "ja": "「営業開始日」",
       "ko": "「영업 개시일」"
     },
     "localAsset": "GameData/gi/furniture/assets/361126.webp"
@@ -5141,7 +5223,7 @@
     "localizedNames": {
       "en": "Indoor Standing Cabinet: \"The Steepled Little House\"",
       "zh": "室内立柜-「尖顶小楼」",
-      "ja": "屋内用棚-「尖った屋根の小楼」JP3A",
+      "ja": "室内棚-「尖り屋根の小楼」",
       "ko": "실내용 수납장-「뾰족 지붕」"
     },
     "localAsset": "GameData/gi/furniture/assets/361127.webp"
@@ -5999,6 +6081,7 @@
     "localizedNames": {
       "en": "Favonius Conference Table",
       "zh": "骑士团的会议桌",
+      "ja": "騎士団のミーティングデスク",
       "ko": "기사단 회의용 책상"
     },
     "localAsset": "GameData/gi/furniture/assets/361303.webp"
@@ -6590,6 +6673,7 @@
     "localizedNames": {
       "en": "Spirit of the Banquet",
       "zh": "「大快朵颐的豪情」",
+      "ja": "「頬張る豪快さ」",
       "ko": "「호방한 연회」"
     },
     "localAsset": "GameData/gi/furniture/assets/361320.webp"
@@ -7682,7 +7766,8 @@
     "localizedNames": {
       "en": "Tea-Time Respite",
       "zh": "「暇间茶叙」",
-      "ja": "「閑暇のティータイム」"
+      "ja": "「閑暇のティータイム」",
+      "ko": "「여유로운 티타임」"
     },
     "localAsset": "GameData/gi/furniture/assets/361349.webp"
   },
@@ -7716,7 +7801,7 @@
     "localizedNames": {
       "en": "\"Candle Perch\" Tall Square Table",
       "zh": "高脚「置烛」方几",
-      "ja": "脚長「燭台置き」スクエアテーブルJP3A",
+      "ja": "「燭台置き」脚長スクエアテーブル",
       "ko": "긴 다리 「촛대」 사각 탁자"
     },
     "localAsset": "GameData/gi/furniture/assets/361350.webp"
@@ -7954,6 +8039,7 @@
     "localizedNames": {
       "en": "Adhigama Wood \"Repose\" Couch",
       "zh": "证悟木「招宴」坐榻",
+      "ja": "証悟の「招宴」座席",
       "ko": "아디가마 나무 「연회」 의자"
     },
     "localAsset": "GameData/gi/furniture/assets/361406.webp"
@@ -8289,6 +8375,7 @@
     "localizedNames": {
       "en": "Frost Moon Stone Bed: Fresh & Cool",
       "zh": "霜月石床-「沁人凉意」",
+      "ja": "霜月の石の寝台-「身に沁みる涼」",
       "ko": "서리달 돌침대-「스며드는 한기」"
     },
     "localAsset": "GameData/gi/furniture/assets/361414.webp"
@@ -8327,7 +8414,7 @@
     "localizedNames": {
       "en": "\"Sweet, Untroubled Slumber\"",
       "zh": "「无忧甘瞑」",
-      "ja": "「無憂甘瞑」JP3A",
+      "ja": "「憂いなきまどろみ」",
       "ko": "「근심 없는 단잠」"
     },
     "localAsset": "GameData/gi/furniture/assets/361415.webp"
@@ -9299,6 +9386,7 @@
     "localizedNames": {
       "en": "Tavern Dining Chair - \"Flavor's Multiplicity\"",
       "zh": "酒馆餐椅-「味觉倍增」",
+      "ja": "酒場椅子-「味覚倍増」",
       "ko": "술집 의자-「미각 증진」"
     },
     "localAsset": "GameData/gi/furniture/assets/362116.webp"
@@ -10102,7 +10190,7 @@
     "localizedNames": {
       "en": "\"A Quiet Sigh on a Snowbound Night\"",
       "zh": "「静叹于风雪夜」",
-      "ja": "「風雪の夜の静かな嘆き」JP3A",
+      "ja": "「吹雪の夜の静かな嘆き」",
       "ko": "「눈보라 치는 밤의 탄식」"
     },
     "localAsset": "GameData/gi/furniture/assets/362136.webp"
@@ -10145,7 +10233,7 @@
     "localizedNames": {
       "en": "Indoor Seat: \"Clashing Colors\"",
       "zh": "室内座椅-「撞色艺术」",
-      "ja": "屋内用椅子-「コントラストの芸術」JP3A",
+      "ja": "室内椅子-「コントラストの芸術」",
       "ko": "실내 의자-「충돌색」"
     },
     "localAsset": "GameData/gi/furniture/assets/362137.webp"
@@ -12055,6 +12143,7 @@
     "localizedNames": {
       "en": "Let the Desert Bloom",
       "zh": "「若荒漠化为林野」",
+      "ja": "「砂漠が森になれたら」",
       "ko": "「황야가 숲이 되기를」"
     },
     "localAsset": "GameData/gi/furniture/assets/362250.webp"
@@ -12617,6 +12706,7 @@
     "localizedNames": {
       "en": "Hotel Railing: \"Fresh Mint Leaves\"",
       "zh": "饭店护栏-「薄荷新叶」",
+      "ja": "ホテルの欄干-「ミントの新芽」",
       "ko": "호텔 울타리-「새잎 민트」"
     },
     "localAsset": "GameData/gi/furniture/assets/362265.webp"
@@ -14069,7 +14159,7 @@
     "localizedNames": {
       "en": "Indoor Rug: \"Frostbloom Beneath the Ice\"",
       "zh": "室内地毯-「冰下霜花」",
-      "ja": "絨毯-「氷下の霜花」JP3A",
+      "ja": "絨毯-「氷下の霜花」",
       "ko": "실내 카펫-「얼음 아래 서리꽃」"
     },
     "localAsset": "GameData/gi/furniture/assets/362325.webp"
@@ -14108,7 +14198,7 @@
     "localizedNames": {
       "en": "Indoor Rug: \"Warmth\"",
       "zh": "室内地毯-「暖色」",
-      "ja": "絨毯-「暖色」JP3A",
+      "ja": "絨毯-「暖色」",
       "ko": "실내 카펫-「따뜻한 색상」"
     },
     "localAsset": "GameData/gi/furniture/assets/362326.webp"
@@ -14403,10 +14493,40 @@
     "localizedNames": {
       "en": "\"Tall-Capped Sentinel\"",
       "zh": "「高筒帽兵士」",
-      "ja": "「高帽子の兵士」JP3A",
+      "ja": "「高帽子の兵士」",
       "ko": "「높은 모자 병사」"
     },
     "localAsset": "GameData/gi/furniture/assets/362408.webp"
+  },
+  {
+    "id": "362409",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Craftwork"
+    ],
+    "cost": 157,
+    "comfort": 90,
+    "source": [
+      "???"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_ZDTWRO_01_01_Lods",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "GameData/gi/furniture/assets/362409.webp"
   },
   {
     "id": "363101",
@@ -14965,7 +15085,8 @@
     "localizedNames": {
       "en": "Phlogiston Floor Lamp: Cost-Effective Convenience",
       "zh": "燃素地灯-「廉便」",
-      "ja": "燃素フロアランプ-「コスパ良し」"
+      "ja": "燃素フロアランプ-「コスパ良し」",
+      "ko": "열소 바닥 조명-「간편」"
     },
     "localAsset": "GameData/gi/furniture/assets/363115.webp"
   },
@@ -15155,7 +15276,7 @@
     "localizedNames": {
       "en": "\"For Whom It Shines\"",
       "zh": "「为谁而闪亮的」",
-      "ja": "「誰のために輝く」JP3A",
+      "ja": "「誰がために輝く」",
       "ko": "「누구를 위해 빛나는가」"
     },
     "localAsset": "GameData/gi/furniture/assets/363121.webp"
@@ -15194,10 +15315,40 @@
     "localizedNames": {
       "en": "Indoor Table Lamp: \"Soft Light\"",
       "zh": "室内台灯-「柔光」",
-      "ja": "室内用卓上ランプ-「柔光」JP3A",
+      "ja": "室内卓上ランプ-「柔らかい光」",
       "ko": "실내 스탠드-「부드러운 빛」"
     },
     "localAsset": "GameData/gi/furniture/assets/363122.webp"
+  },
+  {
+    "id": "363123",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 220,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Ani_Exterior_Ly_Lamp_Light_ZYJdenglong_01",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": null
   },
   {
     "id": "363201",
@@ -15980,6 +16131,7 @@
     "localizedNames": {
       "en": "Teahouse Vessel: Scent-Sealer",
       "zh": "茶室器物-「锁香笼」",
+      "ja": "茶屋器物-「鎖香籠」",
       "ko": "찻집 기물-「쇠향롱」"
     },
     "localAsset": "GameData/gi/furniture/assets/363313.webp"
@@ -16224,7 +16376,8 @@
     "localizedNames": {
       "en": "A Guest of Noble Character",
       "zh": "「清客扬芳」",
-      "ja": "「名残の清客」"
+      "ja": "「名残の清客」",
+      "ko": "「고귀한 손님」"
     },
     "localAsset": "GameData/gi/furniture/assets/363319.webp"
   },
@@ -17278,6 +17431,7 @@
     "localizedNames": {
       "en": "Friendly Aranara Carving",
       "zh": "亲切的兰那罗木刻",
+      "ja": "親切なアランナラ木彫り",
       "ko": "친절한 아란나라 목각"
     },
     "localAsset": "GameData/gi/furniture/assets/363349.webp"
@@ -17394,7 +17548,8 @@
     "localizedNames": {
       "en": "\"Prince's Weeping Fish\"",
       "zh": "「小王子的大哭鱼」",
-      "ja": "「リトルプリンスの泣き魚」"
+      "ja": "「リトルプリンスの泣き魚」",
+      "ko": "「왕자님의 우는 물고기」"
     },
     "localAsset": "GameData/gi/furniture/assets/363352.webp"
   },
@@ -18601,6 +18756,7 @@
     "localizedNames": {
       "en": "Seafoam Swordsong",
       "zh": "「浪花剑锋曲」",
+      "ja": "「波花の剣舞曲」",
       "ko": "「물보라 검무곡」"
     },
     "localAsset": "GameData/gi/furniture/assets/363390.webp"
@@ -18858,15 +19014,15 @@
     "localizedNames": {
       "en": "\"Round and Round, the Little Fish Go\"",
       "zh": "「鱼儿转呀转」",
-      "ja": "「お魚くるくる回転」JP3A",
+      "ja": "「お魚くるくる」",
       "ko": "「빙글빙글 물고기」"
     },
     "localAsset": "GameData/gi/furniture/assets/363399.webp"
   },
   {
     "id": "363400",
-    "name": "???",
-    "description": "???",
+    "name": "\"Wind-and-Snowpiercer\"",
+    "description": "The prototype of a new mode of transport, built as part of a plan to bring greater prosperity to the entire nation.\\nEvery great idea in the world starts, in most cases, as a small and unremarkable thought.\\nJust as the mighty transport engines that will one day charge along the railways were, at the time, no more than tiny models that had been freshly designed and built. But what always matters is the stage that follows — once the model has been proven successful, that is. In this world, Grand plans and enormous dreams have to hatch from within a palm-sized shell before they can begin to run.",
     "rank": 4,
     "type": [
       "Ornaments"
@@ -18895,10 +19051,10 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HCCM_01_Vo",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "\"Wind-and-Snowpiercer\"",
+      "zh": "「穿破风雪」",
+      "ja": "「風雪を貫く」",
+      "ko": "「설국 횡단 열차」"
     },
     "localAsset": "GameData/gi/furniture/assets/363400.webp"
   },
@@ -19369,6 +19525,7 @@
     "localizedNames": {
       "en": "Lucky Spin",
       "zh": "「好运速转」",
+      "ja": "「ラッキールーレット」",
       "ko": "「행운의 룰렛」"
     },
     "localAsset": "GameData/gi/furniture/assets/363412.webp"
@@ -19610,8 +19767,8 @@
     "localizedNames": {
       "en": "Sweet Berry Blossom Ice Hut",
       "zh": "甜莓花花冰屋",
-      "ja": "甘ベリーのお花氷小屋JP3A",
-      "ko": "얼음 오두막"
+      "ja": "スイートベリーのお花氷小屋",
+      "ko": "낙락베리 얼음 오두막"
     },
     "localAsset": "GameData/gi/furniture/assets/363419.webp"
   },
@@ -19640,8 +19797,8 @@
     "localizedNames": {
       "en": "Honey Blossom Ice Hut",
       "zh": "蜂蜜花花冰屋",
-      "ja": "蜂蜜のお花氷小屋JP3A",
-      "ko": "꿀꽃 꽁꽁 오두막"
+      "ja": "蜂蜜のお花氷小屋",
+      "ko": "벌꿀 얼음 오두막"
     },
     "localAsset": "GameData/gi/furniture/assets/363420.webp"
   },
@@ -19700,7 +19857,8 @@
     "localizedNames": {
       "en": "Cross Mood",
       "zh": "气气状态",
-      "ja": "プンプン状態JP3A"
+      "ja": "プンプン状態",
+      "ko": "화난 상태"
     },
     "localAsset": "GameData/gi/furniture/assets/363422.webp"
   },
@@ -19729,7 +19887,7 @@
     "localizedNames": {
       "en": "Sincere Blessing",
       "zh": "真诚祝福",
-      "ja": "真心の祝福JP3A",
+      "ja": "真心の祝福",
       "ko": "진심 어린 축복"
     },
     "localAsset": "GameData/gi/furniture/assets/363423.webp"
@@ -19759,7 +19917,7 @@
     "localizedNames": {
       "en": "Presenting the Reward",
       "zh": "献上奖励",
-      "ja": "報酬の献上JP3A",
+      "ja": "報酬の献上",
       "ko": "보상 증정"
     },
     "localAsset": "GameData/gi/furniture/assets/363424.webp"
@@ -19789,7 +19947,7 @@
     "localizedNames": {
       "en": "Happy Smile",
       "zh": "开心微笑",
-      "ja": "ハッピーな微笑みJP3A",
+      "ja": "ハッピーな微笑み",
       "ko": "행복한 미소"
     },
     "localAsset": "GameData/gi/furniture/assets/363425.webp"
@@ -19849,7 +20007,7 @@
     "localizedNames": {
       "en": "Precise Calculation",
       "zh": "精准计算",
-      "ja": "精密計算JP3A",
+      "ja": "精密計算",
       "ko": "정확한 계산"
     },
     "localAsset": "GameData/gi/furniture/assets/363427.webp"
@@ -19879,7 +20037,7 @@
     "localizedNames": {
       "en": "Legendary Fury",
       "zh": "传说怒意",
-      "ja": "伝説の怒りJP3A",
+      "ja": "伝説の怒り",
       "ko": "전설적인 분노"
     },
     "localAsset": "GameData/gi/furniture/assets/363428.webp"
@@ -19909,7 +20067,7 @@
     "localizedNames": {
       "en": "Classic Hairstyle",
       "zh": "经典发型",
-      "ja": "クラシックな髪型JP3A",
+      "ja": "クラシックな髪型",
       "ko": "클래식 헤어"
     },
     "localAsset": "GameData/gi/furniture/assets/363429.webp"
@@ -19939,7 +20097,7 @@
     "localizedNames": {
       "en": "Snezhnayan Ice-Blue",
       "zh": "至冬冰蓝",
-      "ja": "スネージナヤ氷藍JP3A",
+      "ja": "スネージナヤ氷藍",
       "ko": "얼음 호수"
     },
     "localAsset": "GameData/gi/furniture/assets/363430.webp"
@@ -19969,7 +20127,7 @@
     "localizedNames": {
       "en": "Time to Rest",
       "zh": "休息时间",
-      "ja": "休憩時間JP3A",
+      "ja": "休憩時間",
       "ko": "휴식 시간"
     },
     "localAsset": "GameData/gi/furniture/assets/363431.webp"
@@ -19999,7 +20157,7 @@
     "localizedNames": {
       "en": "Winter Drowsiness",
       "zh": "冬日睡意",
-      "ja": "冬のまどろみJP3A",
+      "ja": "冬のまどろみ",
       "ko": "겨울의 잠기운"
     },
     "localAsset": "GameData/gi/furniture/assets/363432.webp"
@@ -20029,7 +20187,7 @@
     "localizedNames": {
       "en": "Wee Adventurer - Cheer",
       "zh": "小小冒险家·开心",
-      "ja": "小さな冒険者・ハッピーJP3A",
+      "ja": "小さな冒険者・ハッピー",
       "ko": "작은 모험가·행복"
     },
     "localAsset": "GameData/gi/furniture/assets/363433.webp"
@@ -20059,7 +20217,7 @@
     "localizedNames": {
       "en": "Wee Adventurer - Diligence",
       "zh": "小小冒险家·勤奋",
-      "ja": "小さな冒険者・勤勉JP3A",
+      "ja": "小さな冒険者・勤勉",
       "ko": "작은 모험가·근면"
     },
     "localAsset": "GameData/gi/furniture/assets/363434.webp"
@@ -20089,7 +20247,7 @@
     "localizedNames": {
       "en": "Wee Adventurer - Joy",
       "zh": "小小冒险家·快乐",
-      "ja": "小さな冒険者・楽しさJP3A",
+      "ja": "小さな冒険者・楽しさ",
       "ko": "작은 모험가·기쁨"
     },
     "localAsset": "GameData/gi/furniture/assets/363435.webp"
@@ -20119,7 +20277,7 @@
     "localizedNames": {
       "en": "Wee Adventurer - Fighting Spirit",
       "zh": "小小冒险家·斗志",
-      "ja": "小さな冒険者・闘志JP3A",
+      "ja": "小さな冒険者・闘志",
       "ko": "작은 모험가·투지"
     },
     "localAsset": "GameData/gi/furniture/assets/363436.webp"
@@ -20149,7 +20307,7 @@
     "localizedNames": {
       "en": "Big Adventurer - Cheer",
       "zh": "大大冒险家·开心",
-      "ja": "大きな冒険者・ハッピーJP3A",
+      "ja": "大きな冒険者・ハッピー",
       "ko": "큰 모험가·행복"
     },
     "localAsset": "GameData/gi/furniture/assets/363437.webp"
@@ -20179,7 +20337,7 @@
     "localizedNames": {
       "en": "Big Adventurer - Diligence",
       "zh": "大大冒险家·勤奋",
-      "ja": "大きな冒険者・勤勉JP3A",
+      "ja": "大きな冒険者・勤勉",
       "ko": "큰 모험가·근면"
     },
     "localAsset": "GameData/gi/furniture/assets/363438.webp"
@@ -20209,7 +20367,7 @@
     "localizedNames": {
       "en": "Big Adventurer - Joy",
       "zh": "大大冒险家·快乐",
-      "ja": "大きな冒険者・楽しさJP3A",
+      "ja": "大きな冒険者・楽しさ",
       "ko": "큰 모험가·기쁨"
     },
     "localAsset": "GameData/gi/furniture/assets/363439.webp"
@@ -20239,7 +20397,7 @@
     "localizedNames": {
       "en": "Big Adventurer - Fighting Spirit",
       "zh": "大大冒险家·斗志",
-      "ja": "大きな冒険者・闘志JP3A",
+      "ja": "大きな冒険者・闘志",
       "ko": "큰 모험가·투지"
     },
     "localAsset": "GameData/gi/furniture/assets/363440.webp"
@@ -20278,15 +20436,15 @@
     "localizedNames": {
       "en": "\"Tea-Time Etiquette\"",
       "zh": "「品茶的礼仪」",
-      "ja": "「お茶の作法」JP3A",
+      "ja": "「お茶の作法」",
       "ko": "「티타임 에티켓」"
     },
     "localAsset": "GameData/gi/furniture/assets/363441.webp"
   },
   {
     "id": "363442",
-    "name": "\"Balanced Boughs\"",
-    "description": "A candelabrum on a sturdy base, with symmetrical branch-like arms upon which two candles burn with warm yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
+    "name": "Faint Swaying Gold",
+    "description": "A candelabrum on a sturdy base, upon which candles burn warmly with yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
     "rank": 3,
     "type": [
       "Ornaments"
@@ -20315,10 +20473,10 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
     "localizedNames": {
-      "en": "\"Balanced Boughs\"",
-      "zh": "「平衡的枝叶」",
-      "ja": "「平衡の枝葉」JP3A",
-      "ko": "「균형 잡힌 가지」"
+      "en": "Faint Swaying Gold",
+      "zh": "「微黄摇曳」",
+      "ja": "「揺らめく薄い黄色」",
+      "ko": "「흔들리는 노란빛」"
     },
     "localAsset": "GameData/gi/furniture/assets/363442.webp"
   },
@@ -20356,7 +20514,7 @@
     "localizedNames": {
       "en": "\"Steady Companion Through Dreams\"",
       "zh": "「常伴梦乡」",
-      "ja": "「夢路のお供」JP3A",
+      "ja": "「夢路のお供」",
       "ko": "「꿈의 동반자」"
     },
     "localAsset": "GameData/gi/furniture/assets/363443.webp"
@@ -20812,7 +20970,7 @@
     "localizedNames": {
       "en": "Potted Bouquet: \"Elegant Blackthorn\"",
       "zh": "瓶栽插花-「典雅黛色」",
-      "ja": "花瓶の生花-「典雅黛色」JP3A",
+      "ja": "花瓶の生花-「典雅なる黛」",
       "ko": "병 꽃꽂이-「단아한 보랏빛」"
     },
     "localAsset": "GameData/gi/furniture/assets/363513.webp"
@@ -20851,7 +21009,7 @@
     "localizedNames": {
       "en": "Decorative Flowerbed: \"Brightcore Blossoms\"",
       "zh": "装饰花坛-「蕊色流缇」",
-      "ja": "装飾花壇-「蕊色流緹」JP3A",
+      "ja": "装飾花壇-「光宿る花蕊」",
       "ko": "장식용 화단-「비단 꽃술」"
     },
     "localAsset": "GameData/gi/furniture/assets/363514.webp"
@@ -21374,7 +21532,8 @@
     "localizedNames": {
       "en": "Well-Worn Buckler",
       "zh": "半旧的圆盾",
-      "ja": "古びた円盾"
+      "ja": "古びた円盾",
+      "ko": "낡은 원형 방패"
     },
     "localAsset": "GameData/gi/furniture/assets/364203.webp"
   },
@@ -21954,6 +22113,7 @@
     "localizedNames": {
       "en": "Indoor Lamp: The Twilight Sea",
       "zh": "室内挂灯-「昏黄海景」",
+      "ja": "ルームライト-「黄昏の海の眺め」",
       "ko": "실내 조명-「해 질 녘의 바다 풍경」"
     },
     "localAsset": "GameData/gi/furniture/assets/364218.webp"
@@ -23511,7 +23671,8 @@
     "localizedNames": {
       "en": "Banner of the Wingalet",
       "zh": "「维恩歌莱之帜」",
-      "ja": "「ウィンガレットの旗」"
+      "ja": "「ウィンガレットの旗」",
+      "ko": "「윙갈레트의 깃발」"
     },
     "localAsset": "GameData/gi/furniture/assets/364523.webp"
   },
@@ -23549,15 +23710,15 @@
     "localizedNames": {
       "en": "\"A Golden Winter\"",
       "zh": "「金色的冬天」",
-      "ja": "「金色的冬」JP3A",
+      "ja": "「金色の冬」",
       "ko": "「금빛 겨울」"
     },
     "localAsset": "GameData/gi/furniture/assets/364524.webp"
   },
   {
     "id": "364525",
-    "name": "???",
-    "description": "???",
+    "name": "\"The Love One Seeks\"",
+    "description": "A painting held in the mountain manor called Hesperides, high in the snow-mountains.\\nIt is said that a Snegovik who lives in that manor is a fae who must complete her soul through \"love.\" Yet that love always demands, as its price, the very life of the one they love. For the moment they truly understand love is when they lose it. This may well be why the stories of Snegurochka that circulate in the world always end in tragedy.\\nMost of the fae in question have long grown used to this, until one of them was moved to wonder... \"Why must the growth of the soul always be paid for in the pain of the heart?\"",
     "rank": 4,
     "type": [
       "Wall Decor"
@@ -23586,12 +23747,51 @@
     },
     "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_XNGguahua_01_Vo",
     "localizedNames": {
+      "en": "\"The Love One Seeks\"",
+      "zh": "「谁所追寻的爱」",
+      "ja": "「誰かが探し求めた愛」",
+      "ko": "「누군가가 추구하는 사랑」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/364525.webp"
+  },
+  {
+    "id": "364526",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Wall Decor"
+    ],
+    "type2": [
+      "Hanging Ornament"
+    ],
+    "cost": 85,
+    "comfort": 90,
+    "source": [
+      "???"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 8
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Light_ZDSW_02_Lod0",
+    "localizedNames": {
       "en": "???",
       "zh": "？？？",
       "ja": "？？？",
       "ko": "???"
     },
-    "localAsset": "GameData/gi/furniture/assets/364525.webp"
+    "localAsset": "GameData/gi/furniture/assets/364526.webp"
   },
   {
     "id": "364601",
@@ -23708,7 +23908,8 @@
     "localizedNames": {
       "en": "Thundering Horned Owl: Turning",
       "zh": "霆雷角鸮号·转",
-      "ja": "雷霆コノハズク·転"
+      "ja": "雷霆コノハズク·転",
+      "ko": "뇌정의 소쩍새호·회전"
     },
     "localAsset": "GameData/gi/furniture/assets/364604.webp"
   },
@@ -24506,6 +24707,7 @@
     "localizedNames": {
       "en": "Venti",
       "zh": "温迪",
+      "ja": "ウェンティ",
       "ko": "벤티"
     },
     "localAsset": null
@@ -26129,6 +26331,7 @@
     "localizedNames": {
       "en": "Baizhu",
       "zh": "白术",
+      "ja": "白朮",
       "ko": "백출"
     },
     "localAsset": null
@@ -26186,6 +26389,7 @@
     "localizedNames": {
       "en": "Lynette",
       "zh": "琳妮特",
+      "ja": "リネット",
       "ko": "리넷"
     },
     "localAsset": null
@@ -26997,6 +27201,7 @@
     "localizedNames": {
       "en": "Varesa",
       "zh": "瓦雷莎",
+      "ja": "ヴァレサ",
       "ko": "바레사"
     },
     "localAsset": null
@@ -27605,7 +27810,8 @@
     "localizedNames": {
       "en": "Odette",
       "zh": "奥黛塔",
-      "ja": "オデット"
+      "ja": "オデット",
+      "ko": "오데트"
     },
     "localAsset": null
   },
@@ -27635,6 +27841,62 @@
       "zh": "阿罗夏",
       "ja": "アリョーシャ",
       "ko": "알료샤"
+    },
+    "localAsset": null
+  },
+  {
+    "id": "368220",
+    "name": "Vesna",
+    "description": "Character In-Residence",
+    "rank": 1,
+    "type": [
+      "Companion"
+    ],
+    "type2": [
+      "Companion",
+      "Companion"
+    ],
+    "cost": 1750,
+    "comfort": 300,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": null,
+    "localizedNames": {
+      "en": "Vesna",
+      "zh": "薇斯纳",
+      "ja": "ヴェスナ"
+    },
+    "localAsset": null
+  },
+  {
+    "id": "368221",
+    "name": "Vodyanitsa",
+    "description": "Character In-Residence",
+    "rank": 1,
+    "type": [
+      "Companion"
+    ],
+    "type2": [
+      "Companion",
+      "Companion"
+    ],
+    "cost": 1750,
+    "comfort": 300,
+    "source": [],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": null,
+    "localizedNames": {
+      "en": "Vodyanitsa",
+      "zh": "沃雅妮莎",
+      "ja": "ヴォジャニーツァ"
     },
     "localAsset": null
   },
@@ -27961,6 +28223,7 @@
     "localizedNames": {
       "en": "Sheriff Cat",
       "zh": "警长猫",
+      "ja": "タキシード",
       "ko": "경장묘"
     },
     "localAsset": "GameData/gi/furniture/assets/369110.webp"
@@ -30066,6 +30329,7 @@
     "localizedNames": {
       "en": "Bluecrown Finch",
       "zh": "青冠雀",
+      "ja": "青カンムリガラ",
       "ko": "푸른 왕관새"
     },
     "localAsset": "GameData/gi/furniture/assets/369180.webp"
@@ -30426,6 +30690,7 @@
     "localizedNames": {
       "en": "Alpaca: Iced Milk",
       "zh": "绵驮兽·冰牛奶",
+      "ja": "モコモコ駄獣·アイスミルク",
       "ko": "알파카·얼음 우유"
     },
     "localAsset": "GameData/gi/furniture/assets/369192.webp"
@@ -31475,7 +31740,8 @@
     "localizedNames": {
       "en": "Special Chic Badger",
       "zh": "特别的帔髦獾",
-      "ja": "特別なモサモサアナグマ"
+      "ja": "特別なモサモサアナグマ",
+      "ko": "특별한 갈기 오소리"
     },
     "localAsset": "GameData/gi/furniture/assets/369227.webp"
   },
@@ -31594,7 +31860,7 @@
     "localizedNames": {
       "en": "Polyarbear",
       "zh": "极地熊",
-      "ja": "ポーラーベアJP0D",
+      "ja": "ユキグマ",
       "ko": "극지곰"
     },
     "localAsset": "GameData/gi/furniture/assets/369231.webp"
@@ -31624,7 +31890,7 @@
     "localizedNames": {
       "en": "Fluffahog",
       "zh": "软猬兽",
-      "ja": "やわらかねずみJP0D",
+      "ja": "モコモコネズミ",
       "ko": "말랑 고슴도치"
     },
     "localAsset": "GameData/gi/furniture/assets/369232.webp"
@@ -31632,7 +31898,7 @@
   {
     "id": "369233",
     "name": "Nochhornowl",
-    "description": "A bird native to Snezhnaya, its body covered in snow-white feathers, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
+    "description": "A bird native to Snezhnaya, its body covered in feathers dark as night, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
     "rank": 3,
     "type": [
       "Animal"
@@ -31654,7 +31920,7 @@
     "localizedNames": {
       "en": "Nochhornowl",
       "zh": "夜角鸮",
-      "ja": "ヨルミミズクJP0D",
+      "ja": "ヨルミミズク",
       "ko": "밤소쩍새"
     },
     "localAsset": "GameData/gi/furniture/assets/369233.webp"
@@ -31684,7 +31950,7 @@
     "localizedNames": {
       "en": "Morozhound",
       "zh": "雪地犬",
-      "ja": "スノウウルフJP0D",
+      "ja": "スノーハウンド",
       "ko": "썰매견"
     },
     "localAsset": "GameData/gi/furniture/assets/369234.webp"
@@ -31714,8 +31980,8 @@
     "localizedNames": {
       "en": "Red-Bellied Plover",
       "zh": "赤腹兰鸻",
-      "ja": "赤腹のチドリJP0D",
-      "ko": "붉은배물떼새"
+      "ja": "アカハラチドリ",
+      "ko": "붉은배 물떼새"
     },
     "localAsset": "GameData/gi/furniture/assets/369235.webp"
   },
@@ -31744,7 +32010,7 @@
     "localizedNames": {
       "en": "Severelk",
       "zh": "雪驼鹿",
-      "ja": "雪ヘラジカJP0D",
+      "ja": "北ヘラジカ",
       "ko": "주걱뿔 사슴"
     },
     "localAsset": "GameData/gi/furniture/assets/369236.webp"
@@ -31774,7 +32040,7 @@
     "localizedNames": {
       "en": "Fuzzbadger",
       "zh": "茸茸獾",
-      "ja": "モフモフアナグマJP0D",
+      "ja": "モフモフアナグマ",
       "ko": "복슬 오소리"
     },
     "localAsset": "GameData/gi/furniture/assets/369237.webp"
@@ -31973,6 +32239,7 @@
     "localizedNames": {
       "en": "Liyue Pitstop: Tea Fragrance on the Old Road",
       "zh": "璃月驿站-「古道茶香」",
+      "ja": "璃月宿場-「古道茶香」",
       "ko": "리월풍 역참-「옛스러운 차향」"
     },
     "localAsset": "GameData/gi/furniture/assets/370105.webp"
@@ -35005,6 +35272,117 @@
     "localAsset": "GameData/gi/furniture/assets/370342.webp"
   },
   {
+    "id": "370343",
+    "name": "370343",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Mercantile"
+    ],
+    "cost": 265,
+    "comfort": 60,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101332",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_01_01_Lods",
+    "localizedNames": {
+      "zh": "城镇小摊-「新鲜之味」",
+      "ko": "마을 노점-「신선한 맛」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/370343.webp"
+  },
+  {
+    "id": "370344",
+    "name": "370344",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Mercantile"
+    ],
+    "cost": 265,
+    "comfort": 60,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101331",
+          "count": 8
+        },
+        {
+          "id": "101002",
+          "count": 4
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_02_01_Lods",
+    "localizedNames": {
+      "zh": "城镇小摊-「节约时间」",
+      "ko": "마을 노점-「시간 절약」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/370344.webp"
+  },
+  {
+    "id": "370345",
+    "name": "370345",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Mercantile"
+    ],
+    "cost": 265,
+    "comfort": 60,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "id": "101332",
+          "count": 6
+        },
+        {
+          "id": "101002",
+          "count": 6
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_03_01_Lods",
+    "localizedNames": {
+      "zh": "城镇小摊-「惬意时刻」",
+      "ko": "마을 노점-「흡족한 시간」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/370345.webp"
+  },
+  {
     "id": "370401",
     "name": "Hilichurl Outpost Hut",
     "description": "A hilichurl-style hut. It seems like a castle that's been locked up tight, but it is in fact quite airy and even has gaps in the roof through which rain may enter.\\nThe scholar, Musk, pointed out that these gaps can be used to collect rainwater, and that indoor pots may be set up inside such structures.",
@@ -35264,6 +35642,7 @@
     "localizedNames": {
       "en": "Otogi Wood Rice Cake Soup Stand",
       "zh": "御伽木市井杂煮屋台",
+      "ja": "御伽の市井おでん屋台",
       "ko": "오토기나무 모둠 어묵탕 포장마차"
     },
     "localAsset": "GameData/gi/furniture/assets/370505.webp"
@@ -36796,6 +37175,7 @@
     "localizedNames": {
       "en": "Inazuman Official Residence: Forcefulness",
       "zh": "稻妻官邸-「举目威仪」",
+      "ja": "稲妻官邸-「挙目威儀」",
       "ko": "이나즈마 관저-「변함없는 위엄」"
     },
     "localAsset": "GameData/gi/furniture/assets/370615.webp"
@@ -37574,6 +37954,7 @@
     "localizedNames": {
       "en": "Desert House: Ordinary Lives",
       "zh": "沙域平屋-「端居」",
+      "ja": "砂域の家屋-「日常」",
       "ko": "사막 집-「일상」"
     },
     "localAsset": "GameData/gi/furniture/assets/370705.webp"
@@ -41000,7 +41381,8 @@
     "localizedNames": {
       "en": "Simple Flower-Feather House: Fallback Measures",
       "zh": "花羽简舍-「后备手段」",
-      "ja": "花翼の簡舎-「代替手段」"
+      "ja": "花翼の簡舎-「代替手段」",
+      "ko": "꽃깃 오두막-「예비 수단」"
     },
     "localAsset": "GameData/gi/furniture/assets/370924.webp"
   },
@@ -42216,6 +42598,7 @@
     "localizedNames": {
       "en": "\"Shelter in the City of the Ever-Watchful\"",
       "zh": "「守望之城的庇托」",
+      "ja": "「守護の都の庇護」",
       "ko": "「안전한 파수의 성」"
     },
     "localAsset": "GameData/gi/furniture/assets/371016.webp"
@@ -42258,6 +42641,7 @@
     "localizedNames": {
       "en": "\"A Corner of One's Own\"",
       "zh": "「一隅之间」",
+      "ja": "「片隅の間」",
       "ko": "「한 칸 공간」"
     },
     "localAsset": "GameData/gi/furniture/assets/371017.webp"
@@ -42755,7 +43139,7 @@
     "localizedNames": {
       "en": "Large Winch-and-Axle Crane",
       "zh": "大型轮轴起重装置",
-      "ja": "大型輪軸起重装置JP3A",
+      "ja": "大型輪軸起重装置",
       "ko": "대형 도르래 기중 장치"
     },
     "localAsset": "GameData/gi/furniture/assets/371050.webp"
@@ -42790,7 +43174,8 @@
     "localizedNames": {
       "en": "Town Dwelling: \"Cozy Warmth\"",
       "zh": "城镇民居-「融融暖居」",
-      "ja": "町の民家-「ぬくもりの家」JP3A"
+      "ja": "町の民家-「ぬくもりの家」",
+      "ko": "마을 민가-「따스한 보금자리」"
     },
     "localAsset": "GameData/gi/furniture/assets/371051.webp"
   },
@@ -42828,7 +43213,7 @@
     "localizedNames": {
       "en": "\"The Round Snowball\"",
       "zh": "「圆圆雪球」",
-      "ja": "「まん丸雪玉」JP3A",
+      "ja": "「まんまる雪玉」",
       "ko": "「동글동글 눈덩이」"
     },
     "localAsset": "GameData/gi/furniture/assets/371052.webp"
@@ -42867,7 +43252,7 @@
     "localizedNames": {
       "en": "Waiting Platform: \"Quiet Anticipation\"",
       "zh": "候车站台-「静谧等待」",
-      "ja": "待合ポート-「静かな待ち時間」JP3A",
+      "ja": "待合所-「静かな待ち時間」",
       "ko": "열차 승강장-「고요한 기다림」"
     },
     "localAsset": "GameData/gi/furniture/assets/371053.webp"
@@ -42906,7 +43291,7 @@
     "localizedNames": {
       "en": "Snezhnayan Dwelling: \"Warm-Toned Portico\"",
       "zh": "至冬民居-「暖色门廊」",
-      "ja": "スネージナヤの民家-「暖色のポーチ」JP3A",
+      "ja": "スネージナヤの民家-「暖色ポルチコ」",
       "ko": "스네즈나야 민가-「따뜻한 색」"
     },
     "localAsset": "GameData/gi/furniture/assets/371054.webp"
@@ -42945,7 +43330,7 @@
     "localizedNames": {
       "en": "\"The Round Onion\"",
       "zh": "「圆圆洋葱」",
-      "ja": "「まん丸玉ねぎ」JP3A",
+      "ja": "「まんまる玉ねぎ」",
       "ko": "「동글동글 양파」"
     },
     "localAsset": "GameData/gi/furniture/assets/371055.webp"
@@ -42984,15 +43369,15 @@
     "localizedNames": {
       "en": "Snezhnayan Dwelling: \"Elegant Carvings\"",
       "zh": "至冬民居-「典雅雕花」",
-      "ja": "スネージナヤの民家-「典雅な彫花」JP3A",
+      "ja": "スネージナヤの民家-「典雅な彫花」",
       "ko": "스네즈나야 민가-「우아한 조각」"
     },
     "localAsset": "GameData/gi/furniture/assets/371056.webp"
   },
   {
     "id": "371057",
-    "name": "???",
-    "description": "???",
+    "name": "\"Echoes in the Storm\"",
+    "description": "An enormous shell that can serve as a hub for carrying sound further afield.\\n\"If you're caught in a blizzard out in the wilds, just follow the song of the Water Imps and you'll find shelter from the wind and snow... That said, they're pretty dangerous too, so don't linger...\" Such warnings do those who've survived blizzards out in the wild give.\\nBut whether it's a lost Water Imp singing a mournful song, or a weeping one meaning to trap a stray adventurer... No one can ever truly know.",
     "rank": 4,
     "type": [
       "Building"
@@ -43012,17 +43397,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZJCdwt_01_01_Lods",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "\"Echoes in the Storm\"",
+      "zh": "「回响于暴风雪」",
+      "ja": "「吹雪の響き」",
+      "ko": "「눈보라 속 메아리」"
     },
     "localAsset": "GameData/gi/furniture/assets/371057.webp"
   },
   {
     "id": "371058",
-    "name": "???",
-    "description": "???",
+    "name": "\"The Warming Hearth-Fire\"",
+    "description": "The Kresnik's Torch prototype, technology from a certain era now refitted as a stove of higher combustion efficiency and greater output.\\nIn truth, for the freezing villagers, this prototype — with all its vast connections — is nothing more than a stove that can shed light and heat.\\nAnd for the \"hunter\" who discovered it... Having already secured the \"prey,\" when facing unknown situations to come, knowing when to turn back is the optimal choice.",
     "rank": 4,
     "type": [
       "Building"
@@ -43042,12 +43427,42 @@
     },
     "icon": "UI_Homeworld_Ani_Exterior_Zd_Build_ZJCdadeng_01",
     "localizedNames": {
+      "en": "\"The Warming Hearth-Fire\"",
+      "zh": "「温暖炉火」",
+      "ja": "「温かな炉の火」",
+      "ko": "「따스한 난롯불」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/371058.webp"
+  },
+  {
+    "id": "371059",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Snezhnayan Style"
+    ],
+    "cost": 1250,
+    "comfort": 90,
+    "source": [
+      "???"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDSW_01_01_Lods",
+    "localizedNames": {
       "en": "???",
       "zh": "？？？",
       "ja": "？？？",
       "ko": "???"
     },
-    "localAsset": "GameData/gi/furniture/assets/371058.webp"
+    "localAsset": "GameData/gi/furniture/assets/371059.webp"
   },
   {
     "id": "371101",
@@ -43192,7 +43607,8 @@
     "localizedNames": {
       "en": "\"Ballad-Spinning Windwheel\"",
       "zh": "「牧歌与风车」",
-      "ja": "「牧歌と風車」"
+      "ja": "「牧歌と風車」",
+      "ko": "「목가와 풍차」"
     },
     "localAsset": "GameData/gi/furniture/assets/371104.webp"
   },
@@ -43305,7 +43721,8 @@
     "localizedNames": {
       "en": "Scarlet Torii Gate: Door of Silence",
       "zh": "朱木鸟居-「真静之扉」",
-      "ja": "赤鳥居-「真静の扉」"
+      "ja": "赤鳥居-「真静の扉」",
+      "ko": "주홍 도리이-「고요의 문」"
     },
     "localAsset": "GameData/gi/furniture/assets/371110.webp"
   },
@@ -43460,6 +43877,7 @@
     "localizedNames": {
       "en": "Estate Courtyard Corner: Measured Harmony",
       "zh": "垣屋庭角-「安节谦洽」",
+      "ja": "垣屋庭角-「安節謙洽」",
       "ko": "담장집 정원의 일각-「적절한 조화」"
     },
     "localAsset": "GameData/gi/furniture/assets/371115.webp"
@@ -43494,6 +43912,7 @@
     "localizedNames": {
       "en": "Whitestone Hot Spring: Diffusing Warmth",
       "zh": "白石温泉-「暖漫」",
+      "ja": "白石温泉-「暖漫」",
       "ko": "백석 온천-「온화」"
     },
     "localAsset": "GameData/gi/furniture/assets/371116.webp"
@@ -45040,6 +45459,7 @@
     "localizedNames": {
       "en": "Carved Courtyard Fence",
       "zh": "雕花庭院围墙",
+      "ja": "模様が彫られた庭園の壁",
       "ko": "조각문양 정원 담장"
     },
     "localAsset": "GameData/gi/furniture/assets/371204.webp"
@@ -45717,7 +46137,8 @@
     "localizedNames": {
       "en": "Shrine Corridor: Vermilion Gaze",
       "zh": "神社回廊-「浅赤凝望」",
-      "ja": "神社回廊-「浅赤凝望」"
+      "ja": "神社回廊-「浅赤凝望」",
+      "ko": "신사 회랑-「주홍빛의 응시」"
     },
     "localAsset": "GameData/gi/furniture/assets/371222.webp"
   },
@@ -45755,7 +46176,8 @@
     "localizedNames": {
       "en": "Estate Courtyard Wall: Stoneguard",
       "zh": "垣屋院墙-「崩石之御」",
-      "ja": "垣屋院墻-「崩石の御」"
+      "ja": "垣屋院墻-「崩石の御」",
+      "ko": "담장집 담장-「철벽방어」"
     },
     "localAsset": "GameData/gi/furniture/assets/371223.webp"
   },
@@ -46411,7 +46833,8 @@
     "localizedNames": {
       "en": "Domed Wall: The Birds Sang",
       "zh": "穹居院墙-「百鸟齐唱」",
-      "ja": "住居の院墻-「百鳥の合唱」"
+      "ja": "住居の院墻-「百鳥の合唱」",
+      "ko": "나무집 담장-「새들의 제창」"
     },
     "localAsset": "GameData/gi/furniture/assets/371242.webp"
   },
@@ -47420,7 +47843,8 @@
     "localizedNames": {
       "en": "Stadium's \"Tempered\" Steps",
       "zh": "竞技场「百炼」石阶",
-      "ja": "競技場「百錬」の石段"
+      "ja": "競技場「百錬」の石段",
+      "ko": "경기장의 「단련」 돌계단"
     },
     "localAsset": "GameData/gi/furniture/assets/371268.webp"
   },
@@ -47575,6 +47999,7 @@
     "localizedNames": {
       "en": "Guardian Pillar: Exalted Heroes",
       "zh": "守护岩柱-「诸英杰」",
+      "ja": "守護の岩柱-「諸英傑」",
       "ko": "수호의 바위 기둥-「영웅들」"
     },
     "localAsset": "GameData/gi/furniture/assets/371272.webp"
@@ -47644,7 +48069,8 @@
     "localizedNames": {
       "en": "Sub-Space Boulder: Craggy Canopy",
       "zh": "外景磐石-「却笠」",
-      "ja": "外景盤石-「却笠」"
+      "ja": "外景盤石-「却笠」",
+      "ko": "외경 반석-「산악」"
     },
     "localAsset": "GameData/gi/furniture/assets/372101.webp"
   },
@@ -48037,6 +48463,90 @@
       "ko": "외경 반석-「높은 기둥」"
     },
     "localAsset": "GameData/gi/furniture/assets/372113.webp"
+  },
+  {
+    "id": "372114",
+    "name": "372114",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Mountain"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_01_Lod0",
+    "localizedNames": {
+      "zh": "分道石",
+      "ko": "갈림돌"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372114.webp"
+  },
+  {
+    "id": "372115",
+    "name": "372115",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Mountain"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_02_Lod0",
+    "localizedNames": {
+      "zh": "种育石",
+      "ko": "종육석"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372115.webp"
+  },
+  {
+    "id": "372116",
+    "name": "372116",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Mountain"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_03_Lod0",
+    "localizedNames": {
+      "zh": "鸟筑石",
+      "ko": "조축석"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372116.webp"
   },
   {
     "id": "372201",
@@ -48468,6 +48978,7 @@
     "localizedNames": {
       "en": "Ashen Stone",
       "zh": "炉灰石",
+      "ja": "炉灰石",
       "ko": "노회석"
     },
     "localAsset": "GameData/gi/furniture/assets/372214.webp"
@@ -49191,6 +49702,62 @@
       "ko": "「대지의 둔각」"
     },
     "localAsset": "GameData/gi/furniture/assets/372238.webp"
+  },
+  {
+    "id": "372242",
+    "name": "372242",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Rock"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_04_Lod0",
+    "localizedNames": {
+      "zh": "「雪原利齿」",
+      "ko": "「설원의 날카로운 이빨」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372242.webp"
+  },
+  {
+    "id": "372244",
+    "name": "372244",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Rock"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_06_Lod0",
+    "localizedNames": {
+      "zh": "去废石",
+      "ko": "탈폐석"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372244.webp"
   },
   {
     "id": "372301",
@@ -51107,10 +51674,206 @@
     "localizedNames": {
       "en": "\"Wildfire in the Wind\"",
       "zh": "「野火飘摇」",
-      "ja": "「揺らめく野火」JP3A",
+      "ja": "「揺らめく野火」",
       "ko": "「일렁이는 들불」"
     },
     "localAsset": "GameData/gi/furniture/assets/372363.webp"
+  },
+  {
+    "id": "372364",
+    "name": "372364",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_01_Lod0",
+    "localizedNames": {
+      "zh": "「实用的芯板」",
+      "ko": "「실용적인 심재 판자」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372364.webp"
+  },
+  {
+    "id": "372365",
+    "name": "372365",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_02_Lod0",
+    "localizedNames": {
+      "zh": "「藏雪的檐伞」",
+      "ko": "「눈을 품은 처마 우산」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372365.webp"
+  },
+  {
+    "id": "372366",
+    "name": "372366",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_03_Lod0",
+    "localizedNames": {
+      "zh": "「绘梦的色彩」",
+      "ko": "「꿈을 그리는 색」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372366.webp"
+  },
+  {
+    "id": "372367",
+    "name": "372367",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDgaomu_01_Lod0",
+    "localizedNames": {
+      "zh": "「唬骇的诡影」",
+      "ko": "「섬뜩한 기이한 그림자」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372367.webp"
+  },
+  {
+    "id": "372368",
+    "name": "372368",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_04_Lod0",
+    "localizedNames": {
+      "zh": "「巧致的纹理」",
+      "ko": "「정교한 결」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372368.webp"
+  },
+  {
+    "id": "372369",
+    "name": "372369",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDhongmu_01_Lod0",
+    "localizedNames": {
+      "zh": "「不屈的卫士」",
+      "ko": "「불굴의 수호자」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372369.webp"
+  },
+  {
+    "id": "372370",
+    "name": "372370",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_05_Lod0",
+    "localizedNames": {
+      "zh": "「泊洑苇荡」",
+      "ko": "「수변 갈대밭」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372370.webp"
   },
   {
     "id": "372401",
@@ -53944,7 +54707,8 @@
     "localizedNames": {
       "en": "Cerulean Gem",
       "zh": "「天蓝宝石」",
-      "ja": "「コバルト宝石」"
+      "ja": "「コバルト宝石」",
+      "ko": "「하늘빛 사파이어」"
     },
     "localAsset": "GameData/gi/furniture/assets/372494.webp"
   },
@@ -54513,6 +55277,7 @@
     "localizedNames": {
       "en": "Shimmer-o-Sway",
       "zh": "「摇摇闪闪亮亮摆」",
+      "ja": "「ピカピカユラユラ」",
       "ko": "「살랑살랑 반짝반짝」"
     },
     "localAsset": "GameData/gi/furniture/assets/372522.webp"
@@ -54602,7 +55367,7 @@
     "localizedNames": {
       "en": "\"A Silent Longing\"",
       "zh": "「无声的期盼」",
-      "ja": "「声なき期待」JP3A",
+      "ja": "「声なき期待」",
       "ko": "「소리 없는 기대」"
     },
     "localAsset": "GameData/gi/furniture/assets/372525.webp"
@@ -54632,10 +55397,66 @@
     "localizedNames": {
       "en": "\"Layer Upon Layer of Leaves\"",
       "zh": "「层层叠叠之叶」",
-      "ja": "「幾重にも重なる葉」JP3A",
+      "ja": "「幾重にも重なる葉」",
       "ko": "「겹겹이 포개진 잎」"
     },
     "localAsset": "GameData/gi/furniture/assets/372526.webp"
+  },
+  {
+    "id": "372527",
+    "name": "372527",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_01_Lod0",
+    "localizedNames": {
+      "zh": "「野下霜丛」",
+      "ko": "「들판의 서리 덤불」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372527.webp"
+  },
+  {
+    "id": "372529",
+    "name": "372529",
+    "description": null,
+    "rank": 4,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 65,
+    "comfort": 30,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_03_Lod0",
+    "localizedNames": {
+      "zh": "「莹莹萃珍」",
+      "ko": "「반짝이는 보배」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372529.webp"
   },
   {
     "id": "372600",
@@ -55194,6 +56015,34 @@
       "ko": "「물빛이 넘치는 가지」"
     },
     "localAsset": "GameData/gi/furniture/assets/372709.webp"
+  },
+  {
+    "id": "372710",
+    "name": "372710",
+    "description": null,
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Large Shrub"
+    ],
+    "cost": 50,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_ZDsbgm_01_01_Lods",
+    "localizedNames": {
+      "zh": "「递情的枯干」",
+      "ko": "「마음을 전하는 마른나무」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/372710.webp"
   },
   {
     "id": "373101",
@@ -56482,7 +57331,8 @@
     "localizedNames": {
       "en": "\"Slumbering Fireworks\"",
       "zh": "「悠眠花火」",
-      "ja": "「悠眠花火」"
+      "ja": "「悠眠花火」",
+      "ko": "「안식의 불꽃」"
     },
     "localAsset": "GameData/gi/furniture/assets/373135.webp"
   },
@@ -57162,6 +58012,7 @@
     "localizedNames": {
       "en": "Ingenuity of the Forest Forager",
       "zh": "「林中觅食的巧方」",
+      "ja": "「森の食探しの妙案」",
       "ko": "「숲에서 먹이를 찾는 법」"
     },
     "localAsset": "GameData/gi/furniture/assets/373154.webp"
@@ -57196,7 +58047,8 @@
     "localizedNames": {
       "en": "\"It Just Might Work!\"",
       "zh": "「说不定就成功了！」",
-      "ja": "「うまくいくかもしれない！」"
+      "ja": "「うまくいくかもしれない！」",
+      "ko": "「성공할 수도!」"
     },
     "localAsset": "GameData/gi/furniture/assets/373155.webp"
   },
@@ -57820,6 +58672,7 @@
     "localizedNames": {
       "en": "Maintenance Mek: Technical Demo Type",
       "zh": "维护机关·技术演示型",
+      "ja": "メンテマシナリー·技術デモ型",
       "ko": "유지 보수 장치·기술 시범 타입"
     },
     "localAsset": "GameData/gi/furniture/assets/373172.webp"
@@ -57849,7 +58702,8 @@
     "localizedNames": {
       "en": "Toy Adventurers: Beatdance",
       "zh": "冒险家玩具-「跃动节拍」",
-      "ja": "冒険者のおもちゃ-「躍動するリズム」"
+      "ja": "冒険者のおもちゃ-「躍動するリズム」",
+      "ko": "모험가 장난감-「리듬 펀치」"
     },
     "localAsset": "GameData/gi/furniture/assets/373173.webp"
   },
@@ -60151,7 +61005,8 @@
     "localizedNames": {
       "en": "Stone Lion Statue: The Knowing",
       "zh": "石狮子像-「百解」",
-      "ja": "石獅子像-「百解」"
+      "ja": "石獅子像-「百解」",
+      "ko": "돌사자-「백해」"
     },
     "localAsset": "GameData/gi/furniture/assets/373310.webp"
   },
@@ -61338,7 +62193,8 @@
     "localizedNames": {
       "en": "Mt. Yougou Night Walk Red Kitsune Doll",
       "zh": "影向山夜行赤狐玩偶",
-      "ja": "影向山夜行赤狐のぬいぐるみ"
+      "ja": "影向山夜行赤狐のぬいぐるみ",
+      "ko": "요고우산 야행 불여우 인형"
     },
     "localAsset": "GameData/gi/furniture/assets/373342.webp"
   },
@@ -61380,6 +62236,7 @@
     "localizedNames": {
       "en": "Tanuki Hugs Photo Board",
       "zh": "狸猫抱抱合影板",
+      "ja": "狸の顔出し看板",
       "ko": "너구리 포옹 포토 스팟"
     },
     "localAsset": "GameData/gi/furniture/assets/373343.webp"
@@ -61953,6 +62810,7 @@
     "localizedNames": {
       "en": "Embodiment of Warfare",
       "zh": "「攻伐的具象」",
+      "ja": "「攻伐の具象」",
       "ko": "「정벌 구상」"
     },
     "localAsset": "GameData/gi/furniture/assets/373358.webp"
@@ -62760,7 +63618,8 @@
     "localizedNames": {
       "en": "\"Team Spirit\"",
       "zh": "「旅团的盛气」",
-      "ja": "「旅団の勢い」"
+      "ja": "「旅団の勢い」",
+      "ko": "「여단의 기세」"
     },
     "localAsset": "GameData/gi/furniture/assets/373378.webp"
   },
@@ -65408,7 +66267,8 @@
     "localizedNames": {
       "en": "\"Origin of Music\"",
       "zh": "「乐律的源始」",
-      "ja": "「メロディーの始まり」"
+      "ja": "「メロディーの始まり」",
+      "ko": "「악률의 기원」"
     },
     "localAsset": "GameData/gi/furniture/assets/373454.webp"
   },
@@ -65723,6 +66583,7 @@
     "localizedNames": {
       "en": "\"Ceaseless Clash\"",
       "zh": "「不息的争流」",
+      "ja": "「絶え間ない流れ」",
       "ko": "「멈추지 않는 투쟁」"
     },
     "localAsset": "GameData/gi/furniture/assets/373462.webp"
@@ -66434,7 +67295,8 @@
     "localizedNames": {
       "en": "Portrait of Heroic Might",
       "zh": "「诚勇伟力之绘」",
-      "ja": "「勇ましく屈強な絵画」"
+      "ja": "「勇ましく屈強な絵画」",
+      "ko": "「열정과 힘이 담긴 그림」"
     },
     "localAsset": "GameData/gi/furniture/assets/373483.webp"
   },
@@ -67041,7 +67903,8 @@
     "localizedNames": {
       "en": "Bookshelf: Focused Effect",
       "zh": "书报架-「聚焦效应」",
-      "ja": "ブックラック-「フォーカス効果」"
+      "ja": "ブックラック-「フォーカス効果」",
+      "ko": "출판물 진열대-「초점 효과」"
     },
     "localAsset": "GameData/gi/furniture/assets/373513.webp"
   },
@@ -67646,7 +68509,8 @@
     "localizedNames": {
       "en": "Autumn Star Hibiscus",
       "zh": "星槿·秋橘",
-      "ja": "ホシムクゲ·秋橘"
+      "ja": "ホシムクゲ·秋橘",
+      "ko": "히비스커스·가을 귤"
     },
     "localAsset": "GameData/gi/furniture/assets/373802.webp"
   },
@@ -69867,6 +70731,7 @@
     "localizedNames": {
       "en": "Unusable Legacy",
       "zh": "「无可应用的遗留」",
+      "ja": "「使い道のない遺留品」",
       "ko": "「활용할 수 없는 유물」"
     },
     "localAsset": "GameData/gi/furniture/assets/373941.webp"
@@ -69905,7 +70770,7 @@
     "localizedNames": {
       "en": "\"Cherish the Present\"",
       "zh": "「珍惜当下」",
-      "ja": "「今を大切に」JP3A",
+      "ja": "「今を大切に」",
       "ko": "「기술의 소중함」"
     },
     "localAsset": "GameData/gi/furniture/assets/373942.webp"
@@ -69944,7 +70809,7 @@
     "localizedNames": {
       "en": "\"An Unmelted Home\"",
       "zh": "「未融的居所」",
-      "ja": "「溶けざる居所」JP3A",
+      "ja": "「融けない居所」",
       "ko": "「녹지 않은 수납장」"
     },
     "localAsset": "GameData/gi/furniture/assets/373943.webp"
@@ -69983,7 +70848,7 @@
     "localizedNames": {
       "en": "\"Open Wide!\"",
       "zh": "「张大嘴巴！」",
-      "ja": "「口を大きく開けて！」JP3A",
+      "ja": "「大きく口を開けて！」",
       "ko": "「입 크게 벌려!」"
     },
     "localAsset": "GameData/gi/furniture/assets/373944.webp"
@@ -70343,6 +71208,7 @@
     "localizedNames": {
       "en": "Snowman Hands: Monstrous Joy",
       "zh": "雪人双手-「欢乐雪怪」",
+      "ja": "雪だるまの両手-「ハッピー雪モンスター」",
       "ko": "눈사람 손-「즐거운 눈 몬스터」"
     },
     "localAsset": "GameData/gi/furniture/assets/374012.webp"
@@ -72501,6 +73367,7 @@
     "localizedNames": {
       "en": "Primordial Forest Beauty",
       "zh": "「丛林的原生之美」",
+      "ja": "「森に光る自然の美」",
       "ko": "「우거진 숲의 자연미」"
     },
     "localAsset": "GameData/gi/furniture/assets/374117.webp"
@@ -73909,7 +74776,7 @@
     "localizedNames": {
       "en": "Station Bench: \"Reading Between Trains\"",
       "zh": "车站长椅-「隙间读报」",
-      "ja": "駅のベンチ-「合間の新聞読み」JP3A",
+      "ja": "駅のベンチ-「待ち時間の新聞」",
       "ko": "열차역 벤치-「막간의 신문」"
     },
     "localAsset": "GameData/gi/furniture/assets/374224.webp"
@@ -73948,7 +74815,7 @@
     "localizedNames": {
       "en": "\"The Lingering Warmth of the Wait\"",
       "zh": "「等待的余温」",
-      "ja": "「待つ温もりの名残」JP3A",
+      "ja": "「待つ温もりの名残」",
       "ko": "「기다림의 온기」"
     },
     "localAsset": "GameData/gi/furniture/assets/374225.webp"
@@ -75212,7 +76079,7 @@
     "localizedNames": {
       "en": "\"Useless Advice\"",
       "zh": "「无用的忠告」",
-      "ja": "「無用な忠告」JP3A",
+      "ja": "「無用の忠告」",
       "ko": "「쓸모없는 충고」"
     },
     "localAsset": "GameData/gi/furniture/assets/374334.webp"
@@ -75927,6 +76794,7 @@
     "localizedNames": {
       "en": "\"Tailored Courier Service\"",
       "zh": "「讯使的各取所需」",
+      "ja": "「伝達使に必要なもの」",
       "ko": "「전달꾼의 직접 선택」"
     },
     "localAsset": "GameData/gi/furniture/assets/374608.webp"
@@ -76573,7 +77441,8 @@
     "localizedNames": {
       "en": "Storage 101",
       "zh": "「存储的规则」",
-      "ja": "「保管ルール」"
+      "ja": "「保管ルール」",
+      "ko": "「저장의 규칙」"
     },
     "localAsset": "GameData/gi/furniture/assets/374625.webp"
   },
@@ -77826,7 +78695,7 @@
     "localizedNames": {
       "en": "Basic Transport Sled",
       "zh": "简易运输用雪橇",
-      "ja": "簡易輸送用ソリJP3A",
+      "ja": "簡易輸送用ソリ",
       "ko": "간이 짐썰매"
     },
     "localAsset": "GameData/gi/furniture/assets/374661.webp"
@@ -77865,7 +78734,7 @@
     "localizedNames": {
       "en": "Basic Tent: \"A Nap Beneath the Snow\"",
       "zh": "简易帐篷-「雪下小憩」",
-      "ja": "簡易テント-「雪下の小休憩」JP3A",
+      "ja": "簡易テント-「雪下の小休憩」",
       "ko": "간이 텐트-「눈 속의 휴식」"
     },
     "localAsset": "GameData/gi/furniture/assets/374662.webp"
@@ -77904,7 +78773,7 @@
     "localizedNames": {
       "en": "\"Sturdy as Solid Ice\"",
       "zh": "「如坚冰般稳固」",
-      "ja": "「堅氷の如く強固」JP3A",
+      "ja": "「堅氷の如く強固」",
       "ko": "「빙하를 누비는 광차」"
     },
     "localAsset": "GameData/gi/furniture/assets/374663.webp"
@@ -77943,7 +78812,7 @@
     "localizedNames": {
       "en": "Portable Small Heating Device",
       "zh": "便携小型供暖装置",
-      "ja": "携帯小型暖房装置JP3A",
+      "ja": "携帯型小型暖房装置",
       "ko": "휴대용 소형 난방 장치"
     },
     "localAsset": "GameData/gi/furniture/assets/374664.webp"
@@ -77982,7 +78851,7 @@
     "localizedNames": {
       "en": "Prime Ice Ore: \"Neatly Arrayed\"",
       "zh": "臻冰矿材-「陈列规整」",
-      "ja": "真氷鉱材-「整然とした陳列」JP3A",
+      "ja": "真氷鉱材-「整然とした陳列」",
       "ko": "순얼음 광석-「진열」"
     },
     "localAsset": "GameData/gi/furniture/assets/374665.webp"
@@ -78021,7 +78890,7 @@
     "localizedNames": {
       "en": "Small \"Gauge-Panel\" Control Console",
       "zh": "小型「仪盘」控制台",
-      "ja": "小型「計器」操作台JP3A",
+      "ja": "小型「計器盤」操作台",
       "ko": "소형 「계기판」 제어대"
     },
     "localAsset": "GameData/gi/furniture/assets/374666.webp"
@@ -78621,6 +79490,7 @@
     "localizedNames": {
       "en": "\"Come Now, Little One...\"",
       "zh": "「哎呀，小家伙…」",
+      "ja": "「ほう、童ではないか…」",
       "ko": "「어머, 꼬마야…」"
     },
     "localAsset": "GameData/gi/furniture/assets/374723.webp"
@@ -79880,7 +80750,8 @@
     "localizedNames": {
       "en": "Fairytale Figurine: Steady Course",
       "zh": "童话巧像-「平稳驾驶」",
-      "ja": "童話の模型-「安全運転」"
+      "ja": "童話の模型-「安全運転」",
+      "ko": "동화 모형-「안전 운행」"
     },
     "localAsset": "GameData/gi/furniture/assets/374775.webp"
   },
@@ -80657,7 +81528,8 @@
     "localizedNames": {
       "en": "Auspicious Treasure Tree",
       "zh": "「吉事宝树」",
-      "ja": "「吉兆の宝樹」"
+      "ja": "「吉兆の宝樹」",
+      "ko": "「황금 나무」"
     },
     "localAsset": "GameData/gi/furniture/assets/374819.webp"
   },
@@ -81066,6 +81938,7 @@
     "localizedNames": {
       "en": "Imaginary Friend: Gena",
       "zh": "幻想朋友-「大礼貉」",
+      "ja": "空想の友達-「利大貉」",
       "ko": "상상 친구-「순둥구리」"
     },
     "localAsset": "GameData/gi/furniture/assets/374832.webp"
@@ -81429,8 +82302,8 @@
   },
   {
     "id": "374844",
-    "name": "???",
-    "description": "???",
+    "name": "\"Sweet Little Ice Cream Cart\"",
+    "description": "A whimsical, endearing ice cream cart, the object of everyone's attention on a hot summer's day.\\n\"There are four flavors in all. Which one would you like? All of them at once is fine too... but do be careful; cold, sweet happiness is best enjoyed in moderation.\"\\nSo that everyone might find their favorite flavor, the vendor even created the \"Sweet Little Ice Cream Scoop-Set\" — four flavors of ice cream in a tasting portion, so customers can enjoy the freshness of fruit, the richness of chocolate...\\nA whole \"Sweet Little Ice Cream Scoop-Set\" might be a bit much for one person, but bring a friend along, and the sweetness turns out to be just right.",
     "rank": 4,
     "type": [
       "Landscape"
@@ -81440,7 +82313,9 @@
     ],
     "cost": 185,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
     "recipe": {
       "exp": null,
       "time": null,
@@ -81448,17 +82323,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_BJLC_01_Lod0",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "\"Sweet Little Ice Cream Cart\"",
+      "zh": "「甜滋滋冰淇淋车」",
+      "ja": "「スイート・アイスクリームワゴン」",
+      "ko": "「달콤한 아이스크림 마차」"
     },
-    "localAsset": null
+    "localAsset": "GameData/gi/furniture/assets/374844.webp"
   },
   {
     "id": "374845",
-    "name": "???",
-    "description": "???",
+    "name": "Matryoshka Doll: \"Shining As You Do\"",
+    "description": "A matryoshka doll modeled on a certain Prima Donna.\\nThe production licensing is said to have been personally granted by the Prima Donna herself, and she also purchased a great many of these dolls, setting them by the exit after every performance for audience members to take home as they liked.\\n\"Beautiful things ought to be shared, of course. Whether it is my songs or my dolls, their only purpose is to bring joy to everyone.\"",
     "rank": 4,
     "type": [
       "Landscape"
@@ -81469,7 +82344,7 @@
     "cost": 35,
     "comfort": 90,
     "source": [
-      "???"
+      "Obtained from Archon Quest"
     ],
     "recipe": {
       "exp": null,
@@ -81478,17 +82353,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_01_Vo",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "Matryoshka Doll: \"Shining As You Do\"",
+      "zh": "套娃玩具-「如你闪耀」",
+      "ja": "マトリョーシカ玩具-「君のように光輝く」",
+      "ko": "마트료시카 장난감-「노래」"
     },
-    "localAsset": null
+    "localAsset": "GameData/gi/furniture/assets/374845.webp"
   },
   {
     "id": "374846",
-    "name": "???",
-    "description": "???",
+    "name": "Matryoshka Doll: \"Feathered in Flight\"",
+    "description": "A matryoshka doll modeled on a certain Prima Ballerina.\\nWord is that... yes, the Prima Ballerina's consent was actually obtained. In exchange, however, the Prima Donna volunteered to supervise the production of these dolls to her exceedingly high standards throughout every step of the process...\\n\"I can autograph it if you'd like. Thanks for your support.\"",
     "rank": 4,
     "type": [
       "Landscape"
@@ -81499,7 +82374,7 @@
     "cost": 35,
     "comfort": 90,
     "source": [
-      "???"
+      "Obtained from Archon Quest"
     ],
     "recipe": {
       "exp": null,
@@ -81508,17 +82383,17 @@
     },
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_02_Vo",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "Matryoshka Doll: \"Feathered in Flight\"",
+      "zh": "套娃玩具-「翎羽翩飞」",
+      "ja": "マトリョーシカ玩具-「舞い飛ぶ羽根」",
+      "ko": "마트료시카 장난감-「백조」"
     },
-    "localAsset": null
+    "localAsset": "GameData/gi/furniture/assets/374846.webp"
   },
   {
     "id": "374847",
-    "name": "???",
-    "description": "???",
+    "name": "\"Dancing Beneath Silver-White Wings\"",
+    "description": "A music box modeled on a certain famed ballerina of the Korolevskiy Troupe. When closed, it resembles a snow-swan that has not yet spread its wings. Opened, it reveals a rotating dancer figurine within.\\n\"Sooner or later, I will grow flight-feathers strong enough to fly to the sky I've finally decided on...\" The small and delicate-seeming dancer figurine, in truth, holds the stubborn posture of a striver, turning and dancing without pause, for all eternity...",
     "rank": 4,
     "type": [
       "Landscape",
@@ -81549,17 +82424,17 @@
     },
     "icon": "UI_Homeworld_Ani_General_Zd_Decoration_Prop_BYH_01",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "\"Dancing Beneath Silver-White Wings\"",
+      "zh": "「于银白羽翼下起舞」",
+      "ja": "「銀白の翼の下で舞う」",
+      "ko": "「백조의 오르골」"
     },
-    "localAsset": null
+    "localAsset": "GameData/gi/furniture/assets/374847.webp"
   },
   {
     "id": "374848",
-    "name": "???",
-    "description": "???",
+    "name": "\"Snow-Swan's Back\"",
+    "description": "An intricately crafted music box, portraying the moving pose of a dancer figurine dancing upon a snow-swan's back.\\nThe aged music box endured a long stretch of neglect, in that time only able to produce a twisted, halting sound. After repairs, however, it once again gives off a soft, beautiful melody. And perhaps those feelings lost to the past, given some \"repair\" of their own, might themselves become something new...",
     "rank": 4,
     "type": [
       "Ornaments"
@@ -81579,10 +82454,10 @@
     },
     "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_ZJCbayinhe_01",
     "localizedNames": {
-      "en": "???",
-      "zh": "？？？",
-      "ja": "？？？",
-      "ko": "???"
+      "en": "\"Snow-Swan's Back\"",
+      "zh": "「雪鹄背脊」",
+      "ja": "「雪鳥の背」",
+      "ko": "「백조의 등」"
     },
     "localAsset": "GameData/gi/furniture/assets/374848.webp"
   },
@@ -81611,10 +82486,137 @@
     "localizedNames": {
       "en": "\"Rattle-Bell Finchball: Rusalka\"",
       "zh": "「哐哐当当雀雀球·水妖」",
-      "ja": "「カラコロ！チュンボール・水の精」JP3A",
+      "ja": "「カラコロ！チュンボール・水の精」",
       "ko": "「우당탕탕 짹짹볼·물 님프」"
     },
     "localAsset": "GameData/gi/furniture/assets/374849.webp"
+  },
+  {
+    "id": "374850",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Ani_Exterior_Ly_Decoration_Prop_QBLboss_01",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": null
+  },
+  {
+    "id": "374851",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Exterior_Ly_Decoration_Prop_LYRO_01_Vo",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "GameData/gi/furniture/assets/374851.webp"
+  },
+  {
+    "id": "374852",
+    "name": "???",
+    "description": "???",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 90,
+    "source": [
+      "Purchased from Battle Pass: Gnostic Chorus"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "id": "101001",
+          "count": 4
+        },
+        {
+          "id": "101002",
+          "count": 12
+        }
+      ]
+    },
+    "icon": "UI_Homeworld_Ani_General_Zd_Decoration_Prop_HLYG_01",
+    "localizedNames": {
+      "en": "???",
+      "zh": "？？？",
+      "ja": "？？？",
+      "ko": "???"
+    },
+    "localAsset": "GameData/gi/furniture/assets/374852.webp"
+  },
+  {
+    "id": "374853",
+    "name": "374853",
+    "description": null,
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": null,
+      "time": null,
+      "items": []
+    },
+    "icon": "UI_Homeworld_Ani_Exterior_Zd_Decoration_Prop_DXZ_01",
+    "localizedNames": {
+      "zh": "「怪怪角鸮」",
+      "ko": "「괴상한 소쩍새」"
+    },
+    "localAsset": "GameData/gi/furniture/assets/374853.webp"
   },
   {
     "id": "375101",

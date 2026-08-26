@@ -3109,6 +3109,68 @@
       ]
     }
   },
+  "360485": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Ly_Lamp_Light_ZYJdenglong_02_Vo",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 105,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 8,
+          "id": 101304
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "360486": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Ly_Lamp_Light_ZYJdenglong_03_Vo",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 105,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 4,
+          "id": 101304
+        },
+        {
+          "count": 8,
+          "id": 101002
+        }
+      ]
+    }
+  },
   "360504": {
     "name": "Efflorescent Illumination",
     "desc": "A hanging light with fabric stretched over Brightwood frames underneath leaves blooming in the shape of petals. The light is decorated with Sumeru-style colored paintings, while the wick uses extracts from bioluminescent plants that have been mixed with a small amount of dye and distilled several times to arrive at the most optimal concentration. Its light is gentle and elegant, sufficient to illuminate a wide indoor space.",
@@ -11300,6 +11362,24 @@
       ]
     }
   },
+  "362409": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_ZDTWRO_01_01_Lods",
+    "rank": 4,
+    "type": [
+      "Small Furnishing"
+    ],
+    "type2": [
+      "Craftwork"
+    ],
+    "cost": 157,
+    "comfort": 90,
+    "source": [
+      "???"
+    ],
+    "recipe": {}
+  },
   "363101": {
     "name": "Trusty Portable Lamp",
     "desc": "A light and practical lamp that gives off a warm light and shines for a long time, but which also attracts the curiosity of the children.\\nNo thanks to the Cavalry Captain's jests, a rather morbid children's tale exists in Mondstadt concerning these lamps. The nuns have had to explain to the kids that no, these lanterns do not contain the imprisoned souls of fireflies.",
@@ -11919,6 +11999,24 @@
         }
       ]
     }
+  },
+  "363123": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Ani_Exterior_Ly_Lamp_Light_ZYJdenglong_01",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Lighting"
+    ],
+    "cost": 220,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {}
   },
   "363201": {
     "name": "Flower Arrangement: Baby Blue Tranquility",
@@ -14546,8 +14644,8 @@
     }
   },
   "363400": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"Wind-and-Snowpiercer\"",
+    "desc": "The prototype of a new mode of transport, built as part of a plan to bring greater prosperity to the entire nation.\\nEvery great idea in the world starts, in most cases, as a small and unremarkable thought.\\nJust as the mighty transport engines that will one day charge along the railways were, at the time, no more than tiny models that had been freshly designed and built. But what always matters is the stage that follows — once the model has been proven successful, that is. In this world, Grand plans and enormous dreams have to hatch from within a palm-sized shell before they can begin to run.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_HCCM_01_Vo",
     "rank": 4,
     "type": [
@@ -15536,8 +15634,8 @@
     }
   },
   "363442": {
-    "name": "\"Balanced Boughs\"",
-    "desc": "A candelabrum on a sturdy base, with symmetrical branch-like arms upon which two candles burn with warm yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
+    "name": "Faint Swaying Gold",
+    "desc": "A candelabrum on a sturdy base, upon which candles burn warmly with yellow flame. Elegant in overall form, it lends a touch of warmth to the room in the flicker of candlelight and shadow.",
     "icon": "UI_Homeworld_Interior_Zd_Decoration_Prop_CTzhutai_02_Vo",
     "rank": 3,
     "type": [
@@ -17922,8 +18020,8 @@
     }
   },
   "364525": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"The Love One Seeks\"",
+    "desc": "A painting held in the mountain manor called Hesperides, high in the snow-mountains.\\nIt is said that a Snegovik who lives in that manor is a fae who must complete her soul through \"love.\" Yet that love always demands, as its price, the very life of the one they love. For the moment they truly understand love is when they lose it. This may well be why the stories of Snegurochka that circulate in the world always end in tragedy.\\nMost of the fae in question have long grown used to this, until one of them was moved to wonder... \"Why must the growth of the soul always be paid for in the pain of the heart?\"",
     "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Prop_XNGguahua_01_Vo",
     "rank": 4,
     "type": [
@@ -17947,6 +18045,37 @@
         },
         {
           "count": 10,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "364526": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Interior_Zd_Walldecoration_Light_ZDSW_02_Lod0",
+    "rank": 4,
+    "type": [
+      "Wall Decor"
+    ],
+    "type2": [
+      "Hanging Ornament"
+    ],
+    "cost": 85,
+    "comfort": 90,
+    "source": [
+      "???"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 8,
           "id": 101002
         }
       ]
@@ -20320,6 +20449,40 @@
   },
   "368219": {
     "name": "Alyosha",
+    "desc": "Character In-Residence",
+    "icon": "",
+    "rank": 1,
+    "type": [
+      "Companion"
+    ],
+    "type2": [
+      "Companion",
+      "Companion"
+    ],
+    "cost": 1750,
+    "comfort": 300,
+    "source": [],
+    "recipe": {}
+  },
+  "368220": {
+    "name": "Vesna",
+    "desc": "Character In-Residence",
+    "icon": "",
+    "rank": 1,
+    "type": [
+      "Companion"
+    ],
+    "type2": [
+      "Companion",
+      "Companion"
+    ],
+    "cost": 1750,
+    "comfort": 300,
+    "source": [],
+    "recipe": {}
+  },
+  "368221": {
+    "name": "Vodyanitsa",
     "desc": "Character In-Residence",
     "icon": "",
     "rank": 1,
@@ -22764,7 +22927,7 @@
   },
   "369233": {
     "name": "Nochhornowl",
-    "desc": "A bird native to Snezhnaya, its body covered in snow-white feathers, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
+    "desc": "A bird native to Snezhnaya, its body covered in feathers dark as night, named for the fact that it usually hunts after sunset.\\nAs the sharpest hunter above the snowfields, the Nochhornowl excels at camouflage, observation, and swift attacks. Since coming to the Serenitea Pot they no longer need to chase after food, so they spend most of their time perched quietly in a corner, watching the world around them.",
     "icon": "UI_AnimalIcon_Owl_01",
     "rank": 3,
     "type": [
@@ -25410,6 +25573,99 @@
         {
           "count": 2,
           "id": 101001
+        },
+        {
+          "count": 6,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "370343": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_01_01_Lods",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Mercantile"
+    ],
+    "cost": 265,
+    "comfort": 60,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101332
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "370344": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_02_01_Lods",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Mercantile"
+    ],
+    "cost": 265,
+    "comfort": 60,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 8,
+          "id": 101331
+        },
+        {
+          "count": 4,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "370345": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDtanwei_03_01_Lods",
+    "rank": 3,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Mercantile"
+    ],
+    "cost": 265,
+    "comfort": 60,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {
+      "exp": 60,
+      "time": 50400,
+      "items": [
+        {
+          "count": 6,
+          "id": 101332
         },
         {
           "count": 6,
@@ -31707,8 +31963,8 @@
     }
   },
   "371057": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"Echoes in the Storm\"",
+    "desc": "An enormous shell that can serve as a hub for carrying sound further afield.\\n\"If you're caught in a blizzard out in the wilds, just follow the song of the Water Imps and you'll find shelter from the wind and snow... That said, they're pretty dangerous too, so don't linger...\" Such warnings do those who've survived blizzards out in the wild give.\\nBut whether it's a lost Water Imp singing a mournful song, or a weeping one meaning to trap a stray adventurer... No one can ever truly know.",
     "icon": "UI_Homeworld_Exterior_Zd_Build_ZJCdwt_01_01_Lods",
     "rank": 4,
     "type": [
@@ -31725,8 +31981,8 @@
     "recipe": {}
   },
   "371058": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"The Warming Hearth-Fire\"",
+    "desc": "The Kresnik's Torch prototype, technology from a certain era now refitted as a stove of higher combustion efficiency and greater output.\\nIn truth, for the freezing villagers, this prototype — with all its vast connections — is nothing more than a stove that can shed light and heat.\\nAnd for the \"hunter\" who discovered it... Having already secured the \"prey,\" when facing unknown situations to come, knowing when to turn back is the optimal choice.",
     "icon": "UI_Homeworld_Ani_Exterior_Zd_Build_ZJCdadeng_01",
     "rank": 4,
     "type": [
@@ -31739,6 +31995,24 @@
     "comfort": 90,
     "source": [
       "Joint Meeting Point Construction: Meeting Point Level Reward"
+    ],
+    "recipe": {}
+  },
+  "371059": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Zd_Build_ZDSW_01_01_Lods",
+    "rank": 4,
+    "type": [
+      "Building"
+    ],
+    "type2": [
+      "Snezhnayan Style"
+    ],
+    "cost": 1250,
+    "comfort": 90,
+    "source": [
+      "???"
     ],
     "recipe": {}
   },
@@ -35598,6 +35872,60 @@
     ],
     "recipe": {}
   },
+  "372114": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Mountain"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372115": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_02_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Mountain"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372116": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_03_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Mountain"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
   "372201": {
     "name": "Hiding Grazestone",
     "desc": "This might look like a tiny pile of stones, but it may just be the protruding tip of one colossal rock, most of which is underground. Having lain in the grass for so long, Liyue locals have taken to calling it the \"Hiding Grazestone.\"\\nThis stone is difficult to dig out of the ground, and in attempting to do so, one is likely to happen across an ancient Boom Blossom in the process. For these reasons, workers would rather build their road around it to avoid having to deal with it.",
@@ -36295,6 +36623,42 @@
     "name": "Knuckle-rock",
     "desc": "A mountain rock with a solid and smooth exterior that is commonly found in the wilds of Nod-Krai. Due to its small size, it often lays hidden beneath dense vegetation. Therefore, experienced adventurers often warn newcomers: \"Watch your step! Tripping over one of these hurts more than being rammed by a Blunthorn Rhino.\"",
     "icon": "UI_Homeworld_Exterior_Ndkl_Stone_NDshanshi_02_Vo",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Rock"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372242": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_04_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Rock"
+    ],
+    "cost": 35,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372244": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Stone_ZDyanshi_06_Lod0",
     "rank": 3,
     "type": [
       "Landform"
@@ -37483,6 +37847,132 @@
     "name": "\"Wildfire in the Wind\"",
     "desc": "A tree commonly seen in Okurov, with a thick, twisted trunk and coiling, tangled branches. The rich orange-red foliage of its canopy is often mistaken from a distance for wildfire flickering in the wind.\\n\"I once saw it from far away and thought a fire had broken out,\" so an adventurer looking out over Okurov lamented, \"but after a moment's careful observation, I realized it was just a few trees.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_HNHshu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372364": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372365": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_02_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372366": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_03_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372367": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDgaomu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372368": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_04_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372369": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDhongmu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Tree"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372370": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Tree_ZDfuxueshumu_05_Lod0",
     "rank": 3,
     "type": [
       "Landform"
@@ -39668,6 +40158,42 @@
     ],
     "recipe": {}
   },
+  "372527": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 65,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372529": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Flower_ZDhuacao_03_Lod0",
+    "rank": 4,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Small Shrub"
+    ],
+    "cost": 65,
+    "comfort": 30,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
   "372600": {
     "name": "\"Sacred Source of Tea\"",
     "desc": "A type of tea tree with green leaves that can be found in Qiaoying Village. The Chenyu Adeptea of the Vale, renowned throughout Teyvat, is largely harvested from this species.\\nIt is said that tea trees have very stringent requirements for their healthy growth. Amurta researchers have tried many times to transplant them to Sumeru, but they have all failed due to lacking suitable water and soil. Fortunately, this is no trouble at all for a Realm Within that can nourish all things.",
@@ -40004,6 +40530,24 @@
     "name": "Aqueous Sprigs",
     "desc": "A cluster of small shrubs tipped with faint blue luminescence, as if filled with flowing water.\\nTravelers from other regions often take these aesthetically pleasing shrubs home as souvenirs of their journeys.",
     "icon": "UI_Homeworld_Exterior_Ndkl_Plant_Grass_Ciliguanmu_01_Lod0",
+    "rank": 3,
+    "type": [
+      "Landform"
+    ],
+    "type2": [
+      "Large Shrub"
+    ],
+    "cost": 50,
+    "comfort": 20,
+    "source": [
+      "Purchased from Realm Depot: Furnishings"
+    ],
+    "recipe": {}
+  },
+  "372710": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Exterior_Zd_Plant_Grass_ZDsbgm_01_01_Lods",
     "rank": 3,
     "type": [
       "Landform"
@@ -59155,8 +59699,8 @@
     }
   },
   "374844": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"Sweet Little Ice Cream Cart\"",
+    "desc": "A whimsical, endearing ice cream cart, the object of everyone's attention on a hot summer's day.\\n\"There are four flavors in all. Which one would you like? All of them at once is fine too... but do be careful; cold, sweet happiness is best enjoyed in moderation.\"\\nSo that everyone might find their favorite flavor, the vendor even created the \"Sweet Little Ice Cream Scoop-Set\" — four flavors of ice cream in a tasting portion, so customers can enjoy the freshness of fruit, the richness of chocolate...\\nA whole \"Sweet Little Ice Cream Scoop-Set\" might be a bit much for one person, but bring a friend along, and the sweetness turns out to be just right.",
     "icon": "UI_Homeworld_Exterior_Common_Decoration_Prop_BJLC_01_Lod0",
     "rank": 4,
     "type": [
@@ -59167,12 +59711,14 @@
     ],
     "cost": 185,
     "comfort": 30,
-    "source": [],
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
     "recipe": {}
   },
   "374845": {
-    "name": "???",
-    "desc": "???",
+    "name": "Matryoshka Doll: \"Shining As You Do\"",
+    "desc": "A matryoshka doll modeled on a certain Prima Donna.\\nThe production licensing is said to have been personally granted by the Prima Donna herself, and she also purchased a great many of these dolls, setting them by the exit after every performance for audience members to take home as they liked.\\n\"Beautiful things ought to be shared, of course. Whether it is my songs or my dolls, their only purpose is to bring joy to everyone.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_01_Vo",
     "rank": 4,
     "type": [
@@ -59184,13 +59730,13 @@
     "cost": 35,
     "comfort": 90,
     "source": [
-      "???"
+      "Obtained from Archon Quest"
     ],
     "recipe": {}
   },
   "374846": {
-    "name": "???",
-    "desc": "???",
+    "name": "Matryoshka Doll: \"Feathered in Flight\"",
+    "desc": "A matryoshka doll modeled on a certain Prima Ballerina.\\nWord is that... yes, the Prima Ballerina's consent was actually obtained. In exchange, however, the Prima Donna volunteered to supervise the production of these dolls to her exceedingly high standards throughout every step of the process...\\n\"I can autograph it if you'd like. Thanks for your support.\"",
     "icon": "UI_Homeworld_Exterior_Zd_Decoration_Prop_JSTW_02_Vo",
     "rank": 4,
     "type": [
@@ -59202,13 +59748,13 @@
     "cost": 35,
     "comfort": 90,
     "source": [
-      "???"
+      "Obtained from Archon Quest"
     ],
     "recipe": {}
   },
   "374847": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"Dancing Beneath Silver-White Wings\"",
+    "desc": "A music box modeled on a certain famed ballerina of the Korolevskiy Troupe. When closed, it resembles a snow-swan that has not yet spread its wings. Opened, it reveals a rotating dancer figurine within.\\n\"Sooner or later, I will grow flight-feathers strong enough to fly to the sky I've finally decided on...\" The small and delicate-seeming dancer figurine, in truth, holds the stubborn posture of a striver, turning and dancing without pause, for all eternity...",
     "icon": "UI_Homeworld_Ani_General_Zd_Decoration_Prop_BYH_01",
     "rank": 4,
     "type": [
@@ -59240,8 +59786,8 @@
     }
   },
   "374848": {
-    "name": "???",
-    "desc": "???",
+    "name": "\"Snow-Swan's Back\"",
+    "desc": "An intricately crafted music box, portraying the moving pose of a dancer figurine dancing upon a snow-swan's back.\\nThe aged music box endured a long stretch of neglect, in that time only able to produce a twisted, halting sound. After repairs, however, it once again gives off a soft, beautiful melody. And perhaps those feelings lost to the past, given some \"repair\" of their own, might themselves become something new...",
     "icon": "UI_Homeworld_Ani_Interior_Zd_Decoration_Prop_ZJCbayinhe_01",
     "rank": 4,
     "type": [
@@ -59272,6 +59818,91 @@
     "comfort": 30,
     "source": [
       "Purchased from Rankova Zorya Shop - Knyazev"
+    ],
+    "recipe": {}
+  },
+  "374850": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Ani_Exterior_Ly_Decoration_Prop_QBLboss_01",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {}
+  },
+  "374851": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Exterior_Ly_Decoration_Prop_LYRO_01_Vo",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 90,
+    "source": [
+      "Obtained from Limited-Time Event"
+    ],
+    "recipe": {}
+  },
+  "374852": {
+    "name": "???",
+    "desc": "???",
+    "icon": "UI_Homeworld_Ani_General_Zd_Decoration_Prop_HLYG_01",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 90,
+    "source": [
+      "Purchased from Battle Pass: Gnostic Chorus"
+    ],
+    "recipe": {
+      "exp": 90,
+      "time": 57600,
+      "items": [
+        {
+          "count": 4,
+          "id": 101001
+        },
+        {
+          "count": 12,
+          "id": 101002
+        }
+      ]
+    }
+  },
+  "374853": {
+    "name": "",
+    "desc": "",
+    "icon": "UI_Homeworld_Ani_Exterior_Zd_Decoration_Prop_DXZ_01",
+    "rank": 4,
+    "type": [
+      "Landscape"
+    ],
+    "type2": [
+      "Special Object"
+    ],
+    "cost": 35,
+    "comfort": 30,
+    "source": [
+      "Obtained from Limited-Time Event"
     ],
     "recipe": {}
   },

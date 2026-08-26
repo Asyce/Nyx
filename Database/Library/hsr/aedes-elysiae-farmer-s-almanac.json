@@ -5,7 +5,7 @@
   "name": "Aedes Elysiae Farmer's Almanac",
   "sortId": 110488,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Aedes_Elysiae_Farmer%27s_Almanac",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -1006,12 +1006,9 @@
                     "text": "May the river of Oronyx's time nourish our fields, and may the Evernight Veil shelter every grain of Aedes Elysiae's soil."
                   }
                 ]
-              },
-              {
-                "type": "br"
               }
             ],
-            "id": "p-4fdb47768fbedf09"
+            "id": "p-fe38030bcd1148c4"
           }
         ]
       }

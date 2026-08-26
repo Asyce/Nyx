@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-08-19T07:32:12.800Z",
-  "count": 120,
+  "generatedAt": "2026-08-26T07:37:21.160Z",
+  "count": 119,
   "entries": [
     {
       "id": "of-mountains-and-seas",
@@ -1362,20 +1362,6 @@
         "vol-4-2",
         "vol-5-2",
         "vol-6-2"
-      ]
-    },
-    {
-      "id": "somewhat-aged-copy-of-tequil-the-brave",
-      "name": "Somewhat Aged Copy of \"Tequil the Brave\"",
-      "icon": "icons/19269349b26b54b3a013ac8348a9ee5a2e462e24c054338a94c3bca8f9488f92.webp",
-      "file": "somewhat-aged-copy-of-tequil-the-brave.json",
-      "sortId": 337743,
-      "volumeCount": 1,
-      "volumeLabels": [
-        "Text"
-      ],
-      "volumeKeys": [
-        "text"
       ]
     },
     {

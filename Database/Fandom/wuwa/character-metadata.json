@@ -456,9 +456,10 @@
       "Jingran",
       "1212"
     ],
-    "releaseDate": null,
+    "releaseDate": "2026-09-10",
     "releasePatch": "3.6",
     "voiceActors": {
+      "english": "|voiceCN =",
       "chinese": "|voiceJP = Kengo Kawanishi|Kawanishi Kengo (ja=河西 健吾)",
       "japanese": "Kengo Kawanishi|Kawanishi Kengo (ja=河西 健吾)",
       "korean": "}}"

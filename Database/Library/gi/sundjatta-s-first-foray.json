@@ -5,7 +5,7 @@
   "name": "Sundjatta's First Foray",
   "sortId": 368315,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Sundjatta%27s_First_Foray",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -80,19 +80,13 @@
               {
                 "type": "text",
                 "text": "And the Kouyates wove the ancient texts into carpets and felt tents."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-4d9c806ca4efc636"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "My mind comprehends the dragon-lords and barbarian kings of benighted ages,"
@@ -166,19 +160,13 @@
               {
                 "type": "text",
                 "text": "As surely as gems of the future must spring from the veins of the past."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-9178d8b834e9c581"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "So come, hear me sing, hear me tell of this hero,"
@@ -252,19 +240,13 @@
               {
                 "type": "text",
                 "text": "Neither the darkest magic nor the foulest wraith could hurt him!"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-922b94776b8b8d29"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "My brothers, my progeny, proud Children of Echoes,"
@@ -337,7 +319,7 @@
                 "text": "For this is a tale of great deeds once unrecorded, sacrifices misunderstood..."
               }
             ],
-            "id": "p-e66cf4024b0dabf4"
+            "id": "p-f5ae1bb70689945f"
           }
         ]
       }
@@ -425,19 +407,13 @@
               {
                 "type": "text",
                 "text": "Ask the pale light of three moons, and still you shall have no answer."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-477aafab2a30b0c0"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "Story and song say Sundjatta was born blessed by the stars of dawn."
@@ -511,19 +487,13 @@
               {
                 "type": "text",
                 "text": "And thus did his story begin, the hero great, the miner mighty."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-e2dccbbb2e11711f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "When young Sundjatta began his career in the mines,"
@@ -597,19 +567,13 @@
               {
                 "type": "text",
                 "text": "And they all looked on in joy and fear, as the champion's laurels he claimed!"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-c363af3363a35bbc"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "When Lady Mbande returned to the Lord of the Night's embrace,"
@@ -675,7 +639,7 @@
                 "text": "Yet his passion was misunderstood by his tribespeople, who regarded him as a runaway, a traitor..."
               }
             ],
-            "id": "p-27cd7879327b631b"
+            "id": "p-38012cabbc7358db"
           }
         ]
       }
@@ -763,19 +727,13 @@
               {
                 "type": "text",
                 "text": "But it hid in a dark, rocky cave, thus evading utter devastation."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-4ef647f0e1b0e521"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "Without servants to wait upon it, Lukwata had grown decrepit,"
@@ -849,19 +807,13 @@
               {
                 "type": "text",
                 "text": "\"You insolent wretch! You dare disturb my royal slumber!?\""
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-3239a00b085aa97d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "Sundjatta saw that the vile dragon of legend had long become doddering and deranged,"
@@ -935,19 +887,13 @@
               {
                 "type": "text",
                 "text": "At which Sundjatta did not even frown, instead swinging his heavy hammer down on the old drake."
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
-              },
+              }
+            ],
+            "id": "p-be37c10029ac6883"
+          },
+          {
+            "type": "paragraph",
+            "children": [
               {
                 "type": "text",
                 "text": "Old and infirm was Lukwata, yet when enraged it remained terrifyingly formidable,"
@@ -1023,7 +969,7 @@
                 "text": "Sundjatta lay down, contented — truly now did he deserve a hero's name!"
               }
             ],
-            "id": "p-4dd2ffe62ca3e159"
+            "id": "p-0b367cfe093c9593"
           }
         ]
       }

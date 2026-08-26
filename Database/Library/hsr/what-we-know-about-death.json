@@ -5,7 +5,7 @@
   "name": "What We Know About Death",
   "sortId": 98472,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/What_We_Know_About_Death",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -233,15 +233,9 @@
                     "text": "Amunet"
                   }
                 ]
-              },
-              {
-                "type": "br"
-              },
-              {
-                "type": "br"
               }
             ],
-            "id": "p-d6ae7bd24b4f0195"
+            "id": "p-1a6179eda614bc5b"
           }
         ]
       }

@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-08-06T09:38:50.212Z",
+  "generatedAt": "2026-08-26T07:37:19.550Z",
   "sourceUrl": "https://gi.nanoka.cc/furniture/",
-  "version": "6.7.54",
-  "staticBase": "https://static.nanoka.cc/gi/6.7.54",
+  "version": "7.0.52",
+  "staticBase": "https://static.nanoka.cc/gi/7.0.52",
   "counts": {
-    "furnishings": 2351,
-    "withDetail": 2351,
-    "withRecipe": 1389,
-    "withAsset": 2228
+    "furnishings": 2381,
+    "withDetail": 2381,
+    "withRecipe": 1396,
+    "withAsset": 2258
   },
   "assets": {
-    "downloaded": 0,
+    "downloaded": 30,
     "cached": 2228,
-    "missing": 4
+    "missing": 2
   },
   "categoryCounts": {
     "Decoration": 45,
     "Ornaments": 172,
-    "Landscape": 749,
+    "Landscape": 756,
     "Large Furnishing": 129,
-    "Small Furnishing": 150,
-    "Wall Decor": 64,
-    "Companion": 119,
+    "Small Furnishing": 151,
+    "Wall Decor": 65,
+    "Companion": 121,
     "Animal": 140,
-    "Building": 281,
+    "Building": 285,
     "Courtyard": 124,
     "Outdoor Furnishing": 124,
-    "Landform": 247,
+    "Landform": 262,
     "Main Building": 7
   }
 }

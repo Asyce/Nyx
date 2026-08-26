@@ -5,7 +5,7 @@
   "name": "Tales Carried by the Northwind",
   "sortId": 432148,
   "sourceUrl": "https://genshin-impact.fandom.com/wiki/Tales_Carried_by_the_Northwind",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -14,6 +14,11 @@
       "document": {
         "version": 1,
         "blocks": [
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
+          },
           {
             "type": "paragraph",
             "children": [
@@ -96,13 +101,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-c25a396e81353309"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "Why do the tombs call forth such sorrowful plight?"
@@ -189,13 +188,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-03a1f58a12f69a47"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "Have you beheld a dream more bright than gold?"
@@ -261,13 +254,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-48bd049962cda245"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "br"
               },
@@ -336,13 +323,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-6ba7ad5a1979c4aa"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "The biting gale blew with fervor, whilst the calamity was cast into the blackened light."
@@ -380,13 +361,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-f297f7cdf2bc75e0"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "A generation akin to thunder's roar,"
@@ -424,13 +399,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-b1e62fcfe659a786"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "..."
@@ -440,13 +409,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-d00f6679058df6eb"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "— Sergei Semyonovich Mayakov —"
@@ -491,13 +454,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-1c1f7ab485ed0ffa"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "The voice in the mist spoke to him thus:"
@@ -633,13 +590,7 @@
               },
               {
                 "type": "br"
-              }
-            ],
-            "id": "p-b868dbbdadb18182"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
               {
                 "type": "text",
                 "text": "He faced the ocean, shadowed by his gloom,"
@@ -650,12 +601,9 @@
               {
                 "type": "text",
                 "text": "And with his hand, he shined his axe anew."
-              },
-              {
-                "type": "br"
               }
             ],
-            "id": "p-a60347f900042cc1"
+            "id": "p-51e5ff14d5454b79"
           }
         ]
       }

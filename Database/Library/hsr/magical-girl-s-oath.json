@@ -5,7 +5,7 @@
   "name": "Magical Girl's Oath",
   "sortId": 137899,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Magical_Girl%27s_Oath",
-  "scrapedAt": "2026-08-19T07:32:12.800Z",
+  "scrapedAt": "2026-08-26T07:37:21.160Z",
   "volumes": [
     {
       "id": "1",
@@ -423,6 +423,11 @@
               }
             ],
             "id": "p-2385935a0dd5e743"
+          },
+          {
+            "type": "paragraph",
+            "children": [],
+            "id": "p-882a20e6379eb83a"
           },
           {
             "type": "paragraph",

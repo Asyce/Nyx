@@ -748,6 +748,21 @@ function cmMatSourceDetails(m){
     : [];
 }
 
+function cmCharactersForMaterial(material, roster, selected){
+  const materialId = String(material?.id || '').trim();
+  const materialName = cmRouteSlug(cmMatName(material));
+  const selectedKey = cmHiddenKey(selected);
+  return (roster || []).filter((ch) => cmHiddenKey(ch) !== selectedKey
+    && [ch, ...(ch.forms || [])].some((form) => (
+      [...(form.req?.ascension || []), ...(form.req?.talents || [])].some((item) => {
+        const itemId = String(item?.id || '').trim();
+        return materialId && itemId
+          ? materialId === itemId
+          : !!materialName && materialName === cmRouteSlug(cmMatName(item));
+      })
+    )));
+}
+
 function CMAvatar({ ch, big }){
   const pal = { a:'#9a89ea', b:'#372464', ring:'#cdb3ff', glow:'rgba(150,120,255,.55)' };
   const el = CM_ELEM[ch.el] || '#b7aaff';
@@ -781,7 +796,7 @@ function CMAvatar({ ch, big }){
   );
 }
 
-function MatTile({ m }){
+function MatTile({ m, roster, selected }){
   const icon = m.icon || m.art;
   const rarity = Math.max(0, Math.min(5, cmRarityValue(m.rar, 0)));
   const pal = CM_RAR[rarity] || CM_RAR[2];
@@ -800,12 +815,25 @@ function MatTile({ m }){
         {details.length > 0 ? (() => {
           const withIcon = details.filter((d) => d.icon);
           const noIcon = details.filter((d) => !d.icon);
+          const characterIcons = withIcon.length > 0
+            ? cmCharactersForMaterial(m, roster, selected).map((ch) => ({
+              ch,
+              icon:ch.icon || ch.originalIcon || ch.circle || ch.card || ch.art,
+            })).filter((row) => row.icon)
+            : [];
           return (
             <span className="src-list">
               {withIcon.length > 0 && (
                 <span className="src-icons">
                   {withIcon.map((detail, i) => (
                     <img key={'i' + i} src={detail.icon} alt={detail.name || ''} title={detail.name || ''} draggable="false" />
+                  ))}
+                </span>
+              )}
+              {characterIcons.length > 0 && (
+                <span className="src-character-icons" aria-label="Other characters using this material">
+                  {characterIcons.map(({ ch, icon }) => (
+                    <img key={cmHiddenKey(ch)} src={icon} alt={ch.n || ''} title={ch.n || ''} draggable="false" />
                   ))}
                 </span>
               )}
@@ -3826,7 +3854,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                         )}
                       </div>
                       <div className="cm-mats cm-ledger-mats">{ascReq.length > 0
-                        ? ascReq.map((m, i) => <MatTile key={i} m={m} />)
+                        ? ascReq.map((m, i) => <MatTile key={i} m={m} roster={displayRoster} selected={materialSel} />)
                         : <div className="cm-total-empty">Nothing required at this level.</div>}</div>
                     </div>
                   )}
@@ -3898,7 +3926,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                         })()}
                       </div>
                       <div className="cm-mats cm-ledger-mats">{talentReq.length > 0
-                        ? talentReq.map((m, i) => <MatTile key={i} m={m} />)
+                        ? talentReq.map((m, i) => <MatTile key={i} m={m} roster={displayRoster} selected={materialSel} />)
                         : <div className="cm-total-empty">Nothing required at these levels.</div>}</div>
                     </div>
                   )}
@@ -3972,7 +4000,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                       </div>
                       <div className="cm-mats cm-ledger-mats">
                         {weaponReq.length > 0
-                          ? weaponReq.map((m, i) => <MatTile key={i} m={m} />)
+                          ? weaponReq.map((m, i) => <MatTile key={i} m={m} roster={displayRoster} selected={materialSel} />)
                           : <div className="cm-total-empty">{activeWeapon ? 'No material data for this weapon yet.' : 'Select a weapon to see materials.'}</div>}
                       </div>
                     </div>
@@ -4002,7 +4030,7 @@ function CharMaterials({ open, onClose, game, inline, selectedName, selectedFrom
                       </div>
                       <div className="cm-mats cm-ledger-mats">
                         {totalReq.length > 0
-                          ? totalReq.map((m, i) => <MatTile key={i} m={m} />)
+                          ? totalReq.map((m, i) => <MatTile key={i} m={m} roster={displayRoster} selected={materialSel} />)
                           : <div className="cm-total-empty">Select at least one section.</div>}
                       </div>
                       {releaseText && (

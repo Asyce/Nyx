@@ -5755,6 +5755,10 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-mat .src-icons img{ width:26px; height:26px; flex:none; object-fit:contain; border-radius:var(--nyx-radius-small);
   background:var(--nyx-compat-color-dffb33c1c353); box-shadow:var(--nyx-compat-shadow-box-c52604492861);
   filter:var(--nyx-compat-shadow-drop-0f563608be2b); }
+.cm-mat .src-character-icons{ display:flex; flex-wrap:wrap; gap:var(--nyx-space-4); padding-top:var(--nyx-space-6);
+  border-top:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.cm-mat .src-character-icons img{ width:24px; height:24px; flex:none; object-fit:cover; border-radius:50%;
+  background:var(--nyx-compat-color-dffb33c1c353); box-shadow:var(--nyx-compat-shadow-box-c52604492861); }
 .cm-mat .src-names{ display:block; font-style:normal; font-size:var(--nyx-compat-size-11px); line-height:1.35; color:var(--nyx-compat-color-hex-cfc4f2); }
 .cm-mat:hover .src-tip{ opacity:1; transform:translate(-50%, 0); }
 .zzz-sprite{ position:relative; width:100%; height:100%; display:block; }

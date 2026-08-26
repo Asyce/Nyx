@@ -193,6 +193,54 @@ test('character pages expose clean artwork and keep guide actions below maxed to
   assert.match(css, /\.cm-character-gallery\{/);
 });
 
+test('monster-drop tooltips show every other character using the exact material', async () => {
+  const [materials, css, gi] = await Promise.all([
+    read('src/features/materials/char-materials.jsx'),
+    read('src/styles/game-page-shared.css'),
+    loadGenerated('cm-data-gi.js', 'gi'),
+  ]);
+  const sourceFor = (name) => {
+    const source = materials.match(new RegExp(`function ${name}\\([^\\n]*\\)\\{[\\s\\S]*?^\\}`, 'm'))?.[0];
+    assert.ok(source, name + ' source is available to exercise');
+    return source;
+  };
+  const context = {};
+  vm.runInNewContext(`${['cmRouteSlug', 'cmMatName', 'cmHiddenKey', 'cmCharactersForMaterial'].map(sourceFor).join('\n')}\nthis.match = cmCharactersForMaterial;`, context);
+
+  const sandrone = gi.roster.find((ch) => ch.n === 'Sandrone');
+  const shaft = [...(sandrone?.req?.ascension || []), ...(sandrone?.req?.talents || [])]
+    .find((material) => String(material.id) === '112124');
+  assert.ok(shaft, 'the generated Precision Drive Shaft fixture exists');
+  assert.ok(shaft.sourceDetails?.some((source) => source.icon), 'the fixture keeps an icon-backed monster source');
+  assert.deepEqual(
+    plain(context.match(shaft, gi.roster, sandrone).map((ch) => ch.n)),
+    ['Varka', 'Illuga', 'Jahoda', 'Flins', 'Aino'],
+    'the open character is excluded from all six generated users',
+  );
+
+  const selected = { id:'selected', n:'Selected', req:{ ascension:[shaft] } };
+  const fixture = [
+    selected,
+    { id:'id-match', n:'ID match', req:{ ascension:[{ id:'112124', name:'Different label' }] } },
+    { id:'name-match', n:'Name fallback', req:{ talents:[{ name:'  precision drive shaft  ' }] } },
+    { id:'form-match', n:'Form only', forms:[{ req:{ ascension:[{ id:'112124', name:'Different form label' }] } }] },
+    { id:'wrong-id', n:'Wrong ID', req:{ ascension:[{ id:'different', name:'Precision Drive Shaft' }] } },
+    { id:'weapon-only', n:'Weapon only', req:{ weapon:{ items:[shaft] } } },
+  ];
+  assert.deepEqual(
+    plain(context.match(shaft, fixture, selected).map((ch) => ch.n)),
+    ['ID match', 'Name fallback', 'Form only'],
+    'IDs win when both exist; normalized names and form needs match; weapon needs stay out',
+  );
+
+  assert.equal((materials.match(/<MatTile key=\{i\} m=\{m\} roster=\{displayRoster\} selected=\{materialSel\} \/>/g) || []).length, 4);
+  assert.match(materials, /const characterIcons = withIcon\.length > 0[\s\S]*cmCharactersForMaterial\(m, roster, selected\)/, 'character rows require existing source icons');
+  assert.match(materials, /ch\.icon \|\| ch\.originalIcon \|\| ch\.circle \|\| ch\.card \|\| ch\.art/);
+  assert.match(materials, /className="src-character-icons" aria-label="Other characters using this material"[\s\S]*alt=\{ch\.n \|\| ''\} title=\{ch\.n \|\| ''\}/);
+  assert.match(css, /\.cm-mat \.src-character-icons\{[^}]*flex-wrap:wrap;[^}]*border-top:1px solid/);
+  assert.match(css, /\.cm-mat \.src-character-icons img\{[^}]*border-radius:50%;/);
+});
+
 // 2026-08-09: pinned favourites are icons, always, for every game including the
 // hub. The Card/Icon toggle, the Hide/Show button, the 5-card limit and the
 // "More favourites" overflow row are all gone.

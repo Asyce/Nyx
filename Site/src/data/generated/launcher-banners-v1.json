@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "fa2ea3b31a5af382455ee19257b7403ca21f43f69f6b7d90e21057c599349ede",
-  "generatedAt": "2026-08-26T03:42:49.575Z",
+  "revision": "9405caae28afc63787fadcca5ef39bf963d2b416542621c292ee7dc40c462db3",
+  "generatedAt": "2026-08-26T04:04:17.304Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 541029
+          "durationSeconds": 539741
         },
         "characters": [
           {
@@ -430,6 +430,14 @@
       ],
       "news": [
         {
+          "id": "gi-hoyo-ann-c73eba65667f",
+          "title": "\"Great Expeditionist Challenge\" Event: Take Part to Invite \"Kätzlein Cocktail\" Diona (Cryo)",
+          "type": "event",
+          "start": "2026-08-28T09:00:00.000Z",
+          "end": "2026-09-14T02:59:00.000Z",
+          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21813"
+        },
+        {
           "id": "gi-hoyo-ann-7025ba0e34e8",
           "title": "Stygian Onslaught Event: Disturbance-affected Ley Line challenges",
           "type": "challenge",
@@ -484,14 +492,6 @@
           "start": "2026-08-12T03:00:00.000Z",
           "end": "2026-09-22T13:59:00.000Z",
           "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809"
-        },
-        {
-          "id": "gi-hoyo-ann-821ceb44ea6d",
-          "title": "Event Wish \"Swan's Shadow in Silken Ice\" - Boosted Drop Rate for \"Swirling Snow\" Odette (Cryo)!",
-          "type": "banner",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-01T16:59:00.000Z",
-          "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21803"
         }
       ],
       "codes": [
@@ -538,7 +538,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1469770
+          "durationSeconds": 1468482
         },
         "characters": [
           {
@@ -974,6 +974,30 @@
       ],
       "news": [
         {
+          "id": "hsr-hoyo-ann-9a4cbeb1fb51",
+          "title": "Version 4.5 Event Warp: Phase I",
+          "type": "banner",
+          "start": "2026-08-25T00:00:00.000Z",
+          "end": "2026-09-12T10:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1330"
+        },
+        {
+          "id": "hsr-hoyo-ann-469228a36704",
+          "title": "\"Overdrive: Whirlwind Grand Prix\": Win the grand prix to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
+          "type": "event",
+          "start": "2026-08-24T23:00:00.000Z",
+          "end": "2026-09-27T13:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1335"
+        },
+        {
+          "id": "hsr-hoyo-ann-62765430ea1d",
+          "title": "Robin • Summeretto Character Trailer: \"Chasing the Wind\"",
+          "type": "event",
+          "start": "2026-08-24T22:00:00.000Z",
+          "end": "2026-08-28T10:00:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1345"
+        },
+        {
           "id": "hsr-hoyo-ann-221b1cf18831",
           "title": "Myriad Celestia Trailer: \"Beyond the Chorus\"",
           "type": "event",
@@ -1012,30 +1036,6 @@
           "start": "2026-07-27T03:00:00.000Z",
           "end": "2026-08-10T02:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338"
-        },
-        {
-          "id": "hsr-hoyo-ann-38b45482599c",
-          "title": "\"Imagenae: Holy Grail War\" Event Details",
-          "type": "event",
-          "start": "2026-07-23T03:00:00.000Z",
-          "end": "2026-08-25T22:00:00.000Z",
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1304"
-        },
-        {
-          "id": "hsr-hoyo-ann-12c1a7a21c89",
-          "title": "\"Antigraft Brickbuster\": Complete hacking operations to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
-          "type": "event",
-          "start": "2026-07-14T03:30:00.000Z",
-          "end": "2026-08-25T19:59:00.000Z",
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1301"
-        },
-        {
-          "id": "hsr-hoyo-ann-5869c3577b20",
-          "title": "\"Currency Wars: Zero-Sum Game\" Season Expansion Details V4.4",
-          "type": "event",
-          "start": "2026-07-13T04:00:00.000Z",
-          "end": "2026-11-10T22:00:00.000Z",
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1296"
         }
       ],
       "codes": [
@@ -1082,7 +1082,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1135029
+          "durationSeconds": 1133741
         },
         "characters": [
           {
@@ -1755,6 +1755,14 @@
       ],
       "news": [
         {
+          "id": "zzz-hoyo-ann-32d23324ead8",
+          "title": "\"Ding-Dong! Delivery Training in Progress\" Event Details",
+          "type": "event",
+          "start": "2026-08-28T09:00:00.000Z",
+          "end": "2026-09-14T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1277"
+        },
+        {
           "id": "zzz-hoyo-ann-aba97a9a4f08",
           "title": "\"Dangerous Fugitive's Leisurely Vacation\" Event Details",
           "type": "event",
@@ -1798,8 +1806,8 @@
           "id": "zzz-hoyo-ann-d5df8c2348bf",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-08-17T11:00:00.000Z",
-          "end": "2026-09-09T04:59:00.000Z",
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         },
         {
@@ -1809,14 +1817,6 @@
           "start": "2026-08-12T09:00:00.000Z",
           "end": "2026-08-17T08:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
-        },
-        {
-          "id": "zzz-hoyo-ann-e5b14140c51c",
-          "title": "\"Snap! Focus Showdown!\" Event Details",
-          "type": "event",
-          "start": "2026-08-07T15:00:00.000Z",
-          "end": "2026-08-24T08:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1241"
         }
       ],
       "codes": [
@@ -1851,7 +1851,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1314970
+          "durationSeconds": 1313682
         },
         "characters": [
           {
@@ -2367,7 +2367,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 584229
+          "durationSeconds": 582941
         },
         "characters": [
           {

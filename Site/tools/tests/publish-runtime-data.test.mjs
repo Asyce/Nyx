@@ -58,8 +58,8 @@ async function fixture() {
     await fs.writeFile(path.join(achievementDir, 'catalog.json'), JSON.stringify({
       schemaVersion:1,
       game,
-      catalogVersion:game === 'gi' ? '6.7' : '4.3',
-      releasedVersion:game === 'gi' ? '6.7' : '4.3',
+      catalogVersion:game === 'gi' ? '7.0' : '4.3',
+      releasedVersion:game === 'gi' ? '7.0' : '4.3',
       generatedAt:'2026-07-11T00:00:00Z',
       dataTimestamp:'2026-07-11T00:00:00Z',
       source:{ repository:'https://example.test/repo', dataUrl:'https://example.test/catalog.json', license:'MIT', commit:'fixture' },

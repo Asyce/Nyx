@@ -50,9 +50,9 @@ function icon(game, kind, hashCharacter, sourceKey) {
 }
 
 test('GI flattens every stage and excludes data beyond the release ceiling', async () => {
-  const catalog = normalizeGiCatalog(await fixture('gi'), { ...FIXED, releasedVersion: '6.7' });
+  const catalog = normalizeGiCatalog(await fixture('gi'), { ...FIXED, releasedVersion: '7.0' });
   assert.equal(catalog.game, 'gi');
-  assert.equal(catalog.catalogVersion, '6.7');
+  assert.equal(catalog.catalogVersion, '7.0');
   assert.deepEqual(catalog.categories.map(({ id }) => id), ['gi-1', 'gi-0']);
   assert.deepEqual(catalog.achievements.map(({ id }) => id), ['200', '100', '101', '102']);
   assert.deepEqual(catalog.achievements.slice(2, 4).map(({ stage, stageCount }) => [stage, stageCount]), [[1, 2], [2, 2]]);
@@ -78,7 +78,7 @@ test('catalog icon contracts require complete, local, released category coverage
     'gi-0':icon('gi', 'categories', 'b', 'UI_AchievementIcon_O001'),
   };
   const rewardCurrency = { name:'Primogem', icon:icon('gi', 'rewards', 'c', 'UI_ItemIcon_201') };
-  const catalog = normalizeGiCatalog(raw, { ...FIXED, releasedVersion:'6.7', categoryIcons, rewardCurrency });
+  const catalog = normalizeGiCatalog(raw, { ...FIXED, releasedVersion:'7.0', categoryIcons, rewardCurrency });
   assert.ok(catalog.categories.every(({ icon:categoryIcon }) => categoryIcon?.kind === 'image'));
   assert.deepEqual(catalog.rewardCurrency, rewardCurrency);
 
@@ -135,7 +135,7 @@ test('HSR player, device, ship, and trotter placeholders become readable text', 
 });
 
 test('catalog refresh blocks a collapse below eighty percent of last known good', async () => {
-  const previous = normalizeGiCatalog(await fixture('gi'), { ...FIXED, releasedVersion:'6.7' });
+  const previous = normalizeGiCatalog(await fixture('gi'), { ...FIXED, releasedVersion:'7.0' });
   const next = { ...previous, achievements:previous.achievements.slice(0, 1), achievementCount:1, count:1 };
   assert.throws(() => assertCatalogNotCollapsed(next, previous), /catalog collapsed/);
 });
@@ -156,7 +156,7 @@ test('checked-in catalogs pass the same release and safety validation', async ()
   assert.equal(provenance.licenseClaim, null);
   assert.match(provenance.rightsNote, /No license is claimed for game artwork/);
   for (const game of ['gi', 'hsr']) {
-    const expectedCounts = { gi:{ categories:69, achievements:1759 }, hsr:{ categories:9, achievements:1811 } }[game];
+    const expectedCounts = { gi:{ categories:73, achievements:1844 }, hsr:{ categories:9, achievements:1811 } }[game];
     const catalogUrl = new URL(`${game}/catalog.json`, root);
     const catalog = JSON.parse(await fs.readFile(catalogUrl, 'utf8'));
     assert.doesNotThrow(() => validateCatalog(catalog));

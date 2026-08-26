@@ -3,7 +3,7 @@ const VERSION_PATTERN = /^\d+\.\d+$/;
 const ICON_PATH_PATTERN = /^\/assets\/achievements\/(gi|hsr)\/(categories|rewards)\/([a-f0-9]{64})\.(png|webp)$/;
 
 export const CATALOG_SCHEMA_VERSION = 1;
-export const RELEASED_VERSIONS = Object.freeze({ gi: '6.7', hsr: '4.3' });
+export const RELEASED_VERSIONS = Object.freeze({ gi: '7.0', hsr: '4.3' });
 export const ACHIEVEMENT_ICON_MAX_BYTES = 256 * 1024;
 export const ACHIEVEMENT_ICON_MIN_DIMENSION = 32;
 export const ACHIEVEMENT_ICON_MAX_DIMENSION = 512;

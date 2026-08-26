@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/achievements/refresh-icons.mjs",
-  "generatedAt": "2026-07-14T17:04:30.868Z",
+  "generatedAt": "2026-08-26T22:41:48.724Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": {
     "gi": {
-      "releasedVersion": "6.7",
-      "categoryCount": 69,
+      "releasedVersion": "7.0",
+      "categoryCount": 73,
       "categories": [
         {
           "categoryId": "gi-0",
@@ -15,7 +15,7 @@
           "name": "Wonders of the World",
           "sourceKey": "UI_AchievementIcon_O001",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_O001.webp",
           "runtimePath": "/assets/achievements/gi/categories/8d03dbccd922365dfccbd244858728ab5db406bf766acb5a0900783e714a7178.webp",
           "localPath": "gi/assets/categories/8d03dbccd922365dfccbd244858728ab5db406bf766acb5a0900783e714a7178.webp",
@@ -26,7 +26,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5d0c\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-17",
@@ -34,7 +34,7 @@
           "name": "Memories of the Heart",
           "sourceKey": "UI_AchievementIcon_E001",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_E001.webp",
           "runtimePath": "/assets/achievements/gi/categories/7b9925a1e826acc77a4c21bdd87fa47f4c1478abe11236906bf522858bc8dfcb.webp",
           "localPath": "gi/assets/categories/7b9925a1e826acc77a4c21bdd87fa47f4c1478abe11236906bf522858bc8dfcb.webp",
@@ -45,7 +45,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-68ec\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-1",
@@ -53,7 +53,7 @@
           "name": "Mortal Travails: Series I",
           "sourceKey": "UI_AchievementIcon_A001",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001.webp",
           "runtimePath": "/assets/achievements/gi/categories/33aed38dc85c4238b687a77afcabb290ef85303e28b7de2de09bd42905138363.webp",
           "localPath": "gi/assets/categories/33aed38dc85c4238b687a77afcabb290ef85303e28b7de2de09bd42905138363.webp",
@@ -64,7 +64,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5154\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-22",
@@ -72,7 +72,7 @@
           "name": "Mortal Travails: Series II",
           "sourceKey": "UI_AchievementIcon_A001_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/515d438917021b1b9c0909ee1956c963e50828d6e0bb5d80d674f9c3467e5e54.webp",
           "localPath": "gi/assets/categories/515d438917021b1b9c0909ee1956c963e50828d6e0bb5d80d674f9c3467e5e54.webp",
@@ -83,7 +83,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-51ba\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-32",
@@ -91,7 +91,7 @@
           "name": "Mortal Travails: Series III",
           "sourceKey": "UI_AchievementIcon_A001_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/e75e02531dfc0f98668d4733bed5879314deac8678c898fc666f5d2c06e29acf.webp",
           "localPath": "gi/assets/categories/e75e02531dfc0f98668d4733bed5879314deac8678c898fc666f5d2c06e29acf.webp",
@@ -102,7 +102,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-52f0\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-43",
@@ -110,7 +110,7 @@
           "name": "Mortal Travails: Series IV",
           "sourceKey": "UI_AchievementIcon_A001_Part4",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001_Part4.webp",
           "runtimePath": "/assets/achievements/gi/categories/e6e64d006cc1bec6365be164f90656004774794c136a67fb5d3b0bfe9bc8a6ec.webp",
           "localPath": "gi/assets/categories/e6e64d006cc1bec6365be164f90656004774794c136a67fb5d3b0bfe9bc8a6ec.webp",
@@ -121,7 +121,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5278\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-57",
@@ -129,7 +129,7 @@
           "name": "Mortal Travails: Series V",
           "sourceKey": "UI_AchievementIcon_A001_Part5",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001_Part5.webp",
           "runtimePath": "/assets/achievements/gi/categories/718c3ef22613eaf5ea6ff8bf796ab0973f602a7b60c5eca190efb803bae40f59.webp",
           "localPath": "gi/assets/categories/718c3ef22613eaf5ea6ff8bf796ab0973f602a7b60c5eca190efb803bae40f59.webp",
@@ -140,7 +140,7 @@
           "height": 64,
           "etag": "\"6a1e6e4b-5ce\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-65",
@@ -148,7 +148,7 @@
           "name": "Mortal Travails: Series VI",
           "sourceKey": "UI_AchievementIcon_A001_Part6",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001_Part6.webp",
           "runtimePath": "/assets/achievements/gi/categories/78f29f239ff6c6dd4df73cf0c41cea4a6e475679af0a90d72811d8ef709278af.webp",
           "localPath": "gi/assets/categories/78f29f239ff6c6dd4df73cf0c41cea4a6e475679af0a90d72811d8ef709278af.webp",
@@ -159,7 +159,26 @@
           "height": 256,
           "etag": "\"6a1e6e4b-523a\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
+        },
+        {
+          "categoryId": "gi-71",
+          "sourceId": "71",
+          "name": "Mortal Travails: Series VII",
+          "sourceKey": "UI_AchievementIcon_A001_Part7",
+          "sourcePageUrl": "https://gi.nanoka.cc/achievement",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
+          "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A001_Part7.webp",
+          "runtimePath": "/assets/achievements/gi/categories/7a86e4f6914f8832238a9ab5cb70dc7b02657c62bb9f133f21acee917c1d4d3d.webp",
+          "localPath": "gi/assets/categories/7a86e4f6914f8832238a9ab5cb70dc7b02657c62bb9f133f21acee917c1d4d3d.webp",
+          "sha256": "7a86e4f6914f8832238a9ab5cb70dc7b02657c62bb9f133f21acee917c1d4d3d",
+          "bytes": 21066,
+          "mediaType": "image/webp",
+          "width": 256,
+          "height": 256,
+          "etag": "\"6a44ed9b-524a\"",
+          "lastModified": "Wed, 01 Jul 2026 10:36:11 GMT",
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-2",
@@ -167,7 +186,7 @@
           "name": "The Art of Adventure",
           "sourceKey": "UI_AchievementIcon_A002",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A002.webp",
           "runtimePath": "/assets/achievements/gi/categories/2f202ca7cf214b870fa11cc3a09001a220839bd4c495537e4050214a4d068447.webp",
           "localPath": "gi/assets/categories/2f202ca7cf214b870fa11cc3a09001a220839bd4c495537e4050214a4d068447.webp",
@@ -178,7 +197,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-4848\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-3",
@@ -186,7 +205,7 @@
           "name": "The Hero's Journey",
           "sourceKey": "UI_AchievementIcon_A003",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A003.webp",
           "runtimePath": "/assets/achievements/gi/categories/bbb28ed6e2eddef454462a123b8e140b7c34d230235c0ad4fc82676ae35597a9.webp",
           "localPath": "gi/assets/categories/bbb28ed6e2eddef454462a123b8e140b7c34d230235c0ad4fc82676ae35597a9.webp",
@@ -197,7 +216,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-6b46\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-4",
@@ -205,7 +224,7 @@
           "name": "Mondstadt: The City of Wind and Song",
           "sourceKey": "UI_AchievementIcon_A004",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A004.webp",
           "runtimePath": "/assets/achievements/gi/categories/7df35926cf2d3c7ec24cc006dde9f5003ed652b08c274a6bdf898c82c7c13271.webp",
           "localPath": "gi/assets/categories/7df35926cf2d3c7ec24cc006dde9f5003ed652b08c274a6bdf898c82c7c13271.webp",
@@ -216,7 +235,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-524e\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-5",
@@ -224,7 +243,7 @@
           "name": "Liyue: The Harbor of Stone and Contracts",
           "sourceKey": "UI_AchievementIcon_A005",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A005.webp",
           "runtimePath": "/assets/achievements/gi/categories/e2231c647f088aa80c119cbdd72c7c7ba007d71a3dd39707167bab4220439784.webp",
           "localPath": "gi/assets/categories/e2231c647f088aa80c119cbdd72c7c7ba007d71a3dd39707167bab4220439784.webp",
@@ -235,7 +254,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-4c0e\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-6",
@@ -243,7 +262,7 @@
           "name": "Elemental Specialist: Series I",
           "sourceKey": "UI_AchievementIcon_B001",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B001.webp",
           "runtimePath": "/assets/achievements/gi/categories/df3b57366a277a5e47b44474f12de096af5912a144e3faf93f9c7a321f65f149.webp",
           "localPath": "gi/assets/categories/df3b57366a277a5e47b44474f12de096af5912a144e3faf93f9c7a321f65f149.webp",
@@ -254,7 +273,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-62d6\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-36",
@@ -262,7 +281,7 @@
           "name": "Elemental Specialist: Series II",
           "sourceKey": "UI_AchievementIcon_B001_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B001_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/410229b9996b69d6b78883418d6b1414b15755167fc013bed72571838c6dc7fd.webp",
           "localPath": "gi/assets/categories/410229b9996b69d6b78883418d6b1414b15755167fc013bed72571838c6dc7fd.webp",
@@ -273,7 +292,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-63c4\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-7",
@@ -281,7 +300,7 @@
           "name": "Marksmanship",
           "sourceKey": "UI_AchievementIcon_B002",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B002.webp",
           "runtimePath": "/assets/achievements/gi/categories/0adfb4e2158ad01741b641a133dcd42887cafbdd2abfefb638bd47947e4ec782.webp",
           "localPath": "gi/assets/categories/0adfb4e2158ad01741b641a133dcd42887cafbdd2abfefb638bd47947e4ec782.webp",
@@ -292,7 +311,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-64d6\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-8",
@@ -300,7 +319,7 @@
           "name": "Challenger: Series I",
           "sourceKey": "UI_AchievementIcon_B004",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004.webp",
           "runtimePath": "/assets/achievements/gi/categories/da5ef7730fa05fc4fae75532dbd547d369a74f8b37516e622c99540c565010c0.webp",
           "localPath": "gi/assets/categories/da5ef7730fa05fc4fae75532dbd547d369a74f8b37516e622c99540c565010c0.webp",
@@ -311,7 +330,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-6504\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-14",
@@ -319,7 +338,7 @@
           "name": "Challenger: Series II",
           "sourceKey": "UI_AchievementIcon_B004_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/01517311bee1cf3c2cce87eaacc50a282ad3181f1acb1b7a3933b5135878ce72.webp",
           "localPath": "gi/assets/categories/01517311bee1cf3c2cce87eaacc50a282ad3181f1acb1b7a3933b5135878ce72.webp",
@@ -330,7 +349,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-666a\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-15",
@@ -338,7 +357,7 @@
           "name": "Challenger: Series III",
           "sourceKey": "UI_AchievementIcon_B004_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/773936ca660d491d1a6be55eaf11e3d5a133b50d5cce262bb0eb4c96c3a42e37.webp",
           "localPath": "gi/assets/categories/773936ca660d491d1a6be55eaf11e3d5a133b50d5cce262bb0eb4c96c3a42e37.webp",
@@ -349,7 +368,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-666a\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-20",
@@ -357,7 +376,7 @@
           "name": "Challenger: Series IV",
           "sourceKey": "UI_AchievementIcon_B004_Part4",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part4.webp",
           "runtimePath": "/assets/achievements/gi/categories/a26cbcf93dffc9c4e3f637adcf6eae94d3c8fe9a84e048b22faac827a949a303.webp",
           "localPath": "gi/assets/categories/a26cbcf93dffc9c4e3f637adcf6eae94d3c8fe9a84e048b22faac827a949a303.webp",
@@ -368,7 +387,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-6960\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-29",
@@ -376,7 +395,7 @@
           "name": "Challenger: Series V",
           "sourceKey": "UI_AchievementIcon_B004_Part5",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part5.webp",
           "runtimePath": "/assets/achievements/gi/categories/b54f0a05d011e490c930eedd1622cc9c887897169b5dde8b099b37d4eda77f1e.webp",
           "localPath": "gi/assets/categories/b54f0a05d011e490c930eedd1622cc9c887897169b5dde8b099b37d4eda77f1e.webp",
@@ -387,7 +406,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-659c\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-34",
@@ -395,7 +414,7 @@
           "name": "Challenger: Series VI",
           "sourceKey": "UI_AchievementIcon_B004_Part6",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part6.webp",
           "runtimePath": "/assets/achievements/gi/categories/9e635e1606828bc60dca55b8c0903ee726c3189c9f57c2c9dc82e9af83988e43.webp",
           "localPath": "gi/assets/categories/9e635e1606828bc60dca55b8c0903ee726c3189c9f57c2c9dc82e9af83988e43.webp",
@@ -406,7 +425,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-69e8\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-39",
@@ -414,7 +433,7 @@
           "name": "Challenger: Series VII",
           "sourceKey": "UI_AchievementIcon_B004_Part7",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part7.webp",
           "runtimePath": "/assets/achievements/gi/categories/d81e735b63f70f07afc4e0540c1a44b5733bc3acc33ac13777309ab416891e3f.webp",
           "localPath": "gi/assets/categories/d81e735b63f70f07afc4e0540c1a44b5733bc3acc33ac13777309ab416891e3f.webp",
@@ -425,7 +444,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-69e8\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-40",
@@ -433,7 +452,7 @@
           "name": "Challenger: Series VIII",
           "sourceKey": "UI_AchievementIcon_B004_Part8",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part8.webp",
           "runtimePath": "/assets/achievements/gi/categories/608733ad2cb481ebfe5656fbb9ed01ae71c93ec647b595d191506a9ffc48c9b1.webp",
           "localPath": "gi/assets/categories/608733ad2cb481ebfe5656fbb9ed01ae71c93ec647b595d191506a9ffc48c9b1.webp",
@@ -444,7 +463,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-6952\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-49",
@@ -452,7 +471,7 @@
           "name": "Challenger: Series IX",
           "sourceKey": "UI_AchievementIcon_B004_Part9",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part9.webp",
           "runtimePath": "/assets/achievements/gi/categories/939c2548ba55dcb1ef68ce7c7c806f7aa0a2766bf5cdb330d305a49305d8bc2c.webp",
           "localPath": "gi/assets/categories/939c2548ba55dcb1ef68ce7c7c806f7aa0a2766bf5cdb330d305a49305d8bc2c.webp",
@@ -463,7 +482,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-6994\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-59",
@@ -471,7 +490,7 @@
           "name": "Challenger: Series X",
           "sourceKey": "UI_AchievementIcon_B004_Part10",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B004_Part10.webp",
           "runtimePath": "/assets/achievements/gi/categories/ed0b9042a8aed1701f261650f8221189660fe4cbf932eb39228ddc07bb8e3ed6.webp",
           "localPath": "gi/assets/categories/ed0b9042a8aed1701f261650f8221189660fe4cbf932eb39228ddc07bb8e3ed6.webp",
@@ -482,7 +501,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-68cc\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-9",
@@ -490,7 +509,7 @@
           "name": "Domains and Spiral Abyss: Series I",
           "sourceKey": "UI_AchievementIcon_B005",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B005.webp",
           "runtimePath": "/assets/achievements/gi/categories/cd81f8efea0c0818845e750a6ffe161a2e06da5efdd76807ca0b3fc3d6753441.webp",
           "localPath": "gi/assets/categories/cd81f8efea0c0818845e750a6ffe161a2e06da5efdd76807ca0b3fc3d6753441.webp",
@@ -501,7 +520,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5434\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-10",
@@ -509,7 +528,7 @@
           "name": "Olah!: Series I",
           "sourceKey": "UI_AchievementIcon_C001",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_C001.webp",
           "runtimePath": "/assets/achievements/gi/categories/c70137bf806d947782b01bd7128d0d788f32db3440e10477a97d5100be6a6ff5.webp",
           "localPath": "gi/assets/categories/c70137bf806d947782b01bd7128d0d788f32db3440e10477a97d5100be6a6ff5.webp",
@@ -520,7 +539,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5ed8\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-11",
@@ -528,7 +547,7 @@
           "name": "Snezhnaya Does Not Believe in Tears: Series I",
           "sourceKey": "UI_AchievementIcon_C002",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_C002.webp",
           "runtimePath": "/assets/achievements/gi/categories/0d582a38987473c1b176aab2d5496647684bac0ad970e92ee5c74029013f7248.webp",
           "localPath": "gi/assets/categories/0d582a38987473c1b176aab2d5496647684bac0ad970e92ee5c74029013f7248.webp",
@@ -539,7 +558,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-54d2\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-12",
@@ -547,7 +566,7 @@
           "name": "Stone Harbor's Nostalgia: Series I",
           "sourceKey": "UI_AchievementIcon_C003",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_C003.webp",
           "runtimePath": "/assets/achievements/gi/categories/7f7d099950164151d75cb68efb17beba70677fba1ab12fd5345a7152cfed743b.webp",
           "localPath": "gi/assets/categories/7f7d099950164151d75cb68efb17beba70677fba1ab12fd5345a7152cfed743b.webp",
@@ -558,7 +577,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-468a\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-13",
@@ -566,7 +585,7 @@
           "name": "Meetings in Outrealm: Series I",
           "sourceKey": "UI_AchievementIcon_D001",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001.webp",
           "runtimePath": "/assets/achievements/gi/categories/fba52a197779674e58e41c133b7fba770ba76b7246aab9823045bff2007877e7.webp",
           "localPath": "gi/assets/categories/fba52a197779674e58e41c133b7fba770ba76b7246aab9823045bff2007877e7.webp",
@@ -577,7 +596,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5a72\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-21",
@@ -585,7 +604,7 @@
           "name": "Meetings in Outrealm: Series II",
           "sourceKey": "UI_AchievementIcon_D001_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/8b1a2bb660292adfa148d4abb3c4fa418ce24cbd8fcec81eadef989c77c308bb.webp",
           "localPath": "gi/assets/categories/8b1a2bb660292adfa148d4abb3c4fa418ce24cbd8fcec81eadef989c77c308bb.webp",
@@ -596,7 +615,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5af6\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-33",
@@ -604,7 +623,7 @@
           "name": "Meetings in Outrealm: Series III",
           "sourceKey": "UI_AchievementIcon_D001_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/0d36706ded90a0abec847284ed4e35d6859b8530b75cc33ef834c17e853e7f04.webp",
           "localPath": "gi/assets/categories/0d36706ded90a0abec847284ed4e35d6859b8530b75cc33ef834c17e853e7f04.webp",
@@ -615,7 +634,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5b5a\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-44",
@@ -623,7 +642,7 @@
           "name": "Meetings in Outrealm: Series IV",
           "sourceKey": "UI_AchievementIcon_D001_Part4",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001_Part4.webp",
           "runtimePath": "/assets/achievements/gi/categories/07009a041858d833131684778b901759239bcc2176aaa083fd922ce748e54241.webp",
           "localPath": "gi/assets/categories/07009a041858d833131684778b901759239bcc2176aaa083fd922ce748e54241.webp",
@@ -634,7 +653,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5cf6\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-53",
@@ -642,7 +661,7 @@
           "name": "Meetings in Outrealm: Series V",
           "sourceKey": "UI_AchievementIcon_D001_Part5",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001_Part5.webp",
           "runtimePath": "/assets/achievements/gi/categories/3536efce25a9be246d6218bcea6a08fa6cb1e362ebeafe31e1277eb9cfdc1668.webp",
           "localPath": "gi/assets/categories/3536efce25a9be246d6218bcea6a08fa6cb1e362ebeafe31e1277eb9cfdc1668.webp",
@@ -653,7 +672,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5d18\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-64",
@@ -661,7 +680,7 @@
           "name": "Meetings in Outrealm: Series VI",
           "sourceKey": "UI_AchievementIcon_D001_Part6",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001_Part6.webp",
           "runtimePath": "/assets/achievements/gi/categories/bbbeeebe370fd0daf6cd1cd32b8c17d17f14000d538c7da3665a695e998893ca.webp",
           "localPath": "gi/assets/categories/bbbeeebe370fd0daf6cd1cd32b8c17d17f14000d538c7da3665a695e998893ca.webp",
@@ -672,7 +691,26 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5b0c\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
+        },
+        {
+          "categoryId": "gi-72",
+          "sourceId": "72",
+          "name": "Meetings in Outrealm: Series VII",
+          "sourceKey": "UI_AchievementIcon_D001_Part7",
+          "sourcePageUrl": "https://gi.nanoka.cc/achievement",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
+          "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_D001_Part7.webp",
+          "runtimePath": "/assets/achievements/gi/categories/9d92058e22fa80dd25107f05e6f12918ba5a466697a738076a4b330ccdf6dc7a.webp",
+          "localPath": "gi/assets/categories/9d92058e22fa80dd25107f05e6f12918ba5a466697a738076a4b330ccdf6dc7a.webp",
+          "sha256": "9d92058e22fa80dd25107f05e6f12918ba5a466697a738076a4b330ccdf6dc7a",
+          "bytes": 23780,
+          "mediaType": "image/webp",
+          "width": 256,
+          "height": 256,
+          "etag": "\"6a44ed9b-5ce4\"",
+          "lastModified": "Wed, 01 Jul 2026 10:36:11 GMT",
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-16",
@@ -680,7 +718,7 @@
           "name": "Visitors on the Icy Mountain",
           "sourceKey": "UI_AchievementIcon_A006",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A006.webp",
           "runtimePath": "/assets/achievements/gi/categories/1a09ebee2b5fecd1513c96cba39c6fc8545ad750da392e1bc5dc7a39a9288fc8.webp",
           "localPath": "gi/assets/categories/1a09ebee2b5fecd1513c96cba39c6fc8545ad750da392e1bc5dc7a39a9288fc8.webp",
@@ -691,7 +729,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3a0c\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-18",
@@ -699,7 +737,7 @@
           "name": "A Realm Beyond: Series I",
           "sourceKey": "UI_AchievementIcon_A007",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A007.webp",
           "runtimePath": "/assets/achievements/gi/categories/c790ee1559dd96a73e57a8eca1cd6cd2fb2ef635aabdc675bf801c52f0b38e3d.webp",
           "localPath": "gi/assets/categories/c790ee1559dd96a73e57a8eca1cd6cd2fb2ef635aabdc675bf801c52f0b38e3d.webp",
@@ -710,7 +748,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-393e\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-19",
@@ -718,7 +756,7 @@
           "name": "A Realm Beyond: Series II",
           "sourceKey": "UI_AchievementIcon_A007_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A007_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/98a6e4d9ebf8c1549d9aa0be250ce9acb2bc4e0bd68f096215fef3e6bc8b9607.webp",
           "localPath": "gi/assets/categories/98a6e4d9ebf8c1549d9aa0be250ce9acb2bc4e0bd68f096215fef3e6bc8b9607.webp",
@@ -729,7 +767,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3a60\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-23",
@@ -737,7 +775,7 @@
           "name": "A Realm Beyond: Series III",
           "sourceKey": "UI_AchievementIcon_A007_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A007_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/39d88f4f37b0949b7c3b11a337fc737c1235e8aa53d2071a91163f4c58e95842.webp",
           "localPath": "gi/assets/categories/39d88f4f37b0949b7c3b11a337fc737c1235e8aa53d2071a91163f4c58e95842.webp",
@@ -748,7 +786,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3ad0\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-24",
@@ -756,7 +794,7 @@
           "name": "Inazuma: The Islands of Thunder and Eternity - Series I",
           "sourceKey": "UI_AchievementIcon_A008",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A008.webp",
           "runtimePath": "/assets/achievements/gi/categories/5c38184a474ecb11c155bb442436cf5352cbda02fd99c059382adabeff0bd881.webp",
           "localPath": "gi/assets/categories/5c38184a474ecb11c155bb442436cf5352cbda02fd99c059382adabeff0bd881.webp",
@@ -767,7 +805,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3fb6\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-26",
@@ -775,7 +813,7 @@
           "name": "Inazuma: The Islands of Thunder and Eternity - Series II",
           "sourceKey": "UI_AchievementIcon_A008_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A008_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/28120a85320f8c0db4336a40b357c9f227c917178c8b6651b793f5a411c18d4a.webp",
           "localPath": "gi/assets/categories/28120a85320f8c0db4336a40b357c9f227c917178c8b6651b793f5a411c18d4a.webp",
@@ -786,7 +824,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-40be\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-27",
@@ -794,7 +832,7 @@
           "name": "The Chronicles of the Sea of Fog",
           "sourceKey": "UI_AchievementIcon_A008_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A008_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/9cc540296a760758a35f490515685899623f4b575dc9bb7d3abde8b0fa1b9e7c.webp",
           "localPath": "gi/assets/categories/9cc540296a760758a35f490515685899623f4b575dc9bb7d3abde8b0fa1b9e7c.webp",
@@ -805,7 +843,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-40b4\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-25",
@@ -813,7 +851,7 @@
           "name": "Teyvat Fishing Guide: Series I",
           "sourceKey": "UI_AchievementIcon_A009",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A009.webp",
           "runtimePath": "/assets/achievements/gi/categories/57d753f4e73f57c2b42faebb99d615f0d32e41c32379dd204650c75117745e95.webp",
           "localPath": "gi/assets/categories/57d753f4e73f57c2b42faebb99d615f0d32e41c32379dd204650c75117745e95.webp",
@@ -824,7 +862,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-4268\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-28",
@@ -832,7 +870,7 @@
           "name": "The Light of Day",
           "sourceKey": "UI_AchievementIcon_A010",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A010.webp",
           "runtimePath": "/assets/achievements/gi/categories/12019eff4c454d129a3c4462b79ae0fdbd1610fcea2c5e2a02c4672ebc525ca4.webp",
           "localPath": "gi/assets/categories/12019eff4c454d129a3c4462b79ae0fdbd1610fcea2c5e2a02c4672ebc525ca4.webp",
@@ -843,7 +881,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-34fc\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-30",
@@ -851,7 +889,7 @@
           "name": "Chasmlighter",
           "sourceKey": "UI_AchievementIcon_A011",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A011.webp",
           "runtimePath": "/assets/achievements/gi/categories/b58b6e947cfee8899327c78812428580e15a4a994e31a9208e347655a8f1013b.webp",
           "localPath": "gi/assets/categories/b58b6e947cfee8899327c78812428580e15a4a994e31a9208e347655a8f1013b.webp",
@@ -862,7 +900,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3acc\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-31",
@@ -870,7 +908,7 @@
           "name": "Sumeru: The Rainforest of Lore",
           "sourceKey": "UI_AchievementIcon_A012",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A012.webp",
           "runtimePath": "/assets/achievements/gi/categories/060fad56f12baea8d23840c0dfbdac193566e4e34b1a023d23febe0d7801933d.webp",
           "localPath": "gi/assets/categories/060fad56f12baea8d23840c0dfbdac193566e4e34b1a023d23febe0d7801933d.webp",
@@ -881,7 +919,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-678c\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-35",
@@ -889,7 +927,7 @@
           "name": "Sumeru: The Gilded Desert - Series I",
           "sourceKey": "UI_AchievementIcon_A013",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A013.webp",
           "runtimePath": "/assets/achievements/gi/categories/96f909ad712d2ffb56b956a186a99caa37630e5d8d711d9617986837c26ad31f.webp",
           "localPath": "gi/assets/categories/96f909ad712d2ffb56b956a186a99caa37630e5d8d711d9617986837c26ad31f.webp",
@@ -900,7 +938,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-7156\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-38",
@@ -908,7 +946,7 @@
           "name": "Sumeru: The Gilded Desert - Series II",
           "sourceKey": "UI_AchievementIcon_A013_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A013_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/d2da6e73d4e1800fef11c611ecd4779668ababd2c28fdc4d04f4a4c5203e1ba6.webp",
           "localPath": "gi/assets/categories/d2da6e73d4e1800fef11c611ecd4779668ababd2c28fdc4d04f4a4c5203e1ba6.webp",
@@ -919,7 +957,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-7076\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-37",
@@ -927,7 +965,7 @@
           "name": "Genius Invokation TCG",
           "sourceKey": "UI_AchievementIcon_A014",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A014.webp",
           "runtimePath": "/assets/achievements/gi/categories/073ea954d460933ab80235176df9dd39be8062a1dbbd8899484cab6b70b2b60d.webp",
           "localPath": "gi/assets/categories/073ea954d460933ab80235176df9dd39be8062a1dbbd8899484cab6b70b2b60d.webp",
@@ -938,7 +976,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-521e\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-41",
@@ -946,7 +984,7 @@
           "name": "Blessed Hamada",
           "sourceKey": "UI_AchievementIcon_A015",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A015.webp",
           "runtimePath": "/assets/achievements/gi/categories/bd56418d51c1f8820be572fc9d39dfc9d42a1e1fc0c630f97aa2c8deddb5d456.webp",
           "localPath": "gi/assets/categories/bd56418d51c1f8820be572fc9d39dfc9d42a1e1fc0c630f97aa2c8deddb5d456.webp",
@@ -957,7 +995,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3cd6\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-42",
@@ -965,7 +1003,7 @@
           "name": "Fontaine: Dance of the Dew-White Springs (I)",
           "sourceKey": "UI_AchievementIcon_A016",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A016.webp",
           "runtimePath": "/assets/achievements/gi/categories/9737d8875be536bff9890b93c3cce2ed2c1331003119f91c6abb9478b1556a53.webp",
           "localPath": "gi/assets/categories/9737d8875be536bff9890b93c3cce2ed2c1331003119f91c6abb9478b1556a53.webp",
@@ -976,7 +1014,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-37de\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-45",
@@ -984,7 +1022,7 @@
           "name": "Fontaine: Dance of the Dew-White Springs (II)",
           "sourceKey": "UI_AchievementIcon_A016_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A016_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/7f01f7336a094cf17eea4d3063da1387f51b3fae7cce3d64417713132e74f466.webp",
           "localPath": "gi/assets/categories/7f01f7336a094cf17eea4d3063da1387f51b3fae7cce3d64417713132e74f466.webp",
@@ -995,7 +1033,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3cfe\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-46",
@@ -1003,7 +1041,7 @@
           "name": "Fontaine: Dance of the Dew-White Springs (III)",
           "sourceKey": "UI_AchievementIcon_A016_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A016_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/3e27f4aef734aee3fae8ab4b814eb5ff9bac792f1c88858d889b10629aca20df.webp",
           "localPath": "gi/assets/categories/3e27f4aef734aee3fae8ab4b814eb5ff9bac792f1c88858d889b10629aca20df.webp",
@@ -1014,7 +1052,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3d72\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-47",
@@ -1022,7 +1060,7 @@
           "name": "Chenyu's Splendor",
           "sourceKey": "UI_AchievementIcon_A017",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A017.webp",
           "runtimePath": "/assets/achievements/gi/categories/d309e02207b42083812b3b9073a4d06b0c57603e61c73a76ea0c8e6481621ed6.webp",
           "localPath": "gi/assets/categories/d309e02207b42083812b3b9073a4d06b0c57603e61c73a76ea0c8e6481621ed6.webp",
@@ -1033,7 +1071,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-4102\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-48",
@@ -1041,7 +1079,7 @@
           "name": "Rhapsodia in the Ancient Sea",
           "sourceKey": "UI_AchievementIcon_A018",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A018.webp",
           "runtimePath": "/assets/achievements/gi/categories/947ebe2e839723237bf3a5714c5d0992644fc65981034b3fb9e6a2eedb310a29.webp",
           "localPath": "gi/assets/categories/947ebe2e839723237bf3a5714c5d0992644fc65981034b3fb9e6a2eedb310a29.webp",
@@ -1052,7 +1090,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-4cee\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-50",
@@ -1060,7 +1098,7 @@
           "name": "Imaginarium Theater: The First Folio",
           "sourceKey": "UI_AchievementIcon_B006",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B006.webp",
           "runtimePath": "/assets/achievements/gi/categories/9a18dd680bd93d0df190feb16ea7f71c1207486308bc2a75551d33d958c85e4d.webp",
           "localPath": "gi/assets/categories/9a18dd680bd93d0df190feb16ea7f71c1207486308bc2a75551d33d958c85e4d.webp",
@@ -1071,7 +1109,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3efe\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-52",
@@ -1079,7 +1117,7 @@
           "name": "Imaginarium Theater: The Second Folio",
           "sourceKey": "UI_AchievementIcon_B006_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B006_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/5b2b0c56a6bc3f7c223d129be7564e8d5ae3bb25853c06f73074be533fce1e11.webp",
           "localPath": "gi/assets/categories/5b2b0c56a6bc3f7c223d129be7564e8d5ae3bb25853c06f73074be533fce1e11.webp",
@@ -1090,7 +1128,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-405e\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-51",
@@ -1098,7 +1136,7 @@
           "name": "Natlan: The Land of Fire and Competition (I)",
           "sourceKey": "UI_AchievementIcon_A019",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A019.webp",
           "runtimePath": "/assets/achievements/gi/categories/c28e52a1018874d31b308a2dffd6016477de0512cacfd2e6127c9e5711fe8616.webp",
           "localPath": "gi/assets/categories/c28e52a1018874d31b308a2dffd6016477de0512cacfd2e6127c9e5711fe8616.webp",
@@ -1109,7 +1147,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-4f26\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-55",
@@ -1117,7 +1155,7 @@
           "name": "Natlan: The Land of Fire and Competition (II)",
           "sourceKey": "UI_AchievementIcon_A019_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A019_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/e939d6814e444a08ef9045052b0f2f0f8924d64f29ffa16c408b569a6e45764b.webp",
           "localPath": "gi/assets/categories/e939d6814e444a08ef9045052b0f2f0f8924d64f29ffa16c408b569a6e45764b.webp",
@@ -1128,7 +1166,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-5028\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-54",
@@ -1136,7 +1174,7 @@
           "name": "Duelist: Series I",
           "sourceKey": "UI_AchievementIcon_B007",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B007.webp",
           "runtimePath": "/assets/achievements/gi/categories/e91c4f508c432193467ad34c70b714a8849ce1e0c281dbcf8e6751fa0bf3b20c.webp",
           "localPath": "gi/assets/categories/e91c4f508c432193467ad34c70b714a8849ce1e0c281dbcf8e6751fa0bf3b20c.webp",
@@ -1147,7 +1185,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3c40\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-56",
@@ -1155,7 +1193,7 @@
           "name": "Duelist: Series II",
           "sourceKey": "UI_AchievementIcon_B007_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B007_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/961074616ac83193429fd2d41fa607e80f6ca8258c6be9fd50af8d39b6cceed3.webp",
           "localPath": "gi/assets/categories/961074616ac83193429fd2d41fa607e80f6ca8258c6be9fd50af8d39b6cceed3.webp",
@@ -1166,7 +1204,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3d68\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-61",
@@ -1174,7 +1212,7 @@
           "name": "Duelist: Series III",
           "sourceKey": "UI_AchievementIcon_B007_Part3",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_B007_Part3.webp",
           "runtimePath": "/assets/achievements/gi/categories/59e26534b42d7b9257b0d5337cfe732cd4929dbf23f3f4d819fcf00971cec766.webp",
           "localPath": "gi/assets/categories/59e26534b42d7b9257b0d5337cfe732cd4929dbf23f3f4d819fcf00971cec766.webp",
@@ -1185,7 +1223,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3de4\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-58",
@@ -1193,7 +1231,7 @@
           "name": "Repertoire of Myriad Melodies",
           "sourceKey": "UI_AchievementIcon_A020",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A020.webp",
           "runtimePath": "/assets/achievements/gi/categories/33f5553626677e821de9d3f3043d826ea80a0deaebe58c28d4b100de9806ba19.webp",
           "localPath": "gi/assets/categories/33f5553626677e821de9d3f3043d826ea80a0deaebe58c28d4b100de9806ba19.webp",
@@ -1204,7 +1242,7 @@
           "height": 64,
           "etag": "\"6a1e6e4b-672\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-60",
@@ -1212,7 +1250,7 @@
           "name": "Sacred Mountain's Fading Glow",
           "sourceKey": "UI_AchievementIcon_A021",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A021.webp",
           "runtimePath": "/assets/achievements/gi/categories/2a9b1f821f76a7209824538084abdf1f42faf1afed77c79e2073c00c7a07a6d8.webp",
           "localPath": "gi/assets/categories/2a9b1f821f76a7209824538084abdf1f42faf1afed77c79e2073c00c7a07a6d8.webp",
@@ -1223,7 +1261,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3570\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-62",
@@ -1231,7 +1269,7 @@
           "name": "A Summer of Ash and Prickly Pears",
           "sourceKey": "UI_AchievementIcon_A022",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A022.webp",
           "runtimePath": "/assets/achievements/gi/categories/6fe309269c59306d582f2fae34f82ce7e4a45469ed88148fcebf1dd22e439190.webp",
           "localPath": "gi/assets/categories/6fe309269c59306d582f2fae34f82ce7e4a45469ed88148fcebf1dd22e439190.webp",
@@ -1242,7 +1280,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-2db4\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-63",
@@ -1250,7 +1288,7 @@
           "name": "Nod-Krai: An Elysium of Moonlight and Wanderings (I)",
           "sourceKey": "UI_AchievementIcon_A023",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A023.webp",
           "runtimePath": "/assets/achievements/gi/categories/d83b74783c38886b38f1ddc654ee22c3f18f363421052eba410a517841b296d0.webp",
           "localPath": "gi/assets/categories/d83b74783c38886b38f1ddc654ee22c3f18f363421052eba410a517841b296d0.webp",
@@ -1261,7 +1299,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3a2e\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-66",
@@ -1269,7 +1307,7 @@
           "name": "Nod-Krai: An Elysium of Moonlight and Wanderings (II)",
           "sourceKey": "UI_AchievementIcon_A023_Part2",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A023_Part2.webp",
           "runtimePath": "/assets/achievements/gi/categories/02b0d6b29b9ef7d459e153a367d4e9ffb907f0a53a4b63f6bb0138bf5de09820.webp",
           "localPath": "gi/assets/categories/02b0d6b29b9ef7d459e153a367d4e9ffb907f0a53a4b63f6bb0138bf5de09820.webp",
@@ -1280,7 +1318,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-3a9c\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-67",
@@ -1288,7 +1326,7 @@
           "name": "Demon Mountain's Breath",
           "sourceKey": "UI_AchievementIcon_A024",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A024.webp",
           "runtimePath": "/assets/achievements/gi/categories/d88d8f069464cf1d207ffb329ccd366f402f58a09521453a8f3993252deb4c1b.webp",
           "localPath": "gi/assets/categories/d88d8f069464cf1d207ffb329ccd366f402f58a09521453a8f3993252deb4c1b.webp",
@@ -1299,7 +1337,7 @@
           "height": 256,
           "etag": "\"6a1e6e4b-24ba\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         },
         {
           "categoryId": "gi-68",
@@ -1307,7 +1345,7 @@
           "name": "Unfettered Crescent",
           "sourceKey": "UI_AchievementIcon_A025",
           "sourcePageUrl": "https://gi.nanoka.cc/achievement",
-          "metadataUrl": "https://static.nanoka.cc/gi/6.7/en/achievement/achievement.json",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
           "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A025.webp",
           "runtimePath": "/assets/achievements/gi/categories/68a1e92ce25c66fb68ca09d1a0484c431cd6c2e80b297581df3bf5903500bdfa.webp",
           "localPath": "gi/assets/categories/68a1e92ce25c66fb68ca09d1a0484c431cd6c2e80b297581df3bf5903500bdfa.webp",
@@ -1318,7 +1356,45 @@
           "height": 256,
           "etag": "\"6a1e6e4b-37d8\"",
           "lastModified": "Tue, 02 Jun 2026 05:46:51 GMT",
-          "retrievedAt": "2026-07-14T17:04:30.868Z"
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
+        },
+        {
+          "categoryId": "gi-69",
+          "sourceId": "69",
+          "name": "Snezhnaya: Sacred city of ice and pale star (I)",
+          "sourceKey": "UI_AchievementIcon_A026",
+          "sourcePageUrl": "https://gi.nanoka.cc/achievement",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
+          "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A026.webp",
+          "runtimePath": "/assets/achievements/gi/categories/9e1b3d9ec63b477bc21503fbbbfdac7443146322eb59db296bb8239d0ffc1311.webp",
+          "localPath": "gi/assets/categories/9e1b3d9ec63b477bc21503fbbbfdac7443146322eb59db296bb8239d0ffc1311.webp",
+          "sha256": "9e1b3d9ec63b477bc21503fbbbfdac7443146322eb59db296bb8239d0ffc1311",
+          "bytes": 19108,
+          "mediaType": "image/webp",
+          "width": 256,
+          "height": 256,
+          "etag": "\"6a44ed9b-4aa4\"",
+          "lastModified": "Wed, 01 Jul 2026 10:36:11 GMT",
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
+        },
+        {
+          "categoryId": "gi-70",
+          "sourceId": "70",
+          "name": "Land of Surging Shadows",
+          "sourceKey": "UI_AchievementIcon_A027",
+          "sourcePageUrl": "https://gi.nanoka.cc/achievement",
+          "metadataUrl": "https://static.nanoka.cc/gi/7.0/en/achievement/achievement.json",
+          "resolvedAssetUrl": "https://static.nanoka.cc/assets/gi/UI_AchievementIcon_A027.webp",
+          "runtimePath": "/assets/achievements/gi/categories/33b37898d6f5531d2bcf124368e132a1ea695ddc2650be77e35bcc6a31763cda.webp",
+          "localPath": "gi/assets/categories/33b37898d6f5531d2bcf124368e132a1ea695ddc2650be77e35bcc6a31763cda.webp",
+          "sha256": "33b37898d6f5531d2bcf124368e132a1ea695ddc2650be77e35bcc6a31763cda",
+          "bytes": 12996,
+          "mediaType": "image/webp",
+          "width": 256,
+          "height": 256,
+          "etag": "\"6a44ed9b-32c4\"",
+          "lastModified": "Wed, 01 Jul 2026 10:36:11 GMT",
+          "retrievedAt": "2026-08-26T22:41:48.724Z"
         }
       ],
       "rewardCurrency": {
@@ -1337,7 +1413,7 @@
         "height": 256,
         "etag": "\"6a1e6e4d-2b2c\"",
         "lastModified": "Tue, 02 Jun 2026 05:46:53 GMT",
-        "retrievedAt": "2026-07-14T17:04:30.868Z"
+        "retrievedAt": "2026-08-26T22:41:48.724Z"
       }
     },
     "hsr": {

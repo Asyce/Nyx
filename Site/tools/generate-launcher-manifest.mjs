@@ -467,7 +467,7 @@ function parseDebut(entry) {
   return null;
 }
 
-function loadBannerDebuts(db = DATABASE) {
+function loadBannerDebuts(db = DATABASE, nowMs = Date.now()) {
   const byGame = {};
   for (const game of GAMES) {
     const file = path.join(db, 'BannerHistory', `${game}.json`);
@@ -475,12 +475,12 @@ function loadBannerDebuts(db = DATABASE) {
     if (exists(file)) {
       const history = readJson(file);
       for (const record of history?.records ?? []) {
-        if (!hasTrustedBannerHistoryIdentity(history, record, game) || record?.confirmed !== true) continue;
+        if (!hasTrustedBannerHistoryIdentity(history, record, game)) continue;
         if (record?.bannerType !== 'character') continue;
         const windows = Object.values(record?.windowsByRegion ?? {});
         const starts = windows.map((window) => iso(window?.start)).filter(Boolean).sort();
         const start = starts[0];
-        if (!start) continue;
+        if (!start || (record?.confirmed !== true && timestamp(start) > nowMs)) continue;
         for (const featured of record?.featured ?? []) {
           const name = norm(featured?.name);
           if (name && (!debuts.has(name) || start < debuts.get(name))) debuts.set(name, start);
@@ -1340,7 +1340,7 @@ export function buildManifest({ banners, events, rosters, prydwen = {}, debuts =
   return { schemaVersion: 1, revision, generatedAt, health: { status, games: gameHealth }, games };
 }
 
-export function loadManifestInputs({ db = DATABASE, bannersFile = path.join(db, 'Banners', 'banners.json'), events = loadEvents(db), rosters = loadRosters(db), prydwen = loadPrydwen(db), debuts = loadBannerDebuts(db), now = Date.now() } = {}) {
+export function loadManifestInputs({ db = DATABASE, bannersFile = path.join(db, 'Banners', 'banners.json'), events = loadEvents(db), rosters = loadRosters(db), prydwen = loadPrydwen(db), now = Date.now(), debuts = loadBannerDebuts(db, now) } = {}) {
   return { banners: applySourcedBannerWindows(readJson(bannersFile), db, now), events, rosters, prydwen, debuts, codes: loadPremiumCodes(db), db };
 }
 

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-25T19:29:21.459Z",
+  "generatedAt": "2026-08-26T03:13:45.845Z",
   "codes": {
     "updated": "2026-08-25T00:42:11.912Z",
     "maxAgeDays": 28,
@@ -582,80 +582,6 @@ var NYX_DB = {
           "source": "game8"
         },
         "current": {
-          "phase": "4.4 Phase 2",
-          "start": "2026-08-05T17:00:00.000Z",
-          "end": "2026-08-25T20:00:00.000Z",
-          "characters": [
-            {
-              "name": "Cerydra",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-09-02"
-            },
-            {
-              "name": "Anaxa",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-04-30"
-            },
-            {
-              "name": "Aventurine",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-17"
-            },
-            {
-              "name": "Moze",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1223.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1223.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-09-10"
-            },
-            {
-              "name": "Hanya",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1215.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1215.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-12-06"
-            },
-            {
-              "name": "Serval",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1103.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1103.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-06-07"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "4.5 Phase 1",
           "start": "2026-08-26T03:00:00.000Z",
           "end": "2026-09-12T03:59:00.000Z",
@@ -718,39 +644,70 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-12T16:00:00.000Z",
-            "end": "2026-09-27T16:00:00.000Z",
-            "characters": [
-              {
-                "name": "Aventurine \u2022 Waveflair",
-                "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": null
-              },
-              {
-                "name": "Ashveil",
-                "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
-                "iconZoom": false,
-                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": false,
-                "debutAt": "2026-03-25"
-              }
-            ],
-            "subBanners": []
-          }
-        ],
+        "next": {
+          "phase": "4.5 Phase 2",
+          "start": "2026-09-12T04:00:00.000Z",
+          "end": "2026-09-27T19:59:59.000Z",
+          "characters": [
+            {
+              "name": "Ashveil",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2026-03-25"
+            },
+            {
+              "name": "Sampo",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1108.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1108.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-08-09"
+            },
+            {
+              "name": "Hook",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1109.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1109.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-04-25"
+            },
+            {
+              "name": "Guinaifen",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1210.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1210.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-10-27"
+            },
+            {
+              "name": "Aventurine Waveflair",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-09-12"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [],
         "beta": [
           {
             "name": "Aventurine Waveflair",
@@ -171886,80 +171843,6 @@ var NYX_DB = {
           "source": "game8"
         },
         "current": {
-          "phase": "4.4 Phase 2",
-          "start": "2026-08-05T17:00:00.000Z",
-          "end": "2026-08-25T20:00:00.000Z",
-          "characters": [
-            {
-              "name": "Cerydra",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1412.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1412.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-09-02"
-            },
-            {
-              "name": "Anaxa",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1405.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1405.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2025-04-30"
-            },
-            {
-              "name": "Aventurine",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1304.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1304.webp",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-17"
-            },
-            {
-              "name": "Moze",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1223.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1223.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2024-09-10"
-            },
-            {
-              "name": "Hanya",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1215.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1215.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-12-06"
-            },
-            {
-              "name": "Serval",
-              "icon": "../../Database/GameData/hsr/assets/characters/round/1103.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1103.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-06-07"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "4.5 Phase 1",
           "start": "2026-08-26T03:00:00.000Z",
           "end": "2026-09-12T03:59:00.000Z",
@@ -172022,39 +171905,70 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [
-          {
-            "phase": null,
-            "teased": false,
-            "start": "2026-09-12T16:00:00.000Z",
-            "end": "2026-09-27T16:00:00.000Z",
-            "characters": [
-              {
-                "name": "Aventurine \u2022 Waveflair",
-                "icon": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": true,
-                "debutAt": null
-              },
-              {
-                "name": "Ashveil",
-                "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
-                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
-                "iconZoom": false,
-                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
-                "namecard": null,
-                "rarity": 5,
-                "debut": false,
-                "debutAt": "2026-03-25"
-              }
-            ],
-            "subBanners": []
-          }
-        ],
+        "next": {
+          "phase": "4.5 Phase 2",
+          "start": "2026-09-12T04:00:00.000Z",
+          "end": "2026-09-27T19:59:59.000Z",
+          "characters": [
+            {
+              "name": "Ashveil",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2026-03-25"
+            },
+            {
+              "name": "Sampo",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1108.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1108.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-08-09"
+            },
+            {
+              "name": "Hook",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1109.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1109.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-04-25"
+            },
+            {
+              "name": "Guinaifen",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1210.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1210.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2023-10-27"
+            },
+            {
+              "name": "Aventurine Waveflair",
+              "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
+              "namecard": null,
+              "rarity": 5,
+              "debut": true,
+              "debutAt": "2026-09-12"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [],
         "beta": [
           {
             "name": "Aventurine Waveflair",

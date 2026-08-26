@@ -744,6 +744,51 @@ test('trusted maintained history does not require a second raw provider to publi
   }
 });
 
+test('an active unconfirmed variant uses its trusted start as its debut without trusting future previews', () => {
+  const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-debut-test-'));
+  const source = { url: 'https://honkai-star-rail.fandom.com/wiki/Warp', kind: 'maintained-wiki', revision: 9 };
+  const record = (id, name, start, end, confirmed) => ({
+    id: `hsr:character:Character Event:${id}`,
+    game: 'hsr',
+    bannerType: 'character',
+    category: 'Character Event',
+    version: '4.5',
+    permanent: false,
+    confirmed,
+    windowsByRegion: { asia: { start, end } },
+    featured: [{ name, rarity: 5, primary: true }],
+    source,
+  });
+  try {
+    fs.mkdirSync(path.join(db, 'BannerHistory'));
+    fs.mkdirSync(path.join(db, 'Banners'));
+    fs.writeFileSync(path.join(db, 'BannerHistory', 'hsr.json'), JSON.stringify({ schemaVersion: 1, game: 'hsr', records: [
+      record('hyacine-debut', 'Hyacine', '2025-05-21T03:00:00Z', '2025-06-11T03:00:00Z', true),
+      record('hyacine-rerun', 'Hyacine', '2026-07-16T00:00:00Z', '2026-07-20T00:00:00Z', false),
+      record('summeretto-debut', 'Robin • Summeretto', '2026-07-16T00:00:00Z', '2026-07-20T00:00:00Z', false),
+      record('future-preview', 'Future Preview', '2026-07-21T00:00:00Z', '2026-08-11T00:00:00Z', false),
+    ] }));
+    fs.writeFileSync(path.join(db, 'Banners', 'banners.json'), JSON.stringify({ games: [{ id: 'hsr' }] }));
+
+    const inputs = loadManifestInputs({ db, now: NOW });
+    assert.equal(inputs.debuts.hsr.get('robinsummeretto'), '2026-07-16T00:00:00.000Z');
+    assert.equal(inputs.debuts.hsr.has('futurepreview'), false);
+    const manifest = buildManifest({
+      ...inputs,
+      rosters: { ...inputs.rosters, hsr: [
+        { id: '1409', name: 'Hyacine', rarity: 5, limited: true },
+        { id: '1512', name: 'Robin • Summeretto', rarity: 5, limited: true },
+      ] },
+      now: NOW,
+      generatedAt: new Date(NOW).toISOString(),
+    });
+    assert.equal(manifest.games.hsr.current.selectedCharacter.name, 'Robin • Summeretto');
+    assert.equal(manifest.games.hsr.current.selectedCharacter.debut, '2026-07-16T00:00:00.000Z');
+  } finally {
+    fs.rmSync(db, { recursive: true, force: true });
+  }
+});
+
 test('an exact official Kuro banner can bridge a maintained-wiki rollover gap', () => {
   const db = fs.mkdtempSync(path.join(ROOT, 'Site', 'banner-history-kuro-fallback-test-'));
   try {

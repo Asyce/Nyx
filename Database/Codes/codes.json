@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T00:42:11.912Z",
+  "generatedAt": "2026-08-26T05:25:12.005Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-25T00:42:11.898Z",
+      "lastSuccessfulFetch": "2026-08-26T05:25:12.005Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -158,8 +158,19 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-25T00:42:11.563Z",
+      "lastSuccessfulFetch": "2026-08-26T05:25:11.980Z",
       "codes": [
+        {
+          "code": "SUNSWEPTROBIN",
+          "rewards": "",
+          "added": "2026-08-26",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SUNSWEPTROBIN",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-26T05:25:11.980Z"
+        },
         {
           "code": "NSJR3B97ZZ5X",
           "rewards": "50 Stellar Jade, 10000 Credit",
@@ -327,7 +338,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-25T00:42:11.912Z",
+      "lastSuccessfulFetch": "2026-08-26T05:25:11.997Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -381,7 +392,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-25T00:42:11.507Z",
+      "lastSuccessfulFetch": "2026-08-26T05:25:11.904Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -435,7 +446,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-25T00:42:11.518Z",
+      "lastSuccessfulFetch": "2026-08-26T05:25:11.921Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

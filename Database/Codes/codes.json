@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T05:25:12.005Z",
+  "generatedAt": "2026-08-26T09:38:28.200Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-26T05:25:12.005Z",
+      "lastSuccessfulFetch": "2026-08-26T09:38:28.197Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -158,28 +158,20 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-26T05:25:11.980Z",
+      "lastSuccessfulFetch": "2026-08-26T09:38:28.200Z",
       "codes": [
         {
-          "code": "SUNSWEPTROBIN",
-          "rewards": "",
+          "code": "SunsweptRobin",
+          "rewards": "3 Traveler's Guide, 2 Classic SoulGlad",
           "added": "2026-08-26",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SUNSWEPTROBIN",
-          "hoyoVerified": true,
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
           "premium": false,
           "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-26T05:25:11.980Z"
-        },
-        {
-          "code": "NSJR3B97ZZ5X",
-          "rewards": "50 Stellar Jade, 10000 Credit",
-          "added": "2026-08-15",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
-          "premium": true,
-          "premium100": false,
           "cwSeen": true,
-          "firstSeen": "2026-08-15T20:13:06.168Z"
+          "firstSeen": "2026-08-26T05:25:11.980Z"
         },
         {
           "code": "2TKRKAR6YG2K",
@@ -298,28 +290,6 @@
           "firstSeen": "2026-07-05T17:19:05.883Z"
         },
         {
-          "code": "STARRAILFATE2026",
-          "rewards": "three traveler's guides and two the fluffy multi",
-          "added": "2026-07-27",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILFATE2026",
-          "hoyoVerified": true,
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-24T11:48:06.656Z"
-        },
-        {
-          "code": "BESTCOFFEEEVER",
-          "rewards": "three traveler's guides and two express special blend: rustic infusion",
-          "added": "2026-07-20",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=BESTCOFFEEEVER",
-          "hoyoVerified": true,
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-15T06:22:38.686Z"
-        },
-        {
           "code": "PSJQKBQPYGMT",
           "rewards": "50 Stellar Jade and 10k Credits",
           "added": "2026-07-20",
@@ -338,7 +308,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-26T05:25:11.997Z",
+      "lastSuccessfulFetch": "2026-08-26T09:38:28.186Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -392,7 +362,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-26T05:25:11.904Z",
+      "lastSuccessfulFetch": "2026-08-26T09:38:28.166Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -446,7 +416,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-26T05:25:11.921Z",
+      "lastSuccessfulFetch": "2026-08-26T09:38:28.192Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

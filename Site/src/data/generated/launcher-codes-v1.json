@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T05:25:12.005Z",
+  "generatedAt": "2026-08-26T09:38:28.200Z",
   "games": {
     "gi": [
       {
@@ -36,12 +36,6 @@
     ],
     "hsr": [
       {
-        "code": "NSJR3B97ZZ5X",
-        "added": "2026-08-15",
-        "amount": 50,
-        "currency": "Stellar Jade"
-      },
-      {
         "code": "LSJ9JARPZH33",
         "added": "2026-08-14",
         "amount": 100,
@@ -63,6 +57,12 @@
         "code": "5S6ZHRWTDNJB",
         "added": "2026-08-11",
         "amount": 60,
+        "currency": "Stellar Jade"
+      },
+      {
+        "code": "4TKSX77Y58QK",
+        "added": "2026-08-11",
+        "amount": 30,
         "currency": "Stellar Jade"
       }
     ],
@@ -121,5 +121,5 @@
       }
     ]
   },
-  "revision": "9d3a2bdff7e0931fb62129ccf0df494ccc26d81d515d3ed1423fe8c5c34fc03d"
+  "revision": "2b4904f888bbdeec2af164fc674ac880ab276333764026a03270f70104fa7f17"
 }

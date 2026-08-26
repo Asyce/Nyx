@@ -5760,6 +5760,7 @@ html.nyx-khaenriah .gp *:not(.nyx-pengo-menu):not(.nyx-pengo-menu *):not(.gt-res
 .cm-mat .src-character-icons img{ width:24px; height:24px; flex:none; object-fit:cover; border-radius:50%;
   background:var(--nyx-compat-color-dffb33c1c353); box-shadow:var(--nyx-compat-shadow-box-c52604492861); }
 .cm-mat .src-names{ display:block; font-style:normal; font-size:var(--nyx-compat-size-11px); line-height:1.35; color:var(--nyx-compat-color-hex-cfc4f2); }
+.cm-ledger-row:has(.cm-mat:hover){ z-index:auto; }
 .cm-mat:hover .src-tip{ opacity:1; transform:translate(-50%, 0); }
 .zzz-sprite{ position:relative; width:100%; height:100%; display:block; }
 .zzz-sprite img,

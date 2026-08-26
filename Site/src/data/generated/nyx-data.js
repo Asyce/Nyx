@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-26T10:08:16.052Z",
+  "generatedAt": "2026-08-26T10:26:02.170Z",
   "codes": {
-    "updated": "2026-08-26T09:38:28.200Z",
+    "updated": "2026-08-26T10:25:41.552Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -193,6 +193,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-26T05:25:11.980Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SunsweptRobin"
+        },
+        {
+          "code": "NSJR3B97ZZ5X",
+          "reward": "50 Stellar Jade, 10000 Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-16",
+          "firstSeen": "2026-08-26T10:25:41.503Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X"
         },
         {
           "code": "2TKRKAR6YG2K",
@@ -173029,6 +173043,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-26T05:25:11.980Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SunsweptRobin"
+        },
+        {
+          "code": "NSJR3B97ZZ5X",
+          "reward": "50 Stellar Jade, 10000 Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-08-16",
+          "firstSeen": "2026-08-26T10:25:41.503Z",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X"
         },
         {
           "code": "2TKRKAR6YG2K",

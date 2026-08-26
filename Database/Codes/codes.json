@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T09:38:28.200Z",
+  "generatedAt": "2026-08-26T10:25:41.552Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-26T09:38:28.197Z",
+      "lastSuccessfulFetch": "2026-08-26T10:25:41.505Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -158,7 +158,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-26T09:38:28.200Z",
+      "lastSuccessfulFetch": "2026-08-26T10:25:41.503Z",
       "codes": [
         {
           "code": "SunsweptRobin",
@@ -172,6 +172,16 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-26T05:25:11.980Z"
+        },
+        {
+          "code": "NSJR3B97ZZ5X",
+          "rewards": "50 Stellar Jade, 10000 Credit",
+          "added": "2026-08-16",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-08-26T10:25:41.503Z"
         },
         {
           "code": "2TKRKAR6YG2K",
@@ -308,7 +318,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-26T09:38:28.186Z",
+      "lastSuccessfulFetch": "2026-08-26T10:25:41.510Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -362,7 +372,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-26T09:38:28.166Z",
+      "lastSuccessfulFetch": "2026-08-26T10:25:41.498Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -416,7 +426,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-26T09:38:28.192Z",
+      "lastSuccessfulFetch": "2026-08-26T10:25:41.552Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

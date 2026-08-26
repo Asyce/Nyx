@@ -8,7 +8,7 @@
         { "id": 101, "name": "Many Steps", "desc": "Take 10 steps.", "reward": 5, "ver": "6.7" },
         { "id": 102, "name": "Many Steps", "desc": "Take 100 steps.", "reward": 10, "ver": "6.7" }
       ],
-      { "id": 103, "name": "Tomorrow's Secret", "desc": "Future content.", "reward": 5, "ver": "6.8" }
+      { "id": 103, "name": "Tomorrow's Secret", "desc": "Future content.", "reward": 5, "ver": "7.1" }
     ]
   },
   "1": {

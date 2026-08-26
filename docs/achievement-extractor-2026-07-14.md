@@ -15,7 +15,7 @@ It uses Windows' built-in English offline text reader. It does not open or contr
 5. In PowerShell, go to the download folder and verify the exact file before running it:
 
 ```powershell
-$expected = '4c083e9c6133bd739a6094f53c887b1d5d75d8426b9a3a1c4f8e16d3a1eb3876'
+$expected = '27eb6f36622b5c21d9a64785cab2ecfe976a7422baa9898d57d3f5370f82149c'
 $actual = (Get-FileHash .\pengo-achievements.ps1 -Algorithm SHA256).Hash.ToLowerInvariant()
 if ($actual -ne $expected) { throw 'Checksum mismatch. Do not run this file.' }
 powershell -NoProfile -ExecutionPolicy Bypass -File .\pengo-achievements.ps1 -Game gi -InputPath .\genshin-screenshots
@@ -33,7 +33,7 @@ Then choose the JSON file in Nyx. Nyx shows a preview before adding checkmarks.
 
 ## Conservative matching
 
-The helper contains the unique English names from Nyx's pinned released GI 6.7 and HSR 4.3 catalogs. It cleans up spacing and common punctuation, but it does not guess or use fuzzy matching.
+The helper contains the unique English names from Nyx's pinned released GI 7.0 and HSR 4.3 catalogs. It cleans up spacing and common punctuation, but it does not guess or use fuzzy matching.
 
 An achievement is included only when all of these are true:
 

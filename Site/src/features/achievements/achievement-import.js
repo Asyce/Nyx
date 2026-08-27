@@ -1,6 +1,7 @@
 // Achievement file parsing and additive import previews. Supported MVP input:
 //   { "gi_achievements": [1001, "1002"] }
 //   { "hsr_achievements": [2001, "2002"] }
+//   { "kind":"pengo-achievements", "version":1, ... }
 // plus Nyx's own achievement backup bundle.
 window.NyxAchievementImport = (function () {
   'use strict';
@@ -13,6 +14,71 @@ window.NyxAchievementImport = (function () {
     const error = new Error(message);
     error.code = code;
     return error;
+  }
+
+  function hasExactKeys(value, required, optional) {
+    const keys = Object.keys(value);
+    const allowed = new Set(required.concat(optional || []));
+    if (keys.some((key) => !allowed.has(key))) return false;
+    return required.every((key) => Object.prototype.hasOwnProperty.call(value, key))
+      && keys.length === required.length + (optional || []).filter((key) => Object.prototype.hasOwnProperty.call(value, key)).length;
+  }
+
+  function parseDesktopArtifact(data) {
+    const required = ['kind', 'version', 'game', 'catalogVersion', 'exportedAt', 'achievements'];
+    if (!hasExactKeys(data, required, ['accountBinding'])
+      || data.kind !== 'pengo-achievements'
+      || data.version !== 1
+      || !['gi', 'hsr'].includes(data.game)
+      || typeof data.catalogVersion !== 'string'
+      || data.catalogVersion.length < 1
+      || data.catalogVersion.length > 80
+      || typeof data.exportedAt !== 'string'
+      || !Number.isFinite(Date.parse(data.exportedAt))
+      || !Array.isArray(data.achievements)
+      || data.achievements.length > 10000) {
+      throw importError('The Pengo achievement export is invalid.', 'INVALID_DESKTOP_ARTIFACT');
+    }
+
+    if (Object.prototype.hasOwnProperty.call(data, 'accountBinding')) {
+      const binding = data.accountBinding;
+      if (!binding || typeof binding !== 'object' || Array.isArray(binding)
+        || !hasExactKeys(binding, ['scheme', 'value', 'region'])
+        || binding.scheme !== 'pengo-install-hmac-v1'
+        || typeof binding.value !== 'string'
+        || binding.value.length < 16
+        || binding.value.length > 256
+        || !/^[A-Za-z0-9_-]+$/.test(binding.value)
+        || typeof binding.region !== 'string'
+        || binding.region.length < 1
+        || binding.region.length > 48
+        || !/^[A-Za-z0-9_-]+$/.test(binding.region)) {
+        throw importError('The Pengo achievement export is invalid.', 'INVALID_DESKTOP_ARTIFACT');
+      }
+    }
+
+    const ids = [];
+    let previous = 0;
+    for (const row of data.achievements) {
+      if (!row || typeof row !== 'object' || Array.isArray(row)
+        || !hasExactKeys(row, ['id', 'status'])
+        || !Number.isSafeInteger(row.id)
+        || row.id <= previous
+        || row.status !== 'complete') {
+        throw importError('The Pengo achievement export is invalid.', 'INVALID_DESKTOP_ARTIFACT');
+      }
+      ids.push(String(row.id));
+      previous = row.id;
+    }
+
+    return {
+      format: 'stardb',
+      game: data.game,
+      ids,
+      inputCount: ids.length,
+      duplicateCount: 0,
+      invalidCount: 0,
+    };
   }
 
   function parse(value) {
@@ -29,6 +95,7 @@ window.NyxAchievementImport = (function () {
       }
       return { format: 'nyx-backup', bundle: data };
     }
+    if (data.kind === 'pengo-achievements') return parseDesktopArtifact(data);
 
     const hasGi = Object.prototype.hasOwnProperty.call(data, 'gi_achievements');
     const hasHsr = Object.prototype.hasOwnProperty.call(data, 'hsr_achievements');

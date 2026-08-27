@@ -79,6 +79,73 @@ test('repeat import is idempotent and imports never uncheck existing progress', 
   assert.deepEqual(plain(second.profile.completedIds).sort(), ['1001', '1002', '1003']);
 });
 
+test('Desktop achievement artifacts parse as Stardb previews without retaining account bindings', () => {
+  const { Importer } = sandbox();
+  const parsed = plain(Importer.parse(JSON.stringify({
+    kind: 'pengo-achievements',
+    version: 1,
+    game: 'hsr',
+    accountBinding: {
+      scheme: 'pengo-install-hmac-v1',
+      value: 'AbCdEfGhIjKlMnOp_1234-5678',
+      region: 'prod_official_eur',
+    },
+    catalogVersion: 'hsr-4.4',
+    exportedAt: '2026-07-29T12:00:00Z',
+    achievements: [{ id:1, status:'complete' }, { id:9007199254740991, status:'complete' }],
+  })));
+
+  assert.deepEqual(parsed, {
+    format: 'stardb',
+    game: 'hsr',
+    ids: ['1', '9007199254740991'],
+    inputCount: 2,
+    duplicateCount: 0,
+    invalidCount: 0,
+  });
+  assert.equal(Object.hasOwn(parsed, 'accountBinding'), false);
+});
+
+test('Desktop artifact validation rejects malformed, extra, unsorted, and wrong-game previews', () => {
+  const { Importer } = sandbox();
+  const artifact = {
+    kind:'pengo-achievements', version:1, game:'hsr', catalogVersion:'hsr-4.4',
+    exportedAt:'2026-07-29T12:00:00Z', achievements:[{ id:1, status:'complete' }],
+  };
+  const rejected = [
+    { ...artifact, extra:true },
+    { ...artifact, exportedAt:'not-a-date' },
+    { ...artifact, achievements:[{ id:2, status:'complete' }, { id:1, status:'complete' }] },
+    { ...artifact, achievements:[{ id:1, status:'partial' }] },
+    { ...artifact, achievements:[{ id:1, status:'complete', extra:true }] },
+    { ...artifact, accountBinding:{ scheme:'pengo-install-hmac-v1', value:'unsafe value', region:'eur' } },
+  ];
+  for (const value of rejected) {
+    assert.throws(() => Importer.parse(value), (error) => error.code === 'INVALID_DESKTOP_ARTIFACT');
+  }
+  const parsed = Importer.parse(artifact);
+  assert.throws(() => Importer.preview(parsed, 'gi', ['1']), (error) => error.code === 'WRONG_GAME');
+});
+
+test('repeat merge of a representative Desktop artifact adds progress only once', () => {
+  const { Storage, Importer } = sandbox();
+  const store = Storage.create(memoryStorage());
+  store.createProfile({ game:'hsr', completedIds:['3'] }, { id:'desktop-target', now:1 });
+  const parsed = Importer.parse({
+    kind:'pengo-achievements', version:1, game:'hsr', catalogVersion:'hsr-4.4',
+    exportedAt:'2026-07-29T12:00:00Z',
+    achievements:[{ id:1, status:'complete' }, { id:2, status:'complete' }],
+  });
+  const firstPreview = Importer.preview(parsed, 'hsr', ['1', '2', '3'], store.loadProfile('hsr', 'desktop-target'));
+  const first = Importer.apply(store, 'desktop-target', firstPreview, { mode:'merge', now:2 });
+  const secondPreview = Importer.preview(parsed, 'hsr', ['1', '2', '3'], store.loadProfile('hsr', 'desktop-target'));
+  const second = Importer.apply(store, 'desktop-target', secondPreview, { mode:'merge', now:3 });
+
+  assert.ok(first.added > 0);
+  assert.equal(secondPreview.newCompletedCount, 0);
+  assert.equal(second.added, 0);
+});
+
 test('wrong-game import is rejected before it can change the profile', () => {
   const { Storage, Importer } = sandbox();
   const store = Storage.create(memoryStorage());

@@ -137,6 +137,8 @@ export function parseFandomRun(game, page) {
   const legacyPermanent = String(legacyFields.duration || '').toLowerCase() !== 'event' || !legacyFields.time_end;
   const legacyWindow = windowFrom(legacyFields, { source:url, defaultOffset:'+08:00' });
   const aliases = [];
+  // Fandom revision 460681 corrected this title without a redirect; retain its prior stable ID.
+  if (game === 'hsr' && page.title === 'Over the Gilded Tides/2026-09-12') aliases.push(stableId({ ...record, name:'Over the Glided Tides/2026-09-12' }));
   if (record.bannerType === 'mixed') aliases.push(stableId({ ...record, name:page.title, bannerType:'character' }));
   if (legacyMapped || legacyPermanent) aliases.push(stableId({ ...record, name:page.title, bannerType:legacyMapped || (/weapon/i.test(legacyFields.type || '') ? 'weapon' : 'character'), category:legacyFields.type || record.category, windowsByRegion:legacyWindow ? { asia:legacyWindow } : {} }));
   record.legacyIds = [...new Set(aliases.filter((id) => id !== record.id))];

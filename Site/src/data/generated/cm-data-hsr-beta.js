@@ -21,7 +21,7 @@
         "ja": "\u30a2\u30d9\u30f3\u30c1\u30e5\u30ea\u30f3\u30fb\u6ce2\u3068\u622f\u308c\u308b\u590f",
         "ko": "\uc5b4\ubca4\uce04\ub9b0\u2022\uc6e8\uc774\ube0c"
       },
-      "title": "Over the Glided Tides",
+      "title": "Over the Gilded Tides",
       "slug": "aventurine-waveflair",
       "release": 1789203600000,
       "updated": 1786492800000,
@@ -166,7 +166,7 @@
         ]
       },
       "facts": {
-        "title": "Over the Glided Tides"
+        "title": "Over the Gilded Tides"
       },
       "skillIcons": [
         "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Normal.webp",

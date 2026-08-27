@@ -923,7 +923,9 @@ test('production snapshot selects the newest splash art and exposes future patch
     assert.ok(manifest.games[game].current.characters.every((character) => character.icon?.source === 'character-icon'));
   }
   assert.ok(manifest.games.gi.upcoming.some((phase) => phase.characters.some((character) => character.name === 'Columbina')));
-  assert.deepEqual(manifest.games.zzz.upcoming, []);
+  assert.deepEqual(manifest.games.zzz.upcoming[0].characters.map((character) => character.name), [
+    'Sigrid', 'Dialyn', 'Yuzuha', 'Harumasa',
+  ]);
   assert.deepEqual(manifest.games.wuwa.upcoming[0].characters.map((character) => character.name), ['Suisui', 'Aemeath']);
   assert.deepEqual(manifest.games.ae.upcoming[0].characters.map((character) => character.name), ['Liino', 'Arcane', 'Camille']);
 });
@@ -937,7 +939,7 @@ test('production source rolls Genshin from Sandrone to Columbina at the trusted 
   });
   assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Columbina');
   assert.ok(manifest.games.gi.current.characters.every((character) => character.name !== 'Sandrone'));
-  assert.deepEqual(manifest.games.gi.upcoming, []);
+  assert.deepEqual(manifest.games.gi.upcoming[0].characters.map((character) => character.name), ['Flins', 'Ineffa']);
 });
 
 test('current Pengo scrape projects headline characters with short names and known patch labels', async () => {

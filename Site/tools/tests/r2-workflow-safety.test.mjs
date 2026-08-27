@@ -94,22 +94,24 @@ test('data refresh deploy uses the installed pinned Wrangler', async () => {
   assert.doesNotMatch(source.slice(deploy), /npx --yes wrangler/);
 });
 
-test('daily deploy rebuilds the newest main before retrying a rejected push', async () => {
+test('daily deploy clears disposable build output and rebuilds the newest main before retrying a rejected push', async () => {
   const source = await fs.readFile(path.resolve(workflowDir, 'daily-deploy.yml'), 'utf8');
   const pushBlocks = source.match(/- name: Push (?:verified launcher|exact deployment) snapshot[\s\S]*?(?=\n      - name:)/g) || [];
 
   assert.equal(pushBlocks.length, 2);
+  assert.match(pushBlocks[0], /for attempt in 1 2 3/);
+  assert.match(pushBlocks[1], /for attempt in 2 3/);
   for (const block of pushBlocks) {
-    assert.match(block, /for attempt in 1 2 3/);
     assert.match(block, /git push origin HEAD:main/);
-    assert.match(block, /git fetch origin main[\s\S]*git switch --detach origin\/main[\s\S]*git lfs pull/);
+    assert.match(block, /git fetch origin main[\s\S]*git switch --discard-changes --detach origin\/main[\s\S]*git clean -fdX -- Site\/dist Site\/src\/data\/generated \.deploy[\s\S]*git lfs pull/);
     assert.match(block, /npm ci --no-audit --no-fund[\s\S]*npm run generate:data && npm run refresh:launcher/);
     assert.match(block, /PENGO_DEPLOY_COMMIT="\$sha" npm run build:deploy && npm run smoke:deploy/);
     assert.match(block, /echo "sha=\$\(git rev-parse HEAD\)" >> "\$GITHUB_OUTPUT"/);
   }
   assert.match(pushBlocks[1], /R2_ACCOUNT_ID: \$\{\{ vars\.CLOUDFLARE_ACCOUNT_ID \}\}/);
   assert.match(pushBlocks[1], /PENGO_DEPLOY_COMMIT="\$launcher_sha" npm run sync:database-assets:r2 -- --apply/);
-  assert.match(pushBlocks[1], /sync:database-assets:r2[\s\S]*npm run generate:data && npm run refresh:launcher[\s\S]*npm run build:deploy && npm run smoke:deploy/);
+  assert.match(pushBlocks[1], /PENGO_DEPLOY_COMMIT="\$launcher_sha" npm run build:deploy && npm run smoke:deploy[\s\S]*if ! git push origin HEAD:main; then[\s\S]*continue\s+fi[\s\S]*PENGO_DEPLOY_COMMIT="\$launcher_sha" npm run sync:database-assets:r2 -- --apply/);
+  assert.match(pushBlocks[1], /sync:database-assets:r2[\s\S]*npm run generate:data && npm run refresh:launcher[\s\S]*PENGO_DEPLOY_COMMIT="\$sha" npm run build:deploy && npm run smoke:deploy[\s\S]*if git push origin HEAD:main; then[\s\S]*echo "sha=\$sha" >> "\$GITHUB_OUTPUT"[\s\S]*exit 0/);
   assert.match(source, /PENGO_DEPLOY_COMMIT: \$\{\{ steps\.pushed_launcher_snapshot\.outputs\.sha \}\}/);
 });
 

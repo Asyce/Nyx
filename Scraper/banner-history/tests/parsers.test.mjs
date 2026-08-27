@@ -19,6 +19,13 @@ for (const [game, info, pool, type, primaryKey, secondaryKey, primary, secondary
   assert.equal(record.windowsByRegion.asia.start, '2024-01-01T02:00:00.000Z'); assert.equal(record.source.revision, 7); assert.equal(record.confirmed, true);
 });
 
+test('HSR title correction retains the prior misspelled stable ID', () => {
+  const text = `{{Warp\n|name = Over the Gilded Tides\n|type = Character Event\n|duration = event\n|time_start = 2026-09-12 12:00:00\n|time_start_offset = GMT+8\n|time_end = 2026-09-28 03:59:59\n}}\n{{Warp Pool\n|character_5_F = Aventurine • Waveflair\n|character_4_F = Sampo; Hook; Guinaifen\n}}\n{{Change History|4.5}}`;
+  const record = parseFandomRun('hsr', { title:'Over the Gilded Tides/2026-09-12', revision:460683, text });
+  assert.equal(record.id, 'hsr:character:Character Event:over-the-gilded-tides-2026-09-12:2026-09-12t04-00-00-000z');
+  assert.deepEqual(record.legacyIds, ['hsr:character:Character Event:over-the-glided-tides-2026-09-12:2026-09-12t04-00-00-000z']);
+});
+
 test('unfinished future wiki placeholders are ignored without accepting tentative dates', () => {
   const text = `{{Wish
 |name = Astral Actuation 7.0

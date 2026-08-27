@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "wuwa",
-  "generatedAt": "2026-08-20T16:25:22.707Z",
+  "generatedAt": "2026-08-27T22:14:03.186Z",
   "records": [
     {
       "id": "wuwa:character:Collab Resonator:dreaming-upon-the-moon-2026-06-08:permanent",
@@ -49,7 +49,7 @@
         "kind": "maintained-wiki",
         "revision": 98106
       },
-      "fetchedAt": "2026-08-20T16:25:23.743Z",
+      "fetchedAt": "2026-08-27T22:14:07.637Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4836",
@@ -103,7 +103,7 @@
         "kind": "maintained-wiki",
         "revision": 98107
       },
-      "fetchedAt": "2026-08-20T16:25:23.937Z",
+      "fetchedAt": "2026-08-27T22:14:07.573Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4852",
@@ -157,7 +157,7 @@
         "kind": "maintained-wiki",
         "revision": 95931
       },
-      "fetchedAt": "2026-08-20T16:25:24.162Z",
+      "fetchedAt": "2026-08-27T22:14:08.985Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
@@ -211,7 +211,7 @@
         "kind": "maintained-wiki",
         "revision": 95930
       },
-      "fetchedAt": "2026-08-20T16:25:24.173Z",
+      "fetchedAt": "2026-08-27T22:14:09.131Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
@@ -265,7 +265,7 @@
         "kind": "maintained-wiki",
         "revision": 96421
       },
-      "fetchedAt": "2026-08-20T16:25:24.116Z",
+      "fetchedAt": "2026-08-27T22:14:08.994Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
@@ -335,7 +335,7 @@
         "kind": "maintained-wiki",
         "revision": 59441
       },
-      "fetchedAt": "2026-08-20T16:25:28.729Z",
+      "fetchedAt": "2026-08-27T22:14:28.250Z",
       "confirmed": true
     },
     {
@@ -370,7 +370,7 @@
         "kind": "maintained-wiki",
         "revision": 55943
       },
-      "fetchedAt": "2026-08-20T16:25:28.729Z",
+      "fetchedAt": "2026-08-27T22:14:28.893Z",
       "confirmed": true
     },
     {
@@ -405,7 +405,7 @@
         "kind": "maintained-wiki",
         "revision": 71462
       },
-      "fetchedAt": "2026-08-20T16:25:28.751Z",
+      "fetchedAt": "2026-08-27T22:14:28.879Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:character:Novice:utterance-of-marvels:2024-05-23t02-00-00-000z"
@@ -443,7 +443,7 @@
         "kind": "maintained-wiki",
         "revision": 71458
       },
-      "fetchedAt": "2026-08-20T16:25:28.767Z",
+      "fetchedAt": "2026-08-27T22:14:28.609Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:character:Permanent:tidal-chorus:2024-05-23t02-00-00-000z"
@@ -511,7 +511,7 @@
         "kind": "maintained-wiki",
         "revision": 59439
       },
-      "fetchedAt": "2026-08-20T16:25:28.762Z",
+      "fetchedAt": "2026-08-27T22:14:28.117Z",
       "confirmed": true
     },
     {
@@ -546,7 +546,7 @@
         "kind": "maintained-wiki",
         "revision": 71460
       },
-      "fetchedAt": "2026-08-20T16:25:28.716Z",
+      "fetchedAt": "2026-08-27T22:14:28.424Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:character:Permanent:standard-weapon-convene:2024-05-23t02-00-00-000z"
@@ -614,7 +614,7 @@
         "kind": "maintained-wiki",
         "revision": 63689
       },
-      "fetchedAt": "2026-08-20T16:25:28.708Z",
+      "fetchedAt": "2026-08-27T22:14:27.962Z",
       "confirmed": true
     },
     {
@@ -679,7 +679,7 @@
         "kind": "maintained-wiki",
         "revision": 63690
       },
-      "fetchedAt": "2026-08-20T16:25:28.565Z",
+      "fetchedAt": "2026-08-27T22:14:27.025Z",
       "confirmed": true
     },
     {
@@ -744,7 +744,7 @@
         "kind": "maintained-wiki",
         "revision": 63687
       },
-      "fetchedAt": "2026-08-20T16:25:28.511Z",
+      "fetchedAt": "2026-08-27T22:14:27.873Z",
       "confirmed": true
     },
     {
@@ -809,7 +809,7 @@
         "kind": "maintained-wiki",
         "revision": 63688
       },
-      "fetchedAt": "2026-08-20T16:25:28.500Z",
+      "fetchedAt": "2026-08-27T22:14:27.918Z",
       "confirmed": true
     },
     {
@@ -872,7 +872,7 @@
         "kind": "maintained-wiki",
         "revision": 63683
       },
-      "fetchedAt": "2026-08-20T16:25:28.456Z",
+      "fetchedAt": "2026-08-27T22:14:27.342Z",
       "confirmed": true
     },
     {
@@ -935,7 +935,7 @@
         "kind": "maintained-wiki",
         "revision": 63686
       },
-      "fetchedAt": "2026-08-20T16:25:28.470Z",
+      "fetchedAt": "2026-08-27T22:14:27.874Z",
       "confirmed": true
     },
     {
@@ -1000,7 +1000,7 @@
         "kind": "maintained-wiki",
         "revision": 63681
       },
-      "fetchedAt": "2026-08-20T16:25:28.499Z",
+      "fetchedAt": "2026-08-27T22:14:26.736Z",
       "confirmed": true
     },
     {
@@ -1065,7 +1065,7 @@
         "kind": "maintained-wiki",
         "revision": 63682
       },
-      "fetchedAt": "2026-08-20T16:25:28.450Z",
+      "fetchedAt": "2026-08-27T22:14:27.053Z",
       "confirmed": true
     },
     {
@@ -1128,7 +1128,7 @@
         "kind": "maintained-wiki",
         "revision": 63679
       },
-      "fetchedAt": "2026-08-20T16:25:28.341Z",
+      "fetchedAt": "2026-08-27T22:14:26.582Z",
       "confirmed": true
     },
     {
@@ -1191,7 +1191,7 @@
         "kind": "maintained-wiki",
         "revision": 63691
       },
-      "fetchedAt": "2026-08-20T16:25:28.321Z",
+      "fetchedAt": "2026-08-27T22:14:27.181Z",
       "confirmed": true
     },
     {
@@ -1256,7 +1256,7 @@
         "kind": "maintained-wiki",
         "revision": 74066
       },
-      "fetchedAt": "2026-08-20T16:25:28.212Z",
+      "fetchedAt": "2026-08-27T22:14:26.436Z",
       "confirmed": true
     },
     {
@@ -1321,7 +1321,7 @@
         "kind": "maintained-wiki",
         "revision": 67716
       },
-      "fetchedAt": "2026-08-20T16:25:28.273Z",
+      "fetchedAt": "2026-08-27T22:14:26.718Z",
       "confirmed": true
     },
     {
@@ -1384,7 +1384,7 @@
         "kind": "maintained-wiki",
         "revision": 68388
       },
-      "fetchedAt": "2026-08-20T16:25:28.223Z",
+      "fetchedAt": "2026-08-27T22:14:26.076Z",
       "confirmed": true
     },
     {
@@ -1447,7 +1447,7 @@
         "kind": "maintained-wiki",
         "revision": 68410
       },
-      "fetchedAt": "2026-08-20T16:25:28.217Z",
+      "fetchedAt": "2026-08-27T22:14:26.354Z",
       "confirmed": true
     },
     {
@@ -1512,7 +1512,7 @@
         "kind": "maintained-wiki",
         "revision": 65357
       },
-      "fetchedAt": "2026-08-20T16:25:28.234Z",
+      "fetchedAt": "2026-08-27T22:14:25.590Z",
       "confirmed": true
     },
     {
@@ -1577,7 +1577,7 @@
         "kind": "maintained-wiki",
         "revision": 65354
       },
-      "fetchedAt": "2026-08-20T16:25:28.236Z",
+      "fetchedAt": "2026-08-27T22:14:25.535Z",
       "confirmed": true
     },
     {
@@ -1643,7 +1643,7 @@
         "kind": "maintained-wiki",
         "revision": 91018
       },
-      "fetchedAt": "2026-08-20T16:25:27.958Z",
+      "fetchedAt": "2026-08-27T22:14:25.197Z",
       "confirmed": true
     },
     {
@@ -1709,7 +1709,7 @@
         "kind": "maintained-wiki",
         "revision": 68391
       },
-      "fetchedAt": "2026-08-20T16:25:28.046Z",
+      "fetchedAt": "2026-08-27T22:14:25.380Z",
       "confirmed": true
     },
     {
@@ -1775,7 +1775,7 @@
         "kind": "maintained-wiki",
         "revision": 91019
       },
-      "fetchedAt": "2026-08-20T16:25:28.108Z",
+      "fetchedAt": "2026-08-27T22:14:25.660Z",
       "confirmed": true
     },
     {
@@ -1841,7 +1841,7 @@
         "kind": "maintained-wiki",
         "revision": 91020
       },
-      "fetchedAt": "2026-08-20T16:25:28.080Z",
+      "fetchedAt": "2026-08-27T22:14:25.476Z",
       "confirmed": true
     },
     {
@@ -1907,7 +1907,7 @@
         "kind": "maintained-wiki",
         "revision": 68392
       },
-      "fetchedAt": "2026-08-20T16:25:27.892Z",
+      "fetchedAt": "2026-08-27T22:14:24.181Z",
       "confirmed": true
     },
     {
@@ -1973,7 +1973,7 @@
         "kind": "maintained-wiki",
         "revision": 70541
       },
-      "fetchedAt": "2026-08-20T16:25:27.923Z",
+      "fetchedAt": "2026-08-27T22:14:24.236Z",
       "confirmed": true
     },
     {
@@ -2039,7 +2039,7 @@
         "kind": "maintained-wiki",
         "revision": 83989
       },
-      "fetchedAt": "2026-08-20T16:25:27.969Z",
+      "fetchedAt": "2026-08-27T22:14:24.966Z",
       "confirmed": true
     },
     {
@@ -2105,7 +2105,7 @@
         "kind": "maintained-wiki",
         "revision": 70521
       },
-      "fetchedAt": "2026-08-20T16:25:27.928Z",
+      "fetchedAt": "2026-08-27T22:14:24.998Z",
       "confirmed": true
     },
     {
@@ -2168,7 +2168,7 @@
         "kind": "maintained-wiki",
         "revision": 70542
       },
-      "fetchedAt": "2026-08-20T16:25:27.728Z",
+      "fetchedAt": "2026-08-27T22:14:23.580Z",
       "confirmed": true
     },
     {
@@ -2231,7 +2231,7 @@
         "kind": "maintained-wiki",
         "revision": 70536
       },
-      "fetchedAt": "2026-08-20T16:25:27.783Z",
+      "fetchedAt": "2026-08-27T22:14:23.760Z",
       "confirmed": true
     },
     {
@@ -2294,7 +2294,7 @@
         "kind": "maintained-wiki",
         "revision": 70524
       },
-      "fetchedAt": "2026-08-20T16:25:27.850Z",
+      "fetchedAt": "2026-08-27T22:14:24.216Z",
       "confirmed": true
     },
     {
@@ -2357,7 +2357,7 @@
         "kind": "maintained-wiki",
         "revision": 70525
       },
-      "fetchedAt": "2026-08-20T16:25:27.856Z",
+      "fetchedAt": "2026-08-27T22:14:24.230Z",
       "confirmed": true
     },
     {
@@ -2422,7 +2422,7 @@
         "kind": "maintained-wiki",
         "revision": 68397
       },
-      "fetchedAt": "2026-08-20T16:25:27.665Z",
+      "fetchedAt": "2026-08-27T22:14:22.938Z",
       "confirmed": true
     },
     {
@@ -2487,7 +2487,7 @@
         "kind": "maintained-wiki",
         "revision": 68417
       },
-      "fetchedAt": "2026-08-20T16:25:27.673Z",
+      "fetchedAt": "2026-08-27T22:14:23.923Z",
       "confirmed": true
     },
     {
@@ -2553,7 +2553,7 @@
         "kind": "maintained-wiki",
         "revision": 70544
       },
-      "fetchedAt": "2026-08-20T16:25:27.610Z",
+      "fetchedAt": "2026-08-27T22:14:22.864Z",
       "confirmed": true
     },
     {
@@ -2619,7 +2619,7 @@
         "kind": "maintained-wiki",
         "revision": 70538
       },
-      "fetchedAt": "2026-08-20T16:25:27.666Z",
+      "fetchedAt": "2026-08-27T22:14:22.823Z",
       "confirmed": true
     },
     {
@@ -2685,7 +2685,7 @@
         "kind": "maintained-wiki",
         "revision": 70523
       },
-      "fetchedAt": "2026-08-20T16:25:27.673Z",
+      "fetchedAt": "2026-08-27T22:14:23.863Z",
       "confirmed": true
     },
     {
@@ -2751,7 +2751,7 @@
         "kind": "maintained-wiki",
         "revision": 70527
       },
-      "fetchedAt": "2026-08-20T16:25:27.590Z",
+      "fetchedAt": "2026-08-27T22:14:23.697Z",
       "confirmed": true
     },
     {
@@ -2817,7 +2817,7 @@
         "kind": "maintained-wiki",
         "revision": 67718
       },
-      "fetchedAt": "2026-08-20T16:25:27.425Z",
+      "fetchedAt": "2026-08-27T22:14:22.196Z",
       "confirmed": true
     },
     {
@@ -2883,7 +2883,7 @@
         "kind": "maintained-wiki",
         "revision": 77554
       },
-      "fetchedAt": "2026-08-20T16:25:27.428Z",
+      "fetchedAt": "2026-08-27T22:14:22.241Z",
       "confirmed": true
     },
     {
@@ -2949,7 +2949,7 @@
         "kind": "maintained-wiki",
         "revision": 65353
       },
-      "fetchedAt": "2026-08-20T16:25:27.521Z",
+      "fetchedAt": "2026-08-27T22:14:23.432Z",
       "confirmed": true
     },
     {
@@ -3015,7 +3015,7 @@
         "kind": "maintained-wiki",
         "revision": 77559
       },
-      "fetchedAt": "2026-08-20T16:25:27.477Z",
+      "fetchedAt": "2026-08-27T22:14:22.942Z",
       "confirmed": true
     },
     {
@@ -3080,7 +3080,7 @@
         "kind": "maintained-wiki",
         "revision": 91024
       },
-      "fetchedAt": "2026-08-20T16:25:27.382Z",
+      "fetchedAt": "2026-08-27T22:14:22.068Z",
       "confirmed": true
     },
     {
@@ -3145,7 +3145,7 @@
         "kind": "maintained-wiki",
         "revision": 91015
       },
-      "fetchedAt": "2026-08-20T16:25:27.345Z",
+      "fetchedAt": "2026-08-27T22:14:22.601Z",
       "confirmed": true
     },
     {
@@ -3208,7 +3208,7 @@
         "kind": "maintained-wiki",
         "revision": 71470
       },
-      "fetchedAt": "2026-08-20T16:25:27.339Z",
+      "fetchedAt": "2026-08-27T22:14:22.266Z",
       "confirmed": true
     },
     {
@@ -3271,7 +3271,7 @@
         "kind": "maintained-wiki",
         "revision": 71471
       },
-      "fetchedAt": "2026-08-20T16:25:27.171Z",
+      "fetchedAt": "2026-08-27T22:14:21.413Z",
       "confirmed": true
     },
     {
@@ -3334,7 +3334,7 @@
         "kind": "maintained-wiki",
         "revision": 71472
       },
-      "fetchedAt": "2026-08-20T16:25:27.299Z",
+      "fetchedAt": "2026-08-27T22:14:22.083Z",
       "confirmed": true
     },
     {
@@ -3397,7 +3397,7 @@
         "kind": "maintained-wiki",
         "revision": 71480
       },
-      "fetchedAt": "2026-08-20T16:25:27.221Z",
+      "fetchedAt": "2026-08-27T22:14:21.723Z",
       "confirmed": true
     },
     {
@@ -3460,7 +3460,7 @@
         "kind": "maintained-wiki",
         "revision": 86009
       },
-      "fetchedAt": "2026-08-20T16:25:27.273Z",
+      "fetchedAt": "2026-08-27T22:14:22.091Z",
       "confirmed": true
     },
     {
@@ -3523,7 +3523,7 @@
         "kind": "maintained-wiki",
         "revision": 82768
       },
-      "fetchedAt": "2026-08-20T16:25:26.974Z",
+      "fetchedAt": "2026-08-27T22:14:20.557Z",
       "confirmed": true
     },
     {
@@ -3590,7 +3590,7 @@
         "kind": "maintained-wiki",
         "revision": 86074
       },
-      "fetchedAt": "2026-08-20T16:25:27.068Z",
+      "fetchedAt": "2026-08-27T22:14:21.412Z",
       "confirmed": true
     },
     {
@@ -3657,7 +3657,7 @@
         "kind": "maintained-wiki",
         "revision": 71466
       },
-      "fetchedAt": "2026-08-20T16:25:27.123Z",
+      "fetchedAt": "2026-08-27T22:14:21.314Z",
       "confirmed": true
     },
     {
@@ -3724,7 +3724,7 @@
         "kind": "maintained-wiki",
         "revision": 71467
       },
-      "fetchedAt": "2026-08-20T16:25:27.033Z",
+      "fetchedAt": "2026-08-27T22:14:21.368Z",
       "confirmed": true
     },
     {
@@ -3791,7 +3791,7 @@
         "kind": "maintained-wiki",
         "revision": 71468
       },
-      "fetchedAt": "2026-08-20T16:25:27.143Z",
+      "fetchedAt": "2026-08-27T22:14:21.247Z",
       "confirmed": true
     },
     {
@@ -3858,7 +3858,7 @@
         "kind": "maintained-wiki",
         "revision": 71465
       },
-      "fetchedAt": "2026-08-20T16:25:27.101Z",
+      "fetchedAt": "2026-08-27T22:14:21.205Z",
       "confirmed": true
     },
     {
@@ -3925,7 +3925,7 @@
         "kind": "maintained-wiki",
         "revision": 86077
       },
-      "fetchedAt": "2026-08-20T16:25:27.024Z",
+      "fetchedAt": "2026-08-27T22:14:21.265Z",
       "confirmed": true
     },
     {
@@ -3988,7 +3988,7 @@
         "kind": "maintained-wiki",
         "revision": 77556
       },
-      "fetchedAt": "2026-08-20T16:25:26.940Z",
+      "fetchedAt": "2026-08-27T22:14:20.574Z",
       "confirmed": true
     },
     {
@@ -4051,7 +4051,7 @@
         "kind": "maintained-wiki",
         "revision": 74764
       },
-      "fetchedAt": "2026-08-20T16:25:26.833Z",
+      "fetchedAt": "2026-08-27T22:14:19.197Z",
       "confirmed": true
     },
     {
@@ -4114,7 +4114,7 @@
         "kind": "maintained-wiki",
         "revision": 71078
       },
-      "fetchedAt": "2026-08-20T16:25:26.889Z",
+      "fetchedAt": "2026-08-27T22:14:20.062Z",
       "confirmed": true
     },
     {
@@ -4177,7 +4177,7 @@
         "kind": "maintained-wiki",
         "revision": 71079
       },
-      "fetchedAt": "2026-08-20T16:25:26.857Z",
+      "fetchedAt": "2026-08-27T22:14:19.871Z",
       "confirmed": true
     },
     {
@@ -4240,7 +4240,7 @@
         "kind": "maintained-wiki",
         "revision": 79429
       },
-      "fetchedAt": "2026-08-20T16:25:26.858Z",
+      "fetchedAt": "2026-08-27T22:14:19.739Z",
       "confirmed": true
     },
     {
@@ -4303,7 +4303,7 @@
         "kind": "maintained-wiki",
         "revision": 81222
       },
-      "fetchedAt": "2026-08-20T16:25:26.624Z",
+      "fetchedAt": "2026-08-27T22:14:18.991Z",
       "confirmed": true
     },
     {
@@ -4370,7 +4370,7 @@
         "kind": "maintained-wiki",
         "revision": 71084
       },
-      "fetchedAt": "2026-08-20T16:25:26.639Z",
+      "fetchedAt": "2026-08-27T22:14:19.836Z",
       "confirmed": true
     },
     {
@@ -4437,7 +4437,7 @@
         "kind": "maintained-wiki",
         "revision": 71085
       },
-      "fetchedAt": "2026-08-20T16:25:26.699Z",
+      "fetchedAt": "2026-08-27T22:14:18.407Z",
       "confirmed": true
     },
     {
@@ -4504,7 +4504,7 @@
         "kind": "maintained-wiki",
         "revision": 79437
       },
-      "fetchedAt": "2026-08-20T16:25:26.742Z",
+      "fetchedAt": "2026-08-27T22:14:19.883Z",
       "confirmed": true
     },
     {
@@ -4571,7 +4571,7 @@
         "kind": "maintained-wiki",
         "revision": 74766
       },
-      "fetchedAt": "2026-08-20T16:25:26.755Z",
+      "fetchedAt": "2026-08-27T22:14:19.720Z",
       "confirmed": true
     },
     {
@@ -4638,7 +4638,7 @@
         "kind": "maintained-wiki",
         "revision": 77561
       },
-      "fetchedAt": "2026-08-20T16:25:26.727Z",
+      "fetchedAt": "2026-08-27T22:14:19.627Z",
       "confirmed": true
     },
     {
@@ -4705,7 +4705,7 @@
         "kind": "maintained-wiki",
         "revision": 81227
       },
-      "fetchedAt": "2026-08-20T16:25:26.621Z",
+      "fetchedAt": "2026-08-27T22:14:19.452Z",
       "confirmed": true
     },
     {
@@ -4770,7 +4770,7 @@
         "kind": "maintained-wiki",
         "revision": 88519
       },
-      "fetchedAt": "2026-08-20T16:25:26.538Z",
+      "fetchedAt": "2026-08-27T22:14:18.142Z",
       "confirmed": true
     },
     {
@@ -4835,7 +4835,7 @@
         "kind": "maintained-wiki",
         "revision": 88528
       },
-      "fetchedAt": "2026-08-20T16:25:26.591Z",
+      "fetchedAt": "2026-08-27T22:14:18.710Z",
       "confirmed": true
     },
     {
@@ -4900,7 +4900,7 @@
         "kind": "maintained-wiki",
         "revision": 82769
       },
-      "fetchedAt": "2026-08-20T16:25:26.522Z",
+      "fetchedAt": "2026-08-27T22:14:17.877Z",
       "confirmed": true
     },
     {
@@ -4965,7 +4965,7 @@
         "kind": "maintained-wiki",
         "revision": 82797
       },
-      "fetchedAt": "2026-08-20T16:25:26.507Z",
+      "fetchedAt": "2026-08-27T22:14:18.281Z",
       "confirmed": true
     },
     {
@@ -5031,7 +5031,7 @@
         "kind": "maintained-wiki",
         "revision": 91530
       },
-      "fetchedAt": "2026-08-20T16:25:26.284Z",
+      "fetchedAt": "2026-08-27T22:14:17.395Z",
       "confirmed": true
     },
     {
@@ -5097,7 +5097,7 @@
         "kind": "maintained-wiki",
         "revision": 74765
       },
-      "fetchedAt": "2026-08-20T16:25:26.371Z",
+      "fetchedAt": "2026-08-27T22:14:17.527Z",
       "confirmed": true
     },
     {
@@ -5163,7 +5163,7 @@
         "kind": "maintained-wiki",
         "revision": 87338
       },
-      "fetchedAt": "2026-08-20T16:25:26.334Z",
+      "fetchedAt": "2026-08-27T22:14:18.414Z",
       "confirmed": true
     },
     {
@@ -5229,7 +5229,7 @@
         "kind": "maintained-wiki",
         "revision": 74767
       },
-      "fetchedAt": "2026-08-20T16:25:26.458Z",
+      "fetchedAt": "2026-08-27T22:14:18.392Z",
       "confirmed": true
     },
     {
@@ -5295,7 +5295,7 @@
         "kind": "maintained-wiki",
         "revision": 79445
       },
-      "fetchedAt": "2026-08-20T16:25:26.212Z",
+      "fetchedAt": "2026-08-27T22:14:17.030Z",
       "confirmed": true
     },
     {
@@ -5361,7 +5361,7 @@
         "kind": "maintained-wiki",
         "revision": 86011
       },
-      "fetchedAt": "2026-08-20T16:25:26.403Z",
+      "fetchedAt": "2026-08-27T22:14:17.040Z",
       "confirmed": true
     },
     {
@@ -5427,7 +5427,7 @@
         "kind": "maintained-wiki",
         "revision": 79447
       },
-      "fetchedAt": "2026-08-20T16:25:26.298Z",
+      "fetchedAt": "2026-08-27T22:14:18.145Z",
       "confirmed": true
     },
     {
@@ -5493,7 +5493,7 @@
         "kind": "maintained-wiki",
         "revision": 87081
       },
-      "fetchedAt": "2026-08-20T16:25:26.247Z",
+      "fetchedAt": "2026-08-27T22:14:16.625Z",
       "confirmed": true
     },
     {
@@ -5558,7 +5558,7 @@
         "kind": "maintained-wiki",
         "revision": 90248
       },
-      "fetchedAt": "2026-08-20T16:25:25.992Z",
+      "fetchedAt": "2026-08-27T22:14:16.478Z",
       "confirmed": true
     },
     {
@@ -5623,7 +5623,7 @@
         "kind": "maintained-wiki",
         "revision": 81316
       },
-      "fetchedAt": "2026-08-20T16:25:25.966Z",
+      "fetchedAt": "2026-08-27T22:14:16.124Z",
       "confirmed": true
     },
     {
@@ -5688,7 +5688,7 @@
         "kind": "maintained-wiki",
         "revision": 81317
       },
-      "fetchedAt": "2026-08-20T16:25:26.009Z",
+      "fetchedAt": "2026-08-27T22:14:16.707Z",
       "confirmed": true
     },
     {
@@ -5755,7 +5755,7 @@
         "kind": "maintained-wiki",
         "revision": 79440
       },
-      "fetchedAt": "2026-08-20T16:25:26.075Z",
+      "fetchedAt": "2026-08-27T22:14:17.157Z",
       "confirmed": true
     },
     {
@@ -5822,7 +5822,7 @@
         "kind": "maintained-wiki",
         "revision": 79438
       },
-      "fetchedAt": "2026-08-20T16:25:26.094Z",
+      "fetchedAt": "2026-08-27T22:14:16.119Z",
       "confirmed": true
     },
     {
@@ -5889,7 +5889,7 @@
         "kind": "maintained-wiki",
         "revision": 90250
       },
-      "fetchedAt": "2026-08-20T16:25:26.240Z",
+      "fetchedAt": "2026-08-27T22:14:17.909Z",
       "confirmed": true
     },
     {
@@ -5952,7 +5952,7 @@
         "kind": "maintained-wiki",
         "revision": 90249
       },
-      "fetchedAt": "2026-08-20T16:25:25.911Z",
+      "fetchedAt": "2026-08-27T22:14:15.809Z",
       "confirmed": true
     },
     {
@@ -6015,7 +6015,7 @@
         "kind": "maintained-wiki",
         "revision": 88517
       },
-      "fetchedAt": "2026-08-20T16:25:25.874Z",
+      "fetchedAt": "2026-08-27T22:14:15.796Z",
       "confirmed": true
     },
     {
@@ -6078,7 +6078,7 @@
         "kind": "maintained-wiki",
         "revision": 91009
       },
-      "fetchedAt": "2026-08-20T16:25:25.951Z",
+      "fetchedAt": "2026-08-27T22:14:16.739Z",
       "confirmed": true
     },
     {
@@ -6141,7 +6141,7 @@
         "kind": "maintained-wiki",
         "revision": 91010
       },
-      "fetchedAt": "2026-08-20T16:25:25.966Z",
+      "fetchedAt": "2026-08-27T22:14:16.342Z",
       "confirmed": true
     },
     {
@@ -6207,7 +6207,7 @@
         "kind": "maintained-wiki",
         "revision": 92140
       },
-      "fetchedAt": "2026-08-20T16:25:25.755Z",
+      "fetchedAt": "2026-08-27T22:14:15.012Z",
       "confirmed": true
     },
     {
@@ -6273,7 +6273,7 @@
         "kind": "maintained-wiki",
         "revision": 92138
       },
-      "fetchedAt": "2026-08-20T16:25:25.690Z",
+      "fetchedAt": "2026-08-27T22:14:14.886Z",
       "confirmed": true
     },
     {
@@ -6339,7 +6339,7 @@
         "kind": "maintained-wiki",
         "revision": 91005
       },
-      "fetchedAt": "2026-08-20T16:25:25.720Z",
+      "fetchedAt": "2026-08-27T22:14:15.856Z",
       "confirmed": true
     },
     {
@@ -6405,7 +6405,7 @@
         "kind": "maintained-wiki",
         "revision": 92414
       },
-      "fetchedAt": "2026-08-20T16:25:25.861Z",
+      "fetchedAt": "2026-08-27T22:14:16.244Z",
       "confirmed": true
     },
     {
@@ -6471,7 +6471,7 @@
         "kind": "maintained-wiki",
         "revision": 94204
       },
-      "fetchedAt": "2026-08-20T16:25:25.686Z",
+      "fetchedAt": "2026-08-27T22:14:14.832Z",
       "confirmed": true
     },
     {
@@ -6537,7 +6537,7 @@
         "kind": "maintained-wiki",
         "revision": 94422
       },
-      "fetchedAt": "2026-08-20T16:25:25.658Z",
+      "fetchedAt": "2026-08-27T22:14:14.648Z",
       "confirmed": true
     },
     {
@@ -6603,7 +6603,7 @@
         "kind": "maintained-wiki",
         "revision": 96080
       },
-      "fetchedAt": "2026-08-20T16:25:25.718Z",
+      "fetchedAt": "2026-08-27T22:14:15.433Z",
       "confirmed": true
     },
     {
@@ -6669,7 +6669,7 @@
         "kind": "maintained-wiki",
         "revision": 86078
       },
-      "fetchedAt": "2026-08-20T16:25:25.656Z",
+      "fetchedAt": "2026-08-27T22:14:15.690Z",
       "confirmed": true
     },
     {
@@ -6735,7 +6735,7 @@
         "kind": "maintained-wiki",
         "revision": 92139
       },
-      "fetchedAt": "2026-08-20T16:25:25.502Z",
+      "fetchedAt": "2026-08-27T22:14:13.289Z",
       "confirmed": true
     },
     {
@@ -6801,7 +6801,7 @@
         "kind": "maintained-wiki",
         "revision": 94203
       },
-      "fetchedAt": "2026-08-20T16:25:25.446Z",
+      "fetchedAt": "2026-08-27T22:14:14.096Z",
       "confirmed": true
     },
     {
@@ -6867,7 +6867,7 @@
         "kind": "maintained-wiki",
         "revision": 92412
       },
-      "fetchedAt": "2026-08-20T16:25:25.569Z",
+      "fetchedAt": "2026-08-27T22:14:14.928Z",
       "confirmed": true
     },
     {
@@ -6933,7 +6933,7 @@
         "kind": "maintained-wiki",
         "revision": 96077
       },
-      "fetchedAt": "2026-08-20T16:25:25.507Z",
+      "fetchedAt": "2026-08-27T22:14:15.022Z",
       "confirmed": true
     },
     {
@@ -6999,7 +6999,7 @@
         "kind": "maintained-wiki",
         "revision": 88521
       },
-      "fetchedAt": "2026-08-20T16:25:25.420Z",
+      "fetchedAt": "2026-08-27T22:14:13.569Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3737",
@@ -7070,7 +7070,7 @@
         "kind": "maintained-wiki",
         "revision": 94959
       },
-      "fetchedAt": "2026-08-20T16:25:25.338Z",
+      "fetchedAt": "2026-08-27T22:14:13.753Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3723",
@@ -7141,7 +7141,7 @@
         "kind": "maintained-wiki",
         "revision": 96448
       },
-      "fetchedAt": "2026-08-20T16:25:25.456Z",
+      "fetchedAt": "2026-08-27T22:14:14.253Z",
       "confirmed": true
     },
     {
@@ -7207,7 +7207,7 @@
         "kind": "maintained-wiki",
         "revision": 90992
       },
-      "fetchedAt": "2026-08-20T16:25:25.377Z",
+      "fetchedAt": "2026-08-27T22:14:14.093Z",
       "confirmed": true
     },
     {
@@ -7272,7 +7272,7 @@
         "kind": "maintained-wiki",
         "revision": 98116
       },
-      "fetchedAt": "2026-08-20T16:25:25.213Z",
+      "fetchedAt": "2026-08-27T22:14:12.961Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3860",
@@ -7342,7 +7342,7 @@
         "kind": "maintained-wiki",
         "revision": 88597
       },
-      "fetchedAt": "2026-08-20T16:25:25.159Z",
+      "fetchedAt": "2026-08-27T22:14:12.804Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3862",
@@ -7412,7 +7412,7 @@
         "kind": "maintained-wiki",
         "revision": 94205
       },
-      "fetchedAt": "2026-08-20T16:25:25.147Z",
+      "fetchedAt": "2026-08-27T22:14:12.870Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3858",
@@ -7484,7 +7484,7 @@
         "kind": "maintained-wiki",
         "revision": 88599
       },
-      "fetchedAt": "2026-08-20T16:25:25.204Z",
+      "fetchedAt": "2026-08-27T22:14:13.696Z",
       "confirmed": true
     },
     {
@@ -7551,7 +7551,7 @@
         "kind": "maintained-wiki",
         "revision": 96076
       },
-      "fetchedAt": "2026-08-20T16:25:25.420Z",
+      "fetchedAt": "2026-08-27T22:14:14.097Z",
       "confirmed": true
     },
     {
@@ -7618,7 +7618,7 @@
         "kind": "maintained-wiki",
         "revision": 93904
       },
-      "fetchedAt": "2026-08-20T16:25:25.240Z",
+      "fetchedAt": "2026-08-27T22:14:14.096Z",
       "confirmed": true
     },
     {
@@ -7681,7 +7681,7 @@
         "kind": "maintained-wiki",
         "revision": 92229
       },
-      "fetchedAt": "2026-08-20T16:25:24.977Z",
+      "fetchedAt": "2026-08-27T22:14:11.667Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4041",
@@ -7749,7 +7749,7 @@
         "kind": "maintained-wiki",
         "revision": 92137
       },
-      "fetchedAt": "2026-08-20T16:25:24.990Z",
+      "fetchedAt": "2026-08-27T22:14:11.687Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4009",
@@ -7817,7 +7817,7 @@
         "kind": "maintained-wiki",
         "revision": 92228
       },
-      "fetchedAt": "2026-08-20T16:25:24.977Z",
+      "fetchedAt": "2026-08-27T22:14:11.486Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4025",
@@ -7885,7 +7885,7 @@
         "kind": "maintained-wiki",
         "revision": 96081
       },
-      "fetchedAt": "2026-08-20T16:25:25.050Z",
+      "fetchedAt": "2026-08-27T22:14:12.868Z",
       "confirmed": true
     },
     {
@@ -7948,7 +7948,7 @@
         "kind": "maintained-wiki",
         "revision": 96082
       },
-      "fetchedAt": "2026-08-20T16:25:25.077Z",
+      "fetchedAt": "2026-08-27T22:14:12.761Z",
       "confirmed": true
     },
     {
@@ -8011,7 +8011,7 @@
         "kind": "maintained-wiki",
         "revision": 92231
       },
-      "fetchedAt": "2026-08-20T16:25:25.057Z",
+      "fetchedAt": "2026-08-27T22:14:12.445Z",
       "confirmed": true
     },
     {
@@ -8076,7 +8076,7 @@
         "kind": "maintained-wiki",
         "revision": 96497
       },
-      "fetchedAt": "2026-08-20T16:25:24.725Z",
+      "fetchedAt": "2026-08-27T22:14:10.800Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
@@ -8146,7 +8146,7 @@
         "kind": "maintained-wiki",
         "revision": 92283
       },
-      "fetchedAt": "2026-08-20T16:25:24.738Z",
+      "fetchedAt": "2026-08-27T22:14:10.644Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
@@ -8216,7 +8216,7 @@
         "kind": "maintained-wiki",
         "revision": 130699
       },
-      "fetchedAt": "2026-08-20T16:25:24.797Z",
+      "fetchedAt": "2026-08-27T22:14:11.152Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4196",
@@ -8288,7 +8288,7 @@
         "kind": "maintained-wiki",
         "revision": 135427
       },
-      "fetchedAt": "2026-08-20T16:25:24.786Z",
+      "fetchedAt": "2026-08-27T22:14:11.877Z",
       "confirmed": true
     },
     {
@@ -8355,7 +8355,7 @@
         "kind": "maintained-wiki",
         "revision": 92411
       },
-      "fetchedAt": "2026-08-20T16:25:24.839Z",
+      "fetchedAt": "2026-08-27T22:14:12.061Z",
       "confirmed": true
     },
     {
@@ -8422,7 +8422,7 @@
         "kind": "maintained-wiki",
         "revision": 92413
       },
-      "fetchedAt": "2026-08-20T16:25:24.878Z",
+      "fetchedAt": "2026-08-27T22:14:12.345Z",
       "confirmed": true
     },
     {
@@ -8488,7 +8488,7 @@
         "kind": "maintained-wiki",
         "revision": 95032
       },
-      "fetchedAt": "2026-08-20T16:25:24.618Z",
+      "fetchedAt": "2026-08-27T22:14:10.544Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4337",
@@ -8559,7 +8559,7 @@
         "kind": "maintained-wiki",
         "revision": 100757
       },
-      "fetchedAt": "2026-08-20T16:25:24.594Z",
+      "fetchedAt": "2026-08-27T22:14:10.718Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4321",
@@ -8630,7 +8630,7 @@
         "kind": "maintained-wiki",
         "revision": 94445
       },
-      "fetchedAt": "2026-08-20T16:25:24.748Z",
+      "fetchedAt": "2026-08-27T22:14:10.990Z",
       "confirmed": true
     },
     {
@@ -8696,7 +8696,7 @@
         "kind": "maintained-wiki",
         "revision": 94446
       },
-      "fetchedAt": "2026-08-20T16:25:24.689Z",
+      "fetchedAt": "2026-08-27T22:14:10.891Z",
       "confirmed": true
     },
     {
@@ -8762,7 +8762,7 @@
         "kind": "maintained-wiki",
         "revision": 95051
       },
-      "fetchedAt": "2026-08-20T16:25:24.461Z",
+      "fetchedAt": "2026-08-27T22:14:09.731Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:character:Featured Resonator |duration          = event:wanderer-knows-no-far-and-near-2026-03-19:2026-03-19t03-00-00-000z"
@@ -8831,7 +8831,7 @@
         "kind": "maintained-wiki",
         "revision": 95050
       },
-      "fetchedAt": "2026-08-20T16:25:24.509Z",
+      "fetchedAt": "2026-08-27T22:14:09.971Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:character:Featured Resonator |duration          = event:when-the-runes-glitter-2026-03-19:2026-03-19t03-00-00-000z"
@@ -8900,7 +8900,7 @@
         "kind": "maintained-wiki",
         "revision": 94442
       },
-      "fetchedAt": "2026-08-20T16:25:24.520Z",
+      "fetchedAt": "2026-08-27T22:14:10.238Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:weapon:Featured Weapon:absolute-pulsation-emerald-sentence-2026-03-19:permanent"
@@ -8969,7 +8969,7 @@
         "kind": "maintained-wiki",
         "revision": 94571
       },
-      "fetchedAt": "2026-08-20T16:25:24.553Z",
+      "fetchedAt": "2026-08-27T22:14:10.455Z",
       "confirmed": true,
       "legacyIds": [
         "wuwa:weapon:Featured Weapon:absolute-pulsation-solsworn-ciphers-2026-03-19:permanent"
@@ -9037,7 +9037,7 @@
         "kind": "maintained-wiki",
         "revision": 95889
       },
-      "fetchedAt": "2026-08-20T16:25:24.339Z",
+      "fetchedAt": "2026-08-27T22:14:09.689Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
@@ -9107,7 +9107,7 @@
         "kind": "maintained-wiki",
         "revision": 100750
       },
-      "fetchedAt": "2026-08-20T16:25:24.275Z",
+      "fetchedAt": "2026-08-27T22:14:08.820Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
@@ -9177,7 +9177,7 @@
         "kind": "maintained-wiki",
         "revision": 95890
       },
-      "fetchedAt": "2026-08-20T16:25:24.316Z",
+      "fetchedAt": "2026-08-27T22:14:09.572Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
@@ -9249,7 +9249,7 @@
         "kind": "maintained-wiki",
         "revision": 96079
       },
-      "fetchedAt": "2026-08-20T16:25:24.413Z",
+      "fetchedAt": "2026-08-27T22:14:09.898Z",
       "confirmed": true
     },
     {
@@ -9316,7 +9316,7 @@
         "kind": "maintained-wiki",
         "revision": 96075
       },
-      "fetchedAt": "2026-08-20T16:25:24.388Z",
+      "fetchedAt": "2026-08-27T22:14:09.649Z",
       "confirmed": true
     },
     {
@@ -9383,7 +9383,7 @@
         "kind": "maintained-wiki",
         "revision": 100767
       },
-      "fetchedAt": "2026-08-20T16:25:24.503Z",
+      "fetchedAt": "2026-08-27T22:14:09.803Z",
       "confirmed": true
     },
     {
@@ -9451,7 +9451,7 @@
         "kind": "official-latest",
         "revision": "4493"
       },
-      "fetchedAt": "2026-08-20T16:25:29.386Z",
+      "fetchedAt": "2026-08-27T22:14:29.317Z",
       "confirmed": true
     },
     {
@@ -9519,7 +9519,7 @@
         "kind": "official-latest",
         "revision": "4493"
       },
-      "fetchedAt": "2026-08-20T16:25:29.386Z",
+      "fetchedAt": "2026-08-27T22:14:29.317Z",
       "confirmed": true
     },
     {
@@ -9587,7 +9587,7 @@
         "kind": "official-latest",
         "revision": "4493"
       },
-      "fetchedAt": "2026-08-20T16:25:29.386Z",
+      "fetchedAt": "2026-08-27T22:14:29.317Z",
       "confirmed": true
     },
     {
@@ -9650,7 +9650,7 @@
         "kind": "maintained-wiki",
         "revision": 96435
       },
-      "fetchedAt": "2026-08-20T16:25:24.231Z",
+      "fetchedAt": "2026-08-27T22:14:08.777Z",
       "confirmed": true
     },
     {
@@ -9713,7 +9713,7 @@
         "kind": "maintained-wiki",
         "revision": 96437
       },
-      "fetchedAt": "2026-08-20T16:25:24.302Z",
+      "fetchedAt": "2026-08-27T22:14:08.742Z",
       "confirmed": true
     },
     {
@@ -9776,7 +9776,7 @@
         "kind": "maintained-wiki",
         "revision": 96436
       },
-      "fetchedAt": "2026-08-20T16:25:24.195Z",
+      "fetchedAt": "2026-08-27T22:14:09.331Z",
       "confirmed": true
     },
     {
@@ -9841,7 +9841,7 @@
         "kind": "maintained-wiki",
         "revision": 98112
       },
-      "fetchedAt": "2026-08-20T16:25:23.962Z",
+      "fetchedAt": "2026-08-27T22:14:08.517Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4712",
@@ -9911,7 +9911,7 @@
         "kind": "maintained-wiki",
         "revision": 98113
       },
-      "fetchedAt": "2026-08-20T16:25:23.990Z",
+      "fetchedAt": "2026-08-27T22:14:08.153Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4691",
@@ -9981,7 +9981,7 @@
         "kind": "maintained-wiki",
         "revision": 98114
       },
-      "fetchedAt": "2026-08-20T16:25:23.908Z",
+      "fetchedAt": "2026-08-27T22:14:08.148Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4691",
@@ -10053,7 +10053,7 @@
         "kind": "maintained-wiki",
         "revision": 98100
       },
-      "fetchedAt": "2026-08-20T16:25:23.970Z",
+      "fetchedAt": "2026-08-27T22:14:08.512Z",
       "confirmed": true
     },
     {
@@ -10120,7 +10120,7 @@
         "kind": "maintained-wiki",
         "revision": 98108
       },
-      "fetchedAt": "2026-08-20T16:25:24.050Z",
+      "fetchedAt": "2026-08-27T22:14:08.693Z",
       "confirmed": true
     },
     {
@@ -10187,7 +10187,7 @@
         "kind": "maintained-wiki",
         "revision": 98109
       },
-      "fetchedAt": "2026-08-20T16:25:24.037Z",
+      "fetchedAt": "2026-08-27T22:14:08.532Z",
       "confirmed": true
     },
     {
@@ -10255,7 +10255,7 @@
         "kind": "official-latest",
         "revision": "4691"
       },
-      "fetchedAt": "2026-08-20T16:25:29.385Z",
+      "fetchedAt": "2026-08-27T22:14:29.317Z",
       "confirmed": true
     },
     {
@@ -10323,7 +10323,7 @@
         "kind": "official-latest",
         "revision": "4691"
       },
-      "fetchedAt": "2026-08-20T16:25:29.385Z",
+      "fetchedAt": "2026-08-27T22:14:29.317Z",
       "confirmed": true
     },
     {
@@ -10391,7 +10391,7 @@
         "kind": "official-latest",
         "revision": "4691"
       },
-      "fetchedAt": "2026-08-20T16:25:29.385Z",
+      "fetchedAt": "2026-08-27T22:14:29.317Z",
       "confirmed": true
     },
     {
@@ -10454,7 +10454,7 @@
         "kind": "maintained-wiki",
         "revision": 98103
       },
-      "fetchedAt": "2026-08-20T16:25:23.812Z",
+      "fetchedAt": "2026-08-27T22:14:07.688Z",
       "confirmed": true
     },
     {
@@ -10517,7 +10517,7 @@
         "kind": "maintained-wiki",
         "revision": 98104
       },
-      "fetchedAt": "2026-08-20T16:25:23.862Z",
+      "fetchedAt": "2026-08-27T22:14:08.247Z",
       "confirmed": true
     },
     {
@@ -10582,7 +10582,7 @@
         "kind": "maintained-wiki",
         "revision": 103329
       },
-      "fetchedAt": "2026-08-20T16:25:23.684Z",
+      "fetchedAt": "2026-08-27T22:14:07.426Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4885",
@@ -10652,7 +10652,7 @@
         "kind": "maintained-wiki",
         "revision": 103332
       },
-      "fetchedAt": "2026-08-20T16:25:23.837Z",
+      "fetchedAt": "2026-08-27T22:14:08.483Z",
       "confirmed": true
     },
     {
@@ -10717,7 +10717,7 @@
         "kind": "maintained-wiki",
         "revision": 103331
       },
-      "fetchedAt": "2026-08-20T16:25:23.719Z",
+      "fetchedAt": "2026-08-27T22:14:07.330Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4916",
@@ -10787,7 +10787,7 @@
         "kind": "maintained-wiki",
         "revision": 103333
       },
-      "fetchedAt": "2026-08-20T16:25:23.636Z",
+      "fetchedAt": "2026-08-27T22:14:07.387Z",
       "confirmed": true
     },
     {
@@ -10855,7 +10855,7 @@
         "kind": "official-latest",
         "revision": "4916"
       },
-      "fetchedAt": "2026-08-20T16:25:29.384Z",
+      "fetchedAt": "2026-08-27T22:14:29.316Z",
       "confirmed": true
     },
     {
@@ -10920,7 +10920,7 @@
         "kind": "maintained-wiki",
         "revision": 130705
       },
-      "fetchedAt": "2026-08-20T16:25:23.528Z",
+      "fetchedAt": "2026-08-27T22:14:06.799Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
@@ -10990,7 +10990,7 @@
         "kind": "maintained-wiki",
         "revision": 130746
       },
-      "fetchedAt": "2026-08-20T16:25:23.379Z",
+      "fetchedAt": "2026-08-27T22:14:06.659Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5047",
@@ -11060,7 +11060,7 @@
         "kind": "maintained-wiki",
         "revision": 130706
       },
-      "fetchedAt": "2026-08-20T16:25:23.509Z",
+      "fetchedAt": "2026-08-27T22:14:06.653Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
@@ -11132,7 +11132,7 @@
         "kind": "maintained-wiki",
         "revision": 103336
       },
-      "fetchedAt": "2026-08-20T16:25:23.599Z",
+      "fetchedAt": "2026-08-27T22:14:06.857Z",
       "confirmed": true
     },
     {
@@ -11199,7 +11199,7 @@
         "kind": "maintained-wiki",
         "revision": 103339
       },
-      "fetchedAt": "2026-08-20T16:25:23.679Z",
+      "fetchedAt": "2026-08-27T22:14:06.876Z",
       "confirmed": true
     },
     {
@@ -11266,7 +11266,7 @@
         "kind": "maintained-wiki",
         "revision": 103337
       },
-      "fetchedAt": "2026-08-20T16:25:23.598Z",
+      "fetchedAt": "2026-08-27T22:14:07.348Z",
       "confirmed": true
     },
     {
@@ -11332,7 +11332,7 @@
         "kind": "maintained-wiki",
         "revision": 137039
       },
-      "fetchedAt": "2026-08-20T16:25:23.381Z",
+      "fetchedAt": "2026-08-27T22:14:06.396Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5227",
@@ -11403,7 +11403,7 @@
         "kind": "maintained-wiki",
         "revision": 137040
       },
-      "fetchedAt": "2026-08-20T16:25:23.404Z",
+      "fetchedAt": "2026-08-27T22:14:06.437Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220",
@@ -11474,7 +11474,7 @@
         "kind": "maintained-wiki",
         "revision": 137042
       },
-      "fetchedAt": "2026-08-20T16:25:23.414Z",
+      "fetchedAt": "2026-08-27T22:14:05.881Z",
       "confirmed": true
     },
     {
@@ -11540,7 +11540,7 @@
         "kind": "maintained-wiki",
         "revision": 137041
       },
-      "fetchedAt": "2026-08-20T16:25:23.452Z",
+      "fetchedAt": "2026-08-27T22:14:06.571Z",
       "confirmed": true
     },
     {
@@ -11608,7 +11608,7 @@
         "kind": "official-latest",
         "revision": "5220"
       },
-      "fetchedAt": "2026-08-20T16:25:29.383Z",
+      "fetchedAt": "2026-08-27T22:14:29.315Z",
       "confirmed": true
     },
     {
@@ -11665,13 +11665,16 @@
           "primary": false
         }
       ],
-      "pairedBannerIds": [],
+      "pairedBannerIds": [
+        "wuwa:weapon:Featured Weapon:absolute-pulsation-forged-dwarf-star-2026-08-20:2026-08-20t02-00-00-000z",
+        "wuwa:weapon:Featured Weapon:absolute-pulsation-glint-of-clouds-2026-08-20:2026-08-20t02-00-00-000z"
+      ],
       "source": {
         "url": "https://wutheringwaves.fandom.com/wiki/False_Promise_for_Tomorrow/2026-08-20",
         "kind": "maintained-wiki",
         "revision": 137047
       },
-      "fetchedAt": "2026-08-20T16:25:23.317Z",
+      "fetchedAt": "2026-08-27T22:14:05.796Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5318",
@@ -11733,19 +11736,154 @@
           "primary": false
         }
       ],
-      "pairedBannerIds": [],
+      "pairedBannerIds": [
+        "wuwa:weapon:Featured Weapon:absolute-pulsation-forged-dwarf-star-2026-08-20:2026-08-20t02-00-00-000z",
+        "wuwa:weapon:Featured Weapon:absolute-pulsation-glint-of-clouds-2026-08-20:2026-08-20t02-00-00-000z"
+      ],
       "source": {
         "url": "https://wutheringwaves.fandom.com/wiki/Wind_of_Transcendence/2026-08-20",
         "kind": "maintained-wiki",
         "revision": 137046
       },
-      "fetchedAt": "2026-08-20T16:25:23.378Z",
+      "fetchedAt": "2026-08-27T22:14:05.931Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5331",
         "kind": "official-latest",
         "revision": "5331"
       }
+    },
+    {
+      "id": "wuwa:weapon:Featured Weapon:absolute-pulsation-forged-dwarf-star-2026-08-20:2026-08-20t02-00-00-000z",
+      "game": "wuwa",
+      "bannerType": "weapon",
+      "category": "Featured Weapon",
+      "name": "Absolute Pulsation: Forged Dwarf Star",
+      "version": "3.6",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-08-20T02:00:00.000Z",
+          "timezone": "+08:00",
+          "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Absolute_Pulsation%3A_Forged_Dwarf_Star/2026-08-20",
+          "end": "2026-09-10T01:59:00.000Z"
+        },
+        "europe": {
+          "start": "2026-08-20T09:00:00.000Z",
+          "timezone": "+01:00",
+          "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Reset",
+          "end": "2026-09-10T08:59:00.000Z"
+        },
+        "america": {
+          "start": "2026-08-20T15:00:00.000Z",
+          "timezone": "-05:00",
+          "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Reset",
+          "end": "2026-09-10T14:59:00.000Z"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Forged Dwarf Star",
+          "rarity": 5,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Commando of Conviction",
+          "rarity": 4,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Fusion Accretion",
+          "rarity": 4,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "wuwa:character:Featured Resonator:false-promise-for-tomorrow-2026-08-20:2026-08-20t02-00-00-000z",
+        "wuwa:character:Featured Resonator:wind-of-transcendence-2026-08-20:2026-08-20t02-00-00-000z"
+      ],
+      "source": {
+        "url": "https://wutheringwaves.fandom.com/wiki/Absolute_Pulsation%3A_Forged_Dwarf_Star/2026-08-20",
+        "kind": "maintained-wiki",
+        "revision": 137241
+      },
+      "fetchedAt": "2026-08-27T22:14:05.798Z",
+      "confirmed": true
+    },
+    {
+      "id": "wuwa:weapon:Featured Weapon:absolute-pulsation-glint-of-clouds-2026-08-20:2026-08-20t02-00-00-000z",
+      "game": "wuwa",
+      "bannerType": "weapon",
+      "category": "Featured Weapon",
+      "name": "Absolute Pulsation: Glint of Clouds",
+      "version": "3.6",
+      "windowsByRegion": {
+        "asia": {
+          "start": "2026-08-20T02:00:00.000Z",
+          "timezone": "+08:00",
+          "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Absolute_Pulsation%3A_Glint_of_Clouds/2026-08-20",
+          "end": "2026-09-10T01:59:00.000Z"
+        },
+        "europe": {
+          "start": "2026-08-20T09:00:00.000Z",
+          "timezone": "+01:00",
+          "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Reset",
+          "end": "2026-09-10T08:59:00.000Z"
+        },
+        "america": {
+          "start": "2026-08-20T15:00:00.000Z",
+          "timezone": "-05:00",
+          "sourceUrl": "https://wutheringwaves.fandom.com/wiki/Reset",
+          "end": "2026-09-10T14:59:00.000Z"
+        }
+      },
+      "permanent": false,
+      "featured": [
+        {
+          "entityType": "weapon",
+          "name": "Glint of Clouds",
+          "rarity": 5,
+          "primary": true
+        },
+        {
+          "entityType": "weapon",
+          "name": "Commando of Conviction",
+          "rarity": 4,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Fusion Accretion",
+          "rarity": 4,
+          "primary": false
+        },
+        {
+          "entityType": "weapon",
+          "name": "Lunar Cutter",
+          "rarity": 4,
+          "primary": false
+        }
+      ],
+      "pairedBannerIds": [
+        "wuwa:character:Featured Resonator:false-promise-for-tomorrow-2026-08-20:2026-08-20t02-00-00-000z",
+        "wuwa:character:Featured Resonator:wind-of-transcendence-2026-08-20:2026-08-20t02-00-00-000z"
+      ],
+      "source": {
+        "url": "https://wutheringwaves.fandom.com/wiki/Absolute_Pulsation%3A_Glint_of_Clouds/2026-08-20",
+        "kind": "maintained-wiki",
+        "revision": 137240
+      },
+      "fetchedAt": "2026-08-27T22:14:05.875Z",
+      "confirmed": true
     }
   ]
 }

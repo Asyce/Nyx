@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-27T19:47:05.507Z",
+  "generatedAt": "2026-08-27T22:34:19.006Z",
   "codes": {
     "updated": "2026-08-27T02:25:47.629Z",
     "maxAgeDays": 28,
@@ -812,15 +812,14 @@ var NYX_DB = {
         },
         "next": {
           "phase": "7.0 Phase 2",
-          "teased": false,
           "start": "2026-09-01T10:00:00.000Z",
-          "end": "2026-09-22T10:00:00.000Z",
+          "end": "2026-09-22T06:59:00.000Z",
           "characters": [
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
-              "iconZoom": true,
+              "iconFallback": null,
+              "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
               "rarity": 5,
@@ -828,10 +827,43 @@ var NYX_DB = {
               "debutAt": "2025-07-30"
             },
             {
+              "name": "Aino",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Aino.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Aino.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2025-09-30"
+            },
+            {
+              "name": "Iansan",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Iansan_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Iansan.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Iansan.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2025-03-26"
+            },
+            {
+              "name": "Lan Yan",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lanyan_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lanyan.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Lanyan.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2025-01-21"
+            },
+            {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
-              "iconZoom": true,
+              "iconFallback": null,
+              "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
               "rarity": 5,
@@ -1155,7 +1187,7 @@ var NYX_DB = {
         "current": {
           "phase": "3.1 Phase 2",
           "start": "2026-07-29T03:00:00.000Z",
-          "end": "2026-09-08T06:59:59.000Z",
+          "end": "2026-09-08T19:59:59.000Z",
           "characters": [
             {
               "name": "Remielle",
@@ -1233,6 +1265,28 @@ var NYX_DB = {
               "rarity": "S",
               "debut": true,
               "debutAt": "2026-08-19"
+            },
+            {
+              "name": "Soukaku",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole17.webp",
+              "namecard": null,
+              "rarity": "A",
+              "debut": false,
+              "debutAt": "2024-07-04"
+            },
+            {
+              "name": "Luciana de Montefio",
+              "icon": null,
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": null,
+              "namecard": null,
+              "rarity": "A",
+              "debut": false,
+              "debutAt": "2024-10-16"
             }
           ],
           "subBanners": []
@@ -6441,15 +6495,14 @@ var NYX_DB = {
         },
         "next": {
           "phase": "7.0 Phase 2",
-          "teased": false,
           "start": "2026-09-01T10:00:00.000Z",
-          "end": "2026-09-22T10:00:00.000Z",
+          "end": "2026-09-22T06:59:00.000Z",
           "characters": [
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
-              "iconZoom": true,
+              "iconFallback": null,
+              "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
               "rarity": 5,
@@ -6457,10 +6510,43 @@ var NYX_DB = {
               "debutAt": "2025-07-30"
             },
             {
+              "name": "Aino",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Aino_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Aino.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Aino.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2025-09-30"
+            },
+            {
+              "name": "Iansan",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Iansan_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Iansan.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Iansan.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2025-03-26"
+            },
+            {
+              "name": "Lan Yan",
+              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Lanyan_Circle.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Lanyan.webp",
+              "namecard": "../../Database/GenshinWiki/namecards/Lanyan.png",
+              "rarity": 4,
+              "debut": false,
+              "debutAt": "2025-01-21"
+            },
+            {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
-              "iconZoom": true,
+              "iconFallback": null,
+              "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
               "rarity": 5,
@@ -173387,7 +173473,7 @@ var NYX_DB = {
           "id": "hsr-aventurine-waveflair",
           "name": "Aventurine Waveflair",
           "aliases": [],
-          "title": "Over the Glided Tides",
+          "title": "Over the Gilded Tides",
           "rarity": 5,
           "element": "Quantum",
           "role": "Elation",
@@ -173395,7 +173481,7 @@ var NYX_DB = {
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
           "facts": {
             "camp": "Interastral Peace Corporation",
-            "title": "Over the Glided Tides"
+            "title": "Over the Gilded Tides"
           },
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
           "overviewArtPool": [
@@ -179126,7 +179212,7 @@ var NYX_DB = {
         "current": {
           "phase": "3.1 Phase 2",
           "start": "2026-07-29T03:00:00.000Z",
-          "end": "2026-09-08T06:59:59.000Z",
+          "end": "2026-09-08T19:59:59.000Z",
           "characters": [
             {
               "name": "Remielle",
@@ -179204,6 +179290,28 @@ var NYX_DB = {
               "rarity": "S",
               "debut": true,
               "debutAt": "2026-08-19"
+            },
+            {
+              "name": "Soukaku",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle17.webp",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole17.webp",
+              "namecard": null,
+              "rarity": "A",
+              "debut": false,
+              "debutAt": "2024-07-04"
+            },
+            {
+              "name": "Luciana de Montefio",
+              "icon": null,
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": null,
+              "namecard": null,
+              "rarity": "A",
+              "debut": false,
+              "debutAt": "2024-10-16"
             }
           ],
           "subBanners": []

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "ae",
-  "generatedAt": "2026-08-11T02:50:29.337Z",
+  "generatedAt": "2026-08-27T22:14:03.186Z",
   "records": [
     {
       "id": "ae:character:Headhunting:expunger-of-sin:2026-06-26t04-00-00-000z",
@@ -63,7 +63,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.149Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/6175?lang=en-us&code=arknights_endfield_official",
@@ -139,7 +139,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.967Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/7024?lang=en-us&code=arknights_endfield_official",
@@ -210,7 +210,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.149Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/0759?lang=en-us&code=arknights_endfield_official",
@@ -269,7 +269,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.149Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/3831?lang=en-us&code=arknights_endfield_official",
@@ -326,7 +326,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
@@ -387,7 +387,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.967Z",
       "confirmed": false
     },
     {
@@ -450,7 +450,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.149Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/2656?lang=en-us&code=arknights_endfield_official",
@@ -517,7 +517,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/1338?lang=en-us&code=arknights_endfield_official",
@@ -585,7 +585,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.967Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/3847?lang=en-us&code=arknights_endfield_official",
@@ -644,7 +644,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.967Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
@@ -713,7 +713,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.149Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/9579?lang=en-us&code=arknights_endfield_official",
@@ -771,7 +771,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.966Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/3843?lang=en-us&code=arknights_endfield_official",
@@ -833,7 +833,7 @@
         "kind": "maintained-wiki",
         "revision": 59966
       },
-      "fetchedAt": "2026-08-11T02:50:30.150Z",
+      "fetchedAt": "2026-08-27T22:14:03.967Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/3831?lang=en-us&code=arknights_endfield_official",
@@ -851,6 +851,7 @@
       "windowsByRegion": {
         "asia": {
           "start": "2026-08-09T04:00:00.000Z",
+          "end": "2026-11-07T21:59:59.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
         }
@@ -906,9 +907,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/9564?lang=en-us&code=arknights_endfield_official",
@@ -981,9 +982,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5213?lang=en-us&code=arknights_endfield_official",
@@ -1067,9 +1068,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/1321?lang=en-us&code=arknights_endfield_official",
@@ -1142,9 +1143,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5212?lang=en-us&code=arknights_endfield_official",
@@ -1218,9 +1219,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/0754?lang=en-us&code=arknights_endfield_official",
@@ -1293,9 +1294,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/8909?lang=en-us&code=arknights_endfield_official",
@@ -1313,6 +1314,7 @@
       "windowsByRegion": {
         "asia": {
           "start": "2026-07-16T04:00:00.000Z",
+          "end": "2026-09-29T21:59:59.000Z",
           "timezone": "UTC+08:00",
           "sourceUrl": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026"
         }
@@ -1368,9 +1370,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/6174?lang=en-us&code=arknights_endfield_official",
@@ -1455,9 +1457,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/4492?lang=en-us&code=arknights_endfield_official",
@@ -1532,9 +1534,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/2660?lang=en-us&code=arknights_endfield_official",
@@ -1619,9 +1621,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/2669?lang=en-us&code=arknights_endfield_official",
@@ -1706,9 +1708,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5216?lang=en-us&code=arknights_endfield_official",
@@ -1793,9 +1795,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true,
       "officialSource": {
         "url": "https://web-news.gryphline.com/api/bulletin/5210?lang=en-us&code=arknights_endfield_official",
@@ -1877,9 +1879,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true
     },
     {
@@ -1955,9 +1957,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true
     },
     {
@@ -2033,9 +2035,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true
     },
     {
@@ -2111,9 +2113,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true
     },
     {
@@ -2189,9 +2191,9 @@
       "source": {
         "url": "https://endfield.wiki.gg/wiki/Arsenal_Exchange/Issues/2026",
         "kind": "maintained-wiki",
-        "revision": 59792
+        "revision": 61145
       },
-      "fetchedAt": "2026-08-11T02:50:30.343Z",
+      "fetchedAt": "2026-08-27T22:14:04.188Z",
       "confirmed": true
     }
   ]

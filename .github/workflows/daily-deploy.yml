@@ -179,7 +179,8 @@ jobs:
               exit 1
             fi
             git fetch origin main
-            git switch --detach origin/main
+            git switch --discard-changes --detach origin/main
+            git clean -fdX -- Site/dist Site/src/data/generated .deploy
             git lfs checkout || true
             if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
               git lfs pull
@@ -248,17 +249,14 @@ jobs:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
         run: |
-          for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
-              echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-            if [ "$attempt" -eq 3 ]; then
-              echo "::error::main changed during all three verified push attempts"
-              exit 1
-            fi
+          if git push origin HEAD:main; then
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          for attempt in 2 3; do
             git fetch origin main
-            git switch --detach origin/main
+            git switch --discard-changes --detach origin/main
+            git clean -fdX -- Site/dist Site/src/data/generated .deploy
             git lfs checkout || true
             if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database >/dev/null; then
               git lfs pull
@@ -270,6 +268,11 @@ jobs:
               git commit -m "chore(data): refresh retry launcher snapshot [skip ci]"
             fi
             launcher_sha="$(git rev-parse HEAD)"
+            (cd Site && PENGO_DEPLOY_COMMIT="$launcher_sha" npm run build:deploy && npm run smoke:deploy)
+            if ! git push origin HEAD:main; then
+              echo "main changed while pushing rebuilt launcher snapshot (attempt $attempt)"
+              continue
+            fi
             if [ "$PENGO_DATABASE_ASSET_MODE" != "local" ]; then
               (cd Site && PENGO_DEPLOY_COMMIT="$launcher_sha" npm run sync:database-assets:r2 -- --apply)
               (cd Site && npm run generate:data && npm run refresh:launcher)
@@ -281,7 +284,13 @@ jobs:
             fi
             sha="$(git rev-parse HEAD)"
             (cd Site && PENGO_DEPLOY_COMMIT="$sha" npm run build:deploy && npm run smoke:deploy)
+            if git push origin HEAD:main; then
+              echo "sha=$sha" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
           done
+          echo "::error::main changed during all three verified push attempts"
+          exit 1
 
       - name: Deploy to Cloudflare
         if: ${{ steps.deployment_snapshot.outputs.fresh == 'true' && env.CF_API_TOKEN != '' }}

@@ -1,6 +1,6 @@
 {
   "provider": "Fandom",
-  "generatedAt": "2026-08-16T05:52:40.279Z",
+  "generatedAt": "2026-08-27T22:26:53.195Z",
   "note": "Character subtitle data is scraped from each game wiki. Genshin and Wuthering Waves use infobox title, ZZZ uses Namecard names, and Honkai: Star Rail uses How to Obtain with exclusive light cone fallback. Endfield uses class in the site generator because its wiki does not expose character titles.",
   "games": {
     "gi": {
@@ -1718,7 +1718,7 @@
       "name": "Honkai: Star Rail",
       "wiki": "Honkai: Star Rail Wiki",
       "api": "https://honkai-star-rail.fandom.com/api.php",
-      "generatedAt": "2026-08-16T05:52:40.279Z",
+      "generatedAt": "2026-08-27T22:26:53.195Z",
       "count": 93,
       "entries": [
         {
@@ -1733,7 +1733,7 @@
           "requestedTitle": "Acheron",
           "url": "https://honkai-star-rail.fandom.com/wiki/Acheron",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1747,7 +1747,7 @@
           "requestedTitle": "Aglaea",
           "url": "https://honkai-star-rail.fandom.com/wiki/Aglaea",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1761,7 +1761,7 @@
           "requestedTitle": "Anaxa",
           "url": "https://honkai-star-rail.fandom.com/wiki/Anaxa",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1775,7 +1775,7 @@
           "requestedTitle": "Archer",
           "url": "https://honkai-star-rail.fandom.com/wiki/Archer",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1789,7 +1789,7 @@
           "requestedTitle": "Argenti",
           "url": "https://honkai-star-rail.fandom.com/wiki/Argenti",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1803,7 +1803,7 @@
           "requestedTitle": "Arlan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Arlan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1817,7 +1817,7 @@
           "requestedTitle": "Ashveil",
           "url": "https://honkai-star-rail.fandom.com/wiki/Ashveil",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1831,7 +1831,7 @@
           "requestedTitle": "Asta",
           "url": "https://honkai-star-rail.fandom.com/wiki/Asta",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1845,21 +1845,21 @@
           "requestedTitle": "Aventurine",
           "url": "https://honkai-star-rail.fandom.com/wiki/Aventurine",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
           "name": "Aventurine Waveflair",
           "key": "aventurinewaveflair",
-          "title": "Over the Glided Tides",
-          "rawTitle": "[[Over the Glided Tides]]",
+          "title": "Over the Gilded Tides",
+          "rawTitle": "[[Over the Gilded Tides]]",
           "sourceField": "how_to_obtain",
           "status": "ok",
           "pageTitle": "Aventurine • Waveflair",
           "requestedTitle": "Aventurine Waveflair",
           "url": "https://honkai-star-rail.fandom.com/wiki/Aventurine_%E2%80%A2_Waveflair",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1873,7 +1873,7 @@
           "requestedTitle": "Bailu",
           "url": "https://honkai-star-rail.fandom.com/wiki/Bailu",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1887,7 +1887,7 @@
           "requestedTitle": "Black Swan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Black_Swan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1901,7 +1901,7 @@
           "requestedTitle": "Blade",
           "url": "https://honkai-star-rail.fandom.com/wiki/Blade",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1915,7 +1915,7 @@
           "requestedTitle": "Boothill",
           "url": "https://honkai-star-rail.fandom.com/wiki/Boothill",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1929,7 +1929,7 @@
           "requestedTitle": "Bronya",
           "url": "https://honkai-star-rail.fandom.com/wiki/Bronya",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1943,7 +1943,7 @@
           "requestedTitle": "Castorice",
           "url": "https://honkai-star-rail.fandom.com/wiki/Castorice",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1957,7 +1957,7 @@
           "requestedTitle": "Cerydra",
           "url": "https://honkai-star-rail.fandom.com/wiki/Cerydra",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1971,7 +1971,7 @@
           "requestedTitle": "Cipher",
           "url": "https://honkai-star-rail.fandom.com/wiki/Cipher",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1985,7 +1985,7 @@
           "requestedTitle": "Clara",
           "url": "https://honkai-star-rail.fandom.com/wiki/Clara",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -1999,7 +1999,7 @@
           "requestedTitle": "Cyrene",
           "url": "https://honkai-star-rail.fandom.com/wiki/Cyrene",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2013,7 +2013,7 @@
           "requestedTitle": "Dan Heng",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2027,7 +2027,7 @@
           "requestedTitle": "Dan Heng • Imbibitor Lunae",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng_%E2%80%A2_Imbibitor_Lunae",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2041,7 +2041,7 @@
           "requestedTitle": "Dan Heng • Permansor Terrae",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dan_Heng_%E2%80%A2_Permansor_Terrae",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2055,7 +2055,7 @@
           "requestedTitle": "Dr. Ratio",
           "url": "https://honkai-star-rail.fandom.com/wiki/Dr._Ratio",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2069,7 +2069,7 @@
           "requestedTitle": "Evanescia",
           "url": "https://honkai-star-rail.fandom.com/wiki/Evanescia",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2083,7 +2083,7 @@
           "requestedTitle": "Feixiao",
           "url": "https://honkai-star-rail.fandom.com/wiki/Feixiao",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2097,7 +2097,7 @@
           "requestedTitle": "Firefly",
           "url": "https://honkai-star-rail.fandom.com/wiki/Firefly",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2111,7 +2111,7 @@
           "requestedTitle": "Fu Xuan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Fu_Xuan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2125,7 +2125,7 @@
           "requestedTitle": "Gallagher",
           "url": "https://honkai-star-rail.fandom.com/wiki/Gallagher",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2139,7 +2139,7 @@
           "requestedTitle": "Gepard",
           "url": "https://honkai-star-rail.fandom.com/wiki/Gepard",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2153,7 +2153,7 @@
           "requestedTitle": "Gilgamesh",
           "url": "https://honkai-star-rail.fandom.com/wiki/Gilgamesh",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2167,7 +2167,7 @@
           "requestedTitle": "Guinaifen",
           "url": "https://honkai-star-rail.fandom.com/wiki/Guinaifen",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2181,7 +2181,7 @@
           "requestedTitle": "Hanya",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hanya",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2195,7 +2195,7 @@
           "requestedTitle": "Herta",
           "url": "https://honkai-star-rail.fandom.com/wiki/Herta",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2209,7 +2209,7 @@
           "requestedTitle": "Himeko",
           "url": "https://honkai-star-rail.fandom.com/wiki/Himeko",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2223,7 +2223,7 @@
           "requestedTitle": "Himeko Nova",
           "url": "https://honkai-star-rail.fandom.com/wiki/Himeko_%E2%80%A2_Nova",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2237,7 +2237,7 @@
           "requestedTitle": "Hook",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hook",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2251,7 +2251,7 @@
           "requestedTitle": "Huohuo",
           "url": "https://honkai-star-rail.fandom.com/wiki/Huohuo",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2265,7 +2265,7 @@
           "requestedTitle": "Hyacine",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hyacine",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2279,7 +2279,7 @@
           "requestedTitle": "Hysilens",
           "url": "https://honkai-star-rail.fandom.com/wiki/Hysilens",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2293,7 +2293,7 @@
           "requestedTitle": "Jade",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jade",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2307,7 +2307,7 @@
           "requestedTitle": "Jiaoqiu",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jiaoqiu",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2321,7 +2321,7 @@
           "requestedTitle": "Jing Yuan",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jing_Yuan",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2335,7 +2335,7 @@
           "requestedTitle": "Jingliu",
           "url": "https://honkai-star-rail.fandom.com/wiki/Jingliu",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2349,7 +2349,7 @@
           "requestedTitle": "Kafka",
           "url": "https://honkai-star-rail.fandom.com/wiki/Kafka",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2363,7 +2363,7 @@
           "requestedTitle": "Lingsha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Lingsha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2377,7 +2377,7 @@
           "requestedTitle": "Luka",
           "url": "https://honkai-star-rail.fandom.com/wiki/Luka",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2391,7 +2391,7 @@
           "requestedTitle": "Luocha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Luocha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2405,7 +2405,7 @@
           "requestedTitle": "Lynx",
           "url": "https://honkai-star-rail.fandom.com/wiki/Lynx",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2419,7 +2419,7 @@
           "requestedTitle": "March 7th",
           "url": "https://honkai-star-rail.fandom.com/wiki/March_7th",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2433,7 +2433,7 @@
           "requestedTitle": "Evernight",
           "url": "https://honkai-star-rail.fandom.com/wiki/Evernight",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2447,7 +2447,7 @@
           "requestedTitle": "March 7th/The Hunt",
           "url": "https://honkai-star-rail.fandom.com/wiki/March_7th%2FThe_Hunt",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2461,7 +2461,7 @@
           "requestedTitle": "Misha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Misha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2475,7 +2475,7 @@
           "requestedTitle": "Mortenax Blade",
           "url": "https://honkai-star-rail.fandom.com/wiki/Mortenax_Blade",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2489,7 +2489,7 @@
           "requestedTitle": "Moze",
           "url": "https://honkai-star-rail.fandom.com/wiki/Moze",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2503,7 +2503,7 @@
           "requestedTitle": "Mydei",
           "url": "https://honkai-star-rail.fandom.com/wiki/Mydei",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2517,7 +2517,7 @@
           "requestedTitle": "Natasha",
           "url": "https://honkai-star-rail.fandom.com/wiki/Natasha",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2531,7 +2531,7 @@
           "requestedTitle": "Pearl",
           "url": "https://honkai-star-rail.fandom.com/wiki/Pearl",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2545,7 +2545,7 @@
           "requestedTitle": "Pela",
           "url": "https://honkai-star-rail.fandom.com/wiki/Pela",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2559,7 +2559,7 @@
           "requestedTitle": "Phainon",
           "url": "https://honkai-star-rail.fandom.com/wiki/Phainon",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2573,7 +2573,7 @@
           "requestedTitle": "Qingque",
           "url": "https://honkai-star-rail.fandom.com/wiki/Qingque",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2587,7 +2587,7 @@
           "requestedTitle": "Rappa",
           "url": "https://honkai-star-rail.fandom.com/wiki/Rappa",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2601,7 +2601,7 @@
           "requestedTitle": "Rin Tohsaka",
           "url": "https://honkai-star-rail.fandom.com/wiki/Rin_Tohsaka",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2615,7 +2615,7 @@
           "requestedTitle": "Robin",
           "url": "https://honkai-star-rail.fandom.com/wiki/Robin",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2629,7 +2629,7 @@
           "requestedTitle": "Robin Summeretto",
           "url": "https://honkai-star-rail.fandom.com/wiki/Robin_%E2%80%A2_Summeretto",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2643,7 +2643,7 @@
           "requestedTitle": "Ruan Mei",
           "url": "https://honkai-star-rail.fandom.com/wiki/Ruan_Mei",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2657,7 +2657,7 @@
           "requestedTitle": "Saber",
           "url": "https://honkai-star-rail.fandom.com/wiki/Saber",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2671,7 +2671,7 @@
           "requestedTitle": "Sampo",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sampo",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2685,7 +2685,7 @@
           "requestedTitle": "Seele",
           "url": "https://honkai-star-rail.fandom.com/wiki/Seele",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2699,7 +2699,7 @@
           "requestedTitle": "Serval",
           "url": "https://honkai-star-rail.fandom.com/wiki/Serval",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2713,7 +2713,7 @@
           "requestedTitle": "Silver Wolf",
           "url": "https://honkai-star-rail.fandom.com/wiki/Silver_Wolf",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2727,7 +2727,7 @@
           "requestedTitle": "Silver Wolf LV.999",
           "url": "https://honkai-star-rail.fandom.com/wiki/Silver_Wolf_LV.999",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2741,7 +2741,7 @@
           "requestedTitle": "Sparkle",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sparkle",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2755,7 +2755,7 @@
           "requestedTitle": "Sparxie",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sparxie",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2769,7 +2769,7 @@
           "requestedTitle": "Sunday",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sunday",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2783,7 +2783,7 @@
           "requestedTitle": "Sushang",
           "url": "https://honkai-star-rail.fandom.com/wiki/Sushang",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2797,7 +2797,7 @@
           "requestedTitle": "The Dahlia",
           "url": "https://honkai-star-rail.fandom.com/wiki/The_Dahlia",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2811,7 +2811,7 @@
           "requestedTitle": "The Herta",
           "url": "https://honkai-star-rail.fandom.com/wiki/The_Herta",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2825,7 +2825,7 @@
           "requestedTitle": "Tingyun",
           "url": "https://honkai-star-rail.fandom.com/wiki/Tingyun",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2839,7 +2839,7 @@
           "requestedTitle": "Fugue",
           "url": "https://honkai-star-rail.fandom.com/wiki/Fugue",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2853,7 +2853,7 @@
           "requestedTitle": "Topaz & Numby",
           "url": "https://honkai-star-rail.fandom.com/wiki/Topaz_%26_Numby",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2867,7 +2867,7 @@
           "requestedTitle": "Trailblazer/Destruction",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FDestruction",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2881,7 +2881,7 @@
           "requestedTitle": "Trailblazer/Elation",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FElation",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2895,7 +2895,7 @@
           "requestedTitle": "Trailblazer/Harmony",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FHarmony",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2909,7 +2909,7 @@
           "requestedTitle": "Trailblazer/Preservation",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FPreservation",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2923,7 +2923,7 @@
           "requestedTitle": "Trailblazer/Remembrance",
           "url": "https://honkai-star-rail.fandom.com/wiki/Trailblazer%2FRemembrance",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2937,7 +2937,7 @@
           "requestedTitle": "Tribbie",
           "url": "https://honkai-star-rail.fandom.com/wiki/Tribbie",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2951,7 +2951,7 @@
           "requestedTitle": "Welt",
           "url": "https://honkai-star-rail.fandom.com/wiki/Welt",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2965,7 +2965,7 @@
           "requestedTitle": "Xueyi",
           "url": "https://honkai-star-rail.fandom.com/wiki/Xueyi",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2979,7 +2979,7 @@
           "requestedTitle": "Yanqing",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yanqing",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -2993,7 +2993,7 @@
           "requestedTitle": "Yao Guang",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yao_Guang",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -3007,7 +3007,7 @@
           "requestedTitle": "Yukong",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yukong",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         },
         {
           "game": "hsr",
@@ -3021,7 +3021,7 @@
           "requestedTitle": "Yunli",
           "url": "https://honkai-star-rail.fandom.com/wiki/Yunli",
           "source": "Honkai: Star Rail Wiki",
-          "scrapedAt": "2026-08-16T05:52:40.279Z"
+          "scrapedAt": "2026-08-27T22:26:53.195Z"
         }
       ],
       "missing": [

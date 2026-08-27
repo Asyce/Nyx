@@ -46,4 +46,5 @@ test('same-count replacement of an UNCONFIRMED record is flagged, not silently d
   assert.throws(() => monotonicMerge(old, candidate), /needs_review: gi lost 1 records/);
   // A genuine no-removal merge (same ids) still succeeds.
   assert.doesNotThrow(() => monotonicMerge(old, dataset([row({id:'confirmed'}), row({id:'unconfirmed-old', name:'Old', confirmed:false})])));
+  assert.doesNotThrow(() => monotonicMerge(old, dataset([row({id:'confirmed'}), row({id:'unconfirmed-new', name:'New', confirmed:false, legacyIds:['unconfirmed-old']})])));
 });

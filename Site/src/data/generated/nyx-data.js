@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-27T01:48:20.056Z",
+  "generatedAt": "2026-08-27T02:26:08.378Z",
   "codes": {
-    "updated": "2026-08-26T10:25:41.552Z",
+    "updated": "2026-08-27T02:25:47.629Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -181,8 +181,8 @@ var NYX_DB = {
       ],
       "hsr": [
         {
-          "code": "SunsweptRobin",
-          "reward": "3 Traveler's Guide, 2 Classic SoulGlad",
+          "code": "SUNSWEPTROBIN",
+          "reward": "2 Classic Soulglad, 3 Traveler S Guide",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -191,8 +191,8 @@ var NYX_DB = {
           },
           "added": "2026-08-26",
           "firstSeen": "2026-08-26T05:25:11.980Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SunsweptRobin"
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SUNSWEPTROBIN",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SUNSWEPTROBIN"
         },
         {
           "code": "NSJR3B97ZZ5X",
@@ -173031,8 +173031,8 @@ var NYX_DB = {
       ],
       "codes": [
         {
-          "code": "SunsweptRobin",
-          "reward": "3 Traveler's Guide, 2 Classic SoulGlad",
+          "code": "SUNSWEPTROBIN",
+          "reward": "2 Classic Soulglad, 3 Traveler S Guide",
           "premium": false,
           "premiumCurrency": {
             "name": "Stellar Jade",
@@ -173041,8 +173041,8 @@ var NYX_DB = {
           },
           "added": "2026-08-26",
           "firstSeen": "2026-08-26T05:25:11.980Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SunsweptRobin"
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=SUNSWEPTROBIN",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=SUNSWEPTROBIN"
         },
         {
           "code": "NSJR3B97ZZ5X",

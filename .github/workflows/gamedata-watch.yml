@@ -166,7 +166,7 @@ jobs:
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         id: commit
         run: |
-          git add -A Database/GameData Database/Audits Database/reports Site/src/data/generated
+          git add -A Database/GameData Database/Audits Database/reports Database/CharacterStory/gi Site/src/data/generated
           if ! git diff --quiet; then
             echo "::error::The GameData build changed an unexpected tracked path."
             git diff --stat
@@ -198,7 +198,7 @@ jobs:
         if: ${{ steps.manifest.outputs.changed == 'true' }}
         id: launcher_snapshot
         run: |
-          git add -A Database/GameData Database/Audits Database/reports Site/src/data/generated
+          git add -A Database/GameData Database/Audits Database/reports Database/CharacterStory/gi Site/src/data/generated
           if ! git diff --quiet; then
             echo "::error::The rebased GameData build changed an unexpected tracked path."
             git diff --stat

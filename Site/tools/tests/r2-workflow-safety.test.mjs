@@ -127,6 +127,20 @@ test('GameData preflight and rebased checks use the configured Database asset mo
   }
 });
 
+test('GameData amend gates accept only generated Genshin character stories', async () => {
+  const source = await fs.readFile(path.resolve(workflowDir, 'gamedata-watch.yml'), 'utf8');
+  for (const [name, error] of [
+    ['Amend verified generated output', 'The GameData build changed an unexpected tracked path.'],
+    ['Amend rebased generated output', 'The rebased GameData build changed an unexpected tracked path.'],
+  ]) {
+    const block = source.match(new RegExp(`- name: ${name}[\\s\\S]*?(?=\\n      - name:)`))?.[0] || '';
+    const gitAdd = block.match(/^\s*git add -A .*$/m)?.[0].trim();
+    assert.equal(gitAdd, 'git add -A Database/GameData Database/Audits Database/reports Database/CharacterStory/gi Site/src/data/generated');
+    assert.match(block, /if ! git diff --quiet; then/);
+    assert.ok(block.includes(`echo "::error::${error}"`), `${name} keeps its unexpected-path error`);
+  }
+});
+
 test('manual rollout never mutates repository variables and has mode-aware rollback paths', async () => {
   const source = await fs.readFile(path.resolve(workflowDir, 'r2-database-reconcile.yml'), 'utf8');
   assert.doesNotMatch(source, /github\.token|gh variable set|actions:\s*write/);

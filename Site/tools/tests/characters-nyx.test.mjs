@@ -93,12 +93,6 @@ async function loadGenerated(file, key, beta = false){
   return beta ? window.CM_CFG_BETA[key] : window.CM_CFG[key];
 }
 
-async function loadNyxData(){
-  const window = {};
-  vm.runInNewContext(await fs.readFile(path.join(generated, 'nyx-data.js'), 'utf8'), { window });
-  return window.NYX_DB;
-}
-
 const localAsset = (ref) => String(ref).startsWith('../../Database/')
   ? path.resolve(site, '..', 'Database', String(ref).slice('../../Database/'.length))
   : path.resolve(site, ref);
@@ -125,24 +119,33 @@ test('Characters tabs share the shell control and pinned favourites stay on Rost
   assert.doesNotMatch(css, /\.cm-tabs\{[^}]*grid-auto-columns:1fr/);
 });
 
-test('characters without reliable details stay visible but cannot open blank pages', async () => {
-  const [app, materials, css, hsr, nyxData] = await Promise.all([
+test('character availability follows unavailable, beta, and live data', async () => {
+  const [app, materials, css] = await Promise.all([
     read('src/app/nyx-app.jsx'),
     read('src/features/materials/char-materials.jsx'),
     read('src/styles/game-page-shared.css'),
-    loadGenerated('cm-data-hsr.js', 'hsr'),
-    loadNyxData(),
   ]);
-  const pearl = hsr.roster.find((character) => character.n === 'Pearl');
-  assert.equal(pearl?.upcoming, true);
-  assert.equal(pearl?.reliableData, false);
-  assert.equal(pearl?.noReliableInfo, true);
-  const liteContext = { window:{ CM_CFG:{}, NYX_DB:nyxData } };
-  const getRosterSource = app.slice(app.indexOf('function getCmRoster'), app.indexOf('function requestCmGame'));
   const upcomingSource = materials.slice(materials.indexOf('function cmIsUpcomingOnly'), materials.indexOf('function cmRosterSort'));
-  vm.runInNewContext(`${getRosterSource}\n${upcomingSource}\nthis.pearl = getCmRoster('hsr').find((character) => character.n === 'Pearl');\nthis.unavailable = cmIsUpcomingOnly(this.pearl);`, liteContext);
-  assert.equal(liteContext.pearl?.noReliableInfo, true);
-  assert.equal(liteContext.unavailable, true, 'the Nyx hub blocks Pearl before the full HSR bundle loads');
+  const mergeSource = materials.slice(materials.indexOf('function cmMergeBetaRows'), materials.indexOf('function cmDownloadMaterialsCard'));
+  const availabilityContext = {};
+  vm.runInNewContext(`${upcomingSource}\n${mergeSource}
+    const placeholder = { id:'synthetic', n:'Synthetic', status:'beta', upcoming:true, reliableData:false, noReliableInfo:true };
+    const betaRow = { id:'synthetic', n:'Synthetic', status:'beta', req:{ ascension:[], talents:[] }, kit:{ sections:[{ title:'Beta kit' }] } };
+    const liveRow = { id:'synthetic', n:'Synthetic', status:'live', req:{ ascension:[], talents:[] }, kit:{ sections:[{ title:'Live kit' }] } };
+    this.beta = cmMergeBetaCfg({ roster:[placeholder], weapons:[] }, { roster:[betaRow] }).roster[0];
+    this.live = liveRow;
+    this.placeholderUnavailable = cmIsUpcomingOnly(placeholder);
+    this.betaUnavailable = cmIsUpcomingOnly(this.beta);
+    this.liveUnavailable = cmIsUpcomingOnly(liveRow);`, availabilityContext);
+  assert.equal(availabilityContext.placeholderUnavailable, true, 'an empty upcoming placeholder is unavailable');
+  assert.equal(availabilityContext.beta.status, 'beta');
+  assert.equal(availabilityContext.beta.__beta, true, 'the complete beta overlay is decorated as Beta');
+  assert.equal(availabilityContext.beta.kit.sections[0].title, 'Beta kit');
+  assert.equal(availabilityContext.betaUnavailable, false, 'the complete beta overlay is clickable');
+  assert.equal(availabilityContext.live.status, 'live');
+  assert.equal(availabilityContext.live.__beta, undefined, 'the complete live row is not beta-decorated');
+  assert.equal(availabilityContext.live.kit.sections[0].title, 'Live kit');
+  assert.equal(availabilityContext.liveUnavailable, false, 'the complete live row is clickable');
   assert.match(materials, /const unavailable = !hideMode && cmIsUpcomingOnly\(ch\);/);
   assert.match(materials, /disabled=\{unavailable\}/);
   assert.match(materials, /if \(!ch \|\| cmIsUpcomingOnly\(ch\)\) return false;/);

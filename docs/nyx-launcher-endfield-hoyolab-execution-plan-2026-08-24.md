@@ -17,6 +17,7 @@ The source documents remain evidence for their locked contracts. Where their old
 ## Fixed bases and boundaries
 
 - Launcher implementation repository: `D:\PengoNyx\Nyx Launcher\Repository`, verified at `v1.4` / `5ede520e8d8d86234e5f47442bf0bb29b940b9b9` before execution.
+- Current launcher continuation base: `D:\PengoNyx\Nyx Launcher\Worktrees\combined-execution-20260824` at `273dfb57e06e5bf5ef79f74028ca7640a28b6f35`. It is the clean fast-forward descendant that preserves the accepted execution history plus `9173350edc2514caafd3bea05191a26f3c80cf3e` (Genshin 7.0 achievement export) and `273dfb57e06e5bf5ef79f74028ca7640a28b6f35` (one Documents export root). Future launcher work starts here or from a later verified descendant found under `D:\PengoNyx`; never reset, overwrite, or reconstruct around user-added fixes.
 - Website/Worker repository: `C:\Pengo\Nyx`. Its dirty checkout is user-owned and must remain untouched; implementation uses a clean worktree from current `origin/main`.
 - Historical `D:\ToBeDeleted\...` launcher trees and `ca2a506` are preservation evidence only.
 - HoYo approval is confirmed for the automated static-data, account-reading, encrypted-sync, caching, refresh, public display, and deletion scope below. Record only a sanitized scope summary; never commit private correspondence.
@@ -30,6 +31,7 @@ The source documents remain evidence for their locked contracts. Where their old
 ## Execution and review rules
 
 - Read this plan and its tracker at the start of every execution turn.
+- Before every launcher implementation phase, inventory the launcher worktrees and local refs under `D:\PengoNyx`. If a newer clean tested descendant exists, advance the canonical execution worktree by fast-forward only and record it. If the newest work is dirty or divergent, preserve it and stop for explicit reconciliation instead of copying files, rebasing it away, or choosing an older checkout.
 - Before work, set the active phase to `in-progress`. After implementation and prescribed checks, set it to `review`. Mark it `complete` only after its STOP evidence is accepted.
 - Every STOP reports base and ending commits, changed files, exact tests, sanitized evidence, UI screenshots where applicable, known risks, and the next action.
 - Use coherent per-repository commits. A phase is a review bundle, not necessarily one commit.
@@ -73,7 +75,7 @@ The Genshin format authority is the exact MIT [`frzyc/genshin-optimizer`](https:
 
 ## Phase 0 - Reproducible bases and execution records
 
-1. Fetch both repositories and record base commits, current production website commit, distributed launcher state, package metadata, prior deploy commits, and rollback points.
+1. Fetch both repositories; inventory local launcher worktrees/refs under `D:\PengoNyx`; and record base commits, current production website commit, distributed launcher state, package metadata, prior deploy commits, and rollback points.
 2. Create clean `codex/` worktrees without altering the dirty website checkout.
 3. Save this plan, create its tracker, and add both to `docs/agent-index.md`.
 4. Compare source with the distributed v1.4 launcher. Inventory the known development-channel and obsolete v1.0 metadata; Phase 1 repairs them, so they do not fail STOP 0.
@@ -209,7 +211,7 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 ## Locked local gear export contract
 
 - Extend the existing `ExportKind`, arming state, coordinator, job/status model, atomic writer, bounded native helper, package verifier, and sanitized diagnostics with one `Gear` lane. Do not create another coordinator, helper executable, capture service, handoff server, or generic plugin layer.
-- Save only to the existing protected `Downloads\Pengo Exports\<game>` boundary with an exclusive temporary file, flush, cancellation check, and no-overwrite atomic rename. Maximum accepted output is 10,000 gear rows and 32 MiB; exceeding either fails without truncation or a final file.
+- Save only to the latest launcher's existing protected `Documents\Pengo Exports\<game>` boundary with an exclusive temporary file, flush, cancellation check, and no-overwrite atomic rename. Maximum accepted output is 10,000 gear rows and 32 MiB; exceeding either fails without truncation or a final file.
 - HSR writes a relic-only Fribbels Reliquary/HSR-Scanner v4 manual-import JSON file; Genshin writes artifact-only GOOD v3 JSON. For HSR, use the consumer's documented compatibility discriminator only after a fixture proves the pinned importer accepts it, identify Nyx truthfully in `build`, and include empty unrelated arrays only where the importer requires them—never fake currency, character, or equipment data. Do not add private fields, UID-bearing filenames, or a custom wrapper.
 - Before mapping, require one selected game account/connection, a current supported game-data version, one complete inventory snapshot, unique internal instance IDs, exact static IDs, valid levels/rarities/slots/stats, and no missing lookup. Standard formats may omit internal IDs, but the validator must still use them to reject a mixed or duplicate snapshot.
 - HSR maps the pinned v4 relic fields only: stable unique ID, set ID/name, slot, rarity, level, main stat, every substat value plus count/step, reroll/preview substats when present, equipped location, lock, and discard. Genshin maps only current GOOD v3 artifact fields, including supported roll/mark/crafted/unactivated-substat fields when the complete source supplies them. Do not invent values for fields the packet or consumer does not provide.
@@ -283,7 +285,7 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 
 ### Locked launcher-to-Pengo handoff
 
-- Atomically write the final JSON to `Downloads\Pengo Exports`, then serve those exact bytes once from loopback.
+- Atomically write the final JSON to `Documents\Pengo Exports`, then serve those exact bytes once from loopback.
 - Open `https://pengo.gg/endfield#nyx-import=v2&type=pulls|achievements&port=<port>&nonce=<nonce>`.
 - Use a 256-bit random nonce, 15-second expiry, 5-MiB cap, JSON content type, no redirects, and an exact production-origin CORS allowlist. Permit an exact local origin only in development builds.
 - Pengo removes the fragment immediately, fetches with credentials omitted and no referrer, shows a preview, and never auto-saves.

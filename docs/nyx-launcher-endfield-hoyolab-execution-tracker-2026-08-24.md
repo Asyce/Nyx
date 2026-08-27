@@ -8,8 +8,8 @@ Canonical plan: [Nyx launcher, gear exports, Endfield, and HoYo execution plan](
 - **Current phase:** [Phase 7 - Prove Endfield pulls](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#phase-7---prove-endfield-pulls) (`blocked`)
 - **Runnable parallel phases:** None. Phase 6B and Phase 6D exhausted their safe synthetic work and are evidence-blocked; Phase 6C and Phase 6E stay closed.
 - **Current gate:** [STOP 7](nyx-launcher-endfield-hoyolab-execution-plan-2026-08-24.md#stop-7)
-- **Last verified (Europe/Paris):** 2026-08-28 01:15 CEST (UTC+02:00)
-- **Next action:** Manually open Endfield pull history once to finish STOP 7. Reopen HSR or Genshin gear proof only when licensed current-retail wire evidence and a consented complete account-bound bag are available; no product gear phase is runnable before then.
+- **Last verified (Europe/Paris):** 2026-08-28 01:33 CEST (UTC+02:00)
+- **Next action:** Complete the two `Do now` items in the direct user-action runbook below and send its one combined readiness message. Reopen HSR or Genshin gear proof only when licensed current-retail wire evidence and a consented complete account-bound bag are available; no product gear phase is runnable before then.
 - **Active blockers:** STOP 7 still needs one manual protected-screen comparison. HSR gear lacks current-retail wire/key and complete-bag/account evidence; Genshin gear lacks current-wire and complete-bag/account evidence. Shared flow isolation, sensitive-buffer wiping, offline mappings, optimizer fixtures, and the shared test-only state proof pass. The built-in no-install Packet Monitor path is evidence-blocked on this Windows build, and GitHub billing currently prevents a hosted launcher job from starting. Scheduled Site maintenance is repaired, deployed, and live-verified at `c82aa8dc`; the existing Npcap path remains unchanged and unreleased.
 
 ## Status vocabulary
@@ -117,12 +117,63 @@ The following stable first-party pages returned HTTP 200 on 2026-08-25. Phase 6 
 6. Record an accepted decision or deviation before starting work that depends on it; never silently change the plan.
 7. Keep every entry sanitized. Never record secrets, private approval correspondence, real identities, credential or signed URLs, authenticated response bodies, or raw logs.
 
+## Direct user-action runbook
+
+This is the dependency-ordered checklist for work Codex cannot perform alone. Codex owns the code, tests, reviews, builds, deployments, and sanitized comparisons. Do not perform a later block until Codex says that block is ready: its observer, exporter, or receiver may not exist yet, and a patch change can invalidate early proof. Never send Codex a password, CAPTCHA answer, recovery code, UID, token, signed URL, raw log/packet, or account screenshot.
+
+### Do now - one combined handoff
+
+1. Restore GitHub Actions billing/spending access for the private `Asyce/Nyx-Launcher` repository. Do not manually start a workflow or create a no-op commit; tell Codex when billing is restored.
+2. Start official global Endfield normally, select the intended role/server, open the official pull-history screen, leave it open, and make no pulls during comparison.
+3. Send `READY: Actions billing restored; Endfield history open`.
+
+Codex will run the fresh sanitized observer. Compare its local prompts with the protected screen for identity, counts, pools, and first/last times, then reply only `MATCH` or `MISMATCH` - never transcribe values. STOP 7 passes only if every comparison matches. If only one item is ready, send only that half of the readiness message; the other blocker remains open. No HSR/Genshin launch, Npcap installation, security-setting change, screenshot, count transcription, or private-data upload is useful now.
+
+### After Codex says the Endfield pull round trip is ready
+
+1. Approve the exact reviewed receiver-first Release B deployment when Codex presents it.
+2. In the launcher, arm `Export pulls on next launch`, then launch Endfield normally. Open official history once only if the launcher asks.
+3. When Pengo opens the preview, verify the visible role/server and counts. Click **Merge** only if they match; stop and report `MISMATCH` otherwise.
+4. Let Codex verify reload and duplicate handling. When asked, use the saved JSON once through manual file import to prove fallback. Use a second account only if one already exists and Codex explicitly asks; do not create one early.
+
+### HSR relic or Genshin artifact proof - only after Codex says that game's observer is ready
+
+1. Do nothing until Codex confirms that licensed current-patch wire evidence and the consented proof runner are ready. If you possess evidence, provide a public source URL/commit or a sanitized permission scope only - never private correspondence, packet data, or account contents.
+2. Prefer a dedicated test role with a representative inventory and one genuinely disposable low-value item. Never clear a real bag. A fresh empty role is needed only if Codex later proves the empty-bag case cannot be established another safe way.
+3. When Codex says the proof is armed, launch that game through Nyx, sign in normally, and open the full relic/artifact inventory. Follow only the requested reversible actions and report comparison results only as match/mismatch booleans; for Genshin, repeat the requested relog/enter-world cycle when prompted.
+4. Any salvage/delete action requires a separate explicit confirmation at that moment and must use a worthless test item; declining it leaves that lane evidence-blocked without affecting other features.
+5. Stop on any account, count, mapping, update/delete, relog, or importer mismatch. After implementation, repeat once with the exact public package and manually import the output into the pinned Fribbels or GOOD consumer.
+
+The two games are independent. If both observers become ready together, test HSR then Genshin in one sitting; otherwise test only the ready game. Never install or enable Npcap merely to prepare.
+
+### Endfield achievements and Playtime - after Release B
+
+1. Keep Endfield closed. In the launcher's isolated SKPORT window, handle login/CAPTCHA yourself, select the intended role/server, grant the visible achievement consent, and open the complete official achievement/medal view. Stop if it appears to be only a showcase or the role differs, then send `READY: Endfield achievements open`.
+2. Wait until Codex accepts or evidence-blocks STOP 10 and separately says the Phase 11 exporter or Phase 12 Playtime build is ready.
+3. If STOP 10 passes, use `Export achievements now`, consent again, and approve **Merge** only after the preview matches. **Replace** always needs a separate confirmation. If STOP 10 fails, only achievements remain disabled; Playtime continues.
+4. When Phase 12 is ready, open Playtime Stats. Accept the default Gryphline log folder; use the native folder picker only if that default is wrong. Never send the logs themselves.
+5. Approve the exact reviewed Release C deployment/package when Codex presents it.
+
+### HoYo account stages - after Codex says Phase 13 has completed its shadow evidence
+
+1. Begin with HSR only. Reuse the same isolated WebView profile for Genshin only after STOP 15 and for ZZZ only after STOP 16. Handle login/CAPTCHA yourself, prefer a dedicated test role for each game, and grant consent per named capability; incomplete capabilities stay off.
+2. When manual HSR sync is ready, save the generated recovery code offline before continuing. Enter it only into the trusted local recovery form when requested; never send or upload it. Opt into manual sync, open My HoYo, and verify the named role/capability states.
+3. Use one second trusted browser/device profile when Codex requests recovery, conflict, and multi-device checks. Use named deletion controls only on disposable test data; the entire-Pengo deletion requires a separate explicit confirmation. Never use a real account as disposable test data.
+4. After each preceding STOP passes, repeat the approved per-capability checks for Genshin and then ZZZ without creating another login stack.
+5. Opt into automatic sync only when Codex says every manual-sync, migration, conflict, deletion, privacy, compatibility, and multi-device gate passed. Otherwise leave it off.
+
+### Publication and optional capture prompts
+
+- When Codex presents an exact reviewed production payload for Release B, C, D, E, or a HoYo publishing stage, reply with the requested one-line authorization. These cannot be safely pre-batched because each release must be re-fetched and reviewed immediately beforehand.
+- No action is needed for the optional built-in Packet Monitor path on this Windows build. If a supported build later unlocks it, Codex will group the UAC accept/cancel, Ethernet/Wi-Fi/VPN, sleep/resume, and repeat-run checks into one session. Npcap remains a separately installed, explicitly selected fallback and is never installed or selected automatically.
+
 ## Evidence log
 
 Append dated rows; do not rewrite or remove accepted evidence.
 
 | Date (Europe/Paris) | Phase/release | Evidence | Command/artifact | Review outcome |
 |---|---|---|---|---|
+| 2026-08-28 | Phases 6B/6D public-source recheck | All locked exporter/data candidates remain at their audited heads. Fribbels advanced from `99790f5` to `db78c4d` (+10 commits: 4.6-preview/static/optimizer and import-ordering changes); Genshin Optimizer advanced from `984d82c` to `180a0a1` (+2 commits: database compression and Traveler logic). Neither comparison changes an importer schema or supplies current wire, account binding, or complete-bag proof. No recent qualifying PR/repository result was found. | Text-only GitHub repository/API checks at the locked pins and current heads; no browser media, game, account, attachment, capture, or private export was opened. | No lane is unlocked. STOP 6B and STOP 6D remain evidence-blocked, both gear flags stay false, and no dependency or code is added. |
 | 2026-08-24 | Phase 0 | Launcher restore/build and Rust baseline pass: Release build has 0 warnings/errors; Rust has 54/54 passing. .NET has 2,167/2,168 passing; the inherited failure is the real readiness check returning 13. | `dotnet restore`; `dotnet build -c Release -r win-x64 --no-restore`; `cargo test --locked`; `dotnet test -c Release` at launcher base `5ede520e`. | Baseline recorded; readiness repair belongs to Phase 1. |
 | 2026-08-24 | Phase 0 | Launcher readiness returns 13 because reviewed unpackaged output is incomplete. Formatting reports 19 inherited whitespace errors. Package PE/security gate passes, then the pinned FPS helper checkout fails on Windows path length; no ZIP/hash/manifest is produced. | `start-nyx.ps1 -CheckOnly`; `dotnet format --verify-no-changes`; `build-development-package.ps1 -Version 1.4.0.0`. | Baseline recorded; none is attributed to this plan's changes. |
 | 2026-08-24 | Phase 0 | Scraper has 212/212 passing and strict five-game freshness 5/5. Achievement tests have 22/22 passing; launcher-visual tests have 17/17 passing. | `npm test`; `npm run validate:strict`; `npm run test:achievements`; `npm run test:launcher-visuals`. | Passed. |

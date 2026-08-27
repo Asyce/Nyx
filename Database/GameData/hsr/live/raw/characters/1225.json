@@ -2,6 +2,7 @@
   "name": "Fugue",
   "desc": "A tactful foxian girl, whose appearance, name, and identity have all been stolen.\\nThe fates have left her a thread of chance at survival, yet the brand of Destruction still writhes with anticipation.\\nThe one in a fugue who has experienced life and death and is given a new life... when would she be able to return home?",
   "chara_info": {
+    "camp": "The Xianzhou Luofu",
     "va": {
       "chinese": "蒋丽",
       "japanese": "高田憂希",
@@ -15,7 +16,344 @@
       "3": "<i>\"Awakening is only the first step.\\nThe scars of Destruction still affect you, and you must learn to familiarize yourself with this new body swiftly to harness its power.\"</i>\\nDay after day, she follows the scientist's instructions, pairing her dance with the strange pastries. She begins to heal at a pace visible to the naked eye. Yet, with each passing day, her doubt grows stronger.\\n\\nShe waits anxiously for news from the Xianzhou. After what feels like an eternity, Ruan Mei delivers the grim confirmation about the Stellaron calamity — \\nThe Emanator known as Phantylia had infiltrated the Xianzhou with her guise, unleashing calamity and poisoning the living.\\n\\n<i>\"Fortunately, the Astral Express and the Xianzhou joined forces and defeated Phantylia before any serious repercussions.\"</i>\\nShe listens to \"her\" story in a daze, feeling as if it were absurd and unreal.\\n<i>\"So she not only took my life but also a part of my time... I should never return to the Luofu with this face and encounter the Chromatic Echelon...\"</i>\\n<i>\"Phantylia's 'Destruction' of you has never ceased. Although you have temporarily overcome the power of Destruction in your body, her torment of your will has only just begun.\"</i>\\nThere is a subtle sigh hidden within that icy voice.\\n<i>\"I don't understand — why me?\"\\n\"It's simply a roll of fate's dice, and it landed on you.\"\\n\"...So now my fate is entwined with theirs.\"\\n\"I was entrusted only to save you. What happens after you return to the Luofu is entirely up to you.\"\\n\"But in any case, I'm already a pawn in the game of these powerful players, aren't I?\"\\n\"Undeniably so.\"</i>\\n\\nShe remains silent for a long time, lost in thought. \\n<i>\"Business is a two-way traffic, but since I am no longer the same as before, do I still have a choice?\"</i>\\nRuan Mei meets the young girl's gaze and shakes her head.\\n<i>\"I don't know. That is your 'choice,' and only 'you' can make it.\"</i>",
       "4": "Penacony remains vibrant after the storm. \\nThat gilded metropolis, a paradise of luxurious and indulgent commerce, is a destination she had always longed to explore.\\n\\n<i>\"You're a Dreamchaser too, aren't you? I don't see many people dressed like you.\"</i>\\nAn outlander in hunter's garb approaches her before she realizes it.\\n<i>\"Of course, I too am one. Don't let my appearance fool you. One day, I'm going to buy Clock Studios! What about you?\"\\n\"In that case, you can also consider me as some sort of a Dreamchaser...\"\\n\"I've always imagined roaming the starry seas, traveling to different worlds, and establishing trade everywhere. Unfortunately...\"</i>\\nShe falls silent and the outlander nods thoughtfully, raising the SoulGlad in her honor. After gulping down the can of SoulGlad, he turns to leave.\\n\\nThe road home is already long, yet she chooses to pause here.\\nThe future holds many paths, and her longing is about more than simply returning home.\\n\\n<i>\"Care for some SoulGlad, my lady?\"</i>\\nShe turns her head toward a vendor pushing a cart.\\n<i>\"... Judging by your attire, you must be from the Xianzhou Luofu. I traveled there with my boss many years ago, and I still remember the massive ship and vibrant atmosphere.\"\\n\"When we visited the Whistling Flames merchant guild, the messenger who received us, Miss Tingyun, looked rather like you. I wonder if you know her...\"\\n\"Ma'am, ma'am, are you listening?\"</i>\\n\\nShe gazes at Penacony's starry sky. People are coming and going in the distance yet unseen by her.\\n<i>\"Apologies, I was just contemplating a \"major deal\" that could leverage a small advantage to move giants — a venture with immense returns, but fraught with perils....\"\\n\"Are you hesitating?\"</i>\\nShe smiles.\\n<i>\"Yes, I have hesitated... but I've finally made up my mind.\"\\n\"If I can dazzle those powerful figures upon my entrance, then that would count as having journeyed to the farthest reaches of the sky.\"</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "Though it's our first meeting, it feels as if we're reuniting after a long separation. The past is behind us, and the old me is no more. Please allow me to temporarily call myself \"Fugue.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Has your journey been smooth? If you have the time, I've received another batch of fine tea, waiting for all of you to come and taste.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Though the Cosmos stretches far and wide, and stars fill the sky, as long as we hold each other in our thoughts, there will always be a chance for reunion.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: \"Fugue\"",
+        "voice_m": "What is a Fugue? Is it someone who can't return to once familiar places, or someone who has lost herself?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: \"Fugue\"",
+        "voice_m": "What is a Fugue? It's someone who can't return to once familiar places, someone who has lost herself... but also someone who is embarking on a new journey.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "About Self: Tail",
+        "voice_m": "I heard that when I woke up, my tail was already like this... Perhaps it was in response to my desire to survive. Whenever there's danger, they always rush out.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "About Self: Dream",
+        "voice_m": "I have always hoped to lead Whistling Flames into becoming one of the top merchant guilds in the universe. Despite encountering hardships... that has never changed.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "About Self: Dream 2",
+        "voice_m": "I will never forget that moment. The desire to journey across the stars and explore far and wide, from the past to the present, remains the starting point for everything.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Chat: Fans",
+        "voice_m": "In the past, I always loved fans and often said, \"just cool things down with a fan,\" but when faced with fools, I could only grin and bear it. Now that this fan can really stir up a storm, it's become somewhat unfamiliar to me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Hobbies",
+        "voice_m": "In my leisure time, I love to stroll around and drink tea in places filled with a lively, local atmosphere. I can always feel the past in the little details and snippets of conversation I overhear.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Something to Share: Ambush",
+        "voice_m": "From the outside, \"Destruction\" seems to happen in a flash, but for me, it takes much longer. In that flash, I see memories, emotions, words... They peel away from me, scatter, and fade, converging into someone else.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Knowledge",
+        "voice_m": "Drifting on the waves of destiny, people like me are just tiny specks of dust, tossed about involuntarily by the hands of fate.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Knowledge",
+        "voice_m": "Drifting on the waves of destiny, people like me are just tiny specks of dust, tossed about involuntarily by the hands of fate... But now, I must be a cunning speck of dust and make them sneeze a few times.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Jing Yuan",
+        "voice_m": "The general's skill in maximizing returns with minimal effort is still vivid in my mind... I hope that one day, I can witness it again.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Yanqing",
+        "voice_m": "I remember... I once gave him some rare toys. He was a very polite child, and when he came across a sword he liked, he became absolutely radiant with delight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Yukong 1",
+        "voice_m": "I still remember... Whether it was driving starskiffs or leading the Sky-Faring Commission, Madam Yukong was always present in the Xianzhou's course.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Yukong 2",
+        "voice_m": "Madam Yukong told me, there was a day when she too once \"died,\" and in the long days that have followed, she's been searching for that feeling of being \"alive\" again.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Bailu",
+        "voice_m": "I'm not sure why, but lately, I've been feeling especially tired. I keep thinking about Lady Bailu. Next time I'm back on the Luofu, I'll definitely go visit her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Qingque",
+        "voice_m": "Is she a diviner of the Divination Commission... or the proprietress of the games parlor?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Fu Xuan",
+        "voice_m": "I could never forget the master diviner's stern yet pleasant voice... Though she spares no feelings, every word she says makes sense.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Ruan Mei",
+        "voice_m": "\"Resurrection\" is always a strange experience, but Miss Ruan Mei instructed me to not overthink things. I just needed to follow a regular routine and focus on exercise to regain my health. Her tone was so relaxed... as if this was all a simple task.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "A beating soul is the most precious thing.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Character Ascension",
+        "voice_m": "Metamorphosis is always about breaking free from the past.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Now, I'll be able to keep up with all of you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Trace Activation",
+        "voice_m": "This vast universe has so many worlds I've yet to explore...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Benefactor, let me lend you a hand.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Yukong",
+        "voice_m": "Madam Yukong, please allow me to fight by your side.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Ruan Mei",
+        "voice_m": "Don't worry, Miss Ruan Mei, I am recovering well.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "About Yao Guang",
+        "voice_m": "I'd always heard Madam Yao was as sharp as they come, and also easy to get along with. Since she took charge, the Xianzhou's been much more open with outsiders, merchants even say she's the Fortune Star reborn.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "Understood. Leave the interpersonal affairs to me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Let's seize this fine moment.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "There'll definitely be a way.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Have we met before?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "I won't hold back anymore.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Things can never go back to how they used to be.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Don't look back.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Enhanced Basic ATK 1",
+        "voice_m": "Clouds are easily scattered.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Enhance Basic ATK 2",
+        "voice_m": "The long dream has vanished.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Skill 1",
+        "voice_m": "There's no harm in sharing good fortunes.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Skill 2",
+        "voice_m": "Shall we unite our goals?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "It's fine.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Not this time...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Dreams of a past life are now all gone.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Though life is as a speck of dust, it dances still in grace.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Downed",
+        "voice_m": "Is this my fate...?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Return to Battle",
+        "voice_m": "Another stroll at death's door.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Health Recovery",
+        "voice_m": "A thousand thanks, benefactor.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Technique",
+        "voice_m": "Not yet time to return.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Battle Won",
+        "voice_m": "I hope I can be of help.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Our fortune is changing for the better.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Good, good, all the best~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "A thousand wonders indeed.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Every step was tough, but we walked them all.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "All thanks to your guidance, benefactor~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "That one doesn't look too friendly...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Returning to Town",
+        "voice_m": "It's so bustling here. Good.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "fugue",
@@ -2006,7 +2344,7 @@
         "status_add_list": [],
         "extra": {
           "10000002": {
-            "name": "Action Delayed",
+            "name": "Delay Action",
             "desc": "Increases the target's waiting interval before the next action.",
             "param": []
           }

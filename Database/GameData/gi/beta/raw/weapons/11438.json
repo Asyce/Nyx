@@ -1,5 +1,5 @@
 {
-  "name": "Weapon: Sword",
+  "name": "Silver Light",
   "desc": "",
   "weapon_type": "WEAPON_SWORD_ONE_HAND",
   "weapon_prop": [
@@ -342,8 +342,8 @@
   },
   "refinement": {
     "1": {
-      "name": "",
-      "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>52</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+      "name": "Radiance on the Water",
+      "desc": "Increases Elemental Mastery by <color=#99FFFFFF>52</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
       "param_list": [
         52,
         12,
@@ -356,8 +356,8 @@
       ]
     },
     "2": {
-      "name": "",
-      "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>65</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+      "name": "Radiance on the Water",
+      "desc": "Increases Elemental Mastery by <color=#99FFFFFF>65</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
       "param_list": [
         65,
         12,
@@ -370,8 +370,8 @@
       ]
     },
     "3": {
-      "name": "",
-      "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>78</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+      "name": "Radiance on the Water",
+      "desc": "Increases Elemental Mastery by <color=#99FFFFFF>78</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
       "param_list": [
         78,
         12,
@@ -384,8 +384,8 @@
       ]
     },
     "4": {
-      "name": "",
-      "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>91</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+      "name": "Radiance on the Water",
+      "desc": "Increases Elemental Mastery by <color=#99FFFFFF>91</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
       "param_list": [
         91,
         12,
@@ -398,8 +398,8 @@
       ]
     },
     "5": {
-      "name": "",
-      "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>104</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+      "name": "Radiance on the Water",
+      "desc": "Increases Elemental Mastery by <color=#99FFFFFF>104</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
       "param_list": [
         104,
         12,

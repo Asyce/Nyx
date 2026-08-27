@@ -162,6 +162,18 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 25,
+        "voice_title": "About The Herta",
+        "voice_m": "Special condition detected. Remote puppet automatic praise mode — on. Madam Herta is a peerless gem. Madam Herta is an unrivaled genius. Madam Herta is an inimitable beauty...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With The Herta",
+        "voice_m": "Madam Herta is a peerless gem. Madam Herta is an unrivalled genius. Madam Herta is an inimitable beauty.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Oh, poor you...",
@@ -276,27 +288,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 73,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Meh, acceptable quality.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Awesome. Cool. Can we go now?",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 70,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "It took you that long?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 75,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "I can do this in my sleep.",
         "is_battle_voice": true
       },
       {
@@ -309,6 +303,24 @@
         "voice_id": 72,
         "voice_title": "Returning to Town",
         "voice_m": "Is there anything interesting here? I doubt it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Meh, acceptable quality.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Awesome. Cool. Can we go now?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "I can do this in my sleep.",
         "is_battle_voice": true
       }
     ]

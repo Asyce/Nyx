@@ -5860,7 +5860,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 6189,
+      "count": 6190,
       "items": [
         {
           "id": "gi-item-101",
@@ -59764,6 +59764,17 @@
             "type": "Quest Item"
           },
           "text": "Obtained from the Lord of the Night, this material plays a key role in the creation of Ancient Names. Its essence is \"memory,\" for Natlan's Ley Lines do not record the adventures of outsiders, and so, a special \"vessel\" is needed here.\nMemory flows within this receptacle, and if you focus on its surface, it will display the vital footprints you have left in Natlan. Though the Ancient Name forging process is complete, these radiant tales of yours will not be erased.\nFrom what you've heard, Xilonen and Citlali had a rather easy time obtaining this material. This, you presume, is thanks to the Lord of the Night's gentleness and generosity."
+        },
+        {
+          "id": "gi-item-121070",
+          "name": "Somewhat Aged Copy of \"Tequil the Brave\"",
+          "kind": "item",
+          "art": "../../Database/GameData/gi/assets/items/UI_ItemIcon_223019.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Quest Item"
+          },
+          "text": "Somewhat Aged Copy of \"Tequil the Brave.\""
         },
         {
           "id": "gi-item-121072",

@@ -126,6 +126,12 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 19,
+        "voice_title": "About Jade",
+        "voice_m": "Lady Jade is like nobility to me, beautiful and capable. She is always so kind and willing to guide and support the younger generation! When I think about the first time I met her, I still get nervous... Time does fly.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 21,
         "voice_title": "Eidolon Activation",
         "voice_m": "Looking bullish! Which is why we should keep a cool head.",
@@ -171,6 +177,30 @@
         "voice_id": 28,
         "voice_title": "Added to Team With Aventurine",
         "voice_m": "Looks like we're working together on this one... I suppose an extra pair of eyes won't hurt.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Jade",
+        "voice_m": "Just leave this to me, Lady Jade.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "About Pearl",
+        "voice_m": "Pearl never gets upset. She'll first use impeccable logic and data accurate to <unbreak>20</unbreak> decimal places to make sure you don't get upset. Any meeting she's attending will definitely NOT erupt into arguments.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "About Aventurine • Waveflair",
+        "voice_m": "You don't actually believe he's there on vacation and filming commercials, do you? For a workaholic like him to willingly take a trip to Astropolis, there must be some treasure he's dying to get his hands on, one he'd rather not draw attention to.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Aventurine • Waveflair",
+        "voice_m": "Here to raise the stakes for a big win?",
         "is_battle_voice": false
       },
       {

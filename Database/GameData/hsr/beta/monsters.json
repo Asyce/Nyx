@@ -2301,7 +2301,7 @@
   },
   {
     "id": "2022072",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Twig of Wintry Wind",
     "rank": "MinionLv2",
     "weaknesses": [
@@ -2314,6 +2314,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2022070.webp"
     },
     "liveComparison": {
+      "liveHash": "156263e7f951ef18a881bb4ccf6379746dea7b55c68b9809490f24cbbb49b888",
       "currentHash": "156263e7f951ef18a881bb4ccf6379746dea7b55c68b9809490f24cbbb49b888"
     }
   },
@@ -2355,7 +2356,7 @@
   },
   {
     "id": "2022082",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Twig of Marple Leaf",
     "rank": "MinionLv2",
     "weaknesses": [
@@ -2367,6 +2368,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2022080.webp"
     },
     "liveComparison": {
+      "liveHash": "02de8e3ad6b91b41fe9cdd7bbebbeacbee1562d7df3caefd1494eff124fbbd96",
       "currentHash": "02de8e3ad6b91b41fe9cdd7bbebbeacbee1562d7df3caefd1494eff124fbbd96"
     }
   },
@@ -2408,7 +2410,7 @@
   },
   {
     "id": "2022092",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Twig of Glorious Blooms",
     "rank": "MinionLv2",
     "weaknesses": [
@@ -2420,6 +2422,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2022090.webp"
     },
     "liveComparison": {
+      "liveHash": "96774511e527c128c3a99efe3b63893c35f72a2d3cbe0ab80ecd01bbbd2c27b7",
       "currentHash": "96774511e527c128c3a99efe3b63893c35f72a2d3cbe0ab80ecd01bbbd2c27b7"
     }
   },
@@ -2463,7 +2466,7 @@
   },
   {
     "id": "2022102",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Twig of Lavish Fruits",
     "rank": "MinionLv2",
     "weaknesses": [
@@ -2476,6 +2479,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2022100.webp"
     },
     "liveComparison": {
+      "liveHash": "839752977048988e50cfc86271be1e34d6327d34796ad023999c3b6cd8a1e0d6",
       "currentHash": "839752977048988e50cfc86271be1e34d6327d34796ad023999c3b6cd8a1e0d6"
     }
   },
@@ -2540,7 +2544,7 @@
   },
   {
     "id": "2023012",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Celestial Cherub",
     "rank": "Elite",
     "camp": 2,
@@ -2553,6 +2557,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2023010.webp"
     },
     "liveComparison": {
+      "liveHash": "8c132552f4d1fda423d24c2f53bb42454b9c5bf04b7d570515642d3cc3a38f7d",
       "currentHash": "8c132552f4d1fda423d24c2f53bb42454b9c5bf04b7d570515642d3cc3a38f7d"
     }
   },
@@ -2636,7 +2641,7 @@
   },
   {
     "id": "2023032",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Celestial Maiden",
     "rank": "Elite",
     "weaknesses": [
@@ -2648,6 +2653,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2023030.webp"
     },
     "liveComparison": {
+      "liveHash": "e6e5f4971ae18005fcafefbcc6d4ea6533208d416bd4a213dfc1e25bc55ca5ce",
       "currentHash": "e6e5f4971ae18005fcafefbcc6d4ea6533208d416bd4a213dfc1e25bc55ca5ce"
     }
   },
@@ -2771,7 +2777,7 @@
   },
   {
     "id": "2024016",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Unwaning Ageless Immortal",
     "rank": "LittleBoss",
     "camp": 2,
@@ -2786,6 +2792,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_2024010.webp"
     },
     "liveComparison": {
+      "liveHash": "773874755aaebf83b0aeb8ca59a4045e78f20ffd581304ba8a622cc1de74e5ca",
       "currentHash": "773874755aaebf83b0aeb8ca59a4045e78f20ffd581304ba8a622cc1de74e5ca"
     }
   },
@@ -6722,8 +6729,8 @@
   },
   {
     "id": "4015012",
-    "contentStatus": "beta_changed",
-    "name": "Sublime, Radiant, Avatar of the Sky",
+    "contentStatus": "live",
+    "name": "Ishtar Huwawa Aquila",
     "rank": "BigBoss",
     "weaknesses": [
       "Physical",
@@ -6735,8 +6742,8 @@
       "icon": "GameData/hsr/assets/monsters/Monster_4015010.webp"
     },
     "liveComparison": {
-      "liveHash": "c02c7a141e3a86de79061160d65a6ff5ecef85b232e92d22be3affbe9bb4249d",
-      "currentHash": "e58e71cf2c7cc854a5213d75c9423fdac092883b1b1349ad5f09d35e3d128583"
+      "liveHash": "3a38f67f66b1f5bd06021306209dfb9e832c5bd57df04cb2b5d28c95a1312297",
+      "currentHash": "3a38f67f66b1f5bd06021306209dfb9e832c5bd57df04cb2b5d28c95a1312297"
     }
   },
   {
@@ -8130,7 +8137,7 @@
   },
   {
     "id": "4062021",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Avenger Squadron: Canine",
     "rank": "MinionLv2",
     "camp": 18,
@@ -8143,7 +8150,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_4062020.webp"
     },
     "liveComparison": {
-      "liveHash": "026006bf1944d94e7df9bd7d3a9d0e463a09737f434ce0961258f45c38e6f2af",
+      "liveHash": "20c21db32760a0cbc70da7ea9b0d0acd234fbcce778f35d2d0f4ee93d0aaedcf",
       "currentHash": "20c21db32760a0cbc70da7ea9b0d0acd234fbcce778f35d2d0f4ee93d0aaedcf"
     }
   },
@@ -8189,7 +8196,7 @@
   },
   {
     "id": "4063012",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Avenger Squadron: Winged Serpent",
     "rank": "Elite",
     "camp": 18,
@@ -8203,7 +8210,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_4063010.webp"
     },
     "liveComparison": {
-      "liveHash": "0d03744184bb813ce9ead38d438666d348e3585a284f23aa274b9b0f3edb6d3c",
+      "liveHash": "89eb82ee203a9154b7475e4995441d33dfad7bd777cf4d627b30cd8829d57168",
       "currentHash": "89eb82ee203a9154b7475e4995441d33dfad7bd777cf4d627b30cd8829d57168"
     }
   },
@@ -9260,8 +9267,8 @@
   },
   {
     "id": "5014022",
-    "contentStatus": "beta_changed",
-    "name": "Alloy Mechatron: King Pom-Pom",
+    "contentStatus": "live",
+    "name": "Imagenae Apex Depredator",
     "rank": "LittleBoss",
     "camp": 17,
     "weaknesses": [
@@ -9275,7 +9282,7 @@
     },
     "liveComparison": {
       "liveHash": "9122c4aa8898edba045609c002191b1f974b66b8f871e7d7436a10e1071f38b3",
-      "currentHash": "f17df15393d2915f68b3d3b6259cbda85cd6ed67fae0db1d660deaf73655b089"
+      "currentHash": "9122c4aa8898edba045609c002191b1f974b66b8f871e7d7436a10e1071f38b3"
     }
   },
   {
@@ -9456,7 +9463,7 @@
   },
   {
     "id": "5023013",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Joy Ascendant (Bug)",
     "rank": "Elite",
     "camp": 17,
@@ -9470,12 +9477,13 @@
       "icon": "GameData/hsr/assets/monsters/Monster_5023010.webp"
     },
     "liveComparison": {
+      "liveHash": "4dd7e8ffc89c248014dd80c1f6f4f0936b75d90bc80ffca973007d16ebf4ce2e",
       "currentHash": "4dd7e8ffc89c248014dd80c1f6f4f0936b75d90bc80ffca973007d16ebf4ce2e"
     }
   },
   {
     "id": "5023014",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Joy Ascendant: Prelude (Bug)",
     "rank": "Elite",
     "weaknesses": [
@@ -9488,12 +9496,13 @@
       "icon": "GameData/hsr/assets/monsters/Monster_5023010.webp"
     },
     "liveComparison": {
+      "liveHash": "52539eb8926ff837b29cbfe0ffd555d62250b5912326ce3703ce5972e703a6b9",
       "currentHash": "52539eb8926ff837b29cbfe0ffd555d62250b5912326ce3703ce5972e703a6b9"
     }
   },
   {
     "id": "5023015",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Joy Ascendant: Finale (Bug)",
     "rank": "Elite",
     "weaknesses": [
@@ -9506,6 +9515,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_5023010.webp"
     },
     "liveComparison": {
+      "liveHash": "68bedb749b8ab8a551c3747ae2e15c83ff652fb7051467ab81f87c5b905d39ce",
       "currentHash": "68bedb749b8ab8a551c3747ae2e15c83ff652fb7051467ab81f87c5b905d39ce"
     }
   },
@@ -9551,7 +9561,7 @@
   },
   {
     "id": "5023022",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "God-Devourer Offspring (Bug)",
     "rank": "Elite",
     "camp": 17,
@@ -9565,6 +9575,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_5023020.webp"
     },
     "liveComparison": {
+      "liveHash": "0b81e0394f113423ef13671702d77e60aef0bdd38db3b3afafdc479827d0c182",
       "currentHash": "0b81e0394f113423ef13671702d77e60aef0bdd38db3b3afafdc479827d0c182"
     }
   },
@@ -9630,7 +9641,7 @@
   },
   {
     "id": "5024013",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Paramount Bliss Inverted: Illwish Archlotus (Complete)",
     "rank": "LittleBoss",
     "camp": 17,
@@ -9644,12 +9655,13 @@
       "icon": "GameData/hsr/assets/monsters/Monster_5024010.webp"
     },
     "liveComparison": {
+      "liveHash": "dcb0c412f83a2070105a123345b7a08f778e4546225b961c0472176f7b2f9756",
       "currentHash": "dcb0c412f83a2070105a123345b7a08f778e4546225b961c0472176f7b2f9756"
     }
   },
   {
     "id": "5024014",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Paramount Bliss Inverted: Illwish Archlotus",
     "rank": "LittleBoss",
     "camp": 17,
@@ -9663,7 +9675,65 @@
       "icon": "GameData/hsr/assets/monsters/Monster_5024010.webp"
     },
     "liveComparison": {
+      "liveHash": "0c8755ae771c92dec55b2d3a42d8517ecf4b1dc04106c45db601f5acd74c793f",
       "currentHash": "0c8755ae771c92dec55b2d3a42d8517ecf4b1dc04106c45db601f5acd74c793f"
+    }
+  },
+  {
+    "id": "5032010",
+    "contentStatus": "beta",
+    "name": "Frenzied Beast's Seed Germ",
+    "rank": "MinionLv2",
+    "camp": 19,
+    "weaknesses": [
+      "Fire",
+      "Wind",
+      "Imaginary"
+    ],
+    "description": "...",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5032010.webp"
+    },
+    "liveComparison": {
+      "currentHash": "55cb7b9242c39ea2a79056d73e629432124c7c5fcfb3000770d7722e5615c7d9"
+    }
+  },
+  {
+    "id": "5034010",
+    "contentStatus": "beta",
+    "name": "BOSS",
+    "rank": "LittleBoss",
+    "camp": 19,
+    "weaknesses": [
+      "Ice",
+      "Quantum",
+      "Imaginary"
+    ],
+    "description": "...",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5034010.webp"
+    },
+    "liveComparison": {
+      "currentHash": "5b4661e5716c3b34579257289ef4fd61c09bcdbce9c96fc6d56253974ad64db0"
+    }
+  },
+  {
+    "id": "5034011",
+    "contentStatus": "beta",
+    "name": "BOSS",
+    "rank": "LittleBoss",
+    "camp": 19,
+    "weaknesses": [
+      "Ice",
+      "Quantum",
+      "Imaginary"
+    ],
+    "description": "...",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5034010.webp"
+    },
+    "liveComparison": {
+      "currentHash": "65d0a52d3042a371ee42cc870a898de513573c1218bc291235f4cc53eac89de9"
     }
   },
   {
@@ -9736,6 +9806,20 @@
     "liveComparison": {
       "liveHash": "8a66230f3712b1b76f7a40154cc2c8065a3978d2a959f9d42f10a7c97a8e8363",
       "currentHash": "8a66230f3712b1b76f7a40154cc2c8065a3978d2a959f9d42f10a7c97a8e8363"
+    }
+  },
+  {
+    "id": "8001032",
+    "contentStatus": "beta",
+    "name": "Borrowed Force",
+    "rank": "Minion",
+    "weaknesses": [],
+    "description": "The magic orbs summoned by Herta can be attacked.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_8001030.webp"
+    },
+    "liveComparison": {
+      "currentHash": "19ba692afb075b7056414d2b944a66eec5c8a9f26d5e1cc084e377ad558801c3"
     }
   },
   {
@@ -11095,7 +11179,7 @@
   },
   {
     "id": "8013010",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Voidranger: Trampler",
     "rank": "Elite",
     "camp": 6,
@@ -11109,13 +11193,13 @@
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
-      "liveHash": "37ee1f0784ad3f80ba54f55647c7df4e836ac41860b5fc5e2508273bd65c4f51",
+      "liveHash": "3f0b5ead850d3f88818e15357ebb3288abb3ffc4362f923c8365a08a7540e9e5",
       "currentHash": "3f0b5ead850d3f88818e15357ebb3288abb3ffc4362f923c8365a08a7540e9e5"
     }
   },
   {
     "id": "8013011",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Voidranger: Trampler (Bug)",
     "rank": "Elite",
     "weaknesses": [
@@ -11128,13 +11212,13 @@
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
-      "liveHash": "5e4fa2da7998106cf57626a0d6121874a3eb022ddec4114b2eb64830d0cc6824",
+      "liveHash": "01f3b126fe7b19f9101f7dfeac8a94d6a8aabf5341f5616ddfa2ff7de16c2cb4",
       "currentHash": "01f3b126fe7b19f9101f7dfeac8a94d6a8aabf5341f5616ddfa2ff7de16c2cb4"
     }
   },
   {
     "id": "8013012",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Voidranger: Trampler",
     "rank": "Elite",
     "weaknesses": [
@@ -11147,13 +11231,13 @@
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
-      "liveHash": "c7667183dac2ffe6faa71bff7fe07037ea71f989aad28990b12ebd9c1ab5dbb9",
+      "liveHash": "a9a731e10277302350d913d4add25f3b6787d4ee349f3cdef6670394f1d00a6f",
       "currentHash": "a9a731e10277302350d913d4add25f3b6787d4ee349f3cdef6670394f1d00a6f"
     }
   },
   {
     "id": "8013013",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Voidranger: Trampler",
     "rank": "Elite",
     "weaknesses": [
@@ -11166,7 +11250,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     },
     "liveComparison": {
-      "liveHash": "14ac68a85ac814ff8a8ab13314538b8a2dd098810e555e5a7e93247366ba6326",
+      "liveHash": "a94a5e91bb9936990c7abeb74e103dcb7386967759a7a8abf359f11f7d2897f3",
       "currentHash": "a94a5e91bb9936990c7abeb74e103dcb7386967759a7a8abf359f11f7d2897f3"
     }
   },
@@ -11348,8 +11432,8 @@
   },
   {
     "id": "8015030",
-    "contentStatus": "beta_changed",
-    "name": "Planarcadia Boss",
+    "contentStatus": "live",
+    "name": "Lord of Saṃvartasthāyi, Asat Pramad",
     "rank": "BigBoss",
     "camp": 6,
     "weaknesses": [
@@ -11357,19 +11441,19 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "...",
+    "description": "The three faces of Paranirmitavaśavartin, and the true appearance of the Lord Ravager that wields authority over all possibilities.\\nAll things in myriad forms pass through \"Formation,\" \"Existence,\" and \"Decay,\" until they turn to \"Annihilation.\" Elation and time are mortal enemies. Beneath the endless erosion of the ages, all things shall fade into silence.\\nTo execute the Sky's decree of the Destruction, fulfilling the ambition of extinguishing all minds who bear emotions in the world.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8015030.webp"
     },
     "liveComparison": {
       "liveHash": "e016bcd7d5e4d0fb779762341684f160362261cc95003cf8d351ce92eefb4b95",
-      "currentHash": "13552164e205950a63a12db46cee806aeee6d1e57c81e45dfd705c3feb41a30c"
+      "currentHash": "e016bcd7d5e4d0fb779762341684f160362261cc95003cf8d351ce92eefb4b95"
     }
   },
   {
     "id": "8015040",
-    "contentStatus": "beta_changed",
-    "name": "Planarcadia Boss: \"Two\"",
+    "contentStatus": "live",
+    "name": "Lord of Saṃvartasthāyi, Asat Pramad: \"Existence\"",
     "rank": "BigBoss",
     "camp": 6,
     "weaknesses": [
@@ -11377,19 +11461,19 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "...",
+    "description": "A Navigator named \"Isee\" embarked on a trailblazing expedition to save the Elation.\\nHe helped planets overcome crises, resolving troubles across the cosmos, all to find a cure for the Elation.\\nYet, the longer his journey went on, the more familiar worlds he witnessed descending into corruption and ruin. One world even attempted to repay the Express Crew's rescue with mutual destruction.\\nUltimately, after the fall of the God of Trailblaze and having witnessed the end of Adlivun with his own eyes, he finally realized that the only cure for the Elation was... the Destruction.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8015040.webp"
     },
     "liveComparison": {
       "liveHash": "0ed8825cc301be804ce36a899aa56d1b2262ede3d37ec31539d6ef9379433069",
-      "currentHash": "f3f2f9ab87cb1922809ea4faf72ca5dac66fbd211bf9828321b03afb42a515e6"
+      "currentHash": "0ed8825cc301be804ce36a899aa56d1b2262ede3d37ec31539d6ef9379433069"
     }
   },
   {
     "id": "8015050",
-    "contentStatus": "beta_changed",
-    "name": "Planarcadia Boss: \"Three\"",
+    "contentStatus": "live",
+    "name": "Lord of Saṃvartasthāyi, Asat Pramad: \"Decay\"",
     "rank": "BigBoss",
     "camp": 6,
     "weaknesses": [
@@ -11397,13 +11481,13 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "...",
+    "description": "The Lord Ravager known as Asat Pramad is devising a game to destroy the Elation.\\nHe invades defenseless planets, forges from golden blood a lineage born only to destroy, all to mock life itself, and with it, mock the Elation.\\nYet, this is far from enough to satisfy him. To realize his grand ambition of eliminating the Elation, he resolves to awaken the Aeon to carry out the most thorough destruction, even if the cost might be himself.\\nUltimately, as the Express arrives once more, the time is ripe. He enters the game under a stolen identity, striving to craft the most magnificent and absolute finale to this game.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8015050.webp"
     },
     "liveComparison": {
       "liveHash": "fef82ed2484b3280647b84f21feb8090f46b5b125eb46034cb41f611c9216f0f",
-      "currentHash": "f0f9d22dac3e503e2783f9fe02a704a16ca2a2c27954504e52a4bf50a51f7be9"
+      "currentHash": "fef82ed2484b3280647b84f21feb8090f46b5b125eb46034cb41f611c9216f0f"
     }
   },
   {
@@ -11781,7 +11865,7 @@
   },
   {
     "id": "8032040",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Astropolis Sentinel",
     "rank": "MinionLv2",
     "camp": 9,
@@ -11794,6 +11878,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_8032040.webp"
     },
     "liveComparison": {
+      "liveHash": "fc6663a4d7aa2da027ff016a6c6e3bb93a1458e5a484d0263836f77d5981142d",
       "currentHash": "fc6663a4d7aa2da027ff016a6c6e3bb93a1458e5a484d0263836f77d5981142d"
     }
   },
@@ -11876,7 +11961,7 @@
   },
   {
     "id": "8033020",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Lighthouse",
     "rank": "Elite",
     "camp": 9,
@@ -11890,6 +11975,7 @@
       "icon": "GameData/hsr/assets/monsters/Monster_8033020.webp"
     },
     "liveComparison": {
+      "liveHash": "2498d8b899ade1703e368b9688439a7fbe159f0feed6aab261ee7ee47384ab61",
       "currentHash": "2498d8b899ade1703e368b9688439a7fbe159f0feed6aab261ee7ee47384ab61"
     }
   },

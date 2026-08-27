@@ -3,82 +3,55 @@
   "game": "hsr",
   "gameName": "Honkai: Star Rail",
   "channel": "live",
-  "version": "4.4",
-  "liveVersion": "4.4",
-  "betaVersion": "4.4.55",
+  "version": "4.5",
+  "liveVersion": "4.5",
+  "betaVersion": "4.5.51",
   "availableVersions": [
     "4.4",
     "4.4.51",
     "4.4.52",
     "4.4.53",
     "4.4.54",
-    "4.4.55"
+    "4.4.55",
+    "4.5",
+    "4.5.51"
   ],
-  "scrapedAt": "2026-08-07T03:24:29.160Z",
+  "scrapedAt": "2026-08-27T12:03:45.819Z",
   "counts": {
-    "characters": 95,
-    "lightcones": 165,
+    "characters": 97,
+    "lightcones": 169,
     "relics": 60,
-    "items": 1574,
-    "monsters": 613
+    "items": 1594,
+    "monsters": 628
   },
   "sourceCounts": {
-    "characters": 95,
-    "lightcones": 165,
+    "characters": 97,
+    "lightcones": 169,
     "relics": 60,
-    "items": 1574,
-    "monsters": 613
+    "items": 1594,
+    "monsters": 628
   },
   "newInManifest": {
     "character": [
-      1512,
-      1513
+      1503
     ],
     "lightcone": [
-      21066,
-      22008,
-      23063,
-      23064
+      23055
     ],
-    "relicset": [],
+    "relicset": [
+      133,
+      134
+    ],
     "monster": [
-      2022072,
-      2022082,
-      2022092,
-      2022102,
-      2023012,
-      2023032,
-      2024016,
-      5023013,
-      5023014,
-      5023015,
-      5023022,
-      5024013,
-      5024014,
-      8032040,
-      8033020
+      5032010,
+      5034010,
+      5034011,
+      8001032
     ],
     "item": [
-      140630,
-      140631,
-      140632,
-      140633,
-      140634,
-      402037,
-      402038,
-      403017,
-      406037,
-      406038,
-      407017,
-      408449,
-      408450,
-      408451,
-      408452,
-      408453,
-      408454,
-      408644,
-      408645,
-      408907
+      61,
+      62,
+      150102
     ]
   },
   "files": {
@@ -89,21 +62,45 @@
     "monsters": "GameData/hsr/live/monsters.json",
     "raw": "GameData/hsr/live/raw"
   },
-  "assetsPlanned": 2852,
+  "assetsPlanned": 2959,
   "betaOmissions": {
     "count": 0,
     "records": []
   },
   "contentStatus": "All records are Live records from the GameData live manifest version.",
   "assets": {
-    "requested": 2852,
+    "requested": 2959,
     "downloaded": 0,
-    "cached": 2851,
-    "missing": 1,
+    "cached": 2952,
+    "missing": 7,
     "missingAssets": [
       {
         "path": "GameData/hsr/assets/characters/avatar/1507.webp",
         "gamedataAssetPath": "avataricon/avatar/1507.webp"
+      },
+      {
+        "path": "GameData/hsr/assets/characters/avatar/1512.webp",
+        "gamedataAssetPath": "avataricon/avatar/1512.webp"
+      },
+      {
+        "path": "GameData/hsr/assets/characters/avatar/1513.webp",
+        "gamedataAssetPath": "avataricon/avatar/1513.webp"
+      },
+      {
+        "path": "GameData/hsr/assets/items/140614.webp",
+        "gamedataAssetPath": "itemfigures/140614.webp"
+      },
+      {
+        "path": "GameData/hsr/assets/items/1054406.webp",
+        "gamedataAssetPath": "itemfigures/1054406.webp"
+      },
+      {
+        "path": "GameData/hsr/assets/items/140630.webp",
+        "gamedataAssetPath": "itemfigures/140630.webp"
+      },
+      {
+        "path": "GameData/hsr/assets/items/140634.webp",
+        "gamedataAssetPath": "itemfigures/140634.webp"
       }
     ]
   },

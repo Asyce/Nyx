@@ -2,6 +2,7 @@
   "name": "Silver Wolf LV.<unbreak>999</unbreak>",
   "desc": "A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.<unbreak>999</unbreak>\"!\\nShe's conquered the universe, unlocked every cosmic achievement... What's left to play?\\n<i>\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"</i>",
   "chara_info": {
+    "camp": "Stellaron Hunters",
     "va": {
       "chinese": "Hanser",
       "japanese": "阿澄佳奈",
@@ -11,11 +12,468 @@
     "stories": {
       "0": "A new season of Elation begins, featuring the limited-time return of the invincible player \"Silver Wolf LV.<unbreak>999</unbreak>\"!\\nShe's conquered the universe, unlocked every cosmic achievement... What's left to play?\\n<i>\"Reach the peak of 'Elation'? Boring... Since I've got the cartridge now, I make the rules~\"</i>",
       "1": ">>><i>\"I'll join.\"</i>\\n>>>And just like that, the game called \"Punklorde\" ended that day.\\n>>>Admin \"ID: Elio\" granted access.\\n>>>\"ID: Silver Wolf\" has joined the \"Stellaron Hunters\" faction, logging into the game \"Cosmos.\"\\n\\n\"Companion System\"\\nThe girl used to be a lone wolf, but now she's got a few co-op allies: a lady with a <unbreak>10.899</unbreak> billion bounty on her head, and a guy and mech whose bounties are valued at <unbreak>8.13</unbreak> and <unbreak>9.723</unbreak> billion respectively.\\n<i>\"You all look pretty solid. Just don't drag me down.\"</i>\\nShe huffs and tosses a console each to all three.\\n<i>\"Wanna play a round?\"</i>\\n\\n\"Faction Buff\"\\nMastermind? Laughter's mischief?\\n<i>\"Come on. I don't mind being painted as the mastermind. Makes the game experience way more fun.\"</i>\\nWith enemy fire raining down from behind, she snapped her fingers, and Silver Wolf's graffiti plastered itself all over the latest wanted posters.\\n<i>\"Now try forgetting that. From now on, anytime someone mentions the Stellaron Hunters, they're immediately gonna think of Silver Wolf.\"</i>\\n\\n\"Main Missions\"\\nAdministrator \"ID: Elio\" sets goals for the Hunters but doesn't restrict how they achieve them.\\nIn those worlds ravaged by Stellarons, she witnessed her allies' special abilities.\\n<i>\"Toying with prey? Too elegant. I'm not that classy.\"\\n\"Can't die? No catch?\"\\n\"Armor's here...I need a better-looking new set to play with too.\"</i>\\nShe calls out to Elio, frustration in her voice: \\n<i>\"Hey, everyone else gets all these perks, so why do I have to start the mission from scratch?\"</i>\\n\\n\"WARNING\"\\nWarning! Stellaron Hunters collection storage has been breached!\\nWarning! Top secret classified item, \"Silver Wolf LV.<unbreak>999</unbreak>\" Aether Cartridge has been stolen!\\n<i>\"How can I steal something that was mine in the first place? Leaving!\"</i>\\nThe girl makes a face at the camera.\\nWarning! Unauthorized use of the \"Silver Wolf LV.<unbreak>999</unbreak>\" Cartridge will result in unpredictable consequences!\\n<i>\"As if... Just see how many ways of gameplay I can unlock with this!\"</i>\\n\\n>>>\"ID: Silver Wolf\" has logged out of \"Cosmos\"\\n>>>\"ID: Silver Wolf LV.<unbreak>999</unbreak>\" has logged in to \"Cosmos\"\\n>>>Warning! Warning! Warning!\\n>>>\"Script\" detected █████",
-      "2": "\"Backstage Paintball\" was the first thing that came to her mind. You toss a ball into the screen here, and it flies out from another screen halfway across the cosmos.\\nIf a bunch of Masked Fools dared to feed her false intel and run their mouths...\\n<i>\"Come at me through the internet if you've got the guts.\"</i>\\n...she'd be more than happy to oblige their wish. That bomb could blow their local tavern sky-high.\\n\\nThe \"Formatting Gun\" breaks down everything it touches into pixels, triggering a \"shot\" that formats all data.\\n<i>\"If I want to uncover the true face of the Pure Child of Anāsrava, I'll need to be able to get out of the Garden of Recollection in one piece...\"</i>\\nThe girl imagined herself sneaking into the Garden, searching for clues...\\n<i>\"I might as well format the Memokeepers' memories too! They'll definitely be standing there stunned, watching me slip away like I'm a total stranger!\"</i>\\n\\n\"Greedy Snake,\" a curio modeled after the Leviathan \"Voracity.\" Originally shaped like a snake, but the more it eats, the more it transforms into a donut.\\nShe forgot it on top of a volcano, but two system hours later, she spotted it immediately...\\nBecause the volcano was gone.\\n\\nThe detention room door swung open, revealing a woman leaning against the door frame, gazing helplessly at the graffiti covering every inch of the walls.\\n<i>\"Playtime's over, Silver Wolf.\"</i>\\nThe girl tossed aside her marker with boredom.\\n<i>\"I've already figured out what I'm doing next time. You can't keep me locked up.\"\\n\"Do you have any idea how much chaos you caused messing around with that cartridge?\"\\n\"Oh, I remember.\"</i>\\nA sly grin spread across the girl's face.\\n<i>\"You mean how the Cosmic Big Lotto spit out a million jackpots and Oswaldo himself had to shut the whole thing down?\"\\n\"Or wait, are you talking about when the Harmonic Strings hit three wrong notes in a row? Totally unprecedented.\"\\n\"You're not still on about Screwllum, are you? That was all fake. I didn't actually disassemble him into spare parts, okay? And even if I did, it's not like I'm scared of him getting payback.\"</i>\\nThe woman shook her head.\\n<i>\"I'm talking about you. You nearly didn't make it. That cartridge was controlling you.\"</i>\\nThe girl turned her head away.\\n<i>\"Don't need you worrying about me... Next time, I'll just come up with some new tricks.\"</i>\\n\\n>>> \"ID: Silver Wolf LV.<unbreak>999</unbreak>\" has logged out of \"Cosmos\"\\n>>> \"ID: Silver Wolf\" has logged in to \"Cosmos\"",
+      "2": "\"Backstage Paintball\" was the first thing that came to her mind. You toss a ball into the screen here, and it flies out from another screen halfway across the cosmos.\\nIf a bunch of Masked Fools dared to feed her false intel and run their mouths...\\n<i>\"Come at me through the internet if you've got the guts.\"</i>\\n...she'd be more than happy to oblige their wish. That bomb could blow their local tavern sky-high.\\n\\nThe \"Formatting Gun\" breaks down everything it touches into pixels, triggering a \"shot\" that formats all data.\\n<i>\"If I want to uncover the true face of the Pure Child of Anāsrava, I'll need to be able to get out of the Garden of Recollection in one piece...\"</i>\\nThe girl imagined herself sneaking into the Garden, searching for clues...\\n<i>\"I might as well format the Memokeepers' memories too! They'll definitely be standing there stunned, watching me slip away like I'm a total stranger!\"</i>\\n\\n\"Greedy Snake,\" a curio modeled after the leviathan \"Voracity.\" Originally shaped like a snake, but the more it eats, the more it transforms into a donut.\\nShe forgot it on top of a volcano, but two system hours later, she spotted it immediately...\\nBecause the volcano was gone.\\n\\nThe detention room door swung open, revealing a woman leaning against the door frame, gazing helplessly at the graffiti covering every inch of the walls.\\n<i>\"Playtime's over, Silver Wolf.\"</i>\\nThe girl tossed aside her marker with boredom.\\n<i>\"I've already figured out what I'm doing next time. You can't keep me locked up.\"\\n\"Do you have any idea how much chaos you caused messing around with that cartridge?\"\\n\"Oh, I remember.\"</i>\\nA sly grin spread across the girl's face.\\n<i>\"You mean how the Cosmic Big Lotto spit out a million jackpots and Oswaldo himself had to shut the whole thing down?\"\\n\"Or wait, are you talking about when the Harmonic Strings hit three wrong notes in a row? Totally unprecedented.\"\\n\"You're not still on about Screwllum, are you? That was all fake. I didn't actually disassemble him into spare parts, okay? And even if I did, it's not like I'm scared of him getting payback.\"</i>\\nThe woman shook her head.\\n<i>\"I'm talking about you. You nearly didn't make it. That cartridge was controlling you.\"</i>\\nThe girl turned her head away.\\n<i>\"Don't need you worrying about me... Next time, I'll just come up with some new tricks.\"</i>\\n\\n>>> \"ID: Silver Wolf LV.<unbreak>999</unbreak>\" has logged out of \"Cosmos\"\\n>>> \"ID: Silver Wolf\" has logged in to \"Cosmos\"",
       "3": "The girl has an \"achievement wall,\" on which she awards herself a digital badge every time she hits a goal.\\nBy now, her achievements are too numerous to count...\\n\\nAchievement: \"Solo Maxxing\"\\nDescription: Become a living LEGEND in Punklorde\\nStatus: Completed\\nPlayer Review: <i>\"For me, the hardest part wasn't surviving. It was staying in Punklorde and getting stuck in place.\"</i>\\n\\nAchievement: \"Friend of the IPC\"\\nDescription: Evenly distribute the IPC's virtual currency among all \"Star Cheetah\" players\\nStatus: Completed\\nPlayer Review: <i>\"They're pinning their year-end accounting discrepancies on us again. 'All for the Amber Lord' they say. More like 'Blame it all on the Stellaron Hunters.' Fine, have it your way. While I'm at it, might as well leak all their dirty laundry too... Hope they raise my bounty even higher.\"</i>\\n\\nAchievement: \"Even Bladie Would Disapprove This\"\\nDescription: Tank all the attacks from the cyberdemons in Jepella, the city of sins\\nStatus: Completed\\nPlayer Review: <i>\"That time in Jepella, I left behind a super cool line in the sky: 'City of sins, I absolve you from being guilty.'\"</i>\\n\\nAchievement: \"What a Genius\"\\nDescription: Engage in an information battle against a Genius and obtain an <s>A</s>SSS rating.\\nStatus: Completed\\nPlayer Review: <i>\"Is Screwllum a sore loser or what? Using admin privileges to force-disconnect me? Talk about playing dirty!\"</i>\\n...\\n\\nThe girl kept smashing her own records, yet at the end of that achievement wall, one badge remained unlit.\\nEngraved on it was a figure similar to her own, but far more flamboyant. It was the vision of some possible future, standing at the peak of Elation, having reached the absolute limit: \"Silver Wolf LV.<unbreak>999</unbreak>...\"\\n\\nAchievement: \"GAME NOT OVER\"\\nStatus: Incomplete\\nDescription: Break through the LV.<unbreak>999</unbreak> limit and keep this game going forever.",
       "4": "<i>\"First off, as a diehard veteran player of 'αWolf,' let me roast the previous game's producer\\n...Aha's just an Aeon of Elation who doesn't know jack about making games.\\n\\nForcing me to start with a brutal opening like \"Wandering Orphan,\" grinding experience with that starter cartridge? Talk about a slog! Would it kill you to let me have some fun?\\nOnce I survived the opening, things got way better. Becoming the overlord of the Dark Zone Empire, recruiting the Rangers and taverns, and becoming the new master of Device IX, pretty cool stuff. But then the game just... ends? Seriously? What a cop-out!\\nGood thing I knew about your level cap setting, LV.<unbreak>999</unbreak>. Otherwise, making me fight someone who looks exactly like me, and every attack she makes is like saying \"Tired. I am so done...\" Do you have ANY idea how terrifying that is!?\\n\\nAnyway, back to business! \"αWolf Online,\" which I've been working on for ages, is finally ready to meet you all.\\nTo address the pain points mentioned above, I've made the following improvements:\\n\\n1. Massive Time-Saver! No Grind Required, Level up with One Click\\nJust complete the Stellaron Hunter bootcamp, and you'll unlock the latest form with a single click, gaining brand-new powerful items. Trust me, it'll carry you to victory!\\n2. New Feature! Experience the Story Your Way\\nWhen Elation arrives, even the script has to step aside. Play however you want, whenever you want.\\n3. New Mode! Face a challenge without limit in the Infinite DLC\\nSay goodbye to boring grinding. The best part of the game is always ahead. Hit LV.<unbreak>999</unbreak>? So what? Beyond the peak of Elation, there's an even higher summit waiting.\\n\\nAha, see that? Now THIS is what a next-gen game looks like.\\nBut by choosing αWolf Online, you've chosen \"Nightmare Mode.\" A one-life clear is just the baseline. And every boss is different from the last.\\nSo, you're probably wondering: What happens when you fail?\\n\\nOf course, the odds of that happening are basically zero. But if it does, I hope everyone playing this game remembers:\\nThis cartridge chronicles an unprecedented hacker's journey. Reaching the end is important, but having more fun along the way is even more important!\\n\\nNext up, get ready for the grand opening of αWolf Online!\\nTo all you folks watching, I wish you joy, and I wish myself a blast!\"</i>\\n\\n<align=\"right\">— Message from developer Silver Wolf</align>\\n\\n>>> Administrator \"ID: Elio\" has granted LV.<unbreak>999</unbreak> cartridge permissions.\\n>>> \"Phantasmoon Games\" raid loading...\\n>>> \"Script\" temporarily disabled.\\n>>> \"ID: Silver Wolf LV.<unbreak>999</unbreak>\" logging into \"Phantasmoon Games\"..."
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "LV.<unbreak>999</unbreak> mode, my final form, first time seeing it, right? Let's hit up a high-difficulty Raid. I'll carry you. One-button clear.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Cosmicon Collective is pretty fun. Wanna play some more today?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "I'm off. Catch you tomorrow... And don't even think about quitting.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: \"LV.<unbreak>999</unbreak>\" Cartridge",
+        "voice_m": "An unbeatable LV.<unbreak>999</unbreak> save file. That was supposed to be my endgame, what The Laughter calls the pinnacle of Elation: beating every \"game\" in the cosmos. Please, that sounds mind-numbingly dull... Good thing I've got my hands on this cartridge. From here on out, I make the rules on how we play~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Combat",
+        "voice_m": "Ugh, space constraints holding me back. I've got way cooler tricks I haven't shown off yet... Let's see if anyone can make me go full throttle. Maybe one day I'll hit a damage number even more explosive than <unbreak>999</unbreak>.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Phantasmoon Games",
+        "voice_m": "Are the folks in Planarcadia always such try-hards? Do they even realize they're the ones getting played?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Current Situation",
+        "voice_m": "You've seen the recent chaos, haven't you? I respect everyone's right to quit this game we call the \"cosmos,\" but ruining the fun for everyone else? No way.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: Hacking",
+        "voice_m": "Fools will happily let their masks hijack their minds just to get a laugh out of Aha. Hackers aren't that pathetic. Our own fun comes first.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Hobbies",
+        "voice_m": "I've been into playing with fidget toys lately. Gotta keep the fingers nimble. I heard walnuts from the Xianzhou are pretty good too. I'll give 'em a try next time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Annoyances",
+        "voice_m": "The \"script\" is getting way too detailed lately. Can't I at least put in some of my own easter eggs?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Something to Share",
+        "voice_m": "\"Zero,\" \"Stoneblade\"... Most legendary hackers' Aether Cartridges end up as collectibles known across the universe. But mine... From Punklorde to the Stellaron Hunters, I want \"Silver Wolf\" to stay live forever, always getting new DLC.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Knowledge",
+        "voice_m": "There's a saying on Punklorde: \"Why change the world when you can create one?\" Isn't Planarcadia just something the IPC salvaged using clumsy aether editing? If I were in charge, there wouldn't be nearly as many bugs.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "I kinda want to punch myself into memory loss too, just so I can re-roll my team comp and play through it all again. *sigh* I'm jealous. Unlocking all those side quests is way more fun than just following the main quest script like us.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Blade",
+        "voice_m": "He's been dying to do this mission for a long time... But if you ask me, who's to say there isn't a hidden ending?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Firefly",
+        "voice_m": "If you compare Firefly's life to a game, her play-style isn't as smooth as before... because for the first time, the character on screen is moving according to her own will.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Kafka",
+        "voice_m": "It's not just you. Even I haven't seen her much lately. She'll complete the missions Elio assigns her, of course. But as for what's really going on in that head of hers... That's anybody's guess.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Elio",
+        "voice_m": "Does Elio seriously not get me? As long as you win the final boss fight, losing once or a hundred times along the way is just part of the fun, isn't it?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About The Herta",
+        "voice_m": "I forget when it started, but she's been getting personally involved a lot more often. To be honest, that's not a good sign.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Sparxie",
+        "voice_m": "Her livestreams are popular not because she's got good taste in games, but purely because she's entertaining to watch. It has absolutely nothing to do with whether the game is actually fun or not.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Yao Guang",
+        "voice_m": "Someone who refuses to submit to destiny is either a god-like teammate or a nightmarish opponent.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Ashveil",
+        "voice_m": "You watch him go stealth, lie in wait, and land a one-hit kill... but once he clears the stage, he just sighs and never logs in again. For someone like him, the journey is just too exhausting.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Pearl",
+        "voice_m": "An artist who's too chicken to deal with wanted criminals can't possibly be a good IPC employee. Whoever said she doesn't understand the art of games?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About Evanescia",
+        "voice_m": "It's rare to run into such a hardcore fan. She knows about tons of retro games and comics. She's practically a living Planarcadia entertainment encyclopedia.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Mortenax Blade",
+        "voice_m": "Mine is just a temporary overclock, so who should be envying whom?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Himeko • Nova",
+        "voice_m": "Solo play and leading a raid are two completely different concepts. I've actually got a lot of respect for someone who can carry a whole team like that.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Hehe, one step closer to the perfect build.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "When are we gonna get a \"Level Up All\" button?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Now we can really have some fun!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "I always max out my Talents first. What about you?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Oh? Finally on the same team. Wish granted.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Silver Wolf",
+        "voice_m": "Double login? Just report it as a bug.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Kafka",
+        "voice_m": "I went through all the trouble of equipping this loadout. Can't you let me enjoy it a little longer?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Blade",
+        "voice_m": "No need to take the \"game\" so seriously. Loosen up a little~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "Added to Team With Firefly",
+        "voice_m": "Alright, take your time. I'll cover you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "Added to Team With The Herta",
+        "voice_m": "Whoa, finally got matched with the real deal. Can we lock the party size to two?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "Added to Team With Herta",
+        "voice_m": "What, you think \"turn-based\" means you can just toss in a puppet and go AFK?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 112,
+        "voice_title": "Added to Team With Ashveil",
+        "voice_m": "Easy there, you can't just release that \"beast\" in your arm back into the wild.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 113,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "I hear you're a god-tier support?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 114,
+        "voice_title": "Added to Team With Sparxie",
+        "voice_m": "Well, since you're here, how about we do a collab stream?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 115,
+        "voice_title": "Added to Team With Evanescia",
+        "voice_m": "Go on, then. What kind of stunt are you planning to pull?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 116,
+        "voice_title": "Added to Team With Mortenax Blade",
+        "voice_m": "Hey, looks like you've gotten a \"blade\" upgrade too!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 117,
+        "voice_title": "Added to Team With Himeko • Nova",
+        "voice_m": "Teaming up with the Astral Express? This run should be a record-breaker.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "So, who's the real boss here?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Oh, intentionally feeding?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Absolute top-tier play.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Time to unwind with some pub-stomping.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Just turn on auto. I'll carry.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "How's my fist?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill 1",
+        "voice_m": "Let me teach you some moves. Get all that?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill 2",
+        "voice_m": "Here it comes, unlimited firepower!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Fine.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "My perfect speedrun...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "No more messing around. This next round: real gaming!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Elation Skill 1",
+        "voice_m": "Wiped the floor with 'em.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Elation Skill 2",
+        "voice_m": "It's all about the thrill.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Enhanced Elation Skill 1",
+        "voice_m": "Feast your eyes, Aha! Time for a real show!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Enhanced Elation Skill 2",
+        "voice_m": "Watch and learn: THIS is Honkai!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Enhanced Basic ATK: System Sound 1",
+        "voice_m": "Bonus round incoming!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Enhanced Basic ATK: System Sound 2",
+        "voice_m": "Crazy!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Enhanced Basic ATK: System Sound 3",
+        "voice_m": "Bravo!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Enhanced Basic ATK: System Sound 4",
+        "voice_m": "Amazing!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Enhanced Basic ATK: System Sound 5",
+        "voice_m": "Stellar Skills!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Enhanced Basic ATK: System Sound 6",
+        "voice_m": "Super Slay Silver Wolf!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Enhanced Basic ATK: Idling",
+        "voice_m": "Just press it, buddy.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Downed",
+        "voice_m": "I screwed up...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Return to Battle",
+        "voice_m": "Nice, an extra life.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Health Recovery",
+        "voice_m": "This backup is god-tier.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "Technique",
+        "voice_m": "Let's have some fun~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 228,
+        "voice_title": "Battle Won",
+        "voice_m": "Zero skill, all grind.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 229,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "The drop rates are this bad?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 230,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Not a mimic? Not interested.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 231,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Whoa, a huge chest here.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 232,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "You sure that wasn't a tutorial?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 233,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Good enough for killing time.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 234,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "You? Blocking me? Hilarious.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 235,
+        "voice_title": "Returning to Town",
+        "voice_m": "Saving progress. Next time, let's crank it up a notch.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "silverwolflv999",
@@ -50,7 +508,7 @@
         },
         "10000009": {
           "name": "Buff",
-          "desc": "Can buff combat ability for a period of time, which can be dispelled unless otherwise specified.",
+          "desc": "All status effects that provide beneficial combat buffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }
@@ -351,7 +809,7 @@
         },
         "10000017": {
           "name": "True DMG",
-          "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as using 1 attack.",
+          "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as launching 1 attack.",
           "param": []
         },
         "10000027": {
@@ -848,7 +1306,7 @@
         },
         "10000009": {
           "name": "Buff",
-          "desc": "Can buff combat ability for a period of time, which can be dispelled unless otherwise specified.",
+          "desc": "All status effects that provide beneficial combat buffs, can be dispelled unless stated otherwise.",
           "param": []
         },
         "10015061": {

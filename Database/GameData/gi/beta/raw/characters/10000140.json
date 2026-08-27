@@ -7,14 +7,14 @@
       1,
       1
     ],
-    "vision": "",
+    "vision": "Hydro",
     "vision_special_type_before": "",
     "vision_special_type_after": "",
-    "constellation": "",
+    "constellation": "Piscicula Aurea",
     "region": "ASSOC_TYPE_SNEZHNAYA",
-    "title": "",
-    "native": "",
-    "detail": "",
+    "title": "Lingering Siren-Song",
+    "native": "Korolevskiy Troupe",
+    "detail": "???",
     "va": {
       "chinese": "???",
       "japanese": "???",
@@ -24,42 +24,42 @@
     "stories": [
       {
         "title": "???",
-        "text": "",
+        "text": "???",
         "unlock": []
       },
       {
         "title": "???",
-        "text": "",
+        "text": "???",
         "unlock": []
       },
       {
         "title": "???",
-        "text": "",
+        "text": "???",
         "unlock": []
       },
       {
         "title": "???",
-        "text": "",
+        "text": "???",
         "unlock": []
       },
       {
         "title": "???",
-        "text": "",
+        "text": "???",
         "unlock": []
       },
       {
         "title": "???",
-        "text": "",
-        "unlock": []
-      },
-      {
-        "title": "",
-        "text": "",
+        "text": "???",
         "unlock": []
       },
       {
         "title": "???",
-        "text": "",
+        "text": "???",
+        "unlock": []
+      },
+      {
+        "title": "???",
+        "text": "???",
         "unlock": []
       }
     ],
@@ -451,8 +451,8 @@
     "costume": [
       {
         "id": 214000,
-        "name": "",
-        "desc": "",
+        "name": "Surging Resonance",
+        "desc": "Vodyanitsa's outfit. It is said to draw inspiration from various cultural traditions related to the Water Imps. For more details on these cultural elements, please direct them to Miss Vodyanitsa.\\nOf course, do wait until she is taking a break from her performances if you wish to ensure that she has time to spare.",
         "icon": "",
         "quality": 0
       }
@@ -1729,7 +1729,7 @@
     {
       "id": 11402,
       "name": "Rechitativ: Sonorous Dawn",
-      "desc": "Reveals her true Water Imp form, dealing <color=#80C0FFFF>AoE Hydro DMG</color>. Opponents hit have their <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> lowered as a result. Also gains the <color=#FFD780FF>Song of Ages Past</color> effect: Over its duration, Vodyanitsa summons the ancient <color=#FFD780FF>Horn of Spring's Call</color>, periodically moving closer to an opponent in a swift movement to attack them, dealing <color=#80C0FFFF>Hydro DMG</color>\\nOpponents that have taken the above two types of DMG will also have their <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> lowered. Additionally, while the <color=#FFD780FF>Song of Ages Past</color> effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.\\n\\n<i>\"I shall not lament, and nor shall I call out or weep. All things shall pass, like mist that softly drifts across the boughs of the white apple trees.\"\\n\"And yet, and yet — for all living things upon the earth, I wish you everlasting beauty and happiness.\"</i>",
+      "desc": "Reveals her true Water Imp form, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and gaining the <color=#FFD780FF>Song of Ages Past</color> effect: Over its duration, Vodyanitsa summons the ancient <color=#FFD780FF>Horn of Spring's Call</color>, periodically moving closer to an opponent in a swift movement to attack them, dealing <color=#80C0FFFF>Hydro DMG</color>\\nOpponents that have taken the above two types of DMG will also have their <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> lowered. Additionally, while the <color=#FFD780FF>Song of Ages Past</color> effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.\\n\\n<i>\"I shall not lament, nor shall I call out or weep. All things shall pass, like mist that softly drifts across the boughs of the white apple trees.\"\\n\"And yet, and yet — for all living things upon the earth, I wish you everlasting beauty and happiness.\"</i>",
       "promote": {
         "0": {
           "level": 1,
@@ -1764,7 +1764,7 @@
             269.62854,
             0.028,
             1.5,
-            0.143,
+            0.165,
             6,
             16,
             0,
@@ -1817,7 +1817,7 @@
             296.59515,
             0.0301,
             1.5,
-            0.156,
+            0.18,
             6,
             16,
             0,
@@ -1870,7 +1870,7 @@
             325.80896,
             0.0322,
             1.5,
-            0.169,
+            0.195,
             6,
             16,
             0,
@@ -1923,7 +1923,7 @@
             357.27,
             0.035,
             1.5,
-            0.182,
+            0.21,
             6,
             16,
             0,
@@ -1976,7 +1976,7 @@
             390.97824,
             0.0371,
             1.5,
-            0.195,
+            0.225,
             6,
             16,
             0,
@@ -2029,7 +2029,7 @@
             426.93372,
             0.0392,
             1.5,
-            0.208,
+            0.24,
             6,
             16,
             0,
@@ -2082,7 +2082,7 @@
             465.1364,
             0.042,
             1.5,
-            0.221,
+            0.255,
             6,
             16,
             0,
@@ -2135,7 +2135,7 @@
             505.5863,
             0.0448,
             1.5,
-            0.234,
+            0.27,
             6,
             16,
             0,
@@ -2188,7 +2188,7 @@
             548.28345,
             0.0476,
             1.5,
-            0.247,
+            0.285,
             6,
             16,
             0,
@@ -2241,7 +2241,7 @@
             593.2278,
             0.0504,
             1.5,
-            0.26,
+            0.3,
             6,
             16,
             0,
@@ -2294,7 +2294,7 @@
             640.4193,
             0.0532,
             1.5,
-            0.2756,
+            0.318,
             6,
             16,
             0,
@@ -2347,7 +2347,7 @@
             689.8581,
             0.056,
             1.5,
-            0.2912,
+            0.336,
             6,
             16,
             0,
@@ -2400,7 +2400,7 @@
             741.54407,
             0.0595,
             1.5,
-            0.3068,
+            0.354,
             6,
             16,
             0,
@@ -2453,7 +2453,7 @@
             795.4773,
             0.063,
             1.5,
-            0.3224,
+            0.372,
             6,
             16,
             0,
@@ -2506,7 +2506,7 @@
             851.6577,
             0.0665,
             1.5,
-            0.338,
+            0.39,
             6,
             16,
             0,
@@ -3339,7 +3339,7 @@
       "icon": "UI_Talent_S_Vodyanitsa_06",
       "unlock": 1,
       "param_list": [
-        0.3,
+        0.35,
         6,
         0,
         0,
@@ -3369,11 +3369,11 @@
     {
       "id": 1402201,
       "name": "Dirge of the Fandyr",
-      "desc": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, Vodyanitsa will also gain 17 stacks of {LINK#N11400001}<color=#FFD780FF>Lead Vocal</color>{/LINK} as well as 10 stacks of {LINK#N11400002}<color=#FFD780FF>Chorus</color>{/LINK}.\\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
+      "desc": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, Vodyanitsa will also gain 25 stacks of {LINK#N11400001}<color=#FFD780FF>Lead Vocal</color>{/LINK} as well as 10 stacks of {LINK#N11400002}<color=#FFD780FF>Chorus</color>{/LINK}.\\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
       "icon": "UI_Talent_S_Vodyanitsa_05",
       "unlock": 4,
       "param_list": [
-        17,
+        25,
         10,
         40000,
         260,
@@ -3403,7 +3403,7 @@
     {
       "id": 1402301,
       "name": "Echoes Over the Frozen Lake",
-      "desc": "Holding Elemental Skill when Vodyanitsa is out of combat will cause her to show her true Water Imp form and swim for up to 10s at the cost of Stamina, and because she is a Water Imp, of course she can also move on the water surface. Vodyanitsa will exit her Water Imp form when the Skill button is released, when the state duration ends, or when all Stamina is used up.\\nAdditionally, while Vodyanitsa can swim more quickly, her Stamina consumption rate will also be higher.",
+      "desc": "Holding Elemental Skill when Vodyanitsa is out of combat will cause her to show her true Water Imp form and swim for up to 10s at the cost of Stamina, and because she is a Water Imp, she can also move on the water's surface as a matter of course. Vodyanitsa will exit her Water Imp form when the Elemental Skill is used again, when the state duration ends, or when all Stamina is used up.\\nAdditionally, while Vodyanitsa can swim more quickly, her Stamina consumption rate will also be higher.",
       "icon": "UI_Talent_S_Vodyanitsa_07",
       "unlock": 0,
       "param_list": [
@@ -3473,11 +3473,11 @@
     {
       "id": 1401,
       "name": "Waters in Full Splendor",
-      "desc": "Each time Vodyanitsa performs healing, the ATK of all nearby party members is also increased by 0.7% of her Max HP for 3s.",
+      "desc": "Each time Vodyanitsa performs healing, the ATK of all nearby party members is also increased by 1% of her Max HP for 5s.",
       "icon": "UI_Talent_S_Vodyanitsa_01",
       "param_list": [
-        0.007,
-        3,
+        0.01,
+        5,
         0,
         0,
         0,
@@ -3553,11 +3553,11 @@
     {
       "id": 1406,
       "name": "Neverending Song of Revelry",
-      "desc": "The Constellation <color=#FFD780FF>Echoes That Pierce the Snow</color> is enhanced as follows: \"Two Voices in Black and White\" now applies to all nearby party members.\\nAdditionally, while the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, Stellar Swirl reaction DMG dealt by nearby party members is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 25% while <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt are increased by 50%.",
+      "desc": "The Constellation <color=#FFD780FF>Echoes That Pierce the Snow</color> is enhanced as follows: \"Two Voices in Black and White\" now applies to all nearby party members.\\nAdditionally, while the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, Stellar Swirl reaction DMG dealt by nearby party members is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 30% while <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt are increased by 60%.",
       "icon": "UI_Talent_S_Vodyanitsa_04",
       "param_list": [
-        0.25,
-        0.5,
+        0.3,
+        0.6,
         0,
         0,
         0,

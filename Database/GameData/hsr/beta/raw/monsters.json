@@ -2042,7 +2042,9 @@
       200401007,
       200401008,
       200401009,
-      200401010
+      200401010,
+      200401011,
+      200401012
     ],
     "weak": [
       "Physical",
@@ -2369,7 +2371,8 @@
       201201010,
       201201011,
       201201013,
-      201201014
+      201201014,
+      201201015
     ],
     "weak": [
       "Physical",
@@ -2398,7 +2401,8 @@
       201301008,
       201301009,
       201301010,
-      201301011
+      201301011,
+      201301012
     ],
     "weak": [
       "Thunder",
@@ -3067,7 +3071,8 @@
       202302014,
       202302015,
       202302016,
-      202302017
+      202302017,
+      202302018
     ],
     "weak": [
       "Fire",
@@ -3333,7 +3338,8 @@
       202402004,
       202402005,
       202402006,
-      202402007
+      202402007,
+      202402008
     ],
     "weak": [],
     "en": "Cirrus",
@@ -3363,7 +3369,8 @@
       2032010,
       203201001,
       203201002,
-      203201003
+      203201003,
+      203201004
     ],
     "weak": [
       "Fire",
@@ -3402,7 +3409,8 @@
       203202001,
       203202002,
       203202003,
-      203202004
+      203202004,
+      203202005
     ],
     "weak": [
       "Physical",
@@ -3614,7 +3622,8 @@
       203301005,
       203301006,
       203301007,
-      203301008
+      203301008,
+      203301009
     ],
     "weak": [
       "Thunder",
@@ -3695,7 +3704,8 @@
     "child": [
       2034010,
       203401001,
-      203401002
+      203401002,
+      203401003
     ],
     "weak": [
       "Physical",
@@ -4416,7 +4426,9 @@
       300301009,
       300301010,
       300301011,
-      300301012
+      300301012,
+      300301013,
+      300301014
     ],
     "weak": [
       "Fire",
@@ -4598,6 +4610,7 @@
       300302009,
       300302010,
       300302011,
+      300302012,
       300302013
     ],
     "weak": [
@@ -4662,7 +4675,8 @@
       300303006,
       300303007,
       300303008,
-      300303009
+      300303009,
+      300303010
     ],
     "weak": [
       "Fire",
@@ -5016,7 +5030,8 @@
       300402001,
       300402002,
       300402003,
-      300402004
+      300402004,
+      300402005
     ],
     "weak": [
       "Fire",
@@ -5257,7 +5272,8 @@
       301301007,
       301301008,
       301301009,
-      301301010
+      301301010,
+      301301011
     ],
     "weak": [
       "Thunder",
@@ -5443,7 +5459,8 @@
       302102001,
       302102002,
       302102003,
-      302102004
+      302102004,
+      302102005
     ],
     "weak": [
       "Physical",
@@ -5519,7 +5536,8 @@
       302103003,
       302103004,
       302103005,
-      302103006
+      302103006,
+      302103007
     ],
     "weak": [
       "Physical",
@@ -5575,7 +5593,8 @@
       302104001,
       302104002,
       302104003,
-      302104004
+      302104004,
+      302104005
     ],
     "weak": [
       "Physical",
@@ -5690,7 +5709,8 @@
       302401011,
       302401012,
       302401013,
-      302401014
+      302401014,
+      302401015
     ],
     "weak": [
       "Physical",
@@ -6087,7 +6107,9 @@
       401201012,
       401201013,
       401201014,
-      401201015
+      401201015,
+      401201016,
+      401201017
     ],
     "weak": [
       "Thunder",
@@ -6129,7 +6151,8 @@
       401202004,
       401202005,
       401202006,
-      401202007
+      401202007,
+      401202008
     ],
     "weak": [
       "Fire",
@@ -6227,7 +6250,8 @@
       401203004,
       401203005,
       401203006,
-      401203007
+      401203007,
+      401203008
     ],
     "weak": [
       "Ice",
@@ -6735,7 +6759,8 @@
       401301005,
       401301006,
       401301007,
-      401301008
+      401301008,
+      401301009
     ],
     "weak": [
       "Ice",
@@ -7112,7 +7137,8 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_4014030.png",
     "child": [
       4014030,
-      401403001
+      401403001,
+      401403002
     ],
     "weak": [
       "Wind",
@@ -7283,11 +7309,11 @@
       "Ice",
       "Quantum"
     ],
-    "en": "Sublime, Radiant, Avatar of the Sky",
+    "en": "Ishtar Huwawa Aquila",
     "desc": "The Sky Titan. Theos Synthetos. Conquered by and fused with humanity, they no longer govern Amphoreus' cycle of day and night, yet their haughtiness remains unchanged.\\nIn their mind, the shattered world's mundane mortals are unsightly. Compared to a world safeguarded by light, the mindless human masses seem more befitting of the black tide.",
-    "ko": "지고, 태양, 천공의 화신",
+    "ko": "이슈타르•훔바바-아퀼라",
     "zh": "至高，至阳，天空的化身",
-    "ja": "至高、極陽、天空の化身"
+    "ja": "イシュタル・フワワ-エーグル"
   },
   "4015020": {
     "rank": "BigBoss",
@@ -7483,7 +7509,8 @@
     "child": [
       4032010,
       403201001,
-      403201002
+      403201002,
+      403201003
     ],
     "weak": [
       "Thunder",
@@ -7817,7 +7844,8 @@
     "child": [
       4032050,
       403205001,
-      403205002
+      403205002,
+      403205003
     ],
     "weak": [
       "Physical",
@@ -7928,7 +7956,10 @@
       403301002,
       403301003,
       403301004,
-      403301005
+      403301005,
+      403301006,
+      403301007,
+      403301008
     ],
     "weak": [
       "Physical",
@@ -8079,7 +8110,9 @@
       403303001,
       403303002,
       403303003,
-      403303004
+      403303004,
+      403303005,
+      403303006
     ],
     "weak": [
       "Physical",
@@ -8381,7 +8414,8 @@
     "child": [
       4044010,
       404401001,
-      404401002
+      404401002,
+      404401003
     ],
     "weak": [
       "Physical",
@@ -8438,7 +8472,9 @@
       405201001,
       405201002,
       405201003,
-      405201004
+      405201004,
+      405201005,
+      405201006
     ],
     "weak": [
       "Physical",
@@ -8512,7 +8548,9 @@
       405301001,
       405301002,
       405301003,
-      405301004
+      405301004,
+      405301005,
+      405301006
     ],
     "weak": [
       "Physical",
@@ -8903,7 +8941,8 @@
       5012030,
       501203002,
       501203003,
-      501203004
+      501203004,
+      501203005
     ],
     "weak": [
       "Physical",
@@ -9212,6 +9251,7 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5012090.png",
     "child": [
       5012090,
+      501209001,
       501209002
     ],
     "weak": [
@@ -9349,7 +9389,8 @@
       501301001,
       501301002,
       501301003,
-      501301004
+      501301004,
+      501301005
     ],
     "weak": [
       "Physical",
@@ -9467,7 +9508,9 @@
     "child": [
       5013040,
       501304001,
-      501304002
+      501304002,
+      501304003,
+      501304004
     ],
     "weak": [
       "Physical",
@@ -9504,7 +9547,9 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5013050.png",
     "child": [
       5013050,
-      501305001
+      501305001,
+      501305002,
+      501305003
     ],
     "weak": [
       "Physical",
@@ -9540,7 +9585,9 @@
     "camp": 17,
     "icon": "SpriteOutput/MonsterFigure/Monster_5013060.png",
     "child": [
-      5013060
+      5013060,
+      501306001,
+      501306002
     ],
     "weak": [
       "Physical",
@@ -9576,7 +9623,8 @@
     "camp": 17,
     "icon": "SpriteOutput/MonsterFigure/Monster_5013070.png",
     "child": [
-      5013070
+      5013070,
+      501307001
     ],
     "weak": [
       "Fire",
@@ -9776,11 +9824,11 @@
       "Thunder",
       "Imaginary"
     ],
-    "en": "Alloy Mechatron: King Pom-Pom",
+    "en": "Imagenae Apex Depredator",
     "desc": "Who can handle the wild, untamed power of the Astral Express!? Pom-Pom, now beyond control, has transformed into Alloy Mechatron: King Pom-Pom.\\nKing Pom-Pom is a powerful mechatron obsessed with cleanliness and order. By its standards, this place is a mess and needs a thorough! Deep! Clean!",
-    "ko": "합금 메카아머•폼폼킹",
+    "ko": "환조 최상위 포식자",
     "zh": "合金机铠•帕姆王",
-    "ja": "合金メカヨロイ・パムキング"
+    "ja": "幻造頂点捕食者"
   },
   "5014023": {
     "rank": "LittleBoss",
@@ -10009,7 +10057,10 @@
       502302002,
       502302003,
       502302004,
-      502302005
+      502302005,
+      502302006,
+      502302007,
+      502302008
     ],
     "weak": [
       "Fire",
@@ -10045,7 +10096,8 @@
     "camp": 17,
     "icon": "SpriteOutput/MonsterFigure/Monster_5023020.png",
     "child": [
-      5023022
+      5023022,
+      502302201
     ],
     "weak": [
       "Fire",
@@ -10064,7 +10116,8 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5024010.png",
     "child": [
       5024010,
-      502401001
+      502401001,
+      502401002
     ],
     "weak": [
       "Physical",
@@ -10149,6 +10202,65 @@
     "ko": "뒤틀린 극락•악원연화주",
     "zh": "极乐颠倒•邪愿莲华主",
     "ja": "極楽顛倒・邪願蓮主"
+  },
+  "5032010": {
+    "rank": "MinionLv2",
+    "camp": 19,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5032010.png",
+    "child": [
+      5032010,
+      503201001,
+      503201002,
+      503201003,
+      503201004
+    ],
+    "weak": [
+      "Fire",
+      "Wind",
+      "Imaginary"
+    ],
+    "en": "Frenzied Beast's Seed Germ",
+    "desc": "...",
+    "ko": "광수의 배아",
+    "zh": "狂兽的胚芽",
+    "ja": "狂獣の胚芽"
+  },
+  "5034010": {
+    "rank": "LittleBoss",
+    "camp": 19,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5034010.png",
+    "child": [
+      5034010,
+      503401002
+    ],
+    "weak": [
+      "Ice",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "BOSS",
+    "desc": "...",
+    "ko": "보스",
+    "zh": "BOSS",
+    "ja": "ボス"
+  },
+  "5034011": {
+    "rank": "LittleBoss",
+    "camp": 19,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5034010.png",
+    "child": [
+      5034011
+    ],
+    "weak": [
+      "Ice",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "BOSS",
+    "desc": "...",
+    "ko": "보스",
+    "zh": "BOSS",
+    "ja": "ボス"
   },
   "8001010": {
     "rank": "Minion",
@@ -10263,6 +10375,19 @@
     "weak": [],
     "en": "Borrowed Force",
     "desc": "The magic orbs summoned by the \"AoE\" Bond. Can be attacked.",
+    "ko": "차력구",
+    "zh": "借力球",
+    "ja": "カウンターボール"
+  },
+  "8001032": {
+    "rank": "Minion",
+    "icon": "SpriteOutput/MonsterFigure/Monster_8001030.png",
+    "child": [
+      8001032
+    ],
+    "weak": [],
+    "en": "Borrowed Force",
+    "desc": "The magic orbs summoned by Herta can be attacked.",
     "ko": "차력구",
     "zh": "借力球",
     "ja": "カウンターボール"
@@ -11843,7 +11968,8 @@
       801301025,
       801301026,
       801301027,
-      801301028
+      801301028,
+      801301029
     ],
     "weak": [
       "Physical",
@@ -12095,11 +12221,11 @@
       "Wind",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss",
-    "desc": "...",
-    "ko": "이상 낙원 보스",
-    "zh": "二相乐园BOSS",
-    "ja": "二相楽園ボス"
+    "en": "Lord of Saṃvartasthāyi, Asat Pramad",
+    "desc": "The three faces of Paranirmitavaśavartin, and the true appearance of the Lord Ravager that wields authority over all possibilities.\\nAll things in myriad forms pass through \"Formation,\" \"Existence,\" and \"Decay,\" until they turn to \"Annihilation.\" Elation and time are mortal enemies. Beneath the endless erosion of the ages, all things shall fade into silence.\\nTo execute the Sky's decree of the Destruction, fulfilling the ambition of extinguishing all minds who bear emotions in the world.",
+    "ko": "만색회공의 주인, 아삿 프라마드",
+    "zh": "万色返空主，归寂",
+    "ja": "{RUBY_B#ばんしょくきくうしゅ}万色帰空主{RUBY_E#}、{RUBY_B#きじゃく}帰寂{RUBY_E#}"
   },
   "8015040": {
     "rank": "BigBoss",
@@ -12113,11 +12239,11 @@
       "Wind",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss: \"Two\"",
-    "desc": "...",
-    "ko": "이상 낙원 보스•「2」",
-    "zh": "二相乐园BOSS•「二」",
-    "ja": "二相楽園ボス・「2」"
+    "en": "Lord of Saṃvartasthāyi, Asat Pramad: \"Existence\"",
+    "desc": "A Navigator named \"Isee\" embarked on a trailblazing expedition to save the Elation.\\nHe helped planets overcome crises, resolving troubles across the cosmos, all to find a cure for the Elation.\\nYet, the longer his journey went on, the more familiar worlds he witnessed descending into corruption and ruin. One world even attempted to repay the Express Crew's rescue with mutual destruction.\\nUltimately, after the fall of the God of Trailblaze and having witnessed the end of Adlivun with his own eyes, he finally realized that the only cure for the Elation was... the Destruction.",
+    "ko": "만색회공의 주인, 아삿 프라마드•<unbreak>「주」</unbreak>",
+    "zh": "万色返空主，归寂•「住」",
+    "ja": "万色帰空主、帰寂・「住」"
   },
   "8015050": {
     "rank": "BigBoss",
@@ -12131,11 +12257,11 @@
       "Wind",
       "Imaginary"
     ],
-    "en": "Planarcadia Boss: \"Three\"",
-    "desc": "...",
-    "ko": "이상 낙원 보스•「3」",
-    "zh": "二相乐园BOSS•「三」",
-    "ja": "二相楽園ボス・「3」"
+    "en": "Lord of Saṃvartasthāyi, Asat Pramad: \"Decay\"",
+    "desc": "The Lord Ravager known as Asat Pramad is devising a game to destroy the Elation.\\nHe invades defenseless planets, forges from golden blood a lineage born only to destroy, all to mock life itself, and with it, mock the Elation.\\nYet, this is far from enough to satisfy him. To realize his grand ambition of eliminating the Elation, he resolves to awaken the Aeon to carry out the most thorough destruction, even if the cost might be himself.\\nUltimately, as the Express arrives once more, the time is ripe. He enters the game under a stolen identity, striving to craft the most magnificent and absolute finale to this game.",
+    "ko": "만색회공의 주인, 아삿 프라마드•<unbreak>「괴」</unbreak>",
+    "zh": "万色返空主，归寂•「坏」",
+    "ja": "万色帰空主、帰寂・「壊」"
   },
   "8022010": {
     "rank": "MinionLv2",
@@ -12146,6 +12272,7 @@
       802201001,
       802201002,
       802201003,
+      802201004,
       802201005
     ],
     "weak": [
@@ -12208,7 +12335,8 @@
       802202003,
       802202004,
       802202005,
-      802202006
+      802202006,
+      802202007
     ],
     "weak": [
       "Physical",
@@ -12311,7 +12439,8 @@
       802401104,
       802401105,
       802401106,
-      802401107
+      802401107,
+      802401108
     ],
     "weak": [
       "Ice",
@@ -12409,6 +12538,7 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_8032010.png",
     "child": [
       8032010,
+      803201001,
       803201002,
       803201003,
       803201004,
@@ -12420,7 +12550,8 @@
       803201010,
       803201011,
       803201012,
-      803201013
+      803201013,
+      803201014
     ],
     "weak": [
       "Fire",
@@ -12438,6 +12569,7 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_8032020.png",
     "child": [
       8032020,
+      803202001,
       803202002,
       803202003,
       803202004,
@@ -12450,7 +12582,8 @@
       803202011,
       803202012,
       803202013,
-      803202014
+      803202014,
+      803202015
     ],
     "weak": [
       "Physical",
@@ -12583,7 +12716,9 @@
       803301012,
       803301013,
       803301014,
-      803301015
+      803301015,
+      803301016,
+      803301017
     ],
     "weak": [
       "Fire",
@@ -12657,7 +12792,8 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_8033020.png",
     "child": [
       8033020,
-      803302001
+      803302001,
+      803302002
     ],
     "weak": [
       "Fire",

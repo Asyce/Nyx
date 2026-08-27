@@ -1,5 +1,5 @@
 {
-  "name": "Weapon: Sword",
+  "name": "Beyond the Chrysalis",
   "desc": "",
   "weapon_type": "WEAPON_SWORD_ONE_HAND",
   "weapon_prop": [
@@ -342,70 +342,70 @@
   },
   "refinement": {
     "1": {
-      "name": "Weapon Affix",
-      "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>48%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>28%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>3</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+      "name": "Dance of Wings Unbound",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>48%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>28%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>3</color> Elemental Energy.",
       "param_list": [
-        0.48,
-        0.28,
-        3,
+        0.56,
+        0.36,
+        5,
         10,
-        0,
+        4,
         0,
         0,
         0
       ]
     },
     "2": {
-      "name": "Weapon Affix",
-      "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>62%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>35%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>3.5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+      "name": "Dance of Wings Unbound",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>62%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>35%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>3.5</color> Elemental Energy.",
       "param_list": [
-        0.62,
-        0.35,
-        3.5,
+        0.72,
+        0.45,
+        5.5,
         10,
-        0,
+        4,
         0,
         0,
         0
       ]
     },
     "3": {
-      "name": "Weapon Affix",
-      "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>76%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>42%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>4</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+      "name": "Dance of Wings Unbound",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>76%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>42%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>4</color> Elemental Energy.",
       "param_list": [
-        0.76,
-        0.42,
-        4,
+        0.88,
+        0.54,
+        6,
         10,
-        0,
+        4,
         0,
         0,
         0
       ]
     },
     "4": {
-      "name": "Weapon Affix",
-      "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>90%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>49%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>4.5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+      "name": "Dance of Wings Unbound",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>90%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>49%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>4.5</color> Elemental Energy.",
       "param_list": [
-        0.9,
-        0.49,
-        4.5,
+        1.04,
+        0.63,
+        6.5,
         10,
-        0,
+        4,
         0,
         0,
         0
       ]
     },
     "5": {
-      "name": "Weapon Affix",
-      "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>104%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>56%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+      "name": "Dance of Wings Unbound",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>104%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>56%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>5</color> Elemental Energy.",
       "param_list": [
-        1.04,
-        0.56,
-        5,
+        1.2,
+        0.72,
+        7,
         10,
-        0,
+        4,
         0,
         0,
         0

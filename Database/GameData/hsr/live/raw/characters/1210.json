@@ -174,6 +174,12 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 27,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "That healer seems to be a senior colleague of Sushang's... But I heard that he's even more energetic than she is! Maybe everyone from the Yaoqing is that way?",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Don't throw the game!",

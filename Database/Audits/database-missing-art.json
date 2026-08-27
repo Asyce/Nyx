@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T14:47:16.732Z",
+  "generatedAt": "2026-08-27T12:09:13.407Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -9,8 +9,8 @@
         "special"
       ],
       "summaryCount": 32,
-      "missingArtCount": 801,
-      "quarantinedCount": 493
+      "missingArtCount": 822,
+      "quarantinedCount": 491
     },
     "after": {
       "scopes": [
@@ -19,9 +19,9 @@
         "special"
       ],
       "summaryCount": 32,
-      "missingArtCount": 801,
-      "quarantinedCount": 493,
-      "intentionalFallbackCount": 801,
+      "missingArtCount": 822,
+      "quarantinedCount": 491,
+      "intentionalFallbackCount": 822,
       "displayArtMissingCount": 0
     }
   },
@@ -44,35 +44,35 @@
       "sourceCount": 10404,
       "normalizedCount": 10404,
       "quarantinedCount": 200,
-      "routedCount": 4015,
+      "routedCount": 4014,
       "approvedSourceCount": 10204,
-      "generatedCount": 6189,
-      "localArtCount": 5915,
+      "generatedCount": 6190,
+      "localArtCount": 5916,
       "missingArtCount": 274
     },
     {
       "game": "hsr",
       "collection": "monsters",
-      "sourceCount": 613,
-      "normalizedCount": 613,
-      "quarantinedCount": 1,
+      "sourceCount": 628,
+      "normalizedCount": 628,
+      "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 612,
-      "generatedCount": 612,
-      "localArtCount": 612,
+      "approvedSourceCount": 628,
+      "generatedCount": 628,
+      "localArtCount": 628,
       "missingArtCount": 0
     },
     {
       "game": "hsr",
       "collection": "items",
-      "sourceCount": 1574,
-      "normalizedCount": 1574,
-      "quarantinedCount": 16,
+      "sourceCount": 1594,
+      "normalizedCount": 1594,
+      "quarantinedCount": 15,
       "routedCount": 0,
-      "approvedSourceCount": 1558,
-      "generatedCount": 1558,
-      "localArtCount": 1558,
-      "missingArtCount": 0
+      "approvedSourceCount": 1579,
+      "generatedCount": 1579,
+      "localArtCount": 1560,
+      "missingArtCount": 19
     },
     {
       "game": "zzz",
@@ -269,40 +269,40 @@
       "scope": "special",
       "game": "gi",
       "collection": "tcg-character-cards",
-      "sourceCount": 106,
-      "normalizedCount": 106,
+      "sourceCount": 108,
+      "normalizedCount": 108,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 106,
-      "generatedCount": 106,
-      "localArtCount": 106,
+      "approvedSourceCount": 108,
+      "generatedCount": 108,
+      "localArtCount": 108,
       "missingArtCount": 0
     },
     {
       "scope": "special",
       "game": "gi",
       "collection": "tcg-action-cards",
-      "sourceCount": 513,
-      "normalizedCount": 513,
+      "sourceCount": 521,
+      "normalizedCount": 521,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 513,
-      "generatedCount": 513,
-      "localArtCount": 513,
+      "approvedSourceCount": 521,
+      "generatedCount": 521,
+      "localArtCount": 521,
       "missingArtCount": 0
     },
     {
       "scope": "special",
       "game": "gi",
       "collection": "furniture",
-      "sourceCount": 2342,
-      "normalizedCount": 2342,
+      "sourceCount": 2372,
+      "normalizedCount": 2372,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 2342,
-      "generatedCount": 2342,
-      "localArtCount": 2223,
-      "missingArtCount": 119
+      "approvedSourceCount": 2372,
+      "generatedCount": 2372,
+      "localArtCount": 2251,
+      "missingArtCount": 121
     },
     {
       "scope": "special",
@@ -399,13 +399,13 @@
       "scope": "special",
       "game": "gi",
       "collection": "gallery-portraits",
-      "sourceCount": 180,
-      "normalizedCount": 180,
+      "sourceCount": 182,
+      "normalizedCount": 182,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 180,
-      "generatedCount": 180,
-      "localArtCount": 180,
+      "approvedSourceCount": 182,
+      "generatedCount": 182,
+      "localArtCount": 182,
       "missingArtCount": 0
     },
     {
@@ -435,7 +435,7 @@
       "missingArtCount": 0
     }
   ],
-  "missingArtCount": 801,
+  "missingArtCount": 822,
   "records": [
     {
       "scope": "inline",
@@ -2276,6 +2276,32 @@
       "collection": "furniture",
       "recordId": "368219",
       "name": "Alyosha",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "special",
+      "game": "gi",
+      "collection": "furniture",
+      "recordId": "368220",
+      "name": "Vesna",
+      "releaseStatus": "live",
+      "sourceIconField": null,
+      "sourceUrl": null,
+      "localDestination": null,
+      "result": "no-local-art-reference",
+      "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
+    },
+    {
+      "scope": "special",
+      "game": "gi",
+      "collection": "furniture",
+      "recordId": "368221",
+      "name": "Vodyanitsa",
       "releaseStatus": "live",
       "sourceIconField": null,
       "sourceUrl": null,
@@ -7628,6 +7654,291 @@
       "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
     },
     {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140613",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140614",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140615",
+      "name": "A Game Definitely Unrelated to Any Holy Grail War",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/1054406.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/1054406.webp",
+      "localDestination": "GameData/hsr/assets/items/1054406.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140616",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140617",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140618",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140619",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140620",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140621",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140622",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140623",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140624",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140625",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140626",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140627",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140628",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140629",
+      "name": "<i>Setting Sail Among the Stars</i> Picture Book",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140614.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140614.webp",
+      "localDestination": "GameData/hsr/assets/items/140614.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140630",
+      "name": "Trailblazemon's Round Foot (Right)",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140630.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140630.webp",
+      "localDestination": "GameData/hsr/assets/items/140630.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
+      "game": "hsr",
+      "collection": "items",
+      "recordId": "140634",
+      "name": "Speed Star: Grand Champion Trophy",
+      "releaseStatus": "live",
+      "sourceIconField": {
+        "field": "item_icon_path",
+        "value": "SpriteOutput/ItemIcon/140634.png"
+      },
+      "sourceUrl": "https://static.nanoka.cc/assets/hsr/itemfigures/140634.webp",
+      "localDestination": "GameData/hsr/assets/items/140634.webp",
+      "result": "unavailable",
+      "reason": "The exact icon named by the released source record was not available as a usable local file after the scraper attempt."
+    },
+    {
       "game": "wuwa",
       "collection": "items",
       "recordId": "51010",
@@ -11485,7 +11796,7 @@
       "reason": "The released generated record has no usable local art reference and no approved source URL or filename was available; the record remains visible with a neutral fallback."
     }
   ],
-  "quarantinedCount": 493,
+  "quarantinedCount": 491,
   "quarantinedRecords": [
     {
       "game": "gi",
@@ -14652,21 +14963,6 @@
     {
       "game": "hsr",
       "collection": "items",
-      "recordId": "140615",
-      "name": "140615",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "item_icon_path",
-        "value": "SpriteOutput/ItemIcon/140028.png"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "hsr",
-      "collection": "items",
       "recordId": "149990",
       "name": "149990",
       "releaseStatus": "no-localized-display-name",
@@ -14718,21 +15014,6 @@
       "sourceIconField": {
         "field": "item_icon_path",
         "value": "SpriteOutput/ItemIcon/420001.png"
-      },
-      "sourceUrl": null,
-      "localDestination": null,
-      "result": "quarantined",
-      "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
-    },
-    {
-      "game": "hsr",
-      "collection": "monsters",
-      "recordId": "4015012",
-      "name": "4015012",
-      "releaseStatus": "no-localized-display-name",
-      "sourceIconField": {
-        "field": "icon",
-        "value": "SpriteOutput/MonsterFigure/Monster_4015010.png"
       },
       "sourceUrl": null,
       "localDestination": null,
@@ -18670,6 +18951,6 @@
       "reason": "The source row has no usable localized display name. It is quarantined without guessing or substituting a name."
     }
   ],
-  "intentionalFallbackCount": 801,
+  "intentionalFallbackCount": 822,
   "displayArtMissingCount": 0
 }

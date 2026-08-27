@@ -54612,8 +54612,8 @@
           "physical": 0.1
         },
         "base": {
-          "hp": 109.725365,
-          "atk": 81.104935,
+          "hp": 109.725,
+          "atk": 90.11659,
           "def": 500,
           "em": 0
         }
@@ -54761,7 +54761,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "0f275dda21ef4f329e7b21355f7c0b36605b48af452db33500ed111b6e46be2e"
+      "currentHash": "8b33105e48d1e6e9b0303a64756b172ce992aa6242dc9dd20f052f08df6eaf03"
     }
   },
   {

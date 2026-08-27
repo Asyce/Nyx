@@ -1320,13 +1320,13 @@
   "101331": {
     "name": "Snow Poplar Wood",
     "rank": 1,
-    "icon": "UI_ItemIcon_101332",
+    "icon": "UI_ItemIcon_101331",
     "type": "Material"
   },
   "101332": {
     "name": "White Birch Wood",
     "rank": 1,
-    "icon": "UI_ItemIcon_101331",
+    "icon": "UI_ItemIcon_101332",
     "type": "Material"
   },
   "101333": {
@@ -11745,6 +11745,18 @@
     "icon": "UI_ItemIcon_121661",
     "type": "Adventure Item"
   },
+  "121662": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121662",
+    "type": "Very Special Item"
+  },
+  "121670": {
+    "name": "???",
+    "rank": 4,
+    "icon": "UI_ItemIcon_121670",
+    "type": "Very Special Item"
+  },
   "121674": {
     "name": "Stardust Trail: Radiant Glow Sigil",
     "rank": 4,
@@ -12841,7 +12853,7 @@
     "type": "Refinement Material"
   },
   "200129": {
-    "name": "",
+    "name": "青翦垂缨",
     "rank": 4,
     "icon": "UI_ItemIcon_200129",
     "type": "Refinement Material"
@@ -13606,6 +13618,12 @@
     "name": "???",
     "rank": 4,
     "icon": "UI_ItemIcon_220138",
+    "type": "Gadget"
+  },
+  "220140": {
+    "name": "Prima Donna's Song",
+    "rank": 4,
+    "icon": "",
     "type": "Gadget"
   }
 }

@@ -174,6 +174,36 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 27,
+        "voice_title": "About Feixiao",
+        "voice_m": "Feixiao won't show any weakness to anyone. The fact that she sometimes chats with me about her feelings already counts as relaxing for her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Lingsha",
+        "voice_m": "This brings back a lot of old memories.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "You're much calmer than you once were.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "About Fugue",
+        "voice_m": "In my heart, she has always been that child who yearned for the many worlds across the vast universe. She has always been... Tingyun.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Fugue",
+        "voice_m": "We must both move on now.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "As easy as that.",
@@ -282,27 +312,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "May good things come in pairs.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "A sight not often seen.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Hardly a concern.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Practice is the key to increasing proficiency.",
         "is_battle_voice": true
       },
       {
@@ -315,6 +327,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "Another busy day ahead of us?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "May good things come in pairs.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "A sight not often seen.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Practice is the key to increasing proficiency.",
         "is_battle_voice": true
       }
     ]
@@ -2151,7 +2181,7 @@
         "extra": {
           "10000010": {
             "name": "Debuff",
-            "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+            "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
             "param": []
           }
         }

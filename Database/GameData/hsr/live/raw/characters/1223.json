@@ -2,6 +2,7 @@
   "name": "Moze",
   "desc": "A Shadow Guard of the Yaoqing, Moze is taciturn and solitary, always acting on his own.\\nAs an expert in intelligence services and other operations that must remain covert, Moze rarely shows himself before others. The moment he reveals his blade usually spells doom for his enemies.\\nHe commands a vast wealth of assassination techniques, coupled with an extraordinary obsession for orderliness and cleanliness.",
   "chara_info": {
+    "camp": "The Xianzhou Yaoqing",
     "va": {
       "chinese": "黄进泽",
       "japanese": "坂田将吾",
@@ -15,7 +16,332 @@
       "3": "<i>\"Who are you?\"</i>\\nHe says nothing, but people who are staring death in the face tend to get chatty.\\n<i>\"I know. You're Feixiao's shadow guard. I'm right, aren't I? You've spent your whole life working in the shadows, doing things that should never see the light of day...\\n\"How about I give you a chance? My master wants to know if the rumor of Feixiao having borisin blood is true. If we can reach an agreement, then when we take down Fei — AGH!\"</i>\\nThings are as he had suspected. So, he brings his mission to a swift end.\\n\\nThis is his duty as a shadow guard. There is no consideration for right or wrong... His actions are motivated only by orders.\\nThis is because, to him, each successful mission is an opportunity... An opportunity for revenge.\\n<i>\"For every successful mission, you will earn one strale. One strale will buy you forgiveness after each assassination attempt.\"</i>\\nHe was once concerned that he would not be able to get close to Feixiao, yet he was assigned as Yaoqing's shadow guard and followed by her side at all times.\\nHis assassination attempts were never successful, but through them, he had mastered the art of vanishing and reappearing like a ghost. This blade that strikes from the darkness is not only aimed at the general of the Yaoqing, but also the enemies of the Xianzhou Yaoqing. He is the omnipresent shadow.\\n\\n<i>\"Are you... the crow-feather weirdo?\"</i>\\nAnother mission complete. Sitting on the ground, the child timidly asks.\\n<i>\"They say the crow-feather weirdo beats up bad guys, punishes evil, and fights for good... but... The clothes he wears are so dark that no one can ever see him...\\n\"You're so strong and your clothes are so dark, so, so... th—thank you for saving me!\" </i>\\nPunish evil and fight for good? That is never his motive. He just happens to save the boy while carrying out one of his missions. However, he has indeed become used to concealing himself within the shadows and keeping a watchful eye on all goings-on, not letting anything pass him.\\nIn the sparkling eyes of the child in front of him, he can see himself clearly in his umbral clothes.\\nHe walks in the darkness and stands in the darkness.\\nThe crow-feather weirdo, the shadow guard... they are all parts of who he is.",
       "4": "The foxian healer half covers his face as he looks at the scene before him with great empathetic concern... Countless eyes, ears, tongues, teeth, limbs, and fur are sprouting from and falling off of the bodies in front of them, as if they are experiencing this final suffering in vain.\\n\\nFor the first time in forever, Moze feels a little uncomfortable. Not only because of the scene before him, but because it reminds him of his blurred memories of the past.\\n\\n<i>\"The mercy of Sanctus Medicus... life without bounds.... old age never coming... the dead revitalizing...\"</i>\\nA crowd of Sanctus Medicus disciples huddles together. Though one of them is heavily wounded, those around them simply continue to murmur those familiar words.\\n<i>\"The divine traces of Abundance shall heal your body... quick. Drink this...\"\\n\"Suffering is temporary... you shall have a full life once more. you will not die in this mo... ment—\"</i>\\nIn a flash, the speaker collapses to the ground. The black-clad shadow guard appears in the light before them and stands solemnly. Silence can not conceal the murderous rage that once again wells up inside him.\\n...\\n<i>\"These people are no longer people. They feel no pain... What about you, though? With wounds like those, are you going to tell me you feel no pain?\"</i>\\nThe foxian healer sprinkles powder on his wounds and chatters away as always.\\n<i>\"We were originally here for reconnaissance. I told you we had a large force ready for backup. Why did you go ahead and take action?\"</i>\\nHe does not say a word, simply looking down at the sharp, blood-coated dagger in his hands.\\nOver the years, through each and every mission he had completed, he had long since come to understand just what that former \"family\" of his was. However, he refuses to think about it in depth, nor would he acknowledge that his view had changed from all those years ago. If he did, what meaning would his vengeance and their vow have?\\n\\n<i>\"Does that hurt?\"\\n\"...\"</i> He still refuses to speak.\\nThe foxian healer decides to speed up his movements, wrapping his wounds in gauze and casually pressing down a little too hard.\\n<i>\"Ow...\"\\n\"If it hurts, then say it out loud. What good does enduring your pain do? Just seeing you like this is agony for me.\"</i>\\nHe nods.\\n\\nHe has become accustomed to not speaking, but also to having people speak on his behalf."
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "My name is Moze. I am Feixiao's shadow guard. Please stand closer to this side so that you can block other people's view of me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "How have you been? Please, no need to shake hands. My hand must remain on my weapon at all times.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Goodbyes are unnecessary. I often brush past you on the street anyway.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Work",
+        "voice_m": "Feixiao's job is to charge at enemy lines. Jiaoqiu's job is to plot and scheme. My job is to... clean up \"messes.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Disciples of Sanctus Medicus",
+        "voice_m": "I was raised by the Disciples of Sanctus Medicus. Never-ending \"treatments,\" unreasonable \"family rules,\" and temperamental \"family members\"... I used to think all these things were a part of normal life.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "About Self: Mysophobia",
+        "voice_m": "If you want to get rid of the messes in this world, you must first get your hands dirty. That's why I wash my hands over and over again.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "About Self: Silence",
+        "voice_m": "Some people are silent because they have no desires. Some are silent because they have no thoughts. I am silent only because I do not wish to speak.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "About Self: Crow-Feather Weirdo",
+        "voice_m": "The nickname \"Crow-Feather Weirdo\" does not refer to my appearance. It refers to when I sent three scoundrels to the Merciful Medicus with just a crow-feather quill. Don't ask me why I used a quill — it just happened to be on the table.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Chat: Duty",
+        "voice_m": "Hate evil as one hates an enemy? No, no, would a sewer cleaner hate the filth the city discharges?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Chat: Urban Legends",
+        "voice_m": "The people of the Yaoqing like to talk about me, but when some people actually see me, they curl up in a ball and scream.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Hobbies",
+        "voice_m": "Bathing and cleaning up. Getting rid of filth is a great feeling.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Annoyances",
+        "voice_m": "Being a shadow means that automatic doors often don't detect you. Whatever. I don't usually use the main entrance anyway.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Something to Share",
+        "voice_m": "Did you know? The groove on a blade is not for channeling blood. It's for making the blade lighter. It's called a \"fuller\"... If you didn't know already, now you know.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "Knowledge",
+        "voice_m": "The Yaoqing is a beautiful Xianzhou ship. It's just a little too close to the Denizens of Abundance.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Feixiao 1",
+        "voice_m": "Feixiao is a personal \"enemy\" who took the lives of my \"family members,\" but she is also a personal savior who gave me a new life.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Feixiao 2",
+        "voice_m": "Feixiao allows me to try to \"assassinate\" her at any time. She uses me as a dagger with which to sharpen her senses. This is how she shows her trust in me, but to this day, I have not won a single time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "He says the general is his patient, but I think the general is actually his doctor.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Sushang",
+        "voice_m": "I ran into her in the barracks a few years ago, but she didn't recognize me. I was an advisor to Feixiao at that time and often had to go to Jiaoqiu's home. How could she have not seen me?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Huaiyan",
+        "voice_m": "That old man is quite capable. Anyone who has lived that long and isn't sick of himself must be quite capable.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Jing Yuan",
+        "voice_m": "He doesn't seem to enjoy his work, but he has still dutifully done it until now. In this way, he is like me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Every shadow on the Yaoqing could be me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Character Ascension",
+        "voice_m": "Violence is the ultimate means, and it is also my only means.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Max Level Reached",
+        "voice_m": "I shall sink into the shadows and watch over you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "Trace Activation",
+        "voice_m": "The ghosts of the past will always come back to visit.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Rest assured, in your time of need, I will be there.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "I will fight alongside you until the very end.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Jiaoqiu",
+        "voice_m": "Healer, it is now your turn to experience my life.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Sushang",
+        "voice_m": "You focus on drawing attention, and I'll take care of the dirty work. Don't try to show off.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Jing Yuan",
+        "voice_m": "Divine Foresight, you shouldn't involve yourself in this dirty work. Leave it to me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Right in the heart of death.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Fight changes with changelessness.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "I am the blade...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "I am the shadow...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "What is the next order?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Attack a single point.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 1",
+        "voice_m": "The moment of opportunity comes.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Skill 2",
+        "voice_m": "The night follows you like a shadow.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "You've been exposed.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "That was nothing.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Time to reap.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Where the wind whispers... you cannot hide!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Talent",
+        "voice_m": "Darkness, charge!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Downed",
+        "voice_m": "So... close...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Return to Battle",
+        "voice_m": "This time, I won't make the same mistake.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Health Recovery",
+        "voice_m": "Sorry to trouble you.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Technique",
+        "voice_m": "Crowfeather's stealth.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Battle Won",
+        "voice_m": "The battlefield has been cleared.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Not bad luck.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Nothing dangerous, that's good.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Do not flaunt riches. Be careful.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "I see.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Careful observation is the key to victory.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Keep going. I'll handle it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Returning to Town",
+        "voice_m": "Amidst the sea of faces, shadows still lurk...",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType4",
   "avatar_vo_tag": "moze",

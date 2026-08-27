@@ -14,7 +14,7 @@
       "1": "<i>\"Master Diviner, why do we use a square board but round pieces for starchess?\"\\n\"Perhaps it's based around the round sky and square earth? Ancient civilizations believed the earth was flat. This set is modeled after the old days of nation-states and imperial conquest over a singular planet, so naturally it's square. As for the pieces... People back then believed the sky was a round dome, and chess pieces spun around like stars in that dome to reflect in human lives. That's why they are also round.\" \\n\"No, no. That's incorrect.\"\\n\"I've already predicted your next forty-eight moves. Jing Yuan, if you want to distract me with questions, I urge you to stop.\"\\n\"Ah, how could you suspect such malice?\"\\n\"Don't interrupt me. Keep talking.\"\\n\"It's true that chess is a metaphor and describes the human condition. The rules of war are clearly established, with each piece's actions fixed — advance, retreat, and jump. Advance or retreat is always in an orderly manner, which is why the board's square in its orderliness. As for the pieces, the sages said \"use intellect with subtlety and suaveness.\" As each piece is meant to be sentient individuals, they are therefore circular.\"\\n\"The origins of starchess are covered in the </i>Gleaned Pearls of Verdure<i>. I've read lots, Jing Yuan — why are you brazenly lying to me!\"\\n\"Cloud Knight moves to C3, taking your King. You lost, Lady Fu.\"\\n\"Hang on! How did I not see this in my predictions? B—Back up. Let me see that move again.\"\\n\"Chess pieces are like people. Each has its own sentience. There is no going back on the chessboard. How can anyone return to the past? Haha, how can the head of a Commission act like a sore loser?\"</i>",
       "2": "Of an alliance spanning six mighty Xianzhou ships, the Cloud Knights emerged out of the ashes of the Flaming Catastrophe. They swore an oath to defend the Xianzhou ships and follow Reignbow's decree of The Hunt, a tradition carried out to this day. Despite the incredible longevity of long-life species, few generals have been able to pass the century mark after taking up the mantle due to the bloody nature of warfare. This is not so much fate as it is tradition. As the armed defenders of Xianzhou against crusading abominations, generals not only must take the lead for planning and dispatching, but also take the lead into battle. Amidst countless names erased too quickly and too cruelly in the annals of history, the Divine Foresight Jing Yuan, leader of the Cloud Knights of the Xianzhou Luofu, stands out from the rest with his centuries-old reign. Under his wise strategy, the Luofu's Cloud Knights have made a name for themselves among the Alliance, achieving an exemplary record. While there are those who complained that he feared combat so much so that he seldom resorted to arms, it remains true that his intellect is no less resourceful than the tip of the sharpest sword in solving thorny problems.",
       "3": "One of the hottest pieces of gossip making the rounds today contends that Jing Yuan's family has served the Realm-Keeping Commission for generations.\\n\\nAccording to the foxian custom of having babies \"picking\" their future, parents will put various objects and toys around an infant cub, and get them to choose their future career path by grabbing an item. Jing Yuan's parents hoped he would inherit the mantle of a scholar or official at the Realm-Keeping Commission, but Jing Yuan grabbed the toy sword.\\n\\nIt seems like prediction from the birthfate tradition came true. After graduating from the academy, Jing Yuan joined the Cloud Knights to escape from a \"typical\" life against his family's wishes.\\n\\nHis first expedition was recorded in the official Cloud Knights' battle record. The Navis Astrigera carrying the troops had to make a forced landing on an ocean planet infested by abominations. One new long-life species known as Puppeteer Jellyfish hijacked the Cloud Knights' minds, stowing onto the ship and almost converting their warship into an alien hive. Jing Yuan quickly became aware of the crisis and identified the requirements of Puppeteer Jellyfish possession, then devised a way against them. The rest of the crew eventually passed this ordeal amongst identical friends and foes, defeated the real enemies, and returned home to safety.\\n\\nThis bloodless victory showed Jing Yuan's mettle to the Cloud Knights' generals. After returning to the Xianzhou, Jing Yuan demonstrated his adept skill and was appointed to a position of importance in the Knights.\\n\\nHis quick-witted and practical approaches had repeatedly given his superiors unforgettable surprises — and headaches. In the end, Jing Yuan was invited by the previous Sword Champion of the Luofu to join her team, and so the legend of the High-Cloud Quintet was formed.",
-      "4": "As the most famous legend in Xianzhou history, the five heroes of the High-Cloud Quintet gathered to fight together. Their feats were almost endless: Driving out the borisin invading Thalassa. Destroying the alliance between the Houyhnhnms and the wingweavers in the Abundance Axis. Even rescuing the Xianzhou Yuque and defeating the living planet Ketu Mirage, preserving the eyes of the Alliance that gaze out to the stars...\\n\\nHowever, all their achievements were no match for the cruelty of time. The High-Cloud Quintet fell apart after less than a hundred short years. As wars waned, the major ships went their separate ways as the Luofu began patrolling cosmic trade routes, seeking out supplies and support for the Alliance.\\n\\nOld friendships became scattered to the winds, and enemies were either captured or dead. Only memories remain. Fallen generals don't have to endure such torment, but those who survive have to go through it all, no matter how great a vision one has dreamed of and no matter how many overwhelming enemies one has defeated, time will always reduce one's strength little by little yet cruelly spares one's life, leaving one cowering in a corner and hating one's own powerlessness.\\n\\nOnly the truly wise can stand proud in front of the undefeated enemy called time."
+      "4": "As the most famous legend in Xianzhou history, the five heroes of the High-Cloud Quintet gathered to fight together. Their feats were almost endless: Driving out the borisin invading Thalassa. Destroying the alliance between the houyhnhnms and the wingweavers in the Abundance Axis. Even rescuing the Xianzhou Yuque and defeating the living planet Ketu Mirage, preserving the eyes of the Alliance that gaze out to the stars...\\n\\nHowever, all their achievements were no match for the cruelty of time. The High-Cloud Quintet fell apart after less than a hundred short years. As wars waned, the major ships went their separate ways as the Luofu began patrolling cosmic trade routes, seeking out supplies and support for the Alliance.\\n\\nOld friendships became scattered to the winds, and enemies were either captured or dead. Only memories remain. Fallen generals don't have to endure such torment, but those who survive have to go through it all, no matter how great a vision one has dreamed of and no matter how many overwhelming enemies one has defeated, time will always reduce one's strength little by little yet cruelly spares one's life, leaving one cowering in a corner and hating one's own powerlessness.\\n\\nOnly the truly wise can stand proud in front of the undefeated enemy called time."
     },
     "voicelines": [
       {
@@ -204,6 +204,72 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 32,
+        "voice_title": "About Yunli",
+        "voice_m": "I recall that she is the adopted granddaughter of General Huaiyan. She has excellent swordsmanship and is about the same age as Yanqing — it would be ideal if the two could get along well and learn from each other.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "The way I see it, he was always a healer. It's just that ordinary healers focus on one patient at a time, while he wanted to cure the ailments of all the people on the Xianzhou.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Jiaoqiu",
+        "voice_m": "I've heard of Mr. Jiaoqiu's exceptional skill in beguiling the eyes. And today I'm most fortunate to witness it in person.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "About Lingsha",
+        "voice_m": "I do shoulder much of the blame for the current state of the Alchemy Commission. I am deeply grateful that she is willing to let go of past grudges and come back to the Luofu to save the Commission from collapse.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "About Feixiao",
+        "voice_m": "The Merlin's Claw and I couldn't be more different in terms of temperament and how we handle things, but our perspectives on many issues are quite similar... It's interesting if you think about it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "Added to Team With Lingsha",
+        "voice_m": "Cauldron Master, I entrust my life to you now.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "Planning before acting doesn't quite fit your personality, does it?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "About Yao Guang",
+        "voice_m": "Madam Yao appears to bear a youthful mind, yet in truth she is keenly perceptive. Her words of contest with me are proof enough that, she acknowledges my ability. And her frequent mention of past affairs serves only to show that, since then, no further conflict has arisen.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "With Madam Yao keeping watch, this general can doze to his heart's content.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 41,
+        "voice_title": "About Mortenax Blade",
+        "voice_m": "He was once a master swordsmith, and by circumstance became deathless... only he could forge his own flesh into a blade... It could only be him.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 42,
+        "voice_title": "Added to Team With Mortenax Blade",
+        "voice_m": "At last, the weapon in your heart has taken form.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "A foregone conclusion.",
@@ -306,27 +372,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 71,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Oh? A delightful surprise.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "A rare find such as this is best suited for your keeping.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 68,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "There was more than met the eye.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "These mechanisms function in intriguing ways.",
         "is_battle_voice": true
       },
       {
@@ -339,6 +387,24 @@
         "voice_id": 70,
         "voice_title": "Returning to Town",
         "voice_m": "A few games of chess will while away the time.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Oh? A delightful surprise.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "A rare find such as this is best suited for your keeping.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "These mechanisms function in intriguing ways.",
         "is_battle_voice": true
       }
     ]

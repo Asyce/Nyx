@@ -110050,6 +110050,7 @@
       },
       "title": "Patience of a Cat",
       "slug": "nekomata",
+      "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {
@@ -117922,16 +117923,9 @@
       },
       "title": "Peach-Flavored Flash Suppressor",
       "slug": "orphie-and-magus",
-      "release": 1758672000000,
       "releasePatch": "2.2",
       "updated": 1785283200000,
       "sourceOrder": 0,
-      "voiceActors": {
-        "english": "Dawn M. Bennett",
-        "japanese": "Yume Miyamoto|Miyamoto Yume (\u5bae\u672c \u4f91\u82bd)",
-        "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u5218\u5341\u56db|Liu Shisi (\u5218\u5341\u56db)",
-        "korean": "https://namu.wiki/w/\ub958\uc9c0\uc544|Ryu Ji-a (\ub958\uc9c0\uc544)"
-      },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle49.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole49.webp",
       "card": "../../Database/GameData/zzz/assets/agents/icons/IconRole49.webp",
@@ -194626,8 +194620,8 @@
       },
       "title": "Ending Theme",
       "slug": "anby-demara",
-      "release": 1741737600000,
-      "releasePatch": "1.6",
+      "release": 1720051200000,
+      "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {
@@ -210482,15 +210476,10 @@
       },
       "title": "Little Boars, Coming Right Up",
       "slug": "lucy",
-      "release": 1720051200000,
-      "releasePatch": "1.0",
       "updated": 1785283200000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "imdb:nm4716053|Elsie Lovelock",
-        "japanese": "Ayaka Asai|Asai Ayaka (\u671d\u4e95 \u5f69\u52a0)",
-        "chinese": "https://zh.moegirl.org.cn/zh/\u95f2\u8e0f\u68a7\u6850|Xian Ta Wutong (\u95f2\u8e0f\u68a7\u6850)",
-        "korean": "Kim Mi-so (\uae40\ubbf8\uc18c)"
+        "english": "Courtney Lin"
       },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle27.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole27.webp",

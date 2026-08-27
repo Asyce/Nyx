@@ -192,6 +192,36 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 30,
+        "voice_title": "About Boothill",
+        "voice_m": "Galaxy Ranger... His affiliation with the organization is merely a cover. It's evident that he lives only for himself, and that is exactly why I have faith in him.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Boothill",
+        "voice_m": "You're fast... hand at the holster already?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Firefly",
+        "voice_m": "You can't escape the past, and neither can I.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About The Dahlia",
+        "voice_m": "She dances at the edge of death and takes delight in it while she consorts with the Nihility. She desires nothing, and perhaps that is how she can bloom so carefree.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With The Dahlia",
+        "voice_m": "If you do not fear wilting, I would gladly share a dance with you.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Half the work is already done.",
@@ -354,7 +384,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }

@@ -4,7 +4,7 @@
   "base_type": "Elation",
   "refinements": {
     "name": "Whisper",
-    "desc": "Increases the wearer's Elation by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses an Elation Skill, ignores <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF.",
+    "desc": "Increases the wearer's Elation by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. During the use of Elation Skill by the wearer, ignores <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF.",
     "level": {
       "1": {
         "param_list": [

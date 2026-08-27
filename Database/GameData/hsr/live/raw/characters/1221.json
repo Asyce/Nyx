@@ -2,6 +2,7 @@
   "name": "Yunli",
   "desc": "A sword hunter from the Xianzhou Zhuming and \"the Flaming Heart\" General Huaiyan's darling granddaughter. Frank and straightforward.\\nShe has learned swordplay and forging from Huaiyan since she was young, and thus is the second-youngest prodigy swordmaster of the Flamewheel Octet.\\nFueled by an intense loathing for the cursed swords that emerged from the Zhuming, she vowed to \"hunt down and wipe out all cursed swords.\"",
   "chara_info": {
+    "camp": "The Xianzhou Zhuming",
     "va": {
       "chinese": "刘雯",
       "japanese": "若山詩音",
@@ -15,7 +16,386 @@
       "3": "<i>\"Why did you steal someone else's sword?\"</i>\\nHuaiyan sighed. As for Yunli, she resented the fact that something so minor had been reported to her grandfather once again.\\n<i>\"Although a sword is not made from flesh and blood, it still draws upon the hopes of its swordsmith and absorbs the ambition of its swordmaster. Did it never occur to you that a sword would lose its heart once it leaves the hands of its master?\"\\n\"But there are many types of people as well. There are those who make use of their famed swords to show off their status just for the sake of a little convenience, and others who rely on the great swords that they have inherited from their families to bully the weak. Some even go around flaunting the relic blades of their elder siblings, who are Cloud Knights... These are the people whose swords I've taken.\"</i>\\nHuaiyan looked at the Blade of Forged Remnants behind Yunli that she had named Old Mettle. Even though the edge of the blade was still blunt and unfinished, it still stood tall and firm — just like the little girl before his eyes.\\n<i>\"I just can't stand for precious swords being wasted like that.\"\\n\"Since you've won the sword, are you going to take it out with you next time?\"\\n\"Umm... But I already have Old Mettle. Wouldn't that be too fickle-minded of me...\"\\n\"Then what about the swords you've won previously? Are they being locked away, restricted from being able to showcase their brilliance?\"\\n\"Of course not! I haven't thought about it yet... What about sparring? I'll give them to anyone that beats me in a bout of sparring!\"\\n\"Forcing the sword's intent and bestowing them with a new purpose isn't the best future for them.\"</i>\\nSeeing Yunli's frustration and hesitation, Huaiyan couldn't help but laugh, a crack showing in the stern front that he had put on.\\n<i>\"You're still young. There's no need for you to consider such a serious issue yet...\"</i>\\n\\nHowever, she couldn't help but think about it as the memories of the past replayed in her mind. Outside, the sun was setting, bringing with it the darkness of the night.\\nSo who actually makes the choice? The sword, or its wielder?",
       "4": "She flipped the sword over to allow the flames to better engulf its body. A sense of bitter resentment rose up within her despite the searing temperature of the Molten Remains.\\n\\nYunli stared expressionlessly into the sunset outside the window. With age, she had gradually found answers for the questions she once had.\\n\\nHeliobi... absorb human emotions and devour their feelings... The blade, a weapon that when pointed at enemies would be filled with killing intent. When used in battle, the sword infused with a heliobus would continuously absorb rage, bloodthirst, and violent tendencies, and would then eat away at the mind of its wielder until it eventually became a \"cursed sword.\"\\n\\n<i>\"Do you know what he felt as he swung his sword? Exhilaration... Pride... A sense of self-importance! He was just an ordinary Cloud Knight who was always at the bottom of the barrel! I realized the wish that he could never have had achieved ever! Just what right do you have—\"</i>\\nShe added another kindling to the fire. Why did cursed swords have to be so long-winded even in the face of destruction?\\n\\n<i>\"Heh... Do you know that he once abandoned his sword and escaped on his horse? Humans are such cowards! Do you really think that there's any meaning in what you're doing? As long as humans retain the slightest desire, your hunt will never come to an end...\"</i>\\nFrom that day onward, she vowed to hunt down all the cursed swords and make up for Hanguang's sins. However, he had committed too many sins to atone for, and she truly felt disdain at having to bear such a sinful burden. Despite distortions in the air due to the high temperature, Yunli's prideful expression could clearly be seen.\\n<i>\"Although I cannot bear to watch good swords wasted on trash, I also refuse to see a good person corrupted by an evil sword.\\n\"Whether it turns out to be a treasured sword or a butcher's knife is not something for you bloodthirsty and evil filth to decide.\\n\"A bad man should be punished, and an evil sword should be melted down. As for you, accept your fate of being reforged in the furnace.\"</i>\\n\\nAs the flames of the furnace completely engulfed the cursed sword, the molten iron bubbled alongside sparks from the fire, resembling the core of a new sword forming during forging — this was her answer.\\n<i>\"Why not just melt the cursed sword and turn it into beautiful molten iron? Since the sword met its end due to a lack of care, then it can wait for a worthy one to reforge its brilliance.\"</i>\\nThe temperature rose further as she shut the furnace door, waves of heat enveloping her thoughts.\\nEverything would undergo rebirth soon."
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "I am Yunli. Come, take up your sword. We'll get to know each other once we've sparred.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Oh, here you are. Swordmasters should greet each other with their swords. Old Mettle, say hi!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "You're leaving? Actually, I suddenly have a craving for some good food... Let's go, I'll treat you. Don't worry, I have some pocket money from grandpa.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Talking to Sword",
+        "voice_m": "Swords have a temper. Sometimes, you have to touch them to calm them down — put the hilt of the sword in your hand, and it'll tell you what's wrong!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Sword Techniques",
+        "voice_m": "In swordsmanship, skill alone isn't enough — communication with the sword is equally important. For any sword technique, whether it be the Avalanche Chop or the Boulder Breaker, you have to vocalize your techniques when you train, then you won't stumble over your words on the battlefield.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Cursed Swords",
+        "voice_m": "A cursed sword may grant a warrior great power in an instant, but in the end, they will just be a walking corpse driven by the sword. Victory is up to the wielder, not the sword.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Weapon",
+        "voice_m": "Old Mettle here is an unrefined sword into which I infuse cursed swords I've collected, so I also call it the \"Blade of Forged Remnants.\" ...But I guess Old Mettle is a friendlier name. Right, Old Mettle?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Hobbies",
+        "voice_m": "There is an etiquette for appreciating a sword. First, observe the exterior. Second, feel the sword's temperament — it is best to touch it with your fingers to get a good sense of its inner quality. Lastly, and most importantly, get used to the feeling of living with it for the rest of your life!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Annoyances",
+        "voice_m": "Why are the bad guys always using good swords... Why can't the bad guys take bad swords?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Something to Share",
+        "voice_m": "For a craftsman, a pearl hidden from the light of day is a true waste. The reason I stash away all the swords I find into Molten Remains is not to destroy them, but to protect them until a suitable swordmaster arrives...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Knowledge",
+        "voice_m": "The Xianzhou Zhuming is famous across the stars for its forging and metallurgy, and there are countless master craftsmen among its ranks — most of them were Grandpa's apprentices. That includes Yingxing, the \"flying comet.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Huaiyan",
+        "voice_m": "Grandpa always treats me like a child. But come to think of it, at his age, who isn't a child to him?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Jing Yuan",
+        "voice_m": "Every time I hear Grandpa and General Jing Yuan talking, I start to fall asleep. Why can't they speak to each other the same way they talk to me? I can never understand conversations between generals...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Yanqing",
+        "voice_m": "He has so many great swords that he never uses. Sometimes, I can hear those swords crying... Is this what people mean when they say \"spoiled for choice?\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Feixiao",
+        "voice_m": "I prefer to make friends by sparring — after all, combat is more sincere than words. That carefree general of the Yaoqing is the same as me in that regard.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Moze",
+        "voice_m": "Ah yes, General Feixiao has a counselor by that name. I've heard that it's very, very difficult to see him, unless he reveals himself willingly. But usually he's nowhere in sight...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "He always asks me to go eat hot pot with him. I know it's delicious, but I just can't eat that hot and spicy stuff.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Lingsha",
+        "voice_m": "Whenever I'm on the Zhuming and I have time, I go visit Lingsha and Ardens Regia. Then, when I'm tired of playing, I rest my head on her lap... Lingsha always has this sweet sweet aroma about her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Blade",
+        "voice_m": "You mean Yingxing? I've never met him in person, but Grandpa has mentioned him countless times. He's probably one of his most famous apprentices... I'd love to chat with that Shard Sword of his if I get the chance.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Bailu",
+        "voice_m": "The Luofu's high elder? I once got to share a table with her in Aurum Alley. We ate tons of scallion chicken and fried rice balls. We even exchanged numbers and agreed to come back to Aurum Alley for a big dinner sometime.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About March 7th",
+        "voice_m": "March is my first apprentice. She's talented and willing to put in the work — I'm quite pleased with her. If I could just hear her say that my teaching is better than Yanqing's, I would be over the moon.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Huohuo",
+        "voice_m": "That Judge from the Ten-Lords Commission? She doesn't seem like a warrior, but that tail of hers has some fight in it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Qingque",
+        "voice_m": "Qingque has the guts to grab March away right in front of me and go play Celestial Jade... but I can see she has experience. March might be able to learn a thing or two from her and apply it to her swordsmanship.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Argenti",
+        "voice_m": "After we got to know each other by sparring, I realized that he was indeed a kind gentleman, but it was a little hard to understand him... And his \"sword\" was hard to understand, too...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "A sword must be hammered and refined a thousand times over before it can be forged into a weapon.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Character Ascension",
+        "voice_m": "My skills have improved. Time to treat myself to some yummy food!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Max Level Reached",
+        "voice_m": "To finally \"hunt down and wipe out all cursed swords\" — I still have a long ways to go before then.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Trace Activation",
+        "voice_m": "I'm a little stronger — I can even hear my sword congratulating me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "If it isn't the assistant teacher. Give me a hand here.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With March 7th",
+        "voice_m": "March, stand closer — I'll teach you a few tricks for the battlefield.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "Added to Team With Yanqing",
+        "voice_m": "Yanqing, how about a rematch? Best of three— No... one round!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Jiaoqiu",
+        "voice_m": "Are you okay? Grandpa always said it's bad to exercise after eating...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "Added to Team With Lingsha",
+        "voice_m": "Ms. Lingsha, please let me handle the enemies up ahead.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "Getting to fight alongside the great General Feixiao is even getting Old Mettle pumped up!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "Added to Team With Moze",
+        "voice_m": "So... the legendary figure has appeared!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Strike while the iron is hot.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "I've yet to find a lump of iron I can't melt.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "The outcome lies within the self, not the sword.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Gonna show me what you're made of?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Hey, Old Mettle, just between us, which one do you wanna strike... Oh, all of them? Alright!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Skill 1",
+        "voice_m": "Rock-shattering slash!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 2",
+        "voice_m": "Pulverizing sword strike!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Again!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Not bad.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "I'll melt you all down!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Talent 1",
+        "voice_m": "Right on time!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Talent 2",
+        "voice_m": "Yes, YOU!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Ultimate: \"Intuit: Slash\"",
+        "voice_m": "Splitting clouds, severing mountains!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Ultimate: \"Intuit: Slash\"",
+        "voice_m": "Blade drawn, mountains fall!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Ultimate: \"Intuit: Cull\"",
+        "voice_m": "Through the clouds, it cleaves a path, Hah!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Ultimate: \"Intuit: Cull\"",
+        "voice_m": "To earth, it descends with might, eradicate!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Downed",
+        "voice_m": "Grandfather...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Return to Battle",
+        "voice_m": "There are still cursed swords to be destroyed.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Health Recovery",
+        "voice_m": "Thank you for your help.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Technique",
+        "voice_m": "Intercepting sword technique.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Battle Won",
+        "voice_m": "Tempered and forged, all are imbued into the sword",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Hello there~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "What do we have here?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Wow! Too bad it's not the sword I wanted...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Not as interesting as Grandfather's gadget.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Guess I'm a bit rusty...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Old Mettle, let's go!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "Returning to Town",
+        "voice_m": "I'm hungry.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "yunli",
@@ -2033,7 +2413,7 @@
         "extra": {
           "10000010": {
             "name": "Debuff",
-            "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+            "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
             "param": []
           }
         }

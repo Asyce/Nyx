@@ -150,6 +150,12 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Robin",
+        "voice_m": "Oh my gosh, Miss Robin is right in front of me... I... I'll do my best!",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Come on, I can do this...!",

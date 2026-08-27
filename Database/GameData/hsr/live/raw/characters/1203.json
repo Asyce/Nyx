@@ -282,27 +282,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 73,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "The enjoyment of collecting.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Quality merchandise.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 70,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Hardly worth mentioning.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 75,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "A traveling merchant needs a knowledge of puzzles.",
         "is_battle_voice": true
       },
       {
@@ -315,6 +297,24 @@
         "voice_id": 72,
         "voice_title": "Returning to Town",
         "voice_m": "It's hard for a wanderer to find rest in this world.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "The enjoyment of collecting.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Quality merchandise.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "A traveling merchant needs a knowledge of puzzles.",
         "is_battle_voice": true
       }
     ]
@@ -648,7 +648,7 @@
       "extra": {
         "10000009": {
           "name": "Buff",
-          "desc": "Can buff combat ability for a period of time, which can be dispelled unless otherwise specified.",
+          "desc": "All status effects that provide beneficial combat buffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       },
@@ -2213,7 +2213,7 @@
         "extra": {
           "10000010": {
             "name": "Debuff",
-            "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+            "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
             "param": []
           }
         }

@@ -1,5 +1,5 @@
 {
-  "name": "Weapon: Sword",
+  "name": "New Bough",
   "desc": "",
   "weapon_type": "WEAPON_SWORD_ONE_HAND",
   "weapon_prop": [
@@ -342,8 +342,8 @@
   },
   "refinement": {
     "1": {
-      "name": "",
-      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "name": "Wildgrowth",
+      "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>4%</color> and their Elemental Mastery by <color=#99FFFFFF>20</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>6%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>8%</color>.",
       "param_list": [
         12,
         6,
@@ -356,8 +356,8 @@
       ]
     },
     "2": {
-      "name": "",
-      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "name": "Wildgrowth",
+      "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>5%</color> and their Elemental Mastery by <color=#99FFFFFF>25</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>7.5%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>10%</color>.",
       "param_list": [
         12,
         6,
@@ -370,8 +370,8 @@
       ]
     },
     "3": {
-      "name": "",
-      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "name": "Wildgrowth",
+      "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>6%</color> and their Elemental Mastery by <color=#99FFFFFF>30</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>9%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>12%</color>.",
       "param_list": [
         12,
         6,
@@ -384,8 +384,8 @@
       ]
     },
     "4": {
-      "name": "",
-      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "name": "Wildgrowth",
+      "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>7%</color> and their Elemental Mastery by <color=#99FFFFFF>35</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>10.5%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>14%</color>.",
       "param_list": [
         12,
         6,
@@ -398,8 +398,8 @@
       ]
     },
     "5": {
-      "name": "",
-      "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+      "name": "Wildgrowth",
+      "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> and their Elemental Mastery by <color=#99FFFFFF>40</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>12%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>16%</color>.",
       "param_list": [
         12,
         6,

@@ -12,7 +12,7 @@
       "key": "monsters",
       "title": "Monsters",
       "source": "GameData",
-      "count": 612,
+      "count": 628,
       "items": [
         {
           "id": "hsr-mon-1002011",
@@ -1371,6 +1371,17 @@
           "text": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint"
         },
         {
+          "id": "hsr-mon-2022072",
+          "name": "Twig of Wintry Wind",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2022070.webp",
+          "fields": {
+            "rank": "Minion Lv2",
+            "weaknesses": "Ice, Quantum, Imaginary"
+          },
+          "text": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint."
+        },
+        {
           "id": "hsr-mon-2022080",
           "name": "Twig of Marple Leaf",
           "kind": "monster",
@@ -1383,6 +1394,17 @@
         },
         {
           "id": "hsr-mon-2022081",
+          "name": "Twig of Marple Leaf",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2022080.webp",
+          "fields": {
+            "rank": "Minion Lv2",
+            "weaknesses": "Fire, Quantum"
+          },
+          "text": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint."
+        },
+        {
+          "id": "hsr-mon-2022082",
           "name": "Twig of Marple Leaf",
           "kind": "monster",
           "art": "../../Database/GameData/hsr/assets/monsters/Monster_2022080.webp",
@@ -1415,6 +1437,17 @@
           "text": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint."
         },
         {
+          "id": "hsr-mon-2022092",
+          "name": "Twig of Glorious Blooms",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2022090.webp",
+          "fields": {
+            "rank": "Minion Lv2",
+            "weaknesses": "Ice, Imaginary"
+          },
+          "text": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint."
+        },
+        {
           "id": "hsr-mon-2022100",
           "name": "Twig of Lavish Fruits",
           "kind": "monster",
@@ -1427,6 +1460,17 @@
         },
         {
           "id": "hsr-mon-2022101",
+          "name": "Twig of Lavish Fruits",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2022100.webp",
+          "fields": {
+            "rank": "Minion Lv2",
+            "weaknesses": "Fire, Quantum, Imaginary"
+          },
+          "text": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint."
+        },
+        {
+          "id": "hsr-mon-2022102",
           "name": "Twig of Lavish Fruits",
           "kind": "monster",
           "art": "../../Database/GameData/hsr/assets/monsters/Monster_2022100.webp",
@@ -1470,6 +1514,18 @@
             "weaknesses": "Ice, Wind, Imaginary"
           },
           "text": "A false projection produced by compromised codes. The referent entity is a cultivator who longs to revive the ancient mysteries of Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.\nNow, their wish has been fulfilled. Gifted by the power of the ancient miracle and using it as both weapon and armor, they managed to touch on the secret of immortality."
+        },
+        {
+          "id": "hsr-mon-2023012",
+          "name": "Celestial Cherub",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2023010.webp",
+          "fields": {
+            "rank": "Elite",
+            "camp": 2,
+            "weaknesses": "Physical, Fire"
+          },
+          "text": "A cultivator who longs to revive the ancient mysteries of Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.\nNow, their wish has been fulfilled. Gifted by the power of the ancient miracle and using it as both weapon and armor, they managed to touch on the secret of immortality."
         },
         {
           "id": "hsr-mon-2023020",
@@ -1516,6 +1572,17 @@
             "weaknesses": "Physical, Ice, Thunder"
           },
           "text": "A false projection produced by compromised codes. The referent entity is the form that the Disciples of Sanctus Medicus crave. A true shape that cast off the burdens of humanity and has been reforged using the way of immortality.\nIn ancient times, those who sought immortality received wisdom from the Ambrosial Arbor and called themselves Celestials. They lived without restraints, and molded the flesh of themselves and others at will. They have long forgotten their original appearances after countless metamorphoses."
+        },
+        {
+          "id": "hsr-mon-2023032",
+          "name": "Celestial Maiden",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2023030.webp",
+          "fields": {
+            "rank": "Elite",
+            "weaknesses": "Ice, Quantum"
+          },
+          "text": "The form that the Disciples of Sanctus Medicus crave. A true appearance that cast off the burdens of humanity and has been reforged using the way of immortality.\nIn ancient times, those who sought immortality received wisdom from the Ambrosial Arbor and called themselves Celestials. They lived without restraints and molded the flesh of themselves and others at will. They have long forgotten their original appearances after countless metamorphoses."
         },
         {
           "id": "hsr-mon-2024010",
@@ -1586,6 +1653,18 @@
             "weaknesses": "Fire, Ice, Quantum"
           },
           "text": "A complete projection produced by compromised codes. The referent entity is an auspicious spiritual beast wrought into being by the Ambrosial Arbor to protects its roots. Its arrival brings along exuberant vegetation and promises good fortune.\nOnce destroyed during ancient wars, the Ambrosial Arbor is mended by the Stellaron and finally revives. Rare creatures and legendary beasts made by celestials of the past all return to this world, like an old dream coming alive again."
+        },
+        {
+          "id": "hsr-mon-2024016",
+          "name": "Unwaning Ageless Immortal",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_2024010.webp",
+          "fields": {
+            "rank": "Little Boss",
+            "camp": 2,
+            "weaknesses": "Physical, Fire, Ice, Quantum"
+          },
+          "text": "An auspicious spiritual beast wrought into being by the Ambrosial Arbor and protects its roots. Its arrival brings along exuberant vegetation and promises good fortune.\nOnce destroyed during ancient wars, the Ambrosial Arbor is mended by the Stellaron and finally revives. Rare creatures and legendary beasts made by celestials of the past all return to this world, like an old dream coming alive again."
         },
         {
           "id": "hsr-mon-2024020",
@@ -3949,6 +4028,17 @@
           "text": "The Sky Titan. Theos Synthetos. Conquered by and fused with humanity, they no longer govern Amphoreus' cycle of day and night, yet their aloof pride remains unchanged.\nIn their mind, the shattered world's mundane mortals are unsightly \u2014 compared to a world safeguarded by light, the mindless human masses seem more befitting of the black tide."
         },
         {
+          "id": "hsr-mon-4015012",
+          "name": "Ishtar Huwawa Aquila",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_4015010.webp",
+          "fields": {
+            "rank": "Big Boss",
+            "weaknesses": "Physical, Ice, Quantum"
+          },
+          "text": "The Sky Titan. Theos Synthetos. Conquered by and fused with humanity, they no longer govern Amphoreus' cycle of day and night, yet their haughtiness remains unchanged.\nIn their mind, the shattered world's mundane mortals are unsightly. Compared to a world safeguarded by light, the mindless human masses seem more befitting of the black tide."
+        },
+        {
           "id": "hsr-mon-4015020",
           "name": "Decimator, Karma of Daythunder, Eye of Twilight",
           "kind": "monster",
@@ -4776,7 +4866,7 @@
         },
         {
           "id": "hsr-mon-4062021",
-          "name": "Avenger Squad: Canine",
+          "name": "Avenger Squadron: Canine",
           "kind": "monster",
           "art": "../../Database/GameData/hsr/assets/monsters/Monster_4062020.webp",
           "fields": {
@@ -4812,7 +4902,7 @@
         },
         {
           "id": "hsr-mon-4063012",
-          "name": "Avenger Squad: Winged Serpent",
+          "name": "Avenger Squadron: Winged Serpent",
           "kind": "monster",
           "art": "../../Database/GameData/hsr/assets/monsters/Monster_4063010.webp",
           "fields": {
@@ -5585,6 +5675,40 @@
           "text": "A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires."
         },
         {
+          "id": "hsr-mon-5023013",
+          "name": "Joy Ascendant (Bug)",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_5023010.webp",
+          "fields": {
+            "rank": "Elite",
+            "camp": 17,
+            "weaknesses": "Fire, Thunder, Imaginary"
+          },
+          "text": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires."
+        },
+        {
+          "id": "hsr-mon-5023014",
+          "name": "Joy Ascendant: Prelude (Bug)",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_5023010.webp",
+          "fields": {
+            "rank": "Elite",
+            "weaknesses": "Fire, Thunder, Imaginary"
+          },
+          "text": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires."
+        },
+        {
+          "id": "hsr-mon-5023015",
+          "name": "Joy Ascendant: Finale (Bug)",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_5023010.webp",
+          "fields": {
+            "rank": "Elite",
+            "weaknesses": "Fire, Thunder, Imaginary"
+          },
+          "text": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires."
+        },
+        {
           "id": "hsr-mon-5023020",
           "name": "God-Devourer Offspring",
           "kind": "monster",
@@ -5607,6 +5731,18 @@
             "weaknesses": "Fire, Thunder, Imaginary"
           },
           "text": "A monstrous legion born from Asat Pramad's splitting of the power of the Voracity \u2014 the prototype of what would become the imagenae. From Ahatopia's slumbering core, he sensed the Voracity's relentless, insatiable hunger, its power pulsing in perfect harmony with the Path of Destruction. Intrigued by this restless force, he began his own dark creation \u2014 erasing human heads, leaving only grinning, devouring maws that roar, demand, and consume endlessly, never satisfied."
+        },
+        {
+          "id": "hsr-mon-5023022",
+          "name": "God-Devourer Offspring (Bug)",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_5023020.webp",
+          "fields": {
+            "rank": "Elite",
+            "camp": 17,
+            "weaknesses": "Fire, Thunder, Imaginary"
+          },
+          "text": "A false projection produced by compromised codes, forged in reference to the God-Devourer Offspring. A monstrous legion born from Asat Pramad's splitting of the power of the Voracity \u2014 the prototype of what would become the imagenae. From Ahatopia's slumbering core, he sensed the Voracity's relentless, insatiable hunger, its power pulsing in perfect harmony with the Path of Destruction. Intrigued by this restless force, he began his own dark creation \u2014 erasing human heads, leaving only grinning, devouring maws that roar, demand, and consume endlessly, never satisfied."
         },
         {
           "id": "hsr-mon-5024010",
@@ -5634,6 +5770,30 @@
         },
         {
           "id": "hsr-mon-5024012",
+          "name": "Paramount Bliss Inverted: Illwish Archlotus",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_5024010.webp",
+          "fields": {
+            "rank": "Little Boss",
+            "camp": 17,
+            "weaknesses": "Physical, Thunder, Imaginary"
+          },
+          "text": "The director of Fulwish TV, fused with the flesh of Shuhu that was brought into Planarcadia.\nDuring the last Phantasmoon Games fifteen years ago, a serial killer known as the \"Herald of Death\" caused countless casualties. His actions left numerous residents without parents, siblings, and classmates.\nPhysical scars can heal, but scars of the mind and soul can never be mended again. The people formed a \"Victims' Mutual Aid Society\" in an attempt to heal this wound.\nFulwish perfected a \"Happiness Surgery.\" Once administered, everyone would eternally forget their suffering and remain happy. The source of this surgery was pieces of Shuhu's flesh.\nFifteen years later, the \"Victims' Mutual Aid Society\" evolved into the renowned \"Research Society of Happy Smiles.\" This simple little surgery, disguised as a cosmetic procedure or medical treatment, infected countless people in Planarcadia and allowed Shuhu's cells to slumber within the populace.\nAs the president of the Research Society of Happy Smiles, Fulwish harbored hatred toward the Phantasmoon Games that spawned the Herald of Death, and thus transformed into \"Paramount Bliss Inverted: Illwish Archlotus,\" launching her revenge against this world."
+        },
+        {
+          "id": "hsr-mon-5024013",
+          "name": "Paramount Bliss Inverted: Illwish Archlotus (Complete)",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_5024010.webp",
+          "fields": {
+            "rank": "Little Boss",
+            "camp": 17,
+            "weaknesses": "Physical, Thunder, Imaginary"
+          },
+          "text": "A false projection produced by compromised codes, forged in reference to the Paramount Bliss Inverted: Illwish Lotus. The director of Fulwish TV, fused with the flesh of Shuhu that was brought into Planarcadia.\nDuring the last Phantasmoon Games fifteen years ago, a serial killer known as the \"Herald of Death\" caused countless casualties. His actions left numerous residents without parents, siblings, and classmates.\nPhysical scars can heal, but scars of the mind and soul can never be mended again. The people formed a \"Victims' Mutual Aid Society\" in an attempt to heal this wound.\nFulwish perfected a \"Happiness Surgery.\" Once administered, everyone would eternally forget their suffering and remain happy. The source of this surgery was pieces of Shuhu's flesh.\nFifteen years later, the \"Victims' Mutual Aid Society\" evolved into the renowned \"Research Society of Happy Smiles.\" This simple little surgery, disguised as a cosmetic procedure or medical treatment, infected countless people in Planarcadia and allowed Shuhu's cells to slumber within the populace.\nAs the president of the Research Society of Happy Smiles, Fulwish harbored hatred toward the Phantasmoon Games that spawned the Herald of Death, and thus transformed into \"Paramount Bliss Inverted: Illwish Archlotus,\" launching her revenge against this world."
+        },
+        {
+          "id": "hsr-mon-5024014",
           "name": "Paramount Bliss Inverted: Illwish Archlotus",
           "kind": "monster",
           "art": "../../Database/GameData/hsr/assets/monsters/Monster_5024010.webp",
@@ -6511,7 +6671,7 @@
             "camp": 6,
             "weaknesses": "Physical, Wind, Imaginary"
           },
-          "text": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers."
+          "text": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers."
         },
         {
           "id": "hsr-mon-8013011",
@@ -6522,7 +6682,7 @@
             "rank": "Elite",
             "weaknesses": "Physical, Wind, Imaginary"
           },
-          "text": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon many Voidrangers."
+          "text": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon many Voidrangers."
         },
         {
           "id": "hsr-mon-8013012",
@@ -6533,7 +6693,7 @@
             "rank": "Elite",
             "weaknesses": "Physical, Wind, Imaginary"
           },
-          "text": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers."
+          "text": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers."
         },
         {
           "id": "hsr-mon-8013013",
@@ -6544,7 +6704,7 @@
             "rank": "Elite",
             "weaknesses": "Physical, Wind, Imaginary"
           },
-          "text": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers."
+          "text": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers."
         },
         {
           "id": "hsr-mon-8013141",
@@ -6912,6 +7072,18 @@
           "text": "A game die metamorphosed from \"Daring Diceroller,\" which shall decide the gamblers' destiny in the Gamble."
         },
         {
+          "id": "hsr-mon-8032040",
+          "name": "Astropolis Sentinel",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_8032040.webp",
+          "fields": {
+            "rank": "Minion Lv2",
+            "camp": 9,
+            "weaknesses": "Wind, Quantum"
+          },
+          "text": "Mass-produced security robots seen everywhere in Astropolis, tasked with maintaining peace and stability.\nCold and ruthless machines of justice, enforcing the law with a warm touch and a heavy fist."
+        },
+        {
           "id": "hsr-mon-8033010",
           "name": "Senior Staff: Team Leader",
           "kind": "monster",
@@ -6957,6 +7129,18 @@
           "text": "An Interastral Peace Corporation senior staff member with a minimal rank of project team leader. The mech they drive belongs to the IPC. If damaged, its repair fees have to be paid out-of-pocket. With a half-decent salary, they can at least afford to rent a one-bedroom apartment on one of the IPC's enterprise ships."
         },
         {
+          "id": "hsr-mon-8033020",
+          "name": "Lighthouse",
+          "kind": "monster",
+          "art": "../../Database/GameData/hsr/assets/monsters/Monster_8033020.webp",
+          "fields": {
+            "rank": "Elite",
+            "camp": 9,
+            "weaknesses": "Fire, Wind, Quantum"
+          },
+          "text": "The superhero of Astropolis, armed with the Intelligentsia Guild's most advanced technological achievements, spares no effort to vanquish evil and maintain the city's peace. Over the past five years, he has repeatedly saved the people of Astropolis from disasters big and small.\nSome point out that these feats could never be accomplished by one person alone, and that the so-called \"Lighthouse\" is nothing more than a false idol manufactured by the entertainment-industrial complex. But the public has already poured their hearts into hoping someone will shoulder the burden when they face a crisis. Little do they know, far darker secrets lie hidden beneath the armor of \"Lighthouse\"..."
+        },
+        {
           "id": "hsr-mon-8034010",
           "name": "Ten Stonehearts: Aventurine of Stratagems",
           "kind": "monster",
@@ -6997,7 +7181,7 @@
       "key": "items",
       "title": "Items",
       "source": "GameData",
-      "count": 1558,
+      "count": 1579,
       "items": [
         {
           "id": "hsr-item-1",
@@ -7030,7 +7214,7 @@
             "rarity": "4 \u2605",
             "type": "Virtual"
           },
-          "text": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient Leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead."
+          "text": "Crystallized lights floating in the sea of stars, pulsing with the residual dream of an ancient leviathan. Everything of the old world turned in the end into candlelight that illuminates the darkness ahead."
         },
         {
           "id": "hsr-item-101",
@@ -8433,7 +8617,7 @@
           "id": "hsr-item-110610",
           "name": "Tears of Rail",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/Figure_Testmaterial01.webp",
+          "art": "../../Database/GameData/hsr/assets/items/110610.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Weekly Monster Drop"
@@ -8889,7 +9073,7 @@
             "rarity": "3 \u2605",
             "type": "Material"
           },
-          "text": "A commemorative coin used within Planarcadia, commonly known as \"Wishbae.\" Can be exchanged for rewards at Furbobocom News."
+          "text": "A commemorative coin used in Planarcadia and Astropolis, commonly known as \"Wishbae.\" Can be exchanged for rewards at Furbobocom News."
         },
         {
           "id": "hsr-item-122000",
@@ -8939,7 +9123,7 @@
           "id": "hsr-item-122004",
           "name": "Anomaly Arbitration Limited-Time Clearance Medal",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/295535.webp",
+          "art": "../../Database/GameData/hsr/assets/items/295536.webp",
           "fields": {
             "rarity": "4 \u2605",
             "type": "Material"
@@ -13768,7 +13952,7 @@
           "id": "hsr-item-140532",
           "name": "Golden Bough of Vows",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140532.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -13779,7 +13963,7 @@
           "id": "hsr-item-140533",
           "name": "Burning Golden Bough of Vows",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140533.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14043,7 +14227,7 @@
           "id": "hsr-item-140557",
           "name": "Seal Slammers Photo Slate",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140557.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
@@ -14054,7 +14238,7 @@
           "id": "hsr-item-140558",
           "name": "Seal Slammers Photo Slate",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140558.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
@@ -14065,7 +14249,7 @@
           "id": "hsr-item-140559",
           "name": "Nicomachus' Work Permit",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190020.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14076,7 +14260,7 @@
           "id": "hsr-item-140560",
           "name": "Andreas' Work Permit",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190020.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14087,7 +14271,7 @@
           "id": "hsr-item-140561",
           "name": "Clio's Work Permit",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190020.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14098,7 +14282,7 @@
           "id": "hsr-item-140562",
           "name": "Clio's Experimental Crop",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/180009.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14109,7 +14293,7 @@
           "id": "hsr-item-140563",
           "name": "Nicomachus' Notebook",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14120,7 +14304,7 @@
           "id": "hsr-item-140564",
           "name": "Andreas' Ceremonial Medicine Enhancer",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/402008.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14131,7 +14315,7 @@
           "id": "hsr-item-140565",
           "name": "Artakama's Sword",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140534.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14142,7 +14326,7 @@
           "id": "hsr-item-140566",
           "name": "Dew of Divine Blood",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140567.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14153,7 +14337,7 @@
           "id": "hsr-item-140567",
           "name": "Weft",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140566.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14164,7 +14348,7 @@
           "id": "hsr-item-140568",
           "name": "\"Work Champion\" Medal",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140568.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
@@ -14175,7 +14359,7 @@
           "id": "hsr-item-140569",
           "name": "Coreflame of Time",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140569.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14186,7 +14370,7 @@
           "id": "hsr-item-140570",
           "name": "Nether Butterfly's Pondering",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140570.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14197,7 +14381,7 @@
           "id": "hsr-item-140571",
           "name": "Letter from the Phantom Thief Cipher",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140571.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14208,7 +14392,7 @@
           "id": "hsr-item-140572",
           "name": "Cipher's Coin",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140572.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14219,7 +14403,7 @@
           "id": "hsr-item-140573",
           "name": "Trianne's Hand-Drawn Picture",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140573.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14230,7 +14414,7 @@
           "id": "hsr-item-140574",
           "name": "Coreflame of Death",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140574.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14241,7 +14425,7 @@
           "id": "hsr-item-140575",
           "name": "Outlander King of Knights Puppet",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/1040536.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14252,7 +14436,7 @@
           "id": "hsr-item-140576",
           "name": "Tarnished Glory",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/1040538.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14263,7 +14447,7 @@
           "id": "hsr-item-140577",
           "name": "Chronocognitive Anchor",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140577.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14395,7 +14579,7 @@
           "id": "hsr-item-140589",
           "name": "Flame-Chase Medallion",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140589.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14406,7 +14590,7 @@
           "id": "hsr-item-140590",
           "name": "Hysilens's Ceramic Cup",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140590.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14417,7 +14601,7 @@
           "id": "hsr-item-140591",
           "name": "Dew of Divine Blood",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140591.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14428,7 +14612,7 @@
           "id": "hsr-item-140592",
           "name": "Coreflame of Worldbearing",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140592.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14439,7 +14623,7 @@
           "id": "hsr-item-140593",
           "name": "Flame-Chase Medallion",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140589.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14450,7 +14634,7 @@
           "id": "hsr-item-140594",
           "name": "Hysilens's Ceramic Cup",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140590.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14461,7 +14645,7 @@
           "id": "hsr-item-140595",
           "name": "Dew of Divine Blood",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140591.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14472,7 +14656,7 @@
           "id": "hsr-item-140596",
           "name": "Chronocognitive Anchor",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140577.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14483,7 +14667,7 @@
           "id": "hsr-item-140597",
           "name": "Dream's Curtain Call",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140597.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14494,7 +14678,7 @@
           "id": "hsr-item-140598",
           "name": "Dream's Curtain Call",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140598.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14505,7 +14689,7 @@
           "id": "hsr-item-140599",
           "name": "Imperial Ring of Strife",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140599.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14516,7 +14700,7 @@
           "id": "hsr-item-140600",
           "name": "Trickery Coin",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140600.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14527,7 +14711,7 @@
           "id": "hsr-item-140601",
           "name": "Winter Blossom of Death",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140601.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14538,7 +14722,7 @@
           "id": "hsr-item-140602",
           "name": "Passage Plushie",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140602.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14549,7 +14733,7 @@
           "id": "hsr-item-140603",
           "name": "Bracelet of Romance",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140603.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14560,7 +14744,7 @@
           "id": "hsr-item-140604",
           "name": "Skybound Spirit Kist",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140604.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14571,7 +14755,7 @@
           "id": "hsr-item-140605",
           "name": "Jade of Reason",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140605.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14582,7 +14766,7 @@
           "id": "hsr-item-140606",
           "name": "Wish of Worldbearing",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140606.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14593,7 +14777,7 @@
           "id": "hsr-item-140607",
           "name": "Despair of Worldbearing",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140607.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14604,7 +14788,7 @@
           "id": "hsr-item-140608",
           "name": "Trailblazemon's Paw (Right)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140608.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14615,7 +14799,7 @@
           "id": "hsr-item-140609",
           "name": "Trailblazemon's Round Foot (Left)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140609.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14626,7 +14810,7 @@
           "id": "hsr-item-140610",
           "name": "Trailblazemon's Paw (Left)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140610.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14637,7 +14821,7 @@
           "id": "hsr-item-140611",
           "name": "\"Blue Guardian\" Trophy",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/140611.webp",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
@@ -14648,7 +14832,7 @@
           "id": "hsr-item-140612",
           "name": "Ashveil's Detective Notes",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190016.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -14659,177 +14843,281 @@
           "id": "hsr-item-140613",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140614",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "hsr-item-140615",
+          "name": "A Game Definitely Unrelated to Any Holy Grail War",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Mission"
+          },
+          "text": "A fantasy action visual novel pretty famous in the Planarcadia fandom. The premise looks awfully similar to Fate/stay night, but for certain \"grown-up reasons,\" it's absolutely, totally unrelated.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140616",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140617",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140618",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140619",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140620",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140621",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140622",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140623",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140624",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140625",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140626",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140627",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140628",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-140629",
           "name": "<i>Setting Sail Among the Stars</i> Picture Book",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
           "fields": {
             "rarity": "5 \u2605",
             "type": "Mission"
           },
-          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\""
+          "text": "When we were kids, we all had countless \"dreams.\"\n\nThey didn't need to promise a hefty paycheck, nor were they bound by the cramped realities of life. They could be completely unreasonable, or entirely nonsensical... They were bold and fiery. They were the future we dared to proclaim to the world, hands planted firmly on our hips.\n\nAs time passed, we all more or less parted ways with those first \"dreams.\" We realized we lacked the talent, discovered that the reality of those dreams wasn't all that great, or learned that the weight of everyday life keeps us from reaching the stars.\n\nWe might complain, we might harbor regrets, and we might grieve. But no one ever regrets having had a \"dream\" during those tender, beautiful days of childhood \u2014 a dream that forever encouraged them to set sail.\n\nThis is the true meaning of a dream. And this is exactly why we must always safeguard a child's right to dream.\n\n\"Open this picture book. Take a look at the future these children are so eager to leap into. May you find your younger self within these pages.\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "hsr-item-140630",
+          "name": "Trailblazemon's Round Foot (Right)",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Mission"
+          },
+          "text": "Peace returned, and many years passed.\n\nA few foxes still remembered the day the forest nearly fell to destruction, but the monkeys and frogs had long since come to take everything for granted.\n\nThe white rabbits remained nowhere to be found. The vows etched on the gravestones had blurred and faded in the acid rain.\n\nThe black rabbit once said that an ideal world should be one where the presence of good people is as thin as the air... One wonders if he foresaw that what could be as natural and imperceptible as air need not be kindness, but melancholy.\n\nMalice always reeks. But nihility and beauty share the same absence: colorless, odorless, and utterly indistinguishable.",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
+        },
+        {
+          "id": "hsr-item-140631",
+          "name": "<i>Secrets of a City</i>",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/140212.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Mission"
+          },
+          "text": "A documentary by the great director Mr. Reca, capturing the utterly ordinary days of those who call Astropolis home."
+        },
+        {
+          "id": "hsr-item-140632",
+          "name": "<i>Secrets of a City</i>",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/140212.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Mission"
+          },
+          "text": "A documentary by the great director Mr. Reca, following a lost detective who drifted aimlessly after walking away from who he used to be."
+        },
+        {
+          "id": "hsr-item-140633",
+          "name": "<i>Secrets of a City</i>",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/140212.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Mission"
+          },
+          "text": "A documentary by the great director Mr. Reca, chronicling an absurd war, a farcical scramble for fame and fortune among the living dead."
+        },
+        {
+          "id": "hsr-item-140634",
+          "name": "Speed Star: Grand Champion Trophy",
+          "kind": "item",
+          "art": "../../Database/Shared/database-fallbacks/hsr.svg",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Mission"
+          },
+          "text": "The trophy of the Overdrive: Whirlwind Grand Prix. Starting with this year's race, it will record every champion to come, with each new victor adding their name to the legend. And on its base, the first champion left a motto carved in stone:\n\n\"{TEXTJOIN#279}\"",
+          "artStatus": "intentional-fallback",
+          "artSource": "neutral-database-placeholder"
         },
         {
           "id": "hsr-item-149957",
@@ -15836,7 +16124,7 @@
           "id": "hsr-item-150069",
           "name": "\"Dragonbone City\" Hymn Tablet (I)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150069.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15847,7 +16135,7 @@
           "id": "hsr-item-150070",
           "name": "\"Dragonbone City\" Hymn Tablet (II)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150070.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15858,7 +16146,7 @@
           "id": "hsr-item-150071",
           "name": "\"Dawncloud\" Hymn Tablet (I)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150071.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15869,7 +16157,7 @@
           "id": "hsr-item-150072",
           "name": "\"Dawncloud\" Hymn Tablet (II)",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150072.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15880,7 +16168,7 @@
           "id": "hsr-item-150073",
           "name": "Portentous Goldwoven: Dragonbone City",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15891,7 +16179,7 @@
           "id": "hsr-item-150074",
           "name": "\"Lightless Chapel\" Dawncloud Hymn Tablet",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150074.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15902,7 +16190,7 @@
           "id": "hsr-item-150075",
           "name": "\"Fallen Twilight City\" Okhema Hymn Tablet",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150075.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15913,7 +16201,7 @@
           "id": "hsr-item-150076",
           "name": "\"Cloudedge Bastion Ruins\" Eye of Twilight Hymn Tablet",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150076.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15924,7 +16212,7 @@
           "id": "hsr-item-150077",
           "name": "\"Fortress of Dome\" Eye of Twilight Hymn Tablet",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150077.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15935,7 +16223,7 @@
           "id": "hsr-item-150078",
           "name": "Portentous Goldwoven: \"Lightless Chapel\"",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15946,7 +16234,7 @@
           "id": "hsr-item-150079",
           "name": "Portentous Goldwoven: \"Lightless Chapel\"",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15957,7 +16245,7 @@
           "id": "hsr-item-150080",
           "name": "Conch Echo: Kindling",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150080.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15968,7 +16256,7 @@
           "id": "hsr-item-150081",
           "name": "Conch Echo: Winter",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150080.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15979,7 +16267,7 @@
           "id": "hsr-item-150082",
           "name": "Conch Echo: In the Rain",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150080.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -15990,7 +16278,7 @@
           "id": "hsr-item-150083",
           "name": "Conch Echo: Rumble",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150080.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16001,7 +16289,7 @@
           "id": "hsr-item-150084",
           "name": "Portentous Goldwoven: \"Lightless Chapel\"",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16012,7 +16300,7 @@
           "id": "hsr-item-150085",
           "name": "Portentous Goldwoven: \"Lightless Chapel\"",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16023,7 +16311,7 @@
           "id": "hsr-item-150086",
           "name": "\"Fruit of Time\"",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/150088.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16034,7 +16322,7 @@
           "id": "hsr-item-150087",
           "name": "Portentous Goldwoven: Aedes Elysiae",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16078,7 +16366,7 @@
           "id": "hsr-item-150091",
           "name": "Portentous Goldwoven: Universal Matrix",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16089,7 +16377,7 @@
           "id": "hsr-item-150092",
           "name": "Portentous Goldwoven: Radiant Scarwood",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190017.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -16144,7 +16432,7 @@
           "id": "hsr-item-150097",
           "name": "\"Million-Credit Prize\" Contract",
           "kind": "item",
-          "art": "../../Database/GameData/hsr/assets/items/140028.webp",
+          "art": "../../Database/GameData/hsr/assets/items/190002.webp",
           "fields": {
             "rarity": "3 \u2605",
             "type": "Mission"
@@ -21674,6 +21962,28 @@
           "text": "Upon use, allows all ally characters to restore HP equal to 50% of their Max HP when their HP percentage is lowered to below 50% for the first time in the next battle."
         },
         {
+          "id": "hsr-item-402037",
+          "name": "Vibrant Zest-Core",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/402037.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases all allies' Elation by 24% for the next battle."
+        },
+        {
+          "id": "hsr-item-402038",
+          "name": "Mung Bean Soda Sukiyaki",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/402038.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP and increases their ATK by 40% for the next battle."
+        },
+        {
           "id": "hsr-item-403001",
           "name": "Disposable Kinetic Arm",
           "kind": "item",
@@ -21848,6 +22158,17 @@
             "type": "Food"
           },
           "text": "Upon use, immediately causes all allies to lose HP equal to 40% of their Max HP, and increases their Elation by 40% for the next battle."
+        },
+        {
+          "id": "hsr-item-403017",
+          "name": "Amber Lord Jumps Over the Wall",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/403017.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases ATK of all allies by 24% and CRIT DMG by 24% for the next battle."
         },
         {
           "id": "hsr-item-404004",
@@ -22686,6 +23007,28 @@
           "text": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe."
         },
         {
+          "id": "hsr-item-406037",
+          "name": "Recipe: Vibrant Zest-Core",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/406037.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Formula"
+          },
+          "text": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe."
+        },
+        {
+          "id": "hsr-item-406038",
+          "name": "Recipe: Mung Bean Soda Sukiyaki",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/404001.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Formula"
+          },
+          "text": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe."
+        },
+        {
           "id": "hsr-item-407001",
           "name": "Recipe: Disposable Kinetic Arm",
           "kind": "item",
@@ -22853,6 +23196,17 @@
         {
           "id": "hsr-item-407016",
           "name": "Recipe: Steel Coil",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/404001.webp",
+          "fields": {
+            "rarity": "5 \u2605",
+            "type": "Formula"
+          },
+          "text": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe."
+        },
+        {
+          "id": "hsr-item-407017",
+          "name": "Recipe: Amber Lord Jumps Over the Wall",
           "kind": "item",
           "art": "../../Database/GameData/hsr/assets/items/404001.webp",
           "fields": {
@@ -23555,6 +23909,72 @@
           "text": "Upon use, immediately regenerates 30% of Max Energy for a single designated ally."
         },
         {
+          "id": "hsr-item-408449",
+          "name": "Extra Sodium Sausage",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408449.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, immediately heals one designated ally by 20% of their Max HP plus 240 extra HP."
+        },
+        {
+          "id": "hsr-item-408450",
+          "name": "Invincible Steak",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408450.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases all allies' CRIT DMG by 24% for the next battle."
+        },
+        {
+          "id": "hsr-item-408451",
+          "name": "\"Oceanic\" Tri-Flavored Ice Cream",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408451.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases DEF, Max HP, and HP restored by 8% for all allies in the next battle."
+        },
+        {
+          "id": "hsr-item-408452",
+          "name": "\"Lighthouse\" Movable Action Model",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408452.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases DEF of all allies by 25% in the next battle."
+        },
+        {
+          "id": "hsr-item-408453",
+          "name": "Aeon Balloon",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408453.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, immediately recovers 3 Technique Points for the team."
+        },
+        {
+          "id": "hsr-item-408454",
+          "name": "\"Diggertron\" 1:1 Replica Model",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408454.webp",
+          "fields": {
+            "rarity": "2 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases Fire DMG of all allies by 16% for the next battle."
+        },
+        {
           "id": "hsr-item-408601",
           "name": "Belobog Sausage",
           "kind": "item",
@@ -24028,6 +24448,28 @@
           "text": "Upon use, immediately causes all allies to lose HP equal to 5% of their Max HP, and increases their ATK by 40% for the next battle."
         },
         {
+          "id": "hsr-item-408644",
+          "name": "The Swimsuit",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408644.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases all allies' Elation by 24% for the next battle."
+        },
+        {
+          "id": "hsr-item-408645",
+          "name": "Speeding Jet Surfboard",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408645.webp",
+          "fields": {
+            "rarity": "3 \u2605",
+            "type": "Food"
+          },
+          "text": "Upon use, increases SPD of all allies by 12% for the next battle."
+        },
+        {
           "id": "hsr-item-408801",
           "name": "Dreamy Cone (Three Flavors)",
           "kind": "item",
@@ -24136,6 +24578,17 @@
             "type": "Find Chest"
           },
           "text": "A Treasure Gadget that can be used indefinitely. After use, 1 Basic Treasure's location will be displayed on the Planarcadia maps."
+        },
+        {
+          "id": "hsr-item-408907",
+          "name": "Energy Sensor",
+          "kind": "item",
+          "art": "../../Database/GameData/hsr/assets/items/408907.webp",
+          "fields": {
+            "rarity": "4 \u2605",
+            "type": "Find Chest"
+          },
+          "text": "A treasure gadget that can be used indefinitely. After use, 1 Basic Treasure's location will be displayed on the Astropolis maps."
         }
       ]
     }

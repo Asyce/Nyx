@@ -36,7 +36,7 @@
   },
   {
     "id": "3",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Oneiric Shard",
     "rarity": "SuperRare",
     "type": "Virtual",
@@ -47,8 +47,34 @@
       "icon": "GameData/hsr/assets/items/3.webp"
     },
     "liveComparison": {
-      "liveHash": "96302e11b075052e284d5f5ec3d19eba97109c8a65deec7f069192cabc69b23e",
+      "liveHash": "ad9355e19b97ef2718db9b0024a401ae48c73948b02c3e6e9d13ec0502b760a5",
       "currentHash": "ad9355e19b97ef2718db9b0024a401ae48c73948b02c3e6e9d13ec0502b760a5"
+    }
+  },
+  {
+    "id": "61",
+    "contentStatus": "beta",
+    "name": "61",
+    "rarity": "SuperRare",
+    "type": "Virtual",
+    "subType": "Virtual",
+    "purposeType": 8,
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "3ff2e13ac07073334f643a1a61f4fcf11f9be09007f575a1c1c6856ae444c104"
+    }
+  },
+  {
+    "id": "62",
+    "contentStatus": "beta",
+    "name": "62",
+    "rarity": "SuperRare",
+    "type": "Virtual",
+    "subType": "Virtual",
+    "purposeType": 8,
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "bd52fa8a86361d53dcace2ea48f62d06cbf9e9c83d2093f89aa941170909697b"
     }
   },
   {
@@ -748,7 +774,7 @@
   },
   {
     "id": "110143",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Safeguard of Amber",
     "rarity": "VeryRare",
     "type": "Material",
@@ -760,7 +786,7 @@
       "icon": "GameData/hsr/assets/items/110143.webp"
     },
     "liveComparison": {
-      "liveHash": "665dc5481ed706361f4e545e2bc720dad167e2cb2e4d60b14f30234d50ba62ff",
+      "liveHash": "3ce31dab03313b010b62e3e0ef5477095bbd7635cffda222497c03108c974028",
       "currentHash": "3ce31dab03313b010b62e3e0ef5477095bbd7635cffda222497c03108c974028"
     }
   },
@@ -2170,7 +2196,7 @@
   },
   {
     "id": "110501",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Destroyer's Final Road",
     "rarity": "VeryRare",
     "type": "Material",
@@ -2182,7 +2208,7 @@
       "icon": "GameData/hsr/assets/items/110501.webp"
     },
     "liveComparison": {
-      "liveHash": "a10a4d7acc29cb04331a53ed4a3af4425061971b866170d6592967765484ac86",
+      "liveHash": "116e5f8888361e42d0ab26178585e90908ed9090ce5d0edfac3a750eb5164493",
       "currentHash": "116e5f8888361e42d0ab26178585e90908ed9090ce5d0edfac3a750eb5164493"
     }
   },
@@ -2344,7 +2370,7 @@
       "icon": "GameData/hsr/assets/items/Figure_Testmaterial01.webp"
     },
     "liveComparison": {
-      "liveHash": "142038ab1fba6db1a16082526fe833e857d8164facd5ad1eeb6522e7b13bcaae",
+      "liveHash": "833aea513185f421c88a8eed880696b496ebf246889447a53f8b1cc25cf7dc86",
       "currentHash": "9f6e6d18e9b107eae2923bed6d340f76d668d06d5107a8e50c2eb990020f6c88"
     }
   },
@@ -3070,7 +3096,7 @@
   },
   {
     "id": "120006",
-    "contentStatus": "beta_changed",
+    "contentStatus": "live",
     "name": "Arcadian Token",
     "rarity": "Rare",
     "type": "Material",
@@ -3082,7 +3108,7 @@
       "icon": "GameData/hsr/assets/items/120006.webp"
     },
     "liveComparison": {
-      "liveHash": "d23d50d55f6aebcf1d34619b7b506b7cbfda8064cbc0f745099f39d978c7f843",
+      "liveHash": "1b33504f0463d9ac0e81c8274d682ebb2802bba79e02d1b549ba473f92d4aee3",
       "currentHash": "1b33504f0463d9ac0e81c8274d682ebb2802bba79e02d1b549ba473f92d4aee3"
     }
   },
@@ -3168,11 +3194,11 @@
     "backgroundDescription": "Guided by the starlight, you reached the end of a path few have ever traveled.",
     "purposeType": 14,
     "assets": {
-      "icon": "GameData/hsr/assets/items/295536.webp"
+      "icon": "GameData/hsr/assets/items/295537.webp"
     },
     "liveComparison": {
-      "liveHash": "0a0d85e1f8fa912598f6efc5f18566dec0ebd8981148ff3a6e737df5f59351c3",
-      "currentHash": "82403741cd131c34bcba919f1517caa6b24b75a668788d1e787de928af2ae202"
+      "liveHash": "82403741cd131c34bcba919f1517caa6b24b75a668788d1e787de928af2ae202",
+      "currentHash": "eb3fc6de6f3a75f84cf7cbd3fa9774ddaf9ebc70474ccd2324b2f8e791126d92"
     }
   },
   {
@@ -10820,7 +10846,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7681b7ea958fb14b9cb6ae96f28f3f7fb72134bac2082bd219dbf6f039ec2b25",
+      "liveHash": "096b4cafd64ddc7cfbb318e726c2342ed024ac399cda0997f98ee207ae381847",
       "currentHash": "92ebf82963e9028cd574a904c77fde3ba94c042711c2096c837058b9eb3c6cae"
     }
   },
@@ -10837,7 +10863,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "8e8689584cbe3b70ab0ec9eccd9690921dfcf98af964ebbfd35af2d62afaf4e0",
+      "liveHash": "630d11b9f8f1a1c82f1e64260b077f5d60701a5c87d835188851adc1b940989b",
       "currentHash": "e68a6f954aa5eb2773e3299ed0b32f1d6d80465ffc754ee89a88b06bf2546b14"
     }
   },
@@ -11245,7 +11271,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "2d6ddad549ffd8a47f3a4967c407f40b085e44982cfa8e4e5d7cca827a03d510",
+      "liveHash": "f5a3367b34c02697d6519fb3c2a81fce2e3d1a86eb9f589f2a638bbfd7c2bf99",
       "currentHash": "8944dc0249208b60459426cfe0fb0f282ccab1dbea406e28dac8600b05dd0085"
     }
   },
@@ -11263,7 +11289,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "079758d0a34e807e4a0c57ebbe1b2757b8cc2b1325c33944ade84d461d5f57ca",
+      "liveHash": "32a4b7a50bdf95949aad3c0d9be9db6662e75320f0e755cdaeeecef16fdb0da0",
       "currentHash": "975c508ba7291f24c65777d4a645544395cf667401a8a7e5a6200e00c5c991db"
     }
   },
@@ -11280,7 +11306,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "42d795608050a70ade15a6964e85c4679d8e81a294ec3e6528b2cdd124891d70",
+      "liveHash": "4e5e83e646f5c0063090a3157d9fd923046011c1588d9b2e82003e235c115a73",
       "currentHash": "9f01794c13289235acd0ce5c80125e841ad886062ecaa39e86c82dadba686617"
     }
   },
@@ -11297,7 +11323,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "fa776deb97f5a1b61e5c9711b11d1085cbaba21ba3f1bedc1c726c2f6f65f0d2",
+      "liveHash": "d7588cc5bfceb62d04befead43f3b84abfc7b463daedeb3237189753eb91e174",
       "currentHash": "10b706e3418dfb00df292aa5c76c7ad233c42a4f1df713a7b2cfa31f52fbe2b2"
     }
   },
@@ -11314,7 +11340,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "265d7bd50d132ae300024c315ea91ee526f64f241bbcb6718b0972899b58a78d",
+      "liveHash": "f859bb20563de7cc374dae07326baaf4963dd574e280e154acf79fb85b21362c",
       "currentHash": "2ec04c9de1b061eaaa46a4823bafa9c5c473caa733bd855405186b435255ba5d"
     }
   },
@@ -11331,7 +11357,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ae5b825bb56b97fb730fa50e62589ab90a6eb2acdac6a7dfcd28f45285c2c24a",
+      "liveHash": "4cbf6348075d7726ef1c593aa87a205631414c92da5bd87b24e7a1b506425c03",
       "currentHash": "d926b541f5042556f9e89e539c5e34dbaf9e030f100183021dd463c6e8351d78"
     }
   },
@@ -11348,7 +11374,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7a3100ee264a1b909f5d8245e44ea09d5b9a621b7dd5b51238d40d7cbded390a",
+      "liveHash": "9ac9648a03a5257f67aaf85bb5cc18301803d4375589eda27664504084e219e7",
       "currentHash": "aa96b802f16ff15f45d94f693e2490b11caac0680a741e3150cb6b5380ca1c6d"
     }
   },
@@ -11365,7 +11391,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ebe27a5bb4f4314a7ff834c25ea3c12cc2f207a2f708839e935da8cc3f1d7fe5",
+      "liveHash": "6c3d84e5980778445f973c8c63427eb4bf18f48ce3d8e8004bc47f0b2193c552",
       "currentHash": "fab2b0256db0e9527189781cac99cf17bb8b7c13a14058cdfa2541893d9f793c"
     }
   },
@@ -11382,7 +11408,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "5edef29ceb31a99a30e4016fa842e6b1d8652adeb80ec1a05e8b2e7af7632e40",
+      "liveHash": "d87fa5e31bce2a0509b1871eb6fed3dedf9c8d6777d2a5b8c01d297b818fd0ac",
       "currentHash": "6a2f9347ff8dcfbe82a671c2c025703d20009433ede4fec2460139b2fc4af4c4"
     }
   },
@@ -11399,7 +11425,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "2acda697c17df3a2ca39643cbf5fd9ebc88211c5be9d1fa975600a16c5b35b2f",
+      "liveHash": "061190012db0eb03940cd7da90f954a8b90fb0941a9994d27f0a7d734a9d6c38",
       "currentHash": "a64bce30e46d4d7cc15b25906f6b38eb1e1e1de1c8eb82d6d2ce97d382eb5b93"
     }
   },
@@ -11416,13 +11442,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "c3d33be79c09d57bb9adafabc8d9f3fa66542e6856caef89c268df0b23c07798",
+      "liveHash": "3e7a15dec262cc3e4c322f7458a75e39c0f1fbc0603006712412a3103c615a7a",
       "currentHash": "ab5b08c55ad63a4f634f469fe03151d3634e6b73cee92b6229d9954ea6e70800"
     }
   },
   {
     "id": "140568",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "\"Work Champion\" Medal",
     "rarity": "VeryRare",
     "type": "Mission",
@@ -11433,7 +11459,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "9c1ed40d3af1475453cb6dcdba76d0aa4f655626c8f5cf0404b2e035c7f12bbf",
+      "liveHash": "32861694a7a23765bc989b9ee085aa327d423f357c66f412e1834d22abe1ff7e",
       "currentHash": "9c1ed40d3af1475453cb6dcdba76d0aa4f655626c8f5cf0404b2e035c7f12bbf"
     }
   },
@@ -11450,7 +11476,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "e127d35b762e6ce85b621ffbfc40b82c9f332bb4852134e91e229c6d7283372b",
+      "liveHash": "5c6c09f616aec700774bd66299e21f3faf57d0f33864e5e8ebb39e698ff88539",
       "currentHash": "c2964b8fe5d428dc00711a1687a5ae40d04bf47e20ed03265b91e8ab8386d4ff"
     }
   },
@@ -11467,7 +11493,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "d1462abcb46d3327df66ee8e203627fc0a194d370d33076e832b9df23fb193ec",
+      "liveHash": "04362ff299e3bb81a287063f5f804adce3014a735a4daa6a10caa16908842805",
       "currentHash": "4b414218f3e9c76734cd01ab91cf759ce96b953e27c6ab3d0b3a40b50e8c0950"
     }
   },
@@ -11484,7 +11510,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "21f5298040588b5de781fe10ceb48d1d0f8c60348faca1537f6da03da86b2c34",
+      "liveHash": "de8afe02700da3cc30098fd84a465f68fa4e81339858ccba6644331c68b3a930",
       "currentHash": "c1bfe83a1b88ff989fef0155d448f2527b1c937fd31fdb27ab660f6cf0bced81"
     }
   },
@@ -11501,7 +11527,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ba5c83b3d230d01d26cbaf43227227344ea81f307e54dcdb65aa8a4b599eca96",
+      "liveHash": "f2c988dc6fd734efc8b0865d1cef3b462271ca4fd421630cd5144c4bd98ac593",
       "currentHash": "2c32fa1e77a24367aaf5e05877af16628b11fe4c79919f6b1eb0d875159da6b0"
     }
   },
@@ -11518,7 +11544,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "3292845bd62fa4098613f1bb127386b201966b7353eb893ab8e1aac2aa4e0c7d",
+      "liveHash": "bee26046c9a19c82c297e628d9075cfbe811d296415da8912f54036556f417b8",
       "currentHash": "874c4720b8c95fa0165b4ab1f042a4e272f8e316b791d930dcaf76e3c89ae11f"
     }
   },
@@ -11535,7 +11561,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "b81d9c4f62038b98a4522babfe665a55e49acc23bc282b4f92f2baa7d0963d8c",
+      "liveHash": "5497e7bcba4af392633f75964ac6666f366db3406043e3d2bef6f20ca7be0e78",
       "currentHash": "915e852312d3308947caee954059e39e2306ea7ca63f6d2b4d2d44ba2f328fed"
     }
   },
@@ -11552,7 +11578,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7477bf7223c40bceccad0d29520762ea89d8c05a5610970a34ec67a7d2fee4a7",
+      "liveHash": "f252f4ec43668833e225a5e37eb946fea3f365ee0b4adf8aa451af34c8065839",
       "currentHash": "e923d2fbdf5fdc5f795586a465644a8350aa1ea3f3923249ce674ede27cb6104"
     }
   },
@@ -11569,7 +11595,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "8b228b035ef296c0e59e9f039dde03e6b9fe8bf6322427c3a319ed8e2d269160",
+      "liveHash": "2dd53bb06ca51efc0cfabe5afb8073b0847897d6f02ecdaa1444d97495ab5134",
       "currentHash": "de2da4f2add99abdb20d69c19f5dffdfda667c813d134de6716309910a298944"
     }
   },
@@ -11586,7 +11612,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "f220af5cb5ddd763972c10948896e3e7394a45982526e59ad0ced4d67cf79821",
+      "liveHash": "fcc0f10983105891c2229b5a7f84a55cbf55ee1d1d065d37c5c3c6c1a4179ab7",
       "currentHash": "5f582178576eda38560031a247c45a9120f72261782c19fd50f9d25fcf4f8388"
     }
   },
@@ -11790,7 +11816,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "6684b7a4f1d86c70ff0786fb35aefd293e7ff8ae83623eb5e6b99315f03088c8",
+      "liveHash": "72216d23064882504de6f09a89012057ade67d94809402ed6d4e1492871e75fb",
       "currentHash": "6e2dee866de8a95ecfd7b25640b4e957126c5c9a552a180fa5671c697fe665a2"
     }
   },
@@ -11807,7 +11833,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "f7cb40f6952db0dad1026fe1800e10fc98d3ca2c16adb4acd685caa8d11925f3",
+      "liveHash": "a1fe05ad82079e0ed560f50f2bbebca6489caeecb251cd2b7b8c5a099e8d4f0d",
       "currentHash": "2ccdcc67607ba0446a9083bc18b02aae2d2a6537a7f7fd0ee1584bc56ebc8ddc"
     }
   },
@@ -11824,7 +11850,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "372e1c5f1b4560d0909ec75ca054239302670f4b92106279a01d492b82a92244",
+      "liveHash": "3bbf48f5847430931dfbd1d5f41eed120e183f264671dac91795eb4e8c3092c3",
       "currentHash": "2b7e2ef56da84c448414aaad10b9a8638c1fbaf02cee8c790873b68815ec82ee"
     }
   },
@@ -11841,7 +11867,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "d339ce73b4b68c2bb472c43c0e8c5e17da7bc2ca42d6e046cd8f54e74a14ba2a",
+      "liveHash": "ea2de78c50fd8a64c76a9e93b318e9c94de804deb7724b066bd16792ff19679c",
       "currentHash": "bbc7cfca50b678d3c17a0f58768873221e80f6f0d6dd35cfe2186e0ec6c8c7c3"
     }
   },
@@ -11858,7 +11884,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "267bd86feea24e460fba15ad196ca876cfb3f494e1514c656f0c7c29e8df1a1e",
+      "liveHash": "468d9bb2d6ab7cadcdd3174bb07d289b162bb55ea6d41f4fb80f159bd6a68f3c",
       "currentHash": "f0422217d06e939ce9165f376b7f33223d2b4d8e6a79870e9da1c96388dffc7b"
     }
   },
@@ -11875,7 +11901,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "a506f7ddf64b538544646d3662fdc98850d0ca85b47833e5cf2f200ed8bca69d",
+      "liveHash": "9aeb288de3efb4e67c5007d7386e89a2e74161fbb971fc40cc70ba9eeb87bc5b",
       "currentHash": "0eca4cb297fc72ea7a2cfcdb1366ee49c6b669e6626e70d4afcb0e5d22e6994e"
     }
   },
@@ -11892,7 +11918,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ab690ab501f8db32cfc6298410760aec0af43acb2734d43c125e981a5d13b775",
+      "liveHash": "4eb3beabb8f4695ffd149fe474253210109c4ca6f9431f3c15d25127e6902f87",
       "currentHash": "0a434e5190793e77a2fe725cb44cd252ffe50c30c3b2451145c74c9e89a064ef"
     }
   },
@@ -11909,7 +11935,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "e0216fcce48fe1b16083e4b50f98e1e02b4151e43ccec603a14267a4c9add16a",
+      "liveHash": "72b3bb8b2e3f0dc2cd5739d0dea7b52535c73d052ca998e842eaf912551e8dca",
       "currentHash": "ca0f618cdc9b84ad77bc7355fdea984f2926ed1a7ad76bddd78573d6e1cfe173"
     }
   },
@@ -11926,7 +11952,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "3adf1920292d735d0719f98078e0024d1683f7f981fd4c940c22312a450e8223",
+      "liveHash": "1b9a9a68487e871f3f56521387784a4709ac273b89f73820e15b1e4708912688",
       "currentHash": "331aaa6912f7071c2d187e50de18baa425018f854a83dee32fc8844d0cbb6374"
     }
   },
@@ -11943,7 +11969,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "f72fea0d88013637d5971ab905be198d9139766da6c6b75de88e03ec258344ad",
+      "liveHash": "af4235f523baa1b9b7494619ad3845064eeb5b90a997aa04e104f15c0eab2b8a",
       "currentHash": "ba4598de7896bb018819df25b01d0d422d956a8d18fa33e01a68131fffed56be"
     }
   },
@@ -11960,7 +11986,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ec12fe99c7b37556fd846693df274341a05d583ef809e6a8027a524dcd2f5de1",
+      "liveHash": "3db1466fa38e550d8b271d856fa7a506caf8844309d5b69ef4084e54ce55516b",
       "currentHash": "6f1618215d556839a7c33fedcc1fa85541695b9c87fe9781b1f8908b0cd536a2"
     }
   },
@@ -11977,7 +12003,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "67199f13d54a500fcd0358b0d2e823eea634e77313077e404f11a7493afb6bbe",
+      "liveHash": "2a18ea91eaa8df1e856b13cb524b965086d4d267b2f4d795fee1dce9c35f96e1",
       "currentHash": "8bfcbbe56faf91475c5aac4a16bdd8443b8016c5a94d33fd4f3157c47f7b3f0e"
     }
   },
@@ -11994,7 +12020,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "a0ff2909dd79125f473d89631bb53d8bd63e0d4da13e7780a82ce7e2e6a05b0d",
+      "liveHash": "34621fef06b78ff4db478f34b3efe1c260a83cf47a33fd49c59871d650916631",
       "currentHash": "332f9577c2f7b708df5122b9483e0f79c003785649cec4f7f777dabb8dfc184f"
     }
   },
@@ -12011,7 +12037,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "b3139bf58149c333182a26f9d12d161980a5c49de2133bff9930641cf4129c1d",
+      "liveHash": "9175f7ad2b8d4c889c75e218b411ef5d97f2b8bf8f9a02ca42fefb8474842a90",
       "currentHash": "d9441e0ab3b8efb0c858f3a2801a8968c48dffbf3142a4a4d0915846340b53fa"
     }
   },
@@ -12028,7 +12054,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "07cc6a9425fbca3f6adad8e9eaacb34f7a8a978f1bbda71a4e38c960e14c47bb",
+      "liveHash": "3dfa6b9c5b8d639b6f8be3bbcfacb2c3acbfbaab115bfc75723f67a1a40dbf97",
       "currentHash": "dabb5590c6a2e37fe53b88b00a7ebe9125b82031713bc9796f3ec5d2d568598c"
     }
   },
@@ -12045,7 +12071,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "36e0ce1eb67a35059bb1d4361bd54f6b7cfd74132dea7a5061f6dd220afe9fe5",
+      "liveHash": "b2690d20acb5ff31cc5372be9856d8a6151218e15ff55bddf591bd724fd172a0",
       "currentHash": "4e3ebf29d55f4e9c870c54beb048074754950e077f53eb8433b512f063bff6c9"
     }
   },
@@ -12062,7 +12088,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "b491de75c8e24991a11084e24de2089817b2ab272820f4507cb07df72551fb75",
+      "liveHash": "c29fa925583e3fa94be1d9a6cbe5da383c5fc42255d241aa63c55321bc2058e5",
       "currentHash": "cd392a425d6e7083b5663569bf9304f5be501512821583ed7dbeaab7cc4e47d2"
     }
   },
@@ -12079,7 +12105,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7925e3fad917721f67efcaf132d2d7ee4150971a47804fc26fa08f328e252684",
+      "liveHash": "3681c5505b746ba2a7b6d39d51c52b2c2b9e4bea1da619a6cfc8fce1a191e151",
       "currentHash": "13666f95e372e41b3a6219533f3cb02615b9f6464f7847fe79a784a20826a4ca"
     }
   },
@@ -12096,7 +12122,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "acb3506c39bf92280c978432f4fc19ad80aec6cf869c3824614489b7ea839307",
+      "liveHash": "79e5c370d24ae1b1ba3d53197c539b124869544ebb3908270ac96b91667d495e",
       "currentHash": "63cb96eacba847c2fe0500b69a83193771422d6c0e9cfd085e59ac338ec09264"
     }
   },
@@ -12113,7 +12139,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "a5b875fa9875c7fd94775a310402071e5b861fa3519101e88b6fcc0fc5b17cd7",
+      "liveHash": "af7be70998620242b4d001287cf4ccdec61c6a06603ff01dfe8094323e143670",
       "currentHash": "4ec6f5b106ad9b35a018e76120a05f613f96fdc935b32cf4142885fa8b182ebb"
     }
   },
@@ -12130,7 +12156,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "8495373150d2c9fab45ef885323132b7a65a897fa6de504ed04a00f2985b513e",
+      "liveHash": "46f80365c9069d73c04e285d76f56d1bfc977e14b1fd17aad75d44759a1a89d5",
       "currentHash": "827cd3a973270d3297d3ea8224e7245df17e8d3f2e0a0ace431166dc2213fe6d"
     }
   },
@@ -12147,13 +12173,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "3c031b3312dcf3f2aae508979a59fac226f50e582183552e877c45c2d5bcc6a7",
+      "liveHash": "eb51bcfe82be2ded77694143655ebcd837634b35f483aaf53489d68f81b2c710",
       "currentHash": "d17dc5af6c18e28a82807b8b8b79cb3d87eb0b4a6ba38aaf3234e34d63c52960"
     }
   },
   {
     "id": "140611",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "\"Blue Guardian\" Trophy",
     "rarity": "VeryRare",
     "type": "Mission",
@@ -12164,7 +12190,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "43acb66b4f17822ccf1544a20e5066aa21b5802c4bcb7fc699afd699b7ed59a4",
+      "liveHash": "6c210cb34843f910975e5523936b4638d1abf8f59d1209bd68e12574a5371020",
       "currentHash": "43acb66b4f17822ccf1544a20e5066aa21b5802c4bcb7fc699afd699b7ed59a4"
     }
   },
@@ -12181,7 +12207,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "8029bf59698f06df1aaac1dfd2e6908274cede6081a8fdbd60cb98393c13f8ce",
+      "liveHash": "899318094ef36065824f1611f506a75a1c618405cc97af72fa74546a4819905d",
       "currentHash": "a5b95d747a632bca22c034ab63015e68d8655cc7d1dd534042e0a22f9fe729d8"
     }
   },
@@ -12198,7 +12224,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "76e71ae2024055fa16ceb8671a189d8ecebe44b2d7179885f7eb12ba3c747b7c",
+      "liveHash": "c18f616db80998d3a5f367b06868750f47d6f1043957505072841054131abd9b",
       "currentHash": "0168854edb18ebd147b4c18508a25f1646752ea2dcf872a388cd1ec5184269f1"
     }
   },
@@ -12215,7 +12241,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ef1f84cc10d8288c77e7793c611a3c50ed05daf9e55953d798f94a5e02033f40",
+      "liveHash": "07cb5b7c9e5ab05fc9a4c670c511eaf28fa6c03d528bd94cd96cd9fa0fc4ad76",
       "currentHash": "0b4faee363d4333172fe1219b5d240cbee6f09a9a222a78665f1a7d4c0bfeb7f"
     }
   },
@@ -12226,13 +12252,14 @@
     "rarity": "Rare",
     "type": "Mission",
     "subType": "Mission",
+    "backgroundDescription": "...",
     "purposeType": 16,
     "assets": {
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "d507fe9c9f4c752f2f8a6410ddedaf887d688903def6b934bf4d6aada2969b7f",
-      "currentHash": "ccef7f67e7c8f4e26a6c4e0a1ec9bfbbad2edf55ec83ec1ce85d30dab3df4e0f"
+      "liveHash": "7c4f267d4f8fda30fbac441c949fdb0d28d7083c8e7bc7639e489df87fb14837",
+      "currentHash": "249a6ff1d930fc3be7cd0ca80f77ec46161b213de831a23dd185822eb5941a0a"
     }
   },
   {
@@ -12248,7 +12275,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ee6ad42a950bf0fe95e579bc4c699a6ef0edd1a481e2da17d5059bcbb42a2cba",
+      "liveHash": "f6359074014c6a43b5ae9bdd38c23c45fd3d738b2bb07fab39658bdd402e5a3d",
       "currentHash": "2adb58aed013e4526ccd7472fe57f304a10bec463a5b06a228b3998a707a7932"
     }
   },
@@ -12265,7 +12292,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "9fb4d95d4a359d8170360ca7f72608dc1df2b903842f90aa62284f53f1e7a7b7",
+      "liveHash": "20b236a45133bc1ef88a9ee5f3cf8e6a6b777f55f8e04ec3b3157d2c8ff69c32",
       "currentHash": "969b8bd9f80ac9e4dbf56a2c4a8228644c580e62560553c405f89b92c2f49d11"
     }
   },
@@ -12282,7 +12309,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "a8a2bff75cdc5af6a40cd1aed2917460fe1dd0d30083cd70f909306fc3dc872a",
+      "liveHash": "9ee73c37e08e7ca137fb7546cb47244f7619a01c59b268024528826c8e4b807e",
       "currentHash": "d69c8833f5ebb38c7e021f276ff916e29e4e6b87a69ccf6005c2f863ea9e84ef"
     }
   },
@@ -12299,7 +12326,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "825e805088b6720ed1dbeb383b724f3b808ab33ce8eb6e258ecaccaf887a942c",
+      "liveHash": "e43df873080fe321b5c0cf98d912745e620461bfa20f3f893a26f0281329b489",
       "currentHash": "0ad507805bcee28df76c19e740d04c96c134c689c5684a01fda4fc3773056b9a"
     }
   },
@@ -12316,7 +12343,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "f5b619e12195d018a378a4706571e07bc76ec4f4fb19015170bc029007e4ac7d",
+      "liveHash": "7de5e9bd415334455c719d62c3b60de1560a8a21c9ddc45368930a48e82bbb04",
       "currentHash": "74c9cd87ecd1c1bd6886321ab8f83ee7a3be1e86487ebcdcfa214929d032675d"
     }
   },
@@ -12333,7 +12360,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "a16b2b5b55335e0c4253b644dcedac3d1bd9f47ec6b1358db62da6cc3f572118",
+      "liveHash": "c8fba9f837e503fe18d2a4c8a356a196587e635dc47c3fed2ff5f48de5c2e1d9",
       "currentHash": "4abee0ea73af53f0327554a9e0f0eee427f74f1e1770ec296c76f7b21cefce4e"
     }
   },
@@ -12350,7 +12377,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "94797ba641a0c2bc5d14b25df8b0c0f9a63d12a2850b0fea27459e8db94bca3e",
+      "liveHash": "fc512e36b43a5f9a6b03b8ad22456e3e52913a924fce3ca42d39cc4ced49c985",
       "currentHash": "3f43dfc31528ca8e1433f3770f96bcdddad5cce6333002c44e6c0a7a79af5990"
     }
   },
@@ -12367,7 +12394,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7e1ba48ed6d71f888e004f658b3535801de95d3651b184d02a4ebce73a08a87b",
+      "liveHash": "d1cd053aee3977f03d2acb6c675921543468bb1dffdbc7327b1a292f8b2e1073",
       "currentHash": "2ffb2985318743dad8acc0c2a1b612e455c5e13ab1bbce240ceb76ce22fedc70"
     }
   },
@@ -12384,7 +12411,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "b0f4e2ff9d1cac08bc60670d7f5502366eb98b4fa488026bce1ea78ca3bc5cec",
+      "liveHash": "6ff64507ee1cd093832f46771bb8a9ac528955c50ae86a22f25f8a0db8c466ee",
       "currentHash": "6c3f7a688498fb78f8959d3ea2d47f1121b14d0ac4ed54eeebe9c387e8213b2b"
     }
   },
@@ -12401,7 +12428,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "e7a6293a90b47231b7e25f42a32d14365610d17da034c8efd2968b7e7af37a8d",
+      "liveHash": "ac1338d0f721b698893fce8e85ee9aa7abdeae564a98a742daeb8f0518599950",
       "currentHash": "1113773a14b322f5a16d0ae24e5c18cf0dba9ab621c743c901ba7eaf6dcd2e1f"
     }
   },
@@ -12418,7 +12445,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "798598c2e480a069a670586788a3db3652a166d5b93080d68e926d36aa3af29f",
+      "liveHash": "e0235d64372fdcc89a55cd4fb7621286dcb0f116f3e014867ca15b3e41acdbb6",
       "currentHash": "9c8bbfc66ba1badae0a7d8f55aac2905c53a91b09f9f75cf6fb021cc6aff347f"
     }
   },
@@ -12435,7 +12462,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "56231f8b64e5a1c70f4971c3330b5ba506b2a10da475606873005dea16929813",
+      "liveHash": "ee3fd68a654887066431d6f6f2f9c7e1f9e926d038efabf3fa350d2fd8d783f0",
       "currentHash": "7a7ec35f46e41571cc8fde4935655bdbb7fd8bbd0ec4465c7471fa04b187eb94"
     }
   },
@@ -12452,7 +12479,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "03734e255ae4c9e883fba813e80cc378b17ff4cccabdbba215a1288b1e26d619",
+      "liveHash": "b5a6fa938a08f7aab5c6be75a9533786144c61362ff720692f55b886b2c34b13",
       "currentHash": "65d7289d22a76d646be6ec94c3bdf762c58e47416d6785e05bee56b74cfe4623"
     }
   },
@@ -12469,13 +12496,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "6cf29eb1a7ab6af17432584c0152ca36d6e2d2bc36e464463eae147d070601ed",
+      "liveHash": "d8115b1a177a5f37606ec921640fc0871f49b7207a34e98cc5000614b50c3009",
       "currentHash": "aa554234fdd7b8809ed2d039b9e05b6e19382d8ce0c0bcb2e55f787d6be6f3da"
     }
   },
   {
     "id": "140630",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "...",
     "rarity": "Rare",
     "type": "Mission",
@@ -12486,12 +12513,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
+      "liveHash": "e37d74fb4b56ab07fa1c2aec5fa66925f1b99b4417c4b65f88722e6aedd054ed",
       "currentHash": "03aeabc35c46749f4ee327a90cc8f0b9a0dfcb3c9a7310e136aee40ed9ee016f"
     }
   },
   {
     "id": "140631",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "...",
     "rarity": "Rare",
     "type": "Mission",
@@ -12502,12 +12530,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
+      "liveHash": "95e3ecce908ba6a4a89e286f598fed839aaccca9f7f990327174fafef399d743",
       "currentHash": "74662d653b46ec1394bf28daae6aa1a4f4b6915232100fc470e597a8f5c37f93"
     }
   },
   {
     "id": "140632",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "...",
     "rarity": "Rare",
     "type": "Mission",
@@ -12518,12 +12547,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
+      "liveHash": "c686e5f536a52aadb0bcc04d5dac2838919d7af6c08fb0220f366e82d2c83023",
       "currentHash": "7fd9fbebcefddf02f07239d00e5df31c164f8cd6a7ca4489c2bc29fee00774aa"
     }
   },
   {
     "id": "140633",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "...",
     "rarity": "Rare",
     "type": "Mission",
@@ -12534,12 +12564,13 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
+      "liveHash": "53307605b611a4f737423beb406b5436bb92d234178ff791ae1bb5dd0b33c3f1",
       "currentHash": "392d04753b7d7ae582102ef12f708ae625228d1c27033b32e70393d83ff7f6b9"
     }
   },
   {
     "id": "140634",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "Speed Star: Grand Champion Trophy",
     "rarity": "VeryRare",
     "type": "Mission",
@@ -12550,6 +12581,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
+      "liveHash": "2b0bae322f1c5ac920013c2d07060b2dcf25ebbf4180eedad7cbe7ffa7058f51",
       "currentHash": "534c7f6e7e6ab2d3f7d377b70100acb6c96d50c823baea6f4cc24164fe7cf8b4"
     }
   },
@@ -14165,7 +14197,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "eca40d8df4e88182c0ee7c2a4136adbe1eb31693bc6fa19b77b4e3ef7da077ca",
+      "liveHash": "cc710cf77493b98acaf3c580dbf52e70874cc4fa67037a132b062d63f57c53e9",
       "currentHash": "1bde2cbe63b86e2be1de772dc1e6b93098848c483244e0fb2ef31e97b7c1fadc"
     }
   },
@@ -14182,7 +14214,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "0759e6bfcbaec34f7fffd98563257751936fedb46b3bb145857c6fc6dc1be96c",
+      "liveHash": "71084ad96d177abb3cc0f40bfa89854e286942efaa0cab675fadac4f124337cc",
       "currentHash": "bc880e9bd94065ae0e1062d20156e063de4c69e4407999e6de4cefd6507d11b7"
     }
   },
@@ -14199,7 +14231,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "47510db45aadd42e62ca6bb3db3c7b29ca36b8391113b94e85a766e4ba4cf811",
+      "liveHash": "d7dfbd95b57dce0d8104597ce01b0032081af58f1c605eb49161805274119010",
       "currentHash": "6dc2f7e5c07b88095b4091fde570fe95f10f9378fc667426ef9564c5a522b32f"
     }
   },
@@ -14216,7 +14248,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "819ecd22baef07745e752e68b1c9c4c302535aa492b8b6cb8b93ebcff120c38a",
+      "liveHash": "bea783b2c2ac56fefd0aec8931ebdc9d1c537fc03426bec817420f292f253c0b",
       "currentHash": "7d0b5ebadc029a33e45112c4454566dcc760aa039b467dc267a9f1b03e48557d"
     }
   },
@@ -14233,7 +14265,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "502d3c75140e66c286769e753005fc658be06eb7d586ea027ecd8c5c8c424f80",
+      "liveHash": "78a35ce10128dd884e08e92ae2d97af062589a3405efc2c9a1e51b149b17799f",
       "currentHash": "86ce5da7bb7b000cb706f68907597b1389826019d77be0bd74dcd2990b4a9d10"
     }
   },
@@ -14250,7 +14282,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "fded451c491b1ea24483babf50384b4e38871f81597c09a80ad9f32fa2fc1f83",
+      "liveHash": "83843c10f470bfe150accd8a65ab46522caea150291b45b5dd6e51a96784a286",
       "currentHash": "0805df4171296f61bfadba1f58b9a7516b57b061b6b77c63c5f1880ccd249616"
     }
   },
@@ -14267,7 +14299,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "0ca400957c13dd84dd0f15e6598aa3a17c423ee0319992c9819ef89f411b484f",
+      "liveHash": "949cb6f7185aab94ffb169e4745b10e47bc67987b8cae5858827209d37e39a8a",
       "currentHash": "74b9e19bc61db9cb08e5e2a89ec1c79c6c338089e5b87360a4d26bc3b9429cf7"
     }
   },
@@ -14284,7 +14316,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "2730fcfa4c3b2f0cde41c63b40512cf7c592d56bd69fb69679696936fde72398",
+      "liveHash": "43c378d49d43b6499071e53086fddf15fa37522d163fa0d98c84097a987431ec",
       "currentHash": "9036bfdee449c9510a1f15cd769c15be00cd37dbbe124a6e1544a40dcc3602db"
     }
   },
@@ -14301,7 +14333,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "41de666f02db35debf00bd8bd0bbbf07e3f21332ec070e7665ca5359ed85b8ff",
+      "liveHash": "dc81010111452af21b857a542a421dcffb61ccf6a5f6136be883d84a47a82af5",
       "currentHash": "7446193b8f7ab125082ece09e9e348ed539463162ef3b111d02e1d82ded2d90b"
     }
   },
@@ -14318,7 +14350,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "fcf68a7c203ff0073574cde71b72e5e684e9882f58bd84525e1a4cc97274ab78",
+      "liveHash": "02e435eb7283e0a6b19aaa9eb1771ede10d672f6563f3e153f2c492919a18a9f",
       "currentHash": "c86806569c9f22bcb2f5930305bbc8c2ec06d97b0301fe6cab1c40da9daba3b8"
     }
   },
@@ -14335,7 +14367,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "8bd88f9282a3e9cd67c1aa27ed167f39f8e743817a329e268074b018e3aac2ba",
+      "liveHash": "80099effb2eac233df1e8d66047f35e356fd7d23e1ae17be3af4404f245550ab",
       "currentHash": "2ce4a351c183ec35cff63d98ba9f0810d072cb16246e3cedbb6c6ebda43f0acb"
     }
   },
@@ -14352,7 +14384,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "fd15be3c304621d2ab3c1af77eecea3a314e84343336bfedac887f0ccd964184",
+      "liveHash": "4331162e82d9b0b1be4047ef82188a6e63114641b89572fb6173fc3a0e785b30",
       "currentHash": "1f5d139efcbbee14dc7fb28ccf4a8c2e93bf0004b04a32af63cb20fccdd1210b"
     }
   },
@@ -14369,7 +14401,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "07c1346bdba61c04181e1370ebf4ca4697cf4d7b3be6b1ccb451f7458daaf564",
+      "liveHash": "ec0ca3c24e759ab9a7e1ec62f7515e2253106d8322f7fb0b37fe3675d3d07eaa",
       "currentHash": "afce84568ba25d72ec6767860d5be569df7e8e92bfbf929fa4d2ded07a6c8b69"
     }
   },
@@ -14386,7 +14418,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "2db7bee9b52ad7e9a813ca7e3a18b0fe0f8cd5b1b12d1314f38e5296d70f4a28",
+      "liveHash": "a992bf4b4264e8d361362f16aaec43919487d65f0504b38f5443435080495762",
       "currentHash": "2a5a1d03c933cbb5016e6812050b7d18355cc2655407b8776a0be86d37fbe7b3"
     }
   },
@@ -14403,7 +14435,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7119e6b079fa74e9376b4b0270ab913adc9e7a0487199b2c31418b640fa990fa",
+      "liveHash": "b9a8829f59736611962447a54aced57504c707f887ae77b9306925d4cf26dd31",
       "currentHash": "fbe5a44d853a7a6bc31a925d35444c70cd6c10564e034eb218e42c3796675127"
     }
   },
@@ -14420,7 +14452,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "6127c4aaee54f288df180cfd2180533a9473ae3e7f176c414c5aa9cfeaacffd5",
+      "liveHash": "7c4ef1764e19682178c2738bd3b6c7586db198fb425953ddf3afe5ef8b6be5a2",
       "currentHash": "0e26503ddbd492dcd78a059282def58f2582bc14e501ad181b1479d5cfbe9b88"
     }
   },
@@ -14437,7 +14469,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "94133ad3c424fadf39b3e543a95602c25c64c9526ba41e272c42df342d381efc",
+      "liveHash": "05765ef639c9aa77df6b4f65f9760b1ef3a39aa13bd999ae32dd8bb01abf9d18",
       "currentHash": "972f4122d5205ac052ef551fd2952c89f119b4aa28fa10d29dbebf9b736654e6"
     }
   },
@@ -14454,7 +14486,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "ff93fa843cbd23799fda0f7296ff7286e17389172a5400d185d482510320d7f2",
+      "liveHash": "8daf51af9996587148a67b869732012118855fda4a22c0941f4f70480b2fa20c",
       "currentHash": "b63e7b53135b98c22173f1cdd9f33a68438409c4e55f34513fcf52b25d78bdc9"
     }
   },
@@ -14471,7 +14503,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "94071d0efbb053ba59d60cd0b23a499dcbb8f73bb82177eb9e8745bd330a10de",
+      "liveHash": "08953b5669de65cef992ceea6cde20b872a5054452fb173b9bdfb555ffbc5630",
       "currentHash": "d1c77010fcca0ce08e8f876d78ec607e186f78a24c641bdace146b0146ca042f"
     }
   },
@@ -14539,7 +14571,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "cd7d542a63875a5a40cddbd7f9edf6bb167800f58b24c5f3e20b686a1f7329ac",
+      "liveHash": "2afa06047af93cd1416ef361b054fcb94742ec312195ea28a3855a82db1a8d24",
       "currentHash": "03a021cf181a5174b785020ebd28f8b7af3f0ae92da3bdf48f4d8109a2f3d6f1"
     }
   },
@@ -14556,7 +14588,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "96d77308ae9cc41b12ad5033e1bb37a5385e6a6238738943cd6c20a3a9255a83",
+      "liveHash": "e307ffbb80cee88782a55a337fce50f4079eec097e214739977060f7a31cd5f8",
       "currentHash": "bc8033138d78d702c635df8db9369ac8a12a8b41d52adbe96bda674a6166a467"
     }
   },
@@ -14643,7 +14675,7 @@
       "icon": "GameData/hsr/assets/items/140028.webp"
     },
     "liveComparison": {
-      "liveHash": "7e2e9cbefb9a7a0c22651a345fc5bd928e495ad34349114488d60e1e9a0498db",
+      "liveHash": "8eb50c7a870041c7333a5180efabb2f9d0bdd2d3c284a8d9f2b23504710428d1",
       "currentHash": "6bcb6310d189b63d9a0d83a5033734be9d63f403e591a9cbf5cea379517c0a6c"
     }
   },
@@ -14713,6 +14745,22 @@
     "liveComparison": {
       "liveHash": "db8b9398c4e94aac786ece80e066916959d6c635e490640559a899283dcc7890",
       "currentHash": "db8b9398c4e94aac786ece80e066916959d6c635e490640559a899283dcc7890"
+    }
+  },
+  {
+    "id": "150102",
+    "contentStatus": "beta",
+    "name": "...",
+    "rarity": "Rare",
+    "type": "Mission",
+    "subType": "Mission",
+    "backgroundDescription": "...",
+    "purposeType": 16,
+    "assets": {
+      "icon": "GameData/hsr/assets/items/190023.webp"
+    },
+    "liveComparison": {
+      "currentHash": "77c0f02e1d3b531dadaf1f9d56058338899171904d497b222248d01171a93cbe"
     }
   },
   {
@@ -23669,7 +23717,7 @@
   },
   {
     "id": "402037",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Vibrant Zest-Core",
     "rarity": "Rare",
     "type": "Usable",
@@ -23681,12 +23729,13 @@
       "icon": "GameData/hsr/assets/items/402037.webp"
     },
     "liveComparison": {
+      "liveHash": "c647f540b0ebd84be93b256f4423f6f1f143ab8abf3c21b9a7bc05be0e4e9ad9",
       "currentHash": "c647f540b0ebd84be93b256f4423f6f1f143ab8abf3c21b9a7bc05be0e4e9ad9"
     }
   },
   {
     "id": "402038",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Mung Bean Soda Sukiyaki",
     "rarity": "Rare",
     "type": "Usable",
@@ -23698,6 +23747,7 @@
       "icon": "GameData/hsr/assets/items/402038.webp"
     },
     "liveComparison": {
+      "liveHash": "320c512a4e1c1c55c0204638355fd967a79fbd64701190c4da91649096cc2f07",
       "currentHash": "320c512a4e1c1c55c0204638355fd967a79fbd64701190c4da91649096cc2f07"
     }
   },
@@ -23991,7 +24041,7 @@
   },
   {
     "id": "403017",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Amber Lord Jumps Over the Wall",
     "rarity": "VeryRare",
     "type": "Usable",
@@ -24003,6 +24053,7 @@
       "icon": "GameData/hsr/assets/items/403017.webp"
     },
     "liveComparison": {
+      "liveHash": "3f1d2c9d3c1b9c9ab49a4d34f8c149d8ed8e7c874ac4e4319146749e32a8372b",
       "currentHash": "3f1d2c9d3c1b9c9ab49a4d34f8c149d8ed8e7c874ac4e4319146749e32a8372b"
     }
   },
@@ -25306,7 +25357,7 @@
   },
   {
     "id": "406037",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Recipe: Vibrant Zest-Core",
     "rarity": "Rare",
     "type": "Usable",
@@ -25318,12 +25369,13 @@
       "icon": "GameData/hsr/assets/items/406037.webp"
     },
     "liveComparison": {
+      "liveHash": "ffd3cf3544ee9db5c62c5c934481caff3a99edcd8be8e6557c99b7c922cbb335",
       "currentHash": "ffd3cf3544ee9db5c62c5c934481caff3a99edcd8be8e6557c99b7c922cbb335"
     }
   },
   {
     "id": "406038",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Recipe: Mung Bean Soda Sukiyaki",
     "rarity": "Rare",
     "type": "Usable",
@@ -25334,6 +25386,7 @@
       "icon": "GameData/hsr/assets/items/404001.webp"
     },
     "liveComparison": {
+      "liveHash": "c4edc0c7e34269939d9fcb345df82a431ce9bd1d230416bebacedbaeea18ad6a",
       "currentHash": "c4edc0c7e34269939d9fcb345df82a431ce9bd1d230416bebacedbaeea18ad6a"
     }
   },
@@ -25611,7 +25664,7 @@
   },
   {
     "id": "407017",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Recipe: Amber Lord Jumps Over the Wall",
     "rarity": "VeryRare",
     "type": "Usable",
@@ -25622,6 +25675,7 @@
       "icon": "GameData/hsr/assets/items/404001.webp"
     },
     "liveComparison": {
+      "liveHash": "f2544ebaae8e1f465d5386f3ee5aef42d0fb9d27abc1b3b9f35231ca23ac0ed1",
       "currentHash": "f2544ebaae8e1f465d5386f3ee5aef42d0fb9d27abc1b3b9f35231ca23ac0ed1"
     }
   },
@@ -26761,7 +26815,7 @@
   },
   {
     "id": "408449",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Extra Sodium Sausage",
     "rarity": "NotNormal",
     "type": "Usable",
@@ -26773,12 +26827,13 @@
       "icon": "GameData/hsr/assets/items/408449.webp"
     },
     "liveComparison": {
+      "liveHash": "b01a59cfde4c51825d4bab9db34af7025a4483bb6c9568a4b86a63ed82d61191",
       "currentHash": "b01a59cfde4c51825d4bab9db34af7025a4483bb6c9568a4b86a63ed82d61191"
     }
   },
   {
     "id": "408450",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Invincible Steak",
     "rarity": "NotNormal",
     "type": "Usable",
@@ -26790,12 +26845,13 @@
       "icon": "GameData/hsr/assets/items/408450.webp"
     },
     "liveComparison": {
+      "liveHash": "f55650c83d85282f87e49bc04e38511ee82f9b4142976ee27ce9b0666f9dede3",
       "currentHash": "f55650c83d85282f87e49bc04e38511ee82f9b4142976ee27ce9b0666f9dede3"
     }
   },
   {
     "id": "408451",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "\"Oceanic\" Tri-Flavored Ice Cream",
     "rarity": "NotNormal",
     "type": "Usable",
@@ -26807,12 +26863,13 @@
       "icon": "GameData/hsr/assets/items/408451.webp"
     },
     "liveComparison": {
+      "liveHash": "c6962a0eb6ce536aa9cf9e857078205147cf925d79272390edbb1b6c3f85b5a5",
       "currentHash": "c6962a0eb6ce536aa9cf9e857078205147cf925d79272390edbb1b6c3f85b5a5"
     }
   },
   {
     "id": "408452",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "\"Lighthouse\" Movable Action Model",
     "rarity": "NotNormal",
     "type": "Usable",
@@ -26824,12 +26881,13 @@
       "icon": "GameData/hsr/assets/items/408452.webp"
     },
     "liveComparison": {
+      "liveHash": "8d88e2877086277f8f892c74ff413e97d32ae1da1c8d76c974271d8eac7703fc",
       "currentHash": "8d88e2877086277f8f892c74ff413e97d32ae1da1c8d76c974271d8eac7703fc"
     }
   },
   {
     "id": "408453",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Aeon Balloon",
     "rarity": "NotNormal",
     "type": "Usable",
@@ -26841,12 +26899,13 @@
       "icon": "GameData/hsr/assets/items/408453.webp"
     },
     "liveComparison": {
+      "liveHash": "bf418f56817a3857746161804ceac11aae18720081716d8bf117775ac24f292a",
       "currentHash": "bf418f56817a3857746161804ceac11aae18720081716d8bf117775ac24f292a"
     }
   },
   {
     "id": "408454",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "\"Diggertron\" 1:1 Replica Model",
     "rarity": "NotNormal",
     "type": "Usable",
@@ -26858,6 +26917,7 @@
       "icon": "GameData/hsr/assets/items/408454.webp"
     },
     "liveComparison": {
+      "liveHash": "71f8b1b65f249258697546296fe10cada8173ad83a506bb0007e5e6ee2c43b1f",
       "currentHash": "71f8b1b65f249258697546296fe10cada8173ad83a506bb0007e5e6ee2c43b1f"
     }
   },
@@ -27637,7 +27697,7 @@
   },
   {
     "id": "408644",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "The Swimsuit",
     "rarity": "Rare",
     "type": "Usable",
@@ -27649,12 +27709,13 @@
       "icon": "GameData/hsr/assets/items/408644.webp"
     },
     "liveComparison": {
+      "liveHash": "1384ce6b1d78d82728152ace51dc3d9084559eca71c7a9cf34363ecb02753ba8",
       "currentHash": "1384ce6b1d78d82728152ace51dc3d9084559eca71c7a9cf34363ecb02753ba8"
     }
   },
   {
     "id": "408645",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Speeding Jet Surfboard",
     "rarity": "Rare",
     "type": "Usable",
@@ -27666,6 +27727,7 @@
       "icon": "GameData/hsr/assets/items/408645.webp"
     },
     "liveComparison": {
+      "liveHash": "210efca4325772231fb976d4871759c428c3cc9cf8c84bfff9a1fc67f7337c21",
       "currentHash": "210efca4325772231fb976d4871759c428c3cc9cf8c84bfff9a1fc67f7337c21"
     }
   },
@@ -27851,7 +27913,7 @@
   },
   {
     "id": "408907",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "name": "Energy Sensor",
     "rarity": "SuperRare",
     "type": "Usable",
@@ -27863,6 +27925,7 @@
       "icon": "GameData/hsr/assets/items/408907.webp"
     },
     "liveComparison": {
+      "liveHash": "c5ee5bcf4254d28800a7ace092695a15a6cc2f3b14fcfa83d7526129244b7c6e",
       "currentHash": "c5ee5bcf4254d28800a7ace092695a15a6cc2f3b14fcfa83d7526129244b7c6e"
     }
   }

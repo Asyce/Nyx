@@ -180,6 +180,36 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 28,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "There are so many mysteries surrounding Dr. Jiaoqiu... How does he manage to eat so much spicy food without even breaking a sweat? Hey, maybe that's why he's always squinting his eyes — he eats too much spicy food!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Jiaoqiu",
+        "voice_m": "Ah... Doctor Jiaoqiu! Even the candy you brought has a little burn to it!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "About Lingsha",
+        "voice_m": "Cauldron Master Lingsha is very nice to me. She always takes me out to have fun~ But I heard some people whispering that she's not doing her duties... Bah! Going out with me to have fun is part of the Cauldron Master's duties!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "About Feixiao",
+        "voice_m": "I really don't know how to treat her illness, so I can only ask her to eat tasty foods. If you eat well, your mood will improve, and if your mood is good, you can deal with a serious illness for longer, at least until a cure is found.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "Charge! Leave none standing!",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Ha, you don't look so good.",
@@ -294,27 +324,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 73,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Hmm... Are any of these medicinal?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Take these and pay me back with more sugar!",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 70,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Gotta tell good remedies from bad.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 75,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Hehe⁓ A healer knows a little something about everything!",
         "is_battle_voice": true
       },
       {
@@ -327,6 +339,24 @@
         "voice_id": 72,
         "voice_title": "Returning to Town",
         "voice_m": "Come on, can't we stay out a little longer?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Hmm... Are any of these medicinal?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Take these and pay me back with more sugar!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Hehe⁓ A healer knows a little something about everything!",
         "is_battle_voice": true
       }
     ]

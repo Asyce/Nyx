@@ -2,5 +2,29 @@
   {
     "path": "GameData/hsr/assets/characters/avatar/1507.webp",
     "gamedataAssetPath": "avataricon/avatar/1507.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/characters/avatar/1512.webp",
+    "gamedataAssetPath": "avataricon/avatar/1512.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/characters/avatar/1513.webp",
+    "gamedataAssetPath": "avataricon/avatar/1513.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/items/140614.webp",
+    "gamedataAssetPath": "itemfigures/140614.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/items/1054406.webp",
+    "gamedataAssetPath": "itemfigures/1054406.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/items/140630.webp",
+    "gamedataAssetPath": "itemfigures/140630.webp"
+  },
+  {
+    "path": "GameData/hsr/assets/items/140634.webp",
+    "gamedataAssetPath": "itemfigures/140634.webp"
   }
 ]

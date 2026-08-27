@@ -2,6 +2,7 @@
   "name": "Himeko • Nova",
   "desc": "Some fight side by side, some keep watch. The Trailblaze is never a lonely voyage.\\nShe paints a trailblazing miracle. The silver rail stretches on, and the Nameless set sail once more, illuminating the galaxy's eternal night.\\nAt the end of the line, she looks back once again. The dream of setting forth has never run aground.",
   "chara_info": {
+    "camp": "Astral Express",
     "va": {
       "chinese": "林簌",
       "japanese": "田中理恵",
@@ -15,7 +16,434 @@
       "3": "The teenage girl's Trailblazing was fraught with thorns.\\nWith the silver rail blocked, she had no choice but to feel her way through the universe, remapping the astral charts.\\nShe had once been lost in desolate frontier worlds, venturing in and out of dangerous ruins just to scrape together dwindling supplies.\\nAnd now, once again, she was to press on alone.\\n\\nShe was targeted by space pirates, and in those moments of imminent peril, she did everything to shake off those desperadoes, those relics of the Energy War.\\nShe once faced a Swarm that darkened the sky. The silver rails that she painstakingly repaired over months were destroyed in an instant.\\nShe reached out to help a world on the brink of being devoured by a black hole, only to be mistaken for a malevolent visitor from beyond, and nearly lost her life at the edge of the black hole.\\n...\\n<i>\"Am I really the one meant to walk this path?\"</i>\\nAt the tail end of her dreams of the Phantasmoon Games, she would often see another version of herself at the helm of the Express, soaring off into the deep reaches of space.\\nYet, whenever they reunited in those dreams, that graceful and poised Navigator would always look back at her with eyes full of encouragement—\\n<i>\"Is the Rosette Nebula of the Celestial Comet System as beautiful as we always dreamed it would be?\\n\"Are the silver rails you repaired forging bonds between worlds long cut off from one another?\\n\"I know that your fearless Trailblazing saved an entire people from their destiny...\"</i>\\n<i>\"But I... don't know how much longer I can hold on...\"</i> She sighs wearily.\\n<i>\"Don't you remember? 'Nameless' was never just one person's name. Just as the flame of the Trailblaze set you ablaze, so will it set others ablaze too.\"</i>\\n\\nOutside the window, the wings of Cygnus shimmered, and icy comets streaked past the moon like a cascade of glittering gemstones.\\nShe steered the Express through the shattered debris of planetary rings, and when she finally reached the peaceful harbor, the meteors of Sagittarius happened to cascade down.\\nWelt and his golden-haired companion stepped aboard the Express.\\nWhen the Express fell into peril, the taciturn Dan Heng took down the beast with a single strike. In that moment, she saw the fire inside him, and offered him the navigator's invitation.\\nShe rescued March 7th, adrift in the cosmos, and from that day on, the trailblazing expedition took on the hue of March's vibrant color.\\nGuided by destiny, she crossed paths with {NICKNAME} at the space station. Somehow, the feeling that this brave, free-spirited child would bring endless surprises in the future never left her.\\n\\nJarilo-VI, the Xianzhou Luofu, Penacony, Amphoreus... More and more people walk alongside the \"Trailblaze,\" and she has found companions truly worthy of being called \"family,\" and her name has been engraved across countless worlds.\\nBy all accounts, this was a miracle, and one that she hoped wholeheartedly would never end.",
       "4": "She returned to the point of departure.\\nShe knew the shadow of Destruction had never truly left, just as the bliss in Planarcadia was only a result of postponed calamity.\\n\\nShe witnessed the return of the Herald of Death, her homeland lacerated in the maw of the beast.\\nShe uncovered the root of the curse, trembling as she accepted the truth of her family's tragedy.\\nBut this was an entirely unprecedented apocalypse. It made her face the possibility of losing her companions, {NICKNAME} most of all. She couldn't understand why the fate of the cosmos had to rest on {M#his}{F#her} shoulders. All she knew was that {M#he}{F#she} was now family, forever.\\nSo, once again, she chose to carry it all alone, just as she always used to say:\\n<i>\"Traveling always has an end point. When it happens, I'll smile and say goodbye to everyone.\"</i>\\n\\nAmidst the mockery of the world falling into utter silence, the Starblazer reached its limit, and the Express crashed once more.\\nBefore the farewell, she embraced {NICKNAME} and made a wish to the Stellaron to guard the Trailblaze.\\nThe stars grew hazy in a crimson mist, and she became as weak as she once was.\\n\\n<i>\"It's been so long. You've grown up... and become even more remarkable than I ever was.\"</i>\\nFor a fleeting moment, she thought she could feel the girl's warmth again as if she were still there, watching over her in silence.\\n<i>\"I think I've finally gotten a little closer to you.\"</i>\\nShe couldn't help but pour out everything that had happened since they parted: The paths walked by the legendary Navigators, now trodden by her own feet; the wonders she had once only dreamed of, witnessed with her own eyes; the companions she had found, those kindred spirits, people she could truly trust...\\n<i>\"Just as you once traded your destiny for mine, I would trade my destiny for my companions'...\"</i>\\n<i>\"But look, your companions aren't about to let you go anywhere.\"</i>\\n\\n{NICKNAME}'s wish moved her to tears.\\nThe unyielding defiance of the Nameless set her blood ablaze once more.\\n<i>\"Where your journey ends, mine begins anew...\"</i>\\nTwo warm hands withdrew gently from her back, and the girl smiled with quiet tenderness, their silhouette slowly merging with each other.\\n<i>\"If there's nothing ahead of us...\"</i>\\nShe became one with the ideal she had always strived toward, as her companions reached out their hands and cried out together,\\n<i>\"Then we'll Trailblaze a path forward with our own hands!\"</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "{NICKNAME}, no matter how tangled our pasts or how distant the future, our bond remains unchanged. I am Himeko, Navigator of the Astral Express... and your family, always looking out at the same horizon as you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Care for a cup of my new blend? Trust me, this one definitely won't be a disaster.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Don't worry. While I'm away, I'm leaving the Express in your capable hands.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Nova",
+        "voice_m": "Fifteen years ago, we repaired this fallen train and began our journey. Since then, it's your dreams and aspirations that have given it such vibrant new colors. Every time I witness your trailblazing spirit, I'm reminded of why I started this journey in the first place. The destination doesn't matter. What matters is that we're on this path together.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Weathering Curse",
+        "voice_m": "For as long as I can remember, my family's inherited illness was my deepest fear. Even though I've moved past it, our lives are still just a blink in the eyes of the universe. But without that fear of how fleeting life is, would we ever find the drive to reach for the furthest stars?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Childhood",
+        "voice_m": "Before I became the \"reliable adult\" you all see today, \"absurdity\" was just my everyday life. Back in Planarcadia, if someone started flying or cheated death, it was usually just part of the \"Game\"... When you look at it that way, my dream of chasing the stars doesn't seem like such a big deal, does it?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Coffee",
+        "voice_m": "To suit everyone's palate, I've whipped up beetroot black coffee for March, a mung bean soda latte for Dan Heng, and even a giant terror bird egg hand-made coffee for Sunday... You just want a regular cup? Come on, where's the \"Trailblaze\" in that?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: Painting",
+        "voice_m": "Maybe I've spent too much time on blueprints. I'm always trying to capture every detail with precise lines. It can get a bit... rigid sometimes. There's so many styles out there. I'd love to try some improvised ink splatters or even dive into abstract art when I have the time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Hobbies: Martial Arts Films",
+        "voice_m": "Back in my student days, I was quite the connoisseur of old-school martial arts films. I've still got all those combat techniques memorized by heart. Maybe I'll show off a few moves next time, just to make sure I'm not getting rusty.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Annoyances",
+        "voice_m": "It's been a while since I've handled the heavy lifting myself... Besides my molecular saw and satellites, I think it's time to pack some serious firepower in this briefcase.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Something to Share",
+        "voice_m": "I have been away from Planarcadia for so long that coming back gave me a bit of a culture shock... The holographic ads are too loud, the street gangs are a nuisance, and the management of imagenae is a mess... But after seeing so many disasters, this chaotic energy feels much more like home than a deathly silence ever could.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Knowledge",
+        "voice_m": "The blueprints for the \"Starblazer\" are kept right in the Express archives. It's a \"Legacy of Trailblaze\" in every sense of the word. Back on Pegana, the ancients used it to extend their fragile reach, sprinting across the galaxy to pluck the very stars from the sky. I wonder what the romance of your generation will look like.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "Truth be told, from the moment I first saw you, I picked up on this sharp, slightly playful sense of humor... Maybe that's just my Planarcadia intuition talking.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About March 7th",
+        "voice_m": "I used to worry that as the weight of our journey grew, I'd eventually stop seeing March's signature smile. Looking at her now, she's certainly matured, but that spark of innocence that makes her who she is? That's never faded for a second.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Dan Heng",
+        "voice_m": "Enjoying the Trailblaze is just as important as the destination, and I'm glad he's finally starting to get that. I suspect Dan Heng will only get better at his \"Xianzhou's Number One Assassin\" routine from here on out.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Welt",
+        "voice_m": "Welt's passion for the Starblazer still caught me by surprise... He's been working on his Starblazer comic every single day lately. Honestly, if I'd known he'd be this obsessed, I should've let him stay in the pilot's seat a little longer.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Sunday",
+        "voice_m": "Though wearing the Supplicant's mask came about by accident, those constant twists of fate have instead brought his potential to \"Trailblaze\" the unknown into full view.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Pom-Pom",
+        "voice_m": "If Pom-Pom knew I'd asked you to look after them, I can already hear the grumpy correction: \"Who's looking after who here!?\" But between us... I know Pom-Pom secretly loves every second of it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Ryusuke",
+        "voice_m": "Most of my memories before the age of six are a blur now... just fragments of a dream. A rattling toy, moonlight catching a strand of crimson hair, a dab of paint someone snuck onto my nose... but the moment I open my eyes, they're gone.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Asat Pramad",
+        "voice_m": "What lies at the end of the Trailblaze? He showed us one of the darkest possible answers with his own life. No matter how far our journey takes us, please, keep the oath of the Nameless etched forever in your hearts.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Motoko",
+        "voice_m": "Once upon a time, we'd weave through the bustling crowds together, sit by the banks of the Dovebrook just watching the water flow, or hide away in our \"secret base\" trying to figure out how to fix those broken parts... Motoko never really left. In the quiet of a thousand lonely nights, I can still feel her gaze, steady and watching over me, as I fulfill the promise we made at the very start.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Evanescia",
+        "voice_m": "We crossed paths once, during the last season of the Phantasmoon Games. Carrying the weight of an entire world on her shoulders while looking that effortless... Honestly, I could learn a thing or two from that kind of grace under pressure.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About Yao Guang",
+        "voice_m": "Maybe one day, she'll just appear out of nowhere and give us one of those graceful smiles. After all, finding a glimmer of hope in the middle of the impossible? That's always been her specialty.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Sparxie",
+        "voice_m": "Looking back, the show Sparxie put on was actually the kindest performance in the entire Phantasmoon Games. If all the Fools had her sense of restraint, maybe thrilling comedies would be the rule rather than the exception.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Ashveil",
+        "voice_m": "As a navigator, I can relate to how difficult it is to lead a team forward. Instead of trying to shoulder everything alone, learning to lean on your companions... well, it makes the journey a lot easier to bear.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "In the Phantasmoon Games fifteen years ago, I briefly stood at the very peak of \"Elation\" myself. To keep a cool head in the face of that kind of temptation... her understanding of the \"Game\" has far exceeded my expectations.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "The starlight we've woven together... whose future will it illuminate next?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "Just as promised that day, I haven't stopped pressing on for a single moment.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Here, I stand at before yet another new beginning.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "This journey we share... It's as vivid and brilliant as the stars themselves.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "The stage is yours, {NICKNAME}.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Himeko",
+        "voice_m": "Carrying our past promise with us, let's set off once more.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With March 7th",
+        "voice_m": "March, you'll have to keep us safe this time, alright?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Evernight",
+        "voice_m": "Take your time. We'll always be here to help you carry the load.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "Added to Team With Dan Heng",
+        "voice_m": "Thanks for always having our backs, Dan Heng. The Express is lucky to have you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "Added to Team With Dan Heng • Imbibitor Lunae",
+        "voice_m": "Do it your way, Dan Heng. I trust your judgment.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
+        "voice_m": "Mhm, I'll be on guard as well.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 112,
+        "voice_title": "Added to Team With Welt",
+        "voice_m": "You always say growth is a privilege of the young. Well, your chance has finally arrived.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 113,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "Do what you need to. Having you here puts everyone at ease.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 114,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "General Yao Guang, thank you. Your presence comes with the great fortune.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 115,
+        "voice_title": "Added to Team With Sparxie",
+        "voice_m": "From enemies to friends... Trailblazing really does work in mysterious ways.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 116,
+        "voice_title": "Added to Team With Evanescia",
+        "voice_m": "Miss Evanescia, anything not explicitly against the rules is fair game, right?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 117,
+        "voice_title": "Added to Team With Ashveil",
+        "voice_m": "It's a pleasure. It seems the Nameless and the Rangers share the same path after all.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 118,
+        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "Welcome aboard, Hunter. I'll leave the information war to you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "I'm not that easy to bring down.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Keep your guard up.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "You're about to relearn who the Nameless truly are.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "This time, I'm not fighting alone.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Tired? Let's get you another cup of coffee.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "Let's warm up.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill 1",
+        "voice_m": "I'll safeguard your path ahead!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill 2",
+        "voice_m": "This journey leads us starward!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "A minor setback.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Pretty tough...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Assist Skill 1",
+        "voice_m": "Toward more distant horizons!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "The fire carries on. Together... we are the Trailblaze!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Starblazer: Star-blazing judgment, execute!\\nHimeko • Nova: Become the stars, and light up the cosmic night!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Talent",
+        "voice_m": "Starblazer, set forth.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Downed",
+        "voice_m": "In your hands now...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Return to Battle",
+        "voice_m": "I'll always be here.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Health Recovery",
+        "voice_m": "Good thing you're here.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Technique",
+        "voice_m": "Starblazer: Starblazer online. Initiating route clearance.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Battle Won",
+        "voice_m": "The Nameless has never been just one person's name.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "You've got a good eye.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "The best rewards come unannounced.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Feels like a good moment to share a Fortune Pouch in the crew chat.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Give me a real challenge.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Thinking outside the box is a skill in itself.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "How should we take it down? It's your call.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Returning to Town",
+        "voice_m": "It's been too long... I actually miss the Express's sofa.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "Assist Skill 2",
+        "voice_m": "Drive toward new dawns!",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "himekonova",
@@ -45,7 +473,7 @@
     "2": {
       "id": 151002,
       "name": "The Colors We Never Strike",
-      "desc": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
+      "desc": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes <unbreak>#1[i]%</unbreak> of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn, additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>.",
       "icon": "SkillIcon_1510_Rank2.png",
       "param_list": [
         1.3
@@ -111,6 +539,11 @@
         "10000032": {
           "name": "Assist Skill",
           "desc": "An extra ability that can be granted to an ally target. Using an Assist Skill will also consume the current action turn.",
+          "param": []
+        },
+        "10015101": {
+          "name": "Source Energy",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         },
         "30000005": {
@@ -350,7 +783,7 @@
       "extra": {
         "10015101": {
           "name": "Source Energy",
-          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         }
       },
@@ -796,7 +1229,7 @@
       "extra": {
         "10015101": {
           "name": "Source Energy",
-          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         }
       },
@@ -940,7 +1373,7 @@
       "extra": {
         "10015101": {
           "name": "Source Energy",
-          "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+          "desc": "Charge exclusive to the Starblazer.",
           "param": []
         }
       },
@@ -1458,7 +1891,7 @@
             0.88,
             3,
             0.132,
-            1,
+            1.1,
             4,
             0.194,
             4,
@@ -1473,7 +1906,7 @@
             0.96,
             3,
             0.144,
-            1,
+            1.2,
             4,
             0.208,
             4,
@@ -1488,7 +1921,7 @@
             1.04,
             3,
             0.156,
-            1,
+            1.3,
             4,
             0.222,
             4,
@@ -1503,7 +1936,7 @@
             1.12,
             3,
             0.168,
-            1,
+            1.4,
             4,
             0.236,
             4,
@@ -1518,7 +1951,7 @@
             1.2,
             3,
             0.18,
-            1,
+            1.5,
             4,
             0.25,
             4,
@@ -1533,7 +1966,7 @@
             1.3,
             3,
             0.195,
-            1,
+            1.625,
             4,
             0.2675,
             4,
@@ -1548,7 +1981,7 @@
             1.4,
             3,
             0.21,
-            1,
+            1.75,
             4,
             0.285,
             4,
@@ -1563,7 +1996,7 @@
             1.5,
             3,
             0.225,
-            1,
+            1.875,
             4,
             0.3025,
             4,
@@ -1578,7 +2011,7 @@
             1.6,
             3,
             0.24,
-            1,
+            2,
             4,
             0.32,
             4,
@@ -1593,7 +2026,7 @@
             1.68,
             3,
             0.252,
-            1,
+            2.1,
             4,
             0.334,
             4,
@@ -1608,7 +2041,7 @@
             1.76,
             3,
             0.264,
-            1,
+            2.2,
             4,
             0.348,
             4,
@@ -1623,7 +2056,7 @@
             1.84,
             3,
             0.276,
-            1,
+            2.3,
             4,
             0.362,
             4,
@@ -1638,7 +2071,7 @@
             1.92,
             3,
             0.288,
-            1,
+            2.4,
             4,
             0.376,
             4,
@@ -1653,7 +2086,7 @@
             2,
             3,
             0.3,
-            1,
+            2.5,
             4,
             0.39,
             4,
@@ -3335,7 +3768,7 @@
         "extra": {
           "10015101": {
             "name": "Source Energy",
-            "desc": "Charge exclusive to the Starblazer, maximum 3 points.",
+            "desc": "Charge exclusive to the Starblazer.",
             "param": []
           }
         }
@@ -4013,11 +4446,12 @@
       "team_id": 1,
       "position": 1,
       "member_list": [
+        1512,
         1507,
-        1306,
         1414
       ],
       "backup_list1": [
+        1507,
         1403,
         1415,
         1306,
@@ -4026,18 +4460,18 @@
         8007,
         1406,
         1218,
-        1202,
-        1106
+        1202
       ],
       "backup_list2": [
+        1403,
         1415,
+        1306,
         1313,
         1309,
         8007,
         1406,
         1218,
-        1202,
-        1106
+        1202
       ],
       "backup_list3": [],
       "backup_group_list1": [

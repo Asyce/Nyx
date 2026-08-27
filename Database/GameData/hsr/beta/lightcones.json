@@ -33692,7 +33692,7 @@
   },
   {
     "id": "21066",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "A Little Getaway",
     "rarity": 4,
     "rarityRaw": "CombatPowerLightconeRarity4",
@@ -33704,7 +33704,7 @@
     },
     "effect": {
       "name": "Whisper",
-      "description": "Increases the wearer's Elation by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses an Elation Skill, ignores <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF.",
+      "description": "Increases the wearer's Elation by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. During the use of Elation Skill by the wearer, ignores <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF.",
       "levels": [
         {
           "level": 1,
@@ -34068,7 +34068,8 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "10dc0fd68776b6761d1475acca0d870357e8bd8524e3cfd626a2ab162f4802f0"
+      "liveHash": "5eac591c8bf07c4a63597f02a1d1ac58de18d4d6a246a1ceb51dd185235e9822",
+      "currentHash": "8c8fca267360c223d512848b8e1feb3bf40cf6549977545f47c0c707b5cbb904"
     }
   },
   {
@@ -37159,7 +37160,7 @@
   },
   {
     "id": "22008",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "Race to the Horizon",
     "rarity": 4,
     "rarityRaw": "CombatPowerLightconeRarity4",
@@ -37171,7 +37172,7 @@
     },
     "effect": {
       "name": "Overtake",
-      "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses a Follow-Up ATK, increases their CRIT DMG by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). This effect can stack up to <unbreak>#4[i]</unbreak> times.",
+      "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Follow-Up ATK, increases their CRIT DMG by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). This effect can stack up to <unbreak>#4[i]</unbreak> times.",
       "levels": [
         {
           "level": 1,
@@ -37545,7 +37546,8 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "5cab5940a02324e58fea5a6e66d69788e10b75d12b6b5c81ae6817aefacaffdb"
+      "liveHash": "8a638d18cb07e20a76565c1000fd09e1ab85f74f34155bcaa1c9bc9fb123fea0",
+      "currentHash": "cb283cf02604267ce827c0f411ad261e8112a07863ad325d7301b19d3d41647f"
     }
   },
   {
@@ -59269,6 +59271,402 @@
     }
   },
   {
+    "id": "23055",
+    "contentStatus": "beta",
+    "name": "Colors for Tomorrow",
+    "rarity": 5,
+    "rarityRaw": "CombatPowerLightconeRarity5",
+    "path": "Elation",
+    "attack": 476,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/23055.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/23055.webp"
+    },
+    "effect": {
+      "name": "Ink Splash",
+      "description": "Increases the wearer's DEF by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses an Elation Skill on all allies, restores HP for all allies equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of the wearer's DEF and increases DMG taken by all enemies by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s). For every other Elation character in the team, additionally increases DMG taken by all enemies by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.48,
+            0.04,
+            3,
+            0.1,
+            0.1
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.6,
+            0.05,
+            3,
+            0.125,
+            0.11
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.72,
+            0.06,
+            3,
+            0.15,
+            0.12
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.84,
+            0.07,
+            3,
+            0.175,
+            0.13
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.96,
+            0.08,
+            3,
+            0.2,
+            0.14
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 5000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 8,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 48,
+          "base_hp_add": 7.2,
+          "base_attack": 21.6,
+          "base_attack_add": 3.24,
+          "base_defence": 27,
+          "base_defence_add": 4.05
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 10000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110261",
+            "quantity": 4,
+            "rarity": "NotNormal",
+            "name": "<i>The Fluffy</i> Hand-drawn Storyboards",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> in its storyboard stage. Slightly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110261.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 12,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 105.6,
+          "base_hp_add": 7.2,
+          "base_attack": 47.52,
+          "base_attack_add": 3.24,
+          "base_defence": 59.4,
+          "base_defence_add": 4.05
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 20000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110262",
+            "quantity": 4,
+            "rarity": "Rare",
+            "name": "<i>The Fluffy</i> Serialization Memorial Issue",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> currently in magazine serialization. Moderately increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110262.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 182.4,
+          "base_hp_add": 7.2,
+          "base_attack": 82.08,
+          "base_attack_add": 3.24,
+          "base_defence": 102.6,
+          "base_defence_add": 4.05
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 50000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110262",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "<i>The Fluffy</i> Serialization Memorial Issue",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> currently in magazine serialization. Moderately increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110262.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 12,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 259.2,
+          "base_hp_add": 7.2,
+          "base_attack": 116.64,
+          "base_attack_add": 3.24,
+          "base_defence": 145.8,
+          "base_defence_add": 4.05
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 100000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110263",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "<i>The Fluffy</i> Collector's Edition",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i>, now in published standalone volumes. Greatly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110263.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 6,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 336,
+          "base_hp_add": 7.2,
+          "base_attack": 151.2,
+          "base_attack_add": 3.24,
+          "base_defence": 189,
+          "base_defence_add": 4.05
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 200000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110263",
+            "quantity": 10,
+            "rarity": "VeryRare",
+            "name": "<i>The Fluffy</i> Collector's Edition",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i>, now in published standalone volumes. Greatly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110263.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 412.8,
+          "base_hp_add": 7.2,
+          "base_attack": 185.76,
+          "base_attack_add": 3.24,
+          "base_defence": 232.2,
+          "base_defence_add": 4.05
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 23055,
+          "base_hp": 489.6,
+          "base_hp_add": 7.2,
+          "base_attack": 220.32,
+          "base_attack_add": 3.24,
+          "base_defence": 275.4,
+          "base_defence_add": 4.05
+        }
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "1d7cff6bfb188fac02c5d1d5d16d4bb6176b0539def6fc8004249f0801e5f22c"
+    }
+  },
+  {
     "id": "23056",
     "contentStatus": "beta_changed",
     "name": "The Finale of a Lie",
@@ -61301,7 +61699,7 @@
             0.84,
             4,
             3,
-            0.23
+            0.24
           ]
         },
         {
@@ -61311,7 +61709,7 @@
             0.96,
             4,
             3,
-            0.26
+            0.28
           ]
         },
         {
@@ -61321,7 +61719,7 @@
             1.08,
             4,
             3,
-            0.29
+            0.32
           ]
         },
         {
@@ -61331,7 +61729,7 @@
             1.2,
             4,
             3,
-            0.32
+            0.36
           ]
         }
       ]
@@ -61662,7 +62060,7 @@
     ],
     "liveComparison": {
       "liveHash": "1b1b8aa384f7d7b7047509e06c7567508a45a53de01352e260b69ce8032a70a9",
-      "currentHash": "216e5e36aa6739110efcefc063c9749b770c49a0917bd9ae4d5baf2a4239dd23"
+      "currentHash": "2d3bcf5b34a9d567f77930f93c4abe822a763a1f97ff0e39de4d5aa4ede3d3dd"
     }
   },
   {
@@ -62069,7 +62467,7 @@
   },
   {
     "id": "23063",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "Rise and Sing",
     "rarity": 5,
     "rarityRaw": "CombatPowerLightconeRarity5",
@@ -62455,12 +62853,13 @@
       }
     ],
     "liveComparison": {
+      "liveHash": "ce6810bde4f5801e8d14772b7bea83d48839301c4040a8b91efec534fb9ad38d",
       "currentHash": "7003bc6e011246070fb4bbedf7e4da855d32e75e7b851cad3543f214460719eb"
     }
   },
   {
     "id": "23064",
-    "contentStatus": "beta",
+    "contentStatus": "beta_changed",
     "name": "Summer Rides the Surf",
     "rarity": 5,
     "rarityRaw": "CombatPowerLightconeRarity5",
@@ -62472,7 +62871,7 @@
     },
     "effect": {
       "name": "Waveriding",
-      "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses an Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. If the Elation Skill used is different from the last Elation Skill used, additionally gains \"Uptrend,\" which increases the wearer's Elation by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.\\nAt the start of every wave or after the wearer uses their Elation Skill <unbreak>#4[i]</unbreak> time(s), recovers 1 Skill Point.",
+      "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.\\nWhen every wave starts or after the wearer uses Elation Skill <unbreak>#4[i]</unbreak> time(s), recovers 1 Skill Point.",
       "levels": [
         {
           "level": 1,
@@ -62846,7 +63245,8 @@
       }
     ],
     "liveComparison": {
-      "currentHash": "723c2011e77b33a02f4a03bda34983a18d8cb89671fa803a8f6638f80e4ca5dd"
+      "liveHash": "aabb04241a9e1da5e33c0e2aa6af12f1928dffc8df1edaa16798109466fcf513",
+      "currentHash": "519e7393914d6000569865a75b5ef093c5fea96a70d1ef15773dc390d8887921"
     }
   },
   {

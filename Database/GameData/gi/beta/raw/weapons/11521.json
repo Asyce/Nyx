@@ -414,142 +414,28 @@
   },
   "materials": {
     "1": {
-      "mats": [
-        {
-          "name": "The Frost Emperor's Revival",
-          "id": 114093,
-          "count": 5,
-          "rank": 2
-        },
-        {
-          "name": "Accreted Fragment",
-          "id": 112152,
-          "count": 5,
-          "rank": 2
-        },
-        {
-          "name": "Ethereal Glimmershard",
-          "id": 112146,
-          "count": 3,
-          "rank": 1
-        }
-      ],
-      "cost": 10000
+      "mats": [],
+      "cost": 0
     },
     "2": {
-      "mats": [
-        {
-          "name": "The Frost Emperor's Ceremony",
-          "id": 114094,
-          "count": 5,
-          "rank": 3
-        },
-        {
-          "name": "Accreted Fragment",
-          "id": 112152,
-          "count": 18,
-          "rank": 2
-        },
-        {
-          "name": "Ethereal Glimmershard",
-          "id": 112146,
-          "count": 12,
-          "rank": 1
-        }
-      ],
-      "cost": 20000
+      "mats": [],
+      "cost": 0
     },
     "3": {
-      "mats": [
-        {
-          "name": "The Frost Emperor's Ceremony",
-          "id": 114094,
-          "count": 9,
-          "rank": 3
-        },
-        {
-          "name": "Accreted Mass",
-          "id": 112153,
-          "count": 9,
-          "rank": 3
-        },
-        {
-          "name": "Ethereal Crystal",
-          "id": 112147,
-          "count": 9,
-          "rank": 2
-        }
-      ],
-      "cost": 30000
+      "mats": [],
+      "cost": 0
     },
     "4": {
-      "mats": [
-        {
-          "name": "The Frost Emperor's Lament",
-          "id": 114095,
-          "count": 5,
-          "rank": 4
-        },
-        {
-          "name": "Accreted Mass",
-          "id": 112153,
-          "count": 18,
-          "rank": 3
-        },
-        {
-          "name": "Ethereal Crystal",
-          "id": 112147,
-          "count": 14,
-          "rank": 2
-        }
-      ],
-      "cost": 45000
+      "mats": [],
+      "cost": 0
     },
     "5": {
-      "mats": [
-        {
-          "name": "The Frost Emperor's Lament",
-          "id": 114095,
-          "count": 9,
-          "rank": 4
-        },
-        {
-          "name": "Accreted Growth",
-          "id": 112154,
-          "count": 14,
-          "rank": 4
-        },
-        {
-          "name": "Ethereal Crystalscale Stone",
-          "id": 112148,
-          "count": 9,
-          "rank": 3
-        }
-      ],
-      "cost": 55000
+      "mats": [],
+      "cost": 0
     },
     "6": {
-      "mats": [
-        {
-          "name": "The Frost Emperor's Farewell",
-          "id": 114096,
-          "count": 6,
-          "rank": 5
-        },
-        {
-          "name": "Accreted Growth",
-          "id": 112154,
-          "count": 27,
-          "rank": 4
-        },
-        {
-          "name": "Ethereal Crystalscale Stone",
-          "id": 112148,
-          "count": 18,
-          "rank": 3
-        }
-      ],
-      "cost": 65000
+      "mats": [],
+      "cost": 0
     }
   },
   "story": {

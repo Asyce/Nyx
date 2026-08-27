@@ -270,27 +270,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "This will keep us well-stocked.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "First-rate supplies.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "The design is exquisite.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Well done.",
         "is_battle_voice": true
       },
       {
@@ -303,6 +285,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "If there's nothing pressing, let's take a walk.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "This will keep us well-stocked.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "First-rate supplies.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Well done.",
         "is_battle_voice": true
       }
     ]
@@ -483,7 +483,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       },

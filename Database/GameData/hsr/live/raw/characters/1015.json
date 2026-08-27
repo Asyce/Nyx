@@ -2,6 +2,7 @@
   "name": "Archer",
   "desc": "Despair plays in cycles between the past and future. Countless ideals were incinerated before that red garment. Yet, do not let this smear of ashes fool you —\\nShould someone create a phantasmal sweet dream under the guise of false ideals, then he will burn again, facing down the hypocrites of the world till the very end.\\nNo matter where he is, he always remains the steadfast champion of justice.",
   "chara_info": {
+    "camp": "Another World",
     "va": {
       "chinese": "吴磊",
       "japanese": "諏訪部 順一",
@@ -14,7 +15,362 @@
       "3": "Kanshou and Bakuya, these twin blades are the man's weapons of choice, continuously reproduced through Projection Magecraft without a second thought for how many break in battle. Theoretically, any armament the man comprehends thoroughly can be \"projected as a counterfeit countless times.\" However, due to some entanglements of karma, the man's Projection magecraft only reaches absolute perfection when creating objects that qualify as \"swords.\"\\n\\n<i>\"Sounds like a merchant selling knockoffs? Well, that's about right.\"\\n\"It's hardly the most honorable approach, but it's perfectly tailored for dealing with those self-important types who fabricate rules just to stand above others and exert their authority.\"</i>\\n\\nAccording to ancient legend, Kanshou and Bakuya were master swordsmiths. A husband-and-wife duo who exhausted every conceivable method attempting to overcome a fundamental limitation: That craftsmen couldn't control the quality of their forged blades, leaving each creation to fate's whims.\\nFrom this point, the tale branches into numerous versions. One claims that Bakuya sacrificed herself to the furnace, becoming one with the molten metal, enabling Kanshou to forge blades of unprecedented perfection that would never be equaled.\\nIn the more widely celebrated version, a tyrannical ruler, frustrated by the slow pace of sword forging, executed Kanshou after receiving the masterpiece blades. Then, Bakuya escaped to the countryside with their child. Years later, this grown child encountered a wandering swordsman, and together they plotted revenge against the tyrant, a confrontation where all three ultimately perished together.\\n\\nDoes the man's own destiny mirror these ancient tales? If similarities exist, what did he ultimately sacrifice? Himself, his companions, or perhaps some cherished ideal?\\nNo one knows.\\nWhat people do know is that he offered himself as its foundation for the sword residing in his heart — His body serving as steel, his blood as flame.\\nThough he crafted thousands of blades throughout his journey, in the end, he stood empty-handed, possessing nothing at all.\\nJust like his {RUBY_B#Unlimited Blade Works}mindscape{RUBY_E#}.\\n\\n<i>\"But isn't this precisely what life is about?\"\\n\"No sword can remain in one person's possession forever. You must either store it away, pass it to another's hands, or... use it until its very last moment.\"\\n\"And only then, can you truly start again with a clean slate.\"</i>",
       "4": "Within the Holy Grail War's formal classification system, the man is categorized as {RUBY_B#Archer}a bow user{RUBY_E#}. This designation might seem like a subtle mockery for someone whose very essence revolves around \"swords,\" yet the man himself remains completely unbothered by this apparent contradiction.\\n\\n<i>\"Let's be practical. Isn't eliminating enemies from a distance far more efficient than facing them head-on?\"\\n\"Or were you expecting me to act like those {RUBY_B#Sabers}swordmasters{RUBY_E#}, unleashing devastating beams of light that level everything? Don't be absurd. I'm just an ordinary person without their overwhelming magical energy reserves.\"</i>\\n\\nHowever, contrary to his statements, the man never hesitates to engage in close combat when the situation demands it. Leveraging his practically infinite supply of \"Kanshou and Bakuya,\" he uses dazzlingly complex sword skills that leave opponents struggling to defend themselves.\\n\\n<i>\"If regular bullets could get the job done, I wouldn't bother going through all this trouble.\"\\n\"But if you really wanna learn this move? Spend some time in the kitchen. Start by getting good with a knife.\"\\n\"I'm not messing around. Cooking teaches you a lot if you actually think about it. Take meal prep, for instance. You want a great dish on the table fast? You gotta break down every step, figure out what can be done at the same time, and streamline the whole process. Once you get the hang of that mindset, you'll start applying it to everything in your life. It saves you a ton of time.\"\\n\"Same with cooking temps. Newbies always think stir-frying means tossing everything into the pan in order until it's all cooked through.\"\\n\"That works fine for stuff that can take the heat. But other ingredients? They've got their own ideal cooking time and temp, so they don't always get along.\"\\n\"So most of the time, you've gotta sort your ingredients, adjust the heat for each one, and pull them off the burner at just the right moment. Then, bring everything back together to finish the dish balanced, flavorful, and just right.\"</i>\\n\\nOnce he starts talking about cooking, the guy shifts gears entirely. Gone is his usual short-and-sharp talk. Instead, he dives into these long, thoughtful monologues, full of hard-won insight. For a man who's spent his whole life on the battlefield, it seems like what defines him isn't justice or suffering, but something quieter. Something like the everyday warmth of a home-cooked meal.\\n\\n<i>\"Like I said before, if you could take out your enemies from a distance with a sniper shot, nobody would risk getting up close and personal. It's the same when it comes to fate.\"\\n\"I exist to prove one thing: somewhere out there, in a corner of the world, there are people who have no choice but to fight fate in brutal, hand-to-hand combat, every single day. Because if they don't, they die.\"\\n\"I fought for them once. But the world only changed because people kept going, kept fighting fate without pause.\"\\n\"As for me... I'm just a man with nothing left, who's still a long way from ever {RUBY_B#reaching utopia}beating fate{RUBY_E#}.\"</i>\\n\\nOne thing's for sure: He's not turning away from his mission to save humanity.\\nJust like he never says no to cooking for his friends."
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "First meeting, huh? Just call me Archer. Lucky for us, we're not here to kill each other, so let's keep things civil, if we can.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Oh, back again, huh? I'm glad you've got a good head on your shoulders... makes conversations a lot less tedious.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Oh, before we part, let me give you a piece of advice — cherish the friends you make in your youth. Even when the world shifts around you, those bonds are worth their weight in gold.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: True Name",
+        "voice_m": "As a Servant, I'm supposed to keep my True Name hidden. But since no one here would recognize me anyway, I might as well be honest — my name is Emiya. It's a pleasure.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Chat: Projection Magecraft",
+        "voice_m": "Who would've thought? I project one bottle of SoulGlad in Penacony, and suddenly I'm being accosted by some factory rep over copyright fees? Unbelievable.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Housekeeping",
+        "voice_m": "Everything in Penacony is so clean... too clean, actually. Not being able to clean anything is oddly depressing... I really need to break this habit of mine.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Heroic Spirits",
+        "voice_m": "We, the Heroic Spirits, are copies drawn from the Throne of Heroes. But the Heroic Spirits of Penacony... where do they come from? Does this world have its own version of the Throne, ceaselessly recording every detail of history?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Hobbies",
+        "voice_m": "I actually enjoy cooking. But here in Penacony, the way things are done seems... different. Heh, guess I won't get the chance to show off all my skills. Pity.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Annoyances",
+        "voice_m": "Growth is inevitable. A sound mind is always moving forward, always evolving, always rejecting its past self. You should be glad you don't have to deal with the immature person you used to be... though, really, that's just life... Even if you conquer your past, the scars it leaves don't disappear.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Something to Share",
+        "voice_m": "\"Doing the right thing\" and \"doing things right\" are two completely different matters. And in my opinion, the latter is what really makes the difference.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Knowledge",
+        "voice_m": "Cooking in the Dreamscape is so easy. No mess, no dishes. But honestly, it feels like something's missing... like all the little rituals that make it special.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About Saber",
+        "voice_m": "She's an old acquaintance of mine. The fact that you've summoned her as your Servant tells me you're a person of integrity. Don't doubt yourself, stay the course, and keep pushing ahead.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Lancer",
+        "voice_m": "The Lancer class seems to attract its fair share of unfortunate Servants... Not every one of them, but there's one Heroic Spirit... His luck is so bad, it even affects the people who summon him.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Aventurine",
+        "voice_m": "Masters and Servants tend to be alike in some way. For us, it's probably some obsession we can't seem to shake. But I wonder if he sees this as a blessing or a curse?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Boothill",
+        "voice_m": "Seems to act on impulse, but there's a method to his madness... Hmph, guess he's the kind of person I can get along with.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Pom-Pom",
+        "voice_m": "Who would've thought with such short limbs they could handle chores so efficiently? Appearances really are deceiving. Uhh, on second thought, I should say the conductor is just as perfect as they look. It's no wonder your journey's going so well.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About \"Miss Note\"",
+        "voice_m": "The mere fact that she's a Heroic Spirit proves her abilities and merit. She has no reason to underestimate herself.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Skott",
+        "voice_m": "If every opponent he faced was like you, he'd probably turn out to be a decent person.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Mr. Grady",
+        "voice_m": "Not many in this world seem to appreciate \"film\" the way he does. If they did, I'd have to be blunt, your world's taste in movies leaves a lot to be desired.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Old Oti",
+        "voice_m": "People ought to act their age. If it's time to be six feet under, they shouldn't be out there causing chaos.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "A Guardian's future is decided here.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Character Ascension",
+        "voice_m": "The mission's not done, so neither am I.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Max Level Reached",
+        "voice_m": "The preparations are flawless. The way I am now, I can fight anytime.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "Trace Activation",
+        "voice_m": "This feels pretty good. Almost like finding what I had once lost.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "A formidable opponent? Hmph... I'll support you from behind the scenes.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With Saber",
+        "voice_m": "Heh. The Holy Sword's brilliance remains the same, even amidst the stars.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "About Rin Tohsaka",
+        "voice_m": "Running into this walking disaster of a girl again... Honestly. I really thought she'd matured, but here she is, back in the thick of it. Fine... I can't exactly leave her to fend for herself now, can I?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "About Gilgamesh",
+        "voice_m": "You're asking if I can defeat that King of Heroes who is so obsessed with his status as original? Hmph, that's a loaded question. Facing a guy like me, someone who'd throw away his pride without a second thought just to win, he'd never deign to use his full power.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Added to Team With Rin Tohsaka",
+        "voice_m": "Rest assured. This time, I will act as your faithful proxy and claim victory in your name.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Added to Team With Gilgamesh",
+        "voice_m": "Let's do this, King of Heroes. Do you have enough Noble Phantasms in stock?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "A chance to deal with the problem at its root!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Hmm... What do you plan to do next?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "My turn? So much work.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "You don't learn, do you?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "In no hurry to strike? Hmm, it won't hurt to observe a bit longer.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Kanshou! Bakuya!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Follow-Up ATK 1",
+        "voice_m": "Triple Crane Wings!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Follow-Up ATK 2",
+        "voice_m": "Cleaving the world!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Skill 1",
+        "voice_m": "Trace on!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Skill 2",
+        "voice_m": "Caladbolg II!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Circuit Connection: Skill 1",
+        "voice_m": "Don't think of running.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Circuit Connection: Skill 2",
+        "voice_m": "You have nowhere to hide!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Try harder...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "A frontal encounter again...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "I am the bone of my sword. Steel is my body, and fire is my blood. I have created over a thousand blades. Unknown to Death. Nor known to Life. Have withstood pain to create many weapons. Yet, those hands will never hold anything. So as I pray—",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Unlimited Blade Works.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Downed",
+        "voice_m": "I... lost...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Return to Battle",
+        "voice_m": "I'll avenge this!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Health Recovery",
+        "voice_m": "A reliable friend and the correct judgment.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Technique",
+        "voice_m": "Broken Phantasm!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Battle Won",
+        "voice_m": "I thought it was going to be a tough battle.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "...Never mind. It's good to appreciate what you have.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Don't spend it all now.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "That's quite the loot...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Was that really worth the fuss?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "That wasn't much of a problem.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "It's a tough opponent. Be on your toes!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "Returning to Town",
+        "voice_m": "It's about time for a break, no? Let's relax a bit.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 79,
+        "voice_title": "Joint Follow-Up ATK",
+        "voice_m": "Go get 'em, Rin!",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "archer",

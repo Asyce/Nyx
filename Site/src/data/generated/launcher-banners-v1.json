@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "009e5cdf2fe5766d4cdfc541408d5bf6e4fdadc13286b4b9519dd57bae11389b",
-  "generatedAt": "2026-08-27T02:26:10.550Z",
+  "revision": "ccf7022941b2ff696f7a896c195ffa5d66171fe45c3b902577706a2e9bdfde71",
+  "generatedAt": "2026-08-27T12:09:17.287Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 459228
+          "durationSeconds": 424241
         },
         "characters": [
           {
@@ -538,7 +538,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1387969
+          "durationSeconds": 1352982
         },
         "characters": [
           {
@@ -546,7 +546,7 @@
             "name": "Robin • Summeretto",
             "rarity": 5,
             "limited": true,
-            "debut": "2026-08-26T03:00:00.000Z",
+            "debut": "2026-08-26T09:00:00.000Z",
             "icon": {
               "id": "1512-icon",
               "source": "character-icon",
@@ -665,7 +665,7 @@
           "name": "Robin • Summeretto",
           "rarity": 5,
           "limited": true,
-          "debut": "2026-08-26T03:00:00.000Z",
+          "debut": "2026-08-26T09:00:00.000Z",
           "icon": {
             "id": "1512-icon",
             "source": "character-icon",
@@ -781,6 +781,39 @@
           "end": "2026-09-27T19:59:59.000Z",
           "characters": [
             {
+              "id": "1513",
+              "name": "Aventurine • Waveflair",
+              "rarity": 5,
+              "limited": true,
+              "debut": "2026-09-12T09:00:00.000Z",
+              "icon": {
+                "id": "1513-icon",
+                "source": "character-icon",
+                "path": "/launcher-art/a0e8b7e5e254e2c65f7c45ad950e9c34fe25ec701a93fac42d81d40fb7406d9f.webp",
+                "url": "https://pengo.gg/dist/launcher-art/a0e8b7e5e254e2c65f7c45ad950e9c34fe25ec701a93fac42d81d40fb7406d9f.webp",
+                "mime": "image/webp",
+                "size": 9458,
+                "dimensions": {
+                  "width": 114,
+                  "height": 125
+                },
+                "sha256": "a0e8b7e5e254e2c65f7c45ad950e9c34fe25ec701a93fac42d81d40fb7406d9f",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 114,
+                  "bottom": 125
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "cover",
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "variants": []
+            },
+            {
               "id": "1504",
               "name": "Ashveil",
               "rarity": 5,
@@ -812,39 +845,6 @@
                 }
               },
               "variants": []
-            },
-            {
-              "id": "1513",
-              "name": "Aventurine • Waveflair",
-              "rarity": 5,
-              "limited": true,
-              "debut": "2024-04-17T04:00:00.000Z",
-              "icon": {
-                "id": "1513-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/a0e8b7e5e254e2c65f7c45ad950e9c34fe25ec701a93fac42d81d40fb7406d9f.webp",
-                "url": "https://pengo.gg/dist/launcher-art/a0e8b7e5e254e2c65f7c45ad950e9c34fe25ec701a93fac42d81d40fb7406d9f.webp",
-                "mime": "image/webp",
-                "size": 9458,
-                "dimensions": {
-                  "width": 114,
-                  "height": 125
-                },
-                "sha256": "a0e8b7e5e254e2c65f7c45ad950e9c34fe25ec701a93fac42d81d40fb7406d9f",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 114,
-                  "bottom": 125
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
             }
           ]
         },
@@ -859,7 +859,7 @@
               "name": "Robin • Summeretto",
               "rarity": 5,
               "limited": null,
-              "debut": "2026-08-26T03:00:00.000Z",
+              "debut": "2026-08-26T09:00:00.000Z",
               "icon": {
                 "id": "1512-icon",
                 "source": "character-icon",
@@ -896,69 +896,28 @@
           "end": null,
           "characters": [
             {
-              "id": "pearl",
+              "id": "1503",
               "name": "Pearl",
               "rarity": 5,
               "limited": null,
               "debut": null,
               "icon": {
-                "id": "pearl-icon",
+                "id": "1503-icon",
                 "source": "character-icon",
-                "path": "/launcher-art/8c28a2288e2452f49e8c87e0e85177b001c1ab093b7f19d236cdf0101834b16c.webp",
-                "url": "https://pengo.gg/dist/launcher-art/8c28a2288e2452f49e8c87e0e85177b001c1ab093b7f19d236cdf0101834b16c.webp",
+                "path": "/launcher-art/ccafea75f344e02f6af9bdb59888abab19c06aae9df1aafa70c11488f8be4841.webp",
+                "url": "https://pengo.gg/dist/launcher-art/ccafea75f344e02f6af9bdb59888abab19c06aae9df1aafa70c11488f8be4841.webp",
                 "mime": "image/webp",
-                "size": 32130,
+                "size": 3996,
                 "dimensions": {
-                  "width": 420,
-                  "height": 424
+                  "width": 128,
+                  "height": 128
                 },
-                "sha256": "8c28a2288e2452f49e8c87e0e85177b001c1ab093b7f19d236cdf0101834b16c",
+                "sha256": "ccafea75f344e02f6af9bdb59888abab19c06aae9df1aafa70c11488f8be4841",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 420,
-                  "bottom": 424
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            }
-          ]
-        },
-        {
-          "phase": null,
-          "announced": true,
-          "start": null,
-          "end": null,
-          "characters": [
-            {
-              "id": "nihilux",
-              "name": "Nihilux",
-              "rarity": null,
-              "limited": null,
-              "debut": null,
-              "icon": {
-                "id": "nihilux-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/fc2a6dfabf71d9f1dda1fe855ee3e28774fc2df8e729ca438866b59bc3695825.webp",
-                "url": "https://pengo.gg/dist/launcher-art/fc2a6dfabf71d9f1dda1fe855ee3e28774fc2df8e729ca438866b59bc3695825.webp",
-                "mime": "image/webp",
-                "size": 64240,
-                "dimensions": {
-                  "width": 420,
-                  "height": 424
-                },
-                "sha256": "fc2a6dfabf71d9f1dda1fe855ee3e28774fc2df8e729ca438866b59bc3695825",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 420,
-                  "bottom": 424
+                  "right": 128,
+                  "bottom": 128
                 },
                 "placement": {
                   "anchor": "center",
@@ -1082,7 +1041,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 1053228
+          "durationSeconds": 1018241
         },
         "characters": [
           {
@@ -1851,7 +1810,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1233169
+          "durationSeconds": 1198182
         },
         "characters": [
           {
@@ -2367,7 +2326,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 502428
+          "durationSeconds": 467441
         },
         "characters": [
           {

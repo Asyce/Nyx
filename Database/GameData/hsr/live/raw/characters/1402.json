@@ -2,6 +2,7 @@
   "name": "Aglaea",
   "desc": "In that holy city kissed by the dawn, the weaver caresses the golden threads, entwining fates.\\nThe Chrysos Heir that bears the \"Romance\" Coreflame gathered the world's heroes, leading them on a long journey once more\\n— to topple the gods, reclaim the divine flame, and grant rebirth to the nearly fallen Amphoreus.",
   "chara_info": {
+    "camp": "Amphoreus",
     "va": {
       "chinese": "楚越",
       "japanese": "遠藤綾",
@@ -15,7 +16,410 @@
       "3": "They say it is the Flame-Chase Journey. They also say it is a journey of loss.\\n\\nShe can faintly feel something precious slipping away from her, but she has no time to dwell on it — for the person walking ahead of her is bearing a loss far greater than her own.\\n<i>\"I'll leave this place in your hands, Aglaea.\"\\n\"Make sure you do your best.\"\\n\"See you next time!\"</i>\\nShe never understands why their goodbyes always sound like that.\\nAll that remains are the faint melodies echoing from the depths of the sea, footprints swept away by the wind across the land, and an unsolvable chessboard left behind.\\n\\n<i>\"How can delicate threads bear the heavy weight of fate?\"</i>\\nHer only companion is the Garmentmaker, yet her once grand wardrobe is now eerily empty.\\nThe noble lady enters the political fray, sparking lively debates among the Council of Elders. Amid the continual sneers of bystanders, she begins to devise her plans.\\nThe golden threads at her fingertips weave a net across Okhema. The nymphs rest in the corners of the city, ensnaring every whisper and breath.\\n\\nEven the golden threads turn lethal, tainted with the scent of blood for the first time.",
       "4": "To this day, the divine loom spins relentlessly, with numerous Garmentmakers hovering in midair. No one knows why they dance or why they rest.\\n<i>\"Garmentmaker, please head to the plaza. We have guests who have traveled from afar...\"</i>\\n\\nThis scene had unfolded countless times before. In the past, she was always the one reaching out, and now, it was others who sought her.\\nAt that moment, a young man in silver-white armor stands there, his youthful face marred by hatred and bloodstains.\\nThe girl in the purple dress remains silent, leaving a trail of chilling death mingled with the deep fragrance of flowers wherever she goes.\\nA thief, as stealthy as a cat, vanishes from Okhema, but she dismisses it as merely a silly prank.\\nThe girl, warm as a faint light, had once healed her scars.\\nAnd then there is the crown prince from the outlands, the proud scholar —\\n<i>\"If one thread isn't enough, then let a myriad of threads lift the sky...\"</i>\\nShe seeks out diverse threads of fate, intertwining them into a resilient net. This net would launch toward the Titans' Coreflames, rekindling it afresh in a new world.\\n<i>\"The Chrysos Heirs will together weave a dazzlingly bright future.\"</i>\\n\\nDuring a brief pause, she steps up to the window, overlooking the bustling city of Okhema below.\\n<i>\"Garmentmaker, brew me another cup of hot tea, please.\"</i>\\nShe shivers slightly, yet her heart is no longer stirred by the sorrows of the past.\\nInvisible golden threads spill from her fingertips, intertwining with the city-state's pulse and heartbeat, with the whisper of wind and patter of rain — all resonating under her touch, like inspiration conjured by the god of romance, pulsing with the promise of new life.\\nAfter deep thought, she carefully packs away the ornate garments she had crafted in her youth.\\n<i>\"Even if, in the end, I must wear nothing but plain clothes...\"</i>\\n\\nLegend holds that every disciple of Mnestia devotes their entire life to crafting what they deem to be the \"ultimate beauty\" to present to their deity.\\nIt's been a long time since she crafted beautiful garments.\\nYet, she has never ceased weaving the threads of destiny."
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "O, noble guest from afar. The wind brought me news of you along the golden threads. My name is Aglaea, the Dressmaster of Okhema and one of Amphoreus' Chrysos Heirs. I hope we treat each other with honesty.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Has your time in Okhema been enjoyable? If you have any wishes, please let this \"Garmentmaker\" know. The holy city will certainly offer the most splendid hospitality for its allies.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "We will meet again, friend. No matter where your journey leads, the gates of Okhema will forever be open to heroes.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Identity",
+        "voice_m": "The world is almost destroyed after the Chrysos War, and now Okhema alone remains as the sole city of humanity. My duty is to protect this remaining haven... At any cost.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Chat: Dressmaking",
+        "voice_m": "Mnestia granted this world thousands of romances, and dressmaking is my favorite. Threads and fabric shimmer through my fingers, like how the fates of all living things become connected and woven into being.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Hobbies",
+        "voice_m": "Clothes are the barriers between bodies and hearts. Removing clothes would also remove such hindrances. You and I will lower our barriers to each other in the holy baths, like how the waters that trickle along our fingers intertwine and flow toward the future.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Annoyances",
+        "voice_m": "The joy of listening to birdsongs, the delight of breathing leafy scents, the touch of gentle water... The more I adore the happiness of this world, the more I fear these sights will be reduced to echoes of the past, only able to be replayed at the tips of my fingers.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Something to Share",
+        "voice_m": "When I was still a dressmaster, my job was already to break the ancient molds of fashion. Now, as a Chrysos Heir, I also have the responsibility to remove old wrongs and create brand-new \"beauty.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Knowledge",
+        "voice_m": "Poetry, sports, theater, sculpture... All things are the manifestation of beauty and have nurtured the souls of Okhema's people for millennia. People will sing in the baths even if faced with the end of the world — That's the life we live.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "About Tribbie, Trianne, and Trinnon",
+        "voice_m": "Many people born in this era view faith as the only thing in their lives, and the prophecies of the three are able to soothe this anxious and restless world like a gentle rain.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "About Phainon",
+        "voice_m": "Accepting others' wishes and turning them into his own wishes — not all heroes are such blank canvases as him, and that is why the world places such great hopes on him.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About Mydei",
+        "voice_m": "He's like a furnace, always lit with bottomless fire. This fire will either completely be doused in a storm, or melt down his own existence with it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Castorice",
+        "voice_m": "The one closest to death often knows the most about how precious life is. Her embrace brings eternal sleep, but such farewells are always warm.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "You cannot douse fire, for its inheritance will never be extinguished.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "Character Ascension",
+        "voice_m": "Even the most majestic epics are woven from individual words.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Why does my passionate heart beat so?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "Trace Activation",
+        "voice_m": "May we all emerge from this endless journey intact.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Let us weave the future together.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "Added to Team With Tribbie",
+        "voice_m": "Teacher, please continue to guide us forward.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "Added to Team With Mydei",
+        "voice_m": "At the very least, for now we have the same goal.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Anaxa",
+        "voice_m": "I do not agree with the ideals of that blasphemer, but we are the same when it comes to the determination with which we seek our dreams.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Added to Team With Castorice",
+        "voice_m": "Cas, please bring peace to the battlefield.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Anaxa",
+        "voice_m": "A common goal is enough to bring us together in this fight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Hyacine",
+        "voice_m": "Her color is gentle and unique among the Chrysos Heirs' portraits, soft as the lightest breeze and bright as the first rays of dawn. Amphoreus's sky had been dark for too long, and it's time for her to grant the world her healing light.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Cipher",
+        "voice_m": "I have lost much on the Flame-Chase Journey, and I have not a single complaint. And yet... With Cifera... Her eyes, blue as the clearest lakes, could not mask her disappointment on the day we bid each other goodbye. There must be a reason, one she could not tell me...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With Hyacine",
+        "voice_m": "Your faint light will lead us through the darkness.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Cipher",
+        "voice_m": "Let's work together like we did before. Shall we, Cifera?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Phainon",
+        "voice_m": "Don the battle raiment of dawn, Deliverer, and sound the trumpet of advance.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "About Hysilens",
+        "voice_m": "That most beautiful melody once comforted my heart in the dark days. A millennium later, the feasts are long gone and the ocean stands masterless, with only the tides continuing to echo softly in my ears.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "About Cerydra",
+        "voice_m": "A cruel tyrant, a fearless forerunner, a leader who brooked no opposition... The world has given her many labels, but the Flame-Chase would never have become what it is today without her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Hysilens",
+        "voice_m": "Long time no see. What steps shall we dance for the next tune?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Cerydra",
+        "voice_m": "The golden threads have detected our enemies, Imperator.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "All that we experienced will become a thread in our lives. Thank you for embroidering the most beautiful patterns for Amphoreus's destiny.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "About March 7th",
+        "voice_m": "Amphoreus's \"Time\" has already received too many scars. Thankfully, that lively Nameless is now here. Like a dash of vibrant colors, she has swept away all the dusty gloom that the memories had built up.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "About Dan Heng • Permansor Terrae",
+        "voice_m": "The golden threads can no longer detect doubts in his heart. From now on, he will certainly walk tall and proud on the road he chose.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "About Cyrene",
+        "voice_m": "When that one thread of \"love\" was woven into Amphoreus's destiny, her every gaze was already infused into the countless years, molding our lives into shape through our beating hearts.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "Added to Team With March 7th",
+        "voice_m": "Your outfit today remains as refreshing as ever, Miss March.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
+        "voice_m": "I'm honored to witness the will of both the Earth and the Trailblaze.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "Added to Team With Cyrene",
+        "voice_m": "Don the raiment of romance and move toward that defining moment.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Being direct is always preferable.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "A bit too much commotion for my taste.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Is that fear I sense? Your breathing is erratic.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "A little honesty would do us both some good.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Find stillness, and enlightenment will emerge.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Just a facade.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Basic ATK: Joint ATK 1",
+        "voice_m": "All lies shall be revealed with perfect clarity.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Basic ATK: Joint ATK 2",
+        "voice_m": "Life, so fragile, like a wisp of silk.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Skill: Summon Garmentmaker 1",
+        "voice_m": "Time for resolution.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Skill: Summon Garmentmaker 2",
+        "voice_m": "Care to dance?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Skill: Heal Garmentmaker 1",
+        "voice_m": "Bathe in gold.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Skill: Heal Garmentmaker 2",
+        "voice_m": "Adorned in splendor.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Of no great concern.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "The way is fraught with difficulties.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Countless threads, all within my grasp.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Thus, your fate and mine become one.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Downed",
+        "voice_m": "Bound... by the threads of demise...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Return to Battle",
+        "voice_m": "It appears the end is not yet at hand.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Health Recovery",
+        "voice_m": "Thank you, friend.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Technique",
+        "voice_m": "Cut away the heart of strife.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Battle Won",
+        "voice_m": "The foretold triumph draws nearer.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "A gentle texture, and of fine craftsmanship.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "An abundant fragrance, worthy of recognition.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Happenstance and surprise, both laced with beauty.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Intricate weaving, nothing left to chance.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "An inventive approach, truly unique.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "In tight confines, a clash of wills is unavoidable.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "Returning to Town",
+        "voice_m": "Should you have a moment, take some time for a bath.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "aglaea",

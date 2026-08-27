@@ -288,27 +288,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "This suits my tastes.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Quite a stroke of luck~",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Smooth sailing~",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "All thanks to your guidance, benefactor~",
         "is_battle_voice": true
       },
       {
@@ -321,6 +303,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "Got places to be? I'm your best guide!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "This suits my tastes.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Quite a stroke of luck~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "All thanks to your guidance, benefactor~",
         "is_battle_voice": true
       }
     ]

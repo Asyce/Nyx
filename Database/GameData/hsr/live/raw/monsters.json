@@ -2555,7 +2555,11 @@
       202201013,
       202201014,
       202201015,
-      202201016
+      202201016,
+      202201017,
+      202201018,
+      202201019,
+      202201020
     ],
     "weak": [
       "Fire",
@@ -2685,7 +2689,11 @@
       202206011,
       202206012,
       202206013,
-      202206014
+      202206014,
+      202206015,
+      202206016,
+      202206017,
+      202206018
     ],
     "weak": [
       "Physical",
@@ -2740,6 +2748,27 @@
     "zh": "肃风之杪",
     "ja": "厳風の梢"
   },
+  "2022072": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_2022070.png",
+    "child": [
+      2022072,
+      202207201,
+      202207202,
+      202207203,
+      202207204
+    ],
+    "weak": [
+      "Ice",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "Twig of Wintry Wind",
+    "desc": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "ko": "소슬바람의 가지",
+    "zh": "肃风之杪",
+    "ja": "厳風の梢"
+  },
   "2022080": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_2022080.png",
@@ -2768,6 +2797,26 @@
       2022081,
       202208101,
       202208102
+    ],
+    "weak": [
+      "Fire",
+      "Quantum"
+    ],
+    "en": "Twig of Marple Leaf",
+    "desc": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "ko": "담황색 잎의 가지",
+    "zh": "缃叶之杪",
+    "ja": "黄葉の梢"
+  },
+  "2022082": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_2022080.png",
+    "child": [
+      2022082,
+      202208201,
+      202208202,
+      202208203,
+      202208204
     ],
     "weak": [
       "Fire",
@@ -2816,6 +2865,26 @@
     "zh": "繁花之杪",
     "ja": "万花の梢"
   },
+  "2022092": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_2022090.png",
+    "child": [
+      2022092,
+      202209201,
+      202209202,
+      202209203,
+      202209204
+    ],
+    "weak": [
+      "Ice",
+      "Imaginary"
+    ],
+    "en": "Twig of Glorious Blooms",
+    "desc": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "ko": "무성한 꽃의 가지",
+    "zh": "繁花之杪",
+    "ja": "万花の梢"
+  },
   "2022100": {
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_2022100.png",
@@ -2842,6 +2911,27 @@
       2022101,
       202210101,
       202210102
+    ],
+    "weak": [
+      "Fire",
+      "Quantum",
+      "Imaginary"
+    ],
+    "en": "Twig of Lavish Fruits",
+    "desc": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "ko": "탐스러운 과실의 가지",
+    "zh": "嘉实之杪",
+    "ja": "嘉実の梢"
+  },
+  "2022102": {
+    "rank": "MinionLv2",
+    "icon": "SpriteOutput/MonsterFigure/Monster_2022100.png",
+    "child": [
+      2022102,
+      202210201,
+      202210202,
+      202210203,
+      202210204
     ],
     "weak": [
       "Fire",
@@ -2934,6 +3024,27 @@
     "ko": "「약왕의 비전」 조형자(오류)",
     "zh": "「药王秘传」炼形者（错误）",
     "ja": "薬王秘伝・鍛錬者（バグ）"
+  },
+  "2023012": {
+    "rank": "Elite",
+    "camp": 2,
+    "icon": "SpriteOutput/MonsterFigure/Monster_2023010.png",
+    "child": [
+      2023012,
+      202301201,
+      202301202,
+      202301203,
+      202301204
+    ],
+    "weak": [
+      "Physical",
+      "Fire"
+    ],
+    "en": "Celestial Cherub",
+    "desc": "A cultivator who longs to revive the ancient mysteries of Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.\\nNow, their wish has been fulfilled. Gifted by the power of the ancient miracle and using it as both weapon and armor, they managed to touch on the secret of immortality.",
+    "ko": "선인 동자",
+    "zh": "仙人童子",
+    "ja": "仙人童子"
   },
   "2023020": {
     "rank": "Elite",
@@ -3041,6 +3152,26 @@
     "ko": "승로천인(오류)",
     "zh": "承露天人（错误）",
     "ja": "承露天人（バグ）"
+  },
+  "2023032": {
+    "rank": "Elite",
+    "icon": "SpriteOutput/MonsterFigure/Monster_2023030.png",
+    "child": [
+      2023032,
+      202303201,
+      202303202,
+      202303203,
+      202303204
+    ],
+    "weak": [
+      "Ice",
+      "Quantum"
+    ],
+    "en": "Celestial Maiden",
+    "desc": "The form that the Disciples of Sanctus Medicus crave. A true appearance that cast off the burdens of humanity and has been reforged using the way of immortality.\\nIn ancient times, those who sought immortality received wisdom from the Ambrosial Arbor and called themselves Celestials. They lived without restraints and molded the flesh of themselves and others at will. They have long forgotten their original appearances after countless metamorphoses.",
+    "ko": "선인 천녀",
+    "zh": "仙人天女",
+    "ja": "仙人天女"
   },
   "2024010": {
     "rank": "LittleBoss",
@@ -3166,6 +3297,29 @@
     "ko": "풍요 현록(완벽)",
     "zh": "丰饶玄鹿（完整）",
     "ja": "豊穣の玄鹿（スペック）"
+  },
+  "2024016": {
+    "rank": "LittleBoss",
+    "camp": 2,
+    "icon": "SpriteOutput/MonsterFigure/Monster_2024010.png",
+    "child": [
+      2024016,
+      202401601,
+      202401602,
+      202401603,
+      202401604
+    ],
+    "weak": [
+      "Physical",
+      "Fire",
+      "Ice",
+      "Quantum"
+    ],
+    "en": "Unwaning Ageless Immortal",
+    "desc": "An auspicious spiritual beast wrought into being by the Ambrosial Arbor and protects its roots. Its arrival brings along exuberant vegetation and promises good fortune.\\nOnce destroyed during ancient wars, the Ambrosial Arbor is mended by the Stellaron and finally revives. Rare creatures and legendary beasts made by celestials of the past all return to this world, like an old dream coming alive again.",
+    "ko": "황혼을 모르는 불로선",
+    "zh": "弗有垂暮的不老仙",
+    "ja": "老い知らずの仙者"
   },
   "2024020": {
     "rank": "LittleBoss",
@@ -7129,11 +7283,11 @@
       "Ice",
       "Quantum"
     ],
-    "en": "",
+    "en": "Ishtar Huwawa Aquila",
     "desc": "The Sky Titan. Theos Synthetos. Conquered by and fused with humanity, they no longer govern Amphoreus' cycle of day and night, yet their haughtiness remains unchanged.\\nIn their mind, the shattered world's mundane mortals are unsightly. Compared to a world safeguarded by light, the mindless human masses seem more befitting of the black tide.",
-    "ko": "",
-    "zh": "",
-    "ja": ""
+    "ko": "이슈타르•훔바바-아퀼라",
+    "zh": "伊什塔尔•胡姆巴巴-艾格勒",
+    "ja": "イシュタル・フワワ-エーグル"
   },
   "4015020": {
     "rank": "BigBoss",
@@ -7714,7 +7868,8 @@
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_4032060.png",
     "child": [
-      4032060
+      4032060,
+      403206001
     ],
     "weak": [],
     "en": "Imprisoned Mythos",
@@ -7740,7 +7895,8 @@
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_4032070.png",
     "child": [
-      4032070
+      4032070,
+      403207001
     ],
     "weak": [],
     "en": "Manipulated Logos",
@@ -8139,7 +8295,9 @@
   "4034020": {
     "rank": "LittleBoss",
     "icon": "SpriteOutput/MonsterFigure/Monster_4034020.png",
-    "child": [],
+    "child": [
+      4034020
+    ],
     "weak": [],
     "en": "Vessel of the Destruction, Khaslana",
     "desc": "Phainon, NeiKos<unbreak>496</unbreak>, Deliverer, Khaslana, The Nameless Hero. Through times longer than chronicles could tell, he fought against the hatred and rage in his heart, until his body withered away. All to await this destined moment, when another Deliverer would extinguish the night's fire and bring forth a new dawn.",
@@ -8152,7 +8310,8 @@
     "camp": 14,
     "icon": "SpriteOutput/MonsterFigure/Monster_4035010.png",
     "child": [
-      4035010
+      4035010,
+      403501001
     ],
     "weak": [
       "Ice",
@@ -8186,7 +8345,8 @@
     "rank": "BigBoss",
     "icon": "SpriteOutput/MonsterFigure/Monster_4035020.png",
     "child": [
-      4035020
+      4035020,
+      403502001
     ],
     "weak": [
       "Ice",
@@ -8517,7 +8677,7 @@
       "Ice",
       "Imaginary"
     ],
-    "en": "Avenger Squad: Canine",
+    "en": "Avenger Squadron: Canine",
     "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It has begun to take the shape of a dog.\\nIt is aggressive, showing that even with humanity evaporated, its instinct of following the Destruction manifests in this manner.",
     "ko": "리벤저 전대•개 형태",
     "zh": "复仇者战队•犬形",
@@ -8577,7 +8737,7 @@
       "Fire",
       "Ice"
     ],
-    "en": "Avenger Squad: Winged Serpent",
+    "en": "Avenger Squadron: Winged Serpent",
     "desc": "A distorted monster born from the fusing of a memetic lifeform from the Garden of Recollection and the golden ichor of \"Destruction.\" It is in the rudimentary form of a flying snake, enough to intimidate its assailants.\\nIts twisted rationality went completely mad in the black tide, and that intense self-defense impulse imperceptibly took on a fantastical hue.",
     "ko": "리벤저 전대•날개 뱀 형태",
     "zh": "复仇者战队•翼蛇形",
@@ -9703,7 +9863,8 @@
     "rank": "MinionLv2",
     "icon": "SpriteOutput/MonsterFigure/Monster_5022010.png",
     "child": [
-      5022010
+      5022010,
+      502201001
     ],
     "weak": [
       "Fire",
@@ -9788,6 +9949,58 @@
     "zh": "乐变化天人•终",
     "ja": "楽変天人・終"
   },
+  "5023013": {
+    "rank": "Elite",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5023010.png",
+    "child": [
+      5023013
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Joy Ascendant (Bug)",
+    "desc": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires.",
+    "ko": "낙변화천인(오류)",
+    "zh": "乐变化天人（错误）",
+    "ja": "楽変天人（バグ）"
+  },
+  "5023014": {
+    "rank": "Elite",
+    "icon": "SpriteOutput/MonsterFigure/Monster_5023010.png",
+    "child": [
+      5023014
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Joy Ascendant: Prelude (Bug)",
+    "desc": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires.",
+    "ko": "낙변화천인•시(始)(오류)",
+    "zh": "乐变化天人•始（错误）",
+    "ja": "楽変天人・始（バグ）"
+  },
+  "5023015": {
+    "rank": "Elite",
+    "icon": "SpriteOutput/MonsterFigure/Monster_5023010.png",
+    "child": [
+      5023015
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Joy Ascendant: Finale (Bug)",
+    "desc": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires.",
+    "ko": "낙변화천인•종(終)(오류)",
+    "zh": "乐变化天人•终（错误）",
+    "ja": "楽変天人・終（バグ）"
+  },
   "5023020": {
     "rank": "Elite",
     "camp": 17,
@@ -9828,6 +10041,24 @@
     "ko": "포식의 신의 후예",
     "zh": "吞神子嗣",
     "ja": "呑神の子"
+  },
+  "5023022": {
+    "rank": "Elite",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5023020.png",
+    "child": [
+      5023022
+    ],
+    "weak": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "God-Devourer Offspring (Bug)",
+    "desc": "A false projection produced by compromised codes, forged in reference to the God-Devourer Offspring. A monstrous legion born from Asat Pramad's splitting of the power of the Voracity — the prototype of what would become the imagenae. From Ahatopia's slumbering core, he sensed the Voracity's relentless, insatiable hunger, its power pulsing in perfect harmony with the Path of Destruction. Intrigued by this restless force, he began his own dark creation — erasing human heads, leaving only grinning, devouring maws that roar, demand, and consume endlessly, never satisfied.",
+    "ko": "포식의 신의 후예(오류)",
+    "zh": "吞神子嗣（错误）",
+    "ja": "呑神の子（バグ）"
   },
   "5024010": {
     "rank": "LittleBoss",
@@ -9873,6 +10104,42 @@
     "icon": "SpriteOutput/MonsterFigure/Monster_5024010.png",
     "child": [
       5024012
+    ],
+    "weak": [
+      "Physical",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Paramount Bliss Inverted: Illwish Archlotus",
+    "desc": "The director of Fulwish TV, fused with the flesh of Shuhu that was brought into Planarcadia.\\nDuring the last Phantasmoon Games fifteen years ago, a serial killer known as the \"Herald of Death\" caused countless casualties. His actions left numerous residents without parents, siblings, and classmates.\\nPhysical scars can heal, but scars of the mind and soul can never be mended again. The people formed a \"Victims' Mutual Aid Society\" in an attempt to heal this wound.\\nFulwish perfected a \"Happiness Surgery.\" Once administered, everyone would eternally forget their suffering and remain happy. The source of this surgery was pieces of Shuhu's flesh.\\nFifteen years later, the \"Victims' Mutual Aid Society\" evolved into the renowned \"Research Society of Happy Smiles.\" This simple little surgery, disguised as a cosmetic procedure or medical treatment, infected countless people in Planarcadia and allowed Shuhu's cells to slumber within the populace.\\nAs the president of the Research Society of Happy Smiles, Fulwish harbored hatred toward the Phantasmoon Games that spawned the Herald of Death, and thus transformed into \"Paramount Bliss Inverted: Illwish Archlotus,\" launching her revenge against this world.",
+    "ko": "뒤틀린 극락•악원연화주",
+    "zh": "极乐颠倒•邪愿莲华主",
+    "ja": "極楽顛倒・邪願蓮主"
+  },
+  "5024013": {
+    "rank": "LittleBoss",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5024010.png",
+    "child": [
+      5024013
+    ],
+    "weak": [
+      "Physical",
+      "Thunder",
+      "Imaginary"
+    ],
+    "en": "Paramount Bliss Inverted: Illwish Archlotus (Complete)",
+    "desc": "A false projection produced by compromised codes, forged in reference to the Paramount Bliss Inverted: Illwish Lotus. The director of Fulwish TV, fused with the flesh of Shuhu that was brought into Planarcadia.\\nDuring the last Phantasmoon Games fifteen years ago, a serial killer known as the \"Herald of Death\" caused countless casualties. His actions left numerous residents without parents, siblings, and classmates.\\nPhysical scars can heal, but scars of the mind and soul can never be mended again. The people formed a \"Victims' Mutual Aid Society\" in an attempt to heal this wound.\\nFulwish perfected a \"Happiness Surgery.\" Once administered, everyone would eternally forget their suffering and remain happy. The source of this surgery was pieces of Shuhu's flesh.\\nFifteen years later, the \"Victims' Mutual Aid Society\" evolved into the renowned \"Research Society of Happy Smiles.\" This simple little surgery, disguised as a cosmetic procedure or medical treatment, infected countless people in Planarcadia and allowed Shuhu's cells to slumber within the populace.\\nAs the president of the Research Society of Happy Smiles, Fulwish harbored hatred toward the Phantasmoon Games that spawned the Herald of Death, and thus transformed into \"Paramount Bliss Inverted: Illwish Archlotus,\" launching her revenge against this world.",
+    "ko": "뒤틀린 극락•악원연화주(완벽)",
+    "zh": "极乐颠倒•邪愿莲华主（完整）",
+    "ja": "極楽顛倒・邪願蓮主（スペック）"
+  },
+  "5024014": {
+    "rank": "LittleBoss",
+    "camp": 17,
+    "icon": "SpriteOutput/MonsterFigure/Monster_5024010.png",
+    "child": [
+      5024014
     ],
     "weak": [
       "Physical",
@@ -11586,7 +11853,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler",
-    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "ko": "허졸•유린자",
     "zh": "虚卒•践踏者",
     "ja": "ヴォイドレンジャー・{RUBY_B#じゅうりん}蹂躙{RUBY_E#}"
@@ -11604,7 +11871,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler (Bug)",
-    "desc": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon many Voidrangers.",
+    "desc": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon many Voidrangers.",
     "ko": "허졸•유린자(오류)",
     "zh": "虚卒•践踏者（错误）",
     "ja": "ヴォイドレンジャー・蹂躙（バグ）"
@@ -11621,7 +11888,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler",
-    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "ko": "허졸•유린자",
     "zh": "虚卒•践踏者",
     "ja": "ヴォイドレンジャー・蹂躙"
@@ -11638,7 +11905,7 @@
       "Imaginary"
     ],
     "en": "Voidranger: Trampler",
-    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "desc": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "ko": "허졸•유린자",
     "zh": "虚卒•践踏者",
     "ja": "ヴォイドレンジャー・蹂躙"
@@ -12281,6 +12548,24 @@
     "zh": "「所有或一无所有•双倍好运」",
     "ja": "「オール・オア・ナッシング・ダブルラック」"
   },
+  "8032040": {
+    "rank": "MinionLv2",
+    "camp": 9,
+    "icon": "SpriteOutput/MonsterFigure/Monster_8032040.png",
+    "child": [
+      8032040,
+      803204001
+    ],
+    "weak": [
+      "Wind",
+      "Quantum"
+    ],
+    "en": "Astropolis Sentinel",
+    "desc": "Mass-produced security robots seen everywhere in Astropolis, tasked with maintaining peace and stability.\\nCold and ruthless machines of justice, enforcing the law with a warm touch and a heavy fist.",
+    "ko": "아스트로폴리스 가드",
+    "zh": "千星戍卫",
+    "ja": "{RUBY_B#せんせい}千星{RUBY_E#}ガード"
+  },
   "8033010": {
     "rank": "Elite",
     "camp": 9,
@@ -12367,6 +12652,25 @@
     "ko": "베테랑 직원•팀장",
     "zh": "资深员工•组长",
     "ja": "ベテラン社員・チームリーダー"
+  },
+  "8033020": {
+    "rank": "Elite",
+    "camp": 9,
+    "icon": "SpriteOutput/MonsterFigure/Monster_8033020.png",
+    "child": [
+      8033020,
+      803302001
+    ],
+    "weak": [
+      "Fire",
+      "Wind",
+      "Quantum"
+    ],
+    "en": "Lighthouse",
+    "desc": "The superhero of Astropolis, armed with the Intelligentsia Guild's most advanced technological achievements, spares no effort to vanquish evil and maintain the city's peace. Over the past five years, he has repeatedly saved the people of Astropolis from disasters big and small.\\nSome point out that these feats could never be accomplished by one person alone, and that the so-called \"Lighthouse\" is nothing more than a false idol manufactured by the entertainment-industrial complex. But the public has already poured their hearts into hoping someone will shoulder the burden when they face a crisis. Little do they know, far darker secrets lie hidden beneath the armor of \"Lighthouse\"...",
+    "ko": "「등대」",
+    "zh": "「灯塔」",
+    "ja": "「ライトハウス」"
   },
   "8034010": {
     "rank": "LittleBoss",

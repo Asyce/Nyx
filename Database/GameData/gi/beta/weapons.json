@@ -24142,7 +24142,7 @@
   {
     "id": "11437",
     "contentStatus": "beta",
-    "name": "Weapon: Sword",
+    "name": "New Bough",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "attack": 510,
@@ -24489,8 +24489,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>4%</color> while Elemental Mastery is increased by <color=#99FFFFFF>20</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>6%</color> ATK and <color=#99FFFFFF>8%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "name": "Wildgrowth",
+        "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>4%</color> and their Elemental Mastery by <color=#99FFFFFF>20</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>6%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>8%</color>.",
         "param_list": [
           12,
           6,
@@ -24503,8 +24503,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>5%</color> while Elemental Mastery is increased by <color=#99FFFFFF>25</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>7.5%</color> ATK and <color=#99FFFFFF>10%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "name": "Wildgrowth",
+        "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>5%</color> and their Elemental Mastery by <color=#99FFFFFF>25</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>7.5%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>10%</color>.",
         "param_list": [
           12,
           6,
@@ -24517,8 +24517,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>6%</color> while Elemental Mastery is increased by <color=#99FFFFFF>30</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>9%</color> ATK and <color=#99FFFFFF>12%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "name": "Wildgrowth",
+        "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>6%</color> and their Elemental Mastery by <color=#99FFFFFF>30</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>9%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>12%</color>.",
         "param_list": [
           12,
           6,
@@ -24531,8 +24531,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>7%</color> while Elemental Mastery is increased by <color=#99FFFFFF>35</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>10.5%</color> ATK and <color=#99FFFFFF>14%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "name": "Wildgrowth",
+        "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>7%</color> and their Elemental Mastery by <color=#99FFFFFF>35</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>10.5%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>14%</color>.",
         "param_list": [
           12,
           6,
@@ -24545,8 +24545,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "In the 12s after using Elemental Skill: Each time an attack hits the opponent, ATK is increased by <color=#99FFFFFF>8%</color> while Elemental Mastery is increased by <color=#99FFFFFF>40</color> for 6s. This effect can trigger once every second, max 3 stacks. The aforementioned effect can trigger even when the equipping character is not on the field, and if the character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, the buff is changed to a <color=#99FFFFFF>12%</color> ATK and <color=#99FFFFFF>16%</color>Stellar-Conduct/Stellar Swirl reaction DMG increase instead.",
+        "name": "Wildgrowth",
+        "desc": "When the equipping character hits the opponent with an attack within 12s after using the Elemental Skill, they gain the \"Verdant\" effect, which increases their ATK by <color=#99FFFFFF>8%</color> and their Elemental Mastery by <color=#99FFFFFF>40</color>. This effect lasts 6s and can trigger once every second. Max 3 stacks. The aforementioned effects can still trigger even when the equipping character is not on the field.\\nRadiance: Stellar Glimmer: The effect of \"Verdant\" is changed to: Increases ATK by <color=#99FFFFFF>12%</color> as well as Stellar Glimmer reaction DMG dealt by the equipping character by <color=#99FFFFFF>16%</color>.",
         "param_list": [
           12,
           6,
@@ -24780,13 +24780,13 @@
       }
     },
     "liveComparison": {
-      "currentHash": "f36175976cfbee6fc7a26155fcf0b603144fee6c759d3c819f014f04136a8d09"
+      "currentHash": "467e80974fc7a49d9cd67c430636309c11addef2c472001124c892e584c638b3"
     }
   },
   {
     "id": "11438",
     "contentStatus": "beta",
-    "name": "Weapon: Sword",
+    "name": "Silver Light",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
     "attack": 510,
@@ -25133,8 +25133,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>52</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "name": "Radiance on the Water",
+        "desc": "Increases Elemental Mastery by <color=#99FFFFFF>52</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
         "param_list": [
           52,
           12,
@@ -25147,8 +25147,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>65</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "name": "Radiance on the Water",
+        "desc": "Increases Elemental Mastery by <color=#99FFFFFF>65</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
         "param_list": [
           65,
           12,
@@ -25161,8 +25161,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>78</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "name": "Radiance on the Water",
+        "desc": "Increases Elemental Mastery by <color=#99FFFFFF>78</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
         "param_list": [
           78,
           12,
@@ -25175,8 +25175,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>91</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "name": "Radiance on the Water",
+        "desc": "Increases Elemental Mastery by <color=#99FFFFFF>91</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
         "param_list": [
           91,
           12,
@@ -25189,8 +25189,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "When using the Elemental Skill, Elemental Mastery is increased by <color=#99FFFFFF>104</color> for 12s. This effect has a maximum of 2 stacks, and the duration of each stack is independent of the others.",
+        "name": "Radiance on the Water",
+        "desc": "Increases Elemental Mastery by <color=#99FFFFFF>104</color> for 12s after Elemental Skill use. Max 2 stacks, and each stack's duration is independent of the others.",
         "param_list": [
           104,
           12,
@@ -25424,7 +25424,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "b79a283275603781a05ed14c40ff08f9fe6b385675727743b185068ff2c29b66"
+      "currentHash": "08bc44616a44ac317685abcbfef40192e1385f628714f84bab234275fa64d885"
     }
   },
   {
@@ -36844,214 +36844,28 @@
     },
     "materials": {
       "1": {
-        "cost": 10000,
-        "materials": [
-          {
-            "itemId": "114093",
-            "quantity": 5,
-            "name": "The Frost Emperor's Revival",
-            "rarity": 2,
-            "type": "Weapon Ascension Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_114093.webp"
-            }
-          },
-          {
-            "itemId": "112152",
-            "quantity": 5,
-            "name": "Accreted Fragment",
-            "rarity": 2,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112152.webp"
-            }
-          },
-          {
-            "itemId": "112146",
-            "quantity": 3,
-            "name": "Ethereal Glimmershard",
-            "rarity": 1,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112146.webp"
-            }
-          }
-        ]
+        "cost": 0,
+        "materials": []
       },
       "2": {
-        "cost": 20000,
-        "materials": [
-          {
-            "itemId": "114094",
-            "quantity": 5,
-            "name": "The Frost Emperor's Ceremony",
-            "rarity": 3,
-            "type": "Weapon Ascension Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_114094.webp"
-            }
-          },
-          {
-            "itemId": "112152",
-            "quantity": 18,
-            "name": "Accreted Fragment",
-            "rarity": 2,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112152.webp"
-            }
-          },
-          {
-            "itemId": "112146",
-            "quantity": 12,
-            "name": "Ethereal Glimmershard",
-            "rarity": 1,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112146.webp"
-            }
-          }
-        ]
+        "cost": 0,
+        "materials": []
       },
       "3": {
-        "cost": 30000,
-        "materials": [
-          {
-            "itemId": "114094",
-            "quantity": 9,
-            "name": "The Frost Emperor's Ceremony",
-            "rarity": 3,
-            "type": "Weapon Ascension Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_114094.webp"
-            }
-          },
-          {
-            "itemId": "112153",
-            "quantity": 9,
-            "name": "Accreted Mass",
-            "rarity": 3,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112153.webp"
-            }
-          },
-          {
-            "itemId": "112147",
-            "quantity": 9,
-            "name": "Ethereal Crystal",
-            "rarity": 2,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112147.webp"
-            }
-          }
-        ]
+        "cost": 0,
+        "materials": []
       },
       "4": {
-        "cost": 45000,
-        "materials": [
-          {
-            "itemId": "114095",
-            "quantity": 5,
-            "name": "The Frost Emperor's Lament",
-            "rarity": 4,
-            "type": "Weapon Ascension Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_114095.webp"
-            }
-          },
-          {
-            "itemId": "112153",
-            "quantity": 18,
-            "name": "Accreted Mass",
-            "rarity": 3,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112153.webp"
-            }
-          },
-          {
-            "itemId": "112147",
-            "quantity": 14,
-            "name": "Ethereal Crystal",
-            "rarity": 2,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112147.webp"
-            }
-          }
-        ]
+        "cost": 0,
+        "materials": []
       },
       "5": {
-        "cost": 55000,
-        "materials": [
-          {
-            "itemId": "114095",
-            "quantity": 9,
-            "name": "The Frost Emperor's Lament",
-            "rarity": 4,
-            "type": "Weapon Ascension Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_114095.webp"
-            }
-          },
-          {
-            "itemId": "112154",
-            "quantity": 14,
-            "name": "Accreted Growth",
-            "rarity": 4,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112154.webp"
-            }
-          },
-          {
-            "itemId": "112148",
-            "quantity": 9,
-            "name": "Ethereal Crystalscale Stone",
-            "rarity": 3,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112148.webp"
-            }
-          }
-        ]
+        "cost": 0,
+        "materials": []
       },
       "6": {
-        "cost": 65000,
-        "materials": [
-          {
-            "itemId": "114096",
-            "quantity": 6,
-            "name": "The Frost Emperor's Farewell",
-            "rarity": 5,
-            "type": "Weapon Ascension Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_114096.webp"
-            }
-          },
-          {
-            "itemId": "112154",
-            "quantity": 27,
-            "name": "Accreted Growth",
-            "rarity": 4,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112154.webp"
-            }
-          },
-          {
-            "itemId": "112148",
-            "quantity": 18,
-            "name": "Ethereal Crystalscale Stone",
-            "rarity": 3,
-            "type": "Character and Weapon Enhancement Material",
-            "assets": {
-              "icon": "GameData/gi/assets/items/UI_ItemIcon_112148.webp"
-            }
-          }
-        ]
+        "cost": 0,
+        "materials": []
       }
     },
     "story": {
@@ -37064,13 +36878,13 @@
     },
     "liveComparison": {
       "liveHash": "468ae1436c13ec01d43e990bb9e856d4547a3abbe2fde4c342d022bae5dd2567",
-      "currentHash": "f69ce7c2a55921e95c8efcc2813f6565fe804b8b35fc07fdf97ab93acb6387fe"
+      "currentHash": "f382d31ddaa984f1a00290135f796527d675261e711b1f6f02d24d70d7697f08"
     }
   },
   {
     "id": "11522",
     "contentStatus": "beta",
-    "name": "Weapon: Sword",
+    "name": "Beyond the Chrysalis",
     "rarity": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
     "attack": 674,
@@ -37417,70 +37231,70 @@
     },
     "refinements": {
       "1": {
-        "name": "Weapon Affix",
-        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>48%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>28%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>3</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "name": "Dance of Wings Unbound",
+        "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>48%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>28%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>3</color> Elemental Energy.",
         "param_list": [
-          0.48,
-          0.28,
-          3,
+          0.56,
+          0.36,
+          5,
           10,
-          0,
+          4,
           0,
           0,
           0
         ]
       },
       "2": {
-        "name": "Weapon Affix",
-        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>62%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>35%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>3.5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "name": "Dance of Wings Unbound",
+        "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>62%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>35%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>3.5</color> Elemental Energy.",
         "param_list": [
-          0.62,
-          0.35,
-          3.5,
+          0.72,
+          0.45,
+          5.5,
           10,
-          0,
+          4,
           0,
           0,
           0
         ]
       },
       "3": {
-        "name": "Weapon Affix",
-        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>76%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>42%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>4</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "name": "Dance of Wings Unbound",
+        "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>76%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>42%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>4</color> Elemental Energy.",
         "param_list": [
-          0.76,
-          0.42,
-          4,
+          0.88,
+          0.54,
+          6,
           10,
-          0,
+          4,
           0,
           0,
           0
         ]
       },
       "4": {
-        "name": "Weapon Affix",
-        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>90%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>49%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>4.5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "name": "Dance of Wings Unbound",
+        "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>90%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>49%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>4.5</color> Elemental Energy.",
         "param_list": [
-          0.9,
-          0.49,
-          4.5,
+          1.04,
+          0.63,
+          6.5,
           10,
-          0,
+          4,
           0,
           0,
           0
         ]
       },
       "5": {
-        "name": "Weapon Affix",
-        "desc": "The equipping character becomes the center of attention when they use their Elemental Skill or Elemental Burst, and gains different Attention effects:\\nBlazing Attention: CRIT DMG is increased by <color=#99FFFFFF>104%</color> for the next 10s;\\nDazzling Attention: Stellar Swirl reaction DMG is increased by <color=#99FFFFFF>56%</color> for the next 10s;\\nRadiant Attention: Regenerates <color=#99FFFFFF>5</color> Elemental Energy.\\nEach trigger applies one of the above effects, cycling through the sequence above.",
+        "name": "Dance of Wings Unbound",
+        "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>104%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>56%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>5</color> Elemental Energy.",
         "param_list": [
-          1.04,
-          0.56,
-          5,
+          1.2,
+          0.72,
+          7,
           10,
-          0,
+          4,
           0,
           0,
           0
@@ -37708,7 +37522,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "d559809b4f4910e6d52355b5b1054e4dd3a82c74f33ade592db47dfe3db29a24"
+      "currentHash": "7934ecfca7f4c0cba7e4638cc92316f9bb6f8e80201705172f7e86a2814c548b"
     }
   },
   {
@@ -115638,7 +115452,7 @@
   {
     "id": "14437",
     "contentStatus": "beta",
-    "name": "Weapon: Catalyst",
+    "name": "Winter's Heavy Heart",
     "rarity": 4,
     "type": "WEAPON_CATALYST",
     "attack": 510,
@@ -115985,8 +115799,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>4.8%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>20</color> Elemental Mastery and a <color=#99FFFFFF>6%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "name": "Secrets of Frost",
+        "desc": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>24</color> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <color=#99FFFFFF>4.8%</color>. The equipping character can gain the above buffs for 4 characters max.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact\" is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <color=#99FFFFFF>20</color>-point Elemental Mastery boost and deals <color=#99FFFFFF>6%</color> increased Stellar Glimmer reaction DMG.",
         "param_list": [
           24,
           0.048,
@@ -115999,8 +115813,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>25</color> Elemental Mastery and a <color=#99FFFFFF>7.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "name": "Secrets of Frost",
+        "desc": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>30</color> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <color=#99FFFFFF>6%</color>. The equipping character can gain the above buffs for 4 characters max.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact\" is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <color=#99FFFFFF>25</color>-point Elemental Mastery boost and deals <color=#99FFFFFF>7.5%</color> increased Stellar Glimmer reaction DMG.",
         "param_list": [
           30,
           0.06,
@@ -116013,8 +115827,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>7.2%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>30</color> Elemental Mastery and a <color=#99FFFFFF>9%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "name": "Secrets of Frost",
+        "desc": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>36</color> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <color=#99FFFFFF>7.2%</color>. The equipping character can gain the above buffs for 4 characters max.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact\" is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <color=#99FFFFFF>30</color>-point Elemental Mastery boost and deals <color=#99FFFFFF>9%</color> increased Stellar Glimmer reaction DMG.",
         "param_list": [
           36,
           0.072,
@@ -116027,8 +115841,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>8.4%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>35</color> Elemental Mastery and a <color=#99FFFFFF>10.5%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "name": "Secrets of Frost",
+        "desc": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>42</color> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <color=#99FFFFFF>8.4%</color>. The equipping character can gain the above buffs for 4 characters max.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact\" is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <color=#99FFFFFF>35</color>-point Elemental Mastery boost and deals <color=#99FFFFFF>10.5%</color> increased Stellar Glimmer reaction DMG.",
         "param_list": [
           42,
           0.084,
@@ -116041,8 +115855,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "For every Cryo character in the party, the equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color>. For every Electro character in the party, ATK is increased by <color=#99FFFFFF>9.6%</color>. Cryo character buffs are applied first. If the equipping character is in the Radiance: Stellar-Conduct or Radiance: Stellar Swirl state, each Cryo or Electro character in the party will instead grant the equipping character <color=#99FFFFFF>40</color> Elemental Mastery and a <color=#99FFFFFF>12%</color> Stellar-Conduct/Stellar Swirl reaction DMG increase. This boost can be obtained for a maximum of 4 characters in the party.",
+        "name": "Secrets of Frost",
+        "desc": "The equipping character gains \"Silver-Tinged Blood Pact\": The equipping character's Elemental Mastery is increased by <color=#99FFFFFF>48</color> for every Cryo character present in the party. For every Electro character present in the party, the equipping character's ATK is increased by <color=#99FFFFFF>9.6%</color>. The equipping character can gain the above buffs for 4 characters max.\\nRadiance: Stellar Glimmer: The effect of Silver-Tinged Blood Pact\" is changed to: For every Cryo or Electro character present in the party, the equipping character gains a <color=#99FFFFFF>40</color>-point Elemental Mastery boost and deals <color=#99FFFFFF>12%</color> increased Stellar Glimmer reaction DMG.",
         "param_list": [
           48,
           0.096,
@@ -116276,7 +116090,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "e4cb339ed7c0887949636e78ecc0c1fb0ffc18bb7a300cbe63066b29e5b42a4c"
+      "currentHash": "754f75d296e510d4fa16324d443ec75d802c67c5e0e90806f3218f579411b7af"
     }
   },
   {
@@ -128556,7 +128370,7 @@
   {
     "id": "14524",
     "contentStatus": "beta",
-    "name": "Weapon: Catalyst",
+    "name": "Hymn of the Maelstrom",
     "rarity": 5,
     "type": "WEAPON_CATALYST",
     "attack": 542,
@@ -128903,8 +128717,8 @@
     },
     "refinements": {
       "1": {
-        "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "name": "Rondo of Slumber",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>4%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>4%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.4%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>8%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.04,
           40000,
@@ -128917,8 +128731,8 @@
         ]
       },
       "2": {
-        "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "name": "Rondo of Slumber",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>5%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>5%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.5%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>10%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.05,
           40000,
@@ -128931,8 +128745,8 @@
         ]
       },
       "3": {
-        "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "name": "Rondo of Slumber",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>6%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>6%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.6%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>12%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.06,
           40000,
@@ -128945,8 +128759,8 @@
         ]
       },
       "4": {
-        "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "name": "Rondo of Slumber",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>7%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>7%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.7%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>14%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.07,
           40000,
@@ -128959,8 +128773,8 @@
         ]
       },
       "5": {
-        "name": "7.1 Promo Weapon",
-        "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+        "name": "Rondo of Slumber",
+        "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>8%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.8%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>16%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.08,
           40000,
@@ -129194,7 +129008,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "3975fecdc723f9eb73915728559ea1783a06a63d87edbcf25f9004fe979828a2"
+      "currentHash": "846609fd6b3ecce1632adfdedb1ba442c62eef71f17bd6cccdf5ac1406f4f8d1"
     }
   },
   {
@@ -152750,7 +152564,7 @@
   {
     "id": "15437",
     "contentStatus": "beta",
-    "name": "Weapon: Bow",
+    "name": "Breezeborne Refrain",
     "rarity": 4,
     "type": "WEAPON_BOW",
     "attack": 510,
@@ -153097,8 +152911,8 @@
     },
     "refinements": {
       "1": {
-        "name": "",
-        "desc": "Energy Recharge is increased by <color=#99FFFFFF>20%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>24%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Viper's Ballad",
+        "desc": "Increases Energy Recharge by <color=#99FFFFFF>20%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>24%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.24,
           3,
@@ -153111,8 +152925,8 @@
         ]
       },
       "2": {
-        "name": "",
-        "desc": "Energy Recharge is increased by <color=#99FFFFFF>25%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>30%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Viper's Ballad",
+        "desc": "Increases Energy Recharge by <color=#99FFFFFF>25%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>30%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.3,
           3,
@@ -153125,8 +152939,8 @@
         ]
       },
       "3": {
-        "name": "",
-        "desc": "Energy Recharge is increased by <color=#99FFFFFF>30%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>36%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Viper's Ballad",
+        "desc": "Increases Energy Recharge by <color=#99FFFFFF>30%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>36%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.36,
           3,
@@ -153139,8 +152953,8 @@
         ]
       },
       "4": {
-        "name": "",
-        "desc": "Energy Recharge is increased by <color=#99FFFFFF>35%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>42%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Viper's Ballad",
+        "desc": "Increases Energy Recharge by <color=#99FFFFFF>35%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>42%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.42,
           3,
@@ -153153,8 +152967,8 @@
         ]
       },
       "5": {
-        "name": "",
-        "desc": "Energy Recharge is increased by <color=#99FFFFFF>40%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>48%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+        "name": "Viper's Ballad",
+        "desc": "Increases Energy Recharge by <color=#99FFFFFF>40%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>48%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
         "param_list": [
           0.48,
           3,
@@ -153388,7 +153202,7 @@
       }
     },
     "liveComparison": {
-      "currentHash": "95433415f88556bba2c33f790e52e9c2ae35d84e8a8c07af26052626f7aed857"
+      "currentHash": "9912fc03967f6d8259a5c23e01ef87ecccc90704db82ddfa960c283dd28b4994"
     }
   },
   {
@@ -161617,31 +161431,33 @@
   {
     "id": "390002",
     "contentStatus": "beta",
-    "name": "390002",
+    "name": "Exaiphanes Blade",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "A star-hued longsword that flashes with radiance, a special weapon transmogrification that can only be equipped by the Traveler.\\n\\n<i>\"I am the nothingness at the dawn of all things. I am the spark newly born after all things have fallen into ruin.\"</i>\\n<i>\"Behold, my great work shall now be complete.\"</i>",
     "assets": {
       "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp",
       "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya01.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "aa79e717f9024b80cb35022f758e8db430f50c7447259fd02f1cd590c052ae47"
+      "currentHash": "8a50e433de6de265ae307dbba0b917fc0fdeaa9523e1b4fa4c8c492a5cc9e0c7"
     }
   },
   {
     "id": "390003",
     "contentStatus": "beta",
-    "name": "390003",
+    "name": "Exaiphanes Blade",
     "rarity": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
+    "description": "A star-hued longsword that flashes with radiance, a special weapon transmogrification gifted by the Traveler to a friend.\\n\\n\"But this world shall never burn again, for the justice beyond this world has arrived.\"</i>\\n<i>\"Behold... The stars shine ever so bright tonight.\"</i>",
     "assets": {
       "icon": "GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp",
       "gacha": "GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya02.webp"
     },
     "properties": [],
     "liveComparison": {
-      "currentHash": "ed5788fa290f10de8ebfb4f4bd8dcc684fe9121bc233e97cd4522d0b13446ba5"
+      "currentHash": "f1c8fbf8322309a4c810b3622210761861724fe106f1c24eec59e2fa326ff117"
     }
   }
 ]

@@ -1033,6 +1033,18 @@
     "zh": "爻光",
     "ja": "{RUBY_B#コウコウ}爻光{RUBY_E#}"
   },
+  "1503": {
+    "icon": "pearl",
+    "rank": "CombatPowerAvatarRarityType5",
+    "baseType": "Elation",
+    "damageType": "Ice",
+    "en": "Pearl",
+    "enhance": [],
+    "desc": "Color the stars, trace the myriad phenomena, and the lost pearls of civilization regain their luster.\\nBorn from the art of analysis, she pursues the pinnacle of beauty, yet has never lost her underlying hue of the Preservation:\\nAfter her trial by fire, what kind of \"Pearl\" will she harvest?",
+    "ko": "펄",
+    "zh": "真珠",
+    "ja": "パール"
+  },
   "1504": {
     "release": 1774432800,
     "icon": "ashveil",
@@ -1125,6 +1137,7 @@
     "ja": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち"
   },
   "1512": {
+    "release": 1787734800,
     "icon": "robinsummeretto",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Memory",
@@ -1137,6 +1150,7 @@
     "ja": "ロビン・{RUBY_B#なつぞら}夏空{RUBY_E#}の{RUBY_B#うた}歌{RUBY_E#}"
   },
   "1513": {
+    "release": 1789203600,
     "icon": "aventurinewaveflair",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Elation",

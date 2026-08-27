@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:19:29.155Z",
+  "generatedAt": "2026-08-27T12:09:11.850Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 237,
   "missing": [
@@ -733,7 +733,7 @@
     },
     {
       "game": "hsr",
-      "context": "Robin Summeretto weapon",
+      "context": "Robin Summeretto talents",
       "id": "110251",
       "name": "Bīja of Consciousness",
       "kind": "book"
@@ -768,7 +768,7 @@
     },
     {
       "game": "hsr",
-      "context": "Cerydra ascension",
+      "context": "Robin Summeretto ascension",
       "id": "110435",
       "name": "Charred Bud of Twilight",
       "kind": "boss"
@@ -845,7 +845,7 @@
     },
     {
       "game": "hsr",
-      "context": "Robin Summeretto weapon",
+      "context": "Robin Summeretto ascension",
       "id": "114001",
       "name": "Dream Collection Component",
       "kind": "mob"
@@ -859,7 +859,7 @@
     },
     {
       "game": "hsr",
-      "context": "Robin Summeretto weapon",
+      "context": "Robin Summeretto ascension",
       "id": "114002",
       "name": "Dream Flow Valve",
       "kind": "mob"
@@ -873,14 +873,14 @@
     },
     {
       "game": "hsr",
-      "context": "Robin Summeretto weapon",
+      "context": "Robin Summeretto ascension",
       "id": "114003",
       "name": "Dream Making Engine",
       "kind": "mob"
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova ascension",
+      "context": "Pearl weapon",
       "id": "116002",
       "name": "Dreamweave Steel",
       "kind": "mob"
@@ -971,7 +971,7 @@
     },
     {
       "game": "hsr",
-      "context": "Robin Summeretto weapon",
+      "context": "Robin Summeretto talents",
       "id": "110253",
       "name": "Flower of Ālaya",
       "kind": "book"
@@ -992,7 +992,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair weapon",
+      "context": "Aventurine Waveflair ascension",
       "id": "114012",
       "name": "Fragments of Impression",
       "kind": "mob"
@@ -1083,7 +1083,7 @@
     },
     {
       "game": "hsr",
-      "context": "High Hopes of the Falsely Enlightened weekly",
+      "context": "Aventurine Waveflair talents",
       "id": "110509",
       "name": "High Hopes of the Falsely Enlightened",
       "kind": "weekly"
@@ -1181,7 +1181,7 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova ascension",
+      "context": "Pearl weapon",
       "id": "116003",
       "name": "Lucid Awl",
       "kind": "mob"
@@ -1335,7 +1335,7 @@
     },
     {
       "game": "hsr",
-      "context": "Robin Summeretto weapon",
+      "context": "Robin Summeretto talents",
       "id": "110252",
       "name": "Seedling of Manas",
       "kind": "book"
@@ -1349,7 +1349,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair weapon",
+      "context": "Aventurine Waveflair ascension",
       "id": "114013",
       "name": "Shards of Desires",
       "kind": "mob"
@@ -1391,7 +1391,7 @@
     },
     {
       "game": "hsr",
-      "context": "Rin Tohsaka ascension",
+      "context": "Aventurine Waveflair ascension",
       "id": "110443",
       "name": "Sneering Harlequin",
       "kind": "boss"
@@ -1440,7 +1440,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair weapon",
+      "context": "Aventurine Waveflair ascension",
       "id": "114011",
       "name": "Tatters of Thought",
       "kind": "mob"
@@ -1454,21 +1454,21 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair weapon",
+      "context": "Aventurine Waveflair talents",
       "id": "110263",
       "name": "The Fluffy Collector's Edition",
       "kind": "book"
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair weapon",
+      "context": "Aventurine Waveflair talents",
       "id": "110261",
       "name": "The Fluffy Hand-drawn Storyboards",
       "kind": "book"
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair weapon",
+      "context": "Aventurine Waveflair talents",
       "id": "110262",
       "name": "The Fluffy Serialization Memorial Issue",
       "kind": "book"
@@ -1489,7 +1489,7 @@
     },
     {
       "game": "hsr",
-      "context": "Gilgamesh talents",
+      "context": "Aventurine Waveflair talents",
       "id": "241",
       "name": "Tracks of Destiny",
       "kind": "mob"
@@ -1517,7 +1517,7 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova ascension",
+      "context": "Pearl weapon",
       "id": "116001",
       "name": "Whimsy Wax",
       "kind": "mob"

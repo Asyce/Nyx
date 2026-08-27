@@ -1304,7 +1304,7 @@
       }
     ],
     "liveComparison": {
-      "liveHash": "4d2dd257b766b791667115e86a09f89d9804e0ad8532bc8cefc3c23db51f81cb",
+      "liveHash": "dfedee79bc73e57522d4bc397500d675a6281aebfa8b1ca0298edb45a54de1ee",
       "currentHash": "969fda07431633ca1758993ff3c4aa884624ee21b364bf557b6edf08ee8fd611"
     }
   },
@@ -1553,6 +1553,104 @@
     "liveComparison": {
       "liveHash": "e2788720e305c6b10bbb9b2fb9c194bb256a0718ddf2c12b425636e0d32b929b",
       "currentHash": "c7cb68d89196315dbcc6f2ec9adcc525800ab04f7fe427bf44231145e7f06285"
+    }
+  },
+  {
+    "id": "133",
+    "contentStatus": "beta",
+    "name": "Dreamlit Actor",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71060.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.06
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "When the wearer uses their Skill or Ultimate on one other ally target, increases the ability target's Elation by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s). If the wearer has <unbreak>#3[i]</unbreak> or more points of Certified Banger, additionally increases all allies' CRIT DMG by <unbreak>#4[i]%</unbreak>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+        "params": [
+          0.16,
+          3,
+          10,
+          0.12,
+          3
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31331",
+        "name": "Actor's Weeping Masque"
+      },
+      {
+        "id": "31332",
+        "name": "Actor's Vibrant Handfan"
+      },
+      {
+        "id": "31333",
+        "name": "Actor's Jester Garb"
+      },
+      {
+        "id": "31334",
+        "name": "Actor's Crescent Dance Boots"
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "839d58d654c57a2859a05fb78123f1911a3cb5331a4b356ebd02d5ea4c77baca"
+    }
+  },
+  {
+    "id": "134",
+    "contentStatus": "beta",
+    "name": "The Edacious Heretic",
+    "type": "cavern relic",
+    "assets": {
+      "icon": "GameData/hsr/assets/relics/sets/71061.webp"
+    },
+    "setEffects": [
+      {
+        "pieces": 2,
+        "description": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "params": [
+          0.12
+        ]
+      },
+      {
+        "pieces": 4,
+        "description": "Increases DMG dealt by the wearer's Basic ATK by <unbreak>#1[i]%</unbreak>. When the wearer uses a Basic ATK, increases the wearer's ATK by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+        "params": [
+          0.36,
+          0.2,
+          2
+        ]
+      }
+    ],
+    "parts": [
+      {
+        "id": "31341",
+        "name": "Heretic's Cranial Apparatus"
+      },
+      {
+        "id": "31342",
+        "name": "Heretic's Injection Gloves"
+      },
+      {
+        "id": "31343",
+        "name": "Heretic's Straitjacket of Reason"
+      },
+      {
+        "id": "31344",
+        "name": "Heretic's Ravenous Ankle-Boots"
+      }
+    ],
+    "liveComparison": {
+      "currentHash": "a473b3d5d677292b616b17e1ffaeee3a885815117ea24ac9bf8566ff94dd05fa"
     }
   },
   {

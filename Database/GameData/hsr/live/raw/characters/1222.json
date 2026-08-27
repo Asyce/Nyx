@@ -2,6 +2,7 @@
   "name": "Lingsha",
   "desc": "The new Cauldron Master of the Xianzhou Luofu's Alchemy Commission is one perceptive and intelligent Vidyadhara healer.\\nWith a keen sense of smell, she diagnoses ailments and calms minds with aromatic therapy.\\nAdept at navigating complex social relationships, she can remain impeccably composed even when turmoil rages within.",
   "chara_info": {
+    "camp": "The Xianzhou Luofu",
     "va": {
       "chinese": "饶梓君",
       "japanese": "前田佳織里",
@@ -15,7 +16,392 @@
       "3": "She quickly came to realize that perhaps leaving would be her best option.\\nWith the help of the Preceptors, they left the Luofu together and headed for the Zhuming. The past flashed before her eyes. As they were immersed in a world of medicine and research, they were blithely unaware that a huge net woven by the hearts of men had already ensnared them.\\n\\n<i>\"If you never learn how to face this world, your ideals will face only inevitable destruction.\"</i>\\nShe vowed to herself never to let something like this happen again.\\nThanks to Yunhua's introduction, she was able to meet with the Zhuming High Elder Ardens Regia, and enter the Piercing Gaze sect to study specialist medical treatments such as acupuncture, aromatherapy, and pyropathy.\\nShe fixed her previous pattern of turning a blind eye to the world around her and came to work alongside people of all walks of life harmoniously.\\n\\nAs time passed, she realized that every type of person, every type of \"illness\" had their own unique scent.\\nShe had smelled the putrid stench of envy.\\nWhile she studied at the Zhuming, she did not allow the mysterious disappearance of medicinal herbs and the subsequent misunderstandings and cold shoulders to crush her. She dispelled all doubts and mocking with incense that no seasoned alchemist could ever hope to match.\\nShe had smelled the fetid stench of conspiracy, hypocrisy.\\nWhen working with biotechnology experts from other planets, she traced the thin veil of clues that revealed their schemes and thwarted their secret intentions to collude with the Disciples of Sanctus Medicus.\\nShe had smelled the foul stench of covetous greed.\\nWhen she served as a Zhuming military healer, she came to understand the huge benefits of medicines hidden in the barracks and investigated in secret to expose corrupt members in one fell swoop.\\n\\nThe \"afflictions\" of humanity had nowhere to hide under her diagnosis, she was always able to formulate the perfect \"incense\" to dispel their scent.\\n<i>\"If I am unable to stand head and shoulders above my peers like my master, then I shall dedicate myself to learning the hearts of man and fighting them fair and square.\"</i>\\nShe changed her name to \"Lingsha.\"\\nHer medicinal namesake's fluctuation of yin and yang, its properties of both water and fire make it a miracle cure to those in mortal danger, just as she herself wished to become.",
       "4": "With her use of burning incense, she masterfully united the ways of Luofu alchemy and the teachings of the Zhuming's Piercing Gaze, to slowly become a healer known by every soul in the Alliance.\\n\\nWhen she received instruction to serve as Cauldron Master of the Luofu Alchemy Commission, she became a little preoccupied. However, upon arriving at the Luofu, she was disappointed to realize that not only had the Alchemy Commission not improved since she left, the internal conflict had in fact worsened.\\n<i>\"The first issue is that people's interests are impure and nepotism is rife. Second, there is a lack of professional dedication and constant blame passing and squabbles. Third, an unjust rewards and punishment system has put people ill at ease. Fourth, research is dismissed as worthless and patient visits neglected. Fifth, those with power take all, those dedicated to improvement become discouraged and malpractice has been rampant for considerable time...\"</i>\\nAs she greeted others with a smile, she spent any time socializing secretly carving out an image in her heart of the problems she faced with each person.\\n\\nHowever, the problems within the Alchemy Commission were not created overnight, nor would they be solved as quickly.\\nBe it the fake platitudes of the Preceptors, the constant smoke and mirrors of the Alchemy Commission healers or conflicts with other departments, her worries were endless. She would have to use huge quantities of incense in order to keep her mind steady.\\n<i>\"Don't get mad, don't be hasty, if I get sick then who'll replace me...\"</i>\\nShe would smile through gritted teeth as she read through reports that made her despair and massaged her temples for comfort.\\n\\nThe waves still sounded outside her window.\\nAs she watched the rising and falling of the ocean, she thought about how Yunhua must have spent her days like this back then.\\n<i>\"Master, continuing to practice and learn in the face of the burdens of human affairs is no simple matter...\"</i>\\nThat young girl whose face was blackened by the exploding elixir crucible is now a grown woman, drowning in work and petty squabbles."
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "It's a pleasure to meet you. You may call me Lingsha. I have returned to serve as the Head of the Luofu's Alchemy Commission after completing my studies on the Zhuming. If you are feeling unwell, I can arrange a healer for you at any time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "How are things going lately? Work is not going well, as usual. I envy the Nameless of the Express, as they can come and go as they please.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "I smelled the scent of anxiety on you, so I used the Zhuming's sleeping powder and flame ambergris, mixed with sunset cinders, to make an incense called \"Forget All Worries.\" Let me share some with you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Background",
+        "voice_m": "I am a Vidyadhara, born and raised on the Luofu, and I once studied the healing arts under the name of \"Dan Zhu.\" But my master became bogged down in politics and was banished to a place far from home. I followed her there. Now that I've changed my name and come home, many complicated feelings have returned.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Ruby Tendrils",
+        "voice_m": "This incense burner is called \"Ruby Tendrils.\" It's a necessary device for practicing the art of healing. I studied under the lineage of the Zhuming's high elder, Ardens Regia, and researched the \"Piercing Gaze\" art of healing. Only by using this incense burner can one practice this art with ease. As for what creature is inside the burner... Let's just say it's a trade secret~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: The Luofu Alchemy Commission",
+        "voice_m": "From my point of view, the fundamental problem with the Alchemy Commission is internal strife. The healers and alchemists are not earnest about curing sickness, nor are they wholly interested in academic research. Their only concern is the struggle for power. How should we attend to the Disciples who slipped through the cracks and the scheming Preceptors...?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Managing Emotions",
+        "voice_m": "If you want things to go smoothly, you need to learn to manage your emotions, like this: The world is so beautiful, yet I am so irritable. Deep breaths...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: Scents",
+        "voice_m": "Scents can transmit a lot of information: emotions, physical condition, symptoms, lies... My nose can detect all of these. On the other hand, I mustn't let anything happen to my nose. If I detect something that smells bad, I'd rather suffocate to death than take a breath.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Hobbies",
+        "voice_m": "Are you familiar with perfumery? Making perfumes is just like dealing with people — only when the top, middle, and base notes are in perfect harmony can one create a good fragrance.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Annoyances",
+        "voice_m": "I am just a healer, and I've always hated those who play political games. But if you want to gain a foothold in the Alchemy Commission, you must have some means to stop those who abuse their power.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Something to Share",
+        "voice_m": "I am not able to cure the illness that General Feixiao suffers from. That doctor Jiaoqiu, though, might have some tricks up his sleeve... He is the best at this.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Knowledge",
+        "voice_m": "When I served as a military healer, I mainly purged evil from the soldiers of the Zhuming's Dawn Army. The connection between a person and a heliobus becomes unstable under immense pressure, and at times like this, we must rely on incense.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Huaiyan",
+        "voice_m": "I would not consider myself close to General Huaiyan, but I have prepared incense for him before. Don't be fooled by the old general's usual cheerful demeanor... When he gets angry, it's like there's steam coming out of his ears.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Yunli",
+        "voice_m": "Yunli's scent is fresh and sweet, just like frankincense. When she comes to see me, she's like a little animal, crawling onto my lap. Who could resist leaning down and taking in a deep breath? Even just thinking about it makes me happy...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Jing Yuan",
+        "voice_m": "My master and General Jing Yuan have an... unpleasant history with each other. But personal grudges are a luxury that adults cannot afford!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Yanqing",
+        "voice_m": "The smell of this Luofu swordmaster is as pure as his character — I only detect the scent of rain. Hmm, does this mean that his will is pure, or that he is too naive?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Yunhua",
+        "voice_m": "My master was framed by criminals, in a sense because she was a kind and open soul. When faced with villains who would destroy everything, you must not harbor any good will.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Feixiao",
+        "voice_m": "I once witnessed her in battle with my own eyes. She is more like a warrior than a general. There used to be a faint scent of fear beneath her boldness and willingness to charge into life-or-death situations, but now that is almost gone.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "If it looks like a hot pot, smells like a hot pot, and acts like a hot pot... I can only diagnose him as being a hot pot.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Moze",
+        "voice_m": "His scent is so faint it's almost imperceptible, but it also carries a pungent smell of rust. He must have many stories to tell.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Bailu",
+        "voice_m": "In the art of healing, I certainly could not compare to the Luofu's high elder. But in these games of politics, I still take pride in being able to protect her.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Yukong",
+        "voice_m": "The war thirty years ago changed many people. The scent of sorrow always surrounds her now. Although I have not seen her in many years, smells do not lie — Yukong is still the same Yukong, even if she herself does not realize it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About Fu Xuan",
+        "voice_m": "Diviner Fu comes to me asking for sugary drinks whether she is ill or not. I've told her many times that drinking too much has no health benefits, but she insists on drinking it anyway. She even says, \"Not being able to have sugary drinks is bad for my health.\" What can you do...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Qingque",
+        "voice_m": "Since returning to the Luofu, I've been buried in work. There are only three things that bring me joy: eating food, making perfumes, and teasing Qingque.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Huohuo",
+        "voice_m": "Even on the Zhuming, it's rare to see a soldier and a heliobus have such a symbiotic relationship, as if they are of one heart and mind. This soft-scented girl is really something~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Tail",
+        "voice_m": "The Luofu really is a bit conservative. If we encountered a heliobus on the Zhuming that was this capable and had no harmful intentions, we would definitely not seal it up.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Boundless mist and endless smoke.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Character Ascension",
+        "voice_m": "Under a red silken canopy, fragrant spices swing from each corner.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Having grasped such profound truths... Whose home isn't overflowing with riches?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Trace Activation",
+        "voice_m": "The smoke rises from the fireless stove.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "With you here, I feel a bit more at ease.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Yunli",
+        "voice_m": "Yunli, be careful, don't get hurt.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "Added to Team With Jing Yuan",
+        "voice_m": "General Jing Yuan, please put your faith in me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Feixiao",
+        "voice_m": "To bear witness to the great General Feixiao's heroism again is truly fortunate.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "Added to Team With Jiaoqiu",
+        "voice_m": "We'll have to rely on your clever tricks to turn the tide again.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "Added to Team With Moze",
+        "voice_m": "Resolving problems in the shadows can be a good strategy.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "Added to Team With Bailu",
+        "voice_m": "Dragon Lady, let us safeguard one another. Together, we can overcome any adversity.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "Added to Team With Yukong",
+        "voice_m": "Madam Yukong, you haven't changed at all~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "Added to Team With Fu Xuan",
+        "voice_m": "Master Diviner, you must have foreseen that we could get through this unscathed.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "Added to Team With Qingque",
+        "voice_m": "Come on, Qingque! Don't worry, I was kidding about hiding behind you... I will protect you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Immerse yourself in it as you desire.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "...The stench of evil.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "How about we dissipate that foul stench quickly?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Please, allow me to purge the root of this problem.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Feeling tired already? Do you require invigoration?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Oh, a weakness.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 1",
+        "voice_m": "Time to cleanse the filth, wouldn't you agree?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Skill 2",
+        "voice_m": "Both body and mind must be pure.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Get it together...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "You're a stubborn one.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "The truth burns clear as a flame.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Everything in this world... is merely fleeting.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Downed",
+        "voice_m": "The smoke is gone... the fire is out...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Return to Battle",
+        "voice_m": "The art of resurrection is astonishing to behold.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Health Recovery",
+        "voice_m": "Refreshing to the soul.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Technique",
+        "voice_m": "Incense ascends, entwined with ethereal clouds.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Battle Won",
+        "voice_m": "This aroma is much better.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Breathe out the old and inhale the new.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Refreshed and invigorated.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "An exotic fragrance hits the nose — indeed, this must be treasure.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Solving a puzzle is like making incense: The smallest of differences can cause the largest changes.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Careful analysis is the key to victory.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Spicy, stimulating... something ominous has arrived.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Returning to Town",
+        "voice_m": "The hustle and bustle of the world... still so charming.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "lingsha",
@@ -547,7 +933,7 @@
         },
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       },

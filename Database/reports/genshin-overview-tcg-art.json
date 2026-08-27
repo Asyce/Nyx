@@ -1,17 +1,15 @@
 {
-  "generatedAt": "2026-08-22T14:47:08.786Z",
+  "generatedAt": "2026-08-27T12:09:05.552Z",
   "note": "overviewArtPool is used only by overview favourite cards. Material/detail art stays on normal character assets.",
   "counts": {
     "roster": 118,
-    "withCharacterCard": 106,
+    "withCharacterCard": 108,
     "withManualExtra": 39,
-    "withOverviewPool": 108,
-    "missingOverviewPool": 10
+    "withOverviewPool": 109,
+    "missingOverviewPool": 9
   },
   "missingCharacterCards": [
     "Alyosha",
-    "Columbina",
-    "Illuga",
     "Linnea",
     "Lohen",
     "Nicole",
@@ -24,7 +22,6 @@
   ],
   "missingOverviewPool": [
     "Alyosha",
-    "Illuga",
     "Linnea",
     "Lohen",
     "Nicole",
@@ -101,15 +98,15 @@
     },
     {
       "name": "Illuga",
-      "automatic": 0,
+      "automatic": 1,
       "manual": 0,
-      "pool": 0
+      "pool": 1
     },
     {
       "name": "Columbina",
-      "automatic": 0,
+      "automatic": 1,
       "manual": 2,
-      "pool": 2
+      "pool": 3
     },
     {
       "name": "Durin",

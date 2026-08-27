@@ -1,0 +1,235 @@
+{
+  "name": "Rise and Sing",
+  "desc": "Seawater washes over her ankles, sea foam shattering beneath the moonlight. During a rare break from filming, the young girl accepted an invitation to the beach to attend a small campfire gathering.\\n\\nThe fire's light stretches out the children's shadows, their little faces painted with confusion. \"I don't know how to sing,\" \"I don't sing well,\" \"I'm too scared to sing.\" The children look up at her as they ask timidly: <i>\"Miss Robin, what should we do?\"</i>\\nShe smiles gently, her fingertips lightly touching the strings in lieu of an answer.\\n\\n<i>\"Come, follow my lead.\"</i>\\nThe sea breeze seemed to drown out the first strum, but the second tune takes on a shape of its own. As the waves crash against the shore and the lights flicker, she parts her lips and sings softly, pouring out the clear, sunny sky from within her heart.\\n<i>\"When you don't know how to sing, just listen to the melody in your own hearts.\"</i>\\nAt first, the notes are scattered, but gradually an outline of a melody forms, and that outline is breathed into life. She sings, and they sing, until the summer breeze brushes past.\\n<i>\"Listen, this is the song in our hearts. It has always been there, waiting to be heard.\"</i>\\n\\nShe hears it, and so, she gently offers this blessing:\\n<i>\"Rise and sing, then spread your wings and take flight.\"</i>",
+  "rarity": "CombatPowerLightconeRarity5",
+  "base_type": "Memory",
+  "refinements": {
+    "name": "Improvisation",
+    "desc": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and grants the wearer \"New Melody,\" lasting for <unbreak>#4[i]</unbreak> turn(s). While the wearer holds \"New Melody,\" all allies' SPD increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+    "level": {
+      "1": {
+        "param_list": [
+          0.3,
+          0.3,
+          0.2,
+          2
+        ]
+      },
+      "2": {
+        "param_list": [
+          0.375,
+          0.325,
+          0.25,
+          2
+        ]
+      },
+      "3": {
+        "param_list": [
+          0.45,
+          0.35,
+          0.3,
+          2
+        ]
+      },
+      "4": {
+        "param_list": [
+          0.525,
+          0.375,
+          0.35,
+          2
+        ]
+      },
+      "5": {
+        "param_list": [
+          0.6,
+          0.4,
+          0.4,
+          2
+        ]
+      }
+    }
+  },
+  "stats": [
+    {
+      "equipment_id": 23063,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 5000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114001,
+          "item_num": 8,
+          "rarity": "NotNormal"
+        }
+      ],
+      "player_level_require": 15,
+      "max_level": 20,
+      "base_hp": 52.8,
+      "base_hp_add": 7.92,
+      "base_attack": 26.4,
+      "base_attack_add": 3.96,
+      "base_defence": 18,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23063,
+      "promotion": 1,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 10000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110251,
+          "item_num": 4,
+          "rarity": "NotNormal"
+        },
+        {
+          "item_id": 114001,
+          "item_num": 12,
+          "rarity": "NotNormal"
+        }
+      ],
+      "world_level_require": 1,
+      "max_level": 30,
+      "base_hp": 116.16,
+      "base_hp_add": 7.92,
+      "base_attack": 58.08,
+      "base_attack_add": 3.96,
+      "base_defence": 39.6,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23063,
+      "promotion": 2,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 20000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 4,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114002,
+          "item_num": 8,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 2,
+      "max_level": 40,
+      "base_hp": 200.64,
+      "base_hp_add": 7.92,
+      "base_attack": 100.32,
+      "base_attack_add": 3.96,
+      "base_defence": 68.4,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23063,
+      "promotion": 3,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 50000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110252,
+          "item_num": 8,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114002,
+          "item_num": 12,
+          "rarity": "Rare"
+        }
+      ],
+      "world_level_require": 3,
+      "max_level": 50,
+      "base_hp": 285.12,
+      "base_hp_add": 7.92,
+      "base_attack": 142.56,
+      "base_attack_add": 3.96,
+      "base_defence": 97.2,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23063,
+      "promotion": 4,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 100000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 5,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 114003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 4,
+      "max_level": 60,
+      "base_hp": 369.6,
+      "base_hp_add": 7.92,
+      "base_attack": 184.8,
+      "base_attack_add": 3.96,
+      "base_defence": 126,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23063,
+      "promotion": 5,
+      "promotion_cost_list": [
+        {
+          "item_id": 2,
+          "item_num": 200000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110253,
+          "item_num": 10,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 114003,
+          "item_num": 8,
+          "rarity": "VeryRare"
+        }
+      ],
+      "world_level_require": 5,
+      "max_level": 70,
+      "base_hp": 454.08,
+      "base_hp_add": 7.92,
+      "base_attack": 227.04,
+      "base_attack_add": 3.96,
+      "base_defence": 154.8,
+      "base_defence_add": 2.7
+    },
+    {
+      "equipment_id": 23063,
+      "promotion": 6,
+      "promotion_cost_list": [],
+      "world_level_require": 5,
+      "max_level": 80,
+      "base_hp": 538.56,
+      "base_hp_add": 7.92,
+      "base_attack": 269.28,
+      "base_attack_add": 3.96,
+      "base_defence": 183.6,
+      "base_defence_add": 2.7
+    }
+  ]
+}

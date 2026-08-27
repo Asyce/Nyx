@@ -915,6 +915,66 @@
     "zh": "叩问天工的名冶",
     "ja": "神業を探求する名匠"
   },
+  "133": {
+    "icon": "SpriteOutput/ItemIcon/71060.png",
+    "en": "Dreamlit Actor",
+    "set": {
+      "2": {
+        "en": "Increases SPD by <unbreak>#1[i]%</unbreak>.",
+        "ParamList": [
+          0.06
+        ],
+        "ko": "속도 <unbreak>#1[i]%</unbreak> 증가",
+        "zh": "速度提高<unbreak>#1[i]%</unbreak>。",
+        "ja": "速度+<unbreak>#1[i]%</unbreak>。"
+      },
+      "4": {
+        "en": "When the wearer uses their Skill or Ultimate on one other ally target, increases the ability target's Elation by <unbreak>#1[i]%</unbreak>, lasting for <unbreak>#2[i]</unbreak> turn(s). If the wearer has <unbreak>#3[i]</unbreak> or more points of Certified Banger, additionally increases all allies' CRIT DMG by <unbreak>#4[i]%</unbreak>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+        "ParamList": [
+          0.16,
+          3,
+          10,
+          0.12,
+          3
+        ],
+        "ko": "장착한 캐릭터가 다른 단일 아군에게 전투 스킬 또는 필살기 발동 시, 스킬 목표의 환락도가 <unbreak>#1[i]%</unbreak> 증가한다, 지속 시간: <unbreak>#2[i]</unbreak>턴, 장착한 캐릭터가 보유한 [훌륭한 솜씨에는 보상을]이 <unbreak>#3[i]</unbreak>pt 이상일 시 추가로 모든 아군의 치명타 피해를 <unbreak>#4[i]%</unbreak> 증가시킨다, 지속 시간: <unbreak>#5[i]</unbreak>턴",
+        "zh": "当装备者对我方其他单体目标施放战技或终结技时，使技能目标的欢愉度提高<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合，若装备者持有的好活当赏大于等于<unbreak>#3[i]</unbreak>点，则额外使我方全体目标的暴击伤害提高<unbreak>#4[i]%</unbreak>，持续<unbreak>#5[i]</unbreak>回合。",
+        "ja": "装備キャラが自身以外の味方単体に戦闘スキルまたは必殺技を発動する時、スキルターゲットの愉悦度+<unbreak>#1[i]%</unbreak>、<unbreak>#2[i]</unbreak>ターン継続。装備キャラが持つ「爆笑の褒美」が<unbreak>#3[i]</unbreak>以上の場合、さらに味方全体の会心ダメージ+<unbreak>#4[i]%</unbreak>、<unbreak>#5[i]</unbreak>ターン継続。"
+      }
+    },
+    "ko": "꿈을 희롱하며 별을 밝히는 연극인",
+    "zh": "戏梦点星的伶人",
+    "ja": "星灯す夢芝居の伶人"
+  },
+  "134": {
+    "icon": "SpriteOutput/ItemIcon/71061.png",
+    "en": "The Edacious Heretic",
+    "set": {
+      "2": {
+        "en": "Increases ATK by <unbreak>#1[i]%</unbreak>.",
+        "ParamList": [
+          0.12
+        ],
+        "ko": "공격력 <unbreak>#1[i]%</unbreak> 증가",
+        "zh": "攻击力提高<unbreak>#1[i]%</unbreak>。",
+        "ja": "攻撃力+<unbreak>#1[i]%</unbreak>。"
+      },
+      "4": {
+        "en": "Increases DMG dealt by the wearer's Basic ATK by <unbreak>#1[i]%</unbreak>. When the wearer uses a Basic ATK, increases the wearer's ATK by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s).",
+        "ParamList": [
+          0.36,
+          0.2,
+          2
+        ],
+        "ko": "장착한 캐릭터가 일반 공격으로 가하는 피해가 <unbreak>#1[i]%</unbreak> 증가한다. 장착한 캐릭터가 일반 공격 발동 시 장착한 캐릭터의 공격력이 <unbreak>#2[i]%</unbreak> 증가한다, 지속 시간: <unbreak>#3[i]</unbreak>턴",
+        "zh": "使装备者普攻造成的伤害提高<unbreak>#1[i]%</unbreak>。当装备者施放普攻时，使装备者的攻击力提高<unbreak>#2[i]%</unbreak>，持续<unbreak>#3[i]</unbreak>回合。",
+        "ja": "装備キャラの通常攻撃によるダメージ+<unbreak>#1[i]%</unbreak>。装備キャラが通常攻撃を行う時、装備キャラの攻撃力+<unbreak>#2[i]%</unbreak>、<unbreak>#3[i]</unbreak>ターン継続。"
+      }
+    },
+    "ko": "금단의 열매를 탐욕스레 집어삼킨 이단",
+    "zh": "贪噬禁果的异端",
+    "ja": "禁断の果実を貪る異端者"
+  },
   "301": {
     "icon": "SpriteOutput/ItemIcon/71012.png",
     "en": "Space Sealing Station",

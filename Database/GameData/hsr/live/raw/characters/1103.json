@@ -270,27 +270,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Wow!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Never expected to find this here!",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "I'm getting the hang of this.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Wish I had time to examine its inner workings!",
         "is_battle_voice": true
       },
       {
@@ -303,6 +285,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "There's inspiration in every glance and every breeze.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Wow!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Never expected to find this here!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Wish I had time to examine its inner workings!",
         "is_battle_voice": true
       }
     ]

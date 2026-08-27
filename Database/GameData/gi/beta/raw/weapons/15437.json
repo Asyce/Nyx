@@ -1,5 +1,5 @@
 {
-  "name": "Weapon: Bow",
+  "name": "Breezeborne Refrain",
   "desc": "",
   "weapon_type": "WEAPON_BOW",
   "weapon_prop": [
@@ -342,8 +342,8 @@
   },
   "refinement": {
     "1": {
-      "name": "",
-      "desc": "Energy Recharge is increased by <color=#99FFFFFF>20%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>24%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Viper's Ballad",
+      "desc": "Increases Energy Recharge by <color=#99FFFFFF>20%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>24%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.24,
         3,
@@ -356,8 +356,8 @@
       ]
     },
     "2": {
-      "name": "",
-      "desc": "Energy Recharge is increased by <color=#99FFFFFF>25%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>30%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Viper's Ballad",
+      "desc": "Increases Energy Recharge by <color=#99FFFFFF>25%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>30%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.3,
         3,
@@ -370,8 +370,8 @@
       ]
     },
     "3": {
-      "name": "",
-      "desc": "Energy Recharge is increased by <color=#99FFFFFF>30%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>36%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Viper's Ballad",
+      "desc": "Increases Energy Recharge by <color=#99FFFFFF>30%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>36%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.36,
         3,
@@ -384,8 +384,8 @@
       ]
     },
     "4": {
-      "name": "",
-      "desc": "Energy Recharge is increased by <color=#99FFFFFF>35%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>42%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Viper's Ballad",
+      "desc": "Increases Energy Recharge by <color=#99FFFFFF>35%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>42%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.42,
         3,
@@ -398,8 +398,8 @@
       ]
     },
     "5": {
-      "name": "",
-      "desc": "Energy Recharge is increased by <color=#99FFFFFF>40%</color>, and hitting the opponent with an Elemental Skill or Elemental Burst grants 1 point. This effect can trigger once every 0.03s, and when the character reaches 3 points, the entire party gains a <color=#99FFFFFF>48%</color> Stellar-Conduct/Stellar Swirl DMG boost for 12s. No points are granted in the 12s after this effect is triggered, and while the duration of the effect refreshes, it does not stack. The aforementioned effects can trigger even when the character is not on the field.",
+      "name": "Viper's Ballad",
+      "desc": "Increases Energy Recharge by <color=#99FFFFFF>40%</color>. When the equipping character hits the opponent with their Elemental Skill or Elemental Burst, they gain a stack of \"Hymn of the Pure.\" This effect can trigger once every 0.03s, max 3 stacks, and at 3 stacks, all instances of \"Hymn of the Pure\" are cleared to give the equipping character \"Thus Lied the Viper\" instead. This grants nearby party characters a <color=#99FFFFFF>48%</color> Stellar Glimmer reaction DMG boost for 12s, during which no stacks of \"Hymn of the Pure\" can be obtained. The aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.48,
         3,

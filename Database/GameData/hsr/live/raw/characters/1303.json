@@ -144,6 +144,30 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 22,
+        "voice_title": "About Fugue",
+        "voice_m": "She has simply proven once again that our understanding of the essence of life is still far from complete.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Fugue",
+        "voice_m": "Always remember, don't let life leave you any regrets.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About The Herta",
+        "voice_m": "Her feedback is always sharp and brusque, especially when conversing face-to-face. However, I am never offended... We both know that every step taken beyond the boundaries of knowledge requires immense sacrifices.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With The Herta",
+        "voice_m": "We don't have many opportunities to fight alongside each other. Let's treasure this.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "A picture of grace and elegance.",
@@ -612,7 +636,7 @@
       "skill_combo_value_delta": 10,
       "extra": {
         "10000002": {
-          "name": "Action Delayed",
+          "name": "Delay Action",
           "desc": "Increases the target's waiting interval before the next action.",
           "param": []
         },

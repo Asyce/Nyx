@@ -2,13 +2,363 @@
   "name": "Rin Tohsaka",
   "desc": "Hailing from a world beyond our universe where magic and magecraft coexist, this young mage tirelessly hones her skills. She is the Sixth Head of the Tohsaka family, a prestigious lineage of Fuyuki City mages.",
   "chara_info": {
+    "camp": "Another World",
     "va": {
       "chinese": "朔小兔",
       "japanese": "植田佳奈",
       "korean": "김보민"
     },
-    "stories": {},
-    "voicelines": []
+    "stories": {
+      "0": "Hailing from a world beyond our universe where magic and magecraft coexist, this young mage tirelessly hones her skills. She is the Sixth Head of the Tohsaka family, a prestigious lineage of Fuyuki City mages.\\nCurrently studying under a renowned Clock Tower mentor with deep ties to the Holy Grail War, she finds herself hopping across dimensions and planes just to finish an internship project...\\n\"Huh? Where even am I?? Why isn't there a single wisp of magical energy here???\"\\n\"The... Holy Grail? Oh, thank goodness, I'm saved! Sorry, don't mind if I borrow this!\"",
+      "1": "The Holy Grail War was a brutal massacre where mages fought to fulfill the victor's deepest wish. Now a student at the Clock Tower, Tohsaka rarely brings up this dark chapter of her past.\\n\\nHer classmates, her little sister, her teachers at the regular school, and her former mentor in magecraft (who, by the way, turned out to be her father's murderer)... A totally random cast of characters who never should have crossed paths ended up weaving the messy web of that cruel struggle. It was such a convoluted nightmare to explain and so easy to misunderstand, it was honestly better to keep her mouth shut.\\n\\nWhether she was the \"winner\" of the Holy Grail War or once the Master to King Arthur, if word got out, she wouldn't just be dealing with petty jealousy. If these Clock Tower snobs treated her like some clueless bumpkin from the Far East, the headache simply wouldn't be worth it...\\n\\n...Yeah, right.\\n\\nTohsaka couldn't care less about stuff like that. \"I've got bigger fish to fry. Better keep my head down and play the perfect student,\" she'd tell herself.\\n\\nBut of course, her mentor saw right through her little schemes. Thankfully, he was an eccentric softie... and her senior when it came to the Holy Grail War...\\n\\n\"Ugh, seriously... How many coincidences can one world have?\"\\n\\nBanter aside, the two clicked instantly. They completely disassembled the Holy Grail in Fuyuki City, finally putting an end to the centuries of torture this twisted magecraft rite had inflicted on the locals.\\nNaturally, to the ordinary folks living blissfully unaware of the magecraft world, it just meant the rate of \"gas explosions\" and \"traffic pile-ups\" dipped by a few measly percentage points...\\n\\nBut for Tohsaka? It meant her childhood had truly come to an end.\\n\\n<i>\"I'm leaving. You know what you have to do, right?\"</i>\\n\\nToday, she can finally face her father's parting instructions — hardly a proper dying wish — with an open heart.\\nIt might not be the exact glory her father had originally envisioned, but as long as she carries the Tohsaka name, walking away with a clear conscience is the best possible outcome.",
+      "2": "The Holy Grail of her hometown has been disassembled, but the work of a mage must continue.\\n\\nPassed down through generations, the Tohsaka family's magecraft is rooted in Conversion. At its core, Conversion is the manipulation of power — its accumulation, flow, and alteration — using gems as the primary medium.\\n\\n<i>\"Yeah, I know it's a massive money pit, but I don't exactly have a choice. You can't replace the energy density of a gemstone. If you want groundbreaking results, you can't go penny-pinching on experimental materials...\"</i>\\n<i>\"Ugh, okay, saying it doesn't hurt is a total lie... Of course it hurts! It hurts so much! Who the heck wants to pull in tens of millions a year only to end up living paycheck to paycheck!?\"</i>\\n<i>\"...Sorry, where are my manners? At the end of the day, I have my reasons. I just have to do it.\"</i>\\n\\n— \"Conduct yourself with confidence and elegance.\" Such is the Tohsaka family motto.\\nThough, if Ishtar caught wind of that, she'd probably just suggest Tohsaka become a pirate instead.\\nIntimidation, robbery, fraud, these are perfectly standard ways to make a buck for the goddess of Venus. Threatening to demolish the netherworld, hijacking the house of heaven, getting the God of Wisdom blackout drunk to swindle a sacred vessel, letting Uruk citizens extort foreigners... Honestly, her rap sheet is quite the resume.\\n\\nConsidering herself a bit of a bleeding heart, {RUBY_B#twintailed red devil}Tohsaka{RUBY_E#} has absolutely no idea how she ended up bound to a Goddess like that.\\n\\n<i>\"It couldn't possibly be just because I'm desperate for cash and she happens to be insanely greedy... right?\"</i>\\n\\n...While the truth of the matter is far from that, it's admittedly pretty hard to completely rule out the possibility.",
+      "3": "Ever since forging a bond with the goddess, Tohsaka's journeys across planes and dimensions have taken a rather bizarre turn.\\n\\n<i>\"How should I put this... It just feels like I keep ending up in weird places and running into weird situations.</i>\\n<i>\"For instance, one time I accidentally stumbled into a military fortress belonging to some random interstellar empire... Just as I was scrambling to find a place to hide, I realized they couldn't see me at all! I could wander wherever I wanted, like a ghost.\\n\"Another time, I visited a museum built on an asteroid, only to find it was full of fakes! The curator claimed that someone who looked exactly like me had stolen all the genuine artifacts four thousand years ago!</i>\\n<i>\"Oh, and get this! There was this seemingly normal city where the law strictly forbade anyone from saying 'I guarantee' in public. Anyone who broke the rule would be forced to transcribe their philosophical treatise </i>On the Unreliability of Promises<i> by hand.\\n\"I casually asked around about the book's origins. The locals told me it all started three thousand years ago as a note left behind by a passing goddess, which got continuously expanded by generations of philosophers until it became a full-blown treatise!\\n\"And the very first page of that book only has one sentence: 'I guarantee'...\"</i>\\n\\n...BUT!\\nAlthough it is quite unbelievable, to be fair, Ishtar is still a benevolent goddess.\\nAt the very least, in the myths, she never directly robbed mortals of their belongings—\\n\\n<i>*Some smudged handwriting*</i>\\nWhenever civilization needed a guardian, she would always step up to fight the enemy of civilization, even if she was full of insincere complaints and stubborn price-gouging.\\nEven rarer, when she realized she was actually aiding a tyrant, she could decisively abandon old pacts, retract her protection over the Assyrians, and help the Babylonians achieve their epic revenge.\\n<i>*Author's Note: During the writing process, I was in no way hinted to, bribed, or violently coerced by the noble Mistress of Heaven, Ishtar, or anyone affiliated with her.*</i>\\n\\n<i>\"Some pretentious teacher at the Clock Tower claimed that THIS was the real reason I was able to form a bond with the goddess of Venus...\\n\"Honestly, what kind of person does he take me for?\"</i>\\n\\nAlright, let's just humor the idea that Tohsaka has never exhibited \"insincere complaints\" or \"stubborn price-gouging,\" nor does she have any experience of originally intending to win the Holy Grail, only to resolutely destroy it in the end.\\nHowever, even so, there still seems to be some connection between Tohsaka and Ishtar that leaves us in wonder...",
+      "4": "<i>\"...Huh? Are you trying to say we're both 'spoiled rich kids'?\\n\"No. Thank. You. Phrasing it like that makes it sound like I was born just to leech off others... Though, if someone hated me for my background, I guess it'd make sense.\\n\"Even if the one person who had every right to hate me didn't mind at all...\\n\"...But I digress. Call me a 'spoiled rich kid' if you must.\\n\"With great power comes great responsibility. Like I've always said: As the Tohsaka family head, I have things I simply must do.\"</i>\\n\\n<i>\"As for the goddess of Venus... Hmph, she definitely doesn't see things from that angle!\"</i>\\n\\n<i>\"As the darling among the gods, she's probably never felt a drop of stress in her life. I mean, she's totally unapologetic about everything she does, be it blowing up mountains, descending into the underworld, proposing on a whim, or flipping out at the drop of a hat—\\n\"Ugh, speaking of which, it's honestly no surprise she'd try to woo that arrogant Goldy!\"\\n\\n\"But, if you really think about it... she must have her own principles, right? She can't be totally unhinged... probably.\\n\"The Assyrians worshiped her just as devoutly as the Urukians did. If her whole vibe was just 'I help whoever pays the best,' she would've completely ignored those broke Babylonians when they came begging.\\n\"Yet she actually answered their prayers and helped them ensnare the Assyrian capital...\\n\"...Wait, why am I defending her? You saw it too! No matter who she helps, that goddess's ultimate goal is still just to rule the world and boss everyone around!\\n\"As for why she meddles in things she could easily walk away from... at the end of the day, she's just being capricious, right?\\n\"For her, it's always 'I'm doing this because it's fun,' not 'I'm doing this because it's right'... which makes her the exact opposite of someone with my strong sense of justice!\"</i>"
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "The contract is complete. Relax, I'm not really one for strict hierarchies... well, not for most people, anyway. Got that, my Servant?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Good morning. As the head of the Tohsaka family, maintaining proper etiquette is simply a matter of course.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Until tomorrow, then. Even if we're both \"blessed\" by our respective gods, we still have to forge our own paths, don't we?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Tohsaka Family",
+        "voice_m": "The Tohsakas were co-founders of the Holy Grail War. We're local nobility, really, though our history is brief. It's just... thanks to my \"poor management,\" we're not quite as \"noble\" as we used to be.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Chat: Holy Grail War",
+        "voice_m": "The Holy Grail War began as a masterpiece, created by three great magicians pursuing their own noble ideals. Sadly, things didn't quite go as planned... Still, I'll keep moving forward on the path they paved. I am the head of the Tohsakas, after all.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Gem Magecraft",
+        "voice_m": "See these jewels? They're the signature of the Tohsaka family. As long as I imbue them with magical energy beforehand, I can unleash all sorts of magecraft on a whim... only to watch those priceless gems serving as the vessel shatter right before my eyes... Ha... hahahaha...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Modern Technology",
+        "voice_m": "Oh, it's a piece of cake. Powering on, shutting down, answering calls... even voice input. I mastered it all in no time. And get this: I can even clear games now, provided they don't require using the mouse and keyboard at the same time! Pretty impressive, right?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Hobbies",
+        "voice_m": "Cats! Definitely cats! They are absolutely the cutest things in the — Wait, my regular hobbies? Uh... does strength training count?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Annoyances",
+        "voice_m": "One senseless waste after another, followed by a never-ending string of accidents... I wonder, is there truly some generational curse on the Tohsaka lineage?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Something to Share",
+        "voice_m": "If you don't live for yourself, you'll never understand the true meaning of happiness. So, no matter what the future holds, follow your heart and forge ahead with everything you've got!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Knowledge",
+        "voice_m": "If I had been born in this galaxy, I'd definitely want to be glanced at by \"the Beauty\" herself... Wait, she's been missing for ages? Oh...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About Saber",
+        "voice_m": "Back in the Holy Grail War I lived through, we were once bound as Master and Servant... It's always reassuring to have the King of Knights' legendary blade at your side.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Lancer",
+        "voice_m": "Lancer might come across as a bit flippant, but he's actually a reliable big brother figure — a calm, tenacious warrior. Believe it or not, I actually owe him my life.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Archer",
+        "voice_m": "That guy... Even here, he's still got that infuriating expression that says \"I'll handle everything, leave it to me.\" And on top of that, he acts like he's my guardian. I swear, I'll find a way to put him in his place one of these days!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Gilgamesh",
+        "voice_m": "Whether in the history books or that Holy Grail War, that Goldy is in a league of his own when it comes to being a troublemaker. If he ever finds out I've accepted Ishtar's blessing... I'm dead meat.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Ishtar",
+        "voice_m": "She loves watching humans get into trouble, yet she can't bring herself to just look away... That's why she granted me her blessing, isn't it? Honestly, she's a benevolent goddess at heart, after all~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Phainon",
+        "voice_m": "To shoulder the collective desires of all humanity... such a burden would eventually burn anyone to ash. Thank you, {NICKNAME}, for staying by his side until the very end.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Castorice and Polyxia",
+        "voice_m": "Those two sisters are so similar to Sakura and me, yet entirely different, almost like two mirrors reflecting one another... I'm grateful to them. They helped me find our most precious treasure.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Ashveil",
+        "voice_m": "I never expected to be played by that detective... When it comes to scheming and disregarding everyone else's feelings, he's the spitting image of that King of Heroes.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Kuchiba",
+        "voice_m": "I had a hunch Ms. Kuchiba was hiding some massive secret... but even after the Holy Grail War ended, we're still completely in the dark! Well, it makes sense. A key character from the main series can't go spilling all their secrets in a spin-off, can they?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Herta",
+        "voice_m": "Madam Herta... A genius who commands the galaxy's attention, a trailblazer forging ahead on the Path of \"Erudition\"... My god, she's basically the ideal version of myself!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Dr. Ratio",
+        "voice_m": "A scholar with real combat discipline is a rare breed indeed, let alone one who's honed both to such perfection. If I have the chance, I'll definitely have to pick his brain on both fronts!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "I promise: I shall shine brighter than the {RUBY_B#Venus}morning star{RUBY_E#}.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "I'm thrilled, really. But I wonder if my wallet feels the same way?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "We've Trailblazed so far. There's nowhere we can't go. Come! All aboard the Maanna!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "Perfect. I can feel the breakthrough!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "With splendor, elegance, and boldness, let's trailblaze together!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Saber",
+        "voice_m": "Our path to glory wouldn't be complete without the King of Knights, would it?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Archer",
+        "voice_m": "I've grown up quite a bit, so don't you dare say you're just \"back-up.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Gilgamesh",
+        "voice_m": "If you've got so much spare treasure lying around, you could at least donate it to someone who actually needs it...!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Full of openings! Guess you need more practice, huh?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "All that bravado... how pathetic!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "With elegance and poise, I give my absolute all!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "The thought of getting bossed around by a Servant isn't half bad.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Just be patient and wait for the right moment! Trust me, I learned that the hard way...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "Fierce tiger forcibly climbs a mountain!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill 1",
+        "voice_m": "Zelretch!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill 2",
+        "voice_m": "Time to shine!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Enhanced Skill 1",
+        "voice_m": "The light of mirror upon mirror — penetrating the infinite!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Enhanced Skill 2",
+        "voice_m": "The endless journey — assemble here!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "I'm still trying to look cool here...!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "I'll remember this...!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Rin Tohsaka: Ishtar!\\nIshtar: Take it!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Serve me — An Gal Ta Ki Gal Šè!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Joint Follow-Up ATK",
+        "voice_m": "A mythical Broken Phantasm!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Downed",
+        "voice_m": "Are the gems... all spent...?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Return to Battle",
+        "voice_m": "Thank you so much! But the medical bills...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Health Recovery",
+        "voice_m": "Whoa... the magical energy is surging...!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Overworld Basic ATK",
+        "voice_m": "Gandr!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Battle Won",
+        "voice_m": "Uphold elegance, and victory is assured.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "That's our travel budget sorted!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Hmm... Just a thought, but this would make for some prime research material!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "...Isn't this way too extravagant!?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Heh heh... It's not like I'm getting a big head or anything, y'know?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "It's just the bare minimum expected of the Tohsaka family head.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Well, well. Is that a total pushover I see walking in without a clue?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "Returning to Town",
+        "voice_m": "Don't get too comfortable! Time to gear up for our next departure!",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "tohsakarin",

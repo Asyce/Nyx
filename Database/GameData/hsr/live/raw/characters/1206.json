@@ -210,6 +210,24 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 33,
+        "voice_title": "About Jiaoqiu",
+        "voice_m": "Uncle J... Oh, it's like this — I didn't like sword fighting class when I was a kid, so I would sneak away and visit him. He taught me how to read and how to write his name, but his name was too hard for me, so he just let me call him Uncle J... Eventually he stopped teaching me how to write and just made me all kinds of delicious food, until my mother dragged me by the ear back to sword lessons.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Jiaoqiu",
+        "voice_m": "Uncle J! My mom sends her regards!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "About Moze",
+        "voice_m": "That name sounds familiar... Oh! One time when I went to Uncle J's house, I saw someone hiding on the roof... Maybe it was him!",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "No more playing nice!",
@@ -306,27 +324,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 70,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "This little gadget is just what I wanted~",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 71,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Whoa... I can't believe I found this!",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 67,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Piece of cake!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "See, I knew I could do it!",
         "is_battle_voice": true
       },
       {
@@ -339,6 +339,24 @@
         "voice_id": 69,
         "voice_title": "Returning to Town",
         "voice_m": "It's so early! Let's look around!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "This little gadget is just what I wanted~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Whoa... I can't believe I found this!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "See, I knew I could do it!",
         "is_battle_voice": true
       }
     ]

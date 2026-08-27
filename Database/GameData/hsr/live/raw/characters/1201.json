@@ -192,6 +192,30 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 30,
+        "voice_title": "About Lingsha",
+        "voice_m": "The Cauldron Master is the worst! A few times when we were chatting, she suddenly said, \"The master diviner is coming.\" I ran behind her to hide, only to find out that no one was actually coming! She's always teasing me like that, so infuriating...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Lingsha",
+        "voice_m": "Alright, no more teasing, okay?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "About Yao Guang",
+        "voice_m": "Playing against superiors is the worst! Winning feels bad, losing feels even worse, the whole thing's torture. But with Madam Yao laying down that kind of pressure... I've got no choice but to go all out.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "Madam Yao! Bring me good fortune⁓",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Play hard, win big, keep quiet~",
@@ -342,27 +366,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 79,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "I could use some of your luck~",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 80,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Jackpot!",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 76,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Just another walk in the park~",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 81,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Done! No need for overtime!",
         "is_battle_voice": true
       },
       {
@@ -375,6 +381,24 @@
         "voice_id": 78,
         "voice_title": "Returning to Town",
         "voice_m": "Just thinking about work gives me a full-body migraine...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 79,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "I could use some of your luck~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 80,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Jackpot!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 81,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Done! No need for overtime!",
         "is_battle_voice": true
       }
     ]

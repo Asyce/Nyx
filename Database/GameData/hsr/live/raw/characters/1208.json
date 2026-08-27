@@ -198,6 +198,18 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 31,
+        "voice_title": "About Yao Guang",
+        "voice_m": "I recall my days as a student... I argued with my senior soror on every matter. She would always concede, and I mistook it for proof that my studies surpassed hers. Looking back now, I see how childish I was. Hmph. When it comes to the pursuit of knowledge, what place is there for concession?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "Divining the battlefield with my senior soror transports me to erstwhile times of academic pursuit.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Everything came together.",
@@ -318,27 +330,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 74,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "As divined.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 75,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "*gasp* Ahem! ...Unexpected. We shouldn't take too much...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 71,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Throw me another puzzle.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 76,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "This was documented in the ancient texts long ago.",
         "is_battle_voice": true
       },
       {
@@ -351,6 +345,24 @@
         "voice_id": 73,
         "voice_title": "Returning to Town",
         "voice_m": "One's hexagrammatic position is always in flux. Planning is paramount.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "As divined.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "*gasp* Ahem! ...Unexpected. We shouldn't take too much...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "This was documented in the ancient texts long ago.",
         "is_battle_voice": true
       }
     ]

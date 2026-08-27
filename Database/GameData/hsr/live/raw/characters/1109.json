@@ -276,27 +276,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Is this for Hook?",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Wow... Daddy will love this!",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Huh? I wanna play again!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Ha! Hook could do this blindfolded⁓",
         "is_battle_voice": true
       },
       {
@@ -309,6 +291,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "First you go a-searching, then you go a-running, searching, running, jump jump jump!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Is this for Hook?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Wow... Daddy will love this!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Ha! Hook could do this blindfolded⁓",
         "is_battle_voice": true
       }
     ]

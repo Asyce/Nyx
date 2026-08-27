@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "7.0.51",
+  "version": "7.0.52",
   "liveVersion": "7.0",
   "newCount": 2,
   "changedCount": 0,
@@ -18,6 +18,7 @@
       "localizedNames": {
         "en": "Vesna"
       },
+      "title": "Snowy Banquet's Sharp Blade",
       "r": 5,
       "el": "Anemo",
       "w": "Sword",
@@ -38,7 +39,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "7.0.51",
+        "version": "7.0.52",
         "sections": [
           {
             "title": "Talents",
@@ -296,7 +297,7 @@
               {
                 "name": "The Art of Victory",
                 "type": "Elemental Skill",
-                "desc": "Calls forth a Spirit Blade passed down through generations of the Vila to deal AoE Anemo DMG, then switches to the Armed for Action mode and gains 2 stacks of sword energy.\n\nArmed for Action\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become Anemo DMG that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional Anemo DMG. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of sword energy.\nVesna can consume sword energy to unleash the special Elemental Skill Windborne Sword, which deals to the opponent Anemo DMG.\nEach use of the special Elemental Skill Windborne Sword in the same instance of Armed for Action will increase the level of Windborne Sword, beginning from Lv. 1 to Lv. 3 max, for more Anemo DMG. Using Windborne Sword at Lv. 2 and Lv. 3 will also summon an Spirit Blade which deals Anemo DMG.\nVesna will exit the mode when its duration ends or when she has used Windborne Sword at the highest level 3 times. Exiting will clear all remaining sword energy she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\nRadiance: Stellar Swirl: DMG dealt with the Spirit Blade becomes Anemo DMG that is also considered Stellar Swirl reaction DMG.\n\n\"Make way, make way! The Druzhna has command over the battlefield from here on out!\"",
+                "desc": "Calls forth a Spirit Blade passed down through generations of the Vila to deal AoE Anemo DMG, then switches to the Armed for Action mode and gains 2 stacks of Sword Essence.\n\nArmed for Action\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become Anemo DMG that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional Anemo DMG. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of Sword Essence.\nVesna can consume Sword Essence to unleash the special Elemental Skill Windborne Sword, which deals to the opponent Anemo DMG.\nEach use of the special Elemental Skill Windborne Sword in the same instance of Armed for Action will increase the level of Windborne Sword, beginning from Lv. 1 to Lv. 3 max, for more Anemo DMG. Using Windborne Sword at Lv. 2 and Lv. 3 will also summon a Spirit Blade which deals Anemo DMG.\nVesna will exit the mode when its duration ends or when she has used Windborne Sword at the highest level 3 times. Exiting will clear all remaining Sword Essence she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\nRadiance: Stellar Swirl: DMG dealt with the Spirit Blade becomes Anemo DMG that is also considered Stellar Swirl reaction DMG.\n\n\"Make way, make way! The Druzhna has command over the battlefield from here on out!\"",
                 "descFormat": [
                   {
                     "start": 79,
@@ -318,145 +319,145 @@
                   },
                   {
                     "start": 159,
-                    "end": 171,
+                    "end": 172,
                     "kind": "term",
                     "term": "N11430002"
                   },
                   {
                     "start": 159,
-                    "end": 171,
+                    "end": 172,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 174,
-                    "end": 190,
+                    "start": 175,
+                    "end": 191,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 280,
-                    "end": 289,
+                    "start": 281,
+                    "end": 290,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 453,
-                    "end": 462,
+                    "start": 454,
+                    "end": 463,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 545,
-                    "end": 557,
+                    "start": 546,
+                    "end": 559,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 577,
-                    "end": 589,
+                    "start": 579,
+                    "end": 592,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 629,
-                    "end": 644,
+                    "start": 632,
+                    "end": 647,
                     "kind": "term",
                     "term": "N11430003"
                   },
                   {
-                    "start": 629,
-                    "end": 644,
+                    "start": 632,
+                    "end": 647,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 674,
-                    "end": 683,
+                    "start": 677,
+                    "end": 686,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 725,
-                    "end": 740,
+                    "start": 728,
+                    "end": 743,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 765,
-                    "end": 781,
+                    "start": 768,
+                    "end": 784,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 809,
-                    "end": 824,
+                    "start": 812,
+                    "end": 827,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 870,
-                    "end": 879,
+                    "start": 873,
+                    "end": 882,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 887,
-                    "end": 902,
+                    "start": 890,
+                    "end": 905,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 942,
-                    "end": 954,
+                    "start": 944,
+                    "end": 956,
                     "kind": "term",
                     "term": "N11430004"
                   },
                   {
-                    "start": 942,
-                    "end": 954,
+                    "start": 944,
+                    "end": 956,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 967,
-                    "end": 976,
+                    "start": 969,
+                    "end": 978,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 1047,
-                    "end": 1062,
+                    "start": 1049,
+                    "end": 1064,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1126,
-                    "end": 1138,
+                    "start": 1128,
+                    "end": 1141,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1238,
-                    "end": 1261,
+                    "start": 1241,
+                    "end": 1264,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1282,
-                    "end": 1294,
+                    "start": 1285,
+                    "end": 1297,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1303,
-                    "end": 1312,
+                    "start": 1306,
+                    "end": 1315,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 1366,
-                    "end": 1450,
+                    "start": 1369,
+                    "end": 1453,
                     "kind": "em"
                   }
                 ],
@@ -545,121 +546,121 @@
                       {
                         "label": "Windborne Sword Lv. 2 Spirit Blade DMG",
                         "values": [
-                          "100%",
-                          "107.5%",
-                          "115%",
-                          "125%",
-                          "132.5%",
+                          "112%",
+                          "120.4%",
+                          "128.8%",
                           "140%",
-                          "150%",
-                          "160%",
-                          "170%",
-                          "180%",
-                          "190%",
-                          "200%",
-                          "212.5%",
-                          "225%",
-                          "237.5%"
+                          "148.4%",
+                          "156.8%",
+                          "168%",
+                          "179.2%",
+                          "190.4%",
+                          "201.6%",
+                          "212.8%",
+                          "224%",
+                          "238%",
+                          "252%",
+                          "266%"
                         ]
                       },
                       {
                         "label": "Windborne Sword Lv. 3 Spirit Blade DMG",
                         "values": [
-                          "40% \u00d74",
-                          "43% \u00d74",
-                          "46% \u00d74",
-                          "50% \u00d74",
-                          "53% \u00d74",
+                          "44.8% \u00d74",
+                          "48.2% \u00d74",
+                          "51.5% \u00d74",
                           "56% \u00d74",
-                          "60% \u00d74",
-                          "64% \u00d74",
-                          "68% \u00d74",
-                          "72% \u00d74",
-                          "76% \u00d74",
-                          "80% \u00d74",
-                          "85% \u00d74",
-                          "90% \u00d74",
-                          "95% \u00d74"
+                          "59.4% \u00d74",
+                          "62.7% \u00d74",
+                          "67.2% \u00d74",
+                          "71.7% \u00d74",
+                          "76.2% \u00d74",
+                          "80.6% \u00d74",
+                          "85.1% \u00d74",
+                          "89.6% \u00d74",
+                          "95.2% \u00d74",
+                          "100.8% \u00d74",
+                          "106.4% \u00d74"
                         ]
                       },
                       {
                         "label": "Windborne Sword Lv. 3 Spirit Blade Final Hit DMG",
                         "values": [
-                          "140%",
-                          "150.5%",
-                          "161%",
-                          "175%",
-                          "185.5%",
+                          "156.8%",
+                          "168.6%",
+                          "180.3%",
                           "196%",
-                          "210%",
-                          "224%",
-                          "238%",
-                          "252%",
-                          "266%",
-                          "280%",
-                          "297.5%",
-                          "315%",
-                          "332.5%"
+                          "207.8%",
+                          "219.5%",
+                          "235.2%",
+                          "250.9%",
+                          "266.6%",
+                          "282.2%",
+                          "297.9%",
+                          "313.6%",
+                          "333.2%",
+                          "352.8%",
+                          "372.4%"
                         ]
                       },
                       {
                         "label": "Windborne Sword Lv. 2 Spirit Blade Stellar Swirl DMG",
                         "values": [
-                          "100%",
-                          "107.5%",
-                          "115%",
-                          "125%",
-                          "132.5%",
+                          "112%",
+                          "120.4%",
+                          "128.8%",
                           "140%",
-                          "150%",
-                          "160%",
-                          "170%",
-                          "180%",
-                          "190%",
-                          "200%",
-                          "212.5%",
-                          "225%",
-                          "237.5%"
+                          "148.4%",
+                          "156.8%",
+                          "168%",
+                          "179.2%",
+                          "190.4%",
+                          "201.6%",
+                          "212.8%",
+                          "224%",
+                          "238%",
+                          "252%",
+                          "266%"
                         ]
                       },
                       {
                         "label": "Windborne Sword Lv. 3 Spirit Blade Stellar Swirl DMG",
                         "values": [
-                          "40% \u00d74",
-                          "43% \u00d74",
-                          "46% \u00d74",
-                          "50% \u00d74",
-                          "53% \u00d74",
+                          "44.8% \u00d74",
+                          "48.2% \u00d74",
+                          "51.5% \u00d74",
                           "56% \u00d74",
-                          "60% \u00d74",
-                          "64% \u00d74",
-                          "68% \u00d74",
-                          "72% \u00d74",
-                          "76% \u00d74",
-                          "80% \u00d74",
-                          "85% \u00d74",
-                          "90% \u00d74",
-                          "95% \u00d74"
+                          "59.4% \u00d74",
+                          "62.7% \u00d74",
+                          "67.2% \u00d74",
+                          "71.7% \u00d74",
+                          "76.2% \u00d74",
+                          "80.6% \u00d74",
+                          "85.1% \u00d74",
+                          "89.6% \u00d74",
+                          "95.2% \u00d74",
+                          "100.8% \u00d74",
+                          "106.4% \u00d74"
                         ]
                       },
                       {
                         "label": "Windborne Sword Lv. 3 Spirit Blade Final Hit Stellar Swirl DMG",
                         "values": [
-                          "140%",
-                          "150.5%",
-                          "161%",
-                          "175%",
-                          "185.5%",
+                          "156.8%",
+                          "168.6%",
+                          "180.3%",
                           "196%",
-                          "210%",
-                          "224%",
-                          "238%",
-                          "252%",
-                          "266%",
-                          "280%",
-                          "297.5%",
-                          "315%",
-                          "332.5%"
+                          "207.8%",
+                          "219.5%",
+                          "235.2%",
+                          "250.9%",
+                          "266.6%",
+                          "282.2%",
+                          "297.9%",
+                          "313.6%",
+                          "333.2%",
+                          "352.8%",
+                          "372.4%"
                         ]
                       },
                       {
@@ -729,25 +730,42 @@
               {
                 "name": "For the Tsaritsa!",
                 "type": "Elemental Burst",
-                "desc": "Vesna summons multiple spirit blades for a spectacular Spirit Blade Burst in front of her. This dealsAoE Anemo DMG to opponents, and also regenerates one orb of Spirit Blade Force for her.\nRadiance: Stellar Swirl: The Spirit Blades become Stellar Spirit Blades that deal Anemo DMG considered as Stellar Swirl reaction DMG to the opponent instead.",
+                "desc": "Summons multiple Spirit Blades, dealing AoE Anemo DMG. Also gains a stack of Sword Essence.\n\n\"First, always hold on tight to the sword in your hand; second, always present a neat and dignified appearance; and most important of all, always remain loyal to Her Majesty the Tsaritsa!\"",
                 "descFormat": [
                   {
-                    "start": 101,
-                    "end": 114,
-                    "kind": "tone",
-                    "tone": "anemo"
+                    "start": 17,
+                    "end": 30,
+                    "kind": "term",
+                    "term": "N11430004"
                   },
                   {
-                    "start": 189,
-                    "end": 212,
+                    "start": 17,
+                    "end": 30,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 271,
-                    "end": 280,
+                    "start": 40,
+                    "end": 53,
                     "kind": "tone",
                     "tone": "anemo"
+                  },
+                  {
+                    "start": 77,
+                    "end": 90,
+                    "kind": "term",
+                    "term": "N11430002"
+                  },
+                  {
+                    "start": 77,
+                    "end": 90,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 93,
+                    "end": 281,
+                    "kind": "em"
                   }
                 ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Vesna_01.webp",
@@ -864,7 +882,7 @@
               {
                 "name": "Rite of Spring's Procession",
                 "type": "Passive Talent",
-                "desc": "After Vesna uses the special Elemental Skill Windborne Sword or the Elemental Burst For the Tsaritsa!, she also gains 1 stack of Disciplinary Action which lasts 20s. Max 6 stacks.\nWhen she has Disciplinary Action stacks active, the Spirit Blade summoned by Vesna will deal DMG at 100% of original DMG + (10% \u00d7 Disciplinary Action stack count) instead. All active stacks of Disciplinary Action are cleared when Vesna uses the Elemental Skill The Art of Victory or when she leaves the field.",
+                "desc": "After Vesna uses the special Elemental Skill Windborne Sword or the Elemental Burst For the Tsaritsa!, she also gains 1 stack of Disciplinary Action which lasts 20s. Max 6 stacks, and the duration of each stack is independent of the others'.\nWhen she has Disciplinary Action stacks active, the Spirit Blade summoned by Vesna will deal DMG at 100% of original DMG + (10% \u00d7 Disciplinary Action stack count) instead. All active stacks of Disciplinary Action are cleared when Vesna uses the Elemental Skill The Art of Victory or when she leaves the field.",
                 "descFormat": [
                   {
                     "start": 45,
@@ -897,32 +915,32 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 193,
-                    "end": 212,
+                    "start": 255,
+                    "end": 274,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 232,
-                    "end": 244,
+                    "start": 294,
+                    "end": 306,
                     "kind": "term",
                     "term": "N11430004"
                   },
                   {
-                    "start": 232,
-                    "end": 244,
+                    "start": 294,
+                    "end": 306,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 373,
-                    "end": 392,
+                    "start": 435,
+                    "end": 454,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 441,
-                    "end": 459,
+                    "start": 503,
+                    "end": 521,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -931,7 +949,7 @@
               {
                 "name": "Truth Prevails",
                 "type": "Passive Talent",
-                "desc": "Radiance: Stellar Swirl\nVesna will gain the corresponding effect based on the Elemental Type of her party members.\n\u00b7 For every Cryo or Anemo character in her current party, Vesna's ATK increases by 6%; and\n\u00b7 For every character of all other Elemental Types in her current party, Vesna's Elemental Mastery increases by 25 instead.",
+                "desc": "Radiance: Stellar Swirl: Vesna will gain the corresponding effect based on the Elemental Type of her party members:\n\u00b7 For every Cryo or Anemo character in her current party, Vesna's ATK increases by 6%; and\n\u00b7 For every character of all other Elemental Types in her current party, Vesna's Elemental Mastery increases by 25 instead.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -940,14 +958,14 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 127,
-                    "end": 131,
+                    "start": 128,
+                    "end": 132,
                     "kind": "tone",
                     "tone": "cryo"
                   },
                   {
-                    "start": 135,
-                    "end": 140,
+                    "start": 136,
+                    "end": 141,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -1011,7 +1029,7 @@
               {
                 "name": "Winter's Farewell Feast",
                 "type": "Constellation 1",
-                "desc": "When in the Armed for Action mode, Vesna can unleash Windborne Sword at the highest level 4 times instead of 3. Also, each time she enters the Armed for Action mode, she will not consume sword energy the first time she uses Windborne Sword.\nAdditionally, Vesna deals 20% increased Stellar Swirl reaction DMG when in the Armed for Action mode.",
+                "desc": "When in the Armed for Action mode, Vesna can unleash Windborne Sword at the highest level 4 times instead of 3. Also, each time she enters the Armed for Action mode, she will not consume Sword Essence the first time she uses Windborne Sword at the highest level.\nAdditionally, Vesna deals 20% increased Stellar Swirl reaction DMG when in the Armed for Action mode.",
                 "descFormat": [
                   {
                     "start": 12,
@@ -1045,25 +1063,25 @@
                   },
                   {
                     "start": 187,
-                    "end": 199,
+                    "end": 200,
                     "kind": "term",
                     "term": "N11430002"
                   },
                   {
                     "start": 187,
-                    "end": 199,
+                    "end": 200,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 224,
-                    "end": 239,
+                    "start": 225,
+                    "end": 240,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 320,
-                    "end": 336,
+                    "start": 342,
+                    "end": 358,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -1078,7 +1096,7 @@
                     "start": 19,
                     "end": 46,
                     "kind": "term",
-                    "term": "P1432201"
+                    "term": "P1432101"
                   },
                   {
                     "start": 19,
@@ -1120,6 +1138,12 @@
                   {
                     "start": 43,
                     "end": 61,
+                    "kind": "term",
+                    "term": "S11432"
+                  },
+                  {
+                    "start": 43,
+                    "end": 61,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -1149,6 +1173,12 @@
                 "type": "Constellation 5",
                 "desc": "Increases the Level of the Elemental Burst For the Tsaritsa! by 3.\nMaximum upgrade level is 15.",
                 "descFormat": [
+                  {
+                    "start": 43,
+                    "end": 60,
+                    "kind": "term",
+                    "term": "S11435"
+                  },
                   {
                     "start": 43,
                     "end": 60,
@@ -1344,17 +1374,20 @@
         ]
       },
       "facts": {
+        "title": "Snowy Banquet's Sharp Blade",
+        "affiliation": "Druzhna",
+        "constellation": "Amentum Vernum",
         "birthday": "January 1",
         "nation": "Snezhnaya Star"
       },
       "book": "Glory",
       "signatureWeapon": {
         "id": "11522",
-        "name": "\u8776\u53d8",
+        "name": "Beyond the Chrysalis",
         "educated": true
       },
       "signatureWeaponId": "11522",
-      "signatureWeaponName": "\u8776\u53d8",
+      "signatureWeaponName": "Beyond the Chrysalis",
       "signatureWeaponEducated": true,
       "req": {
         "ascension": [
@@ -3778,6 +3811,7 @@
       "localizedNames": {
         "en": "Vodyanitsa"
       },
+      "title": "Lingering Siren-Song",
       "r": 5,
       "el": "Hydro",
       "w": "Catalyst",
@@ -3798,7 +3832,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "7.0.51",
+        "version": "7.0.52",
         "sections": [
           {
             "title": "Talents",
@@ -4034,7 +4068,7 @@
               {
                 "name": "Rechitativ: Sonorous Dawn",
                 "type": "Elemental Skill",
-                "desc": "Reveals her true Water Imp form, dealing AoE Hydro DMG. Opponents hit have their Hydro RES and Cryo RES lowered as a result. Also gains the Song of Ages Past effect: Over its duration, Vodyanitsa summons the ancient Horn of Spring's Call, periodically moving closer to an opponent in a swift movement to attack them, dealing Hydro DMG\nOpponents that have taken the above two types of DMG will also have their Hydro RES and Cryo RES lowered. Additionally, while the Song of Ages Past effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.\n\n\"I shall not lament, and nor shall I call out or weep. All things shall pass, like mist that softly drifts across the boughs of the white apple trees.\"\n\"And yet, and yet \u2014 for all living things upon the earth, I wish you everlasting beauty and happiness.\"",
+                "desc": "Reveals her true Water Imp form, dealing AoE Hydro DMG and gaining the Song of Ages Past effect: Over its duration, Vodyanitsa summons the ancient Horn of Spring's Call, periodically moving closer to an opponent in a swift movement to attack them, dealing Hydro DMG\nOpponents that have taken the above two types of DMG will also have their Hydro RES and Cryo RES lowered. Additionally, while the Song of Ages Past effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.\n\n\"I shall not lament, nor shall I call out or weep. All things shall pass, like mist that softly drifts across the boughs of the white apple trees.\"\n\"And yet, and yet \u2014 for all living things upon the earth, I wish you everlasting beauty and happiness.\"",
                 "descFormat": [
                   {
                     "start": 41,
@@ -4043,56 +4077,44 @@
                     "tone": "hydro"
                   },
                   {
-                    "start": 81,
-                    "end": 90,
+                    "start": 71,
+                    "end": 88,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 147,
+                    "end": 168,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 256,
+                    "end": 265,
                     "kind": "tone",
                     "tone": "hydro"
                   },
                   {
-                    "start": 95,
-                    "end": 103,
+                    "start": 340,
+                    "end": 349,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 354,
+                    "end": 362,
                     "kind": "tone",
                     "tone": "cryo"
                   },
                   {
-                    "start": 140,
-                    "end": 157,
+                    "start": 396,
+                    "end": 413,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 216,
-                    "end": 237,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 325,
-                    "end": 334,
-                    "kind": "tone",
-                    "tone": "hydro"
-                  },
-                  {
-                    "start": 409,
-                    "end": 418,
-                    "kind": "tone",
-                    "tone": "hydro"
-                  },
-                  {
-                    "start": 423,
-                    "end": 431,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 465,
-                    "end": 482,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 646,
-                    "end": 901,
+                    "start": 577,
+                    "end": 828,
                     "kind": "em"
                   }
                 ],
@@ -4241,21 +4263,21 @@
                       {
                         "label": "Hydro/Cryo RES Reduction",
                         "values": [
-                          "14.3%",
-                          "15.6%",
-                          "16.9%",
-                          "18.2%",
+                          "16.5%",
+                          "18%",
                           "19.5%",
-                          "20.8%",
-                          "22.1%",
-                          "23.4%",
-                          "24.7%",
-                          "26%",
-                          "27.6%",
-                          "29.1%",
-                          "30.7%",
-                          "32.2%",
-                          "33.8%"
+                          "21%",
+                          "22.5%",
+                          "24%",
+                          "25.5%",
+                          "27%",
+                          "28.5%",
+                          "30%",
+                          "31.8%",
+                          "33.6%",
+                          "35.4%",
+                          "37.2%",
+                          "39%"
                         ]
                       },
                       {
@@ -4476,7 +4498,7 @@
               {
                 "name": "Dirge of the Fandyr",
                 "type": "Passive Talent",
-                "desc": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, Vodyanitsa will also gain 17 stacks of Lead Vocal as well as 10 stacks of Chorus.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
+                "desc": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, Vodyanitsa will also gain 25 stacks of Lead Vocal as well as 10 stacks of Chorus.\nThe two effects above last 30s each, and the stack count is refreshed when the Elemental Skill is used.",
                 "descFormat": [
                   {
                     "start": 25,
@@ -4513,7 +4535,7 @@
               {
                 "name": "Echoes Over the Frozen Lake",
                 "type": "Passive Talent",
-                "desc": "Holding Elemental Skill when Vodyanitsa is out of combat will cause her to show her true Water Imp form and swim for up to 10s at the cost of Stamina, and because she is a Water Imp, of course she can also move on the water surface. Vodyanitsa will exit her Water Imp form when the Skill button is released, when the state duration ends, or when all Stamina is used up.\nAdditionally, while Vodyanitsa can swim more quickly, her Stamina consumption rate will also be higher."
+                "desc": "Holding Elemental Skill when Vodyanitsa is out of combat will cause her to show her true Water Imp form and swim for up to 10s at the cost of Stamina, and because she is a Water Imp, she can also move on the water's surface as a matter of course. Vodyanitsa will exit her Water Imp form when the Elemental Skill is used again, when the state duration ends, or when all Stamina is used up.\nAdditionally, while Vodyanitsa can swim more quickly, her Stamina consumption rate will also be higher."
               },
               {
                 "name": "Heartless Siren Song",
@@ -4528,7 +4550,7 @@
               {
                 "name": "Waters in Full Splendor",
                 "type": "Constellation 1",
-                "desc": "Each time Vodyanitsa performs healing, the ATK of all nearby party members is also increased by 0.7% of her Max HP for 3s."
+                "desc": "Each time Vodyanitsa performs healing, the ATK of all nearby party members is also increased by 1% of her Max HP for 5s."
               },
               {
                 "name": "Echoes That Pierce the Snow",
@@ -4619,7 +4641,7 @@
               {
                 "name": "Neverending Song of Revelry",
                 "type": "Constellation 6",
-                "desc": "The Constellation Echoes That Pierce the Snow is enhanced as follows: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the Song of Ages Past effect is active, Stellar Swirl reaction DMG dealt by nearby party members is elevated by 25% while Hydro DMG and Cryo DMG dealt are increased by 50%.",
+                "desc": "The Constellation Echoes That Pierce the Snow is enhanced as follows: \"Two Voices in Black and White\" now applies to all nearby party members.\nAdditionally, while the Song of Ages Past effect is active, Stellar Swirl reaction DMG dealt by nearby party members is elevated by 30% while Hydro DMG and Cryo DMG dealt are increased by 60%.",
                 "descFormat": [
                   {
                     "start": 18,
@@ -4779,17 +4801,20 @@
         ]
       },
       "facts": {
+        "title": "Lingering Siren-Song",
+        "affiliation": "Korolevskiy Troupe",
+        "constellation": "Piscicula Aurea",
         "birthday": "January 1",
         "nation": "Snezhnaya"
       },
       "book": "Fortitude",
       "signatureWeapon": {
         "id": "14524",
-        "name": "\u6f29\u6d41\u9882\u6b4c",
+        "name": "Hymn of the Maelstrom",
         "educated": true
       },
       "signatureWeaponId": "14524",
-      "signatureWeaponName": "\u6f29\u6d41\u9882\u6b4c",
+      "signatureWeaponName": "Hymn of the Maelstrom",
       "signatureWeaponEducated": true,
       "req": {
         "ascension": [
@@ -6948,7 +6973,7 @@
   "weapons": [
     {
       "id": "14524",
-      "name": "\u6f29\u6d41\u9882\u6b4c",
+      "name": "Hymn of the Maelstrom",
       "rarity": 5,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -7196,7 +7221,7 @@
     },
     {
       "id": "11522",
-      "name": "\u8776\u53d8",
+      "name": "Beyond the Chrysalis",
       "rarity": 5,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7371,8 +7396,19 @@
       "cost": 225000
     },
     {
+      "id": "11521",
+      "name": "Exaiphanes Blade",
+      "rarity": 5,
+      "weaponType": "Sword",
+      "type": "Sword",
+      "icon": "../../Database/GameData/gi/assets/weapons/icons/UI_EquipIcon_Sword_WeaponQuestSnezhnaya.webp",
+      "art": "../../Database/GameData/gi/assets/weapons/gacha/UI_Gacha_EquipIcon_Sword_WeaponQuestSnezhnaya.webp",
+      "items": [],
+      "cost": 0
+    },
+    {
       "id": "15437",
-      "name": "\u67d4\u98ce\u6e38\u5f26",
+      "name": "Breezeborne Refrain",
       "rarity": 4,
       "weaponType": "Bow",
       "type": "Bow",
@@ -7596,7 +7632,7 @@
     },
     {
       "id": "14437",
-      "name": "\u51dd\u96ea\u6c89\u5fc3",
+      "name": "Winter's Heavy Heart",
       "rarity": 4,
       "weaponType": "Catalyst",
       "type": "Catalyst",
@@ -7796,7 +7832,7 @@
     },
     {
       "id": "390002",
-      "name": "?",
+      "name": "Exaiphanes Blade",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7807,7 +7843,7 @@
     },
     {
       "id": "390003",
-      "name": "?",
+      "name": "Exaiphanes Blade",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7818,7 +7854,7 @@
     },
     {
       "id": "11437",
-      "name": "\u65b0\u679d",
+      "name": "New Bough",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",
@@ -7994,7 +8030,7 @@
     },
     {
       "id": "11438",
-      "name": "\u94f6\u91ed",
+      "name": "Silver Light",
       "rarity": 4,
       "weaponType": "Sword",
       "type": "Sword",

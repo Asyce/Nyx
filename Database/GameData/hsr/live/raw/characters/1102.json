@@ -264,27 +264,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 70,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Mm-hmm, not bad.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 71,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Hey! Pretty generous.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 67,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Not bad at all.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "That was unnecessarily difficult...",
         "is_battle_voice": true
       },
       {
@@ -297,6 +279,24 @@
         "voice_id": 69,
         "voice_title": "Returning to Town",
         "voice_m": "Let's take it in turns. You rest, I'll stand guard.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Mm-hmm, not bad.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Hey! Pretty generous.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "That was unnecessarily difficult...",
         "is_battle_voice": true
       }
     ]
@@ -2728,7 +2728,7 @@
             },
             "10000017": {
               "name": "True DMG",
-              "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as using 1 attack.",
+              "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as launching 1 attack.",
               "param": []
             }
           }

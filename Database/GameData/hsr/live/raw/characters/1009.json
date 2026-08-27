@@ -162,6 +162,18 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 25,
+        "voice_title": "About The Herta",
+        "voice_m": "I've only seen Madam Herta in the flesh a few times after the establishment of the Herta Space Station, but every one of those meetings was an unforgettable experience.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With The Herta",
+        "voice_m": "Thank you for showing up personally. No need to worry. Just leave the support work to me!",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Hm. Scared yet?",
@@ -270,27 +282,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Hope you like them!",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Definitely worth our while.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Progress~",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Been a while since I worked on one of these!",
         "is_battle_voice": true
       },
       {
@@ -303,6 +297,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "Can you see the stars from here too?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Hope you like them!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Definitely worth our while.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Been a while since I worked on one of these!",
         "is_battle_voice": true
       }
     ]

@@ -156,6 +156,48 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 24,
+        "voice_title": "About Sunday",
+        "voice_m": "Whether he can achieve his dream or not, being able to let go of everything and start again is already admirable enough.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "I look forward to cooperating during our travels together.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With Evernight",
+        "voice_m": "I'll say this upfront: Please do NOT go against March's wishes.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "About Mortenax Blade",
+        "voice_m": "\"Cloud-Piercer\" once shattered, yet it grew sharper after being reforged. A blade reflects the hand that forged it... that much is true.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Mortenax Blade",
+        "voice_m": "Here we stand, each of us guarding something we believe in.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "About Himeko • Nova",
+        "voice_m": "Himeko once told me that we should embrace the past and look toward the future. After seeing her interpretation of those words, they carry a whole new weight to them now.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Added to Team With Himeko • Nova",
+        "voice_m": "Don't worry. I've already familiarized myself with the Starblazer's operation.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "It's too late to repent.",
@@ -252,27 +294,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 70,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Hmm... There is knowledge of this in the data bank.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 71,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "This should be securely stored.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 67,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "That wasn't too difficult.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Seamless.",
         "is_battle_voice": true
       },
       {
@@ -285,6 +309,36 @@
         "voice_id": 69,
         "voice_title": "Returning to Town",
         "voice_m": "Mm... I'll need to record today's notes in the data bank.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Hmm... There is knowledge of this in the data bank.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "This should be securely stored.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Seamless.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Assist Skill: Trailblaze Companions",
+        "voice_m": "Hope will endure!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Finishing Blow: Trailblaze Companions",
+        "voice_m": "Become the stars, and light up the cosmic night!",
         "is_battle_voice": true
       }
     ]

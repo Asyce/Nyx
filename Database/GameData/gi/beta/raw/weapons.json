@@ -459,25 +459,25 @@
     "icon": "UI_EquipIcon_Sword_SpikedStake",
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "Weapon: Sword",
+    "en": "New Bough",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL_HURT",
     "desc": "",
-    "ko": "무기-한손검",
+    "ko": "새순",
     "zh": "新枝",
-    "ja": "武器片手剣"
+    "ja": "新たなる枝"
   },
   "11438": {
     "icon": "UI_EquipIcon_Sword_Fajian",
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "Weapon: Sword",
+    "en": "Silver Light",
     "atk": 510,
     "sub": "FIGHT_PROP_ATTACK_PERCENT",
     "desc": "",
-    "ko": "무기-한손검",
+    "ko": "은강검",
     "zh": "银釭",
-    "ja": "武器片手剣"
+    "ja": "銀の釭JP0D"
   },
   "11501": {
     "icon": "UI_EquipIcon_Sword_Falcon",
@@ -699,13 +699,13 @@
     "icon": "UI_EquipIcon_Sword_Samosvist",
     "rank": 5,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "Weapon: Sword",
+    "en": "Beyond the Chrysalis",
     "atk": 674,
     "sub": "FIGHT_PROP_CRITICAL_HURT",
     "desc": "",
-    "ko": "무기-한손검",
+    "ko": "나비의 우화",
     "zh": "蝶变",
-    "ja": "武器片手剣"
+    "ja": "蝶の羽化"
   },
   "12101": {
     "icon": "UI_EquipIcon_Claymore_Aniki",
@@ -2175,13 +2175,13 @@
     "icon": "UI_EquipIcon_Catalyst_FrostScepter",
     "rank": 4,
     "type": "WEAPON_CATALYST",
-    "en": "Weapon: Catalyst",
+    "en": "Winter's Heavy Heart",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL_HURT",
     "desc": "",
-    "ko": "무기-법구",
+    "ko": "얼어붙은 심장",
     "zh": "凝雪沉心",
-    "ja": "武器法器"
+    "ja": "雪に沈む心"
   },
   "14501": {
     "icon": "UI_EquipIcon_Catalyst_Dvalin",
@@ -2415,13 +2415,13 @@
     "icon": "UI_EquipIcon_Catalyst_Bludnye",
     "rank": 5,
     "type": "WEAPON_CATALYST",
-    "en": "Weapon: Catalyst",
+    "en": "Hymn of the Maelstrom",
     "atk": 542,
     "sub": "FIGHT_PROP_HP_PERCENT",
     "desc": "",
-    "ko": "무기-법구",
+    "ko": "파도의 찬송가",
     "zh": "漩流颂歌",
-    "ja": "武器法器"
+    "ja": "旋流の讃美歌"
   },
   "15101": {
     "icon": "UI_EquipIcon_Bow_Hunters",
@@ -2871,13 +2871,13 @@
     "icon": "UI_EquipIcon_Bow_Windtalker",
     "rank": 4,
     "type": "WEAPON_BOW",
-    "en": "Weapon: Bow",
+    "en": "Breezeborne Refrain",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
     "desc": "",
-    "ko": "무기-활",
+    "ko": "산들바람 활",
     "zh": "柔风游弦",
-    "ja": "武器弓"
+    "ja": "風に遊ぶ弦"
   },
   "15501": {
     "icon": "UI_EquipIcon_Bow_Dvalin",
@@ -3395,10 +3395,10 @@
     "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya01",
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "",
+    "en": "Exaiphanes Blade",
     "skin": true,
     "tag": "TAG_TYPE_NONE",
-    "desc": "",
+    "desc": "A star-hued longsword that flashes with radiance, a special weapon transmogrification that can only be equipped by the Traveler.\\n\\n<i>\"I am the nothingness at the dawn of all things. I am the spark newly born after all things have fallen into ruin.\"</i>\\n<i>\"Behold, my great work shall now be complete.\"</i>",
     "ko": "",
     "zh": "星锋剑",
     "ja": "星鋒の剣"
@@ -3407,10 +3407,10 @@
     "icon": "UI_EquipIcon_Sword_WeaponQuestSnezhnaya02",
     "rank": 4,
     "type": "WEAPON_SWORD_ONE_HAND",
-    "en": "",
+    "en": "Exaiphanes Blade",
     "skin": true,
     "tag": "TAG_TYPE_NONE",
-    "desc": "",
+    "desc": "A star-hued longsword that flashes with radiance, a special weapon transmogrification gifted by the Traveler to a friend.\\n\\n\"But this world shall never burn again, for the justice beyond this world has arrived.\"</i>\\n<i>\"Behold... The stars shine ever so bright tonight.\"</i>",
     "ko": "",
     "zh": "星锋剑",
     "ja": "星鋒の剣"

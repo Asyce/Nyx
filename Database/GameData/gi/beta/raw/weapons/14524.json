@@ -1,5 +1,5 @@
 {
-  "name": "Weapon: Catalyst",
+  "name": "Hymn of the Maelstrom",
   "desc": "",
   "weapon_type": "WEAPON_CATALYST",
   "weapon_prop": [
@@ -342,8 +342,8 @@
   },
   "refinement": {
     "1": {
-      "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>5%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.25%</color>, up to <color=#99FFFFFF>5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "name": "Rondo of Slumber",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>4%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>4%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.4%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>8%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.04,
         40000,
@@ -356,8 +356,8 @@
       ]
     },
     "2": {
-      "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>10%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>6%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.325%</color>, up to <color=#99FFFFFF>6.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "name": "Rondo of Slumber",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>5%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>5%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.5%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>10%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.05,
         40000,
@@ -370,8 +370,8 @@
       ]
     },
     "3": {
-      "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>12%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>7%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.4%</color>, up to <color=#99FFFFFF>8%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "name": "Rondo of Slumber",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>6%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>6%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.6%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>12%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.06,
         40000,
@@ -384,8 +384,8 @@
       ]
     },
     "4": {
-      "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>14%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>8%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.475%</color>, up to <color=#99FFFFFF>9.5%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "name": "Rondo of Slumber",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>7%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>7%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.7%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>14%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.07,
         40000,
@@ -398,8 +398,8 @@
       ]
     },
     "5": {
-      "name": "7.1 Promo Weapon",
-      "desc": "Increases Healing Bonus by <color=#99FFFFFF>16%</color>.\\nWhen the equipping character performs healing, they receive 1 stack of the \"Hymn of the Water Imp\" effect, which increases their Max HP by <color=#99FFFFFF>9%</color>. Additionally, every 1,000 Max HP the equipping character has over 40,000 will also increase the active character's ATK by <color=#99FFFFFF>0.55%</color>, up to <color=#99FFFFFF>11%</color> in total.\\nHymn of the Water Imp lasts 8s, max 3 stacks. Each stack's duration is independent of the others'.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, any currently active instances of Hymn of the Water Imp, as well as any instances that come into effect within the next 5s, become \"Triumph of the Water Imp\" instead, which further increases the Max HP and ATK increase by 75%.\\nThe aforementioned effects can trigger even when the equipping character is not on the field.",
+      "name": "Rondo of Slumber",
+      "desc": "Increases Healing Bonus by <color=#99FFFFFF>8%</color>.\\nWhen performing healing, the equipping character gains the \"Tipple of Truth\" effect, which increases Max HP by <color=#99FFFFFF>8%</color> as well as increases the currently active party member's ATK by <color=#99FFFFFF>0.8%</color> for every 1,000 Max HP the equipping character has over 40,000. A maximum of <color=#99FFFFFF>16%</color> ATK can be gained in this way. This effect lasts 10s, max 3 stacks.\\nWhen a nearby party member triggers a Frozen or Stellar Swirl reaction, the aforementioned Max HP and ATK boosts will be further increased by 75% for the next 5s.\\nThe aforementioned effects can still trigger even when the equipping character is not on the field.",
       "param_list": [
         0.08,
         40000,

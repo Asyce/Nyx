@@ -20,6 +20,20 @@
     "rarity": "SuperRare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/3.png"
   },
+  "61": {
+    "item_name": "",
+    "item_sub_type": "Virtual",
+    "purpose_type": 8,
+    "rarity": "SuperRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/61.png"
+  },
+  "62": {
+    "item_name": "",
+    "item_sub_type": "Virtual",
+    "purpose_type": 8,
+    "rarity": "SuperRare",
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/62.png"
+  },
   "101": {
     "item_name": "Star Rail Pass",
     "item_sub_type": "Material",
@@ -1236,7 +1250,7 @@
     "item_sub_type": "Material",
     "purpose_type": 14,
     "rarity": "SuperRare",
-    "item_figure_icon_path": "SpriteOutput/ItemFigures/295536.png"
+    "item_figure_icon_path": "SpriteOutput/ItemFigures/295537.png"
   },
   "123000": {
     "item_name": "Access Card",
@@ -5997,6 +6011,13 @@
     "purpose_type": 16,
     "rarity": "VeryRare",
     "item_figure_icon_path": "SpriteOutput/ItemFigures/150101.png"
+  },
+  "150102": {
+    "item_name": "...",
+    "item_sub_type": "Mission",
+    "purpose_type": 16,
+    "rarity": "Rare",
+    "item_figure_icon_path": "SpriteOutput/ItemIcon/190023.png"
   },
   "180001": {
     "item_name": "Solid Water",

@@ -90,12 +90,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 21,
-        "voice_title": "About Sam",
-        "voice_m": "Oh, Sam isn't nearly as picky about his prey as I am... you might consider it a lucky break running into me.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 13,
         "voice_title": "Eidolon Activation",
         "voice_m": "No one can completely grasp another's thoughts... Not even you or I.",
@@ -141,6 +135,48 @@
         "voice_id": 20,
         "voice_title": "Added to Team With Himeko",
         "voice_m": "Oh, the Express Crew. Looks like we'll be joining forces quite often, huh?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Sam",
+        "voice_m": "Oh, Sam isn't nearly as picky about his prey as I am... you might consider it a lucky break running into me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Added to Team With Firefly",
+        "voice_m": "It's not in the script, so what happens next is up to us.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "About Firefly",
+        "voice_m": "I suppose all we can do is keep each other company... for a while.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "I know. She always wanted to bring her ideas to life, unfettered. So I hope she enjoys herself this time.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "Is this the kind of gameplay you had in mind, Silver Wolf?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Mortenax Blade",
+        "voice_m": "He has always been the sharpest edge among the Stellaron Hunters. But from this day on, his \"fate\" lies in his own hand, like a sword he alone wields.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Mortenax Blade",
+        "voice_m": "The Mara has been purged. Now act as you intend.",
         "is_battle_voice": false
       },
       {
@@ -252,27 +288,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "No surprise there.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Like what you see? Me too.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Nice work.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Impressive. Want a prize?",
         "is_battle_voice": true
       },
       {
@@ -285,6 +303,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "*sigh* Is that a stain? I like this coat.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "No surprise there.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Like what you see? Me too.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Impressive. Want a prize?",
         "is_battle_voice": true
       }
     ]

@@ -2,13 +2,357 @@
   "name": "Gilgamesh",
   "desc": "The King of Heroes from the dawn of human history, hailing from a world beyond the stars.\\nPossessing a nature two-thirds divine and one-third mortal, he claims a natural-born prerogative to rule over all of creation.",
   "chara_info": {
+    "camp": "Another World",
     "va": {
       "chinese": "藤新",
       "japanese": "関智一",
       "korean": "김종엽"
     },
-    "stories": {},
-    "voicelines": []
+    "stories": {
+      "0": "The King of Heroes from the dawn of human history, hailing from a world beyond the stars.\\nBeing two-thirds divine and one-third mortal, he claims a natural-born prerogative to rule over all of creation.\\nToday, as ever, his boisterous laughter echoed through the heavens... until a certain goddess and eternal rival dragged him into a foreign realm.\\nNow, he sets forth once more to reclaim all that belongs to a king.",
+      "1": "\"He beheld the ocean's deepest abysses and the very foundations of the Earth; he knew where all secrets lay, and all things were revealed to him.\"\\nThe epic records the king's final chapter: he attained absolute wisdom, witnessed every treasure, and unveiled the mysteries of the gods.\\nHe returned from a thousand-mile journey utterly spent, yet blessed with a peace transcending all earthly things, and set down the story of his life.\\n\\n<i>\"Hmph, what a shallow, pitiful fool you are.\\n\"Are you seriously suggesting that I was somehow mightier in that withering, aged form than the perfected one standing before you?\"</i>\\n\\nNo, no, no! Of course not!\\nPerhaps that introduction was a touch one-sided. Allow me to try a different angle.\\n\\nGilgamesh, history's most ancient King of Heroes. Unlike the countless heroes throughout the ages driven by lofty ideals, his power springs from an appetite that can never be sated.\\nFrom the ocean where the sun rises to the snow-capped peaks where it sets, every facet of human civilization was shaped under his guidance: boundless cities, boundless orchards, boundless mines...\\nWith superhuman vigor, he commanded everything his eyes could survey. Yet the very king who made the whole world flourish also worked his subjects to the bone...\\n\\n<i>\"Watch your tongue. How dare you let such clumsy metaphors reach my ears. One wrong word, and you'll lose your head.\\n\"But this once, I'll show mercy and spare your life.\"</i>\\n\\nHuh?\\n\\n<i>\"At least you faithfully documented my great deeds... Hmph, though in truth, you've barely scratched the surface.\\n\"Indeed... Ultimate power, ultimate extravagance, ultimate authority, this is my way.\\n\"If such a ruler did not exist in this world, those mediocre fools who cower before tyranny yet lack the spine to strike down my head would have perished long ago, crushed beneath the gods' pathetic whims.\"</i>\\n\\nAs you can see, dear reader: Gilgamesh is the sort of stubborn character who takes \"doing whatever he pleases\" to its absolute extreme.\\n\\nNow, in that age when gods treated mortals like weeds and beasts roamed the land unchecked, the king's logic held some water... but everything has its limits.\\nWhen even newlywed couples had to revolve around the king like spinning tops, the people's complaints rose to the heavens themselves.\\nPushed by the goddess Ishtar, the gods — already fearful of humanity's relentless progress — decided to forge an unbreakable \"Enkidu\" to rein in the arrogant King.\\n\\nAnd so, filled with joy, Enkidu descended to the mortal realm.",
+      "2": "<i>\"The Epic got it right: our first encounter was indeed before the altar of the sacred marriage ceremony.\"\\n\"Hmph... To think a mere clod of dirt would dare spew such nonsense, claiming they would 'correct my arrogance.'\"\\n\"Utterly absurd.\"</i>\\n\\nDespite these words, the king — for reasons unknown, though I boldly guess it was out of sheer surprise or even rage at meeting a worthy opponent for the very first time — finally took the fight seriously.\\nEnkidu's form ebbed and flowed at will, shaping incalculable weapons that swept toward the king like a torrential storm. In the face of this desperate impasse, the king, in a rare moment of imitation, did the unthinkable: he flung wide the gates of his treasury, heartlessly casting forth his riches as a hail of stones.\\n\\n<i>\"If it's an opponent of equal standing, it wouldn't matter even if the coffers ended up completely empty.\"</i>\\nReaching this point in the story, the king added this unprompted remark. His perpetually furrowed brow seemed to relax a fraction as he shifted his gaze to the sky outside the window.\\nSoon, the tale resumed: Despite pulling out all the stops, the king simply couldn't suppress that \"mere clod of dirt.\"\\nThe battle ended without a victor.\\n\\n<i>\"Back then, we had yet to understand what survival even meant.\"\\n\"To keep fighting would have only added two more foolish corpses to the pile.\"</i>\\n\\nThe clay tablets bearing the epic are hopelessly fragmented here, so no one knows why Enkidu agreed to make peace with Gilgamesh. Perhaps the old adage of \"friendship forged in battle\" is the best explanation we have.\\nRegardless, Enkidu joined Uruk. For the very first time, this great city had someone who could stand shoulder-to-shoulder with the king.\\n\\nThe king remained as willful as ever. Only this time, the people of Uruk could finally find genuine joy in his antics.\\nTogether with Enkidu, he slaughtered the demonic beast Huwawa in the cedarwood forest, and later struck down the Bull of Heaven, Gugalanna, sent by the goddess Ishtar in a fit of spite. The list of such heroic legends is endless...\\nIn this crisis-ridden world, they briefly became champions whose names thundered across the lands.\\n\\n<i>\"To truly practice what they call 'protection,' summoning a biting north wind is sometimes a necessary evil.\"</i>\\n\\nThe age when the gods could casually summon a flood to bring about an apocalypse is truly gone forever...\\nBut laying a lethal curse upon a legendary hero? That, they can still do without breaking a sweat.",
+      "3": "Enkidu was dead.\\n\\nEveryone knew this was a curse from the Gods. Humans had long understood that defying the divine would carry a price; yet, when the toll was finally called, everyone seemed caught utterly off guard...\\nEspecially the king, who had once boasted that he \"knew not the meaning of the fear of death.\"\\n\\n<i>\"Absurd. How could I possibly shed tears over the death of a friend?\"\\n\"Come to think of it, I am the one who reigns over all creation; how could I possibly possess an existence known as a 'friend'?\"\\n\"Even if I did have one, I've forgotten their name.\"</i>\\n\\n...An answer that avoided the question.\\nAt any rate, as the epic tells: Gilgamesh departed Uruk. He crossed mountains and rivers until he reached a tavern at the edge of the world.\\nThe master of the tavern was Siduri. She interrogated Gilgamesh on his origins until she was certain the traveler was worthy of her guidance. Only then did she reveal the secret of how to cross the world's end to reach the land of eternal life.\\nThere dwelt the most ancient of men, Utnapishtim, known in Sumerian as Ziusudra. A survivor of the Great Flood of antiquity, he had lived in isolation until the present era.\\n\\n<i>\"Ah, I remember him.\"\\n\"One who obtained immortality by being inscribed into the divine registers. And for that very same reason, lost his form of flesh and blood, becoming an existence more wretched than even the flora of the earth...\"\\n\"...Utterly foolish. Had this been the only cost of immortality, I would never accept it.\"</i>\\n\\nLeft with no choice, the elder bestowed Gilgamesh another secret, so that he might obtain eternal life and youth without having to beg the gods for mercy.\\n<i>\"Even if that old fellow lied to me, it would still be a rare treasure, worthy enough to adorn my treasury.\"\\n\"Thus, this king set out once more on a journey to find the 'herb of immortality'.\"</i>\\n\\nAnd so it was, but unfortunately...\\n\\n<i>\"...There is nothing to be regretful about. I found the herb, sealed it in a bottle, and returned to Uruk. Exactly as the legend says, without a single lie.\"\\n\"Now then, let this interview end here. My time is precious, and I must now see to matters regarding my banned streaming channel.\"</i>\\n\\nUnfortunately, O king, there is no escape.\\nThe true conclusion of the epic is as follows: While Gilgamesh was bathing and changing his clothes to return to Uruk, he watched helplessly as a common snake swallowed the herb...\\nYet in that moment, the king could not help but burst into laughter, laughing until his body and face were nearly distorted.\\nBy the time he came to his senses, the light of dawn had broken once more.\\n\\nLater, the king returned to Uruk, empty-handed.\\nFuture readers, please do not blame Gilgamesh, for the wanderer must always return home.",
+      "4": "The epic concludes here. The contents of the final tablet are more akin to a brief encore performance following the fall of a grand opera's curtain.\\nTimes have changed. Millennia later, Gilgamesh became a Heroic Spirit because of this very epic.\\n\\n<i>\"Fool! It is not that I became a Heroic Spirit because of the epic. It is that the epic, through my telling of it, finally attained such value!\"</i>\\n<i>\"Before me, the world was ruled by gods. After me, the world was returned to humanity. It is true that Uruk has long since fallen to ruin, but no city can escape such a fate, not even {RUBY_B#The Great God's Aquatic Capital}the Abzu of Enlil{RUBY_E#}.\"\\n\"Yet humans are unlike gods. They build new cities, allowing new life to endure in new lands. Therefore...\"</i>\\n<i>\"Every city of man is my Uruk, and all are worthy of my dominion and my lash!\"</i>\\n\\n...What on earth is this man rambling on about?\\nAnd yet, unexpectedly, though his words are full of grievances, no trace of anger can be heard in the king's laughter.\\n\\n<i>\"Enough. Return to the battlefield, security officer. We have much to do.\"\\n\"The scarcity of food, the ravages of disease, the monotony of pleasure... You have gradually overcome these human deficiencies, yet the 'ego' continues to wither amidst sickly indulgences...\"\\n\"This land is already diseased to the core. But as long as I stand here, this city shall not fall.\"</i>\\n\\nGood grief, the King of Heroes is still the same as ever. Fearless since the Age of Gods, forever holding his own standards as the absolute law.\\n\\n<i>\"Of course, before that... you must reclaim every last one of my scattered treasures.\"\\n\"Otherwise, by the time I personally raze this land in place of those foul things lurking in the abyss, it will be too late for regrets.\"</i>\\n\\n...There he goes again with the classic villain speech.\\nStill, I have already found the answer I was looking for.\\nNow, together with everyone else, let us head to the battlefield once more."
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "Stellaron, my treasure. When you reach the end of your journey, I shall seal you within the deepest depths of my treasury, in the safest place of all... Hmph. That said, your Trailblaze shall endure for a long time yet, reaching even beyond the ultimate horizon of my own foresight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Since you're a treasure and not a subject, there's no need to grovel at my feet.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "There are plenty of other treasures waiting around for my affection. You're dismissed.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Class",
+        "voice_m": "My class? Boring. How could a class shorter than my own exalted name possibly encompass my multifaceted majesty?! Let that faker take pride in claiming such a trivial title.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Chat: Way of the King",
+        "voice_m": "Life is nothing but \"dying now\" or \"dying later.\" In other words, once I deem that something \"should vanish at once,\" be it warrior, god, or treasure, I'll show no mercy.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Treasury",
+        "voice_m": "I have gathered every treasure in existence and built a vault known as the \"Gate of Babylon.\" Its contents are so vast that I sealed many chambers away without even glancing at them... Hm? I have no intention of leaving you in a place like that. At the very least, it has to be the ultimate inner sanctum guarded by seven layers of seals!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Friendship",
+        "voice_m": "You expect me to call you a \"friend\"? Hah! I like that gumption that fears not even a god! Yet, abandon such thoughts. The only existence I could call my dear friend is already a part of my past. Now, speak of this no more.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Hobbies",
+        "voice_m": "Indulge in your desires, challenge all, conquer all, plunder all, crush any existence that dares obstruct my pursuit of Elation. If one does not live thus as a human, what difference is there from those mongrel beasts who only know how to grovel and beg?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Annoyances",
+        "voice_m": "The \"Golden Rule\" may appear a blessing, yet it is a curse in truth. Upon manifesting in this era, I initiated a livestream to secure funds for my endeavors. Within mere moments, I had earned a fortune and was promptly banned. I did naught but grace them with a glimpse of my august form, yet they lost their wits with infatuation. Mongrels, the lot of them.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Something to Share",
+        "voice_m": "I do not merely plunder. I also bestow all that you have earned. Be proud. That I recognize such merit in you is proof enough that you are a treasure beyond compare.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Knowledge",
+        "voice_m": "Humans are fools, yet the things they create possess true value. This universe of yours is the ultimate proof of my judgment.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About Saber",
+        "voice_m": "To a King, a nation is nothing more than a possession. If you cannot dominate it, you might as well cast aside the crown. That is why she was consumed by her own nation.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Lancer",
+        "voice_m": "He's got brawn and brains in spades. But for all his skill with that lance, he's not quite ready to be called a king.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Archer",
+        "voice_m": "A \"champion of justice\"? A world where no one gets hurt? He says such ridiculous things. The pretense of equality is nothing more than drivel by the weak who cannot face darkness. His ideal is just an excuse to cover up ugliness.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Rin Tohsaka",
+        "voice_m": "Once you've chosen the path of the arcane, you can only march toward something beyond human — but perhaps that girl, an Average One, can truly Trailblaze a path never seen before.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Ishtar",
+        "voice_m": "Donning that girl's face seems to have made that useless goddess look a good deal brighter. Although I shall never forgive the transgressions of her past... Hmph. It is a fortunate turn of events that she has learned a modicum of discipline within the confines of a mortal vessel.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Phainon",
+        "voice_m": "A true hero is one who shoulders all they behold, without exception. I had thought myself the only existence capable of enduring the collective weight of this world, to think this cosmos held another capable of such a feat. However, a flaw remains. He is far too humble! If one possesses the strength to bear the world, he need not call himself a Deliverer. He must claim the title of king!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Ashveil",
+        "voice_m": "So, the participant paired against me is that \"broken-legged wolf\"? Hardly a surprise. If you are looking for someone whose losses could rival my own, you will find no other in this Holy Grail War.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Herta and Dr. Ratio",
+        "voice_m": "In that vast universe, those who share my refined tastes are few and far between. For the most part, humans are nothing more than beasts devoid of self-awareness. Since you have found your resolve, the next step is slaying gods. I look forward to that day with great anticipation.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Kuchiba",
+        "voice_m": "That security officer is far from the simple-looking girl she appears to be. Quiet as she may seem, once she is moved to action, she becomes a merciless, unrestrained beast of pure performance... Hmph. Why must I always be surrounded by such eccentricities?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "The king acknowledges it. The king permits it. The king shoulders the entire world.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "To gaze upon the majesty of my origins? Such audacious impudence!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Hmph. It seems I must show you my true might. Be grateful for such a spectacle, won't you?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "This pittance isn't worth a glance! See the Echo of War over there? Do not keep your King waiting!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "My treasure must be the finest of the fine. See that you do not disappoint me!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Saber",
+        "voice_m": "King of Knights, I permit you to challenge my might.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Archer",
+        "voice_m": "Faker. See how a true original outshines an impostor.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Rin Tohsaka",
+        "voice_m": "Not Ishtar, but you yourself? Good. You just cheated fate.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Struggle and crawl for your life as best you can, mongrel.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Allow me to savor the unsightly spectacle of your hollow bravado.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "You dare call this a \"battle\"?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "What a pitiable expression. On your knees.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Slow as a snail's crawl... Unlike you, I have no intention of dying from overwork.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "Boring.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill: Unlock 1",
+        "voice_m": "Very well, I shall indulge you in a bit of play.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill: Unlock 2",
+        "voice_m": "Excellent. My interest has been piqued.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Skill: Unleash 1",
+        "voice_m": "The stage is yours, Enkidu!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Skill: Unleash 2",
+        "voice_m": "Behold and worship! Hahahahahaha!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Tch.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Why you! You! YOU!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Awaken, Ea!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Gaze upon the primordial truth — Enuma Elish!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Joint Follow-Up ATK 1",
+        "voice_m": "Hahahahahahahaha!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Joint Follow-Up ATK 2",
+        "voice_m": "What a magnificent view!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Downed",
+        "voice_m": "I'll retreat this time...!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Return to Battle",
+        "voice_m": "Rejoice, for your king has returned!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Health Recovery",
+        "voice_m": "Heh... Truly, a sight as refreshing as an oasis in the desert.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Technique",
+        "voice_m": "I shall restrain them!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Battle Won",
+        "voice_m": "To rule over all creation, there is none more suited for it than me!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "A bargain-bin scrap. I shall deign to add it to my coffers regardless.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Rubbish. I shall deign to add it to my coffers regardless.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "A modicum of worth. I shall deign to add it to my treasury regardless.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Should this lock not have undone itself the moment I cast my gaze upon it? How utterly insolent.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "To think you would force me to lower my own hands to the task... You are hereby banished to the depths of the shadows!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Mongrel, you are an eyesore. Go, strike him down.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 228,
+        "voice_title": "Returning to Town",
+        "voice_m": "Raucous, empty noise... This place possesses none of Uruk's vitality.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "gilgamesh",

@@ -33427,6 +33427,385 @@
     ]
   },
   {
+    "id": "21066",
+    "contentStatus": "live",
+    "name": "A Little Getaway",
+    "rarity": 4,
+    "rarityRaw": "CombatPowerLightconeRarity4",
+    "path": "Elation",
+    "description": "Night falls. Stars twinkle outside the window. The light casts two silhouettes on the wall.\\n\\n<i>\"Sensing: Numby's Happiness Index: <unbreak>97.9%</unbreak>.\"</i>\\n<i>\"There's plenty of virtual currency here! Numby's bound to love it!\"</i>\\nThe Intellitron girl strokes the pet's ears and takes out an ancient gold coin.\\n\\n<i>\"Numby, you can't eat this!\"</i>\\nThe pet leaps in joy, but she scoops it into her arms.\\n<i>\"If I remember correctly, this is a collection piece used to restore history.\"</i>\\n\\nThe Intellitron girl smiles, recalling the long-obliterated civilization on that planet.\\n<i>\"It matters not, Jelena. The planet's historical prototype has entered the sketching phase. Progress: <unbreak>85%</unbreak>.\"</i>\\n<i>\"For now, let's just enjoy our vacation.\"</i>",
+    "attack": 423,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/21066.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/21066.webp"
+    },
+    "effect": {
+      "name": "Whisper",
+      "description": "Increases the wearer's Elation by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. During the use of Elation Skill by the wearer, ignores <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of the target's DEF.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.2,
+            0.08
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.25,
+            0.1
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.3,
+            0.12
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.35,
+            0.14
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.4,
+            0.16
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 4000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 5,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 43.2,
+          "base_hp_add": 6.48,
+          "base_attack": 19.2,
+          "base_attack_add": 2.88,
+          "base_defence": 18,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 8000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110261",
+            "quantity": 3,
+            "rarity": "NotNormal",
+            "name": "<i>The Fluffy</i> Hand-drawn Storyboards",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> in its storyboard stage. Slightly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110261.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 10,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 95.04,
+          "base_hp_add": 6.48,
+          "base_attack": 42.24,
+          "base_attack_add": 2.88,
+          "base_defence": 39.6,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 16000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110262",
+            "quantity": 3,
+            "rarity": "Rare",
+            "name": "<i>The Fluffy</i> Serialization Memorial Issue",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> currently in magazine serialization. Moderately increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110262.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 6,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 164.16,
+          "base_hp_add": 6.48,
+          "base_attack": 72.96,
+          "base_attack_add": 2.88,
+          "base_defence": 68.4,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 40000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110262",
+            "quantity": 6,
+            "rarity": "Rare",
+            "name": "<i>The Fluffy</i> Serialization Memorial Issue",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> currently in magazine serialization. Moderately increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110262.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 9,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 233.28,
+          "base_hp_add": 6.48,
+          "base_attack": 103.68,
+          "base_attack_add": 2.88,
+          "base_defence": 97.2,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 80000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110263",
+            "quantity": 4,
+            "rarity": "VeryRare",
+            "name": "<i>The Fluffy</i> Collector's Edition",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i>, now in published standalone volumes. Greatly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110263.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 302.4,
+          "base_hp_add": 6.48,
+          "base_attack": 134.4,
+          "base_attack_add": 2.88,
+          "base_defence": 126,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 160000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110263",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "<i>The Fluffy</i> Collector's Edition",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i>, now in published standalone volumes. Greatly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110263.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 7,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 371.52,
+          "base_hp_add": 6.48,
+          "base_attack": 165.12,
+          "base_attack_add": 2.88,
+          "base_defence": 154.8,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 21066,
+          "base_hp": 440.64,
+          "base_hp_add": 6.48,
+          "base_attack": 195.84,
+          "base_attack_add": 2.88,
+          "base_defence": 183.6,
+          "base_defence_add": 2.7
+        }
+      }
+    ]
+  },
+  {
     "id": "22000",
     "contentStatus": "live",
     "name": "Before the Tutorial Mission Starts",
@@ -36484,6 +36863,395 @@
           "base_attack_add": 3.24,
           "base_defence": 153,
           "base_defence_add": 2.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "22008",
+    "contentStatus": "live",
+    "name": "Race to the Horizon",
+    "rarity": 4,
+    "rarityRaw": "CombatPowerLightconeRarity4",
+    "path": "Rogue",
+    "description": "<i>\"Team Trailblazer takes the lead! The finish line is within reach. Can Team Trailblazer clinch the final victory?\"</i>\\nOn the highly anticipated track, the roar of engines and the cheers of the crowd intertwine.\\n\\n<i>\"Keep up this speed and charge straight ahead! Baseball Raccoon, you can do this!\"</i>\\nAn inner voice cheers them on, firm and resolute.\\n\\nIn the instant before breaking through the finish line, the heartbeat, the wind, the deafening voices, and the sound of the acceleration reach a synchronized frequency, fading into silence.\\nAnd in the racer's eyes, all that remains is a vast track leading to the sky.\\n\\nSuddenly, thunderous applause and celebratory cannons erupt.\\n<i>\"I... won! Team Trailblazer won!\"</i>\\nAs the afterglow of the setting sun spills across the edge of the horizon, the euphoria of victory has arrived.",
+    "attack": 476,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/22008.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/22008.webp"
+    },
+    "effect": {
+      "name": "Overtake",
+      "description": "Increases the wearer's ATK by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Follow-Up ATK, increases their CRIT DMG by <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> for <unbreak>#3[i]</unbreak> turn(s). This effect can stack up to <unbreak>#4[i]</unbreak> times.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.12,
+            0.03,
+            2,
+            10
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.15,
+            0.035,
+            2,
+            10
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.18,
+            0.04,
+            2,
+            10
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.21,
+            0.045,
+            2,
+            10
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.24,
+            0.05,
+            2,
+            10
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 4000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 5,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 38.4,
+          "base_hp_add": 5.76,
+          "base_attack": 21.6,
+          "base_attack_add": 3.24,
+          "base_defence": 18,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 8000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110191",
+            "quantity": 3,
+            "rarity": "NotNormal",
+            "name": "Meteoric Bullet",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "Iron pellets forged for hunting monsters. Each one bears scratches that seem to record the number of prey that perished because of it. Used to level up Traces slightly for <color=#f29e38ff>The Hunt</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110191.webp"
+            }
+          },
+          {
+            "itemId": "116001",
+            "quantity": 10,
+            "rarity": "NotNormal",
+            "name": "Whimsy Wax",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 84.48,
+          "base_hp_add": 5.76,
+          "base_attack": 47.52,
+          "base_attack_add": 3.24,
+          "base_defence": 39.6,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 16000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110192",
+            "quantity": 3,
+            "rarity": "Rare",
+            "name": "Destined Expiration",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "Embedded in the deceased's brow, piercing through the crevice of matter, this bullet forever resides where its bullet hole should be. Used to level up Traces moderately for <color=#f29e38ff>The Hunt</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110192.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 6,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 145.92,
+          "base_hp_add": 5.76,
+          "base_attack": 82.08,
+          "base_attack_add": 3.24,
+          "base_defence": 68.4,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 40000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110192",
+            "quantity": 6,
+            "rarity": "Rare",
+            "name": "Destined Expiration",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "Embedded in the deceased's brow, piercing through the crevice of matter, this bullet forever resides where its bullet hole should be. Used to level up Traces moderately for <color=#f29e38ff>The Hunt</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110192.webp"
+            }
+          },
+          {
+            "itemId": "116002",
+            "quantity": 9,
+            "rarity": "Rare",
+            "name": "Dreamweave Steel",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. A normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 207.36,
+          "base_hp_add": 5.76,
+          "base_attack": 116.64,
+          "base_attack_add": 3.24,
+          "base_defence": 97.2,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 80000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110193",
+            "quantity": 4,
+            "rarity": "VeryRare",
+            "name": "Countertemporal Shot",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A spiral bullet forever going against the arrow of time, like a hound eternally chasing the immortal that defies time. Used to level up Traces significantly for <color=#f29e38ff>The Hunt</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110193.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 268.8,
+          "base_hp_add": 5.76,
+          "base_attack": 151.2,
+          "base_attack_add": 3.24,
+          "base_defence": 126,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 160000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110193",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Countertemporal Shot",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "A spiral bullet forever going against the arrow of time, like a hound eternally chasing the immortal that defies time. Used to level up Traces significantly for <color=#f29e38ff>The Hunt</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110193.webp"
+            }
+          },
+          {
+            "itemId": "116003",
+            "quantity": 7,
+            "rarity": "VeryRare",
+            "name": "Lucid Awl",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A Wishpower fragment from an imagenated creature. An advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/116003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 330.24,
+          "base_hp_add": 5.76,
+          "base_attack": 185.76,
+          "base_attack_add": 3.24,
+          "base_defence": 154.8,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 22008,
+          "base_hp": 391.68,
+          "base_hp_add": 5.76,
+          "base_attack": 220.32,
+          "base_attack_add": 3.24,
+          "base_defence": 183.6,
+          "base_defence_add": 2.7
         }
       }
     ]
@@ -60817,6 +61585,784 @@
           "base_attack_add": 4.32,
           "base_defence": 214.2,
           "base_defence_add": 3.15
+        }
+      }
+    ]
+  },
+  {
+    "id": "23063",
+    "contentStatus": "live",
+    "name": "Rise and Sing",
+    "rarity": 5,
+    "rarityRaw": "CombatPowerLightconeRarity5",
+    "path": "Memory",
+    "description": "Seawater washes over her ankles, sea foam shattering beneath the moonlight. During a rare break from filming, the young girl accepted an invitation to the beach to attend a small campfire gathering.\\n\\nThe fire's light stretches out the children's shadows, their little faces painted with confusion. \"I don't know how to sing,\" \"I don't sing well,\" \"I'm too scared to sing.\" The children look up at her as they ask timidly: <i>\"Miss Robin, what should we do?\"</i>\\nShe smiles gently, her fingertips lightly touching the strings in lieu of an answer.\\n\\n<i>\"Come, follow my lead.\"</i>\\nThe sea breeze seemed to drown out the first strum, but the second tune takes on a shape of its own. As the waves crash against the shore and the lights flicker, she parts her lips and sings softly, pouring out the clear, sunny sky from within her heart.\\n<i>\"When you don't know how to sing, just listen to the melody in your own hearts.\"</i>\\nAt first, the notes are scattered, but gradually an outline of a melody forms, and that outline is breathed into life. She sings, and they sing, until the summer breeze brushes past.\\n<i>\"Listen, this is the song in our hearts. It has always been there, waiting to be heard.\"</i>\\n\\nShe hears it, and so, she gently offers this blessing:\\n<i>\"Rise and sing, then spread your wings and take flight.\"</i>",
+    "attack": 582,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/23063.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/23063.webp"
+    },
+    "effect": {
+      "name": "Improvisation",
+      "description": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. After the wearer uses Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> and grants the wearer \"New Melody,\" lasting for <unbreak>#4[i]</unbreak> turn(s). While the wearer holds \"New Melody,\" all allies' SPD increases by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.3,
+            0.3,
+            0.2,
+            2
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.375,
+            0.325,
+            0.25,
+            2
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.45,
+            0.35,
+            0.3,
+            2
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.525,
+            0.375,
+            0.35,
+            2
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.6,
+            0.4,
+            0.4,
+            2
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 5000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "114001",
+            "quantity": 8,
+            "rarity": "NotNormal",
+            "name": "Dream Collection Component",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A storage device for Dreamscape creations. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 52.8,
+          "base_hp_add": 7.92,
+          "base_attack": 26.4,
+          "base_attack_add": 3.96,
+          "base_defence": 18,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 10000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110251",
+            "quantity": 4,
+            "rarity": "NotNormal",
+            "name": "Bīja of Consciousness",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "Consciousness fuses with matter, giving rise to the embryo of memory. Used to level up Traces slightly for <color=#f29e38ff>Remembrance</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110251.webp"
+            }
+          },
+          {
+            "itemId": "114001",
+            "quantity": 12,
+            "rarity": "NotNormal",
+            "name": "Dream Collection Component",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A storage device for Dreamscape creations. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114001.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 116.16,
+          "base_hp_add": 7.92,
+          "base_attack": 58.08,
+          "base_attack_add": 3.96,
+          "base_defence": 39.6,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 20000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110252",
+            "quantity": 4,
+            "rarity": "Rare",
+            "name": "Seedling of Manas",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "Memory's cells extract thoughts, propagating in the heart of the inscriber. Used to level up Traces moderately for <color=#f29e38ff>Remembrance</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110252.webp"
+            }
+          },
+          {
+            "itemId": "114002",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Dream Flow Valve",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A control component for Dreamscape creations. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 200.64,
+          "base_hp_add": 7.92,
+          "base_attack": 100.32,
+          "base_attack_add": 3.96,
+          "base_defence": 68.4,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 50000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110252",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Seedling of Manas",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "Memory's cells extract thoughts, propagating in the heart of the inscriber. Used to level up Traces moderately for <color=#f29e38ff>Remembrance</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110252.webp"
+            }
+          },
+          {
+            "itemId": "114002",
+            "quantity": 12,
+            "rarity": "Rare",
+            "name": "Dream Flow Valve",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A control component for Dreamscape creations. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114002.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 285.12,
+          "base_hp_add": 7.92,
+          "base_attack": 142.56,
+          "base_attack_add": 3.96,
+          "base_defence": 97.2,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 100000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110253",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "Flower of Ālaya",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "This is another form for life to exist and a substance that the universe cannot forget. Used to level up Traces significantly for <color=#f29e38ff>Remembrance</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110253.webp"
+            }
+          },
+          {
+            "itemId": "114003",
+            "quantity": 6,
+            "rarity": "VeryRare",
+            "name": "Dream Making Engine",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "An energy core for Dreamscape creations. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 369.6,
+          "base_hp_add": 7.92,
+          "base_attack": 184.8,
+          "base_attack_add": 3.96,
+          "base_defence": 126,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 200000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110253",
+            "quantity": 10,
+            "rarity": "VeryRare",
+            "name": "Flower of Ālaya",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "This is another form for life to exist and a substance that the universe cannot forget. Used to level up Traces significantly for <color=#f29e38ff>Remembrance</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110253.webp"
+            }
+          },
+          {
+            "itemId": "114003",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Dream Making Engine",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "An energy core for Dreamscape creations. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114003.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 454.08,
+          "base_hp_add": 7.92,
+          "base_attack": 227.04,
+          "base_attack_add": 3.96,
+          "base_defence": 154.8,
+          "base_defence_add": 2.7
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 23063,
+          "base_hp": 538.56,
+          "base_hp_add": 7.92,
+          "base_attack": 269.28,
+          "base_attack_add": 3.96,
+          "base_defence": 183.6,
+          "base_defence_add": 2.7
+        }
+      }
+    ]
+  },
+  {
+    "id": "23064",
+    "contentStatus": "live",
+    "name": "Summer Rides the Surf",
+    "rarity": 5,
+    "rarityRaw": "CombatPowerLightconeRarity5",
+    "path": "Elation",
+    "description": "Seawater washes over the board, the wave's crest tearing open a churning rift and shattering the sunlight into a million golden shards. He steps onto his surfboard, letting the roaring wave launch him into the air.\\n\\n<i>\"High seas mean high risks, and high risks mean massive returns.\"</i>\\nHe challenges the waves time and time again, placing himself right at the eye of the storm. The height of summer, the blazing sun, the crisp sea breeze... The dizzying array of names, the fluctuating margins of profit and loss, the lies and schemes lurking in people's eyes... It all melts into blurry patches of color, no longer demanding his scrutiny.\\n\\n<i>\"The tide has arrived. Now... just what will it leave in its wake?\"</i>\\nThe ocean is boundless, much like the endless prosperity of Astropolis. Before tossing down his next chip, he rides the ridge of the wave and wagers his very being, fixing his gaze on that singular moment as he looks down upon the surging tide.",
+    "attack": 582,
+    "assets": {
+      "mediumIcon": "GameData/hsr/assets/lightcones/medium/23064.webp",
+      "fullFigure": "GameData/hsr/assets/lightcones/full/23064.webp"
+    },
+    "effect": {
+      "name": "Waveriding",
+      "description": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer uses Elation Skill, gains \"Updraft,\" which increases the wearer's SPD by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>. If the Elation Skill used is different from the one used last time, additionally gains \"Uptrend,\" which increases the wearer's Elation by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>.\\nWhen every wave starts or after the wearer uses Elation Skill <unbreak>#4[i]</unbreak> time(s), recovers 1 Skill Point.",
+      "levels": [
+        {
+          "level": 1,
+          "params": [
+            0.18,
+            0.24,
+            0.4,
+            3
+          ]
+        },
+        {
+          "level": 2,
+          "params": [
+            0.21,
+            0.28,
+            0.55,
+            3
+          ]
+        },
+        {
+          "level": 3,
+          "params": [
+            0.24,
+            0.32,
+            0.7,
+            3
+          ]
+        },
+        {
+          "level": 4,
+          "params": [
+            0.27,
+            0.36,
+            0.85,
+            3
+          ]
+        },
+        {
+          "level": 5,
+          "params": [
+            0.3,
+            0.4,
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    "ascensions": [
+      {
+        "key": "0",
+        "promotion": 0,
+        "playerLevelRequirement": 15,
+        "maxLevel": 20,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 5000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "114011",
+            "quantity": 8,
+            "rarity": "NotNormal",
+            "name": "Tatters of Thought",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A memoria fragment of fleeting thought. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114011.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 43.2,
+          "base_hp_add": 6.48,
+          "base_attack": 26.4,
+          "base_attack_add": 3.96,
+          "base_defence": 24,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "1",
+        "promotion": 1,
+        "worldLevelRequirement": 1,
+        "maxLevel": 30,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 10000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110261",
+            "quantity": 4,
+            "rarity": "NotNormal",
+            "name": "<i>The Fluffy</i> Hand-drawn Storyboards",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> in its storyboard stage. Slightly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110261.webp"
+            }
+          },
+          {
+            "itemId": "114011",
+            "quantity": 12,
+            "rarity": "NotNormal",
+            "name": "Tatters of Thought",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A memoria fragment of fleeting thought. Crude material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114011.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 95.04,
+          "base_hp_add": 6.48,
+          "base_attack": 58.08,
+          "base_attack_add": 3.96,
+          "base_defence": 52.8,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "2",
+        "promotion": 2,
+        "worldLevelRequirement": 2,
+        "maxLevel": 40,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 20000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110262",
+            "quantity": 4,
+            "rarity": "Rare",
+            "name": "<i>The Fluffy</i> Serialization Memorial Issue",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> currently in magazine serialization. Moderately increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110262.webp"
+            }
+          },
+          {
+            "itemId": "114012",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "Fragments of Impression",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A memoria fragment of profound impression. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114012.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 164.16,
+          "base_hp_add": 6.48,
+          "base_attack": 100.32,
+          "base_attack_add": 3.96,
+          "base_defence": 91.2,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "3",
+        "promotion": 3,
+        "worldLevelRequirement": 3,
+        "maxLevel": 50,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 50000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110262",
+            "quantity": 8,
+            "rarity": "Rare",
+            "name": "<i>The Fluffy</i> Serialization Memorial Issue",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i> currently in magazine serialization. Moderately increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110262.webp"
+            }
+          },
+          {
+            "itemId": "114012",
+            "quantity": 12,
+            "rarity": "Rare",
+            "name": "Fragments of Impression",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A memoria fragment of profound impression. Normal material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114012.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 233.28,
+          "base_hp_add": 6.48,
+          "base_attack": 142.56,
+          "base_attack_add": 3.96,
+          "base_defence": 129.6,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "4",
+        "promotion": 4,
+        "worldLevelRequirement": 4,
+        "maxLevel": 60,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 100000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110263",
+            "quantity": 5,
+            "rarity": "VeryRare",
+            "name": "<i>The Fluffy</i> Collector's Edition",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i>, now in published standalone volumes. Greatly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110263.webp"
+            }
+          },
+          {
+            "itemId": "114013",
+            "quantity": 6,
+            "rarity": "VeryRare",
+            "name": "Shards of Desires",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A memoria fragment of obsessive desires. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114013.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 302.4,
+          "base_hp_add": 6.48,
+          "base_attack": 184.8,
+          "base_attack_add": 3.96,
+          "base_defence": 168,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "5",
+        "promotion": 5,
+        "worldLevelRequirement": 5,
+        "maxLevel": 70,
+        "requirements": [
+          {
+            "itemId": "2",
+            "quantity": 200000,
+            "rarity": "Rare",
+            "name": "Credit",
+            "type": "Virtual",
+            "subType": "Virtual",
+            "description": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/2.webp"
+            }
+          },
+          {
+            "itemId": "110263",
+            "quantity": 10,
+            "rarity": "VeryRare",
+            "name": "<i>The Fluffy</i> Collector's Edition",
+            "type": "Material",
+            "subType": "TracePath",
+            "description": "<i>Fluffy Across the Blue</i>, now in published standalone volumes. Greatly increases the Traces of <color=#f29e38ff>Elation</color> characters.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/110263.webp"
+            }
+          },
+          {
+            "itemId": "114013",
+            "quantity": 8,
+            "rarity": "VeryRare",
+            "name": "Shards of Desires",
+            "type": "Material",
+            "subType": "CommonMonsterDrop",
+            "description": "A memoria fragment of obsessive desires. Advanced material used for enhancement.",
+            "assets": {
+              "icon": "GameData/hsr/assets/items/114013.webp"
+            }
+          }
+        ],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 371.52,
+          "base_hp_add": 6.48,
+          "base_attack": 227.04,
+          "base_attack_add": 3.96,
+          "base_defence": 206.4,
+          "base_defence_add": 3.6
+        }
+      },
+      {
+        "key": "6",
+        "promotion": 6,
+        "worldLevelRequirement": 5,
+        "maxLevel": 80,
+        "requirements": [],
+        "stats": {
+          "equipment_id": 23064,
+          "base_hp": 440.64,
+          "base_hp_add": 6.48,
+          "base_attack": 269.28,
+          "base_attack_add": 3.96,
+          "base_defence": 244.8,
+          "base_defence_add": 3.6
         }
       }
     ]

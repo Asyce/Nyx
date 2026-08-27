@@ -126,12 +126,6 @@
         "is_battle_voice": false
       },
       {
-        "voice_id": 30,
-        "voice_title": "About Sam",
-        "voice_m": "I live in an eternal purgatory. And Sam — he is good at creating purgatory.",
-        "is_battle_voice": false
-      },
-      {
         "voice_id": 20,
         "voice_title": "Eidolon Activation",
         "voice_m": "Life itself is punishment.",
@@ -189,6 +183,36 @@
         "voice_id": 29,
         "voice_title": "Added to Team With Dan Heng • Imbibitor Lunae",
         "voice_m": "Need me to watch your back?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "About Sam",
+        "voice_m": "I live in an eternal purgatory. And Sam — he is good at creating purgatory.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Firefly",
+        "voice_m": "Who do you think will reach the \"end\" first — you, or me... or them?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "About Firefly",
+        "voice_m": "I yearn for the end, yet she yearns for survival... We are both destiny's slaves.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "She tried to convince me that games don't just end in \"death.\" There are defeats and victories, too.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "Since it's your game, we'll do it your way.",
         "is_battle_voice": false
       },
       {
@@ -300,27 +324,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "Hmph.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "Take them.",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Done.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "As expected.",
         "is_battle_voice": true
       },
       {
@@ -333,6 +339,24 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "Are there other matters?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Hmph.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Take them.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "As expected.",
         "is_battle_voice": true
       }
     ]

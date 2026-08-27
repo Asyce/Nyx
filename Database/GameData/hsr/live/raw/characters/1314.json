@@ -2,6 +2,7 @@
   "name": "Jade",
   "desc": "A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for her cornerstone \"Jade of Credit.\"\\nA beautiful and elegant moneylender, she is skilled in deciphering the depths of people's minds, with a personal hobby called \"Bonajade Exchange.\"\\nShe's willing to wait patiently for high-value acquisitions and adept at extracting value from seemingly destitute clients.",
   "chara_info": {
+    "camp": "Interastral Peace Corporation",
     "va": {
       "chinese": "张若瑜",
       "japanese": "三石琴乃",
@@ -15,7 +16,338 @@
       "3": "In the Borderlands, there exists a legend that when one is in utter despair and ready to give up everything they have, they may request the IPC's help, and if fortune favors them, a moneylender, who never declines any client, will arrive.\\n\\n<i>\"Welcome to the Bonajade Exchange. Who are you? And what do you seek?\"</i>\\nFor countless times, she repeated the greeting, awaiting the desires from the entire cosmos to surge toward her.\\n\\nA beautiful dancer came to her, seeking the possibility of eternal beauty. She took a portion of her lifespan and granted her access to the Intelligentsia Guild. Time and time again, the dancer regained her youthful years, only to return again when age caught up with her. Until one day, she left hiding her face in her hands, never to return.\\n\\nA soldier from a fallen country pledged all his emotions for the chance of vengeance. Having lost all grief and anger, he transformed into a war machine sowing death. Eventually, he eradicated all his former enemies and was forever trapped in his past, leaving only scorched earth in the aftermath — territories that later fell under the IPC's possession.\\n\\nA couple from Baviru traded their memories in exchange for absolute wealth. They visited her Bonajade Exchange at different stages of their lives, seeking wealth, fame, and social standing... until they had squandered all of their memories. They lived a content life, only to forget it all in the end.\\n\\nRumor circulated that anything could be used as collateral at the Bonajade Exchange, and even those without any possessions would have a chance to gain a new lease of life.\\n<i>\"You call that charity!? Nah, she's an evil witch! A cursed demon who enjoys collecting souls!\"</i>\\n<i>\"Never ever talk to her, or you'll end up losing everything...\"</i>\\n<i>\"You're talking about Lady Bonajade? No, she's not like that at all! Without her help, my hometown would have been taken over as a colony ages ago.\"</i>\\n...\\nShe listens to the rumors about her circulating among the stars, but she pays them no mind.\\n<i>\"There is but a thin line between right and wrong, and good and evil.\"</i>\\n<i>\"Once a desire, however tiny it is, is ignited, more desires will ensue. All that we need to do is to... wait and reap.\"</i>\\nShe meticulously counted her collections, the remnants of people's burning desires.",
       "4": "On a different day, two young individuals arrived at her door. The door swung open silently, revealing a room veiled in smoke. Amidst the smoke, she momentarily paused her evaluation of collateral on the scales, and graciously offered fresh tea for her visitors.\\n\\n<i>\"As I anticipated, Opal chose you to handle the Penacony case, but it seems... you've found a new ally.\"</i>\\nShe remarked, gesturing for them to take a seat on the ornate chairs that still retained warmth from the previous visitor.\\n<i>\"What do you need to collect bad debts owed by Penacony?\"</i>\\n<i>\"Your Cornerstone.\"</i> the young man replied, meeting her gaze.\\n<i>\"Well, this is the first time anyone has asked for such a thing. What price will you pay in return?\"</i> she asked, a smile playing on her lips.\\n<i>\"Our Cornerstones.\"</i> the young lady replied.\\n<i>\"And my life, too. I have no choice except that if I want to tear open a gash in Penacony.\"</i> A glimmer of light flickered within the bottomless pupils of the young man.\\n\\nWhen their eyes met, various memories of the past flickered past, then settled on the image of her first encounter with these two.\\nShe let out a soft sigh, placing a miniature model of Penacony on one end of the scale.\\n<i>\"Each of us has our own beginnings and endings.\"</i>\\nThe topaz stone was placed on the other end of the scale.\\n<i>\"This journey together may be long or short, but as long as we haven't reached the end, we must honor our contract.\"</i>\\nThe aventurine stone followed.\\n<i>\"In this world, nothing is truly beyond value. Everything can be measured, leveraged, and traded...\"</i>\\nIn the end, the jade stone was placed on the scale, and the scales tipped completely and fell.\\n<i>\"Now, let's trade them for the future of Penacony.\"</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "Hello, my name is Jade. I'm here at your request. If you'd like to take out a loan, you must put something of equal value up as collateral... Your dignity, your feelings, or even your life. What are you willing to exchange?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Are you feeling lost? Don't worry, we can chat about whatever you want.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Work is always exhausting. I've run out of chit-chat for today. Come back tomorrow to talk about collaboration.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Credit",
+        "voice_m": "Wealth is the recipe to happiness. Giving it to those who desire happiness is making the best use of it. In this way, my job also brings people happiness. Anyone can receive this blessing... They only have to pay an equivalent price.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Benevolence",
+        "voice_m": "\"Lady Bonajade?\" These are just my small contributions. There's really nothing to thank me for. Most \"benevolence\" in the universe has a hidden price tag, but true kindness is stronger than any contract.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Debt",
+        "voice_m": "Without written records, value cannot be quantified, and judgment is based only on thoughts and feelings... For guests of noble character, favors are the heaviest debt.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Redemption",
+        "voice_m": "I don't mind if customers buy back their collateral after they accomplish what they want, but I'll propose an even better alternative to them. A way to make them go further and climb higher, at a small price... Guess what they choose in the end?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Hobbies",
+        "voice_m": "Rather than collecting jewels that have already been shaped... I'm more fascinated by the process of turning an unrefined stone into a precious gem.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Annoyances",
+        "voice_m": "An investment isn't charity. Don't lose sight of that.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Something to Share",
+        "voice_m": "The IPC is full of talented people, but only a handful can stand out from the crowd. Sometimes I keep an eye out, on behalf of Diamond — picking from all the ores the few with the most potential.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Knowledge",
+        "voice_m": "I once met an unfortunate customer whose homeland was about to be destroyed. Even though he offered up everything, the subsidies weren't enough to save his home. In the end, this beautiful jade bead is the only proof of his planet's existence in the whole wide universe...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About the Astral Express",
+        "voice_m": "The actions and desires of the Nameless are always sincere. When dealing with you, the same sincerity is the most fitting price.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Aventurine",
+        "voice_m": "Young people grow up so fast. In the blink of an eye, they reach the age where they start snatching work from the grown-ups.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Topaz",
+        "voice_m": "She is still a work in progress. But one day she'll stop and realize... the first principle of negotiating a deal is to keep pressing after a victory.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Sparkle",
+        "voice_m": "Not everyone can appreciate this kind of gemstone — the more unrefined and unbridled it is, the more beautiful... But it's too early to unearth now.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Once an agreement is made, you must uphold it to the very end.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "Character Ascension",
+        "voice_m": "What I'm after... is more than just jewelry.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "Max Level Reached",
+        "voice_m": "I have an even better deal. Why don't you come hear about it?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "Trace Activation",
+        "voice_m": "This collateral's not bad. I'll take it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Can a life made of a Stellaron show desire?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "Added to Team With Aventurine",
+        "voice_m": "What kind of schemes are lurking behind those pretty eyes?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Added to Team With Topaz",
+        "voice_m": "Come, our partnership has no chance of failure.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Sparkle",
+        "voice_m": "What is that clever little head thinking about now? Don't worry, you don't have to tell me.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "About Sunday",
+        "voice_m": "The world is fair. He must be prepared to lose however much he desires to gain.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "About Pearl",
+        "voice_m": "Portraying the management of Planarcadia as art, and marketing the most sentimental art as profitable business... The terrifying thing about her is exactly this \"ambition\" she remains oblivious to.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Aventurine • Waveflair",
+        "voice_m": "I've heard that the waters run deep and the tides are turbulent in Astropolis. Only truly fearless surfers can ride the tides at ease. I hope he'll return from this trip as fulfilled as always.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Aventurine • Waveflair",
+        "voice_m": "With you around, it's still winner takes all.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Where there's a will, there's a way.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Oh, look, a VIP has dropped by.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "You've got to lose some, to win some.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Give an inch, and they'll definitely take a mile.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Relax, patience is my middle name.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Need a hand?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 1",
+        "voice_m": "Don't let me down now.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Skill 2",
+        "voice_m": "I always make good on my promises.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Just a graze.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Not bad.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "We have a deal.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "There's no backing out now, for me... or for you.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Talent 1",
+        "voice_m": "Bending the rules, are we?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Talent 2",
+        "voice_m": "Time for a lesson.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Talent Enhanced 1",
+        "voice_m": "So, who's the little backstabber here?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Talent Enhanced 2",
+        "voice_m": "What's the matter? Eager for some more self-inflicted misery?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Downed",
+        "voice_m": "I miscalculated...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Return to Battle",
+        "voice_m": "Never hurts to have a plan B.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Health Recovery",
+        "voice_m": "Guess I owe you one.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Technique",
+        "voice_m": "There's a good child. Do as you're told.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Battle Won",
+        "voice_m": "I'll keep your desires close to my heart.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Hmm... Not exactly eye-catching.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Is that all? Hardly worth the bother.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Now this might be worth something!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Not a bad way to kill time.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Take a quick five, and relax a bit.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 77,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "See that one there? Let's wring them dry.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 78,
+        "voice_title": "Returning to Town",
+        "voice_m": "Finally, a rare break. Why don't we head to the Bonajade Exchange and hang out for a bit?",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "jade",

@@ -2,6 +2,7 @@
   "name": "Cerydra",
   "desc": "The Northern Empire, a lost dynasty, where its frozen lands burn with the fever of conquest.\\nSovereign Cerydra, the Chrysos Heir who wields the Coreflame of \"Law,\" weaves her schemes, contends with the gods, passes judgment upon the faithless, and lays the foundation of Flame-Chase into this world.\\n...<i>\"This is far from the end. Amphoreus's journey is set to blaze across the stars!\"</i>",
   "chara_info": {
+    "camp": "Amphoreus",
     "va": {
       "chinese": "时欣蕾",
       "japanese": "高尾奏音",
@@ -15,7 +16,410 @@
       "3": "The tripartite prophecy spreads from Janusopolis to the city-states in endless strife throughout the land.\\n<i>\"Saving the world... has never been of a chessmaster's interest.\"</i>\\nShe ponders the prophecy, envisioning a fiery future unfolding before her.\\n<i>\"But to challenge gods who see themselves as rulers, and even venture beyond the sky... now that's a game worth playing!\"</i>\\n\\nThrough the endless night, she draws golden-blooded children of humanity like a brilliant flame:\\nIn Okhema's Council, Chrysos Heirs and common folk alike share the right to debate and vote.\\nMagnificent libraries rise from the ground, granting all access to knowledge of the Flame-Chase mission.\\nAs ancient military orders crumble into dust, a gladius of the deep is drawn to shore, following the perfume of blood and fire to serve as her blades.\\nIn the political waters of the holy city, the Goldweaver of Okhema rises on the horizon, and the trembles of golden threads entangle the people's fates.\\n...\\n\\nYet her chessboard is etched in golden blood, and she plays against gods themselves. Though she trades burning pain for her crown and suffers eternal infancy for the future, the scales of victory have never truly tipped in humanity's favor.\\n<i>\"Losses are a constant on the Flame-Chase journey...\"\\n\"Only through a worthy sacrifice can we gain a befitting victory. But to topple gods, this is far from enough...\"</i>\\nDay and night she studies the board, concealing her anxieties from any watchful eyes.\\n\\n<i>\"If you're the chess master, then that makes us the pawns, right?\"</i>\\nWithout waiting for an answer, the girl who wields a sword like a musical instrument wipes blood from her hands and nods.\\n<i>\"I understand now.\"</i>\\nOnly in moments like these would the proud empress fall uncharacteristically silent.\\n<i>\"If only...\"</i>\\nA trace of bitterness flickers across her face.\\n<i>\"No, there are no 'if onlys' anymore.\"</i>\\n\\nBefore the battle to claim the Ocean's Coreflame, she stands once more upon the platform, looking down at five hundred subjects who hold their breath, awaiting her decree.\\n\\n<i>\"My warriors...\"</i>\\nAs her voice resounds, cheers erupt throughout the crowd.\\n<i>\"Today, the 'Ocean' shall surrender to us, and the beast of 'Destruction' will become our unstoppable weapon. Now, raise your cups! To our conquest of the sea of stars!\"</i>\\n\\nShe knows that only a crimson sea of no return awaits ahead, but she must wear the mask of the unflinching ruler.\\nIn that moment, the wisdom of her teacher whispers to her again...\\n\\n<i>\"Chess is the art of sacrifice.\"\\n\"Your hands must accept death before touching the board.\"</i>",
       "4": "<i>\"Drip.\"</i>\\nA drop of blood falls into water, sending golden ripples across the surface.\\n\\n<i>\"Dux Gladiorum, have you thought about where our paths might lead after this battle ends?\"</i>\\nThe sword-wielding girl stands in thoughtful silence before shaking her head.\\n<i>\"After the rebellion settles, we'll head for the stars. You'll find your crystal-clear ocean out there, I promise.\"</i>\\nWith a faint smile, she lifts her scepter skyward.\\n<i>\"The gods have pitted us against each other, letting Amphoreus end its own life in the cosmos. So I'll turn my blade on them, on every god, whether in our world or beyond.\"</i>\\n\\n<i>\"Drip.\"</i>\\nA drop of blood falls into water, sending golden ripples across the surface.\\n\\n<i>\"Dux Gladiorum, what if someday I command you to turn your blade against me?\"</i>\\nThe girl remains silent, assuming it's just another of her cruel jokes.\\n<i>\"I'd want your sharpest edge. Anything less would dishonor those who sacrificed themselves for my cause.\"</i>\\nShe tosses the chess piece that represented herself off the board.\\n<i>\"See? To lose is to gain. New paths have emerged.\"</i>\\n\\n<i>\"Drip.\"</i>\\nA drop of blood falls into water, sending golden ripples across the surface.\\n\\n<i>\"Dux Gladiorum, who do you think can take up the heavy burden of the Flame-Chase journey once we're gone?\"</i>\\nIn perfect unison, their gaze falls upon the distant \"Goldweaver.\"\\n<i>\"That little golden trout will one day become the most magnificent fish in this pond.\"</i>\\n\\n<i>\"Drip.\"</i>\\nA drop of blood falls into water, sending golden ripples across the surface.\\n\\n<i>\"Many speculate about what I traded with Talanton. Was it the power of endless victory, or the authority of law... Heh. I've never needed any divine help for those...\"</i>\\n\\nThe silhouette of her past companion faded away. She felt the cold creeping in, the sky pitch black like a starless cave.\\nLong ago, she had also witnessed, in bone-chilling cold, a child with golden blood being taken away.\\n\\n<i>\"But in this world that devours people, having golden blood... is the only chance to overthrow everything. Even if... I must live like this for the rest of my life...\"</i>\\n\\nThe blue-haired girl closes her eyes.\\n<i>\"But I've only wished for one thing... since the beginning...\"</i>\\nFrom a beggar child nearly frozen to death in the wilds, to a princess who was no better than a puppet, then to a commander who challenged gods... She personally elevated herself from pawn to player, only to sacrifice herself when the endgame demanded it...\\n\\n<i>\"I wish to conquer the tyrannical fate of this world!\"</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "\"Flamecrowned,\" \"Tyrant,\" \"Empress,\" \"Supreme Commander,\" \"Imperator\"... The world has given me countless titles, but you may simply call me by my true name — Cerydra.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "No need for formalities. It's a beautiful day. Care for a game of chess?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Do not dwell in the sorrow of parting. If you still desire to see your wish fulfilled, then surely we will stand together once more.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: The Way of the Monarch",
+        "voice_m": "On the board, there is only black and white, only foe and friend, but the universe is so much vaster than two simple shades. The end of Amphoreus is nothing more than the first step into the cosmos, and I will march toward those far-off lights.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: The Curse",
+        "voice_m": "Those who seek the power of Law are destined to pay an equal price... But so what? To trade burning pain for a crown, to rob divine authority in exchange for eternal infancy... Such a bargain is nothing if not perfectly fair!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: Beast Riding",
+        "voice_m": "The thunder of a thousand hooves and the wild joy of slaying great beasts are fine pleasures... but riding a dromas, slow and steady, with the world spread beneath my feet. That is more to my liking.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: The Names of the Dukes",
+        "voice_m": "The titles of my loyal subjects are all names I personally devised and conferred. They must carry both dignity and elegance, yet roll easily off the tongue, something that becomes a tale spoken fondly by all. What sort of title would you prefer? Dux Cinereus sounds too plain, and Dux Salvationis far too blunt...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Hobbies",
+        "voice_m": "Chess may sharpen one's mind for strategy, but in the midst of a feast, it's rather too serious. What if we transformed it into a cheerful game, where pieces take flight and the roll of dice guides their movement? Delightful! We'll call it Aero-Chess.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Annoyances",
+        "voice_m": "No matter the occasion, the height of my throne's base must never change. But I must admit... those great heavy tomes, chosen for just the right thickness, are terribly cumbersome to carry.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Something to Share",
+        "voice_m": "The scales of justice are forever balanced, yet why has the world never been fair? The strength between a human and Titan is worlds apart, and so too is Amphoreus and the vast cosmos... True Law can only be tempered through war and fire.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Knowledge",
+        "voice_m": "Chess is the art of sacrifice and of relentless advance. The Flame-Chase army does not look back. When victory is claimed, others will offer honey brew to remember our fallen spirits.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "Your moves on the board are always unexpected. Two parts whimsy, three parts imagination... and five parts unwavering courage.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "About Cyrene",
+        "voice_m": "I admire the way she speaks: not with sycophancy, nor with jest... In truth, it feels more like what you would call... friendship?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About Hysilens",
+        "voice_m": "She came swimming, drawn by light and warmth, in pursuit of the ocean's Law. We seldom spoke at length. A single chessboard, a simple melody, and that was enough to understand each other's hearts.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Aglaea",
+        "voice_m": "Remarkable... Such a delicate golden thread, yet when stained with blood, becomes so razor-sharp. The holy city's fragile, teetering future needs exactly this kind of youth.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Tribbie, Trianne, and Trinnon",
+        "voice_m": "In chaotic times, many dismissed their prophecies, fooled by their childish looks... But wisdom knows no size, a truth that holds across all the seas.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Cipher",
+        "voice_m": "My treasury has never needed guards, and her guarded heart has never loosened with age. It matters not. Let us quietly watch, and see what great thunderous waves this small kitten will raise in the future.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Fly the banners, and set off with me!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "Character Ascension",
+        "voice_m": "The sovereign shall walk ahead, and their people shall follow them.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "Max Level Reached",
+        "voice_m": "This is not the end, merely the cornerstone of a grand endeavor.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "Trace Activation",
+        "voice_m": "Where I go, my name shall be sung in hymns.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Are you ready to charge into battle, Deliverer?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Aglaea",
+        "voice_m": "May your battle raiment bring us glory, Dux Goldweaver.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 24,
+        "voice_title": "Added to Team With Tribbie",
+        "voice_m": "What end has the prophecy revealed for this war, Dux Fatorum?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 25,
+        "voice_title": "Added to Team With Hysilens",
+        "voice_m": "Let lament be the herald of our triumphant songs, Dux Gladiorum.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "Added to Team With Cipher",
+        "voice_m": "One piece of intelligence for one hundred Balance Coins. How does that sound, Dux Celeripes?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "About Mydei",
+        "voice_m": "Though our statures differ greatly, we made the same choice as rulers... If we could face each other in a game of chess, I would surely regain that delightful feeling of finding an evenly-matched opponent.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "About Castorice",
+        "voice_m": "I, too, once wandered in the icy-cold River of Souls. Her sea of flowers, though, is as beautiful and warm as a fire... It is thanks to her that the soldiers who were sacrificed could find rest, and our golden blood did not flow in vain.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "About Anaxa",
+        "voice_m": "Dux Sagax was so excited to write about \"how to manage a dromas's fur\" that he wrote me a ten-thousand-word essay. The most effective recommendation in there was to \"mix redsoil with fish oil.\" Thanks to him, my noble mount will no longer shed its fur all over my dress.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "About Hyacine",
+        "voice_m": "I've said it at least a thousand times: Just because someone's short doesn't mean they're weak-willed and can be easily manipulated by fate. For those who still dare to refute that statement, Dux Lucens is even more proof.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "About Phainon",
+        "voice_m": "With the weight of thirty million hollow shells and thirty million solitary warriors... he won against the gods and the ambitions of a monarch on the scales of destiny. This was not a miracle, but a glorious feat achieved with the power of the human will.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "About March 7th",
+        "voice_m": "It was all thanks to Dux Temporum's efforts that the final law I set up for Amphoreus was not triggered. Sometimes I have to admit that, while great deeds can be accomplished through wars soaked in blood and fire, it's love and tolerance that bring together hearts and minds.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About Dan Heng • Permansor Terrae",
+        "voice_m": "The gazes of countless lifeforms may be even greater than the expectations placed upon the crown. I look forward to seeing how far his trailblazing expedition will take him.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Mydei",
+        "voice_m": "Let history remember this glorious campaign, King of Kremnos.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 35,
+        "voice_title": "Added to Team With Castorice",
+        "voice_m": "Let's give them a final embrace, Dux Florum.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 36,
+        "voice_title": "Added to Team With Anaxa",
+        "voice_m": "You're not my opponent in this game, Dux Sagax. I look forward to working with you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 37,
+        "voice_title": "Added to Team With Hyacine",
+        "voice_m": "I shall trust the healing in this battle to you, Dux Lucens.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 38,
+        "voice_title": "Added to Team With Phainon",
+        "voice_m": "Pierce the darkness with dawn, Dux Solaris.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 39,
+        "voice_title": "Added to Team With March 7th",
+        "voice_m": "Let your imagination run wild, Dux Temporum.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 40,
+        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
+        "voice_m": "Show me your way of protection, Dux Draconum.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 41,
+        "voice_title": "Added to Team With Cyrene",
+        "voice_m": "March towards the cosmos with the Law of \"love\"!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 51,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Ready yourself. Ruin is inevitable.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 52,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Without risk... how does one expect to win?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 53,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "If the world was all black or white, it would lose its charm.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 54,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "The weight of victory now rests in my hand.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 55,
+        "voice_title": "Turn Idling",
+        "voice_m": "Don't try to stall your enemies... Tedious.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 56,
+        "voice_title": "Basic ATK",
+        "voice_m": "Forward.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 57,
+        "voice_title": "Skill 1",
+        "voice_m": "Come now, step onto the board!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 58,
+        "voice_title": "Skill 2",
+        "voice_m": "Press the attack.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 59,
+        "voice_title": "Skill 3",
+        "voice_m": "A bloody fight to the end.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 60,
+        "voice_title": "Skill 4",
+        "voice_m": "Fight for me!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 61,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Flailing beast.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 62,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "You've got nerve.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 63,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "To the defeated, oblivion. To the victor, the throne...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 64,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "In the name of Law, I declare: Your downfall is absolute!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 65,
+        "voice_title": "Downed",
+        "voice_m": "For... the cause...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 66,
+        "voice_title": "Return to Battle",
+        "voice_m": "Surrender a pawn to beg for peace? Never.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 67,
+        "voice_title": "Health Recovery",
+        "voice_m": "In the coming days, I shall grant you honor.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 68,
+        "voice_title": "Technique",
+        "voice_m": "A direct offensive... or crush them from the flanks?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 69,
+        "voice_title": "Battle Won",
+        "voice_m": "I came. I saw. I conquered.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 70,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Take stock of your deeds... and claim rewards as you see fit.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "To rise from nothing is also the way of a king.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Rejoice, but never stray from the greater cause.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "A game fit for children, yet you call upon me?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "These mere parlor tricks cannot delight me.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "The first-move advantage must not be wasted.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Returning to Town",
+        "voice_m": "Be at ease. This place, too, shall know my protection.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "cerydra",

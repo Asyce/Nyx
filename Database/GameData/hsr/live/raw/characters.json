@@ -924,7 +924,7 @@
     "damageType": "Physical",
     "en": "Phainon",
     "enhance": [],
-    "desc": "Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.\\nThe Nameless hero, ████████, the Chrysos Heir holding the Coreflame of \"Worldbearing,\" memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world\\n—<i>\"But if dawn should never come, let this fury consume this body, and rise as tomorrow's blazing sun!\"</i>",
+    "desc": "Aedes Elysiae, a remote frontier village isolated from the world, now lives on only in cryptic legends.\\nThe nameless hero, ████████, the Chrysos Heir holding the Coreflame of \"Worldbearing,\" memorizes the ideals of the entire world, carries the fate of millions, and brings the first light of dawn to the new world\\n—<i>\"But if dawn should never come, let this fury consume this body, and rise as tomorrow's blazing sun!\"</i>",
     "ko": "파이논",
     "zh": "白厄",
     "ja": "ファイノン"
@@ -1086,6 +1086,7 @@
     "ja": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}"
   },
   "1508": {
+    "release": 1784883600,
     "icon": "tohsakarin",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Mage",
@@ -1098,6 +1099,7 @@
     "ja": "{RUBY_B#とおさかりん}遠坂凛{RUBY_E#}"
   },
   "1509": {
+    "release": 1784883600,
     "icon": "gilgamesh",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Warrior",
@@ -1110,6 +1112,7 @@
     "ja": "ギルガメッシュ"
   },
   "1510": {
+    "release": 1784106000,
     "icon": "himekonova",
     "rank": "CombatPowerAvatarRarityType5",
     "baseType": "Mage",
@@ -1120,6 +1123,32 @@
     "ko": "히메코•노바",
     "zh": "姬子•启行",
     "ja": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち"
+  },
+  "1512": {
+    "release": 1787734800,
+    "icon": "robinsummeretto",
+    "rank": "CombatPowerAvatarRarityType5",
+    "baseType": "Memory",
+    "damageType": "Wind",
+    "en": "Robin • Summeretto",
+    "enhance": [],
+    "desc": "Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.\\nFollowing the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—\\nBeyond the melody, how else can the Harmony sing?",
+    "ko": "로빈•서머레토",
+    "zh": "知更鸟•晴歌",
+    "ja": "ロビン・{RUBY_B#なつぞら}夏空{RUBY_E#}の{RUBY_B#うた}歌{RUBY_E#}"
+  },
+  "1513": {
+    "release": 1789203600,
+    "icon": "aventurinewaveflair",
+    "rank": "CombatPowerAvatarRarityType5",
+    "baseType": "Elation",
+    "damageType": "Quantum",
+    "en": "Aventurine • Waveflair",
+    "enhance": [],
+    "desc": "The grand festival illuminates the coast, while a storm brews amidst euphoria.\\nSecret orders in hand, he steps back into the eye of the storm to shake up this long holiday—\\nWhen treacherous waves subsume his figure, how will he emerge as the game changer?",
+    "ko": "어벤츄린•웨이브",
+    "zh": "砂金•戏浪",
+    "ja": "アベンチュリン・{RUBY_B#なみ}波{RUBY_E#}と{RUBY_B#たわむ}戯{RUBY_E#}れる{RUBY_B#なつ}夏{RUBY_E#}"
   },
   "8001": {
     "release": 1682460000,

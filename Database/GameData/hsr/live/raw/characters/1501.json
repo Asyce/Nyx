@@ -2,6 +2,7 @@
   "name": "Sparxie",
   "desc": "Like! Follow! Stream! Views! Party till the world ends!\\nSparxie and Sparkle, the Mask and the Fool are fundamentally the same.\\nWhoever is seen, whoever is liked, is the correct answer!",
   "chara_info": {
+    "camp": "Masked Fools",
     "va": {
       "chinese": "赵爽",
       "japanese": "上田麗奈",
@@ -15,7 +16,398 @@
       "3": "Post:\\n<i>\"Congrats to @OhMySparxicle and <unbreak>23</unbreak> others! You've won the prize: control of the Sparxie account for one system hour! Effective tomorrow~\"</i>\\nOnce they put on the Sparxie mask, will people become themselves, or will they become Sparxie? She will watch from the darkness behind the screen, waiting in anticipation.\\n\\nAt system hour zero, the user \"OhMySparxicle\" became \"Sparxie.\"\\nAnd \"Sparxie\" made a declaration to her fans, leading them to review-bomb influencers she didn't like, until her fan army drowned out their streams entirely.\\n...\\n\\nAt system hours twelve, \"Sparxie\" appeared before her audience again, this time surrounded by piles of Sparxie-branded merchs.\\nThe screen was filled with shopping links, with prices ten times that of similar products.\\nFive minutes later, the stream was taken down for one hour due to a massive number of viewer complaints.\\n...\\n\\nAt system hour twenty-three, \"Sparxie\" began digging through the account's history. She set all past comments and favorited content to public for everyone to see, trying to uncover some dirt on the real Sparxie.\\n\"Oh, so Sparxie really is just a regular streamer. Fine, I'll just create some scandals for her!\" After a brief letdown, this \"Sparxie\" quickly started posting new things.\\n...\\n\\nOne after another, twenty-four \"Sparxies\" had their turn, and the resulting chaos was more popular than ever.\\n\\n<i>\"They're all being led around by the nose by the very masks they're wearing. See that, old-timer? Who says a mask can't steal their thunder?\"</i>\\n\\nWhen she returned to the stream, the screen was instantly buried under a tidal wave of bullet comments. Her smile was as sweet and charming as ever.\\n<i>\"Congratulations on completing the 'Twenty-Four-System-Hour Game'! Now for the question: Who was the greatest 'Sparxie' impersonator of all?\"</i>\\n\\nAmidst the ocean of bullet comments, Sparxie seemed to shine with a dazzling light...\\n\\n<i>\"Looks like the verdict is unanimous! In that case... let's congratulate our winner, Sparxie!\"</i>",
       "4": "She arrived at the tavern and admired the masks left behind.\\nSparkle the student, Sparkle the office worker, Sparkle the patient, Sparkle the puppet... they smiled, they cried, they despaired, they rejoiced.\\n\\n<i>\"Do you know why you've all been left behind, hmm?\"</i>\\nShe caressed each mask like an old, unfashionable coat.\\n<i>\"Doing everything you can to imitate her, recreate her, and pass yourself off as her... that's not what the Elation is about.\"</i>\\n\\n<i>\"A Fool who doesn't understand the Elation... is doomed to be left behind!\"</i>\\nShe took the identity of the Fool and defined herself...\\n\\nHer laughter echoed across Planarcadia, from inside the speeding Express to the cramped, dark rooms, and in the comments of her viewers.\\nThe person on screen grabbed the camera and leaned forward, peering into the black hole of the lens. She couldn't see her audience, but she knew she was reflected in their eyes.\\n\\n<i>\"In Planarcadia, being unloved is the same as being dead. And if no one hates you, what's the point?\"</i>\\n\\nThe gazes of countless fans became the strings in her hands. She knew Planarcadia had become \"Sparxie's\" stage, and its infinite audience, the actors she controlled.\\n\\nAnd she was being watched by those same countless fans. The viewers knew that Planarcadia had become everyone's carnival. As long as someone still desired a spark, Sparxie's stage would never go dark.\\n\\nThe moon of Elation has risen. How long has it been since Planarcadia has had a good, hearty laugh?\\n<i>\"This captivating paradise... doesn't it exist to grant all of your wishes?\"</i>\\nShe put on the Supplicant's mask, preparing to offer pure elation for the coming games...\\n\\n<i>\"Let's all become the 'Sparxie' we're meant to be!\"</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "Hey there, Galactic Baseballer, welcome to the stream! I'm your good friend, Sparxie~ Are you ready for a day overflowing with dopamine? The world is full of sparkle, so don't forget to shine brightly just like Sparxie!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "First Meeting",
+        "voice_m": "Hey there, Galactic Baseballer, welcome to the stream! I'm your good friend, Sparxie~ Are you ready for a day overflowing with dopamine? The world is full of sparkle, so don't forget to shine brightly just like Sparxie! So tell me, Little Gray Hair, did that opener reel you in?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Greeting",
+        "voice_m": "So, what big stunts have you pulled off lately? You've got the clout. I've got the account. Let's collab and go viral overnight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "Parting",
+        "voice_m": "Aww, don't be sad about goodbyes, Sparxie will always be here with you on the other side of the screen, and in your heart.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "Parting",
+        "voice_m": "Aww, don't be sad about goodbyes... you know, in times like these, you, me, Sparkle, Sparxie... we're already inseparable.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "About Self: \"Sparxie\" 1",
+        "voice_m": "Here in Sparxie's livestream, people hide themselves, discover themselves, evade themselves, or just invent a whole new version of themselves! All it takes is a tiny \"spark\" to ignite everyone's deepest desires. Sure, the old model says I'm only a \"mask,\" but hey, who's getting the views, the likes, the audience's attention? Exactly.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "About Self: \"Sparxie\" 2",
+        "voice_m": "All it takes is a tiny \"spark\" to ignite everyone's deepest desires. Ha! Then doesn't betrayal slide into place so naturally? To cheat the world, you've got to cheat yourself first... Well? Dare to ask me who the \"Sparxie\" before you now really is?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: Phantasmoon Games",
+        "voice_m": "How can I let the Master of Elation's ceremony turn into some boring, pathetic, dull, tedious, profit-driven... social mixer? Restoring the fun of the Phantasmoon Games, that's a responsibility no Masked Fool can escape.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Chat: Livestream Script",
+        "voice_m": "Sparxie's stream? Totally unscripted~ But if you're so sure fate's story is already written, then... let's throw in a few unexpected bloopers!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Chat: Sparkly Rabbits & Fire Shrooms",
+        "voice_m": "These little ones are electronic pets, born from the laughter of the viewers. Cute, don't you think? In the stream, there are laughs of joy, laughs of sorrow, laughs dripping with malice, and laughs burning with hate... Black and white, or perhaps should I say, there's only black or only white. That's the true nature of the online world.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Hobbies",
+        "voice_m": "In Arcadian Calendar Year <unbreak>1998</unbreak>, there were exactly <unbreak>88,888</unbreak> trending memes running through everyone's heads, and <unbreak>88%</unbreak> of them came straight from Sparxie's stream! Heehee~ Let's make the new year just as fun!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Annoyances",
+        "voice_m": "Telling the same joke twice is no worse than murdering it!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Something to Share",
+        "voice_m": "Have you figured it out yet? \"Attention\" is Planarcadia's most precious commodity. Only when it surges toward you do you get to keep existing~ Which is why this world keeps churning out spectacles, all clawing for your gaze. That's why Miss Sparxie has to remind you... The line between real and fake has long been erased. Still believe everything you see?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "Knowledge: \"End of the world\"",
+        "voice_m": "Tsk tsk, \"zero negative reviews\" and \"user comfort levels\" are now tavern KPIs? Fools, is this still the Elation's doing? Hello, yes, I'd like to order a special cocktail, it's called \"Brain Sparkles Like Fireworks From Laughing.\" Oh, and make it a round for everyone in the tavern, it's on me!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "Gray Hair, you know I'm totally your top fan, right? So... which show are we acting in together next?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Sparkle",
+        "voice_m": "Those girls in plays... burning bright, dazzling, but gone in a flash... They used to be called \"Sparkles\"... Hehe, Sparkle and Sparxie, just pretty masks to wear~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Yao Guang",
+        "voice_m": "Can you believe it? Lucky as can be and a true captain of a Xianzhou ship! Sounds like the perfect setup for an idol group, right? I'll handle the title song, and she'll twirl like a peacock. I'm thinking we'll go by the name \"The Yao-Spark Hands.\"",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Sunday",
+        "voice_m": "Making people happy, and making people smile? Those are two totally different things! Heh, so what's Chicken Wing Boy gonna do, hmm?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Ashveil",
+        "voice_m": "You really think people only wear one mask? Hah, no way... the clever ones play the fool, and the brave ones act like little nobodies... but he's no little nobody, hee-hee. Miss Sparxie's had him figured out since forever~ Awoo~ Do you realize how sad a wolf's unanswered howl really is?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "She clearly has the chops to be a game designer or a director, but she insists on making life hard for herself. *Sigh*... I was wondering why my electric buddy didn't hand me a script this time. Turns out she's decided to take center stage herself.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Evanescia",
+        "voice_m": "Vibrant, effortlessly cool, gorgeous... sharp as a tack yet powerful, knows every trend inside and out, plus she's got killer internet instincts. She's basically every viral character trope rolled into one! Come on, even Director Sparxie wouldn't dare write a character like this. Where the heck did she learn all that?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Himeko • Nova",
+        "voice_m": "Wait, what? A veteran player of the Phantasmoon Games? No fair, how am I even supposed to win against that? Hee-hee... but hey, if winning is off the table, that's fine too. At least let me chase some of that clout!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Exclusive broadcast subscription successful! Who will the next me be...?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "Don't be too cautious⁓ We'll see each other at the top, after all.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "Fun's over⁓ Not! I haven't finished playing yet.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "New ability unlocked, let's get 'em⁓",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "Welcome to my channel⁓ What shall we play today?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Sparkle",
+        "voice_m": "NOW I'm Elation!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Sampo",
+        "voice_m": "Today's show depends on you... Say hi to everyone!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "Madam Yao, tell me the Fortune for Today... How's my follower growth looking?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "See? Still as serious as ever. Smile~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "Added to Team With Ashveil",
+        "voice_m": "Awoo~ Did you find something awesome again, great detective?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "Added to Team With Evanescia",
+        "voice_m": "Connection successful! This PvP stream's gonna rake in the views~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 112,
+        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "\"Don't laugh, you wouldn't make it past stage two either.\" Hee-hee, but a pro gamer definitely could~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 113,
+        "voice_title": "Added to Team With Himeko • Nova",
+        "voice_m": "Heads up! I can't promise there won't be a little \"friendly fire\" coming your way~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "To all of you watching! You reckon I'll win?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Look at you, big shot! Just wait, I'll pull the plug on your stream~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Game is on~ Leave a like~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "That's all the spark you got?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Big thanks to The Fluffy for the super chat! Thank you to our lucky diviner for the gifts, to the esteemed wolf for the donation, to our sharp-eyed detective, and to the Cosmic Traveler... Keep cheering for Sparxie, okay~?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "Here's a downvote~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill: Activate 1",
+        "voice_m": "Wanna battle?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill: Activate 2",
+        "voice_m": "The show begins!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Skill: Interact 1",
+        "voice_m": "Here's more...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Skill: Interact 2",
+        "voice_m": "Hold it...!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Skill: Unleash 1",
+        "voice_m": "Punishment time!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Skill: Unleash 2",
+        "voice_m": "All stand up!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "ToS ban!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Stealin' my hype...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Elation Skill 1",
+        "voice_m": "Incoming tidal wave of fortune! Right. In. The. Face.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Elation Skill 2",
+        "voice_m": "Don't go anywhere! The next lucky winner... is YOU~!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Dear viewers, I've kept you waiting~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "Come and party with Sparxie till the end of the world!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Downed",
+        "voice_m": "Heh. Show's over...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Return to Battle",
+        "voice_m": "Did you miss me?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Health Recovery",
+        "voice_m": "I like this dream collab!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Technique",
+        "voice_m": "Comment barrage!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Battle Won",
+        "voice_m": "Teehee. See you during my next stream~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "Perfect~ That's going in today's content reel~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "I take both big and small donations~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Next time, I'll host a little giveaway to thank you all~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "Hehe~ Seems like I was born for this.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 228,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Heh. Who else dares doubt Sparxie?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 229,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Non-family-friendly content up ahead. Be careful~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 230,
+        "voice_title": "Returning to Town",
+        "voice_m": "Say... This is a pretty good spot to set up a SparxiCon~",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "Sparxie",
@@ -3680,5 +4072,7 @@
       ]
     }
   ],
-  "skin": {}
+  "skin": {
+    "1150101": ""
+  }
 }

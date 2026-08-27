@@ -6,7 +6,8 @@
     "va": {
       "chinese": "彭博",
       "japanese": "細谷佳正",
-      "korean": "한신"
+      "korean": "한신",
+      "english": "Brian T. Delaney"
     },
     "stories": {
       "0": "The wise and experienced former Anti-Entropy Sovereign who inherited the name of the world — Welt. He has saved Earth from annihilation time and time again.\\nAfter the incident with St. Fountain came to a close, Welt had no choice but to venture with the initiator of the incident to the other side of the portal.\\nPerhaps even he did not expect the new journey nor companions that awaited him there.",
@@ -161,6 +162,66 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 25,
+        "voice_title": "About Sunday",
+        "voice_m": "Having an ideal and pursuing it is not rare, but being able to start anew after that ideal is shattered — this kind of willpower will carry him far.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Fugue",
+        "voice_m": "In the face of the seemingly unstoppable tide of destiny, we always have the freedom to resist... She must have fought an extremely tragic but heroic battle against herself.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "There are both dangers and opportunities during interstellar travel... This is what companions are for.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "About The Herta",
+        "voice_m": "The world is full of extraordinary complexity. Normally, researchers are only able to glean truth after dissecting the universe into categories... yet she revealed the essence of all things in such a miraculous way. If I hadn't seen it with my own eyes, I would never have believed it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 29,
+        "voice_title": "About Dan Heng 3",
+        "voice_m": "Growth might look like just taking one step forward, but it can only be completed after finishing a long journey. I am relieved to see how much more determined the light in his eyes has become.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 30,
+        "voice_title": "Added to Team With Evernight",
+        "voice_m": "Seems like you have quite a few ideas about this fight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 31,
+        "voice_title": "Added to Team With Dan Heng • Permansor Terrae",
+        "voice_m": "No need to hesitate. I believe this is far from the limit of your power.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 32,
+        "voice_title": "About March 7th 2",
+        "voice_m": "Since experiencing this trip — or perhaps much earlier — March has become a mature Nameless. We needn't treat her like a helpless child anymore.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 33,
+        "voice_title": "About Himeko • Nova",
+        "voice_m": "I always knew Himeko was full of surprises, but the beauty of the \"Starblazer\" far exceeded my expectations. Still, I must clarify: The charm of a giant robot isn't just about its looks. Without a doubt, it's her dream that gives it that final, brilliant finishing touch.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 34,
+        "voice_title": "Added to Team With Himeko • Nova",
+        "voice_m": "Opportunities like this don't come around often. I'd better make sure I keep up with the younger generation.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Seems you need to experience some hardship.",
@@ -269,27 +330,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 72,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "This will definitely come in handy.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "You don't see these every day...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 69,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Well figured out.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 74,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "Now, that's talent.",
         "is_battle_voice": true
       },
       {
@@ -302,6 +345,36 @@
         "voice_id": 71,
         "voice_title": "Returning to Town",
         "voice_m": "The next destination...? Up to you.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "This will definitely come in handy.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "You don't see these every day...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 74,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Now, that's talent.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 75,
+        "voice_title": "Assist Skill: Trailblaze Companions",
+        "voice_m": "Go forth to connect more worlds.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 76,
+        "voice_title": "Finishing Blow: Trailblaze Companions",
+        "voice_m": "Become the stars, and light up the cosmic night!",
         "is_battle_voice": true
       }
     ]
@@ -641,7 +714,7 @@
       ],
       "extra": {
         "10000002": {
-          "name": "Action Delayed",
+          "name": "Delay Action",
           "desc": "Increases the target's waiting interval before the next action.",
           "param": []
         },
@@ -939,7 +1012,7 @@
       ],
       "extra": {
         "10000002": {
-          "name": "Action Delayed",
+          "name": "Delay Action",
           "desc": "Increases the target's waiting interval before the next action.",
           "param": []
         },
@@ -3065,7 +3138,7 @@
           ],
           "extra": {
             "10000002": {
-              "name": "Action Delayed",
+              "name": "Delay Action",
               "desc": "Increases the target's waiting interval before the next action.",
               "param": []
             },
@@ -3437,7 +3510,7 @@
           ],
           "extra": {
             "10000002": {
-              "name": "Action Delayed",
+              "name": "Delay Action",
               "desc": "Increases the target's waiting interval before the next action.",
               "param": []
             },

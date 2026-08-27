@@ -150,6 +150,30 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 25,
+        "voice_title": "Added to Team With Jade",
+        "voice_m": "Open your eyes and behold Lady Jade, the great manipulator!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 26,
+        "voice_title": "About Jade",
+        "voice_m": "She's like a puppeteer. It's as if people aren't people in her eyes... That kind of person is the most terrifying! But I can't help but want to work with her again and again... Why? Because I am also that kind of person.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 27,
+        "voice_title": "About Sparxie",
+        "voice_m": "Even my spur-of-the-moment designs come out looking good. Just look! White hair with red highlights, and a rabbit mask I spent eleven system-hours perfecting! But they still need one final touch... a \"Sparkling\" heart~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 28,
+        "voice_title": "Added to Team With Sparxie",
+        "voice_m": "Some people play games, others gaze at their reflection... Can you guess who I'm talking about?",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "Oops, did that hurt?",

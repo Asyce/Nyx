@@ -89644,7 +89644,11 @@
         "ascCost": 420000,
         "talentCost": 4957500,
         "currency": 5377500
-      }
+      },
+      "overviewArtPool": [
+        "../../Database/GameData/gi/gcg/character cards/assets/1612-Illuga.webp"
+      ],
+      "overviewArt": "../../Database/GameData/gi/gcg/character cards/assets/1612-Illuga.webp"
     },
     {
       "id": "gi-10000125",
@@ -93492,10 +93496,11 @@
         "currency": 5377500
       },
       "overviewArtPool": [
+        "../../Database/GameData/gi/gcg/character cards/assets/1217-Columbina.webp",
         "../../Database/GameData/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
         "../../Database/GameData/gi/gcg/other cards/assets/321035-Silvermoon Hall.webp"
       ],
-      "overviewArt": "../../Database/GameData/gi/gcg/other cards/assets/331807-Moon and Homeland.webp",
+      "overviewArt": "../../Database/GameData/gi/gcg/character cards/assets/1217-Columbina.webp",
       "overviewArtZoom": 1.12
     },
     {
@@ -187102,7 +187107,8 @@
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
       "birthdayArtPool": [
         "../../Database/GenshinWiki/birthday-art/arlecchino/01-Arlecchino Birthday 2024.jpg",
-        "../../Database/GenshinWiki/birthday-art/arlecchino/02-Arlecchino Birthday 2025.png"
+        "../../Database/GenshinWiki/birthday-art/arlecchino/02-Arlecchino Birthday 2025.png",
+        "../../Database/GenshinWiki/birthday-art/arlecchino/03-Arlecchino Birthday 2026.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
       "skillIcons": [
@@ -256188,8 +256194,9 @@
         "../../Database/GenshinWiki/birthday-art/faruzan/01-Faruzan Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/faruzan/02-Faruzan Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/faruzan/03-Faruzan Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/faruzan/04-Faruzan TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/faruzan/05-Faruzan TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/faruzan/04-Faruzan Birthday 2026.jpg",
+        "../../Database/GenshinWiki/birthday-art/faruzan/05-Faruzan TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/faruzan/06-Faruzan TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Faruzan.png",
       "skillIcons": [
@@ -480475,10 +480482,11 @@
         "../../Database/GenshinWiki/birthday-art/ningguang/05-Ningguang Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/ningguang/06-Ningguang Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/ningguang/07-Ningguang Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/ningguang/08-Ningguang TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/ningguang/09-Ningguang TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/ningguang/10-Ningguang TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/ningguang/11-Ningguang TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/ningguang/08-Ningguang Birthday 2026.jpg",
+        "../../Database/GenshinWiki/birthday-art/ningguang/09-Ningguang TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/ningguang/10-Ningguang TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/ningguang/11-Ningguang TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/ningguang/12-Ningguang TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Ningguang.png",
       "skillIcons": [

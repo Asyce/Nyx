@@ -246,27 +246,9 @@
         "is_battle_voice": true
       },
       {
-        "voice_id": 71,
-        "voice_title": "Treasure Opening 2",
-        "voice_m": "If they can fit in my rucksack, I'm taking them.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 72,
-        "voice_title": "Precious Treasure Opening",
-        "voice_m": "I don't have space for all this...",
-        "is_battle_voice": true
-      },
-      {
         "voice_id": 68,
         "voice_title": "Successful Puzzle-Solving 1",
         "voice_m": "Another handy survival skill.",
-        "is_battle_voice": true
-      },
-      {
-        "voice_id": 73,
-        "voice_title": "Successful Puzzle-Solving 2",
-        "voice_m": "So that's how it works...",
         "is_battle_voice": true
       },
       {
@@ -279,6 +261,24 @@
         "voice_id": 70,
         "voice_title": "Returning to Town",
         "voice_m": "Get some rest while you can and gather your strength.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 71,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "If they can fit in my rucksack, I'm taking them.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 72,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "I don't have space for all this...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 73,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "So that's how it works...",
         "is_battle_voice": true
       }
     ]
@@ -311,7 +311,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }
@@ -641,7 +641,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       },

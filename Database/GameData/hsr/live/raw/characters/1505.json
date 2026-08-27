@@ -2,6 +2,7 @@
   "name": "Evanescia",
   "desc": "One season the Phantasmoon waxes full, one season the mortal world shifts anew: The mysterious girl reappears in Planarcadia!\\nFallen petals scatter with ease, and her stay was but a fleeting instant. Everything about this new era enthralls her, and she will not allow anyone to bring it to ruin...\\nA single ruler blade judges right from wrong, but who can say how much good or evil lies within oneself?",
   "chara_info": {
+    "camp": "Planarcadia",
     "va": {
       "chinese": "溯浔",
       "japanese": "佐倉綾音",
@@ -15,7 +16,362 @@
       "3": "Sixty seconds on the clock, a minute until words vanish completely.\\nWhen the victor of this Phantasmoon Games announced this miracle, most people just dismissed it as a farce.\\nThey looked up, ready to witness this folly.\\n\\n<unbreak>59</unbreak> seconds left. Epic, action-packed comic book battle lines spill from the pages.\\n<i>\"We quit! You come up with your own battle sounds!\"</i>\\nThe people of Planarcadia burst out laughing.\\n\\n<unbreak>50</unbreak> seconds left. The escaped words are reborn. They sprout limbs, gaining meaning beyond mere symbols—\\nThe word \"Blade\" races, glinting through the streets. The \"Spear\" and \"Bullet\" join forces, becoming indiscriminate killers tearing across the roads.\\nLibraries, home bookshelves, coffee shops... An endless torrent of words comes flooding in, with nowhere to hide.\\nAnd still, even more terrifying words are breaking free from their shells.\\n\\n<unbreak>40</unbreak> seconds left. Anguished screaming and wailing echoes throughout Planarcadia.\\nThe \"Demon King of the Century,\" the \"Master of Destruction,\" the \"Sisters of Reticence\"... Born from the entertainment industry's books, they feed on people's terror.\\nThey take the form of devils hovering above Planarcadia, directing this apocalyptic Euphoria.\\n\\n<unbreak>30</unbreak> seconds left. As all the Code sneak away, digital devices go dark, Planarcadia's defensive facilities shut down completely, security officers fall in great numbers.\\n\\n<unbreak>20</unbreak> seconds left. The girl fighting on all fronts halted, staring at the human world turned into purgatory. She seems to have come to a decision.\\n\\n<unbreak>10</unbreak> seconds left. A flash of extraordinary radiance. The Ambrosial Arbor in the courtyard lowered its endless branches from the void and grabbed the rampaging word monsters.\\n\\n5 seconds left. A cool smile plays on the girl's face as she watches the branches drain the life from the words, leaving them floating like withered leaves.\\n\\n3 seconds left. A crimson blade flashes through the air, severing the symbols. Afterward, the severed symbols are then woven into a reborn language for future generations.\\n\\nA minute later, the Phantasmoon Games resumed normally. But the world appears aged, yellowed. The earth cracked open, mountains and valleys diminished into dust, and a sorrowful girl fell from the sky.",
       "4": "The Phantasmoon dims, and she drifts back into the embrace of dreams.\\nIn those endless dreams, fragments both strange and familiar rise then settle.\\n\\nShe dreamed of a single tear.\\nA ceaseless tune rang in her ears, its melody swaying her as she lamented her dying kin.\\nNo matter how hard she tried to save them, they relentlessly peaked at youth, froze, and plummeted into old age. Their tears falling on her hands were searing.\\n\\nShe dreamed once again of gloriously marching to war.\\nHer kin had come to call her the \"Swordsinger.\" The blade to cut through all obstacles, the song to comfort her people. She vowed to overturn their fate and bless them with eternal life.\\nShe was tireless on her quest for the elixir. Yet behind her hurried steps, death followed like a shadow.\\nUsing life itself as fuel, the slender hands tending the mystical garden finally extended toward her a branch of favor.\\n\\nMemories of life and death stirred her awake once more.\\nDriven by unmatched pride, she had charged thoughtlessly into the forbidden territory of the Alliance Fleet.\\nOnly afterward did she consider how effortlessly the opponent in front of her could parry her sword. Like dry leaves faced with encroaching wildfire, she too was at a loss in front of this blaze.\\nWhen she lost by the slimmest of margins, her other self mocks:{SPACE}\\n\\n<i>\"Why resist what you truly are?\"</i>\\nShe saw a giant tree, eternally immortal even as its surroundings were devoured and reduced to nothing but piles of bleached bones.\\n\\nYet before the Dreamscape could murmur its reply, she had already broken free of its unending embrace.\\nShe heard clamoring beyond the courtyard, a noise that chased away the terror born of deathly silence.\\nSeated upon the golden treetop, once more, she reached out her hand toward the mortal world:\\n\\n<i>\"Is that even a question? If I turned into something like you, how could I keep up with Fluffy Across the Blue's latest updates!?\"</i>"
     },
-    "voicelines": []
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "Congrats, you've hit the jackpot! I'm Evanescia. Nice to meet you, Main Character Little Raccoon. Usually, amidst all this revelry, I just make sure the Phantasmoon Games run smoothly... But this time? Sharing the stage with you doesn't sound half bad!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "Did a new issue of The Fluffy drop today? Nope!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "Fate works in mysterious ways, doesn't it? Maybe someday, we'll meet again on a street where flower petals dance in the air... I'm looking forward to it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Past",
+        "voice_m": "A long time ago, people would whisper their deepest secrets to the Ambrosial Arbor that fell into Planarcadia, tying red strings of prayer to its branches... Thanks to the masks of The Laughter, the Wishpower of the mortal realm imagenated me into who I am now: the Guardian of the Phantasmoon Games. To be honest, sometimes even I am afraid of my own power, but isn't that how it always goes in comics? You've gotta conquer your dark past to experience true growth~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: \"Evanescia\"",
+        "voice_m": "I came up with the name myself. What do you think? Doesn't it have a nice ring to it? Evanescia, Evanescia... It's just like that moment when something beautiful is in full bloom. Even if it's fleeting, it becomes eternal in your heart.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "Chat: The Ruler of Judgment",
+        "voice_m": "Measuring the fleeting splendor of ages, adjudicating the boundary of truth and falsehood. When the blade is sheathed, neither gods nor ghosts shall be spared... Heheh, pretty cool line, right? If anyone dares disrespect the rules of the Phantasmoon Games, I'll make sure they get a taste of my ruler.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Painting",
+        "voice_m": "I'm actually incredibly gifted when it comes to the way of the brush. Just look at that raccoon mask I gave you... The strokes are wild and free, the lines abstract and evocative. This is what I call... reaching the pinnacle of artistry and returning to simplicity!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: <i>Humanity's Most Baffling Behaviors</i>",
+        "voice_m": "Every time the Phantasmoon Games come around, this is my go-to show for keeping up with all the latest trends in Planarcadia. Sure, the outside world's constantly evolving, but those painfully awkward, laugh-till-you-cry moments? Still the same as ever. That's the magic of it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Chat: <i>Fluffy Across the Blue</i>",
+        "voice_m": "Whether it's Woof Woof Dan ripping through Phanty's shoulder, March Bunny taking down Titans with a single punch, or the Baseball Raccoon riding a rolling trashcan to battle the Singing Septimus... I'm here for it all! Why are you making that face...? Am I remembering it wrong?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Hobbies: Role-Playing",
+        "voice_m": "With Star Rail FEST being all the rage lately, I really want to cosplay something, but I'm completely torn because there are just too many characters I love... My top choice is definitely March Bunny since I can use my real hair, but playing Woof Woof Dan sounds kinda tempting too, you know?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Hobbies: Digital Pet Egg",
+        "voice_m": "Back in the day, it was the national pastime that took Planarcadia by storm. Everyone had a copy. It's been so long. Who could've imagined that the tiny Master Fox would turn into my trusty assistant? Come on out and say hi to {NICKNAME}~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Annoyances 1",
+        "voice_m": "Whether it's a fuzzy spider or a shiny beetle, if one lands on me, I will personally demonstrate how to rip a bug apart with your bare hands! And some comic artists just love those giant-insect-themed imagenae. It's the stuff of nightmares... I'm getting goosebumps just talking about it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Annoyances 2",
+        "voice_m": "You finally catch up on a comic series, only to find out it's been axed... Couldn't they just put it on hiatus instead? As long as the artist is still breathing, miracles can happen...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "Something to Share",
+        "voice_m": "I can only manifest in the physical world while the Phantasmoon Games are happening. Do you have any idea the kind of suffering involved in trying to binge over a decade's worth of fun and entertainment in just a dozen days? Compared to that, hunting down merch from across the cosmos is practically nothing... Enough said, just call me the master of time management!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "Knowledge: Phantasmoon Games",
+        "voice_m": "In the beginning, the people of Planarcadia held ceremonies to entertain the gods and cast out evil, all to suppress the wickedness beneath the earth. Over time, the format changed, and people gradually forgot its original purpose. The Phantasmoon Games eventually turned into something more like a stage play... Don't get me wrong, I prefer it this way. Those nightmarish days should never return.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "Being able to respond to the kind-hearted hopes among all the malicious wishes, and become a hero protecting Elation in Planarcadia... Only our Baseball Raccoon could do it.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Sparxie",
+        "voice_m": "She said I'd be the perfect fit for promoting headphones on stream. If I did a livestream, it would take Planarcadia by storm for sure... What a shame. If I weren't so pressed for time, I'd definitely want to give it a shot.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 18,
+        "voice_title": "About Yao Guang",
+        "voice_m": "I really want to go play claw machines, scratch lottery tickets, and pull for characters with her... I'm not just saying things! Even if you don't believe in Aha, you have to believe in Yao Guang's luck!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 19,
+        "voice_title": "About Ashveil",
+        "voice_m": "On the surface, a washed-up detective with nothing to his name. Underneath, a renowned Ranger hero... Sounds straight out of a comic book, right? Planarcadia is exactly the kind of place where the unexpected is always possible.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 20,
+        "voice_title": "About Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "I can't believe she's a die-hard fan of Planarcadia's first video game! You know that feeling of pure joy when you finally meet someone who just gets it? When it comes to gaming, I will always pledge my allegiance to Lady Silver Wolf!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 21,
+        "voice_title": "About Mortenax Blade",
+        "voice_m": "Sealing the undying Abundance within his own body... I have to admit, that's a rather novel approach.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 22,
+        "voice_title": "About Himeko • Nova",
+        "voice_m": "Fate truly works in mysterious ways. Back then, she was just a girl gazing at the stars, beginning her own little <i>Fluffy Across the Blue</i>. Now, she's returned like a hero straight out of a comic to save her home. I suppose it's true after all, nothing gets my heart racing quite like the triumph of the human spirit!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "A flutter of petals, and a bond eternal~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "Seal removed! Feast your eyes on my legendary blade!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "I can finally unleash that move!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "Walking, laughing, crying... just another day in the life~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "The fifteen-year wait is over! The Ruler-Blade Fox humbly welcomes the Baseball Raccoon back to their rightful throne!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Sparxie",
+        "voice_m": "Hey Sparxie, streamer-to-streamer tip: Don't let those sparks burn too bright!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Yao Guang",
+        "voice_m": "One more time! Can you see through my fate, now?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Ashveil",
+        "voice_m": "O Great Detective... Can you deduce who I am this time?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "Added to Team With Silver Wolf LV.<unbreak>999</unbreak>",
+        "voice_m": "Carry me, big shot! Let's team up and grind some points!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 110,
+        "voice_title": "Added to Team With Mortenax Blade",
+        "voice_m": "If you think about it, aren't we the bigger threat?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 111,
+        "voice_title": "Added to Team With Himeko • Nova",
+        "voice_m": "Piloting a giant robot with Himekat? This has to be a dream!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "The pinker the hair, the harder they hit... Haven't you heard?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Classic villain entrance, right on cue~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "Let me measure that... Whoa, you're WAY over the limit!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "You seriously thought I was just a mascot?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Hesitation means defeat, you know?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "You're it.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill 1",
+        "voice_m": "See you later, everyone!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill 2",
+        "voice_m": "By the Phantasmoon I'll vanquish you!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "You done playing yet?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "Tall trees attract the wind...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Elation Skill 1",
+        "voice_m": "You've stepped out of line~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Elation Skill 2",
+        "voice_m": "The game is fixed~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Do your worst, Master Fox.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "I decide the rules of the game... And you're out!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Downed",
+        "voice_m": "Time's not up yet...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Return to Battle",
+        "voice_m": "The story's not finished.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Health Recovery",
+        "voice_m": "I've been healed, awesome!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Battle Won",
+        "voice_m": "Release the confetti~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "I get it now! You set up a surprise for me, didn't you?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "Could it be... plot armor?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "My wish? To collect every last Stellar Jade~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "See? I told you comics can teach you useful things.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "The way the Nameless think is truly fascinating...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Based on combat analysis... This guy's tough!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Returning to Town",
+        "voice_m": "Let me see what's trending today...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Technique",
+        "voice_m": "Petals fall without a trace.",
+        "is_battle_voice": true
+      }
+    ]
   },
   "rarity": "CombatPowerAvatarRarityType5",
   "avatar_vo_tag": "evanescia",

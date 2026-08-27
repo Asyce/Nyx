@@ -15,7 +15,7 @@
     "1": {
       "id": 151301,
       "name": "A Holiday on the Line",
-      "desc": "Increases All-Type <u>RES PEN</u> by <unbreak>#1[i]%</unbreak>.\\nTalent is enhanced: When \"Fervor\" reaches <unbreak>10</unbreak>/<unbreak>20</unbreak>/<unbreak>30</unbreak> points, immediately uses \"Cheers! To Summer's Blaze.\"",
+      "desc": "Increases All-Type <u>RES PEN</u> by <unbreak>#1[i]%</unbreak>.\\nTalent gets enhanced: When \"Fervor\" reaches <unbreak>10</unbreak>/<unbreak>20</unbreak>/<unbreak>30</unbreak> points, immediately uses \"Cheers! To Summer's Blaze.\"",
       "icon": "SkillIcon_1513_Rank1.png",
       "param_list": [
         0.24
@@ -31,7 +31,7 @@
     "2": {
       "id": 151302,
       "name": "Idle as the Turning Tide",
-      "desc": "Increases the max limit of \"Fervor\" to <unbreak>#1[i]</unbreak> points. When \"Fervor\" reaches <unbreak>40</unbreak>/<unbreak>50</unbreak> points, also triggers the Talent to use \"Cheers! To Summer's Blaze.\" After using an Elation Skill, additionally grants <unbreak>#2[i]</unbreak> point(s) of \"Fervor.\"",
+      "desc": "Increases the upper limit of \"Fervor\" to <unbreak>#1[i]</unbreak> points. \"Fervor\" reaching <unbreak>40</unbreak>/<unbreak>50</unbreak> points can also trigger the Talent to use \"Cheers! To Summer's Blaze.\" After using Elation Skill, additionally gains <unbreak>#2[i]</unbreak> \"Fervor.\"",
       "icon": "SkillIcon_1513_Rank2.png",
       "param_list": [
         50,
@@ -69,7 +69,7 @@
     "6": {
       "id": 151306,
       "name": "The Past in Fast Lane",
-      "desc": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Elation Skill <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All In! To Summer's Blaze,\" and when using the Elation Skill \"All In! To Summer's Blaze\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+      "desc": "<u>Elation DMG</u> dealt by Aventurine • Waveflair <u>merrymakes</u> by <unbreak>#2[i]%</unbreak>. After Aventurine • Waveflair uses his Elation Skill <unbreak>#1[i]</unbreak> time(s), all subsequent Elation Skills used become \"All In! To Summer's Blaze.\" And when using the Elation Skill \"All In! To Summer's Blaze\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
       "icon": "SkillIcon_1513_Rank6.png",
       "param_list": [
         2,
@@ -173,8 +173,8 @@
     "151302": {
       "id": 151302,
       "name": "Kill Shot, the Sands Boil",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine • Waveflair's ATK to all enemies, and gains <unbreak>#2[i]</unbreak> <u>Punchline</u> and <unbreak>#3[i]</unbreak> point(s) of \"Fervor.\"",
-      "simple_desc": "Deals Quantum DMG to all enemies and gains <u>Punchline</u> and \"Fervor.\"",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine • Waveflair's ATK to all enemies. Gains <unbreak>#2[i]</unbreak> <u>Punchline</u> and <unbreak>#3[i]</unbreak> \"Fervor.\"",
+      "simple_desc": "Deals Quantum DMG to all enemies. Gains <u>Punchline</u> and \"Fervor.\"",
       "type": "BPSkill",
       "type_name": "Skill",
       "tag": "AoEAttack",
@@ -318,8 +318,8 @@
     "151303": {
       "id": 151303,
       "name": "Grand Slam, Crest That High Tide",
-      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine • Waveflair's ATK to all enemies, and gains <unbreak>#3[i]</unbreak> <u>Punchline</u> and <unbreak>#2[i]</unbreak> point(s) of \"Fervor.\" Increases this unit's SPD by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> for <unbreak>#5[i]</unbreak> turn(s).",
-      "simple_desc": "Deals massive Quantum DMG to all enemies, gains <u>Punchline</u> and \"Fervor,\" and increases SPD.",
+      "desc": "Deals Quantum DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Aventurine • Waveflair's ATK to all enemies. Gains <unbreak>#3[i]</unbreak> <u>Punchline</u> and <unbreak>#2[i]</unbreak> \"Fervor.\" Increases this unit's SPD by <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>, lasting for <unbreak>#5[i]</unbreak> turn(s).",
+      "simple_desc": "Deals massive Quantum DMG to all enemies. Gains <u>Punchline</u> and \"Fervor.\" And increases SPD.",
       "type": "Ultra",
       "type_name": "Ultimate",
       "tag": "AoEAttack",
@@ -493,8 +493,8 @@
     "151304": {
       "id": 151304,
       "name": "Ante Up, the Abyss Answers",
-      "desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#7[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#6[i]</unbreak> <u>Punchline(s)</u>. The max limit for \"Fervor\" is <unbreak>#4[i]</unbreak> points.\\nWhen \"Fervor\" reaches <unbreak>#1[i]</unbreak> points, Aventurine • Waveflair uses \"Cheers! To Summer's Blaze\" 1 time, which takes a fixed <unbreak>#5[i]</unbreak> <u>Punchline</u>(s) into account. After this use, the next Elation Skill used by this unit in the Aha Instant is enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and his Ultimate additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies.",
-      "simple_desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains \"Fervor\" and <u>Punchline</u>.\\nWhen \"Fervor\" reaches a certain value, Aventurine • Waveflair <color=#f29e38ff>immediately uses \"Cheers! To Summer's Blaze\" 1 time, with a fixed amount of <u>Punchline</u> taken into account</color>, and <color=#f29e38ff>enhances the next Elation Skill used in the Aha Instant to \"All In! To Summer's Blaze.\"</color>\\nWhen Aventurine • Waveflair has \"<u>Certified Banger</u>,\" his Skill and Ultimate additionally deal Quantum <u>Elation DMG</u> to all enemies.",
+      "desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#7[i]</unbreak> \"Fervor\" and <unbreak>#6[i]</unbreak> <u>Punchline</u>. \"Fervor\" is capped at <unbreak>#4[i]</unbreak> points.\\nWhen \"Fervor\" reaches <unbreak>#1[i]</unbreak>, Aventurine • Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of <unbreak>#5[i]</unbreak> <u>Punchline</u>. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\\nWhile Aventurine • Waveflair holds \"<u>Certified Banger</u>,\" Skill additionally deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies, and Ultimate additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Quantum <u>Elation DMG</u> to all enemies.",
+      "simple_desc": "The duration of Aventurine • Waveflair's \"<u>Certified Banger</u>\" increases by 1 turn. After a teammate uses an attack, Aventurine • Waveflair gains \"Fervor\" and <u>Punchline</u>.\\nWhen \"Fervor\" reaches a certain value, Aventurine • Waveflair <color=#f29e38ff>immediately uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of <u>Punchline</u></color>, and <color=#f29e38ff>enhances the next Elation Skill used in the Aha Instant to \"All In! To Summer's Blaze.\"</color>\\nWhile Aventurine • Waveflair holds \"<u>Certified Banger</u>,\" Skill and Ultimate additionally deal Quantum <u>Elation DMG</u> to all enemies.",
       "type_name": "Talent",
       "tag": "Enhance",
       "bp_need": -1,
@@ -726,7 +726,7 @@
     "151307": {
       "id": 151307,
       "name": "Make Waves in Still Waters",
-      "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via attacking enemies, Aventurine • Waveflair deals Quantum DMG equal to <unbreak>#1[i]%</unbreak> of his ATK to all enemies, and gains <unbreak>#2[i]</unbreak> point(s) of \"Fervor\" and <unbreak>#3[i]</unbreak> points of \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
+      "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to <unbreak>#1[i]%</unbreak> of Aventurine • Waveflair's ATK, and gains <unbreak>#2[i]</unbreak> \"Fervor\" and <unbreak>#3[i]</unbreak> \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
       "simple_desc": "Moves forward rapidly for a set distance and attacks enemies in contact. After entering combat by attacking enemies, deals minor Quantum DMG to all enemies and gains \"Fervor\" and \"<u>Certified Banger</u>.\" Technique Points are not consumed if no enemies are hit.",
       "type": "Maze",
       "type_name": "Technique",
@@ -2311,7 +2311,7 @@
         ],
         "point_id": 1513101,
         "point_name": "Party in Perfect Paradise",
-        "point_desc": "When SPD is <unbreak>#1[i]</unbreak> or higher, increases this unit's Elation by <unbreak>#2[i]%</unbreak>. For every <unbreak>#3[i]</unbreak> SPD exceeded, additionally increases this unit's Elation by <unbreak>#4[i]%</unbreak>. Up to a max of <unbreak>#5[i]</unbreak> excess SPD can be taken into account for this effect.",
+        "point_desc": "When SPD is <unbreak>#1[i]</unbreak> or higher, increases this unit's Elation by <unbreak>#2[i]%</unbreak>. For every <unbreak>#3[i]</unbreak> SPD exceeding that threshold, additionally increases this unit's Elation by <unbreak>#4[i]%</unbreak>. Up to a max of <unbreak>#5[i]</unbreak> excess SPD can be taken into account for this effect.",
         "point_trigger_key": 6,
         "point_type": 3,
         "pre_point": [],
@@ -2358,7 +2358,7 @@
         ],
         "point_id": 1513102,
         "point_name": "Revel in Raging Tides",
-        "point_desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine • Waveflair, while Aventurine • Waveflair is on the field, increases all allies' Elation by <unbreak>#5[i]%</unbreak>, with Aventurine • Waveflair's additionally increases by <unbreak>#1[i]%</unbreak>.\\nAt the start of the battle, if Aventurine • Waveflair is the only Elation character in the team, when Aventurine • Waveflair deals DMG using his Elation Skill, it is considered as launching a <u>Follow-Up ATK</u>. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline(s)</u>, and increases Aha's SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
+        "point_desc": "At the start of combat, if the team includes an Elation character besides Aventurine • Waveflair, then while Aventurine • Waveflair is on the field, increases all allies' Elation by <unbreak>#5[i]%</unbreak> and Aventurine • Waveflair's Elation by an additional <unbreak>#1[i]%</unbreak>.\\nAt the start of combat, if Aventurine • Waveflair is the only Elation character in the team, then when Aventurine • Waveflair uses Elation Skill to deal DMG, it is considered as having launched <u>Follow-Up ATK</u>. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline</u>, and increases <u>Aha's</u> SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
         "point_trigger_key": 7,
         "point_type": 3,
         "pre_point": [],
@@ -2367,6 +2367,11 @@
           "10000004": {
             "name": "Follow-Up ATK",
             "desc": "Unleashes an extra attack on the target. This effect is triggered automatically when requirements are met.",
+            "param": []
+          },
+          "10000026": {
+            "name": "Aha",
+            "desc": "When taking action, triggers an Aha Instant and causes units capable of using Elation Skills to each use their Elation Skill 1 time. If there are no units capable of using Elation Skills when Aha takes action, Aha will use \"Let There Be Laughter.\"\\nThe Aha Instant lasts until the final Elation Skill finishes this time.\\nWhen the Aha Instant ends, participating characters gain the \"Certified Banger\" state for the Punchline points taken into account this time, lasting for 2 turns. After Aha takes action, all Punchlines will be consumed.",
             "param": []
           },
           "10000027": {
@@ -2421,7 +2426,7 @@
         ],
         "point_id": 1513103,
         "point_name": "Sift Through Gilded Dreams",
-        "point_desc": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>. After a teammate uses a Basic ATK, Skill, <u>Follow-Up ATK</u>, or Ultimate, all allies' CRIT DMG increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s), and Aventurine • Waveflair additionally gains <unbreak>#4[i]</unbreak> point(s) of \"Fervor.\" This effect can be triggered up to <unbreak>#5[i]</unbreak> time(s), and the trigger count resets when Aventurine • Waveflair uses his Skill.",
+        "point_desc": "Increases CRIT DMG by <unbreak>#1[i]%</unbreak>. After a teammate uses Basic ATK, Skill, <u>Follow-Up ATK</u>, or Ultimate, all allies' CRIT DMG increases by <unbreak>#2[i]%</unbreak>, lasting for <unbreak>#3[i]</unbreak> turn(s), and Aventurine • Waveflair additionally gains <unbreak>#4[i]</unbreak> \"Fervor.\" This effect can trigger up to <unbreak>#5[i]</unbreak> time(s), and the trigger count resets when Aventurine • Waveflair uses Skill.",
         "point_trigger_key": 8,
         "point_type": 3,
         "pre_point": [],

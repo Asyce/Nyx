@@ -1,0 +1,4046 @@
+{
+  "name": "Robin • Summeretto",
+  "desc": "Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.\\nFollowing the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—\\nBeyond the melody, how else can the Harmony sing?",
+  "chara_info": {
+    "camp": "Penacony",
+    "va": {
+      "chinese": "Qian Chen / Song Vocals: Chevy",
+      "japanese": "Kaori Nazuka / Song Vocals: Chevy",
+      "korean": "신온유 / Song Vocals: Chevy",
+      "english": "Alice Himora / \\nSong Vocals: Chevy"
+    },
+    "stories": {
+      "0": "Soaring clearest skies and bluest oceans, wings sweep up the sea spray, transforming it into a new melody.\\nFollowing the lingering echoes of memory, she embraces the unexpected along the way, seeking inspiration for a melodic variation—\\nBeyond the melody, how else can the Harmony sing?",
+      "1": "She hears the sound of a beautiful dream shattering.\\nTen system hours ago, the Charmony Festival was forced to be canceled.\\nThree system hours ago, the confessional of Bronze Melodia was swamped by lost and confused masses.\\nOne system hour ago, The Family issued a severe condemnation against the Oak Family, with an inquiry and manhunt for the fugitives expected in the coming days.\\n\\n<i>\"Praise be to the Great One, everlasting be the harmony...\"</i>\\nThe majestic Charmony resonates within the parliament hall.\\nHowever, she can clearly see that the Five Lineages were chanting slogans of solidarity just seconds ago, only to immediately turn around and scheme to partition power and seize benefits.\\n\\n<i>\"Miss Robin, thank you for your singing, but did Bronze Melodia truly... abandon the Path of Harmony...\"</i>\\nA Dreamchaser who once prayed to Sunday finds her, her face twisted in agony.\\nShe wants so desperately to comfort the helpless, lost soul just as her brother used to do, but even the most beautiful song feels hollow and powerless right now.\\n\\n<i>\"Miss Robin, did the Harmony make Dreamflux Reef turn out like this?\"\\n\"Miss Robin, don't they always treat everyone as family?\"</i>\\nThe children from the choir crowd around her, laughing and playing, but their innocent questions leave her completely at a loss.\\nLooking into those bright, shining eyes, she can only pull them into her arms in silence.\\n\\n<i>\"Never seen you in this state before...\"</i>\\nAt the Dreamjolt Hostelry, she accepts a soothing blend from Siobhan, allowing the bitter, slightly tart flavor overtake across her palate.\\n<i>\"Once, I understood that I sang for Harmony, but now, I cannot even discern how much further I can walk...\"</i>\\nSiobhan gave her shoulder a gentle pat. <i>\"This isn't your burden to carry.\"</i>\\nShe shakes her head, <i>\"But when I cannot even bring myself to believe, how can I sway anyone else?\"\\n\"You know, your brother used to come here for a drink from time to time, too.\"\\n\"My brother?\"\\n\"He always sat in the shadows, looking just as troubled as you do now. Then one day, he penned a line in the lounge guestbook and never came back...\"</i>\\n\\nShe gazes at the familiar handwriting, feeling as though she has arrived at a similar crossroad.\\n<i>\"It is the people who forge the path, not the path that waits for people.\"</i>",
+      "2": "She heard the gasping breath of ideals buckling under their own weight.\\nOnly when she truly stepped into the spotlight did she realize that being swept along by forces beyond her control was simply the norm.\\n\\n<i>\"Go, child. Take the stage. For the Triple-Faced Soul, for The Family, and for everyone.\"</i>\\nThe thunderous voice left no room for refusal. Rally after rally, she wove sweet dreams of Harmony for her audiences with a voice growing ever more weary.\\nBut looking upon the same zeal burning in the eyes of the crowd, she felt a sudden shiver run down her spine.\\n\\n<i>\"Robin, do you still hold true to the Family's Path of Harmony?\"</i>\\nShe had lost count of how many times an envoy of the main Family had come to interrogate members of the Oak Family like this.\\n<i>\"I have always been faithful to the Path of Harmony.\"\\n\"Then answer this: Will you uphold the Family's philosophy, uniting all through song, that they may be united as one?\"\\n\"I...\"</i>\\nHer throat ran dry, and she found herself speechless.\\n\\nShe often dreamed of being thrust onto a grand, exalted stage.\\nCountless cold and indifferent messengers pulled at her limbs. She opened her mouth, yet a voice that was not her own came out; she raised her arm, yet it moved against her will.\\nIn her hands were endless stringed puppets beneath the stage. They followed her every step, spinning and leaping in kind.\\nShe wanted to struggle. She wanted to run. But when she jolted awake, she found herself exactly where she started.\\n\\nOn those sleepless nights, she chose to stop tossing and turning. Instead, she stepped out into the deep Penaconian night.\\nWandering through the darkness, she sought to leave it all behind, pouring herself into the things she still had power to change.\\nShe returned to Dreamflux Reef, raising funds through charity performances to support struggling residents, and continued sponsoring the growth and education of the children there.\\nShe visited every part of the dreamscape. Her songs consoled the weary workers tucked away in its forgotten corners, as she offered them free music lessons.\\nShe listened to the prayers and wishes of every soul who came to confess, never making assertions, only sharing her own inspiration...\\n\\n<i>\"Whether it's the strong defending the weak or the strong exploiting the weak... what I've always cared about is each of those vulnerable individuals and their dignity...\"</i>",
+      "3": "She heard new voices growing vibrantly.\\n\\nAt Dreamflux Reef, the children had formed a new band. With her continued support, even more orphans were arriving here through dream devices and learning to sing.\\n<i>\"Miss Robin, let us sing for you!\"</i>\\nA cool electric guitar rang out, the bassist bounced along, and a girl sang at the top of her lungs:\\n<i>\"Dance beneath a diamond-studded starry sky, and let's forget today until tomorrow comes...\"</i>\\nShe couldn't help but dance along with them, lost in a momentary daze...\\n<i>\"Once upon a time, I had a dream of becoming a rock 'n' roll singer too...\"</i>\\n\\nAt the Golden Hour, her album centered on the theme of chasing dreams once again drew countless adventurers here to make their mark.\\n<i>\"Wait, isn't that Robin, Penacony's very own ambassador and superstar?\"</i>\\nSomeone had recognized her, and she slipped off her sunglasses with a bashful smile. Within seconds, a crowd had gathered around her.\\n<i>\"Your music motivated me, and I made my very first fortune right here in Penacony! Drinks on me, everyone! And that includes you, Miss Robin!\"</i>\\nAs an improvisational jazz tune drifted out of the Dreamjolt Hostelry, joy leapt and danced in the glow of the lights, painting every face with a golden smile.\\n\\nStepping into the \"Moment of Daybreak,\" a group of young people from the Dawn Factory waved to her.\\nEver since she had called for reform of the unreasonable working hours, the staff finally had some breathing room for their mental health. At the concerts she held regularly, she came to know a group of people who shared the dream of chasing their passions.\\n<i>\"Miss Robin, check out what we've been tinkering with lately: new wave music for the electronic age!\"</i>\\nNimble fingers danced across the keys as the rippling waves of the theremin wove into a soaring melody.\\n<i>\"This is the Land of the Dreams, the Land of the Dreams that belongs to everyone...\"</i>\\n...\\n\\nCountless voices wove together — some rough and raspy, others soft and young — forming a symphony of sweet dreams.\\nNo need for a conductor or rigid uniformity. She realized, almost in a daze, that a single trace of freedom's song was all it took for people to pour out their inspiration.\\n<i>\"Then... what would my own music notes sound like?\"</i>",
+      "4": "The sky over Astropolis stretched far wider than she had ever imagined.\\nStrolling through the coastal palm groves, she watched gulls skim the cresting waves with pure delight, following their flight until they shrank to distant specks on the horizon. Only then did she remember she was still tethered to her small corner of reality.\\nYet that chance reunion with the Trailblaze had flung open a chest of long-bottled inspiration.\\n\\nShe had come searching for the Lost Echo of Gopher Wood, and ended up tangled in a mysterious money challenge instead.\\nWatching {NICKNAME} plummet from the top of a wave straight into the depths of crushing debt, it seemed like she had lived an entire lifetime of surprises in just a few short days.\\nWhen her companion fell into a trap, she made a decision that caught everyone off guard: placing herself right in the eye of the storm.\\nWas it a motivation from the Trailblaze?\\nWas it the thrill of a gambler riding the waves?\\nShe didn't know why. But then, inspiration never asks for permission, the moment it arrives, there's no need to think. The melody simply flows from the heart.\\n<i>\"All I need is just a little courage to improvise. And from there, the music notes find their way to each other...\"</i>\\n\\nBeneath the clear sky of a foreign land, every long-suppressed feeling seemed to finally find its outlet.\\nShe remembered the sound of sweet dreams shattering: sorrow and parting like blue foam, a single sip enough to break the heart.\\nShe remembered the gasping breath of ideals buckling under their own weight, the heavy drumbeat pounding in time with her heart, a weary soul dragging herself forward, searching. Her eyes looked up to the sky, yet remained bound to earth.\\nShe remembered the vibrant surge of new sounds: myriad different voices, raw and unpolished, yet capable of moving the world and rallying countless to stand as one.\\n\\n<i>\"People forge their own paths, but every step we take also shapes who we are.\"</i>\\nWhen the applause thundered, she was no longer terrified, no longer seeking answers.\\nWhether it was the Family's harmony or freedom's blues, each was a landscape of her life.\\nNo need to rush, no need to linger. She already had her answer.\\nTo simply chase after the wind. And then, continue to soar."
+    },
+    "voicelines": [
+      {
+        "voice_id": 1,
+        "voice_title": "First Meeting",
+        "voice_m": "It's nice to see you again. The weather in Astropolis is wonderful, and the moist breeze is filled with the scent of sunshine... I'm hoping to gather inspiration for a new song. Would you like to take a stroll together on the beach and listen to the whispers of the sea in the shells?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 2,
+        "voice_title": "Greeting",
+        "voice_m": "How's your vacation going? If you have time, come watch me perform!",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 3,
+        "voice_title": "Parting",
+        "voice_m": "The performance is over, but the song shall not cease. May it accompany you as you move forward, so you shall never be lonely.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 4,
+        "voice_title": "About Self: Styling",
+        "voice_m": "I've been mulling over my tour outfit lately. If I'm to sing before a clear sky and blue sea, this outfit ought to suit me best. Cicadas chirping, guitars playing, soda for everyone, the blazing sun, and gushing waves... Can you hear it?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 5,
+        "voice_title": "About Self: Future",
+        "voice_m": "From performing The Family's music to composing blues of freedom, I'm still finding my way, only now, my steps feel a little lighter.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 6,
+        "voice_title": "About Self: Summer Songbirds",
+        "voice_m": "I once dreamed of \"Rockstar\" Robin, \"Electro\" Robin, \"Jazz\" Robin... Eventually, these thoughts of changing became new companions walking alongside me. I wonder what new surprises await me in the future.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 7,
+        "voice_title": "Chat: Song Arrangement",
+        "voice_m": "Composing music is like a game of exploration. I hum a melody and guide the music forward. Paddie makes a chord with the synthesizer, Bessie strums a velvety rhythm, and Drummie rises to the challenge by coming up with a new beat... A night flies by so quickly, and I always feel reluctant to put down my guitar.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 8,
+        "voice_title": "Chat: Songwriting",
+        "voice_m": "While searching for inspiration, it's good to embrace the unexpected. Walking in the rain, improvising chords, singing on the streets... I love all of these. And don't forget, when a melody suddenly comes to you, be sure to write it down before it slips away~",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 9,
+        "voice_title": "Hobbies",
+        "voice_m": "Dip your head into the sea, and chase those waves deeper. The world is finally silent and all you can hear is your own heartbeat... Then, when you rise back to the surface from that silent world, it feels as though you've regained the strength to greet life with a smile.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 10,
+        "voice_title": "Annoyances",
+        "voice_m": "Don't you think summer flies by in the blink of an eye? I feel a little sad whenever it starts to get cold...",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 11,
+        "voice_title": "Share",
+        "voice_m": "The Family's harmony is exquisite and elegant. It leaves no room for spontaneity. Yet, I yearn to hear countless singing voices from the audience. It doesn't matter if they're off-pitch or hoarse. That's the true resonance of life.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 12,
+        "voice_title": "Share",
+        "voice_m": "The Family's harmony is exquisite and elegant. It leaves no room for spontaneity. Yet, I yearn to hear countless singing voices from the audience. It doesn't matter if they're off-pitch or hoarse. That's the true resonance of life. People don't need a conductor to dictate every note. Sometimes, all it takes is a guiding voice to bring those voices together in harmony.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 13,
+        "voice_title": "Knowledge",
+        "voice_m": "Astropolis pulses at a rapid pace, and the entertainment industry competes for the audience's attention. Thankfully, they're hosting a racing competition this year. When I debuted, it was the Mollusk Wrestling Tournament... You know, I probably had the hardest time in my entire career keeping a smile on my face.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 14,
+        "voice_title": "About {NICKNAME}",
+        "voice_m": "You always make choices so easily. Is it because of your experiences as a Nameless, or does your heart simply beat so freely and boldly?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 15,
+        "voice_title": "About Sunday",
+        "voice_m": "I know my brother. Once he's decided on a path, he will never stray from it until he reaches the end. And now, it's time for me to set out toward a new horizon as well. I look forward to the day we stand side by side again at the same destination.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 16,
+        "voice_title": "About Gopher Wood",
+        "voice_m": "When I was younger, Mr. Gopher Wood often encouraged us to make choices bravely and take on our responsibilities. \"When all paths on the ground have been exhausted, birds must leave their footprints in the sky.\" Even if we err or fail... only by moving forward can we free ourselves from the manipulation of others.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 17,
+        "voice_title": "About Aventurine • Waveflair",
+        "voice_m": "Think of the raging waves as a fun amusement park. Mr. Aventurine's numerous high-stakes games have taught me many unique rhythms.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 101,
+        "voice_title": "Eidolon Activation",
+        "voice_m": "Listen to the tremors of freedom in your heart.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 102,
+        "voice_title": "Character Ascension",
+        "voice_m": "Free yourself from the shackles. You can always start anew.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 103,
+        "voice_title": "Max Level Reached",
+        "voice_m": "This time... what style should I attempt?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 104,
+        "voice_title": "Trace Activation",
+        "voice_m": "Musical notes scatter and adorn the passing scenery.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 105,
+        "voice_title": "Added to Team With {NICKNAME}",
+        "voice_m": "When I'm with you, I'm always so wonderfully inspired.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 106,
+        "voice_title": "Added to Team With Robin",
+        "voice_m": "Don't be afraid. Follow your heart and take flight.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 107,
+        "voice_title": "Added to Team With Aventurine",
+        "voice_m": "Mr. Aventurine, it's a pleasure working with you.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 108,
+        "voice_title": "Added to Team With Aventurine • Waveflair",
+        "voice_m": "Mr. Aventurine, how will you tame the tides this time?",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 109,
+        "voice_title": "Added to Team With Sunday",
+        "voice_m": "Let's perform a new melody together, brother.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 201,
+        "voice_title": "Battle Begins: Weakness Break",
+        "voice_m": "Lend me your hands, won't you?",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 202,
+        "voice_title": "Battle Begins: Danger Alert",
+        "voice_m": "Together, our wings will bear us through any storm.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 203,
+        "voice_title": "Turn Begins 1",
+        "voice_m": "May my song be a gentle breeze that carries away all troubles.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 204,
+        "voice_title": "Turn Begins 2",
+        "voice_m": "Everyone's voice deserves to be heard.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 205,
+        "voice_title": "Turn Idling",
+        "voice_m": "Don't keep the audience waiting too long.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 206,
+        "voice_title": "Basic ATK",
+        "voice_m": "Hush now⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 207,
+        "voice_title": "Skill: Bessie 1",
+        "voice_m": "Pluck our heartstrings, Bessie!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 208,
+        "voice_title": "Skill: Drummie 1",
+        "voice_m": "Give us a rhythm, Drummie!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 209,
+        "voice_title": "Skill: Paddie 1",
+        "voice_m": "Lay down a groove, Paddie!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 210,
+        "voice_title": "Skill: Bessie 2",
+        "voice_m": "Let spirits soar: Solo time⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 211,
+        "voice_title": "Skill: Drummie 2",
+        "voice_m": "Sway freely with the sea breeze⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 212,
+        "voice_title": "Skill: Paddie 2",
+        "voice_m": "The beat goes on, the music never fades~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 213,
+        "voice_title": "Hit by Light Attack",
+        "voice_m": "Never mind.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 214,
+        "voice_title": "Hit by Heavy Attack",
+        "voice_m": "I can keep going.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 215,
+        "voice_title": "Ultimate: Activate",
+        "voice_m": "Let the voice of our hearts converge!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 216,
+        "voice_title": "Ultimate: Unleash",
+        "voice_m": "In this moment, you make the summer sky sparkle.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 217,
+        "voice_title": "Downed",
+        "voice_m": "Notes... unsung...",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 218,
+        "voice_title": "Return to Battle",
+        "voice_m": "Back on stage, how wonderful⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 219,
+        "voice_title": "Health Recovery",
+        "voice_m": "Thank you, I feel refreshed.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 220,
+        "voice_title": "Technique",
+        "voice_m": "Improvised melody⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 221,
+        "voice_title": "Battle Won",
+        "voice_m": "I'm already excited for the next performance⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 222,
+        "voice_title": "Treasure Opening 1",
+        "voice_m": "I'll accept these gifts.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 223,
+        "voice_title": "Treasure Opening 2",
+        "voice_m": "More rewards from the tour~",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 224,
+        "voice_title": "Precious Treasure Opening",
+        "voice_m": "Summer exclusive items!",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 225,
+        "voice_title": "Successful Puzzle-Solving 1",
+        "voice_m": "You can't go wrong if it feels right.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 226,
+        "voice_title": "Successful Puzzle-Solving 2",
+        "voice_m": "Just like composing a song... magical⁓",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 227,
+        "voice_title": "Enemy Target Found",
+        "voice_m": "Be careful, I hear ill will.",
+        "is_battle_voice": true
+      },
+      {
+        "voice_id": 228,
+        "voice_title": "Return to Town",
+        "voice_m": "The cacophony of all things is the most beautiful symphony...",
+        "is_battle_voice": true
+      }
+    ]
+  },
+  "rarity": "CombatPowerAvatarRarityType5",
+  "avatar_vo_tag": "robinsummeretto",
+  "sp_need": 140,
+  "base_type": "Memory",
+  "damage_type": "Wind",
+  "ranks": {
+    "1": {
+      "id": 151201,
+      "name": "Stray Bird of Summer",
+      "desc": "\"Summer Songbirds\" will keep a tally of <unbreak>#3[i]%</unbreak> of the non-<u>True DMG</u> dealt by ally targets. When using the Memosprite Skill, additionally deals <u>True DMG</u> to the enemy target with the highest HP, equal to (<unbreak>#1[i]%</unbreak> + current Vibes × <unbreak>#2[f1]%</unbreak>) of the total tally. Then, clears <unbreak>#4[i]%</unbreak> of the tally.",
+      "icon": "SkillIcon_1512_Rank1.png",
+      "param_list": [
+        0.11,
+        0.001,
+        1,
+        0.5
+      ],
+      "extra": {
+        "10000017": {
+          "name": "True DMG",
+          "desc": "Non-Type DMG that is not affected by any effects. This DMG is not considered as launching 1 attack.",
+          "param": []
+        }
+      }
+    },
+    "2": {
+      "id": 151202,
+      "name": "A Heart of Still Water",
+      "desc": "Ally targets' All-Type <u>RES PEN</u> increases by <unbreak>#3[i]%</unbreak>. The upper limit of Robin • Summeretto's Vibes increases by <unbreak>#1[i]</unbreak>. The first time an ally target uses an ability during any target's turn to cause Robin • Summeretto to gain Vibes, she gains an additional <unbreak>#2[i]</unbreak> points.",
+      "icon": "SkillIcon_1512_Rank2.png",
+      "param_list": [
+        20,
+        2,
+        0.18
+      ],
+      "extra": {
+        "30000005": {
+          "name": "RES PEN",
+          "desc": "When dealing DMG, ignore a part of the enemy target's resistance to the corresponding damage type.",
+          "param": []
+        }
+      }
+    },
+    "3": {
+      "id": 151203,
+      "name": "Echoes Left Along the Way",
+      "desc": "Skill Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nTalent Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nMemosprite Talent Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1512_BP.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "4": {
+      "id": 151204,
+      "name": "Her Variation on the Theme",
+      "desc": "Upon entering the \"Fever\" state, immediately gains <unbreak>#1[i]</unbreak> Vibes, and increases the SPD of \"Summer Songbirds\" by an amount equal to (<unbreak>#2[i]%</unbreak> + current Vibes × <unbreak>#3[f1]%</unbreak>).",
+      "icon": "SkillIcon_1512_Rank4.png",
+      "param_list": [
+        12,
+        0.2,
+        0.005
+      ],
+      "extra": {}
+    },
+    "5": {
+      "id": 151205,
+      "name": "To Chase the Dawn Anew",
+      "desc": "Ultimate Lv. +2, up to a maximum of Lv. <unbreak>15</unbreak>.\\nBasic ATK Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.\\nMemosprite Skill Lv. +1, up to a maximum of Lv. <unbreak>10</unbreak>.",
+      "icon": "SkillIcon_1512_Ultra.png",
+      "param_list": [],
+      "extra": {}
+    },
+    "6": {
+      "id": 151206,
+      "name": "A Song Yet Unnamed",
+      "desc": "Increases the Memosprite Skill's DMG multiplier by <unbreak>#1[i]%</unbreak> of its original value. While in the \"Fever\" state, Robin • Summeretto can store her Ultimate up to 2 times. After entering the \"Fever\" state for the first time in this battle or when the the \"Fever\" countdown's turn starts, regenerates a fixed <unbreak>#2[i]</unbreak> Energy.",
+      "icon": "SkillIcon_1512_Rank6.png",
+      "param_list": [
+        1,
+        140,
+        0
+      ],
+      "extra": {}
+    }
+  },
+  "skills": {
+    "151201": {
+      "id": 151201,
+      "name": "The Sea Sings in My Key",
+      "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Robin • Summeretto's Max HP to one enemy.",
+      "simple_desc": "Deals minor Wind DMG to one enemy.",
+      "type": "Normal",
+      "type_name": "Basic ATK",
+      "tag": "SingleAttack",
+      "sp_base": 20,
+      "bp_need": -1,
+      "bp_add": 1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.25
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.3
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.35
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.4
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.45
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.5
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.55
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.6
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.65
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.7
+          ]
+        }
+      }
+    },
+    "151202": {
+      "id": 151202,
+      "name": "Summer Strums the Soul",
+      "desc": "<u>Summons the memosprite</u> \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of \"Summer Songbirds'\" Max HP, and gains <unbreak>#2[i]</unbreak> Vibes.",
+      "simple_desc": "<color=#f29e38ff><u>Summons memosprite</u></color> \"Summer Songbirds\" Bessie. If \"Summer Songbirds\" is already on the field, restores HP for \"Summer Songbirds\" and gains <color=#f29e38ff>Vibes</color>.",
+      "type": "BPSkill",
+      "type_name": "Skill",
+      "tag": "Summon",
+      "sp_base": 30,
+      "bp_need": 1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000018": {
+          "name": "Summon Memosprite",
+          "desc": "Summon the memosprite to the field. If the memosprite is already on the field, dispels all Crowd Control debuffs the memosprite is afflicted with.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.5,
+            6
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.55,
+            6
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.6,
+            6
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.65,
+            6
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.7,
+            6
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.75,
+            6
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.8125,
+            6
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.875,
+            6
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.9375,
+            6
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1,
+            6
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1.05,
+            6
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1.1,
+            6
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1.15,
+            6
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1.2,
+            6
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1.25,
+            6
+          ]
+        }
+      }
+    },
+    "151203": {
+      "id": 151203,
+      "name": "Ascend That Rhapsody in Blue",
+      "desc": "<u>Advances the action</u> of one designated ally character (excluding Robin • Summeretto) by <unbreak>#1[i]%</unbreak> and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin • Summeretto <unbreak>#2[i]</unbreak> Vibes but cannot make other friendly targets gain the <u>action advance</u> effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+      "simple_desc": "<u>Advances the action</u> of one designated ally character (excluding Robin • Summeretto) and regenerates Energy. Then, grants them the \"Special Guest\" effect. When this character or their summon attacks, they additionally grant Robin • Summeretto Vibes, but cannot make other friendly targets gain the <u>action advance</u> effect.",
+      "type": "Ultra",
+      "type_name": "Ultimate",
+      "tag": "Support",
+      "sp_base": 5,
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            1,
+            2,
+            0.12,
+            0
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            1,
+            2,
+            0.128,
+            0
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            1,
+            2,
+            0.136,
+            0
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            1,
+            2,
+            0.144,
+            0
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            1,
+            2,
+            0.152,
+            0
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            1,
+            2,
+            0.16,
+            0
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            1,
+            2,
+            0.17,
+            0
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            1,
+            2,
+            0.18,
+            0
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            1,
+            2,
+            0.19,
+            0
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            1,
+            2,
+            0.2,
+            0
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            1,
+            2,
+            0.208,
+            0
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            1,
+            2,
+            0.216,
+            0
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            1,
+            2,
+            0.224,
+            0
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            1,
+            2,
+            0.232,
+            0
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            1,
+            2,
+            0.24,
+            0
+          ]
+        }
+      }
+    },
+    "151204": {
+      "id": 151204,
+      "name": "Wings Heed No Borders",
+      "desc": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to <unbreak>#1[i]%</unbreak> of Robin • Summeretto's Max HP and an initial SPD equal to <unbreak>#2[i]%</unbreak> of Robin • Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin • Summeretto gains Vibes by 1 point, capped at <unbreak>#5[i]</unbreak>. While \"Summer Songbirds\" Bessie is on the field, if Robin • Summeretto's Vibes is <unbreak>#6[i]</unbreak> or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is <unbreak>#7[i]</unbreak> or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all <u>Crowd Control debuffs</u> inflicted upon Robin • Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (<color=#f29e38ff><unbreak>#8[f1]%</unbreak></color> + Vibes × <unbreak>#9[f1]%</unbreak>).\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>. Robin • Summeretto will not enter her turn until the \"Fever\" state ends.",
+      "simple_desc": "When an ally target uses an attack, or provides healing or Shield, Robin • Summeretto gains Vibes. Once Vibes reaches a certain value, summons \"Summer Songbirds\" Drummie and \"Summer Songbirds\" Paddie respectively. After all \"Summer Songbirds\" take the stage, Robin • Summeretto and the \"Summer Songbirds\" enter the \"Fever\" state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore a portion of enemy targets' DEF.\\nWhile in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" are immune to <u>Crowd Control debuffs</u>. Robin • Summeretto will not enter her turn until the \"Fever\" state ends.",
+      "type_name": "Talent",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000011": {
+          "name": "Crowd Control debuff",
+          "desc": "Freeze, Entanglement, Imprisonment, Dominance, Outrage, Strong Reverberation, Alien Dream, Snarelock, Terrified, Action Lock, Happiness Puppet, Grudge Ablaze.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.1,
+            0.005
+          ]
+        },
+        "2": {
+          "level": 2,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.105,
+            0.005
+          ]
+        },
+        "3": {
+          "level": 3,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.11,
+            0.005
+          ]
+        },
+        "4": {
+          "level": 4,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.115,
+            0.005
+          ]
+        },
+        "5": {
+          "level": 5,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.12,
+            0.005
+          ]
+        },
+        "6": {
+          "level": 6,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.125,
+            0.005
+          ]
+        },
+        "7": {
+          "level": 7,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.13125,
+            0.005
+          ]
+        },
+        "8": {
+          "level": 8,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.1375,
+            0.005
+          ]
+        },
+        "9": {
+          "level": 9,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.14375,
+            0.005
+          ]
+        },
+        "10": {
+          "level": 10,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.15,
+            0.005
+          ]
+        },
+        "11": {
+          "level": 11,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.155,
+            0.005
+          ]
+        },
+        "12": {
+          "level": 12,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.16,
+            0.005
+          ]
+        },
+        "13": {
+          "level": 13,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.165,
+            0.005
+          ]
+        },
+        "14": {
+          "level": 14,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.17,
+            0.005
+          ]
+        },
+        "15": {
+          "level": 15,
+          "param_list": [
+            0.7,
+            1.8,
+            0,
+            0,
+            50,
+            6,
+            12,
+            0.175,
+            0.005
+          ]
+        }
+      }
+    },
+    "151206": {
+      "id": 151206,
+      "name": "Attack",
+      "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type.",
+      "type": "MazeNormal",
+      "tag": "MazeAttack",
+      "bp_need": -1,
+      "show_stance_list": [
+        30,
+        0,
+        0
+      ],
+      "extra": {},
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": []
+        }
+      }
+    },
+    "151207": {
+      "id": 151207,
+      "name": "We Are the Melody",
+      "desc": "After using Technique, <u>advances action</u> by <unbreak>#3[i]%</unbreak> at the start of the next battle, immediately gains <unbreak>#1[i]</unbreak> Vibes, and increases all allies' DMG dealt by <unbreak>#2[i]%</unbreak>, lasting for 2 turn(s).",
+      "simple_desc": "Upon entering combat, <u>advances action</u>, immediately gains Vibes, and increases all allies' DMG dealt.",
+      "type": "Maze",
+      "type_name": "Technique",
+      "tag": "Enhance",
+      "bp_need": -1,
+      "show_stance_list": [
+        0,
+        0,
+        0
+      ],
+      "extra": {
+        "10000001": {
+          "name": "Action Advance",
+          "desc": "Reduces the target's waiting interval before the next action.",
+          "param": []
+        }
+      },
+      "level": {
+        "1": {
+          "level": 1,
+          "param_list": [
+            6,
+            0.3,
+            0.2
+          ]
+        }
+      }
+    }
+  },
+  "skill_trees": {
+    "point01": {
+      "1": {
+        "anchor": "Point01",
+        "default_unlock": true,
+        "icon": "SkillIcon_1512_Normal.png",
+        "level_up_skill_id": [
+          151201
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Normal.png",
+        "level_up_skill_id": [
+          151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Normal.png",
+        "level_up_skill_id": [
+          151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Normal.png",
+        "level_up_skill_id": [
+          151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Normal.png",
+        "level_up_skill_id": [
+          151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point01",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Normal.png",
+        "level_up_skill_id": [
+          151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512001,
+        "point_trigger_key": 1,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point02": {
+      "1": {
+        "anchor": "Point02",
+        "default_unlock": true,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 25000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 70000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point02",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_BP.png",
+        "level_up_skill_id": [
+          151202
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 13,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512002,
+        "point_trigger_key": 2,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point03": {
+      "1": {
+        "anchor": "Point03",
+        "default_unlock": true,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 25000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 70000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point03",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Ultra.png",
+        "level_up_skill_id": [
+          151203
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 13,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512003,
+        "point_trigger_key": 3,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point04": {
+      "1": {
+        "anchor": "Point04",
+        "default_unlock": true,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 1,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 25000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 6,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 6,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "7": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "8": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 70000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 5,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 4,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "9": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "10": {
+        "anchor": "Point04",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_Passive.png",
+        "level_up_skill_id": [
+          151204
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 240000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 13,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 10,
+        "param_list": [],
+        "point_id": 1512004,
+        "point_trigger_key": 4,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point05": {
+      "1": {
+        "anchor": "Point05",
+        "default_unlock": true,
+        "icon": "SkillIcon_1512_Maze.png",
+        "level_up_skill_id": [
+          151207
+        ],
+        "material_list": [],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512007,
+        "point_trigger_key": 5,
+        "point_type": 2,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point06": {
+      "1": {
+        "anchor": "Point06",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_SkillTree1.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 5000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.16,
+          0.004,
+          0.4,
+          0.015,
+          2
+        ],
+        "point_id": 1512101,
+        "point_name": "Deviated Chords",
+        "point_desc": "When an ally target causes Robin • Summeretto to gain Vibes, if their ATK is higher than Robin • Summeretto's, increases that target's ATK by an amount equal to (<unbreak>#1[i]%</unbreak> + Vibes × <unbreak>#2[f1]%</unbreak>) of Robin • Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by an amount equal to (<unbreak>#3[i]%</unbreak> + Vibes × <unbreak>#4[f1]%</unbreak>). Lasts for <unbreak>#5[i]</unbreak> turn(s).",
+        "point_trigger_key": 6,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point07": {
+      "1": {
+        "anchor": "Point07",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_SkillTree2.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 20000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 5,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          12,
+          3,
+          12
+        ],
+        "point_id": 1512102,
+        "point_name": "Improvised Blues",
+        "point_desc": "When Robin • Summeretto or the \"Summer Songbirds\" receive healing or Shield provided by teammates, causes Robin • Summeretto to gain <unbreak>#1[i]</unbreak> stack(s) of \"Groove,\" capped at <unbreak>#3[i]</unbreak>. The first time Robin • Summeretto gains Vibes during any target's turn, if she has \"Groove,\" consumes 1 stack of \"Groove\" and regenerates a fixed <unbreak>#2[i]</unbreak> Energy.",
+        "point_trigger_key": 7,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point08": {
+      "1": {
+        "anchor": "Point08",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_1512_SkillTree3.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 241,
+            "item_num": 1,
+            "rarity": "SuperRare"
+          },
+          {
+            "item_id": 110509,
+            "item_num": 1,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [
+          0.5,
+          2
+        ],
+        "point_id": 1512103,
+        "point_name": "Rebuilt Harmony",
+        "point_desc": "Increases the CRIT Rate of Robin • Summeretto and \"Summer Songbirds\" by <unbreak>#1[i]%</unbreak>.",
+        "point_trigger_key": 8,
+        "point_type": 3,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point09": {
+      "1": {
+        "anchor": "Point09",
+        "avatar_level_limit": 1,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 2500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512201,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 9,
+        "point_type": 1,
+        "pre_point": [],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 2,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point10": {
+      "1": {
+        "anchor": "Point10",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 4000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 3,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 6,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512202,
+        "point_name": "HP Boost",
+        "point_trigger_key": 10,
+        "point_type": 1,
+        "pre_point": [
+          1512201
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.04,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point11": {
+      "1": {
+        "anchor": "Point11",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 9000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512203,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 11,
+        "point_type": 1,
+        "pre_point": [
+          1512201
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 2,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point12": {
+      "1": {
+        "anchor": "Point12",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 9000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 3,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512204,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 12,
+        "point_type": 1,
+        "pre_point": [
+          1512101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.027,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point13": {
+      "1": {
+        "anchor": "Point13",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 19000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 4,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512205,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 13,
+        "point_type": 1,
+        "pre_point": [
+          1512101
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 3,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point14": {
+      "1": {
+        "anchor": "Point14",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512206,
+        "point_name": "HP Boost",
+        "point_trigger_key": 14,
+        "point_type": 1,
+        "pre_point": [
+          1512102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.06,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point15": {
+      "1": {
+        "anchor": "Point15",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 45000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 3,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512207,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 15,
+        "point_type": 1,
+        "pre_point": [
+          1512102
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 3,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point16": {
+      "1": {
+        "anchor": "Point16",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "IconCriticalChance.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 7,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512208,
+        "point_name": "CRIT Rate Boost",
+        "point_trigger_key": 16,
+        "point_type": 1,
+        "pre_point": [
+          1512103
+        ],
+        "status_add_list": [
+          {
+            "property_type": "CriticalChanceBase",
+            "value": 0.04,
+            "name": "CRIT Rate"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point17": {
+      "1": {
+        "anchor": "Point17",
+        "avatar_level_limit": 75,
+        "default_unlock": false,
+        "icon": "IconMaxHP.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512209,
+        "point_name": "HP Boost",
+        "point_trigger_key": 17,
+        "point_type": 1,
+        "pre_point": [
+          1512208
+        ],
+        "status_add_list": [
+          {
+            "property_type": "HPAddedRatio",
+            "value": 0.08,
+            "name": "HP"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point18": {
+      "1": {
+        "anchor": "Point18",
+        "avatar_level_limit": 80,
+        "default_unlock": false,
+        "icon": "IconSpeed.png",
+        "level_up_skill_id": [],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 160000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 8,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 1,
+        "param_list": [],
+        "point_id": 1512210,
+        "point_name": "SPD Boost",
+        "point_trigger_key": 18,
+        "point_type": 1,
+        "pre_point": [
+          1512209
+        ],
+        "status_add_list": [
+          {
+            "property_type": "SpeedDelta",
+            "value": 4,
+            "name": "SPD"
+          }
+        ],
+        "extra": {}
+      }
+    },
+    "point19": {
+      "1": {
+        "anchor": "Point19",
+        "default_unlock": true,
+        "icon": "SkillIcon_11512_Servant.png",
+        "level_up_skill_id": [
+          1151201
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512301,
+        "point_name": "Chirrup Quartet",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_Servant.png",
+        "level_up_skill_id": [
+          1151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512301,
+        "point_name": "Chirrup Quartet",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_Servant.png",
+        "level_up_skill_id": [
+          1151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512301,
+        "point_name": "Chirrup Quartet",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_Servant.png",
+        "level_up_skill_id": [
+          1151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512301,
+        "point_name": "Chirrup Quartet",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_Servant.png",
+        "level_up_skill_id": [
+          1151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512301,
+        "point_name": "Chirrup Quartet",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point19",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_Servant.png",
+        "level_up_skill_id": [
+          1151201
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512301,
+        "point_name": "Chirrup Quartet",
+        "point_trigger_key": 19,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    },
+    "point20": {
+      "1": {
+        "anchor": "Point20",
+        "default_unlock": true,
+        "icon": "SkillIcon_11512_ServantPassive.png",
+        "level_up_skill_id": [
+          1151203,
+          1151205,
+          1151206
+        ],
+        "material_list": [],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512302,
+        "point_name": "A Warble of Wings",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "2": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 2,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_ServantPassive.png",
+        "level_up_skill_id": [
+          1151203,
+          1151205,
+          1151206
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 3500,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110251,
+            "item_num": 2,
+            "rarity": "NotNormal"
+          },
+          {
+            "item_id": 114001,
+            "item_num": 4,
+            "rarity": "NotNormal"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512302,
+        "point_name": "A Warble of Wings",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "3": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 3,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_ServantPassive.png",
+        "level_up_skill_id": [
+          1151203,
+          1151205,
+          1151206
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 7000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 2,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 2,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512302,
+        "point_name": "A Warble of Wings",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "4": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 4,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_ServantPassive.png",
+        "level_up_skill_id": [
+          1151203,
+          1151205,
+          1151206
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 16000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110252,
+            "item_num": 4,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 114002,
+            "item_num": 3,
+            "rarity": "Rare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512302,
+        "point_name": "A Warble of Wings",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "5": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 5,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_ServantPassive.png",
+        "level_up_skill_id": [
+          1151203,
+          1151205,
+          1151206
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 35000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512302,
+        "point_name": "A Warble of Wings",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      },
+      "6": {
+        "anchor": "Point20",
+        "avatar_promotion_limit": 6,
+        "default_unlock": false,
+        "icon": "SkillIcon_11512_ServantPassive.png",
+        "level_up_skill_id": [
+          1151203,
+          1151205,
+          1151206
+        ],
+        "material_list": [
+          {
+            "item_id": 2,
+            "item_num": 140000,
+            "rarity": "Rare"
+          },
+          {
+            "item_id": 110253,
+            "item_num": 6,
+            "rarity": "VeryRare"
+          },
+          {
+            "item_id": 114003,
+            "item_num": 2,
+            "rarity": "VeryRare"
+          }
+        ],
+        "max_level": 6,
+        "param_list": [],
+        "point_id": 1512302,
+        "point_name": "A Warble of Wings",
+        "point_trigger_key": 20,
+        "point_type": 4,
+        "pre_point": [],
+        "status_add_list": [],
+        "extra": {}
+      }
+    }
+  },
+  "enhanced": {},
+  "memosprite": {
+    "name": "Summer Songbirds",
+    "icon": "SpriteOutput/ServantIconTeam/11512B.png",
+    "hp_base": "0",
+    "hp_inherit": "#1",
+    "hp_skill": 151204,
+    "speed_base": "0",
+    "speed_inherit": "#2",
+    "aggro": 100,
+    "skills": {
+      "1151201": {
+        "name": "Chirrup Quartet",
+        "desc": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of \"Summer Songbirds'\" Max HP to all enemies.",
+        "simple_desc": "Deals massive Wind DMG to all enemies.",
+        "type": "Servant",
+        "type_name": "Memosprite Skill",
+        "tag": "AoEAttack",
+        "sp_base": 20,
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          30,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0,
+              0.75
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0,
+              0.9
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0,
+              1.05
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0,
+              1.2
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0,
+              1.35
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0,
+              1.5
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0,
+              1.65
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0,
+              1.8
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0,
+              1.95
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0,
+              2.1
+            ]
+          }
+        }
+      },
+      "1151203": {
+        "name": "A Warble of Wings",
+        "desc": "While in the \"Fever\" state, the \"Summer Songbirds\" and a countdown will appear on the Action Order. And the DMG dealt by Robin • Summeretto and \"Summer Songbirds\" increases by an amount equal to (<color=#f29e38ff><unbreak>#1[i]%</unbreak></color> + Vibes × <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>). When \"Summer Songbirds'\" turn starts, uses the Memosprite Skill. The countdown has an initial SPD of <unbreak>#9[i]</unbreak>. And when its turn starts, deducts <unbreak>#10[i]%</unbreak> of the current Vibes (minimum <unbreak>#6[i]</unbreak> points). When the Vibes reaches 0, the \"Summer Songbirds\" disappears and Robin • Summeretto exits the \"Fever\" state. While the \"Summer Songbirds\" is on the field, based on the number of its members present, increases the DMG taken by all enemies by <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>/<color=#f29e38ff><unbreak>#5[f1]%</unbreak></color> respectively.",
+        "simple_desc": "While in the \"Fever\" state, Robin • Summeretto and the \"Summer Songbirds\" increase their DMG dealt. When the \"Summer Songbirds'\" turn starts, uses Memosprite Skill. When Vibes reaches 0, \"Summer Songbirds\" disappears, and Robin • Summeretto exits the \"Fever\" state. While the \"Summer Songbirds\" is on the field, increases the DMG taken by all enemies based on the number of its members present.",
+        "type_name": "Memosprite Talent",
+        "tag": "Support",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          0,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.3,
+              0.01,
+              0.04,
+              0.06,
+              0.08,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.36,
+              0.012,
+              0.048,
+              0.072,
+              0.096,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.42,
+              0.014,
+              0.056,
+              0.084,
+              0.112,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.48,
+              0.016,
+              0.064,
+              0.096,
+              0.128,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.54,
+              0.018,
+              0.072,
+              0.108,
+              0.144,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.6,
+              0.02,
+              0.08,
+              0.12,
+              0.16,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.66,
+              0.022,
+              0.088,
+              0.132,
+              0.176,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.72,
+              0.024,
+              0.096,
+              0.144,
+              0.192,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.78,
+              0.026,
+              0.104,
+              0.156,
+              0.208,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.84,
+              0.028,
+              0.112,
+              0.168,
+              0.224,
+              12,
+              0,
+              0,
+              140,
+              0.5
+            ]
+          }
+        }
+      },
+      "1151205": {
+        "name": "Near the Sea's Heartbeat",
+        "desc": "When the \"Summer Songbirds\" gets summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
+        "simple_desc": "When summoned, regenerates Energy for Robin • Summeretto.",
+        "type_name": "Memosprite Talent",
+        "tag": "Support",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          0,
+          0
+        ],
+        "extra": {},
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              20
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              20
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              20
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              20
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              20
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              20
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              20
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              20
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              20
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              20
+            ]
+          }
+        }
+      },
+      "1151206": {
+        "name": "Astride Summer's Nightwind",
+        "desc": "When the \"Summer Songbirds\" disappears, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
+        "simple_desc": "When disappearing, causes Robin • Summeretto to <u>advance action</u>.",
+        "type_name": "Memosprite Talent",
+        "tag": "Support",
+        "bp_need": -1,
+        "show_stance_list": [
+          0,
+          0,
+          0
+        ],
+        "extra": {
+          "10000001": {
+            "name": "Action Advance",
+            "desc": "Reduces the target's waiting interval before the next action.",
+            "param": []
+          }
+        },
+        "level": {
+          "1": {
+            "level": 1,
+            "param_list": [
+              0.5
+            ]
+          },
+          "2": {
+            "level": 2,
+            "param_list": [
+              0.5
+            ]
+          },
+          "3": {
+            "level": 3,
+            "param_list": [
+              0.5
+            ]
+          },
+          "4": {
+            "level": 4,
+            "param_list": [
+              0.5
+            ]
+          },
+          "5": {
+            "level": 5,
+            "param_list": [
+              0.5
+            ]
+          },
+          "6": {
+            "level": 6,
+            "param_list": [
+              0.5
+            ]
+          },
+          "7": {
+            "level": 7,
+            "param_list": [
+              0.5
+            ]
+          },
+          "8": {
+            "level": 8,
+            "param_list": [
+              0.5
+            ]
+          },
+          "9": {
+            "level": 9,
+            "param_list": [
+              0.5
+            ]
+          },
+          "10": {
+            "level": 10,
+            "param_list": [
+              0.5
+            ]
+          }
+        }
+      }
+    }
+  },
+  "unique": {},
+  "stats": {
+    "0": {
+      "attack_base": 81.84,
+      "attack_add": 4.092,
+      "defence_base": 66,
+      "defence_add": 3.3,
+      "hp_base": 163.68,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 4000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114001,
+          "item_num": 5,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "1": {
+      "attack_base": 114.576,
+      "attack_add": 4.092,
+      "defence_base": 92.4,
+      "defence_add": 3.3,
+      "hp_base": 229.152,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 8000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114001,
+          "item_num": 10,
+          "rarity": "NotNormal"
+        }
+      ]
+    },
+    "2": {
+      "attack_base": 147.312,
+      "attack_add": 4.092,
+      "defence_base": 118.8,
+      "defence_add": 3.3,
+      "hp_base": 294.624,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 16000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114002,
+          "item_num": 6,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110435,
+          "item_num": 3,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "3": {
+      "attack_base": 180.048,
+      "attack_add": 4.092,
+      "defence_base": 145.2,
+      "defence_add": 3.3,
+      "hp_base": 360.096,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 40000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114002,
+          "item_num": 9,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 110435,
+          "item_num": 7,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "4": {
+      "attack_base": 212.784,
+      "attack_add": 4.092,
+      "defence_base": 171.6,
+      "defence_add": 3.3,
+      "hp_base": 425.568,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 80000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114003,
+          "item_num": 6,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110435,
+          "item_num": 20,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "5": {
+      "attack_base": 245.52,
+      "attack_add": 4.092,
+      "defence_base": 198,
+      "defence_add": 3.3,
+      "hp_base": 491.04,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": [
+        {
+          "item_id": 2,
+          "item_num": 160000,
+          "rarity": "Rare"
+        },
+        {
+          "item_id": 114003,
+          "item_num": 9,
+          "rarity": "VeryRare"
+        },
+        {
+          "item_id": 110435,
+          "item_num": 35,
+          "rarity": "VeryRare"
+        }
+      ]
+    },
+    "6": {
+      "attack_base": 278.256,
+      "attack_add": 4.092,
+      "defence_base": 224.4,
+      "defence_add": 3.3,
+      "hp_base": 556.512,
+      "hp_add": 8.184,
+      "speed_base": 95,
+      "critical_chance": 0.05,
+      "critical_damage": 0.5,
+      "base_aggro": 100,
+      "cost": []
+    }
+  },
+  "relics": {
+    "avatar_id": 1512,
+    "set4_id_list": [
+      127,
+      121,
+      114
+    ],
+    "set2_id_list": [
+      323,
+      308,
+      317
+    ],
+    "property_list3": [
+      "HPAddedRatio",
+      "CriticalDamageBase"
+    ],
+    "property_list4": [
+      "SpeedDelta",
+      "HPAddedRatio"
+    ],
+    "property_list5": [
+      "HPAddedRatio",
+      "WindAddedRatio"
+    ],
+    "property_list6": [
+      "SPRatioBase",
+      "HPAddedRatio"
+    ],
+    "property_list": [
+      {
+        "relic_type": "BODY",
+        "property_type": "HPAddedRatio"
+      },
+      {
+        "relic_type": "FOOT",
+        "property_type": "SpeedDelta"
+      },
+      {
+        "relic_type": "NECK",
+        "property_type": "HPAddedRatio"
+      },
+      {
+        "relic_type": "OBJECT",
+        "property_type": "SPRatioBase"
+      }
+    ],
+    "sub_affix_property_list": [
+      "CriticalChanceBase",
+      "CriticalDamageBase",
+      "HPAddedRatio",
+      "SpeedDelta"
+    ],
+    "score_rank_list": [
+      333,
+      272
+    ],
+    "local_critical_chance": 0.5
+  },
+  "lightcones": [
+    23063,
+    23049,
+    24005
+  ],
+  "teams": [
+    {
+      "avatar_id": 1512,
+      "team_id": 1,
+      "position": 1,
+      "member_list": [
+        1510,
+        1507,
+        1414
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list3": [
+        1409,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        103,
+        102
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1512,
+      "team_id": 2,
+      "position": 1,
+      "member_list": [
+        1407,
+        1415,
+        1409
+      ],
+      "backup_list1": [
+        1415,
+        1413
+      ],
+      "backup_list2": [
+        1413
+      ],
+      "backup_list3": [
+        1217,
+        1414,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        113
+      ],
+      "backup_group_list2": [
+        113
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    },
+    {
+      "avatar_id": 1512,
+      "team_id": 3,
+      "position": 1,
+      "member_list": [
+        1513,
+        1507,
+        1409
+      ],
+      "backup_list1": [],
+      "backup_list2": [
+        1403,
+        1415,
+        1306,
+        1313,
+        1309,
+        8007,
+        1406,
+        1218,
+        1202
+      ],
+      "backup_list3": [
+        1414,
+        1217,
+        1222,
+        1304,
+        1208,
+        1203,
+        1301
+      ],
+      "backup_group_list1": [
+        103,
+        102
+      ],
+      "backup_group_list2": [
+        104
+      ],
+      "backup_group_list3": [
+        101
+      ]
+    }
+  ],
+  "skin": {}
+}

@@ -1090,6 +1090,66 @@
       "cost": 385000
     },
     {
+      "id": "23064",
+      "name": "Summer Rides the Surf",
+      "rarity": 5,
+      "path": "Elation",
+      "type": "Elation",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23064.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/23064.webp",
+      "items": [
+        {
+          "id": "110261",
+          "name": "The Fluffy Hand-drawn Storyboards",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+        },
+        {
+          "id": "110262",
+          "name": "The Fluffy Serialization Memorial Issue",
+          "qty": 12,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+        },
+        {
+          "id": "110263",
+          "name": "The Fluffy Collector's Edition",
+          "qty": 15,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+        },
+        {
+          "id": "114011",
+          "name": "Tatters of Thought",
+          "qty": 20,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+        },
+        {
+          "id": "114012",
+          "name": "Fragments of Impression",
+          "qty": 20,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+        },
+        {
+          "id": "114013",
+          "name": "Shards of Desires",
+          "qty": 14,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+        }
+      ],
+      "cost": 385000
+    },
+    {
       "id": "23058",
       "name": "Until the Flowers Bloom Again",
       "rarity": 5,
@@ -4030,6 +4090,66 @@
       "cost": 385000
     },
     {
+      "id": "23063",
+      "name": "Rise and Sing",
+      "rarity": 5,
+      "path": "Remembrance",
+      "type": "Remembrance",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+      "items": [
+        {
+          "id": "110251",
+          "name": "B\u012bja of Consciousness",
+          "qty": 4,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+        },
+        {
+          "id": "110252",
+          "name": "Seedling of Manas",
+          "qty": 12,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+        },
+        {
+          "id": "110253",
+          "name": "Flower of \u0100laya",
+          "qty": 15,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+        },
+        {
+          "id": "114001",
+          "name": "Dream Collection Component",
+          "qty": 20,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+        },
+        {
+          "id": "114002",
+          "name": "Dream Flow Valve",
+          "qty": 20,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+        },
+        {
+          "id": "114003",
+          "name": "Dream Making Engine",
+          "qty": 14,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+        }
+      ],
+      "cost": 385000
+    },
+    {
       "id": "23052",
       "name": "This Love, Forever",
       "rarity": 5,
@@ -5285,6 +5405,66 @@
           "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+        }
+      ],
+      "cost": 308000
+    },
+    {
+      "id": "21066",
+      "name": "A Little Getaway",
+      "rarity": 4,
+      "path": "Elation",
+      "type": "Elation",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/21066.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/21066.webp",
+      "items": [
+        {
+          "id": "110261",
+          "name": "The Fluffy Hand-drawn Storyboards",
+          "qty": 3,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+        },
+        {
+          "id": "110262",
+          "name": "The Fluffy Serialization Memorial Issue",
+          "qty": 9,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+        },
+        {
+          "id": "110263",
+          "name": "The Fluffy Collector's Edition",
+          "qty": 12,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+        },
+        {
+          "id": "116001",
+          "name": "Whimsy Wax",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+        },
+        {
+          "id": "116002",
+          "name": "Dreamweave Steel",
+          "qty": 15,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+        },
+        {
+          "id": "116003",
+          "name": "Lucid Awl",
+          "qty": 12,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
         }
       ],
       "cost": 308000
@@ -6725,6 +6905,66 @@
           "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/hsr/assets/items/112003.webp"
+        }
+      ],
+      "cost": 308000
+    },
+    {
+      "id": "22008",
+      "name": "Race to the Horizon",
+      "rarity": 4,
+      "path": "Hunt",
+      "type": "Hunt",
+      "icon": "../../Database/GameData/hsr/assets/lightcones/medium/22008.webp",
+      "art": "../../Database/GameData/hsr/assets/lightcones/full/22008.webp",
+      "items": [
+        {
+          "id": "110191",
+          "name": "Meteoric Bullet",
+          "qty": 3,
+          "rar": 2,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110191.webp"
+        },
+        {
+          "id": "110192",
+          "name": "Destined Expiration",
+          "qty": 9,
+          "rar": 3,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110192.webp"
+        },
+        {
+          "id": "110193",
+          "name": "Countertemporal Shot",
+          "qty": 12,
+          "rar": 4,
+          "kind": "book",
+          "icon": "../../Database/GameData/hsr/assets/items/110193.webp"
+        },
+        {
+          "id": "116001",
+          "name": "Whimsy Wax",
+          "qty": 15,
+          "rar": 2,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+        },
+        {
+          "id": "116002",
+          "name": "Dreamweave Steel",
+          "qty": 15,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+        },
+        {
+          "id": "116003",
+          "name": "Lucid Awl",
+          "qty": 12,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
         }
       ],
       "cost": 308000
@@ -9982,8 +10222,15 @@
       },
       "title": "Over the Glided Tides",
       "slug": "aventurine-waveflair",
+      "release": 1789203600000,
       "updated": 1786492800000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Camden Sutkowski",
+        "japanese": "Kawanishi Kengo",
+        "chinese": "Yang Chaoran",
+        "korean": "Park Jun-won"
+      },
       "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/aventurine-waveflair-0fb8df0c48dc.webp",
@@ -10007,7 +10254,7 @@
       "overviewArtPool": [
         "../../Database/GameData/hsr/assets/lightcones/full/23064.webp"
       ],
-      "status": "beta",
+      "status": "live",
       "labels": [
         "4.5"
       ],
@@ -10124,12 +10371,2012 @@
         ]
       },
       "facts": {
+        "camp": "Interastral Peace Corporation",
         "title": "Over the Glided Tides"
       },
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.5",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Dead Center, the Torrent Hits",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Aventurine \u2022 Waveflair's ATK to one designated enemy.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 50% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 60% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 70% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 80% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 90% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 100% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 110% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 120% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 130% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 140% of Aventurine \u2022 Waveflair's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Kill Shot, the Sands Boil",
+                "type": "Skill",
+                "desc": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\"",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 86,
+                    "end": 87,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 88,
+                    "end": 97,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 102,
+                    "end": 103,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 120% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 132% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 144% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 156% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 168% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 180% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 195% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 210% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 225% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 252% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 264% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 276% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 300% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 4 Punchline and 4 \"Fervor.\""
+                  }
+                ]
+              },
+              {
+                "name": "Grand Slam, Crest That High Tide",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 39%, lasting for 4 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 86,
+                    "end": 87,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 88,
+                    "end": 97,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 102,
+                    "end": 103,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 143,
+                    "end": 146,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 143,
+                    "end": 146,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 160,
+                    "end": 161,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 240% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 12%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 256% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 13.8%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 272% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 15.6%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 288% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 17.4%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 304% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 19.2%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 320% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 21%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 340% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 23.3%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 360% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 25.5%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 380% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 27.8%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 400% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 30%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 416% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 31.8%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 432% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 33.6%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 448% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 35.4%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 464% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 37.2%, lasting for 4 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 480% of Aventurine \u2022 Waveflair's ATK to all enemies. Gains 6 Punchline and 8 \"Fervor.\" Increases this unit's SPD by 39%, lasting for 4 turn(s)."
+                  }
+                ]
+              },
+              {
+                "name": "Make Waves in Still Waters",
+                "type": "Technique Attack",
+                "desc": "Moves forward rapidly for a set distance, attacking all enemies in contact and blocking all incoming attacks. After entering combat via actively attacking enemies, deals Quantum DMG to all enemies equal to 100% of Aventurine \u2022 Waveflair's ATK, and gains 2 \"Fervor\" and 20 \"Certified Banger.\" Technique Points are not consumed if no enemies are hit.",
+                "descFormat": [
+                  {
+                    "start": 206,
+                    "end": 210,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 254,
+                    "end": 255,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 269,
+                    "end": 271,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 273,
+                    "end": 289,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Ante Up, the Abyss Answers",
+                "type": "Talent",
+                "desc": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 50% Quantum Elation DMG to all enemies, and Ultimate additionally deals 90% Quantum Elation DMG to all enemies.",
+                "descFormat": [
+                  {
+                    "start": 42,
+                    "end": 58,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 143,
+                    "end": 144,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 158,
+                    "end": 159,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 160,
+                    "end": 169,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 193,
+                    "end": 195,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 226,
+                    "end": 228,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 342,
+                    "end": 344,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 345,
+                    "end": 354,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 516,
+                    "end": 532,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 560,
+                    "end": 563,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 560,
+                    "end": 563,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 572,
+                    "end": 583,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 632,
+                    "end": 635,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 632,
+                    "end": 635,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 644,
+                    "end": 655,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 20% Quantum Elation DMG to all enemies, and Ultimate additionally deals 36% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 22% Quantum Elation DMG to all enemies, and Ultimate additionally deals 39.6% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 24% Quantum Elation DMG to all enemies, and Ultimate additionally deals 43.2% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 26% Quantum Elation DMG to all enemies, and Ultimate additionally deals 46.8% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 28% Quantum Elation DMG to all enemies, and Ultimate additionally deals 50.4% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 30% Quantum Elation DMG to all enemies, and Ultimate additionally deals 54% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 32.5% Quantum Elation DMG to all enemies, and Ultimate additionally deals 58.5% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 35% Quantum Elation DMG to all enemies, and Ultimate additionally deals 63% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 37.5% Quantum Elation DMG to all enemies, and Ultimate additionally deals 67.5% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 40% Quantum Elation DMG to all enemies, and Ultimate additionally deals 72% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 42% Quantum Elation DMG to all enemies, and Ultimate additionally deals 75.6% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 44% Quantum Elation DMG to all enemies, and Ultimate additionally deals 79.2% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 46% Quantum Elation DMG to all enemies, and Ultimate additionally deals 82.8% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 48% Quantum Elation DMG to all enemies, and Ultimate additionally deals 86.4% Quantum Elation DMG to all enemies."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "The duration of Aventurine \u2022 Waveflair's \"Certified Banger\" increases by 1 turn. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 1 \"Fervor\" and 1 Punchline. \"Fervor\" is capped at 30 points.\nWhen \"Fervor\" reaches 10, Aventurine \u2022 Waveflair uses 1 instance of \"Cheers! To Summer's Blaze\" that takes into account a fixed amount of 20 Punchline. After this use, the next Elation Skill used by this unit in the Aha Instant gets enhanced into \"All In! To Summer's Blaze.\"\nWhile Aventurine \u2022 Waveflair holds \"Certified Banger,\" Skill additionally deals 50% Quantum Elation DMG to all enemies, and Ultimate additionally deals 90% Quantum Elation DMG to all enemies."
+                  }
+                ]
+              },
+              {
+                "name": "Cheers! To Summer's Blaze",
+                "type": "Elation Skill",
+                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy.",
+                "descFormat": [
+                  {
+                    "start": 6,
+                    "end": 9,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 6,
+                    "end": 9,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 18,
+                    "end": 29,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 69,
+                    "end": 71,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 119,
+                    "end": 124,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 119,
+                    "end": 124,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 133,
+                    "end": 144,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 9.9% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 10.8% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 11.7% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 12.6% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 13.5% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 14.6% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 16.9% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 18.9% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 19.8% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 20.7% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 21.6% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy."
+                  }
+                ]
+              },
+              {
+                "name": "All In! To Summer's Blaze",
+                "type": "Elation Skill",
+                "desc": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 26.3% Quantum Elation DMG to one random enemy.",
+                "descFormat": [
+                  {
+                    "start": 6,
+                    "end": 9,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 6,
+                    "end": 9,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 18,
+                    "end": 29,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 69,
+                    "end": 71,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 117,
+                    "end": 122,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 117,
+                    "end": 122,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 131,
+                    "end": 142,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 269,
+                    "end": 274,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 269,
+                    "end": 274,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 283,
+                    "end": 294,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Elation.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals 30% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 10.5% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals 33% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 9.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 11.6% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals 36% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 10.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 12.6% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals 39% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 11.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 13.7% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals 42% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 12.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 14.7% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals 45% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 13.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 15.8% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals 48.8% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 14.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 17.1% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals 52.5% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 15.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 18.4% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals 56.3% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 16.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 19.7% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals 60% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 21% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals 63% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 18.9% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 22.1% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals 66% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 19.8% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 23.1% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals 69% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 20.7% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 24.1% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals 72% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 21.6% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 25.2% Quantum Elation DMG to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals 75% Quantum Elation DMG to all enemies, and additionally deals 10 instances of DMG, with each instance dealing 22.5% Quantum Elation DMG to one random enemy. Consumes all \"Fervor\" upon use. For every 1 point of \"Fervor\" consumed, additionally deals 1 instance of 26.3% Quantum Elation DMG to one random enemy."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Party in Perfect Paradise",
+                "type": "Major Trace",
+                "desc": "When SPD is 140 or higher, increases this unit's Elation by 30%. For every 1 SPD exceeding that threshold, additionally increases this unit's Elation by 1%. Up to a max of 200 excess SPD can be taken into account for this effect.",
+                "descFormat": [
+                  {
+                    "start": 12,
+                    "end": 15,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 60,
+                    "end": 63,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 75,
+                    "end": 76,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 153,
+                    "end": 155,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 172,
+                    "end": 175,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree1.webp"
+              },
+              {
+                "name": "Revel in Raging Tides",
+                "type": "Major Trace",
+                "desc": "At the start of combat, if the team includes an Elation character besides Aventurine \u2022 Waveflair, then while Aventurine \u2022 Waveflair is on the field, increases all allies' Elation by 20% and Aventurine \u2022 Waveflair's Elation by an additional 80%.\nAt the start of combat, if Aventurine \u2022 Waveflair is the only Elation character in the team, then when Aventurine \u2022 Waveflair uses Elation Skill to deal DMG, it is considered as having launched Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 \"Certified Banger\" and 1 Punchline, and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
+                "descFormat": [
+                  {
+                    "start": 182,
+                    "end": 185,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 240,
+                    "end": 243,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 439,
+                    "end": 452,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 516,
+                    "end": 517,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 519,
+                    "end": 535,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 541,
+                    "end": 542,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 543,
+                    "end": 552,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 568,
+                    "end": 573,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 581,
+                    "end": 583,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree2.webp"
+              },
+              {
+                "name": "Sift Through Gilded Dreams",
+                "type": "Major Trace",
+                "desc": "Increases CRIT DMG by 48%. After a teammate uses Basic ATK, Skill, Follow-Up ATK, or Ultimate, all allies' CRIT DMG increases by 48%, lasting for 3 turn(s), and Aventurine \u2022 Waveflair additionally gains 2 \"Fervor.\" This effect can trigger up to 6 time(s), and the trigger count resets when Aventurine \u2022 Waveflair uses Skill.",
+                "descFormat": [
+                  {
+                    "start": 22,
+                    "end": 25,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 67,
+                    "end": 80,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 129,
+                    "end": 132,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 146,
+                    "end": 147,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 203,
+                    "end": 204,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 245,
+                    "end": 246,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "A Holiday on the Line",
+                "type": "Eidolon 1",
+                "desc": "Increases All-Type RES PEN by 24%.\nTalent gets enhanced: When \"Fervor\" reaches 10/20/30 points, immediately uses \"Cheers! To Summer's Blaze.\"",
+                "descFormat": [
+                  {
+                    "start": 19,
+                    "end": 26,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 30,
+                    "end": 33,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 79,
+                    "end": 81,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 82,
+                    "end": 84,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 85,
+                    "end": 87,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank1.webp"
+              },
+              {
+                "name": "Idle as the Turning Tide",
+                "type": "Eidolon 2",
+                "desc": "Increases the upper limit of \"Fervor\" to 50 points. \"Fervor\" reaching 40/50 points can also trigger the Talent to use \"Cheers! To Summer's Blaze.\" After using Elation Skill, additionally gains 4 \"Fervor.\"",
+                "descFormat": [
+                  {
+                    "start": 41,
+                    "end": 43,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 70,
+                    "end": 72,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 73,
+                    "end": 75,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 193,
+                    "end": 194,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank2.webp"
+              },
+              {
+                "name": "A Rendezvous Served Chilled",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 39,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 79,
+                    "end": 81,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 128,
+                    "end": 130,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_BP.webp"
+              },
+              {
+                "name": "Sunlight Runs No Tab",
+                "type": "Eidolon 4",
+                "desc": "When Aventurine \u2022 Waveflair uses Skill, enables the DMG dealt by all allies to ignore 18% of enemy targets' DEF, lasting for 3 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 86,
+                    "end": 89,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 125,
+                    "end": 126,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank4.webp"
+              },
+              {
+                "name": "Into the Eye of the Jackpot",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 42,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 85,
+                    "end": 87,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 134,
+                    "end": 136,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Ultra.webp"
+              },
+              {
+                "name": "The Past in Fast Lane",
+                "type": "Eidolon 6",
+                "desc": "Elation DMG dealt by Aventurine \u2022 Waveflair merrymakes by 25%. After Aventurine \u2022 Waveflair uses his Elation Skill 2 time(s), all subsequent Elation Skills used become \"All In! To Summer's Blaze.\" And when using the Elation Skill \"All In! To Summer's Blaze\" to additionally deal DMG outside of Aha Instant, it no longer consumes \"Fervor.\"",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 11,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 44,
+                    "end": 54,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 58,
+                    "end": 61,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 115,
+                    "end": 116,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1513_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
+        "ascension": [
+          {
+            "id": "110443",
+            "name": "Sneering Harlequin",
+            "qty": 65,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+          },
+          {
+            "id": "114011",
+            "name": "Tatters of Thought",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+          },
+          {
+            "id": "114012",
+            "name": "Fragments of Impression",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+          },
+          {
+            "id": "114013",
+            "name": "Shards of Desires",
+            "qty": 15,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114011",
+                "name": "Tatters of Thought",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 7,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114012",
+                "name": "Fragments of Impression",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 20,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 35,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "114013",
+                "name": "Shards of Desires",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
+        "talents": [
+          {
+            "id": "114011",
+            "name": "Tatters of Thought",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+          },
+          {
+            "id": "114012",
+            "name": "Fragments of Impression",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+          },
+          {
+            "id": "114013",
+            "name": "Shards of Desires",
+            "qty": 58,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 139,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110509",
+            "name": "High Hopes of the Falsely Enlightened",
+            "qty": 12,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 4000,
+              "items": [
+                {
+                  "id": "110261",
+                  "name": "The Fluffy Hand-drawn Storyboards",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+                },
+                {
+                  "id": "114011",
+                  "name": "Tatters of Thought",
+                  "qty": 5,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 8000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 15000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 24000,
+              "items": [
+                {
+                  "id": "110262",
+                  "name": "The Fluffy Serialization Memorial Issue",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+                },
+                {
+                  "id": "114012",
+                  "name": "Fragments of Impression",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 32000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 65000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114013",
+                  "name": "Shards of Desires",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 120000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 250000,
+              "items": [
+                {
+                  "id": "110263",
+                  "name": "The Fluffy Collector's Edition",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "114011",
+            "name": "Tatters of Thought",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114011.webp"
+          },
+          {
+            "id": "114012",
+            "name": "Fragments of Impression",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114012.webp"
+          },
+          {
+            "id": "114013",
+            "name": "Shards of Desires",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110261",
+            "name": "The Fluffy Hand-drawn Storyboards",
+            "qty": 7,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+          },
+          {
+            "id": "110262",
+            "name": "The Fluffy Serialization Memorial Issue",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+          },
+          {
+            "id": "110263",
+            "name": "The Fluffy Collector's Edition",
+            "qty": 59,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+          },
+          {
+            "id": "110509",
+            "name": "High Hopes of the Falsely Enlightened",
+            "qty": 3,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+          }
+        ],
+        "talentBaseCost": 1260000,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
         "weapon": {
           "name": "Summer Rides the Surf",
           "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23064.webp",
@@ -10186,16 +12433,18 @@
             }
           ],
           "cost": 385000
-        },
-        "currency": 385000
+        }
       },
-      "recent": false
+      "recent": 1
     },
     {
       "id": "hsr-pearl",
       "n": "Pearl",
       "localizedNames": {
-        "en": "Pearl"
+        "en": "Pearl",
+        "zh": "\u771f\u73e0",
+        "ja": "\u30d1\u30fc\u30eb",
+        "ko": "\ud384"
       },
       "slug": "pearl",
       "releasePatch": "1.6",
@@ -10207,10 +12456,29 @@
         "chinese": "https://zh.moegirl.org.cn/zh-hans/\u82cf\u5a49|Su Wan (\u82cf\u5a49)",
         "korean": "https://en.namu.wiki/w/\uc5ec\uc724\ubbf8|Yeo Yoon-mi (\uc5ec\uc724\ubbf8)"
       },
-      "icon": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/hsr/assets/characters/pearl-b1158304697b.webp",
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
+      "signatureLightCone": {
+        "id": "23055",
+        "name": "Colors for Tomorrow",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23055.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23055.webp",
+        "path": "Elation"
+      },
+      "signatureWeapon": {
+        "id": "23055",
+        "name": "Colors for Tomorrow",
+        "path": "Elation",
+        "type": "Elation",
+        "educated": true
+      },
+      "signatureWeaponId": "23055",
+      "signatureWeaponName": "Colors for Tomorrow",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23055.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23055.webp"
+      ],
       "status": "beta",
       "labels": [
         "4.6"
@@ -10218,11 +12486,179 @@
       "r": 5,
       "el": "Ice",
       "path": "Elation",
-      "baseStats": {},
+      "baseStats": {
+        "level1": {
+          "hp": 163.68,
+          "atk": 63.36,
+          "def": 99,
+          "speed": 99,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1203.05,
+          "atk": 465.7,
+          "def": 727.65,
+          "speed": 99,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 163.68,
+            "atk": 63.36,
+            "def": 99,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 384.65,
+            "atk": 148.9,
+            "def": 232.65,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 531.96,
+            "atk": 205.92,
+            "def": 321.75,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 679.27,
+            "atk": 262.94,
+            "def": 410.85,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 826.58,
+            "atk": 319.97,
+            "def": 499.95,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 973.9,
+            "atk": 376.99,
+            "def": 589.05,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1121.21,
+            "atk": 434.02,
+            "def": 678.15,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1203.05,
+            "atk": 465.7,
+            "def": 727.65,
+            "speed": 99,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
+      },
       "facts": {},
       "upcoming": true,
       "reliableData": false,
       "noReliableInfo": true,
+      "req": {
+        "weapon": {
+          "name": "Colors for Tomorrow",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23055.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23055.webp",
+          "path": "Elation",
+          "items": [
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
+            },
+            {
+              "id": "116001",
+              "name": "Whimsy Wax",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116001.webp"
+            },
+            {
+              "id": "116002",
+              "name": "Dreamweave Steel",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116002.webp"
+            },
+            {
+              "id": "116003",
+              "name": "Lucid Awl",
+              "qty": 14,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/116003.webp"
+            }
+          ],
+          "cost": 385000
+        },
+        "currency": 385000
+      },
       "recent": false
     },
     {
@@ -10236,8 +12672,15 @@
       },
       "title": "Summer Chorus",
       "slug": "robin-summeretto",
+      "release": 1787734800000,
       "updated": 1786492800000,
       "sourceOrder": 0,
+      "voiceActors": {
+        "english": "Alice Himora / \\nSong Vocals: Chevy",
+        "japanese": "Kaori Nazuka / Song Vocals: Chevy",
+        "chinese": "Qian Chen / Song Vocals: Chevy",
+        "korean": "\uc2e0\uc628\uc720 / Song Vocals: Chevy"
+      },
       "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
@@ -10261,7 +12704,7 @@
       "overviewArtPool": [
         "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
       ],
-      "status": "beta",
+      "status": "live",
       "labels": [
         "4.5"
       ],
@@ -10378,12 +12821,1685 @@
         ]
       },
       "facts": {
+        "camp": "Penacony",
         "title": "Summer Chorus"
       },
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "live",
+        "version": "4.5",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "The Sea Sings in My Key",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy.",
+                "descFormat": [
+                  {
+                    "start": 24,
+                    "end": 27,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 24,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Wind DMG equal to 25% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Wind DMG equal to 30% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Wind DMG equal to 35% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Wind DMG equal to 40% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Wind DMG equal to 45% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Wind DMG equal to 50% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Wind DMG equal to 55% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Wind DMG equal to 60% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Wind DMG equal to 65% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Summer Strums the Soul",
+                "type": "Skill",
+                "desc": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 125% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 22,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 155,
+                    "end": 159,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 155,
+                    "end": 159,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 201,
+                    "end": 202,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 50% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 55% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 60% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 65% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 70% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 75% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 81.3% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 87.5% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 93.8% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 100% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 105% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 110% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 115% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 120% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 125% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  }
+                ]
+              },
+              {
+                "name": "Ascend That Rhapsody in Blue",
+                "type": "Ultimate",
+                "desc": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 19,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 87,
+                    "end": 91,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 142,
+                    "end": 145,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 142,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 316,
+                    "end": 317,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 372,
+                    "end": 386,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  }
+                ]
+              },
+              {
+                "name": "We Are the Melody",
+                "type": "Technique",
+                "desc": "After using Technique, advances action by 20% at the start of the next battle, immediately gains 6 Vibes, and increases all allies' DMG dealt by 30%, lasting for 2 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 38,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 42,
+                    "end": 45,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 97,
+                    "end": 98,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 145,
+                    "end": 148,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Wings Heed No Borders",
+                "type": "Talent",
+                "desc": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends.",
+                "descFormat": [
+                  {
+                    "start": 61,
+                    "end": 64,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 124,
+                    "end": 128,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 327,
+                    "end": 329,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 413,
+                    "end": 414,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 490,
+                    "end": 492,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 607,
+                    "end": 628,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 838,
+                    "end": 843,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 838,
+                    "end": 843,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 854,
+                    "end": 858,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 949,
+                    "end": 970,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (10% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (10.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (11% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (11.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (12% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (12.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (13.1% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (13.8% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (14.4% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (15% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (15.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (16% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (16.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Deviated Chords",
+                "type": "Major Trace",
+                "desc": "When an ally target causes Robin \u2022 Summeretto to gain Vibes, if their ATK is higher than Robin \u2022 Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes \u00d7 0.4%) of Robin \u2022 Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by an amount equal to (40% + Vibes \u00d7 1.5%). Lasts for 2 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 162,
+                    "end": 165,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 176,
+                    "end": 180,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 281,
+                    "end": 284,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 295,
+                    "end": 299,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 312,
+                    "end": 313,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree1.webp"
+              },
+              {
+                "name": "Improvised Blues",
+                "type": "Major Trace",
+                "desc": "When Robin \u2022 Summeretto or the \"Summer Songbirds\" receive healing or Shield provided by teammates, causes Robin \u2022 Summeretto to gain 12 stack(s) of \"Groove,\" capped at 12. The first time Robin \u2022 Summeretto gains Vibes during any target's turn, if she has \"Groove,\" consumes 1 stack of \"Groove\" and regenerates a fixed 3 Energy.",
+                "descFormat": [
+                  {
+                    "start": 133,
+                    "end": 135,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 168,
+                    "end": 170,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 318,
+                    "end": 319,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree2.webp"
+              },
+              {
+                "name": "Rebuilt Harmony",
+                "type": "Major Trace",
+                "desc": "Increases the CRIT Rate of Robin \u2022 Summeretto and \"Summer Songbirds\" by 50%.",
+                "descFormat": [
+                  {
+                    "start": 72,
+                    "end": 75,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Stray Bird of Summer",
+                "type": "Eidolon 1",
+                "desc": "\"Summer Songbirds\" will keep a tally of 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, additionally deals True DMG to the enemy target with the highest HP, equal to (11% + current Vibes \u00d7 0.1%) of the total tally. Then, clears 50% of the tally.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 44,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 56,
+                    "end": 64,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 140,
+                    "end": 148,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 200,
+                    "end": 203,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 222,
+                    "end": 226,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 261,
+                    "end": 264,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
+              },
+              {
+                "name": "A Heart of Still Water",
+                "type": "Eidolon 2",
+                "desc": "Ally targets' All-Type RES PEN increases by 18%. The upper limit of Robin \u2022 Summeretto's Vibes increases by 20. The first time an ally target uses an ability during any target's turn to cause Robin \u2022 Summeretto to gain Vibes, she gains an additional 2 points.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 30,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 44,
+                    "end": 47,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 108,
+                    "end": 110,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 250,
+                    "end": 251,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
+              },
+              {
+                "name": "Echoes Left Along the Way",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 39,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 79,
+                    "end": 81,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 132,
+                    "end": 134,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp"
+              },
+              {
+                "name": "Her Variation on the Theme",
+                "type": "Eidolon 4",
+                "desc": "Upon entering the \"Fever\" state, immediately gains 12 Vibes, and increases the SPD of \"Summer Songbirds\" by an amount equal to (20% + current Vibes \u00d7 0.5%).",
+                "descFormat": [
+                  {
+                    "start": 51,
+                    "end": 53,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 128,
+                    "end": 131,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 150,
+                    "end": 154,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank4.webp"
+              },
+              {
+                "name": "To Chase the Dawn Anew",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 42,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 85,
+                    "end": 87,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 137,
+                    "end": 139,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp"
+              },
+              {
+                "name": "A Song Yet Unnamed",
+                "type": "Eidolon 6",
+                "desc": "Increases the Memosprite Skill's DMG multiplier by 100% of its original value. While in the \"Fever\" state, Robin \u2022 Summeretto can store her Ultimate up to 2 times. After entering the \"Fever\" state for the first time in this battle or when the the \"Fever\" countdown's turn starts, regenerates a fixed 140 Energy.",
+                "descFormat": [
+                  {
+                    "start": 51,
+                    "end": 55,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 300,
+                    "end": 303,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
       "req": {
+        "ascension": [
+          {
+            "id": "110435",
+            "name": "Charred Bud of Twilight",
+            "qty": 65,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+          },
+          {
+            "id": "114001",
+            "name": "Dream Collection Component",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+          },
+          {
+            "id": "114002",
+            "name": "Dream Flow Valve",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+          },
+          {
+            "id": "114003",
+            "name": "Dream Making Engine",
+            "qty": 15,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114001",
+                "name": "Dream Collection Component",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114001",
+                "name": "Dream Collection Component",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114002",
+                "name": "Dream Flow Valve",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 7,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114002",
+                "name": "Dream Flow Valve",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 20,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114003",
+                "name": "Dream Making Engine",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 35,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114003",
+                "name": "Dream Making Engine",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
+        "talents": [
+          {
+            "id": "114001",
+            "name": "Dream Collection Component",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+          },
+          {
+            "id": "114002",
+            "name": "Dream Flow Valve",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+          },
+          {
+            "id": "114003",
+            "name": "Dream Making Engine",
+            "qty": 58,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 139,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110509",
+            "name": "High Hopes of the Falsely Enlightened",
+            "qty": 12,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "High Hopes of the Falsely Enlightened",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "114001",
+            "name": "Dream Collection Component",
+            "qty": 16,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+          },
+          {
+            "id": "114002",
+            "name": "Dream Flow Valve",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+          },
+          {
+            "id": "114003",
+            "name": "Dream Making Engine",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 10,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 27,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 53,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110509",
+            "name": "High Hopes of the Falsely Enlightened",
+            "qty": 3,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+          }
+        ],
+        "talentBaseCost": 1181500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
         "weapon": {
           "name": "Rise and Sing",
           "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
@@ -10440,10 +14556,9 @@
             }
           ],
           "cost": 385000
-        },
-        "currency": 385000
+        }
       },
-      "recent": false
+      "recent": 1
     },
     {
       "id": "hsr-gilgamesh",
@@ -10456,7 +14571,7 @@
       },
       "title": "I Am As You Behold",
       "slug": "gilgamesh",
-      "release": 1784851200000,
+      "release": 1784883600000,
       "releasePatch": "4.4",
       "updated": 1784851200000,
       "sourceOrder": 0,
@@ -10605,6 +14720,7 @@
         ]
       },
       "facts": {
+        "camp": "Another World",
         "title": "I Am As You Behold"
       },
       "skillIcons": [
@@ -10616,7 +14732,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -12469,6 +16585,7 @@
       },
       "title": "Ad Astra Nova",
       "slug": "himeko-nova",
+      "release": 1784106000000,
       "updated": 1784851200000,
       "sourceOrder": 0,
       "voiceActors": {
@@ -12614,6 +16731,7 @@
         ]
       },
       "facts": {
+        "camp": "Astral Express",
         "title": "Ad Astra Nova"
       },
       "skillIcons": [
@@ -12625,7 +16743,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -13804,7 +17922,7 @@
               {
                 "name": "The Colors We Never Strike",
                 "type": "Eidolon 2",
-                "desc": "The cap of Himeko \u2022 Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 extra turn.",
+                "desc": "The cap of Himeko \u2022 Nova's Assist Skill uses increases to 2, and the DMG dealt by Ultimate and Assist Skill becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn, additionally recovers 1 use of Assist Skill immediately. When a non-Trailblaze Companions character uses Assist Skill, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 extra turn.",
                 "descFormat": [
                   {
                     "start": 27,
@@ -13822,23 +17940,23 @@
                     "kind": "strong"
                   },
                   {
-                    "start": 245,
-                    "end": 257,
+                    "start": 244,
+                    "end": 256,
                     "kind": "underline"
                   },
                   {
-                    "start": 282,
-                    "end": 303,
+                    "start": 281,
+                    "end": 302,
                     "kind": "underline"
                   },
                   {
-                    "start": 319,
-                    "end": 331,
+                    "start": 318,
+                    "end": 330,
                     "kind": "underline"
                   },
                   {
-                    "start": 400,
-                    "end": 410,
+                    "start": 399,
+                    "end": 409,
                     "kind": "underline"
                   }
                 ],
@@ -15060,7 +19178,7 @@
       },
       "title": "The Gem Coursing in Red",
       "slug": "rin-tohsaka",
-      "release": 1784851200000,
+      "release": 1784883600000,
       "releasePatch": "4.4",
       "updated": 1784851200000,
       "sourceOrder": 0,
@@ -15209,6 +19327,7 @@
         ]
       },
       "facts": {
+        "camp": "Another World",
         "title": "The Gem Coursing in Red"
       },
       "skillIcons": [
@@ -15220,7 +19339,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -17285,6 +21404,7 @@
         ]
       },
       "facts": {
+        "camp": "Stellaron Hunters",
         "title": "Now I Am Become Blade"
       },
       "skillIcons": [
@@ -17296,7 +21416,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -19291,6 +23411,7 @@
         ]
       },
       "facts": {
+        "camp": "Planarcadia",
         "title": "The Demoiselle in Charge"
       },
       "skillIcons": [
@@ -19302,7 +23423,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -21263,8 +25384,7 @@
           ],
           "cost": 385000
         }
-      },
-      "recent": 1
+      }
     },
     {
       "id": "hsr-yao-guang",
@@ -21429,6 +25549,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Yuque",
         "title": "Gleam of a Thousand Plumes"
       },
       "skillIcons": [
@@ -21440,7 +25561,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -23447,6 +27568,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "The Iron Tamer of Tides"
       },
       "skillIcons": [
@@ -23458,7 +27580,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -25327,7 +29449,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -27177,6 +31299,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Tailored Fate"
       },
       "skillIcons": [
@@ -27188,7 +31311,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -29162,6 +33285,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "The Universe in a Seed"
       },
       "skillIcons": [
@@ -29173,7 +33297,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -30973,6 +35097,7 @@
         ]
       },
       "facts": {
+        "camp": "Another World",
         "title": "The Hell Where Ideals Burn"
       },
       "skillIcons": [
@@ -30984,7 +35109,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -32835,7 +36960,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -34725,6 +38850,7 @@
         ]
       },
       "facts": {
+        "camp": "Galaxy Ranger",
         "title": "A Hunt Through Night"
       },
       "skillIcons": [
@@ -34736,7 +38862,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -36659,7 +40785,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -38568,7 +42694,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -40387,7 +44513,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -42539,7 +46665,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -44522,6 +48648,7 @@
         ]
       },
       "facts": {
+        "camp": "Galaxy Ranger",
         "title": "Dusty Trail's Lone Star"
       },
       "skillIcons": [
@@ -44533,7 +48660,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -46442,7 +50569,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -48213,6 +52340,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Blossom to the Beyond"
       },
       "skillIcons": [
@@ -48224,7 +52352,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -50209,6 +54337,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Slick and Speedy Steals the Sky"
       },
       "skillIcons": [
@@ -50220,7 +54349,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -52142,7 +56271,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -53945,6 +58074,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Ripples Rejoined"
       },
       "skillIcons": [
@@ -53956,7 +58086,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -55964,7 +60094,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -57943,6 +62073,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Slay Until Evil Ends"
       },
       "skillIcons": [
@@ -57954,7 +62085,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -59899,7 +64030,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -61763,6 +65894,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Yaoqing",
         "title": "Stormrider's Bolt"
       },
       "skillIcons": [
@@ -61774,7 +65906,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -63880,6 +68012,7 @@
         ]
       },
       "facts": {
+        "camp": "Stellaron Hunters",
         "title": "Firefull Flyshine"
       },
       "skillIcons": [
@@ -63891,7 +68024,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -65943,7 +70076,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -67735,7 +71868,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -69525,7 +73658,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -71320,7 +75453,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -73202,6 +77335,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "A Rainbow onto Twilight"
       },
       "skillIcons": [
@@ -73213,7 +77347,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -75155,6 +79289,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Winedark Swansong"
       },
       "skillIcons": [
@@ -75166,7 +79301,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -77020,6 +81155,7 @@
         ]
       },
       "facts": {
+        "camp": "Interastral Peace Corporation",
         "title": "Lien on Life, Lease on Fate"
       },
       "skillIcons": [
@@ -77031,7 +81167,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -78887,6 +83023,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Yaoqing",
         "title": "Cauldron Contrivance"
       },
       "skillIcons": [
@@ -78898,7 +83035,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -80768,7 +84905,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -82557,7 +86694,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -84485,7 +88622,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -86320,6 +90457,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Luofu",
         "title": "Let Scent Sink In"
       },
       "skillIcons": [
@@ -86331,7 +90469,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -88259,7 +92397,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -90080,6 +94218,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "The Remembrance of None"
       },
       "skillIcons": [
@@ -90091,7 +94230,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -92063,6 +96202,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Fiery Lionheart"
       },
       "skillIcons": [
@@ -92074,7 +96214,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -94124,6 +98264,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "To Evermore Burn as the Sun"
       },
       "skillIcons": [
@@ -94135,7 +98276,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -96488,6 +100629,7 @@
         ]
       },
       "facts": {
+        "camp": "Galaxy Ranger",
         "title": "Eyes of a Ninja"
       },
       "skillIcons": [
@@ -96499,7 +100641,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -98445,6 +102587,7 @@
         ]
       },
       "facts": {
+        "camp": "Penacony",
         "title": "Flowing Nightglow"
       },
       "skillIcons": [
@@ -98456,7 +102599,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -100275,7 +104418,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -102106,6 +106249,7 @@
         ]
       },
       "facts": {
+        "camp": "Another World",
         "title": "Excalibur Excelsior"
       },
       "skillIcons": [
@@ -102117,7 +106261,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -104233,7 +108377,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -106012,7 +110156,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -107897,6 +112041,7 @@
         ]
       },
       "facts": {
+        "camp": "Stellaron Hunters",
         "title": "Godmode Player"
       },
       "skillIcons": [
@@ -107908,7 +112053,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -110214,7 +114359,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -111973,6 +116118,7 @@
         ]
       },
       "facts": {
+        "camp": "Masked Fools",
         "title": "Project: Party Time"
       },
       "skillIcons": [
@@ -111984,7 +116130,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -114166,7 +118312,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -115990,6 +120136,7 @@
         ]
       },
       "facts": {
+        "camp": "The Cremators",
         "title": "Dance in Flame"
       },
       "skillIcons": [
@@ -116001,7 +120148,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -117921,6 +122068,7 @@
         ]
       },
       "facts": {
+        "camp": "Herta Space Station",
         "title": "Message From Beyond"
       },
       "skillIcons": [
@@ -117932,7 +122080,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -119908,6 +124056,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Luofu",
         "title": "The Long Voyage Home"
       },
       "skillIcons": [
@@ -119919,7 +124068,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -121827,7 +125976,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -123656,7 +127805,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -125574,7 +129723,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.4",
+            "version": "4.5",
             "sections": [
               {
                 "title": "Skills",
@@ -127480,7 +131629,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.4",
+            "version": "4.5",
             "sections": [
               {
                 "title": "Skills",
@@ -129289,7 +133438,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.4",
+            "version": "4.5",
             "sections": [
               {
                 "title": "Skills",
@@ -131063,7 +135212,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.4",
+            "version": "4.5",
             "sections": [
               {
                 "title": "Skills",
@@ -132981,7 +137130,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "4.4",
+            "version": "4.5",
             "sections": [
               {
                 "title": "Skills",
@@ -134941,6 +139090,7 @@
         ]
       },
       "facts": {
+        "camp": "Amphoreus",
         "title": "Back to Fons et Origo"
       },
       "skillIcons": [
@@ -134952,7 +139102,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -136637,7 +140787,7 @@
       "updated": 1780185600000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "imdb:nm1813063|Corey Landis",
+        "english": "imdb:nm1281932|Brian T. Delaney",
         "japanese": "Yoshimasa Hosoya|Hosoya Yoshimasa (\u7d30\u8c37\u4f73\u6b63)",
         "chinese": "https://zh.moegirl.org.cn/\u5f6d\u535a|Peng Bo (\u5f6d\u535a)",
         "korean": "https://namu.wiki/w/\ud55c\uc2e0(\uc131\uc6b0)|Han-sin (\ud55c\uc2e0)"
@@ -136798,7 +140948,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -138660,7 +142810,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -140498,6 +144648,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Zhuming",
         "title": "Dance at Sunset"
       },
       "skillIcons": [
@@ -140509,7 +144660,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -142386,7 +146537,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -144121,7 +148272,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -145857,7 +150008,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -147602,7 +151753,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -149424,7 +153575,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -151225,7 +155376,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -152995,7 +157146,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -154740,7 +158891,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -156558,7 +160709,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -158421,7 +162572,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -160247,7 +164398,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -162061,7 +166212,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -163917,7 +168068,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -165710,6 +169861,7 @@
         ]
       },
       "facts": {
+        "camp": "The Xianzhou Yaoqing",
         "title": "* Any Warp Banner (except Departure Warp)"
       },
       "skillIcons": [
@@ -165721,7 +169873,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -167576,7 +171728,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -169374,7 +173526,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -171175,7 +175327,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -172953,7 +177105,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -174744,7 +178896,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -176526,7 +180678,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -178277,7 +182429,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -180015,7 +184167,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -181771,7 +185923,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -183485,7 +187637,9 @@
           }
         ]
       },
-      "facts": {},
+      "facts": {
+        "camp": "Amphoreus"
+      },
       "signatureLightCone": {
         "id": "23049",
         "name": "To Evernight's Stars",
@@ -183514,7 +187668,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -185460,7 +189614,9 @@
           }
         ]
       },
-      "facts": {},
+      "facts": {
+        "camp": "The Xianzhou Luofu"
+      },
       "signatureLightCone": {
         "id": "23035",
         "name": "Long Road Leads Home",
@@ -185489,7 +189645,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "4.4",
+        "version": "4.5",
         "sections": [
           {
             "title": "Skills",
@@ -187338,6 +191494,7 @@
         "Evernight",
         "Hyacine",
         "March 7th \u2022 Evernight",
+        "Robin Summeretto",
         "Trailblazer"
       ]
     },
@@ -187587,6 +191744,7 @@
         }
       ],
       "chars": [
+        "Aventurine Waveflair",
         "Evanescia",
         "Silver Wolf \u2022 Lv. 999",
         "Sparxie",
@@ -187782,11 +191940,14 @@
         {
           "id": "110509",
           "name": "High Hopes of the Falsely Enlightened",
-          "n": "High Hopes of the Falsely Enlightened",
+          "qty": 12,
           "rar": 4,
           "kind": "weekly",
           "icon": "../../Database/GameData/hsr/assets/items/110509.webp",
-          "chars": []
+          "chars": [
+            "Aventurine Waveflair",
+            "Robin Summeretto"
+          ]
         }
       ]
     },

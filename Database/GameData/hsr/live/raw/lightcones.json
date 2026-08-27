@@ -879,6 +879,16 @@
     "zh": "今日好手气",
     "ja": "{RUBY_B#きょう}今日{RUBY_E#}は{RUBY_B#こううん}好運{RUBY_E#}"
   },
+  "21066": {
+    "rank": "CombatPowerLightconeRarity4",
+    "baseType": "Elation",
+    "en": "A Little Getaway",
+    "atk": 423,
+    "desc": "Night falls. Stars twinkle outside the window. The light casts two silhouettes on the wall.\\n\\n<i>\"Sensing: Numby's Happiness Index: <unbreak>97.9%</unbreak>.\"</i>\\n<i>\"There's plenty of virtual currency here! Numby's bound to love it!\"</i>\\nThe Intellitron girl strokes the pet's ears and takes out an ancient gold coin.\\n\\n<i>\"Numby, you can't eat this!\"</i>\\nThe pet leaps in joy, but she scoops it into her arms.\\n<i>\"If I remember correctly, this is a collection piece used to restore history.\"</i>\\n\\nThe Intellitron girl smiles, recalling the long-obliterated civilization on that planet.\\n<i>\"It matters not, Jelena. The planet's historical prototype has entered the sketching phase. Progress: <unbreak>85%</unbreak>.\"</i>\\n<i>\"For now, let's just enjoy our vacation.\"</i>",
+    "ko": "짧은 휴가",
+    "zh": "放个短假",
+    "ja": "バカンスのひと{RUBY_B#とき}時{RUBY_E#}"
+  },
   "22000": {
     "rank": "CombatPowerLightconeRarity4",
     "baseType": "Warlock",
@@ -958,6 +968,16 @@
     "ko": "미래엔 우리가 함께할 거야",
     "zh": "未来，有我们一起",
     "ja": "みんなで{RUBY_B#いっしょ}一緒{RUBY_E#}に{RUBY_B#みらい}未来{RUBY_E#}へ"
+  },
+  "22008": {
+    "rank": "CombatPowerLightconeRarity4",
+    "baseType": "Rogue",
+    "en": "Race to the Horizon",
+    "atk": 476,
+    "desc": "<i>\"Team Trailblazer takes the lead! The finish line is within reach. Can Team Trailblazer clinch the final victory?\"</i>\\nOn the highly anticipated track, the roar of engines and the cheers of the crowd intertwine.\\n\\n<i>\"Keep up this speed and charge straight ahead! Baseball Raccoon, you can do this!\"</i>\\nAn inner voice cheers them on, firm and resolute.\\n\\nIn the instant before breaking through the finish line, the heartbeat, the wind, the deafening voices, and the sound of the acceleration reach a synchronized frequency, fading into silence.\\nAnd in the racer's eyes, all that remains is a vast track leading to the sky.\\n\\nSuddenly, thunderous applause and celebratory cannons erupt.\\n<i>\"I... won! Team Trailblazer won!\"</i>\\nAs the afterglow of the setting sun spills across the edge of the horizon, the euphoria of victory has arrived.",
+    "ko": "지평선의 끝을 향해",
+    "zh": "向着地平线的终点",
+    "ja": "{RUBY_B#ちへいせん}地平線{RUBY_E#}のゴールへ"
   },
   "23000": {
     "rank": "CombatPowerLightconeRarity5",
@@ -1578,6 +1598,26 @@
     "ko": "보이는 것이 곧 나",
     "zh": "所见即我",
     "ja": "{RUBY_B#あ}在{RUBY_E#}るがままの{RUBY_B#オレ}我{RUBY_E#}"
+  },
+  "23063": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Memory",
+    "en": "Rise and Sing",
+    "atk": 582,
+    "desc": "Seawater washes over her ankles, sea foam shattering beneath the moonlight. During a rare break from filming, the young girl accepted an invitation to the beach to attend a small campfire gathering.\\n\\nThe fire's light stretches out the children's shadows, their little faces painted with confusion. \"I don't know how to sing,\" \"I don't sing well,\" \"I'm too scared to sing.\" The children look up at her as they ask timidly: <i>\"Miss Robin, what should we do?\"</i>\\nShe smiles gently, her fingertips lightly touching the strings in lieu of an answer.\\n\\n<i>\"Come, follow my lead.\"</i>\\nThe sea breeze seemed to drown out the first strum, but the second tune takes on a shape of its own. As the waves crash against the shore and the lights flicker, she parts her lips and sings softly, pouring out the clear, sunny sky from within her heart.\\n<i>\"When you don't know how to sing, just listen to the melody in your own hearts.\"</i>\\nAt first, the notes are scattered, but gradually an outline of a melody forms, and that outline is breathed into life. She sings, and they sing, until the summer breeze brushes past.\\n<i>\"Listen, this is the song in our hearts. It has always been there, waiting to be heard.\"</i>\\n\\nShe hears it, and so, she gently offers this blessing:\\n<i>\"Rise and sing, then spread your wings and take flight.\"</i>",
+    "ko": "그대는 나아가 노래하리니",
+    "zh": "你将起身歌唱",
+    "ja": "{RUBY_B#た}立{RUBY_E#}ち{RUBY_B#あ}上{RUBY_E#}がり{RUBY_B#たか}高{RUBY_E#}らかな{RUBY_B#うた}歌{RUBY_E#}を"
+  },
+  "23064": {
+    "rank": "CombatPowerLightconeRarity5",
+    "baseType": "Elation",
+    "en": "Summer Rides the Surf",
+    "atk": 582,
+    "desc": "Seawater washes over the board, the wave's crest tearing open a churning rift and shattering the sunlight into a million golden shards. He steps onto his surfboard, letting the roaring wave launch him into the air.\\n\\n<i>\"High seas mean high risks, and high risks mean massive returns.\"</i>\\nHe challenges the waves time and time again, placing himself right at the eye of the storm. The height of summer, the blazing sun, the crisp sea breeze... The dizzying array of names, the fluctuating margins of profit and loss, the lies and schemes lurking in people's eyes... It all melts into blurry patches of color, no longer demanding his scrutiny.\\n\\n<i>\"The tide has arrived. Now... just what will it leave in its wake?\"</i>\\nThe ocean is boundless, much like the endless prosperity of Astropolis. Before tossing down his next chip, he rides the ridge of the wave and wagers his very being, fixing his gaze on that singular moment as he looks down upon the surging tide.",
+    "ko": "파도에 내던진 한여름",
+    "zh": "向浪花掷下盛夏",
+    "ja": "{RUBY_B#なみ}波{RUBY_E#}しぶきが{RUBY_B#おど}躍{RUBY_E#}る{RUBY_B#なつ}夏{RUBY_E#}へ"
   },
   "24000": {
     "rank": "CombatPowerLightconeRarity5",

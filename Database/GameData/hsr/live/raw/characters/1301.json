@@ -144,6 +144,18 @@
         "is_battle_voice": false
       },
       {
+        "voice_id": 22,
+        "voice_title": "About Misha 2",
+        "voice_m": "When I met Mikhail he was already grown up... but whatever the case, Misha's still here. He's spent his whole life with me, and for that, I should be glad.",
+        "is_battle_voice": false
+      },
+      {
+        "voice_id": 23,
+        "voice_title": "Added to Team With Robin",
+        "voice_m": "No matter where I am in the future, I will definitely still hear your singing.",
+        "is_battle_voice": false
+      },
+      {
         "voice_id": 51,
         "voice_title": "Battle Begins: Weakness Break",
         "voice_m": "That's all you've got?",
@@ -325,7 +337,7 @@
       "extra": {
         "10000010": {
           "name": "Debuff",
-          "desc": "Debuffs are negative status effects that render units weaker. Unless otherwise specified, debuffs can be dispelled.",
+          "desc": "All status effects that provide negative combat debuffs, can be dispelled unless stated otherwise.",
           "param": []
         }
       }

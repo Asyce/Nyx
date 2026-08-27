@@ -1820,6 +1820,21 @@
     }
   },
   {
+    "id": "2022072",
+    "contentStatus": "live",
+    "name": "Twig of Wintry Wind",
+    "rank": "MinionLv2",
+    "weaknesses": [
+      "Ice",
+      "Quantum",
+      "Imaginary"
+    ],
+    "description": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2022070.webp"
+    }
+  },
+  {
     "id": "2022080",
     "contentStatus": "live",
     "name": "Twig of Marple Leaf",
@@ -1835,6 +1850,20 @@
   },
   {
     "id": "2022081",
+    "contentStatus": "live",
+    "name": "Twig of Marple Leaf",
+    "rank": "MinionLv2",
+    "weaknesses": [
+      "Fire",
+      "Quantum"
+    ],
+    "description": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2022080.webp"
+    }
+  },
+  {
+    "id": "2022082",
     "contentStatus": "live",
     "name": "Twig of Marple Leaf",
     "rank": "MinionLv2",
@@ -1876,6 +1905,20 @@
     }
   },
   {
+    "id": "2022092",
+    "contentStatus": "live",
+    "name": "Twig of Glorious Blooms",
+    "rank": "MinionLv2",
+    "weaknesses": [
+      "Ice",
+      "Imaginary"
+    ],
+    "description": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2022090.webp"
+    }
+  },
+  {
     "id": "2022100",
     "contentStatus": "live",
     "name": "Twig of Lavish Fruits",
@@ -1892,6 +1935,21 @@
   },
   {
     "id": "2022101",
+    "contentStatus": "live",
+    "name": "Twig of Lavish Fruits",
+    "rank": "MinionLv2",
+    "weaknesses": [
+      "Fire",
+      "Quantum",
+      "Imaginary"
+    ],
+    "description": "A branch of Ambrosial Arbor created from the Ebon Deer's footprint.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2022100.webp"
+    }
+  },
+  {
+    "id": "2022102",
     "contentStatus": "live",
     "name": "Twig of Lavish Fruits",
     "rank": "MinionLv2",
@@ -1948,6 +2006,21 @@
       "Imaginary"
     ],
     "description": "A false projection produced by compromised codes. The referent entity is a cultivator who longs to revive the ancient mysteries of Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.\\nNow, their wish has been fulfilled. Gifted by the power of the ancient miracle and using it as both weapon and armor, they managed to touch on the secret of immortality.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2023010.webp"
+    }
+  },
+  {
+    "id": "2023012",
+    "contentStatus": "live",
+    "name": "Celestial Cherub",
+    "rank": "Elite",
+    "camp": 2,
+    "weaknesses": [
+      "Physical",
+      "Fire"
+    ],
+    "description": "A cultivator who longs to revive the ancient mysteries of Abundance, and to guide the Xianzhou natives back on the liberating path of immortality.\\nNow, their wish has been fulfilled. Gifted by the power of the ancient miracle and using it as both weapon and armor, they managed to touch on the secret of immortality.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_2023010.webp"
     }
@@ -2010,6 +2083,20 @@
       "Thunder"
     ],
     "description": "A false projection produced by compromised codes. The referent entity is the form that the Disciples of Sanctus Medicus crave. A true shape that cast off the burdens of humanity and has been reforged using the way of immortality.\\nIn ancient times, those who sought immortality received wisdom from the Ambrosial Arbor and called themselves Celestials. They lived without restraints, and molded the flesh of themselves and others at will. They have long forgotten their original appearances after countless metamorphoses.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2023030.webp"
+    }
+  },
+  {
+    "id": "2023032",
+    "contentStatus": "live",
+    "name": "Celestial Maiden",
+    "rank": "Elite",
+    "weaknesses": [
+      "Ice",
+      "Quantum"
+    ],
+    "description": "The form that the Disciples of Sanctus Medicus crave. A true appearance that cast off the burdens of humanity and has been reforged using the way of immortality.\\nIn ancient times, those who sought immortality received wisdom from the Ambrosial Arbor and called themselves Celestials. They lived without restraints and molded the flesh of themselves and others at will. They have long forgotten their original appearances after countless metamorphoses.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_2023030.webp"
     }
@@ -2104,6 +2191,23 @@
       "Quantum"
     ],
     "description": "A complete projection produced by compromised codes. The referent entity is an auspicious spiritual beast wrought into being by the Ambrosial Arbor to protects its roots. Its arrival brings along exuberant vegetation and promises good fortune.\\nOnce destroyed during ancient wars, the Ambrosial Arbor is mended by the Stellaron and finally revives. Rare creatures and legendary beasts made by celestials of the past all return to this world, like an old dream coming alive again.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_2024010.webp"
+    }
+  },
+  {
+    "id": "2024016",
+    "contentStatus": "live",
+    "name": "Unwaning Ageless Immortal",
+    "rank": "LittleBoss",
+    "camp": 2,
+    "weaknesses": [
+      "Physical",
+      "Fire",
+      "Ice",
+      "Quantum"
+    ],
+    "description": "An auspicious spiritual beast wrought into being by the Ambrosial Arbor and protects its roots. Its arrival brings along exuberant vegetation and promises good fortune.\\nOnce destroyed during ancient wars, the Ambrosial Arbor is mended by the Stellaron and finally revives. Rare creatures and legendary beasts made by celestials of the past all return to this world, like an old dream coming alive again.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_2024010.webp"
     }
@@ -5206,7 +5310,7 @@
   {
     "id": "4015012",
     "contentStatus": "live",
-    "name": "4015012",
+    "name": "Ishtar Huwawa Aquila",
     "rank": "BigBoss",
     "weaknesses": [
       "Physical",
@@ -6319,7 +6423,7 @@
   {
     "id": "4062021",
     "contentStatus": "live",
-    "name": "Avenger Squad: Canine",
+    "name": "Avenger Squadron: Canine",
     "rank": "MinionLv2",
     "camp": 18,
     "weaknesses": [
@@ -6366,7 +6470,7 @@
   {
     "id": "4063012",
     "contentStatus": "live",
-    "name": "Avenger Squad: Winged Serpent",
+    "name": "Avenger Squadron: Winged Serpent",
     "rank": "Elite",
     "camp": 18,
     "weaknesses": [
@@ -7371,6 +7475,52 @@
     }
   },
   {
+    "id": "5023013",
+    "contentStatus": "live",
+    "name": "Joy Ascendant (Bug)",
+    "rank": "Elite",
+    "camp": 17,
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "description": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5023010.webp"
+    }
+  },
+  {
+    "id": "5023014",
+    "contentStatus": "live",
+    "name": "Joy Ascendant: Prelude (Bug)",
+    "rank": "Elite",
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "description": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5023010.webp"
+    }
+  },
+  {
+    "id": "5023015",
+    "contentStatus": "live",
+    "name": "Joy Ascendant: Finale (Bug)",
+    "rank": "Elite",
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "description": "A false projection produced by compromised codes forged in reference to the Joy Ascendant. A human infected by the Paramount Bliss Inverted: Illwish Archlotus.\\nApart from endless surges of joy, they remain unmoved by the six emotions and untainted by the six desires.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5023010.webp"
+    }
+  },
+  {
     "id": "5023020",
     "contentStatus": "live",
     "name": "God-Devourer Offspring",
@@ -7398,6 +7548,22 @@
       "Imaginary"
     ],
     "description": "A monstrous legion born from Asat Pramad's splitting of the power of the Voracity — the prototype of what would become the imagenae. From Ahatopia's slumbering core, he sensed the Voracity's relentless, insatiable hunger, its power pulsing in perfect harmony with the Path of Destruction. Intrigued by this restless force, he began his own dark creation — erasing human heads, leaving only grinning, devouring maws that roar, demand, and consume endlessly, never satisfied.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5023020.webp"
+    }
+  },
+  {
+    "id": "5023022",
+    "contentStatus": "live",
+    "name": "God-Devourer Offspring (Bug)",
+    "rank": "Elite",
+    "camp": 17,
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Imaginary"
+    ],
+    "description": "A false projection produced by compromised codes, forged in reference to the God-Devourer Offspring. A monstrous legion born from Asat Pramad's splitting of the power of the Voracity — the prototype of what would become the imagenae. From Ahatopia's slumbering core, he sensed the Voracity's relentless, insatiable hunger, its power pulsing in perfect harmony with the Path of Destruction. Intrigued by this restless force, he began his own dark creation — erasing human heads, leaving only grinning, devouring maws that roar, demand, and consume endlessly, never satisfied.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_5023020.webp"
     }
@@ -7436,6 +7602,38 @@
   },
   {
     "id": "5024012",
+    "contentStatus": "live",
+    "name": "Paramount Bliss Inverted: Illwish Archlotus",
+    "rank": "LittleBoss",
+    "camp": 17,
+    "weaknesses": [
+      "Physical",
+      "Thunder",
+      "Imaginary"
+    ],
+    "description": "The director of Fulwish TV, fused with the flesh of Shuhu that was brought into Planarcadia.\\nDuring the last Phantasmoon Games fifteen years ago, a serial killer known as the \"Herald of Death\" caused countless casualties. His actions left numerous residents without parents, siblings, and classmates.\\nPhysical scars can heal, but scars of the mind and soul can never be mended again. The people formed a \"Victims' Mutual Aid Society\" in an attempt to heal this wound.\\nFulwish perfected a \"Happiness Surgery.\" Once administered, everyone would eternally forget their suffering and remain happy. The source of this surgery was pieces of Shuhu's flesh.\\nFifteen years later, the \"Victims' Mutual Aid Society\" evolved into the renowned \"Research Society of Happy Smiles.\" This simple little surgery, disguised as a cosmetic procedure or medical treatment, infected countless people in Planarcadia and allowed Shuhu's cells to slumber within the populace.\\nAs the president of the Research Society of Happy Smiles, Fulwish harbored hatred toward the Phantasmoon Games that spawned the Herald of Death, and thus transformed into \"Paramount Bliss Inverted: Illwish Archlotus,\" launching her revenge against this world.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5024010.webp"
+    }
+  },
+  {
+    "id": "5024013",
+    "contentStatus": "live",
+    "name": "Paramount Bliss Inverted: Illwish Archlotus (Complete)",
+    "rank": "LittleBoss",
+    "camp": 17,
+    "weaknesses": [
+      "Physical",
+      "Thunder",
+      "Imaginary"
+    ],
+    "description": "A false projection produced by compromised codes, forged in reference to the Paramount Bliss Inverted: Illwish Lotus. The director of Fulwish TV, fused with the flesh of Shuhu that was brought into Planarcadia.\\nDuring the last Phantasmoon Games fifteen years ago, a serial killer known as the \"Herald of Death\" caused countless casualties. His actions left numerous residents without parents, siblings, and classmates.\\nPhysical scars can heal, but scars of the mind and soul can never be mended again. The people formed a \"Victims' Mutual Aid Society\" in an attempt to heal this wound.\\nFulwish perfected a \"Happiness Surgery.\" Once administered, everyone would eternally forget their suffering and remain happy. The source of this surgery was pieces of Shuhu's flesh.\\nFifteen years later, the \"Victims' Mutual Aid Society\" evolved into the renowned \"Research Society of Happy Smiles.\" This simple little surgery, disguised as a cosmetic procedure or medical treatment, infected countless people in Planarcadia and allowed Shuhu's cells to slumber within the populace.\\nAs the president of the Research Society of Happy Smiles, Fulwish harbored hatred toward the Phantasmoon Games that spawned the Herald of Death, and thus transformed into \"Paramount Bliss Inverted: Illwish Archlotus,\" launching her revenge against this world.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_5024010.webp"
+    }
+  },
+  {
+    "id": "5024014",
     "contentStatus": "live",
     "name": "Paramount Bliss Inverted: Illwish Archlotus",
     "rank": "LittleBoss",
@@ -8588,7 +8786,7 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     }
@@ -8603,7 +8801,7 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon many Voidrangers.",
+    "description": "A false projection produced by compromised codes. The referent entity is a product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon many Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     }
@@ -8618,7 +8816,7 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     }
@@ -8633,7 +8831,7 @@
       "Wind",
       "Imaginary"
     ],
-    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and Leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a Leviathan. Its screech can summon a large number of Voidrangers.",
+    "description": "A product of the Antimatter Legion utilizing the Warforge to recast and fuse remnants of fallen warriors and leviathans.\\nThough relatively rare, they possess both the intelligence of a warrior and the power and mobility of a leviathan. Its screech can summon a large number of Voidrangers.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8013010.webp"
     }
@@ -9120,6 +9318,21 @@
     }
   },
   {
+    "id": "8032040",
+    "contentStatus": "live",
+    "name": "Astropolis Sentinel",
+    "rank": "MinionLv2",
+    "camp": 9,
+    "weaknesses": [
+      "Wind",
+      "Quantum"
+    ],
+    "description": "Mass-produced security robots seen everywhere in Astropolis, tasked with maintaining peace and stability.\\nCold and ruthless machines of justice, enforcing the law with a warm touch and a heavy fist.",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_8032040.webp"
+    }
+  },
+  {
     "id": "8033010",
     "contentStatus": "live",
     "name": "Senior Staff: Team Leader",
@@ -9178,6 +9391,22 @@
     "description": "An Interastral Peace Corporation senior staff member with a minimal rank of project team leader. The mech they drive belongs to the IPC. If damaged, its repair fees have to be paid out-of-pocket. With a half-decent salary, they can at least afford to rent a one-bedroom apartment on one of the IPC's enterprise ships.",
     "assets": {
       "icon": "GameData/hsr/assets/monsters/Monster_8033010.webp"
+    }
+  },
+  {
+    "id": "8033020",
+    "contentStatus": "live",
+    "name": "Lighthouse",
+    "rank": "Elite",
+    "camp": 9,
+    "weaknesses": [
+      "Fire",
+      "Wind",
+      "Quantum"
+    ],
+    "description": "The superhero of Astropolis, armed with the Intelligentsia Guild's most advanced technological achievements, spares no effort to vanquish evil and maintain the city's peace. Over the past five years, he has repeatedly saved the people of Astropolis from disasters big and small.\\nSome point out that these feats could never be accomplished by one person alone, and that the so-called \"Lighthouse\" is nothing more than a false idol manufactured by the entertainment-industrial complex. But the public has already poured their hearts into hoping someone will shoulder the burden when they face a crisis. Little do they know, far darker secrets lie hidden beneath the armor of \"Lighthouse\"...",
+    "assets": {
+      "icon": "GameData/hsr/assets/monsters/Monster_8033020.webp"
     }
   },
   {

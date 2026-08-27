@@ -118359,10 +118359,12 @@
         "ko": "\uacbd\uc5f0"
       },
       "slug": "jingran",
+      "release": 1788998400000,
       "releasePatch": "3.6",
       "updated": 1784246400000,
       "sourceOrder": 1212,
       "voiceActors": {
+        "english": "|voiceCN =",
         "japanese": "Kengo Kawanishi|Kawanishi Kengo (ja=\u6cb3\u897f \u5065\u543e)",
         "chinese": "|voiceJP = Kengo Kawanishi|Kawanishi Kengo (ja=\u6cb3\u897f \u5065\u543e)",
         "korean": "}}"

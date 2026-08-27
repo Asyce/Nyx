@@ -1,4 +1,4 @@
-# Nyx launcher, Endfield, and HoYo execution plan
+# Nyx launcher, gear exports, Endfield, and HoYo execution plan
 
 Date: 2026-08-24
 
@@ -23,6 +23,9 @@ The source documents remain evidence for their locked contracts. Where their old
 - Endfield imports remain local to the browser profile for this goal. No Endfield login, backend, telemetry, or cross-device sync.
 - Endfield V1 supports Windows global Gryphline, not CN/Hypergryph. Playtime has no export or cloud sync.
 - This plan adds no HoYo account-achievement capability for Genshin or ZZZ; it preserves the existing separate Genshin achievement export and the separate ZZZ lane's current disabled state. WuWa/ZZZ achievement research, SignPath, and temporary signing are outside this goal.
+- The added gear lane exports only HSR relics and Genshin artifacts to local optimizer-compatible JSON. It does not add a Pengo gear database, website receiver, cloud sync, live optimizer stream, character/weapon/material inventory export, or ZZZ/WuWa/Endfield gear support.
+- Nyx never installs or bundles Npcap/libpcap. A built-in Windows Packet Monitor path may ship only after the Phase 6A non-interference and no-trace-file proof; otherwise the existing separately installed, hash/signature-checked Npcap path may remain a visible fallback only after its remaining public-release hardening passes.
+- Gear and achievement capture is always visibly armed by the user. Never persist raw packets, `.pcap`, `.pcapng`, `.etl`, decrypted payloads, session keys, credential URLs, or third-party account cookies.
 
 ## Execution and review rules
 
@@ -50,7 +53,23 @@ Do not simplify away:
 - pinned Rust capture dependencies/security tests and bundled redemption codes;
 - official-game icon override and custom-game icon/background support.
 
-Do not add dependency injection, plugins, a new logging/telemetry service, silent updating, temporary signing, a localization framework, centralized package management, a chart library, a second process scanner, or another import server.
+Do not add dependency injection, plugins, a new logging/telemetry service, silent updating, temporary signing, a localization framework, centralized package management, a chart library, a second process scanner, another import server, a second export coordinator/helper, automatic third-party upload, or a raw-packet file path.
+
+## Locked external exporter source decisions
+
+Re-fetch and re-review every source immediately before adoption. The audit pins below are evidence, not floating dependencies.
+
+| Source and audited pin | License/permission | Accepted use |
+|---|---|---|
+| [`hashblen/auto-artifactarium`](https://github.com/hashblen/auto-artifactarium/tree/04421c4f8a7ed7e7b65bb5e6e59231d4e98405cf) `04421c4f8a7ed7e7b65bb5e6e59231d4e98405cf` | MIT | Already vendored at the same pin with Pengo bounds and logging removal. It is the Genshin achievement/transport parser despite its name; it does not prove artifact-inventory export. Reuse it rather than adding another Genshin transport stack. |
+| [`hashblen/auto-reliquary`](https://github.com/hashblen/auto-reliquary/tree/bc23b48cb3b1b994a5d4405cefea42eb0e1d3735) `bc23b48cb3b1b994a5d4405cefea42eb0e1d3735` | MIT | Already vendored at the same pin with Pengo bounds and logging removal. It is the HSR achievement/transport parser; it does not export relic inventory. Reuse its transport path. |
+| [`IceDynamix/reliquary`](https://github.com/IceDynamix/reliquary/tree/a9964cf5b2a7e31e54b08a5115ff02fedb3073f3) `a9964cf5b2a7e31e54b08a5115ff02fedb3073f3` | MIT | Reference and possible smallest-source provider for the HSR bag protobuf/resource mapping only. The audited tree maps through HSR 4.4 while production is 4.5, so no code or mapping ships until the current-patch proof passes. Do not import its full generated protocol surface by default. |
+| [`juliuskreutz/stardb-exporter`](https://github.com/juliuskreutz/stardb-exporter/tree/a0a4d55abf921be4228d6afa94ec0f814549ba16) `a0a4d55abf921be4228d6afa94ec0f814549ba16` | No repository license at the audited pin. Existing `Extractor/Achievements/PROVENANCE.md` records direct permission for the public key maps and extractor behavior. | Keep the already-pinned key maps/behavior within that recorded permission. Treat every other implementation detail as reference-only unless its permission scope is recorded. Do not copy its stored auth cookie, clipboard credential URL, raw `latest.pcapng`, third-party sync/delete, trace logging, auto-update, or auto-elevation behavior. |
+| [`IceDynamix/reliquary-archiver`](https://github.com/IceDynamix/reliquary-archiver/tree/62585d74bad03944cf5b1ec3f5cc91cfae5bb899) `62585d74bad03944cf5b1ec3f5cc91cfae5bb899` | MIT | Adapt only the proven HSR login/bag completion idea and relic-field mappings after current-patch proof. Reject its GUI, full-inventory scope, raw capture-file import, websocket/live stream, logs, self-update, build-time resource downloads, silent missing-map drops, and partial export behavior. |
+| [`emmachase/pktmon`](https://github.com/emmachase/pktmon/tree/33d1c0c421ed8610540bae3e34da3c1182cf28a2) `33d1c0c421ed8610540bae3e34da3c1182cf28a2` (`0.6.2`) | MIT | Design reference for a no-install Windows Packet Monitor capture backend only. Do not adopt its machine-wide stop/filter-reset behavior; Nyx must prove owned-session coexistence and cleanup on supported Windows builds first. |
+| [`fribbels/hsr-optimizer`](https://github.com/fribbels/hsr-optimizer/tree/99790f5514159655eb9865de612c7cdec01ae097) `99790f5514159655eb9865de612c7cdec01ae097` | MIT | HSR manual-import consumer and de facto Reliquary/HSR-Scanner v4 format authority. Pin its accepted source/version/relic fields and import behavior in fixtures. Do not add its websocket path or export unrelated character, light-cone, material, or currency data. |
+
+The Genshin format authority is the exact MIT [`frzyc/genshin-optimizer`](https://github.com/frzyc/genshin-optimizer/tree/984d82cda1e37a3a634ab14d2059b6ad91b90a4a) pin `984d82cda1e37a3a634ab14d2059b6ad91b90a4a`: artifact-only GOOD v3. The first HSR release deliberately targets Fribbels' richer Reliquary-compatible v4 manual import instead of SROD v1 because SROD drops the unique-ID, roll-step, discard, reroll, and preview data already present in the proven bag model. Pin both consumers in tests; ship one format per game and do not create a Nyx-only gear schema.
 
 ## Phase 0 - Reproducible bases and execution records
 
@@ -182,6 +201,77 @@ Do not add dependency injection, plugins, a new logging/telemetry service, silen
 
 - Deploy tools first, then the immutable launcher package.
 - Verify update discovery, package metadata/hashes, five-game smoke, concurrent launch, identities, banners, backgrounds, pre-install warning, and live official links.
+
+## Independent gear-export lane
+
+This lane may execute after Release A while STOP 7 waits for manual Endfield UI navigation. Run Phase 6A first, then the two independent branches `6B -> 6C -> Release D` and `6D -> 6E -> Release E` in either order. A failed real-account completeness proof blocks only its game and never weakens the other branch or an existing pull/achievement export. The release letters are stable plan identifiers, not guaranteed publication order; this lane does not reorder or bypass Endfield Phases 7-12 or HoYo Phases 13-18.
+
+## Locked local gear export contract
+
+- Extend the existing `ExportKind`, arming state, coordinator, job/status model, atomic writer, bounded native helper, package verifier, and sanitized diagnostics with one `Gear` lane. Do not create another coordinator, helper executable, capture service, handoff server, or generic plugin layer.
+- Save only to the existing protected `Downloads\Pengo Exports\<game>` boundary with an exclusive temporary file, flush, cancellation check, and no-overwrite atomic rename. Maximum accepted output is 10,000 gear rows and 32 MiB; exceeding either fails without truncation or a final file.
+- HSR writes a relic-only Fribbels Reliquary/HSR-Scanner v4 manual-import JSON file; Genshin writes artifact-only GOOD v3 JSON. For HSR, use the consumer's documented compatibility discriminator only after a fixture proves the pinned importer accepts it, identify Nyx truthfully in `build`, and include empty unrelated arrays only where the importer requires them—never fake currency, character, or equipment data. Do not add private fields, UID-bearing filenames, or a custom wrapper.
+- Before mapping, require one selected game account/connection, a current supported game-data version, one complete inventory snapshot, unique internal instance IDs, exact static IDs, valid levels/rarities/slots/stats, and no missing lookup. Standard formats may omit internal IDs, but the validator must still use them to reject a mixed or duplicate snapshot.
+- HSR maps the pinned v4 relic fields only: stable unique ID, set ID/name, slot, rarity, level, main stat, every substat value plus count/step, reroll/preview substats when present, equipped location, lock, and discard. Genshin maps only current GOOD v3 artifact fields, including supported roll/mark/crafted/unactivated-substat fields when the complete source supplies them. Do not invent values for fields the packet or consumer does not provide.
+- Gear export is manual local-file output. Do not open or authenticate to an optimizer, upload automatically, use the clipboard, add a Pengo receiver, or retain a live stream. The launcher shows progress, cancel, count, safe filename, `Open folder`, and sanitized failure guidance.
+
+## Phase 6A - Qualify external exporters and no-install capture
+
+1. Re-fetch the five requested repositories, the indirect MIT `pktmon` 0.6.2 source, and both pinned optimizer consumers. Record exact commits, releases, licenses/permission scope, dependency trees, build downloads, importer contracts, required copyright/license notices, and any drift from the locked table before using code or data. Update provenance and packaged third-party notices for every copied/adapted source or schema.
+2. Confirm the existing Pengo `auto-artifactarium`, `auto-reliquary`, Stardb key-map, protocol-key provenance, catalog hashes, and parser hardening against their pins without printing key contents. A missing license or permission never silently broadens an accepted use.
+3. Compare Stardb pull discovery with Nyx's existing bounded GI/HSR/ZZZ cache/log discovery, strict HTTPS host/path/query allowlists, paging, identity, atomic writing, and memory-only credential handling. First map the existing tests for newest semantic version/data directory, empty/invalid candidates, exact official endpoint, paging/account isolation, limits, cancellation, redirects, and atomic output. Add code only for a reproduced supported-global gap; otherwise record no functional change and add only the missing regression proving credential URLs never reach disk, logs, diagnostics, clipboard, packet files, or third parties.
+4. Compare achievement capture/decoding with the two parser repos and Stardb. First map existing coverage for reordered packets/fields, multiple conversations, short/malformed frames, duplicates, wrong game/version, unknown/unreleased IDs, bounds, timeout, cancellation, and cleanup; add only missing cases. Keep Nyx's complete-catalog/account validation and output/import bytes. Before any public capture release, wipe decrypted/session buffers, refresh current-patch key/protobuf/catalog fixtures, and prove cancel/timeout/parser-failure cleanup.
+5. Prototype the smallest in-memory Windows Packet Monitor backend from the pinned MIT source. Probe the required Packet Monitor APIs before elevation and evidence-block the backend immediately when they are absent. Only this backend may start the exact hash-verified helper through `runas` after a clear per-run explanation and explicit UAC confirmation. The Npcap backend must keep using the same helper unelevated and must continue refusing Administrator mode. Use fixed game UDP ports, a bounded queue, existing packet/byte/frame/time caps, verified System32 loading, and no shell or caller-supplied path/filter/command.
+6. Packet Monitor must use real-time memory delivery with no `.etl`, `.pcap`, `.pcapng`, trace log, or crash residue. It must refuse rather than stop, unload, clear filters from, or otherwise alter a Packet Monitor session it does not own; it must always stop and remove only its own state after success, cancellation, timeout, crash, or launcher exit.
+7. Test supported Windows 11 builds as standard user plus explicit helper elevation, UAC cancel, Ethernet, Wi-Fi, VPN on/off, sleep/resume, game close, launcher close, repeated capture, concurrent pulls, and both GI/HSR ports. If the backend cannot prove non-interference and zero raw-file residue, do not ship it or claim “no install.” The existing separately installed, hash/signature-checked Npcap path may be offered only as an explicit choice after buffer wiping, native-boundary review, cleanup/coverage proof, and package tests pass; never install it automatically or switch to it silently.
+
+### STOP 6A
+
+- The source/permission table is current; accepted and rejected deltas are recorded; existing parser pins and every required packaged notice are accounted for; the exact Fribbels-v4 and GOOD-v3 import fixtures pass; pull discovery has either a reproduced fix or an evidence-backed no-change result; achievement release blockers have exact owners/tests; and the no-install Packet Monitor path is either accepted by the full safety matrix or explicitly evidence-blocked without weakening a separately accepted fallback.
+
+## Phase 6B - Prove current HSR relic completeness
+
+1. Build a non-shipping observer by reusing the accepted transport/capture boundary and only the smallest licensed `PlayerGetToken`/login/`GetBag` protocol and relic-resource slice. Do not import the archiver application or its full generated protocol surface.
+2. Refresh or independently prove every required mapping for the installed HSR patch. The audited `reliquary`/archiver pin stops at HSR 4.4, so HSR 4.5 and every later patch fail closed until their command IDs, protobuf fields, relic sets/slots/affixes, and standard keys are current.
+3. Reset state on every new token/connection and bind the bag to exactly one UID. Accept one complete bag response, including an empty relic list; reject mixed conversations, duplicate instance IDs, unknown fields needed by the export, missing mappings, decoder ambiguity, silent row drops, or a partial snapshot.
+4. With explicit local consent, compare the sanitized source and serialized counts plus representative equipped/unequipped, locked/unlocked, discarded/kept, planar/cavern, leveled/unleveled, every main/substat type, count/step, reroll/preview, update/delete, duplicate, and unknown-map case with the official inventory and pinned Fribbels importer. Retain only pass/fail booleans, counts needed for the proof, source hashes, and current game-data version—never packets, payloads, item IDs, UID, or screenshots containing account data.
+
+### STOP 6B
+
+- Current-patch account binding, complete bag count, required field/mapping coverage, empty-list behavior, representative official-UI comparisons, limits, cleanup, and secret scan pass. Any failed predicate evidence-blocks HSR gear and Phase 6C does not start.
+
+## Phase 6C - HSR relic export in the launcher
+
+1. If the Genshin branch has not already added the locked shared `Gear` plumbing, add it now as a third flag/task to the existing export coordinator and migration-safe arming state, defaulting off; otherwise reuse it. Add `Export relics on next launch` only for an accepted HSR capability.
+2. Extend the existing bounded Rust helper and exact process/pipe/cancel/hash/package boundary. If achievements and gear are both armed, one helper and one packet session feeds both decoders; never run competing captures. After verified cleanup, write each independently complete requested artifact and write nothing for an incomplete one.
+3. Add only the proven HSR bag decoder/resource mappings and strict relic-only Fribbels v4 writer. Fail the whole relic file on an unknown required field/key, silently omitted row, duplicate instance, source/serialized/imported count mismatch, mixed account, stale game version, overflow, cancellation, capture cleanup failure, or pinned-consumer rejection.
+4. Preserve all existing pull and achievement behavior, output bytes, HoYoLAB achievement selection, feature flags, and manual imports. Gear failure cannot cancel a completed pull export or delete an earlier export.
+5. Run synthetic malformed/limit/account/version fixtures, exact current-patch real-account proof, combined achievements+gear capture, pulls+gear concurrency, UAC/fallback cases, package verification, and five-game native smoke.
+
+### Release D
+
+- Publish the next immutable launcher version only after STOP 6A-6C, independent security/minimalism review, full launcher/Rust/package tests, package-verifier confirmation of required third-party notices, clean-install/update verification, and exact public-package HSR relic export into the pinned Fribbels manual importer. Ship the no-install claim only if its own STOP 6A proof passed.
+
+## Phase 6D - Prove current Genshin artifact completeness
+
+1. Start from the accepted `auto-artifactarium` transport only. None of the five audited repositories supplies or proves a Genshin artifact-inventory exporter, so identify the exact current-patch full-inventory message and fields through a separate non-shipping, consented, bounded observer; do not infer artifact data from the achievement list.
+2. Prove that the message covers the full artifact bag, not only equipped/showcased pieces. Bind it to one account/connection and compare sanitized total count plus representative equipped/unequipped, locked/unlocked, rarity/level, every slot/main-stat type, substats, and current GOOD v3 optional flags with the official inventory.
+3. Require current artifact set/piece/stat/character-key coverage, unique internal instances, deterministic mapping, an accepted empty inventory, and no partial success. Do not substitute HoYoLAB equipped-only data, OCR/UI automation, game-memory reads, cache guessing, or invented defaults.
+
+### STOP 6D
+
+- The current-patch full-bag source, account binding, counts, every required GOOD mapping/field, representative official-UI comparisons, limits, cleanup, and secret scan pass. If no complete safe source is proven, mark only Genshin gear evidence-blocked and do not ship an equipped-only or guessed export.
+
+## Phase 6E - Genshin artifact export in the launcher
+
+1. If the HSR branch has already added the locked shared `Gear` task, helper, capture session, arming migration, output boundary, UI, and cleanup, reuse it. Otherwise add that same minimal shared plumbing here. Add no second Genshin exporter stack.
+2. Add only the proven artifact decoder/mappings and strict artifact-only GOOD v3 writer. Use exact standard keys and values; fail the whole file on any mixed account, missing mapping, duplicate instance, unsupported current version, invalid field, overflow, cancellation, cleanup failure, or schema rejection.
+3. When achievements and artifacts are both armed, capture both through the same helper/session and preserve independently complete outputs exactly as in Phase 6C. Keep pulls independent and unchanged.
+4. Run malformed/limit/account/version fixtures, exact current-patch real-account proof, combined achievements+artifacts, pulls+artifacts concurrency, UAC/fallback cases, package verification, and five-game native smoke.
+
+### Release E
+
+- Publish the next immutable launcher version only after STOP 6D, Phase 6E tests/review, package-verifier confirmation of required third-party notices, clean-install/update verification, and exact public-package Genshin artifact export into the current GOOD importer. If STOP 6D is evidence-blocked, Release E remains blocked; Release D and every existing export remain valid.
 
 ## Locked Endfield pull contract
 
@@ -379,8 +469,9 @@ Run and record:
 
 - launcher .NET/Rust/build/package/security checks and native five-game smoke on `PENGO`;
 - every different-game pair, same-game rapid launch, process exit, identity, banner size/name/scaling, preload, background, keyboard, screen-reader, high-contrast, and black-frame case;
+- external-source pin/license/permission and packaged-notice checks; no-install Packet Monitor ownership/non-interference/no-file tests; any Npcap fallback's public-release gates; one-session combined capture; HSR Fribbels-v4 and Genshin GOOD-v3 completeness/schema/current-patch/account/limit/cancellation/cleanup/import cases; and existing pull/achievement byte and behavior regressions;
 - Endfield parsing, pagination, limits, cancellation, atomic file, bridge security, duplicate/account/rule, achievement proof, and Playtime boundary cases;
 - HoYo source coverage, calculators, allowlists, role limits, migrations, JS/.NET encryption vectors, tampering, game swaps, merges, tombstones, conflicts, rotation, deletion retry, metadata privacy, pull compatibility, and multi-device behavior;
 - receiver-first deployment, immutable launcher packages, live production version/package/R2 checks, and rollback proof.
 
-Completion requires every unconditional phase and release marked `complete`, every remaining item explicitly `blocked` or `not-applicable` with evidence, and a final plan/tracker consistency review. Endfield achievements may finish only as proven/released or explicitly evidence-blocked.
+Completion requires every unconditional phase and release marked `complete`, every remaining item explicitly `blocked` or `not-applicable` with evidence, and a final plan/tracker consistency review. Endfield achievements, the no-install capture path, HSR relics, and Genshin artifacts may finish only as proven/released or explicitly evidence-blocked; one blocked optional source/capture lane never authorizes incomplete output or a regression in an existing export.

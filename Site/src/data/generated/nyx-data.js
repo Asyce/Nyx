@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-28T15:19:27.993Z",
+  "generatedAt": "2026-08-28T20:15:03.973Z",
   "codes": {
-    "updated": "2026-08-27T02:25:47.629Z",
+    "updated": "2026-08-28T20:14:44.299Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -364,6 +364,20 @@ var NYX_DB = {
         }
       ],
       "zzz": [
+        {
+          "code": "FLINTWORKS",
+          "reward": "300 Polychrome, 2 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-08-24",
+          "firstSeen": "2026-08-28T20:14:44.298Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=FLINTWORKS"
+        },
         {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
@@ -179143,6 +179157,20 @@ var NYX_DB = {
         }
       ],
       "codes": [
+        {
+          "code": "FLINTWORKS",
+          "reward": "300 Polychrome, 2 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Polychrome",
+            "needle": "polychrome",
+            "icon": "../../Database/GameData/zzz/assets/items/IconCurrency.webp"
+          },
+          "added": "2026-08-24",
+          "firstSeen": "2026-08-28T20:14:44.298Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=FLINTWORKS"
+        },
         {
           "code": "ZENLESSGIFT",
           "reward": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",

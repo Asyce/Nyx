@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T02:25:47.629Z",
+  "generatedAt": "2026-08-28T20:14:44.299Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-27T02:25:47.629Z",
+      "lastSuccessfulFetch": "2026-08-28T20:14:02.656Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -158,7 +158,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-27T02:25:47.616Z",
+      "lastSuccessfulFetch": "2026-08-28T20:14:02.715Z",
       "codes": [
         {
           "code": "SUNSWEPTROBIN",
@@ -315,8 +315,21 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-27T02:25:47.626Z",
+      "lastSuccessfulFetch": "2026-08-28T20:14:44.298Z",
       "codes": [
+        {
+          "code": "FLINTWORKS",
+          "rewards": "300 Polychrome, 2 Senior Investigator Log, 3 W-Engine Energy Module, 30000 Denny",
+          "added": "2026-08-24",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Zenless_Zone_Zero",
+          "regionLocked": null,
+          "expires": "2026-08-30T15:59:59.000Z",
+          "variants": [],
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-08-28T20:14:44.298Z"
+        },
         {
           "code": "ZENLESSGIFT",
           "rewards": "50 polychrome, two official investigator logs, three w-engine power supplies, and one bangboo algorithm module",
@@ -369,7 +382,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-27T02:25:47.570Z",
+      "lastSuccessfulFetch": "2026-08-28T20:14:02.164Z",
       "codes": [
         {
           "code": "ETERNALFLAME",
@@ -423,7 +436,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-27T02:25:47.581Z",
+      "lastSuccessfulFetch": "2026-08-28T20:14:02.136Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

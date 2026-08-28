@@ -1,3 +1,13 @@
 {
-  "windows": []
+  "windows": [
+    {
+      "game": "zzz",
+      "startsAt": "2026-08-28T05:29:06Z",
+      "endsAt": "2026-08-31T17:29:06Z",
+      "mode": "deep",
+      "note": "Zenless Zone Zero Version 3.2 \"Their Secret Histories\" Special Program",
+      "source": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=kdGJDZb6mWk"
+    }
+  ]
 }

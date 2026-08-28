@@ -337,7 +337,7 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 ## Phase 9 - Pengo Endfield pull receiver
 
 1. Parse strict `pengo-pulls` before legacy heuristics; a wrong present `kind` fails.
-2. Preview identity, export time, new/duplicate records, pools, and retained-history warning. Default action is Merge.
+2. Preview identity, export time, new/duplicate records, pools, and retained-history warning. Label every displayed time with its explicit time-zone offset so an official UTC-05:00 time is never confused with the same instant rendered locally. Default action is Merge.
 3. Store profiles as `ae:<serverId>:<roleId>` and preserve all locked fields through IndexedDB. Suppress only duplicate-key `ConstraintError`.
 4. Parameterize the shared tracker for 6/5-star Endfield rarities; do not fork it.
 5. Implement Basic, Beginner, Chartered, Fest/Joint, and Arsenal rules exactly. Never show the existing guaranteed-next 50/50 rule for Endfield.

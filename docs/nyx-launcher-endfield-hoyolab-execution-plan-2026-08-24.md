@@ -17,7 +17,7 @@ The source documents remain evidence for their locked contracts. Where their old
 ## Fixed bases and boundaries
 
 - Launcher implementation repository: `D:\PengoNyx\Nyx Launcher\Repository`, verified at `v1.4` / `5ede520e8d8d86234e5f47442bf0bb29b940b9b9` before execution.
-- Current launcher continuation base: `D:\PengoNyx\Nyx Launcher\Worktrees\combined-execution-20260824` at `273dfb57e06e5bf5ef79f74028ca7640a28b6f35`. It is the clean fast-forward descendant that preserves the accepted execution history plus `9173350edc2514caafd3bea05191a26f3c80cf3e` (Genshin 7.0 achievement export) and `273dfb57e06e5bf5ef79f74028ca7640a28b6f35` (one Documents export root). Future launcher work starts here or from a later verified descendant found under `D:\PengoNyx`; never reset, overwrite, or reconstruct around user-added fixes.
+- Current launcher continuation base: `D:\PengoNyx\Nyx Launcher\Worktrees\combined-execution-20260824` at `2de115e4068fbf2ffc5ef9f9b2673a711276fca8`. It is the clean pushed fast-forward descendant that preserves the accepted execution history, `9173350edc2514caafd3bea05191a26f3c80cf3e` (Genshin 7.0 achievement export), `273dfb57e06e5bf5ef79f74028ca7640a28b6f35` (one Documents export root), and the reviewed disabled Endfield pull exporter. Future launcher work starts here or from a later verified descendant found under `D:\PengoNyx`; never reset, overwrite, or reconstruct around user-added fixes.
 - Website/Worker repository: `C:\Pengo\Nyx`. Its dirty checkout is user-owned and must remain untouched; implementation uses a clean worktree from current `origin/main`.
 - Historical `D:\ToBeDeleted\...` launcher trees and `ca2a506` are preservation evidence only.
 - HoYo approval is confirmed for the automated static-data, account-reading, encrypted-sync, caching, refresh, public display, and deletion scope below. Record only a sanitized scope summary; never commit private correspondence.
@@ -290,6 +290,10 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 
 - Maximum 10,000 records and 5 MiB.
 - Profile key is exactly `ae:<serverId>:<roleId>`.
+- `recordType` is exactly `character` or `weapon`; `id` is exactly `<recordType>:<poolId>:<seqId>`.
+- Official character pool types map exactly as Standard -> `basic`, Beginner -> `beginner`, Special -> `chartered`, and Joint -> `fest-joint`; every weapon pool maps to `arsenal`.
+- Character rows use `itemType: "character"`. Weapon rows preserve the official `weaponType` as `itemType` and use their official `poolId` as `batchId`.
+- Exact `gift_intel_book` rows count toward source ordering and safety limits but are excluded from exported records and pity; every other unknown row kind fails closed.
 - Imports are additive and idempotent; the export contains only history the official service still retains.
 
 ### Locked launcher-to-Pengo handoff

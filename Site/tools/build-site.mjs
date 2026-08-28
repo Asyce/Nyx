@@ -101,6 +101,7 @@ await fs.cp(
 
 await compileJsxBundle(
   [
+    'features/gacha/pulls-launcher-bridge.js',
     'components/game-page-components.jsx',
     'shared/pinned-favourites.js',
     'features/materials/char-materials-leveling.js',
@@ -112,6 +113,7 @@ await compileJsxBundle(
     'data/generated/pulls-weapons-zzz.js',
     'data/generated/pulls-weapons-wuwa.js',
     'features/gacha/pulls-banners-gi.js',
+    'features/gacha/pulls-banners-ae.js',
     'features/gacha/pulls-engine.js',
     'features/gacha/pulls-storage.js',
     'features/gacha/pulls-sync.js',

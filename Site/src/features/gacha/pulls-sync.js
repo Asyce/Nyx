@@ -23,6 +23,10 @@ window.NyxAccountSync = (function () {
     return String(secret || '').trim();
   }
 
+  function requireSyncableGame(game) {
+    if (game === 'ae') throw new Error('Endfield pull history stays in this browser and cannot be synced.');
+  }
+
   function utf8(text) {
     return new TextEncoder().encode(String(text));
   }
@@ -114,6 +118,7 @@ window.NyxAccountSync = (function () {
   }
 
   async function pushGame(secret, game, opts) {
+    requireSyncableGame(game);
     if (!available()) throw new Error('Encrypted sync is not available in this browser.');
     const auth = await credentials(secret);
     const bundle = await STORE().exportGame(game);
@@ -132,6 +137,7 @@ window.NyxAccountSync = (function () {
   }
 
   async function pullGame(secret, game) {
+    requireSyncableGame(game);
     if (!available()) throw new Error('Encrypted sync is not available in this browser.');
     const auth = await credentials(secret);
     const result = await request('pull', { accountId: auth.accountId, token: auth.token, game });
@@ -143,11 +149,13 @@ window.NyxAccountSync = (function () {
   }
 
   async function status(secret, game) {
+    requireSyncableGame(game);
     const auth = await credentials(secret);
     return request('status', { accountId: auth.accountId, token: auth.token, game });
   }
 
   async function deleteGame(secret, game) {
+    requireSyncableGame(game);
     const auth = await credentials(secret);
     return request('delete', { accountId: auth.accountId, token: auth.token, game });
   }

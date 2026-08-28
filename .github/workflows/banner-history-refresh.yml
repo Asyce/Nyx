@@ -89,7 +89,7 @@ jobs:
         run: |
           git config user.name "pengo-bot"
           git config user.email "bot@pengo.gg"
-          git add Database/BannerHistory Database/Activities Site/src/features/gacha/pulls-banners-gi.js
+          git add Database/BannerHistory Database/Activities Site/src/features/gacha/pulls-banners-gi.js Site/src/features/gacha/pulls-banners-ae.js
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No semantic banner-history changes."

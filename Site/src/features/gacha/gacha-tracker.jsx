@@ -14,13 +14,38 @@ function gtTitleName(s){
   return String(s || '').replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-function gtFmtDate(ms){
+function gtFmtDate(ms, withOffset){
   if (!ms) return 'Unknown time';
   try {
-    return new Date(ms).toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+    const date = new Date(ms);
+    const text = date.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+    if (!withOffset) return text;
+    const minutes = -date.getTimezoneOffset();
+    const sign = minutes >= 0 ? '+' : '-';
+    const absolute = Math.abs(minutes);
+    return text + ' (UTC' + sign + String(Math.floor(absolute / 60)).padStart(2, '0') + ':' + String(absolute % 60).padStart(2, '0') + ')';
   } catch (e) {
     return 'Unknown time';
   }
+}
+
+function gtFmtTimestamp(value){
+  const ms = typeof value === 'number' ? value : Date.parse(String(value || ''));
+  if (!Number.isFinite(ms)) return 'Unknown time';
+  try {
+    const date = new Date(ms);
+    const minutes = -date.getTimezoneOffset();
+    const sign = minutes >= 0 ? '+' : '-';
+    const absolute = Math.abs(minutes);
+    return date.toLocaleString('en-US') + ' (UTC' + sign + String(Math.floor(absolute / 60)).padStart(2, '0') + ':' + String(absolute % 60).padStart(2, '0') + ')';
+  } catch (e) {
+    return 'Unknown time';
+  }
+}
+
+function gtMaskRole(value){
+  const text = String(value || '');
+  return text.length > 4 ? text.slice(0, 2) + '\u2026' + text.slice(-2) : '\u2022\u2022\u2022\u2022';
 }
 
 function gtBg(src){
@@ -63,7 +88,7 @@ function gtRosterMeta(gameKey, name){
 }
 
 function gtBannerType(key){
-  return key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn' ? 'weapon' : 'character';
+  return key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn' || String(key || '').startsWith('arsenal') ? 'weapon' : 'character';
 }
 
 function gtCurrentBannerPeriod(gameKey, bannerKey){
@@ -88,7 +113,7 @@ function gtBannerPeriodForTime(gameKey, type, timeMs){
 
 function gtBannerPeriodLabel(gameKey, period){
   if (!period) return '';
-  const featured = (period.featured5 || []).map((name) => {
+  const featured = ((gameKey === 'ae' ? period.featuredTop : period.featured5) || []).map((name) => {
     const meta = gtRosterMeta(gameKey, name) || {};
     return meta.name || gtTitleName(name);
   }).filter(Boolean);
@@ -97,8 +122,9 @@ function gtBannerPeriodLabel(gameKey, period){
 
 function gtBannerTimelineType(key){
   if (key === 'character' || key === 'character2') return 'character';
+  if (key === 'basic' || key === 'beginner' || key === 'chartered' || String(key || '').startsWith('fest-joint')) return 'character';
   if (key === 'chronicled') return 'chronicled';
-  if (key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn') return 'weapon';
+  if (key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn' || String(key || '').startsWith('arsenal')) return 'weapon';
   return key || 'standard';
 }
 
@@ -113,15 +139,16 @@ function gtPeriodForBannerKey(gameKey, key, timeMs){
 function gtCurrentLimitedFeatures(gameKey, fallbackFives){
   const hist = (window.NYX_BANNERS && window.NYX_BANNERS[gameKey]) || [];
   const now = Date.now();
-  let periods = hist.filter((b) => b.type === 'character' && Array.isArray(b.featured5) && b.featured5.length && now >= b.start && now <= b.end);
+  const featured = (period) => gameKey === 'ae' ? period.featuredTop : period.featured5;
+  let periods = hist.filter((b) => b.type === 'character' && Array.isArray(featured(b)) && featured(b).length && now >= b.start && now <= b.end);
   if (!periods.length) {
-    const next = hist.find((b) => b.type === 'character' && Array.isArray(b.featured5) && b.featured5.length && b.start > now);
+    const next = hist.find((b) => b.type === 'character' && Array.isArray(featured(b)) && featured(b).length && b.start > now);
     if (next) periods = [next];
-    else periods = hist.filter((b) => b.type === 'character' && Array.isArray(b.featured5) && b.featured5.length).slice(-1);
+    else periods = hist.filter((b) => b.type === 'character' && Array.isArray(featured(b)) && featured(b).length).slice(-1);
   }
   const cards = [];
   periods.slice(-1).forEach((period) => {
-    (period.featured5 || []).slice(0, 2).forEach((name) => {
+    (featured(period) || []).slice(0, 2).forEach((name) => {
       const meta = gtRosterMeta(gameKey, name) || {};
       cards.push({
         name: meta.name || gtTitleName(name),
@@ -147,6 +174,10 @@ function gtCurrentLimitedFeatures(gameKey, fallbackFives){
 
 function gtBannerKindLabel(key, label){
   if (key === 'weapon' || key === 'lightcone' || key === 'wengine' || key === 'standard_wpn') return 'Weapon';
+  if (String(key || '').startsWith('arsenal')) return 'Arsenal';
+  if (String(key || '').startsWith('fest-joint')) return 'Fest / Joint';
+  if (key === 'chartered') return 'Chartered';
+  if (key === 'basic') return 'Basic';
   if (key === 'standard') return 'Standard';
   if (key === 'chronicled') return 'Chronicled';
   if (key === 'beginner') return 'Beginner';
@@ -155,25 +186,32 @@ function gtBannerKindLabel(key, label){
 
 function gtAllSourceGroups(banners, gameKey){
   return (banners || []).flatMap((banner) => {
-    const fiveById = {};
+    const topRank = banner.topRank || 5;
+    const secondaryRank = banner.secondaryRank || 4;
+    const fiveById = Object.create(null);
     (banner.fives || []).forEach((five) => {
       const key = String(five.id || '') || (gtNormName(five.name) + ':' + (five.time || 0) + ':' + (five.pity || 0));
       fiveById[key] = five;
     });
-    const periodGroups = {};
+    const periodGroups = Object.create(null);
     (banner.items || []).forEach((item) => {
-      const period = gtPeriodForBannerKey(gameKey, banner.key, item.time || 0);
       const source = String(item.sourceBanner || '').trim();
-      const groupKey = period
+      const endfield = gameKey === 'ae';
+      const period = endfield ? null : gtPeriodForBannerKey(gameKey, banner.key, item.time || 0);
+      const groupKey = endfield
+        ? (banner.key + ':pool:' + String(item.poolId || source || banner.label))
+        : period
         ? (banner.key + ':period:' + (period.start || 0) + ':' + (period.end || 0))
         : (banner.key + ':source:' + gtNormName(source || banner.label) + ':' + String(item.part || ''));
-      const label = period ? gtBannerPeriodLabel(gameKey, period) : (source || banner.label);
+      const label = endfield ? (source || banner.label) : (period ? gtBannerPeriodLabel(gameKey, period) : (source || banner.label));
       const rec = periodGroups[groupKey] || {
         key: groupKey,
         label: label,
         part: item.part || '',
         displayName: label + (period && period.version ? ' v' + period.version : ''),
         total: 0,
+        topCount: 0,
+        secondaryCount: 0,
         fiveCount: 0,
         fourCount: 0,
         lastTime: 0,
@@ -184,10 +222,10 @@ function gtAllSourceGroups(banners, gameKey){
         items: [],
       };
       const fiveKey = String(item.id || '') || (gtNormName(item.name) + ':' + (item.time || 0) + ':' + (item.pity || item.pity5 || 0));
-      const enriched = item.rank === 5 && fiveById[fiveKey] ? Object.assign({}, item, fiveById[fiveKey]) : item;
+      const enriched = item.rank === topRank && fiveById[fiveKey] ? Object.assign({}, item, fiveById[fiveKey]) : item;
       rec.total += 1;
-      if (item.rank === 5) rec.fiveCount += 1;
-      if (item.rank === 4) rec.fourCount += 1;
+      if (item.rank === topRank) { rec.topCount += 1; rec.fiveCount += 1; }
+      if (item.rank === secondaryRank) { rec.secondaryCount += 1; rec.fourCount += 1; }
       rec.lastTime = Math.max(rec.lastTime || 0, item.time || 0);
       rec.items.push(enriched);
       periodGroups[groupKey] = rec;
@@ -196,26 +234,28 @@ function gtAllSourceGroups(banners, gameKey){
       const newest = rec.items.slice().sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
       return Object.assign({}, rec, {
         recent: newest.slice(0, 8),
-        highlights: newest.filter((it) => it.rank >= 4).slice(0, 8),
+        highlights: newest.filter((it) => it.rank >= secondaryRank).slice(0, 8),
       });
     });
     if (!groups.length) {
       groups = banner.sourceGroups && banner.sourceGroups.length
         ? banner.sourceGroups
-        : [{ key:'fallback', label:banner.label, displayName:banner.label, total:banner.total || 0, fiveCount:(banner.fives || []).length, fourCount:banner.fourCount || 0, lastTime:(banner.history && banner.history[0] && banner.history[0].time) || 0, recent:(banner.history || []).slice(0, 8), highlights:(banner.history || []).filter((it) => it.rank >= 4).slice(0, 8), items:banner.items || [] }];
+        : [{ key:'fallback', label:banner.label, displayName:banner.label, total:banner.total || 0, fiveCount:(banner.fives || []).length, fourCount:banner.fourCount || 0, lastTime:(banner.history && banner.history[0] && banner.history[0].time) || 0, recent:(banner.history || []).slice(0, 8), highlights:(banner.history || []).filter((it) => it.rank >= secondaryRank).slice(0, 8), items:banner.items || [] }];
     }
     return groups.map((group) => Object.assign({}, group, {
       bannerKey: banner.key,
       bannerLabel: banner.label,
       bannerKind: gtBannerKindLabel(banner.key, banner.label),
-      fives: (group.items || []).filter((it) => it.rank === 5),
+      topRank,
+      secondaryRank,
+      fives: (group.items || []).filter((it) => it.rank === topRank),
     }));
   }).sort((a, b) => (b.lastTime || 0) - (a.lastTime || 0) || (b.total || 0) - (a.total || 0));
 }
 
 function gtPairSourceGroups(gameKey, banners){
   const all = gtAllSourceGroups(banners, gameKey);
-  const weapons = all.filter((g) => g.bannerKey === 'weapon' || g.bannerKey === 'lightcone' || g.bannerKey === 'wengine' || g.bannerKey === 'standard_wpn');
+  const weapons = all.filter((g) => g.bannerKey === 'weapon' || g.bannerKey === 'lightcone' || g.bannerKey === 'wengine' || g.bannerKey === 'standard_wpn' || String(g.bannerKey || '').startsWith('arsenal'));
   const primary = all.filter((g) => !weapons.includes(g));
   const used = new Set();
   const rows = primary.map((group) => {
@@ -274,6 +314,11 @@ function gtSortArchive(list, sort){
 }
 
 function gtPullOutcome(five, banner, gameKey){
+  if (gameKey === 'ae') {
+    if (five.featured === true) return 'Featured';
+    if (five.featured === false) return 'Pool result';
+    return 'Unverified';
+  }
   if (banner && banner.ff) {
     if (five.ff) return five.won ? '50:50 win' : '50:50 loss';
     return 'Guaranteed';
@@ -285,7 +330,8 @@ function gtPullOutcome(five, banner, gameKey){
   return 'Limited pool';
 }
 
-function gtPullOutcomeClass(five, banner){
+function gtPullOutcomeClass(five, banner, gameKey){
+  if (gameKey === 'ae') return five.featured === true ? 'featured' : 'pool';
   if (banner && banner.ff) {
     if (!five.ff) return 'guaranteed';
     return five.won ? 'fifty win' : 'fifty loss';
@@ -293,21 +339,29 @@ function gtPullOutcomeClass(five, banner){
   return 'pool';
 }
 
-function gtPityFilterMatch(five, banner, filter){
+function gtHasSoftThreshold(banner, gameKey){
+  if (gameKey !== 'ae') return true;
+  const soft = Number(banner && banner.soft);
+  const hard = Number(banner && banner.hard);
+  return Number.isFinite(soft) && Number.isFinite(hard) && soft > 0 && soft < hard;
+}
+
+function gtPityFilterMatch(five, banner, filter, gameKey){
   const soft = (banner && banner.soft) || 74;
   if (filter === 'guaranteed') return banner && banner.ff && !five.ff;
   if (filter === 'fifty') return banner && banner.ff && !!five.ff;
-  if (filter === 'early') return (five.pity || five.pity5 || 0) < soft;
-  if (filter === 'soft') return (five.pity || five.pity5 || 0) >= soft;
+  if (filter === 'early') return gtHasSoftThreshold(banner, gameKey) && (five.pity || five.pity5 || 0) < soft;
+  if (filter === 'soft') return gtHasSoftThreshold(banner, gameKey) && (five.pity || five.pity5 || 0) >= soft;
   return true;
 }
 
-function gtPityDotClass(five, banner){
+function gtPityDotClass(five, banner, gameKey){
   const soft = (banner && banner.soft) || 74;
   const parts = ['gt-pity-dot2'];
-  if ((five.pity || five.pity5 || 0) < soft) parts.push('early');
+  if (!gtHasSoftThreshold(banner, gameKey)) parts.push('fixed');
+  else if ((five.pity || five.pity5 || 0) < soft) parts.push('early');
   else parts.push('soft');
-  parts.push(gtPullOutcomeClass(five, banner).replace(/\s+/g, '-'));
+  parts.push(gtPullOutcomeClass(five, banner, gameKey).replace(/\s+/g, '-'));
   return parts.join(' ');
 }
 
@@ -317,6 +371,10 @@ function gtRealUid(value){
 }
 
 function gtAccountLabel(data, uid, adapterLabel, fallbackName){
+  const account = data && data.account;
+  if (account && (account.serverName || account.serverId || account.roleId)) {
+    return String(account.serverName || account.serverId || 'Endfield') + ' · Role ' + gtMaskRole(account.roleId);
+  }
   const id = gtRealUid(uid || (data && data.uid));
   const rawName = String(
     (data && (data.accountName || data.nickname || data.name || data.profileName)) ||
@@ -334,7 +392,8 @@ function gtAccountLabel(data, uid, adapterLabel, fallbackName){
 
 function gtHeroCardGroup(card, bannerGroups){
   if (!card) return null;
-  const groups = (bannerGroups || []).filter((g) => g.bannerKey === 'character' || g.bannerKey === 'character2');
+  const groups = (bannerGroups || []).filter((g) => g.bannerKey === 'character' || g.bannerKey === 'character2'
+    || g.bannerKey === 'basic' || g.bannerKey === 'beginner' || g.bannerKey === 'chartered' || String(g.bannerKey || '').startsWith('fest-joint'));
   if (!groups.length) return null;
   if (card.start) {
     // Card came from a real banner period (gtCurrentLimitedFeatures) — only the
@@ -350,36 +409,37 @@ function gtHeroCardGroup(card, bannerGroups){
 }
 
 function gtRenderPityPanel({ gameKey, pityBanners, pityFilter, setPityFilter, standalone }){
+  const hasFiftyFifty = pityBanners.some((banner) => banner && banner.ff);
+  const hasSoftThreshold = pityBanners.some((banner) => gtHasSoftThreshold(banner, gameKey));
+  const topRank = (pityBanners[0] && pityBanners[0].topRank) || 5;
+  const filters = [['all', 'All'], ...(hasFiftyFifty ? [['guaranteed', 'Guaranteed'], ['fifty', '50:50']] : []), ...(hasSoftThreshold ? [['early', 'Early'], ['soft', 'Soft+']] : [])];
+  const activeFilter = filters.some((pair) => pair[0] === pityFilter) ? pityFilter : 'all';
   return (
     <section className={'gt-panel-box gt-pity-observatory' + (standalone ? ' gt-pity-wide' : '')}>
-      <div className="gt-box-head"><b>Pity observatory</b><span>Character / Weapon / Standard / Chronicled</span></div>
+      <div className="gt-box-head"><b>Pity observatory</b><span>{gameKey === 'ae' ? 'Basic / Beginner / Chartered / Fest-Joint / Arsenal' : 'Character / Weapon / Standard / Chronicled'}</span></div>
       <div className="gt-pity-filters" role="group" aria-label="Pity filters">
-        {[
-          ['all', 'All'],
-          ['guaranteed', 'Guaranteed'],
-          ['fifty', '50:50'],
-          ['early', 'Early'],
-          ['soft', 'Soft+'],
-        ].map((pair) => <button key={pair[0]} type="button" className={pityFilter === pair[0] ? 'on' : ''} onClick={() => setPityFilter(pair[0])}>{pair[1]}</button>)}
+        {filters.map((pair) => <button key={pair[0]} type="button" className={activeFilter === pair[0] ? 'on' : ''} onClick={() => setPityFilter(pair[0])}>{pair[1]}</button>)}
       </div>
       <div className="gt-pity-lanes">
         {pityBanners.map((banner) => {
-          const laneFives = (banner.fives || []).filter((five) => gtPityFilterMatch(five, banner, pityFilter));
+          const eligibleFives = (banner.fives || []).filter((five) => five.affectsPity !== false);
+          const laneFives = eligibleFives.filter((five) => gtPityFilterMatch(five, banner, activeFilter, gameKey));
           const hard = banner.hard || 90;
           const soft = banner.soft || 74;
+          const hasLaneSoft = gtHasSoftThreshold(banner, gameKey);
           return (
             <div key={banner.key} className="gt-pity-lane">
               <div className="gt-pity-lane-label">
                 <b>{banner.label}</b>
-                <span>{laneFives.length}/{(banner.fives || []).length} shown</span>
+                <span>{laneFives.length}/{eligibleFives.length} shown</span>
               </div>
               <div className="gt-pity-track">
-                <mark style={{ left:Math.min(100, (soft / hard) * 100) + '%' }}></mark>
+                {hasLaneSoft && <mark style={{ left:Math.min(100, (soft / hard) * 100) + '%' }}></mark>}
                 {laneFives.map((five, idx) => (
                   <i key={(five.id || idx) + ':' + five.name}
-                     className={gtPityDotClass(five, banner)}
+                     className={gtPityDotClass(five, banner, gameKey)}
                      style={{ left:Math.max(2, Math.min(98, (((five.pity || five.pity5 || 0) / hard) * 100))) + '%' }}
-                     title={five.name + ' / ' + gtPullOutcome(five, banner, gameKey) + ' / pity ' + (five.pity || five.pity5 || '-')}></i>
+                     title={five.name + ' / ' + gtPullOutcome(five, banner, gameKey) + ' / ' + topRank + '\u2605 pity ' + (five.pity || five.pity5 || '-')}></i>
                 ))}
               </div>
             </div>
@@ -387,10 +447,10 @@ function gtRenderPityPanel({ gameKey, pityBanners, pityFilter, setPityFilter, st
         })}
       </div>
       <div className="gt-pity-legend">
-        <span className="early">Early</span>
-        <span className="soft">Soft+</span>
-        <span className="guaranteed">Guaranteed</span>
-        <span className="fifty">50:50</span>
+        {hasSoftThreshold && <span className="early">Early</span>}
+        {hasSoftThreshold && <span className="soft">Soft+</span>}
+        {hasFiftyFifty && <span className="guaranteed">Guaranteed</span>}
+        {hasFiftyFifty && <span className="fifty">50:50</span>}
       </div>
     </section>
   );
@@ -402,15 +462,23 @@ function gtRenderResultsView(ctx){
     avgPity, currentState, weaponView, currentLimited, bannerGroups, pityBanners, archiveRows, characterArchive,
     weaponArchive, archiveSort, archiveFilter, viewMode, expandedSource, pityFilter, historyFilter, setArchiveSort,
     setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, setHistoryFilter, fmt, PULLS, CUR, COST, accountLabel,
-    sourceLabel, importedAt,
+    sourceLabel, importedAt, profiles, uid, onSelectProfile,
   } = ctx;
+  const isEndfield = gameKey === 'ae';
+  const availablePityBanners = (pityBanners || []).filter((banner) => !banner.pityUnavailable);
+  const pityAvailable = availablePityBanners.length > 0;
+  const hasHistoryOnly = (banners || []).some((banner) => banner.pityUnavailable);
+  const activeViewMode = viewMode === 'pity' && !pityAvailable ? 'overview' : viewMode;
+  const topRank = (characterView && characterView.topRank) || 5;
+  const secondaryRank = (characterView && characterView.secondaryRank) || 4;
   const sinceLastFive = characterView ? (characterView.currentPity || 0) : 0;
   const heroHard = (characterView && characterView.hard) || 90;
   const heroSoft = (characterView && characterView.soft) || 74;
+  const heroHasSoft = gtHasSoftThreshold(characterView, gameKey);
   const heroPct = Math.max(0, Math.min(100, (sinceLastFive / heroHard) * 100));
   const heroSoftPct = Math.max(0, Math.min(100, (heroSoft / heroHard) * 100));
   const heroChipClass = currentState === 'Guaranteed' ? 'guaranteed' : (currentState === '50:50' ? 'fifty' : 'pool');
-  const heroChipLabel = 'Next 5★: ' + currentState;
+  const heroChipLabel = (isEndfield ? 'Paid ' + topRank + '★: ' : 'Next ' + topRank + '★: ') + currentState;
   // Prefer the notable pulls (4★+ "highlights") over raw recent, so the card tells
   // the "what did I actually get" story instead of a list of 3★ weapon filler
   // (handoff: "if 4 characters happened, show 4"). Falls back to raw recent only
@@ -432,7 +500,8 @@ function gtRenderResultsView(ctx){
   const heroBannersMode = heroCards.some((h) => h.pulls.length > 0) ? 'current' : 'last';
   if (heroBannersMode === 'last') {
     const lastGroups = (bannerGroups || [])
-      .filter((g) => (g.bannerKey === 'character' || g.bannerKey === 'character2') && (g.recent || []).length)
+      .filter((g) => (g.bannerKey === 'character' || g.bannerKey === 'character2' || g.bannerKey === 'basic'
+        || g.bannerKey === 'beginner' || g.bannerKey === 'chartered' || String(g.bannerKey || '').startsWith('fest-joint')) && (g.recent || []).length)
       .slice(0, 2);
     if (lastGroups.length) {
       heroCards = lastGroups.map((group) => {
@@ -452,39 +521,56 @@ function gtRenderResultsView(ctx){
   const historyAll = (banners || []).flatMap((b) => (b.items || []).map((it) => Object.assign({}, it, { _bk:b.key, _bl:b.label })))
     .sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
   const historyRows = historyAll.filter((p) => (
-    historyFilter === 'five' ? p.rank === 5 :
-    historyFilter === 'four' ? p.rank === 4 :
+    historyFilter === 'five' ? p.rank === topRank :
+    historyFilter === 'four' ? p.rank === secondaryRank :
     historyFilter === 'weapon' ? p.isWeapon : true
   ));
+  const freeCount = historyAll.filter((pull) => pull.isFree).length;
+  const characterCount = historyAll.filter((pull) => !pull.isWeapon).length;
+  const weaponCount = historyAll.length - characterCount;
+  const ruleProgress = (banners || []).flatMap((banner) => banner.progress || []);
+  const arsenalPools = (banners || []).flatMap((banner) => banner.weaponPools || []);
   const HISTORY_CAP = 80;
   return (
     <div className="gt-results">
       <div className="gt-results-top">
         <div className="gt-mode-tabs" role="tablist" aria-label="Wish tracker views">
-          <button type="button" className={viewMode === 'overview' ? 'on' : ''} onClick={() => setViewMode('overview')}>Overview</button>
-          <button type="button" className={viewMode === 'pity' ? 'on' : ''} onClick={() => setViewMode('pity')}>Pity Observatory</button>
-          <button type="button" className={viewMode === 'archive' ? 'on' : ''} onClick={() => setViewMode('archive')}>Archive</button>
+          <button type="button" className={activeViewMode === 'overview' ? 'on' : ''} onClick={() => setViewMode('overview')}>Overview</button>
+          {pityAvailable && <button type="button" className={activeViewMode === 'pity' ? 'on' : ''} onClick={() => setViewMode('pity')}>Pity Observatory</button>}
+          <button type="button" className={activeViewMode === 'archive' ? 'on' : ''} onClick={() => setViewMode('archive')}>Archive</button>
         </div>
         <div className="gt-account">
           <b>{accountLabel}</b>
-          <span>{sourceLabel || 'Saved local import'}{importedAt ? ' / ' + gtFmtDate(importedAt) : ''}</span>
+          <span>{sourceLabel || 'Saved local import'}{importedAt ? ' / ' + gtFmtDate(importedAt, gameKey === 'ae') : ''}</span>
+          {gameKey === 'ae' && profiles && profiles.length > 1 && (
+            <select aria-label="Endfield role profile" value={uid} onChange={(event) => onSelectProfile(event.target.value)}>
+              {profiles.map((summary) => {
+                const account = summary.account || {};
+                return <option key={summary.uid} value={summary.uid}>{(account.serverName || summary.serverName || account.serverId || 'Endfield') + ' · Role ' + String(account.roleId || summary.roleId || summary.uid)}</option>;
+              })}
+            </select>
+          )}
         </div>
       </div>
 
-      {viewMode === 'overview' ? (
+      {activeViewMode === 'overview' ? (
         <div className="gt-overview">
+          {hasHistoryOnly && isEndfield && <div className="gt-empty-row gt-panel-box">This Endfield profile does not contain enough verified pool, free-pull, or Arsenal issue detail for every row. History stays visible; unavailable values are not guessed.</div>}
           <section className="gt-hero">
-            <div className="gt-hero-pity gt-panel-box">
-              <div className="gt-box-head"><b>Pity to next 5{'\u2605'}</b><span>{(characterView && characterView.label) || 'Character banner'}</span></div>
+            {pityAvailable && <div className="gt-hero-pity gt-panel-box">
+              <div className="gt-box-head"><b>Pity to next {topRank}{'\u2605'}</b><span>{(characterView && characterView.label) || 'Character banner'}</span></div>
               <div className="gt-hero-pity-number"><b>{fmt(sinceLastFive)}</b><i>/ {heroHard}</i></div>
-              <div className="gt-hero-pity-caption">{fmt(sinceLastFive)} {PULLS.toLowerCase()} since last 5{'\u2605'}</div>
+              <div className="gt-hero-pity-caption">{fmt(sinceLastFive)} {isEndfield ? 'paid ' : ''}{PULLS.toLowerCase()} since last {topRank}{'\u2605'}</div>
               <div className="gt-hero-pity-bar">
                 <div className="gt-hero-pity-fill" style={{ width:heroPct + '%' }}></div>
-                <mark style={{ left:heroSoftPct + '%' }}></mark>
+                {heroHasSoft && <mark style={{ left:heroSoftPct + '%' }}></mark>}
               </div>
-              <div className="gt-hero-pity-scale"><span>Soft {heroSoft}</span><span>Hard {heroHard}</span></div>
+              <div className="gt-hero-pity-scale">{heroHasSoft && <span>Soft {heroSoft}</span>}<span>Hard {heroHard}</span></div>
+              {isEndfield && characterView && characterView.secondaryHard && (
+                <div className="gt-hero-pity-scale"><span>{secondaryRank}{'\u2605'} pity</span><span>{characterView.currentFourPity || 0} / {characterView.secondaryHard}</span></div>
+              )}
               <div className={'gt-hero-chip ' + heroChipClass}>{heroChipLabel}</div>
-            </div>
+            </div>}
 
             <div className="gt-hero-banners">
               <div className="gt-hero-banners-head">{heroBannersMode === 'current' ? 'Current banners' : 'Your last banner pulls'}</div>
@@ -494,23 +580,24 @@ function gtRenderResultsView(ctx){
                     <div className="gt-hero-banner-fade"></div>
                     <div className="gt-hero-banner-copy">
                       <b>{card.name}</b>
-                      <span>{card.version ? 'Version ' + card.version : gtFmtDate(card.start)}</span>
+                      <span>{card.version ? 'Version ' + card.version : gtFmtDate(card.start, isEndfield)}</span>
                     </div>
                   </div>
                   <div className="gt-hero-banner-pulls">
                     <div className="gt-hero-banner-pulls-head">Notable pulls</div>
                     {pulls.length > 0 ? pulls.map((p, idx) => {
-                      const isFive = p.rank === 5;
+                      const isFive = p.rank === topRank;
                       return (
                         <div key={(p.id || p.idx || idx) + ':' + p.name} className="gt-hero-pull-row">
                           {(p.icon || p.art) ? <img src={p.icon || p.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                           <div>
                             <b>{p.name}</b>
-                            <span>{gtFmtDate(p.time)}</span>
+                            <span>{gtFmtDate(p.time, isEndfield)}</span>
                           </div>
                           {isFive
-                            ? <em className={gtPullOutcomeClass(p, groupBanner).replace(/\s+/g, '-')}>{gtPullOutcome(p, groupBanner, gameKey)}</em>
+                            ? <em className={gtPullOutcomeClass(p, groupBanner, gameKey).replace(/\s+/g, '-')}>{gtPullOutcome(p, groupBanner, gameKey)}</em>
                             : <i>{p.rank || '-'}{'\u2605'}</i>}
+                          {p.isFree && <i>Free</i>}
                         </div>
                       );
                     }) : <div className="gt-empty-row">No pulls yet on this banner.</div>}
@@ -528,39 +615,39 @@ function gtRenderResultsView(ctx){
 
           <div className="gt-overview-grid">
           <section className="gt-panel-box gt-summary-card">
-            <div className="gt-box-head"><b>Account summary</b><span>{fmt(allFives.length)} total 5{'\u2605'}</span></div>
+            <div className="gt-box-head"><b>Account summary</b><span>{fmt(allFives.length)} total {topRank}{'\u2605'}</span></div>
             <div className="gt-summary-grid">
               <div><b>{fmt(totalAll)}</b><span>Total {PULLS}</span></div>
-              <div><b>{fmt((characterView && characterView.total) || 0)}</b><span>Character {PULLS}</span></div>
-              <div><b>{fmt((weaponView && weaponView.total) || 0)}</b><span>Weapon {PULLS}</span></div>
-              <div><b>{fmt(totalAll * COST)}</b><span>{CUR} spent</span></div>
-              <div><b>{eventWins}/{eventLosses}</b><span>50:50 W / L</span></div>
-              <div><b>{avgPity || '--'}</b><span>Avg pity</span></div>
+              <div><b>{fmt(isEndfield ? characterCount : ((characterView && characterView.total) || 0))}</b><span>Character {PULLS}</span></div>
+              <div><b>{fmt(isEndfield ? weaponCount : ((weaponView && weaponView.total) || 0))}</b><span>Weapon {PULLS}</span></div>
+              {!isEndfield && <div><b>{fmt(totalAll * COST)}</b><span>{CUR} spent</span></div>}
+              {isEndfield ? (!hasHistoryOnly && <div><b>{fmt(freeCount)}</b><span>Free records</span></div>) : <div><b>{eventWins}/{eventLosses}</b><span>50:50 W / L</span></div>}
+              {!isEndfield && <div><b>{avgPity || '--'}</b><span>Avg pity</span></div>}
             </div>
           </section>
 
           <section className="gt-panel-box gt-recent-pulls">
             <div className="gt-box-head"><b>Pull history</b><span>{fmt(historyRows.length)} {historyFilter === 'all' ? PULLS.toLowerCase() : 'shown'}</span></div>
             <div className="gt-filter-pills" role="group" aria-label="Pull history filter">
-              {[['all', 'All'], ['five', '5★'], ['four', '4★'], ['weapon', 'Weapons']].map((pair) => (
+              {[['all', 'All'], ['five', topRank + '★'], ['four', secondaryRank + '★'], ['weapon', 'Weapons']].map((pair) => (
                 <button key={pair[0]} type="button" className={historyFilter === pair[0] ? 'on' : ''} onClick={() => setHistoryFilter(pair[0])}>{pair[1]}</button>
               ))}
             </div>
             <div className="gt-recent-five-list">
               {historyRows.slice(0, HISTORY_CAP).map((row) => {
                 const b = bannerByKey[row._bk] || { key:row._bk, label:row._bl };
-                const isFive = row.rank === 5;
+                const isFive = row.rank === topRank;
                 return (
                   <div key={(row.id || row.idx) + ':' + row._bk + ':' + row.name} className="gt-recent-five-row">
                     {(row.icon || row.art) ? <img src={row.icon || row.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                     <div>
                       <b>{row.name}</b>
-                      <span>{gtBannerKindLabel(row._bk, row._bl)} · {gtFmtDate(row.time)}</span>
+                      <span>{gtBannerKindLabel(row._bk, row._bl)} · {gtFmtDate(row.time, isEndfield)}</span>
                     </div>
                     {isFive
-                      ? <em className={gtPullOutcomeClass(row, b).replace(/\s+/g, '-')}>{gtPullOutcome(row, b, gameKey)}</em>
+                      ? <em className={gtPullOutcomeClass(row, b, gameKey).replace(/\s+/g, '-')}>{gtPullOutcome(row, b, gameKey)}</em>
                       : <em className="rank">{row.rank || '-'}{'★'}</em>}
-                    <i>Pity {row.pity || row.pity5 || row.pity4 || '-'}</i>
+                    <i>{b.pityUnavailable ? 'Pity unavailable' : (row.isFree ? 'Free · paid pity unchanged' : 'Pity ' + (row.pity || row.pity5 || row.pity4 || '-'))}</i>
                   </div>
                 );
               })}
@@ -584,12 +671,12 @@ function gtRenderResultsView(ctx){
                     <button type="button" onClick={() => setExpandedSource(openGroup ? '' : group.key)}>
                       <div className="gt-banner-history-main">
                         <b>{group.displayName || group.label}</b>
-                        <span>{gtBannerKindLabel(group.bannerKey, group.bannerLabel)} / {gtFmtDate(group.lastTime)}</span>
+                        <span>{gtBannerKindLabel(group.bannerKey, group.bannerLabel)} / {gtFmtDate(group.lastTime, isEndfield)}</span>
                       </div>
                       <div className="gt-banner-history-meta">
                         <span>{fmt(group.total || 0)} {PULLS}</span>
-                        <span>{group.fiveCount || 0}x 5{'\u2605'}</span>
-                        <span>{group.fourCount || 0}x 4{'\u2605'}</span>
+                        <span>{group.topCount == null ? (group.fiveCount || 0) : group.topCount}x {topRank}{'\u2605'}</span>
+                        <span>{group.secondaryCount == null ? (group.fourCount || 0) : group.secondaryCount}x {secondaryRank}{'\u2605'}</span>
                       </div>
                     </button>
                     {paired.length > 0 && (
@@ -604,11 +691,11 @@ function gtRenderResultsView(ctx){
                             {(five.icon || five.art) ? <img src={five.icon || five.art} alt="" loading="lazy" /> : <span className="gt-img-fallback"></span>}
                             <b>{five.name}</b>
                             <span>{five.isWeapon ? 'Weapon' : 'Character'} / {five._source.bannerKind}</span>
-                            <em className={gtPullOutcomeClass(five, five._banner).replace(/\s+/g, '-')}>{gtPullOutcome(five, five._banner, gameKey)}</em>
-                            <i>Pity {five.pity || five.pity5 || '-'}</i>
+                            <em className={gtPullOutcomeClass(five, five._banner, gameKey).replace(/\s+/g, '-')}>{gtPullOutcome(five, five._banner, gameKey)}</em>
+                            <i>{five._banner.pityUnavailable ? 'Pity unavailable' : 'Pity ' + (five.pity || five.pity5 || '-')}</i>
                           </div>
                         ))}
-                        {detailFives.length === 0 && <div className="gt-empty-row">No 5-star pulls on this banner.</div>}
+                        {detailFives.length === 0 && <div className="gt-empty-row">No {topRank}-star pulls on this banner.</div>}
                       </div>
                     )}
                   </article>
@@ -617,11 +704,31 @@ function gtRenderResultsView(ctx){
               {bannerGroups.length === 0 && <div className="gt-empty-row">No banner history rows yet.</div>}
             </div>
           </section>
+          {isEndfield && ruleProgress.length > 0 && (
+            <section className="gt-panel-box gt-summary-card">
+              <div className="gt-box-head"><b>Reward progress</b><span>Separate from paid pity</span></div>
+              <div className="gt-summary-grid">
+                {ruleProgress.map((progress, index) => <div key={(progress.key || progress.label) + ':' + index}><b>{progress.achieved ? 'Obtained' : fmt(progress.current) + ' / ' + fmt(progress.target)}</b><span>{progress.label}</span></div>)}
+              </div>
+            </section>
+          )}
+          {isEndfield && arsenalPools.length > 0 && (
+            <section className="gt-panel-box gt-summary-card">
+              <div className="gt-box-head"><b>Arsenal issues</b><span>Only complete groups of ten affect pity</span></div>
+              <div className="gt-summary-grid">
+                {arsenalPools.map((pool) => <React.Fragment key={pool.poolId}>
+                  <div><b>{fmt(pool.sixProgress)} / 4</b><span>{pool.poolName}: next 6{'\u2605'} issue</span></div>
+                  <div><b>{pool.featuredObtained ? 'Obtained' : fmt(pool.featuredProgress) + ' / 8'}</b><span>First featured 6{'\u2605'}</span></div>
+                  {pool.incompleteRecords > 0 && <div><b>{fmt(pool.incompleteRecords)} / 10</b><span>Visible incomplete issue; pity unchanged</span></div>}
+                </React.Fragment>)}
+              </div>
+            </section>
+          )}
           </div>
         </div>
-      ) : viewMode === 'pity' ? (
+      ) : activeViewMode === 'pity' ? (
         <div className="gt-pity-view">
-          {gtRenderPityPanel({ gameKey, pityBanners, pityFilter, setPityFilter, standalone:true })}
+          {gtRenderPityPanel({ gameKey, pityBanners:availablePityBanners, pityFilter, setPityFilter, standalone:true })}
         </div>
       ) : (
         <div className="gt-archive-view">
@@ -638,8 +745,8 @@ function gtRenderResultsView(ctx){
                 {[
                   ['all', 'All'],
                   ['c6', 'C6/R5+'],
-                  ['5', '5\u2605'],
-                  ['4', '4\u2605'],
+                  ['5', topRank + '\u2605'],
+                  ['4', secondaryRank + '\u2605'],
                 ].map((pair) => <button key={pair[0]} type="button" className={archiveFilter === pair[0] ? 'on' : ''} onClick={() => setArchiveFilter(pair[0])}>{pair[1]}</button>)}
               </div>
             </div>
@@ -705,23 +812,95 @@ function GachaTracker({ open, onClose, cfg, inline }){
   const [syncSecret, setSyncSecret] = React.useState('');
   const [syncStatus, setSyncStatus] = React.useState('');
   const [syncBusy, setSyncBusy] = React.useState(false);
+  const [pendingImport, setPendingImport] = React.useState(null);
+  const [profiles, setProfiles] = React.useState([]);
   const fileRef = React.useRef(null);
+  const handoffActiveRef = React.useRef(false);
+
+  const profileAccount = (summary) => summary && (summary.account || (summary.accountUid || summary.roleId || summary.serverId ? {
+    uid:summary.accountUid || '', roleId:summary.roleId || '', serverId:summary.serverId || '', serverName:summary.serverName || '',
+  } : null));
+
+  const loadSavedProfile = async (profileId) => {
+    const all = await STORE.loadPulls(ADAPT.game, profileId);
+    const summary = STORE.loadSummary ? await STORE.loadSummary(ADAPT.game, profileId) : null;
+    setData({ banners: ADAPT.buildViews(all, { cost:COST }), uid:profileId,
+      accountName:(summary && summary.accountName) || '', account:profileAccount(summary),
+      sourceLabel:(summary && summary.sourceLabel) || 'Saved local import', importedAt:(summary && summary.importedAt) || 0 });
+    setBannerIdx(0); setUid(profileId); setPhase('results');
+  };
+
+  const refreshProfiles = async () => {
+    if (!STORE || !ADAPT || !STORE.listSummaries) return [];
+    const next = await STORE.listSummaries(ADAPT.game);
+    setProfiles(next || []);
+    return next || [];
+  };
+
+  const preparePreview = async (res, sourceLabel, importKind) => {
+    if (!res || res.error) throw new Error((res && res.error) || 'Could not read that file.');
+    if (!Array.isArray(res.pulls) || (!res.pulls.length && !(C.key === 'ae' && res.strict))) {
+      throw new Error('No ' + (C.pulls || 'pulls').toLowerCase() + ' for this game in that file.');
+    }
+    const profileId = res.uid || 'imported';
+    const existing = await STORE.loadPulls(ADAPT.game, profileId);
+    const ids = new Set((existing || []).map((pull) => String(pull.id)));
+    const pools = Object.create(null);
+    let duplicateCount = 0;
+    for (const pull of res.pulls) {
+      const pullId = String(pull.id);
+      if (ids.has(pullId)) duplicateCount += 1;
+      else ids.add(pullId);
+      const label = pull.poolName || pull.sourceBanner || pull.banner || 'Imported pool';
+      pools[label] = (pools[label] || 0) + 1;
+    }
+    const account = res.account || null;
+    setPendingImport({ res, profileId, account, sourceLabel, importKind,
+      accountName:res.accountName || res.nickname || res.name || (account && account.serverName) || 'Imported history',
+      newCount:res.pulls.length - duplicateCount, duplicateCount, pools });
+    setError(''); setProgress(null); setPhase('preview');
+  };
+
+  React.useEffect(() => {
+    if (C.key !== 'ae') return undefined;
+    const handoff = window.PengoPullLauncherBridge?.takePending?.();
+    if (!handoff) return undefined;
+    handoffActiveRef.current = true;
+    let cancelled = false;
+    setError(''); setProgress(null); setPhase('loading');
+    Promise.resolve(handoff).then(async (received) => {
+      if (cancelled) return;
+      const parsed = received?.payload?.importKind === 'pengo-pulls-v1'
+        ? received.payload
+        : ADAPT.importFile(received?.text || received?.payload);
+      await preparePreview(parsed, 'Nyx Launcher export', 'launcher');
+    }).catch(() => {
+      if (cancelled) return;
+      setError('The launcher handoff could not be received. Use the saved JSON file instead.');
+      setProgress(null); setPhase('import');
+    });
+    return () => { cancelled = true; };
+  }, []);
 
   // On mount: load real imported history from IndexedDB. Old sample/demo
   // localStorage caches are intentionally ignored and removed.
   React.useEffect(() => {
     let cancelled = false;
+    if (handoffActiveRef.current) return () => { cancelled = true; };
     (async () => {
       try {
         if (ADAPT && STORE) {
-          const uids = await STORE.loadAllUids(ADAPT.game);
+          const summaries = STORE.listSummaries ? await STORE.listSummaries(ADAPT.game) : [];
+          if (!cancelled) setProfiles(summaries || []);
+          const uids = summaries && summaries.length ? summaries.map((summary) => summary.uid) : await STORE.loadAllUids(ADAPT.game);
           if (uids && uids.length) {
             const all = await STORE.loadPulls(ADAPT.game, uids[0]);
-            if (!cancelled && all && all.length) {
-              let summary = null;
-              try { summary = STORE.loadSummary ? await STORE.loadSummary(ADAPT.game, uids[0]) : null; } catch (e) {}
+            let summary = summaries && summaries.find((item) => item.uid === uids[0]);
+            try { summary = summary || (STORE.loadSummary ? await STORE.loadSummary(ADAPT.game, uids[0]) : null); } catch (e) {}
+            if (!cancelled && all && (all.length || (C.key === 'ae' && summary))) {
               setData({ banners: ADAPT.buildViews(all, { cost: COST }), uid: uids[0],
                 accountName:(summary && summary.accountName) || '',
+                account:profileAccount(summary),
                 sourceLabel:(summary && summary.sourceLabel) || 'Saved local import',
                 importedAt:(summary && summary.importedAt) || 0 });
               setBannerIdx(0); setUid(uids[0]); setPhase('results'); return;
@@ -765,6 +944,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
     if (!file || !ADAPT || !STORE || (!ADAPT.importFile && !ADAPT.importExcel && !ADAPT.importCsv)) return;
     setError(''); setProgress(null); setPhase('loading');
     try {
+      if (C.key === 'ae' && file.size > 5 * 1024 * 1024) throw new Error('Endfield pull files must be 5 MiB or smaller.');
       const isExcel = /\.xlsx$/i.test(file.name || '') || /spreadsheetml/i.test(file.type || '');
       const isCsv = /\.csv$/i.test(file.name || '') || /csv/i.test(file.type || '');
       let res;
@@ -779,10 +959,16 @@ function GachaTracker({ open, onClose, cfg, inline }){
         res = ADAPT.importFile(JSON.parse(await file.text()));
       }
       if (!res || res.error) throw new Error((res && res.error) || 'Could not read that file.');
-      if (!res.pulls || !res.pulls.length) throw new Error('No ' + (C.pulls || 'pulls').toLowerCase() + ' for this game in that file.');
+      if (!Array.isArray(res.pulls) || (!res.pulls.length && !(C.key === 'ae' && res.strict))) {
+        throw new Error('No ' + (C.pulls || 'pulls').toLowerCase() + ' for this game in that file.');
+      }
       const id = res.uid || 'imported';
       const accountName = res.accountName || res.nickname || res.name || (/paimon/i.test(id) ? 'Paimon.moe import' : 'Imported history');
-      const sourceLabel = isExcel ? 'Paimon.moe Excel file' : (isCsv ? 'CSV/manual file' : 'JSON/UIGF file');
+      const sourceLabel = res.strict ? 'Nyx Launcher export' : (isExcel ? 'Paimon.moe Excel file' : (isCsv ? 'CSV/manual file' : 'JSON/UIGF file'));
+      if (C.key === 'ae') {
+        await preparePreview(res, sourceLabel, isCsv ? 'csv' : (isExcel ? 'xlsx' : 'json'));
+        return;
+      }
       await STORE.savePulls(ADAPT.game, id, res.pulls, { accountName, sourceLabel, importKind:isCsv ? 'csv' : (isExcel ? 'xlsx' : 'json') });
       const all = await STORE.loadPulls(ADAPT.game, id);
       try { localStorage.removeItem(LSKEY); } catch (e) {}
@@ -793,21 +979,56 @@ function GachaTracker({ open, onClose, cfg, inline }){
     }
   };
 
+  const mergePreview = async () => {
+    if (!pendingImport || !STORE || !ADAPT) return;
+    setError(''); setPhase('loading');
+    try {
+      const pending = pendingImport;
+      await STORE.savePulls(ADAPT.game, pending.profileId, pending.res.pulls, {
+        accountName:pending.accountName, sourceLabel:pending.sourceLabel, importKind:pending.importKind,
+        account:pending.account, exportedAt:pending.res.exportedAt || '',
+        kind:pending.res.kind, version:pending.res.version, exportMeta:pending.res.exportMeta,
+      });
+      setPendingImport(null);
+      await refreshProfiles();
+      await loadSavedProfile(pending.profileId);
+      try { localStorage.removeItem(LSKEY); } catch (e) {}
+    } catch (e) {
+      setError('Merge failed: ' + String((e && e.message) || e)); setPhase('preview');
+    }
+  };
+
+  const cancelPreview = () => {
+    setPendingImport(null); setError(''); setProgress(null); setPhase('import');
+  };
+
   const reset = async () => {
     try { localStorage.removeItem(LSKEY); } catch (e) {}
     try { if (ADAPT && STORE && uid) await STORE.clearImport(ADAPT.game, uid); } catch (e) {}
-    setData(null); setUrl(''); setUid(''); setError(''); setProgress(null); setBannerIdx(0); setPhase('import');
+    setData(null); setUrl(''); setUid(''); setError(''); setProgress(null); setPendingImport(null); setBannerIdx(0); setPhase('import');
   };
 
   const showImport = () => {
     setUrl('');
     setError('');
     setProgress(null);
+    setPendingImport(null);
     setPhase('import');
+  };
+
+  const selectProfile = async (profileId) => {
+    if (!profileId || profileId === uid) return;
+    setError('');
+    try { await loadSavedProfile(profileId); }
+    catch (e) { setError('Could not open that role: ' + String((e && e.message) || e)); }
   };
 
   const runSync = async (mode) => {
     const SYNC = window.NyxAccountSync || null;
+    if (ADAPT && ADAPT.game === 'ae') {
+      setSyncStatus('Endfield pull history stays in this browser and cannot be synced.');
+      return;
+    }
     if (!SYNC || !SYNC.available || !SYNC.available()) {
       setSyncStatus('Encrypted sync is not available in this browser.');
       return;
@@ -858,6 +1079,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
 
   const runSyncDelete = async () => {
     const SYNC = window.NyxAccountSync || null;
+    if (ADAPT && ADAPT.game === 'ae') return;
     if (!SYNC || !SYNC.available || !SYNC.available() || !ADAPT) return;
     if (typeof window !== 'undefined' && window.confirm
       && !window.confirm('Remove this game’s synced history from Pengo’s servers? Your local history stays on this device.')) return;
@@ -878,7 +1100,10 @@ function GachaTracker({ open, onClose, cfg, inline }){
   const fmt = (n) => n.toLocaleString('en-US');
   const hasLiveImport = !!(ADAPT && ADAPT.runImport && ADAPT.parseAuth);
   const hasFileImport = !!(ADAPT && (ADAPT.importFile || ADAPT.importExcel || ADAPT.importCsv));
-  const manualCsv = 'time,name,rank,banner,item_type,item_id,id,uid\n2026-06-30 12:00:00,Example Character,5,character,character,example-id,manual-1,';
+  const manualCsv = 'time,name,rank,banner,item_type,item_id,id,uid\n'
+    + (C.key === 'ae' ? '2026-06-30T12:00:00Z' : '2026-06-30 12:00:00')
+    + ',Example Character,' + (C.key === 'ae' ? '6' : '5') + ',character,character,example-id,manual-1,'
+    + (C.key === 'ae' ? 'ae:server-id:role-id' : '');
   const quickCommand = ADAPT && ADAPT.helperCommand;
   const verifiedRunCommand = ADAPT && ADAPT.safeScript ? ('powershell -ExecutionPolicy Bypass -File pengo-pulls.ps1 -Game ' + ADAPT.game) : '';
   const copyPlain = (text) => { try { navigator.clipboard.writeText(text); } catch (e) {} };
@@ -898,11 +1123,37 @@ function GachaTracker({ open, onClose, cfg, inline }){
           <button type="button" className={'gt-x' + (inline ? ' nyx-u-hidden' : '')} title="Close" onClick={onClose}>{'\u2715'}</button>
         </div>
 
-        {phase !== 'results' && (
+        {phase === 'preview' && pendingImport && (
+          <div className="gt-import">
+            <section className="gt-method">
+              <b>Review Endfield history before saving</b>
+              <p>Nothing has been written yet. Merge adds only records that are not already in this exact role profile.</p>
+              <div className="gt-summary-grid">
+                <div><b>{pendingImport.account ? (pendingImport.account.serverName || pendingImport.account.serverId) : 'Imported profile'}</b><span>Server</span></div>
+                <div><b>{pendingImport.account ? pendingImport.account.roleId : pendingImport.profileId}</b><span>Role</span></div>
+                <div><b>{pendingImport.account && pendingImport.account.uid ? pendingImport.account.uid : 'Not supplied'}</b><span>Account UID</span></div>
+                <div><b>{gtFmtTimestamp(pendingImport.res.exportedAt)}</b><span>Export time with local UTC offset</span></div>
+                <div><b>{fmt(pendingImport.newCount)}</b><span>New records</span></div>
+                <div><b>{fmt(pendingImport.duplicateCount)}</b><span>Already saved</span></div>
+              </div>
+              <div className="gt-banner-history-list">
+                {Object.entries(pendingImport.pools).map(([label, count]) => <div key={label} className="gt-empty-row">{label}: {fmt(count)} {PULLS.toLowerCase()}</div>)}
+              </div>
+              <p className="gt-safe-note">This export contains only history the official service still retains. Keep the JSON file as your backup; older records may no longer be available upstream.</p>
+              {error && <div className="gt-err">{error}</div>}
+              <div className="gt-urlrow">
+                <button type="button" onClick={cancelPreview}>Cancel</button>
+                <button type="button" className="gt-go" onClick={mergePreview}>Merge</button>
+              </div>
+            </section>
+          </div>
+        )}
+
+        {phase !== 'results' && phase !== 'preview' && (
           <div className="gt-import">
             <ol className="gt-steps">
-              <li><span className="n">1</span><div><b>Choose an import method</b><span>Use the quick command, the verified script, a live URL, a tracker export, or a CSV/manual backfill.</span></div></li>
-              <li><span className="n">2</span><div><b>Preview and save locally</b><span>Pengo stores imported history in this browser so it remembers previous uploads. Account sync can build on this later.</span></div></li>
+              <li><span className="n">1</span><div><b>Choose an import method</b><span>{C.key === 'ae' ? 'Use the Nyx Launcher handoff, its saved JSON file, or a CSV/manual backfill.' : 'Use the quick command, the verified script, a live URL, a tracker export, or a CSV/manual backfill.'}</span></div></li>
+              <li><span className="n">2</span><div><b>Preview and save locally</b><span>{C.key === 'ae' ? 'Review the exact role and counts before Merge. Endfield history stays in this browser and is not uploaded.' : 'Pengo stores imported history in this browser so it remembers previous uploads. Account sync can build on this later.'}</span></div></li>
               <li><span className="n">3</span><div><b>Keep a backup</b><span>JSON/UIGF/CSV files are the safest way to move between trackers and recover history that the game no longer shows.</span></div></li>
             </ol>
 
@@ -954,7 +1205,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
               {ADAPT && ADAPT.importCsv && (
                 <section className="gt-method">
                   <b>Manual CSV backfill</b>
-                  <p>Use this when old history expired. Create a CSV with time, name, rank, banner, item_type, item_id, id, and uid, then import it as a file.</p>
+                  <p>Use this when old history expired. Create a CSV with time, name, rank, banner, item_type, item_id, id, and uid, then import it as a file.{C.key === 'ae' ? ' Endfield needs the same ae:serverId:roleId on every row and a time ending in Z or an explicit UTC offset.' : ''}</p>
                   <div className="gt-cmd">
                     <code>{manualCsv}</code>
                     <button type="button" onClick={() => copyPlain(manualCsv)}>Copy</button>
@@ -963,16 +1214,19 @@ function GachaTracker({ open, onClose, cfg, inline }){
               )}
             </div>
 
-            <div className="gt-urlrow">
-              <input value={url} onChange={(e) => setUrl(e.target.value)} spellCheck="false" disabled={!hasLiveImport}
-                     placeholder={hasLiveImport ? ('https://... ' + PULL.toLowerCase() + ' history URL') : 'Live URL import is not available for this game yet'} />
-              <button type="button" className="gt-go" disabled={phase === 'loading' || !hasLiveImport} onClick={runImport}>
-                {phase === 'loading' ? <span className="gt-spin"></span> : 'Import URL'}
-              </button>
-            </div>
-            <p className="gt-safe-note">Live URL import sends the temporary history link through Pengo&rsquo;s Worker to the game provider, then saves only the pull records in your browser. File import is parsed locally before saving.</p>
+            {C.key !== 'ae' && <React.Fragment>
+              <div className="gt-urlrow">
+                <input value={url} onChange={(e) => setUrl(e.target.value)} spellCheck="false" disabled={!hasLiveImport}
+                       placeholder={hasLiveImport ? ('https://... ' + PULL.toLowerCase() + ' history URL') : 'Live URL import is not available for this game yet'} />
+                <button type="button" className="gt-go" disabled={phase === 'loading' || !hasLiveImport} onClick={runImport}>
+                  {phase === 'loading' ? <span className="gt-spin"></span> : 'Import URL'}
+                </button>
+              </div>
+              <p className="gt-safe-note">Live URL import sends the temporary history link through Pengo&rsquo;s Worker to the game provider, then saves only the pull records in your browser. File import is parsed locally before saving.</p>
+            </React.Fragment>}
+            {C.key === 'ae' && <p className="gt-safe-note">The launcher handoff uses a one-time connection on this PC. JSON and CSV files are parsed locally. Nothing is uploaded to Pengo.</p>}
 
-            <section className="gt-sync">
+            {ADAPT && ADAPT.game !== 'ae' && <section className="gt-sync">
               <div>
                 <b>Pengo encrypted sync</b>
                 <span>Use the same sync phrase on another browser or device to restore this game&rsquo;s saved history. Pengo stores only encrypted data and cannot read your pulls.</span>
@@ -991,7 +1245,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
               </div>
               <button type="button" className="gt-sync-delete" disabled={syncBusy || !syncSecret} onClick={runSyncDelete}>Remove synced copy from Pengo</button>
               {syncStatus && <p className="gt-sync-status">{syncStatus}</p>}
-            </section>
+            </section>}
             {error && <div className="gt-err">{error}</div>}
             {phase === 'loading' && progress && (
               <div className="gt-prog">Importing {progress.bannerLabel}\u2026 {fmt(progress.fetched)} {PULLS.toLowerCase()}{progress.bannerTotal ? ' (' + (progress.bannerIndex + 1) + '/' + progress.bannerTotal + ')' : ''}</div>
@@ -1002,11 +1256,15 @@ function GachaTracker({ open, onClose, cfg, inline }){
         {phase === 'results' && data && data.banners && data.banners.length > 0 && (() => {
           const banners = data.banners;
           const gameKey = C.key || 'gi';
+          const isEndfield = gameKey === 'ae';
           const bannerByKey = {};
           banners.forEach((b) => { bannerByKey[b.key] = b; });
-          const characterView = banners.find((b) => b.key === 'character') || banners[0];
-          const weaponView = banners.find((b) => b.key === 'weapon' || b.key === 'lightcone' || b.key === 'wengine' || b.key === 'standard_wpn')
-            || { key:'weapon', label:'Weapon', soft:63, hard:80, ff:false, total:0, fives:[] };
+          const characterView = (isEndfield
+            ? banners.find((b) => b.key === 'chartered') || banners.find((b) => String(b.key || '').startsWith('fest-joint'))
+              || banners.find((b) => b.key === 'basic') || banners.find((b) => b.key === 'beginner')
+            : banners.find((b) => b.key === 'character')) || banners[0];
+          const weaponView = banners.find((b) => b.key === 'weapon' || b.key === 'lightcone' || b.key === 'wengine' || b.key === 'standard_wpn' || String(b.key || '').startsWith('arsenal'))
+            || { key:'weapon', label:'Weapon', soft:63, hard:80, ff:false, topRank:isEndfield ? 6 : 5, secondaryRank:isEndfield ? 5 : 4, total:0, fives:[] };
           const standardView = banners.find((b) => b.key === 'standard')
             || { key:'standard', label:'Standard', soft:74, hard:90, ff:false, total:0, fives:[] };
           const chronicledView = banners.find((b) => b.key === 'chronicled')
@@ -1024,16 +1282,19 @@ function GachaTracker({ open, onClose, cfg, inline }){
           const fiftyEvents = eventFives.filter((f) => f.ff);
           const eventWins = fiftyEvents.filter((f) => f.won).length;
           const eventLosses = fiftyEvents.filter((f) => !f.won).length;
-          const avgPity = allFives.length ? Math.round(allFives.reduce((sum, f) => sum + (f.pity || f.pity5 || 0), 0) / allFives.length) : 0;
+          const paidFives = allFives.filter((five) => five.affectsPity !== false && (five.pity || five.pity5));
+          const avgPity = paidFives.length ? Math.round(paidFives.reduce((sum, f) => sum + (f.pity || f.pity5 || 0), 0) / paidFives.length) : 0;
           const currentState = characterView && characterView.ff ? (characterView.guaranteed ? 'Guaranteed' : '50:50') : 'Fixed pool';
           const currentLimited = gtCurrentLimitedFeatures(gameKey, eventFives.slice().reverse());
           const accountLabel = gtAccountLabel(data, uid, ADAPT && ADAPT.label, TITLE);
           const bannerGroups = gtPairSourceGroups(gameKey, banners);
-          const pityBanners = [characterView, weaponView, standardView, chronicledView].filter(Boolean);
+          const pityBanners = isEndfield ? banners : [characterView, weaponView, standardView, chronicledView].filter(Boolean);
           const archiveBase = gtMergeArchive(banners);
+          const topRank = (characterView && characterView.topRank) || 5;
+          const secondaryRank = (characterView && characterView.secondaryRank) || 4;
           const archiveRows = gtSortArchive(archiveBase.filter((rec) => {
-            if (archiveFilter === '5') return rec.rank === 5;
-            if (archiveFilter === '4') return rec.rank === 4;
+            if (archiveFilter === '5') return rec.rank === topRank;
+            if (archiveFilter === '4') return rec.rank === secondaryRank;
             if (archiveFilter === 'c6') return rec.kind === 'weapon' ? (rec.copies || 0) >= 5 : (rec.copies || 0) >= 7;
             return true;
           }), archiveSort);
@@ -1046,6 +1307,7 @@ function GachaTracker({ open, onClose, cfg, inline }){
             setArchiveFilter, setViewMode, setExpandedSource, setPityFilter, fmt, PULLS, CUR, COST, accountLabel,
             historyFilter, setHistoryFilter,
             sourceLabel:data.sourceLabel || 'Saved local import', importedAt:data.importedAt || 0,
+            profiles, uid, onSelectProfile:selectProfile,
           });
         })()}
       </div>

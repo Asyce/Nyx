@@ -30,13 +30,16 @@ function PullsOverview() {
               const all = await STORE.loadPulls(g.key, uids[0]);
               if (all && all.length) {
                 const views = ENG.buildViews(g.key, all, {});
-                const char = views.find((v) => v.key === 'character') || views[0];
+                const char = g.key === 'ae'
+                  ? (views.find((view) => !view.pityUnavailable) || views.find((view) => view.key === 'character') || views[0])
+                  : (views.find((view) => view.key === 'character') || views[0]);
                 const lastFive = char && char.fives.length ? char.fives[char.fives.length - 1] : null;
                 const fiveCount = views.reduce((a, v) => a + v.fives.length, 0);
                 row = Object.assign({}, g, {
                   imported: true, uid: uids[0], total: all.length,
                   pity: char ? char.currentPity : 0, hard: char ? char.hard : 90,
                   guaranteed: !!(char && char.guaranteed), lastFive: lastFive, fiveCount: fiveCount,
+                  topRank:(char && char.topRank) || 5, pityUnavailable:!!(char && char.pityUnavailable),
                 });
               }
             }
@@ -64,23 +67,27 @@ function PullsOverview() {
                 <div className="pulls-overview-game">{r.name}</div>
                 {r.imported ? (
                   <React.Fragment>
-                    <div className="pulls-overview-pity">
-                      <b>{r.pity}</b>
-                      <i>/ {r.hard} pity</i>
-                      {r.guaranteed && <span className="nyx-chip nyx-chip--warning pulls-overview-guaranteed">Guaranteed</span>}
-                    </div>
-                    <div className="pulls-overview-progress">
-                      <i style={{ '--pull-progress':Math.min(100, (r.pity / r.hard) * 100) + '%' }}></i>
-                    </div>
+                    {r.pityUnavailable ? (
+                      <div className="pulls-overview-pity"><b>History only</b></div>
+                    ) : <React.Fragment>
+                      <div className="pulls-overview-pity">
+                        <b>{r.pity}</b>
+                        <i>/ {r.hard} pity</i>
+                        {r.guaranteed && <span className="nyx-chip nyx-chip--warning pulls-overview-guaranteed">Guaranteed</span>}
+                      </div>
+                      <div className="pulls-overview-progress">
+                        <i style={{ '--pull-progress':Math.min(100, (r.pity / r.hard) * 100) + '%' }}></i>
+                      </div>
+                    </React.Fragment>}
                     <div className="pulls-overview-stats">
-                      <span>{fmt(r.total)} {r.pull.toLowerCase()}</span><span>{r.fiveCount} 5{'★'}</span>
+                      <span>{fmt(r.total)} {r.pull.toLowerCase()}</span><span>{r.fiveCount} {r.topRank}{'★'}</span>
                     </div>
                     {r.lastFive && (
                       <div className="pulls-overview-last">
                         {(r.lastFive.icon || r.lastFive.art)
                           ? <img src={r.lastFive.icon || r.lastFive.art} alt="" loading="lazy" />
                           : <span className="pulls-overview-avatar-fallback"></span>}
-                        <span>Last 5{'★'}: {r.lastFive.name} <i>(pity {r.lastFive.pity})</i></span>
+                        <span>Last {r.topRank}{'★'}: {r.lastFive.name} {!r.pityUnavailable && <i>(pity {r.lastFive.pity})</i>}</span>
                       </div>
                     )}
                   </React.Fragment>

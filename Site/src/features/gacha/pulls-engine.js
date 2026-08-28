@@ -145,6 +145,7 @@ window.NyxPulls = (function () {
   // they resolve to null and the UI shows a rarity-colored placeholder
   // until the weapon-asset pipeline lands.
   function normName(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
+  const PULL_PRESERVED_FIELDS = ['recordType', 'seqId', 'poolId', 'poolName', 'poolType', 'obtainedAt', 'isNew', 'isFree', 'batchId', 'source'];
 
   const _itemIndex = {};
   function itemIndex(gameKey) {
@@ -195,8 +196,9 @@ window.NyxPulls = (function () {
   function enrichPull(gameKey, pull, pity5, pity4, idx) {
     const meta = resolveItem(gameKey, pull) || {};
     const itemType = pull.itemType || meta.kind || '';
-    const isWeapon = itemType === 'weapon' || itemType === 'light_cone' || itemType === 'w_engine' || itemType === 'bangboo';
-    return {
+    const isWeapon = pull.recordType === 'weapon' || pull.poolType === 'arsenal'
+      || itemType === 'weapon' || itemType === 'light_cone' || itemType === 'w_engine' || itemType === 'bangboo';
+    const item = {
       idx: idx,
       id: pull.id,
       banner: pull.banner,
@@ -217,6 +219,10 @@ window.NyxPulls = (function () {
       el: meta.element || null,
       wtype: meta.weaponType || null,
     };
+    for (const field of PULL_PRESERVED_FIELDS) {
+      if (Object.prototype.hasOwnProperty.call(pull, field)) item[field] = pull[field];
+    }
+    return item;
   }
 
   function archiveFromItems(items) {
@@ -252,7 +258,9 @@ window.NyxPulls = (function () {
     return Object.values(byKey);
   }
 
-  function sourceGroupsFromItems(items, fallbackLabel) {
+  function sourceGroupsFromItems(items, fallbackLabel, topRank, secondaryRank) {
+    const top = topRank || 5;
+    const secondary = secondaryRank || 4;
     const groups = {};
     for (const item of (items || [])) {
       const source = String(item.sourceBanner || '').trim();
@@ -265,14 +273,16 @@ window.NyxPulls = (function () {
         part: part,
         displayName: label + (part ? ' · ' + part : ''),
         total: 0,
+        topCount: 0,
+        secondaryCount: 0,
         fiveCount: 0,
         fourCount: 0,
         lastTime: 0,
         items: [],
       };
       rec.total += 1;
-      if (item.rank === 5) rec.fiveCount += 1;
-      if (item.rank === 4) rec.fourCount += 1;
+      if (item.rank === top) { rec.topCount += 1; rec.fiveCount += 1; }
+      if (item.rank === secondary) { rec.secondaryCount += 1; rec.fourCount += 1; }
       rec.lastTime = Math.max(rec.lastTime || 0, item.time || 0);
       rec.items.push(item);
       groups[key] = rec;
@@ -281,7 +291,7 @@ window.NyxPulls = (function () {
       const newest = rec.items.slice().sort((a, b) => (b.time || 0) - (a.time || 0) || (b.idx || 0) - (a.idx || 0));
       return Object.assign({}, rec, {
         recent: newest.slice(0, 6),
-        highlights: newest.filter((it) => it.rank >= 4).slice(0, 6),
+        highlights: newest.filter((it) => it.rank >= secondary).slice(0, 6),
       });
     }).sort((a, b) => (b.lastTime || 0) - (a.lastTime || 0) || (b.total || 0) - (a.total || 0));
   }
@@ -334,17 +344,20 @@ window.NyxPulls = (function () {
   }
 
   function computeBannerView(gameKey, banner, cfg, stdPool, featuredAt) {
+    const topRank = cfg.topRank || 5;
+    const secondaryRank = cfg.secondaryRank || 4;
     const fives = [], stream = [], items = [];
-    let fourCount = 0, threeCount = 0, sinceFive = 0, sinceFour = 0, guaranteedNext = false;
+    let fourCount = 0, threeCount = 0, sinceFive = 0, sinceFour = 0, guaranteedNext = false, paidTotal = 0;
     banner.forEach((p) => {
-      sinceFive++;
-      sinceFour++;
+      const affectsPity = !cfg.ignoreFree || !p.isFree;
+      if (affectsPity) { sinceFive++; sinceFour++; paidTotal++; }
       stream.push(p.rank);
       const item = enrichPull(gameKey, p, sinceFive, sinceFour, stream.length);
+      if (gameKey === 'ae') item.affectsPity = affectsPity;
       items.push(item);
-      if (p.rank === 4) fourCount++;
-      else if (p.rank === 3) threeCount++;
-      else if (p.rank === 5) {
+      if (p.rank === secondaryRank) fourCount++;
+      else if (p.rank < secondaryRank) threeCount++;
+      else if (p.rank === topRank) {
         const pity = sinceFive;
         let ff = false, won = true, exact = false;
         if (cfg.ff) {
@@ -357,16 +370,21 @@ window.NyxPulls = (function () {
             if (!won) guaranteedNext = true;
           }
         }
-        fives.push(Object.assign({}, item, { pity: pity, pity5: pity, won: won, ff: ff, exact: exact }));
-        sinceFive = 0;
+        const top = Object.assign({}, item, { pity: pity, pity5: pity, won: won, ff: ff, exact: exact });
+        if (typeof cfg.featuredFor === 'function') top.featured = cfg.featuredFor(p);
+        fives.push(top);
+        if (affectsPity) sinceFive = 0;
       }
-      if (p.rank >= 4) sinceFour = 0;
+      if (affectsPity && p.rank >= secondaryRank) sinceFour = 0;
     });
     const archive = archiveFromItems(items);
-    const sourceGroups = sourceGroupsFromItems(items, cfg.label);
+    const sourceGroups = sourceGroupsFromItems(items, cfg.label, topRank, secondaryRank);
     return {
       key: cfg.key, label: cfg.label, soft: cfg.soft, hard: cfg.hard, ff: cfg.ff,
+      topRank: topRank, secondaryRank: secondaryRank, secondaryHard: cfg.secondaryHard || 0,
+      pityUnavailable: !!cfg.pityUnavailable,
       total: banner.length, fives: fives, fourCount: fourCount, threeCount: threeCount,
+      paidTotal: paidTotal, freeCount: banner.length - paidTotal,
       currentPity: sinceFive, currentFourPity: sinceFour, guaranteed: cfg.ff ? guaranteedNext : false,
       stream: stream, items: items, history: items.slice().reverse(), archive: archive, sourceGroups: sourceGroups,
     };
@@ -466,10 +484,18 @@ window.NyxPulls = (function () {
   }
 
   function importGenericRows(rows, opts) {
+    if (opts.maxRecords && rows.length > opts.maxRecords) return { error:'Import contains more than ' + opts.maxRecords.toLocaleString('en-US') + ' records.' };
     const codeKey = opts.codeKey || {};
     const defaultBanner = opts.defaultBanner || 'character';
     const defaultType = opts.defaultType || 'character';
     const uid = String(opts.uid || pick(opts.meta || {}, ['uid', 'player_id', 'playerid', 'account_id', 'accountid']) || '');
+    if (opts.endfieldProfile && !AE_PROFILE_PATTERN.test(uid)) {
+      return { error:'Endfield imports require one profile ID in the form ae:<serverId>:<roleId>.' };
+    }
+    if (opts.endfieldProfile && rows.some((row) => {
+      const rowUid = String(pick(row || {}, ['uid', 'player_id', 'playerid', 'account_id', 'accountid']) || '').trim();
+      return rowUid && rowUid !== uid;
+    })) return { error:'Endfield records must use the same profile ID.' };
     const pulls = [];
     rows.forEach((it, idx) => {
       const row = it || {};
@@ -516,7 +542,21 @@ window.NyxPulls = (function () {
   function importGenericCsv(text, opts) {
     const rows = csvObjects(text);
     if (!rows.length) return { error: 'No CSV rows found. Use a header row such as time,name,rank,banner.' };
-    return importGenericRows(rows, Object.assign({}, opts, { source:'csv-manual' }));
+    if (opts.maxRecords && rows.length > opts.maxRecords) return { error:'Import contains more than ' + opts.maxRecords.toLocaleString('en-US') + ' records.' };
+    const identities = new Set(rows.map((row) => String(pick(row, ['uid', 'player_id', 'playerid', 'account_id', 'accountid']) || '').trim()).filter(Boolean));
+    if (identities.size > 1) return { error:'CSV rows must use one account or role ID.' };
+    const uid = identities.size ? Array.from(identities)[0] : '';
+    if (opts.endfieldProfile && !AE_PROFILE_PATTERN.test(uid)) {
+      return { error:'Endfield CSV rows require one profile ID in the form ae:<serverId>:<roleId>.' };
+    }
+    if (opts.endfieldProfile && rows.some((row) => String(pick(row, ['uid', 'player_id', 'playerid', 'account_id', 'accountid']) || '').trim() !== uid)) {
+      return { error:'Every Endfield CSV row must use the same profile ID.' };
+    }
+    if (opts.endfieldProfile && rows.some((row) => {
+      const value = String(pick(row, ['time', 'date', 'datetime', 'timestamp', 'created_at', 'createdat']) || '');
+      return !aeTimestamp(value, false);
+    })) return { error:'Endfield CSV times must be valid and include Z or an explicit UTC offset.' };
+    return importGenericRows(rows, Object.assign({}, opts, { uid, source:'csv-manual' }));
   }
 
   // ---- import existing history (UIGF v4.x) ---------------------------
@@ -975,18 +1015,353 @@ window.NyxPulls = (function () {
 
   // ---- Endfield file/manual import -----------------------------------
   const AE_CODE_KEY = { '1':'character', '2':'weapon', '3':'standard', '4':'standard' };
-  const AE_VIEW_BANNERS = [
-    { key: 'character', label: 'Operator',  keys: ['character'], soft: 60, hard: 80, ff: true },
-    { key: 'weapon',    label: 'Weapon',    keys: ['weapon'],    soft: 60, hard: 80, ff: false },
-    { key: 'standard',  label: 'Standard',  keys: ['standard'],  soft: 60, hard: 80, ff: false },
+  const AE_LEGACY_VIEW_BANNERS = [
+    { key: 'character', label: 'Operator', keys: ['character'], topRank: 6, secondaryRank: 5, soft: 0, hard: 0, ff: false, pityUnavailable: true },
+    { key: 'weapon', label: 'Weapon', keys: ['weapon'], topRank: 6, secondaryRank: 5, soft: 0, hard: 0, ff: false, pityUnavailable: true },
+    { key: 'standard', label: 'Standard', keys: ['standard'], topRank: 6, secondaryRank: 5, soft: 0, hard: 0, ff: false, pityUnavailable: true },
   ];
-  function importEndfieldJson(json) {
-    return importGenericJson(json, {
-      codeKey: AE_CODE_KEY, defaultBanner:'character', defaultType:'operator', weaponBanner:'weapon',
-      weaponType:'weapon', idPrefix:'ae-json', source:'json-endfield',
-    });
+
+  const AE_STRICT_MAX_RECORDS = 10000;
+  const AE_STRICT_MAX_BYTES = 5 * 1024 * 1024;
+  const AE_PROFILE_PATTERN = /^ae:[A-Za-z0-9_.-]+:[A-Za-z0-9_.-]+$/;
+  const AE_CHARACTER_POOLS = new Set(['basic', 'beginner', 'chartered', 'fest-joint']);
+  const AE_POOL_BANNER = { basic: 'character', beginner: 'character', chartered: 'character', 'fest-joint': 'character', arsenal: 'weapon' };
+  const AE_LOCKED_RECORD_FIELDS = ['id', 'recordType', 'seqId', 'poolId', 'poolName', 'poolType', 'itemId', 'name', 'itemType', 'rarity', 'obtainedAt', 'isNew', 'isFree', 'batchId'];
+  const AE_U64_MAX = '18446744073709551615';
+
+  function aeOwn(value, key) { return Object.prototype.hasOwnProperty.call(value, key); }
+
+  function aeExactKeys(value, expected) {
+    if (!value || typeof value !== 'object' || Array.isArray(value)) return false;
+    const keys = Reflect.ownKeys(value);
+    return keys.length === expected.length
+      && keys.every((key) => typeof key === 'string' && expected.indexOf(key) >= 0);
   }
-  function buildEndfieldBannerViews(pulls) { return buildViewsFor('ae', pulls || [], AE_VIEW_BANNERS, new Set()); }
+
+  function aeControlText(value) {
+    for (let i = 0; i < value.length; i += 1) {
+      const code = value.charCodeAt(i);
+      if (code <= 0x1f || (code >= 0x7f && code <= 0x9f)) return true;
+    }
+    return false;
+  }
+
+  function aeText(value, max) {
+    return typeof value === 'string' && value.length > 0 && value.length <= max && !aeControlText(value);
+  }
+
+  function aeIdentifier(value, max) {
+    return aeText(value, max) && /^[A-Za-z0-9_.:-]+$/.test(value);
+  }
+
+  function aeProfilePart(value) {
+    return aeText(value, 128) && /^[A-Za-z0-9_.-]+$/.test(value);
+  }
+
+  function aeUnsignedSequence(value) {
+    if (!aeIdentifier(value, 128) || !/^\d+$/.test(value)) return false;
+    const normalized = value.replace(/^0+(?=\d)/, '');
+    return normalized.length < AE_U64_MAX.length
+      || (normalized.length === AE_U64_MAX.length && normalized <= AE_U64_MAX);
+  }
+
+  function aeTimestamp(value, utcOnly) {
+    if (typeof value !== 'string') return false;
+    const match = value.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(Z|([+-])(\d{2}):(\d{2}))$/);
+    if (!match) return false;
+    if (utcOnly && match[7] !== 'Z' && match[7] !== '+00:00') return false;
+    if (Number(match[1]) < 1) return false;
+    const offsetHours = match[9] ? Number(match[9]) : 0;
+    const offsetMinutes = match[10] ? Number(match[10]) : 0;
+    if (offsetHours > 23 || offsetMinutes > 59) return false;
+    const time = Date.parse(value);
+    if (!Number.isFinite(time)) return false;
+    const direction = match[8] === '-' ? -1 : 1;
+    const date = new Date(time + direction * (offsetHours * 60 + offsetMinutes) * 60_000);
+    return date.getUTCFullYear() === Number(match[1])
+      && date.getUTCMonth() + 1 === Number(match[2])
+      && date.getUTCDate() === Number(match[3])
+      && date.getUTCHours() === Number(match[4])
+      && date.getUTCMinutes() === Number(match[5])
+      && date.getUTCSeconds() === Number(match[6]);
+  }
+
+  function aeUtc(value) { return aeTimestamp(value, true); }
+
+  function aeBoolean(value) { return typeof value === 'boolean'; }
+
+  function aeWithinBytes(value) {
+    try {
+      const json = JSON.stringify(value);
+      if (typeof TextEncoder !== 'undefined') return new TextEncoder().encode(json).byteLength <= AE_STRICT_MAX_BYTES;
+      return json.length <= AE_STRICT_MAX_BYTES;
+    } catch (e) { return false; }
+  }
+
+  function aeImportError() { return { error: 'The Endfield pulls export is invalid.' }; }
+
+  function importStrictEndfieldJson(json) {
+    const rootKeys = ['kind', 'version', 'game', 'exportedAt', 'account', 'records'];
+    if (!aeExactKeys(json, rootKeys)
+      || !aeText(json.kind, 32)
+      || json.kind !== 'pengo-pulls'
+      || !Number.isInteger(json.version)
+      || json.version !== 1
+      || !aeText(json.game, 8)
+      || json.game !== 'ae'
+      || !aeUtc(json.exportedAt)
+      || !aeWithinBytes(json)
+      || !aeExactKeys(json.account, ['uid', 'roleId', 'serverId', 'serverName'])
+      || !aeIdentifier(json.account.uid, 128)
+      || !aeProfilePart(json.account.roleId)
+      || !aeProfilePart(json.account.serverId)
+      || !aeText(json.account.serverName, 256)
+      || !Array.isArray(json.records)
+      || json.records.length > AE_STRICT_MAX_RECORDS) return aeImportError();
+
+    const ids = new Set();
+    const pulls = [];
+    for (const record of json.records) {
+      if (!record || typeof record !== 'object' || Array.isArray(record)) return aeImportError();
+      const recordType = record.recordType;
+      if (!aeText(recordType, 16) || (recordType !== 'character' && recordType !== 'weapon')) return aeImportError();
+      const weapon = recordType === 'weapon';
+      const expected = weapon ? AE_LOCKED_RECORD_FIELDS : AE_LOCKED_RECORD_FIELDS.slice(0, -1);
+      if (!aeExactKeys(record, expected)
+        || !aeText(record.id, 512)
+        || !aeUnsignedSequence(record.seqId)
+        || !aeIdentifier(record.poolId, 128)
+        || !aeText(record.poolName, 256)
+        || !aeText(record.poolType, 32)
+        || !aeIdentifier(record.itemId, 128)
+        || !aeText(record.name, 256)
+        || !aeText(record.itemType, 128)
+        || !Number.isInteger(record.rarity)
+        || record.rarity < 1
+        || record.rarity > 6
+        || !aeUtc(record.obtainedAt)
+        || !aeBoolean(record.isNew)
+        || !aeBoolean(record.isFree)
+        || !record.id.startsWith(recordType + ':')
+        || record.id !== recordType + ':' + record.poolId + ':' + record.seqId
+        || ids.has(record.id)) return aeImportError();
+      if (weapon) {
+        if (record.poolType !== 'arsenal' || !aeIdentifier(record.batchId, 128) || record.batchId !== record.poolId || record.isFree !== false) return aeImportError();
+      } else if (!AE_CHARACTER_POOLS.has(record.poolType) || record.itemType !== 'character') return aeImportError();
+
+      ids.add(record.id);
+      const pull = {
+        id: record.id,
+        banner: AE_POOL_BANNER[record.poolType],
+        sourceBanner: record.poolName,
+        part: '',
+        name: record.name,
+        itemId: record.itemId,
+        itemType: record.itemType,
+        rank: record.rarity,
+        rarity: record.rarity,
+        time: Date.parse(record.obtainedAt),
+        source: 'pengo-pulls-v1',
+      };
+      for (const field of expected) pull[field] = record[field];
+      pulls.push(pull);
+    }
+
+    const account = {
+      uid: json.account.uid,
+      roleId: json.account.roleId,
+      serverId: json.account.serverId,
+      serverName: json.account.serverName,
+    };
+    const exportMeta = { kind: json.kind, version: json.version, game: json.game, exportedAt: json.exportedAt };
+    return {
+      uid: 'ae:' + account.serverId + ':' + account.roleId,
+      pulls: pulls,
+      strict: true,
+      account: account,
+      accountName: account.serverName,
+      kind: json.kind,
+      version: json.version,
+      game: json.game,
+      exportedAt: json.exportedAt,
+      exportMeta: exportMeta,
+      sourceLabel: 'Pengo pulls v1 export',
+      importKind: 'pengo-pulls-v1',
+    };
+  }
+
+  function importEndfieldJson(json) {
+    if (json && typeof json === 'object' && !Array.isArray(json) && aeOwn(json, 'kind')) {
+      return importStrictEndfieldJson(json);
+    }
+    const parsed = importGenericJson(json, {
+      codeKey: AE_CODE_KEY, defaultBanner:'character', defaultType:'operator', weaponBanner:'weapon',
+      weaponType:'weapon', idPrefix:'ae-json', source:'json-endfield', endfieldProfile:true, maxRecords:AE_STRICT_MAX_RECORDS,
+    });
+    return parsed;
+  }
+
+  function aeBannerName(value) {
+    return normName(String(value || '').replace(/\b(?:arsenal|issue|headhunting)\b/gi, ''));
+  }
+
+  function aeFeaturedResult(pull) {
+    const type = pull.poolType === 'arsenal' ? 'weapon' : 'character';
+    const history = (typeof window !== 'undefined' && window.NYX_BANNERS && window.NYX_BANNERS.ae) || [];
+    const at = Number(pull.time || Date.parse(pull.obtainedAt || ''));
+    if (!Number.isFinite(at)) return null;
+    const candidates = history.filter((period) => period.type === type && at >= period.start && at <= period.end);
+    const named = candidates.filter((period) => aeBannerName(period.name) === aeBannerName(pull.poolName));
+    const period = named.length === 1 ? named[0] : (candidates.length === 1 ? candidates[0] : null);
+    if (!period || !Array.isArray(period.featuredTop) || !period.featuredTop.length) return null;
+    return new Set(period.featuredTop.map(normName)).has(normName(pull.name));
+  }
+
+  function aePoolGroups(rows) {
+    const groups = Object.create(null);
+    for (const pull of rows) {
+      const key = String(pull.poolId || '');
+      (groups[key] || (groups[key] = [])).push(pull);
+    }
+    const newest = (group) => group.reduce((latest, pull) => Math.max(latest, pull.time || 0), 0);
+    return Object.values(groups).sort((a, b) => newest(b) - newest(a));
+  }
+
+  function aeCharacterView(rows, cfg) {
+    return computeBannerView('ae', rows.slice().sort(aeSortPulls), Object.assign({
+      topRank: 6,
+      secondaryRank: 5,
+      secondaryHard: 10,
+      ignoreFree: true,
+      ff: false,
+      featuredFor: aeFeaturedResult,
+    }, cfg), new Set(), null);
+  }
+
+  function aeSequenceDescending(a, b) {
+    return -aeSequenceAscending(a, b);
+  }
+
+  function aeSequenceAscending(a, b) {
+    const left = String(a.seqId || '').replace(/^0+(?=\d)/, '');
+    const right = String(b.seqId || '').replace(/^0+(?=\d)/, '');
+    return left.length - right.length || left.localeCompare(right);
+  }
+
+  function aeSortPulls(a, b) {
+    return (a.time || 0) - (b.time || 0) || aeSequenceAscending(a, b) || String(a.id).localeCompare(String(b.id));
+  }
+
+  function aeArsenalView(rows) {
+    const poolId = String(rows[0].poolId);
+    const poolName = rows[0].poolName || 'Arsenal';
+    const config = {
+      key: 'arsenal:' + poolId,
+      label: poolName,
+      soft: 4,
+      hard: 4,
+      topRank: 6,
+      secondaryRank: 5,
+      ignoreFree: true,
+      ff: false,
+      featuredFor: aeFeaturedResult,
+    };
+    const view = computeBannerView('ae', rows.slice().sort(aeSortPulls), config, new Set(), null);
+    const newest = rows.slice().sort((a, b) => (b.time || 0) - (a.time || 0) || aeSequenceDescending(a, b));
+    const chunks = [];
+    for (let index = 0; index < newest.length; index += 10) chunks.push(newest.slice(index, index + 10));
+    const complete = chunks.filter((issue) => issue.length === 10).reverse();
+    const incomplete = chunks.filter((issue) => issue.length !== 10);
+    const itemById = new Map(view.items.map((item) => [item.id, item]));
+    const topPulls = [];
+    let sixProgress = 0;
+    let firstFeaturedIssue = 0;
+    complete.forEach((issue, issueIndex) => {
+      sixProgress += 1;
+      let hasSix = false;
+      for (const pull of issue) {
+        const item = itemById.get(pull.id);
+        if (item) { item.pity = sixProgress; item.pity5 = sixProgress; item.affectsPity = true; }
+        if (pull.rank !== 6) continue;
+        hasSix = true;
+        const featured = aeFeaturedResult(pull);
+        if (!firstFeaturedIssue && featured === true) firstFeaturedIssue = issueIndex + 1;
+        if (item) topPulls.push(Object.assign({}, item, { pity:sixProgress, pity5:sixProgress, featured, affectsPity:true }));
+      }
+      if (hasSix) sixProgress = 0;
+    });
+    for (const issue of incomplete) {
+      for (const pull of issue) {
+        const item = itemById.get(pull.id);
+        if (item) { item.pity = 0; item.pity5 = 0; item.affectsPity = false; }
+        if (pull.rank === 6 && item) topPulls.push(Object.assign({}, item, {
+          pity:0, pity5:0, featured:aeFeaturedResult(pull), affectsPity:false,
+        }));
+      }
+    }
+    view.fives = topPulls.sort(aeSortPulls);
+    view.currentPity = sixProgress;
+    view.currentFourPity = 0;
+    view.history = view.items.slice().reverse();
+    view.weaponPools = [{
+      poolId,
+      poolName,
+      completeIssues: complete.length,
+      incompleteRecords: incomplete.reduce((sum, issue) => sum + issue.length, 0),
+      sixProgress,
+      featuredProgress: firstFeaturedIssue || Math.min(complete.length, 8),
+      featuredObtained: firstFeaturedIssue > 0,
+    }];
+    return view;
+  }
+
+  function buildEndfieldBannerViews(pulls) {
+    const rows = pulls || [];
+    const strictRows = rows.filter((pull) => AE_CHARACTER_POOLS.has(pull.poolType) || pull.poolType === 'arsenal');
+    const legacyRows = rows.filter((pull) => !AE_CHARACTER_POOLS.has(pull.poolType) && pull.poolType !== 'arsenal');
+    if (!strictRows.length) {
+      return buildViewsFor('ae', rows, AE_LEGACY_VIEW_BANNERS, new Set());
+    }
+    const out = [];
+    const basic = rows.filter((pull) => pull.poolType === 'basic');
+    if (basic.length) {
+      const view = aeCharacterView(basic, { key:'basic', label:'Basic', soft:66, hard:80 });
+      view.progress = [{ key:'basic-selector', label:'Basic selector', current:Math.min(view.paidTotal, 300), target:300, achieved:view.paidTotal >= 300 }];
+      out.push(view);
+    }
+    const beginner = rows.filter((pull) => pull.poolType === 'beginner');
+    if (beginner.length) out.push(aeCharacterView(beginner, { key:'beginner', label:'Beginner', soft:40, hard:40 }));
+    const chartered = rows.filter((pull) => pull.poolType === 'chartered');
+    if (chartered.length) {
+      const view = aeCharacterView(chartered, { key:'chartered', label:'Chartered', soft:66, hard:80 });
+      view.progress = aePoolGroups(chartered).map((pool) => {
+        const paid = pool.filter((pull) => !pull.isFree);
+        return {
+          key:'chartered-featured:' + pool[0].poolId,
+          label:(pool[0].poolName || 'Chartered') + ': first featured 6★',
+          current:Math.min(paid.length, 120),
+          target:120,
+          achieved:paid.some((pull) => pull.rank === 6 && aeFeaturedResult(pull) === true),
+        };
+      });
+      out.push(view);
+    }
+    for (const pool of aePoolGroups(rows.filter((pull) => pull.poolType === 'fest-joint'))) {
+      const paid = pool.filter((pull) => !pull.isFree);
+      const view = aeCharacterView(pool, { key:'fest-joint:' + pool[0].poolId, label:pool[0].poolName || 'Fest / Joint', soft:66, hard:80 });
+      view.progress = [{
+        key:'fest-selection:' + pool[0].poolId,
+        label:(pool[0].poolName || 'Fest / Joint') + ': selection reward',
+        current:Math.min(paid.length, 120),
+        target:120,
+        achieved:paid.length >= 120,
+      }];
+      out.push(view);
+    }
+    for (const pool of aePoolGroups(rows.filter((pull) => pull.poolType === 'arsenal'))) out.push(aeArsenalView(pool));
+    if (legacyRows.length) out.push(...buildViewsFor('ae', legacyRows, AE_LEGACY_VIEW_BANNERS, new Set()).filter((view) => view.total));
+    return out.length ? out : [aeCharacterView([], { key:'basic', label:'Basic', soft:66, hard:80 })];
+  }
 
   // One versioned, inspectable script hosted on pengo.gg with a published
   // checksum. Users can either run it quickly from the URL or download and
@@ -1061,7 +1436,7 @@ window.NyxPulls = (function () {
       buildView: function (p) { return buildEndfieldBannerViews(p)[0]; },
       buildViews: buildEndfieldBannerViews,
       importFile: importEndfieldJson,
-      importCsv: function (text) { return importGenericCsv(text, { codeKey:AE_CODE_KEY, defaultBanner:'character', defaultType:'operator', weaponBanner:'weapon', weaponType:'weapon', idPrefix:'ae-csv' }); },
+      importCsv: function (text) { return importGenericCsv(text, { codeKey:AE_CODE_KEY, defaultBanner:'character', defaultType:'operator', weaponBanner:'weapon', weaponType:'weapon', idPrefix:'ae-csv', endfieldProfile:true, maxRecords:AE_STRICT_MAX_RECORDS }); },
     },
   };
 

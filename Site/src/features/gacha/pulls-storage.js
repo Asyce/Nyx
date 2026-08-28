@@ -24,6 +24,25 @@ window.NyxPullStore = (function () {
   const DB_VERSION = 1;
   const PULLS = 'pulls';
   const META = 'meta';
+  const LOCKED_PULL_FIELDS = ['recordType', 'seqId', 'poolId', 'poolName', 'poolType', 'itemId', 'name', 'itemType', 'rarity', 'obtainedAt', 'isNew', 'isFree', 'batchId'];
+
+  function hasOwn(value, key) { return Object.prototype.hasOwnProperty.call(value, key); }
+
+  function copyPull(value) {
+    const out = {
+      id: value.id,
+      banner: value.banner,
+      name: value.name,
+      itemId: value.itemId || '',
+      itemType: value.itemType,
+      rank: value.rank,
+      time: value.time,
+      sourceBanner: value.sourceBanner || '',
+      part: value.part || '',
+    };
+    for (const field of LOCKED_PULL_FIELDS) if (hasOwn(value, field)) out[field] = value[field];
+    return out;
+  }
 
   let dbPromise = null;
 
@@ -58,6 +77,10 @@ window.NyxPullStore = (function () {
     });
   }
 
+  function abortTx(tx) {
+    try { if (tx && typeof tx.abort === 'function') tx.abort(); } catch (e) {}
+  }
+
   function readPulls(game, uid, tx) {
     return openDb().then((db) => {
       const transaction = tx || db.transaction(PULLS, 'readonly');
@@ -69,7 +92,7 @@ window.NyxPullStore = (function () {
           const cursor = req.result;
           if (cursor) {
             const v = cursor.value;
-            out.push({ id: v.id, banner: v.banner, name: v.name, itemId: v.itemId || '', itemType: v.itemType, rank: v.rank, time: v.time, sourceBanner: v.sourceBanner || '', part: v.part || '' });
+            out.push(copyPull(v));
             cursor.continue();
           } else { resolve(out); }
         };
@@ -79,31 +102,62 @@ window.NyxPullStore = (function () {
   }
 
   async function savePulls(game, uid, pulls, meta) {
-    if (!pulls || pulls.length === 0) return { added: 0, skipped: 0 };
+    const hasExportMeta = !!(meta && typeof meta === 'object' && (
+      meta.account && typeof meta.account === 'object'
+      || typeof meta.kind === 'string' && meta.kind
+      || Number.isInteger(meta.version)
+      || typeof meta.exportedAt === 'string' && meta.exportedAt
+      || meta.exportMeta && typeof meta.exportMeta === 'object'
+    ));
+    if (!pulls || pulls.length === 0) {
+      if (!hasExportMeta) return { added: 0, skipped: 0 };
+    }
     const db = await openDb();
     const tx = db.transaction([PULLS, META], 'readwrite');
     const store = tx.objectStore(PULLS);
     let added = 0, skipped = 0;
-    for (const p of pulls) {
-      await new Promise((resolve) => {
+    for (const p of pulls || []) {
+      await new Promise((resolve, reject) => {
         const rec = { game: game, uid: uid, id: p.id, banner: p.banner, name: p.name, itemId: p.itemId || '', itemType: p.itemType, rank: p.rank, time: p.time, sourceBanner: p.sourceBanner || '', part: p.part || '' };
-        const r = store.add(rec);
+        for (const field of LOCKED_PULL_FIELDS) if (hasOwn(p, field)) rec[field] = p[field];
+        let r;
+        try { r = store.add(rec); } catch (error) { abortTx(tx); reject(error); return; }
         r.onsuccess = () => { added++; resolve(); };
-        r.onerror = (e) => { skipped++; e.preventDefault(); resolve(); };
+        r.onerror = (e) => {
+          const error = r.error || (e && e.target && e.target.error);
+          if (error && error.name === 'ConstraintError') { skipped++; if (e && e.preventDefault) e.preventDefault(); resolve(); }
+          else { abortTx(tx); reject(error || new Error('IndexedDB write failed')); }
+        };
       });
     }
     const all = await readPulls(game, uid, tx);
-    const byBanner = {};
+    const byBanner = Object.create(null);
     for (const p of all) byBanner[p.banner] = (byBanner[p.banner] || 0) + 1;
-    tx.objectStore(META).put({
+    const existingMeta = await new Promise((resolve, reject) => {
+      const r = tx.objectStore(META).get([game, uid]);
+      r.onsuccess = () => resolve(r.result || {});
+      r.onerror = () => reject(r.error || new Error('IndexedDB metadata read failed'));
+    });
+    const savedMeta = Object.assign({}, existingMeta, {
       game: game,
       uid: uid,
       importedAt: Date.now(),
       totalPulls: all.length,
       byBanner: byBanner,
-      accountName: meta && meta.accountName ? String(meta.accountName) : '',
-      sourceLabel: meta && meta.sourceLabel ? String(meta.sourceLabel) : '',
-      importKind: meta && meta.importKind ? String(meta.importKind) : '',
+      accountName: meta && hasOwn(meta, 'accountName') ? String(meta.accountName || '') : (existingMeta.accountName || ''),
+      sourceLabel: meta && hasOwn(meta, 'sourceLabel') ? String(meta.sourceLabel || '') : (existingMeta.sourceLabel || ''),
+      importKind: meta && hasOwn(meta, 'importKind') ? String(meta.importKind || '') : (existingMeta.importKind || ''),
+    });
+    if (meta && meta.account && typeof meta.account === 'object') savedMeta.account = Object.assign({}, meta.account);
+    if (meta && typeof meta.kind === 'string' && meta.kind) savedMeta.kind = meta.kind;
+    if (meta && Number.isInteger(meta.version)) savedMeta.version = meta.version;
+    if (meta && typeof meta.exportedAt === 'string' && meta.exportedAt) savedMeta.exportedAt = meta.exportedAt;
+    if (meta && meta.exportMeta && typeof meta.exportMeta === 'object') savedMeta.exportMeta = Object.assign({}, meta.exportMeta);
+    await new Promise((resolve, reject) => {
+      let r;
+      try { r = tx.objectStore(META).put(savedMeta); } catch (error) { abortTx(tx); reject(error); return; }
+      r.onsuccess = resolve;
+      r.onerror = () => reject(r.error || new Error('IndexedDB metadata write failed'));
     });
     await txDone(tx);
     return { added: added, skipped: skipped };
@@ -165,6 +219,7 @@ window.NyxPullStore = (function () {
   }
 
   async function exportGame(game) {
+    if (game === 'ae') throw new Error('Endfield pull history stays in this browser and cannot be synced.');
     const summaries = await listSummaries(game);
     const accounts = [];
     for (const meta of summaries) {
@@ -182,6 +237,9 @@ window.NyxPullStore = (function () {
 
   async function importBundle(bundle, opts) {
     if (!bundle || !Array.isArray(bundle.accounts)) throw new Error('Sync payload is not a pull-history bundle.');
+    if (bundle.game === 'ae' || bundle.accounts.some((account) => account?.meta?.game === 'ae')) {
+      throw new Error('Endfield pull history stays in this browser and cannot be synced.');
+    }
     let added = 0;
     let skipped = 0;
     for (const account of bundle.accounts) {

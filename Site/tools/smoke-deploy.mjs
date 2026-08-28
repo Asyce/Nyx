@@ -395,6 +395,7 @@ async function main() {
       ['/zzz', 'Zenless Zone Zero'],
       ['/wuwa', 'Wuthering Waves'],
       ['/endfield', 'Arknights: Endfield'],
+      ['/endfield/tracker', 'Arknights: Endfield'],
       ['/nyx/codes', 'Nyx'],
       ['/genshin/materials', 'Genshin Impact'],
       ['/genshin/database', 'Genshin Impact'],
@@ -435,6 +436,7 @@ async function main() {
   const hsrAchievementScriptText = hsrAchievementScript.toString('utf8');
   const hsrAchievementScriptHash = crypto.createHash('sha256').update(hsrAchievementScript).digest('hex');
   const bundle = await readDeployText('dist/game-page.bundle.js');
+  const headers = await readDeployText('_headers');
   const indexHtml = await readDeployText('index.html');
   const version = JSON.parse(await readDeployText('version.json'));
   const gamePages = ['genshin.html', 'hsr.html', 'zzz.html', 'wuwa.html', 'endfield.html', 'nyx.html'];
@@ -458,6 +460,9 @@ async function main() {
   if (!bundle.includes('Quick PowerShell command')) throw new Error('bundle missing quick import method copy');
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');
   if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');
+  if (!bundle.includes('/v2/pull-import/') || !bundle.includes('Review Endfield history before saving') || !bundle.includes('pengo-pulls-v1')) throw new Error('bundle missing the Endfield launcher pull receiver');
+  if (!bundle.includes('Endfield pull history stays in this browser and cannot be synced.')) throw new Error('bundle missing the Endfield local-only sync guard');
+  if (!/connect-src 'self' http:\/\/127\.0\.0\.1:\*/.test(headers) || /connect-src[^;\r\n]*localhost/.test(headers)) throw new Error('deploy headers are missing the exact Endfield loopback CSP');
   if (!bundle.includes('Monsters and Items could not be loaded.')) throw new Error('bundle missing lazy Database retry state');
   if (!bundle.includes('database/serenitea-pot')) throw new Error('bundle missing canonical nested Database routes');
   if (!bundle.includes('database/wonderland')) throw new Error('bundle missing Wonderland Database route');

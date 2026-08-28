@@ -11,7 +11,7 @@ test('history workflow is isolated, twice-weekly, serialized, and scoped', () =>
   assert.match(workflow, /group: pengo-deploy/);
   assert.match(workflow, /npm run banners:history:test/);
   assert.match(workflow, /npm run banners:history/);
-  assert.match(workflow, /git add Database\/BannerHistory Database\/Activities Site\/src\/features\/gacha\/pulls-banners-gi\.js/);
+  assert.match(workflow, /git add Database\/BannerHistory Database\/Activities Site\/src\/features\/gacha\/pulls-banners-gi\.js Site\/src\/features\/gacha\/pulls-banners-ae\.js/);
   assert.doesNotMatch(workflow, /codes\/|banners\/scrape\.cjs/);
   const commit = workflow.indexOf('git commit -m');
   const build = workflow.indexOf('npm run build:deploy');

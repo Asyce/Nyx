@@ -4354,6 +4354,9 @@ function routeFromLocation(){
     const first = parts[0] || '';
     const key = ROUTE_SEGMENT_TO_KEY[first] || HREF_TO_KEY['/' + first] || (first === '' ? 'nyx' : undefined);
     if (!key) return {};
+    if (key === 'ae' && window.PengoPullLauncherBridge?.hasPending?.()) {
+      return { key, tab:'tracker', character:null };
+    }
     const sub = parts[1] || '';
     if (key === 'nyx') {
       const nyxTab = coerceTabForKey(key, ROUTE_TO_NYX_TAB[sub] || 'overview');

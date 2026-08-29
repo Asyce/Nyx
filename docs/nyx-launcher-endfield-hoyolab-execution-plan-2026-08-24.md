@@ -386,19 +386,20 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 
 ## Phase 12 - Endfield Playtime Stats
 
-1. Port only useful rules into C#/WinUI; never execute or bundle the reference PowerShell.
-2. Default to `%USERPROFILE%\AppData\LocalLow\Gryphline` with a native folder picker.
-3. Scan newest-first `games*.log`, skip reparse points, and cap at 32 files, 64 MiB, 1,000,000 lines, or 10 seconds.
-4. Parse gameplay (`Create game process ... Endfield.exe` to `Child process exits`) separately from launcher activity (`enter main` to `leave main`).
-5. Pair only within a file, warn about unmatched markers, deduplicate rotations, reject ambiguous/non-monotonic dates, and accept positive sessions no longer than seven days.
-6. Reuse the exact Endfield session pump for future tracking; persist pending start but commit only after the end. Prefer Nyx boundaries when within 60 seconds of historical boundaries.
-7. Calculate verified total, sessions, active days, averages/extremes, streak, duration buckets, hourly launches, weekday/month time, and 22:00-06:00 play, correctly splitting midnight/year/daylight-saving boundaries.
-8. Separately show launcher-open time, visits, game-launch visits, and launcher-only visits. Never add launcher time to gameplay.
-9. Store normalized intervals only and add an accessible native dialog with normal, empty, scanning, capped, corrupt, and running-game states.
+1. Treat the reference PowerShell as research only. Never execute, bundle, or copy its broad marker matching.
+2. Do not read launcher or Unity logs for gameplay duration. Remove historical scanning, the folder picker, launcher-activity totals, and every estimate based on generic launcher callbacks; the retained files do not contain complete, correlated Endfield start and end records.
+3. Reuse the existing exact Endfield process observer. Establish an exact absent baseline, then record a session only from uninterrupted `Absent -> Present -> Absent` evidence observed during one Nyx service lifetime; any uncertain sample during a tracked session makes it incomplete.
+4. Exclude a game already running when Nyx starts until its first exact absence. On the first exact observation after a Nyx restart, clear any persisted prior-run start and count it once as incomplete; never invent a cross-restart end time or reuse that start for a later launch.
+5. Persist only normalized process-observed gameplay intervals, a pending start used to detect an interrupted Nyx run, and a nonnegative saturating incomplete-session count. Discard every pre-redesign v6 interval carrying the rejected legacy `kind` field instead of relabelling guessed history as tracked time. Persistence failures retry without losing a valid boundary or double-counting an incomplete session.
+6. Calculate tracked total, sessions, active days, averages/extremes, streak, duration buckets, hourly launches, weekday/month time, and 22:00-06:00 play from complete observed intervals only, correctly splitting midnight/year/daylight-saving boundaries.
+7. Use an accessible close-only native dialog. Label the value `Tracked total`, show `Incomplete tracked sessions`, and visibly state whether the current session is tracked, excluded, or waiting for a failed save to retry. State exactly: `Nyx counts only complete sessions whose exact Endfield process start and end it observed during the same Nyx run. Earlier playtime is unavailable; incomplete sessions are excluded.`
+8. When no complete session exists, state: `No complete sessions have been tracked yet. Keep Nyx open before starting Endfield and until the game closes.`
+9. Prove same-run tracking, startup-running exclusion, both prior-pending startup states, invalid-interval handling, persistence retries without double counting, rejected-v6 interval removal, state migration/normalization, exact disclosure, and complete absence of log-scan/history controls.
 
 ### Release C
 
-- Deploy achievement support only if STOP 10 passed, package Playtime, and run full Endfield security, five-game, live `/endfield`, version, package, R2, and persistence verification.
+- Deploy achievement support only if STOP 10 passed. Package process-observed Playtime and run full Endfield security, five-game, live `/endfield`, version, package, R2, and persistence verification.
+- With Nyx and Endfield initially closed, keep Nyx open, launch and close one short Endfield session, require exactly one new session with a plausible wall-clock duration, restart Nyx, and require unchanged saved totals. A historical lifetime total is not an acceptance criterion because no trustworthy source exists.
 
 ## Locked HoYo privacy and sync contracts
 

@@ -415,12 +415,12 @@ Start only after Release C is published and marked complete.
 
 1. Add one small adapter beside the existing GameData scraper with no new dependency/workflow.
 2. Run it in the existing scheduled GameData workflow. Shadow output is artifact/summary only; publish no HoYo-derived data.
-3. Observe three genuine upstream changes including a version boundary. Failures remain non-blocking and existing data stays last-known-good.
-4. Promote fields individually only after complete coverage.
+3. Accept one reviewed healthy hosted baseline for the shadow-only stage. Continue observing normal scheduled runs opportunistically, but do not block account stages while waiting for new content.
+4. Promote no fields in this stage. If a field is proposed for promotion or an existing source is proposed for retirement later, require complete coverage plus three genuine upstream changes including a version boundary at that later gate.
 
 ### STOP 13
 
-- Items 1-4 and the static-source comparison checks pass; sanitized evidence proves no publication, non-blocking last-known-good failure behavior, three genuine upstream changes including a version boundary, and complete coverage for every promoted field.
+- Items 1-4 and the static-source comparison checks pass; sanitized hosted evidence proves no publication and non-blocking last-known-good failure behavior. No field is promoted, so the shadow stage does not wait for unreleased content and does not block Phase 14. Any later field promotion or source retirement still requires complete coverage and three genuine upstream changes including a version boundary.
 
 ## Phase 14 - Local HSR multi-role bundles
 

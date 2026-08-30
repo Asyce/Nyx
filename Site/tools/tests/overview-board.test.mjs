@@ -110,13 +110,14 @@ test('what is live comes from the official history, not the community scrape', (
   // Next comes from official history too — it is the only source that lists the
   // featured 4-stars (Alyosha on both Genshin 7.0 Phase 1 banners).
   assert.match(generator, /const next = keepLabel\(official\.next, scrapedNext\)/);
+  assert.match(generator, /const upcomingRows = key === 'ae' \? laterRows : \[\]/);
   // Deliberately no assertion that the shipped current phase is still running:
   // the payload is rebuilt on a schedule, so between a phase rollover and the
   // next refresh it is legitimately behind. Asserting freshness here would fail
   // the build at every phase boundary.
 });
 
-test('Endfield loss pool follows Chartered banner history', async () => {
+test('Endfield loss pool and concurrent banners follow canonical history', async () => {
   const history = JSON.parse(await readFile(path.resolve(root, '../Database/BannerHistory/ae.json'), 'utf8'));
   const box = { window:{} };
   vm.createContext(box);
@@ -124,9 +125,11 @@ test('Endfield loss pool follows Chartered banner history', async () => {
     ${sourceFunction('endfieldLossPool', generator)}
     ${sourceFunction('latestBannerRow', generator)}
     ${sourceFunction('endfieldLiveLossPool', generator)}
+    ${sourceFunction('officialLiveGroups', generator)}
     window.endfieldLossPool = endfieldLossPool;
     window.latestBannerRow = latestBannerRow;
     window.endfieldLiveLossPool = endfieldLiveLossPool;
+    window.officialLiveGroups = officialLiveGroups;
   `, box);
 
   const earliestStart = (record) => Math.min(...Object.values(record.windowsByRegion || {})
@@ -162,6 +165,18 @@ test('Endfield loss pool follows Chartered banner history', async () => {
   assert.equal(box.window.endfieldLiveLossPool(history.records, rollover).current.name, eligible.at(-1).primary.name);
   assert.equal(box.window.endfieldLiveLossPool(history.records, rollover.reverse()).current.name, eligible.at(-1).primary.name);
 
+  const overlapAt = Date.parse('2026-09-25T00:00:00.000Z');
+  const overlapRows = history.records
+    .filter((record) => ['Winter Hunt', 'Resplendent Spectrum'].includes(record.name))
+    .map((record) => {
+      const window = record.windowsByRegion.asia;
+      return { record, start:Date.parse(window.start), end:Date.parse(window.end) };
+    })
+    .filter((row) => row.start <= overlapAt && overlapAt < row.end);
+  const overlap = box.window.officialLiveGroups('ae', overlapRows);
+  assert.equal(overlap.currentRows[0].record.name, 'Resplendent Spectrum');
+  assert.deepEqual(Array.from(overlap.concurrentRows, (rows) => rows[0].record.name), ['Winter Hunt']);
+
   const primaryless = history.records
     .filter((record) => record.bannerType === 'character' && !record.permanent && !(record.featured || []).some((entry) => entry.primary === true))
     .map((record) => ({ record, start:earliestStart(record) }))
@@ -175,7 +190,7 @@ test('Endfield loss pool follows Chartered banner history', async () => {
     primaryless,
   ]);
   assert.equal(filteredPool.current.name, preceding.primary.name);
-  assert.match(generator, /const pool = key === 'ae' \? endfieldLiveLossPool\(records, live\) : null/);
+  assert.match(generator, /const pool = key === 'ae' \? endfieldLiveLossPool\(records, rows\) : null/);
 });
 
 test('a patch-only roadmap character joins the known second phase', () => {
@@ -247,7 +262,6 @@ test('the overview renders five banner columns and folds the old rail into the g
   assert.match(appSource, /<NyxBannerColumns onOpenMaterial=\{onOpenMaterial\}/);
   assert.match(appSource, /function NyxBannerColumn\(\{ cfg, onOpenMaterial, now \}\)/);
   // The hub lists headline units only, each group stamped with its own window.
-  assert.match(appSource, /const units = \[\.\.\.column\.heroes, \.\.\.column\.others\]/);
   assert.match(appSource, /className="nyx-ban-phase-when"/);
 });
 
@@ -293,10 +307,13 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   assert.match(sharedCss, /\.gp-ovb-modal::backdrop/);
   assert.match(sharedCss, /@media \(max-width:640px\)\{[\s\S]*?\.gp-ovb-loss-sequence/);
   assert.match(generator, /function endfieldLossPool/);
-  assert.match(generator, /current\.lossPool = \{/);
+  assert.match(generator, /phase\.lossPool = \{/);
   assert.match(generator, /normalizeBannerCharacter\(rosters, key, pool\.current, runCounts\)/);
   // Endfield fills columns 2-4 with what is coming and drops the fifth.
-  assert.match(appSource, /const aeUpcoming = lossPool \? laterUnits\.slice\(0, 3\) : \[\]/);
+  assert.match(appSource, /\[\.\.\.board\.concurrent, board\.next, \.\.\.board\.later\][\s\S]{0,180}column\.heroes\.map[\s\S]{0,180}\.slice\(0, 3\)/);
+  assert.match(appSource, /heading=\{aeUpcoming\[0\]\?\.label \|\| \(aeUpcoming\.length \? 'Upcoming' : null\)\}/);
+  assert.match(appSource, /cfg\.key === 'ae' \? column\.heroes : \[\.\.\.column\.heroes, \.\.\.column\.others\]/);
+  assert.match(appSource, /board\.concurrent\.forEach/);
   assert.match(appSource, /if \(!lossPool\) \{/);
   assert.match(appSource, /const aeColumn = \(index\)/);
   assert.match(sharedCss, /\.gp-oban-supports-label\{/);
@@ -415,6 +432,21 @@ test('short overlap banners do not invent an extra phase', () => {
   assert.deepEqual(Array.from(box.window.starts([0, 9 * day, 21 * day])), [0, 21 * day]);
 });
 
+test('Endfield ships every scheduled future banner in order', () => {
+  assert.deepEqual([banners.ae.next.phase, banners.ae.next.characters[0].name], ['Winter Hunt', 'Typhoeus']);
+  assert.match(banners.ae.next.characters[0].art, /Database\/EndfieldWiki\/endfield\/assets\/operators\/typhoeus\/splash\.png$/);
+  assert.deepEqual(Array.from(banners.ae.next.lossPool.previous, (row) => row.name), ['Liino', 'Arcane']);
+  assert.deepEqual([banners.ae.upcoming[0].phase, banners.ae.upcoming[0].characters[0].name], ['Resplendent Spectrum', 'Yvonne']);
+  assert.deepEqual(Array.from(banners.ae.upcoming[0].lossPool.previous, (row) => row.name), ['Typhoeus', 'Liino']);
+  for (const phase of [banners.ae.next, ...banners.ae.upcoming]) {
+    for (const unit of phase?.characters || []) {
+      assert.doesNotMatch([unit.icon, unit.art].filter(Boolean).join(' '), /cdn\.perlica\.moe/);
+    }
+  }
+  assert.doesNotMatch(appSource, /status:row\.column\.status === 'live' \? 'live' : 'upcoming',[\s\S]{0,100}others:\[\]/);
+  assert.doesNotMatch(appSource, /status:row\.column\.status === 'live' \? 'live' : 'upcoming',[\s\S]{0,100}supportLabel:null/);
+});
+
 test('the five-column model matches each requested game roadmap', () => {
   const phaseHelpers = appSource.slice(
     appSource.indexOf('const BANNER_PHASES_PER_PATCH'),
@@ -482,12 +514,14 @@ test('the five-column model matches each requested game roadmap', () => {
   assert.deepEqual(names(wuwa.current.support), []);
 });
 
-test('banner art overrides survive automatic data regeneration', () => {
+test('automatic banner art wins over manual fallbacks', () => {
   const pearl = banners.hsr?.roadmap?.find((row) => row.name === 'Pearl');
+  const pearlBeta = banners.hsr?.beta?.find((row) => row.name === 'Pearl');
   const qingxiao = phases(banners.wuwa).flatMap((phase) => phase.characters || []).find((row) => row.name === 'Qingxiao');
   const vesna = banners.gi?.roadmap?.find((row) => row.name === 'Vesna');
   const vodyanitsa = banners.gi?.roadmap?.find((row) => row.name === 'Vodyanitsa');
-  assert.equal(pearl?.art, '/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png');
+  assert.equal(pearl?.art, '../../Database/GameData/hsr/assets/characters/draw-card/1503.webp');
+  assert.equal(pearlBeta?.art, '../../Database/GameData/hsr/assets/characters/draw-card/1503.webp');
   assert.equal(qingxiao?.icon, '/assets/banners/wuwa/qingxiao-icon-4a0339409ff85cad.png');
   assert.equal(vesna?.art, '../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp');
   assert.equal(vodyanitsa?.art, '../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp');

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T20:14:44.299Z",
+  "generatedAt": "2026-08-30T10:45:40.733Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-28T20:14:02.656Z",
+      "lastSuccessfulFetch": "2026-08-30T10:45:40.733Z",
       "codes": [
         {
           "code": "Y1INABQB6DEX",
@@ -118,36 +118,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-12T07:46:42.167Z"
-        },
-        {
-          "code": "Everwinter",
-          "rewards": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "added": "2026-07-31",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-16T06:24:00.973Z"
-        },
-        {
-          "code": "Odettte0812",
-          "rewards": "x100 Primogems and x50,000 Mora",
-          "added": "2026-07-31",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-01T21:03:08.107Z"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "rewards": "x100 Primogems and x5 Hero S Wit",
-          "added": "2026-07-31",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-16T06:24:00.973Z"
         }
       ]
     },
@@ -158,7 +128,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-28T20:14:02.715Z",
+      "lastSuccessfulFetch": "2026-08-30T10:45:29.653Z",
       "codes": [
         {
           "code": "SUNSWEPTROBIN",
@@ -179,36 +149,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-26T10:25:41.503Z"
-        },
-        {
-          "code": "2TKRKAR6YG2K",
-          "rewards": "100 Stellar Jade and 50k Credits",
-          "added": "2026-08-14",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": false,
-          "firstSeen": "2026-08-14T21:17:21.162Z"
-        },
-        {
-          "code": "LSJ9JARPZH33",
-          "rewards": "100 Stellar Jade and Five Traveler S Guides",
-          "added": "2026-08-14",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": false,
-          "firstSeen": "2026-08-16T06:24:23.748Z"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "rewards": "100 Stellar Jade and Four Refined Aether",
-          "added": "2026-08-14",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "premium": true,
-          "premium100": true,
-          "cwSeen": false,
-          "firstSeen": "2026-08-16T06:24:23.748Z"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -295,16 +235,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-07-05T17:19:05.883Z"
-        },
-        {
-          "code": "PSJQKBQPYGMT",
-          "rewards": "50 Stellar Jade and 10k Credits",
-          "added": "2026-07-20",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-05T18:21:52.854Z"
         }
       ]
     },
@@ -315,7 +245,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-28T20:14:44.298Z",
+      "lastSuccessfulFetch": "2026-08-30T10:45:31.248Z",
       "codes": [
         {
           "code": "FLINTWORKS",
@@ -382,52 +312,8 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-28T20:14:02.164Z",
-      "codes": [
-        {
-          "code": "ETERNALFLAME",
-          "rewards": "Astrite x100, Advanced Energy Core x3, Medium Nutrient Block x2",
-          "added": "2026-08-07",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "mentions": 2,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-07T11:46:34.349Z"
-        },
-        {
-          "code": "HEARTOFSWORD",
-          "rewards": "Astrite x100, Advanced Resonance Potion x3, Medium Revival Inhaler x2",
-          "added": "2026-08-07",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "mentions": 2,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-07T11:46:34.349Z"
-        },
-        {
-          "code": "THEANSWER",
-          "rewards": "Astrite x100, Advanced Enclosure Tank II x2, Shell Credit x20000",
-          "added": "2026-08-07",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "mentions": 2,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-08-07T11:46:34.349Z"
-        },
-        {
-          "code": "F5F4D3B2A2",
-          "rewards": "Escape From Duckov Themed Bike Skin",
-          "added": "2026-07-22",
-          "sourceUrl": "https://nexus-codes.app/copy/?code=F5F4D3B2A2",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-07-22T16:27:55.829Z"
-        }
-      ]
+      "lastSuccessfulFetch": "2026-08-30T10:45:32.048Z",
+      "codes": []
     },
     {
       "slug": "endfield",
@@ -436,7 +322,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-28T20:14:02.136Z",
+      "lastSuccessfulFetch": "2026-08-30T10:45:33.648Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

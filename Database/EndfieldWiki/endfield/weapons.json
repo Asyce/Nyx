@@ -2,7 +2,7 @@
   "provider": "EndfieldWiki",
   "game": "endfield",
   "gameName": "Arknights: Endfield",
-  "scrapedAt": "2026-08-16T05:52:35.050Z",
+  "scrapedAt": "2026-08-30T10:44:31.770Z",
   "source": {
     "site": "endfield.wiki.gg",
     "api": "MediaWiki API rendered Weapon pages",
@@ -1434,7 +1434,7 @@
       "sourceUrl": "https://endfield.wiki.gg/wiki/Farsight",
       "rarity": 6,
       "weaponType": "Sword",
-      "source": "Reward: Events",
+      "source": "Tribute of Companionship",
       "icon": {
         "path": "EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
         "url": "https://endfield.wiki.gg/images/Farsight_icon.png?73ffe7"

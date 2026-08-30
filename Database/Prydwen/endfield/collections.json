@@ -4,11 +4,11 @@
     "label": "Characters",
     "sourcePath": "/arknights-endfield/characters",
     "file": "Prydwen/endfield/collections/characters.json",
-    "detailPagesTotal": 31,
-    "detailPagesScraped": 31,
+    "detailPagesTotal": 32,
+    "detailPagesScraped": 32,
     "staleDetailPagesRemoved": 0,
-    "entries": 31,
-    "assets": 49
+    "entries": 32,
+    "assets": 50
   },
   {
     "id": "weapons",
@@ -18,8 +18,8 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 76,
-    "assets": 77
+    "entries": 77,
+    "assets": 78
   },
   {
     "id": "gear",

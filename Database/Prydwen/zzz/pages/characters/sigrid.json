@@ -9,12 +9,12 @@
   "name": "Sigrid",
   "title": "Sigrid Best Build Guide",
   "sourcePath": "/zenless/characters/sigrid",
-  "contentStatus": "beta",
+  "contentStatus": "live",
   "statusLabels": [
-    "3.1"
+    "New"
   ],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "updatedText": "14/August/2026",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "19/August/2026",
   "meta": {
     "title": "Sigrid Best Build Guide | Zenless Zone Zero",
     "description": ""
@@ -55,6 +55,306 @@
       "path": "Prydwen/zzz/assets/icons/attack-3183e920376c.webp",
       "width": 30,
       "height": 30
+    },
+    {
+      "id": "880f190c8aa9",
+      "sourceHash": "880f190c8aa9",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-core",
+      "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "id": "13fff798e82d",
+      "sourceHash": "13fff798e82d",
+      "kind": "icons",
+      "name": "Basic",
+      "fileStem": "icon-basic",
+      "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "f3bbacf4beb6",
+      "sourceHash": "f3bbacf4beb6",
+      "kind": "icons",
+      "name": "Dodge",
+      "fileStem": "icon-dodge",
+      "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "de0f0cad1e72",
+      "sourceHash": "de0f0cad1e72",
+      "kind": "icons",
+      "name": "Assist",
+      "fileStem": "icon-assist-m",
+      "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "954b8d0b61b7",
+      "sourceHash": "954b8d0b61b7",
+      "kind": "icons",
+      "name": "Special",
+      "fileStem": "icon-special-full",
+      "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "803b765175bc",
+      "sourceHash": "803b765175bc",
+      "kind": "icons",
+      "name": "qte",
+      "fileStem": "icon-ulti-full",
+      "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "id": "9f68a61db8c5",
+      "sourceHash": "9f68a61db8c5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-special",
+      "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "d3cae9ba5d45",
+      "sourceHash": "d3cae9ba5d45",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-ulti",
+      "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "94a5940d48d5",
+      "sourceHash": "94a5940d48d5",
+      "kind": "icons",
+      "name": "Core",
+      "fileStem": "icon-assist",
+      "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+      "width": 40,
+      "height": 40
+    },
+    {
+      "id": "c008677c5105",
+      "sourceHash": "c008677c5105",
+      "kind": "characters",
+      "name": "Sigrid",
+      "fileStem": "sigrid-full",
+      "path": "Prydwen/zzz/assets/characters/sigrid-c008677c5105.webp",
+      "width": 600,
+      "height": 750
+    },
+    {
+      "id": "b1058e3ac1d7",
+      "sourceHash": "b1058e3ac1d7",
+      "kind": "characters",
+      "name": "Norma",
+      "fileStem": "norma",
+      "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "1cdf4d671727",
+      "sourceHash": "1cdf4d671727",
+      "kind": "characters",
+      "name": "Sunna",
+      "fileStem": "sunna",
+      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "85906a50e3db",
+      "sourceHash": "85906a50e3db",
+      "kind": "w-engines",
+      "name": "Knight's Extolment",
+      "fileStem": "lumiflux-image",
+      "path": "Prydwen/zzz/assets/w-engines/knights-extolment-85906a50e3db.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "bdd5620eca4f",
+      "sourceHash": "bdd5620eca4f",
+      "kind": "w-engines",
+      "name": "The Brimstone",
+      "fileStem": "the-brimstone-image",
+      "path": "Prydwen/zzz/assets/w-engines/the-brimstone-bdd5620eca4f.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "6cf131e8a6b4",
+      "sourceHash": "6cf131e8a6b4",
+      "kind": "w-engines",
+      "name": "Severed Innocence",
+      "fileStem": "severed-innocence-image",
+      "path": "Prydwen/zzz/assets/w-engines/severed-innocence-6cf131e8a6b4.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "4018e18fe53d",
+      "sourceHash": "4018e18fe53d",
+      "kind": "w-engines",
+      "name": "Starlight Engine",
+      "fileStem": "starlight-engine-image",
+      "path": "Prydwen/zzz/assets/w-engines/starlight-engine-4018e18fe53d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9b0991be94a3",
+      "sourceHash": "9b0991be94a3",
+      "kind": "drive-discs",
+      "name": "Hormone Punk",
+      "fileStem": "set-hormone",
+      "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "69d899f282ca",
+      "sourceHash": "69d899f282ca",
+      "kind": "drive-discs",
+      "name": "Puffer Electro",
+      "fileStem": "set-puffer",
+      "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "34586efbf701",
+      "sourceHash": "34586efbf701",
+      "kind": "drive-discs",
+      "name": "Branch & Blade Song",
+      "fileStem": "set-branch",
+      "path": "Prydwen/zzz/assets/drive-discs/branch-blade-song-34586efbf701.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "47b453ad83b8",
+      "sourceHash": "47b453ad83b8",
+      "kind": "drive-discs",
+      "name": "Astral Voice",
+      "fileStem": "set-astral",
+      "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "45b67322c307",
+      "sourceHash": "45b67322c307",
+      "kind": "drive-discs",
+      "name": "Polar Metal",
+      "fileStem": "set-polar",
+      "path": "Prydwen/zzz/assets/drive-discs/polar-metal-45b67322c307.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "965abc403807",
+      "sourceHash": "965abc403807",
+      "kind": "drive-discs",
+      "name": "Dawn's Bloom",
+      "fileStem": "set-dawn",
+      "path": "Prydwen/zzz/assets/drive-discs/dawns-bloom-965abc403807.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b1302d794ba",
+      "sourceHash": "5b1302d794ba",
+      "kind": "characters",
+      "name": "Dialyn",
+      "fileStem": "dialyn",
+      "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "05437fe51e49",
+      "sourceHash": "05437fe51e49",
+      "kind": "characters",
+      "name": "Lycaon",
+      "fileStem": "lycaon",
+      "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f848a605f8bc",
+      "sourceHash": "f848a605f8bc",
+      "kind": "characters",
+      "name": "Rina",
+      "fileStem": "rina",
+      "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "98d8d659c143",
+      "sourceHash": "98d8d659c143",
+      "kind": "characters",
+      "name": "Astra Yao",
+      "fileStem": "astra-yao",
+      "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "118e26488ea7",
+      "sourceHash": "118e26488ea7",
+      "kind": "characters",
+      "name": "Lighter",
+      "fileStem": "lighter",
+      "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "3e8d48ac0bd4",
+      "sourceHash": "3e8d48ac0bd4",
+      "kind": "characters",
+      "name": "Ju Fufu",
+      "fileStem": "ju-fufu",
+      "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "38209d15b7c0",
+      "sourceHash": "38209d15b7c0",
+      "kind": "characters",
+      "name": "Sigrid",
+      "fileStem": "sigrid",
+      "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2541747ebcdb",
+      "sourceHash": "2541747ebcdb",
+      "kind": "characters",
+      "name": "Nangong Yu",
+      "fileStem": "nangong-yu",
+      "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -62,7 +362,7 @@
       "id": "sigrid-best-build-guide-0",
       "level": 1,
       "heading": "Sigrid Best Build Guide",
-      "text": "Last updated: 14/August/2026",
+      "text": "Last updated: 19/August/2026",
       "assets": [
         {
           "id": "30ecebbe136b",
@@ -112,112 +412,665 @@
       "assets": []
     },
     {
-      "id": "calculations-8",
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 3.1\n\n Last build update\n Patch 3.1\n\n Last teams update\n Patch 3.1\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "assets": []
+    },
+    {
+      "id": "calculations-9",
       "level": 2,
       "heading": "Calculations",
       "text": "To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile",
       "assets": []
     },
     {
-      "id": "core-skills-9",
+      "id": "core-skills-10",
       "level": 2,
       "heading": "Core skills",
-      "text": "Sigrid core skills aren't available yet. They will be added once more information about the character are released.",
-      "assets": []
+      "text": "Core Passive Sky Knight\n\n Lv. 1\n\n The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered Unbridled Spear attacks.\n Whenever Sigrid uses and hits an enemy with any Unbridled Spear in combat while not in the Aerial Patrol Spear state, she enters the Aerial Patrol Spear state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the Aerial Patrol Spear state, when Sigrid hits an enemy with an Unbridled Spear skill, the Aerial Patrol Spear state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\n When triggering or refreshing Aerial Patrol Spear, its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s .\n When Aerial Patrol Spear ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing Aerial Patrol Spear increases Sigrid's CRIT Rate by 33% for 8s . Repeated triggers extend the duration by 8s , up to a maximum of 40s .\nWhen Sigrid hits a Stunned enemy while in Aerial Patrol Spear, the Stun DMG Multiplier of her DMG dealt to the target is increased by 20% .\n\n BASE ATK : 0\n\n Additional Ability Legion of the Skies\n\n When another character in your squad is a Support or Stun character:\n Sigrid's ATK increases by 120 . This effect scales with character level, with each level providing an additional increase of 12 , up to a maximum increase of 840 .\n DMG increases by 15% when hitting enemies in the Contamination state.",
+      "assets": [
+        {
+          "id": "880f190c8aa9",
+          "sourceHash": "880f190c8aa9",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-core",
+          "path": "Prydwen/zzz/assets/icons/core-880f190c8aa9.webp",
+          "width": 32,
+          "height": 32
+        }
+      ]
     },
     {
-      "id": "skills-10",
+      "id": "skills-11",
       "level": 2,
       "heading": "Skills",
-      "text": "Sigrid skills aren't available yet. They will be added soon!",
-      "assets": []
+      "text": "Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Frost-Tipped Spear\n\n Press to activate:\nLaunches up to four forward slashes, dealing Ice DMG.\nThe 4th hit of Basic Attack: Frost-Tipped Spear is considered an Unbridled Spear attack.\n Multipliers\n\n Basic Attack: Converging Spear\n\n While in the Aerial Patrol Spear state and Basic Attack: Converging Spear can be used, hold to activate:\nLaunches the corresponding Basic Attack: Converging Spear based on the current stage, dealing Ice DMG.\nBasic Attack: Converging Spear has three stages. Each use advances it to the next stage. After performing the third stage of Basic Attack: Converging Spear, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of Basic Attack: Converging Spear, she blocks with her shield. On a successful block, the attack's DMG is negated, the next Basic Attack: Converging Spear deals 100% more Daze, the Aerial Patrol Spear state is refreshed, and she gains one use of Basic Attack: Converging Spear. Press after a successful block to perform the corresponding stage of Basic Attack: Converging Spear.\nBasic Attack: Converging Spear performed after Basic Attack: Frost-Tipped Spear retains the current stage of Basic Attack: Frost-Tipped Spear.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt level is increased while using this skill.\nCharacter is invulnerable during the third stage of Basic Attack: Converging Spear.\n Multipliers\n\n Dodge: Cloudstep\n\n Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Windchase\n\n Press during a dodge to activate:\nPerforms a forward cleaving slash, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Counterthrust\n\n Press during a Perfect Dodge to activate:\nCondenses frost around the spearhead before unleashing a powerful counterattack, dealing Ice DMG.\nWhen performed after Basic Attack: Frost-Tipped Spear, Dodge Counter: Counterthrust retains the current stage of Basic Attack: Frost-Tipped Spear.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Frostflower\n\n Press to activate:\nPerforms three forward thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Scattered Jade\n\n With enough Energy and while not in the Aerial Patrol Spear state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Shattered Jade\n\n With enough Energy and while in the Aerial Patrol Spear state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Encroaching Ice\n\n When a Chain Attack is triggered, select the character to activate:\nPerforms a powerful piercing attack against enemies ahead, dealing massive Ice DMG.\nUpon activating this skill, gains the Tempered effect, increasing the DMG dealt by subsequent Basic Attack: Converging Spear attacks by 20% for 50s.\nWhen the current skill hits a Stunned elite or boss enemy for the first time, the current stage of Basic Attack: Converging Spear is recorded and then reset before entering the Formation Breaker state. While in Formation Breaker, Aerial Patrol Spear's duration will not be reduced. Hold Icon_Normal to continuously activate the 1st through 3rd stage of Basic Attack: Converging Spear. After activating the 3rd stage of Basic Attack: Converging Spear, Formation Breaker ends and Basic Attack: Converging Spear's stage is restored to the recorded stage.\nFormation Breaker can trigger at most once against the same target before the target recovers from Stun.\nThis skill is considered an Unbridled Spear attack.\nWhile in the Formation Breaker state, Basic Attack: Converging Spear does not trigger the Chain Attack window when hitting Stunned enemies.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Frozen Heavens\n\n When Decibel Rating is at Maximum, press to activate:\nGathers the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Iron Sentinel\n\n When the active character is launched, press to activate:\nCondenses ice before lunging forward, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Dauntless Cold\n\n When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Devouring Frost\n\n Press after a Defensive Assist to activate:\nSwings the spear upward before following with a powerful downward attack, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "qte",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/qte-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "9f68a61db8c5",
+          "sourceHash": "9f68a61db8c5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-special",
+          "path": "Prydwen/zzz/assets/icons/core-9f68a61db8c5.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "d3cae9ba5d45",
+          "sourceHash": "d3cae9ba5d45",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-ulti",
+          "path": "Prydwen/zzz/assets/icons/core-d3cae9ba5d45.webp",
+          "width": 40,
+          "height": 40
+        },
+        {
+          "id": "94a5940d48d5",
+          "sourceHash": "94a5940d48d5",
+          "kind": "icons",
+          "name": "Core",
+          "fileStem": "icon-assist",
+          "path": "Prydwen/zzz/assets/icons/core-94a5940d48d5.webp",
+          "width": 40,
+          "height": 40
+        }
+      ]
     },
     {
-      "id": "mindscapes-11",
+      "id": "mindscapes-12",
       "level": 2,
       "heading": "Mindscapes",
-      "text": "M1\n\n Mindscape 1",
+      "text": "M1\n Long, Long Ago\n Mindscape 1\n\n Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the Aerial Patrol Spear and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25% .\n\n M2\n Legend's First Act\n Mindscape 2\n\n PEN Ratio of Unbridled Spear attacks and Basic Attack: Converging Spear increases by 24% . The duration of Aerial Patrol Spear is extended by 2s . Sigrid's Decibel Generation Rate increases by 10% .\n\n M3\n Protector of Miracles\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Hero in Training\n Mindscape 4\n\n Each time upon gaining Aerial Patrol Spear, DMG dealt increases by 18% for 8s . Repeated triggers extend the duration by 8s , up to a maximum of 40s .\n\n M5\n Skybound Oath\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Knight of the Skies\n Mindscape 6\n\n When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG . There is no more limit on the number of times Sigrid can enter the Formation Breaker state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. Formation Breaker state's Basic Attack: Converging Spear will activate faster.",
       "assets": []
     },
     {
-      "id": "stats-level-60-12",
+      "id": "stats-level-60-13",
       "level": 2,
       "heading": "Stats (Level 60)",
-      "text": "Sigrid stats aren't available yet. They will be added soon!",
+      "text": "Sigrid Stats at level 60 (including Core passive bonuses).",
       "assets": []
     },
     {
-      "id": "voice-actors-13",
+      "id": "voice-actors-14",
       "level": 2,
       "heading": "Voice Actors",
       "text": "ENG\n Dani Chambers\n\n JPN\n Kaida Yuhko\n\n CN\n -\n\n KR\n -",
       "assets": []
     },
     {
-      "id": "gallery-14",
+      "id": "gallery-15",
       "level": 2,
       "heading": "Gallery",
-      "text": "Sigrid images aren't available yet. They will be added soon!\n\n Review",
-      "assets": []
+      "text": "Review",
+      "assets": [
+        {
+          "id": "c008677c5105",
+          "sourceHash": "c008677c5105",
+          "kind": "characters",
+          "name": "Sigrid",
+          "fileStem": "sigrid-full",
+          "path": "Prydwen/zzz/assets/characters/sigrid-c008677c5105.webp",
+          "width": 600,
+          "height": 750
+        }
+      ]
     },
     {
-      "id": "ratings-15",
+      "id": "ratings-16",
       "level": 2,
       "heading": "Ratings",
-      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Sigrid ratings aren't available yet. They will be added as soon as it is possible.",
+      "text": "This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.",
       "assets": []
     },
     {
-      "id": "pros-cons-16",
+      "id": "crit-dps-17",
+      "level": 5,
+      "heading": "Crit DPS",
+      "text": "T0.5\n Endgame Modes",
+      "assets": []
+    },
+    {
+      "id": "pros-19",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Incredibly high damage output, being a step above most CRIT DPS Agents that came before her.\n\n Diverse team options, being able to get great results with a variety of Stunners and Supports, be they limited or standard.\n\n Flexible builds, with multiple usable Drive Disc sets and having competitive W-Engine alternatives to her Signature.\n\n A in Track, an S in Distance, and an S in Style.",
+      "assets": []
+    },
+    {
+      "id": "cons-20",
+      "level": 5,
+      "heading": "Cons",
+      "text": "Managing resources can be tricky, as aligning her enhanced Basics and Decibels for combos can demand specific routing.\n\n Misses out on her full Additional Ability’s value without Wind, and can be too saturated in certain multipliers, which lessen some teammates’ value.\n\n Frustrating to roll substats for, as she can easily overcap on CRIT Rate.\n\n 1-star Guts Spark.",
+      "assets": []
+    },
+    {
+      "id": "intro-unique-mechanic-22",
+      "level": 6,
+      "heading": "Intro & Unique Mechanic",
+      "text": "Sigrid is an Ice Attack Agent whose gimmick revolves around levelling up a timed stance by using certain skills. When first entering it, she gets a stack that lets her use an enhanced Basic, which progresses the stance further, so that the next refresh gives her an even stronger enhanced Basic, and so on.\n She then has extra mechanics tied to her enhanced Basics, like having the ability to parry attacks with their use, losing out on the attack’s damage but immediately progressing the stance and getting higher Daze on the next enhanced Basic. She can also enter the “Formation Breaker” state when landing her Chain Attacks on Stunned enemies, letting her do a full set of enhanced Basics without needing to refresh her stance in between.\n That’s really the crux of her gameplay: stay in stance and keep refreshing it to progress her enhanced Basics, then unload as much damage as possible in stun by making use of high-damage moves and her Formation Breaker state.",
+      "assets": []
+    },
+    {
+      "id": "core-passive-basics-additional-ability-23",
+      "level": 6,
+      "heading": "Core Passive, Basics & Additional Ability",
+      "text": "Both her Core Passive and Basic Attacks are tied to one another.\n Sigrid has a 4-part standard Basic Attack string, with the last hit of the string being considered an “Unbridled Spear” attack. Other Unbridled Spear attacks include her EX Specials, Assist Follow-Up, Chain Attack, Ultimate and Dodge Counter.\n Whenever she lands one of these attacks on an enemy, it will put her in the “Aerial Patrol Spear state”, tracked by the gauge under her portrait in combat, and lasting 8/7/6 seconds depending on its level.\n This has multiple effects: it buffs Sigrid’s CRIT Rate by up to 66% for 8 seconds, with repeated triggers extending it for up to 40 seconds total. Her attacks get a 20% Stun DMG Multiplier increase, and she gets access to an upgraded version of her EX Special.\n The first entry into the Aerial Patrol Spear state will also give her 1 non-stackable use of her enhanced Basic Attack: Converging Spear. This will turn the gauge blue and have it begin ticking down, as well as building up a point on the side that will keep flashing.\n ℹ️ Info\n\n Landing another Unbridled Spear attack before using an enhanced Basic will not advance the Aerial Patrol Spear state! It will only refresh its duration.\n\n By holding down the Basic Attack button, she will use the enhanced Basic and progress the Aerial Patrol State to the next level, which will turn the gauge grey and cause the point to stop flashing.\n This will not refresh its duration! The bar will continue to decrease, and if it drops to 0, it will drop down a level and have Sigrid exit the Aerial Patrol Spear state. Swapping out of Sigrid will pause the decay, though.\n If another Unbridled Spear attack lands before it expires, but after an enhanced Basic was used, then that will refresh its duration and give another non-stackable use of the enhanced Basic, with the higher the level, the stronger the attack. After the third enhanced Basic, the level will reset and the cycle continues. This makes for a loop of:\n Unbridled Spear attack > enhanced Basic 1 > Unbridled Spear attack before Aerial Patrol Spear state runs out > enhanced Basic 2 > Unbridled Spear attack before Aerial Patrol Spear state runs out > enhanced Basic 3.\n There is one way to advance the Aerial Patrol Spear state without using an Unbridled Spear attack. If Sigrid happens to be attacked while performing an enhanced Basic, she will instead parry the enemy and not deal any damage . This will then refresh the state’s duration, give another enhanced Basic use and increase its Daze dealt by 100%.\n This works as a “free” level up to the next level’s enhanced Basic (if at under level 3!), but it may not be worth doing as the loss of time that comes from the parry animation can make it worse than cycling through more attacks.\n Sigrid’s Additional Ability is distinct from all of these effects, demanding Support or Stun characters in the team and giving up to 840 Combat ATK to Sigrid (scaling with her Agent level) and a 15% DMG bonus when hitting Contaminated enemies.",
+      "assets": []
+    },
+    {
+      "id": "specials-24",
+      "level": 6,
+      "heading": "Specials",
+      "text": "Sigrid has 3 different Special moves, but only 1 is used. Her Special is best avoided, as it is not an Unbridled Spear attack, but her 2 EXs are.\n There is a standard EX that costs 60 Energy and will be used when out of the Aerial Patrol Spear state.\n Then there’s an enhanced EX that costs only 50 Energy and will be used when in the Aerial Patrol Spear state. It’s the only EX that should ever be used, as it deals far more damage - over 2.3 times the amount of a standard EX!\n As it’s an Unbridled Spear attack, it can progress her state and give an enhanced Basic use. Given how hard it hits, it’s a great tool for stun combos.",
+      "assets": []
+    },
+    {
+      "id": "chain-ultimate-25",
+      "level": 6,
+      "heading": "Chain & Ultimate",
+      "text": "Another great tool is Sigrid’s Chain Attack, which deals a lot of damage, gives a 20% DMG bonus to all enhanced Basics for 50s after use, and if it hits a Stunned enemy, will put Sigrid in the Formation Breaker state.\n This will store the current Aerial Patrol Spear level before resetting it and re-entering Sigrid into it at level 1. Instead of needing to use an Unbridled Spear attack between every enhanced Basic, the Formation Breaker state will let Sigrid go through all 3 of them, back-to-back, just by holding the Basic Attack button, all the while preventing the state timer from ticking down.\n Once done, it will return to the stored level. So if the next enhanced Basic would have been a level 3, once the Formation Breaker state is done, it will retain that stage and keep it as a level 3.\n Keep in mind that the last enhanced Basic in the Formation Breaker state will use up an enhanced Basic use even if it had been stored beforehand, and as soon as it lands, the Aerial Patrol Spear will begin to tick down again. This means that it’s best to avoid using an Unbridled Spear attack right before it.\n The Formation Breaker state can only happen once per stun, and any other Chain Attacks done after will function as a regular Unbridled Spear attack.\n Sigrid’s Ultimate is a lot simpler: a high burst of damage that’s also considered an Unbridled Spear attack.",
+      "assets": []
+    },
+    {
+      "id": "dodges-26",
+      "level": 6,
+      "heading": "Dodges",
+      "text": "Sigrid’s Dodge Counter is decent, being an Unbridled Spear attack and retaining the progression of her regular Basic. This means if she’s about to go into a Basic 4 and does a Dodge Counter, that gives her an enhanced Basic use, and then after that it’ll go right back into Basic 4 for another enhanced Basic.\n Her Dodge and Dash Attack are as standard.",
+      "assets": []
+    },
+    {
+      "id": "assists-27",
+      "level": 6,
+      "heading": "Assists",
+      "text": "Sigrid’s Assists are mostly unremarkable, with the notable aspect being that her Assist Follow-Up counts as an Unbridled Spear attack and deals decent damage.\n The parry mechanic on Sigrid’s enhanced Basics does not build any Daze by itself (it only increases the Daze build of the next enhanced Basic), so a Defensive Assist into Assist Follow-Up will be better in that regard.",
+      "assets": []
+    },
+    {
+      "id": "how-to-play-28",
       "level": 2,
-      "heading": "Pros & Cons",
-      "text": "Sigrid pros & cons aren't available yet. They will be added when the character is released.",
+      "heading": "How to play",
+      "text": "Although every team and encounter will need to be tailored, the principle behind Sigrid’s game plan is very simple: cycle through as many enhanced Basics as possible.\n There is a degree of resource management needed. Trying open stun with an enhanced Basic 3 can help squeeze in a bit more damage, so timing attacks or swapping out of Sigrid to maintain the short 6-second duration of the Aerial Patrol Spear so that it’s up for the start of stun is a form of skill expression on her. With Formation Breaker storing the string, though, it can also be left to mid-stun, even if it’d demand an Unbridled Spear attack to build up to. With how strong her EX is, saving it to stun combos as a means to progress her enhanced Basic and deal its own damage is helpful too.\n That’s about it for the fundamentals though; Sigrid is quite simple in her gameplan. The difficulty is in the execution, so as to maximise the number of enhanced Basics in a fight and optimise around getting the highest value skills during burst windows.\n A sample combo for Sigrid with Norma would be:\n Enhanced Basic 3\n\n Sigrid Chain Attack\n\n Enhanced Basic 1\n\n Enhanced Basic 2\n\n Enhanced Basic 3\n\n Sigrid Chain Attack\n\n Enhanced Basic 1\n\n Enhanced EX\n\n Enhanced Basic 2\n\n Norma Chain Attack conversion to Sigrid\n\n Enhanced Basic 3\n\n Ultimate\n\n Norma’s Chain Attack conversion is best used between enhanced Basics so as to trigger while Sigrid is in animation to speed things up.\n Keep in mind that this is only a template, as it’ll change depending on enemy stun durations, freezeable state and the team. Try to get as many enhanced Basics in stun between EXs, Chain Attacks and Ultimates for the most damage.\n\n Build and teams",
       "assets": []
     },
     {
-      "id": "review-17",
+      "id": "collaboration-disclaimer-29",
       "level": 2,
-      "heading": "Review",
-      "text": "Sigrid review isn't available yet. It will be added soon!\n\n Build and teams",
+      "heading": "Collaboration Disclaimer",
+      "text": "For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.",
       "assets": []
     },
     {
-      "id": "best-build-18",
+      "id": "best-w-engines-30",
       "level": 2,
-      "heading": "Best Build",
-      "text": "Sigrid build information aren't available yet. They will be added soon.",
+      "heading": "Best W-Engines",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.",
       "assets": []
     },
     {
-      "id": "skill-priority-19",
+      "id": "full-team-calculations-31",
+      "level": 5,
+      "heading": "Full Team calculations",
+      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Norma + Chief Sidekick\n Sunna + Thoughtbop\n 116.85%\n\n Knight's Extolment (S 5 )\n\n Performance at max copies of the weapon.\n 100.00%\n\n Knight's Extolment (S 1 )\n\n Sigrid's Signature W-Engine has some of the highest CRIT DMG bonuses in the game, with 48% on its mainstat and then another 64% from its effect! When built up in full, it also gives 20% in Ice RES Ignore, a great multiplier to have given how saturated Sigrid is on many others. Although its effect demands Heavy Attacks (the kind that will trigger a Chain Attack prompt) this is easy enough to maintain owing to its 25 second refresh. An EX Special needs to be used early to get its 2nd stack going, but it can then be refreshed with Basics, providing strong and consistent personal buffs that put it ahead of any other option.\n 89.96%\n\n The Brimstone (S 5 )\n\n Performance at max copies of the weapon. Standard S-Rank W-Engines have their bonus effect double in value from W1 to W5, and The Brimstone is no exception, making it so that only Sigrid's Signature ranks as a better option.\n 82.87%\n\n Severed Innocence (S 1 )\n\n Soldier 0 - Anby's Signature is a solid stat stick, as unlike most other limited Attacker W-Engines, it has no CRIT Rate bonuses that'd cause Sigrid to overcap. It does demand the occasional Special to maintain its second buff stack, which can make it tricky to work with if conserving resources for stun, but it's workable and provides strong bonuses.\n 80.03%\n\n The Brimstone (S 1 )\n\n The Brimstone is both accessible and a great match. It not having any CRIT Rate gains makes it a great W-Engine pick for Sigrid generally, and although she can get very saturated on Combat ATK, the bonuses from The Brimstone are so high that it makes up for it. Although most characters can struggle to maintain it, Sigrid's frequent use of Basic Attacks mean it can stay at almost full stacks for much of the fight, making it be the best non-limited W-Engine for her.\n 73.69%\n\n Starlight Engine (S 5 )\n\n Starlight Engine is the craftable F2P option, but it's far behind any other W-Engine. Its bonuses aren't particularly high, and having to manage Quick Assists to sustain its buff in stuns can be frustrating. Thankfully, Dodge Counters are Unbridled Spear attacks, but even with good uptime it isn't able to keep up.",
+      "assets": [
+        {
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "85906a50e3db",
+          "sourceHash": "85906a50e3db",
+          "kind": "w-engines",
+          "name": "Knight's Extolment",
+          "fileStem": "lumiflux-image",
+          "path": "Prydwen/zzz/assets/w-engines/knights-extolment-85906a50e3db.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "bdd5620eca4f",
+          "sourceHash": "bdd5620eca4f",
+          "kind": "w-engines",
+          "name": "The Brimstone",
+          "fileStem": "the-brimstone-image",
+          "path": "Prydwen/zzz/assets/w-engines/the-brimstone-bdd5620eca4f.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "6cf131e8a6b4",
+          "sourceHash": "6cf131e8a6b4",
+          "kind": "w-engines",
+          "name": "Severed Innocence",
+          "fileStem": "severed-innocence-image",
+          "path": "Prydwen/zzz/assets/w-engines/severed-innocence-6cf131e8a6b4.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "4018e18fe53d",
+          "sourceHash": "4018e18fe53d",
+          "kind": "w-engines",
+          "name": "Starlight Engine",
+          "fileStem": "starlight-engine-image",
+          "path": "Prydwen/zzz/assets/w-engines/starlight-engine-4018e18fe53d.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-sets-32",
+      "level": 2,
+      "heading": "Best Disk Drives Sets",
+      "text": "1\n\n Hormone Punk ( 4 -PC)\n\n Hormone Punk is likely to be the better generalist set for Sigrid. Although she is quite saturated in Combat ATK and its bonuses have a cooldown, the raw amount of ATK given is high and many of her teams have stun extensions, meaning that she still gets value out of it whether its triggered early or late. No calcs are provided as 4-piece set values can change significantly between different teams.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n\n 2\n\n Puffer Electro ( 4 -PC)\n\n If Dialyn is being used, then Puffer Electro is the best-in-slot pick for Sigrid. Its buffs can be triggered consistently as Dialyn would allow for at least 1 Ultimate every stun, often 2, enabling this to have high uptime for when it matters.\n Best combined with your choice of 2-PC Set:\n 2P\n Branch & Blade Song\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Polar Metal\n\n 3\n\n Dawn's Bloom ( 4 -PC)\n\n With so much of Sigrid's damage coming from her enhanced Basic Attacks, Dawn's Bloom can be a great pick that's often competitive with Hormone Punk, and can be better if she's vertically invested. Be mindful of the 4-piece effect trigger criteria, as to get most value from it, an EX would need to be used shortly before or at the start of a combo. No calcs are provided as 4-piece set values can change significantly between different teams.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)",
+      "assets": [
+        {
+          "id": "9b0991be94a3",
+          "sourceHash": "9b0991be94a3",
+          "kind": "drive-discs",
+          "name": "Hormone Punk",
+          "fileStem": "set-hormone",
+          "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "69d899f282ca",
+          "sourceHash": "69d899f282ca",
+          "kind": "drive-discs",
+          "name": "Puffer Electro",
+          "fileStem": "set-puffer",
+          "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "34586efbf701",
+          "sourceHash": "34586efbf701",
+          "kind": "drive-discs",
+          "name": "Branch & Blade Song",
+          "fileStem": "set-branch",
+          "path": "Prydwen/zzz/assets/drive-discs/branch-blade-song-34586efbf701.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "47b453ad83b8",
+          "sourceHash": "47b453ad83b8",
+          "kind": "drive-discs",
+          "name": "Astral Voice",
+          "fileStem": "set-astral",
+          "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "45b67322c307",
+          "sourceHash": "45b67322c307",
+          "kind": "drive-discs",
+          "name": "Polar Metal",
+          "fileStem": "set-polar",
+          "path": "Prydwen/zzz/assets/drive-discs/polar-metal-45b67322c307.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "965abc403807",
+          "sourceHash": "965abc403807",
+          "kind": "drive-discs",
+          "name": "Dawn's Bloom",
+          "fileStem": "set-dawn",
+          "path": "Prydwen/zzz/assets/drive-discs/dawns-bloom-965abc403807.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-disk-drives-stats-33",
+      "level": 2,
+      "heading": "Best Disk Drives Stats",
+      "text": "Disk 4\n CRIT DMG% > ATK%\n\n Disk 5\n PEN Ratio%\n\n Disk 6\n ATK%\n\n Substats: CRIT RATE (until 33.8% in statscreen) > CRIT DMG = ATK% > PEN > ATK",
+      "assets": []
+    },
+    {
+      "id": "best-endgame-stats-level-60-34",
+      "level": 2,
+      "heading": "Best Endgame Stats (Level 60)",
+      "text": "ATK: 3000 - 3400+\n\n HP: 9500+\n\n DEF: 750+\n\n CRIT RATE: 33.8% (any more and she’ll overcap due to the 66% from her Core Passive!)\n\n CRIT DMG: 150% - 210%+ (W-Engine mainstat and D4 picks can give it a large range)",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-35",
       "level": 2,
       "heading": "Skill priority",
-      "text": "Sigrid skill priority information aren't available yet. They will be added soon.",
-      "assets": []
+      "text": "Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge",
+      "assets": [
+        {
+          "id": "13fff798e82d",
+          "sourceHash": "13fff798e82d",
+          "kind": "icons",
+          "name": "Basic Attack",
+          "fileStem": "icon-basic",
+          "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "803b765175bc",
+          "sourceHash": "803b765175bc",
+          "kind": "icons",
+          "name": "Chain Attack",
+          "fileStem": "icon-ulti-full",
+          "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "954b8d0b61b7",
+          "sourceHash": "954b8d0b61b7",
+          "kind": "icons",
+          "name": "Special Attack",
+          "fileStem": "icon-special-full",
+          "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "de0f0cad1e72",
+          "sourceHash": "de0f0cad1e72",
+          "kind": "icons",
+          "name": "Assist",
+          "fileStem": "icon-assist-m",
+          "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+          "width": 24,
+          "height": 24
+        },
+        {
+          "id": "f3bbacf4beb6",
+          "sourceHash": "f3bbacf4beb6",
+          "kind": "icons",
+          "name": "Dodge",
+          "fileStem": "icon-dodge",
+          "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+          "width": 24,
+          "height": 24
+        }
+      ]
     },
     {
-      "id": "video-guides-20",
+      "id": "video-guides-36",
       "level": 2,
       "heading": "Video guides",
       "text": "Teams & Synergy",
       "assets": []
     },
     {
-      "id": "synergy-21",
+      "id": "synergy-37",
       "level": 2,
       "heading": "Synergy",
-      "text": "Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Sigrid synergy information aren't available yet. They will be added soon.",
-      "assets": []
+      "text": "Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Norma Dialyn Lycaon - The top Stunner choices for Sigrid, in order. Norma is the all-around best choice, as getting extra Chain Attacks helps with Decibel management and is a significant increase to damage, owing to both its own multipliers and enhanced Basic stacks. Dialyn can enable the Puffer Electro set and Sigrid's Ultimate hits especially hard, so she isn't far behind on the damage front, and her high burst Daze application can allow her to match or even outperform in certain fights. Lastly is Lycaon, who despite being a standard Agent, has great buff value and doesn't fall behind in the Daze department, especially as matching weaknesses make him a great pick for all of Sigrid's best fights.\n Sunna Rina Astra Yao - These 3 are all great Support picks for Sigrid. Sunna is likely to be the best for most players, as her buffs are easy to maintain and she can either enable 5 stuns in some fights or make 4 stuns a lot easier owing to her Daze. Assuming an equal number of stuns though, Rina can match or even outperform her (especially at M2+) as Sigrid's saturated stats make PEN Ratio that much more valuable. Astra is strong too, as her Ultimate's Chain Attack conversions are a big help at boosting Sigrid's damage, so all 3 are competitive picks.\n Lighter Ju Fufu - Both of these Fire Stunners still make for good Sigrid picks. Lighter's buff contributions are very high, and his stun extension can make it easier to fit in more enhanced Basic Attacks in Stun when lacking in resources. Ju Fufu may not be as good in those aspects, but her increase to the Decibel cap and recovery on Ultimate use can open up new routes, all the while having low field-time commitments. These 2 can struggle with Daze though, to the point some double Stunner teams (like Norma/Lighter) can do as well as a Stunner Support shell.",
+      "assets": [
+        {
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f848a605f8bc",
+          "sourceHash": "f848a605f8bc",
+          "kind": "characters",
+          "name": "Rina",
+          "fileStem": "rina",
+          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "118e26488ea7",
+          "sourceHash": "118e26488ea7",
+          "kind": "characters",
+          "name": "Lighter",
+          "fileStem": "lighter",
+          "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
     },
     {
-      "id": "teams-shiyu-defense-22",
+      "id": "teams-38",
+      "level": 2,
+      "heading": "Teams",
+      "text": "Team #1\n\n Team #2\n\n Team #3\n\n Team #4\n\n For more Teams, check this video:",
+      "assets": [
+        {
+          "id": "38209d15b7c0",
+          "sourceHash": "38209d15b7c0",
+          "kind": "characters",
+          "name": "Sigrid",
+          "fileStem": "sigrid",
+          "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5b1302d794ba",
+          "sourceHash": "5b1302d794ba",
+          "kind": "characters",
+          "name": "Dialyn",
+          "fileStem": "dialyn",
+          "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f848a605f8bc",
+          "sourceHash": "f848a605f8bc",
+          "kind": "characters",
+          "name": "Rina",
+          "fileStem": "rina",
+          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "05437fe51e49",
+          "sourceHash": "05437fe51e49",
+          "kind": "characters",
+          "name": "Lycaon",
+          "fileStem": "lycaon",
+          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2541747ebcdb",
+          "sourceHash": "2541747ebcdb",
+          "kind": "characters",
+          "name": "Nangong Yu",
+          "fileStem": "nangong-yu",
+          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "118e26488ea7",
+          "sourceHash": "118e26488ea7",
+          "kind": "characters",
+          "name": "Lighter",
+          "fileStem": "lighter",
+          "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "3e8d48ac0bd4",
+          "sourceHash": "3e8d48ac0bd4",
+          "kind": "characters",
+          "name": "Ju Fufu",
+          "fileStem": "ju-fufu",
+          "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-shiyu-defense-39",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
       "text": "This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.",
       "assets": []
     },
     {
-      "id": "teams-deadly-assault-23",
+      "id": "teams-deadly-assault-40",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
       "text": "This section lists most popular teams featuring Sigrid in the current phase of Deadly Assault.\n There are no teams featuring Sigrid who have cleared Deadly Assault in the current cycle.",
@@ -225,13 +1078,165 @@
     }
   ],
   "recommendations": {
+    "best-w-engines": {
+      "label": "Best W-Engines",
+      "sections": [
+        {
+          "heading": "Best W-Engines",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.",
+          "assets": []
+        }
+      ]
+    },
+    "best-disk-drives-sets": {
+      "label": "Best Disk Drives Sets",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Sets",
+          "text": "1\n\n Hormone Punk ( 4 -PC)\n\n Hormone Punk is likely to be the better generalist set for Sigrid. Although she is quite saturated in Combat ATK and its bonuses have a cooldown, the raw amount of ATK given is high and many of her teams have stun extensions, meaning that she still gets value out of it whether its triggered early or late. No calcs are provided as 4-piece set values can change significantly between different teams.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n\n 2\n\n Puffer Electro ( 4 -PC)\n\n If Dialyn is being used, then Puffer Electro is the best-in-slot pick for Sigrid. Its buffs can be triggered consistently as Dialyn would allow for at least 1 Ultimate every stun, often 2, enabling this to have high uptime for when it matters.\n Best combined with your choice of 2-PC Set:\n 2P\n Branch & Blade Song\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Polar Metal\n\n 3\n\n Dawn's Bloom ( 4 -PC)\n\n With so much of Sigrid's damage coming from her enhanced Basic Attacks, Dawn's Bloom can be a great pick that's often competitive with Hormone Punk, and can be better if she's vertically invested. Be mindful of the 4-piece effect trigger criteria, as to get most value from it, an EX would need to be used shortly before or at the start of a combo. No calcs are provided as 4-piece set values can change significantly between different teams.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)",
+          "assets": [
+            {
+              "id": "9b0991be94a3",
+              "sourceHash": "9b0991be94a3",
+              "kind": "drive-discs",
+              "name": "Hormone Punk",
+              "fileStem": "set-hormone",
+              "path": "Prydwen/zzz/assets/drive-discs/hormone-punk-9b0991be94a3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "69d899f282ca",
+              "sourceHash": "69d899f282ca",
+              "kind": "drive-discs",
+              "name": "Puffer Electro",
+              "fileStem": "set-puffer",
+              "path": "Prydwen/zzz/assets/drive-discs/puffer-electro-69d899f282ca.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "34586efbf701",
+              "sourceHash": "34586efbf701",
+              "kind": "drive-discs",
+              "name": "Branch & Blade Song",
+              "fileStem": "set-branch",
+              "path": "Prydwen/zzz/assets/drive-discs/branch-blade-song-34586efbf701.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "47b453ad83b8",
+              "sourceHash": "47b453ad83b8",
+              "kind": "drive-discs",
+              "name": "Astral Voice",
+              "fileStem": "set-astral",
+              "path": "Prydwen/zzz/assets/drive-discs/astral-voice-47b453ad83b8.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "45b67322c307",
+              "sourceHash": "45b67322c307",
+              "kind": "drive-discs",
+              "name": "Polar Metal",
+              "fileStem": "set-polar",
+              "path": "Prydwen/zzz/assets/drive-discs/polar-metal-45b67322c307.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "965abc403807",
+              "sourceHash": "965abc403807",
+              "kind": "drive-discs",
+              "name": "Dawn's Bloom",
+              "fileStem": "set-dawn",
+              "path": "Prydwen/zzz/assets/drive-discs/dawns-bloom-965abc403807.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-disk-drives-stats": {
+      "label": "Best Disk Drives Stats",
+      "sections": [
+        {
+          "heading": "Best Disk Drives Stats",
+          "text": "Disk 4\n CRIT DMG% > ATK%\n\n Disk 5\n PEN Ratio%\n\n Disk 6\n ATK%\n\n Substats: CRIT RATE (until 33.8% in statscreen) > CRIT DMG = ATK% > PEN > ATK",
+          "assets": []
+        }
+      ]
+    },
+    "best-endgame-stats": {
+      "label": "Best Endgame Stats",
+      "sections": [
+        {
+          "heading": "Best Endgame Stats (Level 60)",
+          "text": "ATK: 3000 - 3400+\n\n HP: 9500+\n\n DEF: 750+\n\n CRIT RATE: 33.8% (any more and she’ll overcap due to the 66% from her Core Passive!)\n\n CRIT DMG: 150% - 210%+ (W-Engine mainstat and D4 picks can give it a large range)",
+          "assets": []
+        }
+      ]
+    },
     "skill-priority": {
       "label": "Skill priority",
       "sections": [
         {
           "heading": "Skill priority",
-          "text": "Sigrid skill priority information aren't available yet. They will be added soon.",
-          "assets": []
+          "text": "Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge",
+          "assets": [
+            {
+              "id": "13fff798e82d",
+              "sourceHash": "13fff798e82d",
+              "kind": "icons",
+              "name": "Basic Attack",
+              "fileStem": "icon-basic",
+              "path": "Prydwen/zzz/assets/icons/basic-attack-13fff798e82d.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "803b765175bc",
+              "sourceHash": "803b765175bc",
+              "kind": "icons",
+              "name": "Chain Attack",
+              "fileStem": "icon-ulti-full",
+              "path": "Prydwen/zzz/assets/icons/chain-attack-803b765175bc.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "954b8d0b61b7",
+              "sourceHash": "954b8d0b61b7",
+              "kind": "icons",
+              "name": "Special Attack",
+              "fileStem": "icon-special-full",
+              "path": "Prydwen/zzz/assets/icons/special-attack-954b8d0b61b7.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "de0f0cad1e72",
+              "sourceHash": "de0f0cad1e72",
+              "kind": "icons",
+              "name": "Assist",
+              "fileStem": "icon-assist-m",
+              "path": "Prydwen/zzz/assets/icons/assist-de0f0cad1e72.webp",
+              "width": 24,
+              "height": 24
+            },
+            {
+              "id": "f3bbacf4beb6",
+              "sourceHash": "f3bbacf4beb6",
+              "kind": "icons",
+              "name": "Dodge",
+              "fileStem": "icon-dodge",
+              "path": "Prydwen/zzz/assets/icons/dodge-f3bbacf4beb6.webp",
+              "width": 24,
+              "height": 24
+            }
+          ]
         }
       ]
     },
@@ -240,14 +1245,191 @@
       "sections": [
         {
           "heading": "Synergy",
-          "text": "Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Sigrid synergy information aren't available yet. They will be added soon.",
-          "assets": []
+          "text": "Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Norma Dialyn Lycaon - The top Stunner choices for Sigrid, in order. Norma is the all-around best choice, as getting extra Chain Attacks helps with Decibel management and is a significant increase to damage, owing to both its own multipliers and enhanced Basic stacks. Dialyn can enable the Puffer Electro set and Sigrid's Ultimate hits especially hard, so she isn't far behind on the damage front, and her high burst Daze application can allow her to match or even outperform in certain fights. Lastly is Lycaon, who despite being a standard Agent, has great buff value and doesn't fall behind in the Daze department, especially as matching weaknesses make him a great pick for all of Sigrid's best fights.\n Sunna Rina Astra Yao - These 3 are all great Support picks for Sigrid. Sunna is likely to be the best for most players, as her buffs are easy to maintain and she can either enable 5 stuns in some fights or make 4 stuns a lot easier owing to her Daze. Assuming an equal number of stuns though, Rina can match or even outperform her (especially at M2+) as Sigrid's saturated stats make PEN Ratio that much more valuable. Astra is strong too, as her Ultimate's Chain Attack conversions are a big help at boosting Sigrid's damage, so all 3 are competitive picks.\n Lighter Ju Fufu - Both of these Fire Stunners still make for good Sigrid picks. Lighter's buff contributions are very high, and his stun extension can make it easier to fit in more enhanced Basic Attacks in Stun when lacking in resources. Ju Fufu may not be as good in those aspects, but her increase to the Decibel cap and recovery on Ultimate use can open up new routes, all the while having low field-time commitments. These 2 can struggle with Daze though, to the point some double Stunner teams (like Norma/Lighter) can do as well as a Stunner Support shell.",
+          "assets": [
+            {
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
+              "kind": "characters",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f848a605f8bc",
+              "sourceHash": "f848a605f8bc",
+              "kind": "characters",
+              "name": "Rina",
+              "fileStem": "rina",
+              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "118e26488ea7",
+              "sourceHash": "118e26488ea7",
+              "kind": "characters",
+              "name": "Lighter",
+              "fileStem": "lighter",
+              "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
         }
       ]
     },
     "teams": {
       "label": "Teams",
       "sections": [
+        {
+          "heading": "Teams",
+          "text": "Team #1\n\n Team #2\n\n Team #3\n\n Team #4\n\n For more Teams, check this video:",
+          "assets": [
+            {
+              "id": "38209d15b7c0",
+              "sourceHash": "38209d15b7c0",
+              "kind": "characters",
+              "name": "Sigrid",
+              "fileStem": "sigrid",
+              "path": "Prydwen/zzz/assets/characters/sigrid-38209d15b7c0.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
+              "kind": "characters",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5b1302d794ba",
+              "sourceHash": "5b1302d794ba",
+              "kind": "characters",
+              "name": "Dialyn",
+              "fileStem": "dialyn",
+              "path": "Prydwen/zzz/assets/characters/dialyn-5b1302d794ba.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f848a605f8bc",
+              "sourceHash": "f848a605f8bc",
+              "kind": "characters",
+              "name": "Rina",
+              "fileStem": "rina",
+              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "05437fe51e49",
+              "sourceHash": "05437fe51e49",
+              "kind": "characters",
+              "name": "Lycaon",
+              "fileStem": "lycaon",
+              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2541747ebcdb",
+              "sourceHash": "2541747ebcdb",
+              "kind": "characters",
+              "name": "Nangong Yu",
+              "fileStem": "nangong-yu",
+              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "118e26488ea7",
+              "sourceHash": "118e26488ea7",
+              "kind": "characters",
+              "name": "Lighter",
+              "fileStem": "lighter",
+              "path": "Prydwen/zzz/assets/characters/lighter-118e26488ea7.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "3e8d48ac0bd4",
+              "sourceHash": "3e8d48ac0bd4",
+              "kind": "characters",
+              "name": "Ju Fufu",
+              "fileStem": "ju-fufu",
+              "path": "Prydwen/zzz/assets/characters/ju-fufu-3e8d48ac0bd4.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
         {
           "heading": "Teams (Shiyu Defense)",
           "text": "This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.",
@@ -262,5 +1444,5 @@
     }
   },
   "tables": [],
-  "text": "Sigrid Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Sigrid\n Sigrid Best Build Guide\n Last updated: 14/August/2026\n\n Introduction\n Best guide and build for Sigrid from ZZZ (Zenless Zone Zero). Sigrid is an rank character with the Ice attribute who belongs to the Attack Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Sigrid has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n Sigrid core skills aren't available yet. They will be added once more information about the character are released.\n\n Skills\n Sigrid skills aren't available yet. They will be added soon!\n\n Mindscapes\n M1\n\n Mindscape 1\n\n Stats (Level 60)\n Sigrid stats aren't available yet. They will be added soon!\n\n Voice Actors\n ENG\n Dani Chambers\n\n JPN\n Kaida Yuhko\n\n CN\n -\n\n KR\n -\n\n Gallery\n Sigrid images aren't available yet. They will be added soon!\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Sigrid ratings aren't available yet. They will be added as soon as it is possible.\n\n Pros & Cons\n Sigrid pros & cons aren't available yet. They will be added when the character is released.\n\n Review\n Sigrid review isn't available yet. It will be added soon!\n\n Build and teams\n\n Best Build\n Sigrid build information aren't available yet. They will be added soon.\n\n Skill priority\n Sigrid skill priority information aren't available yet. They will be added soon.\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Sigrid synergy information aren't available yet. They will be added soon.\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Sigrid in the current phase of Deadly Assault.\n There are no teams featuring Sigrid who have cleared Deadly Assault in the current cycle."
+  "text": "Sigrid Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Sigrid\n Sigrid Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Sigrid from ZZZ (Zenless Zone Zero). Sigrid is an rank character with the Ice attribute who belongs to the Attack Specialty and who is part of the Unknown Faction faction.\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Sigrid has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.1\n\n Last build update\n Patch 3.1\n\n Last teams update\n Patch 3.1\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Sigrid check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Sky Knight\n\n Lv. 1\n\n The 4th hit of the Basic Attack, the EX Special Attack, Assist Follow-Up, Chain Attack, Ultimate, and Dodge Counter are considered Unbridled Spear attacks.\n Whenever Sigrid uses and hits an enemy with any Unbridled Spear in combat while not in the Aerial Patrol Spear state, she enters the Aerial Patrol Spear state and gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\nWhile in the Aerial Patrol Spear state, when Sigrid hits an enemy with an Unbridled Spear skill, the Aerial Patrol Spear state is refreshed and she gains 1 use of Basic Attack: Converging Spear that cannot be stacked.\n When triggering or refreshing Aerial Patrol Spear, its duration decreases as the stage of Basic Attack: Converging Spear increases. At stage 1/2/3, its duration is 8/7/6s .\n When Aerial Patrol Spear ends, the stage of Basic Attack: Converging Spear is reduced by one, to a minimum of stage 1.\nActivating or refreshing Aerial Patrol Spear increases Sigrid's CRIT Rate by 33% for 8s . Repeated triggers extend the duration by 8s , up to a maximum of 40s .\nWhen Sigrid hits a Stunned enemy while in Aerial Patrol Spear, the Stun DMG Multiplier of her DMG dealt to the target is increased by 20% .\n\n BASE ATK : 0\n\n Additional Ability Legion of the Skies\n\n When another character in your squad is a Support or Stun character:\n Sigrid's ATK increases by 120 . This effect scales with character level, with each level providing an additional increase of 12 , up to a maximum increase of 840 .\n DMG increases by 15% when hitting enemies in the Contamination state.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Frost-Tipped Spear\n\n Press to activate:\nLaunches up to four forward slashes, dealing Ice DMG.\nThe 4th hit of Basic Attack: Frost-Tipped Spear is considered an Unbridled Spear attack.\n Multipliers\n\n Basic Attack: Converging Spear\n\n While in the Aerial Patrol Spear state and Basic Attack: Converging Spear can be used, hold to activate:\nLaunches the corresponding Basic Attack: Converging Spear based on the current stage, dealing Ice DMG.\nBasic Attack: Converging Spear has three stages. Each use advances it to the next stage. After performing the third stage of Basic Attack: Converging Spear, it resets to the first stage.\nIf Sigrid is attacked while charging the 1st or 2nd stage of Basic Attack: Converging Spear, she blocks with her shield. On a successful block, the attack's DMG is negated, the next Basic Attack: Converging Spear deals 100% more Daze, the Aerial Patrol Spear state is refreshed, and she gains one use of Basic Attack: Converging Spear. Press after a successful block to perform the corresponding stage of Basic Attack: Converging Spear.\nBasic Attack: Converging Spear performed after Basic Attack: Frost-Tipped Spear retains the current stage of Basic Attack: Frost-Tipped Spear.\nDMG taken is reduced by 60% during this skill.\nAnti-Interrupt level is increased while using this skill.\nCharacter is invulnerable during the third stage of Basic Attack: Converging Spear.\n Multipliers\n\n Dodge: Cloudstep\n\n Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Windchase\n\n Press during a dodge to activate:\nPerforms a forward cleaving slash, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Counterthrust\n\n Press during a Perfect Dodge to activate:\nCondenses frost around the spearhead before unleashing a powerful counterattack, dealing Ice DMG.\nWhen performed after Basic Attack: Frost-Tipped Spear, Dodge Counter: Counterthrust retains the current stage of Basic Attack: Frost-Tipped Spear.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Frostflower\n\n Press to activate:\nPerforms three forward thrusts, dealing Ice DMG.\nAnti-Interrupt level is increased while using this skill.\n Multipliers\n\n EX Special Attack: Scattered Jade\n\n With enough Energy and while not in the Aerial Patrol Spear state, press to activate:\nPerforms a series of powerful stabs ahead, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Shattered Jade\n\n With enough Energy and while in the Aerial Patrol Spear state, press to activate:\nPerforms a series of powerful lunging stabs ahead, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Encroaching Ice\n\n When a Chain Attack is triggered, select the character to activate:\nPerforms a powerful piercing attack against enemies ahead, dealing massive Ice DMG.\nUpon activating this skill, gains the Tempered effect, increasing the DMG dealt by subsequent Basic Attack: Converging Spear attacks by 20% for 50s.\nWhen the current skill hits a Stunned elite or boss enemy for the first time, the current stage of Basic Attack: Converging Spear is recorded and then reset before entering the Formation Breaker state. While in Formation Breaker, Aerial Patrol Spear's duration will not be reduced. Hold Icon_Normal to continuously activate the 1st through 3rd stage of Basic Attack: Converging Spear. After activating the 3rd stage of Basic Attack: Converging Spear, Formation Breaker ends and Basic Attack: Converging Spear's stage is restored to the recorded stage.\nFormation Breaker can trigger at most once against the same target before the target recovers from Stun.\nThis skill is considered an Unbridled Spear attack.\nWhile in the Formation Breaker state, Basic Attack: Converging Spear does not trigger the Chain Attack window when hitting Stunned enemies.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Frozen Heavens\n\n When Decibel Rating is at Maximum, press to activate:\nGathers the power of extreme cold before unleashing a devastating series of lunging attacks, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Iron Sentinel\n\n When the active character is launched, press to activate:\nCondenses ice before lunging forward, dealing Ice DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Dauntless Cold\n\n When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Devouring Frost\n\n Press after a Defensive Assist to activate:\nSwings the spear upward before following with a powerful downward attack, dealing massive Ice DMG.\nThis skill is considered an Unbridled Spear attack.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Long, Long Ago\n Mindscape 1\n\n Upon activating the 3rd stage of Basic Attack: Converging Spear, enters the Aerial Patrol Spear and gains 1 additional activation of Basic Attack: Converging Spear. When activations exceed the stored Basic Attack: Converging Spear's activation limit, the next Basic Attack: Converging Spear's final hit deals an additional 100% of ATK as Ice DMG. Sigrid's ATK increases by 25% .\n\n M2\n Legend's First Act\n Mindscape 2\n\n PEN Ratio of Unbridled Spear attacks and Basic Attack: Converging Spear increases by 24% . The duration of Aerial Patrol Spear is extended by 2s . Sigrid's Decibel Generation Rate increases by 10% .\n\n M3\n Protector of Miracles\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Hero in Training\n Mindscape 4\n\n Each time upon gaining Aerial Patrol Spear, DMG dealt increases by 18% for 8s . Repeated triggers extend the duration by 8s , up to a maximum of 40s .\n\n M5\n Skybound Oath\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Knight of the Skies\n Mindscape 6\n\n When Basic Attack: Converging Spear's 1st/2nd/3rd stage's final hit lands, it deals an additional 80%/90%/100% ATK as Ice DMG . There is no more limit on the number of times Sigrid can enter the Formation Breaker state upon hitting a Stunned enemy with Chain Attack: Encroaching Ice. Formation Breaker state's Basic Attack: Converging Spear will activate faster.\n\n Stats (Level 60)\n Sigrid Stats at level 60 (including Core passive bonuses).\n\n Voice Actors\n ENG\n Dani Chambers\n\n JPN\n Kaida Yuhko\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Incredibly high damage output, being a step above most CRIT DPS Agents that came before her.\n\n Diverse team options, being able to get great results with a variety of Stunners and Supports, be they limited or standard.\n\n Flexible builds, with multiple usable Drive Disc sets and having competitive W-Engine alternatives to her Signature.\n\n A in Track, an S in Distance, and an S in Style.\n\n Cons\n Managing resources can be tricky, as aligning her enhanced Basics and Decibels for combos can demand specific routing.\n\n Misses out on her full Additional Ability’s value without Wind, and can be too saturated in certain multipliers, which lessen some teammates’ value.\n\n Frustrating to roll substats for, as she can easily overcap on CRIT Rate.\n\n 1-star Guts Spark.\n\n Review\n Intro & Unique Mechanic\n Sigrid is an Ice Attack Agent whose gimmick revolves around levelling up a timed stance by using certain skills. When first entering it, she gets a stack that lets her use an enhanced Basic, which progresses the stance further, so that the next refresh gives her an even stronger enhanced Basic, and so on.\n She then has extra mechanics tied to her enhanced Basics, like having the ability to parry attacks with their use, losing out on the attack’s damage but immediately progressing the stance and getting higher Daze on the next enhanced Basic. She can also enter the “Formation Breaker” state when landing her Chain Attacks on Stunned enemies, letting her do a full set of enhanced Basics without needing to refresh her stance in between.\n That’s really the crux of her gameplay: stay in stance and keep refreshing it to progress her enhanced Basics, then unload as much damage as possible in stun by making use of high-damage moves and her Formation Breaker state.\n Core Passive, Basics & Additional Ability\n Both her Core Passive and Basic Attacks are tied to one another.\n Sigrid has a 4-part standard Basic Attack string, with the last hit of the string being considered an “Unbridled Spear” attack. Other Unbridled Spear attacks include her EX Specials, Assist Follow-Up, Chain Attack, Ultimate and Dodge Counter.\n Whenever she lands one of these attacks on an enemy, it will put her in the “Aerial Patrol Spear state”, tracked by the gauge under her portrait in combat, and lasting 8/7/6 seconds depending on its level.\n This has multiple effects: it buffs Sigrid’s CRIT Rate by up to 66% for 8 seconds, with repeated triggers extending it for up to 40 seconds total. Her attacks get a 20% Stun DMG Multiplier increase, and she gets access to an upgraded version of her EX Special.\n The first entry into the Aerial Patrol Spear state will also give her 1 non-stackable use of her enhanced Basic Attack: Converging Spear. This will turn the gauge blue and have it begin ticking down, as well as building up a point on the side that will keep flashing.\n ℹ️ Info\n\n Landing another Unbridled Spear attack before using an enhanced Basic will not advance the Aerial Patrol Spear state! It will only refresh its duration.\n\n By holding down the Basic Attack button, she will use the enhanced Basic and progress the Aerial Patrol State to the next level, which will turn the gauge grey and cause the point to stop flashing.\n This will not refresh its duration! The bar will continue to decrease, and if it drops to 0, it will drop down a level and have Sigrid exit the Aerial Patrol Spear state. Swapping out of Sigrid will pause the decay, though.\n If another Unbridled Spear attack lands before it expires, but after an enhanced Basic was used, then that will refresh its duration and give another non-stackable use of the enhanced Basic, with the higher the level, the stronger the attack. After the third enhanced Basic, the level will reset and the cycle continues. This makes for a loop of:\n Unbridled Spear attack > enhanced Basic 1 > Unbridled Spear attack before Aerial Patrol Spear state runs out > enhanced Basic 2 > Unbridled Spear attack before Aerial Patrol Spear state runs out > enhanced Basic 3.\n There is one way to advance the Aerial Patrol Spear state without using an Unbridled Spear attack. If Sigrid happens to be attacked while performing an enhanced Basic, she will instead parry the enemy and not deal any damage . This will then refresh the state’s duration, give another enhanced Basic use and increase its Daze dealt by 100%.\n This works as a “free” level up to the next level’s enhanced Basic (if at under level 3!), but it may not be worth doing as the loss of time that comes from the parry animation can make it worse than cycling through more attacks.\n Sigrid’s Additional Ability is distinct from all of these effects, demanding Support or Stun characters in the team and giving up to 840 Combat ATK to Sigrid (scaling with her Agent level) and a 15% DMG bonus when hitting Contaminated enemies.\n Specials\n Sigrid has 3 different Special moves, but only 1 is used. Her Special is best avoided, as it is not an Unbridled Spear attack, but her 2 EXs are.\n There is a standard EX that costs 60 Energy and will be used when out of the Aerial Patrol Spear state.\n Then there’s an enhanced EX that costs only 50 Energy and will be used when in the Aerial Patrol Spear state. It’s the only EX that should ever be used, as it deals far more damage - over 2.3 times the amount of a standard EX!\n As it’s an Unbridled Spear attack, it can progress her state and give an enhanced Basic use. Given how hard it hits, it’s a great tool for stun combos.\n Chain & Ultimate\n Another great tool is Sigrid’s Chain Attack, which deals a lot of damage, gives a 20% DMG bonus to all enhanced Basics for 50s after use, and if it hits a Stunned enemy, will put Sigrid in the Formation Breaker state.\n This will store the current Aerial Patrol Spear level before resetting it and re-entering Sigrid into it at level 1. Instead of needing to use an Unbridled Spear attack between every enhanced Basic, the Formation Breaker state will let Sigrid go through all 3 of them, back-to-back, just by holding the Basic Attack button, all the while preventing the state timer from ticking down.\n Once done, it will return to the stored level. So if the next enhanced Basic would have been a level 3, once the Formation Breaker state is done, it will retain that stage and keep it as a level 3.\n Keep in mind that the last enhanced Basic in the Formation Breaker state will use up an enhanced Basic use even if it had been stored beforehand, and as soon as it lands, the Aerial Patrol Spear will begin to tick down again. This means that it’s best to avoid using an Unbridled Spear attack right before it.\n The Formation Breaker state can only happen once per stun, and any other Chain Attacks done after will function as a regular Unbridled Spear attack.\n Sigrid’s Ultimate is a lot simpler: a high burst of damage that’s also considered an Unbridled Spear attack.\n Dodges\n Sigrid’s Dodge Counter is decent, being an Unbridled Spear attack and retaining the progression of her regular Basic. This means if she’s about to go into a Basic 4 and does a Dodge Counter, that gives her an enhanced Basic use, and then after that it’ll go right back into Basic 4 for another enhanced Basic.\n Her Dodge and Dash Attack are as standard.\n Assists\n Sigrid’s Assists are mostly unremarkable, with the notable aspect being that her Assist Follow-Up counts as an Unbridled Spear attack and deals decent damage.\n The parry mechanic on Sigrid’s enhanced Basics does not build any Daze by itself (it only increases the Daze build of the next enhanced Basic), so a Defensive Assist into Assist Follow-Up will be better in that regard.\n\n How to play\n Although every team and encounter will need to be tailored, the principle behind Sigrid’s game plan is very simple: cycle through as many enhanced Basics as possible.\n There is a degree of resource management needed. Trying open stun with an enhanced Basic 3 can help squeeze in a bit more damage, so timing attacks or swapping out of Sigrid to maintain the short 6-second duration of the Aerial Patrol Spear so that it’s up for the start of stun is a form of skill expression on her. With Formation Breaker storing the string, though, it can also be left to mid-stun, even if it’d demand an Unbridled Spear attack to build up to. With how strong her EX is, saving it to stun combos as a means to progress her enhanced Basic and deal its own damage is helpful too.\n That’s about it for the fundamentals though; Sigrid is quite simple in her gameplan. The difficulty is in the execution, so as to maximise the number of enhanced Basics in a fight and optimise around getting the highest value skills during burst windows.\n A sample combo for Sigrid with Norma would be:\n Enhanced Basic 3\n\n Sigrid Chain Attack\n\n Enhanced Basic 1\n\n Enhanced Basic 2\n\n Enhanced Basic 3\n\n Sigrid Chain Attack\n\n Enhanced Basic 1\n\n Enhanced EX\n\n Enhanced Basic 2\n\n Norma Chain Attack conversion to Sigrid\n\n Enhanced Basic 3\n\n Ultimate\n\n Norma’s Chain Attack conversion is best used between enhanced Basics so as to trigger while Sigrid is in animation to speed things up.\n Keep in mind that this is only a template, as it’ll change depending on enemy stun durations, freezeable state and the team. Try to get as many enhanced Basics in stun between EXs, Chain Attacks and Ultimates for the most damage.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Norma + Chief Sidekick\n Sunna + Thoughtbop\n 116.85%\n\n Knight's Extolment (S 5 )\n\n Performance at max copies of the weapon.\n 100.00%\n\n Knight's Extolment (S 1 )\n\n Sigrid's Signature W-Engine has some of the highest CRIT DMG bonuses in the game, with 48% on its mainstat and then another 64% from its effect! When built up in full, it also gives 20% in Ice RES Ignore, a great multiplier to have given how saturated Sigrid is on many others. Although its effect demands Heavy Attacks (the kind that will trigger a Chain Attack prompt) this is easy enough to maintain owing to its 25 second refresh. An EX Special needs to be used early to get its 2nd stack going, but it can then be refreshed with Basics, providing strong and consistent personal buffs that put it ahead of any other option.\n 89.96%\n\n The Brimstone (S 5 )\n\n Performance at max copies of the weapon. Standard S-Rank W-Engines have their bonus effect double in value from W1 to W5, and The Brimstone is no exception, making it so that only Sigrid's Signature ranks as a better option.\n 82.87%\n\n Severed Innocence (S 1 )\n\n Soldier 0 - Anby's Signature is a solid stat stick, as unlike most other limited Attacker W-Engines, it has no CRIT Rate bonuses that'd cause Sigrid to overcap. It does demand the occasional Special to maintain its second buff stack, which can make it tricky to work with if conserving resources for stun, but it's workable and provides strong bonuses.\n 80.03%\n\n The Brimstone (S 1 )\n\n The Brimstone is both accessible and a great match. It not having any CRIT Rate gains makes it a great W-Engine pick for Sigrid generally, and although she can get very saturated on Combat ATK, the bonuses from The Brimstone are so high that it makes up for it. Although most characters can struggle to maintain it, Sigrid's frequent use of Basic Attacks mean it can stay at almost full stacks for much of the fight, making it be the best non-limited W-Engine for her.\n 73.69%\n\n Starlight Engine (S 5 )\n\n Starlight Engine is the craftable F2P option, but it's far behind any other W-Engine. Its bonuses aren't particularly high, and having to manage Quick Assists to sustain its buff in stuns can be frustrating. Thankfully, Dodge Counters are Unbridled Spear attacks, but even with good uptime it isn't able to keep up.\n Best Disk Drives Sets\n 1\n\n Hormone Punk ( 4 -PC)\n\n Hormone Punk is likely to be the better generalist set for Sigrid. Although she is quite saturated in Combat ATK and its bonuses have a cooldown, the raw amount of ATK given is high and many of her teams have stun extensions, meaning that she still gets value out of it whether its triggered early or late. No calcs are provided as 4-piece set values can change significantly between different teams.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n\n 2\n\n Puffer Electro ( 4 -PC)\n\n If Dialyn is being used, then Puffer Electro is the best-in-slot pick for Sigrid. Its buffs can be triggered consistently as Dialyn would allow for at least 1 Ultimate every stun, often 2, enabling this to have high uptime for when it matters.\n Best combined with your choice of 2-PC Set:\n 2P\n Branch & Blade Song\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Polar Metal\n\n 3\n\n Dawn's Bloom ( 4 -PC)\n\n With so much of Sigrid's damage coming from her enhanced Basic Attacks, Dawn's Bloom can be a great pick that's often competitive with Hormone Punk, and can be better if she's vertically invested. Be mindful of the 4-piece effect trigger criteria, as to get most value from it, an EX would need to be used shortly before or at the start of a combo. No calcs are provided as 4-piece set values can change significantly between different teams.\n Best combined with your choice of 2-PC Set:\n 2P\n Puffer Electro\n\n (Recommended)\n\n Best Disk Drives Stats\n Disk 4\n CRIT DMG% > ATK%\n\n Disk 5\n PEN Ratio%\n\n Disk 6\n ATK%\n\n Substats: CRIT RATE (until 33.8% in statscreen) > CRIT DMG = ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 3000 - 3400+\n\n HP: 9500+\n\n DEF: 750+\n\n CRIT RATE: 33.8% (any more and she’ll overcap due to the 66% from her Core Passive!)\n\n CRIT DMG: 150% - 210%+ (W-Engine mainstat and D4 picks can give it a large range)\n\n Skill priority\n Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Sigrid . The character can work with others if you know what to do and how to use them.\n\n Norma Dialyn Lycaon - The top Stunner choices for Sigrid, in order. Norma is the all-around best choice, as getting extra Chain Attacks helps with Decibel management and is a significant increase to damage, owing to both its own multipliers and enhanced Basic stacks. Dialyn can enable the Puffer Electro set and Sigrid's Ultimate hits especially hard, so she isn't far behind on the damage front, and her high burst Daze application can allow her to match or even outperform in certain fights. Lastly is Lycaon, who despite being a standard Agent, has great buff value and doesn't fall behind in the Daze department, especially as matching weaknesses make him a great pick for all of Sigrid's best fights.\n Sunna Rina Astra Yao - These 3 are all great Support picks for Sigrid. Sunna is likely to be the best for most players, as her buffs are easy to maintain and she can either enable 5 stuns in some fights or make 4 stuns a lot easier owing to her Daze. Assuming an equal number of stuns though, Rina can match or even outperform her (especially at M2+) as Sigrid's saturated stats make PEN Ratio that much more valuable. Astra is strong too, as her Ultimate's Chain Attack conversions are a big help at boosting Sigrid's damage, so all 3 are competitive picks.\n Lighter Ju Fufu - Both of these Fire Stunners still make for good Sigrid picks. Lighter's buff contributions are very high, and his stun extension can make it easier to fit in more enhanced Basic Attacks in Stun when lacking in resources. Ju Fufu may not be as good in those aspects, but her increase to the Decibel cap and recovery on Ultimate use can open up new routes, all the while having low field-time commitments. These 2 can struggle with Daze though, to the point some double Stunner teams (like Norma/Lighter) can do as well as a Stunner Support shell.\n Teams\n Team #1\n\n Team #2\n\n Team #3\n\n Team #4\n\n For more Teams, check this video:\n\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Sigrid in the current phase of Shiyu Defense.\n There are no teams featuring Sigrid who have cleared Shiyu Defense in the current cycle.\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Sigrid in the current phase of Deadly Assault.\n There are no teams featuring Sigrid who have cleared Deadly Assault in the current cycle."
 }

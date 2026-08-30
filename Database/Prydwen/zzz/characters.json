@@ -8,7 +8,7 @@
     "sourcePath": "/zenless/characters/alice",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Anomaly",
@@ -29,7 +29,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 49
   },
   {
     "id": "anby-demara",
@@ -40,7 +40,7 @@
     "sourcePath": "/zenless/characters/anby-demara",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Stun",
@@ -72,7 +72,7 @@
     "sourcePath": "/zenless/characters/anby-demara-soldier-0",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -104,7 +104,7 @@
     "sourcePath": "/zenless/characters/anton",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -136,7 +136,7 @@
     "sourcePath": "/zenless/characters/aria",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Anomaly",
@@ -157,7 +157,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 47
   },
   {
     "id": "astra-yao",
@@ -168,7 +168,7 @@
     "sourcePath": "/zenless/characters/astra-yao",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Support",
@@ -188,7 +188,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 54
+    "assetCount": 56
   },
   {
     "id": "banyue",
@@ -199,7 +199,7 @@
     "sourcePath": "/zenless/characters/banyue",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Rupture",
@@ -220,7 +220,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 39
+    "assetCount": 40
   },
   {
     "id": "ben",
@@ -231,7 +231,7 @@
     "sourcePath": "/zenless/characters/ben",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Defence",
@@ -252,7 +252,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 45
   },
   {
     "id": "billy-kid",
@@ -263,7 +263,7 @@
     "sourcePath": "/zenless/characters/billy-kid",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -295,7 +295,7 @@
     "sourcePath": "/zenless/characters/billy-starlight",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Rupture",
@@ -316,7 +316,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 51
   },
   {
     "id": "burnice",
@@ -327,7 +327,7 @@
     "sourcePath": "/zenless/characters/burnice",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Anomaly",
@@ -348,7 +348,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 42
+    "assetCount": 45
   },
   {
     "id": "caesar",
@@ -359,7 +359,7 @@
     "sourcePath": "/zenless/characters/caesar",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Defence",
@@ -380,7 +380,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 49
   },
   {
     "id": "cissia",
@@ -391,7 +391,7 @@
     "sourcePath": "/zenless/characters/cissia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -412,7 +412,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 46
   },
   {
     "id": "claret",
@@ -451,7 +451,7 @@
     "sourcePath": "/zenless/characters/corin",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -472,7 +472,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 44
   },
   {
     "id": "dialyn",
@@ -483,7 +483,7 @@
     "sourcePath": "/zenless/characters/dialyn",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Stun",
@@ -515,7 +515,7 @@
     "sourcePath": "/zenless/characters/ellen",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Attack",
@@ -536,7 +536,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "evelyn",
@@ -547,7 +547,7 @@
     "sourcePath": "/zenless/characters/evelyn",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Attack",
@@ -579,7 +579,7 @@
     "sourcePath": "/zenless/characters/grace-howard",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Anomaly",
@@ -600,7 +600,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 48
   },
   {
     "id": "harumasa",
@@ -611,7 +611,7 @@
     "sourcePath": "/zenless/characters/harumasa",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -632,7 +632,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 46
   },
   {
     "id": "hugo",
@@ -643,7 +643,7 @@
     "sourcePath": "/zenless/characters/hugo",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Attack",
@@ -664,7 +664,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 43
   },
   {
     "id": "jane-doe",
@@ -675,7 +675,7 @@
     "sourcePath": "/zenless/characters/jane-doe",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Anomaly",
@@ -696,7 +696,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 50
   },
   {
     "id": "ju-fufu",
@@ -707,7 +707,7 @@
     "sourcePath": "/zenless/characters/ju-fufu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -739,7 +739,7 @@
     "sourcePath": "/zenless/characters/koleda",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -760,7 +760,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "lighter",
@@ -771,7 +771,7 @@
     "sourcePath": "/zenless/characters/lighter",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -803,7 +803,7 @@
     "sourcePath": "/zenless/characters/lucia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Support",
@@ -824,7 +824,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 41
+    "assetCount": 42
   },
   {
     "id": "lucy",
@@ -835,7 +835,7 @@
     "sourcePath": "/zenless/characters/lucy",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Support",
@@ -856,7 +856,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 50
+    "assetCount": 46
   },
   {
     "id": "lycaon",
@@ -867,7 +867,7 @@
     "sourcePath": "/zenless/characters/lycaon",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Stun",
@@ -888,7 +888,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 52
   },
   {
     "id": "manato",
@@ -899,7 +899,7 @@
     "sourcePath": "/zenless/characters/manato",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Rupture",
@@ -931,7 +931,7 @@
     "sourcePath": "/zenless/characters/miyabi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Anomaly",
@@ -952,7 +952,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 50
   },
   {
     "id": "nangong-yu",
@@ -963,7 +963,7 @@
     "sourcePath": "/zenless/characters/nangong-yu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Stun",
@@ -984,7 +984,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 53
   },
   {
     "id": "nekomata",
@@ -995,7 +995,7 @@
     "sourcePath": "/zenless/characters/nekomata",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -1016,7 +1016,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 47
   },
   {
     "id": "nicole-demara",
@@ -1027,7 +1027,7 @@
     "sourcePath": "/zenless/characters/nicole-demara",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Support",
@@ -1048,7 +1048,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 55
   },
   {
     "id": "norma",
@@ -1059,7 +1059,7 @@
     "sourcePath": "/zenless/characters/norma",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Stun",
@@ -1080,7 +1080,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 52
   },
   {
     "id": "orphie-and-magus",
@@ -1091,7 +1091,7 @@
     "sourcePath": "/zenless/characters/orphie-and-magus",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Attack",
@@ -1112,7 +1112,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 53
+    "assetCount": 49
   },
   {
     "id": "pan-yinhu",
@@ -1123,7 +1123,7 @@
     "sourcePath": "/zenless/characters/pan-yinhu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Defence",
@@ -1144,7 +1144,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 44
   },
   {
     "id": "phoenix",
@@ -1183,7 +1183,7 @@
     "sourcePath": "/zenless/characters/piper",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Anomaly",
@@ -1204,7 +1204,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 49
+    "assetCount": 50
   },
   {
     "id": "promeia",
@@ -1215,7 +1215,7 @@
     "sourcePath": "/zenless/characters/promeia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Anomaly",
@@ -1236,7 +1236,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 47
   },
   {
     "id": "pulchra",
@@ -1247,7 +1247,7 @@
     "sourcePath": "/zenless/characters/pulchra",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Stun",
@@ -1267,7 +1267,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 51
+    "assetCount": 52
   },
   {
     "id": "pyrois",
@@ -1278,7 +1278,7 @@
     "sourcePath": "/zenless/characters/pyrois",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Attack",
@@ -1299,7 +1299,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 34
+    "assetCount": 35
   },
   {
     "id": "qingyi",
@@ -1310,7 +1310,7 @@
     "sourcePath": "/zenless/characters/qingyi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Stun",
@@ -1331,7 +1331,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 48
+    "assetCount": 49
   },
   {
     "id": "remielle",
@@ -1341,10 +1341,8 @@
     "slug": "remielle",
     "sourcePath": "/zenless/characters/remielle",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "29/July/2026",
+    "statusLabels": [],
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Lumiflux",
       "specialty": "Anomaly",
@@ -1376,7 +1374,7 @@
     "sourcePath": "/zenless/characters/rina",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Support",
@@ -1397,7 +1395,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 48
   },
   {
     "id": "roxy",
@@ -1436,7 +1434,7 @@
     "sourcePath": "/zenless/characters/seed",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Attack",
@@ -1468,7 +1466,7 @@
     "sourcePath": "/zenless/characters/seth",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Defence",
@@ -1526,11 +1524,11 @@
     "name": "Sigrid",
     "slug": "sigrid",
     "sourcePath": "/zenless/characters/sigrid",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "3.1"
+      "New"
     ],
-    "updatedText": "14/August/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Attack",
@@ -1538,15 +1536,20 @@
       "rarity": "S"
     },
     "art": {
-      "card": "Prydwen/zzz/assets/characters/sigrid-card-30ecebbe136b.webp"
+      "card": "Prydwen/zzz/assets/characters/sigrid-card-30ecebbe136b.webp",
+      "full": "Prydwen/zzz/assets/characters/sigrid-c008677c5105.webp"
     },
     "pageFile": "Prydwen/zzz/pages/characters/sigrid.json",
     "recommendationSections": [
+      "best-w-engines",
+      "best-disk-drives-sets",
+      "best-disk-drives-stats",
+      "best-endgame-stats",
       "skill-priority",
       "synergy",
       "teams"
     ],
-    "assetCount": 3
+    "assetCount": 33
   },
   {
     "id": "soldier-11",
@@ -1557,7 +1560,7 @@
     "sourcePath": "/zenless/characters/soldier-11",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Fire",
       "specialty": "Attack",
@@ -1589,7 +1592,7 @@
     "sourcePath": "/zenless/characters/soukaku",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Support",
@@ -1610,7 +1613,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 46
+    "assetCount": 41
   },
   {
     "id": "sunbringer",
@@ -1649,7 +1652,7 @@
     "sourcePath": "/zenless/characters/sunna",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Support",
@@ -1708,7 +1711,7 @@
     "sourcePath": "/zenless/characters/trigger",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Stun",
@@ -1729,7 +1732,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 56
+    "assetCount": 55
   },
   {
     "id": "velina",
@@ -1740,7 +1743,7 @@
     "sourcePath": "/zenless/characters/velina",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Wind",
       "specialty": "Anomaly",
@@ -1772,7 +1775,7 @@
     "sourcePath": "/zenless/characters/vivian",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Anomaly",
@@ -1793,7 +1796,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 45
+    "assetCount": 47
   },
   {
     "id": "yanagi",
@@ -1804,7 +1807,7 @@
     "sourcePath": "/zenless/characters/yanagi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Electric",
       "specialty": "Anomaly",
@@ -1825,7 +1828,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 45
   },
   {
     "id": "ye-shunguang",
@@ -1836,7 +1839,7 @@
     "sourcePath": "/zenless/characters/ye-shunguang",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Attack",
@@ -1868,7 +1871,7 @@
     "sourcePath": "/zenless/characters/yidhari",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Rupture",
@@ -1889,7 +1892,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 42
   },
   {
     "id": "yixuan",
@@ -1900,7 +1903,7 @@
     "sourcePath": "/zenless/characters/yixuan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Rupture",
@@ -1921,7 +1924,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 43
+    "assetCount": 46
   },
   {
     "id": "ukinami-yuzuha",
@@ -1932,7 +1935,7 @@
     "sourcePath": "/zenless/characters/ukinami-yuzuha",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Physical",
       "specialty": "Support",
@@ -1952,7 +1955,7 @@
       "skill-priority",
       "synergy"
     ],
-    "assetCount": 46
+    "assetCount": 45
   },
   {
     "id": "zhao",
@@ -1963,7 +1966,7 @@
     "sourcePath": "/zenless/characters/zhao",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ice",
       "specialty": "Defence",
@@ -1984,7 +1987,7 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 47
+    "assetCount": 49
   },
   {
     "id": "zhu-yuan",
@@ -1995,7 +1998,7 @@
     "sourcePath": "/zenless/characters/zhu-yuan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "29/July/2026",
+    "updatedText": "19/August/2026",
     "facts": {
       "attribute": "Ether",
       "specialty": "Attack",
@@ -2016,6 +2019,6 @@
       "synergy",
       "teams"
     ],
-    "assetCount": 44
+    "assetCount": 46
   }
 ]

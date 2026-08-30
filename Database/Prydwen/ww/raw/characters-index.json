@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "characters",
   "sourcePath": "/wuthering-waves/characters",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 60,
   "detailPagesScraped": 60,
   "staleDetailPagesRemoved": 0,
@@ -171,11 +171,11 @@
     {
       "id": "hsin",
       "slug": "hsin",
-      "name": "Hsin 3.x",
+      "name": "Hsin 3.7",
       "sourcePath": "/wuthering-waves/characters/hsin",
       "contentStatus": "beta",
       "statusLabels": [
-        "3.x"
+        "3.7"
       ]
     },
     {
@@ -311,11 +311,11 @@
     {
       "id": "qingxiao",
       "slug": "qingxiao",
-      "name": "Qingxiao 3.6",
+      "name": "Qingxiao New",
       "sourcePath": "/wuthering-waves/characters/qingxiao",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "3.6"
+        "New"
       ]
     },
     {
@@ -353,12 +353,10 @@
     {
       "id": "rover-electro",
       "slug": "rover-electro",
-      "name": "Rover (Electro) New",
+      "name": "Rover (Electro)",
       "sourcePath": "/wuthering-waves/characters/rover-electro",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "rover-havoc",
@@ -395,21 +393,19 @@
     {
       "id": "suisui",
       "slug": "suisui",
-      "name": "Suisui New",
+      "name": "Suisui",
       "sourcePath": "/wuthering-waves/characters/suisui",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "suoming",
       "slug": "suoming",
-      "name": "Suoming 3.x",
+      "name": "Suoming 3.7",
       "sourcePath": "/wuthering-waves/characters/suoming",
       "contentStatus": "beta",
       "statusLabels": [
-        "3.x"
+        "3.7"
       ]
     },
     {

@@ -1,67 +1,80 @@
 {
   "provider": "Prydwen",
   "game": "endfield",
-  "generatedAt": "2026-08-16T05:50:35.480Z",
+  "generatedAt": "2026-08-30T10:42:29.348Z",
   "summary": {
     "records": {
-      "added": 0,
+      "added": 1,
       "removed": 0,
-      "changed": 7,
-      "unchanged": 27
+      "changed": 8,
+      "unchanged": 26
     }
   },
   "sections": {
     "records": {
-      "added": [],
+      "added": [
+        {
+          "id": "characters:typhoeus",
+          "name": "Typhoeus",
+          "previousHash": null,
+          "currentHash": "8a77f3abca1b7bb00ced0e6d2445eb786e11cd17fd55bc1f067b1005730a034b"
+        }
+      ],
       "removed": [],
       "changed": [
         {
-          "id": "characters:laevatain",
-          "name": "Laevatain",
-          "previousHash": "722fa25eefa27b574bc4c2a31ee000eaca68c5db5fef5241ebb96d105b4095da",
-          "currentHash": "ee5ed811da6e3fd8ced7db0d88e86ff348229cd620693be677e30230f7b0c6a2"
+          "id": "characters:arcane",
+          "name": "Arcane",
+          "previousHash": "16548270bb1d0faaa79deb3283d62398c09ee0e83ea5b6d8a6f44aa0fb3ce39b",
+          "currentHash": "0d4b8bfac14362c2f2d9b7d233ab8b731a22d83133c2ee8a235e4edaace1404b"
         },
         {
-          "id": "characters:last-rite",
-          "name": "Last Rite",
-          "previousHash": "688a5686db7a9af84438ad49e801c74b23483e96cb4ad3763074d757d3f42906",
-          "currentHash": "2f3b5dca1c70fe053c4985ea918b49d5228867f140452e234a28ee719f8ec260"
+          "id": "characters:avywenna",
+          "name": "Avywenna",
+          "previousHash": "7499b69d5f382ebc7ad7e52cc8f205266745f7aa8aa8dde26acf89ff2a05b053",
+          "currentHash": "20191c80550ff188f218afe8354725e1493e5095f7d3d7e9ecf111f0b2df16c2"
+        },
+        {
+          "id": "characters:camille",
+          "name": "Camille",
+          "previousHash": "4cfda33d24de511499c16bdff42e3f62870cdd8af51b940c9ffe5747a468a53f",
+          "currentHash": "f739717e0873bf33d291fdf6c8359af27184a9bf90638e112ae06cc3047aaf9f"
         },
         {
           "id": "characters:liino",
           "name": "Liino",
-          "previousHash": "561e673dff87907817f534868eb68b35f1442912de79a04179b946f3a623389f",
-          "currentHash": "26f9a9ca8d8a9f1cde59665a1d938bba02f293529dfe587470091611c57a43a5"
+          "previousHash": "26f9a9ca8d8a9f1cde59665a1d938bba02f293529dfe587470091611c57a43a5",
+          "currentHash": "6e4ff9a1a3c2da878ffeb4e80dc84ae1bd7a915f6514d80df8169e0e85db6f92"
         },
         {
-          "id": "characters:tangtang",
-          "name": "Tangtang",
-          "previousHash": "2e6c936f47fe205d93b206ff5b4a962f32198a0d9d74d25b10eca0d9311d7cab",
-          "currentHash": "32e9ba51e9da9e24339f2dad13d959494a43a8f431275ead84d7a6ee34f4fad2"
+          "id": "characters:mi-fu",
+          "name": "Mi Fu",
+          "previousHash": "3b71209f84bed4818495346a14a1a3ff64d39d0afbfddea4facc52f234fe2f4b",
+          "currentHash": "df834f457381cbcf69376f98e7e635246523abaac312f5fe42c951eaaa71a923"
         },
         {
-          "id": "characters:wulfgard",
-          "name": "Wulfgard",
-          "previousHash": "7d55aee2172d33afa5577d42d8ae0f45cb1fdd7a75e733b4bb18afe70b9622ae",
-          "currentHash": "22892f26b8a5d5051201c26b1ee0874faab89f348f9ddfd8b9b3a8209a233bd8"
+          "id": "characters:zhuang-fangyi",
+          "name": "Zhuang Fangyi",
+          "previousHash": "11f3bd997683ec5adc833744513a76eb89ba9b2edabc46a8ca78509858ca4c08",
+          "currentHash": "6fc3c3021da4d70a949710f55c63c1b2ad5d721418ebdd6c1af13517eeb61cba"
         },
         {
           "id": "collection:characters",
           "name": "Arknights: Endfield Characters Build Guides",
-          "previousHash": "3f0c5102d34b3417d2d49b5e7eab465ec463a55be210a3710c516c40029752b9",
-          "currentHash": "44ba2b61c12da17b5cdd6ac1ab91553122029719ca2f90bdb4120550b84d61e6"
+          "previousHash": "44ba2b61c12da17b5cdd6ac1ab91553122029719ca2f90bdb4120550b84d61e6",
+          "currentHash": "dc2336db7d13ed378bb07c3f2ac1b3bb5c631c698defbeecc028b7040bbe6baa"
         },
         {
-          "id": "collection:gear",
-          "name": "Arknights: Endfield Gear List",
-          "previousHash": "7953c03440c5e9710f74c23eec40cd5c179d039ebc5d895735de78a16bcc4a73",
-          "currentHash": "4752b48d7944315e3d2d5e1ff1aa73e93153ee5a312e183edd8ea883cac7f6d6"
+          "id": "collection:weapons",
+          "name": "Arknights: Endfield Weapons List",
+          "previousHash": "c9828d963cda48f65c6a66ade245fb72b004991ebc6b6320471d2e40065a3080",
+          "currentHash": "e2f797ffff8213cd4006fd18af9d55c06c5cff0b9e59652d68b9ce84b3237a31"
         }
       ],
-      "unchanged": 27,
+      "unchanged": 26,
       "totals": {
         "previous": 34,
-        "current": 34
+        "current": 35
       }
     }
   }

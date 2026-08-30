@@ -18,8 +18,8 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 120,
-    "assets": 121
+    "entries": 121,
+    "assets": 122
   },
   {
     "id": "echoes",
@@ -29,7 +29,7 @@
     "detailPagesTotal": 0,
     "detailPagesScraped": 0,
     "staleDetailPagesRemoved": 0,
-    "entries": 184,
-    "assets": 219
+    "entries": 185,
+    "assets": 220
   }
 ]

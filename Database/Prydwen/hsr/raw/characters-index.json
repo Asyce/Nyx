@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "characters",
   "sourcePath": "/star-rail/characters",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 93,
   "detailPagesScraped": 93,
   "staleDetailPagesRemoved": 0,
@@ -253,12 +253,10 @@
     {
       "id": "gilgamesh",
       "slug": "gilgamesh",
-      "name": "Gilgamesh New",
+      "name": "Gilgamesh",
       "sourcePath": "/star-rail/characters/gilgamesh",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "guinaifen",
@@ -513,12 +511,10 @@
     {
       "id": "rin-tohsaka",
       "slug": "rin-tohsaka",
-      "name": "Rin Tohsaka New",
+      "name": "Rin Tohsaka",
       "sourcePath": "/star-rail/characters/rin-tohsaka",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "robin",
@@ -531,11 +527,11 @@
     {
       "id": "robin-summeretto",
       "slug": "robin-summeretto",
-      "name": "Robin Summeretto 4.5",
+      "name": "Robin Summeretto New",
       "sourcePath": "/star-rail/characters/robin-summeretto",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "4.5"
+        "New"
       ]
     },
     {

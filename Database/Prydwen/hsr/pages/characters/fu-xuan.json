@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/fu-xuan",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Fu Xuan Best Build Guide | Honkai: Star Rail",
@@ -334,6 +334,56 @@
       "height": 45
     },
     {
+      "id": "5ff31ffb6345",
+      "sourceHash": "5ff31ffb6345",
+      "kind": "characters",
+      "name": "Archer",
+      "fileStem": "archer-icon",
+      "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "b27695507159",
+      "sourceHash": "b27695507159",
+      "kind": "characters",
+      "name": "Rin Tohsaka",
+      "fileStem": "rin-tohsaka-icon",
+      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "17e078e8c1e4",
+      "sourceHash": "17e078e8c1e4",
+      "kind": "characters",
+      "name": "Fu Xuan",
+      "fileStem": "fu-xuan-icon",
+      "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "f54da6170f38",
       "sourceHash": "f54da6170f38",
       "kind": "characters",
@@ -394,56 +444,6 @@
       "height": 22
     },
     {
-      "id": "17e078e8c1e4",
-      "sourceHash": "17e078e8c1e4",
-      "kind": "characters",
-      "name": "Fu Xuan",
-      "fileStem": "fu-xuan-icon",
-      "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "565914d1a436",
-      "sourceHash": "565914d1a436",
-      "kind": "icons",
-      "name": "Quantum",
-      "fileStem": "ele-quantum",
-      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
-      "id": "5ff31ffb6345",
-      "sourceHash": "5ff31ffb6345",
-      "kind": "characters",
-      "name": "Archer",
-      "fileStem": "archer-icon",
-      "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "b27695507159",
-      "sourceHash": "b27695507159",
-      "kind": "characters",
-      "name": "Rin Tohsaka",
-      "fileStem": "rin-tohsaka-icon",
-      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "da99d2d9a505",
-      "sourceHash": "da99d2d9a505",
-      "kind": "characters",
-      "name": "Sparkle",
-      "fileStem": "sparkle-icon",
-      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "c721ded1f2e0",
       "sourceHash": "c721ded1f2e0",
       "kind": "characters",
@@ -464,16 +464,6 @@
       "height": 22
     },
     {
-      "id": "abea49c1784d",
-      "sourceHash": "abea49c1784d",
-      "kind": "characters",
-      "name": "Evanescia",
-      "fileStem": "evanescia-icon",
-      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "2cde7699adbf",
       "sourceHash": "2cde7699adbf",
       "kind": "characters",
@@ -484,12 +474,42 @@
       "height": 60
     },
     {
-      "id": "fecc96b9e5e6",
-      "sourceHash": "fecc96b9e5e6",
+      "id": "abea49c1784d",
+      "sourceHash": "abea49c1784d",
       "kind": "characters",
-      "name": "The Herta",
-      "fileStem": "the-herta-icon",
-      "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+      "name": "Evanescia",
+      "fileStem": "evanescia-icon",
+      "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "e985c6a49a99",
+      "sourceHash": "e985c6a49a99",
+      "kind": "characters",
+      "name": "Robin",
+      "fileStem": "robin-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7eec89c1a7e2",
+      "sourceHash": "7eec89c1a7e2",
+      "kind": "characters",
+      "name": "Silver Wolf",
+      "fileStem": "silver-wolf-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
       "width": 60,
       "height": 60
     },
@@ -504,12 +524,12 @@
       "height": 22
     },
     {
-      "id": "ca43f286c4b8",
-      "sourceHash": "ca43f286c4b8",
+      "id": "1b219ef71829",
+      "sourceHash": "1b219ef71829",
       "kind": "characters",
-      "name": "Anaxa",
-      "fileStem": "anaxa-icon",
-      "path": "Prydwen/hsr/assets/characters/anaxa-ca43f286c4b8.webp",
+      "name": "Cerydra",
+      "fileStem": "cerydra-icon",
+      "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
       "width": 60,
       "height": 60
     },
@@ -522,56 +542,6 @@
       "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
       "width": 22,
       "height": 22
-    },
-    {
-      "id": "99361e4717fa",
-      "sourceHash": "99361e4717fa",
-      "kind": "characters",
-      "name": "Mortenax Blade",
-      "fileStem": "blade-mortenax-icon",
-      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "bc2d64a2cd5f",
-      "sourceHash": "bc2d64a2cd5f",
-      "kind": "characters",
-      "name": "Hysilens",
-      "fileStem": "hysilens-icon",
-      "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "e01f880a2668",
-      "sourceHash": "e01f880a2668",
-      "kind": "characters",
-      "name": "Black Swan",
-      "fileStem": "black-swan-icon",
-      "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "a137ba3e51ff",
-      "sourceHash": "a137ba3e51ff",
-      "kind": "characters",
-      "name": "Kafka",
-      "fileStem": "kafka-icon",
-      "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "7eec89c1a7e2",
-      "sourceHash": "7eec89c1a7e2",
-      "kind": "characters",
-      "name": "Silver Wolf",
-      "fileStem": "silver-wolf-icon",
-      "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
-      "width": 60,
-      "height": 60
     }
   ],
   "sections": [
@@ -857,7 +827,7 @@
       "id": "best-light-cones-25",
       "level": 2,
       "heading": "Best Light Cones",
-      "text": "1\n\n She Already Shut Her Eyes (S 1 )\n\n Powerful supportive Cone with extra benefits to characters that scale off HP% and that can make use of additional Energy Regen. Easiest to use on characters liable to take direct damage toward their health (strong AoE shielding characters will struggle with this). Healing ability can be invaluable in challenging content - specifically encounters with many waves.\n Usage: 62.73 %\n MoC: 10 cyc.\n PF: 33907\n AS: 3501\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 5.86 %\n MoC: -\n PF: 35280\n AS: 3587\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n Usage: 18.25 %\n MoC: -\n PF: 32600\n AS: 3538\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n Usage: 5.28 %\n MoC: -\n PF: 32400\n AS: 0\n\n 5\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n Usage: 3.02 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "1\n\n She Already Shut Her Eyes (S 1 )\n\n Powerful supportive Cone with extra benefits to characters that scale off HP% and that can make use of additional Energy Regen. Easiest to use on characters liable to take direct damage toward their health (strong AoE shielding characters will struggle with this). Healing ability can be invaluable in challenging content - specifically encounters with many waves.\n Usage: 62.09 %\n MoC: 12 cyc.\n PF: 33907\n AS: 3554\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 5.23 %\n MoC: -\n PF: 35280\n AS: 3587\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n Usage: 19.7 %\n MoC: -\n PF: 39840\n AS: 3575\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n Usage: 7.13 %\n MoC: -\n PF: 30800\n AS: 0\n\n 5\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n Usage: 2.45 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "306391a3c72b",
@@ -915,7 +885,7 @@
       "id": "specialist-light-cones-26",
       "level": 3,
       "heading": "Specialist Light Cones",
-      "text": "1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n Usage: 4.16 %\n MoC: 11.5 cyc.\n PF: 0\n AS: 3443",
+      "text": "1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n Usage: 2.3 %\n MoC: -\n PF: 0\n AS: 3443",
       "assets": [
         {
           "id": "d4e3fea9be5f",
@@ -933,7 +903,7 @@
       "id": "best-relic-sets-28",
       "level": 2,
       "heading": "Best Relic Sets",
-      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Fu Xuan's Ultimate can provide teamwide healing for the 15% teamwide CRIT DMG buff, albeit unreliable since the buff only lasts for 2 turns. As she currently does not have any other buffing option; other 2-Pc sets have a rather small impact, this is the best set for her as SPD is also useful for her.\n Usage: 18.62 %\n MoC: 10.5 cyc.\n PF: 31400\n AS: 0\n\n 2\n\n Longevous Disciple ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Usage: 1 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Fu Xuan's Ultimate can provide teamwide healing for the 15% teamwide CRIT DMG buff, albeit unreliable since the buff only lasts for 2 turns. As she currently does not have any other buffing option; other 2-Pc sets have a rather small impact, this is the best set for her as SPD is also useful for her.\n Usage: 19.7 %\n MoC: 12 cyc.\n PF: 31400\n AS: 0\n\n 2\n\n Longevous Disciple ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Usage: 0.94 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "2f8ec1684b6b",
@@ -991,7 +961,7 @@
       "id": "best-specialist-relic-sets-29",
       "level": 6,
       "heading": "Best Specialist Relic Sets",
-      "text": "1\n\n Longevous Disciple ( 4 -PC)\n\n Powerful damage focused set for characters with multipliers that scale off of HP% and CRIT and who consistently take damage from enemies or deal it to themselves. Niche option for those aiming to increase their Fu Xuan's damage output.\n Usage: 1.98 %\n MoC: -\n PF: 0\n AS: 0",
+      "text": "1\n\n Longevous Disciple ( 4 -PC)\n\n Powerful damage focused set for characters with multipliers that scale off of HP% and CRIT and who consistently take damage from enemies or deal it to themselves. Niche option for those aiming to increase their Fu Xuan's damage output.\n Usage: 2.82 %\n MoC: -\n PF: 0\n AS: 0",
       "assets": [
         {
           "id": "58e79f548454",
@@ -1009,7 +979,7 @@
       "id": "best-planetary-sets-30",
       "level": 6,
       "heading": "Best Planetary Sets",
-      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 50.43 %\n MoC: 9 cyc.\n PF: 33840\n AS: 3485\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 20.49 %\n MoC: 12 cyc.\n PF: 35700\n AS: 3619\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n Usage: 6.19 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 14.72 %\n MoC: 12 cyc.\n PF: 30320\n AS: 3509",
+      "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 48.42 %\n MoC: -\n PF: 33040\n AS: 3543\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 22.13 %\n MoC: 12 cyc.\n PF: 37080\n AS: 3619\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n Usage: 5.81 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 12.24 %\n MoC: -\n PF: 0\n AS: 3509",
       "assets": [
         {
           "id": "3306e6f6288f",
@@ -1147,8 +1117,58 @@
       "id": "anomaly-arbitration-40",
       "level": 6,
       "heading": "Anomaly Arbitration",
-      "text": "Rank 27\n App. rate: 1.31 %\n Avg. cycles : 9.53\n Avg. cycles (E1+): 6.51\n\n Rank 55\n App. rate: 0.62 %\n Avg. cycles : 11\n Avg. cycles (E1+): 7.16\n\n New\n\n Rank 77\n App. rate: 0.43 %\n Avg. cycles : 10.62\n Avg. cycles (E1+): 8.79\n\n Rank 135\n App. rate: 0.2 %\n Avg. cycles : 9\n Avg. cycles (E1+): 6.07\n\n Rank 162\n App. rate: 0.16 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.1\n\n Rank 215\n App. rate: 0.11 %\n Avg. cycles : 9\n Avg. cycles (E1+): 8\n\n Rank 246\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.46\n\n Rank 246\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.55\n\n Rank 310\n App. rate: 0.07 %\n Avg. cycles : 11\n Avg. cycles (E1+): 8.44\n\n Rank 343\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.44",
+      "text": "Rank 22\n App. rate: 2.03 %\n Avg. cycles : 9.55\n Avg. cycles (E1+): 8.25\n\n Rank 27\n App. rate: 1.63 %\n Avg. cycles : 8\n Avg. cycles (E1+): 6.71\n\n Rank 85\n App. rate: 0.42 %\n Avg. cycles : 12\n Avg. cycles (E1+): 7.64\n\n Rank 130\n App. rate: 0.22 %\n Avg. cycles : 8\n Avg. cycles (E1+): 9.22\n\n Rank 158\n App. rate: 0.17 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.32\n\n Rank 219\n App. rate: 0.1 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.55\n\n Rank 252\n App. rate: 0.08 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.67\n\n Rank 297\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.14\n\n Rank 318\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.2\n\n Rank 318\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 8",
       "assets": [
+        {
+          "id": "5ff31ffb6345",
+          "sourceHash": "5ff31ffb6345",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-icon",
+          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "b27695507159",
+          "sourceHash": "b27695507159",
+          "kind": "characters",
+          "name": "Rin Tohsaka",
+          "fileStem": "rin-tohsaka-icon",
+          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "17e078e8c1e4",
+          "sourceHash": "17e078e8c1e4",
+          "kind": "characters",
+          "name": "Fu Xuan",
+          "fileStem": "fu-xuan-icon",
+          "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
+          "width": 60,
+          "height": 60
+        },
         {
           "id": "f54da6170f38",
           "sourceHash": "f54da6170f38",
@@ -1210,56 +1230,6 @@
           "height": 22
         },
         {
-          "id": "17e078e8c1e4",
-          "sourceHash": "17e078e8c1e4",
-          "kind": "characters",
-          "name": "Fu Xuan",
-          "fileStem": "fu-xuan-icon",
-          "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "565914d1a436",
-          "sourceHash": "565914d1a436",
-          "kind": "icons",
-          "name": "Quantum",
-          "fileStem": "ele-quantum",
-          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
-          "id": "5ff31ffb6345",
-          "sourceHash": "5ff31ffb6345",
-          "kind": "characters",
-          "name": "Archer",
-          "fileStem": "archer-icon",
-          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "b27695507159",
-          "sourceHash": "b27695507159",
-          "kind": "characters",
-          "name": "Rin Tohsaka",
-          "fileStem": "rin-tohsaka-icon",
-          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "da99d2d9a505",
-          "sourceHash": "da99d2d9a505",
-          "kind": "characters",
-          "name": "Sparkle",
-          "fileStem": "sparkle-icon",
-          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "c721ded1f2e0",
           "sourceHash": "c721ded1f2e0",
           "kind": "characters",
@@ -1280,16 +1250,6 @@
           "height": 22
         },
         {
-          "id": "abea49c1784d",
-          "sourceHash": "abea49c1784d",
-          "kind": "characters",
-          "name": "Evanescia",
-          "fileStem": "evanescia-icon",
-          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "2cde7699adbf",
           "sourceHash": "2cde7699adbf",
           "kind": "characters",
@@ -1300,12 +1260,42 @@
           "height": 60
         },
         {
-          "id": "fecc96b9e5e6",
-          "sourceHash": "fecc96b9e5e6",
+          "id": "abea49c1784d",
+          "sourceHash": "abea49c1784d",
           "kind": "characters",
-          "name": "The Herta",
-          "fileStem": "the-herta-icon",
-          "path": "Prydwen/hsr/assets/characters/the-herta-fecc96b9e5e6.webp",
+          "name": "Evanescia",
+          "fileStem": "evanescia-icon",
+          "path": "Prydwen/hsr/assets/characters/evanescia-abea49c1784d.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e985c6a49a99",
+          "sourceHash": "e985c6a49a99",
+          "kind": "characters",
+          "name": "Robin",
+          "fileStem": "robin-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-e985c6a49a99.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7eec89c1a7e2",
+          "sourceHash": "7eec89c1a7e2",
+          "kind": "characters",
+          "name": "Silver Wolf",
+          "fileStem": "silver-wolf-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
           "width": 60,
           "height": 60
         },
@@ -1320,12 +1310,12 @@
           "height": 22
         },
         {
-          "id": "ca43f286c4b8",
-          "sourceHash": "ca43f286c4b8",
+          "id": "1b219ef71829",
+          "sourceHash": "1b219ef71829",
           "kind": "characters",
-          "name": "Anaxa",
-          "fileStem": "anaxa-icon",
-          "path": "Prydwen/hsr/assets/characters/anaxa-ca43f286c4b8.webp",
+          "name": "Cerydra",
+          "fileStem": "cerydra-icon",
+          "path": "Prydwen/hsr/assets/characters/cerydra-1b219ef71829.webp",
           "width": 60,
           "height": 60
         },
@@ -1338,66 +1328,6 @@
           "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
           "width": 22,
           "height": 22
-        },
-        {
-          "id": "fbcfe4133d08",
-          "sourceHash": "fbcfe4133d08",
-          "kind": "characters",
-          "name": "Acheron",
-          "fileStem": "acheron-icon",
-          "path": "Prydwen/hsr/assets/characters/acheron-fbcfe4133d08.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "99361e4717fa",
-          "sourceHash": "99361e4717fa",
-          "kind": "characters",
-          "name": "Mortenax Blade",
-          "fileStem": "blade-mortenax-icon",
-          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "bc2d64a2cd5f",
-          "sourceHash": "bc2d64a2cd5f",
-          "kind": "characters",
-          "name": "Hysilens",
-          "fileStem": "hysilens-icon",
-          "path": "Prydwen/hsr/assets/characters/hysilens-bc2d64a2cd5f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e01f880a2668",
-          "sourceHash": "e01f880a2668",
-          "kind": "characters",
-          "name": "Black Swan",
-          "fileStem": "black-swan-icon",
-          "path": "Prydwen/hsr/assets/characters/black-swan-e01f880a2668.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "a137ba3e51ff",
-          "sourceHash": "a137ba3e51ff",
-          "kind": "characters",
-          "name": "Kafka",
-          "fileStem": "kafka-icon",
-          "path": "Prydwen/hsr/assets/characters/kafka-a137ba3e51ff.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7eec89c1a7e2",
-          "sourceHash": "7eec89c1a7e2",
-          "kind": "characters",
-          "name": "Silver Wolf",
-          "fileStem": "silver-wolf-icon",
-          "path": "Prydwen/hsr/assets/characters/silver-wolf-7eec89c1a7e2.webp",
-          "width": 60,
-          "height": 60
         }
       ]
     },
@@ -1415,7 +1345,7 @@
       "sections": [
         {
           "heading": "Best Light Cones",
-          "text": "1\n\n She Already Shut Her Eyes (S 1 )\n\n Powerful supportive Cone with extra benefits to characters that scale off HP% and that can make use of additional Energy Regen. Easiest to use on characters liable to take direct damage toward their health (strong AoE shielding characters will struggle with this). Healing ability can be invaluable in challenging content - specifically encounters with many waves.\n Usage: 62.73 %\n MoC: 10 cyc.\n PF: 33907\n AS: 3501\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 5.86 %\n MoC: -\n PF: 35280\n AS: 3587\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n Usage: 18.25 %\n MoC: -\n PF: 32600\n AS: 3538\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n Usage: 5.28 %\n MoC: -\n PF: 32400\n AS: 0\n\n 5\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n Usage: 3.02 %\n MoC: -\n PF: 0\n AS: 0",
+          "text": "1\n\n She Already Shut Her Eyes (S 1 )\n\n Powerful supportive Cone with extra benefits to characters that scale off HP% and that can make use of additional Energy Regen. Easiest to use on characters liable to take direct damage toward their health (strong AoE shielding characters will struggle with this). Healing ability can be invaluable in challenging content - specifically encounters with many waves.\n Usage: 62.09 %\n MoC: 12 cyc.\n PF: 33907\n AS: 3554\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 5.23 %\n MoC: -\n PF: 35280\n AS: 3587\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n Usage: 19.7 %\n MoC: -\n PF: 39840\n AS: 3575\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n Usage: 7.13 %\n MoC: -\n PF: 30800\n AS: 0\n\n 5\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n Usage: 2.45 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
             {
               "id": "306391a3c72b",
@@ -1476,7 +1406,7 @@
       "sections": [
         {
           "heading": "Best Relic Sets",
-          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Fu Xuan's Ultimate can provide teamwide healing for the 15% teamwide CRIT DMG buff, albeit unreliable since the buff only lasts for 2 turns. As she currently does not have any other buffing option; other 2-Pc sets have a rather small impact, this is the best set for her as SPD is also useful for her.\n Usage: 18.62 %\n MoC: 10.5 cyc.\n PF: 31400\n AS: 0\n\n 2\n\n Longevous Disciple ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Usage: 1 %\n MoC: -\n PF: 0\n AS: 0",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Fu Xuan's Ultimate can provide teamwide healing for the 15% teamwide CRIT DMG buff, albeit unreliable since the buff only lasts for 2 turns. As she currently does not have any other buffing option; other 2-Pc sets have a rather small impact, this is the best set for her as SPD is also useful for her.\n Usage: 19.7 %\n MoC: 12 cyc.\n PF: 31400\n AS: 0\n\n 2\n\n Longevous Disciple ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Usage: 0.94 %\n MoC: -\n PF: 0\n AS: 0",
           "assets": [
             {
               "id": "2f8ec1684b6b",
@@ -1537,7 +1467,7 @@
       "sections": [
         {
           "heading": "Best Planetary Sets",
-          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 50.43 %\n MoC: 9 cyc.\n PF: 33840\n AS: 3485\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 20.49 %\n MoC: 12 cyc.\n PF: 35700\n AS: 3619\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n Usage: 6.19 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 14.72 %\n MoC: 12 cyc.\n PF: 30320\n AS: 3509",
+          "text": "1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 48.42 %\n MoC: -\n PF: 33040\n AS: 3543\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 22.13 %\n MoC: 12 cyc.\n PF: 37080\n AS: 3619\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n Usage: 5.81 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 12.24 %\n MoC: -\n PF: 0\n AS: 3509",
           "assets": [
             {
               "id": "3306e6f6288f",
@@ -1687,5 +1617,5 @@
     }
   },
   "tables": [],
-  "text": "Fu Xuan Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Fu Xuan\n Fu Xuan Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Fu Xuan from HSR (Honkai: Star Rail). Fu Xuan is a 5 ★ character from the Quantum element who follows the Path of Preservation .\n The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events. She firmly believes that everything she does is the \"best solution\" for the situation. Fu Xuan is waiting for the general's promised \"abdication.\" However, that day still seems... very far away.\n\n To learn more about Fu Xuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Fu Xuan has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Fu Xuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Novaburst\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to a single enemy.\n\n Skill\n Known by Stars, Shown by Hearts\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Activates Matrix of Prescience, via which other team members will Distribute #1[i]% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for #3[i] turn(s).\nWhile affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by #4[i]% of Fu Xuan's Max HP, and increases CRIT Rate by #5[i]%.\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.\n\n Ultimate\n Woes of Many Morphed to One\n AoE | 135 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.\n\n Talent\n Bleak Breeds Bliss\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[i]% less DMG.\nWhen Fu Xuan's current HP falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.\n\n Technique\n Of Fortune Comes Fate\n Defense\n\n Energy gain: 0\n Break: -\n\n After the Technique is used, all team members receive a Barrier, lasting for #1[i] seconds. This Barrier can block all enemy attacks, and the team will not enter battle when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for #2[i] turn(s).\n\n Major Traces\n A2 Major trace\n Taiyi, the Macrocosmic\n\n When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill.\n\n A4 Major trace\n Dunjia, the Metamystic\n\n When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to 5% of Fu Xuan's Max HP plus 133 .\n\n A6 Major trace\n Liuren, the Sexagenary\n\n If a target enemy applies Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When Matrix of Prescience is activated again, the number of times this effect can be triggered will reset.\n\n Minor Traces (total)\n Effect RES\n + 10%\n\n CRIT Rate\n + 18.7%\n\n HP\n + 18%\n\n Eidolons\n E 1\n Dominus Pacis\n Eidolon 1\n\n The Knowledge effect increases CRIT DMG by 30% .\n\n E 2\n Optimus Felix\n Eidolon 2\n\n If any team member is struck by a killing blow while Matrix of Prescience is active, then all allies who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle.\n\n E 3\n Apex Nexus\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Fortuna Stellaris\n Eidolon 4\n\n When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy.\n\n E 5\n Arbiter Primus\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Omnia Vita\n Eidolon 6\n\n Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. Fu Xuan's Ultimate DMG will increase by 200% of this tally of HP loss. This tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1474\n\n ATK\n\n 465\n\n DEF\n\n 606\n\n Speed\n\n 100\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Artifex's Module\n\n x 15\n\n Artifex's Cogwheel\n\n x 15\n\n Nail of the Ape\n\n x 65\n\n Artifex's Gyreheart\n\n x 15\n\n CV\n ENG\n Sarah Wiedenheft\n\n JPN\n 伊藤美来 (Miku Itō)\n\n CN\n 花玲 (Huā Líng)\n\n KR\n 이지현 (Lee Ji-hyeon)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Significant teamwide damage mitigation,\n\n Extremely durable with very high HP,\n\n Provides Max HP and CRIT Rate bonuses passively with her Skill,\n\n Provides Crowd Control immunity with each Skill usage.\n\n Cons\n Value is substantially lower in the early game since she needs all her skills leveled to reach her peak,\n\n Against enemies that hit really hard or often, she might either get one-shot or die quite fast - the damage output coming from enemies has jumped compared to how things looked when she first released,\n\n Team healing can be insufficient if she is not well invested.\n\n Review (By Sushou)\n Fu Xuan is a superb defensive support who provides teamwide damage reduction from her Talent at all times, and 65% damage redirection from her Skill, meaning that 65% of the damage an ally takes will instead be taken by Fu Xuan. She is able to restore HP with her Ultimate and also provides Max HP and CRIT Rate bonuses from her Skill. She even protects the whole team from crowd control debuffs.\n The head of the Luofu’s Divination Commission and Qingque’s boss, Fu Xuan is a confident and compelling character. She accomplishes this through multiple avenues. Her Talent provides a teamwide buff that grants everyone damage reduction, up to 18% at max Trace level. There is no prerequisite for this to be active beyond ‘have Fu Xuan be alive’. Damage reduction is a very underestimated stat in general—even the small 8% provided by the Guard of Wuthering Snow Relic set is significant after even only a couple of cycles, so to have a permanently active 18% courtesy of Fu Xuan’s Talent is extraordinarily powerful. Her Talent also has an interaction with her Ultimate, but we’ll get to that.\n Fu Xuan’s Skill applies a buff called Matrix of Prescience, which we’ll naturally refer to as ‘Matrix’ from now on. The Matrix lasts for 3 turns and redirects 65% of all damage other allies take towards Fu Xuan, and this is before factoring in any shields. This means allies only take 35% of the intended damage, turning previously lethal hits into laughable ones. Factoring in the damage reduction from Fu Xuan’s Talent, this reduces the damage even further still. As an added benefit to this, Matrix will also provide up to a 6% Max HP increase as well as a 12% CRIT Rate increase at max Trace level , further reducing effective damage taken, and even providing some offensive value to the team.\n It is important at this point to mention that Fu Xuan’s Basic ATK and Ultimate deal damage based on Fu Xuan’s Max HP, meaning she is a pure HP-scaling unit. Coupled with her having the highest base HP value in the game, it makes it very easy to get to ridiculous HP values that even Blade would be amazed at. The player is further incentivized to go all in on HP due to the damage redirection provided by Matrix, because the unprepared Fu Xuan may find herself suddenly taking a massive AoE hit three times more than she ordinarily would have.\n Fu Xuan’s Ultimate deals up to 100% of her Max HP to all enemies, and obtains 1 trigger count for her Talent. As a part of her Talent, she also has a special self-heal that will automatically activate if she falls to or below 50% of her Max HP, and will restore up to 90% of the HP she is missing. This won’t overheal you, and won’t activate if Fu Xuan suffers a killing blow. She has 1 trigger count for this effect by default, and can possess a maximum of 2, and the way to regain these is through the use of her Ultimate. It should be noted that Fu Xuan’s Ultimate has an above average Energy cost of 135, meaning it’s important to manage her abilities in a way where you can get this often enough to ensure both your team’s and Fu Xuan’s combined safety.\n Her Bonus Traces improve upon her Skill and Ultimate in exceptional ways. A2 will provide Fu Xuan with an extra 20 Energy if she uses her Skill while Matrix is still active, resulting in a huge influx of Energy for free by just refreshing Matrix when you would have been doing so anyway, and making it far easier to get more frequent uses of her Ultimate. Her A4 gives her Ultimate a small AoE heal when used, healing 5% of Fu Xuan’s Max HP plus 133 to all other allies besides Fu Xuan herself. This is not a colossal heal by any stretch, but with the damage reduction and redirection Fu Xuan provides, it can potentially be significant enough to sustain the whole team on its own if Fu Xuan’s Max HP is high enough. This also means that Fu Xuan demands a very high level of investment to be able to utilise as the solo defensive option for your team should you wish to do that, though with her offensive utilities and personal damage, using her alongside another defensive unit is still perfectly viable.\n Fu Xuan’s A6 is of particular note as it will prevent Crowd Control debuffs from being applied to allies while the Matrix is active. This can happen once per Matrix usage and will be refreshed upon refreshing the Matrix. This means that for the turn that Crowd Control goes out, no ally will be affected by it under any circumstances for the current action. Examples include Decaying Shadow’s Imprisoning spikes and Ice Out of Space’s AoE Freezing attack. Since this does not prevent general debuffs such as DoT, this effect will not be erroneously wasted by such minor debuffs, making this a very efficient way of mitigating dangerous AoE Crowd Control effects, or even circumventing them entirely if they’re infrequent enough that Matrix recasts can cover them.\n As you can see, Fu Xuan is already powerful on her own at E0. Her Eidolons are entirely unnecessary, and honestly not too noteworthy. E1 is probably the most meaningful upgrade, allowing her Matrix of Prescience to additionally provide 30% CRIT DMG. Fu Xuan is already somewhat consolidating defensive unit with offensive Harmony support, and this Eidolon fully leans into that. E2 essentially provides Fu Xuan’s Matrix with Bailu’s entire revive portion of her Talent; allies killed while Matrix is active will not fall and will regain 70% of their Max HP, and this can happen once per fight. The other Eidolons are not really worth chasing as they do not significantly improve Fu Xuan’s performance beyond this point. E6 is obviously a big damage boost to her Ultimate but it’s really there for flair and will not suddenly make Fu Xuan a damage-dealing menace comparable to dedicated damage options.\n There’s not much more to say about Fu Xuan, she’s a strong sustain and quite self-contained. However, I will mention that Fu Xuan is also extremely flexible with how you utilise her in combat. Ideally, Fu Xuan is SP positive since she only needs to use her Skill every 2 turns to benefit from the extra Energy from her A2, but there’s nothing to stop you from refreshing her Matrix even earlier if you have the SP to spare. Doing so will give even more Energy and allow you to Ultimate more frequently, or maybe you decide you need her Ultimate this very turn. Perhaps you feel you need to refresh the Crowd Control immunity before the enemy’s next turn. There’s a lot of flexibility in terms of her SP usage, and it’s up to the runner to notice if they have the SP to spare. Fu Xuan’s skill ceiling is therefore quite high, and as one gets more comfortable using her, one will notice just how powerful she truly is.\n Lady Fu is formidable and usable on pretty much every team, but nowadays she's relegated to CRIT-based teams due to her buffs. Her strong defensive utility coupled with her offensive benefits and decent personal damage make her a wonderful pairing with almost every CRIT-based damage dealer in the game.\n She sees all, and it is up to you to decide what you will do with her information\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T1\n MoC\n\n T0.5\n PF\n\n T1\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n She Already Shut Her Eyes (S 1 )\n\n Powerful supportive Cone with extra benefits to characters that scale off HP% and that can make use of additional Energy Regen. Easiest to use on characters liable to take direct damage toward their health (strong AoE shielding characters will struggle with this). Healing ability can be invaluable in challenging content - specifically encounters with many waves.\n Usage: 62.73 %\n MoC: 10 cyc.\n PF: 33907\n AS: 3501\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 5.86 %\n MoC: -\n PF: 35280\n AS: 3587\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n Usage: 18.25 %\n MoC: -\n PF: 32600\n AS: 3538\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n Usage: 5.28 %\n MoC: -\n PF: 32400\n AS: 0\n\n 5\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n Usage: 3.02 %\n MoC: -\n PF: 0\n AS: 0\n\n Specialist Light Cones\n 1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n Usage: 4.16 %\n MoC: 11.5 cyc.\n PF: 0\n AS: 3443\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Fu Xuan's Ultimate can provide teamwide healing for the 15% teamwide CRIT DMG buff, albeit unreliable since the buff only lasts for 2 turns. As she currently does not have any other buffing option; other 2-Pc sets have a rather small impact, this is the best set for her as SPD is also useful for her.\n Usage: 18.62 %\n MoC: 10.5 cyc.\n PF: 31400\n AS: 0\n\n 2\n\n Longevous Disciple ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Usage: 1 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Relic Sets\n 1\n\n Longevous Disciple ( 4 -PC)\n\n Powerful damage focused set for characters with multipliers that scale off of HP% and CRIT and who consistently take damage from enemies or deal it to themselves. Niche option for those aiming to increase their Fu Xuan's damage output.\n Usage: 1.98 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 50.43 %\n MoC: 9 cyc.\n PF: 33840\n AS: 3485\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 20.49 %\n MoC: 12 cyc.\n PF: 35700\n AS: 3619\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n Usage: 6.19 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 14.72 %\n MoC: 12 cyc.\n PF: 30320\n AS: 3509\n\n Best Stats\n\n Body\n HP%\n > DEF%\n\n Feet\n Speed\n > HP%\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) = HP% >= DEF% > EFF RES%\n\n Ensure your Fu Xuan is tanky enough to survive by prioritizing HP% and DEF%. Next, try to hit key Speed breakpoints (121 and 134) through the combination of Speed boots, SPD 2-piece set, and sub-stats. Also, it is not recommended to use more than 1 DEF% main stat Relic - ideally, you want to use HP% as the main stats and hunt for DEF% on your subs. If you want numbers, aim for 6500-8000 HP (with Matrix Active) and 1400-1600 DEF and then focus on Speed.\n\n Recommended endgame stats\n HP: 6500 - 8000 ( With Matrix active)\n\n DEF: 1400 - 1600\n\n SPEED: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Talent > Skill > Ultimate = Basic\n\n Major Traces priority: Taiyi, the Macrocosmic (A2) > Dunjia, the Metamystic (A4) > Liuren, the Sexagenary (A6)\n\n Synergy\n Acheron - Providing the much needed CRIT Rate that Acheron wants is very useful in itself, she can also hold the Trend Light Cone for additional debuffs whenever Fu Xuan gets hit, giving a Slashed Dream when applied.\n Seele - Giving the much needed CRIT Rate that Seele needs is extremely useful in itself. She also provides a 1 time CC ignore for stuff like Imprisons and Freezes, which prevents Seele’s pace slowdown, making it invaluable.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 27\n App. rate: 1.31 %\n Avg. cycles : 9.53\n Avg. cycles (E1+): 6.51\n\n Rank 55\n App. rate: 0.62 %\n Avg. cycles : 11\n Avg. cycles (E1+): 7.16\n\n New\n\n Rank 77\n App. rate: 0.43 %\n Avg. cycles : 10.62\n Avg. cycles (E1+): 8.79\n\n Rank 135\n App. rate: 0.2 %\n Avg. cycles : 9\n Avg. cycles (E1+): 6.07\n\n Rank 162\n App. rate: 0.16 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.1\n\n Rank 215\n App. rate: 0.11 %\n Avg. cycles : 9\n Avg. cycles (E1+): 8\n\n Rank 246\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.46\n\n Rank 246\n App. rate: 0.09 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.55\n\n Rank 310\n App. rate: 0.07 %\n Avg. cycles : 11\n Avg. cycles (E1+): 8.44\n\n Rank 343\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.44\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Fu Xuan Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Fu Xuan\n Fu Xuan Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Fu Xuan from HSR (Honkai: Star Rail). Fu Xuan is a 5 ★ character from the Quantum element who follows the Path of Preservation .\n The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events. She firmly believes that everything she does is the \"best solution\" for the situation. Fu Xuan is waiting for the general's promised \"abdication.\" However, that day still seems... very far away.\n\n To learn more about Fu Xuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Fu Xuan has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.4\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Fu Xuan check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Novaburst\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to a single enemy.\n\n Skill\n Known by Stars, Shown by Hearts\n Defense\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Activates Matrix of Prescience, via which other team members will Distribute #1[i]% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for #3[i] turn(s).\nWhile affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by #4[i]% of Fu Xuan's Max HP, and increases CRIT Rate by #5[i]%.\nWhen Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.\n\n Ultimate\n Woes of Many Morphed to One\n AoE | 135 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Deals Quantum DMG equal to #1[i]% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent.\n\n Talent\n Bleak Breeds Bliss\n Restore\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take #1[i]% less DMG.\nWhen Fu Xuan's current HP falls to #2[i]% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by #3[i]% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts.\n\n Technique\n Of Fortune Comes Fate\n Defense\n\n Energy gain: 0\n Break: -\n\n After the Technique is used, all team members receive a Barrier, lasting for #1[i] seconds. This Barrier can block all enemy attacks, and the team will not enter battle when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for #2[i] turn(s).\n\n Major Traces\n A2 Major trace\n Taiyi, the Macrocosmic\n\n When Matrix of Prescience is active, Fu Xuan will regenerate 20 extra Energy when she uses her Skill.\n\n A4 Major trace\n Dunjia, the Metamystic\n\n When Fu Xuan's Ultimate is used, heals all other allies by an amount equal to 5% of Fu Xuan's Max HP plus 133 .\n\n A6 Major trace\n Liuren, the Sexagenary\n\n If a target enemy applies Crowd Control debuffs to allies while the Matrix of Prescience is active, all allies will resist all Crowd Control debuffs applied by the enemy target during the current action. This effect can only be triggered once. When Matrix of Prescience is activated again, the number of times this effect can be triggered will reset.\n\n Minor Traces (total)\n Effect RES\n + 10%\n\n CRIT Rate\n + 18.7%\n\n HP\n + 18%\n\n Eidolons\n E 1\n Dominus Pacis\n Eidolon 1\n\n The Knowledge effect increases CRIT DMG by 30% .\n\n E 2\n Optimus Felix\n Eidolon 2\n\n If any team member is struck by a killing blow while Matrix of Prescience is active, then all allies who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle.\n\n E 3\n Apex Nexus\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15.\n\n E 4\n Fortuna Stellaris\n Eidolon 4\n\n When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy.\n\n E 5\n Arbiter Primus\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Omnia Vita\n Eidolon 6\n\n Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. Fu Xuan's Ultimate DMG will increase by 200% of this tally of HP loss. This tally is also capped at 120% of Fu Xuan's Max HP and the tally value will reset and re-accumulate after Fu Xuan's Ultimate is used.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1474\n\n ATK\n\n 465\n\n DEF\n\n 606\n\n Speed\n\n 100\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Artifex's Module\n\n x 15\n\n Artifex's Cogwheel\n\n x 15\n\n Nail of the Ape\n\n x 65\n\n Artifex's Gyreheart\n\n x 15\n\n CV\n ENG\n Sarah Wiedenheft\n\n JPN\n 伊藤美来 (Miku Itō)\n\n CN\n 花玲 (Huā Líng)\n\n KR\n 이지현 (Lee Ji-hyeon)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Significant teamwide damage mitigation,\n\n Extremely durable with very high HP,\n\n Provides Max HP and CRIT Rate bonuses passively with her Skill,\n\n Provides Crowd Control immunity with each Skill usage.\n\n Cons\n Value is substantially lower in the early game since she needs all her skills leveled to reach her peak,\n\n Against enemies that hit really hard or often, she might either get one-shot or die quite fast - the damage output coming from enemies has jumped compared to how things looked when she first released,\n\n Team healing can be insufficient if she is not well invested.\n\n Review (By Sushou)\n Fu Xuan is a superb defensive support who provides teamwide damage reduction from her Talent at all times, and 65% damage redirection from her Skill, meaning that 65% of the damage an ally takes will instead be taken by Fu Xuan. She is able to restore HP with her Ultimate and also provides Max HP and CRIT Rate bonuses from her Skill. She even protects the whole team from crowd control debuffs.\n The head of the Luofu’s Divination Commission and Qingque’s boss, Fu Xuan is a confident and compelling character. She accomplishes this through multiple avenues. Her Talent provides a teamwide buff that grants everyone damage reduction, up to 18% at max Trace level. There is no prerequisite for this to be active beyond ‘have Fu Xuan be alive’. Damage reduction is a very underestimated stat in general—even the small 8% provided by the Guard of Wuthering Snow Relic set is significant after even only a couple of cycles, so to have a permanently active 18% courtesy of Fu Xuan’s Talent is extraordinarily powerful. Her Talent also has an interaction with her Ultimate, but we’ll get to that.\n Fu Xuan’s Skill applies a buff called Matrix of Prescience, which we’ll naturally refer to as ‘Matrix’ from now on. The Matrix lasts for 3 turns and redirects 65% of all damage other allies take towards Fu Xuan, and this is before factoring in any shields. This means allies only take 35% of the intended damage, turning previously lethal hits into laughable ones. Factoring in the damage reduction from Fu Xuan’s Talent, this reduces the damage even further still. As an added benefit to this, Matrix will also provide up to a 6% Max HP increase as well as a 12% CRIT Rate increase at max Trace level , further reducing effective damage taken, and even providing some offensive value to the team.\n It is important at this point to mention that Fu Xuan’s Basic ATK and Ultimate deal damage based on Fu Xuan’s Max HP, meaning she is a pure HP-scaling unit. Coupled with her having the highest base HP value in the game, it makes it very easy to get to ridiculous HP values that even Blade would be amazed at. The player is further incentivized to go all in on HP due to the damage redirection provided by Matrix, because the unprepared Fu Xuan may find herself suddenly taking a massive AoE hit three times more than she ordinarily would have.\n Fu Xuan’s Ultimate deals up to 100% of her Max HP to all enemies, and obtains 1 trigger count for her Talent. As a part of her Talent, she also has a special self-heal that will automatically activate if she falls to or below 50% of her Max HP, and will restore up to 90% of the HP she is missing. This won’t overheal you, and won’t activate if Fu Xuan suffers a killing blow. She has 1 trigger count for this effect by default, and can possess a maximum of 2, and the way to regain these is through the use of her Ultimate. It should be noted that Fu Xuan’s Ultimate has an above average Energy cost of 135, meaning it’s important to manage her abilities in a way where you can get this often enough to ensure both your team’s and Fu Xuan’s combined safety.\n Her Bonus Traces improve upon her Skill and Ultimate in exceptional ways. A2 will provide Fu Xuan with an extra 20 Energy if she uses her Skill while Matrix is still active, resulting in a huge influx of Energy for free by just refreshing Matrix when you would have been doing so anyway, and making it far easier to get more frequent uses of her Ultimate. Her A4 gives her Ultimate a small AoE heal when used, healing 5% of Fu Xuan’s Max HP plus 133 to all other allies besides Fu Xuan herself. This is not a colossal heal by any stretch, but with the damage reduction and redirection Fu Xuan provides, it can potentially be significant enough to sustain the whole team on its own if Fu Xuan’s Max HP is high enough. This also means that Fu Xuan demands a very high level of investment to be able to utilise as the solo defensive option for your team should you wish to do that, though with her offensive utilities and personal damage, using her alongside another defensive unit is still perfectly viable.\n Fu Xuan’s A6 is of particular note as it will prevent Crowd Control debuffs from being applied to allies while the Matrix is active. This can happen once per Matrix usage and will be refreshed upon refreshing the Matrix. This means that for the turn that Crowd Control goes out, no ally will be affected by it under any circumstances for the current action. Examples include Decaying Shadow’s Imprisoning spikes and Ice Out of Space’s AoE Freezing attack. Since this does not prevent general debuffs such as DoT, this effect will not be erroneously wasted by such minor debuffs, making this a very efficient way of mitigating dangerous AoE Crowd Control effects, or even circumventing them entirely if they’re infrequent enough that Matrix recasts can cover them.\n As you can see, Fu Xuan is already powerful on her own at E0. Her Eidolons are entirely unnecessary, and honestly not too noteworthy. E1 is probably the most meaningful upgrade, allowing her Matrix of Prescience to additionally provide 30% CRIT DMG. Fu Xuan is already somewhat consolidating defensive unit with offensive Harmony support, and this Eidolon fully leans into that. E2 essentially provides Fu Xuan’s Matrix with Bailu’s entire revive portion of her Talent; allies killed while Matrix is active will not fall and will regain 70% of their Max HP, and this can happen once per fight. The other Eidolons are not really worth chasing as they do not significantly improve Fu Xuan’s performance beyond this point. E6 is obviously a big damage boost to her Ultimate but it’s really there for flair and will not suddenly make Fu Xuan a damage-dealing menace comparable to dedicated damage options.\n There’s not much more to say about Fu Xuan, she’s a strong sustain and quite self-contained. However, I will mention that Fu Xuan is also extremely flexible with how you utilise her in combat. Ideally, Fu Xuan is SP positive since she only needs to use her Skill every 2 turns to benefit from the extra Energy from her A2, but there’s nothing to stop you from refreshing her Matrix even earlier if you have the SP to spare. Doing so will give even more Energy and allow you to Ultimate more frequently, or maybe you decide you need her Ultimate this very turn. Perhaps you feel you need to refresh the Crowd Control immunity before the enemy’s next turn. There’s a lot of flexibility in terms of her SP usage, and it’s up to the runner to notice if they have the SP to spare. Fu Xuan’s skill ceiling is therefore quite high, and as one gets more comfortable using her, one will notice just how powerful she truly is.\n Lady Fu is formidable and usable on pretty much every team, but nowadays she's relegated to CRIT-based teams due to her buffs. Her strong defensive utility coupled with her offensive benefits and decent personal damage make her a wonderful pairing with almost every CRIT-based damage dealer in the game.\n She sees all, and it is up to you to decide what you will do with her information\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Sustain\n T1\n MoC\n\n T0.5\n PF\n\n T1\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n She Already Shut Her Eyes (S 1 )\n\n Powerful supportive Cone with extra benefits to characters that scale off HP% and that can make use of additional Energy Regen. Easiest to use on characters liable to take direct damage toward their health (strong AoE shielding characters will struggle with this). Healing ability can be invaluable in challenging content - specifically encounters with many waves.\n Usage: 62.09 %\n MoC: 12 cyc.\n PF: 33907\n AS: 3554\n\n 2\n\n Moment of Victory (S 1 )\n\n Provides a permanent Taunting effect on the wearer, increasing the chance they'll be attacked dramatically. This effect and the DEF bonuses make this Cone a very powerful choice for most Preservation characters.\n Usage: 5.23 %\n MoC: -\n PF: 35280\n AS: 3587\n\n 3\n\n Texture of Memories (S 5 )\n\n Survival focused Cone useful for characters that have kits themed around taking and mitigating damage for the team, especially if they have limited or conditional sustain/shielding options of their own.\n Usage: 19.7 %\n MoC: -\n PF: 39840\n AS: 3575\n\n 4\n\n Day One of My New Life (S 5 )\n\n Decent option based on its team-wide damage reduction and good stats for DEF% scaling characters.\n Usage: 7.13 %\n MoC: -\n PF: 30800\n AS: 0\n\n 5\n\n Landau's Choice (S 5 )\n\n An alternative to Moment of Victory with DMG% Reduction instead of DEF% scaling. Primarily useful for characters that specifically want to redirect and mitigate hits.\n Usage: 2.45 %\n MoC: -\n PF: 0\n AS: 0\n\n Specialist Light Cones\n 1\n\n Trend of the Universal Market (S 1 )\n\n Utility option useful in teams that thrive on having multiple debuffs on enemies or applying debuffs frequently. Grants solid stats for DEF scaling characters. Most notably used to great effect in Acheron teams as it generates her charges each time the wearer is hit.\n Usage: 2.3 %\n MoC: -\n PF: 0\n AS: 3443\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Warrior Goddess of Sun and Thunder ( 4 -PC)\n\n Fu Xuan's Ultimate can provide teamwide healing for the 15% teamwide CRIT DMG buff, albeit unreliable since the buff only lasts for 2 turns. As she currently does not have any other buffing option; other 2-Pc sets have a rather small impact, this is the best set for her as SPD is also useful for her.\n Usage: 19.7 %\n MoC: 12 cyc.\n PF: 31400\n AS: 0\n\n 2\n\n Longevous Disciple ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Guard of Wuthering Snow\n\n Messenger Traversing Hackerspace\n\n Sacerdos' Relived Ordeal\n\n Usage: 0.94 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Specialist Relic Sets\n 1\n\n Longevous Disciple ( 4 -PC)\n\n Powerful damage focused set for characters with multipliers that scale off of HP% and CRIT and who consistently take damage from enemies or deal it to themselves. Niche option for those aiming to increase their Fu Xuan's damage output.\n Usage: 2.82 %\n MoC: -\n PF: 0\n AS: 0\n\n Best Planetary Sets\n 1\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n Usage: 48.42 %\n MoC: -\n PF: 33040\n AS: 3543\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n Usage: 22.13 %\n MoC: 12 cyc.\n PF: 37080\n AS: 3619\n\n 3\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n Usage: 5.81 %\n MoC: -\n PF: 0\n AS: 0\n\n 4\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n Usage: 12.24 %\n MoC: -\n PF: 0\n AS: 3509\n\n Best Stats\n\n Body\n HP%\n > DEF%\n\n Feet\n Speed\n > HP%\n\n Planar Sphere\n HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (breakpoint) = HP% >= DEF% > EFF RES%\n\n Ensure your Fu Xuan is tanky enough to survive by prioritizing HP% and DEF%. Next, try to hit key Speed breakpoints (121 and 134) through the combination of Speed boots, SPD 2-piece set, and sub-stats. Also, it is not recommended to use more than 1 DEF% main stat Relic - ideally, you want to use HP% as the main stats and hunt for DEF% on your subs. If you want numbers, aim for 6500-8000 HP (with Matrix Active) and 1400-1600 DEF and then focus on Speed.\n\n Recommended endgame stats\n HP: 6500 - 8000 ( With Matrix active)\n\n DEF: 1400 - 1600\n\n SPEED: 134 (Recommended) / 143 / 160\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Talent > Skill > Ultimate = Basic\n\n Major Traces priority: Taiyi, the Macrocosmic (A2) > Dunjia, the Metamystic (A4) > Liuren, the Sexagenary (A6)\n\n Synergy\n Acheron - Providing the much needed CRIT Rate that Acheron wants is very useful in itself, she can also hold the Trend Light Cone for additional debuffs whenever Fu Xuan gets hit, giving a Slashed Dream when applied.\n Seele - Giving the much needed CRIT Rate that Seele needs is extremely useful in itself. She also provides a 1 time CC ignore for stuff like Imprisons and Freezes, which prevents Seele’s pace slowdown, making it invaluable.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 22\n App. rate: 2.03 %\n Avg. cycles : 9.55\n Avg. cycles (E1+): 8.25\n\n Rank 27\n App. rate: 1.63 %\n Avg. cycles : 8\n Avg. cycles (E1+): 6.71\n\n Rank 85\n App. rate: 0.42 %\n Avg. cycles : 12\n Avg. cycles (E1+): 7.64\n\n Rank 130\n App. rate: 0.22 %\n Avg. cycles : 8\n Avg. cycles (E1+): 9.22\n\n Rank 158\n App. rate: 0.17 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.32\n\n Rank 219\n App. rate: 0.1 %\n Avg. cycles : -\n Avg. cycles (E1+): 6.55\n\n Rank 252\n App. rate: 0.08 %\n Avg. cycles : -\n Avg. cycles (E1+): 9.67\n\n Rank 297\n App. rate: 0.06 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.14\n\n Rank 318\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.2\n\n Rank 318\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 8\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

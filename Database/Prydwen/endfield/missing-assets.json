@@ -26,5 +26,12 @@
     "kind": "characters",
     "name": "Si full illustration",
     "reason": "Asset did not resolve from Prydwen CDN during this scrape."
+  },
+  {
+    "sourceHash": "2a5e413ccb1f",
+    "path": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp",
+    "kind": "characters",
+    "name": "Typhoeus full illustration",
+    "reason": "Asset did not resolve from Prydwen CDN during this scrape."
   }
 ]

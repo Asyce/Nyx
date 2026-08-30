@@ -19769,6 +19769,8 @@
     {
       "id": "ae-arcane",
       "n": "Arcane",
+      "status": "live",
+      "upcoming": false,
       "title": "Caster",
       "r": 6,
       "el": "Nature",
@@ -21148,6 +21150,8 @@
     {
       "id": "ae-ardelia",
       "n": "Ardelia",
+      "status": "live",
+      "upcoming": false,
       "title": "Supporter",
       "r": 6,
       "el": "Nature",
@@ -22448,6 +22452,8 @@
     {
       "id": "ae-camille",
       "n": "Camille",
+      "status": "live",
+      "upcoming": false,
       "title": "Vanguard",
       "r": 6,
       "el": "Heat",
@@ -23772,6 +23778,8 @@
     {
       "id": "ae-ember",
       "n": "Ember",
+      "status": "live",
+      "upcoming": false,
       "title": "Defender",
       "r": 6,
       "el": "Heat",
@@ -25105,6 +25113,8 @@
     {
       "id": "ae-endministrator",
       "n": "Endministrator",
+      "status": "live",
+      "upcoming": false,
       "title": "Guard",
       "r": 6,
       "el": "Physical",
@@ -26427,6 +26437,8 @@
         {
           "id": "ae-endministrator-male",
           "n": "Endministrator",
+          "status": "live",
+          "upcoming": false,
           "title": "Guard",
           "r": 6,
           "el": "Physical",
@@ -27748,6 +27760,8 @@
         {
           "id": "ae-endministrator-female",
           "n": "Endministrator",
+          "status": "live",
+          "upcoming": false,
           "title": "Guard",
           "r": 6,
           "el": "Physical",
@@ -29071,6 +29085,8 @@
     {
       "id": "ae-gilberta",
       "n": "Gilberta",
+      "status": "live",
+      "upcoming": false,
       "title": "Supporter",
       "r": 6,
       "el": "Nature",
@@ -30393,6 +30409,8 @@
     {
       "id": "ae-laevatain",
       "n": "Laevatain",
+      "status": "live",
+      "upcoming": false,
       "title": "Striker",
       "r": 6,
       "el": "Heat",
@@ -31766,6 +31784,8 @@
     {
       "id": "ae-last-rite",
       "n": "Last Rite",
+      "status": "live",
+      "upcoming": false,
       "title": "Striker",
       "r": 6,
       "el": "Cryo",
@@ -33115,6 +33135,8 @@
     {
       "id": "ae-lifeng",
       "n": "Lifeng",
+      "status": "live",
+      "upcoming": false,
       "title": "Guard",
       "r": 6,
       "el": "Physical",
@@ -34444,6 +34466,8 @@
     {
       "id": "ae-liino",
       "n": "Liino",
+      "status": "live",
+      "upcoming": false,
       "title": "Supporter",
       "r": 6,
       "el": "Electric",
@@ -35806,6 +35830,8 @@
     {
       "id": "ae-mi-fu",
       "n": "Mi Fu",
+      "status": "live",
+      "upcoming": false,
       "title": "Guard",
       "r": 6,
       "el": "Physical",
@@ -37110,6 +37136,8 @@
     {
       "id": "ae-pogranichnik",
       "n": "Pogranichnik",
+      "status": "live",
+      "upcoming": false,
       "title": "Vanguard",
       "r": 6,
       "el": "Physical",
@@ -38502,6 +38530,8 @@
     {
       "id": "ae-rossi",
       "n": "Rossi",
+      "status": "live",
+      "upcoming": false,
       "title": "Guard",
       "r": 6,
       "el": "Physical",
@@ -39861,6 +39891,8 @@
     {
       "id": "ae-tangtang",
       "n": "Tangtang",
+      "status": "live",
+      "upcoming": false,
       "title": "Caster",
       "r": 6,
       "el": "Cryo",
@@ -41196,8 +41228,34 @@
       "aeStatItems": []
     },
     {
+      "id": "ae-typhoeus",
+      "n": "Typhoeus",
+      "status": "beta",
+      "upcoming": true,
+      "title": "Striker",
+      "r": 6,
+      "el": "Nature",
+      "cls": "Striker",
+      "w": "Arts Unit",
+      "tag": "Rhodes Island",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
+      "card": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
+      "baseStats": {},
+      "facts": {
+        "faction": "Rhodes Island"
+      },
+      "req": null,
+      "reliableData": false,
+      "aePreferredItems": [],
+      "aeSkillItems": [],
+      "aeStatItems": []
+    },
+    {
       "id": "ae-yvonne",
       "n": "Yvonne",
+      "status": "live",
+      "upcoming": false,
       "title": "Striker",
       "r": 6,
       "el": "Cryo",
@@ -42580,6 +42638,8 @@
     {
       "id": "ae-zhuang-fangyi",
       "n": "Zhuang Fangyi",
+      "status": "live",
+      "upcoming": false,
       "title": "Striker",
       "r": 6,
       "el": "Electric",
@@ -43913,6 +43973,8 @@
     {
       "id": "ae-alesh",
       "n": "Alesh",
+      "status": "live",
+      "upcoming": false,
       "title": "Vanguard",
       "r": 5,
       "el": "Cryo",
@@ -45239,6 +45301,8 @@
     {
       "id": "ae-arclight",
       "n": "Arclight",
+      "status": "live",
+      "upcoming": false,
       "title": "Vanguard",
       "r": 5,
       "el": "Electric",
@@ -46593,6 +46657,8 @@
     {
       "id": "ae-avywenna",
       "n": "Avywenna",
+      "status": "live",
+      "upcoming": false,
       "title": "Striker",
       "r": 5,
       "el": "Electric",
@@ -47910,6 +47976,8 @@
     {
       "id": "ae-chen-qianyu",
       "n": "Chen Qianyu",
+      "status": "live",
+      "upcoming": false,
       "title": "Guard",
       "r": 5,
       "el": "Physical",
@@ -49244,6 +49312,8 @@
     {
       "id": "ae-da-pan",
       "n": "Da Pan",
+      "status": "live",
+      "upcoming": false,
       "title": "Striker",
       "r": 5,
       "el": "Physical",
@@ -50574,6 +50644,8 @@
     {
       "id": "ae-perlica",
       "n": "Perlica",
+      "status": "live",
+      "upcoming": false,
       "title": "Caster",
       "r": 5,
       "el": "Electric",
@@ -51865,8 +51937,34 @@
       "aeStatItems": []
     },
     {
+      "id": "ae-purrchena",
+      "n": "Purrchena",
+      "status": "beta",
+      "upcoming": true,
+      "title": "Defender",
+      "r": 5,
+      "el": "Physical",
+      "cls": "Defender",
+      "w": "Sword",
+      "tag": "Talos-II General Chamber of Commerce (TGCC)",
+      "icon": "../../Database/EndfieldWiki/endfield/assets/operators/purrchena/icon.png",
+      "art": "../../Database/EndfieldWiki/endfield/assets/operators/purrchena/splash.png",
+      "card": "../../Database/EndfieldWiki/endfield/assets/operators/purrchena/splash.png",
+      "baseStats": {},
+      "facts": {
+        "faction": "Talos-II General Chamber of Commerce (TGCC)"
+      },
+      "req": null,
+      "reliableData": false,
+      "aePreferredItems": [],
+      "aeSkillItems": [],
+      "aeStatItems": []
+    },
+    {
       "id": "ae-snowshine",
       "n": "Snowshine",
+      "status": "live",
+      "upcoming": false,
       "title": "Defender",
       "r": 5,
       "el": "Cryo",
@@ -53210,6 +53308,8 @@
     {
       "id": "ae-wulfgard",
       "n": "Wulfgard",
+      "status": "live",
+      "upcoming": false,
       "title": "Caster",
       "r": 5,
       "el": "Heat",
@@ -54551,6 +54651,8 @@
     {
       "id": "ae-xaihi",
       "n": "Xaihi",
+      "status": "live",
+      "upcoming": false,
       "title": "Supporter",
       "r": 5,
       "el": "Cryo",
@@ -55868,6 +55970,8 @@
     {
       "id": "ae-akekuri",
       "n": "Akekuri",
+      "status": "live",
+      "upcoming": false,
       "title": "Vanguard",
       "r": 4,
       "el": "Heat",
@@ -57157,6 +57261,8 @@
     {
       "id": "ae-antal",
       "n": "Antal",
+      "status": "live",
+      "upcoming": false,
       "title": "Supporter",
       "r": 4,
       "el": "Electric",
@@ -58458,6 +58564,8 @@
     {
       "id": "ae-catcher",
       "n": "Catcher",
+      "status": "live",
+      "upcoming": false,
       "title": "Defender",
       "r": 4,
       "el": "Physical",
@@ -59817,6 +59925,8 @@
     {
       "id": "ae-estella",
       "n": "Estella",
+      "status": "live",
+      "upcoming": false,
       "title": "Guard",
       "r": 4,
       "el": "Cryo",
@@ -61140,6 +61250,8 @@
     {
       "id": "ae-fluorite",
       "n": "Fluorite",
+      "status": "live",
+      "upcoming": false,
       "title": "Caster",
       "r": 4,
       "el": "Nature",
@@ -62689,7 +62801,7 @@
   ],
   "boss": {
     "title": "Progression Materials",
-    "count": 30
+    "count": 32
   },
   "bossGroups": [
     {
@@ -62900,7 +63012,7 @@
   "materialClassificationAudit": {
     "classification": "explicit-source-name-lists",
     "sourceCheckedAt": "2026-07-14",
-    "rosterCount": 30,
+    "rosterCount": 32,
     "growth": {
       "label": "Growth Materials",
       "materialNames": [

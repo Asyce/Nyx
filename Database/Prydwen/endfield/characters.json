@@ -90,7 +90,7 @@
     "sourcePath": "/arknights-endfield/characters/arcane",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "09/August/2026",
+    "updatedText": "16/August/2026",
     "facts": {},
     "art": {
       "card": "Prydwen/endfield/assets/characters/arcane-card-f6342e13426a.webp",
@@ -103,7 +103,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 37
+    "assetCount": 38
   },
   {
     "id": "arclight",
@@ -167,7 +167,7 @@
     "sourcePath": "/arknights-endfield/characters/avywenna",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "26/June/2026",
+    "updatedText": "16/August/2026",
     "facts": {
       "rarity": 5,
       "weapon": "Polearm",
@@ -185,7 +185,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 23
+    "assetCount": 24
   },
   {
     "id": "camille",
@@ -196,7 +196,7 @@
     "sourcePath": "/arknights-endfield/characters/camille",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "16/July/2026",
+    "updatedText": "16/August/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Polearm",
@@ -214,7 +214,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 27
+    "assetCount": 28
   },
   {
     "id": "catcher",
@@ -541,7 +541,7 @@
     "statusLabels": [
       "New"
     ],
-    "updatedText": "15/August/2026",
+    "updatedText": "16/August/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Polearm",
@@ -559,7 +559,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 29
+    "assetCount": 30
   },
   {
     "id": "mi-fu",
@@ -570,7 +570,7 @@
     "sourcePath": "/arknights-endfield/characters/mi-fu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/June/2026",
+    "updatedText": "16/August/2026",
     "facts": {
       "rarity": 6,
       "weapon": "Greatsword",
@@ -588,7 +588,7 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 30
+    "assetCount": 31
   },
   {
     "id": "perlica",
@@ -761,6 +761,31 @@
     "assetCount": 44
   },
   {
+    "id": "typhoeus",
+    "provider": "Prydwen",
+    "game": "endfield",
+    "name": "Typhoeus",
+    "slug": "typhoeus",
+    "sourcePath": "/arknights-endfield/characters/typhoeus",
+    "contentStatus": "beta",
+    "statusLabels": [
+      "Soon"
+    ],
+    "updatedText": "25/August/2026",
+    "facts": {},
+    "art": {
+      "card": "Prydwen/endfield/assets/characters/typhoeus-card-3ae1c5f2608b.webp",
+      "full": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp"
+    },
+    "pageFile": "Prydwen/endfield/pages/characters/typhoeus.json",
+    "recommendationSections": [
+      "best-teams",
+      "best-weapons",
+      "best-gear"
+    ],
+    "assetCount": 2
+  },
+  {
     "id": "wulfgard",
     "provider": "Prydwen",
     "game": "endfield",
@@ -851,7 +876,7 @@
     "sourcePath": "/arknights-endfield/characters/zhuang-fangyi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "26/June/2026",
+    "updatedText": "17/August/2026",
     "facts": {},
     "art": {
       "card": "Prydwen/endfield/assets/characters/zhuang-fangyi-card-fab17e9e9121.webp",
@@ -864,6 +889,6 @@
       "best-weapons",
       "best-gear"
     ],
-    "assetCount": 38
+    "assetCount": 37
   }
 ]

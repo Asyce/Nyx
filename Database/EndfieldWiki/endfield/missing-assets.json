@@ -26,5 +26,33 @@
     "kind": "portrait",
     "wikiFile": "Mi_Fu tooltip.png",
     "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "typhoeus",
+    "name": "Typhoeus",
+    "kind": "banner",
+    "wikiFile": "Typhoeus Banner.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "typhoeus",
+    "name": "Typhoeus",
+    "kind": "portrait",
+    "wikiFile": "Typhoeus tooltip.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "purrchena",
+    "name": "Purrchena",
+    "kind": "banner",
+    "wikiFile": "Purrchena Banner.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
+  },
+  {
+    "id": "purrchena",
+    "name": "Purrchena",
+    "kind": "portrait",
+    "wikiFile": "Purrchena tooltip.png",
+    "reason": "Referenced file does not currently resolve through the wiki image API."
   }
 ]

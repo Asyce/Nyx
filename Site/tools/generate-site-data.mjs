@@ -10,7 +10,7 @@ import {
   databaseZzzDriveDiscTwoPieceStat,
 } from './lib/database-data-helpers.mjs';
 import { parseCatalogFieldLine } from '../../Scraper/prydwen/catalog-fields.mjs';
-import { chooseCharacterOverlay } from './lib/character-source-helpers.mjs';
+import { chooseCharacterOverlay, chooseHsrCharacterIcon } from './lib/character-source-helpers.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
@@ -2062,7 +2062,7 @@ function localAvatarOverlay(game, channel = nch()) {
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       const payload = {
         contentStatus: ch.contentStatus,
-        icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
+        icon: dbAsset(chooseHsrCharacterIcon(ch.assets, dbDir)),
         splash: dbAsset(ch.assets?.drawCard), // D1: HSR splash art = draw-card
         fallbackArt: dbAsset(ch.assets?.drawCard || ch.assets?.avatar),
         title: titleOverride('hsr', displayName),
@@ -3949,7 +3949,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
             currency: Number(req?.currency || 0) + Number(signatureReq?.cost || 0),
           }
         : null;
-      const icon = local.icon || dbAsset(character.assets?.roundIcon || character.assets?.avatar);
+      const icon = local.icon || dbAsset(chooseHsrCharacterIcon(character.assets, dbDir));
       const art = local.splash || dbAsset(character.assets?.drawCard || character.assets?.avatar) || icon;
       const profile = hsrProfileData(character);
       chars.push({
@@ -4487,6 +4487,8 @@ function buildEndfieldRoster() {
     return {
       id: 'ae-' + (ch.id || ch.slug || ch.name.toLowerCase().replace(/\W+/g, '-')),
       n: ch.name,
+      status: ch.contentStatus || 'live',
+      upcoming: ch.contentStatus === 'beta',
       title: cleanText(ch.class || ch.facts?.class || '', 90) || displayTitle('ae', ch, ch.facts || {}),
       r: ch.rarity || ch.facts?.rarity || 5,
       el: ch.element || ch.facts?.element || 'Physical',
@@ -6309,7 +6311,7 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
     icon: BANNER_ICON_OVERRIDES[assetKey] || local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || beta?.art || entryImage || null,
+    art: local?.art || local?.card || entrySplash || beta?.art || BANNER_ART_OVERRIDES[assetKey] || entryImage || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,
@@ -6444,6 +6446,12 @@ function latestBannerRow(rows) {
   return rows.reduce((latest, row) => row.start > latest.start ? row : latest, rows[0]);
 }
 
+function officialLiveGroups(key, rows) {
+  if (key !== 'ae' || rows.length < 2) return { currentRows:rows, concurrentRows:[] };
+  const ordered = [...rows].sort((left, right) => right.start - left.start);
+  return { currentRows:ordered.slice(0, 1), concurrentRows:ordered.slice(1).map((row) => [row]) };
+}
+
 function endfieldLiveLossPool(records, liveRows) {
   const eligible = (liveRows || [])
     .map((row) => ({ ...row, lossPool:endfieldLossPool(records, row.record) }))
@@ -6478,7 +6486,9 @@ function officialPhaseFrom(rows, key, rosters, runCounts) {
   const ends = rows.map((row) => row.end).filter((value) => Number.isFinite(value));
   const latestPhase = latestBannerRow(rows);
   return {
-    phase: latestPhase.phase || latestPhase.record.version || null,
+    phase: key === 'ae' && rows.length === 1
+      ? latestPhase.record.name
+      : latestPhase.phase || latestPhase.record.version || null,
     start: new Date(Math.min(...rows.map((row) => row.start))).toISOString(),
     end: ends.length ? new Date(Math.max(...ends)).toISOString() : null,
     characters,
@@ -6497,16 +6507,15 @@ function bannerPhaseStarts(starts) {
   return phases;
 }
 
-// What is live now and what is confirmed next, straight from the official
-// banner history.
+// What is live now and every scheduled future phase, straight from the
+// canonical banner history.
 //
-// The community banner scrape is still needed for phases further out, but it
-// lags on the running one (2026-08-08: it listed Genshin 6.7 Phase 1 while
-// Phase 2 was live) and only ever lists the headline 5-stars, so the featured
-// 4-stars (Alyosha on both 7.0 Phase 1 banners) exist only here.
+// The community banner scrape can lag on the running one (2026-08-08: it
+// listed Genshin 6.7 Phase 1 while Phase 2 was live) and only ever lists the
+// headline 5-stars, so the featured 4-stars exist only here.
 function officialPhases(key, rosters, runCounts, now) {
   const file = `BannerHistory/${key}.json`;
-  if (!exists(file)) return { current:null, next:null };
+  if (!exists(file)) return { current:null, next:null, upcoming:[] };
   const records = readJson(file).records || [];
   const startsByVersion = new Map();
   for (const record of records) {
@@ -6553,21 +6562,31 @@ function officialPhases(key, rosters, runCounts, now) {
     if (running) live.push(running);
     else if (starting) future.push(starting);
   }
-  // "Next" is only the soonest future phase, not everything on the wiki.
-  const soonest = future.length ? Math.min(...future.map((row) => row.start)) : null;
-  const nextRows = soonest === null ? [] : future.filter((row) => row.start - soonest < 36 * 60 * 60 * 1000);
-  const current = officialPhaseFrom(live, key, rosters, runCounts);
-  const pool = key === 'ae' ? endfieldLiveLossPool(records, live) : null;
-  if (current && pool) {
-    current.lossPool = {
+  const futureGroups = [];
+  for (const row of future.sort((a, b) => a.start - b.start)) {
+    const group = futureGroups.at(-1);
+    if (!group || row.start - group[0].start >= 36 * 60 * 60 * 1000) futureGroups.push([row]);
+    else group.push(row);
+  }
+  const [nextRows = [], ...laterRows] = futureGroups;
+  const upcomingRows = key === 'ae' ? laterRows : [];
+  const { currentRows, concurrentRows } = officialLiveGroups(key, live);
+  const buildPhase = (rows) => {
+    const phase = officialPhaseFrom(rows, key, rosters, runCounts);
+    const pool = key === 'ae' ? endfieldLiveLossPool(records, rows) : null;
+    if (!phase || !pool) return phase;
+    phase.lossPool = {
       current:normalizeBannerCharacter(rosters, key, pool.current, runCounts),
       previous:pool.previous.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
       permanent:pool.permanent.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
     };
-  }
+    return phase;
+  };
   return {
-    current,
-    next:officialPhaseFrom(nextRows, key, rosters, runCounts),
+    current:buildPhase(currentRows),
+    next:buildPhase(nextRows),
+    concurrent:concurrentRows.map(buildPhase).filter(Boolean),
+    upcoming:upcomingRows.map(buildPhase).filter(Boolean),
   };
 }
 
@@ -6592,8 +6611,13 @@ function buildBannersData(rosters, betaDeltas = {}) {
     const keepLabel = (officialPhase, scraped) => {
       if (!officialPhase) return null;
       const sameRun = scraped?.phase && scraped.characters.some((row) => officialPhase.characters.some((hit) => hit.name === row.name));
-      if (key === 'ae') return { ...officialPhase, phase:sameRun ? scraped.phase : officialPhase.phase };
-      return { ...officialPhase, phase:officialPhase.phase || (sameRun ? scraped.phase : null) };
+      const scrapedByName = new Map((scraped?.characters || []).map((row) => [rosterNameKey(row.name), row]));
+      const characters = officialPhase.characters.map((row) => {
+        const prior = scrapedByName.get(rosterNameKey(row.name));
+        return prior ? { ...row, icon:row.icon || prior.icon, iconFallback:row.iconFallback || prior.iconFallback, art:row.art || prior.art } : row;
+      });
+      if (key === 'ae') return { ...officialPhase, characters, phase:sameRun ? scraped.phase : officialPhase.phase };
+      return { ...officialPhase, characters, phase:officialPhase.phase || (sameRun ? scraped.phase : null) };
     };
     const current = keepLabel(official.current, scrapedCurrent) || scrapedCurrent;
     const next = keepLabel(official.next, scrapedNext) || scrapedNext;
@@ -6602,11 +6626,13 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // `upcoming: [Odette, Arlecchino, Ineffa, Flins]`. Left alone those repeats
     // become extra "later" phases and the same characters appear twice on the
     // board, so anything already covered by current/next is dropped here.
-    const alreadyShown = new Set([...(current?.characters || []), ...(next?.characters || [])]
+    const alreadyShown = new Set([...(current?.characters || []), ...(next?.characters || []), ...(official.concurrent || []).flatMap((phase) => phase.characters || [])]
       .map((row) => rosterNameKey(row.name)).filter(Boolean));
     const upcoming = [];
-    for (const phase of group.upcoming || []) {
-      const built = normalizeBannerPhase(rosters, key, phase, runCounts);
+    for (const built of [
+      ...(official.upcoming || []),
+      ...(group.upcoming || []).map((phase) => normalizeBannerPhase(rosters, key, phase, runCounts)),
+    ]) {
       const fresh = built.characters.filter((row) => !alreadyShown.has(rosterNameKey(row.name)));
       if (!fresh.length) continue;
       for (const row of fresh) alreadyShown.add(rosterNameKey(row.name));
@@ -6622,6 +6648,7 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // 2) Re-thread current/next/upcoming from the timeline and compute honest
     //    freshness (drops expired-as-current, merges identical windows).
     games[key] = reflowBannerGroup(normalized, now);
+    if (official.concurrent?.length) games[key].concurrent = official.concurrent;
     mergePatchOnlyRoadmapIntoNext(games[key].current, games[key].next, roadmap);
     if (teased.length) games[key].upcoming = [...(games[key].upcoming || []), ...teased];
     const beta = (betaDeltas[key]?.roster || [])

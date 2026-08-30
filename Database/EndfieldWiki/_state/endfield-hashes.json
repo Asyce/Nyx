@@ -1,6 +1,6 @@
 {
   "game": "endfield",
-  "updatedAt": "2026-08-16T05:52:35.050Z",
+  "updatedAt": "2026-08-30T10:44:31.770Z",
   "hashes": {
     "characters": {
       "arcane": "4cfcc844154f3797cca40888e1a120426ba44cb69bf5645c0335b9c0c3023f52",
@@ -18,6 +18,7 @@
       "pogranichnik": "2eca9a5d15b022bdd8ee83b90dd3e27a6b13ee5cfef91c9e4efbb3119e655956",
       "rossi": "7d319a6008f1333dadbf49f6b53af2f536ff0c9bf43190649166fad2a23307df",
       "tangtang": "896bce07cec4eb54dcd6a6a842ab0af08c00795fa2cc660676dcbc24796c7ab3",
+      "typhoeus": "6f42862f2fa10a1d0002183d4d35f4d9f4de6998b2b5d4b550864aec91eb8b40",
       "yvonne": "3c5e8a6275830e19e05e1208a5b16f84eb2f54b08d37088f65b424ac7202c3c9",
       "zhuang-fangyi": "b95903262c061916bacb8a502a6b17e4f4eb8e9af961d86724b401d3dd9c0961",
       "alesh": "6d4f85dc4006d9cf6e96cc402dbb87049bfc4a773cfc778b03208833f23fe4cb",
@@ -26,6 +27,7 @@
       "chen-qianyu": "d05c71fcabadf9422a17bdbdc4d020c16fd511927f157ef7d0b26d93a907df1e",
       "da-pan": "c620497d018cf6eb6ebfc4d739f5add3db90aa127301a67a5165909358c89403",
       "perlica": "20d19815777b138ce0590365efb2fe351cb9090bee1d613a1cabca510a4611a7",
+      "purrchena": "1206b3f1313a8ce73f037060d5f0cb81c2e9ce01f2e81c2b43b2c5a83de2520a",
       "snowshine": "f5217f0cc95ce815a2f9c68214387d075dbd2f99acc0d01f84ba9e8be0c3d3fa",
       "wulfgard": "dd3fbebf56680c1aa7e4365b12fadfe9df16e12318ced5a1bf2b18de96b3e30d",
       "xaihi": "1fecd7a2f6e5293d0c1088ebd506206f53c48eea78a874df831ca1ae58e720ae",
@@ -49,7 +51,7 @@
       "Dreams_of_the_Starry_Beach": "9226dbb42f02729825e4d657214afccef71accca7e6f1bc79f21376171356626",
       "Eminent_Repute": "333ce7bc718b039f6ea970166838c31736104ab40f10ba77162739dde1c1c3e0",
       "Exemplar": "0e30b6f43c878e6a3c902393da6e5c142201887255cd35d24374f60e863762de",
-      "Farsight": "fbaaa4bc52b3d4a83394c4a8fc1ddf9aa68cc83cad6c03c7ad610aaa0bfc3d1a",
+      "Farsight": "31e2b1a002f9e212ce9f8fe45cd82c2f33999a150e1e85c6bd852e97e01abcbf",
       "Flickers_in_the_Mist": "4ef99e405d7bf65440fbf92f9228bec919a75576ae5755e7f854935853124cc3",
       "Forgeborn_Scathe": "26dd908e8474db639d75cdda225e0905ae36dcc7c183027c3e0895315dbe6053",
       "Former_Finery": "9db63336dd88c0c265657f447915646ae9174e0620eadcec3824ea1cf064e26a",

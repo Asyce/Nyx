@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/trailblazer-remembrance",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Trailblazer • Remembrance Best Build Guide | Honkai: Star Rail",
@@ -374,56 +374,6 @@
       "height": 45
     },
     {
-      "id": "565914d1a436",
-      "sourceHash": "565914d1a436",
-      "kind": "icons",
-      "name": "Quantum",
-      "fileStem": "ele-quantum",
-      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
-      "id": "7d36eb39792a",
-      "sourceHash": "7d36eb39792a",
-      "kind": "icons",
-      "name": "Ice",
-      "fileStem": "ele-ice",
-      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
-      "id": "d3e344772d55",
-      "sourceHash": "d3e344772d55",
-      "kind": "characters",
-      "name": "Trailblazer • Remembrance",
-      "fileStem": "trailblazer-remembrance-icon",
-      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "1d90270b2b4b",
-      "sourceHash": "1d90270b2b4b",
-      "kind": "characters",
-      "name": "Hyacine",
-      "fileStem": "hyacine-icon",
-      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "ee11bd390c9a",
-      "sourceHash": "ee11bd390c9a",
-      "kind": "icons",
-      "name": "Wind",
-      "fileStem": "ele-wind",
-      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
       "id": "bdd27122e011",
       "sourceHash": "bdd27122e011",
       "kind": "characters",
@@ -454,12 +404,62 @@
       "height": 60
     },
     {
+      "id": "ee11bd390c9a",
+      "sourceHash": "ee11bd390c9a",
+      "kind": "icons",
+      "name": "Wind",
+      "fileStem": "ele-wind",
+      "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "7d36eb39792a",
+      "sourceHash": "7d36eb39792a",
+      "kind": "icons",
+      "name": "Ice",
+      "fileStem": "ele-ice",
+      "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "5ff31ffb6345",
       "sourceHash": "5ff31ffb6345",
       "kind": "characters",
       "name": "Archer",
       "fileStem": "archer-icon",
       "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "b27695507159",
+      "sourceHash": "b27695507159",
+      "kind": "characters",
+      "name": "Rin Tohsaka",
+      "fileStem": "rin-tohsaka-icon",
+      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
       "width": 60,
       "height": 60
     },
@@ -474,22 +474,12 @@
       "height": 60
     },
     {
-      "id": "714348f14d48",
-      "sourceHash": "714348f14d48",
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
       "kind": "characters",
-      "name": "Dan Heng • Permansor Terrae",
-      "fileStem": "dan-heng-permansor-terrae-icon",
-      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "2cde7699adbf",
-      "sourceHash": "2cde7699adbf",
-      "kind": "characters",
-      "name": "Tribbie",
-      "fileStem": "tribbie-icon",
-      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
       "width": 60,
       "height": 60
     },
@@ -524,12 +514,32 @@
       "height": 22
     },
     {
-      "id": "b27695507159",
-      "sourceHash": "b27695507159",
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
       "kind": "characters",
-      "name": "Rin Tohsaka",
-      "fileStem": "rin-tohsaka-icon",
-      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "60cd0853b302",
+      "sourceHash": "60cd0853b302",
+      "kind": "characters",
+      "name": "Welt",
+      "fileStem": "welt-icon",
+      "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
       "width": 60,
       "height": 60
     },
@@ -570,26 +580,6 @@
       "name": "Huohuo",
       "fileStem": "huohuo-icon",
       "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "99361e4717fa",
-      "sourceHash": "99361e4717fa",
-      "kind": "characters",
-      "name": "Mortenax Blade",
-      "fileStem": "blade-mortenax-icon",
-      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "60cd0853b302",
-      "sourceHash": "60cd0853b302",
-      "kind": "characters",
-      "name": "Welt",
-      "fileStem": "welt-icon",
-      "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
       "width": 60,
       "height": 60
     }
@@ -870,14 +860,14 @@
       "id": "ratings-23",
       "level": 2,
       "heading": "Ratings",
-      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0\n PF\n\n T0.5\n AS\n\n Build and teams",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0.5\n MoC\n\n T0.5\n PF\n\n T0.5\n AS\n\n Build and teams",
       "assets": []
     },
     {
       "id": "best-light-cones-25",
       "level": 2,
       "heading": "Best Light Cones",
-      "text": "1\n\n This Love, Forever (S 1 )\n\n Cyrene's signature buffs can be activated easily as Mem can both target allies and attack enemies. Provides a massive SPD increase for the wearer, and strong damage amplification effects especially in CRIT teams.\n Usage: 2.32 %\n MoC: 5.8 cyc.\n PF: 39656\n AS: 3645\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature is useful with DPS that function with HP loss such as Castorice, Evernight, or Blade. Increases enemies' DMG Taken by 18% (Cannot stack with multiple copies of this Light Cone on the team)\n Usage: 2 %\n MoC: 10 cyc.\n PF: 38957\n AS: 3608\n\n 3\n\n Fly Into a Pink Tomorrow (S 5 )\n\n Exclusive Light Cone obtainble after completing 3.7 Amphoreus story quest, increases all allies' DMG dealt and signficiantly boosts the Enhanced Basic ATK DMG, making it her best option for Sub-DPS with Cyrene, while also being second best option for a Support build. Comparing to Herta's Store 5* Light Cone, the SPD it offers is more valuable, but since it is heavily contested by other Remembrance characters, it is recommended to equip this free 4* Light Cone on the Remembrance Trailblazer.\n Usage: 68.34 %\n MoC: 10.46 cyc.\n PF: 35168\n AS: 3471\n\n 4\n\n Memory's Curtain Never Falls (S 5 )\n\n Grants an exceptional amount of SPD% ideal for max speed Remembrance Trailblazer or easing sub-stat pressure on gear. Also has a powerful team-based buffing effect that should always be active even on auto as the AI uses the skill often.\n Usage: 15.25 %\n MoC: 9.67 cyc.\n PF: 36240\n AS: 3519\n\n 5\n\n Victory In a Blink (S 5 )\n\n F2P accessible Light Cone, offering a teamwide DMG buff.\n Usage: 9.79 %\n MoC: 10.78 cyc.\n PF: 34205\n AS: 3437\n\n 6\n\n Shadowburn (S 5 )\n\n Alternative F2P option, granting 1 Skill Point refund once per battle, aswell as 2% extra Mem charge during first summon.\n Usage: 1.2 %\n MoC: -\n PF: 26520\n AS: 3412",
+      "text": "1\n\n This Love, Forever (S 1 )\n\n Cyrene's signature buffs can be activated easily as Mem can both target allies and attack enemies. Provides a massive SPD increase for the wearer, and strong damage amplification effects especially in CRIT teams.\n Usage: 2.51 %\n MoC: 6.6 cyc.\n PF: 39427\n AS: 3595\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature is useful with DPS that function with HP loss such as Castorice, Evernight, or Blade. Increases enemies' DMG Taken by 18% (Cannot stack with multiple copies of this Light Cone on the team)\n Usage: 1.8 %\n MoC: 7 cyc.\n PF: 39675\n AS: 3613\n\n 3\n\n Fly Into a Pink Tomorrow (S 5 )\n\n Exclusive Light Cone obtainble after completing 3.7 Amphoreus story quest, increases all allies' DMG dealt and signficiantly boosts the Enhanced Basic ATK DMG, making it her best option for Sub-DPS with Cyrene, while also being second best option for a Support build. Comparing to Herta's Store 5* Light Cone, the SPD it offers is more valuable, but since it is heavily contested by other Remembrance characters, it is recommended to equip this free 4* Light Cone on the Remembrance Trailblazer.\n Usage: 67.52 %\n MoC: 9.85 cyc.\n PF: 35411\n AS: 3472\n\n 4\n\n Memory's Curtain Never Falls (S 5 )\n\n Grants an exceptional amount of SPD% ideal for max speed Remembrance Trailblazer or easing sub-stat pressure on gear. Also has a powerful team-based buffing effect that should always be active even on auto as the AI uses the skill often.\n Usage: 15.79 %\n MoC: 8.95 cyc.\n PF: 35971\n AS: 3525\n\n 5\n\n Victory In a Blink (S 5 )\n\n F2P accessible Light Cone, offering a teamwide DMG buff.\n Usage: 9.9 %\n MoC: 10.31 cyc.\n PF: 34150\n AS: 3422\n\n 6\n\n Shadowburn (S 5 )\n\n Alternative F2P option, granting 1 Skill Point refund once per battle, aswell as 2% extra Mem charge during first summon.\n Usage: 1.16 %\n MoC: -\n PF: 32540\n AS: 3509",
       "assets": [
         {
           "id": "7c90db328393",
@@ -945,7 +935,7 @@
       "id": "best-relic-sets-27",
       "level": 2,
       "heading": "Best Relic Sets",
-      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n If SPD is not a concern, the Deliverer set can provide a teamwide 15% DMG buff.\n Usage: 31.13 %\n MoC: 9.91 cyc.\n PF: 37351\n AS: 3542\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Opting for high SPD to gain more actions is a strong option.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.65 %\n MoC: 12 cyc.\n PF: 35207\n AS: 3490",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n If SPD is not a concern, the Deliverer set can provide a teamwide 15% DMG buff.\n Usage: 31.85 %\n MoC: 8.05 cyc.\n PF: 37549\n AS: 3547\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Opting for high SPD to gain more actions is a strong option.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.67 %\n MoC: 10.5 cyc.\n PF: 31686\n AS: 3410",
       "assets": [
         {
           "id": "4e4defeee5d3",
@@ -1003,7 +993,7 @@
       "id": "best-specialist-relic-sets-28",
       "level": 6,
       "heading": "Best Specialist Relic Sets",
-      "text": "3\n\n Eagle of Twilight Line ( 4 -PC)\n\n Eagle of Twilight Line offers the highest effective SPD when properly utilized.\n Usage: 10.13 %\n MoC: 9.45 cyc.\n PF: 36325\n AS: 3527",
+      "text": "3\n\n Eagle of Twilight Line ( 4 -PC)\n\n Eagle of Twilight Line offers the highest effective SPD when properly utilized.\n Usage: 9.58 %\n MoC: 7 cyc.\n PF: 35113\n AS: 3498",
       "assets": [
         {
           "id": "36af28ceb2d3",
@@ -1021,7 +1011,7 @@
       "id": "best-planetary-sets-29",
       "level": 6,
       "heading": "Best Planetary Sets",
-      "text": "1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n General best option when there are no other allies holding this set. Increases all allies' SPD by 8% while Mem is on the field.\n Usage: 15.61 %\n MoC: 10.04 cyc.\n PF: 35920\n AS: 3490\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Allows Mem to be summoned early to start accumulating Charge and provide a teamwide CRIT DMG buff. With the Trace and this Planar, the Trailblazer is advanced by 65% at the start of battle to act first in combat. WIth the right setup, Mem's Support should be triggered after the DPS for the full Action Advance.\n Usage: 22.94 %\n MoC: 10.37 cyc.\n PF: 36794\n AS: 3506\n\n 3\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS althrough Memosprites such as Aglaea's Garmentmaker won't be affected. Energy regeneration is useful on any supports. Other team buffing sets are also valid.\n Usage: 38.43 %\n MoC: 10.48 cyc.\n PF: 34944\n AS: 3479",
+      "text": "1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n General best option when there are no other allies holding this set. Increases all allies' SPD by 8% while Mem is on the field.\n Usage: 14.98 %\n MoC: 8.05 cyc.\n PF: 36765\n AS: 3492\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Allows Mem to be summoned early to start accumulating Charge and provide a teamwide CRIT DMG buff. With the Trace and this Planar, the Trailblazer is advanced by 65% at the start of battle to act first in combat. WIth the right setup, Mem's Support should be triggered after the DPS for the full Action Advance.\n Usage: 22.9 %\n MoC: 10.04 cyc.\n PF: 35883\n AS: 3505\n\n 3\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS althrough Memosprites such as Aglaea's Garmentmaker won't be affected. Energy regeneration is useful on any supports. Other team buffing sets are also valid.\n Usage: 39.85 %\n MoC: 9.85 cyc.\n PF: 35190\n AS: 3475",
       "assets": [
         {
           "id": "93d6c2686318",
@@ -1209,88 +1199,8 @@
       "id": "anomaly-arbitration-39",
       "level": 6,
       "heading": "Anomaly Arbitration",
-      "text": "Rank 20\n App. rate: 1.91 %\n Avg. cycles : 10.61\n Avg. cycles (E1+): 7.61\n\n Rank 21\n App. rate: 1.83 %\n Avg. cycles : 9.41\n Avg. cycles (E1+): 5.25\n\n Rank 33\n App. rate: 1.03 %\n Avg. cycles : 11.4\n Avg. cycles (E1+): 6.17\n\n Rank 34\n App. rate: 1.02 %\n Avg. cycles : 11.42\n Avg. cycles (E1+): 9.57\n\n Rank 35\n App. rate: 1.01 %\n Avg. cycles : 10.88\n Avg. cycles (E1+): 8.48\n\n Rank 49\n App. rate: 0.69 %\n Avg. cycles : 10.71\n Avg. cycles (E1+): 9.37\n\n Rank 72\n App. rate: 0.46 %\n Avg. cycles : 10.95\n Avg. cycles (E1+): 8.02\n\n Rank 79\n App. rate: 0.42 %\n Avg. cycles : 7\n Avg. cycles (E1+): 2.06\n\n New\n\n Rank 82\n App. rate: 0.41 %\n Avg. cycles : 8.82\n Avg. cycles (E1+): 6.86\n\n New\n\n Rank 85\n App. rate: 0.39 %\n Avg. cycles : 7.06\n Avg. cycles (E1+): 3.05",
+      "text": "Rank 27\n App. rate: 1.63 %\n Avg. cycles : 11\n Avg. cycles (E1+): 6.31\n\n Rank 27\n App. rate: 1.63 %\n Avg. cycles : 8\n Avg. cycles (E1+): 4.44\n\n Rank 36\n App. rate: 1.24 %\n Avg. cycles : 8.5\n Avg. cycles (E1+): 5.71\n\n Rank 37\n App. rate: 1.18 %\n Avg. cycles : 10.79\n Avg. cycles (E1+): 8.43\n\n Rank 39\n App. rate: 1.08 %\n Avg. cycles : 6.38\n Avg. cycles (E1+): 3.27\n\n Rank 50\n App. rate: 0.81 %\n Avg. cycles : 10.6\n Avg. cycles (E1+): 7\n\n Rank 51\n App. rate: 0.8 %\n Avg. cycles : 9.89\n Avg. cycles (E1+): 8.43\n\n Rank 52\n App. rate: 0.73 %\n Avg. cycles : 10\n Avg. cycles (E1+): 8.82\n\n Rank 58\n App. rate: 0.66 %\n Avg. cycles : 11.6\n Avg. cycles (E1+): 8.5\n\n Rank 62\n App. rate: 0.6 %\n Avg. cycles : 9.83\n Avg. cycles (E1+): 8",
       "assets": [
-        {
-          "id": "fd3d60695240",
-          "sourceHash": "fd3d60695240",
-          "kind": "characters",
-          "name": "Castorice",
-          "fileStem": "castorice-icon",
-          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "565914d1a436",
-          "sourceHash": "565914d1a436",
-          "kind": "icons",
-          "name": "Quantum",
-          "fileStem": "ele-quantum",
-          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
-          "id": "e6a5c98adfc4",
-          "sourceHash": "e6a5c98adfc4",
-          "kind": "characters",
-          "name": "March 7th • Evernight",
-          "fileStem": "march-7th-evernight-icon",
-          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7d36eb39792a",
-          "sourceHash": "7d36eb39792a",
-          "kind": "icons",
-          "name": "Ice",
-          "fileStem": "ele-ice",
-          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
-          "id": "d3e344772d55",
-          "sourceHash": "d3e344772d55",
-          "kind": "characters",
-          "name": "Trailblazer • Remembrance",
-          "fileStem": "trailblazer-remembrance-icon",
-          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1d90270b2b4b",
-          "sourceHash": "1d90270b2b4b",
-          "kind": "characters",
-          "name": "Hyacine",
-          "fileStem": "hyacine-icon",
-          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "ee11bd390c9a",
-          "sourceHash": "ee11bd390c9a",
-          "kind": "icons",
-          "name": "Wind",
-          "fileStem": "ele-wind",
-          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
-          "id": "005597837585",
-          "sourceHash": "005597837585",
-          "kind": "characters",
-          "name": "Cyrene",
-          "fileStem": "cyrene-icon",
-          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
-          "width": 60,
-          "height": 60
-        },
         {
           "id": "bdd27122e011",
           "sourceHash": "bdd27122e011",
@@ -1322,12 +1232,72 @@
           "height": 60
         },
         {
+          "id": "ee11bd390c9a",
+          "sourceHash": "ee11bd390c9a",
+          "kind": "icons",
+          "name": "Wind",
+          "fileStem": "ele-wind",
+          "path": "Prydwen/hsr/assets/icons/wind-ee11bd390c9a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7d36eb39792a",
+          "sourceHash": "7d36eb39792a",
+          "kind": "icons",
+          "name": "Ice",
+          "fileStem": "ele-ice",
+          "path": "Prydwen/hsr/assets/icons/ice-7d36eb39792a.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "5ff31ffb6345",
           "sourceHash": "5ff31ffb6345",
           "kind": "characters",
           "name": "Archer",
           "fileStem": "archer-icon",
           "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "b27695507159",
+          "sourceHash": "b27695507159",
+          "kind": "characters",
+          "name": "Rin Tohsaka",
+          "fileStem": "rin-tohsaka-icon",
+          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
           "width": 60,
           "height": 60
         },
@@ -1342,22 +1312,22 @@
           "height": 60
         },
         {
-          "id": "714348f14d48",
-          "sourceHash": "714348f14d48",
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
           "kind": "characters",
-          "name": "Dan Heng • Permansor Terrae",
-          "fileStem": "dan-heng-permansor-terrae-icon",
-          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "2cde7699adbf",
-          "sourceHash": "2cde7699adbf",
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
           "kind": "characters",
-          "name": "Tribbie",
-          "fileStem": "tribbie-icon",
-          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
           "width": 60,
           "height": 60
         },
@@ -1402,12 +1372,42 @@
           "height": 22
         },
         {
-          "id": "b27695507159",
-          "sourceHash": "b27695507159",
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
           "kind": "characters",
-          "name": "Rin Tohsaka",
-          "fileStem": "rin-tohsaka-icon",
-          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "60cd0853b302",
+          "sourceHash": "60cd0853b302",
+          "kind": "characters",
+          "name": "Welt",
+          "fileStem": "welt-icon",
+          "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
           "width": 60,
           "height": 60
         },
@@ -1450,26 +1450,6 @@
           "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
           "width": 60,
           "height": 60
-        },
-        {
-          "id": "99361e4717fa",
-          "sourceHash": "99361e4717fa",
-          "kind": "characters",
-          "name": "Mortenax Blade",
-          "fileStem": "blade-mortenax-icon",
-          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "60cd0853b302",
-          "sourceHash": "60cd0853b302",
-          "kind": "characters",
-          "name": "Welt",
-          "fileStem": "welt-icon",
-          "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
-          "width": 60,
-          "height": 60
         }
       ]
     },
@@ -1487,7 +1467,7 @@
       "sections": [
         {
           "heading": "Best Light Cones",
-          "text": "1\n\n This Love, Forever (S 1 )\n\n Cyrene's signature buffs can be activated easily as Mem can both target allies and attack enemies. Provides a massive SPD increase for the wearer, and strong damage amplification effects especially in CRIT teams.\n Usage: 2.32 %\n MoC: 5.8 cyc.\n PF: 39656\n AS: 3645\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature is useful with DPS that function with HP loss such as Castorice, Evernight, or Blade. Increases enemies' DMG Taken by 18% (Cannot stack with multiple copies of this Light Cone on the team)\n Usage: 2 %\n MoC: 10 cyc.\n PF: 38957\n AS: 3608\n\n 3\n\n Fly Into a Pink Tomorrow (S 5 )\n\n Exclusive Light Cone obtainble after completing 3.7 Amphoreus story quest, increases all allies' DMG dealt and signficiantly boosts the Enhanced Basic ATK DMG, making it her best option for Sub-DPS with Cyrene, while also being second best option for a Support build. Comparing to Herta's Store 5* Light Cone, the SPD it offers is more valuable, but since it is heavily contested by other Remembrance characters, it is recommended to equip this free 4* Light Cone on the Remembrance Trailblazer.\n Usage: 68.34 %\n MoC: 10.46 cyc.\n PF: 35168\n AS: 3471\n\n 4\n\n Memory's Curtain Never Falls (S 5 )\n\n Grants an exceptional amount of SPD% ideal for max speed Remembrance Trailblazer or easing sub-stat pressure on gear. Also has a powerful team-based buffing effect that should always be active even on auto as the AI uses the skill often.\n Usage: 15.25 %\n MoC: 9.67 cyc.\n PF: 36240\n AS: 3519\n\n 5\n\n Victory In a Blink (S 5 )\n\n F2P accessible Light Cone, offering a teamwide DMG buff.\n Usage: 9.79 %\n MoC: 10.78 cyc.\n PF: 34205\n AS: 3437\n\n 6\n\n Shadowburn (S 5 )\n\n Alternative F2P option, granting 1 Skill Point refund once per battle, aswell as 2% extra Mem charge during first summon.\n Usage: 1.2 %\n MoC: -\n PF: 26520\n AS: 3412",
+          "text": "1\n\n This Love, Forever (S 1 )\n\n Cyrene's signature buffs can be activated easily as Mem can both target allies and attack enemies. Provides a massive SPD increase for the wearer, and strong damage amplification effects especially in CRIT teams.\n Usage: 2.51 %\n MoC: 6.6 cyc.\n PF: 39427\n AS: 3595\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature is useful with DPS that function with HP loss such as Castorice, Evernight, or Blade. Increases enemies' DMG Taken by 18% (Cannot stack with multiple copies of this Light Cone on the team)\n Usage: 1.8 %\n MoC: 7 cyc.\n PF: 39675\n AS: 3613\n\n 3\n\n Fly Into a Pink Tomorrow (S 5 )\n\n Exclusive Light Cone obtainble after completing 3.7 Amphoreus story quest, increases all allies' DMG dealt and signficiantly boosts the Enhanced Basic ATK DMG, making it her best option for Sub-DPS with Cyrene, while also being second best option for a Support build. Comparing to Herta's Store 5* Light Cone, the SPD it offers is more valuable, but since it is heavily contested by other Remembrance characters, it is recommended to equip this free 4* Light Cone on the Remembrance Trailblazer.\n Usage: 67.52 %\n MoC: 9.85 cyc.\n PF: 35411\n AS: 3472\n\n 4\n\n Memory's Curtain Never Falls (S 5 )\n\n Grants an exceptional amount of SPD% ideal for max speed Remembrance Trailblazer or easing sub-stat pressure on gear. Also has a powerful team-based buffing effect that should always be active even on auto as the AI uses the skill often.\n Usage: 15.79 %\n MoC: 8.95 cyc.\n PF: 35971\n AS: 3525\n\n 5\n\n Victory In a Blink (S 5 )\n\n F2P accessible Light Cone, offering a teamwide DMG buff.\n Usage: 9.9 %\n MoC: 10.31 cyc.\n PF: 34150\n AS: 3422\n\n 6\n\n Shadowburn (S 5 )\n\n Alternative F2P option, granting 1 Skill Point refund once per battle, aswell as 2% extra Mem charge during first summon.\n Usage: 1.16 %\n MoC: -\n PF: 32540\n AS: 3509",
           "assets": [
             {
               "id": "7c90db328393",
@@ -1558,7 +1538,7 @@
       "sections": [
         {
           "heading": "Best Relic Sets",
-          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n If SPD is not a concern, the Deliverer set can provide a teamwide 15% DMG buff.\n Usage: 31.13 %\n MoC: 9.91 cyc.\n PF: 37351\n AS: 3542\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Opting for high SPD to gain more actions is a strong option.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.65 %\n MoC: 12 cyc.\n PF: 35207\n AS: 3490",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n If SPD is not a concern, the Deliverer set can provide a teamwide 15% DMG buff.\n Usage: 31.85 %\n MoC: 8.05 cyc.\n PF: 37549\n AS: 3547\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Opting for high SPD to gain more actions is a strong option.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.67 %\n MoC: 10.5 cyc.\n PF: 31686\n AS: 3410",
           "assets": [
             {
               "id": "4e4defeee5d3",
@@ -1619,7 +1599,7 @@
       "sections": [
         {
           "heading": "Best Planetary Sets",
-          "text": "1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n General best option when there are no other allies holding this set. Increases all allies' SPD by 8% while Mem is on the field.\n Usage: 15.61 %\n MoC: 10.04 cyc.\n PF: 35920\n AS: 3490\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Allows Mem to be summoned early to start accumulating Charge and provide a teamwide CRIT DMG buff. With the Trace and this Planar, the Trailblazer is advanced by 65% at the start of battle to act first in combat. WIth the right setup, Mem's Support should be triggered after the DPS for the full Action Advance.\n Usage: 22.94 %\n MoC: 10.37 cyc.\n PF: 36794\n AS: 3506\n\n 3\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS althrough Memosprites such as Aglaea's Garmentmaker won't be affected. Energy regeneration is useful on any supports. Other team buffing sets are also valid.\n Usage: 38.43 %\n MoC: 10.48 cyc.\n PF: 34944\n AS: 3479",
+          "text": "1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n General best option when there are no other allies holding this set. Increases all allies' SPD by 8% while Mem is on the field.\n Usage: 14.98 %\n MoC: 8.05 cyc.\n PF: 36765\n AS: 3492\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Allows Mem to be summoned early to start accumulating Charge and provide a teamwide CRIT DMG buff. With the Trace and this Planar, the Trailblazer is advanced by 65% at the start of battle to act first in combat. WIth the right setup, Mem's Support should be triggered after the DPS for the full Action Advance.\n Usage: 22.9 %\n MoC: 10.04 cyc.\n PF: 35883\n AS: 3505\n\n 3\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS althrough Memosprites such as Aglaea's Garmentmaker won't be affected. Energy regeneration is useful on any supports. Other team buffing sets are also valid.\n Usage: 39.85 %\n MoC: 9.85 cyc.\n PF: 35190\n AS: 3475",
           "assets": [
             {
               "id": "93d6c2686318",
@@ -1819,5 +1799,5 @@
     }
   },
   "tables": [],
-  "text": "Trailblazer • Remembrance Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Trailblazer • Remembrance\n Trailblazer • Remembrance Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Trailblazer • Remembrance from HSR (Honkai: Star Rail). Trailblazer • Remembrance is a 5 ★ character from the Ice element who follows the Path of Remembrance .\n A girl/boy who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.\n\n To learn more about Trailblazer • Remembrance check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Trailblazer • Remembrance has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Trailblazer • Remembrance check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Leave It to Me!\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.\n\n Skill\n I Choose You!\n Summon\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP by an amount equal to #1[i]% of Mem's Max HP, and grants Mem 10% Charge.\n\n Ultimate\n Together, Mem!\n AoE | 160 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Summons memosprite Mem. Grants Mem 40% Charge, then enables Mem to deal Ice DMG equal to #1[i]% of Mem's ATK to all enemies.\n\n Talent\n Almighty Companion\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Memosprite Mem has an initial SPD of 130 and Max HP equal to #1[i]% of Trailblazer's Max HP plus #2[i]. For every 10 Energy regenerated by all allies in total, Mem gains 1% Charge.\n\n Technique\n Memories Back as Echoes\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, creates a Special Dimension that lasts for 10 second(s). Enemies within the Special Dimension are placed in a Time Stop state, halting all their actions. After entering battle against enemies afflicted with the Time Stop state, delays the action of all enemies by 50%, and then deals Ice DMG to all enemies equal to 100% of Trailblazer's ATK. Only 1 Dimension Effect created by allies can exist at the same time.\n\n Memosprite Skills\n Memosprite Skill\n Baddies! Trouble!\n AoE\n\n Lv. 1\n\n Energy gain: 10\n Break: 5 + 10 adjacent\n\n Deals 4 instance(s) of DMG, with each instance dealing Ice DMG equal to #1[i]% of Mem's ATK to one random enemy. Finally, deals Ice DMG equal to #2[i]% of Mem's ATK to all enemies.\n Memosprite Skill\n Lemme! Help You!\n Support\n\n Lv. 1\n\n Energy gain: 10\n Break: -\n\n Advances the action of one designated ally by 100% and grants them \"Mem's Support,\" lasting for 3 turn(s).\nFor every 1 instance of DMG dealt by the target that has \"Mem's Support,\" additionally deals 1 instance of True DMG equal to #1[i]% of the original DMG.\nWhen using this ability on this unit, cannot trigger the action advance effect.\n\n Memosprite Talent\n Friends! Together!\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n All allies' CRIT DMG increases by #1[i]% of Mem's CRIT DMG plus #2[i]%.\nIf the Charge has yet to reach 100%, Mem automatically uses \"Baddies! Trouble!\" during action. When the Charge reaches 100%, Mem immediately takes action, and can select one ally unit to use \"Lemme! Help You!\" in the next action.\n Memosprite Talent\n Go, Mem, Go!\n Enhance\n\n Energy gain: 0\n Break: -\n\n When Mem is summoned, immediately gains 50% Charge.\n Memosprite Talent\n No... Regrets\n Enhance\n\n Energy gain: 0\n Break: -\n\n When Mem disappears, advances Trailblazer's action by 25% .\n\n Major Traces\n A2 Major trace\n Rhapsode's Scepter\n\n When the battle starts, Trailblazer's action advances by 30% . When Mem is first summoned, grants Mem 40% Charge.\n\n A4 Major trace\n Petite Parable\n\n When using Baddies! Trouble!, Mem immediately gains 5% Charge.\n\n A6 Major trace\n Magnets and Long Chains\n\n When the Max Energy of the ally target that has Mem's Support exceeds 100, for every 10 excess Energy, additionally increases the multiplier of the True DMG dealt via Mem's Support by 2% , up to a max increase of 20% .\n\n Bonus Major trace\n Unfinished Epilogue\n\n After using Ultimate, gains 1 stack of Epic, up to 2 stacks. When this unit has Epic and Mem is on the field, Basic ATK gets enhanced to Together, We Script Tomorrow!\n\n Minor Traces (total)\n CRIT DMG\n + 37.3%\n\n HP\n + 14%\n\n ATK\n + 14%\n\n Eidolons\n E 1\n Narrator of the Present\n Eidolon 1\n\n Increases the CRIT Rate of the ally target with \"Mem's Support\" by 10% . When an ally target has \"Mem's Support,\" its effect also takes effect on the target's memosprite/memomaster. This effect cannot stack.\n\n E 2\n Gleaner of the Past\n Eidolon 2\n\n When ally memosprites (aside from Mem) take action, Trailblazer regenerates 8 Energy. This effect can trigger a max of 1 time(s) per turn. The trigger count resets at the start of Trailblazer's turn.\n\n E 3\n Chanter of the Future\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Dancer of the Muse\n Eidolon 4\n\n When an ally target with 0 Max Energy actively uses an ability, Mem can also gain 3% Charge, and the multiplier of the True DMG dealt by this target via \"Mem's Support\" additionally increases by 6% .\n\n E 5\n Seamster of the Ode\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Bearer of the Revelation\n Eidolon 6\n\n Ultimate's CRIT Rate is set at 100% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1047\n\n ATK\n\n 543\n\n DEF\n\n 630\n\n Speed\n\n 103\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Thief's Instinct\n\n x 12\n\n Usurper's Scheme\n\n x 13\n\n Enigmatic Ectostella\n\n x 28\n\n Conqueror's Will\n\n x 12\n\n CV\n ENG\n Rachael Chau | Caleb Yen\n\n JPN\n Ishikawa Yui (石川 由依) | Enoki Junya (榎木 淳弥)\n\n CN\n Chen Tingting (陈婷婷) | Qin Juge (秦且歌)\n\n KR\n Kim Ha-ru (김하루) | Kim Myung-jun (김명준)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Extremely accessible and powerful support,\n\n Extremely flexible and generalist,\n\n Provides frequent 100% Action Advance for no SP cost,\n\n Provides massive True DMG that acts as a final damage multiplier for an ally,\n\n Passively increases all allies' CRIT DMG,\n\n Strong Technique for getting advantage on first turn,\n\n Built for the future with lots of potential for min-maxing,\n\n Mem.\n\n Cons\n Action Advance can come at unfortunate times,\n\n Doesn't contribute much damage on their own,\n\n Running Remembrance Trailblazer means you're locked out of the other Trailblazer forms (well, Harmony - let's not talk about the two other paths).\n\n Review (By Sushou)\n The Remembrance Trailblazer is the first of a new Path, and boasts powerful supportive capabilities. They have a summoned entity called a memosprite that has its own actions and place in the Action Order. The memosprite passively provides allies with increased CRIT DMG and will do AoE attacks on its turn until its Charge is full. At full Charge, the Trailblazer can choose an ally to fully Action Advance, and will also grant a 3 turn buff to the ally that deals an additional instance of True DMG upon dealing damage with an attack, effectively multiplying an ally's damage output. As a result, the Remembrance Trailblazer is a fantastic generalist character that can fit into many team archetypes, and seems poised to be a valuable support for future Remembrance characters.\n The journey continues to Amphoreus, and to the surprise of nobody, we get a hold of a new Path for our Trailblazer. What is surprising, is that it's a completely new Path, and one many of us are familiar with from the Simulated Universe — the Path of Remembrance. It's not quite what you might be expecting, as the only real thing that's similar is that the Element is Ice, but that's not to say it's not impressive.\n The Remembrance Trailblazer's got a new pet, a memosprite called Mem (very original, please clap). Mem's got their own actions and Traces — Traces you need to level in addition to the Trailblazer's own, mind you, but it should cost about the same as maxing out a character from another Path. Memosprites are seemingly 'the thing' about Remembrance characters; summoned units that function like the trashcans in that one trashcan event we had, you know the one.\n This means that like traditional summons we've seen, memosprites have their own action and place in the turn order, but unlike those summons, memosprites are actually targetable entities on the field, meaning they can be hit by enemies and directly buffed by allies (and can indeed fall and need to be resummoned).\n We'll start with the summoner, as usual. The Trailblazer's Skill will summon Mem, and if Mem is already out and about, using the Skill will restore Mem's HP by up to 60% of Mem's Max HP. This also grants Mem 10% charge, something we'll come back to later. This is a purely non-damaging Skill used for getting Mem out or for healing Mem yourself if you don't want to burden your sustain an extra amount, but the Skill does still recover 30 Energy.\n The Trailblazer's Ultimate will also summon Mem if they are not out yet, and grants Mem 40% Charge immediately. Then Mem does their best Attack on Titan impression and smacks all enemies on the field for up to 240% ATK. Note that this uses Mem's ATK value. The Energy cost for this Ultimate is quite high at 160, but the Charge it gives makes it well worth it.\n The Trailblazer's Talent describes Mem. Mem's got an initial SPD of 130 and a Max HP that's equal to 80% of the Trailblazer's Max HP plus 640, at Max Talent level. For every 10 Energy regenerated by all allies in total, Mem gains 1% Charge. This means characters that can gain large chunks of Energy for themselves or allies (especially percent based Energy restores) help to fuel Mem's Charge quite significantly.\n It is rare but welcome when I need to also mention a character's Technique, but this Trailblazer's one is worth going over. It is a Dimension technique, so its effects are contested with other Dimensions, but it could be very worth using and prioritising. Enemies in the Dimension are completely halted, frozen in time, and entering combat with these enemies will delay the action of the enemies by 50% before dealing 100% ATK Ice DMG to all enemies.\n This does not actually count as Crowd Control and so is completely unaffected by enemy resistances to such effects, meaning this can affect even traditionally CC immune enemies. This should pretty much guarantee that the whole team will be able to act before a single enemy gets their turn unless either you're very slow or the enemy is exceptionally fast.\n That's all there is for the Trailblazer themselves. Once Mem is out, you'll mostly be using the Trailblazer's Basic ATK to recover SP and deal extra damage while Mem makes murder biscuits on the enemies (I don't actually know if Mem is a cat).\n It's important to note that Mem will copy the Trailblazer's attack stats and use them as their own , but that this specifically applies to the out-of-combat stats; whatever the stat screen says before entering a fight is what Mem will have to work with, so conditional effects that increase stats from Relics or Light Cones will not retroactively be applied to Mem. The very new Relic set specifically states that it applies to the summoned entity, so we can be confident that if a Relic or Light Cone does not explicitly state this, you can assume it does not affect the memosprite.\n So on to Mem's abilities. Mem's Talent will offer an increase to all allies' CRIT DMG based on Mem's CRIT DMG, up to 12% plus an extra 24%. This is to the CRIT DMG increase from Bronya's Ultimate but without the extra ATK%. The flat bonus is higher compared to Bronya's but the scaling is slightly lower. It ends up being very strong regardless. For an effect that is permanently active once Mem is summoned, this is pretty damn good.\n Mem's level of Charge dictates what they will do on their turn. Below 100% Charge, Mem will automatically use their Skill. This deals 4 instances of DMG, each one dealing up to 36% ATK to a random enemy, like a Bounce Skill, and then finally dealing a 5th hit to all enemies on the field for 90% ATK. This attack restores 10 Energy for the Trailblazer, and thus a little bit of Charge for Mem as well.\n At 100% Charge, Mem will immediately get 100% Action Advanced and will get to select an ally to 100% Action Advance as well . After advancing the ally, Mem will grant them a buff called Mem's Support for 3 turns. Whenever an ally with this buff attacks an enemy, every damage instance they create will have a second damage instance attached to it that deals True DMG, dealing up to 28% of the original attack's DMG.\n This is really special. Aside from the wonderful damage number fireworks that occur, this is essentially a final multiplier on the total damage that a character can do. You take an attack, you factor in all the ATK% boosts, the CRIT boosts, and the DMG% increases, maybe you also have some enemy debuffs to consider as well, and then you get the amount of damage that your attack will be doing. With Mem's Support, you take THAT damage number, and you multiply it by 1.28x. Oh yeah. It's all coming together now.\n This True DMG is a mirror of the damage you would have been dealing, so while the damage type itself is completely unaffected by... Well, anything really. It is technically affected by resistances due to your original damage being affected by resistances. It is because this additional damage instance is True that we can consider this as being a final multiplier on your attack's damage; if this additional mirrored damage instance was not True, you would actually be needing to go through enemy resistances twice and you'd lose out on damage as a result.\n This is an insane thing to have because it works for literally everything. Raw DMG, Break DMG, Super Break DMG, DoT DMG, Emotional Damage — Mem's Support will amplify it to be even more devastating. This is the most 'it's free real estate' effect we've maybe ever seen. Acheron's Nihility passive does a very similar thing for herself, and is extremely strong, but requires two additional Nihility units to be present for it. All you need for this is the Remembrance Trailblazer, and it's applicable to anyone you choose. It just works™.\n Oh and the really funny thing is that this effect can actually be applied to multiple allies at a time — that's right, folks, this is not a 'one patron at a time' situation like with Sunday's buffs, no no, this only cares about the turn duration of the effect itself. Mem can be getting Charge quite quickly, and especially since you have a lot of freedom in choosing who to Action Advance, you can potentially have two characters with this effect at a time.\n Just as really fast allies can wear this buff out quickly, particularly slow allies can utilise it to extraordinary effect; Yunli and Clara can become even more brutal without running out of the effect quickly, various other follow-up units can do similar things, and best of all, this can work on Robin. Yeah, you could potentially have both Robin and another damage dealer getting a free 28% bonus damage at the same time, and it is just as ludicrous as it sounds.\n The Action Advance from Mem's Support can come at somewhat inopportune times due to it needing to be used immediately upon reaching 100% Charge, but in practice this is not really that big of a deal, and you can think of it as a nice bonus before applying the powerful benefits of Mem's Support. It is possible to hold the Trailblazer's Ultimate to try and control when the Action Advance happens, but this can be a risky proposition, especially since Mem's damage taken will also funnel Energy to the Trailblazer, and in situations where everyone is getting attacked, this is actually quite a considerable amount of Energy to be wasting (not to mention the influx of Energy from having 5 allies attacked could just result in Mem getting to 100% Charge anyway).\n Mem also has some additional passives, one that lets them restore 50% Charge immediately upon being summoned, and one that will Advance the Trailblazer's action by 25% when Mem falls in battle. Does this mean there could potentially be cursed optimisation where you purposefully try to get Mem to die to resummon them and reap the benefits of these passives? I mean... I guess you could try it... You monster.\n Already things are very good for this version of the Trailblazer, but there are yet more things that show up, courtesy of the Bonus Ability Traces:\n A2 will automatically Advance the Trailblazer's action by 30% upon combat start, and will restore 40% Charge to Mem when they are first summoned. This is a 'head start' passive that aims to have the Trailblazer being one of the first people acting in a fight to more quickly get Mem out. The 40% Charge stacks with the 50% from Mem's passive, meaning Mem will already pretty much have the Mem’s Support ability available to use.\n\n A4 will allow Mem's AoE Skill to restore an additional 5% Charge for themselves when it's used, further speeding up the rate at which you can get Mem's all-powerful Support, and increasing the total number of times it can be used, making it easier to try and get Mem's Support on multiple allies, should you be attempting to do so.\n\n Lastly, the A6. When the Max Energy of the ally that is buffed by Mem's Support exceeds 100, the True DMG multiplier will be increased based on the difference; every 10 excess Energy increases the multiplier by 2%, maxing out at a 20% increase when the buffed ally has 200 Energy.\n This means that for pretty much all DPS characters, their True DMG multiplier will be getting at least some amount of increase, but for characters with particularly expensive Ultimates, they could be getting a total True DMG multiplier of 48%. That is a lot of extra damage, and this could be essentially up to a 1.5x final DMG multiplier for the buffed ally.\n\n As the protagonist, the Trailblazer will naturally get their Eidolons unlocked over time at no cost, and they're pretty good, though keep in mind, we likely won't have all the Eidolons available immediately on release.\n E1 increases the CRIT Rate of the ally with Mem's Support by 10%, and allows the buff from Mem's Support to be mirrored to the ally's Memosprite, or from the Memosprite to the master. This effect can't stack but essentially lets future Remembrance characters (as well as the Trailblazer themselves) benefit from Mem's Support without having to pick and choose whether to buff the summoner or the sprite.\n E2 allows ally memosprites besides Mem to restore 8 Energy to the Trailblazer whenever they take action, up to once per Trailblazer's turn. This allows for more Charge gain for Mem and quicker Energy generation for the Trailblazer to get more Ultimates, which then naturally leads into getting more Charge for Mem.\n E4 will give allies with 0 Max Energy an extra 6% on the True DMG multiplier from Mem's Support, effectively the same as if that character had a 130 Energy Ultimate. It also lets them give Mem Charge as well, gaining 3% Charge per manually activated ability. This is for Acheron and Feixiao, and any future characters that have completely unique Ultimate activation criteria. The stipulation for manually activated is so that Feixiao doesn't just turbo-charge Mem all by herself with all of her follow-ups.\n Lastly, E6 will fix the CRIT Rate of the Trailblazer's Ultimate to 100%. Given that you are very likely building with CRIT DMG in mind to maximise the support buffs from Mem, this lets the Trailblazer have some damage contribution on their own, though it’s nothing super impressive.\n The stat boosts from E3 and E5 are also very noteworthy because they provide Trace level increases to both the master and the memosprite. This is then providing higher stat increases for Mem, increasing the multiplier on their AoE attack, increasing the scaling of the CRIT DMG buff, and most of all, increasing the True DMG multiplier of Mem's Support to a constant 30%.\n Aside from the very appreciated stat boosts, most of the important stuff is unlocked with the E1 and E2, with everything else being relatively minor, but still appreciable, boosts to the Trailblazer's performance and kit.\n The nature of this kit makes it more resilient to passive powercreep, in my opinion. As we should all know by now from Bronya and more recently Sunday, having access to a 100% Action Advance is quite literally never bad, especially when it doesn't cost you SP to use it.\n Being able to act as a final damage multiplier for whichever character you choose is an absurd thing to be even just by itself, let alone also factoring in the Action Advance. This means that the way you increase ally damage scales with the damage directly, and will always be an incredibly powerful and guaranteed way to increase damage, because it always takes the final damage an ally will be doing and multiplies it.\n Obviously, the Remembrance Trailblazer is not really an archetype enabling support like their Harmony version, so in teams that desperately need a specific type of buff or mechanic, there may not be space for the Remembrance Trailblazer, even though their True DMG component is particularly potent when it comes to improving final damage values. This is especially noticeable in situations where there are already many buffs and debuffs being factored in to reach a damage value; for units like Big Herta or Feixiao, who are already very capable and have numerous self-buffs, being able to multiply the final damage number by up to 1.5x could have a greater effect than any other kind of additional buff.\n The specific min-maxing required can vary greatly depending on the individual moving parts of your team, so it’s not always going to be the very best option, compared to the archetype enabling supports (more damage on a non-functional team isn’t useful), but this does mean that using the Remembrance Trailblazer is almost never a bad idea.\n Plus, because of the way all of this works... The Remembrance Trailblazer can kinda just work everywhere. As mentioned earlier, the way this True DMG is applied means it affects all types of damage in all archetypes, so there's really nowhere where the Trailblazer can't absolutely shine.\n Their Element may be Ice, but they radiate such warmth and accessibility that it makes me wonder if there's ever a point where you wouldn't at least consider bringing them to the team. If only other supports could be so grossly incandescent.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n This Love, Forever (S 1 )\n\n Cyrene's signature buffs can be activated easily as Mem can both target allies and attack enemies. Provides a massive SPD increase for the wearer, and strong damage amplification effects especially in CRIT teams.\n Usage: 2.32 %\n MoC: 5.8 cyc.\n PF: 39656\n AS: 3645\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature is useful with DPS that function with HP loss such as Castorice, Evernight, or Blade. Increases enemies' DMG Taken by 18% (Cannot stack with multiple copies of this Light Cone on the team)\n Usage: 2 %\n MoC: 10 cyc.\n PF: 38957\n AS: 3608\n\n 3\n\n Fly Into a Pink Tomorrow (S 5 )\n\n Exclusive Light Cone obtainble after completing 3.7 Amphoreus story quest, increases all allies' DMG dealt and signficiantly boosts the Enhanced Basic ATK DMG, making it her best option for Sub-DPS with Cyrene, while also being second best option for a Support build. Comparing to Herta's Store 5* Light Cone, the SPD it offers is more valuable, but since it is heavily contested by other Remembrance characters, it is recommended to equip this free 4* Light Cone on the Remembrance Trailblazer.\n Usage: 68.34 %\n MoC: 10.46 cyc.\n PF: 35168\n AS: 3471\n\n 4\n\n Memory's Curtain Never Falls (S 5 )\n\n Grants an exceptional amount of SPD% ideal for max speed Remembrance Trailblazer or easing sub-stat pressure on gear. Also has a powerful team-based buffing effect that should always be active even on auto as the AI uses the skill often.\n Usage: 15.25 %\n MoC: 9.67 cyc.\n PF: 36240\n AS: 3519\n\n 5\n\n Victory In a Blink (S 5 )\n\n F2P accessible Light Cone, offering a teamwide DMG buff.\n Usage: 9.79 %\n MoC: 10.78 cyc.\n PF: 34205\n AS: 3437\n\n 6\n\n Shadowburn (S 5 )\n\n Alternative F2P option, granting 1 Skill Point refund once per battle, aswell as 2% extra Mem charge during first summon.\n Usage: 1.2 %\n MoC: -\n PF: 26520\n AS: 3412\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n If SPD is not a concern, the Deliverer set can provide a teamwide 15% DMG buff.\n Usage: 31.13 %\n MoC: 9.91 cyc.\n PF: 37351\n AS: 3542\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Opting for high SPD to gain more actions is a strong option.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.65 %\n MoC: 12 cyc.\n PF: 35207\n AS: 3490\n\n Best Specialist Relic Sets\n 3\n\n Eagle of Twilight Line ( 4 -PC)\n\n Eagle of Twilight Line offers the highest effective SPD when properly utilized.\n Usage: 10.13 %\n MoC: 9.45 cyc.\n PF: 36325\n AS: 3527\n\n Best Planetary Sets\n 1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n General best option when there are no other allies holding this set. Increases all allies' SPD by 8% while Mem is on the field.\n Usage: 15.61 %\n MoC: 10.04 cyc.\n PF: 35920\n AS: 3490\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Allows Mem to be summoned early to start accumulating Charge and provide a teamwide CRIT DMG buff. With the Trace and this Planar, the Trailblazer is advanced by 65% at the start of battle to act first in combat. WIth the right setup, Mem's Support should be triggered after the DPS for the full Action Advance.\n Usage: 22.94 %\n MoC: 10.37 cyc.\n PF: 36794\n AS: 3506\n\n 3\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS althrough Memosprites such as Aglaea's Garmentmaker won't be affected. Energy regeneration is useful on any supports. Other team buffing sets are also valid.\n Usage: 38.43 %\n MoC: 10.48 cyc.\n PF: 34944\n AS: 3479\n\n Best Stats\n\n Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n Ice DMG\n > HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD > CRIT DMG > Effect RES (until 30% with Broken Keel)\n\n Recommended endgame stats\n HP: 3000 - 3800+\n\n DEF: 1000 - 1400+\n\n CRIT DMG: 180 - 220%+\n\n Energy Regen: 119.44 - 124.44%+\n\n SPD (Hyperspeed): 160+ OR as fast as possible\n\n Traces priority\n Skills priority: Memosprite Skill > Memosprite Talent > Talent > Ult = Skill = Basic\n\n Major Traces priority: Rhapsode's Scepter (A2) > Magnets and Long Chains (A6) > Petite Parable (A4)\n\n Synergy\n Castorice - With Mem as an extra memosprite on the team, having higher HP pools can result in faster Newbud gain from enemies' AoE attacks, and Castorice's Skill. Mem's buff will also be inherited by Netherwing once it is summoned, for an extra 36% True DMG. Also provides strong CRIT Rate and CRIT DMG buffs.\n Cyrene - Both the Trailblazer and Cyrene makes a great support duo for most Chrysos Heir DPS. Having more Remembrance characters will increase the initial charges for Cyrene's Ultimate, and Mem can also assist with Cyrene's Ultimate generation. Additionally, they can also be played as a DPS duo, although it is less powerful than dedicated DPS characters.\n March 7th • Evernight - For Main DPS Evernight: The Remembrance Trailblazer has a persistent True DMG buff which will be extended to Evey once it is summoned - for a massive 50% extra True DMG since her Max Energy is high enough to max out the buff. Additionally provides Evernight with CRIT buffs, occasional Action Advances, contributes to the Remembrance tally for her CRIT DMG buff. With Evernight consuming no Skill Points and actually generating them via her Talent, the Remembrance Trailblazer can use their Skill every turn for more frequent Action Advances.\nFor Sub-DPS Evernight: Competetive option with other Amplifiers (such as Tribbie). The Remembrance Trailblazer remains an excellent support for the Castorice + Evernight duo, thanks to the teamwide CRIT DMG buffs, and strong single-target buffs. Which, if planned carefully, can be active on both Castorice and Evernight at the same time - thanks to the ability to use Skill more often.\n The Herta - Unlike other Supports, the Remembrance Trailblazer's Ultimate, as well as their companion Mem, can attack enemies in an AoE to Regenerate Energy and apply \"Interpretation\" stacks for The Herta. The Herta's additional Energy Regeneration can Charge Mem faster, and her Max Energy is high enough to max out the Additional True DMG Multiplier. Mem then provides CRIT, Action Advance, and Additional True DMG buffs for The Herta.\n Aglaea - If you don’t have her two best Supports (Sunday and Robin), then the Trailblazer is a reasonable alternative to replace one of the two. The Trailblazer can provide massive True DMG bonuses to both Aglaea and Garmentmaker, as well as an extra turn for Aglaea.\n Himeko Nova - Can provide a rare True DMG buff for Himeko Nova that lasts for several turns and can activate Verdict mode. May require careful planning to make sure the Action Advance kicks in at an ideal time; Himeko Nova taking 2 turns back-to-back without her Assist Skill being used up is not ideal. Worth noting that Remembrance Trailblazer's Joint ATK counts as 2 AoE attacks, which can satisfy the Decimation trigger condition pretty well, considering Mem can also independently take action to launch AoE hits.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 20\n App. rate: 1.91 %\n Avg. cycles : 10.61\n Avg. cycles (E1+): 7.61\n\n Rank 21\n App. rate: 1.83 %\n Avg. cycles : 9.41\n Avg. cycles (E1+): 5.25\n\n Rank 33\n App. rate: 1.03 %\n Avg. cycles : 11.4\n Avg. cycles (E1+): 6.17\n\n Rank 34\n App. rate: 1.02 %\n Avg. cycles : 11.42\n Avg. cycles (E1+): 9.57\n\n Rank 35\n App. rate: 1.01 %\n Avg. cycles : 10.88\n Avg. cycles (E1+): 8.48\n\n Rank 49\n App. rate: 0.69 %\n Avg. cycles : 10.71\n Avg. cycles (E1+): 9.37\n\n Rank 72\n App. rate: 0.46 %\n Avg. cycles : 10.95\n Avg. cycles (E1+): 8.02\n\n Rank 79\n App. rate: 0.42 %\n Avg. cycles : 7\n Avg. cycles (E1+): 2.06\n\n New\n\n Rank 82\n App. rate: 0.41 %\n Avg. cycles : 8.82\n Avg. cycles (E1+): 6.86\n\n New\n\n Rank 85\n App. rate: 0.39 %\n Avg. cycles : 7.06\n Avg. cycles (E1+): 3.05\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Trailblazer • Remembrance Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Trailblazer • Remembrance\n Trailblazer • Remembrance Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Trailblazer • Remembrance from HSR (Honkai: Star Rail). Trailblazer • Remembrance is a 5 ★ character from the Ice element who follows the Path of Remembrance .\n A girl/boy who boarded the Astral Express. They chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.\n\n To learn more about Trailblazer • Remembrance check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Trailblazer • Remembrance has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.6\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Trailblazer • Remembrance check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Leave It to Me!\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Ice DMG equal to #1[i]% of Trailblazer's ATK to one designated enemy.\n\n Skill\n I Choose You!\n Summon\n\n Lv. 1\n\n Energy gain: 30\n Break: -\n\n Summons the memosprite Mem. If Mem is already on the field, restores Mem's HP by an amount equal to #1[i]% of Mem's Max HP, and grants Mem 10% Charge.\n\n Ultimate\n Together, Mem!\n AoE | 160 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: 20\n\n Summons memosprite Mem. Grants Mem 40% Charge, then enables Mem to deal Ice DMG equal to #1[i]% of Mem's ATK to all enemies.\n\n Talent\n Almighty Companion\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Memosprite Mem has an initial SPD of 130 and Max HP equal to #1[i]% of Trailblazer's Max HP plus #2[i]. For every 10 Energy regenerated by all allies in total, Mem gains 1% Charge.\n\n Technique\n Memories Back as Echoes\n Impair\n\n Energy gain: 0\n Break: -\n\n After using Technique, creates a Special Dimension that lasts for 10 second(s). Enemies within the Special Dimension are placed in a Time Stop state, halting all their actions. After entering battle against enemies afflicted with the Time Stop state, delays the action of all enemies by 50%, and then deals Ice DMG to all enemies equal to 100% of Trailblazer's ATK. Only 1 Dimension Effect created by allies can exist at the same time.\n\n Memosprite Skills\n Memosprite Skill\n Baddies! Trouble!\n AoE\n\n Lv. 1\n\n Energy gain: 10\n Break: 5 + 10 adjacent\n\n Deals 4 instance(s) of DMG, with each instance dealing Ice DMG equal to #1[i]% of Mem's ATK to one random enemy. Finally, deals Ice DMG equal to #2[i]% of Mem's ATK to all enemies.\n Memosprite Skill\n Lemme! Help You!\n Support\n\n Lv. 1\n\n Energy gain: 10\n Break: -\n\n Advances the action of one designated ally by 100% and grants them \"Mem's Support,\" lasting for 3 turn(s).\nFor every 1 instance of DMG dealt by the target that has \"Mem's Support,\" additionally deals 1 instance of True DMG equal to #1[i]% of the original DMG.\nWhen using this ability on this unit, cannot trigger the action advance effect.\n\n Memosprite Talent\n Friends! Together!\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n All allies' CRIT DMG increases by #1[i]% of Mem's CRIT DMG plus #2[i]%.\nIf the Charge has yet to reach 100%, Mem automatically uses \"Baddies! Trouble!\" during action. When the Charge reaches 100%, Mem immediately takes action, and can select one ally unit to use \"Lemme! Help You!\" in the next action.\n Memosprite Talent\n Go, Mem, Go!\n Enhance\n\n Energy gain: 0\n Break: -\n\n When Mem is summoned, immediately gains 50% Charge.\n Memosprite Talent\n No... Regrets\n Enhance\n\n Energy gain: 0\n Break: -\n\n When Mem disappears, advances Trailblazer's action by 25% .\n\n Major Traces\n A2 Major trace\n Rhapsode's Scepter\n\n When the battle starts, Trailblazer's action advances by 30% . When Mem is first summoned, grants Mem 40% Charge.\n\n A4 Major trace\n Petite Parable\n\n When using Baddies! Trouble!, Mem immediately gains 5% Charge.\n\n A6 Major trace\n Magnets and Long Chains\n\n When the Max Energy of the ally target that has Mem's Support exceeds 100, for every 10 excess Energy, additionally increases the multiplier of the True DMG dealt via Mem's Support by 2% , up to a max increase of 20% .\n\n Bonus Major trace\n Unfinished Epilogue\n\n After using Ultimate, gains 1 stack of Epic, up to 2 stacks. When this unit has Epic and Mem is on the field, Basic ATK gets enhanced to Together, We Script Tomorrow!\n\n Minor Traces (total)\n CRIT DMG\n + 37.3%\n\n HP\n + 14%\n\n ATK\n + 14%\n\n Eidolons\n E 1\n Narrator of the Present\n Eidolon 1\n\n Increases the CRIT Rate of the ally target with \"Mem's Support\" by 10% . When an ally target has \"Mem's Support,\" its effect also takes effect on the target's memosprite/memomaster. This effect cannot stack.\n\n E 2\n Gleaner of the Past\n Eidolon 2\n\n When ally memosprites (aside from Mem) take action, Trailblazer regenerates 8 Energy. This effect can trigger a max of 1 time(s) per turn. The trigger count resets at the start of Trailblazer's turn.\n\n E 3\n Chanter of the Future\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15. Talent Lv. +2 , up to a maximum of Lv. 15. Memosprite Talent Lv. +1 , up to a maximum of Lv. 10.\n\n E 4\n Dancer of the Muse\n Eidolon 4\n\n When an ally target with 0 Max Energy actively uses an ability, Mem can also gain 3% Charge, and the multiplier of the True DMG dealt by this target via \"Mem's Support\" additionally increases by 6% .\n\n E 5\n Seamster of the Ode\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15. Basic ATK Lv. +1 , up to a maximum of Lv. 10. Memosprite Skill Lv. +1 , up to a maximum of Lv. 10.\n\n E 6\n Bearer of the Revelation\n Eidolon 6\n\n Ultimate's CRIT Rate is set at 100% .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1047\n\n ATK\n\n 543\n\n DEF\n\n 630\n\n Speed\n\n 103\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Thief's Instinct\n\n x 12\n\n Usurper's Scheme\n\n x 13\n\n Enigmatic Ectostella\n\n x 28\n\n Conqueror's Will\n\n x 12\n\n CV\n ENG\n Rachael Chau | Caleb Yen\n\n JPN\n Ishikawa Yui (石川 由依) | Enoki Junya (榎木 淳弥)\n\n CN\n Chen Tingting (陈婷婷) | Qin Juge (秦且歌)\n\n KR\n Kim Ha-ru (김하루) | Kim Myung-jun (김명준)\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Extremely accessible and powerful support,\n\n Extremely flexible and generalist,\n\n Provides frequent 100% Action Advance for no SP cost,\n\n Provides massive True DMG that acts as a final damage multiplier for an ally,\n\n Passively increases all allies' CRIT DMG,\n\n Strong Technique for getting advantage on first turn,\n\n Built for the future with lots of potential for min-maxing,\n\n Mem.\n\n Cons\n Action Advance can come at unfortunate times,\n\n Doesn't contribute much damage on their own,\n\n Running Remembrance Trailblazer means you're locked out of the other Trailblazer forms (well, Harmony - let's not talk about the two other paths).\n\n Review (By Sushou)\n The Remembrance Trailblazer is the first of a new Path, and boasts powerful supportive capabilities. They have a summoned entity called a memosprite that has its own actions and place in the Action Order. The memosprite passively provides allies with increased CRIT DMG and will do AoE attacks on its turn until its Charge is full. At full Charge, the Trailblazer can choose an ally to fully Action Advance, and will also grant a 3 turn buff to the ally that deals an additional instance of True DMG upon dealing damage with an attack, effectively multiplying an ally's damage output. As a result, the Remembrance Trailblazer is a fantastic generalist character that can fit into many team archetypes, and seems poised to be a valuable support for future Remembrance characters.\n The journey continues to Amphoreus, and to the surprise of nobody, we get a hold of a new Path for our Trailblazer. What is surprising, is that it's a completely new Path, and one many of us are familiar with from the Simulated Universe — the Path of Remembrance. It's not quite what you might be expecting, as the only real thing that's similar is that the Element is Ice, but that's not to say it's not impressive.\n The Remembrance Trailblazer's got a new pet, a memosprite called Mem (very original, please clap). Mem's got their own actions and Traces — Traces you need to level in addition to the Trailblazer's own, mind you, but it should cost about the same as maxing out a character from another Path. Memosprites are seemingly 'the thing' about Remembrance characters; summoned units that function like the trashcans in that one trashcan event we had, you know the one.\n This means that like traditional summons we've seen, memosprites have their own action and place in the turn order, but unlike those summons, memosprites are actually targetable entities on the field, meaning they can be hit by enemies and directly buffed by allies (and can indeed fall and need to be resummoned).\n We'll start with the summoner, as usual. The Trailblazer's Skill will summon Mem, and if Mem is already out and about, using the Skill will restore Mem's HP by up to 60% of Mem's Max HP. This also grants Mem 10% charge, something we'll come back to later. This is a purely non-damaging Skill used for getting Mem out or for healing Mem yourself if you don't want to burden your sustain an extra amount, but the Skill does still recover 30 Energy.\n The Trailblazer's Ultimate will also summon Mem if they are not out yet, and grants Mem 40% Charge immediately. Then Mem does their best Attack on Titan impression and smacks all enemies on the field for up to 240% ATK. Note that this uses Mem's ATK value. The Energy cost for this Ultimate is quite high at 160, but the Charge it gives makes it well worth it.\n The Trailblazer's Talent describes Mem. Mem's got an initial SPD of 130 and a Max HP that's equal to 80% of the Trailblazer's Max HP plus 640, at Max Talent level. For every 10 Energy regenerated by all allies in total, Mem gains 1% Charge. This means characters that can gain large chunks of Energy for themselves or allies (especially percent based Energy restores) help to fuel Mem's Charge quite significantly.\n It is rare but welcome when I need to also mention a character's Technique, but this Trailblazer's one is worth going over. It is a Dimension technique, so its effects are contested with other Dimensions, but it could be very worth using and prioritising. Enemies in the Dimension are completely halted, frozen in time, and entering combat with these enemies will delay the action of the enemies by 50% before dealing 100% ATK Ice DMG to all enemies.\n This does not actually count as Crowd Control and so is completely unaffected by enemy resistances to such effects, meaning this can affect even traditionally CC immune enemies. This should pretty much guarantee that the whole team will be able to act before a single enemy gets their turn unless either you're very slow or the enemy is exceptionally fast.\n That's all there is for the Trailblazer themselves. Once Mem is out, you'll mostly be using the Trailblazer's Basic ATK to recover SP and deal extra damage while Mem makes murder biscuits on the enemies (I don't actually know if Mem is a cat).\n It's important to note that Mem will copy the Trailblazer's attack stats and use them as their own , but that this specifically applies to the out-of-combat stats; whatever the stat screen says before entering a fight is what Mem will have to work with, so conditional effects that increase stats from Relics or Light Cones will not retroactively be applied to Mem. The very new Relic set specifically states that it applies to the summoned entity, so we can be confident that if a Relic or Light Cone does not explicitly state this, you can assume it does not affect the memosprite.\n So on to Mem's abilities. Mem's Talent will offer an increase to all allies' CRIT DMG based on Mem's CRIT DMG, up to 12% plus an extra 24%. This is to the CRIT DMG increase from Bronya's Ultimate but without the extra ATK%. The flat bonus is higher compared to Bronya's but the scaling is slightly lower. It ends up being very strong regardless. For an effect that is permanently active once Mem is summoned, this is pretty damn good.\n Mem's level of Charge dictates what they will do on their turn. Below 100% Charge, Mem will automatically use their Skill. This deals 4 instances of DMG, each one dealing up to 36% ATK to a random enemy, like a Bounce Skill, and then finally dealing a 5th hit to all enemies on the field for 90% ATK. This attack restores 10 Energy for the Trailblazer, and thus a little bit of Charge for Mem as well.\n At 100% Charge, Mem will immediately get 100% Action Advanced and will get to select an ally to 100% Action Advance as well . After advancing the ally, Mem will grant them a buff called Mem's Support for 3 turns. Whenever an ally with this buff attacks an enemy, every damage instance they create will have a second damage instance attached to it that deals True DMG, dealing up to 28% of the original attack's DMG.\n This is really special. Aside from the wonderful damage number fireworks that occur, this is essentially a final multiplier on the total damage that a character can do. You take an attack, you factor in all the ATK% boosts, the CRIT boosts, and the DMG% increases, maybe you also have some enemy debuffs to consider as well, and then you get the amount of damage that your attack will be doing. With Mem's Support, you take THAT damage number, and you multiply it by 1.28x. Oh yeah. It's all coming together now.\n This True DMG is a mirror of the damage you would have been dealing, so while the damage type itself is completely unaffected by... Well, anything really. It is technically affected by resistances due to your original damage being affected by resistances. It is because this additional damage instance is True that we can consider this as being a final multiplier on your attack's damage; if this additional mirrored damage instance was not True, you would actually be needing to go through enemy resistances twice and you'd lose out on damage as a result.\n This is an insane thing to have because it works for literally everything. Raw DMG, Break DMG, Super Break DMG, DoT DMG, Emotional Damage — Mem's Support will amplify it to be even more devastating. This is the most 'it's free real estate' effect we've maybe ever seen. Acheron's Nihility passive does a very similar thing for herself, and is extremely strong, but requires two additional Nihility units to be present for it. All you need for this is the Remembrance Trailblazer, and it's applicable to anyone you choose. It just works™.\n Oh and the really funny thing is that this effect can actually be applied to multiple allies at a time — that's right, folks, this is not a 'one patron at a time' situation like with Sunday's buffs, no no, this only cares about the turn duration of the effect itself. Mem can be getting Charge quite quickly, and especially since you have a lot of freedom in choosing who to Action Advance, you can potentially have two characters with this effect at a time.\n Just as really fast allies can wear this buff out quickly, particularly slow allies can utilise it to extraordinary effect; Yunli and Clara can become even more brutal without running out of the effect quickly, various other follow-up units can do similar things, and best of all, this can work on Robin. Yeah, you could potentially have both Robin and another damage dealer getting a free 28% bonus damage at the same time, and it is just as ludicrous as it sounds.\n The Action Advance from Mem's Support can come at somewhat inopportune times due to it needing to be used immediately upon reaching 100% Charge, but in practice this is not really that big of a deal, and you can think of it as a nice bonus before applying the powerful benefits of Mem's Support. It is possible to hold the Trailblazer's Ultimate to try and control when the Action Advance happens, but this can be a risky proposition, especially since Mem's damage taken will also funnel Energy to the Trailblazer, and in situations where everyone is getting attacked, this is actually quite a considerable amount of Energy to be wasting (not to mention the influx of Energy from having 5 allies attacked could just result in Mem getting to 100% Charge anyway).\n Mem also has some additional passives, one that lets them restore 50% Charge immediately upon being summoned, and one that will Advance the Trailblazer's action by 25% when Mem falls in battle. Does this mean there could potentially be cursed optimisation where you purposefully try to get Mem to die to resummon them and reap the benefits of these passives? I mean... I guess you could try it... You monster.\n Already things are very good for this version of the Trailblazer, but there are yet more things that show up, courtesy of the Bonus Ability Traces:\n A2 will automatically Advance the Trailblazer's action by 30% upon combat start, and will restore 40% Charge to Mem when they are first summoned. This is a 'head start' passive that aims to have the Trailblazer being one of the first people acting in a fight to more quickly get Mem out. The 40% Charge stacks with the 50% from Mem's passive, meaning Mem will already pretty much have the Mem’s Support ability available to use.\n\n A4 will allow Mem's AoE Skill to restore an additional 5% Charge for themselves when it's used, further speeding up the rate at which you can get Mem's all-powerful Support, and increasing the total number of times it can be used, making it easier to try and get Mem's Support on multiple allies, should you be attempting to do so.\n\n Lastly, the A6. When the Max Energy of the ally that is buffed by Mem's Support exceeds 100, the True DMG multiplier will be increased based on the difference; every 10 excess Energy increases the multiplier by 2%, maxing out at a 20% increase when the buffed ally has 200 Energy.\n This means that for pretty much all DPS characters, their True DMG multiplier will be getting at least some amount of increase, but for characters with particularly expensive Ultimates, they could be getting a total True DMG multiplier of 48%. That is a lot of extra damage, and this could be essentially up to a 1.5x final DMG multiplier for the buffed ally.\n\n As the protagonist, the Trailblazer will naturally get their Eidolons unlocked over time at no cost, and they're pretty good, though keep in mind, we likely won't have all the Eidolons available immediately on release.\n E1 increases the CRIT Rate of the ally with Mem's Support by 10%, and allows the buff from Mem's Support to be mirrored to the ally's Memosprite, or from the Memosprite to the master. This effect can't stack but essentially lets future Remembrance characters (as well as the Trailblazer themselves) benefit from Mem's Support without having to pick and choose whether to buff the summoner or the sprite.\n E2 allows ally memosprites besides Mem to restore 8 Energy to the Trailblazer whenever they take action, up to once per Trailblazer's turn. This allows for more Charge gain for Mem and quicker Energy generation for the Trailblazer to get more Ultimates, which then naturally leads into getting more Charge for Mem.\n E4 will give allies with 0 Max Energy an extra 6% on the True DMG multiplier from Mem's Support, effectively the same as if that character had a 130 Energy Ultimate. It also lets them give Mem Charge as well, gaining 3% Charge per manually activated ability. This is for Acheron and Feixiao, and any future characters that have completely unique Ultimate activation criteria. The stipulation for manually activated is so that Feixiao doesn't just turbo-charge Mem all by herself with all of her follow-ups.\n Lastly, E6 will fix the CRIT Rate of the Trailblazer's Ultimate to 100%. Given that you are very likely building with CRIT DMG in mind to maximise the support buffs from Mem, this lets the Trailblazer have some damage contribution on their own, though it’s nothing super impressive.\n The stat boosts from E3 and E5 are also very noteworthy because they provide Trace level increases to both the master and the memosprite. This is then providing higher stat increases for Mem, increasing the multiplier on their AoE attack, increasing the scaling of the CRIT DMG buff, and most of all, increasing the True DMG multiplier of Mem's Support to a constant 30%.\n Aside from the very appreciated stat boosts, most of the important stuff is unlocked with the E1 and E2, with everything else being relatively minor, but still appreciable, boosts to the Trailblazer's performance and kit.\n The nature of this kit makes it more resilient to passive powercreep, in my opinion. As we should all know by now from Bronya and more recently Sunday, having access to a 100% Action Advance is quite literally never bad, especially when it doesn't cost you SP to use it.\n Being able to act as a final damage multiplier for whichever character you choose is an absurd thing to be even just by itself, let alone also factoring in the Action Advance. This means that the way you increase ally damage scales with the damage directly, and will always be an incredibly powerful and guaranteed way to increase damage, because it always takes the final damage an ally will be doing and multiplies it.\n Obviously, the Remembrance Trailblazer is not really an archetype enabling support like their Harmony version, so in teams that desperately need a specific type of buff or mechanic, there may not be space for the Remembrance Trailblazer, even though their True DMG component is particularly potent when it comes to improving final damage values. This is especially noticeable in situations where there are already many buffs and debuffs being factored in to reach a damage value; for units like Big Herta or Feixiao, who are already very capable and have numerous self-buffs, being able to multiply the final damage number by up to 1.5x could have a greater effect than any other kind of additional buff.\n The specific min-maxing required can vary greatly depending on the individual moving parts of your team, so it’s not always going to be the very best option, compared to the archetype enabling supports (more damage on a non-functional team isn’t useful), but this does mean that using the Remembrance Trailblazer is almost never a bad idea.\n Plus, because of the way all of this works... The Remembrance Trailblazer can kinda just work everywhere. As mentioned earlier, the way this True DMG is applied means it affects all types of damage in all archetypes, so there's really nowhere where the Trailblazer can't absolutely shine.\n Their Element may be Ice, but they radiate such warmth and accessibility that it makes me wonder if there's ever a point where you wouldn't at least consider bringing them to the team. If only other supports could be so grossly incandescent.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0.5\n MoC\n\n T0.5\n PF\n\n T0.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n This Love, Forever (S 1 )\n\n Cyrene's signature buffs can be activated easily as Mem can both target allies and attack enemies. Provides a massive SPD increase for the wearer, and strong damage amplification effects especially in CRIT teams.\n Usage: 2.51 %\n MoC: 6.6 cyc.\n PF: 39427\n AS: 3595\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's signature is useful with DPS that function with HP loss such as Castorice, Evernight, or Blade. Increases enemies' DMG Taken by 18% (Cannot stack with multiple copies of this Light Cone on the team)\n Usage: 1.8 %\n MoC: 7 cyc.\n PF: 39675\n AS: 3613\n\n 3\n\n Fly Into a Pink Tomorrow (S 5 )\n\n Exclusive Light Cone obtainble after completing 3.7 Amphoreus story quest, increases all allies' DMG dealt and signficiantly boosts the Enhanced Basic ATK DMG, making it her best option for Sub-DPS with Cyrene, while also being second best option for a Support build. Comparing to Herta's Store 5* Light Cone, the SPD it offers is more valuable, but since it is heavily contested by other Remembrance characters, it is recommended to equip this free 4* Light Cone on the Remembrance Trailblazer.\n Usage: 67.52 %\n MoC: 9.85 cyc.\n PF: 35411\n AS: 3472\n\n 4\n\n Memory's Curtain Never Falls (S 5 )\n\n Grants an exceptional amount of SPD% ideal for max speed Remembrance Trailblazer or easing sub-stat pressure on gear. Also has a powerful team-based buffing effect that should always be active even on auto as the AI uses the skill often.\n Usage: 15.79 %\n MoC: 8.95 cyc.\n PF: 35971\n AS: 3525\n\n 5\n\n Victory In a Blink (S 5 )\n\n F2P accessible Light Cone, offering a teamwide DMG buff.\n Usage: 9.9 %\n MoC: 10.31 cyc.\n PF: 34150\n AS: 3422\n\n 6\n\n Shadowburn (S 5 )\n\n Alternative F2P option, granting 1 Skill Point refund once per battle, aswell as 2% extra Mem charge during first summon.\n Usage: 1.16 %\n MoC: -\n PF: 32540\n AS: 3509\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n If SPD is not a concern, the Deliverer set can provide a teamwide 15% DMG buff.\n Usage: 31.85 %\n MoC: 8.05 cyc.\n PF: 37549\n AS: 3547\n\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n Opting for high SPD to gain more actions is a strong option.\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Usage: 0.67 %\n MoC: 10.5 cyc.\n PF: 31686\n AS: 3410\n\n Best Specialist Relic Sets\n 3\n\n Eagle of Twilight Line ( 4 -PC)\n\n Eagle of Twilight Line offers the highest effective SPD when properly utilized.\n Usage: 9.58 %\n MoC: 7 cyc.\n PF: 35113\n AS: 3498\n\n Best Planetary Sets\n 1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n General best option when there are no other allies holding this set. Increases all allies' SPD by 8% while Mem is on the field.\n Usage: 14.98 %\n MoC: 8.05 cyc.\n PF: 36765\n AS: 3492\n\n 2\n\n Sprightly Vonwacq ( 2 -PC)\n\n Allows Mem to be summoned early to start accumulating Charge and provide a teamwide CRIT DMG buff. With the Trace and this Planar, the Trailblazer is advanced by 65% at the start of battle to act first in combat. WIth the right setup, Mem's Support should be triggered after the DPS for the full Action Advance.\n Usage: 22.9 %\n MoC: 10.04 cyc.\n PF: 35883\n AS: 3505\n\n 3\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS althrough Memosprites such as Aglaea's Garmentmaker won't be affected. Energy regeneration is useful on any supports. Other team buffing sets are also valid.\n Usage: 39.85 %\n MoC: 9.85 cyc.\n PF: 35190\n AS: 3475\n\n Best Stats\n\n Body\n CRIT DMG\n\n Feet\n Speed\n\n Planar Sphere\n Ice DMG\n > HP%\n > DEF%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD > CRIT DMG > Effect RES (until 30% with Broken Keel)\n\n Recommended endgame stats\n HP: 3000 - 3800+\n\n DEF: 1000 - 1400+\n\n CRIT DMG: 180 - 220%+\n\n Energy Regen: 119.44 - 124.44%+\n\n SPD (Hyperspeed): 160+ OR as fast as possible\n\n Traces priority\n Skills priority: Memosprite Skill > Memosprite Talent > Talent > Ult = Skill = Basic\n\n Major Traces priority: Rhapsode's Scepter (A2) > Magnets and Long Chains (A6) > Petite Parable (A4)\n\n Synergy\n Castorice - With Mem as an extra memosprite on the team, having higher HP pools can result in faster Newbud gain from enemies' AoE attacks, and Castorice's Skill. Mem's buff will also be inherited by Netherwing once it is summoned, for an extra 36% True DMG. Also provides strong CRIT Rate and CRIT DMG buffs.\n Cyrene - Both the Trailblazer and Cyrene makes a great support duo for most Chrysos Heir DPS. Having more Remembrance characters will increase the initial charges for Cyrene's Ultimate, and Mem can also assist with Cyrene's Ultimate generation. Additionally, they can also be played as a DPS duo, although it is less powerful than dedicated DPS characters.\n March 7th • Evernight - For Main DPS Evernight: The Remembrance Trailblazer has a persistent True DMG buff which will be extended to Evey once it is summoned - for a massive 50% extra True DMG since her Max Energy is high enough to max out the buff. Additionally provides Evernight with CRIT buffs, occasional Action Advances, contributes to the Remembrance tally for her CRIT DMG buff. With Evernight consuming no Skill Points and actually generating them via her Talent, the Remembrance Trailblazer can use their Skill every turn for more frequent Action Advances.\nFor Sub-DPS Evernight: Competetive option with other Amplifiers (such as Tribbie). The Remembrance Trailblazer remains an excellent support for the Castorice + Evernight duo, thanks to the teamwide CRIT DMG buffs, and strong single-target buffs. Which, if planned carefully, can be active on both Castorice and Evernight at the same time - thanks to the ability to use Skill more often.\n The Herta - Unlike other Supports, the Remembrance Trailblazer's Ultimate, as well as their companion Mem, can attack enemies in an AoE to Regenerate Energy and apply \"Interpretation\" stacks for The Herta. The Herta's additional Energy Regeneration can Charge Mem faster, and her Max Energy is high enough to max out the Additional True DMG Multiplier. Mem then provides CRIT, Action Advance, and Additional True DMG buffs for The Herta.\n Aglaea - If you don’t have her two best Supports (Sunday and Robin), then the Trailblazer is a reasonable alternative to replace one of the two. The Trailblazer can provide massive True DMG bonuses to both Aglaea and Garmentmaker, as well as an extra turn for Aglaea.\n Himeko Nova - Can provide a rare True DMG buff for Himeko Nova that lasts for several turns and can activate Verdict mode. May require careful planning to make sure the Action Advance kicks in at an ideal time; Himeko Nova taking 2 turns back-to-back without her Assist Skill being used up is not ideal. Worth noting that Remembrance Trailblazer's Joint ATK counts as 2 AoE attacks, which can satisfy the Decimation trigger condition pretty well, considering Mem can also independently take action to launch AoE hits.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 27\n App. rate: 1.63 %\n Avg. cycles : 11\n Avg. cycles (E1+): 6.31\n\n Rank 27\n App. rate: 1.63 %\n Avg. cycles : 8\n Avg. cycles (E1+): 4.44\n\n Rank 36\n App. rate: 1.24 %\n Avg. cycles : 8.5\n Avg. cycles (E1+): 5.71\n\n Rank 37\n App. rate: 1.18 %\n Avg. cycles : 10.79\n Avg. cycles (E1+): 8.43\n\n Rank 39\n App. rate: 1.08 %\n Avg. cycles : 6.38\n Avg. cycles (E1+): 3.27\n\n Rank 50\n App. rate: 0.81 %\n Avg. cycles : 10.6\n Avg. cycles (E1+): 7\n\n Rank 51\n App. rate: 0.8 %\n Avg. cycles : 9.89\n Avg. cycles (E1+): 8.43\n\n Rank 52\n App. rate: 0.73 %\n Avg. cycles : 10\n Avg. cycles (E1+): 8.82\n\n Rank 58\n App. rate: 0.66 %\n Avg. cycles : 11.6\n Avg. cycles (E1+): 8.5\n\n Rank 62\n App. rate: 0.6 %\n Avg. cycles : 9.83\n Avg. cycles (E1+): 8\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

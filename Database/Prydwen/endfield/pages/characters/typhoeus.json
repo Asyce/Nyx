@@ -1,0 +1,288 @@
+{
+  "id": "characters:typhoeus",
+  "provider": "Prydwen",
+  "game": "endfield",
+  "gameName": "Arknights: Endfield",
+  "collection": "characters",
+  "recordType": "detail",
+  "slug": "typhoeus",
+  "name": "Typhoeus",
+  "title": "Typhoeus Best Build Guide",
+  "sourcePath": "/arknights-endfield/characters/typhoeus",
+  "contentStatus": "beta",
+  "statusLabels": [
+    "Soon"
+  ],
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "25/August/2026",
+  "meta": {
+    "title": "Typhoeus Best Build Guide | Arknights: Endfield",
+    "description": ""
+  },
+  "facts": {},
+  "assets": [
+    {
+      "id": "3ae1c5f2608b",
+      "sourceHash": "3ae1c5f2608b",
+      "kind": "characters",
+      "name": "Character",
+      "fileStem": "typhoeus-card",
+      "path": "Prydwen/endfield/assets/characters/typhoeus-card-3ae1c5f2608b.webp",
+      "width": 640,
+      "height": 800
+    },
+    {
+      "id": "2a5e413ccb1f",
+      "sourceHash": "2a5e413ccb1f",
+      "kind": "characters",
+      "name": "Typhoeus full illustration",
+      "fileStem": "typhoeus-full",
+      "path": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp",
+      "width": 600,
+      "height": 800
+    }
+  ],
+  "sections": [
+    {
+      "id": "typhoeus-best-build-guide-0",
+      "level": 1,
+      "heading": "Typhoeus Best Build Guide",
+      "text": "Last updated: 25/August/2026",
+      "assets": [
+        {
+          "id": "3ae1c5f2608b",
+          "sourceHash": "3ae1c5f2608b",
+          "kind": "characters",
+          "name": "Character",
+          "fileStem": "typhoeus-card",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-card-3ae1c5f2608b.webp",
+          "width": 640,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "introduction-1",
+      "level": 2,
+      "heading": "Introduction",
+      "text": "Typhoeus is a 6 -star character in Arknights: Endfield (AKE). Typhoeus wields an Arts Unit and belongs to the Striker class. Typhoeus also has access to the Nature element. This guide provides a comprehensive overview of Typhoeus 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "video-guide-2",
+      "level": 2,
+      "heading": "Video guide",
+      "text": "Typhoeus has no video guide yet.",
+      "assets": []
+    },
+    {
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 25/August/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.",
+      "assets": []
+    },
+    {
+      "id": "best-teams-7",
+      "level": 2,
+      "heading": "Best Teams",
+      "text": "Profile",
+      "assets": []
+    },
+    {
+      "id": "attributes-level-90-9",
+      "level": 3,
+      "heading": "Attributes (level 90)",
+      "text": "The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Typhoeus attributes aren't available yet. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "skills-11",
+      "level": 3,
+      "heading": "Skills",
+      "text": "Basic Attack\n WILDLANDS HUNTRESS",
+      "assets": []
+    },
+    {
+      "id": "basic-attack-12",
+      "level": 6,
+      "heading": "BASIC ATTACK:",
+      "text": "Typhoeus can perform up to 5 basic attack sequences, dealing Nature DMG to enemies. When performing a finisher on an enemy, Typhoeus deals massive Nature DMG and restores some SP.",
+      "assets": []
+    },
+    {
+      "id": "finisher-14",
+      "level": 6,
+      "heading": "FINISHER:",
+      "text": "Battle Skill\n PIERCING ARROWS OF THE WOODS\n\n Jumps to enter a Hovering status, during which Typhoeus can unleash 5 Aerial Basic Attacks that deal Nature DMG , consuming the target's Nature Infliction stacks to accumulate Signs for herself. She can also consume Hunting Arrows to enhance her attacks, dealing additional Nature Burst DMG.\n\n Combo Skill\n RAMPANT THORNS\n\n Transmutes all accumulated Signs to Hunting Arrows and creates a Barrage Array at the enemy location, dealing continuous Nature DMG and applying Slow on enemies within the AOE while increasing the Nature Burst DMG they take.\n\n Trigger: When Typhoeus reaches max Signs.\n\n Ultimate\n CALL OF ICE MOUNTAIN\n\n Fires an Imbued Arrow that explodes after hitting the enemy, dealing massive Nature DMG to enemies within the AOE. Typhoeus then immediately enters a Hovering status and each of her next 5 Aerial Basic Attacks triggers a Hail of Arrows where the attack lands, dealing additional massive DMG.",
+      "assets": []
+    },
+    {
+      "id": "talents-16",
+      "level": 3,
+      "heading": "Talents",
+      "text": "Typhoeus Talents are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "potential-dupes-18",
+      "level": 3,
+      "heading": "Potential (dupes)",
+      "text": "Typhoeus Potential information are currently missing. They will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "lore-20",
+      "level": 3,
+      "heading": "Lore",
+      "text": "Typhoeus lore is currently missing. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "voice-actors-22",
+      "level": 3,
+      "heading": "Voice Actors",
+      "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
+      "assets": []
+    },
+    {
+      "id": "gallery-24",
+      "level": 3,
+      "heading": "Gallery",
+      "text": "Review",
+      "assets": [
+        {
+          "id": "2a5e413ccb1f",
+          "sourceHash": "2a5e413ccb1f",
+          "kind": "characters",
+          "name": "Typhoeus full illustration",
+          "fileStem": "typhoeus-full",
+          "path": "Prydwen/endfield/assets/characters/typhoeus-full-illustration-2a5e413ccb1f.webp",
+          "width": 600,
+          "height": 800
+        }
+      ]
+    },
+    {
+      "id": "ratings-26",
+      "level": 3,
+      "heading": "Ratings",
+      "text": "Typhoeus ratings aren't available yet. It will be added soon!",
+      "assets": []
+    },
+    {
+      "id": "pros-cons-28",
+      "level": 3,
+      "heading": "Pros & Cons",
+      "text": "Typhoeus pros & cons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "review-30",
+      "level": 3,
+      "heading": "Review",
+      "text": "Typhoeus review isn't available yet. It will be added soon!\n\n Build",
+      "assets": []
+    },
+    {
+      "id": "best-weapons-32",
+      "level": 2,
+      "heading": "Best Weapons",
+      "text": "Typhoeus best Weapons aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-34",
+      "level": 2,
+      "heading": "Best Gear",
+      "text": "Typhoeus best Gear aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "best-gear-pieces-36",
+      "level": 3,
+      "heading": "Best Gear Pieces",
+      "text": "Typhoeus gear pieces calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "potentials-review-38",
+      "level": 2,
+      "heading": "Potentials Review",
+      "text": "Typhoeus dupes reviews aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "calculations-40",
+      "level": 3,
+      "heading": "Calculations",
+      "text": "Typhoeus calculations aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "skill-priority-42",
+      "level": 2,
+      "heading": "Skill Priority",
+      "text": "Typhoeus skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies",
+      "assets": []
+    },
+    {
+      "id": "synergies-44",
+      "level": 3,
+      "heading": "Synergies",
+      "text": "Typhoeus synergies aren't available yet. They will be added soon.",
+      "assets": []
+    },
+    {
+      "id": "teams-46",
+      "level": 3,
+      "heading": "Teams",
+      "text": "Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Typhoeus team compositions aren't available yet. They will be added soon.",
+      "assets": []
+    }
+  ],
+  "recommendations": {
+    "best-teams": {
+      "label": "Best Teams",
+      "sections": [
+        {
+          "heading": "Best Teams",
+          "text": "Profile",
+          "assets": []
+        },
+        {
+          "heading": "Teams",
+          "text": "Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Typhoeus team compositions aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-weapons": {
+      "label": "Best Weapons",
+      "sections": [
+        {
+          "heading": "Best Weapons",
+          "text": "Typhoeus best Weapons aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    },
+    "best-gear": {
+      "label": "Best Gear",
+      "sections": [
+        {
+          "heading": "Best Gear",
+          "text": "Typhoeus best Gear aren't available yet. They will be added soon.",
+          "assets": []
+        },
+        {
+          "heading": "Best Gear Pieces",
+          "text": "Typhoeus gear pieces calculations aren't available yet. They will be added soon.",
+          "assets": []
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "text": "Typhoeus Best Build Guide | Arknights: Endfield\n \n\n Arknights: Endfield\n Home Database Characters Gear Weapons\n Tier Lists Tier List Team Tier List\n Guides Guides\n Tools Team Builder Adv. Team Builder Rotation Builder Gacha Simulator Material Planner Character Comparison Patch Timeline\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Arknights: Endfield\n /\n Characters\n /\n Typhoeus\n Typhoeus Best Build Guide\n Last updated: 25/August/2026\n\n Introduction\n\n Typhoeus is a 6 -star character in Arknights: Endfield (AKE). Typhoeus wields an Arts Unit and belongs to the Striker class. Typhoeus also has access to the Nature element. This guide provides a comprehensive overview of Typhoeus 's best build, including recommended Weapons, Gear pieces, Stats, and the strongest team compositions and rotations that maximize their potential.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Video guide\n\n Typhoeus has no video guide yet.\n\n Update tracker\n\n Last review update\n Not yet available\n\n Last major build/calcs update\n Not yet available\n\n Last profile update*\n 25/August/2026\n\n *Profile update means smaller edits to the guide that don't require new calculations.\n\n To learn more about Typhoeus check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - whether it's best build, teams, synergies or calculations.\n\n Kit\n\n Review\n\n Build\n\n Best Teams\n\n Profile\n\n Attributes (level 90)\n\n The yellow color shows the Primary Attribute and the green Secondary Attribute . Both of those attributes, on top of their normal bonuses, provide additional ATK to the character.\n Typhoeus attributes aren't available yet. They will be added soon!\n\n Skills\n\n Basic Attack\n WILDLANDS HUNTRESS\n\n BASIC ATTACK:\n Typhoeus can perform up to 5 basic attack sequences, dealing Nature DMG to enemies. When performing a finisher on an enemy, Typhoeus deals massive Nature DMG and restores some SP.\n\n DIVE ATTACK:\n\n FINISHER:\n\n Battle Skill\n PIERCING ARROWS OF THE WOODS\n\n Jumps to enter a Hovering status, during which Typhoeus can unleash 5 Aerial Basic Attacks that deal Nature DMG , consuming the target's Nature Infliction stacks to accumulate Signs for herself. She can also consume Hunting Arrows to enhance her attacks, dealing additional Nature Burst DMG.\n\n Combo Skill\n RAMPANT THORNS\n\n Transmutes all accumulated Signs to Hunting Arrows and creates a Barrage Array at the enemy location, dealing continuous Nature DMG and applying Slow on enemies within the AOE while increasing the Nature Burst DMG they take.\n\n Trigger: When Typhoeus reaches max Signs.\n\n Ultimate\n CALL OF ICE MOUNTAIN\n\n Fires an Imbued Arrow that explodes after hitting the enemy, dealing massive Nature DMG to enemies within the AOE. Typhoeus then immediately enters a Hovering status and each of her next 5 Aerial Basic Attacks triggers a Hail of Arrows where the attack lands, dealing additional massive DMG.\n\n Talents\n\n Typhoeus Talents are currently missing. They will be added soon!\n\n Potential (dupes)\n\n Typhoeus Potential information are currently missing. They will be added soon!\n\n Lore\n\n Typhoeus lore is currently missing. It will be added soon!\n\n Voice Actors\n\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n\n Typhoeus ratings aren't available yet. It will be added soon!\n\n Pros & Cons\n\n Typhoeus pros & cons aren't available yet. They will be added soon.\n\n Review\n\n Typhoeus review isn't available yet. It will be added soon!\n\n Build\n\n Best Weapons\n\n Typhoeus best Weapons aren't available yet. They will be added soon.\n\n Best Gear\n\n Typhoeus best Gear aren't available yet. They will be added soon.\n\n Best Gear Pieces\n\n Typhoeus gear pieces calculations aren't available yet. They will be added soon.\n\n Potentials Review\n\n Typhoeus dupes reviews aren't available yet. They will be added soon.\n\n Calculations\n\n Typhoeus calculations aren't available yet. They will be added soon.\n\n Skill Priority\n\n Typhoeus skill priority information aren't available yet. They will be added soon.\n\n Teams and Synergies\n\n Synergies\n\n Typhoeus synergies aren't available yet. They will be added soon.\n\n Teams\n\n Typhoeus teams aren't listed in any specific order - so they're not listed best to worst or vice versa. Check our Team Tier List for more information about best teams.\n\n Typhoeus team compositions aren't available yet. They will be added soon."
+}

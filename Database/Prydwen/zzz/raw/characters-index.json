@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "characters",
   "sourcePath": "/zenless/characters",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 64,
   "detailPagesScraped": 64,
   "staleDetailPagesRemoved": 0,
@@ -351,12 +351,10 @@
     {
       "id": "remielle",
       "slug": "remielle",
-      "name": "Remielle New",
+      "name": "Remielle",
       "sourcePath": "/zenless/characters/remielle",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ]
+      "statusLabels": []
     },
     {
       "id": "rina",
@@ -405,11 +403,11 @@
     {
       "id": "sigrid",
       "slug": "sigrid",
-      "name": "Sigrid 3.1",
+      "name": "Sigrid New",
       "sourcePath": "/zenless/characters/sigrid",
-      "contentStatus": "beta",
+      "contentStatus": "live",
       "statusLabels": [
-        "3.1"
+        "New"
       ]
     },
     {

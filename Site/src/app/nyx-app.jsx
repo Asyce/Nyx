@@ -942,11 +942,12 @@ function overviewBannerPins(cfg, group, rosterMap){
 
 function overviewBannerBoard(cfg){
   const group = dbBannerGroup(cfg.key);
-  if (!group) return { current:null, next:null, later:[], planned:[], future:[], pinned:[] };
+  if (!group) return { current:null, concurrent:[], next:null, later:[], planned:[], future:[], pinned:[] };
   const current = bannerBoardColumn(cfg, group.current, 'live');
+  const concurrent = (group.concurrent || []).map((phase) => bannerBoardColumn(cfg, phase, 'live')).filter(Boolean);
   const next = bannerBoardColumn(cfg, group.next, 'next');
   const later = (group.upcoming || []).map((phase) => bannerBoardColumn(cfg, phase, 'upcoming')).filter(Boolean).slice(0, 3);
-  if (cfg.key === 'ae') return { current, next, later, planned:[], future:[], pinned:[] };
+  if (cfg.key === 'ae') return { current, concurrent, next, later, planned:[], future:[], pinned:[] };
 
   const rosterMap = rosterUnitMap(cfg);
   const pinned = overviewBannerPins(cfg, group, rosterMap);
@@ -992,7 +993,7 @@ function overviewBannerBoard(cfg){
     future.push(phaseUnit(cfg, unit, rosterMap, 0));
   }
   bannerApplyPlanLabels(current, next, planned, roadmapRows);
-  return { current, next, later, planned, future:future.filter(Boolean), pinned };
+  return { current, concurrent, next, later, planned, future:future.filter(Boolean), pinned };
 }
 
 // "6.7 Phase 2" reads as a patch; "Luna VIII" is already a name. Only prefix
@@ -1203,20 +1204,22 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   ].filter((row) => row.unit) : [];
   // Endfield's off-banner characters are the loss pool, not parallel banners.
   const lossPool = cfg.key === 'ae';
-  const laterUnits = board.later.flatMap((column) => [...column.heroes, ...column.others].map((unit) => ({ unit, column, label:bannerPhaseHeading(column) })));
-  // Endfield runs one banner at a time and announces little, so the middle
-  // columns would sit empty while the later column overflowed. Its upcoming
-  // operators move up into columns 2-4 and the later column is dropped
-  // entirely — no placeholder (user 2026-08-11).
-  const aeUpcoming = lossPool ? laterUnits.slice(0, 3) : [];
+  // Endfield announces few future banners, so known phases move into columns
+  // 2-4 and the later column is dropped entirely — no placeholder.
+  const aeUpcoming = lossPool
+    ? [...board.concurrent, board.next, ...board.later]
+      .filter(Boolean)
+      .flatMap((column) => column.heroes.map((unit) => ({ unit, column, label:bannerPhaseHeading(column) })))
+      .slice(0, 3)
+    : [];
   // Shown as full-art cards, the same shape as the live banner (user
   // 2026-08-11). A teased operator has no dates and no known loss pool yet, so
   // the card carries the art and the name and nothing it cannot stand behind.
   const aeUpcomingCards = aeUpcoming.map((row, index) => ({
     ...heroCard(row.column, row.unit, 'later-' + index),
-    status:'upcoming',
-    others:[],
-    supportLabel:null,
+    status:row.column.status === 'live' ? 'live' : 'upcoming',
+    // Future cards show their own generated loss pool. Only the live card's
+    // label opens the detail dialog because that dialog describes the live pool.
     supportHelp:null,
   }));
   const aeColumn = (index) => (aeUpcomingCards[index]
@@ -1279,13 +1282,13 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
       <BannerBoardColumn heading={bannerPhaseHeading(board.current)}>
         {currentHeroes.length ? <BannerPhaseCard card={currentHeroes[0]} now={now} unitLink={unitLink} unitHref={unitHref} /> : null}
       </BannerBoardColumn>
-      <BannerBoardColumn heading={aeUpcoming.length ? 'Upcoming' : null}>
+      <BannerBoardColumn heading={aeUpcoming[0]?.label || (aeUpcoming.length ? 'Upcoming' : null)}>
         {aeColumn(0)}
       </BannerBoardColumn>
-      <BannerBoardColumn>
+      <BannerBoardColumn heading={aeUpcoming[1]?.label}>
         {aeColumn(1)}
       </BannerBoardColumn>
-      <BannerBoardColumn>
+      <BannerBoardColumn heading={aeUpcoming[2]?.label}>
         {aeColumn(2)}
       </BannerBoardColumn>
       {currentLossPool && (
@@ -4122,7 +4125,7 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
   const push = (column, heading, status) => {
     if (!column) return;
     // The hub lists headline units only.
-    const units = [...column.heroes, ...column.others]
+    const units = (cfg.key === 'ae' ? column.heroes : [...column.heroes, ...column.others])
       .filter((unit) => {
         // Matched on BOTH name and artwork: feeds spell alt versions two ways
         // ("Ukinami Yuzuha" vs "Yuzuha") so the artwork catches those, and a
@@ -4140,6 +4143,7 @@ function NyxBannerColumn({ cfg, onOpenMaterial, now }){
     else sections.push({ key:status + sections.length, heading, status, units, when });
   };
   push(board.current, bannerPhaseHeading(board.current) || 'Running now', 'live');
+  board.concurrent.forEach((column) => push(column, bannerPhaseHeading(column) || 'Running now', 'live'));
   push(board.next, bannerPhaseHeading(board.next) || 'Up next', 'next');
   board.later.forEach((column, index) => {
     push(column, (index === 0 ? bannerNextPhaseHeading(column, board.next) : bannerPhaseHeading(column)) || 'Later', 'upcoming');

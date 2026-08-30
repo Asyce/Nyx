@@ -1,19 +1,19 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-16T05:52:35.050Z",
+  "generatedAt": "2026-08-30T10:44:31.770Z",
   "summary": {
     "characters": {
       "added": 0,
       "removed": 0,
       "changed": 0,
-      "unchanged": 31
+      "unchanged": 33
     },
     "weapons": {
       "added": 0,
       "removed": 0,
-      "changed": 0,
-      "unchanged": 74
+      "changed": 1,
+      "unchanged": 73
     },
     "items": {
       "added": 0,
@@ -27,17 +27,24 @@
       "added": [],
       "removed": [],
       "changed": [],
-      "unchanged": 31,
+      "unchanged": 33,
       "totals": {
-        "previous": 31,
-        "current": 31
+        "previous": 33,
+        "current": 33
       }
     },
     "weapons": {
       "added": [],
       "removed": [],
-      "changed": [],
-      "unchanged": 74,
+      "changed": [
+        {
+          "id": "Farsight",
+          "name": "Farsight",
+          "previousHash": "fbaaa4bc52b3d4a83394c4a8fc1ddf9aa68cc83cad6c03c7ad610aaa0bfc3d1a",
+          "currentHash": "31e2b1a002f9e212ce9f8fe45cd82c2f33999a150e1e85c6bd852e97e01abcbf"
+        }
+      ],
+      "unchanged": 73,
       "totals": {
         "previous": 74,
         "current": 74

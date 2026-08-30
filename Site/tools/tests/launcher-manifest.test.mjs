@@ -502,7 +502,7 @@ test('upcoming phases with unresolved icons are omitted instead of leaking broke
 test('recent Game8 future windows publish automatically in deterministic non-overlapping phases', () => {
   const raw = { games: [{
     id: 'hsr',
-    freshness: { status: 'fresh', source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
+    freshness: { status: 'fresh', source: 'game8+prydwen', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' },
     next: phase('2026-07-18T00:00:00Z', '2026-08-08T00:00:00Z', [{ name: 'Summeretto' }]),
     upcoming: [
       phase('2026-07-18T00:00:00Z', '2026-08-08T00:00:00Z', [{ name: 'Summeretto' }]),
@@ -534,6 +534,7 @@ test('stale, non-Game8, and malformed future windows stay out of the launcher fe
   const rejected = [
     candidate({ freshness: { status: 'stale', source: 'game8', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' } }),
     candidate({ freshness: { status: 'fresh', source: 'other', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' } }),
+    candidate({ freshness: { status: 'fresh', source: 'prydwen', lastSuccessfulFetch: '2026-07-17T00:00:00.000Z' } }),
     candidate({ freshness: { status: 'fresh', source: 'game8', lastSuccessfulFetch: '2026-07-01T00:00:00.000Z' } }),
     candidate({ next: phase('2026-07-18T00:00:00Z', '2026-09-01T00:00:00Z', [{ name: 'Too Long' }]) }),
     candidate({ next: phase('2026-08-08T00:00:00Z', '2026-07-18T00:00:00Z', [{ name: 'Backwards' }]) }),
@@ -940,6 +941,21 @@ test('production source rolls Genshin from Sandrone to Columbina at the trusted 
   assert.equal(manifest.games.gi.current.selectedCharacter.name, 'Columbina');
   assert.ok(manifest.games.gi.current.characters.every((character) => character.name !== 'Sandrone'));
   assert.deepEqual(manifest.games.gi.upcoming[0].characters.map((character) => character.name), ['Flins', 'Ineffa']);
+});
+
+test('production Endfield launcher keeps overlapping trusted future banners', () => {
+  const now = Date.parse('2026-08-30T12:00:00.000Z');
+  const manifest = buildManifest({
+    ...loadManifestInputs({ now }),
+    now,
+    generatedAt: '2026-08-30T12:00:00.000Z',
+  });
+  const scheduled = manifest.games.ae.upcoming.filter((phase) => phase.announced !== true);
+  assert.deepEqual(scheduled.slice(0, 2).map((phase) => phase.characters.map((character) => character.name)), [
+    ['Typhoeus', 'Liino', 'Arcane'],
+    ['Yvonne'],
+  ]);
+  assert.ok(scheduled.slice(0, 2).flatMap((phase) => phase.characters).every((character) => character.icon));
 });
 
 test('current Pengo scrape projects headline characters with short names and known patch labels', async () => {

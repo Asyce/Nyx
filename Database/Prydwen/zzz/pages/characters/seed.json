@@ -11,8 +11,8 @@
   "sourcePath": "/zenless/characters/seed",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "updatedText": "29/July/2026",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "19/August/2026",
   "meta": {
     "title": "Seed Best Build Guide | Zenless Zone Zero",
     "description": ""
@@ -515,12 +515,32 @@
       "height": 60
     },
     {
+      "id": "1cdf4d671727",
+      "sourceHash": "1cdf4d671727",
+      "kind": "characters",
+      "name": "Sunna",
+      "fileStem": "sunna",
+      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "e8a1e5a4346f",
       "sourceHash": "e8a1e5a4346f",
       "kind": "characters",
       "name": "Zhao",
       "fileStem": "zhao",
       "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b1058e3ac1d7",
+      "sourceHash": "b1058e3ac1d7",
+      "kind": "characters",
+      "name": "Norma",
+      "fileStem": "norma",
+      "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
       "width": 60,
       "height": 60
     },
@@ -535,32 +555,12 @@
       "height": 60
     },
     {
-      "id": "1cdf4d671727",
-      "sourceHash": "1cdf4d671727",
-      "kind": "characters",
-      "name": "Sunna",
-      "fileStem": "sunna",
-      "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "f848a605f8bc",
       "sourceHash": "f848a605f8bc",
       "kind": "characters",
       "name": "Rina",
       "fileStem": "rina",
       "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "c46964eb00d4",
-      "sourceHash": "c46964eb00d4",
-      "kind": "characters",
-      "name": "Harumasa",
-      "fileStem": "harumasa",
-      "path": "Prydwen/zzz/assets/characters/harumasa-c46964eb00d4.webp",
       "width": 60,
       "height": 60
     }
@@ -570,7 +570,7 @@
       "id": "seed-best-build-guide-0",
       "level": 1,
       "heading": "Seed Best Build Guide",
-      "text": "Last updated: 29/July/2026",
+      "text": "Last updated: 19/August/2026",
       "assets": [
         {
           "id": "77ec54cdcb4f",
@@ -633,7 +633,7 @@
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Patch 2.4\n\n Last build update\n Patch 2.2\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "text": "Last review update\n Patch 2.4\n\n Last build update\n Patch 2.2\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
       "assets": []
     },
     {
@@ -974,7 +974,7 @@
       "id": "team-buffed-calculations-30",
       "level": 5,
       "heading": "Team Buffed calculations",
-      "text": "The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Anby: Soldier 0 + Severed Innocence\n Astra Yao + Kaboom the Cannon\n 100.00%\n 100.00%\n\n Cordis Germina (S 1 )\n\n Seed’s Signature W-Engine is of course her best choice. Focused on buffing CRIT Rate by massive amounts, as well as providing increased Electric DMG and providing 20% Ignore DEF on Basic Attacks and Ultimates when reaching max Electric DMG buffs, this makes it the best option she has bar none.\n Usage: 75.93 %\n Shiyu Defense: 31303\n Deadly Assault: 31747\n\n 87.04%\n 87.54%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn’s Signature W-Engine has always been one of the top generalist contenders for Attack Agents, and Seed is no exception. Thanks to its general CRIT Rate and CRIT DMG increases, it works well as a CRIT stat-stick for her.\n Usage: 2.31 %\n Shiyu Defense: 33357\n Deadly Assault: 30933\n\n 85.97%\n 86.30%\n\n Myriad Eclipse (S 1 )\n\n On Seed, Hugo’s W-Engine is essentially Evelyn’s Signature W-Engine with 5% less CRIT DMG, making it nearly similar but slightly worse.\n 80.81%\n 81.63%\n\n Zanshin Herb Case (S 1 )\n\n Similarly to the above options, this W-Engine provides lots of CRIT Rate and CRIT DMG making it a strong choice.A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n Usage: 0.75 %\n Shiyu Defense: 0\n Deadly Assault: 27584\n\n 80.79%\n 81.60%\n\n Riot Suppressor Mark VI (S 1 )\n\n CRIT Rate and CRIT DMG stat-stick for Seed who’s unable to exploit this W-Engine’s Ether DMG-increasing buffs.\n 76.58%\n 81.43%\n\n The Brimstone (S 1 )\n\n A strong accessible option thanks to its massive ATK buffs which while not easy to keep fully active all the time has solid uptime on Seed thanks to her primarily being focused on Basic Attack damage. Becomes significantly worse when played alongside Astra Yao due to an oversaturation of ATK buffs.\n Usage: 4.98 %\n Shiyu Defense: 29513\n Deadly Assault: 25857\n\n 75.94%\n 76.27%\n\n Marcato Desire (S 5 )\n\n This W-Engine provides easily stacked CRIT Rate and ATK increases which makes it the strongest A-rank option. Unfortunately falls behind S-rank choices due to its lack of base ATK, but still very much usable in any case.\n Usage: 7.45 %\n Shiyu Defense: 28118\n Deadly Assault: 25895",
+      "text": "The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Anby: Soldier 0 + Severed Innocence\n Astra Yao + Kaboom the Cannon\n 100.00%\n 100.00%\n\n Cordis Germina (S 1 )\n\n Seed’s Signature W-Engine is of course her best choice. Focused on buffing CRIT Rate by massive amounts, as well as providing increased Electric DMG and providing 20% Ignore DEF on Basic Attacks and Ultimates when reaching max Electric DMG buffs, this makes it the best option she has bar none.\n Usage: 77.69 %\n Shiyu Defense: 31457\n Deadly Assault: 25503\n\n 87.04%\n 87.54%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn’s Signature W-Engine has always been one of the top generalist contenders for Attack Agents, and Seed is no exception. Thanks to its general CRIT Rate and CRIT DMG increases, it works well as a CRIT stat-stick for her.\n Usage: 2.22 %\n Shiyu Defense: 31969\n Deadly Assault: 24842\n\n 85.97%\n 86.30%\n\n Myriad Eclipse (S 1 )\n\n On Seed, Hugo’s W-Engine is essentially Evelyn’s Signature W-Engine with 5% less CRIT DMG, making it nearly similar but slightly worse.\n Usage: 1.2 %\n Shiyu Defense: 28991\n Deadly Assault: 24928\n\n 80.81%\n 81.63%\n\n Zanshin Herb Case (S 1 )\n\n Similarly to the above options, this W-Engine provides lots of CRIT Rate and CRIT DMG making it a strong choice.A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n Usage: 0.6 %\n Shiyu Defense: 29975\n Deadly Assault: 0\n\n 80.79%\n 81.60%\n\n Riot Suppressor Mark VI (S 1 )\n\n CRIT Rate and CRIT DMG stat-stick for Seed who’s unable to exploit this W-Engine’s Ether DMG-increasing buffs.\n 76.58%\n 81.43%\n\n The Brimstone (S 1 )\n\n A strong accessible option thanks to its massive ATK buffs which while not easy to keep fully active all the time has solid uptime on Seed thanks to her primarily being focused on Basic Attack damage. Becomes significantly worse when played alongside Astra Yao due to an oversaturation of ATK buffs.\n Usage: 5.08 %\n Shiyu Defense: 27911\n Deadly Assault: 21743\n\n 75.94%\n 76.27%\n\n Marcato Desire (S 5 )\n\n This W-Engine provides easily stacked CRIT Rate and ATK increases which makes it the strongest A-rank option. Unfortunately falls behind S-rank choices due to its lack of base ATK, but still very much usable in any case.\n Usage: 6.11 %\n Shiyu Defense: 27826\n Deadly Assault: 24596",
       "assets": [
         {
           "id": "04d0ef59478b",
@@ -1337,7 +1337,125 @@
       "id": "teams-shiyu-defense-37",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Seed in the current phase of Shiyu Defense.\n Rank 46\n App. rate: 0.81 %\n Avg. time: 32229\n\n Rank 66\n App. rate: 0.41 %\n Avg. time: 31457\n\n Rank 104\n App. rate: 0.2 %\n Avg. time: 29224\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 28409\n\n Rank 175\n App. rate: 0.08 %\n Avg. time: 27522\n\n Rank 193\n App. rate: 0.06 %\n Avg. time: 32097\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 31954\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 27712\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 31794\n\n Rank 279\n App. rate: 0.03 %\n Avg. time: 28260",
+      "text": "This section lists most popular teams featuring Seed in the current phase of Shiyu Defense.\n Rank 12\n App. rate: 4.79 %\n Avg. Score: 31935\n\n Rank 17\n App. rate: 2.25 %\n Avg. Score: 31998\n\n Rank 26\n App. rate: 1.18 %\n Avg. Score: 28012\n\n Rank 29\n App. rate: 1.01 %\n Avg. Score: 28696\n\n Rank 48\n App. rate: 0.63 %\n Avg. Score: 28711\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 34001\n\n Rank 61\n App. rate: 0.42 %\n Avg. Score: 28315\n\n Rank 65\n App. rate: 0.38 %\n Avg. Score: 29856\n\n Rank 70\n App. rate: 0.34 %\n Avg. Score: 26450\n\n Rank 82\n App. rate: 0.27 %\n Avg. Score: 31512",
+      "assets": [
+        {
+          "id": "9746a8e7a1a4",
+          "sourceHash": "9746a8e7a1a4",
+          "kind": "characters",
+          "name": "Cissia",
+          "fileStem": "cissia",
+          "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c7af821101a1",
+          "sourceHash": "c7af821101a1",
+          "kind": "characters",
+          "name": "Seed",
+          "fileStem": "seed",
+          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "cacf856bd725",
+          "sourceHash": "cacf856bd725",
+          "kind": "characters",
+          "name": "Orphie & Magus",
+          "fileStem": "orphie-and-magus",
+          "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "04d0ef59478b",
+          "sourceHash": "04d0ef59478b",
+          "kind": "characters",
+          "name": "Anby: Soldier 0",
+          "fileStem": "anby-demara-soldier-0",
+          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1cdf4d671727",
+          "sourceHash": "1cdf4d671727",
+          "kind": "characters",
+          "name": "Sunna",
+          "fileStem": "sunna",
+          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5887e20e4502",
+          "sourceHash": "5887e20e4502",
+          "kind": "characters",
+          "name": "Ye Shunguang",
+          "fileStem": "ye-shunguang",
+          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e8a1e5a4346f",
+          "sourceHash": "e8a1e5a4346f",
+          "kind": "characters",
+          "name": "Zhao",
+          "fileStem": "zhao",
+          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "6dcc7426ba11",
+          "sourceHash": "6dcc7426ba11",
+          "kind": "characters",
+          "name": "Evelyn",
+          "fileStem": "evelyn",
+          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b1058e3ac1d7",
+          "sourceHash": "b1058e3ac1d7",
+          "kind": "characters",
+          "name": "Norma",
+          "fileStem": "norma",
+          "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-38",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Seed in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.4 %\n Avg. Score: 27307\n\n Rank 61\n App. rate: 0.33 %\n Avg. Score: 28682\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 22047\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 23874\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 28414\n\n Rank 189\n App. rate: 0.05 %\n Avg. Score: 22039\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 24130\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 25655",
       "assets": [
         {
           "id": "9746a8e7a1a4",
@@ -1406,16 +1524,6 @@
           "name": "Orphie & Magus",
           "fileStem": "orphie-and-magus",
           "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "6dcc7426ba11",
-          "sourceHash": "6dcc7426ba11",
-          "kind": "characters",
-          "name": "Evelyn",
-          "fileStem": "evelyn",
-          "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
           "width": 60,
           "height": 60
         },
@@ -1440,130 +1548,12 @@
           "height": 60
         },
         {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-38",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Seed in the current phase of Deadly Assault.\n Rank 14\n App. rate: 4.05 %\n Avg. score: 32618\n\n Rank 27\n App. rate: 1.68 %\n Avg. score: 32357\n\n Rank 35\n App. rate: 0.89 %\n Avg. score: 23400\n\n Rank 38\n App. rate: 0.76 %\n Avg. score: 27225\n\n Rank 61\n App. rate: 0.39 %\n Avg. score: 22685\n\n Rank 74\n App. rate: 0.29 %\n Avg. score: 34100\n\n Rank 104\n App. rate: 0.14 %\n Avg. score: 25263\n\n Rank 106\n App. rate: 0.13 %\n Avg. score: 25940\n\n Rank 110\n App. rate: 0.12 %\n Avg. score: 30637\n\n Rank 118\n App. rate: 0.11 %\n Avg. score: 22998",
-      "assets": [
-        {
-          "id": "9746a8e7a1a4",
-          "sourceHash": "9746a8e7a1a4",
-          "kind": "characters",
-          "name": "Cissia",
-          "fileStem": "cissia",
-          "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "c7af821101a1",
-          "sourceHash": "c7af821101a1",
-          "kind": "characters",
-          "name": "Seed",
-          "fileStem": "seed",
-          "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "2fd489d454a4",
-          "sourceHash": "2fd489d454a4",
-          "kind": "characters",
-          "name": "Trigger",
-          "fileStem": "trigger",
-          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "04d0ef59478b",
-          "sourceHash": "04d0ef59478b",
-          "kind": "characters",
-          "name": "Anby: Soldier 0",
-          "fileStem": "anby-demara-soldier-0",
-          "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "cacf856bd725",
-          "sourceHash": "cacf856bd725",
-          "kind": "characters",
-          "name": "Orphie & Magus",
-          "fileStem": "orphie-and-magus",
-          "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "1cdf4d671727",
-          "sourceHash": "1cdf4d671727",
-          "kind": "characters",
-          "name": "Sunna",
-          "fileStem": "sunna",
-          "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5887e20e4502",
-          "sourceHash": "5887e20e4502",
-          "kind": "characters",
-          "name": "Ye Shunguang",
-          "fileStem": "ye-shunguang",
-          "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "e8a1e5a4346f",
-          "sourceHash": "e8a1e5a4346f",
-          "kind": "characters",
-          "name": "Zhao",
-          "fileStem": "zhao",
-          "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "f848a605f8bc",
           "sourceHash": "f848a605f8bc",
           "kind": "characters",
           "name": "Rina",
           "fileStem": "rina",
           "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "c46964eb00d4",
-          "sourceHash": "c46964eb00d4",
-          "kind": "characters",
-          "name": "Harumasa",
-          "fileStem": "harumasa",
-          "path": "Prydwen/zzz/assets/characters/harumasa-c46964eb00d4.webp",
           "width": 60,
           "height": 60
         }
@@ -1859,7 +1849,123 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Seed in the current phase of Shiyu Defense.\n Rank 46\n App. rate: 0.81 %\n Avg. time: 32229\n\n Rank 66\n App. rate: 0.41 %\n Avg. time: 31457\n\n Rank 104\n App. rate: 0.2 %\n Avg. time: 29224\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 28409\n\n Rank 175\n App. rate: 0.08 %\n Avg. time: 27522\n\n Rank 193\n App. rate: 0.06 %\n Avg. time: 32097\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 31954\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 27712\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 31794\n\n Rank 279\n App. rate: 0.03 %\n Avg. time: 28260",
+          "text": "This section lists most popular teams featuring Seed in the current phase of Shiyu Defense.\n Rank 12\n App. rate: 4.79 %\n Avg. Score: 31935\n\n Rank 17\n App. rate: 2.25 %\n Avg. Score: 31998\n\n Rank 26\n App. rate: 1.18 %\n Avg. Score: 28012\n\n Rank 29\n App. rate: 1.01 %\n Avg. Score: 28696\n\n Rank 48\n App. rate: 0.63 %\n Avg. Score: 28711\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 34001\n\n Rank 61\n App. rate: 0.42 %\n Avg. Score: 28315\n\n Rank 65\n App. rate: 0.38 %\n Avg. Score: 29856\n\n Rank 70\n App. rate: 0.34 %\n Avg. Score: 26450\n\n Rank 82\n App. rate: 0.27 %\n Avg. Score: 31512",
+          "assets": [
+            {
+              "id": "9746a8e7a1a4",
+              "sourceHash": "9746a8e7a1a4",
+              "kind": "characters",
+              "name": "Cissia",
+              "fileStem": "cissia",
+              "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c7af821101a1",
+              "sourceHash": "c7af821101a1",
+              "kind": "characters",
+              "name": "Seed",
+              "fileStem": "seed",
+              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "cacf856bd725",
+              "sourceHash": "cacf856bd725",
+              "kind": "characters",
+              "name": "Orphie & Magus",
+              "fileStem": "orphie-and-magus",
+              "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "04d0ef59478b",
+              "sourceHash": "04d0ef59478b",
+              "kind": "characters",
+              "name": "Anby: Soldier 0",
+              "fileStem": "anby-demara-soldier-0",
+              "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1cdf4d671727",
+              "sourceHash": "1cdf4d671727",
+              "kind": "characters",
+              "name": "Sunna",
+              "fileStem": "sunna",
+              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5887e20e4502",
+              "sourceHash": "5887e20e4502",
+              "kind": "characters",
+              "name": "Ye Shunguang",
+              "fileStem": "ye-shunguang",
+              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e8a1e5a4346f",
+              "sourceHash": "e8a1e5a4346f",
+              "kind": "characters",
+              "name": "Zhao",
+              "fileStem": "zhao",
+              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "6dcc7426ba11",
+              "sourceHash": "6dcc7426ba11",
+              "kind": "characters",
+              "name": "Evelyn",
+              "fileStem": "evelyn",
+              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "b1058e3ac1d7",
+              "sourceHash": "b1058e3ac1d7",
+              "kind": "characters",
+              "name": "Norma",
+              "fileStem": "norma",
+              "path": "Prydwen/zzz/assets/characters/norma-b1058e3ac1d7.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Seed in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.4 %\n Avg. Score: 27307\n\n Rank 61\n App. rate: 0.33 %\n Avg. Score: 28682\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 22047\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 23874\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 28414\n\n Rank 189\n App. rate: 0.05 %\n Avg. Score: 22039\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 24130\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 25655",
           "assets": [
             {
               "id": "9746a8e7a1a4",
@@ -1928,16 +2034,6 @@
               "name": "Orphie & Magus",
               "fileStem": "orphie-and-magus",
               "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "6dcc7426ba11",
-              "sourceHash": "6dcc7426ba11",
-              "kind": "characters",
-              "name": "Evelyn",
-              "fileStem": "evelyn",
-              "path": "Prydwen/zzz/assets/characters/evelyn-6dcc7426ba11.webp",
               "width": 60,
               "height": 60
             },
@@ -1962,128 +2058,12 @@
               "height": 60
             },
             {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Seed in the current phase of Deadly Assault.\n Rank 14\n App. rate: 4.05 %\n Avg. score: 32618\n\n Rank 27\n App. rate: 1.68 %\n Avg. score: 32357\n\n Rank 35\n App. rate: 0.89 %\n Avg. score: 23400\n\n Rank 38\n App. rate: 0.76 %\n Avg. score: 27225\n\n Rank 61\n App. rate: 0.39 %\n Avg. score: 22685\n\n Rank 74\n App. rate: 0.29 %\n Avg. score: 34100\n\n Rank 104\n App. rate: 0.14 %\n Avg. score: 25263\n\n Rank 106\n App. rate: 0.13 %\n Avg. score: 25940\n\n Rank 110\n App. rate: 0.12 %\n Avg. score: 30637\n\n Rank 118\n App. rate: 0.11 %\n Avg. score: 22998",
-          "assets": [
-            {
-              "id": "9746a8e7a1a4",
-              "sourceHash": "9746a8e7a1a4",
-              "kind": "characters",
-              "name": "Cissia",
-              "fileStem": "cissia",
-              "path": "Prydwen/zzz/assets/characters/cissia-9746a8e7a1a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "c7af821101a1",
-              "sourceHash": "c7af821101a1",
-              "kind": "characters",
-              "name": "Seed",
-              "fileStem": "seed",
-              "path": "Prydwen/zzz/assets/characters/seed-c7af821101a1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "2fd489d454a4",
-              "sourceHash": "2fd489d454a4",
-              "kind": "characters",
-              "name": "Trigger",
-              "fileStem": "trigger",
-              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "04d0ef59478b",
-              "sourceHash": "04d0ef59478b",
-              "kind": "characters",
-              "name": "Anby: Soldier 0",
-              "fileStem": "anby-demara-soldier-0",
-              "path": "Prydwen/zzz/assets/characters/anby-soldier-0-04d0ef59478b.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "cacf856bd725",
-              "sourceHash": "cacf856bd725",
-              "kind": "characters",
-              "name": "Orphie & Magus",
-              "fileStem": "orphie-and-magus",
-              "path": "Prydwen/zzz/assets/characters/orphie-magus-cacf856bd725.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "1cdf4d671727",
-              "sourceHash": "1cdf4d671727",
-              "kind": "characters",
-              "name": "Sunna",
-              "fileStem": "sunna",
-              "path": "Prydwen/zzz/assets/characters/sunna-1cdf4d671727.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5887e20e4502",
-              "sourceHash": "5887e20e4502",
-              "kind": "characters",
-              "name": "Ye Shunguang",
-              "fileStem": "ye-shunguang",
-              "path": "Prydwen/zzz/assets/characters/ye-shunguang-5887e20e4502.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "e8a1e5a4346f",
-              "sourceHash": "e8a1e5a4346f",
-              "kind": "characters",
-              "name": "Zhao",
-              "fileStem": "zhao",
-              "path": "Prydwen/zzz/assets/characters/zhao-e8a1e5a4346f.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "f848a605f8bc",
               "sourceHash": "f848a605f8bc",
               "kind": "characters",
               "name": "Rina",
               "fileStem": "rina",
               "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "c46964eb00d4",
-              "sourceHash": "c46964eb00d4",
-              "kind": "characters",
-              "name": "Harumasa",
-              "fileStem": "harumasa",
-              "path": "Prydwen/zzz/assets/characters/harumasa-c46964eb00d4.webp",
               "width": 60,
               "height": 60
             }
@@ -2093,5 +2073,5 @@
     }
   },
   "tables": [],
-  "text": "Seed Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Seed\n Seed Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Seed from ZZZ (Zenless Zone Zero). Seed is an rank character with the Electric attribute who belongs to the Attack Specialty and who is part of the OBOLS Squad faction.\n\n To learn more about Seed check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Seed has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last build update\n Patch 2.2\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Seed check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Flower Chain Protocol\n\n Lv. 1\n\n The Attack teammate with the highest initial ATK is considered Seed's Vanguard.\n\nWhen the Vanguard unleashes an EX Special Attack, Seed gains Onslaught status, increasing Seed's ATK by 100 and CRIT DMG by 15% . When Seed unleashes an EX Special Attack, the Vanguard gains Direct Strike status, increasing the Vanguard's ATK by 100 and CRIT DMG by 15% .\n\nWhen Direct Strike and Onslaught are both active, Seed and the Vanguard simultaneously gain Besiege status, increasing DMG dealt by 12.5% .\n\nOnslaught, Direct Strike, and Besiege buffs can all take effect when the character is the current active character. When switching to inactive, the buffs remain until the character goes off-field or 3s after the switch. When the character returns to being the active character, the buffs re-activate.\n\nUpon entering the battlefield with a Vanguard, Seed immediately gains Onslaught status and Besiege status, while the Vanguard immediately gains Direct Strike status and Besiege status.\n\nDirect Strike and Onslaught status last for 40s , and repeated triggers refresh the duration.\n\nWhen the Vanguard consumes Energy as the active character or when Seed consumes Energy, for every 1 point of Energy consumed, Seed recovers 0.5 points of Steel Charge.\n\n CRIT DMG 0\n BASE ATK : 0\n\n Additional Ability Surprise Strike\n\n When another Attack Character is in your squad:\n When Seed deals DMG as the active character, restore 2 Energy to the Vanguard. This effect can trigger once every 1s .\nSeed's Basic Attack: Falling Petals - Slaughter, Basic Attack: Falling Petals - Downfall, and Ultimate: Clockwork Garden - Bloom! deal 30% increased DMG and ignore 25% of enemy Electric RES .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Chrysanthemum Wheel Dance\n\n Press to activate:\nPerform up to 4 attacks forward, dealing Physical DMG for the first two hits and Electric DMG for the third and fourth hits.\nWhen attacked between the retreat of the 3rd hit to before the 4th hit, triggers an automatic dodge.\n Multipliers\n\n Basic Attack: Falling Petals - Slaughter\n\n After the 4th hit of a Basic Attack, Dodge Counter, Quick Assist, or Assist Follow-Up, hold or press to activate:\nSummon the mech to perform a charged punch attack, dealing massive Electric DMG.\nWhen Steel Charge reaches 120, gain one chance to quickly activate Basic Attack: Falling Petals - Slaughter by holding . This effect expires when Steel Charge is less than 120 or after using the method above to activate Basic Attack: Falling Petals - Slaughter once.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Falling Petals - Downfall\n\n Seed has Steel Charge, which she can accumulate by hitting enemies with her skills.\nSteel Charge has a maximum value of 150, and an initial value of 60. Upon reaching 120 Steel Charge and triggering Basic Attack: Falling Petals - Slaughter or Ultimate: Clockwork Garden - Bloom!, press or hold to consume 60 Steel Charge and unleash Basic Attack: Falling Petals - Downfall First Form, then automatically consume 60 Steel Charge to follow up with Basic Attack: Falling Petals - Downfall Second Form.\nPilots the mech to fire sweeping shots and perform a jumping smash, dealing massive Electric DMG.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Running on Petals\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Magnetic Wheel Dance\n\n Press during a dodge to activate:\nThrow steel wheels forward, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Blossom Burst\n\n Press during a Perfect Dodge to activate.\nUnleash a barrage of lasers at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Withered in Frost\n\n Press to activate.\nThrow a steel wheel that traces a curved path, dealing Electric DMG.\n Multipliers\n\n EX Special Attack: Raining Iron Petals\n\n With enough Energy, press to activate.\nEnter flight mode, where Seed can move in four directions, and unleash a continuous barrage of missiles, dealing massive Electric DMG.\nHold to extend the barrage duration while continuously consuming Energy.\nDuring flight, release to trigger EX Special Attack: Raining Iron Petals - Away.\nUpon consuming 60 Energy points in one flight, automatically trigger Basic Attack: Falling Petals - Slaughter.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Raining Iron Petals - Away\n\n During EX Special Attack: Raining Iron Petals, release to activate:\nUnleash rapid cannon fire, dealing Electric DMG\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Tempest of Frosty Petals\n\n When a Chain Attack is triggered, select the character to activate:\nSummons her mech for protection, then launches cannon shots and a barrage of missiles, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Clockwork Garden - Bloom!\n\n When Decibel Rating is at Maximum, press to activate.\nSeed will pilot the mech personally, raining down missiles and a meteor shower of rockets, then performing a jumping smash, dealing massive Electric DMG.\nAfter using this skill, accumulate 60 Steel Charge.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Crimson Core Burst\n\n Press after a Defensive Assist to activate:\nUnleash continuous floating turret attacks at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Sprouting Barrier\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Barrage of Raining Flowers\n\n When the active character is launched, press to activate.\nUnleash a barrage of lasers at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Hibernation Period\n Mindscape 1\n\n When Seed's Steel Charge reaches 100 , Basic Attack: Falling Petals - Downfall can be triggered, and the total Steel Charge consumed is reduced to 100 . Gain an additional 40/20 Steel Charge when entering the battlefield/using Ultimate. Increases Basic Attack: Falling Petals - Downfall CRIT DMG by 30% .\n\n M2\n Light Absorption Technique\n Mindscape 2\n\n When Besiege is active for an Agent, that Agent's DMG ignores 20% of DEF. When activating EX Special Attack: Raining Iron Petals, after consuming a total of 60 Energy, Seed can continue consuming Energy to extend the duration of the skill until the button is released or a total of 120 Energy is consumed. For every 5 Energy consumed by EX Special Attack: Raining Iron Petals, the following Basic Attack: Falling Petals - Slaughter's DMG increases by 5% .\n\n M3\n A Story of Sprouting\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Fragrant Tune\n Mindscape 4\n\n When Seed's Besiege status buff is active, her Decibel Generation Rate increases by 10% , and Ultimate DMG increases by 20% .\n\n M5\n Time to Bloom\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Theory of the Heart\n Mindscape 6\n\n Seed's CRIT DMG increases by 50% . When using Basic Attack: Falling Petals - Slaughter, fires 3 additional laser beams, each dealing 165% of ATK as DMG. This effect can trigger once every 3s .\n\n Stats (Level 60)\n Seed Stats at level 60 (including Core passive bonuses).\n\n HP\n 7673\n\n DEF\n 612\n\n ATK\n 929\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 78.8 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Plenty of invincibility frames and free dodge mechanics - difficult to get interrupted during combos.\n\n Introduces a new team archetype of Dual Attack-Class DPS.\n\n Makes niche characters more usable than ever before (e.g Nekomata & Billy), granting her many potential team partners.\n\n Kit contains elements of the Support and DPS, granting her a unique position among the Attack Class.\n\n Cons\n Lacking a true dedicated partner at the time of her release - she must take other Attack Agents from their best teams to form her own.\n\n Combos aren't mechanically difficult, but require proper resource management to be effective\n\n Must be run alongside another Attack Agent.\n\n Review\n Seed is an S-Rank Electric Attack Agent who fills a new niche in the Zenless Zone Zero meta as a DPS dedicated to fighting alongside other Attack Agents in dual DPS team compositions. While this playstyle already existed before her release, Seed elevates it to the next level and makes it properly meta-worthy thanks to her exceptional buff-sharing capabilities.\n Core Passive & Key Mechanics\n The main part of Seed’s kit lies in a couple of mechanics contained within her Core Passive, alongside her unique resource called Steel Charge.\n Let’s discuss her Core Passive first. At the start of the battle, if another Attack Agent is present within the squad, it is designated as Seed’s partner, called Vanguard. For simplicity purposes, we will refer to this Vanguard as her partner.\n Essentially active all throughout battle provided the player isn’t idle, Seed and her partner will always give each other 1000 ATK, 30% CRIT DMG as well as 25% DMG dealt. This is because the buffs last plenty of time and are easily refreshed. This significantly boosts the damage potential of the affected party members, particularly CRIT hits, however be aware that these buffs only apply if the concerned Agent is actively on-field (there is a grace period on the buff for characters that remain on the field after switching out of 3 seconds - this is helpful when employing things like swap cancels).\n Via her Additional Ability, Seed restores 2 Energy to her partner every second when actively dealing damage. Her ultimate and charged punch Basic Attack also deal 30% increased DMG and ignore 25% Electric RES.\n Lastly, when Seed’s partner actively consumes 1 Energy or when Seed consumes Energy, Seed recovers 0.5 Steel Charge. This is a perfect segway to discuss what Steel Charge is.\n Steel Charge is Seed’s unique resource; this represents the bar below her screen. It has a maximum of 150 points and is recharged by doing almost any attack in her kit, and she can consume 120 of it by executing her charged punch Basic Attack, then pressing Basic Attack again, which will initiate a sequence of 2 strong mecha attacks that deal the majority of Seed’s damage to enemies. This attack can and should be swapped out of, as it allows Seed to deal damage while the on-field character can input actions of their own.\n The actions that restore the most Steel Charge include (but aren’t limited to): Seed’s Basic Attack 4, her EX Special, her Ultimate, her Chain Attack and her Assist Follow-Up.\n Basic Attack & Dodge\n Seed has a 4-part Basic Attack, the first 2 attacks dealing Physical DMG and the last 2 dealing Electric DMG. The 3rd Basic Attack can also trigger a dodge automatically while Seed is retreating. In particular, the 4th Basic Attack is one of Seed’s primary ways to regenerate Steel Charge and will allow her to perform her charged punch Basic Attack, which she can then follow up with her Steel Charge-consuming attacks if she is at 120 Steel Charge or higher.\n Her Dodge works like you’d expect it to: the Dash Attack is nothing special and shouldn’t be used, while the Dodge Counter deals a big chunk of Electric DMG and Daze to enemies, which is easily activated by her Basic 3 automatic dodge mechanic, or simply dodging manually as well.\n Special & Ultimate\n Seed’s regular Special deals too little damage to be considered worth using in her rotations (aside from exceptions with certain W-Engines like Severed Innocence). However, her EX Special is much more interesting. Usable at a cost of 60 Energy, it allows Seed to enter Flight Mode, which allows Seed to unleash a constant barrage of missiles on enemies. This attack can and should be held down all the way in order to consume at least 60 Energy (different with Mindscape 2 unlocked), and deal the maximum amount of damage possible. It will automatically follow up with her charged punch Basic Attack when consuming at least 60 points of Energy, allowing for an easy segway into her Steel Charge-empowered attacks when at 120 Steel Charge or higher.\n On the other hand, her Ultimate has a very long animation, but it deals a ton of damage in that time which compensates for its extended duration. It makes Seed automatically regain 60 Steel Charge and once again allows her to segway into her Steel Charge-empowered attacks if it is possible. Remember not to waste the 60 Steel Charge regenerated by this ability!\n Assists\n Seed’s Assists work exactly like you’d expect them to, not doing anything that stands out in particular from most other Agents. It is nonetheless worth noting that her Assist Follow-Up regenerates a good chunk of Steel Charge, approximately equivalent to her Basic 4, which can be considered in some of her combos.\n Meta Position & Conclusion\n Seed is a simplistic Agent to pilot, while of course requiring good resource management, whose kit features a good chunk of invincibility frames and automatic dodges, which makes it more difficult for her to be hit by enemies. Additionally, she really provides massive buffs to the Attack Agent she is partnered with, and packs a punch in her own kit as well. This makes her a dedicated damage dealer and buffer all at once, particularly reinforcing her flexibility with any other Attack Agent, even shedding some light on previously niche Agents such as Nekomata, thanks to their ability to bounce off of each other’s EX Specials and Energy generation mechanics.\n Unfortunately for Seed however, the Agents she currently works best with are high-profile Attack Agents who deal a lot of damage. The issue with this is that they want to take up the overwhelming majority of on-field time, and Seed actively goes against this since she wants her own chunk of field time as well. While this is easily compensated for via her massive buffs enabling more niche Attack Agents to shine alongside her, and this downside is negated in heavy quickswap teams, she tends to take already potent DPS Agents out of their best teams and make them perform worse than their usual best option, or she takes Agents that are too niche to stand out as a top competitive option currently.\n Nonetheless, in conclusion we can safely say that Seed’s team flexibility is nothing to scoff at, and she is sure to satisfy players who prefer to play more niche Attack Agents such as Nekomata or Billy, as well as players who want a generalist alternative to any Attack Agent in the game currently (save for Hugo, who wants to function alongside 2 Stun Agents for extra Daze while retaining good self-buffs).\n In other words, Seed is a character whose only real complexity is proper resource management and exploitation of swap windows to reach maximum potential. Beyond this, her combos aren’t difficult to execute, she is invincible for quite a noticeable chunk of her rotation (particularly in quickswap), and she works alongside plenty of strong Attack Agents, enabling a lot of new team compositions, as well as making a unique playstyle stronger than it previously was.\n\n How to play\n Balancing Seed’s field time with that of her Vanguard can be quite difficult, with the amount of time spent on each varying between teams.\n For most Attack Agents, prioritising Seed tends to be the better option. Try to remain on her and get as many Basic Attacks and Dodge Counters as you can, with emphasis being placed on her regular Basic 4. This is the most efficient way of generating Steel Charge, and with proper management, it is possible to get multiple uses of her Basic Attack: Falling Petals - Downfall (at least 1, often 2) while still building back enough by the time enemies are about to be stunned.\n Use her EX Special every so often - and especially before Downfalls - as they will be needed to refresh her Dawn’s Bloom 4-piece effect in the out-of-stun period.\n While doing so, don’t forget to occasionally swap back to the Vanguard for an EX Special cast, both to help supplement Seed’s Steel Charge generation and so as to not drop the Onslaught and Besiege buffs. This buff ticks down even before a fight has begun, so keep a watchful eye on it.\n The Energy generation she provides to the Vanguard should make it easy to maintain, and given the long animations from Downfall, it’s the perfect opportunity to swap out.\n In some situations however, such as if run against Electric Resistant enemies or being used for her buffs (e.g. running with Evelyn vs Pompey), then Seed can sit in the back and be played as a quickswap Agent, coming in during the main damage dealer’s downtime to help supplement their Energy and to expend her own Energy on EX Specials to refresh Direct Strike and get enough Steel Charge for a Downfall cast here and there.\n Other highly demanding on-field damage dealers, like Soldier 0 - Anby, can also work well with this playstyle, where Seed instead can make use of her high damage multipliers for burst in stun as opposed to cycling through multiple Downfalls out of stun.\n On the topic of stun, Seed’s ideal combo needs 120 Steel Charge and her Ultimate, being:\n EX Special (Full Channel) before Stun begins, to refresh Dawn’s Bloom 4-piece and help build up to 120 Steel Charge\n\n Basic Attack: Falling Petals - Slaughter\n\n Basic Attack: Falling Petals - Downfall\n\n Swap to the Vanguard and use an EX Special (60 Energy)\n\n Stunner Chain Attack, to refresh King of the Summit\n\n Seed Chain Attack\n\n Cancel\n\n Ultimate\n\n Basic Attack: Falling Petals - Downfall\n\n Swap to the Vanguard and use their Ultimate and/or generic burst\n\n The above combo does not need Manual Chain, as the Cancel can be moved up to after Slaughter instead. If using Manual Chain, then it is also possible to do 2 Seed Chain Attacks, however its long animation means it is often not worth using over having more time to burst with the Vanguard.\n If no Ultimate is available, conserve Energy and do not do a full channel of her EX Special prior to stun, instead using it where the Ultimate would otherwise fit to generate enough Steel Charge for a second Downfall.\n Not all Vanguards are likely to have 60 Energy EX Specials, though. If this is the case, then either build up to 150 Steel Charge before the combo or swap to the Vanguard after Seed’s Chain Attack for another EX Special before swapping back to Seed for her Ultimate/EX.\n Note that although the combo specifies 120 Steel Charge, due to awkward Steel Charge breakpoints, this may not be enough. If Seed is at precisely 120 Steel Charge when the combo begins, a single Basic 1 may need to be woven into after the Chain Attack to make sure that there’s enough for a Downfall after Ultimate. This is also needed if running with Trigger, so as to refresh her debuffs.\n Although the above is a catch-all combo that should work for any team, there are plenty of optimisations that can be done depending on who Seed is running with. For example, with running with Evelyn and Astra, you can use Astra’s Ultimate into Seed’s Chain Attack shortly before Stun begins, then:\n Basic Attack: Falling Petals - Slaughter\n\n Basic Attack: Falling Petals - Downfall\n\n Evelyn Chain Attack (Astra Conversion)\n\n Astra Chain Attack\n\n Seed Chain Attack\n\n Evelyn Chain Attack\n\n Evelyn Points Chain Attack\n\n Quick Assist to Seed\n\n Seed Ultimate\n\n Basic Attack: Falling Petals - Downfall\n\n Swap to Evelyn\n\n Evelyn Ultimate\n\n Basic Attack: Garrote\n\n Each and every team will have their own “optimal” combo, which best integrates the Vanguard’s own combos with Seed’s Downfall and Ultimate use.\n All in all, Seed is not too complex. Either stay on field looping Basic Attack strings with frequent Downfall use and high-damaging combos, or take a backline supportive approach with the occasional EX Special and expend resources for in-stun bursts.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team Buffed calculations\n The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Anby: Soldier 0 + Severed Innocence\n Astra Yao + Kaboom the Cannon\n 100.00%\n 100.00%\n\n Cordis Germina (S 1 )\n\n Seed’s Signature W-Engine is of course her best choice. Focused on buffing CRIT Rate by massive amounts, as well as providing increased Electric DMG and providing 20% Ignore DEF on Basic Attacks and Ultimates when reaching max Electric DMG buffs, this makes it the best option she has bar none.\n Usage: 75.93 %\n Shiyu Defense: 31303\n Deadly Assault: 31747\n\n 87.04%\n 87.54%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn’s Signature W-Engine has always been one of the top generalist contenders for Attack Agents, and Seed is no exception. Thanks to its general CRIT Rate and CRIT DMG increases, it works well as a CRIT stat-stick for her.\n Usage: 2.31 %\n Shiyu Defense: 33357\n Deadly Assault: 30933\n\n 85.97%\n 86.30%\n\n Myriad Eclipse (S 1 )\n\n On Seed, Hugo’s W-Engine is essentially Evelyn’s Signature W-Engine with 5% less CRIT DMG, making it nearly similar but slightly worse.\n 80.81%\n 81.63%\n\n Zanshin Herb Case (S 1 )\n\n Similarly to the above options, this W-Engine provides lots of CRIT Rate and CRIT DMG making it a strong choice.A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n Usage: 0.75 %\n Shiyu Defense: 0\n Deadly Assault: 27584\n\n 80.79%\n 81.60%\n\n Riot Suppressor Mark VI (S 1 )\n\n CRIT Rate and CRIT DMG stat-stick for Seed who’s unable to exploit this W-Engine’s Ether DMG-increasing buffs.\n 76.58%\n 81.43%\n\n The Brimstone (S 1 )\n\n A strong accessible option thanks to its massive ATK buffs which while not easy to keep fully active all the time has solid uptime on Seed thanks to her primarily being focused on Basic Attack damage. Becomes significantly worse when played alongside Astra Yao due to an oversaturation of ATK buffs.\n Usage: 4.98 %\n Shiyu Defense: 29513\n Deadly Assault: 25857\n\n 75.94%\n 76.27%\n\n Marcato Desire (S 5 )\n\n This W-Engine provides easily stacked CRIT Rate and ATK increases which makes it the strongest A-rank option. Unfortunately falls behind S-rank choices due to its lack of base ATK, but still very much usable in any case.\n Usage: 7.45 %\n Shiyu Defense: 28118\n Deadly Assault: 25895\n\n Best Disk Drives Sets\n 100.00%\n\n Dawn's Bloom ( 4 -PC)\n\n Generally the best option for Seed, focused on increasing Basic Attack DMG which she deals an overwhelming majority of. Able to buff Basic Attack DMG up to 55% maintained easily, which makes it by default the best Disk Drive set for her.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Puffer Electro\n\n 2P\n Thunder Metal\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 96.80%\n\n Woodpecker Electro ( 4 -PC)\n\n Strong general set for on-field Attack Agents, displaying close performance to 4P Dawn’s Bloom on Seed. Provides 3 different stacks of 9% ATK buffs when performing Basic Attacks, Dodge Counters and EX Specials, making this set particularly useful on characters who are prone to using each of these frequently, including Seed. However, don't expect the full buff to be up all of the time (if ever).\n Best combined with your choice of 2-PC Set:\n 2P\n Branch & Blade Song\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Dawn's Bloom\n\n 2P\n Thunder Metal\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 94.75%\n\n Hormone Punk ( 4 -PC)\n\n A volatile Disc Drive option with big ups and downs, depending on the encounter you're against, your team composition and how well you play around its effect. If you're able to consistently trigger this set's effect right before or during Seed’s main damage combo it performs well, but when completely ignored and triggered at bad timings it can perform noticeably worse than listed.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Dawn's Bloom\n\n 2P\n Puffer Electro\n\n 2P\n Thunder Metal\n\n Best Disk Drives Stats\n Disk 4\n CRIT DMG% > CRIT Rate%\n\n Disk 5\n PEN Ratio% >= ATK% = Electric DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT DMG = CRIT Rate > ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2700 - 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n CRIT DMG: 110 - 140%+\n\n CRIT RATE: 75% - 90%+\n\n Skill priority\n Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Seed . The character can work with others if you know what to do and how to use them.\n\n Orphie & Magus - As Seed's strongest partner, Orphie is built as a Dual DPS character wanting to play with other Attack Agents, buffing them and dealing damage alongside them, fitting Seed's team archetypes and playstyle perfectly. Though Orphie will also see a lot of use alongside S0 Anby, she is definitely Seed's strongest partner and tends to play more actively than inactively as she is the best funneler of Steel Charge for Seed — but make sure Orphie casts her EX Specials on-field, not off-field!\n Anby: Soldier 0 Evelyn Nekomata Soldier 11 Billy - Even outside of the examples listed here, Seed can and wants to be paired alongside other Attack Agents who function as main damage dealers in order for her kit to work well. This is because Seed is able to buff Attack Agents in several ways, giving them Energy, ATK, DMG dealt and CRIT DMG increases. For this reason, she works well as a mix of DPS and Support for almost every Attack Agent in the game, including these examples, the only real exception currently being Hugo as he wants to play with 2 Stun Agents optimally.\n Ye Shunguang - Seed and Ye Shunguang at first appear to have a sort of anti-synergy. As Ye Shunguang does not consume nor build any Energy while in the Enlightened Mind State, she does not do much to contribute to Seed's Steel Charge build-up. Both Agents are also somewhat demanding of field time, which conflicts with each others gameplan. On the other hand, Seed's Vanguard and Besieged buffs are a great help, and since Ye Shunguang does not really care about the Stunned state, it's possible to juggle between phases: use Ye Shunguang to burst out of stun, then swap to Seed for high damaging burst in-stun. The pure damage output these two can dish out together means that despite their kits not being all that aligned, they do surprisingly well together.\n Astra Yao Trigger Nicole - Seed functions well with Support Agents who take little to no field time. Astra Yao is the embodiment of this, providing a ton of Quick Assists, extra Chain Attacks, healing, ATK, DMG and CRIT DMG buffs, making her the best choice bar none. Trigger on the other hand focuses more on inflicting Daze which Seed and her teammates definitely appreciate but also having a lot of her value locked behind her Signature W-Engine. Lastly, Nicole works just fine as the best F2P option, providing her characteristic massive DEF Shred debuff via her Core Passive. effect.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Seed in the current phase of Shiyu Defense.\n Rank 46\n App. rate: 0.81 %\n Avg. time: 32229\n\n Rank 66\n App. rate: 0.41 %\n Avg. time: 31457\n\n Rank 104\n App. rate: 0.2 %\n Avg. time: 29224\n\n Rank 108\n App. rate: 0.19 %\n Avg. time: 28409\n\n Rank 175\n App. rate: 0.08 %\n Avg. time: 27522\n\n Rank 193\n App. rate: 0.06 %\n Avg. time: 32097\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 31954\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 27712\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 31794\n\n Rank 279\n App. rate: 0.03 %\n Avg. time: 28260\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Seed in the current phase of Deadly Assault.\n Rank 14\n App. rate: 4.05 %\n Avg. score: 32618\n\n Rank 27\n App. rate: 1.68 %\n Avg. score: 32357\n\n Rank 35\n App. rate: 0.89 %\n Avg. score: 23400\n\n Rank 38\n App. rate: 0.76 %\n Avg. score: 27225\n\n Rank 61\n App. rate: 0.39 %\n Avg. score: 22685\n\n Rank 74\n App. rate: 0.29 %\n Avg. score: 34100\n\n Rank 104\n App. rate: 0.14 %\n Avg. score: 25263\n\n Rank 106\n App. rate: 0.13 %\n Avg. score: 25940\n\n Rank 110\n App. rate: 0.12 %\n Avg. score: 30637\n\n Rank 118\n App. rate: 0.11 %\n Avg. score: 22998"
+  "text": "Seed Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Seed\n Seed Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Seed from ZZZ (Zenless Zone Zero). Seed is an rank character with the Electric attribute who belongs to the Attack Specialty and who is part of the OBOLS Squad faction.\n\n To learn more about Seed check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Seed has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.4\n\n Last build update\n Patch 2.2\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Seed check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Flower Chain Protocol\n\n Lv. 1\n\n The Attack teammate with the highest initial ATK is considered Seed's Vanguard.\n\nWhen the Vanguard unleashes an EX Special Attack, Seed gains Onslaught status, increasing Seed's ATK by 100 and CRIT DMG by 15% . When Seed unleashes an EX Special Attack, the Vanguard gains Direct Strike status, increasing the Vanguard's ATK by 100 and CRIT DMG by 15% .\n\nWhen Direct Strike and Onslaught are both active, Seed and the Vanguard simultaneously gain Besiege status, increasing DMG dealt by 12.5% .\n\nOnslaught, Direct Strike, and Besiege buffs can all take effect when the character is the current active character. When switching to inactive, the buffs remain until the character goes off-field or 3s after the switch. When the character returns to being the active character, the buffs re-activate.\n\nUpon entering the battlefield with a Vanguard, Seed immediately gains Onslaught status and Besiege status, while the Vanguard immediately gains Direct Strike status and Besiege status.\n\nDirect Strike and Onslaught status last for 40s , and repeated triggers refresh the duration.\n\nWhen the Vanguard consumes Energy as the active character or when Seed consumes Energy, for every 1 point of Energy consumed, Seed recovers 0.5 points of Steel Charge.\n\n CRIT DMG 0\n BASE ATK : 0\n\n Additional Ability Surprise Strike\n\n When another Attack Character is in your squad:\n When Seed deals DMG as the active character, restore 2 Energy to the Vanguard. This effect can trigger once every 1s .\nSeed's Basic Attack: Falling Petals - Slaughter, Basic Attack: Falling Petals - Downfall, and Ultimate: Clockwork Garden - Bloom! deal 30% increased DMG and ignore 25% of enemy Electric RES .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Chrysanthemum Wheel Dance\n\n Press to activate:\nPerform up to 4 attacks forward, dealing Physical DMG for the first two hits and Electric DMG for the third and fourth hits.\nWhen attacked between the retreat of the 3rd hit to before the 4th hit, triggers an automatic dodge.\n Multipliers\n\n Basic Attack: Falling Petals - Slaughter\n\n After the 4th hit of a Basic Attack, Dodge Counter, Quick Assist, or Assist Follow-Up, hold or press to activate:\nSummon the mech to perform a charged punch attack, dealing massive Electric DMG.\nWhen Steel Charge reaches 120, gain one chance to quickly activate Basic Attack: Falling Petals - Slaughter by holding . This effect expires when Steel Charge is less than 120 or after using the method above to activate Basic Attack: Falling Petals - Slaughter once.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Falling Petals - Downfall\n\n Seed has Steel Charge, which she can accumulate by hitting enemies with her skills.\nSteel Charge has a maximum value of 150, and an initial value of 60. Upon reaching 120 Steel Charge and triggering Basic Attack: Falling Petals - Slaughter or Ultimate: Clockwork Garden - Bloom!, press or hold to consume 60 Steel Charge and unleash Basic Attack: Falling Petals - Downfall First Form, then automatically consume 60 Steel Charge to follow up with Basic Attack: Falling Petals - Downfall Second Form.\nPilots the mech to fire sweeping shots and perform a jumping smash, dealing massive Electric DMG.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Dodge: Running on Petals\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Magnetic Wheel Dance\n\n Press during a dodge to activate:\nThrow steel wheels forward, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Blossom Burst\n\n Press during a Perfect Dodge to activate.\nUnleash a barrage of lasers at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Withered in Frost\n\n Press to activate.\nThrow a steel wheel that traces a curved path, dealing Electric DMG.\n Multipliers\n\n EX Special Attack: Raining Iron Petals\n\n With enough Energy, press to activate.\nEnter flight mode, where Seed can move in four directions, and unleash a continuous barrage of missiles, dealing massive Electric DMG.\nHold to extend the barrage duration while continuously consuming Energy.\nDuring flight, release to trigger EX Special Attack: Raining Iron Petals - Away.\nUpon consuming 60 Energy points in one flight, automatically trigger Basic Attack: Falling Petals - Slaughter.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Raining Iron Petals - Away\n\n During EX Special Attack: Raining Iron Petals, release to activate:\nUnleash rapid cannon fire, dealing Electric DMG\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Tempest of Frosty Petals\n\n When a Chain Attack is triggered, select the character to activate:\nSummons her mech for protection, then launches cannon shots and a barrage of missiles, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Clockwork Garden - Bloom!\n\n When Decibel Rating is at Maximum, press to activate.\nSeed will pilot the mech personally, raining down missiles and a meteor shower of rockets, then performing a jumping smash, dealing massive Electric DMG.\nAfter using this skill, accumulate 60 Steel Charge.\nDoes not accumulate Steel Charge on hit.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Crimson Core Burst\n\n Press after a Defensive Assist to activate:\nUnleash continuous floating turret attacks at enemies ahead, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Sprouting Barrier\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Barrage of Raining Flowers\n\n When the active character is launched, press to activate.\nUnleash a barrage of lasers at enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Hibernation Period\n Mindscape 1\n\n When Seed's Steel Charge reaches 100 , Basic Attack: Falling Petals - Downfall can be triggered, and the total Steel Charge consumed is reduced to 100 . Gain an additional 40/20 Steel Charge when entering the battlefield/using Ultimate. Increases Basic Attack: Falling Petals - Downfall CRIT DMG by 30% .\n\n M2\n Light Absorption Technique\n Mindscape 2\n\n When Besiege is active for an Agent, that Agent's DMG ignores 20% of DEF. When activating EX Special Attack: Raining Iron Petals, after consuming a total of 60 Energy, Seed can continue consuming Energy to extend the duration of the skill until the button is released or a total of 120 Energy is consumed. For every 5 Energy consumed by EX Special Attack: Raining Iron Petals, the following Basic Attack: Falling Petals - Slaughter's DMG increases by 5% .\n\n M3\n A Story of Sprouting\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Fragrant Tune\n Mindscape 4\n\n When Seed's Besiege status buff is active, her Decibel Generation Rate increases by 10% , and Ultimate DMG increases by 20% .\n\n M5\n Time to Bloom\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Theory of the Heart\n Mindscape 6\n\n Seed's CRIT DMG increases by 50% . When using Basic Attack: Falling Petals - Slaughter, fires 3 additional laser beams, each dealing 165% of ATK as DMG. This effect can trigger once every 3s .\n\n Stats (Level 60)\n Seed Stats at level 60 (including Core passive bonuses).\n\n HP\n 7673\n\n DEF\n 612\n\n ATK\n 929\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 78.8 %\n\n PEN Ratio\n 0 %\n\n Impact\n 93\n\n Anomaly Mastery\n 94\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Crit DPS\n T0.5\n Endgame Modes\n\n Pros & Cons\n Pros\n Plenty of invincibility frames and free dodge mechanics - difficult to get interrupted during combos.\n\n Introduces a new team archetype of Dual Attack-Class DPS.\n\n Makes niche characters more usable than ever before (e.g Nekomata & Billy), granting her many potential team partners.\n\n Kit contains elements of the Support and DPS, granting her a unique position among the Attack Class.\n\n Cons\n Lacking a true dedicated partner at the time of her release - she must take other Attack Agents from their best teams to form her own.\n\n Combos aren't mechanically difficult, but require proper resource management to be effective\n\n Must be run alongside another Attack Agent.\n\n Review\n Seed is an S-Rank Electric Attack Agent who fills a new niche in the Zenless Zone Zero meta as a DPS dedicated to fighting alongside other Attack Agents in dual DPS team compositions. While this playstyle already existed before her release, Seed elevates it to the next level and makes it properly meta-worthy thanks to her exceptional buff-sharing capabilities.\n Core Passive & Key Mechanics\n The main part of Seed’s kit lies in a couple of mechanics contained within her Core Passive, alongside her unique resource called Steel Charge.\n Let’s discuss her Core Passive first. At the start of the battle, if another Attack Agent is present within the squad, it is designated as Seed’s partner, called Vanguard. For simplicity purposes, we will refer to this Vanguard as her partner.\n Essentially active all throughout battle provided the player isn’t idle, Seed and her partner will always give each other 1000 ATK, 30% CRIT DMG as well as 25% DMG dealt. This is because the buffs last plenty of time and are easily refreshed. This significantly boosts the damage potential of the affected party members, particularly CRIT hits, however be aware that these buffs only apply if the concerned Agent is actively on-field (there is a grace period on the buff for characters that remain on the field after switching out of 3 seconds - this is helpful when employing things like swap cancels).\n Via her Additional Ability, Seed restores 2 Energy to her partner every second when actively dealing damage. Her ultimate and charged punch Basic Attack also deal 30% increased DMG and ignore 25% Electric RES.\n Lastly, when Seed’s partner actively consumes 1 Energy or when Seed consumes Energy, Seed recovers 0.5 Steel Charge. This is a perfect segway to discuss what Steel Charge is.\n Steel Charge is Seed’s unique resource; this represents the bar below her screen. It has a maximum of 150 points and is recharged by doing almost any attack in her kit, and she can consume 120 of it by executing her charged punch Basic Attack, then pressing Basic Attack again, which will initiate a sequence of 2 strong mecha attacks that deal the majority of Seed’s damage to enemies. This attack can and should be swapped out of, as it allows Seed to deal damage while the on-field character can input actions of their own.\n The actions that restore the most Steel Charge include (but aren’t limited to): Seed’s Basic Attack 4, her EX Special, her Ultimate, her Chain Attack and her Assist Follow-Up.\n Basic Attack & Dodge\n Seed has a 4-part Basic Attack, the first 2 attacks dealing Physical DMG and the last 2 dealing Electric DMG. The 3rd Basic Attack can also trigger a dodge automatically while Seed is retreating. In particular, the 4th Basic Attack is one of Seed’s primary ways to regenerate Steel Charge and will allow her to perform her charged punch Basic Attack, which she can then follow up with her Steel Charge-consuming attacks if she is at 120 Steel Charge or higher.\n Her Dodge works like you’d expect it to: the Dash Attack is nothing special and shouldn’t be used, while the Dodge Counter deals a big chunk of Electric DMG and Daze to enemies, which is easily activated by her Basic 3 automatic dodge mechanic, or simply dodging manually as well.\n Special & Ultimate\n Seed’s regular Special deals too little damage to be considered worth using in her rotations (aside from exceptions with certain W-Engines like Severed Innocence). However, her EX Special is much more interesting. Usable at a cost of 60 Energy, it allows Seed to enter Flight Mode, which allows Seed to unleash a constant barrage of missiles on enemies. This attack can and should be held down all the way in order to consume at least 60 Energy (different with Mindscape 2 unlocked), and deal the maximum amount of damage possible. It will automatically follow up with her charged punch Basic Attack when consuming at least 60 points of Energy, allowing for an easy segway into her Steel Charge-empowered attacks when at 120 Steel Charge or higher.\n On the other hand, her Ultimate has a very long animation, but it deals a ton of damage in that time which compensates for its extended duration. It makes Seed automatically regain 60 Steel Charge and once again allows her to segway into her Steel Charge-empowered attacks if it is possible. Remember not to waste the 60 Steel Charge regenerated by this ability!\n Assists\n Seed’s Assists work exactly like you’d expect them to, not doing anything that stands out in particular from most other Agents. It is nonetheless worth noting that her Assist Follow-Up regenerates a good chunk of Steel Charge, approximately equivalent to her Basic 4, which can be considered in some of her combos.\n Meta Position & Conclusion\n Seed is a simplistic Agent to pilot, while of course requiring good resource management, whose kit features a good chunk of invincibility frames and automatic dodges, which makes it more difficult for her to be hit by enemies. Additionally, she really provides massive buffs to the Attack Agent she is partnered with, and packs a punch in her own kit as well. This makes her a dedicated damage dealer and buffer all at once, particularly reinforcing her flexibility with any other Attack Agent, even shedding some light on previously niche Agents such as Nekomata, thanks to their ability to bounce off of each other’s EX Specials and Energy generation mechanics.\n Unfortunately for Seed however, the Agents she currently works best with are high-profile Attack Agents who deal a lot of damage. The issue with this is that they want to take up the overwhelming majority of on-field time, and Seed actively goes against this since she wants her own chunk of field time as well. While this is easily compensated for via her massive buffs enabling more niche Attack Agents to shine alongside her, and this downside is negated in heavy quickswap teams, she tends to take already potent DPS Agents out of their best teams and make them perform worse than their usual best option, or she takes Agents that are too niche to stand out as a top competitive option currently.\n Nonetheless, in conclusion we can safely say that Seed’s team flexibility is nothing to scoff at, and she is sure to satisfy players who prefer to play more niche Attack Agents such as Nekomata or Billy, as well as players who want a generalist alternative to any Attack Agent in the game currently (save for Hugo, who wants to function alongside 2 Stun Agents for extra Daze while retaining good self-buffs).\n In other words, Seed is a character whose only real complexity is proper resource management and exploitation of swap windows to reach maximum potential. Beyond this, her combos aren’t difficult to execute, she is invincible for quite a noticeable chunk of her rotation (particularly in quickswap), and she works alongside plenty of strong Attack Agents, enabling a lot of new team compositions, as well as making a unique playstyle stronger than it previously was.\n\n How to play\n Balancing Seed’s field time with that of her Vanguard can be quite difficult, with the amount of time spent on each varying between teams.\n For most Attack Agents, prioritising Seed tends to be the better option. Try to remain on her and get as many Basic Attacks and Dodge Counters as you can, with emphasis being placed on her regular Basic 4. This is the most efficient way of generating Steel Charge, and with proper management, it is possible to get multiple uses of her Basic Attack: Falling Petals - Downfall (at least 1, often 2) while still building back enough by the time enemies are about to be stunned.\n Use her EX Special every so often - and especially before Downfalls - as they will be needed to refresh her Dawn’s Bloom 4-piece effect in the out-of-stun period.\n While doing so, don’t forget to occasionally swap back to the Vanguard for an EX Special cast, both to help supplement Seed’s Steel Charge generation and so as to not drop the Onslaught and Besiege buffs. This buff ticks down even before a fight has begun, so keep a watchful eye on it.\n The Energy generation she provides to the Vanguard should make it easy to maintain, and given the long animations from Downfall, it’s the perfect opportunity to swap out.\n In some situations however, such as if run against Electric Resistant enemies or being used for her buffs (e.g. running with Evelyn vs Pompey), then Seed can sit in the back and be played as a quickswap Agent, coming in during the main damage dealer’s downtime to help supplement their Energy and to expend her own Energy on EX Specials to refresh Direct Strike and get enough Steel Charge for a Downfall cast here and there.\n Other highly demanding on-field damage dealers, like Soldier 0 - Anby, can also work well with this playstyle, where Seed instead can make use of her high damage multipliers for burst in stun as opposed to cycling through multiple Downfalls out of stun.\n On the topic of stun, Seed’s ideal combo needs 120 Steel Charge and her Ultimate, being:\n EX Special (Full Channel) before Stun begins, to refresh Dawn’s Bloom 4-piece and help build up to 120 Steel Charge\n\n Basic Attack: Falling Petals - Slaughter\n\n Basic Attack: Falling Petals - Downfall\n\n Swap to the Vanguard and use an EX Special (60 Energy)\n\n Stunner Chain Attack, to refresh King of the Summit\n\n Seed Chain Attack\n\n Cancel\n\n Ultimate\n\n Basic Attack: Falling Petals - Downfall\n\n Swap to the Vanguard and use their Ultimate and/or generic burst\n\n The above combo does not need Manual Chain, as the Cancel can be moved up to after Slaughter instead. If using Manual Chain, then it is also possible to do 2 Seed Chain Attacks, however its long animation means it is often not worth using over having more time to burst with the Vanguard.\n If no Ultimate is available, conserve Energy and do not do a full channel of her EX Special prior to stun, instead using it where the Ultimate would otherwise fit to generate enough Steel Charge for a second Downfall.\n Not all Vanguards are likely to have 60 Energy EX Specials, though. If this is the case, then either build up to 150 Steel Charge before the combo or swap to the Vanguard after Seed’s Chain Attack for another EX Special before swapping back to Seed for her Ultimate/EX.\n Note that although the combo specifies 120 Steel Charge, due to awkward Steel Charge breakpoints, this may not be enough. If Seed is at precisely 120 Steel Charge when the combo begins, a single Basic 1 may need to be woven into after the Chain Attack to make sure that there’s enough for a Downfall after Ultimate. This is also needed if running with Trigger, so as to refresh her debuffs.\n Although the above is a catch-all combo that should work for any team, there are plenty of optimisations that can be done depending on who Seed is running with. For example, with running with Evelyn and Astra, you can use Astra’s Ultimate into Seed’s Chain Attack shortly before Stun begins, then:\n Basic Attack: Falling Petals - Slaughter\n\n Basic Attack: Falling Petals - Downfall\n\n Evelyn Chain Attack (Astra Conversion)\n\n Astra Chain Attack\n\n Seed Chain Attack\n\n Evelyn Chain Attack\n\n Evelyn Points Chain Attack\n\n Quick Assist to Seed\n\n Seed Ultimate\n\n Basic Attack: Falling Petals - Downfall\n\n Swap to Evelyn\n\n Evelyn Ultimate\n\n Basic Attack: Garrote\n\n Each and every team will have their own “optimal” combo, which best integrates the Vanguard’s own combos with Seed’s Downfall and Ultimate use.\n All in all, Seed is not too complex. Either stay on field looping Basic Attack strings with frequent Downfall use and high-damaging combos, or take a backline supportive approach with the occasional EX Special and expend resources for in-stun bursts.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Team Buffed calculations\n The W-Engine calculations below are team buffed calculations , and here's the team used for them.\n Anby: Soldier 0 + Severed Innocence\n Astra Yao + Kaboom the Cannon\n 100.00%\n 100.00%\n\n Cordis Germina (S 1 )\n\n Seed’s Signature W-Engine is of course her best choice. Focused on buffing CRIT Rate by massive amounts, as well as providing increased Electric DMG and providing 20% Ignore DEF on Basic Attacks and Ultimates when reaching max Electric DMG buffs, this makes it the best option she has bar none.\n Usage: 77.69 %\n Shiyu Defense: 31457\n Deadly Assault: 25503\n\n 87.04%\n 87.54%\n\n Heartstring Nocturne (S 1 )\n\n Evelyn’s Signature W-Engine has always been one of the top generalist contenders for Attack Agents, and Seed is no exception. Thanks to its general CRIT Rate and CRIT DMG increases, it works well as a CRIT stat-stick for her.\n Usage: 2.22 %\n Shiyu Defense: 31969\n Deadly Assault: 24842\n\n 85.97%\n 86.30%\n\n Myriad Eclipse (S 1 )\n\n On Seed, Hugo’s W-Engine is essentially Evelyn’s Signature W-Engine with 5% less CRIT DMG, making it nearly similar but slightly worse.\n Usage: 1.2 %\n Shiyu Defense: 28991\n Deadly Assault: 24928\n\n 80.81%\n 81.63%\n\n Zanshin Herb Case (S 1 )\n\n Similarly to the above options, this W-Engine provides lots of CRIT Rate and CRIT DMG making it a strong choice.A solid all around generic option thanks to its close to permanent uptime of 20% CRIT RATE and always active 45% CRIT DMG, alongside its high base ATK.\n Usage: 0.6 %\n Shiyu Defense: 29975\n Deadly Assault: 0\n\n 80.79%\n 81.60%\n\n Riot Suppressor Mark VI (S 1 )\n\n CRIT Rate and CRIT DMG stat-stick for Seed who’s unable to exploit this W-Engine’s Ether DMG-increasing buffs.\n 76.58%\n 81.43%\n\n The Brimstone (S 1 )\n\n A strong accessible option thanks to its massive ATK buffs which while not easy to keep fully active all the time has solid uptime on Seed thanks to her primarily being focused on Basic Attack damage. Becomes significantly worse when played alongside Astra Yao due to an oversaturation of ATK buffs.\n Usage: 5.08 %\n Shiyu Defense: 27911\n Deadly Assault: 21743\n\n 75.94%\n 76.27%\n\n Marcato Desire (S 5 )\n\n This W-Engine provides easily stacked CRIT Rate and ATK increases which makes it the strongest A-rank option. Unfortunately falls behind S-rank choices due to its lack of base ATK, but still very much usable in any case.\n Usage: 6.11 %\n Shiyu Defense: 27826\n Deadly Assault: 24596\n\n Best Disk Drives Sets\n 100.00%\n\n Dawn's Bloom ( 4 -PC)\n\n Generally the best option for Seed, focused on increasing Basic Attack DMG which she deals an overwhelming majority of. Able to buff Basic Attack DMG up to 55% maintained easily, which makes it by default the best Disk Drive set for her.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Puffer Electro\n\n 2P\n Thunder Metal\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 96.80%\n\n Woodpecker Electro ( 4 -PC)\n\n Strong general set for on-field Attack Agents, displaying close performance to 4P Dawn’s Bloom on Seed. Provides 3 different stacks of 9% ATK buffs when performing Basic Attacks, Dodge Counters and EX Specials, making this set particularly useful on characters who are prone to using each of these frequently, including Seed. However, don't expect the full buff to be up all of the time (if ever).\n Best combined with your choice of 2-PC Set:\n 2P\n Branch & Blade Song\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Dawn's Bloom\n\n 2P\n Thunder Metal\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n 94.75%\n\n Hormone Punk ( 4 -PC)\n\n A volatile Disc Drive option with big ups and downs, depending on the encounter you're against, your team composition and how well you play around its effect. If you're able to consistently trigger this set's effect right before or during Seed’s main damage combo it performs well, but when completely ignored and triggered at bad timings it can perform noticeably worse than listed.\n Best combined with your choice of 2-PC Set:\n 2P\n Woodpecker Electro\n\n (Recommended)\n 2P\n Branch & Blade Song\n\n 2P\n Dawn's Bloom\n\n 2P\n Puffer Electro\n\n 2P\n Thunder Metal\n\n Best Disk Drives Stats\n Disk 4\n CRIT DMG% > CRIT Rate%\n\n Disk 5\n PEN Ratio% >= ATK% = Electric DMG%\n\n Disk 6\n ATK%\n\n Substats: CRIT DMG = CRIT Rate > ATK% > PEN > ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2700 - 3000+\n\n HP: 10000+\n\n DEF: 800+\n\n CRIT DMG: 110 - 140%+\n\n CRIT RATE: 75% - 90%+\n\n Skill priority\n Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Seed . The character can work with others if you know what to do and how to use them.\n\n Orphie & Magus - As Seed's strongest partner, Orphie is built as a Dual DPS character wanting to play with other Attack Agents, buffing them and dealing damage alongside them, fitting Seed's team archetypes and playstyle perfectly. Though Orphie will also see a lot of use alongside S0 Anby, she is definitely Seed's strongest partner and tends to play more actively than inactively as she is the best funneler of Steel Charge for Seed — but make sure Orphie casts her EX Specials on-field, not off-field!\n Anby: Soldier 0 Evelyn Nekomata Soldier 11 Billy - Even outside of the examples listed here, Seed can and wants to be paired alongside other Attack Agents who function as main damage dealers in order for her kit to work well. This is because Seed is able to buff Attack Agents in several ways, giving them Energy, ATK, DMG dealt and CRIT DMG increases. For this reason, she works well as a mix of DPS and Support for almost every Attack Agent in the game, including these examples, the only real exception currently being Hugo as he wants to play with 2 Stun Agents optimally.\n Ye Shunguang - Seed and Ye Shunguang at first appear to have a sort of anti-synergy. As Ye Shunguang does not consume nor build any Energy while in the Enlightened Mind State, she does not do much to contribute to Seed's Steel Charge build-up. Both Agents are also somewhat demanding of field time, which conflicts with each others gameplan. On the other hand, Seed's Vanguard and Besieged buffs are a great help, and since Ye Shunguang does not really care about the Stunned state, it's possible to juggle between phases: use Ye Shunguang to burst out of stun, then swap to Seed for high damaging burst in-stun. The pure damage output these two can dish out together means that despite their kits not being all that aligned, they do surprisingly well together.\n Astra Yao Trigger Nicole - Seed functions well with Support Agents who take little to no field time. Astra Yao is the embodiment of this, providing a ton of Quick Assists, extra Chain Attacks, healing, ATK, DMG and CRIT DMG buffs, making her the best choice bar none. Trigger on the other hand focuses more on inflicting Daze which Seed and her teammates definitely appreciate but also having a lot of her value locked behind her Signature W-Engine. Lastly, Nicole works just fine as the best F2P option, providing her characteristic massive DEF Shred debuff via her Core Passive. effect.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Seed in the current phase of Shiyu Defense.\n Rank 12\n App. rate: 4.79 %\n Avg. Score: 31935\n\n Rank 17\n App. rate: 2.25 %\n Avg. Score: 31998\n\n Rank 26\n App. rate: 1.18 %\n Avg. Score: 28012\n\n Rank 29\n App. rate: 1.01 %\n Avg. Score: 28696\n\n Rank 48\n App. rate: 0.63 %\n Avg. Score: 28711\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 34001\n\n Rank 61\n App. rate: 0.42 %\n Avg. Score: 28315\n\n Rank 65\n App. rate: 0.38 %\n Avg. Score: 29856\n\n Rank 70\n App. rate: 0.34 %\n Avg. Score: 26450\n\n Rank 82\n App. rate: 0.27 %\n Avg. Score: 31512\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Seed in the current phase of Deadly Assault.\n Rank 53\n App. rate: 0.4 %\n Avg. Score: 27307\n\n Rank 61\n App. rate: 0.33 %\n Avg. Score: 28682\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 22047\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 23874\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 28414\n\n Rank 189\n App. rate: 0.05 %\n Avg. Score: 22039\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 24130\n\n Rank 253\n App. rate: 0.02 %\n Avg. Score: 25655"
 }

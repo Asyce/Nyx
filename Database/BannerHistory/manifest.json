@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T22:14:03.186Z",
+  "generatedAt": "2026-08-30T02:13:08.397Z",
   "games": {
     "gi": {
       "count": 297,
@@ -976,19 +976,19 @@
       "contentHash": "c01ff40331ece15529da1e7f0a5a431845f6e8798129cf5c97159f601e1f7ac5"
     },
     "ae": {
-      "count": 30,
-      "character": 13,
+      "count": 32,
+      "character": 15,
       "weapon": 17,
       "mixed": 0,
       "permanent": 6,
-      "confirmed": 29,
+      "confirmed": 30,
       "dateRange": {
         "start": "2026-01-22T03:00:00.000Z",
         "end": "2026-11-07T21:59:59.000Z"
       },
       "revisions": [
-        "maintained-wiki:59966",
-        "maintained-wiki:61145"
+        "maintained-wiki:61145",
+        "maintained-wiki:61193"
       ],
       "officialRevisions": [
         "official-latest:0754",
@@ -1001,6 +1001,7 @@
         "official-latest:3831",
         "official-latest:3843",
         "official-latest:3847",
+        "official-latest:4481",
         "official-latest:4492",
         "official-latest:5210",
         "official-latest:5212",
@@ -1013,7 +1014,7 @@
         "official-latest:9564",
         "official-latest:9579"
       ],
-      "contentHash": "dbcf515fcc34b857e011b33eb0e192d749678bc597665476d7ae4f57e69f310e"
+      "contentHash": "46c98d5e9654245dddb91a925ee092a5594132ea16d84db58de10e99159c0184"
     }
   }
 }

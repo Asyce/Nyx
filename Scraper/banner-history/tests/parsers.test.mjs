@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { mergeEndfieldOfficialWindow, mergeKuroOfficialFallbacks, parseEndfieldYear, parseFandomRun, parseGryphlineOfficial, parseKuroOfficial, parseKuroOfficialBanners } from '../sources.mjs';
+import { mergeEndfieldOfficialRateUp, mergeEndfieldOfficialWindow, mergeKuroOfficialFallbacks, parseEndfieldYear, parseFandomRun, parseGryphlineOfficial, parseKuroOfficial, parseKuroOfficialBanners } from '../sources.mjs';
 
 const cases = [
   ['gi','Wish','Wish Pool','Character Event','character_5_F','character_4_F','Hero','Friend'],
@@ -93,4 +93,12 @@ test('Endfield official availability merges exact regional starts/ends without i
   const rule = { name:'Crimson Hued', windowsByRegion:{asia:{start:'old'}} };
   assert(mergeEndfieldOfficialWindow(rule, {data:'<p>[Crimson Hued Issue] · Availability: Opens June 26, 2026 at 12:00 (server time), and ends after 3 banners · Participation</p>'}, 'official'));
   assert.equal(rule.windowsByRegion.america.end, undefined);
+});
+
+test('Endfield DEV Comm marks only the named boosted 6-star as primary', () => {
+  const windowsByRegion = { asia:{ start:'2026-09-24T04:00:00.000Z', end:'2026-10-21T21:59:59.000Z' } };
+  const row = { name:'Resplendent Spectrum', windowsByRegion:structuredClone(windowsByRegion), featured:[{ entityType:'character', name:'Yvonne', rarity:6, primary:false }, { entityType:'character', name:'Ember', rarity:6, primary:true }] };
+  assert(mergeEndfieldOfficialRateUp(row, { data:'<p>[Resplendent Spectrum] RE-Factor Headhunting #1 will be available on Sept. 24, 2026. During the event, you will have a much higher chance of getting the 6★ operator [Yvonne].</p>' }));
+  assert.deepEqual(row.featured.map((entry) => entry.primary), [true, false]);
+  assert.deepEqual(row.windowsByRegion, windowsByRegion);
 });

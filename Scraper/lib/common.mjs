@@ -50,7 +50,46 @@ export async function fetchJson(url, options = {}) {
     headers: { accept: 'application/json', ...(options.headers || {}) }
   });
   if (response === null) return null;
-  return response.json();
+  if (options.maxBytes === undefined) return response.json();
+  return JSON.parse(await boundedResponseText(response, options.maxBytes));
+}
+
+async function boundedResponseText(response, maxBytes) {
+  if (!Number.isSafeInteger(maxBytes) || maxBytes <= 0) {
+    throw new Error('Response byte limit is invalid');
+  }
+
+  const declared = response.headers?.get?.('content-length');
+  if (declared !== null && declared !== undefined) {
+    if (!/^(0|[1-9]\d*)$/.test(declared) || Number(declared) > maxBytes) {
+      throw new Error('Response exceeds the byte limit');
+    }
+  }
+
+  const reader = response.body?.getReader?.();
+  if (!reader) {
+    const text = await response.text();
+    if (Buffer.byteLength(text) > maxBytes) throw new Error('Response exceeds the byte limit');
+    return text;
+  }
+
+  const chunks = [];
+  let bytes = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      bytes += value.byteLength;
+      if (bytes > maxBytes) {
+        await reader.cancel().catch(() => {});
+        throw new Error('Response exceeds the byte limit');
+      }
+      chunks.push(Buffer.from(value));
+    }
+  } finally {
+    reader.releaseLock();
+  }
+  return Buffer.concat(chunks, bytes).toString('utf8');
 }
 
 export async function downloadFile(url, targetFile, options = {}) {
@@ -261,14 +300,24 @@ export function extFromUrl(url, fallback = '.bin') {
 }
 
 async function fetchWithRetries(url, options = {}) {
-  const { optional = false, retries = 3, headers = {}, timeoutMs = DEFAULT_FETCH_TIMEOUT_MS, cache = false } = options;
+  const {
+    optional = false,
+    retries = 3,
+    headers = {},
+    timeoutMs = DEFAULT_FETCH_TIMEOUT_MS,
+    cache = false,
+    method = 'GET',
+    body,
+  } = options;
+  const requestMethod = String(method).toUpperCase();
+  const cacheable = cache && requestMethod === 'GET';
   let lastError;
 
   // Conditional-GET cache: opt-in (used by the GameData JSON fetchers). A cache hit still
   // makes the request, but the server answers 304 with no body, so we reuse the stored
   // payload and skip re-downloading/re-parsing unchanged data. Fail-safe: any cache error
   // falls through to a normal fetch.
-  const cacheEntry = cache ? await readHttpCache(url) : null;
+  const cacheEntry = cacheable ? await readHttpCache(url) : null;
 
   for (let attempt = 0; attempt <= retries; attempt += 1) {
     try {
@@ -281,6 +330,8 @@ async function fetchWithRetries(url, options = {}) {
 
       const response = await fetch(url, {
         signal: AbortSignal.timeout(timeoutMs),
+        method: requestMethod,
+        body,
         headers: { 'User-Agent': DEFAULT_UA, ...headers, ...conditional }
       });
 
@@ -295,15 +346,15 @@ async function fetchWithRetries(url, options = {}) {
         throw error;
       }
 
-      if (cache) {
+      if (cacheable) {
         // Read the body once here so we can both cache it and hand it back.
-        const body = await response.text();
+        const responseBody = await response.text();
         await writeHttpCache(url, {
           etag: response.headers.get('etag'),
           lastModified: response.headers.get('last-modified'),
-          body
+          body: responseBody
         });
-        return cachedResponse(body);
+        return cachedResponse(responseBody);
       }
 
       return response;

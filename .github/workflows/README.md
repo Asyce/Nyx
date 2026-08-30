@@ -6,7 +6,7 @@ newest verified `main` branch. Manual refresh runs can still deploy immediately.
 | Workflow | Cadence | What it does |
 |---|---|---|
 | `code-watch.yml` | hourly, at :00 | detect official livestream windows -> active-code-only scrape -> semantic diff -> validate -> commit -> build -> smoke -> push |
-| `gamedata-watch.yml` | 02:20 and 14:20 UTC daily | compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> push |
+| `gamedata-watch.yml` | 02:20 and 14:20 UTC daily | run a read-only HoYoWiki shadow comparison; separately compare Nanoka's manifest -> when a supported game changed, sync its live/beta JSON and assets -> GameData-only validate -> build -> smoke -> commit -> push |
 | `data-refresh.yml` | 03:15 UTC daily | retry banners + scrape codes and official events -> validate -> build -> smoke -> push |
 | `banner-history-refresh.yml` | 04:45 UTC Monday and Thursday | refresh banner history and activities -> structural validate -> build -> smoke -> push |
 | `roster-sync.yml` | 05:30 UTC Sunday | refresh slower rosters/materials/titles -> structural validate -> build -> smoke -> push |
@@ -27,7 +27,7 @@ Before any deploy:
   naming a commit that never reached `main`; a failed or skipped R2 sync blocks
   those R2-backed deploys. In the default `local` mode, R2 sync is skipped and
   does not block the live deploy.
-- `gamedata-watch.yml` takes the expensive path only when Nanoka's supported manifest sections differ from the tracked manifest. Its collapse guard and GameData-only validator cover both live and beta output without letting unrelated banner or Endfield failures block the refresh. It downloads new assets in the same run.
+- `gamedata-watch.yml` runs HoYoWiki comparison in a separate read-only, non-blocking job with aggregate summary output only. The publishing job still takes its expensive path only when Nanoka's supported manifest sections differ from the tracked manifest. Its collapse guard and GameData-only validator cover both live and beta output without letting unrelated banner, Endfield, or HoYoWiki failures block the refresh. It downloads new assets in the same run.
 - `data-refresh.yml` retries only the banner scraper's explicit source-unavailable result (exit 2) three times. If a required banner source stays unavailable, its partial output is restored, official events still refresh through the structural gate, and immediate deployment remains blocked. Unexpected scraper failures use exit 1 and fail the job red.
 - `roster-sync.yml`, `side-data-sync.yml`, and `banner-history-refresh.yml` run the full structural gate (`npm run validate`). Current-banner freshness remains owned by `data-refresh.yml`, so a source outage cannot turn unrelated refreshes red.
 - `side-data-sync.yml` installs Crawl4AI and Chromium, but each Crawl4AI-backed fetch has a plain HTTP fallback.
@@ -55,10 +55,10 @@ Approximate monthly floor at the current cadences (31-day month):
 | Workflow | Runs/month | Private-repo billed floor |
 |---|---|---|
 | `code-watch.yml` (24/day) | 744 | 744 min |
-| `gamedata-watch.yml` (2/day) | 62 | 62 min |
+| `gamedata-watch.yml` (2/day, 2 jobs/run) | 62 | 124 min |
 | `data-refresh.yml` + `daily-deploy.yml` (1/day each) | 62 | 62 min |
 | banner history + roster + side data | ~23 | ~23 min |
-| **Total automatic starts** | **~891** | **~891 min minimum** |
+| **Total automatic workflow runs** | **~891** | **~953 min minimum** |
 
 In July 2026, while the repository was private, `gamedata-watch.yml` ran every 15
 minutes (~2,880 runs) and the account hit the cap on the 30th; jobs then refused to

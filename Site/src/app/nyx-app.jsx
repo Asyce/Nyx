@@ -1218,8 +1218,8 @@ function OverviewBannerBoard({ cfg, onOpenMaterial }){
   const aeUpcomingCards = aeUpcoming.map((row, index) => ({
     ...heroCard(row.column, row.unit, 'later-' + index),
     status:row.column.status === 'live' ? 'live' : 'upcoming',
-    others:[],
-    supportLabel:null,
+    // Future cards show their own generated loss pool. Only the live card's
+    // label opens the detail dialog because that dialog describes the live pool.
     supportHelp:null,
   }));
   const aeColumn = (index) => (aeUpcomingCards[index]

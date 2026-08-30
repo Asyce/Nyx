@@ -475,23 +475,27 @@ test('Endfield material overview uses the exact sourced Growth and Progression l
   const progressionSource = sourceCharacters(progressionNames, ['ascension', 'talents']);
   const growthGenerated = new Set(ae.midGroups.flatMap((group) => group.chars));
   const progressionGenerated = new Set(ae.bossGroups.flatMap((group) => group.chars));
-  assert.equal(ae.roster.length, 30);
-  // Liino shipped with an unfilled wiki page, so 29 of the 30 operators had
-  // sourced requirements. That page is filled in now, so the whole roster is
-  // covered and nothing is left unsourced (2026-08-11).
+  assert.equal(ae.roster.length, 32);
+  // Future operators publish as beta as soon as their wiki art appears, while
+  // their unfinished material pages stay out of sourced material groups.
   assert.equal(growthSource.size, 30);
   assert.equal(progressionSource.size, 30);
   const missingSourcedRequirements = ae.roster
     .map((character) => character.n)
     .filter((name) => !growthSource.has(name) || !progressionSource.has(name));
-  assert.deepEqual(plain(missingSourcedRequirements), []);
+  assert.deepEqual(plain(missingSourcedRequirements).sort(), ['Purrchena', 'Typhoeus']);
+  for (const name of missingSourcedRequirements) {
+    const character = ae.roster.find((row) => row.n === name);
+    assert.equal(character.status, 'beta');
+    assert.equal(character.upcoming, true);
+  }
   assert.deepEqual([...growthGenerated].sort(), [...growthSource].sort());
   assert.deepEqual([...progressionGenerated].sort(), [...progressionSource].sort());
 
   const audit = ae.materialClassificationAudit;
   assert.equal(audit.classification, 'explicit-source-name-lists');
   assert.equal(audit.sourceCheckedAt, '2026-07-14');
-  assert.equal(audit.rosterCount, 30);
+  assert.equal(audit.rosterCount, 32);
   assert.deepEqual(plain(audit.growth.materialNames), growthNames);
   assert.deepEqual(plain(audit.progression.materialNames), progressionNames);
   assert.deepEqual(plain(audit.growth.requirementFields), ['talents']);

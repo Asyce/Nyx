@@ -254,8 +254,10 @@ test('HTML fetch rejects unapproved sources, redirects, and declared oversize bo
   await assert.rejects(fetchHtml(source, {
     fetchImpl:async (_url, options) => {
       assert.equal(options.redirect, 'error');
+      assert.equal(options.headers['User-Agent'], 'Prydwen test agent');
       return response({ redirected:true, url:'https://example.com/page' });
     },
+    headers:{ 'User-Agent':'Prydwen test agent' },
   }), /HTML source redirected/);
   await assert.rejects(fetchHtml(source, {
     maxBytes:4,

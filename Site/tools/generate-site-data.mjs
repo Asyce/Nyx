@@ -4487,6 +4487,8 @@ function buildEndfieldRoster() {
     return {
       id: 'ae-' + (ch.id || ch.slug || ch.name.toLowerCase().replace(/\W+/g, '-')),
       n: ch.name,
+      status: ch.contentStatus || 'live',
+      upcoming: ch.contentStatus === 'beta',
       title: cleanText(ch.class || ch.facts?.class || '', 90) || displayTitle('ae', ch, ch.facts || {}),
       r: ch.rarity || ch.facts?.rarity || 5,
       el: ch.element || ch.facts?.element || 'Physical',
@@ -6569,20 +6571,22 @@ function officialPhases(key, rosters, runCounts, now) {
   const [nextRows = [], ...laterRows] = futureGroups;
   const upcomingRows = key === 'ae' ? laterRows : [];
   const { currentRows, concurrentRows } = officialLiveGroups(key, live);
-  const current = officialPhaseFrom(currentRows, key, rosters, runCounts);
-  const pool = key === 'ae' ? endfieldLiveLossPool(records, currentRows) : null;
-  if (current && pool) {
-    current.lossPool = {
+  const buildPhase = (rows) => {
+    const phase = officialPhaseFrom(rows, key, rosters, runCounts);
+    const pool = key === 'ae' ? endfieldLiveLossPool(records, rows) : null;
+    if (!phase || !pool) return phase;
+    phase.lossPool = {
       current:normalizeBannerCharacter(rosters, key, pool.current, runCounts),
       previous:pool.previous.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
       permanent:pool.permanent.map((entry) => normalizeBannerCharacter(rosters, key, entry, runCounts)).filter(Boolean),
     };
-  }
+    return phase;
+  };
   return {
-    current,
-    next:officialPhaseFrom(nextRows, key, rosters, runCounts),
-    concurrent:concurrentRows.map((rows) => officialPhaseFrom(rows, key, rosters, runCounts)).filter(Boolean),
-    upcoming:upcomingRows.map((rows) => officialPhaseFrom(rows, key, rosters, runCounts)).filter(Boolean),
+    current:buildPhase(currentRows),
+    next:buildPhase(nextRows),
+    concurrent:concurrentRows.map(buildPhase).filter(Boolean),
+    upcoming:upcomingRows.map(buildPhase).filter(Boolean),
   };
 }
 

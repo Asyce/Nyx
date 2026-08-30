@@ -1,11 +1,11 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-16T05:52:35.050Z",
+  "generatedAt": "2026-08-30T09:42:15.757Z",
   "counts": {
-    "characters": 31,
+    "characters": 33,
     "charactersWithMaterials": 31,
-    "charactersMissingMaterials": 0,
+    "charactersMissingMaterials": 2,
     "weapons": 74,
     "items": 31
   },
@@ -731,6 +731,36 @@
       }
     },
     {
+      "id": "purrchena",
+      "name": "Purrchena",
+      "pageName": "Purrchena",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Purrchena",
+      "status": "missing-materials",
+      "sections": {
+        "Promotion": {
+          "stages": 0,
+          "items": 0
+        },
+        "Skill_upgrades": {
+          "rows": 0,
+          "skillLevelStages": 0,
+          "skillMasteryStages": 0,
+          "items": 0
+        },
+        "Talent_upgrades": {
+          "items": 0
+        },
+        "Base_Skill_upgrades": {
+          "items": 0
+        }
+      },
+      "counts": {
+        "ascension": 0,
+        "skill": 0,
+        "extras": 0
+      }
+    },
+    {
       "id": "rossi",
       "name": "Rossi",
       "pageName": "Rossi",
@@ -818,6 +848,36 @@
         "ascension": 8,
         "skill": 10,
         "extras": 3
+      }
+    },
+    {
+      "id": "typhoeus",
+      "name": "Typhoeus",
+      "pageName": "Typhoeus",
+      "sourceUrl": "https://endfield.wiki.gg/wiki/Typhoeus",
+      "status": "missing-materials",
+      "sections": {
+        "Promotion": {
+          "stages": 0,
+          "items": 0
+        },
+        "Skill_upgrades": {
+          "rows": 0,
+          "skillLevelStages": 0,
+          "skillMasteryStages": 0,
+          "items": 0
+        },
+        "Talent_upgrades": {
+          "items": 0
+        },
+        "Base_Skill_upgrades": {
+          "items": 0
+        }
+      },
+      "counts": {
+        "ascension": 0,
+        "skill": 0,
+        "extras": 0
       }
     },
     {

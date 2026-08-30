@@ -6309,7 +6309,7 @@ function normalizeBannerCharacter(rosters, key, entry, runCounts) {
     icon: BANNER_ICON_OVERRIDES[assetKey] || local?.icon || entryImage || beta?.icon || null,
     iconFallback: entryFallback || null,
     iconZoom: typeof entry === 'object' ? !!entry.imageFallbackZoom : false,
-    art: BANNER_ART_OVERRIDES[assetKey] || local?.art || local?.card || entrySplash || beta?.art || entryImage || null,
+    art: local?.art || local?.card || entrySplash || beta?.art || BANNER_ART_OVERRIDES[assetKey] || entryImage || null,
     namecard: local?.namecard || null, // G31: GI banner art prefers the namecard
     rarity: local?.r || entry?.rarity || beta?.rarity || null,
     debut,

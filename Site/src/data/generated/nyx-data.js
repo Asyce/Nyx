@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-30T09:12:14.923Z",
+  "generatedAt": "2026-08-30T09:43:27.716Z",
   "codes": {
     "updated": "2026-08-28T20:14:44.299Z",
     "maxAgeDays": 28,
@@ -714,7 +714,7 @@ var NYX_DB = {
             "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -727,7 +727,7 @@ var NYX_DB = {
             "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -173484,7 +173484,7 @@ var NYX_DB = {
             "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,
@@ -173497,7 +173497,7 @@ var NYX_DB = {
             "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
-            "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
+            "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
             "namecard": null,
             "rarity": 5,
             "debut": true,

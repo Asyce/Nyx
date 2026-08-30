@@ -406,7 +406,7 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 - Missing sync `kind` continues to mean pulls. HoYo uses `kind: "hoyolab"`, `auth:hoyolab:v1`, `hoyolab:v1`, and envelope `nyx-hoyolab-sync-v1`.
 - One encrypted bundle per game supports at most eight roles. Full UID appears only after local decryption.
 - Worker metadata contains only pseudonymous sync ID, authentication-token hash, game, ciphertext size, and timestamps.
-- The 3-MiB cap fails visibly without truncation.
+- The decoded encrypted bundle cap is 3 MiB and fails visibly without truncation. Bound the larger Base64/JSON transport separately without weakening the existing pull-sync request cap.
 - Exclude forum/social data, friends, email, purchases, private messages, device fingerprints, raw battle traffic, cookies, tokens, passwords, raw bodies, and unreleased content.
 
 ## Phase 13 - Approved HoYo static comparison
@@ -437,19 +437,19 @@ Start only after Release C is published and marked complete.
 
 ## Phase 15 - Encrypted HSR sync and My HoYo
 
-1. Reuse existing Worker/browser encryption, logically separate from pulls. Add manual sync first.
+1. Freeze one cross-runtime contract/vector set, then extend the existing route additively. Missing `kind` remains pulls; HoYo uses one strongly consistent object per pseudonymous sync ID so compare-and-swap is real rather than a racing KV read/write. Deploy the receiver before enabling launcher sync. Add manual sync only.
 2. Offer a generated recovery code. If Pengo phrase words are reused, derive HoYo keys with separate domain labels. Store only protected derived keys after opt-in; never store/upload the raw recovery code.
-3. Before upload pull/decrypt and merge by `(game, server, UID, capability)`: newest observation wins; equal-time conflicts stop; tombstone wins only if newer than the observation; retry one stale write then stop; never force-overwrite automatically.
+3. Before upload pull/decrypt and merge by `(game, server, UID, capability)`: newest observation wins; equal-time conflicts stop; tombstone wins only if strictly newer than the observation. Emit deletion timestamps strictly after the removed observation, retry one compare-and-swap failure after a fresh pull, then stop; never force-overwrite automatically.
 4. Retain encrypted cloud data until deletion and warn that losing every remembered device and recovery code makes it unrecoverable.
 5. `Remove from this PC` deletes local session/snapshot only. `Remove everywhere` also removes HoYo cloud roles and never touches pulls.
 6. Failed/offline deletion removes the live session but keeps a minimal protected pending credential and visible state. Retry next online start and through `Retry deletion`; remove the credential only after server confirmation.
 7. Add delete-one-role, one-game, all-HoYo, HoYo-only Worker `delete-account`, and separately confirmed entire-Pengo deletion.
-8. Add website My HoYo, role/capability status, sync health, deletion, inventory-aware materials, owned builds, and complete approved record cards.
+8. Add website My HoYo, role/capability status, sync health, deletion, and cards only for complete enabled capabilities. Initially render HSR resources and completed achievements only. Inventory-aware materials, owned builds, and other record cards stay absent until their later capability gate proves complete data.
 9. Keep full materials/gear UI on the website; launcher gets quick status, role management, sync, and Open My HoYo. Stale/unsupported data links to the official tool and never shows fake zero progress.
 
 ### STOP 15
 
-- Items 1-9 and the calculator, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo; automatic sync remains off.
+- Items 1-9 and the applicable resource/achievement cards, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo. Unsupported inventory/build/calculator/record surfaces remain unrendered, and automatic sync remains off.
 
 ## Phase 16 - Genshin account capabilities
 

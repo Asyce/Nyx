@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-29T14:26:01.576Z",
+  "generatedAt": "2026-08-30T01:58:40.219Z",
   "codes": {
     "updated": "2026-08-28T20:14:44.299Z",
     "maxAgeDays": 28,
@@ -711,7 +711,7 @@ var NYX_DB = {
         "beta": [
           {
             "name": "Pearl",
-            "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+            "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -724,7 +724,7 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Pearl",
-            "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+            "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -173441,7 +173441,7 @@ var NYX_DB = {
         "beta": [
           {
             "name": "Pearl",
-            "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+            "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -173454,7 +173454,7 @@ var NYX_DB = {
         "roadmap": [
           {
             "name": "Pearl",
-            "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+            "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "/assets/banners/hsr/pearl-splash-3c9ede1f47fc14b1.png",
@@ -173511,7 +173511,7 @@ var NYX_DB = {
           "rarity": 5,
           "element": "Ice",
           "role": "Elation",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+          "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
           "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
           "facts": {},
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23055.webp",

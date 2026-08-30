@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "0e77c58a2b8353a72675a3ef500de4ce1331331e9d301c052487a91b9b756fd8",
-  "generatedAt": "2026-08-29T14:26:03.348Z",
+  "revision": "54b66e04d14340ea1cd6b23a0fcda891b3245ddc264147d2a094495cf8c7282d",
+  "generatedAt": "2026-08-30T01:59:38.960Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 243235
+          "durationSeconds": 201620
         },
         "characters": [
           {
@@ -538,7 +538,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1171976
+          "durationSeconds": 1130361
         },
         "characters": [
           {
@@ -904,20 +904,20 @@
               "icon": {
                 "id": "1503-icon",
                 "source": "character-icon",
-                "path": "/launcher-art/ccafea75f344e02f6af9bdb59888abab19c06aae9df1aafa70c11488f8be4841.webp",
-                "url": "https://pengo.gg/dist/launcher-art/ccafea75f344e02f6af9bdb59888abab19c06aae9df1aafa70c11488f8be4841.webp",
+                "path": "/launcher-art/dc36229dd78f49dcd6019f7d45c190547ee1a2c03884fe8259e61e478f775baf.webp",
+                "url": "https://pengo.gg/dist/launcher-art/dc36229dd78f49dcd6019f7d45c190547ee1a2c03884fe8259e61e478f775baf.webp",
                 "mime": "image/webp",
-                "size": 3996,
+                "size": 20164,
                 "dimensions": {
-                  "width": 128,
-                  "height": 128
+                  "width": 160,
+                  "height": 188
                 },
-                "sha256": "ccafea75f344e02f6af9bdb59888abab19c06aae9df1aafa70c11488f8be4841",
+                "sha256": "dc36229dd78f49dcd6019f7d45c190547ee1a2c03884fe8259e61e478f775baf",
                 "transparentBounds": {
                   "left": 0,
                   "top": 0,
-                  "right": 128,
-                  "bottom": 128
+                  "right": 160,
+                  "bottom": 188
                 },
                 "placement": {
                   "anchor": "center",
@@ -1041,7 +1041,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 837235
+          "durationSeconds": 795620
         },
         "characters": [
           {
@@ -1816,7 +1816,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 1017176
+          "durationSeconds": 975561
         },
         "characters": [
           {
@@ -2332,7 +2332,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 286435
+          "durationSeconds": 244820
         },
         "characters": [
           {

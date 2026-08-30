@@ -10,7 +10,7 @@ import {
   databaseZzzDriveDiscTwoPieceStat,
 } from './lib/database-data-helpers.mjs';
 import { parseCatalogFieldLine } from '../../Scraper/prydwen/catalog-fields.mjs';
-import { chooseCharacterOverlay } from './lib/character-source-helpers.mjs';
+import { chooseCharacterOverlay, chooseHsrCharacterIcon } from './lib/character-source-helpers.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..', '..');
@@ -2062,7 +2062,7 @@ function localAvatarOverlay(game, channel = nch()) {
       const meta = fandom.get(normKey(displayName)) || fandom.get(normKey(ch.name));
       const payload = {
         contentStatus: ch.contentStatus,
-        icon: dbAsset(ch.assets?.roundIcon || ch.assets?.avatar),
+        icon: dbAsset(chooseHsrCharacterIcon(ch.assets, dbDir)),
         splash: dbAsset(ch.assets?.drawCard), // D1: HSR splash art = draw-card
         fallbackArt: dbAsset(ch.assets?.drawCard || ch.assets?.avatar),
         title: titleOverride('hsr', displayName),
@@ -3949,7 +3949,7 @@ function buildPrydwenRoster(game, mapFacts, reqByName = null, skillIconsByName =
             currency: Number(req?.currency || 0) + Number(signatureReq?.cost || 0),
           }
         : null;
-      const icon = local.icon || dbAsset(character.assets?.roundIcon || character.assets?.avatar);
+      const icon = local.icon || dbAsset(chooseHsrCharacterIcon(character.assets, dbDir));
       const art = local.splash || dbAsset(character.assets?.drawCard || character.assets?.avatar) || icon;
       const profile = hsrProfileData(character);
       chars.push({

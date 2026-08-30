@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "before-the-finish-line",
+  "name": "Before the Finish Line",
+  "sortId": 166568,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Before_the_Finish_Line",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "@AstropolisRacingObserver"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Legendary racer Obatala sat down with Interastral Peace Entertainment during a promotional event. Here's the full interview:"
+                  }
+                ]
+              }
+            ],
+            "id": "p-5190b449d8355b7b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On Racing Traditions"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's true, as you said, racing in Astropolis has a long history, dating all the way back to the horse-drawn chariot races before the Space Age. It's always been a loud, rowdy, chaotic sport, where people competed as much to make a social statement as to actually win. That said, in the ancient past, the losing side had a nasty habit of sparking full-on riots. Which, honestly, just goes to show how far Astropolis has come as a civilized society. Lately, some fans have been talking about bringing back the \"culture of rivalry\" from ancient times... Heating things up is always fun, but I'd hate to see things go so far off the rails that they ruin the spectacle of the sport."
+              }
+            ],
+            "id": "p-eb9a5e10c08da0fd"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On Racing"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Contrary to what many might assume, the most critical factor in a race isn't the driver's skill, but the car's performance and how well the tires grip the track. If everyone were driving the same car, the gap between professional racers would be minimal, nothing like the huge margins we see in actual competitions. Of course, better teams tend to pick better racers, and that combination of strengths only widens the gap we witness on race day even further."
+              }
+            ],
+            "id": "p-a8d791fece7a001c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On Endurance Racing"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In endurance racing, the longer race time and more complex conditions mean that the human factor tends to outweigh the car's performance. This is especially true in rally raids, where a single bad call could mean dehydration, heatstroke, or worse life-threatening situations. Sure, endurance racing might be considered more \"hardcore\" than sprint racing. But the unique festive atmosphere of sprint racing is what makes car racing what it is. Sprint racing is the crown jewel of motorsports, no question about it."
+              }
+            ],
+            "id": "p-46ef2bc1d132b14b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On Stunt Racing"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stunt racing is a unique branch of motorsports. Some even argue whether it should be called \"racing\" at all. Honestly, I find that question a bit absurd. As I said earlier, it's the festive spirit that defines racing. Stunt racing has its own distinct festival vibe, which is something that neither sprint nor endurance racing can replicate. Racing is a sport, but more than that, it's a culture."
+              }
+            ],
+            "id": "p-2ae3619d9b8d8c9a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "On Future Plans"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We're currently developing a brand-new racing format. With technological support from the event organizers, we aim to grant vehicles from all across the cosmos the performance of top-tier racecars. This is so that they can shine on the tracks of Astropolis. This will bring the event a one-of-a-kind festive flair. Stay tuned, you won't want to miss it."
+              }
+            ],
+            "id": "p-0a555325c1e10a47"
+          }
+        ]
+      }
+    }
+  ]
+}

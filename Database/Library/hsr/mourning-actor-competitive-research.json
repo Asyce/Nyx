@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "mourning-actor-competitive-research",
+  "name": "Mourning Actor Competitive Research",
+  "sortId": 166561,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mourning_Actor_Competitive_Research",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Publisher:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Mourning Actors"
+              }
+            ],
+            "id": "p-bd7638f629897eba"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Distribution:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Free to Share"
+              }
+            ],
+            "id": "p-e63e270ba35b53f1"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Possible Competition Theory:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Attention Competition"
+              }
+            ],
+            "id": "p-7dfd13ba22435775"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Recent notable works:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Eternal Return of the Sinful Revelation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Last Lecturer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ","
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Funeral for Seven Espers"
+                  }
+                ]
+              }
+            ],
+            "id": "p-fe9535ad8721cd28"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Conclusion:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No commercial value. These works are virtually unmarketable and have next to no chance of resonating with our core audience."
+              }
+            ],
+            "id": "p-ccf65420d83e0ff9"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Brief Analysis:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(1) The Mourning Actors' funding comes primarily from anonymous donations by patrons, which means they rarely have to consider audience experience or commercial viability when creating their work. While this freedom allows them to produce genuinely remarkable artistic pieces, it does nothing to fix their chronic problem of having an extremely high barrier to entry and a vanishingly small audience."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(2) Take"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Eternal Return of the Sinful Revelation"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "as an example. The film's protagonist is a completely amoral, dissolute layabout who somehow falls head over heels for a statue of a Holy Maiden, and proceeds to murder the monastery's abbess just so he can take her place and spend his days gazing at it. By the time he's old and gray, a lifetime of playing the hypocrite has made him the most venerated figure on the entire planet. From the point of view of the average commercial audience, a protagonist this fundamentally broken is a hard sell from the start, and the film's gleeful dismantling of social norms and basic decency would be an absolute PR disaster in any mainstream market."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(3) What's more, the Mourning Actors' works almost invariably end with the protagonist dying in some form. Suicide being a particular favorite, each work is almost entirely self-contained. This makes commercial IP development a near-impossibility: fans of character A have virtually no reason to care about character B. The content is so extreme, so incompatible, and at times so outright contradictory that finding common ground between audiences is already a stretch. Building a theme park or an IP portfolio around any of it is simply out of the question."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(4) Finally, the Mourning Actors seem to have an almost obsessive commitment to philosophical depth in their content, which means their core audience skews heavily toward the intellectual class, people who almost never make impulse purchases and who are fervent champions of open-source sharing. The commercial value of this demographic is, frankly, rock-bottom. Even earning their wholehearted praise rarely translates into any meaningful profit for the creators."
+              }
+            ],
+            "id": "p-9f7fc626d067af84"
+          }
+        ]
+      }
+    }
+  ]
+}

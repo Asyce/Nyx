@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "postmortem-employment-agreement",
+  "name": "Postmortem Employment Agreement",
+  "sortId": 166552,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Postmortem_Employment_Agreement",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Effective Date:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Party A: Interastral Peace Corporation Postmortem Employment Center (hereinafter referred to as the \"Center\")"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Party B:"
+              }
+            ],
+            "id": "p-2e9cde77ef6d46cf"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In accordance with Articles 2 through 135, Subsection 3 of the \"Postmortem Employment Act,\" both parties hereby enter into the following agreement regarding labor and employment:"
+              }
+            ],
+            "id": "p-8aff590f588acc5c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1. Nature of Employment and Position"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1.1 At-Will Retention Policy: The employment relationship established under this Agreement is of a \"unilateral at-will\" nature. The Center reserves the right to execute expulsion or transcendence against Party B at any time, for any reason (including but not limited to structural redundancy, resource quota adjustments, or subjective displeasure from management), without prior notice or severance pay. Party B does not retain the right to resign voluntarily."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1.2 Position Description: Party B shall be assigned to . The Center reserves the right to reassign Party B at any time."
+              }
+            ],
+            "id": "p-cce1e28dc5d07901"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Working Hours & System Availability"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2.1 Uninterrupted Operation: Given that Party B does not require biological restorative rest, Party B's standard working hours shall be three-quarters of a day (eighteen system hours) per day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2.2 Inactivity Penalty: Party B's state of existence must remain available at all times. Any \"off-duty\" status caused by weakening, dissipation of obsession, or inattention shall be considered a breach of contract, and shall be recorded against the monthly attendance log on a per-second basis."
+              }
+            ],
+            "id": "p-bb142178a6ed2b38"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. Compensation and Wishpower Allocation"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3.1 Credit Compensation: Base salary shall be credits per month. Party B acknowledges and agrees to receive such compensation at a conversion rate of ten credits to one unit of Wishpower."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3.2 Basic Sustenance Permit: The Center shall supply Party B with sufficient Wishpower through the city's Wishpower network to maintain Party B's form and prevent total collapse."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "3.3 Debt Deduction: Any \"environmental burden fees\" arising from Party B's occupation of corporate physical space, consumption of corporation server resources, or ambient temperature reduction during work shall be withheld from Party B's Wishpower wages prior to disbursement."
+              }
+            ],
+            "id": "p-d69659508ab2e05d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Work Environment & Benefits"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4.1 The Center is obligated to provide Party B with a work environment appropriate to their ghost nature, as well as the necessary equipment and network connectivity required for the performance of their duties."
+              }
+            ],
+            "id": "p-ecb56b23973a7c52"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Intellectual Property and Related Restrictions"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5.1 The Interastral Peace Entertainment reserves full ownership, copyright, and property rights over all memetic assets and physical resources produced by Party B during the term of employment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "5.2 Non-Compete Clause: Without prior written consent from Party A, Party B shall not engage in any acts of \"haunting, possession,\" or any commercial/supernatural activities that compete with Party A's business in any territory for a period of five Amber Eras following Party B's departure from the central organizational structure."
+              }
+            ],
+            "id": "p-d3f851f88a223532"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Signature:"
+              }
+            ],
+            "id": "p-2037c4dc6dddae1e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Party A Representative Signature: Mallory Neil"
+              }
+            ],
+            "id": "p-b39a6e6f073f3941"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Party B Signature:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Note: If Party B is unable to sign due to confusion in memory, lack of physical hands, or other reasons, the act of absorbing Wishpower through the Center's facilities constitutes full comprehension and agreement to all terms listed in this agreement.)"
+              }
+            ],
+            "id": "p-a23436f57eeb2f80"
+          }
+        ]
+      }
+    }
+  ]
+}

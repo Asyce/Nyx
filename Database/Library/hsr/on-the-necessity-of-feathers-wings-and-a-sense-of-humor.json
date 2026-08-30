@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "on-the-necessity-of-feathers-wings-and-a-sense-of-humor",
+  "name": "On the Necessity of Feathers, Wings, and a Sense of Humor",
+  "sortId": 166547,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/On_the_Necessity_of_Feathers,_Wings,_and_a_Sense_of_Humor",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A page from a stand-up script, probably left behind by the performer after the show."
+                  }
+                ]
+              }
+            ],
+            "id": "p-ce2d8e01a64fb1b4"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Bit: Feathers\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ahem, speaking of feathers, they're the crown jewel of us Zatzka folk. Our calling card, if you will."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Flaps arms out)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Every morning, I take a soft-bristle brush and run it along my plumage, then slather on some feather conditioner, secret recipe, straight from the Xianzhou, and top it all off with a solid twenty minutes of stretching. Gotta keep those feathers fluffy and gleaming."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(With utmost seriousness)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not bad, right? So last weekend, I hit up a clothing store. Walked out of the fitting room in a new jacket, and the next thing I know: I'm surrounded. People are grabbing the sales clerk, going: \"How many of these do you have in stock? I'll take every last one!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Turns to an audience member)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yeah, that's the look. Don't get any ideas, pal. These aren't coming off to stuff your winter coat!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Pauses for laughter)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Honestly, though? For us, these feathers are way more useful than they are pretty. But that's a whole other bit."
+              }
+            ],
+            "id": "p-d98dfe9cadd23d24"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Bit: Wings\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Anyone here ever watched the Zatzka Brawl Tournament? As the name suggests, it's the premier event where Zatzkas gather to crown the strongest among us. As a sports variety show, its ratings have been through the roof every single season."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Mimes a few moves toward the audience)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Inside the octagon, two mighty giant birds go at it in fierce combat, neither willing to be the first to fall. Their hardened feathers deflect each other's claw strikes, turning the bout into a grueling test of stamina and ground game."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "First-time viewers always ask the same question: Why don't they just fly up and attack from above?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Shrugs helplessly)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Truth is, a long time ago, our Zatzka ancestors did have the ability to soar through the skies. But wings alone can't carry you into outer space."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When we boarded starships and embraced the galaxy, a few... minor evolutionary trade-offs came with the territory—"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We developed sturdier muscles and bones to adapt to the gravity of different planets, and we grew prehensile forelimbs to manipulate tools. In the end, we became champions claimed by the land."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Pats chest proudly)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After all, when your journey spans the sea of stars, keeping your feet firmly on the ground matters a whole lot more than hovering a few feet off it."
+              }
+            ],
+            "id": "p-f75d32a6e7cce06b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Bit: Humor\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(With a more serious expression)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So here's the question: when a species is blessed with the symbol of flight, but the door to the sky is locked shut... what do they become?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The answer is: they walk to work."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Waits for laughter)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The deeper answer is: they have to develop something else, something to help them come to terms with this grounded fate."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Some stick to tradition, striving to become the mightiest warriors. Others ride the tides of trends, commanding the gaze of thousands through the lens."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As for me? I found my way out in stand-up comedy."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Relaxing posture)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "At the end of the day, humor is one way of making peace with gravity."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "When I stand here, cracking jokes about the weighty reality that we can no longer fly, ironically, I feel a little lighter."
+              }
+            ],
+            "id": "p-5cd6031d1aa822be"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Below the script, a note is scrawled in the margins: The ingredient list of that Xianzhou feather essence is funnier than this. Might want to reconsider your career choice."
+                  }
+                ]
+              }
+            ],
+            "id": "p-793a552fd366ca7c"
+          }
+        ]
+      }
+    }
+  ]
+}

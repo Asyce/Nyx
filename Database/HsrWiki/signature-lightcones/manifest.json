@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-26T07:36:34.868Z",
+  "generatedAt": "2026-08-30T12:20:26.256Z",
   "source": "Honkai: Star Rail Wiki / Fandom MediaWiki API",
   "sourceExample": "https://honkai-star-rail.fandom.com/wiki/Patience_Is_All_You_Need",
   "minRarity": 5,
-  "startedAt": "2026-08-26T07:36:08.690Z",
+  "startedAt": "2026-08-30T12:19:45.677Z",
   "lightCones": [
     {
       "id": "23034",
@@ -643,6 +643,20 @@
       "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Reforged_Remembrance"
     },
     {
+      "id": "23063",
+      "name": "Rise and Sing",
+      "key": "riseandsing",
+      "rarity": 5,
+      "path": "Memory",
+      "status": "ok",
+      "characters": [
+        "Robin • Summeretto"
+      ],
+      "localAsset": "GameData/hsr/assets/lightcones/full/23063.webp",
+      "localIcon": "GameData/hsr/assets/lightcones/medium/23063.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Rise_and_Sing"
+    },
+    {
       "id": "23027",
       "name": "Sailing Towards a Second Life",
       "key": "sailingtowardsasecondlife",
@@ -725,6 +739,20 @@
       "localAsset": "GameData/hsr/assets/lightcones/full/23002.webp",
       "localIcon": "GameData/hsr/assets/lightcones/medium/23002.webp",
       "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Something_Irreplaceable"
+    },
+    {
+      "id": "23064",
+      "name": "Summer Rides the Surf",
+      "key": "summerridesthesurf",
+      "rarity": 5,
+      "path": "Elation",
+      "status": "ok",
+      "characters": [
+        "Aventurine • Waveflair"
+      ],
+      "localAsset": "GameData/hsr/assets/lightcones/full/23064.webp",
+      "localIcon": "GameData/hsr/assets/lightcones/medium/23064.webp",
+      "sourcePage": "https://honkai-star-rail.fandom.com/wiki/Summer_Rides_the_Surf"
     },
     {
       "id": "24002",

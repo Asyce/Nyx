@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "one-day-at-lodestar-tower",
+  "name": "One Day at Lodestar Tower",
+  "sortId": 166562,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/One_Day_at_Lodestar_Tower",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "9:00 AM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Camera Work for ''Metropolis Myths Show''"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just got to my desk this morning when Mr. Owlbert told me"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Metropolis Myths Show"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "was short a camera operator and needed me to fill in."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Honestly, touching another camera made me a little nervous. I've completely forgotten how to operate this old model, let alone its specific settings..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Luckily, the usual camera person had everything dialed in before they wrapped last time, and news broadcasts don't really require any fancy camera work, so once it was on, all I had to do was stand behind it."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It's just... After the anchor finished recording, they turned and asked, \"Why are there two cameras set up today?\""
+              }
+            ],
+            "id": "p-3963cac6e3da07ff"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "10:40 AM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Field Report: Trending Online"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ever since refugees from Planarcadia started arriving in Astropolis, the topic has been dominating the internet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'd seen a lot of unfriendly remarks online before heading out. But in fact, when I interviewed people in person, everyone was surprisingly warm, welcoming the refugees and eager to lend a hand..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I guess when the cameras are rolling, most people just put on a mask."
+              }
+            ],
+            "id": "p-41d754ca0e24ca9a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "12:30 PM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Field Team Lunch Team Building"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Had lunch with the field team colleagues today. Apparently, they tapped into an exclusive budget that only full-time employees can unlock."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The only downside? I don't come equipped with the full-time employee taste module, so I couldn't really tell what made it so special..."
+              }
+            ],
+            "id": "p-20b9fcfe75a5508b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2:30 PM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Hammering Out the ''Aetherium Wars'' Ad Campaign"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ugh, things have been so hectic lately that I completely forgot about the new Aether Spirit promo work I took on for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Aetherium Wars"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "... I've never handled anything like this before, so it's been a bit of a scramble. Thank goodness my colleagues have been absolutely amazing. After an intense hour of back-and-forth, we finally nailed down the ad campaign."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The publisher rep didn't seem too thrilled with how I did, though. The IPC trusted me with something this important because they believed in me... and yet I..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "How do I put this... I feel kind of bad about myself."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But, no time for moping, Carmella! The day's not over yet!"
+              }
+            ],
+            "id": "p-98635649d8f4f67d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "4:00 PM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "''Keeping Up With Star Rail'' Recording"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Helped Mr. Owlbert wrap up the latest episode of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Keeping Up With Star Rail"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". He is such a pro, sharp, charming, and absolutely magnetic on camera. Even sitting off to the side, you could feel his energy and charisma radiating across the whole set."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "It really makes you think: some people are just born for the spotlight!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I've genuinely learned so much from my time working alongside Mr. Owlbert."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh, and he even pulled some strings to get me a \"reporter-in-training\" name card. I am Mr. Owlbert's biggest fan for life!"
+              }
+            ],
+            "id": "p-c1031852d66bf791"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "6:00 PM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Equipment Pickup Tomorrow"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "According to the schedule, I'll be out in the field again tomorrow. Not that I mind fieldwork, but the production crew wants me to borrow a few pieces of equipment."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Being new here, I don't really know my way around yet."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Hmm... I spent forever wandering around Lodestar Tower and couldn't track down the person in charge. The staff in the equipment room just kept turning me away."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Guess I'll have to keep looking."
+              }
+            ],
+            "id": "p-522c3845b016dc47"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "7:30 PM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Equipment Checkout Follow-Up"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pickup from my last diary entry: turns out nobody bothered to tell me the staff in charge of the equipment checkout room had already clocked out two hours ago. And of course the elevator was under maintenance, so I had to hike up and down Lodestar Tower on foot..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Apparently, that senior staff is retiring next month, so his hours have been pretty flexible lately."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In that case, why not just hire another intern...?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Wait, never mind. What if the new hire turns out to be way too competent and steals my shot at a full-time position?"
+              }
+            ],
+            "id": "p-3f358dd1ccb1dba3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "11:21 PM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Research Notes for ''Keeping Up With Star Rail"
+                  }
+                ]
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The director's team told me it's time to start prepping for the next episode of"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Keeping Up With Star Rail'', so they've asked me to pull together some background info on the guests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But... I don't even know who the guests are yet!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ugh... At this hour, I'd feel bad bothering my coworkers. Guess I'll just go off the show's usual vibe and try to piece together what the next episode might look like..."
+              }
+            ],
+            "id": "p-245c0279edbc0302"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "2:34 AM"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Organizing To-Do Catalog"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "No good, no good. Without knowing who the guests are, there's no way to even get started on this!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "There is no other way, and it's already so late. If I don't rest now, my processing hub will have to reduce its frequency. Next time, best to communicate well with the other staff before pushing the work forward."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Oh, Carmella... you made so many mistakes today. Starting tomorrow, it's time to step up your game. Get that permanent position sooner rather than later!"
+              }
+            ],
+            "id": "p-d90f04a1d039791e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "——"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Carmella's Internship Diary, Vol. 123"
+                  }
+                ]
+              }
+            ],
+            "id": "p-c2ad9c19f413451a"
+          }
+        ]
+      }
+    }
+  ]
+}

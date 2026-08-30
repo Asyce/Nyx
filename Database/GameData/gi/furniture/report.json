@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T07:37:19.550Z",
+  "generatedAt": "2026-08-30T12:21:06.621Z",
   "sourceUrl": "https://gi.nanoka.cc/furniture/",
   "version": "7.0.52",
   "staticBase": "https://static.nanoka.cc/gi/7.0.52",
@@ -10,8 +10,8 @@
     "withAsset": 2258
   },
   "assets": {
-    "downloaded": 30,
-    "cached": 2228,
+    "downloaded": 0,
+    "cached": 2258,
     "missing": 2
   },
   "categoryCounts": {

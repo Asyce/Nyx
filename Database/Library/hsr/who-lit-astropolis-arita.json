@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "who-lit-astropolis-arita",
+  "name": "Who Lit Astropolis: Arita",
+  "sortId": 166543,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Who_Lit_Astropolis:_Arita",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "A torn page from a newspaper, seemingly recording a biography of \"Mr. Arita\""
+                  }
+                ]
+              }
+            ],
+            "id": "p-c3a2dd44865a1ece"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "By four in the morning, Mr. Arita had already begun his day's work. The moment he turned on his desk lamp, he lit the promise of another radiant day over Astropolis."
+              }
+            ],
+            "id": "p-513916acbee50ae9"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As the head of the IPC's Traditional Project Department, Senior Director Arita had long been beloved by his employees for his warm and kindly demeanor. Be it the sluggish low-value-added processing industries or the shrinking entertainment and film sectors, Mr. Arita sheltered them all beneath his wing like a doting father."
+              }
+            ],
+            "id": "p-2f54100c08fdd1a8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"These traditional projects, which once generated immense profits for the IPC's growth, may no longer keep pace with the times, but they deserve a place to retire in peace.\" Mr. Arita chuckled at his own words. \"Much like myself.\""
+              }
+            ],
+            "id": "p-f254f223b1bf0e9a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "It was that very promise that first kindled the lights of Astropolis, lights that would burn for laughter and endless joy."
+              }
+            ],
+            "id": "p-3ff0b7eb9ccab7ad"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Genesis of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In Amber Era 2147, in response to the \"wailing\" of the Epsilon system's neighboring star systems, the IPC embarked on an interstellar search to restore joy. Overcoming technological barriers, the IPC successfully supplied several Amber Eras' worth of \"comedy\" at a fraction of the expected cost. The wealth accumulated from the laughter of countless individuals became the cornerstone of what would rise as Astropolis."
+              }
+            ],
+            "id": "p-fee06a919aa14318"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Today, Astropolis is renowned across the cosmos for its flourishing entertainment sector and its status as a premier vacation destination. Few, however, are aware that this visionary undertaking originated from Louis Fleming's aspiration to cultivate harmony among the IPC's diverse divisions. Collaboration and innovation require fertile ground, and interdepartmental relations called for a space as inviting as a retreat."
+              }
+            ],
+            "id": "p-db317fb7f7a691f8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Thus, Astropolis was born."
+              }
+            ],
+            "id": "p-3d241dd336df21b1"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With blueprints personally drafted by Mr. Arita and construction overseen under his watch, Astropolis emerged as a venue for negotiation and exchange among the IPC's departments. High-ranking executives lounged by the shoreline, casting aside the wear of office life on recliners by the sand, before making their way to the \"Tide of Terminator\" Grand Hotel, where the Upside-Down Restaurant offered an unforgettable culinary experience. Over glasses of champagne, deals were struck and alliances forged."
+              }
+            ],
+            "id": "p-7dcf7465fde3850a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But peace and laughter were never meant to be the privilege of a privileged few. As the centuries passed, Astropolis opened its doors to all. It was only when tourists arrived in waves and laughter once again echoed in full across the land that the true Astropolis was truly complete."
+              }
+            ],
+            "id": "p-daf130b35965f51e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "More Than Just a \"Retirement Home\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Not everyone was sold on the lackluster track record of the \"Traditional Project Department.\""
+              }
+            ],
+            "id": "p-6c8d7e53889b9f5d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "As fading projects slipped from the galactic stage, all uncompetitive ventures found their way under Arita's wing, and with them, the Traditional Project Department came to be sneered at as a \"retirement home.\" Yet Mr. Arita, rather than bristling at the jibe, embraced it with a chuckle. However, he never ceased refining his plans for these \"traditional\" trades. Time and again, he resurrected moribund projects, coaxing them back into the light."
+              }
+            ],
+            "id": "p-c48352a0b7647a33"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The birth of the \"Servis\" robots was one such marvel. They began as naught but a sheaf of old blueprints, offered by a penniless traveler in lieu of payment. But in Mr. Arita's hands, these machines found a purpose, and a home, in Astropolis. From restaurants to entertainment to racing pit crews, you could find them in every corner of the city. Today, these robots, once destined for oblivion, have become an indispensable part of Astropolis's daily life, and a burgeoning industry now flourishes around the \"Servis\" brand."
+              }
+            ],
+            "id": "p-4615aeb18e605b08"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There are always those who cry crisis: \"The film industry is freezing,\" \"The economy is contracting\"... But Mr. Arita does not trouble himself with such talk."
+              }
+            ],
+            "id": "p-1861101588a84d5e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A shelter that welcomes any department is also a place that can attract the brightest minds. Yet Mr. Arita's ambition is simpler: he simply wishes to do more for the IPC, for the cosmos. Silent, kind, and unwavering, he is like the lamp he lights in the small hours, steady and calm, unassuming, waiting for countless stars to rise alongside him."
+              }
+            ],
+            "id": "p-2435c69fb1836dbc"
+          }
+        ]
+      }
+    }
+  ]
+}

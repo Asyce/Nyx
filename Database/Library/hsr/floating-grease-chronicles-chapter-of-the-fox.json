@@ -5,7 +5,7 @@
   "name": "Floating Grease Chronicles: Chapter of the Fox",
   "sortId": 137887,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Chapter_of_the_Fox",
-  "scrapedAt": "2026-08-26T07:37:21.160Z",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
   "volumes": [
     {
       "id": "1",
@@ -400,6 +400,206 @@
               }
             ],
             "id": "p-0759faccf174e3e1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "volumeKey": "part-xii",
+      "label": "Part XII",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The fox had a problem,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "for he couldn't sell his soul."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The thing was worth absolutely nothing,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "yet it insisted on squatting inside his head,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "consuming sugar and processing power alike."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The fox peeled back the soul he couldn't sell,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "layer by layer, like an onion,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "each layer less and less like himself."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The other, the other, always the other."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fields nested within fields,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "shadows layering upon shadows."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "〈ψ|Ô|ψ〉"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The fox gleefully declared that none of them were him."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Therefore, the soul does not exist,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and the problem was just phantom pain in disguise."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The next day, the fox had a brand-new problem,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "for he had lost his soul."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And with it, all his wealth"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "had suddenly lost its value to be spent."
+              }
+            ],
+            "id": "p-292732f1c4c5fef7"
           }
         ]
       }

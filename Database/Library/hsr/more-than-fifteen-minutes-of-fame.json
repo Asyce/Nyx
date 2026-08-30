@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "more-than-fifteen-minutes-of-fame",
+  "name": "More Than Fifteen Minutes of Fame",
+  "sortId": 166558,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/More_Than_Fifteen_Minutes_of_Fame",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Are you weary of your ordinary life?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Do you desire a moment bathed in the warm glow of the spotlight?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dear friend, we have heard your voice!"
+              }
+            ],
+            "id": "p-178d4b62d19b5a6a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Now, Starmaker Agency will roll out the red carpet just for you..."
+              }
+            ],
+            "id": "p-cf3ce94542c1fe2b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We cordially invite you to subscribe to the \"Immersive Superstar Experience Service\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Here, fame goes beyond just 15 minutes!"
+                  }
+                ]
+              }
+            ],
+            "id": "p-f9ab999198eb63a6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Starmaker Agency firmly believes in \"creating fame for those who have none.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We are dedicated to shattering the 15-minute rule, turning 15 minutes of fame into another 15 minutes again and again!"
+              }
+            ],
+            "id": "p-6729acaed76c3490"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Starmaker Agency offers the following tiered dream-fulfillment packages:"
+              }
+            ],
+            "id": "p-b73467d18205ad31"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lite Experience | 1-Day Celebrity Experience | 88,000 Credits Only"
+                  }
+                ]
+              }
+            ],
+            "id": "p-5a5832fdf6a13018"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Exclusive Styling Team: Carries out your head-to-toe transformation into a star"
+              }
+            ],
+            "id": "p-cf8367e853981b8f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hype Squad: Supports in-person yelling and hype atmosphere at designated locations, but upholds a strict zero tolerance policy against toxic fans"
+              }
+            ],
+            "id": "p-f4f5d94673e86947"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Public Opinion Simulation Team:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "50 genuine alt-accounts to slide into your DMs"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "50 genuine alt-accounts to DM you hate messages"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "4 clickbait accounts to create highlight reels from promotional videos"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "* All videos and messages will be deleted upon service conclusion"
+                  }
+                ]
+              }
+            ],
+            "id": "p-7a6f07cbf831d770"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Full Immersion | 3-Day Celebrity Experience | 888,000 Credits Only"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Includes Lite Experience package content)"
+              }
+            ],
+            "id": "p-81bde2d52ed14968"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hype Squad: Provides a hype atmosphere at three locations, including airports and hotels"
+              }
+            ],
+            "id": "p-5b6732acc9c920e0"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Public Opinion Simulation:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "150 genuine alt-accounts to slide into your DMs"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "50 genuine alt-accounts to DM you hate messages"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "13 clickbait accounts to create highlight reels from promotional videos"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "* May opt to extend maintenance for an additional two weeks upon service conclusion"
+                  }
+                ]
+              }
+            ],
+            "id": "p-6b0e514261d28880"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Personal On-the-Go Photography: Captures your most iconic shots"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "* This service includes 3 complimentary sample photos, and each additional photo costs 800 credits"
+                  }
+                ]
+              }
+            ],
+            "id": "p-cbc7f9aea331e98f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Ultimate Customization | 7-Day Dazzling Stardom Experience | 1,888,000 Credits Only"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "(Includes Full Immersion package content)"
+              }
+            ],
+            "id": "p-c2c0ab8972aa97b3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Custom Celebrity Itinerary: Recording studio and film set experience opportunities"
+              }
+            ],
+            "id": "p-14b065f7f76466b8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hype Squad: Follows you around, creating a hype atmosphere wherever you go"
+              }
+            ],
+            "id": "p-8202d763a821840e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Public Opinion Simulation:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2,000 genuine alt-accounts to slide into your DMs"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "188 genuine alt-accounts to DM you hate messages"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "28 clickbait accounts to create highlight reels from promotional videos"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "2 condensed personal interview videos"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "* May opt to extend maintenance for an additional three months upon service conclusion"
+                  }
+                ]
+              }
+            ],
+            "id": "p-e854e78b1dfd9ec5"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Personal On-the-Go Photography: Captures your most iconic shots"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "* This service includes 10 complimentary sample photos, and each additional photo costs 800 credits"
+                  }
+                ]
+              }
+            ],
+            "id": "p-07db4e9dd6d0ebb2"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To make a reservation immediately, please contact: ██████████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "P.S. We are recruiting extras at 800/day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "If you're interested, reach out through the above contact. We look forward to having you on board."
+              }
+            ],
+            "id": "p-535bfc7c902a6f1a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The contact number has been erased. Looks like this service was severely sanctioned by the Astropolis Network Administration."
+                  }
+                ]
+              }
+            ],
+            "id": "p-9310ca7445a53f53"
+          }
+        ]
+      }
+    }
+  ]
+}

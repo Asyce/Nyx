@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "under-the-light-of-the-lighthouse",
+  "name": "Under the Light of the Lighthouse",
+  "sortId": 166572,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Under_the_Light_of_the_Lighthouse",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Good morning, Astropolis! No prizes for guessing: how many villains has our great hero \"Lighthouse\" taken down recently? We'll skip straight to the answer: a whopping thirty! From the coastline to downtown, from emerging threats to seasoned villains, Lighthouse has proven through action that in Astropolis, darkness is always just a temporary blip."
+              }
+            ],
+            "id": "p-8d1684bc803ab37d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "At last month's beach seafood festival, \"Shallows\", a being capable of commanding marine life, emerged from the depths riding on a mosasaurus, determined to make off with all the seafood waiting to be cooked."
+              }
+            ],
+            "id": "p-e148b5c90382acd7"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But, evil is defeated under the light of the Lighthouse. Lighthouse, who happened to be right there, casually picked up a rock and hurled it at the mosasaurus, knocking it out cold. Shallows made it to the shore in a sorry state, and was greeted by Lighthouse, happily chowing down on skewered squid."
+              }
+            ],
+            "id": "p-4f2100b747ffea6c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Later, Lighthouse auctioned off that rock and donated all 500,000 credits to the Life Sciences Institute in support of their scientific research."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-0f23bef866f3d3de"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The classic villain Madam \"Fool\" makes her ninth return, using her superpowers to make every resident within a 5-kilometer radius of downtown suddenly forget what one plus one equals. The film"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "High-IQ Criminal"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", which was being shot downtown at the time, ended up looking more like"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Low-IQ Idiot"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "."
+              }
+            ],
+            "id": "p-cf9abc2b84d50703"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But, there is no place for villains to escape under the light of the Lighthouse. In no time, Lighthouse's laser eyes locked on to his target from a thousand miles out, and he flew straight to the scene, weapon in tow, and unleashed a devastating blow, shattering the intelligence-sapping field."
+              }
+            ],
+            "id": "p-b8f87efa91a4030f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "But how, you may be wondering, was Lighthouse not affected by the intelligence-sapping field? To that, experts explain: \"Lighthouse upholds justice through instinct, without the need for complex thinking. Turns out that's the perfect immunity to the Fools' abilities.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-ef62b7a55cc6ecb3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "New villain \"Slowpoke\" makes his debut with a bank heist. His slowing field reduces anything within his line of sight to move at a snail's pace — until a laser beam comes flying in from outside his field of vision."
+              }
+            ],
+            "id": "p-5c6094a85c3625f6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "That's right, no wrongdoing escapes judgment under the light of the Lighthouse. Just beyond the edge of Slowpoke's field of vision came the flash of Lighthouse's twin eyes. They launched a laser beam along a precise trajectory into the sky, which came streaking back down to strike Slowpoke square on the head, knocking him out cold on the spot."
+              }
+            ],
+            "id": "p-c19139650a87aa7c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Medical staff rushed Slowpoke to the hospital for emergency treatment, but it was too late. The scar on his head would stay there for the rest of his life."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-c2dd2757874138a3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "31 days, 30 criminals, 7,321 residents saved."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "100% win rate maintained."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Defeated the same villain with the same weapon for the ninth time."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Presented with these stunning battle records, a dismissive Lighthouse says: \"I only care about justice, not numbers.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Let us pay our highest respects to Lighthouse."
+              }
+            ],
+            "id": "p-f350747e6e53b591"
+          }
+        ]
+      }
+    }
+  ]
+}

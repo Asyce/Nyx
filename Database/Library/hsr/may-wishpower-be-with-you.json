@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "may-wishpower-be-with-you",
+  "name": "May Wishpower Be With You",
+  "sortId": 166542,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/May_Wishpower_Be_With_You",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": []
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Amber Era 2158, (Astropolis) Issue 30███510"
+                  }
+                ]
+              }
+            ],
+            "id": "p-92cd83a2375ec98d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To facilitate the introduction of highly specialized talents, effective immediately, \"Wishpower\" will be incorporated into the foundational energy supply of Astropolis. It will be delivered via biological carriers to fill quantum airspace across the city."
+              }
+            ],
+            "id": "p-21ddfcd22216bc4d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In accordance with the \"Astropolis Engineering Safety Accord,\" the underlying generation mechanism and interaction logic of this energy source are hereby disclosed as follows:"
+              }
+            ],
+            "id": "p-973867bafb33cd48"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Wishpower\" is a special form of energy originating from the Elation-associated world \"Planarcadia,\" with properties situated between the material and informational states. The endemic species of Planarcadia, the \"imagenae,\" are born from Wishpower and depend on it for their continued existence."
+              }
+            ],
+            "id": "p-9167ea7b049fed14"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Following a survey of Planarcadia's economic ecosystem, the relevant IPC departments have fully recognized the value of this species' capabilities and are pursuing localized integration. To this end, under the direction of Ms. Yabuli, head of the Technology Department, the Life Sciences Institute has developed a production and maintenance pipeline capable of approximating the properties of the \"Imagenae Moon,\" the source of Wishpower. This pipeline has successfully reproduced the first batch of Wishpower condensates, commonly referred to as \"wispae.\""
+              }
+            ],
+            "id": "p-3af8de88fe7cd27b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Wishpower manifests as a polymorphic, recyclable resource. When used to sustain physiological functions, it is not \"consumed,\" but rather transitions from an active to an inert state, from which it can be recovered and re-energized for reuse."
+              }
+            ],
+            "id": "p-cc4c8d6ba023331d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The re-energization of inert Wishpower can be broadly understood as an interaction between memes and consciousness, and as such, produces no physical byproducts or associated physical effects."
+              }
+            ],
+            "id": "p-c20d557368d75dc8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "In summary, after careful evaluation, the research team has confirmed that the introduction of Wishpower will have no observable impact on non-imagenae residents, and general citizens of Astropolis who are not imagenae will not incur any additional costs for this energy source."
+              }
+            ],
+            "id": "p-f107a0b62564aacd"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Employees and citizens are encouraged to take this resource transition in stride. For inquiries, please contact ████████████."
+              }
+            ],
+            "id": "p-dc0e7ea34c7ad013"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For the Amber Lord"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Technology Department — Life Sciences Institute Development Team"
+              }
+            ],
+            "id": "p-9a213ebed3900a0d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "※ Household pets may exhibit unusual behaviors such as \"staring blankly at the ceiling.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Non-Aether-based legacy equipment may show anomalous signals. These phenomena will decrease in frequency following the completion of the Wishpower release process."
+              }
+            ],
+            "id": "p-1a6221930e7d5ab0"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "P.S. The team is currently recruiting Wishpower Enablers. Applicants should have performance or design experience in comedy or tragedy. Interested parties, please contact the Technology Department."
+              }
+            ],
+            "id": "p-11c0ee90e4bb9f8f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "P.P.S. The current Wishpower concentration in Astropolis is insufficient to generate \"ideogenitive imagenae.\" Residents familiar with Planarcadia and the nature of Wishpower need not be overly concerned. See Appendix 2 for additional details."
+              }
+            ],
+            "id": "p-90fac4e6d4a00610"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Appendix 1: Urban Wishpower Concentration Distribution Map"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Appendix 2: Imagenae Species Compendium"
+              }
+            ],
+            "id": "p-fb26e06f47599bd0"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T07:34:31.663Z",
+  "generatedAt": "2026-08-30T12:17:57.502Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -5076,6 +5076,18 @@
           "localAsset": "GenshinWiki/birthday-art/mavuika/01-Mavuika Birthday 2025.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mavuika/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mavuika_Birthday_2025.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/png"
+        },
+        {
+          "file": "Mavuika Birthday 2026.png",
+          "title": "Mavuika Birthday 2026.png (2.53 MB)",
+          "localAsset": "GenshinWiki/birthday-art/mavuika/02-Mavuika Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Mavuika/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mavuika_Birthday_2026.png",
           "width": 1800,
           "height": 1800,
           "originalWidth": 3000,

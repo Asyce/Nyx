@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "hero-calibration-records",
+  "name": "Hero Calibration Records",
+  "sortId": 166573,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Hero_Calibration_Records",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "To ensure the ideological integrity of all \"Lighthouses,\" they will undergo periodic ideological education lectures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The following contains key records of the ideological calibration process for Lighthouse No. 996. Intended for internal use only, do not distribute."
+              }
+            ],
+            "id": "p-2f39fe5c16046eb8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Record No.: 369"
+                  }
+                ]
+              }
+            ],
+            "id": "p-a99c140b20b19e1c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Doctor, I've been feeling exhausted all the time lately. It's like... a kind of confusion... a restlessness... a sort of... numbness?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"What's going on, 996? Are you getting tired of being a hero?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No! Of course not! It's just... I've been seeing a lot of negative public opinion about the IPC lately, which keeps me wondering... is everything I'm doing really what a hero should be doing?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But 996, you are the IPC's chosen one, the hero of Astropolis. Everyone else can waver, but can you afford to?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I—\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"996, we all understand how you feel. Everyone cares about you, and everyone sympathizes with you, which is why you need to pull yourself together and live up to their expectations. Understand?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I understand. I'll do my best to get back on my feet.\""
+              }
+            ],
+            "id": "p-8b82b9e0935d2d5f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note: Upon detecting emotion fluctuations, first apply modular empathy statements to stabilize the subject, then attempt to induce a sense of responsibility to suppress said emotions and temporarily resolve any mindset issue."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-734032042b6094b8"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Record No.: 957"
+                  }
+                ]
+              }
+            ],
+            "id": "p-34560f081f9524f6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"Doc, lately I keep wishing I had a name, something like John, or Gilman, you know. Is something wrong with me?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But you already have a name. 996. 'Lighthouse' — that is your name.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"No, I mean a real name. A human name. Not a hero's title or a string of numbers.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"996, we all understand how you feel. Everyone cares deeply about you, and we sympathize. But...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Doc, I just want to know who I am. I don't know who I am.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You are 'Lighthouse.'\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"'Lighthouse.' Hero. 996. Madam Yabuli's trusted aide... If I strip all of that away, what's left of me?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You're still 'Lighthouse'!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Doc, even if you lost your medical skills, your position at the Life Sciences Institute, your husband, your children... you wouldn't lose yourself. You'd still be Dr. Madeleine. But me? After losing all of this... beneath all that weighty powered armor... is there anything at all?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"You are 'Lighthouse.' You are no ordinary mortal like a John or a Gilman. Don't worry, you are far from hollow. Your heart is filled to the brim with the radiance of the Amber Lord.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I... I don't understand what you mean...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Picture a hollow lighthouse, 996. It has no fire of its own, yet it has countless windows. It does not produce light, but merely lets light pass through. The light comes from the Amber Lord, and through you, it shines into every dark corner. You are not an empty shell, but a vessel for divine radiance. The emptier the vessel, the purer it is, and the more worthy it becomes to carry THEM.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I understand... I'll keep doing my best...\""
+              }
+            ],
+            "id": "p-337ab0e9e54c7bc6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note: Upon detecting signs of identity confusion, reapply modular empathy statements to stabilize the subject, then attempt to resolve wavering convictions through moral instruction. Efficacy appears limited, so continued monitoring is required."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-2a623f9db5cf02b5"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Record No.: 2144"
+                  }
+                ]
+              }
+            ],
+            "id": "p-6ad0fc75b9f773a9"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "\"And you, doc, are the real hero!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Thank you for your kind words, 996. So, do you have any issues you'd like to discuss?\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Metrics, heroes, roleplay... Ah, I have absolutely zero issues! My mental state has never been better! I am on TOP of the world right now!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"996, please stay grounded. We all understand how you're feeling. Everyone cares about you and sympathizes with your situation. But...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"But there is only one kind of hero in this world, which is the kind who sees life for what it truly is, and loves it anyway. I am absolutely OBSESSED with you, Dr. Madeleine!\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Completely gone off the deep end, huh... Someone come deal with 'Lighthouse' No. 996 here.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I get it now, I get ALL of it! Hey, what are you doing!? Get your hands off me! I still have to be the IPC's hero!\""
+              }
+            ],
+            "id": "p-cd4d59edd2ac9425"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Note: Subject experienced a complete emotional breakdown. Long-term mindset recalibration has ended in failure, likely due to overuse of modular empathy statements. Unit 996 has been terminated per standard protocol."
+              }
+            ],
+            "id": "p-8e58f4d8abcce31e"
+          }
+        ]
+      }
+    }
+  ]
+}

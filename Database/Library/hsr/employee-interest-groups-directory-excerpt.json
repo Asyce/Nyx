@@ -1,0 +1,632 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "employee-interest-groups-directory-excerpt",
+  "name": "Employee Interest Groups Directory (Excerpt)",
+  "sortId": 166565,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Employee_Interest_Groups_Directory_(Excerpt)",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Below is a list of hobby and interest groups hosted by the IPC in the Astropolis region. All publicly accessible."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You can search for them directly through the IPC's information network, or contact the group owner to join."
+              }
+            ],
+            "id": "p-c624afe653fec785"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Kitty"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Cat Lover Group"
+              }
+            ],
+            "id": "p-a3962691b309e7e3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Puppy"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Dog Lover Group"
+              }
+            ],
+            "id": "p-bdc49ec5ccf6be0b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astropolis Telepathic Spider"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Groups 1–5 are full. Please join Group 6."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A cozy little chat room for the telepathic spider community. Membership turnover is pretty high."
+              }
+            ],
+            "id": "p-ad31c01c5776be86"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astropolis Zatzka"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Executive Chat. Restricted to P35+ employees. Identity verification required to join."
+              }
+            ],
+            "id": "p-55a12a9f10a0ad81"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "AstroBloom"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Group 2 is full. Please join Group 3"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A discussion group for horticulture and botany enthusiasts."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Discussion is limited to non-sapient species only. Please do not use this as a lifestyle vlog for plant-based races."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Fans of alien VStreamer \"Sparxie\" are prohibited from joining. Discussions about bananas are also strictly prohibited."
+              }
+            ],
+            "id": "p-ece6f4ab876b88d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I Can't Take Astropolis Anymore"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All 15 groups are full. No new groups will be created. Please wait for a member to leave or resign. Unless otherwise noted, the same applies below."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Intergalactic Travel & Exchange Group."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Despite numerous complaints about the group name, it will not be changed for the time being, per the founder's insistence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Please try to avoid venting work-related frustrations in the group chat."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Exercise caution with group-buy listings in the chat, especially those involving phrases like \"World-Ending Adventure,\" \"Experience the Trailblaze,\" or \"Good News for Banana Enthusiasts.\""
+              }
+            ],
+            "id": "p-bf29cbcfe5134d57"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "AstroFlea"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Spots available in Groups 2 and 3"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Barter & Trade Group"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Most members are employees who distrust the IPC's in-house secondhand marketplace, \"Fleapit,\" including, notably, the very team that developed it."
+              }
+            ],
+            "id": "p-29ce380d6bd3b62b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "AstroShock"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All 15 groups are full."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pan-Entertainment News & Discussion Group."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Please ensure compliance when chatting. Do not share sensitive information such as idol schedules, last fiscal year's revenue, etc."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ To prevent message flooding, posts in this group are subject to a long cooldown period."
+              }
+            ],
+            "id": "p-7cefbab90c1a6d10"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "AstroRace"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Groups 1–8 are full, please join Group 9"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A chat group for racing event enthusiasts."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ If you've suffered losses from sports betting, please keep your comments to yourself. Active drivers and racecars may be present in this group."
+              }
+            ],
+            "id": "p-a58388b0357804ed"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astropolis truly is a wonderful place, and what makes it so wonderful is"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Secondhand Sublet/Resale Housing Exchange Group"
+              }
+            ],
+            "id": "p-4515a3724ee7293c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "AstroMyriad"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Escape Room / Offline Puzzle Game Discussion Group"
+              }
+            ],
+            "id": "p-8c01fb7a560ca91e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Aeon"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Pathstrider Fan Club & Exchange Group"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Please refrain from any pointless fawning over individuals wanted by the IPC."
+              }
+            ],
+            "id": "p-9ca9cd59e86164a2"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Stars"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Stargazers and astronomy enthusiasts group"
+              }
+            ],
+            "id": "p-8c824a77c02f0249"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The group founder of Astro Anglers once reeled in a 64-pounder fish. Check the pinned message for the photo."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A gathering place for fishing enthusiasts."
+              }
+            ],
+            "id": "p-edfd026479235db2"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Frenzy"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A group chat dedicated to going unhinged and messing with \"Servis\""
+              }
+            ],
+            "id": "p-de5ee30a8eaab005"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Arita"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A fan community for Mr. Arita and Kenneth Arita"
+              }
+            ],
+            "id": "p-bf8a921a6a7830a5"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Astro Roast Duck"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Xianzhou Gourmet Exchange Group, managed by the owner of the Astropolis's rotating restaurant"
+              }
+            ],
+            "id": "p-561426627325dc4d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "My Computer"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Relationship and Lifestyle Exchange Group."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Originally named \"Astrolife,\" this chat group has consistently topped the charts for least active group chats year after year. After a Punklordian hacker distorted its name to \"My Computer,\" the group experienced a feverish surge in activity, and the name has stuck ever since."
+              }
+            ],
+            "id": "p-79034d114acd0f46"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "When Will Pier Point Explode"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A communication group for anti-IPC activities and related organizations. Complete identity verification to receive regular activity funding sponsored by the IPC."
+              }
+            ],
+            "id": "p-df9db4abb36775cf"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The list is being updated in real time. For group formation requests, please contact the Astropolis Employee Care Service Center."
+              }
+            ],
+            "id": "p-095ac841147afc2d"
+          }
+        ]
+      }
+    }
+  ]
+}

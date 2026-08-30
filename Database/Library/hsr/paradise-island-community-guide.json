@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "paradise-island-community-guide",
+  "name": "Paradise Island Community Guide",
+  "sortId": 166555,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Paradise_Island_Community_Guide",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Welcome to Astropolis! As you take in the intricacies and beauty of this media metropolis, we wholeheartedly invite you to visit Paradise Island, the residential community of Interastral Peace Entertainment's employees. Here, you'll have the chance to experience an immersive, up-close look at the model of a happy life, and experience the grand vision of the IPC Dream firsthand."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Allow us to give you a brief introduction..."
+              }
+            ],
+            "id": "p-764cb13e578050a3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "#WorkEssentials:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The standard-issue \"Astropolis Officer\" tech workwear line is equipped with temperature regulating, dust-repelling fabric. Clean, form-fitting, and enhances your gravitas! Your name card clipped on top only further enhances the sense of driven purpose you exude~"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "#VacationLooks:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Watch out for weekly curated outfit recommendations featuring pre-sale exclusives from Astropolis. Your style will be a step ahead of the pack. Don't stress about styling. You can look both effortlessly stylish and photogenic at once!"
+              }
+            ],
+            "id": "p-971efda983cc993b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "#NutritionPlan:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A big data algorithm creates your personalized daily meal plan with 3 meals based on individual physical stats and workload, and the \"Universal Companion Service Robot\" delivers them one by one. Every mouthful is a high-efficiency power-up fueling your ambition, confidence, and drive!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "#SnackFreely:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Vending machines packing 1000+ snack options roll right up to your doorstep. From cosmic favorite SoulGlad gummy candy, to specialty treats from border star systems! Whatever you crave, you can have. More snacking, more happiness!"
+              }
+            ],
+            "id": "p-9d690d4c531269f4"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "#FoldPhilosophy:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Switch your entire home between \"On Set Mode\" and \"Life Mode\" with a single button! Combine, reorganize, and tuck away furniture pieces to maximize every inch of your living space. Whether it functions as a stage or as a space to kick back and relax, even the tiniest apartment can pull off a hundred different looks. The motto: no compromise!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "#EcoAesthetics:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sunflowers or snap peas? Your garden, your call! With a little help from the gardening robot, it's never been easier to cultivate your own personal ecosystem. Line up your adorable plants to greet you, and turn every homecoming into a healing moment."
+              }
+            ],
+            "id": "p-0be2323977c0b77e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "#MultidimensionalTransportation:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What morning rush hour? The skies are open! The Astropolis shared \"Capsule Flight Cabin\" is ready to go, with dynamic load balancing, fully automated navigation, and a 15-minute express ride straight to the work zone. Your enjoyable commute is now for catching up on sleep, touching up your makeup, or chasing down a spark of inspiration!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "#FunExploration:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Beaches, parks, shopping districts, amusement parks... Every hot spot and event in Astropolis is fully unlocked! Let the smart travel assistant craft you a personalized itinerary and line up seamless transportation throughout. Plan smarter, reserve all your time for the views and vibes~"
+              }
+            ],
+            "id": "p-134ca4371753656d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We believe that a truly good life begins with the refined vision of a world-class team of cultural curators with the capacity to strip away the excess and distill existence down to its finest essence. When the mundane realities of daily life are swept aside, people reclaim precious time and energy to focus on their career development, personal growth, and inner contentment. Come to Paradise Island: come and discover that happiness really does have a right answer!"
+              }
+            ],
+            "id": "p-dbfae59338c03143"
+          }
+        ]
+      }
+    }
+  ]
+}

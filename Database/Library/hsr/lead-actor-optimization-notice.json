@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "lead-actor-optimization-notice",
+  "name": "Lead Actor Optimization Notice",
+  "sortId": 166556,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Lead_Actor_Optimization_Notice",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Miss Melligan:"
+              }
+            ],
+            "id": "p-ffaf55016301f3e4"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Hello!"
+              }
+            ],
+            "id": "p-79112ebc604e99b6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The production team had high hopes for you before you joined"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". The team hoped you'd bring fresh, vibrant content to this longstanding, fan favorite classic. But first, we owe you a confession. Right before your arrival,"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "had hit a bit of a bottleneck. Audiences had been complaining that our storylines were getting repetitive, and as audience ratings kept sliding, so did the production budget."
+              }
+            ],
+            "id": "p-40288de870b10b45"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "While you didn't have any standout credits to your name prior to joining this production, the team was won over by the humor and charm you showed during your audition. Hence, the team decided to give you a chance and, going forward, actively channel more resources your way. In a sense, our goal was to build you into a rising film and television star with massive appeal that went beyond"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". And, we hoped you'd become someone whose personal charisma would feed back into the entire production in turn."
+              }
+            ],
+            "id": "p-769b2dc460edff5f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The entire directorial team agreed that you had the looks and solid acting skills. You were just a little short on experience and that \"it factor.\""
+              }
+            ],
+            "id": "p-43e91235071aa4de"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Unfortunately, once filming and broadcasting began, your performance put the entire production team in a difficult position. How do I put this? You always seemed a little stiff in front of the camera, and your acting came across as unnatural and constrained. The sum of all of these factors was an alarming outcome. According to data from the program's operations team, episodes starring you as the lead had audience ratings 36.9% lower than those with other leads."
+              }
+            ],
+            "id": "p-cb308736a48ebf78"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The production team would certainly love to give you more time to learn and adjust. But time costs and ratings metrics are like the Sword of Damocles hanging over the director, the screenwriter, the cinematographer, the post-production crew... Everyone, including you and me, is pouring two hundred percent of themselves into"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". But these tanking audience ratings only render the production team's efforts futile..."
+              }
+            ],
+            "id": "p-782c390651ee0d72"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For your sake, and that of everyone on the production team, and after a five-hour discussion with the directorial team, we've had to make this difficult decision: as the artist manager for"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", I regret to inform you that your character, Melligan, will be officially written off in Season 4, Episode 396. In other words, next week's recording will be your final appearance."
+              }
+            ],
+            "id": "p-858b87ce046b11b7"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We hope you will be able to maintain your composure and put on a perfect curtain call."
+              }
+            ],
+            "id": "p-7c9382fc5e596557"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The production team appreciates your hard work and dedication during this time, and would like to offer you the opportunity to transfer to another crew. If you're interested, please send your resume and portfolio to my personal email."
+              }
+            ],
+            "id": "p-e2007aace08a7879"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Finally, on a personal note, your character's arc wrapping up in"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "does not mean you've lost your shot at being the main character. On the stage of life, everyone is the eternal protagonist of their own story."
+              }
+            ],
+            "id": "p-0277806e44fe5a75"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Meursolt"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Artist Management"
+              }
+            ],
+            "id": "p-d8d9b8b68a7d1c90"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "hsr",
-  "generatedAt": "2026-08-26T07:37:21.160Z",
-  "count": 625,
+  "generatedAt": "2026-08-30T12:21:08.250Z",
+  "count": 655,
   "entries": [
     {
       "id": "back-to-era-chrysea-handbook",
@@ -601,6 +601,20 @@
       ]
     },
     {
+      "id": "a-quick-guide-to-ipc-s-department-structure-that-even-march-7th-can-follow-along",
+      "name": "A Quick Guide to IPC's Department Structure That Even March 7th Can Follow Along",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
+      "file": "a-quick-guide-to-ipc-s-department-structure-that-even-march-7th-can-follow-along.json",
+      "sortId": 166566,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "a-scrawled-note",
       "name": "A Scrawled Note",
       "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
@@ -620,6 +634,20 @@
       "icon": "icons/b6cee0365e74252e050031b9836c4e07f82b7c75db3cbc2da21c62313f2e352b.webp",
       "file": "a-slate-guide-to-grove-flora.json",
       "sortId": 92235,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "a-slowing-air-backroom",
+      "name": "A Slowing Air: Backroom",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
+      "file": "a-slowing-air-backroom.json",
+      "sortId": 166575,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -776,6 +804,20 @@
       "icon": "icons/9483c0ef330560568a507f72f3f58e38d9b7455ba03e3827e53ac495496628c0.webp",
       "file": "aedes-elysiae-farmer-s-almanac.json",
       "sortId": 110488,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "afternoon-social-etiquette",
+      "name": "Afternoon Social Etiquette",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "afternoon-social-etiquette.json",
+      "sortId": 166564,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -1305,6 +1347,34 @@
       ]
     },
     {
+      "id": "astropolis-gig-weekly",
+      "name": "Astropolis Gig Weekly",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "astropolis-gig-weekly.json",
+      "sortId": 166554,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "astropolis-lifestyle-guide-issue-314",
+      "name": "Astropolis Lifestyle Guide (Issue 314)",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "astropolis-lifestyle-guide-issue-314.json",
+      "sortId": 166567,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "attack-records-of-the-obstacle-detection-terminal",
       "name": "Attack Records of the Obstacle Detection Terminal",
       "icon": "icons/d72c85c0b70e51d566976fcf4e379375e3f1e92299263d12f8eaa30c302ff51f.webp",
@@ -1353,6 +1423,20 @@
       ]
     },
     {
+      "id": "auction-calling-card",
+      "name": "Auction Calling Card",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "auction-calling-card.json",
+      "sortId": 166553,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "back-to-the-future-readable",
       "name": "Back to the Future",
       "icon": "icons/38c290ee25b6a773aec824da687471ec9bf49497810065c8115a35b3f8a2cdb0.webp",
@@ -1372,6 +1456,20 @@
       "icon": "icons/179168d1e630dc960f33d6f4e98dfb341ea2ce402c0a2fab40de99d23768b12c.webp",
       "file": "back-to-the-radiant-feldspar.json",
       "sortId": 44064,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "bad-jokes-permit-application-process",
+      "name": "Bad Jokes Permit Application Process",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "bad-jokes-permit-application-process.json",
+      "sortId": 166574,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -1470,6 +1568,20 @@
       "icon": "icons/5d5e2299f72e62d6655472a4edfe67bf82f86fda38aeae2949dbfb6cc8ff3240.webp",
       "file": "baths-management-memo-excerpt.json",
       "sortId": 84551,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "before-the-finish-line",
+      "name": "Before the Finish Line",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "before-the-finish-line.json",
+      "sortId": 166568,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -2273,6 +2385,20 @@
       ]
     },
     {
+      "id": "creative-futures-briefing",
+      "name": "Creative Futures Briefing",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "creative-futures-briefing.json",
+      "sortId": 166563,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "crumpled-paper",
       "name": "Crumpled Paper",
       "icon": "icons/179168d1e630dc960f33d6f4e98dfb341ea2ce402c0a2fab40de99d23768b12c.webp",
@@ -2430,6 +2556,20 @@
       "icon": "icons/9483c0ef330560568a507f72f3f58e38d9b7455ba03e3827e53ac495496628c0.webp",
       "file": "decree-of-the-seven-sages.json",
       "sortId": 91776,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "definitely-not-floating-grease-chronicles",
+      "name": "Definitely Not Floating Grease Chronicles",
+      "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
+      "file": "definitely-not-floating-grease-chronicles.json",
+      "sortId": 166910,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -3051,6 +3191,20 @@
       ]
     },
     {
+      "id": "employee-interest-groups-directory-excerpt",
+      "name": "Employee Interest Groups Directory (Excerpt)",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "employee-interest-groups-directory-excerpt.json",
+      "sortId": 166565,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "engine-of-creation-component-improvement-proposal",
       "name": "Engine of Creation Component Improvement Proposal",
       "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
@@ -3380,14 +3534,16 @@
       "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
       "file": "floating-grease-chronicles-chapter-of-the-fox.json",
       "sortId": 137887,
-      "volumeCount": 2,
+      "volumeCount": 3,
       "volumeLabels": [
         "I",
-        "VII"
+        "VII",
+        "Part XII"
       ],
       "volumeKeys": [
         "i",
-        "vii"
+        "vii",
+        "part-xii"
       ]
     },
     {
@@ -3414,16 +3570,18 @@
       "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
       "file": "floating-grease-chronicles-chapter-of-the-monkey.json",
       "sortId": 137889,
-      "volumeCount": 3,
+      "volumeCount": 4,
       "volumeLabels": [
         "I",
         "XI",
-        "Part XXIII"
+        "Part XXIII",
+        "Part XXIX"
       ],
       "volumeKeys": [
         "i",
         "xi",
-        "part-xxiii"
+        "part-xxiii",
+        "part-xxix"
       ]
     },
     {
@@ -4031,6 +4189,20 @@
       ]
     },
     {
+      "id": "hero-calibration-records",
+      "name": "Hero Calibration Records",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "hero-calibration-records.json",
+      "sortId": 166573,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "herta-asset-damage-evaluation-list",
       "name": "Herta Asset Damage Evaluation List",
       "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
@@ -4595,6 +4767,20 @@
       ]
     },
     {
+      "id": "lead-actor-optimization-notice",
+      "name": "Lead Actor Optimization Notice",
+      "icon": "icons/473e708edbe1a057da61cc8a6fca2f7a65f46ca3d9b451c6c089120f6e2195ff.webp",
+      "file": "lead-actor-optimization-notice.json",
+      "sortId": 166556,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "lecture-notes-hypothesis-on-imagenae-evolution-excerpt",
       "name": "Lecture Notes: Hypothesis on Imagenae Evolution (Excerpt)",
       "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
@@ -5095,6 +5281,20 @@
       ]
     },
     {
+      "id": "may-wishpower-be-with-you",
+      "name": "May Wishpower Be With You",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "may-wishpower-be-with-you.json",
+      "sortId": 166542,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "meal-list-of-unknown-origin",
       "name": "Meal List of Unknown Origin",
       "icon": "icons/017858380dbb6d434d4a73c6e6fa5d883c7b5c55199d69bbb5e34b0ad307ee32.webp",
@@ -5395,6 +5595,20 @@
       ]
     },
     {
+      "id": "more-than-fifteen-minutes-of-fame",
+      "name": "More Than Fifteen Minutes of Fame",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "more-than-fifteen-minutes-of-fame.json",
+      "sortId": 166558,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "mortis-secret-letter",
       "name": "Mortis' Secret Letter",
       "icon": "icons/9483c0ef330560568a507f72f3f58e38d9b7455ba03e3827e53ac495496628c0.webp",
@@ -5422,6 +5636,34 @@
       "volumeKeys": [
         "part-i",
         "part-ii"
+      ]
+    },
+    {
+      "id": "mourning-actor-competitive-research",
+      "name": "Mourning Actor Competitive Research",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "mourning-actor-competitive-research.json",
+      "sortId": 166561,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "mr-ratite-s-challenge-invitation",
+      "name": "Mr. Ratite's Challenge Invitation",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "mr-ratite-s-challenge-invitation.json",
+      "sortId": 166571,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {
@@ -5512,6 +5754,20 @@
       "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
       "file": "natasha-s-list.json",
       "sortId": 4782,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "new-era-greetings",
+      "name": "New Era Greetings",
+      "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
+      "file": "new-era-greetings.json",
+      "sortId": 166544,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -5987,6 +6243,20 @@
       ]
     },
     {
+      "id": "on-the-necessity-of-feathers-wings-and-a-sense-of-humor",
+      "name": "On the Necessity of Feathers, Wings, and a Sense of Humor",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "on-the-necessity-of-feathers-wings-and-a-sense-of-humor.json",
+      "sortId": 166547,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "on-the-truth-of-prophecies",
       "name": "On the Truth of Prophecies",
       "icon": "icons/b6cee0365e74252e050031b9836c4e07f82b7c75db3cbc2da21c62313f2e352b.webp",
@@ -6016,6 +6286,20 @@
         "page-one",
         "page-two",
         "page-three"
+      ]
+    },
+    {
+      "id": "one-day-at-lodestar-tower",
+      "name": "One Day at Lodestar Tower",
+      "icon": "icons/101dd6a2e169ce598606ea59592e1769a9d2c622e3c8c5da916c0dc743ee68f4.webp",
+      "file": "one-day-at-lodestar-tower.json",
+      "sortId": 166562,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {
@@ -6188,6 +6472,20 @@
         "page-richie",
         "page-chaletka",
         "page-gabbana"
+      ]
+    },
+    {
+      "id": "paradise-island-community-guide",
+      "name": "Paradise Island Community Guide",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "paradise-island-community-guide.json",
+      "sortId": 166555,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {
@@ -6509,6 +6807,20 @@
       ]
     },
     {
+      "id": "postmortem-employment-agreement",
+      "name": "Postmortem Employment Agreement",
+      "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
+      "file": "postmortem-employment-agreement.json",
+      "sortId": 166552,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "prayers-of-the-oronyx-altar",
       "name": "Prayers of the Oronyx Altar",
       "icon": "icons/9483c0ef330560568a507f72f3f58e38d9b7455ba03e3827e53ac495496628c0.webp",
@@ -6621,11 +6933,39 @@
       ]
     },
     {
+      "id": "ranks-and-privileges-the-social-pyramid-of-astropolis",
+      "name": "Ranks and Privileges: The Social Pyramid of Astropolis",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "ranks-and-privileges-the-social-pyramid-of-astropolis.json",
+      "sortId": 166551,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "rap-battle-voting-channel-opens",
       "name": "Rap Battle Voting Channel Opens",
       "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
       "file": "rap-battle-voting-channel-opens.json",
       "sortId": 8488,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "ratite-s-selection-private-collection-auction-catalog",
+      "name": "Ratite's Selection: Private Collection Auction Catalog",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
+      "file": "ratite-s-selection-private-collection-auction-catalog.json",
+      "sortId": 166570,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -7088,6 +7428,20 @@
       "icon": "icons/9483c0ef330560568a507f72f3f58e38d9b7455ba03e3827e53ac495496628c0.webp",
       "file": "scattered-class-notes.json",
       "sortId": 110485,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "scattered-gold-cloud-observation-notes",
+      "name": "Scattered Gold Cloud Observation Notes",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "scattered-gold-cloud-observation-notes.json",
+      "sortId": 166559,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -7568,6 +7922,20 @@
       "volumeKeys": [
         "part-one",
         "part-two"
+      ]
+    },
+    {
+      "id": "suggestion-box-data-analysis",
+      "name": "Suggestion Box Data Analysis",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
+      "file": "suggestion-box-data-analysis.json",
+      "sortId": 166569,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
       ]
     },
     {
@@ -8275,6 +8643,20 @@
       ]
     },
     {
+      "id": "the-superstar-s-secret-recipe",
+      "name": "The Superstar's Secret Recipe",
+      "icon": "icons/f3b2af1c279c1609754f5d5b99361253ce95cddc6231fc1b1df7ab16c976c9af.webp",
+      "file": "the-superstar-s-secret-recipe.json",
+      "sortId": 166557,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "the-traveler-who-survived-the-blizzard",
       "name": "The Traveler Who Survived the Blizzard",
       "icon": "icons/56c8ac8f4d4d1ad905511d1d4f9c9233c321029bf3f19fa29e0dbe4f9403a572.webp",
@@ -8568,6 +8950,20 @@
       "icon": "icons/7ea92c3fb2244a4c428b645588de9c7cf302d33afdc6aebd1866773e6fa4dcf3.webp",
       "file": "undelivered-prayer-book.json",
       "sortId": 133660,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "under-the-light-of-the-lighthouse",
+      "name": "Under the Light of the Lighthouse",
+      "icon": "icons/8ce8a1182b4a8821c3eab5eb80a1359df47d24b4b9504647c9728f70370afde0.webp",
+      "file": "under-the-light-of-the-lighthouse.json",
+      "sortId": 166572,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"
@@ -8967,6 +9363,20 @@
       ]
     },
     {
+      "id": "who-lit-astropolis-arita",
+      "name": "Who Lit Astropolis: Arita",
+      "icon": "icons/3a1a1ded5442b23a9cad32355c031795ead0c6e528d2c0823e2be21531bf10d5.webp",
+      "file": "who-lit-astropolis-arita.json",
+      "sortId": 166543,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
       "id": "who-wins-the-last-war-torn-page",
       "name": "Who Wins the Last War (Torn Page)",
       "icon": "icons/9483c0ef330560568a507f72f3f58e38d9b7455ba03e3827e53ac495496628c0.webp",
@@ -9170,6 +9580,20 @@
       "icon": "icons/5d5e2299f72e62d6655472a4edfe67bf82f86fda38aeae2949dbfb6cc8ff3240.webp",
       "file": "zephyro-s-proverb.json",
       "sortId": 129974,
+      "volumeCount": 1,
+      "volumeLabels": [
+        "Text"
+      ],
+      "volumeKeys": [
+        "text"
+      ]
+    },
+    {
+      "id": "zero-tolerance-penalty",
+      "name": "Zero-Tolerance Penalty",
+      "icon": "icons/6abf8f5671277ab1f407b52322a960e8241798b49184fa53c41dd692f3ca8eba.webp",
+      "file": "zero-tolerance-penalty.json",
+      "sortId": 166560,
       "volumeCount": 1,
       "volumeLabels": [
         "Text"

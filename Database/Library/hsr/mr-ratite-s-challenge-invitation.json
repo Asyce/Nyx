@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "mr-ratite-s-challenge-invitation",
+  "name": "Mr. Ratite's Challenge Invitation",
+  "sortId": 166571,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Mr._Ratite%27s_Challenge_Invitation",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Ratite"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Greetings, friends from across the galaxy! The latest round of Mr. Ratite's Challenge is just around the corner. To spice things up and get more fans involved in the show, starting today, Mr. Ratite is putting out an open call for challenge ideas to the entire galaxy. If you have a fun, creative concept, not only do you stand to walk away with huge credit rewards, but you'll also score a spot in the episode's recording, going head-to-head with other challengers for a shot at the million-credit big prize!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Ratite's Sidekick"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dear fans, hurry and drop your submissions in the comments below!"
+                  }
+                ]
+              }
+            ],
+            "id": "p-58a688f8b1dea93c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Dewide Chungus"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "If you're paying, then I'm eating! The Freeloading Grand Challenge.\nParticipants disguise themselves as homeless, and collect as much food as possible through tips, donations from kind strangers, and so on. Whoever chows down the most in a single day wins."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Ratite's Sidekick"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Looking at this submitter's track record, it seems like someone's just angling for free meals again. We've covered way too many challenges like this. Pass for now."
+                  }
+                ]
+              }
+            ],
+            "id": "p-94fa63d2c0a409af"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Star of Astropolis Talent Agency"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Million-Party Battle Royale!\nRecruiting 1,000,000 influencers from every civilization across the entire cosmos to team up and clash in games over 100 days. 990,000 participants will be eliminated, and cancelled across the entire cosmos, leaving only 1 survivor to claim all the resources of the other 990,000!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Ratite's Sidekick"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Not a bad idea, noted. But 1,000,000 minus 1 surely equals 999,999, not 990,000. Could the employees of the Astropolis entertainment brush up on their studies a bit?"
+                  }
+                ]
+              }
+            ],
+            "id": "p-6c232433ff8d8bd1"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Brought Together by Fate"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Bail Out Grand Challenge!\nRecruit ten ordinary folks, have them go into hiding across different locations, then have the IPC security team unleash a dragnet to catch them all. High-stakes thrills AND living out the fantasy of sticking it to the IPC — how great would that be?"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Ratite's Sidekick"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "We've actually ran something like this before. Looks like this viewer missed a few episodes. Last time around, one of the \"ordinary folks\" turned out to be a Galaxy Ranger, who got away with the prize money in the end, leaving a considerable bill owed to the security team. That challenge will not be repeated anytime soon."
+                  }
+                ]
+              }
+            ],
+            "id": "p-62c1ab1f07778a27"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gourmud VI: Charles Gourmud"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Ancestral Tribute Challenge!\nAs everyone knows, the House of Gourmud boasts a long and storied tradition. Next month marks the birthday of our founding ancestor. As such, we wish to host an event in their honor, following the ancestral traditions of the Gour████..."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Message Board Admin"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Apologies, the content you are attempting to view has been intercepted by the Interastral Peace Corporation."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Mr. Ratite's Sidekick"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "...By the time I realized what I was reading, it was already too late. Mr. Ratite owes me hazard pay for even laying eyes on this submission."
+                  }
+                ]
+              }
+            ],
+            "id": "p-d0abb13ce3ac3867"
+          }
+        ]
+      }
+    }
+  ]
+}

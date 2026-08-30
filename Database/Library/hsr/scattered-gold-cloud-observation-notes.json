@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "scattered-gold-cloud-observation-notes",
+  "name": "Scattered Gold Cloud Observation Notes",
+  "sortId": 166559,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Scattered_Gold_Cloud_Observation_Notes",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 4)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Another one I guessed right!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "These media outlets can really downplay things. Read this: \"A scattered gold cloud drifted over to his beach chair and buried him under a massive pile of gold coins, leaving him seriously injured but also showering him with so much wealth that he need not work for another two or three Amber Eras...\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Sure, getting pelted by all those gold coins landed him in the hospital. But what's his hospital bill compared to the 100 million credits he walked away with?"
+              }
+            ],
+            "id": "p-96efc06fea92c338"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "My friends told me not to overthink it, that it's all just dumb luck... As if! Those tycoons didn't get where they are by being clueless. I bet this is one big, carefully crafted puzzle, and they're rewarding whoever's sharp enough to crack their code and get on their wavelength!"
+              }
+            ],
+            "id": "p-bdeab55082b00b42"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I'm quitting my job to focus all my time on cracking this mystery!"
+              }
+            ],
+            "id": "p-7c3eb40420d8a160"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "There were lucky winners for three days in a row, but there's nothing so far on the fourth day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So, the Fibonacci sequence, huh. I bet a scattered golden cloud will show up again tomorrow!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I'm already running scripts to map out the topology of Astropolis's main roads."
+              }
+            ],
+            "id": "p-8022c3a9478a46a3"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 5)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yep, a scattered gold cloud appeared again, near the warehouse of the No. 5 Astropolis Public Bath. My hypothesis was spot-on."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I fed those four sets of coordinates into the geographic information system's analytical model, and they fell perfectly along an Archimedean spiral centered on the racetrack."
+              }
+            ],
+            "id": "p-7a8175a92c4eb950"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "I've already cracked the seed of their pseudo-random number generator."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The next cloud happens on day 8! The location is guaranteed to be at the next tangent node along the spiral: the abandoned artificial beach on the outskirts of Astropolis. I'm planning to set up camp there the day after tomorrow."
+              }
+            ],
+            "id": "p-1ee91b192b84fd95"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 8)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I spent two days feeding mosquitoes like a complete idiot, from dawn till dusk, and not so much as a single rain cloud passed over this whole abandoned beach."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The news even said someone ran into a scattered gold cloud on day 7... why day 7?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I get it. This isn't the Fibonacci sequence, it's a prime number sequence."
+              }
+            ],
+            "id": "p-87137451d0cf3044"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 11)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The scattered gold cloud did not appear. I waited at the sewer entrance for 27 system hours. The sun was so bright it made me dizzy."
+              }
+            ],
+            "id": "p-47c61a4bf0862500"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 13)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The scattered gold cloud appeared, but why why why why wh█████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Calm down. There is a logic to everything. There must be a higher-dimensional formula for this. If conventional thought won't cut it, then it's time to use brute force."
+              }
+            ],
+            "id": "p-a17e460a2a788591"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 14)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "I ran the Lagrange interpolation algorithm all night long and finally calculated this quintic polynomial!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1/12, -5/4, 85/12, -75/4, 137/6, and the constant term is -9!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Plugging in seven for the variable, the next date the scattered gold cloud appears is... the 24th of this month!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As for the location, I need to perform eigenvalue decomposition on the coordinate matrix of the previous 6 locations. My personal device is already running the calculation at full capacity, and should have the results by the 20th!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Just you wait! Opportunity favors the brilliant algorithm engineer!"
+              }
+            ],
+            "id": "p-a879322a338524f9"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Day 17)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This section shows signs of damage"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The news came on."
+              }
+            ],
+            "id": "p-a64ad5e567db7401"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A reporter interviewed the executives behind the scattered gold clouds operation, asking how they selected their timing and locations."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"I've got a map of Astropolis pinned up in my office. I just chuck a dart at it from about five meters away and go with wherever it lands.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Timing? At first we hit it once a day, but that got old fast... so I started rolling a die. Whatever number comes up, that's how many days we wait before the next one.\""
+              }
+            ],
+            "id": "p-e629a83266078dca"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "* bleep* this! What the *bleep*! Oh, *bleep*!"
+              }
+            ],
+            "id": "p-26cb5458cdabef5a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Polynomial Lagrangian Topological Structure Eigenvalue Salvage ██████"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The 3,000 lines of code on my desk are nothing but a joke!"
+              }
+            ],
+            "id": "p-32718c890e5825d6"
+          }
+        ]
+      }
+    }
+  ]
+}

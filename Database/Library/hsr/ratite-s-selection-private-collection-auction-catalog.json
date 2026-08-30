@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "ratite-s-selection-private-collection-auction-catalog",
+  "name": "Ratite's Selection: Private Collection Auction Catalog",
+  "sortId": 166570,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Ratite%27s_Selection:_Private_Collection_Auction_Catalog",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Auction Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Ratite's Selection: Private Collection Auction"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Currency:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Credits"
+              }
+            ],
+            "id": "p-86d8928b1da2c9be"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot No.:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "001"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Misprinted \"Cosmicon Collective\" Card Set"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Description:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Includes four one-of-a-kind cards: \"Gastorice,\" \"Ricecasto,\" \"Castorfly,\" and \"Caztorise.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Due to a printing plate misalignment, the card names and artwork are severely mismatched. Certified by professional appraisal institutions as a \"one-of-a-kind cosmic item.\" Encapsulated in a protective anti-counterfeit case with minor surface scratches on the case."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Starting Bid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "10,000,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Estimated Value:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "20,000,000 – 40,000,000"
+              }
+            ],
+            "id": "p-724a83015cbf295a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot No.:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "002"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "\"The Amber Lord's Pardon\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Description:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Certificate of authorization for the Grand Prize of the Interastral Peace Corporation's \"New Millennium\" Annual Gala, Amber Era 2000. Features a holographic signature by Louis Fleming. Grants one unconditional waiver for a major liability. Certificate No. 2000-001. Mint condition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Starting Bid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "500,000,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Estimated Value:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "700,000,000 – 1,200,000,000"
+              }
+            ],
+            "id": "p-d3001cf84b957b33"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot No.:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "003"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Gopher Wood's Lingering Melody"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Description:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "A music box left behind by Gopher Wood, the Penaconian \"Dreammaster.\" This collection was provided by a mysterious consignor, who also designated the starting bid: \"For those who know its worth, the secret contained within this music box far exceeds the asking price.\" Excellent condition."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Starting Bid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "900,000,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Estimated Value:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "1,200,000,000 – 1,800,000,000"
+              }
+            ],
+            "id": "p-843489d538095634"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot No.:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "004"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Name:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Thought-Sync Gel • First Edition"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Lot Description:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The prototype behind \"I Get You • Gum,\" the legendary misunderstanding-buster from the hit series"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This Cosmos Needs No Soap Opera"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ". Chew a piece of Thought-Sync Gel, and you'll instantly tap into whatever was on the previous chewer's mind. This lot has already been chewed, allegedly by a member of the Genius Society. Authenticity cannot be guaranteed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Starting Bid:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "5,000,000"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Estimated Value:"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "8,000,000 – 12,000,000"
+              }
+            ],
+            "id": "p-bb063ac515ef8b98"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "zero-tolerance-penalty",
+  "name": "Zero-Tolerance Penalty",
+  "sortId": 166560,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Zero-Tolerance_Penalty",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The \"zero-tolerance threshold\" as an essential part of corporate culture represents the behavioral limits that the Traditional Project Department will never allow employees to cross, including but not limited to leaking commercial secrets, disrupting the show environment, and fostering malicious competition between departments."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Should an individual cross the \"zero-tolerance threshold,\" the company may carry out disciplinary measures depending on the severity of the offense, such as termination, exile to fringe star systems, or conscription into contract labor."
+              }
+            ],
+            "id": "p-1dd11b35c19b77cd"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The following is a list of recent incidents and individuals that crossed the zero-tolerance threshold:"
+              }
+            ],
+            "id": "p-09cd211ad0e2b245"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "1."
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leaking Trade Secrets to a Rival Department"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Marketing specialist Thomas copied critical project plans onto a personal storage device and sold them to a specialist in the Strategic Investment Department for ████ credits."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resolution"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": The special department immediately brought Thomas under control, but the project data was already unrecoverable. Thomas ████████████████"
+              }
+            ],
+            "id": "p-3240453942bcfd44"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2."
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Impersonation of Marketing Specialist to Illegally Sell Lottery Tickets"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Orderly Specialist Oliver, operating across 23 fringe planets while posing as a marketing specialist, sold and distributed Cosmic Big Lotto tickets through unauthorized channels, accruing illicit profits of ████ credits. When certain ticket holders won prizes and attempted to claim their winnings, Oliver flatly refused to honor the tickets and fled the scene on the spot, generating a massive volume of complaints against the relevant parties."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resolution"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Specialists from the Traditional Project Department moved swiftly to appease public grievances and bought back all sold tickets at their original face value."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The IPC maintains a zero-tolerance policy toward opportunistic misconduct and fraudulent behavior of this nature. Oliver has been fined three times the amount of his illicit profits. As he was unable to pay the fine in a timely manner, he has since been placed into indentured service."
+              }
+            ],
+            "id": "p-33063dc0c528529f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3."
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Leaking Confidential Zero-Tolerance Threshold Content"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": HR Specialist Gabi disclosed the details and resolution of the Oliver incident during a private chat, sending the wrong signal to other departments."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resolution"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Terminated and blacklisted, and no department under the IPC may hire this individual again."
+              }
+            ],
+            "id": "p-f982fb7052751e00"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4."
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Discussing Confidential Zero-Tolerance Threshold Content Leaks in Public"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": HR specialist Fitz announced at a banquet that Gabi had been \"zero-toleranced\" for leaking zero-tolerance threshold content in a private chat, sending the wrong signal to other departments."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resolution"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Terminated and blacklisted, and no department under the IPC may hire this individual again."
+              }
+            ],
+            "id": "p-2df841991d573404"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5."
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Publicly Discussing How Someone Got \"Zero-Toleranced\" for Mentioning Confidential \"Zero-Tolerance Threshold\" Content Leaks"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Incident Description"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Omitted."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Resolution"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Terminated. Trivial incidents of this nature will no longer be reported."
+              }
+            ],
+            "id": "p-86b3b2b86baf22c8"
+          }
+        ]
+      }
+    }
+  ]
+}

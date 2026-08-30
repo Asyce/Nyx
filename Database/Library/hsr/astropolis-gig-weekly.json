@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "astropolis-gig-weekly",
+  "name": "Astropolis Gig Weekly",
+  "sortId": 166554,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Astropolis_Gig_Weekly",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Organizer"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Interastral Peace Entertainment — Business Outsourcing Project Team"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Preface"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ": Bridging micro-needs with flexible talent to build a thriving and efficient Astropolis together."
+              }
+            ],
+            "id": "p-d86b9b2e63611b4b"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Welcome to the current issue of"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Gig Weekly"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "! We're dedicated to making non-core, low-risk, and fun missions available to every lively citizen of Astropolis. In the spirit of efficiency, the publication uses a \"sealed-bid low-cost auction\" model to fill all positions: When recruitment closes, the bidder offering the lowest permissible bid walks away with the job contract."
+              }
+            ],
+            "id": "p-726a51818ffa724e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "We believe that market self-regulation will yield fair labor pricing and a pleasant working experience. Please browse the following selected opportunities, bid rationally, and compete in an orderly fashion. Best of luck with your bidding!"
+              }
+            ],
+            "id": "p-6b11ea9a0bf15b2e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Featured Positions"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ":"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "1. Background Actor"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Posted by:"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Artist Management"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Description: Participate in the filming of Season 4 of the sitcom"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Wondrous Tales of Astropolis"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": ", performing non-speaking walk-on roles and reaction shots as directed."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Requirements: Must follow on-set instructions. Prior performance experience preferred."
+              }
+            ],
+            "id": "p-b1506d9852a9e96d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "2. Columnist"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Posted by: Interastral Peace Entertainment – Business Outsourcing Project Team"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Description: Interview outstanding employees at Interastral Peace Entertainment and write promotional pieces for the IPC's intranet, highlighting each employee's team contributions and professional dedication."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Requirements: Must have experience in non-fiction writing, and a specialist at distilling and embellishing information. All final copyrights belong to the poster."
+              }
+            ],
+            "id": "p-76993fc88a050795"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "3. \"Universal Companion Service Robot\" Prototype Tester"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Posted by: Interastral Peace Entertainment – Business Outsourcing Project Team"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Description: Engage the latest generation \"Universal Companion Service Robot\" in extensive conversation, listen to its full repertoire of 5,000 pre-loaded dad jokes, and provide detailed feedback on each and every one."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Requirements: Calm and patient disposition required. Recent mental health evaluation report must be provided."
+              }
+            ],
+            "id": "p-11b59dcc51793b3f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "4. Promotion Assistant"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Posted by: \"Curious Flavors\" Theme Restaurant"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Description: Dress in Xianzhou-style attire and engage in interactive promotions at Astropolis Commercial Plaza, attract customers, and distribute discount vouchers."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Requirements: Tall stature, energetic, and an approachable personality."
+              }
+            ],
+            "id": "p-64473b41390a2b40"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "5. Resident Singer"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Posted by: \"Rusty\" Tavern"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Description: Perform live vocal and instrumental sets at the tavern each evening to create an elegant atmosphere, and take song requests from guests."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Requirements: Must provide own instrument and performance attire. Must have a distinctive and captivating voice, and adeptly perform current trending songs in Astropolis."
+              }
+            ],
+            "id": "p-e22b93a2f1df7095"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "6. Director for Project Risk Buffering"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Posted by: Anonymous (identity revealed upon selection)"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Description: Serve as the Partnership Director for a designated project. Duties involve signing your name on a series of process documents, meeting minutes, and approval reports."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Requirements: Must be able to write your own name, and handwriting is legible."
+              }
+            ],
+            "id": "p-b6297601f272845d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          }
+        ]
+      }
+    }
+  ]
+}

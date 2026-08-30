@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "astropolis-lifestyle-guide-issue-314",
+  "name": "Astropolis Lifestyle Guide (Issue 314)",
+  "sortId": 166567,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Astropolis_Lifestyle_Guide_(Issue_314)",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Morning, stars of Astropolis and everyone at Interastral Peace Entertainment!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "What a whirlwind week it's been, flooded with explosive stories, from the birth of several cosmic superstars, to the ██ scandal blowing up, and to the Astral Express pulling in. Astropolis will soon be riding a whole new wave of style and taste!"
+              }
+            ],
+            "id": "p-a858467bf07191ed"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And now, let's take a look at last week's glamorous sales charts!"
+              }
+            ],
+            "id": "p-fed022e3fbc7bced"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 3"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Custom Stardust Visioglass"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "You know those astronomy lovers who say they never get to look at the stars because of all the meetings at night? Yeah, we heard you!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "So, we took stardust brought back from various corners of the system space by the Marketing Development Department, sealed it all in a conical flask, and made it change form with every flip. An artificial simulation of the Cauro Nova Ring? A blessing from the distant Capital of Passion? Call it whatever you want!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Use it as a fifteen-minutes timer for a quick midday reset, and return to work feeling light as stardust!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Employee discount applies to the standard edition only. For customization inquiries, please contact the product pipeline."
+              }
+            ],
+            "id": "p-2844ce2a9dff723f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "No. 2"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Jumbo Glow-Spin Aquatic Badge (Fluffy Across the Blue Collaboration Limited Edition Multi-Functional Knife Expansion)"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Name card customization is still all the rage among P40+ senior staff. Hot on the heels of last issue's interstellar blockbuster collaboration announcement, we're now rolling out the ProfessionalUltraPhantom model, co-designed with the Traditional Engineering R&D Center. So now every employee has one more legitimate excuse to actually have their name card on them at all times."
+              }
+            ],
+            "id": "p-416dd33134613484"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And now, for our top seller:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Pineapple"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "As we all know, following rock legend Akbar's fruit-inspired rock and roll movement, the word \"pineapple\" has become a complete semantic mess across various segmenta. Meanwhile, \"authentic pineapples\" have seen their numbers plummet due to this conceptual intrusion, driving prices to astronomical heights."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Fortunately, the production and sale of natural fruit also falls within the Traditional Project Department's scope of work. Deep in the jungles of the ████ galaxy, the department's members discovered a number of well-preserved authentic pineapple trees and carried out protective transplantation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Today, pineapple prices in Astropolis have dropped to their lowest point since the incident (37,000,000 credits per kilogram). At a tempting 0.1% of their peak price, this deal has drawn in nostalgic old-money types, letting them enjoy that golden sweetness without a care in the world."
+              }
+            ],
+            "id": "p-2ac6365e4d549c44"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "(Ranked by sales numbers)"
+              }
+            ],
+            "id": "p-a0d271f6f422ee66"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Here's this week's latest product catalog from Astropolis Lifestyle:"
+              }
+            ],
+            "id": "p-38abb0740fc3c88d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Perfectly-Torn Linen Shirt"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Tired and bored of throwing credits around and getting whatever you want? Craving a taste of what it's like to be judged on sight? This \"hole-in-the-wall\" style linen shirt, crafted by top designers from the Capital of Passion, comes with artfully placed rips and frayed edges. You can nail that \"five-year-old rags, can't afford new clothes\" vibe!"
+              }
+            ],
+            "id": "p-a154e356baefb200"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Price: 144,000,000 credits. Employee discount available."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ If you are already too recognizable, we cannot guarantee the product's effectiveness. For best results, we recommend pairing it with last season's Perfectly-Dirty Denim Jeans."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "※ Trendsetters in the entertainment industry are advised to purchase with caution. You look great in anything, and that might actually devalue our product."
+              }
+            ],
+            "id": "p-0724a466d02965cd"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "The Topsy-Turvy Diner Outdoor Parking Space"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "After more than a decade of popularity, parking spaces in the sea of clouds are once again available for purchase, thanks to the latest wave of layoffs."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Ever envied those role-players who crash right through the window after a meal and land straight in their cars for the perfect escape? Want your meticulously painted racecar to hang in the sky, admired by the crowd below? The parking spaces at the Topsy-Turvy Diner are the ultimate choice for every car lover!"
+              }
+            ],
+            "id": "p-bdf28bf903822763"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Price: 3,000,000 credits per system hour, with discounts available based on cafeteria membership tier"
+              }
+            ],
+            "id": "p-a3058eab4ae6cea1"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Spend your way to the Astropolis lifestyle!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Astropolis Lifestyle\" Weekly Catalog Editorial Department"
+              }
+            ],
+            "id": "p-7545ae14e088d55d"
+          }
+        ]
+      }
+    }
+  ]
+}

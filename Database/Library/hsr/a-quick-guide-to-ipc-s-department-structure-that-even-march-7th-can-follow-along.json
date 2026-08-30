@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "a-quick-guide-to-ipc-s-department-structure-that-even-march-7th-can-follow-along",
+  "name": "A Quick Guide to IPC's Department Structure That Even March 7th Can Follow Along",
+  "sortId": 166566,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/A_Quick_Guide_to_IPC%27s_Department_Structure_That_Even_March_7th_Can_Follow_Along",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "A good memory is no match for a reliable pen."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The departmental structure of the Interastral Peace Corporation is far too complex, so I will make a record in my little notebook first, just in case."
+              }
+            ],
+            "id": "p-d3fa5aa1d5c44b3a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "First up, there's the faction ."
+              }
+            ],
+            "id": "p-15277b305effb4f0"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Head of the Marketing Development Department: \"Oswaldo Schneider.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ", the one most responsible for this whole mess. Goes by the alias \"Chameleon.\" Ruthless and calculating, willing to do absolutely anything to claw his way to the top in interdepartmental rivalries. He and \"Diamond\" from the Strategic Investment Department have been bitter, entrenched rivals for ages, both gunning for a seat on the seven-member board..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Based on the experience dealing with him, the conclusion is simple: The less you interact with this man, the better. Ugh! But it's looking like he's one opponent we simply can't avoid in Astropolis."
+                  }
+                ]
+              }
+            ],
+            "id": "p-e5f09ca2121db95c"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Head of the Technology Department, \"Yabuli.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and oversees the IPC's largest research facility: the Life Sciences Institute. Through her extensive technical dealings with the Intelligentsia Guild, her influence has also permeated deep into the Guild's inner workings, making her its de facto ruler."
+              }
+            ],
+            "id": "p-a6aa36bb35d98878"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Head of the Building Material Logistics Department: \"Taravan Keane.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": ". His Building Material Logistics fleet is responsible for shipping building materials to the Amber Lord, a venture that earned him a seat on the seven-member board. The Starflux racing circuit in Astropolis is also one of his investments. As for what terms Oswaldo used to bring Taravan on board, that remains anyone's guess."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Beyond racing, Taravan has a passionate love affair with food. The man is a certified big eater in every sense of the word. Rumor has it his private spacecraft is fitted with a fully reclining lounger, and that it takes three IPC employees stacked on top of each other like a human staircase just to help him get on and off!"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Man, this is making my fists itch... These obscenely rich people are unbelievable."
+                  }
+                ]
+              }
+            ],
+            "id": "p-e20707457a380a01"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Then there's the faction ."
+              }
+            ],
+            "id": "p-b22ef28e4b7b21f9"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Head of the Strategic Investment Department: \"Diamond.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Diamond\" didn't make a personal appearance this time, but Madam Jade represented the Strategic Investment Department and made their intentions clear."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Whether it's to protect Pearl, a fellow member of the Ten Stonehearts, to uphold their stance as followers of the Preservation, or to compete with Oswaldo for a seat on the seven-member board, , and has provided us with crucial intelligence."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Here's hoping the partnership goes smoothly! But as for what \"Diamond\" actually looks like, even Madam Jade wouldn't breathe a word about it. Honestly, the curiosity is killing me!!"
+                  }
+                ]
+              }
+            ],
+            "id": "p-7bf8404930ee6a9a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Talent Motivation Department has two supervisors: \"Mtooyin Raj Zazzad\" and \"Yan Shiluo.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Working in the IPC's most intelligence-dense department, is a figure shrouded in mystery, a master at digging up dirt on others while keeping his own affairs locked up tight. On the other hand, Mr. is pure iron judgment and no mercy, like a judge of the underworld. Word has it he's from the Xianzhou."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Thank goodness he's already thrown his support behind us. Without Dan Heng, we'd have no way to even get a chance to speak to him."
+                  }
+                ]
+              }
+            ],
+            "id": "p-bff222340cdf727e"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Head of the Business Consolidation Department: \"Madam Scarred Eye.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The Business Consolidation Department boasts a massive workforce, a 45% of the entire IPC! is best known as the most successful talent scout, having worked with the Traditional Project Department's Interastral Peace Entertainment to launch countless cosmic superstars into the spotlight."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Her appearance has never been made public. Some say she's a breathtaking beauty with an ego to match, while others claim she's plain-looking, which is precisely why she takes such sadistic pleasure in exploiting her artists' youth and looks through cutthroat contracts..."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Whatever the outside world may say, for a lady who's clawed her way to the top, her looks are probably the last thing worth anyone's attention."
+                  }
+                ]
+              }
+            ],
+            "id": "p-8165c66cba2e9130"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Huh? Weren't there supposed to be seven departments? What happened to the last one?"
+              }
+            ],
+            "id": "p-22bd2960e820417a"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "And finally, the ..."
+              }
+            ],
+            "id": "p-23782dc61f599bb9"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Head of the Traditional Project Department: \"Arita.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "He's also . Rumor has it he owns a private residence called the Skycall Aery, where he watches over the entire city from above every single day."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Yikes! We're not being watched right now, are we?"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The man himself is notoriously elusive and impossible to read. Case in point, he still hasn't revealed which way he's leaning in the executive vote, and instead pushed the decision back by ."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Come on, let's make it count! Time is opportunity, use these next five system hours to bring Arita around to our side!"
+                  }
+                ]
+              }
+            ],
+            "id": "p-4873918b55dfb496"
+          }
+        ]
+      }
+    }
+  ]
+}

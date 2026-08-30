@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "creative-futures-briefing",
+  "name": "Creative Futures Briefing",
+  "sortId": 166563,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Creative_Futures_Briefing",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Futures intel stamped all over with a \"Media Operation Team\" watermark. Looks like classified internal documents not meant to leave the office..."
+                  }
+                ]
+              }
+            ],
+            "id": "p-4765a3cd84bf556f"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The following is a summary of the Media Operation Team's Q2 futures briefing:"
+              }
+            ],
+            "id": "p-190062d012d10210"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "I. Early results of the media-driven economic initiative."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Due to the enormous influx of pun-based comedy programming, residents of the Morillons system have come to believe that giant terror bird carries a subliminal reference to being terrified of Miss Robin. A large-scale campaign to rename giant terror bird pudding tarts has since been launched. It is reported that numerous local vendors have voluntarily decided to suspend sales of giant terror bird pudding tarts for the duration of Miss Robin's intergalactic concert tour."
+              }
+            ],
+            "id": "p-ad459d84519ef240"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "According to the marketing department's report, tart transactions this quarter have largely met expectations. The backlog of tarts from last quarter has now been fully cleared."
+              }
+            ],
+            "id": "p-4397d2f2b782332d"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "II. Viewership of heroic epic productions surges across multiple planetary systems."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "In the wake of the interstellar storm, several star systems centered around Helamore have suffered tremendous upheaval. The resulting surge of tragic, impassioned sentiment has not only deeply affected local residents, but also driven a dramatic spike in viewership of heroic epic programs in neighboring star systems, such as Medicia and Crimansotu."
+              }
+            ],
+            "id": "p-feb2f9adf9a20ca2"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Viewership for this genre has grown by over 130% year-over-year."
+              }
+            ],
+            "id": "p-f1e940d3dcd051fe"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "strong",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "III. Viewership growth slows down for long-running variety shows while challenge programs pioneer new frontiers."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The viewership growth of long-running variety shows centered around celebrities, sports, culture, and travel has recently slowed down, and assessments indicate they no longer hold high efficiency monetization value, leading to considerations of an eighty percent suspension next quarter."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Drama-filled reality TV shows centered around romance, workplace dynamics, and intellectual battles have reached a bottleneck in viewership growth, prompting plans to introduce features like voting and merchandise derivatives to enhance audience engagement and boost interactive demand."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Challenge programs represented by \"Mr. Ratite,\" have delivered brilliant viewership performance, with a year-on-year growth exceeding 108%. Its bizarre, grotesque style enjoys high market discussion, and the humanity challenge segments possess exceptional monetization capability, earning it a spot on the shortlist for the Media Operation Team Universal Public Opinion Coordinated Output Portfolio*."
+              }
+            ],
+            "id": "p-d0c0194d017fef11"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              {
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "This portfolio adheres to the Interastral Basic Code, dedicated to fostering a healthy universal information environment through professional and standardized public opinion governance practices, and to building a peaceful, stable, harmonious, and unified narrative network."
+                  }
+                ],
+                "id": "li-06a84aec46603154"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "..."
+              }
+            ],
+            "id": "p-dfc3ab3590c469d6"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Internal document. Do not distribute."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "All rights of interpretation reserved by the Media Operation Team."
+                  }
+                ]
+              }
+            ],
+            "id": "p-d32f5d7614e97d20"
+          }
+        ]
+      }
+    }
+  ]
+}

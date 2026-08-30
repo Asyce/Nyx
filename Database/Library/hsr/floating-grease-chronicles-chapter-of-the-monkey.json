@@ -5,7 +5,7 @@
   "name": "Floating Grease Chronicles: Chapter of the Monkey",
   "sortId": 137889,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Floating_Grease_Chronicles:_Chapter_of_the_Monkey",
-  "scrapedAt": "2026-08-26T07:37:21.160Z",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
   "volumes": [
     {
       "id": "1",
@@ -542,6 +542,206 @@
               }
             ],
             "id": "p-fc730823ce80dbb7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "volumeKey": "part-xxix",
+      "label": "Part XXIX",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "When the clothes-wearing monkeys looked back and gazed upon themselves,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "they marveled at the tails they no longer had."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "But the prophet among them did not panic:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Children, the devil gave you a nightmare,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"made you dream of hanging upside down in the trees,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"barely clothed, barely fed,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"living in ignorance, a place farthest from God.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Children, do not be afraid,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"you never had tails to begin with.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"Those are the limbs of devils,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"and they shall curse you,\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "\"letting this unspeakable appendage take root on the bodies of the newborn.\""
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "And so, the monkeys were saved, restored to purity,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "all but a few insignificant others,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "who had fallen into corruption beneath the curse"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and became the very devil they once marveled at."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "The mage of grand illusions"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "cut away his own long hair,"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "and donned a formal suit to become a philosopher."
+              }
+            ],
+            "id": "p-e9b687b683e5d12e"
           }
         ]
       }

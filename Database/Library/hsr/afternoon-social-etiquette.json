@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "game": "hsr",
+  "id": "afternoon-social-etiquette",
+  "name": "Afternoon Social Etiquette",
+  "sortId": 166564,
+  "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Afternoon_Social_Etiquette",
+  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "volumes": [
+    {
+      "id": "1",
+      "volumeKey": "text",
+      "label": "Text",
+      "document": {
+        "version": 1,
+        "blocks": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Talking to you is like playing a lute to a Faunus Red Sheep!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "Do you find yourself hearing this at work? The midday social hour is precious, and all other hours belong to the Amber Lord. To communicate with maximum efficiency and get along swimmingly with colleagues from all walks of civilization, be sure to follow these principles:"
+              }
+            ],
+            "id": "p-56b6d9bc0d39e8be"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Your opening line should be both universally relatable and respectful. Try starting with a neutral topic that resonates with everyone, such as:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"That show on Paradise Island last week was amazing!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Marketing Development Department's Third Fleet can't be beaten by anyone.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Mr. Arita's speech was really eye-opening.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"I wonder if the scattered gold cloud will ever run out of credits.\""
+                  }
+                ]
+              }
+            ],
+            "id": "p-406034e3f2dca4a4"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "Please avoid the following topics, which may be offensive or detrimental to the solidarity between employees:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Do people on your planet actually eat seven-eyed hallucigenia?\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Marketing Development Department's Third Fleet can't be beaten by anyone.\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Ha! I just won 8,000,000 credits in the Cosmic Big Lotto!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Why don't you have any eyes?\""
+                  }
+                ]
+              }
+            ],
+            "id": "p-6adcf78b644f90a1"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "If the other party does not appear to possess obvious mouthpart or vocal structures, a smile or friendly gesture will suffice. There is no need to force a conversation. Additionally, please refrain from directly bringing up either side's rank or other work-related details, as this may be interpreted as showing off, provocation, or passive aggression."
+              }
+            ],
+            "id": "p-eeb2df08868bea24"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "\"Those blasted ██s are always causing a ruckus when I'm trying to sleep!\""
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "We're sure most of you have fielded a complaint or two like this one. To keep the peace, please remember to:"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Keep casual conversation volume between 20–40 decibels, and try to step away from colleagues engaged in terminal communications or meditation."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• Avoid laughing at an excessively high frequency, especially near resonance alarms or colleagues whose species have high-frequency auditory structures."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "• The use of megaphones, sonic symbiotes, privately kept memetic agents, or any other items or biological structures that may disturb public order is strictly prohibited."
+              }
+            ],
+            "id": "p-a031ba7adb486b68"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "The Interastral Peace Corporation draws talent from across the universe. Here are some tips for getting along with non-human species:"
+              }
+            ],
+            "id": "p-79edf6116260a2ba"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "For tentacled species: Avoid casually touching their primary tentacles. These may serve as feeding organs, excretory organs, information exchange organs, reproductive organs, or other sensitive areas."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For photosensitive species: Avoid sudden changes in light intensity (e.g., shining a flashlight directly at them)."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For heavily furred species: Avoid the \"more fur, more flammable\" stereotype, and under absolutely no circumstances should you attempt to set a coworker's fur on fire."
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
+                "text": "For plant-based species: Avoid consuming vegetarian food in their presence, but feel free to increase your exhaled carbon dioxide output to put them at ease."
+              }
+            ],
+            "id": "p-b301761b897283ae"
+          },
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "text": "With all this said, we hope you enjoy a wonderful afternoon in Astropolis."
+              }
+            ],
+            "id": "p-fbc3b54486008f33"
+          }
+        ]
+      }
+    }
+  ]
+}

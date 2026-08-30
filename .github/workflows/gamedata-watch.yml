@@ -38,6 +38,28 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Configure Git LFS
+        run: git lfs install --local
+
+      - name: Restore character LFS objects
+        uses: actions/cache/restore@v6
+        with:
+          path: .git/lfs
+          key: lfs-${{ hashFiles('Database/GameData/gi/live/characters.json', 'Database/GameData/hsr/live/characters.json') }}
+          restore-keys: lfs-
+
+      - name: Resolve required character LFS data
+        run: |
+          git lfs checkout || true
+          if git grep -Il '^version https://git-lfs.github.com/spec/v1' -- Database/GameData/gi/live/characters.json Database/GameData/hsr/live/characters.json >/dev/null; then
+            git lfs pull --include="Database/GameData/gi/live/characters.json,Database/GameData/hsr/live/characters.json" --exclude=""
+          fi
+          for f in Database/GameData/gi/live/characters.json Database/GameData/hsr/live/characters.json; do
+            if head -c 40 "$f" | grep -q 'git-lfs'; then
+              echo "::error::$f is still an LFS pointer after hydration"; exit 1
+            fi
+          done
+
       - name: Test HoYoWiki shadow comparison
         working-directory: Scraper
         run: node --test gamedata/tests/hoyowiki-shadow.test.mjs

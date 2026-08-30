@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { chooseHsrCharacterIcon } from './lib/character-source-helpers.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(__dirname, '..', '..');
@@ -584,7 +585,7 @@ function localCharacterIcon(game, character, db = DATABASE) {
   const relative = game === 'gi'
     ? assets.circle ?? assets.icon
     : game === 'hsr'
-      ? assets.roundIcon ?? assets.avatar
+      ? chooseHsrCharacterIcon(assets, db)
       : game === 'zzz'
         ? assets.partnerIcon ?? assets.icon
         : game === 'wuwa'

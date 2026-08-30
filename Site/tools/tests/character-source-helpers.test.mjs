@@ -3,7 +3,23 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 
-import { chooseCharacterOverlay } from '../lib/character-source-helpers.mjs';
+import {
+  chooseCharacterOverlay,
+  chooseHsrCharacterIcon,
+  chooseHsrCharacterIconFromHash,
+} from '../lib/character-source-helpers.mjs';
+
+test('HSR skips the TEST No.999 round icon but keeps ordinary round icons', () => {
+  const testHash = '40a77817b465339c0a82d7249bf3fd00f260cc340a2d3d99faba492c8cf4eb86';
+  const assets = { roundIcon: 'synthetic/round.webp', avatar: 'synthetic/avatar.webp' };
+
+  assert.equal(chooseHsrCharacterIconFromHash(assets, testHash), assets.avatar);
+  assert.equal(chooseHsrCharacterIconFromHash({ roundIcon: assets.roundIcon }, testHash), null);
+  assert.equal(chooseHsrCharacterIconFromHash(assets, 'ordinary-round-icon'), assets.roundIcon);
+  assert.equal(chooseHsrCharacterIcon(assets, import.meta.dirname), assets.roundIcon);
+  assert.equal(chooseHsrCharacterIconFromHash({ avatar: assets.avatar }, testHash), assets.avatar);
+  assert.equal(chooseHsrCharacterIconFromHash({}, testHash), null);
+});
 
 test('HSR switches a Prydwen beta row to Nanoka live data immediately', () => {
   const primary = { contentStatus: 'live', marker: 'nanoka-live' };

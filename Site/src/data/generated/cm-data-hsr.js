@@ -12456,7 +12456,7 @@
         "chinese": "https://zh.moegirl.org.cn/zh-hans/\u82cf\u5a49|Su Wan (\u82cf\u5a49)",
         "korean": "https://en.namu.wiki/w/\uc5ec\uc724\ubbf8|Yeo Yoon-mi (\uc5ec\uc724\ubbf8)"
       },
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1503.webp",
+      "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
       "card": "../../Database/Prydwen/hsr/assets/characters/pearl-d9dc8a262aee.webp",
       "signatureLightCone": {

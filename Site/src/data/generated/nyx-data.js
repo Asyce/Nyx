@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-29T14:26:01.576Z",
+  "generatedAt": "2026-08-30T02:28:41.124Z",
   "codes": {
     "updated": "2026-08-28T20:14:44.299Z",
     "maxAgeDays": 28,
@@ -769,7 +769,7 @@ var NYX_DB = {
             {
               "name": "Odette",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
@@ -813,7 +813,7 @@ var NYX_DB = {
             {
               "name": "Arlecchino",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
@@ -832,7 +832,7 @@ var NYX_DB = {
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -876,7 +876,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -1206,7 +1206,7 @@ var NYX_DB = {
             {
               "name": "Remielle",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
@@ -1239,7 +1239,7 @@ var NYX_DB = {
             {
               "name": "Dialyn",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
               "namecard": null,
@@ -1250,7 +1250,7 @@ var NYX_DB = {
             {
               "name": "Yuzuha",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
               "namecard": null,
@@ -1261,7 +1261,7 @@ var NYX_DB = {
             {
               "name": "Harumasa",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
               "namecard": null,
@@ -1272,7 +1272,7 @@ var NYX_DB = {
             {
               "name": "Sigrid",
               "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
               "namecard": null,
@@ -1398,7 +1398,7 @@ var NYX_DB = {
               "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
               "namecard": null,
               "rarity": 6,
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-08-09"
             },
             {
@@ -1445,7 +1445,7 @@ var NYX_DB = {
               "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
               "namecard": null,
               "rarity": 6,
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-08-09"
             },
             "previous": [
@@ -1532,10 +1532,9 @@ var NYX_DB = {
           }
         },
         "next": {
-          "phase": null,
-          "teased": false,
-          "start": "2026-09-02T02:00:00.000Z",
-          "end": "2026-09-30T02:00:00.000Z",
+          "phase": "Winter Hunt",
+          "start": "2026-09-02T04:00:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
           "characters": [
             {
               "name": "Typhoeus",
@@ -1546,12 +1545,53 @@ var NYX_DB = {
               "namecard": null,
               "rarity": 6,
               "debut": true,
-              "debutAt": null
+              "debutAt": "2026-09-02"
+            },
+            {
+              "name": "Liino",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-08-09"
+            },
+            {
+              "name": "Arcane",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-07-16"
             }
           ],
           "subBanners": []
         },
         "upcoming": [
+          {
+            "phase": "Resplendent Spectrum",
+            "start": "2026-09-24T04:00:00.000Z",
+            "end": "2026-10-21T21:59:59.000Z",
+            "characters": [
+              {
+                "name": "Yvonne",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              }
+            ],
+            "subBanners": []
+          },
           {
             "phase": null,
             "teased": true,
@@ -6452,7 +6492,7 @@ var NYX_DB = {
             {
               "name": "Odette",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
@@ -6496,7 +6536,7 @@ var NYX_DB = {
             {
               "name": "Arlecchino",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
@@ -6515,7 +6555,7 @@ var NYX_DB = {
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -6559,7 +6599,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -179245,7 +179285,7 @@ var NYX_DB = {
             {
               "name": "Remielle",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle67.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect67.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole67.webp",
               "namecard": null,
@@ -179278,7 +179318,7 @@ var NYX_DB = {
             {
               "name": "Dialyn",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle54.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect54.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole54.webp",
               "namecard": null,
@@ -179289,7 +179329,7 @@ var NYX_DB = {
             {
               "name": "Yuzuha",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle47.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole47.webp",
               "namecard": null,
@@ -179300,7 +179340,7 @@ var NYX_DB = {
             {
               "name": "Harumasa",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
               "namecard": null,
@@ -179311,7 +179351,7 @@ var NYX_DB = {
             {
               "name": "Sigrid",
               "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect66.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
               "namecard": null,
@@ -189846,7 +189886,7 @@ var NYX_DB = {
               "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
               "namecard": null,
               "rarity": 6,
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-08-09"
             },
             {
@@ -189893,7 +189933,7 @@ var NYX_DB = {
               "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
               "namecard": null,
               "rarity": 6,
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-08-09"
             },
             "previous": [
@@ -189980,10 +190020,9 @@ var NYX_DB = {
           }
         },
         "next": {
-          "phase": null,
-          "teased": false,
-          "start": "2026-09-02T02:00:00.000Z",
-          "end": "2026-09-30T02:00:00.000Z",
+          "phase": "Winter Hunt",
+          "start": "2026-09-02T04:00:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
           "characters": [
             {
               "name": "Typhoeus",
@@ -189994,12 +190033,53 @@ var NYX_DB = {
               "namecard": null,
               "rarity": 6,
               "debut": true,
-              "debutAt": null
+              "debutAt": "2026-09-02"
+            },
+            {
+              "name": "Liino",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-08-09"
+            },
+            {
+              "name": "Arcane",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-07-16"
             }
           ],
           "subBanners": []
         },
         "upcoming": [
+          {
+            "phase": "Resplendent Spectrum",
+            "start": "2026-09-24T04:00:00.000Z",
+            "end": "2026-10-21T21:59:59.000Z",
+            "characters": [
+              {
+                "name": "Yvonne",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              }
+            ],
+            "subBanners": []
+          },
           {
             "phase": null,
             "teased": true,

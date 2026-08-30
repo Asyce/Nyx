@@ -427,6 +427,17 @@ export function mergeEndfieldOfficialWindow(row, detail, officialUrl) {
   return true;
 }
 
+export function mergeEndfieldOfficialRateUp(row, detail) {
+  const text = String(detail?.data || '').replace(/<[^>]+>/g, ' ').replace(/&(?:nbsp|amp);/g, ' ').replace(/\s+/g, ' ');
+  const escaped = row.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const hit = text.match(new RegExp(`\\[${escaped}\\][\\s\\S]{0,700}?much higher chance of getting the 6[^[]*operator\\s*\\[([^\\]]+)\\]`, 'i'));
+  const sixStars = (row.featured || []).filter((entry) => entry.entityType === 'character' && Number(entry.rarity) === 6);
+  const featured = hit && sixStars.find((entry) => entry.name.toLowerCase() === hit[1].trim().toLowerCase());
+  if (!featured) return false;
+  for (const entry of sixStars) entry.primary = entry === featured;
+  return true;
+}
+
 export async function scrapeEndfield() {
   const host = 'https://endfield.wiki.gg';
   const discoverYears = async (indexTitle, prefix) => {
@@ -443,8 +454,8 @@ export async function scrapeEndfield() {
   if (!records.some((x) => x.bannerType === 'character') || !records.some((x) => x.bannerType === 'weapon')) throw new Error('Endfield source lost a banner type');
   const officialDetails = [];
   for (let page = 1; page <= 4; page += 1) {
-    const payload = await getJson(`https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=${page}&pageSize=20&tabs[]=notices`);
-    for (const notice of payload.data?.list || []) if (/headhunt|issue|version update notes/i.test(notice.title || '')) {
+    const payload = await getJson(`https://web-news.gryphline.com/api/bulletin?lang=en-us&code=arknights_endfield_official&page=${page}&pageSize=20&tabs[]=notices&tabs[]=news`);
+    for (const notice of payload.data?.list || []) if (/headhunt|issue|version update notes|version\b.*\bdev comm/i.test(notice.title || '')) {
       const detail = await getJson(`https://web-news.gryphline.com/api/bulletin/${notice.cid}?lang=en-us&code=arknights_endfield_official`);
       officialDetails.push(detail.data);
     }
@@ -455,6 +466,7 @@ export async function scrapeEndfield() {
     const officialUrl = `https://web-news.gryphline.com/api/bulletin/${detail.cid}?lang=en-us&code=arknights_endfield_official`;
     for (const row of found) {
       row.confirmed = true;
+      if (row.bannerType === 'character') mergeEndfieldOfficialRateUp(row, detail);
       const dedicated = new RegExp(`^\\[${row.name.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}(?: Issue)?\\]`, 'i').test(detail.title || '');
       const score = dedicated ? 2 : 1;
       if (!row._officialScore || score > row._officialScore) { row.officialSource = { url:officialUrl, kind:'official-latest', revision:String(detail.cid) }; row._officialScore = score; }

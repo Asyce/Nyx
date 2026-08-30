@@ -297,6 +297,13 @@ test('workflow keeps the shadow job read-only, non-blocking, and separate from p
   assert.match(shadowJob, /permissions:\s*\n\s*contents:\s*read/);
   assert.match(shadowJob, /hoyowiki-shadow\.test\.mjs/);
   assert.match(shadowJob, /hoyowiki-shadow\.mjs/);
+  const lfsCacheIndex = shadowJob.indexOf('uses: actions/cache/restore@v6');
+  const lfsCheckoutIndex = shadowJob.indexOf('git lfs checkout');
+  const lfsPullIndex = shadowJob.indexOf('git lfs pull --include="Database/GameData/gi/live/characters.json,Database/GameData/hsr/live/characters.json" --exclude=""');
+  const compareIndex = shadowJob.indexOf('node ./gamedata/hoyowiki-shadow.mjs');
+  assert.ok(lfsCacheIndex >= 0);
+  assert.ok(lfsCacheIndex < lfsCheckoutIndex && lfsCheckoutIndex < lfsPullIndex && lfsPullIndex < compareIndex);
+  assert.match(shadowJob, /if git grep [\s\S]+git lfs pull --include=[\s\S]+\n\s*fi/);
   assert.doesNotMatch(shadowJob, /secrets\.|CF_API_TOKEN|wrangler|git\s+(?:add|commit|push)|deploy/i);
   const timeoutMinutes = Number(shadowJob.match(/timeout-minutes:\s*(\d+)/)?.[1]);
   const maximumRequests = HOYO_GAMES.length

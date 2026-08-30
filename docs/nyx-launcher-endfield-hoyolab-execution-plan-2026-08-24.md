@@ -384,22 +384,21 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 
 - Official/export counts, preview, merge, reload, account isolation, levels, plating, dates, and GI/HSR regressions pass.
 
-## Phase 12 - Endfield Playtime Stats
+## Phase 12 - Shared local Play Time
 
-1. Treat the reference PowerShell as research only. Never execute, bundle, or copy its broad marker matching.
-2. Do not read launcher or Unity logs for gameplay duration. Remove historical scanning, the folder picker, launcher-activity totals, and every estimate based on generic launcher callbacks; the retained files do not contain complete, correlated Endfield start and end records.
-3. Reuse the existing exact Endfield process observer. Establish an exact absent baseline, then record a session only from uninterrupted `Absent -> Present -> Absent` evidence observed during one Nyx service lifetime; any uncertain sample during a tracked session makes it incomplete.
-4. Exclude a game already running when Nyx starts until its first exact absence. On the first exact observation after a Nyx restart, clear any persisted prior-run start and count it once as incomplete; never invent a cross-restart end time or reuse that start for a later launch.
-5. Persist only normalized process-observed gameplay intervals, a pending start used to detect an interrupted Nyx run, and a nonnegative saturating incomplete-session count. Discard every pre-redesign v6 interval carrying the rejected legacy `kind` field instead of relabelling guessed history as tracked time. Persistence failures retry without losing a valid boundary or double-counting an incomplete session.
-6. Calculate tracked total, sessions, active days, averages/extremes, streak, duration buckets, hourly launches, weekday/month time, and 22:00-06:00 play from complete observed intervals only, correctly splitting midnight/year/daylight-saving boundaries.
-7. Use an accessible close-only native dialog. Label the value `Tracked total`, show `Incomplete tracked sessions`, and visibly state whether the current session is tracked, excluded, or waiting for a failed save to retry. State exactly: `Nyx counts only complete sessions whose exact Endfield process start and end it observed during the same Nyx run. Earlier playtime is unavailable; incomplete sessions are excluded.`
-8. When no complete session exists, state: `No complete sessions have been tracked yet. Keep Nyx open before starting Endfield and until the game closes.`
-9. Prove same-run tracking, startup-running exclusion, both prior-pending startup states, invalid-interval handling, persistence retries without double counting, rejected-v6 interval removal, state migration/normalization, exact disclosure, and complete absence of log-scan/history controls.
+1. Treat every supplied Endfield script and retained-log parser as research only. Never execute, bundle, copy, or adapt its broad marker matching.
+2. Ship no Endfield historical import. `games*.log` mixes launcher and uncorrelated process markers; `HGEventLog` has no trustworthy paired exit, stable session identity, fixed retention, or safe overlap rule. Do not scan launcher, SDK, Unity, or game logs; remove the Endfield-only stats window, folder picker, historical estimates, and launcher-activity totals.
+3. Reuse the existing exact per-game runtime-process evidence and the existing shared session refresh. Count only a runtime process belonging to a launch request accepted by Nyx. A process started outside Nyx is never added, even if Nyx later observes it.
+4. Track every official and custom game independently so different games may accrue time concurrently. Continue preventing more than one launch of the same game. For a custom game without a separate runtime path, its selected executable is the runtime; with a runtime path, the selected executable is only the bootstrap.
+5. Persist only one nonnegative saturating whole-second total per valid game. Keep the active boundary in memory, retry a failed save without losing the newest total, and finalize only through confirmed process evidence. Do not persist session history, starts, statistics, incomplete counters, or the rejected unpublished v6 Endfield state.
+6. Add one small always-visible outlined line immediately above the selected game's energy/resource bar: `Play Time: 0m`, `Play Time: 42m`, or `Play Time: 12h 34m`. Update it through the existing refresh path. If saving is pending, say so without exposing internal errors.
+7. The tooltip and accessible description must state that this is playtime on this PC counted only after Nyx launched the game while Nyx remained open; earlier sessions, launches outside Nyx, other PCs, consoles, and mobile are excluded.
+8. Prove official and custom games, external-launch exclusion, simultaneous different-game isolation, same-game launch prevention, runtime-versus-bootstrap handling, uncertainty/removal/shutdown boundaries, persistence retries and saturation, v5/v6-to-v7 zero-total migration, exact formatting/disclosure, and complete absence of Endfield log/history/statistics controls.
 
 ### Release C
 
-- Deploy achievement support only if STOP 10 passed. Package process-observed Playtime and run full Endfield security, five-game, live `/endfield`, version, package, R2, and persistence verification.
-- With Nyx and Endfield initially closed, keep Nyx open, launch and close one short Endfield session, require exactly one new session with a plausible wall-clock duration, restart Nyx, and require unchanged saved totals. A historical lifetime total is not an acceptance criterion because no trustworthy source exists.
+- Deploy achievement support only if STOP 10 passed. Package shared local Play Time without changing Site/R2 data. In the same launcher-only release, keep banner names on one line without clipping, place characters beside each other without fixed-width gaps, move Official Tools below Official Launcher/Screenshots, outline the title-bar controls, and lower only the game rail icons to reduce Nyx-logo misclicks. Then run launcher security, five-game, custom-game, concurrent-session, version, package, persistence, and layout verification.
+- With Nyx initially closed, launch and close one short game through Nyx, require one plausible increase and restart persistence. Then run two different games concurrently and require each total to increase independently. Starting a game outside Nyx must not increase its total. Endfield uses this same path; historical lifetime playtime is deliberately unavailable.
 
 ## Locked HoYo privacy and sync contracts
 
@@ -411,6 +410,8 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 - Exclude forum/social data, friends, email, purchases, private messages, device fingerprints, raw battle traffic, cookies, tokens, passwords, raw bodies, and unreleased content.
 
 ## Phase 13 - Approved HoYo static comparison
+
+Start only after Release C is published and marked complete.
 
 1. Add one small adapter beside the existing GameData scraper with no new dependency/workflow.
 2. Run it in the existing scheduled GameData workflow. Shadow output is artifact/summary only; publish no HoYo-derived data.

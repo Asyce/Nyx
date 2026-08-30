@@ -6,6 +6,8 @@ name: Nanoka GameData watch & deploy
 #
 # Scheduled publishing is handled by daily-deploy.yml. Manual runs retain the
 # immediate deploy path when an upstream update must be published urgently.
+# The approved HoYoWiki comparison runs beside this path with read-only
+# permissions and summary-only output, so it can never publish source data.
 
 on:
   schedule:
@@ -21,6 +23,29 @@ permissions:
   contents: write
 
 jobs:
+  hoyowiki-shadow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    continue-on-error: true
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+
+      - name: Test HoYoWiki shadow comparison
+        working-directory: Scraper
+        run: node --test gamedata/tests/hoyowiki-shadow.test.mjs
+
+      - name: Compare HoYoWiki with live GameData (shadow only)
+        working-directory: Scraper
+        run: node ./gamedata/hoyowiki-shadow.mjs
+
   gamedata:
     runs-on: ubuntu-latest
     env:

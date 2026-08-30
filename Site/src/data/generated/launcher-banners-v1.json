@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "54b66e04d14340ea1cd6b23a0fcda891b3245ddc264147d2a094495cf8c7282d",
-  "generatedAt": "2026-08-30T02:49:06.422Z",
+  "revision": "c4644f9372705a4335d5b310210e9d76503d7e800f74089e1b940d8b86e5f227",
+  "generatedAt": "2026-08-30T09:12:16.686Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 198652
+          "durationSeconds": 175662
         },
         "characters": [
           {
@@ -538,7 +538,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1127393
+          "durationSeconds": 1104403
         },
         "characters": [
           {
@@ -936,7 +936,7 @@
           "id": "hsr-hoyo-ann-9a4cbeb1fb51",
           "title": "Version 4.5 Event Warp: Phase I",
           "type": "banner",
-          "start": "2026-08-25T00:00:00.000Z",
+          "start": "2026-08-25T13:00:00.000Z",
           "end": "2026-09-12T10:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1330"
         },
@@ -944,8 +944,8 @@
           "id": "hsr-hoyo-ann-469228a36704",
           "title": "\"Overdrive: Whirlwind Grand Prix\": Win the grand prix to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
           "type": "event",
-          "start": "2026-08-24T23:00:00.000Z",
-          "end": "2026-09-27T13:59:00.000Z",
+          "start": "2026-08-25T12:00:00.000Z",
+          "end": "2026-09-28T02:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1335"
         },
         {
@@ -1041,7 +1041,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 792652
+          "durationSeconds": 769662
         },
         "characters": [
           {
@@ -1816,7 +1816,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 972593
+          "durationSeconds": 949603
         },
         "characters": [
           {
@@ -2332,7 +2332,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 241852
+          "durationSeconds": 218862
         },
         "characters": [
           {

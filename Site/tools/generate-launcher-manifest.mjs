@@ -706,7 +706,7 @@ function loadEvents(db = DATABASE) {
 function hasRecentGame8Observation(freshness, nowMs) {
   const source = cleanText(freshness?.source, 32);
   const successfulMs = timestamp(iso(freshness?.lastSuccessfulFetch));
-  return source === 'game8'
+  return source.split('+').includes('game8')
     && successfulMs != null
     && successfulMs <= nowMs + 60_000
     && nowMs - successfulMs <= RAW_FUTURE_MAX_AGE_MS;
@@ -715,7 +715,7 @@ function hasRecentGame8Observation(freshness, nowMs) {
 function hasPreservedGame8Observation(freshness, nowMs) {
   const source = cleanText(freshness?.source, 32);
   const successfulMs = timestamp(iso(freshness?.lastSuccessfulFetch));
-  return source === 'game8'
+  return source.split('+').includes('game8')
     && successfulMs != null
     && successfulMs <= nowMs + 60_000
     && nowMs - successfulMs <= RAW_FUTURE_MAX_HORIZON_MS;
@@ -780,7 +780,7 @@ function trustedRawFuturePhases(group, nowMs) {
   return result.slice(0, 5);
 }
 
-function mergeFuturePhases(trusted, raw, currentEnd) {
+function mergeFuturePhases(trusted, raw, currentEnd, game) {
   const boundary = timestamp(iso(currentEnd));
   const normalized = (phases) => {
     const exact = new Map();
@@ -795,9 +795,9 @@ function mergeFuturePhases(trusted, raw, currentEnd) {
   };
   const overlaps = (left, right) => timestamp(left.start) < timestamp(right.end) && timestamp(left.end) > timestamp(right.start);
   const result = [];
-  for (const phases of [normalized(trusted), normalized(raw)]) {
+  for (const [phases, allowTrustedOverlap] of [[normalized(trusted), game === 'ae'], [normalized(raw), false]]) {
     for (const candidate of phases) {
-      if (result.length >= 5 || result.some((selected) => overlaps(candidate, selected))) continue;
+      if (result.length >= 5 || (!allowTrustedOverlap && result.some((selected) => overlaps(candidate, selected)))) continue;
       result.push(candidate);
     }
   }
@@ -1037,7 +1037,7 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
         _sourceChannels: records.map((record) => ({ recordId: record.id, category: record.category })),
       }];
     }).sort((left, right) => left.start.localeCompare(right.start));
-    group._displayUpcoming = mergeFuturePhases(trustedUpcoming, group._displayUpcoming, group.current.end);
+    group._displayUpcoming = mergeFuturePhases(trustedUpcoming, group._displayUpcoming, group.current.end, game);
     mergePatchOnlyRoadmapIntoUpcoming(group.current, group._displayUpcoming, roadmap);
     const scheduledNames = new Set([group.current, ...group._displayUpcoming]
       .flatMap((phase) => phase?.characters ?? [])

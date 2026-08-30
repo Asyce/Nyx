@@ -19,15 +19,7 @@ const GAMES = [
     name: 'Honkai: Star Rail',
     game8Url: 'https://game8.co/games/Honkai-Star-Rail/archives/408381',
     game8RoadmapUrl: 'https://game8.co/games/Honkai-Star-Rail/archives/415899',
-    fallbackUrl: 'https://prydwen.gg/star-rail/',
-    // Prydwen was preferred because game8 used to mix light cones into the HSR
-    // character list, but Prydwen has been answering 403 to this scraper on
-    // every run (checked 2026-08-11, all three of its game pages), so HSR has
-    // silently been running on game8 the whole time. game8 carries the future
-    // phases correctly — it is where "Robin • Summeretto" (4.5 Phase 1) and
-    // "Aventurine • Waveflair" (4.5 Phase 2) come from. Prefer the source that
-    // answers; Prydwen stays as the fallback for whenever it lets us back in.
-    preferFallback: false,
+    prydwenUrl: 'https://www.prydwen.gg/star-rail/banners',
     defaultHourUtc: 16,
     tzOffsetHours: -5,
   },
@@ -36,6 +28,7 @@ const GAMES = [
     name: 'Genshin Impact',
     game8Url: 'https://game8.co/games/Genshin-Impact/archives/305012',
     game8RoadmapUrl: 'https://game8.co/games/Genshin-Impact/archives/307054',
+    prydwenUrl: 'https://www.prydwen.gg/genshin-impact/banners',
     // game8's roadmap page mixes "Characters That Appear in the Story" and
     // long-teased NPCs in with genuine upcoming units, and the parser now
     // trusts art identity rather than a manual allowlist — so the board filled
@@ -55,6 +48,7 @@ const GAMES = [
     name: 'Wuthering Waves',
     game8Url: 'https://game8.co/games/Wuthering-Waves/archives/453303',
     game8RoadmapUrl: 'https://game8.co/games/Wuthering-Waves/archives/452883',
+    prydwenUrl: 'https://www.prydwen.gg/wuthering-waves/banners',
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -63,6 +57,7 @@ const GAMES = [
     name: 'Zenless Zone Zero',
     game8Url: 'https://game8.co/games/Zenless-Zone-Zero/archives/435687',
     game8RoadmapUrl: 'https://game8.co/games/Zenless-Zone-Zero/archives/460160',
+    prydwenUrl: 'https://www.prydwen.gg/zenless/banners',
     defaultHourUtc: 10,  // 18:00 UTC+8
     tzOffsetHours: 8,
   },
@@ -70,6 +65,7 @@ const GAMES = [
     id: 'endfield',
     name: 'Arknights: Endfield',
     game8Url: 'https://game8.co/games/Arknights-Endfield/archives/524215',
+    prydwenUrl: 'https://www.prydwen.gg/arknights-endfield/banners',
     // Endfield teases operators long before a banner window exists. game8's
     // "New and Upcoming Characters" page is the only consistently maintained
     // list of them, so it fills the board's later column until a real
@@ -85,10 +81,16 @@ const FETCH_HEADERS = {
   'Accept': 'text/html,application/xhtml+xml,*/*;q=0.9',
   'Accept-Language': 'en-US,en;q=0.9',
 };
+const PRYDWEN_FETCH_HEADERS = {
+  'User-Agent': 'Mozilla/5.0 (compatible; NyxariumScraper/1.0)',
+  'Accept': 'text/html',
+};
+const PRYDWEN_CRAWL_DELAY_MS = 10_000;
+let nextPrydwenRequestAt = 0;
 const FETCH_TIMEOUT_MS = 20_000;
 const HTML_MAX_BYTES = 8_000_000;
 const HTML_SOURCE_URLS = new Set([
-  ...GAMES.flatMap((game) => [game.game8Url, game.game8RoadmapUrl, game.game8UpcomingUrl, game.fallbackUrl]),
+  ...GAMES.flatMap((game) => [game.game8Url, game.game8RoadmapUrl, game.game8UpcomingUrl, game.prydwenUrl]),
   'https://perlica.moe/operators',
   'https://arknightsendfield.gg/',
 ].filter(Boolean));
@@ -116,6 +118,7 @@ function approvedHtmlUrl(value) {
 
 async function fetchBoundedBytes(sourceUrl, {
   fetchImpl = globalThis.fetch,
+  headers = FETCH_HEADERS,
   maxBytes,
   timeoutMs = FETCH_TIMEOUT_MS,
   label = 'request',
@@ -133,7 +136,7 @@ async function fetchBoundedBytes(sourceUrl, {
   });
   try {
     const response = await Promise.race([
-      fetchImpl(sourceUrl, { headers:FETCH_HEADERS, redirect:'error', signal:controller.signal }),
+      fetchImpl(sourceUrl, { headers, redirect:'error', signal:controller.signal }),
       timeout,
     ]);
     if (!response?.ok) throw new Error(`HTTP ${response?.status ?? 'unknown'}`);
@@ -169,13 +172,14 @@ async function fetchBoundedBytes(sourceUrl, {
 
 async function fetchHtml(url, {
   fetchImpl = globalThis.fetch,
+  headers = FETCH_HEADERS,
   maxBytes = HTML_MAX_BYTES,
   timeoutMs = FETCH_TIMEOUT_MS,
 } = {}) {
   const approvedUrl = approvedHtmlUrl(url);
   if (!approvedUrl) throw new SourceUnavailableError(`HTML source URL is not approved: ${url}`);
   try {
-    const bytes = await fetchBoundedBytes(approvedUrl, { fetchImpl, maxBytes, timeoutMs, label:'HTML' });
+    const bytes = await fetchBoundedBytes(approvedUrl, { fetchImpl, headers, maxBytes, timeoutMs, label:'HTML' });
     return new TextDecoder('utf-8', { fatal:true }).decode(bytes);
   } catch (err) {
     if (err instanceof SourceUnavailableError) throw err;
@@ -1198,57 +1202,145 @@ function parseGame8Page(html, game) {
 }
 
 // ---------------------------------------------------------------------------
-// prydwen fallback (HSR only)
-// prydwen embeds banner data in its page text as:
-//   (BannerTitle) (CharacterName) - ends YYYY/MM/DD HH:MM:SS
+// Prydwen supplemental banner source
 // ---------------------------------------------------------------------------
 
-function parsePrydwenPage(html) {
+function parsePrydwenPage(html, now = Date.now()) {
   const $ = cheerio.load(html);
   $('script, style').remove();
-  const text = $.text();
+  const tolerance = 36 * 60 * 60 * 1000;
+  const timestamp = (value) => {
+    const parsed = Date.parse(value);
+    return Number.isFinite(parsed) ? parsed : NaN;
+  };
+  const cards = $('article[data-banner-card="true"][data-category="character"]').map((_, article) => {
+    const card = $(article);
+    const phaseMeta = card.find('.banner-phase-meta span').map((__, span) => normalizeText($(span).text())).get().filter(Boolean).join(' ');
+    const bannerName = normalizeText(card.find('.banner-name').first().text());
+    const timer = card.find('[data-banner-timer]').first();
+    const featured = card.find('[aria-label="Featured Rate Up"] .featured-rate-up')
+      .map((__, row) => normalizeText($(row).text())).get().filter(Boolean);
+    return {
+      section:card.attr('data-section'),
+      phaseMeta,
+      phase:phaseMeta || bannerName || null,
+      characters:featured.length ? featured : [bannerName].filter(Boolean),
+      start:timestamp(timer.attr('data-start-asia')),
+      end:timestamp(timer.attr('data-end-asia')),
+    };
+  }).get();
+  const combine = (rows, teased = false) => {
+    const seen = new Set();
+    const characters = rows.flatMap((row) => row.characters).filter((name) => {
+      const key = normName(name);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    const starts = rows.map((row) => row.start).filter(Number.isFinite);
+    const ends = rows.map((row) => row.end).filter(Number.isFinite);
+    return {
+      phase:rows.find((row) => row.phase)?.phase || null,
+      characters,
+      start:starts.length ? new Date(Math.min(...starts)).toISOString() : null,
+      end:ends.length ? new Date(Math.max(...ends)).toISOString() : null,
+      ...(teased ? { teased:true } : {}),
+    };
+  };
 
-  // Match "ends YYYY/MM/DD HH:MM:SS" patterns
-  const endPattern = /ends\s+(\d{4}\/\d{2}\/\d{2}\s+\d{2}:\d{2}:\d{2})/gi;
-  const allEnds = [];
-  let m;
-  while ((m = endPattern.exec(text)) !== null) {
-    const d = new Date(m[1].replace(/\//g, '-') + 'Z'); // treat as UTC
-    if (!isNaN(d.getTime())) allEnds.push(d.getTime());
+  const currentRows = cards.filter((row) => row.section === 'current');
+  const finiteCurrent = currentRows.filter((row) => Number.isFinite(row.end) && row.end > now);
+  const nearestEnd = finiteCurrent.length ? Math.min(...finiteCurrent.map((row) => row.end)) : null;
+  const current = combine(nearestEnd === null
+    ? currentRows
+    : finiteCurrent.filter((row) => row.end === nearestEnd));
+
+  const scheduled = cards.filter((row) => row.section === 'upcoming' && Number.isFinite(row.start))
+    .sort((left, right) => left.start - right.start);
+  const groups = [];
+  for (const row of scheduled) {
+    const group = groups.at(-1);
+    if (!group || row.start - group[0].start >= tolerance) groups.push([row]);
+    else group.push(row);
   }
-
-  if (!allEnds.length) return null;
-
-  const now = Date.now();
-  allEnds.sort((a, b) => a - b);
-
-  // Soonest future end = current banner end; next group = next banner
-  const currentEnd = allEnds.find(e => e > now) ?? null;
-  const nextEnd    = currentEnd
-    ? (allEnds.find(e => e > (currentEnd + 60 * 1000)) ?? null)
-    : null;
-
-  // Extract character names near "Current" section (rough text scan)
-  const currentSection = text.match(/Current Banners?([\s\S]{0,2000}?)(?:Upcoming|Future|Next Banner)/i)?.[1] ?? '';
-  const nextSection    = text.match(/Upcoming Banners?([\s\S]{0,2000}?)(?:$|Future)/i)?.[1] ?? '';
-
-  function namesFromSection(sec) {
-    return [...sec.matchAll(/\(([A-Z][a-zA-Z\s'.:-]{1,35})\)/g)]
-      .map(x => x[1].trim())
-      .filter(n => !JUNK_PATTERN.test(n) && !DATE_LIKE.test(n))
-      .slice(0, 6);
+  const [nextRows = [], ...laterRows] = groups;
+  const teasedGroups = new Map();
+  for (const row of cards.filter((card) => card.section === 'teased'
+    || (card.section === 'upcoming' && !Number.isFinite(card.start)))) {
+    const key = normName(row.phaseMeta) || 'dateless';
+    if (!teasedGroups.has(key)) teasedGroups.set(key, []);
+    teasedGroups.get(key).push(row);
   }
-
   return {
-    current: {
-      characters: namesFromSection(currentSection),
-      end: currentEnd ? new Date(currentEnd).toISOString() : null,
-    },
-    next: {
-      characters: namesFromSection(nextSection),
-      start: currentEnd ? new Date(currentEnd).toISOString() : null,
-      end: nextEnd ? new Date(nextEnd).toISOString() : null,
-    },
+    current,
+    next:combine(nextRows),
+    upcoming:[
+      ...laterRows.map((rows) => combine(rows)),
+      ...[...teasedGroups.values()].map((rows) => combine(rows, true)),
+    ],
+  };
+}
+
+function mergeBannerSources(game8, prydwen) {
+  if (!game8) return prydwen;
+  if (!prydwen) return game8;
+  let contributed = false;
+  const fill = (primary = {}, supplemental = {}, fields) => {
+    const merged = { ...primary };
+    for (const field of fields) {
+      const value = supplemental[field];
+      const missing = field === 'characters'
+        ? !Array.isArray(merged[field]) || !merged[field].length
+        : merged[field] == null || merged[field] === '';
+      const usable = field === 'characters'
+        ? Array.isArray(value) && value.length
+        : value != null && value !== '';
+      if (missing && usable) {
+        merged[field] = value;
+        contributed = true;
+      }
+    }
+    return merged;
+  };
+  const current = fill(game8.result.current, prydwen.result.current, ['phase', 'characters', 'end']);
+  let next = fill(game8.result.next, prydwen.result.next, ['phase', 'characters', 'start', 'end']);
+  const upcoming = [...(game8.result.upcoming || [])];
+  const sameFuture = (left, right) => {
+    const leftStart = Date.parse(left?.start);
+    const rightStart = Date.parse(right?.start);
+    if (Number.isFinite(leftStart) && Number.isFinite(rightStart)) {
+      return Math.abs(leftStart - rightStart) < 36 * 60 * 60 * 1000;
+    }
+    const leftPhase = normName(left?.phase);
+    const rightPhase = normName(right?.phase);
+    if (leftPhase && leftPhase === rightPhase) return true;
+    const names = new Set((left?.characters || []).map((name) => normName(name?.name || name)));
+    return (right?.characters || []).some((name) => names.has(normName(name?.name || name)));
+  };
+  const knownFuture = [next, ...upcoming];
+  for (const phase of [prydwen.result.next, ...(prydwen.result.upcoming || [])]) {
+    if (!phase || (!(phase.characters || []).length && !phase.phase && !phase.start && !phase.end)) continue;
+    const knownIndex = knownFuture.findIndex((known) => sameFuture(known, phase));
+    if (knownIndex >= 0) {
+      const merged = fill(knownFuture[knownIndex], phase, ['phase', 'characters', 'start', 'end']);
+      const seen = new Set((merged.characters || []).map((name) => normName(name?.name || name)));
+      const additions = (phase.characters || []).filter((name) => !seen.has(normName(name?.name || name)));
+      if (additions.length) {
+        merged.characters = [...(merged.characters || []), ...additions];
+        contributed = true;
+      }
+      knownFuture[knownIndex] = merged;
+      if (knownIndex === 0) next = merged;
+      else upcoming[knownIndex - 1] = merged;
+      continue;
+    }
+    upcoming.push(phase);
+    knownFuture.push(phase);
+    contributed = true;
+  }
+  return {
+    result:{ ...game8.result, current, next, upcoming },
+    source:contributed ? 'game8+prydwen' : 'game8',
   };
 }
 
@@ -1274,12 +1366,14 @@ async function tryGame8(game) {
 }
 
 async function tryPrydwen(game) {
-  if (!game.fallbackUrl) return null;
-  console.log(`[${game.id}] Fetching prydwen: ${game.fallbackUrl}`);
+  console.log(`[${game.id}] Fetching prydwen: ${game.prydwenUrl}`);
   try {
-    const html = await fetchHtml(game.fallbackUrl);
+    const waitMs = Math.max(0, nextPrydwenRequestAt - Date.now());
+    if (waitMs) await new Promise((resolve) => setTimeout(resolve, waitMs));
+    nextPrydwenRequestAt = Date.now() + PRYDWEN_CRAWL_DELAY_MS;
+    const html = await fetchHtml(game.prydwenUrl, { headers:PRYDWEN_FETCH_HEADERS });
     const result = parsePrydwenPage(html);
-    if (result && (result.current.end || result.next.end)) {
+    if (result && (result.current.end || result.next.start || result.next.end)) {
       console.log(`[${game.id}] prydwen OK — current end: ${result.current.end}`);
       return { result, source: 'prydwen' };
     }
@@ -1292,11 +1386,8 @@ async function tryPrydwen(game) {
 }
 
 async function scrapeGame(game) {
-  // preferFallback = try Prydwen first, then game8 (used for HSR where game8 mixes light cones)
-  if (game.preferFallback) {
-    return (await tryPrydwen(game)) ?? (await tryGame8(game));
-  }
-  return (await tryGame8(game)) ?? (await tryPrydwen(game));
+  const [game8, prydwen] = await Promise.all([tryGame8(game), tryPrydwen(game)]);
+  return mergeBannerSources(game8, prydwen);
 }
 
 function requiredCurrentSourceFailures(gameIds, currentSourceSuccesses, optionalGames = ['endfield']) {
@@ -1391,9 +1482,11 @@ async function main() {
     let nextChars      = await enrichCharactersWithIcons(game.id, result.next.characters);
     let upcomingEnriched = (await Promise.all(
       (result.upcoming ?? []).map(async (u) => ({
+        phase: u.phase ?? null,
         characters: await enrichCharactersWithIcons(game.id, u.characters),
         start: u.start,
         end:   u.end,
+        teased: u.teased === true,
       }))
     )).filter((u) => u.characters.length > 0);
     // game8 repeats the same phase in several places (a summary table, a
@@ -1916,8 +2009,10 @@ module.exports = {
   requiredCurrentSourceFailures,
   SourceUnavailableError,
   localizeTeaserArt,
+  mergeBannerSources,
   parseGame8RoadmapCharacters,
   parseGame8UpcomingCharacters,
+  parsePrydwenPage,
   repairImpossibleCurrentEnd,
   roadmapSnapshot,
   scrapeGame8RoadmapCharacters,

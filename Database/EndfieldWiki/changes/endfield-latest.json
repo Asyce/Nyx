@@ -1,10 +1,10 @@
 {
   "provider": "EndfieldWiki",
   "game": "endfield",
-  "generatedAt": "2026-08-16T05:52:35.050Z",
+  "generatedAt": "2026-08-30T09:42:15.757Z",
   "summary": {
     "characters": {
-      "added": 0,
+      "added": 2,
       "removed": 0,
       "changed": 0,
       "unchanged": 31
@@ -24,13 +24,26 @@
   },
   "sections": {
     "characters": {
-      "added": [],
+      "added": [
+        {
+          "id": "purrchena",
+          "name": "Purrchena",
+          "previousHash": null,
+          "currentHash": "1206b3f1313a8ce73f037060d5f0cb81c2e9ce01f2e81c2b43b2c5a83de2520a"
+        },
+        {
+          "id": "typhoeus",
+          "name": "Typhoeus",
+          "previousHash": null,
+          "currentHash": "6f42862f2fa10a1d0002183d4d35f4d9f4de6998b2b5d4b550864aec91eb8b40"
+        }
+      ],
       "removed": [],
       "changed": [],
       "unchanged": 31,
       "totals": {
         "previous": 31,
-        "current": 31
+        "current": 33
       }
     },
     "weapons": {

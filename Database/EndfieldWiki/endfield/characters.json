@@ -11173,6 +11173,102 @@
     ]
   },
   {
+    "id": "typhoeus",
+    "contentStatus": "beta",
+    "name": "Typhoeus",
+    "pageName": "Typhoeus",
+    "gameId": null,
+    "gender": "Female",
+    "rarity": 6,
+    "class": "Striker",
+    "weapon": "Arts Unit",
+    "element": "Nature",
+    "faction": "Rhodes Island",
+    "tags": [
+      "Damage Dealer",
+      "Arts Burst"
+    ],
+    "mainAttribute": "Agility",
+    "subAttribute": "Will",
+    "headhunting": "chartered",
+    "birthDate": null,
+    "quote": "Endmin, I sought you out and fulfilled my promise. What about yours? Have you found a good story to share with me?",
+    "description": null,
+    "trait": null,
+    "expertise": [],
+    "hobbies": [],
+    "preferredWeapons": [],
+    "materials": null,
+    "art": {
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
+        "file": "Typhoeus icon.png",
+        "width": 120,
+        "height": 120,
+        "mime": "image/png"
+      },
+      "banner": null,
+      "splash": {
+        "path": "EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
+        "file": "Typhoeus Splash Art.png",
+        "width": 1836,
+        "height": 1766,
+        "mime": "image/png"
+      },
+      "portrait": null
+    },
+    "infobox": {
+      "name": "Typhoeus",
+      "rarity": "6",
+      "class": "Striker",
+      "weapon": "Arts Unit",
+      "element": "Nature",
+      "faction": "Rhodes Island",
+      "tags": "Damage Dealer, Arts Burst",
+      "main": "Agility",
+      "sub": "Will",
+      "starting": "",
+      "headhunting": "chartered",
+      "quote": "Endmin, I sought you out and fulfilled my promise. What about yours? Have you found a good story to share with me?",
+      "image": "Typhoeus Splash Art.png",
+      "filename": "",
+      "cnname": "提弗洛斯",
+      "tcname": "",
+      "jpname": "ティフォロス",
+      "krname": "티프로스",
+      "spname": "",
+      "runame": "Тифея",
+      "fullname": "",
+      "fileno": "",
+      "theme": "",
+      "illustrator": "",
+      "jpcv": "Naomi Oozora",
+      "cncv": "Xiao Sibai",
+      "encv": "Hanna Johansson",
+      "krcv": "Chae Rim",
+      "gender": "Female",
+      "authentication": "Rhodes Island",
+      "birthdate": "",
+      "race": "Sarkaz",
+      "matskill": "Umbra of Frigid Eventide",
+      "matstats": "}}"
+    },
+    "sections": [
+      {
+        "heading": "Profile",
+        "text": "\"A good story is like a good hunter. Both aim straight for the heart.\"\n\nTyphoeus, huntress of the wilds from Rhodes Island, is curious about the world. She is eager to delve into uninhabited and unexplored places to\nuncover the forgotten past.\n\nOn Talos-II, many legends of Sami have already faded, and only a handful of Samifjod still remember them. Typhoeus has resolved to visit them one by one, recording those shattered memories in her notebook.\n\nAfter arriving at Endfield, the stories she pursued were no longer confined to forgotten legends. She met many new friends and exchanged\nstories with people from across the land. And in pursuing those legends, she is also writing a story of her own.\n\nOne day, when every page of her notebook has been filled, she will proclaim to the friends around her: \"Legends aren't always too far off... They can happen right next to us.\""
+      },
+      {
+        "heading": "Combat Skills",
+        "text": "Basic Attack Wildlands Huntress:\n:Typhoeus can perform up to 5 basic attack sequences, dealing Nature DMG to enemies. When performing a finisher on an enemy, Typhoeus deals massive Nature DMG and restores some SP.\n\nBattle Skill Piercing Arrows of the Woods:\n:Jumps to enter a Hovering status, during which Typhoeus can unleash 5 Aerial Basic Attacks that deal Nature DMG, consuming the target's Nature Infliction stacks to accumulate Signs for herself.\n:She can also consume Hunting Arrows to enhance her attacks, dealing additional Nature Burst DMG.\n:* Typhoeus can move while attacking.\n:* She can target two enemies simultaneously.\n:* The fifth Aerial Basic Attack has the properties of a Final Strike, restoring SP and dealing Stagger to enemies.\n:* Consuming Hunting Arrows accumulates 1 Sign.\n:* Consuming Nature Infliction stacks awards 1 Sign, maximum 1 per attack. And also restores Ultimate Energy.\n:* Aerial Final Strikes award 1 Sign.\n\nCombo Skill Rampant Thorns:\n:Combo Trigger: When Typhoeus reaches max Signs (8).\n:Transmutes all accumulated Signs to Hunting Arrows (4) and creates a Barrage Array at the enemy location, dealing continuous Nature DMG and applying Slow on enemies within the AOE while increasing the Nature Burst DMG they take.\n:* Activating the Combo Skill while Typhoeus is in the Hover state will additionally reset her Aerial Basic Attack count.\n:* The Combo Skill can not be cast after performing the Aerial Final Strike.\n:* The Combo Skill can be re-triggered through Basic Attacks when at the Sign limit.\n\nUltimate Call of Ice Mountain:\n:Fires an Imbued Arrow that explodes after hitting the enemy, dealing massive Nature DMG to enemies within the AOE. Typhoeus then immediately enters a Hovering status and each of her next 5 Aerial Basic Attacks triggers a Hail of Arrows where the attack lands, dealing additional massive DMG.\n:* Typhoeus also gains two Hunting Arrows."
+      },
+      {
+        "heading": "Talents",
+        "text": "Prey Checklist\n\nHuntress's Focus"
+      }
+    ]
+  },
+  {
     "id": "yvonne",
     "contentStatus": "live",
     "name": "Yvonne",
@@ -17139,6 +17235,91 @@
       {
         "heading": "Combat Skills",
         "text": "{{Combat skill\n|name= Protocol α: Breach\n|icon= Attack-Artsunit\n|type=\n|info=\n|desc= BASIC ATTACK:\nAn attack with up to 4 sequences that deals Electric DMG. As the controlled operator, Final Strike also deals 15 Stagger.\n DIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Electric DMG to nearby enemies.\n FINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Electric DMG and recovers some SP.\n|stat1= BATK SEQ 1 Multiplier, 25%, 28%, 31%, 33%, 36%, 38%, 41%, 43%, 46%, 49%, 53%, 57%\n|stat2= BATK SEQ 2 Multiplier, 30%, 33%, 36%, 39%, 42%, 45%, 48%, 51%, 54%, 58%, 62%, 68%\n|stat3= BATK SEQ 3 Multiplier, 37%, 41%, 45%, 48%, 52%, 56%, 59%, 63%, 67%, 71%, 77%, 84%\n|stat4= BATK SEQ 4 Multiplier, 57%, 62%, 68%, 73%, 79%, 85%, 90%, 96%, 102%, 109%, 117%, 127%\n|stat5= Finisher ATK Multiplier, 400%, 440%, 480%, 520%, 560%, 600%, 640%, 680%, 720%, 770%, 830%, 900%\n|stat6= Dive ATK Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%\n}}\n{{Combat skill\n|name= Protocol ω: Strike\n|icon= Skill-Perlica\n|type=\n|info=\n|desc= SKILL DESCRIPTION: Unleashes a bolt of electro-magnetic energy that deals Electric DMG and Electric Infliction to enemies in a small area.\n|stat1= SP Cost, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100\n|stat2= DMG Multiplier, 178%, 196%, 213%, 231%, 249%, 267%, 285%, 302%, 320%, 342%, 369%, 400%\n|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10\n}}\n{{Combat skill\n|name= Instant Protocol: Chain\n|icon= Combo-Perlica\n|type=\n|info=\n|desc= COMBO TRIGGER: When controlled operator performs a Final Strike on any enemy.\n SKILL DESCRIPTION: Unleashes stored electro-magnetic energy to bombard the target, dealing Electric DMG and forcibly inflicting temporary Electrification.\n|stat1= Cooldown, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 19\n|stat2= DMG Multiplier, 80%, 88%, 96%, 104%, 112%, 120%, 128%, 136%, 144%, 154%, 166%, 180%\n|stat3= Stagger, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10\n|stat4= Electrify Duration (s), 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5\n|stat5= Ultimate Energy Gain, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10\n}}\n{{Combat skill\n|name= Protocol ε: 70.41K\n|icon= Ult-Perlica\n|type=\n|info=\n|desc= SKILL DESCRIPTION: Tele-protocols a massive piece of orbital debris into the battlefield with devastating impact. All enemies in the area of effect suffer massive Electric DMG.\n|stat1= Ultimate Energy Cost, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80\n|stat2= DMG Multiplier, 445%, 489%, 534%, 578%, 622%, 667%, 711%, 756%, 800%, 856%, 923%, 1000%\n|stat3= Stagger, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20\n}}"
+      }
+    ]
+  },
+  {
+    "id": "purrchena",
+    "contentStatus": "beta",
+    "name": "Purrchena",
+    "pageName": "Purrchena",
+    "gameId": null,
+    "gender": "Female",
+    "rarity": 5,
+    "class": "Defender",
+    "weapon": "Sword",
+    "element": "Physical",
+    "faction": "Talos-II General Chamber of Commerce (TGCC)",
+    "tags": [],
+    "mainAttribute": null,
+    "subAttribute": null,
+    "headhunting": null,
+    "birthDate": null,
+    "quote": null,
+    "description": null,
+    "trait": null,
+    "expertise": [],
+    "hobbies": [],
+    "preferredWeapons": [],
+    "materials": null,
+    "art": {
+      "icon": {
+        "path": "EndfieldWiki/endfield/assets/operators/purrchena/icon.png",
+        "file": "Purrchena icon.png",
+        "width": 120,
+        "height": 120,
+        "mime": "image/png"
+      },
+      "banner": null,
+      "splash": {
+        "path": "EndfieldWiki/endfield/assets/operators/purrchena/splash.png",
+        "file": "Purrchena Splash Art.png",
+        "width": 1705,
+        "height": 1661,
+        "mime": "image/png"
+      },
+      "portrait": null
+    },
+    "infobox": {
+      "name": "Purrchena",
+      "rarity": "5",
+      "class": "Defender",
+      "weapon": "Sword",
+      "element": "Physical",
+      "faction": "Talos-II General Chamber of Commerce (TGCC)",
+      "tags": "",
+      "main": "",
+      "sub": "",
+      "starting": "",
+      "headhunting": "",
+      "quote": "",
+      "image": "Purrchena Splash Art.png",
+      "filename": "",
+      "cnname": "",
+      "tcname": "",
+      "jpname": "プチエナ",
+      "krname": "푸치나",
+      "spname": "",
+      "runame": "",
+      "fullname": "",
+      "fileno": "",
+      "theme": "",
+      "illustrator": "",
+      "jpcv": "Shiori Izawa",
+      "cncv": "Han Jiaojiao",
+      "encv": "Christine Marie Cabanos",
+      "krcv": "Park Yi-seo",
+      "gender": "Female",
+      "authentication": "Talos-II General Chamber of Commerce (TGCC)",
+      "birthdate": "",
+      "race": "Feline",
+      "matskill": "Dessert Moment",
+      "matstats": "}}"
+    },
+    "sections": [
+      {
+        "heading": "Profile",
+        "text": "\"My turn to ... 'Meow-dy!' ...Ugh, how am I asleep again?!\"\n\nPurrchena is a big fan of desserts and serves as the spokesperson for the Ætherside Environmental Impact Syndrome Relief Foundation. She joined the Business Office of Endfield Industries at the recommendation of the Talos-II General Chamber of Commerce (TGCC) and has since become the liaison between Endfield and TGCC in the field of Ætherside Syndrome.\n\nWhen Purrchena first stepped into the public eye, the love and care people showed her made her aware of the responsibility she carried. But after she became the Foundation's spokesperson and stood alongside those living with Ætherside Syndrome, she realized how little she could do.\n\nEven though Ætherside Syndrome often caused her to fall asleep without warning, every time she woke up, she would set out again, carrying\neveryone's love with her. In her own way, Purrchena keeps the other patients receiving help smiling.\n\n\"Got my marshmallows and exotic dried fin... Alright, I'm good to go!\""
       }
     ]
   },

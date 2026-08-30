@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import {
   DEFAULT_DATABASE_DIR,
   cleanText,
@@ -139,19 +140,24 @@ async function main() {
   const assetRoot = path.join(outputDir, 'assets');
   const scrapedAt = new Date().toISOString();
 
-  console.log(`[endfield-wiki] fetching Cargo Operators table...`);
-  let cargoRows = await fetchCargoOperators();
+  console.log(`[endfield-wiki] fetching Cargo Operators table + operator pages...`);
+  let cargoRows = mergeOperatorRows(await fetchCargoOperators(), await fetchOperatorCategoryPages());
   cargoRows = cargoRows.sort(compareOperators);
   if (options.sample) cargoRows = cargoRows.slice(0, options.sample);
-  await writeJson(path.join(rawDir, 'cargo-operators.json'), cargoRows);
 
   console.log(`[endfield-wiki] resolving ${cargoRows.length} operator pages + image files...`);
-  const imageLookup = await fetchImageInfo(cargoRows);
   const pageData = await mapLimit(cargoRows, options.concurrency, async (row) => {
     const page = await fetchOperatorPage(row._pageName);
     return [operatorId(row), page];
   });
   const pagesById = Object.fromEntries(pageData);
+  const unresolvedCategoryRows = cargoRows.filter((row) => row._categoryOnly && !pagesById[operatorId(row)]);
+  if (unresolvedCategoryRows.length) {
+    throw new Error(`Category-only operator page(s) did not resolve: ${unresolvedCategoryRows.map((row) => row.Operator).join(', ')}`);
+  }
+  await writeJson(path.join(rawDir, 'cargo-operators.json'), cargoRows.map(({ _categoryOnly, ...row }) => row));
+  cargoRows = cargoRows.map((row) => enrichOperatorRow(row, pagesById[operatorId(row)]));
+  const imageLookup = await fetchImageInfo(cargoRows);
 
   const assets = [];
   const missingAssets = [];
@@ -236,7 +242,7 @@ async function main() {
     scrapedAt,
     source: {
       site: 'endfield.wiki.gg',
-      api: 'MediaWiki API + Cargo Operators table',
+      api: 'MediaWiki API + Cargo Operators table + Operators category',
       table: 'Operators'
     },
     sample: options.sample || null,
@@ -327,6 +333,33 @@ async function fetchCargoOperators() {
   return rows;
 }
 
+async function fetchOperatorCategoryPages() {
+  const pages = [];
+  let cmcontinue = null;
+  do {
+    const continuation = cmcontinue ? `&cmcontinue=${encodeURIComponent(cmcontinue)}` : '';
+    const url = `${WIKI_API}?action=query&list=categorymembers&cmtitle=Category%3AOperators&cmnamespace=0&cmlimit=max&format=json${continuation}`;
+    const json = await fetchJson(url);
+    pages.push(...(json?.query?.categorymembers || []).map((entry) => entry.title).filter(Boolean));
+    cmcontinue = json?.continue?.cmcontinue || null;
+  } while (cmcontinue);
+  if (!pages.length) throw new Error('Operators category returned no pages');
+  return pages;
+}
+
+function mergeOperatorRows(cargoRows, pageNames) {
+  const rows = [...(cargoRows || [])];
+  const seen = new Set(rows.map((row) => cleanText(row?._pageName || row?.Operator).toLowerCase()).filter(Boolean));
+  for (const pageName of pageNames || []) {
+    const name = cleanText(pageName);
+    const key = name.toLowerCase();
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    rows.push({ _pageName:name, Operator:name, _categoryOnly:true });
+  }
+  return rows;
+}
+
 async function fetchOperatorPage(pageName) {
   const url = `${WIKI_API}?action=parse&page=${encodeURIComponent(pageName)}&prop=wikitext|displaytitle|text&format=json&disableeditsection=1`;
   const json = await fetchJson(url, { optional: true });
@@ -335,9 +368,44 @@ async function fetchOperatorPage(pageName) {
   return {
     title: stripTags(json.parse?.displaytitle || pageName),
     pageName,
+    upcoming: /^\s*\{\{Upcoming\b/im.test(wikitext),
     html: json.parse?.text?.['*'] || '',
     infobox: parseInfobox(wikitext),
     sections: parseWikiSections(wikitext)
+  };
+}
+
+function enrichOperatorRow(row, page) {
+  const { _categoryOnly, ...cleanRow } = row || {};
+  const infobox = page?.infobox || {};
+  const first = (...values) => values
+    .filter((value) => value != null && String(value).trim().toLowerCase() !== 'null')
+    .map((value) => cleanText(value)).find(Boolean) || '';
+  const field = (name, ...aliases) => first(row?.[name], ...aliases.map((alias) => infobox[alias]));
+  const name = field('Operator', 'name') || first(page?.title, row?._pageName) || 'Operator';
+  return {
+    ...cleanRow,
+    _pageName:first(row?._pageName, page?.pageName, name),
+    Operator:name,
+    Id:field('Id', 'id'),
+    Icon:field('Icon', 'icon') || `${name} icon.png`,
+    Banner:field('Banner', 'banner'),
+    Splash:field('Splash', 'image', 'splash'),
+    Portrait:field('Portrait', 'portrait'),
+    Gender:field('Gender', 'gender'),
+    Rarity:field('Rarity', 'rarity'),
+    Class:field('Class', 'class'),
+    Weapon:field('Weapon', 'weapon'),
+    Element:field('Element', 'element'),
+    Faction:field('Faction', 'faction', 'authentication'),
+    BirthDate:field('BirthDate', 'birthdate'),
+    Tags:field('Tags', 'tags'),
+    MainAttr:field('MainAttr', 'main', 'mainAttr'),
+    SubAttr:field('SubAttr', 'sub', 'subAttr'),
+    Headhunting:field('Headhunting', 'headhunting'),
+    Description:field('Description', 'description'),
+    Quote:field('Quote', 'quote'),
+    Trait:field('Trait', 'trait'),
   };
 }
 
@@ -417,7 +485,7 @@ function normalizeOperator({ row, page, imageLookup, assetRoot, databaseDir, ass
 
   return {
     id,
-    contentStatus: 'live',
+    contentStatus: page?.upcoming ? 'beta' : 'live',
     name,
     pageName: cleanText(row._pageName),
     gameId: cleanText(row.Id) || null,
@@ -955,7 +1023,11 @@ function safeKey(value) {
   return String(value).trim().replace(/[^A-Za-z0-9]+(.)/g, (_, c) => c.toUpperCase());
 }
 
-main().catch((error) => {
-  console.error(error.stack || error.message);
-  process.exitCode = 1;
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((error) => {
+    console.error(error.stack || error.message);
+    process.exitCode = 1;
+  });
+}
+
+export { enrichOperatorRow, mergeOperatorRows };

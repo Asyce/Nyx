@@ -190,7 +190,7 @@ test('Endfield loss pool and concurrent banners follow canonical history', async
     primaryless,
   ]);
   assert.equal(filteredPool.current.name, preceding.primary.name);
-  assert.match(generator, /const pool = key === 'ae' \? endfieldLiveLossPool\(records, currentRows\) : null/);
+  assert.match(generator, /const pool = key === 'ae' \? endfieldLiveLossPool\(records, rows\) : null/);
 });
 
 test('a patch-only roadmap character joins the known second phase', () => {
@@ -307,7 +307,7 @@ test("Endfield's off-banner characters are labelled as the 50/50 loss pool", () 
   assert.match(sharedCss, /\.gp-ovb-modal::backdrop/);
   assert.match(sharedCss, /@media \(max-width:640px\)\{[\s\S]*?\.gp-ovb-loss-sequence/);
   assert.match(generator, /function endfieldLossPool/);
-  assert.match(generator, /current\.lossPool = \{/);
+  assert.match(generator, /phase\.lossPool = \{/);
   assert.match(generator, /normalizeBannerCharacter\(rosters, key, pool\.current, runCounts\)/);
   // Endfield fills columns 2-4 with what is coming and drops the fifth.
   assert.match(appSource, /\[\.\.\.board\.concurrent, board\.next, \.\.\.board\.later\][\s\S]{0,180}column\.heroes\.map[\s\S]{0,180}\.slice\(0, 3\)/);
@@ -434,8 +434,17 @@ test('short overlap banners do not invent an extra phase', () => {
 
 test('Endfield ships every scheduled future banner in order', () => {
   assert.deepEqual([banners.ae.next.phase, banners.ae.next.characters[0].name], ['Winter Hunt', 'Typhoeus']);
-  assert.match(banners.ae.next.characters[0].art, /typhoeus/i);
+  assert.match(banners.ae.next.characters[0].art, /Database\/EndfieldWiki\/endfield\/assets\/operators\/typhoeus\/splash\.png$/);
+  assert.deepEqual(Array.from(banners.ae.next.lossPool.previous, (row) => row.name), ['Liino', 'Arcane']);
   assert.deepEqual([banners.ae.upcoming[0].phase, banners.ae.upcoming[0].characters[0].name], ['Resplendent Spectrum', 'Yvonne']);
+  assert.deepEqual(Array.from(banners.ae.upcoming[0].lossPool.previous, (row) => row.name), ['Typhoeus', 'Liino']);
+  for (const phase of [banners.ae.next, ...banners.ae.upcoming]) {
+    for (const unit of phase?.characters || []) {
+      assert.doesNotMatch([unit.icon, unit.art].filter(Boolean).join(' '), /cdn\.perlica\.moe/);
+    }
+  }
+  assert.doesNotMatch(appSource, /status:row\.column\.status === 'live' \? 'live' : 'upcoming',[\s\S]{0,100}others:\[\]/);
+  assert.doesNotMatch(appSource, /status:row\.column\.status === 'live' \? 'live' : 'upcoming',[\s\S]{0,100}supportLabel:null/);
 });
 
 test('the five-column model matches each requested game roadmap', () => {

@@ -11,8 +11,8 @@
   "sourcePath": "/zenless/characters/ukinami-yuzuha",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "updatedText": "29/July/2026",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "19/August/2026",
   "meta": {
     "title": "Yuzuha Best Build Guide | Zenless Zone Zero",
     "description": ""
@@ -445,12 +445,12 @@
       "height": 60
     },
     {
-      "id": "db3a1e63185e",
-      "sourceHash": "db3a1e63185e",
+      "id": "79ca38737857",
+      "sourceHash": "79ca38737857",
       "kind": "characters",
-      "name": "Aria",
-      "fileStem": "aria",
-      "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+      "name": "Yanagi",
+      "fileStem": "yanagi",
+      "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
       "width": 60,
       "height": 60
     },
@@ -465,22 +465,12 @@
       "height": 60
     },
     {
-      "id": "79ca38737857",
-      "sourceHash": "79ca38737857",
+      "id": "db3a1e63185e",
+      "sourceHash": "db3a1e63185e",
       "kind": "characters",
-      "name": "Yanagi",
-      "fileStem": "yanagi",
-      "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "5bb6938af9bb",
-      "sourceHash": "5bb6938af9bb",
-      "kind": "characters",
-      "name": "Soukaku",
-      "fileStem": "soukaku",
-      "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+      "name": "Aria",
+      "fileStem": "aria",
+      "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
       "width": 60,
       "height": 60
     }
@@ -490,7 +480,7 @@
       "id": "yuzuha-best-build-guide-0",
       "level": 1,
       "heading": "Yuzuha Best Build Guide",
-      "text": "Last updated: 29/July/2026",
+      "text": "Last updated: 19/August/2026",
       "assets": [
         {
           "id": "67a7255fc026",
@@ -543,7 +533,7 @@
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Patch 2.1\n\n Last build update\n Patch 2.6\n\n Last teams update\n Patch 2.6\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "text": "Last review update\n Patch 2.1\n\n Last build update\n Patch 2.6\n\n Last teams update\n Patch 2.6\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
       "assets": []
     },
     {
@@ -856,7 +846,7 @@
       "id": "best-w-engines-27",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 102.38%\n\n Weeping Cradle (S 5 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 24.19 %\n Shiyu Defense: 34390\n Deadly Assault: 29351\n\n 102.07%\n\n Thoughtbop (S 1 )\n\n Unlike other W-Engines who demand a character is \"off-field\" for its Energy Regen effect - like Weeping Cradle - Thoughtbop only demands for one to \"not be the active character\", meaning it's the best option as far as Energy economy goes. To top it off, its DMG Bonus and ATK % buff effects are triggered on dealing Physical DMG with an EX Special, which Yuzuha is able to do easily as her element conversion does not apply to EX Special hits. This makes it arguably even better than her own Signature if the team has enough Anomaly Proficiency substats to make up for the difference.\n Usage: 0.86 %\n Shiyu Defense: 37314\n Deadly Assault: 35053\n\n 100.00%\n\n Metanukimorphosis (S 1 )\n\n Yuzuha's Signature W-Engine is one of her top choices but primarily in the context of Anomaly teams. It grants Yuzuha an Anomaly Mastery boost allowing her to max her Additional Ability effect as well as increasing Anomaly Proficiency of all characters in the team when dealing Aftershock damage, on top of giving lots of Energy Regen and Base ATK. As this W-Engine is specialized for Anomaly teams, Yuzuha may prefer options lower down the list outside of those — know that this includes Miyabi teams.\n Usage: 42.49 %\n Shiyu Defense: 35462\n Deadly Assault: 29917\n\n 93.51%\n\n Weeping Cradle (S 1 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 24.19 %\n Shiyu Defense: 34390\n Deadly Assault: 29351\n\n 93.28%\n\n Kaboom the Cannon (S 5 )\n\n The all-around strongest Support W-Engine for most Agents — Yuzuha is no exception as this is her best choice outside of Anomaly teams (outside of Weeping Cradle at high Phases and Yixuan teams). Thanks to her tanuki Kama, she is fully able to activate this W-Engine's ATK increasing effect, strongly enhancing team performance.\n Usage: 29.81 %\n Shiyu Defense: 33443\n Deadly Assault: 26575\n\n -\n\n Unfettered Game Ball (S 5 )\n\n Thanks to Yuzuha's ability to adapt her element depending on the team, she's the first proper user of this usually situational Battle Pass W-Engine! This W-Engine requires you to apply Attribute Anomalies which an enemy is weak to, then it increases the whole team's CRIT Rate. In teams where this is possible and desirable, this W-Engine is surprisingly strong, but it won't outperform the above options although it can get very close. Owing to its highly situational nature, no calculations are provided for it, as it can range from having no use to highly competitive depending on the team and encounter.\n Usage: 0.44 %\n Shiyu Defense: 32647\n Deadly Assault: 25327",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 102.38%\n\n Weeping Cradle (S 5 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 22.14 %\n Shiyu Defense: 28751\n Deadly Assault: 27545\n\n 102.07%\n\n Thoughtbop (S 1 )\n\n Unlike other W-Engines who demand a character is \"off-field\" for its Energy Regen effect - like Weeping Cradle - Thoughtbop only demands for one to \"not be the active character\", meaning it's the best option as far as Energy economy goes. To top it off, its DMG Bonus and ATK % buff effects are triggered on dealing Physical DMG with an EX Special, which Yuzuha is able to do easily as her element conversion does not apply to EX Special hits. This makes it arguably even better than her own Signature if the team has enough Anomaly Proficiency substats to make up for the difference.\n Usage: 1.03 %\n Shiyu Defense: 31592\n Deadly Assault: 29090\n\n 100.00%\n\n Metanukimorphosis (S 1 )\n\n Yuzuha's Signature W-Engine is one of her top choices but primarily in the context of Anomaly teams. It grants Yuzuha an Anomaly Mastery boost allowing her to max her Additional Ability effect as well as increasing Anomaly Proficiency of all characters in the team when dealing Aftershock damage, on top of giving lots of Energy Regen and Base ATK. As this W-Engine is specialized for Anomaly teams, Yuzuha may prefer options lower down the list outside of those — know that this includes Miyabi teams.\n Usage: 46.28 %\n Shiyu Defense: 29480\n Deadly Assault: 26364\n\n 93.51%\n\n Weeping Cradle (S 1 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 22.14 %\n Shiyu Defense: 28751\n Deadly Assault: 27545\n\n 93.28%\n\n Kaboom the Cannon (S 5 )\n\n The all-around strongest Support W-Engine for most Agents — Yuzuha is no exception as this is her best choice outside of Anomaly teams (outside of Weeping Cradle at high Phases and Yixuan teams). Thanks to her tanuki Kama, she is fully able to activate this W-Engine's ATK increasing effect, strongly enhancing team performance.\n Usage: 27.5 %\n Shiyu Defense: 28274\n Deadly Assault: 24977\n\n -\n\n Unfettered Game Ball (S 5 )\n\n Thanks to Yuzuha's ability to adapt her element depending on the team, she's the first proper user of this usually situational Battle Pass W-Engine! This W-Engine requires you to apply Attribute Anomalies which an enemy is weak to, then it increases the whole team's CRIT Rate. In teams where this is possible and desirable, this W-Engine is surprisingly strong, but it won't outperform the above options although it can get very close. Owing to its highly situational nature, no calculations are provided for it, as it can range from having no use to highly competitive depending on the team and encounter.\n Usage: 0.37 %\n Shiyu Defense: 27384\n Deadly Assault: 20076",
       "assets": [
         {
           "id": "60c7922a08be",
@@ -1156,7 +1146,7 @@
       "id": "teams-shiyu-defense-36",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Yuzuha in the current phase of Shiyu Defense.\n Rank 3\n App. rate: 14.41 %\n Avg. time: 33744\n\n Rank 5\n App. rate: 10.19 %\n Avg. time: 35905\n\n Rank 6\n App. rate: 9.07 %\n Avg. time: 38150\n\n Rank 11\n App. rate: 6.45 %\n Avg. time: 33246\n\n Rank 14\n App. rate: 4.57 %\n Avg. time: 29194\n\n Rank 17\n App. rate: 3.3 %\n Avg. time: 38300\n\n Rank 21\n App. rate: 2.59 %\n Avg. time: 36114\n\n Rank 25\n App. rate: 2.09 %\n Avg. time: 32547\n\n Rank 28\n App. rate: 1.91 %\n Avg. time: 32659\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 29022",
+      "text": "This section lists most popular teams featuring Yuzuha in the current phase of Shiyu Defense.\n Rank 7\n App. rate: 8.52 %\n Avg. Score: 28282\n\n Rank 15\n App. rate: 2.84 %\n Avg. Score: 32618\n\n Rank 22\n App. rate: 1.84 %\n Avg. Score: 28630\n\n Rank 30\n App. rate: 0.98 %\n Avg. Score: 26807\n\n Rank 38\n App. rate: 0.8 %\n Avg. Score: 26182\n\n Rank 39\n App. rate: 0.78 %\n Avg. Score: 30979\n\n Rank 41\n App. rate: 0.77 %\n Avg. Score: 30356\n\n Rank 50\n App. rate: 0.54 %\n Avg. Score: 26459\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 30400\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 28856",
       "assets": [
         {
           "id": "bf8821af9328",
@@ -1189,12 +1179,12 @@
           "height": 60
         },
         {
-          "id": "07290ab47d04",
-          "sourceHash": "07290ab47d04",
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
           "kind": "characters",
-          "name": "Promeia",
-          "fileStem": "promeia",
-          "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
           "width": 60,
           "height": 60
         },
@@ -1209,12 +1199,90 @@
           "height": 60
         },
         {
-          "id": "db3a1e63185e",
-          "sourceHash": "db3a1e63185e",
+          "id": "79ca38737857",
+          "sourceHash": "79ca38737857",
           "kind": "characters",
-          "name": "Aria",
-          "fileStem": "aria",
-          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+          "name": "Yanagi",
+          "fileStem": "yanagi",
+          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7cafcffe0fee",
+          "sourceHash": "7cafcffe0fee",
+          "kind": "characters",
+          "name": "Burnice",
+          "fileStem": "burnice",
+          "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e33ff79684e5",
+          "sourceHash": "e33ff79684e5",
+          "kind": "characters",
+          "name": "Vivian",
+          "fileStem": "vivian",
+          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "07290ab47d04",
+          "sourceHash": "07290ab47d04",
+          "kind": "characters",
+          "name": "Promeia",
+          "fileStem": "promeia",
+          "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8bdbbd8d6be8",
+          "sourceHash": "8bdbbd8d6be8",
+          "kind": "characters",
+          "name": "Alice",
+          "fileStem": "alice",
+          "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "teams-deadly-assault-37",
+      "level": 2,
+      "heading": "Teams (Deadly Assault)",
+      "text": "This section lists most popular teams featuring Yuzuha in the current phase of Deadly Assault.\n Rank 18\n App. rate: 1.8 %\n Avg. Score: 23809\n\n Rank 24\n App. rate: 1.13 %\n Avg. Score: 26607\n\n Rank 38\n App. rate: 0.56 %\n Avg. Score: 29842\n\n Rank 40\n App. rate: 0.53 %\n Avg. Score: 28595\n\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 32452\n\n Rank 49\n App. rate: 0.43 %\n Avg. Score: 32405\n\n Rank 50\n App. rate: 0.41 %\n Avg. Score: 23369\n\n Rank 68\n App. rate: 0.27 %\n Avg. Score: 21002\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 21203\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 27064",
+      "assets": [
+        {
+          "id": "bf8821af9328",
+          "sourceHash": "bf8821af9328",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi",
+          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2541747ebcdb",
+          "sourceHash": "2541747ebcdb",
+          "kind": "characters",
+          "name": "Nangong Yu",
+          "fileStem": "nangong-yu",
+          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
+          "kind": "characters",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
           "width": 60,
           "height": 60
         },
@@ -1229,12 +1297,32 @@
           "height": 60
         },
         {
-          "id": "e33ff79684e5",
-          "sourceHash": "e33ff79684e5",
+          "id": "d6ce03b535c6",
+          "sourceHash": "d6ce03b535c6",
           "kind": "characters",
-          "name": "Vivian",
-          "fileStem": "vivian",
-          "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+          "name": "Velina",
+          "fileStem": "velina",
+          "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "07290ab47d04",
+          "sourceHash": "07290ab47d04",
+          "kind": "characters",
+          "name": "Promeia",
+          "fileStem": "promeia",
+          "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "db3a1e63185e",
+          "sourceHash": "db3a1e63185e",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria",
+          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
           "width": 60,
           "height": 60
         },
@@ -1259,130 +1347,12 @@
           "height": 60
         },
         {
-          "id": "79ca38737857",
-          "sourceHash": "79ca38737857",
-          "kind": "characters",
-          "name": "Yanagi",
-          "fileStem": "yanagi",
-          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-          "width": 60,
-          "height": 60
-        }
-      ]
-    },
-    {
-      "id": "teams-deadly-assault-37",
-      "level": 2,
-      "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Yuzuha in the current phase of Deadly Assault.\n Rank 1\n App. rate: 30.33 %\n Avg. score: 31747\n\n Rank 9\n App. rate: 7.24 %\n Avg. score: 22638\n\n Rank 16\n App. rate: 3.11 %\n Avg. score: 24708\n\n Rank 18\n App. rate: 2.79 %\n Avg. score: 31883\n\n Rank 19\n App. rate: 2.75 %\n Avg. score: 21851\n\n Rank 20\n App. rate: 2.4 %\n Avg. score: 26832\n\n Rank 21\n App. rate: 2.25 %\n Avg. score: 29424\n\n Rank 23\n App. rate: 1.96 %\n Avg. score: 27232\n\n Rank 29\n App. rate: 1.17 %\n Avg. score: 22342\n\n Rank 33\n App. rate: 0.92 %\n Avg. score: 28829",
-      "assets": [
-        {
-          "id": "bf8821af9328",
-          "sourceHash": "bf8821af9328",
-          "kind": "characters",
-          "name": "Miyabi",
-          "fileStem": "miyabi",
-          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "2541747ebcdb",
-          "sourceHash": "2541747ebcdb",
-          "kind": "characters",
-          "name": "Nangong Yu",
-          "fileStem": "nangong-yu",
-          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "d2c1c9b40367",
-          "sourceHash": "d2c1c9b40367",
-          "kind": "characters",
-          "name": "Yuzuha",
-          "fileStem": "ukinami-yuzuha",
-          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "e33ff79684e5",
           "sourceHash": "e33ff79684e5",
           "kind": "characters",
           "name": "Vivian",
           "fileStem": "vivian",
           "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7a4ba5242a6c",
-          "sourceHash": "7a4ba5242a6c",
-          "kind": "characters",
-          "name": "Jane Doe",
-          "fileStem": "jane-doe",
-          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "d6ce03b535c6",
-          "sourceHash": "d6ce03b535c6",
-          "kind": "characters",
-          "name": "Velina",
-          "fileStem": "velina",
-          "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "07290ab47d04",
-          "sourceHash": "07290ab47d04",
-          "kind": "characters",
-          "name": "Promeia",
-          "fileStem": "promeia",
-          "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "79ca38737857",
-          "sourceHash": "79ca38737857",
-          "kind": "characters",
-          "name": "Yanagi",
-          "fileStem": "yanagi",
-          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "5bb6938af9bb",
-          "sourceHash": "5bb6938af9bb",
-          "kind": "characters",
-          "name": "Soukaku",
-          "fileStem": "soukaku",
-          "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "7cafcffe0fee",
-          "sourceHash": "7cafcffe0fee",
-          "kind": "characters",
-          "name": "Burnice",
-          "fileStem": "burnice",
-          "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "db3a1e63185e",
-          "sourceHash": "db3a1e63185e",
-          "kind": "characters",
-          "name": "Aria",
-          "fileStem": "aria",
-          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
           "width": 60,
           "height": 60
         }
@@ -1395,7 +1365,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 102.38%\n\n Weeping Cradle (S 5 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 24.19 %\n Shiyu Defense: 34390\n Deadly Assault: 29351\n\n 102.07%\n\n Thoughtbop (S 1 )\n\n Unlike other W-Engines who demand a character is \"off-field\" for its Energy Regen effect - like Weeping Cradle - Thoughtbop only demands for one to \"not be the active character\", meaning it's the best option as far as Energy economy goes. To top it off, its DMG Bonus and ATK % buff effects are triggered on dealing Physical DMG with an EX Special, which Yuzuha is able to do easily as her element conversion does not apply to EX Special hits. This makes it arguably even better than her own Signature if the team has enough Anomaly Proficiency substats to make up for the difference.\n Usage: 0.86 %\n Shiyu Defense: 37314\n Deadly Assault: 35053\n\n 100.00%\n\n Metanukimorphosis (S 1 )\n\n Yuzuha's Signature W-Engine is one of her top choices but primarily in the context of Anomaly teams. It grants Yuzuha an Anomaly Mastery boost allowing her to max her Additional Ability effect as well as increasing Anomaly Proficiency of all characters in the team when dealing Aftershock damage, on top of giving lots of Energy Regen and Base ATK. As this W-Engine is specialized for Anomaly teams, Yuzuha may prefer options lower down the list outside of those — know that this includes Miyabi teams.\n Usage: 42.49 %\n Shiyu Defense: 35462\n Deadly Assault: 29917\n\n 93.51%\n\n Weeping Cradle (S 1 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 24.19 %\n Shiyu Defense: 34390\n Deadly Assault: 29351\n\n 93.28%\n\n Kaboom the Cannon (S 5 )\n\n The all-around strongest Support W-Engine for most Agents — Yuzuha is no exception as this is her best choice outside of Anomaly teams (outside of Weeping Cradle at high Phases and Yixuan teams). Thanks to her tanuki Kama, she is fully able to activate this W-Engine's ATK increasing effect, strongly enhancing team performance.\n Usage: 29.81 %\n Shiyu Defense: 33443\n Deadly Assault: 26575\n\n -\n\n Unfettered Game Ball (S 5 )\n\n Thanks to Yuzuha's ability to adapt her element depending on the team, she's the first proper user of this usually situational Battle Pass W-Engine! This W-Engine requires you to apply Attribute Anomalies which an enemy is weak to, then it increases the whole team's CRIT Rate. In teams where this is possible and desirable, this W-Engine is surprisingly strong, but it won't outperform the above options although it can get very close. Owing to its highly situational nature, no calculations are provided for it, as it can range from having no use to highly competitive depending on the team and encounter.\n Usage: 0.44 %\n Shiyu Defense: 32647\n Deadly Assault: 25327",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 102.38%\n\n Weeping Cradle (S 5 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 22.14 %\n Shiyu Defense: 28751\n Deadly Assault: 27545\n\n 102.07%\n\n Thoughtbop (S 1 )\n\n Unlike other W-Engines who demand a character is \"off-field\" for its Energy Regen effect - like Weeping Cradle - Thoughtbop only demands for one to \"not be the active character\", meaning it's the best option as far as Energy economy goes. To top it off, its DMG Bonus and ATK % buff effects are triggered on dealing Physical DMG with an EX Special, which Yuzuha is able to do easily as her element conversion does not apply to EX Special hits. This makes it arguably even better than her own Signature if the team has enough Anomaly Proficiency substats to make up for the difference.\n Usage: 1.03 %\n Shiyu Defense: 31592\n Deadly Assault: 29090\n\n 100.00%\n\n Metanukimorphosis (S 1 )\n\n Yuzuha's Signature W-Engine is one of her top choices but primarily in the context of Anomaly teams. It grants Yuzuha an Anomaly Mastery boost allowing her to max her Additional Ability effect as well as increasing Anomaly Proficiency of all characters in the team when dealing Aftershock damage, on top of giving lots of Energy Regen and Base ATK. As this W-Engine is specialized for Anomaly teams, Yuzuha may prefer options lower down the list outside of those — know that this includes Miyabi teams.\n Usage: 46.28 %\n Shiyu Defense: 29480\n Deadly Assault: 26364\n\n 93.51%\n\n Weeping Cradle (S 1 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 22.14 %\n Shiyu Defense: 28751\n Deadly Assault: 27545\n\n 93.28%\n\n Kaboom the Cannon (S 5 )\n\n The all-around strongest Support W-Engine for most Agents — Yuzuha is no exception as this is her best choice outside of Anomaly teams (outside of Weeping Cradle at high Phases and Yixuan teams). Thanks to her tanuki Kama, she is fully able to activate this W-Engine's ATK increasing effect, strongly enhancing team performance.\n Usage: 27.5 %\n Shiyu Defense: 28274\n Deadly Assault: 24977\n\n -\n\n Unfettered Game Ball (S 5 )\n\n Thanks to Yuzuha's ability to adapt her element depending on the team, she's the first proper user of this usually situational Battle Pass W-Engine! This W-Engine requires you to apply Attribute Anomalies which an enemy is weak to, then it increases the whole team's CRIT Rate. In teams where this is possible and desirable, this W-Engine is surprisingly strong, but it won't outperform the above options although it can get very close. Owing to its highly situational nature, no calculations are provided for it, as it can range from having no use to highly competitive depending on the team and encounter.\n Usage: 0.37 %\n Shiyu Defense: 27384\n Deadly Assault: 20076",
           "assets": [
             {
               "id": "60c7922a08be",
@@ -1537,7 +1507,7 @@
         },
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Yuzuha in the current phase of Shiyu Defense.\n Rank 3\n App. rate: 14.41 %\n Avg. time: 33744\n\n Rank 5\n App. rate: 10.19 %\n Avg. time: 35905\n\n Rank 6\n App. rate: 9.07 %\n Avg. time: 38150\n\n Rank 11\n App. rate: 6.45 %\n Avg. time: 33246\n\n Rank 14\n App. rate: 4.57 %\n Avg. time: 29194\n\n Rank 17\n App. rate: 3.3 %\n Avg. time: 38300\n\n Rank 21\n App. rate: 2.59 %\n Avg. time: 36114\n\n Rank 25\n App. rate: 2.09 %\n Avg. time: 32547\n\n Rank 28\n App. rate: 1.91 %\n Avg. time: 32659\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 29022",
+          "text": "This section lists most popular teams featuring Yuzuha in the current phase of Shiyu Defense.\n Rank 7\n App. rate: 8.52 %\n Avg. Score: 28282\n\n Rank 15\n App. rate: 2.84 %\n Avg. Score: 32618\n\n Rank 22\n App. rate: 1.84 %\n Avg. Score: 28630\n\n Rank 30\n App. rate: 0.98 %\n Avg. Score: 26807\n\n Rank 38\n App. rate: 0.8 %\n Avg. Score: 26182\n\n Rank 39\n App. rate: 0.78 %\n Avg. Score: 30979\n\n Rank 41\n App. rate: 0.77 %\n Avg. Score: 30356\n\n Rank 50\n App. rate: 0.54 %\n Avg. Score: 26459\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 30400\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 28856",
           "assets": [
             {
               "id": "bf8821af9328",
@@ -1570,12 +1540,12 @@
               "height": 60
             },
             {
-              "id": "07290ab47d04",
-              "sourceHash": "07290ab47d04",
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
               "kind": "characters",
-              "name": "Promeia",
-              "fileStem": "promeia",
-              "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
               "width": 60,
               "height": 60
             },
@@ -1590,12 +1560,88 @@
               "height": 60
             },
             {
-              "id": "db3a1e63185e",
-              "sourceHash": "db3a1e63185e",
+              "id": "79ca38737857",
+              "sourceHash": "79ca38737857",
               "kind": "characters",
-              "name": "Aria",
-              "fileStem": "aria",
-              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
+              "name": "Yanagi",
+              "fileStem": "yanagi",
+              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7cafcffe0fee",
+              "sourceHash": "7cafcffe0fee",
+              "kind": "characters",
+              "name": "Burnice",
+              "fileStem": "burnice",
+              "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e33ff79684e5",
+              "sourceHash": "e33ff79684e5",
+              "kind": "characters",
+              "name": "Vivian",
+              "fileStem": "vivian",
+              "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "07290ab47d04",
+              "sourceHash": "07290ab47d04",
+              "kind": "characters",
+              "name": "Promeia",
+              "fileStem": "promeia",
+              "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8bdbbd8d6be8",
+              "sourceHash": "8bdbbd8d6be8",
+              "kind": "characters",
+              "name": "Alice",
+              "fileStem": "alice",
+              "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
+        },
+        {
+          "heading": "Teams (Deadly Assault)",
+          "text": "This section lists most popular teams featuring Yuzuha in the current phase of Deadly Assault.\n Rank 18\n App. rate: 1.8 %\n Avg. Score: 23809\n\n Rank 24\n App. rate: 1.13 %\n Avg. Score: 26607\n\n Rank 38\n App. rate: 0.56 %\n Avg. Score: 29842\n\n Rank 40\n App. rate: 0.53 %\n Avg. Score: 28595\n\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 32452\n\n Rank 49\n App. rate: 0.43 %\n Avg. Score: 32405\n\n Rank 50\n App. rate: 0.41 %\n Avg. Score: 23369\n\n Rank 68\n App. rate: 0.27 %\n Avg. Score: 21002\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 21203\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 27064",
+          "assets": [
+            {
+              "id": "bf8821af9328",
+              "sourceHash": "bf8821af9328",
+              "kind": "characters",
+              "name": "Miyabi",
+              "fileStem": "miyabi",
+              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2541747ebcdb",
+              "sourceHash": "2541747ebcdb",
+              "kind": "characters",
+              "name": "Nangong Yu",
+              "fileStem": "nangong-yu",
+              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
+              "kind": "characters",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
               "width": 60,
               "height": 60
             },
@@ -1610,12 +1656,32 @@
               "height": 60
             },
             {
-              "id": "e33ff79684e5",
-              "sourceHash": "e33ff79684e5",
+              "id": "d6ce03b535c6",
+              "sourceHash": "d6ce03b535c6",
               "kind": "characters",
-              "name": "Vivian",
-              "fileStem": "vivian",
-              "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
+              "name": "Velina",
+              "fileStem": "velina",
+              "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "07290ab47d04",
+              "sourceHash": "07290ab47d04",
+              "kind": "characters",
+              "name": "Promeia",
+              "fileStem": "promeia",
+              "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "db3a1e63185e",
+              "sourceHash": "db3a1e63185e",
+              "kind": "characters",
+              "name": "Aria",
+              "fileStem": "aria",
+              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
               "width": 60,
               "height": 60
             },
@@ -1640,128 +1706,12 @@
               "height": 60
             },
             {
-              "id": "79ca38737857",
-              "sourceHash": "79ca38737857",
-              "kind": "characters",
-              "name": "Yanagi",
-              "fileStem": "yanagi",
-              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-              "width": 60,
-              "height": 60
-            }
-          ]
-        },
-        {
-          "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Yuzuha in the current phase of Deadly Assault.\n Rank 1\n App. rate: 30.33 %\n Avg. score: 31747\n\n Rank 9\n App. rate: 7.24 %\n Avg. score: 22638\n\n Rank 16\n App. rate: 3.11 %\n Avg. score: 24708\n\n Rank 18\n App. rate: 2.79 %\n Avg. score: 31883\n\n Rank 19\n App. rate: 2.75 %\n Avg. score: 21851\n\n Rank 20\n App. rate: 2.4 %\n Avg. score: 26832\n\n Rank 21\n App. rate: 2.25 %\n Avg. score: 29424\n\n Rank 23\n App. rate: 1.96 %\n Avg. score: 27232\n\n Rank 29\n App. rate: 1.17 %\n Avg. score: 22342\n\n Rank 33\n App. rate: 0.92 %\n Avg. score: 28829",
-          "assets": [
-            {
-              "id": "bf8821af9328",
-              "sourceHash": "bf8821af9328",
-              "kind": "characters",
-              "name": "Miyabi",
-              "fileStem": "miyabi",
-              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "2541747ebcdb",
-              "sourceHash": "2541747ebcdb",
-              "kind": "characters",
-              "name": "Nangong Yu",
-              "fileStem": "nangong-yu",
-              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "d2c1c9b40367",
-              "sourceHash": "d2c1c9b40367",
-              "kind": "characters",
-              "name": "Yuzuha",
-              "fileStem": "ukinami-yuzuha",
-              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "e33ff79684e5",
               "sourceHash": "e33ff79684e5",
               "kind": "characters",
               "name": "Vivian",
               "fileStem": "vivian",
               "path": "Prydwen/zzz/assets/characters/vivian-e33ff79684e5.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "7a4ba5242a6c",
-              "sourceHash": "7a4ba5242a6c",
-              "kind": "characters",
-              "name": "Jane Doe",
-              "fileStem": "jane-doe",
-              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "d6ce03b535c6",
-              "sourceHash": "d6ce03b535c6",
-              "kind": "characters",
-              "name": "Velina",
-              "fileStem": "velina",
-              "path": "Prydwen/zzz/assets/characters/velina-d6ce03b535c6.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "07290ab47d04",
-              "sourceHash": "07290ab47d04",
-              "kind": "characters",
-              "name": "Promeia",
-              "fileStem": "promeia",
-              "path": "Prydwen/zzz/assets/characters/promeia-07290ab47d04.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "79ca38737857",
-              "sourceHash": "79ca38737857",
-              "kind": "characters",
-              "name": "Yanagi",
-              "fileStem": "yanagi",
-              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "5bb6938af9bb",
-              "sourceHash": "5bb6938af9bb",
-              "kind": "characters",
-              "name": "Soukaku",
-              "fileStem": "soukaku",
-              "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "7cafcffe0fee",
-              "sourceHash": "7cafcffe0fee",
-              "kind": "characters",
-              "name": "Burnice",
-              "fileStem": "burnice",
-              "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "db3a1e63185e",
-              "sourceHash": "db3a1e63185e",
-              "kind": "characters",
-              "name": "Aria",
-              "fileStem": "aria",
-              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
               "width": 60,
               "height": 60
             }
@@ -1933,5 +1883,5 @@
     }
   },
   "tables": [],
-  "text": "Yuzuha Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Yuzuha\n Yuzuha Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Yuzuha from ZZZ (Zenless Zone Zero). Yuzuha is an rank character with the Physical attribute who belongs to the Support Specialty and who is part of the Spook Shack faction.\n\n To learn more about Yuzuha check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Yuzuha has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.1\n\n Last build update\n Patch 2.6\n\n Last teams update\n Patch 2.6\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Yuzuha check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Whimsical Wonder\n\n Lv. 1\n\n Upon entering the battlefield, Yuzuha immediately gains 3 Sugar Points.\n\nYuzuha can have up to 6 Sugar Points.\n\nWhen Yuzuha's EX Special Attack: Cavity Alert, EX Special Attack: Cavity Alert, Right Now!, or Ultimate: Surrender or Suffer the Mischief hits an enemy, all squad members receive the Tanuki Wish effect.\n\nTanuki Wish grants an ATK increase equal to 40% of Yuzuha's initial ATK, up to a maximum increase of 600 , and increases the DMG dealt by those with the effect by 15% , lasting 40s . Repeated triggers reset the duration.\n\nIf Yuzuha's initial ATK reaches 3,000 , she grants the full ATK bonus to all squad members.\n\n Anomaly Mastery 0\n BASE ATK : 0\n\n Additional Ability The More the Merrier\n\n When another character in your squad is an Anomaly character or shares the same Faction:\n If Yuzuha's Anomaly Mastery exceeds 100 , every point over increases the Anomaly Buildup Rate of characters with Tanuki Wish by 0.2% , up to a maximum of 20% , and all Attribute Anomaly DMG and Disorder DMG by 0.2% , up to a maximum of 20% . When Yuzuha's Anomaly Mastery is at 200 , she grants the full buff effect.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tanuki Claws\n\n Press to activate:\nUnleashes up to 5 strikes ahead, dealing Physical DMG.\n Multipliers\n\n Basic Attack: Tanuki Cloak\n\n Hold to activate:\nEnter a defensive stance for up to 1.5 seconds. If hit during this time, parry the attack and inflict massive Daze against the attacking enemy.\nSuccessfully parrying an attack grants 1 Sugar Points.\nCharacter is invulnerable when successfully parrying.\n Multipliers\n\n Basic Attack: Hard Candy Shot\n\n When Yuzuha has Sugar Points, landing a hit with other active characters' attacks will have Yuzuha continuously twirl her umbrella and attack centered around the target before launching a powerful shell, dealing Physical DMG. When this attack lands a heavy attack, Yuzuha consumes 1 Sugar Point.\nBasic Attack: Hard Candy Shot is considered an Aftershock.\nBasic Attack: Hard Candy Shot can be triggered once every 8s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Sugarburst Sparkles\n\n Enemies under the effect of Sweet Scare will be attacked by a Basic Attack: Sugarburst Sparkles once every 1s.\nBasic Attack: Sugarburst Sparkles initially deals Physical DMG.\nBasic Attack: Sugarburst Sparkles does not contribute its accumulated Attribute Anomaly Buildup toward Anomaly DMG calculation.\nBasic Attack: Sugarburst Sparkles Anomaly Buildup Rate increases.\n Multipliers\n\n Basic Attack: Sugarburst Sparkles - Max\n\n Enemies affected by Sweet Scare will be attacked by a Basic Attack: Sugarburst Sparkles - Max when hit with a heavy attack from Basic Attack: Hard Candy Shot or Assist Follow-Up: Stuffed Hard Candy Shot.\nBasic Attack: Sugarburst Sparkles - Max initially deals Physical DMG.\nBasic Attack: Sugarburst Sparkles - Max does not contribute its accumulated Attribute Anomaly Buildup toward Anomaly DMG calculation.\nBasic Attack: Sugarburst Sparkles - Max Anomaly Buildup Rate increases.\n Multipliers\n\n Basic Attack: Tanuki Helper\n\n When Yuzuha is off-field, tanuki Kama assists the active character in attacking enemies, dealing Physical DMG.\nWhen Yuzuha performs Basic Attack: Tanuki Cloak, tanuki Kama joins her in attacking the enemy, dealing Physical DMG.\nTanuki Kama inherits Yuzuha's initial ATK.\n Multipliers\n\n Dodge: Did I Scare You?\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: You're Outta Luck!\n\n Press during a dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Time for Payback~\n\n Press during a Perfect Dodge to activate.\nDeliver a quick strike forward, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Gummy Bombardment\n\n Press to activate.\nFire a cannon shot forward, dealing Physical DMG.\n Multipliers\n\n EX Special Attack: Cavity Alert\n\n With enough Energy, press to activate.\nThrow a bomb at the enemy, dealing Physical DMG;\nUpon hitting an enemy with a heavy attack, it inflicts the [Sweet Scare] state;\nGain 2 [Sugar Points] upon activation;\nA [Quick Assist] is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Cavity Alert, Right Now!\n\n After using [Dodge Counter: Time for Payback~], [Quick Assist: Dessert Time], [Assist Follow-Up: We Have Cookies], or [Assist Follow-Up: Stuffed Hard Candy Shot], or when a [Perfect Dodge] is triggered, press to activate.\nQuickly throw a bomb at the enemy, dealing Physical DMG;\nOn hitting an enemy with a heavy attack, it inflicts the [Sweet Scare] state;\nGain 2 [Sugar Points] upon activation;\nA [Quick Assist] is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Sweet Scare\n\n The Sweet Scare state lasts for specified duration, repeated triggers reset the duration.\nWhen an enemy affected by Sweet Scare is first hit by an active character using an attack of their attribute, Flavor Match is triggered against that enemy, changing the attribute of Basic Attack: Sugarburst Sparkles and Basic Attack: Sugarburst Sparkles - Max against that enemy to match that of the character who triggered Flavor Match.\nWhen Sweet Scare is triggered again on an enemy, their existing Flavor Match state is removed. The process can be repeated to change the attribute of Basic Attack: Sugarburst Sparkles and Basic Attack: Sugarburst Sparkles - Max again.\n Multipliers\n\n Chain Attack: Prank Assault\n\n When a Chain Attack is triggered, select the character to activate:\nUnleash a powerful strike on enemies in a small area ahead, dealing massive Physical DMG;\nGain 1 Sugar Points when used;\nA Quick Assist is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Surrender or Suffer the Mischief\n\n When Decibel Rating is at Maximum, press to activate.\nUnleash a powerful strike on enemies in a large area around the character, dealing massive Physical DMG;\nEnemies hit with a heavy attack are inflicted with the Sweet Scare state;\nUpon activating this skill, other squad members gain Energy;\nUpon activating this skill, gain 2 Sugar Points;\nA Quick Assist is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: We Have Cookies\n\n After triggering a Defensive Assist or successfully parrying an enemy attack with Basic Attack: Tanuki Cloak, press activate:\nStrike enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Stuffed Hard Candy Shot\n\n After triggering a Defensive Assist or successfully parrying an enemy attack with Basic Attack: Tanuki Cloak, press at the right moment to activate:\nFollowing a continuous spinning umbrella attack, fire a powerful projectile that deals Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Replenish Your Fun\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nUpon a successful parry, gain 1 Sugar Points;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Dessert Time\n\n When the active character is launched, press to activate.\nStrike enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Lucky Constitution\n Mindscape 1\n\n Yuzuha regains 30 Energy when she enters the battlefield. In Investigation Zone Mode, this effect can trigger at most once every 180s . Enemies in the Sweet Scare state have their All-Attribute RES reduced by 10% . The Attribute Anomaly DMG and Disorder DMG buff from her Additional Ability is increased to 130% of its original value.\n\n M2\n Full of Colorful Company\n Mindscape 2\n\n When Yuzuha's [EX Special Attack: Cavity Alert], [EX Special Attack: Cavity Alert, Right Now!], or [Ultimate: Surrender or Suffer the Mischief] hits an enemy, all squad members' DMG increases by 15% and Anomaly Buildup Rate by 15% , lasting 40s and repeated triggers reset the duration. When a heavy attack hits an enemy that is not Stunned, it will trigger a forced [Chain Attack]. [Chain Attacks] triggered this way have reduced Interrupt Level and forced [Chain Attacks] can only occur once every 20s ; whenever another character enters through a [Chain Attack], Yuzuha gains 1 [Sugar Points]; Yuzuha's [Basic Attack: Hard Candy Shot] cooldown is reduced by 25% .\n\n M3\n Fairytale of the Haunted City\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Falling Magic\n Mindscape 4\n\n The DMG of Yuzuha's Assist Follow-Up: Stuffed Hard Candy Shot and Assist Follow-Up: We Have Cookies increases by 30% , Anomaly Buildup Rate by 20% , and triggers a Quick Assist when it hits an enemy.\n\n M5\n Dreams of a Fading Winter\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Put Down Roots\n Mindscape 6\n\n Gain 1 additional Sugar Points when successfully parrying an enemy attack using a Defensive Assist or Basic Attack: Tanuki Cloak. When using Assist Follow-Up: Stuffed Hard Candy Shot, hold Normal Attack to charge for up to 0.8 seconds.\nReleasing Normal Attack or reaching full charge fires an extra powerful shell at the enemy. For every 0.4s charged, Yuzuha consumes 1 Sugar Point to fire an additional powerful shell, each dealing 300% of her ATK as Physical DMG. If any powerful shell from Assist Follow-Up: Stuffed Hard Candy Shot hits an enemy, all squad members' Disorder DMG Multiplier increases by 105% for 40s , and stacking up to 3 times, with each stack duration being calculated separately. In addition, if the powerful shell hits an enemy under Sweet Scare, it'll trigger 1 Basic Attack: Sugarburst Sparkles - Max attack. If Yuzuha is attacked while charging, she will automatically dodge the attack and immediately unleash the max-charged attack.\n\n Stats (Level 60)\n Yuzuha Stats at level 60 (including Core passive bonuses).\n\n HP\n 8829\n\n DEF\n 612\n\n ATK\n 758\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 86\n\n Anomaly Mastery\n 124\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Endgame Modes\n\n Pros & Cons\n Pros\n The biggest buffs to Anomaly Agents out of any Support while retaining good personal damage and Daze, and even restoring Energy;\n\n Super easy to operate - mostly functions off-field, and features a simple parry mechanic;\n\n Low reliance on her Signature W-Engine, almost at full performance with F2P-friendly options;\n\n Not just good in Anomaly teams — most often the second-best Support choice even outside of Anomaly compositions, only behind Astra Yao;\n\n 10/10 character design - addicted to sugar, she's just like me for real.\n\n Cons\n All skills are worth levelling except for Dodge — costly in terms of skill materials;\n\n The quality of character designs is making nearly every banner impossible to skip, and this needs to stop (it doesn't).\n\n Review\n Yuzuha is an S-rank Physical Support Agent who serves as the main buffer to the teams she’s present in. She specializes as an Anomaly buffer via various specialized buffs, however, the best part? She does that while also giving some of the strongest general buffs in the game, that any Agent can use and benefit from to an amazing degree. By these factors alone, from the get-go, Yuzuha appears as one of the most valuable Agents in the game. Throughout this review, we’ll see if this claim is true or not — although you probably saw from our Tier List that it is, already.\n Let’s start by explaining Yuzuha’s kit. A summary of it is that you simply want to use her Defensive Assist or unique Parry alternative for it, follow that with an Assist Follow-Up, follow that with an EX Special or Ultimate and you’re already done. The rest of her kit happens off-field and both of those attacks happen to trigger a Quick Assist, so Yuzuha has the perfect opportunity to swap out. Honestly, simply keeping this in mind gives you a good baseline to play Yuzuha with, but we can make do with a bit more details in terms of understanding to get the most out of her.\n Our main focus will be on what her Defensive Assists, Parries, EX Specials and Ultimates do, and what they additionally trigger/provide to the team. Anything that we won’t mention - which frankly is just her Dodge and regular Basic Attacks - is simply not worth paying much attention to during gameplay. As usual, Yuzuha is one of those characters who don’t want to use their regular Special and instead make much better use of their EX Special when it’s charged up.\n Yuzuha a few defining mechanics her kit revolves around, namely the “Sweet Scare” state, the “Tanuki Wish” effect and “Sugar Point” stacks. We’ll start with Tanuki Wish since it’s her main buff contained in her Core Passive:\n Tanuki Wish increases ATK of all squad members by up to 1200 at max level, based on 40% of Yuzuha’s ATK (she maxes this effect at 3000).\n\n Tanuki Wish is activated via EX Special or Ultimate.\n\n The effect lasts 40s and this duration is refreshed when applied multiple times (will be up permanently in battle);\n\n Via her Additional Ability (with an Anomaly or Spook Shack character in the team), this effect also enhances Anomaly Buildup Rate by 0.2% as well as all Anomaly and Disorder DMG per point of Anomaly Mastery over 100, up to 20% for both effects (she maxes this effect at 200).\n\n It is worth noting both of the effects from her Additional Ability are completely separate multipliers to something like DMG Bonus from Disk Drives — so without getting into calculation details, they’re much bigger buffs than these kinds of effects due to their uniqueness.\n Next, let’s detail the properties of Sweet Scare:\n Sweet Scare is a state applied to enemies that lasts 40s, repeated triggers resetting its duration;\n\n Hitting an enemy with any active character with an attribute attack in this state triggers “Flavor Match” for Yuzuha. This effect changes the element of her off-field attacks (we explain these later) to the element of the character who triggered that effect. In other words, she matches the element of the on-field character you switch into next;\n\n This matters because Yuzuha can apply additional Anomaly matching your active character’s element, speeding up the process of applying Attribute Anomaly on enemies significantly;\n\n Triggering Sweet Scare another time allows Flavor Match to be changed to any other element if necessary;\n\n Sweet Scare is applied following EX Special and Ultimate.\n\n Something that’s worth additionally keeping in mind is the Anomaly Buildup that Yuzuha applies via her Sweet Scare off-field attacks does not influence the calculation for Anomaly DMG. In this sense, she functions exactly like a Bangboo would. This honestly gets into really complicated math so we won’t explain everything here — the TLDR of it is that this is much better as only your DPS Agent’s numbers are factored in for the damage whereas this usually wouldn’t be the case, but Yuzuha still contributes to the buildup itself which is a perk unique to her.\n Lastly, Sugar Points:\n Sugar Points can stack up to 6 times, and Yuzuha gets 3 at the beginning of battle.\n\n Yuzuha gets 2 Sugar Points when using Ultimate, and when using EX Special. She also gets 1 Sugar Point when executing a Chain Attack.\n\n Sugar Points can be consumed 1 at a time to trigger Aftershock DMG by causing Yuzuha to spin when off-field, dealing damage to enemies before launching a shell attack (which consumes the point). This occurs whenever other characters land a hit on enemies while Yuzuha has Sugar Points.\n\n Finally, we’ve gotten through her unique resources. Keep in mind, as usual, that it’s important to manage these properly to ensure optimal combat performance, but luckily, this is extremely easy to do.\n An additional perk to note is that her Ultimate restores 25 Energy to both of your party members other than Yuzuha. Additionally, Yuzuha’s EX Special has two variants, one of the two is preferred as it is quicker to perform (even though it has a lower multiplier, this is always much better due to how Anomaly calculations work and helping with minimizing field time). This quicker EX Special is usually triggered by pressing EX Special right after an Assist Follow-Up.\n Yuzuha’s Assist Follow-Up also has two variants. One is much more powerful to execute as it has a much higher DMG and particularly Daze multiplier. This special Assist Follow-Up is performed by pressing Basic Attack after a specific visual cue following a Parry or a Defensive Assist, which should appear as a small yellow flash triggering a different animation than a regular Assist Follow-Up, where Yuzuha spins around instead of immediately attacking forward. This is essential to execute to ensure optimal Daze application, which Yuzuha can contribute a lot towards due to her tendency to execute these Assist Follow-Ups as a core part of her combos.\n Yuzuha’s Parries are triggered by holding Basic Attack while she’s on the field, which makes her enter a Parry stance, causing Yuzuha to instantly react with a Parry when attacked. It takes a second or so of holding Basic Attack in order to enter the Parry stance in the first place — hence, it should be used by anticipating an enemy attack instead of reacting to it like you would with Yixuan’s EX Special for example, or simply Yuzuha’s own Defensive Assist by switching her in at the correct timing.\n Whether a Parry or a Defensive Assist is triggered really doesn’t matter for Yuzuha as long as you do her proper Assist Follow-Up — just make sure she’s doing one or the other before her EX Special or Ultimate to wrap up her core combo.\n We’ve explained all of her off-field mechanics earlier outside of her off-field attacks, so let’s wrap her kit up with those. We already discussed the Sugar Point variant, but at all times her adorable tanuki Kama will assist the active character in attacking enemies by inheriting Yuzuha’s ATK. It also does an extra hit of damage when Yuzuha triggers a Parry.\n Enemies inflicted with Sweet Scare will automatically be attacked by Yuzuha every second with any attribute according to Flavor Match. This applies a lot of Anomaly and helps nicely with filling Anomaly gauges for your active Agent. An additional, more powerful attack will be triggered if the enemy has Sweet Scare and Yuzuha activates her Defensive Assist with proper timing, or if she activates her Aftershock off-field Attack with Sugar Points (only the shell attack triggers it). This has the same properties as the automatic attack, only significantly more powerful.\n This was a mouthful — Yuzuha gets complicated when trying to optimize her kit. All of those details should allow you to think of proper team combos to make the most use of her Anomaly application, as well as execute her combos at the correct times in battle. As usual, Zenless Zone Zero’s combat is very dynamic so giving a proper rotation that can be consistently executed every battle is frankly not possible to do, but her usual combo of Defensive Assist into EX Special or Ultimate into switching out via Quick Assist should be plenty to get you by with Yuzuha. The rest of her kit happens entirely off-field, so she should be fairly easy to play in battle.\n In terms of her position in the meta, Yuzuha is one of the most amazing Agents at the time of her release. She outclasses the top-tier Support Astra Yao in every Anomaly team except some Miyabi teams; she gets very close to her in performance in any team outside of Anomaly. Yuzuha’s straight-up amazing by virtue of the damage she can do if built with CRIT while still retaining great buffing potential similar to hers, even without the Anomaly-specific buffs kept in mind. Remember to only build her with CRIT if her Anomaly can be easily ignored, though.\n Realistically, Yuzuha is an Agent that can be used in any team to great effect, much like Astra Yao currently. Each having their own niches where they shine best, we can conclude that Yuzuha is one of the best Supports that will easily find a spot in at least one of the teams on your account as the strongest available choice, particularly if you intend to build Anomaly teams. Whether it’s Jane, Yanagi, Vivian, Piper and others, Yuzuha does it all and has you covered. Definitely a strongly recommended pick-up to make your endgame clearing experience as smooth-sailing as possible.\n\n How to play\n Rotations\n For more information on Yuzuha's kit and how to exploit her best, we strongly recommend reading our Review which goes in full detail on her mechanics.\n Fundamentally speaking, Yuzuha is an extremely simple character to use, who mostly operates from off-field, occasionally swapping in at least once every 40s to keep 100% uptime on her buffs. However, keep in mind swapping her in to trigger Quick Assists may be more frequent when using Astral Voice to ensure uptime on the Disk Drive set effect as well.\n Yuzuha has 2 main combos, both starting with a Defensive Assist or Parry which are extremely easy to trigger in various situations:\n Starting with Parry\n This combo is best if Yuzuha cannot readily trigger a Perfect Assist and needs to be switched on-field, anticipating an enemy attack in the process.\n Basic Attack: Tanuki Cloak (trigger Parry)\n\n Assist Follow-Up: Stuffed Hard Candy Shot\n\n EX Special: Cavity Alert, Right Now! OR Ultimate\n\n Quick Assist is activated (switch out).\n\n Starting with Perfect Assist\n This combo is best to execute when an enemy uses an attack that can be reacted with using a Defensive Assist, and Yuzuha needs to step in to refresh her buff count/use her Ultimate (keep in mind choosing to Perfect Dodge with your on-field DPS Agent may be preferred in certain teams while Yuzuha's buff is still up — combos must always be considered within a team context).\n Defensive Assist: Replenish your Fun\n\n Assist Follow-Up: Stuffed Hard Candy Shot\n\n EX Special: Cavity Alert, Right Now! OR Ultimate\n\n Quick Assist is activated (switch out).\n\n Remember Yuzuha's Assist Follow-Up can't be mashed — it needs to be activated at a specific timing to be most efficient. Additionally, please keep in mind that with Yuzuha, Chain Attacks are appreciated to generate extra Sugar Points as well as contribute to team Decibel generation at the same time. Whenever a Stun is triggered, ensure Yuzuha gets her Chain Attack (hence full team Chain Attacks will be privileged, without the Bangboo of course).\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 102.38%\n\n Weeping Cradle (S 5 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 24.19 %\n Shiyu Defense: 34390\n Deadly Assault: 29351\n\n 102.07%\n\n Thoughtbop (S 1 )\n\n Unlike other W-Engines who demand a character is \"off-field\" for its Energy Regen effect - like Weeping Cradle - Thoughtbop only demands for one to \"not be the active character\", meaning it's the best option as far as Energy economy goes. To top it off, its DMG Bonus and ATK % buff effects are triggered on dealing Physical DMG with an EX Special, which Yuzuha is able to do easily as her element conversion does not apply to EX Special hits. This makes it arguably even better than her own Signature if the team has enough Anomaly Proficiency substats to make up for the difference.\n Usage: 0.86 %\n Shiyu Defense: 37314\n Deadly Assault: 35053\n\n 100.00%\n\n Metanukimorphosis (S 1 )\n\n Yuzuha's Signature W-Engine is one of her top choices but primarily in the context of Anomaly teams. It grants Yuzuha an Anomaly Mastery boost allowing her to max her Additional Ability effect as well as increasing Anomaly Proficiency of all characters in the team when dealing Aftershock damage, on top of giving lots of Energy Regen and Base ATK. As this W-Engine is specialized for Anomaly teams, Yuzuha may prefer options lower down the list outside of those — know that this includes Miyabi teams.\n Usage: 42.49 %\n Shiyu Defense: 35462\n Deadly Assault: 29917\n\n 93.51%\n\n Weeping Cradle (S 1 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 24.19 %\n Shiyu Defense: 34390\n Deadly Assault: 29351\n\n 93.28%\n\n Kaboom the Cannon (S 5 )\n\n The all-around strongest Support W-Engine for most Agents — Yuzuha is no exception as this is her best choice outside of Anomaly teams (outside of Weeping Cradle at high Phases and Yixuan teams). Thanks to her tanuki Kama, she is fully able to activate this W-Engine's ATK increasing effect, strongly enhancing team performance.\n Usage: 29.81 %\n Shiyu Defense: 33443\n Deadly Assault: 26575\n\n -\n\n Unfettered Game Ball (S 5 )\n\n Thanks to Yuzuha's ability to adapt her element depending on the team, she's the first proper user of this usually situational Battle Pass W-Engine! This W-Engine requires you to apply Attribute Anomalies which an enemy is weak to, then it increases the whole team's CRIT Rate. In teams where this is possible and desirable, this W-Engine is surprisingly strong, but it won't outperform the above options although it can get very close. Owing to its highly situational nature, no calculations are provided for it, as it can range from having no use to highly competitive depending on the team and encounter.\n Usage: 0.44 %\n Shiyu Defense: 32647\n Deadly Assault: 25327\n\n Best Disk Drives Sets\n 1\n\n Moonlight Lullaby ( 4 -PC)\n\n Gives 20% Energy Regen on the 2-piece, and most importantly the 4-piece is the best set for every Support-class Agent. This is because it provides not only more DMG Bonus than both Proto Punk and Swing Jazz (18%), but the duration of the buff is also much longer than both of them as well (25s), while the condition is also much easier to fulfill (it only requires casting an EX Special or Ultimate). It makes this set the best choice for all Supports and is only superceded by a fully stacked Astral Voice, which is not consistently upkept by most Agents.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Chaos Jazz\n\n Freedom Blues\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist buffing set outside of Moonlight Lullaby, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. However, note that this buff may not be fully active all throughout a battle.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Chaos Jazz\n\n Freedom Blues\n\n Best Disk Drives Stats\n Other Teams\n Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= PEN Ratio%\n\n Disk 6\n Anomaly Mastery = ATK%\n\n Substats: ATK% > ATK (until 3000) > Anomaly Proficiency > PEN\n\n Physical Teams\n Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= PEN Ratio%\n\n Disk 6\n Anomaly Mastery = ATK%\n\n Substats: ATK% > ATK (until 3000) > Anomaly Proficiency > CRIT Rate = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3000+\n\n HP: 11000+\n\n DEF: 800+\n\n Anomaly Proficiency: 200+\n Always prioritize ATK on your Disk Drives if under 3000 ATK. Anomaly Proficiency is optimal for the best damage at 3000 ATK or above.\n\n Anomaly Mastery: 171\n\n CRIT competes with Anomaly Proficiency in non-Physical Anomaly teams and, as a result, can be considered for Yuzuha's build path. However, with Anomaly teams involving Physical characters, Anomaly Proficiency will be a much more important stat for Yuzuha, and CRIT should not be a priority.\n\n Skill priority\n Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Yuzuha . The character can work with others if you know what to do and how to use them.\n\n Velina - If there's one Agent that benefits from Anomaly build-up bonuses, it's Velina, as Vortex teams are all about getting as many Anomalies out as possible. Yuzuha is a perfect match for that, as even besides her universally strong buffs, her presence in teams makes a significant difference to the amount of Vortexes in an encounter, and as a result, greatly increases the amount of damage and resources (like Decibels and Windbite points) Velina teams get.\n Nangong Yu - With Nangong being the Anomaly Stunner of choice, Yuzuha as the go-to Anomaly Support means they're frequently going to be run together. Nangong benefits plenty from her too, as she has a lot of burst Anomaly application with her EX and charged Basics, but may struggle to keep up when those skills aren't available, which Yuzuha's build-up over time can make up for. Nangong's buffs are also reasonably diverse from Yuzuha's, like with Stun DMG Multiplier, maximising their combined value.\n Jane Doe Piper Promeia - Yuzuha is a near ideal match for most Anomaly Agents, and these 3 are among the many that benefit from her. For Jane, with how high-value her Assaults are, and with how lacklustre her Anomaly build-up can be, Yuzuha is a big boost to her overall damage, to the point that it can often be best to Flavor Match Jane over other Anomaly DPS in a team and push for more Assaults. Piper is the reverse, with other Agents often failing to keep up with her Anomaly build-up, so Yuzuha normalises that. As for Promeia, given that she needs to be spending Ablooms during burst periods, it doesn't give much room for other Agents to apply their own Anomalies, and even on Wind teams, Yuzuha's extra build-up can feel like a necessity to hit the highest number of Vortexes in a stun.\n Miyabi - Yuzuha is a key partner for Miyabi teams, having not only strong buffs, but also being a big help at ensuring her teams have enough Anomaly build-up to sustain the constant Disorders needed for Fallen Frost points. As Miyabi Anomaly builds become increasingly relevant in the meta, with ever rising thresholds for Anomaly build-up, Yuzuha is a key enabler at allowing Miyabi to still be at her best.\n Vivian Burnice - Both Vivian and Burnice tend to struggle with having enough Anomaly build-up to keep up with a primary Anomaly DPS by themselves, and Yuzuha is the go-to solution to that problem. By Flavor Matching them, she makes it much easier to sustain Disorders in their teams, which leads to both more damage and more resources, being an indispensible pick for most teams where they are played as secondary Anomaly units.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Yuzuha in the current phase of Shiyu Defense.\n Rank 3\n App. rate: 14.41 %\n Avg. time: 33744\n\n Rank 5\n App. rate: 10.19 %\n Avg. time: 35905\n\n Rank 6\n App. rate: 9.07 %\n Avg. time: 38150\n\n Rank 11\n App. rate: 6.45 %\n Avg. time: 33246\n\n Rank 14\n App. rate: 4.57 %\n Avg. time: 29194\n\n Rank 17\n App. rate: 3.3 %\n Avg. time: 38300\n\n Rank 21\n App. rate: 2.59 %\n Avg. time: 36114\n\n Rank 25\n App. rate: 2.09 %\n Avg. time: 32547\n\n Rank 28\n App. rate: 1.91 %\n Avg. time: 32659\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 29022\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Yuzuha in the current phase of Deadly Assault.\n Rank 1\n App. rate: 30.33 %\n Avg. score: 31747\n\n Rank 9\n App. rate: 7.24 %\n Avg. score: 22638\n\n Rank 16\n App. rate: 3.11 %\n Avg. score: 24708\n\n Rank 18\n App. rate: 2.79 %\n Avg. score: 31883\n\n Rank 19\n App. rate: 2.75 %\n Avg. score: 21851\n\n Rank 20\n App. rate: 2.4 %\n Avg. score: 26832\n\n Rank 21\n App. rate: 2.25 %\n Avg. score: 29424\n\n Rank 23\n App. rate: 1.96 %\n Avg. score: 27232\n\n Rank 29\n App. rate: 1.17 %\n Avg. score: 22342\n\n Rank 33\n App. rate: 0.92 %\n Avg. score: 28829"
+  "text": "Yuzuha Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Yuzuha\n Yuzuha Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Yuzuha from ZZZ (Zenless Zone Zero). Yuzuha is an rank character with the Physical attribute who belongs to the Support Specialty and who is part of the Spook Shack faction.\n\n To learn more about Yuzuha check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Yuzuha has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.1\n\n Last build update\n Patch 2.6\n\n Last teams update\n Patch 2.6\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Yuzuha check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Whimsical Wonder\n\n Lv. 1\n\n Upon entering the battlefield, Yuzuha immediately gains 3 Sugar Points.\n\nYuzuha can have up to 6 Sugar Points.\n\nWhen Yuzuha's EX Special Attack: Cavity Alert, EX Special Attack: Cavity Alert, Right Now!, or Ultimate: Surrender or Suffer the Mischief hits an enemy, all squad members receive the Tanuki Wish effect.\n\nTanuki Wish grants an ATK increase equal to 40% of Yuzuha's initial ATK, up to a maximum increase of 600 , and increases the DMG dealt by those with the effect by 15% , lasting 40s . Repeated triggers reset the duration.\n\nIf Yuzuha's initial ATK reaches 3,000 , she grants the full ATK bonus to all squad members.\n\n Anomaly Mastery 0\n BASE ATK : 0\n\n Additional Ability The More the Merrier\n\n When another character in your squad is an Anomaly character or shares the same Faction:\n If Yuzuha's Anomaly Mastery exceeds 100 , every point over increases the Anomaly Buildup Rate of characters with Tanuki Wish by 0.2% , up to a maximum of 20% , and all Attribute Anomaly DMG and Disorder DMG by 0.2% , up to a maximum of 20% . When Yuzuha's Anomaly Mastery is at 200 , she grants the full buff effect.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tanuki Claws\n\n Press to activate:\nUnleashes up to 5 strikes ahead, dealing Physical DMG.\n Multipliers\n\n Basic Attack: Tanuki Cloak\n\n Hold to activate:\nEnter a defensive stance for up to 1.5 seconds. If hit during this time, parry the attack and inflict massive Daze against the attacking enemy.\nSuccessfully parrying an attack grants 1 Sugar Points.\nCharacter is invulnerable when successfully parrying.\n Multipliers\n\n Basic Attack: Hard Candy Shot\n\n When Yuzuha has Sugar Points, landing a hit with other active characters' attacks will have Yuzuha continuously twirl her umbrella and attack centered around the target before launching a powerful shell, dealing Physical DMG. When this attack lands a heavy attack, Yuzuha consumes 1 Sugar Point.\nBasic Attack: Hard Candy Shot is considered an Aftershock.\nBasic Attack: Hard Candy Shot can be triggered once every 8s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Basic Attack: Sugarburst Sparkles\n\n Enemies under the effect of Sweet Scare will be attacked by a Basic Attack: Sugarburst Sparkles once every 1s.\nBasic Attack: Sugarburst Sparkles initially deals Physical DMG.\nBasic Attack: Sugarburst Sparkles does not contribute its accumulated Attribute Anomaly Buildup toward Anomaly DMG calculation.\nBasic Attack: Sugarburst Sparkles Anomaly Buildup Rate increases.\n Multipliers\n\n Basic Attack: Sugarburst Sparkles - Max\n\n Enemies affected by Sweet Scare will be attacked by a Basic Attack: Sugarburst Sparkles - Max when hit with a heavy attack from Basic Attack: Hard Candy Shot or Assist Follow-Up: Stuffed Hard Candy Shot.\nBasic Attack: Sugarburst Sparkles - Max initially deals Physical DMG.\nBasic Attack: Sugarburst Sparkles - Max does not contribute its accumulated Attribute Anomaly Buildup toward Anomaly DMG calculation.\nBasic Attack: Sugarburst Sparkles - Max Anomaly Buildup Rate increases.\n Multipliers\n\n Basic Attack: Tanuki Helper\n\n When Yuzuha is off-field, tanuki Kama assists the active character in attacking enemies, dealing Physical DMG.\nWhen Yuzuha performs Basic Attack: Tanuki Cloak, tanuki Kama joins her in attacking the enemy, dealing Physical DMG.\nTanuki Kama inherits Yuzuha's initial ATK.\n Multipliers\n\n Dodge: Did I Scare You?\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: You're Outta Luck!\n\n Press during a dodge to activate:\nRapidly strikes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Time for Payback~\n\n Press during a Perfect Dodge to activate.\nDeliver a quick strike forward, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Gummy Bombardment\n\n Press to activate.\nFire a cannon shot forward, dealing Physical DMG.\n Multipliers\n\n EX Special Attack: Cavity Alert\n\n With enough Energy, press to activate.\nThrow a bomb at the enemy, dealing Physical DMG;\nUpon hitting an enemy with a heavy attack, it inflicts the [Sweet Scare] state;\nGain 2 [Sugar Points] upon activation;\nA [Quick Assist] is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n EX Special Attack: Cavity Alert, Right Now!\n\n After using [Dodge Counter: Time for Payback~], [Quick Assist: Dessert Time], [Assist Follow-Up: We Have Cookies], or [Assist Follow-Up: Stuffed Hard Candy Shot], or when a [Perfect Dodge] is triggered, press to activate.\nQuickly throw a bomb at the enemy, dealing Physical DMG;\nOn hitting an enemy with a heavy attack, it inflicts the [Sweet Scare] state;\nGain 2 [Sugar Points] upon activation;\nA [Quick Assist] is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Sweet Scare\n\n The Sweet Scare state lasts for specified duration, repeated triggers reset the duration.\nWhen an enemy affected by Sweet Scare is first hit by an active character using an attack of their attribute, Flavor Match is triggered against that enemy, changing the attribute of Basic Attack: Sugarburst Sparkles and Basic Attack: Sugarburst Sparkles - Max against that enemy to match that of the character who triggered Flavor Match.\nWhen Sweet Scare is triggered again on an enemy, their existing Flavor Match state is removed. The process can be repeated to change the attribute of Basic Attack: Sugarburst Sparkles and Basic Attack: Sugarburst Sparkles - Max again.\n Multipliers\n\n Chain Attack: Prank Assault\n\n When a Chain Attack is triggered, select the character to activate:\nUnleash a powerful strike on enemies in a small area ahead, dealing massive Physical DMG;\nGain 1 Sugar Points when used;\nA Quick Assist is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Surrender or Suffer the Mischief\n\n When Decibel Rating is at Maximum, press to activate.\nUnleash a powerful strike on enemies in a large area around the character, dealing massive Physical DMG;\nEnemies hit with a heavy attack are inflicted with the Sweet Scare state;\nUpon activating this skill, other squad members gain Energy;\nUpon activating this skill, gain 2 Sugar Points;\nA Quick Assist is triggered when this skill hits an enemy;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: We Have Cookies\n\n After triggering a Defensive Assist or successfully parrying an enemy attack with Basic Attack: Tanuki Cloak, press activate:\nStrike enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Assist Follow-Up: Stuffed Hard Candy Shot\n\n After triggering a Defensive Assist or successfully parrying an enemy attack with Basic Attack: Tanuki Cloak, press at the right moment to activate:\nFollowing a continuous spinning umbrella attack, fire a powerful projectile that deals Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Replenish Your Fun\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nUpon a successful parry, gain 1 Sugar Points;\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Dessert Time\n\n When the active character is launched, press to activate.\nStrike enemies in front, dealing Physical DMG.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Lucky Constitution\n Mindscape 1\n\n Yuzuha regains 30 Energy when she enters the battlefield. In Investigation Zone Mode, this effect can trigger at most once every 180s . Enemies in the Sweet Scare state have their All-Attribute RES reduced by 10% . The Attribute Anomaly DMG and Disorder DMG buff from her Additional Ability is increased to 130% of its original value.\n\n M2\n Full of Colorful Company\n Mindscape 2\n\n When Yuzuha's [EX Special Attack: Cavity Alert], [EX Special Attack: Cavity Alert, Right Now!], or [Ultimate: Surrender or Suffer the Mischief] hits an enemy, all squad members' DMG increases by 15% and Anomaly Buildup Rate by 15% , lasting 40s and repeated triggers reset the duration. When a heavy attack hits an enemy that is not Stunned, it will trigger a forced [Chain Attack]. [Chain Attacks] triggered this way have reduced Interrupt Level and forced [Chain Attacks] can only occur once every 20s ; whenever another character enters through a [Chain Attack], Yuzuha gains 1 [Sugar Points]; Yuzuha's [Basic Attack: Hard Candy Shot] cooldown is reduced by 25% .\n\n M3\n Fairytale of the Haunted City\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Falling Magic\n Mindscape 4\n\n The DMG of Yuzuha's Assist Follow-Up: Stuffed Hard Candy Shot and Assist Follow-Up: We Have Cookies increases by 30% , Anomaly Buildup Rate by 20% , and triggers a Quick Assist when it hits an enemy.\n\n M5\n Dreams of a Fading Winter\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Put Down Roots\n Mindscape 6\n\n Gain 1 additional Sugar Points when successfully parrying an enemy attack using a Defensive Assist or Basic Attack: Tanuki Cloak. When using Assist Follow-Up: Stuffed Hard Candy Shot, hold Normal Attack to charge for up to 0.8 seconds.\nReleasing Normal Attack or reaching full charge fires an extra powerful shell at the enemy. For every 0.4s charged, Yuzuha consumes 1 Sugar Point to fire an additional powerful shell, each dealing 300% of her ATK as Physical DMG. If any powerful shell from Assist Follow-Up: Stuffed Hard Candy Shot hits an enemy, all squad members' Disorder DMG Multiplier increases by 105% for 40s , and stacking up to 3 times, with each stack duration being calculated separately. In addition, if the powerful shell hits an enemy under Sweet Scare, it'll trigger 1 Basic Attack: Sugarburst Sparkles - Max attack. If Yuzuha is attacked while charging, she will automatically dodge the attack and immediately unleash the max-charged attack.\n\n Stats (Level 60)\n Yuzuha Stats at level 60 (including Core passive bonuses).\n\n HP\n 8829\n\n DEF\n 612\n\n ATK\n 758\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 86\n\n Anomaly Mastery\n 124\n\n Anomaly Proficiency\n 93\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Endgame Modes\n\n Pros & Cons\n Pros\n The biggest buffs to Anomaly Agents out of any Support while retaining good personal damage and Daze, and even restoring Energy;\n\n Super easy to operate - mostly functions off-field, and features a simple parry mechanic;\n\n Low reliance on her Signature W-Engine, almost at full performance with F2P-friendly options;\n\n Not just good in Anomaly teams — most often the second-best Support choice even outside of Anomaly compositions, only behind Astra Yao;\n\n 10/10 character design - addicted to sugar, she's just like me for real.\n\n Cons\n All skills are worth levelling except for Dodge — costly in terms of skill materials;\n\n The quality of character designs is making nearly every banner impossible to skip, and this needs to stop (it doesn't).\n\n Review\n Yuzuha is an S-rank Physical Support Agent who serves as the main buffer to the teams she’s present in. She specializes as an Anomaly buffer via various specialized buffs, however, the best part? She does that while also giving some of the strongest general buffs in the game, that any Agent can use and benefit from to an amazing degree. By these factors alone, from the get-go, Yuzuha appears as one of the most valuable Agents in the game. Throughout this review, we’ll see if this claim is true or not — although you probably saw from our Tier List that it is, already.\n Let’s start by explaining Yuzuha’s kit. A summary of it is that you simply want to use her Defensive Assist or unique Parry alternative for it, follow that with an Assist Follow-Up, follow that with an EX Special or Ultimate and you’re already done. The rest of her kit happens off-field and both of those attacks happen to trigger a Quick Assist, so Yuzuha has the perfect opportunity to swap out. Honestly, simply keeping this in mind gives you a good baseline to play Yuzuha with, but we can make do with a bit more details in terms of understanding to get the most out of her.\n Our main focus will be on what her Defensive Assists, Parries, EX Specials and Ultimates do, and what they additionally trigger/provide to the team. Anything that we won’t mention - which frankly is just her Dodge and regular Basic Attacks - is simply not worth paying much attention to during gameplay. As usual, Yuzuha is one of those characters who don’t want to use their regular Special and instead make much better use of their EX Special when it’s charged up.\n Yuzuha a few defining mechanics her kit revolves around, namely the “Sweet Scare” state, the “Tanuki Wish” effect and “Sugar Point” stacks. We’ll start with Tanuki Wish since it’s her main buff contained in her Core Passive:\n Tanuki Wish increases ATK of all squad members by up to 1200 at max level, based on 40% of Yuzuha’s ATK (she maxes this effect at 3000).\n\n Tanuki Wish is activated via EX Special or Ultimate.\n\n The effect lasts 40s and this duration is refreshed when applied multiple times (will be up permanently in battle);\n\n Via her Additional Ability (with an Anomaly or Spook Shack character in the team), this effect also enhances Anomaly Buildup Rate by 0.2% as well as all Anomaly and Disorder DMG per point of Anomaly Mastery over 100, up to 20% for both effects (she maxes this effect at 200).\n\n It is worth noting both of the effects from her Additional Ability are completely separate multipliers to something like DMG Bonus from Disk Drives — so without getting into calculation details, they’re much bigger buffs than these kinds of effects due to their uniqueness.\n Next, let’s detail the properties of Sweet Scare:\n Sweet Scare is a state applied to enemies that lasts 40s, repeated triggers resetting its duration;\n\n Hitting an enemy with any active character with an attribute attack in this state triggers “Flavor Match” for Yuzuha. This effect changes the element of her off-field attacks (we explain these later) to the element of the character who triggered that effect. In other words, she matches the element of the on-field character you switch into next;\n\n This matters because Yuzuha can apply additional Anomaly matching your active character’s element, speeding up the process of applying Attribute Anomaly on enemies significantly;\n\n Triggering Sweet Scare another time allows Flavor Match to be changed to any other element if necessary;\n\n Sweet Scare is applied following EX Special and Ultimate.\n\n Something that’s worth additionally keeping in mind is the Anomaly Buildup that Yuzuha applies via her Sweet Scare off-field attacks does not influence the calculation for Anomaly DMG. In this sense, she functions exactly like a Bangboo would. This honestly gets into really complicated math so we won’t explain everything here — the TLDR of it is that this is much better as only your DPS Agent’s numbers are factored in for the damage whereas this usually wouldn’t be the case, but Yuzuha still contributes to the buildup itself which is a perk unique to her.\n Lastly, Sugar Points:\n Sugar Points can stack up to 6 times, and Yuzuha gets 3 at the beginning of battle.\n\n Yuzuha gets 2 Sugar Points when using Ultimate, and when using EX Special. She also gets 1 Sugar Point when executing a Chain Attack.\n\n Sugar Points can be consumed 1 at a time to trigger Aftershock DMG by causing Yuzuha to spin when off-field, dealing damage to enemies before launching a shell attack (which consumes the point). This occurs whenever other characters land a hit on enemies while Yuzuha has Sugar Points.\n\n Finally, we’ve gotten through her unique resources. Keep in mind, as usual, that it’s important to manage these properly to ensure optimal combat performance, but luckily, this is extremely easy to do.\n An additional perk to note is that her Ultimate restores 25 Energy to both of your party members other than Yuzuha. Additionally, Yuzuha’s EX Special has two variants, one of the two is preferred as it is quicker to perform (even though it has a lower multiplier, this is always much better due to how Anomaly calculations work and helping with minimizing field time). This quicker EX Special is usually triggered by pressing EX Special right after an Assist Follow-Up.\n Yuzuha’s Assist Follow-Up also has two variants. One is much more powerful to execute as it has a much higher DMG and particularly Daze multiplier. This special Assist Follow-Up is performed by pressing Basic Attack after a specific visual cue following a Parry or a Defensive Assist, which should appear as a small yellow flash triggering a different animation than a regular Assist Follow-Up, where Yuzuha spins around instead of immediately attacking forward. This is essential to execute to ensure optimal Daze application, which Yuzuha can contribute a lot towards due to her tendency to execute these Assist Follow-Ups as a core part of her combos.\n Yuzuha’s Parries are triggered by holding Basic Attack while she’s on the field, which makes her enter a Parry stance, causing Yuzuha to instantly react with a Parry when attacked. It takes a second or so of holding Basic Attack in order to enter the Parry stance in the first place — hence, it should be used by anticipating an enemy attack instead of reacting to it like you would with Yixuan’s EX Special for example, or simply Yuzuha’s own Defensive Assist by switching her in at the correct timing.\n Whether a Parry or a Defensive Assist is triggered really doesn’t matter for Yuzuha as long as you do her proper Assist Follow-Up — just make sure she’s doing one or the other before her EX Special or Ultimate to wrap up her core combo.\n We’ve explained all of her off-field mechanics earlier outside of her off-field attacks, so let’s wrap her kit up with those. We already discussed the Sugar Point variant, but at all times her adorable tanuki Kama will assist the active character in attacking enemies by inheriting Yuzuha’s ATK. It also does an extra hit of damage when Yuzuha triggers a Parry.\n Enemies inflicted with Sweet Scare will automatically be attacked by Yuzuha every second with any attribute according to Flavor Match. This applies a lot of Anomaly and helps nicely with filling Anomaly gauges for your active Agent. An additional, more powerful attack will be triggered if the enemy has Sweet Scare and Yuzuha activates her Defensive Assist with proper timing, or if she activates her Aftershock off-field Attack with Sugar Points (only the shell attack triggers it). This has the same properties as the automatic attack, only significantly more powerful.\n This was a mouthful — Yuzuha gets complicated when trying to optimize her kit. All of those details should allow you to think of proper team combos to make the most use of her Anomaly application, as well as execute her combos at the correct times in battle. As usual, Zenless Zone Zero’s combat is very dynamic so giving a proper rotation that can be consistently executed every battle is frankly not possible to do, but her usual combo of Defensive Assist into EX Special or Ultimate into switching out via Quick Assist should be plenty to get you by with Yuzuha. The rest of her kit happens entirely off-field, so she should be fairly easy to play in battle.\n In terms of her position in the meta, Yuzuha is one of the most amazing Agents at the time of her release. She outclasses the top-tier Support Astra Yao in every Anomaly team except some Miyabi teams; she gets very close to her in performance in any team outside of Anomaly. Yuzuha’s straight-up amazing by virtue of the damage she can do if built with CRIT while still retaining great buffing potential similar to hers, even without the Anomaly-specific buffs kept in mind. Remember to only build her with CRIT if her Anomaly can be easily ignored, though.\n Realistically, Yuzuha is an Agent that can be used in any team to great effect, much like Astra Yao currently. Each having their own niches where they shine best, we can conclude that Yuzuha is one of the best Supports that will easily find a spot in at least one of the teams on your account as the strongest available choice, particularly if you intend to build Anomaly teams. Whether it’s Jane, Yanagi, Vivian, Piper and others, Yuzuha does it all and has you covered. Definitely a strongly recommended pick-up to make your endgame clearing experience as smooth-sailing as possible.\n\n How to play\n Rotations\n For more information on Yuzuha's kit and how to exploit her best, we strongly recommend reading our Review which goes in full detail on her mechanics.\n Fundamentally speaking, Yuzuha is an extremely simple character to use, who mostly operates from off-field, occasionally swapping in at least once every 40s to keep 100% uptime on her buffs. However, keep in mind swapping her in to trigger Quick Assists may be more frequent when using Astral Voice to ensure uptime on the Disk Drive set effect as well.\n Yuzuha has 2 main combos, both starting with a Defensive Assist or Parry which are extremely easy to trigger in various situations:\n Starting with Parry\n This combo is best if Yuzuha cannot readily trigger a Perfect Assist and needs to be switched on-field, anticipating an enemy attack in the process.\n Basic Attack: Tanuki Cloak (trigger Parry)\n\n Assist Follow-Up: Stuffed Hard Candy Shot\n\n EX Special: Cavity Alert, Right Now! OR Ultimate\n\n Quick Assist is activated (switch out).\n\n Starting with Perfect Assist\n This combo is best to execute when an enemy uses an attack that can be reacted with using a Defensive Assist, and Yuzuha needs to step in to refresh her buff count/use her Ultimate (keep in mind choosing to Perfect Dodge with your on-field DPS Agent may be preferred in certain teams while Yuzuha's buff is still up — combos must always be considered within a team context).\n Defensive Assist: Replenish your Fun\n\n Assist Follow-Up: Stuffed Hard Candy Shot\n\n EX Special: Cavity Alert, Right Now! OR Ultimate\n\n Quick Assist is activated (switch out).\n\n Remember Yuzuha's Assist Follow-Up can't be mashed — it needs to be activated at a specific timing to be most efficient. Additionally, please keep in mind that with Yuzuha, Chain Attacks are appreciated to generate extra Sugar Points as well as contribute to team Decibel generation at the same time. Whenever a Stun is triggered, ensure Yuzuha gets her Chain Attack (hence full team Chain Attacks will be privileged, without the Bangboo of course).\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 102.38%\n\n Weeping Cradle (S 5 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 22.14 %\n Shiyu Defense: 28751\n Deadly Assault: 27545\n\n 102.07%\n\n Thoughtbop (S 1 )\n\n Unlike other W-Engines who demand a character is \"off-field\" for its Energy Regen effect - like Weeping Cradle - Thoughtbop only demands for one to \"not be the active character\", meaning it's the best option as far as Energy economy goes. To top it off, its DMG Bonus and ATK % buff effects are triggered on dealing Physical DMG with an EX Special, which Yuzuha is able to do easily as her element conversion does not apply to EX Special hits. This makes it arguably even better than her own Signature if the team has enough Anomaly Proficiency substats to make up for the difference.\n Usage: 1.03 %\n Shiyu Defense: 31592\n Deadly Assault: 29090\n\n 100.00%\n\n Metanukimorphosis (S 1 )\n\n Yuzuha's Signature W-Engine is one of her top choices but primarily in the context of Anomaly teams. It grants Yuzuha an Anomaly Mastery boost allowing her to max her Additional Ability effect as well as increasing Anomaly Proficiency of all characters in the team when dealing Aftershock damage, on top of giving lots of Energy Regen and Base ATK. As this W-Engine is specialized for Anomaly teams, Yuzuha may prefer options lower down the list outside of those — know that this includes Miyabi teams.\n Usage: 46.28 %\n Shiyu Defense: 29480\n Deadly Assault: 26364\n\n 93.51%\n\n Weeping Cradle (S 1 )\n\n Yuzuha's constant off-field attacks make Weeping Cradle one of the strongest options for her. Not only is it her best choice for her surprisingly high personal damage, at high enough Phases (starting at P3 and above) it's even stronger than a P5 Kaboom the Cannon in a full team context in every non-Anomaly team. Yuzuha's able to strongly capitalize off of this W-Engine's Energy Regen increase as well as its party-wide DMG Bonus-increasing effect, cementing it as one of her best choices.\n Usage: 22.14 %\n Shiyu Defense: 28751\n Deadly Assault: 27545\n\n 93.28%\n\n Kaboom the Cannon (S 5 )\n\n The all-around strongest Support W-Engine for most Agents — Yuzuha is no exception as this is her best choice outside of Anomaly teams (outside of Weeping Cradle at high Phases and Yixuan teams). Thanks to her tanuki Kama, she is fully able to activate this W-Engine's ATK increasing effect, strongly enhancing team performance.\n Usage: 27.5 %\n Shiyu Defense: 28274\n Deadly Assault: 24977\n\n -\n\n Unfettered Game Ball (S 5 )\n\n Thanks to Yuzuha's ability to adapt her element depending on the team, she's the first proper user of this usually situational Battle Pass W-Engine! This W-Engine requires you to apply Attribute Anomalies which an enemy is weak to, then it increases the whole team's CRIT Rate. In teams where this is possible and desirable, this W-Engine is surprisingly strong, but it won't outperform the above options although it can get very close. Owing to its highly situational nature, no calculations are provided for it, as it can range from having no use to highly competitive depending on the team and encounter.\n Usage: 0.37 %\n Shiyu Defense: 27384\n Deadly Assault: 20076\n\n Best Disk Drives Sets\n 1\n\n Moonlight Lullaby ( 4 -PC)\n\n Gives 20% Energy Regen on the 2-piece, and most importantly the 4-piece is the best set for every Support-class Agent. This is because it provides not only more DMG Bonus than both Proto Punk and Swing Jazz (18%), but the duration of the buff is also much longer than both of them as well (25s), while the condition is also much easier to fulfill (it only requires casting an EX Special or Ultimate). It makes this set the best choice for all Supports and is only superceded by a fully stacked Astral Voice, which is not consistently upkept by most Agents.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Astral Voice\n\n Hormone Punk\n\n 2P\n Chaos Jazz\n\n Freedom Blues\n\n 2\n\n Astral Voice ( 4 -PC)\n\n Best generalist buffing set outside of Moonlight Lullaby, providing a useful 10% ATK on the 2-piece but most importantly buffing DMG dealt by characters entering the field via Quick Assists by upwards of 24%, the biggest buff provided by Disc Drives in the game. However, note that this buff may not be fully active all throughout a battle.\n Best combined with your choice of 2-PC Set:\n 2P\n Phaethon's Melody\n\n (Recommended)\n 2P\n Hormone Punk\n\n 2P\n Chaos Jazz\n\n Freedom Blues\n\n Best Disk Drives Stats\n Other Teams\n Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= PEN Ratio%\n\n Disk 6\n Anomaly Mastery = ATK%\n\n Substats: ATK% > ATK (until 3000) > Anomaly Proficiency > PEN\n\n Physical Teams\n Disk 4\n ATK% >= Anomaly Proficiency\n\n Disk 5\n ATK% >= PEN Ratio%\n\n Disk 6\n Anomaly Mastery = ATK%\n\n Substats: ATK% > ATK (until 3000) > Anomaly Proficiency > CRIT Rate = CRIT DMG > PEN\n\n Best Endgame Stats (Level 60)\n ATK: 3000+\n\n HP: 11000+\n\n DEF: 800+\n\n Anomaly Proficiency: 200+\n Always prioritize ATK on your Disk Drives if under 3000 ATK. Anomaly Proficiency is optimal for the best damage at 3000 ATK or above.\n\n Anomaly Mastery: 171\n\n CRIT competes with Anomaly Proficiency in non-Physical Anomaly teams and, as a result, can be considered for Yuzuha's build path. However, with Anomaly teams involving Physical characters, Anomaly Proficiency will be a much more important stat for Yuzuha, and CRIT should not be a priority.\n\n Skill priority\n Basic Attack\n\n Chain Attack\n\n Special Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Yuzuha . The character can work with others if you know what to do and how to use them.\n\n Velina - If there's one Agent that benefits from Anomaly build-up bonuses, it's Velina, as Vortex teams are all about getting as many Anomalies out as possible. Yuzuha is a perfect match for that, as even besides her universally strong buffs, her presence in teams makes a significant difference to the amount of Vortexes in an encounter, and as a result, greatly increases the amount of damage and resources (like Decibels and Windbite points) Velina teams get.\n Nangong Yu - With Nangong being the Anomaly Stunner of choice, Yuzuha as the go-to Anomaly Support means they're frequently going to be run together. Nangong benefits plenty from her too, as she has a lot of burst Anomaly application with her EX and charged Basics, but may struggle to keep up when those skills aren't available, which Yuzuha's build-up over time can make up for. Nangong's buffs are also reasonably diverse from Yuzuha's, like with Stun DMG Multiplier, maximising their combined value.\n Jane Doe Piper Promeia - Yuzuha is a near ideal match for most Anomaly Agents, and these 3 are among the many that benefit from her. For Jane, with how high-value her Assaults are, and with how lacklustre her Anomaly build-up can be, Yuzuha is a big boost to her overall damage, to the point that it can often be best to Flavor Match Jane over other Anomaly DPS in a team and push for more Assaults. Piper is the reverse, with other Agents often failing to keep up with her Anomaly build-up, so Yuzuha normalises that. As for Promeia, given that she needs to be spending Ablooms during burst periods, it doesn't give much room for other Agents to apply their own Anomalies, and even on Wind teams, Yuzuha's extra build-up can feel like a necessity to hit the highest number of Vortexes in a stun.\n Miyabi - Yuzuha is a key partner for Miyabi teams, having not only strong buffs, but also being a big help at ensuring her teams have enough Anomaly build-up to sustain the constant Disorders needed for Fallen Frost points. As Miyabi Anomaly builds become increasingly relevant in the meta, with ever rising thresholds for Anomaly build-up, Yuzuha is a key enabler at allowing Miyabi to still be at her best.\n Vivian Burnice - Both Vivian and Burnice tend to struggle with having enough Anomaly build-up to keep up with a primary Anomaly DPS by themselves, and Yuzuha is the go-to solution to that problem. By Flavor Matching them, she makes it much easier to sustain Disorders in their teams, which leads to both more damage and more resources, being an indispensible pick for most teams where they are played as secondary Anomaly units.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Yuzuha in the current phase of Shiyu Defense.\n Rank 7\n App. rate: 8.52 %\n Avg. Score: 28282\n\n Rank 15\n App. rate: 2.84 %\n Avg. Score: 32618\n\n Rank 22\n App. rate: 1.84 %\n Avg. Score: 28630\n\n Rank 30\n App. rate: 0.98 %\n Avg. Score: 26807\n\n Rank 38\n App. rate: 0.8 %\n Avg. Score: 26182\n\n Rank 39\n App. rate: 0.78 %\n Avg. Score: 30979\n\n Rank 41\n App. rate: 0.77 %\n Avg. Score: 30356\n\n Rank 50\n App. rate: 0.54 %\n Avg. Score: 26459\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 30400\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 28856\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Yuzuha in the current phase of Deadly Assault.\n Rank 18\n App. rate: 1.8 %\n Avg. Score: 23809\n\n Rank 24\n App. rate: 1.13 %\n Avg. Score: 26607\n\n Rank 38\n App. rate: 0.56 %\n Avg. Score: 29842\n\n Rank 40\n App. rate: 0.53 %\n Avg. Score: 28595\n\n Rank 46\n App. rate: 0.44 %\n Avg. Score: 32452\n\n Rank 49\n App. rate: 0.43 %\n Avg. Score: 32405\n\n Rank 50\n App. rate: 0.41 %\n Avg. Score: 23369\n\n Rank 68\n App. rate: 0.27 %\n Avg. Score: 21002\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 21203\n\n Rank 79\n App. rate: 0.2 %\n Avg. Score: 27064"
 }

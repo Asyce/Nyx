@@ -11,8 +11,8 @@
   "sourcePath": "/zenless/characters/yanagi",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "updatedText": "29/July/2026",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "19/August/2026",
   "meta": {
     "title": "Yanagi Best Build Guide | Zenless Zone Zero",
     "description": ""
@@ -425,12 +425,22 @@
       "height": 60
     },
     {
-      "id": "5bb6938af9bb",
-      "sourceHash": "5bb6938af9bb",
+      "id": "7cafcffe0fee",
+      "sourceHash": "7cafcffe0fee",
       "kind": "characters",
-      "name": "Soukaku",
-      "fileStem": "soukaku",
-      "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+      "name": "Burnice",
+      "fileStem": "burnice",
+      "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "8bdbbd8d6be8",
+      "sourceHash": "8bdbbd8d6be8",
+      "kind": "characters",
+      "name": "Alice",
+      "fileStem": "alice",
+      "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
       "width": 60,
       "height": 60
     },
@@ -445,12 +455,22 @@
       "height": 60
     },
     {
-      "id": "7cafcffe0fee",
-      "sourceHash": "7cafcffe0fee",
+      "id": "7a4ba5242a6c",
+      "sourceHash": "7a4ba5242a6c",
       "kind": "characters",
-      "name": "Burnice",
-      "fileStem": "burnice",
-      "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
+      "name": "Jane Doe",
+      "fileStem": "jane-doe",
+      "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "db3a1e63185e",
+      "sourceHash": "db3a1e63185e",
+      "kind": "characters",
+      "name": "Aria",
+      "fileStem": "aria",
+      "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
       "width": 60,
       "height": 60
     }
@@ -460,7 +480,7 @@
       "id": "yanagi-best-build-guide-0",
       "level": 1,
       "heading": "Yanagi Best Build Guide",
-      "text": "Last updated: 29/July/2026",
+      "text": "Last updated: 19/August/2026",
       "assets": [
         {
           "id": "177b4ce659ce",
@@ -523,7 +543,7 @@
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "text": "Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
       "assets": []
     },
     {
@@ -864,7 +884,7 @@
       "id": "full-team-calculations-30",
       "level": 5,
       "heading": "Full Team calculations",
-      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Nangong Yu + Neon Fantasies\n Yuzuha + Kaboom the Cannon\n 118.41%\n\n Timeweaver (S 5 )\n\n Performance at max copies of Yanagi's Signature W-Engine.\n Usage: 60.96 %\n Shiyu Defense: 29168\n Deadly Assault: 22787\n\n 100.00%\n\n Timeweaver (S 1 )\n\n Yanagi's Signature is tailor made to capitalise on Yanagi's Disorder focus: it has an ATK % mainstat and an Anomaly Proficiency bonus when hitting enemies with Specials and EXs - which happens often owing to her stance swapping. It increases Electric Anomaly Build-Up rate, which is important to keep Disorders going for many teams given Yanagi's lacklustre application, and increases her Disorder DMG. This applies to her Polarities as well, being a relatively undiluted multiplier. For all its benefits though, it isn't that much better than alternatives. Anomaly Build-Up may give more Shocks, but it'd only lead to more Disorders if other characters can keep up, and the Disorder DMG increase is to Yanagi alone. This means it won't apply to other characters' Disorders, Vortexes, Ablooms, Luminizes, and so on, which means that F2P options can remain competitive.\n Usage: 60.96 %\n Shiyu Defense: 29168\n Deadly Assault: 22787\n\n 99.22%\n\n Weeping Gemini (S 5 )\n\n Despite it being a craftable, F2P A-Rank W-Engine, Weeping Gemini can still perform quite well. The ATK % and very high Anomaly Proficiency bonuses means that Anomalies inflicted have high scaling, which Yanagi's Polarity Disoders scale from. The lack of Anomaly Mastery can make it more difficult to sustain back-to-back Disorders, but it can partially make up for the lower \"regular\" Disorder count with strong Polarities instead, being the go-to alternative pick.\n Usage: 17.45 %\n Shiyu Defense: 28341\n Deadly Assault: 21732\n\n 96.19%\n\n Electro-Lip Gloss (S 5 )\n\n The Battle Pass W-Engine is a passable alternative, as enemies should always be under an Anomaly state, its buff is always up. Unfortunately, the DMG % from it tends to be saturated, and its ATK % and Anomaly Proficiency bonuses fall behind that of Weeping Gemini's, so it's usually a worse choice unless at high stun counts.\n Usage: 4.47 %\n Shiyu Defense: 27749\n Deadly Assault: 21586",
+      "text": "The W-Engine calculations below are full team calculations , and here's the team used for them.\n Nangong Yu + Neon Fantasies\n Yuzuha + Kaboom the Cannon\n 118.41%\n\n Timeweaver (S 5 )\n\n Performance at max copies of Yanagi's Signature W-Engine.\n Usage: 63.58 %\n Shiyu Defense: 29872\n Deadly Assault: 26357\n\n 100.00%\n\n Timeweaver (S 1 )\n\n Yanagi's Signature is tailor made to capitalise on Yanagi's Disorder focus: it has an ATK % mainstat and an Anomaly Proficiency bonus when hitting enemies with Specials and EXs - which happens often owing to her stance swapping. It increases Electric Anomaly Build-Up rate, which is important to keep Disorders going for many teams given Yanagi's lacklustre application, and increases her Disorder DMG. This applies to her Polarities as well, being a relatively undiluted multiplier. For all its benefits though, it isn't that much better than alternatives. Anomaly Build-Up may give more Shocks, but it'd only lead to more Disorders if other characters can keep up, and the Disorder DMG increase is to Yanagi alone. This means it won't apply to other characters' Disorders, Vortexes, Ablooms, Luminizes, and so on, which means that F2P options can remain competitive.\n Usage: 63.58 %\n Shiyu Defense: 29872\n Deadly Assault: 26357\n\n 99.22%\n\n Weeping Gemini (S 5 )\n\n Despite it being a craftable, F2P A-Rank W-Engine, Weeping Gemini can still perform quite well. The ATK % and very high Anomaly Proficiency bonuses means that Anomalies inflicted have high scaling, which Yanagi's Polarity Disoders scale from. The lack of Anomaly Mastery can make it more difficult to sustain back-to-back Disorders, but it can partially make up for the lower \"regular\" Disorder count with strong Polarities instead, being the go-to alternative pick.\n Usage: 16.17 %\n Shiyu Defense: 28012\n Deadly Assault: 24892\n\n 96.19%\n\n Electro-Lip Gloss (S 5 )\n\n The Battle Pass W-Engine is a passable alternative, as enemies should always be under an Anomaly state, its buff is always up. Unfortunately, the DMG % from it tends to be saturated, and its ATK % and Anomaly Proficiency bonuses fall behind that of Weeping Gemini's, so it's usually a worse choice unless at high stun counts.\n Usage: 3.06 %\n Shiyu Defense: 27519\n Deadly Assault: 25881",
       "assets": [
         {
           "id": "2541747ebcdb",
@@ -1117,7 +1137,7 @@
       "id": "teams-shiyu-defense-37",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Yanagi in the current phase of Shiyu Defense.\n Rank 20\n App. rate: 2.7 %\n Avg. time: 28644\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 29022\n\n Rank 98\n App. rate: 0.23 %\n Avg. time: 28044\n\n Rank 128\n App. rate: 0.13 %\n Avg. time: 32382\n\n Rank 139\n App. rate: 0.12 %\n Avg. time: 27427\n\n Rank 163\n App. rate: 0.09 %\n Avg. time: 31098\n\n Rank 175\n App. rate: 0.08 %\n Avg. time: 27906\n\n Rank 214\n App. rate: 0.05 %\n Avg. time: 41631\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 27052\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 28693",
+      "text": "This section lists most popular teams featuring Yanagi in the current phase of Shiyu Defense.\n Rank 22\n App. rate: 1.84 %\n Avg. Score: 28630\n\n Rank 46\n App. rate: 0.64 %\n Avg. Score: 27638\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 30400\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 36270\n\n Rank 64\n App. rate: 0.41 %\n Avg. Score: 26804\n\n Rank 72\n App. rate: 0.32 %\n Avg. Score: 27348\n\n Rank 80\n App. rate: 0.28 %\n Avg. Score: 30612\n\n Rank 100\n App. rate: 0.2 %\n Avg. Score: 28790\n\n Rank 125\n App. rate: 0.12 %\n Avg. Score: 29556\n\n Rank 141\n App. rate: 0.1 %\n Avg. Score: 28447",
       "assets": [
         {
           "id": "bf8821af9328",
@@ -1140,22 +1160,22 @@
           "height": 60
         },
         {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "d2c1c9b40367",
           "sourceHash": "d2c1c9b40367",
           "kind": "characters",
           "name": "Yuzuha",
           "fileStem": "ukinami-yuzuha",
           "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "98d8d659c143",
+          "sourceHash": "98d8d659c143",
+          "kind": "characters",
+          "name": "Astra Yao",
+          "fileStem": "astra-yao",
+          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
           "width": 60,
           "height": 60
         },
@@ -1190,22 +1210,22 @@
           "height": 60
         },
         {
-          "id": "f848a605f8bc",
-          "sourceHash": "f848a605f8bc",
+          "id": "7cafcffe0fee",
+          "sourceHash": "7cafcffe0fee",
           "kind": "characters",
-          "name": "Rina",
-          "fileStem": "rina",
-          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "name": "Burnice",
+          "fileStem": "burnice",
+          "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
           "width": 60,
           "height": 60
         },
         {
-          "id": "5bb6938af9bb",
-          "sourceHash": "5bb6938af9bb",
+          "id": "8bdbbd8d6be8",
+          "sourceHash": "8bdbbd8d6be8",
           "kind": "characters",
-          "name": "Soukaku",
-          "fileStem": "soukaku",
-          "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+          "name": "Alice",
+          "fileStem": "alice",
+          "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
           "width": 60,
           "height": 60
         },
@@ -1225,48 +1245,8 @@
       "id": "teams-deadly-assault-38",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Yanagi in the current phase of Deadly Assault.\n Rank 19\n App. rate: 2.75 %\n Avg. score: 21851\n\n Rank 28\n App. rate: 1.37 %\n Avg. score: 20704\n\n Rank 51\n App. rate: 0.55 %\n Avg. score: 31166\n\n Rank 77\n App. rate: 0.28 %\n Avg. score: 22404\n\n Rank 80\n App. rate: 0.24 %\n Avg. score: 23042\n\n Rank 86\n App. rate: 0.21 %\n Avg. score: 26455\n\n Rank 96\n App. rate: 0.17 %\n Avg. score: 24420\n\n Rank 118\n App. rate: 0.11 %\n Avg. score: 26886\n\n Rank 132\n App. rate: 0.1 %\n Avg. score: 21261\n\n Rank 132\n App. rate: 0.1 %\n Avg. score: 21600",
+      "text": "This section lists most popular teams featuring Yanagi in the current phase of Deadly Assault.\n Rank 58\n App. rate: 0.36 %\n Avg. Score: 35063\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 24330\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 29830\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 21672\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 26963\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 24311\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 28733\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 29209\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 27283\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 30086",
       "assets": [
-        {
-          "id": "bf8821af9328",
-          "sourceHash": "bf8821af9328",
-          "kind": "characters",
-          "name": "Miyabi",
-          "fileStem": "miyabi",
-          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "79ca38737857",
-          "sourceHash": "79ca38737857",
-          "kind": "characters",
-          "name": "Yanagi",
-          "fileStem": "yanagi",
-          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "d2c1c9b40367",
-          "sourceHash": "d2c1c9b40367",
-          "kind": "characters",
-          "name": "Yuzuha",
-          "fileStem": "ukinami-yuzuha",
-          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "98d8d659c143",
-          "sourceHash": "98d8d659c143",
-          "kind": "characters",
-          "name": "Astra Yao",
-          "fileStem": "astra-yao",
-          "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-          "width": 60,
-          "height": 60
-        },
         {
           "id": "1965560f8ae5",
           "sourceHash": "1965560f8ae5",
@@ -1288,6 +1268,26 @@
           "height": 60
         },
         {
+          "id": "79ca38737857",
+          "sourceHash": "79ca38737857",
+          "kind": "characters",
+          "name": "Yanagi",
+          "fileStem": "yanagi",
+          "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "bf8821af9328",
+          "sourceHash": "bf8821af9328",
+          "kind": "characters",
+          "name": "Miyabi",
+          "fileStem": "miyabi",
+          "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "e33ff79684e5",
           "sourceHash": "e33ff79684e5",
           "kind": "characters",
@@ -1298,12 +1298,12 @@
           "height": 60
         },
         {
-          "id": "2541747ebcdb",
-          "sourceHash": "2541747ebcdb",
+          "id": "d2c1c9b40367",
+          "sourceHash": "d2c1c9b40367",
           "kind": "characters",
-          "name": "Nangong Yu",
-          "fileStem": "nangong-yu",
-          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "name": "Yuzuha",
+          "fileStem": "ukinami-yuzuha",
+          "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
           "width": 60,
           "height": 60
         },
@@ -1318,12 +1318,42 @@
           "height": 60
         },
         {
-          "id": "f848a605f8bc",
-          "sourceHash": "f848a605f8bc",
+          "id": "7a4ba5242a6c",
+          "sourceHash": "7a4ba5242a6c",
           "kind": "characters",
-          "name": "Rina",
-          "fileStem": "rina",
-          "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+          "name": "Jane Doe",
+          "fileStem": "jane-doe",
+          "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "8bdbbd8d6be8",
+          "sourceHash": "8bdbbd8d6be8",
+          "kind": "characters",
+          "name": "Alice",
+          "fileStem": "alice",
+          "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2541747ebcdb",
+          "sourceHash": "2541747ebcdb",
+          "kind": "characters",
+          "name": "Nangong Yu",
+          "fileStem": "nangong-yu",
+          "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "db3a1e63185e",
+          "sourceHash": "db3a1e63185e",
+          "kind": "characters",
+          "name": "Aria",
+          "fileStem": "aria",
+          "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
           "width": 60,
           "height": 60
         }
@@ -1549,7 +1579,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Yanagi in the current phase of Shiyu Defense.\n Rank 20\n App. rate: 2.7 %\n Avg. time: 28644\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 29022\n\n Rank 98\n App. rate: 0.23 %\n Avg. time: 28044\n\n Rank 128\n App. rate: 0.13 %\n Avg. time: 32382\n\n Rank 139\n App. rate: 0.12 %\n Avg. time: 27427\n\n Rank 163\n App. rate: 0.09 %\n Avg. time: 31098\n\n Rank 175\n App. rate: 0.08 %\n Avg. time: 27906\n\n Rank 214\n App. rate: 0.05 %\n Avg. time: 41631\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 27052\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 28693",
+          "text": "This section lists most popular teams featuring Yanagi in the current phase of Shiyu Defense.\n Rank 22\n App. rate: 1.84 %\n Avg. Score: 28630\n\n Rank 46\n App. rate: 0.64 %\n Avg. Score: 27638\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 30400\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 36270\n\n Rank 64\n App. rate: 0.41 %\n Avg. Score: 26804\n\n Rank 72\n App. rate: 0.32 %\n Avg. Score: 27348\n\n Rank 80\n App. rate: 0.28 %\n Avg. Score: 30612\n\n Rank 100\n App. rate: 0.2 %\n Avg. Score: 28790\n\n Rank 125\n App. rate: 0.12 %\n Avg. Score: 29556\n\n Rank 141\n App. rate: 0.1 %\n Avg. Score: 28447",
           "assets": [
             {
               "id": "bf8821af9328",
@@ -1572,22 +1602,22 @@
               "height": 60
             },
             {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "d2c1c9b40367",
               "sourceHash": "d2c1c9b40367",
               "kind": "characters",
               "name": "Yuzuha",
               "fileStem": "ukinami-yuzuha",
               "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "98d8d659c143",
+              "sourceHash": "98d8d659c143",
+              "kind": "characters",
+              "name": "Astra Yao",
+              "fileStem": "astra-yao",
+              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
               "width": 60,
               "height": 60
             },
@@ -1622,22 +1652,22 @@
               "height": 60
             },
             {
-              "id": "f848a605f8bc",
-              "sourceHash": "f848a605f8bc",
+              "id": "7cafcffe0fee",
+              "sourceHash": "7cafcffe0fee",
               "kind": "characters",
-              "name": "Rina",
-              "fileStem": "rina",
-              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "name": "Burnice",
+              "fileStem": "burnice",
+              "path": "Prydwen/zzz/assets/characters/burnice-7cafcffe0fee.webp",
               "width": 60,
               "height": 60
             },
             {
-              "id": "5bb6938af9bb",
-              "sourceHash": "5bb6938af9bb",
+              "id": "8bdbbd8d6be8",
+              "sourceHash": "8bdbbd8d6be8",
               "kind": "characters",
-              "name": "Soukaku",
-              "fileStem": "soukaku",
-              "path": "Prydwen/zzz/assets/characters/soukaku-5bb6938af9bb.webp",
+              "name": "Alice",
+              "fileStem": "alice",
+              "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
               "width": 60,
               "height": 60
             },
@@ -1655,48 +1685,8 @@
         },
         {
           "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Yanagi in the current phase of Deadly Assault.\n Rank 19\n App. rate: 2.75 %\n Avg. score: 21851\n\n Rank 28\n App. rate: 1.37 %\n Avg. score: 20704\n\n Rank 51\n App. rate: 0.55 %\n Avg. score: 31166\n\n Rank 77\n App. rate: 0.28 %\n Avg. score: 22404\n\n Rank 80\n App. rate: 0.24 %\n Avg. score: 23042\n\n Rank 86\n App. rate: 0.21 %\n Avg. score: 26455\n\n Rank 96\n App. rate: 0.17 %\n Avg. score: 24420\n\n Rank 118\n App. rate: 0.11 %\n Avg. score: 26886\n\n Rank 132\n App. rate: 0.1 %\n Avg. score: 21261\n\n Rank 132\n App. rate: 0.1 %\n Avg. score: 21600",
+          "text": "This section lists most popular teams featuring Yanagi in the current phase of Deadly Assault.\n Rank 58\n App. rate: 0.36 %\n Avg. Score: 35063\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 24330\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 29830\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 21672\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 26963\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 24311\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 28733\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 29209\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 27283\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 30086",
           "assets": [
-            {
-              "id": "bf8821af9328",
-              "sourceHash": "bf8821af9328",
-              "kind": "characters",
-              "name": "Miyabi",
-              "fileStem": "miyabi",
-              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "79ca38737857",
-              "sourceHash": "79ca38737857",
-              "kind": "characters",
-              "name": "Yanagi",
-              "fileStem": "yanagi",
-              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "d2c1c9b40367",
-              "sourceHash": "d2c1c9b40367",
-              "kind": "characters",
-              "name": "Yuzuha",
-              "fileStem": "ukinami-yuzuha",
-              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "98d8d659c143",
-              "sourceHash": "98d8d659c143",
-              "kind": "characters",
-              "name": "Astra Yao",
-              "fileStem": "astra-yao",
-              "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
-              "width": 60,
-              "height": 60
-            },
             {
               "id": "1965560f8ae5",
               "sourceHash": "1965560f8ae5",
@@ -1718,6 +1708,26 @@
               "height": 60
             },
             {
+              "id": "79ca38737857",
+              "sourceHash": "79ca38737857",
+              "kind": "characters",
+              "name": "Yanagi",
+              "fileStem": "yanagi",
+              "path": "Prydwen/zzz/assets/characters/yanagi-79ca38737857.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "bf8821af9328",
+              "sourceHash": "bf8821af9328",
+              "kind": "characters",
+              "name": "Miyabi",
+              "fileStem": "miyabi",
+              "path": "Prydwen/zzz/assets/characters/miyabi-bf8821af9328.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "e33ff79684e5",
               "sourceHash": "e33ff79684e5",
               "kind": "characters",
@@ -1728,12 +1738,12 @@
               "height": 60
             },
             {
-              "id": "2541747ebcdb",
-              "sourceHash": "2541747ebcdb",
+              "id": "d2c1c9b40367",
+              "sourceHash": "d2c1c9b40367",
               "kind": "characters",
-              "name": "Nangong Yu",
-              "fileStem": "nangong-yu",
-              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "name": "Yuzuha",
+              "fileStem": "ukinami-yuzuha",
+              "path": "Prydwen/zzz/assets/characters/yuzuha-d2c1c9b40367.webp",
               "width": 60,
               "height": 60
             },
@@ -1748,12 +1758,42 @@
               "height": 60
             },
             {
-              "id": "f848a605f8bc",
-              "sourceHash": "f848a605f8bc",
+              "id": "7a4ba5242a6c",
+              "sourceHash": "7a4ba5242a6c",
               "kind": "characters",
-              "name": "Rina",
-              "fileStem": "rina",
-              "path": "Prydwen/zzz/assets/characters/rina-f848a605f8bc.webp",
+              "name": "Jane Doe",
+              "fileStem": "jane-doe",
+              "path": "Prydwen/zzz/assets/characters/jane-doe-7a4ba5242a6c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "8bdbbd8d6be8",
+              "sourceHash": "8bdbbd8d6be8",
+              "kind": "characters",
+              "name": "Alice",
+              "fileStem": "alice",
+              "path": "Prydwen/zzz/assets/characters/alice-8bdbbd8d6be8.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2541747ebcdb",
+              "sourceHash": "2541747ebcdb",
+              "kind": "characters",
+              "name": "Nangong Yu",
+              "fileStem": "nangong-yu",
+              "path": "Prydwen/zzz/assets/characters/nangong-yu-2541747ebcdb.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "db3a1e63185e",
+              "sourceHash": "db3a1e63185e",
+              "kind": "characters",
+              "name": "Aria",
+              "fileStem": "aria",
+              "path": "Prydwen/zzz/assets/characters/aria-db3a1e63185e.webp",
               "width": 60,
               "height": 60
             }
@@ -1763,5 +1803,5 @@
     }
   },
   "tables": [],
-  "text": "Yanagi Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Yanagi\n Yanagi Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Yanagi from ZZZ (Zenless Zone Zero). Yanagi is an rank character with the Electric attribute who belongs to the Anomaly Specialty and who is part of the Section 6 faction.\n\n To learn more about Yanagi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Yanagi has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Yanagi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Lunar Eclipse\n\n Lv. 1\n\n After Yanagi activates her EX Special Attack, the DMG multiplier of Disorder is increased by 125 when any squad member applies the Disorder effect to an enemy, lasting 15s .\n\nWhen her EX Special Attack hits an enemy, Yanagi's Electric DMG against the target is increased by 10 for 15s .\n\n Anomaly Mastery 0\n BASE ATK : 0\n\n Additional Ability Gessou\n\n When another character in your squad is an Anomaly character or shares the same attribute:\n After switching stances, when Yanagi hits an enemy with Basic Attack: Tsukuyomi Kagura, Anomaly Buildup increases by 45% for 8s .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tsukuyomi Kagura\n\n Yanagi has two stances: Jougen and Kagen.\nPress to activate:\nExecute up to five forward slashes based on the current stance, causing Physical DMG and Electric DMG.\nDuring combat, Yanagi gains the corresponding stance buff based on her current stance:\nJougen stance buff: Electric DMG increases by 10%. Anti-Interrupt Level increases during Basic Attacks.\nKagen stance buff: PEN Ratio increases by 10%. Interrupt Level increases for Basic Attacks.\nFor 8s after switching stances, Yanagi retains the bonus from the previous stance.\n Multipliers\n\n Dodge: Wandering Breeze\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Fleeting Flight\n\n Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Rapid Retaliation\n\n Press during a Perfect Dodge to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Special Attack: Ruten\n\n Press to activate.\nPerform a forward slash, dealing Electric DMG, and switch the current stance.\nAnti-Interrupt level is increased while using this skill.\nIf activated after the 3rd, 4th, or 5th hit of a Basic Attack, it activates Swift Ruten, speeding up the slashes while switching her current stance.\nBlock enemy attacks while Swift Ruten is active.\nUpon activating Swift Ruten, Yanagi can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n EX Special Attack: Gekka Ruten\n\n With enough energy, press to activate:\nCharge up power for a quick forward thrust, followed by a downward attack, dealing massive Electric DMG.\nUpon executing the thrust, Yanagi switches stances and enters the Shinrabanshou state, lasting 15s. For the duration of this state, when following up with a subsequent Basic Attack from the 5th hit of a Basic Attack or other skills, the combo will begin directly from the 3rd hit of the Basic Attack.\nIf the downward attack hits an enemy suffering an Anomaly, it triggers a special Disorder effect, Polarity Disorder, dealing 15% of the original Disorder effect's DMG to the target, plus an additional percentage of Yanagi's Anomaly Proficiency. Polarity Disorder will not remove the target's Anomaly.\n Multipliers\n\n Chain Attack: Celestial Harmony\n\n When a Chain Attack is triggered, select the character to activate:\nSwitch stances and unleash a powerful slash on enemies in front, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Ultimate: Raiei Tenge\n\n When Decibel Rating is at Maximum, press to activate.\nYanagi unleashes her potential and delivers a powerful slash to a large area of enemies in front in a very short time, followed by an additional lightning strike, dealing massive Electric DMG.\nWhen the lightning strike hits an enemy affected by an Attribute Anomaly, it triggers a special Disorder effect called Polarity Disorder. This deals DMG equal to 15% of the original Disorder effect plus an additional percentage of Yanagi's Anomaly Proficiency. Polarity Disorder will not remove the target's Anomaly.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Yanagi can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Assist Follow-Up: Weeping Willow Stab\n\n Press after a Defensive Assist to activate:\nSwitch stances, and quickly deliver multiple slashes to enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Defensive Assist: Radiant Reversal\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Blade of Elegance\n\n When the on-field character is launched, press to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Mindscapes\n M1\n Know Thy Self, Know Thy Enemy\n Mindscape 1\n\n When any squad member inflicts an Anomaly on an enemy, Yanagi gains 1 stack of Clarity, lasting 15s , stacking up to 3 times. Repeated triggers reset the duration. Upon being hit by an enemy attack, Yanagi consumes 1 stack of Clarity to gain invulnerability for 1s . When Yanagi has 1 or more stacks of Clarity, her Anomaly Proficiency increases by 80 .\n\n M2\n Outstanding Adaptability\n Mindscape 2\n\n During her EX Special Attack, the rapid thrust's Electric Anomaly Buildup increases by 20% . Holding down the Special Attack button after a rapid thrust hits an enemy will consume 10 additional Energy to launch another thrust. If Energy is insufficient or the button is released, the attack automatically follows up with the downward attack. When the downward attack hits an enemy suffering an Anomaly and triggers Polarity Disorder, the DMG multiplier increases to 20% of the original Disorder effect. Each additional thrust increases this multiplier by 15% , up to a maximum of 2 extra thrusts.\n\n M3\n Tsukishiro Style Management\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Chessmaster\n Mindscape 4\n\n When Yanagi inflicts Attribute Anomaly DMG on an enemy, they suffer the Exposed effect, lasting 15s . Attacks on enemies under the Expose effect will have 16% increased PEN Ratio.\n\n M5\n Other Mother\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Inhuman Blood\n Mindscape 6\n\n After a thrust attack during her EX Special Attack, the duration of the Shinrabanshou state increases to 30s . While the state is active and her EX Special Attack DMG increases by 20% . The maximum number of times the additional DMG multiplier increase effect for Polarity Disorder in Outstanding Adaptability can be triggered increases to 4 , and the Energy cost for the first 4 additional thrust attacks is halved.\n\n Stats (Level 60)\n Yanagi Stats at level 60 (including Core passive bonuses).\n\n HP\n 7788\n\n DEF\n 612\n\n ATK\n 872\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 86\n\n Anomaly Mastery\n 148\n\n Anomaly Proficiency\n 114\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Anomaly DPS\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Boosts Disorder damage, inflicts Disorder on her own regardless of Anomaly Buildup;\n\n Able to apply Anomaly effectively in quick, short bursts but also in a more sustained on-field playstyle — very flexible gameplay-wise;\n\n Doesn't mind lower investments as much as other characters due to being able to be used as a disorder bot within a Miyabi team, has good F2P W-Engine choices and having most skills unlevelled is okay;\n\n Has lots of team options available by extension of her playstyle fiexibility.\n\n Cons\n Lots of buffs to keep track of with short uptimes;\n\n Performance will vastly vary depending on available second and third slot teammates — significantly enjoys her best choices comparatively to alternatives.\n\n Review\n Yanagi is an S-rank Electric Anomaly Agent, notorious for her ability to trigger a unique type of Disorder in the form of Polarity Disorder, as well as being able to function as both a quick in-and-out Anomaly Secondary DPS, but also a very strong on-field Primary Anomaly DPS given the right teammates. In other words, Yanagi is a character with many facets to her kit, mostly relying on Disorders to deal damage. Let’s tackle all of the elements of her kit one by one.\n Basic Attack\n Yanagi has two stances, which cause her to use different Basic Attacks. Called Jougen and Kagen, they are switched into each other freely by casting her Special or EX Special, or less commonly her Assist Follow-Up. These stances are indicated below her HP bar as well as by the color of her hair garment (blue and orange for Jougen and Kagen respectively) which are also indicative of the uptime on the following buffs: In the Jougen stance, she gains 10% Electric DMG Bonus; in Kagen stance, she gains 10% PEN Ratio. These effects linger for 8s after switching in between the stances, which encourages relatively frequent switching in between the stances to maximize the uptime on these buffs (ideally, you want both of them always active). In either stance, Yanagi’s anti-interruption level on her Basic Attacks will be increased.\n Which Basic Attack string is used doesn’t really matter, so long as you ensure uptime on her buffs from switching in between the stances.\n Special & EX Special\n Yanagi’s regular Special allows her to switch in between the Jougen and Kagen stances at will. It has a unique property called Swift Ruten. Triggered upon using her Special after the 3rd, 4th or 5th hit of her Basic Attack, it allows her to immediately follow up with Basic Attack 3, blocks damage for a short period of time, and speeds up the animation. Ideally, we always want to make use of this attack to block damage and quickly switch stances all at once.\n Yanagi’s EX Special consists of 2 parts. Yanagi enters the Shinrabanshou state for 15s after the first part, which allows her to start her Basic Attack string from the 3rd hit after the 5th hit of her Basic Attack.\n This last property also applies to her Quick Assist, Assist Follow-Up, Dodge Counter, Chain Attack and Ultimate.\n Provided the enemy is inflicted with an Anomaly, Yanagi’s EX Special and Ultimate also trigger a Polarity Disorder, one of her most important mechanics. It acts as a weaker form of Disorder dependent on the current Anomaly aura inflicted on the enemy. This does not get rid of the target’s current Anomaly gauge. It deals damage equal to 15% of the original Disorder DMG plus a portion of her Anomaly Proficiency depending on the skill level of the skill that triggered it. This allows Yanagi to be played as a Primary DPS in Mono Electric teams while still triggering Disorders.\n Core Passive & Additional Ability\n Via her Core Passive, when Yanagi uses her EX Special, the DMG multiplier of Disorder is increased by up to 250% for all Disorders triggered by all party members for 15s. If an EX Special hits an enemy, Yanagi will deal 20% more Electric DMG for 15s as well.\n If her Additional Ability is activated, she gains 45% Electric Anomaly Buildup for 8s when hitting an enemy with a Basic Attack after switching stances. Make sure to activate this ability and exploit its buff at all times!\n Ultimate & Chain Attack\n While Yanagi’s Chain Attack functions exactly as you’d expect, her Ultimate can also trigger Polarity Disorder. Make sure that all of Yanagi’s self-buffs are active and the enemy has an Anomaly aura applied before using it to maximize its big damage and Anomaly application potential.\n Unused/Redundant parts of her kit\n Aside from the properties mentioned earlier, Yanagi’s Dodge and Assist-related moves all work as you’d expect them to — detailing them is unnecessary but they may occasionally come in handy in battle.\n Meta Position & Conclusion\n Yanagi is definitely one of the easier Agents to play and understand at a baseline. However, she has huge room for optimization in her kit, due to the many short-lasting buffs she can apply to herself which she wants to use on as many of her attacks as possible. Able to increase the Disorder DMG of teammates while also triggering her own Polarity Disorders and having big Electric Anomaly application, Yanagi sees use both as the Primary DPS and the Secondary DPS of Disorder-focused teams.\n Ever since the release of many Anomaly-related Agents that came after her, notably Miyabi in her Secondary role, allowing each other to benefit greatly from triggering a ton of Disorders, but also Vivian in Yanagi’s Primary DPS role and also Yuzuha in all instances as her best Support, Yanagi has seen a lot of new teammates play alongside her. Due to the nature of her kit being centred around dealing lots of damage while also contributing to a greater damage total when played with several Anomaly-class Agents, she finds herself capable of slotting on many different teams to varying degrees of success. In her best teams however, Yanagi is absolutely a force to be reckoned with, being one of the strongest Anomaly-class Agents in the game.\n In conclusion, Yanagi is a character who can play in several teams at several levels of skill. While any player is able to easily adopt her core playstyle, the players willing to optimize the most will be satisfied with Yanagi’s skill ceiling, which is definitely highly rewarding. In any situation, however, Yanagi has an easy-to-understand playstyle and brings lots of Disorder damage to the table, making her one of the better Anomaly Agents in Zenless Zone Zero.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Nangong Yu + Neon Fantasies\n Yuzuha + Kaboom the Cannon\n 118.41%\n\n Timeweaver (S 5 )\n\n Performance at max copies of Yanagi's Signature W-Engine.\n Usage: 60.96 %\n Shiyu Defense: 29168\n Deadly Assault: 22787\n\n 100.00%\n\n Timeweaver (S 1 )\n\n Yanagi's Signature is tailor made to capitalise on Yanagi's Disorder focus: it has an ATK % mainstat and an Anomaly Proficiency bonus when hitting enemies with Specials and EXs - which happens often owing to her stance swapping. It increases Electric Anomaly Build-Up rate, which is important to keep Disorders going for many teams given Yanagi's lacklustre application, and increases her Disorder DMG. This applies to her Polarities as well, being a relatively undiluted multiplier. For all its benefits though, it isn't that much better than alternatives. Anomaly Build-Up may give more Shocks, but it'd only lead to more Disorders if other characters can keep up, and the Disorder DMG increase is to Yanagi alone. This means it won't apply to other characters' Disorders, Vortexes, Ablooms, Luminizes, and so on, which means that F2P options can remain competitive.\n Usage: 60.96 %\n Shiyu Defense: 29168\n Deadly Assault: 22787\n\n 99.22%\n\n Weeping Gemini (S 5 )\n\n Despite it being a craftable, F2P A-Rank W-Engine, Weeping Gemini can still perform quite well. The ATK % and very high Anomaly Proficiency bonuses means that Anomalies inflicted have high scaling, which Yanagi's Polarity Disoders scale from. The lack of Anomaly Mastery can make it more difficult to sustain back-to-back Disorders, but it can partially make up for the lower \"regular\" Disorder count with strong Polarities instead, being the go-to alternative pick.\n Usage: 17.45 %\n Shiyu Defense: 28341\n Deadly Assault: 21732\n\n 96.19%\n\n Electro-Lip Gloss (S 5 )\n\n The Battle Pass W-Engine is a passable alternative, as enemies should always be under an Anomaly state, its buff is always up. Unfortunately, the DMG % from it tends to be saturated, and its ATK % and Anomaly Proficiency bonuses fall behind that of Weeping Gemini's, so it's usually a worse choice unless at high stun counts.\n Usage: 4.47 %\n Shiyu Defense: 27749\n Deadly Assault: 21586\n\n Best Disk Drives Sets\n 1\n\n Chaos Jazz ( 4 -PC)\n\n The most suitable and safest option for Yanagi, when playing her in Disorder teams using standard gameplay and combos. While other sets like Thunder Metal or Freedom Blues could be used, they require specific and in some cases difficult specialized play.\n Best combined with your choice of 2-PC Set:\n 2P\n Freedom Blues\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Thunder Metal\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n Best Disk Drives Stats\n Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% >= Electric DMG% > ATK%\n\n Disk 6\n Anomaly Mastery > ATK%\n\n Substats: Anomaly Proficiency > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2600 - 3400+ (Depending on W-Engine choice)\n\n HP: 10000+\n\n DEF: 800+\n\n Anomaly Mastery: 148 - 190+\n\n Anomaly Proficiency: 350 - 450+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Yanagi . The character can work with others if you know what to do and how to use them.\n\n Nangong Yu - Yanagi is one of the greatest beneficiaries of Nangong's value add to teams. Despite being a Disorder-heavy character, a large portion of her damage comes from her Polarities, so being able to conserve resources and expend them only in stun, where damage is highest and early triggers can be set-up, is a huge benefit to her. Nangong's high Anomaly build-up also makes her an ideal match to keep bouncing Disorders back and forth, making for an ideal pair.\n Yuzuha Rina Remielle - Yanagi can do well with many Supports: Yuzuha's buffs are strong and she can feel like a must-have to keep Anomalies balanced and Disorders going, which is more important to Yanagi than most other Anomaly units. Rina is an especially competitive Electric buffer, with her Additional providing more damage and a higher duration to Shock, which also means stronger Disorders as they scale with the time remaining. Remielle has no direct synergy, and in fact can be problematic to run in Disorder teams given her long animations, but her buff value and personal damage still make her a competitive character.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Yanagi in the current phase of Shiyu Defense.\n Rank 20\n App. rate: 2.7 %\n Avg. time: 28644\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 29022\n\n Rank 98\n App. rate: 0.23 %\n Avg. time: 28044\n\n Rank 128\n App. rate: 0.13 %\n Avg. time: 32382\n\n Rank 139\n App. rate: 0.12 %\n Avg. time: 27427\n\n Rank 163\n App. rate: 0.09 %\n Avg. time: 31098\n\n Rank 175\n App. rate: 0.08 %\n Avg. time: 27906\n\n Rank 214\n App. rate: 0.05 %\n Avg. time: 41631\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 27052\n\n Rank 240\n App. rate: 0.04 %\n Avg. time: 28693\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Yanagi in the current phase of Deadly Assault.\n Rank 19\n App. rate: 2.75 %\n Avg. score: 21851\n\n Rank 28\n App. rate: 1.37 %\n Avg. score: 20704\n\n Rank 51\n App. rate: 0.55 %\n Avg. score: 31166\n\n Rank 77\n App. rate: 0.28 %\n Avg. score: 22404\n\n Rank 80\n App. rate: 0.24 %\n Avg. score: 23042\n\n Rank 86\n App. rate: 0.21 %\n Avg. score: 26455\n\n Rank 96\n App. rate: 0.17 %\n Avg. score: 24420\n\n Rank 118\n App. rate: 0.11 %\n Avg. score: 26886\n\n Rank 132\n App. rate: 0.1 %\n Avg. score: 21261\n\n Rank 132\n App. rate: 0.1 %\n Avg. score: 21600"
+  "text": "Yanagi Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Yanagi\n Yanagi Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Yanagi from ZZZ (Zenless Zone Zero). Yanagi is an rank character with the Electric attribute who belongs to the Anomaly Specialty and who is part of the Section 6 faction.\n\n To learn more about Yanagi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Yanagi has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Yanagi check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Lunar Eclipse\n\n Lv. 1\n\n After Yanagi activates her EX Special Attack, the DMG multiplier of Disorder is increased by 125 when any squad member applies the Disorder effect to an enemy, lasting 15s .\n\nWhen her EX Special Attack hits an enemy, Yanagi's Electric DMG against the target is increased by 10 for 15s .\n\n Anomaly Mastery 0\n BASE ATK : 0\n\n Additional Ability Gessou\n\n When another character in your squad is an Anomaly character or shares the same attribute:\n After switching stances, when Yanagi hits an enemy with Basic Attack: Tsukuyomi Kagura, Anomaly Buildup increases by 45% for 8s .\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Tsukuyomi Kagura\n\n Yanagi has two stances: Jougen and Kagen.\nPress to activate:\nExecute up to five forward slashes based on the current stance, causing Physical DMG and Electric DMG.\nDuring combat, Yanagi gains the corresponding stance buff based on her current stance:\nJougen stance buff: Electric DMG increases by 10%. Anti-Interrupt Level increases during Basic Attacks.\nKagen stance buff: PEN Ratio increases by 10%. Interrupt Level increases for Basic Attacks.\nFor 8s after switching stances, Yanagi retains the bonus from the previous stance.\n Multipliers\n\n Dodge: Wandering Breeze\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Fleeting Flight\n\n Press during a dodge to activate:\nSlashes enemies in front, dealing Physical DMG.\n Multipliers\n\n Dodge Counter: Rapid Retaliation\n\n Press during a Perfect Dodge to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Special Attack: Ruten\n\n Press to activate.\nPerform a forward slash, dealing Electric DMG, and switch the current stance.\nAnti-Interrupt level is increased while using this skill.\nIf activated after the 3rd, 4th, or 5th hit of a Basic Attack, it activates Swift Ruten, speeding up the slashes while switching her current stance.\nBlock enemy attacks while Swift Ruten is active.\nUpon activating Swift Ruten, Yanagi can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n EX Special Attack: Gekka Ruten\n\n With enough energy, press to activate:\nCharge up power for a quick forward thrust, followed by a downward attack, dealing massive Electric DMG.\nUpon executing the thrust, Yanagi switches stances and enters the Shinrabanshou state, lasting 15s. For the duration of this state, when following up with a subsequent Basic Attack from the 5th hit of a Basic Attack or other skills, the combo will begin directly from the 3rd hit of the Basic Attack.\nIf the downward attack hits an enemy suffering an Anomaly, it triggers a special Disorder effect, Polarity Disorder, dealing 15% of the original Disorder effect's DMG to the target, plus an additional percentage of Yanagi's Anomaly Proficiency. Polarity Disorder will not remove the target's Anomaly.\n Multipliers\n\n Chain Attack: Celestial Harmony\n\n When a Chain Attack is triggered, select the character to activate:\nSwitch stances and unleash a powerful slash on enemies in front, dealing massive Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Ultimate: Raiei Tenge\n\n When Decibel Rating is at Maximum, press to activate.\nYanagi unleashes her potential and delivers a powerful slash to a large area of enemies in front in a very short time, followed by an additional lightning strike, dealing massive Electric DMG.\nWhen the lightning strike hits an enemy affected by an Attribute Anomaly, it triggers a special Disorder effect called Polarity Disorder. This deals DMG equal to 15% of the original Disorder effect plus an additional percentage of Yanagi's Anomaly Proficiency. Polarity Disorder will not remove the target's Anomaly.\nCharacter is invulnerable while using this skill.\nAfter using this skill, Yanagi can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Assist Follow-Up: Weeping Willow Stab\n\n Press after a Defensive Assist to activate:\nSwitch stances, and quickly deliver multiple slashes to enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Defensive Assist: Radiant Reversal\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, inflicting massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Blade of Elegance\n\n When the on-field character is launched, press to activate.\nSlashes enemies in front, dealing Electric DMG.\nCharacter is invulnerable while using this skill.\nAfter using this skill, you can immediately follow up with the 3rd hit of the current stance's Basic Attack.\n Multipliers\n\n Mindscapes\n M1\n Know Thy Self, Know Thy Enemy\n Mindscape 1\n\n When any squad member inflicts an Anomaly on an enemy, Yanagi gains 1 stack of Clarity, lasting 15s , stacking up to 3 times. Repeated triggers reset the duration. Upon being hit by an enemy attack, Yanagi consumes 1 stack of Clarity to gain invulnerability for 1s . When Yanagi has 1 or more stacks of Clarity, her Anomaly Proficiency increases by 80 .\n\n M2\n Outstanding Adaptability\n Mindscape 2\n\n During her EX Special Attack, the rapid thrust's Electric Anomaly Buildup increases by 20% . Holding down the Special Attack button after a rapid thrust hits an enemy will consume 10 additional Energy to launch another thrust. If Energy is insufficient or the button is released, the attack automatically follows up with the downward attack. When the downward attack hits an enemy suffering an Anomaly and triggers Polarity Disorder, the DMG multiplier increases to 20% of the original Disorder effect. Each additional thrust increases this multiplier by 15% , up to a maximum of 2 extra thrusts.\n\n M3\n Tsukishiro Style Management\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Chessmaster\n Mindscape 4\n\n When Yanagi inflicts Attribute Anomaly DMG on an enemy, they suffer the Exposed effect, lasting 15s . Attacks on enemies under the Expose effect will have 16% increased PEN Ratio.\n\n M5\n Other Mother\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n Inhuman Blood\n Mindscape 6\n\n After a thrust attack during her EX Special Attack, the duration of the Shinrabanshou state increases to 30s . While the state is active and her EX Special Attack DMG increases by 20% . The maximum number of times the additional DMG multiplier increase effect for Polarity Disorder in Outstanding Adaptability can be triggered increases to 4 , and the Energy cost for the first 4 additional thrust attacks is halved.\n\n Stats (Level 60)\n Yanagi Stats at level 60 (including Core passive bonuses).\n\n HP\n 7788\n\n DEF\n 612\n\n ATK\n 872\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 86\n\n Anomaly Mastery\n 148\n\n Anomaly Proficiency\n 114\n\n Energy Regen\n 1.2\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Anomaly DPS\n T1\n Endgame Modes\n\n Pros & Cons\n Pros\n Boosts Disorder damage, inflicts Disorder on her own regardless of Anomaly Buildup;\n\n Able to apply Anomaly effectively in quick, short bursts but also in a more sustained on-field playstyle — very flexible gameplay-wise;\n\n Doesn't mind lower investments as much as other characters due to being able to be used as a disorder bot within a Miyabi team, has good F2P W-Engine choices and having most skills unlevelled is okay;\n\n Has lots of team options available by extension of her playstyle fiexibility.\n\n Cons\n Lots of buffs to keep track of with short uptimes;\n\n Performance will vastly vary depending on available second and third slot teammates — significantly enjoys her best choices comparatively to alternatives.\n\n Review\n Yanagi is an S-rank Electric Anomaly Agent, notorious for her ability to trigger a unique type of Disorder in the form of Polarity Disorder, as well as being able to function as both a quick in-and-out Anomaly Secondary DPS, but also a very strong on-field Primary Anomaly DPS given the right teammates. In other words, Yanagi is a character with many facets to her kit, mostly relying on Disorders to deal damage. Let’s tackle all of the elements of her kit one by one.\n Basic Attack\n Yanagi has two stances, which cause her to use different Basic Attacks. Called Jougen and Kagen, they are switched into each other freely by casting her Special or EX Special, or less commonly her Assist Follow-Up. These stances are indicated below her HP bar as well as by the color of her hair garment (blue and orange for Jougen and Kagen respectively) which are also indicative of the uptime on the following buffs: In the Jougen stance, she gains 10% Electric DMG Bonus; in Kagen stance, she gains 10% PEN Ratio. These effects linger for 8s after switching in between the stances, which encourages relatively frequent switching in between the stances to maximize the uptime on these buffs (ideally, you want both of them always active). In either stance, Yanagi’s anti-interruption level on her Basic Attacks will be increased.\n Which Basic Attack string is used doesn’t really matter, so long as you ensure uptime on her buffs from switching in between the stances.\n Special & EX Special\n Yanagi’s regular Special allows her to switch in between the Jougen and Kagen stances at will. It has a unique property called Swift Ruten. Triggered upon using her Special after the 3rd, 4th or 5th hit of her Basic Attack, it allows her to immediately follow up with Basic Attack 3, blocks damage for a short period of time, and speeds up the animation. Ideally, we always want to make use of this attack to block damage and quickly switch stances all at once.\n Yanagi’s EX Special consists of 2 parts. Yanagi enters the Shinrabanshou state for 15s after the first part, which allows her to start her Basic Attack string from the 3rd hit after the 5th hit of her Basic Attack.\n This last property also applies to her Quick Assist, Assist Follow-Up, Dodge Counter, Chain Attack and Ultimate.\n Provided the enemy is inflicted with an Anomaly, Yanagi’s EX Special and Ultimate also trigger a Polarity Disorder, one of her most important mechanics. It acts as a weaker form of Disorder dependent on the current Anomaly aura inflicted on the enemy. This does not get rid of the target’s current Anomaly gauge. It deals damage equal to 15% of the original Disorder DMG plus a portion of her Anomaly Proficiency depending on the skill level of the skill that triggered it. This allows Yanagi to be played as a Primary DPS in Mono Electric teams while still triggering Disorders.\n Core Passive & Additional Ability\n Via her Core Passive, when Yanagi uses her EX Special, the DMG multiplier of Disorder is increased by up to 250% for all Disorders triggered by all party members for 15s. If an EX Special hits an enemy, Yanagi will deal 20% more Electric DMG for 15s as well.\n If her Additional Ability is activated, she gains 45% Electric Anomaly Buildup for 8s when hitting an enemy with a Basic Attack after switching stances. Make sure to activate this ability and exploit its buff at all times!\n Ultimate & Chain Attack\n While Yanagi’s Chain Attack functions exactly as you’d expect, her Ultimate can also trigger Polarity Disorder. Make sure that all of Yanagi’s self-buffs are active and the enemy has an Anomaly aura applied before using it to maximize its big damage and Anomaly application potential.\n Unused/Redundant parts of her kit\n Aside from the properties mentioned earlier, Yanagi’s Dodge and Assist-related moves all work as you’d expect them to — detailing them is unnecessary but they may occasionally come in handy in battle.\n Meta Position & Conclusion\n Yanagi is definitely one of the easier Agents to play and understand at a baseline. However, she has huge room for optimization in her kit, due to the many short-lasting buffs she can apply to herself which she wants to use on as many of her attacks as possible. Able to increase the Disorder DMG of teammates while also triggering her own Polarity Disorders and having big Electric Anomaly application, Yanagi sees use both as the Primary DPS and the Secondary DPS of Disorder-focused teams.\n Ever since the release of many Anomaly-related Agents that came after her, notably Miyabi in her Secondary role, allowing each other to benefit greatly from triggering a ton of Disorders, but also Vivian in Yanagi’s Primary DPS role and also Yuzuha in all instances as her best Support, Yanagi has seen a lot of new teammates play alongside her. Due to the nature of her kit being centred around dealing lots of damage while also contributing to a greater damage total when played with several Anomaly-class Agents, she finds herself capable of slotting on many different teams to varying degrees of success. In her best teams however, Yanagi is absolutely a force to be reckoned with, being one of the strongest Anomaly-class Agents in the game.\n In conclusion, Yanagi is a character who can play in several teams at several levels of skill. While any player is able to easily adopt her core playstyle, the players willing to optimize the most will be satisfied with Yanagi’s skill ceiling, which is definitely highly rewarding. In any situation, however, Yanagi has an easy-to-understand playstyle and brings lots of Disorder damage to the table, making her one of the better Anomaly Agents in Zenless Zone Zero.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n Full Team calculations\n The W-Engine calculations below are full team calculations , and here's the team used for them.\n Nangong Yu + Neon Fantasies\n Yuzuha + Kaboom the Cannon\n 118.41%\n\n Timeweaver (S 5 )\n\n Performance at max copies of Yanagi's Signature W-Engine.\n Usage: 63.58 %\n Shiyu Defense: 29872\n Deadly Assault: 26357\n\n 100.00%\n\n Timeweaver (S 1 )\n\n Yanagi's Signature is tailor made to capitalise on Yanagi's Disorder focus: it has an ATK % mainstat and an Anomaly Proficiency bonus when hitting enemies with Specials and EXs - which happens often owing to her stance swapping. It increases Electric Anomaly Build-Up rate, which is important to keep Disorders going for many teams given Yanagi's lacklustre application, and increases her Disorder DMG. This applies to her Polarities as well, being a relatively undiluted multiplier. For all its benefits though, it isn't that much better than alternatives. Anomaly Build-Up may give more Shocks, but it'd only lead to more Disorders if other characters can keep up, and the Disorder DMG increase is to Yanagi alone. This means it won't apply to other characters' Disorders, Vortexes, Ablooms, Luminizes, and so on, which means that F2P options can remain competitive.\n Usage: 63.58 %\n Shiyu Defense: 29872\n Deadly Assault: 26357\n\n 99.22%\n\n Weeping Gemini (S 5 )\n\n Despite it being a craftable, F2P A-Rank W-Engine, Weeping Gemini can still perform quite well. The ATK % and very high Anomaly Proficiency bonuses means that Anomalies inflicted have high scaling, which Yanagi's Polarity Disoders scale from. The lack of Anomaly Mastery can make it more difficult to sustain back-to-back Disorders, but it can partially make up for the lower \"regular\" Disorder count with strong Polarities instead, being the go-to alternative pick.\n Usage: 16.17 %\n Shiyu Defense: 28012\n Deadly Assault: 24892\n\n 96.19%\n\n Electro-Lip Gloss (S 5 )\n\n The Battle Pass W-Engine is a passable alternative, as enemies should always be under an Anomaly state, its buff is always up. Unfortunately, the DMG % from it tends to be saturated, and its ATK % and Anomaly Proficiency bonuses fall behind that of Weeping Gemini's, so it's usually a worse choice unless at high stun counts.\n Usage: 3.06 %\n Shiyu Defense: 27519\n Deadly Assault: 25881\n\n Best Disk Drives Sets\n 1\n\n Chaos Jazz ( 4 -PC)\n\n The most suitable and safest option for Yanagi, when playing her in Disorder teams using standard gameplay and combos. While other sets like Thunder Metal or Freedom Blues could be used, they require specific and in some cases difficult specialized play.\n Best combined with your choice of 2-PC Set:\n 2P\n Freedom Blues\n\n (Recommended)\n 2P\n Puffer Electro\n\n 2P\n Thunder Metal\n\n 2P\n Astral Voice\n\n Hormone Punk\n\n Best Disk Drives Stats\n Disk 4\n Anomaly Proficiency\n\n Disk 5\n PEN Ratio% >= Electric DMG% > ATK%\n\n Disk 6\n Anomaly Mastery > ATK%\n\n Substats: Anomaly Proficiency > ATK% > PEN = ATK\n\n Best Endgame Stats (Level 60)\n ATK: 2600 - 3400+ (Depending on W-Engine choice)\n\n HP: 10000+\n\n DEF: 800+\n\n Anomaly Mastery: 148 - 190+\n\n Anomaly Proficiency: 350 - 450+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Yanagi . The character can work with others if you know what to do and how to use them.\n\n Nangong Yu - Yanagi is one of the greatest beneficiaries of Nangong's value add to teams. Despite being a Disorder-heavy character, a large portion of her damage comes from her Polarities, so being able to conserve resources and expend them only in stun, where damage is highest and early triggers can be set-up, is a huge benefit to her. Nangong's high Anomaly build-up also makes her an ideal match to keep bouncing Disorders back and forth, making for an ideal pair.\n Yuzuha Rina Remielle - Yanagi can do well with many Supports: Yuzuha's buffs are strong and she can feel like a must-have to keep Anomalies balanced and Disorders going, which is more important to Yanagi than most other Anomaly units. Rina is an especially competitive Electric buffer, with her Additional providing more damage and a higher duration to Shock, which also means stronger Disorders as they scale with the time remaining. Remielle has no direct synergy, and in fact can be problematic to run in Disorder teams given her long animations, but her buff value and personal damage still make her a competitive character.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Yanagi in the current phase of Shiyu Defense.\n Rank 22\n App. rate: 1.84 %\n Avg. Score: 28630\n\n Rank 46\n App. rate: 0.64 %\n Avg. Score: 27638\n\n Rank 53\n App. rate: 0.48 %\n Avg. Score: 30400\n\n Rank 55\n App. rate: 0.47 %\n Avg. Score: 36270\n\n Rank 64\n App. rate: 0.41 %\n Avg. Score: 26804\n\n Rank 72\n App. rate: 0.32 %\n Avg. Score: 27348\n\n Rank 80\n App. rate: 0.28 %\n Avg. Score: 30612\n\n Rank 100\n App. rate: 0.2 %\n Avg. Score: 28790\n\n Rank 125\n App. rate: 0.12 %\n Avg. Score: 29556\n\n Rank 141\n App. rate: 0.1 %\n Avg. Score: 28447\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Yanagi in the current phase of Deadly Assault.\n Rank 58\n App. rate: 0.36 %\n Avg. Score: 35063\n\n Rank 64\n App. rate: 0.31 %\n Avg. Score: 24330\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 29830\n\n Rank 86\n App. rate: 0.17 %\n Avg. Score: 21672\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 26963\n\n Rank 127\n App. rate: 0.09 %\n Avg. Score: 24311\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 28733\n\n Rank 173\n App. rate: 0.06 %\n Avg. Score: 29209\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 27283\n\n Rank 198\n App. rate: 0.04 %\n Avg. Score: 30086"
 }

@@ -3,9 +3,9 @@
   "game": "endfield",
   "collection": "characters",
   "sourcePath": "/arknights-endfield/characters",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "detailPagesTotal": 31,
-  "detailPagesScraped": 31,
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "detailPagesTotal": 32,
+  "detailPagesScraped": 32,
   "staleDetailPagesRemoved": 0,
   "items": [
     {
@@ -227,6 +227,16 @@
       "sourcePath": "/arknights-endfield/characters/tangtang",
       "contentStatus": "live",
       "statusLabels": []
+    },
+    {
+      "id": "typhoeus",
+      "slug": "typhoeus",
+      "name": "Typhoeus Soon",
+      "sourcePath": "/arknights-endfield/characters/typhoeus",
+      "contentStatus": "beta",
+      "statusLabels": [
+        "Soon"
+      ]
     },
     {
       "id": "wulfgard",

@@ -1,6 +1,6 @@
 {
   "provider": "Prydwen",
-  "generatedAt": "2026-08-16T05:50:35.480Z",
+  "generatedAt": "2026-08-30T10:42:29.348Z",
   "games": {
     "hsr": {
       "game": "hsr",
@@ -9,21 +9,21 @@
         "collections": 3,
         "records": 96,
         "characters": 93,
-        "assetsPlanned": 734,
+        "assetsPlanned": 733,
         "errors": 0
       },
       "assets": {
-        "requested": 734,
-        "downloaded": 4,
-        "cached": 730,
+        "requested": 733,
+        "downloaded": 8,
+        "cached": 725,
         "missing": 0
       },
       "changes": {
         "records": {
-          "added": 1,
+          "added": 0,
           "removed": 0,
-          "changed": 6,
-          "unchanged": 89
+          "changed": 96,
+          "unchanged": 0
         }
       }
     },
@@ -34,21 +34,21 @@
         "collections": 3,
         "records": 63,
         "characters": 60,
-        "assetsPlanned": 535,
+        "assetsPlanned": 538,
         "errors": 0
       },
       "assets": {
-        "requested": 535,
-        "downloaded": 18,
-        "cached": 517,
+        "requested": 538,
+        "downloaded": 4,
+        "cached": 534,
         "missing": 0
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 2,
-          "unchanged": 61
+          "changed": 62,
+          "unchanged": 1
         }
       }
     },
@@ -59,21 +59,21 @@
         "collections": 4,
         "records": 68,
         "characters": 64,
-        "assetsPlanned": 393,
+        "assetsPlanned": 394,
         "errors": 0
       },
       "assets": {
-        "requested": 393,
-        "downloaded": 0,
-        "cached": 392,
+        "requested": 394,
+        "downloaded": 3,
+        "cached": 390,
         "missing": 1
       },
       "changes": {
         "records": {
           "added": 0,
           "removed": 0,
-          "changed": 59,
-          "unchanged": 9
+          "changed": 60,
+          "unchanged": 8
         }
       }
     },
@@ -82,23 +82,23 @@
       "gameName": "Arknights: Endfield",
       "counts": {
         "collections": 3,
-        "records": 34,
-        "characters": 31,
-        "assetsPlanned": 329,
+        "records": 35,
+        "characters": 32,
+        "assetsPlanned": 333,
         "errors": 0
       },
       "assets": {
-        "requested": 329,
-        "downloaded": 6,
-        "cached": 319,
-        "missing": 4
+        "requested": 333,
+        "downloaded": 3,
+        "cached": 325,
+        "missing": 5
       },
       "changes": {
         "records": {
-          "added": 0,
+          "added": 1,
           "removed": 0,
-          "changed": 7,
-          "unchanged": 27
+          "changed": 8,
+          "unchanged": 26
         }
       }
     }

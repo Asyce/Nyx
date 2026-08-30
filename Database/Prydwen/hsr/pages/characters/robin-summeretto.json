@@ -9,12 +9,12 @@
   "name": "Robin Summeretto",
   "title": "Robin Summeretto Best Build Guide",
   "sourcePath": "/star-rail/characters/robin-summeretto",
-  "contentStatus": "beta",
+  "contentStatus": "live",
   "statusLabels": [
-    "4.5"
+    "New"
   ],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "updatedText": "12/August/2026",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "26/August/2026",
   "meta": {
     "title": "Robin Summeretto Best Build Guide | Honkai: Star Rail",
     "description": ""
@@ -34,6 +34,456 @@
       "path": "Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
       "width": 640,
       "height": 800
+    },
+    {
+      "id": "96654253a4f7",
+      "sourceHash": "96654253a4f7",
+      "kind": "icons",
+      "name": "HP",
+      "fileStem": "stat-hp",
+      "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "af5b8acc8f63",
+      "sourceHash": "af5b8acc8f63",
+      "kind": "icons",
+      "name": "CRIT Rate",
+      "fileStem": "stat-critrate",
+      "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "087f2dec68b6",
+      "sourceHash": "087f2dec68b6",
+      "kind": "icons",
+      "name": "Speed",
+      "fileStem": "stat-speed",
+      "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "dc6aec4a7776",
+      "sourceHash": "dc6aec4a7776",
+      "kind": "icons",
+      "name": "ATK",
+      "fileStem": "stat-atk",
+      "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "a6be649090ba",
+      "sourceHash": "a6be649090ba",
+      "kind": "icons",
+      "name": "DEF",
+      "fileStem": "stat-def",
+      "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "50d0e755383a",
+      "sourceHash": "50d0e755383a",
+      "kind": "items",
+      "name": "Credit",
+      "fileStem": "credit",
+      "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "fa664d337549",
+      "sourceHash": "fa664d337549",
+      "kind": "items",
+      "name": "Charred Bud of Twilight",
+      "fileStem": "charred-bud-of-twilight",
+      "path": "Prydwen/hsr/assets/items/charred-bud-of-twilight-fa664d337549.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "0f7390c5d41c",
+      "sourceHash": "0f7390c5d41c",
+      "kind": "items",
+      "name": "Dream Collection Component",
+      "fileStem": "dream-collection-component",
+      "path": "Prydwen/hsr/assets/items/dream-collection-component-0f7390c5d41c.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "3a0c98a62874",
+      "sourceHash": "3a0c98a62874",
+      "kind": "items",
+      "name": "Dream Flow Valve",
+      "fileStem": "dream-flow-valve",
+      "path": "Prydwen/hsr/assets/items/dream-flow-valve-3a0c98a62874.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "6309ff93a99f",
+      "sourceHash": "6309ff93a99f",
+      "kind": "items",
+      "name": "Dream Making Engine",
+      "fileStem": "dream-making-engine",
+      "path": "Prydwen/hsr/assets/items/dream-making-engine-6309ff93a99f.webp",
+      "width": 35,
+      "height": 35
+    },
+    {
+      "id": "ee90c13819de",
+      "sourceHash": "ee90c13819de",
+      "kind": "light-cones",
+      "name": "Rise and Sing",
+      "fileStem": "rise-and-sing",
+      "path": "Prydwen/hsr/assets/light-cones/rise-and-sing-ee90c13819de.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b2a862506882",
+      "sourceHash": "b2a862506882",
+      "kind": "light-cones",
+      "name": "Long May Rainbows Adorn the Sky",
+      "fileStem": "long-may-rainbows-adorn-the-sky",
+      "path": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-b2a862506882.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "de9d54f233b5",
+      "sourceHash": "de9d54f233b5",
+      "kind": "light-cones",
+      "name": "Memory's Curtain Never Falls",
+      "fileStem": "memorys-curtain-never-falls",
+      "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "b6cb0c99005d",
+      "sourceHash": "b6cb0c99005d",
+      "kind": "light-cones",
+      "name": "The Story's Next Page",
+      "fileStem": "the-storys-next-page",
+      "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "58c2a044512d",
+      "sourceHash": "58c2a044512d",
+      "kind": "light-cones",
+      "name": "Time Waits for No One",
+      "fileStem": "time-waits-for-no-one",
+      "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "9d0014643150",
+      "sourceHash": "9d0014643150",
+      "kind": "light-cones",
+      "name": "Shadowburn",
+      "fileStem": "shadowburn",
+      "path": "Prydwen/hsr/assets/light-cones/shadowburn-9d0014643150.webp",
+      "width": 52,
+      "height": 52
+    },
+    {
+      "id": "4e4defeee5d3",
+      "sourceHash": "4e4defeee5d3",
+      "kind": "relics",
+      "name": "World-Remaking Deliverer",
+      "fileStem": "world-remaking-deliverer",
+      "path": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "4cb8065ad660",
+      "sourceHash": "4cb8065ad660",
+      "kind": "relics",
+      "name": "Messenger Traversing Hackerspace",
+      "fileStem": "messenger-traversing-hackerspace",
+      "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "93d6c2686318",
+      "sourceHash": "93d6c2686318",
+      "kind": "relics",
+      "name": "Amphoreus, The Eternal Land",
+      "fileStem": "amphoreus-the-eternal-land",
+      "path": "Prydwen/hsr/assets/relics/amphoreus-the-eternal-land-93d6c2686318.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "d6aae5028c5a",
+      "sourceHash": "d6aae5028c5a",
+      "kind": "relics",
+      "name": "Lushaka, the Sunken Seas",
+      "fileStem": "lushaka-the-sunken-seas",
+      "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "bb6d718b4cb3",
+      "sourceHash": "bb6d718b4cb3",
+      "kind": "relics",
+      "name": "Sprightly Vonwacq",
+      "fileStem": "sprightly-vonwacq",
+      "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "5b886a96e17a",
+      "sourceHash": "5b886a96e17a",
+      "kind": "relics",
+      "name": "Fleet of the Ageless",
+      "fileStem": "fleet-of-the-ageless",
+      "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+      "width": 55,
+      "height": 55
+    },
+    {
+      "id": "44c437b21b3a",
+      "sourceHash": "44c437b21b3a",
+      "kind": "icons",
+      "name": "CRIT DMG",
+      "fileStem": "stat-critdmg",
+      "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "106ddd8eff32",
+      "sourceHash": "106ddd8eff32",
+      "kind": "icons",
+      "name": "Energy Regen",
+      "fileStem": "stat-energy",
+      "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+      "width": 25,
+      "height": 25
+    },
+    {
+      "id": "1d90270b2b4b",
+      "sourceHash": "1d90270b2b4b",
+      "kind": "characters",
+      "name": "Hyacine",
+      "fileStem": "hyacine-icon",
+      "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "e6a5c98adfc4",
+      "sourceHash": "e6a5c98adfc4",
+      "kind": "characters",
+      "name": "March 7th • Evernight",
+      "fileStem": "march-7th-evernight-icon",
+      "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "fd3d60695240",
+      "sourceHash": "fd3d60695240",
+      "kind": "characters",
+      "name": "Castorice",
+      "fileStem": "castorice-icon",
+      "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "4dbc790e5b86",
+      "sourceHash": "4dbc790e5b86",
+      "kind": "characters",
+      "name": "Himeko Nova",
+      "fileStem": "himeko-nova-icon",
+      "path": "Prydwen/hsr/assets/characters/himeko-nova-4dbc790e5b86.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "99361e4717fa",
+      "sourceHash": "99361e4717fa",
+      "kind": "characters",
+      "name": "Mortenax Blade",
+      "fileStem": "blade-mortenax-icon",
+      "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "f4a51afd002c",
+      "sourceHash": "f4a51afd002c",
+      "kind": "characters",
+      "name": "Aglaea",
+      "fileStem": "aglaea-icon",
+      "path": "Prydwen/hsr/assets/characters/aglaea-f4a51afd002c.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "bdd27122e011",
+      "sourceHash": "bdd27122e011",
+      "kind": "characters",
+      "name": "Phainon",
+      "fileStem": "phainon-icon",
+      "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+      "width": 45,
+      "height": 45
+    },
+    {
+      "id": "076b3844e58f",
+      "sourceHash": "076b3844e58f",
+      "kind": "characters",
+      "name": "Robin Summeretto",
+      "fileStem": "robin-summeretto-icon",
+      "path": "Prydwen/hsr/assets/characters/robin-summeretto-076b3844e58f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "005597837585",
+      "sourceHash": "005597837585",
+      "kind": "characters",
+      "name": "Cyrene",
+      "fileStem": "cyrene-icon",
+      "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "d3e344772d55",
+      "sourceHash": "d3e344772d55",
+      "kind": "characters",
+      "name": "Trailblazer • Remembrance",
+      "fileStem": "trailblazer-remembrance-icon",
+      "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
+      "kind": "characters",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "2cde7699adbf",
+      "sourceHash": "2cde7699adbf",
+      "kind": "characters",
+      "name": "Tribbie",
+      "fileStem": "tribbie-icon",
+      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f54da6170f38",
+      "sourceHash": "f54da6170f38",
+      "kind": "characters",
+      "name": "Silver Wolf • Lv. 999",
+      "fileStem": "silver-wolf-lv-999-icon",
+      "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "965df81b835a",
+      "sourceHash": "965df81b835a",
+      "kind": "characters",
+      "name": "Yao Guang",
+      "fileStem": "yao-guang-icon",
+      "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "c4a9c00e98ef",
+      "sourceHash": "c4a9c00e98ef",
+      "kind": "characters",
+      "name": "Huohuo",
+      "fileStem": "huohuo-icon",
+      "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "f380b4ccce3e",
+      "sourceHash": "f380b4ccce3e",
+      "kind": "characters",
+      "name": "Ashveil",
+      "fileStem": "ashveil-icon",
+      "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "60cd0853b302",
+      "sourceHash": "60cd0853b302",
+      "kind": "characters",
+      "name": "Welt",
+      "fileStem": "welt-icon",
+      "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "5ff31ffb6345",
+      "sourceHash": "5ff31ffb6345",
+      "kind": "characters",
+      "name": "Archer",
+      "fileStem": "archer-icon",
+      "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "b27695507159",
+      "sourceHash": "b27695507159",
+      "kind": "characters",
+      "name": "Rin Tohsaka",
+      "fileStem": "rin-tohsaka-icon",
+      "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "da99d2d9a505",
+      "sourceHash": "da99d2d9a505",
+      "kind": "characters",
+      "name": "Sparkle",
+      "fileStem": "sparkle-icon",
+      "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -41,7 +491,7 @@
       "id": "robin-summeretto-best-build-guide-0",
       "level": 1,
       "heading": "Robin Summeretto Best Build Guide",
-      "text": "Last updated: 12/August/2026",
+      "text": "Last updated: 26/August/2026",
       "assets": [
         {
           "id": "50f73fbdd44b",
@@ -66,92 +516,1337 @@
       "id": "video-guide-2",
       "level": 2,
       "heading": "Video guide",
-      "text": "This character has no video guide yet.\n\n To learn more about Robin Summeretto check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.",
+      "text": "Robin Summeretto has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:",
       "assets": []
     },
     {
-      "id": "calculations-7",
+      "id": "update-tracker-3",
+      "level": 2,
+      "heading": "Update tracker",
+      "text": "Last review update\n Patch 4.5\n\n Last major build/calcs update\n Patch 4.5\n\n Last profile update*\n 26/August/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Robin Summeretto check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n Lucky Draw Event!\n Use the link below to check the Lucky Draw event and have a chance to win 1000 Stellar Jades !\n Join Event!",
+      "assets": []
+    },
+    {
+      "id": "calculations-8",
       "level": 2,
       "heading": "Calculations",
       "text": "Profile",
       "assets": []
     },
     {
-      "id": "skills-8",
+      "id": "skills-9",
       "level": 2,
       "heading": "Skills",
-      "text": "Robin Summeretto skills aren't available yet. They will be added when the character is released.",
+      "text": "Basic ATK\n The Sea Sings in My Key\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Robin • Summeretto's Max HP to one enemy.\n\n Skill\n Summer Strums the Soul\n Summon\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Summons the memosprite Summer Songbirds Bessie. If any among the Summer Songbirds is already on the field, restores its HP by an amount equal to #1[i]% of Summer Songbirds's Max HP, and gains 6 Vibes.\n\n Ultimate\n Ascend That Rhapsody in Blue\n Enhance | 140 energy cost\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Advances the action of one designated ally unit (excluding Robin • Summeretto) by 100% and regenerates a fixed amount of Energy equal to #1[i]% of their Max Energy, and then, grants them the Special Guest effect. When the character with Special Guest and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.\n\n Talent\n Wings Heed No Borders\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The memosprite Summer Songbirds has an initial Max HP equal to 70% of Robin • Summeretto's Max HP and an initial SPD equal to 180% of Robin • Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin • Summeretto gains 1 Vibes, up to a max of 50. While Summer Songbirds Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the Summer Songbird Drummie, and if Vibes is 12 or more, immediately summons the Summer Songbird Paddie. When all Summer Songbirds take the stage, dispels all Crowd Control debuffs that Robin • Summeretto and the Summer Songbirds are under, enter the Fever state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore #1[i]% plus Vibes × 0.5% of enemy targets' DEF.\nWhile in the Fever state, Robin • Summeretto and the Summer Songbirds are immune to Crowd Control debuffs, and Robin • Summeretto will not enter her turns until the Fever state ends.\n\n Technique\n We Are the Melody\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using Technique, at the start of the next combat, action advances by 20%, immediately gains 6 Vibes, and grants all allies a 30% DMG Boost for 2 turn(s).",
       "assets": []
     },
     {
-      "id": "major-traces-9",
+      "id": "memosprite-skills-10",
+      "level": 2,
+      "heading": "Memosprite Skills",
+      "text": "Memosprite Skill\n Chirrup Quartet\n AoE\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Summer Songbirds's Max HP to all enemies.\n\n Memosprite Talent\n A Warble of Wings\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While in the Fever state, the Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by #1[i]% + Vibes × #2[i]%. When Summer Songbirds's turn starts, they use the Memosprite Skill. The countdown has an initial SPD of 140. When their turn starts, 50% of current Vibes (a minimum of 12 points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the Fever state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by #3[i]%/#4[i]%/#5[i]% respectively based on the number of members present.\n Memosprite Talent\n Near the Sea's Heartbeat\n AoE\n\n Energy gain: 0\n Break: -\n\n When the Summer Songbirds are summoned, regenerates 20 Energy for Robin • Summeretto.\n Memosprite Talent\n Astride Summer's Nightwind\n AoE\n\n Energy gain: 0\n Break: -\n\n When the Summer Songbirds disappear, Robin • Summeretto's action advances by 50%.",
+      "assets": []
+    },
+    {
+      "id": "major-traces-11",
       "level": 2,
       "heading": "Major Traces",
-      "text": "Robin Summeretto traces aren't available yet. They will be added when the character is released.",
+      "text": "A2 Major trace\n Deviated Chords\n\n When an ally target causes Robin • Summeretto to gain Vibes, if their ATK is higher than Robin • Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes × 0.4%) of Robin • Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by 40% + Vibes × 1.5%. Lasts for 2 turn(s).\n\n A4 Major trace\n Improvised Blues\n\n When Robin • Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain 12 stack(s) of \"Groove,\" up to a max of 12 stack(s). The first time Robin • Summeretto gains Vibes on any unit's turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates 3 Energy.\n\n A6 Major trace\n Rebuilt Harmony\n\n Increases the CRIT Rate of Robin • Summeretto and \"Summer Songbirds\" by 50%.",
       "assets": []
     },
     {
-      "id": "minor-traces-total-10",
+      "id": "minor-traces-total-12",
       "level": 2,
       "heading": "Minor Traces (total)",
-      "text": "Robin Summeretto traces aren't available yet. They will be added when the character is released.",
-      "assets": []
+      "text": "HP\n + 18%\n\n CRIT Rate\n + 6.7%\n\n Speed\n + 14",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "af5b8acc8f63",
+          "sourceHash": "af5b8acc8f63",
+          "kind": "icons",
+          "name": "CRIT Rate",
+          "fileStem": "stat-critrate",
+          "path": "Prydwen/hsr/assets/icons/crit-rate-af5b8acc8f63.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
     },
     {
-      "id": "eidolons-11",
+      "id": "eidolons-13",
       "level": 2,
       "heading": "Eidolons",
-      "text": "E 1\n\n Eidolon 1",
+      "text": "E 1\n Stray Bird of Summer\n Eidolon 1\n\n \"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total recorded DMG plus current Vibes points × 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.\n\n E 2\n A Heart of Still Water\n Eidolon 2\n\n Increases All-Type RES PEN of ally targets by 18%. Robin • Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.\n\n E 3\n Echoes Left Along the Way\n Eidolon 3\n\n Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15. Memosprite Talent Lv. +1, up to a maximum of Lv. 10.\n\n E 4\n Her Variation on the Theme\n Eidolon 4\n\n Upon entering the \"Fever\" state, immediately gains 12 point(s) of Vibes, and the SPD of \"Summer Songbirds\" increases by 20% plus current Vibes × 0.5%.\n\n E 5\n To Chase the Dawn Anew\n Eidolon 5\n\n Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10. Memosprite Skill Lv. +1, up to a maximum of Lv. 10.\n\n E 6\n A Song Yet Unnamed\n Eidolon 6\n\n Increases the Memosprite Skill's DMG multiplier by 100% of the original multiplier. While in the \"Fever\" state, Robin • Summeretto's Ultimate can be stored up to 2 times. After entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, regenerates a fixed amount of 140 Energy.",
       "assets": []
     },
     {
-      "id": "stats-and-materials-12",
+      "id": "stats-and-materials-14",
       "level": 2,
       "heading": "Stats and materials",
-      "text": "Robin Summeretto Stats and Materials aren't available yet. They will be added when the character is released.",
+      "text": "Enable Ascension",
       "assets": []
     },
     {
-      "id": "cv-13",
+      "id": "level-80-stats-15",
+      "level": 5,
+      "heading": "Level 80 stats",
+      "text": "HP\n\n 1205\n\n ATK\n\n 601\n\n DEF\n\n 485\n\n Speed\n\n 98",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "dc6aec4a7776",
+          "sourceHash": "dc6aec4a7776",
+          "kind": "icons",
+          "name": "ATK",
+          "fileStem": "stat-atk",
+          "path": "Prydwen/hsr/assets/icons/atk-dc6aec4a7776.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "a6be649090ba",
+          "sourceHash": "a6be649090ba",
+          "kind": "icons",
+          "name": "DEF",
+          "fileStem": "stat-def",
+          "path": "Prydwen/hsr/assets/icons/def-a6be649090ba.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "level-1-80-ascension-materials-16",
+      "level": 5,
+      "heading": "Level 1 → 80 Ascension Materials",
+      "text": "Credit\n\n x 308000\n\n Charred Bud of Twilight\n\n x 15\n\n Dream Collection Component\n\n x 15\n\n Dream Flow Valve\n\n x 65\n\n Dream Making Engine\n\n x 15",
+      "assets": [
+        {
+          "id": "50d0e755383a",
+          "sourceHash": "50d0e755383a",
+          "kind": "items",
+          "name": "Credit",
+          "fileStem": "credit",
+          "path": "Prydwen/hsr/assets/items/credit-50d0e755383a.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "fa664d337549",
+          "sourceHash": "fa664d337549",
+          "kind": "items",
+          "name": "Charred Bud of Twilight",
+          "fileStem": "charred-bud-of-twilight",
+          "path": "Prydwen/hsr/assets/items/charred-bud-of-twilight-fa664d337549.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "0f7390c5d41c",
+          "sourceHash": "0f7390c5d41c",
+          "kind": "items",
+          "name": "Dream Collection Component",
+          "fileStem": "dream-collection-component",
+          "path": "Prydwen/hsr/assets/items/dream-collection-component-0f7390c5d41c.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "3a0c98a62874",
+          "sourceHash": "3a0c98a62874",
+          "kind": "items",
+          "name": "Dream Flow Valve",
+          "fileStem": "dream-flow-valve",
+          "path": "Prydwen/hsr/assets/items/dream-flow-valve-3a0c98a62874.webp",
+          "width": 35,
+          "height": 35
+        },
+        {
+          "id": "6309ff93a99f",
+          "sourceHash": "6309ff93a99f",
+          "kind": "items",
+          "name": "Dream Making Engine",
+          "fileStem": "dream-making-engine",
+          "path": "Prydwen/hsr/assets/items/dream-making-engine-6309ff93a99f.webp",
+          "width": 35,
+          "height": 35
+        }
+      ]
+    },
+    {
+      "id": "cv-17",
       "level": 2,
       "heading": "CV",
       "text": "ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -",
       "assets": []
     },
     {
-      "id": "gallery-14",
+      "id": "gallery-18",
       "level": 2,
       "heading": "Gallery",
       "text": "Robin Summeretto images aren't available yet. They will be added when the character is released.\n\n Review",
       "assets": []
     },
     {
-      "id": "review-15",
-      "level": 2,
-      "heading": "Review",
-      "text": "Review for Robin Summeretto is not available yet. It will be added when the character is released.\n\n Build and teams",
+      "id": "pros-20",
+      "level": 5,
+      "heading": "Pros",
+      "text": "Truly universal support character for all teams,\n\n Extremely competitive performance with strong meta uses,\n\n Excellent buff spread and effortless teamwide buffing,\n\n Has an action advance and Energy restore on her Ultimate making it easy to time when you want those effects,\n\n Frees up the Remembrance Trailblazer to go onto other teams or the Path of Elation,\n\n Deals respectable personal damage,\n\n Excellent Energy economy,\n\n Completely immune to Crowd Control while groovin',\n\n Great vertical investment,\n\n 'One day, after dinner, we spotted a fledgling Charmony Dove break it down crazy style'.",
       "assets": []
     },
     {
-      "id": "build-and-teams-16",
+      "id": "cons-21",
+      "level": 5,
+      "heading": "Cons",
+      "text": "'Set and forget' playstyle means low interactivity outside of her Ultimate,\n\n Buffs have variable effectiveness that depends on how quickly the team can stack and maintain Vibes,\n\n Doesn't contribute to SP generation without her signature Light Cone.",
+      "assets": []
+    },
+    {
+      "id": "overview-23",
+      "level": 5,
+      "heading": "[Overview]",
+      "text": "The new form of Robin is another addition into the 'universal support' archetype we've been seeing more and more of lately. She is a Remembrance Wind character, and can use her Ultimate to action advance a single ally while also restoring a percentage of their Max Energy. After reaching enough of her unique resource, she will take to the stage with her memosprites, inflicting a persistent Vulnerability on enemies, and providing a large variable DEF ignoring Zone, while also having her memosprites periodically launch their own attack. She provides another variable buff for allies through a Bonus Trace, granting ATK to high ATK allies, and CRIT DMG to low ATK allies, making her suitable for both ATK and HP scalers.",
+      "assets": []
+    },
+    {
+      "id": "intro-24",
+      "level": 6,
+      "heading": "[Intro]",
+      "text": "A weapon to rival the weapon to surpass Metal Gear?! Mortenax might just have found a worthy peer. And finally, a new Robin song that we can actually hear regularly in-game. It's a bop in my opinion, but it's a bit of a short loop, sadly.\n If you've been wondering whether or not a limited edition version of the Remembrance Trailblazer was ever going to show up, then Robin Summeretto is probably the closest thing to that so far.\n You get all the things you'd want, including an action advance and large damage amplifying effects, and since Summeretto is a Remembrance character as well, it means she can even slot into setups involving Cyrene, finally getting to make use of the 'Chrysos Heirs and Remembrance characters' line in Cyrene's Recollection passive.\n On that note, this Robin actually is the first non-Chrysos Heir Remembrance character, so perhaps the age of Remembrance is not fully behind us just yet.\n You'll see why this Robin is probably going to be seen quite a bit in the meta for at least a good little while. I'm also going to just refer to her as 'Robin' or 'Robin SP' in the rest of this review, because I don't have enough whimsy to ignore the red underline under Summeretto.",
+      "assets": []
+    },
+    {
+      "id": "abilities-25",
+      "level": 6,
+      "heading": "[Abilities]",
+      "text": "As a Remembrance character, Robin SP has a memosprite with its own attacks and passives. Memosprites plural, in this case. Robin's Summer Songbirds.\n Robin's Talent explains their presence. The Summer Songbirds have an initial Max HP of 70% of Robin's Max HP, and an initial SPD equal to 180% of Robin's. Whenever an ally attacks, or provides healing or shielding for the first time in any target's turn (including enemies'), Robin gets 1 Vibe. Yes really. Vibes can stack up to 50.\n Robin can summon the first of the troupe with her Skill, and if any of the Songbirds are already on field, then using this Skill will fully heal the memosprites and grant Robin 6 Vibes. At 6 Vibes, regardless of how you get there, the next member of the Songbirds is automatically summoned, and then at 12 Vibes, the final Songbird shows up. The number of Songbirds on the field will also determine how much passive Vuln is being applied to enemies; 8% with 1 bird, 12% with 2, and 16% with all three birds.\n When all three Songbirds are on the field, any Crowd Control effects affecting Robin are dispelled, and Robin and her birds enter the Fever state, and here's where the music starts. This deploys a Zone that allows allies to ignore 15% of the enemy DEF when dealing damage, plus an additional DEF ignore based on (number of Vibes * 0.5%). This caps out at a 40% DEF ignore in total when at 50 Vibes.\n During the Fever state, Robin does not take her normal turn until the Fever state ends, and she and her Songbirds are immune to Crowd Control.\n The Songbirds will act in her place during the Fever state, dealing 150% of Robin's Max HP to all enemies on the field. The Fever state has a countdown appear in the turn order, with an initial SPD of 140, this will be important. This Fever state also increases Robin's and her birds' DMG dealt by 60% + (Vibes * 2%), up to a total of 160% amp at 50 Vibes.\n When the countdown reaches 0, 50% of the current Vibes will get deducted, with a minimum deduction of 12 Vibes. If Vibes reach 0, the Songbirds disappear and the Fever state will end.\n You can see that it's important to be generating enough Vibes in between the countdowns so that Robin doesn't ever have to exit the Fever state, and this will also affect the variability of the DEF ignore she provides while singing. Choosing when to have your team burst and when to hold off based on the current Vibes and the upcoming Vibe deduction will be key to maximising the performance of Robin within your teams.\n The Songbirds will generate 20 Energy for Robin when they are summoned via the Skill (doesn't apply to the auto-additions from Vibes), so there's an extra injection of Energy at the start of combat, and should the Songbirds leave the field for any reason, Robin's next action advances by 50%, so she should be able to get back into her groove fairly quickly, especially since she'll get the extra Energy again.\n But of course, this Energy needs to be used somewhere. For the cost of 140 Energy, Robin SP allows you to fully action advance an ally of your choice (besides Robin SP herself) and will additionally regenerate 20% of that ally's Max Energy.\n This will also grant the affected ally and their memosprite the Special Guest effect, allowing their attacks to generate an additional 2 Vibes. The Special Guest effect will also prohibit the affected ally from action advancing any other friendly units. I know, it's a buzzkill for potentially funny setups, but it somewhat keeps parity with the way the other action advancing limits work. My fellow CBT2 and CBT3 players remember Unlimited Bronya Works, and we've been paying for that momentary high ever since...\n The Special Guest effect lasts for 2 turns, and decreases by 1 at the start of the affected character's turn, so you can consider this to be particularly effective at stacking Vibes for characters who attack a lot outside of their turn, or who have memosprites to attack for them.\n This Ultimate is extraordinarily potent because it allows you to essentially bank a full action advance and use it when it's most appropriate for you — but that's not even the best part, no no, the best part is that this Ultimate does not have any explicit benefits for the affected ally. All the amplifying effects happen automatically, and for everyone on the team, so why's that important?\n Because you get to advance anyone you want or need. I mean, within reason right, there's the limit for other action advancers. But mostly it's anyone, and this can let you come up with extremely carefully tailored rotations where perhaps it'd be optimal to advance the sub-DPS or secondary support to allow them to act before the main DPS; or perhaps to give a large Energy injection for an important Ultimate to be reapplied before Big Money™ attacks start to go out.\n It's an incredibly versatile Ultimate, and having complete control over its activation is utterly invaluable, for both casuals and sweats alike. This is probably the biggest upgrade Robin SP has over the Remembrance Trailblazer, as while Mem's Support is incredibly powerful and can lead to funny numbers as any 0-cycler can tell you, it's also a colossal pain in the posterior to align with important actions, and many a reset has happened because Mem got to 100% a turn too early.\n I'm getting very excited now.",
+      "assets": []
+    },
+    {
+      "id": "bonus-traces-26",
+      "level": 6,
+      "heading": "[Bonus Traces]",
+      "text": "But I'm not done yet! Robin's A2 will provide further buffs to allies who provide Vibes to Robin; if the ally's ATK is higher than Robin SP's, that ally's ATK is increased by (16% + (Vibes * 0.4%)) of Robin's Max HP. If the ally's ATK is LOWER than Robin's, they will instead gain (40% + (Vibes * 1.5%)) bonus CRIT DMG. The bonus lasts for 2 turns, but realistically it's permanent after the first application.\n I know, I know, 'Oy guv, wot's this maths malarkey doin' in 'ere?'. Blame Hoyoverse for presenting variable buffs in this form. To put it into better perspective, if Robin SP has a fairly reasonable Max HP of 8000, and your Vibes are at the max of 50, an ATK-scaling ally would be getting 2880 bonus ATK. For a HP-scaler, it'd be giving 115% CRIT DMG. Yeah, I know, pick your jaw up off the floor, we're not done yet.\n In case you're worried about the wrong buff getting applied, I must reassure you that that is remarkably difficult to do; Robin SP has rather deliberately the highest Base ATK of any of the Remembrance HP-scalers, and since none of them build ATK, you're always going to have the right buff present no matter what.\n The A4 presents a new resource for Robin SP to take advantage of. When Robin or her Songbirds get healing or shielding from an ally, Robin and her birds gain 12 stacks of Groove, up to a max of 12. The first time that Robin gets Vibes on any unit's turn, she will consume 1 stack of Groove to gain 3 Energy.\n This is literally just free Energy for doing what you were already doing. This can be seen as sort of an equaliser between sustained and sustainless team setups, so you shouldn't feel overly pressured to play without a sustain for maximum effect here since Robin SP directly benefits from the inclusion of a sustain character (think Green Foxian).\n Lastly, the A6 will increase the CRIT Rate of Robin SP and her Songbirds by an additional 50%. Very Remembrance-coded, as you have a lot of stats you actually want and can't always get the amount of CRIT you want, so this elevates Robin SP's already pretty noteworthy personal damage.",
+      "assets": []
+    },
+    {
+      "id": "eidolons-27",
+      "level": 6,
+      "heading": "[Eidolons]",
+      "text": "You do not need them, but they're nice to have, and as always, at least in recent times, the first couple are particularly enticing.\n E1 will allow the Songbirds to record 100% of the non-True DMG dealt by allies, and then when the Songbirds attack, they additionally deal True DMG equal to 11% of the recorded value plus (Vibes * 0.1%) to the enemy target with the highest HP. After this attack, 50% of the recorded value is cleared.\n This is essentially a mini Cipher as an Eidolon, and that's... Well that's pretty ridiculous I won't lie. It is only to the highest enemy, but with a maximum return of 16% of the stored value, that's extraordinarily potent, and is just ANOTHER way that Robin SP buffs the whole squad. Very high value.\n E2 will increase the All-Type RES PEN of allies by 18%, and the maximum number of Vibes increases to 70. The first time an ally uses an ability that would grant Vibes to Robin, she gains an extra 2 points.\n This skyrockets the speed of Vibes stacking and has the bonus of increasing the upper limit of the variable buffs due to having the Vibes stack count increased as well. And of course, RES PEN, because *of course*.\n E4 will grant 12 Vibes instantly upon entering the Fever state, and the SPD of the Songbirds increases by 20% + (Vibes * 0.5%). Slightly more ramp-up, and faster attacks coming out of the Songbirds.\n Finally, the E6. The Songbirds' AoE attack has its DMG multiplier increased by 100% of its original value — a full doubling of the final damage — and while in the Fever state, Robin can store her Ultimate up to 2 times. After entering the Fever state for the first time, or at the start of a Fever countdown turn in this fight, Robin regenerates 140 Energy. A literal full Ultimate at no extra cost.\n It's an E6, but holy hell.",
+      "assets": []
+    },
+    {
+      "id": "the-rest-28",
+      "level": 6,
+      "heading": "[The Rest]",
+      "text": "It's pretty clear to see that Robin Summeretto is a veritable powerhouse of a support. She's immediately joining the likes of Mortenax and Welt as de facto 'put that stuff on everything' units that just WORK and don't really need all that much help.\n Compared to them, Robin SP is substantially easier to actually play at a baseline, since, well, after you enter the Fever state, she's functionally just a Currency Wars backup character, doing her own thing without your needing to intervene. The only thing you do actually need to somewhat care about is her Ultimate and when you use it.\n And so, this is what I'd say the 'skill limit' of Robin SP is: where you use her and who you pair her with. That Ultimate is crazy high value, this is fairly indisputable, but depending on what happens in a fight, and considering that the action advance and Energy restore can be granted to (almost) any ally, you may need to work unexpectedly hard to figure out what the best time to use it is.\n Consider this example: if you're using Robin SP on a full follow-up team, think Ashveil and Mortenax, then you're not really going to be struggling for much at all, you'll mostly be topping up Ashveil's Ultimate and granting him the Special Guest effect for faster Vibes stacking as well, and you'll be hitting the max of 50 Vibes with little effort. But if you want to use Robin SP on a team like Saber Gilgamesh, somewhere she is greatly appreciated, well now you have to add on Robin's nuances onto the extremely large mountain of headache that already naturally exists with that team, and choosing whether to Ult on Saber or Gilgamesh is a genuine question that you may need to consider later into the fight.\n It's not really a deal-breaker per se, it's just something to keep in mind that Robin SP's difficulty, much like her kit itself, has a high degree of variability.\n But there is a larger question that some of you may be thinking of right now, namely 'Do I actually need Robin Summeretto though'. You may say this actually depends on what other units you have, both support and DPS, after all, while Robin SP does have the insane universality that both Mortenax and Welt do, she doesn't really properly synergise with any specific archetype.\n Well, bad news for you potentially, but she really is just that strong. Sure, she's not like The Dahlia was for Break, nor is she like the Fate part 2 characters for their respective allies, but she's incredibly strong RIGHT NOW, even if it's not exactly archetype-defining.\n Both Mortenax and Welt are in a similar spot, but at least for them they can be much more comfortably be used in place of an actual sustain in teams, providing their immense buffing value while also making it easier to survive, and Welt is even fairly accessible at all times and is easy to get going since everyone gets the Tutorial Light Cone.\n Having just the aforementioned two is very good, but they're often on different teams, or sometimes even on the same team, depending on what you're using and going for. Having access to a third universal support option is naturally very good, and further boosts the teambuilding variety you have access to.\n This is especially notable for the minmaxers and 0-cyclers who tailor their every individual team to the exact fight before them, leveraging everything they can, and having an omni-amping, Energy regenerating, action advancing support who can even deal some decent damage of her own is VERY good. Even still, you also shouldn't automatically assume that if you're a more casual player that Robin SP won't be very good for you (because she is).\n The easiest way to understand why Robin SP is as good as she is, is to return to the statement I made at the start, namely that Robin Summeretto is essentially an upgraded form of the Remembrance Trailblazer. I do not say this lightly, and anyone with eyes knows how strong the Remembrance Trailblazer is, but this should really highlight why Robin is so strong.\n As such, Robin Summeretto can naturally fit into any of the teams that the Remembrance Trailblazer was previously in, and she can do so seamlessly. While I'll give some notable examples, please understand that you should experiment for yourself and find what works best FOR YOU, and not to just take my word for it. I believe in you.\n Remembrance teams in general are somewhere where the Remembrance Trailblazer frequented, either as a mainstay or as a perfect filler for missing important members. My gal Evernight has been a very powerful performer when paired with Cyrene, as they make a very impressive dual DPS composition that when played perfectly would have both had the Mem's Support buff on them. Putting Robin SP here instead makes it effortless to buff both Evernight and Cyrene, and lets you advance and Energy restore Evernight or Hyacine to ensure that their Ultimates maintain their uptime.\n For Castorice teams, surprisingly enough it looks like replacing Cyrene with Robin SP may be the way to maximum damage now (depending on the fight of course, and if you actually have somewhere else to utilise Cyrene), but if you've been staunchly avoiding Evernight or chose to vertically invest in Castorice, Hyacine, and Cyrene, you could also replace Evernight in this team with Robin SP and see similarly great success. With this team, it's harder to justify pulling for Robin SP compared to the solo Evernight comp if you already have every member vertically invested, but you probably can be the judge of that yourself.\n Aglaea is the black sheep of the Remembrance teams, but unsurprisingly Robin SP is very good for her too. The only real issue is that Aglaea herself is struggling to stay relevant, even for the most dedicated of players. Very much a case of 'it's not you, it's me'.\n For the more prevalent meta teams, the Follow-up archetype as a whole is eating good with Ashveil and Mortenax, and adding in a character who easily buffs the whole team and whose personal resources can be easily stacked by fast attacking characters is pretty obviously good. There may even be a surprise (please act surprised when it happens) addition to the archetype that would also synergise greatly with this Robin.\n Elation teams can also benefit from all of the buffs Robin Summeretto is flinging out, and is particularly powerful for Silver Wolf 999, not for directly Ulting Silver Wolf, but actually to advance and regen Yao Guang's Ultimate for more Aha Instants and faster funnelling of Certified Banger to SW999. It's a little harder to make use of Robin SP's conditional CRIT DMG buff for Eva and Sparxie since their base ATK is naturally higher so you're likely going to be stuck with the ATK buff, but even then, it's still a lot of buffing and the same strategy of advancing Yao Guang works wonders if you don't need the Energy for Eva or Sparxie.\n This archetype also indirectly benefits from Robin Summeretto, for the reasons mentioned earlier: replacement to the Remembrance Trailblazer. If you had a team that absolutely could not work without that Trailblazer, you'd lose a very potent Elation teammate, and your Elation team could suffer as a result. Now, you can just pull a switcheroo and free up the Trailblazer to pursue the path of Elation. There's that teambuilding versatility I talked about.\n Himeko Nova can also make use of Robin SP, again replacing the Remembrance Trailblazer in what is now likely a solo Decimation composition. This is a very, truly greedy setup that has Himeko Nova paired with all three of the big universal supports: Robin SP, Welt, and Mortenax. It's a huge amount of damage, but it can cause you to miss some Assist Skill uses if you're not careful, and as mentioned, it locks you out of the possibility of switching to Verdict, so it may actually end up being less optimal than you think in lower enemy density encounters. Also, again, just the sheer opportunity cost of running this setup makes it personally less enticing, but it really is just that strong.\n Probably the other really noteworthy setup is Saber and Gilgamesh. Once again, as you may have already noticed the trend, more than one character responsible for dealing damage and very Energy hungry with high Max Energy, it's a natural pairing. Of course, like I said before, they are hard to optimally pilot, and now even more so with Robin in the mix, but extremely, extremely rewarding when played well.",
+      "assets": []
+    },
+    {
+      "id": "wrap-up-29",
+      "level": 5,
+      "heading": "[Wrap up]",
+      "text": "'Do I need Robin SP?', that's the question posited. No, you do not NEED her, just like you don't NEED Mortenax, or Welt, or any of the other extremely powerful characters. There will be more in future, no doubt about that, but I recommend at least considering that you do.\n Especially if you're still rocking the old guard of universal supports like Tribbie or Cipher, those are getting rapidly phased out by these newer and more refined kits. I'm even fairly confident in saying that unless your Tribbie is at E1, you're probably approaching the 'dire need' stage of pulling for new supports.\n But I mean hey, you can also look at like this: Tribbie with E1 has survived for an extremely long time, and is only just now starting to be outdone by her new competitors (and even now some people are still arguing that). If you're really playing the long game, going for one or two Eidolons for Robin Summeretto will mean that she gets to see a lot of use and for quite some time.",
+      "assets": []
+    },
+    {
+      "id": "ratings-30",
       "level": 2,
-      "heading": "Build and teams",
-      "text": "Build recommendations and team compositions for Robin Summeretto are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
+      "heading": "Ratings",
+      "text": "Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams",
+      "assets": []
+    },
+    {
+      "id": "best-light-cones-32",
+      "level": 2,
+      "heading": "Best Light Cones",
+      "text": "1\n\n Rise and Sing (S 1 )\n\n Robin's Signature offers a variety of benefits to the team: 30% HP buff on herself, 1 Skill Point recovery on Ultimate, 30% Action Advance upon entering battle, and 20% SPD buff to the team. While most of these effects are nice, they are often unnecessary in many teams, such as the Skill Point recovery effect. The HP buff on Robin provides a nice ATK boost to teams that scale on it, but for non-ATK scalers it is almost worth nothing, as Robin's personal damage is not strong enough. The Light Cone sees the most potential in SPD-scaling teams as the 20% SPD is a major buff for characters that convert SPD into other stats, while it also helps Robin and her allies reach SPD breakpoints.\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's Signature can provide a nice SPD boost to Robin, as her high SPD Summer Songbirds can apply the Vulnerability debuff from the Light Cone.\n\n 3\n\n Memory's Curtain Never Falls (S 5 )\n\n Mostly used for increasing Robin's SPD to reach breakpoints. Robin, however, cannot reactivate the Light Cone's buff as she is unable to use her Skill during \"Fever\" state.\n\n 4\n\n The Story's Next Page (S 5 )\n\n 4* Gacha exclusive Light Cone can increase Robin's Max HP. Useful in ATK-scaling teams.\n\n 5\n\n Time Waits for No One (S 1 )\n\n For ATK-scaling teams, maximizing Robin's HP can be preferred over other Light Cone effects due to her high HP-scaling ATK buff. Use any off-Path Light Cones with 1375 or 1270 Base HP.",
+      "assets": [
+        {
+          "id": "ee90c13819de",
+          "sourceHash": "ee90c13819de",
+          "kind": "light-cones",
+          "name": "Rise and Sing",
+          "fileStem": "rise-and-sing",
+          "path": "Prydwen/hsr/assets/light-cones/rise-and-sing-ee90c13819de.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b2a862506882",
+          "sourceHash": "b2a862506882",
+          "kind": "light-cones",
+          "name": "Long May Rainbows Adorn the Sky",
+          "fileStem": "long-may-rainbows-adorn-the-sky",
+          "path": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-b2a862506882.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "de9d54f233b5",
+          "sourceHash": "de9d54f233b5",
+          "kind": "light-cones",
+          "name": "Memory's Curtain Never Falls",
+          "fileStem": "memorys-curtain-never-falls",
+          "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "b6cb0c99005d",
+          "sourceHash": "b6cb0c99005d",
+          "kind": "light-cones",
+          "name": "The Story's Next Page",
+          "fileStem": "the-storys-next-page",
+          "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+          "width": 52,
+          "height": 52
+        },
+        {
+          "id": "58c2a044512d",
+          "sourceHash": "58c2a044512d",
+          "kind": "light-cones",
+          "name": "Time Waits for No One",
+          "fileStem": "time-waits-for-no-one",
+          "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "specialist-light-cones-33",
+      "level": 3,
+      "heading": "Specialist Light Cones",
+      "text": "1\n\n Shadowburn (S 5 )\n\n Can be used in niche scenarios such as low AV speedruns, Shadowburn can let Robin use her Ultimate early in battle.",
+      "assets": [
+        {
+          "id": "9d0014643150",
+          "sourceHash": "9d0014643150",
+          "kind": "light-cones",
+          "name": "Shadowburn",
+          "fileStem": "shadowburn",
+          "path": "Prydwen/hsr/assets/light-cones/shadowburn-9d0014643150.webp",
+          "width": 52,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "id": "best-relic-sets-35",
+      "level": 2,
+      "heading": "Best Relic Sets",
+      "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n General best-in-slot for Robin, providing a substantial Max HP buff that improves her ATK buff scaling while offering a teamwide 15% DMG buff.\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n An option for SPD-scaling teams, although the buff lasting 1 turn means her Ultimate, which advances an ally's action by 100%, will immediately cause the buff to expire. However, Robin may prefer not to use her Ultimate on the main damage dealer in these teams.",
+      "assets": [
+        {
+          "id": "4e4defeee5d3",
+          "sourceHash": "4e4defeee5d3",
+          "kind": "relics",
+          "name": "World-Remaking Deliverer",
+          "fileStem": "world-remaking-deliverer",
+          "path": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "4cb8065ad660",
+          "sourceHash": "4cb8065ad660",
+          "kind": "relics",
+          "name": "Messenger Traversing Hackerspace",
+          "fileStem": "messenger-traversing-hackerspace",
+          "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-planetary-sets-36",
+      "level": 6,
+      "heading": "Best Planetary Sets",
+      "text": "1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n Amphoreus is preferred in most of her teams as the SPD buff can help allies reach certain SPD breakpoints more easily.\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Lushaka helps slightly with Robin's Energy while also buffing the ATK of the first ally in the lineup.\n 3\n\n Sprightly Vonwacq ( 2 -PC)\n\n Can be useful in certain scenarios where Robin needs to act first in combat to summon her memosprite to start gaining Vibes.\n 4\n\n Fleet of the Ageless ( 2 -PC)\n\n Strong ATK buff option with multiple damage dealers in the team; the set increases Robin's HP on top of providing an ATK buff.",
+      "assets": [
+        {
+          "id": "93d6c2686318",
+          "sourceHash": "93d6c2686318",
+          "kind": "relics",
+          "name": "Amphoreus, The Eternal Land",
+          "fileStem": "amphoreus-the-eternal-land",
+          "path": "Prydwen/hsr/assets/relics/amphoreus-the-eternal-land-93d6c2686318.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "d6aae5028c5a",
+          "sourceHash": "d6aae5028c5a",
+          "kind": "relics",
+          "name": "Lushaka, the Sunken Seas",
+          "fileStem": "lushaka-the-sunken-seas",
+          "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "bb6d718b4cb3",
+          "sourceHash": "bb6d718b4cb3",
+          "kind": "relics",
+          "name": "Sprightly Vonwacq",
+          "fileStem": "sprightly-vonwacq",
+          "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+          "width": 55,
+          "height": 55
+        },
+        {
+          "id": "5b886a96e17a",
+          "sourceHash": "5b886a96e17a",
+          "kind": "relics",
+          "name": "Fleet of the Ageless",
+          "fileStem": "fleet-of-the-ageless",
+          "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+          "width": 55,
+          "height": 55
+        }
+      ]
+    },
+    {
+      "id": "best-stats-38",
+      "level": 2,
+      "heading": "Best Stats",
+      "text": "Body\n HP%\n > CRIT DMG\n\n Feet\n Speed\n > HP%\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD > HP% > CRIT Rate / CRIT DMG",
+      "assets": [
+        {
+          "id": "96654253a4f7",
+          "sourceHash": "96654253a4f7",
+          "kind": "icons",
+          "name": "HP",
+          "fileStem": "stat-hp",
+          "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "44c437b21b3a",
+          "sourceHash": "44c437b21b3a",
+          "kind": "icons",
+          "name": "CRIT DMG",
+          "fileStem": "stat-critdmg",
+          "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "087f2dec68b6",
+          "sourceHash": "087f2dec68b6",
+          "kind": "icons",
+          "name": "Speed",
+          "fileStem": "stat-speed",
+          "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+          "width": 25,
+          "height": 25
+        },
+        {
+          "id": "106ddd8eff32",
+          "sourceHash": "106ddd8eff32",
+          "kind": "icons",
+          "name": "Energy Regen",
+          "fileStem": "stat-energy",
+          "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+          "width": 25,
+          "height": 25
+        }
+      ]
+    },
+    {
+      "id": "recommended-endgame-stats-39",
+      "level": 2,
+      "heading": "Recommended endgame stats",
+      "text": "HP: 6000-8000\n\n SPD: 160+\n\n CRIT Rate: 50%\n\n Energy Regeneration Rate: 119.44%\n\n In ATK-scaling teams, Robin should ignore CRIT stats and focus on SPD and HP% to maximize her ATK buff. Her damage is often lackluster in teams that do not have memosprite buffs. HP% Boots can be preferred over SPD - trading some Energy gains on Robin for a higher ATK buff.",
+      "assets": []
+    },
+    {
+      "id": "traces-priority-40",
+      "level": 2,
+      "heading": "Traces priority",
+      "text": "Skills priority: Ultimate > Talent > Memosprite Talent > Memosprite Skill > Skill > Basic\n\n Major Traces priority: Deviated Chords (A2) > Improvised Blues (A4) > Rebuilt Harmony (A6)",
+      "assets": []
+    },
+    {
+      "id": "eidolon-1-43",
+      "level": 6,
+      "heading": "Eidolon 1",
+      "text": "Allows Summer Songbirds to record damage dealt by allies, up to 16% at max Vibes, then unleash it onto the highest HP target during their turns. This damage redistribution is particularly effective in AoE scenarios where there is a main boss focus; this E1 lets you \"farm\" damage on the adds, and 16% of the damage will be directed to the boss. However, the tally is cleared at 50% instead of the usual 100%, which means that over time the overall damage tallied converges to 32% if max Vibes is reached consistently",
+      "assets": []
+    },
+    {
+      "id": "eidolon-2-44",
+      "level": 6,
+      "heading": "Eidolon 2",
+      "text": "Increases allies' All-Type RES PEN by 20%, maximum Vibes to 70 while also improving its generation by 2 per turn, allowing Robin to maintain higher Vibes on average. Higher Vibes cap results in a higher ATK/CRIT DMG buff, a higher DEF Ignore effect (from 40%->50%), and raises the damage recorded by the E1, up to 36%. These are strong support Eidolons from the first to second, which can result in a significant performance difference.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-4-45",
+      "level": 6,
+      "heading": "Eidolon 4",
+      "text": "Provides one-time 12 Vibes upon entering Fever, and substantially increases Summer Songbirds' SPD by up to an additional 55%, allowing it to generate more Energy for Robin, or deal True DMG from E1's damage tally more often.",
+      "assets": []
+    },
+    {
+      "id": "eidolon-6-46",
+      "level": 6,
+      "heading": "Eidolon 6",
+      "text": "Upon entering Fever and every time the Countdown takes action, Robin gains a fixed 140 Energy, allowing her to immediately use her Ultimate. With the Countdown taking action every 71 AV, the team will see many more Robin Ultimates. Her Max Energy will also be increased to store enough Energy for 2 Ultimates; effects that activate her Ultimates will grant her 2 charges, while percentage-based Energy Regeneration will see high Energy gains for Robin. Her Memosprite Skill DMG is doubled on top of that.",
+      "assets": []
+    },
+    {
+      "id": "synergy-47",
+      "level": 2,
+      "heading": "Synergy",
+      "text": "Hyacine - Robin • Summeretto generally prefers a healer for increased Energy gain through her Major Traces, while Hyacine's fast SPD and multi-action turns can stack Vibes for Robin. Robin can allow Hyacine to be slotted into teams that scale on multiple stats, such as with Ashveil and Mortenax Blade, as Robin can convert HP buffs into ATK for Ashveil.\n March 7th • Evernight - Robin fits in nicely with Evernight main DPS teams in the full Remembrance party, as all of them can increase each other's damage in some way; Robin can increase the damage output of both Cyrene and Evernight. Her Ultimate being an on-demand Action Advance can allow Evernight to use her Skill twice within 1 Darkest Riddle consumption, while also providing percentage-based Energy Regeneration, which greatly boosts Evernight's main damage dealer potential.\n Castorice - With Robin's Summer Songbirds permanently on the field, any AoE healing (or damage) will result in higher Newbud gain for Castorice due to having more targets consistently, and such Robin ends up being one of the better teammates for Castorice. Robin's Ultimate does not necessarily have to be targeted on Castorice; instead, it is often better used on Hyacine for its Energy Regeneration effect.\n Himeko Nova - Robin is a powerful support for Himeko Nova but with some caveats; Himeko Nova is an Energy-dependent damage dealer who has frequent attacks, which makes her a great target for Robin's Ultimate. However, Robin being unable to take action to use up Himeko's Assist Skills while her Ultimate advances Himeko's action can require careful planning to use up all Assist Skill counts, and with E2 Himeko may also require allies to skip their turns completely to use up the count. Himeko Nova's teammate requirements can also force awkward comps; with Welt being the best teammate currently, he prefers an AoE attacker in the last slot to trigger Decimation's conditions while they can overcap on DEF Shred with Himeko Nova's Signature.\n Mortenax Blade - With Mortenax Blade's primary role in many teams as a Sub-DPS, Robin's dynamic ATK/CRIT DMG buff is a nice benefit, allowing him to deal higher damage, while their DEF Reduction/DEF Ignore effect synergizes nicely, forming teams with multiple damage dealers.\n Aglaea - Robin's Signature Light Cone and certain Planar Ornaments can provide a teamwide SPD Boost, while Aglaea receives a massive ATK buff. Her Ultimate's Action Advance and percentage-based Energy Regeneration are great for Aglaea, who has a large Energy pool of 360.\n Phainon - Phainon during Transformation can remove both Robin and her Fever Countdown from the field, which prevents her Vibes from being reset (However, it also prevents her E1 from working). Since there is no need for any stats on Robin, she can opt for quadruple HP% main stat on her Relics to provide a massive ATK boost to Phainon.",
+      "assets": [
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "4dbc790e5b86",
+          "sourceHash": "4dbc790e5b86",
+          "kind": "characters",
+          "name": "Himeko Nova",
+          "fileStem": "himeko-nova-icon",
+          "path": "Prydwen/hsr/assets/characters/himeko-nova-4dbc790e5b86.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "f4a51afd002c",
+          "sourceHash": "f4a51afd002c",
+          "kind": "characters",
+          "name": "Aglaea",
+          "fileStem": "aglaea-icon",
+          "path": "Prydwen/hsr/assets/characters/aglaea-f4a51afd002c.webp",
+          "width": 45,
+          "height": 45
+        },
+        {
+          "id": "bdd27122e011",
+          "sourceHash": "bdd27122e011",
+          "kind": "characters",
+          "name": "Phainon",
+          "fileStem": "phainon-icon",
+          "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+          "width": 45,
+          "height": 45
+        }
+      ]
+    },
+    {
+      "id": "teams-48",
+      "level": 2,
+      "heading": "Teams",
+      "text": "If a column has multiple characters, the bigger one is the priority choice for the team while the smaller ones are alternatives. If they are the same size, either of them can be used.\n\n Castorice Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Evernight Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Aglaea Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Silver Wolf Lv.999 Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Ashblade Follow-up ATK Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Himeko Nova Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Archer Team\n\n DPS\n\n New\n\n Amplifier\n\n Specialist\n\n Amplifier",
+      "assets": [
+        {
+          "id": "fd3d60695240",
+          "sourceHash": "fd3d60695240",
+          "kind": "characters",
+          "name": "Castorice",
+          "fileStem": "castorice-icon",
+          "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "076b3844e58f",
+          "sourceHash": "076b3844e58f",
+          "kind": "characters",
+          "name": "Robin Summeretto",
+          "fileStem": "robin-summeretto-icon",
+          "path": "Prydwen/hsr/assets/characters/robin-summeretto-076b3844e58f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "e6a5c98adfc4",
+          "sourceHash": "e6a5c98adfc4",
+          "kind": "characters",
+          "name": "March 7th • Evernight",
+          "fileStem": "march-7th-evernight-icon",
+          "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "005597837585",
+          "sourceHash": "005597837585",
+          "kind": "characters",
+          "name": "Cyrene",
+          "fileStem": "cyrene-icon",
+          "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "99361e4717fa",
+          "sourceHash": "99361e4717fa",
+          "kind": "characters",
+          "name": "Mortenax Blade",
+          "fileStem": "blade-mortenax-icon",
+          "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "1d90270b2b4b",
+          "sourceHash": "1d90270b2b4b",
+          "kind": "characters",
+          "name": "Hyacine",
+          "fileStem": "hyacine-icon",
+          "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "d3e344772d55",
+          "sourceHash": "d3e344772d55",
+          "kind": "characters",
+          "name": "Trailblazer • Remembrance",
+          "fileStem": "trailblazer-remembrance-icon",
+          "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f4a51afd002c",
+          "sourceHash": "f4a51afd002c",
+          "kind": "characters",
+          "name": "Aglaea",
+          "fileStem": "aglaea-icon",
+          "path": "Prydwen/hsr/assets/characters/aglaea-f4a51afd002c.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
+          "kind": "characters",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "2cde7699adbf",
+          "sourceHash": "2cde7699adbf",
+          "kind": "characters",
+          "name": "Tribbie",
+          "fileStem": "tribbie-icon",
+          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f54da6170f38",
+          "sourceHash": "f54da6170f38",
+          "kind": "characters",
+          "name": "Silver Wolf • Lv. 999",
+          "fileStem": "silver-wolf-lv-999-icon",
+          "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "965df81b835a",
+          "sourceHash": "965df81b835a",
+          "kind": "characters",
+          "name": "Yao Guang",
+          "fileStem": "yao-guang-icon",
+          "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "c4a9c00e98ef",
+          "sourceHash": "c4a9c00e98ef",
+          "kind": "characters",
+          "name": "Huohuo",
+          "fileStem": "huohuo-icon",
+          "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "f380b4ccce3e",
+          "sourceHash": "f380b4ccce3e",
+          "kind": "characters",
+          "name": "Ashveil",
+          "fileStem": "ashveil-icon",
+          "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "4dbc790e5b86",
+          "sourceHash": "4dbc790e5b86",
+          "kind": "characters",
+          "name": "Himeko Nova",
+          "fileStem": "himeko-nova-icon",
+          "path": "Prydwen/hsr/assets/characters/himeko-nova-4dbc790e5b86.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "60cd0853b302",
+          "sourceHash": "60cd0853b302",
+          "kind": "characters",
+          "name": "Welt",
+          "fileStem": "welt-icon",
+          "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "5ff31ffb6345",
+          "sourceHash": "5ff31ffb6345",
+          "kind": "characters",
+          "name": "Archer",
+          "fileStem": "archer-icon",
+          "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "b27695507159",
+          "sourceHash": "b27695507159",
+          "kind": "characters",
+          "name": "Rin Tohsaka",
+          "fileStem": "rin-tohsaka-icon",
+          "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "da99d2d9a505",
+          "sourceHash": "da99d2d9a505",
+          "kind": "characters",
+          "name": "Sparkle",
+          "fileStem": "sparkle-icon",
+          "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+          "width": 60,
+          "height": 60
+        }
+      ]
+    },
+    {
+      "id": "anomaly-arbitration-53",
+      "level": 6,
+      "heading": "Anomaly Arbitration",
+      "text": "No teams featuring this character with data for Memory of Chaos yet.",
+      "assets": []
+    },
+    {
+      "id": "video-guides-54",
+      "level": 2,
+      "heading": "Video guides",
+      "text": "MoC/PF/AS Statistics",
       "assets": []
     }
   ],
   "recommendations": {
+    "best-light-cones": {
+      "label": "Best Light Cones",
+      "sections": [
+        {
+          "heading": "Best Light Cones",
+          "text": "1\n\n Rise and Sing (S 1 )\n\n Robin's Signature offers a variety of benefits to the team: 30% HP buff on herself, 1 Skill Point recovery on Ultimate, 30% Action Advance upon entering battle, and 20% SPD buff to the team. While most of these effects are nice, they are often unnecessary in many teams, such as the Skill Point recovery effect. The HP buff on Robin provides a nice ATK boost to teams that scale on it, but for non-ATK scalers it is almost worth nothing, as Robin's personal damage is not strong enough. The Light Cone sees the most potential in SPD-scaling teams as the 20% SPD is a major buff for characters that convert SPD into other stats, while it also helps Robin and her allies reach SPD breakpoints.\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's Signature can provide a nice SPD boost to Robin, as her high SPD Summer Songbirds can apply the Vulnerability debuff from the Light Cone.\n\n 3\n\n Memory's Curtain Never Falls (S 5 )\n\n Mostly used for increasing Robin's SPD to reach breakpoints. Robin, however, cannot reactivate the Light Cone's buff as she is unable to use her Skill during \"Fever\" state.\n\n 4\n\n The Story's Next Page (S 5 )\n\n 4* Gacha exclusive Light Cone can increase Robin's Max HP. Useful in ATK-scaling teams.\n\n 5\n\n Time Waits for No One (S 1 )\n\n For ATK-scaling teams, maximizing Robin's HP can be preferred over other Light Cone effects due to her high HP-scaling ATK buff. Use any off-Path Light Cones with 1375 or 1270 Base HP.",
+          "assets": [
+            {
+              "id": "ee90c13819de",
+              "sourceHash": "ee90c13819de",
+              "kind": "light-cones",
+              "name": "Rise and Sing",
+              "fileStem": "rise-and-sing",
+              "path": "Prydwen/hsr/assets/light-cones/rise-and-sing-ee90c13819de.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b2a862506882",
+              "sourceHash": "b2a862506882",
+              "kind": "light-cones",
+              "name": "Long May Rainbows Adorn the Sky",
+              "fileStem": "long-may-rainbows-adorn-the-sky",
+              "path": "Prydwen/hsr/assets/light-cones/long-may-rainbows-adorn-the-sky-b2a862506882.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "de9d54f233b5",
+              "sourceHash": "de9d54f233b5",
+              "kind": "light-cones",
+              "name": "Memory's Curtain Never Falls",
+              "fileStem": "memorys-curtain-never-falls",
+              "path": "Prydwen/hsr/assets/light-cones/memorys-curtain-never-falls-de9d54f233b5.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "b6cb0c99005d",
+              "sourceHash": "b6cb0c99005d",
+              "kind": "light-cones",
+              "name": "The Story's Next Page",
+              "fileStem": "the-storys-next-page",
+              "path": "Prydwen/hsr/assets/light-cones/the-storys-next-page-b6cb0c99005d.webp",
+              "width": 52,
+              "height": 52
+            },
+            {
+              "id": "58c2a044512d",
+              "sourceHash": "58c2a044512d",
+              "kind": "light-cones",
+              "name": "Time Waits for No One",
+              "fileStem": "time-waits-for-no-one",
+              "path": "Prydwen/hsr/assets/light-cones/time-waits-for-no-one-58c2a044512d.webp",
+              "width": 52,
+              "height": 52
+            }
+          ]
+        }
+      ]
+    },
+    "best-relic-sets": {
+      "label": "Best Relic Sets",
+      "sections": [
+        {
+          "heading": "Best Relic Sets",
+          "text": "The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n General best-in-slot for Robin, providing a substantial Max HP buff that improves her ATK buff scaling while offering a teamwide 15% DMG buff.\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n An option for SPD-scaling teams, although the buff lasting 1 turn means her Ultimate, which advances an ally's action by 100%, will immediately cause the buff to expire. However, Robin may prefer not to use her Ultimate on the main damage dealer in these teams.",
+          "assets": [
+            {
+              "id": "4e4defeee5d3",
+              "sourceHash": "4e4defeee5d3",
+              "kind": "relics",
+              "name": "World-Remaking Deliverer",
+              "fileStem": "world-remaking-deliverer",
+              "path": "Prydwen/hsr/assets/relics/world-remaking-deliverer-4e4defeee5d3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "4cb8065ad660",
+              "sourceHash": "4cb8065ad660",
+              "kind": "relics",
+              "name": "Messenger Traversing Hackerspace",
+              "fileStem": "messenger-traversing-hackerspace",
+              "path": "Prydwen/hsr/assets/relics/messenger-traversing-hackerspace-4cb8065ad660.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-planetary-sets": {
+      "label": "Best Planetary Sets",
+      "sections": [
+        {
+          "heading": "Best Planetary Sets",
+          "text": "1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n Amphoreus is preferred in most of her teams as the SPD buff can help allies reach certain SPD breakpoints more easily.\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Lushaka helps slightly with Robin's Energy while also buffing the ATK of the first ally in the lineup.\n 3\n\n Sprightly Vonwacq ( 2 -PC)\n\n Can be useful in certain scenarios where Robin needs to act first in combat to summon her memosprite to start gaining Vibes.\n 4\n\n Fleet of the Ageless ( 2 -PC)\n\n Strong ATK buff option with multiple damage dealers in the team; the set increases Robin's HP on top of providing an ATK buff.",
+          "assets": [
+            {
+              "id": "93d6c2686318",
+              "sourceHash": "93d6c2686318",
+              "kind": "relics",
+              "name": "Amphoreus, The Eternal Land",
+              "fileStem": "amphoreus-the-eternal-land",
+              "path": "Prydwen/hsr/assets/relics/amphoreus-the-eternal-land-93d6c2686318.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "d6aae5028c5a",
+              "sourceHash": "d6aae5028c5a",
+              "kind": "relics",
+              "name": "Lushaka, the Sunken Seas",
+              "fileStem": "lushaka-the-sunken-seas",
+              "path": "Prydwen/hsr/assets/relics/lushaka-the-sunken-seas-d6aae5028c5a.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "bb6d718b4cb3",
+              "sourceHash": "bb6d718b4cb3",
+              "kind": "relics",
+              "name": "Sprightly Vonwacq",
+              "fileStem": "sprightly-vonwacq",
+              "path": "Prydwen/hsr/assets/relics/sprightly-vonwacq-bb6d718b4cb3.webp",
+              "width": 55,
+              "height": 55
+            },
+            {
+              "id": "5b886a96e17a",
+              "sourceHash": "5b886a96e17a",
+              "kind": "relics",
+              "name": "Fleet of the Ageless",
+              "fileStem": "fleet-of-the-ageless",
+              "path": "Prydwen/hsr/assets/relics/fleet-of-the-ageless-5b886a96e17a.webp",
+              "width": 55,
+              "height": 55
+            }
+          ]
+        }
+      ]
+    },
+    "best-stats": {
+      "label": "Best Stats",
+      "sections": [
+        {
+          "heading": "Best Stats",
+          "text": "Body\n HP%\n > CRIT DMG\n\n Feet\n Speed\n > HP%\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD > HP% > CRIT Rate / CRIT DMG",
+          "assets": [
+            {
+              "id": "96654253a4f7",
+              "sourceHash": "96654253a4f7",
+              "kind": "icons",
+              "name": "HP",
+              "fileStem": "stat-hp",
+              "path": "Prydwen/hsr/assets/icons/hp-96654253a4f7.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "44c437b21b3a",
+              "sourceHash": "44c437b21b3a",
+              "kind": "icons",
+              "name": "CRIT DMG",
+              "fileStem": "stat-critdmg",
+              "path": "Prydwen/hsr/assets/icons/crit-dmg-44c437b21b3a.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "087f2dec68b6",
+              "sourceHash": "087f2dec68b6",
+              "kind": "icons",
+              "name": "Speed",
+              "fileStem": "stat-speed",
+              "path": "Prydwen/hsr/assets/icons/speed-087f2dec68b6.webp",
+              "width": 25,
+              "height": 25
+            },
+            {
+              "id": "106ddd8eff32",
+              "sourceHash": "106ddd8eff32",
+              "kind": "icons",
+              "name": "Energy Regen",
+              "fileStem": "stat-energy",
+              "path": "Prydwen/hsr/assets/icons/energy-regen-106ddd8eff32.webp",
+              "width": 25,
+              "height": 25
+            }
+          ]
+        }
+      ]
+    },
+    "recommended-endgame-stats": {
+      "label": "Recommended endgame stats",
+      "sections": [
+        {
+          "heading": "Recommended endgame stats",
+          "text": "HP: 6000-8000\n\n SPD: 160+\n\n CRIT Rate: 50%\n\n Energy Regeneration Rate: 119.44%\n\n In ATK-scaling teams, Robin should ignore CRIT stats and focus on SPD and HP% to maximize her ATK buff. Her damage is often lackluster in teams that do not have memosprite buffs. HP% Boots can be preferred over SPD - trading some Energy gains on Robin for a higher ATK buff.",
+          "assets": []
+        }
+      ]
+    },
+    "traces-priority": {
+      "label": "Traces priority",
+      "sections": [
+        {
+          "heading": "Traces priority",
+          "text": "Skills priority: Ultimate > Talent > Memosprite Talent > Memosprite Skill > Skill > Basic\n\n Major Traces priority: Deviated Chords (A2) > Improvised Blues (A4) > Rebuilt Harmony (A6)",
+          "assets": []
+        }
+      ]
+    },
+    "synergy": {
+      "label": "Synergy",
+      "sections": [
+        {
+          "heading": "Synergy",
+          "text": "Hyacine - Robin • Summeretto generally prefers a healer for increased Energy gain through her Major Traces, while Hyacine's fast SPD and multi-action turns can stack Vibes for Robin. Robin can allow Hyacine to be slotted into teams that scale on multiple stats, such as with Ashveil and Mortenax Blade, as Robin can convert HP buffs into ATK for Ashveil.\n March 7th • Evernight - Robin fits in nicely with Evernight main DPS teams in the full Remembrance party, as all of them can increase each other's damage in some way; Robin can increase the damage output of both Cyrene and Evernight. Her Ultimate being an on-demand Action Advance can allow Evernight to use her Skill twice within 1 Darkest Riddle consumption, while also providing percentage-based Energy Regeneration, which greatly boosts Evernight's main damage dealer potential.\n Castorice - With Robin's Summer Songbirds permanently on the field, any AoE healing (or damage) will result in higher Newbud gain for Castorice due to having more targets consistently, and such Robin ends up being one of the better teammates for Castorice. Robin's Ultimate does not necessarily have to be targeted on Castorice; instead, it is often better used on Hyacine for its Energy Regeneration effect.\n Himeko Nova - Robin is a powerful support for Himeko Nova but with some caveats; Himeko Nova is an Energy-dependent damage dealer who has frequent attacks, which makes her a great target for Robin's Ultimate. However, Robin being unable to take action to use up Himeko's Assist Skills while her Ultimate advances Himeko's action can require careful planning to use up all Assist Skill counts, and with E2 Himeko may also require allies to skip their turns completely to use up the count. Himeko Nova's teammate requirements can also force awkward comps; with Welt being the best teammate currently, he prefers an AoE attacker in the last slot to trigger Decimation's conditions while they can overcap on DEF Shred with Himeko Nova's Signature.\n Mortenax Blade - With Mortenax Blade's primary role in many teams as a Sub-DPS, Robin's dynamic ATK/CRIT DMG buff is a nice benefit, allowing him to deal higher damage, while their DEF Reduction/DEF Ignore effect synergizes nicely, forming teams with multiple damage dealers.\n Aglaea - Robin's Signature Light Cone and certain Planar Ornaments can provide a teamwide SPD Boost, while Aglaea receives a massive ATK buff. Her Ultimate's Action Advance and percentage-based Energy Regeneration are great for Aglaea, who has a large Energy pool of 360.\n Phainon - Phainon during Transformation can remove both Robin and her Fever Countdown from the field, which prevents her Vibes from being reset (However, it also prevents her E1 from working). Since there is no need for any stats on Robin, she can opt for quadruple HP% main stat on her Relics to provide a massive ATK boost to Phainon.",
+          "assets": [
+            {
+              "id": "1d90270b2b4b",
+              "sourceHash": "1d90270b2b4b",
+              "kind": "characters",
+              "name": "Hyacine",
+              "fileStem": "hyacine-icon",
+              "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "e6a5c98adfc4",
+              "sourceHash": "e6a5c98adfc4",
+              "kind": "characters",
+              "name": "March 7th • Evernight",
+              "fileStem": "march-7th-evernight-icon",
+              "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "fd3d60695240",
+              "sourceHash": "fd3d60695240",
+              "kind": "characters",
+              "name": "Castorice",
+              "fileStem": "castorice-icon",
+              "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "4dbc790e5b86",
+              "sourceHash": "4dbc790e5b86",
+              "kind": "characters",
+              "name": "Himeko Nova",
+              "fileStem": "himeko-nova-icon",
+              "path": "Prydwen/hsr/assets/characters/himeko-nova-4dbc790e5b86.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "99361e4717fa",
+              "sourceHash": "99361e4717fa",
+              "kind": "characters",
+              "name": "Mortenax Blade",
+              "fileStem": "blade-mortenax-icon",
+              "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "f4a51afd002c",
+              "sourceHash": "f4a51afd002c",
+              "kind": "characters",
+              "name": "Aglaea",
+              "fileStem": "aglaea-icon",
+              "path": "Prydwen/hsr/assets/characters/aglaea-f4a51afd002c.webp",
+              "width": 45,
+              "height": 45
+            },
+            {
+              "id": "bdd27122e011",
+              "sourceHash": "bdd27122e011",
+              "kind": "characters",
+              "name": "Phainon",
+              "fileStem": "phainon-icon",
+              "path": "Prydwen/hsr/assets/characters/phainon-bdd27122e011.webp",
+              "width": 45,
+              "height": 45
+            }
+          ]
+        }
+      ]
+    },
     "teams": {
       "label": "Teams",
       "sections": [
         {
-          "heading": "Build and teams",
-          "text": "Build recommendations and team compositions for Robin Summeretto are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics",
-          "assets": []
+          "heading": "Teams",
+          "text": "If a column has multiple characters, the bigger one is the priority choice for the team while the smaller ones are alternatives. If they are the same size, either of them can be used.\n\n Castorice Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Evernight Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Aglaea Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Silver Wolf Lv.999 Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Ashblade Follow-up ATK Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Himeko Nova Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Archer Team\n\n DPS\n\n New\n\n Amplifier\n\n Specialist\n\n Amplifier",
+          "assets": [
+            {
+              "id": "fd3d60695240",
+              "sourceHash": "fd3d60695240",
+              "kind": "characters",
+              "name": "Castorice",
+              "fileStem": "castorice-icon",
+              "path": "Prydwen/hsr/assets/characters/castorice-fd3d60695240.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "076b3844e58f",
+              "sourceHash": "076b3844e58f",
+              "kind": "characters",
+              "name": "Robin Summeretto",
+              "fileStem": "robin-summeretto-icon",
+              "path": "Prydwen/hsr/assets/characters/robin-summeretto-076b3844e58f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "e6a5c98adfc4",
+              "sourceHash": "e6a5c98adfc4",
+              "kind": "characters",
+              "name": "March 7th • Evernight",
+              "fileStem": "march-7th-evernight-icon",
+              "path": "Prydwen/hsr/assets/characters/march-7th-evernight-e6a5c98adfc4.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "005597837585",
+              "sourceHash": "005597837585",
+              "kind": "characters",
+              "name": "Cyrene",
+              "fileStem": "cyrene-icon",
+              "path": "Prydwen/hsr/assets/characters/cyrene-005597837585.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "99361e4717fa",
+              "sourceHash": "99361e4717fa",
+              "kind": "characters",
+              "name": "Mortenax Blade",
+              "fileStem": "blade-mortenax-icon",
+              "path": "Prydwen/hsr/assets/characters/mortenax-blade-99361e4717fa.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "1d90270b2b4b",
+              "sourceHash": "1d90270b2b4b",
+              "kind": "characters",
+              "name": "Hyacine",
+              "fileStem": "hyacine-icon",
+              "path": "Prydwen/hsr/assets/characters/hyacine-1d90270b2b4b.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "d3e344772d55",
+              "sourceHash": "d3e344772d55",
+              "kind": "characters",
+              "name": "Trailblazer • Remembrance",
+              "fileStem": "trailblazer-remembrance-icon",
+              "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f4a51afd002c",
+              "sourceHash": "f4a51afd002c",
+              "kind": "characters",
+              "name": "Aglaea",
+              "fileStem": "aglaea-icon",
+              "path": "Prydwen/hsr/assets/characters/aglaea-f4a51afd002c.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "714348f14d48",
+              "sourceHash": "714348f14d48",
+              "kind": "characters",
+              "name": "Dan Heng • Permansor Terrae",
+              "fileStem": "dan-heng-permansor-terrae-icon",
+              "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "2cde7699adbf",
+              "sourceHash": "2cde7699adbf",
+              "kind": "characters",
+              "name": "Tribbie",
+              "fileStem": "tribbie-icon",
+              "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f54da6170f38",
+              "sourceHash": "f54da6170f38",
+              "kind": "characters",
+              "name": "Silver Wolf • Lv. 999",
+              "fileStem": "silver-wolf-lv-999-icon",
+              "path": "Prydwen/hsr/assets/characters/silver-wolf-lv-999-f54da6170f38.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "965df81b835a",
+              "sourceHash": "965df81b835a",
+              "kind": "characters",
+              "name": "Yao Guang",
+              "fileStem": "yao-guang-icon",
+              "path": "Prydwen/hsr/assets/characters/yao-guang-965df81b835a.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "c4a9c00e98ef",
+              "sourceHash": "c4a9c00e98ef",
+              "kind": "characters",
+              "name": "Huohuo",
+              "fileStem": "huohuo-icon",
+              "path": "Prydwen/hsr/assets/characters/huohuo-c4a9c00e98ef.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7fc1b269fb6f",
+              "sourceHash": "7fc1b269fb6f",
+              "kind": "characters",
+              "name": "Sparxie",
+              "fileStem": "sparxie-icon",
+              "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "f380b4ccce3e",
+              "sourceHash": "f380b4ccce3e",
+              "kind": "characters",
+              "name": "Ashveil",
+              "fileStem": "ashveil-icon",
+              "path": "Prydwen/hsr/assets/characters/ashveil-f380b4ccce3e.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "4dbc790e5b86",
+              "sourceHash": "4dbc790e5b86",
+              "kind": "characters",
+              "name": "Himeko Nova",
+              "fileStem": "himeko-nova-icon",
+              "path": "Prydwen/hsr/assets/characters/himeko-nova-4dbc790e5b86.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "60cd0853b302",
+              "sourceHash": "60cd0853b302",
+              "kind": "characters",
+              "name": "Welt",
+              "fileStem": "welt-icon",
+              "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "5ff31ffb6345",
+              "sourceHash": "5ff31ffb6345",
+              "kind": "characters",
+              "name": "Archer",
+              "fileStem": "archer-icon",
+              "path": "Prydwen/hsr/assets/characters/archer-5ff31ffb6345.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "b27695507159",
+              "sourceHash": "b27695507159",
+              "kind": "characters",
+              "name": "Rin Tohsaka",
+              "fileStem": "rin-tohsaka-icon",
+              "path": "Prydwen/hsr/assets/characters/rin-tohsaka-b27695507159.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "da99d2d9a505",
+              "sourceHash": "da99d2d9a505",
+              "kind": "characters",
+              "name": "Sparkle",
+              "fileStem": "sparkle-icon",
+              "path": "Prydwen/hsr/assets/characters/sparkle-da99d2d9a505.webp",
+              "width": 60,
+              "height": 60
+            }
+          ]
         }
       ]
     }
   },
   "tables": [],
-  "text": "Robin Summeretto Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Robin Summeretto\n Robin Summeretto Best Build Guide\n Last updated: 12/August/2026\n\n Introduction\n Best guide and build for Robin Summeretto from HSR (Honkai: Star Rail). Robin Summeretto is a 5 ★ character from the Wind element who follows the Path of Remembrance .\n\n To learn more about Robin Summeretto check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n To learn more about Robin Summeretto check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Robin Summeretto skills aren't available yet. They will be added when the character is released.\n\n Major Traces\n Robin Summeretto traces aren't available yet. They will be added when the character is released.\n\n Minor Traces (total)\n Robin Summeretto traces aren't available yet. They will be added when the character is released.\n\n Eidolons\n E 1\n\n Eidolon 1\n\n Stats and materials\n Robin Summeretto Stats and Materials aren't available yet. They will be added when the character is released.\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n Robin Summeretto images aren't available yet. They will be added when the character is released.\n\n Review\n\n Review\n Review for Robin Summeretto is not available yet. It will be added when the character is released.\n\n Build and teams\n\n Build and teams\n Build recommendations and team compositions for Robin Summeretto are not available yet. They will be added when the character is released.\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Robin Summeretto Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Robin Summeretto\n Robin Summeretto Best Build Guide\n Last updated: 26/August/2026\n\n Introduction\n Best guide and build for Robin Summeretto from HSR (Honkai: Star Rail). Robin Summeretto is a 5 ★ character from the Wind element who follows the Path of Remembrance .\n\n To learn more about Robin Summeretto check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n Robin Summeretto has at least one video available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 4.5\n\n Last major build/calcs update\n Patch 4.5\n\n Last profile update*\n 26/August/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Robin Summeretto check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n Lucky Draw Event!\n Use the link below to check the Lucky Draw event and have a chance to win 1000 Stellar Jades !\n Join Event!\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n The Sea Sings in My Key\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Robin • Summeretto's Max HP to one enemy.\n\n Skill\n Summer Strums the Soul\n Summon\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Summons the memosprite Summer Songbirds Bessie. If any among the Summer Songbirds is already on the field, restores its HP by an amount equal to #1[i]% of Summer Songbirds's Max HP, and gains 6 Vibes.\n\n Ultimate\n Ascend That Rhapsody in Blue\n Enhance | 140 energy cost\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Advances the action of one designated ally unit (excluding Robin • Summeretto) by 100% and regenerates a fixed amount of Energy equal to #1[i]% of their Max Energy, and then, grants them the Special Guest effect. When the character with Special Guest and their summon attacks, they additionally grant Robin 2 point(s) of Vibes and cannot advance the actions of other friendly targets. This effect lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.\n\n Talent\n Wings Heed No Borders\n Enhance\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n The memosprite Summer Songbirds has an initial Max HP equal to 70% of Robin • Summeretto's Max HP and an initial SPD equal to 180% of Robin • Summeretto's SPD. When an ally target uses an attack, or when providing healing effect or Shield for the first time in any target's turn, Robin • Summeretto gains 1 Vibes, up to a max of 50. While Summer Songbirds Bessie is on the field, if Robin's Vibes is 6 or more, immediately summons the Summer Songbird Drummie, and if Vibes is 12 or more, immediately summons the Summer Songbird Paddie. When all Summer Songbirds take the stage, dispels all Crowd Control debuffs that Robin • Summeretto and the Summer Songbirds are under, enter the Fever state and deploy a Zone. When ally targets deal DMG inside the Zone, they ignore #1[i]% plus Vibes × 0.5% of enemy targets' DEF.\nWhile in the Fever state, Robin • Summeretto and the Summer Songbirds are immune to Crowd Control debuffs, and Robin • Summeretto will not enter her turns until the Fever state ends.\n\n Technique\n We Are the Melody\n Enhance\n\n Energy gain: 0\n Break: -\n\n After using Technique, at the start of the next combat, action advances by 20%, immediately gains 6 Vibes, and grants all allies a 30% DMG Boost for 2 turn(s).\n\n Memosprite Skills\n Memosprite Skill\n Chirrup Quartet\n AoE\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Wind DMG equal to #1[i]% of Summer Songbirds's Max HP to all enemies.\n\n Memosprite Talent\n A Warble of Wings\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n While in the Fever state, the Summer Songbirds and a countdown will appear on the action bar, increasing the DMG dealt by Robin • Summeretto and themselves by #1[i]% + Vibes × #2[i]%. When Summer Songbirds's turn starts, they use the Memosprite Skill. The countdown has an initial SPD of 140. When their turn starts, 50% of current Vibes (a minimum of 12 points) gets deducted. When Vibes reach 0, the Summer Songbirds disappear and Robin • Summeretto exits the Fever state. While Summer Songbirds are on the field, increases the DMG taken by all enemies by #3[i]%/#4[i]%/#5[i]% respectively based on the number of members present.\n Memosprite Talent\n Near the Sea's Heartbeat\n AoE\n\n Energy gain: 0\n Break: -\n\n When the Summer Songbirds are summoned, regenerates 20 Energy for Robin • Summeretto.\n Memosprite Talent\n Astride Summer's Nightwind\n AoE\n\n Energy gain: 0\n Break: -\n\n When the Summer Songbirds disappear, Robin • Summeretto's action advances by 50%.\n\n Major Traces\n A2 Major trace\n Deviated Chords\n\n When an ally target causes Robin • Summeretto to gain Vibes, if their ATK is higher than Robin • Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes × 0.4%) of Robin • Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by 40% + Vibes × 1.5%. Lasts for 2 turn(s).\n\n A4 Major trace\n Improvised Blues\n\n When Robin • Summeretto or \"Summer Songbirds\" receive healing or a Shield provided by teammates, they gain 12 stack(s) of \"Groove,\" up to a max of 12 stack(s). The first time Robin • Summeretto gains Vibes on any unit's turn, if she has \"Groove,\" she consumes 1 stack of \"Groove\" and regenerates 3 Energy.\n\n A6 Major trace\n Rebuilt Harmony\n\n Increases the CRIT Rate of Robin • Summeretto and \"Summer Songbirds\" by 50%.\n\n Minor Traces (total)\n HP\n + 18%\n\n CRIT Rate\n + 6.7%\n\n Speed\n + 14\n\n Eidolons\n E 1\n Stray Bird of Summer\n Eidolon 1\n\n \"Summer Songbirds\" records 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, it additionally deals True DMG equal to 11% of the total recorded DMG plus current Vibes points × 0.1% to the enemy target with the highest HP, then clears 50% of the recorded value.\n\n E 2\n A Heart of Still Water\n Eidolon 2\n\n Increases All-Type RES PEN of ally targets by 18%. Robin • Summeretto's Max Vibes increases by 20. The first time an ally target uses an ability that causes Robin • Summeretto to gain Vibes within any target's turn, she gains an additional 2 points.\n\n E 3\n Echoes Left Along the Way\n Eidolon 3\n\n Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15. Memosprite Talent Lv. +1, up to a maximum of Lv. 10.\n\n E 4\n Her Variation on the Theme\n Eidolon 4\n\n Upon entering the \"Fever\" state, immediately gains 12 point(s) of Vibes, and the SPD of \"Summer Songbirds\" increases by 20% plus current Vibes × 0.5%.\n\n E 5\n To Chase the Dawn Anew\n Eidolon 5\n\n Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10. Memosprite Skill Lv. +1, up to a maximum of Lv. 10.\n\n E 6\n A Song Yet Unnamed\n Eidolon 6\n\n Increases the Memosprite Skill's DMG multiplier by 100% of the original multiplier. While in the \"Fever\" state, Robin • Summeretto's Ultimate can be stored up to 2 times. After entering the \"Fever\" state for the first time or at the start of a \"Fever\" countdown turn in this battle, regenerates a fixed amount of 140 Energy.\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1205\n\n ATK\n\n 601\n\n DEF\n\n 485\n\n Speed\n\n 98\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 308000\n\n Charred Bud of Twilight\n\n x 15\n\n Dream Collection Component\n\n x 15\n\n Dream Flow Valve\n\n x 65\n\n Dream Making Engine\n\n x 15\n\n CV\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n Robin Summeretto images aren't available yet. They will be added when the character is released.\n\n Review\n\n Pros & Cons\n Pros\n Truly universal support character for all teams,\n\n Extremely competitive performance with strong meta uses,\n\n Excellent buff spread and effortless teamwide buffing,\n\n Has an action advance and Energy restore on her Ultimate making it easy to time when you want those effects,\n\n Frees up the Remembrance Trailblazer to go onto other teams or the Path of Elation,\n\n Deals respectable personal damage,\n\n Excellent Energy economy,\n\n Completely immune to Crowd Control while groovin',\n\n Great vertical investment,\n\n 'One day, after dinner, we spotted a fledgling Charmony Dove break it down crazy style'.\n\n Cons\n 'Set and forget' playstyle means low interactivity outside of her Ultimate,\n\n Buffs have variable effectiveness that depends on how quickly the team can stack and maintain Vibes,\n\n Doesn't contribute to SP generation without her signature Light Cone.\n\n Review (By Sushou)\n [Overview]\n The new form of Robin is another addition into the 'universal support' archetype we've been seeing more and more of lately. She is a Remembrance Wind character, and can use her Ultimate to action advance a single ally while also restoring a percentage of their Max Energy. After reaching enough of her unique resource, she will take to the stage with her memosprites, inflicting a persistent Vulnerability on enemies, and providing a large variable DEF ignoring Zone, while also having her memosprites periodically launch their own attack. She provides another variable buff for allies through a Bonus Trace, granting ATK to high ATK allies, and CRIT DMG to low ATK allies, making her suitable for both ATK and HP scalers.\n [Intro]\n A weapon to rival the weapon to surpass Metal Gear?! Mortenax might just have found a worthy peer. And finally, a new Robin song that we can actually hear regularly in-game. It's a bop in my opinion, but it's a bit of a short loop, sadly.\n If you've been wondering whether or not a limited edition version of the Remembrance Trailblazer was ever going to show up, then Robin Summeretto is probably the closest thing to that so far.\n You get all the things you'd want, including an action advance and large damage amplifying effects, and since Summeretto is a Remembrance character as well, it means she can even slot into setups involving Cyrene, finally getting to make use of the 'Chrysos Heirs and Remembrance characters' line in Cyrene's Recollection passive.\n On that note, this Robin actually is the first non-Chrysos Heir Remembrance character, so perhaps the age of Remembrance is not fully behind us just yet.\n You'll see why this Robin is probably going to be seen quite a bit in the meta for at least a good little while. I'm also going to just refer to her as 'Robin' or 'Robin SP' in the rest of this review, because I don't have enough whimsy to ignore the red underline under Summeretto.\n [Abilities]\n As a Remembrance character, Robin SP has a memosprite with its own attacks and passives. Memosprites plural, in this case. Robin's Summer Songbirds.\n Robin's Talent explains their presence. The Summer Songbirds have an initial Max HP of 70% of Robin's Max HP, and an initial SPD equal to 180% of Robin's. Whenever an ally attacks, or provides healing or shielding for the first time in any target's turn (including enemies'), Robin gets 1 Vibe. Yes really. Vibes can stack up to 50.\n Robin can summon the first of the troupe with her Skill, and if any of the Songbirds are already on field, then using this Skill will fully heal the memosprites and grant Robin 6 Vibes. At 6 Vibes, regardless of how you get there, the next member of the Songbirds is automatically summoned, and then at 12 Vibes, the final Songbird shows up. The number of Songbirds on the field will also determine how much passive Vuln is being applied to enemies; 8% with 1 bird, 12% with 2, and 16% with all three birds.\n When all three Songbirds are on the field, any Crowd Control effects affecting Robin are dispelled, and Robin and her birds enter the Fever state, and here's where the music starts. This deploys a Zone that allows allies to ignore 15% of the enemy DEF when dealing damage, plus an additional DEF ignore based on (number of Vibes * 0.5%). This caps out at a 40% DEF ignore in total when at 50 Vibes.\n During the Fever state, Robin does not take her normal turn until the Fever state ends, and she and her Songbirds are immune to Crowd Control.\n The Songbirds will act in her place during the Fever state, dealing 150% of Robin's Max HP to all enemies on the field. The Fever state has a countdown appear in the turn order, with an initial SPD of 140, this will be important. This Fever state also increases Robin's and her birds' DMG dealt by 60% + (Vibes * 2%), up to a total of 160% amp at 50 Vibes.\n When the countdown reaches 0, 50% of the current Vibes will get deducted, with a minimum deduction of 12 Vibes. If Vibes reach 0, the Songbirds disappear and the Fever state will end.\n You can see that it's important to be generating enough Vibes in between the countdowns so that Robin doesn't ever have to exit the Fever state, and this will also affect the variability of the DEF ignore she provides while singing. Choosing when to have your team burst and when to hold off based on the current Vibes and the upcoming Vibe deduction will be key to maximising the performance of Robin within your teams.\n The Songbirds will generate 20 Energy for Robin when they are summoned via the Skill (doesn't apply to the auto-additions from Vibes), so there's an extra injection of Energy at the start of combat, and should the Songbirds leave the field for any reason, Robin's next action advances by 50%, so she should be able to get back into her groove fairly quickly, especially since she'll get the extra Energy again.\n But of course, this Energy needs to be used somewhere. For the cost of 140 Energy, Robin SP allows you to fully action advance an ally of your choice (besides Robin SP herself) and will additionally regenerate 20% of that ally's Max Energy.\n This will also grant the affected ally and their memosprite the Special Guest effect, allowing their attacks to generate an additional 2 Vibes. The Special Guest effect will also prohibit the affected ally from action advancing any other friendly units. I know, it's a buzzkill for potentially funny setups, but it somewhat keeps parity with the way the other action advancing limits work. My fellow CBT2 and CBT3 players remember Unlimited Bronya Works, and we've been paying for that momentary high ever since...\n The Special Guest effect lasts for 2 turns, and decreases by 1 at the start of the affected character's turn, so you can consider this to be particularly effective at stacking Vibes for characters who attack a lot outside of their turn, or who have memosprites to attack for them.\n This Ultimate is extraordinarily potent because it allows you to essentially bank a full action advance and use it when it's most appropriate for you — but that's not even the best part, no no, the best part is that this Ultimate does not have any explicit benefits for the affected ally. All the amplifying effects happen automatically, and for everyone on the team, so why's that important?\n Because you get to advance anyone you want or need. I mean, within reason right, there's the limit for other action advancers. But mostly it's anyone, and this can let you come up with extremely carefully tailored rotations where perhaps it'd be optimal to advance the sub-DPS or secondary support to allow them to act before the main DPS; or perhaps to give a large Energy injection for an important Ultimate to be reapplied before Big Money™ attacks start to go out.\n It's an incredibly versatile Ultimate, and having complete control over its activation is utterly invaluable, for both casuals and sweats alike. This is probably the biggest upgrade Robin SP has over the Remembrance Trailblazer, as while Mem's Support is incredibly powerful and can lead to funny numbers as any 0-cycler can tell you, it's also a colossal pain in the posterior to align with important actions, and many a reset has happened because Mem got to 100% a turn too early.\n I'm getting very excited now.\n [Bonus Traces]\n But I'm not done yet! Robin's A2 will provide further buffs to allies who provide Vibes to Robin; if the ally's ATK is higher than Robin SP's, that ally's ATK is increased by (16% + (Vibes * 0.4%)) of Robin's Max HP. If the ally's ATK is LOWER than Robin's, they will instead gain (40% + (Vibes * 1.5%)) bonus CRIT DMG. The bonus lasts for 2 turns, but realistically it's permanent after the first application.\n I know, I know, 'Oy guv, wot's this maths malarkey doin' in 'ere?'. Blame Hoyoverse for presenting variable buffs in this form. To put it into better perspective, if Robin SP has a fairly reasonable Max HP of 8000, and your Vibes are at the max of 50, an ATK-scaling ally would be getting 2880 bonus ATK. For a HP-scaler, it'd be giving 115% CRIT DMG. Yeah, I know, pick your jaw up off the floor, we're not done yet.\n In case you're worried about the wrong buff getting applied, I must reassure you that that is remarkably difficult to do; Robin SP has rather deliberately the highest Base ATK of any of the Remembrance HP-scalers, and since none of them build ATK, you're always going to have the right buff present no matter what.\n The A4 presents a new resource for Robin SP to take advantage of. When Robin or her Songbirds get healing or shielding from an ally, Robin and her birds gain 12 stacks of Groove, up to a max of 12. The first time that Robin gets Vibes on any unit's turn, she will consume 1 stack of Groove to gain 3 Energy.\n This is literally just free Energy for doing what you were already doing. This can be seen as sort of an equaliser between sustained and sustainless team setups, so you shouldn't feel overly pressured to play without a sustain for maximum effect here since Robin SP directly benefits from the inclusion of a sustain character (think Green Foxian).\n Lastly, the A6 will increase the CRIT Rate of Robin SP and her Songbirds by an additional 50%. Very Remembrance-coded, as you have a lot of stats you actually want and can't always get the amount of CRIT you want, so this elevates Robin SP's already pretty noteworthy personal damage.\n [Eidolons]\n You do not need them, but they're nice to have, and as always, at least in recent times, the first couple are particularly enticing.\n E1 will allow the Songbirds to record 100% of the non-True DMG dealt by allies, and then when the Songbirds attack, they additionally deal True DMG equal to 11% of the recorded value plus (Vibes * 0.1%) to the enemy target with the highest HP. After this attack, 50% of the recorded value is cleared.\n This is essentially a mini Cipher as an Eidolon, and that's... Well that's pretty ridiculous I won't lie. It is only to the highest enemy, but with a maximum return of 16% of the stored value, that's extraordinarily potent, and is just ANOTHER way that Robin SP buffs the whole squad. Very high value.\n E2 will increase the All-Type RES PEN of allies by 18%, and the maximum number of Vibes increases to 70. The first time an ally uses an ability that would grant Vibes to Robin, she gains an extra 2 points.\n This skyrockets the speed of Vibes stacking and has the bonus of increasing the upper limit of the variable buffs due to having the Vibes stack count increased as well. And of course, RES PEN, because *of course*.\n E4 will grant 12 Vibes instantly upon entering the Fever state, and the SPD of the Songbirds increases by 20% + (Vibes * 0.5%). Slightly more ramp-up, and faster attacks coming out of the Songbirds.\n Finally, the E6. The Songbirds' AoE attack has its DMG multiplier increased by 100% of its original value — a full doubling of the final damage — and while in the Fever state, Robin can store her Ultimate up to 2 times. After entering the Fever state for the first time, or at the start of a Fever countdown turn in this fight, Robin regenerates 140 Energy. A literal full Ultimate at no extra cost.\n It's an E6, but holy hell.\n [The Rest]\n It's pretty clear to see that Robin Summeretto is a veritable powerhouse of a support. She's immediately joining the likes of Mortenax and Welt as de facto 'put that stuff on everything' units that just WORK and don't really need all that much help.\n Compared to them, Robin SP is substantially easier to actually play at a baseline, since, well, after you enter the Fever state, she's functionally just a Currency Wars backup character, doing her own thing without your needing to intervene. The only thing you do actually need to somewhat care about is her Ultimate and when you use it.\n And so, this is what I'd say the 'skill limit' of Robin SP is: where you use her and who you pair her with. That Ultimate is crazy high value, this is fairly indisputable, but depending on what happens in a fight, and considering that the action advance and Energy restore can be granted to (almost) any ally, you may need to work unexpectedly hard to figure out what the best time to use it is.\n Consider this example: if you're using Robin SP on a full follow-up team, think Ashveil and Mortenax, then you're not really going to be struggling for much at all, you'll mostly be topping up Ashveil's Ultimate and granting him the Special Guest effect for faster Vibes stacking as well, and you'll be hitting the max of 50 Vibes with little effort. But if you want to use Robin SP on a team like Saber Gilgamesh, somewhere she is greatly appreciated, well now you have to add on Robin's nuances onto the extremely large mountain of headache that already naturally exists with that team, and choosing whether to Ult on Saber or Gilgamesh is a genuine question that you may need to consider later into the fight.\n It's not really a deal-breaker per se, it's just something to keep in mind that Robin SP's difficulty, much like her kit itself, has a high degree of variability.\n But there is a larger question that some of you may be thinking of right now, namely 'Do I actually need Robin Summeretto though'. You may say this actually depends on what other units you have, both support and DPS, after all, while Robin SP does have the insane universality that both Mortenax and Welt do, she doesn't really properly synergise with any specific archetype.\n Well, bad news for you potentially, but she really is just that strong. Sure, she's not like The Dahlia was for Break, nor is she like the Fate part 2 characters for their respective allies, but she's incredibly strong RIGHT NOW, even if it's not exactly archetype-defining.\n Both Mortenax and Welt are in a similar spot, but at least for them they can be much more comfortably be used in place of an actual sustain in teams, providing their immense buffing value while also making it easier to survive, and Welt is even fairly accessible at all times and is easy to get going since everyone gets the Tutorial Light Cone.\n Having just the aforementioned two is very good, but they're often on different teams, or sometimes even on the same team, depending on what you're using and going for. Having access to a third universal support option is naturally very good, and further boosts the teambuilding variety you have access to.\n This is especially notable for the minmaxers and 0-cyclers who tailor their every individual team to the exact fight before them, leveraging everything they can, and having an omni-amping, Energy regenerating, action advancing support who can even deal some decent damage of her own is VERY good. Even still, you also shouldn't automatically assume that if you're a more casual player that Robin SP won't be very good for you (because she is).\n The easiest way to understand why Robin SP is as good as she is, is to return to the statement I made at the start, namely that Robin Summeretto is essentially an upgraded form of the Remembrance Trailblazer. I do not say this lightly, and anyone with eyes knows how strong the Remembrance Trailblazer is, but this should really highlight why Robin is so strong.\n As such, Robin Summeretto can naturally fit into any of the teams that the Remembrance Trailblazer was previously in, and she can do so seamlessly. While I'll give some notable examples, please understand that you should experiment for yourself and find what works best FOR YOU, and not to just take my word for it. I believe in you.\n Remembrance teams in general are somewhere where the Remembrance Trailblazer frequented, either as a mainstay or as a perfect filler for missing important members. My gal Evernight has been a very powerful performer when paired with Cyrene, as they make a very impressive dual DPS composition that when played perfectly would have both had the Mem's Support buff on them. Putting Robin SP here instead makes it effortless to buff both Evernight and Cyrene, and lets you advance and Energy restore Evernight or Hyacine to ensure that their Ultimates maintain their uptime.\n For Castorice teams, surprisingly enough it looks like replacing Cyrene with Robin SP may be the way to maximum damage now (depending on the fight of course, and if you actually have somewhere else to utilise Cyrene), but if you've been staunchly avoiding Evernight or chose to vertically invest in Castorice, Hyacine, and Cyrene, you could also replace Evernight in this team with Robin SP and see similarly great success. With this team, it's harder to justify pulling for Robin SP compared to the solo Evernight comp if you already have every member vertically invested, but you probably can be the judge of that yourself.\n Aglaea is the black sheep of the Remembrance teams, but unsurprisingly Robin SP is very good for her too. The only real issue is that Aglaea herself is struggling to stay relevant, even for the most dedicated of players. Very much a case of 'it's not you, it's me'.\n For the more prevalent meta teams, the Follow-up archetype as a whole is eating good with Ashveil and Mortenax, and adding in a character who easily buffs the whole team and whose personal resources can be easily stacked by fast attacking characters is pretty obviously good. There may even be a surprise (please act surprised when it happens) addition to the archetype that would also synergise greatly with this Robin.\n Elation teams can also benefit from all of the buffs Robin Summeretto is flinging out, and is particularly powerful for Silver Wolf 999, not for directly Ulting Silver Wolf, but actually to advance and regen Yao Guang's Ultimate for more Aha Instants and faster funnelling of Certified Banger to SW999. It's a little harder to make use of Robin SP's conditional CRIT DMG buff for Eva and Sparxie since their base ATK is naturally higher so you're likely going to be stuck with the ATK buff, but even then, it's still a lot of buffing and the same strategy of advancing Yao Guang works wonders if you don't need the Energy for Eva or Sparxie.\n This archetype also indirectly benefits from Robin Summeretto, for the reasons mentioned earlier: replacement to the Remembrance Trailblazer. If you had a team that absolutely could not work without that Trailblazer, you'd lose a very potent Elation teammate, and your Elation team could suffer as a result. Now, you can just pull a switcheroo and free up the Trailblazer to pursue the path of Elation. There's that teambuilding versatility I talked about.\n Himeko Nova can also make use of Robin SP, again replacing the Remembrance Trailblazer in what is now likely a solo Decimation composition. This is a very, truly greedy setup that has Himeko Nova paired with all three of the big universal supports: Robin SP, Welt, and Mortenax. It's a huge amount of damage, but it can cause you to miss some Assist Skill uses if you're not careful, and as mentioned, it locks you out of the possibility of switching to Verdict, so it may actually end up being less optimal than you think in lower enemy density encounters. Also, again, just the sheer opportunity cost of running this setup makes it personally less enticing, but it really is just that strong.\n Probably the other really noteworthy setup is Saber and Gilgamesh. Once again, as you may have already noticed the trend, more than one character responsible for dealing damage and very Energy hungry with high Max Energy, it's a natural pairing. Of course, like I said before, they are hard to optimally pilot, and now even more so with Robin in the mix, but extremely, extremely rewarding when played well.\n [Wrap up]\n 'Do I need Robin SP?', that's the question posited. No, you do not NEED her, just like you don't NEED Mortenax, or Welt, or any of the other extremely powerful characters. There will be more in future, no doubt about that, but I recommend at least considering that you do.\n Especially if you're still rocking the old guard of universal supports like Tribbie or Cipher, those are getting rapidly phased out by these newer and more refined kits. I'm even fairly confident in saying that unless your Tribbie is at E1, you're probably approaching the 'dire need' stage of pulling for new supports.\n But I mean hey, you can also look at like this: Tribbie with E1 has survived for an extremely long time, and is only just now starting to be outdone by her new competitors (and even now some people are still arguing that). If you're really playing the long game, going for one or two Eidolons for Robin Summeretto will mean that she gets to see a lot of use and for quite some time.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Character at 5★ are rated at their Eidolon 0 with level 80 best in slot 4★ or 5★ Light Cone (including limited Light Cones, but at S1).\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n T0\n MoC\n\n T0\n PF\n\n T0\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Rise and Sing (S 1 )\n\n Robin's Signature offers a variety of benefits to the team: 30% HP buff on herself, 1 Skill Point recovery on Ultimate, 30% Action Advance upon entering battle, and 20% SPD buff to the team. While most of these effects are nice, they are often unnecessary in many teams, such as the Skill Point recovery effect. The HP buff on Robin provides a nice ATK boost to teams that scale on it, but for non-ATK scalers it is almost worth nothing, as Robin's personal damage is not strong enough. The Light Cone sees the most potential in SPD-scaling teams as the 20% SPD is a major buff for characters that convert SPD into other stats, while it also helps Robin and her allies reach SPD breakpoints.\n\n 2\n\n Long May Rainbows Adorn the Sky (S 1 )\n\n Hyacine's Signature can provide a nice SPD boost to Robin, as her high SPD Summer Songbirds can apply the Vulnerability debuff from the Light Cone.\n\n 3\n\n Memory's Curtain Never Falls (S 5 )\n\n Mostly used for increasing Robin's SPD to reach breakpoints. Robin, however, cannot reactivate the Light Cone's buff as she is unable to use her Skill during \"Fever\" state.\n\n 4\n\n The Story's Next Page (S 5 )\n\n 4* Gacha exclusive Light Cone can increase Robin's Max HP. Useful in ATK-scaling teams.\n\n 5\n\n Time Waits for No One (S 1 )\n\n For ATK-scaling teams, maximizing Robin's HP can be preferred over other Light Cone effects due to her high HP-scaling ATK buff. Use any off-Path Light Cones with 1375 or 1270 Base HP.\n\n Specialist Light Cones\n 1\n\n Shadowburn (S 5 )\n\n Can be used in niche scenarios such as low AV speedruns, Shadowburn can let Robin use her Ultimate early in battle.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n World-Remaking Deliverer ( 4 -PC)\n\n General best-in-slot for Robin, providing a substantial Max HP buff that improves her ATK buff scaling while offering a teamwide 15% DMG buff.\n 2\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n An option for SPD-scaling teams, although the buff lasting 1 turn means her Ultimate, which advances an ally's action by 100%, will immediately cause the buff to expire. However, Robin may prefer not to use her Ultimate on the main damage dealer in these teams.\n\n Best Planetary Sets\n 1\n\n Amphoreus, The Eternal Land ( 2 -PC)\n\n Amphoreus is preferred in most of her teams as the SPD buff can help allies reach certain SPD breakpoints more easily.\n 2\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Lushaka helps slightly with Robin's Energy while also buffing the ATK of the first ally in the lineup.\n 3\n\n Sprightly Vonwacq ( 2 -PC)\n\n Can be useful in certain scenarios where Robin needs to act first in combat to summon her memosprite to start gaining Vibes.\n 4\n\n Fleet of the Ageless ( 2 -PC)\n\n Strong ATK buff option with multiple damage dealers in the team; the set increases Robin's HP on top of providing an ATK buff.\n\n Best Stats\n\n Body\n HP%\n > CRIT DMG\n\n Feet\n Speed\n > HP%\n\n Planar Sphere\n HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD > HP% > CRIT Rate / CRIT DMG\n\n Recommended endgame stats\n HP: 6000-8000\n\n SPD: 160+\n\n CRIT Rate: 50%\n\n Energy Regeneration Rate: 119.44%\n\n In ATK-scaling teams, Robin should ignore CRIT stats and focus on SPD and HP% to maximize her ATK buff. Her damage is often lackluster in teams that do not have memosprite buffs. HP% Boots can be preferred over SPD - trading some Energy gains on Robin for a higher ATK buff.\n\n Traces priority\n Skills priority: Ultimate > Talent > Memosprite Talent > Memosprite Skill > Skill > Basic\n\n Major Traces priority: Deviated Chords (A2) > Improvised Blues (A4) > Rebuilt Harmony (A6)\n\n Eidolon Information\n\n Eidolon 1\n Allows Summer Songbirds to record damage dealt by allies, up to 16% at max Vibes, then unleash it onto the highest HP target during their turns. This damage redistribution is particularly effective in AoE scenarios where there is a main boss focus; this E1 lets you \"farm\" damage on the adds, and 16% of the damage will be directed to the boss. However, the tally is cleared at 50% instead of the usual 100%, which means that over time the overall damage tallied converges to 32% if max Vibes is reached consistently\n Eidolon 2\n Increases allies' All-Type RES PEN by 20%, maximum Vibes to 70 while also improving its generation by 2 per turn, allowing Robin to maintain higher Vibes on average. Higher Vibes cap results in a higher ATK/CRIT DMG buff, a higher DEF Ignore effect (from 40%->50%), and raises the damage recorded by the E1, up to 36%. These are strong support Eidolons from the first to second, which can result in a significant performance difference.\n Eidolon 4\n Provides one-time 12 Vibes upon entering Fever, and substantially increases Summer Songbirds' SPD by up to an additional 55%, allowing it to generate more Energy for Robin, or deal True DMG from E1's damage tally more often.\n Eidolon 6\n Upon entering Fever and every time the Countdown takes action, Robin gains a fixed 140 Energy, allowing her to immediately use her Ultimate. With the Countdown taking action every 71 AV, the team will see many more Robin Ultimates. Her Max Energy will also be increased to store enough Energy for 2 Ultimates; effects that activate her Ultimates will grant her 2 charges, while percentage-based Energy Regeneration will see high Energy gains for Robin. Her Memosprite Skill DMG is doubled on top of that.\n\n Synergy\n Hyacine - Robin • Summeretto generally prefers a healer for increased Energy gain through her Major Traces, while Hyacine's fast SPD and multi-action turns can stack Vibes for Robin. Robin can allow Hyacine to be slotted into teams that scale on multiple stats, such as with Ashveil and Mortenax Blade, as Robin can convert HP buffs into ATK for Ashveil.\n March 7th • Evernight - Robin fits in nicely with Evernight main DPS teams in the full Remembrance party, as all of them can increase each other's damage in some way; Robin can increase the damage output of both Cyrene and Evernight. Her Ultimate being an on-demand Action Advance can allow Evernight to use her Skill twice within 1 Darkest Riddle consumption, while also providing percentage-based Energy Regeneration, which greatly boosts Evernight's main damage dealer potential.\n Castorice - With Robin's Summer Songbirds permanently on the field, any AoE healing (or damage) will result in higher Newbud gain for Castorice due to having more targets consistently, and such Robin ends up being one of the better teammates for Castorice. Robin's Ultimate does not necessarily have to be targeted on Castorice; instead, it is often better used on Hyacine for its Energy Regeneration effect.\n Himeko Nova - Robin is a powerful support for Himeko Nova but with some caveats; Himeko Nova is an Energy-dependent damage dealer who has frequent attacks, which makes her a great target for Robin's Ultimate. However, Robin being unable to take action to use up Himeko's Assist Skills while her Ultimate advances Himeko's action can require careful planning to use up all Assist Skill counts, and with E2 Himeko may also require allies to skip their turns completely to use up the count. Himeko Nova's teammate requirements can also force awkward comps; with Welt being the best teammate currently, he prefers an AoE attacker in the last slot to trigger Decimation's conditions while they can overcap on DEF Shred with Himeko Nova's Signature.\n Mortenax Blade - With Mortenax Blade's primary role in many teams as a Sub-DPS, Robin's dynamic ATK/CRIT DMG buff is a nice benefit, allowing him to deal higher damage, while their DEF Reduction/DEF Ignore effect synergizes nicely, forming teams with multiple damage dealers.\n Aglaea - Robin's Signature Light Cone and certain Planar Ornaments can provide a teamwide SPD Boost, while Aglaea receives a massive ATK buff. Her Ultimate's Action Advance and percentage-based Energy Regeneration are great for Aglaea, who has a large Energy pool of 360.\n Phainon - Phainon during Transformation can remove both Robin and her Fever Countdown from the field, which prevents her Vibes from being reset (However, it also prevents her E1 from working). Since there is no need for any stats on Robin, she can opt for quadruple HP% main stat on her Relics to provide a massive ATK boost to Phainon.\n Teams\n If a column has multiple characters, the bigger one is the priority choice for the team while the smaller ones are alternatives. If they are the same size, either of them can be used.\n\n Castorice Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Evernight Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Aglaea Remembrance Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Sustain\n\n Silver Wolf Lv.999 Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Ashblade Follow-up ATK Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Himeko Nova Team\n\n DPS\n\n New\n\n Amplifier\n\n Amplifier\n\n Amplifier\n\n Archer Team\n\n DPS\n\n New\n\n Amplifier\n\n Specialist\n\n Amplifier\n\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n No teams featuring this character with data for Memory of Chaos yet.\n\n Video guides\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

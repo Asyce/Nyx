@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "weapons",
   "sourcePath": "/wuthering-waves/weapons",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -637,6 +637,22 @@
         "energy_reg_lv_90": "38.8 %"
       },
       "text": "Gauntlets#21D\nRarity: 4 ★\nType: Pistols\nATK (Lv.90): 387\nEnergy Reg. (Lv.90): 38.8 %"
+    },
+    {
+      "id": "glint-of-clouds",
+      "name": "Glint of Clouds",
+      "kind": "weapons",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/ww/assets/weapons/glint-of-clouds-e9112c110933.webp",
+      "assetId": "e9112c110933",
+      "fields": {
+        "rarity": "5 ★",
+        "type": "Pistols",
+        "atk_lv_90": "500",
+        "crit_rate_lv_90": "36 %"
+      },
+      "text": "Glint of Clouds\nRarity: 5 ★\nType: Pistols\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %"
     },
     {
       "id": "guardian-broadblade",

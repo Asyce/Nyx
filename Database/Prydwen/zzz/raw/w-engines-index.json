@@ -3,7 +3,7 @@
   "game": "zzz",
   "collection": "w-engines",
   "sourcePath": "/zenless/w-engines",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -793,6 +793,23 @@
       "text": "Kaboom the Cannon\nRarity: A | Type: Support\nWhen any friendly unit in the squad attacks and hits an enemy, all friendly units' ATK increases by 2.5/2.8/3.2/3.6/4% for 8s , stacking up to 4 times. The duration of each stack is calculated separately, and each friendly unit can provide 1 stack of the buff. Passive effects of the same name do not stack.\nBase ATK (Lv 60): 624\nEnergy Regen (Lv 60): 50"
     },
     {
+      "id": "knights-extolment",
+      "name": "Knight's Extolment",
+      "kind": "w-engines",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": "Prydwen/zzz/assets/w-engines/knights-extolment-85906a50e3db.webp",
+      "assetId": "85906a50e3db",
+      "fields": {
+        "rarity": "S",
+        "type": "Attack",
+        "at_2_stacks_of_battle_edge_the_equipper_gains_bonechill": "Their DMG ignores 20/23/26/29/32% of the target's Ice RES .",
+        "base_atk_lv_60": "713",
+        "crit_dmg_lv_60": "48"
+      },
+      "text": "Knight's Extolment\nRarity: S | Type: Attack\nWhen the equipper's Basic Attack or EX Special Attack's heavy attack hits an enemy, they gain 1 stack of Battle Edge. Battle Edge can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by 32/36.8/41.6/46.4/51.2% for 25s .\nRepeated triggers of Battle Edge refresh the duration of Battle Edge.\nAt 2 stacks of Battle Edge, the equipper gains Bonechill: Their DMG ignores 20/23/26/29/32% of the target's Ice RES .\nBase ATK (Lv 60): 713\nCRIT DMG% (Lv 60): 48"
+    },
+    {
       "id": "krakens-cradle",
       "name": "Kraken's Cradle",
       "kind": "w-engines",
@@ -807,20 +824,6 @@
         "hp_lv_60": "30"
       },
       "text": "Kraken's Cradle\nRarity: S | Type: Rupture\nWhen the equipper's HP decreases, their Ice Sheer DMG increases by 6/7/8/9/10% , stacking up to 3 times and lasting 25s . The duration of each stack is calculated separately. This effect can trigger once every 0.5s . When the equipper's HP falls to 50% of Max HP or below, CRIT Rate increases by 20/23/26/29/32% .\nBase ATK (Lv 60): 713\nHP (Lv 60): 30"
-    },
-    {
-      "id": "lumiflux",
-      "name": "Lumiflux",
-      "kind": "w-engines",
-      "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/zzz/assets/w-engines/lumiflux-85906a50e3db.webp",
-      "assetId": "85906a50e3db",
-      "fields": {
-        "rarity": "S",
-        "type": "Attack"
-      },
-      "text": "Lumiflux\nRarity: S | Type: Attack\nComing Soon!\nStats for this W-Engine aren't available yet."
     },
     {
       "id": "marcato-desire",

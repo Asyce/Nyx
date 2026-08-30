@@ -11,8 +11,8 @@
   "sourcePath": "/zenless/characters/lucia",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
-  "updatedText": "29/July/2026",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
+  "updatedText": "19/August/2026",
   "meta": {
     "title": "Lucia Best Build Guide | Zenless Zone Zero",
     "description": ""
@@ -375,16 +375,6 @@
       "height": 60
     },
     {
-      "id": "d632251522d1",
-      "sourceHash": "d632251522d1",
-      "kind": "characters",
-      "name": "Billy - Starlight",
-      "fileStem": "billy-starlight",
-      "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
       "id": "b1058e3ac1d7",
       "sourceHash": "b1058e3ac1d7",
       "kind": "characters",
@@ -395,22 +385,22 @@
       "height": 60
     },
     {
+      "id": "d632251522d1",
+      "sourceHash": "d632251522d1",
+      "kind": "characters",
+      "name": "Billy - Starlight",
+      "fileStem": "billy-starlight",
+      "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "f34fb0a851f4",
       "sourceHash": "f34fb0a851f4",
       "kind": "characters",
       "name": "Pan Yinhu",
       "fileStem": "pan-yinhu",
       "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "05437fe51e49",
-      "sourceHash": "05437fe51e49",
-      "kind": "characters",
-      "name": "Lycaon",
-      "fileStem": "lycaon",
-      "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
       "width": 60,
       "height": 60
     },
@@ -433,6 +423,26 @@
       "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
       "width": 60,
       "height": 60
+    },
+    {
+      "id": "05437fe51e49",
+      "sourceHash": "05437fe51e49",
+      "kind": "characters",
+      "name": "Lycaon",
+      "fileStem": "lycaon",
+      "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "894a171664e9",
+      "sourceHash": "894a171664e9",
+      "kind": "characters",
+      "name": "Qingyi",
+      "fileStem": "qingyi",
+      "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+      "width": 60,
+      "height": 60
     }
   ],
   "sections": [
@@ -440,7 +450,7 @@
       "id": "lucia-best-build-guide-0",
       "level": 1,
       "heading": "Lucia Best Build Guide",
-      "text": "Last updated: 29/July/2026",
+      "text": "Last updated: 19/August/2026",
       "assets": [
         {
           "id": "a0197eabc9aa",
@@ -493,7 +503,7 @@
       "id": "update-tracker-3",
       "level": 2,
       "heading": "Update tracker",
-      "text": "Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
+      "text": "Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.",
       "assets": []
     },
     {
@@ -834,7 +844,7 @@
       "id": "best-w-engines-30",
       "level": 2,
       "heading": "Best W-Engines",
-      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Dreamlit Hearth (S 1 )\n\n Lucia's Signature is her best choice and is only usable by her as it requires Ether Veil to provide its full effect, something only Lucia is capable of. It grants her a massive amount of HP and Energy Regen to ensure maximum buffs with maximum uptime, and it makes all squad members gain increased DMG and Max HP when activating Ether Veil (basically up permanently), making it a super strong choice overall.\n Usage: 90.08 %\n Shiyu Defense: 29042\n Deadly Assault: 25825\n\n 2\n\n Weeping Cradle (S 1 )\n\n Increases off-field Energy Regen for the wearer and also increases damage bonus against targets hit by the wearer for a very short duration. Thanks to Lucia's frequent inactive attacks, the uptime on this buff is actually pretty frequent, which can be taken a step further by taking Lucia on-field for brief periods of time during the Stun windows of certain characters. Strong choice overall.\n Usage: 3.45 %\n Shiyu Defense: 27654\n Deadly Assault: 22399\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n The best generalist A-rank Support W-Engine, easily providing ATK% buffs for the whole team. However, Rupture Agents are mostly HP scalers instead of ATK scalers which makes this W-Engine usable in teams featuring Lucia, but often not the best.\n Usage: 2.96 %\n Shiyu Defense: 27414\n Deadly Assault: 22169\n\n 4\n\n Unfettered Game Ball (S 5 )\n\n This niche W-Engine Can outperform any option outside of her Signature W-Engine under the right conditions. Requires the boss to be weak to Ether for its party-wide CRIT Rate-increasing passive to be utilized, but if this condition is fulfilled then it automatically becomes a very strong choice for Lucia teams and it can perform close to even her Signature.\n Usage: 0.68 %\n Shiyu Defense: 27134\n Deadly Assault: 22920",
+      "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Dreamlit Hearth (S 1 )\n\n Lucia's Signature is her best choice and is only usable by her as it requires Ether Veil to provide its full effect, something only Lucia is capable of. It grants her a massive amount of HP and Energy Regen to ensure maximum buffs with maximum uptime, and it makes all squad members gain increased DMG and Max HP when activating Ether Veil (basically up permanently), making it a super strong choice overall.\n Usage: 90.88 %\n Shiyu Defense: 27797\n Deadly Assault: 29768\n\n 2\n\n Weeping Cradle (S 1 )\n\n Increases off-field Energy Regen for the wearer and also increases damage bonus against targets hit by the wearer for a very short duration. Thanks to Lucia's frequent inactive attacks, the uptime on this buff is actually pretty frequent, which can be taken a step further by taking Lucia on-field for brief periods of time during the Stun windows of certain characters. Strong choice overall.\n Usage: 3.04 %\n Shiyu Defense: 26978\n Deadly Assault: 25415\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n The best generalist A-rank Support W-Engine, easily providing ATK% buffs for the whole team. However, Rupture Agents are mostly HP scalers instead of ATK scalers which makes this W-Engine usable in teams featuring Lucia, but often not the best.\n Usage: 2.97 %\n Shiyu Defense: 26603\n Deadly Assault: 25427\n\n 4\n\n Unfettered Game Ball (S 5 )\n\n This niche W-Engine Can outperform any option outside of her Signature W-Engine under the right conditions. Requires the boss to be weak to Ether for its party-wide CRIT Rate-increasing passive to be utilized, but if this condition is fulfilled then it automatically becomes a very strong choice for Lucia teams and it can perform close to even her Signature.\n Usage: 0.6 %\n Shiyu Defense: 25905\n Deadly Assault: 27319",
       "assets": [
         {
           "id": "a90787b4b725",
@@ -1037,7 +1047,7 @@
       "id": "teams-shiyu-defense-37",
       "level": 2,
       "heading": "Teams (Shiyu Defense)",
-      "text": "This section lists most popular teams featuring Lucia in the current phase of Shiyu Defense.\n Rank 7\n App. rate: 9.04 %\n Avg. time: 28308\n\n Rank 9\n App. rate: 8.12 %\n Avg. time: 27634\n\n Rank 24\n App. rate: 2.29 %\n Avg. time: 31442\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 34335\n\n Rank 32\n App. rate: 1.67 %\n Avg. time: 29429\n\n Rank 36\n App. rate: 1.31 %\n Avg. time: 27274\n\n Rank 37\n App. rate: 1.3 %\n Avg. time: 29171\n\n Rank 38\n App. rate: 1.22 %\n Avg. time: 30028\n\n Rank 47\n App. rate: 0.77 %\n Avg. time: 29009\n\n Rank 51\n App. rate: 0.74 %\n Avg. time: 27091",
+      "text": "This section lists most popular teams featuring Lucia in the current phase of Shiyu Defense.\n Rank 5\n App. rate: 11.58 %\n Avg. Score: 27120\n\n Rank 6\n App. rate: 9.76 %\n Avg. Score: 27181\n\n Rank 21\n App. rate: 1.94 %\n Avg. Score: 29896\n\n Rank 24\n App. rate: 1.63 %\n Avg. Score: 30705\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 30967\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 25985\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 32394\n\n Rank 36\n App. rate: 0.82 %\n Avg. Score: 25761\n\n Rank 43\n App. rate: 0.74 %\n Avg. Score: 27936\n\n Rank 45\n App. rate: 0.67 %\n Avg. Score: 26989",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1080,16 +1090,6 @@
           "height": 60
         },
         {
-          "id": "d632251522d1",
-          "sourceHash": "d632251522d1",
-          "kind": "characters",
-          "name": "Billy - Starlight",
-          "fileStem": "billy-starlight",
-          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
           "id": "b1058e3ac1d7",
           "sourceHash": "b1058e3ac1d7",
           "kind": "characters",
@@ -1100,12 +1100,22 @@
           "height": 60
         },
         {
-          "id": "3f97af69c631",
-          "sourceHash": "3f97af69c631",
+          "id": "d632251522d1",
+          "sourceHash": "d632251522d1",
           "kind": "characters",
-          "name": "Yidhari",
-          "fileStem": "yidhari",
-          "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+          "name": "Billy - Starlight",
+          "fileStem": "billy-starlight",
+          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "7b812101932f",
+          "sourceHash": "7b812101932f",
+          "kind": "characters",
+          "name": "Banyue",
+          "fileStem": "banyue",
+          "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
           "width": 60,
           "height": 60
         },
@@ -1116,16 +1126,6 @@
           "name": "Pan Yinhu",
           "fileStem": "pan-yinhu",
           "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "05437fe51e49",
-          "sourceHash": "05437fe51e49",
-          "kind": "characters",
-          "name": "Lycaon",
-          "fileStem": "lycaon",
-          "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
           "width": 60,
           "height": 60
         },
@@ -1138,6 +1138,16 @@
           "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
           "width": 60,
           "height": 60
+        },
+        {
+          "id": "2fd489d454a4",
+          "sourceHash": "2fd489d454a4",
+          "kind": "characters",
+          "name": "Trigger",
+          "fileStem": "trigger",
+          "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+          "width": 60,
+          "height": 60
         }
       ]
     },
@@ -1145,7 +1155,7 @@
       "id": "teams-deadly-assault-38",
       "level": 2,
       "heading": "Teams (Deadly Assault)",
-      "text": "This section lists most popular teams featuring Lucia in the current phase of Deadly Assault.\n Rank 8\n App. rate: 8.05 %\n Avg. score: 27432\n\n Rank 13\n App. rate: 4.44 %\n Avg. score: 24282\n\n Rank 36\n App. rate: 0.84 %\n Avg. score: 28353\n\n Rank 42\n App. rate: 0.69 %\n Avg. score: 22931\n\n Rank 43\n App. rate: 0.65 %\n Avg. score: 22713\n\n Rank 50\n App. rate: 0.58 %\n Avg. score: 26639\n\n Rank 57\n App. rate: 0.42 %\n Avg. score: 23274\n\n Rank 59\n App. rate: 0.4 %\n Avg. score: 24111\n\n Rank 97\n App. rate: 0.16 %\n Avg. score: 24710\n\n Rank 110\n App. rate: 0.12 %\n Avg. score: 24893",
+      "text": "This section lists most popular teams featuring Lucia in the current phase of Deadly Assault.\n Rank 2\n App. rate: 25.18 %\n Avg. Score: 31350\n\n Rank 3\n App. rate: 21.53 %\n Avg. Score: 28377\n\n Rank 10\n App. rate: 5.08 %\n Avg. Score: 31705\n\n Rank 12\n App. rate: 3.39 %\n Avg. Score: 24860\n\n Rank 14\n App. rate: 2.85 %\n Avg. Score: 26066\n\n Rank 16\n App. rate: 2.28 %\n Avg. Score: 29680\n\n Rank 17\n App. rate: 1.81 %\n Avg. Score: 25309\n\n Rank 20\n App. rate: 1.41 %\n Avg. Score: 30803\n\n Rank 31\n App. rate: 0.72 %\n Avg. Score: 24437\n\n Rank 33\n App. rate: 0.71 %\n Avg. Score: 27967",
       "assets": [
         {
           "id": "53300a2a5c70",
@@ -1204,16 +1214,6 @@
           "name": "Pan Yinhu",
           "fileStem": "pan-yinhu",
           "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "d632251522d1",
-          "sourceHash": "d632251522d1",
-          "kind": "characters",
-          "name": "Billy - Starlight",
-          "fileStem": "billy-starlight",
-          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
           "width": 60,
           "height": 60
         },
@@ -1228,6 +1228,16 @@
           "height": 60
         },
         {
+          "id": "d632251522d1",
+          "sourceHash": "d632251522d1",
+          "kind": "characters",
+          "name": "Billy - Starlight",
+          "fileStem": "billy-starlight",
+          "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "98d8d659c143",
           "sourceHash": "98d8d659c143",
           "kind": "characters",
@@ -1256,6 +1266,16 @@
           "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
           "width": 60,
           "height": 60
+        },
+        {
+          "id": "894a171664e9",
+          "sourceHash": "894a171664e9",
+          "kind": "characters",
+          "name": "Qingyi",
+          "fileStem": "qingyi",
+          "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+          "width": 60,
+          "height": 60
         }
       ]
     }
@@ -1266,7 +1286,7 @@
       "sections": [
         {
           "heading": "Best W-Engines",
-          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Dreamlit Hearth (S 1 )\n\n Lucia's Signature is her best choice and is only usable by her as it requires Ether Veil to provide its full effect, something only Lucia is capable of. It grants her a massive amount of HP and Energy Regen to ensure maximum buffs with maximum uptime, and it makes all squad members gain increased DMG and Max HP when activating Ether Veil (basically up permanently), making it a super strong choice overall.\n Usage: 90.08 %\n Shiyu Defense: 29042\n Deadly Assault: 25825\n\n 2\n\n Weeping Cradle (S 1 )\n\n Increases off-field Energy Regen for the wearer and also increases damage bonus against targets hit by the wearer for a very short duration. Thanks to Lucia's frequent inactive attacks, the uptime on this buff is actually pretty frequent, which can be taken a step further by taking Lucia on-field for brief periods of time during the Stun windows of certain characters. Strong choice overall.\n Usage: 3.45 %\n Shiyu Defense: 27654\n Deadly Assault: 22399\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n The best generalist A-rank Support W-Engine, easily providing ATK% buffs for the whole team. However, Rupture Agents are mostly HP scalers instead of ATK scalers which makes this W-Engine usable in teams featuring Lucia, but often not the best.\n Usage: 2.96 %\n Shiyu Defense: 27414\n Deadly Assault: 22169\n\n 4\n\n Unfettered Game Ball (S 5 )\n\n This niche W-Engine Can outperform any option outside of her Signature W-Engine under the right conditions. Requires the boss to be weak to Ether for its party-wide CRIT Rate-increasing passive to be utilized, but if this condition is fulfilled then it automatically becomes a very strong choice for Lucia teams and it can perform close to even her Signature.\n Usage: 0.68 %\n Shiyu Defense: 27134\n Deadly Assault: 22920",
+          "text": "The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Dreamlit Hearth (S 1 )\n\n Lucia's Signature is her best choice and is only usable by her as it requires Ether Veil to provide its full effect, something only Lucia is capable of. It grants her a massive amount of HP and Energy Regen to ensure maximum buffs with maximum uptime, and it makes all squad members gain increased DMG and Max HP when activating Ether Veil (basically up permanently), making it a super strong choice overall.\n Usage: 90.88 %\n Shiyu Defense: 27797\n Deadly Assault: 29768\n\n 2\n\n Weeping Cradle (S 1 )\n\n Increases off-field Energy Regen for the wearer and also increases damage bonus against targets hit by the wearer for a very short duration. Thanks to Lucia's frequent inactive attacks, the uptime on this buff is actually pretty frequent, which can be taken a step further by taking Lucia on-field for brief periods of time during the Stun windows of certain characters. Strong choice overall.\n Usage: 3.04 %\n Shiyu Defense: 26978\n Deadly Assault: 25415\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n The best generalist A-rank Support W-Engine, easily providing ATK% buffs for the whole team. However, Rupture Agents are mostly HP scalers instead of ATK scalers which makes this W-Engine usable in teams featuring Lucia, but often not the best.\n Usage: 2.97 %\n Shiyu Defense: 26603\n Deadly Assault: 25427\n\n 4\n\n Unfettered Game Ball (S 5 )\n\n This niche W-Engine Can outperform any option outside of her Signature W-Engine under the right conditions. Requires the boss to be weak to Ether for its party-wide CRIT Rate-increasing passive to be utilized, but if this condition is fulfilled then it automatically becomes a very strong choice for Lucia teams and it can perform close to even her Signature.\n Usage: 0.6 %\n Shiyu Defense: 25905\n Deadly Assault: 27319",
           "assets": [
             {
               "id": "a90787b4b725",
@@ -1480,7 +1500,7 @@
       "sections": [
         {
           "heading": "Teams (Shiyu Defense)",
-          "text": "This section lists most popular teams featuring Lucia in the current phase of Shiyu Defense.\n Rank 7\n App. rate: 9.04 %\n Avg. time: 28308\n\n Rank 9\n App. rate: 8.12 %\n Avg. time: 27634\n\n Rank 24\n App. rate: 2.29 %\n Avg. time: 31442\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 34335\n\n Rank 32\n App. rate: 1.67 %\n Avg. time: 29429\n\n Rank 36\n App. rate: 1.31 %\n Avg. time: 27274\n\n Rank 37\n App. rate: 1.3 %\n Avg. time: 29171\n\n Rank 38\n App. rate: 1.22 %\n Avg. time: 30028\n\n Rank 47\n App. rate: 0.77 %\n Avg. time: 29009\n\n Rank 51\n App. rate: 0.74 %\n Avg. time: 27091",
+          "text": "This section lists most popular teams featuring Lucia in the current phase of Shiyu Defense.\n Rank 5\n App. rate: 11.58 %\n Avg. Score: 27120\n\n Rank 6\n App. rate: 9.76 %\n Avg. Score: 27181\n\n Rank 21\n App. rate: 1.94 %\n Avg. Score: 29896\n\n Rank 24\n App. rate: 1.63 %\n Avg. Score: 30705\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 30967\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 25985\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 32394\n\n Rank 36\n App. rate: 0.82 %\n Avg. Score: 25761\n\n Rank 43\n App. rate: 0.74 %\n Avg. Score: 27936\n\n Rank 45\n App. rate: 0.67 %\n Avg. Score: 26989",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -1523,16 +1543,6 @@
               "height": 60
             },
             {
-              "id": "d632251522d1",
-              "sourceHash": "d632251522d1",
-              "kind": "characters",
-              "name": "Billy - Starlight",
-              "fileStem": "billy-starlight",
-              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
               "id": "b1058e3ac1d7",
               "sourceHash": "b1058e3ac1d7",
               "kind": "characters",
@@ -1543,12 +1553,22 @@
               "height": 60
             },
             {
-              "id": "3f97af69c631",
-              "sourceHash": "3f97af69c631",
+              "id": "d632251522d1",
+              "sourceHash": "d632251522d1",
               "kind": "characters",
-              "name": "Yidhari",
-              "fileStem": "yidhari",
-              "path": "Prydwen/zzz/assets/characters/yidhari-3f97af69c631.webp",
+              "name": "Billy - Starlight",
+              "fileStem": "billy-starlight",
+              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
+              "id": "7b812101932f",
+              "sourceHash": "7b812101932f",
+              "kind": "characters",
+              "name": "Banyue",
+              "fileStem": "banyue",
+              "path": "Prydwen/zzz/assets/characters/banyue-7b812101932f.webp",
               "width": 60,
               "height": 60
             },
@@ -1559,16 +1579,6 @@
               "name": "Pan Yinhu",
               "fileStem": "pan-yinhu",
               "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "05437fe51e49",
-              "sourceHash": "05437fe51e49",
-              "kind": "characters",
-              "name": "Lycaon",
-              "fileStem": "lycaon",
-              "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
               "width": 60,
               "height": 60
             },
@@ -1581,12 +1591,22 @@
               "path": "Prydwen/zzz/assets/characters/astra-yao-98d8d659c143.webp",
               "width": 60,
               "height": 60
+            },
+            {
+              "id": "2fd489d454a4",
+              "sourceHash": "2fd489d454a4",
+              "kind": "characters",
+              "name": "Trigger",
+              "fileStem": "trigger",
+              "path": "Prydwen/zzz/assets/characters/trigger-2fd489d454a4.webp",
+              "width": 60,
+              "height": 60
             }
           ]
         },
         {
           "heading": "Teams (Deadly Assault)",
-          "text": "This section lists most popular teams featuring Lucia in the current phase of Deadly Assault.\n Rank 8\n App. rate: 8.05 %\n Avg. score: 27432\n\n Rank 13\n App. rate: 4.44 %\n Avg. score: 24282\n\n Rank 36\n App. rate: 0.84 %\n Avg. score: 28353\n\n Rank 42\n App. rate: 0.69 %\n Avg. score: 22931\n\n Rank 43\n App. rate: 0.65 %\n Avg. score: 22713\n\n Rank 50\n App. rate: 0.58 %\n Avg. score: 26639\n\n Rank 57\n App. rate: 0.42 %\n Avg. score: 23274\n\n Rank 59\n App. rate: 0.4 %\n Avg. score: 24111\n\n Rank 97\n App. rate: 0.16 %\n Avg. score: 24710\n\n Rank 110\n App. rate: 0.12 %\n Avg. score: 24893",
+          "text": "This section lists most popular teams featuring Lucia in the current phase of Deadly Assault.\n Rank 2\n App. rate: 25.18 %\n Avg. Score: 31350\n\n Rank 3\n App. rate: 21.53 %\n Avg. Score: 28377\n\n Rank 10\n App. rate: 5.08 %\n Avg. Score: 31705\n\n Rank 12\n App. rate: 3.39 %\n Avg. Score: 24860\n\n Rank 14\n App. rate: 2.85 %\n Avg. Score: 26066\n\n Rank 16\n App. rate: 2.28 %\n Avg. Score: 29680\n\n Rank 17\n App. rate: 1.81 %\n Avg. Score: 25309\n\n Rank 20\n App. rate: 1.41 %\n Avg. Score: 30803\n\n Rank 31\n App. rate: 0.72 %\n Avg. Score: 24437\n\n Rank 33\n App. rate: 0.71 %\n Avg. Score: 27967",
           "assets": [
             {
               "id": "53300a2a5c70",
@@ -1645,16 +1665,6 @@
               "name": "Pan Yinhu",
               "fileStem": "pan-yinhu",
               "path": "Prydwen/zzz/assets/characters/pan-yinhu-f34fb0a851f4.webp",
-              "width": 60,
-              "height": 60
-            },
-            {
-              "id": "d632251522d1",
-              "sourceHash": "d632251522d1",
-              "kind": "characters",
-              "name": "Billy - Starlight",
-              "fileStem": "billy-starlight",
-              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
               "width": 60,
               "height": 60
             },
@@ -1669,6 +1679,16 @@
               "height": 60
             },
             {
+              "id": "d632251522d1",
+              "sourceHash": "d632251522d1",
+              "kind": "characters",
+              "name": "Billy - Starlight",
+              "fileStem": "billy-starlight",
+              "path": "Prydwen/zzz/assets/characters/billy-starlight-d632251522d1.webp",
+              "width": 60,
+              "height": 60
+            },
+            {
               "id": "98d8d659c143",
               "sourceHash": "98d8d659c143",
               "kind": "characters",
@@ -1697,6 +1717,16 @@
               "path": "Prydwen/zzz/assets/characters/lycaon-05437fe51e49.webp",
               "width": 60,
               "height": 60
+            },
+            {
+              "id": "894a171664e9",
+              "sourceHash": "894a171664e9",
+              "kind": "characters",
+              "name": "Qingyi",
+              "fileStem": "qingyi",
+              "path": "Prydwen/zzz/assets/characters/qingyi-894a171664e9.webp",
+              "width": 60,
+              "height": 60
             }
           ]
         }
@@ -1704,5 +1734,5 @@
     }
   },
   "tables": [],
-  "text": "Lucia Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Lucia\n Lucia Best Build Guide\n Last updated: 29/July/2026\n\n Introduction\n Best guide and build for Lucia from ZZZ (Zenless Zone Zero). Lucia is an rank character with the Ether attribute who belongs to the Support Specialty and who is part of the Spook Shack faction.\n\n To learn more about Lucia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lucia has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 29/July/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Lucia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Lost Nocturne\n\n Lv. 1\n\n When entering the battlefield, Lucia immediately gains 60 Dream Points. If her Dream Points reaches 100 upon activating a Whim or Harmony, she enters the Dream state.\n\nWhen entering the Dream state, it triggers a Quick Assist and simultaneously activates Ether Veil: Wellspring. While Ether Veil: Wellspring is active, all squad members' Max HP increase by 5% , lasting 40s . Repeated triggers extend the duration, up to a max of 300s .\n\nWhile Lucia is in the Dream state, using any Whim consumes 25 Dream Points and upgrades it to Harmony. Whenever another active character's attack hits an enemy, Lucia consumes 25 Dream Points to unleash an Aftershock. This Aftershock is a Harmony. After Lucia triggers a skill upgrade or Aftershock, Aftershock cannot be triggered for 8s .\n\nWhen Lucia triggers a skill upgrade or an Aftershock, all squad members gain the Dreamer's Nursery Rhyme state. While in Dreamer's Nursery Rhyme state, DMG dealt increases by 10% for 12s. Repeated triggers reset the duration.\n\nIf Lucia runs out of Dream Points or she leaves the Ether Veil, she exits the Dream state.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Ballad of the Long Night\n\n When another character in your squad is a Rupture or Stun character:\n When applying Darkbreaker, additionally applies a 30% CRIT DMG increase effect.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Orbital Combo\n\n Press to activate:\nPerform up to five forward strikes, dealing Ether DMG.\nThe fifth attack is a Whim, conjuring an Ethereal figure that inflicts Ether DMG on enemies in a circular area ahead.\nWhen in combat and not in the Dream state, Lucia gains 40 Dream Points upon using this Whim.\n Multipliers\n\n Dodge: Fading Silhouette\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Refraction\n\n Press during a dodge to activate:\nDeliver a quick strike forward, dealing Ether DMG.\n Multipliers\n\n Dodge Counter: Stardust Echo\n\n Press during a Perfect Dodge to activate.\nThis Dodge Counter is a Whim. When activated, summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Symphony of the Reaper - Storm\n\n Press to activate.\nThis Special Attack is a Whim. When activated, it recreates an Ethereal figure that slashes forward in a line, dealing Ether DMG.\nWhen in combat and not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\n Multipliers\n\n EX Special Attack: Symphony of the Reaper - Daybreak\n\n With enough Energy, press to activate:\nThis EX Special Attack is a Harmony. When activated, it summons an Ethereal figure that delivers a powerful forward slash in a line, dealing Ether DMG.\nWhen Lucia uses any Harmony, all squad members gain the Darkbreaker state. While in Darkbreaker state, Sheer Force increases by 12. Every 200 points of Lucia's initial Max HP grants an additional amount of Sheer Force. The Darkbreaker state can increase Sheer Force by up to a maximum of X, lasting 20s and repeated triggers reset the duration. When Lucia's initial Max HP reaches 24,000, the above bonus effect reaches its maximum value.\nWhen any Harmony deals DMG, Lucia increases the final attack's DMG by an additional % of her Max HP.\nIf she activates this EX Special Attack while in the Dream state and under the effect of Ether Veil: Wellspring, Ether Veil: Wellspring duration is extended by 16s.\nAfter activating her EX Special Attack, Lucia can immediately follow up with the 5th hit of her Basic Attack.\nIf not in the Dream state, Lucia gains 60 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Stage of Brilliance\n\n When a Chain Attack is triggered, select the character to activate:\nThis Chain Attack is a Harmony. When activated, it summons an Ethereal figure that pulls in enemies in a circular area ahead and deals Ether DMG.\nIf not in the Dream state, Lucia gains 40 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Charge, Great Armor!\n\n When Decibel Rating is at Maximum, press to activate.\nThis Ultimate is a Harmony. When activated, Lucia summons an Ethereal figure and rides it forward in a charge. Holding a directional button allows her to steer and extend the charge, up to 3s. During the charge, Anti-Interrupt Level is increased, DMG taken is reduced by 40%, and when Lucia takes fatal DMG, she remains in battle with HP not dropping below 1.\nWhen the charge ends, Lucia unleashes a powerful strike in a large area around her, dealing Ether DMG. A Quick Assist is triggered when this skill hits an enemy, and after the skill is used, it leaves behind a Starlight Convergence. Starlight Convergence lasts 8s. While inside Starlight Convergence, the currently active character gains HP regeneration equal to % of Lucia's Max HP per second. This effect ends 4s after leaving the Starlight Convergence or immediately when switching out.\nAfter activation, if Lucia is in the Dream state and Ether Veil: Wellspring is active, Ether Veil: Wellspring duration is extended by 32s.\nIf not in the Dream state, Lucia gains 100 Dream Points upon using this Harmony. If she is in the Dream state when activating this Harmony, she will gain 100 Dream Points and re-enter Dream state the next time she exits it. This effect cannot be stacked.\nCharacter is invulnerable while performing the powerful strike.\n Multipliers\n\n Assist Follow-Up: Harmony of Painted Dreams\n\n Press after a Defensive Assist to activate:\nThis Assist Follow-Up is a Harmony. When activated, it summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 40 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Voice of Illusory Dreams\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Crushing Mist\n\n When the active character is launched, press to activate.\nThis Quick Assist is a Whim. When activated, it summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Secret Friend\n Mindscape 1\n\n When Dreamer's Nursery Rhyme deals additional DMG, ignore 18% of enemy All-Attribute RES and have 5% increased Decibel Generation Rate. Each time Lucia performs a skill upgrade, she gains 1 stack of Echo, stacking up to 4 times. When Dreamer's Nursery Rhyme ends, if Lucia has any Echo stacks, 1 stack is consumed to reapply Dreamer's Nursery Rhyme to all squad members.\n\n M2\n Great Magician\n Mindscape 2\n\n While Lucia is inside Ether Veil: Wellspring, Harmony deals 15% more DMG. Agents in the Darkbreaker state gain an additional 15% Sheer DMG increase while in Ether Veil: Wellspring.\n\n M3\n The Best Partner\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Late-Night Hours\n Mindscape 4\n\n When Ether Veil is activated or extended on the field, Lucia grants all squad members 100 Decibels. This effect can trigger once every 15s .\n\n M5\n Dream Watcher\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n The Never-Ending Journey\n Mindscape 6\n\n When Lucia is inside any Ether Veil, her ATK increases by 2% of her initial Max HP, and Harmony always triggers a CRIT with Harmony CRIT DMG increased by 30% .\n\n Stats (Level 60)\n Lucia Stats at level 60 (including Core passive bonuses).\n\n HP\n 8477\n\n DEF\n 594\n\n ATK\n 758\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 83\n\n Anomaly Mastery\n 96\n\n Anomaly Proficiency\n 95\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Endgame Modes\n\n Pros & Cons\n Pros\n The best buffer for Rupture teams bar none. A level above everyone else;\n\n Signature W-Engine is not necessary to perform;\n\n Rather easy to use at a baseline, while still maintaining some room for optimization;\n\n Provides a decent chunk of healing for added comfort;\n\n Quite literally the goat\n\n Cons\n Has little to no uses outside of Rupture teams;\n\n Expensive in terms of skill levels to maximize damage;\n\n While her Signature W-Engine is not necessary, it is a noticeable upgrade and makes her much easier to build - but it is also only usable by her.\n\n Review\n Lucia is an S-rank Ether Support Agent whose main characteristics are her abilities to buff Rupture Agents better than any other and scaling off of HP for her damage and numerous buffs ranging from CRIT DMG increase, to Max HP increase, to providing DMG Bonus, healing, Sheer Force and more depending on your build. As one of the strongest Support Agents in the game, she scales particularly well with one of the top meta contenders (Yixuan) as well as Manato, and they make for some of the strongest teams available. However, to make use of the wide array of buffs that she has, understanding her kit is a necessity, so let’s detail it piece by piece:\n Key Mechanics: Whim and Harmony\n When using Whim skills (we detail them later), her Chain Attack, EX Special, and Assist Follow-Up, and assuming she is not currently in the Dream State Lucia restores Dream Points (she also starts combat at 60). Lucia can also restore 100 Dream Points via her Ultimate, but if used during the Dream state she automatically re-enters it once it expires instead. Upon reaching 100 Dream Points, she automatically enters the Dream state, which activates a unique mechanic called Ether Veil: Wellspring, increasing the combat Max HP of all party members by 5% (a good boost solely tailored towards Rupture Agents, as their damage scales off of Max HP). In practical combat, once set up, this should always be active as the duration can be extended by her EX Special and Ultimate. The Dream state also triggers a Quick Assist every time it is entered - optimally however, Lucia will never exit this state, and hence this will be one-time use provided optimal combos are being performed.\n Lucia has 2 skill mechanics called Whim and Harmony, which are types attributed to most of her attacks. If Lucia is in the Dream state, all of her attacks become of the Harmony type, and outside of the Dream State, some are considered Whims, that being her Basic Attack 5, Quick Assist, Special Attack and Dodge Counter. On the other hand, her Chain Attack, EX Special and Ultimate are always considered Harmonies. All Harmonies deal increased damage based on 70% of Lucia’s Max HP - this increase is added to the Base Damage of the damage formula and hence is also multiplicative with other multipliers such as crit and Damage Bonuses.\n Additionally, all of her Whim skills inside of the Dream state are upgraded to deal massively increased damage, are then considered of the Harmony type and, like all other Harmony attacks except the ones that are always considered Harmony by default, will consume 25 Dream Points each (we won’t repeat this, but it will always apply). In the Dream state, if Lucia is off-field and another character attacks, she can attack inactively via a Harmony Aftershock attack at the same time every 8 seconds (similarly to a character like Trigger for example, but on a way longer cooldown). However, this cooldown can be reset via upgrading a Whim.\n Buffs & How to access them\n Aside from the 5% combat Max HP% increase from Ether Veil listed earlier, Lucia additionally provides the following buffs under the following conditions:\n 20% DMG Bonus: Practically always active in combat after upgrading a Whim or triggering an Aftershock.\n\n Up to 900 combat Sheer Force: When using any Harmony, Lucia gives a state called Darkbreaker to all party members for 20s (refreshed when using any Harmony). The buff starts at 12 points and is increased by 7.4 for every 200 points of initial HP she has (in the stat screen), which makes the buff cap out at 24000 initial HP. This can be expected to be permanently active, thanks to a lot of her attacks (whether on-field or inactive) being considered Harmonies.\n\n 30% CRIT DMG: Additional Ability buff, given to all squad members in the Darkbreaker state so long as the condition is fulfilled.\n\n Basic Attack\n Lucia has a 5-part Basic Attack string which is completely normal save for the 5th part. It is considered a Whim and hence restores 40 Dream Points outside of the Dream state, a property which will be used in her rotations.\n Special & EX Special\n Lucia’s regular Special provides an extra 20 Dream Points outside of the Dream State as it is considered a Whim. As a result, it may see use in some of her combos, but keep in mind it can only restore Dream Points every 5 seconds.\n When it comes to her EX Special, it is always considered a Harmony, deals a solid amount of damage and gives the Darkbreaker buffs listed earlier - however, triggering ANY harmony type attack will grant the Darkbreaker Buff, which means her EX Special mainly serves to maintain the Moonlight Lullaby 4-piece set effect. It also restores 60 Dream Points outside of the Dream state and during the Dream state, it will extend the duration of Ether Veil by 16 seconds. It also allows her to immediately follow up with the 5th hit of her Basic Attack.\n Ultimate\n Lucia’s Ultimate makes her summon an Ethereal figure and ride it until she hits an enemy. While she is invincible during the initial activation, Lucia is not invincible during this ride, she will be able to take damage but she will be immortal as she will always survive on at least 1HP. When she hits an enemy successfully, she will cast an AoE attack around them, trigger a Quick Assist, and summon a small field called Starlight Convergence, which lasts for 8s. It provides healing equal to 1.6% of her Max HP per second to any active Agent standing inside of it, this healing lingering for 4s if they step out of the circle or become off-field.\n When used during the Dream state, Lucia’s Ultimate also extends the Ether Veil duration by 32s, and additionally makes her enter the Dream state once more right as it expires. Outside of the Dream state, it will restore 100 Dream Points, but ideally we will not use it outside of the Dream state.\n Unused/Redundant parts of her kit\n All of Lucia’s Dodge-related moves should never be used in practice, so we will not detail them as a result.\n Her Chain Attack and Assist Follow-Up mostly behave normally, but they will be used, and it is worth noting they are always considered Harmonies and restore 40 Dream Points outside of the Dream state.\n Depending on the team, her Quick Assist may be used occasionally or not at all. On the chance it is used, it is considered a Whim, and can restore 20 Dream Points once every 5s outside of the Dream state.\n Meta Position & Conclusion\n Lucia is one of the strongest Agents in the game, period. She’s a very strong Support, but she is solely tailored towards the Rupture archetype. For the more casual players, you will be delighted to know that she can be mostly ignored inside of her Dream state and Dream state uptime is the most important part of her kit. So long as this is maintained, Lucia will perform fine. However, it is completely possible to optimize her damage for the more seasoned players, by making sure to maintain Moonlight Lullaby’s Buff by using her EX Special once every 25 seconds.\n A lot of the reason why Lucia is very strong (and this is her main meta position), is because her tailored buffs toward Rupture Agents work particularly well with one of the strongest contenders in the meta, being Yixuan. Yixuan and Lucia are a force to be reckoned with, because Lucia buffs Yixuan’s Sheer Force better than anyone else while also making her benefit from her Combat HP increase, CRIT DMG and DMG Bonus as usual. Her buffs in Yixuan teams are so significant compared to other Agents that Lucia gets a meta niche carved out for herself simply by Yixuan existing. And this won’t just apply to Yixuan: Manato is also at his strongest with Lucia, and rest assured that many future Rupture Agents will be at their best by her side. With that being said, outside of Rupture teams, Lucia will always be outclassed by several other Support Agents.\n In conclusion, Lucia is the ultimate buffer for Rupture Agents, currently unmatched in this role in the meta. While she has options to take her personal damage a step further for the more advanced players, at a baseline she remains very functional without much effort, and stands out as one of the strongest Support Agents in the game.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Dreamlit Hearth (S 1 )\n\n Lucia's Signature is her best choice and is only usable by her as it requires Ether Veil to provide its full effect, something only Lucia is capable of. It grants her a massive amount of HP and Energy Regen to ensure maximum buffs with maximum uptime, and it makes all squad members gain increased DMG and Max HP when activating Ether Veil (basically up permanently), making it a super strong choice overall.\n Usage: 90.08 %\n Shiyu Defense: 29042\n Deadly Assault: 25825\n\n 2\n\n Weeping Cradle (S 1 )\n\n Increases off-field Energy Regen for the wearer and also increases damage bonus against targets hit by the wearer for a very short duration. Thanks to Lucia's frequent inactive attacks, the uptime on this buff is actually pretty frequent, which can be taken a step further by taking Lucia on-field for brief periods of time during the Stun windows of certain characters. Strong choice overall.\n Usage: 3.45 %\n Shiyu Defense: 27654\n Deadly Assault: 22399\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n The best generalist A-rank Support W-Engine, easily providing ATK% buffs for the whole team. However, Rupture Agents are mostly HP scalers instead of ATK scalers which makes this W-Engine usable in teams featuring Lucia, but often not the best.\n Usage: 2.96 %\n Shiyu Defense: 27414\n Deadly Assault: 22169\n\n 4\n\n Unfettered Game Ball (S 5 )\n\n This niche W-Engine Can outperform any option outside of her Signature W-Engine under the right conditions. Requires the boss to be weak to Ether for its party-wide CRIT Rate-increasing passive to be utilized, but if this condition is fulfilled then it automatically becomes a very strong choice for Lucia teams and it can perform close to even her Signature.\n Usage: 0.68 %\n Shiyu Defense: 27134\n Deadly Assault: 22920\n\n Best Disk Drives Sets\n 1\n\n Moonlight Lullaby ( 4 -PC)\n\n Grants 20% Energy Regen on the 2-piece, and most importantly the 4-piece is the best set for every Support-class Agent. This is because it provides not only more DMG Bonus than both Proto Punk and Swing Jazz (18%), but the duration of the buff is also much longer than both of them as well (25s), while the condition is also much easier to fulfill (it only requires casting an EX Special or Ultimate). It makes this set the best choice for all Supports and is only superceded by a fully stacked Astral Voice, which is not consistently upkept by most Agents.\n Best combined with your choice of 2-PC Set:\n 2P\n Yunkui Tales\n\n (Recommended)\n\n Best Disk Drives Stats\n Disk 4\n HP%\n\n Disk 5\n HP%\n\n Disk 6\n HP%\n\n Substats: HP% > HP > CRIT Rate >= CRIT DMG\n\n Best Endgame Stats (Level 60)\n ATK: 1800+\n\n HP: 22000 - 24000+ (Focus on hitting 24000!)\n\n DEF: 800+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Lucia . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Banyue - Lucia buffs Rupture Agents by massive amounts, making any Rupture damage dealer scale with her buffs fantastically, taking their damage to new heights. There is no particular synergy that Lucia's kit has with any of these 3 characters other than the raw stats that she provides in stats, but that alone is enough to make her be their best buffer bar none.\n Yidhari - Lucia is the de-facto Rupture Support, so it’s no wonder she is a best-in-slot teammate for Yidhari, but their synergy goes beyond just numbers. Although Yidhari is able to supply her own Ether Veil: Wellspring, it is not possible for her to sustain 100% uptime of it. As many parts of Yidhari’s kit are enhanced by having Ether Veil up (Chain Attacks, charge speed on Basics, Yunkui Tales upkeep via tentacles, etc.), Lucia’s ability to maintain it fully makes them an ideal pair.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Lucia in the current phase of Shiyu Defense.\n Rank 7\n App. rate: 9.04 %\n Avg. time: 28308\n\n Rank 9\n App. rate: 8.12 %\n Avg. time: 27634\n\n Rank 24\n App. rate: 2.29 %\n Avg. time: 31442\n\n Rank 30\n App. rate: 1.68 %\n Avg. time: 34335\n\n Rank 32\n App. rate: 1.67 %\n Avg. time: 29429\n\n Rank 36\n App. rate: 1.31 %\n Avg. time: 27274\n\n Rank 37\n App. rate: 1.3 %\n Avg. time: 29171\n\n Rank 38\n App. rate: 1.22 %\n Avg. time: 30028\n\n Rank 47\n App. rate: 0.77 %\n Avg. time: 29009\n\n Rank 51\n App. rate: 0.74 %\n Avg. time: 27091\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Lucia in the current phase of Deadly Assault.\n Rank 8\n App. rate: 8.05 %\n Avg. score: 27432\n\n Rank 13\n App. rate: 4.44 %\n Avg. score: 24282\n\n Rank 36\n App. rate: 0.84 %\n Avg. score: 28353\n\n Rank 42\n App. rate: 0.69 %\n Avg. score: 22931\n\n Rank 43\n App. rate: 0.65 %\n Avg. score: 22713\n\n Rank 50\n App. rate: 0.58 %\n Avg. score: 26639\n\n Rank 57\n App. rate: 0.42 %\n Avg. score: 23274\n\n Rank 59\n App. rate: 0.4 %\n Avg. score: 24111\n\n Rank 97\n App. rate: 0.16 %\n Avg. score: 24710\n\n Rank 110\n App. rate: 0.12 %\n Avg. score: 24893"
+  "text": "Lucia Best Build Guide | Zenless Zone Zero\n \n\n Zenless Zone Zero\n Home Database Agents Bangboo W-Engines Disk Drives Banners\n Tier Lists Tier List\n Endgame Shiyu Defense Deadly Assault\n Resources Guides News\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Zenless Zone Zero\n /\n Characters\n /\n Lucia\n Lucia Best Build Guide\n Last updated: 19/August/2026\n\n Introduction\n Best guide and build for Lucia from ZZZ (Zenless Zone Zero). Lucia is an rank character with the Ether attribute who belongs to the Support Specialty and who is part of the Spook Shack faction.\n\n To learn more about Lucia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n\n Video guide\n Lucia has at least one video guide available, so if you prefer this sort of medium to learn more about a character, check it out:\n\n Update tracker\n Last review update\n Patch 2.3\n\n Last build update\n Patch 2.3\n\n Last teams update\n Patch 2.5\n\n Last profile update*\n 19/August/2026\n\n *Profile update means smaller edits to disk drives, stats or other things that don't require new calculations.\n\n Kit\n\n Review\n\n Build\n\n SD/DA Analytics\n\n Teams & Synergy\n\n Calculations\n\n To learn more about Lucia check the sections below. Use the tabs to quickly switch to the kind of information you're looking for.\n Profile\n\n Core skills\n\n Core Passive Lost Nocturne\n\n Lv. 1\n\n When entering the battlefield, Lucia immediately gains 60 Dream Points. If her Dream Points reaches 100 upon activating a Whim or Harmony, she enters the Dream state.\n\nWhen entering the Dream state, it triggers a Quick Assist and simultaneously activates Ether Veil: Wellspring. While Ether Veil: Wellspring is active, all squad members' Max HP increase by 5% , lasting 40s . Repeated triggers extend the duration, up to a max of 300s .\n\nWhile Lucia is in the Dream state, using any Whim consumes 25 Dream Points and upgrades it to Harmony. Whenever another active character's attack hits an enemy, Lucia consumes 25 Dream Points to unleash an Aftershock. This Aftershock is a Harmony. After Lucia triggers a skill upgrade or Aftershock, Aftershock cannot be triggered for 8s .\n\nWhen Lucia triggers a skill upgrade or an Aftershock, all squad members gain the Dreamer's Nursery Rhyme state. While in Dreamer's Nursery Rhyme state, DMG dealt increases by 10% for 12s. Repeated triggers reset the duration.\n\nIf Lucia runs out of Dream Points or she leaves the Ether Veil, she exits the Dream state.\n\n Base Energy Regen 0\n BASE ATK : 0\n\n Additional Ability Ballad of the Long Night\n\n When another character in your squad is a Rupture or Stun character:\n When applying Darkbreaker, additionally applies a 30% CRIT DMG increase effect.\n\n Skills\n Basic\n Dodge\n Assist\n Special\n Chain\n\n Basic Attack: Orbital Combo\n\n Press to activate:\nPerform up to five forward strikes, dealing Ether DMG.\nThe fifth attack is a Whim, conjuring an Ethereal figure that inflicts Ether DMG on enemies in a circular area ahead.\nWhen in combat and not in the Dream state, Lucia gains 40 Dream Points upon using this Whim.\n Multipliers\n\n Dodge: Fading Silhouette\n\n Press to activate.\nA quick dash dodge.\nCharacter is invulnerable while using this skill.\n\n Dash Attack: Refraction\n\n Press during a dodge to activate:\nDeliver a quick strike forward, dealing Ether DMG.\n Multipliers\n\n Dodge Counter: Stardust Echo\n\n Press during a Perfect Dodge to activate.\nThis Dodge Counter is a Whim. When activated, summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Special Attack: Symphony of the Reaper - Storm\n\n Press to activate.\nThis Special Attack is a Whim. When activated, it recreates an Ethereal figure that slashes forward in a line, dealing Ether DMG.\nWhen in combat and not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\n Multipliers\n\n EX Special Attack: Symphony of the Reaper - Daybreak\n\n With enough Energy, press to activate:\nThis EX Special Attack is a Harmony. When activated, it summons an Ethereal figure that delivers a powerful forward slash in a line, dealing Ether DMG.\nWhen Lucia uses any Harmony, all squad members gain the Darkbreaker state. While in Darkbreaker state, Sheer Force increases by 12. Every 200 points of Lucia's initial Max HP grants an additional amount of Sheer Force. The Darkbreaker state can increase Sheer Force by up to a maximum of X, lasting 20s and repeated triggers reset the duration. When Lucia's initial Max HP reaches 24,000, the above bonus effect reaches its maximum value.\nWhen any Harmony deals DMG, Lucia increases the final attack's DMG by an additional % of her Max HP.\nIf she activates this EX Special Attack while in the Dream state and under the effect of Ether Veil: Wellspring, Ether Veil: Wellspring duration is extended by 16s.\nAfter activating her EX Special Attack, Lucia can immediately follow up with the 5th hit of her Basic Attack.\nIf not in the Dream state, Lucia gains 60 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Chain Attack: Stage of Brilliance\n\n When a Chain Attack is triggered, select the character to activate:\nThis Chain Attack is a Harmony. When activated, it summons an Ethereal figure that pulls in enemies in a circular area ahead and deals Ether DMG.\nIf not in the Dream state, Lucia gains 40 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Ultimate: Charge, Great Armor!\n\n When Decibel Rating is at Maximum, press to activate.\nThis Ultimate is a Harmony. When activated, Lucia summons an Ethereal figure and rides it forward in a charge. Holding a directional button allows her to steer and extend the charge, up to 3s. During the charge, Anti-Interrupt Level is increased, DMG taken is reduced by 40%, and when Lucia takes fatal DMG, she remains in battle with HP not dropping below 1.\nWhen the charge ends, Lucia unleashes a powerful strike in a large area around her, dealing Ether DMG. A Quick Assist is triggered when this skill hits an enemy, and after the skill is used, it leaves behind a Starlight Convergence. Starlight Convergence lasts 8s. While inside Starlight Convergence, the currently active character gains HP regeneration equal to % of Lucia's Max HP per second. This effect ends 4s after leaving the Starlight Convergence or immediately when switching out.\nAfter activation, if Lucia is in the Dream state and Ether Veil: Wellspring is active, Ether Veil: Wellspring duration is extended by 32s.\nIf not in the Dream state, Lucia gains 100 Dream Points upon using this Harmony. If she is in the Dream state when activating this Harmony, she will gain 100 Dream Points and re-enter Dream state the next time she exits it. This effect cannot be stacked.\nCharacter is invulnerable while performing the powerful strike.\n Multipliers\n\n Assist Follow-Up: Harmony of Painted Dreams\n\n Press after a Defensive Assist to activate:\nThis Assist Follow-Up is a Harmony. When activated, it summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 40 Dream Points upon using this Harmony.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Defensive Assist: Voice of Illusory Dreams\n\n When the character on field is about to be attacked, press to activate.\nParries the enemy's attack, dealing massive Daze.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Quick Assist: Crushing Mist\n\n When the active character is launched, press to activate.\nThis Quick Assist is a Whim. When activated, it summons an Ethereal figure that delivers a downward attack in a circular area ahead, dealing Ether DMG.\nIf not in the Dream state, Lucia gains 20 Dream Points upon using this Whim. This effect can trigger once every 5s.\nCharacter is invulnerable while using this skill.\n Multipliers\n\n Mindscapes\n M1\n Secret Friend\n Mindscape 1\n\n When Dreamer's Nursery Rhyme deals additional DMG, ignore 18% of enemy All-Attribute RES and have 5% increased Decibel Generation Rate. Each time Lucia performs a skill upgrade, she gains 1 stack of Echo, stacking up to 4 times. When Dreamer's Nursery Rhyme ends, if Lucia has any Echo stacks, 1 stack is consumed to reapply Dreamer's Nursery Rhyme to all squad members.\n\n M2\n Great Magician\n Mindscape 2\n\n While Lucia is inside Ether Veil: Wellspring, Harmony deals 15% more DMG. Agents in the Darkbreaker state gain an additional 15% Sheer DMG increase while in Ether Veil: Wellspring.\n\n M3\n The Best Partner\n Mindscape 3\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M4\n Late-Night Hours\n Mindscape 4\n\n When Ether Veil is activated or extended on the field, Lucia grants all squad members 100 Decibels. This effect can trigger once every 15s .\n\n M5\n Dream Watcher\n Mindscape 5\n\n Basic Attack, Assist, Dodge, Special Attack, and Chain Attack Lv. +2\n\n M6\n The Never-Ending Journey\n Mindscape 6\n\n When Lucia is inside any Ether Veil, her ATK increases by 2% of her initial Max HP, and Harmony always triggers a CRIT with Harmony CRIT DMG increased by 30% .\n\n Stats (Level 60)\n Lucia Stats at level 60 (including Core passive bonuses).\n\n HP\n 8477\n\n DEF\n 594\n\n ATK\n 758\n\n CRIT Rate\n 5 %\n\n CRIT DMG\n 50 %\n\n PEN Ratio\n 0 %\n\n Impact\n 83\n\n Anomaly Mastery\n 96\n\n Anomaly Proficiency\n 95\n\n Energy Regen\n 1.56\n\n Voice Actors\n ENG\n -\n\n JPN\n -\n\n CN\n -\n\n KR\n -\n\n Gallery\n\n Review\n\n Ratings\n This tier list assesses Agents (characters) based on their combat potential in Zenless Zone Zero's most demanding contents - Deadly Assault (DA) and Shiyu Defense (SD) . Please keep in mind Zenless Zone Zero is a skill-based game and each character has a different playstyle, difficulty level and even special tricks and combos. Zenless Zone Zero is also a team based game and it's only by combining both these factors to the highest level a character can reach optimal performance.\n\n Support\n T0\n Endgame Modes\n\n Pros & Cons\n Pros\n The best buffer for Rupture teams bar none. A level above everyone else;\n\n Signature W-Engine is not necessary to perform;\n\n Rather easy to use at a baseline, while still maintaining some room for optimization;\n\n Provides a decent chunk of healing for added comfort;\n\n Quite literally the goat\n\n Cons\n Has little to no uses outside of Rupture teams;\n\n Expensive in terms of skill levels to maximize damage;\n\n While her Signature W-Engine is not necessary, it is a noticeable upgrade and makes her much easier to build - but it is also only usable by her.\n\n Review\n Lucia is an S-rank Ether Support Agent whose main characteristics are her abilities to buff Rupture Agents better than any other and scaling off of HP for her damage and numerous buffs ranging from CRIT DMG increase, to Max HP increase, to providing DMG Bonus, healing, Sheer Force and more depending on your build. As one of the strongest Support Agents in the game, she scales particularly well with one of the top meta contenders (Yixuan) as well as Manato, and they make for some of the strongest teams available. However, to make use of the wide array of buffs that she has, understanding her kit is a necessity, so let’s detail it piece by piece:\n Key Mechanics: Whim and Harmony\n When using Whim skills (we detail them later), her Chain Attack, EX Special, and Assist Follow-Up, and assuming she is not currently in the Dream State Lucia restores Dream Points (she also starts combat at 60). Lucia can also restore 100 Dream Points via her Ultimate, but if used during the Dream state she automatically re-enters it once it expires instead. Upon reaching 100 Dream Points, she automatically enters the Dream state, which activates a unique mechanic called Ether Veil: Wellspring, increasing the combat Max HP of all party members by 5% (a good boost solely tailored towards Rupture Agents, as their damage scales off of Max HP). In practical combat, once set up, this should always be active as the duration can be extended by her EX Special and Ultimate. The Dream state also triggers a Quick Assist every time it is entered - optimally however, Lucia will never exit this state, and hence this will be one-time use provided optimal combos are being performed.\n Lucia has 2 skill mechanics called Whim and Harmony, which are types attributed to most of her attacks. If Lucia is in the Dream state, all of her attacks become of the Harmony type, and outside of the Dream State, some are considered Whims, that being her Basic Attack 5, Quick Assist, Special Attack and Dodge Counter. On the other hand, her Chain Attack, EX Special and Ultimate are always considered Harmonies. All Harmonies deal increased damage based on 70% of Lucia’s Max HP - this increase is added to the Base Damage of the damage formula and hence is also multiplicative with other multipliers such as crit and Damage Bonuses.\n Additionally, all of her Whim skills inside of the Dream state are upgraded to deal massively increased damage, are then considered of the Harmony type and, like all other Harmony attacks except the ones that are always considered Harmony by default, will consume 25 Dream Points each (we won’t repeat this, but it will always apply). In the Dream state, if Lucia is off-field and another character attacks, she can attack inactively via a Harmony Aftershock attack at the same time every 8 seconds (similarly to a character like Trigger for example, but on a way longer cooldown). However, this cooldown can be reset via upgrading a Whim.\n Buffs & How to access them\n Aside from the 5% combat Max HP% increase from Ether Veil listed earlier, Lucia additionally provides the following buffs under the following conditions:\n 20% DMG Bonus: Practically always active in combat after upgrading a Whim or triggering an Aftershock.\n\n Up to 900 combat Sheer Force: When using any Harmony, Lucia gives a state called Darkbreaker to all party members for 20s (refreshed when using any Harmony). The buff starts at 12 points and is increased by 7.4 for every 200 points of initial HP she has (in the stat screen), which makes the buff cap out at 24000 initial HP. This can be expected to be permanently active, thanks to a lot of her attacks (whether on-field or inactive) being considered Harmonies.\n\n 30% CRIT DMG: Additional Ability buff, given to all squad members in the Darkbreaker state so long as the condition is fulfilled.\n\n Basic Attack\n Lucia has a 5-part Basic Attack string which is completely normal save for the 5th part. It is considered a Whim and hence restores 40 Dream Points outside of the Dream state, a property which will be used in her rotations.\n Special & EX Special\n Lucia’s regular Special provides an extra 20 Dream Points outside of the Dream State as it is considered a Whim. As a result, it may see use in some of her combos, but keep in mind it can only restore Dream Points every 5 seconds.\n When it comes to her EX Special, it is always considered a Harmony, deals a solid amount of damage and gives the Darkbreaker buffs listed earlier - however, triggering ANY harmony type attack will grant the Darkbreaker Buff, which means her EX Special mainly serves to maintain the Moonlight Lullaby 4-piece set effect. It also restores 60 Dream Points outside of the Dream state and during the Dream state, it will extend the duration of Ether Veil by 16 seconds. It also allows her to immediately follow up with the 5th hit of her Basic Attack.\n Ultimate\n Lucia’s Ultimate makes her summon an Ethereal figure and ride it until she hits an enemy. While she is invincible during the initial activation, Lucia is not invincible during this ride, she will be able to take damage but she will be immortal as she will always survive on at least 1HP. When she hits an enemy successfully, she will cast an AoE attack around them, trigger a Quick Assist, and summon a small field called Starlight Convergence, which lasts for 8s. It provides healing equal to 1.6% of her Max HP per second to any active Agent standing inside of it, this healing lingering for 4s if they step out of the circle or become off-field.\n When used during the Dream state, Lucia’s Ultimate also extends the Ether Veil duration by 32s, and additionally makes her enter the Dream state once more right as it expires. Outside of the Dream state, it will restore 100 Dream Points, but ideally we will not use it outside of the Dream state.\n Unused/Redundant parts of her kit\n All of Lucia’s Dodge-related moves should never be used in practice, so we will not detail them as a result.\n Her Chain Attack and Assist Follow-Up mostly behave normally, but they will be used, and it is worth noting they are always considered Harmonies and restore 40 Dream Points outside of the Dream state.\n Depending on the team, her Quick Assist may be used occasionally or not at all. On the chance it is used, it is considered a Whim, and can restore 20 Dream Points once every 5s outside of the Dream state.\n Meta Position & Conclusion\n Lucia is one of the strongest Agents in the game, period. She’s a very strong Support, but she is solely tailored towards the Rupture archetype. For the more casual players, you will be delighted to know that she can be mostly ignored inside of her Dream state and Dream state uptime is the most important part of her kit. So long as this is maintained, Lucia will perform fine. However, it is completely possible to optimize her damage for the more seasoned players, by making sure to maintain Moonlight Lullaby’s Buff by using her EX Special once every 25 seconds.\n A lot of the reason why Lucia is very strong (and this is her main meta position), is because her tailored buffs toward Rupture Agents work particularly well with one of the strongest contenders in the meta, being Yixuan. Yixuan and Lucia are a force to be reckoned with, because Lucia buffs Yixuan’s Sheer Force better than anyone else while also making her benefit from her Combat HP increase, CRIT DMG and DMG Bonus as usual. Her buffs in Yixuan teams are so significant compared to other Agents that Lucia gets a meta niche carved out for herself simply by Yixuan existing. And this won’t just apply to Yixuan: Manato is also at his strongest with Lucia, and rest assured that many future Rupture Agents will be at their best by her side. With that being said, outside of Rupture teams, Lucia will always be outclassed by several other Support Agents.\n In conclusion, Lucia is the ultimate buffer for Rupture Agents, currently unmatched in this role in the meta. While she has options to take her personal damage a step further for the more advanced players, at a baseline she remains very functional without much effort, and stands out as one of the strongest Support Agents in the game.\n\n Build and teams\n\n Collaboration Disclaimer\n For ZZZ calculations we worked alongside Rivyn Elowen - check out her channel here . Any other content such as comments on W-Engines, Disks, etc are our own.\n\n Best W-Engines\n The W-Engines are listed in order of priority . Sometimes the percentages appearing near them won't reflect their performance as pure damage or Stun output isn't the only thing we're looking at - the utility of the W-Engine might be more important than the calculations imply.\n\n 1\n\n Dreamlit Hearth (S 1 )\n\n Lucia's Signature is her best choice and is only usable by her as it requires Ether Veil to provide its full effect, something only Lucia is capable of. It grants her a massive amount of HP and Energy Regen to ensure maximum buffs with maximum uptime, and it makes all squad members gain increased DMG and Max HP when activating Ether Veil (basically up permanently), making it a super strong choice overall.\n Usage: 90.88 %\n Shiyu Defense: 27797\n Deadly Assault: 29768\n\n 2\n\n Weeping Cradle (S 1 )\n\n Increases off-field Energy Regen for the wearer and also increases damage bonus against targets hit by the wearer for a very short duration. Thanks to Lucia's frequent inactive attacks, the uptime on this buff is actually pretty frequent, which can be taken a step further by taking Lucia on-field for brief periods of time during the Stun windows of certain characters. Strong choice overall.\n Usage: 3.04 %\n Shiyu Defense: 26978\n Deadly Assault: 25415\n\n 3\n\n Kaboom the Cannon (S 5 )\n\n The best generalist A-rank Support W-Engine, easily providing ATK% buffs for the whole team. However, Rupture Agents are mostly HP scalers instead of ATK scalers which makes this W-Engine usable in teams featuring Lucia, but often not the best.\n Usage: 2.97 %\n Shiyu Defense: 26603\n Deadly Assault: 25427\n\n 4\n\n Unfettered Game Ball (S 5 )\n\n This niche W-Engine Can outperform any option outside of her Signature W-Engine under the right conditions. Requires the boss to be weak to Ether for its party-wide CRIT Rate-increasing passive to be utilized, but if this condition is fulfilled then it automatically becomes a very strong choice for Lucia teams and it can perform close to even her Signature.\n Usage: 0.6 %\n Shiyu Defense: 25905\n Deadly Assault: 27319\n\n Best Disk Drives Sets\n 1\n\n Moonlight Lullaby ( 4 -PC)\n\n Grants 20% Energy Regen on the 2-piece, and most importantly the 4-piece is the best set for every Support-class Agent. This is because it provides not only more DMG Bonus than both Proto Punk and Swing Jazz (18%), but the duration of the buff is also much longer than both of them as well (25s), while the condition is also much easier to fulfill (it only requires casting an EX Special or Ultimate). It makes this set the best choice for all Supports and is only superceded by a fully stacked Astral Voice, which is not consistently upkept by most Agents.\n Best combined with your choice of 2-PC Set:\n 2P\n Yunkui Tales\n\n (Recommended)\n\n Best Disk Drives Stats\n Disk 4\n HP%\n\n Disk 5\n HP%\n\n Disk 6\n HP%\n\n Substats: HP% > HP > CRIT Rate >= CRIT DMG\n\n Best Endgame Stats (Level 60)\n ATK: 1800+\n\n HP: 22000 - 24000+ (Focus on hitting 24000!)\n\n DEF: 800+\n\n Skill priority\n Special Attack\n\n Chain Attack\n\n Basic Attack\n\n Assist\n\n Dodge\n\n Video guides\n\n Teams & Synergy\n\n Synergy\n Below we list only the most important synergies for Lucia . The character can work with others if you know what to do and how to use them.\n\n Yixuan Manato Banyue - Lucia buffs Rupture Agents by massive amounts, making any Rupture damage dealer scale with her buffs fantastically, taking their damage to new heights. There is no particular synergy that Lucia's kit has with any of these 3 characters other than the raw stats that she provides in stats, but that alone is enough to make her be their best buffer bar none.\n Yidhari - Lucia is the de-facto Rupture Support, so it’s no wonder she is a best-in-slot teammate for Yidhari, but their synergy goes beyond just numbers. Although Yidhari is able to supply her own Ether Veil: Wellspring, it is not possible for her to sustain 100% uptime of it. As many parts of Yidhari’s kit are enhanced by having Ether Veil up (Chain Attacks, charge speed on Basics, Yunkui Tales upkeep via tentacles, etc.), Lucia’s ability to maintain it fully makes them an ideal pair.\n Teams (Shiyu Defense)\n This section lists most popular teams featuring Lucia in the current phase of Shiyu Defense.\n Rank 5\n App. rate: 11.58 %\n Avg. Score: 27120\n\n Rank 6\n App. rate: 9.76 %\n Avg. Score: 27181\n\n Rank 21\n App. rate: 1.94 %\n Avg. Score: 29896\n\n Rank 24\n App. rate: 1.63 %\n Avg. Score: 30705\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 30967\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 25985\n\n Rank 31\n App. rate: 0.95 %\n Avg. Score: 32394\n\n Rank 36\n App. rate: 0.82 %\n Avg. Score: 25761\n\n Rank 43\n App. rate: 0.74 %\n Avg. Score: 27936\n\n Rank 45\n App. rate: 0.67 %\n Avg. Score: 26989\n\n Teams (Deadly Assault)\n This section lists most popular teams featuring Lucia in the current phase of Deadly Assault.\n Rank 2\n App. rate: 25.18 %\n Avg. Score: 31350\n\n Rank 3\n App. rate: 21.53 %\n Avg. Score: 28377\n\n Rank 10\n App. rate: 5.08 %\n Avg. Score: 31705\n\n Rank 12\n App. rate: 3.39 %\n Avg. Score: 24860\n\n Rank 14\n App. rate: 2.85 %\n Avg. Score: 26066\n\n Rank 16\n App. rate: 2.28 %\n Avg. Score: 29680\n\n Rank 17\n App. rate: 1.81 %\n Avg. Score: 25309\n\n Rank 20\n App. rate: 1.41 %\n Avg. Score: 30803\n\n Rank 31\n App. rate: 0.72 %\n Avg. Score: 24437\n\n Rank 33\n App. rate: 0.71 %\n Avg. Score: 27967"
 }

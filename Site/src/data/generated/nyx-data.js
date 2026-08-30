@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-30T10:38:16.095Z",
+  "generatedAt": "2026-08-30T10:46:03.297Z",
   "codes": {
-    "updated": "2026-08-28T20:14:44.299Z",
+    "updated": "2026-08-30T10:45:40.733Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -135,48 +135,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T07:46:42.167Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
-        },
-        {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-16T06:24:00.973Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
-          "code": "Odettte0812",
-          "reward": "x100 Primogems and x50,000 Mora",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-16T06:24:00.973Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "hsr": [
@@ -207,48 +165,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-26T10:25:41.503Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X"
-        },
-        {
-          "code": "2TKRKAR6YG2K",
-          "reward": "100 Stellar Jade and 50k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T21:17:21.162Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
-        },
-        {
-          "code": "LSJ9JARPZH33",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-16T06:24:23.748Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-16T06:24:23.748Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
         },
         {
           "code": "4TKSX77Y58QK",
@@ -347,20 +263,6 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
-        },
-        {
-          "code": "PSJQKBQPYGMT",
-          "reward": "50 Stellar Jade and 10k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-20",
-          "firstSeen": "2026-08-05T18:21:52.854Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
       "zzz": [
@@ -435,50 +337,7 @@ var NYX_DB = {
           "redeemUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZ31REMIELLE"
         }
       ],
-      "wuwa": [
-        {
-          "code": "ETERNALFLAME",
-          "reward": "Astrite x100, Advanced Energy Core x3, Medium Nutrient Block x2",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Astrite",
-            "needle": "astrite",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-07T11:46:34.349Z",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "redeemUrl": null
-        },
-        {
-          "code": "HEARTOFSWORD",
-          "reward": "Astrite x100, Advanced Resonance Potion x3, Medium Revival Inhaler x2",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Astrite",
-            "needle": "astrite",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-07T11:46:34.349Z",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "redeemUrl": null
-        },
-        {
-          "code": "THEANSWER",
-          "reward": "Astrite x100, Advanced Enclosure Tank II x2, Shell Credit x20000",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Astrite",
-            "needle": "astrite",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-07T11:46:34.349Z",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "redeemUrl": null
-        }
-      ],
+      "wuwa": [],
       "ae": [
         {
           "code": "AKENDFIELDSUB",
@@ -569,17 +428,17 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-25T18:54:15.313Z",
-    "checkedAt": "2026-08-25T18:54:15.313Z",
+    "updated": "2026-08-30T10:44:42.621Z",
+    "checkedAt": "2026-08-30T10:44:42.621Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "4.5 Phase 1",
@@ -589,7 +448,7 @@ var NYX_DB = {
             {
               "name": "Hyacine",
               "icon": "../../Database/GameData/hsr/assets/characters/round/1409.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1409.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/hsr/assets/characters/draw-card/1409.webp",
               "namecard": null,
@@ -652,7 +511,7 @@ var NYX_DB = {
             {
               "name": "Ashveil",
               "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
               "namecard": null,
@@ -707,7 +566,28 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [],
+        "upcoming": [
+          {
+            "phase": "Patch 4.6",
+            "teased": true,
+            "start": null,
+            "end": null,
+            "characters": [
+              {
+                "name": "Pearl",
+                "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1503.webp",
+                "iconZoom": false,
+                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              }
+            ],
+            "subBanners": []
+          }
+        ],
         "beta": [
           {
             "name": "Pearl",
@@ -755,11 +635,11 @@ var NYX_DB = {
       "gi": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -887,7 +767,39 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [],
+        "upcoming": [
+          {
+            "phase": "Patch 7.X",
+            "teased": true,
+            "start": null,
+            "end": null,
+            "characters": [
+              {
+                "name": "Vesna",
+                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vesna_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vesna.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              },
+              {
+                "name": "Vodyanitsa",
+                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vodyanitsa_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vodyanitsa.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              }
+            ],
+            "subBanners": []
+          }
+        ],
         "beta": [
           {
             "name": "Vesna",
@@ -1046,11 +958,11 @@ var NYX_DB = {
       "wuwa": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "3.6 Phase 1",
@@ -1116,10 +1028,10 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "Patch 3.6 phase 2",
           "teased": false,
-          "start": "2026-09-10T10:00:00.000Z",
-          "end": "2026-09-29T10:00:00.000Z",
+          "start": "2026-09-10T02:00:00.000Z",
+          "end": "2026-09-29T03:59:00.000Z",
           "characters": [
             {
               "name": "Jingran",
@@ -1192,11 +1104,11 @@ var NYX_DB = {
       "zzz": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "3.1 Phase 2",
@@ -1305,8 +1217,70 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": [],
+        "next": {
+          "phase": "Patch 3.2 Phase 1",
+          "teased": false,
+          "start": "2026-09-09T03:00:00.000Z",
+          "end": "2026-09-30T06:59:00.000Z",
+          "characters": [
+            {
+              "name": "Claret",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+              "iconZoom": true,
+              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": true,
+              "debutAt": null
+            },
+            {
+              "name": "Nangong Yu",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": "2026-03-24"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": "Patch 3.2 Phase 2",
+            "teased": false,
+            "start": "2026-09-30T04:00:00.000Z",
+            "end": null,
+            "characters": [
+              {
+                "name": "Roxy",
+                "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect68.webp",
+                "iconZoom": true,
+                "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+                "namecard": null,
+                "rarity": 4,
+                "debut": true,
+                "debutAt": null
+              },
+              {
+                "name": "Promeia",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle61.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect61.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole61.webp",
+                "namecard": null,
+                "rarity": "S",
+                "debut": true,
+                "debutAt": "2026-05-06"
+              }
+            ],
+            "subBanners": []
+          }
+        ],
         "beta": [
           {
             "name": "Claret",
@@ -1379,14 +1353,14 @@ var NYX_DB = {
       "ae": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
-          "phase": "1.4 Phase 2",
+          "phase": "Patch 1.4 Phase 2",
           "start": "2026-08-09T04:00:00.000Z",
           "end": "2026-09-01T21:59:59.000Z",
           "characters": [
@@ -1532,7 +1506,7 @@ var NYX_DB = {
           }
         },
         "next": {
-          "phase": "Winter Hunt",
+          "phase": "Patch 1.5 Phase 1",
           "start": "2026-09-02T04:00:00.000Z",
           "end": "2026-09-30T03:59:59.000Z",
           "characters": [
@@ -6619,58 +6593,16 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T07:46:42.167Z",
           "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
-        },
-        {
-          "code": "Everwinter",
-          "reward": "x100 Primogems and x10 Mystic Enchancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-16T06:24:00.973Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Everwinter"
-        },
-        {
-          "code": "Odettte0812",
-          "reward": "x100 Primogems and x50,000 Mora",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-01T21:03:08.107Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=Odettte0812"
-        },
-        {
-          "code": "OntoSnezhnaya",
-          "reward": "x100 Primogems and x5 Hero S Wit",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-07-31",
-          "firstSeen": "2026-08-16T06:24:00.973Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=OntoSnezhnaya"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "7.0 Phase 1",
@@ -6798,7 +6730,39 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [],
+        "upcoming": [
+          {
+            "phase": "Patch 7.X",
+            "teased": true,
+            "start": null,
+            "end": null,
+            "characters": [
+              {
+                "name": "Vesna",
+                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vesna_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vesna.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vesna.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              },
+              {
+                "name": "Vodyanitsa",
+                "icon": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vodyanitsa_Circle.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vodyanitsa.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Vodyanitsa.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              }
+            ],
+            "subBanners": []
+          }
+        ],
         "beta": [
           {
             "name": "Vesna",
@@ -6955,7 +6919,7 @@ var NYX_DB = {
         ]
       },
       "tcg": {
-        "updated": "2026-08-26T07:36:46.582Z",
+        "updated": "2026-08-30T10:45:52.783Z",
         "counts": {
           "characterCards": 108,
           "otherCards": 521
@@ -170094,9 +170058,9 @@ var NYX_DB = {
         {
           "key": "light-cones",
           "title": "Light Cones",
-          "updatedText": "15/August/2026",
+          "updatedText": "24/August/2026",
           "source": "Prydwen",
-          "count": 171,
+          "count": 175,
           "items": [
             {
               "id": "a-dream-scented-in-wheat",
@@ -170124,6 +170088,32 @@ var NYX_DB = {
               "status": "live",
               "labels": [],
               "released": "2024-12-04"
+            },
+            {
+              "id": "a-little-getaway",
+              "name": "A Little Getaway",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/a-little-getaway-08852e0298b4.webp",
+              "fields": {},
+              "text": "",
+              "status": "live",
+              "labels": [],
+              "released": "2026-08-26"
+            },
+            {
+              "id": "a-little-getaway-new",
+              "name": "A Little Getaway New",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/a-little-getaway-08852e0298b4.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "path": "Elation"
+              },
+              "text": "A Little Getaway New\nRarity: 4 \u2605\nPath: Elation\nIncreases the wearer's Elation by 20/25/30/35/40% . When the wearer uses an Elation Skill, ignores 8/10/12/14/16% of the target's DEF.\nHP\n+ 953\nATK\n+ 423\nDEF\n+ 397",
+              "status": "live",
+              "labels": [
+                "New"
+              ]
             },
             {
               "id": "a-secret-vow",
@@ -170710,27 +170700,15 @@ var NYX_DB = {
               "id": "flickering-stars",
               "name": "Flickering Stars",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
-              "fields": {},
-              "text": "",
-              "status": "live",
-              "labels": [],
-              "released": "2026-07-24"
-            },
-            {
-              "id": "flickering-stars-new",
-              "name": "Flickering Stars New",
-              "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/flickering-stars-033f3c5c74dd.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Erudition"
               },
-              "text": "Flickering Stars New\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores 20/23/26/29/32% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72/84/96/108/120% . Effects of the same type cannot stack.\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529",
+              "text": "Flickering Stars\nRarity: 5 \u2605\nPath: Erudition\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores 20/23/26/29/32% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72/84/96/108/120% . Effects of the same type cannot stack.\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529",
               "status": "live",
-              "labels": [
-                "New"
-              ]
+              "labels": [],
+              "released": "2026-07-24"
             },
             {
               "id": "flowing-nightglow",
@@ -170857,27 +170835,15 @@ var NYX_DB = {
               "id": "i-am-as-you-behold",
               "name": "I Am As You Behold",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
-              "fields": {},
-              "text": "",
-              "status": "live",
-              "labels": [],
-              "released": "2026-07-24"
-            },
-            {
-              "id": "i-am-as-you-behold-new",
-              "name": "I Am As You Behold New",
-              "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/i-am-as-you-behold-dfb26a012379.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Destruction"
               },
-              "text": "I Am As You Behold New\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's ATK by 18/21/24/27/30% and Energy Regeneration Rate by 10/12.5/15/17.5/20% . When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by 0.2/0.25/0.3/0.35/0.4% , up to a max increase of 72/90/108/126/144% . When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for 3 turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by 24/30/36/42/48% . Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
+              "text": "I Am As You Behold\nRarity: 5 \u2605\nPath: Destruction\nIncreases the wearer's ATK by 18/21/24/27/30% and Energy Regeneration Rate by 10/12.5/15/17.5/20% . When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by 0.2/0.25/0.3/0.35/0.4% , up to a max increase of 72/90/108/126/144% . When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for 3 turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by 24/30/36/42/48% . Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463",
               "status": "live",
-              "labels": [
-                "New"
-              ]
+              "labels": [],
+              "released": "2026-07-24"
             },
             {
               "id": "i-shall-be-my-own-sword",
@@ -171517,6 +171483,31 @@ var NYX_DB = {
               "labels": []
             },
             {
+              "id": "race-to-the-horizon",
+              "name": "Race to the Horizon",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/race-to-the-horizon-45f78c39eb5f.webp",
+              "fields": {},
+              "text": "",
+              "status": "live",
+              "labels": []
+            },
+            {
+              "id": "race-to-the-horizon-new",
+              "name": "Race to the Horizon New",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/race-to-the-horizon-45f78c39eb5f.webp",
+              "fields": {
+                "rarity": "4 \u2605",
+                "path": "Hunt"
+              },
+              "text": "Race to the Horizon New\nRarity: 4 \u2605\nPath: Hunt\nIncreases the wearer's ATK by 12/15/18/21/24% . After the wearer uses a Follow-Up ATK, increases their CRIT DMG by 3/3.5/4/4.5/5% for 2 turn(s). This effect can stack up to 10 times.\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397",
+              "status": "live",
+              "labels": [
+                "New"
+              ]
+            },
+            {
               "id": "reforged-in-hellfire",
               "name": "Reforged in Hellfire",
               "kind": "light-cones",
@@ -171600,15 +171591,27 @@ var NYX_DB = {
               "id": "rise-and-sing",
               "name": "Rise and Sing",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/rise-and-sing-d4b8faf42f4f.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/rise-and-sing-43a335a48626.webp",
+              "fields": {},
+              "text": "",
+              "status": "live",
+              "labels": [],
+              "released": "2026-08-26"
+            },
+            {
+              "id": "rise-and-sing-new",
+              "name": "Rise and Sing New",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/rise-and-sing-43a335a48626.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Remembrance"
               },
-              "text": "Rise and Sing\nRarity: 5 \u2605\nPath: Remembrance\nComing Soon!\nStats for this Light Cone aren't available yet.",
+              "text": "Rise and Sing New\nRarity: 5 \u2605\nPath: Remembrance\nIncreases the wearer's Max HP by 30/38/45/53/60% . After the wearer uses their Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by 30/33/35/38/40% and grants the wearer \"New Melody\" for 2 turn(s). While the wearer has \"New Melody,\" all allies' SPD increases by 20/25/30/35/40% .\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 397",
               "status": "live",
-              "labels": [],
-              "released": "2026-08-26"
+              "labels": [
+                "New"
+              ]
             },
             {
               "id": "river-flows-in-spring",
@@ -171815,15 +171818,27 @@ var NYX_DB = {
               "id": "summer-rides-the-surf",
               "name": "Summer Rides the Surf",
               "kind": "light-cones",
-              "art": "../../Database/Prydwen/hsr/assets/light-cones/summer-rides-the-surf-fe01144b099a.webp",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/summer-rides-the-surf-4c8a1ea2e426.webp",
+              "fields": {},
+              "text": "",
+              "status": "live",
+              "labels": [],
+              "released": "2026-09-12"
+            },
+            {
+              "id": "summer-rides-the-surf-new",
+              "name": "Summer Rides the Surf New",
+              "kind": "light-cones",
+              "art": "../../Database/Prydwen/hsr/assets/light-cones/summer-rides-the-surf-4c8a1ea2e426.webp",
               "fields": {
                 "rarity": "5 \u2605",
                 "path": "Elation"
               },
-              "text": "Summer Rides the Surf\nRarity: 5 \u2605\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet.",
+              "text": "Summer Rides the Surf New\nRarity: 5 \u2605\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet.",
               "status": "live",
-              "labels": [],
-              "released": "2026-09-12"
+              "labels": [
+                "New"
+              ]
             },
             {
               "id": "sweat-now-cry-less",
@@ -173376,48 +173391,6 @@ var NYX_DB = {
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=NSJR3B97ZZ5X"
         },
         {
-          "code": "2TKRKAR6YG2K",
-          "reward": "100 Stellar Jade and 50k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-14T21:17:21.162Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=2TKRKAR6YG2K"
-        },
-        {
-          "code": "LSJ9JARPZH33",
-          "reward": "100 Stellar Jade and Five Traveler S Guides",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-16T06:24:23.748Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=LSJ9JARPZH33"
-        },
-        {
-          "code": "YAJQ2TR6ZY2P",
-          "reward": "100 Stellar Jade and Four Refined Aether",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-08-14",
-          "firstSeen": "2026-08-16T06:24:23.748Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=YAJQ2TR6ZY2P"
-        },
-        {
           "code": "4TKSX77Y58QK",
           "reward": "30 Stellar Jade, Three Traveler S Guides, Five Condensed Aether, Four Lost Gold Fragments, and 20k Credits",
           "premium": true,
@@ -173514,30 +173487,16 @@ var NYX_DB = {
           "firstSeen": "2026-07-05T17:19:05.883Z",
           "sourceUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT",
           "redeemUrl": "https://hsr.hoyoverse.com/gift?code=STARRAILGIFT"
-        },
-        {
-          "code": "PSJQKBQPYGMT",
-          "reward": "50 Stellar Jade and 10k Credits",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Stellar Jade",
-            "needle": "stellar jade",
-            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
-          },
-          "added": "2026-07-20",
-          "firstSeen": "2026-08-05T18:21:52.854Z",
-          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT",
-          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=PSJQKBQPYGMT"
         }
       ],
       "banners": {
         "name": "Honkai: Star Rail",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "4.5 Phase 1",
@@ -173547,7 +173506,7 @@ var NYX_DB = {
             {
               "name": "Hyacine",
               "icon": "../../Database/GameData/hsr/assets/characters/round/1409.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1409.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/hsr/assets/characters/draw-card/1409.webp",
               "namecard": null,
@@ -173610,7 +173569,7 @@ var NYX_DB = {
             {
               "name": "Ashveil",
               "icon": "../../Database/GameData/hsr/assets/characters/round/1504.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/hsr/assets/characters/draw-card/1504.webp",
               "namecard": null,
@@ -173665,7 +173624,28 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "upcoming": [],
+        "upcoming": [
+          {
+            "phase": "Patch 4.6",
+            "teased": true,
+            "start": null,
+            "end": null,
+            "characters": [
+              {
+                "name": "Pearl",
+                "icon": "../../Database/GameData/hsr/assets/characters/avatar/1503.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1503.webp",
+                "iconZoom": false,
+                "art": "../../Database/GameData/hsr/assets/characters/draw-card/1503.webp",
+                "namecard": null,
+                "rarity": 5,
+                "debut": true,
+                "debutAt": null
+              }
+            ],
+            "subBanners": []
+          }
+        ],
         "beta": [
           {
             "name": "Pearl",
@@ -173712,6 +173692,69 @@ var NYX_DB = {
       },
       "roster": [
         {
+          "id": "hsr-gilgamesh",
+          "name": "Gilgamesh",
+          "aliases": [],
+          "title": "I Am As You Behold",
+          "rarity": 5,
+          "element": "Lightning",
+          "role": "Destruction",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
+          "facts": {
+            "camp": "Another World",
+            "title": "I Am As You Behold"
+          },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
+          ],
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "hsr-rin-tohsaka",
+          "name": "Rin Tohsaka",
+          "aliases": [],
+          "title": "The Gem Coursing in Red",
+          "rarity": 5,
+          "element": "Quantum",
+          "role": "Erudition",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
+          "facts": {
+            "camp": "Another World",
+            "title": "The Gem Coursing in Red"
+          },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
+          ],
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "hsr-robin-summeretto",
+          "name": "Robin Summeretto",
+          "aliases": [],
+          "title": "Summer Chorus",
+          "rarity": 5,
+          "element": "Wind",
+          "role": "Remembrance",
+          "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+          "facts": {
+            "camp": "Penacony",
+            "title": "Summer Chorus"
+          },
+          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+          "overviewArtPool": [
+            "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
+          ],
+          "status": "live",
+          "forms": []
+        },
+        {
           "id": "hsr-aventurine-waveflair",
           "name": "Aventurine Waveflair",
           "aliases": [],
@@ -173753,48 +173796,6 @@ var NYX_DB = {
           "forms": []
         },
         {
-          "id": "hsr-robin-summeretto",
-          "name": "Robin Summeretto",
-          "aliases": [],
-          "title": "Summer Chorus",
-          "rarity": 5,
-          "element": "Wind",
-          "role": "Remembrance",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
-          "facts": {
-            "camp": "Penacony",
-            "title": "Summer Chorus"
-          },
-          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
-          ],
-          "status": "live",
-          "forms": []
-        },
-        {
-          "id": "hsr-gilgamesh",
-          "name": "Gilgamesh",
-          "aliases": [],
-          "title": "I Am As You Behold",
-          "rarity": 5,
-          "element": "Lightning",
-          "role": "Destruction",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
-          "facts": {
-            "camp": "Another World",
-            "title": "I Am As You Behold"
-          },
-          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
-          ],
-          "status": "live",
-          "forms": []
-        },
-        {
           "id": "hsr-himeko-nova",
           "name": "Himeko Nova",
           "aliases": [],
@@ -173811,27 +173812,6 @@ var NYX_DB = {
           "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23060.webp",
           "overviewArtPool": [
             "../../Database/GameData/hsr/assets/lightcones/full/23060.webp"
-          ],
-          "status": "live",
-          "forms": []
-        },
-        {
-          "id": "hsr-rin-tohsaka",
-          "name": "Rin Tohsaka",
-          "aliases": [],
-          "title": "The Gem Coursing in Red",
-          "rarity": 5,
-          "element": "Quantum",
-          "role": "Erudition",
-          "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
-          "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
-          "facts": {
-            "camp": "Another World",
-            "title": "The Gem Coursing in Red"
-          },
-          "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
-          "overviewArtPool": [
-            "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
           ],
           "status": "live",
           "forms": []
@@ -175658,7 +175638,7 @@ var NYX_DB = {
         {
           "key": "w-engines",
           "title": "W-Engines",
-          "updatedText": "28/July/2026",
+          "updatedText": "17/August/2026",
           "source": "Prydwen",
           "count": 96,
           "items": [
@@ -176425,6 +176405,23 @@ var NYX_DB = {
               "released": "2024-10-16"
             },
             {
+              "id": "knights-extolment",
+              "name": "Knight's Extolment",
+              "kind": "w-engines",
+              "art": "../../Database/Prydwen/zzz/assets/w-engines/knights-extolment-85906a50e3db.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Attack",
+                "at_2_stacks_of_battle_edge_the_equipper_gains_bonechill": "Their DMG ignores 20/23/26/29/32% of the target's Ice RES .",
+                "base_atk_lv_60": "713",
+                "crit_dmg_lv_60": "48"
+              },
+              "text": "Knight's Extolment\nRarity: S | Type: Attack\nWhen the equipper's Basic Attack or EX Special Attack's heavy attack hits an enemy, they gain 1 stack of Battle Edge. Battle Edge can stack up to 2 times, and each skill type can provide up to 1 stack. Each stack increases CRIT DMG by 32/36.8/41.6/46.4/51.2% for 25s .\nRepeated triggers of Battle Edge refresh the duration of Battle Edge.\nAt 2 stacks of Battle Edge, the equipper gains Bonechill: Their DMG ignores 20/23/26/29/32% of the target's Ice RES .\nBase ATK (Lv 60): 713\nCRIT DMG% (Lv 60): 48",
+              "status": "live",
+              "labels": [],
+              "released": "2026-08-19"
+            },
+            {
               "id": "krakens-cradle",
               "name": "Kraken's Cradle",
               "kind": "w-engines",
@@ -176439,19 +176436,6 @@ var NYX_DB = {
               "status": "live",
               "labels": [],
               "released": "2025-11-05"
-            },
-            {
-              "id": "lumiflux",
-              "name": "Lumiflux",
-              "kind": "w-engines",
-              "art": "../../Database/Prydwen/zzz/assets/w-engines/lumiflux-85906a50e3db.webp",
-              "fields": {
-                "rarity": "5 \u2605",
-                "type": "Attack"
-              },
-              "text": "Lumiflux\nRarity: S | Type: Attack\nComing Soon!\nStats for this W-Engine aren't available yet.",
-              "status": "live",
-              "labels": []
             },
             {
               "id": "marcato-desire",
@@ -179459,11 +179443,11 @@ var NYX_DB = {
       "banners": {
         "name": "Zenless Zone Zero",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "3.1 Phase 2",
@@ -179572,8 +179556,70 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
-        "next": null,
-        "upcoming": [],
+        "next": {
+          "phase": "Patch 3.2 Phase 1",
+          "teased": false,
+          "start": "2026-09-09T03:00:00.000Z",
+          "end": "2026-09-30T06:59:00.000Z",
+          "characters": [
+            {
+              "name": "Claret",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+              "iconZoom": true,
+              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "namecard": null,
+              "rarity": 4,
+              "debut": true,
+              "debutAt": null
+            },
+            {
+              "name": "Nangong Yu",
+              "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
+              "iconZoom": true,
+              "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": "2026-03-24"
+            }
+          ],
+          "subBanners": []
+        },
+        "upcoming": [
+          {
+            "phase": "Patch 3.2 Phase 2",
+            "teased": false,
+            "start": "2026-09-30T04:00:00.000Z",
+            "end": null,
+            "characters": [
+              {
+                "name": "Roxy",
+                "icon": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect68.webp",
+                "iconZoom": true,
+                "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+                "namecard": null,
+                "rarity": 4,
+                "debut": true,
+                "debutAt": null
+              },
+              {
+                "name": "Promeia",
+                "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle61.webp",
+                "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect61.webp",
+                "iconZoom": true,
+                "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole61.webp",
+                "namecard": null,
+                "rarity": "S",
+                "debut": true,
+                "debutAt": "2026-05-06"
+              }
+            ],
+            "subBanners": []
+          }
+        ],
         "beta": [
           {
             "name": "Claret",
@@ -179645,18 +179691,20 @@ var NYX_DB = {
       },
       "roster": [
         {
-          "id": "zzz-sigrid",
-          "name": "Sigrid",
+          "id": "zzz-harumasa",
+          "name": "Harumasa",
           "aliases": [],
+          "title": "Feathered Blade Approaching",
           "rarity": "S",
-          "element": "Ice",
+          "element": "Electric",
           "role": "Attack",
-          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
           "facts": {
-            "fullName": "Sigrid de L'Azur",
-            "faction": "Roscaelifer",
-            "birthday": "April 23"
+            "fullName": "Asaba Harumasa",
+            "faction": "Hollow Special Operations Section 6",
+            "birthday": "July 19",
+            "title": "Feathered Blade Approaching"
           },
           "status": "live",
           "forms": []
@@ -179902,25 +179950,6 @@ var NYX_DB = {
             "faction": "Belobog Heavy Industries",
             "birthday": "April 14",
             "title": "A Promise Unbroken"
-          },
-          "status": "live",
-          "forms": []
-        },
-        {
-          "id": "zzz-harumasa",
-          "name": "Harumasa",
-          "aliases": [],
-          "title": "Feathered Blade Approaching",
-          "rarity": "S",
-          "element": "Electric",
-          "role": "Attack",
-          "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle35.webp",
-          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole35.webp",
-          "facts": {
-            "fullName": "Asaba Harumasa",
-            "faction": "Hollow Special Operations Section 6",
-            "birthday": "July 19",
-            "title": "Feathered Blade Approaching"
           },
           "status": "live",
           "forms": []
@@ -180259,6 +180288,23 @@ var NYX_DB = {
             "faction": "New Eridu Defense Force",
             "birthday": "November 22",
             "title": "Pale Blue Flower of Sorrow"
+          },
+          "status": "live",
+          "forms": []
+        },
+        {
+          "id": "zzz-sigrid",
+          "name": "Sigrid",
+          "aliases": [],
+          "rarity": "S",
+          "element": "Ice",
+          "role": "Attack",
+          "icon": "../../Database/Prydwen/zzz/assets/characters/sigrid-30ecebbe136b.webp",
+          "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole66.webp",
+          "facts": {
+            "fullName": "Sigrid de L'Azur",
+            "faction": "Roscaelifer",
+            "birthday": "April 23"
           },
           "status": "live",
           "forms": []
@@ -180844,9 +180890,9 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "01/August/2026",
+          "updatedText": "18/August/2026",
           "source": "Prydwen",
-          "count": 120,
+          "count": 121,
           "items": [
             {
               "id": "abyss-surges",
@@ -181458,6 +181504,22 @@ var NYX_DB = {
               "text": "Gauntlets#21D\nRarity: 4 \u2605\nType: Gauntlets\nATK (Lv.90): 387\nEnergy Reg. (Lv.90): 38.8 %",
               "status": "live",
               "labels": []
+            },
+            {
+              "id": "glint-of-clouds",
+              "name": "Glint of Clouds",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/ww/assets/weapons/glint-of-clouds-e9112c110933.webp",
+              "fields": {
+                "rarity": "5 \u2605",
+                "type": "Sword",
+                "atk_lv_90": "500",
+                "crit_rate_lv_90": "36 %"
+              },
+              "text": "Glint of Clouds\nRarity: 5 \u2605\nType: Sword\nATK (Lv.90): 500\nCRIT Rate (Lv.90): 36 %",
+              "status": "live",
+              "labels": [],
+              "released": "2026-08-20"
             },
             {
               "id": "guardian-broadblade",
@@ -184646,58 +184708,15 @@ var NYX_DB = {
           ]
         }
       ],
-      "codes": [
-        {
-          "code": "ETERNALFLAME",
-          "reward": "Astrite x100, Advanced Energy Core x3, Medium Nutrient Block x2",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Astrite",
-            "needle": "astrite",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-07T11:46:34.349Z",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "redeemUrl": null
-        },
-        {
-          "code": "HEARTOFSWORD",
-          "reward": "Astrite x100, Advanced Resonance Potion x3, Medium Revival Inhaler x2",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Astrite",
-            "needle": "astrite",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-07T11:46:34.349Z",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "redeemUrl": null
-        },
-        {
-          "code": "THEANSWER",
-          "reward": "Astrite x100, Advanced Enclosure Tank II x2, Shell Credit x20000",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Astrite",
-            "needle": "astrite",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_zcpq_UI.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-07T11:46:34.349Z",
-          "sourceUrl": "https://www.reddit.com/r/WutheringWaves/comments/1vhyasb/livestream_codes/",
-          "redeemUrl": null
-        }
-      ],
+      "codes": [],
       "banners": {
         "name": "Wuthering Waves",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
           "phase": "3.6 Phase 1",
@@ -184763,10 +184782,10 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": null,
+          "phase": "Patch 3.6 phase 2",
           "teased": false,
-          "start": "2026-09-10T10:00:00.000Z",
-          "end": "2026-09-29T10:00:00.000Z",
+          "start": "2026-09-10T02:00:00.000Z",
+          "end": "2026-09-29T03:59:00.000Z",
           "characters": [
             {
               "name": "Jingran",
@@ -185190,6 +185209,7 @@ var NYX_DB = {
           "id": "ww-qingxiao",
           "name": "Qingxiao",
           "aliases": [],
+          "title": "Heart Sword",
           "rarity": 5,
           "element": "Aero",
           "role": "Sword",
@@ -185197,9 +185217,10 @@ var NYX_DB = {
           "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleQingxiao.webp",
           "facts": {
             "nation": "Huanglong",
-            "influence": "Ministry of War"
+            "influence": "Ministry of War",
+            "title": "Heart Sword"
           },
-          "status": "beta",
+          "status": "live",
           "forms": []
         },
         {
@@ -185518,6 +185539,7 @@ var NYX_DB = {
           "id": "ww-jingran",
           "name": "Jingran",
           "aliases": [],
+          "title": "Nether Qi Art",
           "rarity": 5,
           "element": "Fusion",
           "role": "Broadblade",
@@ -185525,7 +185547,8 @@ var NYX_DB = {
           "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleJingran.webp",
           "facts": {
             "nation": "Huanglong",
-            "influence": "Nethermancer"
+            "influence": "Nethermancer",
+            "title": "Nether Qi Art"
           },
           "status": "beta",
           "forms": []
@@ -185887,8 +185910,8 @@ var NYX_DB = {
           "aliases": [],
           "title": "The Moon Fox",
           "rarity": 5,
-          "element": "Unknown",
-          "role": "Unknown",
+          "element": "Electro",
+          "role": "Rectifier",
           "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
           "facts": {
@@ -185905,8 +185928,8 @@ var NYX_DB = {
           "name": "Suoming",
           "aliases": [],
           "rarity": 5,
-          "element": "Unknown",
-          "role": "Unknown",
+          "element": "Electro",
+          "role": "Sword",
           "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
           "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
           "facts": {},
@@ -185926,9 +185949,9 @@ var NYX_DB = {
         {
           "key": "weapons",
           "title": "Weapons",
-          "updatedText": "09/August/2026",
+          "updatedText": "27/August/2026",
           "source": "Prydwen",
-          "count": 76,
+          "count": 77,
           "items": [
             {
               "id": "aggeloslayer",
@@ -187128,6 +187151,20 @@ var NYX_DB = {
               "status": "live",
               "labels": [],
               "released": "2026-07-16"
+            },
+            {
+              "id": "umbra-of-frigid-eventide",
+              "name": "Umbra of Frigid Eventide",
+              "kind": "weapons",
+              "art": "../../Database/Prydwen/endfield/assets/weapons/weapon-77-02fa79a9889f.webp",
+              "fields": {
+                "rarity": "6 \u2605",
+                "type": "Arts Unit",
+                "base_atk": "0"
+              },
+              "text": "Umbra of Frigid Eventide\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\n: +\nPassive Boost - 4/9",
+              "status": "live",
+              "labels": []
             },
             {
               "id": "umbral-torch",
@@ -190055,14 +190092,14 @@ var NYX_DB = {
       "banners": {
         "name": "Arknights: Endfield",
         "freshness": {
-          "status": "stale",
-          "checkedAt": "2026-08-25T18:54:15.313Z",
-          "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-          "lastValidUpdate": "2026-08-25T18:54:15.313Z",
-          "source": "game8"
+          "status": "fresh",
+          "checkedAt": "2026-08-30T10:44:42.621Z",
+          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "source": "prydwen"
         },
         "current": {
-          "phase": "1.4 Phase 2",
+          "phase": "Patch 1.4 Phase 2",
           "start": "2026-08-09T04:00:00.000Z",
           "end": "2026-09-01T21:59:59.000Z",
           "characters": [
@@ -190208,7 +190245,7 @@ var NYX_DB = {
           }
         },
         "next": {
-          "phase": "Winter Hunt",
+          "phase": "Patch 1.5 Phase 1",
           "start": "2026-09-02T04:00:00.000Z",
           "end": "2026-09-30T03:59:59.000Z",
           "characters": [

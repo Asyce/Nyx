@@ -1,70 +1,21 @@
 {
-  "checkedAt": "2026-08-25T18:54:15.313Z",
-  "updated": "2026-08-25T18:54:15.313Z",
+  "checkedAt": "2026-08-30T10:44:42.621Z",
+  "updated": "2026-08-30T10:44:42.621Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-25T18:54:15.313Z",
-        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-        "source": "game8"
+        "checkedAt": "2026-08-30T10:44:42.621Z",
+        "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+        "source": "prydwen"
       },
       "current": {
-        "phase": "4.4",
+        "phase": "Patch 4.5 Phase 1",
         "characters": [
           {
-            "name": "Cerydra",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1412.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1412.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1412.webp"
-          },
-          {
-            "name": "Anaxa",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1405.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1405.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1405.webp"
-          },
-          {
-            "name": "Aventurine",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1304.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1304.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1304.webp"
-          },
-          {
-            "name": "Gilgamesh",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1509.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1509.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1509.webp"
-          },
-          {
-            "name": "Rin Tohsaka",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1508.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1508.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1508.webp"
-          },
-          {
-            "name": "Archer",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1015.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1015.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1015.webp"
-          },
-          {
-            "name": "Saber",
-            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1014.webp",
-            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1014.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1014.webp"
-          }
-        ],
-        "end": "2026-08-25T16:00:00.000Z",
-        "source": "game8"
-      },
-      "next": {
-        "phase": "4.5 Phase 1",
-        "characters": [
-          {
-            "name": "Summeretto",
+            "name": "Robin Summeretto",
             "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
             "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp"
           },
@@ -75,44 +26,42 @@
             "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1409.webp"
           }
         ],
-        "start": "2026-08-25T16:00:00.000Z",
-        "end": "2026-09-12T16:00:00.000Z",
-        "source": "game8"
+        "end": "2026-09-12T03:59:00.000Z",
+        "source": "prydwen"
+      },
+      "next": {
+        "phase": "Patch 4.5 Phase 2",
+        "characters": [
+          {
+            "name": "Aventurine Waveflair",
+            "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
+            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp"
+          },
+          {
+            "name": "Ashveil",
+            "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1504.webp",
+            "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1504.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp"
+          }
+        ],
+        "start": "2026-09-12T04:00:00.000Z",
+        "end": "2026-09-27T07:00:00.000Z",
+        "source": "prydwen"
       },
       "upcoming": [
         {
+          "phase": "Patch 4.6",
           "characters": [
             {
-              "name": "Summeretto",
-              "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1512.webp",
-              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1512.webp"
-            },
-            {
-              "name": "Hyacine",
-              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1409.webp",
-              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1409.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1409.webp"
+              "name": "Pearl",
+              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1503.webp",
+              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1503.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1503.webp"
             }
           ],
-          "start": "2026-08-25T16:00:00.000Z",
-          "end": "2026-09-12T16:00:00.000Z"
-        },
-        {
-          "characters": [
-            {
-              "name": "Waveflair",
-              "image": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1513.webp",
-              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1513.webp"
-            },
-            {
-              "name": "Ashveil",
-              "image": "https://static.nanoka.cc/assets/hsr/avataricon/avatar/1504.webp",
-              "imageSplash": "https://static.nanoka.cc/assets/hsr/avatardrawcard/1504.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/hsr/avatarroundicon/1504.webp"
-            }
-          ],
-          "start": "2026-09-12T16:00:00.000Z",
-          "end": "2026-09-27T16:00:00.000Z"
+          "start": null,
+          "end": null,
+          "teased": true
         }
       ],
       "roadmap": [
@@ -144,12 +93,12 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-25T18:54:15.313Z",
-        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-        "source": "game8"
+        "checkedAt": "2026-08-30T10:44:42.621Z",
+        "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+        "source": "prydwen"
       },
       "current": {
-        "phase": "7.0 Phase 1",
+        "phase": "Patch 7.0 Phase 1",
         "characters": [
           {
             "name": "Odette",
@@ -164,47 +113,49 @@
             "imageFallbackZoom": true
           }
         ],
-        "end": "2026-09-01T10:00:00.000Z",
-        "source": "game8"
+        "end": "2026-09-01T03:59:00.000Z",
+        "source": "prydwen"
       },
       "next": {
-        "phase": "7.0 Phase 2",
+        "phase": "Patch 7.0 Phase 2",
         "characters": [
-          {
-            "name": "Ineffa",
-            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa_Circle.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
-            "imageFallbackZoom": true
-          },
           {
             "name": "Flins",
             "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins_Circle.webp",
             "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
             "imageFallbackZoom": true
+          },
+          {
+            "name": "Ineffa",
+            "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa_Circle.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+            "imageFallbackZoom": true
           }
         ],
         "start": "2026-09-01T10:00:00.000Z",
-        "end": "2026-09-22T10:00:00.000Z",
-        "source": "game8"
+        "end": "2026-09-23T06:59:00.000Z",
+        "source": "prydwen"
       },
       "upcoming": [
         {
+          "phase": "Patch 7.X",
           "characters": [
             {
-              "name": "Ineffa",
-              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa_Circle.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+              "name": "Vesna",
+              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vesna_Circle.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vesna.webp",
               "imageFallbackZoom": true
             },
             {
-              "name": "Flins",
-              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins_Circle.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "name": "Vodyanitsa",
+              "image": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vodyanitsa_Circle.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Vodyanitsa.webp",
               "imageFallbackZoom": true
             }
           ],
-          "start": "2026-09-01T10:00:00.000Z",
-          "end": "2026-09-22T10:00:00.000Z"
+          "start": null,
+          "end": null,
+          "teased": true
         }
       ],
       "roadmap": [
@@ -294,12 +245,12 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-25T18:54:15.313Z",
-        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-        "source": "game8"
+        "checkedAt": "2026-08-30T10:44:42.621Z",
+        "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+        "source": "prydwen"
       },
       "current": {
-        "phase": null,
+        "phase": "Patch 3.6 Phase 1",
         "characters": [
           {
             "name": "Qingxiao",
@@ -312,11 +263,11 @@
             "rarity": 5
           }
         ],
-        "end": "2026-09-10T10:00:00.000Z",
-        "source": "game8"
+        "end": "2026-09-09T03:59:00.000Z",
+        "source": "prydwen"
       },
       "next": {
-        "phase": null,
+        "phase": "Patch 3.6 phase 2",
         "characters": [
           {
             "name": "Jingran",
@@ -334,9 +285,9 @@
             "rarity": 5
           }
         ],
-        "start": "2026-09-10T10:00:00.000Z",
-        "end": "2026-09-29T10:00:00.000Z",
-        "source": "game8"
+        "start": "2026-09-10T02:00:00.000Z",
+        "end": "2026-09-29T03:59:00.000Z",
+        "source": "prydwen"
       },
       "upcoming": [],
       "roadmap": [
@@ -368,12 +319,12 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-25T18:54:15.313Z",
-        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-        "source": "game8"
+        "checkedAt": "2026-08-30T10:44:42.621Z",
+        "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+        "source": "prydwen"
       },
       "current": {
-        "phase": null,
+        "phase": "Patch 3.1 Phase 1",
         "characters": [
           {
             "name": "Remielle",
@@ -397,25 +348,25 @@
             "rarity": 4
           },
           {
-            "name": "Yuzuha",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle47.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
-            "imageFallbackZoom": true,
-            "rarity": 4
-          },
-          {
             "name": "Harumasa",
             "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle35.webp",
             "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect35.webp",
             "imageFallbackZoom": true,
             "rarity": 4
+          },
+          {
+            "name": "Yuzuha",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle47.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect47.webp",
+            "imageFallbackZoom": true,
+            "rarity": 4
           }
         ],
-        "end": "2026-09-08T10:00:00.000Z",
-        "source": "game8"
+        "end": "2026-09-08T06:59:00.000Z",
+        "source": "prydwen"
       },
       "next": {
-        "phase": "3.2",
+        "phase": "Patch 3.2 Phase 1",
         "characters": [
           {
             "name": "Claret",
@@ -425,37 +376,39 @@
             "rarity": 4
           },
           {
-            "name": "Roxy",
-            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle68.webp",
-            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect68.webp",
+            "name": "Nangong Yu",
+            "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle59.webp",
+            "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
             "imageFallbackZoom": true,
             "rarity": 4
           }
         ],
-        "start": "2026-08-19T10:00:00.000Z",
-        "end": "2026-09-09T10:00:00.000Z",
-        "source": "game8"
+        "start": "2026-09-09T03:00:00.000Z",
+        "end": "2026-09-30T06:59:00.000Z",
+        "source": "prydwen"
       },
       "upcoming": [
         {
+          "phase": "Patch 3.2 Phase 2",
           "characters": [
-            {
-              "name": "Claret",
-              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle1611.webp",
-              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
-              "imageFallbackZoom": true,
-              "rarity": 4
-            },
             {
               "name": "Roxy",
               "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle68.webp",
               "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect68.webp",
               "imageFallbackZoom": true,
               "rarity": 4
+            },
+            {
+              "name": "Promeia",
+              "image": "https://static.nanoka.cc/assets/zzz/IconRoleCircle61.webp",
+              "imageFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect61.webp",
+              "imageFallbackZoom": true,
+              "rarity": 4
             }
           ],
-          "start": null,
-          "end": "2026-09-09T10:00:00.000Z"
+          "start": "2026-09-30T04:00:00.000Z",
+          "end": null,
+          "teased": false
         }
       ],
       "roadmap": [
@@ -495,12 +448,12 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-08-25T18:54:15.313Z",
-        "lastSuccessfulFetch": "2026-08-25T18:54:15.313Z",
-        "source": "game8"
+        "checkedAt": "2026-08-30T10:44:42.621Z",
+        "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
+        "source": "prydwen"
       },
       "current": {
-        "phase": "1.4 Phase 2",
+        "phase": "Patch 1.4 Phase 2",
         "characters": [
           {
             "name": "Liino",
@@ -508,11 +461,11 @@
             "rarity": 6
           }
         ],
-        "end": "2026-09-02T02:00:00.000Z",
-        "source": "game8"
+        "end": "2026-09-02T03:59:00.000Z",
+        "source": "prydwen"
       },
       "next": {
-        "phase": null,
+        "phase": "Patch 1.5 Phase 1",
         "characters": [
           {
             "name": "Typhoeus",
@@ -520,11 +473,24 @@
             "rarity": 6
           }
         ],
-        "start": "2026-09-02T02:00:00.000Z",
-        "end": "2026-09-30T02:00:00.000Z",
-        "source": "game8"
+        "start": "2026-09-02T03:59:00.000Z",
+        "end": "2026-09-24T04:00:00.000Z",
+        "source": "prydwen"
       },
       "upcoming": [
+        {
+          "phase": "Patch 1.5 Phase 2",
+          "characters": [
+            {
+              "name": "Yvonne",
+              "image": "https://cdn.perlica.moe/images/operators/portraits/yvonne.webp",
+              "rarity": 6
+            }
+          ],
+          "start": "2026-09-24T04:00:00.000Z",
+          "end": null,
+          "teased": false
+        },
         {
           "characters": [
             {

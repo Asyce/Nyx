@@ -8,7 +8,7 @@
     "sourcePath": "/wuthering-waves/characters/aalto",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Aero",
@@ -41,7 +41,7 @@
     "sourcePath": "/wuthering-waves/characters/aemeath",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -74,7 +74,7 @@
     "sourcePath": "/wuthering-waves/characters/augusta",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -107,7 +107,7 @@
     "sourcePath": "/wuthering-waves/characters/baizhi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Glacio",
@@ -139,7 +139,7 @@
     "sourcePath": "/wuthering-waves/characters/brant",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -171,7 +171,7 @@
     "sourcePath": "/wuthering-waves/characters/buling",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Electro",
@@ -204,7 +204,7 @@
     "sourcePath": "/wuthering-waves/characters/calcharo",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -236,7 +236,7 @@
     "sourcePath": "/wuthering-waves/characters/camellya",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -268,7 +268,7 @@
     "sourcePath": "/wuthering-waves/characters/cantarella",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -300,7 +300,7 @@
     "sourcePath": "/wuthering-waves/characters/carlotta",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -332,7 +332,7 @@
     "sourcePath": "/wuthering-waves/characters/cartethyia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -365,7 +365,7 @@
     "sourcePath": "/wuthering-waves/characters/changli",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -397,7 +397,7 @@
     "sourcePath": "/wuthering-waves/characters/chisa",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -430,7 +430,7 @@
     "sourcePath": "/wuthering-waves/characters/chixia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Fusion",
@@ -462,7 +462,7 @@
     "sourcePath": "/wuthering-waves/characters/ciaccona",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -495,7 +495,7 @@
     "sourcePath": "/wuthering-waves/characters/danjin",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Havoc",
@@ -527,7 +527,7 @@
     "sourcePath": "/wuthering-waves/characters/denia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -536,7 +536,7 @@
     "art": {
       "card": "Prydwen/ww/assets/characters/denia-cd066b7db391.webp",
       "full": "Prydwen/ww/assets/characters/denia-ad67928de9d2.webp",
-      "icon": "Prydwen/ww/assets/characters/verina-1b2a8f336e3d.webp"
+      "icon": "Prydwen/ww/assets/characters/suisui-e13ca9eeaf47.webp"
     },
     "pageFile": "Prydwen/ww/pages/characters/denia.json",
     "recommendationSections": [
@@ -549,7 +549,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 40
+    "assetCount": 39
   },
   {
     "id": "encore",
@@ -560,7 +560,7 @@
     "sourcePath": "/wuthering-waves/characters/encore",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -593,7 +593,7 @@
     "sourcePath": "/wuthering-waves/characters/galbrena",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -626,7 +626,7 @@
     "sourcePath": "/wuthering-waves/characters/hiyuki",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -659,13 +659,13 @@
     "sourcePath": "/wuthering-waves/characters/hsin",
     "contentStatus": "beta",
     "statusLabels": [
-      "3.x"
+      "3.7"
     ],
-    "updatedText": "15/June/2026",
+    "updatedText": "28/August/2026",
     "facts": {
       "rarity": 5,
-      "element": "Unknown",
-      "weapon": "Unknown"
+      "element": "Electro",
+      "weapon": "Rectifier"
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
@@ -678,7 +678,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 2
+    "assetCount": 3
   },
   {
     "id": "iuno",
@@ -689,7 +689,7 @@
     "sourcePath": "/wuthering-waves/characters/iuno",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -722,7 +722,7 @@
     "sourcePath": "/wuthering-waves/characters/jianxin",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -785,7 +785,7 @@
     "sourcePath": "/wuthering-waves/characters/jinhsi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -818,7 +818,7 @@
     "sourcePath": "/wuthering-waves/characters/jiyan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -850,7 +850,7 @@
     "sourcePath": "/wuthering-waves/characters/lingyang",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -882,7 +882,7 @@
     "sourcePath": "/wuthering-waves/characters/lucilla",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -915,7 +915,7 @@
     "sourcePath": "/wuthering-waves/characters/lucy",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -948,7 +948,7 @@
     "sourcePath": "/wuthering-waves/characters/lumi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Electro",
@@ -980,7 +980,7 @@
     "sourcePath": "/wuthering-waves/characters/lupa",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -1013,7 +1013,7 @@
     "sourcePath": "/wuthering-waves/characters/luuk-herssen",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1046,7 +1046,7 @@
     "sourcePath": "/wuthering-waves/characters/lynae",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1068,7 +1068,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 42
+    "assetCount": 44
   },
   {
     "id": "mornye",
@@ -1079,7 +1079,7 @@
     "sourcePath": "/wuthering-waves/characters/mornye",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Fusion",
@@ -1101,7 +1101,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 31
+    "assetCount": 32
   },
   {
     "id": "mortefi",
@@ -1112,7 +1112,7 @@
     "sourcePath": "/wuthering-waves/characters/mortefi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Fusion",
@@ -1145,7 +1145,7 @@
     "sourcePath": "/wuthering-waves/characters/phoebe",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1177,7 +1177,7 @@
     "sourcePath": "/wuthering-waves/characters/phrolova",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -1208,11 +1208,11 @@
     "name": "Qingxiao",
     "slug": "qingxiao",
     "sourcePath": "/wuthering-waves/characters/qingxiao",
-    "contentStatus": "beta",
+    "contentStatus": "live",
     "statusLabels": [
-      "3.6"
+      "New"
     ],
-    "updatedText": "17/July/2026",
+    "updatedText": "25/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -1220,16 +1220,21 @@
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/qingxiao-4f6ce581004d.webp",
-      "full": "Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp"
+      "full": "Prydwen/ww/assets/characters/qingxiao-df2ddd77ec24.webp",
+      "icon": "Prydwen/ww/assets/characters/qingxiao-483c7192d47c.webp"
     },
     "pageFile": "Prydwen/ww/pages/characters/qingxiao.json",
     "recommendationSections": [
       "best-echo-stats",
       "rotation",
+      "best-weapons",
+      "best-echo-sets",
+      "best-endgame-stats",
+      "skill-priority",
       "synergies",
       "example-teams"
     ],
-    "assetCount": 3
+    "assetCount": 27
   },
   {
     "id": "qiuyuan",
@@ -1240,7 +1245,7 @@
     "sourcePath": "/wuthering-waves/characters/qiuyuan",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -1273,7 +1278,7 @@
     "sourcePath": "/wuthering-waves/characters/rebecca",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -1306,7 +1311,7 @@
     "sourcePath": "/wuthering-waves/characters/roccia",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -1319,11 +1324,11 @@
     "pageFile": "Prydwen/ww/pages/characters/roccia.json",
     "recommendationSections": [
       "best-echo-stats",
+      "rotation",
       "best-weapons",
       "best-echo-sets",
       "best-endgame-stats",
       "skill-priority",
-      "rotation",
       "synergies",
       "example-teams"
     ],
@@ -1338,7 +1343,7 @@
     "sourcePath": "/wuthering-waves/characters/rover-aero",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -1370,10 +1375,8 @@
     "slug": "rover-electro",
     "sourcePath": "/wuthering-waves/characters/rover-electro",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "30/July/2026",
+    "statusLabels": [],
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -1405,7 +1408,7 @@
     "sourcePath": "/wuthering-waves/characters/rover-havoc",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -1437,7 +1440,7 @@
     "sourcePath": "/wuthering-waves/characters/rover-spectro",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1469,7 +1472,7 @@
     "sourcePath": "/wuthering-waves/characters/sanhua",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Glacio",
@@ -1502,7 +1505,7 @@
     "sourcePath": "/wuthering-waves/characters/sigrika",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Aero",
@@ -1534,10 +1537,8 @@
     "slug": "suisui",
     "sourcePath": "/wuthering-waves/characters/suisui",
     "contentStatus": "live",
-    "statusLabels": [
-      "New"
-    ],
-    "updatedText": "01/August/2026",
+    "statusLabels": [],
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",
@@ -1570,13 +1571,13 @@
     "sourcePath": "/wuthering-waves/characters/suoming",
     "contentStatus": "beta",
     "statusLabels": [
-      "3.x"
+      "3.7"
     ],
-    "updatedText": "15/June/2026",
+    "updatedText": "28/August/2026",
     "facts": {
       "rarity": 5,
-      "element": "Unknown",
-      "weapon": "Unknown"
+      "element": "Electro",
+      "weapon": "Sword"
     },
     "art": {
       "card": "Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
@@ -1589,7 +1590,7 @@
       "synergies",
       "example-teams"
     ],
-    "assetCount": 2
+    "assetCount": 3
   },
   {
     "id": "taoqi",
@@ -1600,7 +1601,7 @@
     "sourcePath": "/wuthering-waves/characters/taoqi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Havoc",
@@ -1633,7 +1634,7 @@
     "sourcePath": "/wuthering-waves/characters/the-shorekeeper",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1664,7 +1665,7 @@
     "sourcePath": "/wuthering-waves/characters/verina",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1696,7 +1697,7 @@
     "sourcePath": "/wuthering-waves/characters/xiangli-yao",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -1728,7 +1729,7 @@
     "sourcePath": "/wuthering-waves/characters/yangyang",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Aero",
@@ -1761,7 +1762,7 @@
     "sourcePath": "/wuthering-waves/characters/yangyang-xuanling",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Havoc",
@@ -1794,7 +1795,7 @@
     "sourcePath": "/wuthering-waves/characters/yinlin",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Electro",
@@ -1827,7 +1828,7 @@
     "sourcePath": "/wuthering-waves/characters/youhu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Glacio",
@@ -1859,7 +1860,7 @@
     "sourcePath": "/wuthering-waves/characters/yuanwu",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 4,
       "element": "Electro",
@@ -1892,7 +1893,7 @@
     "sourcePath": "/wuthering-waves/characters/zani",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Spectro",
@@ -1924,7 +1925,7 @@
     "sourcePath": "/wuthering-waves/characters/zhezhi",
     "contentStatus": "live",
     "statusLabels": [],
-    "updatedText": "30/July/2026",
+    "updatedText": "20/August/2026",
     "facts": {
       "rarity": 5,
       "element": "Glacio",

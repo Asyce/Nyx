@@ -11,7 +11,7 @@
   "sourcePath": "/star-rail/characters/asta",
   "contentStatus": "live",
   "statusLabels": [],
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "updatedText": "31/May/2026",
   "meta": {
     "title": "Asta Best Build Guide | Honkai: Star Rail",
@@ -414,6 +414,16 @@
       "height": 22
     },
     {
+      "id": "7fc1b269fb6f",
+      "sourceHash": "7fc1b269fb6f",
+      "kind": "characters",
+      "name": "Sparxie",
+      "fileStem": "sparxie-icon",
+      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
       "id": "c721ded1f2e0",
       "sourceHash": "c721ded1f2e0",
       "kind": "characters",
@@ -434,12 +444,42 @@
       "height": 22
     },
     {
-      "id": "7fc1b269fb6f",
-      "sourceHash": "7fc1b269fb6f",
+      "id": "714348f14d48",
+      "sourceHash": "714348f14d48",
       "kind": "characters",
-      "name": "Sparxie",
-      "fileStem": "sparxie-icon",
-      "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+      "name": "Dan Heng • Permansor Terrae",
+      "fileStem": "dan-heng-permansor-terrae-icon",
+      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "17e078e8c1e4",
+      "sourceHash": "17e078e8c1e4",
+      "kind": "characters",
+      "name": "Fu Xuan",
+      "fileStem": "fu-xuan-icon",
+      "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "565914d1a436",
+      "sourceHash": "565914d1a436",
+      "kind": "icons",
+      "name": "Quantum",
+      "fileStem": "ele-quantum",
+      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+      "width": 22,
+      "height": 22
+    },
+    {
+      "id": "0658046ea612",
+      "sourceHash": "0658046ea612",
+      "kind": "characters",
+      "name": "Aventurine",
+      "fileStem": "aventurine-icon",
+      "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
       "width": 60,
       "height": 60
     },
@@ -480,86 +520,6 @@
       "name": "Trailblazer • Remembrance",
       "fileStem": "trailblazer-remembrance-icon",
       "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "0658046ea612",
-      "sourceHash": "0658046ea612",
-      "kind": "characters",
-      "name": "Aventurine",
-      "fileStem": "aventurine-icon",
-      "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "30d074a1060a",
-      "sourceHash": "30d074a1060a",
-      "kind": "characters",
-      "name": "Gallagher",
-      "fileStem": "gallagher-icon",
-      "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "60cd0853b302",
-      "sourceHash": "60cd0853b302",
-      "kind": "characters",
-      "name": "Welt",
-      "fileStem": "welt-icon",
-      "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "2cde7699adbf",
-      "sourceHash": "2cde7699adbf",
-      "kind": "characters",
-      "name": "Tribbie",
-      "fileStem": "tribbie-icon",
-      "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "565914d1a436",
-      "sourceHash": "565914d1a436",
-      "kind": "icons",
-      "name": "Quantum",
-      "fileStem": "ele-quantum",
-      "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
-      "width": 22,
-      "height": 22
-    },
-    {
-      "id": "714348f14d48",
-      "sourceHash": "714348f14d48",
-      "kind": "characters",
-      "name": "Dan Heng • Permansor Terrae",
-      "fileStem": "dan-heng-permansor-terrae-icon",
-      "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "f70d7668d425",
-      "sourceHash": "f70d7668d425",
-      "kind": "characters",
-      "name": "Gilgamesh",
-      "fileStem": "gilgamesh-icon",
-      "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
-      "width": 60,
-      "height": 60
-    },
-    {
-      "id": "4f2eb19b0697",
-      "sourceHash": "4f2eb19b0697",
-      "kind": "characters",
-      "name": "Tingyun",
-      "fileStem": "tingyun-icon",
-      "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
       "width": 60,
       "height": 60
     }
@@ -840,21 +800,21 @@
       "id": "eidolon-0-23",
       "level": 5,
       "heading": "Eidolon 0",
-      "text": "T3\n MoC\n\n T1.5\n PF\n\n T2\n AS",
+      "text": "T4\n MoC\n\n T1.5\n PF\n\n T2\n AS",
       "assets": []
     },
     {
       "id": "eidolon-6-24",
       "level": 5,
       "heading": "Eidolon 6",
-      "text": "T2\n MoC\n\n T1.5\n PF\n\n T1.5\n AS\n\n Build and teams",
+      "text": "T3\n MoC\n\n T1.5\n PF\n\n T1.5\n AS\n\n Build and teams",
       "assets": []
     },
     {
       "id": "best-light-cones-26",
       "level": 2,
       "heading": "Best Light Cones",
-      "text": "1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n\n 2\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n\n 3\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.",
+      "text": "1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n\n 2\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.",
       "assets": [
         {
           "id": "51329378b0cb",
@@ -986,7 +946,7 @@
       "id": "best-planetary-sets-31",
       "level": 6,
       "heading": "Best Planetary Sets",
-      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+      "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
       "assets": [
         {
           "id": "bb6d718b4cb3",
@@ -1154,7 +1114,7 @@
       "id": "anomaly-arbitration-41",
       "level": 6,
       "heading": "Anomaly Arbitration",
-      "text": "Rank 246\n App. rate: 0.09 %\n Avg. cycles : 10.67\n Avg. cycles (E1+): 5.7\n\n Rank 367\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.43\n\n Rank 446\n App. rate: 0.04 %\n Avg. cycles : 0\n Avg. cycles (E1+): 1.2\n\n Rank 647\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 2.67\n\n Rank 647\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 1\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : 12\n Avg. cycles (E1+): -\n\n New\n\n MoC/PF/AS Statistics",
+      "text": "Rank 385\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n Rank 385\n App. rate: 0.04 %\n Avg. cycles : 1\n Avg. cycles (E1+): 0\n\n Rank 566\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 566\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 566\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 11\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n MoC/PF/AS Statistics",
       "assets": [
         {
           "id": "f54da6170f38",
@@ -1237,6 +1197,16 @@
           "height": 22
         },
         {
+          "id": "7fc1b269fb6f",
+          "sourceHash": "7fc1b269fb6f",
+          "kind": "characters",
+          "name": "Sparxie",
+          "fileStem": "sparxie-icon",
+          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
           "id": "c721ded1f2e0",
           "sourceHash": "c721ded1f2e0",
           "kind": "characters",
@@ -1257,12 +1227,42 @@
           "height": 22
         },
         {
-          "id": "7fc1b269fb6f",
-          "sourceHash": "7fc1b269fb6f",
+          "id": "714348f14d48",
+          "sourceHash": "714348f14d48",
           "kind": "characters",
-          "name": "Sparxie",
-          "fileStem": "sparxie-icon",
-          "path": "Prydwen/hsr/assets/characters/sparxie-7fc1b269fb6f.webp",
+          "name": "Dan Heng • Permansor Terrae",
+          "fileStem": "dan-heng-permansor-terrae-icon",
+          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "17e078e8c1e4",
+          "sourceHash": "17e078e8c1e4",
+          "kind": "characters",
+          "name": "Fu Xuan",
+          "fileStem": "fu-xuan-icon",
+          "path": "Prydwen/hsr/assets/characters/fu-xuan-17e078e8c1e4.webp",
+          "width": 60,
+          "height": 60
+        },
+        {
+          "id": "565914d1a436",
+          "sourceHash": "565914d1a436",
+          "kind": "icons",
+          "name": "Quantum",
+          "fileStem": "ele-quantum",
+          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
+          "width": 22,
+          "height": 22
+        },
+        {
+          "id": "0658046ea612",
+          "sourceHash": "0658046ea612",
+          "kind": "characters",
+          "name": "Aventurine",
+          "fileStem": "aventurine-icon",
+          "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
           "width": 60,
           "height": 60
         },
@@ -1305,86 +1305,6 @@
           "path": "Prydwen/hsr/assets/characters/trailblazer-remembrance-d3e344772d55.webp",
           "width": 60,
           "height": 60
-        },
-        {
-          "id": "0658046ea612",
-          "sourceHash": "0658046ea612",
-          "kind": "characters",
-          "name": "Aventurine",
-          "fileStem": "aventurine-icon",
-          "path": "Prydwen/hsr/assets/characters/aventurine-0658046ea612.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "30d074a1060a",
-          "sourceHash": "30d074a1060a",
-          "kind": "characters",
-          "name": "Gallagher",
-          "fileStem": "gallagher-icon",
-          "path": "Prydwen/hsr/assets/characters/gallagher-30d074a1060a.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "60cd0853b302",
-          "sourceHash": "60cd0853b302",
-          "kind": "characters",
-          "name": "Welt",
-          "fileStem": "welt-icon",
-          "path": "Prydwen/hsr/assets/characters/welt-60cd0853b302.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "2cde7699adbf",
-          "sourceHash": "2cde7699adbf",
-          "kind": "characters",
-          "name": "Tribbie",
-          "fileStem": "tribbie-icon",
-          "path": "Prydwen/hsr/assets/characters/tribbie-2cde7699adbf.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "565914d1a436",
-          "sourceHash": "565914d1a436",
-          "kind": "icons",
-          "name": "Quantum",
-          "fileStem": "ele-quantum",
-          "path": "Prydwen/hsr/assets/icons/quantum-565914d1a436.webp",
-          "width": 22,
-          "height": 22
-        },
-        {
-          "id": "714348f14d48",
-          "sourceHash": "714348f14d48",
-          "kind": "characters",
-          "name": "Dan Heng • Permansor Terrae",
-          "fileStem": "dan-heng-permansor-terrae-icon",
-          "path": "Prydwen/hsr/assets/characters/dan-heng-permansor-terrae-714348f14d48.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "f70d7668d425",
-          "sourceHash": "f70d7668d425",
-          "kind": "characters",
-          "name": "Gilgamesh",
-          "fileStem": "gilgamesh-icon",
-          "path": "Prydwen/hsr/assets/characters/gilgamesh-f70d7668d425.webp",
-          "width": 60,
-          "height": 60
-        },
-        {
-          "id": "4f2eb19b0697",
-          "sourceHash": "4f2eb19b0697",
-          "kind": "characters",
-          "name": "Tingyun",
-          "fileStem": "tingyun-icon",
-          "path": "Prydwen/hsr/assets/characters/tingyun-4f2eb19b0697.webp",
-          "width": 60,
-          "height": 60
         }
       ]
     }
@@ -1395,7 +1315,7 @@
       "sections": [
         {
           "heading": "Best Light Cones",
-          "text": "1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n\n 2\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n\n 3\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.",
+          "text": "1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n\n 2\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.",
           "assets": [
             {
               "id": "51329378b0cb",
@@ -1487,7 +1407,7 @@
       "sections": [
         {
           "heading": "Best Planetary Sets",
-          "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
+          "text": "1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.",
           "assets": [
             {
               "id": "bb6d718b4cb3",
@@ -1667,5 +1587,5 @@
     }
   },
   "tables": [],
-  "text": "Asta Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners NEW\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Asta\n Asta Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Asta from HSR (Honkai: Star Rail). Asta is a 4 ★ character from the Fire element who follows the Path of Harmony .\n A fiercely inquisitive and energetic young girl, she is the lead Researcher of Herta Space Station. Whether it is managing opinionated staff, or courteously but firmly responding to the Intelligentsia Guild, Asta handles it all effortlessly. After all... Commanding a space station is much easier than taking over a company!\n\n To learn more about Asta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Asta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Spectrum Beam\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Asta's ATK to a single enemy.\n\n Skill\n Meteor Storm\n Bounce\n\n Lv. 1\n\n Energy gain: 6\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.\n\n Ultimate\n Astral Blessing\n Support | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Increases SPD of all allies by #1[i] for #2[i] turn(s).\n\n Talent\n Astrometry\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by #1[i]%, up to #2[i] time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.\n\n Technique\n Miracle Flash\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.\n\n Major Traces\n A2 Major trace\n Sparks\n\n Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s), making the enemy take Fire DoT equal to 50% of Asta's Basic ATK DMG at the start of each turn.\n\n A4 Major trace\n Ignite\n\n When Asta is on the field, all allies' Fire DMG increases by 18% .\n\n A6 Major trace\n Constellation\n\n Asta's DEF increases by 6% for every current Charging stack she possesses.\n\n Minor Traces (total)\n Fire DMG\n + 22.4%\n\n DEF\n + 22.5%\n\n CRIT Rate\n + 6.7%\n\n Eidolons\n E 1\n Star Sings Sans Verses or Vocals\n Eidolon 1\n\n When using Skill, deals DMG for 1 extra time to a random enemy.\n\n E 2\n Moon Speaks in Wax and Wane\n Eidolon 2\n\n After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.\n\n E 3\n Meteor Showers for Wish and Want\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Talent Lv. +2 , up to a maximum of Lv. 15 .\n\n E 4\n Aurora Basks in Beauty and Bliss\n Eidolon 4\n\n Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks.\n\n E 5\n Nebula Secludes in Cold Cosmos\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 , up to a maximum of Lv. 10 .\n\n E 6\n Galaxy Dreams in Calm and Comfort\n Eidolon 6\n\n Charging stack(s) lost in each turn is reduced by 1 .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1023\n\n ATK\n\n 511\n\n DEF\n\n 463\n\n Speed\n\n 106\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Silvermane Badge\n\n x 12\n\n Silvermane Insignia\n\n x 13\n\n Endotherm Chitin\n\n x 50\n\n Silvermane Medal\n\n x 12\n\n CV\n ENG\n Felecia Angelle\n\n JPN\n Akasaki Chinatsu (赤﨑千夏)\n\n CN\n Guiniang (龟娘)\n\n KR\n 김현지\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Universal support character,\n\n Massive teamwide SPD boost with her Ultimate,\n\n Strong Breaking for a support,\n\n Able to support Dual Carry setups well,\n\n Versatile playstyles and builds.\n\n Cons\n Charging stacks can be difficult to obtain due to randomness of her Skill’s Bounce,\n\n Charging stacks can be difficult to maintain due to needing SP,\n\n Powercrept by 5-star Amplifiers, leaving her without a niche.\n\n Review (By Sushou)\n Asta is a universally applicable support specialising in increasing the whole team’s ATK and providing a massive teamwide SPD boost . Her Ultimate increases SPD by a flat 50. Asta also benefits from a fairly strong Skill that Bounces damage between enemies, allowing her to stack up her ATK bonus easily and deal tremendous Toughness damage for a support.\n The Lead Researcher of the Herta Space Station has steadily become more and more recognised by the playerbase. Her kit is always appreciated and always powerful, and it’s become very clear that she is one of the most versatile and useful 4* support units, especially for new players that lack limited Harmony units.\n Asta’s Talent has you gain up to 5 stacks of Charging. You gain a stack for every hit against a different enemy, and you get 2 stacks if an enemy you hit is weak to Fire. Each stack of Charging increases the entire team’s ATK by up to 14%, meaning the maximum total ATK boost is 70%. After her second turn in a fight, she’ll lose 3 stacks of Charging at the start of every turn.\n This is a very powerful boost that is quite easy to maintain at higher stacks. Even if there is only a single enemy on the field, you will always get to have at least a permanent 14% ATK boost since Asta’s turns are spent either Basic Attacking or using her Skill, increasing to 28% permanently if the enemy is weak to Fire. This is also the amount you can expect if Asta is played exclusively SP positive. As soon as more enemies start showing up, Asta can start very easily racking up stacks of Charging each turn with her Skill.\n Her Skill is a Bounce attack; a multi hit attack where you land the first hit against your primary target and the remaining hits can randomly land on any target, including the original one . This deals up to 50% ATK to the first enemy and Bounces 4 times, each Bounce hit also dealing 50% ATK. Bounce attacks will also deal Toughness damage on each hit, with the hits beyond the first dealing a reduced amount. This Skill will end up dealing a total of 90 Toughness damage across its 5 hits, the same as most single-target Ultimates but on a Skill.\n With Asta’s Skill it becomes possible to gain many Charging stacks easily, though with a slight amount of randomness involved. If you’re against a full house of 5 enemies and are lucky, you can get 5 stacks of Charging by getting a hit off on each of them, even if none of them have a Fire Weakness. If any of them do have a Fire Weakness, it becomes a lot more consistent to gain 5 stacks, though as mentioned before, even a couple of stacks can already be significant.\n This Skill even has a pretty impressive total multiplier of 250% ATK, particularly impressive against a single enemy. While Asta is not likely to be built specifically to deal damage, any damage stats that you do end up getting can actually end up being quite impactful in combat.\n Asta’s Ultimate is extraordinarily potent, increasing the SPD of all allies by up to a flat 50 for 2 turns. Anyone who’s familiar with turn-based games understands that any amount of additional Speed can be devastatingly powerful, and this is no exception. An additional flat 50 SPD is a huge increase for every character, and all of them except for maybe Clara greatly appreciate this.\n For many characters, SPD is of paramount importance as it streamlines gameplay and rotations, increasing overall ease of performance. At lower SPD values, some characters can range from ‘uncomfortable’ to ‘virtually unusable’, and getting more SPD is a tough ask as it’s one of the rarest substats in the game. Asta can completely alleviate this issue and then some.\n However, this does not mean that the value brought by Asta’s Ultimate is in any way diminished by characters who already meet their necessary SPD thresholds. As this boost is teamwide, everyone benefits from this, including Asta herself. Against many high-level enemies, without a sufficient amount of SPD you’ll be getting lapped several times over and might end up falling as a result — your support characters also need to be fast to keep up with your fast damage dealers and especially against the ever-accelerating enemies.\n At the higher end, for characters that are already exceeding their designated SPD values by a lot and reaching above 150, it is possible to exceed the 200 mark with Asta, thus transcending into double-turn territory, something that is practically impossible to attain without Asta, as most character’s Base SPD values are just too low.\n It is important to understand that you can end up fumbling Asta’s Ultimate somewhat; it’s not correct to call it ‘misusing’ but there is a rather steep prerequisite to understanding how to use this Ultimate optimally, and that’s actually knowing how SPD works. Many have tried to explain this before, and it’s a concept that can get very messy and complicated.\n Instead, here’s the cheat sheet for using Asta’s Ultimate: go to your settings and enable ‘Display Action Values’ and you’ll see some numbers in the turn order that’ll essentially show how far away the next turn is. When the number is bigger, use the Ultimate, it’ll end up pushing your characters’ turns up more. There is also a peculiar interaction where if you use this Ultimate on a character’s turn before they act, they’ll end up getting an ‘extra turn of the SPD boost’ — it’s not actually an extra turn of it, it’s more of a safety measure to prevent you from completely wasting a turn of the SPD boost.\n Aside from that one peculiarity, there’s really no wrong way of using Asta. None of her supportive benefits scale off of anything besides Trace level, meaning it’s up to the player how they want to build her; going for a more offensive playstyle with CRIT, or going full tank with 6000+ HP, it doesn’t matter one bit as long as she’s staying alive long enough to get her support out.\n Asta’s Bonus Ability Traces can be quite useful. Her A2 gives her Basic ATK an 80% base chance to Burn enemies for 3 turns, making them take 50% of Asta’s Basic ATK in damage. This deals quite literally no meaningful damage, but it is a source of a debuff which can be potentially useful for certain character synergies like Guinaifen’s Firekiss. A4 will increase all allies’ Fire DMG by 18% while Asta is alive, which is a free and appreciated boost to Fire centric teams or damage dealers. A6 is probably the most generally useful one of the bunch as it increases Asta’s DEF by 6% per stack of Charging, potentially giving a 30% DEF boost for free, aiding in her survivability further.\n Asta is already superb at E0, and while she doesn’t necessarily get a huge performance boost from Eidolons, she does get some pretty significant improvements to her overall usability. E1 will add an extra Bounce to her Skill, increasing the damage to 300% ATK, the Toughness damage to 105, and offering an extra chance to get more Charging stacks. E2 is a very big milestone as it will delay the decay of Charging stacks for 1 turn after using her Ultimate, letting her maintain higher stacks of Charging for longer without spending as much SP, and also allowing to nicely line up all of her benefits for big bursts from your damage dealers.\n E4 will increase Asta’s Energy Regeneration Rate by 15% when she has 2 or more Charging stacks. This is easily her most impactful Eidolon, as this can allow for permanent Ultimate uptime with certain builds. E3 and E5 are very impactful for Asta as a support character, increasing her Charging stacks ATK boost to 15.4% per stack, and improving her Ultimate’s SPD boost to a flat 53 instead of 50. Even 3 extra SPD can be pretty significant so these ability level Eidolons should not be underestimated. E6 is the final comfort Eidolon, reducing the Charging decay to only 2 at the end of her turn instead of 3.\n While in the 1.x era of the game, Asta was commonly used in many teams, with the release of Ruan Mei her usage rate dropped by quite a lot and nowadays she's being used as a substitute for those who don't have Ruan Mei (yet). If you're a new player, Asta will work well for you, but once you obtain some stronger limited Harmony units, you will most likely bench her.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Eidolon 0\n T3\n MoC\n\n T1.5\n PF\n\n T2\n AS\n\n Eidolon 6\n T2\n MoC\n\n T1.5\n PF\n\n T1.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n\n 2\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n\n 3\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.\n\n Specialist Light Cones\n 1\n\n Planetary Rendezvous (S 5 )\n\n Decent team buffing Cone, but with the restriction of only granting its boost to allies of the same Element as the wearer.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Best Specialist Relic Sets\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects.\n 2\n\n Watchmaker, Master of Dream Machinations ( 4 -PC)\n\n Incredible team-wide supportive set for Break-focused teams. Most optimally played on the character in the team with the most frequent access to an Ultimate which buffs allies to ensure strong uptime. In teams with particularly fast Break-focused damage dealers, equipping this to multiple Supports for better uptime may be advised. Asta is sometimes played in Break Damage focused teams. Whe she is - and only then - this set is a strong option for her.\n\n Best Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n\n Best Stats\n\n Body\n HP%\n > DEF%\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n >= HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint) > HP = DEF > EFF RES% (30% If using Broken Keel)\n\n Asta's energy economy depends on many factors such as her rotation, Eidolons, and getting hit. Specifically, her Eidolon 1 gives 6 extra energy per Skill, Eidolon 4 grants 15% Energy Recharge, and her Eidolon 6 makes her E4 uptime more consistent. The choice of your Planar set depends on the team you use Asta in - Broken Keel for Crit teams, Penacony for Fire teams, and Fleet for DoT teams.\n\n Recommended endgame stats\n HP: 3600 - 4400+\n\n DEF: 900 - 1100+\n\n SPD: 134 / 143 (Recommended) / 160+\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Talent = Ultimate > Skill > Basic\n\n Major Traces priority: Ignite (A4) > Sparks (A2) > Constellation (A6)\n\n Synergy\n Silver Wolf • Lv. 999 - Asta provides a massive 53 Flat SPD buff through her Ultimate which can be converted to Elation through Traces. If you are including her in your normal team it is probably too weak but Asta can be used in sustainless runs where her Ultimate can provide an enormous Action Value boost through Flat SPD increase and Dance! Light Cone. Fun fact: Normally, Asta's Ultimate can be extended to last 3 turns when casted on an ally turn, but it does not work with Silver Wolf LV.999 since her turn is automatically executed.\n Kafka - Kafka has one of the best synergies with Asta as she provides a massive speed boost and a constant ATK% boost which can be easily kept on max stacks in most teams. Asta can also perform Basic Attacks often to take advantage of Kafka’s Follow-Up Attacks.\n Black Swan - Black Swan can utilize Asta’s Speed buff very well by stacking more Arcana between enemy actions, at the cost of Skill Points compared to having Ruan Mei supporting her. Asta also provides Burn on her Basic, which allows Black Swan to apply even more Arcana stacks per attack.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 246\n App. rate: 0.09 %\n Avg. cycles : 10.67\n Avg. cycles (E1+): 5.7\n\n Rank 367\n App. rate: 0.05 %\n Avg. cycles : -\n Avg. cycles (E1+): 10.43\n\n Rank 446\n App. rate: 0.04 %\n Avg. cycles : 0\n Avg. cycles (E1+): 1.2\n\n Rank 647\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 2.67\n\n Rank 647\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 7.67\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 1\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 12\n\n Rank 786\n App. rate: 0.01 %\n Avg. cycles : 12\n Avg. cycles (E1+): -\n\n New\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
+  "text": "Asta Best Build Guide | Honkai: Star Rail\n \n\n Honkai: Star Rail\n Home Database Characters Light Cones Relic Sets Banners\n Tier Lists Tier List\n Endgame Memory of Chaos Pure Fiction Apocalyptic Shadow Anomaly Arbitration\n Tools Patch Timeline\n Guides Guides\n\n Remove Ads\n\n \n\n Privacy Policy\n Copyright © 2022 - 2026 Prydwen.gg\n\n Honkai: Star Rail\n /\n Characters\n /\n Asta\n Asta Best Build Guide\n Last updated: 31/May/2026\n\n Introduction\n Best guide and build for Asta from HSR (Honkai: Star Rail). Asta is a 4 ★ character from the Fire element who follows the Path of Harmony .\n A fiercely inquisitive and energetic young girl, she is the lead Researcher of Herta Space Station. Whether it is managing opinionated staff, or courteously but firmly responding to the Intelligentsia Guild, Asta handles it all effortlessly. After all... Commanding a space station is much easier than taking over a company!\n\n To learn more about Asta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Video guide\n This character has no video guide yet.\n\n Update tracker\n Last review update\n Patch 3.0\n\n Last major build/calcs update\n Patch 3.0\n\n Last profile update*\n 31/May/2026\n\n *Profile update means smaller edits to relics, stats, synergies or teams that don't require new calculations.\n To learn more about Asta check the sections below. Use the tabs to quickly switch to the kind of information you're looking for - kit, traces, review or build guides.\n\n Kit\n\n Review\n\n Build and teams\n\n MoC/PF/AS Statistics\n\n Calculations\n\n Profile\n\n Skills\n Basic ATK\n Spectrum Beam\n Single Target\n\n Lv. 1\n\n Energy gain: 20\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Asta's ATK to a single enemy.\n\n Skill\n Meteor Storm\n Bounce\n\n Lv. 1\n\n Energy gain: 6\n Break: 10\n\n Deals Fire DMG equal to #1[i]% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to #1[i]% of Asta's ATK to a random enemy.\n\n Ultimate\n Astral Blessing\n Support | 120 energy cost\n\n Lv. 1\n\n Energy gain: 5\n Break: -\n\n Increases SPD of all allies by #1[i] for #2[i] turn(s).\n\n Talent\n Astrometry\n Support\n\n Lv. 1\n\n Energy gain: 0\n Break: -\n\n Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.\nFor every stack of Charging Asta has, all allies' ATK increases by #1[i]%, up to #2[i] time(s).\nStarting from her second turn, Asta's Charging stack count is reduced by #3[i] at the beginning of every turn.\n\n Technique\n Miracle Flash\n\n Energy gain: 0\n Break: 20\n\n Immediately attacks the enemy. After entering battle, deals Fire DMG equal to #1[i]% of Asta's ATK to all enemies.\n\n Major Traces\n A2 Major trace\n Sparks\n\n Asta's Basic ATK has a 80% base chance to Burn enemies for 3 turn(s), making the enemy take Fire DoT equal to 50% of Asta's Basic ATK DMG at the start of each turn.\n\n A4 Major trace\n Ignite\n\n When Asta is on the field, all allies' Fire DMG increases by 18% .\n\n A6 Major trace\n Constellation\n\n Asta's DEF increases by 6% for every current Charging stack she possesses.\n\n Minor Traces (total)\n Fire DMG\n + 22.4%\n\n DEF\n + 22.5%\n\n CRIT Rate\n + 6.7%\n\n Eidolons\n E 1\n Star Sings Sans Verses or Vocals\n Eidolon 1\n\n When using Skill, deals DMG for 1 extra time to a random enemy.\n\n E 2\n Moon Speaks in Wax and Wane\n Eidolon 2\n\n After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.\n\n E 3\n Meteor Showers for Wish and Want\n Eidolon 3\n\n Skill Lv. +2 , up to a maximum of Lv. 15 . Talent Lv. +2 , up to a maximum of Lv. 15 .\n\n E 4\n Aurora Basks in Beauty and Bliss\n Eidolon 4\n\n Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks.\n\n E 5\n Nebula Secludes in Cold Cosmos\n Eidolon 5\n\n Ultimate Lv. +2 , up to a maximum of Lv. 15 . Basic ATK Lv. +1 , up to a maximum of Lv. 10 .\n\n E 6\n Galaxy Dreams in Calm and Comfort\n Eidolon 6\n\n Charging stack(s) lost in each turn is reduced by 1 .\n\n Stats and materials\n\nEnable Ascension\n\n Level 80 stats\n HP\n\n 1023\n\n ATK\n\n 511\n\n DEF\n\n 463\n\n Speed\n\n 106\n\n Level 1 → 80 Ascension Materials\n\n Credit\n\n x 246400\n\n Silvermane Badge\n\n x 12\n\n Silvermane Insignia\n\n x 13\n\n Endotherm Chitin\n\n x 50\n\n Silvermane Medal\n\n x 12\n\n CV\n ENG\n Felecia Angelle\n\n JPN\n Akasaki Chinatsu (赤﨑千夏)\n\n CN\n Guiniang (龟娘)\n\n KR\n 김현지\n\n Gallery\n\n Review\n\n Pros & Cons\n Pros\n Universal support character,\n\n Massive teamwide SPD boost with her Ultimate,\n\n Strong Breaking for a support,\n\n Able to support Dual Carry setups well,\n\n Versatile playstyles and builds.\n\n Cons\n Charging stacks can be difficult to obtain due to randomness of her Skill’s Bounce,\n\n Charging stacks can be difficult to maintain due to needing SP,\n\n Powercrept by 5-star Amplifiers, leaving her without a niche.\n\n Review (By Sushou)\n Asta is a universally applicable support specialising in increasing the whole team’s ATK and providing a massive teamwide SPD boost . Her Ultimate increases SPD by a flat 50. Asta also benefits from a fairly strong Skill that Bounces damage between enemies, allowing her to stack up her ATK bonus easily and deal tremendous Toughness damage for a support.\n The Lead Researcher of the Herta Space Station has steadily become more and more recognised by the playerbase. Her kit is always appreciated and always powerful, and it’s become very clear that she is one of the most versatile and useful 4* support units, especially for new players that lack limited Harmony units.\n Asta’s Talent has you gain up to 5 stacks of Charging. You gain a stack for every hit against a different enemy, and you get 2 stacks if an enemy you hit is weak to Fire. Each stack of Charging increases the entire team’s ATK by up to 14%, meaning the maximum total ATK boost is 70%. After her second turn in a fight, she’ll lose 3 stacks of Charging at the start of every turn.\n This is a very powerful boost that is quite easy to maintain at higher stacks. Even if there is only a single enemy on the field, you will always get to have at least a permanent 14% ATK boost since Asta’s turns are spent either Basic Attacking or using her Skill, increasing to 28% permanently if the enemy is weak to Fire. This is also the amount you can expect if Asta is played exclusively SP positive. As soon as more enemies start showing up, Asta can start very easily racking up stacks of Charging each turn with her Skill.\n Her Skill is a Bounce attack; a multi hit attack where you land the first hit against your primary target and the remaining hits can randomly land on any target, including the original one . This deals up to 50% ATK to the first enemy and Bounces 4 times, each Bounce hit also dealing 50% ATK. Bounce attacks will also deal Toughness damage on each hit, with the hits beyond the first dealing a reduced amount. This Skill will end up dealing a total of 90 Toughness damage across its 5 hits, the same as most single-target Ultimates but on a Skill.\n With Asta’s Skill it becomes possible to gain many Charging stacks easily, though with a slight amount of randomness involved. If you’re against a full house of 5 enemies and are lucky, you can get 5 stacks of Charging by getting a hit off on each of them, even if none of them have a Fire Weakness. If any of them do have a Fire Weakness, it becomes a lot more consistent to gain 5 stacks, though as mentioned before, even a couple of stacks can already be significant.\n This Skill even has a pretty impressive total multiplier of 250% ATK, particularly impressive against a single enemy. While Asta is not likely to be built specifically to deal damage, any damage stats that you do end up getting can actually end up being quite impactful in combat.\n Asta’s Ultimate is extraordinarily potent, increasing the SPD of all allies by up to a flat 50 for 2 turns. Anyone who’s familiar with turn-based games understands that any amount of additional Speed can be devastatingly powerful, and this is no exception. An additional flat 50 SPD is a huge increase for every character, and all of them except for maybe Clara greatly appreciate this.\n For many characters, SPD is of paramount importance as it streamlines gameplay and rotations, increasing overall ease of performance. At lower SPD values, some characters can range from ‘uncomfortable’ to ‘virtually unusable’, and getting more SPD is a tough ask as it’s one of the rarest substats in the game. Asta can completely alleviate this issue and then some.\n However, this does not mean that the value brought by Asta’s Ultimate is in any way diminished by characters who already meet their necessary SPD thresholds. As this boost is teamwide, everyone benefits from this, including Asta herself. Against many high-level enemies, without a sufficient amount of SPD you’ll be getting lapped several times over and might end up falling as a result — your support characters also need to be fast to keep up with your fast damage dealers and especially against the ever-accelerating enemies.\n At the higher end, for characters that are already exceeding their designated SPD values by a lot and reaching above 150, it is possible to exceed the 200 mark with Asta, thus transcending into double-turn territory, something that is practically impossible to attain without Asta, as most character’s Base SPD values are just too low.\n It is important to understand that you can end up fumbling Asta’s Ultimate somewhat; it’s not correct to call it ‘misusing’ but there is a rather steep prerequisite to understanding how to use this Ultimate optimally, and that’s actually knowing how SPD works. Many have tried to explain this before, and it’s a concept that can get very messy and complicated.\n Instead, here’s the cheat sheet for using Asta’s Ultimate: go to your settings and enable ‘Display Action Values’ and you’ll see some numbers in the turn order that’ll essentially show how far away the next turn is. When the number is bigger, use the Ultimate, it’ll end up pushing your characters’ turns up more. There is also a peculiar interaction where if you use this Ultimate on a character’s turn before they act, they’ll end up getting an ‘extra turn of the SPD boost’ — it’s not actually an extra turn of it, it’s more of a safety measure to prevent you from completely wasting a turn of the SPD boost.\n Aside from that one peculiarity, there’s really no wrong way of using Asta. None of her supportive benefits scale off of anything besides Trace level, meaning it’s up to the player how they want to build her; going for a more offensive playstyle with CRIT, or going full tank with 6000+ HP, it doesn’t matter one bit as long as she’s staying alive long enough to get her support out.\n Asta’s Bonus Ability Traces can be quite useful. Her A2 gives her Basic ATK an 80% base chance to Burn enemies for 3 turns, making them take 50% of Asta’s Basic ATK in damage. This deals quite literally no meaningful damage, but it is a source of a debuff which can be potentially useful for certain character synergies like Guinaifen’s Firekiss. A4 will increase all allies’ Fire DMG by 18% while Asta is alive, which is a free and appreciated boost to Fire centric teams or damage dealers. A6 is probably the most generally useful one of the bunch as it increases Asta’s DEF by 6% per stack of Charging, potentially giving a 30% DEF boost for free, aiding in her survivability further.\n Asta is already superb at E0, and while she doesn’t necessarily get a huge performance boost from Eidolons, she does get some pretty significant improvements to her overall usability. E1 will add an extra Bounce to her Skill, increasing the damage to 300% ATK, the Toughness damage to 105, and offering an extra chance to get more Charging stacks. E2 is a very big milestone as it will delay the decay of Charging stacks for 1 turn after using her Ultimate, letting her maintain higher stacks of Charging for longer without spending as much SP, and also allowing to nicely line up all of her benefits for big bursts from your damage dealers.\n E4 will increase Asta’s Energy Regeneration Rate by 15% when she has 2 or more Charging stacks. This is easily her most impactful Eidolon, as this can allow for permanent Ultimate uptime with certain builds. E3 and E5 are very impactful for Asta as a support character, increasing her Charging stacks ATK boost to 15.4% per stack, and improving her Ultimate’s SPD boost to a flat 53 instead of 50. Even 3 extra SPD can be pretty significant so these ability level Eidolons should not be underestimated. E6 is the final comfort Eidolon, reducing the Charging decay to only 2 at the end of her turn instead of 3.\n While in the 1.x era of the game, Asta was commonly used in many teams, with the release of Ruan Mei her usage rate dropped by quite a lot and nowadays she's being used as a substitute for those who don't have Ruan Mei (yet). If you're a new player, Asta will work well for you, but once you obtain some stronger limited Harmony units, you will most likely bench her.\n\n Ratings\n Honkai: Star Rail is a game where team building matters most and while our tier list takes the optimal setup into account, a lot of characters can work and do well - even those ranked lower - when you invest into them. Also for story or lower difficulties of Simulated Universe, you don't need to worry about ratings and tiers. You can safely clear that content even with F2P characters as long as you build your team correctly.\n Available ratings:\n Memory of Chaos (MoC) - how the character performs in the Memory of Chaos. Blast and single target damage are important here while AoE has niche uses against some bosses.\n Pure Fiction (PF) - how the character performs in the Pure Fiction. AoE is king here, followed by Blast while single target damage is mostly useless.\n Apocalyptic Shadow (AS) - how the character performs in the Apocalyptic Shadow. Single target and Break is important here.\n\n Eidolon 0\n T4\n MoC\n\n T1.5\n PF\n\n T2\n AS\n\n Eidolon 6\n T3\n MoC\n\n T1.5\n PF\n\n T1.5\n AS\n\n Build and teams\n\n Best Light Cones\n\n 1\n\n Dance! Dance! Dance! (S 5 )\n\n Allows characters with high Speed and/or an accessible Ultimate to grant substantial action boosts to themselves and the team allowing for higher Speed (and cycle) breakpoints. Strongest on characters who can access their Ultimate at least once every 3 (but ideally 2) actions. Specifically strong when combined with other additional action advances or energy generation.\n\n 2\n\n Meshing Cogs (S 5 )\n\n One of the strongest energy generating Cone in the game - especially in encounters where the wearer is getting hit many times as each hit grants 8 energy. Will help a lot with Energy issues, but at the cost of all other supportive effects and base stats.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 3\n\n But the Battle Isn't Over (S 1 )\n\n A top option for characters that advance others via their skill, guaranteeing the DMG% boost of this Cone. Useful even on characters without the ability, thanks to the Energy Regen and skill point generation.\n\n Specialist Light Cones\n 1\n\n Planetary Rendezvous (S 5 )\n\n Decent team buffing Cone, but with the restriction of only granting its boost to allies of the same Element as the wearer.\n\n Best Relic Sets\n\n The percentage numbers showcase the relative DPS increase when you take into account the set bonus only. For some characters there's no DPS (or its equivalent) available and in that case we listed the sets in the order of priority.\n 1\n\n Messenger Traversing Hackerspace ( 4 -PC)\n\n Good team wide supportive option for characters with Ultimates which target allies. With this set equipped Ultimates are best timed carefully to ensure the Speed buff is active on key members for as long as possible.\n 2\n\n Messenger Traversing Hackerspace ( 2 -PC)\n\n Flex\n\n If you can't put together a top recommended 4P set with satisfactory sub/main stats, mix and match the 2P Bonuses from the following instead:\n\n Sacerdos' Relived Ordeal\n\n Diviner of Distant Reach\n\n Warrior Goddess of Sun and Thunder\n\n Best Specialist Relic Sets\n 1\n\n Eagle of Twilight Line ( 4 -PC)\n\n Allows characters with accessible Ultimates to reach higher Speed (and cycle) breakpoints compared to just stacking Speed. Strongest on characters with powerful ultimate related effects or who can access their ultimate at least once every 3 (but ideally 2) actions. Particularly strong when combined with other action advancement effects.\n 2\n\n Watchmaker, Master of Dream Machinations ( 4 -PC)\n\n Incredible team-wide supportive set for Break-focused teams. Most optimally played on the character in the team with the most frequent access to an Ultimate which buffs allies to ensure strong uptime. In teams with particularly fast Break-focused damage dealers, equipping this to multiple Supports for better uptime may be advised. Asta is sometimes played in Break Damage focused teams. Whe she is - and only then - this set is a strong option for her.\n\n Best Planetary Sets\n 1\n\n Sprightly Vonwacq ( 2 -PC)\n\n Incredibly potent option for buff/debuff based characters. The advance from this set allows the wearer to apply their buffs/debuffs before the rest of the team acts, accelerate rotations, allows access to ultimates closer to the start of the fight and also grants Energy Regen - a valuable stat for many supports.\n Usage: 100 %\n MoC: -\n PF: 0\n AS: 0\n\n 2\n\n Fleet of the Ageless ( 2 -PC)\n\n Ideal for supporting teams that scale on ATK.\n 3\n\n Broken Keel ( 2 -PC)\n\n An option for supports stacking Effect RES, while also increasing the entire team's CRIT DMG. Requires at least 30% Effect RES to activate.\n 4\n\n Penacony, Land of the Dreams ( 2 -PC)\n\n Top option for supporting teams with the same Element as the wearer, and for its Energy Regen.\n 5\n\n Lushaka, the Sunken Seas ( 2 -PC)\n\n Top option for Supporting a single ATK-scaling DPS, and for its Energy Regen.\n\n Best Stats\n\n Body\n HP%\n > DEF%\n\n Feet\n Speed\n\n Planar Sphere\n Fire DMG\n >= HP%\n\n Link Rope\n Energy Regen Rate\n\n Substats: SPD (Until breakpoint) > HP = DEF > EFF RES% (30% If using Broken Keel)\n\n Asta's energy economy depends on many factors such as her rotation, Eidolons, and getting hit. Specifically, her Eidolon 1 gives 6 extra energy per Skill, Eidolon 4 grants 15% Energy Recharge, and her Eidolon 6 makes her E4 uptime more consistent. The choice of your Planar set depends on the team you use Asta in - Broken Keel for Crit teams, Penacony for Fire teams, and Fleet for DoT teams.\n\n Recommended endgame stats\n HP: 3600 - 4400+\n\n DEF: 900 - 1100+\n\n SPD: 134 / 143 (Recommended) / 160+\n\n ENERGY REGEN : 19.44%+\n\n Traces priority\n Skills priority: Talent = Ultimate > Skill > Basic\n\n Major Traces priority: Ignite (A4) > Sparks (A2) > Constellation (A6)\n\n Synergy\n Silver Wolf • Lv. 999 - Asta provides a massive 53 Flat SPD buff through her Ultimate which can be converted to Elation through Traces. If you are including her in your normal team it is probably too weak but Asta can be used in sustainless runs where her Ultimate can provide an enormous Action Value boost through Flat SPD increase and Dance! Light Cone. Fun fact: Normally, Asta's Ultimate can be extended to last 3 turns when casted on an ally turn, but it does not work with Silver Wolf LV.999 since her turn is automatically executed.\n Kafka - Kafka has one of the best synergies with Asta as she provides a massive speed boost and a constant ATK% boost which can be easily kept on max stacks in most teams. Asta can also perform Basic Attacks often to take advantage of Kafka’s Follow-Up Attacks.\n Black Swan - Black Swan can utilize Asta’s Speed buff very well by stacking more Arcana between enemy actions, at the cost of Skill Points compared to having Ruan Mei supporting her. Asta also provides Burn on her Basic, which allows Black Swan to apply even more Arcana stacks per attack.\n Teams\n Memory of Chaos\n\n Pure Fiction\n\n Apocalyptic Shadow\n\n Anomaly Arbitration\n\n Rank 385\n App. rate: 0.04 %\n Avg. cycles : -\n Avg. cycles (E1+): 6\n\n Rank 385\n App. rate: 0.04 %\n Avg. cycles : 1\n Avg. cycles (E1+): 0\n\n Rank 566\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 566\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 566\n App. rate: 0.02 %\n Avg. cycles : -\n Avg. cycles (E1+): 8.5\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 11\n\n Rank 771\n App. rate: 0.01 %\n Avg. cycles : -\n Avg. cycles (E1+): 0\n\n MoC/PF/AS Statistics\n\n MoC/PF/AS Statistics"
 }

@@ -3,7 +3,7 @@
   "game": "ww",
   "collection": "echoes",
   "sourcePath": "/wuthering-waves/echoes",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -14,14 +14,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/shadow-of-shattered-dreams-1253e882e66d.webp",
+      "assetId": "1253e882e66d",
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Abyssal Gladius\nClass: Elite\nCost: 3\nSets:"
+      "text": "Abyssal Gladius\nClass: Elite\nCost: 3\nTransform into Abyssal Gladius and attack enemies in front of you with the sword, dealing 178.80% Glacio DMG .\nHold the Echo Skill to maintain the Echo form for a while to slash enemies and cast a ranged attack forward, dealing 178.80% and 447% Glacio DMG respectively.\nCD: 15s .\nSets:"
     },
     {
       "id": "abyssal-mercator",
@@ -29,14 +30,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
+      "assetId": "fb383356cac2",
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Abyssal Mercator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Abyssal Mercator\nClass: Elite\nCost: 3\nTransform into Abyssal Mercator and summon 3 Ice Spikes to attack enemies, each dealing 59.59% Glacio DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "abyssal-patricius",
@@ -44,14 +46,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
+      "assetId": "941f2661edbc",
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Abyssal Patricius\nClass: Elite\nCost: 3\nSets:"
+      "text": "Abyssal Patricius\nClass: Elite\nCost: 3\nTransform into Abyssal Patricius and charge forward to attack enemies, dealing 178.80% Glacio DMG .\nThe Resonator with this Echo equipped in the main slot gains 12.00% Glacio DMG Bonus.\nCD: 15s .\nSets:"
     },
     {
       "id": "aero-drake",
@@ -59,14 +62,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": null,
-      "assetId": null,
+      "art": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
+      "assetId": "bbe705c2d324",
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Aero Drake\nClass: Elite\nCost: 3\nSets:"
+      "text": "Aero Drake\nClass: Common\nCost: 1\nSummon an Aero Drake to attack enemies, dealing 86.40% Aero DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "aero-predator",
@@ -77,11 +81,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Aero Predator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Aero Predator\nClass: Common\nCost: 1\nSummon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing 20.70% Aero DMG each time it hits.\nCD: 8s .\nSets:"
     },
     {
       "id": "aero-prism",
@@ -92,11 +97,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Aero Prism\nClass: Elite\nCost: 3\nSets:"
+      "text": "Aero Prism\nClass: Common\nCost: 1\nSummon an Aero Prism to attack enemies, dealing 12.84% Aero DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "aureate-picket",
@@ -107,11 +113,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Aureate Picket\nClass: Elite\nCost: 3\nSets:"
+      "text": "Aureate Picket\nClass: -\nCost: -\nUse Echo Skill to transform into an Aureate Picket, immediately recover 0.37% HP times plus an additional instance of 24 points of HP, then bash into enemies and deal 102.60% Aero DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "autopuppet-scout",
@@ -124,9 +131,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Autopuppet Scout\nClass: Elite\nCost: 3\nSets:"
+      "text": "Autopuppet Scout\nClass: Elite\nCost: 3\nTransform into Autopuppet Scout, dealing 195.5% Glacio DMG to the surroundings, and generate up to 3 Ice Walls to block off the enemies.\nCD: 15s .\nSets:"
     },
     {
       "id": "baby-viridblaze-saurian",
@@ -137,11 +145,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "2s .",
         "sets": ""
       },
-      "text": "Baby Viridblaze Saurian\nClass: Elite\nCost: 3\nSets:"
+      "text": "Baby Viridblaze Saurian\nClass: Common\nCost: 1\nTransform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.\nCD: 2s .\nSets:"
     },
     {
       "id": "bell-borne-geochelone",
@@ -149,14 +158,31 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/ww/assets/echoes/shadow-of-shattered-dreams-1253e882e66d.webp",
-      "assetId": "1253e882e66d",
+      "art": null,
+      "assetId": null,
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Bell-Borne Geochelone\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Bell-Borne Geochelone\nClass: Calamity\nCost: 4\nActivate the protection of Bell-Borne Geochelone. Deal Glacio DMG based on 104.88% of the current character's DEF to nearby enemies, and obtain a Bell-Borne Shield that lasts for 15s The Bell-Borne Shield provides 50.00% DMG Reduction and 10.00% DMG Boost for the current team members, and disappears after the current character is hit for 3 times.\nCD: 20s\nSets:"
+    },
+    {
+      "id": "calamity-effigy",
+      "name": "Calamity Effigy",
+      "kind": "echoes",
+      "contentStatus": "live",
+      "statusLabels": [],
+      "art": null,
+      "assetId": null,
+      "fields": {
+        "class": "-",
+        "cost": "-",
+        "cd": "25s",
+        "sets": ""
+      },
+      "text": "Calamity Effigy\nClass: -\nCost: -\nTransform into Calamity Effigy to deal 270% Aero DMG .\nThe Resonator with this Echo equipped in the main slot gains 10.00% Aero DMG Bonus, and additionally gains 10.00% Aero DMG Bonus for 15s when inflicting Tune Strain - Shifting on the target.\nCD: 25s\nSets:"
     },
     {
       "id": "calcified-junrock",
@@ -167,11 +193,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Calcified Junrock\nClass: Elite\nCost: 3\nSets:"
+      "text": "Calcified Junrock\nClass: Common\nCost: 1\nSummon a Calcified Junrock that restores HP for nearby Resonators in the team by 1.68% of their Max HP, up to 5 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "capitaneus",
@@ -184,9 +211,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Capitaneus\nClass: Elite\nCost: 3\nSets:"
+      "text": "Capitaneus\nClass: Elite\nCost: 3\nSummon a Capitaneus to jump up and smash enemies, dealing 79.20% Spectro DMG . This attack generates 4 extra Merciless Judgements, each dealing 39.60% Spectro DMG . The Resonator with this Echo equipped in their main slot gains 12.00% Spectro DMG Bonus and 12.00% Heavy Attack DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "carapace",
@@ -199,9 +227,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Carapace\nClass: Elite\nCost: 3\nSets:"
+      "text": "Carapace\nClass: Elite\nCost: 3\nTransform into Carapace to perform a spinning attack that deals 80.50% Aero DMG , followed by a slash that deals 120.75% Aero DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "chasm-guardian",
@@ -214,9 +243,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Chasm Guardian\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chasm Guardian\nClass: Elite\nCost: 3\nTransform into Chasm Guardian to perform a Leap Strike that deals 196.65% Havoc DMG on hit. Current character loses 10.00% HP after the hit lands. Periodically restore current character's HP after 5s for up to 10.00% of their Max HP.\nCD: 15s .\nSets:"
     },
     {
       "id": "chest-mimic",
@@ -227,11 +257,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Chest Mimic\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chest Mimic\nClass: Common\nCost: 1\nSummon a Chest Mimic to attack enemies with 3 consecutive strikes, each dealing 42.79% Spectro DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "chirpuff",
@@ -242,11 +273,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Chirpuff\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chirpuff\nClass: Common\nCost: 1\nSummon a Chirpuff that self-inflates and blasts a powerful gust of wind forward 3 times. Each blast inflicts 3 Aero DMG and pushes enemies backwards.\nCD: 8s .\nSets:"
     },
     {
       "id": "chop-chop",
@@ -259,9 +291,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Chop Chop\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chop Chop\nClass: Elite\nCost: 3\nSummon a Chop Chop to perform a series of consecutive attacks. The first 6 strikes each deal 12.84% Fusion DMG and finishing strike deals 51.36% Fusion DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "chop-chop-headless",
@@ -272,11 +305,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "summon_a_chop_chop": "Headless to attack enemies, dealing 86.40% Fusion DMG .",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Chop Chop: Headless\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chop Chop: Headless\nClass: Common\nCost: 1\nSummon a Chop Chop: Headless to attack enemies, dealing 86.40% Fusion DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "chop-chop-leftless",
@@ -287,11 +322,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "summon_a_chop_chop": "Leftless to attack enemies, dealing 86.40% Spectro DMG .",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Chop Chop: Leftless\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chop Chop: Leftless\nClass: Common\nCost: 1\nSummon a Chop Chop: Leftless to attack enemies, dealing 86.40% Spectro DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "chop-chop-rightless",
@@ -302,11 +339,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "summon_a_chop_chop": "Rightless to attack enemies, dealing 86.40% Havoc DMG .",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Chop Chop: Rightless\nClass: Elite\nCost: 3\nSets:"
+      "text": "Chop Chop: Rightless\nClass: Common\nCost: 1\nSummon a Chop Chop: Rightless to attack enemies, dealing 86.40% Havoc DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "clang-bang",
@@ -317,11 +356,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Clang Bang\nClass: Elite\nCost: 3\nSets:"
+      "text": "Clang Bang\nClass: Common\nCost: 1\nSummon a Clang Bang that follows the enemy and eventually self-combusts, dealing 23.00%+46 Glacio DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "corrosaurus",
@@ -334,9 +374,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Corrosaurus\nClass: Elite\nCost: 3\nSets:"
+      "text": "Corrosaurus\nClass: Elite\nCost: 3\nSummon a Corrosaurus to attack enemies, dealing 182.40% Fusion DMG . The Resonator with this Echo equipped in the main slot gains 12.00% Fusion DMG Bonus and 20.00% Echo Skill DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "crownless",
@@ -349,9 +390,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Crownless\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Crownless\nClass: Overlord\nCost: 4\nTransform into Crownless and perform up to 4 consecutive attacks. The first 2 attacks deal 96.37% Havoc DMG each, the 3rd attack deals 72.28% Havoc DMG 2 times, and the 4th attack deals 48.19% Havoc DMG 3 times. After the transformation, increase current character's Havoc DMG by 12.00% and Resonance Skill DMG by 12.00% for 15s .\nCD: 20s .\nSets:"
     },
     {
       "id": "cruisewing",
@@ -362,11 +404,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Cruisewing\nClass: Elite\nCost: 3\nSets:"
+      "text": "Cruisewing\nClass: Common\nCost: 1\nSummon a Cruisewing that restores HP for all current team characters by 1.20% of their Max HPs plus an additional 80 points of HP, up to 4 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "cuddle-wuddle",
@@ -379,9 +422,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Cuddle Wuddle\nClass: Elite\nCost: 3\nSets:"
+      "text": "Cuddle Wuddle\nClass: Elite\nCost: 3\nTransform into Cuddle Wuddle and attack enemies with 4 strikes dealing 31.32% Physical DMG and 1 strike dealing 83.52% Physical DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "cyan-feathered-heron",
@@ -394,9 +438,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Cyan-Feathered Heron\nClass: Elite\nCost: 3\nSets:"
+      "text": "Cyan-Feathered Heron\nClass: Elite\nCost: 3\nTransform into Cyan-Feathered Heron and charge at the enemies, dealing 170.2% Aero DMG ; This Echo Skill interrupts enemy Special Skills upon dealing damage.\nCD: 15s .\nSets:"
     },
     {
       "id": "devotees-flesh",
@@ -407,11 +452,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Devotee's Flesh\nClass: Elite\nCost: 3\nSets:"
+      "text": "Devotee's Flesh\nClass: Common\nCost: 1\nSummon a Devotee's Flesh to attack enemies, dealing 28.80% Aero DMG 3 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "diamondclaw",
@@ -422,11 +468,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Diamondclaw\nClass: Elite\nCost: 3\nSets:"
+      "text": "Diamondclaw\nClass: Common\nCost: 1\nTransform into Crystal Scorpion and enter a Parry State. Counterattack when the Parry State is over, dealing 34.50%+69 Physical DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "diggy-duggy",
@@ -437,11 +484,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Diggy Duggy\nClass: Elite\nCost: 3\nSets:"
+      "text": "Diggy Duggy\nClass: Common\nCost: 1\nransform into Diggy Duggy and jump up into the air to smash onto enemies, dealing 178.80% Physical DMG\nCD: 15s .\nSets:"
     },
     {
       "id": "diurnus-knight",
@@ -454,9 +502,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Diurnus Knight\nClass: Elite\nCost: 3\nSets:"
+      "text": "Diurnus Knight\nClass: Elite\nCost: 3\nTransform into Diurnus Knight and charge forward to attack enemies with the sword, dealing 178.80% Spectro DMG . DMG dealt to enemies inflicted by Spectro Frazzle is increased by 100.00%.\nCD: 15s .\nSets:"
     },
     {
       "id": "dragon-of-dirge",
@@ -469,9 +518,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Dragon of Dirge\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Dragon of Dirge\nClass: Overlord\nCost: 4\nTransform into Dragon of Dirge and summon a Grief Rift lasting for 5s. Periodically deal 24.54% Fusion DMG to enemies within the area of effect.\nThe Resonator with this Echo equipped in the main slot gains 12.00% Fusion DMG Bonus and 12.00% Basic Attack DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "dreamless",
@@ -479,14 +529,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/ww/assets/echoes/song-of-feathered-trace-fb383356cac2.webp",
-      "assetId": "fb383356cac2",
+      "art": null,
+      "assetId": null,
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Dreamless\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Dreamless\nClass: Calamity\nCost: 4\nTransform into Dreamless and perform 6 consecutive attacks. The first 5 attacks deal 38.87% Havoc DMG each, and the last attack deal 194.35% Havoc DMG . The DMG of this Echo Skill is increased by 50% during the first 5s after Rover-Havoc casts Resonance Liberation.\nCD: 20s .\nSets:"
     },
     {
       "id": "dwarf-cassowary",
@@ -497,11 +548,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Dwarf Cassowary\nClass: Elite\nCost: 3\nSets:"
+      "text": "Dwarf Cassowary\nClass: Common\nCost: 1\nSummon a Dwarf Cassowary that tracks and attacks the enemy, dealing 27.6% Physical DMG 3 time(s).\nCD: 8s .\nSets:"
     },
     {
       "id": "electro-drake",
@@ -512,11 +564,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Electro Drake\nClass: Elite\nCost: 3\nSets:"
+      "text": "Electro Drake\nClass: Common\nCost: 1\nSummon an Electro Drake to attack enemies, dealing 28.80% Electro DMG 3 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "electro-predator",
@@ -527,11 +580,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Electro Predator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Electro Predator\nClass: Common\nCost: 1\nSummon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals 12.42% Electro DMG , and the last deals 33.12% Electro DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "excarat",
@@ -542,11 +596,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "2s .",
         "sets": ""
       },
-      "text": "Excarat\nClass: Elite\nCost: 3\nSets:"
+      "text": "Excarat\nClass: Common\nCost: 1\nTransform into an Excarat and tunnel underground to advance. In this state, you have the ability to change your direction and are immune to damage.\nCD: 2s .\nSets:"
     },
     {
       "id": "fae-ignis",
@@ -557,11 +612,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Fae Ignis\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fae Ignis\nClass: Common\nCost: 1\nSummon a Fae Ignis to attack enemies, dealing 86.40% Havoc DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "fallacy-of-no-return",
@@ -574,9 +630,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Fallacy of No Return\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Fallacy of No Return\nClass: Overlord\nCost: 4\nActivate the Echo Skill to summon a fraction of the Fallacy of No Return's power and deal a blast to the surrounding area, inflicting Spectro DMG equal to 11.4% of max HP, after which the Resonator gains 10% bonus Energy Regen and all team members 10% bonus ATK for 20s.\nHold Echo Skill to unleash a series of flurry assaults at the cost of STA, each dealing Spectro DMG equal to 1.14% of max HP; Release to end the assail in a powerful blow, dealing Spectro DMG equal to 14.25% of max HP.\nCD: 20s .\nSets:"
     },
     {
       "id": "feilian-beringal",
@@ -589,9 +646,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Feilian Beringal\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Feilian Beringal\nClass: Overlord\nCost: 4\nTransform into Feilian Beringal to perform a powerful kick. If the kick lands on an enemy, immediately perform a follow-up strike. The kick deals 166.64% Aero DMG , and the follow-up strike deals 203.67% Aero DMG . After the follow-up strike hits, the current character's Aero DMG increases by 12.00% , and the Heavy Attack DMG increases by 12.00% for 15s .\nCD: 20s .\nSets:"
     },
     {
       "id": "fission-junrock",
@@ -602,11 +660,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Fission Junrock\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fission Junrock\nClass: Common\nCost: 1\nSummon a Fission Junrock. Generate a Resonance Effect that restores 2% HP for friendly units each time. If not in combat, you can pick up minerals or plants nearby.\nCD: 15s .\nSets:"
     },
     {
       "id": "flautist",
@@ -619,9 +678,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Flautist\nClass: Elite\nCost: 3\nSets:"
+      "text": "Flautist\nClass: Elite\nCost: 3\nTransform into Flautist, continuously emitting Electro lasers, dealing 38.3% Electro DMG for a total of 10 times. Gain 1 Concerto Energy every time a hit lands.\nCD: 15s .\nSets:"
     },
     {
       "id": "flora-drone",
@@ -632,11 +692,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Flora Drone\nClass: Elite\nCost: 3\nSets:"
+      "text": "Flora Drone\nClass: Common\nCost: 1\nSummon a Flora Drone, dealing 43.2% Aero DMG to enemies and healing Resonators within range by 2.4% of their Max HP plus an additional 160 HP.\nCD: 8s .\nSets:"
     },
     {
       "id": "flora-reindeer",
@@ -649,9 +710,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Flora Reindeer\nClass: Elite\nCost: 3\nSets:"
+      "text": "Flora Reindeer\nClass: Elite\nCost: 3\nSummon a Flora Reindeer to attack enemies within a large range, dealing 128.4% Aero DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "fog-lionarch",
@@ -662,11 +724,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Overlord",
-        "cost": "4",
+        "class": "-",
+        "cost": "-",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Fog Lionarch\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Fog Lionarch\nClass: -\nCost: -\nUse Echo Skill to summon Fog Lionarch to spit fire toward enemies, dealing 7 stages of 22.62% Fusion DMG .\nCD: 20s\nSets:"
     },
     {
       "id": "fog-lionarch-body",
@@ -677,11 +740,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_fog_lionarch": "Body to ram into enemies, dealing 128.40% Fusion DMG .",
+        "cd": "15s",
         "sets": ""
       },
-      "text": "Fog Lionarch: Body\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fog Lionarch: Body\nClass: -\nCost: -\nUse Echo Skill to summon Fog Lionarch: Body to ram into enemies, dealing 128.40% Fusion DMG .\nCD: 15s\nSets:"
     },
     {
       "id": "fog-lionarch-head",
@@ -692,11 +757,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_fog_lionarch": "Head to dart toward enemies, dealing 86.40% Fusion DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Fog Lionarch: Head\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fog Lionarch: Head\nClass: -\nCost: -\nUse Echo Skill to summon Fog Lionarch: Head to dart toward enemies, dealing 86.40% Fusion DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "forbidden-bastion",
@@ -707,11 +774,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Overlord",
-        "cost": "4",
+        "class": "-",
+        "cost": "-",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Forbidden Bastion\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Forbidden Bastion\nClass: -\nCost: -\nUse Echo Skill to summon Forbidden Bastion to bash over enemies, dealing 158.40% Glacio DMG .\nResonators with this Echo equipped in the main slot gain undefined Healing Bonus.\nCD: 20s\nSets:"
     },
     {
       "id": "frostbite-coleoid",
@@ -724,9 +792,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Frostbite Coleoid\nClass: Elite\nCost: 3\nSets:"
+      "text": "Frostbite Coleoid\nClass: Elite\nCost: 3\nSummon a Frostbite Coleoid to punch enemies, dealing 128.4% Glacio DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "frostscourge-stalker",
@@ -737,11 +806,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Frostscourge Stalker\nClass: Elite\nCost: 3\nSets:"
+      "text": "Frostscourge Stalker\nClass: Common\nCost: 1\nSummon a Frostscourge Stalker to attack enemies, dealing 86.40% Glacio DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "fusion-drake",
@@ -752,11 +822,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Fusion Drake\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fusion Drake\nClass: Common\nCost: 1\nSummon a Fusion Drake to attack enemies, dealing 17.28% Fusion DMG 3 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "fusion-dreamane",
@@ -767,11 +838,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Fusion Dreamane\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fusion Dreamane\nClass: Common\nCost: 1\nSummon a Fusion Dreadmane that fiercely strikes the enemy, dealing 23%+46 Fusion DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "fusion-prism",
@@ -782,11 +854,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Fusion Prism\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fusion Prism\nClass: Common\nCost: 1\nSummon a Fusion Prism to fire a crystal shard, dealing 23%+46 Fusion DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "fusion-warrior",
@@ -797,11 +870,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s",
         "sets": ""
       },
-      "text": "Fusion Warrior\nClass: Elite\nCost: 3\nSets:"
+      "text": "Fusion Warrior\nClass: Common\nCost: 1\nTransform into Fusion Warrior to perform a Counterattack. If the Counterattack is successful, the cooldown time of this skill will be reduced by 70.00% , and 207% Fusion DMG will be dealt.\nCD: 15s\nSets:"
     },
     {
       "id": "galescourge-stalker",
@@ -812,11 +886,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Galescourge Stalker\nClass: Elite\nCost: 3\nSets:"
+      "text": "Galescourge Stalker\nClass: Common\nCost: 1\nSummon a Galescourge Stalker that restores nearby party members' HP by 1.80% of their Max HP, up to 3 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "geospider-s4",
@@ -827,11 +902,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Geospider S4\nClass: Elite\nCost: 3\nSets:"
+      "text": "Geospider S4\nClass: Common\nCost: 1\nSummon a Geospider S4 to attack enemies, dealing an instance of 34.56% Spectro DMG and an instance of 51.84% Spectro DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "glacio-drake",
@@ -842,11 +918,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Glacio Drake\nClass: Elite\nCost: 3\nSets:"
+      "text": "Glacio Drake\nClass: Common\nCost: 1\nSummon a Glacio Drake to attack enemies, dealing 17.28% Glacio DMG 5 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "glacio-dreadmane",
@@ -859,9 +936,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Glacio Dreadmane\nClass: Elite\nCost: 3\nSets:"
+      "text": "Glacio Dreadmane\nClass: Elite\nCost: 3\nLacerate enemies as a Glacio Dreadmane, dealing 154.1% Glacio DMG on each hit. Equipped with 2 charges and can be cast mid-air. Glacio Dreadmane deals 20% more DMG while in mid-air and generates 6 Icicles upon landing, each dealing 23% Glacio DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "glacio-predator",
@@ -872,11 +950,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Glacio Predator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Glacio Predator\nClass: Common\nCost: 1\nSummon a Glacio Predator that throws an ice spear, dealing 33.12% Glacio DMG on hit. Deal 3.31% Glacio DMG up to 10 times during the charging time, and 16.56% Glacio DMG when the spear explodes.\nCD: 8s .\nSets:"
     },
     {
       "id": "glacio-prism",
@@ -887,11 +966,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Glacio Prism\nClass: Elite\nCost: 3\nSets:"
+      "text": "Glacio Prism\nClass: Common\nCost: 1\nSummon a Glacio Prism that continuously fires three crystal shards, each dealing 27.60% Glacio DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "glommoth",
@@ -904,9 +984,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Glommoth\nClass: Elite\nCost: 3\nSets:"
+      "text": "Glommoth\nClass: Elite\nCost: 3\nSummon a Glommoth to stomp enemies, dealing 182.40% Glacio DMG .\nCasting Outro Skill within 15s after summoning Glommoth grants 12.00% Glacio DMG Bonus to the incoming Resonator for 15s.\nCD: 20s .\nSets:"
     },
     {
       "id": "golden-junrock",
@@ -917,11 +998,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Golden Junrock\nClass: Elite\nCost: 3\nSets:"
+      "text": "Golden Junrock\nClass: Common\nCost: 1\nSummon a Golden Junrock that charges forward, dealing 86.40% Spectro DMG to enemies in its path.\nCD: 8s .\nSets:"
     },
     {
       "id": "gulpuff",
@@ -932,11 +1014,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Gulpuff\nClass: Elite\nCost: 3\nSets:"
+      "text": "Gulpuff\nClass: Common\nCost: 1\nSummon a Gulpuff that blows bubbles 5 times, each time dealing 5 Glacio DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "havoc-drake",
@@ -947,11 +1030,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Havoc Drake\nClass: Elite\nCost: 3\nSets:"
+      "text": "Havoc Drake\nClass: Common\nCost: 1\nSummon a Havoc Drake to attack enemies, dealing 86.40% Havoc DMG 3 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "havoc-dreadmane",
@@ -964,9 +1048,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Havoc Dreadmane\nClass: Elite\nCost: 3\nSets:"
+      "text": "Havoc Dreadmane\nClass: Elite\nCost: 3\nTransform into Havoc Dreadmane to perform tail strikes up to 2 times. Each strike deals 83.84% Havoc DMG . An additional strike will be performed on hit, dealing 55.89% Havoc DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "havoc-prism",
@@ -977,11 +1062,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Havoc Prism\nClass: Elite\nCost: 3\nSets:"
+      "text": "Havoc Prism\nClass: Common\nCost: 1\nSummon a Havoc Prism to fire five crystal shards, each dealing 16.56% Havoc DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "havoc-warrior",
@@ -992,11 +1078,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s",
         "sets": ""
       },
-      "text": "Havoc Warrior\nClass: Elite\nCost: 3\nSets:"
+      "text": "Havoc Warrior\nClass: Common\nCost: 1\nTransform into Havoc Warrior to attack up to 3 times, dealing 123.43% Havoc DMG each time.\nCD: 15s\nSets:"
     },
     {
       "id": "heart-of-evils-purge",
@@ -1012,14 +1099,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/ww/assets/echoes/heart-of-evils-purge-941f2661edbc.webp",
-      "assetId": "941f2661edbc",
+      "art": null,
+      "assetId": null,
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Hecate\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Hecate\nClass: Calamity\nCost: 4\nSummon 3 twirling Crescent Servants around you. Crescent Servants attack enemies with their spinning blades, dealing 30.40% Havoc DMG . Triggering a Counterattack with the Echo attacks extends the Crescent Servants’ duration.\nThe Resonator with this Echo equipped in the main slot has their Coordinated Attack DMG increased by 40.00%.\nCD: 20s .\nSets:"
     },
     {
       "id": "hoartoise",
@@ -1030,11 +1118,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "2s .",
         "sets": ""
       },
-      "text": "Hoartoise\nClass: Elite\nCost: 3\nSets:"
+      "text": "Hoartoise\nClass: Common\nCost: 1\nTransform into Hoartoise and slowly restore HP. Use the Echo skill again to exit the transformation state.\nCD: 2s .\nSets:"
     },
     {
       "id": "hocus-pocus",
@@ -1045,11 +1134,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Hocus Pocus\nClass: Elite\nCost: 3\nSets:"
+      "text": "Hocus Pocus\nClass: Common\nCost: 1\nSummon a Hocus Pocus to attack enemies with 3 consecutive strikes, each dealing 28.80% Havoc DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "hoochief",
@@ -1062,9 +1152,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Hoochief\nClass: Elite\nCost: 3\nSets:"
+      "text": "Hoochief\nClass: Elite\nCost: 3\nUse the Echo skill, transform into Hoochief Cyclone and attack with a palm, causing 178.8% Aero DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "hooscamp",
@@ -1075,11 +1166,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Hooscamp\nClass: Elite\nCost: 3\nSets:"
+      "text": "Hooscamp\nClass: Common\nCost: 1\nTransform into Hooscamp Flinger and pounce at the enemies, dealing 34.50%+69 Aero DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "hurriclaw",
@@ -1092,9 +1184,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Hurriclaw\nClass: Elite\nCost: 3\nSets:"
+      "text": "Hurriclaw\nClass: Elite\nCost: 3\nTransform into Hurriclaw and charge forward, dealing 104.40% Aero DMG upon hit plus 104.40% Aero DMG with a sweep attack. Hold the Echo Skill to continue charging forward. Use Echo Skill again while charging to perform a sweep attack.\nCD: 20s .\nSets:"
     },
     {
       "id": "hyvatia",
@@ -1107,9 +1200,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Hyvatia\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Hyvatia\nClass: Overlord\nCost: 4\nSummon Hyvatia in mid-air to fire lasers at enemies, dealing 18.24% Spectro DMG 10 times.\nCasting Outro Skill within 15s after summoning Hyvatia grants 10.00% All-Attribute DMG Bonus to the Intro Skill of the incoming Resonator for 15s.\nCD: 20s .\nSets:"
     },
     {
       "id": "iceglint-dancer",
@@ -1120,11 +1214,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Iceglint Dancer\nClass: Elite\nCost: 3\nSets:"
+      "text": "Iceglint Dancer\nClass: Common\nCost: 1\nTransform into an Iceglint Dancer to attack enemies, dealing 136.80% Glacio DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "impermanence-heron",
@@ -1137,9 +1232,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Impermanence Heron\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Impermanence Heron\nClass: Overlord\nCost: 4\nTransform into Impermanence Heron to fly up and smack down, dealing 223.22% Havoc DMG . Long press to stay as Impermanence Heron Heron and continuously spit flames, each attack dealing 40.05% Havoc DMG . Once the initial attack lands on any enemy, the current character regains 10 Resonance Energy. If the current character uses their Outro Skill within the next 15s , the next character’s damage dealt will be boosted by 12% for 15s .\nCD: 20s .\nSets:"
     },
     {
       "id": "inferno-rider",
@@ -1152,9 +1248,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Inferno Rider\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Inferno Rider\nClass: Overlord\nCost: 4\nTransform into Inferno Rider to launch up to 3 consecutive slashes in a row, each slash dealing 174.23% , 203.26% , and 203.26% Fusion DMG respectively. After the final hit, increase the current character’s Fusion DMG by 12.00% and Basic Attack DMG by 12.00% for 15s . Long press the Echo Skill to transform into Inferno Rider and enter the Riding Mode. When exiting the Riding Mode, deal 203.26% Fusion DMG to enemies in front.\nCD: 20s\nSets:"
     },
     {
       "id": "ironhoof",
@@ -1167,9 +1264,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Ironhoof\nClass: Elite\nCost: 3\nSets:"
+      "text": "Ironhoof\nClass: Elite\nCost: 3\nTransform into an Ironhoof to charge at enemies, dealing 35.76% Fusion DMG . At the end of the charge, unleash a goring attack that deals 8.94% Fusion DMG 3 times and 116.22% Fusion DMG once.\nCD: 15s .\nSets:"
     },
     {
       "id": "jue",
@@ -1177,14 +1275,15 @@
       "kind": "echoes",
       "contentStatus": "live",
       "statusLabels": [],
-      "art": "Prydwen/ww/assets/echoes/lamp-of-nether-road-bbe705c2d324.webp",
-      "assetId": "bbe705c2d324",
+      "art": null,
+      "assetId": null,
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Jué\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Jué\nClass: Calamity\nCost: 4\nSummon Jué to the aid. Jué soars through the air, dealing 34.96% Spectro DMG , and summons thunderbolts that strike nearby enemies up to 5 times, each hit dealing 13.98% Spectro DMG . Jué then spirals downward, attacking surrounding enemies twice, each hit dealing 34.96% Spectro DMG . Casting this Echo Skill grants the Resonator a Blessing of Time effect that lasts 15s , during when:\n- The Resonator gains 16% Resonance Skill DMG Bonus.\n- When the Resonator's Resonance Skill hits the target, inflict 11.5% Spectro DMG 1 time per second for 15s, considered as the Resonator's Resonance Skill DMG.\nCD: 20s .\nSets:"
     },
     {
       "id": "kerasaur",
@@ -1197,9 +1296,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Kerasaur\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kerasaur\nClass: Elite\nCost: 3\nTransform into Kerasaur to leap into the air and slam down, dealing 178.80% Aero DMG . Shortly after hitting the target, cast Echo Skill again to charge at the target, dealing 178.80% Aero DMG . The Resonator with this Echo equipped in the main slot gains 12.00% Aero DMG Bonus and 12.00% Resonance Liberation DMG Bonus.\nCD: 15s .\nSets:"
     },
     {
       "id": "kernel-puppet-anger",
@@ -1210,11 +1310,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_kernel_puppet": "Worry to attack enemies, dealing 86.40% Fusion DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Kernel Puppet: Anger\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kernel Puppet: Anger\nClass: -\nCost: -\nUse Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing 86.40% Fusion DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "kernel-puppet-fright",
@@ -1225,11 +1327,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_kernel_puppet": "Fright to attack enemies, dealing an instance of 34.56% Havoc DMG and an instance of 51.84% Havoc DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Kernel Puppet: Fright\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kernel Puppet: Fright\nClass: -\nCost: -\nUse Echo Skill to summon Kernel Puppet: Fright to attack enemies, dealing an instance of 34.56% Havoc DMG and an instance of 51.84% Havoc DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "kernel-puppet-grief",
@@ -1240,11 +1344,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_kernel_puppet": "Grief to attack enemies, dealing 86.40% Spectro DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Kernel Puppet: Grief\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kernel Puppet: Grief\nClass: -\nCost: -\nUse Echo Skill to summon Kernel Puppet: Grief to attack enemies, dealing 86.40% Spectro DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "kernel-puppet-joy",
@@ -1255,11 +1361,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_kernel_puppet": "Joy to attack enemies, dealing 86.40% Physical DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Kernel Puppet: Joy\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kernel Puppet: Joy\nClass: -\nCost: -\nUse Echo Skill to summon Kernel Puppet: Joy to attack enemies, dealing 86.40% Physical DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "kernel-puppet-reflection",
@@ -1270,11 +1378,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_kernel_puppet": "Reflection to attack enemies, dealing 43.20% Electro DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Kernel Puppet: Reflection\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kernel Puppet: Reflection\nClass: -\nCost: -\nUse Echo Skill to summon Kernel Puppet: Reflection to attack enemies, dealing 43.20% Electro DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "kernel-puppet-worry",
@@ -1285,11 +1395,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "use_echo_skill_to_summon_kernel_puppet": "Worry to attack enemies, dealing 43.20% Glacio DMG .",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Kernel Puppet: Worry\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kernel Puppet: Worry\nClass: -\nCost: -\nUse Echo Skill to summon Kernel Puppet: Worry to attack enemies, dealing 43.20% Glacio DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "kronablight",
@@ -1302,9 +1414,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Kronablight\nClass: Elite\nCost: 3\nSets:"
+      "text": "Kronablight\nClass: Elite\nCost: 3\nTransform into a Kronablight, soar into the air, and dive to deal 178.80% Electro DMG to the enemies.\nCD: 15s .\nSets:"
     },
     {
       "id": "la-guardia",
@@ -1315,11 +1428,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "La Guardia\nClass: Elite\nCost: 3\nSets:"
+      "text": "La Guardia\nClass: Common\nCost: 1\nTransform into La Guardia and attack nearby targets, dealing 178.80% Physical DMG . Hold the Echo Skill to maintain the Echo form for a while to slash enemies and cast a ranged attack forward. The slash deals 178.80% Physical DMG , and the ranged attack deals 11.92% Physical DMG up to 15 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "lady-of-the-sea",
@@ -1332,9 +1446,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Lady of the Sea\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Lady of the Sea\nClass: Overlord\nCost: 4\nSummon a Tidestorm to deal 9.12% Aero DMG ten times and 109.44% Aero DMG one time to enemies. The Resonator with this Echo equipped in the main slot gains 12.00% Aero DMG Bonus and 12.00% Resonance Liberation DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "lamp-of-nether-road",
@@ -1355,9 +1470,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Lampylumen Myriad\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Lampylumen Myriad\nClass: Overlord\nCost: 4\nTransform into Lampylumen Myriad. Perform up to 3 consecutive attacks. Unleash a freezing shock by performing consecutive forward strikes, with the initial two strikes inflicting 143.87% and 143.87% Glacio DMG respectively, and the final strike dealing 191.82% Glacio DMG . Enemies will be frozen on hit. Each shock increases the current character’s Glacio DMG by 4.00% and Resonance Skill DMG dealt by 4.00% for 15s , stacking up to 3 times.\nCD: 20s .\nSets:"
     },
     {
       "id": "lava-larva",
@@ -1368,11 +1484,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Lava Larva\nClass: Elite\nCost: 3\nSets:"
+      "text": "Lava Larva\nClass: Common\nCost: 1\nSummon a Lava Larva that continuously attacks enemies, dealing 27.6% Fusion DMG with each hit. The Lava Larva disappears when the summoner is switched out or moves too far away.\nCD: 8s .\nSets:"
     },
     {
       "id": "lightcrusher",
@@ -1385,9 +1502,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Lightcrusher\nClass: Elite\nCost: 3\nSets:"
+      "text": "Lightcrusher\nClass: Elite\nCost: 3\nLunge forward as a Lightcrusher, dealing 97.29% Spectro DMG . Generate 6 Ablucence on hit. Each Ablucence explosion deals 10.81% Spectro DMG . Hold the Echo Skill to stay in the Lightcrusher form, which allows you to leap up and pounce forward in the air for a short distance.\nCD: 15s .\nSets:"
     },
     {
       "id": "lioness-of-glory",
@@ -1400,9 +1518,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Lioness of Glory\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Lioness of Glory\nClass: Overlord\nCost: 4\nSummon the Halberd of Glory to crush an area, dealing 54.72% Fusion DMG to nearby targets, and then blast off after a short delay, dealing 127.68% Fusion DMG . The Resonator with this Echo equipped in the main slot gains 12.00% Fusion DMG Bonus and 12.00% Resonance Liberation DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "lorelei",
@@ -1415,9 +1534,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Lorelei\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Lorelei\nClass: Overlord\nCost: 4\nTransform into Lorelei and attack surrounding enemies, dealing 270% Havoc DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Basic Attack DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "lottie-lost",
@@ -1428,11 +1548,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Lottie Lost\nClass: Elite\nCost: 3\nSets:"
+      "text": "Lottie Lost\nClass: Common\nCost: 1\nSummon a Lottie Lost to attack enemies, dealing 86.40% Spectro DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "lumiscale-construct",
@@ -1445,9 +1566,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Lumiscale Construct\nClass: Elite\nCost: 3\nSets:"
+      "text": "Lumiscale Construct\nClass: Elite\nCost: 3\nTransform into a Lumiscale Construct and enter a Parry Stance. If you are not attacked during the Parry Stance, slash to deal 397.9% Glacio DMG when the stance finishes. If attacked, counterattack instantly, dealing 596.85% Glacio DMG . When hit with a Special Skill attack while in the Parry Stance, break the Special Skill and counterattack, dealing 596.85% Glacio DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "mech-abomination",
@@ -1460,9 +1582,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Mech Abomination\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Mech Abomination\nClass: Overlord\nCost: 4\nStrike the enemies in front, dealing 34.96% Electro DMG . Summon Mech Waste to attack enemies. Mech Waste deals 230% Electro DMG on-hit and explode after a while to deal 115% Electro DMG . After casting this Echo Skill, increase current character's ATK by 12.00% for 15s . Damage dealt by Mech Waste is considered Outro Skill DMG.\nCD: 20s .\nSets:"
     },
     {
       "id": "mining-drone",
@@ -1473,11 +1596,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Mining Drone\nClass: Elite\nCost: 3\nSets:"
+      "text": "Mining Drone\nClass: Common\nCost: 1\nTransform into a Mining Drone to attack enemies, dealing 68.4% Havoc DMG twice.\nCD: 8s .\nSets:"
     },
     {
       "id": "mining-reindeer",
@@ -1490,9 +1614,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Mining Reindeer\nClass: Elite\nCost: 3\nSets:"
+      "text": "Mining Reindeer\nClass: Elite\nCost: 3\nSummon a Mining Reindeer to launch a charged attack at enemies, dealing 158.4% Electro DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "mourning-aix",
@@ -1505,9 +1630,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Mourning Aix\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Mourning Aix\nClass: Overlord\nCost: 4\nTransform into Mourning Aix and perform 2 consecutive claw attacks, each attack dealing 113.16% and 169.74% Spectro DMG respectively. After the transformation, increase current character's Spectro DMG by 12.00% and Resonance Liberation DMG by 12.00% for 15s .\nCD: 20s .\nSets:"
     },
     {
       "id": "myriad-snare-rustfire-chassis",
@@ -1518,11 +1644,13 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Calamity",
-        "cost": "4",
+        "class": "-",
+        "cost": "-",
+        "summon_myriad_snare": "Rustfire Chassis, dealing Fusion DMG equal to 6.80% of the Max HP on initial impact. During its duration, it repeatedly crushes enemies along its path up to 19 times, dealing Fusion DMG equal to 0.24% of the Max HP each time.",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Myriad Snare: Rustfire Chassis\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Myriad Snare: Rustfire Chassis\nClass: -\nCost: -\nSummon Myriad Snare: Rustfire Chassis, dealing Fusion DMG equal to 6.80% of the Max HP on initial impact. During its duration, it repeatedly crushes enemies along its path up to 19 times, dealing Fusion DMG equal to 0.24% of the Max HP each time.\nResonators with this Echo equipped in the main slot gain 12.00% Fusion DMG Bonus and 12.00% Heavy Attack DMG Bonus.\nCD: 20s\nSets:"
     },
     {
       "id": "nameless-explorer",
@@ -1535,9 +1663,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Nameless Explorer\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nameless Explorer\nClass: Overlord\nCost: 4\nSummon Nameless Explorer to attack enemies along its path, dealing 182.40% Aero DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 20.00% Echo Skill DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "nightmare-aero-predator",
@@ -1548,11 +1677,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Aero Predator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Aero Predator\nClass: Common\nCost: 1\nSummon an Aero Predator that throws a dart forward. The dart will bounce between enemies up to three times, dealing 20.70% Aero DMG each time it hits.\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-baby-roseshroom",
@@ -1563,11 +1693,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Baby Roseshroom\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Baby Roseshroom\nClass: Common\nCost: 1\nSummon a Baby Roseshroom that fires a laser, dealing 23.00%+46 Havoc DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-baby-viridblaze-saurian",
@@ -1578,11 +1709,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Baby Viridblaze Saurian\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Baby Viridblaze Saurian\nClass: Common\nCost: 1\nTransform into Baby Viridblaze Saurian to rest in place, and slowly restore HP.\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-chirpuff",
@@ -1593,11 +1725,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Chirpuff\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Chirpuff\nClass: Common\nCost: 1\nSummon a Chirpuff that self-inflates and blasts a powerful gust of wind forward 3 times. Each blast inflicts 27.60% Aero DMG and pushes enemies backwards.\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-crownless",
@@ -1610,9 +1743,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "transform_into_nightmare": "Crownless and attack enemies in front, dealing 176.40% Havoc DMG . The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Basic Attack DMG Bonus.",
+        "cd": "12s .",
         "sets": ""
       },
-      "text": "Nightmare: Crownless\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Crownless\nClass: Overlord\nCost: 4\nTransform into Nightmare: Crownless and attack enemies in front, dealing 176.40% Havoc DMG . The Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Basic Attack DMG Bonus.\nThis skill has 3 initial charges, replenished once every 12s, max 3 charges. When Nightmare: Crownless hits a target, DMG dealt by this skill is increased by 20.00%. This effect lasts for 2s and does not stack.\nCD: 12s .\nSets:"
     },
     {
       "id": "nightmare-cyan-feathered-heron",
@@ -1625,9 +1760,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nightmare: Cyan-Feathered Heron\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Cyan-Feathered Heron\nClass: Elite\nCost: 3\nTransform into Cyan-Feathered Heron and charge at the enemies, dealing 170.20% Aero DMG ; This Echo Skill interrupts enemy Special Skills upon dealing damage.\nCD: 15s .\nSets:"
     },
     {
       "id": "nightmare-dwarf-cassowary",
@@ -1638,11 +1774,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Dwarf Cassowary\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Dwarf Cassowary\nClass: Common\nCost: 1\nSummon a Dwarf Cassowary that tracks and attacks the enemy, dealing 27.60% Physical DMG 3 time(s).\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-electro-predator",
@@ -1653,11 +1790,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Electro Predator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Electro Predator\nClass: Common\nCost: 1\nSummon an Electro Predator to shoot the enemy 5 times. The first 4 shots deals 12.42% Electro DMG , and the last deals 33.12% Electro DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-feilian-beringal",
@@ -1670,9 +1808,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "summon_a_nightmare": "Feilian Beringal to attack enemies, dealing 109.44% Aero DMG . The remaining Whirlwind Beam will continuously attack surrounding enemies up to 5 times, each dealing 14.59% Aero DMG .",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Nightmare: Feilian Beringal\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Feilian Beringal\nClass: Overlord\nCost: 4\nSummon a Nightmare: Feilian Beringal to attack enemies, dealing 109.44% Aero DMG . The remaining Whirlwind Beam will continuously attack surrounding enemies up to 5 times, each dealing 14.59% Aero DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "nightmare-glacio-predator",
@@ -1683,11 +1823,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Glacio Predator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Glacio Predator\nClass: Common\nCost: 1\nSummon a Glacio Predator that throws an ice spear, dealing 33.12% Glacio DMG on hit. Deal 3.31% Glacio DMG up to 10 times during the charging time, and 16.56% Glacio DMG when the spear explodes.\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-gulpuff",
@@ -1698,11 +1839,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Gulpuff\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Gulpuff\nClass: Common\nCost: 1\nSummon a Gulpuff that blows bubbles 5 times, each time dealing 16.56% Glacio DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "nightmare-havoc-warrior",
@@ -1713,11 +1855,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nightmare: Havoc Warrior\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Havoc Warrior\nClass: Common\nCost: 1\nTransform into Havoc Warrior to attack up to 3 times, dealing 123.43% Havoc DMG each time.\nCD: 15s .\nSets:"
     },
     {
       "id": "nightmare-hecate",
@@ -1730,9 +1873,11 @@
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "transform_into_nightmare": "Hecate. Leap up and smash down, dealing 3 stages of damage, each dealing Havoc DMG equal to 101.59% of her ATK. The Resonator with the Echo equipped in the main slot gains 12.00% Havoc DMG Bonus and 20.00% Echo Skill DMG Bonus.",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Nightmare: Hecate\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Nightmare: Hecate\nClass: Calamity\nCost: 4\nTransform into Nightmare: Hecate. Leap up and smash down, dealing 3 stages of damage, each dealing Havoc DMG equal to 101.59% of her ATK. The Resonator with the Echo equipped in the main slot gains 12.00% Havoc DMG Bonus and 20.00% Echo Skill DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "nightmare-impermanence-heron",
@@ -1745,9 +1890,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "transform_into_nightmare": "Impermanence Heron and deliver up to 10 consecutive strikes to surrounding enemies, each dealing 27% Havoc DMG .",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Nightmare: Impermanence Heron\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Impermanence Heron\nClass: Overlord\nCost: 4\nTransform into Nightmare: Impermanence Heron and deliver up to 10 consecutive strikes to surrounding enemies, each dealing 27% Havoc DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Havoc DMG Bonus and 12.00% Heavy Attack DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "nightmare-inferno-rider",
@@ -1760,9 +1907,12 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "transform_into_nightmare": "Inferno Rider and jump to attack enemies in front, dealing 270% Fusion DMG .",
+        "hold_echol_skill_to_transform_into_nightmare": "Inferno Rider and enter Riding Mode. When exiting Riding Mode, deal 189% Fusion DMG to enemies in front.",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Nightmare: Inferno Rider\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Inferno Rider\nClass: Overlord\nCost: 4\nTransform into Nightmare: Inferno Rider and jump to attack enemies in front, dealing 270% Fusion DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Fusion DMG Bonus and 12.00% Resonance Skill DMG Bonus.\nHold Echol Skill to transform into Nightmare: Inferno Rider and enter Riding Mode. When exiting Riding Mode, deal 189% Fusion DMG to enemies in front.\nCD: 25s .\nSets:"
     },
     {
       "id": "nightmare-kelpie",
@@ -1775,9 +1925,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "transform_into_nightmare": "Kelpie to attack nearby targets, dealing 270% Glacio DMG . The Resonator with this Echo equipped in the main slot gains 12.00% Glacio DMG Bonus and 12.00% Aero DMG Bonus. Switching out the Resonator with Outro Skill summons Nightmares: Kelpie to deal 405.00% Aero DMG .",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Nightmare: Kelpie\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Kelpie\nClass: Overlord\nCost: 4\nTransform into Nightmare: Kelpie to attack nearby targets, dealing 270% Glacio DMG . The Resonator with this Echo equipped in the main slot gains 12.00% Glacio DMG Bonus and 12.00% Aero DMG Bonus. Switching out the Resonator with Outro Skill summons Nightmares: Kelpie to deal 405.00% Aero DMG .\nCD: 25s .\nSets:"
     },
     {
       "id": "nightmare-lampylumen-myriad",
@@ -1790,9 +1942,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "summon_a_nightmare": "Lampylumen Myriad and attack nearby enemies, dealing 182.40% Glacio DMG . The Resonator with this Echo equipped in their main slot gains 12.00% Glacio DMG Bonus and has their Coordinated Attack DMG increased by 30.00%.",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Nightmare: Lampylumen Myriad\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Lampylumen Myriad\nClass: Overlord\nCost: 4\nSummon a Nightmare: Lampylumen Myriad and attack nearby enemies, dealing 182.40% Glacio DMG . The Resonator with this Echo equipped in their main slot gains 12.00% Glacio DMG Bonus and has their Coordinated Attack DMG increased by 30.00%.\nCD: 20s .\nSets:"
     },
     {
       "id": "nightmare-mourning-aix",
@@ -1805,9 +1959,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "summon_a_nightmare": "Mourning Aix to attack surrounding enemies, dealing 182.40% Spectro DMG . DMG dealt to enemies inflicted by Spectro Frazzle is increased by 100.00%.",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Nightmare: Mourning Aix\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Mourning Aix\nClass: Overlord\nCost: 4\nSummon a Nightmare: Mourning Aix to attack surrounding enemies, dealing 182.40% Spectro DMG . DMG dealt to enemies inflicted by Spectro Frazzle is increased by 100.00%.\nThe Resonator with this Echo equipped in their main slot gains 12.00% Spectro DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "nightmare-roseshroom",
@@ -1820,9 +1976,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nightmare: Roseshroom\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Roseshroom\nClass: Elite\nCost: 3\nSummon a Roseshroom that fires a laser, dealing 41.02% Havoc DMG up to 3 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "nightmare-tambourinist",
@@ -1833,11 +1990,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nightmare: Tambourinist\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Tambourinist\nClass: Common\nCost: 1\nSummon a Tambourinist that plays out Melodies of Annihilation. Any Resonator on the team gains the following effect for 10s upon obtaining a Melody of Annihilation: When the Resonator hits a target, the Tambourinist deals 10.35% Havoc DMG to the target, up to 10 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "nightmare-tempest-mephis",
@@ -1850,9 +2008,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "transform_into_nightmare": "Tempest Mephis and attack surrounding enemies, dealing 270% Electro DMG .",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Nightmare: Tempest Mephis\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Tempest Mephis\nClass: Overlord\nCost: 4\nTransform into Nightmare: Tempest Mephis and attack surrounding enemies, dealing 270% Electro DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus and 12.00% Resonance Skill DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "nightmare-thundering-mephis",
@@ -1865,9 +2025,11 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "transform_into_nightmare": "Thundering Mephis and attack enemies in front, dealing 270% Electro DMG .",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Nightmare: Thundering Mephis\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Nightmare: Thundering Mephis\nClass: Overlord\nCost: 4\nTransform into Nightmare: Thundering Mephis and attack enemies in front, dealing 270% Electro DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus and 12.00% Resonance Liberation DMG Bonus\nCD: 25s .\nSets:"
     },
     {
       "id": "nightmare-tick-tack",
@@ -1878,11 +2040,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nightmare: Tick Tack\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Tick Tack\nClass: Common\nCost: 1\nSummon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal 49.22% Havoc DMG to the enemy, and the bite will deal 73.83% Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to 5% during 5s.\nCD: 15s .\nSets:"
     },
     {
       "id": "nightmare-violet-feathered-heron",
@@ -1895,9 +2058,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nightmare: Violet-Feathered Heron\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Violet-Feathered Heron\nClass: Elite\nCost: 3\nTransform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing 207% Electro DMG . If attacked during Parry Stance, you can counterattack in advance and additionally recover 5 Concerto Energy.\nCD: 15s .\nSets:"
     },
     {
       "id": "nightmare-viridblaze-saurian",
@@ -1910,9 +2074,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Nightmare: Viridblaze Saurian\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nightmare: Viridblaze Saurian\nClass: Elite\nCost: 3\nSummon a Viridblaze Saurian to continuously spit fire, dealing 12.3% Fusion DMG 10 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "nimbus-wraith",
@@ -1923,11 +2088,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nimbus Wraith\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nimbus Wraith\nClass: Common\nCost: 1\nSummon a Nimbus Wraith that restores the active Resonator's HP by 1.80% of their Max HP, up to 4 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "nocturnus-knight",
@@ -1940,9 +2106,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Nocturnus Knight\nClass: Elite\nCost: 3\nSets:"
+      "text": "Nocturnus Knight\nClass: Elite\nCost: 3\nTransform into Nocturnus Knight and strike enemies in front of you from the air, dealing 178.80% Havoc DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "pilgrims-shell",
@@ -1955,9 +2122,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Pilgrim's Shell\nClass: Elite\nCost: 3\nSets:"
+      "text": "Pilgrim's Shell\nClass: Elite\nCost: 3\nTransform into a Pilgrim's Shell to attack nearby enemies, dealing 178.80% Aero DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "porcelain-picket",
@@ -1968,11 +2136,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Porcelain Picket\nClass: Elite\nCost: 3\nSets:"
+      "text": "Porcelain Picket\nClass: -\nCost: -\nUse Echo Skill to summon a Porcelain Picket to slash forward, dealing 2 instances of 12.96% Aero DMG and 7 instances of 8.64% Aero DMG to enemies along the path.\nCD: 8s\nSets:"
     },
     {
       "id": "questless-knight",
@@ -1985,9 +2154,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Questless Knight\nClass: Elite\nCost: 3\nSets:"
+      "text": "Questless Knight\nClass: Elite\nCost: 3\nTransform into Questless Knight and smash the surrounding enemies, dealing 208.80% Electro DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "rage-against-the-statue",
@@ -2000,9 +2170,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Rage Against the Statue\nClass: Elite\nCost: 3\nSets:"
+      "text": "Rage Against the Statue\nClass: Elite\nCost: 3\nTransform into Rage Against the Statue to attack enemies, dealing 208.80% Spectro DMG . Hold the Echo Skill to maintain the Echo form and charge towards enemies, dealing 313.20% Spectro DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "reactor-husk",
@@ -2015,9 +2186,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Reactor Husk\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Reactor Husk\nClass: Overlord\nCost: 4\nTransform into Reactor Husk, jumping into the air and unleashing a heavy slash that deals 234% Fusion DMG to enemies.\nThe Resonator with this Echo equipped in their main slot gain 10.00% Energy Regen.\nCD: 20s .\nSets:"
     },
     {
       "id": "reminiscence-nightmare-adam-smasher",
@@ -2028,11 +2200,14 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Calamity",
-        "cost": "4",
+        "class": "-",
+        "cost": "-",
+        "if_equipped_by_lucy": "- Press the Echo Skill button to deal Spectro DMG equal to 182.40% of ATK to nearby enemies.",
+        "if_equipped_by_rebecca": "- Cast Echo Skill to fire missiles, dealing 16 instances of Electro DMG equal to 11.40% of ATK to enemies.",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Reminiscence - Nightmare: Adam Smasher\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Reminiscence - Nightmare: Adam Smasher\nClass: -\nCost: -\nCast Echo Skill to deal 16 instances of Physical DMG equal to 6.84% of ATK to enemies within range.\nWhen Lucy or Rebecca has this Echo equipped in the main slot, their Crit. Rate is increased by 15% and they unlock special Echo Skills.\nIf equipped by Lucy:\n- Press the Echo Skill button to deal Spectro DMG equal to 182.40% of ATK to nearby enemies.\n- Hold the Echo Skill button to deal Spectro DMG equal to 182.40% of ATK to nearby enemies and enter a special moving state, increasing Lucy's movement speed while slowing nearby enemies.\nIf equipped by Rebecca:\n- Cast Echo Skill to fire missiles, dealing 16 instances of Electro DMG equal to 11.40% of ATK to enemies.\nCD: 20s\nSets:"
     },
     {
       "id": "reminiscence-denia",
@@ -2045,9 +2220,10 @@
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Reminiscence: Denia\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Reminiscence: Denia\nClass: Calamity\nCost: 4\nSummon \"Trickster\" to deal 182.40% Fusion DMG to enemies. Within the next 15s, casting Outro Skill grants the incoming Resonator 12.00% Fusion DMG Bonus for 15s.\nCD: 20s\nSets:"
     },
     {
       "id": "reminiscence-fenrico",
@@ -2060,9 +2236,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Reminiscence: Fenrico\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Reminiscence: Fenrico\nClass: Overlord\nCost: 4\nSummon the Talons of Decree to attack nearby enemies, dealing 182.40% Aero DMG . The Resonator with this Echo equipped in their main slot gains 12.00% Aero DMG Bonus and 12.00% Heavy Attack DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "reminiscence-fleurdelys",
@@ -2075,9 +2252,10 @@
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Reminiscence: Fleurdelys\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Reminiscence: Fleurdelys\nClass: Calamity\nCost: 4\nSummon the Windcleaver to attack the target, dealing 18.24% Aero DMG 8 times and 91.20% Aero DMG once. The Resonator with this Echo equipped in their main slot gains 10.00% Aero DMG Bonus. If this Resonator is Rover: Aero or Cartethyia, grant another 10.00% Aero DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "reminiscence-kronaclaw",
@@ -2090,9 +2268,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Reminiscence: Kronaclaw\nClass: Elite\nCost: 3\nSets:"
+      "text": "Reminiscence: Kronaclaw\nClass: Elite\nCost: 3\nTransform into a Kronaclaw and soar into the air to deal 5.36% Aero DMG up to 8 times and 16.09% Aero DMG 2 times, then dive to deal 103.70% Aero DMG 1 time.\nCD: 15s .\nSets:"
     },
     {
       "id": "reminiscence-threnodian-leviathan",
@@ -2105,9 +2284,10 @@
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Reminiscence: Threnodian - Leviathan\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Reminiscence: Threnodian - Leviathan\nClass: Calamity\nCost: 4\nSummon a Collapsing Horizon, dealing two instances of 87.36% Havoc DMG to the nearby enemies and obtaining the Core of Collapse for 15s. While it lasts, Core of Collapse deals 24.57% Havoc DMG when the active Resonator in the team deals damage. This effect can be triggered once every 0.5s, up to 8. Enemies with Havoc Bane take 100% more DMG from this effect. The Resonator with this Echo equipped in the main slot gains 12% Havoc DMG Bonus and 12% Resonance Liberation DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "reminiscence-threnodian-voidborne-construct",
@@ -2120,9 +2300,10 @@
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Reminiscence: Threnodian - Voidborne Construct\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Reminiscence: Threnodian - Voidborne Construct\nClass: Calamity\nCost: 4\nSummon Aleph-1's Creation to deal 14.59% Glacio DMG 5 times and 109.44% Glacio DMG 1 time to enemies.\nThe Resonator with this Echo equipped in the main slot gains 12.00% Glacio DMG Bonus and 12.00% Resonance Liberation DMG Bonus.\nCD: 20s\nSets:"
     },
     {
       "id": "rocksteady-guardian",
@@ -2135,9 +2316,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Rocksteady Guardian\nClass: Elite\nCost: 3\nSets:"
+      "text": "Rocksteady Guardian\nClass: Elite\nCost: 3\nTransform into Rocksteady Guardian and enter a Parry State. Upon being attacked, deal Spectro DMG equal to 5.96% of the current character's Max HP, and perform a follow-up attack that deals Spectro DMG equal to 5.96% of the current character's Max HP. Use the Echo skill again to exit the transformation.\nIf the attack received is a Special Skill attack, interrupt the enemy's Special Skill and perform a two-stage follow-up attack, each inflicting Spectro DMG equal to 3.97% of the current character's max HP. These follow-up attacks simultaneously launch three ground-breaking waves, each inflicting Spectro DMG equal to 3.30% of the current character's Max HP.\nCD: 15s .\nSets:"
     },
     {
       "id": "roseshroom",
@@ -2150,9 +2332,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Roseshroom\nClass: Elite\nCost: 3\nSets:"
+      "text": "Roseshroom\nClass: Elite\nCost: 3\nSummon a Roseshroom that fires a laser, dealing 41.02% Havoc DMG up to 3 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "sabercat-prowler",
@@ -2165,9 +2348,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Sabercat Prowler\nClass: Elite\nCost: 3\nSets:"
+      "text": "Sabercat Prowler\nClass: Elite\nCost: 3\nSummon a Sabercat Prowler to fire beams at enemies, dealing 128.4% Havoc DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "sabercat-reaver",
@@ -2180,9 +2364,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Sabercat Reaver\nClass: Elite\nCost: 3\nSets:"
+      "text": "Sabercat Reaver\nClass: Elite\nCost: 3\nSummon a Sabercat Reaver to attack enemies, dealing 128.4% Fusion DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "sabyr-boar",
@@ -2193,11 +2378,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Sabyr Boar\nClass: Elite\nCost: 3\nSets:"
+      "text": "Sabyr Boar\nClass: Common\nCost: 1\nSummon a Sabyr Boar to headbutt the enemy into the air, dealing 23.00%+46 Physical DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "sacerdos",
@@ -2208,11 +2394,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Sacerdos\nClass: Elite\nCost: 3\nSets:"
+      "text": "Sacerdos\nClass: Common\nCost: 1\nSummon a Sacerdos to attack enemies, dealing 43.20% Aero DMG 2 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "sagittario",
@@ -2223,11 +2410,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Sagittario\nClass: Elite\nCost: 3\nSets:"
+      "text": "Sagittario\nClass: Common\nCost: 1\nTransform into Sagittario to move a certain distance and perform a ranged attack, dealing 178.80% Spectro DMG . Getting attacked while moving in the Sagittario form triggers form triggers a damage avoiding enhanced Dodge Counter, dealing 178.80% Spectro DMG once and 35.76% Spectro DMG 5 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "sentry-construct",
@@ -2240,9 +2428,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "25s .",
         "sets": ""
       },
-      "text": "Sentry Construct\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Sentry Construct\nClass: Overlord\nCost: 4\nTransform into Sentry Construct and attack enemies in front, dealing 270% Glacio DMG . Each time the Resonator with this Echo casts Resonance Liberation, it charges the Strike Capacitor. Once Strike Capacitor is at max level, the Echo Skill cooldown will be reset.\nUse Echo Skill to transform into Sentry Construct and dive into enemies from the air, dealing 270% Glacio DMG and freezing the target.\nThe Resonator with this Echo equipped in their main slot gains 12.00% Glacio DMG Bonus and 12.00% Resonance Skill DMG Bonus.\nCD: 25s .\nSets:"
     },
     {
       "id": "shadow-of-shattered-dreams",
@@ -2261,11 +2450,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Shadow Stepper\nClass: Elite\nCost: 3\nSets:"
+      "text": "Shadow Stepper\nClass: Common\nCost: 1\nSummon a Shadow Stepper to attack enemies, dealing 86.40% Havoc DMG .\nCD: 20s .\nSets:"
     },
     {
       "id": "sigillum",
@@ -2278,9 +2468,10 @@
       "fields": {
         "class": "Calamity",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Sigillum\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Sigillum\nClass: Calamity\nCost: 4\nSummon Sigillum to unleash two attacks, dealing 45.60% and 136.80% Fusion DMG respectively.\nWhen equipped in the main slot by Aemeath, it grants 25.00% Resonance Liberation DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "smiter",
@@ -2291,11 +2482,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "cd": "15s",
         "sets": ""
       },
-      "text": "Smiter\nClass: Elite\nCost: 3\nSets:"
+      "text": "Smiter\nClass: -\nCost: -\nUse Echo Skill to summon a Smiter to jab at enemies, dealing 7 instances of 12.84% Spectro DMG , and finish with an uppercut, dealing 38.52% Spectro DMG .\nCD: 15s\nSets:"
     },
     {
       "id": "smolder",
@@ -2306,11 +2498,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "cd": "15s",
         "sets": ""
       },
-      "text": "Smolder\nClass: Elite\nCost: 3\nSets:"
+      "text": "Smolder\nClass: -\nCost: -\nUse Echo Skill to summon Smolder to hurl fireballs toward enemies, dealing 128.40% Fusion DMG . If the fireball hits the ground, it explodes to deal 128.40% Fusion DMG to all enemies within the range.\nCD: 15s\nSets:"
     },
     {
       "id": "snip-snap",
@@ -2321,11 +2514,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Snip Snap\nClass: Elite\nCost: 3\nSets:"
+      "text": "Snip Snap\nClass: Common\nCost: 1\nSummon a Snip Snap that throws fireballs at the enemy, dealing 23%+46 Fusion DMG on-hit.\nCD: 8s\nSets:"
     },
     {
       "id": "song-of-feathered-trace",
@@ -2346,9 +2540,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Spacetrek Explorer\nClass: Elite\nCost: 3\nSets:"
+      "text": "Spacetrek Explorer\nClass: Elite\nCost: 3\nSummon a Spacetrek Explorer to grant nearby active Resonators in the team a Shield equal to 10% of the summoner's Max HP for 4s.\nCD: 20s .\nSets:"
     },
     {
       "id": "spearback",
@@ -2361,9 +2556,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Spearback\nClass: Elite\nCost: 3\nSets:"
+      "text": "Spearback\nClass: Elite\nCost: 3\nSummon a Spearback to perform 5 consecutive attacks. The first 4 attacks deal 21.53% Physical DMG , and the last deals 36.92% Physical DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "spectro-drake",
@@ -2374,11 +2570,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Spectro Drake\nClass: Elite\nCost: 3\nSets:"
+      "text": "Spectro Drake\nClass: Common\nCost: 1\nSummon a Spectro Drake to attack enemies, dealing 28.80% Spectro DMG 3 times.\nCD: 8s .\nSets:"
     },
     {
       "id": "spectro-prism",
@@ -2389,11 +2586,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Spectro Prism\nClass: Elite\nCost: 3\nSets:"
+      "text": "Spectro Prism\nClass: Common\nCost: 1\nSummon a Spectro Prism to emit a laser that hits the enemy up to 8 times, dealing 10.35% Spectro DMG each time.\nCD: 8s .\nSets:"
     },
     {
       "id": "stone-picket",
@@ -2404,11 +2602,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "-",
+        "cost": "-",
+        "cd": "8s",
         "sets": ""
       },
-      "text": "Stone Picket\nClass: Elite\nCost: 3\nSets:"
+      "text": "Stone Picket\nClass: -\nCost: -\nUse Echo Skill to summon a Stone Picket, dealing 86.40% Aero DMG .\nCD: 8s\nSets:"
     },
     {
       "id": "stonewall-bracer",
@@ -2421,9 +2620,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Stonewall Bracer\nClass: Elite\nCost: 3\nSets:"
+      "text": "Stonewall Bracer\nClass: Elite\nCost: 3\nTransform into Stonewall Bracer and charge forward, dealing 80.96% Physical DMG on-hit, then smash to deal 121.44% Physical DMG , and gain a shield of 10.00% of current character's Max HP. Use the Echo skill again to exit the transformation state.\nCD: 15s .\nSets:"
     },
     {
       "id": "tambourinist",
@@ -2436,9 +2636,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Tambourinist\nClass: Elite\nCost: 3\nSets:"
+      "text": "Tambourinist\nClass: Elite\nCost: 3\nSummon a Tambourinist that periodically emits Melodies of Annihilation. Friendly units hit with Melodies of Annihilation deal an extra Havoc DMG of 10.35% with their attacks, up to 10 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "tempest-mephis",
@@ -2451,9 +2652,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Tempest Mephis\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Tempest Mephis\nClass: Overlord\nCost: 4\nTransform into Tempest Mephis to perform tail swing attacks followed by a claw attack. The lightning strike summoned by the tail swing deals 73.66% Electro DMG each time, while the claw attack deals 126.27% Electro DMG . After the claw hit, increase the current character’s Electro DMG by 12.00% and Heavy Attack DMG by 12.00% for 15s .\nCD: 20s\nSets:"
     },
     {
       "id": "the-false-sovereign",
@@ -2466,9 +2668,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "The False Sovereign\nClass: Overlord\nCost: 4\nSets:"
+      "text": "The False Sovereign\nClass: Overlord\nCost: 4\nTransform into the False Sovereign and dash forward in a spinning strike, dealing 36.90% Electro DMG 4 times. The Resonator with this Echo equipped in the main slot gains 12.00% Electro DMG Bonus and 12.00% Heavy Attack DMG Bonus. Upon casting Intro Skill, the False Sovereign is also summoned to deal 270.00% Electro DMG . Start with 2 charges. Gain 1 charge every 8s, up to 2 charges.\nCD: 8s .\nSets:"
     },
     {
       "id": "thousand-puppet-pavilion",
@@ -2479,11 +2682,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Calamity",
-        "cost": "4",
+        "class": "-",
+        "cost": "-",
+        "cd": "20s",
         "sets": ""
       },
-      "text": "Thousand-Puppet Pavilion\nClass: Calamity\nCost: 4\nSets:"
+      "text": "Thousand-Puppet Pavilion\nClass: -\nCost: -\nUse Echo Skill to attack nearby enemies, dealing 72.96% Havoc DMG and summoning 4 Blades of Thousand Memories that last 15s.\nWhile Blades of Thousand Memories last, when the Resonator inflicts Havoc Bane, consume 1 Blade of Thousand Memories to deal 27.36% Havoc DMG once to the target. This effect can be triggered once every 1s\nResonators with this Echo equipped in the main slot gain 12.00% Havoc DMG and 12.00% Heavy Attack DMG.\nCD: 20s\nSets:"
     },
     {
       "id": "thundering-mephis",
@@ -2496,9 +2700,10 @@
       "fields": {
         "class": "Overlord",
         "cost": "4",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Thundering Mephis\nClass: Overlord\nCost: 4\nSets:"
+      "text": "Thundering Mephis\nClass: Overlord\nCost: 4\nTransform into Thundering Mephis, engaging in a rapid assault of up to 6 strikes. The first 5 strikes deal 95.31% Electro DMG each, while the final strike inflicts 136.16% Electro DMG , with an additional 22.69% Electro DMG from the thunder. After the final hit, increase the current character’s Electro DMG by 12.00% and Resonance Liberation DMG by 12.00% for 15s .\nCD: 20s .\nSets:"
     },
     {
       "id": "tick-tack",
@@ -2509,11 +2714,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Tick Tack\nClass: Elite\nCost: 3\nSets:"
+      "text": "Tick Tack\nClass: Common\nCost: 1\nSummon a Tick Tack that charges and bites the enemy. The charge from Tick Tack will deal 49.22% Havoc DMG to the enemy, and the bite will deal 73.83% Havoc DMG to the enemy. Reduces enemy Vibration Strength by up to 5.00% during 5s .\nCD: 15s .\nSets:"
     },
     {
       "id": "traffic-illuminator",
@@ -2524,11 +2730,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Traffic Illuminator\nClass: Elite\nCost: 3\nSets:"
+      "text": "Traffic Illuminator\nClass: Common\nCost: 1\nSummon a Traffic Illuminator, immobilizing enemies for up to 1s . The immobilization will be lifted once the enemy is hit.\nCD: 15s .\nSets:"
     },
     {
       "id": "tremor-warrior",
@@ -2539,11 +2746,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Tremor Warrior\nClass: Elite\nCost: 3\nSets:"
+      "text": "Tremor Warrior\nClass: Common\nCost: 1\nTransform into a Tremor Warrior and viciously attack enemies in the front, dealing 136.8% Electro DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "twin-nova-collapsar-blade",
@@ -2556,9 +2764,12 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "transform_into_twin_nova": "Collapsar Blade to rapidly fire at enemies for 5s, with each attack dealing 1.34% Electro DMG .",
+        "cd": "8s .",
+        "if_twin_nova": "Nebulous Cannon is equipped in another slot on the Resonator: Casting Echo Skill unleashes both Nebulous Cannon and Collapsar Blade skills in quick succession, but is still considered performing the same Echo Skill. DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG . The Electro DMG Bonus gained from equipping it in the main slot is turned into Spectro DMG Bonus. Casting Basic Attacks grants 1 stack of Dyad Origins. Casting Resonance Skill grants 3 stacks of Dyad Origins. Dyad Origins can stack up to 6 times and lasts for 8s. Each stack increases Echo Skill DMG by 10%, and all stacks are cleared after this Echo Skill ends. This skill is capped at 2 uses. Initially, this skill can be used 2 times, with 1 use added every 8s.",
         "sets": ""
       },
-      "text": "Twin Nova: Collapsar Blade\nClass: Elite\nCost: 3\nSets:"
+      "text": "Twin Nova: Collapsar Blade\nClass: Elite\nCost: 3\nTransform into Twin Nova: Collapsar Blade to rapidly fire at enemies for 5s, with each attack dealing 1.34% Electro DMG .\nThe Resonator with this Echo equipped in the main slot gains 12.00% Electro DMG Bonus and 12.00% Basic Attack DMG Bonus.\nCD: 8s .\nIf Twin Nova: Nebulous Cannon is equipped in another slot on the Resonator: Casting Echo Skill unleashes both Nebulous Cannon and Collapsar Blade skills in quick succession, but is still considered performing the same Echo Skill. DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG . The Electro DMG Bonus gained from equipping it in the main slot is turned into Spectro DMG Bonus. Casting Basic Attacks grants 1 stack of Dyad Origins. Casting Resonance Skill grants 3 stacks of Dyad Origins. Dyad Origins can stack up to 6 times and lasts for 8s. Each stack increases Echo Skill DMG by 10%, and all stacks are cleared after this Echo Skill ends. This skill is capped at 2 uses. Initially, this skill can be used 2 times, with 1 use added every 8s.\nSets:"
     },
     {
       "id": "twin-nova-nebulous-cannon",
@@ -2571,9 +2782,12 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "transform_into_a_twin_nova": "Nebulous Cannon to slash enemies twice, with each attack dealing 53.67% Spectro DMG .",
+        "cd": "8s .",
+        "if_twin_nova": "Collapsar Blade is equipped in another slot on the Resonator: Casting Echo Skill unleashes both Nebulous Cannon and Collapsar Blade skills in quick succession, but the DMG Bonus from the Echo in the main slot remains unchanged. DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG . Casting Basic Attacks grants 1 stack of Dyad Origins. Casting Resonance Skill grants 3 stacks of Dyad Origins. Dyad Origins can stack up to 6 times and lasts for 8s. Each stack increases Echo Skill DMG by 10%, and all stacks are cleared after this Echo Skill ends. This skill is capped at 2 uses. Initially, this skill can be used 2 times, with 1 use added every 8s.",
         "sets": ""
       },
-      "text": "Twin Nova: Nebulous Cannon\nClass: Elite\nCost: 3\nSets:"
+      "text": "Twin Nova: Nebulous Cannon\nClass: Elite\nCost: 3\nTransform into a Twin Nova: Nebulous Cannon to slash enemies twice, with each attack dealing 53.67% Spectro DMG .\nThe Resonator with this Echo equipped in the main slot gains 12.00% Spectro DMG Bonus and 12.00% Basic Attack DMG Bonus.\nCD: 8s .\nIf Twin Nova: Collapsar Blade is equipped in another slot on the Resonator: Casting Echo Skill unleashes both Nebulous Cannon and Collapsar Blade skills in quick succession, but the DMG Bonus from the Echo in the main slot remains unchanged. DMG dealt by Twin Nova: Collapsar Blade becomes Spectro DMG . Casting Basic Attacks grants 1 stack of Dyad Origins. Casting Resonance Skill grants 3 stacks of Dyad Origins. Dyad Origins can stack up to 6 times and lasts for 8s. Each stack increases Echo Skill DMG by 10%, and all stacks are cleared after this Echo Skill ends. This skill is capped at 2 uses. Initially, this skill can be used 2 times, with 1 use added every 8s.\nSets:"
     },
     {
       "id": "vanguard-junrock",
@@ -2584,11 +2798,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Vanguard Junrock\nClass: Elite\nCost: 3\nSets:"
+      "text": "Vanguard Junrock\nClass: Common\nCost: 1\nSummon a Vanguard Junrock that charges forward, dealing 23.00%+46 Physical DMG to enemies in its path.\nCD: 8s .\nSets:"
     },
     {
       "id": "violet-feathered-heron",
@@ -2601,9 +2816,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Violet-Feathered Heron\nClass: Elite\nCost: 3\nSets:"
+      "text": "Violet-Feathered Heron\nClass: Elite\nCost: 3\nTransform into Violet-Feathered Heron and enter a Parry Stance. Counterattack when the Parry stance is over, dealing 207% Electro DMG . If attacked during Parry Stance, you can counterattack in advance and additionally recover 5 Concerto Energy.\nCD: 15s .\nSets:"
     },
     {
       "id": "viridblaze-saurian",
@@ -2616,9 +2832,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Viridblaze Saurian\nClass: Elite\nCost: 3\nSets:"
+      "text": "Viridblaze Saurian\nClass: Elite\nCost: 3\nSummon a Viridblaze Saurian to continuously spit fire, dealing 12.31% Fusion DMG 10 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "vitreum-dancer",
@@ -2631,9 +2848,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "20s .",
         "sets": ""
       },
-      "text": "Vitreum Dancer\nClass: Elite\nCost: 3\nSets:"
+      "text": "Vitreum Dancer\nClass: Elite\nCost: 3\nTransform into Vitreum Dancer and attack surrounding enemies, dealing 208.80% Electro DMG .\nThe Resonator with this Echo equipped in their main slot gains 12.00% Electro DMG Bonus.\nCD: 20s .\nSets:"
     },
     {
       "id": "voidwing-moth",
@@ -2646,9 +2864,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "25s",
         "sets": ""
       },
-      "text": "Voidwing Moth\nClass: Elite\nCost: 3\nSets:"
+      "text": "Voidwing Moth\nClass: Elite\nCost: 3\nPress Echo Skill to transform into Voidwing Moth, dealing 270.00% Spectro DMG to nearby enemies.\nHold Echo Skill to continuously attack, dealing up to 12 instances of 32.89% Spectro DMG .\nWithin 15s after using this Echo skill, casting Outro Skill increases the incoming Resonator's ATK by 12.00% for 15s.\nCD: 25s\nSets:"
     },
     {
       "id": "voltscourge-stalker",
@@ -2659,11 +2878,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Voltscourge Stalker\nClass: Elite\nCost: 3\nSets:"
+      "text": "Voltscourge Stalker\nClass: Common\nCost: 1\nSummon a Voltscourge Stalker to perform 3 stages of attacks on enemies, each dealing 28.80% Electro DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "whiff-whaff",
@@ -2674,11 +2894,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Whiff Whaff\nClass: Elite\nCost: 3\nSets:"
+      "text": "Whiff Whaff\nClass: Common\nCost: 1\nSummon a Whiff Whaff that triggers an air explosion, dealing 36.92% Aero DMG and produce a Low-pressure Zone. The Low-pressure Zone continuously pulls enemies nearby towards the center for 2s , dealing 14.35% Aero DMG up to 6 times.\nCD: 15s .\nSets:"
     },
     {
       "id": "windlash-coleoid",
@@ -2691,9 +2912,10 @@
       "fields": {
         "class": "Elite",
         "cost": "3",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Windlash Coleoid\nClass: Elite\nCost: 3\nSets:"
+      "text": "Windlash Coleoid\nClass: Elite\nCost: 3\nTransform into a Windlash Coleoid to kick enemies, dealing 178.8% Aero DMG .\nCD: 15s .\nSets:"
     },
     {
       "id": "young-roseshroom",
@@ -2704,11 +2926,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Young Roseshroom\nClass: Elite\nCost: 3\nSets:"
+      "text": "Young Roseshroom\nClass: Common\nCost: 1\nSummon a Baby Roseshroom that fires a laser, dealing 23%+46 Havoc DMG .\nCD: 8s .\nSets:"
     },
     {
       "id": "zig-zag",
@@ -2719,11 +2942,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "15s .",
         "sets": ""
       },
-      "text": "Zig Zag\nClass: Elite\nCost: 3\nSets:"
+      "text": "Zig Zag\nClass: Common\nCost: 1\nSummon a Zig Zag that denotates Spectro energy, dealing 34.50%+69 Spectro DMG and creating a Stagnation Zone that lasts 1.8s .\nCD: 15s .\nSets:"
     },
     {
       "id": "zip-zap",
@@ -2734,11 +2958,12 @@
       "art": null,
       "assetId": null,
       "fields": {
-        "class": "Elite",
-        "cost": "3",
+        "class": "Common",
+        "cost": "1",
+        "cd": "8s .",
         "sets": ""
       },
-      "text": "Zip Zap\nClass: Elite\nCost: 3\nSets:"
+      "text": "Zip Zap\nClass: Common\nCost: 1\nSummon a Zip Zap to launch spinning attacks at enemies, dealing 17.28% Electro DMG 5 times.\nCD: 8s .\nSets:"
     }
   ]
 }

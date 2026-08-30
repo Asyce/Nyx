@@ -3,7 +3,7 @@
   "game": "hsr",
   "collection": "light-cones",
   "sourcePath": "/star-rail/light-cones",
-  "scrapedAt": "2026-08-16T05:50:35.480Z",
+  "scrapedAt": "2026-08-30T10:42:29.348Z",
   "detailPagesTotal": 0,
   "detailPagesScraped": 0,
   "staleDetailPagesRemoved": 0,
@@ -35,6 +35,30 @@
         "path": "Harmony"
       },
       "text": "A Grounded Ascent\nRarity: 5 ★\nPath: Harmony\nAfter the wearer uses Skill or Ultimate on one ally character, the wearer regenerates 6 / 6.5 / 7 / 7.5 / 8 Energy and the ability's target receives 1 stack of \"Hymn\" for 3 turn(s), stacking up to 3 time(s). Each stack of \"Hymn\" increases its holder's DMG dealt by 15 / 17.25 / 19.5 / 21.75 / 24% . After every 2 instance(s) of Skill or Ultimate the wearer uses on one ally character, recovers 1 Skill Point.\nHP\n+ 1164\nATK\n+ 476\nDEF\n+ 529"
+    },
+    {
+      "id": "a-little-getaway",
+      "name": "A Little Getaway",
+      "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/a-little-getaway-08852e0298b4.webp",
+      "assetId": "08852e0298b4",
+      "contentStatus": "live"
+    },
+    {
+      "id": "a-little-getaway-new",
+      "name": "A Little Getaway New",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/a-little-getaway-08852e0298b4.webp",
+      "assetId": "08852e0298b4",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Elation"
+      },
+      "text": "A Little Getaway New\nRarity: 4 ★\nPath: Elation\nIncreases the wearer's Elation by 20/25/30/35/40% . When the wearer uses an Elation Skill, ignores 8/10/12/14/16% of the target's DEF.\nHP\n+ 953\nATK\n+ 423\nDEF\n+ 397"
     },
     {
       "id": "a-secret-vow",
@@ -644,25 +668,15 @@
       "id": "flickering-stars",
       "name": "Flickering Stars",
       "kind": "light-cones",
-      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
-      "assetId": "3be8987ad248",
-      "contentStatus": "live"
-    },
-    {
-      "id": "flickering-stars-new",
-      "name": "Flickering Stars New",
-      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ],
-      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-3be8987ad248.webp",
-      "assetId": "3be8987ad248",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/flickering-stars-033f3c5c74dd.webp",
+      "assetId": "033f3c5c74dd",
       "fields": {
         "rarity": "5 ★",
         "path": "Erudition"
       },
-      "text": "Flickering Stars New\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores 20/23/26/29/32% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72/84/96/108/120% . Effects of the same type cannot stack.\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529"
+      "text": "Flickering Stars\nRarity: 5 ★\nPath: Erudition\nIncreases the wearer's CRIT Rate by 18/21/24/27/30% . When any ally character consumes a total of 4 or more Skill Points in a single turn, the wearer gains \"Radiant Crown,\" lasting for 3 turn(s). While the wearer holds \"Radiant Crown,\" all allies' DMG dealt ignores 20/23/26/29/32% of the target's DEF, and the Skill DMG dealt by the wearer increases by 72/84/96/108/120% . Effects of the same type cannot stack.\nHP\n+ 847\nATK\n+ 635\nDEF\n+ 529"
     },
     {
       "id": "flowing-nightglow",
@@ -794,25 +808,15 @@
       "id": "i-am-as-you-behold",
       "name": "I Am As You Behold",
       "kind": "light-cones",
-      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
-      "assetId": "693a002f0b65",
-      "contentStatus": "live"
-    },
-    {
-      "id": "i-am-as-you-behold-new",
-      "name": "I Am As You Behold New",
-      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [
-        "New"
-      ],
-      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-693a002f0b65.webp",
-      "assetId": "693a002f0b65",
+      "statusLabels": [],
+      "art": "Prydwen/hsr/assets/light-cones/i-am-as-you-behold-dfb26a012379.webp",
+      "assetId": "dfb26a012379",
       "fields": {
         "rarity": "5 ★",
         "path": "Destruction"
       },
-      "text": "I Am As You Behold New\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's ATK by 18/21/24/27/30% and Energy Regeneration Rate by 10/12.5/15/17.5/20% . When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by 0.2/0.25/0.3/0.35/0.4% , up to a max increase of 72/90/108/126/144% . When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for 3 turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by 24/30/36/42/48% . Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
+      "text": "I Am As You Behold\nRarity: 5 ★\nPath: Destruction\nIncreases the wearer's ATK by 18/21/24/27/30% and Energy Regeneration Rate by 10/12.5/15/17.5/20% . When the wearer uses Ultimate, for every 1 Energy consumed, increases the Ultimate DMG dealt this time by 0.2/0.25/0.3/0.35/0.4% , up to a max increase of 72/90/108/126/144% . When the wearer enters combat or uses Ultimate, the wearer gains \"King's Entertainment,\" lasting for 3 turn(s). While the wearer holds \"King's Entertainment,\" increases all allies' CRIT DMG by 24/30/36/42/48% . Effects of the same type cannot stack.\nHP\n+ 953\nATK\n+ 635\nDEF\n+ 463"
     },
     {
       "id": "i-shall-be-my-own-sword",
@@ -1473,6 +1477,30 @@
       "text": "Quid Pro Quo\nRarity: 4 ★\nPath: Abundance\nAt the start of the wearer's turn, regenerates 8/10/12/14 /16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50% .\nHP\n+ 952\nATK\n+ 423\nDEF\n+ 396"
     },
     {
+      "id": "race-to-the-horizon",
+      "name": "Race to the Horizon",
+      "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/race-to-the-horizon-45f78c39eb5f.webp",
+      "assetId": "45f78c39eb5f",
+      "contentStatus": "live"
+    },
+    {
+      "id": "race-to-the-horizon-new",
+      "name": "Race to the Horizon New",
+      "kind": "light-cones",
+      "contentStatus": "live",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/race-to-the-horizon-45f78c39eb5f.webp",
+      "assetId": "45f78c39eb5f",
+      "fields": {
+        "rarity": "4 ★",
+        "path": "Hunt"
+      },
+      "text": "Race to the Horizon New\nRarity: 4 ★\nPath: Hunt\nIncreases the wearer's ATK by 12/15/18/21/24% . After the wearer uses a Follow-Up ATK, increases their CRIT DMG by 3/3.5/4/4.5/5% for 2 turn(s). This effect can stack up to 10 times.\nHP\n+ 847\nATK\n+ 476\nDEF\n+ 397"
+    },
+    {
       "id": "reforged-in-hellfire",
       "name": "Reforged in Hellfire",
       "kind": "light-cones",
@@ -1556,15 +1584,25 @@
       "id": "rise-and-sing",
       "name": "Rise and Sing",
       "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/rise-and-sing-43a335a48626.webp",
+      "assetId": "43a335a48626",
+      "contentStatus": "live"
+    },
+    {
+      "id": "rise-and-sing-new",
+      "name": "Rise and Sing New",
+      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/hsr/assets/light-cones/rise-and-sing-d4b8faf42f4f.webp",
-      "assetId": "d4b8faf42f4f",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/rise-and-sing-43a335a48626.webp",
+      "assetId": "43a335a48626",
       "fields": {
         "rarity": "5 ★",
         "path": "Remembrance"
       },
-      "text": "Rise and Sing\nRarity: 5 ★\nPath: Remembrance\nComing Soon!\nStats for this Light Cone aren't available yet."
+      "text": "Rise and Sing New\nRarity: 5 ★\nPath: Remembrance\nIncreases the wearer's Max HP by 30/38/45/53/60% . After the wearer uses their Ultimate, recovers 1 Skill Point for allies. When entering combat, advances the wearer's action by 30/33/35/38/40% and grants the wearer \"New Melody\" for 2 turn(s). While the wearer has \"New Melody,\" all allies' SPD increases by 20/25/30/35/40% .\nHP\n+ 1164\nATK\n+ 582\nDEF\n+ 397"
     },
     {
       "id": "river-flows-in-spring",
@@ -1780,15 +1818,25 @@
       "id": "summer-rides-the-surf",
       "name": "Summer Rides the Surf",
       "kind": "light-cones",
+      "art": "Prydwen/hsr/assets/light-cones/summer-rides-the-surf-4c8a1ea2e426.webp",
+      "assetId": "4c8a1ea2e426",
+      "contentStatus": "live"
+    },
+    {
+      "id": "summer-rides-the-surf-new",
+      "name": "Summer Rides the Surf New",
+      "kind": "light-cones",
       "contentStatus": "live",
-      "statusLabels": [],
-      "art": "Prydwen/hsr/assets/light-cones/summer-rides-the-surf-fe01144b099a.webp",
-      "assetId": "fe01144b099a",
+      "statusLabels": [
+        "New"
+      ],
+      "art": "Prydwen/hsr/assets/light-cones/summer-rides-the-surf-4c8a1ea2e426.webp",
+      "assetId": "4c8a1ea2e426",
       "fields": {
         "rarity": "5 ★",
         "path": "Elation"
       },
-      "text": "Summer Rides the Surf\nRarity: 5 ★\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet."
+      "text": "Summer Rides the Surf New\nRarity: 5 ★\nPath: Elation\nComing Soon!\nStats for this Light Cone aren't available yet."
     },
     {
       "id": "sweat-now-cry-less",

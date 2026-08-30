@@ -391,13 +391,13 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 3. Reuse the existing exact per-game runtime-process evidence and the existing shared session refresh. Count only a runtime process belonging to a launch request accepted by Nyx. A process started outside Nyx is never added, even if Nyx later observes it.
 4. Track every official and custom game independently so different games may accrue time concurrently. Continue preventing more than one launch of the same game. For a custom game without a separate runtime path, its selected executable is the runtime; with a runtime path, the selected executable is only the bootstrap.
 5. Persist only one nonnegative saturating whole-second total per valid game. Keep the active boundary in memory, retry a failed save without losing the newest total, and finalize only through confirmed process evidence. Do not persist session history, starts, statistics, incomplete counters, or the rejected unpublished v6 Endfield state.
-6. Add one small always-visible line immediately below the Launch button for the selected game: `Play Time: 0m`, `Play Time: 42m`, or `Play Time: 12h 34m`. Update it through the existing refresh path. If saving is pending, say so without exposing internal errors.
+6. Add one small always-visible outlined line immediately above the selected game's energy/resource bar: `Play Time: 0m`, `Play Time: 42m`, or `Play Time: 12h 34m`. Update it through the existing refresh path. If saving is pending, say so without exposing internal errors.
 7. The tooltip and accessible description must state that this is playtime on this PC counted only after Nyx launched the game while Nyx remained open; earlier sessions, launches outside Nyx, other PCs, consoles, and mobile are excluded.
 8. Prove official and custom games, external-launch exclusion, simultaneous different-game isolation, same-game launch prevention, runtime-versus-bootstrap handling, uncertainty/removal/shutdown boundaries, persistence retries and saturation, v5/v6-to-v7 zero-total migration, exact formatting/disclosure, and complete absence of Endfield log/history/statistics controls.
 
 ### Release C
 
-- Deploy achievement support only if STOP 10 passed. Package shared local Play Time without changing Site/R2 data, then run launcher security, five-game, custom-game, concurrent-session, version, package, and persistence verification.
+- Deploy achievement support only if STOP 10 passed. Package shared local Play Time without changing Site/R2 data. In the same launcher-only release, keep banner names on one line without clipping, place characters beside each other without fixed-width gaps, move Official Tools below Official Launcher/Screenshots, outline the title-bar controls, and lower only the game rail icons to reduce Nyx-logo misclicks. Then run launcher security, five-game, custom-game, concurrent-session, version, package, persistence, and layout verification.
 - With Nyx initially closed, launch and close one short game through Nyx, require one plausible increase and restart persistence. Then run two different games concurrently and require each total to increase independently. Starting a game outside Nyx must not increase its total. Endfield uses this same path; historical lifetime playtime is deliberately unavailable.
 
 ## Locked HoYo privacy and sync contracts
@@ -410,6 +410,8 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 - Exclude forum/social data, friends, email, purchases, private messages, device fingerprints, raw battle traffic, cookies, tokens, passwords, raw bodies, and unreleased content.
 
 ## Phase 13 - Approved HoYo static comparison
+
+Start only after Release C is published and marked complete.
 
 1. Add one small adapter beside the existing GameData scraper with no new dependency/workflow.
 2. Run it in the existing scheduled GameData workflow. Shadow output is artifact/summary only; publish no HoYo-derived data.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/events/art.mjs",
-  "generatedAt": "2026-08-28T15:18:26.166Z",
+  "generatedAt": "2026-08-31T09:41:16.818Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": [
@@ -1194,25 +1194,6 @@
     },
     {
       "game": "zzz",
-      "fileName": "93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107.jpg",
-      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/07/a2eee73e01db6ea3bcb079788c45c0a5_2300361026680489049_transformed.jpg",
-      "requestUrl": null,
-      "runtimePath": "/assets/events/zzz/93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107.jpg",
-      "localPath": "Site/assets/events/zzz/93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107.jpg",
-      "sha256": "93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107",
-      "bytes": 119112,
-      "mediaType": "image/jpeg",
-      "width": 1016,
-      "height": 222,
-      "etag": "\"a2eee73e01db6ea3bcb079788c45c0a5\"",
-      "lastModified": "Fri, 07 Aug 2026 03:31:16 GMT",
-      "retrievedAt": "2026-08-13T17:20:06.361Z",
-      "eventIds": [
-        "zzz-hoyo-ann-6e42a70461e4"
-      ]
-    },
-    {
-      "game": "zzz",
       "fileName": "94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac.jpg",
       "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/05/9fd530d05bc59ccf10dbd76b3aedbaaf_4326024227588058667_transformed.jpg",
       "runtimePath": "/assets/events/zzz/94c6622ffedfd3430de624eeffabe47be5de57d884de87304f0b0127213ed7ac.jpg",
@@ -1229,6 +1210,25 @@
       "width": 1016,
       "height": 222,
       "requestUrl": null
+    },
+    {
+      "game": "zzz",
+      "fileName": "a6e94d3eed0c3b693498d74d76a0de05d1d122f8c0826d0d4d10be6ed51e9d4c.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/13/674102154143cb751b88148fe4a39da3_7983689250573361592_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/zzz/a6e94d3eed0c3b693498d74d76a0de05d1d122f8c0826d0d4d10be6ed51e9d4c.jpg",
+      "localPath": "Site/assets/events/zzz/a6e94d3eed0c3b693498d74d76a0de05d1d122f8c0826d0d4d10be6ed51e9d4c.jpg",
+      "sha256": "a6e94d3eed0c3b693498d74d76a0de05d1d122f8c0826d0d4d10be6ed51e9d4c",
+      "bytes": 112169,
+      "mediaType": "image/jpeg",
+      "width": 1016,
+      "height": 222,
+      "etag": "\"674102154143cb751b88148fe4a39da3\"",
+      "lastModified": "Thu, 13 Aug 2026 08:28:25 GMT",
+      "retrievedAt": "2026-08-31T09:41:16.818Z",
+      "eventIds": [
+        "zzz-hoyo-ann-cdbbef7499fd"
+      ]
     },
     {
       "game": "zzz",

@@ -58,6 +58,12 @@
       "desc": "Dancing within disordered rhythms, spinning across a stage of wild fantasia.\nThe boundary between angel and demon tilts with the lights, dissolving within her reflection.",
       "obtain_desc": "",
       "image": "IconRole59_01"
+    },
+    "3115112": {
+      "name": "...",
+      "desc": "...",
+      "obtain_desc": "",
+      "image": "IconRole59_02"
     }
   },
   "stats": {
@@ -1914,25 +1920,19 @@
           31300
         ],
         "part_sub_list": [
-          31203,
-          12102
-        ]
-      },
-      {
-        "suit_list": [
-          33600,
-          33000
-        ],
-        "part_sub_list": [
-          31903,
-          12102
+          31203
         ]
       },
       {
         "suit_list": [],
         "part_sub_list": [
-          31402,
-          12102
+          31903
+        ]
+      },
+      {
+        "suit_list": [],
+        "part_sub_list": [
+          31402
         ]
       }
     ],

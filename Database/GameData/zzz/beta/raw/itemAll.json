@@ -1168,7 +1168,7 @@
   "462": {
     "id": 462,
     "name": "Food",
-    "desc": "Nutritious food that can be used to feed your Orbie.",
+    "desc": "Nutritious grub that can be fed to Orbie.",
     "desc2": "\"Eat up! Grow tall!\"",
     "class": {
       "1": "CURRENCY"
@@ -1180,7 +1180,7 @@
     "id": 463,
     "name": "Item__Activity_Digiboo_FoodType_02",
     "desc": "Item__Activity_Digiboo_FoodType_02_Des",
-    "desc2": "\"Smells so good! I wanna eat, I wanna eat!\"",
+    "desc2": "\"Smells so good! I want some. Give me some!\"",
     "class": {
       "1": "CURRENCY"
     },
@@ -2730,7 +2730,7 @@
   },
   "5611": {
     "id": 5611,
-    "name": "Agent Focus · Claret",
+    "name": "Agent Focus: Claret",
     "desc": "Used to unlock Agent's Mindscape Cinema",
     "desc2": "...",
     "class": {
@@ -2741,7 +2741,7 @@
   },
   "5621": {
     "id": 5621,
-    "name": "Agent Focus · Roxy",
+    "name": "Agent Focus: Roxy",
     "desc": "Used to unlock Agent's Mindscape Cinema",
     "desc2": "...",
     "class": {
@@ -2951,7 +2951,7 @@
   "12016": {
     "id": 12016,
     "name": "[Lunar] Semiluna",
-    "desc": "Equipping this boosts the combat capabilities of Armorer Agents",
+    "desc": "Equip to increase Armorer Agents' combat capabilities",
     "desc2": "...",
     "class": {
       "5": "W-ENGINE"
@@ -3138,7 +3138,7 @@
   "13017": {
     "id": 13017,
     "name": "Catty Luck",
-    "desc": "Equipping this boosts the combat capabilities of Armorer Agents",
+    "desc": "Equip to increase Armorer Agents' combat capabilities",
     "desc2": "...",
     "class": {
       "5": "W-ENGINE"
@@ -3182,7 +3182,7 @@
   "13021": {
     "id": 13021,
     "name": "Bloodmarrow Coffer",
-    "desc": "Equipping this boosts the combat capabilities of Armorer Agents",
+    "desc": "Equip to increase Armorer Agents' combat capabilities",
     "desc2": "...",
     "class": {
       "5": "W-ENGINE"
@@ -3863,8 +3863,8 @@
   },
   "14161": {
     "id": 14161,
-    "name": "Crimson Craving",
-    "desc": "Equipping this boosts the combat capabilities of Armorer Agents",
+    "name": "Crimson Thirst",
+    "desc": "Equip to increase Armorer Agents' combat capabilities",
     "desc2": "...",
     "class": {
       "5": "W-ENGINE"
@@ -3909,7 +3909,7 @@
     "id": 20110,
     "name": "Potential Silhouette: Koleda",
     "desc": "Used to awaken Koleda's potential. Can be exchanged in the Potential Archive store.",
-    "desc2": "A sharp, clean-cut silhouette marking the Agent's latent \"ideal self\" image.\n\nShe may not have hit her growth spurt yet, but that won't stop her from bringing the attitude! After all, she IS the president of the whole dang company!",
+    "desc2": "A sharp, striking silhouette — the vision of an Agent's ideal self.\n\nShe may not have the height, but she's got all the attitude! After all, she is the president!",
     "class": {
       "6": "AGENT SILHOUETTE"
     },
@@ -10716,9 +10716,9 @@
   },
   "100217": {
     "id": 100217,
-    "name": "Beginner Armorer Certification Seal",
-    "desc": "Raises the level cap of Agents with the \"Armorer\" specialty to Lv. 20-Rank.",
-    "desc2": "Often awarded as a prize to Agents who excel at Armorer Tactics, this Certification Seal not only recognizes their skill but also carries a small amount of benign Ether, providing a modest boost to the Agent's combat capabilities.",
+    "name": "Basic Armorer Certification Seal",
+    "desc": "Increases the Agent level cap for Armorer-specialty Agents to 20.",
+    "desc2": "Often awarded to Agents who excel at using Armorer tactics. Besides attesting to their ability, the seal itself also contains a little benign Ether inside which can be useful when improving an Agent's combat abilities.",
     "class": {
       "10": "RESOURCE"
     },
@@ -10793,9 +10793,9 @@
   },
   "100227": {
     "id": 100227,
-    "name": "High-Grade Armorer Certification Seal",
-    "desc": "Can raise the level cap of Armorer Agents to Lv. 40.",
-    "desc2": "In the eyes of both investigators and Hollow Raiders, this Certification Seal signifies that its holder possesses extensive Armorer-type combat EXP. The Certification Seal itself is also imbued with a small amount of benign Ether, which helps boost an Agent's combat capabilities to some degree.",
+    "name": "Advanced Armorer Certification Seal",
+    "desc": "Increases the Agent level cap for Armorer-specialty Agents to 40.",
+    "desc2": "Whether in the eyes of investigators or Hollow Raiders, this Certification Seal indicates the owner's rich experience in Armorer combat. The seal itself also contains a small amount of benign Ether inside which can be useful when improving an Agent's combat abilities.",
     "class": {
       "10": "RESOURCE"
     },
@@ -10870,9 +10870,9 @@
   },
   "100237": {
     "id": 100237,
-    "name": "Blade Bearer Certification Seal",
-    "desc": "Can raise the level cap of Armorer Agents to Lv. 60.",
-    "desc2": "A Certification Seal awarded only to those who excel in the field of Armorer Tactics. The seal itself is infused with a small amount of benign Ether, providing a slight boost to an Agent's combat capabilities.",
+    "name": "Bladebearer Certification Seal",
+    "desc": "Increases the Agent level cap for Armorer-specialty Agents to 60.",
+    "desc2": "A certification seal granted solely to the most outstanding in the field of Armorer tactics. The seal itself also contains a small amount of benign Ether inside which can be useful when improving an Agent's combat abilities.",
     "class": {
       "10": "RESOURCE"
     },
@@ -10991,9 +10991,9 @@
   },
   "101016": {
     "id": 101016,
-    "name": "Armorer Component",
-    "desc": "Increases the Lv. cap of Armorer W-Engines to Lv. 20.",
-    "desc2": "A W-Engine Component crafted from Blasting Jin metallic materials. It boasts solid Energy conversion efficiency, providing ample Power support for Armorer W-Engines.",
+    "name": "Armorer Module",
+    "desc": "Increases an Armorer model W-Engine's level cap to 20.",
+    "desc2": "A W-Engine Component made of special metal materials, boasting excellent energy conversion efficiency. It provides ample power support for Armorer model W-Engines.",
     "class": {
       "10": "RESOURCE"
     },
@@ -11068,9 +11068,9 @@
   },
   "101026": {
     "id": 101026,
-    "name": "Reinforced Armorer Component",
-    "desc": "Increases the Lv. cap of Armorer W-Engines to Lv. 40.",
-    "desc2": "A Reinforced W-Engine Component crafted through a special process, boasting exceptional Energy conversion efficiency. It can significantly reduce Energy loss during conversion for Armorer-type W-Engines.",
+    "name": "Reinforced Armorer Module",
+    "desc": "Increases an Armorer model W-Engine's level cap to 40.",
+    "desc2": "An enhanced W-Engine Component crafted using specialized techniques. It significantly reduces energy loss in Armorer model W-Engines, resulting in excellent energy conversion efficiency.",
     "class": {
       "10": "RESOURCE"
     },
@@ -11145,9 +11145,9 @@
   },
   "101036": {
     "id": 101036,
-    "name": "Blasting Armorer Component",
-    "desc": "Increases the Lv. cap of Armorer W-Engines to Lv. 60.",
-    "desc2": "A specialized W-Engine Component crafted from composite Ether materials. Capable of adjusting frequency according to audio waveband, it achieves Resonance with Ether across various complex environments, maintaining Stable and outstanding power output for Armorer-type W-Engines.",
+    "name": "Specialized Armorer Module",
+    "desc": "Increases an Armorer model W-Engine's level cap to 60.",
+    "desc2": "A specialized W-Engine component crafted from composite Etheric matter. Equipped with adaptive frequency modulation, enabling resonance with Ether across a spectrum of complex environments, it ensures consistent and superior sonic power delivery for Armorer model W-Engines.",
     "class": {
       "10": "RESOURCE"
     },
@@ -11375,9 +11375,9 @@
   },
   "110011": {
     "id": 110011,
-    "name": "Forged Away Core",
+    "name": "Counterfeit Nucleus",
     "desc": "An important item required to upgrade your Agent's advanced Core Skills.",
-    "desc2": "A rare form of etheric coagulum preserved from the Kusarikku. An Enchainer larvae yet to be Metamorphosed—even a Hollow immortal creation was once reduced to a tool for those who would usurp.",
+    "desc2": "A rare form of etheric coagulum preserved from the Kusarikku. An unmetamorphosed Enchainer larvae, once a hollow immortal construct reduced to a tool in the hands of the usurpers.",
     "class": {
       "10": "RESOURCE"
     },
@@ -11567,9 +11567,9 @@
   },
   "110516": {
     "id": 110516,
-    "name": "Higher Dimensional Data: Simulated Core",
+    "name": "Higher Dimensional Data: Imitation Core",
     "desc": "An item required to increase your Agent's Core Skill level.",
-    "desc2": "A data model built on the combat records of numerous investigators versus the \"Conqueror\", including their most profound impressions and evaluations of it. It's enough data to see it \"born and alive\" inside a VR system.",
+    "desc2": "A data model built on the combat records of numerous investigators versus the Conqueror, including their most profound impressions and evaluations of it. It's enough data to see it \"born and alive\" inside a VR system.",
     "class": {
       "10": "RESOURCE"
     },
@@ -14429,8 +14429,8 @@
   "304074": {
     "id": 304074,
     "name": "Bangboo Plushie",
-    "desc": "A thank-you gift received for helping Rona with a delivery",
-    "desc2": "The stitching's a bit rough around the edges, but the Bangboo's essence is captured perfectly.",
+    "desc": "Gift received for delivering a package for Rona",
+    "desc2": "The stitching's a little rough, but the Bangboo's essence is captured spot-on.",
     "class": {
       "20": "COMMISSION ITEM"
     },
@@ -19390,7 +19390,7 @@
   "900006": {
     "id": 900006,
     "name": "...",
-    "desc": "After claiming, you can choose one from the following S-Rank W-Engines: \"Sharpened Stinger,\" \"Severed Innocence,\" or \"Myriad Eclipse.\"",
+    "desc": "After claiming, you can choose one of the following S-Rank W-Engines: Sharpened Stinger, Severed Innocence, or Myriad Eclipse.",
     "desc2": "...",
     "class": {
       "29": "INFO"
@@ -19463,6 +19463,17 @@
     },
     "rarity": 4,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconSuit/UnPacker/SuitPope01.png"
+  },
+  "963001": {
+    "id": 963001,
+    "name": "Skin_3115191_name",
+    "desc": "Skin_3115191_des",
+    "desc2": "Skin_3115191_story",
+    "class": {
+      "29": "INFO"
+    },
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png"
   },
   "1000000": {
     "id": 1000000,
@@ -23305,8 +23316,8 @@
   },
   "1002001": {
     "id": 1002001,
-    "name": "Blood Rose",
-    "desc": "Claret has evoked the Mindscape: <color=#FFAF2C>[...]</color>.\n[...]：[Crimson Inscription] max duration is extended by 3s; when Claret is in [Crimson Inscription], or during [Chain Attack: Blood Pact Oath - Blood Pact Resonance], [Ultimate: Blood Pact Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Pact Oath - Pristine Molten Edge], attacks that hit ignore 16% of the target's <color=#2EB6FF>Electric RES</color>.",
+    "name": "Bloodfire Rose",
+    "desc": "Claret has evoked the Mindscape: <color=#FFAF2C>...</color>.\n...: When Claret's attacks hit enemies and trigger Laceration, Gash Buildup Rate increases by 20%. The DMG Multiplier of Maim triggered by Claret increases to 130% of its original value.",
     "desc2": "...",
     "class": {
       "31": "MEDAL"
@@ -23317,7 +23328,7 @@
   "1002002": {
     "id": 1002002,
     "name": "Insomnia Syndrome",
-    "desc": "Roxy has evoked the Mindscape: <color=#FFAF2C>[...]</color>.\n[...]：<color=#ffffff>[EX Special Attack: Watch for Wind Chill]</color> Daze inflicted increases by 5%; each <color=#ffffff>[Wind Eye]</color> detonated grants 1 stack of <color=#ffffff>[Flow Momentum]</color>, up to a maximum of 3 stacks; when switching out during <color=#ffffff>[Spin]</color> state while <color=#ffffff>[EX Special Attack: Watch for Wind Chill]</color> is active, Roxy consumes all <color=#ffffff>[Flow Momentum]</color> stacks, with each stack consumed maintaining <color=#ffffff>[Spin]</color> state for 0.2s without consuming Energy, up to a maximum of 0.6s; when <color=#ffffff>[EX Special Attack: Watch for Wind Chill]</color> hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
+    "desc": "Roxy has evoked the Mindscape: <color=#FFAF2C>...</color>.\n...: <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> deals 5% more Daze. For each <color=#ffffff>Storm's Eye</color> detonated, gain 1 stack of <color=#ffffff>Windflow</color>, up to 3 stacks. During <color=#ffffff>EX Special Attack: Don't Catch a Chill</color>, if Roxy switches out after entering the <color=#ffffff>Whirlwind</color> state, she consumes all <color=#ffffff>Windflow</color>. Each stack consumed sustains the <color=#ffffff>Whirlwind</color> state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
     "desc2": "...",
     "class": {
       "31": "MEDAL"
@@ -23559,8 +23570,8 @@
   "1002307": {
     "id": 1002307,
     "name": "[Affinity] Armorer Tactical Exchange",
-    "desc": "[Armorer] specialty Agents' Sharp DMG increases by <color=#2BAD00>15%</color>.",
-    "desc2": "Taking advantage of the break, everyone shared their combat insights. The squad members skilled in Armorer Tactics became the Focus of this exchange session.",
+    "desc": "Agents with the Armorer specialty  deal <color=#2BAD00>15%</color> bonus Sharp DMG.",
+    "desc2": "Using the break as an opportunity, everyone shared their combat experience, with the members good at Armorer tactics becoming the focal point of the discussion.",
     "class": {
       "31": "MEDAL"
     },
@@ -24339,7 +24350,7 @@
   },
   "1003001": {
     "id": 1003001,
-    "name": "Blood Rose",
+    "name": "Bloodfire Rose",
     "desc": "In specific areas of Hollow Zero, there's a chance to trigger special events for agents in the squad, activating specific Mindscapes for the Agent for the current round.",
     "desc2": "...",
     "class": {
@@ -24394,9 +24405,9 @@
   },
   "1006002": {
     "id": 1006002,
-    "name": "[Armorer] Unstoppable Edge",
-    "desc": "Sharp DMG dealt by Agents <color=#2BAD00>increases by 15%</color>.",
-    "desc2": "The sharper the edge, the harder the hit.",
+    "name": "[Armorer] Unstoppable",
+    "desc": "Agent Sharp DMG <color=#2BAD00>increases by 15%</color>.",
+    "desc2": "The sharper the edge, the harder to stop.",
     "class": {
       "31": "MEDAL"
     },
@@ -31899,7 +31910,7 @@
   "1341075": {
     "id": 1341075,
     "name": "Claret",
-    "desc": "Use \"Ether Dewdrops\" on \"Claret\"",
+    "desc": "Use Ether Dewdrops on Claret",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -31908,7 +31919,7 @@
   "1341076": {
     "id": 1341076,
     "name": "Roxy",
-    "desc": "Use \"Ether Dewdrops\" on \"Roxy\"",
+    "desc": "Use Ether Dewdrops on Roxy",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33800,8 +33811,8 @@
   },
   "1350311": {
     "id": 1350311,
-    "name": "[Claret] Riftforge Onslaught",
-    "desc": "When Claret's ATK exceeds 1,500, every 1 point of ATK over that amount increases DEF by 1.3. This effect does not stack across different Gear; Claret's <color=#2BAD00>[Maim] DMG is increased by 20%</color>, and when the target is not Stunned, [Maim] will also factor in Daze Vulnerability bonuses.",
+    "name": "[Clara] Smashing Onslaught",
+    "desc": "When Claret's ATK exceeds 1,500, every point of ATK beyond this threshold increases her DEF by 1.3 points. This effect cannot stack across different Gear setups. Claret's <color=#2BAD00>Maim DMG dealt increases by 20%</color>, and when the target is not Stunned, Maim also factors in the Stun Vulnerability Multiplier.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33810,7 +33821,7 @@
   "1350312": {
     "id": 1350312,
     "name": "[Claret] Crimson-Eyed Bat Shadow",
-    "desc": "When Claret's ATK exceeds 1,500, every 1 point of ATK over the limit increases DEF by 1.3. This effect does not stack across different Gears. Claret's Gash Buildup Rate is reduced by 10%, <color=#FFFFFF>[Basic Attack: Blood Bloom Oath - Star Forge]</color> and <color=#FFFFFF>[Basic Attack: Blood Bloom Oath - Crouching Axe]</color> deal <color=#2BAD00>increased Sharp DMG by 40%</color>. When Perfect Dodge is triggered while in [Crimson Engrave] state, [Crimson Engrave] duration is extended by 3s. Can be triggered at most once every 5s.",
+    "desc": "When Claret's ATK exceeds 1,500, every point of ATK above the threshold increases her DEF by 1.3 points. This effect cannot stack across different Gear setups. Claret's Gash Buildup Rate is reduced by 10%. <color=#FFFFFF>Basic Attack: Bloodbloom Oath - Starforging</color> and <color=#FFFFFF>Basic Attack: Bloodbloom Oath - Subduing Axe</color> deal <color=#2BAD00>40% bonus Sharp DMG</color>. Triggering Perfect Dodge while in the Crimson Inscription state extends the duration of Crimson Inscription by 3s (can only be triggered once per 5s).",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33819,7 +33830,7 @@
   "1350313": {
     "id": 1350313,
     "name": "[Claret] Scarlet Fever Night",
-    "desc": "When Claret's ATK exceeds 1,500, every 1 point of ATK over the limit increases DEF by 1.3. This effect does not stack across different Gears. In the <color=#FFFFFF>[Crimson Inscription]</color> state, when attacks hit enemies, reduces the target's <color=#2BAD00>DEF by 16%</color> for 15s, stacking up to 3 times. Reapplying refreshes the duration. Can be triggered at most once every 2s.",
+    "desc": "When Claret's ATK exceeds 1,500, every point of ATK above the threshold increases her DEF by 1.3 points. This effect cannot stack across different Gear setups; While in the <color=#FFFFFF>Crimson Inscription</color> state, when an attack hits an enemy, the enemy's <color=#2BAD00>DEF is reduced by 16%</color> for 15s, stacking up to 3 times. Repeated triggers reset the duration. Can only be triggered once every 2s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33827,8 +33838,8 @@
   },
   "1350321": {
     "id": 1350321,
-    "name": "[Roxy] Lead-Forged Mastery",
-    "desc": "When <color=#FFFFFF>[Cleanse]</color> is triggered, <color=#2BAD00>the whole squad's ATK increases by 800</color>, lasting 40s; repeated triggers reset the duration.",
+    "name": "[Roxy] Hammered to Perfection",
+    "desc": "When <color=#FFFFFF>Cleanse</color> is triggered, <color=#2BAD00>the whole squad's ATK increases by 800</color> for 40s. Repeated triggers reset the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33836,8 +33847,8 @@
   },
   "1350322": {
     "id": 1350322,
-    "name": "[Roxy] Eternal Night's Slumber",
-    "desc": "Hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color> and <color=#2BAD00>generate an additional giant wind vortex</color>; enemies hit by the giant wind vortex have their <color=#2BAD00>All-Attribute RES reduced by 24%</color> for 30s.",
+    "name": "[Roxy] Eternal Slumber",
+    "desc": "After holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>EX Special Attack: Don't Catch a Chill</color>, <color=#2BAD00>additionally generate a Giant Windstorm</color>; enemies hit by the windstorm have their <color=#2BAD00>All-Attribute RES reduced by 24%</color> for 30s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -33845,8 +33856,8 @@
   },
   "1350323": {
     "id": 1350323,
-    "name": "[Roxy] Lantern Night Wanderer",
-    "desc": "When activating <color=#FFFFFF>[Assist: Overtime Again?]</color>, it is replaced with <color=#2BAD00>activating <color=#FFFFFF>[Chain Attack: Funeral Wind Giant Hammer]</color></color>, triggerable at most once every 12 sec; <color=#2BAD00>DMG dealt by all squad members' <color=#FFFFFF>[Chain Attacks]</color> is increased by 50%</color>.",
+    "name": "[Roxy] Lantern Carrying Wanderer",
+    "desc": "After triggering <color=#FFFFFF>[Assist Follow-Up: Midnight Code]</color>, <color=#2BAD00>triggering</color> <color=#FFFFFF>[Assist: More Overtime?]</color> is also available; When <color=#FFFFFF>[Assist: More Overtime?]</color> is triggered, it instead <color=#2BAD00>triggers <color=#FFFFFF>[Chain Attack: Gale-Burial Great Hammer]</color></color> (can only be triggered once per 12s); DMG dealt by <color=#2BAD00><color=#FFFFFF>[Chain Attack]</color> from all squad members increases by 50%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 4,
@@ -39647,6 +39658,17 @@
     "rarity": 4,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_SunnaAfternoonTeaBreak.png"
   },
+  "3114912": {
+    "id": 3114912,
+    "name": "Skin_3114912_name",
+    "desc": "Skin_3114912_des",
+    "desc2": "Skin_3114912_story",
+    "class": {
+      "63": "DRESS"
+    },
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png"
+  },
   "3115010": {
     "id": 3115010,
     "name": "Skin_3115010_name",
@@ -39668,6 +39690,17 @@
     },
     "rarity": 4,
     "icon_path": ""
+  },
+  "3115012": {
+    "id": 3115012,
+    "name": "Skin_3115012_name",
+    "desc": "Skin_3115012_des",
+    "desc2": "Skin_3115012_story",
+    "class": {
+      "63": "DRESS"
+    },
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png"
   },
   "3115020": {
     "id": 3115020,
@@ -39691,6 +39724,17 @@
     "rarity": 4,
     "icon_path": ""
   },
+  "3115022": {
+    "id": 3115022,
+    "name": "Skin_3115012_name",
+    "desc": "Skin_3115012_des",
+    "desc2": "Skin_3115012_story",
+    "class": {
+      "63": "DRESS"
+    },
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png"
+  },
   "3115091": {
     "id": 3115091,
     "name": "Discordant Note",
@@ -39701,6 +39745,17 @@
     },
     "rarity": 4,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AriaDiscordantNote.png"
+  },
+  "3115092": {
+    "id": 3115092,
+    "name": "Skin_3115012_name",
+    "desc": "Skin_3115012_des",
+    "desc2": "Skin_3115012_story",
+    "class": {
+      "100": "OUTFIT SET"
+    },
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png"
   },
   "3115110": {
     "id": 3115110,
@@ -39723,6 +39778,17 @@
     },
     "rarity": 4,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_NangongYuRhapsodysMuse.png"
+  },
+  "3115112": {
+    "id": 3115112,
+    "name": "Skin_3115112_name",
+    "desc": "Skin_3115112_des",
+    "desc2": "Skin_3115112_story",
+    "class": {
+      "63": "DRESS"
+    },
+    "rarity": 4,
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png"
   },
   "3115210": {
     "id": 3115210,
@@ -41220,7 +41286,7 @@
   },
   "3231621": {
     "id": 3231621,
-    "name": "Agent Avatar - Roxy",
+    "name": "Agent Avatar: Roxy",
     "desc": "",
     "desc2": "",
     "class": {
@@ -52715,7 +52781,7 @@
       "10": "RESOURCE"
     },
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_011.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_012.png"
   },
   "4300010": {
     "id": 4300010,
@@ -53340,12 +53406,12 @@
   },
   "4320110": {
     "id": 4320110,
-    "name": "[Fragile] Advanced Gear · Armorer-Lv.20",
+    "name": "[Fragile] Advanced Gear: Armorer - Lv.20",
     "desc": "Provides the Advanced Stats needed for Defense Agents.",
     "desc2": "",
     "class": {},
     "rarity": 2,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_008.png"
   },
   "4320111": {
     "id": 4320111,
@@ -53403,12 +53469,12 @@
   },
   "4320117": {
     "id": 4320117,
-    "name": "[Fragile] Advanced Gear: Armorer-Lv.30",
+    "name": "[Fragile] Advanced Gear: Armorer - Lv.30",
     "desc": "Provides the Advanced Stats needed for Defense Agents.",
     "desc2": "",
     "class": {},
     "rarity": 2,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_008.png"
   },
   "4320120": {
     "id": 4320120,
@@ -53475,12 +53541,12 @@
   },
   "4320127": {
     "id": 4320127,
-    "name": "[Fragile] Blasting Gear·Armorer-Lv.30",
-    "desc": "Increases Agent DEF by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s; repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% over increases own Sharp DMG by <color=#2BAD00>2%</color>.",
+    "name": "[Fragile] Specialized Gear: Armorer - Lv.30",
+    "desc": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 3,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_008.png"
   },
   "4320131": {
     "id": 4320131,
@@ -53538,12 +53604,12 @@
   },
   "4320137": {
     "id": 4320137,
-    "name": "[Fragile] Blasting Gear: Armorer-Lv.40",
-    "desc": "Increases Agent DEF by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s; repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% over increases own Sharp DMG by <color=#2BAD00>2%</color>.",
+    "name": "[Fragile] Specialized Gear: Armorer - Lv.40",
+    "desc": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 3,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_008.png"
   },
   "4320150": {
     "id": 4320150,
@@ -53637,12 +53703,12 @@
   },
   "4320160": {
     "id": 4320160,
-    "name": "[Fragile] High-Grade Gear: Armorer-Lv.40",
-    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by the Agent increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
+    "name": "[Fragile] High-Grade Gear: Armorer - Lv. 40",
+    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent uses an EX Special Attack, Sharp DMG dealt by the wearer increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011.png"
   },
   "4320171": {
     "id": 4320171,
@@ -53727,12 +53793,12 @@
   },
   "4320180": {
     "id": 4320180,
-    "name": "[Fragile] High-Grade Gear: Armorer-Lv.50",
-    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by the Agent increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
+    "name": "[Fragile] High-Grade Gear: Armorer - Lv.50",
+    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent uses an EX Special Attack, Sharp DMG dealt by the wearer increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011.png"
   },
   "4320271": {
     "id": 4320271,
@@ -53817,12 +53883,12 @@
   },
   "4320280": {
     "id": 4320280,
-    "name": "Legendary Gear·Armorer-Lv.60",
-    "desc": "Increases Agent DEF by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s; repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% over increases own Sharp DMG by <color=#2BAD00>2%</color>.",
+    "name": "Legendary Gear: Armorer - Lv. 60",
+    "desc": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_010.png"
   },
   "4321001": {
     "id": 4321001,
@@ -54015,66 +54081,66 @@
   },
   "4321022": {
     "id": 4321022,
-    "name": "[Fragile][Yanagi] Ruten Reflector-Lv.50",
-    "desc": "Tsukishiro Yanagi's exclusive Tactical Prism. When dealing DMG to enemies using \"Etheric Phantom,\" her Anomaly Buildup Rate increases by 45%, lasting 60s, repeated triggers reset the duration;\nWhen she enters combat or any squad member triggers <color=#FFFFFF>[Disorder]</color>, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state, repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Tsukishiro Yanagi increases by 60%</color>.",
+    "name": "[Fragile] [Yanagi] Flowing Reflection - Lv.50",
+    "desc": "Tsukishiro Yanagi's exclusive Tactical Prism. When Etheric Phantom deals DMG to enemies, Yanagi's Anomaly Buildup Rate increases by 45% for 60s; repeated triggers reset the duration;\nWhen Yanagi enters combat or any squad member triggers the <color=#FFFFFF>[Disorder]</color> effect, Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state; repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Yanagi increase by 60%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_025.png"
   },
   "4321023": {
     "id": 4321023,
-    "name": "[Vulnerable][Claret] Fracture Onslaught-Lv.50",
-    "desc": "Claret's exclusive Tactical Prism. After launching a \"Power Slash\" against an enemy, restores 10% HP and increases DEF by 20% for 30s. Repeated triggers reset the duration. Upon triggering Perfect Dodge, <color=#2BAD00>increases Laceration DMG by 35%</color> for 60s. If triggered while in [Crimson Imprint] state, extends [Crimson Imprint] duration by 5s, with a maximum of 1 trigger within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enters [Vital View] for 4s.",
+    "name": "ZKItem_4321023_Name",
+    "desc": "Claret's exclusive Tactical Prism. After launching a Power Slash against an enemy, restores 10% HP and increases DEF by 20% for 30s. Repeated triggers reset the duration. Upon triggering a Perfect Dodge, increases own <color=#2BAD00>Laceration DMG by 35%</color> for 60s. If triggered while in the [Crimson Inscription] state, extends the duration of [Crimson Inscription] by 5s, and can trigger at most 1 time within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enter [Vital View] for 4s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023.png"
   },
   "4321024": {
     "id": 4321024,
-    "name": "[Fragile][Roxy]Lead Hammer Tempering-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "ZKItem_4321024_Name",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024.png"
   },
   "4321025": {
     "id": 4321025,
-    "name": "[Fragile][Zhao]Storm Frost Enigma-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Fragile] [Zhao] Frostmist Enigma - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026.png"
   },
   "4321026": {
     "id": 4321026,
-    "name": "[Vulnerable][Banyue]Asura's Way-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Fragile] [Banyue] The Way of Asura - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_028.png"
   },
   "4321027": {
     "id": 4321027,
-    "name": "[Fragile][Yidhari]Cold Light Aura-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Fragile] [Yidhari] Piercing Light - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_029.png"
   },
   "4321028": {
     "id": 4321028,
-    "name": "[Fragile][Starlight - Billy] Knight Belt-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Fragile] [Starlight - Billy] Knight's Belt - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png"
   },
   "4322001": {
     "id": 4322001,
@@ -54267,66 +54333,66 @@
   },
   "4322022": {
     "id": 4322022,
-    "name": "[Yanagi]Ruten Mirror-Lv.60",
-    "desc": "Tsukishiro Yanagi's exclusive Tactical Prism. When dealing DMG to enemies using \"Etheric Phantom,\" her Anomaly Buildup Rate increases by 45%, lasting 60s, repeated triggers reset the duration;\nWhen she enters combat or any squad member triggers <color=#FFFFFF>[Disorder]</color>, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state, repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Tsukishiro Yanagi increases by 60%</color>.",
+    "name": "ZKItem_4322022_Name",
+    "desc": "Tsukishiro Yanagi's exclusive Tactical Prism. When Etheric Phantom deals DMG to enemies, Yanagi's Anomaly Buildup Rate increases by 45% for 60s; repeated triggers reset the duration;\nWhen Yanagi enters combat or any squad member triggers the <color=#FFFFFF>[Disorder]</color> effect, Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state; repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Yanagi increase by 60%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_025.png"
   },
   "4322023": {
     "id": 4322023,
-    "name": "[Claret]Riftforge Onslaught-Lv.60",
-    "desc": "Claret's exclusive Tactical Prism. After launching a \"Power Slash\" against an enemy, restores 10% HP and increases DEF by 20% for 30s. Repeated triggers reset the duration. Upon triggering Perfect Dodge, <color=#2BAD00>increases Laceration DMG by 35%</color> for 60s. If triggered while in [Crimson Imprint] state, extends [Crimson Imprint] duration by 5s, with a maximum of 1 trigger within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enters [Vital View] for 4s.",
+    "name": "ZKItem_4322023_Name",
+    "desc": "Claret's exclusive Tactical Prism. After launching a Power Slash against an enemy, restores 10% HP and increases DEF by 20% for 30s. Repeated triggers reset the duration. Upon triggering a Perfect Dodge, increases own <color=#2BAD00>Laceration DMG by 35%</color> for 60s. If triggered while in the [Crimson Inscription] state, extends the duration of [Crimson Inscription] by 5s, and can trigger at most 1 time within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enter [Vital View] for 4s.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023.png"
   },
   "4322024": {
     "id": 4322024,
-    "name": "[Roxy]Lead Hammer Tempering-Lv.60",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "ZKItem_4322024_Name",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024.png"
   },
   "4322025": {
     "id": 4322025,
-    "name": "[Zhao] Lanfrost Enigma-Lv.60",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Zhao] Frostmist Enigma - Lv.60",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026.png"
   },
   "4322026": {
     "id": 4322026,
     "name": "[Banyue] The Way of Asura - Lv.60",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_028.png"
   },
   "4322027": {
     "id": 4322027,
-    "name": "[Yidhari] Frigid Radiance - Lv.60",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Yidhari] Piercing Light - Lv.60",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_029.png"
   },
   "4322028": {
     "id": 4322028,
-    "name": "[Starlight - Billy] Knight Belt-Lv.60",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Starlight - Billy] Knight's Belt - Lv.60",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png"
   },
   "4323101": {
     "id": 4323101,
@@ -54420,12 +54486,12 @@
   },
   "4323111": {
     "id": 4323111,
-    "name": "[Fragile] Advanced Gear · Armorer-Lv.25",
+    "name": "[Fragile] Advanced Gear: Armorer - Lv.25",
     "desc": "Provides the Advanced Stats needed for Defense Agents.",
     "desc2": "",
     "class": {},
     "rarity": 2,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_008.png"
   },
   "4323121": {
     "id": 4323121,
@@ -54483,12 +54549,12 @@
   },
   "4323127": {
     "id": 4323127,
-    "name": "[Fragile] Blasting Gear: Armorer-Lv.35",
-    "desc": "Increases Agent DEF by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s; repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% over increases own Sharp DMG by <color=#2BAD00>2%</color>.",
+    "name": "[Fragile] Specialized Gear: Armorer - Lv.35",
+    "desc": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 3,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_008.png"
   },
   "4323151": {
     "id": 4323151,
@@ -54573,12 +54639,12 @@
   },
   "4323160": {
     "id": 4323160,
-    "name": "[Fragile] High-Grade Gear: Armorer-Lv.45",
-    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by the Agent increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
+    "name": "[Fragile] High-Grade Gear: Armorer - Lv.45",
+    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent uses an EX Special Attack, Sharp DMG dealt by the wearer increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011.png"
   },
   "4325201": {
     "id": 4325201,
@@ -54636,12 +54702,12 @@
   },
   "4325207": {
     "id": 4325207,
-    "name": "Advanced Gear·Armorer-Lv.20",
+    "name": "Advanced Gear: Armorer - Lv.20",
     "desc": "Provides the Advanced Stats needed for Defense Agents.",
     "desc2": "",
     "class": {},
     "rarity": 2,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponB_008.png"
   },
   "4325301": {
     "id": 4325301,
@@ -54699,12 +54765,12 @@
   },
   "4325307": {
     "id": 4325307,
-    "name": "Blasting Gear·Armorer-Lv.30",
-    "desc": "Increases Agent DEF by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s; repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, every 1% over increases own Sharp DMG by <color=#2BAD00>2%</color>.",
+    "name": "Specialized Gear: Armorer - Lv.30",
+    "desc": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 3,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_006.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponA_008.png"
   },
   "4325401": {
     "id": 4325401,
@@ -54789,12 +54855,12 @@
   },
   "4325410": {
     "id": 4325410,
-    "name": "High-Grade Gear·Armorer-Lv.40",
-    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by the Agent increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
+    "name": "High-Grade Gear: Armorer - Lv.40",
+    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent uses an EX Special Attack, Sharp DMG dealt by the wearer increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011.png"
   },
   "4325501": {
     "id": 4325501,
@@ -54879,12 +54945,12 @@
   },
   "4325510": {
     "id": 4325510,
-    "name": "High-Grade Gear·Armorer-Lv.50",
-    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by the Agent increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
+    "name": "High-Grade Gear: Armorer - Lv.50",
+    "desc": "DEF increases by <color=#2BAD00>15%</color>. When the Agent uses an EX Special Attack, Sharp DMG dealt by the wearer increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers refresh the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_009.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011.png"
   },
   "4326001": {
     "id": 4326001,
@@ -55077,66 +55143,66 @@
   },
   "4326022": {
     "id": 4326022,
-    "name": "[Yanagi]Ruten Mirror-Lv.50",
-    "desc": "Tsukishiro Yanagi's exclusive Tactical Prism. When dealing DMG to enemies using \"Etheric Phantom,\" her Anomaly Buildup Rate increases by 45%, lasting 60s, repeated triggers reset the duration;\nWhen she enters combat or any squad member triggers <color=#FFFFFF>[Disorder]</color>, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state, repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Tsukishiro Yanagi increases by 60%</color>.",
+    "name": "[Yanagi] Flowing Reflection - Lv.50",
+    "desc": "Tsukishiro Yanagi's exclusive Tactical Prism. When Etheric Phantom deals DMG to enemies, Yanagi's Anomaly Buildup Rate increases by 45% for 60s; repeated triggers reset the duration;\nWhen Yanagi enters combat or any squad member triggers the <color=#FFFFFF>[Disorder]</color> effect, Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state; repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Yanagi increase by 60%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_025.png"
   },
   "4326023": {
     "id": 4326023,
-    "name": "[Claret]Riftforge Onslaught-Lv.50",
-    "desc": "Claret's exclusive Tactical Prism. After launching a \"Power Slash\" against an enemy, restores 10% HP and increases DEF by 20% for 30s. Repeated triggers reset the duration. Upon triggering Perfect Dodge, <color=#2BAD00>increases Laceration DMG by 35%</color> for 60s. If triggered while in [Crimson Imprint] state, extends [Crimson Imprint] duration by 5s, with a maximum of 1 trigger within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enters [Vital View] for 4s.",
+    "name": "ZKItem_4326023_Name",
+    "desc": "Claret's exclusive Tactical Prism. After launching a Power Slash against an enemy, restores 10% HP and increases DEF by 20% for 30s. Repeated triggers reset the duration. Upon triggering a Perfect Dodge, increases own <color=#2BAD00>Laceration DMG by 35%</color> for 60s. If triggered while in the [Crimson Inscription] state, extends the duration of [Crimson Inscription] by 5s, and can trigger at most 1 time within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enter [Vital View] for 4s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023.png"
   },
   "4326024": {
     "id": 4326024,
-    "name": "[Roxy]Lead Hammer Tempering-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "ZKItem_4326024_Name",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024.png"
   },
   "4326025": {
     "id": 4326025,
-    "name": "[Zhao] Lanfrost Enigma-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Zhao] Frostmist Enigma - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026.png"
   },
   "4326026": {
     "id": 4326026,
     "name": "[Banyue] The Way of Asura - Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_028.png"
   },
   "4326027": {
     "id": 4326027,
-    "name": "[Yidhari] Frigid Radiance - Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Yidhari] Piercing Light - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_029.png"
   },
   "4326028": {
     "id": 4326028,
-    "name": "[Starlight - Billy] Knight Belt-Lv.50",
-    "desc": "Roxy's exclusive Tactical Prism. When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Wind Chill]</color>, for every 1 second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when the skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "[Starlight - Billy] Knight's Belt - Lv.50",
+    "desc": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png"
   },
   "4331001": {
     "id": 4331001,
@@ -56220,12 +56286,12 @@
   },
   "4350220": {
     "id": 4350220,
-    "name": "[Blueprint] High-Grade Gear · Armorer-Lv.40",
-    "desc": "This blueprint can be used to unlock the crafting of Armorer Gear in the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by self increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color> sec(s); repeated triggers refresh the duration.",
+    "name": "[Blueprint] High-Grade Gear: Armorer - Lv. 40",
+    "desc": "Use this Blueprint at the Smart Workshop to unlock the recipe for Armorer Gear. Obtained through investigations or purchased from Blueprint Direct Sale at Boojee's Store.\n\nItem Effect: Increases DEF by <color=#2BAD00>15%</color>. When an Agent uses an EX Special Attack, their Sharp DMG increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers reset the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011_Blueprint.png"
   },
   "4350221": {
     "id": 4350221,
@@ -56310,12 +56376,12 @@
   },
   "4350230": {
     "id": 4350230,
-    "name": "[Blueprint] High-Grade Gear · Armorer-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Armorer Gear in the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: DEF increases by <color=#2BAD00>15%</color>. When the Agent launches an EX Special Attack, Sharp DMG dealt by self increases by <color=#2BAD00>15%</color>, lasting <color=#2BAD00>20</color> sec(s); repeated triggers refresh the duration.",
+    "name": "[Blueprint] High-Grade Gear: Armorer - Lv. 50",
+    "desc": "Use this Blueprint at the Smart Workshop to unlock the recipe for Armorer Gear. Obtained through investigations or purchased from Blueprint Direct Sale at Boojee's Store.\n\nItem Effect: Increases DEF by <color=#2BAD00>15%</color>. When an Agent uses an EX Special Attack, their Sharp DMG increases by <color=#2BAD00>15%</color> for <color=#2BAD00>20</color>s. Repeated triggers reset the duration.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_008_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponS_011_Blueprint.png"
   },
   "4350231": {
     "id": 4350231,
@@ -56400,12 +56466,12 @@
   },
   "4350240": {
     "id": 4350240,
-    "name": "[Blueprint] Legendary Gear · Armorer-Lv.60",
-    "desc": "This blueprint can be used to unlock Armorer Gear crafting in the Smart Workshop. Obtainable through Investigation Exploration or by purchasing from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Increases Agent's DEF by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color> sec; repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% exceeded, increases own Sharp DMG by <color=#2BAD00>2%</color>.",
+    "name": "[Blueprint] Legendary Gear: Armorer - Lv. 60",
+    "desc": "This blueprint can be used to unlock the crafting of Armorer Gear at the Smart Workshop. Can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: Agent DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, increases own CRIT Rate by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, increases own Sharp DMG by <color=#2BAD00>0.3%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_009_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponZ_010_Blueprint.png"
   },
   "4350301": {
     "id": 4350301,
@@ -56598,66 +56664,66 @@
   },
   "4350322": {
     "id": 4350322,
-    "name": "[Blueprint][Yanagi] Ruten Reflector-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Yanagi's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When dealing DMG to enemies with \"Etheric Phantom,\" increases own Anomaly Buildup Rate by 45% for 60s, repeated triggers reset the duration;\nWhen entering combat or when any squad member triggers <color=#FFFFFF>[Disorder]</color>, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state, repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Tsukishiro Yanagi is increased by 60%</color>.",
+    "name": "[Blueprint] [Yanagi] Flowing Reflection - Lv.50",
+    "desc": "This blueprint can be used to unlock the crafting of Yanagi's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When dealing DMG to enemies using \"Etheric Phantom\", own Anomaly Buildup Rate increases by 45%, lasting 60s; repeated triggers reset the duration;\nWhen entering combat or when any squad member triggers the <color=#FFFFFF>[Disorder]</color> effect, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state; repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, Tsukishiro Yanagi's <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG increases by 60%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_025_Blueprint.png"
   },
   "4350323": {
     "id": 4350323,
-    "name": "[Blueprint][Claret]Riftforge Onslaught-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Claret's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: After launching a \"Power Slash\" against an enemy, restores 10% HP to self and increases DEF by 20%, lasting 30 seconds. Repeated triggers reset the duration. Upon triggering Perfect Dodge, increases self's <color=#2BAD00>Laceration DMG by 35%</color>, lasting 60 seconds. If triggered while in [Crimson Imprint] state, extends [Crimson Imprint] duration by 5 seconds, can be triggered at most once within 10 seconds of duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enters [Vital View], lasting 4 seconds.",
+    "name": "ZKItem_4350323_Name",
+    "desc": "This blueprint can be used to unlock the crafting of Claret's exclusive Tactical Prism at the Smart Workshop. Can be obtained through investigation and exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: After launching \"Power Slash\" on an enemy, restore 10% HP and increase DEF by 20%, lasting 30s. Repeated triggers reset the duration. Upon triggering a Perfect Dodge, increase your own <color=#2BAD00>Laceration DMG by 35%</color>, lasting 60s. If triggered while in the [Crimson Inscription] state, extend the duration of [Crimson Inscription] by 5s, triggering at most 1 time within 10s of the duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enter [Vital View], lasting 4s.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023_Blueprint.png"
   },
   "4350324": {
     "id": 4350324,
-    "name": "[Blueprint][Roxy]Lead Tempered-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Roxy's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch for Windchill]</color>, for each second held, the skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30s.",
+    "name": "ZKItem_4350324_Name",
+    "desc": "This blueprint can be used to unlock the crafting of Roxy's exclusive Tactical Prism in the Smart Workshop. Can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, for every 1 second held, this skill's <color=#2BAD00>DMG and Daze are each increased by 10%/6%</color>, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024_Blueprint.png"
   },
   "4350325": {
     "id": 4350325,
-    "name": "[Blueprint][Zhao]Misty Frost Enigma-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Zhao's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When the number of surviving Agents in the squad is 2/1, the time required for extraction is reduced by 60%/30%. When Zhao activates [Ether Veil], immediately restores 30 [Frostbite Points] and increases <color=#2BAD00>ATK by 25%</color> for all squad members, lasting 50s.",
+    "name": "[Blueprint] [Zhao] Frostmist Enigma - Lv.50",
+    "desc": "This blueprint can be used to unlock the crafting of Zhao's exclusive Tactical Prism at the Smart Workshop. Can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When 2/1 surviving Agents remain in the squad, extraction time is reduced by 30%/60%. When Zhao activates [Ether Veil], immediately restore 30 [Frostbite Points] and increase <color=#2BAD00>ATK of all squad members by 25%</color> for 50 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026_Blueprint.png"
   },
   "4350326": {
     "id": 4350326,
-    "name": "[Blueprint][Banyue] The Way of Asura-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Banyue's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When using \"Etheric Phantom: Ashen-Mane Centurion,\" Banyue immediately recovers 10% of lost Max HP and recovers HP equal to 10% of her Max HP. When not in the <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue launches <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to launch a <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> deals <color=#2BAD00>increased Sheer DMG by 60%</color>.",
+    "name": "[Blueprint] [Banyue] The Way of Asura - Lv.50",
+    "desc": "This blueprint can be used to unlock the crafting of Banyue's exclusive Tactical Prism at the Smart Workshop. Can be obtained through investigation and exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When using \"Etheric Phantom: Sanguine Sweeper,\" the whole squad immediately restores 10% of lost Max HP, and restores HP equal to 10% of own Max HP. When not in the <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue uses <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to trigger a <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> <color=#2BAD00>Sheer DMG is increased by 60%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_028_Blueprint.png"
   },
   "4350327": {
     "id": 4350327,
-    "name": "[Blueprint][Yidhari] Frigid Gleam Aura - Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Yidhari's exclusive Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When the team is affected by [Corruption], the Max HP reduction is lowered to 10% of the original amount. After Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, she gains 10 stack(s) of <color=#FFFFFF>[Frost Coil]</color>: When <color=#FFFFFF>[Basic Attack]</color> hits an enemy, it consumes <color=#FFFFFF>[Frost Coil]</color> to attack the target enemy, triggering at most once every 1 second(s).",
+    "name": "[Blueprint] [Yidhari] Piercing Light - Lv.50",
+    "desc": "This blueprint can be used to unlock the crafting of Yidhari's exclusive Tactical Prism at the Smart Workshop. Can be obtained through investigation and exploration, or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: When the team is affected by [Corruption], the Max HP reduction is lowered to 10%. After Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, gain 10 stacks of <color=#FFFFFF>[Frost Coil]</color>: When a <color=#FFFFFF>[Basic Attack]</color> hits an enemy, consume <color=#FFFFFF>[Frost Coil]</color> to attack the target enemy, triggering at most once every 1 second(s).",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_029_Blueprint.png"
   },
   "4350328": {
     "id": 4350328,
-    "name": "[Blueprint][Starlight - Billy] Knight Belt-Lv.50",
-    "desc": "This blueprint can be used to unlock the crafting of Billy's exclusive Starlight Tactical Prism at the Smart Workshop. Can be obtained through Investigation Exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: For each red [Collectible] in your Inventory or Safe, DMG taken from Boss & The Hound - Ulidim is reduced by 4%, stacking up to 5 times. When a Block is successful during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 stack of Charge, stacking up to 1 time, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> to <color=#2BAD00>deal 100% increased DMG</color>.",
+    "name": "[Blueprint] [Starlight - Billy] Knight's Belt - Lv.50",
+    "desc": "This Blueprint can be used to unlock the crafting of Billy's exclusive Starlight Tactical Prism at the Smart Workshop. Can be obtained through exploration or purchased from Boojee's Store - Blueprint Direct Sale.\n\nItem Effect: For each red [Collectible] in the Inventory or Safe, DMG taken from Boss & The Hound - Ulidim is reduced by 4%, up to 5 stacks. When a Block is successful during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 Charge, stackable up to 1 floor, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> <color=#2BAD00>DMG dealt to increase by 100%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 4,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png"
   },
   "4350501": {
     "id": 4350501,
@@ -56850,66 +56916,66 @@
   },
   "4350522": {
     "id": 4350522,
-    "name": "[Blueprint][Yanagi] Ruten Reflection - Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Yanagi's exclusive Tactical Prism at the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: When dealing DMG to enemies with \"Etheric Phantom,\" own Anomaly Buildup Rate increases by 45%, lasting 60s, repeated triggers reset the duration;\nWhen entering combat or when any squad member triggers <color=#FFFFFF>[Disorder]</color>, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state, repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Attribute Anomaly DMG and [Disorder] DMG dealt by Tsukishiro Yanagi increases by 60%</color>.",
+    "name": "[Blueprint] [Yanagi] Ruten Flowing Reflection - Lv.60",
+    "desc": "This Blueprint can be used to unlock the crafting of Yanagi's exclusive Tactical Prism at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When using Etheric Phantom to deal DMG to enemies, increases own Anomaly Buildup Rate by 45% for 60s; repeated triggers reset the duration;\nWhen entering combat or when any squad member triggers the <color=#FFFFFF>[Disorder]</color> effect, Tsukishiro Yanagi can also enter the <color=#FFFFFF>[Shinrabanshou]</color> state; repeated triggers reset the duration;\nAdditionally, while in the <color=#FFFFFF>[Shinrabanshou]</color> state, <color=#2BAD00>Tsukishiro Yanagi's Attribute Anomaly DMG and [Disorder] DMG are increased by 60%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_025_Blueprint.png"
   },
   "4350523": {
     "id": 4350523,
-    "name": "[Blueprint][Claret]Riftforge Onslaught-Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Claret's exclusive Tactical Prism at the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: After launching a \"Power Slash\" against an enemy, restores 10% HP and increases DEF by 20%, lasting 30 seconds. Repeated triggers reset the duration. Upon triggering Perfect Dodge, increases <color=#2BAD00>Laceration DMG by 35%</color>, lasting 60 seconds. If triggered while in [Crimson Imprint] state, extends [Crimson Imprint] duration by 5 seconds, can be triggered at most once within 10 seconds of duration extension; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enters [Vital View], lasting 4 seconds.",
+    "name": "ZKItem_4350523_Name",
+    "desc": "This blueprint can be used to unlock the crafting of Claret's exclusive Tactical Prism in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: After performing a \"Power Slash\" on an enemy, restore 10% HP and increase DEF by 20%, lasting 30s. Repeated triggers reset the duration. When a Perfect Dodge is triggered, increase own <color=#2BAD00>Laceration DMG by 35%</color>, lasting 60s. If triggered while in the [Crimson Inscription] state, extend the duration of [Crimson Inscription] by 5s, and this extension can trigger at most 1 time within 10s; when a <color=#FFFFFF>[Counter Assist]</color> attack hits an enemy, enter [Vital View], lasting 4s.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023_Blueprint.png"
   },
   "4350524": {
     "id": 4350524,
-    "name": "[Blueprint][Roxy] Hammer Refined - Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Roxy's exclusive Tactical Prism at the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: When the evacuation countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100% respectively. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Watch Out for Wind Chill]</color>, for each second held, this skill's <color=#2BAD00>DMG and Daze increase by 10%/6%</color> respectively, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30 seconds.",
+    "name": "ZKItem_4350524_Name",
+    "desc": "This blueprint can be used to unlock the crafting of Roxy's exclusive Tactical Prism in the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact is increased by 20%/50%/100%, respectively. When holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, for every 1 second held, this skill's <color=#2BAD00>DMG and Daze are increased by 10%/6%</color>, up to a maximum of 30%/18%; when this skill hits an enemy, the target's DEF is reduced by <color=#2BAD00>16%</color> for 30 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024_Blueprint.png"
   },
   "4350525": {
     "id": 4350525,
-    "name": "[Blueprint][Zhao]Misty Frost Enigma-Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Zhao's exclusive Tactical Prism at the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: When the number of surviving Agents in the squad is 2/1, the time required for extraction is reduced by 60%/30%. When Zhao activates [Ether Veil], immediately recovers 30 [Frostbite Points] and increases <color=#2BAD00>ATK by 25%</color> for all squad members, lasting 50s.",
+    "name": "[Blueprint] [Zhao] Frostmist Enigma - Lv.60",
+    "desc": "This blueprint can be used to unlock the crafting of Zhao's exclusive Tactical Prism at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When 2/1 surviving Agents remain in the squad, extraction time is reduced by 30%/60%. When Zhao activates [Ether Veil], immediately restore 30 [Frostbite Points] and increase <color=#2BAD00>ATK of all squad members by 25%</color> for 50 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026_Blueprint.png"
   },
   "4350526": {
     "id": 4350526,
-    "name": "[Blueprint][Banyue] Asura's Way - Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Banyue's exclusive Tactical Prism in the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: When using \"Etheric Phantom: Ashen-Mane Centurion,\" Banyue immediately recovers 10% of lost Max HP and recovers HP equal to 10% of his Max HP. When not in <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue activates <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to activate <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> deals <color=#2BAD00>increased Sheer DMG by 60%</color>.",
+    "name": "[Blueprint] [Banyue] The Way of Asura - Lv.60",
+    "desc": "This blueprint can be used to unlock the crafting of Banyue's exclusive Tactical Prism at the Smart Workshop. Can be purchased via Boojee's Store - Season Limited.\n\nItem Effect: When using \"Etheric Phantom: Sanguine Sweeper\", the whole squad immediately recovers 10% of lost Max HP, and restores HP equal to 10% of own Max HP. When not in the <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue uses <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to trigger a <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> <color=#2BAD00>Sheer DMG is increased by 60%</color>. ",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_028_Blueprint.png"
   },
   "4350527": {
     "id": 4350527,
-    "name": "[Blueprint][Yidhari] Frigid Gleam Shroud-Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Yidhari's exclusive Tactical Prism at the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: When the team is affected by [Corruption], the Max HP reduction is lowered to 10% of the original amount. After Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, she gains 10 stacks of <color=#FFFFFF>[Frost Coil]</color>: When <color=#FFFFFF>[Basic Attack]</color> hits an enemy, it consumes <color=#FFFFFF>[Frost Coil]</color> to attack the target enemy, triggering at most once every 1 second(s).",
+    "name": "[Blueprint] [Yidhari] Piercing Light - Lv.60",
+    "desc": "This blueprint can be used to unlock the crafting of Yidhari's exclusive Tactical Prism at the Smart Workshop. Can be purchased from Boojee's Store - Season Limited.\n\nItem Effect: When the team is affected by [Corruption], the reduction to Max HP is lowered to 10%. After Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, gain 10 stacks of <color=#FFFFFF>[Frost Coil]</color>: When a <color=#FFFFFF>[Basic Attack]</color> hits an enemy, <color=#FFFFFF>[Frost Coil]</color> is consumed to attack the target enemy, triggering at most once every 1 seconds.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_029_Blueprint.png"
   },
   "4350528": {
     "id": 4350528,
-    "name": "[Blueprint][Starlight - Billy] Knight Belt-Lv.60",
-    "desc": "This blueprint can be used to unlock the crafting of Starlight Billy's exclusive Tactical Prism at the Smart Workshop. Available for purchase at Boojee's Store - Season Limited.\n\nItem Effect: For each red [Collectible] in your Inventory or Safe, DMG taken from Boss & The Hound - Ulidim is reduced by 4%, stacking up to 5 times. When a Block is successful during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 stack of Charge, stacking up to 1 time, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> to <color=#2BAD00>deal 100% increased DMG</color>.",
+    "name": "[Blueprint] [Starlight - Billy] Knight's Belt - Lv.60",
+    "desc": "This Blueprint can be used to unlock the crafting of the Starlight Billy Exclusive Tactical Prism at the Smart Workshop. Can be purchased via Boojee's Store - Season Limited.\n\nItem Effect: For each red [Collectible] in your Inventory or Safe, DMG taken from Boss & The Hound - Ulidim is reduced by 4%, stacking up to 5 floors. When a Block succeeds during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 Charge, stacking up to 1 floor, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> <color=#2BAD00>DMG dealt to increase by 100%</color>.",
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_002_Blueprint.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png"
   },
   "4360001": {
     "id": 4360001,
@@ -57332,7 +57398,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_082.png"
   },
   "4360048": {
     "id": 4360048,
@@ -57341,7 +57407,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_086.png"
   },
   "4360049": {
     "id": 4360049,
@@ -57350,7 +57416,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_087.png"
   },
   "4360050": {
     "id": 4360050,
@@ -57359,7 +57425,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_088.png"
   },
   "4360051": {
     "id": 4360051,
@@ -57368,7 +57434,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_089.png"
   },
   "4360052": {
     "id": 4360052,
@@ -57377,7 +57443,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_047.png"
   },
   "4360053": {
     "id": 4360053,
@@ -57386,7 +57452,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_048.png"
   },
   "4360054": {
     "id": 4360054,
@@ -57395,7 +57461,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_083.png"
   },
   "4360055": {
     "id": 4360055,
@@ -57404,7 +57470,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_084.png"
   },
   "4360056": {
     "id": 4360056,
@@ -57413,7 +57479,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_085.png"
   },
   "4360057": {
     "id": 4360057,
@@ -57422,7 +57488,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_074.png"
   },
   "4360058": {
     "id": 4360058,
@@ -57431,7 +57497,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_075.png"
   },
   "4360059": {
     "id": 4360059,
@@ -57440,7 +57506,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_076.png"
   },
   "4360060": {
     "id": 4360060,
@@ -57449,7 +57515,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_077.png"
   },
   "4360061": {
     "id": 4360061,
@@ -57458,7 +57524,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_054.png"
   },
   "4360062": {
     "id": 4360062,
@@ -57467,7 +57533,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_055.png"
   },
   "4360063": {
     "id": 4360063,
@@ -57476,7 +57542,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_056.png"
   },
   "4360064": {
     "id": 4360064,
@@ -57485,7 +57551,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_057.png"
   },
   "4360065": {
     "id": 4360065,
@@ -57494,7 +57560,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_078.png"
   },
   "4360066": {
     "id": 4360066,
@@ -57503,7 +57569,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_079.png"
   },
   "4360067": {
     "id": 4360067,
@@ -57512,7 +57578,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_080.png"
   },
   "4360068": {
     "id": 4360068,
@@ -57521,7 +57587,7 @@
     "desc2": "",
     "class": {},
     "rarity": 5,
-    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_CollectionA_005.png"
+    "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_081.png"
   },
   "4360084": {
     "id": 4360084,
@@ -58539,18 +58605,18 @@
   },
   "4390000": {
     "id": 4390000,
-    "name": "Naturalist's Commemoration Medal",
-    "desc": "A special gift from the Naturalist.",
-    "desc2": "The Naturalist doesn't like to talk much, but will put her heart into crafting a medal, then quietly leave it on the table...\n\"A wish? Hmm... I hope Master is happy every day.\" says the Naturalist.",
+    "name": "Natural Scientist's Commemorative Medal",
+    "desc": "A special gift from the Natural Scientists.",
+    "desc2": "Rather inarticulate, the Natural Scientists will pour their heart into crafting a medal, then quietly leave it on the table...\n\"A wish? Hmm... I hope Master is happy every day,\" they say.",
     "class": {},
     "rarity": 3,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooLKX.png"
   },
   "4390001": {
     "id": 4390001,
-    "name": "Flight Feather Agent's Commemoration Medal",
-    "desc": "A special gift from Flight Feather agents.",
-    "desc2": "Wanting to deliver the warm sunshine, the gentle breeze, and all of these feelings to Master—\n\"I like you!\" Agent Flight Feather shouts.",
+    "name": "Flight Feather Agent's Commemorative Medal",
+    "desc": "A special gift from the Flight Feather Agents.",
+    "desc2": "Wanting to give Master all of it — the warm sunshine, the gentle breeze, and these feelings—\n\"I like you!\" the Flight Feather Agents would declare out loud.",
     "class": {},
     "rarity": 3,
     "icon_path": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconDigibooFON.png"

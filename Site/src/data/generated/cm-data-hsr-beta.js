@@ -13,6 +13,5983 @@
   "changedCount": 42,
   "roster": [
     {
+      "id": "hsr-gilgamesh",
+      "n": "Gilgamesh",
+      "localizedNames": {
+        "en": "Gilgamesh",
+        "zh": "\u5409\u5c14\u4f3d\u7f8e\u4ec0",
+        "ja": "\u30ae\u30eb\u30ac\u30e1\u30c3\u30b7\u30e5",
+        "ko": "\uae38\uac00\uba54\uc2dc"
+      },
+      "title": "I Am As You Behold",
+      "slug": "gilgamesh",
+      "release": 1784883600000,
+      "releasePatch": "4.4",
+      "updated": 1787702400000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
+        "japanese": "Tomokazu Seki|Seki Tomokazu (\u95a2 \u667a\u4e00)",
+        "chinese": "https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
+        "korean": "https://namu.wiki/w/\uae40\uc885\uc5fd|Kim Jong-yeop (\uae40\uc885\uc5fd)"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
+      "signatureLightCone": {
+        "id": "23062",
+        "name": "I Am As You Behold",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+        "path": "Destruction"
+      },
+      "signatureWeapon": {
+        "id": "23062",
+        "name": "I Am As You Behold",
+        "path": "Destruction",
+        "educated": false
+      },
+      "signatureWeaponId": "23062",
+      "signatureWeaponName": "I Am As You Behold",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
+      ],
+      "status": "beta_changed",
+      "labels": [],
+      "r": 5,
+      "el": "Lightning",
+      "path": "Destruction",
+      "baseStats": {
+        "level1": {
+          "hp": 153.12,
+          "atk": 97.68,
+          "def": 69.3,
+          "speed": 97,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1125.43,
+          "atk": 717.95,
+          "def": 509.36,
+          "speed": 97,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 153.12,
+            "atk": 97.68,
+            "def": 69.3,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 359.83,
+            "atk": 229.55,
+            "def": 162.85,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 497.64,
+            "atk": 317.46,
+            "def": 225.22,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 635.45,
+            "atk": 405.37,
+            "def": 287.6,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 773.26,
+            "atk": 493.28,
+            "def": 349.97,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 911.06,
+            "atk": 581.2,
+            "def": 412.34,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1048.87,
+            "atk": 669.11,
+            "def": 474.7,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1125.43,
+            "atk": 717.95,
+            "def": 509.36,
+            "speed": 97,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
+      },
+      "facts": {
+        "title": "I Am As You Behold"
+      },
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "4.5.51",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Halfhearted Blow",
+                "type": "Basic ATK",
+                "desc": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy.",
+                "descFormat": [
+                  {
+                    "start": 29,
+                    "end": 33,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 29,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 50% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 60% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 70% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 80% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 90% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 100% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 110% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 120% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 130% of Gilgamesh's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Gate of Babylon",
+                "type": "Skill",
+                "desc": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.",
+                "descFormat": [
+                  {
+                    "start": 61,
+                    "end": 66,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 61,
+                    "end": 66,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 117,
+                    "end": 118,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 157,
+                    "end": 161,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 157,
+                    "end": 161,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 239,
+                    "end": 243,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 239,
+                    "end": 243,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 15% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 70% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 16.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 154% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 77% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 18% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 168% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 84% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 19.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 182% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 91% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 21% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 196% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 98% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 22.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 210% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 105% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 24.4% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 228% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 114% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 26.3% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 245% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 123% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 28.1% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 263% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 131% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 30% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 280% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 140% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 31.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 294% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 147% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 33% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 308% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 154% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 34.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 322% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 161% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 36% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 336% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 168% of Gilgamesh's ATK to adjacent targets."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets."
+                  }
+                ]
+              },
+              {
+                "name": "Halfhearted Blow",
+                "type": "Skill"
+              },
+              {
+                "name": "Enuma Elish",
+                "type": "Ultimate",
+                "desc": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.",
+                "descFormat": [
+                  {
+                    "start": 29,
+                    "end": 33,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 29,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 92,
+                    "end": 94,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 165,
+                    "end": 169,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 165,
+                    "end": 169,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 50% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Lightning DMG equal to 220% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 55% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Lightning DMG equal to 240% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 60% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Lightning DMG equal to 260% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 65% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Lightning DMG equal to 280% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 70% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Lightning DMG equal to 300% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 75% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Lightning DMG equal to 325% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 81.3% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Lightning DMG equal to 350% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 87.5% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Lightning DMG equal to 375% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 93.8% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Lightning DMG equal to 400% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 100% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Lightning DMG equal to 420% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 105% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Lightning DMG equal to 440% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 110% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Lightning DMG equal to 460% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 115% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Lightning DMG equal to 480% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 120% of Gilgamesh's ATK to one random enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Enkidu",
+                "type": "Technique",
+                "desc": "After using Technique, creates 1 Special Dimension lasting for 10 second(s). Enemies in the Special Dimension enter the \"King's Permission\" state. Enemies in the \"King's Permission\" state will cease all actions.\nWhen entering combat by actively attacking an enemy in the \"King's Permission\" state, causes all enemies in the \"King's Permission\" state to enter combat, and deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains 3 \"Interest.\" Only 1 Dimension Effect created by allies can exist at the same time.",
+                "descFormat": [
+                  {
+                    "start": 63,
+                    "end": 65,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 400,
+                    "end": 404,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 495,
+                    "end": 496,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "\"Amuse Me to the Fullest\"",
+                "type": "Talent",
+                "desc": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
+                "descFormat": [
+                  {
+                    "start": 121,
+                    "end": 124,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 121,
+                    "end": 124,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 138,
+                    "end": 139,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 374,
+                    "end": 377,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 403,
+                    "end": 405,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 20%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 22%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 24%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 26%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 28%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 30%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 32.5%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 35%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 37.5%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 40%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 42%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 44%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 46%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 48%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
+                  }
+                ]
+              },
+              {
+                "name": "\"I Grant You Permission To Strike\"",
+                "type": "Talent",
+                "desc": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 240% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 23,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 118,
+                    "end": 119,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 135,
+                    "end": 140,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 148,
+                    "end": 167,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 200,
+                    "end": 204,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 200,
+                    "end": 204,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 246,
+                    "end": 250,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 246,
+                    "end": 250,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 318,
+                    "end": 319,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 332,
+                    "end": 337,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 358,
+                    "end": 361,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 429,
+                    "end": 433,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 429,
+                    "end": 433,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 467,
+                    "end": 486,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 200% of Gilgamesh's ATK and Wind DMG equal to 300% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 120% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 220% of Gilgamesh's ATK and Wind DMG equal to 330% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 128% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 240% of Gilgamesh's ATK and Wind DMG equal to 360% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 136% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 260% of Gilgamesh's ATK and Wind DMG equal to 390% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 144% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 280% of Gilgamesh's ATK and Wind DMG equal to 420% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 152% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 300% of Gilgamesh's ATK and Wind DMG equal to 450% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 160% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 325% of Gilgamesh's ATK and Wind DMG equal to 488% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 170% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 350% of Gilgamesh's ATK and Wind DMG equal to 525% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 180% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 375% of Gilgamesh's ATK and Wind DMG equal to 563% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 190% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 400% of Gilgamesh's ATK and Wind DMG equal to 600% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 200% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 420% of Gilgamesh's ATK and Wind DMG equal to 630% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 208% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 440% of Gilgamesh's ATK and Wind DMG equal to 660% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 216% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 460% of Gilgamesh's ATK and Wind DMG equal to 690% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 224% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 480% of Gilgamesh's ATK and Wind DMG equal to 720% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 232% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 240% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Epic's Opening",
+                "type": "Major Trace",
+                "desc": "When Gilgamesh uses Ultimate, gains 2 \"Interest.\" When other ally characters use Ultimate, Gilgamesh additionally gains 2 \"Interest\" and regenerates a fixed amount of Energy equal to 30% of the Energy consumed this time.",
+                "descFormat": [
+                  {
+                    "start": 36,
+                    "end": 37,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 120,
+                    "end": 121,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 183,
+                    "end": 186,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree1.webp"
+              },
+              {
+                "name": "Hero's Hauteur",
+                "type": "Major Trace",
+                "desc": "During the current battle, for every 1 point of \"Interest\" gained by Gilgamesh, increases his CRIT DMG by 25%. This effect can stack up to 6 time(s).",
+                "descFormat": [
+                  {
+                    "start": 106,
+                    "end": 109,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 139,
+                    "end": 140,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree2.webp"
+              },
+              {
+                "name": "Hegemon's Strife",
+                "type": "Major Trace",
+                "desc": "While Gilgamesh is on the field, increases all ally targets' ATK by 20% and CRIT DMG by 20%. If the target's Max Energy exceeds 140, for every 1 excess point of Max Energy, additionally increases ATK and CRIT DMG by 1%, up to a maximum additional increase of 100%.",
+                "descFormat": [
+                  {
+                    "start": 68,
+                    "end": 71,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 88,
+                    "end": 91,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 128,
+                    "end": 131,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 216,
+                    "end": 218,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 259,
+                    "end": 263,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "He Who Saw the Deep",
+                "type": "Eidolon 1",
+                "desc": "When Gilgamesh holds \"King's Acknowledgement,\" its DEF-ignoring effect also applies to other teammates, and \"King's Acknowledgement\" additionally increases Gilgamesh's ATK by 60%. When using Skill, additionally regenerates a fixed 40 Energy.",
+                "descFormat": [
+                  {
+                    "start": 175,
+                    "end": 178,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 231,
+                    "end": 233,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank1.webp"
+              },
+              {
+                "name": "Wisdom That Encompassed All",
+                "type": "Eidolon 2",
+                "desc": "When entering combat, Gilgamesh gains 5 \"Interest.\" When using Ultimate, additionally gains 5 \"Interest.\" The DMG multiplier of the Skill \"Gate of Babylon\" against the primary target increases by 100%, and its DMG multiplier against adjacent targets increases by 50%.",
+                "descFormat": [
+                  {
+                    "start": 38,
+                    "end": 39,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 92,
+                    "end": 93,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 196,
+                    "end": 200,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 263,
+                    "end": 266,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank2.webp"
+              },
+              {
+                "name": "Journey That Spanned Far",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 39,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 82,
+                    "end": 84,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp"
+              },
+              {
+                "name": "King Who Bowed to None",
+                "type": "Eidolon 4",
+                "desc": "Gilgamesh's Energy Regeneration Rate increases by 20%.",
+                "descFormat": [
+                  {
+                    "start": 12,
+                    "end": 36,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 50,
+                    "end": 53,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank4.webp"
+              },
+              {
+                "name": "Sword That Parted Gods from Man",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 42,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 82,
+                    "end": 84,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp"
+              },
+              {
+                "name": "Soul That Bore Friendship",
+                "type": "Eidolon 6",
+                "desc": "Increases the bounce DMG multiplier of the Ultimate \"Enuma Elish\" by 80%. While Gilgamesh is on the field, increases ally characters' All-Type RES PEN by 20%. When a teammate uses Ultimate, Gilgamesh gains 1 point of \"Golden Rule,\" up to a total of 3 points. When this unit uses Ultimate, consumes all \"Golden Rule\" points, and each point of \"Golden Rule\" consumed increases the CRIT DMG for the Ultimate DMG dealt by 100%.",
+                "descFormat": [
+                  {
+                    "start": 69,
+                    "end": 72,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 143,
+                    "end": 150,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 154,
+                    "end": 157,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 249,
+                    "end": 250,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 418,
+                    "end": 422,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110434",
+            "name": "Thunder Strum",
+            "qty": 65,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+          },
+          {
+            "id": "111001",
+            "name": "Extinguished Core",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+          },
+          {
+            "id": "111002",
+            "name": "Glimmering Core",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+          },
+          {
+            "id": "111003",
+            "name": "Squirming Core",
+            "qty": 15,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "111001",
+                "name": "Extinguished Core",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "111001",
+                "name": "Extinguished Core",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "111002",
+                "name": "Glimmering Core",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 7,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "111002",
+                "name": "Glimmering Core",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 20,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "111003",
+                "name": "Squirming Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110434",
+                "name": "Thunder Strum",
+                "qty": 35,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
+              },
+              {
+                "id": "111003",
+                "name": "Squirming Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
+        "talents": [
+          {
+            "id": "111001",
+            "name": "Extinguished Core",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+          },
+          {
+            "id": "111002",
+            "name": "Glimmering Core",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+          },
+          {
+            "id": "111003",
+            "name": "Squirming Core",
+            "qty": 58,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110281",
+            "name": "Four Phases, Crossing the River to Check the King",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+          },
+          {
+            "id": "110282",
+            "name": "Sixen, King-Rook Fork",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+          },
+          {
+            "id": "110283",
+            "name": "Omnicolor, Fool's Own",
+            "qty": 139,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+          },
+          {
+            "id": "110502",
+            "name": "Guardian's Lament",
+            "qty": 12,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 14,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 14,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110281",
+                  "name": "Four Phases, Crossing the River to Check the King",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+                },
+                {
+                  "id": "111001",
+                  "name": "Extinguished Core",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110282",
+                  "name": "Sixen, King-Rook Fork",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+                },
+                {
+                  "id": "111002",
+                  "name": "Glimmering Core",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                },
+                {
+                  "id": "111003",
+                  "name": "Squirming Core",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110283",
+                  "name": "Omnicolor, Fool's Own",
+                  "qty": 14,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110502",
+                  "name": "Guardian's Lament",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "111001",
+            "name": "Extinguished Core",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+          },
+          {
+            "id": "111002",
+            "name": "Glimmering Core",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+          },
+          {
+            "id": "111003",
+            "name": "Squirming Core",
+            "qty": 30,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110281",
+            "name": "Four Phases, Crossing the River to Check the King",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+          },
+          {
+            "id": "110282",
+            "name": "Sixen, King-Rook Fork",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+          },
+          {
+            "id": "110283",
+            "name": "Omnicolor, Fool's Own",
+            "qty": 38,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+          },
+          {
+            "id": "110502",
+            "name": "Guardian's Lament",
+            "qty": 3,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "I Am As You Behold",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
+          "path": "Destruction",
+          "items": [
+            {
+              "id": "111001",
+              "name": "Extinguished Core",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
+            },
+            {
+              "id": "111002",
+              "name": "Glimmering Core",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
+            },
+            {
+              "id": "111003",
+              "name": "Squirming Core",
+              "qty": 14,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
+            },
+            {
+              "id": "110281",
+              "name": "Four Phases, Crossing the River to Check the King",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
+            },
+            {
+              "id": "110282",
+              "name": "Sixen, King-Rook Fork",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
+            },
+            {
+              "id": "110283",
+              "name": "Omnicolor, Fool's Own",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "hsr-rin-tohsaka",
+      "n": "Rin Tohsaka",
+      "localizedNames": {
+        "en": "Rin Tohsaka",
+        "zh": "\u8fdc\u5742\u51db",
+        "ja": "\u9060\u5742\u51db",
+        "ko": "\ud1a0\uc624\uc0ac\uce74 \ub9b0"
+      },
+      "title": "The Gem Coursing in Red",
+      "slug": "rin-tohsaka",
+      "release": 1784883600000,
+      "releasePatch": "4.4",
+      "updated": 1787702400000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "|vaCN = https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530 \u4f73\u5948)",
+        "chinese": "https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
+        "korean": "https://namu.wiki/w/\uae40\ubcf4\ubbfc(\uc131\uc6b0)|Kim Bo-min (\uae40\ubcf4\ubbfc)"
+      },
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
+      "signatureLightCone": {
+        "id": "23061",
+        "name": "Flickering Stars",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+        "path": "Erudition"
+      },
+      "signatureWeapon": {
+        "id": "23061",
+        "name": "Flickering Stars",
+        "path": "Erudition",
+        "educated": false
+      },
+      "signatureWeaponId": "23061",
+      "signatureWeaponName": "Flickering Stars",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
+      ],
+      "status": "beta_changed",
+      "labels": [],
+      "r": 5,
+      "el": "Quantum",
+      "path": "Erudition",
+      "baseStats": {
+        "level1": {
+          "hp": 142.56,
+          "atk": 95.04,
+          "def": 62.7,
+          "speed": 102,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1047.82,
+          "atk": 698.54,
+          "def": 460.85,
+          "speed": 102,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 142.56,
+            "atk": 95.04,
+            "def": 62.7,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 335.02,
+            "atk": 223.34,
+            "def": 147.34,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 463.32,
+            "atk": 308.88,
+            "def": 203.77,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 591.62,
+            "atk": 394.42,
+            "def": 260.2,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 719.93,
+            "atk": 479.95,
+            "def": 316.63,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 848.23,
+            "atk": 565.49,
+            "def": 373.06,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 976.54,
+            "atk": 651.02,
+            "def": 429.5,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1047.82,
+            "atk": 698.54,
+            "def": 460.85,
+            "speed": 102,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
+      },
+      "facts": {
+        "title": "The Gem Coursing in Red"
+      },
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "4.5.51",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Bajiquan",
+                "type": "Basic ATK",
+                "desc": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 50% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 60% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 70% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 80% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 100% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 110% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 120% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 130% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Jeweled Sword Zelretch",
+                "type": "Skill",
+                "desc": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 117% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 126% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 135% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 146% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 158% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 169% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 180% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 189% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 198% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 207% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 216% of Rin Tohsaka's ATK to one designated enemy."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Second Magic Experiment",
+                "type": "Skill",
+                "desc": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\"",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 84,
+                    "end": 85,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 141,
+                    "end": 145,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 141,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 240,
+                    "end": 241,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 321,
+                    "end": 323,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 390,
+                    "end": 391,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 423,
+                    "end": 424,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 473,
+                    "end": 474,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 45% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 45% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 54% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 54% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 63% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 63% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 90% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 99% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 103% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 103% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 108% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
+                  }
+                ]
+              },
+              {
+                "name": "An Gal Ta Ki Gal \u0160\u00e8",
+                "type": "Ultimate",
+                "desc": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 27,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 103,
+                    "end": 107,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 103,
+                    "end": 107,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 173,
+                    "end": 174,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 248,
+                    "end": 251,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 248,
+                    "end": 251,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 265,
+                    "end": 266,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Quantum DMG equal to 300% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 100% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 10%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Quantum DMG equal to 330% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 110% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 11%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Quantum DMG equal to 360% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 120% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 12%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Quantum DMG equal to 390% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 130% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 13%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Quantum DMG equal to 420% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 140% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 14%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Quantum DMG equal to 450% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 150% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 15%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Quantum DMG equal to 488% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 163% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 16.3%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Quantum DMG equal to 525% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 175% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 17.5%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Quantum DMG equal to 563% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 188% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 18.8%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Quantum DMG equal to 600% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 200% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 20%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Deals Quantum DMG equal to 630% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 210% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 21%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Deals Quantum DMG equal to 660% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 220% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 22%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Deals Quantum DMG equal to 690% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 230% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 23%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Deals Quantum DMG equal to 720% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 240% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 24%, lasting for 3 turn(s)."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s)."
+                  }
+                ]
+              },
+              {
+                "name": "Conversion Charge",
+                "type": "Technique",
+                "desc": "After using Technique, gains 10 \"Gem Energy\" at the start of the next battle.",
+                "descFormat": [
+                  {
+                    "start": 29,
+                    "end": 31,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Gem Magecraft",
+                "type": "Talent",
+                "desc": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\"",
+                "descFormat": [
+                  {
+                    "start": 28,
+                    "end": 30,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 128,
+                    "end": 133,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 128,
+                    "end": 133,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 138,
+                    "end": 139,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 251,
+                    "end": 253,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 311,
+                    "end": 312,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 35% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 38.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 42% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 45.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 49% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 52.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 56.9% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 61.3% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 65.6% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 70% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 73.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 77% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 80.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 84% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
+                  }
+                ]
+              },
+              {
+                "name": "Freeform Tohsaka Style",
+                "type": "Talent",
+                "desc": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
+                "descFormat": [
+                  {
+                    "start": 6,
+                    "end": 12,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 93,
+                    "end": 94,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 230,
+                    "end": 249,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 320,
+                    "end": 326,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 339,
+                    "end": 358,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 404,
+                    "end": 408,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 404,
+                    "end": 408,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 434,
+                    "end": 438,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 434,
+                    "end": 438,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 442,
+                    "end": 448,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 484,
+                    "end": 485,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 518,
+                    "end": 537,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 150% of Rin Tohsaka's ATK and 150% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 165% of Rin Tohsaka's ATK and 165% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 180% of Rin Tohsaka's ATK and 180% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 195% of Rin Tohsaka's ATK and 195% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 210% of Rin Tohsaka's ATK and 210% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 225% of Rin Tohsaka's ATK and 225% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 244% of Rin Tohsaka's ATK and 244% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 263% of Rin Tohsaka's ATK and 263% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 281% of Rin Tohsaka's ATK and 281% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 300% of Rin Tohsaka's ATK and 300% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 315% of Rin Tohsaka's ATK and 315% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 330% of Rin Tohsaka's ATK and 330% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 345% of Rin Tohsaka's ATK and 345% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 360% of Rin Tohsaka's ATK and 360% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Elegant Conduct",
+                "type": "Major Trace",
+                "desc": "While Rin Tohsaka is on the field, additionally increases the upper limit of Skill Points by 2. When entering combat, Rin Tohsaka's ATK increases by 150%, and Quantum RES PEN increases by 15%. If Archer is in the team, Archer also gains this effect.",
+                "descFormat": [
+                  {
+                    "start": 93,
+                    "end": 94,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 149,
+                    "end": 153,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 167,
+                    "end": 174,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 188,
+                    "end": 191,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 196,
+                    "end": 202,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 219,
+                    "end": 225,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree1.webp"
+              },
+              {
+                "name": "Ladylike Poise",
+                "type": "Major Trace",
+                "desc": "When entering combat or after using Enhanced Skill, increases Rin Tohsaka's SPD by 20%, lasting for 3 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 83,
+                    "end": 86,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 100,
+                    "end": 101,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree2.webp"
+              },
+              {
+                "name": "Inbound Prosperity",
+                "type": "Major Trace",
+                "desc": "When Rin Tohsaka uses Ultimate, gains 12 \"Gem Energy.\"",
+                "descFormat": [
+                  {
+                    "start": 38,
+                    "end": 40,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Zelretch's Apprentice",
+                "type": "Eidolon 1",
+                "desc": "If one instance of the Enhanced Skill consumes 30 or more \"Gem Energy,\" Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\nWhile holding \"Shadow Gem,\" enhances Skill to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect that converts Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\"",
+                "descFormat": [
+                  {
+                    "start": 47,
+                    "end": 49,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank1.webp"
+              },
+              {
+                "name": "Dimensional Traveler",
+                "type": "Eidolon 2",
+                "desc": "Rin Tohsaka's Skill DMG dealt increases by 30%. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes 130% of the original DMG.",
+                "descFormat": [
+                  {
+                    "start": 43,
+                    "end": 46,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 121,
+                    "end": 125,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank2.webp"
+              },
+              {
+                "name": "Holy Grail War: Victory Memorial",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 39,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 82,
+                    "end": 84,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp"
+              },
+              {
+                "name": "Red Devil: Triple Speed",
+                "type": "Eidolon 4",
+                "desc": "When the CRIT DMG boost effect from the Talent \"Gem Magecraft\" applies to Rin Tohsaka, the effect can stack, up to 2 time(s).",
+                "descFormat": [
+                  {
+                    "start": 115,
+                    "end": 116,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank4.webp"
+              },
+              {
+                "name": "Goddess of Venus's Favor",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 42,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 82,
+                    "end": 84,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp"
+              },
+              {
+                "name": "Nailed It This Time!",
+                "type": "Eidolon 6",
+                "desc": "Rin Tohsaka's All-Type RES PEN increases by 20%. When using Ultimate, gains 24 \"Gem Energy\" and 1 extra turn.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 30,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 44,
+                    "end": 47,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 76,
+                    "end": 78,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 98,
+                    "end": 108,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110443",
+            "name": "Sneering Harlequin",
+            "qty": 65,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+          },
+          {
+            "id": "111011",
+            "name": "Thief's Instinct",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+          },
+          {
+            "id": "111012",
+            "name": "Usurper's Scheme",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+          },
+          {
+            "id": "111013",
+            "name": "Conqueror's Will",
+            "qty": 15,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "111011",
+                "name": "Thief's Instinct",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "111011",
+                "name": "Thief's Instinct",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "111012",
+                "name": "Usurper's Scheme",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 7,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "111012",
+                "name": "Usurper's Scheme",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 20,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "111013",
+                "name": "Conqueror's Will",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110443",
+                "name": "Sneering Harlequin",
+                "qty": 35,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
+              },
+              {
+                "id": "111013",
+                "name": "Conqueror's Will",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
+        "talents": [
+          {
+            "id": "111011",
+            "name": "Thief's Instinct",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+          },
+          {
+            "id": "111012",
+            "name": "Usurper's Scheme",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+          },
+          {
+            "id": "111013",
+            "name": "Conqueror's Will",
+            "qty": 58,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110291",
+            "name": "Celestial Globe",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+          },
+          {
+            "id": "110292",
+            "name": "Galaxy Framework",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+          },
+          {
+            "id": "110293",
+            "name": "Cosmic Sandpit",
+            "qty": 139,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+          },
+          {
+            "id": "110501",
+            "name": "Destroyer's Final Road",
+            "qty": 12,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 5000,
+              "items": [
+                {
+                  "id": "110291",
+                  "name": "Celestial Globe",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+                },
+                {
+                  "id": "111011",
+                  "name": "Thief's Instinct",
+                  "qty": 6,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+                }
+              ]
+            },
+            {
+              "cost": 10000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 20000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 5,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 30000,
+              "items": [
+                {
+                  "id": "110292",
+                  "name": "Galaxy Framework",
+                  "qty": 7,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+                },
+                {
+                  "id": "111012",
+                  "name": "Usurper's Scheme",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 3,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 80000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                },
+                {
+                  "id": "111013",
+                  "name": "Conqueror's Will",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+                }
+              ]
+            },
+            {
+              "cost": 160000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            },
+            {
+              "cost": 300000,
+              "items": [
+                {
+                  "id": "110293",
+                  "name": "Cosmic Sandpit",
+                  "qty": 14,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110501",
+                  "name": "Destroyer's Final Road",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "111011",
+            "name": "Thief's Instinct",
+            "qty": 8,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+          },
+          {
+            "id": "111012",
+            "name": "Usurper's Scheme",
+            "qty": 10,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+          },
+          {
+            "id": "111013",
+            "name": "Conqueror's Will",
+            "qty": 30,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110291",
+            "name": "Celestial Globe",
+            "qty": 6,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+          },
+          {
+            "id": "110292",
+            "name": "Galaxy Framework",
+            "qty": 16,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+          },
+          {
+            "id": "110293",
+            "name": "Cosmic Sandpit",
+            "qty": 38,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+          },
+          {
+            "id": "110501",
+            "name": "Destroyer's Final Road",
+            "qty": 3,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
+          }
+        ],
+        "talentBaseCost": 802500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Flickering Stars",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
+          "path": "Erudition",
+          "items": [
+            {
+              "id": "111011",
+              "name": "Thief's Instinct",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
+            },
+            {
+              "id": "111012",
+              "name": "Usurper's Scheme",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
+            },
+            {
+              "id": "111013",
+              "name": "Conqueror's Will",
+              "qty": 14,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
+            },
+            {
+              "id": "110291",
+              "name": "Celestial Globe",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
+            },
+            {
+              "id": "110292",
+              "name": "Galaxy Framework",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
+            },
+            {
+              "id": "110293",
+              "name": "Cosmic Sandpit",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
+      "id": "hsr-robin-summeretto",
+      "n": "Robin Summeretto",
+      "localizedNames": {
+        "en": "Robin \u2022 Summeretto",
+        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
+        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
+        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
+      },
+      "title": "Summer Chorus",
+      "slug": "robin-summeretto",
+      "release": 1787734800000,
+      "updated": 1787702400000,
+      "sourceOrder": 0,
+      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
+      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
+      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
+      "signatureLightCone": {
+        "id": "23063",
+        "name": "Rise and Sing",
+        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
+        "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+        "path": "Remembrance"
+      },
+      "signatureWeapon": {
+        "id": "23063",
+        "name": "Rise and Sing",
+        "path": "Remembrance",
+        "educated": false
+      },
+      "signatureWeaponId": "23063",
+      "signatureWeaponName": "Rise and Sing",
+      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+      "overviewArtPool": [
+        "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
+      ],
+      "status": "beta_changed",
+      "labels": [
+        "New"
+      ],
+      "r": 5,
+      "el": "Wind",
+      "path": "Remembrance",
+      "baseStats": {
+        "level1": {
+          "hp": 163.68,
+          "atk": 81.84,
+          "def": 66,
+          "speed": 95,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "max": {
+          "level": 80,
+          "hp": 1203.05,
+          "atk": 601.52,
+          "def": 485.1,
+          "speed": 95,
+          "critRate": 0.05,
+          "critDmg": 0.5
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 163.68,
+            "atk": 81.84,
+            "def": 66,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 384.65,
+            "atk": 192.32,
+            "def": 155.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 531.96,
+            "atk": 265.98,
+            "def": 214.5,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 679.27,
+            "atk": 339.64,
+            "def": 273.9,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 826.58,
+            "atk": 413.29,
+            "def": 333.3,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 973.9,
+            "atk": 486.95,
+            "def": 392.7,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 1121.21,
+            "atk": 560.6,
+            "def": 452.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          },
+          {
+            "label": "Lv. 80/80",
+            "level": 80,
+            "cap": 80,
+            "hp": 1203.05,
+            "atk": 601.52,
+            "def": 485.1,
+            "speed": 95,
+            "critRate": 0.05,
+            "critDmg": 0.5
+          }
+        ]
+      },
+      "facts": {
+        "title": "Summer Chorus"
+      },
+      "skillIcons": [
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
+        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "4.5.51",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "The Sea Sings in My Key",
+                "type": "Basic ATK",
+                "desc": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy.",
+                "descFormat": [
+                  {
+                    "start": 24,
+                    "end": 27,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 24,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Deals Wind DMG equal to 25% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Deals Wind DMG equal to 30% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Deals Wind DMG equal to 35% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Deals Wind DMG equal to 40% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Deals Wind DMG equal to 45% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Deals Wind DMG equal to 50% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Deals Wind DMG equal to 55% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Deals Wind DMG equal to 60% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Deals Wind DMG equal to 65% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy."
+                  }
+                ]
+              },
+              {
+                "name": "Summer Strums the Soul",
+                "type": "Skill",
+                "desc": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 125% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 22,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 155,
+                    "end": 159,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 155,
+                    "end": 159,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 201,
+                    "end": 202,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 50% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 55% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 60% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 65% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 70% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 75% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 81.3% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 87.5% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 93.8% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 100% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 105% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 110% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 115% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 120% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 125% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
+                  }
+                ]
+              },
+              {
+                "name": "Ascend That Rhapsody in Blue",
+                "type": "Ultimate",
+                "desc": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 19,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 87,
+                    "end": 91,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 142,
+                    "end": 145,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 142,
+                    "end": 145,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 316,
+                    "end": 317,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 372,
+                    "end": 386,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
+                  }
+                ]
+              },
+              {
+                "name": "We Are the Melody",
+                "type": "Technique",
+                "desc": "After using Technique, advances action by 20% at the start of the next battle, immediately gains 6 Vibes, and increases all allies' DMG dealt by 30%, lasting for 2 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 38,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 42,
+                    "end": 45,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 97,
+                    "end": 98,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 145,
+                    "end": 148,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Maze.webp"
+              },
+              {
+                "name": "Attack",
+                "type": "Technique Attack",
+                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
+              },
+              {
+                "name": "Wings Heed No Borders",
+                "type": "Talent",
+                "desc": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends.",
+                "descFormat": [
+                  {
+                    "start": 61,
+                    "end": 64,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 124,
+                    "end": 128,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 327,
+                    "end": 329,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 413,
+                    "end": 414,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 490,
+                    "end": 492,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 607,
+                    "end": 628,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 838,
+                    "end": 843,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 838,
+                    "end": 843,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 854,
+                    "end": 858,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 949,
+                    "end": 970,
+                    "kind": "underline"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp",
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (10% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (10.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (11% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (11.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (12% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (12.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (13.1% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 8",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (13.8% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 9",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (14.4% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 10",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (15% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 11",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (15.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 12",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (16% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 13",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (16.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 14",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  },
+                  {
+                    "label": "Lv. 15",
+                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Major Traces",
+            "entries": [
+              {
+                "name": "Deviated Chords",
+                "type": "Major Trace",
+                "desc": "When an ally target causes Robin \u2022 Summeretto to gain Vibes, if their ATK is higher than Robin \u2022 Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes \u00d7 0.4%) of Robin \u2022 Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by an amount equal to (40% + Vibes \u00d7 1.5%). Lasts for 2 turn(s).",
+                "descFormat": [
+                  {
+                    "start": 162,
+                    "end": 165,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 176,
+                    "end": 180,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 281,
+                    "end": 284,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 295,
+                    "end": 299,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 312,
+                    "end": 313,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree1.webp"
+              },
+              {
+                "name": "Improvised Blues",
+                "type": "Major Trace",
+                "desc": "When Robin \u2022 Summeretto or the \"Summer Songbirds\" receive healing or Shield provided by teammates, causes Robin \u2022 Summeretto to gain 12 stack(s) of \"Groove,\" capped at 12. The first time Robin \u2022 Summeretto gains Vibes during any target's turn, if she has \"Groove,\" consumes 1 stack of \"Groove\" and regenerates a fixed 3 Energy.",
+                "descFormat": [
+                  {
+                    "start": 133,
+                    "end": 135,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 168,
+                    "end": 170,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 318,
+                    "end": 319,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree2.webp"
+              },
+              {
+                "name": "Rebuilt Harmony",
+                "type": "Major Trace",
+                "desc": "Increases the CRIT Rate of Robin \u2022 Summeretto and \"Summer Songbirds\" by 50%.",
+                "descFormat": [
+                  {
+                    "start": 72,
+                    "end": 75,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree3.webp"
+              }
+            ]
+          },
+          {
+            "title": "Eidolons",
+            "entries": [
+              {
+                "name": "Stray Bird of Summer",
+                "type": "Eidolon 1",
+                "desc": "\"Summer Songbirds\" will keep a tally of 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, additionally deals True DMG to the enemy target with the highest HP, equal to (11% + current Vibes \u00d7 0.1%) of the total tally. Then, clears 50% of the tally.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 44,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 56,
+                    "end": 64,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 140,
+                    "end": 148,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 200,
+                    "end": 203,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 222,
+                    "end": 226,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 261,
+                    "end": 264,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
+              },
+              {
+                "name": "A Heart of Still Water",
+                "type": "Eidolon 2",
+                "desc": "Ally targets' All-Type RES PEN increases by 18%. The upper limit of Robin \u2022 Summeretto's Vibes increases by 20. The first time an ally target uses an ability during any target's turn to cause Robin \u2022 Summeretto to gain Vibes, she gains an additional 2 points.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 30,
+                    "kind": "underline"
+                  },
+                  {
+                    "start": 44,
+                    "end": 47,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 108,
+                    "end": 110,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 250,
+                    "end": 251,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
+              },
+              {
+                "name": "Echoes Left Along the Way",
+                "type": "Eidolon 3",
+                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 39,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 79,
+                    "end": 81,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 132,
+                    "end": 134,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp"
+              },
+              {
+                "name": "Her Variation on the Theme",
+                "type": "Eidolon 4",
+                "desc": "Upon entering the \"Fever\" state, immediately gains 12 Vibes, and increases the SPD of \"Summer Songbirds\" by an amount equal to (20% + current Vibes \u00d7 0.5%).",
+                "descFormat": [
+                  {
+                    "start": 51,
+                    "end": 53,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 128,
+                    "end": 131,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 150,
+                    "end": 154,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank4.webp"
+              },
+              {
+                "name": "To Chase the Dawn Anew",
+                "type": "Eidolon 5",
+                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
+                "descFormat": [
+                  {
+                    "start": 40,
+                    "end": 42,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 85,
+                    "end": 87,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 137,
+                    "end": 139,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp"
+              },
+              {
+                "name": "A Song Yet Unnamed",
+                "type": "Eidolon 6",
+                "desc": "Increases the Memosprite Skill's DMG multiplier by 100% of its original value. While in the \"Fever\" state, Robin \u2022 Summeretto can store her Ultimate up to 2 times. After entering the \"Fever\" state for the first time in this battle or when the the \"Fever\" countdown's turn starts, regenerates a fixed 140 Energy.",
+                "descFormat": [
+                  {
+                    "start": 51,
+                    "end": 55,
+                    "kind": "strong"
+                  },
+                  {
+                    "start": 300,
+                    "end": 303,
+                    "kind": "strong"
+                  }
+                ],
+                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "110435",
+            "name": "Charred Bud of Twilight",
+            "qty": 65,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+          },
+          {
+            "id": "114001",
+            "name": "Dream Collection Component",
+            "qty": 15,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+          },
+          {
+            "id": "114002",
+            "name": "Dream Flow Valve",
+            "qty": 15,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+          },
+          {
+            "id": "114003",
+            "name": "Dream Making Engine",
+            "qty": 15,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "114001",
+                "name": "Dream Collection Component",
+                "qty": 5,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+              }
+            ],
+            "cost": 4000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "114001",
+                "name": "Dream Collection Component",
+                "qty": 10,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+              }
+            ],
+            "cost": 8000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 3,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114002",
+                "name": "Dream Flow Valve",
+                "qty": 6,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+              }
+            ],
+            "cost": 16000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 7,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114002",
+                "name": "Dream Flow Valve",
+                "qty": 9,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 20,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114003",
+                "name": "Dream Making Engine",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+              }
+            ],
+            "cost": 80000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "110435",
+                "name": "Charred Bud of Twilight",
+                "qty": 35,
+                "rar": 4,
+                "kind": "boss",
+                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
+              },
+              {
+                "id": "114003",
+                "name": "Dream Making Engine",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+              }
+            ],
+            "cost": 160000
+          }
+        ],
+        "talents": [
+          {
+            "id": "114001",
+            "name": "Dream Collection Component",
+            "qty": 41,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+          },
+          {
+            "id": "114002",
+            "name": "Dream Flow Valve",
+            "qty": 56,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+          },
+          {
+            "id": "114003",
+            "name": "Dream Making Engine",
+            "qty": 58,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 8,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 18,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 69,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 139,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110509",
+            "name": "...",
+            "qty": 12,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2500,
+              "items": [
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 3,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 3500,
+              "items": [
+                {
+                  "id": "110251",
+                  "name": "B\u012bja of Consciousness",
+                  "qty": 2,
+                  "rar": 2,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+                },
+                {
+                  "id": "114001",
+                  "name": "Dream Collection Component",
+                  "qty": 4,
+                  "rar": 2,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+                }
+              ]
+            },
+            {
+              "cost": 7000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 16000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 25000,
+              "items": [
+                {
+                  "id": "110252",
+                  "name": "Seedling of Manas",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+                },
+                {
+                  "id": "114002",
+                  "name": "Dream Flow Valve",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+                }
+              ]
+            },
+            {
+              "cost": 35000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 70000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                },
+                {
+                  "id": "114003",
+                  "name": "Dream Making Engine",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+                }
+              ]
+            },
+            {
+              "cost": 140000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 6,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            },
+            {
+              "cost": 240000,
+              "items": [
+                {
+                  "id": "110253",
+                  "name": "Flower of \u0100laya",
+                  "qty": 13,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+                },
+                {
+                  "id": "241",
+                  "name": "Tracks of Destiny",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "mob",
+                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+                },
+                {
+                  "id": "110509",
+                  "name": "...",
+                  "qty": 1,
+                  "rar": 4,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+                }
+              ]
+            }
+          ]
+        ],
+        "talentBase": [
+          {
+            "id": "114001",
+            "name": "Dream Collection Component",
+            "qty": 16,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+          },
+          {
+            "id": "114002",
+            "name": "Dream Flow Valve",
+            "qty": 18,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+          },
+          {
+            "id": "114003",
+            "name": "Dream Making Engine",
+            "qty": 36,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+          },
+          {
+            "id": "241",
+            "name": "Tracks of Destiny",
+            "qty": 2,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
+          },
+          {
+            "id": "110251",
+            "name": "B\u012bja of Consciousness",
+            "qty": 10,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+          },
+          {
+            "id": "110252",
+            "name": "Seedling of Manas",
+            "qty": 27,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+          },
+          {
+            "id": "110253",
+            "name": "Flower of \u0100laya",
+            "qty": 53,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+          },
+          {
+            "id": "110509",
+            "name": "...",
+            "qty": 3,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
+          }
+        ],
+        "talentBaseCost": 1181500,
+        "ascCost": 308000,
+        "talentCost": 3000000,
+        "currency": 3693000,
+        "weapon": {
+          "name": "Rise and Sing",
+          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
+          "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
+          "path": "Remembrance",
+          "items": [
+            {
+              "id": "114001",
+              "name": "Dream Collection Component",
+              "qty": 20,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
+            },
+            {
+              "id": "114002",
+              "name": "Dream Flow Valve",
+              "qty": 20,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
+            },
+            {
+              "id": "114003",
+              "name": "Dream Making Engine",
+              "qty": 14,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
+            },
+            {
+              "id": "110251",
+              "name": "B\u012bja of Consciousness",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
+            },
+            {
+              "id": "110252",
+              "name": "Seedling of Manas",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
+            },
+            {
+              "id": "110253",
+              "name": "Flower of \u0100laya",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
+            }
+          ],
+          "cost": 385000
+        }
+      },
+      "recent": 1,
+      "betaStatus": "changed"
+    },
+    {
       "id": "hsr-aventurine-waveflair",
       "n": "Aventurine Waveflair",
       "localizedNames": {
@@ -24,7 +6001,7 @@
       "title": "Over the Gilded Tides",
       "slug": "aventurine-waveflair",
       "release": 1789203600000,
-      "updated": 1786492800000,
+      "updated": 1787616000000,
       "sourceOrder": 0,
       "icon": "../../Database/GameData/hsr/assets/characters/round/1513.webp",
       "art": "../../Database/GameData/hsr/assets/characters/draw-card/1513.webp",
@@ -40,8 +6017,7 @@
         "id": "23064",
         "name": "Summer Rides the Surf",
         "path": "Elation",
-        "type": "Elation",
-        "educated": true
+        "educated": false
       },
       "signatureWeaponId": "23064",
       "signatureWeaponName": "Summer Rides the Surf",
@@ -2178,30 +8154,6 @@
           "path": "Elation",
           "items": [
             {
-              "id": "110261",
-              "name": "The Fluffy Hand-drawn Storyboards",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
-            },
-            {
-              "id": "110262",
-              "name": "The Fluffy Serialization Memorial Issue",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
-            },
-            {
-              "id": "110263",
-              "name": "The Fluffy Collector's Edition",
-              "qty": 15,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
-            },
-            {
               "id": "114011",
               "name": "Tatters of Thought",
               "qty": 20,
@@ -2224,6 +8176,30 @@
               "rar": 4,
               "kind": "mob",
               "icon": "../../Database/GameData/hsr/assets/items/114013.webp"
+            },
+            {
+              "id": "110261",
+              "name": "The Fluffy Hand-drawn Storyboards",
+              "qty": 4,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110261.webp"
+            },
+            {
+              "id": "110262",
+              "name": "The Fluffy Serialization Memorial Issue",
+              "qty": 12,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110262.webp"
+            },
+            {
+              "id": "110263",
+              "name": "The Fluffy Collector's Edition",
+              "qty": 15,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/hsr/assets/items/110263.webp"
             }
           ],
           "cost": 385000
@@ -4625,3913 +10601,6 @@
       },
       "recent": 1,
       "betaStatus": "new"
-    },
-    {
-      "id": "hsr-robin-summeretto",
-      "n": "Robin Summeretto",
-      "localizedNames": {
-        "en": "Robin \u2022 Summeretto",
-        "zh": "\u77e5\u66f4\u9e1f\u2022\u6674\u6b4c",
-        "ja": "\u30ed\u30d3\u30f3\u30fb\u590f\u7a7a\u306e\u6b4c",
-        "ko": "\ub85c\ube48\u2022\uc11c\uba38\ub808\ud1a0"
-      },
-      "title": "Summer Chorus",
-      "slug": "robin-summeretto",
-      "release": 1787734800000,
-      "updated": 1786492800000,
-      "sourceOrder": 0,
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1512.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1512.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/robin-summeretto-50f73fbdd44b.webp",
-      "signatureLightCone": {
-        "id": "23063",
-        "name": "Rise and Sing",
-        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
-        "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
-        "path": "Remembrance"
-      },
-      "signatureWeapon": {
-        "id": "23063",
-        "name": "Rise and Sing",
-        "path": "Remembrance",
-        "type": "Remembrance",
-        "educated": true
-      },
-      "signatureWeaponId": "23063",
-      "signatureWeaponName": "Rise and Sing",
-      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
-      "overviewArtPool": [
-        "../../Database/GameData/hsr/assets/lightcones/full/23063.webp"
-      ],
-      "status": "beta_changed",
-      "labels": [
-        "4.5"
-      ],
-      "r": 5,
-      "el": "Wind",
-      "path": "Remembrance",
-      "baseStats": {
-        "level1": {
-          "hp": 163.68,
-          "atk": 81.84,
-          "def": 66,
-          "speed": 95,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1203.05,
-          "atk": 601.52,
-          "def": 485.1,
-          "speed": 95,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/20",
-            "level": 1,
-            "cap": 20,
-            "hp": 163.68,
-            "atk": 81.84,
-            "def": 66,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 384.65,
-            "atk": 192.32,
-            "def": 155.1,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 531.96,
-            "atk": 265.98,
-            "def": 214.5,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 679.27,
-            "atk": 339.64,
-            "def": 273.9,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 826.58,
-            "atk": 413.29,
-            "def": 333.3,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 60/70",
-            "level": 60,
-            "cap": 70,
-            "hp": 973.9,
-            "atk": 486.95,
-            "def": 392.7,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 70/80",
-            "level": 70,
-            "cap": 80,
-            "hp": 1121.21,
-            "atk": 560.6,
-            "def": 452.1,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 80/80",
-            "level": 80,
-            "cap": 80,
-            "hp": 1203.05,
-            "atk": 601.52,
-            "def": 485.1,
-            "speed": 95,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          }
-        ]
-      },
-      "facts": {
-        "title": "Summer Chorus"
-      },
-      "skillIcons": [
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "4.5.51",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "The Sea Sings in My Key",
-                "type": "Basic ATK",
-                "desc": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy.",
-                "descFormat": [
-                  {
-                    "start": 24,
-                    "end": 27,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 24,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Wind DMG equal to 25% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Wind DMG equal to 30% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Wind DMG equal to 35% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Wind DMG equal to 40% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Wind DMG equal to 45% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Wind DMG equal to 50% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Wind DMG equal to 55% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Wind DMG equal to 60% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Wind DMG equal to 65% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Wind DMG equal to 70% of Robin \u2022 Summeretto's Max HP to one enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Summer Strums the Soul",
-                "type": "Skill",
-                "desc": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 125% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 22,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 155,
-                    "end": 159,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 155,
-                    "end": 159,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 201,
-                    "end": 202,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 50% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 55% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 60% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 65% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 70% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 75% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 81.3% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 87.5% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 93.8% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 100% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 105% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 110% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 115% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 120% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Summons the memosprite \"Summer Songbirds\" Bessie. If any member of the \"Summer Songbirds\" is already on the field, restores their HP by an amount equal to 125% of \"Summer Songbirds'\" Max HP, and gains 6 Vibes."
-                  }
-                ]
-              },
-              {
-                "name": "Ascend That Rhapsody in Blue",
-                "type": "Ultimate",
-                "desc": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 19,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 87,
-                    "end": 91,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 142,
-                    "end": 145,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 142,
-                    "end": 145,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 316,
-                    "end": 317,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 372,
-                    "end": 386,
-                    "kind": "underline"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 12.8% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 13.6% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 14.4% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 15.2% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 16% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 17% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 18% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 19% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 20.8% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 21.6% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 22.4% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 23.2% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Advances the action of one designated ally character (excluding Robin \u2022 Summeretto) by 100% and regenerates a fixed amount of Energy equal to 24% of their Max Energy. Then, grants them the \"Special Guest\" effect. When the \"Special Guest\" character or their summon attacks, they additionally grant Robin \u2022 Summeretto 2 Vibes but cannot make other friendly targets gain the action advance effect. This lasts for 2 turn(s), and its duration decreases by 1 at the start of this character's turn."
-                  }
-                ]
-              },
-              {
-                "name": "We Are the Melody",
-                "type": "Technique",
-                "desc": "After using Technique, advances action by 20% at the start of the next battle, immediately gains 6 Vibes, and increases all allies' DMG dealt by 30%, lasting for 2 turn(s).",
-                "descFormat": [
-                  {
-                    "start": 23,
-                    "end": 38,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 42,
-                    "end": 45,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 97,
-                    "end": 98,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 145,
-                    "end": 148,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Maze.webp"
-              },
-              {
-                "name": "Attack",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "Wings Heed No Borders",
-                "type": "Talent",
-                "desc": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends.",
-                "descFormat": [
-                  {
-                    "start": 61,
-                    "end": 64,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 124,
-                    "end": 128,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 327,
-                    "end": 329,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 413,
-                    "end": 414,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 490,
-                    "end": 492,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 607,
-                    "end": 628,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 838,
-                    "end": 843,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 838,
-                    "end": 843,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 854,
-                    "end": 858,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 949,
-                    "end": 970,
-                    "kind": "underline"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (10% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (10.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (11% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (11.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (12% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (12.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (13.1% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (13.8% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (14.4% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (15% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (15.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (16% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (16.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Memosprite \"Summer Songbirds\" has an initial Max HP equal to 70% of Robin \u2022 Summeretto's Max HP and an initial SPD equal to 180% of Robin \u2022 Summeretto's SPD. When an ally target uses an attack, or when they provide healing or Shield for the first time in any target's turn, Robin \u2022 Summeretto gains Vibes by 1 point, capped at 50. While \"Summer Songbirds\" Bessie is on the field, if Robin \u2022 Summeretto's Vibes is 6 or higher, immediately summons \"Summer Songbirds\" Drummie, and if Vibes is 12 or higher, immediately summons \"Summer Songbirds\" Paddie. When all \"Summer Songbirds\" take the stage, dispels all Crowd Control debuffs inflicted upon Robin \u2022 Summeretto and the \"Summer Songbirds\", starts the \"Fever\" state, and deploys a Zone. When ally targets deal DMG within the Zone, they ignore a percentage of enemy targets' DEF equal to (17.5% + Vibes \u00d7 0.5%).\nWhile in the \"Fever\" state, Robin \u2022 Summeretto and the \"Summer Songbirds\" are immune to Crowd Control debuffs. Robin \u2022 Summeretto will not enter her turn until the \"Fever\" state ends."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Deviated Chords",
-                "type": "Major Trace",
-                "desc": "When an ally target causes Robin \u2022 Summeretto to gain Vibes, if their ATK is higher than Robin \u2022 Summeretto's, increases that target's ATK by an amount equal to (16% + Vibes \u00d7 0.4%) of Robin \u2022 Summeretto's Max HP. Otherwise, increases that target's CRIT DMG by an amount equal to (40% + Vibes \u00d7 1.5%). Lasts for 2 turn(s).",
-                "descFormat": [
-                  {
-                    "start": 162,
-                    "end": 165,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 176,
-                    "end": 180,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 281,
-                    "end": 284,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 295,
-                    "end": 299,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 312,
-                    "end": 313,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree1.webp"
-              },
-              {
-                "name": "Improvised Blues",
-                "type": "Major Trace",
-                "desc": "When Robin \u2022 Summeretto or the \"Summer Songbirds\" receive healing or Shield provided by teammates, causes Robin \u2022 Summeretto to gain 12 stack(s) of \"Groove,\" capped at 12. The first time Robin \u2022 Summeretto gains Vibes during any target's turn, if she has \"Groove,\" consumes 1 stack of \"Groove\" and regenerates a fixed 3 Energy.",
-                "descFormat": [
-                  {
-                    "start": 133,
-                    "end": 135,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 168,
-                    "end": 170,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 318,
-                    "end": 319,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree2.webp"
-              },
-              {
-                "name": "Rebuilt Harmony",
-                "type": "Major Trace",
-                "desc": "Increases the CRIT Rate of Robin \u2022 Summeretto and \"Summer Songbirds\" by 50%.",
-                "descFormat": [
-                  {
-                    "start": 72,
-                    "end": 75,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "Stray Bird of Summer",
-                "type": "Eidolon 1",
-                "desc": "\"Summer Songbirds\" will keep a tally of 100% of the non-True DMG dealt by ally targets. When using the Memosprite Skill, additionally deals True DMG to the enemy target with the highest HP, equal to (11% + current Vibes \u00d7 0.1%) of the total tally. Then, clears 50% of the tally.",
-                "descFormat": [
-                  {
-                    "start": 40,
-                    "end": 44,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 56,
-                    "end": 64,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 140,
-                    "end": 148,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 200,
-                    "end": 203,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 222,
-                    "end": 226,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 261,
-                    "end": 264,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank1.webp"
-              },
-              {
-                "name": "A Heart of Still Water",
-                "type": "Eidolon 2",
-                "desc": "Ally targets' All-Type RES PEN increases by 18%. The upper limit of Robin \u2022 Summeretto's Vibes increases by 20. The first time an ally target uses an ability during any target's turn to cause Robin \u2022 Summeretto to gain Vibes, she gains an additional 2 points.",
-                "descFormat": [
-                  {
-                    "start": 23,
-                    "end": 30,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 44,
-                    "end": 47,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 108,
-                    "end": 110,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 250,
-                    "end": 251,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank2.webp"
-              },
-              {
-                "name": "Echoes Left Along the Way",
-                "type": "Eidolon 3",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nMemosprite Talent Lv. +1, up to a maximum of Lv. 10.",
-                "descFormat": [
-                  {
-                    "start": 37,
-                    "end": 39,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 79,
-                    "end": 81,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 132,
-                    "end": 134,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_BP.webp"
-              },
-              {
-                "name": "Her Variation on the Theme",
-                "type": "Eidolon 4",
-                "desc": "Upon entering the \"Fever\" state, immediately gains 12 Vibes, and increases the SPD of \"Summer Songbirds\" by an amount equal to (20% + current Vibes \u00d7 0.5%).",
-                "descFormat": [
-                  {
-                    "start": 51,
-                    "end": 53,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 128,
-                    "end": 131,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 150,
-                    "end": 154,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank4.webp"
-              },
-              {
-                "name": "To Chase the Dawn Anew",
-                "type": "Eidolon 5",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nMemosprite Skill Lv. +1, up to a maximum of Lv. 10.",
-                "descFormat": [
-                  {
-                    "start": 40,
-                    "end": 42,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 85,
-                    "end": 87,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 137,
-                    "end": 139,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Ultra.webp"
-              },
-              {
-                "name": "A Song Yet Unnamed",
-                "type": "Eidolon 6",
-                "desc": "Increases the Memosprite Skill's DMG multiplier by 100% of its original value. While in the \"Fever\" state, Robin \u2022 Summeretto can store her Ultimate up to 2 times. After entering the \"Fever\" state for the first time in this battle or when the the \"Fever\" countdown's turn starts, regenerates a fixed 140 Energy.",
-                "descFormat": [
-                  {
-                    "start": 51,
-                    "end": 55,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 300,
-                    "end": 303,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1512_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110435",
-            "name": "Charred Bud of Twilight",
-            "qty": 65,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
-          },
-          {
-            "id": "114001",
-            "name": "Dream Collection Component",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-          },
-          {
-            "id": "114002",
-            "name": "Dream Flow Valve",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-          },
-          {
-            "id": "114003",
-            "name": "Dream Making Engine",
-            "qty": 15,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-          }
-        ],
-        "ascensionStages": [
-          {
-            "cap": 30,
-            "items": [
-              {
-                "id": "114001",
-                "name": "Dream Collection Component",
-                "qty": 5,
-                "rar": 2,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-              }
-            ],
-            "cost": 4000
-          },
-          {
-            "cap": 40,
-            "items": [
-              {
-                "id": "114001",
-                "name": "Dream Collection Component",
-                "qty": 10,
-                "rar": 2,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-              }
-            ],
-            "cost": 8000
-          },
-          {
-            "cap": 50,
-            "items": [
-              {
-                "id": "110435",
-                "name": "Charred Bud of Twilight",
-                "qty": 3,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
-              },
-              {
-                "id": "114002",
-                "name": "Dream Flow Valve",
-                "qty": 6,
-                "rar": 3,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-              }
-            ],
-            "cost": 16000
-          },
-          {
-            "cap": 60,
-            "items": [
-              {
-                "id": "110435",
-                "name": "Charred Bud of Twilight",
-                "qty": 7,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
-              },
-              {
-                "id": "114002",
-                "name": "Dream Flow Valve",
-                "qty": 9,
-                "rar": 3,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-              }
-            ],
-            "cost": 40000
-          },
-          {
-            "cap": 70,
-            "items": [
-              {
-                "id": "110435",
-                "name": "Charred Bud of Twilight",
-                "qty": 20,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
-              },
-              {
-                "id": "114003",
-                "name": "Dream Making Engine",
-                "qty": 6,
-                "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-              }
-            ],
-            "cost": 80000
-          },
-          {
-            "cap": 80,
-            "items": [
-              {
-                "id": "110435",
-                "name": "Charred Bud of Twilight",
-                "qty": 35,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110435.webp"
-              },
-              {
-                "id": "114003",
-                "name": "Dream Making Engine",
-                "qty": 9,
-                "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-              }
-            ],
-            "cost": 160000
-          }
-        ],
-        "talents": [
-          {
-            "id": "114001",
-            "name": "Dream Collection Component",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-          },
-          {
-            "id": "114002",
-            "name": "Dream Flow Valve",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-          },
-          {
-            "id": "114003",
-            "name": "Dream Making Engine",
-            "qty": 58,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110251",
-            "name": "B\u012bja of Consciousness",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-          },
-          {
-            "id": "110252",
-            "name": "Seedling of Manas",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-          },
-          {
-            "id": "110253",
-            "name": "Flower of \u0100laya",
-            "qty": 139,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-          },
-          {
-            "id": "110509",
-            "name": "...",
-            "qty": 12,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 3500,
-              "items": [
-                {
-                  "id": "110251",
-                  "name": "B\u012bja of Consciousness",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-                },
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 4,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 7000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 35000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 140000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 6,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 3500,
-              "items": [
-                {
-                  "id": "110251",
-                  "name": "B\u012bja of Consciousness",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-                },
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 4,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 7000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 25000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 35000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 70000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 140000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 6,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                }
-              ]
-            },
-            {
-              "cost": 240000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 13,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 3500,
-              "items": [
-                {
-                  "id": "110251",
-                  "name": "B\u012bja of Consciousness",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-                },
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 4,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 7000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 25000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 35000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 70000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 140000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 6,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                }
-              ]
-            },
-            {
-              "cost": 240000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 13,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 3500,
-              "items": [
-                {
-                  "id": "110251",
-                  "name": "B\u012bja of Consciousness",
-                  "qty": 2,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-                },
-                {
-                  "id": "114001",
-                  "name": "Dream Collection Component",
-                  "qty": 4,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 7000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 16000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 25000,
-              "items": [
-                {
-                  "id": "110252",
-                  "name": "Seedling of Manas",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-                },
-                {
-                  "id": "114002",
-                  "name": "Dream Flow Valve",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 35000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 70000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                },
-                {
-                  "id": "114003",
-                  "name": "Dream Making Engine",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 140000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 6,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                }
-              ]
-            },
-            {
-              "cost": 240000,
-              "items": [
-                {
-                  "id": "110253",
-                  "name": "Flower of \u0100laya",
-                  "qty": 13,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110509",
-                  "name": "...",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "114001",
-            "name": "Dream Collection Component",
-            "qty": 16,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-          },
-          {
-            "id": "114002",
-            "name": "Dream Flow Valve",
-            "qty": 18,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-          },
-          {
-            "id": "114003",
-            "name": "Dream Making Engine",
-            "qty": 36,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110251",
-            "name": "B\u012bja of Consciousness",
-            "qty": 10,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-          },
-          {
-            "id": "110252",
-            "name": "Seedling of Manas",
-            "qty": 27,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-          },
-          {
-            "id": "110253",
-            "name": "Flower of \u0100laya",
-            "qty": 53,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-          },
-          {
-            "id": "110509",
-            "name": "...",
-            "qty": 3,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110509.webp"
-          }
-        ],
-        "talentBaseCost": 1181500,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "Rise and Sing",
-          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23063.webp",
-          "art": "../../Database/GameData/hsr/assets/lightcones/full/23063.webp",
-          "path": "Remembrance",
-          "items": [
-            {
-              "id": "110251",
-              "name": "B\u012bja of Consciousness",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110251.webp"
-            },
-            {
-              "id": "110252",
-              "name": "Seedling of Manas",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110252.webp"
-            },
-            {
-              "id": "110253",
-              "name": "Flower of \u0100laya",
-              "qty": 15,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110253.webp"
-            },
-            {
-              "id": "114001",
-              "name": "Dream Collection Component",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/114001.webp"
-            },
-            {
-              "id": "114002",
-              "name": "Dream Flow Valve",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/114002.webp"
-            },
-            {
-              "id": "114003",
-              "name": "Dream Making Engine",
-              "qty": 14,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/114003.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "recent": 1,
-      "betaStatus": "changed"
-    },
-    {
-      "id": "hsr-gilgamesh",
-      "n": "Gilgamesh",
-      "localizedNames": {
-        "en": "Gilgamesh",
-        "zh": "\u5409\u5c14\u4f3d\u7f8e\u4ec0",
-        "ja": "\u30ae\u30eb\u30ac\u30e1\u30c3\u30b7\u30e5",
-        "ko": "\uae38\uac00\uba54\uc2dc"
-      },
-      "title": "I Am As You Behold",
-      "slug": "gilgamesh",
-      "release": 1784883600000,
-      "releasePatch": "4.4",
-      "updated": 1784851200000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "|vaCN = https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
-        "japanese": "Tomokazu Seki|Seki Tomokazu (\u95a2 \u667a\u4e00)",
-        "chinese": "https://zh.moegirl.org.cn/\u85e4\u65b0|Teng Xin (\u85e4\u65b0)",
-        "korean": "https://namu.wiki/w/\uae40\uc885\uc5fd|Kim Jong-yeop (\uae40\uc885\uc5fd)"
-      },
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1509.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1509.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/gilgamesh-8b85b84d2d9d.webp",
-      "signatureLightCone": {
-        "id": "23062",
-        "name": "I Am As You Behold",
-        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
-        "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
-        "path": "Destruction"
-      },
-      "signatureWeapon": {
-        "id": "23062",
-        "name": "I Am As You Behold",
-        "path": "Destruction",
-        "educated": false
-      },
-      "signatureWeaponId": "23062",
-      "signatureWeaponName": "I Am As You Behold",
-      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
-      "overviewArtPool": [
-        "../../Database/GameData/hsr/assets/lightcones/full/23062.webp"
-      ],
-      "status": "beta_changed",
-      "labels": [
-        "New"
-      ],
-      "r": 5,
-      "el": "Lightning",
-      "path": "Destruction",
-      "baseStats": {
-        "level1": {
-          "hp": 153.12,
-          "atk": 97.68,
-          "def": 69.3,
-          "speed": 97,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1125.43,
-          "atk": 717.95,
-          "def": 509.36,
-          "speed": 97,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/20",
-            "level": 1,
-            "cap": 20,
-            "hp": 153.12,
-            "atk": 97.68,
-            "def": 69.3,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 359.83,
-            "atk": 229.55,
-            "def": 162.85,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 497.64,
-            "atk": 317.46,
-            "def": 225.22,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 635.45,
-            "atk": 405.37,
-            "def": 287.6,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 773.26,
-            "atk": 493.28,
-            "def": 349.97,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 60/70",
-            "level": 60,
-            "cap": 70,
-            "hp": 911.06,
-            "atk": 581.2,
-            "def": 412.34,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 70/80",
-            "level": 70,
-            "cap": 80,
-            "hp": 1048.87,
-            "atk": 669.11,
-            "def": 474.7,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 80/80",
-            "level": 80,
-            "cap": 80,
-            "hp": 1125.43,
-            "atk": 717.95,
-            "def": 509.36,
-            "speed": 97,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          }
-        ]
-      },
-      "facts": {
-        "title": "I Am As You Behold"
-      },
-      "skillIcons": [
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Normal.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "4.5.51",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Halfhearted Blow",
-                "type": "Basic ATK",
-                "desc": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy.",
-                "descFormat": [
-                  {
-                    "start": 29,
-                    "end": 33,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 29,
-                    "end": 33,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Lightning DMG equal to 50% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Lightning DMG equal to 60% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Lightning DMG equal to 70% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Lightning DMG equal to 80% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Lightning DMG equal to 90% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Lightning DMG equal to 100% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Lightning DMG equal to 110% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Lightning DMG equal to 120% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Lightning DMG equal to 130% of Gilgamesh's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Gate of Babylon",
-                "type": "Skill",
-                "desc": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets.",
-                "descFormat": [
-                  {
-                    "start": 61,
-                    "end": 66,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 61,
-                    "end": 66,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 117,
-                    "end": 118,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 157,
-                    "end": 161,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 157,
-                    "end": 161,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 239,
-                    "end": 243,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 239,
-                    "end": 243,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 15% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 140% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 70% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 16.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 154% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 77% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 18% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 168% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 84% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 19.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 182% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 91% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 21% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 196% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 98% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 22.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 210% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 105% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 24.4% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 228% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 114% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 26.3% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 245% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 123% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 28.1% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 263% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 131% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 30% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 280% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 140% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 31.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 294% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 147% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 33% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 308% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 154% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 34.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 322% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 161% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 36% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 336% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 168% of Gilgamesh's ATK to adjacent targets."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Gains \"King's Acknowledgement,\" allowing this unit to ignore 37.5% of the target's DEF when dealing DMG, lasting for 3 turn(s).\nDeals Lightning DMG equal to 350% of Gilgamesh's ATK to one designated enemy, and deals Lightning DMG equal to 175% of Gilgamesh's ATK to adjacent targets."
-                  }
-                ]
-              },
-              {
-                "name": "Halfhearted Blow",
-                "type": "Skill"
-              },
-              {
-                "name": "Enuma Elish",
-                "type": "Ultimate",
-                "desc": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy.",
-                "descFormat": [
-                  {
-                    "start": 29,
-                    "end": 33,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 29,
-                    "end": 33,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 92,
-                    "end": 94,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 165,
-                    "end": 169,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 165,
-                    "end": 169,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 50% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Lightning DMG equal to 220% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 55% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Lightning DMG equal to 240% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 60% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Lightning DMG equal to 260% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 65% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Lightning DMG equal to 280% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 70% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Lightning DMG equal to 300% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 75% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Lightning DMG equal to 325% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 81.3% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Lightning DMG equal to 350% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 87.5% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Lightning DMG equal to 375% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 93.8% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Lightning DMG equal to 400% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 100% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Lightning DMG equal to 420% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 105% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Lightning DMG equal to 440% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 110% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Lightning DMG equal to 460% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 115% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Lightning DMG equal to 480% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 120% of Gilgamesh's ATK to one random enemy."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Lightning DMG equal to 500% of Gilgamesh's ATK to all enemies, and additionally deals 10 instance(s) of DMG, with each instance dealing Lightning DMG equal to 125% of Gilgamesh's ATK to one random enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Enkidu",
-                "type": "Technique",
-                "desc": "After using Technique, creates 1 Special Dimension lasting for 10 second(s). Enemies in the Special Dimension enter the \"King's Permission\" state. Enemies in the \"King's Permission\" state will cease all actions.\nWhen entering combat by actively attacking an enemy in the \"King's Permission\" state, causes all enemies in the \"King's Permission\" state to enter combat, and deals Lightning DMG equal to 200% of Gilgamesh's ATK to all enemies after entering combat. Gilgamesh also immediately gains 3 \"Interest.\" Only 1 Dimension Effect created by allies can exist at the same time.",
-                "descFormat": [
-                  {
-                    "start": 63,
-                    "end": 65,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 400,
-                    "end": 404,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 495,
-                    "end": 496,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Maze.webp"
-              },
-              {
-                "name": "Attack",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "\"Amuse Me to the Fullest\"",
-                "type": "Talent",
-                "desc": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\"",
-                "descFormat": [
-                  {
-                    "start": 121,
-                    "end": 124,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 121,
-                    "end": 124,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 138,
-                    "end": 139,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 374,
-                    "end": 377,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 403,
-                    "end": 405,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 20%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 22%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 24%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 26%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 28%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 30%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 32.5%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 35%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 37.5%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 40%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 42%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 44%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 46%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 48%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "When a teammate uses their Ultimate, Gilgamesh gains \"King's Burden,\" which increases Ultimate DMG dealt by this unit by 50%, lasting for 3 turn(s).\nInitially, automatically uses Basic ATK at the start of this unit's turn. When another ally target takes action, Gilgamesh gains 1 point of \"Interest.\" For each point of \"Interest\" in possession, increases this unit's SPD by 10%.\nWhen \"Interest\" reaches 10 for the first time, enters the \"Interest Piqued!\" state. In that state, can only use Skill, lasting for the entire battle. After using Skill, clears this unit's \"Interest.\""
-                  }
-                ]
-              },
-              {
-                "name": "\"I Grant You Permission To Strike\"",
-                "type": "Talent",
-                "desc": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 240% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally.",
-                "descFormat": [
-                  {
-                    "start": 18,
-                    "end": 23,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 118,
-                    "end": 119,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 135,
-                    "end": 140,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 148,
-                    "end": 167,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 200,
-                    "end": 204,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 200,
-                    "end": 204,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 246,
-                    "end": 250,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 246,
-                    "end": 250,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 318,
-                    "end": 319,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 332,
-                    "end": 337,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 358,
-                    "end": 361,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 429,
-                    "end": 433,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 429,
-                    "end": 433,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 467,
-                    "end": 486,
-                    "kind": "underline"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 200% of Gilgamesh's ATK and Wind DMG equal to 300% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 120% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 220% of Gilgamesh's ATK and Wind DMG equal to 330% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 128% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 240% of Gilgamesh's ATK and Wind DMG equal to 360% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 136% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 260% of Gilgamesh's ATK and Wind DMG equal to 390% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 144% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 280% of Gilgamesh's ATK and Wind DMG equal to 420% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 152% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 300% of Gilgamesh's ATK and Wind DMG equal to 450% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 160% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 325% of Gilgamesh's ATK and Wind DMG equal to 488% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 170% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 350% of Gilgamesh's ATK and Wind DMG equal to 525% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 180% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 375% of Gilgamesh's ATK and Wind DMG equal to 563% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 190% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 400% of Gilgamesh's ATK and Wind DMG equal to 600% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 200% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 420% of Gilgamesh's ATK and Wind DMG equal to 630% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 208% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 440% of Gilgamesh's ATK and Wind DMG equal to 660% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 216% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 460% of Gilgamesh's ATK and Wind DMG equal to 690% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 224% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 480% of Gilgamesh's ATK and Wind DMG equal to 720% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 232% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "When Gilgamesh or Saber attacks, the attack tally increases by 1. After any unit attacks, if the attack tally reaches 8, Gilgamesh and Saber launch Joint Follow-Up ATK, dealing Lightning DMG equal to 500% of Gilgamesh's ATK and Wind DMG equal to 750% of Saber's ATK to all enemies, respectively. Then, Gilgamesh gains 3 \"Interest.\" Saber regenerates a fixed 120 Energy, and the next time she uses Ultimate, the DMG dealt becomes 240% of the original DMG.\nAfter using Joint Follow-Up ATK, resets the attack tally."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Epic's Opening",
-                "type": "Major Trace",
-                "desc": "When Gilgamesh uses Ultimate, gains 2 \"Interest.\" When other ally characters use Ultimate, Gilgamesh additionally gains 2 \"Interest\" and regenerates a fixed amount of Energy equal to 30% of the Energy consumed this time.",
-                "descFormat": [
-                  {
-                    "start": 36,
-                    "end": 37,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 120,
-                    "end": 121,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 183,
-                    "end": 186,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree1.webp"
-              },
-              {
-                "name": "Hero's Hauteur",
-                "type": "Major Trace",
-                "desc": "During the current battle, for every 1 point of \"Interest\" gained by Gilgamesh, increases his CRIT DMG by 25%. This effect can stack up to 6 time(s).",
-                "descFormat": [
-                  {
-                    "start": 106,
-                    "end": 109,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 139,
-                    "end": 140,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree2.webp"
-              },
-              {
-                "name": "Hegemon's Strife",
-                "type": "Major Trace",
-                "desc": "While Gilgamesh is on the field, increases all ally targets' ATK by 20% and CRIT DMG by 20%. If the target's Max Energy exceeds 140, for every 1 excess point of Max Energy, additionally increases ATK and CRIT DMG by 1%, up to a maximum additional increase of 100%.",
-                "descFormat": [
-                  {
-                    "start": 68,
-                    "end": 71,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 88,
-                    "end": 91,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 128,
-                    "end": 131,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 216,
-                    "end": 218,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 259,
-                    "end": 263,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "He Who Saw the Deep",
-                "type": "Eidolon 1",
-                "desc": "When Gilgamesh holds \"King's Acknowledgement,\" its DEF-ignoring effect also applies to other teammates, and \"King's Acknowledgement\" additionally increases Gilgamesh's ATK by 60%. When using Skill, additionally regenerates a fixed 40 Energy.",
-                "descFormat": [
-                  {
-                    "start": 175,
-                    "end": 178,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 231,
-                    "end": 233,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank1.webp"
-              },
-              {
-                "name": "Wisdom That Encompassed All",
-                "type": "Eidolon 2",
-                "desc": "When entering combat, Gilgamesh gains 5 \"Interest.\" When using Ultimate, additionally gains 5 \"Interest.\" The DMG multiplier of the Skill \"Gate of Babylon\" against the primary target increases by 100%, and its DMG multiplier against adjacent targets increases by 50%.",
-                "descFormat": [
-                  {
-                    "start": 38,
-                    "end": 39,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 92,
-                    "end": 93,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 196,
-                    "end": 200,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 263,
-                    "end": 266,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank2.webp"
-              },
-              {
-                "name": "Journey That Spanned Far",
-                "type": "Eidolon 3",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-                "descFormat": [
-                  {
-                    "start": 37,
-                    "end": 39,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 82,
-                    "end": 84,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_BP.webp"
-              },
-              {
-                "name": "King Who Bowed to None",
-                "type": "Eidolon 4",
-                "desc": "Gilgamesh's Energy Regeneration Rate increases by 20%.",
-                "descFormat": [
-                  {
-                    "start": 12,
-                    "end": 36,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 50,
-                    "end": 53,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank4.webp"
-              },
-              {
-                "name": "Sword That Parted Gods from Man",
-                "type": "Eidolon 5",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-                "descFormat": [
-                  {
-                    "start": 40,
-                    "end": 42,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 82,
-                    "end": 84,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Ultra.webp"
-              },
-              {
-                "name": "Soul That Bore Friendship",
-                "type": "Eidolon 6",
-                "desc": "Increases the bounce DMG multiplier of the Ultimate \"Enuma Elish\" by 80%. While Gilgamesh is on the field, increases ally characters' All-Type RES PEN by 20%. When a teammate uses Ultimate, Gilgamesh gains 1 point of \"Golden Rule,\" up to a total of 3 points. When this unit uses Ultimate, consumes all \"Golden Rule\" points, and each point of \"Golden Rule\" consumed increases the CRIT DMG for the Ultimate DMG dealt by 100%.",
-                "descFormat": [
-                  {
-                    "start": 69,
-                    "end": 72,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 143,
-                    "end": 150,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 154,
-                    "end": 157,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 249,
-                    "end": 250,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 418,
-                    "end": 422,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1509_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110434",
-            "name": "Thunder Strum",
-            "qty": 65,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
-          },
-          {
-            "id": "111001",
-            "name": "Extinguished Core",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-          },
-          {
-            "id": "111002",
-            "name": "Glimmering Core",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-          },
-          {
-            "id": "111003",
-            "name": "Squirming Core",
-            "qty": 15,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-          }
-        ],
-        "ascensionStages": [
-          {
-            "cap": 30,
-            "items": [
-              {
-                "id": "111001",
-                "name": "Extinguished Core",
-                "qty": 5,
-                "rar": 2,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-              }
-            ],
-            "cost": 4000
-          },
-          {
-            "cap": 40,
-            "items": [
-              {
-                "id": "111001",
-                "name": "Extinguished Core",
-                "qty": 10,
-                "rar": 2,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-              }
-            ],
-            "cost": 8000
-          },
-          {
-            "cap": 50,
-            "items": [
-              {
-                "id": "110434",
-                "name": "Thunder Strum",
-                "qty": 3,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
-              },
-              {
-                "id": "111002",
-                "name": "Glimmering Core",
-                "qty": 6,
-                "rar": 3,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-              }
-            ],
-            "cost": 16000
-          },
-          {
-            "cap": 60,
-            "items": [
-              {
-                "id": "110434",
-                "name": "Thunder Strum",
-                "qty": 7,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
-              },
-              {
-                "id": "111002",
-                "name": "Glimmering Core",
-                "qty": 9,
-                "rar": 3,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-              }
-            ],
-            "cost": 40000
-          },
-          {
-            "cap": 70,
-            "items": [
-              {
-                "id": "110434",
-                "name": "Thunder Strum",
-                "qty": 20,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
-              },
-              {
-                "id": "111003",
-                "name": "Squirming Core",
-                "qty": 6,
-                "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-              }
-            ],
-            "cost": 80000
-          },
-          {
-            "cap": 80,
-            "items": [
-              {
-                "id": "110434",
-                "name": "Thunder Strum",
-                "qty": 35,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110434.webp"
-              },
-              {
-                "id": "111003",
-                "name": "Squirming Core",
-                "qty": 9,
-                "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-              }
-            ],
-            "cost": 160000
-          }
-        ],
-        "talents": [
-          {
-            "id": "111001",
-            "name": "Extinguished Core",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-          },
-          {
-            "id": "111002",
-            "name": "Glimmering Core",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-          },
-          {
-            "id": "111003",
-            "name": "Squirming Core",
-            "qty": 58,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110281",
-            "name": "Four Phases, Crossing the River to Check the King",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-          },
-          {
-            "id": "110282",
-            "name": "Sixen, King-Rook Fork",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-          },
-          {
-            "id": "110283",
-            "name": "Omnicolor, Fool's Own",
-            "qty": 139,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-          },
-          {
-            "id": "110502",
-            "name": "Guardian's Lament",
-            "qty": 12,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110281",
-                  "name": "Four Phases, Crossing the River to Check the King",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-                },
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110281",
-                  "name": "Four Phases, Crossing the River to Check the King",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-                },
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 14,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110281",
-                  "name": "Four Phases, Crossing the River to Check the King",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-                },
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 14,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110281",
-                  "name": "Four Phases, Crossing the River to Check the King",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-                },
-                {
-                  "id": "111001",
-                  "name": "Extinguished Core",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110282",
-                  "name": "Sixen, King-Rook Fork",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-                },
-                {
-                  "id": "111002",
-                  "name": "Glimmering Core",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                },
-                {
-                  "id": "111003",
-                  "name": "Squirming Core",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110283",
-                  "name": "Omnicolor, Fool's Own",
-                  "qty": 14,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110502",
-                  "name": "Guardian's Lament",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "111001",
-            "name": "Extinguished Core",
-            "qty": 8,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-          },
-          {
-            "id": "111002",
-            "name": "Glimmering Core",
-            "qty": 10,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-          },
-          {
-            "id": "111003",
-            "name": "Squirming Core",
-            "qty": 30,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110281",
-            "name": "Four Phases, Crossing the River to Check the King",
-            "qty": 6,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-          },
-          {
-            "id": "110282",
-            "name": "Sixen, King-Rook Fork",
-            "qty": 16,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-          },
-          {
-            "id": "110283",
-            "name": "Omnicolor, Fool's Own",
-            "qty": 38,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-          },
-          {
-            "id": "110502",
-            "name": "Guardian's Lament",
-            "qty": 3,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110502.webp"
-          }
-        ],
-        "talentBaseCost": 802500,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "I Am As You Behold",
-          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23062.webp",
-          "art": "../../Database/GameData/hsr/assets/lightcones/full/23062.webp",
-          "path": "Destruction",
-          "items": [
-            {
-              "id": "111001",
-              "name": "Extinguished Core",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/111001.webp"
-            },
-            {
-              "id": "111002",
-              "name": "Glimmering Core",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/111002.webp"
-            },
-            {
-              "id": "111003",
-              "name": "Squirming Core",
-              "qty": 14,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/111003.webp"
-            },
-            {
-              "id": "110281",
-              "name": "Four Phases, Crossing the River to Check the King",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110281.webp"
-            },
-            {
-              "id": "110282",
-              "name": "Sixen, King-Rook Fork",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110282.webp"
-            },
-            {
-              "id": "110283",
-              "name": "Omnicolor, Fool's Own",
-              "qty": 15,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110283.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "recent": 1,
-      "betaStatus": "changed"
     },
     {
       "id": "hsr-himeko-nova",
@@ -11117,2082 +13186,6 @@
           "cost": 385000
         }
       },
-      "recent": 1,
-      "betaStatus": "changed"
-    },
-    {
-      "id": "hsr-rin-tohsaka",
-      "n": "Rin Tohsaka",
-      "localizedNames": {
-        "en": "Rin Tohsaka",
-        "zh": "\u8fdc\u5742\u51db",
-        "ja": "\u9060\u5742\u51db",
-        "ko": "\ud1a0\uc624\uc0ac\uce74 \ub9b0"
-      },
-      "title": "The Gem Coursing in Red",
-      "slug": "rin-tohsaka",
-      "release": 1784883600000,
-      "releasePatch": "4.4",
-      "updated": 1784851200000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "|vaCN = https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
-        "japanese": "Kana Ueda|Ueda Kana (\u690d\u7530 \u4f73\u5948)",
-        "chinese": "https://zh.moegirl.org.cn/\u6714\u5c0f\u5154|Shuo Xiaotu (\u6714\u5c0f\u5154)",
-        "korean": "https://namu.wiki/w/\uae40\ubcf4\ubbfc(\uc131\uc6b0)|Kim Bo-min (\uae40\ubcf4\ubbfc)"
-      },
-      "icon": "../../Database/GameData/hsr/assets/characters/round/1508.webp",
-      "art": "../../Database/GameData/hsr/assets/characters/draw-card/1508.webp",
-      "card": "../../Database/Prydwen/hsr/assets/characters/rin-tohsaka-0ac7ee84c320.webp",
-      "signatureLightCone": {
-        "id": "23061",
-        "name": "Flickering Stars",
-        "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
-        "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
-        "path": "Erudition"
-      },
-      "signatureWeapon": {
-        "id": "23061",
-        "name": "Flickering Stars",
-        "path": "Erudition",
-        "educated": false
-      },
-      "signatureWeaponId": "23061",
-      "signatureWeaponName": "Flickering Stars",
-      "overviewArt": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
-      "overviewArtPool": [
-        "../../Database/GameData/hsr/assets/lightcones/full/23061.webp"
-      ],
-      "status": "beta_changed",
-      "labels": [
-        "New"
-      ],
-      "r": 5,
-      "el": "Quantum",
-      "path": "Erudition",
-      "baseStats": {
-        "level1": {
-          "hp": 142.56,
-          "atk": 95.04,
-          "def": 62.7,
-          "speed": 102,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "max": {
-          "level": 80,
-          "hp": 1047.82,
-          "atk": 698.54,
-          "def": 460.85,
-          "speed": 102,
-          "critRate": 0.05,
-          "critDmg": 0.5
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/20",
-            "level": 1,
-            "cap": 20,
-            "hp": 142.56,
-            "atk": 95.04,
-            "def": 62.7,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 335.02,
-            "atk": 223.34,
-            "def": 147.34,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 463.32,
-            "atk": 308.88,
-            "def": 203.77,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 591.62,
-            "atk": 394.42,
-            "def": 260.2,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 719.93,
-            "atk": 479.95,
-            "def": 316.63,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 60/70",
-            "level": 60,
-            "cap": 70,
-            "hp": 848.23,
-            "atk": 565.49,
-            "def": 373.06,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 70/80",
-            "level": 70,
-            "cap": 80,
-            "hp": 976.54,
-            "atk": 651.02,
-            "def": 429.5,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          },
-          {
-            "label": "Lv. 80/80",
-            "level": 80,
-            "cap": 80,
-            "hp": 1047.82,
-            "atk": 698.54,
-            "def": 460.85,
-            "speed": 102,
-            "critRate": 0.05,
-            "critDmg": 0.5
-          }
-        ]
-      },
-      "facts": {
-        "title": "The Gem Coursing in Red"
-      },
-      "skillIcons": [
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Normal.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
-        "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "4.5.51",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Bajiquan",
-                "type": "Basic ATK",
-                "desc": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy.",
-                "descFormat": [
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Normal.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 50% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 60% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 70% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 80% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 100% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 110% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 120% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 130% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 140% of Rin Tohsaka's ATK to one designated enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Jeweled Sword Zelretch",
-                "type": "Skill",
-                "desc": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy.",
-                "descFormat": [
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 117% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 126% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 135% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 146% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 158% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 169% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 180% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Quantum DMG equal to 189% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Quantum DMG equal to 198% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Quantum DMG equal to 207% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Quantum DMG equal to 216% of Rin Tohsaka's ATK to one designated enemy."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Quantum DMG equal to 225% of Rin Tohsaka's ATK to one designated enemy."
-                  }
-                ]
-              },
-              {
-                "name": "Second Magic Experiment",
-                "type": "Skill",
-                "desc": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\"",
-                "descFormat": [
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 84,
-                    "end": 85,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 141,
-                    "end": 145,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 141,
-                    "end": 145,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 240,
-                    "end": 241,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 321,
-                    "end": 323,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 390,
-                    "end": 391,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 423,
-                    "end": 424,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 473,
-                    "end": 474,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 45% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 45% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 49.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 54% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 54% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 58.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 63% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 63% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 67.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 73.1% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 78.8% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 84.4% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 90% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 90% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 94.5% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Quantum DMG equal to 99% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 99% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Quantum DMG equal to 103% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 103% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Quantum DMG equal to 108% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 108% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Quantum DMG equal to 113% of Rin Tohsaka's ATK to all enemies. Then, consumes 3 \"Gem Energy\" to additionally deal Quantum DMG equal to 113% of Rin Tohsaka's ATK to one random enemy target. This repeats until \"Gem Energy\" is less than 3 or there are no enemy targets with current HP greater than 0. Can repeat up to 33 cycle(s). When used, if the current Skill Points are greater than 2, consumes Skill Points down to 2, and for each Point consumed, immediately gains 2 \"Gem Energy.\""
-                  }
-                ]
-              },
-              {
-                "name": "An Gal Ta Ki Gal \u0160\u00e8",
-                "type": "Ultimate",
-                "desc": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s).",
-                "descFormat": [
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 27,
-                    "end": 31,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 103,
-                    "end": 107,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 103,
-                    "end": 107,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 173,
-                    "end": 174,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 248,
-                    "end": 251,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 248,
-                    "end": 251,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 265,
-                    "end": 266,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Deals Quantum DMG equal to 300% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 100% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 10%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Deals Quantum DMG equal to 330% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 110% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 11%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Deals Quantum DMG equal to 360% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 120% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 12%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Deals Quantum DMG equal to 390% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 130% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 13%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Deals Quantum DMG equal to 420% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 140% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 14%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Deals Quantum DMG equal to 450% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 150% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 15%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Deals Quantum DMG equal to 488% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 163% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 16.3%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "Deals Quantum DMG equal to 525% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 175% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 17.5%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "Deals Quantum DMG equal to 563% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 188% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 18.8%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "Deals Quantum DMG equal to 600% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 200% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 20%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "Deals Quantum DMG equal to 630% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 210% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 21%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "Deals Quantum DMG equal to 660% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 220% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 22%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "Deals Quantum DMG equal to 690% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 230% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 23%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "Deals Quantum DMG equal to 720% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 240% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 24%, lasting for 3 turn(s)."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "Deals Quantum DMG equal to 750% of Rin Tohsaka's ATK to one designated enemy, and Quantum DMG equal to 250% of Rin Tohsaka's ATK to other enemy targets. When used, recovers 1 Skill Point(s) for allies, and increases the DMG taken by all enemies by 25%, lasting for 3 turn(s)."
-                  }
-                ]
-              },
-              {
-                "name": "Conversion Charge",
-                "type": "Technique",
-                "desc": "After using Technique, gains 10 \"Gem Energy\" at the start of the next battle.",
-                "descFormat": [
-                  {
-                    "start": 29,
-                    "end": 31,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Maze.webp"
-              },
-              {
-                "name": "Attack",
-                "type": "Technique Attack",
-                "desc": "Attacks an enemy, and after entering combat, reduces their Toughness of the corresponding Type."
-              },
-              {
-                "name": "Gem Magecraft",
-                "type": "Talent",
-                "desc": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\"",
-                "descFormat": [
-                  {
-                    "start": 28,
-                    "end": 30,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 128,
-                    "end": 133,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 128,
-                    "end": 133,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 138,
-                    "end": 139,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 251,
-                    "end": 253,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 311,
-                    "end": 312,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 35% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 38.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 42% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 45.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 49% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 52.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 56.9% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 61.3% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 65.6% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 70% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 73.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 77% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 80.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 84% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "When entering combat, gains 20 \"Gem Energy.\" When an ally target consumes or recovers Skill Points, increases their CRIT DMG by 87.5% for 2 turn(s). For every 1 Skill Point consumed or recovered, Rin Tohsaka gains 1 \"Gem Energy.\" If Rin Tohsaka holds 15 or more \"Gem Energy,\" or if the current Skill Points are 7 or more, her Skill is enhanced to \"Second Magic Experiment.\""
-                  }
-                ]
-              },
-              {
-                "name": "Freeform Tohsaka Style",
-                "type": "Talent",
-                "desc": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends.",
-                "descFormat": [
-                  {
-                    "start": 6,
-                    "end": 12,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 93,
-                    "end": 94,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 230,
-                    "end": 249,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 320,
-                    "end": 326,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 339,
-                    "end": 358,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 404,
-                    "end": 408,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 404,
-                    "end": 408,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 434,
-                    "end": 438,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 434,
-                    "end": 438,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 442,
-                    "end": 448,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 484,
-                    "end": 485,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 518,
-                    "end": 537,
-                    "kind": "underline"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Passive.webp",
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 150% of Rin Tohsaka's ATK and 150% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 165% of Rin Tohsaka's ATK and 165% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 180% of Rin Tohsaka's ATK and 180% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 195% of Rin Tohsaka's ATK and 195% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 210% of Rin Tohsaka's ATK and 210% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 225% of Rin Tohsaka's ATK and 225% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 244% of Rin Tohsaka's ATK and 244% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 8",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 263% of Rin Tohsaka's ATK and 263% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 9",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 281% of Rin Tohsaka's ATK and 281% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 10",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 300% of Rin Tohsaka's ATK and 300% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 11",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 315% of Rin Tohsaka's ATK and 315% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 12",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 330% of Rin Tohsaka's ATK and 330% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 13",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 345% of Rin Tohsaka's ATK and 345% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 14",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 360% of Rin Tohsaka's ATK and 360% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  },
-                  {
-                    "label": "Lv. 15",
-                    "text": "After Archer uses his Skill \"Caladbolg II: Fake Spiral Sword\" to attack, if Skill Points are 3 or fewer or if \"Caladbolg II: Fake Spiral Sword\" has been actively used 5 times during the current \"Circuit Connection\" state, and the Joint Follow-Up ATK from \"Freeform Tohsaka Style\" has not been triggered, Rin Tohsaka and Archer will launch Joint Follow-Up ATK on all enemies, dealing Quantum DMG equal to 375% of Rin Tohsaka's ATK and 375% of Archer's ATK respectively, and recovering 4 Skill Point(s) for allies. This Joint Follow-Up ATK can only trigger once. The trigger count resets when Rin Tohsaka's turn ends."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Major Traces",
-            "entries": [
-              {
-                "name": "Elegant Conduct",
-                "type": "Major Trace",
-                "desc": "While Rin Tohsaka is on the field, additionally increases the upper limit of Skill Points by 2. When entering combat, Rin Tohsaka's ATK increases by 150%, and Quantum RES PEN increases by 15%. If Archer is in the team, Archer also gains this effect.",
-                "descFormat": [
-                  {
-                    "start": 93,
-                    "end": 94,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 149,
-                    "end": 153,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 167,
-                    "end": 174,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 188,
-                    "end": 191,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 196,
-                    "end": 202,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 219,
-                    "end": 225,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree1.webp"
-              },
-              {
-                "name": "Ladylike Poise",
-                "type": "Major Trace",
-                "desc": "When entering combat or after using Enhanced Skill, increases Rin Tohsaka's SPD by 20%, lasting for 3 turn(s).",
-                "descFormat": [
-                  {
-                    "start": 83,
-                    "end": 86,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 100,
-                    "end": 101,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree2.webp"
-              },
-              {
-                "name": "Inbound Prosperity",
-                "type": "Major Trace",
-                "desc": "When Rin Tohsaka uses Ultimate, gains 12 \"Gem Energy.\"",
-                "descFormat": [
-                  {
-                    "start": 38,
-                    "end": 40,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_SkillTree3.webp"
-              }
-            ]
-          },
-          {
-            "title": "Eidolons",
-            "entries": [
-              {
-                "name": "Zelretch's Apprentice",
-                "type": "Eidolon 1",
-                "desc": "If one instance of the Enhanced Skill consumes 30 or more \"Gem Energy,\" Rin Tohsaka gains \"Shadow Gem\" equal to the amount of \"Gem Energy\" consumed.\nWhile holding \"Shadow Gem,\" enhances Skill to \"Second Magic Experiment.\" The Enhanced Skill consumes all \"Shadow Gem,\" does not trigger the effect that converts Skill Points into \"Gem Energy,\" and does not consume \"Gem Energy.\"",
-                "descFormat": [
-                  {
-                    "start": 47,
-                    "end": 49,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank1.webp"
-              },
-              {
-                "name": "Dimensional Traveler",
-                "type": "Eidolon 2",
-                "desc": "Rin Tohsaka's Skill DMG dealt increases by 30%. While Rin Tohsaka is on the field, Skill DMG dealt by all allies becomes 130% of the original DMG.",
-                "descFormat": [
-                  {
-                    "start": 43,
-                    "end": 46,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 121,
-                    "end": 125,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank2.webp"
-              },
-              {
-                "name": "Holy Grail War: Victory Memorial",
-                "type": "Eidolon 3",
-                "desc": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.",
-                "descFormat": [
-                  {
-                    "start": 37,
-                    "end": 39,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 82,
-                    "end": 84,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_BP.webp"
-              },
-              {
-                "name": "Red Devil: Triple Speed",
-                "type": "Eidolon 4",
-                "desc": "When the CRIT DMG boost effect from the Talent \"Gem Magecraft\" applies to Rin Tohsaka, the effect can stack, up to 2 time(s).",
-                "descFormat": [
-                  {
-                    "start": 115,
-                    "end": 116,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank4.webp"
-              },
-              {
-                "name": "Goddess of Venus's Favor",
-                "type": "Eidolon 5",
-                "desc": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.",
-                "descFormat": [
-                  {
-                    "start": 40,
-                    "end": 42,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 82,
-                    "end": 84,
-                    "kind": "strong"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Ultra.webp"
-              },
-              {
-                "name": "Nailed It This Time!",
-                "type": "Eidolon 6",
-                "desc": "Rin Tohsaka's All-Type RES PEN increases by 20%. When using Ultimate, gains 24 \"Gem Energy\" and 1 extra turn.",
-                "descFormat": [
-                  {
-                    "start": 23,
-                    "end": 30,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 44,
-                    "end": 47,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 76,
-                    "end": 78,
-                    "kind": "strong"
-                  },
-                  {
-                    "start": 98,
-                    "end": 108,
-                    "kind": "underline"
-                  }
-                ],
-                "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1508_Rank6.webp"
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "110443",
-            "name": "Sneering Harlequin",
-            "qty": 65,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
-          },
-          {
-            "id": "111011",
-            "name": "Thief's Instinct",
-            "qty": 15,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-          },
-          {
-            "id": "111012",
-            "name": "Usurper's Scheme",
-            "qty": 15,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-          },
-          {
-            "id": "111013",
-            "name": "Conqueror's Will",
-            "qty": 15,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-          }
-        ],
-        "ascensionStages": [
-          {
-            "cap": 30,
-            "items": [
-              {
-                "id": "111011",
-                "name": "Thief's Instinct",
-                "qty": 5,
-                "rar": 2,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-              }
-            ],
-            "cost": 4000
-          },
-          {
-            "cap": 40,
-            "items": [
-              {
-                "id": "111011",
-                "name": "Thief's Instinct",
-                "qty": 10,
-                "rar": 2,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-              }
-            ],
-            "cost": 8000
-          },
-          {
-            "cap": 50,
-            "items": [
-              {
-                "id": "110443",
-                "name": "Sneering Harlequin",
-                "qty": 3,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
-              },
-              {
-                "id": "111012",
-                "name": "Usurper's Scheme",
-                "qty": 6,
-                "rar": 3,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-              }
-            ],
-            "cost": 16000
-          },
-          {
-            "cap": 60,
-            "items": [
-              {
-                "id": "110443",
-                "name": "Sneering Harlequin",
-                "qty": 7,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
-              },
-              {
-                "id": "111012",
-                "name": "Usurper's Scheme",
-                "qty": 9,
-                "rar": 3,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-              }
-            ],
-            "cost": 40000
-          },
-          {
-            "cap": 70,
-            "items": [
-              {
-                "id": "110443",
-                "name": "Sneering Harlequin",
-                "qty": 20,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
-              },
-              {
-                "id": "111013",
-                "name": "Conqueror's Will",
-                "qty": 6,
-                "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-              }
-            ],
-            "cost": 80000
-          },
-          {
-            "cap": 80,
-            "items": [
-              {
-                "id": "110443",
-                "name": "Sneering Harlequin",
-                "qty": 35,
-                "rar": 4,
-                "kind": "boss",
-                "icon": "../../Database/GameData/hsr/assets/items/110443.webp"
-              },
-              {
-                "id": "111013",
-                "name": "Conqueror's Will",
-                "qty": 9,
-                "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-              }
-            ],
-            "cost": 160000
-          }
-        ],
-        "talents": [
-          {
-            "id": "111011",
-            "name": "Thief's Instinct",
-            "qty": 41,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-          },
-          {
-            "id": "111012",
-            "name": "Usurper's Scheme",
-            "qty": 56,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-          },
-          {
-            "id": "111013",
-            "name": "Conqueror's Will",
-            "qty": 58,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 8,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110291",
-            "name": "Celestial Globe",
-            "qty": 18,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-          },
-          {
-            "id": "110292",
-            "name": "Galaxy Framework",
-            "qty": 69,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-          },
-          {
-            "id": "110293",
-            "name": "Cosmic Sandpit",
-            "qty": 139,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-          },
-          {
-            "id": "110501",
-            "name": "Destroyer's Final Road",
-            "qty": 12,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110291",
-                  "name": "Celestial Globe",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-                },
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110291",
-                  "name": "Celestial Globe",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-                },
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 14,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110291",
-                  "name": "Celestial Globe",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-                },
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 14,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2500,
-              "items": [
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 5000,
-              "items": [
-                {
-                  "id": "110291",
-                  "name": "Celestial Globe",
-                  "qty": 3,
-                  "rar": 2,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-                },
-                {
-                  "id": "111011",
-                  "name": "Thief's Instinct",
-                  "qty": 6,
-                  "rar": 2,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-                }
-              ]
-            },
-            {
-              "cost": 10000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 20000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 5,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 30000,
-              "items": [
-                {
-                  "id": "110292",
-                  "name": "Galaxy Framework",
-                  "qty": 7,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-                },
-                {
-                  "id": "111012",
-                  "name": "Usurper's Scheme",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 3,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 80000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                },
-                {
-                  "id": "111013",
-                  "name": "Conqueror's Will",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-                }
-              ]
-            },
-            {
-              "cost": 160000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                }
-              ]
-            },
-            {
-              "cost": 300000,
-              "items": [
-                {
-                  "id": "110293",
-                  "name": "Cosmic Sandpit",
-                  "qty": 14,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-                },
-                {
-                  "id": "241",
-                  "name": "Tracks of Destiny",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "mob",
-                  "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-                },
-                {
-                  "id": "110501",
-                  "name": "Destroyer's Final Road",
-                  "qty": 1,
-                  "rar": 4,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-                }
-              ]
-            }
-          ]
-        ],
-        "talentBase": [
-          {
-            "id": "111011",
-            "name": "Thief's Instinct",
-            "qty": 8,
-            "rar": 2,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-          },
-          {
-            "id": "111012",
-            "name": "Usurper's Scheme",
-            "qty": 10,
-            "rar": 3,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-          },
-          {
-            "id": "111013",
-            "name": "Conqueror's Will",
-            "qty": 30,
-            "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-          },
-          {
-            "id": "241",
-            "name": "Tracks of Destiny",
-            "qty": 2,
-            "rar": 5,
-            "kind": "mob",
-            "icon": "../../Database/GameData/hsr/assets/items/241.webp"
-          },
-          {
-            "id": "110291",
-            "name": "Celestial Globe",
-            "qty": 6,
-            "rar": 2,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-          },
-          {
-            "id": "110292",
-            "name": "Galaxy Framework",
-            "qty": 16,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-          },
-          {
-            "id": "110293",
-            "name": "Cosmic Sandpit",
-            "qty": 38,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-          },
-          {
-            "id": "110501",
-            "name": "Destroyer's Final Road",
-            "qty": 3,
-            "rar": 4,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/hsr/assets/items/110501.webp"
-          }
-        ],
-        "talentBaseCost": 802500,
-        "ascCost": 308000,
-        "talentCost": 3000000,
-        "currency": 3693000,
-        "weapon": {
-          "name": "Flickering Stars",
-          "icon": "../../Database/GameData/hsr/assets/lightcones/medium/23061.webp",
-          "art": "../../Database/GameData/hsr/assets/lightcones/full/23061.webp",
-          "path": "Erudition",
-          "items": [
-            {
-              "id": "111011",
-              "name": "Thief's Instinct",
-              "qty": 20,
-              "rar": 2,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/111011.webp"
-            },
-            {
-              "id": "111012",
-              "name": "Usurper's Scheme",
-              "qty": 20,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/111012.webp"
-            },
-            {
-              "id": "111013",
-              "name": "Conqueror's Will",
-              "qty": 14,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/GameData/hsr/assets/items/111013.webp"
-            },
-            {
-              "id": "110291",
-              "name": "Celestial Globe",
-              "qty": 4,
-              "rar": 2,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110291.webp"
-            },
-            {
-              "id": "110292",
-              "name": "Galaxy Framework",
-              "qty": 12,
-              "rar": 3,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110292.webp"
-            },
-            {
-              "id": "110293",
-              "name": "Cosmic Sandpit",
-              "qty": 15,
-              "rar": 4,
-              "kind": "book",
-              "icon": "../../Database/GameData/hsr/assets/items/110293.webp"
-            }
-          ],
-          "cost": 385000
-        }
-      },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {
@@ -15203,7 +15196,6 @@
           "cost": 385000
         }
       },
-      "recent": 1,
       "betaStatus": "changed"
     },
     {

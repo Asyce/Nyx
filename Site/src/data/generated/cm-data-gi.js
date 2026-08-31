@@ -149188,7 +149188,8 @@
       "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Mavuika_Circle.webp",
       "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Mavuika.webp",
       "birthdayArtPool": [
-        "../../Database/GenshinWiki/birthday-art/mavuika/01-Mavuika Birthday 2025.png"
+        "../../Database/GenshinWiki/birthday-art/mavuika/01-Mavuika Birthday 2025.png",
+        "../../Database/GenshinWiki/birthday-art/mavuika/02-Mavuika Birthday 2026.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Mavuika.png",
       "skillIcons": [

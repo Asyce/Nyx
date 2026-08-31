@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-30T18:17:02.850Z",
+  "generatedAt": "2026-08-31T11:10:27.186Z",
   "codes": {
-    "updated": "2026-08-30T18:16:43.099Z",
+    "updated": "2026-08-31T09:41:16.758Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -414,16 +414,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-30T10:44:42.621Z",
-    "checkedAt": "2026-08-30T10:44:42.621Z",
+    "updated": "2026-08-31T09:40:22.301Z",
+    "checkedAt": "2026-08-31T09:40:22.301Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -622,9 +622,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -945,9 +945,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -1091,9 +1091,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -1204,32 +1204,31 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "Patch 3.2 Phase 1",
-          "teased": false,
+          "phase": "3.2 Phase 1",
           "start": "2026-09-09T03:00:00.000Z",
-          "end": "2026-09-30T06:59:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
           "characters": [
-            {
-              "name": "Claret",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": true,
-              "debutAt": null
-            },
             {
               "name": "Nangong Yu",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
-              "iconZoom": true,
+              "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-03-24"
+            },
+            {
+              "name": "Claret",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": "2026-09-09"
             }
           ],
           "subBanners": []
@@ -1260,7 +1259,7 @@ var NYX_DB = {
                 "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole61.webp",
                 "namecard": null,
                 "rarity": "S",
-                "debut": true,
+                "debut": false,
                 "debutAt": "2026-05-06"
               }
             ],
@@ -1340,9 +1339,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -6585,9 +6584,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -173479,9 +173478,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -179416,9 +179415,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -179529,32 +179528,31 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "Patch 3.2 Phase 1",
-          "teased": false,
+          "phase": "3.2 Phase 1",
           "start": "2026-09-09T03:00:00.000Z",
-          "end": "2026-09-30T06:59:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
           "characters": [
-            {
-              "name": "Claret",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": true,
-              "debutAt": null
-            },
             {
               "name": "Nangong Yu",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
-              "iconZoom": true,
+              "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-03-24"
+            },
+            {
+              "name": "Claret",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": "2026-09-09"
             }
           ],
           "subBanners": []
@@ -179585,7 +179583,7 @@ var NYX_DB = {
                 "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole61.webp",
                 "namecard": null,
                 "rarity": "S",
-                "debut": true,
+                "debut": false,
                 "debutAt": "2026-05-06"
               }
             ],
@@ -184685,9 +184683,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {
@@ -190065,9 +190063,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-30T10:44:42.621Z",
-          "lastSuccessfulFetch": "2026-08-30T10:44:42.621Z",
-          "lastValidUpdate": "2026-08-30T10:44:42.621Z",
+          "checkedAt": "2026-08-31T09:40:22.301Z",
+          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
+          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
           "source": "prydwen"
         },
         "current": {

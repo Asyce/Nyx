@@ -3,9 +3,9 @@
   "game": "zzz",
   "gameName": "Zenless Zone Zero",
   "channel": "beta",
-  "version": "3.2.4+18409985",
+  "version": "3.2.12+18560506",
   "liveVersion": "3.1",
-  "betaVersion": "3.2.4+18409985",
+  "betaVersion": "3.2.12+18560506",
   "availableVersions": [
     "3.1",
     "3.2.0+17782873",
@@ -14,16 +14,17 @@
     "3.2.3+18244196",
     "3.2.3+18259966",
     "3.2.3+18283617",
-    "3.2.4+18409985"
+    "3.2.4+18409985",
+    "3.2.12+18560506"
   ],
-  "scrapedAt": "2026-08-22T14:43:07.676Z",
+  "scrapedAt": "2026-08-31T08:44:31.431Z",
   "counts": {
     "agents": 59,
     "wEngines": 100,
     "bangboos": 42,
     "driveDiscs": 30,
     "monsters": 306,
-    "items": 5832
+    "items": 5838
   },
   "sourceCounts": {
     "agents": 60,
@@ -31,7 +32,7 @@
     "bangboos": 42,
     "driveDiscs": 30,
     "monsters": 306,
-    "items": 5832
+    "items": 5838
   },
   "newInManifest": {
     "character": [
@@ -104,7 +105,7 @@
     "items": "GameData/zzz/beta/items.json",
     "raw": "GameData/zzz/beta/raw"
   },
-  "assetsPlanned": 3046,
+  "assetsPlanned": 3090,
   "betaOmissions": {
     "count": 1,
     "records": [
@@ -122,10 +123,10 @@
   },
   "contentStatus": "Beta records are compared to Live and marked live, beta, or beta_changed.",
   "assets": {
-    "requested": 3046,
-    "downloaded": 18,
-    "cached": 2976,
-    "missing": 52,
+    "requested": 3090,
+    "downloaded": 1,
+    "cached": 2994,
+    "missing": 95,
     "missingAssets": [
       {
         "path": "GameData/zzz/assets/agents/icons/IconRole1611.webp",
@@ -158,10 +159,6 @@
       {
         "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
         "gamedataAssetPath": "Monster_MazingerGoldenBomb.webp"
-      },
-      {
-        "path": "GameData/zzz/assets/monsters/Monster_Mutant_HC.webp",
-        "gamedataAssetPath": "Monster_Mutant_HC.webp"
       },
       {
         "path": "GameData/zzz/assets/monsters/Monster_HeavySoldierPro.webp",
@@ -236,6 +233,10 @@
         "gamedataAssetPath": "SuitPope01.webp"
       },
       {
+        "path": "GameData/zzz/assets/items/Skin_AngelActivityPink.webp",
+        "gamedataAssetPath": "Skin_AngelActivityPink.webp"
+      },
+      {
         "path": "GameData/zzz/assets/items/CardDailyUse1611.webp",
         "gamedataAssetPath": "CardDailyUse1611.webp"
       },
@@ -288,6 +289,54 @@
         "gamedataAssetPath": "DIYBoardDecoration013.webp"
       },
       {
+        "path": "GameData/zzz/assets/items/Zenkov_Consumables_012.webp",
+        "gamedataAssetPath": "Zenkov_Consumables_012.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponB_008.webp",
+        "gamedataAssetPath": "Zenkov_WeaponB_008.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponA_008.webp",
+        "gamedataAssetPath": "Zenkov_WeaponA_008.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponS_011.webp",
+        "gamedataAssetPath": "Zenkov_WeaponS_011.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponZ_010.webp",
+        "gamedataAssetPath": "Zenkov_WeaponZ_010.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_025.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_025.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_023.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_023.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_024.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_024.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_026.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_026.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_028.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_028.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_029.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_029.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_027.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_027.webp"
+      },
+      {
         "path": "GameData/zzz/assets/items/Zenkov_WeaponB_001_Blueprint.webp",
         "gamedataAssetPath": "Zenkov_WeaponB_001_Blueprint.webp"
       },
@@ -310,6 +359,130 @@
       {
         "path": "GameData/zzz/assets/items/Zenkov_WeaponB_006_Blueprint.webp",
         "gamedataAssetPath": "Zenkov_WeaponB_006_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponS_011_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponS_011_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponZ_010_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponZ_010_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_025_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_025_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_023_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_023_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_024_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_024_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_026_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_026_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_028_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_028_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_029_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_029_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_WeaponAvatar_027_Blueprint.webp",
+        "gamedataAssetPath": "Zenkov_WeaponAvatar_027_Blueprint.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_082.webp",
+        "gamedataAssetPath": "Zenkov_Collection_082.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_086.webp",
+        "gamedataAssetPath": "Zenkov_Collection_086.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_087.webp",
+        "gamedataAssetPath": "Zenkov_Collection_087.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_088.webp",
+        "gamedataAssetPath": "Zenkov_Collection_088.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_089.webp",
+        "gamedataAssetPath": "Zenkov_Collection_089.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_047.webp",
+        "gamedataAssetPath": "Zenkov_Collection_047.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_048.webp",
+        "gamedataAssetPath": "Zenkov_Collection_048.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_083.webp",
+        "gamedataAssetPath": "Zenkov_Collection_083.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_084.webp",
+        "gamedataAssetPath": "Zenkov_Collection_084.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_085.webp",
+        "gamedataAssetPath": "Zenkov_Collection_085.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_074.webp",
+        "gamedataAssetPath": "Zenkov_Collection_074.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_075.webp",
+        "gamedataAssetPath": "Zenkov_Collection_075.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_076.webp",
+        "gamedataAssetPath": "Zenkov_Collection_076.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_077.webp",
+        "gamedataAssetPath": "Zenkov_Collection_077.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_054.webp",
+        "gamedataAssetPath": "Zenkov_Collection_054.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_055.webp",
+        "gamedataAssetPath": "Zenkov_Collection_055.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_056.webp",
+        "gamedataAssetPath": "Zenkov_Collection_056.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_057.webp",
+        "gamedataAssetPath": "Zenkov_Collection_057.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_078.webp",
+        "gamedataAssetPath": "Zenkov_Collection_078.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_079.webp",
+        "gamedataAssetPath": "Zenkov_Collection_079.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_080.webp",
+        "gamedataAssetPath": "Zenkov_Collection_080.webp"
+      },
+      {
+        "path": "GameData/zzz/assets/items/Zenkov_Collection_081.webp",
+        "gamedataAssetPath": "Zenkov_Collection_081.webp"
       },
       {
         "path": "GameData/zzz/assets/items/Zenkov_CollectionA_004.webp",

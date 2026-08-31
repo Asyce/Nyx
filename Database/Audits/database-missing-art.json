@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:09:13.407Z",
+  "generatedAt": "2026-08-31T08:48:24.835Z",
   "policy": "Every generated Database row is counted. Released rows remain visible when art or description is missing; only rows with no usable localized display name or proven internal/test provenance are quarantined.",
   "coverage": {
     "before": {
@@ -152,13 +152,13 @@
       "scope": "inline",
       "game": "hsr",
       "collection": "light-cones",
-      "sourceCount": 171,
-      "normalizedCount": 171,
+      "sourceCount": 175,
+      "normalizedCount": 175,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 171,
-      "generatedCount": 171,
-      "localArtCount": 171,
+      "approvedSourceCount": 175,
+      "generatedCount": 175,
+      "localArtCount": 175,
       "missingArtCount": 0
     },
     {
@@ -217,13 +217,13 @@
       "scope": "inline",
       "game": "wuwa",
       "collection": "weapons",
-      "sourceCount": 120,
-      "normalizedCount": 120,
+      "sourceCount": 121,
+      "normalizedCount": 121,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 120,
-      "generatedCount": 120,
-      "localArtCount": 120,
+      "approvedSourceCount": 121,
+      "generatedCount": 121,
+      "localArtCount": 121,
       "missingArtCount": 0
     },
     {
@@ -243,13 +243,13 @@
       "scope": "inline",
       "game": "ae",
       "collection": "weapons",
-      "sourceCount": 76,
-      "normalizedCount": 76,
+      "sourceCount": 77,
+      "normalizedCount": 77,
       "quarantinedCount": 0,
       "routedCount": 0,
-      "approvedSourceCount": 76,
-      "generatedCount": 76,
-      "localArtCount": 76,
+      "approvedSourceCount": 77,
+      "generatedCount": 77,
+      "localArtCount": 77,
       "missingArtCount": 0
     },
     {

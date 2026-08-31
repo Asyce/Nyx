@@ -3,7 +3,7 @@
   "code_name": "Weapon_B_Common_16",
   "name": "[Lunar] Semiluna",
   "desc": "...",
-  "desc2": "Equipping this boosts the combat capabilities of Armorer Agents",
+  "desc2": "Equip to increase Armorer Agents' combat capabilities",
   "desc3": "...",
   "rarity": 2,
   "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_B_Common_16.png",
@@ -359,23 +359,23 @@
   "talents": {
     "1": {
       "name": "...",
-      "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is used, [Basic Attack] DMG increases by <color=#2BAD00>18%</color> for 10 seconds; repeated triggers reset the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>18%</color> for 10s. Repeated triggers refresh the duration."
     },
     "2": {
       "name": "...",
-      "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is used, [Basic Attack] DMG increases by <color=#2BAD00>21%</color> for 10 seconds; repeated triggers reset the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>21%</color> for 10s. Repeated triggers refresh the duration."
     },
     "3": {
       "name": "...",
-      "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is activated, [Basic Attack] DMG increases by <color=#2BAD00>24%</color> for 10s; repeated triggers reset the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>24%</color> for 10s. Repeated triggers refresh the duration."
     },
     "4": {
       "name": "...",
-      "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is used, [Basic Attack] DMG increases by <color=#2BAD00>27%</color> for 10 seconds; repeated triggers reset the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>27%</color> for 10s. Repeated triggers refresh the duration."
     },
     "5": {
       "name": "...",
-      "desc": "When an <color=#FFFFFF>[EX Special Attack]</color> is activated, [Basic Attack] DMG increases by <color=#2BAD00>30%</color> for 10s; repeated triggers reset the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>30%</color> for 10s. Repeated triggers refresh the duration."
     }
   }
 }

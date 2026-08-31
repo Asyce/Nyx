@@ -1,22 +1,66 @@
 {
   "schemaVersion": 1,
   "game": "zzz",
-  "generatedAt": "2026-08-30T09:11:19.416Z",
+  "generatedAt": "2026-08-31T09:41:16.818Z",
   "source": {
     "name": "Zenless Zone Zero Official",
     "endpoint": "sg-announcement-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 26,
+    "total": 27,
     "needs_review": 7,
     "banner": 2,
     "byType": {
-      "event": 23,
+      "event": 24,
       "banner": 2,
       "challenge": 1
     }
   },
   "events": [
+    {
+      "game": "zzz",
+      "id": "zzz-hoyo-ann-cdbbef7499fd",
+      "title": "\"Combat Training - Triple Bounty\" Event Details",
+      "type": "event",
+      "start": "2026-09-02T03:00:00.000Z",
+      "end": "2026-09-07T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Zenless Zone Zero Official",
+        "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1278",
+        "kind": "official-announcement-api",
+        "recordId": "1278",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/zzz/a6e94d3eed0c3b693498d74d76a0de05d1d122f8c0826d0d4d10be6ed51e9d4c.jpg",
+      "description": "〓Event Duration〓\n2026/09/02 04:00 (server time) – 2026/09/07 03:59 (server time)\n〓Requirements〓\nUnlock Combat Simulation in Main Story Chapter 1 \"Cat's Lost & Found\"\n〓Event Details〓\n● During the event, Proxies can enter Combat Simulation, select any enemy card, and successfully complete challenges to obtain triple rewards!\n● During the event, 5 enemy cards will be buffed each day. Buffs will be reset each day at 04:00 (server time).",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-09-02T03:00:00.000Z",
+          "end": "2026-09-07T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1278"
+        },
+        "asia": {
+          "start": "2026-09-01T20:00:00.000Z",
+          "end": "2026-09-06T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1278"
+        },
+        "america": {
+          "start": "2026-09-02T09:00:00.000Z",
+          "end": "2026-09-07T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1278"
+        }
+      }
+    },
     {
       "game": "zzz",
       "id": "zzz-hoyo-ann-32d23324ead8",
@@ -31,7 +75,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1277",
         "kind": "official-announcement-api",
         "recordId": "1277",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "high",
@@ -75,7 +119,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1276",
         "kind": "official-announcement-api",
         "recordId": "1276",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "high",
@@ -163,7 +207,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=231",
         "kind": "official-announcement-api",
         "recordId": "231",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "high",
@@ -207,7 +251,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1275",
         "kind": "official-announcement-api",
         "recordId": "1275",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "high",
@@ -251,7 +295,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1274",
         "kind": "official-announcement-api",
         "recordId": "1274",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "high",
@@ -286,8 +330,8 @@
       "id": "zzz-hoyo-ann-d5df8c2348bf",
       "title": "Version 3.1 New Stock in the Store",
       "type": "event",
-      "start": "2026-08-17T11:00:00.000Z",
-      "end": "2026-09-09T04:59:00.000Z",
+      "start": "2026-08-17T04:00:00.000Z",
+      "end": "2026-09-08T21:59:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -295,7 +339,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230",
         "kind": "official-announcement-api",
         "recordId": "230",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -306,8 +350,8 @@
       "description": "Dear Proxies,\nExciting new items will be available in the Store in the second half of the Version 3.1 update!\n〓New Agent outfit arrivals in \"Today's Outfit\"〓\nSigrid: Majestic Wavechaser\n● Sale Period: Permanent\n● Discount Period: 2026/08/19 12:00 (server time) – 2026/09/09 05:59 (UTC+8)\n● Outfit Price: During the discount period, Monochrome ×1,350. After the limited-time discount ends, Monochrome ×1,680. Limited to 1 purchase during the sale period.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-08-17T11:00:00.000Z",
-          "end": "2026-09-09T04:59:00.000Z",
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         },
@@ -346,7 +390,7 @@
       "scheduleStatus": "exact",
       "permanence": "timed",
       "needs_review": false,
-      "image": "/assets/events/zzz/93f4a319e483639edc3d07097f7d3c492a680a717d7c339743354aab4814a107.jpg",
+      "image": null,
       "description": "Event Duration 2026/08/12 04:00 (server time) – 2026/08/17 03:59 (server time) Requirements Complete the Inter-Knot Reputation Rank-Up Mission \"Path of the Proxy I\", reach Inter-Knot Lv. 21, and unlock Area Patrol to participate. Event…",
       "windowsByRegion": {
         "america": {
@@ -394,8 +438,8 @@
       "id": "zzz-hoyo-ann-3d5f728e1856",
       "title": "\"Marcel Anniversary Gift\" Event Details",
       "type": "event",
-      "start": "2026-07-27T12:45:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:45:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -403,7 +447,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220",
         "kind": "official-announcement-api",
         "recordId": "220",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -414,8 +458,8 @@
       "description": "〓Event Duration〓\nAfter the Version 3.1 update – End of Version 3.1\n〓Event Rewards〓\nLimited S-Rank Agent (Select 1 of 5):\nLimited S-Rank W-Engine (Select 1 of 5):\nAnniversary Gift:\n〓Requirements〓\nReach Inter-Knot Lv. 5, and unlock the Event feature in the Main Story Prologue \"The Hare and the Proxy\"\n〓Event Details〓\n● During the \"Marcel Anniversary Gift\" event, log in to claim a limited S-Rank Agent of choice, limited S-Rank W-Engine of choice, and Polychrome ×1,600, plus an anniversary-exclusive title and avatar!",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=220"
         },
@@ -438,8 +482,8 @@
       "id": "zzz-hoyo-ann-c3848dccb384",
       "title": "\"Filmgoer Thank-You Gift\" Event Details",
       "type": "event",
-      "start": "2026-07-27T12:30:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T05:30:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -447,7 +491,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226",
         "kind": "official-announcement-api",
         "recordId": "226",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -458,8 +502,8 @@
       "description": "〓Event Duration〓\nAfter the Version 3.1 update – End of Version 3.1\n〓Event Rewards〓\n〓Event Details〓\n● During the event, purchasing Monochromes, New Eridu City Fund, cash-bought Gifts, and Inter-Knot Memberships all give specific amounts of commemorative ticket stubs. Accumulating commemorative ticket stubs will unlock corresponding rewards.\n● During the event, the maximum number of commemorative ticket stubs you can obtain is 15,000.\n● The commemorative ticket stub is a limited-time event item that can only be obtained and used during this event. It will be removed once the event ends.\n〓[Obtaining Commemorative Ticket Stubs Details]〓\nI. Obtaining from Monochrome Market\n● Monochrome ×60 - 60 commemorative ticket stubs\n● Monochrome ×300 - 300 commemorative ticket stubs\n● Monochrome ×980 - 980 commemorative ticket stubs\n● Monochrome ×1,980 - 1,980 commemorative ticket stub\n● Monochrome ×3,280 - 3,280 commemorative ticket stubs\n● Monochrome ×6,480 - 6,480 commemorative ticket stubs\n※ Monochromes obtained from the first-purchase double bonus and bonus Monochromes will not be counted for commemorative ticket stubs progress.\n〓II. Obtaining from New Eridu City Fund〓\n● Growth Plan - 680 commemorative ticket stubs\n● Premium Plan - 1,280 commemorative ticket stubs\n● Plan Upgrade - 780 commemorative ticket stubs\n〓III. Obtaining from Inter-Knot Membership〓\n● Inter-Knot Membership ×1 - 300 commemorative ticket stubs\n※ Inter-Knot Membership can no longer be purchased after its active duration exceeds 179 days.\n〓IV. Obtaining from cash-bought Gifts〓\n● Tea Party Invitation Limited Gift ×1 - 300 commemorative ticket stubs\n● Cloud Garden Invitation Limited Gift ×1 - 580 commemorative ticket stubs\n● Celestial Nexus Invitation Limited Gift ×1 - 980 commemorative ticket stubs\n● Eridu Welcome Gift ×1 - 60 commemorative ticket stubs\n● Sincere Invitation Gift ×1 - 300 commemorative ticket stubs\n● Favored Invitation Gift ×1 - 680 commemorative ticket stubs\n● Exclusive Invitation Gift ×1 - 980 commemorative ticket stubs\n※ Gifts purchased with Monochromes will not be counted for commemorative ticket stubs progress.\n〓Event Rewards〓\n● Obtain a total of 300 commemorative ticket stubs: Ether Battery ×2\n● Obtain a total of 1,000 commemorative ticket stubs: Tuning Calibrator ×1\n● Obtain a total of 2,000 commemorative ticket stubs: Proxy Accessory \"Starshine Cross,\" Encrypted Master Tape ×2\n● Obtain a total of 4,000 commemorative ticket stubs: Resonating Core ×2\n● Obtain a total of 7,000 commemorative ticket stubs: Proxies can select one of the following rewards: S-Rank W-Engine Flight of Fancy, S-Rank W-Engine Elegant Vanity, S-Rank W-Engine Cordis Germina, or W-Engine Microcontroller Unit ×4 (Can be used in Collectible Exchange to redeem S-Rank W-Engine ×1)\n● Obtain a total of 10,000 commemorative ticket stubs: Proxies can select one of the following rewards: S-Rank Agent Vivian, S-Rank Agent Astra Yao, S-Rank Agent Seed, or Special Invitation Letter ×2 (Can be used in Collectible Exchange to redeem S-Rank Agent ×1). If Proxies have already awakened all of the selected Agent's Mindscape Cinemas before claiming, you will not be able to claim that Agent and must choose a different reward\n● Obtain a total of 15,000 commemorative ticket stubs: Remielle-themed dynamic wallpaper \"Summer of Soda Sea\", Remielle-themed menu decoration set \"Good Morning, Dear Partner in Crime\" Theme & \"Good Morning, Dear Partner in Crime\" Pendant, and event-exclusive dynamic namecard \"Countless Nychthemerons\"\n※ After reaching specific tiers of event progress, claim rewards on the event page.\n※ Proxies are advised to select and claim the limited S-Rank W-Engine and limited S-Rank Agent rewards during the Version 3.1 period. If a Proxy meets the reward conditions but does not complete the selection and claim during the event period, W-Engine Microcontroller Unit ×4 and Special Invitation Letter ×2 will be issued after the event ends to Proxies who have met the corresponding reward requirements.\n〓Note〓\n● When the number of commemorative ticket stubs obtained has not reached the limit, commemorative ticket stubs from multiple purchases of the same item will count toward event progress.\n● Monochromes obtained through first-purchase double bonus and bonus Monochromes, Monochrome direct purchase bundles, and other top-up methods not applicable to commemorative ticket stub conversion rules will not count towards event progress.\n● Upon making a purchase through external payment methods (such as web payment center, etc.), Proxies must log into the game during the event period to complete the delivery to count towards event progress. If a Proxy completes a purchase during the event period but does not log into the game to complete the delivery, it will not count towards event progress.\n● If event rewards are obtained through illegal means or other anomalous methods, the operator reserves the right to take measures such as deducting event rewards.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T12:30:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T05:30:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=226"
         },
@@ -476,8 +520,8 @@
       "id": "zzz-hoyo-ann-424df948a6d9",
       "title": "New Story: Season 3 Chapter 2 \"The Long Goodbye\"",
       "type": "event",
-      "start": "2026-07-27T11:45:00.000Z",
-      "end": "2026-09-09T05:00:00.000Z",
+      "start": "2026-07-27T04:45:00.000Z",
+      "end": "2026-09-08T22:00:00.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
       "source": {
@@ -485,7 +529,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227",
         "kind": "official-announcement-api",
         "recordId": "227",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -496,8 +540,8 @@
       "description": "Fate plucks the strings. Is this the prelude to tomorrow, or the finale of farewell?\nUpon completing the required prerequisite story, Proxies can unlock Main Story Season 3 - Chapter 2 \"The Long Goodbye.\"\n〓Availability〓\nPermanently available after Version 3.1 goes live.\n〓Requirements〓\nComplete Main Story Season 3 Chapter 1 \"A Sleepwalker's Confession\"\n※ You can experience Season 3's content in advance via the Advance Screening function after ranking up in Season 1 Chapter 1 - Intermission.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T11:45:00.000Z",
-          "end": "2026-09-09T05:00:00.000Z",
+          "start": "2026-07-27T04:45:00.000Z",
+          "end": "2026-09-08T22:00:00.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=227"
         },
@@ -520,7 +564,7 @@
       "id": "zzz-hoyo-ann-44796e8ea65a",
       "title": "V3.1 Limited-Time Channels",
       "type": "banner",
-      "start": "2026-07-27T11:30:00.000Z",
+      "start": "2026-07-27T04:30:00.000Z",
       "end": "2026-09-08T13:59:59.000Z",
       "server": "europe",
       "timezone": "UTC+01:00",
@@ -529,7 +573,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218",
         "kind": "official-announcement-api",
         "recordId": "218",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -540,7 +584,7 @@
       "description": "Dear Proxies,\nThe Agent and W-Engine Signal Search Event for this version includes the following content:\n〓\"Paradise Regained\" Signal Search Details〓\nEvent Duration: After the Version 3.1 update – 2026/09/08 14:59 (server time)\nDuring the event, the limited S-Rank Agent Remielle (Lumiflux - Anomaly) and default A-Rank Agents Piper (Physical - Anomaly) & Seth (Electric - Defense) have significantly boosted reception rates!\nEvent Period\nLimited\nS-Rank Agent\nRate-Up\nA-Rank Agents\nAfter the Version 3.1 update\n–\n2026/09/08 14:59 (server time)\nRemielle\n(Lumiflux - Anomaly)\nPiper (Physical - Anomaly)\nSeth (Electric - Defense)\n〓\"Ode of Resurrected Wings\" Signal Search Details〓\nEvent Duration: After the Version 3.1 update – 2026/09/08 14:59 (server time)\nDuring the event, the limited S-Rank W-Engine Ode of Resurrected Wings (Anomaly) and default A-Rank W-Engines Roaring Ride (Anomaly) & Peacekeeper - Specialized (Defense) have significantly boosted reception rates!\nEvent Period\nLimited\nS-Rank W-Engine\nRate-Up\nA-Rank W-Engines\nAfter the Version 3.1 update\n–\n2026/09/08 14:59 (server time)\nOde of Resurrected Wings (Anomaly)\nRoaring Ride (Anomaly)\nPeacekeeper - Specialized\n(Defense)\n〓\"Neon Angel\" Signal Search Details〓\nEvent Duration: After the Version 3.1 update – 2026/08/19 11:59 (server time)\nDuring the event, the limited S-Rank Agent Aria (Ether - Anomaly) and default A-Rank Agents Piper (Physical - Anomaly) & Seth (Electric - Defense) have significantly boosted reception rates!\nEvent Period\nLimited\nS-Rank Agent\nRate-Up\nA-Rank Agents\nAfter the Version 3.1 update\n–\n2026/08/19 11:59 (server time)\nAria (Ether - Anomaly)\nPiper (Physical - Anomaly)\nSeth (Defense - Electric)\n〓\"Angel in the Shell\" Signal Search Details〓\nEvent Duration: After the Version 3.1 update – 2026/08/19 11:59 (server time)\nDuring the event, the limited S-Rank W-Engine Angel in the Shell (Anomaly) and default A-Rank W-Engines Roaring Ride (Anomaly) & Peacekeeper - Specialized (Defense) have significantly boosted reception rates!\nEvent Period\nLimited\nS-Rank W-Engine\nRate-Up\nA-Rank W-Engines\nAfter the Version 3.1 update\n–\n2026/08/19 11:59 (server time)\nAngel in the Shell (Anomaly)\nRoaring Ride (Anomaly)\nPeacekeeper - Specialized\n(Defense)\n※ The limited S-Rank Agents and limited S-Rank W-Engines above will not become available in the Star-Studded Cast Stable Channel.\n※ \"Paradise Regained\" and \"Neon Angel\" are Exclusive Channels. The Search count for guaranteed signals is cumulative across all Exclusive Channels but is independent of and unaffected by other types of channels.\n※ \"Ode of Resurrected Wings\" and \"Angel in the Shell\" are W-Engine Channels. The search count for guaranteed signals is cumulative across all W-Engine Channels but is independent of and unaffected by other types of channels.\n※ In the Exclusive Channel and W-Engine Channel, the S-Rank Signal Customization feature allows Proxies to select 6 S-Rank Agents/W-Engines as their customized Agents/W-Engines and inherit the same data and drop rate rules as the non-featured S-Rank Agents/W-Engines in the Exclusive Channel/W-Engine Channel. If the S-Rank Signal obtained is not the featured S-Rank Agent/W-Engine, it is guaranteed to be one of the 6 selected S-Rank Agents/W-Engines.\n※ In the Exclusive Channel and W-Engine Channel, the A-Rank Rate Up feature allows Proxies to select 2 A-Rank Agents/W-Engines as the current boosted A-Rank Agents/W-Engines, inheriting the same data and drop rate rules from the previous A-Rank rate-up Agents/W-Engines. If the Proxy does not customize the rate-up Agents/W-Engines, the default A-Rank Agents/W-Engines of the current Exclusive Channel and W-Engine Channel will serve as the current A-Rank rate-up Agents/W-Engines.\n※ For more information on Signal Searches, please press \"Details\" at the bottom-left of the search page.\n〓The Final Callback - Audition Stage Details〓\n● Requirements: Reach Inter-Knot Lv. 8 and unlock the Event feature in the Main Story Prologue - Intermission\n● Event Duration:\n\"The Final Callback - Remielle\" Duration: After Version 3.1 update – 2026/09/08 14:59 (server time)\n\"The Final Callback - Aria\" Duration: After the Version 3.1 update – 2026/08/19 11:59 (server time)\n● Event Details: Proxies can try out Agents Remielle (Lumiflux - Anomaly) and Aria (Ether - Anomaly) in audition stages. Upon clearing the stage for the first time, Proxies can claim rewards on the results screen.",
       "windowsByRegion": {
         "europe": {
-          "start": "2026-07-27T11:30:00.000Z",
+          "start": "2026-07-27T04:30:00.000Z",
           "end": "2026-09-08T13:59:59.000Z",
           "timezone": "UTC+01:00",
           "sourceUrl": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=218"
@@ -818,7 +862,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1236",
         "kind": "official-announcement-api",
         "recordId": "1236",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",
@@ -843,7 +887,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1238",
         "kind": "official-announcement-api",
         "recordId": "1238",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",
@@ -868,7 +912,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1242",
         "kind": "official-announcement-api",
         "recordId": "1242",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",
@@ -893,7 +937,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1237",
         "kind": "official-announcement-api",
         "recordId": "1237",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",
@@ -918,7 +962,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1234",
         "kind": "official-announcement-api",
         "recordId": "1234",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",
@@ -943,7 +987,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1239",
         "kind": "official-announcement-api",
         "recordId": "1239",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",
@@ -968,7 +1012,7 @@
         "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1240",
         "kind": "official-announcement-api",
         "recordId": "1240",
-        "fetchedAt": "2026-08-30T09:11:27.596Z",
+        "fetchedAt": "2026-08-31T09:41:25.442Z",
         "priority": 1
       },
       "confidence": "low",

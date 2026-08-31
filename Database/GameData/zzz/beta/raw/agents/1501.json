@@ -58,6 +58,12 @@
       "desc": "Aria's performance outfit for special shows, worn only a handful of times.\nA pure-white \"angel\" clad in \"demonic\" wings. Take a deep breath, get ready... once the spotlight comes on, it's the Angels of Delusion's time to rebel.",
       "obtain_desc": "",
       "image": "IconRole57_01"
+    },
+    "3115012": {
+      "name": "...",
+      "desc": "...",
+      "obtain_desc": "",
+      "image": "IconRole57_02"
     }
   },
   "stats": {
@@ -2246,8 +2252,7 @@
           33000
         ],
         "part_sub_list": [
-          31203,
-          12102
+          31203
         ]
       },
       {
@@ -2256,15 +2261,13 @@
           33600
         ],
         "part_sub_list": [
-          31903,
-          12102
+          31903
         ]
       },
       {
         "suit_list": [],
         "part_sub_list": [
-          31402,
-          12102
+          31402
         ]
       }
     ],

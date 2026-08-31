@@ -1658,15 +1658,13 @@
           ],
           "part_sub_list": [
             31803,
-            12102,
-            23103
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12202,
-            12102
+            12202
           ]
         }
       ],
@@ -1706,7 +1704,7 @@
     },
     "liveComparison": {
       "liveHash": "99c61e65f5f3d1ec9dd0a0c40521ea29e970af7b799ae7cc18a6bba2b18e6182",
-      "currentHash": "9ded64f135038e263798b198b1a59b02653d7a0c3c9b3628b87b6e07ac61648e"
+      "currentHash": "4e299f57b74b2d6587609498773eb09163ce0aa0c45976a3e6745b50d9812e70"
     }
   },
   {
@@ -3826,21 +3824,16 @@
           ]
         },
         {
-          "suit_list": [
-            32600,
-            31400
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
-            12102,
-            23103
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -4008,7 +4001,7 @@
     },
     "liveComparison": {
       "liveHash": "80f7a93e70b1e0d5fbbcaa86df82717a11151e050b76f371dda762a42bfd3f33",
-      "currentHash": "593615cd26039d8455e3ea20ca7492e863baa66636c93de27f063d2a6b2a3128"
+      "currentHash": "4d145034a9136efe946b1a558286e881850c3505e0698362bb4be9ce67e10fcb"
     }
   },
   {
@@ -6533,8 +6526,7 @@
           ],
           "part_sub_list": [
             31203,
-            20103,
-            12102
+            20103
           ]
         },
         {
@@ -6550,8 +6542,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            31402
+            30502
           ]
         }
       ],
@@ -6591,7 +6582,7 @@
     },
     "liveComparison": {
       "liveHash": "80fd45d6a6af839d69052e91813a00a4cd886ea4a92e1075e27fa6b20b29b5ee",
-      "currentHash": "82beed71f12d9535c00ef762c4531308dbf1ec47eb0d61ae8fb751985a21bba1"
+      "currentHash": "2f15b20252e662696b32f85f5219bde46b26d01db26750d288de54368397d72b"
     }
   },
   {
@@ -8806,21 +8797,16 @@
           ]
         },
         {
-          "suit_list": [
-            32200,
-            32700
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31603,
-            12102,
-            23103
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -9036,7 +9022,7 @@
     },
     "liveComparison": {
       "liveHash": "e6afbbc353e7109ad2769a2e23fb4ad8c4a509b0d8753ba1d62c877456f9a66f",
-      "currentHash": "73b8dc18c6d020b591d981382d4cb0c4cfe41a66840cfddf4827c25a6cbb8f19"
+      "currentHash": "68716b0e1699b09621c761e062dbc5c268db1772fdb93de1804082b03c048aff"
     }
   },
   {
@@ -11235,8 +11221,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         }
       ],
@@ -11277,7 +11262,7 @@
     },
     "liveComparison": {
       "liveHash": "2b77aa7d7e58bc80e059714acd7472ff8b296e3fcf1eb4994bd8a03676c13596",
-      "currentHash": "a8fe66f214f291261c411359bb4fad823a7e55df15fb0627db44798f34474cf3"
+      "currentHash": "5628bf98ee37dcaeb606c01dc73edbc38dba569c69cfd0585e021816628716f6"
     }
   },
   {
@@ -13195,21 +13180,16 @@
           ]
         },
         {
-          "suit_list": [
-            32600,
-            31400
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
-            12102,
-            23103
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -13249,7 +13229,7 @@
     },
     "liveComparison": {
       "liveHash": "1d26df7c4b03b96e2b25fc024080b5cd7e28e6d9e2e227c3aa95a1fb8ecd100b",
-      "currentHash": "49be1224a06721eb8700a221947cd4f5cf8558ebd22f5521592cef3a961ac81b"
+      "currentHash": "24dde336088dd42f4b6868e5f7862b42e59182bab94453359289adda549b7f6c"
     }
   },
   {
@@ -15351,16 +15331,11 @@
             31900
           ],
           "part_sub_list": [
-            20103,
-            21103,
-            12102
+            20103
           ]
         },
         {
-          "suit_list": [
-            31900,
-            31600
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
             12102
@@ -15369,8 +15344,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12202,
-            12102
+            12202
           ]
         }
       ],
@@ -15411,7 +15385,7 @@
     },
     "liveComparison": {
       "liveHash": "f70714fb0a5e7134e1bcebbfb85bc9e1e4f8ac99311c497b1b9a4958ed513bc3",
-      "currentHash": "66b71136084581786419e2fc7110d3770e3589cf1458d112892e631b21d0d149"
+      "currentHash": "da365a6edd72fc9c4f7de6bc3dc5731233b866c70fbc2300bafe20acdced2407"
     }
   },
   {
@@ -17165,10 +17139,7 @@
           ]
         },
         {
-          "suit_list": [
-            32600,
-            31400
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
             12102
@@ -17177,8 +17148,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            12202
+            12102
           ]
         }
       ],
@@ -17218,7 +17188,7 @@
     },
     "liveComparison": {
       "liveHash": "b07481a2e63c3f8806e00ec9043d0b091aa97e7a14ddadf6d9798b7335c136f8",
-      "currentHash": "c12e353d729930f491742e15989448d2f5871a02db977a74aee8fcb3ca7ac7bb"
+      "currentHash": "65155b3e7e8b35ceb59e63134700c0181999960ec730af55fb3db0c60542493b"
     }
   },
   {
@@ -19250,15 +19220,13 @@
           ],
           "part_sub_list": [
             31703,
-            23103,
-            12102
+            23103
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            31402
+            12102
           ]
         }
       ],
@@ -19300,7 +19268,7 @@
     },
     "liveComparison": {
       "liveHash": "197e4391b4c90e6617e1be2f34e1fb32ca308ab49cdfbb646e5473a30a6fd735",
-      "currentHash": "eefdb37c076876b1591b0d0876ee15bb44e0d8edc44f04dafcd8e260494def44"
+      "currentHash": "ff884e2237a47255ee3f4216ac4901828c8c7832f6c061204ba279a8a3889862"
     }
   },
   {
@@ -19769,7 +19737,7 @@
           },
           {
             "name": "Basic Attack: Smash 'n' Bash",
-            "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to four Strikes forward, dealing <color=#F0D12B>Physical DMG</color>;\nWhen Koleda has the <color=#FFFFFF>[Furnace Fire]</color> effect, she can launch an Enhanced <color=#FFFFFF>[Basic Attack]</color> after the second Strike, consuming the <color=#FFFFFF>[Furnace Fire]</color> effect and dealing massive <color=#FF5521>Fire DMG</color>;\nThe Enhanced <color=#FFFFFF>[Basic Attack]</color> consists of two parts. After launching the first part, press or hold <IconMap:Icon_Normal> to chain into the second part, and the follow-up attack effect of the first Enhanced <color=#FFFFFF>[Basic Attack]</color> is strengthened;\nThe <color=#FFFFFF>[Furnace Fire]</color> effect can stack up to 2 times. Launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> consumes all <color=#FFFFFF>[Furnace Fire]</color> stacks;\nWhen <color=#FFFFFF>[Furnace Fire]</color> is consumed, DMG dealt by the whole squad's Agents is increased by 35% for 40s, repeated triggers refresh the duration, and for each stack of <color=#FFFFFF>[Furnace Fire]</color> consumed, the DMG dealt by the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced <color=#FFFFFF>[Basic Attack]</color>, Koleda will automatically launch the second Enhanced <color=#FFFFFF>[Basic Attack]</color> on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> without switching Agents during the first Enhanced <color=#FFFFFF>[Basic Attack]</color> will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth <color=#FFFFFF>[Basic Attack]</color> Strike and during the Enhanced <color=#FFFFFF>[Basic Attack]</color>;\nThe invulnerability duration of the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is extended.",
+            "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 strikes, dealing <color=#F0D12B>Physical DMG</color>.\nWhen Koleda has the <color=#FFFFFF>Furnace Fire</color> effect, she can launch an enhanced <color=#FFFFFF>Basic Attack</color> after the 2nd hit, consuming the <color=#FFFFFF>Furnace Fire</color> effect and dealing massive <color=#FF5521>Fire DMG</color>.\nEnhanced <color=#FFFFFF>Basic Attack</color> consists of two stages. After performing the first stage, press or hold <IconMap:Icon_Normal> to follow up with the second stage. The pursuit effect of the first-stage enhanced <color=#FFFFFF>Basic Attack</color> is also strengthened.\n<color=#FFFFFF>Furnace Fire</color> can stack up to 2 times. Performing an enhanced <color=#FFFFFF>Basic Attack</color> consumes all stacks of <color=#FFFFFF>Furnace Fire</color>.\nWhen <color=#FFFFFF>Furnace Fire</color> is consumed, all Agents deal 35% more damage for 40s. Repeated triggers refresh the duration. For each stack of <color=#FFFFFF>Furnace Fire</color> consumed, the second stage of the enhanced <color=#FFFFFF>Basic Attack</color> deals 10% more damage and inflicts 20% more Daze.\nWhen switching Agents during the first stage of the enhanced <color=#FFFFFF>Basic Attack</color>, Koleda remains on-field and automatically launches the second stage of the enhanced <color=#FFFFFF>Basic Attack</color>.\nWhen Koleda and Ben are both in the squad, using an enhanced <color=#FFFFFF>Basic Attack</color> without switching Agents during the first stage of the enhanced <color=#FFFFFF>Basic Attack</color> causes the two to perform a Coordinated Attack, further increasing the skill's power.\nCharacter is Invulnerable during the 4th hit of her <color=#FFFFFF>Basic Attack</color> and her enhanced <color=#FFFFFF>Basic Attack</color>.\nThe invulnerability duration of the second-stage enhanced <color=#FFFFFF>Basic Attack</color> is increased.",
             "potential": [
               110100,
               110101,
@@ -20168,7 +20136,7 @@
           },
           {
             "name": "Dash Attack: Tremble!",
-            "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrike forward, dealing <color=#F0D12B>Physical DMG</color>.\nDuring this skill, if holding <color=#FFFFFF>[Furnace Fire]</color>, Anti-Interrupt level is increased. Hold <IconMap:Icon_Normal> to chain into an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+            "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward strike, dealing <color=#F0D12B>Physical DMG</color>.\nDuring this skill, if she has <color=#FFFFFF>Furnace Fire</color>, then Anti-Interrupt Level is increased. Hold <IconMap:Icon_Normal> to follow up with an enhanced <color=#FFFFFF>Basic Attack</color>.",
             "potential": [
               110100,
               110101,
@@ -20187,7 +20155,7 @@
           },
           {
             "name": "Dodge Counter: Don't Look Down on Me",
-            "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nLaunches a Strike at enemies ahead and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>;\nCharacter is invulnerable while using this skill. If <color=#FFFFFF>[Furnace Fire]</color> is active, hold <IconMap:Icon_Normal> to chain into an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+            "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nStrikes enemies in front and creates an explosion, dealing <color=#FF5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill. If <color=#FFFFFF>Furnace Fire</color> is active, hold <IconMap:Icon_Normal> to follow up with an enhanced <color=#FFFFFF>Basic Attack</color>.",
             "potential": [
               110100,
               110101,
@@ -20327,7 +20295,7 @@
           },
           {
             "name": "Special Attack: Hammer Time",
-            "desc": "Press <IconMap:Icon_Special> to activate:\nStrikes forward and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>;\nWhen used after the 2nd or 4th hit of <color=#FFFFFF>[Basic Attack]</color> or after an Enhance <color=#FFFFFF>[Basic Attack]</color>, the skill can be Quick Launched to directly trigger an explosion;\nDuring the 2nd hit of <color=#FFFFFF>[Basic Attack]</color>, hold <IconMap:Icon_Normal> to also directly trigger an explosion;\nWhen Koleda and Ben are both on the field and this skill is Quick Launched after an Enhance <color=#FFFFFF>[Basic Attack]</color>, both will perform a Coordinated Attack, further increasing the skill's power;\nAnti-Interrupt level is increased while using this skill.",
+            "desc": "Press <IconMap:Icon_Special> to activate:\nStrikes enemies in front and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>.\nThis skill launches faster and directly triggers the explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>Basic Attack</color> or enhanced <color=#FFFFFF>Basic Attack</color>.\nDuring the 2nd hit of her <color=#FFFFFF>Basic Attack</color>, holding <IconMap:Icon_Normal> can also trigger the explosion directly.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced <color=#FFFFFF>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
             "potential": [
               110100,
               110101,
@@ -20346,7 +20314,7 @@
           },
           {
             "name": "EX Special Attack: Boiling Furnace",
-            "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes forward and triggers a powerful explosion, dealing massive <color=#FF5521>Fire DMG</color>, and gains the <color=#FFFFFF>[Furnace Fire]</color> effect;\nIf chained after the 2nd or 4th hit of <color=#FFFFFF>[Basic Attack]</color> or after an Enhanced <color=#FFFFFF>[Basic Attack]</color>, the skill can be Quick Launched to directly trigger an explosion. The Daze inflicted by explosions triggered this way is increased by 10%;\nWhen Koleda and Ben are both on the field, and the skill is Quick Launched after an Enhanced <color=#FFFFFF>[Basic Attack]</color>, both will perform a Coordinated Attack together, further increasing the skill's power;\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to chain into <color=#FFFFFF>[Dash Attack: Tremble!]</color>.",
+            "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive <color=#FF5521>Fire DMG</color>. Koleda also gains the <color=#FFFFFF>Furnace Fire</color> effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>Basic Attack</color> or enhanced <color=#FFFFFF>Basic Attack</color>. Explosions triggered this way inflict 10% more Daze.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced <color=#FFFFFF>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
             "potential": [
               110100,
               110101,
@@ -20704,7 +20672,7 @@
           },
           {
             "name": "Ultimate: Hammerquake",
-            "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful explosion across a large area ahead, dealing massive <color=#FF5521>Fire DMG</color> and gaining the <color=#FFFFFF>Furnace Fire</color> effect;\nWhen Koleda and Ben are on the same team, both will launch a Coordinated Attack together, further enhancing the skill's power;\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
+            "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive <color=#FF5521>Fire DMG</color> while also obtaining the <color=#FFFFFF>Furnace Fire</color> effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
             "potential": [
               110100,
               110101,
@@ -20906,7 +20874,7 @@
           },
           {
             "name": "Assist Follow-Up: Hammer Bell",
-            "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nLaunches a charging Strike against enemies ahead, dealing <color=#FF5521>Fire DMG</color> and gaining the <color=#FFFFFF>Furnace Fire</color> effect;\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
+            "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nKoleda charges and strikes enemies in front, dealing <color=#FF5521>Fire DMG</color> and obtaining <color=#FFFFFF>Furnace Fire</color> effect.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
             "potential": [
               110100,
               110101,
@@ -21328,7 +21296,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>30%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21349,7 +21317,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>35%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21370,7 +21338,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>40%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21391,7 +21359,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>45%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21412,7 +21380,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>50%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21433,7 +21401,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>55%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21454,7 +21422,7 @@
           ],
           "desc": [
             "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>60%</color>.",
-            "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+            "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
           ],
           "extra_property": {},
           "potential": [
@@ -21556,9 +21524,7 @@
             31600
           ],
           "part_sub_list": [
-            20103,
-            12102,
-            21103
+            20103
           ]
         },
         {
@@ -21574,8 +21540,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12202,
-            30502
+            12202
           ]
         }
       ],
@@ -21625,7 +21590,7 @@
           "name": "",
           "desc": "",
           "image": "Koleda",
-          "level_show_name": "Let's get to work!",
+          "level_show_name": "Get Workin'! I",
           "level": 1,
           "ability_list": [
             11101401
@@ -21640,9 +21605,9 @@
         "110101": {
           "id": 110101,
           "name": "Potential Awakening: Demolition Ops",
-          "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>5%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>11%</color>.",
+          "desc": "Armorer Agents in the team gain <color=#2BAD00>5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>11%</color> increased CRIT DMG.",
           "image": "Koleda",
-          "level_show_name": "Let's Get to Work! II",
+          "level_show_name": "Get Workin'! II",
           "level": 2,
           "ability_list": [
             11101401,
@@ -21658,9 +21623,9 @@
         "110102": {
           "id": 110102,
           "name": "Potential Awakening: Demolition Ops",
-          "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>7.5%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>17%</color>.",
+          "desc": "Armorer Agents in the team gain <color=#2BAD00>7.5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>17%</color> increased CRIT DMG.",
           "image": "Koleda",
-          "level_show_name": "Let's Get to Work! III",
+          "level_show_name": "Get Workin'! III",
           "level": 3,
           "ability_list": [
             11101401,
@@ -21676,9 +21641,9 @@
         "110103": {
           "id": 110103,
           "name": "Potential Awakening: Demolition Ops",
-          "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>10%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>23%</color>.",
+          "desc": "Armorer Agents in the team gain <color=#2BAD00>10%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>23%</color> increased CRIT DMG.",
           "image": "Koleda",
-          "level_show_name": "Let's Get to Work! IV",
+          "level_show_name": "Get Workin'! IV",
           "level": 4,
           "ability_list": [
             11101401,
@@ -21694,9 +21659,9 @@
         "110104": {
           "id": 110104,
           "name": "Potential Awakening: Demolition Ops",
-          "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>12.5%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>29%</color>.",
+          "desc": "Armorer Agents in the team gain <color=#2BAD00>12.5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>29%</color> increased CRIT DMG.",
           "image": "Koleda",
-          "level_show_name": "Let's get to work! V",
+          "level_show_name": "Get Workin'! V",
           "level": 5,
           "ability_list": [
             11101401,
@@ -21712,9 +21677,9 @@
         "110105": {
           "id": 110105,
           "name": "Potential Awakening: Demolition Ops",
-          "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>15%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>35%</color>.",
+          "desc": "Armorer Agents in the team gain <color=#2BAD00>15%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>35%</color> increased CRIT DMG.",
           "image": "Koleda",
-          "level_show_name": "Let's Get to Work! VI",
+          "level_show_name": "Get Workin'! VI",
           "level": 6,
           "ability_list": [
             11101401,
@@ -21731,7 +21696,7 @@
     },
     "liveComparison": {
       "liveHash": "6f2d3ab4bfcaa7a839f6ae210a42ae0cd0ee2f166239a2a0b8e869af09a2fab4",
-      "currentHash": "e5c57cad2a5e627400c91ac2f556718375c4da31414d0a747bec36868046c439"
+      "currentHash": "4e432f2e78f3ee47c128dea45c7cf93f5e8bd88a45948b118f0374a1dd7497f1"
     }
   },
   {
@@ -23683,19 +23648,14 @@
           ],
           "part_sub_list": [
             20103,
-            21103,
-            12102
+            21103
           ]
         },
         {
-          "suit_list": [
-            32400,
-            31600
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31803,
-            12102,
-            23103
+            12102
           ]
         },
         {
@@ -23742,7 +23702,7 @@
     },
     "liveComparison": {
       "liveHash": "e817a29069dedba79e086e693e3efea127c10595c74d0f0ea6a9d8f86b273e05",
-      "currentHash": "090c8d82c8beae61dc54344ff672da8f25bcf0324dcae7303192473a43810e99"
+      "currentHash": "eaa2c23bfd585cd3695f665c801584ed948d4ed936524fb5bbda2406b7ddd0e2"
     }
   },
   {
@@ -25504,8 +25464,7 @@
             31900
           ],
           "part_sub_list": [
-            13102,
-            20103
+            13102
           ]
         },
         {
@@ -25514,18 +25473,13 @@
             31600
           ],
           "part_sub_list": [
-            13102,
-            31603
+            13102
           ]
         },
         {
-          "suit_list": [
-            31900,
-            31500
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            13102,
-            30502
+            13102
           ]
         }
       ],
@@ -25565,7 +25519,7 @@
     },
     "liveComparison": {
       "liveHash": "5a2dfcd85e56abb81a393dd0171b32696799c7c6f0a0b9fc3924bf7b33010916",
-      "currentHash": "dd3832de3fa5d591647c7380dbe013f090eb8c611c6863b650277f727140fac6"
+      "currentHash": "a681e056545247106cd97475814005cf4d8873b8304b439fa9a50d45afc43e53"
     }
   },
   {
@@ -27644,9 +27598,7 @@
             31400
           ],
           "part_sub_list": [
-            12102,
-            31203,
-            20103
+            12102
           ]
         },
         {
@@ -27655,15 +27607,11 @@
             33000
           ],
           "part_sub_list": [
-            12102,
-            31703
+            12102
           ]
         },
         {
-          "suit_list": [
-            31300,
-            31600
-          ],
+          "suit_list": [],
           "part_sub_list": [
             12102,
             31402,
@@ -27707,7 +27655,7 @@
     },
     "liveComparison": {
       "liveHash": "bd0dcbb1c09dc3211bd13472fd83b5611bdf46a77f53f21e33ec1101c50843e0",
-      "currentHash": "56a73bde5a31312eee22529066750611da35934111b7b860b38642ddf9adb23b"
+      "currentHash": "a72eb3d195ea90ec76726fcadba5572bfab6cf1f7c3f70ea0337093d0d3380fb"
     }
   },
   {
@@ -30186,29 +30134,20 @@
             32500
           ],
           "part_sub_list": [
-            20103,
-            12102,
-            21103
+            20103
           ]
         },
         {
-          "suit_list": [
-            33200,
-            31200
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31703,
             12102
           ]
         },
         {
-          "suit_list": [
-            31200,
-            31600
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12202,
-            31402
+            12202
           ]
         }
       ],
@@ -30370,7 +30309,7 @@
     },
     "liveComparison": {
       "liveHash": "c1796a45ccdc99e9d23e1fc2b0e1096231bf7f798df0f5b23c1c5b9fa57d0189",
-      "currentHash": "ec449b93e8777ecca82b92b6c9a24d15739c72b50350ceb6b777e5484f17d1b7"
+      "currentHash": "5e8688b6bc5bcb41d619b20315993c27f0ae578b1fef821db32edd50dc56d9f3"
     }
   },
   {
@@ -32363,13 +32302,9 @@
           ]
         },
         {
-          "suit_list": [
-            31600,
-            32800
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12102,
-            31603
+            12102
           ]
         },
         {
@@ -32416,7 +32351,7 @@
     },
     "liveComparison": {
       "liveHash": "fc16f7b4e1cdee82ba9201aa75747661cc4d7cb20aace748687a0cd2a43feff6",
-      "currentHash": "5f0652b9a68d0c46ecec902d55cad6564f23e345af487cb5308eb2173fee4b44"
+      "currentHash": "a97e170b3e429ddb3262720673af682970e53cfeca6297b9c11953cef5db2a32"
     }
   },
   {
@@ -34685,9 +34620,7 @@
             31600
           ],
           "part_sub_list": [
-            20103,
-            21103,
-            12102
+            20103
           ]
         },
         {
@@ -34703,8 +34636,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12202,
-            12102
+            12202
           ]
         }
       ],
@@ -34745,7 +34677,7 @@
     },
     "liveComparison": {
       "liveHash": "d8f48637df0688a9a33f3041cf2b5821106533ccc131d10347d9998301268425",
-      "currentHash": "b2bf6370641c87a4342ebb158f21199fddb2849a18af5888d599ce84e0208802"
+      "currentHash": "512522c3cc2eb9c1f6d97c9dae68c972e3486f6c0589fde50bc1a884eebb945e"
     }
   },
   {
@@ -36897,8 +36829,7 @@
             31300
           ],
           "part_sub_list": [
-            31203,
-            12102
+            31203
           ]
         },
         {
@@ -37077,7 +37008,7 @@
     },
     "liveComparison": {
       "liveHash": "5923eb9e5667cfde672c8d0cb22cd1cd406e571183863b7bb180894608ef9d17",
-      "currentHash": "275773e9127a4d210ddd6bd6f7df03830796cea920d4292e1f279ab682d028c7"
+      "currentHash": "9ac5390b11aa06fd8122283c0296416f449fd1e8c8b3b5ebd6a80337cfffc7fd"
     }
   },
   {
@@ -39037,8 +38968,7 @@
             32400
           ],
           "part_sub_list": [
-            31203,
-            12102
+            31203
           ]
         },
         {
@@ -39055,8 +38985,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31402
           ]
         }
       ],
@@ -39212,7 +39141,7 @@
     },
     "liveComparison": {
       "liveHash": "d4562c139e8983b773e6f8e4bab6b2d3128d871151232f4e0806000f84d8e292",
-      "currentHash": "cbc3e354ef2258f911c76a3a709254702bdb30cbafba3c77a7951fee7b7aab96"
+      "currentHash": "c7fa8088303bdf9488bb26c68e293c273157e01b69563734683e6cdaa64cf5e1"
     }
   },
   {
@@ -41958,15 +41887,13 @@
           ],
           "part_sub_list": [
             31703,
-            12102,
-            23103
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            12202
+            12102
           ]
         }
       ],
@@ -42122,7 +42049,7 @@
     },
     "liveComparison": {
       "liveHash": "64660b4cc4cf0f7478e4b45cd2404e0a0dc7aeb5ae53ee6a620ec8c59510dd3c",
-      "currentHash": "bd6fa695e9545ffae414a0f71890e194e2ebeaf822ff11eb0ede62481d7aebac"
+      "currentHash": "dc5aea6cb8f6e86c3bdacd2db5df9e9413bdecb560bdb470e0e6b3646504f04f"
     }
   },
   {
@@ -44553,23 +44480,16 @@
           ]
         },
         {
-          "suit_list": [
-            32400,
-            32700
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31803,
             12102
           ]
         },
         {
-          "suit_list": [
-            32900,
-            32700
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -44725,7 +44645,7 @@
     },
     "liveComparison": {
       "liveHash": "c633bdce03dff68e7e135391ee736ba652257aae80a4e19faa72da57da67ac08",
-      "currentHash": "c292110726a654b0ce6e1e670e07a896a9abda01b86ca7f53d155e940d1b72c7"
+      "currentHash": "1d68065a89946ef06529c7eaa0d7546175bc5bad9e40a0a4a5a1cce798346ec0"
     }
   },
   {
@@ -46591,28 +46511,19 @@
             31100
           ],
           "part_sub_list": [
-            31203,
-            20103
+            31203
           ]
         },
         {
-          "suit_list": [
-            31300,
-            31100
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            23103,
-            12102
+            23103
           ]
         },
         {
-          "suit_list": [
-            33400,
-            31100
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            30502,
-            31402
+            30502
           ]
         }
       ],
@@ -46768,7 +46679,7 @@
     },
     "liveComparison": {
       "liveHash": "13fd9b213220ba87b624eea69043393d007a9304c655a89aed4d5c86b5193663",
-      "currentHash": "f09dd9338f1cc14706f4f3add5ca03a099df198f9269d38ed61eb31ebfb30115"
+      "currentHash": "b6e70a7164387826a19a841afe15226d61082d4ec2bc2bc6b365d376c57e6af4"
     }
   },
   {
@@ -48736,26 +48647,20 @@
             31300
           ],
           "part_sub_list": [
-            31203,
-            12102
-          ]
-        },
-        {
-          "suit_list": [
-            32400,
-            31300
-          ],
-          "part_sub_list": [
-            31803,
-            23103,
-            12102
+            31203
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31803,
+            23103
+          ]
+        },
+        {
+          "suit_list": [],
+          "part_sub_list": [
+            31402
           ]
         }
       ],
@@ -48796,7 +48701,7 @@
     },
     "liveComparison": {
       "liveHash": "8fd021d3f85f82db4ceb9fa71c8c82a03288ab9f6b328e10b397c936c086dbc2",
-      "currentHash": "855761803c91cde79b52ab9499fa6081ba614df627cd0a8a2c59209d46d70990"
+      "currentHash": "e007f99f68b103d4b7033a6066dbff41f6be18b4897e1bbb88947d2724e1b07a"
     }
   },
   {
@@ -50788,10 +50693,7 @@
           ]
         },
         {
-          "suit_list": [
-            32300,
-            32700
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31903,
             12102
@@ -50800,8 +50702,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -50842,7 +50743,7 @@
     },
     "liveComparison": {
       "liveHash": "d223e0692f0f1c2668e8df8f22c1faf20c4e1210d6900328e326a8de552f5f80",
-      "currentHash": "e88a7efe38f6d49ef2a33d657c8b9978696a0c8d1734a997706cdc2adc09dcb1"
+      "currentHash": "d2d87d786c6e43d3e663108467f81b7e5a00743ac05e16066d58a1d3e516a1fa"
     }
   },
   {
@@ -52872,9 +52773,7 @@
             32400
           ],
           "part_sub_list": [
-            20103,
-            12102,
-            21103
+            20103
           ]
         },
         {
@@ -52888,13 +52787,9 @@
           ]
         },
         {
-          "suit_list": [
-            31200,
-            31600
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12202,
-            12102
+            12202
           ]
         }
       ],
@@ -52935,7 +52830,7 @@
     },
     "liveComparison": {
       "liveHash": "0938d318406cee38deda02c29b612f3ba8f0adf3ec576c6ecaec591e94fa49cb",
-      "currentHash": "5be5d4b102e8c6bcf06f535da93cee56076c2dbfbccaf61a8c9ee511f9629490"
+      "currentHash": "423386fc959c1b72841de049971e1b08f7fbc6f9e4cdc1b69032e87e82f1443e"
     }
   },
   {
@@ -55428,15 +55323,11 @@
             31300
           ],
           "part_sub_list": [
-            31203,
-            12102
+            31203
           ]
         },
         {
-          "suit_list": [
-            32600,
-            33000
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
             12102
@@ -55445,8 +55336,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31402
           ]
         }
       ],
@@ -55602,7 +55492,7 @@
     },
     "liveComparison": {
       "liveHash": "8df0be44b26e3f836e184922541f13fc36c2a573fbbe251fabcc9546b8e862e0",
-      "currentHash": "b867cac7318d76ffaff60e1918f1015c9ca68d664952e741cacc3da99735407b"
+      "currentHash": "15622ebd3da29b8a652d6d719897cde73e79c50bed6165ee2a0a311982595f5f"
     }
   },
   {
@@ -57342,8 +57232,7 @@
             31900
           ],
           "part_sub_list": [
-            12102,
-            31203
+            12102
           ]
         },
         {
@@ -57352,16 +57241,14 @@
             31400
           ],
           "part_sub_list": [
-            12102,
-            31803
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
             30502,
-            12102,
-            12202
+            12102
           ]
         }
       ],
@@ -57401,7 +57288,7 @@
     },
     "liveComparison": {
       "liveHash": "50cee884d2464b2f43b2538144ddc40f09667d9d17182160e51948d8f4f975ce",
-      "currentHash": "36a4d820e0ed4e4a5d9ae1838c73df8f275796ba928d12b093c2f5b76d285945"
+      "currentHash": "7c8e19269e60867c2626ac9d6ddb7c8b3e10ec6bafe29d3d62b2dbb9fc5cc425"
     }
   },
   {
@@ -59230,8 +59117,7 @@
             32600
           ],
           "part_sub_list": [
-            31203,
-            12102
+            31203
           ]
         },
         {
@@ -59245,13 +59131,9 @@
           ]
         },
         {
-          "suit_list": [
-            31300,
-            31600
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31402
           ]
         }
       ],
@@ -59291,7 +59173,7 @@
     },
     "liveComparison": {
       "liveHash": "34ee5652e9517ce04eedbf5e430caef69302f93cd9c546b47efc25b78e847ed1",
-      "currentHash": "3d4c923215a2bab498c049ee66259a2d32f6f0e31ccafa0068f591c7578969a9"
+      "currentHash": "6e0e7cfe0baa77c762e554c33e6e97f3217ab42b68286afba1ac182225635227"
     }
   },
   {
@@ -61420,8 +61302,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            12202
+            12102
           ]
         }
       ],
@@ -61462,7 +61343,7 @@
     },
     "liveComparison": {
       "liveHash": "36789b4756bcd7f3b81b28023fdfa06f77a43a510727efd3c92e12174c3cbf85",
-      "currentHash": "f1053dcd6f775f522dce8d8f01d7fba97613b863c28c3ea13f904424c0d2cb6d"
+      "currentHash": "ff6db774bdb7c88638ce2675153ee47fb1b55bda8e03caa2c8dc4339dbeddd8c"
     }
   },
   {
@@ -63467,8 +63348,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            12102
+            30502
           ]
         }
       ],
@@ -63509,7 +63389,7 @@
     },
     "liveComparison": {
       "liveHash": "6ed0ddddd418ccf6ca9ea96b4df1ede56a507251d6da4a1b5daa372eae694351",
-      "currentHash": "04e8699bd24318d60b9b229fe38d21094a5e46626fe4d19fbbf75d11db91914b"
+      "currentHash": "df4488a0127374b89384949e18149de203bb0a1e1f9dabd8de786365c310a3d9"
     }
   },
   {
@@ -65488,8 +65368,7 @@
             31600
           ],
           "part_sub_list": [
-            12102,
-            20103
+            12102
           ]
         },
         {
@@ -65498,8 +65377,7 @@
             31400
           ],
           "part_sub_list": [
-            12102,
-            31903
+            12102
           ]
         },
         {
@@ -65547,7 +65425,7 @@
     },
     "liveComparison": {
       "liveHash": "9dd413f01dde9a6cecd91e6bd47b24a5988951be71e30814f3e8227225738951",
-      "currentHash": "094191ff1a12e80a2c0568e7d935f4f0b835c87694f9a3e145c3583b109b80b6"
+      "currentHash": "5f956e3b6140cf1bd740d794300d4640e9bded88ae8db42d05617d3e72883936"
     }
   },
   {
@@ -67575,21 +67453,15 @@
           ]
         },
         {
-          "suit_list": [
-            31100,
-            32700
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            31603,
-            23103,
-            12102
+            31603
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            31402
+            12102
           ]
         }
       ],
@@ -67630,7 +67502,7 @@
     },
     "liveComparison": {
       "liveHash": "db14d5686a6a86d230cef083b83b1fc7e869f47ef5caae148ef9240836beb353",
-      "currentHash": "200dccb0c58a6b67cb76251a41a3be72021796b71c6ce28fe90f5c6145d7f3d9"
+      "currentHash": "bb72bbb83ed3513423bef82af1704ccd4ec0e473c10973c64b51dc8688cb7eeb"
     }
   },
   {
@@ -69417,25 +69289,19 @@
             31300
           ],
           "part_sub_list": [
-            31203,
-            12102
-          ]
-        },
-        {
-          "suit_list": [
-            33000,
-            31800
-          ],
-          "part_sub_list": [
-            31903,
-            12102
+            31203
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            30502
+            31903
+          ]
+        },
+        {
+          "suit_list": [],
+          "part_sub_list": [
+            31402
           ]
         }
       ],
@@ -69476,7 +69342,7 @@
     },
     "liveComparison": {
       "liveHash": "f0f75cb0894112e467544d4dbe9fe2eed786a7bb7773f44da437523f7b3d8df1",
-      "currentHash": "9fa76d1055743b1a34ad51aad625a03531745b7d4013275ea0bf11fe33c84f37"
+      "currentHash": "0d3fb5ae3e6d755df57ba12cadb3529008f506b7b8b8f8e3eeadc7d65e2bd0ae"
     }
   },
   {
@@ -71325,18 +71191,13 @@
             33100
           ],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         },
         {
-          "suit_list": [
-            31600,
-            33100
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         },
         {
@@ -71384,7 +71245,7 @@
     },
     "liveComparison": {
       "liveHash": "79ab5a44cc693bdfb72db048419abcba0cd96ac79b13b9548001af9143b434c9",
-      "currentHash": "ea621e01a318f53d7e77b3ae61a0ba40ca0370fbce72bb3357e585be9b6d8d9a"
+      "currentHash": "7eacbccd0cb6fbdd54f2e1215aeb95c8657bcc0025e117f1425ce2ad082d720f"
     }
   },
   {
@@ -73000,15 +72861,11 @@
             31200
           ],
           "part_sub_list": [
-            20103,
-            21103
+            20103
           ]
         },
         {
-          "suit_list": [
-            32900,
-            31000
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
             12102
@@ -73017,8 +72874,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12202,
-            12102
+            12202
           ]
         }
       ],
@@ -73058,7 +72914,7 @@
     },
     "liveComparison": {
       "liveHash": "8ad21927403df76a442c23a416fface6f7966fd5bb5326ef13926773dbcceaf3",
-      "currentHash": "cb368ca3f6acc599147db8c981866949f6740fad42a736feb617b6eee50adaf1"
+      "currentHash": "2285a33bbb753511a3e5d4d7d9bb6c87aa0c37e11b9a36f2a8f1484d7891bf30"
     }
   },
   {
@@ -74984,28 +74840,20 @@
             31000
           ],
           "part_sub_list": [
-            20103,
-            21103
+            20103
           ]
         },
         {
-          "suit_list": [
-            33200,
-            31000
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31803,
             12102
           ]
         },
         {
-          "suit_list": [
-            32900,
-            31200
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12202,
-            12102
+            12202
           ]
         }
       ],
@@ -75046,7 +74894,7 @@
     },
     "liveComparison": {
       "liveHash": "1189538780c9ac4129d1f340a78d016ea0376d621288be26a8c73531fc34226f",
-      "currentHash": "edc9c4e68a3ccba40d0b086d66c01c26c742f52b005866c314ea2993b8b34172"
+      "currentHash": "59781f186dcfcd0cfae487221825395fbd95e3396363751d53b3c505f156758a"
     }
   },
   {
@@ -77346,8 +77194,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         }
       ],
@@ -77389,7 +77236,7 @@
     },
     "liveComparison": {
       "liveHash": "39cda298fc3d8f94c294c4fbe213d2de8ef194509bd195dcf3deaf78a32348fe",
-      "currentHash": "802615b05de880cfd5280c5f4d3deee0ade160dfd7b6fd5af25d8a26cc7bf9bc"
+      "currentHash": "5c2f5023671d508f8bffe4525336c45c63f5d0fd0584cb17fdc12386004b687d"
     }
   },
   {
@@ -79673,8 +79520,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -79830,7 +79676,7 @@
     },
     "liveComparison": {
       "liveHash": "f15ee65cbd69521f45fb5e465d33cf1339b73329361874cc8817f1ccd39d198d",
-      "currentHash": "f1e793082ab255082afe1f3e2aff216018ca0062129c8c0358b2a18734fc3b3c"
+      "currentHash": "2f05ce0ea2e309cb3a7c990fe0f433fd43b15ca4043bfed20f58baeae6df52c7"
     }
   },
   {
@@ -81721,13 +81567,9 @@
           ]
         },
         {
-          "suit_list": [
-            33200,
-            31000
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12102,
-            31603
+            12102
           ]
         },
         {
@@ -81775,7 +81617,7 @@
     },
     "liveComparison": {
       "liveHash": "d1f378217edcb7a28d15a577b54319f597fcb65213038623685d5b3ab69d18a6",
-      "currentHash": "b3b08d87012ebee2e6c84a1f6f5adef134fb51ca17992a29a76860d17f97a744"
+      "currentHash": "c98047549d209fcf32c8d2aaf4837f494e4993922b527516fb29c6bc205db348"
     }
   },
   {
@@ -83785,25 +83627,19 @@
             33000
           ],
           "part_sub_list": [
-            31203,
-            20103
-          ]
-        },
-        {
-          "suit_list": [
-            32600,
-            31300
-          ],
-          "part_sub_list": [
-            31503,
-            12102
+            31203
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31503
+          ]
+        },
+        {
+          "suit_list": [],
+          "part_sub_list": [
+            31402
           ]
         }
       ],
@@ -83844,7 +83680,7 @@
     },
     "liveComparison": {
       "liveHash": "e0721bb61ac555338143bfbdb2ee54b1c0fa77d7f5d96bcb22b19ede04fe0a7c",
-      "currentHash": "75d279e99be648dc74615e3262ec75cdb6d5ca5f9fdb61b4a7b2505f2a2cab72"
+      "currentHash": "a7714143fd006e55470d266a38276ae994969abbb8c2718863b9f3c4ae2d1ca5"
     }
   },
   {
@@ -85888,8 +85724,7 @@
             33000
           ],
           "part_sub_list": [
-            12102,
-            31203
+            12102
           ]
         },
         {
@@ -85898,8 +85733,7 @@
             33000
           ],
           "part_sub_list": [
-            12102,
-            31503
+            12102
           ]
         },
         {
@@ -85908,8 +85742,7 @@
             33000
           ],
           "part_sub_list": [
-            31402,
-            12102
+            31402
           ]
         }
       ],
@@ -85950,7 +85783,7 @@
     },
     "liveComparison": {
       "liveHash": "998f27f5cdb25a0af41ddbc92d4db8257d737c07af03c9c30455e82dd27f1f6b",
-      "currentHash": "4e2611c206c458cc4db79b7749a628f3fc371183b08503af6c2f6e70815d5f84"
+      "currentHash": "d0f6c18c0e4a275016bff07cbb64a37407a2a881452735d49c5a642f184a16b5"
     }
   },
   {
@@ -87706,18 +87539,13 @@
             31600
           ],
           "part_sub_list": [
-            12102,
-            20103
+            12102
           ]
         },
         {
-          "suit_list": [
-            32800,
-            31400
-          ],
+          "suit_list": [],
           "part_sub_list": [
-            12102,
-            11102
+            12102
           ]
         },
         {
@@ -87764,7 +87592,7 @@
     },
     "liveComparison": {
       "liveHash": "5a5904f06cb737fa6d6d35b02bde8436c0bddeb0606c1e77d360a1695dbc86bc",
-      "currentHash": "ceb56622cc493e5f28ce23d3989acef91d6cbd9279b44fab0dffa5e6973ab371"
+      "currentHash": "a1e9a8f6c3638c07a39cd154827bc9a6f2fe037554f9ecf5605e4ac9559b9667"
     }
   },
   {
@@ -90701,15 +90529,11 @@
             32700
           ],
           "part_sub_list": [
-            21103,
-            20103
+            21103
           ]
         },
         {
-          "suit_list": [
-            33500,
-            31100
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31503,
             12102
@@ -90718,8 +90542,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            11102
+            12102
           ]
         }
       ],
@@ -90761,7 +90584,7 @@
     },
     "liveComparison": {
       "liveHash": "c71cd10a11a315a8442b8baa24cf3540a375b6ad62000afcc74850b6ca98a833",
-      "currentHash": "6d6bc747ea50131ca53dca3e7abcd9e2ab03e502b2bf0f59cf06b91799682b0f"
+      "currentHash": "b34f92e663810bb7dc36856774e378c6db5a4ca4022be41493450b660e26451a"
     }
   },
   {
@@ -93121,8 +92944,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         }
       ],
@@ -93162,7 +92984,7 @@
     },
     "liveComparison": {
       "liveHash": "7907eb02511d40618ed209e09a86df000a691254450f1547cd6feae5dc20930c",
-      "currentHash": "8380af725a73f5ed8edad7d09a006a481e6f9c2531ced839949059c3c65e15c8"
+      "currentHash": "73df7f92ec8307b24c31cdc5c2f9793ed1febc4b1820c36479209452d8308031"
     }
   },
   {
@@ -95211,8 +95033,7 @@
             33100
           ],
           "part_sub_list": [
-            11102,
-            20103
+            11102
           ]
         },
         {
@@ -95221,15 +95042,13 @@
             31600
           ],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            11102,
-            30502
+            11102
           ]
         }
       ],
@@ -95270,7 +95089,7 @@
     },
     "liveComparison": {
       "liveHash": "43d1d391b72e1d45a2146984b3254435cbc6ef1c862772d5e578ffed8ce41954",
-      "currentHash": "dff4d8065b1f69587f41c0ae6ddefd64ae15e303e7034ea94cb4923bd8c7c276"
+      "currentHash": "163ed2ac7e2b281643076d40f705febcffdc7637fe5f33ec5eb63aeaad0e6fc1"
     }
   },
   {
@@ -97234,15 +97053,13 @@
           ],
           "part_sub_list": [
             31803,
-            12102,
-            23103
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -97283,7 +97100,7 @@
     },
     "liveComparison": {
       "liveHash": "fda3bddf26387b82a022a8594524694d2c9d7989e3a5ae4710dc77411a42c48c",
-      "currentHash": "267040756eb6b79e94d0eef364bc9e43e1837a540ed0a16aeedf610deeeafa4c"
+      "currentHash": "de1b997bc7e20b4bac9f33ede721ea6160e3164fd647c41e92d62a2c343e9b30"
     }
   },
   {
@@ -99863,8 +99680,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         }
       ],
@@ -99905,7 +99721,7 @@
     },
     "liveComparison": {
       "liveHash": "748194e0836ca35cf02e4c651e3026538441b24872b0b5726fb5d7fd092916f3",
-      "currentHash": "7f83466dd90cfbb6001f8a4903297dbb2eea0d81ad7afd8ceb199b4266a50ffb"
+      "currentHash": "7a49da40f928042e76857d98ec54426bb2c344d7245a93f0353d3dfc6738ea8a"
     }
   },
   {
@@ -101918,15 +101734,11 @@
             31000
           ],
           "part_sub_list": [
-            20103,
-            21103
+            20103
           ]
         },
         {
-          "suit_list": [
-            33200,
-            33400
-          ],
+          "suit_list": [],
           "part_sub_list": [
             12102,
             31503
@@ -101935,8 +101747,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            12202
+            30502
           ]
         }
       ],
@@ -101977,7 +101788,7 @@
     },
     "liveComparison": {
       "liveHash": "0a055f03ce58df9fe13c1b5963b438155b115ae85c4a67be6ef6a2f7ef59c6cc",
-      "currentHash": "b6bc165c3fdab1b1ead91053ba598f48f9b97bbe9872a857833a277d6d83f991"
+      "currentHash": "dc3d0a152dbd44c4e87d18c63ee33f73cba107a9768a4579a6ba9e650b98225b"
     }
   },
   {
@@ -102045,6 +101856,12 @@
         "desc": "Freshly baked cake, rich aromatic coffee, and the warm afternoon sun...\nWrapped in moments of softness, it's time to begin today's tea break.",
         "obtain_desc": "",
         "image": "IconRole58_01"
+      },
+      "3114912": {
+        "name": "...",
+        "desc": "...",
+        "obtain_desc": "",
+        "image": "IconRole58_02"
       }
     },
     "stats": {
@@ -103848,8 +103665,7 @@
             31600
           ],
           "part_sub_list": [
-            12102,
-            20103
+            12102
           ]
         },
         {
@@ -103858,15 +103674,13 @@
             32800
           ],
           "part_sub_list": [
-            12102,
-            11102
+            12102
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            12102
+            30502
           ]
         }
       ],
@@ -103907,7 +103721,7 @@
     },
     "liveComparison": {
       "liveHash": "decb28b5dd67195125281904c3368178b5b6d75e29c815135c1d27a4cee77d6a",
-      "currentHash": "5f12568d44b4b7bd22e29ca48bd971b750a741d2410e3208ff2cf521c6f7d0f5"
+      "currentHash": "e6ac04a5e25e69749279c703d5c2d1af49a5995410b764a088f3b668e2bab158"
     }
   },
   {
@@ -103975,6 +103789,12 @@
         "desc": "Aria's performance outfit for special shows, worn only a handful of times.\nA pure-white \"angel\" clad in \"demonic\" wings. Take a deep breath, get ready... once the spotlight comes on, it's the Angels of Delusion's time to rebel.",
         "obtain_desc": "",
         "image": "IconRole57_01"
+      },
+      "3115012": {
+        "name": "...",
+        "desc": "...",
+        "obtain_desc": "",
+        "image": "IconRole57_02"
       }
     },
     "stats": {
@@ -106023,8 +105843,7 @@
             33000
           ],
           "part_sub_list": [
-            31203,
-            12102
+            31203
           ]
         },
         {
@@ -106033,15 +105852,13 @@
             33600
           ],
           "part_sub_list": [
-            31903,
-            12102
+            31903
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31402
           ]
         }
       ],
@@ -106082,7 +105899,7 @@
     },
     "liveComparison": {
       "liveHash": "e02140e55be37f0c3ff2608b6c67b97fdd323223fdd39518e97cd3be35638f2a",
-      "currentHash": "929d2a3a73942524038786ded34799b92775e5a1e4eeed6788bd07be79c453c8"
+      "currentHash": "ad931976ef2e51b99187731979af962b0422bfa602f7a4f183ccf0618576df76"
     }
   },
   {
@@ -106150,6 +105967,12 @@
         "desc": "Dancing within disordered rhythms, spinning across a stage of wild fantasia.\nThe boundary between angel and demon tilts with the lights, dissolving within her reflection.",
         "obtain_desc": "",
         "image": "IconRole59_01"
+      },
+      "3115112": {
+        "name": "...",
+        "desc": "...",
+        "obtain_desc": "",
+        "image": "IconRole59_02"
       }
     },
     "stats": {
@@ -107866,25 +107689,19 @@
             31300
           ],
           "part_sub_list": [
-            31203,
-            12102
-          ]
-        },
-        {
-          "suit_list": [
-            33600,
-            33000
-          ],
-          "part_sub_list": [
-            31903,
-            12102
+            31203
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31903
+          ]
+        },
+        {
+          "suit_list": [],
+          "part_sub_list": [
+            31402
           ]
         }
       ],
@@ -107925,7 +107742,7 @@
     },
     "liveComparison": {
       "liveHash": "88f3f47ed64206a32ccfb102588afd09b6c3b0d1ae68b3b2ed98cf922c5ed352",
-      "currentHash": "ee9071520dd7b0bd6eb1c3529f3974167e28beb10354a92a2582de681535156d"
+      "currentHash": "e1d30d2ba705948e6e8c4b2f70459aa61eb60bac9ebe614f6dd3895088decf04"
     }
   },
   {
@@ -109722,8 +109539,7 @@
             33400
           ],
           "part_sub_list": [
-            20103,
-            21103
+            20103
           ]
         },
         {
@@ -109739,8 +109555,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            12102
+            30502
           ]
         }
       ],
@@ -109781,7 +109596,7 @@
     },
     "liveComparison": {
       "liveHash": "b2a99ae1bd0a7e26da3f2a42b4b2ffa45ec6f6e988a69c62da2f7cff200f2f13",
-      "currentHash": "189e4764559eda185e9cd07adbba4efdcc094fd7fd79e39b007c1e13af670bbe"
+      "currentHash": "ed98df550a63f83b8141fae78f12fb231a3bc2f5c6ea8aef3c996add5aed755a"
     }
   },
   {
@@ -111784,8 +111599,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            11102,
-            12102
+            11102
           ]
         }
       ],
@@ -111826,7 +111640,7 @@
     },
     "liveComparison": {
       "liveHash": "8b222fd557caa3ba66ed96ba96b8c36afd2e4622f6964fef964de0c560dbf049",
-      "currentHash": "0b6f6241f3e76f4cfcb4ddfc9c8a42ae92efec42e0781c23f647c2e0f0b4a107"
+      "currentHash": "36a57032cd69a533aa7d5478c0377b24a67b75a4013aa58c6a4898fcc2456f17"
     }
   },
   {
@@ -113831,25 +113645,19 @@
             33000
           ],
           "part_sub_list": [
-            31203,
-            12102
-          ]
-        },
-        {
-          "suit_list": [
-            33800,
-            31300
-          ],
-          "part_sub_list": [
-            31703,
-            12102
+            31203
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            31402,
-            12102
+            31703
+          ]
+        },
+        {
+          "suit_list": [],
+          "part_sub_list": [
+            31402
           ]
         }
       ],
@@ -113890,7 +113698,7 @@
     },
     "liveComparison": {
       "liveHash": "7990a0527f62c1ebd77ccf5465abce3775173112d482028cfc81b723241ee122",
-      "currentHash": "ff169e0d63a690a7b684e998745e1fef42a231fa846b500e38d49f101f2c0004"
+      "currentHash": "220b538300e3a2ab08e3d4a3653f64c5a2def0b71aad8f23b81b508c6fd34bd0"
     }
   },
   {
@@ -115949,15 +115757,13 @@
           ],
           "part_sub_list": [
             31903,
-            23103,
-            12102
+            23103
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            11102
+            12102
           ]
         }
       ],
@@ -115992,7 +115798,7 @@
     },
     "liveComparison": {
       "liveHash": "81474cf5c7d664559ab50047f61c967e798209a01fe26059bc1294f5f4a95d9c",
-      "currentHash": "85c39100a37def101bdc6d65976359120b8b6c48bb98e314e8fb27369e0c3b77"
+      "currentHash": "ac797f12482ecd5d13c8c51932a5a03687a907ea21cf835f2cd0e4dcc10da647"
     }
   },
   {
@@ -117908,8 +117714,7 @@
             31600
           ],
           "part_sub_list": [
-            31203,
-            12102
+            31203
           ]
         },
         {
@@ -117918,15 +117723,13 @@
             33400
           ],
           "part_sub_list": [
-            32303,
-            12102
+            32303
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            31402
+            30502
           ]
         }
       ],
@@ -117961,7 +117764,7 @@
     },
     "liveComparison": {
       "liveHash": "2a3df378fdc918b9c564b7d1bf33d6ec701eaba429465dd73f21d3472dcfd901",
-      "currentHash": "6a32f2188772d5fcfdb49bacff77f4a0772f9a044fd71dd05d38f0cc8f276ae4"
+      "currentHash": "17b96898beea0d5a1ced78b2bd0af2f6cf38f73bf6ef26d2b877c26c7b4f7e88"
     }
   },
   {
@@ -120051,15 +119854,11 @@
             31000
           ],
           "part_sub_list": [
-            20103,
-            21103
+            20103
           ]
         },
         {
-          "suit_list": [
-            33200,
-            33400
-          ],
+          "suit_list": [],
           "part_sub_list": [
             31603,
             12102
@@ -120068,8 +119867,7 @@
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            12202
+            30502
           ]
         }
       ],
@@ -120104,7 +119902,7 @@
     },
     "liveComparison": {
       "liveHash": "a09196a32d118c4265e60aeb21436e393893b9163e95bf6b05d812cd70599e33",
-      "currentHash": "8da8d6250ea4dbeacba57dae837197549ce8f227559c12112f54b3289aac2814"
+      "currentHash": "ac1ae109946f427c1357c7348dd91b21e2b6f1ca6985800ba5c7836680da6734"
     }
   },
   {
@@ -122104,25 +121902,19 @@
             31300
           ],
           "part_sub_list": [
-            31203,
-            12102
-          ]
-        },
-        {
-          "suit_list": [
-            34100,
-            31800
-          ],
-          "part_sub_list": [
-            12102,
-            11102
+            31203
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            31402
+            12102
+          ]
+        },
+        {
+          "suit_list": [],
+          "part_sub_list": [
+            12102
           ]
         }
       ],
@@ -122157,7 +121949,7 @@
     },
     "liveComparison": {
       "liveHash": "935ad29286e283eb67b2337545fcb08087236165f72f666757e5feb1785b3583",
-      "currentHash": "ecb8521fb8ce6b0fda617ada6c01b65735527eb353dc6f5793d8a2b6315bfad7"
+      "currentHash": "359ccb246366a5fbd8f1c0cf59d4c5ba2f56241fae3d036650b96e2cb88bf403"
     }
   },
   {
@@ -123991,26 +123783,23 @@
             31100
           ],
           "part_sub_list": [
-            21103,
-            20103,
-            12102
+            21103
           ]
         },
         {
           "suit_list": [
             33300,
-            33800
+            32700
           ],
           "part_sub_list": [
             23103,
-            12102
+            31703
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            12102,
-            30502
+            12102
           ]
         }
       ],
@@ -124045,7 +123834,7 @@
     },
     "liveComparison": {
       "liveHash": "8ee403fe15eb9b0c01fbf249fb50cb7213953f66b8b4d14531288a8ea156398a",
-      "currentHash": "1e3961a6c0689eab98b41dfe629b8ba26cda05d2a1957abd39b24b5f00aff913"
+      "currentHash": "01c85ec61fd00079e9758b7d601cb6ef9658873e6741cec7cd636c3c13cfbe80"
     }
   },
   {
@@ -124504,12 +124293,12 @@
         "group": "basic",
         "descriptions": [
           {
-            "name": "Basic Attack: Hold Up a Moment",
-            "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 Strikes ahead, dealing <color=#A6C5FD>Wind DMG</color>.",
+            "name": "Basic Attack: Do Stay a While",
+            "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to 4 strikes forward, dealing <color=#A6C5FD>Wind DMG</color>.",
             "potential": []
           },
           {
-            "name": "Basic Attack: Hold Up a Moment",
+            "name": "Basic Attack: Do Stay a While",
             "param": [
               {
                 "name": "1st-Hit DMG Multiplier",
@@ -124728,22 +124517,22 @@
         "group": "dodge",
         "descriptions": [
           {
-            "name": "Dodge: Excuse me",
+            "name": "Dodge: Excuse Me",
             "desc": "Press <IconMap:Icon_Evade> to activate:\nPerform a quick dodge to the side.",
             "potential": []
           },
           {
-            "name": "Dash Attack: Rude Awakening",
-            "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrikes enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.",
+            "name": "Dash Attack: Forgive My Rudeness",
+            "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrike forward, dealing <color=#A6C5FD>Wind DMG</color>.",
             "potential": []
           },
           {
-            "name": "Dodge Counter: Giving Back",
-            "desc": "Press <IconMap:Icon_Normal> during a Perfect Dodge to activate:\nStrike enemies ahead, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+            "name": "Dodge Counter: Returned Courtesy",
+            "desc": "Press <IconMap:Icon_Normal> during a Perfect Dodge to activate:\nStrike enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Dash Attack: Rude Awakening",
+            "name": "Dash Attack: Forgive My Rudeness",
             "param": [
               {
                 "name": "DMG Multiplier",
@@ -124801,7 +124590,7 @@
             "potential": []
           },
           {
-            "name": "Dodge Counter: Giving Back",
+            "name": "Dodge Counter: Returned Courtesy",
             "param": [
               {
                 "name": "DMG Multiplier",
@@ -124864,32 +124653,32 @@
         "group": "special",
         "descriptions": [
           {
-            "name": "Special Attack: Don't Let the Door Hit Ya",
-            "desc": "<color=#ffffff>[EX Special Attack: Rest in Peace]</color> Upon conclusion, automatically activates when at least 3 <color=#ffffff><Term:1000040></Term></color> exist on the field:\nThrows a hammer at enemies on the field, dealing <color=#A6C5FD>Wind DMG</color>;\n<color=#ffffff><Term:1000040></Term></color> hit by this skill will be detonated, up to a maximum of 3 <color=#ffffff><Term:1000040></Term></color>. Generates mini cyclones based on the number of <color=#ffffff><Term:1000040></Term></color> hit, dealing <color=#A6C5FD>Wind DMG</color>;\nIf 3 <color=#ffffff><Term:1000040></Term></color> are detonated at once, a giant cyclone is generated instead, dealing <color=#A6C5FD>Wind DMG</color>;\nCharacter is invulnerable while using this skill.",
+            "name": "Special Attack: Forgive Me for Not Seeing You Off",
+            "desc": "<color=#FFFFFF>[EX Special Attack: Kindly Rest in Peace]</color> When activated, if there are a combined total of at least 3 <Term:1000040></Term> and own <Term:1000039></Term> on the field, automatically activates:\nThrows her hammer at enemies on the field, dealing <color=#A6C5FD>Wind DMG</color>;\n<color=#FFFFFF>[Storm's Eye]</color> hit by this skill are detonated, up to 3 <color=#FFFFFF>[Storm's Eye]</color> at a time. Miniature Windstorms are generated based on the number of Storm's Eyes hit, dealing <color=#A6C5FD>Wind DMG</color>;\nIf 3 <color=#FFFFFF>[Storm's Eye]</color> are detonated at once, a Giant Windstorm is generated instead, dealing <color=#A6C5FD>Wind DMG</color>;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Special Attack: Excuse Me",
-            "desc": "Press <IconMap:Icon_Special> to activate:\nStrike forward, dealing <color=#A6C5FD>Wind DMG</color>.",
+            "name": "Special Attack: Much Obliged",
+            "desc": "Press <IconMap:Icon_Special> to activate:\nPerform a forward strike, dealing <color=#A6C5FD>Wind DMG</color>.",
             "potential": []
           },
           {
-            "name": "EX Special Attack: Watch for the Chill",
-            "desc": "With enough energy, press or hold <IconMap:Icon_SpecialReady> to activate:\nSlides forward, dealing <color=#A6C5FD>Wind DMG</color>;\nIf <IconMap:Icon_SpecialReady> is held during the slide, Roxy enters the <color=#FFFFFF>[Spin]</color> state:\nIn the <color=#FFFFFF>[Spin]</color> state, Roxy transforms into a tornado. Drag the joystick to control the tornado's movement direction. Energy is continuously consumed while dealing <color=#A6C5FD>Wind DMG</color> to enemies in the path. The <color=#FFFFFF>[Spin]</color> state ends when Energy is depleted or when <IconMap:Icon_SpecialReady> is released without dragging the joystick;\nWhen the slide ends or the <color=#FFFFFF>[Spin]</color> state is exited, automatically follows up with <color=#ffffff>[EX Special Attack: Rest in Peace]</color>;\nCharacter is invulnerable while using this skill.",
+            "name": "EX Special Attack: Don't Catch a Chill",
+            "desc": "With enough energy, press or hold <IconMap:Icon_SpecialReady> to activate:\nSlide forward, dealing <color=#A6C5FD>Wind DMG</color>.\nWhile sliding, press and hold <IconMap:Icon_SpecialReady> to have Roxy enter the <color=#FFFFFF>Whirlwind</color> state:\nWhile in the <color=#FFFFFF>Whirlwind</color> state, Roxy transforms into a tornado. Drag the joystick to control its direction. During this, Energy is continuously consumed, dealing <color=#A6C5FD>Wind DMG</color> to enemies along its path. When Energy is depleted, or when <IconMap:Icon_SpecialReady> is released while the joystick is not being moved, Roxy exits the <color=#FFFFFF>Whirlwind</color> state.\nWhen the slide  ends or when exiting the <color=#FFFFFF>Whirlwind</color> state, automatically follow up with <color=#ffffff>EX Special Attack: Kindly Rest in Peace</color>.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "EX Special Attack: Rest in Peace",
-            "desc": "<color=#ffffff>[EX Special Attack: Watch Out for Wind Chill]</color> automatically activates upon conclusion:\nConsumes all <color=#ffffff><Term:1000039></Term></color> to fire a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>;\nFor every 1 <color=#ffffff><Term:1000039></Term></color> consumed, deals an additional instance of <color=#A6C5FD>Wind DMG</color> after the attack, and generates 1 <color=#ffffff><Term:1000040></Term></color> at the current position;\nWhen [Windswept] is triggered on enemies during this skill, it triggers the <color=#FFFFFF>Quick Assist</color> of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
+            "name": "EX Special Attack: Kindly Rest in Peace",
+            "desc": "Automatically activates after <color=#FFFFFF>EX Special Attack: Don't Catch a Chill</color> ends:\nConsume all <Term:1000039></Term> to fire a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>.\nAfter the attack, for each point of <color=#FFFFFF>Wind Energy</color> consumed, deals an additional instance of <color=#A6C5FD>Wind DMG</color> and generates 1 <Term:1000040></Term> at the current position.",
             "potential": []
           },
           {
-            "name": "Eye of the Storm",
-            "desc": "<color=#ffffff>[EX Special Attack: Rest in Peace]</color> Generated after consuming <color=#ffffff><Term:1000039></Term></color>, lasts 30 seconds;\n<color=#ffffff><Term:1000040></Term></color> A maximum of 9 can exist simultaneously. When the limit is exceeded, the earliest generated <color=#ffffff><Term:1000040></Term></color> will automatically detonate;\nWhen hit by <color=#ffffff>[Special Attack: No Need to See You Off]</color> or <color=#ffffff>[Ultimate: Burial Night Requiem]</color>, they will be detonated. If fewer than 3 are hit simultaneously, each <color=#ffffff><Term:1000040></Term></color> position will generate 1 mini vortex that tracks enemies and deals <color=#A6C5FD>Wind DMG</color>, lasting 1 second;\nIf 3 are hit simultaneously, 1 giant vortex will be generated instead, dealing <color=#A6C5FD>Wind DMG</color>, lasting 1 second.\nWhen detonated by any means, <color=#ffffff><Term:1000040></Term></color> will emit an Explosive blast dealing <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
+            "name": "Storm's Eye",
+            "desc": "Generated after <color=#FFFFFF>[EX Special Attack: Kindly Rest in Peace]</color> consumes <Term:1000039></Term>, lasting 30s before automatically detonating;\nUp to 9 <Term:1000040></Term> can exist at the same time. If this limit is exceeded, the earliest generated <color=#FFFFFF>[Storm's Eye]</color> will automatically detonate;\nDetonates when hit by <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color>. If fewer than 3 are hit at the same time, 1 Miniature Windstorm is generated at the location of each <color=#FFFFFF>[Storm's Eye]</color>, tracking enemies and dealing <color=#A6C5FD>Wind DMG</color> for 1s;\nIf 3 are hit at the same time, 1 Giant Windstorm is generated instead, dealing <color=#A6C5FD>Wind DMG</color> for 1s.\nWhen detonated by any means, a <color=#FFFFFF>[Storm's Eye]</color> releases a blast, dealing 1 instance of <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
             "potential": []
           },
           {
-            "name": "Special Attack: Excuse Me",
+            "name": "Special Attack: Much Obliged",
             "param": [
               {
                 "name": "DMG Multiplier",
@@ -124947,25 +124736,25 @@
             "potential": []
           },
           {
-            "name": "Special Attack: Don't Let the Door Hit Ya",
+            "name": "Special Attack: Forgive Me for Not Seeing You Off",
             "param": [
               {
                 "name": "DMG Multiplier",
                 "desc": "{Skill:1621005, Prop:1001}",
                 "param": {
                   "1621005": {
-                    "main": 66660,
-                    "growth": 6060,
+                    "main": 25000,
+                    "growth": 2280,
                     "format": "%",
-                    "damage_percentage": 66660,
-                    "damage_percentage_growth": 6060,
-                    "stun_ratio": 14110,
-                    "stun_ratio_growth": 650,
+                    "damage_percentage": 25000,
+                    "damage_percentage_growth": 2280,
+                    "stun_ratio": 7060,
+                    "stun_ratio_growth": 330,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 0,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 12819,
+                    "attribute_infliction": 6409,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
@@ -124980,18 +124769,18 @@
                 "desc": "{Skill:1621005, Prop:1002}",
                 "param": {
                   "1621005": {
-                    "main": 14110,
-                    "growth": 650,
+                    "main": 7060,
+                    "growth": 330,
                     "format": "%",
-                    "damage_percentage": 66660,
-                    "damage_percentage_growth": 6060,
-                    "stun_ratio": 14110,
-                    "stun_ratio_growth": 650,
+                    "damage_percentage": 25000,
+                    "damage_percentage_growth": 2280,
+                    "stun_ratio": 7060,
+                    "stun_ratio_growth": 330,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 0,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 12819,
+                    "attribute_infliction": 6409,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
@@ -125005,18 +124794,18 @@
             "potential": []
           },
           {
-            "name": "EX Special Attack: Watch for the Chill",
+            "name": "EX Special Attack: Don't Catch a Chill",
             "param": [
               {
                 "name": "DMG Multiplier",
                 "desc": "{Skill:1621007, Prop:1001}",
                 "param": {
                   "1621007": {
-                    "main": 2730,
-                    "growth": 250,
+                    "main": 1370,
+                    "growth": 130,
                     "format": "%",
-                    "damage_percentage": 2730,
-                    "damage_percentage_growth": 250,
+                    "damage_percentage": 1370,
+                    "damage_percentage_growth": 130,
                     "stun_ratio": 1160,
                     "stun_ratio_growth": 60,
                     "sp_recovery": 0,
@@ -125041,8 +124830,8 @@
                     "main": 1160,
                     "growth": 60,
                     "format": "%",
-                    "damage_percentage": 2730,
-                    "damage_percentage_growth": 250,
+                    "damage_percentage": 1370,
+                    "damage_percentage_growth": 130,
                     "stun_ratio": 1160,
                     "stun_ratio_growth": 60,
                     "sp_recovery": 0,
@@ -125065,22 +124854,22 @@
                 "potential": []
               },
               {
-                "name": "Spin DMG Multiplier Per Second",
+                "name": "Whirlwind DMG Multiplier Per Second",
                 "desc": "{Skill:1621008, Prop:1001}",
                 "param": {
                   "1621008": {
-                    "main": 117900,
-                    "growth": 10720,
+                    "main": 130400,
+                    "growth": 11860,
                     "format": "%",
-                    "damage_percentage": 117900,
-                    "damage_percentage_growth": 10720,
+                    "damage_percentage": 130400,
+                    "damage_percentage_growth": 11860,
                     "stun_ratio": 46300,
                     "stun_ratio_growth": 2110,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 843425,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 59179,
+                    "attribute_infliction": 61583,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
@@ -125091,22 +124880,22 @@
                 "potential": []
               },
               {
-                "name": "Spin Daze Multiplier Per Second",
+                "name": "Whirlwind Daze Multiplier Per Second",
                 "desc": "{Skill:1621008, Prop:1002}",
                 "param": {
                   "1621008": {
                     "main": 46300,
                     "growth": 2110,
                     "format": "%",
-                    "damage_percentage": 117900,
-                    "damage_percentage_growth": 10720,
+                    "damage_percentage": 130400,
+                    "damage_percentage_growth": 11860,
                     "stun_ratio": 46300,
                     "stun_ratio_growth": 2110,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 843425,
                     "fever_recovery_growth": 0,
-                    "attribute_infliction": 59179,
+                    "attribute_infliction": 61583,
                     "sp_consume": 0,
                     "attack_data": [],
                     "rp_recovery": 0,
@@ -125117,7 +124906,7 @@
                 "potential": []
               },
               {
-                "name": "Energy Cost per Second",
+                "name": "Energy Cost Per Second",
                 "desc": "30",
                 "potential": []
               }
@@ -125125,18 +124914,18 @@
             "potential": []
           },
           {
-            "name": "EX Special Attack: Rest in Peace",
+            "name": "EX Special Attack: Kindly Rest in Peace",
             "param": [
               {
                 "name": "DMG Multiplier",
                 "desc": "{Skill:1621023, Prop:1001}",
                 "param": {
                   "1621023": {
-                    "main": 6370,
-                    "growth": 580,
+                    "main": 3190,
+                    "growth": 290,
                     "format": "%",
-                    "damage_percentage": 6370,
-                    "damage_percentage_growth": 580,
+                    "damage_percentage": 3190,
+                    "damage_percentage_growth": 290,
                     "stun_ratio": 2700,
                     "stun_ratio_growth": 130,
                     "sp_recovery": 0,
@@ -125161,8 +124950,8 @@
                     "main": 2700,
                     "growth": 130,
                     "format": "%",
-                    "damage_percentage": 6370,
-                    "damage_percentage_growth": 580,
+                    "damage_percentage": 3190,
+                    "damage_percentage_growth": 290,
                     "stun_ratio": 2700,
                     "stun_ratio_growth": 130,
                     "sp_recovery": 0,
@@ -125184,11 +124973,11 @@
                 "desc": "{Skill:1621021, Prop:1001}",
                 "param": {
                   "1621021": {
-                    "main": 5210,
-                    "growth": 480,
+                    "main": 2610,
+                    "growth": 240,
                     "format": "%",
-                    "damage_percentage": 5210,
-                    "damage_percentage_growth": 480,
+                    "damage_percentage": 2610,
+                    "damage_percentage_growth": 240,
                     "stun_ratio": 0,
                     "stun_ratio_growth": 0,
                     "sp_recovery": 0,
@@ -125209,7 +124998,7 @@
             "potential": []
           },
           {
-            "name": "Eye of the Storm",
+            "name": "Storm's Eye",
             "param": [
               {
                 "name": "Detonation DMG Multiplier",
@@ -125238,15 +125027,15 @@
                 "potential": []
               },
               {
-                "name": "Micro Wind Vortex DMG Multiplier Per Second",
+                "name": "Miniature Windstorm DMG Multiplier per Second",
                 "desc": "{Skill:1621019, Prop:1001}",
                 "param": {
                   "1621019": {
-                    "main": 7820,
-                    "growth": 720,
+                    "main": 5210,
+                    "growth": 480,
                     "format": "%",
-                    "damage_percentage": 7820,
-                    "damage_percentage_growth": 720,
+                    "damage_percentage": 5210,
+                    "damage_percentage_growth": 480,
                     "stun_ratio": 1770,
                     "stun_ratio_growth": 90,
                     "sp_recovery": 0,
@@ -125264,15 +125053,15 @@
                 "potential": []
               },
               {
-                "name": "Micro Wind Vortex Daze Multiplier Per Second",
+                "name": "Miniature Windstorm Daze Multiplier per Second",
                 "desc": "{Skill:1621019, Prop:1002}",
                 "param": {
                   "1621019": {
                     "main": 1770,
                     "growth": 90,
                     "format": "%",
-                    "damage_percentage": 7820,
-                    "damage_percentage_growth": 720,
+                    "damage_percentage": 5210,
+                    "damage_percentage_growth": 480,
                     "stun_ratio": 1770,
                     "stun_ratio_growth": 90,
                     "sp_recovery": 0,
@@ -125290,15 +125079,15 @@
                 "potential": []
               },
               {
-                "name": "Giant Wind Vortex DMG Multiplier Per Second",
+                "name": "Giant Windstorm DMG Multiplier per Second",
                 "desc": "{Skill:1621020, Prop:1001}",
                 "param": {
                   "1621020": {
-                    "main": 31250,
-                    "growth": 2850,
+                    "main": 20840,
+                    "growth": 1900,
                     "format": "%",
-                    "damage_percentage": 31250,
-                    "damage_percentage_growth": 2850,
+                    "damage_percentage": 20840,
+                    "damage_percentage_growth": 1900,
                     "stun_ratio": 7060,
                     "stun_ratio_growth": 330,
                     "sp_recovery": 0,
@@ -125316,15 +125105,15 @@
                 "potential": []
               },
               {
-                "name": "Giant Wind Vortex Daze Multiplier Per Second",
+                "name": "Giant Windstorm Daze Multiplier per Second",
                 "desc": "{Skill:1621020, Prop:1002}",
                 "param": {
                   "1621020": {
                     "main": 7060,
                     "growth": 330,
                     "format": "%",
-                    "damage_percentage": 31250,
-                    "damage_percentage_growth": 2850,
+                    "damage_percentage": 20840,
+                    "damage_percentage_growth": 1900,
                     "stun_ratio": 7060,
                     "stun_ratio_growth": 330,
                     "sp_recovery": 0,
@@ -125350,17 +125139,17 @@
         "group": "chain",
         "descriptions": [
           {
-            "name": "Chain Attack: Funeral Wind Greathammer",
-            "desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nUnleashes a powerful Strike at enemies ahead, dealing massive <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+            "name": "Chain Attack: Gale-Burial Great Hammer",
+            "desc": "When a <color=#ffffff>Chain Attack</color> is triggered, select the character to activate:\nUnleashes a powerful strike at enemies in front, dealing massive <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Ultimate: Requiem of the Buried Night",
-            "desc": "When Decibel Rating reaches [Maximum], press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive <color=#A6C5FD>Wind DMG</color>;\nAfter using this skill, recovers 1 <color=#ffffff><Term:1000039></Term></color>;\nCharacter is invulnerable while using this skill.",
+            "name": "Ultimate: Requiem for the Night-Burial",
+            "desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive <color=#A6C5FD>Wind DMG</color>;\nAfter using this skill, gain 1 <Term:1000039></Term>;\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Chain Attack: Funeral Wind Greathammer",
+            "name": "Chain Attack: Gale-Burial Great Hammer",
             "param": [
               {
                 "name": "DMG Multiplier",
@@ -125418,7 +125207,7 @@
             "potential": []
           },
           {
-            "name": "Ultimate: Requiem of the Buried Night",
+            "name": "Ultimate: Requiem for the Night-Burial",
             "param": [
               {
                 "name": "DMG Multiplier",
@@ -125481,38 +125270,38 @@
         "group": "assist",
         "descriptions": [
           {
-            "name": "Assist: Still pulling overtime?",
-            "desc": "Automatically activates when switching in after a Defensive Assist:\nLaunches a Strike against enemies in front, dealing <color=#A6C5FD>Wind DMG</color>;\nCharacter is invulnerable while using this skill.",
+            "name": "Assist: More Overtime?",
+            "desc": "Press <IconMap:Icon_Switch> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nRoxy stays on field and Strikes enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nUpon activating this skill, it is considered a <color=#FFFFFF>Basic Attack</color>.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
             "name": "Quick Assist: At Your Service",
-            "desc": "When the on-field character is launched, press <IconMap:Icon_Switch> to activate:\nStrikes forward, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+            "desc": "When the on-field character is launched, press <IconMap:Icon_Switch> to activate:\nStrikes enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Defensive Assist: Got Your Back",
-            "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nLaunches a Strike against enemies ahead, dealing <color=#A6C5FD>Wind DMG</color>.\nThis skill excels at parrying enemy attacks and reduces the consumption of <color=#FFFFFF>[Assist Points]</color> when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+            "name": "Defensive Assist: Allow Me to Assist",
+            "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of <color=#FFFFFF>[Assist Points]</color> when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Assist Follow-Up: Midnight Protocol",
-            "desc": "After using <color=#ffffff>[Defensive Assist]</color>, Press <IconMap:Icon_Normal> to activate:\nLaunches a Strike forward, dealing <color=#A6C5FD>Wind DMG</color>.",
+            "name": "Assist Follow-Up: Midnight Code",
+            "desc": "Press <IconMap:Icon_Normal> after a <color=#ffffff>Defensive Assist</color> to activate:\nPerform a forward strike, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
             "potential": []
           },
           {
-            "name": "Assist: Still pulling overtime?",
+            "name": "Assist: More Overtime?",
             "param": [
               {
                 "name": "DMG Multiplier",
                 "desc": "{Skill:1621018, Prop:1001}",
                 "param": {
                   "1621018": {
-                    "main": 7800,
-                    "growth": 710,
+                    "main": 3900,
+                    "growth": 360,
                     "format": "%",
-                    "damage_percentage": 7800,
-                    "damage_percentage_growth": 710,
+                    "damage_percentage": 3900,
+                    "damage_percentage_growth": 360,
                     "stun_ratio": 6600,
                     "stun_ratio_growth": 300,
                     "sp_recovery": 0,
@@ -125537,8 +125326,8 @@
                     "main": 6600,
                     "growth": 300,
                     "format": "%",
-                    "damage_percentage": 7800,
-                    "damage_percentage_growth": 710,
+                    "damage_percentage": 3900,
+                    "damage_percentage_growth": 360,
                     "stun_ratio": 6600,
                     "stun_ratio_growth": 300,
                     "sp_recovery": 0,
@@ -125617,7 +125406,7 @@
             "potential": []
           },
           {
-            "name": "Defensive Assist: Got Your Back",
+            "name": "Defensive Assist: Allow Me to Assist",
             "param": [
               {
                 "name": "Light Defensive Daze Multiplier",
@@ -125701,7 +125490,7 @@
             "potential": []
           },
           {
-            "name": "Assist Follow-Up: Midnight Protocol",
+            "name": "Assist Follow-Up: Midnight Code",
             "param": [
               {
                 "name": "DMG Multiplier",
@@ -125713,8 +125502,8 @@
                     "format": "%",
                     "damage_percentage": 61160,
                     "damage_percentage_growth": 5560,
-                    "stun_ratio": 38990,
-                    "stun_ratio_growth": 1780,
+                    "stun_ratio": 45870,
+                    "stun_ratio_growth": 2090,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 1440725,
@@ -125734,13 +125523,13 @@
                 "desc": "{Skill:1621017, Prop:1002}",
                 "param": {
                   "1621017": {
-                    "main": 38990,
-                    "growth": 1780,
+                    "main": 45870,
+                    "growth": 2090,
                     "format": "%",
                     "damage_percentage": 61160,
                     "damage_percentage_growth": 5560,
-                    "stun_ratio": 38990,
-                    "stun_ratio_growth": 1780,
+                    "stun_ratio": 45870,
+                    "stun_ratio_growth": 2090,
                     "sp_recovery": 0,
                     "sp_recovery_growth": 0,
                     "fever_recovery": 1440725,
@@ -125763,63 +125552,63 @@
     ],
     "skillList": {
       "1621001": {
-        "name": "Basic Attack: Hold Up, Please",
+        "name": "Basic Attack: Do Stay a While",
         "desc": "<IconMap:Icon_Normal>",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621002": {
-        "name": "Special Attack: Excuse Me",
+        "name": "Special Attack: Much Obliged",
         "desc": "<IconMap:Icon_Special>",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621003": {
-        "name": "EX Special Attack: Watch for Wind Chill",
-        "desc": "<IconMap:Icon_SpecialReady> (press or hold)",
+        "name": "EX Special Attack: Don't Catch a Chill",
+        "desc": "<IconMap:Icon_SpecialReady> (Press or Hold)",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621004": {
-        "name": "EX Special Attack: Rest in Peace",
-        "desc": "<IconMap:Icon_SpecialReady>(EX Special Attack: Automatically chains after Watch Out for Colds)",
+        "name": "EX Special Attack: Kindly Rest in Peace",
+        "desc": "<IconMap:Icon_SpecialReady> (Automatically triggers after EX Special Attack: Don't Catch a Chill)",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621005": {
-        "name": "Special Attack: Don't Let the Door Hit Ya",
-        "desc": "<IconMap:Icon_SpecialReady>(When Wind Eye > 3) (EX Special Attack: Automatically chains after Rest in Peace)",
+        "name": "Special Attack: Forgive Me for Not Seeing You Off",
+        "desc": "<IconMap:Icon_SpecialReady> (When Storm's Eye and Wind Energy total 3 or more) (EX Special Attack: Kindly Rest in Peace triggers automatically afterward)",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621006": {
-        "name": "Dash Attack: Rude",
+        "name": "Dash Attack: Forgive My Rudeness",
         "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621007": {
-        "name": "Dodge Counter: Giving Back",
+        "name": "Dodge Counter: Returned Courtesy",
         "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621008": {
-        "name": "Chain Attack: Funeral Wind Greathammer",
+        "name": "Chain Attack: Gale-Burial Great Hammer",
         "desc": "<IconMap:Icon_QTE>",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621009": {
-        "name": "Ultimate: Requiem of the Buried Night",
+        "name": "Ultimate: Requiem for the Night-Burial",
         "desc": "<IconMap:Icon_UltimateReady>",
         "element_type": 204,
         "hit_type": 102,
@@ -125833,22 +125622,22 @@
         "potential": []
       },
       "1621021": {
-        "name": "Defensive Assist: Got Your Back",
+        "name": "Defensive Assist: Allow Me to Assist",
         "desc": "<IconMap:Icon_Switch> (When Triggering Defensive Assist)",
         "element_type": 0,
         "hit_type": 0,
         "potential": []
       },
       "1621022": {
-        "name": "Assist Follow-Up: Midnight Protocol",
+        "name": "Assist Follow-Up: Midnight Code",
         "desc": "<IconMap:Icon_Normal> (After Defensive Assist)",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
       },
       "1621023": {
-        "name": "Assist: Overtime again?",
-        "desc": "<IconMap:Icon_Switch> ; <IconMap:Icon_Switch> (Switch after triggering Defensive Assist)",
+        "name": "Assist: More Overtime?",
+        "desc": "<IconMap:Icon_Switch> ; <IconMap:Icon_Switch> (Switch characters after using Defensive Assist)",
         "element_type": 204,
         "hit_type": 102,
         "potential": []
@@ -125860,12 +125649,12 @@
           "level": 1,
           "id": 1621501,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 beyond that threshold, ATK increases by 5, up to a maximum increase of <color=#2BAD00>480</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>40</color>;\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy afflicted with <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>. <color=#FFFFFF>[Contamination]</color> will revert to <color=#FFFFFF>[Windswept]</color>;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or re-applies <color=#FFFFFF>[Windswept]</color> to an enemy already under <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to <color=#2BAD00>20%</color>, and <color=#FFFFFF>[Armorer]</color> Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to <color=#2BAD00>10%</color>. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>480</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>40</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>17%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>10%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buffs corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125874,12 +125663,12 @@
           "level": 2,
           "id": 1621502,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> has a maximum of 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of <color=#2BAD00>560</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>46</color>.\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>. The <color=#FFFFFF>[Contamination]</color> effect reverts to a <color=#FFFFFF>[Windswept]</color> effect.\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or applies <color=#FFFFFF>[Windswept]</color> again to an enemy already affected by <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain increased CRIT DMG of the Contamination or Cleanse attribute and Wind attribute by 0.4%, up to <color=#2BAD00>23</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain increased Laceration DMG of the Cleanse attribute and Wind attribute by 0.2%, up to <color=#2BAD00>11.5</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>560</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>46</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>20%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>11.5%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buffs corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125888,12 +125677,12 @@
           "level": 3,
           "id": 1621503,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of <color=#2BAD00>640</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>52</color>;\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>, and the <color=#FFFFFF>[Contamination]</color> effect reverts to <color=#FFFFFF>[Windswept]</color>;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or applies <color=#FFFFFF>[Windswept]</color> again to an enemy already affected by <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain Contamination or Cleanse attribute and Wind CRIT DMG increased by 0.4%, up to <color=#2BAD00>26</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain Cleanse attribute and Wind Laceration DMG increased by 0.2%, up to <color=#2BAD00>13</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>640</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>52</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>23%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>13%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buffs corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125902,12 +125691,12 @@
           "level": 4,
           "id": 1621504,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of <color=#2BAD00>720</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>58</color>;\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>, and the <color=#FFFFFF>[Contamination]</color> effect reverts to the <color=#FFFFFF>[Windswept]</color> effect;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or applies <color=#FFFFFF>[Windswept]</color> again to an enemy already under <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to <color=#2BAD00>29</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to <color=#2BAD00>14.5</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>720</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>58</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>26%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>14.5%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125916,12 +125705,12 @@
           "level": 5,
           "id": 1621505,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of <color=#2BAD00>800</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>64</color>;\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>, and the <color=#FFFFFF>[Contamination]</color> effect reverts to <color=#FFFFFF>[Windswept]</color>;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or applies <color=#FFFFFF>[Windswept]</color> again to an enemy already affected by <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to <color=#2BAD00>32</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to <color=#2BAD00>16</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>800</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>64</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>29%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>16%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members can also gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125930,12 +125719,12 @@
           "level": 6,
           "id": 1621506,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> caps at 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of <color=#2BAD00>880</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>70</color>;\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>, and the <color=#FFFFFF>[Contamination]</color> effect reverts to the <color=#FFFFFF>[Windswept]</color> effect;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or applies <color=#FFFFFF>[Windswept]</color> again to an enemy already under <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to <color=#2BAD00>35</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to <color=#2BAD00>17.5</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>880</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>70</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>32%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>17.5%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members likewise gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute that were overwritten by the new <color=#FFFFFF>[Windswept]</color>.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125944,12 +125733,12 @@
           "level": 7,
           "id": 1621507,
           "name": [
-            "Core Passive: First Embrace of the Fevered Night",
+            "Core Passive: Warm Night's Embrace",
             "Additional Ability: Porcelloy Heart"
           ],
           "desc": [
-            "For every 25 Energy consumed, gain 1 <color=#ffffff>[Wind Energy]</color>. <color=#ffffff>[Wind Energy]</color> cap is 3.\nWhen Roxy's initial <color=#ffffff>Energy Regen</color> exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of <color=#2BAD00>960</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>76.8</color>;\nWhen <color=#ffffff>[Special Attack: Don't Let the Door Hit You]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, it triggers <color=#FFFFFF>[Cleanse]</color>, and the <color=#FFFFFF>[Contamination]</color> effect reverts to <color=#FFFFFF>[Windswept]</color>;\nWhen any teammate in the squad triggers <color=#FFFFFF>[Contamination]</color>, <color=#FFFFFF>[Cleanse]</color>, or applies <color=#FFFFFF>[Windswept]</color> again to an enemy already affected by <color=#FFFFFF>[Windswept]</color>, for every 1% CRIT Rate Roxy has, all non-<color=#FFFFFF>[Armorer]</color> Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to <color=#2BAD00>40</color>%, and <color=#FFFFFF>[Armorer]</color> Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to <color=#2BAD00>20</color>%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
-            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by <color=#FFFFFF>[Windswept]</color> or <color=#FFFFFF>[Contamination]</color>, <color=#A6C5FD>Wind direct DMG</color> and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of <color=#FFFFFF>[Windswept]</color> effects applied by all squad members is extended by 20s.\nWhen using <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by <color=#2BAD00>30</color>% for 50s. Repeated triggers reset the duration."
+            "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>960</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>76.8</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of <color=#2BAD00>35%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>20%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members likewise gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
+            "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
           ],
           "extra_property": {},
           "potential": []
@@ -125994,13 +125783,13 @@
       "1": {
         "level": 1,
         "name": "...",
-        "desc": "<color=#ffffff>[EX Special Attack: Rest in Peace]</color> On hit, reduces the enemy's All-Attribute RES by 15% for 50s; increases own CRIT DMG by 40%.",
+        "desc": "When <color=#ffffff>EX Special Attack: Kindly Rest in Peace</color> hits, it reduces the enemy's All-Attribute RES by 15% for 50s. CRIT DMG increases by 40%.",
         "desc2": "..."
       },
       "2": {
         "level": 2,
         "name": "...",
-        "desc": "<color=#ffffff>[EX Special Attack: Watch for Wind Chill]</color> Daze inflicted increases by 5%; each <color=#ffffff>[Wind Eye]</color> detonated grants 1 stack of <color=#ffffff>[Flow Momentum]</color>, up to a maximum of 3 stacks; when switching out during <color=#ffffff>[Spin]</color> state while <color=#ffffff>[EX Special Attack: Watch for Wind Chill]</color> is active, Roxy consumes all <color=#ffffff>[Flow Momentum]</color> stacks, with each stack consumed maintaining <color=#ffffff>[Spin]</color> state for 0.2s without consuming Energy, up to a maximum of 0.6s; when <color=#ffffff>[EX Special Attack: Watch for Wind Chill]</color> hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
+        "desc": "<color=#ffffff>EX Special Attack: Don't Catch a Chill</color> deals 5% more Daze. For each <color=#ffffff>Storm's Eye</color> detonated, gain 1 stack of <color=#ffffff>Windflow</color>, up to 3 stacks. During <color=#ffffff>EX Special Attack: Don't Catch a Chill</color>, if Roxy switches out after entering the <color=#ffffff>Whirlwind</color> state, she consumes all <color=#ffffff>Windflow</color>. Each stack consumed sustains the <color=#ffffff>Whirlwind</color> state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
         "desc2": "..."
       },
       "3": {
@@ -126012,7 +125801,7 @@
       "4": {
         "level": 4,
         "name": "...",
-        "desc": "When launching <color=#ffffff>[Defensive Assist]</color>, Roxy recovers 1 Energy, up to 1 time per skill; when <color=#ffffff>[Dodge Counter: Giving Back]</color> hits an enemy, recovers 2 Energy, up to 1 time per skill; <color=#ffffff>[Ultimate: Requiem of the Buried Night]</color> DMG increases by 20%, and Daze increases by 10%.",
+        "desc": "When a <color=#ffffff>Defensive Assist</color> successfully parries an enemy attack, Roxy gains 1 Energy, up to once per skill. When <color=#ffffff>Dodge Counter: Returned Courtesy</color> hits an enemy, it grants 2 Energy, up to once per skill. <color=#ffffff>Ultimate: Requiem for the Night-Burial</color> deals 20% more DMG and 10% more Daze.",
         "desc2": "..."
       },
       "5": {
@@ -126024,7 +125813,7 @@
       "6": {
         "level": 6,
         "name": "...",
-        "desc": "DMG dealt ignores 20% of the target's <color=#A6C5FD>Wind DMG RES</color>; When <color=#ffffff>[Special Attack: Don't Bother Seeing Me Out]</color> detonates <color=#ffffff>[Wind Eye]</color> to generate a giant wind vortex, the main target is afflicted with the <color=#ffffff>[Reverberation]</color> effect, generating a giant wind vortex at the target's position once every 3s, for a total of 2 additional giant wind vortices. Upon repeated triggers, the number of additional generations stacks.; The DMG Multiplier of giant wind vortices becomes 250% of the original, and Daze inflicted is increased by 30%.",
+        "desc": "The DMG dealt by attacks ignores 15% of the target's <color=#A6C5FD>Wind RES</color>. When <color=#ffffff>[Special Attack: Forgive Me for Not Seeing You Off]</color> detonates <color=#ffffff>[Storm's Eye]</color> to generate a Giant Windstorm, the primary target is inflicted with <color=#ffffff>[Afterecho]</color>. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional instances generated and refresh the duration of <color=#ffffff>[Afterecho]</color>. Giant Windstorms deal DMG increased to 250% of the original value, and their Daze dealt increases by 25%.",
         "desc2": "..."
       }
     },
@@ -126040,29 +125829,28 @@
       "alt_build": [
         {
           "suit_list": [
-            31600,
-            33400
+            33200,
+            31600
           ],
           "part_sub_list": [
-            20103,
-            12102
+            20103
           ]
         },
         {
           "suit_list": [
             31600,
+            33400,
             31000
           ],
           "part_sub_list": [
-            32303,
-            12102
+            23103,
+            32303
           ]
         },
         {
           "suit_list": [],
           "part_sub_list": [
-            30502,
-            12102
+            30502
           ]
         }
       ],
@@ -126079,16 +125867,16 @@
         "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
       },
       "part6": {
+        "prop": 23103,
+        "name": "PEN Ratio",
+        "format": "{0:0.#%}",
+        "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconPenRatio.png"
+      },
+      "part_sub": {
         "prop": 32303,
         "name": "Wind DMG Bonus",
         "format": "{0:0.#%}",
         "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconWind.png"
-      },
-      "part_sub": {
-        "prop": 12102,
-        "name": "ATK",
-        "format": "{0:0.#%}",
-        "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
       }
     },
     "potential": {
@@ -126096,7 +125884,7 @@
       "detail": {}
     },
     "liveComparison": {
-      "currentHash": "c88256082c4e4e1ae069c871aade4387cc9bebad3d375d0194b05ad4589c9c7c"
+      "currentHash": "8c400f54a87554912935d8d49d2ffa658a37cd3942ba7b859a0c5e89478dd398"
     }
   }
 ]

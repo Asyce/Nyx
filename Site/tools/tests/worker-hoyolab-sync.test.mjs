@@ -411,6 +411,96 @@ test('HoYo delete-account is authenticated, HoYo-only, and idempotent after abse
   assert.equal(env.HOYO_SYNC.storage().values.size, 0);
 });
 
+test('conditioned HoYo account deletion authenticates, matches exactly, and retries after lost success', async () => {
+  const env = environment();
+  const uploaded = await push(env);
+  const common = { kind: 'hoyolab', syncId: SYNC_ID, token: TOKEN, game: 'hsr', baseUpdatedAt: uploaded.result.updatedAt };
+  const storage = env.HOYO_SYNC.storage();
+  const before = clone([...storage.values]);
+  let result = await call('delete-account', { ...common, token: OTHER_TOKEN }, env);
+  assert.equal(result.response.status, 403);
+  assert.deepEqual([...storage.values], before);
+  result = await call('delete-account', common, env);
+  assert.equal(result.response.status, 200);
+  assert.equal(storage.values.size, 0);
+  result = await call('delete-account', common, env);
+  assert.equal(result.response.status, 200, 'a conditioned retry after a lost success is idempotent');
+  assert.equal(storage.values.size, 0);
+});
+
+test('a write after the rotation copy makes conditioned deletion conflict without changing any state', async () => {
+  const env = environment();
+  await push(env);
+  const common = { kind: 'hoyolab', syncId: SYNC_ID, token: TOKEN, game: 'hsr' };
+  const copied = await call('pull', common, env);
+  const newer = await push(env, hoyoBody({
+    baseUpdatedAt: copied.result.updatedAt,
+    payload: envelope(Buffer.alloc(17, 9).toString('base64')),
+  }));
+  const storage = env.HOYO_SYNC.storage();
+  const before = clone([...storage.values]);
+  const result = await call('delete-account', { ...common, baseUpdatedAt: copied.result.updatedAt }, env);
+  assert.equal(result.response.status, 409);
+  assert.equal(result.result.error.code, 'stale_write');
+  assert.equal(result.result.serverUpdatedAt, newer.result.updatedAt);
+  assert.deepEqual([...storage.values], before, 'auth, metadata, and ciphertext must all survive');
+});
+
+test('explicit null deletion requires no game bundle while omission remains unconditional', async () => {
+  const common = { kind: 'hoyolab', syncId: SYNC_ID, token: TOKEN, game: 'hsr' };
+  const env = environment();
+  const uploaded = await push(env);
+  let result = await call('delete-account', { ...common, baseUpdatedAt: null }, env);
+  assert.equal(result.response.status, 409);
+  assert.equal(result.result.serverUpdatedAt, uploaded.result.updatedAt);
+  result = await call('delete-account', common, env);
+  assert.equal(result.response.status, 200, 'omission preserves ordinary deletion');
+  assert.equal(env.HOYO_SYNC.storage().values.size, 0);
+  await push(env);
+  await call('delete', common, env);
+  result = await call('delete-account', { ...common, baseUpdatedAt: uploaded.result.updatedAt }, env);
+  assert.equal(result.response.status, 409);
+  assert.equal(result.result.serverUpdatedAt, null);
+  assert.deepEqual([...env.HOYO_SYNC.storage().values.keys()], ['auth:hoyolab:v1']);
+  result = await call('delete-account', { ...common, baseUpdatedAt: null }, env);
+  assert.equal(result.response.status, 200, 'explicit null matches retained auth without a game bundle');
+  assert.equal(env.HOYO_SYNC.storage().values.size, 0);
+  result = await call('delete-account', { ...common, baseUpdatedAt: null }, env);
+  assert.equal(result.response.status, 200);
+});
+
+test('conditioned deletion rejects invalid fields and fails closed on a corrupt revision without blocking ordinary cleanup', async () => {
+  const common = { kind: 'hoyolab', syncId: SYNC_ID, token: TOKEN, game: 'hsr' };
+  for (const baseUpdatedAt of ['invalid', '2026-08-31T12:00:00Z', 1, false, {}]) {
+    const env = environment();
+    const result = await call('delete-account', { ...common, baseUpdatedAt }, env);
+    assert.equal(result.response.status, 400);
+    assert.equal(result.result.error.code, 'bad_base');
+    assert.equal(env.HOYO_SYNC.objects.size, 0);
+  }
+  for (const extra of [{ requireRevisionMatch: true }, { expectedRevision: null }, { removeLocalSlot: false }, { payload: envelope() }]) {
+    const result = await call('delete-account', { ...common, baseUpdatedAt: null, ...extra }, environment());
+    assert.equal(result.response.status, 400);
+    assert.equal(result.result.error.code, 'bad_request');
+  }
+  for (const action of ['pull', 'status', 'delete']) {
+    const result = await call(action, { ...common, baseUpdatedAt: null }, environment());
+    assert.equal(result.response.status, 400, 'revision conditioning is account-deletion only');
+  }
+  const env = environment();
+  await push(env);
+  const storage = env.HOYO_SYNC.storage();
+  storage.values.get('hoyolab:v1:hsr').updatedAt = 'corrupt';
+  const before = clone([...storage.values]);
+  let result = await call('delete-account', { ...common, baseUpdatedAt: null }, env);
+  assert.equal(result.response.status, 500);
+  assert.equal(result.result.error.code, 'sync_corrupt');
+  assert.deepEqual([...storage.values], before);
+  result = await call('delete-account', common, env);
+  assert.equal(result.response.status, 200);
+  assert.equal(storage.values.size, 0);
+});
+
 test('missing or corrupt ciphertext chunks fail closed and authenticated deletion removes them', async () => {
   const env = environment();
   await push(env);

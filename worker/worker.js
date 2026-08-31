@@ -241,14 +241,17 @@ function validHoyoTimestamp(value) {
 
 function validateHoyoBody(action, body) {
   const common = ['kind', 'syncId', 'token', 'game'];
-  const expected = action === 'push' ? [...common, 'baseUpdatedAt', 'payload'] : common;
+  const conditionalDelete = action === 'delete-account' && body && Object.hasOwn(body, 'baseUpdatedAt');
+  const expected = action === 'push' ? [...common, 'baseUpdatedAt', 'payload']
+    : conditionalDelete ? [...common, 'baseUpdatedAt'] : common;
   if (!exactObjectKeys(body, expected)) return { error: 'bad_request' };
   if (body.kind !== HOYO_SYNC_KIND) return { error: 'sync_kind_mismatch' };
   if (!/^[a-f0-9]{48}$/.test(body.syncId || '')) return { error: 'bad_account' };
   if (!/^[a-f0-9]{64}$/.test(body.token || '')) return { error: 'bad_token' };
   if (body.game !== HOYO_SYNC_GAME) return { error: 'bad_game' };
+  if ((action === 'push' || conditionalDelete)
+    && body.baseUpdatedAt !== null && !validHoyoTimestamp(body.baseUpdatedAt)) return { error: 'bad_base' };
   if (action !== 'push') return { ok: true };
-  if (body.baseUpdatedAt !== null && !validHoyoTimestamp(body.baseUpdatedAt)) return { error: 'bad_base' };
   if (!exactObjectKeys(body.payload, ['format', 'kdf', 'iv', 'ciphertext'])) return { error: 'bad_payload' };
   if (body.payload.format !== HOYO_SYNC_FORMAT) return { error: 'bad_payload' };
   if (!exactObjectKeys(body.payload.kdf, ['name', 'hash', 'iterations'])) return { error: 'bad_payload' };
@@ -432,6 +435,15 @@ export class HoyoSyncObject {
       }
 
       if (input.action === 'delete-account') {
+        if (Object.hasOwn(input, 'baseUpdatedAt')) {
+          if (record && !validHoyoTimestamp(record.updatedAt)) {
+            return doJson({ ok: false, error: { code: 'sync_corrupt', message: 'Stored sync state is inconsistent.' } }, 500);
+          }
+          const serverUpdatedAt = record?.updatedAt ?? null;
+          if (input.baseUpdatedAt !== serverUpdatedAt) {
+            return doJson({ ok: false, error: { code: 'stale_write', message: 'The saved HoYo copy changed on another device.' }, serverUpdatedAt }, 409);
+          }
+        }
         await deleteHoyoChunks(txn);
         await txn.delete(HOYO_DATA_KEY);
         await txn.delete(HOYO_AUTH_KEY);

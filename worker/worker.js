@@ -8,7 +8,7 @@
 // Routes:
 //   POST /api/gacha/genshin|hsr|zzz   → HoYo getGachaLog proxy
 //   POST /api/gacha/wuwa              → Kuro convene-record proxy
-//   POST /api/account/sync/*          -> encrypted pull-history sync
+//   POST /api/account/sync/*          -> encrypted pull-history / HoYoLAB sync
 //   else                              → static assets (when bound)
 //
 // Privacy & abuse controls:
@@ -33,6 +33,18 @@ const LOCAL_ORIGIN_RE = /^http:\/\/(?:localhost|127\.0\.0\.1)(?::\d+)?$/;
 
 const MAX_BODY_BYTES = 8192; // 8 KiB
 const MAX_ACCOUNT_BODY_BYTES = 3 * 1024 * 1024; // encrypted pull bundles
+const MAX_HOYO_PLAINTEXT_BYTES = 3 * 1024 * 1024;
+const MAX_HOYO_CIPHERTEXT_BYTES = MAX_HOYO_PLAINTEXT_BYTES + 16; // AES-GCM tag
+const MAX_HOYO_CIPHERTEXT_BASE64_CHARS = Math.ceil(MAX_HOYO_CIPHERTEXT_BYTES / 3) * 4;
+const HOYO_SYNC_HEADER = 'X-Nyx-Sync-Kind';
+const HOYO_SYNC_KIND = 'hoyolab';
+const HOYO_SYNC_GAME = 'hsr';
+const HOYO_SYNC_FORMAT = 'nyx-hoyolab-sync-v1';
+const HOYO_AUTH_KEY = 'auth:hoyolab:v1';
+const HOYO_DATA_KEY = 'hoyolab:v1:hsr';
+const HOYO_CIPHERTEXT_CHUNK_CHARS = 1024 * 1024;
+const MAX_HOYO_CIPHERTEXT_CHUNKS = Math.ceil(MAX_HOYO_CIPHERTEXT_BASE64_CHARS / HOYO_CIPHERTEXT_CHUNK_CHARS);
+const MAX_HOYO_ACCOUNT_BODY_BYTES = MAX_HOYO_CIPHERTEXT_BASE64_CHARS + 1024;
 const UPSTREAM_TIMEOUT_MS = 20_000;
 const RATE_LIMIT_PER_MIN = 60;
 const DATABASE_ASSET_ORIGIN = 'https://assets.pengo.gg';
@@ -73,7 +85,7 @@ function originAllowed(origin, env) {
 function corsHeaders(request, env) {
   const headers = new Headers({
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Allow-Headers': 'Content-Type, X-Nyx-Sync-Kind',
     'Cache-Control': 'no-store, private',
     Vary: 'Origin',
   });
@@ -202,11 +214,61 @@ function validEncryptedPayload(payload) {
   return true;
 }
 
+function exactObjectKeys(value, keys) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return false;
+  const actual = Object.keys(value).sort();
+  const expected = [...keys].sort();
+  return actual.length === expected.length && actual.every((key, index) => key === expected[index]);
+}
+
+function canonicalBase64Bytes(value) {
+  if (typeof value !== 'string' || value.length === 0 || value.length % 4 !== 0) return null;
+  if (!/^[A-Za-z0-9+/]+={0,2}$/.test(value)) return null;
+  try {
+    const decoded = atob(value);
+    if (btoa(decoded) !== value) return null;
+    return decoded.length;
+  } catch {
+    return null;
+  }
+}
+
+function validHoyoTimestamp(value) {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/.test(value)) return false;
+  const parsed = Date.parse(value);
+  return Number.isFinite(parsed) && new Date(parsed).toISOString() === value;
+}
+
+function validateHoyoBody(action, body) {
+  const common = ['kind', 'syncId', 'token', 'game'];
+  const expected = action === 'push' ? [...common, 'baseUpdatedAt', 'payload'] : common;
+  if (!exactObjectKeys(body, expected)) return { error: 'bad_request' };
+  if (body.kind !== HOYO_SYNC_KIND) return { error: 'sync_kind_mismatch' };
+  if (!/^[a-f0-9]{48}$/.test(body.syncId || '')) return { error: 'bad_account' };
+  if (!/^[a-f0-9]{64}$/.test(body.token || '')) return { error: 'bad_token' };
+  if (body.game !== HOYO_SYNC_GAME) return { error: 'bad_game' };
+  if (action !== 'push') return { ok: true };
+  if (body.baseUpdatedAt !== null && !validHoyoTimestamp(body.baseUpdatedAt)) return { error: 'bad_base' };
+  if (!exactObjectKeys(body.payload, ['format', 'kdf', 'iv', 'ciphertext'])) return { error: 'bad_payload' };
+  if (body.payload.format !== HOYO_SYNC_FORMAT) return { error: 'bad_payload' };
+  if (!exactObjectKeys(body.payload.kdf, ['name', 'hash', 'iterations'])) return { error: 'bad_payload' };
+  if (body.payload.kdf.name !== 'PBKDF2' || body.payload.kdf.hash !== 'SHA-256' || body.payload.kdf.iterations !== 150000) {
+    return { error: 'bad_payload' };
+  }
+  if (canonicalBase64Bytes(body.payload.iv) !== 12) return { error: 'bad_payload' };
+  const ciphertextSize = canonicalBase64Bytes(body.payload.ciphertext);
+  if (ciphertextSize === null || ciphertextSize < 17 || ciphertextSize > MAX_HOYO_CIPHERTEXT_BYTES) {
+    return { error: 'bad_payload' };
+  }
+  return { ok: true, ciphertextSize };
+}
+
 async function requireSyncAuth(request, env, store, accountId, token, rid, opts) {
   const tokenHash = await shaHex(token);
   const key = syncAuthKey(accountId);
   const existing = await store.get(key, 'json');
   if (!existing) {
+    if (opts?.allowAbsent) return { ok: true, absent: true };
     if (!opts || !opts.create) {
       return {
         error: errorResponse(request, env, { status: 404, code: 'sync_not_found', message: 'No Pengo sync account exists for that phrase yet.', rid }),
@@ -223,9 +285,230 @@ async function requireSyncAuth(request, env, store, accountId, token, rid, opts)
   return { ok: true };
 }
 
-async function handleAccountSync(request, action, env) {
+function hoyoSyncStorage(env) {
+  return env && env.HOYO_SYNC && typeof env.HOYO_SYNC.idFromName === 'function' && typeof env.HOYO_SYNC.get === 'function'
+    ? env.HOYO_SYNC
+    : null;
+}
+
+function doJson(body, status = 200) {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store, private' },
+  });
+}
+
+function hoyoChunkKey(index) {
+  return `${HOYO_DATA_KEY}:chunk:${index}`;
+}
+
+function sameHoyoPayload(left, right) {
+  return left?.format === right?.format
+    && left?.kdf?.name === right?.kdf?.name
+    && left?.kdf?.hash === right?.kdf?.hash
+    && left?.kdf?.iterations === right?.kdf?.iterations
+    && left?.iv === right?.iv
+    && left?.ciphertext === right?.ciphertext;
+}
+
+function hoyoPayloadMetadata(payload) {
+  return { format: payload.format, kdf: payload.kdf, iv: payload.iv };
+}
+
+function validHoyoStoredRecord(record, syncId) {
+  if (!exactObjectKeys(record, ['syncId', 'game', 'payload', 'ciphertextSize', 'ciphertextLength', 'chunkCount', 'createdAt', 'updatedAt'])) return false;
+  if (record.syncId !== syncId || record.game !== HOYO_SYNC_GAME) return false;
+  if (!validHoyoTimestamp(record.createdAt) || !validHoyoTimestamp(record.updatedAt)) return false;
+  if (!Number.isInteger(record.ciphertextSize) || record.ciphertextSize < 17 || record.ciphertextSize > MAX_HOYO_CIPHERTEXT_BYTES) return false;
+  const expectedLength = Math.ceil(record.ciphertextSize / 3) * 4;
+  if (record.ciphertextLength !== expectedLength) return false;
+  const expectedChunks = Math.ceil(expectedLength / HOYO_CIPHERTEXT_CHUNK_CHARS);
+  if (record.chunkCount !== expectedChunks || expectedChunks < 1 || expectedChunks > MAX_HOYO_CIPHERTEXT_CHUNKS) return false;
+  if (!exactObjectKeys(record.payload, ['format', 'kdf', 'iv'])) return false;
+  if (record.payload.format !== HOYO_SYNC_FORMAT || canonicalBase64Bytes(record.payload.iv) !== 12) return false;
+  return exactObjectKeys(record.payload.kdf, ['name', 'hash', 'iterations'])
+    && record.payload.kdf.name === 'PBKDF2'
+    && record.payload.kdf.hash === 'SHA-256'
+    && record.payload.kdf.iterations === 150000;
+}
+
+async function readHoyoPayload(txn, record, syncId) {
+  if (!validHoyoStoredRecord(record, syncId)) return null;
+  const chunks = [];
+  for (let index = 0; index < record.chunkCount; index += 1) {
+    const chunk = await txn.get(hoyoChunkKey(index));
+    const expectedLength = index + 1 < record.chunkCount
+      ? HOYO_CIPHERTEXT_CHUNK_CHARS
+      : record.ciphertextLength - (HOYO_CIPHERTEXT_CHUNK_CHARS * index);
+    if (typeof chunk !== 'string' || chunk.length !== expectedLength || chunk.length > HOYO_CIPHERTEXT_CHUNK_CHARS) return null;
+    chunks.push(chunk);
+  }
+  for (let index = record.chunkCount; index < MAX_HOYO_CIPHERTEXT_CHUNKS; index += 1) {
+    if (await txn.get(hoyoChunkKey(index)) != null) return null;
+  }
+  const ciphertext = chunks.join('');
+  if (canonicalBase64Bytes(ciphertext) !== record.ciphertextSize) return null;
+  return { ...record.payload, ciphertext };
+}
+
+async function deleteHoyoChunks(txn) {
+  for (let index = 0; index < MAX_HOYO_CIPHERTEXT_CHUNKS; index += 1) await txn.delete(hoyoChunkKey(index));
+}
+
+function nextHoyoTimestamp(previous) {
+  const prior = Date.parse(previous || '');
+  return new Date(Math.max(Date.now(), Number.isFinite(prior) ? prior + 1 : 0)).toISOString();
+}
+
+export class HoyoSyncObject {
+  constructor(ctx) {
+    this.storage = ctx.storage;
+  }
+
+  async fetch(request) {
+    if (request.method !== 'POST') return doJson({ ok: false, error: { code: 'method_not_allowed', message: 'POST only.' } }, 405);
+    let input;
+    try { input = await request.json(); } catch { return doJson({ ok: false, error: { code: 'invalid_json', message: 'Invalid internal request.' } }, 400); }
+    if (!input || typeof input !== 'object' || input.game !== HOYO_SYNC_GAME || !['push', 'pull', 'status', 'delete', 'delete-account'].includes(input.action)) {
+      return doJson({ ok: false, error: { code: 'bad_request', message: 'Invalid internal request.' } }, 400);
+    }
+
+    return this.storage.transaction(async (txn) => {
+      const auth = await txn.get(HOYO_AUTH_KEY);
+      const record = await txn.get(HOYO_DATA_KEY);
+      if (auth && (!exactObjectKeys(auth, ['syncId', 'tokenHash', 'createdAt'])
+        || auth.syncId !== input.syncId
+        || !/^[a-f0-9]{64}$/.test(auth.tokenHash || '')
+        || !validHoyoTimestamp(auth.createdAt))) {
+        return doJson({ ok: false, error: { code: 'sync_corrupt', message: 'Stored sync state is inconsistent.' } }, 500);
+      }
+      if (!auth) {
+        if (record) return doJson({ ok: false, error: { code: 'sync_corrupt', message: 'Stored sync state is inconsistent.' } }, 500);
+        if (input.action === 'delete-account') {
+          await deleteHoyoChunks(txn);
+          return doJson({ ok: true, deleted: true });
+        }
+        if (input.action !== 'push') return doJson({ ok: false, error: { code: 'sync_not_found', message: 'No HoYo sync account exists yet.' } }, 404);
+      } else if (auth.tokenHash !== input.tokenHash) {
+        return doJson({ ok: false, error: { code: 'sync_auth_failed', message: 'That recovery code does not match this HoYo sync account.' } }, 403);
+      }
+
+      if (input.action === 'push') {
+        if (!auth && input.baseUpdatedAt !== null) {
+          return doJson({ ok: false, error: { code: 'stale_write', message: 'The HoYo sync account does not exist yet.' }, serverUpdatedAt: null }, 409);
+        }
+        const storedPayload = record ? await readHoyoPayload(txn, record, input.syncId) : null;
+        if (record && !storedPayload) return doJson({ ok: false, error: { code: 'sync_corrupt', message: 'Stored sync state is inconsistent.' } }, 500);
+        if (record && input.baseUpdatedAt !== record.updatedAt) {
+          if (sameHoyoPayload(storedPayload, input.payload)) {
+            return doJson({ ok: true, updatedAt: record.updatedAt, size: record.ciphertextSize });
+          }
+          return doJson({ ok: false, error: { code: 'stale_write', message: 'The saved HoYo copy changed on another device.' }, serverUpdatedAt: record.updatedAt }, 409);
+        }
+        if (!record && input.baseUpdatedAt !== null) {
+          return doJson({ ok: false, error: { code: 'stale_write', message: 'No HoYo game bundle exists at that version.' }, serverUpdatedAt: null }, 409);
+        }
+        const updatedAt = nextHoyoTimestamp(record?.updatedAt);
+        if (!auth) {
+          await txn.put(HOYO_AUTH_KEY, { syncId: input.syncId, tokenHash: input.tokenHash, createdAt: updatedAt });
+        }
+        const chunks = [];
+        for (let offset = 0; offset < input.payload.ciphertext.length; offset += HOYO_CIPHERTEXT_CHUNK_CHARS) {
+          chunks.push(input.payload.ciphertext.slice(offset, offset + HOYO_CIPHERTEXT_CHUNK_CHARS));
+        }
+        for (let index = 0; index < chunks.length; index += 1) await txn.put(hoyoChunkKey(index), chunks[index]);
+        for (let index = chunks.length; index < MAX_HOYO_CIPHERTEXT_CHUNKS; index += 1) await txn.delete(hoyoChunkKey(index));
+        await txn.put(HOYO_DATA_KEY, {
+          syncId: input.syncId,
+          game: HOYO_SYNC_GAME,
+          payload: hoyoPayloadMetadata(input.payload),
+          ciphertextSize: input.ciphertextSize,
+          ciphertextLength: input.payload.ciphertext.length,
+          chunkCount: chunks.length,
+          createdAt: record?.createdAt || updatedAt,
+          updatedAt,
+        });
+        return doJson({ ok: true, updatedAt, size: input.ciphertextSize });
+      }
+
+      if (input.action === 'delete-account') {
+        await deleteHoyoChunks(txn);
+        await txn.delete(HOYO_DATA_KEY);
+        await txn.delete(HOYO_AUTH_KEY);
+        return doJson({ ok: true, deleted: true });
+      }
+      if (input.action === 'delete') {
+        await deleteHoyoChunks(txn);
+        await txn.delete(HOYO_DATA_KEY);
+        return doJson({ ok: true, deleted: true });
+      }
+      if (!record) return doJson({ ok: false, error: { code: 'sync_empty', message: 'No synced HoYo data was found.' } }, 404);
+      const storedPayload = await readHoyoPayload(txn, record, input.syncId);
+      if (!storedPayload) return doJson({ ok: false, error: { code: 'sync_corrupt', message: 'Stored sync state is inconsistent.' } }, 500);
+      if (input.action === 'status') {
+        return doJson({ ok: true, exists: true, updatedAt: record.updatedAt, size: record.ciphertextSize });
+      }
+      return doJson({ ok: true, payload: storedPayload, updatedAt: record.updatedAt, size: record.ciphertextSize });
+    });
+  }
+}
+
+async function handleHoyoAccountSync(request, action, env) {
   const rid = requestId();
-  if (!trustedOrigin(request, env)) return errorResponse(request, env, { status: 403, code: 'origin_not_allowed', message: 'Origin not allowed.', rid });
+  const origin = request.headers.get('Origin');
+  if (origin && !originAllowed(origin, env)) return errorResponse(request, env, { status: 403, code: 'origin_not_allowed', message: 'Origin not allowed.', rid });
+  if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request, env) });
+  if (request.method !== 'POST') return errorResponse(request, env, { status: 405, code: 'method_not_allowed', message: 'POST a sync request body.', rid, headers: { Allow: 'POST, OPTIONS' } });
+  if (await rateLimited(request, env, 'account-sync:' + action)) {
+    return errorResponse(request, env, { status: 429, code: 'rate_limited', message: 'Too many sync requests. Try again in a minute.', rid, headers: { 'Retry-After': '60' } });
+  }
+  const namespace = hoyoSyncStorage(env);
+  if (!namespace) return errorResponse(request, env, { status: 501, code: 'sync_not_configured', message: 'HoYo sync storage is not configured yet.', rid });
+  const parsed = await readJsonCapped(request, MAX_HOYO_ACCOUNT_BODY_BYTES);
+  if (parsed.error) return bodyError(request, env, parsed.error, rid);
+  const validation = validateHoyoBody(action, parsed.payload);
+  if (validation.error) {
+    const messages = {
+      sync_kind_mismatch: 'HoYo sync requires matching header and body kinds.',
+      bad_account: 'Invalid HoYo sync id.',
+      bad_token: 'Invalid HoYo sync token.',
+      bad_game: 'Invalid HoYo sync game.',
+      bad_base: 'Invalid HoYo base timestamp.',
+      bad_payload: 'Invalid encrypted HoYo sync payload.',
+      bad_request: 'Invalid HoYo sync request fields.',
+    };
+    return errorResponse(request, env, { status: 400, code: validation.error, message: messages[validation.error], rid });
+  }
+  const body = parsed.payload;
+  const tokenHash = await shaHex(body.token);
+  let response;
+  try {
+    const id = namespace.idFromName(body.syncId);
+    response = await namespace.get(id).fetch('https://hoyo-sync.internal/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        action,
+        syncId: body.syncId,
+        tokenHash,
+        game: body.game,
+        baseUpdatedAt: body.baseUpdatedAt,
+        payload: body.payload,
+        ciphertextSize: validation.ciphertextSize,
+      }),
+    });
+  } catch {
+    return errorResponse(request, env, { status: 502, code: 'sync_unavailable', message: 'HoYo sync storage is temporarily unavailable.', rid });
+  }
+  let result;
+  try { result = await response.json(); } catch { return errorResponse(request, env, { status: 502, code: 'sync_unavailable', message: 'HoYo sync storage returned an invalid response.', rid }); }
+  if (result?.error && !result.error.requestId) result.error.requestId = rid;
+  return jsonResponse(request, result, { status: response.status }, env);
+}
+
+async function handlePullAccountSync(request, action, env) {
+  const rid = requestId();
+  if (!request.headers.get('Origin') || !trustedOrigin(request, env)) return errorResponse(request, env, { status: 403, code: 'origin_not_allowed', message: 'Origin not allowed.', rid });
   if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: corsHeaders(request, env) });
   if (request.method !== 'POST') return errorResponse(request, env, { status: 405, code: 'method_not_allowed', message: 'POST a sync request body.', rid, headers: { Allow: 'POST, OPTIONS' } });
 
@@ -239,15 +522,31 @@ async function handleAccountSync(request, action, env) {
   const parsed = await readJsonCapped(request, MAX_ACCOUNT_BODY_BYTES);
   if (parsed.error) return bodyError(request, env, parsed.error, rid);
   const body = parsed.payload;
+  if (body.kind != null && body.kind !== 'pulls') {
+    return errorResponse(request, env, { status: 400, code: 'sync_kind_mismatch', message: 'Sync header and body kinds do not match.', rid });
+  }
   const accountId = String(body.accountId || '').toLowerCase();
   const token = String(body.token || '').toLowerCase();
   const game = normalizeAccountGame(body.game);
   if (!validAccountId(accountId)) return errorResponse(request, env, { status: 400, code: 'bad_account', message: 'Invalid sync account id.', rid });
   if (!validAccountToken(token)) return errorResponse(request, env, { status: 400, code: 'bad_token', message: 'Invalid sync token.', rid });
-  if (!ACCOUNT_GAMES.has(game)) return errorResponse(request, env, { status: 400, code: 'bad_game', message: 'Invalid sync game.', rid });
+  if (action !== 'delete-account' && !ACCOUNT_GAMES.has(game)) {
+    return errorResponse(request, env, { status: 400, code: 'bad_game', message: 'Invalid sync game.', rid });
+  }
 
-  const auth = await requireSyncAuth(request, env, store, accountId, token, rid, { create: action === 'push' });
+  const auth = await requireSyncAuth(request, env, store, accountId, token, rid, {
+    create: action === 'push',
+    allowAbsent: action === 'delete-account',
+  });
   if (auth.error) return auth.error;
+
+  if (action === 'delete-account') {
+    if (auth.absent) return jsonResponse(request, { ok: true, deleted: true }, { status: 200 }, env);
+    if (typeof store.delete !== 'function') return errorResponse(request, env, { status: 501, code: 'sync_not_configured', message: 'Pengo sync storage cannot delete right now.', rid });
+    for (const storedGame of ['gi', 'hsr', 'zzz', 'wuwa', 'ae']) await store.delete(syncKey(accountId, storedGame));
+    await store.delete(syncAuthKey(accountId));
+    return jsonResponse(request, { ok: true, deleted: true }, { status: 200 }, env);
+  }
 
   const key = syncKey(accountId, game);
   if (action === 'push') {
@@ -301,6 +600,17 @@ async function handleAccountSync(request, action, env) {
     return jsonResponse(request, { ok: true, payload: record.payload, updatedAt: record.updatedAt || null, exportedAt: record.exportedAt || null, size: record.size || null }, { status: 200 }, env);
   }
   return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown sync action.', rid });
+}
+
+async function handleAccountSync(request, action, env) {
+  const headerKind = request.headers.get(HOYO_SYNC_HEADER);
+  if (headerKind === HOYO_SYNC_KIND) return handleHoyoAccountSync(request, action, env);
+  if (headerKind != null) {
+    const rid = requestId();
+    if (!trustedOrigin(request, env)) return errorResponse(request, env, { status: 403, code: 'origin_not_allowed', message: 'Origin not allowed.', rid });
+    return errorResponse(request, env, { status: 400, code: 'unknown_sync_kind', message: 'Unknown sync kind.', rid });
+  }
+  return handlePullAccountSync(request, action, env);
 }
 
 // Best-effort per-IP rate limit. Uses the GACHA_RL rate-limiting binding when
@@ -582,6 +892,7 @@ export default {
     if (url.pathname === '/api/account/sync/pull') return handleAccountSync(request, 'pull', env);
     if (url.pathname === '/api/account/sync/status') return handleAccountSync(request, 'status', env);
     if (url.pathname === '/api/account/sync/delete') return handleAccountSync(request, 'delete', env);
+    if (url.pathname === '/api/account/sync/delete-account') return handleAccountSync(request, 'delete-account', env);
     if (url.pathname.startsWith('/api/account/')) {
       return errorResponse(request, env, { status: 404, code: 'not_found', message: 'Unknown account endpoint.', rid: requestId() });
     }

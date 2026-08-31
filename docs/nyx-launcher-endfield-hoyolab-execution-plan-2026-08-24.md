@@ -406,7 +406,7 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 - Missing sync `kind` continues to mean pulls. HoYo uses `kind: "hoyolab"`, `auth:hoyolab:v1`, `hoyolab:v1`, and envelope `nyx-hoyolab-sync-v1`.
 - One encrypted bundle per game supports at most eight roles. Full UID appears only after local decryption.
 - Worker metadata contains only pseudonymous sync ID, authentication-token hash, game, ciphertext size, and timestamps.
-- The decoded encrypted bundle cap is 3 MiB and fails visibly without truncation. Bound the larger Base64/JSON transport separately without weakening the existing pull-sync request cap.
+- The decrypted bundle cap is 3 MiB and fails visibly without truncation. Bound the AES-GCM tag and larger Base64/JSON transport separately without weakening the existing pull-sync request cap.
 - Exclude forum/social data, friends, email, purchases, private messages, device fingerprints, raw battle traffic, cookies, tokens, passwords, raw bodies, and unreleased content.
 
 ## Phase 13 - Approved HoYo static comparison

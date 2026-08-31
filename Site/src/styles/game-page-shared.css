@@ -834,6 +834,87 @@ button.gp-oban-supports-label:focus-visible{ outline:var(--nyx-focus-ring); outl
 .nyx-events-game{ min-width:0; display:flex; flex-direction:column; gap:var(--nyx-space-10); }
 .nyx-events-game .gp-current-events{ margin-top:0; }
 
+/* My HoYo: one quiet vault surface. The role constellation is the only
+   decorative signature; every point is a real decrypted role. */
+.my-hoyo{ overflow:hidden; color:var(--nyx-color-text); }
+.my-hoyo-scroll{ min-height:0; overflow-y:auto; display:flex; flex-direction:column; gap:var(--nyx-space-18); padding:0 var(--nyx-space-8) var(--nyx-space-20) 0; overscroll-behavior:contain; }
+.my-hoyo-scroll::-webkit-scrollbar{ width:7px; }
+.my-hoyo-scroll::-webkit-scrollbar-thumb{ background:var(--nyx-compat-color-f77d2c801a14); border-radius:var(--nyx-compat-radius-4px); }
+.my-hoyo h1,.my-hoyo h2,.my-hoyo p{ margin:0; }
+.my-hoyo h1{ font:var(--nyx-weight-regular) var(--nyx-type-title)/1 var(--nyx-font-display); color:var(--nyx-color-heading); }
+.my-hoyo h2{ font:var(--nyx-weight-regular) var(--nyx-type-lead)/1.2 var(--nyx-font-display); color:var(--nyx-color-heading); }
+.my-hoyo-kicker{ margin-bottom:var(--nyx-space-6); color:var(--nyx-color-accent-bright); font:var(--nyx-weight-bold) var(--nyx-type-label)/1 var(--nyx-font-ui); letter-spacing:var(--nyx-compat-tracking-p16em); text-transform:uppercase; }
+.my-hoyo button{ min-height:36px; border:1px solid var(--nyx-compat-color-97cd05e0c6e8); border-radius:var(--nyx-radius-control); padding:0 var(--nyx-space-14); color:var(--nyx-color-text); background:var(--nyx-compat-color-29324858ffe0); font:var(--nyx-weight-semibold) var(--nyx-type-small)/1 var(--nyx-font-ui); cursor:pointer; }
+.my-hoyo button:hover:not(:disabled){ color:var(--nyx-color-text-max); border-color:var(--nyx-color-accent-bright); background:var(--nyx-compat-color-ef146d2930c5); }
+.my-hoyo button:focus-visible,.my-hoyo input:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.my-hoyo button:disabled{ cursor:not-allowed; opacity:.5; }
+.my-hoyo-lock{ width:min(640px,100%); min-height:0; max-height:100%; overflow-y:auto; margin:auto; display:flex; flex-direction:column; gap:var(--nyx-space-14); border:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.my-hoyo-lock > p{ max-width:58ch; color:var(--nyx-color-text-soft); font-size:var(--nyx-type-body); line-height:1.55; }
+.my-hoyo-lock .my-hoyo-warning{ padding:var(--nyx-space-12); border-left:2px solid var(--nyx-color-accent-bright); background:var(--nyx-color-surface-nested); }
+.my-hoyo-unlock-form{ display:grid; grid-template-columns:1fr auto; gap:var(--nyx-space-8); }
+.my-hoyo-unlock-form label{ grid-column:1 / -1; color:var(--nyx-color-text-dim); font-size:var(--nyx-type-small); }
+.my-hoyo-unlock-form input{ min-width:0; font-family:var(--nyx-font-mono); letter-spacing:var(--nyx-compat-tracking-p05em); }
+.my-hoyo-pull-retry{ display:grid; gap:var(--nyx-space-8); padding-top:var(--nyx-space-14); border-top:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.my-hoyo-pull-retry p{ color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); line-height:1.5; }
+.my-hoyo-pull-retry label{ color:var(--nyx-color-text-dim); font-size:var(--nyx-type-small); }
+.my-hoyo-head{ display:flex; align-items:end; justify-content:space-between; gap:var(--nyx-space-16); }
+.my-hoyo-sync-strip{ display:flex; flex-wrap:wrap; gap:var(--nyx-space-16); padding:var(--nyx-space-10) var(--nyx-space-12); border-block:1px solid var(--nyx-compat-color-9a593589b5e7); color:var(--nyx-color-text-muted); font:var(--nyx-type-small)/1.4 var(--nyx-font-mono); }
+.my-hoyo-sync-strip span{ display:flex; gap:var(--nyx-space-8); }
+.my-hoyo-sync-strip b{ color:var(--nyx-color-text-soft); font-family:var(--nyx-font-ui); }
+.my-hoyo-sync-strip a{ color:var(--nyx-color-accent-bright); }
+.my-hoyo-roles{ display:grid; gap:var(--nyx-space-12); }
+.my-hoyo-roles > div:first-child{ display:flex; align-items:baseline; justify-content:space-between; gap:var(--nyx-space-12); }
+.my-hoyo-roles > div:first-child span{ color:var(--nyx-color-text-muted); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-small); }
+.my-hoyo-constellation{ position:relative; display:grid; grid-template-columns:repeat(8,minmax(58px,1fr)); gap:var(--nyx-space-10); }
+.my-hoyo-constellation::before{ content:""; position:absolute; z-index:0; left:4%; right:4%; top:28px; height:1px; background:var(--nyx-gradient-section-rule); }
+.my-hoyo-constellation button{ position:relative; z-index:1; min-width:0; min-height:78px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:var(--nyx-space-4); border-color:transparent; background:var(--nyx-color-surface-nested); }
+.my-hoyo-constellation button > span{ width:28px; height:28px; display:grid; place-items:center; clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%); background:var(--nyx-color-accent); color:var(--nyx-color-surface); font:var(--nyx-weight-bold) var(--nyx-type-label)/1 var(--nyx-font-mono); }
+.my-hoyo-constellation button b,.my-hoyo-constellation button small{ width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.my-hoyo-constellation button b{ font-size:var(--nyx-type-small); }
+.my-hoyo-constellation button small{ color:var(--nyx-color-text-muted); font-size:var(--nyx-type-caption); }
+.my-hoyo-constellation button.on{ border-color:var(--nyx-color-accent-bright); box-shadow:var(--nyx-shadow-accent); }
+.my-hoyo-identity{ display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:var(--nyx-space-12); padding:var(--nyx-space-14); border:1px solid var(--nyx-compat-color-9a593589b5e7); border-radius:var(--nyx-radius-card); background:var(--nyx-color-surface-nested); }
+.my-hoyo-identity div{ min-width:0; display:grid; gap:var(--nyx-space-4); }
+.my-hoyo-identity span{ color:var(--nyx-color-text-muted); font-size:var(--nyx-type-label); text-transform:uppercase; letter-spacing:var(--nyx-compat-tracking-p12em); }
+.my-hoyo-identity b{ overflow-wrap:anywhere; color:var(--nyx-color-text-max); font:var(--nyx-weight-regular) var(--nyx-type-lead)/1.2 var(--nyx-font-display); }
+.my-hoyo-detail-grid{ display:grid; grid-template-columns:minmax(240px,.7fr) minmax(320px,1.3fr); gap:var(--nyx-space-14); align-items:start; }
+.my-hoyo-detail{ display:flex; flex-direction:column; gap:var(--nyx-space-12); border:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.my-hoyo-resource-value{ display:flex; align-items:baseline; gap:var(--nyx-space-8); }
+.my-hoyo-resource-value b,.my-hoyo-achievement-count b{ color:var(--nyx-color-heading); font:var(--nyx-weight-regular) var(--nyx-type-display-small)/1 var(--nyx-font-display); }
+.my-hoyo-resource-value span,.my-hoyo-achievement-count span{ color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); }
+.my-hoyo-detail dl{ margin:0; display:grid; gap:var(--nyx-space-8); }
+.my-hoyo-detail dl div{ display:flex; justify-content:space-between; gap:var(--nyx-space-12); padding-top:var(--nyx-space-8); border-top:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.my-hoyo-detail dt{ color:var(--nyx-color-text-muted); }
+.my-hoyo-detail dd{ margin:0; color:var(--nyx-color-text-soft); font-family:var(--nyx-font-mono); text-align:right; }
+.my-hoyo-achievement-count{ display:flex; align-items:baseline; gap:var(--nyx-space-8); }
+.my-hoyo-achievement-list{ max-height:340px; margin:0; padding:0; overflow-y:auto; list-style:none; }
+.my-hoyo-achievement-list:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.my-hoyo-achievement-list li{ display:flex; justify-content:space-between; gap:var(--nyx-space-12); padding:var(--nyx-space-8) 0; border-top:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.my-hoyo-achievement-list span{ min-width:0; color:var(--nyx-color-text-soft); font-size:var(--nyx-type-small); }
+.my-hoyo-achievement-list code{ flex:none; color:var(--nyx-color-text-muted); font-family:var(--nyx-font-mono); font-size:var(--nyx-type-label); }
+.my-hoyo-catalog-note{ color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); }
+.my-hoyo-more{ align-self:start; }
+.my-hoyo-unavailable{ padding:var(--nyx-space-16); border:1px dashed var(--nyx-compat-color-9a593589b5e7); border-radius:var(--nyx-radius-card); color:var(--nyx-color-text-muted); }
+.my-hoyo-unavailable b{ color:var(--nyx-color-text-soft); }
+.my-hoyo-unavailable p{ margin-top:var(--nyx-space-6); font-size:var(--nyx-type-small); line-height:1.5; }
+.my-hoyo-unavailable a{ display:inline-block; margin-top:var(--nyx-space-10); color:var(--nyx-color-accent-bright); font-size:var(--nyx-type-small); }
+.my-hoyo-sync-strip a:focus-visible,.my-hoyo-unavailable a:focus-visible{ outline:var(--nyx-focus-ring); outline-offset:var(--nyx-focus-offset); }
+.my-hoyo-delete{ display:grid; gap:var(--nyx-space-12); padding-top:var(--nyx-space-18); border-top:1px solid var(--nyx-compat-color-9a593589b5e7); }
+.my-hoyo-auth-delete{ display:grid; gap:var(--nyx-space-10); padding:var(--nyx-space-12); border:1px solid var(--nyx-compat-color-9a593589b5e7); border-radius:var(--nyx-radius-card); background:var(--nyx-color-surface-nested); }
+.my-hoyo-auth-delete p{ color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); line-height:1.5; }
+.my-hoyo-delete > div:first-child p,.my-hoyo-entire-delete p{ margin-top:var(--nyx-space-6); color:var(--nyx-color-text-muted); font-size:var(--nyx-type-small); line-height:1.5; }
+.my-hoyo-delete-actions{ display:flex; flex-wrap:wrap; gap:var(--nyx-space-8); }
+.my-hoyo-entire-delete{ display:grid; grid-template-columns:1fr auto; gap:var(--nyx-space-8); padding:var(--nyx-space-14); border:1px solid var(--nyx-color-chip-danger); border-radius:var(--nyx-radius-card); background:var(--nyx-color-surface-nested); }
+.my-hoyo-entire-delete p,.my-hoyo-entire-delete > label:not(.my-hoyo-confirm){ grid-column:1 / -1; }
+.my-hoyo-entire-delete > label:not(.my-hoyo-confirm){ color:var(--nyx-color-text-dim); font-size:var(--nyx-type-small); }
+.my-hoyo-confirm{ grid-column:1 / -1; display:flex; align-items:flex-start; gap:var(--nyx-space-8); color:var(--nyx-color-text-soft); font-size:var(--nyx-type-small); }
+.my-hoyo-confirm input{ margin-top:2px; accent-color:var(--nyx-color-accent); }
+.my-hoyo-status{ padding:var(--nyx-space-10) var(--nyx-space-12); border-left:2px solid var(--nyx-color-accent-bright); color:var(--nyx-color-text-soft); background:var(--nyx-color-surface-nested); font-size:var(--nyx-type-small); line-height:1.45; }
+.my-hoyo-status.error{ border-color:var(--nyx-color-chip-danger); color:var(--nyx-color-chip-danger); }
+@media (max-width:900px){ .my-hoyo-constellation{ grid-template-columns:repeat(4,minmax(64px,1fr)); }.my-hoyo-constellation::before{ display:none; }.my-hoyo-detail-grid{ grid-template-columns:1fr; } }
+@media (max-width:760px){ .my-hoyo-scroll{ padding-right:0; }.my-hoyo-unlock-form,.my-hoyo-entire-delete{ grid-template-columns:1fr; }.my-hoyo-unlock-form label,.my-hoyo-entire-delete p,.my-hoyo-entire-delete > label:not(.my-hoyo-confirm),.my-hoyo-confirm{ grid-column:auto; }.my-hoyo-constellation{ display:flex; overflow-x:auto; padding-bottom:var(--nyx-space-6); }.my-hoyo-constellation button{ flex:0 0 124px; }.my-hoyo-identity{ grid-template-columns:1fr; }.my-hoyo-head{ align-items:center; }.my-hoyo-delete-actions{ flex-direction:column; }.my-hoyo-delete-actions button{ width:100%; } }
+@media (prefers-reduced-motion:reduce){ .my-hoyo *{ scroll-behavior:auto !important; transition:none !important; } }
+
 .gp-ovb-row{
   position:relative;
   min-width:0;

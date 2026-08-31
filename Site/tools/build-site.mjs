@@ -119,6 +119,8 @@ await compileJsxBundle(
     'features/gacha/pulls-sync.js',
     'features/gacha/gacha-tracker.jsx',
     'features/gacha/pulls-overview.jsx',
+    'features/account/hoyo-sync.js',
+    'features/account/my-hoyo.jsx',
     'features/timeline/time-preferences.js',
     'features/timeline/custom-timer-storage.js',
     'features/timeline/timeline-data.js',

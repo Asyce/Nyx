@@ -626,10 +626,12 @@ test('per-game and cross-game event detail cards render the plain description fi
 
 // 2026-08-09: the hub keeps an Events tab, but it is now the per-game current
 // events view rather than the cross-game "All Events" timeline.
-test('the Events hub tab is present in both route maps and the Nyx valid-tab list', () => {
+test('the active hub tabs are present in both route maps and the Nyx valid-tab list', () => {
   assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?events:'events'/);
   assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?events:'events'/);
-  assert.match(appSource, /\['overview','events','characters','calendar','codes','settings'\]/);
+  assert.match(appSource, /NYX_TAB_TO_ROUTE\s*=\s*\{[\s\S]*?'my-hoyo':'my-hoyo'/);
+  assert.match(appSource, /ROUTE_TO_NYX_TAB\s*=\s*\{[\s\S]*?'my-hoyo':'my-hoyo'/);
+  assert.match(appSource, /\['overview','events','characters','calendar','codes','my-hoyo','settings'\]/);
   assert.match(appSource, /function NyxEventsView\(\)/);
 });
 

@@ -397,6 +397,7 @@ async function main() {
       ['/endfield', 'Arknights: Endfield'],
       ['/endfield/tracker', 'Arknights: Endfield'],
       ['/nyx/codes', 'Nyx'],
+      ['/nyx/my-hoyo', 'Nyx'],
       ['/genshin/materials', 'Genshin Impact'],
       ['/genshin/database', 'Genshin Impact'],
       ['/genshin/database/tcg', 'Genshin Impact'],
@@ -460,6 +461,7 @@ async function main() {
   if (!bundle.includes('Quick PowerShell command')) throw new Error('bundle missing quick import method copy');
   if (!bundle.includes('Manual CSV backfill')) throw new Error('bundle missing manual CSV import copy');
   if (!bundle.includes('Pengo encrypted sync')) throw new Error('bundle missing encrypted sync UI copy');
+  if (!bundle.includes('NYX-HOYO-XXXX-XXXX') || !bundle.includes('Remove all HoYo cloud data')) throw new Error('bundle missing My HoYo recovery and deletion controls');
   if (!bundle.includes('/v2/pull-import/') || !bundle.includes('Review Endfield history before saving') || !bundle.includes('pengo-pulls-v1')) throw new Error('bundle missing the Endfield launcher pull receiver');
   if (!bundle.includes('Endfield pull history stays in this browser and cannot be synced.')) throw new Error('bundle missing the Endfield local-only sync guard');
   if (!/connect-src 'self' http:\/\/127\.0\.0\.1:\*/.test(headers) || /connect-src[^;\r\n]*localhost/.test(headers)) throw new Error('deploy headers are missing the exact Endfield loopback CSP');

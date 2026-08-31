@@ -100,9 +100,10 @@ window.NyxAccountSync = (function () {
     return JSON.parse(new TextDecoder().decode(plain));
   }
 
-  async function request(action, body) {
+  async function request(action, body, options = {}) {
     const res = await fetch(apiBase() + '/api/account/sync/' + action, {
       method: 'POST',
+      signal: options.signal,
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(body),
     });
@@ -160,6 +161,15 @@ window.NyxAccountSync = (function () {
     return request('delete', { accountId: auth.accountId, token: auth.token, game });
   }
 
+  async function deleteAccount(secret, options = {}) {
+    if (!available()) throw new Error('Encrypted sync is not available in this browser.');
+    const auth = await credentials(secret);
+    secret = '';
+    const result = await request('delete-account', { accountId: auth.accountId, token: auth.token, kind:'pulls' }, options);
+    if (result.ok !== true) throw new Error('Pull cloud deletion was not confirmed.');
+    return result;
+  }
+
   function loadSettings() {
     try { return JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}') || {}; } catch (e) { return {}; }
   }
@@ -179,6 +189,7 @@ window.NyxAccountSync = (function () {
     pullGame,
     status,
     deleteGame,
+    deleteAccount,
     loadSettings,
     forgetSettings,
   };

@@ -4221,6 +4221,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
     { key:'characters', label:'Pinned Characters' },
     { key:'calendar', label:'Calendar' },
     { key:'codes',    label:'Redemption Codes' },
+    { key:'my-hoyo',  label:'My HoYo' },
     { key:'settings', label:'Settings' },
   ];
   return (
@@ -4241,6 +4242,7 @@ function SimContent({ tab, setTab, onOpenMaterial, settings, setSettings }){
       {tab === 'characters' && <main className="gp-main-pane fill gp-characters-main"><Favourites key="nyx" cfg={NYX_META} onOpenMaterial={onOpenMaterial} settings={settings} /></main>}
       {tab === 'calendar' && <main className="gp-main-pane fill"><BirthdayCalendar onOpenMaterial={onOpenMaterial} /></main>}
       {tab === 'codes' && <main className="gp-main-pane fill"><AllCodesView /></main>}
+      {tab === 'my-hoyo' && <MyHoyoPage />}
       {tab === 'settings' && <SettingsPane settings={settings} setSettings={setSettings} />}
     </div>
   );
@@ -4284,6 +4286,7 @@ const NYX_TAB_TO_ROUTE = {
   calendar:'calendar',
   codes:'codes',
   events:'events',
+  'my-hoyo':'my-hoyo',
   settings:'settings',
 };
 const ROUTE_TO_GAME_TAB = {
@@ -4314,6 +4317,7 @@ const ROUTE_TO_NYX_TAB = {
   calendar:'calendar',
   codes:'codes',
   events:'events',
+  'my-hoyo':'my-hoyo',
   settings:'settings',
   // Retired hub tabs (2026-08-09): a bookmarked link lands on Banners rather
   // than a dead route.
@@ -4416,7 +4420,7 @@ function routeStateFor(key, tab, selection){
 function validTabsForKey(key){
   // Timeline, Pull Overview, All Banners and All Events were removed from the
   // hub 2026-08-09; their old URLs fall through to Banners (the overview).
-  if (key === 'nyx') return ['overview','events','characters','calendar','codes','settings'];
+  if (key === 'nyx') return ['overview','events','characters','calendar','codes','my-hoyo','settings'];
   const tabs = ['overview','mats','char-customize','database','tracker'];
   if (key === 'gi') tabs.push('gallery','shadow','tcg','pot','wonderland');
   if (achievementsSupported(key)) tabs.push('achievements');

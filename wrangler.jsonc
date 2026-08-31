@@ -30,6 +30,20 @@
       "id": "2d402e374e184e0c9f0dc96a989de5ea"
     }
   ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "HOYO_SYNC",
+        "class_name": "HoyoSyncObject"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "hoyo-sync-v1",
+      "new_sqlite_classes": ["HoyoSyncObject"]
+    }
+  ],
   "routes": [
     { "pattern": "pengo.gg", "custom_domain": true },
     { "pattern": "www.pengo.gg", "custom_domain": true }

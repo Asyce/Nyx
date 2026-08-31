@@ -40,7 +40,7 @@ The source documents remain evidence for their locked contracts. Where their old
 - Never store cookies, tokens, passwords, signed URLs, authenticated response bodies, raw logs, or real identities in Git, CI, diagnostics, screenshots, handoffs, or the tracker.
 - Feature releases increment the latest stable minor; repairs after publication increment the patch. Never reuse a tag/version. Tag, assembly, four-part package version, commit, channel, file tree, manifest, sizes, and SHA-256 hashes must agree.
 - Deploy additive Site/Worker receivers before launcher capability flags and retain old contracts.
-- Launcher packages are immutable. Before a launcher release, a failed receiver deploy returns to its recorded prior commit. After launcher release, do not roll the receiver below that launcher contract; disable the capability and publish a higher fixed launcher version.
+- Launcher packages are immutable. Before a launcher release, a failed receiver deploy restores the recorded prior public behavior. When the first Durable Object class creation prevents an old-version rollback, forward-deploy a checked correction or temporarily reject only HoYo requests in the existing kind dispatcher; retain `HoyoSyncObject`, its binding, migration history and stored ciphertext. Never delete/recreate the namespace to enable rollback. After launcher release, do not roll the receiver below that launcher contract; disable the capability and publish a higher fixed launcher version.
 - Rollback never deletes imports, v1 bundles, ciphertext, normalized playtime, or pending deletions.
 - Production deployment requires explicit user authorization.
 
@@ -446,6 +446,8 @@ Start only after Release C is published and marked complete.
 7. Add delete-one-role, one-game, all-HoYo, HoYo-only Worker `delete-account`, and separately confirmed entire-Pengo deletion. Recovery-code rotation conditionally retires the old cloud copy only if its revision still matches the copy transferred: check and delete atomically, persist the exact condition for retries, and keep a changed copy visibly pending without rebasing or forcing deletion. An omitted condition means ordinary explicit deletion; an explicit null expects an absent bundle, and already-absent account retries succeed.
 8. Add website My HoYo, role/capability status, sync health, deletion, and cards only for complete enabled capabilities. Initially render HSR resources and completed achievements only. Inventory-aware materials, owned builds, and other record cards stay absent until their later capability gate proves complete data.
 9. Keep full materials/gear UI on the website; launcher gets quick status, role management, sync, and Open My HoYo. Stale/unsupported data links to the official tool and never shows fake zero progress.
+
+Deployment recovery note (verified 2026-08-31): Cloudflare blocks old-version rollback across a Durable Object class lifecycle change. Record the last live version before the first `hoyo-sync-v1` migration, but use the storage-preserving forward recovery above if it is needed. See [Cloudflare rollback limits](https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/#bindings). This changes recovery procedure only, not the reviewed receiver or production gates.
 
 ### STOP 15
 

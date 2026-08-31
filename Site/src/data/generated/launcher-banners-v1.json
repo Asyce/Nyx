@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "e985718e7571cfd3e7be31a7bfb81f8e7fe6626efd6fbeb3eda606c0b0bc3ce2",
-  "generatedAt": "2026-08-30T18:20:32.657Z",
+  "revision": "a9daeb4aa63f25725efc3a1effcb95372efdf4f1ac0c14d0d623d385c2c888b0",
+  "generatedAt": "2026-08-31T03:12:05.044Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 142766
+          "durationSeconds": 110873
         },
         "characters": [
           {
@@ -464,7 +464,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1071507
+          "durationSeconds": 1039614
         },
         "characters": [
           {
@@ -885,7 +885,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 736766
+          "durationSeconds": 704873
         },
         "characters": [
           {
@@ -1442,12 +1442,6 @@
       ],
       "codes": [
         {
-          "code": "FLINTWORKS",
-          "added": "2026-08-24",
-          "amount": 300,
-          "currency": "Polychrome"
-        },
-        {
           "code": "ZENLESSGIFT",
           "added": "2026-08-11",
           "amount": 50,
@@ -1478,7 +1472,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 916707
+          "durationSeconds": 884814
         },
         "characters": [
           {
@@ -1794,7 +1788,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 185966
+          "durationSeconds": 154073
         },
         "characters": [
           {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T10:45:40.733Z",
+  "generatedAt": "2026-08-30T18:16:43.099Z",
   "games": {
     "gi": [
       {
@@ -68,12 +68,6 @@
     ],
     "zzz": [
       {
-        "code": "FLINTWORKS",
-        "added": "2026-08-24",
-        "amount": 300,
-        "currency": "Polychrome"
-      },
-      {
         "code": "ZENLESSGIFT",
         "added": "2026-08-11",
         "amount": 50,
@@ -108,5 +102,5 @@
       }
     ]
   },
-  "revision": "9931bea50d8176631352ad66dae57606dd2565533d1bebea97630d243c681429"
+  "revision": "2d1101d3ec3f5e2a0ff6c065571784ce12009a05d639328e94a8b9fd07a3394b"
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "a9daeb4aa63f25725efc3a1effcb95372efdf4f1ac0c14d0d623d385c2c888b0",
-  "generatedAt": "2026-08-31T08:48:28.746Z",
+  "revision": "1cca3f2afb9058a124f48f4030b827a4767d2b23829cb586425e15632582c846",
+  "generatedAt": "2026-08-31T09:42:15.528Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 90690
+          "durationSeconds": 87463
         },
         "characters": [
           {
@@ -464,7 +464,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1019431
+          "durationSeconds": 1016204
         },
         "characters": [
           {
@@ -885,7 +885,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 684690
+          "durationSeconds": 681463
         },
         "characters": [
           {
@@ -1376,6 +1376,14 @@
       "upcoming": [],
       "news": [
         {
+          "id": "zzz-hoyo-ann-cdbbef7499fd",
+          "title": "\"Combat Training - Triple Bounty\" Event Details",
+          "type": "event",
+          "start": "2026-09-02T03:00:00.000Z",
+          "end": "2026-09-07T02:59:00.000Z",
+          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1278"
+        },
+        {
           "id": "zzz-hoyo-ann-32d23324ead8",
           "title": "\"Ding-Dong! Delivery Training in Progress\" Event Details",
           "type": "event",
@@ -1427,17 +1435,9 @@
           "id": "zzz-hoyo-ann-d5df8c2348bf",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-08-17T11:00:00.000Z",
-          "end": "2026-09-09T04:59:00.000Z",
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
-        },
-        {
-          "id": "zzz-hoyo-ann-6e42a70461e4",
-          "title": "\"Extensive Patrol: Triple Bounty\" Event Details",
-          "type": "event",
-          "start": "2026-08-12T09:00:00.000Z",
-          "end": "2026-08-17T08:59:00.000Z",
-          "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=1243"
         }
       ],
       "codes": [
@@ -1472,7 +1472,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 864631
+          "durationSeconds": 861404
         },
         "characters": [
           {
@@ -1788,7 +1788,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 133890
+          "durationSeconds": 130663
         },
         "characters": [
           {

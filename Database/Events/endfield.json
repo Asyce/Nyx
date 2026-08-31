@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "endfield",
-  "generatedAt": "2026-08-30T09:11:19.416Z",
+  "generatedAt": "2026-08-31T09:41:16.818Z",
   "source": {
     "name": "Arknights: Endfield Official",
     "endpoint": "web-news.gryphline.com /api/bulletin"
@@ -31,7 +31,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1321",
         "kind": "official-bulletin-api",
         "recordId": "1321",
-        "fetchedAt": "2026-08-30T09:11:53.758Z",
+        "fetchedAt": "2026-08-31T09:41:52.564Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -62,7 +62,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6175",
         "kind": "official-bulletin-api",
         "recordId": "6175",
-        "fetchedAt": "2026-08-30T09:11:54.003Z",
+        "fetchedAt": "2026-08-31T09:41:52.815Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -93,7 +93,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0759",
         "kind": "official-bulletin-api",
         "recordId": "0759",
-        "fetchedAt": "2026-08-30T09:11:55.247Z",
+        "fetchedAt": "2026-08-31T09:41:54.056Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -124,7 +124,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9579",
         "kind": "official-bulletin-api",
         "recordId": "9579",
-        "fetchedAt": "2026-08-30T09:11:57.217Z",
+        "fetchedAt": "2026-08-31T09:41:56.037Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -155,7 +155,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2669",
         "kind": "official-bulletin-api",
         "recordId": "2669",
-        "fetchedAt": "2026-08-30T09:11:56.235Z",
+        "fetchedAt": "2026-08-31T09:41:55.050Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -186,7 +186,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5210",
         "kind": "official-bulletin-api",
         "recordId": "5210",
-        "fetchedAt": "2026-08-30T09:11:55.991Z",
+        "fetchedAt": "2026-08-31T09:41:54.805Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -217,7 +217,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7024",
         "kind": "official-bulletin-api",
         "recordId": "7024",
-        "fetchedAt": "2026-08-30T09:11:56.481Z",
+        "fetchedAt": "2026-08-31T09:41:55.300Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -248,7 +248,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2677",
         "kind": "official-bulletin-api",
         "recordId": "2677",
-        "fetchedAt": "2026-08-30T09:12:00.925Z",
+        "fetchedAt": "2026-08-31T09:41:59.763Z",
         "priority": 1
       },
       "confidence": "low",
@@ -272,7 +272,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2656",
         "kind": "official-bulletin-api",
         "recordId": "2656",
-        "fetchedAt": "2026-08-30T09:11:53.022Z",
+        "fetchedAt": "2026-08-31T09:41:51.822Z",
         "priority": 1
       },
       "confidence": "low",
@@ -296,7 +296,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2660",
         "kind": "official-bulletin-api",
         "recordId": "2660",
-        "fetchedAt": "2026-08-30T09:11:57.462Z",
+        "fetchedAt": "2026-08-31T09:41:56.288Z",
         "priority": 1
       },
       "confidence": "low",
@@ -320,7 +320,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8909",
         "kind": "official-bulletin-api",
         "recordId": "8909",
-        "fetchedAt": "2026-08-30T09:11:58.690Z",
+        "fetchedAt": "2026-08-31T09:41:58.011Z",
         "priority": 1
       },
       "confidence": "low",
@@ -344,7 +344,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0754",
         "kind": "official-bulletin-api",
         "recordId": "0754",
-        "fetchedAt": "2026-08-30T09:11:59.433Z",
+        "fetchedAt": "2026-08-31T09:41:58.258Z",
         "priority": 1
       },
       "confidence": "low",
@@ -368,7 +368,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7028",
         "kind": "official-bulletin-api",
         "recordId": "7028",
-        "fetchedAt": "2026-08-30T09:11:59.679Z",
+        "fetchedAt": "2026-08-31T09:41:58.509Z",
         "priority": 1
       },
       "confidence": "low",
@@ -392,7 +392,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4484",
         "kind": "official-bulletin-api",
         "recordId": "4484",
-        "fetchedAt": "2026-08-30T09:11:53.513Z",
+        "fetchedAt": "2026-08-31T09:41:52.315Z",
         "priority": 1
       },
       "confidence": "low",
@@ -416,7 +416,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3847",
         "kind": "official-bulletin-api",
         "recordId": "3847",
-        "fetchedAt": "2026-08-30T09:11:59.925Z",
+        "fetchedAt": "2026-08-31T09:41:58.756Z",
         "priority": 1
       },
       "confidence": "low",
@@ -440,7 +440,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9566",
         "kind": "official-bulletin-api",
         "recordId": "9566",
-        "fetchedAt": "2026-08-30T09:11:54.253Z",
+        "fetchedAt": "2026-08-31T09:41:53.065Z",
         "priority": 1
       },
       "confidence": "low",
@@ -464,7 +464,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3843",
         "kind": "official-bulletin-api",
         "recordId": "3843",
-        "fetchedAt": "2026-08-30T09:11:57.711Z",
+        "fetchedAt": "2026-08-31T09:41:56.533Z",
         "priority": 1
       },
       "confidence": "low",
@@ -488,7 +488,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2657",
         "kind": "official-bulletin-api",
         "recordId": "2657",
-        "fetchedAt": "2026-08-30T09:11:54.502Z",
+        "fetchedAt": "2026-08-31T09:41:53.314Z",
         "priority": 1
       },
       "confidence": "low",
@@ -512,7 +512,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5212",
         "kind": "official-bulletin-api",
         "recordId": "5212",
-        "fetchedAt": "2026-08-30T09:11:56.972Z",
+        "fetchedAt": "2026-08-31T09:41:55.791Z",
         "priority": 1
       },
       "confidence": "low",
@@ -536,7 +536,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5211",
         "kind": "official-bulletin-api",
         "recordId": "5211",
-        "fetchedAt": "2026-08-30T09:11:56.727Z",
+        "fetchedAt": "2026-08-31T09:41:55.544Z",
         "priority": 1
       },
       "confidence": "low",
@@ -560,7 +560,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1338",
         "kind": "official-bulletin-api",
         "recordId": "1338",
-        "fetchedAt": "2026-08-30T09:11:58.202Z",
+        "fetchedAt": "2026-08-31T09:41:57.023Z",
         "priority": 1
       },
       "confidence": "low",
@@ -584,7 +584,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1339",
         "kind": "official-bulletin-api",
         "recordId": "1339",
-        "fetchedAt": "2026-08-30T09:11:58.443Z",
+        "fetchedAt": "2026-08-31T09:41:57.264Z",
         "priority": 1
       },
       "confidence": "low",
@@ -608,7 +608,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8903",
         "kind": "official-bulletin-api",
         "recordId": "8903",
-        "fetchedAt": "2026-08-30T09:11:54.752Z",
+        "fetchedAt": "2026-08-31T09:41:53.561Z",
         "priority": 1
       },
       "confidence": "low",
@@ -632,7 +632,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6174",
         "kind": "official-bulletin-api",
         "recordId": "6174",
-        "fetchedAt": "2026-08-30T09:11:52.776Z",
+        "fetchedAt": "2026-08-31T09:41:51.571Z",
         "priority": 1
       },
       "confidence": "low",
@@ -656,7 +656,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5202",
         "kind": "official-bulletin-api",
         "recordId": "5202",
-        "fetchedAt": "2026-08-30T09:11:53.268Z",
+        "fetchedAt": "2026-08-31T09:41:52.069Z",
         "priority": 1
       },
       "confidence": "low",
@@ -680,7 +680,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3831",
         "kind": "official-bulletin-api",
         "recordId": "3831",
-        "fetchedAt": "2026-08-30T09:11:52.279Z",
+        "fetchedAt": "2026-08-31T09:41:51.077Z",
         "priority": 1
       },
       "confidence": "low",
@@ -704,7 +704,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1332",
         "kind": "official-bulletin-api",
         "recordId": "1332",
-        "fetchedAt": "2026-08-30T09:12:00.176Z",
+        "fetchedAt": "2026-08-31T09:41:59.016Z",
         "priority": 1
       },
       "confidence": "low",
@@ -728,7 +728,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4492",
         "kind": "official-bulletin-api",
         "recordId": "4492",
-        "fetchedAt": "2026-08-30T09:11:54.999Z",
+        "fetchedAt": "2026-08-31T09:41:53.806Z",
         "priority": 1
       },
       "confidence": "low",
@@ -752,7 +752,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9564",
         "kind": "official-bulletin-api",
         "recordId": "9564",
-        "fetchedAt": "2026-08-30T09:11:52.528Z",
+        "fetchedAt": "2026-08-31T09:41:51.326Z",
         "priority": 1
       },
       "confidence": "low",
@@ -776,7 +776,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5213",
         "kind": "official-bulletin-api",
         "recordId": "5213",
-        "fetchedAt": "2026-08-30T09:11:57.955Z",
+        "fetchedAt": "2026-08-31T09:41:56.775Z",
         "priority": 1
       },
       "confidence": "low",

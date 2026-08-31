@@ -4,8 +4,8 @@
   "chara_info": {
     "release_date": "1970-01-01 00:00:00",
     "birth": [
-      1,
-      1
+      3,
+      29
     ],
     "vision": "Hydro",
     "vision_special_type_before": "",
@@ -14,7 +14,7 @@
     "region": "ASSOC_TYPE_SNEZHNAYA",
     "title": "Lingering Siren-Song",
     "native": "Korolevskiy Troupe",
-    "detail": "???",
+    "detail": "Prima Donna of the Korolevskiy Troupe and a Water Imp who has parted from her kin.",
     "va": {
       "chinese": "???",
       "japanese": "???",
@@ -1729,7 +1729,7 @@
     {
       "id": 11402,
       "name": "Rechitativ: Sonorous Dawn",
-      "desc": "Reveals her true Water Imp form, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and gaining the <color=#FFD780FF>Song of Ages Past</color> effect: Over its duration, Vodyanitsa summons the ancient <color=#FFD780FF>Horn of Spring's Call</color>, periodically moving closer to an opponent in a swift movement to attack them, dealing <color=#80C0FFFF>Hydro DMG</color>\\nOpponents that have taken the above two types of DMG will also have their <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> lowered. Additionally, while the <color=#FFD780FF>Song of Ages Past</color> effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.\\n\\n<i>\"I shall not lament, nor shall I call out or weep. All things shall pass, like mist that softly drifts across the boughs of the white apple trees.\"\\n\"And yet, and yet — for all living things upon the earth, I wish you everlasting beauty and happiness.\"</i>",
+      "desc": "Reveals her true Water Imp form, dealing <color=#80C0FFFF>AoE Hydro DMG</color> and gaining the <color=#FFD780FF>Song of Ages Past</color> effect: Over its duration, Vodyanitsa summons the ancient <color=#FFD780FF>Horn of Spring's Call</color>, periodically moving closer to an opponent in a swift movement to attack them, dealing <color=#80C0FFFF>Hydro DMG</color>\\nOpponents that have taken the above two types of DMG will also have their <color=#80C0FFFF>Hydro RES</color> and <color=#99FFFFFF>Cryo RES</color> lowered. Additionally, while the <color=#FFD780FF>Song of Ages Past</color> effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.",
       "promote": {
         "0": {
           "level": 1,
@@ -2531,7 +2531,7 @@
     {
       "id": 11405,
       "name": "Sink With Thee",
-      "desc": "Leads a song of the Water Imps which lures its listeners to their doom. This deals <color=#80C0FFFF>AoE Hydro DMG</color> to the opponent.\\nWhen in the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> state, DMG dealt is further increased.\\n\\n<i>\"According to legend, the song of the Water Imps can lead sailors to their ruin. But if everyone was lost to the water, where did this story come from?\"\\n\"It's probably from a Domovoy sailor who was too short to go over the ship's railing, heh... Stop giving me that look, Odette! I was just joking!!!\"</i>",
+      "desc": "Leads a song of the Water Imps which lures its listeners to their doom. This deals <color=#80C0FFFF>AoE Hydro DMG</color> to the opponent.\\nWhen in the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> state, DMG dealt is further increased.",
       "promote": {
         "0": {
           "level": 1,
@@ -3335,7 +3335,7 @@
     {
       "id": 1402101,
       "name": "The Last Djeguako Songstress",
-      "desc": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, any Stellar Vortex that is on the field will turn into a Wandering Vortex instead, and if any nearby party member triggers a Stellar Swirl reaction while the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, a Wandering Vortex would be formed instead of a Stellar Vortex.\\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' <color=#80FFD7FF>Anemo RES</color> by 30% for 6s.",
+      "desc": "When the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is used, any Stellar Vortex that is on the field will turn into a Wandering Vortex instead, and if any nearby party member triggers a Stellar Swirl reaction while the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is active, a Wandering Vortex would be formed instead of a Stellar Vortex.\\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' <color=#80FFD7FF>Anemo RES</color> by 35% for 6s. \\nAdditionally, nearby party members who enter the <color=#FFD780FF>Radiance: Stellar Swirl</color> state while <color=#FFD780FF>Song of Ages Past</color> is in effect will have the <color=#FFD780FF>Radiance: Stellar Swirl</color> state extended by 4s.",
       "icon": "UI_Talent_S_Vodyanitsa_06",
       "unlock": 1,
       "param_list": [
@@ -3489,7 +3489,7 @@
     {
       "id": 1402,
       "name": "Echoes That Pierce the Snow",
-      "desc": "When the <color=#FFD780FF>Horn of Spring's Call</color> from the Elemental Skill color=#FFD780FF>Rechitativ: Sonorous Dawn</color> attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt by the currently active party member by 50% for 5s.\\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\\nAdditionally, the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is enhanced as follows: the duration of the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is extended by 9s.",
+      "desc": "When the <color=#FFD780FF>Horn of Spring's Call</color> from the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from <color=#80C0FFFF>Hydro DMG</color> and <color=#99FFFFFF>Cryo DMG</color> dealt by the currently active party member by 50% for 5s.\\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\\nAdditionally, the Elemental Skill <color=#FFD780FF>Rechitativ: Sonorous Dawn</color> is enhanced as follows: the duration of the <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color> effect is extended by 9s.",
       "icon": "UI_Talent_S_Vodyanitsa_02",
       "param_list": [
         0.5,

@@ -7,16 +7,10 @@
   "liveVersion": "4.5",
   "betaVersion": "4.5.51",
   "availableVersions": [
-    "4.4",
-    "4.4.51",
-    "4.4.52",
-    "4.4.53",
-    "4.4.54",
-    "4.4.55",
     "4.5",
     "4.5.51"
   ],
-  "scrapedAt": "2026-08-27T12:03:45.819Z",
+  "scrapedAt": "2026-08-31T20:11:50.229Z",
   "counts": {
     "characters": 97,
     "lightcones": 169,

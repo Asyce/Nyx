@@ -4,8 +4,8 @@
   "chara_info": {
     "release_date": "1970-01-01 00:00:00",
     "birth": [
-      1,
-      1
+      2,
+      4
     ],
     "vision": "Anemo",
     "vision_special_type_before": "Stellar Linchpin",
@@ -1744,7 +1744,7 @@
     {
       "id": 11432,
       "name": "The Art of Victory",
-      "desc": "Calls forth a Spirit Blade passed down through generations of the Vila to deal <color=#80FFD7FF>AoE Anemo DMG</color>, then switches to the <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> mode and gains 2 stacks of <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.\\n\\n<color=#FFD780FF>Armed for Action</color>\\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become <color=#80FFD7FF>Anemo DMG</color> that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional <color=#80FFD7FF>Anemo DMG</color>. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of <color=#FFD780FF>Sword Essence</color>.\\nVesna can consume <color=#FFD780FF>Sword Essence</color> to unleash the special Elemental Skill <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color>, which deals to the opponent <color=#80FFD7FF>Anemo DMG</color>.\\nEach use of the special Elemental Skill <color=#FFD780FF>Windborne Sword</color> in the same instance of <color=#FFD780FF>Armed for Action</color> will increase the level of <color=#FFD780FF>Windborne Sword</color>, beginning from Lv. 1 to Lv. 3 max, for more <color=#80FFD7FF>Anemo DMG</color>. Using <color=#FFD780FF>Windborne Sword</color> at Lv. 2 and Lv. 3 will also summon a <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> which deals <color=#80FFD7FF>Anemo DMG</color>.\\nVesna will exit the mode when its duration ends or when she has used <color=#FFD780FF>Windborne Sword</color> at the highest level 3 times. Exiting will clear all remaining <color=#FFD780FF>Sword Essence</color> she has accrued.\\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG dealt with the <color=#FFD780FF>Spirit Blade</color> becomes <color=#80FFD7FF>Anemo DMG</color> that is also considered Stellar Swirl reaction DMG.\\n\\n<i>\"Make way, make way! The Druzhna has command over the battlefield from here on out!\"</i>",
+      "desc": "Calls forth a Spirit Blade passed down through generations of the Vila to deal <color=#80FFD7FF>AoE Anemo DMG</color>, then switches to the <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> mode and gains 2 stacks of <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.\\n\\n<color=#FFD780FF>Armed for Action</color>\\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become <color=#80FFD7FF>Anemo DMG</color> that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional <color=#80FFD7FF>Anemo DMG</color>. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of <color=#FFD780FF>Sword Essence</color>.\\nVesna can consume <color=#FFD780FF>Sword Essence</color> to unleash the special Elemental Skill <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color>, which deals to the opponent <color=#80FFD7FF>Anemo DMG</color>.\\nEach use of the special Elemental Skill <color=#FFD780FF>Windborne Sword</color> in the same instance of <color=#FFD780FF>Armed for Action</color> will increase the level of <color=#FFD780FF>Windborne Sword</color>, beginning from Lv. 1 to Lv. 3 max, for more <color=#80FFD7FF>Anemo DMG</color>. Using <color=#FFD780FF>Windborne Sword</color> at Lv. 2 and Lv. 3 will also summon a <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> which deals <color=#80FFD7FF>Anemo DMG</color>.\\nVesna will exit the mode when its duration ends or when she has used <color=#FFD780FF>Windborne Sword</color> at the highest level 3 times. Exiting will clear all remaining <color=#FFD780FF>Sword Essence</color> she has accrued.\\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\\n<color=#FFD780FF>Radiance: Stellar Swirl</color>: DMG dealt with the <color=#FFD780FF>Spirit Blade</color> becomes <color=#80FFD7FF>Anemo DMG</color> that is also considered Stellar Swirl reaction DMG.",
       "promote": {
         "0": {
           "level": 1,
@@ -2546,7 +2546,7 @@
     {
       "id": 11435,
       "name": "For the Tsaritsa!",
-      "desc": "Summons multiple <color=#FFD780FF>{LINK#N11430004}Spirit Blades{/LINK}</color>, dealing <color=#80FFD7FF>AoE Anemo DMG</color>. Also gains a stack of <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.\\n\\n<i>\"First, always hold on tight to the sword in your hand; second, always present a neat and dignified appearance; and most important of all, always remain loyal to Her Majesty the Tsaritsa!\"</i>",
+      "desc": "Summons multiple <color=#FFD780FF>{LINK#N11430004}Spirit Blades{/LINK}</color>, dealing <color=#80FFD7FF>AoE Anemo DMG</color>. Also gains a stack of <color=#FFD780FF>{LINK#N11430002}Sword Essence{/LINK}</color>.",
       "promote": {
         "0": {
           "level": 1,
@@ -3419,7 +3419,7 @@
       "id": 1432301,
       "name": "Stellar Jubilee: Splendid Prelude",
       "desc": "When party members trigger Cryo Swirl, it will be changed to a Stellar Swirl reaction, and party members' Base DMG for the Stellar Swirl will be increased based on Vesna's ATK. Every 100 ATK she has increases the Base Stellar Swirl DMG by 0.7%. The maximum DMG increase that can be gained this way is 14%.\\nAfter a party member triggers a Stellar Swirl reaction nearby, Vesna enters the <color=#FFD780FF>Radiance: Stellar Swirl</color> state for 8s.",
-      "icon": "UI_Talent_S_Vesna_07",
+      "icon": "UI_Talent_S_Vesna_08",
       "unlock": 0,
       "param_list": [
         0.007,
@@ -3452,8 +3452,8 @@
     {
       "id": 1432501,
       "name": "The Grand Circuit",
-      "desc": "Holding on Sprint or Jump when Vesna is not in combat will cause her to enter the <color=#FFD780FF>Coursing</color> state.\\n\\n<color=#FFD780FF>Coursing</color>\\nContinuously consumes Stamina to hover in mid-air. Sprinting or tapping Jump to go higher expends additional Stamina. Including the hold on Jump that triggers <color=#FFD780FF>Coursing</color>, Vesna can go higher up to 3 times in each instance of the <color=#FFD780FF>Coursing</color> state.\\n\\nAdditionally, in Snezhnaya (excluding Nod-Krai), when Vesna is switched onto the field while the currently active party member is in mid-air and not in combat, she will immediately enter the <color=#FFD780FF>Coursing</color> state and regenerate 50 Stamina. This effect can trigger once every 10s.",
-      "icon": "UI_Talent_S_Vesna_08",
+      "desc": "Holding on Sprint or Jump when Vesna is not in combat will cause her to enter the <color=#FFD780FF>Coursing</color> state.\\n\\n<color=#FFD780FF>Coursing</color>\\nContinuously consumes Stamina to hover in mid-air. Sprinting or tapping Jump to go higher expends additional Stamina. Including the hold on Jump that triggers <color=#FFD780FF>Coursing</color>, Vesna can go higher up to 3 times in each instance of the <color=#FFD780FF>Coursing</color> state.\\n\\nAdditionally, in Snezhnaya (excluding Nod-Krai), when Vesna is switched onto the field while the currently active party member is in mid-air and not in combat, she will immediately enter the <color=#FFD780FF>Coursing</color> state and regenerate 50 Stamina. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss.",
+      "icon": "UI_Talent_S_Vesna_07",
       "unlock": 0,
       "param_list": [
         50,

@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "7.0.52",
+  "version": "7.0.53",
   "liveVersion": "7.0",
   "newCount": 2,
   "changedCount": 0,
@@ -39,7 +39,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "7.0.52",
+        "version": "7.0.53",
         "sections": [
           {
             "title": "Talents",
@@ -297,7 +297,7 @@
               {
                 "name": "The Art of Victory",
                 "type": "Elemental Skill",
-                "desc": "Calls forth a Spirit Blade passed down through generations of the Vila to deal AoE Anemo DMG, then switches to the Armed for Action mode and gains 2 stacks of Sword Essence.\n\nArmed for Action\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become Anemo DMG that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional Anemo DMG. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of Sword Essence.\nVesna can consume Sword Essence to unleash the special Elemental Skill Windborne Sword, which deals to the opponent Anemo DMG.\nEach use of the special Elemental Skill Windborne Sword in the same instance of Armed for Action will increase the level of Windborne Sword, beginning from Lv. 1 to Lv. 3 max, for more Anemo DMG. Using Windborne Sword at Lv. 2 and Lv. 3 will also summon a Spirit Blade which deals Anemo DMG.\nVesna will exit the mode when its duration ends or when she has used Windborne Sword at the highest level 3 times. Exiting will clear all remaining Sword Essence she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\nRadiance: Stellar Swirl: DMG dealt with the Spirit Blade becomes Anemo DMG that is also considered Stellar Swirl reaction DMG.\n\n\"Make way, make way! The Druzhna has command over the battlefield from here on out!\"",
+                "desc": "Calls forth a Spirit Blade passed down through generations of the Vila to deal AoE Anemo DMG, then switches to the Armed for Action mode and gains 2 stacks of Sword Essence.\n\nArmed for Action\nDMG dealt by Vesna with her Normal Attacks, Charged Attacks, and Plunging Attacks become Anemo DMG that cannot be overridden by another elemental infusion instead. She will also summon a wind pinion that attacks the opponent at the same time, dealing additional Anemo DMG. Each time the wind pinion is summoned, Vesna will regenerate a certain amount of Sword Essence.\nVesna can consume Sword Essence to unleash the special Elemental Skill Windborne Sword, which deals to the opponent Anemo DMG.\nEach use of the special Elemental Skill Windborne Sword in the same instance of Armed for Action will increase the level of Windborne Sword, beginning from Lv. 1 to Lv. 3 max, for more Anemo DMG. Using Windborne Sword at Lv. 2 and Lv. 3 will also summon a Spirit Blade which deals Anemo DMG.\nVesna will exit the mode when its duration ends or when she has used Windborne Sword at the highest level 3 times. Exiting will clear all remaining Sword Essence she has accrued.\nAdditionally, when in this mode, Vesna's resistance to interruption is increased.\nRadiance: Stellar Swirl: DMG dealt with the Spirit Blade becomes Anemo DMG that is also considered Stellar Swirl reaction DMG.",
                 "descFormat": [
                   {
                     "start": 79,
@@ -454,11 +454,6 @@
                     "end": 1315,
                     "kind": "tone",
                     "tone": "anemo"
-                  },
-                  {
-                    "start": 1369,
-                    "end": 1453,
-                    "kind": "em"
                   }
                 ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Vesna_01.webp",
@@ -730,7 +725,7 @@
               {
                 "name": "For the Tsaritsa!",
                 "type": "Elemental Burst",
-                "desc": "Summons multiple Spirit Blades, dealing AoE Anemo DMG. Also gains a stack of Sword Essence.\n\n\"First, always hold on tight to the sword in your hand; second, always present a neat and dignified appearance; and most important of all, always remain loyal to Her Majesty the Tsaritsa!\"",
+                "desc": "Summons multiple Spirit Blades, dealing AoE Anemo DMG. Also gains a stack of Sword Essence.",
                 "descFormat": [
                   {
                     "start": 17,
@@ -761,11 +756,6 @@
                     "end": 90,
                     "kind": "tone",
                     "tone": "accent"
-                  },
-                  {
-                    "start": 93,
-                    "end": 281,
-                    "kind": "em"
                   }
                 ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Vesna_01.webp",
@@ -987,7 +977,7 @@
               {
                 "name": "The Grand Circuit",
                 "type": "Passive Talent",
-                "desc": "Holding on Sprint or Jump when Vesna is not in combat will cause her to enter the Coursing state.\n\nCoursing\nContinuously consumes Stamina to hover in mid-air. Sprinting or tapping Jump to go higher expends additional Stamina. Including the hold on Jump that triggers Coursing, Vesna can go higher up to 3 times in each instance of the Coursing state.\n\nAdditionally, in Snezhnaya (excluding Nod-Krai), when Vesna is switched onto the field while the currently active party member is in mid-air and not in combat, she will immediately enter the Coursing state and regenerate 50 Stamina. This effect can trigger once every 10s.",
+                "desc": "Holding on Sprint or Jump when Vesna is not in combat will cause her to enter the Coursing state.\n\nCoursing\nContinuously consumes Stamina to hover in mid-air. Sprinting or tapping Jump to go higher expends additional Stamina. Including the hold on Jump that triggers Coursing, Vesna can go higher up to 3 times in each instance of the Coursing state.\n\nAdditionally, in Snezhnaya (excluding Nod-Krai), when Vesna is switched onto the field while the currently active party member is in mid-air and not in combat, she will immediately enter the Coursing state and regenerate 50 Stamina. This effect can trigger once every 10s, and does not take effect in Domains, Trounce Domains, or the Spiral Abyss.",
                 "descFormat": [
                   {
                     "start": 82,
@@ -1377,7 +1367,7 @@
         "title": "Snowy Banquet's Sharp Blade",
         "affiliation": "Druzhna",
         "constellation": "Amentum Vernum",
-        "birthday": "January 1",
+        "birthday": "February 4",
         "nation": "Snezhnaya Star"
       },
       "book": "Glory",
@@ -3832,7 +3822,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "7.0.52",
+        "version": "7.0.53",
         "sections": [
           {
             "title": "Talents",
@@ -4068,7 +4058,7 @@
               {
                 "name": "Rechitativ: Sonorous Dawn",
                 "type": "Elemental Skill",
-                "desc": "Reveals her true Water Imp form, dealing AoE Hydro DMG and gaining the Song of Ages Past effect: Over its duration, Vodyanitsa summons the ancient Horn of Spring's Call, periodically moving closer to an opponent in a swift movement to attack them, dealing Hydro DMG\nOpponents that have taken the above two types of DMG will also have their Hydro RES and Cryo RES lowered. Additionally, while the Song of Ages Past effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.\n\n\"I shall not lament, nor shall I call out or weep. All things shall pass, like mist that softly drifts across the boughs of the white apple trees.\"\n\"And yet, and yet \u2014 for all living things upon the earth, I wish you everlasting beauty and happiness.\"",
+                "desc": "Reveals her true Water Imp form, dealing AoE Hydro DMG and gaining the Song of Ages Past effect: Over its duration, Vodyanitsa summons the ancient Horn of Spring's Call, periodically moving closer to an opponent in a swift movement to attack them, dealing Hydro DMG\nOpponents that have taken the above two types of DMG will also have their Hydro RES and Cryo RES lowered. Additionally, while the Song of Ages Past effect is active, the party's currently active character gains increased resistance to interruption and periodically regenerates HP based on Vodyanitsa's Max HP.",
                 "descFormat": [
                   {
                     "start": 41,
@@ -4111,11 +4101,6 @@
                     "end": 413,
                     "kind": "tone",
                     "tone": "accent"
-                  },
-                  {
-                    "start": 577,
-                    "end": 828,
-                    "kind": "em"
                   }
                 ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_S_Vodyanitsa_01.webp",
@@ -4327,7 +4312,7 @@
               {
                 "name": "Sink With Thee",
                 "type": "Elemental Burst",
-                "desc": "Leads a song of the Water Imps which lures its listeners to their doom. This deals AoE Hydro DMG to the opponent.\nWhen in the Song of Ages Past state, DMG dealt is further increased.\n\n\"According to legend, the song of the Water Imps can lead sailors to their ruin. But if everyone was lost to the water, where did this story come from?\"\n\"It's probably from a Domovoy sailor who was too short to go over the ship's railing, heh... Stop giving me that look, Odette! I was just joking!!!\"",
+                "desc": "Leads a song of the Water Imps which lures its listeners to their doom. This deals AoE Hydro DMG to the opponent.\nWhen in the Song of Ages Past state, DMG dealt is further increased.",
                 "descFormat": [
                   {
                     "start": 83,
@@ -4346,11 +4331,6 @@
                     "end": 143,
                     "kind": "tone",
                     "tone": "accent"
-                  },
-                  {
-                    "start": 184,
-                    "end": 485,
-                    "kind": "em"
                   }
                 ],
                 "icon": "../../Database/GameData/gi/assets/skills/Skill_E_Vodyanitsa_01.webp",
@@ -4467,7 +4447,7 @@
               {
                 "name": "The Last Djeguako Songstress",
                 "type": "Passive Talent",
-                "desc": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, any Stellar Vortex that is on the field will turn into a Wandering Vortex instead, and if any nearby party member triggers a Stellar Swirl reaction while the Song of Ages Past effect is active, a Wandering Vortex would be formed instead of a Stellar Vortex.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' Anemo RES by 30% for 6s.",
+                "desc": "When the Elemental Skill Rechitativ: Sonorous Dawn is used, any Stellar Vortex that is on the field will turn into a Wandering Vortex instead, and if any nearby party member triggers a Stellar Swirl reaction while the Song of Ages Past effect is active, a Wandering Vortex would be formed instead of a Stellar Vortex.\nGenerating or detonating a Wandering Vortex will also reduce nearby opponents' Anemo RES by 35% for 6s.\nAdditionally, nearby party members who enter the Radiance: Stellar Swirl state while Song of Ages Past is in effect will have the Radiance: Stellar Swirl state extended by 4s.",
                 "descFormat": [
                   {
                     "start": 25,
@@ -4492,6 +4472,24 @@
                     "end": 406,
                     "kind": "tone",
                     "tone": "anemo"
+                  },
+                  {
+                    "start": 471,
+                    "end": 494,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 507,
+                    "end": 524,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 552,
+                    "end": 575,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ]
               },
@@ -4555,7 +4553,7 @@
               {
                 "name": "Echoes That Pierce the Snow",
                 "type": "Constellation 2",
-                "desc": "When the Horn of Spring's Call from the Elemental Skill color=#FFD780FF>Rechitativ: Sonorous Dawn attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from Hydro DMG and Cryo DMG dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill Rechitativ: Sonorous Dawn is enhanced as follows: the duration of the Song of Ages Past effect is extended by 9s.",
+                "desc": "When the Horn of Spring's Call from the Elemental Skill Rechitativ: Sonorous Dawn attacks the opponent, Vodyanitsa gains the \"Two Voices in Black and White\" effect which increases the CRIT DMG from Hydro DMG and Cryo DMG dealt by the currently active party member by 50% for 5s.\nIf there is a Wandering Vortex present on the field or in the 5s after a Wandering Vortex explodes, the effect changes to: increases the CRIT DMG from Stellar Swirl reaction DMG caused by the currently active party member by 60% for 5s.\nAdditionally, the Elemental Skill Rechitativ: Sonorous Dawn is enhanced as follows: the duration of the Song of Ages Past effect is extended by 9s.",
                 "descFormat": [
                   {
                     "start": 9,
@@ -4564,32 +4562,38 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 214,
-                    "end": 223,
-                    "kind": "tone",
-                    "tone": "hydro"
-                  },
-                  {
-                    "start": 228,
-                    "end": 236,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 566,
-                    "end": 591,
+                    "start": 56,
+                    "end": 81,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 636,
-                    "end": 653,
+                    "start": 198,
+                    "end": 207,
+                    "kind": "tone",
+                    "tone": "hydro"
+                  },
+                  {
+                    "start": 212,
+                    "end": 220,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 550,
+                    "end": 575,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 620,
+                    "end": 637,
                     "kind": "term",
                     "term": "S11402"
                   },
                   {
-                    "start": 636,
-                    "end": 653,
+                    "start": 620,
+                    "end": 637,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -4804,7 +4808,7 @@
         "title": "Lingering Siren-Song",
         "affiliation": "Korolevskiy Troupe",
         "constellation": "Piscicula Aurea",
-        "birthday": "January 1",
+        "birthday": "March 29",
         "nation": "Snezhnaya"
       },
       "book": "Fortitude",

@@ -24392,7 +24392,7 @@
   },
   "101333": {
     "name": "Bluebeech Wood",
-    "desc": "Wood from Bluebeeches with even grain patterns that can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
+    "desc": "Wood from Bluebeeches, featuring a relatively even grain and good resistance to wear. In Snezhnaya, it is commonly processed into various types of boards for making implements and constructing buildings intended for long-term use...",
     "rank": 1,
     "icon": "UI_ItemIcon_101333",
     "item_type": "ITEM_MATERIAL",
@@ -87350,8 +87350,8 @@
     "type": "Material"
   },
   "130047": {
-    "name": "Golden Fern Seed",
-    "desc": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Golden Fern.",
+    "name": "Golden Fern Spore",
+    "desc": "A spore obtained from the Seed Dispensary. Brimming with vitality and of excellent quality, it can be planted in the fields of the Realm Within, where it will grow into a Golden Fern after a period of time.",
     "rank": 0,
     "icon": "UI_ItemIcon_130047",
     "item_type": "ITEM_MATERIAL",
@@ -92934,8 +92934,8 @@
     "type": "Refinement Material"
   },
   "200129": {
-    "name": "青翦垂缨",
-    "desc": "",
+    "name": "Tea-Scented Tassel",
+    "desc": "Refinement material for \"Silver Light.\"\\nA tassel carrying the fragrance of freshly picked tea leaves, with the spiritual power of the Wind Reader held deep within. When lightly brushed across the mithril blade, it seems to restore its keen edge.",
     "rank": 4,
     "icon": "UI_ItemIcon_200129",
     "item_type": "ITEM_MATERIAL",
@@ -98644,7 +98644,7 @@
     "type": ""
   },
   "210298": {
-    "name": "Battle Pass: Moonward",
+    "name": "Travel Notes: Moontrace",
     "desc": "Namecard Style.\\n\"Swallows depart, wild geese fly south, while moonlight gleams afar.\"",
     "rank": 4,
     "icon": "UI_NameCardIcon_Bp53",
@@ -98656,7 +98656,7 @@
     ],
     "title": "",
     "effect": "",
-    "special": "\"Travel Notes: Moonward\" namecard style",
+    "special": "\"Travel Notes: Moontrace\" namecard style",
     "type": ""
   },
   "215001": {

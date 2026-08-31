@@ -7,11 +7,4008 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.4+18409985",
+  "version": "3.2.12+18560506",
   "liveVersion": "3.1",
   "newCount": 2,
   "changedCount": 2,
   "roster": [
+    {
+      "id": "zzz-koleda",
+      "n": "Koleda",
+      "localizedNames": {
+        "en": "Koleda",
+        "zh": "\u73c2\u857e\u59b2",
+        "ja": "\u30af\u30ec\u30bf",
+        "ko": "\ucf5c\ub808\ub2e4"
+      },
+      "title": "Pink Bear",
+      "slug": "koleda",
+      "release": 1720051200000,
+      "releasePatch": "1.0",
+      "updated": 1787097600000,
+      "sourceOrder": 0,
+      "voiceActors": {
+        "english": "imdb:nm6634766|Emily Reams",
+        "japanese": "Yuka Iguchi|Iguchi Yuka (\u4e95\u53e3 \u88d5\u9999)",
+        "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u7a46\u96ea\u5a77|Mu Xueting (\u7a46\u96ea\u5a77)",
+        "korean": "https://namu.wiki/w/\uc815\ud574\uc740(\uc131\uc6b0)|Jeong Hae-eun (\uc815\ud574\uc740)"
+      },
+      "icon": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+      "iconZoom": 1.18,
+      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole14.webp",
+      "card": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
+      "signatureWeapon": {
+        "id": "14110",
+        "name": "Hellfire Gears",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14110",
+      "signatureWeaponName": "Hellfire Gears",
+      "status": "beta_changed",
+      "labels": [],
+      "r": "S",
+      "el": "Fire",
+      "spec": "Stun",
+      "tag": "Belobog Heavy Industries",
+      "baseStats": {
+        "level1": {
+          "hp": 653,
+          "atk": 106,
+          "def": 48,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 116,
+          "anomalyProficiency": 97,
+          "anomalyMastery": 96
+        },
+        "max": {
+          "level": 60,
+          "hp": 8127.31,
+          "atk": 660.84,
+          "def": 594.59,
+          "critRate": 0.05,
+          "critDmg": 0.5,
+          "impact": 116,
+          "anomalyProficiency": 97,
+          "anomalyMastery": 96
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/10",
+            "level": 1,
+            "cap": 10,
+            "hp": 653,
+            "atk": 106,
+            "def": 48,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 10/20",
+            "level": 10,
+            "cap": 20,
+            "hp": 1899.15,
+            "atk": 199.81,
+            "def": 139.36,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 20/30",
+            "level": 20,
+            "cap": 30,
+            "hp": 3234.98,
+            "atk": 299.81,
+            "def": 237.21,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 30/40",
+            "level": 30,
+            "cap": 40,
+            "hp": 4569.81,
+            "atk": 398.82,
+            "def": 334.05,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 5905.64,
+            "atk": 498.83,
+            "def": 431.9,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 7240.48,
+            "atk": 598.83,
+            "def": 529.74,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          },
+          {
+            "label": "Lv. 60/60",
+            "level": 60,
+            "cap": 60,
+            "hp": 8127.31,
+            "atk": 660.84,
+            "def": 594.59,
+            "critRate": 0.05,
+            "critDmg": 0.5,
+            "impact": 116,
+            "anomalyProficiency": 97,
+            "anomalyMastery": 96
+          }
+        ]
+      },
+      "facts": {
+        "fullName": "Koleda Belobog",
+        "faction": "Belobog Heavy Industries",
+        "birthday": "August 10",
+        "title": "Pink Bear"
+      },
+      "skillIcons": [
+        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
+        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
+        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "3.2.12+18560506",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Basic Attack: Smash 'n' Bash",
+                "type": "Basic",
+                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nEnhanced Basic Attack consists of two stages. After performing the first stage, press or hold to follow up with the second stage. The pursuit effect of the first-stage enhanced Basic Attack is also strengthened.\nFurnace Fire can stack up to 2 times. Performing an enhanced Basic Attack consumes all stacks of Furnace Fire.\nWhen Furnace Fire is consumed, all Agents deal 35% more damage for 40s. Repeated triggers refresh the duration. For each stack of Furnace Fire consumed, the second stage of the enhanced Basic Attack deals 10% more damage and inflicts 20% more Daze.\nWhen switching Agents during the first stage of the enhanced Basic Attack, Koleda remains on-field and automatically launches the second stage of the enhanced Basic Attack.\nWhen Koleda and Ben are both in the squad, using an enhanced Basic Attack without switching Agents during the first stage of the enhanced Basic Attack causes the two to perform a Coordinated Attack, further increasing the skill's power.\nCharacter is Invulnerable during the 4th hit of her Basic Attack and her enhanced Basic Attack.\nThe invulnerability duration of the second-stage enhanced Basic Attack is increased.",
+                "descFormat": [
+                  {
+                    "start": 54,
+                    "end": 66,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 88,
+                    "end": 100,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 136,
+                    "end": 148,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 182,
+                    "end": 194,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 222,
+                    "end": 230,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 297,
+                    "end": 309,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 426,
+                    "end": 440,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 462,
+                    "end": 474,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 531,
+                    "end": 543,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 565,
+                    "end": 577,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 613,
+                    "end": 625,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 659,
+                    "end": 671,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 699,
+                    "end": 707,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 718,
+                    "end": 730,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 886,
+                    "end": 898,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 921,
+                    "end": 933,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 982,
+                    "end": 994,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1018,
+                    "end": 1030,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1037,
+                    "end": 1049,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1162,
+                    "end": 1174,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 1218,
+                    "end": 1230,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1342,
+                    "end": 1354,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1440,
+                    "end": 1452,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1515,
+                    "end": 1527,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1592,
+                    "end": 1604,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1743,
+                    "end": 1755,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1773,
+                    "end": 1785,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1845,
+                    "end": 1857,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "1st-Hit DMG Multiplier",
+                        "values": [
+                          "63.6%",
+                          "69.4%",
+                          "75.2%",
+                          "81%",
+                          "86.8%",
+                          "92.6%",
+                          "98.4%",
+                          "104.2%",
+                          "110%",
+                          "115.8%",
+                          "121.6%",
+                          "127.4%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit DMG Multiplier",
+                        "values": [
+                          "79.2%",
+                          "86.4%",
+                          "93.6%",
+                          "100.8%",
+                          "108%",
+                          "115.2%",
+                          "122.4%",
+                          "129.6%",
+                          "136.8%",
+                          "144%",
+                          "151.2%",
+                          "158.4%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit DMG Multiplier",
+                        "values": [
+                          "126.1%",
+                          "137.6%",
+                          "149.1%",
+                          "160.6%",
+                          "172.1%",
+                          "183.6%",
+                          "195.1%",
+                          "206.6%",
+                          "218.1%",
+                          "229.6%",
+                          "241.1%",
+                          "252.6%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit DMG Multiplier",
+                        "values": [
+                          "317.4%",
+                          "346.3%",
+                          "375.2%",
+                          "404.1%",
+                          "433%",
+                          "461.9%",
+                          "490.8%",
+                          "519.7%",
+                          "548.6%",
+                          "577.5%",
+                          "606.4%",
+                          "635.3%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Basic Attack 1st-Hit DMG Multiplier",
+                        "values": [
+                          "160.8%",
+                          "175.5%",
+                          "190.2%",
+                          "204.9%",
+                          "219.6%",
+                          "234.3%",
+                          "249%",
+                          "263.7%",
+                          "278.4%",
+                          "293.1%",
+                          "307.8%",
+                          "322.5%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Basic Attack 2nd-Hit DMG Multiplier",
+                        "values": [
+                          "404.9%",
+                          "441.8%",
+                          "478.7%",
+                          "515.6%",
+                          "552.5%",
+                          "589.4%",
+                          "626.3%",
+                          "663.2%",
+                          "700.1%",
+                          "737%",
+                          "773.9%",
+                          "810.8%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Basic Attack 2nd-Hit Dmg Multiplier (Teamwork)",
+                        "values": [
+                          "501.3%",
+                          "546.9%",
+                          "592.5%",
+                          "638.1%",
+                          "683.7%",
+                          "729.3%",
+                          "774.9%",
+                          "820.5%",
+                          "866.1%",
+                          "911.7%",
+                          "957.3%",
+                          "1002.9%"
+                        ]
+                      },
+                      {
+                        "label": "1st-Hit Daze Multiplier",
+                        "values": [
+                          "31.8%",
+                          "33.3%",
+                          "34.8%",
+                          "36.3%",
+                          "37.8%",
+                          "39.3%",
+                          "40.8%",
+                          "42.3%",
+                          "43.8%",
+                          "45.3%",
+                          "46.8%",
+                          "48.3%"
+                        ]
+                      },
+                      {
+                        "label": "2nd-Hit Daze Multiplier",
+                        "values": [
+                          "65.5%",
+                          "68.5%",
+                          "71.5%",
+                          "74.5%",
+                          "77.5%",
+                          "80.5%",
+                          "83.5%",
+                          "86.5%",
+                          "89.5%",
+                          "92.5%",
+                          "95.5%",
+                          "98.5%"
+                        ]
+                      },
+                      {
+                        "label": "3rd-Hit Daze Multiplier",
+                        "values": [
+                          "104.3%",
+                          "109.1%",
+                          "113.9%",
+                          "118.7%",
+                          "123.5%",
+                          "128.3%",
+                          "133.1%",
+                          "137.9%",
+                          "142.7%",
+                          "147.5%",
+                          "152.3%",
+                          "157.1%"
+                        ]
+                      },
+                      {
+                        "label": "4th-Hit Daze Multiplier",
+                        "values": [
+                          "249.3%",
+                          "260.7%",
+                          "272.1%",
+                          "283.5%",
+                          "294.9%",
+                          "306.3%",
+                          "317.7%",
+                          "329.1%",
+                          "340.5%",
+                          "351.9%",
+                          "363.3%",
+                          "374.7%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Basic Attack 1st-Hit Daze Multiplier",
+                        "values": [
+                          "61.4%",
+                          "64.2%",
+                          "67%",
+                          "69.8%",
+                          "72.6%",
+                          "75.4%",
+                          "78.2%",
+                          "81%",
+                          "83.8%",
+                          "86.6%",
+                          "89.4%",
+                          "92.2%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Basic Attack 2nd-Hit Daze Multiplier",
+                        "values": [
+                          "156.6%",
+                          "163.8%",
+                          "171%",
+                          "178.2%",
+                          "185.4%",
+                          "192.6%",
+                          "199.8%",
+                          "207%",
+                          "214.2%",
+                          "221.4%",
+                          "228.6%",
+                          "235.8%"
+                        ]
+                      },
+                      {
+                        "label": "Enhanced Basic Attack 2nd-Hit Daze Multiplier (Teamwork)",
+                        "values": [
+                          "234.6%",
+                          "245.3%",
+                          "256%",
+                          "266.7%",
+                          "277.4%",
+                          "288.1%",
+                          "298.8%",
+                          "309.5%",
+                          "320.2%",
+                          "330.9%",
+                          "341.6%",
+                          "352.3%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge: Wait 'n' See",
+                "type": "Dodge",
+                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
+              },
+              {
+                "name": "Dash Attack: Tremble!",
+                "type": "Dodge",
+                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nPerform a forward strike, dealing Physical DMG.\nDuring this skill, if she has Furnace Fire, then Anti-Interrupt Level is increased. Hold to follow up with an enhanced Basic Attack.",
+                "descFormat": [
+                  {
+                    "start": 68,
+                    "end": 80,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 151,
+                    "end": 163,
+                    "kind": "tone",
+                    "tone": "physical"
+                  },
+                  {
+                    "start": 195,
+                    "end": 207,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 284,
+                    "end": 296,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "56.1%",
+                          "61.2%",
+                          "66.3%",
+                          "71.4%",
+                          "76.5%",
+                          "81.6%",
+                          "86.7%",
+                          "91.8%",
+                          "96.9%",
+                          "102%",
+                          "107.1%",
+                          "112.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "28.1%",
+                          "29.4%",
+                          "30.7%",
+                          "32%",
+                          "33.3%",
+                          "34.6%",
+                          "35.9%",
+                          "37.2%",
+                          "38.5%",
+                          "39.8%",
+                          "41.1%",
+                          "42.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dodge Counter: Don't Look Down on Me",
+                "type": "Dodge",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front and creates an explosion, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 15,
+                    "end": 28,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 101,
+                    "end": 109,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "343.9%",
+                          "375.2%",
+                          "406.5%",
+                          "437.8%",
+                          "469.1%",
+                          "500.4%",
+                          "531.7%",
+                          "563%",
+                          "594.3%",
+                          "625.6%",
+                          "656.9%",
+                          "688.2%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "288.8%",
+                          "302%",
+                          "315.2%",
+                          "328.4%",
+                          "341.6%",
+                          "354.8%",
+                          "368%",
+                          "381.2%",
+                          "394.4%",
+                          "407.6%",
+                          "420.8%",
+                          "434%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Quick Assist: Coming Thru!",
+                "type": "Assist",
+                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 92,
+                    "end": 100,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "183.8%",
+                          "200.6%",
+                          "217.4%",
+                          "234.2%",
+                          "251%",
+                          "267.8%",
+                          "284.6%",
+                          "301.4%",
+                          "318.2%",
+                          "335%",
+                          "351.8%",
+                          "368.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "183.8%",
+                          "192.2%",
+                          "200.6%",
+                          "209%",
+                          "217.4%",
+                          "225.8%",
+                          "234.2%",
+                          "242.6%",
+                          "251%",
+                          "259.4%",
+                          "267.8%",
+                          "276.2%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Defensive Assist: Protective Hammer",
+                "type": "Assist",
+                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 197,
+                    "end": 210,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Light Defensive Daze Multiplier",
+                        "values": [
+                          "259%",
+                          "270.8%",
+                          "282.6%",
+                          "294.4%",
+                          "306.2%",
+                          "318%",
+                          "329.8%",
+                          "341.6%",
+                          "353.4%",
+                          "365.2%",
+                          "377%",
+                          "388.8%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Defensive Daze Multiplier",
+                        "values": [
+                          "327.3%",
+                          "342.2%",
+                          "357.1%",
+                          "372%",
+                          "386.9%",
+                          "401.8%",
+                          "416.7%",
+                          "431.6%",
+                          "446.5%",
+                          "461.4%",
+                          "476.3%",
+                          "491.2%"
+                        ]
+                      },
+                      {
+                        "label": "Chain Defensive Daze Multiplier",
+                        "values": [
+                          "159.3%",
+                          "166.6%",
+                          "173.9%",
+                          "181.2%",
+                          "188.5%",
+                          "195.8%",
+                          "203.1%",
+                          "210.4%",
+                          "217.7%",
+                          "225%",
+                          "232.3%",
+                          "239.6%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Assist Follow-Up: Hammer Bell",
+                "type": "Assist",
+                "desc": "Press after a Defensive Assist to activate:\nKoleda charges and strikes enemies in front, dealing Fire DMG and obtaining Furnace Fire effect.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 97,
+                    "end": 105,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 120,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "359.2%",
+                          "391.9%",
+                          "424.6%",
+                          "457.3%",
+                          "490%",
+                          "522.7%",
+                          "555.4%",
+                          "588.1%",
+                          "620.8%",
+                          "653.5%",
+                          "686.2%",
+                          "718.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "312.7%",
+                          "327%",
+                          "341.3%",
+                          "355.6%",
+                          "369.9%",
+                          "384.2%",
+                          "398.5%",
+                          "412.8%",
+                          "427.1%",
+                          "441.4%",
+                          "455.7%",
+                          "470%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Special Attack: Hammer Time",
+                "type": "Special",
+                "desc": "Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n\nPress to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and directly triggers the explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nDuring the 2nd hit of her Basic Attack, holding can also trigger the explosion directly.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 79,
+                    "end": 87,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 189,
+                    "end": 201,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 214,
+                    "end": 226,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 325,
+                    "end": 337,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 565,
+                    "end": 573,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 685,
+                    "end": 697,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 710,
+                    "end": 722,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 750,
+                    "end": 762,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 910,
+                    "end": 922,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Strike DMG Multiplier",
+                        "values": [
+                          "51.9%",
+                          "56.7%",
+                          "61.5%",
+                          "66.3%",
+                          "71.1%",
+                          "75.9%",
+                          "80.7%",
+                          "85.5%",
+                          "90.3%",
+                          "95.1%",
+                          "99.9%",
+                          "104.7%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion DMG Multiplier",
+                        "values": [
+                          "77.8%",
+                          "84.9%",
+                          "92%",
+                          "99.1%",
+                          "106.2%",
+                          "113.3%",
+                          "120.4%",
+                          "127.5%",
+                          "134.6%",
+                          "141.7%",
+                          "148.8%",
+                          "155.9%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion DMG Multiplier (Teamwork)",
+                        "values": [
+                          "85.5%",
+                          "93.3%",
+                          "101.1%",
+                          "108.9%",
+                          "116.7%",
+                          "124.5%",
+                          "132.3%",
+                          "140.1%",
+                          "147.9%",
+                          "155.7%",
+                          "163.5%",
+                          "171.3%"
+                        ]
+                      },
+                      {
+                        "label": "Strike Daze Multiplier",
+                        "values": [
+                          "51.9%",
+                          "54.3%",
+                          "56.7%",
+                          "59.1%",
+                          "61.5%",
+                          "63.9%",
+                          "66.3%",
+                          "68.7%",
+                          "71.1%",
+                          "73.5%",
+                          "75.9%",
+                          "78.3%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion Daze Multiplier",
+                        "values": [
+                          "77.8%",
+                          "81.4%",
+                          "85%",
+                          "88.6%",
+                          "92.2%",
+                          "95.8%",
+                          "99.4%",
+                          "103%",
+                          "106.6%",
+                          "110.2%",
+                          "113.8%",
+                          "117.4%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion Daze Multiplier (Teamwork)",
+                        "values": [
+                          "77.8%",
+                          "81.4%",
+                          "85%",
+                          "88.6%",
+                          "92.2%",
+                          "95.8%",
+                          "99.4%",
+                          "103%",
+                          "106.6%",
+                          "110.2%",
+                          "113.8%",
+                          "117.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EX Special Attack: Boiling Furnace",
+                "type": "Special",
+                "desc": "With enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack. Explosions triggered this way inflict 10% more Daze.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill. Hold to follow up with Dash Attack: Tremble!.",
+                "descFormat": [
+                  {
+                    "start": 115,
+                    "end": 123,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 147,
+                    "end": 159,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 269,
+                    "end": 281,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 294,
+                    "end": 306,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 404,
+                    "end": 416,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 672,
+                    "end": 680,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 704,
+                    "end": 716,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 826,
+                    "end": 838,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 851,
+                    "end": 863,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1014,
+                    "end": 1026,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1189,
+                    "end": 1210,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Strike DMG Multiplier",
+                        "values": [
+                          "152.3%",
+                          "166.2%",
+                          "180.1%",
+                          "194%",
+                          "207.9%",
+                          "221.8%",
+                          "235.7%",
+                          "249.6%",
+                          "263.5%",
+                          "277.4%",
+                          "291.3%",
+                          "305.2%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion DMG Multiplier",
+                        "values": [
+                          "606%",
+                          "661.1%",
+                          "716.2%",
+                          "771.3%",
+                          "826.4%",
+                          "881.5%",
+                          "936.6%",
+                          "991.7%",
+                          "1046.8%",
+                          "1101.9%",
+                          "1157%",
+                          "1212.1%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion DMG Multiplier (Teamwork)",
+                        "values": [
+                          "666.6%",
+                          "727.2%",
+                          "787.8%",
+                          "848.4%",
+                          "909%",
+                          "969.6%",
+                          "1030.2%",
+                          "1090.8%",
+                          "1151.4%",
+                          "1212%",
+                          "1272.6%",
+                          "1333.2%"
+                        ]
+                      },
+                      {
+                        "label": "Strike Daze Multiplier",
+                        "values": [
+                          "152.3%",
+                          "159.3%",
+                          "166.3%",
+                          "173.3%",
+                          "180.3%",
+                          "187.3%",
+                          "194.3%",
+                          "201.3%",
+                          "208.3%",
+                          "215.3%",
+                          "222.3%",
+                          "229.3%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion Daze Multiplier",
+                        "values": [
+                          "494%",
+                          "516.5%",
+                          "539%",
+                          "561.5%",
+                          "584%",
+                          "606.5%",
+                          "629%",
+                          "651.5%",
+                          "674%",
+                          "696.5%",
+                          "719%",
+                          "741.5%"
+                        ]
+                      },
+                      {
+                        "label": "Explosion Daze Multiplier (Teamwork)",
+                        "values": [
+                          "494%",
+                          "516.5%",
+                          "539%",
+                          "561.5%",
+                          "584%",
+                          "606.5%",
+                          "629%",
+                          "651.5%",
+                          "674%",
+                          "696.5%",
+                          "719%",
+                          "741.5%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chain Attack: Natural Disaster",
+                "type": "Chain",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful explosion on enemies in a large area, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 7,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 143,
+                    "end": 151,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 177,
+                    "end": 189,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "636%",
+                          "693.9%",
+                          "751.8%",
+                          "809.7%",
+                          "867.6%",
+                          "925.5%",
+                          "983.4%",
+                          "1041.3%",
+                          "1099.2%",
+                          "1157.1%",
+                          "1215%",
+                          "1272.9%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "217%",
+                          "226.9%",
+                          "236.8%",
+                          "246.7%",
+                          "256.6%",
+                          "266.5%",
+                          "276.4%",
+                          "286.3%",
+                          "296.2%",
+                          "306.1%",
+                          "316%",
+                          "325.9%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Ultimate: Hammerquake",
+                "type": "Chain",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.",
+                "descFormat": [
+                  {
+                    "start": 26,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 138,
+                    "end": 146,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 172,
+                    "end": 184,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  }
+                ],
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12"
+                    ],
+                    "rows": [
+                      {
+                        "label": "DMG Multiplier",
+                        "values": [
+                          "1548.8%",
+                          "1689.6%",
+                          "1830.4%",
+                          "1971.2%",
+                          "2112%",
+                          "2252.8%",
+                          "2393.6%",
+                          "2534.4%",
+                          "2675.2%",
+                          "2816%",
+                          "2956.8%",
+                          "3097.6%"
+                        ]
+                      },
+                      {
+                        "label": "DMG Multiplier (Teamwork)",
+                        "values": [
+                          "1694%",
+                          "1848%",
+                          "2002%",
+                          "2156%",
+                          "2310%",
+                          "2464%",
+                          "2618%",
+                          "2772%",
+                          "2926%",
+                          "3080%",
+                          "3234%",
+                          "3388%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier",
+                        "values": [
+                          "1004.9%",
+                          "1050.6%",
+                          "1096.3%",
+                          "1142%",
+                          "1187.7%",
+                          "1233.4%",
+                          "1279.1%",
+                          "1324.8%",
+                          "1370.5%",
+                          "1416.2%",
+                          "1461.9%",
+                          "1507.6%"
+                        ]
+                      },
+                      {
+                        "label": "Daze Multiplier (Teamwork)",
+                        "values": [
+                          "1096.5%",
+                          "1146.4%",
+                          "1196.3%",
+                          "1246.2%",
+                          "1296.1%",
+                          "1346%",
+                          "1395.9%",
+                          "1445.8%",
+                          "1495.7%",
+                          "1545.6%",
+                          "1595.5%",
+                          "1645.4%"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Core Skill",
+            "entries": [
+              {
+                "name": "Core Passive: Demolition Hammer",
+                "type": "Core Passive",
+                "desc": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%.",
+                "descFormat": [
+                  {
+                    "start": 21,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 51,
+                    "end": 63,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 83,
+                    "end": 95,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 129,
+                    "end": 132,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 30%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 35%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 40%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 45%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 50%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 55%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%.",
+                    "format": [
+                      {
+                        "start": 21,
+                        "end": 38,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 51,
+                        "end": 63,
+                        "kind": "tone",
+                        "tone": "pyro"
+                      },
+                      {
+                        "start": 83,
+                        "end": 95,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 129,
+                        "end": 132,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Additional Ability: Belobog Management",
+                "type": "Additional Ability",
+                "desc": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                "descFormat": [
+                  {
+                    "start": 82,
+                    "end": 89,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 134,
+                    "end": 151,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 231,
+                    "end": 244,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ],
+                "levels": [
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 1",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 2",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 3",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 6",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 82,
+                        "end": 89,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 134,
+                        "end": 151,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 231,
+                        "end": 244,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 7",
+                    "text": "When another character in your squad is a Rupture or Armorer character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
+                    "format": [
+                      {
+                        "start": 42,
+                        "end": 49,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 53,
+                        "end": 60,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 146,
+                        "end": 163,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 243,
+                        "end": 256,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Mindscape Cinema",
+            "entries": [
+              {
+                "name": "Beat of the Hammer",
+                "type": "Mindscape 1",
+                "desc": "After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15%.",
+                "descFormat": [
+                  {
+                    "start": 37,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 66,
+                    "end": 78,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 94,
+                    "end": 108,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 112,
+                    "end": 129,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Kinetic Recovery",
+                "type": "Mindscape 2",
+                "desc": "When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s.",
+                "descFormat": [
+                  {
+                    "start": 14,
+                    "end": 31,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "\"Mind Your Own!\"",
+                "type": "Mindscape 3",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Furnace's Glow",
+                "type": "Mindscape 4",
+                "desc": "Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack: Natural Disaster or Ultimate: Hammerquake hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack.",
+                "descFormat": [
+                  {
+                    "start": 63,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "pyro"
+                  },
+                  {
+                    "start": 96,
+                    "end": 108,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 119,
+                    "end": 149,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 153,
+                    "end": 174,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "\"You Dare Underestimate Me?\"",
+                "type": "Mindscape 5",
+                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 14,
+                    "end": 19,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 21,
+                    "end": 27,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 29,
+                    "end": 43,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 49,
+                    "end": 61,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              },
+              {
+                "name": "Saturated Blast",
+                "type": "Mindscape 6",
+                "desc": "When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK.",
+                "descFormat": [
+                  {
+                    "start": 5,
+                    "end": 22,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 24,
+                    "end": 36,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 41,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "100212",
+            "name": "Basic Stun Certification Seal",
+            "qty": 4,
+            "rar": 1,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100222",
+            "name": "Advanced Stun Certification Seal",
+            "qty": 32,
+            "rar": 3,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          },
+          {
+            "id": "100232",
+            "name": "Buster Certification Seal",
+            "qty": 30,
+            "rar": 4,
+            "kind": "gem",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
+            "source": "Combat Simulation - Agent Promotion",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Promotion"
+              }
+            ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 20,
+            "items": [
+              {
+                "id": "100212",
+                "name": "Basic Stun Certification Seal",
+                "qty": 4,
+                "rar": 1,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 24000
+          },
+          {
+            "cap": 30,
+            "items": [
+              {
+                "id": "100222",
+                "name": "Advanced Stun Certification Seal",
+                "qty": 12,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 56000
+          },
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "100222",
+                "name": "Advanced Stun Certification Seal",
+                "qty": 20,
+                "rar": 3,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 120000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "100232",
+                "name": "Buster Certification Seal",
+                "qty": 10,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 200000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "100232",
+                "name": "Buster Certification Seal",
+                "qty": 20,
+                "rar": 4,
+                "kind": "gem",
+                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
+                "source": "Combat Simulation - Agent Promotion",
+                "sourceDetails": [
+                  {
+                    "name": "Combat Simulation - Agent Promotion"
+                  }
+                ]
+              }
+            ],
+            "cost": 400000
+          }
+        ],
+        "talents": [
+          {
+            "id": "100111",
+            "name": "Basic Burn Chip",
+            "qty": 25,
+            "rar": 1,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100121",
+            "name": "Advanced Burn Chip",
+            "qty": 75,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100131",
+            "name": "Specialized Burn Chip",
+            "qty": 250,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+            "source": "Combat Simulation - Agent Skills",
+            "sourceDetails": [
+              {
+                "name": "Combat Simulation - Agent Skills"
+              }
+            ]
+          },
+          {
+            "id": "100941",
+            "name": "Hamster Cage Pass",
+            "qty": 5,
+            "rar": 5,
+            "kind": "crown",
+            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+            "source": "Event / New Eridu City Fund",
+            "sourceDetails": [
+              {
+                "name": "Event / New Eridu City Fund"
+              }
+            ]
+          },
+          {
+            "id": "110002",
+            "name": "Living Drive",
+            "qty": 9,
+            "rar": 5,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+            "source": "Unknown Corruption Complex",
+            "sourceDetails": [
+              {
+                "name": "Unknown Corruption Complex",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+              }
+            ]
+          },
+          {
+            "id": "110504",
+            "name": "Higher Dimensional Data: Steel Malice",
+            "qty": 60,
+            "rar": 4,
+            "kind": "boss",
+            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+            "source": "Hans - Energized / Expert Challenge",
+            "sourceDetails": [
+              {
+                "name": "Hans - Energized",
+                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
+              },
+              {
+                "name": "Expert Challenge"
+              }
+            ]
+          }
+        ],
+        "talentStages": [
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 2000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 2,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 3000,
+              "items": [
+                {
+                  "id": "100111",
+                  "name": "Basic Burn Chip",
+                  "qty": 3,
+                  "rar": 1,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 6000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 2,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 9000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 3,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 4,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 18000,
+              "items": [
+                {
+                  "id": "100121",
+                  "name": "Advanced Burn Chip",
+                  "qty": 6,
+                  "rar": 3,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 45000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 5,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 67500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 8,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 90000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 10,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 112500,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 12,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 135000,
+              "items": [
+                {
+                  "id": "100131",
+                  "name": "Specialized Burn Chip",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "book",
+                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
+                  "source": "Combat Simulation - Agent Skills",
+                  "sourceDetails": [
+                    {
+                      "name": "Combat Simulation - Agent Skills"
+                    }
+                  ]
+                },
+                {
+                  "id": "100941",
+                  "name": "Hamster Cage Pass",
+                  "qty": 1,
+                  "rar": 5,
+                  "kind": "crown",
+                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
+                  "source": "Event / New Eridu City Fund",
+                  "sourceDetails": [
+                    {
+                      "name": "Event / New Eridu City Fund"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "cost": 5000,
+              "items": []
+            },
+            {
+              "cost": 12000,
+              "items": [
+                {
+                  "id": "110504",
+                  "name": "Higher Dimensional Data: Steel Malice",
+                  "qty": 2,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "source": "Hans - Energized / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Hans - Energized",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 28000,
+              "items": [
+                {
+                  "id": "110504",
+                  "name": "Higher Dimensional Data: Steel Malice",
+                  "qty": 4,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "source": "Hans - Energized / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Hans - Energized",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 60000,
+              "items": [
+                {
+                  "id": "110002",
+                  "name": "Living Drive",
+                  "qty": 2,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+                  "source": "Unknown Corruption Complex",
+                  "sourceDetails": [
+                    {
+                      "name": "Unknown Corruption Complex",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110504",
+                  "name": "Higher Dimensional Data: Steel Malice",
+                  "qty": 9,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "source": "Hans - Energized / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Hans - Energized",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 100000,
+              "items": [
+                {
+                  "id": "110002",
+                  "name": "Living Drive",
+                  "qty": 3,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+                  "source": "Unknown Corruption Complex",
+                  "sourceDetails": [
+                    {
+                      "name": "Unknown Corruption Complex",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110504",
+                  "name": "Higher Dimensional Data: Steel Malice",
+                  "qty": 15,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "source": "Hans - Energized / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Hans - Energized",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cost": 200000,
+              "items": [
+                {
+                  "id": "110002",
+                  "name": "Living Drive",
+                  "qty": 4,
+                  "rar": 5,
+                  "kind": "weekly",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
+                  "source": "Unknown Corruption Complex",
+                  "sourceDetails": [
+                    {
+                      "name": "Unknown Corruption Complex",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
+                    }
+                  ]
+                },
+                {
+                  "id": "110504",
+                  "name": "Higher Dimensional Data: Steel Malice",
+                  "qty": 30,
+                  "rar": 4,
+                  "kind": "boss",
+                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
+                  "source": "Hans - Energized / Expert Challenge",
+                  "sourceDetails": [
+                    {
+                      "name": "Hans - Energized",
+                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
+                    },
+                    {
+                      "name": "Expert Challenge"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        ],
+        "ascCost": 800000,
+        "talentCost": 2905000,
+        "currency": 4105000,
+        "weapon": {
+          "name": "Hellfire Gears",
+          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1101.webp",
+          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1101.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
+      },
+      "betaStatus": "changed"
+    },
     {
       "id": "zzz-sigrid",
       "n": "Sigrid",
@@ -24,7 +4021,7 @@
       "slug": "sigrid",
       "release": 1787097600000,
       "releasePatch": "3.1",
-      "updated": 1786665600000,
+      "updated": 1787097600000,
       "sourceOrder": 0,
       "voiceActors": {
         "english": "imdb:nm8792229|Dani Chambers",
@@ -50,7 +4047,7 @@
       "signatureWeaponName": "Knight's Extolment",
       "status": "beta_changed",
       "labels": [
-        "3.1"
+        "New"
       ],
       "r": "S",
       "el": "Ice",
@@ -187,7 +4184,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.4+18409985",
+        "version": "3.2.12+18560506",
         "sections": [
           {
             "title": "Skills",
@@ -4246,4076 +8243,6 @@
           "cost": 400000
         }
       },
-      "recent": 1,
-      "betaStatus": "changed"
-    },
-    {
-      "id": "zzz-koleda",
-      "n": "Koleda",
-      "localizedNames": {
-        "en": "Koleda",
-        "zh": "\u73c2\u857e\u59b2",
-        "ja": "\u30af\u30ec\u30bf",
-        "ko": "\ucf5c\ub808\ub2e4"
-      },
-      "title": "Pink Bear",
-      "slug": "koleda",
-      "release": 1720051200000,
-      "releasePatch": "1.0",
-      "updated": 1785283200000,
-      "sourceOrder": 0,
-      "voiceActors": {
-        "english": "imdb:nm6634766|Emily Reams",
-        "japanese": "Yuka Iguchi|Iguchi Yuka (\u4e95\u53e3 \u88d5\u9999)",
-        "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u7a46\u96ea\u5a77|Mu Xueting (\u7a46\u96ea\u5a77)",
-        "korean": "https://namu.wiki/w/\uc815\ud574\uc740(\uc131\uc6b0)|Jeong Hae-eun (\uc815\ud574\uc740)"
-      },
-      "icon": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole14.webp",
-      "card": "../../Database/Prydwen/zzz/assets/characters/koleda-e10522f3c747.webp",
-      "signatureWeapon": {
-        "id": "14110",
-        "name": "Hellfire Gears",
-        "type": "Stun",
-        "educated": false
-      },
-      "signatureWeaponId": "14110",
-      "signatureWeaponName": "Hellfire Gears",
-      "status": "beta_changed",
-      "labels": [],
-      "r": "S",
-      "el": "Fire",
-      "spec": "Stun",
-      "tag": "Belobog Heavy Industries",
-      "baseStats": {
-        "level1": {
-          "hp": 653,
-          "atk": 106,
-          "def": 48,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 116,
-          "anomalyProficiency": 97,
-          "anomalyMastery": 96
-        },
-        "max": {
-          "level": 60,
-          "hp": 8127.31,
-          "atk": 660.84,
-          "def": 594.59,
-          "critRate": 0.05,
-          "critDmg": 0.5,
-          "impact": 116,
-          "anomalyProficiency": 97,
-          "anomalyMastery": 96
-        },
-        "levels": [
-          {
-            "label": "Lv. 1/10",
-            "level": 1,
-            "cap": 10,
-            "hp": 653,
-            "atk": 106,
-            "def": 48,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          },
-          {
-            "label": "Lv. 10/20",
-            "level": 10,
-            "cap": 20,
-            "hp": 1899.15,
-            "atk": 199.81,
-            "def": 139.36,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          },
-          {
-            "label": "Lv. 20/30",
-            "level": 20,
-            "cap": 30,
-            "hp": 3234.98,
-            "atk": 299.81,
-            "def": 237.21,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          },
-          {
-            "label": "Lv. 30/40",
-            "level": 30,
-            "cap": 40,
-            "hp": 4569.81,
-            "atk": 398.82,
-            "def": 334.05,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          },
-          {
-            "label": "Lv. 40/50",
-            "level": 40,
-            "cap": 50,
-            "hp": 5905.64,
-            "atk": 498.83,
-            "def": 431.9,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          },
-          {
-            "label": "Lv. 50/60",
-            "level": 50,
-            "cap": 60,
-            "hp": 7240.48,
-            "atk": 598.83,
-            "def": 529.74,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          },
-          {
-            "label": "Lv. 60/60",
-            "level": 60,
-            "cap": 60,
-            "hp": 8127.31,
-            "atk": 660.84,
-            "def": 594.59,
-            "critRate": 0.05,
-            "critDmg": 0.5,
-            "impact": 116,
-            "anomalyProficiency": 97,
-            "anomalyMastery": 96
-          }
-        ]
-      },
-      "facts": {
-        "fullName": "Koleda Belobog",
-        "faction": "Belobog Heavy Industries",
-        "birthday": "August 10",
-        "title": "Pink Bear"
-      },
-      "skillIcons": [
-        "../../Database/GameData/zzz/assets/skills/Icon_Normal.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Evade.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_Switch.webp",
-        "../../Database/GameData/zzz/assets/skills/IconRoleSkillKeySpecialV2.webp",
-        "../../Database/GameData/zzz/assets/skills/Icon_UltimateReady.webp"
-      ],
-      "kit": {
-        "source": "Game data",
-        "channel": "beta",
-        "version": "3.2.4+18409985",
-        "sections": [
-          {
-            "title": "Skills",
-            "entries": [
-              {
-                "name": "Basic Attack: Smash 'n' Bash",
-                "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to four Strikes forward, dealing Physical DMG;\nWhen Koleda has the [Furnace Fire] effect, she can launch an Enhanced [Basic Attack] after the second Strike, consuming the [Furnace Fire] effect and dealing massive Fire DMG;\nThe Enhanced [Basic Attack] consists of two parts. After launching the first part, press or hold to chain into the second part, and the follow-up attack effect of the first Enhanced [Basic Attack] is strengthened;\nThe [Furnace Fire] effect can stack up to 2 times. Launching an Enhanced [Basic Attack] consumes all [Furnace Fire] stacks;\nWhen [Furnace Fire] is consumed, DMG dealt by the whole squad's Agents is increased by 35% for 40s, repeated triggers refresh the duration, and for each stack of [Furnace Fire] consumed, the DMG dealt by the second Enhanced [Basic Attack] is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced [Basic Attack], Koleda will automatically launch the second Enhanced [Basic Attack] on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced [Basic Attack] without switching Agents during the first Enhanced [Basic Attack] will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth [Basic Attack] Strike and during the Enhanced [Basic Attack];\nThe invulnerability duration of the second Enhanced [Basic Attack] is extended.",
-                "descFormat": [
-                  {
-                    "start": 54,
-                    "end": 66,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 88,
-                    "end": 100,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 136,
-                    "end": 148,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 182,
-                    "end": 194,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 222,
-                    "end": 230,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 297,
-                    "end": 309,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 426,
-                    "end": 440,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 462,
-                    "end": 474,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 542,
-                    "end": 554,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 576,
-                    "end": 590,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 626,
-                    "end": 640,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 680,
-                    "end": 694,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 722,
-                    "end": 730,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 745,
-                    "end": 759,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 914,
-                    "end": 928,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 950,
-                    "end": 964,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 1019,
-                    "end": 1033,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1047,
-                    "end": 1061,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 1075,
-                    "end": 1089,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 1232,
-                    "end": 1246,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 1294,
-                    "end": 1308,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1426,
-                    "end": 1440,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1495,
-                    "end": 1509,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1589,
-                    "end": 1603,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1655,
-                    "end": 1669,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1803,
-                    "end": 1817,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1849,
-                    "end": 1863,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1917,
-                    "end": 1931,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "1st-Hit DMG Multiplier",
-                        "values": [
-                          "63.6%",
-                          "69.4%",
-                          "75.2%",
-                          "81%",
-                          "86.8%",
-                          "92.6%",
-                          "98.4%",
-                          "104.2%",
-                          "110%",
-                          "115.8%",
-                          "121.6%",
-                          "127.4%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit DMG Multiplier",
-                        "values": [
-                          "79.2%",
-                          "86.4%",
-                          "93.6%",
-                          "100.8%",
-                          "108%",
-                          "115.2%",
-                          "122.4%",
-                          "129.6%",
-                          "136.8%",
-                          "144%",
-                          "151.2%",
-                          "158.4%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit DMG Multiplier",
-                        "values": [
-                          "126.1%",
-                          "137.6%",
-                          "149.1%",
-                          "160.6%",
-                          "172.1%",
-                          "183.6%",
-                          "195.1%",
-                          "206.6%",
-                          "218.1%",
-                          "229.6%",
-                          "241.1%",
-                          "252.6%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit DMG Multiplier",
-                        "values": [
-                          "317.4%",
-                          "346.3%",
-                          "375.2%",
-                          "404.1%",
-                          "433%",
-                          "461.9%",
-                          "490.8%",
-                          "519.7%",
-                          "548.6%",
-                          "577.5%",
-                          "606.4%",
-                          "635.3%"
-                        ]
-                      },
-                      {
-                        "label": "Enhanced Basic Attack 1st-Hit DMG Multiplier",
-                        "values": [
-                          "160.8%",
-                          "175.5%",
-                          "190.2%",
-                          "204.9%",
-                          "219.6%",
-                          "234.3%",
-                          "249%",
-                          "263.7%",
-                          "278.4%",
-                          "293.1%",
-                          "307.8%",
-                          "322.5%"
-                        ]
-                      },
-                      {
-                        "label": "Enhanced Basic Attack 2nd-Hit DMG Multiplier",
-                        "values": [
-                          "404.9%",
-                          "441.8%",
-                          "478.7%",
-                          "515.6%",
-                          "552.5%",
-                          "589.4%",
-                          "626.3%",
-                          "663.2%",
-                          "700.1%",
-                          "737%",
-                          "773.9%",
-                          "810.8%"
-                        ]
-                      },
-                      {
-                        "label": "Enhanced Basic Attack 2nd-Hit Dmg Multiplier (Teamwork)",
-                        "values": [
-                          "501.3%",
-                          "546.9%",
-                          "592.5%",
-                          "638.1%",
-                          "683.7%",
-                          "729.3%",
-                          "774.9%",
-                          "820.5%",
-                          "866.1%",
-                          "911.7%",
-                          "957.3%",
-                          "1002.9%"
-                        ]
-                      },
-                      {
-                        "label": "1st-Hit Daze Multiplier",
-                        "values": [
-                          "31.8%",
-                          "33.3%",
-                          "34.8%",
-                          "36.3%",
-                          "37.8%",
-                          "39.3%",
-                          "40.8%",
-                          "42.3%",
-                          "43.8%",
-                          "45.3%",
-                          "46.8%",
-                          "48.3%"
-                        ]
-                      },
-                      {
-                        "label": "2nd-Hit Daze Multiplier",
-                        "values": [
-                          "65.5%",
-                          "68.5%",
-                          "71.5%",
-                          "74.5%",
-                          "77.5%",
-                          "80.5%",
-                          "83.5%",
-                          "86.5%",
-                          "89.5%",
-                          "92.5%",
-                          "95.5%",
-                          "98.5%"
-                        ]
-                      },
-                      {
-                        "label": "3rd-Hit Daze Multiplier",
-                        "values": [
-                          "104.3%",
-                          "109.1%",
-                          "113.9%",
-                          "118.7%",
-                          "123.5%",
-                          "128.3%",
-                          "133.1%",
-                          "137.9%",
-                          "142.7%",
-                          "147.5%",
-                          "152.3%",
-                          "157.1%"
-                        ]
-                      },
-                      {
-                        "label": "4th-Hit Daze Multiplier",
-                        "values": [
-                          "249.3%",
-                          "260.7%",
-                          "272.1%",
-                          "283.5%",
-                          "294.9%",
-                          "306.3%",
-                          "317.7%",
-                          "329.1%",
-                          "340.5%",
-                          "351.9%",
-                          "363.3%",
-                          "374.7%"
-                        ]
-                      },
-                      {
-                        "label": "Enhanced Basic Attack 1st-Hit Daze Multiplier",
-                        "values": [
-                          "61.4%",
-                          "64.2%",
-                          "67%",
-                          "69.8%",
-                          "72.6%",
-                          "75.4%",
-                          "78.2%",
-                          "81%",
-                          "83.8%",
-                          "86.6%",
-                          "89.4%",
-                          "92.2%"
-                        ]
-                      },
-                      {
-                        "label": "Enhanced Basic Attack 2nd-Hit Daze Multiplier",
-                        "values": [
-                          "156.6%",
-                          "163.8%",
-                          "171%",
-                          "178.2%",
-                          "185.4%",
-                          "192.6%",
-                          "199.8%",
-                          "207%",
-                          "214.2%",
-                          "221.4%",
-                          "228.6%",
-                          "235.8%"
-                        ]
-                      },
-                      {
-                        "label": "Enhanced Basic Attack 2nd-Hit Daze Multiplier (Teamwork)",
-                        "values": [
-                          "234.6%",
-                          "245.3%",
-                          "256%",
-                          "266.7%",
-                          "277.4%",
-                          "288.1%",
-                          "298.8%",
-                          "309.5%",
-                          "320.2%",
-                          "330.9%",
-                          "341.6%",
-                          "352.3%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge: Wait 'n' See",
-                "type": "Dodge",
-                "desc": "Press to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill."
-              },
-              {
-                "name": "Dash Attack: Tremble!",
-                "type": "Dodge",
-                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nStrike forward, dealing Physical DMG.\nDuring this skill, if holding [Furnace Fire], Anti-Interrupt level is increased. Hold to chain into an Enhanced [Basic Attack].",
-                "descFormat": [
-                  {
-                    "start": 68,
-                    "end": 80,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 141,
-                    "end": 153,
-                    "kind": "tone",
-                    "tone": "physical"
-                  },
-                  {
-                    "start": 185,
-                    "end": 199,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 267,
-                    "end": 281,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "56.1%",
-                          "61.2%",
-                          "66.3%",
-                          "71.4%",
-                          "76.5%",
-                          "81.6%",
-                          "86.7%",
-                          "91.8%",
-                          "96.9%",
-                          "102%",
-                          "107.1%",
-                          "112.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "28.1%",
-                          "29.4%",
-                          "30.7%",
-                          "32%",
-                          "33.3%",
-                          "34.6%",
-                          "35.9%",
-                          "37.2%",
-                          "38.5%",
-                          "39.8%",
-                          "41.1%",
-                          "42.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Dodge Counter: Don't Look Down on Me",
-                "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front and creates an explosion, dealing Fire DMG.\nCharacter is invulnerable while using this skill.\n\nPress during a Perfect Dodge to activate:\nLaunches a Strike at enemies ahead and triggers an explosion, dealing Fire DMG;\nCharacter is invulnerable while using this skill. If [Furnace Fire] is active, hold to chain into an Enhanced [Basic Attack].",
-                "descFormat": [
-                  {
-                    "start": 15,
-                    "end": 28,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 101,
-                    "end": 109,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 177,
-                    "end": 190,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 274,
-                    "end": 282,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 337,
-                    "end": 351,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 394,
-                    "end": 408,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "343.9%",
-                          "375.2%",
-                          "406.5%",
-                          "437.8%",
-                          "469.1%",
-                          "500.4%",
-                          "531.7%",
-                          "563%",
-                          "594.3%",
-                          "625.6%",
-                          "656.9%",
-                          "688.2%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "288.8%",
-                          "302%",
-                          "315.2%",
-                          "328.4%",
-                          "341.6%",
-                          "354.8%",
-                          "368%",
-                          "381.2%",
-                          "394.4%",
-                          "407.6%",
-                          "420.8%",
-                          "434%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Quick Assist: Coming Thru!",
-                "type": "Assist",
-                "desc": "When the active character is launched, press to activate:\nStrikes enemies in front, dealing Fire DMG.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 92,
-                    "end": 100,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "183.8%",
-                          "200.6%",
-                          "217.4%",
-                          "234.2%",
-                          "251%",
-                          "267.8%",
-                          "284.6%",
-                          "301.4%",
-                          "318.2%",
-                          "335%",
-                          "351.8%",
-                          "368.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "183.8%",
-                          "192.2%",
-                          "200.6%",
-                          "209%",
-                          "217.4%",
-                          "225.8%",
-                          "234.2%",
-                          "242.6%",
-                          "251%",
-                          "259.4%",
-                          "267.8%",
-                          "276.2%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Defensive Assist: Protective Hammer",
-                "type": "Assist",
-                "desc": "When the character on field is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 197,
-                    "end": 210,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Light Defensive Daze Multiplier",
-                        "values": [
-                          "259%",
-                          "270.8%",
-                          "282.6%",
-                          "294.4%",
-                          "306.2%",
-                          "318%",
-                          "329.8%",
-                          "341.6%",
-                          "353.4%",
-                          "365.2%",
-                          "377%",
-                          "388.8%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Defensive Daze Multiplier",
-                        "values": [
-                          "327.3%",
-                          "342.2%",
-                          "357.1%",
-                          "372%",
-                          "386.9%",
-                          "401.8%",
-                          "416.7%",
-                          "431.6%",
-                          "446.5%",
-                          "461.4%",
-                          "476.3%",
-                          "491.2%"
-                        ]
-                      },
-                      {
-                        "label": "Chain Defensive Daze Multiplier",
-                        "values": [
-                          "159.3%",
-                          "166.6%",
-                          "173.9%",
-                          "181.2%",
-                          "188.5%",
-                          "195.8%",
-                          "203.1%",
-                          "210.4%",
-                          "217.7%",
-                          "225%",
-                          "232.3%",
-                          "239.6%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Assist Follow-Up: Hammer Bell",
-                "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nKoleda charges and strikes enemies in front, dealing Fire DMG and obtaining Furnace Fire effect.\nCharacter is invulnerable while using this skill.\n\nPress after a Defensive Assist to activate:\nLaunches a charging Strike against enemies ahead, dealing Fire DMG and gaining the Furnace Fire effect;\nCharacter is invulnerable while using this skill. Hold to follow up with Dash Attack: Tremble!.",
-                "descFormat": [
-                  {
-                    "start": 14,
-                    "end": 30,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 97,
-                    "end": 105,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 120,
-                    "end": 132,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 206,
-                    "end": 222,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 294,
-                    "end": 302,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 319,
-                    "end": 331,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 413,
-                    "end": 434,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "359.2%",
-                          "391.9%",
-                          "424.6%",
-                          "457.3%",
-                          "490%",
-                          "522.7%",
-                          "555.4%",
-                          "588.1%",
-                          "620.8%",
-                          "653.5%",
-                          "686.2%",
-                          "718.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "312.7%",
-                          "327%",
-                          "341.3%",
-                          "355.6%",
-                          "369.9%",
-                          "384.2%",
-                          "398.5%",
-                          "412.8%",
-                          "427.1%",
-                          "441.4%",
-                          "455.7%",
-                          "470%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Special Attack: Hammer Time",
-                "type": "Special",
-                "desc": "Press to activate:\nStrikes enemies in front and triggers an explosion, dealing Fire DMG.\nThis skill launches faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.\n\nPress to activate:\nStrikes forward and triggers an explosion, dealing Fire DMG;\nWhen used after the 2nd or 4th hit of [Basic Attack] or after an Enhance [Basic Attack], the skill can be Quick Launched to directly trigger an explosion;\nDuring the 2nd hit of [Basic Attack], hold to also directly trigger an explosion;\nWhen Koleda and Ben are both on the field and this skill is Quick Launched after an Enhance [Basic Attack], both will perform a Coordinated Attack, further increasing the skill's power;\nAnti-Interrupt level is increased while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 79,
-                    "end": 87,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 189,
-                    "end": 201,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 214,
-                    "end": 226,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 325,
-                    "end": 337,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 556,
-                    "end": 564,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 604,
-                    "end": 618,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 639,
-                    "end": 653,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 743,
-                    "end": 757,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 895,
-                    "end": 909,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Strike DMG Multiplier",
-                        "values": [
-                          "51.9%",
-                          "56.7%",
-                          "61.5%",
-                          "66.3%",
-                          "71.1%",
-                          "75.9%",
-                          "80.7%",
-                          "85.5%",
-                          "90.3%",
-                          "95.1%",
-                          "99.9%",
-                          "104.7%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion DMG Multiplier",
-                        "values": [
-                          "77.8%",
-                          "84.9%",
-                          "92%",
-                          "99.1%",
-                          "106.2%",
-                          "113.3%",
-                          "120.4%",
-                          "127.5%",
-                          "134.6%",
-                          "141.7%",
-                          "148.8%",
-                          "155.9%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion DMG Multiplier (Teamwork)",
-                        "values": [
-                          "85.5%",
-                          "93.3%",
-                          "101.1%",
-                          "108.9%",
-                          "116.7%",
-                          "124.5%",
-                          "132.3%",
-                          "140.1%",
-                          "147.9%",
-                          "155.7%",
-                          "163.5%",
-                          "171.3%"
-                        ]
-                      },
-                      {
-                        "label": "Strike Daze Multiplier",
-                        "values": [
-                          "51.9%",
-                          "54.3%",
-                          "56.7%",
-                          "59.1%",
-                          "61.5%",
-                          "63.9%",
-                          "66.3%",
-                          "68.7%",
-                          "71.1%",
-                          "73.5%",
-                          "75.9%",
-                          "78.3%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion Daze Multiplier",
-                        "values": [
-                          "77.8%",
-                          "81.4%",
-                          "85%",
-                          "88.6%",
-                          "92.2%",
-                          "95.8%",
-                          "99.4%",
-                          "103%",
-                          "106.6%",
-                          "110.2%",
-                          "113.8%",
-                          "117.4%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion Daze Multiplier (Teamwork)",
-                        "values": [
-                          "77.8%",
-                          "81.4%",
-                          "85%",
-                          "88.6%",
-                          "92.2%",
-                          "95.8%",
-                          "99.4%",
-                          "103%",
-                          "106.6%",
-                          "110.2%",
-                          "113.8%",
-                          "117.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "EX Special Attack: Boiling Furnace",
-                "type": "Special",
-                "desc": "With enough Energy, press to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive Fire DMG. Koleda also gains the Furnace Fire effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's Basic Attack or enhanced Basic Attack.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced Basic Attack, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill.\n\nWith enough Energy, press to activate:\nStrikes forward and triggers a powerful explosion, dealing massive Fire DMG, and gains the [Furnace Fire] effect;\nIf chained after the 2nd or 4th hit of [Basic Attack] or after an Enhanced [Basic Attack], the skill can be Quick Launched to directly trigger an explosion. The Daze inflicted by explosions triggered this way is increased by 10%;\nWhen Koleda and Ben are both on the field, and the skill is Quick Launched after an Enhanced [Basic Attack], both will perform a Coordinated Attack together, further increasing the skill's power;\nCharacter is invulnerable while using this skill. Hold to chain into [Dash Attack: Tremble!].",
-                "descFormat": [
-                  {
-                    "start": 115,
-                    "end": 123,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 147,
-                    "end": 159,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 269,
-                    "end": 281,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 294,
-                    "end": 306,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 404,
-                    "end": 416,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 663,
-                    "end": 671,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 687,
-                    "end": 701,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 749,
-                    "end": 763,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 785,
-                    "end": 799,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1033,
-                    "end": 1047,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1205,
-                    "end": 1228,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Strike DMG Multiplier",
-                        "values": [
-                          "152.3%",
-                          "166.2%",
-                          "180.1%",
-                          "194%",
-                          "207.9%",
-                          "221.8%",
-                          "235.7%",
-                          "249.6%",
-                          "263.5%",
-                          "277.4%",
-                          "291.3%",
-                          "305.2%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion DMG Multiplier",
-                        "values": [
-                          "606%",
-                          "661.1%",
-                          "716.2%",
-                          "771.3%",
-                          "826.4%",
-                          "881.5%",
-                          "936.6%",
-                          "991.7%",
-                          "1046.8%",
-                          "1101.9%",
-                          "1157%",
-                          "1212.1%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion DMG Multiplier (Teamwork)",
-                        "values": [
-                          "666.6%",
-                          "727.2%",
-                          "787.8%",
-                          "848.4%",
-                          "909%",
-                          "969.6%",
-                          "1030.2%",
-                          "1090.8%",
-                          "1151.4%",
-                          "1212%",
-                          "1272.6%",
-                          "1333.2%"
-                        ]
-                      },
-                      {
-                        "label": "Strike Daze Multiplier",
-                        "values": [
-                          "152.3%",
-                          "159.3%",
-                          "166.3%",
-                          "173.3%",
-                          "180.3%",
-                          "187.3%",
-                          "194.3%",
-                          "201.3%",
-                          "208.3%",
-                          "215.3%",
-                          "222.3%",
-                          "229.3%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion Daze Multiplier",
-                        "values": [
-                          "494%",
-                          "516.5%",
-                          "539%",
-                          "561.5%",
-                          "584%",
-                          "606.5%",
-                          "629%",
-                          "651.5%",
-                          "674%",
-                          "696.5%",
-                          "719%",
-                          "741.5%"
-                        ]
-                      },
-                      {
-                        "label": "Explosion Daze Multiplier (Teamwork)",
-                        "values": [
-                          "494%",
-                          "516.5%",
-                          "539%",
-                          "561.5%",
-                          "584%",
-                          "606.5%",
-                          "629%",
-                          "651.5%",
-                          "674%",
-                          "696.5%",
-                          "719%",
-                          "741.5%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Chain Attack: Natural Disaster",
-                "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful explosion on enemies in a large area, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nCharacter is invulnerable while using this skill.",
-                "descFormat": [
-                  {
-                    "start": 7,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 143,
-                    "end": 151,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 177,
-                    "end": 189,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "636%",
-                          "693.9%",
-                          "751.8%",
-                          "809.7%",
-                          "867.6%",
-                          "925.5%",
-                          "983.4%",
-                          "1041.3%",
-                          "1099.2%",
-                          "1157.1%",
-                          "1215%",
-                          "1272.9%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "217%",
-                          "226.9%",
-                          "236.8%",
-                          "246.7%",
-                          "256.6%",
-                          "266.5%",
-                          "276.4%",
-                          "286.3%",
-                          "296.2%",
-                          "306.1%",
-                          "316%",
-                          "325.9%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Ultimate: Hammerquake",
-                "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive Fire DMG while also obtaining the Furnace Fire effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill.\n\nWhen Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful explosion across a large area ahead, dealing massive Fire DMG and gaining the Furnace Fire effect;\nWhen Koleda and Ben are on the same team, both will launch a Coordinated Attack together, further enhancing the skill's power;\nCharacter is invulnerable while using this skill. Hold to follow up with Dash Attack: Tremble!.",
-                "descFormat": [
-                  {
-                    "start": 26,
-                    "end": 33,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 138,
-                    "end": 146,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 172,
-                    "end": 184,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 396,
-                    "end": 403,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 498,
-                    "end": 506,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 523,
-                    "end": 535,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 744,
-                    "end": 765,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12"
-                    ],
-                    "rows": [
-                      {
-                        "label": "DMG Multiplier",
-                        "values": [
-                          "1548.8%",
-                          "1689.6%",
-                          "1830.4%",
-                          "1971.2%",
-                          "2112%",
-                          "2252.8%",
-                          "2393.6%",
-                          "2534.4%",
-                          "2675.2%",
-                          "2816%",
-                          "2956.8%",
-                          "3097.6%"
-                        ]
-                      },
-                      {
-                        "label": "DMG Multiplier (Teamwork)",
-                        "values": [
-                          "1694%",
-                          "1848%",
-                          "2002%",
-                          "2156%",
-                          "2310%",
-                          "2464%",
-                          "2618%",
-                          "2772%",
-                          "2926%",
-                          "3080%",
-                          "3234%",
-                          "3388%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier",
-                        "values": [
-                          "1004.9%",
-                          "1050.6%",
-                          "1096.3%",
-                          "1142%",
-                          "1187.7%",
-                          "1233.4%",
-                          "1279.1%",
-                          "1324.8%",
-                          "1370.5%",
-                          "1416.2%",
-                          "1461.9%",
-                          "1507.6%"
-                        ]
-                      },
-                      {
-                        "label": "Daze Multiplier (Teamwork)",
-                        "values": [
-                          "1096.5%",
-                          "1146.4%",
-                          "1196.3%",
-                          "1246.2%",
-                          "1296.1%",
-                          "1346%",
-                          "1395.9%",
-                          "1445.8%",
-                          "1495.7%",
-                          "1545.6%",
-                          "1595.5%",
-                          "1645.4%"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Core Skill",
-            "entries": [
-              {
-                "name": "Core Passive: Demolition Hammer",
-                "type": "Core Passive",
-                "desc": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%.",
-                "descFormat": [
-                  {
-                    "start": 21,
-                    "end": 38,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 51,
-                    "end": 63,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 83,
-                    "end": 95,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 129,
-                    "end": 132,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 30%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 35%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 40%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 45%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 50%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 55%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When Koleda uses her EX Special Attack or consumes Furnace Fire to use an enhanced Basic Attack, the Daze she deals increases by 60%.",
-                    "format": [
-                      {
-                        "start": 21,
-                        "end": 38,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 51,
-                        "end": 63,
-                        "kind": "tone",
-                        "tone": "pyro"
-                      },
-                      {
-                        "start": 83,
-                        "end": 95,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 129,
-                        "end": 132,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Additional Ability: Belobog Management",
-                "type": "Additional Ability",
-                "desc": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                "descFormat": [
-                  {
-                    "start": 82,
-                    "end": 89,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 134,
-                    "end": 151,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 231,
-                    "end": 244,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 1",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When another character in your squad shares the same Attribute or Faction or is a Rupture character:\nWhen the explosion from Koleda's EX Special Attack hits an enemy, it applies a debuff to the target. While the target is Stunned, Chain Attacks deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends.",
-                    "format": [
-                      {
-                        "start": 82,
-                        "end": 89,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 134,
-                        "end": 151,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 231,
-                        "end": 244,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "When another character in your squad shares the same attribute or Faction, or is a [Rupture] or [Armorer] Character, the following effect triggers:\nWhen Koleda's [EX Special Attack] explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, [Chain Attack] DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends.",
-                    "format": [
-                      {
-                        "start": 83,
-                        "end": 92,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 96,
-                        "end": 105,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 162,
-                        "end": 181,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 277,
-                        "end": 291,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "title": "Mindscape Cinema",
-            "entries": [
-              {
-                "name": "Beat of the Hammer",
-                "type": "Mindscape 1",
-                "desc": "After the 2nd or 4th hit of Koleda's Basic Attack or her enhanced Basic Attack, quickly use a Special Attack or EX Special Attack to increase the Daze dealt by 15%.",
-                "descFormat": [
-                  {
-                    "start": 37,
-                    "end": 49,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 66,
-                    "end": 78,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 94,
-                    "end": 108,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 112,
-                    "end": 129,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Kinetic Recovery",
-                "type": "Mindscape 2",
-                "desc": "When Koleda's EX Special Attack hits an enemy, she recovers 60 Energy. Can trigger once every 45s.",
-                "descFormat": [
-                  {
-                    "start": 14,
-                    "end": 31,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "\"Mind Your Own!\"",
-                "type": "Mindscape 3",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 12,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 21,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 29,
-                    "end": 43,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 49,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Furnace's Glow",
-                "type": "Mindscape 4",
-                "desc": "Koleda gains one stack of Charge (max 2 stacks) when consuming Furnace Fire to use her Enhanced Basic Attack. When her Chain Attack: Natural Disaster or Ultimate: Hammerquake hits an enemy, she consumes all stacks of Charge to increase the attack's DMG by 18% per stack.",
-                "descFormat": [
-                  {
-                    "start": 63,
-                    "end": 75,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 96,
-                    "end": 108,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 119,
-                    "end": 149,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 153,
-                    "end": 174,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "\"You Dare Underestimate Me?\"",
-                "type": "Mindscape 5",
-                "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 12,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 19,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 21,
-                    "end": 27,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 29,
-                    "end": 43,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 49,
-                    "end": 61,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              },
-              {
-                "name": "Saturated Blast",
-                "type": "Mindscape 6",
-                "desc": "When EX Special Attack, Chain Attack, or Ultimate triggers an explosion that hits an enemy, it deals additional DMG equal to 360% of Koleda's ATK.",
-                "descFormat": [
-                  {
-                    "start": 5,
-                    "end": 22,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 24,
-                    "end": 36,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 41,
-                    "end": 49,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "req": {
-        "ascension": [
-          {
-            "id": "100212",
-            "name": "Basic Stun Certification Seal",
-            "qty": 4,
-            "rar": 1,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100222",
-            "name": "Advanced Stun Certification Seal",
-            "qty": 32,
-            "rar": 3,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          },
-          {
-            "id": "100232",
-            "name": "Buster Certification Seal",
-            "qty": 30,
-            "rar": 4,
-            "kind": "gem",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
-            "source": "Combat Simulation - Agent Promotion",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Promotion"
-              }
-            ]
-          }
-        ],
-        "ascensionStages": [
-          {
-            "cap": 20,
-            "items": [
-              {
-                "id": "100212",
-                "name": "Basic Stun Certification Seal",
-                "qty": 4,
-                "rar": 1,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun01.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 24000
-          },
-          {
-            "cap": 30,
-            "items": [
-              {
-                "id": "100222",
-                "name": "Advanced Stun Certification Seal",
-                "qty": 12,
-                "rar": 3,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 56000
-          },
-          {
-            "cap": 40,
-            "items": [
-              {
-                "id": "100222",
-                "name": "Advanced Stun Certification Seal",
-                "qty": 20,
-                "rar": 3,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun02.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 120000
-          },
-          {
-            "cap": 50,
-            "items": [
-              {
-                "id": "100232",
-                "name": "Buster Certification Seal",
-                "qty": 10,
-                "rar": 4,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 200000
-          },
-          {
-            "cap": 60,
-            "items": [
-              {
-                "id": "100232",
-                "name": "Buster Certification Seal",
-                "qty": 20,
-                "rar": 4,
-                "kind": "gem",
-                "icon": "../../Database/GameData/zzz/assets/items/AvatarRankStun03.webp",
-                "source": "Combat Simulation - Agent Promotion",
-                "sourceDetails": [
-                  {
-                    "name": "Combat Simulation - Agent Promotion"
-                  }
-                ]
-              }
-            ],
-            "cost": 400000
-          }
-        ],
-        "talents": [
-          {
-            "id": "100111",
-            "name": "Basic Burn Chip",
-            "qty": 25,
-            "rar": 1,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100121",
-            "name": "Advanced Burn Chip",
-            "qty": 75,
-            "rar": 3,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100131",
-            "name": "Specialized Burn Chip",
-            "qty": 250,
-            "rar": 4,
-            "kind": "book",
-            "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-            "source": "Combat Simulation - Agent Skills",
-            "sourceDetails": [
-              {
-                "name": "Combat Simulation - Agent Skills"
-              }
-            ]
-          },
-          {
-            "id": "100941",
-            "name": "Hamster Cage Pass",
-            "qty": 5,
-            "rar": 5,
-            "kind": "crown",
-            "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-            "source": "Event / New Eridu City Fund",
-            "sourceDetails": [
-              {
-                "name": "Event / New Eridu City Fund"
-              }
-            ]
-          },
-          {
-            "id": "110002",
-            "name": "Living Drive",
-            "qty": 9,
-            "rar": 5,
-            "kind": "weekly",
-            "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-            "source": "Unknown Corruption Complex",
-            "sourceDetails": [
-              {
-                "name": "Unknown Corruption Complex",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
-              }
-            ]
-          },
-          {
-            "id": "110504",
-            "name": "Higher Dimensional Data: Steel Malice",
-            "qty": 60,
-            "rar": 4,
-            "kind": "boss",
-            "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-            "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-            "source": "Hans - Energized / Expert Challenge",
-            "sourceDetails": [
-              {
-                "name": "Hans - Energized",
-                "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-              },
-              {
-                "name": "Expert Challenge"
-              }
-            ]
-          }
-        ],
-        "talentStages": [
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 2000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 2,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 3000,
-              "items": [
-                {
-                  "id": "100111",
-                  "name": "Basic Burn Chip",
-                  "qty": 3,
-                  "rar": 1,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 6000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 2,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 9000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 3,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 4,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 18000,
-              "items": [
-                {
-                  "id": "100121",
-                  "name": "Advanced Burn Chip",
-                  "qty": 6,
-                  "rar": 3,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/AvatarSkillFire02.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 45000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 5,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 67500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 8,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 90000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 10,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 112500,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 12,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 135000,
-              "items": [
-                {
-                  "id": "100131",
-                  "name": "Specialized Burn Chip",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "book",
-                  "icon": "../../Database/GameData/zzz/assets/items/RoleSkillExpFire01.webp",
-                  "source": "Combat Simulation - Agent Skills",
-                  "sourceDetails": [
-                    {
-                      "name": "Combat Simulation - Agent Skills"
-                    }
-                  ]
-                },
-                {
-                  "id": "100941",
-                  "name": "Hamster Cage Pass",
-                  "qty": 1,
-                  "rar": 5,
-                  "kind": "crown",
-                  "icon": "../../Database/GameData/zzz/assets/items/UltimateSkill.webp",
-                  "source": "Event / New Eridu City Fund",
-                  "sourceDetails": [
-                    {
-                      "name": "Event / New Eridu City Fund"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          [
-            {
-              "cost": 5000,
-              "items": []
-            },
-            {
-              "cost": 12000,
-              "items": [
-                {
-                  "id": "110504",
-                  "name": "Higher Dimensional Data: Steel Malice",
-                  "qty": 2,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "source": "Hans - Energized / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Hans - Energized",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 28000,
-              "items": [
-                {
-                  "id": "110504",
-                  "name": "Higher Dimensional Data: Steel Malice",
-                  "qty": 4,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "source": "Hans - Energized / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Hans - Energized",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 60000,
-              "items": [
-                {
-                  "id": "110002",
-                  "name": "Living Drive",
-                  "qty": 2,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "source": "Unknown Corruption Complex",
-                  "sourceDetails": [
-                    {
-                      "name": "Unknown Corruption Complex",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110504",
-                  "name": "Higher Dimensional Data: Steel Malice",
-                  "qty": 9,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "source": "Hans - Energized / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Hans - Energized",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 100000,
-              "items": [
-                {
-                  "id": "110002",
-                  "name": "Living Drive",
-                  "qty": 3,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "source": "Unknown Corruption Complex",
-                  "sourceDetails": [
-                    {
-                      "name": "Unknown Corruption Complex",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110504",
-                  "name": "Higher Dimensional Data: Steel Malice",
-                  "qty": 15,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "source": "Hans - Energized / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Hans - Energized",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "cost": 200000,
-              "items": [
-                {
-                  "id": "110002",
-                  "name": "Living Drive",
-                  "qty": 4,
-                  "rar": 5,
-                  "kind": "weekly",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExBigBoss002.webp",
-                  "source": "Unknown Corruption Complex",
-                  "sourceDetails": [
-                    {
-                      "name": "Unknown Corruption Complex",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_ComplexCorrupted.webp"
-                    }
-                  ]
-                },
-                {
-                  "id": "110504",
-                  "name": "Higher Dimensional Data: Steel Malice",
-                  "qty": 30,
-                  "rar": 4,
-                  "kind": "boss",
-                  "icon": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "sprite": "../../Database/GameData/zzz/assets/items/ExSmallBoss004.webp",
-                  "source": "Hans - Energized / Expert Challenge",
-                  "sourceDetails": [
-                    {
-                      "name": "Hans - Energized",
-                      "icon": "../../Database/GameData/zzz/assets/monsters/Monster_MaterialHandlerRed.webp"
-                    },
-                    {
-                      "name": "Expert Challenge"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        ],
-        "ascCost": 800000,
-        "talentCost": 2905000,
-        "currency": 4105000,
-        "weapon": {
-          "name": "Hellfire Gears",
-          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1101.webp",
-          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1101.webp",
-          "items": [
-            {
-              "id": "101011",
-              "name": "Stun Component",
-              "qty": 4,
-              "rar": 1,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
-            },
-            {
-              "id": "101021",
-              "name": "Reinforced Stun Component",
-              "qty": 32,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
-            },
-            {
-              "id": "101031",
-              "name": "Specialized Stun Component",
-              "qty": 30,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
-            }
-          ],
-          "cost": 400000
-        }
-      },
       "betaStatus": "changed"
     },
     {
@@ -8334,12 +8261,12 @@
       "card": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
       "signatureWeapon": {
         "id": "14161",
-        "name": "Crimson Craving",
+        "name": "Crimson Thirst",
         "type": "Armorer",
         "educated": false
       },
       "signatureWeaponId": "14161",
-      "signatureWeaponName": "Crimson Craving",
+      "signatureWeaponName": "Crimson Thirst",
       "status": "beta",
       "labels": [
         "3.x"
@@ -8350,7 +8277,7 @@
       "tag": "Unknown",
       "baseStats": {},
       "facts": {
-        "faction": "Roscaelifer",
+        "faction": "Roscaelifer Flint Workshop",
         "fullName": "Claret Flint"
       },
       "skillIcons": [
@@ -8364,7 +8291,7 @@
         "ascension": [
           {
             "id": "100217",
-            "name": "Beginner Armorer Certification Seal",
+            "name": "Basic Armorer Certification Seal",
             "qty": 4,
             "rar": 1,
             "kind": "gem",
@@ -8378,7 +8305,7 @@
           },
           {
             "id": "100227",
-            "name": "High-Grade Armorer Certification Seal",
+            "name": "Advanced Armorer Certification Seal",
             "qty": 32,
             "rar": 3,
             "kind": "gem",
@@ -8392,7 +8319,7 @@
           },
           {
             "id": "100237",
-            "name": "Blade Bearer Certification Seal",
+            "name": "Bladebearer Certification Seal",
             "qty": 30,
             "rar": 4,
             "kind": "gem",
@@ -8464,7 +8391,7 @@
           },
           {
             "id": "110011",
-            "name": "Forged Away Core",
+            "name": "Counterfeit Nucleus",
             "qty": 9,
             "rar": 5,
             "kind": "weekly",
@@ -8478,15 +8405,15 @@
           },
           {
             "id": "110516",
-            "name": "Higher Dimensional Data: Simulated Core",
+            "name": "Higher Dimensional Data: Imitation Core",
             "qty": 60,
             "rar": 4,
             "kind": "boss",
             "icon": null,
-            "source": "the \"Conqueror\" / Expert Challenge",
+            "source": "the Conqueror / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "the \"Conqueror\""
+                "name": "the Conqueror"
               },
               {
                 "name": "Expert Challenge"
@@ -8498,13 +8425,13 @@
         "talentCost": 2905000,
         "currency": 4105000,
         "weapon": {
-          "name": "Crimson Craving",
+          "name": "Crimson Thirst",
           "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1611.webp",
           "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1611.webp",
           "items": [
             {
               "id": "101016",
-              "name": "Armorer Component",
+              "name": "Armorer Module",
               "qty": 4,
               "rar": 1,
               "kind": "mob",
@@ -8512,7 +8439,7 @@
             },
             {
               "id": "101026",
-              "name": "Reinforced Armorer Component",
+              "name": "Reinforced Armorer Module",
               "qty": 32,
               "rar": 3,
               "kind": "mob",
@@ -8520,7 +8447,7 @@
             },
             {
               "id": "101036",
-              "name": "Blasting Armorer Component",
+              "name": "Specialized Armorer Module",
               "qty": 30,
               "rar": 4,
               "kind": "mob",
@@ -8691,15 +8618,15 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.4+18409985",
+        "version": "3.2.12+18560506",
         "sections": [
           {
             "title": "Skills",
             "entries": [
               {
-                "name": "Basic Attack: Hold Up a Moment",
+                "name": "Basic Attack: Do Stay a While",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 Strikes ahead, dealing Wind DMG.",
+                "desc": "Press to activate:\nPerform up to 4 strikes forward, dealing Wind DMG.",
                 "descFormat": [
                   {
                     "start": 60,
@@ -8867,18 +8794,18 @@
                 ]
               },
               {
-                "name": "Dodge: Excuse me",
+                "name": "Dodge: Excuse Me",
                 "type": "Dodge",
                 "desc": "Press to activate:\nPerform a quick dodge to the side."
               },
               {
-                "name": "Dash Attack: Rude Awakening",
+                "name": "Dash Attack: Forgive My Rudeness",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nStrikes enemies in front, dealing Wind DMG.",
+                "desc": "Press during a dodge to activate:\nStrike forward, dealing Wind DMG.",
                 "descFormat": [
                   {
-                    "start": 68,
-                    "end": 76,
+                    "start": 58,
+                    "end": 66,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -8940,13 +8867,13 @@
                 ]
               },
               {
-                "name": "Dodge Counter: Giving Back",
+                "name": "Dodge Counter: Returned Courtesy",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nStrike enemies ahead, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press during a Perfect Dodge to activate:\nStrike enemies in front, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 72,
-                    "end": 80,
+                    "start": 75,
+                    "end": 83,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9008,15 +8935,27 @@
                 ]
               },
               {
-                "name": "Assist: Still pulling overtime?",
+                "name": "Assist: More Overtime?",
                 "type": "Assist",
-                "desc": "Automatically activates when switching in after a Defensive Assist:\nLaunches a Strike against enemies in front, dealing Wind DMG;\nCharacter is invulnerable while using this skill.",
+                "desc": "Press after a Defensive Assist to activate:\nRoxy stays on field and Strikes enemies in front, dealing Wind DMG.\nUpon activating this skill, it is considered a Basic Attack.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 120,
-                    "end": 128,
+                    "start": 14,
+                    "end": 30,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 102,
+                    "end": 110,
                     "kind": "tone",
                     "tone": "anemo"
+                  },
+                  {
+                    "start": 159,
+                    "end": 171,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ],
                 "scaling": [
@@ -9040,18 +8979,18 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "78%",
-                          "85.1%",
-                          "92.2%",
-                          "99.3%",
-                          "106.4%",
-                          "113.5%",
-                          "120.6%",
-                          "127.7%",
-                          "134.8%",
-                          "141.9%",
-                          "149%",
-                          "156.1%"
+                          "39%",
+                          "42.6%",
+                          "46.2%",
+                          "49.8%",
+                          "53.4%",
+                          "57%",
+                          "60.6%",
+                          "64.2%",
+                          "67.8%",
+                          "71.4%",
+                          "75%",
+                          "78.6%"
                         ]
                       },
                       {
@@ -9078,11 +9017,11 @@
               {
                 "name": "Quick Assist: At Your Service",
                 "type": "Assist",
-                "desc": "When the on-field character is launched, press to activate:\nStrikes forward, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "When the on-field character is launched, press to activate:\nStrikes enemies in front, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 85,
-                    "end": 93,
+                    "start": 94,
+                    "end": 102,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9144,19 +9083,13 @@
                 ]
               },
               {
-                "name": "Defensive Assist: Got Your Back",
+                "name": "Defensive Assist: Allow Me to Assist",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nLaunches a Strike against enemies ahead, dealing Wind DMG.\nThis skill excels at parrying enemy attacks and reduces the consumption of [Assist Points] when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of [Assist Points] when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 121,
-                    "end": 129,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 206,
-                    "end": 221,
+                    "start": 197,
+                    "end": 212,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9235,19 +9168,19 @@
                 ]
               },
               {
-                "name": "Assist Follow-Up: Midnight Protocol",
+                "name": "Assist Follow-Up: Midnight Code",
                 "type": "Assist",
-                "desc": "After using [Defensive Assist], Press to activate:\nLaunches a Strike forward, dealing Wind DMG.",
+                "desc": "Press after a Defensive Assist to activate:\nPerform a forward strike, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 12,
+                    "start": 14,
                     "end": 30,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 86,
-                    "end": 94,
+                    "start": 78,
+                    "end": 86,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9290,18 +9223,18 @@
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "389.9%",
-                          "407.7%",
-                          "425.5%",
-                          "443.3%",
-                          "461.1%",
-                          "478.9%",
-                          "496.7%",
-                          "514.5%",
-                          "532.3%",
-                          "550.1%",
-                          "567.9%",
-                          "585.7%"
+                          "458.7%",
+                          "479.6%",
+                          "500.5%",
+                          "521.4%",
+                          "542.3%",
+                          "563.2%",
+                          "584.1%",
+                          "605%",
+                          "625.9%",
+                          "646.8%",
+                          "667.7%",
+                          "688.6%"
                         ]
                       }
                     ]
@@ -9309,31 +9242,49 @@
                 ]
               },
               {
-                "name": "Special Attack: Don't Let the Door Hit Ya",
+                "name": "Special Attack: Forgive Me for Not Seeing You Off",
                 "type": "Special",
-                "desc": "[EX Special Attack: Rest in Peace] Upon conclusion, automatically activates when at least 3 exist on the field:\nThrows a hammer at enemies on the field, dealing Wind DMG;\n hit by this skill will be detonated, up to a maximum of 3 . Generates mini cyclones based on the number of hit, dealing Wind DMG;\nIf 3 are detonated at once, a giant cyclone is generated instead, dealing Wind DMG;\nCharacter is invulnerable while using this skill.",
+                "desc": "[EX Special Attack: Kindly Rest in Peace] When activated, if there are a combined total of at least 3 and own on the field, automatically activates:\nThrows her hammer at enemies on the field, dealing Wind DMG;\n[Storm's Eye] hit by this skill are detonated, up to 3 [Storm's Eye] at a time. Miniature Windstorms are generated based on the number of Storm's Eyes hit, dealing Wind DMG;\nIf 3 [Storm's Eye] are detonated at once, a Giant Windstorm is generated instead, dealing Wind DMG;\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 0,
-                    "end": 34,
+                    "end": 41,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 161,
-                    "end": 169,
+                    "start": 200,
+                    "end": 208,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 292,
-                    "end": 300,
+                    "start": 210,
+                    "end": 223,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 265,
+                    "end": 278,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 374,
+                    "end": 382,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 376,
-                    "end": 384,
+                    "start": 389,
+                    "end": 402,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 474,
+                    "end": 482,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9359,35 +9310,35 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "666.6%",
-                          "727.2%",
-                          "787.8%",
-                          "848.4%",
-                          "909%",
-                          "969.6%",
-                          "1030.2%",
-                          "1090.8%",
-                          "1151.4%",
-                          "1212%",
-                          "1272.6%",
-                          "1333.2%"
+                          "250%",
+                          "272.8%",
+                          "295.6%",
+                          "318.4%",
+                          "341.2%",
+                          "364%",
+                          "386.8%",
+                          "409.6%",
+                          "432.4%",
+                          "455.2%",
+                          "478%",
+                          "500.8%"
                         ]
                       },
                       {
                         "label": "Daze Multiplier",
                         "values": [
-                          "141.1%",
-                          "147.6%",
-                          "154.1%",
-                          "160.6%",
-                          "167.1%",
-                          "173.6%",
-                          "180.1%",
-                          "186.6%",
-                          "193.1%",
-                          "199.6%",
-                          "206.1%",
-                          "212.6%"
+                          "70.6%",
+                          "73.9%",
+                          "77.2%",
+                          "80.5%",
+                          "83.8%",
+                          "87.1%",
+                          "90.4%",
+                          "93.7%",
+                          "97%",
+                          "100.3%",
+                          "103.6%",
+                          "106.9%"
                         ]
                       }
                     ]
@@ -9395,13 +9346,13 @@
                 ]
               },
               {
-                "name": "Special Attack: Excuse Me",
+                "name": "Special Attack: Much Obliged",
                 "type": "Special",
-                "desc": "Press to activate:\nStrike forward, dealing Wind DMG.",
+                "desc": "Press to activate:\nPerform a forward strike, dealing Wind DMG.",
                 "descFormat": [
                   {
-                    "start": 43,
-                    "end": 51,
+                    "start": 53,
+                    "end": 61,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9463,49 +9414,49 @@
                 ]
               },
               {
-                "name": "EX Special Attack: Watch for the Chill",
+                "name": "EX Special Attack: Don't Catch a Chill",
                 "type": "Special",
-                "desc": "With enough energy, press or hold to activate:\nSlides forward, dealing Wind DMG;\nIf is held during the slide, Roxy enters the [Spin] state:\nIn the [Spin] state, Roxy transforms into a tornado. Drag the joystick to control the tornado's movement direction. Energy is continuously consumed while dealing Wind DMG to enemies in the path. The [Spin] state ends when Energy is depleted or when is released without dragging the joystick;\nWhen the slide ends or the [Spin] state is exited, automatically follows up with [EX Special Attack: Rest in Peace];\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough energy, press or hold to activate:\nSlide forward, dealing Wind DMG.\nWhile sliding, press and hold to have Roxy enter the Whirlwind state:\nWhile in the Whirlwind state, Roxy transforms into a tornado. Drag the joystick to control its direction. During this, Energy is continuously consumed, dealing Wind DMG to enemies along its path. When Energy is depleted, or when is released while the joystick is not being moved, Roxy exits the Whirlwind state.\nWhen the slide ends or when exiting the Whirlwind state, automatically follow up with EX Special Attack: Kindly Rest in Peace.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 71,
-                    "end": 79,
+                    "start": 70,
+                    "end": 78,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 126,
-                    "end": 132,
+                    "start": 133,
+                    "end": 142,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 147,
-                    "end": 153,
+                    "start": 163,
+                    "end": 172,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 302,
-                    "end": 310,
+                    "start": 310,
+                    "end": 318,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 339,
-                    "end": 345,
+                    "start": 445,
+                    "end": 454,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 459,
-                    "end": 465,
+                    "start": 502,
+                    "end": 511,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 513,
-                    "end": 547,
+                    "start": 548,
+                    "end": 587,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9531,18 +9482,18 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "27.3%",
-                          "29.8%",
-                          "32.3%",
-                          "34.8%",
-                          "37.3%",
-                          "39.8%",
-                          "42.3%",
-                          "44.8%",
-                          "47.3%",
-                          "49.8%",
-                          "52.3%",
-                          "54.8%"
+                          "13.7%",
+                          "15%",
+                          "16.3%",
+                          "17.6%",
+                          "18.9%",
+                          "20.2%",
+                          "21.5%",
+                          "22.8%",
+                          "24.1%",
+                          "25.4%",
+                          "26.7%",
+                          "28%"
                         ]
                       },
                       {
@@ -9563,24 +9514,24 @@
                         ]
                       },
                       {
-                        "label": "Spin DMG Multiplier Per Second",
+                        "label": "Whirlwind DMG Multiplier Per Second",
                         "values": [
-                          "1179%",
-                          "1286.2%",
-                          "1393.4%",
-                          "1500.6%",
-                          "1607.8%",
-                          "1715%",
-                          "1822.2%",
-                          "1929.4%",
-                          "2036.6%",
-                          "2143.8%",
-                          "2251%",
-                          "2358.2%"
+                          "1304%",
+                          "1422.6%",
+                          "1541.2%",
+                          "1659.8%",
+                          "1778.4%",
+                          "1897%",
+                          "2015.6%",
+                          "2134.2%",
+                          "2252.8%",
+                          "2371.4%",
+                          "2490%",
+                          "2608.6%"
                         ]
                       },
                       {
-                        "label": "Spin Daze Multiplier Per Second",
+                        "label": "Whirlwind Daze Multiplier Per Second",
                         "values": [
                           "463%",
                           "484.1%",
@@ -9601,33 +9552,33 @@
                 ]
               },
               {
-                "name": "EX Special Attack: Rest in Peace",
+                "name": "EX Special Attack: Kindly Rest in Peace",
                 "type": "Special",
-                "desc": "[EX Special Attack: Watch Out for Wind Chill] automatically activates upon conclusion:\nConsumes all to fire a wind cannon forward, dealing Wind DMG;\nFor every 1 consumed, deals an additional instance of Wind DMG after the attack, and generates 1 at the current position;\nWhen [Windswept] is triggered on enemies during this skill, it triggers the Quick Assist of the previous character in the squad;\nCharacter is invulnerable while using this skill.",
+                "desc": "Automatically activates after EX Special Attack: Don't Catch a Chill ends:\nConsume all to fire a wind cannon forward, dealing Wind DMG.\nAfter the attack, for each point of Wind Energy consumed, deals an additional instance of Wind DMG and generates 1 at the current position.",
                 "descFormat": [
                   {
-                    "start": 0,
-                    "end": 45,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 139,
-                    "end": 147,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 203,
-                    "end": 211,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 347,
-                    "end": 359,
+                    "start": 30,
+                    "end": 68,
                     "kind": "tone",
                     "tone": "accent"
+                  },
+                  {
+                    "start": 126,
+                    "end": 134,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 172,
+                    "end": 183,
+                    "kind": "tone",
+                    "tone": "anemo"
+                  },
+                  {
+                    "start": 226,
+                    "end": 234,
+                    "kind": "tone",
+                    "tone": "anemo"
                   }
                 ],
                 "scaling": [
@@ -9651,18 +9602,18 @@
                       {
                         "label": "DMG Multiplier",
                         "values": [
-                          "63.7%",
-                          "69.5%",
-                          "75.3%",
-                          "81.1%",
-                          "86.9%",
-                          "92.7%",
-                          "98.5%",
-                          "104.3%",
-                          "110.1%",
-                          "115.9%",
-                          "121.7%",
-                          "127.5%"
+                          "31.9%",
+                          "34.8%",
+                          "37.7%",
+                          "40.6%",
+                          "43.5%",
+                          "46.4%",
+                          "49.3%",
+                          "52.2%",
+                          "55.1%",
+                          "58%",
+                          "60.9%",
+                          "63.8%"
                         ]
                       },
                       {
@@ -9685,18 +9636,18 @@
                       {
                         "label": "Additional Explosion DMG Multiplier",
                         "values": [
-                          "52.1%",
-                          "56.9%",
-                          "61.7%",
-                          "66.5%",
-                          "71.3%",
-                          "76.1%",
-                          "80.9%",
-                          "85.7%",
-                          "90.5%",
-                          "95.3%",
-                          "100.1%",
-                          "104.9%"
+                          "26.1%",
+                          "28.5%",
+                          "30.9%",
+                          "33.3%",
+                          "35.7%",
+                          "38.1%",
+                          "40.5%",
+                          "42.9%",
+                          "45.3%",
+                          "47.7%",
+                          "50.1%",
+                          "52.5%"
                         ]
                       }
                     ]
@@ -9704,43 +9655,55 @@
                 ]
               },
               {
-                "name": "Eye of the Storm",
+                "name": "Storm's Eye",
                 "type": "Special",
-                "desc": "[EX Special Attack: Rest in Peace] Generated after consuming , lasts 30 seconds;\n A maximum of 9 can exist simultaneously. When the limit is exceeded, the earliest generated will automatically detonate;\nWhen hit by [Special Attack: No Need to See You Off] or [Ultimate: Burial Night Requiem], they will be detonated. If fewer than 3 are hit simultaneously, each position will generate 1 mini vortex that tracks enemies and deals Wind DMG, lasting 1 second;\nIf 3 are hit simultaneously, 1 giant vortex will be generated instead, dealing Wind DMG, lasting 1 second.\nWhen detonated by any means, will emit an Explosive blast dealing Wind DMG to nearby enemies.",
+                "desc": "Generated after [EX Special Attack: Kindly Rest in Peace] consumes , lasting 30s before automatically detonating;\nUp to 9 can exist at the same time. If this limit is exceeded, the earliest generated [Storm's Eye] will automatically detonate;\nDetonates when hit by [Special Attack: Forgive Me for Not Seeing You Off]. If fewer than 3 are hit at the same time, 1 Miniature Windstorm is generated at the location of each [Storm's Eye], tracking enemies and dealing Wind DMG for 1s;\nIf 3 are hit at the same time, 1 Giant Windstorm is generated instead, dealing Wind DMG for 1s.\nWhen detonated by any means, a [Storm's Eye] releases a blast, dealing 1 instance of Wind DMG to nearby enemies.",
                 "descFormat": [
                   {
-                    "start": 0,
-                    "end": 34,
+                    "start": 16,
+                    "end": 57,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 215,
-                    "end": 255,
+                    "start": 200,
+                    "end": 213,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 259,
-                    "end": 291,
+                    "start": 265,
+                    "end": 316,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 429,
-                    "end": 437,
+                    "start": 419,
+                    "end": 432,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 463,
+                    "end": 471,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 536,
-                    "end": 544,
+                    "start": 559,
+                    "end": 567,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 630,
-                    "end": 638,
+                    "start": 607,
+                    "end": 620,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 661,
+                    "end": 669,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9781,24 +9744,24 @@
                         ]
                       },
                       {
-                        "label": "Micro Wind Vortex DMG Multiplier Per Second",
+                        "label": "Miniature Windstorm DMG Multiplier per Second",
                         "values": [
-                          "78.2%",
-                          "85.4%",
-                          "92.6%",
-                          "99.8%",
-                          "107%",
-                          "114.2%",
-                          "121.4%",
-                          "128.6%",
-                          "135.8%",
-                          "143%",
-                          "150.2%",
-                          "157.4%"
+                          "52.1%",
+                          "56.9%",
+                          "61.7%",
+                          "66.5%",
+                          "71.3%",
+                          "76.1%",
+                          "80.9%",
+                          "85.7%",
+                          "90.5%",
+                          "95.3%",
+                          "100.1%",
+                          "104.9%"
                         ]
                       },
                       {
-                        "label": "Micro Wind Vortex Daze Multiplier Per Second",
+                        "label": "Miniature Windstorm Daze Multiplier per Second",
                         "values": [
                           "17.7%",
                           "18.6%",
@@ -9815,24 +9778,24 @@
                         ]
                       },
                       {
-                        "label": "Giant Wind Vortex DMG Multiplier Per Second",
+                        "label": "Giant Windstorm DMG Multiplier per Second",
                         "values": [
-                          "312.5%",
-                          "341%",
-                          "369.5%",
-                          "398%",
-                          "426.5%",
-                          "455%",
-                          "483.5%",
-                          "512%",
-                          "540.5%",
-                          "569%",
-                          "597.5%",
-                          "626%"
+                          "208.4%",
+                          "227.4%",
+                          "246.4%",
+                          "265.4%",
+                          "284.4%",
+                          "303.4%",
+                          "322.4%",
+                          "341.4%",
+                          "360.4%",
+                          "379.4%",
+                          "398.4%",
+                          "417.4%"
                         ]
                       },
                       {
-                        "label": "Giant Wind Vortex Daze Multiplier Per Second",
+                        "label": "Giant Windstorm Daze Multiplier per Second",
                         "values": [
                           "70.6%",
                           "73.9%",
@@ -9853,9 +9816,9 @@
                 ]
               },
               {
-                "name": "Chain Attack: Funeral Wind Greathammer",
+                "name": "Chain Attack: Gale-Burial Great Hammer",
                 "type": "Chain",
-                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful Strike at enemies ahead, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "When a Chain Attack is triggered, select the character to activate:\nUnleashes a powerful strike at enemies in front, dealing massive Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 7,
@@ -9864,8 +9827,8 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 130,
-                    "end": 138,
+                    "start": 133,
+                    "end": 141,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9927,13 +9890,13 @@
                 ]
               },
               {
-                "name": "Ultimate: Requiem of the Buried Night",
+                "name": "Ultimate: Requiem for the Night-Burial",
                 "type": "Chain",
-                "desc": "When Decibel Rating reaches [Maximum], press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG;\nAfter using this skill, recovers 1 ;\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG;\nAfter using this skill, gain 1 ;\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 139,
-                    "end": 147,
+                    "start": 135,
+                    "end": 143,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -10000,121 +9963,109 @@
             "title": "Core Skill",
             "entries": [
               {
-                "name": "Core Passive: First Embrace of the Fevered Night",
+                "name": "Core Passive: Warm Night's Embrace",
                 "type": "Core Passive",
-                "desc": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 40%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 20%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                "desc": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 35%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                 "descFormat": [
                   {
-                    "start": 37,
-                    "end": 50,
+                    "start": 67,
+                    "end": 80,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 52,
-                    "end": 65,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 96,
-                    "end": 108,
+                    "start": 102,
+                    "end": 114,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 195,
-                    "end": 198,
+                    "start": 209,
+                    "end": 212,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 257,
-                    "end": 261,
+                    "start": 271,
+                    "end": 275,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 268,
-                    "end": 312,
+                    "start": 283,
+                    "end": 334,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 339,
-                    "end": 350,
+                    "start": 361,
+                    "end": 372,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 354,
-                    "end": 369,
+                    "start": 398,
+                    "end": 413,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 383,
-                    "end": 392,
+                    "start": 473,
+                    "end": 488,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 402,
-                    "end": 417,
+                    "start": 492,
+                    "end": 501,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 436,
-                    "end": 447,
+                    "start": 560,
+                    "end": 569,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 489,
-                    "end": 504,
+                    "start": 687,
+                    "end": 690,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 506,
-                    "end": 515,
+                    "start": 720,
+                    "end": 729,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 528,
-                    "end": 539,
+                    "start": 846,
+                    "end": 849,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 578,
-                    "end": 589,
+                    "start": 945,
+                    "end": 956,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 632,
-                    "end": 641,
+                    "start": 1001,
+                    "end": 1012,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 766,
-                    "end": 768,
+                    "start": 1102,
+                    "end": 1117,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 775,
-                    "end": 784,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 886,
-                    "end": 888,
+                    "start": 1166,
+                    "end": 1177,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -10122,23 +10073,17 @@
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 beyond that threshold, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy afflicted with [Windswept] or [Contamination], it triggers [Cleanse]. [Contamination] will revert to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or re-applies [Windswept] to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 20%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 10%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 17%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 10%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
@@ -10155,86 +10100,80 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 280,
-                        "end": 324,
+                        "start": 281,
+                        "end": 332,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 354,
-                        "end": 365,
+                        "start": 359,
+                        "end": 370,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 369,
-                        "end": 384,
+                        "start": 396,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 398,
-                        "end": 407,
+                        "start": 471,
+                        "end": 486,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 409,
-                        "end": 424,
+                        "start": 490,
+                        "end": 499,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 440,
-                        "end": 451,
+                        "start": 558,
+                        "end": 567,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 493,
-                        "end": 508,
+                        "start": 685,
+                        "end": 688,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 510,
-                        "end": 519,
+                        "start": 718,
+                        "end": 727,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 535,
-                        "end": 546,
+                        "start": 840,
+                        "end": 843,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 573,
-                        "end": 584,
+                        "start": 939,
+                        "end": 950,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 627,
-                        "end": 636,
+                        "start": 995,
+                        "end": 1006,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 758,
-                        "end": 761,
+                        "start": 1093,
+                        "end": 1108,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 767,
-                        "end": 776,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 875,
-                        "end": 878,
+                        "start": 1157,
+                        "end": 1168,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10242,119 +10181,107 @@
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] has a maximum of 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse]. The [Contamination] effect reverts to a [Windswept] effect.\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contamination or Cleanse attribute and Wind attribute by 0.4%, up to 23%, and [Armorer] Characters gain increased Laceration DMG of the Cleanse attribute and Wind attribute by 0.2%, up to 11.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 20%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 11.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 106,
-                        "end": 118,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 205,
-                        "end": 208,
+                        "start": 209,
+                        "end": 212,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 267,
-                        "end": 269,
+                        "start": 271,
+                        "end": 273,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 276,
-                        "end": 320,
+                        "start": 281,
+                        "end": 332,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 347,
-                        "end": 358,
+                        "start": 359,
+                        "end": 370,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 362,
-                        "end": 377,
+                        "start": 396,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 391,
-                        "end": 400,
+                        "start": 471,
+                        "end": 486,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 406,
-                        "end": 421,
+                        "start": 490,
+                        "end": 499,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 442,
-                        "end": 453,
+                        "start": 558,
+                        "end": 567,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 502,
-                        "end": 517,
+                        "start": 685,
+                        "end": 688,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 519,
-                        "end": 528,
+                        "start": 718,
+                        "end": 727,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 541,
-                        "end": 552,
+                        "start": 840,
+                        "end": 845,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 591,
-                        "end": 602,
+                        "start": 941,
+                        "end": 952,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 645,
-                        "end": 654,
+                        "start": 997,
+                        "end": 1008,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 779,
-                        "end": 781,
+                        "start": 1095,
+                        "end": 1110,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 898,
-                        "end": 902,
+                        "start": 1159,
+                        "end": 1170,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10362,119 +10289,107 @@
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain Contamination or Cleanse attribute and Wind CRIT DMG increased by 0.4%, up to 26%, and [Armorer] Characters gain Cleanse attribute and Wind Laceration DMG increased by 0.2%, up to 13%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 23%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 13%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 208,
-                        "end": 211,
+                        "start": 209,
+                        "end": 212,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 270,
-                        "end": 272,
+                        "start": 271,
+                        "end": 273,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 323,
+                        "start": 281,
+                        "end": 332,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 350,
-                        "end": 361,
+                        "start": 359,
+                        "end": 370,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 365,
-                        "end": 380,
+                        "start": 396,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 394,
-                        "end": 403,
+                        "start": 471,
+                        "end": 486,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 413,
-                        "end": 428,
+                        "start": 490,
+                        "end": 499,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 447,
-                        "end": 458,
+                        "start": 558,
+                        "end": 567,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 500,
-                        "end": 515,
+                        "start": 685,
+                        "end": 688,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 517,
-                        "end": 526,
+                        "start": 718,
+                        "end": 727,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 539,
-                        "end": 550,
+                        "start": 840,
+                        "end": 843,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 589,
-                        "end": 600,
+                        "start": 939,
+                        "end": 950,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 643,
-                        "end": 652,
+                        "start": 995,
+                        "end": 1006,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 760,
-                        "end": 762,
+                        "start": 1093,
+                        "end": 1108,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 769,
-                        "end": 778,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 862,
-                        "end": 864,
+                        "start": 1157,
+                        "end": 1168,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10482,119 +10397,107 @@
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to the [Windswept] effect;\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 29%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 14.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 26%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 14.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 208,
-                        "end": 211,
+                        "start": 209,
+                        "end": 212,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 270,
-                        "end": 272,
+                        "start": 271,
+                        "end": 273,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 323,
+                        "start": 281,
+                        "end": 332,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 350,
-                        "end": 361,
+                        "start": 359,
+                        "end": 370,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 365,
-                        "end": 380,
+                        "start": 396,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 394,
-                        "end": 403,
+                        "start": 471,
+                        "end": 486,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 413,
-                        "end": 428,
+                        "start": 490,
+                        "end": 499,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 451,
-                        "end": 462,
+                        "start": 558,
+                        "end": 567,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 511,
-                        "end": 526,
+                        "start": 685,
+                        "end": 688,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 528,
-                        "end": 537,
+                        "start": 718,
+                        "end": 727,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 561,
+                        "start": 840,
+                        "end": 845,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 594,
-                        "end": 605,
+                        "start": 941,
+                        "end": 952,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 648,
-                        "end": 657,
+                        "start": 997,
+                        "end": 1008,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 779,
-                        "end": 781,
+                        "start": 1094,
+                        "end": 1109,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 896,
-                        "end": 900,
+                        "start": 1158,
+                        "end": 1169,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10602,119 +10505,107 @@
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 32%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 16%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 29%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 16%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members can also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 96,
-                        "end": 108,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 195,
-                        "end": 198,
+                        "start": 209,
+                        "end": 212,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 257,
-                        "end": 259,
+                        "start": 271,
+                        "end": 273,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 266,
-                        "end": 310,
+                        "start": 281,
+                        "end": 332,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 337,
-                        "end": 348,
+                        "start": 359,
+                        "end": 370,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 352,
-                        "end": 367,
+                        "start": 396,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 381,
-                        "end": 390,
+                        "start": 471,
+                        "end": 486,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 400,
-                        "end": 415,
+                        "start": 490,
+                        "end": 499,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 434,
-                        "end": 445,
+                        "start": 558,
+                        "end": 567,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 487,
-                        "end": 502,
+                        "start": 685,
+                        "end": 688,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 504,
-                        "end": 513,
+                        "start": 718,
+                        "end": 727,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 526,
-                        "end": 537,
+                        "start": 844,
+                        "end": 847,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 576,
-                        "end": 587,
+                        "start": 943,
+                        "end": 954,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 630,
-                        "end": 639,
+                        "start": 999,
+                        "end": 1010,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 764,
-                        "end": 766,
+                        "start": 1100,
+                        "end": 1115,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 773,
-                        "end": 782,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 884,
-                        "end": 886,
+                        "start": 1164,
+                        "end": 1175,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10722,119 +10613,107 @@
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] caps at 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded beyond that, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to the [Windswept] effect;\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already under [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain 0.4% increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute, up to 35%, and [Armorer] Characters gain 0.2% increased Laceration DMG of the Cleansed attribute and Wind attribute, up to 17.5%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 32%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 17.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute that were overwritten by the new [Windswept].",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 97,
-                        "end": 109,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 208,
-                        "end": 211,
+                        "start": 209,
+                        "end": 212,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 270,
-                        "end": 272,
+                        "start": 271,
+                        "end": 273,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 279,
-                        "end": 323,
+                        "start": 281,
+                        "end": 332,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 350,
-                        "end": 361,
+                        "start": 359,
+                        "end": 370,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 365,
-                        "end": 380,
+                        "start": 396,
+                        "end": 411,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 394,
-                        "end": 403,
+                        "start": 471,
+                        "end": 486,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 413,
-                        "end": 428,
+                        "start": 490,
+                        "end": 499,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 451,
-                        "end": 462,
+                        "start": 558,
+                        "end": 567,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 511,
-                        "end": 526,
+                        "start": 685,
+                        "end": 688,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 528,
-                        "end": 537,
+                        "start": 718,
+                        "end": 727,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 550,
-                        "end": 561,
+                        "start": 844,
+                        "end": 849,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 594,
-                        "end": 605,
+                        "start": 945,
+                        "end": 956,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 648,
-                        "end": 657,
+                        "start": 1001,
+                        "end": 1012,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 779,
-                        "end": 781,
+                        "start": 1102,
+                        "end": 1117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 788,
-                        "end": 797,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 896,
-                        "end": 900,
+                        "start": 1180,
+                        "end": 1191,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10842,119 +10721,107 @@
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "For every 25 Energy consumed, gain 1 [Wind Energy]. [Wind Energy] cap is 3.\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 exceeded, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8;\nWhen [Special Attack: Don't Let the Door Hit You] hits an enemy affected by [Windswept] or [Contamination], it triggers [Cleanse], and the [Contamination] effect reverts to [Windswept];\nWhen any teammate in the squad triggers [Contamination], [Cleanse], or applies [Windswept] again to an enemy already affected by [Windswept], for every 1% CRIT Rate Roxy has, all non-[Armorer] Characters in the squad gain increased CRIT DMG of the Contaminated or Cleansed attribute and Wind attribute by 0.4%, up to 40%, and [Armorer] Characters gain increased Laceration DMG of the Cleansed attribute and Wind attribute by 0.2%, up to 20%. Each attribute buff lasts 50s; repeated triggers reset the duration.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 35%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
-                        "start": 37,
-                        "end": 50,
+                        "start": 67,
+                        "end": 80,
                         "kind": "tone",
                         "tone": "anemo"
                       },
                       {
-                        "start": 52,
-                        "end": 65,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 96,
-                        "end": 108,
+                        "start": 102,
+                        "end": 114,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 195,
-                        "end": 198,
+                        "start": 209,
+                        "end": 212,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 257,
-                        "end": 261,
+                        "start": 271,
+                        "end": 275,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 268,
-                        "end": 312,
+                        "start": 283,
+                        "end": 334,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 339,
-                        "end": 350,
+                        "start": 361,
+                        "end": 372,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 354,
-                        "end": 369,
+                        "start": 398,
+                        "end": 413,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 383,
-                        "end": 392,
+                        "start": 473,
+                        "end": 488,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 402,
-                        "end": 417,
+                        "start": 492,
+                        "end": 501,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 436,
-                        "end": 447,
+                        "start": 560,
+                        "end": 569,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 489,
-                        "end": 504,
+                        "start": 687,
+                        "end": 690,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 506,
-                        "end": 515,
+                        "start": 720,
+                        "end": 729,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 528,
-                        "end": 539,
+                        "start": 846,
+                        "end": 849,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 578,
-                        "end": 589,
+                        "start": 945,
+                        "end": 956,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 632,
-                        "end": 641,
+                        "start": 1001,
+                        "end": 1012,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 766,
-                        "end": 768,
+                        "start": 1102,
+                        "end": 1117,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 775,
-                        "end": 784,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 886,
-                        "end": 888,
+                        "start": 1166,
+                        "end": 1177,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10965,7 +10832,7 @@
               {
                 "name": "Additional Ability: Porcelloy Heart",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is an [Attack], [Rupture], or [Armorer] Character, the following effects trigger:\nRoxy's DMG increases by 8%. This effect scales with character Lv., increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen all squad members' attacks hit an enemy, the enemy's Stun DMG Multiplier increases by 30%. This effect is removed when Daze ends. When an enemy becomes Stunned, the Daze duration is extended by 2s.\nWhen an enemy is affected by [Windswept] or [Contamination], Wind direct DMG and direct attack DMG that triggers [Contamination] dealt to the enemy is additionally increased by 8%.\nWhen entering the battlefield, recovers 40 Energy. This effect can trigger once every 180s in Investigation Zone mode.\nThe duration of [Windswept] effects applied by all squad members is extended by 20s.\nWhen using [EX Special Attack], Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration.",
+                "desc": "When another character in your squad is an [Attack], [Rupture], or [Armorer] character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the [Windswept] state applied by a squad member, the direct Wind DMG they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n[Windswept] applied by all squad members lasts 20s longer.\nWhen using an [EX Special Attack], Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration.",
                 "descFormat": [
                   {
                     "start": 43,
@@ -10986,38 +10853,26 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 481,
-                    "end": 492,
+                    "start": 526,
+                    "end": 537,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 496,
-                    "end": 511,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 513,
-                    "end": 528,
+                    "start": 575,
+                    "end": 590,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 768,
-                    "end": 779,
+                    "start": 826,
+                    "end": 837,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 848,
-                    "end": 867,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 903,
-                    "end": 905,
+                    "start": 899,
+                    "end": 918,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -11032,11 +10887,11 @@
               {
                 "name": "...",
                 "type": "Mindscape 1",
-                "desc": "[EX Special Attack: Rest in Peace] On hit, reduces the enemy's All-Attribute RES by 15% for 50s; increases own CRIT DMG by 40%.",
+                "desc": "When EX Special Attack: Kindly Rest in Peace hits, it reduces the enemy's All-Attribute RES by 15% for 50s. CRIT DMG increases by 40%.",
                 "descFormat": [
                   {
-                    "start": 0,
-                    "end": 34,
+                    "start": 5,
+                    "end": 44,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -11045,55 +10900,55 @@
               {
                 "name": "...",
                 "type": "Mindscape 2",
-                "desc": "[EX Special Attack: Watch for Wind Chill] Daze inflicted increases by 5%; each [Wind Eye] detonated grants 1 stack of [Flow Momentum], up to a maximum of 3 stacks; when switching out during [Spin] state while [EX Special Attack: Watch for Wind Chill] is active, Roxy consumes all [Flow Momentum] stacks, with each stack consumed maintaining [Spin] state for 0.2s without consuming Energy, up to a maximum of 0.6s; when [EX Special Attack: Watch for Wind Chill] hits an enemy, increases the enemy's Stun DMG Multiplier by 25%, lasting until the target recovers from the Stunned state.",
+                "desc": "EX Special Attack: Don't Catch a Chill deals 5% more Daze. For each Storm's Eye detonated, gain 1 stack of Windflow, up to 3 stacks. During EX Special Attack: Don't Catch a Chill, if Roxy switches out after entering the Whirlwind state, she consumes all Windflow. Each stack consumed sustains the Whirlwind state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When EX Special Attack: Don't Catch a Chill hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
                 "descFormat": [
                   {
                     "start": 0,
-                    "end": 41,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 79,
-                    "end": 89,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 118,
-                    "end": 133,
+                    "end": 38,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 190,
-                    "end": 196,
+                    "start": 68,
+                    "end": 79,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 209,
-                    "end": 250,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 280,
-                    "end": 295,
+                    "start": 107,
+                    "end": 115,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 341,
-                    "end": 347,
+                    "start": 140,
+                    "end": 178,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 419,
-                    "end": 460,
+                    "start": 220,
+                    "end": 229,
                     "kind": "tone",
-                    "tone": "anemo"
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 254,
+                    "end": 262,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 297,
+                    "end": 306,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 389,
+                    "end": 427,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ]
               },
@@ -11137,23 +10992,23 @@
               {
                 "name": "...",
                 "type": "Mindscape 4",
-                "desc": "When launching [Defensive Assist], Roxy recovers 1 Energy, up to 1 time per skill; when [Dodge Counter: Giving Back] hits an enemy, recovers 2 Energy, up to 1 time per skill; [Ultimate: Requiem of the Buried Night] DMG increases by 20%, and Daze increases by 10%.",
+                "desc": "When a Defensive Assist successfully parries an enemy attack, Roxy gains 1 Energy, up to once per skill. When Dodge Counter: Returned Courtesy hits an enemy, it grants 2 Energy, up to once per skill. Ultimate: Requiem for the Night-Burial deals 20% more DMG and 10% more Daze.",
                 "descFormat": [
                   {
-                    "start": 15,
-                    "end": 33,
+                    "start": 7,
+                    "end": 23,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 88,
-                    "end": 116,
+                    "start": 110,
+                    "end": 142,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 175,
-                    "end": 214,
+                    "start": 200,
+                    "end": 238,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -11199,29 +11054,35 @@
               {
                 "name": "...",
                 "type": "Mindscape 6",
-                "desc": "DMG dealt ignores 20% of the target's Wind DMG RES; When [Special Attack: Don't Bother Seeing Me Out] detonates [Wind Eye] to generate a giant wind vortex, the main target is afflicted with the [Reverberation] effect, generating a giant wind vortex at the target's position once every 3s, for a total of 2 additional giant wind vortices. Upon repeated triggers, the number of additional generations stacks.; The DMG Multiplier of giant wind vortices becomes 250% of the original, and Daze inflicted is increased by 30%.",
+                "desc": "The DMG dealt by attacks ignores 15% of the target's Wind RES. When [Special Attack: Forgive Me for Not Seeing You Off] detonates [Storm's Eye] to generate a Giant Windstorm, the primary target is inflicted with [Afterecho]. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional instances generated and refresh the duration of [Afterecho]. Giant Windstorms deal DMG increased to 250% of the original value, and their Daze dealt increases by 25%.",
                 "descFormat": [
                   {
-                    "start": 38,
-                    "end": 50,
+                    "start": 53,
+                    "end": 61,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 57,
-                    "end": 101,
+                    "start": 68,
+                    "end": 119,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 112,
-                    "end": 122,
+                    "start": 130,
+                    "end": 143,
                     "kind": "tone",
-                    "tone": "anemo"
+                    "tone": "accent"
                   },
                   {
-                    "start": 194,
-                    "end": 209,
+                    "start": 212,
+                    "end": 223,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 434,
+                    "end": 445,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -11437,7 +11298,7 @@
           },
           {
             "id": "110011",
-            "name": "Forged Away Core",
+            "name": "Counterfeit Nucleus",
             "qty": 9,
             "rar": 5,
             "kind": "weekly",
@@ -11451,15 +11312,15 @@
           },
           {
             "id": "110516",
-            "name": "Higher Dimensional Data: Simulated Core",
+            "name": "Higher Dimensional Data: Imitation Core",
             "qty": 60,
             "rar": 4,
             "kind": "boss",
             "icon": null,
-            "source": "the \"Conqueror\" / Expert Challenge",
+            "source": "the Conqueror / Expert Challenge",
             "sourceDetails": [
               {
-                "name": "the \"Conqueror\""
+                "name": "the Conqueror"
               },
               {
                 "name": "Expert Challenge"
@@ -12603,15 +12464,15 @@
               "items": [
                 {
                   "id": "110516",
-                  "name": "Higher Dimensional Data: Simulated Core",
+                  "name": "Higher Dimensional Data: Imitation Core",
                   "qty": 2,
                   "rar": 4,
                   "kind": "boss",
                   "icon": null,
-                  "source": "the \"Conqueror\" / Expert Challenge",
+                  "source": "the Conqueror / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "the \"Conqueror\""
+                      "name": "the Conqueror"
                     },
                     {
                       "name": "Expert Challenge"
@@ -12625,15 +12486,15 @@
               "items": [
                 {
                   "id": "110516",
-                  "name": "Higher Dimensional Data: Simulated Core",
+                  "name": "Higher Dimensional Data: Imitation Core",
                   "qty": 4,
                   "rar": 4,
                   "kind": "boss",
                   "icon": null,
-                  "source": "the \"Conqueror\" / Expert Challenge",
+                  "source": "the Conqueror / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "the \"Conqueror\""
+                      "name": "the Conqueror"
                     },
                     {
                       "name": "Expert Challenge"
@@ -12647,7 +12508,7 @@
               "items": [
                 {
                   "id": "110011",
-                  "name": "Forged Away Core",
+                  "name": "Counterfeit Nucleus",
                   "qty": 2,
                   "rar": 5,
                   "kind": "weekly",
@@ -12661,15 +12522,15 @@
                 },
                 {
                   "id": "110516",
-                  "name": "Higher Dimensional Data: Simulated Core",
+                  "name": "Higher Dimensional Data: Imitation Core",
                   "qty": 9,
                   "rar": 4,
                   "kind": "boss",
                   "icon": null,
-                  "source": "the \"Conqueror\" / Expert Challenge",
+                  "source": "the Conqueror / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "the \"Conqueror\""
+                      "name": "the Conqueror"
                     },
                     {
                       "name": "Expert Challenge"
@@ -12683,7 +12544,7 @@
               "items": [
                 {
                   "id": "110011",
-                  "name": "Forged Away Core",
+                  "name": "Counterfeit Nucleus",
                   "qty": 3,
                   "rar": 5,
                   "kind": "weekly",
@@ -12697,15 +12558,15 @@
                 },
                 {
                   "id": "110516",
-                  "name": "Higher Dimensional Data: Simulated Core",
+                  "name": "Higher Dimensional Data: Imitation Core",
                   "qty": 15,
                   "rar": 4,
                   "kind": "boss",
                   "icon": null,
-                  "source": "the \"Conqueror\" / Expert Challenge",
+                  "source": "the Conqueror / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "the \"Conqueror\""
+                      "name": "the Conqueror"
                     },
                     {
                       "name": "Expert Challenge"
@@ -12719,7 +12580,7 @@
               "items": [
                 {
                   "id": "110011",
-                  "name": "Forged Away Core",
+                  "name": "Counterfeit Nucleus",
                   "qty": 4,
                   "rar": 5,
                   "kind": "weekly",
@@ -12733,15 +12594,15 @@
                 },
                 {
                   "id": "110516",
-                  "name": "Higher Dimensional Data: Simulated Core",
+                  "name": "Higher Dimensional Data: Imitation Core",
                   "qty": 30,
                   "rar": 4,
                   "kind": "boss",
                   "icon": null,
-                  "source": "the \"Conqueror\" / Expert Challenge",
+                  "source": "the Conqueror / Expert Challenge",
                   "sourceDetails": [
                     {
-                      "name": "the \"Conqueror\""
+                      "name": "the Conqueror"
                     },
                     {
                       "name": "Expert Challenge"
@@ -12763,7 +12624,7 @@
   "weapons": [
     {
       "id": "14161",
-      "name": "Crimson Craving",
+      "name": "Crimson Thirst",
       "rarity": 4,
       "weaponType": "Armorer",
       "type": "Armorer",
@@ -12772,7 +12633,7 @@
       "items": [
         {
           "id": "101016",
-          "name": "Armorer Component",
+          "name": "Armorer Module",
           "qty": 4,
           "rar": 1,
           "kind": "mob",
@@ -12780,7 +12641,7 @@
         },
         {
           "id": "101026",
-          "name": "Reinforced Armorer Component",
+          "name": "Reinforced Armorer Module",
           "qty": 32,
           "rar": 3,
           "kind": "mob",
@@ -12788,7 +12649,7 @@
         },
         {
           "id": "101036",
-          "name": "Blasting Armorer Component",
+          "name": "Specialized Armorer Module",
           "qty": 30,
           "rar": 4,
           "kind": "mob",
@@ -12808,7 +12669,7 @@
       "items": [
         {
           "id": "101016",
-          "name": "Armorer Component",
+          "name": "Armorer Module",
           "qty": 3,
           "rar": 1,
           "kind": "mob",
@@ -12816,7 +12677,7 @@
         },
         {
           "id": "101026",
-          "name": "Reinforced Armorer Component",
+          "name": "Reinforced Armorer Module",
           "qty": 26,
           "rar": 3,
           "kind": "mob",
@@ -12824,7 +12685,7 @@
         },
         {
           "id": "101036",
-          "name": "Blasting Armorer Component",
+          "name": "Specialized Armorer Module",
           "qty": 24,
           "rar": 4,
           "kind": "mob",
@@ -12844,7 +12705,7 @@
       "items": [
         {
           "id": "101016",
-          "name": "Armorer Component",
+          "name": "Armorer Module",
           "qty": 3,
           "rar": 1,
           "kind": "mob",
@@ -12852,7 +12713,7 @@
         },
         {
           "id": "101026",
-          "name": "Reinforced Armorer Component",
+          "name": "Reinforced Armorer Module",
           "qty": 26,
           "rar": 3,
           "kind": "mob",
@@ -12860,7 +12721,7 @@
         },
         {
           "id": "101036",
-          "name": "Blasting Armorer Component",
+          "name": "Specialized Armorer Module",
           "qty": 24,
           "rar": 4,
           "kind": "mob",
@@ -13018,7 +12879,7 @@
       "drops": [
         {
           "id": "110011",
-          "name": "Forged Away Core",
+          "name": "Counterfeit Nucleus",
           "qty": 9,
           "rar": 5,
           "kind": "weekly",

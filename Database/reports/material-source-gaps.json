@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T12:09:11.850Z",
+  "generatedAt": "2026-08-31T08:48:23.238Z",
   "note": "Generic shops, crafting, exchanges, and event rewards are intentionally filtered. Rows here need scraper/wiki-specific source data.",
   "count": 237,
   "missing": [
@@ -754,7 +754,7 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova talents",
+      "context": "Rin Tohsaka talents",
       "id": "110291",
       "name": "Celestial Globe",
       "kind": "book"
@@ -782,7 +782,7 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova talents",
+      "context": "Rin Tohsaka talents",
       "id": "110293",
       "name": "Cosmic Sandpit",
       "kind": "book"
@@ -999,7 +999,7 @@
     },
     {
       "game": "hsr",
-      "context": "Himeko Nova talents",
+      "context": "Rin Tohsaka talents",
       "id": "110292",
       "name": "Galaxy Framework",
       "kind": "book"
@@ -1083,7 +1083,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair talents",
+      "context": "Robin Summeretto talents",
       "id": "110509",
       "name": "High Hopes of the Falsely Enlightened",
       "kind": "weekly"
@@ -1391,7 +1391,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair ascension",
+      "context": "Rin Tohsaka ascension",
       "id": "110443",
       "name": "Sneering Harlequin",
       "kind": "boss"
@@ -1489,7 +1489,7 @@
     },
     {
       "game": "hsr",
-      "context": "Aventurine Waveflair talents",
+      "context": "Gilgamesh talents",
       "id": "241",
       "name": "Tracks of Destiny",
       "kind": "mob"
@@ -1545,7 +1545,7 @@
     },
     {
       "game": "zzz",
-      "context": "Sigrid weapon",
+      "context": "Harumasa weapon",
       "id": "101010",
       "name": "Attack Component",
       "kind": "mob"
@@ -1566,7 +1566,7 @@
     },
     {
       "game": "zzz",
-      "context": "Sigrid weapon",
+      "context": "Harumasa weapon",
       "id": "101020",
       "name": "Reinforced Attack Component",
       "kind": "mob"
@@ -1615,7 +1615,7 @@
     },
     {
       "game": "zzz",
-      "context": "Sigrid weapon",
+      "context": "Harumasa weapon",
       "id": "101030",
       "name": "Specialized Attack Component",
       "kind": "mob"

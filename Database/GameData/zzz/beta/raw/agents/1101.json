@@ -342,7 +342,7 @@
         },
         {
           "name": "Basic Attack: Smash 'n' Bash",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to four Strikes forward, dealing <color=#F0D12B>Physical DMG</color>;\nWhen Koleda has the <color=#FFFFFF>[Furnace Fire]</color> effect, she can launch an Enhanced <color=#FFFFFF>[Basic Attack]</color> after the second Strike, consuming the <color=#FFFFFF>[Furnace Fire]</color> effect and dealing massive <color=#FF5521>Fire DMG</color>;\nThe Enhanced <color=#FFFFFF>[Basic Attack]</color> consists of two parts. After launching the first part, press or hold <IconMap:Icon_Normal> to chain into the second part, and the follow-up attack effect of the first Enhanced <color=#FFFFFF>[Basic Attack]</color> is strengthened;\nThe <color=#FFFFFF>[Furnace Fire]</color> effect can stack up to 2 times. Launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> consumes all <color=#FFFFFF>[Furnace Fire]</color> stacks;\nWhen <color=#FFFFFF>[Furnace Fire]</color> is consumed, DMG dealt by the whole squad's Agents is increased by 35% for 40s, repeated triggers refresh the duration, and for each stack of <color=#FFFFFF>[Furnace Fire]</color> consumed, the DMG dealt by the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is increased by 10%, and the Daze inflicted is increased by 20%;\nIf an Agent switch occurs during the first Enhanced <color=#FFFFFF>[Basic Attack]</color>, Koleda will automatically launch the second Enhanced <color=#FFFFFF>[Basic Attack]</color> on the field;\nWhen Koleda and Ben are both in the squad, launching an Enhanced <color=#FFFFFF>[Basic Attack]</color> without switching Agents during the first Enhanced <color=#FFFFFF>[Basic Attack]</color> will trigger a Coordinated Attack between the two, further increasing the skill's power;\nCharacter is invulnerable during the fourth <color=#FFFFFF>[Basic Attack]</color> Strike and during the Enhanced <color=#FFFFFF>[Basic Attack]</color>;\nThe invulnerability duration of the second Enhanced <color=#FFFFFF>[Basic Attack]</color> is extended.",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 strikes, dealing <color=#F0D12B>Physical DMG</color>.\nWhen Koleda has the <color=#FFFFFF>Furnace Fire</color> effect, she can launch an enhanced <color=#FFFFFF>Basic Attack</color> after the 2nd hit, consuming the <color=#FFFFFF>Furnace Fire</color> effect and dealing massive <color=#FF5521>Fire DMG</color>.\nEnhanced <color=#FFFFFF>Basic Attack</color> consists of two stages. After performing the first stage, press or hold <IconMap:Icon_Normal> to follow up with the second stage. The pursuit effect of the first-stage enhanced <color=#FFFFFF>Basic Attack</color> is also strengthened.\n<color=#FFFFFF>Furnace Fire</color> can stack up to 2 times. Performing an enhanced <color=#FFFFFF>Basic Attack</color> consumes all stacks of <color=#FFFFFF>Furnace Fire</color>.\nWhen <color=#FFFFFF>Furnace Fire</color> is consumed, all Agents deal 35% more damage for 40s. Repeated triggers refresh the duration. For each stack of <color=#FFFFFF>Furnace Fire</color> consumed, the second stage of the enhanced <color=#FFFFFF>Basic Attack</color> deals 10% more damage and inflicts 20% more Daze.\nWhen switching Agents during the first stage of the enhanced <color=#FFFFFF>Basic Attack</color>, Koleda remains on-field and automatically launches the second stage of the enhanced <color=#FFFFFF>Basic Attack</color>.\nWhen Koleda and Ben are both in the squad, using an enhanced <color=#FFFFFF>Basic Attack</color> without switching Agents during the first stage of the enhanced <color=#FFFFFF>Basic Attack</color> causes the two to perform a Coordinated Attack, further increasing the skill's power.\nCharacter is Invulnerable during the 4th hit of her <color=#FFFFFF>Basic Attack</color> and her enhanced <color=#FFFFFF>Basic Attack</color>.\nThe invulnerability duration of the second-stage enhanced <color=#FFFFFF>Basic Attack</color> is increased.",
           "potential": [
             110100,
             110101,
@@ -788,7 +788,7 @@
         },
         {
           "name": "Dash Attack: Tremble!",
-          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrike forward, dealing <color=#F0D12B>Physical DMG</color>.\nDuring this skill, if holding <color=#FFFFFF>[Furnace Fire]</color>, Anti-Interrupt level is increased. Hold <IconMap:Icon_Normal> to chain into an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nPerform a forward strike, dealing <color=#F0D12B>Physical DMG</color>.\nDuring this skill, if she has <color=#FFFFFF>Furnace Fire</color>, then Anti-Interrupt Level is increased. Hold <IconMap:Icon_Normal> to follow up with an enhanced <color=#FFFFFF>Basic Attack</color>.",
           "potential": [
             110100,
             110101,
@@ -807,7 +807,7 @@
         },
         {
           "name": "Dodge Counter: Don't Look Down on Me",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nLaunches a Strike at enemies ahead and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>;\nCharacter is invulnerable while using this skill. If <color=#FFFFFF>[Furnace Fire]</color> is active, hold <IconMap:Icon_Normal> to chain into an Enhanced <color=#FFFFFF>[Basic Attack]</color>.",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nStrikes enemies in front and creates an explosion, dealing <color=#FF5521>Fire DMG</color>.\nCharacter is invulnerable while using this skill. If <color=#FFFFFF>Furnace Fire</color> is active, hold <IconMap:Icon_Normal> to follow up with an enhanced <color=#FFFFFF>Basic Attack</color>.",
           "potential": [
             110100,
             110101,
@@ -994,7 +994,7 @@
         },
         {
           "name": "Special Attack: Hammer Time",
-          "desc": "Press <IconMap:Icon_Special> to activate:\nStrikes forward and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>;\nWhen used after the 2nd or 4th hit of <color=#FFFFFF>[Basic Attack]</color> or after an Enhance <color=#FFFFFF>[Basic Attack]</color>, the skill can be Quick Launched to directly trigger an explosion;\nDuring the 2nd hit of <color=#FFFFFF>[Basic Attack]</color>, hold <IconMap:Icon_Normal> to also directly trigger an explosion;\nWhen Koleda and Ben are both on the field and this skill is Quick Launched after an Enhance <color=#FFFFFF>[Basic Attack]</color>, both will perform a Coordinated Attack, further increasing the skill's power;\nAnti-Interrupt level is increased while using this skill.",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nStrikes enemies in front and triggers an explosion, dealing <color=#FF5521>Fire DMG</color>.\nThis skill launches faster and directly triggers the explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>Basic Attack</color> or enhanced <color=#FFFFFF>Basic Attack</color>.\nDuring the 2nd hit of her <color=#FFFFFF>Basic Attack</color>, holding <IconMap:Icon_Normal> can also trigger the explosion directly.\nWhen Koleda and Ben are both in your squad, and this skill is quickly launched after an enhanced <color=#FFFFFF>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nAnti-Interrupt level is increased while using this skill.",
           "potential": [
             110100,
             110101,
@@ -1013,7 +1013,7 @@
         },
         {
           "name": "EX Special Attack: Boiling Furnace",
-          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes forward and triggers a powerful explosion, dealing massive <color=#FF5521>Fire DMG</color>, and gains the <color=#FFFFFF>[Furnace Fire]</color> effect;\nIf chained after the 2nd or 4th hit of <color=#FFFFFF>[Basic Attack]</color> or after an Enhanced <color=#FFFFFF>[Basic Attack]</color>, the skill can be Quick Launched to directly trigger an explosion. The Daze inflicted by explosions triggered this way is increased by 10%;\nWhen Koleda and Ben are both on the field, and the skill is Quick Launched after an Enhanced <color=#FFFFFF>[Basic Attack]</color>, both will perform a Coordinated Attack together, further increasing the skill's power;\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to chain into <color=#FFFFFF>[Dash Attack: Tremble!]</color>.",
+          "desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nStrikes enemies in front and triggers a powerful explosion, dealing massive <color=#FF5521>Fire DMG</color>. Koleda also gains the <color=#FFFFFF>Furnace Fire</color> effect.\nThis skill activates faster and triggers an explosion when used after the 2nd or 4th hit of Koleda's <color=#FFFFFF>Basic Attack</color> or enhanced <color=#FFFFFF>Basic Attack</color>. Explosions triggered this way inflict 10% more Daze.\nWhen Koleda and Ben are both in your squad and this skill is quickly launched after an enhanced <color=#FFFFFF>Basic Attack</color>, they team up to launch a coordinated attack, further increasing the power of the skill.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
           "potential": [
             110100,
             110101,
@@ -1418,7 +1418,7 @@
         },
         {
           "name": "Ultimate: Hammerquake",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful explosion across a large area ahead, dealing massive <color=#FF5521>Fire DMG</color> and gaining the <color=#FFFFFF>Furnace Fire</color> effect;\nWhen Koleda and Ben are on the same team, both will launch a Coordinated Attack together, further enhancing the skill's power;\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful explosion on enemies in a large area in front, dealing massive <color=#FF5521>Fire DMG</color> while also obtaining the <color=#FFFFFF>Furnace Fire</color> effect.\nKoleda and Ben can team up when fighting together to launch a coordinated attack, further increasing the power of the attack.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
           "potential": [
             110100,
             110101,
@@ -1667,7 +1667,7 @@
         },
         {
           "name": "Assist Follow-Up: Hammer Bell",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nLaunches a charging Strike against enemies ahead, dealing <color=#FF5521>Fire DMG</color> and gaining the <color=#FFFFFF>Furnace Fire</color> effect;\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nKoleda charges and strikes enemies in front, dealing <color=#FF5521>Fire DMG</color> and obtaining <color=#FFFFFF>Furnace Fire</color> effect.\nCharacter is invulnerable while using this skill. Hold <IconMap:Icon_Normal> to follow up with <color=#FFFFFF>Dash Attack: Tremble!</color>.",
           "potential": [
             110100,
             110101,
@@ -2164,7 +2164,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>30%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2185,7 +2185,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>35%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2206,7 +2206,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>40%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2227,7 +2227,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>45%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2248,7 +2248,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>50%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2269,7 +2269,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>55%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2290,7 +2290,7 @@
         ],
         "desc": [
           "When Koleda uses her <color=#FFFFFF>EX Special Attack</color> or consumes <color=#FFFFFF>Furnace Fire</color> to use an enhanced <color=#FFFFFF>Basic Attack</color>, the Daze she deals increases by <color=#2BAD00>60%</color>.",
-          "When another character in your squad shares the same attribute or Faction, or is a <color=#FFFFFF>[Rupture]</color> or <color=#FFFFFF>[Armorer]</color> Character, the following effect triggers:\nWhen Koleda's <color=#FFFFFF>[EX Special Attack]</color> explosion hits an enemy, it inflicts a debuff on the target. After the target becomes Stunned, <color=#FFFFFF>[Chain Attack]</color> DMG dealt to them is increased by 35%, stacking up to 2 times. This effect resets when the Stunned state ends."
+          "When another character in your squad is a <color=#FFFFFF>Rupture</color> or <color=#FFFFFF>Armorer</color> character, or shares the same Attribute or Faction:\nWhen the explosion from Koleda's <color=#FFFFFF>EX Special Attack</color> hits an enemy, it applies a debuff to the target. While the target is Stunned, <color=#FFFFFF>Chain Attacks</color> deal 35% more DMG to the target. This effect can stack up to 2 times and resets when the Stunned effect ends."
         ],
         "extra_property": {},
         "potential": [
@@ -2386,9 +2386,7 @@
           31600
         ],
         "part_sub_list": [
-          20103,
-          12102,
-          21103
+          20103
         ]
       },
       {
@@ -2404,8 +2402,7 @@
       {
         "suit_list": [],
         "part_sub_list": [
-          12202,
-          30502
+          12202
         ]
       }
     ],
@@ -2454,7 +2451,7 @@
       "name": "",
       "desc": "",
       "image": "Koleda",
-      "level_show_name": "Let's get to work!",
+      "level_show_name": "Get Workin'! I",
       "level": 1,
       "ability_list": [
         11101401
@@ -2469,9 +2466,9 @@
     "110101": {
       "id": 110101,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>5%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>11%</color>.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>11%</color> increased CRIT DMG.",
       "image": "Koleda",
-      "level_show_name": "Let's Get to Work! II",
+      "level_show_name": "Get Workin'! II",
       "level": 2,
       "ability_list": [
         11101401,
@@ -2487,9 +2484,9 @@
     "110102": {
       "id": 110102,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>7.5%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>17%</color>.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>7.5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>17%</color> increased CRIT DMG.",
       "image": "Koleda",
-      "level_show_name": "Let's Get to Work! III",
+      "level_show_name": "Get Workin'! III",
       "level": 3,
       "ability_list": [
         11101401,
@@ -2505,9 +2502,9 @@
     "110103": {
       "id": 110103,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>10%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>23%</color>.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>10%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>23%</color> increased CRIT DMG.",
       "image": "Koleda",
-      "level_show_name": "Let's Get to Work! IV",
+      "level_show_name": "Get Workin'! IV",
       "level": 4,
       "ability_list": [
         11101401,
@@ -2523,9 +2520,9 @@
     "110104": {
       "id": 110104,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>12.5%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>29%</color>.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>12.5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>29%</color> increased CRIT DMG.",
       "image": "Koleda",
-      "level_show_name": "Let's get to work! V",
+      "level_show_name": "Get Workin'! V",
       "level": 5,
       "ability_list": [
         11101401,
@@ -2541,9 +2538,9 @@
     "110105": {
       "id": 110105,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "[Armorer] Agents in the squad gain Laceration DMG increased by <color=#2BAD00>15%</color>, and non-[Armorer] Agents gain CRIT DMG increased by <color=#2BAD00>35%</color>.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>15%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>35%</color> increased CRIT DMG.",
       "image": "Koleda",
-      "level_show_name": "Let's Get to Work! VI",
+      "level_show_name": "Get Workin'! VI",
       "level": 6,
       "ability_list": [
         11101401,

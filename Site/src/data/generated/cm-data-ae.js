@@ -7800,7 +7800,7 @@
       "rarity": 6,
       "weaponType": "Sword",
       "type": "Sword",
-      "source": "Reward: Events",
+      "source": "Tribute of Companionship",
       "icon": "../../Database/EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/weapons/farsight/icon.png",
       "items": [

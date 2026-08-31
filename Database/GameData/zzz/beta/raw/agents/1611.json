@@ -300,22 +300,22 @@
     "basic": {
       "description": [
         {
-          "name": "Basic Attack: Blood Forge - Four Forms",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to 4 hammer attacks ahead, dealing <color=#2EB6FF>Electric DMG</color>.",
+          "name": "Basic Attack: Bloodforging Four Forms",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to four strikes forward, dealing <color=#2EB6FF>Electric DMG</color>.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Blossom Oath - Star Forge",
-          "desc": "While under [Crimson Inscription], Press <IconMap:Icon_Normal> to activate:\nUnleash up to three Slashes forward with the Blood Axe, dealing <color=#2EB6FF>Electric DMG</color>;\nUpon activating the second attack skill, Claret jumps backward and throws the Blood Axe. Perfect Dodge can be triggered during the retreat;\nUpon activating the third attack skill, Claret performs continuous Slashes before leaping up and slamming down. During the continuous Slashes, Anti-Interrupt level is increased and DMG taken is reduced by 40%. Repeatedly press or hold <IconMap:Icon_Normal> to extend the duration of the continuous Slashes. When you stop pressing or release <IconMap:Icon_Normal>, Claret will immediately leap up and slam down. Perfect Dodge can be triggered during the leap. After successfully triggering a Perfect Dodge, press or hold <IconMap:Icon_Normal> to chain into the third sequence of [Basic Attack: Blood Blossom Oath - Star Forge];\nWill not exit <Term:1000036></Term> state during activation.",
+          "name": "Basic Attack: Bloodbloom Oath - Starforging",
+          "desc": "Press <IconMap:Icon_Normal> while in the <Term:1000036></Term> state to activate:\nUse the Blood Axe to perform up to three slashes forward, dealing <color=#2EB6FF>Electric DMG</color>.\nWhen the second attack is launched, Claret leaps backward and throws the Blood Axe. A Perfect Dodge can be triggered during the retreat.\nWhen the third attack is launched, Claret performs a series of slashes before leaping up and performing a downward smash. During the repeated slashes, Anti-Interrupt Level is increased, and DMG taken is reduced by 40%. Repeatedly press or hold <IconMap:Icon_Normal> to extend the duration of the repeated slashes. Stop pressing or release <IconMap:Icon_Normal> to make Claret immediately leap up and perform a downward smash. A Perfect Dodge can be triggered while leaping. After successfully triggering a Perfect Dodge, press or hold <IconMap:Icon_Normal> to follow up with the 3rd hit of Basic Attack: Bloodbloom Oath - Starforging.\nCrimson Inscription will not end during this skill.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Blossom Oath - Crouching Axe",
-          "desc": "While under [Crimson Inscription], after activating [Special Attack: Blood Oath - Sever Jin] or [Special Attack: Blood Oath - Bloodburst Onslaught] and successfully inflicting [Maim], press <IconMap:Icon_Normal> to activate:\nSpins and leaps into the air with the blood axe before slamming down and slashing the target enemy, dealing <color=#2EB6FF>Electric DMG</color>. Perfect Dodge effects can be triggered during the leap;\nAfter using this skill, press or hold <IconMap:Icon_Normal> to chain into the 3rd hit of [Basic Attack: Blood Oath - Starforge];\nWill not exit the <Term:1000036></Term> state during activation.",
+          "name": "Basic Attack: Bloodbloom Oath - Subduing Axe",
+          "desc": "While in the <Term:1000036></Term> state, after launching [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] and successfully triggering [Maim], press or hold <IconMap:Icon_Normal> to activate:\nUse the Blood Axe to spin and leap into the air, then slam down and slash the target enemy, dealing <color=#2EB6FF>Electric DMG</color>. A Perfect Dodge can be triggered while leaping.\nAfter using this skill, press or hold <IconMap:Icon_Normal> to chain into the 3rd hit of [Basic Attack: Bloodbloom Oath - Starforging].\n[Crimson Inscription] will not end during this skill.",
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Forge - Four Forms",
+          "name": "Basic Attack: Bloodforging Four Forms",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
@@ -529,7 +529,7 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Blossom Oath - Star Forge",
+          "name": "Basic Attack: Bloodbloom Oath - Starforging",
           "param": [
             {
               "name": "1st-Hit DMG Multiplier",
@@ -584,7 +584,7 @@
               "potential": []
             },
             {
-              "name": "3-Hit Combo Slash DMG Multiplier",
+              "name": "3rd Hit Consecutive Slashes DMG Multiplier",
               "desc": "{Skill:1611007, Prop:1001}",
               "param": {
                 "1611007": {
@@ -610,7 +610,7 @@
               "potential": []
             },
             {
-              "name": "3rd Slam DMG Multiplier",
+              "name": "3rd Hit Downward Strike DMG Multiplier",
               "desc": "{Skill:1611029, Prop:1001}",
               "param": {
                 "1611029": {
@@ -688,7 +688,7 @@
               "potential": []
             },
             {
-              "name": "3-Hit Combo Slash Daze Multiplier",
+              "name": "3rd Hit Consecutive Slashes Daze Multiplier",
               "desc": "{Skill:1611007, Prop:1002}",
               "param": {
                 "1611007": {
@@ -714,7 +714,7 @@
               "potential": []
             },
             {
-              "name": "3rd-Stage Plunge Daze Multiplier",
+              "name": "3rd Hit Downward Strikes Daze Multiplier",
               "desc": "{Skill:1611029, Prop:1002}",
               "param": {
                 "1611029": {
@@ -743,7 +743,7 @@
           "potential": []
         },
         {
-          "name": "Basic Attack: Blood Blossom Oath - Crouching Axe",
+          "name": "Basic Attack: Bloodbloom Oath - Subduing Axe",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -854,26 +854,26 @@
       "description": [
         {
           "name": "Dodge: Night Vision",
-          "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge;\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Evade> to activate:\nA quick dash dodge.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Quench",
-          "desc": "Press <IconMap:Icon_Normal> during a dodge while not in the [Crimson Inscription] state to activate:\nPerform a hammer attack forward, dealing <color=#2EB6FF>Electric DMG</color>.",
+          "name": "Dash Attack: Tempering",
+          "desc": "While not in the <Term:1000036></Term> state, press <IconMap:Icon_Normal> during a Dodge to activate:\nPerform a forward hammer strike, dealing <color=#2EB6FF>Electric DMG</color>.",
           "potential": []
         },
         {
           "name": "Dodge Counter: Returning Edge",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUse the hammer shaft to deliver a powerful Counter forward, dealing <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUse the hammer handle to deliver a powerful forward counterattack, dealing <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill",
           "potential": []
         },
         {
-          "name": "Dodge Counter: Blood Blossom Vow - Returning Edge",
-          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUnleashes a powerful Counter with the blood axe against enemies ahead, dealing <color=#2EB6FF>Electric DMG</color>;\nDoes not exit <Term:1000036></Term> state during activation;\nCharacter is invulnerable while using this skill.",
+          "name": "Dodge Counter: Bloodbloom Oath - Returning Edge",
+          "desc": "Press <IconMap:Icon_Normal> during a <color=#FFFFFF>Perfect Dodge</color> to activate:\nUse the Blood Axe to deliver a powerful forward counterattack, dealing <color=#2EB6FF>Electric DMG</color>.\n<Term:1000036></Term> will not end during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Dash Attack: Quench",
+          "name": "Dash Attack: Tempering",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -989,7 +989,7 @@
           "potential": []
         },
         {
-          "name": "Dodge Counter: Blood Blossom Vow - Returning Edge",
+          "name": "Dodge Counter: Bloodbloom Oath - Returning Edge",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1099,27 +1099,27 @@
     "special": {
       "description": [
         {
-          "name": "Special Attack: Dawn's Clarion",
-          "desc": "Press <IconMap:Icon_Special> to activate:\nLaunches a 2-hit hammer attack forward, dealing <color=#2EB6FF>Electric DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
+          "name": "Special Attack: Porcelume's First Call",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nLaunch two bludgeoning attacks forward, dealing <color=#2EB6FF>Electric DMG</color>.\nAnti-Interrupt level is increased while using this skill.",
           "potential": []
         },
         {
-          "name": "EX Special Attack: Blood Blossom Oath - Forging Secret Art",
-          "desc": "When Sharpness is sufficient and not in [Crimson Inscription], press <IconMap:Icon_SpecialReady_Ep> to activate:\nTransforms the forging hammer into a blood axe and Slashes the target enemy, dealing <color=#2EB6FF>Electric DMG</color>;\nAfter using this skill, enters [Crimson Inscription] for 16 seconds. While off field, the duration no longer decreases. When Claret defeats an enemy, extends [Crimson Inscription] duration by 3 seconds, triggerable once every 3 seconds;\nUpon activating this skill, hold <IconMap:Icon_SpecialReady_Ep> to skip the Slash and quickly ALT into [Special Attack: Blood Bloom Oath - Sever Steel] and [Special Attack: Blood Bloom Oath - Bloody Onslaught];\nAfter using this skill, press or hold <IconMap:Icon_Normal> to chain into [Basic Attack: Blood Bloom Oath - Star Forge] Stage 3;\nCharacter is invulnerable while using this skill.",
+          "name": "EX Special Attack: Bloodbloom Oath - Secret Forging Techniques",
+          "desc": "With enough Sharpness, and while Claret is not in the Crimson Inscription state, press <IconMap:Icon_SpecialReady_Ep> to activate:\nTransform the forging hammer into the Blood Axe to slash the target enemy, dealing <color=#2EB6FF>Electric DMG</color>.\nAfter using this skill, Claret enters the Crimson Inscription state for 16s. While off-field, its duration no longer decreases. When Claret defeats an enemy, the duration of Crimson Inscription is extended by 3s. This effect can trigger once every 3s.\nDuring this skill, keep holding <IconMap:Icon_SpecialReady_Ep> to skip the slash and quickly alt into Special Attack: Bloodbloom Oath - Cleaving Gold and Iron and Special Attack: Bloodbloom Oath - Blood Burial Assault.\nAfter using this skill, press or hold <IconMap:Icon_Normal> to chain into the 3rd hit of Basic Attack: Bloodbloom Oath - Starforging.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Blood Blossom Oath - Jin Severance",
-          "desc": "While in [Crimson Inscription], press <IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> to activate:\nPerforms a powerful upward launch followed by a horizontal Slash, dealing <color=#2EB6FF>Electric DMG</color>;\nIf the horizontal Slash hits an enemy with [Gash], inflicts [Maim] on the target, dealing additional AoE <color=#2EB6FF>Electric DMG</color>;\nDoes not exit <Term:1000036></Term> state during activation;\nAnti-Interrupt level is increased during this skill. Character is invulnerable while using this skill after successfully triggering [Maim].",
+          "name": "Special Attack: Bloodbloom Oath - Cleaving Gold and Iron",
+          "desc": "While in the <Term:1000036></Term> state, press <IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> to activate:\nPerform a powerful upward slash forward, then follow up with a horizontal Slash, dealing <color=#2EB6FF>Electric DMG</color>.\nWhen the horizontal Slash hits an enemy suffering [Gash], inflict [Maim] on the target, dealing additional AoE <color=#2EB6FF>Electric DMG</color>.\n[Crimson Inscription] will not end during this skill.\nAnti-Interrupt Level is increased during this skill. After successfully triggering [Maim], Character is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Blood Blossom Oath - Burial Blood Onslaught",
-          "desc": "While in [Crimson Inscription], during the launch of [Special Attack: Blood Blossom Oath · Sever Gold Sunder Iron], hold <IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> to activate:\nUnleashes 3 consecutive horizontal Slashes forward, dealing massive <color=#2EB6FF>Electric DMG</color>;\nEach horizontal Slash that hits an enemy with [Gash] inflicts [Maim] on the target, dealing additional AoE <color=#2EB6FF>Electric DMG</color>. Up to 3 consecutive [Maim] can be triggered within this skill, and the 3rd [Maim] has a higher Interrupt Level;\nWill not exit <Term:1000036></Term> state during activation;\nAnti-Interrupt level is increased during this skill. After successfully triggering [Maim], Character is invulnerable while using this skill.",
+          "name": "Special Attack: Bloodbloom Oath - Blood Burial Assault",
+          "desc": "While in the <Term:1000036></Term> state and the upward slash of Special Attack: Bloodbloom Oath - Cleaving Gold and Iron, keep holding <IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> to activate:\nPerform three consecutive horizontal slashes forward, dealing massive <color=#2EB6FF>Electric DMG</color>;\nEach horizontal slash that hits an enemy holding [Gash] triggers [Maim] on the target, dealing additional AoE <color=#2EB6FF>Electric DMG</color>. Up to 3 consecutive instances of [Maim] can be triggered during this skill, with the 3rd [Maim] having a higher Interrupt Level;\n<Term:1000036></Term> will not end during this skill;\nAnti-Interrupt Level is increased during this skill. After successfully triggering [Maim], Character is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Special Attack: Dawn's Clarion",
+          "name": "Special Attack: Porcelume's First Call",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1177,7 +1177,7 @@
           "potential": []
         },
         {
-          "name": "EX Special Attack: Blood Blossom Oath - Forging Secret Art",
+          "name": "EX Special Attack: Bloodbloom Oath - Secret Forging Techniques",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1240,10 +1240,10 @@
           "potential": []
         },
         {
-          "name": "Special Attack: Blood Blossom Oath - Jin Severance",
+          "name": "Special Attack: Bloodbloom Oath - Cleaving Gold and Iron",
           "param": [
             {
-              "name": "Uppercut DMG Multiplier",
+              "name": "Upward Attack DMG Multiplier",
               "desc": "{Skill:1611011, Prop:1001}",
               "param": {
                 "1611011": {
@@ -1295,7 +1295,7 @@
               "potential": []
             },
             {
-              "name": "Uppercut Daze Multiplier",
+              "name": "Upward Attack Daze Multiplier",
               "desc": "{Skill:1611011, Prop:1002}",
               "param": {
                 "1611011": {
@@ -1376,7 +1376,7 @@
           "potential": []
         },
         {
-          "name": "Special Attack: Blood Blossom Oath - Burial Blood Onslaught",
+          "name": "Special Attack: Bloodbloom Oath - Blood Burial Assault",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1486,17 +1486,17 @@
     "chain": {
       "description": [
         {
-          "name": "Chain Attack: Blood Blossom Oath · Blood Pact Resonance",
-          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nUnleashes consecutive slashes on enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>;\nWhile active, <Term:1000036></Term> duration no longer decreases and will not exit <Term:1000036></Term> state;\nCharacter is invulnerable while using this skill.",
+          "name": "Chain Attack: Bloodbloom Oath - Resonant Blood Pact",
+          "desc": "When a <color=#FFFFFF>Chain Attack</color> is triggered, select the character to activate:\nLaunch a series of slashes against enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>.\n<Term:1000036></Term>'s duration does not decrease, and the state does not end during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Ultimate: Blood Blossom Oath - Tempered Through Fire",
-          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a series of slashes on enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>;\nWhile active, <Term:1000036></Term> duration no longer decreases and will not exit the <Term:1000036></Term> state;\nCharacter is invulnerable while using this skill.",
+          "name": "Ultimate: Bloodbloom Oath - Trial After Trial",
+          "desc": "When Decibel Rating is at <color=#FFFFFF>Maximum</color>, press <IconMap:Icon_UltimateReady> to activate:\nLaunch a series of slashes against enemies ahead, dealing massive <color=#2EB6FF>Electric DMG</color>;\nDuring this skill, <Term:1000036></Term>'s duration does not decrease, and the state does not end;\nUpon activating this skill, restore 15 Sharpness;\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Chain Attack: Blood Blossom Oath · Blood Pact Resonance",
+          "name": "Chain Attack: Bloodbloom Oath - Resonant Blood Pact",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1554,7 +1554,7 @@
           "potential": []
         },
         {
-          "name": "Ultimate: Blood Blossom Oath - Tempered Through Fire",
+          "name": "Ultimate: Bloodbloom Oath - Trial After Trial",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1664,37 +1664,37 @@
     "assist": {
       "description": [
         {
-          "name": "Quick Assist: Calamity Moon Returns",
+          "name": "Quick Assist: Return of the Dire Moon",
           "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDeals <color=#2EB6FF>Electric DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Quick Assist: Blood Rose Oath - Doom Moon Returns",
-          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDeals <color=#2EB6FF>Electric DMG</color>;\nWill not exit <Term:1000036></Term> state during activation;\nCharacter is invulnerable while using this skill.",
+          "name": "Quick Assist Bloodbloom Oath - Return of the Dire Moon",
+          "desc": "When the active character is launched, press <IconMap:Icon_Switch> to activate:\nDeals <color=#2EB6FF>Electric DMG</color>.\n<Term:1000036></Term> will not end during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Defensive Assist: Unyielding Core",
-          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nWhile active, <Term:1000036></Term> duration will not decrease.\nCharacter is invulnerable while using this skill.",
+          "name": "Defensive Assist: Unyielding Heart of the Furnace",
+          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\n<Term:1000036></Term> will not end during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Blood Bloom Oath - Immaculate Molten Edge",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nDeals massive <color=#2EB6FF>Electric DMG</color>;\nDoes not exit <Term:1000036></Term> state during activation;\nCharacter is invulnerable while using this skill.",
+          "name": "Assist Follow-Up: Bloodbloom Oath - Pureforged Edge",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nDeals massive <color=#2EB6FF>Electric DMG</color>.\n<Term:1000036></Term> will not end during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Counter Assist: Not an Inch",
-          "desc": "When you or the on-field Character is about to be hit by a Control Skill attack, press <IconMap:Icon_Switch> to activate:\nEngage in a struggle with the monster. Upon success, neutralize the enemy's Control Skill;\nWhile active, <Term:1000036></Term> duration will no longer decrease;\nCharacter is invulnerable while using this skill.",
+          "name": "Counter Assist: Give Not an Inch of Steel",
+          "desc": "When the character or the on-field character is about to be hit by a Control Skill from certain enemies, press <IconMap:Icon_Switch> to activate:\nEngage the enemy in a power struggle. Win the struggle to neutralize the enemy's Control Skill and deal <color=#2EB6FF>Electric DMG</color>.\n<Term:1000036></Term>'s duration does not decrease during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Blood Blossom Oath - Sculpted Form",
-          "desc": "After activating <color=#FFFFFF>[Counter Assist]</color>, Press <IconMap:Icon_Normal> to activate:\nDealing massive <color=#2EB6FF>Electric DMG</color>, when the heavy attack hits an enemy, directly applies 1 stack of [Gash] to the target;\nWhile active, <Term:1000036></Term> duration no longer decreases;\nCharacter is invulnerable while using this skill.",
+          "name": "Assist Follow-Up: Bloodbloom Oath - Hammer Into Shape",
+          "desc": "After using a <color=#FFFFFF>Counter Assist</color>, press <IconMap:Icon_Normal> to activate:\nDeals massive <color=#2EB6FF>Electric DMG</color>. When the heavy attack hits an enemy, it adds one stack of Gash to the target.\n<Term:1000036></Term>'s duration does not decrease during this skill.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Quick Assist: Calamity Moon Returns",
+          "name": "Quick Assist: Return of the Dire Moon",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1752,7 +1752,7 @@
           "potential": []
         },
         {
-          "name": "Quick Assist: Blood Rose Oath - Doom Moon Returns",
+          "name": "Quick Assist Bloodbloom Oath - Return of the Dire Moon",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1810,7 +1810,7 @@
           "potential": []
         },
         {
-          "name": "Defensive Assist: Unyielding Core",
+          "name": "Defensive Assist: Unyielding Heart of the Furnace",
           "param": [
             {
               "name": "Light Defensive Daze Multiplier",
@@ -1894,7 +1894,7 @@
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Blood Bloom Oath - Immaculate Molten Edge",
+          "name": "Assist Follow-Up: Bloodbloom Oath - Pureforged Edge",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -1952,7 +1952,7 @@
           "potential": []
         },
         {
-          "name": "Counter Assist: Not an Inch",
+          "name": "Counter Assist: Give Not an Inch of Steel",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -2010,7 +2010,7 @@
           "potential": []
         },
         {
-          "name": "Assist Follow-Up: Blood Blossom Oath - Sculpted Form",
+          "name": "Assist Follow-Up: Bloodbloom Oath - Hammer Into Shape",
           "param": [
             {
               "name": "DMG Multiplier",
@@ -2147,56 +2147,56 @@
   ],
   "skill_list": {
     "1611001": {
-      "name": "Basic Attack: Blood Forge - Four Strikes",
+      "name": "Basic Attack: Bloodforging Four Forms",
       "desc": "<IconMap:Icon_Normal>",
       "element_type": 203,
       "hit_type": 102,
       "potential": []
     },
     "1611002": {
-      "name": "Basic Attack: Blood Oath - Star Forge",
-      "desc": "<IconMap:Icon_Normal>(Under [Crimson Inscription])",
+      "name": "Basic Attack: Bloodbloom Oath - Starforging",
+      "desc": "<IconMap:Icon_Normal> (In Crimson Inscription)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611003": {
-      "name": "Basic Attack: Blood Blossom Oath - Crouching Axe",
-      "desc": "<IconMap:Icon_Special> ; <IconMap:Icon_Normal> (Under [Crimson Inscription]) (After successful [Maim])",
+      "name": "Basic Attack: Bloodbloom Oath - Subduing Axe",
+      "desc": "<IconMap:Icon_Special> ; <IconMap:Icon_Normal> (In Crimson Inscription) (After successful Maim)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611004": {
-      "name": "Special Attack: Dawn's Clarion",
+      "name": "Special Attack: Porcelume's First Call",
       "desc": "<IconMap:Icon_Special>",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611005": {
-      "name": "EX Special Attack: Blood Blossom Oath - Secret Blood Forged Edge",
-      "desc": "<IconMap:Icon_SpecialReady_Ep> (When Sharpness is sufficient and not in [Crimson Imprint])",
+      "name": "EX Special Attack: Bloodbloom Oath - Secret Bloodforged Edge",
+      "desc": "<IconMap:Icon_SpecialReady_Ep> (With enough Sharpness while in Crimson Inscription)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611006": {
-      "name": "Special Attack: Blood Blossom Oath - Jin Severance",
-      "desc": "<IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> (under [Crimson Engrave])",
+      "name": "Special Attack: Bloodbloom Oath - Cleaving Gold and Iron",
+      "desc": "<IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> (In Crimson Inscription)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611007": {
-      "name": "Special Attack: Blood Blossom Oath - Burial Blood Onslaught",
-      "desc": "<IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> (under [Crimson Engrave]) (hold)",
+      "name": "Special Attack: Bloodbloom Oath - Blood Burial Assault",
+      "desc": "<IconMap:Icon_Special> or <IconMap:Icon_SpecialReady_Ep> (In Crimson Inscription) (Continue to Hold)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611008": {
-      "name": "Dash Attack: Quench",
+      "name": "Dash Attack: Tempering",
       "desc": "<IconMap:Icon_Evade> ; <IconMap:Icon_Normal>",
       "element_type": 203,
       "hit_type": 102,
@@ -2210,63 +2210,63 @@
       "potential": []
     },
     "1611010": {
-      "name": "Dodge Counter: Blood Blossom Oath - Returning Edge (Under [Crimson Imprint])",
+      "name": "Dodge Counter: Bloodbloom Oath - Returning Edge (In Crimson Inscription)",
       "desc": "<IconMap:Icon_Evade> (Perfect) ; <IconMap:Icon_Normal>",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611011": {
-      "name": "Chain Attack: Blood Blossom Oath · Blood Pact Resonance",
+      "name": "Chain Attack: Bloodbloom Oath - Resonant Blood Pact",
       "desc": "<IconMap:Icon_QTE>",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611012": {
-      "name": "Ultimate: Blood Blossom Oath - Forged in Fire",
+      "name": "Ultimate: Bloodbloom Oath - Trial After Trial",
       "desc": "<IconMap:Icon_UltimateReady>",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611013": {
-      "name": "Quick Assist: Doom Moon Returns",
+      "name": "Quick Assist: Return of the Dire Moon",
       "desc": "<IconMap:Icon_Switch> (When Triggering Quick Assist)",
       "element_type": 203,
       "hit_type": 102,
       "potential": []
     },
     "1611014": {
-      "name": "Quick Assist: Blood Rose Oath - Ominous Moon Returns",
-      "desc": "<IconMap:Icon_Switch> (Under [Crimson Inscription]) (When triggering Quick Assist)",
+      "name": "Quick Assist Bloodbloom Oath - Return of the Dire Moon",
+      "desc": "<IconMap:Icon_Switch> (In Crimson Inscription) (When Triggering Quick Assist)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611015": {
-      "name": "Defensive Assist: Unyielding Core",
+      "name": "Defensive Assist: Unyielding Heart of the Furnace",
       "desc": "<IconMap:Icon_Switch> (When Triggering Defensive Assist)",
       "element_type": 0,
       "hit_type": 0,
       "potential": []
     },
     "1611016": {
-      "name": "Counter Assist: Not an Inch",
+      "name": "Counter Assist: Give Not an Inch of Steel",
       "desc": "<IconMap:Icon_Switch> (When Triggering Counter Assist)",
       "element_type": 0,
       "hit_type": 0,
       "potential": []
     },
     "1611017": {
-      "name": "Assist Follow-Up: Blood Blossom Oath - Immaculate Molten Edge",
+      "name": "Assist Follow-Up: Bloodbloom Oath - Pureforged Edge",
       "desc": "<IconMap:Icon_Normal> (After Defensive Assist)",
       "element_type": 203,
       "hit_type": 101,
       "potential": []
     },
     "1611018": {
-      "name": "Assist Follow-Up: Blood Oath · Sculpted Form",
+      "name": "Assist Follow-Up: Bloodbloom Oath - Hammer Into Shape",
       "desc": "<IconMap:Icon_Normal> (After Counter Assist)",
       "element_type": 203,
       "hit_type": 101,
@@ -2279,12 +2279,12 @@
         "level": 1,
         "id": 1611501,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier. Sharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Oath - Bloodburst Onslaught] hits an enemy in the [Gash] state, one stack of [Gash] is consumed, triggering [Maim] and dealing AoE DMG;\nWhen a critical hit is triggered, Sharp DMG does not benefit from CRIT DMG Bonus and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate is increased by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180s;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates a [Chain Attack], the duration of [Crimson Engravings] is extended by 2s;\nWhile Claret is in [Crimson Engravings], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], CRIT Rate is increased by <color=#2BAD00>15%</color>, Gash Buildup Rate is increased by <color=#2BAD00>20%</color>, and when a Perfect Dodge is triggered during [Basic Attack: Blood Oath - Star Forge] or [Basic Attack: Blood Oath - Crouching Halberd] skill attacks, DMG dealt for the remainder of the skill is increased by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>15%</color> and Gash Buildup Rate increases by <color=#2BAD00>20%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2293,12 +2293,12 @@
         "level": 2,
         "id": 1611502,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier. Sharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Oath - Burial Blood Onslaught] hits an enemy in the [Gash] state, it will consume one stack of [Gash], triggering [Maim] and dealing one instance of AoE DMG;\nWhen a critical hit is triggered, Sharp DMG does not benefit from CRIT DMG Bonus, and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration judgment is performed based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate increases by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates a [Chain Attack], the duration of [Crimson Inscription] is extended by 2 seconds;\nWhile Claret is in [Crimson Inscription], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousand Tempered], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], CRIT Rate increases by <color=#2BAD00>17.5%</color>, Gash Buildup Rate increases by <color=#2BAD00>25%</color>, and when Perfect Dodge is triggered during [Basic Attack: Blood Oath - Star Forge] or [Basic Attack: Blood Oath - Ambush Cleave] skill attacks, DMG dealt for the remaining duration of the skill is increased by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>17.5%</color> and Gash Buildup Rate increases by <color=#2BAD00>25%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2307,12 +2307,12 @@
         "level": 3,
         "id": 1611503,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier. Sharp DMG accumulates Gash value. When the Gash value is full, enemies enter [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Bloom Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Bloom Oath - Burial Blood Onslaught] hits an enemy in [Gash] state, one stack of [Gash] is consumed, triggering [Maim] and dealing one instance of AoE DMG;\nWhen a critical hit is triggered, Sharp DMG does not receive CRIT DMG Bonus and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration judgment is performed based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate increases by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180 seconds;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates [Chain Attack], the duration of [Crimson Inscription] is extended by 2 seconds;\nWhile Claret is in [Crimson Inscription], or during [Chain Attack: Blood Bloom Oath - Blood Pact Resonance], [Ultimate: Blood Bloom Oath - Thousand Forges Hundred Tempers], or [Assist Follow-Up: Blood Bloom Oath - Immaculate Molten Edge], CRIT Rate increases by <color=#2BAD00>20%</color>, Gash Buildup Rate increases by <color=#2BAD00>30%</color>, and when Perfect Dodge is triggered during [Basic Attack: Blood Bloom Oath - Forge Star] or [Basic Attack: Blood Bloom Oath - Ambush Axe] skill attacks, DMG dealt for the remaining duration of the skill increases by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>20%</color> and Gash Buildup Rate increases by <color=#2BAD00>30%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2321,12 +2321,12 @@
         "level": 4,
         "id": 1611504,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier. Sharp DMG accumulates Gash value. When Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it will consume one stack of [Gash], trigger [Maim], and deal one instance of AoE DMG;\nWhen triggering a critical hit, Sharp DMG does not benefit from CRIT DMG Bonus, and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration judgment will be made based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate increases by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180s;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates a [Chain Attack], the duration of [Crimson Engrave] is extended by 2s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousand Tempered], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], CRIT Rate increases by <color=#2BAD00>22.5%</color>, Gash Buildup Rate increases by <color=#2BAD00>35%</color>, and when Perfect Dodge is triggered during [Basic Attack: Blood Oath - Star Forge] or [Basic Attack: Blood Oath - Ambush Cleave] skill attacks, DMG dealt for the remainder of the skill increases by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>22.5%</color> and Gash Buildup Rate increases by <color=#2BAD00>35%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2335,12 +2335,12 @@
         "level": 5,
         "id": 1611505,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the skill DMG Multiplier. Sharp DMG accumulates Gash value. When the Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Bloom Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Bloom Oath - Burial Blood Onslaught] hits an enemy in the [Gash] state, it will consume one stack of [Gash], triggering [Maim] and dealing one instance of AoE DMG;\nWhen triggering a critical hit, Sharp DMG does not benefit from CRIT DMG Bonus and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration check will be performed based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate is increased by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180s;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates a [Chain Attack], the duration of [Crimson Engrave] is extended by 2s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Bloom Oath - Blood Pact Resonance], [Ultimate: Blood Bloom Oath - Tempered Thousand-Fold], or [Assist Follow-Up: Blood Bloom Oath - Immaculate Molten Edge], CRIT Rate is increased by <color=#2BAD00>25%</color>, Gash Buildup Rate is increased by <color=#2BAD00>40%</color>, and when Perfect Dodge is triggered during [Basic Attack: Blood Bloom Oath - Star Forge] or [Basic Attack: Blood Bloom Oath - Ambush Halberd] skill attacks, DMG dealt for the remainder of the skill is increased by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>25%</color> and Gash Buildup Rate increases by <color=#2BAD00>40%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2349,12 +2349,12 @@
         "level": 6,
         "id": 1611506,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier. Sharp DMG accumulates Gash value. When Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it will consume one stack of [Gash], trigger [Maim], and deal one instance of AoE DMG;\nWhen triggering a critical hit, Sharp DMG does not benefit from CRIT DMG Bonus, and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration judgment will be made based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate increases by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180s;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates a [Chain Attack], the duration of [Crimson Engrave] is extended by 2s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousand Tempered], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], CRIT Rate increases by <color=#2BAD00>27.5%</color>, Gash Buildup Rate increases by <color=#2BAD00>45%</color>, and when Perfect Dodge is triggered during [Basic Attack: Blood Oath - Star Forge] or [Basic Attack: Blood Oath - Ambush Cleave] skill attacks, DMG dealt for the remainder of the skill increases by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>27.5%</color> and Gash Buildup Rate increases by <color=#2BAD00>45%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2363,12 +2363,12 @@
         "level": 7,
         "id": 1611507,
         "name": [
-          "Core Passive: Pale Blood Feast",
+          "Core Passive: Banquet of Pale Blood",
           "Additional Ability: Bloodline Legacy"
         ],
         "desc": [
-          "All DMG dealt by Claret's skills is Sharp DMG, which uses DEF as the DMG Multiplier. Sharp DMG accumulates Gash value. When Gash value is full, the enemy enters [Gash]. [Gash] can stack up to 3 times. When [Special Attack: Blood Oath - Sever Gold Sunder Iron] or [Special Attack: Blood Oath - Crimson Onslaught] hits an enemy in the [Gash] state, it will consume one stack of [Gash], trigger [Maim], and deal one instance of AoE DMG;\nWhen triggering a critical hit, Sharp DMG does not benefit from CRIT DMG Bonus, and instead calculates Laceration DMG Bonus. If CRIT Rate exceeds 100% and a CRIT has already been triggered, an additional Laceration judgment will be made based on the excess CRIT Rate. If Laceration is triggered, an additional Laceration DMG Bonus is calculated. For every 1% of initial CRIT DMG Claret possesses, her initial CRIT Rate increases by 0.35%;\nWhen Claret enters the battlefield, she recovers 60 Sharpness. In Investigation Zone mode, this effect can trigger once every 180s;\nWhile Claret is in <Term:1000036></Term>, her Anti-Interrupt Level is increased. When Claret activates a [Chain Attack], the duration of [Crimson Engrave] is extended by 2s;\nWhile Claret is in [Crimson Engrave], or during [Chain Attack: Blood Oath - Blood Pact Resonance], [Ultimate: Blood Oath - Thousand Tempered], or [Assist Follow-Up: Blood Oath - Pristine Molten Edge], CRIT Rate increases by <color=#2BAD00>30%</color>, Gash Buildup Rate increases by <color=#2BAD00>50%</color>, and when Perfect Dodge is triggered during [Basic Attack: Blood Oath - Star Forge] or [Basic Attack: Blood Oath - Ambush Cleave] skill attacks, DMG dealt for the remainder of the skill increases by 15%.",
-          "When another character in your squad is a <color=#FFFFFF>[Stun]</color> Character, another <color=#FFFFFF>[Armorer]</color>, or a Character with the same attribute, the following effects are triggered:\nWhen any Agent in the whole squad triggers [Contamination], Claret recovers 300 Decibels. This can be triggered at most once every 20s;\nWhen Claret or a teammate triggers [Maim], all [Armorer] Agents in the squad enter [Remnant Edge]. While in the [Remnant Edge] state, Laceration DMG increases by <color=#FFFFFF>25%</color> for 40s. Re-entering [Remnant Edge] refreshes its duration."
+          "All DMG dealt by Claret's skills is Sharp DMG, and skill DMG Multipliers are based on DEF. Sharp DMG builds up Gash. When Gash buildup is full, the enemy suffers Gash, which can stack up to 3 times. When [Special Attack: Bloodbloom Oath - Cleaving Gold and Iron] or [Special Attack: Bloodbloom Oath - Blood Burial Assault] hits an enemy suffering [Gash], 1 stack of [Gash] is consumed to trigger [Maim] and deal AoE DMG.\nWhen a critical hit is triggered, Sharp DMG doesn't receive the CRIT DMG Bonus and instead uses the Laceration DMG Bonus. If CRIT Rate exceeds 100% and a critical hit has already been triggered, an additional Laceration check is performed based on the excess CRIT Rate. If Laceration is triggered, the Laceration DMG Bonus is applied an additional time. For every 1% of Claret's initial CRIT DMG, her initial CRIT Rate increases by 0.35%.\nWhen Claret enters the battlefield, she gains 60 Sharpness. In Investigation Zone Mode, this effect can trigger once every 180s.\nWhile Claret is in <Term:1000036></Term> state, her Anti-Interrupt Level is increased. When Claret uses a [Chain Attack], the duration of [Crimson Inscription] is extended by 2s.\nWhile Claret is in [Crimson Inscription], or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], CRIT Rate increases by <color=#2BAD00>30%</color> and Gash Buildup Rate increases by <color=#2BAD00>50%</color>. Triggering a Perfect Dodge during [Basic Attack: Bloodbloom Oath - Starforging] or [Basic Attack: Bloodbloom Oath - Subduing Axe] increases DMG dealt for the remainder of the skill by 15%.",
+          "When another character in your squad is a <color=#FFFFFF>Stun</color> or <color=#FFFFFF>Armorer</color> character, or shares the same attribute:\nWhen any Agent in the squad triggers Contamination, Claret gains 300 Decibels. This effect can trigger once every 18s.\nWhen Claret or another squad member triggers Maim, all Armorer Agents in the squad enter Remnant Edge. While in the Remnant Edge state, Laceration DMG is increased by <color=#FFFFFF>25%</color>, lasting 40s. Triggering Remnant Edge again refreshes its duration."
         ],
         "extra_property": {},
         "potential": []
@@ -2407,13 +2407,13 @@
     "1": {
       "level": 1,
       "name": "...",
-      "desc": "[Crimson Inscription] max duration is extended by 3s; when Claret is in [Crimson Inscription], or during [Chain Attack: Blood Pact Oath - Blood Pact Resonance], [Ultimate: Blood Pact Oath - Tempered Thousandfold], or [Assist Follow-Up: Blood Pact Oath - Pristine Molten Edge], attacks that hit ignore 16% of the target's <color=#2EB6FF>Electric RES</color>.",
+      "desc": "When Claret's attacks hit enemies and trigger Laceration, Gash Buildup Rate increases by 20%. The DMG Multiplier of Maim triggered by Claret increases to 130% of its original value.",
       "desc2": "..."
     },
     "2": {
       "level": 2,
       "name": "...",
-      "desc": "When Claret's attack hits an enemy and triggers a Sharp Crit, Gash Buildup Rate increases by 20%; the DMG Multiplier of DMG dealt when Claret triggers [Maim] increases to 130% of its original value.",
+      "desc": "The maximum duration of [Crimson Inscription] is extended by 2s. While Claret is in the [Crimson Inscription] state, or while using a [Chain Attack], [Ultimate], [Counter Assist], or [Assist Follow-Up], attacks ignore 18% of the target's <color=#2EB6FF>Electric RES</color>.",
       "desc2": "..."
     },
     "3": {
@@ -2425,7 +2425,7 @@
     "4": {
       "level": 4,
       "name": "...",
-      "desc": "During the 3rd hit of [Basic Attack: Blood Oath - Star Forge], the duration of consecutive Slashes can be extended; DMG dealt by the 3rd hit of [Basic Attack: Blood Oath - Star Forge], [Chain Attack: Blood Oath - Blood Pact Resonance], and [Ultimate: Blood Oath - Tempered Resolve] increases by 20%.",
+      "desc": "During the 3rd hit of Basic Attack: Bloodbloom Oath - Starforging, the time by which the consecutive slashes can be extended is increased. DMG dealt by the 3rd hit of Basic Attack: Bloodbloom Oath - Starforging, Chain Attack: Bloodbloom Oath - Resonant Blood Pact, and Ultimate: Bloodbloom Oath - Trial After Trial increases by 20%.",
       "desc2": "..."
     },
     "5": {
@@ -2437,14 +2437,14 @@
     "6": {
       "level": 6,
       "name": "...",
-      "desc": "When Claret's [Chain Attack: Blood Oath·Resonance] or [Ultimate: Blood Oath·Tempered Resolve] heavy attack hits an enemy, triggers 1 instance of single-target [Maim] without consuming [Gash].",
+      "desc": "When the heavy attacks of Chain Attack: Bloodbloom Oath - Resonant Blood Pact and Ultimate: Bloodbloom Oath - Trial After Trial hit an enemy, Claret directly triggers 1 instance of single-target Maim without consuming Gash.",
       "desc2": "..."
     }
   },
   "fairy_recommend": {
     "slot4": 34200,
     "slot2": 31000,
-    "slot_sub": 32700,
+    "slot_sub": 31100,
     "part_sub_list": [
       20103,
       13102,
@@ -2457,8 +2457,7 @@
           31000
         ],
         "part_sub_list": [
-          20103,
-          13102
+          20103
         ]
       },
       {
@@ -2468,15 +2467,13 @@
         ],
         "part_sub_list": [
           23103,
-          31803,
-          13102
+          31803
         ]
       },
       {
         "suit_list": [],
         "part_sub_list": [
-          13102,
-          30502
+          13102
         ]
       }
     ],

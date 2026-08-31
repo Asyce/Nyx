@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "1cca3f2afb9058a124f48f4030b827a4767d2b23829cb586425e15632582c846",
-  "generatedAt": "2026-08-31T09:42:15.528Z",
+  "revision": "ab6d49dc066f3b306b25f820b4fa270006c3ac40718f0938086c0584e0487ec7",
+  "generatedAt": "2026-08-31T11:10:28.993Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 87463
+          "durationSeconds": 82170
         },
         "characters": [
           {
@@ -464,7 +464,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 1016204
+          "durationSeconds": 1010911
         },
         "characters": [
           {
@@ -885,7 +885,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 681463
+          "durationSeconds": 676170
         },
         "characters": [
           {
@@ -1373,7 +1373,154 @@
           }
         ]
       },
-      "upcoming": [],
+      "upcoming": [
+        {
+          "phase": "3.2 Phase 1",
+          "start": "2026-09-09T03:00:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
+          "characters": [
+            {
+              "id": "claret",
+              "name": "Claret",
+              "rarity": 5,
+              "limited": true,
+              "debut": null,
+              "icon": {
+                "id": "claret-icon",
+                "source": "character-icon",
+                "path": "/launcher-art/be06d1fb885eaf22625561aaca642edf04ee5575de9fbcd0c05d4e8aba1ece88.webp",
+                "url": "https://pengo.gg/dist/launcher-art/be06d1fb885eaf22625561aaca642edf04ee5575de9fbcd0c05d4e8aba1ece88.webp",
+                "mime": "image/webp",
+                "size": 69456,
+                "dimensions": {
+                  "width": 374,
+                  "height": 512
+                },
+                "sha256": "be06d1fb885eaf22625561aaca642edf04ee5575de9fbcd0c05d4e8aba1ece88",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 374,
+                  "bottom": 512
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "cover",
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "variants": []
+            },
+            {
+              "id": "1511",
+              "name": "Nangong Yu",
+              "rarity": 5,
+              "limited": true,
+              "debut": "2026-03-24T03:00:00.000Z",
+              "icon": {
+                "id": "1511-icon",
+                "source": "character-icon",
+                "path": "/launcher-art/9b1d46adbe0c74a35c73ca77cd851ab34185d170384ebc139e9e3db9f39d0dfd.webp",
+                "url": "https://pengo.gg/dist/launcher-art/9b1d46adbe0c74a35c73ca77cd851ab34185d170384ebc139e9e3db9f39d0dfd.webp",
+                "mime": "image/webp",
+                "size": 7182,
+                "dimensions": {
+                  "width": 142,
+                  "height": 142
+                },
+                "sha256": "9b1d46adbe0c74a35c73ca77cd851ab34185d170384ebc139e9e3db9f39d0dfd",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 142,
+                  "bottom": 142
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "cover",
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "variants": []
+            }
+          ]
+        },
+        {
+          "phase": "3.2 Phase 2",
+          "start": "2026-09-30T04:00:00.000Z",
+          "end": "2026-10-20T06:59:59.000Z",
+          "characters": [
+            {
+              "id": "1621",
+              "name": "Roxy",
+              "rarity": 5,
+              "limited": true,
+              "debut": null,
+              "icon": {
+                "id": "1621-icon",
+                "source": "character-icon",
+                "path": "/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
+                "url": "https://pengo.gg/dist/launcher-art/16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b.webp",
+                "mime": "image/webp",
+                "size": 8596,
+                "dimensions": {
+                  "width": 142,
+                  "height": 142
+                },
+                "sha256": "16e3038786bd9f094cc2bc7ea2b1eefdb71b4255b316203bda9c2d138a2e773b",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 142,
+                  "bottom": 142
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "cover",
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "variants": []
+            },
+            {
+              "id": "1541",
+              "name": "Promeia",
+              "rarity": 5,
+              "limited": true,
+              "debut": "2026-05-06T03:00:00.000Z",
+              "icon": {
+                "id": "1541-icon",
+                "source": "character-icon",
+                "path": "/launcher-art/d96fc359ea078c2e8a667077c81a0bd239cf3754ae2d249fd52bb83d4484180a.webp",
+                "url": "https://pengo.gg/dist/launcher-art/d96fc359ea078c2e8a667077c81a0bd239cf3754ae2d249fd52bb83d4484180a.webp",
+                "mime": "image/webp",
+                "size": 7836,
+                "dimensions": {
+                  "width": 142,
+                  "height": 142
+                },
+                "sha256": "d96fc359ea078c2e8a667077c81a0bd239cf3754ae2d249fd52bb83d4484180a",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 142,
+                  "bottom": 142
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "cover",
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "variants": []
+            }
+          ]
+        }
+      ],
       "news": [
         {
           "id": "zzz-hoyo-ann-cdbbef7499fd",
@@ -1472,7 +1619,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 861404
+          "durationSeconds": 856111
         },
         "characters": [
           {
@@ -1788,7 +1935,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 130663
+          "durationSeconds": 125370
         },
         "characters": [
           {

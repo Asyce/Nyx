@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T02:13:08.397Z",
+  "generatedAt": "2026-08-31T11:09:01.853Z",
   "games": {
     "gi": {
       "count": 297,
@@ -591,15 +591,15 @@
       "contentHash": "cc699535be742e0ff24ee74d3dbbe03da3302d99d0cf9ab564e12d6e0969abf8"
     },
     "zzz": {
-      "count": 132,
-      "character": 66,
-      "weapon": 65,
+      "count": 140,
+      "character": 70,
+      "weapon": 69,
       "mixed": 1,
       "permanent": 2,
       "confirmed": 132,
       "dateRange": {
         "start": "2024-07-04T02:00:00.000Z",
-        "end": "2026-09-08T19:59:59.000Z"
+        "end": "2026-10-20T06:59:59.000Z"
       },
       "revisions": [
         "maintained-wiki:101610",
@@ -697,17 +697,25 @@
         "maintained-wiki:174568",
         "maintained-wiki:176621",
         "maintained-wiki:176985",
-        "maintained-wiki:176986",
         "maintained-wiki:177256",
         "maintained-wiki:177257",
-        "maintained-wiki:177263",
         "maintained-wiki:177288",
         "maintained-wiki:177289",
         "maintained-wiki:179098",
-        "maintained-wiki:179202",
-        "maintained-wiki:179203",
-        "maintained-wiki:179204",
-        "maintained-wiki:179205",
+        "maintained-wiki:180544",
+        "maintained-wiki:180545",
+        "maintained-wiki:180546",
+        "maintained-wiki:180547",
+        "maintained-wiki:180548",
+        "maintained-wiki:180549",
+        "maintained-wiki:180697",
+        "maintained-wiki:180699",
+        "maintained-wiki:180700",
+        "maintained-wiki:180705",
+        "maintained-wiki:180706",
+        "maintained-wiki:180710",
+        "maintained-wiki:180713",
+        "maintained-wiki:180720",
         "maintained-wiki:71004",
         "maintained-wiki:74195",
         "maintained-wiki:74245",
@@ -752,7 +760,7 @@
         "official-latest:46015688",
         "official-latest:46329735"
       ],
-      "contentHash": "e6ba3b3620b795af4b95b3e191b3fa7a51919f3a78ec7d7e714c594af4768113"
+      "contentHash": "29230e681c872c7f788304ac6524b2f3f32da4b7d13b5df5fa9e9ddb0bfb354a"
     },
     "wuwa": {
       "count": 182,

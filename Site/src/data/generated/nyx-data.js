@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-31T09:42:13.788Z",
+  "generatedAt": "2026-08-31T11:10:27.186Z",
   "codes": {
     "updated": "2026-08-31T09:41:16.758Z",
     "maxAgeDays": 28,
@@ -1204,32 +1204,31 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "Patch 3.2 Phase 1",
-          "teased": false,
+          "phase": "3.2 Phase 1",
           "start": "2026-09-09T03:00:00.000Z",
-          "end": "2026-09-30T06:59:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
           "characters": [
-            {
-              "name": "Claret",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": true,
-              "debutAt": null
-            },
             {
               "name": "Nangong Yu",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
-              "iconZoom": true,
+              "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-03-24"
+            },
+            {
+              "name": "Claret",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": "2026-09-09"
             }
           ],
           "subBanners": []
@@ -1260,7 +1259,7 @@ var NYX_DB = {
                 "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole61.webp",
                 "namecard": null,
                 "rarity": "S",
-                "debut": true,
+                "debut": false,
                 "debutAt": "2026-05-06"
               }
             ],
@@ -179529,32 +179528,31 @@ var NYX_DB = {
           "subBanners": []
         },
         "next": {
-          "phase": "Patch 3.2 Phase 1",
-          "teased": false,
+          "phase": "3.2 Phase 1",
           "start": "2026-09-09T03:00:00.000Z",
-          "end": "2026-09-30T06:59:00.000Z",
+          "end": "2026-09-30T03:59:59.000Z",
           "characters": [
-            {
-              "name": "Claret",
-              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
-              "iconZoom": true,
-              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
-              "namecard": null,
-              "rarity": 4,
-              "debut": true,
-              "debutAt": null
-            },
             {
               "name": "Nangong Yu",
               "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle59.webp",
               "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect59.webp",
-              "iconZoom": true,
+              "iconZoom": false,
               "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole59.webp",
               "namecard": null,
               "rarity": "S",
-              "debut": true,
+              "debut": false,
               "debutAt": "2026-03-24"
+            },
+            {
+              "name": "Claret",
+              "icon": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "iconFallback": "https://static.nanoka.cc/assets/zzz/IconRoleSelect1611.webp",
+              "iconZoom": false,
+              "art": "../../Database/Prydwen/zzz/assets/characters/claret-17fa415ab21f.webp",
+              "namecard": null,
+              "rarity": "S",
+              "debut": true,
+              "debutAt": "2026-09-09"
             }
           ],
           "subBanners": []
@@ -179585,7 +179583,7 @@ var NYX_DB = {
                 "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole61.webp",
                 "namecard": null,
                 "rarity": "S",
-                "debut": true,
+                "debut": false,
                 "debutAt": "2026-05-06"
               }
             ],

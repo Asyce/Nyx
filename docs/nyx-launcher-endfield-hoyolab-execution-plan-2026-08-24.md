@@ -392,13 +392,13 @@ This lane may execute after Release A while STOP 7 waits for manual Endfield UI 
 3. Reuse the existing exact per-game runtime-process evidence and the existing shared session refresh. Count only a runtime process belonging to a launch request accepted by Nyx. A process started outside Nyx is never added, even if Nyx later observes it.
 4. Track every official and custom game independently so different games may accrue time concurrently. Continue preventing more than one launch of the same game. For a custom game without a separate runtime path, its selected executable is the runtime; with a runtime path, the selected executable is only the bootstrap.
 5. Persist only one nonnegative saturating whole-second total per valid game. Keep the active boundary in memory, retry a failed save without losing the newest total, and finalize only through confirmed process evidence. Do not persist session history, starts, statistics, incomplete counters, or the rejected unpublished v6 Endfield state.
-6. Add one small always-visible outlined line immediately above the selected game's energy/resource bar: `Play Time: 0m`, `Play Time: 42m`, or `Play Time: 12h 34m`. Update it through the existing refresh path. If saving is pending, say so without exposing internal errors.
+6. Add one small always-visible outlined line in the utility cell below Screenshots: `Play Time: 0m`, `Play Time: 42m`, or `Play Time: 12h 34m`. Give it the same translucent backdrop and border as the energy/resource panel. Update it through the existing refresh path. If saving is pending, say so without exposing internal errors.
 7. The tooltip and accessible description must state that this is playtime on this PC counted only after Nyx launched the game while Nyx remained open; earlier sessions, launches outside Nyx, other PCs, consoles, and mobile are excluded.
 8. Prove official and custom games, external-launch exclusion, simultaneous different-game isolation, same-game launch prevention, runtime-versus-bootstrap handling, uncertainty/removal/shutdown boundaries, persistence retries and saturation, v5/v6-to-v7 zero-total migration, exact formatting/disclosure, and complete absence of Endfield log/history/statistics controls.
 
 ### Release C
 
-- Deploy achievement support only if STOP 10 passed. Package shared local Play Time without changing Site/R2 data. In the same launcher-only release, keep banner names on one line without clipping, place characters beside each other without fixed-width gaps, move Official Tools below Official Launcher/Screenshots, outline the title-bar controls, and lower only the game rail icons to reduce Nyx-logo misclicks. Then run launcher security, five-game, custom-game, concurrent-session, version, package, persistence, and layout verification.
+- Deploy achievement support only if STOP 10 passed. Package shared local Play Time without changing Site/R2 data. In the same launcher-only release, keep banner names on one line without clipping, place characters beside each other without fixed-width gaps, place the same-sized Official Tools button directly below Official Launcher, place Play Time below Screenshots with the energy panel's translucent backdrop and border, outline the title-bar controls, and lower only the game rail icons to reduce Nyx-logo misclicks. Then run launcher security, five-game, custom-game, concurrent-session, version, package, persistence, and layout verification.
 - With Nyx initially closed, launch and close one short game through Nyx, require one plausible increase and restart persistence. Then run two different games concurrently and require each total to increase independently. Starting a game outside Nyx must not increase its total. Endfield uses this same path; historical lifetime playtime is deliberately unavailable.
 
 ## Locked HoYo privacy and sync contracts
@@ -425,7 +425,7 @@ Start only after Release C is published and marked complete.
 
 ## Phase 14 - Local HSR multi-role bundles
 
-1. Reuse one isolated HoYo WebView profile, exact allowlists, per-capability consent, one operation gate, cancellation generation, and stale-result rejection.
+1. Reuse one isolated HoYo WebView profile, exact allowlists, per-capability consent, one operation gate, cancellation generation, and stale-result rejection. HSR Connect must open the exact official Account Log In form directly; do not depend on a scripted avatar click or other page-DOM automation.
 2. Disable downloads, popups, permissions, autofill, and password saving. Credentials/CAPTCHA stay user-controlled; cookies stay in the profile.
 3. Store up to eight roles per game in one Windows-protected v2 file; never put UID in a filename.
 4. Keep separate observations for resources, inventory, builds, achievements, exploration, endgame, events, and currency. Missing means not refreshed; deletion requires a timestamped tombstone.
@@ -452,7 +452,7 @@ Deployment recovery note (verified 2026-08-31): Cloudflare blocks old-version ro
 
 ### STOP 15
 
-- Items 1-9 and the applicable resource/achievement cards, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo. Unsupported inventory/build/calculator/record surfaces remain unrendered, and automatic sync remains off.
+- Items 1-9 and the applicable resource/achievement cards, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo. Native HSR Connect opens the official Account Log In form directly, credentials/CAPTCHA remain user-controlled, and the publisher window uses only the normal Windows caption controls. Unsupported inventory/build/calculator/record surfaces remain unrendered, and automatic sync remains off.
 
 ## Phase 16 - Genshin account capabilities
 

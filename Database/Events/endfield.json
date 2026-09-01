@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "game": "endfield",
-  "generatedAt": "2026-08-31T09:41:16.818Z",
+  "generatedAt": "2026-09-01T08:36:52.166Z",
   "source": {
     "name": "Arknights: Endfield Official",
     "endpoint": "web-news.gryphline.com /api/bulletin"
   },
   "counts": {
-    "total": 30,
-    "needs_review": 23,
-    "banner": 21,
+    "total": 32,
+    "needs_review": 25,
+    "banner": 23,
     "byType": {
-      "banner": 21,
+      "banner": 23,
       "event": 7,
       "login": 2
     }
@@ -31,7 +31,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1321",
         "kind": "official-bulletin-api",
         "recordId": "1321",
-        "fetchedAt": "2026-08-31T09:41:52.564Z",
+        "fetchedAt": "2026-09-01T08:37:33.328Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -62,7 +62,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6175",
         "kind": "official-bulletin-api",
         "recordId": "6175",
-        "fetchedAt": "2026-08-31T09:41:52.815Z",
+        "fetchedAt": "2026-09-01T08:37:33.528Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -93,7 +93,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0759",
         "kind": "official-bulletin-api",
         "recordId": "0759",
-        "fetchedAt": "2026-08-31T09:41:54.056Z",
+        "fetchedAt": "2026-09-01T08:37:35.006Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -124,7 +124,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9579",
         "kind": "official-bulletin-api",
         "recordId": "9579",
-        "fetchedAt": "2026-08-31T09:41:56.037Z",
+        "fetchedAt": "2026-09-01T08:37:36.220Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -155,7 +155,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2669",
         "kind": "official-bulletin-api",
         "recordId": "2669",
-        "fetchedAt": "2026-08-31T09:41:55.050Z",
+        "fetchedAt": "2026-09-01T08:37:35.411Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -186,7 +186,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5210",
         "kind": "official-bulletin-api",
         "recordId": "5210",
-        "fetchedAt": "2026-08-31T09:41:54.805Z",
+        "fetchedAt": "2026-09-01T08:37:35.209Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -217,7 +217,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7024",
         "kind": "official-bulletin-api",
         "recordId": "7024",
-        "fetchedAt": "2026-08-31T09:41:55.300Z",
+        "fetchedAt": "2026-09-01T08:37:35.615Z",
         "priority": 1
       },
       "confidence": "medium",
@@ -248,7 +248,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2677",
         "kind": "official-bulletin-api",
         "recordId": "2677",
-        "fetchedAt": "2026-08-31T09:41:59.763Z",
+        "fetchedAt": "2026-09-01T08:37:39.366Z",
         "priority": 1
       },
       "confidence": "low",
@@ -272,7 +272,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2656",
         "kind": "official-bulletin-api",
         "recordId": "2656",
-        "fetchedAt": "2026-08-31T09:41:51.822Z",
+        "fetchedAt": "2026-09-01T08:37:32.721Z",
         "priority": 1
       },
       "confidence": "low",
@@ -281,6 +281,30 @@
       "needs_review": true,
       "image": null,
       "description": "Dear Endministrator,\nDuring [North Yearns the Rift Vigile] Chartered Headhunting, the 6★ operator [Arcane] is Rate-UP!\nThe [Gaze North to the Rift] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Gaze North to the Rift HH Permit]×5. You can also exchange for [Gaze North to the Rift HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [North Yearns the Rift Vigile] Chartered Headhunting Details\n· Availability: After [Homecoming] version release – Aug. 9, 2026 at 11:59 (server time)\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [North Yearns the Rift Vigile] Chartered Headhunting features the Rate-UP 6★ operator [Arcane].\n· 6★ operators that may appear in [North Yearns the Rift Vigile] Chartered Headhunting include: Arcane / Camille / Mi Fu / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [North Yearns the Rift Vigile] Chartered Headhunting, you can use [Gaze North to the Rift HH Permit], [Chartered HH Permit] or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [North Yearns the Rift Vigile] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n〓Urgent Recruitment〓\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n〓Headhunting Dossier〓\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to Special HH Permit×10 of the said [Chartered Headhunting] banner. However, the HH Permits will also expire once the said banner ends.\n〓Token Tribute〓\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [North Yearns the Rift Vigile] Chartered Headhunting, the following content will also be available:\n▼// [Gaze North to the Rift] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Gaze North to the Rift HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] will become available for trying out the 6★ operator [Arcane]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Gaze North to the Rift HH Permit]×5.\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-29a4653f7c2f",
+      "title": "[Deep Cold Issue] LTO Details",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/4480",
+        "kind": "official-bulletin-api",
+        "recordId": "4480",
+        "fetchedAt": "2026-09-01T08:37:31.905Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator:\nWhile [Deep Cold Issue] is available, the chance of getting 6★ weapon [Umbra of Frigid Eventide (Arts Unit)] is increased!\n▼// [Deep Cold Issue]\n· Availability: Opens after [Dreamscape of Wind and Snow] version update; ends after 3 [Chartered Headhunting] banners (starting from [Winter Hunt])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Deep Cold Issue] features the Rate-UP 6★ weapon [Umbra of Frigid Eventide (Arts Unit)].\n· 6★ weapons that may appear in [Deep Cold Issue] include: Umbra of Frigid Eventide (Arts Unit) / Exemplar (Greatsword) / Clannibal (Handcannon) / Valiant (Polearm) / Oblivion (Arts Unit) / Detonation Unit (Arts Unit) / Rapid Ascent (Sword).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, visit the in-game [Acquisition Center - Arsenal Exchange]."
     },
     {
       "game": "endfield",
@@ -296,7 +320,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2660",
         "kind": "official-bulletin-api",
         "recordId": "2660",
-        "fetchedAt": "2026-08-31T09:41:56.288Z",
+        "fetchedAt": "2026-09-01T08:37:36.423Z",
         "priority": 1
       },
       "confidence": "low",
@@ -305,6 +329,30 @@
       "needs_review": true,
       "image": null,
       "description": "Dear Endministrator:\nWhile [Scarlet Pearl Issue] is available, the chance of getting the 6★ weapon [Lupine Scarlet (Sword)] is increased!\n▼// [Scarlet Pearl Issue]\n· Availability:\nAsia Server Time Zone: UTC+8\nAmericas / Europe Server Time Zone: UTC-5\nAsia Server: Opens Mar. 29, 2026 at 12:00 (server time); ends after 3 [Chartered Headhunting] banners (starting from [Wolf Pearl])\nAmericas / Europe Server: Opens Mar. 29, 2026 at 12:00 (server time); ends after 3 [Chartered Headhunting] banners (starting from [Wolf Pearl])\n· Participation Criteria: Complete the main mission [Chapter I Process I: Break the Siege]\n· [Scarlet Pearl Issue] features the Rate-UP 6★ weapon [Lupine Scarlet (Sword)].\n· 6★ weapons that may appear in [Scarlet Pearl Issue] include: Lupine Scarlet (Sword) / Rapid Ascent (Sword) / Eminent Repute (Sword) / Wedge (Handcannon) / Former Finery (Greatsword) / Detonation Unit (Arts Unit) / Valiant (Polearm).\n▼// [Arsenal Issue] Rewards\nIn every [Arsenal Issue], performing a set number of issues gives the banner's specific [Arms Offering Crate] (Arms OC) or [Rate-UP 6★ Weapon] in alternating order. The total number of issues for these Arsenal Issue rewards will be reset once the banner ends, and will not carry over to other [Arsenal Issue] banners.\n▼// [Arsenal Issue] Details\n· In [Arsenal Issue], you can spend [Arsenal Tickets] to apply for an issue.\n· Each Issue gives 10 random weapons from the list of available weapons, including at least one 5★ or better weapon.\n▼// [Arsenal Exchange] Details\nIn [Arsenal Exchange], the [Arsenal Ticket] can also be used to directly purchase weapons. Some purchasable weapons may be updated every now and then. Check the information displayed on the [Acquisition Center - Arsenal Exchange] screen for what is actually available.\n※ For more details and reward rules, please visit the in-game [Acquisition Center - Arsenal Exchange]."
+    },
+    {
+      "game": "endfield",
+      "id": "endfield-gryphline-bulletin-5188c2a44ba0",
+      "title": "[Winter Hunt] Chartered Headhunting",
+      "type": "banner",
+      "start": null,
+      "end": null,
+      "server": "global",
+      "timezone": "UTC+08:00",
+      "source": {
+        "name": "Arknights: Endfield Official",
+        "url": "https://endfield.gryphline.com/en-us/news/6172",
+        "kind": "official-bulletin-api",
+        "recordId": "6172",
+        "fetchedAt": "2026-09-01T08:37:32.111Z",
+        "priority": 1
+      },
+      "confidence": "low",
+      "scheduleStatus": "expected",
+      "permanence": "unknown",
+      "needs_review": true,
+      "image": null,
+      "description": "Dear Endministrator,\nDuring [Winter Hunt] Chartered Headhunting, the 6★ operator [Typhoeus] is Rate-UP!\nThe [Fletched Irontip] limited-time sign-in event will open simultaneously. Accumulate sign-ins to earn rewards such as [Fletched Irontip HH Permit]×5. You can also exchange for [Fletched Irontip HH Permit] at a discount in [AIC Quota Exchange]. The [Combat Drills] operator trial event will also be available during this period.\n▼// [Winter Hunt] Chartered Headhunting Details\n· Availability: After [Dreamscape of Wind and Snow] version release – Sept. 30, 2026, 11:59 (server time)\n· Participation Criteria: Complete main mission [Chapter I Process I: Break the Siege]\n· [Winter Hunt] Chartered Headhunting features the Rate-UP 6★ operator [Typhoeus].\n· 6★ operators that may appear in [Winter Hunt] Chartered Headhunting include: Typhoeus / Liino / Arcane / Ember / Lifeng / Ardelia / Last Rite / Pogranichnik.\n· In [Winter Hunt] Chartered Headhunting, you can use [Fletched Irontip HH Permit], [Chartered HH Permit], or [Oroberyls] to perform headhunting.\n※ The Rate-UP 6★ operator featured in a [Chartered Headhunting] banner will be, after 3 [Chartered Headhunting] banners, removed from the list of operators that may appear in [Chartered Headhunting]. This Rate-UP 6★ operator will also not be added to [Basic Headhunting].\n▼// [Chartered Headhunting] Rewards\nIn [Winter Hunt] Chartered Headhunting, perform a certain number of headhunting attempts to earn corresponding rewards.\n■ Urgent Recruitment\n· After performing 30 headhunting attempts, you will receive 10 bonus Urgent Recruitment attempts (which count as 1 free 10× headhunting attempt). This is only valid during this [Chartered Headhunting] banner, and does not carry over to other headhunting banners.\n· The rates for obtaining operators through Urgent Recruitment are the same as the base drop rates of this [Chartered Headhunting] banner, and the free 10× headhunting attempt from Urgent Recruitment guarantees a 5★ or better operator.\n· This free 10× headhunting attempt given by Urgent Recruitment does not count toward the guarantee for this or other [Chartered Headhunting] banners. It also will not be added to the total headhunting attempts required for [Chartered Headhunting] rewards.\n■ Headhunting Dossier\n· After performing 60 headhunting attempts, you will receive a bonus [Headhunting Dossier]×1.\n· Once the requirements are met, the [Headhunting Dossier] will be automatically sent to your Valuables Stash. Once the next [Chartered Headhunting] banner begins, this [Headhunting Dossier] will be automatically converted to special HH Permit×10 of the specified [Chartered Headhunting] banner. However, the HH Permits will also expire once that banner ends.\n■ Token Tribute\n· In each [Chartered Headhunting] banner, every 240 headhunting attempts give a bonus [Token of the Rate-UP 6★ operator featured in the said banner]×1.\n▼// Arsenal Ticket Details\nEvery headhunting attempt for operators also gives [Arsenal Tickets].\n· Acquiring a 6★ operator gives [Arsenal Ticket]×2000.\n· Acquiring a 5★ operator gives [Arsenal Ticket]×200.\n· Acquiring a 4★ operator gives [Arsenal Ticket]×20.\n※ [Arsenal Tickets] can be spent at the [Acquisition Center - Arsenal Exchange].\nDuring [Winter Hunt] Chartered Headhunting, the following content will also be available:\n▼// [Fletched Irontip] Limited-Time Sign-In Event\nSign in for a total of 7 days to earn rewards such as [Fletched Irontip HH Permit]×5.\n▼// [Combat Drills] Operator Trial Event\n[Combat Drills] will become available for trying out the 6★ operator [Typhoeus]. Complete the specified stage with the preset team that includes the trial operator to claim [Oroberyl]×100, [Arsenal Defense Crate], [Mark of Perseverance], and other rewards. The [Arsenal Defense Crate] contains a Fully Artificed Level 60 Gear Set that is a good fit for the current trial operator.\n▼// [AIC Quota Exchange] Special Note\nThe [Quota Exchange] will offer limited-time special deals. You can spend AIC Quota to purchase items such as [Fletched Irontip HH Permit]×5.\n※ Asia Server Time Zone: UTC+8\n※ Americas / Europe Server Time Zone: UTC-5\n※ For more headhunting details, check the in-game [Headhunting] screen.\n※ For more event details, check the in-game [Event Center].\n※ For details on [AIC Quota Exchange], check the in-game [Acquisition Center]."
     },
     {
       "game": "endfield",
@@ -320,7 +368,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8909",
         "kind": "official-bulletin-api",
         "recordId": "8909",
-        "fetchedAt": "2026-08-31T09:41:58.011Z",
+        "fetchedAt": "2026-09-01T08:37:37.886Z",
         "priority": 1
       },
       "confidence": "low",
@@ -344,7 +392,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/0754",
         "kind": "official-bulletin-api",
         "recordId": "0754",
-        "fetchedAt": "2026-08-31T09:41:58.258Z",
+        "fetchedAt": "2026-09-01T08:37:38.088Z",
         "priority": 1
       },
       "confidence": "low",
@@ -368,7 +416,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/7028",
         "kind": "official-bulletin-api",
         "recordId": "7028",
-        "fetchedAt": "2026-08-31T09:41:58.509Z",
+        "fetchedAt": "2026-09-01T08:37:38.291Z",
         "priority": 1
       },
       "confidence": "low",
@@ -392,7 +440,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4484",
         "kind": "official-bulletin-api",
         "recordId": "4484",
-        "fetchedAt": "2026-08-31T09:41:52.315Z",
+        "fetchedAt": "2026-09-01T08:37:33.125Z",
         "priority": 1
       },
       "confidence": "low",
@@ -416,7 +464,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3847",
         "kind": "official-bulletin-api",
         "recordId": "3847",
-        "fetchedAt": "2026-08-31T09:41:58.756Z",
+        "fetchedAt": "2026-09-01T08:37:38.497Z",
         "priority": 1
       },
       "confidence": "low",
@@ -440,7 +488,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9566",
         "kind": "official-bulletin-api",
         "recordId": "9566",
-        "fetchedAt": "2026-08-31T09:41:53.065Z",
+        "fetchedAt": "2026-09-01T08:37:33.736Z",
         "priority": 1
       },
       "confidence": "low",
@@ -464,7 +512,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3843",
         "kind": "official-bulletin-api",
         "recordId": "3843",
-        "fetchedAt": "2026-08-31T09:41:56.533Z",
+        "fetchedAt": "2026-09-01T08:37:36.624Z",
         "priority": 1
       },
       "confidence": "low",
@@ -488,7 +536,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/2657",
         "kind": "official-bulletin-api",
         "recordId": "2657",
-        "fetchedAt": "2026-08-31T09:41:53.314Z",
+        "fetchedAt": "2026-09-01T08:37:33.938Z",
         "priority": 1
       },
       "confidence": "low",
@@ -512,7 +560,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5212",
         "kind": "official-bulletin-api",
         "recordId": "5212",
-        "fetchedAt": "2026-08-31T09:41:55.791Z",
+        "fetchedAt": "2026-09-01T08:37:36.017Z",
         "priority": 1
       },
       "confidence": "low",
@@ -536,7 +584,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5211",
         "kind": "official-bulletin-api",
         "recordId": "5211",
-        "fetchedAt": "2026-08-31T09:41:55.544Z",
+        "fetchedAt": "2026-09-01T08:37:35.815Z",
         "priority": 1
       },
       "confidence": "low",
@@ -560,7 +608,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1338",
         "kind": "official-bulletin-api",
         "recordId": "1338",
-        "fetchedAt": "2026-08-31T09:41:57.023Z",
+        "fetchedAt": "2026-09-01T08:37:37.027Z",
         "priority": 1
       },
       "confidence": "low",
@@ -584,7 +632,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1339",
         "kind": "official-bulletin-api",
         "recordId": "1339",
-        "fetchedAt": "2026-08-31T09:41:57.264Z",
+        "fetchedAt": "2026-09-01T08:37:37.683Z",
         "priority": 1
       },
       "confidence": "low",
@@ -608,7 +656,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/8903",
         "kind": "official-bulletin-api",
         "recordId": "8903",
-        "fetchedAt": "2026-08-31T09:41:53.561Z",
+        "fetchedAt": "2026-09-01T08:37:34.141Z",
         "priority": 1
       },
       "confidence": "low",
@@ -632,7 +680,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/6174",
         "kind": "official-bulletin-api",
         "recordId": "6174",
-        "fetchedAt": "2026-08-31T09:41:51.571Z",
+        "fetchedAt": "2026-09-01T08:37:32.518Z",
         "priority": 1
       },
       "confidence": "low",
@@ -656,7 +704,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5202",
         "kind": "official-bulletin-api",
         "recordId": "5202",
-        "fetchedAt": "2026-08-31T09:41:52.069Z",
+        "fetchedAt": "2026-09-01T08:37:32.924Z",
         "priority": 1
       },
       "confidence": "low",
@@ -680,7 +728,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/3831",
         "kind": "official-bulletin-api",
         "recordId": "3831",
-        "fetchedAt": "2026-08-31T09:41:51.077Z",
+        "fetchedAt": "2026-09-01T08:37:31.701Z",
         "priority": 1
       },
       "confidence": "low",
@@ -704,7 +752,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/1332",
         "kind": "official-bulletin-api",
         "recordId": "1332",
-        "fetchedAt": "2026-08-31T09:41:59.016Z",
+        "fetchedAt": "2026-09-01T08:37:38.707Z",
         "priority": 1
       },
       "confidence": "low",
@@ -728,7 +776,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/4492",
         "kind": "official-bulletin-api",
         "recordId": "4492",
-        "fetchedAt": "2026-08-31T09:41:53.806Z",
+        "fetchedAt": "2026-09-01T08:37:34.803Z",
         "priority": 1
       },
       "confidence": "low",
@@ -752,7 +800,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/9564",
         "kind": "official-bulletin-api",
         "recordId": "9564",
-        "fetchedAt": "2026-08-31T09:41:51.326Z",
+        "fetchedAt": "2026-09-01T08:37:32.315Z",
         "priority": 1
       },
       "confidence": "low",
@@ -776,7 +824,7 @@
         "url": "https://endfield.gryphline.com/en-us/news/5213",
         "kind": "official-bulletin-api",
         "recordId": "5213",
-        "fetchedAt": "2026-08-31T09:41:56.775Z",
+        "fetchedAt": "2026-09-01T08:37:36.825Z",
         "priority": 1
       },
       "confidence": "low",

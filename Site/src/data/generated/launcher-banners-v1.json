@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "f38d1791654eb0134dad27766c2d7ce5594a7f952a3e9b09e06f15ba8d7e1b2e",
-  "generatedAt": "2026-09-01T07:58:17.438Z",
+  "revision": "2805f4e6991a33cfee259a8a76f73f6440eb02d6290906d5010786340c92400e",
+  "generatedAt": "2026-09-01T08:38:02.960Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-08-12T03:00:00.000Z",
           "endsAt": "2026-09-01T09:59:59.000Z",
-          "durationSeconds": 7301
+          "durationSeconds": 4916
         },
         "characters": [
           {
@@ -464,7 +464,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 936042
+          "durationSeconds": 933657
         },
         "characters": [
           {
@@ -780,7 +780,7 @@
           "id": "hsr-hoyo-ann-9a4cbeb1fb51",
           "title": "Version 4.5 Event Warp: Phase I",
           "type": "banner",
-          "start": "2026-08-25T13:00:00.000Z",
+          "start": "2026-08-25T00:00:00.000Z",
           "end": "2026-09-12T10:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1330"
         },
@@ -788,8 +788,8 @@
           "id": "hsr-hoyo-ann-469228a36704",
           "title": "\"Overdrive: Whirlwind Grand Prix\": Win the grand prix to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
           "type": "event",
-          "start": "2026-08-25T12:00:00.000Z",
-          "end": "2026-09-28T02:59:00.000Z",
+          "start": "2026-08-24T23:00:00.000Z",
+          "end": "2026-09-27T13:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1335"
         },
         {
@@ -885,7 +885,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 601301
+          "durationSeconds": 598916
         },
         "characters": [
           {
@@ -1582,8 +1582,8 @@
           "id": "zzz-hoyo-ann-d5df8c2348bf",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-08-17T04:00:00.000Z",
-          "end": "2026-09-08T21:59:00.000Z",
+          "start": "2026-08-17T11:00:00.000Z",
+          "end": "2026-09-09T04:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         }
       ],
@@ -1619,7 +1619,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 781242
+          "durationSeconds": 778857
         },
         "characters": [
           {
@@ -1935,7 +1935,7 @@
         "remaining": {
           "startsAt": "2026-08-09T04:00:00.000Z",
           "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 50501
+          "durationSeconds": 48116
         },
         "characters": [
           {

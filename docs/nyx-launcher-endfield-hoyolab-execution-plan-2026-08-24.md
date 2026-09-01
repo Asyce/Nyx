@@ -33,6 +33,7 @@ The source documents remain evidence for their locked contracts. Where their old
 - Read this plan and its tracker at the start of every execution turn.
 - Before every launcher implementation phase, inventory the launcher worktrees and local refs under `D:\PengoNyx`. If a newer clean tested descendant exists, advance the canonical execution worktree by fast-forward only and record it. If the newest work is dirty or divergent, preserve it and stop for explicit reconciliation instead of copying files, rebasing it away, or choosing an older checkout.
 - Before work, set the active phase to `in-progress`. After implementation and prescribed checks, set it to `review`. Mark it `complete` only after its STOP evidence is accepted.
+- A user-action, approval, or private-data gate blocks only its dependent path. Before pausing, scan the tracker and complete every safe independent phase, evidence refresh, review, test, and preparation step that is already unlocked; never bypass the blocked STOP.
 - Every STOP reports base and ending commits, changed files, exact tests, sanitized evidence, UI screenshots where applicable, known risks, and the next action.
 - Use coherent per-repository commits. A phase is a review bundle, not necessarily one commit.
 - Re-fetch before every push and release. Reconcile compatible upstream changes without rewriting published history and rerun affected checks; never force-push. Stop if an upstream change invalidates a locked assumption.

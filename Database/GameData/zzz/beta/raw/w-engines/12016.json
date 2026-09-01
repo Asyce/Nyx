@@ -358,23 +358,23 @@
   "materials": "10:7200,101016:2|10:16800,101026:7|10:36000,101026:12|10:60000,101036:6|10:120000,101036:12",
   "talents": {
     "1": {
-      "name": "...",
+      "name": "Crescent Moon",
       "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>18%</color> for 10s. Repeated triggers refresh the duration."
     },
     "2": {
-      "name": "...",
+      "name": "Crescent Moon",
       "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>21%</color> for 10s. Repeated triggers refresh the duration."
     },
     "3": {
-      "name": "...",
+      "name": "Crescent Moon",
       "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>24%</color> for 10s. Repeated triggers refresh the duration."
     },
     "4": {
-      "name": "...",
+      "name": "Crescent Moon",
       "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>27%</color> for 10s. Repeated triggers refresh the duration."
     },
     "5": {
-      "name": "...",
+      "name": "Crescent Moon",
       "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>30%</color> for 10s. Repeated triggers refresh the duration."
     }
   }

@@ -6272,7 +6272,7 @@
   {
     "id": "14162",
     "contentStatus": "beta",
-    "name": "...",
+    "name": "Crimson Moon Casket",
     "rarity": 4,
     "type": {
       "5": "W-ENGINE"
@@ -6283,7 +6283,7 @@
       "icon": "GameData/zzz/assets/items/Weapon_S_1621.webp"
     },
     "liveComparison": {
-      "currentHash": "eed0fa53790ca6e7f64d5e3c9141c867e0e9dc288471c2fcb71aff871c86ac5c"
+      "currentHash": "7eea609776a9b4448402a25944aec9ad83dcc31bb794572d9ab3c6b949674a3e"
     }
   },
   {
@@ -37400,11 +37400,11 @@
     "type": {
       "31": "MEDAL"
     },
-    "description": "Claret has evoked the Mindscape: <color=#FFAF2C>...</color>.\n...: When Claret's attacks hit enemies and trigger Laceration, Gash Buildup Rate increases by 20%. The DMG Multiplier of Maim triggered by Claret increases to 130% of its original value.",
+    "description": "Claret has evoked the Mindscape: <color=#FFAF2C>Bloodstained Chronicle</color>.\nBloodstained Chronicle: When Claret's attacks hit enemies and trigger Laceration, Gash Buildup Rate increases by 20%. The DMG Multiplier of Maim triggered by Claret increases to 130% of its original value.",
     "secondaryDescription": "...",
     "assets": {},
     "liveComparison": {
-      "currentHash": "8106fbd98d80f92072875b15b7133e64c2405828077eba13b2fd1b94b5b70c09"
+      "currentHash": "4de9bce4b3f08835be3a66cd8ca3a078cfd826685739fde2f009878da72fc721"
     }
   },
   {
@@ -37415,11 +37415,11 @@
     "type": {
       "31": "MEDAL"
     },
-    "description": "Roxy has evoked the Mindscape: <color=#FFAF2C>...</color>.\n...: <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> deals 5% more Daze. For each <color=#ffffff>Storm's Eye</color> detonated, gain 1 stack of <color=#ffffff>Windflow</color>, up to 3 stacks. During <color=#ffffff>EX Special Attack: Don't Catch a Chill</color>, if Roxy switches out after entering the <color=#ffffff>Whirlwind</color> state, she consumes all <color=#ffffff>Windflow</color>. Each stack consumed sustains the <color=#ffffff>Whirlwind</color> state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
+    "description": "Roxy has evoked the Mindscape: <color=#FFAF2C>Clocking Out Myth</color>.\nClocking Out Myth: <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> deals 5% more Daze. For each <color=#ffffff>Storm's Eye</color> detonated, gain 1 stack of <color=#ffffff>Windflow</color>, up to 3 stacks. During <color=#ffffff>EX Special Attack: Don't Catch a Chill</color>, if Roxy switches out after entering the <color=#ffffff>Whirlwind</color> state, she consumes all <color=#ffffff>Windflow</color>. Each stack consumed sustains the <color=#ffffff>Whirlwind</color> state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
     "secondaryDescription": "...",
     "assets": {},
     "liveComparison": {
-      "currentHash": "7c9840a761e8fe2ecc7310f047eecff914b6c5bad1561fa6d15a95ba58c5160c"
+      "currentHash": "0aeb0b8151c7924a9765270effde673b846dc0eef12caf1013819b21fd71b11d"
     }
   },
   {
@@ -54317,10 +54317,10 @@
     "type": {},
     "description": "After holding <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>EX Special Attack: Don't Catch a Chill</color>, <color=#2BAD00>additionally generate a Giant Windstorm</color>; enemies hit by the windstorm have their <color=#2BAD00>All-Attribute RES reduced by 24%</color> for 30s.",
     "assets": {
-      "icon": "GameData/zzz/assets/items/Relic111.webp"
+      "icon": "GameData/zzz/assets/items/Relic112.webp"
     },
     "liveComparison": {
-      "currentHash": "abaccb2fb77d899888396bf476b21928e0d230eb9d29af9681aedaf9592c3a55"
+      "currentHash": "f353c27161a1acd1ecac8437d965f48286bcc2e4c9089eac94f45aa35cc09d7d"
     }
   },
   {
@@ -54331,10 +54331,10 @@
     "type": {},
     "description": "After triggering <color=#FFFFFF>[Assist Follow-Up: Midnight Code]</color>, <color=#2BAD00>triggering</color> <color=#FFFFFF>[Assist: More Overtime?]</color> is also available; When <color=#FFFFFF>[Assist: More Overtime?]</color> is triggered, it instead <color=#2BAD00>triggers <color=#FFFFFF>[Chain Attack: Gale-Burial Great Hammer]</color></color> (can only be triggered once per 12s); DMG dealt by <color=#2BAD00><color=#FFFFFF>[Chain Attack]</color> from all squad members increases by 50%</color>.",
     "assets": {
-      "icon": "GameData/zzz/assets/items/Relic112.webp"
+      "icon": "GameData/zzz/assets/items/Relic111.webp"
     },
     "liveComparison": {
-      "currentHash": "6174a662e993142cdeb4739eda94c5412e00a63d6ff9bf3a56cbbb9bfbe50dc8"
+      "currentHash": "c87ceb76c7abc8100ce0a09ddf8b0f4411e7913bd5d08ca841156c59ba77865b"
     }
   },
   {
@@ -85248,10 +85248,10 @@
     "name": "[Fragile] Advanced Gear: Armorer - Lv.20",
     "rarity": 2,
     "type": {},
-    "description": "Provides the Advanced Stats needed for Defense Agents.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R2",
     "assets": {},
     "liveComparison": {
-      "currentHash": "e714e444264d1762ba1de08ff2e5f8afa1f645aa7c28f1db3e307c6b08723f8c"
+      "currentHash": "5f0e63305a774ec5265038e14191fe1ba173d85c11921e15de537553ceafbcb2"
     }
   },
   {
@@ -85350,10 +85350,10 @@
     "name": "[Fragile] Advanced Gear: Armorer - Lv.30",
     "rarity": 2,
     "type": {},
-    "description": "Provides the Advanced Stats needed for Defense Agents.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R2",
     "assets": {},
     "liveComparison": {
-      "currentHash": "3ab4ce508b9f04ed14faa2d7db8193f583d0dc0e1b5216789a05739d9678b9d8"
+      "currentHash": "4dde446927f54fb4ec6634d3d8be824cd2b1d70e47440863483db67356877a5d"
     }
   },
   {
@@ -85467,10 +85467,10 @@
     "name": "[Fragile] Specialized Gear: Armorer - Lv.30",
     "rarity": 3,
     "type": {},
-    "description": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R3",
     "assets": {},
     "liveComparison": {
-      "currentHash": "d032b2a81871f5814ea1d2e30acc2980c40b52f882fa2646c64c4586925f5e7c"
+      "currentHash": "0dfe62b7d896506ddad00708af949c9fff50634265cf3ce4137034164f1eeb8a"
     }
   },
   {
@@ -85569,10 +85569,10 @@
     "name": "[Fragile] Specialized Gear: Armorer - Lv.40",
     "rarity": 3,
     "type": {},
-    "description": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R3",
     "assets": {},
     "liveComparison": {
-      "currentHash": "22afd8153ac743e29ed151cc9f7d41124d7c3d7587248ce1ea2e5a434118db18"
+      "currentHash": "d09489753dab4e4a659dc9e5065b5478cd346e092cc663e33ba8a3adac542762"
     }
   },
   {
@@ -86388,10 +86388,10 @@
     "name": "[Fragile] [Zhao] Frostmist Enigma - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Zhao's exclusive Tactical Prism. When 2/1 Agents remain alive in the squad, extraction time is reduced by 30%/60%. When Zhao activates [Ether Veil], immediately restore 30 Frostbite Points and increase <color=#2BAD00>ATK of all squad members by 25%</color> for 50 seconds.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "385435dc5dc6016a121006f3afc2ccd13a39dab0c100d559411d1484c58c09a1"
+      "currentHash": "96a901bbb6c6943b846df803924b6665eb4533cbc5b77d93705e5c2c5b6a9961"
     }
   },
   {
@@ -86400,10 +86400,10 @@
     "name": "[Fragile] [Banyue] The Way of Asura - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Banyue's exclusive Tactical Prism. When using \"Etheric Phantom: Sanguine Sweeper,\" the whole squad immediately recovers 10% of their lost Max HP, and Banyue recovers HP equal to 10% of her Max HP. When not in the <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue uses <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to trigger a <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> <color=#2BAD00>Sheer DMG is increased by 60%</color>. ",
     "assets": {},
     "liveComparison": {
-      "currentHash": "bc5dda694186185b8586db3dd1304611eb83e01750bf07ff05a53b3d3bbfaa7c"
+      "currentHash": "bb852dc3612abcc9826d85994b0dc3a788d11265a9fdc6bc438beec91e404734"
     }
   },
   {
@@ -86412,10 +86412,10 @@
     "name": "[Fragile] [Yidhari] Piercing Light - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Yidhari's exclusive Tactical Prism. When the team is affected by [Corruption], the Max HP reduction is lowered to 10%. When Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, she gains 10 stacks of <color=#FFFFFF>[Frost Coil]</color>: When <color=#FFFFFF>[Basic Attacks]</color> hit an enemy, consume <color=#FFFFFF>[Frost Coil]</color> to attack the target enemy. This effect can only be triggered once per 1s.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "b3e2c0439c87b9df5618eacd9397d4d82d75045dd58f2cb61aae3b57a62cb1a0"
+      "currentHash": "457e0cdb25c560e135934b17da0c18c33e639b66ec76022a1f707ff49a43f243"
     }
   },
   {
@@ -86424,10 +86424,10 @@
     "name": "[Fragile] [Starlight - Billy] Knight's Belt - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Billy's exclusive Tactical Prism. For every red [Collectible] in the Inventory or Safe, DMG taken from Boss The Hound - Ulidim is reduced by 4%, stacking up to 5 floors. When a Block succeeds during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 Charge, stacking up to 1 floor, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> <color=#2BAD00>to deal 100% more DMG</color>.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "d592428b21bbd999fafd5e4d39c89c5897997f5ae25e92f26fc71e8f736c5f99"
+      "currentHash": "9d13f81aedd42ee9a6454318e4028d14a437e6c1c3d4df0136348eade179dc0b"
     }
   },
   {
@@ -86787,10 +86787,10 @@
     "name": "[Zhao] Frostmist Enigma - Lv.60",
     "rarity": 5,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Zhao's exclusive Tactical Prism. When 2/1 Agents remain alive in the squad, extraction time is reduced by 30%/60%. When Zhao activates [Ether Veil], immediately restore 30 Frostbite Points and increase <color=#2BAD00>ATK of all squad members by 25%</color> for 50 seconds.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "f76a5c77a95436d4d72b272e86d8e93aaf99051c0e821d0fa2cc4a7be1e3b836"
+      "currentHash": "83c956389e2a87c46dc7961d03a90d75bff8aef4ed0b94bfd979e9a753381418"
     }
   },
   {
@@ -86799,10 +86799,10 @@
     "name": "[Banyue] The Way of Asura - Lv.60",
     "rarity": 5,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Banyue's exclusive Tactical Prism. When using \"Etheric Phantom: Sanguine Sweeper,\" the whole squad immediately recovers 10% of their lost Max HP, and Banyue recovers HP equal to 10% of her Max HP. When not in the <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue uses <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to trigger a <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> <color=#2BAD00>Sheer DMG is increased by 60%</color>. ",
     "assets": {},
     "liveComparison": {
-      "currentHash": "36a13c6e43c9bfc46c765d9d8ff5ae92c1e59e32afe5513776fa0fad2fa9f10c"
+      "currentHash": "e76b76a8407db14a988aa661a8fe0ae1343ac732612513425fb8a023d091e468"
     }
   },
   {
@@ -86811,10 +86811,10 @@
     "name": "[Yidhari] Piercing Light - Lv.60",
     "rarity": 5,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Yidhari's exclusive Tactical Prism. When the team is affected by [Corruption], the Max HP reduction is lowered to 10%. When Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, she gains 10 stacks of <color=#FFFFFF>[Frost Coil]</color>: When <color=#FFFFFF>[Basic Attacks]</color> hit an enemy, consume <color=#FFFFFF>[Frost Coil]</color> to attack the target enemy. This effect can only be triggered once per 1s.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "39cb836e06f44614f278146cc4202a504b1a3e81d182db337f818839e06980af"
+      "currentHash": "e1d034537e451cedb40a3578025b6d30d56e56eeb3f8f1591a0b0da64375e452"
     }
   },
   {
@@ -86823,10 +86823,10 @@
     "name": "[Starlight - Billy] Knight's Belt - Lv.60",
     "rarity": 5,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Billy's exclusive Tactical Prism. For every red [Collectible] in the Inventory or Safe, DMG taken from Boss The Hound - Ulidim is reduced by 4%, stacking up to 5 floors. When a Block succeeds during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 Charge, stacking up to 1 floor, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> <color=#2BAD00>to deal 100% more DMG</color>.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "b4db57450d8577631e19685992b5019ccd82df89f32d51abd2d475d64c672acc"
+      "currentHash": "b748af1ec0609f9b282fce82980090f8d688791a254e8b1c3054f8e68a0877e5"
     }
   },
   {
@@ -86985,10 +86985,10 @@
     "name": "[Fragile] Advanced Gear: Armorer - Lv.25",
     "rarity": 2,
     "type": {},
-    "description": "Provides the Advanced Stats needed for Defense Agents.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R2",
     "assets": {},
     "liveComparison": {
-      "currentHash": "989d825428e52a7346066b6175f52364d951ceb6efd4b4ea5ad0daa6f628f780"
+      "currentHash": "fa3e0e63ff6ff6048091f07af9813fc7b9c7a5ce3be02849935af4ccdc69df28"
     }
   },
   {
@@ -87087,10 +87087,10 @@
     "name": "[Fragile] Specialized Gear: Armorer - Lv.35",
     "rarity": 3,
     "type": {},
-    "description": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R3",
     "assets": {},
     "liveComparison": {
-      "currentHash": "862c57f6d9c5f3019d04a52de31dbfe158d49a1da0ec3d56d902227fd44e80a9"
+      "currentHash": "c97120ddede95de633926da39cf742395ca88cd04a72465cd23be85390a05b44"
     }
   },
   {
@@ -87336,10 +87336,10 @@
     "name": "Advanced Gear: Armorer - Lv.20",
     "rarity": 2,
     "type": {},
-    "description": "Provides the Advanced Stats needed for Defense Agents.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R2",
     "assets": {},
     "liveComparison": {
-      "currentHash": "fe92bfb8fc11719f955e9b5a2f946eb8f8bdcfc17aecbab40912a58068480ecd"
+      "currentHash": "d43c784e4ca5c12d35d53eb2f1679f0f700fe720da35a6b846b8d3ad034ec9e3"
     }
   },
   {
@@ -87438,10 +87438,10 @@
     "name": "Specialized Gear: Armorer - Lv.30",
     "rarity": 3,
     "type": {},
-    "description": "Agent's DEF increases by <color=#2BAD00>20%</color>. When the Agent's attack hits an enemy, their own CRIT Rate increases by <color=#2BAD00>25%</color> for <color=#2BAD00>10</color>s. Repeated triggers refresh the duration. If CRIT Rate exceeds <color=#2BAD00>100%</color>, for every 1% above the threshold, the Agent's own Sharp DMG increases by <color=#2BAD00>0.3%</color>.",
+    "description": "ZKItem_Desc_Weapon_FengYu_R3",
     "assets": {},
     "liveComparison": {
-      "currentHash": "cc6c8006defaa8e0a48239aa62398992b0156a2a5c180bc4441560f35f775089"
+      "currentHash": "30adc1e85262ccda86726a80f02f327b5ea3f5750819f225655b2dc1318076a9"
     }
   },
   {
@@ -88095,10 +88095,10 @@
     "name": "[Zhao] Frostmist Enigma - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Zhao's exclusive Tactical Prism. When 2/1 Agents remain alive in the squad, extraction time is reduced by 30%/60%. When Zhao activates [Ether Veil], immediately restore 30 Frostbite Points and increase <color=#2BAD00>ATK of all squad members by 25%</color> for 50 seconds.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "247d6dbf03f161fd33cabcdd65294a08c8b0dd25a69ffb896fb7f0d2996ea303"
+      "currentHash": "4837bb3e541d7efdbb45244b86e248851306ebf2c483282d02f1db17eead7284"
     }
   },
   {
@@ -88107,10 +88107,10 @@
     "name": "[Banyue] The Way of Asura - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Banyue's exclusive Tactical Prism. When using \"Etheric Phantom: Sanguine Sweeper,\" the whole squad immediately recovers 10% of their lost Max HP, and Banyue recovers HP equal to 10% of her Max HP. When not in the <color=#FFFFFF>[Visage of Wrath]</color> state, after Banyue uses <color=#FFFFFF>[EX Special Attack: Lion's Roar - Wrath]</color> or <color=#FFFFFF>[EX Special Attack: Mountain Tremor - Wrath]</color>, hold <IconMap:Icon_Normal> to trigger a <color=#FFFFFF>[Chain Attack]</color>; Banyue's <color=#FFFFFF>[Chain Attack]</color> <color=#2BAD00>Sheer DMG is increased by 60%</color>. ",
     "assets": {},
     "liveComparison": {
-      "currentHash": "2a8d00fddc8ebb725467819833fab5ac04d79f17d84b194245c399899877646f"
+      "currentHash": "9de14fe9ea99e12a526cf256e7e836cc3d1cc528d910baeedb7283f641cc9f9b"
     }
   },
   {
@@ -88119,10 +88119,10 @@
     "name": "[Yidhari] Piercing Light - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Yidhari's exclusive Tactical Prism. When the team is affected by [Corruption], the Max HP reduction is lowered to 10%. When Yidhari consumes Adrenaline to activate <color=#FFFFFF>[EX Special Attack]</color>, she gains 10 stacks of <color=#FFFFFF>[Frost Coil]</color>: When <color=#FFFFFF>[Basic Attacks]</color> hit an enemy, consume <color=#FFFFFF>[Frost Coil]</color> to attack the target enemy. This effect can only be triggered once per 1s.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "710b5e3a8112196b554f61e46a45efe0130c473b8ea39260529a27113db4236b"
+      "currentHash": "021fe6408e11d352d5c07dd18ff999bf72e5eb3303db162af0418caac5ba317b"
     }
   },
   {
@@ -88131,10 +88131,10 @@
     "name": "[Starlight - Billy] Knight's Belt - Lv.50",
     "rarity": 4,
     "type": {},
-    "description": "Roxy's exclusive Tactical Prism. When the extraction countdown is less than 15/5/1 minutes, Roxy's Impact increases by 20%/50%/100%, respectively. When using hold <IconMap:Icon_SpecialReady> to activate <color=#FFFFFF>[EX Special Attack: Don't Catch a Chill]</color>, every 1 second of holding increases this skill's <color=#2BAD00>DMG and Daze by 10%/6%</color>, up to 30%/18%; when this skill hits an enemy, the target's DEF decreases by <color=#2BAD00>16%</color> for 30 seconds.",
+    "description": "Billy's exclusive Tactical Prism. For every red [Collectible] in the Inventory or Safe, DMG taken from Boss The Hound - Ulidim is reduced by 4%, stacking up to 5 floors. When a Block succeeds during <color=#FFFFFF>[Special Attack: Drive Suppression]</color>, gain 1 Charge, stacking up to 1 floor, causing the next <color=#FFFFFF>[EX Special Attack: High-Traction Wheels]</color> or <color=#FFFFFF>[EX Special Attack: Rocking Footwork]</color> <color=#2BAD00>to deal 100% more DMG</color>.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "5d7baaa7c1b708f048d53a470732a552e6e6b27ea9dc835601c2fe4e6aac463d"
+      "currentHash": "4a80721dcf41b48f6a917c80d7ba6ae56875c3430e4f065769a8c5b0a474ef2f"
     }
   },
   {
@@ -91805,25 +91805,25 @@
   {
     "id": "4360054",
     "contentStatus": "beta",
-    "name": "ZKItem_4360054_Name",
+    "name": "ZKItem_4360055_Name",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4360054_Desc",
     "assets": {},
     "liveComparison": {
-      "currentHash": "c5d71cab77e95639c67725b1ee1038661f70f5e3ab0ed48cf71d21d27e12cbdd"
+      "currentHash": "ee7d31010f4a7160fe34307e8c87b35a3c9bdfd00017d7d73716912a46d52f76"
     }
   },
   {
     "id": "4360055",
     "contentStatus": "beta",
-    "name": "ZKItem_4360055_Name",
+    "name": "ZKItem_4360054_Name",
     "rarity": 5,
     "type": {},
     "description": "ZKItem_4360055_Desc",
     "assets": {},
     "liveComparison": {
-      "currentHash": "2e9e3a216d7c8b4d9d3aec729ca753b38a86e5a6ae4e846f11325c48ae896043"
+      "currentHash": "71a6f71ee0e41176f0736103c688fdcd701679bd2f5caad6a0dc076c0d5f5875"
     }
   },
   {

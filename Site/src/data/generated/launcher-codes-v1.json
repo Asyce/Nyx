@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T10:48:04.102Z",
+  "generatedAt": "2026-09-01T19:01:16.165Z",
   "games": {
     "gi": [
       {
@@ -28,13 +28,19 @@
         "currency": "Primogems"
       },
       {
-        "code": "LEGEDILJKSGM",
-        "added": "2026-08-11",
+        "code": "2BJ64QRZ7RT8",
+        "added": "2026-08-07",
         "amount": 60,
         "currency": "Primogems"
       }
     ],
     "hsr": [
+      {
+        "code": "8SMSVJWJM7ZT",
+        "added": "2026-09-01",
+        "amount": 50,
+        "currency": "Stellar Jade"
+      },
       {
         "code": "NSJR3B97ZZ5X",
         "added": "2026-08-16",
@@ -55,12 +61,6 @@
       },
       {
         "code": "CREATIONNYMPH",
-        "added": "2026-08-11",
-        "amount": 60,
-        "currency": "Stellar Jade"
-      },
-      {
-        "code": "FAREWELL",
         "added": "2026-08-11",
         "amount": 60,
         "currency": "Stellar Jade"
@@ -102,5 +102,5 @@
       }
     ]
   },
-  "revision": "a408cc90c9c62bf34a52bacfb718ee347d55fdd085b69578cdca6b7442b481b1"
+  "revision": "5e448bdfe9855baedab97bbce4adf71cdc77cefed682eee782aedd924805ad81"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:48:04.102Z",
+  "generatedAt": "2026-09-01T19:01:16.165Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.785Z",
+      "lastSuccessfulFetch": "2026-09-01T19:01:00.103Z",
       "codes": [
         {
           "code": "DUGODWKRHAKDNJ",
@@ -72,28 +72,6 @@
           "firstSeen": "2026-08-12T07:46:42.167Z"
         },
         {
-          "code": "LEGEDILJKSGM",
-          "rewards": "Primogem x 60, Adventurer's Experience x 5",
-          "added": "2026-08-11",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "hoyoVerified": true,
-          "premium": true,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-07-05T17:19:20.440Z"
-        },
-        {
-          "code": "P7G0XA30H0Q3",
-          "rewards": "",
-          "added": "2026-08-11",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=P7G0XA30H0Q3",
-          "hoyoVerified": true,
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-08-04T09:54:39.639Z"
-        },
-        {
           "code": "2BJ64QRZ7RT8",
           "rewards": "60 Primogems and Five Adventurer S Experience",
           "added": "2026-08-07",
@@ -122,8 +100,21 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.791Z",
+      "lastSuccessfulFetch": "2026-09-01T19:00:59.935Z",
       "codes": [
+        {
+          "code": "8SMSVJWJM7ZT",
+          "rewards": "50 Stellar Jade, 10000 Credit",
+          "added": "2026-09-01",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-09-01T15:19:20.448Z"
+        },
         {
           "code": "SUNSWEPTROBIN",
           "rewards": "2 Classic Soulglad, 3 Traveler S Guide",
@@ -239,7 +230,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:04.102Z",
+      "lastSuccessfulFetch": "2026-09-01T19:01:16.164Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -293,7 +284,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.709Z",
+      "lastSuccessfulFetch": "2026-09-01T19:00:59.772Z",
       "codes": []
     },
     {
@@ -303,7 +294,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.728Z",
+      "lastSuccessfulFetch": "2026-09-01T19:00:59.805Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

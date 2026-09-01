@@ -2466,7 +2466,7 @@
     "110101": {
       "id": 110101,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "Armorer Agents in the team gain <color=#2BAD00>5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>11%</color> increased CRIT DMG.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>4%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>11%</color> increased CRIT DMG.",
       "image": "Koleda",
       "level_show_name": "Get Workin'! II",
       "level": 2,
@@ -2484,7 +2484,7 @@
     "110102": {
       "id": 110102,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "Armorer Agents in the team gain <color=#2BAD00>7.5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>17%</color> increased CRIT DMG.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>6%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>17%</color> increased CRIT DMG.",
       "image": "Koleda",
       "level_show_name": "Get Workin'! III",
       "level": 3,
@@ -2502,7 +2502,7 @@
     "110103": {
       "id": 110103,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "Armorer Agents in the team gain <color=#2BAD00>10%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>23%</color> increased CRIT DMG.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>8%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>23%</color> increased CRIT DMG.",
       "image": "Koleda",
       "level_show_name": "Get Workin'! IV",
       "level": 4,
@@ -2520,7 +2520,7 @@
     "110104": {
       "id": 110104,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "Armorer Agents in the team gain <color=#2BAD00>12.5%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>29%</color> increased CRIT DMG.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>10%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>29%</color> increased CRIT DMG.",
       "image": "Koleda",
       "level_show_name": "Get Workin'! V",
       "level": 5,
@@ -2538,7 +2538,7 @@
     "110105": {
       "id": 110105,
       "name": "Potential Awakening: Demolition Ops",
-      "desc": "Armorer Agents in the team gain <color=#2BAD00>15%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>35%</color> increased CRIT DMG.",
+      "desc": "Armorer Agents in the team gain <color=#2BAD00>12%</color> increased Laceration DMG, while non-Armorer Agents gain <color=#2BAD00>35%</color> increased CRIT DMG.",
       "image": "Koleda",
       "level_show_name": "Get Workin'! VI",
       "level": 6,

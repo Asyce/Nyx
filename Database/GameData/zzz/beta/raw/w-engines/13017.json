@@ -358,23 +358,23 @@
   "materials": "10:9600,101016:3|10:22400,101026:10|10:48000,101026:16|10:80000,101036:8|10:160000,101036:16",
   "talents": {
     "1": {
-      "name": "...",
+      "name": "Lucky Pawpad",
       "desc": "DEF increases by <color=#2BAD00>8%</color>. When using <color=#FFFFFF>EX Special Attack</color>, DEF increases by an additional <color=#2BAD00>8%</color> for 40s. Repeated triggers refresh the duration."
     },
     "2": {
-      "name": "...",
+      "name": "Lucky Pawpad",
       "desc": "DEF increases by <color=#2BAD00>9%</color>. When using <color=#FFFFFF>EX Special Attack</color>, DEF increases by an additional <color=#2BAD00>9%</color> for 40s. Repeated triggers refresh the duration."
     },
     "3": {
-      "name": "...",
+      "name": "Lucky Pawpad",
       "desc": "DEF increases by <color=#2BAD00>10%</color>. When using <color=#FFFFFF>EX Special Attack</color>, DEF increases by an additional <color=#2BAD00>10%</color> for 40s. Repeated triggers refresh the duration."
     },
     "4": {
-      "name": "...",
+      "name": "Lucky Pawpad",
       "desc": "DEF increases by <color=#2BAD00>11%</color>. When using <color=#FFFFFF>EX Special Attack</color>, DEF increases by an additional <color=#2BAD00>11%</color> for 40s. Repeated triggers refresh the duration."
     },
     "5": {
-      "name": "...",
+      "name": "Lucky Pawpad",
       "desc": "DEF increases by <color=#2BAD00>12%</color>. When using <color=#FFFFFF>EX Special Attack</color>, DEF increases by an additional <color=#2BAD00>12%</color> for 40s. Repeated triggers refresh the duration."
     }
   }

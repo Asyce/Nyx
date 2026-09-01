@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.12+18560506",
+  "version": "3.2.12+18601660",
   "liveVersion": "3.1",
   "newCount": 2,
   "changedCount": 2,
@@ -183,7 +183,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.12+18560506",
+        "version": "3.2.12+18601660",
         "sections": [
           {
             "title": "Skills",
@@ -4184,7 +4184,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.12+18560506",
+        "version": "3.2.12+18601660",
         "sections": [
           {
             "title": "Skills",
@@ -8480,6 +8480,14 @@
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
+      "signatureWeapon": {
+        "id": "14162",
+        "name": "Crimson Moon Casket",
+        "type": "Stun",
+        "educated": false
+      },
+      "signatureWeaponId": "14162",
+      "signatureWeaponName": "Crimson Moon Casket",
       "status": "beta",
       "labels": [
         "3.x"
@@ -8618,7 +8626,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.12+18560506",
+        "version": "3.2.12+18601660",
         "sections": [
           {
             "title": "Skills",
@@ -9965,7 +9973,7 @@
               {
                 "name": "Core Passive: Warm Night's Embrace",
                 "type": "Core Passive",
-                "desc": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 35%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                "desc": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 40%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                 "descFormat": [
                   {
                     "start": 67,
@@ -10028,44 +10036,44 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 687,
-                    "end": 690,
+                    "start": 686,
+                    "end": 689,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 720,
-                    "end": 729,
+                    "start": 719,
+                    "end": 728,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 846,
-                    "end": 849,
+                    "start": 845,
+                    "end": 848,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 945,
-                    "end": 956,
+                    "start": 944,
+                    "end": 955,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1001,
-                    "end": 1012,
+                    "start": 1000,
+                    "end": 1011,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1102,
-                    "end": 1117,
+                    "start": 1101,
+                    "end": 1116,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1166,
-                    "end": 1177,
+                    "start": 1165,
+                    "end": 1176,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -10073,7 +10081,7 @@
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 17%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 10%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 22%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 10%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
                         "start": 67,
@@ -10136,44 +10144,44 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 685,
-                        "end": 688,
+                        "start": 684,
+                        "end": 687,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 718,
-                        "end": 727,
+                        "start": 717,
+                        "end": 726,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 840,
-                        "end": 843,
+                        "start": 839,
+                        "end": 842,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 939,
-                        "end": 950,
+                        "start": 938,
+                        "end": 949,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 995,
-                        "end": 1006,
+                        "start": 994,
+                        "end": 1005,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1093,
-                        "end": 1108,
+                        "start": 1092,
+                        "end": 1107,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1157,
-                        "end": 1168,
+                        "start": 1156,
+                        "end": 1167,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10181,7 +10189,7 @@
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 20%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 11.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 25%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 11.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
                         "start": 67,
@@ -10244,248 +10252,32 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 685,
-                        "end": 688,
+                        "start": 684,
+                        "end": 687,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 718,
-                        "end": 727,
+                        "start": 717,
+                        "end": 726,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 840,
-                        "end": 845,
+                        "start": 839,
+                        "end": 844,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 941,
-                        "end": 952,
+                        "start": 940,
+                        "end": 951,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 997,
-                        "end": 1008,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1095,
-                        "end": 1110,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1159,
-                        "end": 1170,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 23%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 13%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 685,
-                        "end": 688,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 718,
-                        "end": 727,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 840,
-                        "end": 843,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 939,
-                        "end": 950,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 995,
-                        "end": 1006,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1093,
-                        "end": 1108,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1157,
-                        "end": 1168,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 26%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 14.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 685,
-                        "end": 688,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 718,
-                        "end": 727,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 840,
-                        "end": 845,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 941,
-                        "end": 952,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 997,
-                        "end": 1008,
+                        "start": 996,
+                        "end": 1007,
                         "kind": "tone",
                         "tone": "accent"
                       },
@@ -10504,8 +10296,8 @@
                     ]
                   },
                   {
-                    "label": "Lv. 5",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 29%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 16%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members can also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                    "label": "Lv. 3",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 28%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 13%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
                         "start": 67,
@@ -10568,44 +10360,260 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 685,
-                        "end": 688,
+                        "start": 684,
+                        "end": 687,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 718,
-                        "end": 727,
+                        "start": 717,
+                        "end": 726,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 844,
-                        "end": 847,
+                        "start": 839,
+                        "end": 842,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 943,
-                        "end": 954,
+                        "start": 938,
+                        "end": 949,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 999,
-                        "end": 1010,
+                        "start": 994,
+                        "end": 1005,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1100,
-                        "end": 1115,
+                        "start": 1092,
+                        "end": 1107,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1164,
-                        "end": 1175,
+                        "start": 1156,
+                        "end": 1167,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 4",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 31%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 14.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                    "format": [
+                      {
+                        "start": 67,
+                        "end": 80,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 102,
+                        "end": 114,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 209,
+                        "end": 212,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 271,
+                        "end": 273,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 281,
+                        "end": 332,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 359,
+                        "end": 370,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 396,
+                        "end": 411,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 471,
+                        "end": 486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 490,
+                        "end": 499,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 558,
+                        "end": 567,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 684,
+                        "end": 687,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 717,
+                        "end": 726,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 839,
+                        "end": 844,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 940,
+                        "end": 951,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 996,
+                        "end": 1007,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1093,
+                        "end": 1108,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1157,
+                        "end": 1168,
+                        "kind": "tone",
+                        "tone": "accent"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Lv. 5",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 34%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 16%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members can also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                    "format": [
+                      {
+                        "start": 67,
+                        "end": 80,
+                        "kind": "tone",
+                        "tone": "anemo"
+                      },
+                      {
+                        "start": 102,
+                        "end": 114,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 209,
+                        "end": 212,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 271,
+                        "end": 273,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 281,
+                        "end": 332,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 359,
+                        "end": 370,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 396,
+                        "end": 411,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 471,
+                        "end": 486,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 490,
+                        "end": 499,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 558,
+                        "end": 567,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 684,
+                        "end": 687,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 717,
+                        "end": 726,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 843,
+                        "end": 846,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 942,
+                        "end": 953,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 998,
+                        "end": 1009,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1099,
+                        "end": 1114,
+                        "kind": "tone",
+                        "tone": "accent"
+                      },
+                      {
+                        "start": 1163,
+                        "end": 1174,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10613,7 +10621,7 @@
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 32%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 17.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute that were overwritten by the new [Windswept].",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 37%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 17.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute that were overwritten by the new [Windswept].",
                     "format": [
                       {
                         "start": 67,
@@ -10676,44 +10684,44 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 685,
-                        "end": 688,
+                        "start": 684,
+                        "end": 687,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 718,
-                        "end": 727,
+                        "start": 717,
+                        "end": 726,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 844,
-                        "end": 849,
+                        "start": 843,
+                        "end": 848,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 945,
-                        "end": 956,
+                        "start": 944,
+                        "end": 955,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1001,
-                        "end": 1012,
+                        "start": 1000,
+                        "end": 1011,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1102,
-                        "end": 1117,
+                        "start": 1101,
+                        "end": 1116,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1180,
-                        "end": 1191,
+                        "start": 1179,
+                        "end": 1190,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10721,7 +10729,7 @@
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.35%, up to a maximum of 35%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
+                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 40%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
                     "format": [
                       {
                         "start": 67,
@@ -10784,44 +10792,44 @@
                         "tone": "accent"
                       },
                       {
-                        "start": 687,
-                        "end": 690,
+                        "start": 686,
+                        "end": 689,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 720,
-                        "end": 729,
+                        "start": 719,
+                        "end": 728,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 846,
-                        "end": 849,
+                        "start": 845,
+                        "end": 848,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 945,
-                        "end": 956,
+                        "start": 944,
+                        "end": 955,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1001,
-                        "end": 1012,
+                        "start": 1000,
+                        "end": 1011,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1102,
-                        "end": 1117,
+                        "start": 1101,
+                        "end": 1116,
                         "kind": "tone",
                         "tone": "accent"
                       },
                       {
-                        "start": 1166,
-                        "end": 1177,
+                        "start": 1165,
+                        "end": 1176,
                         "kind": "tone",
                         "tone": "accent"
                       }
@@ -10885,9 +10893,9 @@
             "title": "Mindscape Cinema",
             "entries": [
               {
-                "name": "...",
+                "name": "Versatile Attendant",
                 "type": "Mindscape 1",
-                "desc": "When EX Special Attack: Kindly Rest in Peace hits, it reduces the enemy's All-Attribute RES by 15% for 50s. CRIT DMG increases by 40%.",
+                "desc": "When EX Special Attack: Kindly Rest in Peace hits, it reduces the enemy's All-Attribute RES by 15% for 50s; repeated triggers reset the duration. CRIT DMG increases by 40%.",
                 "descFormat": [
                   {
                     "start": 5,
@@ -10898,7 +10906,7 @@
                 ]
               },
               {
-                "name": "...",
+                "name": "Clocking Out Myth",
                 "type": "Mindscape 2",
                 "desc": "EX Special Attack: Don't Catch a Chill deals 5% more Daze. For each Storm's Eye detonated, gain 1 stack of Windflow, up to 3 stacks. During EX Special Attack: Don't Catch a Chill, if Roxy switches out after entering the Whirlwind state, she consumes all Windflow. Each stack consumed sustains the Whirlwind state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When EX Special Attack: Don't Catch a Chill hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
                 "descFormat": [
@@ -10953,7 +10961,7 @@
                 ]
               },
               {
-                "name": "...",
+                "name": "Tales of Insomnia",
                 "type": "Mindscape 3",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -10990,7 +10998,7 @@
                 ]
               },
               {
-                "name": "...",
+                "name": "R.I.P.",
                 "type": "Mindscape 4",
                 "desc": "When a Defensive Assist successfully parries an enemy attack, Roxy gains 1 Energy, up to once per skill. When Dodge Counter: Returned Courtesy hits an enemy, it grants 2 Energy, up to once per skill. Ultimate: Requiem for the Night-Burial deals 20% more DMG and 10% more Daze.",
                 "descFormat": [
@@ -11015,7 +11023,7 @@
                 ]
               },
               {
-                "name": "...",
+                "name": "Second Heartbeat",
                 "type": "Mindscape 5",
                 "desc": "Basic Attack, Dodge, Assist, Special Attack, and Chain Attack Lv. +2",
                 "descFormat": [
@@ -11052,9 +11060,9 @@
                 ]
               },
               {
-                "name": "...",
+                "name": "Eternity and the Clockwork Doll",
                 "type": "Mindscape 6",
-                "desc": "The DMG dealt by attacks ignores 15% of the target's Wind RES. When [Special Attack: Forgive Me for Not Seeing You Off] detonates [Storm's Eye] to generate a Giant Windstorm, the primary target is inflicted with [Afterecho]. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional instances generated and refresh the duration of [Afterecho]. Giant Windstorms deal DMG increased to 250% of the original value, and their Daze dealt increases by 25%.",
+                "desc": "The DMG dealt by attacks ignores 15% of the target's Wind RES. When [Special Attack: Forgive Me for Not Seeing You Off] detonates [Storm's Eye] to generate a Giant Windstorm, the primary target is inflicted with [Afterecho]. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional instances generated and refresh the duration of [Afterecho]. Giant Windstorms deal DMG increased to 250% of the original value, and their Daze dealt increases by 20%.",
                 "descFormat": [
                   {
                     "start": 53,
@@ -12615,7 +12623,39 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 3705000
+        "currency": 4105000,
+        "weapon": {
+          "name": "Crimson Moon Casket",
+          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
+          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
+          "items": [
+            {
+              "id": "101011",
+              "name": "Stun Component",
+              "qty": 4,
+              "rar": 1,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
+            },
+            {
+              "id": "101021",
+              "name": "Reinforced Stun Component",
+              "qty": 32,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
+            },
+            {
+              "id": "101031",
+              "name": "Specialized Stun Component",
+              "qty": 30,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
+            }
+          ],
+          "cost": 400000
+        }
       },
       "recent": 1,
       "betaStatus": "new"
@@ -12654,6 +12694,42 @@
           "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
+        }
+      ],
+      "cost": 400000
+    },
+    {
+      "id": "14162",
+      "name": "Crimson Moon Casket",
+      "rarity": 4,
+      "weaponType": "Stun",
+      "type": "Stun",
+      "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
+      "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
+      "items": [
+        {
+          "id": "101011",
+          "name": "Stun Component",
+          "qty": 4,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
+        },
+        {
+          "id": "101021",
+          "name": "Reinforced Stun Component",
+          "qty": 32,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
+        },
+        {
+          "id": "101031",
+          "name": "Specialized Stun Component",
+          "qty": 30,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
         }
       ],
       "cost": 400000

@@ -5,19 +5,19 @@
       "completedIds": [],
       "resumeCursor": null,
       "exhausted": true,
-      "updatedAt": "2026-08-31T09:41:16.818Z"
+      "updatedAt": "2026-09-01T08:36:52.166Z"
     },
     "hsr": {
       "completedIds": [],
       "resumeCursor": null,
       "exhausted": true,
-      "updatedAt": "2026-08-31T09:41:16.818Z"
+      "updatedAt": "2026-09-01T08:36:52.166Z"
     },
     "zzz": {
       "completedIds": [],
       "resumeCursor": null,
       "exhausted": true,
-      "updatedAt": "2026-08-31T09:41:16.818Z"
+      "updatedAt": "2026-09-01T08:36:52.166Z"
     },
     "wuwa": {
       "completedIds": [
@@ -310,7 +310,7 @@
       ],
       "resumeCursor": null,
       "exhausted": true,
-      "updatedAt": "2026-08-31T09:41:16.818Z"
+      "updatedAt": "2026-09-01T08:36:52.166Z"
     },
     "endfield": {
       "completedIds": [
@@ -328,6 +328,7 @@
         "3831",
         "3843",
         "3847",
+        "4480",
         "4484",
         "4492",
         "5202",
@@ -335,6 +336,7 @@
         "5211",
         "5212",
         "5213",
+        "6172",
         "6174",
         "6175",
         "7024",
@@ -347,7 +349,7 @@
       ],
       "resumeCursor": null,
       "exhausted": true,
-      "updatedAt": "2026-08-31T09:41:16.818Z"
+      "updatedAt": "2026-09-01T08:36:52.166Z"
     }
   }
 }

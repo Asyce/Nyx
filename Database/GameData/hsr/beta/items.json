@@ -14754,13 +14754,12 @@
     "rarity": "Rare",
     "type": "Mission",
     "subType": "Mission",
-    "backgroundDescription": "...",
     "purposeType": 16,
     "assets": {
       "icon": "GameData/hsr/assets/items/190023.webp"
     },
     "liveComparison": {
-      "currentHash": "77c0f02e1d3b531dadaf1f9d56058338899171904d497b222248d01171a93cbe"
+      "currentHash": "a9bab713017d2855b4c03dd0bdb69375d1ff5ecd72a127cf4f3b53948401e32f"
     }
   },
   {

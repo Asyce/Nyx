@@ -12040,7 +12040,7 @@
     "type": "Material"
   },
   "130047": {
-    "name": "Golden Fern Seed",
+    "name": "Golden Fern Spore",
     "rank": 0,
     "icon": "UI_ItemIcon_130047",
     "type": "Material"
@@ -12853,7 +12853,7 @@
     "type": "Refinement Material"
   },
   "200129": {
-    "name": "青翦垂缨",
+    "name": "Tea-Scented Tassel",
     "rank": 4,
     "icon": "UI_ItemIcon_200129",
     "type": "Refinement Material"

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/events/art.mjs",
-  "generatedAt": "2026-08-31T09:41:16.818Z",
+  "generatedAt": "2026-09-01T08:36:52.166Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": [
@@ -544,25 +544,6 @@
       "retrievedAt": "2026-08-08T11:49:49.723Z",
       "eventIds": [
         "hsr-hoyo-ann-df1a5352d767"
-      ]
-    },
-    {
-      "game": "hsr",
-      "fileName": "7e46ed9c014123f278b7cbbcc8750c604f9fef221dee240a6f702e02f8078102.png",
-      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/06/7bc04e4a6afd2f702baaf4042b4797bb_3127688932566031926_transformed.png",
-      "requestUrl": null,
-      "runtimePath": "/assets/events/hsr/7e46ed9c014123f278b7cbbcc8750c604f9fef221dee240a6f702e02f8078102.png",
-      "localPath": "Site/assets/events/hsr/7e46ed9c014123f278b7cbbcc8750c604f9fef221dee240a6f702e02f8078102.png",
-      "sha256": "7e46ed9c014123f278b7cbbcc8750c604f9fef221dee240a6f702e02f8078102",
-      "bytes": 1464763,
-      "mediaType": "image/png",
-      "width": 2150,
-      "height": 400,
-      "etag": "\"7bc04e4a6afd2f702baaf4042b4797bb\"",
-      "lastModified": "Thu, 06 Aug 2026 03:40:59 GMT",
-      "retrievedAt": "2026-08-15T03:52:57.776Z",
-      "eventIds": [
-        "hsr-hoyo-ann-2d4f031c718c"
       ]
     },
     {

@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-31T13:06:52.414Z",
+  "generatedAt": "2026-09-01T10:48:23.974Z",
   "codes": {
-    "updated": "2026-08-31T09:41:16.758Z",
+    "updated": "2026-09-01T10:48:04.102Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "DUGODWKRHAKDNJ",
+          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-01T05:53:34.732Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
+        },
         {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
@@ -48,7 +62,7 @@ var NYX_DB = {
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-08-13",
-          "firstSeen": "2026-08-13T07:48:02.606Z",
+          "firstSeen": "2026-09-01T08:36:52.102Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
@@ -121,20 +135,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T13:38:10.848Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
-        },
-        {
-          "code": "GS70YTASTJ",
-          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-06",
-          "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         }
       ],
       "hsr": [
@@ -414,16 +414,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-08-31T09:40:22.301Z",
-    "checkedAt": "2026-08-31T09:40:22.301Z",
+    "updated": "2026-09-01T08:35:56.845Z",
+    "checkedAt": "2026-09-01T08:35:56.845Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -622,75 +622,12 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
-          "phase": "7.0 Phase 1",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-01T09:59:59.000Z",
-          "characters": [
-            {
-              "name": "Odette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Alyosha",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
-              "rarity": 4,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Sucrose",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sucrose.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2020-10-20"
-            },
-            {
-              "name": "Lynette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Linette.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-08-16"
-            },
-            {
-              "name": "Arlecchino",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-24"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "7.0 Phase 2",
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T06:59:00.000Z",
@@ -698,7 +635,7 @@ var NYX_DB = {
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -742,7 +679,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -753,6 +690,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": [
           {
             "phase": "Patch 7.X",
@@ -945,9 +883,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -1091,9 +1029,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -1339,9 +1277,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -6454,6 +6392,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "DUGODWKRHAKDNJ",
+          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-01T05:53:34.732Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
+        },
+        {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
           "premium": true,
@@ -6491,7 +6443,7 @@ var NYX_DB = {
             "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
           },
           "added": "2026-08-13",
-          "firstSeen": "2026-08-13T07:48:02.606Z",
+          "firstSeen": "2026-09-01T08:36:52.102Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
@@ -6564,95 +6516,18 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T13:38:10.848Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
-        },
-        {
-          "code": "GS70YTASTJ",
-          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-06",
-          "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
-          "phase": "7.0 Phase 1",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-01T09:59:59.000Z",
-          "characters": [
-            {
-              "name": "Odette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Alyosha",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
-              "rarity": 4,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Sucrose",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sucrose.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2020-10-20"
-            },
-            {
-              "name": "Lynette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Linette.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-08-16"
-            },
-            {
-              "name": "Arlecchino",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-24"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "7.0 Phase 2",
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T06:59:00.000Z",
@@ -6660,7 +6535,7 @@ var NYX_DB = {
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -6704,7 +6579,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -6715,6 +6590,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": [
           {
             "phase": "Patch 7.X",
@@ -173478,9 +173354,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -179415,9 +179291,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -184683,9 +184559,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {
@@ -190063,9 +189939,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-08-31T09:40:22.301Z",
-          "lastSuccessfulFetch": "2026-08-31T09:40:22.301Z",
-          "lastValidUpdate": "2026-08-31T09:40:22.301Z",
+          "checkedAt": "2026-09-01T08:35:56.845Z",
+          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
+          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
           "source": "prydwen"
         },
         "current": {

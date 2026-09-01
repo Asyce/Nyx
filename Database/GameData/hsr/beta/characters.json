@@ -340412,7 +340412,7 @@
         "key": "150308",
         "id": "150308",
         "name": "Brushstroke: Imagenate the Starry Night",
-        "description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pearl's DEF to all enemies, restores HP for all allies equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, and additionally restores HP for the ally target with the lowest HP percentage equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>. When in possession of \"<u>Certified Banger</u>\", additionally deals Ice <u>Elation DMG</u> equal to <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> of Pearl's DEF to the attacked enemy targets.",
+        "description": "Deals Ice DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Pearl's DEF to all enemies, restores HP for all allies equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>, and additionally restores HP for the ally target with the lowest HP percentage equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of Pearl's DEF plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>. When in possession of \"<u>Certified Banger</u>\", additionally deals <color=#f29e38ff><unbreak>#5[i]%</unbreak></color> Ice <u>Elation DMG</u> to the attacked enemy targets.",
         "simpleDescription": "Deals Ice DMG to all enemies and restores HP for all allies. When possessing \"<u>Certified Banger</u>,\" additionally deals Ice Elation DMG.",
         "type": "Normal",
         "typeName": "Basic ATK",
@@ -344722,7 +344722,7 @@
       "spNeed": 180
     },
     "liveComparison": {
-      "currentHash": "aa02a1541005921e10c6128af61e76b9e63db67b3a6dc9340137cbe08989089b"
+      "currentHash": "f7562c5ad01ba9b57780e6ba878ca83185b080d7fddc825f93b48e35157ce278"
     }
   },
   {
@@ -382502,7 +382502,7 @@
           },
           "1151205": {
             "name": "Near the Sea's Heartbeat",
-            "desc": "When Summer Songbirds are summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
+            "desc": "When the \"Summer Songbirds\" gets summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
             "simple_desc": "When summoned, regenerates Energy for Robin • Summeretto.",
             "type_name": "Memosprite Talent",
             "tag": "Support",
@@ -382578,7 +382578,7 @@
           },
           "1151206": {
             "name": "Astride Summer's Nightwind",
-            "desc": "When Summer Songbirds disappear, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
+            "desc": "When the \"Summer Songbirds\" disappears, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
             "simple_desc": "When disappearing, causes Robin • Summeretto to <u>advance action</u>.",
             "type_name": "Memosprite Talent",
             "tag": "Support",
@@ -382667,7 +382667,7 @@
     },
     "liveComparison": {
       "liveHash": "465d7c9b602e4f52c2b91b84e90a485c81b607e88a64da92a1745dadbd1fd0ff",
-      "currentHash": "473cd8af1731541123fc945e22ab7fadc14b7ef398d168d203bc6833847eac9e"
+      "currentHash": "b0e3c972c63ec7c2a2a3b10936e30b063ef06cf73bfca58f9d68e16a37919304"
     }
   },
   {
@@ -385794,7 +385794,7 @@
             "anchor": "Point07",
             "pointId": "1513102",
             "pointName": "Revel in Raging Tides",
-            "pointDescription": "At the start of combat, if the team includes an Elation character besides Aventurine • Waveflair, then while Aventurine • Waveflair is on the field, increases all allies' Elation by <unbreak>#5[i]%</unbreak> and Aventurine • Waveflair's Elation by an additional <unbreak>#1[i]%</unbreak>.\\nAt the start of combat, if Aventurine • Waveflair is the only Elation character in the team, then when Aventurine • Waveflair uses Elation Skill to deal DMG, it is considered as having launched <u>Follow-Up ATK</u>. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline</u>, and increases <u>Aha's</u> SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
+            "pointDescription": "At the start of the battle, if there are other Elation characters in the team besides Aventurine • Waveflair, while Aventurine • Waveflair is on the field, increases all allies' Elation by <unbreak>#5[i]%</unbreak>, with Aventurine • Waveflair's additionally increases by <unbreak>#1[i]%</unbreak>.\\nAt the start of the battle, if Aventurine • Waveflair is the only Elation character in the team, when Aventurine • Waveflair deals DMG using his Elation Skill, it is considered as launching a <u>Follow-Up ATK</u>. After a teammate uses an attack, Aventurine • Waveflair gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and <unbreak>#4[i]</unbreak> <u>Punchline(s)</u>, and increases <u>Aha</u>'s SPD by <unbreak>#3[i]</unbreak>. The SPD Boost effect lasts until the end of Aha Instant.",
             "pointType": 3,
             "triggerKey": 7,
             "defaultUnlock": false,
@@ -387681,7 +387681,7 @@
     },
     "liveComparison": {
       "liveHash": "ad6d62aa2b4df5830b9bf9b3a2bff3ce3c760b3b556a68e2fdea6bc59597e58d",
-      "currentHash": "1938c7dd0cd62dc54d8000440372cf2a684f93f199ef26654cd178d98878af12"
+      "currentHash": "7e20e9c4daca81c5d88f5141bcb389993a0ab49a6f5012766b49045b7452a2fb"
     }
   },
   {

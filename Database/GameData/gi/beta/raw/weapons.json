@@ -474,7 +474,7 @@
     "en": "Silver Light",
     "atk": 510,
     "sub": "FIGHT_PROP_ATTACK_PERCENT",
-    "desc": "",
+    "desc": "A longsword left behind by Wind Reader, one of the Three Hermits of Guizang in Liyue. Legend has it that it was forged out of sacred silver descended from the heavens, and that it once cleaved flowing sea water into two.",
     "ko": "은강검",
     "zh": "银釭",
     "ja": "銀の釭JP0D"
@@ -702,7 +702,7 @@
     "en": "Beyond the Chrysalis",
     "atk": 674,
     "sub": "FIGHT_PROP_CRITICAL_HURT",
-    "desc": "",
+    "desc": "A longsword brimming with light and color, and as weightless as a butterfly when brandished. It was once used by a certain individual to break bonds.",
     "ko": "나비의 우화",
     "zh": "蝶变",
     "ja": "蝶の羽化"
@@ -2418,7 +2418,7 @@
     "en": "Hymn of the Maelstrom",
     "atk": 542,
     "sub": "FIGHT_PROP_HP_PERCENT",
-    "desc": "",
+    "desc": "An exquisite lamp crafted out of blue chalcedony which looks like a treasure right out of a fairy tale. It is said that a song of praise, forgotten by all, slumbers sealed inside this lamp.",
     "ko": "파도의 찬송가",
     "zh": "漩流颂歌",
     "ja": "旋流の讃美歌"
@@ -2874,7 +2874,7 @@
     "en": "Breezeborne Refrain",
     "atk": 510,
     "sub": "FIGHT_PROP_CRITICAL",
-    "desc": "",
+    "desc": "A dark green bow string made out of pure and flawless gemstone. It never fails to summon a warm spring breeze whenever it is drawn.",
     "ko": "산들바람 활",
     "zh": "柔风游弦",
     "ja": "風に遊ぶ弦"
@@ -3399,7 +3399,7 @@
     "skin": true,
     "tag": "TAG_TYPE_NONE",
     "desc": "A star-hued longsword that flashes with radiance, a special weapon transmogrification that can only be equipped by the Traveler.\\n\\n<i>\"I am the nothingness at the dawn of all things. I am the spark newly born after all things have fallen into ruin.\"</i>\\n<i>\"Behold, my great work shall now be complete.\"</i>",
-    "ko": "",
+    "ko": "별빛검",
     "zh": "星锋剑",
     "ja": "星鋒の剣"
   },
@@ -3411,7 +3411,7 @@
     "skin": true,
     "tag": "TAG_TYPE_NONE",
     "desc": "A star-hued longsword that flashes with radiance, a special weapon transmogrification gifted by the Traveler to a friend.\\n\\n\"But this world shall never burn again, for the justice beyond this world has arrived.\"</i>\\n<i>\"Behold... The stars shine ever so bright tonight.\"</i>",
-    "ko": "",
+    "ko": "별빛검",
     "zh": "星锋剑",
     "ja": "星鋒の剣"
   }

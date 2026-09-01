@@ -23947,17 +23947,17 @@
   },
   {
     "id": "101333",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Bluebeech Wood",
     "rarity": 1,
     "type": "Material",
-    "description": "Wood from Bluebeeches with even grain patterns that can better withstand wear and tear. In Snezhnaya, it is often used in layered panels involved in structures and implements for long-term use.",
+    "description": "Wood from Bluebeeches, featuring a relatively even grain and good resistance to wear. In Snezhnaya, it is commonly processed into various types of boards for making implements and constructing buildings intended for long-term use...",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_101333.webp"
     },
     "liveComparison": {
       "liveHash": "3e77bc43d7e13bb4f308b1b8349290c7c27bb0232824ea3a34b762fd4941fbb1",
-      "currentHash": "3e77bc43d7e13bb4f308b1b8349290c7c27bb0232824ea3a34b762fd4941fbb1"
+      "currentHash": "38e5d5746113cb82f740ffbea70db7c935222283cfe62fa10aa902f9af3b7887"
     }
   },
   {
@@ -86714,17 +86714,17 @@
   },
   {
     "id": "130047",
-    "contentStatus": "live",
-    "name": "Golden Fern Seed",
+    "contentStatus": "beta_changed",
+    "name": "Golden Fern Spore",
     "rarity": 0,
     "type": "Material",
-    "description": "A seed obtained from the Seed Dispensary. A quality seed full of life, just waiting to be planted in the fields of the Realm Within. After some time, it will grow into a Golden Fern.",
+    "description": "A spore obtained from the Seed Dispensary. Brimming with vitality and of excellent quality, it can be planted in the fields of the Realm Within, where it will grow into a Golden Fern after a period of time.",
     "assets": {
       "icon": "GameData/gi/assets/items/UI_ItemIcon_130047.webp"
     },
     "liveComparison": {
       "liveHash": "8c5b237d5ecf1f45962718b96a1e6058075921df9b566cc44c34fc18047a525c",
-      "currentHash": "8c5b237d5ecf1f45962718b96a1e6058075921df9b566cc44c34fc18047a525c"
+      "currentHash": "a9456ec18a307715796f71e3fd16c2bae1632ac9e219b5bf6b7478eeaadbe406"
     }
   },
   {
@@ -92424,12 +92424,13 @@
   {
     "id": "200129",
     "contentStatus": "beta",
-    "name": "青翦垂缨",
+    "name": "Tea-Scented Tassel",
     "rarity": 4,
     "type": "Refinement Material",
+    "description": "Refinement material for \"Silver Light.\"\\nA tassel carrying the fragrance of freshly picked tea leaves, with the spiritual power of the Wind Reader held deep within. When lightly brushed across the mithril blade, it seems to restore its keen edge.",
     "assets": {},
     "liveComparison": {
-      "currentHash": "20affbaaa2c622312d047121976e3c1f0b7422125126f558c855636a7d93b7ee"
+      "currentHash": "9b7c97866d3f027e5ebcbb185bad26a28b4940d8d34d1e85d6a98627e8ebfc65"
     }
   },
   {
@@ -97892,7 +97893,7 @@
   {
     "id": "210298",
     "contentStatus": "beta",
-    "name": "Battle Pass: Moonward",
+    "name": "Travel Notes: Moontrace",
     "rarity": 4,
     "type": "ITEM_MATERIAL",
     "description": "Namecard Style.\\n\"Swallows depart, wild geese fly south, while moonlight gleams afar.\"",
@@ -97900,7 +97901,7 @@
       "icon": "GameData/gi/assets/items/UI_NameCardIcon_Bp53.webp"
     },
     "liveComparison": {
-      "currentHash": "c3d9f93831418117a268aacd19860ade9463718eeeba28953fcedacc450897dc"
+      "currentHash": "ec6825f0c1f704d70b7ad6d46121a9bc2f513b2259323950ff2918b90710155a"
     }
   },
   {

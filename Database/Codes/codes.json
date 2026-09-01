@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T09:41:16.758Z",
+  "generatedAt": "2026-09-01T10:48:04.102Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,8 +9,18 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-08-31T09:41:16.758Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.785Z",
       "codes": [
+        {
+          "code": "DUGODWKRHAKDNJ",
+          "rewards": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
+          "added": "2026-09-01",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-09-01T05:53:34.732Z"
+        },
         {
           "code": "Y1INABQB6DEX",
           "rewards": "60 Primogems, 5 Adventurer S Experience",
@@ -38,8 +48,8 @@
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
           "premium": false,
           "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-08-13T07:48:02.606Z"
+          "cwSeen": false,
+          "firstSeen": "2026-09-01T08:36:52.102Z"
         },
         {
           "code": "MYSNEZHNAYACAREER",
@@ -102,22 +112,6 @@
           "premium100": false,
           "cwSeen": false,
           "firstSeen": "2026-08-12T13:38:10.848Z"
-        },
-        {
-          "code": "GS70YTASTJ",
-          "rewards": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
-          "added": "2026-08-06",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [
-            "GS70XINGOJ",
-            "GS70XRNWFB"
-          ],
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-08-12T07:46:42.167Z"
         }
       ]
     },
@@ -128,7 +122,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-08-31T09:41:08.931Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.791Z",
       "codes": [
         {
           "code": "SUNSWEPTROBIN",
@@ -245,7 +239,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-08-31T09:41:10.523Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:04.102Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -299,7 +293,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-08-31T09:41:11.324Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.709Z",
       "codes": []
     },
     {
@@ -309,7 +303,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-08-31T09:41:12.924Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.728Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-01T17:56:41.038Z",
+  "generatedAt": "2026-09-01T19:01:36.289Z",
   "codes": {
-    "updated": "2026-09-01T15:19:20.765Z",
+    "updated": "2026-09-01T19:01:16.165Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -95,20 +95,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
-          "code": "LEGEDILJKSGM",
-          "reward": "Primogem x 60, Adventurer's Experience x 5",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-11",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
-        },
-        {
           "code": "2BJ64QRZ7RT8",
           "reward": "60 Primogems and Five Adventurer S Experience",
           "premium": true,
@@ -138,6 +124,20 @@ var NYX_DB = {
         }
       ],
       "hsr": [
+        {
+          "code": "8SMSVJWJM7ZT",
+          "reward": "50 Stellar Jade, 10000 Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-01T15:19:20.448Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=8SMSVJWJM7ZT"
+        },
         {
           "code": "SUNSWEPTROBIN",
           "reward": "2 Classic Soulglad, 3 Traveler S Guide",
@@ -6474,20 +6474,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T07:46:42.167Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
-        },
-        {
-          "code": "LEGEDILJKSGM",
-          "reward": "Primogem x 60, Adventurer's Experience x 5",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-11",
-          "firstSeen": "2026-07-05T17:19:20.440Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=LEGEDILJKSGM"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -173223,6 +173209,20 @@ var NYX_DB = {
         }
       ],
       "codes": [
+        {
+          "code": "8SMSVJWJM7ZT",
+          "reward": "50 Stellar Jade, 10000 Credit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Stellar Jade",
+            "needle": "stellar jade",
+            "icon": "../../Database/GameData/hsr/assets/items/900001.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-01T15:19:20.448Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Honkai_Star_Rail",
+          "redeemUrl": "https://hsr.hoyoverse.com/gift?code=8SMSVJWJM7ZT"
+        },
         {
           "code": "SUNSWEPTROBIN",
           "reward": "2 Classic Soulglad, 3 Traveler S Guide",

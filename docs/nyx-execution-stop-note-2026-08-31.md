@@ -1,6 +1,6 @@
 # Nyx — saved stopping point
 
-Saved: 2026-09-01, 20:26 CEST / 18:26 UTC.
+Saved: 2026-09-01, 20:42 CEST / 18:42 UTC.
 
 The goal is blocked, not complete. Public launcher `v1.7` and live Site/receiver `73ce188afcb927ac4363fad6bafb78a771c611ee` are unchanged; nothing was republished or redeployed.
 
@@ -10,7 +10,7 @@ Prepared operator: `D:\PengoNyx\Nyx Launcher\Validation\phase15-hsr-manual-sync-
 
 After focus, verify that HSR Connect opens the official Account Log In form immediately. The user then privately handles login/CAPTCHA, recovery codes, consent, comparison, rotation, and each exact removal confirmation in steps 3-8 of the [execution tracker](nyx-launcher-endfield-hoyolab-execution-tracker-2026-08-24.md#next---hsr-manual-sync-in-one-sitting-exact-private-candidate-active-focus-and-login-proof-pending). Never put a private value or screenshot in chat. Launcher publication remains a separate approval.
 
-STOP 6B, 6D and 10 remain evidence-blocked by missing HSR complete-bag/account wire proof, Genshin current-wire/complete-bag proof, and licensed Endfield achievement catalog/MD5/account proof. Their dependent phases remain closed. The HoYoWiki shadow lane still has two distinct healthy changed observations; the required third has not arrived.
+STOP 6B, 6D and 10 remain evidence-blocked by missing HSR complete-bag/account wire proof, Genshin current-wire/complete-bag proof, and licensed Endfield achievement catalog/MD5/account proof. Their dependent phases remain closed. The HoYoWiki shadow lane has two genuine changed observations plus confirmed version-boundary evidence from healthy run `33540189461`; the required third genuine upstream change has not arrived.
 
 No authentication, upload, deletion, game, installation, stable package, tag, release, product deployment, force-close or shutdown occurred during this resume. The earlier one-time shutdown instruction was consumed on 2026-08-31 and must not be repeated without a new request.
 

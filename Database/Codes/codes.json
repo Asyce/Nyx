@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T08:36:52.102Z",
+  "generatedAt": "2026-09-01T10:48:04.102Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,16 +9,13 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-01T08:36:52.102Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.785Z",
       "codes": [
         {
           "code": "DUGODWKRHAKDNJ",
-          "rewards": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "rewards": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
           "added": "2026-09-01",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [],
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
           "premium": true,
           "premium100": false,
           "cwSeen": true,
@@ -125,7 +122,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-01T08:36:44.133Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.791Z",
       "codes": [
         {
           "code": "SUNSWEPTROBIN",
@@ -242,7 +239,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-01T08:36:45.723Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:04.102Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -296,7 +293,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-01T08:36:46.522Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.709Z",
       "codes": []
     },
     {
@@ -306,7 +303,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-01T08:36:48.124Z",
+      "lastSuccessfulFetch": "2026-09-01T10:48:03.728Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

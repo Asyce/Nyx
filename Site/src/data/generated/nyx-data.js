@@ -4,15 +4,15 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-01T08:38:01.122Z",
+  "generatedAt": "2026-09-01T10:48:23.974Z",
   "codes": {
-    "updated": "2026-09-01T08:36:52.102Z",
+    "updated": "2026-09-01T10:48:04.102Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
         {
           "code": "DUGODWKRHAKDNJ",
-          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -21,7 +21,7 @@ var NYX_DB = {
           },
           "added": "2026-09-01",
           "firstSeen": "2026-09-01T05:53:34.732Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
         },
         {
@@ -628,69 +628,6 @@ var NYX_DB = {
           "source": "prydwen"
         },
         "current": {
-          "phase": "7.0 Phase 1",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-01T09:59:59.000Z",
-          "characters": [
-            {
-              "name": "Odette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Alyosha",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
-              "rarity": 4,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Sucrose",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sucrose.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2020-10-20"
-            },
-            {
-              "name": "Lynette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Linette.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-08-16"
-            },
-            {
-              "name": "Arlecchino",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-24"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "7.0 Phase 2",
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T06:59:00.000Z",
@@ -698,7 +635,7 @@ var NYX_DB = {
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -742,7 +679,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -753,6 +690,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": [
           {
             "phase": "Patch 7.X",
@@ -6455,7 +6393,7 @@ var NYX_DB = {
       "codes": [
         {
           "code": "DUGODWKRHAKDNJ",
-          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -6464,7 +6402,7 @@ var NYX_DB = {
           },
           "added": "2026-09-01",
           "firstSeen": "2026-09-01T05:53:34.732Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
         },
         {
@@ -6590,69 +6528,6 @@ var NYX_DB = {
           "source": "prydwen"
         },
         "current": {
-          "phase": "7.0 Phase 1",
-          "start": "2026-08-12T03:00:00.000Z",
-          "end": "2026-09-01T09:59:59.000Z",
-          "characters": [
-            {
-              "name": "Odette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Odette_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Odette.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Odette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Odette.png",
-              "rarity": 5,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Alyosha",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Alyosha_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Alyosha.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Alyosha.png",
-              "rarity": 4,
-              "debut": true,
-              "debutAt": "2026-08-12"
-            },
-            {
-              "name": "Sucrose",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Sucrose_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Sucrose.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Sucrose.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2020-10-20"
-            },
-            {
-              "name": "Lynette",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Linette_Circle.webp",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Linette.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Linette.png",
-              "rarity": 4,
-              "debut": false,
-              "debutAt": "2023-08-16"
-            },
-            {
-              "name": "Arlecchino",
-              "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Arlecchino_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Arlecchino.webp",
-              "iconZoom": false,
-              "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Arlecchino.webp",
-              "namecard": "../../Database/GenshinWiki/namecards/Arlecchino.png",
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2024-04-24"
-            }
-          ],
-          "subBanners": []
-        },
-        "next": {
           "phase": "7.0 Phase 2",
           "start": "2026-09-01T10:00:00.000Z",
           "end": "2026-09-22T06:59:00.000Z",
@@ -6660,7 +6535,7 @@ var NYX_DB = {
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -6704,7 +6579,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
+              "iconFallback": null,
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -6715,6 +6590,7 @@ var NYX_DB = {
           ],
           "subBanners": []
         },
+        "next": null,
         "upcoming": [
           {
             "phase": "Patch 7.X",

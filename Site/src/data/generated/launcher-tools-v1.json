@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T14:12:45.194Z",
+  "generatedAt": "2026-09-01T19:13:02.799Z",
   "tools": [
     {
       "game": "gi",
@@ -36,7 +36,7 @@
       "game": "hsr",
       "id": "material-calculator",
       "label": "Material Calculator",
-      "url": "https://act.hoyolab.com/sr/event/calculator/index.html"
+      "url": "https://act.hoyolab.com/sr/event/cultivation-tool/index.html?game_biz=hkrpg_global&hyl_auth_required=true&hyl_hide_status_bar=true&hyl_landscape=true&hyl_presentation_style=fullscreen&mode=fullscreen&utm_campaign=CultivationTool&utm_id=6&utm_medium=tools&utm_source=hoyolab&win_mode=fullscreen#/tools/calculation?target=Character"
     },
     {
       "game": "hsr",

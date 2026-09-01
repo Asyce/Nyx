@@ -14,7 +14,7 @@ const expectedTools = [
   { game: 'gi', id: 'battle-records', label: 'Battle Records', url: 'https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=2#/ys' },
   { game: 'gi', id: 'upgrade-guide', label: 'Upgrade Guide', url: 'https://act.hoyolab.com/ys/event/bbs-lineup-ys-sea/index.html' },
   { game: 'hsr', id: 'wiki', label: 'Wiki', url: 'https://wiki.hoyolab.com/pc/hsr/home' },
-  { game: 'hsr', id: 'material-calculator', label: 'Material Calculator', url: 'https://act.hoyolab.com/sr/event/calculator/index.html' },
+  { game: 'hsr', id: 'material-calculator', label: 'Material Calculator', url: 'https://act.hoyolab.com/sr/event/cultivation-tool/index.html?game_biz=hkrpg_global&hyl_auth_required=true&hyl_hide_status_bar=true&hyl_landscape=true&hyl_presentation_style=fullscreen&mode=fullscreen&utm_campaign=CultivationTool&utm_id=6&utm_medium=tools&utm_source=hoyolab&win_mode=fullscreen#/tools/calculation?target=Character' },
   { game: 'hsr', id: 'battle-records', label: 'Battle Records', url: 'https://act.hoyolab.com/app/community-game-records-sea/index.html?gid=6#/hsr' },
   { game: 'hsr', id: 'upgrade-guide', label: 'Upgrade Guide', url: 'https://act.hoyolab.com/sr/event/cultivation-tool/#/tools/suggestion' },
   { game: 'zzz', id: 'wiki', label: 'Wiki', url: 'https://wiki.hoyolab.com/pc/zzz/home' },

@@ -38,6 +38,7 @@ The source documents remain evidence for their locked contracts. Where their old
 - Use coherent per-repository commits. A phase is a review bundle, not necessarily one commit.
 - Re-fetch before every push and release. Reconcile compatible upstream changes without rewriting published history and rerun affected checks; never force-push. Stop if an upstream change invalidates a locked assumption.
 - Synthetic identities are used for screenshots. Real-account verification is observed locally without capture or is redacted.
+- Treat a HoYoLAB failure inside Nyx as a Nyx integration defect first. Reproduce the exact official page in a normal browser before classifying an official outage; only the same independent failure supports that classification.
 - Never store cookies, tokens, passwords, signed URLs, authenticated response bodies, raw logs, or real identities in Git, CI, diagnostics, screenshots, handoffs, or the tracker.
 - Feature releases increment the latest stable minor; repairs after publication increment the patch. Never reuse a tag/version. Tag, assembly, four-part package version, commit, channel, file tree, manifest, sizes, and SHA-256 hashes must agree.
 - Deploy additive Site/Worker receivers before launcher capability flags and retain old contracts.
@@ -447,16 +448,19 @@ Start only after Release C is published and marked complete.
 7. Add delete-one-role, one-game, all-HoYo, HoYo-only Worker `delete-account`, and separately confirmed entire-Pengo deletion. Recovery-code rotation conditionally retires the old cloud copy only if its revision still matches the copy transferred: check and delete atomically, persist the exact condition for retries, and keep a changed copy visibly pending without rebasing or forcing deletion. An omitted condition means ordinary explicit deletion; an explicit null expects an absent bundle, and already-absent account retries succeed.
 8. Add website My HoYo, role/capability status, sync health, deletion, and cards only for complete enabled capabilities. Initially render HSR resources and completed achievements only. Inventory-aware materials, owned builds, and other record cards stay absent until their later capability gate proves complete data.
 9. Keep full materials/gear UI on the website; launcher gets quick status, role management, sync, and Open My HoYo. Stale/unsupported data links to the official tool and never shows fake zero progress.
+10. For a newly created or v1-migrated HSR bundle, default only the two complete local Remember capabilities - resources and completed achievements - on. Preserve every existing v2 choice, let the user turn either one off, and keep every unsupported capability off. This local default never opts the user into manual or automatic cloud sync.
 
 Deployment recovery note (verified 2026-08-31): Cloudflare blocks old-version rollback across a Durable Object class lifecycle change. Record the last live version before the first `hoyo-sync-v1` migration, but use the storage-preserving forward recovery above if it is needed. See [Cloudflare rollback limits](https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/#bindings). This changes recovery procedure only, not the reviewed receiver or production gates.
 
 ### STOP 15
 
-- Items 1-9 and the applicable resource/achievement cards, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo. Native HSR Connect opens the official Account Log In form directly, credentials/CAPTCHA remain user-controlled, and the publisher window uses only the normal Windows caption controls. Unsupported inventory/build/calculator/record surfaces remain unrendered, and automatic sync remains off.
+- Items 1-10 and the applicable resource/achievement cards, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo. Native HSR Connect opens the official Account Log In form directly, credentials/CAPTCHA remain user-controlled, and the publisher window uses only the normal Windows caption controls. The two complete local Remember capabilities default on only for new/migrated bundles and remain individually switchable, existing v2 choices are preserved, unsupported inventory/build/calculator/record surfaces remain unrendered, and automatic sync remains off.
 
 ## Phase 16 - Genshin account capabilities
 
 Add roles, resin/check-in, inventory, characters, talents, weapons, artifacts, exploration, Spiral Abyss, Imaginarium Theater, events, and currency reports where complete. Do not add a HoYo account-achievement capability; preserve the existing separate Genshin achievement export unchanged.
+
+Reuse the Phase 15 local Remember rule: complete supported capabilities default on for a newly created/migrated bundle and remain individually switchable; existing v2 choices are preserved and incomplete capabilities stay off. Manual and automatic cloud sync remain separate choices.
 
 ### STOP 16
 
@@ -465,6 +469,8 @@ Add roles, resin/check-in, inventory, characters, talents, weapons, artifacts, e
 ## Phase 17 - ZZZ account capabilities
 
 Add roles, battery/check-in, inventory, Agents, skills, W-Engines, Drive Discs, Hollow Zero, Shiyu Defense, Deadly Assault, events, and currency reports where complete. Do not add a HoYo account-achievement capability; preserve the separate ZZZ achievement lane's current disabled state.
+
+Reuse the Phase 15 local Remember rule: complete supported capabilities default on for a newly created/migrated bundle and remain individually switchable; existing v2 choices are preserved and incomplete capabilities stay off. Manual and automatic cloud sync remain separate choices.
 
 ### STOP 17
 

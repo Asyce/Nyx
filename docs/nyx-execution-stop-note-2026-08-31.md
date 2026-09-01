@@ -1,6 +1,6 @@
 # Nyx — saved stopping point
 
-Saved: 2026-09-01, 06:02 CEST / 04:02 UTC.
+Saved: 2026-09-01, 06:25 CEST / 04:25 UTC.
 
 The goal is blocked, not complete, only after exhausting every currently safe independent lane. Phase 15's receiver, exact private launcher package, hosted checks, corrected fake-profile window, cancel/reopen behavior, and two full AppData restorations now pass. Public launcher `v1.7` and live Site/receiver `73ce188afcb927ac4363fad6bafb78a771c611ee` are unchanged; nothing was republished or redeployed.
 
@@ -8,7 +8,7 @@ The one remaining Phase 15 block needs the user present for private actions: ded
 
 Prepared user-present operator: `D:\PengoNyx\Nyx Launcher\Validation\phase15-hsr-manual-sync-5cfcee7\Run-Phase15-HSR-Manual-Sync-Check.ps1`, 12,279 bytes, SHA-256 `c97faab6b384719116ba424463e9c6c9b5283cf9fcc65b74dc7522210b8c4ba6`. Parser, recovery-only and sealed-package verification pass; independent Sol review reports no P0-P3 findings. It was not started in private mode. Before `START` it warns that its isolated signed-in test profile is retained locally between Phase 15 blocks. Do not reopen Nyx after closing the candidate until it prints `NYX_PHASE15_HSR_CHECK=RESTORED`.
 
-While that private block was unavailable, every named HSR relic, Genshin artifact, and Endfield achievement source was rechecked. None supplied the missing complete-bag/current-wire/account/catalog proof, so STOP 6B, 6D and 10 remain evidence-blocked and no dependent implementation is safe to start. No other phase is currently unlocked.
+While that private block was unavailable, every named HSR relic, Genshin artifact, and Endfield achievement source was rechecked. None supplied the missing complete-bag/current-wire/account/catalog proof, so STOP 6B, 6D and 10 remain evidence-blocked and no dependent implementation is safe to start. A later normal Phase 13 schedule produced the first healthy changed post-baseline observation, but one observation does not meet the three-genuine-change/version-boundary gate; it promoted nothing and unlocked no phase. No other phase is currently unlocked.
 
 Normal Nyx data is restored: canonical root present, legacy root absent as before, no isolation marker/backup, and zero Nyx processes. No authentication, upload, deletion, game, updater, installation, tag, release, launcher/Site product push, deployment, force-close, or shutdown was performed during this resume.
 

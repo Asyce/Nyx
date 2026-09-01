@@ -4,12 +4,26 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-08-31T20:19:02.322Z",
+  "generatedAt": "2026-09-01T05:53:55.181Z",
   "codes": {
-    "updated": "2026-08-31T09:41:16.758Z",
+    "updated": "2026-09-01T05:53:34.732Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "DUGODWKRHAKDNJ",
+          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-01T05:53:34.732Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
+        },
         {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
@@ -37,20 +51,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-16T13:24:44.154Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
-        },
-        {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-08-13T07:48:02.606Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
         {
           "code": "MYSNEZHNAYACAREER",
@@ -121,20 +121,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T13:38:10.848Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
-        },
-        {
-          "code": "GS70YTASTJ",
-          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-06",
-          "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         }
       ],
       "hsr": [
@@ -6454,6 +6440,20 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "DUGODWKRHAKDNJ",
+          "reward": "30 Primogem, 10000 Mora, 3 Hero's Wit, 3 Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-01T05:53:34.732Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
+        },
+        {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
           "premium": true,
@@ -6480,20 +6480,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-16T13:24:44.154Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
-        },
-        {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-08-13T07:48:02.606Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
         },
         {
           "code": "MYSNEZHNAYACAREER",
@@ -6564,20 +6550,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-12T13:38:10.848Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
-        },
-        {
-          "code": "GS70YTASTJ",
-          "reward": "30000 Mora, 5 Hero's Wit, 5 Mystic Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-06",
-          "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70YTASTJ"
         }
       ],
       "banners": {

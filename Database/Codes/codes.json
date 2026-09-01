@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:48:04.102Z",
+  "generatedAt": "2026-09-01T15:19:20.765Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.785Z",
+      "lastSuccessfulFetch": "2026-09-01T15:19:20.570Z",
       "codes": [
         {
           "code": "DUGODWKRHAKDNJ",
@@ -122,8 +122,19 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.791Z",
+      "lastSuccessfulFetch": "2026-09-01T15:19:20.448Z",
       "codes": [
+        {
+          "code": "8SMSVJWJM7ZT",
+          "rewards": "",
+          "added": "2026-09-01",
+          "sourceUrl": "https://hsr.hoyoverse.com/gift?code=8SMSVJWJM7ZT",
+          "hoyoVerified": true,
+          "premium": false,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-09-01T15:19:20.448Z"
+        },
         {
           "code": "SUNSWEPTROBIN",
           "rewards": "2 Classic Soulglad, 3 Traveler S Guide",
@@ -239,7 +250,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:04.102Z",
+      "lastSuccessfulFetch": "2026-09-01T15:19:20.764Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -293,7 +304,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.709Z",
+      "lastSuccessfulFetch": "2026-09-01T15:19:20.314Z",
       "codes": []
     },
     {
@@ -303,7 +314,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-01T10:48:03.728Z",
+      "lastSuccessfulFetch": "2026-09-01T15:19:20.351Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

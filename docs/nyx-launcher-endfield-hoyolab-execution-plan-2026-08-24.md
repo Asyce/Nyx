@@ -38,7 +38,8 @@ The source documents remain evidence for their locked contracts. Where their old
 - Use coherent per-repository commits. A phase is a review bundle, not necessarily one commit.
 - Re-fetch before every push and release. Reconcile compatible upstream changes without rewriting published history and rerun affected checks; never force-push. Stop if an upstream change invalidates a locked assumption.
 - Synthetic identities are used for screenshots. Real-account verification is observed locally without capture or is redacted.
-- Treat a HoYoLAB failure inside Nyx as a Nyx integration defect first. Reproduce the exact official page in a normal browser before classifying an official outage; only the same independent failure supports that classification.
+- Treat an official HoYo, Kuro, or Endfield page failure inside Nyx as a Nyx integration defect first. Reproduce the exact page in a normal browser before classifying an official outage; only the same independent failure supports that classification.
+- Once HTTPS, the selected game/provider, default port, no user info, and an exact publisher-owned root domain or subdomain pass, do not path-, method-, query-, or body-filter that publisher's web traffic. Reject external and lookalike domains, keep downloads/device permissions outside the account flow, and validate the exact game, role, UID, response shape, bounds, and timestamps before Nyx saves data.
 - Never store cookies, tokens, passwords, signed URLs, authenticated response bodies, raw logs, or real identities in Git, CI, diagnostics, screenshots, handoffs, or the tracker.
 - Feature releases increment the latest stable minor; repairs after publication increment the patch. Never reuse a tag/version. Tag, assembly, four-part package version, commit, channel, file tree, manifest, sizes, and SHA-256 hashes must agree.
 - Deploy additive Site/Worker receivers before launcher capability flags and retain old contracts.
@@ -426,7 +427,7 @@ Start only after Release C is published and marked complete.
 
 ## Phase 14 - Local HSR multi-role bundles
 
-1. Reuse one isolated HoYo WebView profile, exact allowlists, per-capability consent, one operation gate, cancellation generation, and stale-result rejection. HSR Connect must open the exact official Account Log In form directly; do not depend on a scripted avatar click or other page-DOM automation.
+1. Reuse one isolated HoYo WebView profile, official-domain trust with strict save-time validation, per-capability consent, one operation gate, cancellation generation, and stale-result rejection. HSR Connect must open the exact official Account Log In form directly; do not depend on a scripted avatar click or other page-DOM automation.
 2. Disable downloads, popups, permissions, autofill, and password saving. Credentials/CAPTCHA stay user-controlled; cookies stay in the profile.
 3. Store up to eight roles per game in one Windows-protected v2 file; never put UID in a filename.
 4. Keep separate observations for resources, inventory, builds, achievements, exploration, endgame, events, and currency. Missing means not refreshed; deletion requires a timestamped tombstone.
@@ -497,7 +498,7 @@ Run and record:
 - every different-game pair, same-game rapid launch, process exit, identity, banner size/name/scaling, preload, background, keyboard, screen-reader, high-contrast, and black-frame case;
 - external-source pin/license/permission and packaged-notice checks; no-install Packet Monitor ownership/non-interference/no-file tests; any Npcap fallback's public-release gates; one-session combined capture; HSR Fribbels-v4 and Genshin GOOD-v3 completeness/schema/current-patch/account/limit/cancellation/cleanup/import cases; and existing pull/achievement byte and behavior regressions;
 - Endfield parsing, pagination, limits, cancellation, atomic file, bridge security, duplicate/account/rule, achievement proof, and Playtime boundary cases;
-- HoYo source coverage, calculators, allowlists, role limits, migrations, JS/.NET encryption vectors, tampering, game swaps, merges, tombstones, conflicts, rotation, deletion retry, metadata privacy, pull compatibility, and multi-device behavior;
+- HoYo source coverage, calculators, official-domain/lookalike handling, save-time validation, role limits, migrations, JS/.NET encryption vectors, tampering, game swaps, merges, tombstones, conflicts, rotation, deletion retry, metadata privacy, pull compatibility, and multi-device behavior;
 - receiver-first deployment, immutable launcher packages, live production version/package/R2 checks, and rollback proof.
 
 Completion requires every unconditional phase and release marked `complete`, every remaining item explicitly `blocked` or `not-applicable` with evidence, and a final plan/tracker consistency review. Endfield achievements, the no-install capture path, HSR relics, and Genshin artifacts may finish only as proven/released or explicitly evidence-blocked; one blocked optional source/capture lane never authorizes incomplete output or a regression in an existing export.

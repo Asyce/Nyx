@@ -358,23 +358,23 @@
   "materials": "10:12000,101016:4|10:28000,101026:12|10:60000,101026:20|10:100000,101036:10|10:200000,101036:20",
   "talents": {
     "1": {
-      "name": "...",
+      "name": "Bloodthirst",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>25%</color>, and <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>15%</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> or triggers <color=#FFFFFF>Maim</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>10%</color> for 40s. Repeated triggers refresh the duration."
     },
     "2": {
-      "name": "...",
+      "name": "Bloodthirst",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>27.5%</color>, and <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>17.5%</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> or triggers <color=#FFFFFF>Maim</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>11.5%</color> for 40s. Repeated triggers refresh the duration."
     },
     "3": {
-      "name": "...",
+      "name": "Bloodthirst",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>30%</color>, and <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>20%</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> or triggers <color=#FFFFFF>Maim</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>13%</color> for 40s. Repeated triggers refresh the duration."
     },
     "4": {
-      "name": "...",
+      "name": "Bloodthirst",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>32.5%</color>, and <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>22.5%</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> or triggers <color=#FFFFFF>Maim</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>14.5%</color> for 40s. Repeated triggers refresh the duration."
     },
     "5": {
-      "name": "...",
+      "name": "Bloodthirst",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>35%</color>, and <color=#2EB6FF>Electric DMG</color> increases by <color=#2BAD00>25%</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> or triggers <color=#FFFFFF>Maim</color>, <color=#2EB6FF>Electric Sharp DMG</color> dealt increases by <color=#2BAD00>16%</color> for 40s. Repeated triggers refresh the duration."
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": 14162,
   "code_name": "Weapon_S_1621",
-  "name": "...",
+  "name": "Crimson Moon Casket",
   "desc": "...",
   "desc2": "Equip to increase Stun Agents' combat capabilities",
   "desc3": "...",
@@ -358,23 +358,23 @@
   "materials": "10:12000,101011:4|10:28000,101021:12|10:60000,101021:20|10:100000,101031:10|10:200000,101031:20",
   "talents": {
     "1": {
-      "name": "...",
+      "name": "Sleepless Eternal Night",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>24%</color>. DMG dealt ignores <color=#2BAD00>15%</color> of the target's <color=#A6C5FD>Wind RES</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> to deal <color=#A6C5FD>Wind DMG</color>, Daze dealt increases by <color=#2BAD00>16%</color>, and DMG dealt by all other squad members increases by <color=#2BAD00>20%</color>, for 50s. Repeated triggers reset the duration. Only one instance of the DMG increase effect can exist in the same squad."
     },
     "2": {
-      "name": "...",
+      "name": "Sleepless Eternal Night",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>26%</color>. DMG dealt ignores <color=#2BAD00>17.3%</color> of the target's <color=#A6C5FD>Wind RES</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> to deal <color=#A6C5FD>Wind DMG</color>, Daze dealt increases by <color=#2BAD00>18.4%</color>, and DMG dealt by all other squad members increases by <color=#2BAD00>23%</color>, for 50s. Repeated triggers reset the duration. Only one instance of the DMG increase effect can exist in the same squad."
     },
     "3": {
-      "name": "...",
+      "name": "Sleepless Eternal Night",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>28%</color>. DMG dealt ignores <color=#2BAD00>19.5%</color> of the target's <color=#A6C5FD>Wind RES</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> to deal <color=#A6C5FD>Wind DMG</color>, Daze dealt increases by <color=#2BAD00>20.8%</color>, and DMG dealt by all other squad members increases by <color=#2BAD00>26%</color>, for 50s. Repeated triggers reset the duration. Only one instance of the DMG increase effect can exist in the same squad."
     },
     "4": {
-      "name": "...",
+      "name": "Sleepless Eternal Night",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>30%</color>. DMG dealt ignores <color=#2BAD00>21.8%</color> of the target's <color=#A6C5FD>Wind RES</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> to deal <color=#A6C5FD>Wind DMG</color>, Daze dealt increases by <color=#2BAD00>23.2%</color>, and DMG dealt by all other squad members increases by <color=#2BAD00>29%</color>, for 50s. Repeated triggers reset the duration. Only one instance of the DMG increase effect can exist in the same squad."
     },
     "5": {
-      "name": "...",
+      "name": "Sleepless Eternal Night",
       "desc": "The equipper's CRIT Rate increases by <color=#2BAD00>32%</color>. DMG dealt ignores <color=#2BAD00>24%</color> of the target's <color=#A6C5FD>Wind RES</color>. When the equipper uses an <color=#FFFFFF>EX Special Attack</color> to deal <color=#A6C5FD>Wind DMG</color>, Daze dealt increases by <color=#2BAD00>25.6%</color>, and DMG dealt by all other squad members increases by <color=#2BAD00>32%</color>, for 50s. Repeated triggers reset the duration. Only one instance of the DMG increase effect can exist in the same squad."
     }
   }

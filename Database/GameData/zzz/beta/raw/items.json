@@ -2121,7 +2121,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1621.png",
     "rank": 4,
     "class": 5,
-    "name": "..."
+    "name": "Crimson Moon Casket"
   },
   "20102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconRoleAwaken_1021.png",
@@ -18861,13 +18861,13 @@
     "name": "[Roxy] Hammered to Perfection"
   },
   "1350322": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
     "rank": 4,
     "class": 80,
     "name": "[Roxy] Eternal Slumber"
   },
   "1350323": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic112.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic111.png",
     "rank": 4,
     "class": 80,
     "name": "[Roxy] Lantern Carrying Wanderer"
@@ -32538,13 +32538,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_083.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360054_Name"
+    "name": "ZKItem_4360055_Name"
   },
   "4360055": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_084.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360055_Name"
+    "name": "ZKItem_4360054_Name"
   },
   "4360056": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_085.png",

@@ -55,7 +55,7 @@ const CM_BETA_META = {
     "changedCount": 0
   },
   "hsr": {
-    "version": "4.5.51",
+    "version": "4.5.52",
     "liveVersion": "4.5",
     "newCount": 1,
     "changedCount": 42

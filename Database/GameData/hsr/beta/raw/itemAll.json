@@ -19897,7 +19897,7 @@
     "purpose_type": 16,
     "is_visible": true,
     "item_name": "...",
-    "item_bg_desc": "...",
+    "item_bg_desc": "",
     "item_icon_path": "SpriteOutput/ItemIcon/190023.png",
     "item_figure_icon_path": "SpriteOutput/ItemIcon/190023.png",
     "item_currency_icon_path": "SpriteOutput/ItemIcon/190023.png",

@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["hsr"] = {
-  "version": "4.5.51",
+  "version": "4.5.52",
   "liveVersion": "4.5",
   "newCount": 1,
   "changedCount": 42,
@@ -181,7 +181,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -2193,7 +2193,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -4261,7 +4261,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -6153,7 +6153,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -6878,51 +6878,51 @@
               {
                 "name": "Revel in Raging Tides",
                 "type": "Major Trace",
-                "desc": "At the start of combat, if the team includes an Elation character besides Aventurine \u2022 Waveflair, then while Aventurine \u2022 Waveflair is on the field, increases all allies' Elation by 20% and Aventurine \u2022 Waveflair's Elation by an additional 80%.\nAt the start of combat, if Aventurine \u2022 Waveflair is the only Elation character in the team, then when Aventurine \u2022 Waveflair uses Elation Skill to deal DMG, it is considered as having launched Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 \"Certified Banger\" and 1 Punchline, and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
+                "desc": "At the start of the battle, if there are other Elation characters in the team besides Aventurine \u2022 Waveflair, while Aventurine \u2022 Waveflair is on the field, increases all allies' Elation by 20%, with Aventurine \u2022 Waveflair's additionally increases by 80%.\nAt the start of the battle, if Aventurine \u2022 Waveflair is the only Elation character in the team, when Aventurine \u2022 Waveflair deals DMG using his Elation Skill, it is considered as launching a Follow-Up ATK. After a teammate uses an attack, Aventurine \u2022 Waveflair gains 2 point(s) of \"Certified Banger\" and 1 Punchline(s), and increases Aha's SPD by 25. The SPD Boost effect lasts until the end of Aha Instant.",
                 "descFormat": [
                   {
-                    "start": 182,
-                    "end": 185,
+                    "start": 189,
+                    "end": 192,
                     "kind": "strong"
                   },
                   {
-                    "start": 240,
-                    "end": 243,
+                    "start": 250,
+                    "end": 253,
                     "kind": "strong"
                   },
                   {
-                    "start": 439,
-                    "end": 452,
+                    "start": 447,
+                    "end": 460,
                     "kind": "underline"
                   },
                   {
-                    "start": 516,
-                    "end": 517,
+                    "start": 524,
+                    "end": 525,
                     "kind": "strong"
                   },
                   {
-                    "start": 519,
-                    "end": 535,
+                    "start": 539,
+                    "end": 555,
                     "kind": "underline"
                   },
                   {
-                    "start": 541,
-                    "end": 542,
+                    "start": 561,
+                    "end": 562,
                     "kind": "strong"
                   },
                   {
-                    "start": 543,
-                    "end": 552,
+                    "start": 563,
+                    "end": 575,
                     "kind": "underline"
                   },
                   {
-                    "start": 568,
-                    "end": 573,
+                    "start": 591,
+                    "end": 594,
                     "kind": "underline"
                   },
                   {
-                    "start": 581,
-                    "end": 583,
+                    "start": 604,
+                    "end": 606,
                     "kind": "strong"
                   }
                 ],
@@ -8376,7 +8376,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -8445,7 +8445,7 @@
               {
                 "name": "Brushstroke: Imagenate the Starry Night",
                 "type": "Basic ATK",
-                "desc": "Deals Ice DMG equal to 140% of Pearl's DEF to all enemies, restores HP for all allies equal to 11.2% of Pearl's DEF plus 224, and additionally restores HP for the ally target with the lowest HP percentage equal to 11.2% of Pearl's DEF plus 224. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 20% of Pearl's DEF to the attacked enemy targets.",
+                "desc": "Deals Ice DMG equal to 140% of Pearl's DEF to all enemies, restores HP for all allies equal to 11.2% of Pearl's DEF plus 224, and additionally restores HP for the ally target with the lowest HP percentage equal to 11.2% of Pearl's DEF plus 224. When in possession of \"Certified Banger\", additionally deals 20% Ice Elation DMG to the attacked enemy targets.",
                 "descFormat": [
                   {
                     "start": 23,
@@ -8508,63 +8508,63 @@
                     "kind": "underline"
                   },
                   {
-                    "start": 310,
-                    "end": 321,
-                    "kind": "underline"
-                  },
-                  {
-                    "start": 331,
-                    "end": 334,
+                    "start": 306,
+                    "end": 309,
                     "kind": "strong"
                   },
                   {
-                    "start": 331,
-                    "end": 334,
+                    "start": 306,
+                    "end": 309,
                     "kind": "tone",
                     "tone": "accent"
+                  },
+                  {
+                    "start": 314,
+                    "end": 325,
+                    "kind": "underline"
                   }
                 ],
                 "icon": "../../Database/GameData/hsr/assets/skills/SkillIcon_1503_Normal.webp",
                 "levels": [
                   {
                     "label": "Lv. 1",
-                    "text": "Deals Ice DMG equal to 50% of Pearl's DEF to all enemies, restores HP for all allies equal to 4% of Pearl's DEF plus 80, and additionally restores HP for the ally target with the lowest HP percentage equal to 4% of Pearl's DEF plus 80. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 10% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 50% of Pearl's DEF to all enemies, restores HP for all allies equal to 4% of Pearl's DEF plus 80, and additionally restores HP for the ally target with the lowest HP percentage equal to 4% of Pearl's DEF plus 80. When in possession of \"Certified Banger\", additionally deals 10% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 2",
-                    "text": "Deals Ice DMG equal to 60% of Pearl's DEF to all enemies, restores HP for all allies equal to 4.8% of Pearl's DEF plus 96, and additionally restores HP for the ally target with the lowest HP percentage equal to 4.8% of Pearl's DEF plus 96. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 11% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 60% of Pearl's DEF to all enemies, restores HP for all allies equal to 4.8% of Pearl's DEF plus 96, and additionally restores HP for the ally target with the lowest HP percentage equal to 4.8% of Pearl's DEF plus 96. When in possession of \"Certified Banger\", additionally deals 11% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 3",
-                    "text": "Deals Ice DMG equal to 70% of Pearl's DEF to all enemies, restores HP for all allies equal to 5.6% of Pearl's DEF plus 112, and additionally restores HP for the ally target with the lowest HP percentage equal to 5.6% of Pearl's DEF plus 112. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 12% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 70% of Pearl's DEF to all enemies, restores HP for all allies equal to 5.6% of Pearl's DEF plus 112, and additionally restores HP for the ally target with the lowest HP percentage equal to 5.6% of Pearl's DEF plus 112. When in possession of \"Certified Banger\", additionally deals 12% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 4",
-                    "text": "Deals Ice DMG equal to 80% of Pearl's DEF to all enemies, restores HP for all allies equal to 6.4% of Pearl's DEF plus 128, and additionally restores HP for the ally target with the lowest HP percentage equal to 6.4% of Pearl's DEF plus 128. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 13% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 80% of Pearl's DEF to all enemies, restores HP for all allies equal to 6.4% of Pearl's DEF plus 128, and additionally restores HP for the ally target with the lowest HP percentage equal to 6.4% of Pearl's DEF plus 128. When in possession of \"Certified Banger\", additionally deals 13% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 5",
-                    "text": "Deals Ice DMG equal to 90% of Pearl's DEF to all enemies, restores HP for all allies equal to 7.2% of Pearl's DEF plus 144, and additionally restores HP for the ally target with the lowest HP percentage equal to 7.2% of Pearl's DEF plus 144. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 14% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 90% of Pearl's DEF to all enemies, restores HP for all allies equal to 7.2% of Pearl's DEF plus 144, and additionally restores HP for the ally target with the lowest HP percentage equal to 7.2% of Pearl's DEF plus 144. When in possession of \"Certified Banger\", additionally deals 14% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 6",
-                    "text": "Deals Ice DMG equal to 100% of Pearl's DEF to all enemies, restores HP for all allies equal to 8% of Pearl's DEF plus 160, and additionally restores HP for the ally target with the lowest HP percentage equal to 8% of Pearl's DEF plus 160. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 15% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 100% of Pearl's DEF to all enemies, restores HP for all allies equal to 8% of Pearl's DEF plus 160, and additionally restores HP for the ally target with the lowest HP percentage equal to 8% of Pearl's DEF plus 160. When in possession of \"Certified Banger\", additionally deals 15% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 7",
-                    "text": "Deals Ice DMG equal to 110% of Pearl's DEF to all enemies, restores HP for all allies equal to 8.8% of Pearl's DEF plus 176, and additionally restores HP for the ally target with the lowest HP percentage equal to 8.8% of Pearl's DEF plus 176. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 16.3% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 110% of Pearl's DEF to all enemies, restores HP for all allies equal to 8.8% of Pearl's DEF plus 176, and additionally restores HP for the ally target with the lowest HP percentage equal to 8.8% of Pearl's DEF plus 176. When in possession of \"Certified Banger\", additionally deals 16.3% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 8",
-                    "text": "Deals Ice DMG equal to 120% of Pearl's DEF to all enemies, restores HP for all allies equal to 9.6% of Pearl's DEF plus 192, and additionally restores HP for the ally target with the lowest HP percentage equal to 9.6% of Pearl's DEF plus 192. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 17.5% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 120% of Pearl's DEF to all enemies, restores HP for all allies equal to 9.6% of Pearl's DEF plus 192, and additionally restores HP for the ally target with the lowest HP percentage equal to 9.6% of Pearl's DEF plus 192. When in possession of \"Certified Banger\", additionally deals 17.5% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 9",
-                    "text": "Deals Ice DMG equal to 130% of Pearl's DEF to all enemies, restores HP for all allies equal to 10.4% of Pearl's DEF plus 208, and additionally restores HP for the ally target with the lowest HP percentage equal to 10.4% of Pearl's DEF plus 208. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 18.8% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 130% of Pearl's DEF to all enemies, restores HP for all allies equal to 10.4% of Pearl's DEF plus 208, and additionally restores HP for the ally target with the lowest HP percentage equal to 10.4% of Pearl's DEF plus 208. When in possession of \"Certified Banger\", additionally deals 18.8% Ice Elation DMG to the attacked enemy targets."
                   },
                   {
                     "label": "Lv. 10",
-                    "text": "Deals Ice DMG equal to 140% of Pearl's DEF to all enemies, restores HP for all allies equal to 11.2% of Pearl's DEF plus 224, and additionally restores HP for the ally target with the lowest HP percentage equal to 11.2% of Pearl's DEF plus 224. When in possession of \"Certified Banger\", additionally deals Ice Elation DMG equal to 20% of Pearl's DEF to the attacked enemy targets."
+                    "text": "Deals Ice DMG equal to 140% of Pearl's DEF to all enemies, restores HP for all allies equal to 11.2% of Pearl's DEF plus 224, and additionally restores HP for the ally target with the lowest HP percentage equal to 11.2% of Pearl's DEF plus 224. When in possession of \"Certified Banger\", additionally deals 20% Ice Elation DMG to the attacked enemy targets."
                   }
                 ]
               },
@@ -10764,7 +10764,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -13361,7 +13361,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -15367,7 +15367,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -17505,7 +17505,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -19524,7 +19524,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -21395,7 +21395,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -23381,7 +23381,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -25193,7 +25193,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -27045,7 +27045,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -28968,7 +28968,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -30878,7 +30878,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -32875,7 +32875,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -34797,7 +34797,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -36805,7 +36805,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -38752,7 +38752,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -40870,7 +40870,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -42920,7 +42920,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -44874,7 +44874,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -46740,7 +46740,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -48608,7 +48608,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -50473,7 +50473,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -52403,7 +52403,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -54387,7 +54387,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -56449,7 +56449,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -58814,7 +58814,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -60772,7 +60772,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -62585,7 +62585,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -64690,7 +64690,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -66996,7 +66996,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -69178,7 +69178,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -71014,7 +71014,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -72946,7 +72946,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -74928,7 +74928,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -76836,7 +76836,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -78679,7 +78679,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -80561,7 +80561,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -82403,7 +82403,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",
@@ -84373,7 +84373,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "4.5.51",
+        "version": "4.5.52",
         "sections": [
           {
             "title": "Skills",

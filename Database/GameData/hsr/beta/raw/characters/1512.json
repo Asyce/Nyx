@@ -3185,7 +3185,7 @@
       },
       "1151205": {
         "name": "Near the Sea's Heartbeat",
-        "desc": "When Summer Songbirds are summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
+        "desc": "When the \"Summer Songbirds\" gets summoned, regenerates <unbreak>#1[i]</unbreak> Energy for Robin • Summeretto.",
         "simple_desc": "When summoned, regenerates Energy for Robin • Summeretto.",
         "type_name": "Memosprite Talent",
         "tag": "Support",
@@ -3261,7 +3261,7 @@
       },
       "1151206": {
         "name": "Astride Summer's Nightwind",
-        "desc": "When Summer Songbirds disappear, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
+        "desc": "When the \"Summer Songbirds\" disappears, Robin • Summeretto's <u>action advances</u> by <unbreak>#1[i]%</unbreak>.",
         "simple_desc": "When disappearing, causes Robin • Summeretto to <u>advance action</u>.",
         "type_name": "Memosprite Talent",
         "tag": "Support",

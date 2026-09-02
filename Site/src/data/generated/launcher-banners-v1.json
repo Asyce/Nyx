@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "c8fe44c3583fba9f840e413a3bf2a1655b9c4ffd4864ee82eecf01bdc7bb019e",
-  "generatedAt": "2026-09-02T16:56:48.099Z",
+  "revision": "831edf0ad17c1b5b15fc88718a3a3b3179a6f1c1b13ded49aef2a1d1a37d9f2c",
+  "generatedAt": "2026-09-02T19:35:57.480Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-09-01T17:00:00.000Z",
           "endsAt": "2026-09-22T13:59:00.000Z",
-          "durationSeconds": 1717331
+          "durationSeconds": 1707782
         },
         "characters": [
           {
@@ -348,6 +348,12 @@
       ],
       "codes": [
         {
+          "code": "DUGODWKRHAKDNJ",
+          "added": "2026-09-01",
+          "amount": 30,
+          "currency": "Primogems"
+        },
+        {
           "code": "Y1INABQB6DEX",
           "added": "2026-08-17",
           "amount": 60,
@@ -384,7 +390,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 817331
+          "durationSeconds": 807782
         },
         "characters": [
           {
@@ -805,7 +811,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 482590
+          "durationSeconds": 473041
         },
         "characters": [
           {
@@ -1539,7 +1545,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 662531
+          "durationSeconds": 652982
         },
         "characters": [
           {
@@ -1855,7 +1861,7 @@
         "remaining": {
           "startsAt": "2026-09-02T04:00:00.000Z",
           "endsAt": "2026-09-30T03:59:59.000Z",
-          "durationSeconds": 2372590
+          "durationSeconds": 2363041
         },
         "characters": [
           {

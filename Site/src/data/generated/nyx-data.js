@@ -4,12 +4,40 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-02T16:56:46.033Z",
+  "generatedAt": "2026-09-02T19:35:55.455Z",
   "codes": {
-    "updated": "2026-09-02T16:56:25.495Z",
+    "updated": "2026-09-02T19:35:34.965Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
+        {
+          "code": "YOAL3V36XHS7",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-02",
+          "firstSeen": "2026-09-02T19:35:34.588Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=YOAL3V36XHS7"
+        },
+        {
+          "code": "DUGODWKRHAKDNJ",
+          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-02T19:35:34.588Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
+        },
         {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
@@ -65,20 +93,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-09-02T12:24:42.360Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -6232,6 +6246,34 @@ var NYX_DB = {
       ],
       "codes": [
         {
+          "code": "YOAL3V36XHS7",
+          "reward": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-02",
+          "firstSeen": "2026-09-02T19:35:34.588Z",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=YOAL3V36XHS7"
+        },
+        {
+          "code": "DUGODWKRHAKDNJ",
+          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-09-01",
+          "firstSeen": "2026-09-02T19:35:34.588Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
+        },
+        {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
           "premium": true,
@@ -6286,20 +6328,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-09-02T12:24:42.360Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",

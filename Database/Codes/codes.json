@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:56:25.495Z",
+  "generatedAt": "2026-09-02T19:35:34.965Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,8 +9,31 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-02T16:56:25.495Z",
+      "lastSuccessfulFetch": "2026-09-02T19:35:34.588Z",
       "codes": [
+        {
+          "code": "YOAL3V36XHS7",
+          "rewards": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "added": "2026-09-02",
+          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
+          "regionLocked": null,
+          "expires": null,
+          "variants": [],
+          "premium": false,
+          "premium100": false,
+          "cwSeen": true,
+          "firstSeen": "2026-09-02T19:35:34.588Z"
+        },
+        {
+          "code": "DUGODWKRHAKDNJ",
+          "rewards": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
+          "added": "2026-09-01",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
+          "premium": true,
+          "premium100": false,
+          "cwSeen": false,
+          "firstSeen": "2026-09-02T19:35:34.588Z"
+        },
         {
           "code": "Y1INABQB6DEX",
           "rewards": "60 Primogems, 5 Adventurer S Experience",
@@ -52,16 +75,6 @@
           "firstSeen": "2026-08-13T07:48:02.606Z"
         },
         {
-          "code": "XVIZDH2B9WGX",
-          "rewards": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "added": "2026-08-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-09-02T12:24:42.360Z"
-        },
-        {
           "code": "2BJ64QRZ7RT8",
           "rewards": "60 Primogems and Five Adventurer S Experience",
           "added": "2026-08-07",
@@ -90,7 +103,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-02T16:56:25.295Z",
+      "lastSuccessfulFetch": "2026-09-02T19:35:34.673Z",
       "codes": [
         {
           "code": "8SMSVJWJM7ZT",
@@ -220,7 +233,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-02T16:56:25.467Z",
+      "lastSuccessfulFetch": "2026-09-02T19:35:34.965Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -274,7 +287,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-02T16:56:25.017Z",
+      "lastSuccessfulFetch": "2026-09-02T19:35:34.503Z",
       "codes": []
     },
     {
@@ -284,7 +297,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-02T16:56:25.035Z",
+      "lastSuccessfulFetch": "2026-09-02T19:35:34.497Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

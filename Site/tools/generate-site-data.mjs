@@ -6610,7 +6610,9 @@ function buildBannersData(rosters, betaDeltas = {}) {
     // banner — otherwise the label belongs to a phase that already ended.
     const keepLabel = (officialPhase, scraped) => {
       if (!officialPhase) return null;
-      const sameRun = scraped?.phase && scraped.characters.some((row) => officialPhase.characters.some((hit) => hit.name === row.name));
+      const sameRun = scraped?.phase && (key === 'ae'
+        ? scraped.characters.some((row) => row.name === officialPhase.lossPool?.current?.name)
+        : scraped.characters.some((row) => officialPhase.characters.some((hit) => hit.name === row.name)));
       const scrapedByName = new Map((scraped?.characters || []).map((row) => [rosterNameKey(row.name), row]));
       const characters = officialPhase.characters.map((row) => {
         const prior = scrapedByName.get(rosterNameKey(row.name));

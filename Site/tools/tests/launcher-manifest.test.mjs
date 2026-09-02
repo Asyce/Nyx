@@ -956,6 +956,16 @@ test('production Endfield launcher keeps overlapping trusted future banners', ()
     ['Yvonne'],
   ]);
   assert.ok(scheduled.slice(0, 2).flatMap((phase) => phase.characters).every((character) => character.icon));
+
+  const afterRollover = Date.parse('2026-09-02T05:00:00.000Z');
+  const rolled = buildManifest({
+    ...loadManifestInputs({ now: afterRollover }),
+    now: afterRollover,
+    generatedAt: '2026-09-02T05:00:00.000Z',
+  });
+  assert.equal(rolled.games.ae.current.selectedCharacter.name, 'Typhoeus');
+  assert.equal(rolled.games.ae.upcoming[0].phase, 'Resplendent Spectrum');
+  assert.deepEqual(rolled.games.ae.upcoming[0].characters.map((character) => character.name), ['Yvonne']);
 });
 
 test('current Pengo scrape projects headline characters with short names and known patch labels', async () => {

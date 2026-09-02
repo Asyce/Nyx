@@ -53,7 +53,7 @@ test('the Genshin plan and bottom pin order stay explicit', () => {
     labels:{ vesna:'7.1 Phase 1', vodyanitsa:'7.1 Phase 2' },
     pins:['Alice', 'Dainsleif'],
   });
-  assert.match(appSource, /label:row\.column\?\.label \|\| BANNER_PLAN_LABELS\[cfg\.key\]/);
+  assert.match(appSource, /label:BANNER_PLAN_LABELS\[cfg\.key\][\s\S]{0,100}\|\| row\.column\?\.label/);
   assert.match(sharedCss, /\.gp-ovb-pins\{[^}]*flex-direction:row/);
   assert.match(sharedCss, /\.gp-ovb-pins > \.gp-ovb-row\{[^}]*flex:1 1 0;[^}]*min-width:0/);
 });
@@ -403,14 +403,14 @@ test('the shipped roadmap keeps the requested order and self-hosted art', () => 
   const expected = {
     gi:['Vesna', 'Vodyanitsa', 'Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy'],
     hsr:['Pearl', 'Nihilux'],
-    zzz:['Claret', 'Roxy', 'Sunbringer', 'Phoenix', 'The Storyteller'],
-    wuwa:['Jingran', 'Suoming', 'Hsin'],
+    zzz:['Sunbringer', 'Phoenix', 'The Storyteller'],
+    wuwa:['Suoming', 'Hsin'],
   };
   for (const [key, names] of Object.entries(expected)) {
     const rows = banners[key]?.roadmap || [];
     assert.deepEqual(Array.from(rows.slice(0, names.length), (row) => row.name), names, `${key} roadmap order`);
     for (const row of rows.slice(0, names.length)) {
-      assert.match(row.icon || row.art || '', /^(?:\.\.\/|\/)assets\//, `${key}: ${row.name} art must be self-hosted`);
+      assert.match(row.icon || row.art || '', /^(?:\.\.\/\.\.\/Database\/|(?:\.\.\/|\/)assets\/)/, `${key}: ${row.name} art must be self-hosted`);
     }
   }
   assert.match(appSource, /const trustedFuture = new Set/);
@@ -433,12 +433,12 @@ test('short overlap banners do not invent an extra phase', () => {
 });
 
 test('Endfield ships every scheduled future banner in order', () => {
-  assert.deepEqual([banners.ae.next.phase, banners.ae.next.characters[0].name], ['Winter Hunt', 'Typhoeus']);
-  assert.match(banners.ae.next.characters[0].art, /Database\/EndfieldWiki\/endfield\/assets\/operators\/typhoeus\/splash\.png$/);
-  assert.deepEqual(Array.from(banners.ae.next.lossPool.previous, (row) => row.name), ['Liino', 'Arcane']);
-  assert.deepEqual([banners.ae.upcoming[0].phase, banners.ae.upcoming[0].characters[0].name], ['Resplendent Spectrum', 'Yvonne']);
-  assert.deepEqual(Array.from(banners.ae.upcoming[0].lossPool.previous, (row) => row.name), ['Typhoeus', 'Liino']);
-  for (const phase of [banners.ae.next, ...banners.ae.upcoming]) {
+  assert.deepEqual([banners.ae.current.phase, banners.ae.current.characters[0].name], ['Winter Hunt', 'Typhoeus']);
+  assert.match(banners.ae.current.characters[0].art, /Database\/EndfieldWiki\/endfield\/assets\/operators\/typhoeus\/splash\.png$/);
+  assert.deepEqual(Array.from(banners.ae.current.lossPool.previous, (row) => row.name), ['Liino', 'Arcane']);
+  assert.deepEqual([banners.ae.next.phase, banners.ae.next.characters[0].name], ['Resplendent Spectrum', 'Yvonne']);
+  assert.deepEqual(Array.from(banners.ae.next.lossPool.previous, (row) => row.name), ['Typhoeus', 'Liino']);
+  for (const phase of [banners.ae.current, banners.ae.next, ...banners.ae.upcoming]) {
     for (const unit of phase?.characters || []) {
       assert.doesNotMatch([unit.icon, unit.art].filter(Boolean).join(' '), /cdn\.perlica\.moe/);
     }
@@ -483,33 +483,32 @@ test('the five-column model matches each requested game roadmap', () => {
   const names = (rows) => (rows || []).map((row) => row.name);
 
   const gi = board('gi');
-  assert.deepEqual([gi.current.label, gi.next.label], ['7.0 Phase 1', '7.0 Phase 2']);
-  assert.equal(gi.current.heroes[0].name, 'Odette');
-  assert.deepEqual(names(gi.current.others), ['Arlecchino']);
-  assert.equal(gi.next.heroes[0].name, 'Flins');
-  assert.deepEqual(names(gi.next.others), ['Ineffa']);
+  assert.equal(gi.current.label, '7.0 Phase 2');
+  assert.equal(gi.next, null);
+  assert.equal(gi.current.heroes[0].name, 'Flins');
+  assert.deepEqual(names(gi.current.others), ['Ineffa']);
   assert.deepEqual(gi.planned.map((column) => column.heroes[0].name), ['Vesna', 'Vodyanitsa']);
   assert.deepEqual(gi.planned.map((column) => column.label), ['7.1 Phase 1', '7.1 Phase 2']);
   assert.ok(gi.planned.every((column) => column.start === null && column.end === null));
   assert.deepEqual(names(gi.future).slice(0, 5), ['Mitya', 'Valeriy', 'The Tsaritsa Anastasya Feodorovna Snezhnaya', 'Danica', 'Noy']);
 
   const hsr = board('hsr');
-  assert.deepEqual([hsr.current.label, hsr.next.label], ['4.4 Phase 2', '4.5 Phase 1']);
-  assert.deepEqual(hsr.planned.map((column) => column.heroes[0].name), ['Aventurine • Waveflair', 'Pearl']);
-  assert.deepEqual(hsr.planned.map((column) => column.label), ['4.5 Phase 2', '4.6 Phase 1']);
+  assert.deepEqual([hsr.current.label, hsr.next.label], ['4.5 Phase 1', '4.5 Phase 2']);
+  assert.deepEqual(hsr.planned.map((column) => column.heroes[0].name), ['Pearl']);
+  assert.deepEqual(hsr.planned.map((column) => column.label), ['Patch 4.6']);
   assert.deepEqual(names(hsr.future), ['Nihilux']);
 
   const zzz = board('zzz');
-  assert.deepEqual([zzz.current.label, zzz.next.label], ['3.1 Phase 1', '3.1 Phase 2']);
-  assert.equal(zzz.next.heroes[0].name, 'Sigrid');
-  assert.deepEqual(zzz.planned.map((column) => column.heroes[0].name), ['Claret', 'Roxy']);
+  assert.deepEqual([zzz.current.label, zzz.next.label], ['3.1 Phase 2', '3.2 Phase 1']);
+  assert.equal(zzz.next.heroes[0].name, 'Claret');
+  assert.deepEqual(zzz.planned.map((column) => column.heroes[0].name), ['Roxy']);
   assert.deepEqual(names(zzz.future), ['Sunbringer', 'Phoenix', 'The Storyteller']);
 
   const wuwa = board('wuwa');
-  assert.deepEqual([wuwa.current.label, wuwa.next.label], ['3.5 Phase 2', '3.6 Phase 1']);
-  assert.equal(wuwa.next.heroes[0].name, 'Qingxiao');
-  assert.deepEqual(wuwa.planned.map((column) => column.heroes[0].name), ['Jingran']);
-  assert.deepEqual(wuwa.planned.map((column) => column.label), ['3.6 Phase 2']);
+  assert.deepEqual([wuwa.current.label, wuwa.next.label], ['3.6 Phase 1', 'Patch 3.6 phase 2']);
+  assert.equal(wuwa.current.heroes[0].name, 'Qingxiao');
+  assert.equal(wuwa.next.heroes[0].name, 'Jingran');
+  assert.deepEqual(wuwa.planned, []);
   assert.deepEqual(names(wuwa.future), ['Suoming', 'Hsin']);
   assert.deepEqual(names(wuwa.current.support), []);
 });

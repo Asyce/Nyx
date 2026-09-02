@@ -976,7 +976,7 @@ function overviewBannerBoard(cfg){
   const planned = rows.slice(0, 2).map((row) => ({
     ...(row.column || {}),
     status:'upcoming',
-    label:row.column?.label || BANNER_PLAN_LABELS[cfg.key]?.[normalizeUnitName(row.unit?.name)] || null,
+    label:BANNER_PLAN_LABELS[cfg.key]?.[normalizeUnitName(row.unit?.name)] || row.column?.label || null,
     phaseUnknown:row.source === 'beta' && !row.column?.label,
     hint:row.hint,
     start:NaN,

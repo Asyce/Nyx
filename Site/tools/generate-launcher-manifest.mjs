@@ -782,12 +782,12 @@ function trustedRawFuturePhases(group, nowMs) {
 
 function mergeFuturePhases(trusted, raw, currentEnd, game) {
   const boundary = timestamp(iso(currentEnd));
-  const normalized = (phases) => {
+  const normalized = (phases, allowCurrentOverlap = false) => {
     const exact = new Map();
     for (const phase of phases) {
       const start = iso(phase?.start);
       const end = iso(phase?.end);
-      if (!start || !end || (boundary != null && timestamp(start) < boundary)) continue;
+      if (!start || !end || (!allowCurrentOverlap && boundary != null && timestamp(start) < boundary)) continue;
       const key = `${start}\u0000${end}`;
       if (!exact.has(key)) exact.set(key, { ...phase, start, end });
     }
@@ -795,7 +795,7 @@ function mergeFuturePhases(trusted, raw, currentEnd, game) {
   };
   const overlaps = (left, right) => timestamp(left.start) < timestamp(right.end) && timestamp(left.end) > timestamp(right.start);
   const result = [];
-  for (const [phases, allowTrustedOverlap] of [[normalized(trusted), game === 'ae'], [normalized(raw), false]]) {
+  for (const [phases, allowTrustedOverlap] of [[normalized(trusted, game === 'ae'), game === 'ae'], [normalized(raw), false]]) {
     for (const candidate of phases) {
       if (result.length >= 5 || (!allowTrustedOverlap && result.some((selected) => overlaps(candidate, selected)))) continue;
       result.push(candidate);
@@ -1028,7 +1028,9 @@ export function applySourcedBannerWindows(banners, db = DATABASE, nowMs = Date.n
       }
       if (!futureCharacters.length) return [];
       return [{
-        phase: historyPhaseLabel(trusted, region, [...futureVersions][0], futureStart),
+        phase: game === 'ae' && records.length === 1
+          ? cleanText(records[0].name, 48)
+          : historyPhaseLabel(trusted, region, [...futureVersions][0], futureStart),
         start: futureStart,
         end: futureEnd,
         characters: futureCharacters,

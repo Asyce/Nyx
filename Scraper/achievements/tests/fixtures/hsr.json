@@ -26,7 +26,27 @@
     "Rarity": "Low",
     "SeriesId": 3,
     "SeriesText": "The Rail Unto the Stars",
-    "Description": "Future content.",
+    "Description": "Previous content.",
     "VersionAdded": "4.4"
+  },
+  "4030103": {
+    "Id": "4030103",
+    "Name": "Current Journey",
+    "SortOrder": 898,
+    "Rarity": "Low",
+    "SeriesId": 3,
+    "SeriesText": "The Rail Unto the Stars",
+    "Description": "Current content.",
+    "VersionAdded": "4.5"
+  },
+  "4030104": {
+    "Id": "4030104",
+    "Name": "Future Journey",
+    "SortOrder": 897,
+    "Rarity": "Low",
+    "SeriesId": 3,
+    "SeriesText": "The Rail Unto the Stars",
+    "Description": "Future content.",
+    "VersionAdded": "4.6"
   }
 }

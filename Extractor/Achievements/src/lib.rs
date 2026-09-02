@@ -280,21 +280,32 @@ mod tests {
 
     #[test]
     fn embedded_catalog_counts_are_pinned() {
-        assert_eq!(GI_IDS.len(), 1759);
-        assert_eq!(HSR_IDS.len(), 1811);
+        assert_eq!(GI_IDS.len(), 1844);
+        assert_eq!(HSR_IDS.len(), 1921);
         assert!(GI_IDS.windows(2).all(|pair| pair[0] < pair[1]));
         assert!(HSR_IDS.windows(2).all(|pair| pair[0] < pair[1]));
         let database =
             std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("../../Database/Achievements");
-        let gi = std::fs::read(database.join("gi/catalog.json")).unwrap();
-        let hsr = std::fs::read(database.join("hsr/catalog.json")).unwrap();
+        let normalize =
+            |bytes: Vec<u8>| {
+                assert!(!bytes.iter().enumerate().any(|(index, byte)| {
+                    *byte == b'\r' && bytes.get(index + 1) != Some(&b'\n')
+                }));
+                bytes
+                    .into_iter()
+                    .filter(|byte| *byte != b'\r')
+                    .collect::<Vec<_>>()
+            };
+        let gi = normalize(std::fs::read(database.join("gi/catalog.json")).unwrap());
+        let hsr = normalize(std::fs::read(database.join("hsr/catalog.json")).unwrap());
         assert_eq!(
             format!("{:x}", Sha256::digest(gi)),
-            "5608dd41a26a06639c6455d65de7abdd2a7e5e997f55c6ed93dec6d08dc673b5"
+            "34b5f76579e435249e456ff4eba6a767f8562275f24270ee6111d0f46bfd268e"
         );
         assert_eq!(
             format!("{:x}", Sha256::digest(hsr)),
-            "9d4fa10905c5f8472577e0c23414907394f312a9ea3b85eaebcf83400a867229"
+            "827c248889146ef686dcca52e445615a2c9db9b025c4bddfc739b44498662149"
         );
+        assert!(HSR_IDS.contains(&4035501));
     }
 }

@@ -8,7 +8,20 @@ fn catalog_ids(game: &str, expected_hash: &str, expected_count: usize) -> Vec<u3
     println!("cargo:rerun-if-changed={}", path.display());
     let bytes =
         fs::read(&path).unwrap_or_else(|error| panic!("cannot read {}: {error}", path.display()));
-    let actual_hash = format!("{:x}", Sha256::digest(&bytes));
+    assert!(
+        !bytes
+            .iter()
+            .enumerate()
+            .any(|(index, byte)| *byte == b'\r' && bytes.get(index + 1) != Some(&b'\n')),
+        "{} contains a bare carriage return",
+        path.display()
+    );
+    let normalized = bytes
+        .iter()
+        .copied()
+        .filter(|byte| *byte != b'\r')
+        .collect::<Vec<_>>();
+    let actual_hash = format!("{:x}", Sha256::digest(&normalized));
     assert_eq!(
         actual_hash,
         expected_hash,
@@ -67,13 +80,13 @@ fn main() {
     }
     let gi = catalog_ids(
         "gi",
-        "5608dd41a26a06639c6455d65de7abdd2a7e5e997f55c6ed93dec6d08dc673b5",
-        1759,
+        "34b5f76579e435249e456ff4eba6a767f8562275f24270ee6111d0f46bfd268e",
+        1844,
     );
     let hsr = catalog_ids(
         "hsr",
-        "9d4fa10905c5f8472577e0c23414907394f312a9ea3b85eaebcf83400a867229",
-        1811,
+        "827c248889146ef686dcca52e445615a2c9db9b025c4bddfc739b44498662149",
+        1921,
     );
     let out = PathBuf::from(env::var_os("OUT_DIR").expect("OUT_DIR missing"));
     let source =

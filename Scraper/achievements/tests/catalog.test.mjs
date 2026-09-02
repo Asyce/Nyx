@@ -61,11 +61,11 @@ test('GI flattens every stage and excludes data beyond the release ceiling', asy
 });
 
 test('HSR builds stable series categories, removes game markup, and excludes future data', async () => {
-  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion: '4.3' });
+  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion: '4.5' });
   assert.equal(catalog.achievements[0].reward, 20);
   assert.equal(catalog.game, 'hsr');
   assert.deepEqual(catalog.categories.map(({ id }) => id), ['hsr-1', 'hsr-3']);
-  assert.deepEqual(catalog.achievements.map(({ id }) => id), ['4010101', '4030101']);
+  assert.deepEqual(catalog.achievements.map(({ id }) => id), ['4010101', '4030101', '4030102', '4030103']);
   assert.equal(catalog.achievements[1].description, 'Launch a journey Board the Astral Express.');
   assert.doesNotMatch(catalog.achievements[1].description, /[<>]/);
   assert.doesNotThrow(() => validateCatalog(catalog));
@@ -141,11 +141,11 @@ test('catalog refresh blocks a collapse below eighty percent of last known good'
 });
 
 test('catalog validation rejects a self-declared future release ceiling', async () => {
-  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion:'4.3' });
+  const catalog = normalizeHsrCatalog(await fixture('hsr'), { ...FIXED, releasedVersion:'4.5' });
   catalog.releasedVersion = '99.9';
   catalog.catalogVersion = '99.9';
   catalog.achievements[0].version = '99.8';
-  assert.throws(() => validateCatalog(catalog), /release ceiling must be 4\.3/);
+  assert.throws(() => validateCatalog(catalog), /release ceiling must be 4\.5/);
 });
 
 test('checked-in catalogs pass the same release and safety validation', async () => {
@@ -156,7 +156,7 @@ test('checked-in catalogs pass the same release and safety validation', async ()
   assert.equal(provenance.licenseClaim, null);
   assert.match(provenance.rightsNote, /No license is claimed for game artwork/);
   for (const game of ['gi', 'hsr']) {
-    const expectedCounts = { gi:{ categories:73, achievements:1844 }, hsr:{ categories:9, achievements:1811 } }[game];
+    const expectedCounts = { gi:{ categories:73, achievements:1844 }, hsr:{ categories:9, achievements:1921 } }[game];
     const catalogUrl = new URL(`${game}/catalog.json`, root);
     const catalog = JSON.parse(await fs.readFile(catalogUrl, 'utf8'));
     assert.doesNotThrow(() => validateCatalog(catalog));

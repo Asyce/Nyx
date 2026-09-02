@@ -6,7 +6,18 @@ fn read(path: impl AsRef<Path>) -> String {
 }
 
 fn hash(path: impl AsRef<Path>) -> String {
-    format!("{:x}", Sha256::digest(fs::read(path).unwrap()))
+    let bytes = fs::read(path).unwrap();
+    assert!(
+        !bytes
+            .iter()
+            .enumerate()
+            .any(|(index, byte)| { *byte == b'\r' && bytes.get(index + 1) != Some(&b'\n') })
+    );
+    let normalized = bytes
+        .into_iter()
+        .filter(|byte| *byte != b'\r')
+        .collect::<Vec<_>>();
+    format!("{:x}", Sha256::digest(normalized))
 }
 
 #[test]

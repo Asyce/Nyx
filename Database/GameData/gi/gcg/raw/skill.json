@@ -1237,19 +1237,19 @@
   },
   "12171": {
     "name": "Moondew Cascade",
-    "desc": "Deal $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].\\nIf there is a card with $[K3005] attached to it in your Hand, place 1 random card on top of your Deck, then deal 1 $[K107] DMG. (Once per Round)"
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].\\nIf there is a card with $[K3005] attached to it in your Hand, place 1 random card with $[K3005] attached on top of your deck, then deal 1 $[K107]. (Once per Round)"
   },
   "12172": {
     "name": "Eternal Tides",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C112172]</color>."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C112172]</color>."
   },
   "12173": {
     "name": "Moonlit Melancholy",
-    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and create <color=#FFFFFFFF>$[C112171]</color>."
+    "desc": "Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT] and creates <color=#FFFFFFFF>$[C112171]</color>."
   },
   "12174": {
     "name": "Moonsign Benediction: Moonlight, Lent Unto You",
-    "desc": "[Passive] During this match, when your opponent takes <color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}Electro-Charged Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}Bloom Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}Hydro Crystallize Reaction</color> DMG, the reaction will be converted to the <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction.\\nAfter your opponent takes <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction DMG: Deals 1 $[K104]/$[K107]/$[K106]. (Once per Round)"
+    "desc": "[Passive] During this match, when the opponent is affected by the <color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2104}Electro-Charged Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2107}Bloom Reaction</color>/<color=#FFFFFFFF>{SPRITE_PRESET#2102}{SPRITE_PRESET#2106}Hydro Crystallize Reaction</color>, the reaction will be converted to the <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction.\\nWhen the opponent is affected by the <color=#FFFFFFFF>$[K3001]</color>/<color=#FFFFFFFF>$[K3009]</color>/<color=#FFFFFFFF>$[K3010]</color> Reaction: Deals 1 $[K104]/$[K107]/$[K106]. (Once per Round)"
   },
   "12175": {
     "name": "Moonsign Benediction: Moonlight, Lent Unto You",
@@ -2201,7 +2201,7 @@
   },
   "16124": {
     "name": "Moonsign Benediction: Unwithering in Winter",
-    "desc": "(Passive) When a card whose name was not in your initial deck is added to your Hand, apply it $[K3005]. (Once per Round)"
+    "desc": "(Passive) When a card whose name was not in your initial deck is added to your Hand, apply $[K3005] to it. (Once per Round)"
   },
   "17011": {
     "name": "Supplicant's Bowmanship",

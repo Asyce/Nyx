@@ -5,7 +5,7 @@
   "name": "Definitely Not Floating Grease Chronicles",
   "sortId": 166910,
   "sourceUrl": "https://honkai-star-rail.fandom.com/wiki/Definitely_Not_Floating_Grease_Chronicles",
-  "scrapedAt": "2026-08-30T12:21:08.250Z",
+  "scrapedAt": "2026-09-02T11:49:18.990Z",
   "volumes": [
     {
       "id": "1",
@@ -22,16 +22,64 @@
                 "children": [
                   {
                     "type": "text",
-                    "text": "If you are the greatest treasure hunter in the world,\nthen congratulations,\nyou have obtained the most precious fortune in this universe:\nan alchemy recipe.\nCommit it to your memory, and never let it go."
+                    "text": "If you are the greatest treasure hunter in the world,"
                   }
                 ]
-              }
-            ],
-            "id": "p-9c5ef71bbc66f182"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "then congratulations,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "you have obtained the most precious fortune in this universe:"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "an alchemy recipe."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Commit it to your memory, and never let it go."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
               {
                 "type": "strong",
                 "children": [
@@ -82,13 +130,13 @@
               {
                 "type": "text",
                 "text": "and one green onion."
-              }
-            ],
-            "id": "p-92fce29c1b209ed7"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
               {
                 "type": "strong",
                 "children": [
@@ -110,7 +158,7 @@
               },
               {
                 "type": "text",
-                "text": "slice into crescent-shapred wedges,"
+                "text": "slice into crescent-shaped wedges,"
               },
               {
                 "type": "br"
@@ -131,14 +179,14 @@
               },
               {
                 "type": "text",
-                "text": "finely chop the green onions and set aside,"
+                "text": "finely chop the green onion and set aside,"
               },
               {
                 "type": "br"
               },
               {
                 "type": "text",
-                "text": "place pan over high heat,"
+                "text": "place the pan over high heat,"
               },
               {
                 "type": "br"
@@ -159,6 +207,13 @@
               },
               {
                 "type": "text",
+                "text": "Just before the eggs fully solidify, turn off the heat;"
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "text",
                 "text": "Transfer the naturally solidified egg pieces to a plate and set aside;"
               },
               {
@@ -166,7 +221,7 @@
               },
               {
                 "type": "text",
-                "text": "Return the pan to high heat, add tomato wedges and stir fry;"
+                "text": "Return the pan to high heat, add the tomato wedges and stir-fry;"
               },
               {
                 "type": "br"
@@ -202,24 +257,96 @@
               {
                 "type": "text",
                 "text": "Once the sauce thickens slightly, turn off the heat, plate, and garnish with green onion."
-              }
-            ],
-            "id": "p-4c4c68acded8f6a2"
-          },
-          {
-            "type": "paragraph",
-            "children": [
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "br"
+              },
               {
                 "type": "em",
                 "children": [
                   {
                     "type": "text",
-                    "text": "Yes, this is nothing more than a recipe for Tomato and Egg Stir-Fry, the most ordinary of\nhome-cooked dishes.\nPerhaps you were expecting something else,\nbut, if you'll humor an old ramble from Arita...\nNo myths or lengends can hold a candle to a simple recipe of a home-cooked dish.\nO greatest of treasure hunters!\nDo not let the Elations of others\nlead your heart astray!"
+                    "text": "Yes, this is nothing more than a recipe for Tomato and Egg Stir-Fry, the most ordinary of home-cooked dishes."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Perhaps you were expecting something else,"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "but, if you'll humor an old ramble from Arita..."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "No myths or legends can hold a candle to a simple recipe of a home-cooked dish."
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "O greatest of treasure hunters!"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "Do not let the Elation of others"
+                  }
+                ]
+              },
+              {
+                "type": "br"
+              },
+              {
+                "type": "em",
+                "children": [
+                  {
+                    "type": "text",
+                    "text": "lead your heart astray!"
                   }
                 ]
               }
             ],
-            "id": "p-63032ad7c645cc2d"
+            "id": "p-480e557ba06554e0"
           }
         ]
       }

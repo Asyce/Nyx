@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T12:17:57.502Z",
+  "generatedAt": "2026-09-02T11:46:52.517Z",
   "source": "Genshin Impact Wiki / Fandom MediaWiki API",
   "sourceExample": "https://genshin-impact.fandom.com/wiki/Ifa/Gallery",
   "requestedWidth": 1800,
@@ -5255,9 +5255,21 @@
           "mime": "image/png"
         },
         {
+          "file": "Mona Birthday 2026.png",
+          "title": "Mona Birthday 2026.png (8.11 MB)",
+          "localAsset": "GenshinWiki/birthday-art/mona/07-Mona Birthday 2026.png",
+          "sourcePage": "https://genshin-impact.fandom.com/wiki/Mona/Gallery",
+          "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mona_Birthday_2026.png",
+          "width": 1800,
+          "height": 1800,
+          "originalWidth": 3000,
+          "originalHeight": 3000,
+          "mime": "image/png"
+        },
+        {
           "file": "Mona TPRGT 2022 - Aether.png",
           "title": "Mona TPRGT 2022 - Aether.png (2.36 MB)",
-          "localAsset": "GenshinWiki/birthday-art/mona/07-Mona TPRGT 2022 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/mona/08-Mona TPRGT 2022 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mona/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mona_TPRGT_2022_-_Aether.png",
           "width": 1800,
@@ -5269,7 +5281,7 @@
         {
           "file": "Mona TPRGT 2022 - Lumine.png",
           "title": "Mona TPRGT 2022 - Lumine.png (2.36 MB)",
-          "localAsset": "GenshinWiki/birthday-art/mona/08-Mona TPRGT 2022 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/mona/09-Mona TPRGT 2022 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mona/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mona_TPRGT_2022_-_Lumine.png",
           "width": 1800,
@@ -5281,7 +5293,7 @@
         {
           "file": "Mona TPRGT 2023 - Aether.png",
           "title": "Mona TPRGT 2023 - Aether.png (3.16 MB)",
-          "localAsset": "GenshinWiki/birthday-art/mona/09-Mona TPRGT 2023 - Aether.png",
+          "localAsset": "GenshinWiki/birthday-art/mona/10-Mona TPRGT 2023 - Aether.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mona/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mona_TPRGT_2023_-_Aether.png",
           "width": 1800,
@@ -5293,7 +5305,7 @@
         {
           "file": "Mona TPRGT 2023 - Lumine.png",
           "title": "Mona TPRGT 2023 - Lumine.png (3.16 MB)",
-          "localAsset": "GenshinWiki/birthday-art/mona/10-Mona TPRGT 2023 - Lumine.png",
+          "localAsset": "GenshinWiki/birthday-art/mona/11-Mona TPRGT 2023 - Lumine.png",
           "sourcePage": "https://genshin-impact.fandom.com/wiki/Mona/Gallery",
           "sourceFile": "https://genshin-impact.fandom.com/wiki/File:Mona_TPRGT_2023_-_Lumine.png",
           "width": 1800,

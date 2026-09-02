@@ -569,21 +569,15 @@
   },
   {
     "name": "Nekomata",
-    "pageTitle": "Nekomiya Mana",
+    "pageTitle": "Nekomata's Namecard",
     "aliases": [
       "Nekomata",
       "1021"
     ],
-    "releaseDate": "2024-07-04",
-    "releasePatch": "1.0",
-    "voiceActors": {
-      "english": "imdb:nm12363730|Alice Himora",
-      "chinese": "https://mzh.moegirl.org.cn/zh-hans/花玲(配音演员)|Hualing (花玲)",
-      "japanese": "Sayuri Hara|Hara Sayuri (原 紗友里)",
-      "korean": "ko:이보희 (성우)|Lee Bo-hee (이보희)"
-    },
+    "releaseDate": null,
+    "releasePatch": "1.1",
     "categories": [
-      "Category:Released in Version 1.0",
+      "Category:Released in Version 1.1",
       "Category:Version"
     ]
   },
@@ -628,7 +622,7 @@
   },
   {
     "name": "Orphie & Magus",
-    "pageTitle": "Orphie & Magus' Namecard",
+    "pageTitle": "Agent Focus: Orphie & Magus",
     "aliases": [
       "Orphie & Magus",
       "1301"

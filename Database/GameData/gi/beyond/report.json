@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-30T12:21:08.193Z",
+  "generatedAt": "2026-09-02T11:49:18.897Z",
   "sourceRoutes": [
     "https://gi.nanoka.cc/beyond/",
     "https://gi.nanoka.cc/beyond/inventory",
     "https://gi.nanoka.cc/beyond/set"
   ],
-  "version": "7.0.52",
-  "staticBase": "https://static.nanoka.cc/gi/7.0.52/en",
+  "version": "7.0.53",
+  "staticBase": "https://static.nanoka.cc/gi/7.0.53/en",
   "counts": {
     "costumes": 665,
     "items": 1596,

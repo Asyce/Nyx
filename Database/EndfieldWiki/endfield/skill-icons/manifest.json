@@ -178,5 +178,11 @@
     "EndfieldWiki/endfield/skill-icons/Skill-Liino.png",
     "EndfieldWiki/endfield/skill-icons/Combo-Liino.png",
     "EndfieldWiki/endfield/skill-icons/Ult-Liino.png"
+  ],
+  "typhoeus": [
+    "EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+    "EndfieldWiki/endfield/skill-icons/Skill-Typhoeus.png",
+    "EndfieldWiki/endfield/skill-icons/Combo-Typhoeus.png",
+    "EndfieldWiki/endfield/skill-icons/Ult-Typhoeus.png"
   ]
 }

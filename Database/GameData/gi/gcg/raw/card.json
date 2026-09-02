@@ -1076,7 +1076,7 @@
   },
   "112171": {
     "name": "Lunar Domain",
-    "desc": "",
+    "desc": "<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3001]</color>:</color> Also apply <color=#FFFFFFFF>$[K3003]</color> to 3 cards in the opponent's Hand, and set the DMG dealt by your <color=#FFFFFFFF>$[C205]</color> and <color=#FFFFFFFF>$[K3001]</color> to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3009]</color>:</color> The number of cards in their Hand whose cost is reduced is changed to 3.\\n<color=#FFFFFFFF>When the opponent is affected by <color=#FFFFFFFF>$[K3010]</color>:</color> The number of <color=#FFFFFFFF>$[K3011]</color> generated is changed to 3.\\n<color=#FFFFFFFF>$[K3]: 3</color>",
     "icon": ""
   },
   "112172": {
@@ -1086,7 +1086,7 @@
   },
   "112173": {
     "name": "RES",
-    "desc": "<color=#FFFFFFFF>When your active character receives DMG:</color> Decrease DMG taken by 2.",
+    "desc": "<color=#FFFFFFFF>When your active character receives DMG:</color> Decrease DMG taken by 1.",
     "icon": ""
   },
   "113011": {
@@ -1921,7 +1921,7 @@
   },
   "116042": {
     "name": "Silver Isotoma",
-    "desc": "<color=#FFFFFFFF>After one of your characters $[K52]:</color> Deal 1 <color=#FFFFFFFF>$[K5]</color> DMG to all opposing characters on standby.",
+    "desc": "<color=#FFFFFFFF>After one of your characters uses a $[K52]:</color> Deal 1 <color=#FFFFFFFF>$[K5]</color> DMG to all opposing characters on standby.",
     "icon": ""
   },
   "116051": {
@@ -4341,12 +4341,12 @@
   },
   "212161": {
     "name": "The Burden of Creative Genius",
-    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1216]</color>, equip this card.\\nAfter $[A1216] equips this card, immediately use <color=#FFD780FF>$[S12163]</color> once.\\n<color=#FFFFFFFF>When your <color=#FFFFFFFF>$[A1216]</color>, who has this card equipped, is on the field, and you trigger an Electro-Charged, Lunar-Charged, Bloom, or Lunar-Bloom reaction:</color> Deal +2 DMG for this instance and attach <color=#FFFFFFFF>$[K3006]</color> to the 1 card with the highest <color=#FFFFFFFF>$[K3002]</color> from your Hand. (Once per Round)\\n(You must have $[A1216] in your deck to add this card to your deck.)",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1216]</color>, equip this card.\\nAfter $[A1216] equips this card, immediately use <color=#FFD780FF>$[S12163]</color> once.\\n<color=#FFFFFFFF>When your <color=#FFFFFFFF>$[A1216]</color>, who has this card equipped, is on the field, and you trigger an Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Hydro Crystallize, or Lunar-Crystallize reaction:</color> Deal +2 DMG for this instance and attach <color=#FFFFFFFF>$[K3006]</color> to the 1 card with the highest <color=#FFFFFFFF>$[K3002]</color> from your Hand. (Once per Round)\\n(You must have $[A1216] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Aino"
   },
   "212171": {
     "name": "Radiance Over Blossoms and Peaks",
-    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1217]</color>, equip this card.\\nAfter $[A1217] equips this card, immediately use <color=#FFD780FF>$[S12172]</color> once.\\n<color=#FFFFFFFF>While your <color=#FFFFFFFF>$[A1217]</color> with this card equipped is on the field,</color><color=#FFFFFFFF> after your side triggers <color=#FFFFFFFF>$[K3001]</color>:</color> One of your characters without maximum Energy gains 1 $[K310].\\n<color=#FFFFFFFF>After your side triggers <color=#FFFFFFFF>$[K3009]</color>:</color> Your active character takes 2 less DMG the next time they take DMG.\\n<color=#FFFFFFFF>After your side triggers <color=#FFFFFFFF>$[K3010]</color>:</color> Automatically play the Moondrift with the highest <color=#FFFFFFFF>$[K3002]</color> from your Hand for free. (Twice per Round)\\n(You must have $[A1217] in your deck to add this card to your deck.)",
+    "desc": "$[K1]: When your active character is <color=#FFFFFFFF>$[A1217]</color>, equip this card.\\nAfter $[A1217] equips this card, immediately use <color=#FFD780FF>$[S12172]</color> once.\\n<color=#FFFFFFFF>While your <color=#FFFFFFFF>$[A1217]</color> with this card equipped is on the field,</color><color=#FFFFFFFF> after the opponent is affected by <color=#FFFFFFFF>$[K3001]</color>:</color> One of your characters without maximum Energy gains 1 $[K310].\\n<color=#FFFFFFFF>After the opponent is affected by <color=#FFFFFFFF>$[K3009]</color>:</color> Your active character takes 1 less DMG the next time they take DMG.\\n<color=#FFFFFFFF>After the opponent is affected by <color=#FFFFFFFF>$[K3010]</color>:</color> Automatically play the <color=#FFFFFFFF>$[K3011]</color> with the highest <color=#FFFFFFFF>$[K3002]</color> from your Hand for free. (Twice per Round)\\n(You must have $[A1217] in your deck to add this card to your deck.)",
     "icon": "Gcg_CardFace_Modify_Talent_Columbina"
   },
   "213011": {
@@ -5611,7 +5611,7 @@
   },
   "303122": {
     "name": "Overloaded: Thunderstrike",
-    "desc": "<color=#FFFFFFFF>Roll Phase:</color> Always roll 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color> and 2 {SPRITE_PRESET#1103}<color=#FF9999FF>Pyro Dice</color>.\\n<color=#FFFFFFFF>After the opponent switches characters:</color> Deal 1 $[K5] to opponent's active character.",
+    "desc": "<color=#FFFFFFFF>Roll Phase:</color> Always roll 2 {SPRITE_PRESET#1104}<color=#FFACFFFF>Electro Dice</color> and 2 {SPRITE_PRESET#1103}<color=#FF9999FF>Pyro Dice</color>.\\n<color=#FFFFFFFF>After each time the opponent switches characters:</color> Deal 1 $[K5] to opponent's active character, then increase the $[K5] dealt by this card by 1 for this Round (up to 3).",
     "icon": "Gcg_CardFace_Event_Resonance_ElecFireE"
   },
   "303132": {
@@ -6486,7 +6486,7 @@
   },
   "312046": {
     "name": "Recollection of Days Past",
-    "desc": "<color=#FFFFFFFF>After your character receives healing from a source other than an Artifact:</color> This card gains 1 stack of <color=#FFFFFFFF>Yearning</color> (max 2). At the start of the round, for each stack of <color=#FFFFFFFF>Yearning</color>, heal the attached character for 1 HP.\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
+    "desc": "<color=#FFFFFFFF>After your character receives healing from a source other than an Artifact:</color> This card gains 1 stack of <color=#FFFFFFFF>Yearning</color> (max 4). At the start of the round, for every 2 stacks of <color=#FFFFFFFF>Yearning</color>, heal the attached character for 1 HP.\\n(A character can equip a maximum of 1 {SPRITE_PRESET#3004}Artifact)",
     "icon": "Gcg_CardFace_Modify_Artifact_XishiXiao"
   },
   "312101": {
@@ -6981,7 +6981,7 @@
   },
   "322034": {
     "name": "Netochka",
-    "desc": "<color=#FFFFFFFF>When you trigger a Lunar-Charged or Lunar-Bloom reaction:</color> Attach <color=#FFFFFFFF>$[K1048]</color> to your active character. (Once per Round)",
+    "desc": "<color=#FFFFFFFF>When you trigger a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction:</color> Attach <color=#FFFFFFFF>$[K1048]</color> to your active character. (Once per Round)",
     "icon": "Gcg_CardFace_Assist_NPC_Nieduoqika"
   },
   "323001": {
@@ -7091,7 +7091,7 @@
   },
   "330014": {
     "name": "Return of the Three Moons",
-    "desc": "$[K56] the 3 cards with the highest $[K3002] in your Hand.\\nAt the start of your next Round, heal all your characters on the field for 3.\\nAt the start of the Round after that, add the 3 cards $[K56] to your Hand and give each of them 3 stacks of <color=#FFFFFFFF>$[K3005]</color>.\\n(Only one {SPRITE_PRESET#3007} \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+    "desc": "$[K56] the 3 cards with the highest $[K3002] in your Hand.\\nAt the start of your next Round, heal all your characters on the field for 3.\\nAt the start of the Round after that, add the 3 $[K56] cards to your Hand and give each of them 3 stacks of <color=#FFFFFFFF>$[K3005]</color>.\\n(Only one {SPRITE_PRESET#3007} \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
     "icon": "Gcg_CardFace_Event_Event_Sanyue"
   },
   "331004": {

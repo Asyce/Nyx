@@ -1,14 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T12:24:42.361Z",
+  "generatedAt": "2026-09-02T16:56:25.495Z",
   "games": {
     "gi": [
-      {
-        "code": "DUGODWKRHAKDNJ",
-        "added": "2026-09-01",
-        "amount": 30,
-        "currency": "Primogems"
-      },
       {
         "code": "Y1INABQB6DEX",
         "added": "2026-08-17",
@@ -102,5 +96,5 @@
       }
     ]
   },
-  "revision": "863c9469dce02266f87f28c9933071a3e02687789f0c8b976a85ed1b59128623"
+  "revision": "a8b998ee5c8582e968155300d2f187cc3f0a16a4bf39d55c38334eb54fc4a668"
 }

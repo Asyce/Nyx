@@ -4,26 +4,12 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-02T13:57:57.671Z",
+  "generatedAt": "2026-09-02T16:56:46.033Z",
   "codes": {
-    "updated": "2026-09-02T12:24:42.361Z",
+    "updated": "2026-09-02T16:56:25.495Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
-        {
-          "code": "DUGODWKRHAKDNJ",
-          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-09-01",
-          "firstSeen": "2026-09-01T05:53:34.732Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
-        },
         {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",
@@ -6245,20 +6231,6 @@ var NYX_DB = {
         }
       ],
       "codes": [
-        {
-          "code": "DUGODWKRHAKDNJ",
-          "reward": "30 Primogems, 10k Mora, Three Hero S Wit, and Three Mystic Enhancement Ore",
-          "premium": true,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-09-01",
-          "firstSeen": "2026-09-01T05:53:34.732Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=DUGODWKRHAKDNJ"
-        },
         {
           "code": "Y1INABQB6DEX",
           "reward": "60 Primogems, 5 Adventurer S Experience",

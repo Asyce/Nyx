@@ -23,18 +23,21 @@
   }
 
   function recognized(raw){
-    return raw.startsWith('#nyx-import=v2');
+    return raw.startsWith('#nyx-import=v1') || raw.startsWith('#nyx-import=v2');
   }
 
   function validPort(value){
     return PORT_PATTERN.test(value || '') && Number(value) >= 1024 && Number(value) <= 65535;
   }
 
-  function receiverPage(location){
+  function receiverPage(location, version){
     if (!location) return false;
-    if (location.pathname !== '/endfield') return false;
     const origin = String(location.origin || '');
-    return origin === 'https://pengo.gg' || origin === 'http://127.0.0.1:5173';
+    if (origin !== 'https://pengo.gg' && origin !== 'http://127.0.0.1:5173') return false;
+    if (version === 'v2') return location.pathname === '/endfield' ? { type:'pulls' } : false;
+    const game = location.pathname === '/genshin/achievements' ? 'gi'
+      : location.pathname === '/hsr/achievements' ? 'hsr' : '';
+    return game ? { type:'achievements', game } : false;
   }
 
   function parseFragment(location=global.location, history=global.history){
@@ -45,11 +48,15 @@
     consumedFragments.add(raw);
     if (!clearFragment(target, history)) throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
 
-    if (!receiverPage(target)) throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
+    const version = raw.startsWith('#nyx-import=v1') ? 'v1' : 'v2';
+    const receiver = receiverPage(target, version);
+    if (!receiver) throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
     if (raw.includes('%') || raw.includes('+')) throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
     const fields = raw.slice(1).split('&');
-    if (fields.length !== 4) throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
-    const expectedNames = ['nyx-import', 'type', 'port', 'nonce'];
+    const expectedNames = version === 'v1'
+      ? ['nyx-import', 'port', 'nonce']
+      : ['nyx-import', 'type', 'port', 'nonce'];
+    if (fields.length !== expectedNames.length) throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
     const values = Object.create(null);
     for (let index = 0; index < fields.length; index += 1) {
       const field = fields[index];
@@ -62,13 +69,21 @@
       }
       values[name] = value;
     }
-    if (values['nyx-import'] !== 'v2' || values.type !== 'pulls'
+    if (values['nyx-import'] !== version || (version === 'v2' && values.type !== 'pulls')
       || !validPort(values.port) || !NONCE_PATTERN.test(values.nonce || '')) {
       throw error(INVALID_HANDOFF, 'INVALID_HANDOFF');
     }
+    if (version === 'v1') {
+      return Object.freeze({
+        version,
+        type: receiver.type,
+        game: receiver.game,
+        endpoint: `http://127.0.0.1:${values.port}/v1/achievement-import/${values.nonce}`,
+      });
+    }
     return Object.freeze({
-      version: 'v2',
-      type: 'pulls',
+      version,
+      type: receiver.type,
       endpoint: `http://127.0.0.1:${values.port}/v2/pull-import/${values.nonce}`,
     });
   }
@@ -171,18 +186,24 @@
   }
 
   function endpointParts(request){
-    if (!request || request.version !== 'v2' || request.type !== 'pulls'
-      || typeof request.endpoint !== 'string') {
+    if (!request || typeof request.endpoint !== 'string') {
       throw error('The launcher handoff request is invalid.', 'INVALID_HANDOFF');
     }
-    const match = /^http:\/\/127\.0\.0\.1:([1-9][0-9]{3,4})\/v2\/pull-import\/([A-Za-z0-9_-]{43})$/.exec(request.endpoint);
+    const endpointPattern = request.version === 'v2' && request.type === 'pulls'
+      ? /^http:\/\/127\.0\.0\.1:([1-9][0-9]{3,4})\/v2\/pull-import\/([A-Za-z0-9_-]{43})$/
+      : request.version === 'v1' && request.type === 'achievements' && ['gi', 'hsr'].includes(request.game)
+        ? /^http:\/\/127\.0\.0\.1:([1-9][0-9]{3,4})\/v1\/achievement-import\/([A-Za-z0-9_-]{43})$/
+        : null;
+    if (!endpointPattern) throw error('The launcher handoff request is invalid.', 'INVALID_HANDOFF');
+    const match = endpointPattern.exec(request.endpoint);
     if (!match || !validPort(match[1]) || !NONCE_PATTERN.test(match[2])) {
       throw error('The launcher handoff request is invalid.', 'INVALID_HANDOFF');
     }
     return match;
   }
 
-  function strictParser(){
+  function strictParser(request){
+    if (request.version !== 'v2' || request.type !== 'pulls') return null;
     const pulls = global && global.NyxPulls;
     if (!pulls || typeof pulls.importFile !== 'function') return null;
     return (value) => {
@@ -232,7 +253,7 @@
       if (!value || typeof value !== 'object' || Array.isArray(value)) {
         throw error('The launcher returned an invalid JSON object.', 'INVALID_JSON');
       }
-      const parser = strictParser();
+      const parser = strictParser(request);
       let payload = value;
       let schemaValidated = false;
       if (parser) {

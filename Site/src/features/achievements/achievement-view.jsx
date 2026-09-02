@@ -92,6 +92,7 @@ function AchievementPage({ game }){
   const manageButton = React.useRef(null);
   const managePanel = React.useRef(null);
   const atlasToggle = React.useRef(null);
+  const launcherHandoff = React.useRef(null);
 
   const refreshProfiles = React.useCallback((preferredId) => {
     if (!store) return;
@@ -194,6 +195,27 @@ function AchievementPage({ game }){
       if (result.resolved) setProfiles((current) => current.map((item) => item.id === result.profile.id ? result.profile : item));
     } catch (error) { setRuntimeError(error.message || 'Imported achievement IDs could not be updated.'); }
   }, [store, storedProfile?.id, rows, game]);
+  React.useEffect(() => {
+    if (!storedProfile || !rows.length) return undefined;
+    const handoff = launcherHandoff.current || window.PengoPullLauncherBridge?.takePending?.();
+    if (!handoff) return undefined;
+    launcherHandoff.current = handoff;
+    let cancelled = false;
+    setManageTab('import'); setManageOpen(true);
+    setImportError(''); setImportMessage(''); setImportPreview(null); setReplaceConfirmed(false);
+    Promise.resolve(handoff).then((received) => {
+      const parsed = window.NyxAchievementImport.parse(received?.text || received?.payload);
+      const preview = window.NyxAchievementImport.preview(parsed, game, rows, storedProfile);
+      if (cancelled) return;
+      launcherHandoff.current = null;
+      setImportPreview(preview);
+    }).catch(() => {
+      if (cancelled) return;
+      launcherHandoff.current = null;
+      setImportError('The launcher handoff could not be received. Use the saved JSON file instead.');
+    });
+    return () => { cancelled = true; };
+  }, [game, rows, storedProfile]);
 
   const completed = React.useMemo(() => new Set(profile?.completedIds || []), [profile]);
   const categoryById = React.useMemo(() => new Map(categories.map((category) => [category.id, category])), [categories]);

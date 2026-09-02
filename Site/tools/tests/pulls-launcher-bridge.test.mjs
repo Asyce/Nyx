@@ -14,6 +14,7 @@ const headers = await fs.readFile(path.resolve(here, '../../public/_headers'), '
 const buildSource = await fs.readFile(path.resolve(here, '../build-site.mjs'), 'utf8');
 const trackerSource = await fs.readFile(path.resolve(here, '../../src/features/gacha/gacha-tracker.jsx'), 'utf8');
 const overviewSource = await fs.readFile(path.resolve(here, '../../src/features/gacha/pulls-overview.jsx'), 'utf8');
+const achievementViewSource = await fs.readFile(path.resolve(here, '../../src/features/achievements/achievement-view.jsx'), 'utf8');
 
 const NONCE = 'A'.repeat(43);
 const MAX_BYTES = 5 * 1024 * 1024;
@@ -22,9 +23,9 @@ function location(hash = '') {
   return { origin: 'https://pengo.gg', pathname: '/endfield', search: '?tab=pulls', hash };
 }
 
-function sandbox({ hash = '', fetch, importFile, replaceState, timers = {} } = {}) {
+function sandbox({ hash = '', target: suppliedTarget, fetch, importFile, replaceState, timers = {} } = {}) {
   const calls = [];
-  const target = location(hash);
+  const target = suppliedTarget || location(hash);
   const window = {
     location: target,
     history: {
@@ -57,6 +58,19 @@ function sandbox({ hash = '', fetch, importFile, replaceState, timers = {} } = {
 
 function validFragment({ port = '49152', nonce = NONCE } = {}) {
   return `#nyx-import=v2&type=pulls&port=${port}&nonce=${nonce}`;
+}
+
+function achievementLocation(hash = '', { game = 'gi', origin = 'https://pengo.gg' } = {}) {
+  return {
+    origin,
+    pathname: game === 'hsr' ? '/hsr/achievements' : '/genshin/achievements',
+    search: '?profile=keep',
+    hash,
+  };
+}
+
+function validAchievementFragment({ port = '49152', nonce = NONCE } = {}) {
+  return `#nyx-import=v1&port=${port}&nonce=${nonce}`;
 }
 
 function request(bridge, hash = validFragment()) {
@@ -168,6 +182,81 @@ test('accepts only the production or exact local Endfield page', () => {
   assert.equal(bridge.consume(dev, { replaceState() {} }).type, 'pulls');
 });
 
+test('parses exact v1 achievement handoffs for only Genshin and Star Rail', () => {
+  for (const [game, expectedGame] of [['gi', 'gi'], ['hsr', 'hsr']]) {
+    const { bridge } = sandbox();
+    const target = achievementLocation(validAchievementFragment(), { game });
+    const handoff = bridge.consume(target, { state: null, replaceState() {} });
+    assert.deepEqual(JSON.parse(JSON.stringify(handoff)), {
+      version: 'v1',
+      type: 'achievements',
+      game: expectedGame,
+      endpoint: `http://127.0.0.1:49152/v1/achievement-import/${NONCE}`,
+    });
+    assert.equal(bridge.consume(target, { replaceState() {} }), null);
+    assert.equal(bridge.consume(achievementLocation(validAchievementFragment(), { game }), { replaceState() {} }), null);
+  }
+
+  const lower = sandbox().bridge.consume(
+    achievementLocation(validAchievementFragment({ port:'1024', nonce:'B'.repeat(43) })),
+    { replaceState() {} },
+  );
+  const upper = sandbox().bridge.consume(
+    achievementLocation(validAchievementFragment({ port:'65535', nonce:'C'.repeat(43) }), { game:'hsr' }),
+    { replaceState() {} },
+  );
+  assert.match(lower.endpoint, /:1024\/v1\/achievement-import\//);
+  assert.match(upper.endpoint, /:65535\/v1\/achievement-import\//);
+});
+
+test('v1 achievement fragments fail closed on any non-exact field, route, or origin', () => {
+  const malformed = [
+    '#nyx-import=v1&port=49152',
+    `${validAchievementFragment()}&extra=1`,
+    validAchievementFragment().replace('&port=', '&port=49152&port='),
+    validAchievementFragment().replace('&port=49152&nonce=', '&nonce=').replace(NONCE, `${NONCE}&port=49152`),
+    validAchievementFragment().replace('port=49152', 'port=049152'),
+    validAchievementFragment().replace('port=49152', 'port=1023'),
+    validAchievementFragment().replace('port=49152', 'port=65536'),
+    validAchievementFragment().replace('nonce=' + NONCE, 'nonce=' + 'A'.repeat(42)),
+    validAchievementFragment().replace('nonce=' + NONCE, 'nonce=' + 'A'.repeat(44)),
+    validAchievementFragment().replace('nonce=' + NONCE, 'nonce=' + 'A'.repeat(42) + '+'),
+    validAchievementFragment().replace('nonce=' + NONCE, 'nonce=' + 'A'.repeat(42) + '%2F'),
+    validAchievementFragment().replace('port=49152', 'port=49%152'),
+    validAchievementFragment().replace('v1', 'v10'),
+    '#nyx-import=v1&type=achievements&port=49152&nonce=' + NONCE,
+    '#nyx-import=v1&port=49152&nonce=' + NONCE + '=extra',
+  ];
+  for (const hash of malformed) {
+    const { bridge } = sandbox();
+    assert.throws(
+      () => bridge.consume(achievementLocation(hash), { replaceState() {} }),
+      /invalid or has expired/,
+    );
+  }
+
+  const invalidTargets = [
+    achievementLocation(validAchievementFragment(), { origin:'http://localhost:5173' }),
+    achievementLocation(validAchievementFragment(), { origin:'https://127.0.0.1:5173' }),
+    achievementLocation(validAchievementFragment(), { origin:'http://pengo.gg' }),
+    { ...achievementLocation(validAchievementFragment()), pathname:'/genshin/achievements/' },
+    { ...achievementLocation(validAchievementFragment()), pathname:'/endfield' },
+    { ...achievementLocation(validAchievementFragment()), pathname:'/zzz/achievements' },
+    achievementLocation(validFragment()),
+  ];
+  for (const target of invalidTargets) {
+    const { bridge } = sandbox();
+    assert.throws(() => bridge.consume(target, { replaceState() {} }), /invalid or has expired/);
+  }
+
+  const dev = achievementLocation(validAchievementFragment(), { game:'hsr', origin:'http://127.0.0.1:5173' });
+  assert.equal(sandbox().bridge.consume(dev, { replaceState() {} }).game, 'hsr');
+  const wrongVersion = achievementLocation('#nyx-import=v0&port=49152&nonce=' + NONCE);
+  const calls = [];
+  assert.equal(sandbox().bridge.consume(wrongVersion, { replaceState:(...args) => calls.push(args) }), null);
+  assert.deepEqual(calls, []);
+});
+
 test('clears malformed recognized v2 fragments but leaves unrelated hashes untouched', () => {
   const { bridge, calls } = sandbox();
   const malformedLocation = location('#nyx-import=v2&type=pulls');
@@ -233,6 +322,67 @@ test('uses the exact loopback GET request options and returns an explicitly unva
   });
   assert.equal(result.schemaValidated, false);
   assert.deepEqual(result.payload, { kind: 'pengo-pulls', version: 1 });
+});
+
+test('clears and fetches a v1 achievement handoff through the shared bounded reader', async () => {
+  const order = [];
+  const fetchCalls = [];
+  let pullParserCalls = 0;
+  const target = achievementLocation(validAchievementFragment(), { game:'hsr' });
+  const artifact = {
+    kind:'pengo-achievements', version:1, game:'hsr', catalogVersion:'3.8',
+    exportedAt:'2026-09-02T12:00:00Z', achievements:[],
+  };
+  const { bridge, calls } = sandbox({
+    target,
+    importFile: () => { pullParserCalls += 1; throw new Error('wrong parser'); },
+    replaceState: () => order.push('clear'),
+    fetch: async (...args) => {
+      order.push('fetch');
+      fetchCalls.push(args);
+      return response(JSON.stringify(artifact));
+    },
+  });
+
+  assert.deepEqual(calls, [[{ keep:true }, '', '/hsr/achievements?profile=keep']]);
+  assert.deepEqual(order, ['clear', 'fetch']);
+  assert.equal(target.hash, '');
+  const received = await bridge.takePending();
+  assert.equal(pullParserCalls, 0);
+  assert.equal(received.schemaValidated, false);
+  assert.deepEqual(JSON.parse(JSON.stringify(received.payload)), artifact);
+  assert.equal(fetchCalls[0][0], `http://127.0.0.1:49152/v1/achievement-import/${NONCE}`);
+  assert.deepEqual(JSON.parse(JSON.stringify(fetchCalls[0][1])), {
+    method: 'GET',
+    mode: 'cors',
+    credentials: 'omit',
+    cache: 'no-store',
+    redirect: 'error',
+    referrerPolicy: 'no-referrer',
+    headers: { Accept:'application/json' },
+    signal: {},
+  });
+});
+
+test('rejects forged v1 request objects before any fetch', async () => {
+  const { bridge } = sandbox();
+  const valid = bridge.consume(achievementLocation(validAchievementFragment()), { replaceState() {} });
+  const forged = [
+    { ...valid, version:'v2' },
+    { ...valid, type:'pulls' },
+    { ...valid, game:'ae' },
+    { ...valid, endpoint:valid.endpoint.replace('127.0.0.1', 'localhost') },
+    { ...valid, endpoint:valid.endpoint.replace('/v1/achievement-import/', '/v1/achievement-import/extra/') },
+    { ...valid, endpoint:valid.endpoint + '/extra' },
+  ];
+  for (const handoff of forged) {
+    let fetched = false;
+    await assert.rejects(
+      bridge.fetchExport(handoff, { fetch:async () => { fetched = true; return response('{}'); } }),
+      /request is invalid/,
+    );
+    assert.equal(fetched, false);
+  }
 });
 
 test('uses the existing strict Endfield importer when it is the available parser', async () => {
@@ -354,6 +504,19 @@ test('does not mutate storage or remove the manual-import path', () => {
   assert.equal(bridge.takePending(), null);
   assert.equal(window.NyxPullStore, sentinel);
   assert.doesNotMatch(source, /localStorage|indexedDB|savePulls|importBundle/);
+});
+
+test('achievement handoffs open the existing parser preview without applying progress', () => {
+  const start = achievementViewSource.indexOf('const handoff = launcherHandoff.current');
+  const end = achievementViewSource.indexOf('}, [game, rows, storedProfile]);', start);
+  assert.ok(start >= 0 && end > start);
+  const receiver = achievementViewSource.slice(start, end);
+  assert.match(receiver, /PengoPullLauncherBridge\?\.takePending\?\.\(\)/);
+  assert.match(receiver, /setManageTab\('import'\); setManageOpen\(true\)/);
+  assert.match(receiver, /NyxAchievementImport\.parse\(received\?\.text \|\| received\?\.payload\)/);
+  assert.match(receiver, /NyxAchievementImport\.preview\(parsed, game, rows, storedProfile\)/);
+  assert.match(receiver, /setImportPreview\(preview\)/);
+  assert.doesNotMatch(receiver, /NyxAchievementImport\.apply|mergeProgress|replaceProgress|setCompleted/);
 });
 
 test('strict empty Endfield exports reach preview and can restore their metadata-only profile', () => {

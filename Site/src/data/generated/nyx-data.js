@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-01T19:01:36.289Z",
+  "generatedAt": "2026-09-02T07:54:30.450Z",
   "codes": {
-    "updated": "2026-09-01T19:01:16.165Z",
+    "updated": "2026-09-02T07:53:30.910Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -53,20 +53,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-09-01T08:36:52.102Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -79,20 +65,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -414,16 +386,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-09-01T08:35:56.845Z",
-    "checkedAt": "2026-09-01T08:35:56.845Z",
+    "updated": "2026-09-02T07:52:35.688Z",
+    "checkedAt": "2026-09-02T07:52:35.688Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
@@ -622,20 +594,20 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
           "phase": "7.0 Phase 2",
-          "start": "2026-09-01T17:00:00.000Z",
-          "end": "2026-09-22T13:59:00.000Z",
+          "start": "2026-09-01T23:00:00.000Z",
+          "end": "2026-09-22T19:59:00.000Z",
           "characters": [
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -679,7 +651,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -883,9 +855,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
@@ -1029,9 +1001,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
@@ -1277,159 +1249,13 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
           "phase": "Patch 1.4 Phase 2",
-          "start": "2026-08-09T04:00:00.000Z",
-          "end": "2026-09-01T21:59:59.000Z",
-          "characters": [
-            {
-              "name": "Liino",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-08-09"
-            },
-            {
-              "name": "Arcane",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-07-16"
-            },
-            {
-              "name": "Camille",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-06-26"
-            },
-            {
-              "name": "Avywenna",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/splash.png",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-01-22"
-            }
-          ],
-          "subBanners": [],
-          "lossPool": {
-            "current": {
-              "name": "Liino",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-08-09"
-            },
-            "previous": [
-              {
-                "name": "Arcane",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-07-16"
-              },
-              {
-                "name": "Camille",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-06-26"
-              }
-            ],
-            "permanent": [
-              {
-                "name": "Ardelia",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Pogranichnik",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Last Rite",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": true,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Ember",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": true,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Lifeng",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": true,
-                "debutAt": "2026-01-22"
-              }
-            ]
-          }
-        },
-        "next": {
-          "phase": "Patch 1.5 Phase 1",
           "start": "2026-09-02T04:00:00.000Z",
           "end": "2026-09-30T03:59:59.000Z",
           "characters": [
@@ -1563,120 +1389,120 @@ var NYX_DB = {
             ]
           }
         },
-        "upcoming": [
-          {
-            "phase": "Resplendent Spectrum",
-            "start": "2026-09-24T04:00:00.000Z",
-            "end": "2026-10-21T21:59:59.000Z",
-            "characters": [
+        "next": {
+          "phase": "Resplendent Spectrum",
+          "start": "2026-09-24T04:00:00.000Z",
+          "end": "2026-10-21T21:59:59.000Z",
+          "characters": [
+            {
+              "name": "Yvonne",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-01-22"
+            }
+          ],
+          "subBanners": [],
+          "lossPool": {
+            "current": {
+              "name": "Yvonne",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-01-22"
+            },
+            "previous": [
               {
-                "name": "Yvonne",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+                "name": "Typhoeus",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-09-02"
+              },
+              {
+                "name": "Liino",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
                 "namecard": null,
                 "rarity": 6,
                 "debut": false,
-                "debutAt": "2026-01-22"
+                "debutAt": "2026-08-09"
               }
             ],
-            "subBanners": [],
-            "lossPool": {
-              "current": {
-                "name": "Yvonne",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+            "permanent": [
+              {
+                "name": "Ardelia",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
                 "namecard": null,
                 "rarity": 6,
                 "debut": false,
                 "debutAt": "2026-01-22"
               },
-              "previous": [
-                {
-                  "name": "Typhoeus",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-09-02"
-                },
-                {
-                  "name": "Liino",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": false,
-                  "debutAt": "2026-08-09"
-                }
-              ],
-              "permanent": [
-                {
-                  "name": "Ardelia",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": false,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Pogranichnik",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": false,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Last Rite",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Ember",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Lifeng",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-01-22"
-                }
-              ]
-            }
-          },
+              {
+                "name": "Pogranichnik",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Last Rite",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Ember",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Lifeng",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              }
+            ]
+          }
+        },
+        "upcoming": [
           {
             "phase": null,
             "teased": true,
@@ -6434,20 +6260,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-09-01T08:36:52.102Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -6460,20 +6272,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-08-12T07:46:42.167Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -6508,20 +6306,20 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
           "phase": "7.0 Phase 2",
-          "start": "2026-09-01T17:00:00.000Z",
-          "end": "2026-09-22T13:59:00.000Z",
+          "start": "2026-09-01T23:00:00.000Z",
+          "end": "2026-09-22T19:59:00.000Z",
           "characters": [
             {
               "name": "Ineffa",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Ineffa_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Ineffa.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Ineffa.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Ineffa.png",
@@ -6565,7 +6363,7 @@ var NYX_DB = {
             {
               "name": "Flins",
               "icon": "../../Database/GameData/gi/assets/characters/circles/UI_AvatarIcon_Flins_Circle.webp",
-              "iconFallback": null,
+              "iconFallback": "https://static.nanoka.cc/assets/gi/UI_AvatarIcon_Flins.webp",
               "iconZoom": false,
               "art": "../../Database/GameData/gi/assets/characters/gacha/UI_Gacha_AvatarImg_Flins.webp",
               "namecard": "../../Database/GenshinWiki/namecards/Flins.png",
@@ -173354,9 +173152,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
@@ -179291,9 +179089,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
@@ -184559,9 +184357,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
@@ -189939,159 +189737,13 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-01T08:35:56.845Z",
-          "lastSuccessfulFetch": "2026-09-01T08:35:56.845Z",
-          "lastValidUpdate": "2026-09-01T08:35:56.845Z",
+          "checkedAt": "2026-09-02T07:52:35.688Z",
+          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
           "source": "prydwen"
         },
         "current": {
           "phase": "Patch 1.4 Phase 2",
-          "start": "2026-08-09T04:00:00.000Z",
-          "end": "2026-09-01T21:59:59.000Z",
-          "characters": [
-            {
-              "name": "Liino",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-08-09"
-            },
-            {
-              "name": "Arcane",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-07-16"
-            },
-            {
-              "name": "Camille",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-06-26"
-            },
-            {
-              "name": "Avywenna",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/avywenna/splash.png",
-              "namecard": null,
-              "rarity": 5,
-              "debut": false,
-              "debutAt": "2026-01-22"
-            }
-          ],
-          "subBanners": [],
-          "lossPool": {
-            "current": {
-              "name": "Liino",
-              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
-              "iconFallback": null,
-              "iconZoom": false,
-              "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-              "namecard": null,
-              "rarity": 6,
-              "debut": false,
-              "debutAt": "2026-08-09"
-            },
-            "previous": [
-              {
-                "name": "Arcane",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/arcane/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-07-16"
-              },
-              {
-                "name": "Camille",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/camille/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/camille/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-06-26"
-              }
-            ],
-            "permanent": [
-              {
-                "name": "Ardelia",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Pogranichnik",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": false,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Last Rite",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": true,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Ember",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": true,
-                "debutAt": "2026-01-22"
-              },
-              {
-                "name": "Lifeng",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
-                "iconFallback": null,
-                "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
-                "namecard": null,
-                "rarity": 6,
-                "debut": true,
-                "debutAt": "2026-01-22"
-              }
-            ]
-          }
-        },
-        "next": {
-          "phase": "Patch 1.5 Phase 1",
           "start": "2026-09-02T04:00:00.000Z",
           "end": "2026-09-30T03:59:59.000Z",
           "characters": [
@@ -190225,120 +189877,120 @@ var NYX_DB = {
             ]
           }
         },
-        "upcoming": [
-          {
-            "phase": "Resplendent Spectrum",
-            "start": "2026-09-24T04:00:00.000Z",
-            "end": "2026-10-21T21:59:59.000Z",
-            "characters": [
+        "next": {
+          "phase": "Resplendent Spectrum",
+          "start": "2026-09-24T04:00:00.000Z",
+          "end": "2026-10-21T21:59:59.000Z",
+          "characters": [
+            {
+              "name": "Yvonne",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-01-22"
+            }
+          ],
+          "subBanners": [],
+          "lossPool": {
+            "current": {
+              "name": "Yvonne",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+              "namecard": null,
+              "rarity": 6,
+              "debut": false,
+              "debutAt": "2026-01-22"
+            },
+            "previous": [
               {
-                "name": "Yvonne",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+                "name": "Typhoeus",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-09-02"
+              },
+              {
+                "name": "Liino",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
                 "namecard": null,
                 "rarity": 6,
                 "debut": false,
-                "debutAt": "2026-01-22"
+                "debutAt": "2026-08-09"
               }
             ],
-            "subBanners": [],
-            "lossPool": {
-              "current": {
-                "name": "Yvonne",
-                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/icon.png",
+            "permanent": [
+              {
+                "name": "Ardelia",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
                 "iconFallback": null,
                 "iconZoom": false,
-                "art": "../../Database/EndfieldWiki/endfield/assets/operators/yvonne/splash.png",
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
                 "namecard": null,
                 "rarity": 6,
                 "debut": false,
                 "debutAt": "2026-01-22"
               },
-              "previous": [
-                {
-                  "name": "Typhoeus",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-09-02"
-                },
-                {
-                  "name": "Liino",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/liino/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/liino/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": false,
-                  "debutAt": "2026-08-09"
-                }
-              ],
-              "permanent": [
-                {
-                  "name": "Ardelia",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/ardelia/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": false,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Pogranichnik",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": false,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Last Rite",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Ember",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-01-22"
-                },
-                {
-                  "name": "Lifeng",
-                  "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
-                  "iconFallback": null,
-                  "iconZoom": false,
-                  "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
-                  "namecard": null,
-                  "rarity": 6,
-                  "debut": true,
-                  "debutAt": "2026-01-22"
-                }
-              ]
-            }
-          },
+              {
+                "name": "Pogranichnik",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/pogranichnik/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": false,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Last Rite",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/last-rite/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Ember",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/ember/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/ember/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              },
+              {
+                "name": "Lifeng",
+                "icon": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/icon.png",
+                "iconFallback": null,
+                "iconZoom": false,
+                "art": "../../Database/EndfieldWiki/endfield/assets/operators/lifeng/splash.png",
+                "namecard": null,
+                "rarity": 6,
+                "debut": true,
+                "debutAt": "2026-01-22"
+              }
+            ]
+          }
+        },
+        "upcoming": [
           {
             "phase": null,
             "teased": true,

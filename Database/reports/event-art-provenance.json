@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/events/art.mjs",
-  "generatedAt": "2026-09-01T08:36:52.166Z",
+  "generatedAt": "2026-09-02T07:53:30.973Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": [
@@ -681,6 +681,25 @@
     },
     {
       "game": "hsr",
+      "fileName": "e2600f33be99ab25ef17bcdd2c6160bf9c947441f7114ccdedfce9b1fdd2cb97.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/14/2c0ba9d20512025b5a8a6aed01a0c83c_2551722811873803807_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/e2600f33be99ab25ef17bcdd2c6160bf9c947441f7114ccdedfce9b1fdd2cb97.jpg",
+      "localPath": "Site/assets/events/hsr/e2600f33be99ab25ef17bcdd2c6160bf9c947441f7114ccdedfce9b1fdd2cb97.jpg",
+      "sha256": "e2600f33be99ab25ef17bcdd2c6160bf9c947441f7114ccdedfce9b1fdd2cb97",
+      "bytes": 327693,
+      "mediaType": "image/jpeg",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"2c0ba9d20512025b5a8a6aed01a0c83c\"",
+      "lastModified": "Fri, 14 Aug 2026 09:24:51 GMT",
+      "retrievedAt": "2026-09-02T07:53:30.973Z",
+      "eventIds": [
+        "hsr-hoyo-ann-81af99431e04"
+      ]
+    },
+    {
+      "game": "hsr",
       "fileName": "f1135736275fde8e5a8d47ccf6c761f9bc18665ce0f872e01ab1aa5b676cf5f8.png",
       "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/15/03d8c2e61620c3be3c974864664f7f42_660567637651939025_transformed.png",
       "requestUrl": null,
@@ -738,44 +757,6 @@
     },
     {
       "game": "wuwa",
-      "fileName": "3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
-      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785168000000/dt8d908zs3l1dapvee-1785224786169.jpg",
-      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785168000000/dt8d908zs3l1dapvee-1785224786169.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
-      "runtimePath": "/assets/events/wuwa/3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
-      "localPath": "Site/assets/events/wuwa/3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f.jpg",
-      "sha256": "3b7a6e4b689e41c15f165367aa72e32995d1e38146a9c9423c4e9e21ddd7ab3f",
-      "bytes": 149017,
-      "mediaType": "image/jpeg",
-      "width": 960,
-      "height": 540,
-      "etag": "\"E5DE213BCAE6BA2D2EC8DB2CD2D304E4\"",
-      "lastModified": "Tue, 28 Jul 2026 07:46:26 GMT",
-      "retrievedAt": "2026-08-08T00:05:11.766Z",
-      "eventIds": [
-        "wuwa-kuro-article-ec83f0c0e367"
-      ]
-    },
-    {
-      "game": "wuwa",
-      "fileName": "421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
-      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/7zkzq35o525m52cjmj-1783666245394.jpg",
-      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783612800000/7zkzq35o525m52cjmj-1783666245394.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
-      "runtimePath": "/assets/events/wuwa/421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
-      "localPath": "Site/assets/events/wuwa/421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c.jpg",
-      "sha256": "421bb8ef6e02cafb02fdc441478aaf433b465ae4dc57f6d1ee3fa385f8002b3c",
-      "bytes": 86282,
-      "mediaType": "image/jpeg",
-      "width": 960,
-      "height": 540,
-      "etag": "\"0D0C5662AF26A173AEA6C4874B56293C\"",
-      "lastModified": "Fri, 10 Jul 2026 06:50:45 GMT",
-      "retrievedAt": "2026-08-08T00:05:11.766Z",
-      "eventIds": [
-        "wuwa-kuro-article-f493272cbb50"
-      ]
-    },
-    {
-      "game": "wuwa",
       "fileName": "4cb73b61cb60219ef1ee610d896b1f18a5557ee31428eb8140c138bf66ce2fa5.jpg",
       "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783440000000/blfvxjrg6ikqh5g3k0-1783515945643.jpg",
       "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1783440000000/blfvxjrg6ikqh5g3k0-1783515945643.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
@@ -829,25 +810,6 @@
       "retrievedAt": "2026-08-08T00:08:26.163Z",
       "eventIds": [
         "wuwa-kuro-article-09c96389754d"
-      ]
-    },
-    {
-      "game": "wuwa",
-      "fileName": "73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
-      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/a54ek839a2wlpo0r3j-1785315495269.jpg",
-      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/a54ek839a2wlpo0r3j-1785315495269.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
-      "runtimePath": "/assets/events/wuwa/73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
-      "localPath": "Site/assets/events/wuwa/73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9.jpg",
-      "sha256": "73898b2a2366bd668123c3a23419117a9743c93a29e8ed4f94c6bb7c2186e4e9",
-      "bytes": 157047,
-      "mediaType": "image/jpeg",
-      "width": 960,
-      "height": 540,
-      "etag": "\"5B405EC3E4B0A4D11ECABC13855616A7\"",
-      "lastModified": "Wed, 29 Jul 2026 08:58:15 GMT",
-      "retrievedAt": "2026-08-08T00:05:11.766Z",
-      "eventIds": [
-        "wuwa-kuro-article-58f2df3a5ff0"
       ]
     },
     {
@@ -1057,25 +1019,6 @@
       "retrievedAt": "2026-08-08T00:05:11.766Z",
       "eventIds": [
         "wuwa-kuro-article-22b221c941ef"
-      ]
-    },
-    {
-      "game": "wuwa",
-      "fileName": "ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
-      "sourceUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/bk6q79x6r5lvdtd6ys-1785315861476.jpg",
-      "requestUrl": "https://hw-media-cdn-mingchao.kurogame.com/object/1785254400000/bk6q79x6r5lvdtd6ys-1785315861476.jpg?x-oss-process=image%2Fresize%2Cw_960%2Fquality%2Cq_80",
-      "runtimePath": "/assets/events/wuwa/ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
-      "localPath": "Site/assets/events/wuwa/ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17.jpg",
-      "sha256": "ecad6b0dc67bb24da6857c24c52d86f5d1dfe8a5fffde35fe76463fbdfe53c17",
-      "bytes": 115603,
-      "mediaType": "image/jpeg",
-      "width": 960,
-      "height": 540,
-      "etag": "\"73D81A4669229A0B7C60768172D2C7CA\"",
-      "lastModified": "Wed, 29 Jul 2026 09:04:21 GMT",
-      "retrievedAt": "2026-08-08T00:05:11.766Z",
-      "eventIds": [
-        "wuwa-kuro-article-05ab971d1575"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "9dbb6c60ce34b8f00b5eaba25d25eb5f02f42dd43618be90a0c4c31ba02dbb30",
-  "generatedAt": "2026-09-01T19:01:38.061Z",
+  "revision": "831edf0ad17c1b5b15fc88718a3a3b3179a6f1c1b13ded49aef2a1d1a37d9f2c",
+  "generatedAt": "2026-09-02T07:54:32.297Z",
   "health": {
     "status": "ok",
     "games": {
@@ -43,7 +43,7 @@
         "remaining": {
           "startsAt": "2026-09-01T17:00:00.000Z",
           "endsAt": "2026-09-22T13:59:00.000Z",
-          "durationSeconds": 1796241
+          "durationSeconds": 1749867
         },
         "characters": [
           {
@@ -390,7 +390,7 @@
         "remaining": {
           "startsAt": "2026-08-26T03:00:00.000Z",
           "endsAt": "2026-09-12T03:59:00.000Z",
-          "durationSeconds": 896241
+          "durationSeconds": 849867
         },
         "characters": [
           {
@@ -703,10 +703,18 @@
       ],
       "news": [
         {
+          "id": "hsr-hoyo-ann-81af99431e04",
+          "title": "\"Astral Express Strategy Guide\" Website Update: Version 4.5 Strategy Guides Contest Event Is In Full Swing!",
+          "type": "event",
+          "start": "2026-08-31T19:00:00.000Z",
+          "end": "2026-09-04T22:59:00.000Z",
+          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1353"
+        },
+        {
           "id": "hsr-hoyo-ann-9a4cbeb1fb51",
           "title": "Version 4.5 Event Warp: Phase I",
           "type": "banner",
-          "start": "2026-08-25T00:00:00.000Z",
+          "start": "2026-08-25T13:00:00.000Z",
           "end": "2026-09-12T10:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1330"
         },
@@ -714,8 +722,8 @@
           "id": "hsr-hoyo-ann-469228a36704",
           "title": "\"Overdrive: Whirlwind Grand Prix\": Win the grand prix to obtain Self-Modeling Resins, Tracks of Destiny, Stellar Jades, and more!",
           "type": "event",
-          "start": "2026-08-24T23:00:00.000Z",
-          "end": "2026-09-27T13:59:00.000Z",
+          "start": "2026-08-25T12:00:00.000Z",
+          "end": "2026-09-28T02:59:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1335"
         },
         {
@@ -757,14 +765,6 @@
           "start": "2026-08-04T04:00:00.000Z",
           "end": "2026-08-25T14:00:00.000Z",
           "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1294"
-        },
-        {
-          "id": "hsr-hoyo-ann-cf76d1646b14",
-          "title": "Planar Fissure Event: Planar Ornaments Drop Rate Doubled for a Limited Time",
-          "type": "event",
-          "start": "2026-07-27T03:00:00.000Z",
-          "end": "2026-08-10T02:59:00.000Z",
-          "url": "https://sg-hkrpg-api.hoyoverse.com/common/hkrpg_global/announcement/api/getAnnContent?game=hkrpg&game_biz=hkrpg_global&lang=en&ann_id=1338"
         }
       ],
       "codes": [
@@ -811,7 +811,7 @@
         "remaining": {
           "startsAt": "2026-08-19T04:00:00.000Z",
           "endsAt": "2026-09-08T06:59:59.000Z",
-          "durationSeconds": 561500
+          "durationSeconds": 515126
         },
         "characters": [
           {
@@ -1508,8 +1508,8 @@
           "id": "zzz-hoyo-ann-d5df8c2348bf",
           "title": "Version 3.1 New Stock in the Store",
           "type": "event",
-          "start": "2026-08-17T11:00:00.000Z",
-          "end": "2026-09-09T04:59:00.000Z",
+          "start": "2026-08-17T04:00:00.000Z",
+          "end": "2026-09-08T21:59:00.000Z",
           "url": "https://sg-announcement-api.hoyoverse.com/common/nap_global/announcement/api/getAnnContent?game=nap&game_biz=nap_global&lang=en&ann_id=230"
         }
       ],
@@ -1545,7 +1545,7 @@
         "remaining": {
           "startsAt": "2026-08-20T09:00:00.000Z",
           "endsAt": "2026-09-10T08:59:00.000Z",
-          "durationSeconds": 741441
+          "durationSeconds": 695067
         },
         "characters": [
           {
@@ -1855,20 +1855,79 @@
       "game": "ae",
       "region": "asia",
       "current": {
-        "phase": "Patch 1.4 Phase 2",
-        "start": "2026-08-09T04:00:00.000Z",
-        "end": "2026-09-01T21:59:59.000Z",
+        "phase": "Patch 1.5 Phase 1",
+        "start": "2026-09-02T04:00:00.000Z",
+        "end": "2026-09-30T03:59:59.000Z",
         "remaining": {
-          "startsAt": "2026-08-09T04:00:00.000Z",
-          "endsAt": "2026-09-01T21:59:59.000Z",
-          "durationSeconds": 10700
+          "startsAt": "2026-09-02T04:00:00.000Z",
+          "endsAt": "2026-09-30T03:59:59.000Z",
+          "durationSeconds": 2405126
         },
         "characters": [
+          {
+            "id": "typhoeus",
+            "name": "Typhoeus",
+            "rarity": 6,
+            "limited": true,
+            "debut": "2026-09-02T04:00:00.000Z",
+            "icon": {
+              "id": "typhoeus-icon",
+              "source": "character-icon",
+              "path": "/launcher-art/46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1.webp",
+              "url": "https://pengo.gg/dist/launcher-art/46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1.webp",
+              "mime": "image/webp",
+              "size": 9196,
+              "dimensions": {
+                "width": 120,
+                "height": 120
+              },
+              "sha256": "46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1",
+              "transparentBounds": {
+                "left": 0,
+                "top": 0,
+                "right": 120,
+                "bottom": 120
+              },
+              "placement": {
+                "anchor": "center",
+                "fit": "cover",
+                "x": 0.5,
+                "y": 0.5
+              }
+            },
+            "variants": [
+              {
+                "id": "typhoeus-splash",
+                "source": "splash",
+                "path": "/launcher-art/1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08.webp",
+                "url": "https://pengo.gg/dist/launcher-art/1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08.webp",
+                "mime": "image/webp",
+                "size": 933014,
+                "dimensions": {
+                  "width": 1836,
+                  "height": 1766
+                },
+                "sha256": "1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08",
+                "transparentBounds": {
+                  "left": 0,
+                  "top": 0,
+                  "right": 1836,
+                  "bottom": 1766
+                },
+                "placement": {
+                  "anchor": "center",
+                  "fit": "contain",
+                  "x": 0.72,
+                  "y": 0.5
+                }
+              }
+            ]
+          },
           {
             "id": "liino",
             "name": "Liino",
             "rarity": 6,
-            "limited": true,
+            "limited": false,
             "debut": "2026-08-09T04:00:00.000Z",
             "icon": {
               "id": "liino-icon",
@@ -1981,85 +2040,26 @@
                 }
               }
             ]
-          },
-          {
-            "id": "camille",
-            "name": "Camille",
-            "rarity": 6,
-            "limited": false,
-            "debut": "2026-06-26T04:00:00.000Z",
-            "icon": {
-              "id": "camille-icon",
-              "source": "character-icon",
-              "path": "/launcher-art/fec6acbf237dc539882654155f30d8fe7f816306f42bad15473467dbae4587f5.webp",
-              "url": "https://pengo.gg/dist/launcher-art/fec6acbf237dc539882654155f30d8fe7f816306f42bad15473467dbae4587f5.webp",
-              "mime": "image/webp",
-              "size": 9178,
-              "dimensions": {
-                "width": 120,
-                "height": 120
-              },
-              "sha256": "fec6acbf237dc539882654155f30d8fe7f816306f42bad15473467dbae4587f5",
-              "transparentBounds": {
-                "left": 0,
-                "top": 0,
-                "right": 120,
-                "bottom": 120
-              },
-              "placement": {
-                "anchor": "center",
-                "fit": "cover",
-                "x": 0.5,
-                "y": 0.5
-              }
-            },
-            "variants": [
-              {
-                "id": "camille-splash",
-                "source": "splash",
-                "path": "/launcher-art/c9278f1e9207761547520733fb1939dd6a0af2f77f0bb6b442687c4ec6cb0a2d.webp",
-                "url": "https://pengo.gg/dist/launcher-art/c9278f1e9207761547520733fb1939dd6a0af2f77f0bb6b442687c4ec6cb0a2d.webp",
-                "mime": "image/webp",
-                "size": 824670,
-                "dimensions": {
-                  "width": 2042,
-                  "height": 1833
-                },
-                "sha256": "c9278f1e9207761547520733fb1939dd6a0af2f77f0bb6b442687c4ec6cb0a2d",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 2042,
-                  "bottom": 1833
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "contain",
-                  "x": 0.72,
-                  "y": 0.5
-                }
-              }
-            ]
           }
         ],
         "selectedCharacter": {
-          "id": "liino",
-          "name": "Liino",
+          "id": "typhoeus",
+          "name": "Typhoeus",
           "rarity": 6,
           "limited": true,
-          "debut": "2026-08-09T04:00:00.000Z",
+          "debut": "2026-09-02T04:00:00.000Z",
           "icon": {
-            "id": "liino-icon",
+            "id": "typhoeus-icon",
             "source": "character-icon",
-            "path": "/launcher-art/5d1b9c58c3e17a00d7ae3790d5298f39fbd259a5043a11c140a9fc798092da1d.webp",
-            "url": "https://pengo.gg/dist/launcher-art/5d1b9c58c3e17a00d7ae3790d5298f39fbd259a5043a11c140a9fc798092da1d.webp",
+            "path": "/launcher-art/46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1.webp",
+            "url": "https://pengo.gg/dist/launcher-art/46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1.webp",
             "mime": "image/webp",
-            "size": 10648,
+            "size": 9196,
             "dimensions": {
               "width": 120,
               "height": 120
             },
-            "sha256": "5d1b9c58c3e17a00d7ae3790d5298f39fbd259a5043a11c140a9fc798092da1d",
+            "sha256": "46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1",
             "transparentBounds": {
               "left": 0,
               "top": 0,
@@ -2075,22 +2075,22 @@
           },
           "variants": [
             {
-              "id": "liino-splash",
+              "id": "typhoeus-splash",
               "source": "splash",
-              "path": "/launcher-art/017d6ca71f3c125cffd5753d0675127be4f866c0101bd8efd6cdb5c1b3012487.webp",
-              "url": "https://pengo.gg/dist/launcher-art/017d6ca71f3c125cffd5753d0675127be4f866c0101bd8efd6cdb5c1b3012487.webp",
+              "path": "/launcher-art/1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08.webp",
+              "url": "https://pengo.gg/dist/launcher-art/1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08.webp",
               "mime": "image/webp",
-              "size": 986798,
+              "size": 933014,
               "dimensions": {
-                "width": 1753,
-                "height": 1687
+                "width": 1836,
+                "height": 1766
               },
-              "sha256": "017d6ca71f3c125cffd5753d0675127be4f866c0101bd8efd6cdb5c1b3012487",
+              "sha256": "1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08",
               "transparentBounds": {
                 "left": 0,
                 "top": 0,
-                "right": 1753,
-                "bottom": 1687
+                "right": 1836,
+                "bottom": 1766
               },
               "placement": {
                 "anchor": "center",
@@ -2101,9 +2101,34 @@
             }
           ]
         },
-        "selectedCharacterId": "liino",
+        "selectedCharacterId": "typhoeus",
         "selectionReason": "limited",
         "variants": [
+          {
+            "id": "typhoeus-splash",
+            "source": "splash",
+            "path": "/launcher-art/1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08.webp",
+            "url": "https://pengo.gg/dist/launcher-art/1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08.webp",
+            "mime": "image/webp",
+            "size": 933014,
+            "dimensions": {
+              "width": 1836,
+              "height": 1766
+            },
+            "sha256": "1847e8ca952a9c9c3a2a2e3cf357ed259e75bf529c6e8b9e0bb9b5c94cf83c08",
+            "transparentBounds": {
+              "left": 0,
+              "top": 0,
+              "right": 1836,
+              "bottom": 1766
+            },
+            "placement": {
+              "anchor": "center",
+              "fit": "contain",
+              "x": 0.72,
+              "y": 0.5
+            }
+          },
           {
             "id": "liino-splash",
             "source": "splash",
@@ -2153,182 +2178,10 @@
               "x": 0.72,
               "y": 0.5
             }
-          },
-          {
-            "id": "camille-splash",
-            "source": "splash",
-            "path": "/launcher-art/c9278f1e9207761547520733fb1939dd6a0af2f77f0bb6b442687c4ec6cb0a2d.webp",
-            "url": "https://pengo.gg/dist/launcher-art/c9278f1e9207761547520733fb1939dd6a0af2f77f0bb6b442687c4ec6cb0a2d.webp",
-            "mime": "image/webp",
-            "size": 824670,
-            "dimensions": {
-              "width": 2042,
-              "height": 1833
-            },
-            "sha256": "c9278f1e9207761547520733fb1939dd6a0af2f77f0bb6b442687c4ec6cb0a2d",
-            "transparentBounds": {
-              "left": 0,
-              "top": 0,
-              "right": 2042,
-              "bottom": 1833
-            },
-            "placement": {
-              "anchor": "center",
-              "fit": "contain",
-              "x": 0.72,
-              "y": 0.5
-            }
           }
         ]
       },
-      "upcoming": [
-        {
-          "phase": "2026 Phase 2",
-          "start": "2026-09-02T04:00:00.000Z",
-          "end": "2026-09-30T03:59:59.000Z",
-          "characters": [
-            {
-              "id": "typhoeus",
-              "name": "Typhoeus",
-              "rarity": 6,
-              "limited": true,
-              "debut": null,
-              "icon": {
-                "id": "typhoeus-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1.webp",
-                "url": "https://pengo.gg/dist/launcher-art/46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1.webp",
-                "mime": "image/webp",
-                "size": 9196,
-                "dimensions": {
-                  "width": 120,
-                  "height": 120
-                },
-                "sha256": "46832ec4d000b930ac8b01151933e1a67e288ea27fd4ab28babbf3de64160db1",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 120,
-                  "bottom": 120
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            },
-            {
-              "id": "liino",
-              "name": "Liino",
-              "rarity": 6,
-              "limited": false,
-              "debut": "2026-08-09T04:00:00.000Z",
-              "icon": {
-                "id": "liino-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/5d1b9c58c3e17a00d7ae3790d5298f39fbd259a5043a11c140a9fc798092da1d.webp",
-                "url": "https://pengo.gg/dist/launcher-art/5d1b9c58c3e17a00d7ae3790d5298f39fbd259a5043a11c140a9fc798092da1d.webp",
-                "mime": "image/webp",
-                "size": 10648,
-                "dimensions": {
-                  "width": 120,
-                  "height": 120
-                },
-                "sha256": "5d1b9c58c3e17a00d7ae3790d5298f39fbd259a5043a11c140a9fc798092da1d",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 120,
-                  "bottom": 120
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            },
-            {
-              "id": "arcane",
-              "name": "Arcane",
-              "rarity": 6,
-              "limited": false,
-              "debut": "2026-07-16T04:00:00.000Z",
-              "icon": {
-                "id": "arcane-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/30661a284e29198fb1acfe918df391735e177da07e8bfdfd1d9747ea278aa24a.webp",
-                "url": "https://pengo.gg/dist/launcher-art/30661a284e29198fb1acfe918df391735e177da07e8bfdfd1d9747ea278aa24a.webp",
-                "mime": "image/webp",
-                "size": 9500,
-                "dimensions": {
-                  "width": 120,
-                  "height": 120
-                },
-                "sha256": "30661a284e29198fb1acfe918df391735e177da07e8bfdfd1d9747ea278aa24a",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 120,
-                  "bottom": 120
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            }
-          ]
-        },
-        {
-          "phase": "2026 Phase 2",
-          "start": "2026-09-24T04:00:00.000Z",
-          "end": "2026-10-21T21:59:59.000Z",
-          "characters": [
-            {
-              "id": "yvonne",
-              "name": "Yvonne",
-              "rarity": 6,
-              "limited": true,
-              "debut": "2026-01-22T03:00:00.000Z",
-              "icon": {
-                "id": "yvonne-icon",
-                "source": "character-icon",
-                "path": "/launcher-art/9dc0777a684850918ba58a69f01536657dcddca7f8f37ddc3355c5e9d1fb3f15.webp",
-                "url": "https://pengo.gg/dist/launcher-art/9dc0777a684850918ba58a69f01536657dcddca7f8f37ddc3355c5e9d1fb3f15.webp",
-                "mime": "image/webp",
-                "size": 9102,
-                "dimensions": {
-                  "width": 120,
-                  "height": 120
-                },
-                "sha256": "9dc0777a684850918ba58a69f01536657dcddca7f8f37ddc3355c5e9d1fb3f15",
-                "transparentBounds": {
-                  "left": 0,
-                  "top": 0,
-                  "right": 120,
-                  "bottom": 120
-                },
-                "placement": {
-                  "anchor": "center",
-                  "fit": "cover",
-                  "x": 0.5,
-                  "y": 0.5
-                }
-              },
-              "variants": []
-            }
-          ]
-        }
-      ],
+      "upcoming": [],
       "news": [
         {
           "id": "endfield-gryphline-bulletin-ac9f742eafce",

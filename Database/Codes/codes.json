@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T19:01:16.165Z",
+  "generatedAt": "2026-09-02T07:53:30.910Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-01T19:01:00.103Z",
+      "lastSuccessfulFetch": "2026-09-02T07:53:30.910Z",
       "codes": [
         {
           "code": "DUGODWKRHAKDNJ",
@@ -42,16 +42,6 @@
           "firstSeen": "2026-08-16T13:24:44.154Z"
         },
         {
-          "code": "GS70XRNWFB",
-          "rewards": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "added": "2026-08-13",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": false,
-          "firstSeen": "2026-09-01T08:36:52.102Z"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "rewards": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "added": "2026-08-13",
@@ -60,16 +50,6 @@
           "premium100": false,
           "cwSeen": true,
           "firstSeen": "2026-08-13T07:48:02.606Z"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "rewards": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "added": "2026-08-12",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "premium": false,
-          "premium100": false,
-          "cwSeen": true,
-          "firstSeen": "2026-08-12T07:46:42.167Z"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -100,7 +80,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-01T19:00:59.935Z",
+      "lastSuccessfulFetch": "2026-09-02T07:53:22.934Z",
       "codes": [
         {
           "code": "8SMSVJWJM7ZT",
@@ -230,7 +210,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-01T19:01:16.164Z",
+      "lastSuccessfulFetch": "2026-09-02T07:53:24.523Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -284,7 +264,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-01T19:00:59.772Z",
+      "lastSuccessfulFetch": "2026-09-02T07:53:25.323Z",
       "codes": []
     },
     {
@@ -294,7 +274,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-01T19:00:59.805Z",
+      "lastSuccessfulFetch": "2026-09-02T07:53:26.921Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

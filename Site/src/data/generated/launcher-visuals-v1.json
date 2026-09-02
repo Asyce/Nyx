@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "revision": "eb6524a0ea08736627631d8380944854d0dfb4c6fafcaf595405d5ccf5866790",
-  "generatedAt": "2026-08-25T03:59:54.830Z",
+  "revision": "e760235b4f947fd5a0787e47e4e23928d5d3938d85346e9ce19593a6d3a7b918",
+  "generatedAt": "2026-09-02T07:55:15.337Z",
   "games": {
     "gi": {
       "kind": "video",
@@ -72,13 +72,13 @@
       "kind": "video",
       "source": {
         "endpoint": "https://launcher.gryphline.com/api/proxy/web/batch_proxy",
-        "officialUrl": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/aa/f5/aaf5ac1d9daa01523bc186b4e3599476.mp4"
+        "officialUrl": "https://gl-utils-public.hg-cdn.com/hg-utils/prod/eppcsuwqpaueijqk/YDUTE5gscDZ229CW/36/07/3607ba2c86410df64d7eee11eb1d90e3.mp4"
       },
       "assets": [
         {
-          "url": "https://assets.pengo.gg/launcher-visuals/820fe7913d130a4a456513f65e62cd86215b3dd9d02295e35a72d53bed0ceeef.mp4",
-          "sha256": "820fe7913d130a4a456513f65e62cd86215b3dd9d02295e35a72d53bed0ceeef",
-          "size": 20810485,
+          "url": "https://assets.pengo.gg/launcher-visuals/ed43b12093ea75900295fac1462f085b924927635fb3f128c85d41ea511c18e0.mp4",
+          "sha256": "ed43b12093ea75900295fac1462f085b924927635fb3f128c85d41ea511c18e0",
+          "size": 18372076,
           "mediaType": "video/mp4"
         }
       ]

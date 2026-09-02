@@ -456,6 +456,7 @@ Deployment recovery note (verified 2026-08-31): Cloudflare blocks old-version ro
 ### STOP 15
 
 - Items 1-10 and the applicable resource/achievement cards, merge/conflict, cross-runtime encryption, Worker-metadata, pull-compatibility, rotation/deletion-retry, privacy, and dedicated test-role checks pass end to end for manual HSR sync and My HoYo. Native HSR Connect opens the official Account Log In form directly, credentials/CAPTCHA remain user-controlled, and the publisher window uses only the normal Windows caption controls. The two complete local Remember capabilities default on only for new/migrated bundles and remain individually switchable, existing v2 choices are preserved, unsupported inventory/build/calculator/record surfaces remain unrendered, and automatic sync remains off.
+- For destructive deletion acceptance, one successful live delete-one-role round trip may represent the shared path when an independent end-to-end source review finds no P0-P3 gap and the already-passing deterministic coverage proves each remaining scope's unique behavior: one-game, all-HoYo/offline/startup retry, this-PC-only, HoYo/pulls separation, website HSR/all-HoYo/entire-Pengo partial outcomes, and rotation cleanup. Record the other live scopes as reviewed but unperformed; do not repeat destructive calls solely to duplicate covered behavior.
 
 ## Phase 16 - Genshin account capabilities
 

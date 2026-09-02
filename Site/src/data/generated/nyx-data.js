@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-02T19:35:55.455Z",
+  "generatedAt": "2026-09-02T22:11:03.038Z",
   "codes": {
-    "updated": "2026-09-02T19:35:34.965Z",
+    "updated": "2026-09-02T22:10:42.015Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -93,6 +93,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
+        },
+        {
+          "code": "XVIZDH2B9WGX",
+          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-12",
+          "firstSeen": "2026-09-02T22:10:41.734Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -6328,6 +6342,20 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
+        },
+        {
+          "code": "XVIZDH2B9WGX",
+          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
+          "premium": false,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-12",
+          "firstSeen": "2026-09-02T22:10:41.734Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",

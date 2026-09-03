@@ -2410,7 +2410,7 @@
           "ja": "紅血の証"
         },
         "desc": {
-          "en": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
+          "en": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction DMG dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
           "ko": "장착 캐릭터가 별 확산 반응 발동 후 10초 동안 치명타 확률이 16% 증가하고, 별 확산 반응 피해가 40% 증가한다",
           "zh": "装备者触发星扩散反应后的10秒内，暴击率提升16%，星扩散反应伤害提升40%。",
           "ja": "装備者が星拡散反応を起こした後の10秒間、会心率+16%、星拡散反応ダメージ+40%。"

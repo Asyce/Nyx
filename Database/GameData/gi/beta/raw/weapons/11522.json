@@ -343,7 +343,7 @@
   "refinement": {
     "1": {
       "name": "Dance of Wings Unbound",
-      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>56%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>36%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>5</color> Elemental Energy. Up to <color=#99FFFFFF>5</color> Elemental Energy can be regenerated in this way every <color=#99FFFFFF>4</color>s.\\n\\nThe aforementioned effects are removed, and the sequence is reset, when the equipping character leaves the field.",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>56%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>36%</color> for 10s; and\\nWinds of Plenty: Regenerates <color=#99FFFFFF>5</color> Elemental Energy for the equipping character. Up to <color=#99FFFFFF>5</color> Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
       "param_list": [
         0.56,
         0.36,
@@ -357,7 +357,7 @@
     },
     "2": {
       "name": "Dance of Wings Unbound",
-      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>72%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>45%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>5.5</color> Elemental Energy. Up to <color=#99FFFFFF>5.5</color> Elemental Energy can be regenerated in this way every <color=#99FFFFFF>4</color>s.\\n\\nThe aforementioned effects are removed, and the sequence is reset, when the equipping character leaves the field.",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>72%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>45%</color> for 10s; and\\nWinds of Plenty: Regenerates <color=#99FFFFFF>5.5</color> Elemental Energy for the equipping character. Up to <color=#99FFFFFF>5.5</color> Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
       "param_list": [
         0.72,
         0.45,
@@ -371,7 +371,7 @@
     },
     "3": {
       "name": "Dance of Wings Unbound",
-      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>88%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>54%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>6</color> Elemental Energy. Up to <color=#99FFFFFF>6</color> Elemental Energy can be regenerated in this way every <color=#99FFFFFF>4</color>s.\\n\\nThe aforementioned effects are removed, and the sequence is reset, when the equipping character leaves the field.",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>88%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>54%</color> for 10s; and\\nWinds of Plenty: Regenerates <color=#99FFFFFF>6</color> Elemental Energy for the equipping character. Up to <color=#99FFFFFF>6</color> Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
       "param_list": [
         0.88,
         0.54,
@@ -385,7 +385,7 @@
     },
     "4": {
       "name": "Dance of Wings Unbound",
-      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>104%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>63%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>6.5</color> Elemental Energy. Up to <color=#99FFFFFF>6.5</color> Elemental Energy can be regenerated in this way every <color=#99FFFFFF>4</color>s.\\n\\nThe aforementioned effects are removed, and the sequence is reset, when the equipping character leaves the field.",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>104%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>63%</color> for 10s; and\\nWinds of Plenty: Regenerates <color=#99FFFFFF>6.5</color> Elemental Energy for the equipping character. Up to <color=#99FFFFFF>6.5</color> Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
       "param_list": [
         1.04,
         0.63,
@@ -399,7 +399,7 @@
     },
     "5": {
       "name": "Dance of Wings Unbound",
-      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>120%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>72%</color> for 10s; and\\nWinds of Plenty: Regenerates for the equipping character <color=#99FFFFFF>7</color> Elemental Energy. Up to <color=#99FFFFFF>7</color> Elemental Energy can be regenerated in this way every <color=#99FFFFFF>4</color>s.\\n\\nThe aforementioned effects are removed, and the sequence is reset, when the equipping character leaves the field.",
+      "desc": "Each time the equipping character uses their Elemental Skill or Elemental Burst, they gain one of the following three effects in sequence:\\nWinds of Devotion: Increases the equipping character's CRIT DMG by <color=#99FFFFFF>120%</color> for 10s;\\nWinds of Defiance: Increases Stellar Swirl reaction DMG dealt by the equipping character by <color=#99FFFFFF>72%</color> for 10s; and\\nWinds of Plenty: Regenerates <color=#99FFFFFF>7</color> Elemental Energy for the equipping character. Up to <color=#99FFFFFF>7</color> Elemental Energy can be regenerated in this way every 4s.\\nThe aforementioned effects are removed and the sequence is reset when the equipping character leaves the field.",
       "param_list": [
         1.2,
         0.72,

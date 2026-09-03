@@ -1,6 +1,6 @@
 {
   "name": "Vodyanitsa",
-  "desc": "",
+  "desc": "Prima Donna of the Korolevskiy Troupe and a Water Imp who has parted from her kin.",
   "chara_info": {
     "release_date": "1970-01-01 00:00:00",
     "birth": [
@@ -3473,7 +3473,7 @@
     {
       "id": 1401,
       "name": "Waters in Full Splendor",
-      "desc": "Each time Vodyanitsa performs healing, the ATK of all nearby party members is also increased by 1% of her Max HP for 5s.",
+      "desc": "Each time Vodyanitsa triggers the healing effect of <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color>, it also increases the ATK of all nearby party members by 1% of her Max HP for 5s.",
       "icon": "UI_Talent_S_Vodyanitsa_01",
       "param_list": [
         0.01,
@@ -3521,7 +3521,7 @@
     {
       "id": 1404,
       "name": "Melancholic Voice Upon the Gentle Waters",
-      "desc": "Vodyanitsa will trigger various effects as she performs healing, depending on the HP level of the character being healed.\\n· If the character's HP is below 40%: the healing is increased by 50%; and\\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
+      "desc": "When Vodyanitsa triggers the healing effect of <color=#FFD780FF>{LINK#S11402}Song of Ages Past{/LINK}</color>, an additional effect will be triggered based on the healed character's HP.\\n· If the character's HP is below 40%: the healing is increased by 50%; and\\n· If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
       "icon": "UI_Talent_S_Vodyanitsa_03",
       "param_list": [
         0.4,

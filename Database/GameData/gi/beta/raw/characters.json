@@ -1892,7 +1892,7 @@
     "weapon": "WEAPON_CATALYST",
     "element": "Hydro",
     "en": "Vodyanitsa",
-    "desc": "",
+    "desc": "Prima Donna of the Korolevskiy Troupe and a Water Imp who has parted from her kin.",
     "ko": "보댜니차",
     "zh": "沃雅妮莎",
     "ja": "ヴォジャニーツァ"
@@ -1908,7 +1908,7 @@
     "weapon": "WEAPON_SWORD_ONE_HAND",
     "element": "Anemo",
     "en": "Vesna",
-    "desc": "",
+    "desc": "Commander of the Druzhna and she who serves as the Tsaritsa's keen blade.",
     "ko": "베스나",
     "zh": "薇斯纳",
     "ja": "ヴェスナ"

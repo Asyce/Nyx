@@ -9637,7 +9637,7 @@
   },
   {
     "id": "15047",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Scarlet Proof",
     "rarity": [
       4,
@@ -9682,7 +9682,7 @@
         "id": "2150471",
         "pieces": 4,
         "name": "Scarlet Proof",
-        "description": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
+        "description": "Increases the equipping character's CRIT Rate by 16%, and their Stellar Swirl reaction DMG dealt by 40%, for 10s after they trigger a Stellar Swirl reaction.",
         "params": [
           0.16,
           0.4,
@@ -9793,7 +9793,7 @@
     ],
     "liveComparison": {
       "liveHash": "965b7a382b3b410520587c8c655683ba2c759586c24f3a2bc366c7aa519bff2b",
-      "currentHash": "965b7a382b3b410520587c8c655683ba2c759586c24f3a2bc366c7aa519bff2b"
+      "currentHash": "105b7d08c00e2a9a98cb16a13683d0e3341a8911f21118c1f2b5eacc548d4b0e"
     }
   },
   {

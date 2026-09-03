@@ -3,17 +3,18 @@
   "game": "gi",
   "gameName": "Genshin Impact",
   "channel": "beta",
-  "version": "7.0.53",
+  "version": "7.0.54",
   "liveVersion": "7.0",
-  "betaVersion": "7.0.53",
+  "betaVersion": "7.0.54",
   "availableVersions": [
     "7.0",
     "7.0.50",
     "7.0.51",
     "7.0.52",
-    "7.0.53"
+    "7.0.53",
+    "7.0.54"
   ],
-  "scrapedAt": "2026-08-31T20:15:05.125Z",
+  "scrapedAt": "2026-09-03T17:56:56.580Z",
   "counts": {
     "characters": 150,
     "weapons": 286,

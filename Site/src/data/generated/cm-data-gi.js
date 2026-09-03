@@ -443109,10 +443109,11 @@
         "../../Database/GenshinWiki/birthday-art/mona/04-Mona Birthday 2023.png",
         "../../Database/GenshinWiki/birthday-art/mona/05-Mona Birthday 2024.png",
         "../../Database/GenshinWiki/birthday-art/mona/06-Mona Birthday 2025.png",
-        "../../Database/GenshinWiki/birthday-art/mona/07-Mona TPRGT 2022 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/mona/08-Mona TPRGT 2022 - Lumine.png",
-        "../../Database/GenshinWiki/birthday-art/mona/09-Mona TPRGT 2023 - Aether.png",
-        "../../Database/GenshinWiki/birthday-art/mona/10-Mona TPRGT 2023 - Lumine.png"
+        "../../Database/GenshinWiki/birthday-art/mona/07-Mona Birthday 2026.png",
+        "../../Database/GenshinWiki/birthday-art/mona/08-Mona TPRGT 2022 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/mona/09-Mona TPRGT 2022 - Lumine.png",
+        "../../Database/GenshinWiki/birthday-art/mona/10-Mona TPRGT 2023 - Aether.png",
+        "../../Database/GenshinWiki/birthday-art/mona/11-Mona TPRGT 2023 - Lumine.png"
       ],
       "namecard": "../../Database/GenshinWiki/namecards/Mona.png",
       "skillIcons": [

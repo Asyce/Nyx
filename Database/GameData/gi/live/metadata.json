@@ -5,15 +5,16 @@
   "channel": "live",
   "version": "7.0",
   "liveVersion": "7.0",
-  "betaVersion": "7.0.53",
+  "betaVersion": "7.0.54",
   "availableVersions": [
     "7.0",
     "7.0.50",
     "7.0.51",
     "7.0.52",
-    "7.0.53"
+    "7.0.53",
+    "7.0.54"
   ],
-  "scrapedAt": "2026-08-31T20:13:39.855Z",
+  "scrapedAt": "2026-09-03T17:55:58.994Z",
   "counts": {
     "characters": 148,
     "weapons": 278,

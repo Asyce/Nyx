@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["gi"] = {
-  "version": "7.0.53",
+  "version": "7.0.54",
   "liveVersion": "7.0",
   "newCount": 2,
   "changedCount": 0,
@@ -39,7 +39,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "7.0.53",
+        "version": "7.0.54",
         "sections": [
           {
             "title": "Talents",
@@ -1080,41 +1080,41 @@
               {
                 "name": "Kolo of Spring's Arrival",
                 "type": "Constellation 2",
-                "desc": "The Passive Talent Rite of Spring's Procession is enhanced as follows: when Vesna enters the Armed for Action mode, she will gain the max number of Disciplinary Action stacks. When Vesna's Disciplinary Action stack count is at max, her ATK is increased by 60%.\nYou must unlock the Passive Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
+                "desc": "The Ascension Talent Rite of Spring's Procession is enhanced: Vesna gains the maximum number of Disciplinary Action stacks when she enters Armed for Action mode. Vesna's ATK is increased by 60% when she has maximum Disciplinary Action stacks.\nYou must unlock the Ascension Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
                 "descFormat": [
                   {
-                    "start": 19,
-                    "end": 46,
+                    "start": 21,
+                    "end": 48,
                     "kind": "term",
                     "term": "P1432101"
                   },
                   {
-                    "start": 19,
-                    "end": 46,
+                    "start": 21,
+                    "end": 48,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 93,
-                    "end": 109,
+                    "start": 96,
+                    "end": 115,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 139,
+                    "end": 155,
                     "kind": "term",
                     "term": "N11430001"
                   },
                   {
-                    "start": 93,
-                    "end": 109,
+                    "start": 139,
+                    "end": 155,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 148,
-                    "end": 167,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 189,
-                    "end": 208,
+                    "start": 215,
+                    "end": 234,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -1142,17 +1142,17 @@
               {
                 "name": "Glory to Our Forebears",
                 "type": "Constellation 4",
-                "desc": "The Passive Talent Truth Prevails is enhanced: ATK and Elemental Mastery bonuses are increased to 3 times their original values.",
+                "desc": "The Ascension Talent Truth Prevails is enhanced: Its ATK and Elemental Mastery bonuses increase to 3 times their original values.",
                 "descFormat": [
                   {
-                    "start": 19,
-                    "end": 33,
+                    "start": 21,
+                    "end": 35,
                     "kind": "term",
                     "term": "P1432201"
                   },
                   {
-                    "start": 19,
-                    "end": 33,
+                    "start": 21,
+                    "end": 35,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -1180,7 +1180,7 @@
               {
                 "name": "Unwavering Ardor",
                 "type": "Constellation 6",
-                "desc": "Tapping on Normal Attach or Elemental Skill in the 5s after Vesna uses Windborne Sword at its highest level will unleash the secret Vila ability Windborne Sword: Transpose, dealing Anemo DMG at 150% of Vesna's ATK as well as summoning a Spirit Blade which deals an additional instance of Anemo DMG at 200% of Vesna's ATK. If Vesna is in the Armed for Action mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is elevated by 20%.",
+                "desc": "Tapping on Normal Attack or Elemental Skill in the 5s after Vesna uses Windborne Sword at its highest level will unleash the secret Vila ability Windborne Sword: Transpose, dealing Anemo DMG at 150% of Vesna's ATK as well as summoning a Spirit Blade which deals an additional instance of Anemo DMG at 200% of Vesna's ATK. If Vesna is in the Armed for Action mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is elevated by 20%.",
                 "descFormat": [
                   {
                     "start": 71,
@@ -3822,7 +3822,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "7.0.53",
+        "version": "7.0.54",
         "sections": [
           {
             "title": "Talents",
@@ -4548,7 +4548,21 @@
               {
                 "name": "Waters in Full Splendor",
                 "type": "Constellation 1",
-                "desc": "Each time Vodyanitsa performs healing, the ATK of all nearby party members is also increased by 1% of her Max HP for 5s."
+                "desc": "Each time Vodyanitsa triggers the healing effect of Song of Ages Past, it also increases the ATK of all nearby party members by 1% of her Max HP for 5s.",
+                "descFormat": [
+                  {
+                    "start": 52,
+                    "end": 69,
+                    "kind": "term",
+                    "term": "S11402"
+                  },
+                  {
+                    "start": 52,
+                    "end": 69,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Echoes That Pierce the Snow",
@@ -4621,7 +4635,21 @@
               {
                 "name": "Melancholic Voice Upon the Gentle Waters",
                 "type": "Constellation 4",
-                "desc": "Vodyanitsa will trigger various effects as she performs healing, depending on the HP level of the character being healed.\n\u00b7 If the character's HP is below 40%: the healing is increased by 50%; and\n\u00b7 If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently."
+                "desc": "When Vodyanitsa triggers the healing effect of Song of Ages Past, an additional effect will be triggered based on the healed character's HP.\n\u00b7 If the character's HP is below 40%: the healing is increased by 50%; and\n\u00b7 If the character's HP is 40% or above: Vodyanitsa's Max HP is increased by 20% for 6s. Max 3 stacks, and each stack's duration is counted independently.",
+                "descFormat": [
+                  {
+                    "start": 47,
+                    "end": 64,
+                    "kind": "term",
+                    "term": "S11402"
+                  },
+                  {
+                    "start": 47,
+                    "end": 64,
+                    "kind": "tone",
+                    "tone": "accent"
+                  }
+                ]
               },
               {
                 "name": "Together, Down Into the Deep",

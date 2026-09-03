@@ -1,6 +1,6 @@
 {
   "name": "Vesna",
-  "desc": "",
+  "desc": "Commander of the Druzhna and she who serves as the Tsaritsa's keen blade.",
   "chara_info": {
     "release_date": "1970-01-01 00:00:00",
     "birth": [
@@ -14,7 +14,7 @@
     "region": "ASSOC_TYPE_SNEZHNAYA_STAR",
     "title": "Snowy Banquet's Sharp Blade",
     "native": "Druzhna",
-    "detail": "???",
+    "detail": "Commander of the Druzhna and she who serves as the Tsaritsa's keen blade.",
     "va": {
       "chinese": "???",
       "japanese": "???",
@@ -3504,7 +3504,7 @@
     {
       "id": 1432,
       "name": "Kolo of Spring's Arrival",
-      "desc": "The Passive Talent <color=#FFD780FF>{LINK#P1432101}Rite of Spring's Procession{/LINK}</color> is enhanced as follows: when Vesna enters the <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> mode, she will gain the max number of <color=#FFD780FF>Disciplinary Action</color> stacks. When Vesna's <color=#FFD780FF>Disciplinary Action</color> stack count is at max, her ATK is increased by 60%.\\nYou must unlock the Passive Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
+      "desc": "The Ascension Talent <color=#FFD780FF>{LINK#P1432101}Rite of Spring's Procession{/LINK}</color> is enhanced: Vesna gains the maximum number of <color=#FFD780FF>Disciplinary Action</color> stacks when she enters <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> mode. Vesna's ATK is increased by 60% when she has maximum <color=#FFD780FF>Disciplinary Action</color> stacks.\\nYou must unlock the Ascension Talent \"Rite of Spring's Procession\" to gain access to the above effects.",
       "icon": "UI_Talent_S_Vesna_02",
       "param_list": [
         0.6,
@@ -3536,7 +3536,7 @@
     {
       "id": 1434,
       "name": "Glory to Our Forebears",
-      "desc": "The Passive Talent <color=#FFD780FF>{LINK#P1432201}Truth Prevails{/LINK}</color> is enhanced: ATK and Elemental Mastery bonuses are increased to 3 times their original values.",
+      "desc": "The Ascension Talent <color=#FFD780FF>{LINK#P1432201}Truth Prevails{/LINK}</color> is enhanced: Its ATK and Elemental Mastery bonuses increase to 3 times their original values.",
       "icon": "UI_Talent_S_Vesna_03",
       "param_list": [
         2,
@@ -3568,7 +3568,7 @@
     {
       "id": 1436,
       "name": "Unwavering Ardor",
-      "desc": "Tapping on Normal Attach or Elemental Skill in the 5s after Vesna uses <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> at its highest level will unleash the secret Vila ability <color=#FFD780FF>Windborne Sword: Transpose</color>, dealing <color=#80FFD7FF>Anemo DMG</color> at 150% of Vesna's ATK as well as summoning a <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> which deals an additional instance of <color=#80FFD7FF>Anemo DMG</color> at 200% of Vesna's ATK. If Vesna is in the <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 20%.",
+      "desc": "Tapping on Normal Attack or Elemental Skill in the 5s after Vesna uses <color=#FFD780FF>{LINK#N11430003}Windborne Sword{/LINK}</color> at its highest level will unleash the secret Vila ability <color=#FFD780FF>Windborne Sword: Transpose</color>, dealing <color=#80FFD7FF>Anemo DMG</color> at 150% of Vesna's ATK as well as summoning a <color=#FFD780FF>{LINK#N11430004}Spirit Blade{/LINK}</color> which deals an additional instance of <color=#80FFD7FF>Anemo DMG</color> at 200% of Vesna's ATK. If Vesna is in the <color=#FFD780FF>{LINK#N11430001}Armed for Action{/LINK}</color> mode, she will also summon a wind pinion to perform Coordinated Attacks against opponents.\\nAdditionally, Vesna's Stellar Swirl reaction DMG dealt is {LINK#N11190007}<color=#FFD780FF>elevated</color>{/LINK} by 20%.",
       "icon": "UI_Talent_S_Vesna_04",
       "param_list": [
         5,

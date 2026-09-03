@@ -41241,6 +41241,12 @@
       "icon": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/icon.png",
       "art": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
       "card": "../../Database/EndfieldWiki/endfield/assets/operators/typhoeus/splash.png",
+      "skillIcons": [
+        "../../Database/EndfieldWiki/endfield/skill-icons/Attack-Orbiter.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Skill-Typhoeus.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Combo-Typhoeus.png",
+        "../../Database/EndfieldWiki/endfield/skill-icons/Ult-Typhoeus.png"
+      ],
       "baseStats": {},
       "facts": {
         "faction": "Rhodes Island"

@@ -105816,15 +105816,12 @@
       },
       "title": "Patience of a Cat",
       "slug": "nekomata",
-      "release": 1720051200000,
-      "releasePatch": "1.0",
+      "releasePatch": "1.1",
       "updated": 1787097600000,
       "sourceOrder": 0,
       "voiceActors": {
-        "english": "imdb:nm12363730|Alice Himora",
-        "japanese": "Sayuri Hara|Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
-        "chinese": "https://mzh.moegirl.org.cn/zh-hans/\u82b1\u73b2(\u914d\u97f3\u6f14\u5458)|Hualing (\u82b1\u73b2)",
-        "korean": "ko:\uc774\ubcf4\ud76c (\uc131\uc6b0)|Lee Bo-hee (\uc774\ubcf4\ud76c)"
+        "japanese": "Hara Sayuri (\u539f \u7d17\u53cb\u91cc)",
+        "chinese": "Hu\u0101 l\u00edng (\u82b1\u94c3)"
       },
       "icon": "../../Database/GameData/zzz/assets/agents/partner-icons/IconRoleCircle11.webp",
       "art": "../../Database/GameData/zzz/assets/agents/role-icons/IconRole11.webp",

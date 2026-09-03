@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-02T07:52:35.688Z",
-  "updated": "2026-09-02T07:52:35.688Z",
+  "checkedAt": "2026-09-03T08:01:09.188Z",
+  "updated": "2026-09-03T08:01:09.188Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-02T07:52:35.688Z",
-        "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+        "checkedAt": "2026-09-03T08:01:09.188Z",
+        "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
         "source": "prydwen"
       },
       "current": {
@@ -93,8 +93,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-02T07:52:35.688Z",
-        "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+        "checkedAt": "2026-09-03T08:01:09.188Z",
+        "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
         "source": "prydwen"
       },
       "current": {
@@ -232,8 +232,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-02T07:52:35.688Z",
-        "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+        "checkedAt": "2026-09-03T08:01:09.188Z",
+        "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
         "source": "prydwen"
       },
       "current": {
@@ -306,8 +306,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-02T07:52:35.688Z",
-        "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+        "checkedAt": "2026-09-03T08:01:09.188Z",
+        "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
         "source": "prydwen"
       },
       "current": {
@@ -435,23 +435,11 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-02T07:52:35.688Z",
-        "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
+        "checkedAt": "2026-09-03T08:01:09.188Z",
+        "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
         "source": "prydwen"
       },
       "current": {
-        "phase": "Patch 1.4 Phase 2",
-        "characters": [
-          {
-            "name": "Liino",
-            "image": "https://cdn.perlica.moe/images/operators/portraits/liino.webp",
-            "rarity": 6
-          }
-        ],
-        "end": "2026-09-02T03:59:00.000Z",
-        "source": "prydwen"
-      },
-      "next": {
         "phase": "Patch 1.5 Phase 1",
         "characters": [
           {
@@ -460,24 +448,23 @@
             "rarity": 6
           }
         ],
-        "start": "2026-09-02T08:00:00.000Z",
+        "end": "2026-09-30T03:59:00.000Z",
+        "source": "prydwen"
+      },
+      "next": {
+        "phase": "Patch 1.5 Phase 2",
+        "characters": [
+          {
+            "name": "Yvonne",
+            "image": "https://cdn.perlica.moe/images/operators/portraits/yvonne.webp",
+            "rarity": 6
+          }
+        ],
+        "start": "2026-09-24T04:00:00.000Z",
         "end": "2026-09-30T08:00:00.000Z",
         "source": "prydwen"
       },
       "upcoming": [
-        {
-          "phase": "Patch 1.5 Phase 2",
-          "characters": [
-            {
-              "name": "Yvonne",
-              "image": "https://cdn.perlica.moe/images/operators/portraits/yvonne.webp",
-              "rarity": 6
-            }
-          ],
-          "start": "2026-09-24T04:00:00.000Z",
-          "end": null,
-          "teased": false
-        },
         {
           "characters": [
             {

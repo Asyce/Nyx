@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-02T22:11:03.038Z",
+  "generatedAt": "2026-09-03T08:03:19.336Z",
   "codes": {
-    "updated": "2026-09-02T22:10:42.015Z",
+    "updated": "2026-09-03T08:01:59.459Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -67,20 +67,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-09-02T12:24:42.360Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -93,20 +79,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-09-02T22:10:41.734Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -428,16 +400,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-09-02T07:52:35.688Z",
-    "checkedAt": "2026-09-02T07:52:35.688Z",
+    "updated": "2026-09-03T08:01:09.188Z",
+    "checkedAt": "2026-09-03T08:01:09.188Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -636,9 +608,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -897,9 +869,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -1043,9 +1015,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -1291,13 +1263,13 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
-          "phase": "Patch 1.4 Phase 2",
+          "phase": "Patch 1.5 Phase 1",
           "start": "2026-09-02T04:00:00.000Z",
           "end": "2026-09-30T03:59:59.000Z",
           "characters": [
@@ -1432,7 +1404,7 @@ var NYX_DB = {
           }
         },
         "next": {
-          "phase": "Resplendent Spectrum",
+          "phase": "Patch 1.5 Phase 2",
           "start": "2026-09-24T04:00:00.000Z",
           "end": "2026-10-21T21:59:59.000Z",
           "characters": [
@@ -6316,20 +6288,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-09-02T12:24:42.360Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -6342,20 +6300,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-13T07:48:02.606Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
-        },
-        {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-09-02T22:10:41.734Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
         },
         {
           "code": "2BJ64QRZ7RT8",
@@ -6390,9 +6334,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -173283,9 +173227,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -179220,9 +179164,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -184488,9 +184432,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
@@ -189868,13 +189812,13 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-02T07:52:35.688Z",
-          "lastSuccessfulFetch": "2026-09-02T07:52:35.688Z",
-          "lastValidUpdate": "2026-09-02T07:52:35.688Z",
+          "checkedAt": "2026-09-03T08:01:09.188Z",
+          "lastSuccessfulFetch": "2026-09-03T08:01:09.188Z",
+          "lastValidUpdate": "2026-09-03T08:01:09.188Z",
           "source": "prydwen"
         },
         "current": {
-          "phase": "Patch 1.4 Phase 2",
+          "phase": "Patch 1.5 Phase 1",
           "start": "2026-09-02T04:00:00.000Z",
           "end": "2026-09-30T03:59:59.000Z",
           "characters": [
@@ -190009,7 +189953,7 @@ var NYX_DB = {
           }
         },
         "next": {
-          "phase": "Resplendent Spectrum",
+          "phase": "Patch 1.5 Phase 2",
           "start": "2026-09-24T04:00:00.000Z",
           "end": "2026-10-21T21:59:59.000Z",
           "characters": [

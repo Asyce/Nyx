@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-03T08:03:19.336Z",
+  "generatedAt": "2026-09-03T09:12:18.437Z",
   "codes": {
     "updated": "2026-09-03T08:01:59.459Z",
     "maxAgeDays": 28,
@@ -1305,6 +1305,17 @@ var NYX_DB = {
               "rarity": 6,
               "debut": false,
               "debutAt": "2026-07-16"
+            },
+            {
+              "name": "Snowshine",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/splash.png",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2026-03-12"
             }
           ],
           "subBanners": [],
@@ -186883,7 +186894,8 @@ var NYX_DB = {
               },
               "text": "Umbra of Frigid Eventide\nRarity: 6 \u2726\nType: Arts Unit\nBase ATK: 0\nStat 1 Boost - 9/9\n: +\nPassive Boost - 4/9",
               "status": "live",
-              "labels": []
+              "labels": [],
+              "released": "2026-09-02"
             },
             {
               "id": "umbral-torch",
@@ -189854,6 +189866,17 @@ var NYX_DB = {
               "rarity": 6,
               "debut": false,
               "debutAt": "2026-07-16"
+            },
+            {
+              "name": "Snowshine",
+              "icon": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/icon.png",
+              "iconFallback": null,
+              "iconZoom": false,
+              "art": "../../Database/EndfieldWiki/endfield/assets/operators/snowshine/splash.png",
+              "namecard": null,
+              "rarity": 5,
+              "debut": false,
+              "debutAt": "2026-03-12"
             }
           ],
           "subBanners": [],

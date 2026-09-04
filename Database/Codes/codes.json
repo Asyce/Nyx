@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:19:26.438Z",
+  "generatedAt": "2026-09-04T02:03:49.429Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,7 +9,7 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-03T18:19:26.438Z",
+      "lastSuccessfulFetch": "2026-09-04T02:03:48.861Z",
       "codes": [
         {
           "code": "YOAL3V36XHS7",
@@ -115,7 +115,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-03T18:19:25.396Z",
+      "lastSuccessfulFetch": "2026-09-04T02:03:49.371Z",
       "codes": [
         {
           "code": "8SMSVJWJM7ZT",
@@ -245,7 +245,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-03T18:19:25.440Z",
+      "lastSuccessfulFetch": "2026-09-04T02:03:49.429Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -260,9 +260,10 @@
         },
         {
           "code": "ZZZMEIJI",
-          "rewards": "30k Denny, Three Senior Investigator Logs, and Three W Engine Energy Modules",
+          "rewards": "Senior Investigator Log x 3, W-Engine Energy Module x 3, Denny x 30,000",
           "added": "2026-08-06",
           "sourceUrl": "https://zenless.hoyoverse.com/redemption?code=ZZZMEIJI",
+          "hoyoVerified": true,
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -299,7 +300,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-03T18:19:25.091Z",
+      "lastSuccessfulFetch": "2026-09-04T02:03:48.742Z",
       "codes": []
     },
     {
@@ -309,7 +310,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-03T18:19:25.123Z",
+      "lastSuccessfulFetch": "2026-09-04T02:03:48.763Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

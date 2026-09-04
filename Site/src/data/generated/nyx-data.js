@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-03T18:19:46.225Z",
+  "generatedAt": "2026-09-04T02:04:10.361Z",
   "codes": {
-    "updated": "2026-09-03T18:19:26.438Z",
+    "updated": "2026-09-04T02:03:49.429Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -296,7 +296,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZMEIJI",
-          "reward": "30k Denny, Three Senior Investigator Logs, and Three W Engine Energy Modules",
+          "reward": "Senior Investigator Log x 3, W-Engine Energy Module x 3, Denny x 30,000",
           "premium": false,
           "premiumCurrency": {
             "name": "Polychrome",
@@ -179186,7 +179186,7 @@ var NYX_DB = {
         },
         {
           "code": "ZZZMEIJI",
-          "reward": "30k Denny, Three Senior Investigator Logs, and Three W Engine Energy Modules",
+          "reward": "Senior Investigator Log x 3, W-Engine Energy Module x 3, Denny x 30,000",
           "premium": false,
           "premiumCurrency": {
             "name": "Polychrome",

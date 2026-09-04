@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "dataTimestamp": "2026-09-03T08:01:59.513Z",
+  "dataTimestamp": "2026-09-04T07:57:23.038Z",
   "activities": [
     {
       "id": "gi-spiral-abyss",
@@ -111,12 +111,12 @@
           "source": {
             "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21847",
             "kind": "official-announcement-api",
-            "fetchedAt": "2026-09-03T08:01:59.517Z"
+            "fetchedAt": "2026-09-04T07:57:23.043Z"
           }
         }
       ],
       "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21847",
-      "verifiedAt": "2026-09-03T08:01:59.513Z"
+      "verifiedAt": "2026-09-04T07:57:23.038Z"
     }
   ]
 }

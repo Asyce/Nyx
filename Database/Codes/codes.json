@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T12:23:02.554Z",
+  "generatedAt": "2026-09-04T19:13:45.754Z",
   "maxAgeDays": 28,
   "games": [
     {
@@ -9,18 +9,13 @@
       "redeemBase": "https://genshin.hoyoverse.com/en/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/GI/codes/",
-      "lastSuccessfulFetch": "2026-09-04T12:23:02.554Z",
+      "lastSuccessfulFetch": "2026-09-04T19:13:45.417Z",
       "codes": [
         {
           "code": "YOAL3V36XHS7",
-          "rewards": "10000 Mora, 10 Adventurer's Experience, 5 Fine Enhancement Ore, 5 Jueyun Chili Chicken, 5 Stir-Fried Fish Noodles",
+          "rewards": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
           "added": "2026-09-02",
-          "sourceUrl": "https://www.crimsonwitch.com/codes/Genshin_Impact",
-          "regionLocked": null,
-          "expires": null,
-          "variants": [
-            "YOALM27HLJA1"
-          ],
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=YOAL3V36XHS7",
           "premium": false,
           "premium100": false,
           "cwSeen": true,
@@ -115,7 +110,7 @@
       "redeemBase": "https://hsr.hoyoverse.com/gift?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/HSR/codes/",
-      "lastSuccessfulFetch": "2026-09-04T12:23:02.541Z",
+      "lastSuccessfulFetch": "2026-09-04T19:13:45.424Z",
       "codes": [
         {
           "code": "8SMSVJWJM7ZT",
@@ -245,7 +240,7 @@
       "redeemBase": "https://zenless.hoyoverse.com/redemption?code=",
       "note": "",
       "sourceUrl": "https://nexus-codes.app/games/ZZZ/codes/",
-      "lastSuccessfulFetch": "2026-09-04T12:23:02.532Z",
+      "lastSuccessfulFetch": "2026-09-04T19:13:45.754Z",
       "codes": [
         {
           "code": "ZENLESSGIFT",
@@ -300,7 +295,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Terminal > Settings > Other Settings > Redemption Code",
       "sourceUrl": "https://nexus-codes.app/games/WUWA/codes/",
-      "lastSuccessfulFetch": "2026-09-04T12:23:01.971Z",
+      "lastSuccessfulFetch": "2026-09-04T19:13:45.322Z",
       "codes": []
     },
     {
@@ -310,7 +305,7 @@
       "redeemBase": "",
       "note": "Redeem ingame via Settings > Account > Exchange Code",
       "sourceUrl": "https://nexus-codes.app/games/ARKEN/codes/",
-      "lastSuccessfulFetch": "2026-09-04T12:23:02.010Z",
+      "lastSuccessfulFetch": "2026-09-04T19:13:45.355Z",
       "codes": [
         {
           "code": "AKENDFIELDSUB",

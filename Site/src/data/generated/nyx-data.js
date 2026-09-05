@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-04T19:14:05.587Z",
+  "generatedAt": "2026-09-05T02:03:53.523Z",
   "codes": {
-    "updated": "2026-09-04T19:13:45.754Z",
+    "updated": "2026-09-05T02:03:33.206Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -110,7 +110,7 @@ var NYX_DB = {
         },
         {
           "code": "2BJ64QRZ7RT8",
-          "reward": "60 Primogems and Five Adventurer S Experience",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",
@@ -6370,7 +6370,7 @@ var NYX_DB = {
         },
         {
           "code": "2BJ64QRZ7RT8",
-          "reward": "60 Primogems and Five Adventurer S Experience",
+          "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
           "premiumCurrency": {
             "name": "Primogems",

@@ -20,6 +20,10 @@
     "gamedataAssetPath": "IconRole68.webp"
   },
   {
+    "path": "GameData/zzz/assets/w-engines/Weapon_A_Common_22.webp",
+    "gamedataAssetPath": "Weapon_A_Common_22.webp"
+  },
+  {
     "path": "GameData/zzz/assets/monsters/Monster_UVARaven.webp",
     "gamedataAssetPath": "Monster_UVARaven.webp"
   },
@@ -30,6 +34,10 @@
   {
     "path": "GameData/zzz/assets/monsters/Monster_MazingerGoldenBomb.webp",
     "gamedataAssetPath": "Monster_MazingerGoldenBomb.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/monsters/Monster_HollowVenger.webp",
+    "gamedataAssetPath": "Monster_HollowVenger.webp"
   },
   {
     "path": "GameData/zzz/assets/monsters/Monster_HeavySoldierPro.webp",
@@ -56,6 +64,10 @@
     "gamedataAssetPath": "IconRolePiece68.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/Weapon_A_Common_22.webp",
+    "gamedataAssetPath": "Weapon_A_Common_22.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/ExBigBoss011.webp",
     "gamedataAssetPath": "ExBigBoss011.webp"
   },
@@ -70,6 +82,10 @@
   {
     "path": "GameData/zzz/assets/items/TrapTest.webp",
     "gamedataAssetPath": "TrapTest.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/WeaponStar_A_Common_22.webp",
+    "gamedataAssetPath": "WeaponStar_A_Common_22.webp"
   },
   {
     "path": "GameData/zzz/assets/items/BuffRandom.webp",
@@ -104,10 +120,6 @@
     "gamedataAssetPath": "SuitPope01.webp"
   },
   {
-    "path": "GameData/zzz/assets/items/Skin_AngelActivityPink.webp",
-    "gamedataAssetPath": "Skin_AngelActivityPink.webp"
-  },
-  {
     "path": "GameData/zzz/assets/items/CardDailyUse1611.webp",
     "gamedataAssetPath": "CardDailyUse1611.webp"
   },
@@ -132,12 +144,24 @@
     "gamedataAssetPath": "CardDailyUse1641.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/CardDailyUse1651.webp",
+    "gamedataAssetPath": "CardDailyUse1651.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/IconWallpaperPiece12.webp",
     "gamedataAssetPath": "IconWallpaperPiece12.webp"
   },
   {
     "path": "GameData/zzz/assets/items/IconPendantPiece12.webp",
     "gamedataAssetPath": "IconPendantPiece12.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconWallpaperPiece13.webp",
+    "gamedataAssetPath": "IconWallpaperPiece13.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/IconPendantPiece13.webp",
+    "gamedataAssetPath": "IconPendantPiece13.webp"
   },
   {
     "path": "GameData/zzz/assets/items/BPWeaponSelectNew.webp",
@@ -368,15 +392,75 @@
     "gamedataAssetPath": "IconDigibooFON.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/Icon_Doubt.webp",
+    "gamedataAssetPath": "Icon_Doubt.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_Default.webp",
     "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_Default.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Head_Headgear_07.webp",
+    "gamedataAssetPath": "icon_Wise_Head_Headgear_07.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Head_Earring_08.webp",
+    "gamedataAssetPath": "icon_Wise_Head_Earring_08.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Chest_Neckwear_02.webp",
+    "gamedataAssetPath": "icon_Wise_Chest_Neckwear_02.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_02.webp",
+    "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_02.webp"
   },
   {
     "path": "GameData/zzz/assets/items/icon_Wise_Chest_WaistOrnament_04.webp",
     "gamedataAssetPath": "icon_Wise_Chest_WaistOrnament_04.webp"
   },
   {
+    "path": "GameData/zzz/assets/items/icon_Wise_Back_WaistOrnament_03.webp",
+    "gamedataAssetPath": "icon_Wise_Back_WaistOrnament_03.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Head_Headgear_10.webp",
+    "gamedataAssetPath": "icon_Wise_Head_Headgear_10.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Wise_Head_Headgear_11.webp",
+    "gamedataAssetPath": "icon_Wise_Head_Headgear_11.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Head_Headgear_07.webp",
+    "gamedataAssetPath": "icon_Belle_Head_Headgear_07.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Head_Earring_08.webp",
+    "gamedataAssetPath": "icon_Belle_Head_Earring_08.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Chest_Neckwear_02.webp",
+    "gamedataAssetPath": "icon_Belle_Chest_Neckwear_02.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Back_WaistOrnament_02.webp",
+    "gamedataAssetPath": "icon_Belle_Back_WaistOrnament_02.webp"
+  },
+  {
     "path": "GameData/zzz/assets/items/icon_Belle_Chest_WaistOrnament_04.webp",
     "gamedataAssetPath": "icon_Belle_Chest_WaistOrnament_04.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Back_WaistOrnament_03.webp",
+    "gamedataAssetPath": "icon_Belle_Back_WaistOrnament_03.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Head_Headgear_10.webp",
+    "gamedataAssetPath": "icon_Belle_Head_Headgear_10.webp"
+  },
+  {
+    "path": "GameData/zzz/assets/items/icon_Belle_Head_Headgear_11.webp",
+    "gamedataAssetPath": "icon_Belle_Head_Headgear_11.webp"
   }
 ]

@@ -257,6 +257,24 @@
     "class": 2,
     "name": "Season EXP"
   },
+  "218": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/MidsummerContainer.png",
+    "rank": 4,
+    "class": 2,
+    "name": "Item_Name_218"
+  },
+  "219": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Currency_Season.png",
+    "rank": 4,
+    "class": 1,
+    "name": "Item_Name_219"
+  },
+  "220": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/ArcadeGameToken02.png",
+    "rank": 4,
+    "class": 147,
+    "name": "Item_Name_220"
+  },
   "221": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/SocialForumExp.png",
     "rank": 3,
@@ -1745,6 +1763,12 @@
     "class": 5,
     "name": "Bloodmarrow Coffer"
   },
+  "13022": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_Common_22.png",
+    "rank": 3,
+    "class": 5,
+    "name": "Item_Weapon_A_Common_22_Name"
+  },
   "13101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_A_1011.png",
     "rank": 3,
@@ -2121,7 +2145,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/Weapon_S_1621.png",
     "rank": 4,
     "class": 5,
-    "name": "Crimson Moon Casket"
+    "name": "..."
   },
   "20102": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconRoleAwaken_1021.png",
@@ -6003,7 +6027,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer01.png",
     "rank": 1,
     "class": 10,
-    "name": "Armorer Module"
+    "name": "Armorer Component"
   },
   "101020": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage02.png",
@@ -6045,7 +6069,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer02.png",
     "rank": 2,
     "class": 10,
-    "name": "Reinforced Armorer Module"
+    "name": "Reinforced Armorer Component"
   },
   "101030": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankDamage03.png",
@@ -6087,7 +6111,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/WeaponRankArmorer03.png",
     "rank": 3,
     "class": 10,
-    "name": "Specialized Armorer Module"
+    "name": "Specialized Armorer Component"
   },
   "102010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/BangbooBreakthrough01.png",
@@ -8420,6 +8444,12 @@
     "class": 23,
     "name": "Twilight Afterimage"
   },
+  "307008": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIconWeapon/UnPacker/WeaponStar_A_Common_22.png",
+    "rank": 3,
+    "class": 23,
+    "name": "Item_WeaponStar_A_Common_22_name"
+  },
   "310104": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconParts.png",
     "rank": 2,
@@ -10633,12 +10663,6 @@
     "rank": 4,
     "class": 29,
     "name": "EquipmentSuit_13_name"
-  },
-  "963001": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png",
-    "rank": 4,
-    "class": 29,
-    "name": "Skin_3115191_name"
   },
   "1000000": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/CardUnlock.png",
@@ -17685,25 +17709,25 @@
     "name": "Sigrid"
   },
   "1341075": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1611.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
     "rank": 4,
     "class": 83,
     "name": "Claret"
   },
   "1341076": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1621.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1631.png",
     "rank": 4,
     "class": 83,
     "name": "Roxy"
   },
   "1341077": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1631.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1641.png",
     "rank": 4,
     "class": 83,
     "name": "Choice_1341077_name"
   },
   "1341078": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1641.png",
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardDailyUse1651.png",
     "rank": 4,
     "class": 83,
     "name": "Choice_1341078_name"
@@ -18840,7 +18864,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic107.png",
     "rank": 4,
     "class": 80,
-    "name": "[Clara] Smashing Onslaught"
+    "name": "[Claret] Smashing Onslaught"
   },
   "1350312": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/AbyssS2/Relic108.png",
@@ -20804,6 +20828,18 @@
     "class": 110,
     "name": "Sidebar_Decoration_Item_1359026"
   },
+  "1359027": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconWallpaperPiece13.png",
+    "rank": 4,
+    "class": 109,
+    "name": "Sidebar_Decoration_Item_1359027"
+  },
+  "1359028": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconPendantPiece13.png",
+    "rank": 4,
+    "class": 110,
+    "name": "Sidebar_Decoration_Item_1359028"
+  },
   "1360001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/RiduBoo/RiduBooItemIcon/UnPacker/ActivityMarcelRemake_BangbooSkinVoucher.png",
     "rank": 3,
@@ -21343,6 +21379,12 @@
     "rank": 4,
     "class": 51,
     "name": "Celestial Nexus Invitation Limited Gift"
+  },
+  "2000046": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Testgift.png",
+    "rank": 4,
+    "class": 51,
+    "name": "Gift_2000046_name"
   },
   "2090000": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/PlayerBirthdayCake.png",
@@ -22142,12 +22184,6 @@
     "class": 63,
     "name": "Afternoon Tea Break"
   },
-  "3114912": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png",
-    "rank": 4,
-    "class": 63,
-    "name": "Skin_3114912_name"
-  },
   "3115010": {
     "icon": "",
     "rank": 4,
@@ -22159,12 +22195,6 @@
     "rank": 4,
     "class": 63,
     "name": "Skin_3115011_name"
-  },
-  "3115012": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png",
-    "rank": 4,
-    "class": 63,
-    "name": "Skin_3115012_name"
   },
   "3115020": {
     "icon": "",
@@ -22178,23 +22208,11 @@
     "class": 63,
     "name": "Skin_3115011_name"
   },
-  "3115022": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png",
-    "rank": 4,
-    "class": 63,
-    "name": "Skin_3115012_name"
-  },
   "3115091": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AriaDiscordantNote.png",
     "rank": 4,
     "class": 100,
     "name": "Discordant Note"
-  },
-  "3115092": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png",
-    "rank": 4,
-    "class": 100,
-    "name": "Skin_3115012_name"
   },
   "3115110": {
     "icon": "",
@@ -22207,12 +22225,6 @@
     "rank": 4,
     "class": 63,
     "name": "Rhapsody's Muse"
-  },
-  "3115112": {
-    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_AngelActivityPink.png",
-    "rank": 4,
-    "class": 63,
-    "name": "Skin_3115112_name"
   },
   "3115210": {
     "icon": "",
@@ -29418,7 +29430,7 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Consumables_012.png",
     "rank": 4,
     "class": 10,
-    "name": "ZKItem_4300005_Name"
+    "name": "Inventory Expansion Plug-In (Seasonal)"
   },
   "4300010": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/IconCurrency.png",
@@ -30294,13 +30306,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321023_Name"
+    "name": "[Fragile] [Claret] Smashing Onslaught - Lv.50"
   },
   "4321024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4321024_Name"
+    "name": "[Fragile] [Roxy] Hammered to Perfection - Lv.50"
   },
   "4321025": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026.png",
@@ -30325,6 +30337,48 @@
     "rank": 4,
     "class": 132,
     "name": "[Fragile] [Starlight - Billy] Knight's Belt - Lv.50"
+  },
+  "4321029": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321029_Name"
+  },
+  "4321030": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321030_Name"
+  },
+  "4321031": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321031_Name"
+  },
+  "4321032": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321032_Name"
+  },
+  "4321033": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321033_Name"
+  },
+  "4321034": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321034_Name"
+  },
+  "4321035": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4321035_Name"
   },
   "4322001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008.png",
@@ -30456,19 +30510,19 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_025.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322022_Name"
+    "name": "[Yanagi] Flowing Reflection - Lv.60"
   },
   "4322023": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322023_Name"
+    "name": "[Claret] Smashing Onslaught - Lv.60"
   },
   "4322024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024.png",
     "rank": 5,
     "class": 132,
-    "name": "ZKItem_4322024_Name"
+    "name": "[Roxy] Hammered to Perfection - Lv.60"
   },
   "4322025": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026.png",
@@ -30493,6 +30547,48 @@
     "rank": 5,
     "class": 132,
     "name": "[Starlight - Billy] Knight's Belt - Lv.60"
+  },
+  "4322029": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322029_Name"
+  },
+  "4322030": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322030_Name"
+  },
+  "4322031": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322031_Name"
+  },
+  "4322032": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322032_Name"
+  },
+  "4322033": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322033_Name"
+  },
+  "4322034": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322034_Name"
+  },
+  "4322035": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 5,
+    "class": 132,
+    "name": "ZKItem_4322035_Name"
   },
   "4323101": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponC_001.png",
@@ -31002,13 +31098,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326023_Name"
+    "name": "[Claret] Smashing Onslaught - Lv.50"
   },
   "4326024": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024.png",
     "rank": 4,
     "class": 132,
-    "name": "ZKItem_4326024_Name"
+    "name": "[Roxy] Hammered to Perfection - Lv.50"
   },
   "4326025": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026.png",
@@ -31033,6 +31129,48 @@
     "rank": 4,
     "class": 132,
     "name": "[Starlight - Billy] Knight's Belt - Lv.50"
+  },
+  "4326029": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326029_Name"
+  },
+  "4326030": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326030_Name"
+  },
+  "4326031": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326031_Name"
+  },
+  "4326032": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326032_Name"
+  },
+  "4326033": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326033_Name"
+  },
+  "4326034": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326034_Name"
+  },
+  "4326035": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027.png",
+    "rank": 4,
+    "class": 132,
+    "name": "ZKItem_4326035_Name"
   },
   "4331001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_EquipErosion_001.png",
@@ -32016,13 +32154,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350323_Name"
+    "name": "[Blueprint] [Claret] Smashing Onslaught - Lv.50"
   },
   "4350324": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024_Blueprint.png",
     "rank": 4,
     "class": 130,
-    "name": "ZKItem_4350324_Name"
+    "name": "[Blueprint] [Roxy] Hammered to Perfection - Lv.50"
   },
   "4350325": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026_Blueprint.png",
@@ -32047,6 +32185,48 @@
     "rank": 4,
     "class": 130,
     "name": "[Blueprint] [Starlight - Billy] Knight's Belt - Lv.50"
+  },
+  "4350329": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350329_Name"
+  },
+  "4350330": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350330_Name"
+  },
+  "4350331": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350331_Name"
+  },
+  "4350332": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350332_Name"
+  },
+  "4350333": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350333_Name"
+  },
+  "4350334": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350334_Name"
+  },
+  "4350335": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4350335_Name"
   },
   "4350501": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_008_Blueprint.png",
@@ -32184,13 +32364,13 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_023_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350523_Name"
+    "name": "[Blueprint] [Claret] Smashing Onslaught - Lv.60"
   },
   "4350524": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_024_Blueprint.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4350524_Name"
+    "name": "[Blueprint] [Roxy] Hammered to Perfection - Lv.60"
   },
   "4350525": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_026_Blueprint.png",
@@ -32215,6 +32395,48 @@
     "rank": 5,
     "class": 130,
     "name": "[Blueprint] [Starlight - Billy] Knight's Belt - Lv.60"
+  },
+  "4350529": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350529_Name"
+  },
+  "4350530": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350530_Name"
+  },
+  "4350531": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350531_Name"
+  },
+  "4350532": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350532_Name"
+  },
+  "4350533": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350533_Name"
+  },
+  "4350534": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350534_Name"
+  },
+  "4350535": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_WeaponAvatar_027_Blueprint.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4350535_Name"
   },
   "4360001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_001.png",
@@ -32496,133 +32718,151 @@
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_082.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360047_Name"
+    "name": "Starlight Knight Transmorpher: Leo"
   },
   "4360048": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_086.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360048_Name"
+    "name": "Afternoon Tea Break: Kitty Hairband"
   },
   "4360049": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_087.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360049_Name"
+    "name": "Scarlet Rock: Stars of Lyra"
   },
   "4360050": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_088.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360050_Name"
+    "name": "Moonlight Whispers: Silk-Soft Veil"
   },
   "4360051": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_089.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360051_Name"
+    "name": "Cuddly Executor: Jingling Anklet"
   },
   "4360052": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_047.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360052_Name"
+    "name": "Commemoration Stamp: Dan"
   },
   "4360053": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_048.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360053_Name"
+    "name": "Commemoration Stamp: Vike"
   },
   "4360054": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_083.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360055_Name"
+    "name": "Starlight Knight Transmorpher: Taurus"
   },
   "4360055": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_084.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360054_Name"
+    "name": "Starlight Knight Transmorpher: Sagittarius"
   },
   "4360056": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_085.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360056_Name"
+    "name": "Starlight Knight Transmorpher? Black Hole?"
   },
   "4360057": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_074.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360057_Name"
+    "name": "Braised Beef Boodles Ornament"
   },
   "4360058": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_075.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360058_Name"
+    "name": "Shrimp Boodles Ornament"
   },
   "4360059": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_076.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360059_Name"
+    "name": "Mushroom Chicken Boodles Ornament"
   },
   "4360060": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_077.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360060_Name"
+    "name": "Pickled Cabbage Boodles Ornament"
   },
   "4360061": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_054.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360061_Name"
+    "name": "Emerald"
   },
   "4360062": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_055.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360062_Name"
+    "name": "Topaz"
   },
   "4360063": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_056.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360063_Name"
+    "name": "Ruby"
   },
   "4360064": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_057.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360064_Name"
+    "name": "Aquamarine"
   },
   "4360065": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_078.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360065_Name"
+    "name": "Sealed Files: Papago"
   },
   "4360066": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_079.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360066_Name"
+    "name": "Sealed Files: Darkwater Research Center"
   },
   "4360067": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_080.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360067_Name"
+    "name": "Sealed Files: Ethereal Machines"
   },
   "4360068": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_081.png",
     "rank": 5,
     "class": 130,
-    "name": "ZKItem_4360068_Name"
+    "name": "Sealed Files: Classified"
+  },
+  "4360080": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360116_Name"
+  },
+  "4360081": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360117_Name"
+  },
+  "4360082": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360118_Name"
   },
   "4360084": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Zenkov/UnPacker/ItemIcon/Zenkov_Collection_022.png",
@@ -32719,6 +32959,150 @@
     "rank": 4,
     "class": 130,
     "name": "[Commission] Elevator Access Card"
+  },
+  "4360102": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360102_Name"
+  },
+  "4360103": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360103_Name"
+  },
+  "4360104": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360104_Name"
+  },
+  "4360105": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360105_Name"
+  },
+  "4360106": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360106_Name"
+  },
+  "4360107": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360107_Name"
+  },
+  "4360108": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360108_Name"
+  },
+  "4360109": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360109_Name"
+  },
+  "4360110": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360110_Name"
+  },
+  "4360111": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360111_Name"
+  },
+  "4360112": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360112_Name"
+  },
+  "4360113": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360113_Name"
+  },
+  "4360114": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360114_Name"
+  },
+  "4360115": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360115_Name"
+  },
+  "4360116": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360116_Name"
+  },
+  "4360117": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360117_Name"
+  },
+  "4360118": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360118_Name"
+  },
+  "4360119": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360119_Name"
+  },
+  "4360120": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360120_Name"
+  },
+  "4360121": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360121_Name"
+  },
+  "4360122": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360122_Name"
+  },
+  "4360123": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360123_Name"
+  },
+  "4360124": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360124_Name"
+  },
+  "4360125": {
+    "icon": "",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4360125_Name"
   },
   "4361001": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Activity/Ver2_8/Bangkov/UnPacker/ItemIconBig/BangkovCoinSpecialBig.png",
@@ -33307,6 +33691,36 @@
     "rank": 3,
     "class": 144,
     "name": "Flight Feather Agent's Commemorative Medal"
+  },
+  "4400000": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/ItemIcon/UnPacker/IconFund.png",
+    "rank": 3,
+    "class": 145,
+    "name": "SNCItem_4400000_Name"
+  },
+  "4410101": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/Icon_Doubt.png",
+    "rank": 2,
+    "class": 130,
+    "name": "ZKItem_4410101_Name"
+  },
+  "4410102": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/Icon_Doubt.png",
+    "rank": 3,
+    "class": 130,
+    "name": "ZKItem_4410102_Name"
+  },
+  "4410103": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/Icon_Doubt.png",
+    "rank": 4,
+    "class": 130,
+    "name": "ZKItem_4410103_Name"
+  },
+  "4410104": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/Icon_Doubt.png",
+    "rank": 5,
+    "class": 130,
+    "name": "ZKItem_4410104_Name"
   },
   "10007030": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/Hollow/IconCard/UnPacker/CardBlunt09.png",
@@ -34004,6 +34418,18 @@
     "class": 96,
     "name": "Accessoriy_412001322"
   },
+  "412001324": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
+    "rank": 3,
+    "class": 96,
+    "name": "Accessoriy_412001324"
+  },
+  "412001346": {
+    "icon": "",
+    "rank": 3,
+    "class": 96,
+    "name": "Accessoriy_412001346"
+  },
   "412001381": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/ItemIcon/UnPacker/Skin_EllenOnCampus.png",
     "rank": 3,
@@ -34346,8 +34772,50 @@
     "class": 95,
     "name": "Magic Shades"
   },
+  "412011318": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Head_Headgear_07.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412011319": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Head_Earring_08.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412011320": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Chest_Neckwear_02.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412011321": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Back_WaistOrnament_02.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
   "412011322": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Chest_WaistOrnament_04.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412011323": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Back_WaistOrnament_03.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412011324": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Head_Headgear_10.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412011346": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Wise_Head_Headgear_11.png",
     "rank": 3,
     "class": 95,
     "name": "..."
@@ -34694,8 +35162,50 @@
     "class": 95,
     "name": "Magic Shades"
   },
+  "412021318": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Head_Headgear_07.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412021319": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Head_Earring_08.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412021320": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Chest_Neckwear_02.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412021321": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_WaistOrnament_02.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
   "412021322": {
     "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Chest_WaistOrnament_04.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412021323": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Back_WaistOrnament_03.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412021324": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Head_Headgear_10.png",
+    "rank": 3,
+    "class": 95,
+    "name": "..."
+  },
+  "412021346": {
+    "icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/PlayerAccessory/UnPacker/icon_Belle_Head_Headgear_11.png",
     "rank": 3,
     "class": 95,
     "name": "..."

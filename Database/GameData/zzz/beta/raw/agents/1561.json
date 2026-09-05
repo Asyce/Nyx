@@ -2090,7 +2090,12 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
-  "strategy": {},
+  "strategy": [
+    "03",
+    "StrategyGuide_Overview_1561_1|06",
+    "StrategyGuide_Overview_1561_2|06",
+    "StrategyGuide_Overview_1561_3"
+  ],
   "potential": [],
   "potential_detail": {},
   "live2_d": "UISpineVelina"

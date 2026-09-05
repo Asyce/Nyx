@@ -2262,7 +2262,12 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
-  "strategy": {},
+  "strategy": [
+    "07",
+    "StrategyGuide_Overview_1571_1|06",
+    "StrategyGuide_Overview_1571_2|06",
+    "StrategyGuide_Overview_1571_3"
+  ],
   "potential": [],
   "potential_detail": {},
   "live2_d": "UISpine_nuomu"

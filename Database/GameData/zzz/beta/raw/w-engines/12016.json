@@ -359,23 +359,23 @@
   "talents": {
     "1": {
       "name": "Crescent Moon",
-      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>18%</color> for 10s. Repeated triggers refresh the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>18%</color> for 10s. Repeated triggers reset the duration."
     },
     "2": {
       "name": "Crescent Moon",
-      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>21%</color> for 10s. Repeated triggers refresh the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>21%</color> for 10s. Repeated triggers reset the duration."
     },
     "3": {
       "name": "Crescent Moon",
-      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>24%</color> for 10s. Repeated triggers refresh the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>24%</color> for 10s. Repeated triggers reset the duration."
     },
     "4": {
       "name": "Crescent Moon",
-      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>27%</color> for 10s. Repeated triggers refresh the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>27%</color> for 10s. Repeated triggers reset the duration."
     },
     "5": {
       "name": "Crescent Moon",
-      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>30%</color> for 10s. Repeated triggers refresh the duration."
+      "desc": "When using an <color=#FFFFFF>EX Special Attack</color>, Basic Attack DMG increases by <color=#2BAD00>30%</color> for 10s. Repeated triggers reset the duration."
     }
   }
 }

@@ -505,7 +505,7 @@
   "group_desc": "Special",
   "card_obtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
   "card_quote": "...",
-  "card_skill_desc": "When the Conqueror enters optical camouflage, it gains a [Corruptive Barrier] and becomes immune to DMG. Dodging and Countering can trigger Impaired, significantly reducing the [Corruptive Barrier] and building Daze. Watch out for the Conqueror's feints.",
+  "card_skill_desc": "When the Conqueror enters optical camouflage, it gains a Corruptive Barrier and becomes immune to DMG. Dodge and Counter to trigger Impaired, which drastically reduces the Corruptive Barrier and builds up Daze. Watch out for the Conqueror's feints.",
   "element_abnormal": {
     "10001": 600,
     "10002": 600,

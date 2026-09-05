@@ -7,7 +7,7 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["zzz"] = {
-  "version": "3.2.12+18601660",
+  "version": "3.3.0+18716457",
   "liveVersion": "3.1",
   "newCount": 2,
   "changedCount": 2,
@@ -183,7 +183,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.12+18601660",
+        "version": "3.3.0+18716457",
         "sections": [
           {
             "title": "Skills",
@@ -191,7 +191,7 @@
               {
                 "name": "Basic Attack: Smash 'n' Bash",
                 "type": "Basic",
-                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nEnhanced Basic Attack consists of two stages. After performing the first stage, press or hold to follow up with the second stage. The pursuit effect of the first-stage enhanced Basic Attack is also strengthened.\nFurnace Fire can stack up to 2 times. Performing an enhanced Basic Attack consumes all stacks of Furnace Fire.\nWhen Furnace Fire is consumed, all Agents deal 35% more damage for 40s. Repeated triggers refresh the duration. For each stack of Furnace Fire consumed, the second stage of the enhanced Basic Attack deals 10% more damage and inflicts 20% more Daze.\nWhen switching Agents during the first stage of the enhanced Basic Attack, Koleda remains on-field and automatically launches the second stage of the enhanced Basic Attack.\nWhen Koleda and Ben are both in the squad, using an enhanced Basic Attack without switching Agents during the first stage of the enhanced Basic Attack causes the two to perform a Coordinated Attack, further increasing the skill's power.\nCharacter is Invulnerable during the 4th hit of her Basic Attack and her enhanced Basic Attack.\nThe invulnerability duration of the second-stage enhanced Basic Attack is increased.",
+                "desc": "Press to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nWhen Koleda and Ben are deployed together, executing an enhanced Basic Attack will trigger a coordinated attack from both, further increasing the move's power;\nKoleda is invulnerable during the Basic Attack's 4th hit and enhanced Basic Attack.\n\nPress to activate:\nUnleashes up to 4 strikes, dealing Physical DMG.\nWhen Koleda has the Furnace Fire effect, she can launch an enhanced Basic Attack after the 2nd hit, consuming the Furnace Fire effect and dealing massive Fire DMG.\nEnhanced Basic Attack consists of two hits. After performing the first hit, press or hold to follow up with the second hit. The pursuit effect of the enhanced Basic Attack's first hit is also strengthened.\nFurnace Fire can stack up to 2 times. Performing an enhanced Basic Attack consumes all stacks of Furnace Fire.\nWhen Furnace Fire is consumed, all Agents deal 35% more damage for 40s. Repeated triggers reset the duration. For each stack of Furnace Fire consumed, the second hit of the enhanced Basic Attack deals 10% more damage and inflicts 20% more Daze.\nWhen switching Agents during the first hit of the enhanced Basic Attack, Koleda remains on-field and automatically launches the second hit of the enhanced Basic Attack.\nWhen Koleda and Ben are both in the squad, using an enhanced Basic Attack without switching Agents during the first hit of the enhanced Basic Attack causes the two to perform a Coordinated Attack, further increasing the skill's power.\nCharacter is invulnerable during the 4th hit of her Basic Attack and her enhanced Basic Attack.\nThe invulnerability duration of the second hit of her enhanced Basic Attack is increased.",
                 "descFormat": [
                   {
                     "start": 54,
@@ -278,86 +278,86 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 886,
-                    "end": 898,
+                    "start": 868,
+                    "end": 880,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 921,
-                    "end": 933,
+                    "start": 915,
+                    "end": 927,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 982,
-                    "end": 994,
+                    "start": 976,
+                    "end": 988,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1018,
-                    "end": 1030,
+                    "start": 1012,
+                    "end": 1024,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1037,
-                    "end": 1049,
+                    "start": 1031,
+                    "end": 1043,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1162,
-                    "end": 1174,
+                    "start": 1154,
+                    "end": 1166,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 1218,
-                    "end": 1230,
+                    "start": 1208,
+                    "end": 1220,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1342,
-                    "end": 1354,
+                    "start": 1330,
+                    "end": 1342,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1440,
-                    "end": 1452,
+                    "start": 1426,
+                    "end": 1438,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1515,
-                    "end": 1527,
+                    "start": 1501,
+                    "end": 1513,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1592,
-                    "end": 1604,
+                    "start": 1576,
+                    "end": 1588,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1743,
-                    "end": 1755,
+                    "start": 1727,
+                    "end": 1739,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1773,
-                    "end": 1785,
+                    "start": 1757,
+                    "end": 1769,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1845,
-                    "end": 1857,
+                    "start": 1834,
+                    "end": 1846,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -630,7 +630,7 @@
               {
                 "name": "Dash Attack: Tremble!",
                 "type": "Dodge",
-                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nPerform a forward strike, dealing Physical DMG.\nDuring this skill, if she has Furnace Fire, then Anti-Interrupt Level is increased. Hold to follow up with an enhanced Basic Attack.",
+                "desc": "Press during a Dodge to activate:\nStrikes enemies in front, dealing Physical DMG.\n\nPress during a dodge to activate:\nPerforms a forward strike, dealing Physical DMG.\nDuring this skill, if Koleda has Furnace Fire, its Anti-Interrupt Level is increased. Hold to follow up with an enhanced Basic Attack.",
                 "descFormat": [
                   {
                     "start": 68,
@@ -639,20 +639,20 @@
                     "tone": "physical"
                   },
                   {
-                    "start": 151,
-                    "end": 163,
+                    "start": 152,
+                    "end": 164,
                     "kind": "tone",
                     "tone": "physical"
                   },
                   {
-                    "start": 195,
-                    "end": 207,
+                    "start": 199,
+                    "end": 211,
                     "kind": "tone",
                     "tone": "pyro"
                   },
                   {
-                    "start": 284,
-                    "end": 296,
+                    "start": 287,
+                    "end": 299,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -4184,7 +4184,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.12+18601660",
+        "version": "3.3.0+18716457",
         "sections": [
           {
             "title": "Skills",
@@ -8431,7 +8431,7 @@
           "items": [
             {
               "id": "101016",
-              "name": "Armorer Module",
+              "name": "Armorer Component",
               "qty": 4,
               "rar": 1,
               "kind": "mob",
@@ -8439,7 +8439,7 @@
             },
             {
               "id": "101026",
-              "name": "Reinforced Armorer Module",
+              "name": "Reinforced Armorer Component",
               "qty": 32,
               "rar": 3,
               "kind": "mob",
@@ -8447,7 +8447,7 @@
             },
             {
               "id": "101036",
-              "name": "Specialized Armorer Module",
+              "name": "Specialized Armorer Component",
               "qty": 30,
               "rar": 4,
               "kind": "mob",
@@ -8480,14 +8480,6 @@
       "iconZoom": 1.18,
       "art": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
       "card": "../../Database/Prydwen/zzz/assets/characters/roxy-493c2cf722ad.webp",
-      "signatureWeapon": {
-        "id": "14162",
-        "name": "Crimson Moon Casket",
-        "type": "Stun",
-        "educated": false
-      },
-      "signatureWeaponId": "14162",
-      "signatureWeaponName": "Crimson Moon Casket",
       "status": "beta",
       "labels": [
         "3.x"
@@ -8626,7 +8618,7 @@
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.2.12+18601660",
+        "version": "3.3.0+18716457",
         "sections": [
           {
             "title": "Skills",
@@ -8634,11 +8626,11 @@
               {
                 "name": "Basic Attack: Do Stay a While",
                 "type": "Basic",
-                "desc": "Press to activate:\nPerform up to 4 strikes forward, dealing Wind DMG.",
+                "desc": "Press to activate:\nPerforms up to 4 strikes forward, dealing Wind DMG.",
                 "descFormat": [
                   {
-                    "start": 60,
-                    "end": 68,
+                    "start": 61,
+                    "end": 69,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -8804,16 +8796,16 @@
               {
                 "name": "Dodge: Excuse Me",
                 "type": "Dodge",
-                "desc": "Press to activate:\nPerform a quick dodge to the side."
+                "desc": "Press to activate:\nPerforms a quick dodge to the side."
               },
               {
                 "name": "Dash Attack: Forgive My Rudeness",
                 "type": "Dodge",
-                "desc": "Press during a dodge to activate:\nStrike forward, dealing Wind DMG.",
+                "desc": "Press during a dodge to activate:\nStrikes forward, dealing Wind DMG.",
                 "descFormat": [
                   {
-                    "start": 58,
-                    "end": 66,
+                    "start": 59,
+                    "end": 67,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -8877,11 +8869,11 @@
               {
                 "name": "Dodge Counter: Returned Courtesy",
                 "type": "Dodge",
-                "desc": "Press during a Perfect Dodge to activate:\nStrike enemies in front, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press during a Perfect Dodge to activate:\nStrikes enemies in front, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 75,
-                    "end": 83,
+                    "start": 76,
+                    "end": 84,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -8945,23 +8937,23 @@
               {
                 "name": "Assist: More Overtime?",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nRoxy stays on field and Strikes enemies in front, dealing Wind DMG.\nUpon activating this skill, it is considered a Basic Attack.\nCharacter is invulnerable while using this skill.",
+                "desc": "After activating a Defensive Assist, press again to activate:\nRoxy stays on the field and strikes enemies ahead, dealing Wind DMG.\nThis skill is treated as activating a Basic Attack.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 14,
-                    "end": 30,
+                    "start": 19,
+                    "end": 35,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 102,
-                    "end": 110,
+                    "start": 121,
+                    "end": 129,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 159,
-                    "end": 171,
+                    "start": 169,
+                    "end": 181,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9093,11 +9085,11 @@
               {
                 "name": "Defensive Assist: Allow Me to Assist",
                 "type": "Assist",
-                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of [Assist Points] when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+                "desc": "When the on-field character is about to be attacked, press to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of Assist Points when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 197,
-                    "end": 212,
+                    "end": 210,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9178,7 +9170,7 @@
               {
                 "name": "Assist Follow-Up: Midnight Code",
                 "type": "Assist",
-                "desc": "Press after a Defensive Assist to activate:\nPerform a forward strike, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
+                "desc": "Press after a Defensive Assist to activate:\nStrikes enemies ahead, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 14,
@@ -9187,8 +9179,8 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 78,
-                    "end": 86,
+                    "start": 75,
+                    "end": 83,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9252,47 +9244,47 @@
               {
                 "name": "Special Attack: Forgive Me for Not Seeing You Off",
                 "type": "Special",
-                "desc": "[EX Special Attack: Kindly Rest in Peace] When activated, if there are a combined total of at least 3 and own on the field, automatically activates:\nThrows her hammer at enemies on the field, dealing Wind DMG;\n[Storm's Eye] hit by this skill are detonated, up to 3 [Storm's Eye] at a time. Miniature Windstorms are generated based on the number of Storm's Eyes hit, dealing Wind DMG;\nIf 3 [Storm's Eye] are detonated at once, a Giant Windstorm is generated instead, dealing Wind DMG;\nCharacter is invulnerable while using this skill.",
+                "desc": "After activating EX Special Attack: Kindly Rest in Peace, this attack is automatically activated when the total number of Eyes of the Storm on the field and Roxy's reaches at least 3:\nThrows her hammer at enemies on the field, dealing Wind DMG.\nEyes of the Storm hit by this attack are detonated, up to 3 Eyes of the Storm at a time. Based on the number of Eyes of the Storm hit, Miniature Windstorms are generated, dealing Wind DMG.\nIf 3 Eyes of the Storm are detonated at once, a Giant Windstorm is generated instead, dealing Wind DMG.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 0,
-                    "end": 41,
+                    "start": 17,
+                    "end": 56,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 200,
-                    "end": 208,
+                    "start": 235,
+                    "end": 243,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 210,
-                    "end": 223,
+                    "start": 245,
+                    "end": 262,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 265,
-                    "end": 278,
+                    "start": 305,
+                    "end": 322,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 374,
-                    "end": 382,
+                    "start": 424,
+                    "end": 432,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 389,
-                    "end": 402,
+                    "start": 439,
+                    "end": 456,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 474,
-                    "end": 482,
+                    "start": 528,
+                    "end": 536,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9356,11 +9348,11 @@
               {
                 "name": "Special Attack: Much Obliged",
                 "type": "Special",
-                "desc": "Press to activate:\nPerform a forward strike, dealing Wind DMG.",
+                "desc": "Press to activate:\nPerforms a forward strike, dealing Wind DMG.",
                 "descFormat": [
                   {
-                    "start": 53,
-                    "end": 61,
+                    "start": 54,
+                    "end": 62,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9424,47 +9416,47 @@
               {
                 "name": "EX Special Attack: Don't Catch a Chill",
                 "type": "Special",
-                "desc": "With enough energy, press or hold to activate:\nSlide forward, dealing Wind DMG.\nWhile sliding, press and hold to have Roxy enter the Whirlwind state:\nWhile in the Whirlwind state, Roxy transforms into a tornado. Drag the joystick to control its direction. During this, Energy is continuously consumed, dealing Wind DMG to enemies along its path. When Energy is depleted, or when is released while the joystick is not being moved, Roxy exits the Whirlwind state.\nWhen the slide ends or when exiting the Whirlwind state, automatically follow up with EX Special Attack: Kindly Rest in Peace.\nCharacter is invulnerable while using this skill.",
+                "desc": "With enough energy, press or hold to activate:\nSlides forward, dealing Wind DMG.\nWhile sliding, press and hold to have Roxy enter the Whirlwind state:\nWhile in the Whirlwind state, Roxy generates a tornado. Drag the joystick to control its direction. During this, Energy is continuously consumed, dealing Wind DMG to enemies along its path. When Energy is depleted, or when is released while the joystick is not being moved, Roxy exits the Whirlwind state.\nWhen the slide ends or when exiting the Whirlwind state, automatically follows up with EX Special Attack: Kindly Rest in Peace.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
-                    "start": 70,
-                    "end": 78,
+                    "start": 71,
+                    "end": 79,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 133,
-                    "end": 142,
+                    "start": 134,
+                    "end": 143,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 163,
-                    "end": 172,
+                    "start": 164,
+                    "end": 173,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 310,
-                    "end": 318,
+                    "start": 305,
+                    "end": 313,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 445,
-                    "end": 454,
+                    "start": 440,
+                    "end": 449,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 502,
-                    "end": 511,
+                    "start": 497,
+                    "end": 506,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 548,
-                    "end": 587,
+                    "start": 544,
+                    "end": 583,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -9562,7 +9554,7 @@
               {
                 "name": "EX Special Attack: Kindly Rest in Peace",
                 "type": "Special",
-                "desc": "Automatically activates after EX Special Attack: Don't Catch a Chill ends:\nConsume all to fire a wind cannon forward, dealing Wind DMG.\nAfter the attack, for each point of Wind Energy consumed, deals an additional instance of Wind DMG and generates 1 at the current position.",
+                "desc": "Automatically activates after EX Special Attack: Don't Catch a Chill ends:\nConsumes all to fire a wind cannon forward, dealing Wind DMG.\nAfter the attack, for each point of Wind Energy consumed, deals an additional instance of Wind DMG and generates 1 at the current position.\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 30,
@@ -9571,20 +9563,20 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 126,
-                    "end": 134,
+                    "start": 127,
+                    "end": 135,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 172,
-                    "end": 183,
+                    "start": 173,
+                    "end": 184,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 226,
-                    "end": 234,
+                    "start": 227,
+                    "end": 235,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9663,55 +9655,55 @@
                 ]
               },
               {
-                "name": "Storm's Eye",
+                "name": "Eye of the Storm",
                 "type": "Special",
-                "desc": "Generated after [EX Special Attack: Kindly Rest in Peace] consumes , lasting 30s before automatically detonating;\nUp to 9 can exist at the same time. If this limit is exceeded, the earliest generated [Storm's Eye] will automatically detonate;\nDetonates when hit by [Special Attack: Forgive Me for Not Seeing You Off]. If fewer than 3 are hit at the same time, 1 Miniature Windstorm is generated at the location of each [Storm's Eye], tracking enemies and dealing Wind DMG for 1s;\nIf 3 are hit at the same time, 1 Giant Windstorm is generated instead, dealing Wind DMG for 1s.\nWhen detonated by any means, a [Storm's Eye] releases a blast, dealing 1 instance of Wind DMG to nearby enemies.",
+                "desc": "Generated after EX Special Attack: Kindly Rest in Peace consumes , and automatically detonates after 30s.\nUp to 9 Eyes of the Storm can exist at the same time. If this limit is exceeded, the earliest generated Eye of the Storm will automatically detonate.\nDetonates when hit by Special Attack: Forgive Me for Not Seeing You Off. If fewer than 3 are hit at the same time, 1 Miniature Windstorm is generated at the location of each Eye of the Storm, tracking enemies and dealing Wind DMG for 1s.\nIf 3 are hit at the same time, 1 Giant Windstorm is generated instead, dealing Wind DMG for 1s.\nWhen detonated by any means, an Eye of the Storm releases a blast, dealing 1 instance of Wind DMG to nearby enemies.",
                 "descFormat": [
                   {
                     "start": 16,
-                    "end": 57,
+                    "end": 55,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 200,
-                    "end": 213,
+                    "start": 210,
+                    "end": 226,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 265,
-                    "end": 316,
+                    "start": 278,
+                    "end": 327,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 419,
-                    "end": 432,
+                    "start": 430,
+                    "end": 446,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 463,
-                    "end": 471,
+                    "start": 477,
+                    "end": 485,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 559,
-                    "end": 567,
+                    "start": 573,
+                    "end": 581,
                     "kind": "tone",
                     "tone": "anemo"
                   },
                   {
-                    "start": 607,
-                    "end": 620,
+                    "start": 622,
+                    "end": 638,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 661,
-                    "end": 669,
+                    "start": 679,
+                    "end": 687,
                     "kind": "tone",
                     "tone": "anemo"
                   }
@@ -9900,7 +9892,7 @@
               {
                 "name": "Ultimate: Requiem for the Night-Burial",
                 "type": "Chain",
-                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG;\nAfter using this skill, gain 1 ;\nCharacter is invulnerable while using this skill.",
+                "desc": "When Decibel Rating is at Maximum, press to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive Wind DMG.\nAfter the skill ends, gains 1 .\nCharacter is invulnerable while using this skill.",
                 "descFormat": [
                   {
                     "start": 135,
@@ -9973,918 +9965,11 @@
               {
                 "name": "Core Passive: Warm Night's Embrace",
                 "type": "Core Passive",
-                "desc": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 40%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                "descFormat": [
-                  {
-                    "start": 67,
-                    "end": 80,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 102,
-                    "end": 114,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 209,
-                    "end": 212,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 271,
-                    "end": 275,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 283,
-                    "end": 334,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 361,
-                    "end": 372,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 398,
-                    "end": 413,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 473,
-                    "end": 488,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 492,
-                    "end": 501,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 560,
-                    "end": 569,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 686,
-                    "end": 689,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 719,
-                    "end": 728,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 845,
-                    "end": 848,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 944,
-                    "end": 955,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1000,
-                    "end": 1011,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1101,
-                    "end": 1116,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1165,
-                    "end": 1176,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
-                "levels": [
-                  {
-                    "label": "Lv. 1",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 480, and Impact increases by 0.4, up to a maximum increase of 40.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 22%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 10%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 684,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 717,
-                        "end": 726,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 839,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 938,
-                        "end": 949,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 994,
-                        "end": 1005,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1092,
-                        "end": 1107,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1156,
-                        "end": 1167,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 2",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 560, and Impact increases by 0.4, up to a maximum increase of 46.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 25%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 11.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 684,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 717,
-                        "end": 726,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 839,
-                        "end": 844,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 940,
-                        "end": 951,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 996,
-                        "end": 1007,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1094,
-                        "end": 1109,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1158,
-                        "end": 1169,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 3",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 640, and Impact increases by 0.4, up to a maximum increase of 52.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 28%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 13%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buffs corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 684,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 717,
-                        "end": 726,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 839,
-                        "end": 842,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 938,
-                        "end": 949,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 994,
-                        "end": 1005,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1092,
-                        "end": 1107,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1156,
-                        "end": 1167,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 4",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 720, and Impact increases by 0.4, up to a maximum increase of 58.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 31%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of 14.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 684,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 717,
-                        "end": 726,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 839,
-                        "end": 844,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 940,
-                        "end": 951,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 996,
-                        "end": 1007,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1093,
-                        "end": 1108,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1157,
-                        "end": 1168,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 5",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 800, and Impact increases by 0.4, up to a maximum increase of 64.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 34%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 16%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members can also gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 684,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 717,
-                        "end": 726,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 843,
-                        "end": 846,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 942,
-                        "end": 953,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 998,
-                        "end": 1009,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1099,
-                        "end": 1114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1163,
-                        "end": 1174,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 6",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 880, and Impact increases by 0.4, up to a maximum increase of 70.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 37%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 17.5%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute that were overwritten by the new [Windswept].",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 273,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 281,
-                        "end": 332,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 359,
-                        "end": 370,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 396,
-                        "end": 411,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 471,
-                        "end": 486,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 490,
-                        "end": 499,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 558,
-                        "end": 567,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 684,
-                        "end": 687,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 717,
-                        "end": 726,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 843,
-                        "end": 848,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 944,
-                        "end": 955,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1000,
-                        "end": 1011,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1101,
-                        "end": 1116,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1179,
-                        "end": 1190,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  },
-                  {
-                    "label": "Lv. 7",
-                    "text": "Gain 1 point of for every 25 Energy consumed, up to a maximum of 3 [Wind Energy].\nWhen Roxy's initial Energy Regen exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of 960, and Impact increases by 0.4, up to a maximum increase of 76.8.\nAfter [Special Attack: Forgive Me for Not Seeing You Off] hits an enemy affected by [Windswept], it triggers , reverting [Contamination] back to its original state.\nWhen any squad member triggers [Contamination] or [Cleanse], for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-[Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of 40%, while the Laceration DMG of [Armorer] characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of 20%. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen [Windswept] is applied again to an enemy already in the [Windswept] state, all squad members likewise gain the buff corresponding to their Specialty for the [Contamination] attribute and Wind attribute of the overwritten [Windswept] state.",
-                    "format": [
-                      {
-                        "start": 67,
-                        "end": 80,
-                        "kind": "tone",
-                        "tone": "anemo"
-                      },
-                      {
-                        "start": 102,
-                        "end": 114,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 209,
-                        "end": 212,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 271,
-                        "end": 275,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 283,
-                        "end": 334,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 361,
-                        "end": 372,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 398,
-                        "end": 413,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 473,
-                        "end": 488,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 492,
-                        "end": 501,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 560,
-                        "end": 569,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 686,
-                        "end": 689,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 719,
-                        "end": 728,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 845,
-                        "end": 848,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 944,
-                        "end": 955,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1000,
-                        "end": 1011,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1101,
-                        "end": 1116,
-                        "kind": "tone",
-                        "tone": "accent"
-                      },
-                      {
-                        "start": 1165,
-                        "end": 1176,
-                        "kind": "tone",
-                        "tone": "accent"
-                      }
-                    ]
-                  }
-                ]
+                "levels": []
               },
               {
                 "name": "Additional Ability: Porcelloy Heart",
                 "type": "Additional Ability",
-                "desc": "When another character in your squad is an [Attack], [Rupture], or [Armorer] character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the [Windswept] state applied by a squad member, the direct Wind DMG they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n[Windswept] applied by all squad members lasts 20s longer.\nWhen using an [EX Special Attack], Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration.",
-                "descFormat": [
-                  {
-                    "start": 43,
-                    "end": 51,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 53,
-                    "end": 62,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 67,
-                    "end": 76,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 526,
-                    "end": 537,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 575,
-                    "end": 590,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 826,
-                    "end": 837,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 899,
-                    "end": 918,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ],
                 "levels": []
               }
             ]
@@ -10894,71 +9979,11 @@
             "entries": [
               {
                 "name": "Versatile Attendant",
-                "type": "Mindscape 1",
-                "desc": "When EX Special Attack: Kindly Rest in Peace hits, it reduces the enemy's All-Attribute RES by 15% for 50s; repeated triggers reset the duration. CRIT DMG increases by 40%.",
-                "descFormat": [
-                  {
-                    "start": 5,
-                    "end": 44,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
+                "type": "Mindscape 1"
               },
               {
                 "name": "Clocking Out Myth",
-                "type": "Mindscape 2",
-                "desc": "EX Special Attack: Don't Catch a Chill deals 5% more Daze. For each Storm's Eye detonated, gain 1 stack of Windflow, up to 3 stacks. During EX Special Attack: Don't Catch a Chill, if Roxy switches out after entering the Whirlwind state, she consumes all Windflow. Each stack consumed sustains the Whirlwind state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When EX Special Attack: Don't Catch a Chill hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 38,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 68,
-                    "end": 79,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 107,
-                    "end": 115,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 140,
-                    "end": 178,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 220,
-                    "end": 229,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 254,
-                    "end": 262,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 297,
-                    "end": 306,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 389,
-                    "end": 427,
-                    "kind": "tone",
-                    "tone": "accent"
-                  }
-                ]
+                "type": "Mindscape 2"
               },
               {
                 "name": "Tales of Insomnia",
@@ -11062,7 +10087,7 @@
               {
                 "name": "Eternity and the Clockwork Doll",
                 "type": "Mindscape 6",
-                "desc": "The DMG dealt by attacks ignores 15% of the target's Wind RES. When [Special Attack: Forgive Me for Not Seeing You Off] detonates [Storm's Eye] to generate a Giant Windstorm, the primary target is inflicted with [Afterecho]. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional instances generated and refresh the duration of [Afterecho]. Giant Windstorms deal DMG increased to 250% of the original value, and their Daze dealt increases by 20%.",
+                "desc": "The DMG dealt by attacks ignores 15% of the target's Wind RES.\nWhen Special Attack: Forgive Me for Not Seeing You Off detonates Eyes of the Storm to generate a Giant Windstorm, the primary target is inflicted with Afterecho. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional Giant Windstorm instances generated and refresh the duration of Afterecho. The DMG dealt by the Giant Windstorm increases to 250% of its original value, and the Daze it inflicts increases by 20%.",
                 "descFormat": [
                   {
                     "start": 53,
@@ -11072,25 +10097,25 @@
                   },
                   {
                     "start": 68,
-                    "end": 119,
+                    "end": 117,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 130,
-                    "end": 143,
+                    "start": 128,
+                    "end": 145,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 212,
+                    "start": 214,
                     "end": 223,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 434,
-                    "end": 445,
+                    "start": 450,
+                    "end": 459,
                     "kind": "tone",
                     "tone": "accent"
                   }
@@ -12623,39 +11648,7 @@
         ],
         "ascCost": 800000,
         "talentCost": 2905000,
-        "currency": 4105000,
-        "weapon": {
-          "name": "Crimson Moon Casket",
-          "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
-          "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
-          "items": [
-            {
-              "id": "101011",
-              "name": "Stun Component",
-              "qty": 4,
-              "rar": 1,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
-            },
-            {
-              "id": "101021",
-              "name": "Reinforced Stun Component",
-              "qty": 32,
-              "rar": 3,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
-            },
-            {
-              "id": "101031",
-              "name": "Specialized Stun Component",
-              "qty": 30,
-              "rar": 4,
-              "kind": "mob",
-              "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
-            }
-          ],
-          "cost": 400000
-        }
+        "currency": 3705000
       },
       "recent": 1,
       "betaStatus": "new"
@@ -12673,7 +11666,7 @@
       "items": [
         {
           "id": "101016",
-          "name": "Armorer Module",
+          "name": "Armorer Component",
           "qty": 4,
           "rar": 1,
           "kind": "mob",
@@ -12681,7 +11674,7 @@
         },
         {
           "id": "101026",
-          "name": "Reinforced Armorer Module",
+          "name": "Reinforced Armorer Component",
           "qty": 32,
           "rar": 3,
           "kind": "mob",
@@ -12689,47 +11682,11 @@
         },
         {
           "id": "101036",
-          "name": "Specialized Armorer Module",
+          "name": "Specialized Armorer Component",
           "qty": 30,
           "rar": 4,
           "kind": "mob",
           "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
-        }
-      ],
-      "cost": 400000
-    },
-    {
-      "id": "14162",
-      "name": "Crimson Moon Casket",
-      "rarity": 4,
-      "weaponType": "Stun",
-      "type": "Stun",
-      "icon": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
-      "art": "../../Database/GameData/zzz/assets/w-engines/Weapon_S_1621.webp",
-      "items": [
-        {
-          "id": "101011",
-          "name": "Stun Component",
-          "qty": 4,
-          "rar": 1,
-          "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun01.webp"
-        },
-        {
-          "id": "101021",
-          "name": "Reinforced Stun Component",
-          "qty": 32,
-          "rar": 3,
-          "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun02.webp"
-        },
-        {
-          "id": "101031",
-          "name": "Specialized Stun Component",
-          "qty": 30,
-          "rar": 4,
-          "kind": "mob",
-          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankStun03.webp"
         }
       ],
       "cost": 400000
@@ -12745,7 +11702,7 @@
       "items": [
         {
           "id": "101016",
-          "name": "Armorer Module",
+          "name": "Armorer Component",
           "qty": 3,
           "rar": 1,
           "kind": "mob",
@@ -12753,7 +11710,7 @@
         },
         {
           "id": "101026",
-          "name": "Reinforced Armorer Module",
+          "name": "Reinforced Armorer Component",
           "qty": 26,
           "rar": 3,
           "kind": "mob",
@@ -12761,7 +11718,7 @@
         },
         {
           "id": "101036",
-          "name": "Specialized Armorer Module",
+          "name": "Specialized Armorer Component",
           "qty": 24,
           "rar": 4,
           "kind": "mob",
@@ -12781,7 +11738,7 @@
       "items": [
         {
           "id": "101016",
-          "name": "Armorer Module",
+          "name": "Armorer Component",
           "qty": 3,
           "rar": 1,
           "kind": "mob",
@@ -12789,7 +11746,7 @@
         },
         {
           "id": "101026",
-          "name": "Reinforced Armorer Module",
+          "name": "Reinforced Armorer Component",
           "qty": 26,
           "rar": 3,
           "kind": "mob",
@@ -12797,7 +11754,43 @@
         },
         {
           "id": "101036",
-          "name": "Specialized Armorer Module",
+          "name": "Specialized Armorer Component",
+          "qty": 24,
+          "rar": 4,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer03.webp"
+        }
+      ],
+      "cost": 320000
+    },
+    {
+      "id": "13022",
+      "name": "Item_Weapon_A_Common_22_Name",
+      "rarity": 3,
+      "weaponType": "Armorer",
+      "type": "Armorer",
+      "icon": null,
+      "art": null,
+      "items": [
+        {
+          "id": "101016",
+          "name": "Armorer Component",
+          "qty": 3,
+          "rar": 1,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer01.webp"
+        },
+        {
+          "id": "101026",
+          "name": "Reinforced Armorer Component",
+          "qty": 26,
+          "rar": 3,
+          "kind": "mob",
+          "icon": "../../Database/GameData/zzz/assets/items/WeaponRankArmorer02.webp"
+        },
+        {
+          "id": "101036",
+          "name": "Specialized Armorer Component",
           "qty": 24,
           "rar": 4,
           "kind": "mob",

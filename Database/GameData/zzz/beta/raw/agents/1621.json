@@ -335,7 +335,7 @@
       "description": [
         {
           "name": "Basic Attack: Do Stay a While",
-          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerform up to 4 strikes forward, dealing <color=#A6C5FD>Wind DMG</color>.",
+          "desc": "Press <IconMap:Icon_Normal> to activate:\nPerforms up to 4 strikes forward, dealing <color=#A6C5FD>Wind DMG</color>.",
           "potential": []
         },
         {
@@ -606,17 +606,17 @@
       "description": [
         {
           "name": "Dodge: Excuse Me",
-          "desc": "Press <IconMap:Icon_Evade> to activate:\nPerform a quick dodge to the side.",
+          "desc": "Press <IconMap:Icon_Evade> to activate:\nPerforms a quick dodge to the side.",
           "potential": []
         },
         {
           "name": "Dash Attack: Forgive My Rudeness",
-          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrike forward, dealing <color=#A6C5FD>Wind DMG</color>.",
+          "desc": "Press <IconMap:Icon_Normal> during a dodge to activate:\nStrikes forward, dealing <color=#A6C5FD>Wind DMG</color>.",
           "potential": []
         },
         {
           "name": "Dodge Counter: Returned Courtesy",
-          "desc": "Press <IconMap:Icon_Normal> during a Perfect Dodge to activate:\nStrike enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> during a Perfect Dodge to activate:\nStrikes enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -789,27 +789,27 @@
       "description": [
         {
           "name": "Special Attack: Forgive Me for Not Seeing You Off",
-          "desc": "<color=#FFFFFF>[EX Special Attack: Kindly Rest in Peace]</color> When activated, if there are a combined total of at least 3 <Term:1000040></Term> and own <Term:1000039></Term> on the field, automatically activates:\nThrows her hammer at enemies on the field, dealing <color=#A6C5FD>Wind DMG</color>;\n<color=#FFFFFF>[Storm's Eye]</color> hit by this skill are detonated, up to 3 <color=#FFFFFF>[Storm's Eye]</color> at a time. Miniature Windstorms are generated based on the number of Storm's Eyes hit, dealing <color=#A6C5FD>Wind DMG</color>;\nIf 3 <color=#FFFFFF>[Storm's Eye]</color> are detonated at once, a Giant Windstorm is generated instead, dealing <color=#A6C5FD>Wind DMG</color>;\nCharacter is invulnerable while using this skill.",
+          "desc": "After activating <color=#FFFFFF>EX Special Attack: Kindly Rest in Peace</color>, this attack is automatically activated when the total number of <Term:1000040>Eyes of the Storm</Term> on the field and Roxy's <Term:1000039></Term> reaches at least 3:\nThrows her hammer at enemies on the field, dealing <color=#A6C5FD>Wind DMG</color>.\n<color=#FFFFFF>Eyes of the Storm</color> hit by this attack are detonated, up to 3 <color=#FFFFFF>Eyes of the Storm</color> at a time. Based on the number of Eyes of the Storm hit, Miniature Windstorms are generated, dealing <color=#A6C5FD>Wind DMG</color>.\nIf 3 <color=#FFFFFF>Eyes of the Storm</color> are detonated at once, a Giant Windstorm is generated instead, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "Special Attack: Much Obliged",
-          "desc": "Press <IconMap:Icon_Special> to activate:\nPerform a forward strike, dealing <color=#A6C5FD>Wind DMG</color>.",
+          "desc": "Press <IconMap:Icon_Special> to activate:\nPerforms a forward strike, dealing <color=#A6C5FD>Wind DMG</color>.",
           "potential": []
         },
         {
           "name": "EX Special Attack: Don't Catch a Chill",
-          "desc": "With enough energy, press or hold <IconMap:Icon_SpecialReady> to activate:\nSlide forward, dealing <color=#A6C5FD>Wind DMG</color>.\nWhile sliding, press and hold <IconMap:Icon_SpecialReady> to have Roxy enter the <color=#FFFFFF>Whirlwind</color> state:\nWhile in the <color=#FFFFFF>Whirlwind</color> state, Roxy transforms into a tornado. Drag the joystick to control its direction. During this, Energy is continuously consumed, dealing <color=#A6C5FD>Wind DMG</color> to enemies along its path. When Energy is depleted, or when <IconMap:Icon_SpecialReady> is released while the joystick is not being moved, Roxy exits the <color=#FFFFFF>Whirlwind</color> state.\nWhen the slide  ends or when exiting the <color=#FFFFFF>Whirlwind</color> state, automatically follow up with <color=#ffffff>EX Special Attack: Kindly Rest in Peace</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "With enough energy, press or hold <IconMap:Icon_SpecialReady> to activate:\nSlides forward, dealing <color=#A6C5FD>Wind DMG</color>.\nWhile sliding, press and hold <IconMap:Icon_SpecialReady> to have Roxy enter the <color=#FFFFFF>Whirlwind</color> state:\nWhile in the <color=#FFFFFF>Whirlwind</color> state, Roxy generates a tornado. Drag the joystick to control its direction. During this, Energy is continuously consumed, dealing <color=#A6C5FD>Wind DMG</color> to enemies along its path. When Energy is depleted, or when <IconMap:Icon_SpecialReady> is released while the joystick is not being moved, Roxy exits the <color=#FFFFFF>Whirlwind</color> state.\nWhen the slide ends or when exiting the <color=#FFFFFF>Whirlwind</color> state, automatically follows up with <color=#ffffff>EX Special Attack: Kindly Rest in Peace</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "EX Special Attack: Kindly Rest in Peace",
-          "desc": "Automatically activates after <color=#FFFFFF>EX Special Attack: Don't Catch a Chill</color> ends:\nConsume all <Term:1000039></Term> to fire a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>.\nAfter the attack, for each point of <color=#FFFFFF>Wind Energy</color> consumed, deals an additional instance of <color=#A6C5FD>Wind DMG</color> and generates 1 <Term:1000040></Term> at the current position.",
+          "desc": "Automatically activates after <color=#FFFFFF>EX Special Attack: Don't Catch a Chill</color> ends:\nConsumes all <Term:1000039></Term> to fire a wind cannon forward, dealing <color=#A6C5FD>Wind DMG</color>.\nAfter the attack, for each point of <color=#FFFFFF>Wind Energy</color> consumed, deals an additional instance of <color=#A6C5FD>Wind DMG</color> and generates 1 <Term:1000040></Term> at the current position.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
-          "name": "Storm's Eye",
-          "desc": "Generated after <color=#FFFFFF>[EX Special Attack: Kindly Rest in Peace]</color> consumes <Term:1000039></Term>, lasting 30s before automatically detonating;\nUp to 9 <Term:1000040></Term> can exist at the same time. If this limit is exceeded, the earliest generated <color=#FFFFFF>[Storm's Eye]</color> will automatically detonate;\nDetonates when hit by <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color>. If fewer than 3 are hit at the same time, 1 Miniature Windstorm is generated at the location of each <color=#FFFFFF>[Storm's Eye]</color>, tracking enemies and dealing <color=#A6C5FD>Wind DMG</color> for 1s;\nIf 3 are hit at the same time, 1 Giant Windstorm is generated instead, dealing <color=#A6C5FD>Wind DMG</color> for 1s.\nWhen detonated by any means, a <color=#FFFFFF>[Storm's Eye]</color> releases a blast, dealing 1 instance of <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
+          "name": "Eye of the Storm",
+          "desc": "Generated after <color=#FFFFFF>EX Special Attack: Kindly Rest in Peace</color> consumes <Term:1000039></Term>, and automatically detonates after 30s.\nUp to 9 <Term:1000040>Eyes of the Storm</Term> can exist at the same time. If this limit is exceeded, the earliest generated <color=#FFFFFF>Eye of the Storm</color> will automatically detonate.\nDetonates when hit by <color=#FFFFFF>Special Attack: Forgive Me for Not Seeing You Off</color>. If fewer than 3 are hit at the same time, 1 Miniature Windstorm is generated at the location of each <color=#FFFFFF>Eye of the Storm</color>, tracking enemies and dealing <color=#A6C5FD>Wind DMG</color> for 1s.\nIf 3 are hit at the same time, 1 Giant Windstorm is generated instead, dealing <color=#A6C5FD>Wind DMG</color> for 1s.\nWhen detonated by any means, an <color=#FFFFFF>Eye of the Storm</color> releases a blast, dealing 1 instance of <color=#A6C5FD>Wind DMG</color> to nearby enemies.",
           "potential": []
         },
         {
@@ -984,6 +984,11 @@
               "potential": []
             },
             {
+              "name": "",
+              "desc": "Pryce_Property_ExSpecial_01_Desc_SpCostValue",
+              "potential": []
+            },
+            {
               "name": "Energy Cost",
               "desc": "10",
               "potential": []
@@ -1133,7 +1138,7 @@
           "potential": []
         },
         {
-          "name": "Storm's Eye",
+          "name": "Eye of the Storm",
           "param": [
             {
               "name": "Detonation DMG Multiplier",
@@ -1327,7 +1332,7 @@
         },
         {
           "name": "Ultimate: Requiem for the Night-Burial",
-          "desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive <color=#A6C5FD>Wind DMG</color>;\nAfter using this skill, gain 1 <Term:1000039></Term>;\nCharacter is invulnerable while using this skill.",
+          "desc": "When Decibel Rating is at Maximum, press <IconMap:Icon_UltimateReady> to activate:\nUnleashes a powerful strike at enemies in front in a large area, dealing massive <color=#A6C5FD>Wind DMG</color>.\nAfter the skill ends, gains 1 <Term:1000039></Term>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1500,7 +1505,7 @@
       "description": [
         {
           "name": "Assist: More Overtime?",
-          "desc": "Press <IconMap:Icon_Switch> after a <color=#FFFFFF>Defensive Assist</color> to activate:\nRoxy stays on field and Strikes enemies in front, dealing <color=#A6C5FD>Wind DMG</color>.\nUpon activating this skill, it is considered a <color=#FFFFFF>Basic Attack</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "After activating a <color=#FFFFFF>Defensive Assist</color>, press <IconMap:Icon_Switch> again to activate:\nRoxy stays on the field and strikes enemies ahead, dealing <color=#A6C5FD>Wind DMG</color>.\nThis skill is treated as activating a <color=#FFFFFF>Basic Attack</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1510,12 +1515,12 @@
         },
         {
           "name": "Defensive Assist: Allow Me to Assist",
-          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of <color=#FFFFFF>[Assist Points]</color> when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
+          "desc": "When the on-field character is about to be attacked, press <IconMap:Icon_Switch> to activate:\nParries the enemy's attack, dealing massive Daze.\nThis skill excels at parrying enemy attacks and reduces the consumption of <color=#FFFFFF>Assist Points</color> when the character is under intense attacks.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
           "name": "Assist Follow-Up: Midnight Code",
-          "desc": "Press <IconMap:Icon_Normal> after a <color=#ffffff>Defensive Assist</color> to activate:\nPerform a forward strike, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
+          "desc": "Press <IconMap:Icon_Normal> after a <color=#ffffff>Defensive Assist</color> to activate:\nStrikes enemies ahead, dealing <color=#A6C5FD>Wind DMG</color>.\nCharacter is invulnerable while using this skill.",
           "potential": []
         },
         {
@@ -1878,14 +1883,14 @@
     },
     "1621004": {
       "name": "EX Special Attack: Kindly Rest in Peace",
-      "desc": "<IconMap:Icon_SpecialReady> (Automatically triggers after EX Special Attack: Don't Catch a Chill)",
+      "desc": "<IconMap:Icon_SpecialReady> (Automatically follows EX Special Attack: Don't Catch a Chill)",
       "element_type": 204,
       "hit_type": 102,
       "potential": []
     },
     "1621005": {
       "name": "Special Attack: Forgive Me for Not Seeing You Off",
-      "desc": "<IconMap:Icon_SpecialReady> (When Storm's Eye and Wind Energy total 3 or more) (EX Special Attack: Kindly Rest in Peace triggers automatically afterward)",
+      "desc": "<IconMap:Icon_SpecialReady> (With at least 3 Eyes of the Storm and Wind Energy combined) (Automatically follows EX Special Attack: Kindly Rest in Peace)",
       "element_type": 204,
       "hit_type": 102,
       "potential": []
@@ -1957,8 +1962,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>480</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>40</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>22%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>10%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buffs corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -1971,8 +1976,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>560</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>46</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>25%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>11.5%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buffs corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -1985,8 +1990,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>640</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>52</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>28%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>13%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buffs corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -1999,8 +2004,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>720</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>58</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>31%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>14.5%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members also gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -2013,8 +2018,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>800</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>64</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>34%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>16%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members can also gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -2027,8 +2032,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>880</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>70</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>37%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>17.5%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members likewise gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute that were overwritten by the new <color=#FFFFFF>[Windswept]</color>.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -2041,8 +2046,8 @@
           "Additional Ability: Porcelloy Heart"
         ],
         "desc": [
-          "Gain 1 point of <Term:1000039></Term> for every 25 Energy consumed, up to a maximum of 3 <color=#FFFFFF>[Wind Energy]</color>.\nWhen Roxy's initial <color=#FFFFFF>Energy Regen</color> exceeds 1.2, for every 0.01 above this value, ATK increases by 5, up to a maximum increase of <color=#2BAD00>960</color>, and Impact increases by 0.4, up to a maximum increase of <color=#2BAD00>76.8</color>.\nAfter <color=#FFFFFF>[Special Attack: Forgive Me for Not Seeing You Off]</color> hits an enemy affected by <color=#FFFFFF>[Windswept]</color>, it triggers <Term:1000038></Term>, reverting <color=#FFFFFF>[Contamination]</color> back to its original state.\nWhen any squad member triggers <color=#FFFFFF>[Contamination]</color> or <color=#FFFFFF>[Cleanse]</color>, for every 1% CRIT Rate Roxy has, the CRIT DMG of all non-<color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.4%, up to a maximum of <color=#2BAD00>40%</color>, while the Laceration DMG of <color=#FFFFFF>[Armorer]</color> characters for the Contamination or Cleansed attribute and the Wind attribute increases by 0.2%, up to a maximum of <color=#2BAD00>20%</color>. Each attribute's buff independently lasts 50s, and repeated triggers reset the duration.\nWhen <color=#FFFFFF>[Windswept]</color> is applied again to an enemy already in the <color=#FFFFFF>[Windswept]</color> state, all squad members likewise gain the buff corresponding to their Specialty for the <color=#FFFFFF>[Contamination]</color> attribute and Wind attribute of the overwritten <color=#FFFFFF>[Windswept]</color> state.",
-          "When another character in your squad is an <color=#FFFFFF>[Attack]</color>, <color=#FFFFFF>[Rupture]</color>, or <color=#FFFFFF>[Armorer]</color> character:\nRoxy's DMG increases by 8%. This effect increases with character Level, increasing by 1.2% per level, up to a maximum increase of 80%.\nWhen any squad member's attack hits an enemy, it increases their Stun DMG Multiplier by 30%. This effect is removed when the Stunned state ends. When an enemy becomes Stunned, its Stun duration is extended by 2s. This Stun duration increase does not stack with similar effects.\nWhile an enemy is in the <color=#FFFFFF>[Windswept]</color> state applied by a squad member, the <color=#A6C5FD>direct Wind DMG</color> they take and the direct attack DMG they take of the attribute that triggered [Contamination] are increased by 8%.\nUpon entering the battlefield, restores 40 Energy. In Investigation Zone Mode, This effect can trigger once every 180s.\n<color=#FFFFFF>[Windswept]</color> applied by all squad members lasts 20s longer.\nWhen using an <color=#ffffff>[EX Special Attack]</color>, Anomaly Buildup Rate increases by 30% for 50s. Repeated triggers reset the duration."
+          "",
+          ""
         ],
         "extra_property": {},
         "potential": []
@@ -2081,13 +2086,13 @@
     "1": {
       "level": 1,
       "name": "Versatile Attendant",
-      "desc": "When <color=#ffffff>EX Special Attack: Kindly Rest in Peace</color> hits, it reduces the enemy's All-Attribute RES by 15% for 50s; repeated triggers reset the duration. CRIT DMG increases by 40%.",
+      "desc": "",
       "desc2": "..."
     },
     "2": {
       "level": 2,
       "name": "Clocking Out Myth",
-      "desc": "<color=#ffffff>EX Special Attack: Don't Catch a Chill</color> deals 5% more Daze. For each <color=#ffffff>Storm's Eye</color> detonated, gain 1 stack of <color=#ffffff>Windflow</color>, up to 3 stacks. During <color=#ffffff>EX Special Attack: Don't Catch a Chill</color>, if Roxy switches out after entering the <color=#ffffff>Whirlwind</color> state, she consumes all <color=#ffffff>Windflow</color>. Each stack consumed sustains the <color=#ffffff>Whirlwind</color> state for 0.2s, during which no Energy is consumed, up to a maximum of 0.6s. When <color=#ffffff>EX Special Attack: Don't Catch a Chill</color> hits an enemy, that enemy's Stun DMG Multiplier increases by 30% until the target recovers from Stun.",
+      "desc": "",
       "desc2": "..."
     },
     "3": {
@@ -2111,7 +2116,7 @@
     "6": {
       "level": 6,
       "name": "Eternity and the Clockwork Doll",
-      "desc": "The DMG dealt by attacks ignores 15% of the target's <color=#A6C5FD>Wind RES</color>. When <color=#ffffff>[Special Attack: Forgive Me for Not Seeing You Off]</color> detonates <color=#ffffff>[Storm's Eye]</color> to generate a Giant Windstorm, the primary target is inflicted with <color=#ffffff>[Afterecho]</color>. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional instances generated and refresh the duration of <color=#ffffff>[Afterecho]</color>. Giant Windstorms deal DMG increased to 250% of the original value, and their Daze dealt increases by 20%.",
+      "desc": "The DMG dealt by attacks ignores 15% of the target's <color=#A6C5FD>Wind RES</color>.\nWhen <color=#ffffff>Special Attack: Forgive Me for Not Seeing You Off</color> detonates <color=#ffffff>Eyes of the Storm</color> to generate a Giant Windstorm, the primary target is inflicted with <color=#ffffff>Afterecho</color>. A Giant Windstorm is generated at the target's location every 3s, for a total of 2 additional Giant Windstorms. Repeated triggers stack the number of additional Giant Windstorm instances generated and refresh the duration of <color=#ffffff>Afterecho</color>. The DMG dealt by the Giant Windstorm increases to 250% of its original value, and the Daze it inflicts increases by 20%.",
       "desc2": "..."
     }
   },
@@ -2177,7 +2182,9 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconWind.png"
     }
   },
-  "strategy": {},
+  "strategy": [
+    ""
+  ],
   "potential": [],
   "potential_detail": {}
 }

@@ -1959,7 +1959,7 @@
     }
   },
   "strategy": [
-    "04",
+    "03",
     "<IconMap:Icon_GeneralBuff_DungeonBuffEther>Ether, off-field Anomaly DMG dealer",
     "Triggering Abloom deals bonus Anomaly DMG",
     "Attacks off-field and rapidly accumulates Anomaly Buildup"

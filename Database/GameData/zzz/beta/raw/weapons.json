@@ -443,6 +443,17 @@
     "zh": "血髓秘匣",
     "ja": "ブラッドボックス"
   },
+  "13022": {
+    "icon": "Weapon_A_Common_22",
+    "rank": 3,
+    "type": 7,
+    "en": "Item_Weapon_A_Common_22_Name",
+    "atk": 594,
+    "desc": "Item_Weapon_A_Common_22_ShortDesc",
+    "ko": "Item_Weapon_A_Common_22_Name",
+    "zh": "Item_Weapon_A_Common_22_Name",
+    "ja": "Item_Weapon_A_Common_22_Name"
+  },
   "13101": {
     "icon": "Weapon_A_1011",
     "rank": 3,
@@ -1191,12 +1202,12 @@
     "icon": "Weapon_S_1621",
     "rank": 4,
     "type": 2,
-    "en": "Crimson Moon Casket",
+    "en": "...",
     "atk": 713,
     "desc": "...",
     "sub": "Energy Regen",
-    "ko": "진홍달의 은관",
-    "zh": "绯月银棺",
-    "ja": "緋月の銀棺"
+    "ko": "...",
+    "zh": "...",
+    "ja": "..."
   }
 }

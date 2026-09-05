@@ -2171,7 +2171,13 @@
       "icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
     }
   },
-  "strategy": {},
+  "strategy": [
+    "01",
+    "StrategyGuide_Overview_1581_1|03",
+    "StrategyGuide_Overview_1581_2|06",
+    "StrategyGuide_Overview_1581_3|06",
+    "StrategyGuide_Overview_1581_4"
+  ],
   "potential": [],
   "potential_detail": {},
   "live2_d": "UISpine_Remielle"

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/events/art.mjs",
-  "generatedAt": "2026-09-02T07:53:30.973Z",
+  "generatedAt": "2026-09-05T07:39:18.823Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": [
@@ -185,6 +185,25 @@
     },
     {
       "game": "gi",
+      "fileName": "3ade26095c1a827f2040784f1526fd3b4f81f5112c37ba9a4616bda0fae569fc.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/18/544816c83a10755f18b4440c00cc4642_4497767485618557441_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/gi/3ade26095c1a827f2040784f1526fd3b4f81f5112c37ba9a4616bda0fae569fc.jpg",
+      "localPath": "Site/assets/events/gi/3ade26095c1a827f2040784f1526fd3b4f81f5112c37ba9a4616bda0fae569fc.jpg",
+      "sha256": "3ade26095c1a827f2040784f1526fd3b4f81f5112c37ba9a4616bda0fae569fc",
+      "bytes": 195474,
+      "mediaType": "image/jpeg",
+      "width": 1080,
+      "height": 390,
+      "etag": "\"544816c83a10755f18b4440c00cc4642\"",
+      "lastModified": "Tue, 18 Aug 2026 06:39:52 GMT",
+      "retrievedAt": "2026-09-05T07:39:18.823Z",
+      "eventIds": [
+        "gi-hoyo-ann-74b1112caaea"
+      ]
+    },
+    {
+      "game": "gi",
       "fileName": "48e1c432a4834c97ef10350e053ea239c536d09181a7112cdeb46b2f9375ebb7.jpg",
       "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/04/9a32fbe7642e27040872c702ff760c13_5512793208175518014_transformed.jpg",
       "requestUrl": null,
@@ -257,6 +276,25 @@
       "retrievedAt": "2026-08-13T17:52:02.263Z",
       "eventIds": [
         "gi-hoyo-ann-6796a55db605"
+      ]
+    },
+    {
+      "game": "gi",
+      "fileName": "6ff89bf25e80dd630dda950741bb6aeacded04da86e36f175bc1792d3097d638.jpg",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/06/49ae769cfad3a6ce03dceb8e4a8e2a2c_1226464164633360648_transformed.jpg",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/gi/6ff89bf25e80dd630dda950741bb6aeacded04da86e36f175bc1792d3097d638.jpg",
+      "localPath": "Site/assets/events/gi/6ff89bf25e80dd630dda950741bb6aeacded04da86e36f175bc1792d3097d638.jpg",
+      "sha256": "6ff89bf25e80dd630dda950741bb6aeacded04da86e36f175bc1792d3097d638",
+      "bytes": 213341,
+      "mediaType": "image/jpeg",
+      "width": 1080,
+      "height": 390,
+      "etag": "\"49ae769cfad3a6ce03dceb8e4a8e2a2c\"",
+      "lastModified": "Thu, 06 Aug 2026 11:54:12 GMT",
+      "retrievedAt": "2026-09-05T07:39:18.823Z",
+      "eventIds": [
+        "gi-hoyo-ann-c64d54547344"
       ]
     },
     {

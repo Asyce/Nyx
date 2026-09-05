@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-05T02:03:53.523Z",
+  "generatedAt": "2026-09-05T07:40:29.903Z",
   "codes": {
-    "updated": "2026-09-05T02:03:33.206Z",
+    "updated": "2026-09-05T07:39:18.770Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -67,20 +67,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-09-04T12:23:02.554Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -95,20 +81,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
         },
         {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-09-04T12:23:02.554Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
-        },
-        {
           "code": "2BJ64QRZ7RT8",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
@@ -121,20 +93,6 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
-        },
-        {
-          "code": "UIVI13C8X156",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-12T13:38:10.848Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         }
       ],
       "hsr": [
@@ -428,16 +386,16 @@ var NYX_DB = {
     }
   },
   "banners": {
-    "updated": "2026-09-04T07:56:25.610Z",
-    "checkedAt": "2026-09-04T07:56:25.610Z",
+    "updated": "2026-09-05T07:38:17.931Z",
+    "checkedAt": "2026-09-05T07:38:17.931Z",
     "games": {
       "hsr": {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -636,9 +594,9 @@ var NYX_DB = {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -897,9 +855,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -1043,9 +1001,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -1291,9 +1249,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -6327,20 +6285,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=BALLETCOLLAB"
         },
         {
-          "code": "GS70XRNWFB",
-          "reward": "30000 Mora, 3 Hero S Wit, 5 Fine Enhancement Ore",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-13",
-          "firstSeen": "2026-09-04T12:23:02.554Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
-        },
-        {
           "code": "MYSNEZHNAYACAREER",
           "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
           "premium": true,
@@ -6355,20 +6299,6 @@ var NYX_DB = {
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
         },
         {
-          "code": "XVIZDH2B9WGX",
-          "reward": "10000 Mora, Adventure Experience 10, Fine Enhancement Ore 5, Jueyun Chili Chicken 5, Stir Fried Fish Noodle 5",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-12",
-          "firstSeen": "2026-09-04T12:23:02.554Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=XVIZDH2B9WGX"
-        },
-        {
           "code": "2BJ64QRZ7RT8",
           "reward": "Primogem x 60, Adventurer's Experience x 5",
           "premium": true,
@@ -6381,29 +6311,15 @@ var NYX_DB = {
           "firstSeen": "2026-08-01T21:03:08.107Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=2BJ64QRZ7RT8"
-        },
-        {
-          "code": "UIVI13C8X156",
-          "reward": "10k Mora, Ten Adventurer S Experience, Five Fine Enhancement Ore, Five Jueyun Chili Chicken, and Five Stir Fried Fish Noodles",
-          "premium": false,
-          "premiumCurrency": {
-            "name": "Primogems",
-            "needle": "primogem",
-            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
-          },
-          "added": "2026-08-07",
-          "firstSeen": "2026-08-12T13:38:10.848Z",
-          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156",
-          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=UIVI13C8X156"
         }
       ],
       "banners": {
         "name": "Genshin Impact",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -173294,9 +173210,9 @@ var NYX_DB = {
         "name": "Honkai: Star Rail",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -179231,9 +179147,9 @@ var NYX_DB = {
         "name": "Zenless Zone Zero",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -184499,9 +184415,9 @@ var NYX_DB = {
         "name": "Wuthering Waves",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {
@@ -189880,9 +189796,9 @@ var NYX_DB = {
         "name": "Arknights: Endfield",
         "freshness": {
           "status": "fresh",
-          "checkedAt": "2026-09-04T07:56:25.610Z",
-          "lastSuccessfulFetch": "2026-09-04T07:56:25.610Z",
-          "lastValidUpdate": "2026-09-04T07:56:25.610Z",
+          "checkedAt": "2026-09-05T07:38:17.931Z",
+          "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+          "lastValidUpdate": "2026-09-05T07:38:17.931Z",
           "source": "prydwen"
         },
         "current": {

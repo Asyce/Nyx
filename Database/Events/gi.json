@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "game": "gi",
-  "generatedAt": "2026-09-04T07:57:23.038Z",
+  "generatedAt": "2026-09-05T07:39:18.823Z",
   "source": {
     "name": "Genshin Impact Official",
     "endpoint": "sg-hk4e-api.hoyoverse.com getAnnList+getAnnContent"
   },
   "counts": {
-    "total": 35,
+    "total": 37,
     "needs_review": 4,
     "banner": 6,
     "byType": {
+      "event": 24,
       "banner": 6,
-      "event": 22,
       "challenge": 3,
       "web_event": 1,
       "shop": 1,
@@ -21,6 +21,94 @@
     }
   },
   "events": [
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-74b1112caaea",
+      "title": "\"Trial of the Bastion\" Event: Bastion Defense Challenge",
+      "type": "event",
+      "start": "2026-09-07T09:00:00.000Z",
+      "end": "2026-09-17T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21816",
+        "kind": "official-announcement-api",
+        "recordId": "21816",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/3ade26095c1a827f2040784f1526fd3b4f81f5112c37ba9a4616bda0fae569fc.jpg",
+      "description": "〓Event Rewards〓\n〓Event Duration〓\n2026/09/07 10:00 – 2026/09/17 03:59\n〓Eligibility〓\nAdventure Rank 20 or above\nComplete Archon Quest Prologue: Act III \"Song of the Dragon and Freedom\"\nComplete the \"Gunfire in the Silent Lands\" quest of the Archon Quest Chapter VII: Act I \"Everwinter Without Mercy.\"\n〓Event Details〓\n● During the event, Travelers will need to build defensive lines before battle, then use firearms during the combat phase to fend off multiple waves of enemies and prevent them from breaching the stronghold.\n● Defeat enemies to earn score. Once your challenge score reaches specified thresholds, you can claim the corresponding rewards.\n● After the event starts, a new trial will unlock each day for the first 5 days (5 trials in total). Each new trial becomes available once the preceding one is completed.",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-09-07T09:00:00.000Z",
+          "end": "2026-09-17T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21816"
+        },
+        "asia": {
+          "start": "2026-09-07T02:00:00.000Z",
+          "end": "2026-09-16T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21816"
+        },
+        "america": {
+          "start": "2026-09-07T15:00:00.000Z",
+          "end": "2026-09-17T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21816"
+        }
+      }
+    },
+    {
+      "game": "gi",
+      "id": "gi-hoyo-ann-c64d54547344",
+      "title": "Participate in \"Starlight Voyage: Joyous Moment\" to Obtain Prismatic Crystals, the Token for the Colorful Surprise Box",
+      "type": "event",
+      "start": "2026-09-07T09:00:00.000Z",
+      "end": "2026-09-21T02:59:00.000Z",
+      "server": "europe",
+      "timezone": "UTC+01:00",
+      "source": {
+        "name": "Genshin Impact Official",
+        "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21831",
+        "kind": "official-announcement-api",
+        "recordId": "21831",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
+        "priority": 1
+      },
+      "confidence": "high",
+      "scheduleStatus": "exact",
+      "permanence": "timed",
+      "needs_review": false,
+      "image": "/assets/events/gi/6ff89bf25e80dd630dda950741bb6aeacded04da86e36f175bc1792d3097d638.jpg",
+      "description": "〓Event Duration〓\nEvent Duration: 2026/09/07 10:00 – 2026/09/21 03:59\nQuest Completion Period: 2026/09/07 10:00 – 2026/09/17 04:00\n〓Event Rewards〓\nPrismatic Crystals\n〓Eligibility〓\nAfter awakening your Miliastra Wonderland Manekin\n〓Event Details〓\n● During the quest completion period, Travelers can obtain \"Sightseeing Experiences\" by completing Starlight Voyage event stages.\n● After the event begins, the available stages in Starlight Voyage and the maximum obtainable Sightseeing Experiences will gradually increase over time. On Day 1, the cap is 800, and it will increase by 400 every two days thereafter, up to a maximum of 1,600.\n● During the event, Travelers can obtain the corresponding event reward, \"Prismatic Crystals,\" by completing quests and accumulating Sightseeing Experiences.\n※ Prismatic Crystals obtained from event rewards can only be used for a limited time. Don't forget to spend them before they expire.",
+      "windowsByRegion": {
+        "europe": {
+          "start": "2026-09-07T09:00:00.000Z",
+          "end": "2026-09-21T02:59:00.000Z",
+          "timezone": "UTC+01:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21831"
+        },
+        "asia": {
+          "start": "2026-09-07T02:00:00.000Z",
+          "end": "2026-09-20T19:59:00.000Z",
+          "timezone": "UTC+08:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21831"
+        },
+        "america": {
+          "start": "2026-09-07T15:00:00.000Z",
+          "end": "2026-09-21T08:59:00.000Z",
+          "timezone": "UTC-05:00",
+          "sourceUrl": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21831"
+        }
+      }
+    },
     {
       "game": "gi",
       "id": "gi-hoyo-ann-57a40b2bc147",
@@ -35,7 +123,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21805",
         "kind": "official-announcement-api",
         "recordId": "21805",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -79,7 +167,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21806",
         "kind": "official-announcement-api",
         "recordId": "21806",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -123,7 +211,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21808",
         "kind": "official-announcement-api",
         "recordId": "21808",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -167,7 +255,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=20748",
         "kind": "official-announcement-api",
         "recordId": "20748",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -211,7 +299,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21813",
         "kind": "official-announcement-api",
         "recordId": "21813",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -255,7 +343,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21847",
         "kind": "official-announcement-api",
         "recordId": "21847",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -299,7 +387,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21829",
         "kind": "official-announcement-api",
         "recordId": "21829",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -343,7 +431,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21811",
         "kind": "official-announcement-api",
         "recordId": "21811",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -507,7 +595,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21809",
         "kind": "official-announcement-api",
         "recordId": "21809",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -595,7 +683,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21828",
         "kind": "official-announcement-api",
         "recordId": "21828",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -639,7 +727,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21818",
         "kind": "official-announcement-api",
         "recordId": "21818",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -683,7 +771,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21830",
         "kind": "official-announcement-api",
         "recordId": "21830",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -771,7 +859,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21761",
         "kind": "official-announcement-api",
         "recordId": "21761",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1223,7 +1311,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=1249",
         "kind": "official-announcement-api",
         "recordId": "1249",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "low",
@@ -1248,7 +1336,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21903",
         "kind": "official-announcement-api",
         "recordId": "21903",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1273,7 +1361,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21750",
         "kind": "official-announcement-api",
         "recordId": "21750",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "low",
@@ -1298,7 +1386,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21812",
         "kind": "official-announcement-api",
         "recordId": "21812",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "high",
@@ -1323,7 +1411,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=21707",
         "kind": "official-announcement-api",
         "recordId": "21707",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "low",
@@ -1348,7 +1436,7 @@
         "url": "https://sg-hk4e-api.hoyoverse.com/common/hk4e_global/announcement/api/getAnnContent?game=hk4e&game_biz=hk4e_global&lang=en&ann_id=20661",
         "kind": "official-announcement-api",
         "recordId": "20661",
-        "fetchedAt": "2026-09-04T07:57:23.043Z",
+        "fetchedAt": "2026-09-05T07:39:18.828Z",
         "priority": 1
       },
       "confidence": "low",

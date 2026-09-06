@@ -16627,7 +16627,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -19946,7 +19946,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -22809,7 +22809,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -25617,7 +25617,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -27674,7 +27674,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -29795,7 +29795,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6+365",
+            "version": "3.6",
             "sections": [
               {
                 "title": "Skills",
@@ -31915,7 +31915,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6+365",
+            "version": "3.6",
             "sections": [
               {
                 "title": "Skills",
@@ -34239,7 +34239,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6+365",
+            "version": "3.6",
             "sections": [
               {
                 "title": "Skills",
@@ -36479,7 +36479,7 @@
           "kit": {
             "source": "Game data",
             "channel": "live",
-            "version": "3.6+365",
+            "version": "3.6",
             "sections": [
               {
                 "title": "Skills",
@@ -39442,7 +39442,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -42181,7 +42181,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -44367,7 +44367,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -46523,7 +46523,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -50348,7 +50348,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -53145,7 +53145,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -56419,7 +56419,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -59899,7 +59899,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -62715,7 +62715,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -65084,7 +65084,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -67491,7 +67491,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -69838,7 +69838,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -72097,7 +72097,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -75127,7 +75127,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -78009,7 +78009,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -80289,7 +80289,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -83369,7 +83369,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -87023,7 +87023,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -89215,7 +89215,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -91795,7 +91795,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -94011,7 +94011,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -95936,7 +95936,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -97741,6 +97741,223 @@
       }
     },
     {
+      "id": "ww-suoming",
+      "n": "Suoming",
+      "localizedNames": {
+        "en": "Suoming",
+        "zh": "\u9501\u669d",
+        "ja": "\u9396\u669d",
+        "ko": "\uc1c4\uba85"
+      },
+      "slug": "suoming",
+      "updated": 1787875200000,
+      "sourceOrder": 1312,
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
+      "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+      "status": "beta",
+      "labels": [
+        "3.7"
+      ],
+      "r": 5,
+      "el": "Electro",
+      "w": "Sword",
+      "baseStats": {
+        "level1": {
+          "hp": 824,
+          "atk": 37,
+          "def": 94
+        },
+        "max": {
+          "level": 90,
+          "hp": 10300,
+          "atk": 462.5,
+          "def": 1148.89
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 824,
+            "atk": 37,
+            "def": 94
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2692.58,
+            "atk": 123.99,
+            "def": 302.08
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4630.72,
+            "atk": 214.1,
+            "def": 517.91
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5874.46,
+            "atk": 273.03,
+            "def": 656.29
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7118.12,
+            "atk": 331.96,
+            "def": 794.68
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8361.87,
+            "atk": 381.64,
+            "def": 933.05
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9605.62,
+            "atk": 431.32,
+            "def": 1071.43
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10300,
+            "atk": 462.5,
+            "def": 1148.89
+          }
+        ]
+      },
+      "facts": {},
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
+      "id": "ww-hsin",
+      "n": "Hsin",
+      "localizedNames": {
+        "en": "Hsin",
+        "zh": "\u5fc3",
+        "ja": "\u5fc3",
+        "ko": "\uc5ec\uc6b0\uc758 \ubcc4\uc790\ub9ac"
+      },
+      "title": "The Moon Fox",
+      "slug": "hsin",
+      "updated": 1787875200000,
+      "sourceOrder": 1311,
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
+      "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+      "status": "beta",
+      "labels": [
+        "3.7"
+      ],
+      "r": 5,
+      "el": "Electro",
+      "w": "Rectifier",
+      "baseStats": {
+        "level1": {
+          "hp": 824,
+          "atk": 37,
+          "def": 91
+        },
+        "max": {
+          "level": 90,
+          "hp": 10300,
+          "atk": 462.5,
+          "def": 1112.22
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 824,
+            "atk": 37,
+            "def": 91
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2692.58,
+            "atk": 123.99,
+            "def": 292.44
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4630.72,
+            "atk": 214.1,
+            "def": 501.38
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5874.46,
+            "atk": 273.03,
+            "def": 635.34
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 7118.12,
+            "atk": 331.96,
+            "def": 769.31
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8361.87,
+            "atk": 381.64,
+            "def": 903.28
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9605.62,
+            "atk": 431.32,
+            "def": 1037.24
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10300,
+            "atk": 462.5,
+            "def": 1112.22
+          }
+        ]
+      },
+      "facts": {
+        "title": "The Moon Fox"
+      },
+      "upcoming": true,
+      "reliableData": false,
+      "noReliableInfo": true,
+      "recent": false
+    },
+    {
       "id": "ww-rebecca",
       "n": "Rebecca",
       "localizedNames": {
@@ -97869,7 +98086,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -101256,7 +101473,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -103649,7 +103866,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -106654,7 +106871,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -109064,7 +109281,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -111508,7 +111725,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -113891,7 +114108,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -116101,7 +116318,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -118497,7 +118714,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -121785,7 +122002,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -125017,7 +125234,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -128881,7 +129098,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -131543,7 +131760,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -134805,7 +135022,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -137651,7 +137868,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -140252,7 +140469,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -142507,7 +142724,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -144509,7 +144726,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -146863,7 +147080,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -148789,7 +149006,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -151885,7 +152102,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -154927,7 +155144,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -158496,7 +158713,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -161128,7 +161345,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -163555,7 +163772,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -165803,7 +166020,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -168125,7 +168342,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -170136,7 +170353,7 @@
       "kit": {
         "source": "Game data",
         "channel": "live",
-        "version": "3.6+365",
+        "version": "3.6",
         "sections": [
           {
             "title": "Skills",
@@ -172091,57 +172308,6 @@
           "cost": 330000
         }
       }
-    },
-    {
-      "id": "ww-hsin",
-      "n": "Hsin",
-      "title": "The Moon Fox",
-      "slug": "hsin",
-      "updated": 1787875200000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
-      "status": "beta",
-      "labels": [
-        "3.7"
-      ],
-      "r": 5,
-      "el": "Electro",
-      "w": "Rectifier",
-      "baseStats": {},
-      "facts": {
-        "title": "The Moon Fox"
-      },
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
-    },
-    {
-      "id": "ww-suoming",
-      "n": "Suoming",
-      "slug": "suoming",
-      "updated": 1787875200000,
-      "sourceOrder": 0,
-      "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
-      "iconZoom": 1.18,
-      "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
-      "status": "beta",
-      "labels": [
-        "3.7"
-      ],
-      "r": 5,
-      "el": "Electro",
-      "w": "Sword",
-      "baseStats": {},
-      "facts": {},
-      "upcoming": true,
-      "reliableData": false,
-      "noReliableInfo": true,
-      "recent": false
     }
   ],
   "midGroups": [

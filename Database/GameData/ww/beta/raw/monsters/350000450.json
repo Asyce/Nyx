@@ -1,0 +1,15 @@
+{
+  "id": 350000450,
+  "name": "Stay tuned",
+  "desc": "Stay tuned",
+  "desc_open": "Stay tuned",
+  "rarity": 4,
+  "element": 3,
+  "element_array": [
+    3
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_34033_2_UI.T_IconMonsterHead_SG_34033_2_UI",
+  "echo": 6010225,
+  "base_stats": {},
+  "stats": {}
+}

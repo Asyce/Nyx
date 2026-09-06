@@ -2,7 +2,7 @@
   "id": 340000320,
   "name": "Calamity Effigy",
   "desc": "A mystic Autopuppet that strolls in the sky. An epitome of mechanist arts at their peak.",
-  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Wind>Areo DMG</color>.\nThe total DMG taken by this enemy is increased by 20% for 6s when affected by Negative Status.\nThis enemy takes 100% more total Electro Flare DMG.\n\nHe cast his consciousness into a mechanical vessel, fueled by the Reverations of lost souls, all for the obsession to become a \"perfect Celestial.\" Though the mechanist arts beyond mortal comprehension could emulate heavenly might, it could never transcend its own shackles.\n\nIt walked to the end of its road, and this forged body became a calamity unto itself.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Wind>Aero DMG</color>.\nThe total DMG taken by this enemy is increased by 20% for 6s when affected by a Negative Status.\nThis enemy takes 100% more total Electro Flare DMG.\n\nHe cast his consciousness into a mechanical vessel, fueled by the Reverberations of lost souls, all for the obsession to become a \"perfect Celestial.\" Though the mechanist arts beyond mortal comprehension could emulate heavenly might, it could never transcend its own shackles.\n\nIt walked to the end of its road, and this forged body became a calamity unto itself.",
   "rarity": 3,
   "element": 4,
   "element_array": [

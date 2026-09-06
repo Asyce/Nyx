@@ -7,151 +7,140 @@
 (function(){
   window.CM_CFG_BETA = window.CM_CFG_BETA || {};
   window.CM_CFG_BETA["wuwa"] = {
-  "version": "3.6.7",
-  "liveVersion": "3.5",
-  "newCount": 0,
-  "changedCount": 2,
+  "version": "3.7.0",
+  "liveVersion": "3.6",
+  "newCount": 2,
+  "changedCount": 1,
   "roster": [
     {
-      "id": "ww-zani",
-      "n": "Zani",
+      "id": "ww-suoming",
+      "n": "Suoming",
       "localizedNames": {
-        "en": "Zani",
-        "zh": "\u8d5e\u59ae",
-        "ja": "\u30b6\u30f3\u30cb\u30fc",
-        "ko": "\uc820\ub2c8"
+        "en": "Suoming",
+        "zh": "\u9501\u669d",
+        "ja": "\u9396\u669d",
+        "ko": "\uc1c4\uba85"
       },
-      "title": "Scorched Radiance",
-      "slug": "zani",
-      "release": 1745884800000,
-      "releasePatch": "2.3",
-      "updated": 1785369600000,
-      "sourceOrder": 1507,
-      "voiceActors": {
-        "english": "imdb:nm3229078|Alexandra Metaxa",
-        "japanese": "Hitomi Ueda|Ueda Hitomi (ja=\u4e0a\u7530\u77b3)",
-        "chinese": "https://zh.moegirl.org.cn/zh-hans/\u8042\u66e6\u6620|Nie Xiying (zh=\u8042\u66e6\u6620)",
-        "korean": "https://namu.wiki/w/\uc6d0\uc5d0\uc2a4\ub354|Won Esther (ko=\uc6d0\uc5d0\uc2a4\ub354)}}"
-      },
-      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_38_UI.webp",
-      "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleZanni.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/zani-3b924faaa0f7.webp",
+      "slug": "suoming",
+      "updated": 1787875200000,
+      "sourceOrder": 1312,
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
+      "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
       "signatureWeapon": {
-        "id": "21040036",
-        "name": "Blazing Justice",
-        "type": "Gauntlets",
-        "educated": false
+        "id": "21020107",
+        "name": "Unspoken Rue",
+        "type": "Sword",
+        "educated": true
       },
-      "signatureWeaponId": "21040036",
-      "signatureWeaponName": "Blazing Justice",
-      "status": "live",
-      "labels": [],
+      "signatureWeaponId": "21020107",
+      "signatureWeaponName": "Unspoken Rue",
+      "status": "beta",
+      "labels": [
+        "3.7"
+      ],
       "r": 5,
-      "el": "Spectro",
-      "w": "Gauntlets",
+      "el": "Electro",
+      "w": "Sword",
       "baseStats": {
         "level1": {
-          "hp": 862,
-          "atk": 35,
-          "def": 93
+          "hp": 824,
+          "atk": 37,
+          "def": 94
         },
         "max": {
           "level": 90,
-          "hp": 10775,
-          "atk": 437.5,
-          "def": 1136.66
+          "hp": 10300,
+          "atk": 462.5,
+          "def": 1148.89
         },
         "levels": [
           {
             "label": "Lv. 1/20",
             "level": 1,
             "cap": 20,
-            "hp": 862,
-            "atk": 35,
-            "def": 93
+            "hp": 824,
+            "atk": 37,
+            "def": 94
           },
           {
             "label": "Lv. 20/40",
             "level": 20,
             "cap": 40,
-            "hp": 2816.76,
-            "atk": 117.29,
-            "def": 298.86
+            "hp": 2692.58,
+            "atk": 123.99,
+            "def": 302.08
           },
           {
             "label": "Lv. 40/50",
             "level": 40,
             "cap": 50,
-            "hp": 4844.27,
-            "atk": 202.53,
-            "def": 512.4
+            "hp": 4630.72,
+            "atk": 214.1,
+            "def": 517.91
           },
           {
             "label": "Lv. 50/60",
             "level": 50,
             "cap": 60,
-            "hp": 6145.37,
-            "atk": 258.27,
-            "def": 649.31
+            "hp": 5874.46,
+            "atk": 273.03,
+            "def": 656.29
           },
           {
             "label": "Lv. 60/70",
             "level": 60,
             "cap": 70,
-            "hp": 7446.39,
-            "atk": 314.02,
-            "def": 786.22
+            "hp": 7118.12,
+            "atk": 331.96,
+            "def": 794.68
           },
           {
             "label": "Lv. 70/80",
             "level": 70,
             "cap": 80,
-            "hp": 8747.49,
-            "atk": 361.01,
-            "def": 923.13
+            "hp": 8361.87,
+            "atk": 381.64,
+            "def": 933.05
           },
           {
             "label": "Lv. 80/90",
             "level": 80,
             "cap": 90,
-            "hp": 10048.59,
-            "atk": 408.01,
-            "def": 1060.03
+            "hp": 9605.62,
+            "atk": 431.32,
+            "def": 1071.43
           },
           {
             "label": "Lv. 90/90",
             "level": 90,
             "cap": 90,
-            "hp": 10775,
-            "atk": 437.5,
-            "def": 1136.66
+            "hp": 10300,
+            "atk": 462.5,
+            "def": 1148.89
           }
         ]
       },
-      "facts": {
-        "nation": "Rinascita",
-        "influence": "The Montelli Family",
-        "title": "Scorched Radiance"
-      },
+      "facts": {},
       "skillIcons": [
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniB1.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniC1.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniY.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniQTE.webp"
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingB1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingC1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingY.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingQTE.webp"
       ],
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.7",
+        "version": "3.7.0",
         "sections": [
           {
             "title": "Skills",
             "entries": [
               {
-                "name": "Routine Negotiation",
+                "name": "Furled Canopy",
                 "type": "Normal Attack",
-                "desc": "Basic Attack\nPerform up to 4 consecutive attacks to deal Spectro DMG.\nAfter performing Basic Attack Stage 3, Normal Attack at the right time to perform Basic Attack Breakthrough, which can be followed by Basic Attack Stage 4 by Normal Attack again.\n\nHeavy Attack\nConsume STA to attack the target, dealing Spectro DMG. Normal Attack within a certain time to perform Basic Attack Stage 3.\n\nMid-air Attack\nConsume STA to perform a plunging attack, dealing Spectro DMG. Normal Attack within a certain time to perform Basic Attack Stage 3.\n\nDodge Counter\n Normal Attack within a certain time after a successful Dodge to attack the target, dealing Spectro DMG. Then Normal Attack at the right time to cast Basic Attack Breakthrough.",
+                "desc": "Basic Attack\nPerform up to 3 consecutive attacks, dealing Electro DMG.\n\nBasic Attack - Unfurled Canopy\nWhile in the Deep Mind state, Basic Attack is replaced with Basic Attack - Unfurled Canopy, performing up to 4 consecutive attacks, dealing Electro DMG.\n\nBasic Attack - Unfurled Canopy: Whirling Thunder\nShortly after casting Basic Attack - Unfurled Canopy Stage 2, hold Normal Attack to cast Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1 and Stage 2 in succession, dealing Electro DMG.\n\nMid-air Attack\nConsume STA to perform Plunging Attack, dealing Electro DMG.\n\nDodge Counter\n Normal Attack within a certain time after a successful Dodge to attack the target, dealing Electro DMG.\n- While in the Deep Mind state, Dodge Counter is replaced with Dodge Counter - Unfurled Canopy.\n- Shortly after casting the skill, Normal Attack to cast Basic Attack Stage 3.\n\nDodge Counter - Unfurled Canopy\n Normal Attack within a certain time after a successful Dodge to attack the target, dealing Electro DMG.\n- Shortly after casting the skill, Normal Attack to cast Basic Attack - Unfurled Canopy Stage 3.\n- Shortly after casting the skill, hold Normal Attack to cast Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1, dealing Electro DMG.",
                 "descFormat": [
                   {
                     "start": 0,
@@ -160,115 +149,193 @@
                     "tone": "accent"
                   },
                   {
-                    "start": 57,
-                    "end": 68,
+                    "start": 58,
+                    "end": 69,
                     "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "electro"
                   },
                   {
-                    "start": 87,
-                    "end": 107,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 109,
-                    "end": 122,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 165,
-                    "end": 177,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 204,
-                    "end": 224,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 250,
-                    "end": 262,
+                    "start": 72,
+                    "end": 102,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 305,
-                    "end": 316,
+                    "start": 116,
+                    "end": 125,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 318,
-                    "end": 331,
+                    "start": 133,
+                    "end": 145,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 365,
-                    "end": 385,
+                    "start": 163,
+                    "end": 193,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 388,
-                    "end": 402,
+                    "start": 243,
+                    "end": 254,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 257,
+                    "end": 305,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 328,
+                    "end": 366,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 373,
+                    "end": 386,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 395,
+                    "end": 463,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 487,
+                    "end": 498,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 501,
+                    "end": 515,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 453,
-                    "end": 464,
+                    "start": 564,
+                    "end": 575,
                     "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "electro"
                   },
                   {
-                    "start": 466,
-                    "end": 479,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 513,
-                    "end": 533,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 536,
-                    "end": 549,
+                    "start": 578,
+                    "end": 591,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 551,
-                    "end": 564,
+                    "start": 593,
+                    "end": 606,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 642,
+                    "start": 648,
                     "end": 653,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 660,
-                    "end": 673,
+                    "start": 684,
+                    "end": 695,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 712,
+                    "end": 721,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 713,
-                    "end": 725,
+                    "start": 729,
+                    "end": 742,
                     "kind": "tone",
                     "tone": "spectro"
+                  },
+                  {
+                    "start": 759,
+                    "end": 791,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 828,
+                    "end": 841,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 850,
+                    "end": 870,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 873,
+                    "end": 904,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 906,
+                    "end": 919,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 961,
+                    "end": 966,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 997,
+                    "end": 1008,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1045,
+                    "end": 1058,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1067,
+                    "end": 1105,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1147,
+                    "end": 1160,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1169,
+                    "end": 1225,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1235,
+                    "end": 1246,
+                    "kind": "tone",
+                    "tone": "electro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -296,253 +363,303 @@
                     ],
                     "rows": [
                       {
-                        "label": "Stage 1 DMG",
+                        "label": "Basic Attack Stage 1 DMG",
                         "values": [
-                          "29.60%",
-                          "32.03%",
-                          "34.46%",
-                          "37.86%",
-                          "40.28%",
-                          "43.08%",
-                          "46.96%",
-                          "50.84%",
-                          "54.73%",
-                          "58.85%",
-                          "63.71%",
-                          "68.56%",
-                          "73.42%",
-                          "78.27%",
-                          "83.12%",
-                          "87.98%",
-                          "92.83%",
-                          "97.69%",
-                          "102.54%",
-                          "107.40%"
+                          "15.87%",
+                          "17.17%",
+                          "18.48%",
+                          "20.30%",
+                          "21.60%",
+                          "23.09%",
+                          "25.18%",
+                          "27.26%",
+                          "29.34%",
+                          "31.55%",
+                          "34.15%",
+                          "36.76%",
+                          "39.36%",
+                          "41.96%",
+                          "44.56%",
+                          "47.17%",
+                          "49.77%",
+                          "52.37%",
+                          "54.97%",
+                          "57.58%"
                         ]
                       },
                       {
-                        "label": "Stage 2 DMG",
+                        "label": "Basic Attack Stage 2 DMG",
                         "values": [
-                          "40.00%",
-                          "43.28%",
-                          "46.56%",
-                          "51.16%",
-                          "54.44%",
-                          "58.21%",
-                          "63.46%",
-                          "68.70%",
-                          "73.95%",
-                          "79.53%",
-                          "86.09%",
-                          "92.65%",
-                          "99.21%",
-                          "105.77%",
-                          "112.33%",
-                          "118.89%",
-                          "125.45%",
-                          "132.01%",
-                          "138.57%",
-                          "145.13%"
+                          "7.92%*2+15.83%",
+                          "8.56%*2+17.12%",
+                          "9.21%*2+18.42%",
+                          "10.12%*2+20.24%",
+                          "10.77%*2+21.54%",
+                          "11.52%*2+23.03%",
+                          "12.55%*2+25.10%",
+                          "13.59%*2+27.18%",
+                          "14.63%*2+29.26%",
+                          "15.73%*2+31.46%",
+                          "17.03%*2+34.06%",
+                          "18.33%*2+36.65%",
+                          "19.63%*2+39.25%",
+                          "20.92%*2+41.84%",
+                          "22.22%*2+44.43%",
+                          "23.52%*2+47.03%",
+                          "24.81%*2+49.62%",
+                          "26.11%*2+52.22%",
+                          "27.41%*2+54.81%",
+                          "28.71%*2+57.41%"
                         ]
                       },
                       {
-                        "label": "Stage 3 DMG",
+                        "label": "Basic Attack Stage 3 DMG",
                         "values": [
-                          "21.34%*3",
-                          "23.09%*3",
-                          "24.84%*3",
-                          "27.29%*3",
-                          "29.04%*3",
-                          "31.05%*3",
-                          "33.85%*3",
-                          "36.64%*3",
-                          "39.44%*3",
-                          "42.42%*3",
-                          "45.92%*3",
-                          "49.42%*3",
-                          "52.91%*3",
-                          "56.41%*3",
-                          "59.91%*3",
-                          "63.41%*3",
-                          "66.91%*3",
-                          "70.41%*3",
-                          "73.91%*3",
-                          "77.40%*3"
+                          "11.07%*3+22.14%",
+                          "11.98%*3+23.96%",
+                          "12.89%*3+25.77%",
+                          "14.16%*3+28.32%",
+                          "15.07%*3+30.13%",
+                          "16.11%*3+32.22%",
+                          "17.56%*3+35.12%",
+                          "19.02%*3+38.03%",
+                          "20.47%*3+40.93%",
+                          "22.01%*3+44.02%",
+                          "23.83%*3+47.65%",
+                          "25.64%*3+51.28%",
+                          "27.46%*3+54.91%",
+                          "29.27%*3+58.54%",
+                          "31.09%*3+62.17%",
+                          "32.90%*3+65.80%",
+                          "34.72%*3+69.43%",
+                          "36.53%*3+73.06%",
+                          "38.35%*3+76.69%",
+                          "40.16%*3+80.32%"
                         ]
                       },
                       {
-                        "label": "Stage 4 DMG",
+                        "label": "Basic Attack - Unfurled Canopy Stage 1 DMG",
                         "values": [
-                          "34.00%*4",
-                          "36.79%*4",
-                          "39.58%*4",
-                          "43.48%*4",
-                          "46.27%*4",
-                          "49.48%*4",
-                          "53.94%*4",
-                          "58.40%*4",
-                          "62.86%*4",
-                          "67.60%*4",
-                          "73.18%*4",
-                          "78.75%*4",
-                          "84.33%*4",
-                          "89.90%*4",
-                          "95.48%*4",
-                          "101.06%*4",
-                          "106.63%*4",
-                          "112.21%*4",
-                          "117.78%*4",
-                          "123.36%*4"
+                          "32.91%+16.46%*2",
+                          "35.61%+17.81%*2",
+                          "38.31%+19.16%*2",
+                          "42.08%+21.04%*2",
+                          "44.78%+22.39%*2",
+                          "47.89%+23.95%*2",
+                          "52.20%+26.10%*2",
+                          "56.52%+28.26%*2",
+                          "60.84%+30.42%*2",
+                          "65.42%+32.71%*2",
+                          "70.82%+35.41%*2",
+                          "76.22%+38.11%*2",
+                          "81.61%+40.81%*2",
+                          "87.01%+43.51%*2",
+                          "92.41%+46.21%*2",
+                          "97.80%+48.90%*2",
+                          "103.20%+51.60%*2",
+                          "108.59%+54.30%*2",
+                          "113.99%+57.00%*2",
+                          "119.39%+59.70%*2"
                         ]
                       },
                       {
-                        "label": "Breakthrough DMG",
+                        "label": "Basic Attack - Unfurled Canopy Stage 2 DMG",
                         "values": [
-                          "30.94%+8.84%*7",
-                          "33.47%+9.57%*7",
-                          "36.01%+10.29%*7",
-                          "39.56%+11.31%*7",
-                          "42.10%+12.03%*7",
-                          "45.02%+12.87%*7",
-                          "49.07%+14.02%*7",
-                          "53.13%+15.18%*7",
-                          "57.19%+16.34%*7",
-                          "61.50%+17.58%*7",
-                          "66.58%+19.03%*7",
-                          "71.65%+20.47%*7",
-                          "76.72%+21.92%*7",
-                          "81.80%+23.37%*7",
-                          "86.87%+24.82%*7",
-                          "91.94%+26.27%*7",
-                          "97.02%+27.72%*7",
-                          "102.09%+29.17%*7",
-                          "107.16%+30.62%*7",
-                          "112.23%+32.07%*7"
+                          "57.54%+19.18%*3",
+                          "62.26%+20.76%*3",
+                          "66.98%+22.33%*3",
+                          "73.59%+24.53%*3",
+                          "78.31%+26.11%*3",
+                          "83.73%+27.91%*3",
+                          "91.28%+30.43%*3",
+                          "98.83%+32.95%*3",
+                          "106.38%+35.46%*3",
+                          "114.40%+38.14%*3",
+                          "123.84%+41.28%*3",
+                          "133.27%+44.43%*3",
+                          "142.71%+47.57%*3",
+                          "152.15%+50.72%*3",
+                          "161.58%+53.86%*3",
+                          "171.02%+57.01%*3",
+                          "180.46%+60.16%*3",
+                          "189.89%+63.30%*3",
+                          "199.33%+66.45%*3",
+                          "208.77%+69.59%*3"
                         ]
                       },
                       {
-                        "label": "Heavy Attack DMG",
+                        "label": "Basic Attack - Unfurled Canopy Stage 3 DMG",
                         "values": [
-                          "20.66%*4",
-                          "22.36%*4",
-                          "24.05%*4",
-                          "26.43%*4",
-                          "28.12%*4",
-                          "30.07%*4",
-                          "32.78%*4",
-                          "35.49%*4",
-                          "38.20%*4",
-                          "41.08%*4",
-                          "44.47%*4",
-                          "47.86%*4",
-                          "51.24%*4",
-                          "54.63%*4",
-                          "58.02%*4",
-                          "61.41%*4",
-                          "64.80%*4",
-                          "68.19%*4",
-                          "71.57%*4",
-                          "74.96%*4"
+                          "29.50%*2+29.50%*2",
+                          "31.92%*2+31.92%*2",
+                          "34.34%*2+34.34%*2",
+                          "37.72%*2+37.72%*2",
+                          "40.14%*2+40.14%*2",
+                          "42.92%*2+42.92%*2",
+                          "46.79%*2+46.79%*2",
+                          "50.66%*2+50.66%*2",
+                          "54.53%*2+54.53%*2",
+                          "58.64%*2+58.64%*2",
+                          "63.48%*2+63.48%*2",
+                          "68.32%*2+68.32%*2",
+                          "73.16%*2+73.16%*2",
+                          "77.99%*2+77.99%*2",
+                          "82.83%*2+82.83%*2",
+                          "87.67%*2+87.67%*2",
+                          "92.50%*2+92.50%*2",
+                          "97.34%*2+97.34%*2",
+                          "102.18%*2+102.18%*2",
+                          "107.02%*2+107.02%*2"
                         ]
                       },
                       {
-                        "label": "Plunging Attack DMG",
+                        "label": "Basic Attack - Unfurled Canopy Stage 4 DMG",
                         "values": [
-                          "52.80%",
-                          "57.13%",
-                          "61.46%",
-                          "67.53%",
-                          "71.86%",
-                          "76.83%",
-                          "83.76%",
-                          "90.69%",
-                          "97.62%",
-                          "104.98%",
-                          "113.64%",
-                          "122.30%",
-                          "130.95%",
-                          "139.61%",
-                          "148.27%",
-                          "156.93%",
-                          "165.59%",
-                          "174.25%",
-                          "182.91%",
-                          "191.57%"
+                          "53.95%+53.95%+71.93%",
+                          "58.37%+58.37%+77.83%",
+                          "62.80%+62.80%+83.73%",
+                          "68.99%+68.99%+91.98%",
+                          "73.41%+73.41%+97.88%",
+                          "78.50%+78.50%+104.66%",
+                          "85.58%+85.58%+114.10%",
+                          "92.65%+92.65%+123.54%",
+                          "99.73%+99.73%+132.97%",
+                          "107.25%+107.25%+143.00%",
+                          "116.10%+116.10%+154.80%",
+                          "124.95%+124.95%+166.59%",
+                          "133.79%+133.79%+178.39%",
+                          "142.64%+142.64%+190.18%",
+                          "151.49%+151.49%+201.98%",
+                          "160.33%+160.33%+213.78%",
+                          "169.18%+169.18%+225.57%",
+                          "178.03%+178.03%+237.37%",
+                          "186.87%+186.87%+249.16%",
+                          "195.72%+195.72%+260.96%"
                         ]
                       },
                       {
                         "label": "Dodge Counter DMG",
                         "values": [
-                          "37.34%*3",
-                          "40.40%*3",
-                          "43.46%*3",
-                          "47.75%*3",
-                          "50.81%*3",
-                          "54.33%*3",
-                          "59.23%*3",
-                          "64.12%*3",
-                          "69.02%*3",
-                          "74.23%*3",
-                          "80.35%*3",
-                          "86.47%*3",
-                          "92.60%*3",
-                          "98.72%*3",
-                          "104.84%*3",
-                          "110.96%*3",
-                          "117.09%*3",
-                          "123.21%*3",
-                          "129.33%*3",
-                          "135.45%*3"
+                          "13.92%*2+27.83%",
+                          "15.06%*2+30.11%",
+                          "16.20%*2+32.39%",
+                          "17.79%*2+35.58%",
+                          "18.94%*2+37.87%",
+                          "20.25%*2+40.49%",
+                          "22.07%*2+44.14%",
+                          "23.90%*2+47.79%",
+                          "25.72%*2+51.44%",
+                          "27.66%*2+55.32%",
+                          "29.94%*2+59.88%",
+                          "32.22%*2+64.44%",
+                          "34.51%*2+69.01%",
+                          "36.79%*2+73.57%",
+                          "39.07%*2+78.13%",
+                          "41.35%*2+82.69%",
+                          "43.63%*2+87.26%",
+                          "45.91%*2+91.82%",
+                          "48.19%*2+96.38%",
+                          "50.48%*2+100.95%"
                         ]
                       },
                       {
-                        "label": "Heavy Attack STA Cost",
+                        "label": "Dodge Counter - Unfurled Canopy DMG",
                         "values": [
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20"
+                          "87.54%+29.18%*3",
+                          "94.72%+31.58%*3",
+                          "101.90%+33.97%*3",
+                          "111.95%+37.32%*3",
+                          "119.13%+39.71%*3",
+                          "127.38%+42.46%*3",
+                          "138.87%+46.29%*3",
+                          "150.35%+50.12%*3",
+                          "161.84%+53.95%*3",
+                          "174.04%+58.02%*3",
+                          "188.40%+62.80%*3",
+                          "202.76%+67.59%*3",
+                          "217.11%+72.37%*3",
+                          "231.47%+77.16%*3",
+                          "245.83%+81.95%*3",
+                          "260.18%+86.73%*3",
+                          "274.54%+91.52%*3",
+                          "288.90%+96.30%*3",
+                          "303.25%+101.09%*3",
+                          "317.61%+105.87%*3"
                         ]
                       },
                       {
-                        "label": "Mid-air Attack STA Cost",
+                        "label": "Plunging Attack DMG",
                         "values": [
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30"
+                          "42.35%",
+                          "45.83%",
+                          "49.30%",
+                          "54.16%",
+                          "57.63%",
+                          "61.63%",
+                          "67.18%",
+                          "72.74%",
+                          "78.29%",
+                          "84.20%",
+                          "91.14%",
+                          "98.09%",
+                          "105.03%",
+                          "111.98%",
+                          "118.92%",
+                          "125.87%",
+                          "132.81%",
+                          "139.76%",
+                          "146.70%",
+                          "153.65%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Unfurled Canopy: Whirling Thunder Stage 1 DMG",
+                        "values": [
+                          "36.88%+18.44%*2+36.88%+36.88%",
+                          "39.90%+19.95%*2+39.90%+39.90%",
+                          "42.93%+21.47%*2+42.93%+42.93%",
+                          "47.16%+23.58%*2+47.16%+47.16%",
+                          "50.18%+25.09%*2+50.18%+50.18%",
+                          "53.66%+26.83%*2+53.66%+53.66%",
+                          "58.50%+29.25%*2+58.50%+58.50%",
+                          "63.34%+31.67%*2+63.34%+63.34%",
+                          "68.18%+34.09%*2+68.18%+68.18%",
+                          "73.32%+36.66%*2+73.32%+73.32%",
+                          "79.36%+39.68%*2+79.36%+79.36%",
+                          "85.41%+42.71%*2+85.41%+85.41%",
+                          "91.46%+45.73%*2+91.46%+91.46%",
+                          "97.51%+48.76%*2+97.51%+97.51%",
+                          "103.55%+51.78%*2+103.55%+103.55%",
+                          "109.60%+54.80%*2+109.60%+109.60%",
+                          "115.65%+57.83%*2+115.65%+115.65%",
+                          "121.70%+60.85%*2+121.70%+121.70%",
+                          "127.74%+63.87%*2+127.74%+127.74%",
+                          "133.79%+66.90%*2+133.79%+133.79%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2 DMG",
+                        "values": [
+                          "28.51%*5",
+                          "30.85%*5",
+                          "33.19%*5",
+                          "36.46%*5",
+                          "38.80%*5",
+                          "41.49%*5",
+                          "45.23%*5",
+                          "48.97%*5",
+                          "52.71%*5",
+                          "56.69%*5",
+                          "61.36%*5",
+                          "66.04%*5",
+                          "70.71%*5",
+                          "75.39%*5",
+                          "80.06%*5",
+                          "84.74%*5",
+                          "89.42%*5",
+                          "94.09%*5",
+                          "98.77%*5",
+                          "103.44%*5"
                         ]
                       }
                     ]
@@ -550,521 +667,132 @@
                 ]
               },
               {
-                "name": "Restless Watch",
+                "name": "Furled Canopy: Rift Cleaver",
                 "type": "Resonance Skill",
-                "desc": "Standard Defense Protocol\nAttack the target to deal Spectro DMG and enter a block stance. This state ends early if Zani is switched off the field. Normal Attack within a certain time to perform Basic Attack Stage 3, recovering 10 points of Redundant Energy and Stagnating the target on hit.\nWhen attacked by an enemy while in block stance, reduce this instance of damage by 100% and Stagnate nearby targets, then cast Pinpoint Strike, dealing Spectro DMG and further reducing their Vibration Strength by {0}. DMG taken by Zani is reduced by {3} within the next {2}s.\n\nCrisis Response Protocol\nWhen Zani is not in Inferno Mode and has full Redundant Energy, her Resonance Skill is replaced with Resonance Skill Crisis Response Protocol.\nHold Resonance Skill to enter Ready Stance. While in Ready Stance, Zani is immune to interruption. This state ends early if Zani is switched off the field. After releasing Resonance Skill button or when the stance duration ends, consume all Redundant Energy to cast Targeted Action, dealing Spectro DMG, which is also considered Spectro Frazzle DMG.\nWhen attacked by an enemy in while in Ready Stance, reduce this instance of damage by 100% and consume all Redundant Energy to cast Forcible Riposte, dealing Spectro DMG (also considered Spectro Frazzle DMG), Stagnating the target, and further reducing their Vibration Strength by {1}. DMG taken by Zani is reduced by {3} within the next {2}s.\nCasting Targeted Action or Forcible Riposte sends Zani into Sunburst mode and inflicts a stack of Heliacal Ember upon the target on hit. The last stage of the attack recovers Blaze.\n\nSunburst\nThe Spectro Frazzle DMG dealt by Zani to the target is Amplified by {4}.",
+                "desc": "Attack targets within range, dealing Electro DMG.\n- Upon being attacked by an enemy target, cast Resonance Skill to become immune to this damage and stagnate nearby targets. This Resonance Skill is immune to interruption and triggers Resonance Skill - Unfurled Canopy: Crimson Gleam.\n- Entering the Deep Mind state resets the Cooldown of Resonance Skill.\n- While in the Awakened Mind state, Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.\n- While in the Deep Mind state, Normal Attack shortly after casting this skill to chain into Basic Attack - Unfurled Canopy Stage 3.\n\nResonance Skill - Unfurled Canopy: Crimson Gleam\nAttack targets within range, dealing Electro DMG.\n- While in the Awakened Mind state, Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.\n- While in the Deep Mind state, Normal Attack shortly after casting this skill to chain into Basic Attack - Unfurled Canopy Stage 4.",
                 "descFormat": [
                   {
-                    "start": 0,
-                    "end": 25,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 52,
-                    "end": 63,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 147,
-                    "end": 160,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 194,
-                    "end": 214,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 418,
-                    "end": 433,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 443,
-                    "end": 454,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 568,
-                    "end": 592,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 613,
-                    "end": 625,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 661,
-                    "end": 676,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 710,
-                    "end": 734,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 741,
-                    "end": 756,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 766,
-                    "end": 778,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 789,
-                    "end": 801,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 908,
-                    "end": 923,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1002,
-                    "end": 1017,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1027,
-                    "end": 1038,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1065,
-                    "end": 1084,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1124,
-                    "end": 1136,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1218,
-                    "end": 1234,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1244,
-                    "end": 1255,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1273,
-                    "end": 1292,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1438,
-                    "end": 1453,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1457,
-                    "end": 1473,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1490,
-                    "end": 1498,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1613,
-                    "end": 1621,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1626,
-                    "end": 1641,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniB1.webp",
-                "scaling": [
-                  {
-                    "title": "Skill Level Scaling",
-                    "columns": [
-                      "Lv. 1",
-                      "Lv. 2",
-                      "Lv. 3",
-                      "Lv. 4",
-                      "Lv. 5",
-                      "Lv. 6",
-                      "Lv. 7",
-                      "Lv. 8",
-                      "Lv. 9",
-                      "Lv. 10",
-                      "Lv. 11",
-                      "Lv. 12",
-                      "Lv. 13",
-                      "Lv. 14",
-                      "Lv. 15",
-                      "Lv. 16",
-                      "Lv. 17",
-                      "Lv. 18",
-                      "Lv. 19",
-                      "Lv. 20"
-                    ],
-                    "rows": [
-                      {
-                        "label": "Standard Defense Protocol DMG",
-                        "values": [
-                          "32.16%",
-                          "34.80%",
-                          "37.44%",
-                          "41.13%",
-                          "43.77%",
-                          "46.80%",
-                          "51.02%",
-                          "55.24%",
-                          "59.46%",
-                          "63.94%",
-                          "69.22%",
-                          "74.49%",
-                          "79.77%",
-                          "85.04%",
-                          "90.31%",
-                          "95.59%",
-                          "100.86%",
-                          "106.14%",
-                          "111.41%",
-                          "116.68%"
-                        ]
-                      },
-                      {
-                        "label": "Pinpoint Strike DMG",
-                        "values": [
-                          "30.68%+61.36%",
-                          "33.20%+66.40%",
-                          "35.72%+71.43%",
-                          "39.24%+78.47%",
-                          "41.75%+83.50%",
-                          "44.65%+89.29%",
-                          "48.67%+97.34%",
-                          "52.70%+105.39%",
-                          "56.72%+113.44%",
-                          "61.00%+121.99%",
-                          "66.03%+132.06%",
-                          "71.06%+142.12%",
-                          "76.09%+152.18%",
-                          "81.13%+162.25%",
-                          "86.16%+172.31%",
-                          "91.19%+182.37%",
-                          "96.22%+192.44%",
-                          "101.25%+202.50%",
-                          "106.28%+212.56%",
-                          "111.32%+222.63%"
-                        ]
-                      },
-                      {
-                        "label": "Targeted Action DMG",
-                        "values": [
-                          "43.35%+14.45%+86.70%",
-                          "46.91%+15.64%+93.81%",
-                          "50.46%+16.82%+100.92%",
-                          "55.44%+18.48%+110.88%",
-                          "59.00%+19.67%+117.99%",
-                          "63.08%+21.03%+126.16%",
-                          "68.77%+22.93%+137.54%",
-                          "74.46%+24.82%+148.91%",
-                          "80.15%+26.72%+160.29%",
-                          "86.19%+28.73%+172.37%",
-                          "93.30%+31.10%+186.59%",
-                          "100.41%+33.47%+200.81%",
-                          "107.52%+35.84%+215.03%",
-                          "114.63%+38.21%+229.25%",
-                          "121.74%+40.58%+243.47%",
-                          "128.85%+42.95%+257.69%",
-                          "135.95%+45.32%+271.90%",
-                          "143.06%+47.69%+286.12%",
-                          "150.17%+50.06%+300.34%",
-                          "157.28%+52.43%+314.56%"
-                        ]
-                      },
-                      {
-                        "label": "Forcible Riposte DMG",
-                        "values": [
-                          "43.35%+14.45%+86.70%",
-                          "46.91%+15.64%+93.81%",
-                          "50.46%+16.82%+100.92%",
-                          "55.44%+18.48%+110.88%",
-                          "59.00%+19.67%+117.99%",
-                          "63.08%+21.03%+126.16%",
-                          "68.77%+22.93%+137.54%",
-                          "74.46%+24.82%+148.91%",
-                          "80.15%+26.72%+160.29%",
-                          "86.19%+28.73%+172.37%",
-                          "93.30%+31.10%+186.59%",
-                          "100.41%+33.47%+200.81%",
-                          "107.52%+35.84%+215.03%",
-                          "114.63%+38.21%+229.25%",
-                          "121.74%+40.58%+243.47%",
-                          "128.85%+42.95%+257.69%",
-                          "135.95%+45.32%+271.90%",
-                          "143.06%+47.69%+286.12%",
-                          "150.17%+50.06%+300.34%",
-                          "157.28%+52.43%+314.56%"
-                        ]
-                      },
-                      {
-                        "label": "Standard Defense Protocol Cooldown",
-                        "values": [
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5"
-                        ]
-                      },
-                      {
-                        "label": "Standard Defense Protocol Concerto Regen",
-                        "values": [
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5"
-                        ]
-                      },
-                      {
-                        "label": "Pinpoint Strike Concerto Regen",
-                        "values": [
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5",
-                          "5"
-                        ]
-                      },
-                      {
-                        "label": "Targeted Action Concerto Regen",
-                        "values": [
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10"
-                        ]
-                      },
-                      {
-                        "label": "Forcible Riposte Concerto Regen",
-                        "values": [
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10"
-                        ]
-                      },
-                      {
-                        "label": "Sunburst Duration",
-                        "values": [
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14",
-                          "14"
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "name": "Between Dawn and Dusk",
-                "type": "Resonance Liberation",
-                "desc": "Rekindle\nDeal Spectro DMG and enter Inferno Mode, increasing Max Blaze from {0} to {1} and granting {2} Blazes. When in Inferno Mode, the DMG Multiplier of Basic Attack is increased.\n\nThe Last Stand\nWhen in Inferno Mode, Resonance Liberation The Last Stand becomes available when Blaze is lower than {3} or after {4}s in Inferno Mode.\nCasting Resonance Liberation The Last Stand deals Spectro DMG and ends the Inferno Mode.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 8,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 14,
-                    "end": 25,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 36,
+                    "start": 37,
                     "end": 48,
                     "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "electro"
                   },
                   {
-                    "start": 120,
-                    "end": 132,
+                    "start": 97,
+                    "end": 112,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 184,
-                    "end": 198,
+                    "start": 179,
+                    "end": 194,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 234,
+                    "end": 282,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 299,
+                    "end": 308,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 338,
+                    "end": 353,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 370,
+                    "end": 383,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 391,
+                    "end": 404,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 446,
+                    "end": 466,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 483,
+                    "end": 492,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 500,
+                    "end": 513,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 561,
+                    "end": 599,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 602,
+                    "end": 650,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 207,
-                    "end": 219,
+                    "start": 688,
+                    "end": 699,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 716,
+                    "end": 729,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 242,
-                    "end": 256,
+                    "start": 737,
+                    "end": 750,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 321,
-                    "end": 333,
+                    "start": 792,
+                    "end": 812,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 364,
-                    "end": 378,
+                    "start": 829,
+                    "end": 838,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 385,
-                    "end": 396,
+                    "start": 846,
+                    "end": 859,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 410,
-                    "end": 422,
+                    "start": 907,
+                    "end": 945,
                     "kind": "tone",
                     "tone": "spectro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniC1.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingB1.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1092,82 +820,228 @@
                     ],
                     "rows": [
                       {
-                        "label": "Rekindle DMG",
+                        "label": "Resonance Skill - Furled Canopy: Rift Cleaver DMG",
                         "values": [
-                          "160.22%",
-                          "173.35%",
-                          "186.49%",
-                          "204.88%",
-                          "218.02%",
-                          "233.13%",
-                          "254.15%",
-                          "275.17%",
-                          "296.19%",
-                          "318.52%",
-                          "344.80%",
-                          "371.07%",
-                          "397.35%",
-                          "423.62%",
-                          "449.90%",
-                          "476.17%",
-                          "502.45%",
-                          "528.72%",
-                          "555.00%",
-                          "581.27%"
+                          "53.62%",
+                          "58.02%",
+                          "62.42%",
+                          "68.57%",
+                          "72.97%",
+                          "78.03%",
+                          "85.06%",
+                          "92.10%",
+                          "99.13%",
+                          "106.61%",
+                          "115.40%",
+                          "124.19%",
+                          "132.99%",
+                          "141.78%",
+                          "150.58%",
+                          "159.37%",
+                          "168.16%",
+                          "176.96%",
+                          "185.75%",
+                          "194.54%"
                         ]
                       },
                       {
-                        "label": "The Last Stand DMG",
+                        "label": "Resonance Skill - Unfurled Canopy: Crimson Gleam DMG",
                         "values": [
-                          "96.13%+544.73%",
-                          "104.01%+589.39%",
-                          "111.90%+634.06%",
-                          "122.93%+696.59%",
-                          "130.81%+741.26%",
-                          "139.88%+792.63%",
-                          "152.49%+864.10%",
-                          "165.10%+935.56%",
-                          "177.72%+1007.03%",
-                          "191.12%+1082.96%",
-                          "206.88%+1172.30%",
-                          "222.65%+1261.63%",
-                          "238.41%+1350.97%",
-                          "254.17%+1440.30%",
-                          "269.94%+1529.64%",
-                          "285.70%+1618.97%",
-                          "301.47%+1708.30%",
-                          "317.23%+1797.64%",
-                          "333.00%+1886.97%",
-                          "348.76%+1976.31%"
+                          "23.77%+11.89%*2+31.69%",
+                          "25.72%+12.86%*2+34.29%",
+                          "27.67%+13.84%*2+36.89%",
+                          "30.40%+15.20%*2+40.53%",
+                          "32.34%+16.17%*2+43.12%",
+                          "34.59%+17.30%*2+46.11%",
+                          "37.70%+18.85%*2+50.27%",
+                          "40.82%+20.41%*2+54.43%",
+                          "43.94%+21.97%*2+58.58%",
+                          "47.25%+23.63%*2+63.00%",
+                          "51.15%+25.58%*2+68.20%",
+                          "55.05%+27.53%*2+73.40%",
+                          "58.95%+29.48%*2+78.59%",
+                          "62.84%+31.42%*2+83.79%",
+                          "66.74%+33.37%*2+88.99%",
+                          "70.64%+35.32%*2+94.18%",
+                          "74.54%+37.27%*2+99.38%",
+                          "78.43%+39.22%*2+104.58%",
+                          "82.33%+41.17%*2+109.77%",
+                          "86.23%+43.12%*2+114.97%"
                         ]
                       },
                       {
-                        "label": "Basic Attack Multiplier Increase",
+                        "label": "Resonance Skill - Furled Canopy: Rift Cleaver Cooldown",
                         "values": [
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%",
-                          "25%"
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Umbral Canopy: Miasma Lock",
+                "type": "Resonance Liberation",
+                "desc": "While in the Deep Mind state, Resonance Liberation becomes available. Casting Resonance Liberation deals Electro DMG to targets within range.\n- Casting Resonance Liberation grants Suoming Unison for {0}s, triggered only once every {1}s.\n\nBlight Rain, Miasmic Thunder\nWhile casting Outro Skill, if Suoming has Unison, when the active Resonator deals damage, a Thunder Crest is summoned as a Coordinated Attack on the target, dealing Electro DMG.\n- Within {2}s after this damage is dealt, a Thunder Crest can be summoned each second. This effect is triggered once per second. The damage dealt by Thunder Crest does not trigger this effect.\n- Only 1 Thunder Crest can be summoned per second, up to {3} in total.\n- This effect lasts {4}s, or until the number of summoned Thunder Crest reaches the limit.",
+                "descFormat": [
+                  {
+                    "start": 13,
+                    "end": 22,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 30,
+                    "end": 50,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 105,
+                    "end": 116,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 152,
+                    "end": 172,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 188,
+                    "end": 194,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 238,
+                    "end": 266,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 281,
+                    "end": 292,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 309,
+                    "end": 315,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 359,
+                    "end": 372,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 432,
+                    "end": 443,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 489,
+                    "end": 502,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 594,
+                    "end": 607,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 647,
+                    "end": 660,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 767,
+                    "end": 780,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingC1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Resonance Liberation - Umbral Canopy: Miasma Lock DMG",
+                        "values": [
+                          "35.00%*7+105.00%",
+                          "37.87%*7+113.61%",
+                          "40.74%*7+122.22%",
+                          "44.76%*7+134.28%",
+                          "47.63%*7+142.89%",
+                          "50.93%*7+152.79%",
+                          "55.53%*7+166.57%",
+                          "60.12%*7+180.34%",
+                          "64.71%*7+194.12%",
+                          "69.59%*7+208.76%",
+                          "75.33%*7+225.98%",
+                          "81.07%*7+243.20%",
+                          "86.81%*7+260.42%",
+                          "92.55%*7+277.64%",
+                          "98.29%*7+294.86%",
+                          "104.03%*7+312.08%",
+                          "109.77%*7+329.30%",
+                          "115.51%*7+346.52%",
+                          "121.25%*7+363.74%",
+                          "126.99%*7+380.96%"
                         ]
                       },
                       {
-                        "label": "Cooldown",
+                        "label": "Resonance Liberation - Umbral Canopy: Miasma Lock Cooldown",
                         "values": [
                           "25",
                           "25",
@@ -1217,7 +1091,7 @@
                         ]
                       },
                       {
-                        "label": "Rekindle Concerto Regen",
+                        "label": "Concerto Regen",
                         "values": [
                           "20",
                           "20",
@@ -1242,53 +1116,28 @@
                         ]
                       },
                       {
-                        "label": "The Last Stand Concerto Regen",
+                        "label": "Resonance Liberation - Blight Rain, Miasmic Thunder DMG",
                         "values": [
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10",
-                          "10"
-                        ]
-                      },
-                      {
-                        "label": "Inferno Mode Duration",
-                        "values": [
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20",
-                          "20"
+                          "30.00%",
+                          "32.46%",
+                          "34.92%",
+                          "38.37%",
+                          "40.83%",
+                          "43.66%",
+                          "47.59%",
+                          "51.53%",
+                          "55.47%",
+                          "59.65%",
+                          "64.57%",
+                          "69.49%",
+                          "74.41%",
+                          "79.33%",
+                          "84.25%",
+                          "89.17%",
+                          "94.09%",
+                          "99.01%",
+                          "103.93%",
+                          "108.85%"
                         ]
                       }
                     ]
@@ -1296,294 +1145,348 @@
                 ]
               },
               {
-                "name": "There Will Be A Light",
+                "name": "Bound Obsession, Forged Mind",
                 "type": "Forte Circuit",
-                "desc": "Heliacal Ember\nWhen Zani is in the team and a nearby Resonator inflicts Spectro Frazzle upon a target, immediately trigger the DMG of all Spectro Frazzle stacks and convert Spectro Frazzle into an equal number of Heliacal Embers. Every time the conversion happens, Zani obtains Blaze based on the stacks of Heliacal Ember inflicted. Heliacal Ember is capped at {0} stacks, with each stack lasting for {1}s. Heliacal Ember stacks are counted toward the Spectro Frazzle stacks for the Eternal Radiance Sonata Effect.\n\nScorching Light\nWhen Zani is in Inferno Mode, Heavy Slash - Daybreak, Heavy Slash - Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash become available, which deal Spectro DMG that is considered both Heavy Attack DMG and Spectro Frazzle DMG.\nWhen Blaze is no less than {2}, Resonance Skill Standard Defense Protocol is replaced with Resonance Skill Scorching Light.\nHold Resonance Skill to enter Ready Stance, during which Zani is immune to interruption. This state ends early when Zani is switched off the field. While in Ready Stance, release Resonance Skill button within a certain time to consume Blaze and perform Heavy Slash - Daybreak.\nWhen attacked in a certain time after entering Ready Stance, reduce this instance of damage by 100% and Stagnate nearby targets, then perform Heavy Slash - Lightsmash, consuming Blazes and further reducing their Vibration Strength by {3}. Zani's DMG taken within the next {4}s is reduced by {5}.\nAfter casting Heavy Slash - Lightsmash, Basic Attack is replaced with Heavy Slash - Nightfall, consuming up to {6} Blazes on hit, with each Blaze increasing the DMG Multiplier of Heavy Slash - Nightfall. If Heavy Slash - Nightfall Stage 1 is interrupted, Basic Attack again to cast Heavy Slash - Nightfall Stage 2.\nUpon releasing the button after a certain time or when Ready Stance ends, immediately perform Heavy Slash - Nightfall.\nWhen Blaze is no less than {2}, Basic Attack is replaced with Heavy Slash - Daybreak. After entering Inferno Mode, casting Basic Attack immediately replaces the current Basic Attack with Resonance Skill Scorching Light. Hold Basic Attack to enter Ready Stance.\nAfter performing Heavy Slash - Daybreak, Basic Attack immediately to perform Heavy Slash - Dawning at the cost of Blaze.\nAfter performing Heavy Slash - Dawning, Basic Attack is replaced with Heavy Slash - Nightfall.\nIf Basic Attack is not replaced with Heavy Slash - Nightfall after a successful Dodge and Zani has no less than {2} Blazes, Normal Attack within a certain time to perform Heavy Slash - Lightsmash at the cost of Blazes.\n\nRe",
+                "desc": "Resonance Skill - Furled Canopy: Sealed Delusion\nWhile in the Awakened Mind state, when Delusion reaches {4} points, Resonance Skill is replaced with Resonance Skill - Furled Canopy: Sealed Delusion, dealing Electro DMG, considered Basic Attack DMG.\n- Casting this skill sends Suoming into Deep Mind and clears all Delusion.\n\nResonance Skill - Unfurled Canopy: Unforsaken Mind\nWhile in the Deep Mind state, when Delusion reaches {4} points, Resonance Skill is replaced with Resonance Skill - Unfurled Canopy: Unforsaken Mind, dealing Electro DMG, considered Basic Attack DMG.\n\nBasic Attack - Umbral Canopy: Engraved Heart\nAfter casting Resonance Skill - Unfurled Canopy: Unforsaken Mind, Basic Attack is replaced with Basic Attack - Umbral Canopy: Engraved Heart. or hold Normal Attack or Resonance Skill to cast this skill. Attack targets within range, dealing Electro DMG, considered Basic Attack DMG.\n- Casting this skill sends Suoming into Calamity Mind and clears all Delusion; she enters Awakened Mind once the skill ends.\n- When casting this skill, hold Normal Attack or Resonance Skill to continuously attack the target for a certain period.\n- While casting this skill, Suoming is immune to interruption. During this time she cannot move, sprint, jump, dodge, or cast Basic Attack, Resonance Skill, Resonance Liberation, Dodge Counter, Plunging Attack, Mid-air Attack, or Intro Skill, and Resonator switching is also restricted.\n\nUnison\nWhen Suoming has Unison, switching to another Resonator will remove her Unison to trigger Suoming's Outro Skill and the incoming Resonator's Intro Skill. When Suoming's Concerto Energy is full and she has Unison, only the Unison effect is consumed.\n\nUnison Response\nSuoming can trigger Unison Response.\nWhen a Resonator in the team has Unison, swiching to Suoming grants all Resonators in the team {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Unison Boon for {1}s.\nSuoming can grant up to {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Unison Boon this way. Gaining it again only resets the duration.\n\nUnison Boon\nEach stack of Unison Boon increases DMG dealt by Resonators in the team who can trigger Unison Response by {2}%, up to {3} stacks.\n\nDelusion Gain Rules\nCan hold up to {4} points of Delusion.\n- Hitting a target with Basic Attack, Basic Attack - Unfurled Canopy, or Basic Attack - Unfurled Canopy: Whirling Thunder grants Delusion.\n- Casting Resonance Liberation grants {5} {Cus:Sap,S=point P=points SapTag=5} of Delusion.\n- Casting Intro Skill - Unfurled Canopy: Thunder Rending or Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) grants {6",
                 "descFormat": [
                   {
                     "start": 0,
-                    "end": 14,
+                    "end": 48,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 72,
-                    "end": 87,
+                    "start": 62,
+                    "end": 75,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 516,
-                    "end": 531,
+                    "start": 88,
+                    "end": 96,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 548,
-                    "end": 560,
+                    "start": 117,
+                    "end": 132,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 562,
-                    "end": 584,
+                    "start": 150,
+                    "end": 198,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 586,
-                    "end": 607,
+                    "start": 208,
+                    "end": 219,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 232,
+                    "end": 248,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 609,
-                    "end": 632,
+                    "start": 290,
+                    "end": 299,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 638,
-                    "end": 662,
+                    "start": 315,
+                    "end": 323,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 692,
-                    "end": 703,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 749,
-                    "end": 764,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 818,
-                    "end": 843,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 877,
-                    "end": 892,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 899,
-                    "end": 914,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 924,
-                    "end": 936,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1051,
-                    "end": 1063,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1073,
-                    "end": 1088,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1147,
-                    "end": 1169,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1218,
-                    "end": 1230,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1313,
-                    "end": 1337,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1481,
-                    "end": 1505,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1507,
-                    "end": 1519,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1537,
-                    "end": 1560,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1646,
-                    "end": 1669,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1674,
-                    "end": 1705,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1722,
-                    "end": 1734,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1749,
-                    "end": 1780,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1837,
-                    "end": 1849,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1876,
-                    "end": 1899,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1933,
-                    "end": 1945,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1963,
-                    "end": 1985,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2002,
-                    "end": 2014,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2024,
-                    "end": 2036,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2070,
-                    "end": 2082,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2104,
-                    "end": 2119,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2126,
-                    "end": 2138,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2148,
-                    "end": 2160,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2179,
-                    "end": 2201,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2203,
-                    "end": 2215,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2239,
-                    "end": 2260,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2300,
-                    "end": 2321,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2323,
-                    "end": 2335,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2353,
-                    "end": 2376,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2381,
-                    "end": 2393,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2415,
-                    "end": 2438,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2502,
-                    "end": 2515,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2549,
-                    "end": 2573,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2598,
-                    "end": 2600,
+                    "start": 326,
+                    "end": 376,
                     "kind": "tone",
                     "tone": "accent"
+                  },
+                  {
+                    "start": 390,
+                    "end": 399,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 412,
+                    "end": 420,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 441,
+                    "end": 456,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 474,
+                    "end": 524,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 534,
+                    "end": 545,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 558,
+                    "end": 574,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 577,
+                    "end": 621,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 636,
+                    "end": 686,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 688,
+                    "end": 700,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 718,
+                    "end": 762,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 772,
+                    "end": 785,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 789,
+                    "end": 804,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 862,
+                    "end": 873,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 886,
+                    "end": 902,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 944,
+                    "end": 957,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 973,
+                    "end": 981,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 994,
+                    "end": 1007,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1061,
+                    "end": 1074,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1078,
+                    "end": 1093,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1276,
+                    "end": 1288,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1290,
+                    "end": 1305,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1307,
+                    "end": 1327,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1329,
+                    "end": 1342,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1344,
+                    "end": 1359,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1361,
+                    "end": 1375,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1380,
+                    "end": 1391,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1438,
+                    "end": 1444,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1462,
+                    "end": 1468,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1517,
+                    "end": 1523,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1650,
+                    "end": 1656,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1667,
+                    "end": 1673,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1695,
+                    "end": 1710,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1731,
+                    "end": 1746,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1781,
+                    "end": 1787,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1886,
+                    "end": 1897,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1975,
+                    "end": 1986,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2041,
+                    "end": 2052,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2067,
+                    "end": 2078,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2141,
+                    "end": 2156,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2185,
+                    "end": 2204,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2268,
+                    "end": 2280,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2282,
+                    "end": 2312,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2317,
+                    "end": 2365,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 2393,
+                    "end": 2413,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2484,
+                    "end": 2530,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 2534,
+                    "end": 2590,
+                    "kind": "tone",
+                    "tone": "electro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniY.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingY.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1611,178 +1514,78 @@
                     ],
                     "rows": [
                       {
-                        "label": "Heavy Slash - Daybreak DMG",
+                        "label": "Resonance Skill - Furled Canopy: Sealed Delusion DMG",
                         "values": [
-                          "100.00%",
-                          "108.20%",
-                          "116.40%",
-                          "127.88%",
-                          "136.08%",
-                          "145.51%",
-                          "158.63%",
-                          "171.75%",
-                          "184.87%",
-                          "198.81%",
-                          "215.21%",
-                          "231.61%",
-                          "248.01%",
-                          "264.41%",
-                          "280.81%",
-                          "297.21%",
-                          "313.61%",
-                          "330.01%",
-                          "346.41%",
-                          "362.81%"
+                          "31.58%*2+15.79%*4",
+                          "34.17%*2+17.09%*4",
+                          "36.76%*2+18.38%*4",
+                          "40.39%*2+20.20%*4",
+                          "42.97%*2+21.49%*4",
+                          "45.95%*2+22.98%*4",
+                          "50.10%*2+25.05%*4",
+                          "54.24%*2+27.12%*4",
+                          "58.38%*2+29.19%*4",
+                          "62.78%*2+31.39%*4",
+                          "67.96%*2+33.98%*4",
+                          "73.14%*2+36.57%*4",
+                          "78.32%*2+39.16%*4",
+                          "83.50%*2+41.75%*4",
+                          "88.68%*2+44.34%*4",
+                          "93.86%*2+46.93%*4",
+                          "99.03%*2+49.52%*4",
+                          "104.21%*2+52.11%*4",
+                          "109.39%*2+54.70%*4",
+                          "114.57%*2+57.29%*4"
                         ]
                       },
                       {
-                        "label": "Heavy Slash - Dawning DMG",
+                        "label": "Resonance Skill - Unfurled Canopy: Unforsaken Mind DMG",
                         "values": [
-                          "213.30%",
-                          "230.80%",
-                          "248.29%",
-                          "272.77%",
-                          "290.26%",
-                          "310.38%",
-                          "338.36%",
-                          "366.35%",
-                          "394.33%",
-                          "424.07%",
-                          "459.05%",
-                          "494.03%",
-                          "529.01%",
-                          "563.99%",
-                          "598.97%",
-                          "633.95%",
-                          "668.94%",
-                          "703.92%",
-                          "738.90%",
-                          "773.88%"
+                          "76.79%",
+                          "83.09%",
+                          "89.39%",
+                          "98.20%",
+                          "104.50%",
+                          "111.74%",
+                          "121.82%",
+                          "131.89%",
+                          "141.97%",
+                          "152.67%",
+                          "165.26%",
+                          "177.86%",
+                          "190.45%",
+                          "203.05%",
+                          "215.64%",
+                          "228.23%",
+                          "240.83%",
+                          "253.42%",
+                          "266.01%",
+                          "278.61%"
                         ]
                       },
                       {
-                        "label": "Heavy Slash - Nightfall DMG",
+                        "label": "Basic Attack - Umbral Canopy: Engraved Heart DMG",
                         "values": [
-                          "68.00%+132.00%",
-                          "73.58%+142.83%",
-                          "79.16%+153.65%",
-                          "86.96%+168.81%",
-                          "92.54%+179.63%",
-                          "98.95%+192.08%",
-                          "107.87%+209.40%",
-                          "116.79%+226.71%",
-                          "125.72%+244.03%",
-                          "135.20%+262.43%",
-                          "146.35%+284.08%",
-                          "157.50%+305.73%",
-                          "168.65%+327.38%",
-                          "179.80%+349.03%",
-                          "190.96%+370.67%",
-                          "202.11%+392.32%",
-                          "213.26%+413.97%",
-                          "224.41%+435.62%",
-                          "235.56%+457.27%",
-                          "246.72%+478.91%"
-                        ]
-                      },
-                      {
-                        "label": "Additional Multiplier Per Blaze",
-                        "values": [
-                          "5.00%",
-                          "5.41%",
-                          "5.82%",
-                          "6.40%",
-                          "6.81%",
-                          "7.28%",
-                          "7.94%",
-                          "8.59%",
-                          "9.25%",
-                          "9.95%",
-                          "10.77%",
-                          "11.59%",
-                          "12.41%",
-                          "13.23%",
-                          "14.05%",
-                          "14.87%",
-                          "15.69%",
-                          "16.51%",
-                          "17.33%",
-                          "18.15%"
-                        ]
-                      },
-                      {
-                        "label": "Heavy Slash - Lightsmash DMG",
-                        "values": [
-                          "213.30%",
-                          "230.80%",
-                          "248.29%",
-                          "272.77%",
-                          "290.26%",
-                          "310.38%",
-                          "338.36%",
-                          "366.35%",
-                          "394.33%",
-                          "424.07%",
-                          "459.05%",
-                          "494.03%",
-                          "529.01%",
-                          "563.99%",
-                          "598.97%",
-                          "633.95%",
-                          "668.94%",
-                          "703.92%",
-                          "738.90%",
-                          "773.88%"
-                        ]
-                      },
-                      {
-                        "label": "Max Heliacal Ember Stacks",
-                        "values": [
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60",
-                          "60"
-                        ]
-                      },
-                      {
-                        "label": "Heliacal Ember Duration Per Stack",
-                        "values": [
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6"
+                          "78.04%+39.02%*2+78.04%+78.04%+39.02%*2",
+                          "84.44%+42.22%*2+84.44%+84.44%+42.22%*2",
+                          "90.83%+45.42%*2+90.83%+90.83%+45.42%*2",
+                          "99.79%+49.90%*2+99.79%+99.79%+49.90%*2",
+                          "106.19%+53.10%*2+106.19%+106.19%+53.10%*2",
+                          "113.55%+56.78%*2+113.55%+113.55%+56.78%*2",
+                          "123.79%+61.90%*2+123.79%+123.79%+61.90%*2",
+                          "134.03%+67.02%*2+134.03%+134.03%+67.02%*2",
+                          "144.26%+72.13%*2+144.26%+144.26%+72.13%*2",
+                          "155.14%+77.57%*2+155.14%+155.14%+77.57%*2",
+                          "167.94%+83.97%*2+167.94%+167.94%+83.97%*2",
+                          "180.74%+90.37%*2+180.74%+180.74%+90.37%*2",
+                          "193.53%+96.77%*2+193.53%+193.53%+96.77%*2",
+                          "206.33%+103.17%*2+206.33%+206.33%+103.17%*2",
+                          "219.13%+109.57%*2+219.13%+219.13%+109.57%*2",
+                          "231.92%+115.96%*2+231.92%+231.92%+115.96%*2",
+                          "244.72%+122.36%*2+244.72%+244.72%+122.36%*2",
+                          "257.52%+128.76%*2+257.52%+257.52%+128.76%*2",
+                          "270.32%+135.16%*2+270.32%+270.32%+135.16%*2",
+                          "283.11%+141.56%*2+283.11%+283.11%+141.56%*2"
                         ]
                       }
                     ]
@@ -1790,18 +1593,198 @@
                 ]
               },
               {
-                "name": "Immediate Execution",
+                "name": "Furled Canopy: Flash Rift",
                 "type": "Intro Skill",
-                "desc": "Attack the target, dealing Spectro DMG.",
+                "desc": "Attack the target, dealing Electro DMG, considered Basic Attack DMG.\n- While in the Awakened Mind state, casting this skill sends Suoming into the Deep Mind state and clears all Delusion.\n- While in the Deep Mind state, Intro Skill is replaced with Intro Skill - Unfurled Canopy: Thunder Rending.\n- While in the Awakened Mind state, triggering Unison Response replaces Intro Skill with Intro Skill - Furled Canopy: Sealed Delusion (Unison).\n- While in the Deep Mind state, triggering Unison Response replaces Intro Skill with Intro Skill - Unfurled Canopy: Whirling Thunder (Unison).\n\nIntro Skill - Unfurled Canopy: Thunder Rending\nDeal Electro DMG, considered Basic Attack DMG.\n- Normal Attack shortly after casting this skill to chain into Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2.\n\nIntro Skill - Furled Canopy: Sealed Delusion (Unison)\nAttack the target, dealing Electro DMG, considered Basic Attack DMG.\n- Casting this skill sends Suoming into the Deep Mind state and clears all Delusion.\n\nIntro Skill - Unfurled Canopy: Whirling Thunder (Unison)\nAttack the target, dealing Electro DMG, considered Basic Attack DMG.\n- While in the Deep Mind state, Normal Attack shortly after casting Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) to chain into Basic Attack - Unfurled Canopy: Whirling Thunder Stage 2.",
                 "descFormat": [
                   {
                     "start": 27,
                     "end": 38,
                     "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 51,
+                    "end": 67,
+                    "kind": "tone",
                     "tone": "spectro"
+                  },
+                  {
+                    "start": 84,
+                    "end": 97,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 147,
+                    "end": 156,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 178,
+                    "end": 186,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 203,
+                    "end": 212,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 220,
+                    "end": 231,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 249,
+                    "end": 295,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 312,
+                    "end": 325,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 369,
+                    "end": 380,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 386,
+                    "end": 439,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 456,
+                    "end": 465,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 509,
+                    "end": 520,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 526,
+                    "end": 582,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 585,
+                    "end": 631,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 637,
+                    "end": 648,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 661,
+                    "end": 677,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 681,
+                    "end": 694,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 742,
+                    "end": 798,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 801,
+                    "end": 854,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 882,
+                    "end": 893,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 906,
+                    "end": 922,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 968,
+                    "end": 977,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 999,
+                    "end": 1007,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1010,
+                    "end": 1066,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1094,
+                    "end": 1105,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1118,
+                    "end": 1134,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1151,
+                    "end": 1160,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1168,
+                    "end": 1181,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1204,
+                    "end": 1260,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1275,
+                    "end": 1331,
+                    "kind": "tone",
+                    "tone": "electro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniQTE.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingQTE.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -1829,32 +1812,182 @@
                     ],
                     "rows": [
                       {
-                        "label": "Skill DMG",
+                        "label": "Intro Skill - Furled Canopy: Flash Rift DMG",
                         "values": [
-                          "12.20%*5+40.64%",
-                          "13.20%*5+43.98%",
-                          "14.20%*5+47.31%",
-                          "15.60%*5+51.98%",
-                          "16.60%*5+55.31%",
-                          "17.75%*5+59.14%",
-                          "19.35%*5+64.47%",
-                          "20.94%*5+69.80%",
-                          "22.54%*5+75.14%",
-                          "24.24%*5+80.80%",
-                          "26.24%*5+87.47%",
-                          "28.24%*5+94.13%",
-                          "30.24%*5+100.80%",
-                          "32.24%*5+107.46%",
-                          "34.24%*5+114.13%",
-                          "36.24%*5+120.79%",
-                          "38.24%*5+127.46%",
-                          "40.24%*5+134.12%",
-                          "42.24%*5+140.79%",
-                          "44.24%*5+147.45%"
+                          "55.78%*2+18.60%*4",
+                          "60.35%*2+20.12%*4",
+                          "64.92%*2+21.64%*4",
+                          "71.33%*2+23.78%*4",
+                          "75.90%*2+25.30%*4",
+                          "81.16%*2+27.06%*4",
+                          "88.48%*2+29.50%*4",
+                          "95.80%*2+31.94%*4",
+                          "103.11%*2+34.37%*4",
+                          "110.89%*2+36.97%*4",
+                          "120.03%*2+40.01%*4",
+                          "129.18%*2+43.06%*4",
+                          "138.33%*2+46.11%*4",
+                          "147.47%*2+49.16%*4",
+                          "156.62%*2+52.21%*4",
+                          "165.77%*2+55.26%*4",
+                          "174.92%*2+58.31%*4",
+                          "184.06%*2+61.36%*4",
+                          "193.21%*2+64.41%*4",
+                          "202.36%*2+67.46%*4"
                         ]
                       },
                       {
-                        "label": "Concerto Regen",
+                        "label": "Intro Skill - Unfurled Canopy: Thunder Rending DMG",
+                        "values": [
+                          "66.11%+33.06%*2+66.11%+66.11%",
+                          "71.53%+35.77%*2+71.53%+71.53%",
+                          "76.95%+38.48%*2+76.95%+76.95%",
+                          "84.54%+42.27%*2+84.54%+84.54%",
+                          "89.96%+44.98%*2+89.96%+89.96%",
+                          "96.19%+48.10%*2+96.19%+96.19%",
+                          "104.87%+52.44%*2+104.87%+104.87%",
+                          "113.54%+56.77%*2+113.54%+113.54%",
+                          "122.21%+61.11%*2+122.21%+122.21%",
+                          "131.43%+65.72%*2+131.43%+131.43%",
+                          "142.27%+71.14%*2+142.27%+142.27%",
+                          "153.11%+76.56%*2+153.11%+153.11%",
+                          "163.95%+81.98%*2+163.95%+163.95%",
+                          "174.79%+87.40%*2+174.79%+174.79%",
+                          "185.63%+92.82%*2+185.63%+185.63%",
+                          "196.48%+98.24%*2+196.48%+196.48%",
+                          "207.32%+103.66%*2+207.32%+207.32%",
+                          "218.16%+109.08%*2+218.16%+218.16%",
+                          "229.00%+114.50%*2+229.00%+229.00%",
+                          "239.84%+119.92%*2+239.84%+239.84%"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Furled Canopy: Sealed Delusion (Unison) DMG",
+                        "values": [
+                          "55.78%*2+18.60%*4",
+                          "60.35%*2+20.12%*4",
+                          "64.92%*2+21.64%*4",
+                          "71.33%*2+23.78%*4",
+                          "75.90%*2+25.30%*4",
+                          "81.16%*2+27.06%*4",
+                          "88.48%*2+29.50%*4",
+                          "95.80%*2+31.94%*4",
+                          "103.11%*2+34.37%*4",
+                          "110.89%*2+36.97%*4",
+                          "120.03%*2+40.01%*4",
+                          "129.18%*2+43.06%*4",
+                          "138.33%*2+46.11%*4",
+                          "147.47%*2+49.16%*4",
+                          "156.62%*2+52.21%*4",
+                          "165.77%*2+55.26%*4",
+                          "174.92%*2+58.31%*4",
+                          "184.06%*2+61.36%*4",
+                          "193.21%*2+64.41%*4",
+                          "202.36%*2+67.46%*4"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) DMG",
+                        "values": [
+                          "66.11%+33.06%*2+66.11%+66.11%",
+                          "71.53%+35.77%*2+71.53%+71.53%",
+                          "76.95%+38.48%*2+76.95%+76.95%",
+                          "84.54%+42.27%*2+84.54%+84.54%",
+                          "89.96%+44.98%*2+89.96%+89.96%",
+                          "96.19%+48.10%*2+96.19%+96.19%",
+                          "104.87%+52.44%*2+104.87%+104.87%",
+                          "113.54%+56.77%*2+113.54%+113.54%",
+                          "122.21%+61.11%*2+122.21%+122.21%",
+                          "131.43%+65.72%*2+131.43%+131.43%",
+                          "142.27%+71.14%*2+142.27%+142.27%",
+                          "153.11%+76.56%*2+153.11%+153.11%",
+                          "163.95%+81.98%*2+163.95%+163.95%",
+                          "174.79%+87.40%*2+174.79%+174.79%",
+                          "185.63%+92.82%*2+185.63%+185.63%",
+                          "196.48%+98.24%*2+196.48%+196.48%",
+                          "207.32%+103.66%*2+207.32%+207.32%",
+                          "218.16%+109.08%*2+218.16%+218.16%",
+                          "229.00%+114.50%*2+229.00%+229.00%",
+                          "239.84%+119.92%*2+239.84%+239.84%"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Furled Canopy: Flash Rift Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Unfurled Canopy: Thunder Rending Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Furled Canopy: Sealed Delusion (Unison) Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) Concerto Regen",
                         "values": [
                           "10",
                           "10",
@@ -1883,30 +2016,18 @@
                 ]
               },
               {
-                "name": "Beacon For the Future",
+                "name": "Canopy Rumble",
                 "type": "Outro Skill",
-                "desc": "Attack the target, dealing Spectro DMG equal to {0} of Zani's ATK and removing all stacks of Heliacal Ember inflicted upon the target. Each stack increases the DMG dealt by {1}. This DMG is considered Spectro Frazzle DMG. The Spectro DMG dealt by other Resonators in the team to the target marked by Heliacal Ember is Amplified by {2} for {3}s.",
+                "desc": "The incoming Resonator gains {0}% Electro DMG Amplification. While having Unison Boon, they gain {1}% Resonance Skill DMG Amplification for {2}s or until the Resonator is switched out.",
                 "descFormat": [
                   {
-                    "start": 27,
-                    "end": 38,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 201,
-                    "end": 216,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 300,
-                    "end": 314,
+                    "start": 74,
+                    "end": 85,
                     "kind": "tone",
                     "tone": "spectro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniT.webp"
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingT.webp"
               },
               {
                 "name": "ATK+",
@@ -1919,21 +2040,51 @@
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
               },
               {
-                "name": "Quick Response",
+                "name": "Rain-Soaked Covenant",
                 "type": "Inherent Skill",
-                "desc": "Casting Intro Skill Immediate Execution gives {0} Spectro DMG Bonus for {1}s.",
+                "desc": "Casting Intro Skill - Furled Canopy: Flash Rift, Intro Skill - Unfurled Canopy: Thunder Rending, Intro Skill - Furled Canopy: Sealed Delusion (Unison), or Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) grants {0}% Electro DMG Bonus for {1}s. Switching to another Resonator ends this effect early.\n- When Suoming casts Intro Skill - Furled Canopy: Sealed Delusion (Unison) or Intro Skill - Unfurled Canopy: Whirling Thunder (Unison), she additionally gains {2} points of Concerto Energy, triggered only once every {3}s.",
                 "descFormat": [
                   {
-                    "start": 20,
-                    "end": 39,
+                    "start": 8,
+                    "end": 47,
                     "kind": "tone",
                     "tone": "spectro"
+                  },
+                  {
+                    "start": 49,
+                    "end": 95,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 97,
+                    "end": 150,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 155,
+                    "end": 211,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 328,
+                    "end": 381,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 385,
+                    "end": 441,
+                    "kind": "tone",
+                    "tone": "electro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconZanni/SP_IconZanniD1.webp"
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuoming/SP_IconSuomingD1.webp"
               },
               {
-                "name": "Tune Break: Gauntlets",
+                "name": "Tune Break - Sword",
                 "type": "Tune Break",
                 "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
                 "descFormat": [
@@ -1950,7 +2101,7 @@
                     "tone": "spectro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.webp"
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
               }
             ]
           },
@@ -1958,144 +2109,148 @@
             "title": "Resonance Chain",
             "entries": [
               {
-                "name": "When the Alarm Clock Rings",
+                "name": "Into the Blight Rain",
                 "type": "Sequence 1",
-                "desc": "Casting Targeted Action or Forcible Riposte gives a {0} Spectro DMG Bonus for {1}s.\nResonance Skill Heavy Slash - Nightfall can't be interrupted.",
+                "desc": "Resonance Liberation - Unfurled Canopy: Unforsaken Mind is immune to interruption.\nThe DMG Multipliers of Intro Skill - Furled Canopy: Flash Rift, Intro Skill - Unfurled Canopy: Thunder Rending, Intro Skill - Furled Canopy: Sealed Delusion (Unison), and Intro Skill - Unfurled Canopy: Whirling Thunder (Unison) are increased by {0}%.",
                 "descFormat": [
                   {
-                    "start": 8,
-                    "end": 23,
+                    "start": 0,
+                    "end": 55,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 27,
-                    "end": 43,
+                    "start": 106,
+                    "end": 145,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 100,
-                    "end": 123,
+                    "start": 147,
+                    "end": 193,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 195,
+                    "end": 248,
                     "kind": "tone",
                     "tone": "spectro"
+                  },
+                  {
+                    "start": 254,
+                    "end": 310,
+                    "kind": "tone",
+                    "tone": "electro"
                   }
                 ]
               },
               {
-                "name": "Stale Bread With Energy Drink",
+                "name": "Breaking Thunder, Slaying Evil",
                 "type": "Sequence 2",
-                "desc": "Crit. Rate is increased by {0}.\nThe DMG Multiplier of Targeted Action and Forcible Riposte is increased by {1}.",
+                "desc": "Crit. DMG is increased by {0}%.\nCasting Outro Skill increases the incoming Resonator's Crit. DMG by {1}%, plus an additional {2}% for each stack of Unison Boon they have, up to {3}%. This effect lasts for {4}s or until the Resonator is switched out.",
                 "descFormat": [
                   {
-                    "start": 54,
-                    "end": 69,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 74,
-                    "end": 90,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "Each Day A New Commute",
-                "type": "Sequence 3",
-                "desc": "When in Inferno Mode, every {0} Blazes consumed increases the last stage DMG Multiplier of the subsequent Resonance Liberation The Last Stand by {1}, maxed at {2}.",
-                "descFormat": [
-                  {
-                    "start": 8,
-                    "end": 20,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 127,
-                    "end": 141,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "More Efficiency, Less Drama",
-                "type": "Sequence 4",
-                "desc": "When Intro Skill Immediate Execution is cast, the ATK of all Resonators in the team is increased by {0} for {1}s.",
-                "descFormat": [
-                  {
-                    "start": 17,
-                    "end": 36,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "Delivered In Full On Time",
-                "type": "Sequence 5",
-                "desc": "The DMG Multiplier of Resonance Liberation Rekindle is increased by {0}.",
-                "descFormat": [
-                  {
-                    "start": 43,
+                    "start": 40,
                     "end": 51,
                     "kind": "tone",
                     "tone": "spectro"
+                  },
+                  {
+                    "start": 148,
+                    "end": 159,
+                    "kind": "tone",
+                    "tone": "spectro"
                   }
                 ]
               },
               {
-                "name": "First Things First? Clock Out!",
-                "type": "Sequence 6",
-                "desc": "The DMG Multipliers of Heavy Slash - Daybreak, Heavy Slash- Dawning, Heavy Slash - Nightfall, and Heavy Slash - Lightsmash are increased by {0}. Every Blaze consumed increases the DMG Multiplier of Heavy Slash - Nightfall by {0} on hit.\nGain following effects when in Inferno Mode:\n- When Blaze is lower than {1}, restore {2} Blazes immediately. This effect is triggered once in Inferno Mode.\n- Within {3}s after entering Inferno Mode, Zani will remain standing with at least 1 HP if hit by a fatal blow.",
+                "name": "Lone Canopy, Solitary Road",
+                "type": "Sequence 3",
+                "desc": "Casting Intro Skill - Furled Canopy: Flash Rift or Intro Skill - Unfurled Canopy: Thunder Rending grants {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Unison Boon. This effect can be triggered once every {1}s.\n- If Suoming has already granted Unison Boon and it still exists, triggering this effect only resets the duration of Unison Boon.\n\nCasting Resonance Liberation grants Suoming {2}% Basic Attack DMG Amplification for {3}s.",
                 "descFormat": [
                   {
-                    "start": 23,
-                    "end": 45,
+                    "start": 8,
+                    "end": 47,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 47,
-                    "end": 67,
+                    "start": 51,
+                    "end": 97,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 148,
+                    "end": 159,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 69,
-                    "end": 92,
+                    "start": 240,
+                    "end": 251,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 98,
-                    "end": 122,
+                    "start": 324,
+                    "end": 335,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 198,
-                    "end": 221,
+                    "start": 346,
+                    "end": 366,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Covenant Borne Upon the Heart",
+                "type": "Sequence 4",
+                "desc": "Suoming's ATK is increased by {0}%."
+              },
+              {
+                "name": "Seal Deep, Never Forgotten",
+                "type": "Sequence 5",
+                "desc": "The DMG Multiplier of Resonance Liberation - Umbral Canopy: Miasma Lock is increased by {0}%.",
+                "descFormat": [
+                  {
+                    "start": 22,
+                    "end": 71,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Nine Shadows at Her Side",
+                "type": "Sequence 6",
+                "desc": "The effect of each stack of Unison Boon is increased by {0}%, up to {1} stacks of Unison Boon.\nThe DMG Multiplier of Basic Attack - Umbral Canopy: Engraved Heart is increased by {2}%.\nWhen Suoming has Seal Master, her Crit. DMG is further increased by {3}%.",
+                "descFormat": [
+                  {
+                    "start": 28,
+                    "end": 39,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 268,
-                    "end": 280,
+                    "start": 82,
+                    "end": 93,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 379,
-                    "end": 391,
+                    "start": 117,
+                    "end": 161,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 422,
-                    "end": 434,
+                    "start": 201,
+                    "end": 212,
                     "kind": "tone",
                     "tone": "spectro"
                   }
@@ -2108,105 +2263,99 @@
       "req": {
         "ascension": [
           {
-            "id": "41100041",
-            "name": "LF Polygon Core",
+            "id": "41100021",
+            "name": "LF Howler Core",
             "qty": 4,
             "rar": 2,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
-            "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+            "source": "Howlers / Forgery Challenge",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               },
               {
                 "name": "Forgery Challenge"
-              },
-              {
-                "name": "Masked Reverie"
               }
             ]
           },
           {
-            "id": "41100042",
-            "name": "MF Polygon Core",
+            "id": "41100022",
+            "name": "MF Howler Core",
             "qty": 12,
             "rar": 3,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
-            "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+            "source": "Howlers / Forgery Challenge",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               },
               {
                 "name": "Forgery Challenge"
-              },
-              {
-                "name": "Masked Reverie"
               }
             ]
           },
           {
-            "id": "41100043",
-            "name": "HF Polygon Core",
+            "id": "41100023",
+            "name": "HF Howler Core",
             "qty": 12,
             "rar": 4,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
-            "source": "Clamorlings or Tranquilites",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+            "source": "Howlers",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               }
             ]
           },
           {
-            "id": "41100044",
-            "name": "FF Polygon Core",
+            "id": "41100024",
+            "name": "FF Howler Core",
             "qty": 4,
             "rar": 5,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
-            "source": "Clamorlings or Tranquilites",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+            "source": "Howlers",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               }
             ]
           },
           {
-            "id": "41400174",
-            "name": "Platinum Core",
+            "id": "41400344",
+            "name": "Forged Empyrean's Sigh",
             "qty": 46,
             "rar": 4,
-            "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
-            "source": "Sentry Construct / Sentry Construct - Early Access",
+            "kind": "boss",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+            "source": "Calamity Effigy / Calamity Effigy - Early Access",
             "sourceDetails": [
               {
-                "name": "Sentry Construct",
-                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                "name": "Calamity Effigy",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
               }
             ]
           },
           {
-            "id": "42601150",
-            "name": "Sword Acorus",
+            "id": "42601640",
+            "name": "Miasmic Branch",
             "qty": 60,
             "rar": 1,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
-            "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+            "icon": null,
+            "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
             "sourceDetails": [
               {
                 "name": "Collection Spots"
               },
               {
-                "name": "Rosemary's Apothecary"
+                "name": "Overworld Collection"
               },
               {
-                "name": "Overworld Collection"
+                "name": "Huaxu Apothecary"
               }
             ]
           }
@@ -2216,22 +2365,19 @@
             "cap": 40,
             "items": [
               {
-                "id": "41100041",
-                "name": "LF Polygon Core",
+                "id": "41100021",
+                "name": "LF Howler Core",
                 "qty": 4,
                 "rar": 2,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
-                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+                "source": "Howlers / Forgery Challenge",
                 "sourceDetails": [
                   {
-                    "name": "Clamorlings or Tranquilites"
+                    "name": "Howlers"
                   },
                   {
                     "name": "Forgery Challenge"
-                  },
-                  {
-                    "name": "Masked Reverie"
                   }
                 ]
               }
@@ -2242,57 +2388,54 @@
             "cap": 50,
             "items": [
               {
-                "id": "41100042",
-                "name": "MF Polygon Core",
+                "id": "41100022",
+                "name": "MF Howler Core",
                 "qty": 4,
                 "rar": 3,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
-                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
                 "sourceDetails": [
                   {
-                    "name": "Clamorlings or Tranquilites"
+                    "name": "Howlers"
                   },
                   {
                     "name": "Forgery Challenge"
-                  },
-                  {
-                    "name": "Masked Reverie"
                   }
                 ]
               },
               {
-                "id": "41400174",
-                "name": "Platinum Core",
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
                 "qty": 3,
                 "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
-                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
                 "sourceDetails": [
                   {
-                    "name": "Sentry Construct",
-                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
                   }
                 ]
               },
               {
-                "id": "42601150",
-                "name": "Sword Acorus",
+                "id": "42601640",
+                "name": "Miasmic Branch",
                 "qty": 4,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
-                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "icon": null,
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
                     "name": "Collection Spots"
                   },
                   {
-                    "name": "Rosemary's Apothecary"
+                    "name": "Overworld Collection"
                   },
                   {
-                    "name": "Overworld Collection"
+                    "name": "Huaxu Apothecary"
                   }
                 ]
               }
@@ -2303,57 +2446,54 @@
             "cap": 60,
             "items": [
               {
-                "id": "41100042",
-                "name": "MF Polygon Core",
+                "id": "41100022",
+                "name": "MF Howler Core",
                 "qty": 8,
                 "rar": 3,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
-                "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+                "source": "Howlers / Forgery Challenge",
                 "sourceDetails": [
                   {
-                    "name": "Clamorlings or Tranquilites"
+                    "name": "Howlers"
                   },
                   {
                     "name": "Forgery Challenge"
-                  },
-                  {
-                    "name": "Masked Reverie"
                   }
                 ]
               },
               {
-                "id": "41400174",
-                "name": "Platinum Core",
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
                 "qty": 6,
                 "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
-                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
                 "sourceDetails": [
                   {
-                    "name": "Sentry Construct",
-                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
                   }
                 ]
               },
               {
-                "id": "42601150",
-                "name": "Sword Acorus",
+                "id": "42601640",
+                "name": "Miasmic Branch",
                 "qty": 8,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
-                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "icon": null,
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
                     "name": "Collection Spots"
                   },
                   {
-                    "name": "Rosemary's Apothecary"
+                    "name": "Overworld Collection"
                   },
                   {
-                    "name": "Overworld Collection"
+                    "name": "Huaxu Apothecary"
                   }
                 ]
               }
@@ -2364,51 +2504,51 @@
             "cap": 70,
             "items": [
               {
-                "id": "41100043",
-                "name": "HF Polygon Core",
+                "id": "41100023",
+                "name": "HF Howler Core",
                 "qty": 4,
                 "rar": 4,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
-                "source": "Clamorlings or Tranquilites",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
                 "sourceDetails": [
                   {
-                    "name": "Clamorlings or Tranquilites"
+                    "name": "Howlers"
                   }
                 ]
               },
               {
-                "id": "41400174",
-                "name": "Platinum Core",
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
                 "qty": 9,
                 "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
-                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
                 "sourceDetails": [
                   {
-                    "name": "Sentry Construct",
-                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
                   }
                 ]
               },
               {
-                "id": "42601150",
-                "name": "Sword Acorus",
+                "id": "42601640",
+                "name": "Miasmic Branch",
                 "qty": 12,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
-                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "icon": null,
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
                     "name": "Collection Spots"
                   },
                   {
-                    "name": "Rosemary's Apothecary"
+                    "name": "Overworld Collection"
                   },
                   {
-                    "name": "Overworld Collection"
+                    "name": "Huaxu Apothecary"
                   }
                 ]
               }
@@ -2419,51 +2559,51 @@
             "cap": 80,
             "items": [
               {
-                "id": "41100043",
-                "name": "HF Polygon Core",
+                "id": "41100023",
+                "name": "HF Howler Core",
                 "qty": 8,
                 "rar": 4,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
-                "source": "Clamorlings or Tranquilites",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+                "source": "Howlers",
                 "sourceDetails": [
                   {
-                    "name": "Clamorlings or Tranquilites"
+                    "name": "Howlers"
                   }
                 ]
               },
               {
-                "id": "41400174",
-                "name": "Platinum Core",
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
                 "qty": 12,
                 "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
-                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
                 "sourceDetails": [
                   {
-                    "name": "Sentry Construct",
-                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
                   }
                 ]
               },
               {
-                "id": "42601150",
-                "name": "Sword Acorus",
+                "id": "42601640",
+                "name": "Miasmic Branch",
                 "qty": 16,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
-                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "icon": null,
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
                     "name": "Collection Spots"
                   },
                   {
-                    "name": "Rosemary's Apothecary"
+                    "name": "Overworld Collection"
                   },
                   {
-                    "name": "Overworld Collection"
+                    "name": "Huaxu Apothecary"
                   }
                 ]
               }
@@ -2474,51 +2614,51 @@
             "cap": 90,
             "items": [
               {
-                "id": "41100044",
-                "name": "FF Polygon Core",
+                "id": "41100024",
+                "name": "FF Howler Core",
                 "qty": 4,
                 "rar": 5,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
-                "source": "Clamorlings or Tranquilites",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+                "source": "Howlers",
                 "sourceDetails": [
                   {
-                    "name": "Clamorlings or Tranquilites"
+                    "name": "Howlers"
                   }
                 ]
               },
               {
-                "id": "41400174",
-                "name": "Platinum Core",
+                "id": "41400344",
+                "name": "Forged Empyrean's Sigh",
                 "qty": 16,
                 "rar": 4,
-                "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_006_UI.webp",
-                "source": "Sentry Construct / Sentry Construct - Early Access",
+                "kind": "boss",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_030_UI.webp",
+                "source": "Calamity Effigy / Calamity Effigy - Early Access",
                 "sourceDetails": [
                   {
-                    "name": "Sentry Construct",
-                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33012_UI.webp"
+                    "name": "Calamity Effigy",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34032_UI.webp"
                   }
                 ]
               },
               {
-                "id": "42601150",
-                "name": "Sword Acorus",
+                "id": "42601640",
+                "name": "Miasmic Branch",
                 "qty": 20,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_044_UI.webp",
-                "source": "Collection Spots / Rosemary's Apothecary / Overworld Collection",
+                "icon": null,
+                "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
                     "name": "Collection Spots"
                   },
                   {
-                    "name": "Rosemary's Apothecary"
+                    "name": "Overworld Collection"
                   },
                   {
-                    "name": "Overworld Collection"
+                    "name": "Huaxu Apothecary"
                   }
                 ]
               }
@@ -2528,156 +2668,146 @@
         ],
         "talents": [
           {
-            "id": "41100041",
-            "name": "LF Polygon Core",
+            "id": "41100021",
+            "name": "LF Howler Core",
             "qty": 25,
             "rar": 2,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_1_UI.webp",
-            "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+            "source": "Howlers / Forgery Challenge",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               },
               {
                 "name": "Forgery Challenge"
-              },
-              {
-                "name": "Masked Reverie"
               }
             ]
           },
           {
-            "id": "41100042",
-            "name": "MF Polygon Core",
+            "id": "41100022",
+            "name": "MF Howler Core",
             "qty": 28,
             "rar": 3,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_2_UI.webp",
-            "source": "Clamorlings or Tranquilites / Forgery Challenge / Masked Reverie",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+            "source": "Howlers / Forgery Challenge",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               },
               {
                 "name": "Forgery Challenge"
-              },
-              {
-                "name": "Masked Reverie"
               }
             ]
           },
           {
-            "id": "41100043",
-            "name": "HF Polygon Core",
+            "id": "41100023",
+            "name": "HF Howler Core",
             "qty": 40,
             "rar": 4,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_3_UI.webp",
-            "source": "Clamorlings or Tranquilites",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+            "source": "Howlers",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               }
             ]
           },
           {
-            "id": "41100044",
-            "name": "FF Polygon Core",
+            "id": "41100024",
+            "name": "FF Howler Core",
             "qty": 57,
             "rar": 5,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_004_4_UI.webp",
-            "source": "Clamorlings or Tranquilites",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+            "source": "Howlers",
             "sourceDetails": [
               {
-                "name": "Clamorlings or Tranquilites"
+                "name": "Howlers"
               }
             ]
           },
           {
-            "id": "41400194",
-            "name": "The Netherworld's Stare",
+            "id": "41400354",
+            "name": "Remnant of the Wheel",
             "qty": 26,
             "rar": 4,
             "kind": "weekly",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
-            "source": "Hecate / Hecate - Early Access",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+            "source": "Suhsin the Inevitable",
             "sourceDetails": [
               {
-                "name": "Hecate",
-                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.webp"
+                "name": "Suhsin the Inevitable"
               }
             ]
           },
           {
-            "id": "43020051",
-            "name": "Cadence Seed",
+            "id": "43021011",
+            "name": "Broken Wing Polarizer",
             "qty": 25,
             "rar": 2,
             "kind": "book",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
-            "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
               {
-                "name": "Forgery Challenge: Abyss of Sacrifice"
+                "name": "Forgery Challenge: Cloudfall Chasm"
               },
               {
-                "name": "Forgery Challenge: Moonlit Groves"
-              },
-              {
-                "name": "Souvenir Store"
+                "name": "Forgery Challenge: Forsaken Remnants"
               }
             ]
           },
           {
-            "id": "43020052",
-            "name": "Cadence Bud",
+            "id": "43021012",
+            "name": "Monowing Polarizer",
             "qty": 28,
             "rar": 3,
             "kind": "book",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
-            "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
               {
-                "name": "Forgery Challenge: Abyss of Sacrifice"
+                "name": "Forgery Challenge: Cloudfall Chasm"
               },
               {
-                "name": "Forgery Challenge: Moonlit Groves"
+                "name": "Forgery Challenge: Forsaken Remnants"
               }
             ]
           },
           {
-            "id": "43020053",
-            "name": "Cadence Leaf",
+            "id": "43021013",
+            "name": "Polywing Polarizer",
             "qty": 55,
             "rar": 4,
             "kind": "book",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
-            "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
               {
-                "name": "Forgery Challenge: Abyss of Sacrifice"
+                "name": "Forgery Challenge: Cloudfall Chasm"
               },
               {
-                "name": "Forgery Challenge: Moonlit Groves"
+                "name": "Forgery Challenge: Forsaken Remnants"
               }
             ]
           },
           {
-            "id": "43020054",
-            "name": "Cadence Blossom",
+            "id": "43021014",
+            "name": "Layered Wing Polarizer",
             "qty": 67,
             "rar": 5,
             "kind": "book",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
-            "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+            "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
             "sourceDetails": [
               {
-                "name": "Forgery Challenge: Abyss of Sacrifice"
+                "name": "Forgery Challenge: Cloudfall Chasm"
               },
               {
-                "name": "Forgery Challenge: Moonlit Groves"
+                "name": "Forgery Challenge: Forsaken Remnants"
               }
             ]
           }
@@ -2686,21 +2816,21 @@
         "talentCost": 2030000,
         "currency": 2530000,
         "weapon": {
-          "name": "Blazing Justice",
-          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040019_UI.webp",
-          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21040019_UI.webp",
+          "name": "Unspoken Rue",
+          "icon": null,
+          "art": null,
           "items": [
             {
-              "id": "41100021",
-              "name": "LF Howler Core",
+              "id": "41100071",
+              "name": "LF Mech Core",
               "qty": 6,
               "rar": 2,
               "kind": "mob",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
-              "source": "Howlers / Forgery Challenge",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_025_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
               "sourceDetails": [
                 {
-                  "name": "Howlers"
+                  "name": "Clamorling TDs in Lahai-Roi"
                 },
                 {
                   "name": "Forgery Challenge"
@@ -2708,16 +2838,16 @@
               ]
             },
             {
-              "id": "41100022",
-              "name": "MF Howler Core",
+              "id": "41100072",
+              "name": "MF Mech Core",
               "qty": 6,
               "rar": 3,
               "kind": "mob",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
-              "source": "Howlers / Forgery Challenge",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_026_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi / Forgery Challenge",
               "sourceDetails": [
                 {
-                  "name": "Howlers"
+                  "name": "Clamorling TDs in Lahai-Roi"
                 },
                 {
                   "name": "Forgery Challenge"
@@ -2725,101 +2855,98 @@
               ]
             },
             {
-              "id": "41100023",
-              "name": "HF Howler Core",
+              "id": "41100073",
+              "name": "HF Mech Core",
               "qty": 10,
               "rar": 4,
               "kind": "mob",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
-              "source": "Howlers",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_027_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
               "sourceDetails": [
                 {
-                  "name": "Howlers"
+                  "name": "Clamorling TDs in Lahai-Roi"
                 }
               ]
             },
             {
-              "id": "41100024",
-              "name": "FF Howler Core",
+              "id": "41100074",
+              "name": "FF Mech Core",
               "qty": 12,
               "rar": 5,
               "kind": "mob",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
-              "source": "Howlers",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_028_UI.webp",
+              "source": "Clamorling TDs in Lahai-Roi",
               "sourceDetails": [
                 {
-                  "name": "Howlers"
+                  "name": "Clamorling TDs in Lahai-Roi"
                 }
               ]
             },
             {
-              "id": "43020051",
-              "name": "Cadence Seed",
+              "id": "43021011",
+              "name": "Broken Wing Polarizer",
               "qty": 6,
               "rar": 2,
               "kind": "book",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_013_UI.webp",
-              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves / Souvenir Store",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_1_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
                 {
-                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                  "name": "Forgery Challenge: Cloudfall Chasm"
                 },
                 {
-                  "name": "Forgery Challenge: Moonlit Groves"
-                },
-                {
-                  "name": "Souvenir Store"
+                  "name": "Forgery Challenge: Forsaken Remnants"
                 }
               ]
             },
             {
-              "id": "43020052",
-              "name": "Cadence Bud",
+              "id": "43021012",
+              "name": "Monowing Polarizer",
               "qty": 8,
               "rar": 3,
               "kind": "book",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_014_UI.webp",
-              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_2_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
                 {
-                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                  "name": "Forgery Challenge: Cloudfall Chasm"
                 },
                 {
-                  "name": "Forgery Challenge: Moonlit Groves"
+                  "name": "Forgery Challenge: Forsaken Remnants"
                 }
               ]
             },
             {
-              "id": "43020053",
-              "name": "Cadence Leaf",
+              "id": "43021013",
+              "name": "Polywing Polarizer",
               "qty": 6,
               "rar": 4,
               "kind": "book",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_015_UI.webp",
-              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_3_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
                 {
-                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                  "name": "Forgery Challenge: Cloudfall Chasm"
                 },
                 {
-                  "name": "Forgery Challenge: Moonlit Groves"
+                  "name": "Forgery Challenge: Forsaken Remnants"
                 }
               ]
             },
             {
-              "id": "43020054",
-              "name": "Cadence Blossom",
+              "id": "43021014",
+              "name": "Layered Wing Polarizer",
               "qty": 20,
               "rar": 5,
               "kind": "book",
-              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_016_UI.webp",
-              "source": "Forgery Challenge: Abyss of Sacrifice / Forgery Challenge: Moonlit Groves",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_010_4_UI.webp",
+              "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Forsaken Remnants",
               "sourceDetails": [
                 {
-                  "name": "Forgery Challenge: Abyss of Sacrifice"
+                  "name": "Forgery Challenge: Cloudfall Chasm"
                 },
                 {
-                  "name": "Forgery Challenge: Moonlit Groves"
+                  "name": "Forgery Challenge: Forsaken Remnants"
                 }
               ]
             }
@@ -2827,222 +2954,489 @@
           "cost": 330000
         }
       },
-      "betaStatus": "changed"
+      "recent": 1,
+      "betaStatus": "new"
     },
     {
-      "id": "ww-suisui",
-      "n": "Suisui",
+      "id": "ww-hsin",
+      "n": "Hsin",
       "localizedNames": {
-        "en": "Suisui",
-        "zh": "\u7a57\u7a57",
-        "ja": "\u7a42\u7a42",
-        "ko": "\uc218\uc218"
+        "en": "Hsin",
+        "zh": "\u5fc3",
+        "ja": "\u5fc3",
+        "ko": "\uc5ec\uc6b0\uc758 \ubcc4\uc790\ub9ac"
       },
-      "title": "Host of Harmony",
-      "slug": "suisui",
-      "release": 1785369600000,
-      "releasePatch": "3.5",
-      "updated": 1785542400000,
-      "sourceOrder": 1110,
-      "voiceActors": {
-        "english": "imdb:nm5069067|Emily Piggford",
-        "japanese": "Misato Fukuen|Fukuen Misato (ja=\u798f\u5713 \u7f8e\u91cc)",
-        "chinese": "https://zh.moegirl.org.cn/\u5b59\u8273\u7426|Sun Yanqi (zh=\u5b59\u8273\u7426)",
-        "korean": "https://namu.wiki/w/\ubc15\uc9c0\uc724(\uc131\uc6b0)|Park Ji-yoon (ko=\ubc15\uc9c0\uc724)"
-      },
-      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_71_UI.webp",
-      "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSuisui.webp",
-      "card": "../../Database/Prydwen/ww/assets/characters/suisui-6c2f0381f367.webp",
+      "title": "The Moon Fox",
+      "slug": "hsin",
+      "updated": 1787875200000,
+      "sourceOrder": 1311,
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
+      "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
       "signatureWeapon": {
-        "id": "21050096",
-        "name": "Firstlight's Herald",
+        "id": "21050116",
+        "name": "Blooming Jadehaven",
         "type": "Rectifier",
-        "educated": false
+        "educated": true
       },
-      "signatureWeaponId": "21050096",
-      "signatureWeaponName": "Firstlight's Herald",
-      "status": "live",
+      "signatureWeaponId": "21050116",
+      "signatureWeaponName": "Blooming Jadehaven",
+      "status": "beta",
       "labels": [
-        "New"
+        "3.7"
       ],
       "r": 5,
-      "el": "Glacio",
+      "el": "Electro",
       "w": "Rectifier",
       "baseStats": {
         "level1": {
-          "hp": 1337,
-          "atk": 23,
-          "def": 90
+          "hp": 824,
+          "atk": 37,
+          "def": 91
         },
         "max": {
           "level": 90,
-          "hp": 16712.5,
-          "atk": 287.5,
-          "def": 1100
+          "hp": 10300,
+          "atk": 462.5,
+          "def": 1112.22
         },
         "levels": [
           {
             "label": "Lv. 1/20",
             "level": 1,
             "cap": 20,
-            "hp": 1337,
-            "atk": 23,
-            "def": 90
+            "hp": 824,
+            "atk": 37,
+            "def": 91
           },
           {
             "label": "Lv. 20/40",
             "level": 20,
             "cap": 40,
-            "hp": 4368.91,
-            "atk": 77.08,
-            "def": 289.22
+            "hp": 2692.58,
+            "atk": 123.99,
+            "def": 292.44
           },
           {
             "label": "Lv. 40/50",
             "level": 40,
             "cap": 50,
-            "hp": 7513.67,
-            "atk": 133.09,
-            "def": 495.87
+            "hp": 4630.72,
+            "atk": 214.1,
+            "def": 501.38
           },
           {
             "label": "Lv. 50/60",
             "level": 50,
             "cap": 60,
-            "hp": 9531.74,
-            "atk": 169.72,
-            "def": 628.36
+            "hp": 5874.46,
+            "atk": 273.03,
+            "def": 635.34
           },
           {
             "label": "Lv. 60/70",
             "level": 60,
             "cap": 70,
-            "hp": 11549.67,
-            "atk": 206.35,
-            "def": 760.86
+            "hp": 7118.12,
+            "atk": 331.96,
+            "def": 769.31
           },
           {
             "label": "Lv. 70/80",
             "level": 70,
             "cap": 80,
-            "hp": 13567.74,
-            "atk": 237.24,
-            "def": 893.35
+            "hp": 8361.87,
+            "atk": 381.64,
+            "def": 903.28
           },
           {
             "label": "Lv. 80/90",
             "level": 80,
             "cap": 90,
-            "hp": 15585.81,
-            "atk": 268.12,
-            "def": 1025.84
+            "hp": 9605.62,
+            "atk": 431.32,
+            "def": 1037.24
           },
           {
             "label": "Lv. 90/90",
             "level": 90,
             "cap": 90,
-            "hp": 16712.5,
-            "atk": 287.5,
-            "def": 1100
+            "hp": 10300,
+            "atk": 462.5,
+            "def": 1112.22
           }
         ]
       },
       "facts": {
-        "nation": "Huanglong",
-        "influence": "Zhaoming Commerce Guild",
-        "title": "Host of Harmony"
+        "title": "The Moon Fox"
       },
       "skillIcons": [
         "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
-        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp"
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinB1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinC1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinY.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinQTE.webp"
       ],
       "kit": {
         "source": "Game data",
         "channel": "beta",
-        "version": "3.6.7",
+        "version": "3.7.0",
         "sections": [
           {
             "title": "Skills",
             "entries": [
               {
-                "name": "Unraveled Spring",
+                "name": "Manifold Bloom",
                 "type": "Normal Attack",
-                "desc": "Basic Attack - Zephyr Stance\n repeatedly or hold Normal Attack to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Cloud Breath on hit.\n\nMid-air Attack - Zephyr Stance\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nDodge Counter - Zephyr Stance\n Normal Attack shortly after a successful Dodge to attack the target, dealing Glacio DMG and restoring Cloud Breath on hit.\n Normal Attack shortly after casting this skill to perform Basic Attack - Zephyr Stance Stage 4.",
+                "desc": "Basic Attack - Answering Form\nWhile in Answering Form, perform up to 4 consecutive attacks, dealing Electro DMG.\n\nHeavy Attack - Answering Form\nWhile in Answering Form, consume STA to deal Electro DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2.\n\nMid-air Attack - Answering Form\nWhile in Answering Form and in mid-air, Normal Attack then release the button to cast the skill at the cost of STA, dealing Electro DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2.\n\nHeavy Attack - Answering Form: Reign at Ease\nWhile in Answering Form and in mid-air, hold Normal Attack to cast Heavy Attack - Answering Form: Reign at Ease, continuously consuming STA and dealing Electro DMG to the target.\n\nMid-air Attack - Answering Form: Reign at Ease\nWhen the Normal Attack button is released during Heavy Attack - Answering Form: Reign at Ease, or when the skill ends, Hsin casts Mid-air Attack - Answering Form: Reign at Ease , consuming STA to perform a Plunging Attack, transforming into the Moon Fox upon landing and dealing Electro DMG.\nAfter casting Mid-air Attack- Answering Form: Reign at Ease, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 2.\n\nDodge Counter - Answering Form\nWhile in Answering Form, use Normal Attack within a short time after a successful Dodge to attack the target, dealing Electro DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 3.\n\nBasic Attack - Illumining Form\nWhile in Illumining Form and not in the Mechanism Dominion state, command Xuanfang Mechanisms to perform up to 3 consecutive attacks, dealing Electro DMG.\nCasting Basic Attack - Illumining Form Stage 1 generates a Modular Heartlock at the target's position. Casting Basic Attack - Illumining Form Stage 2, Heavy Attack - Illumining Form, Dodge Counter - Illumining Form, or Resonance Skill - Illumining Form causes the Modular Heartlock to collapse, dealing Electro DMG.\n\nHeavy Attack - Illumining Form\nWhile in Illumining Form, consume STA to command Xuanfang Mechanisms, dealing Electro DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Illumining Form Stage 3.\n\nUpward Cut - Illumining Form\nWhile in Illumining Form and on the ground, Jump to cast this skill, dealing Electro DMG.\n\nMid-air Attack - Illumining Form\nWhile in Illumining Form and Hsin is in mid-air, Resonance Skill - Illumining Form is repalced with Mid-air Attack - Illumining Form.\nConsume STA to ",
                 "descFormat": [
                   {
                     "start": 0,
-                    "end": 28,
+                    "end": 29,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 49,
-                    "end": 62,
+                    "start": 39,
+                    "end": 53,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 111,
-                    "end": 121,
+                    "start": 100,
+                    "end": 111,
                     "kind": "tone",
-                    "tone": "cryo"
+                    "tone": "electro"
                   },
                   {
-                    "start": 136,
-                    "end": 148,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 158,
-                    "end": 188,
+                    "start": 114,
+                    "end": 143,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 237,
-                    "end": 247,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 250,
-                    "end": 279,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 281,
-                    "end": 294,
+                    "start": 153,
+                    "end": 167,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 358,
-                    "end": 368,
+                    "start": 189,
+                    "end": 200,
                     "kind": "tone",
-                    "tone": "cryo"
+                    "tone": "electro"
                   },
                   {
-                    "start": 383,
+                    "start": 228,
+                    "end": 241,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 270,
+                    "end": 307,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 310,
+                    "end": 341,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 351,
+                    "end": 365,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 382,
                     "end": 395,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 405,
-                    "end": 418,
+                    "start": 466,
+                    "end": 477,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 505,
+                    "end": 518,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 463,
-                    "end": 499,
+                    "start": 547,
+                    "end": 584,
                     "kind": "tone",
                     "tone": "spectro"
+                  },
+                  {
+                    "start": 587,
+                    "end": 631,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 641,
+                    "end": 655,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 677,
+                    "end": 690,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 699,
+                    "end": 743,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 784,
+                    "end": 795,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 812,
+                    "end": 858,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 868,
+                    "end": 881,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 908,
+                    "end": 952,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 989,
+                    "end": 1036,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1138,
+                    "end": 1149,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1165,
+                    "end": 1210,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1212,
+                    "end": 1225,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1254,
+                    "end": 1291,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1294,
+                    "end": 1324,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1334,
+                    "end": 1348,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1354,
+                    "end": 1367,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1443,
+                    "end": 1454,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1482,
+                    "end": 1495,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1524,
+                    "end": 1561,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1564,
+                    "end": 1594,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1604,
+                    "end": 1619,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1635,
+                    "end": 1653,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1737,
+                    "end": 1748,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1758,
+                    "end": 1796,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1809,
+                    "end": 1826,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1861,
+                    "end": 1899,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1901,
+                    "end": 1931,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1933,
+                    "end": 1964,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1969,
+                    "end": 2002,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2014,
+                    "end": 2031,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2053,
+                    "end": 2064,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 2067,
+                    "end": 2097,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2107,
+                    "end": 2122,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2176,
+                    "end": 2187,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 2215,
+                    "end": 2228,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2257,
+                    "end": 2295,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2298,
+                    "end": 2326,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2336,
+                    "end": 2351,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2371,
+                    "end": 2375,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2404,
+                    "end": 2415,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 2418,
+                    "end": 2450,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2460,
+                    "end": 2475,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2500,
+                    "end": 2533,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2551,
+                    "end": 2583,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ],
                 "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.webp",
@@ -3073,157 +3467,682 @@
                     ],
                     "rows": [
                       {
-                        "label": "Basic Attack - Zephyr Stance Stage 1 DMG",
+                        "label": "Basic Attack - Answering Form Stage 1 DMG",
                         "values": [
-                          "31.76%",
-                          "34.37%",
-                          "36.97%",
-                          "40.62%",
-                          "43.22%",
-                          "46.22%",
-                          "50.39%",
-                          "54.55%",
-                          "58.72%",
-                          "63.15%",
-                          "68.36%",
-                          "73.56%",
-                          "78.77%",
-                          "83.98%",
-                          "89.19%",
-                          "94.40%",
-                          "99.61%",
-                          "104.82%",
-                          "110.02%",
-                          "115.23%"
+                          "14.00%+21.00%",
+                          "15.15%+22.73%",
+                          "16.30%+24.45%",
+                          "17.91%+26.86%",
+                          "19.06%+28.58%",
+                          "20.38%+30.56%",
+                          "22.21%+33.32%",
+                          "24.05%+36.07%",
+                          "25.89%+38.83%",
+                          "27.84%+41.76%",
+                          "30.13%+45.20%",
+                          "32.43%+48.64%",
+                          "34.73%+52.09%",
+                          "37.02%+55.53%",
+                          "39.32%+58.98%",
+                          "41.61%+62.42%",
+                          "43.91%+65.86%",
+                          "46.21%+69.31%",
+                          "48.50%+72.75%",
+                          "50.80%+76.20%"
                         ]
                       },
                       {
-                        "label": "Basic Attack - Zephyr StanceStage 2 DMG",
+                        "label": "Basic Attack - Answering Form Stage 2 DMG",
                         "values": [
-                          "30.68%+30.68%",
-                          "33.20%+33.20%",
-                          "35.72%+35.72%",
-                          "39.24%+39.24%",
-                          "41.75%+41.75%",
-                          "44.65%+44.65%",
-                          "48.67%+48.67%",
-                          "52.70%+52.70%",
-                          "56.72%+56.72%",
-                          "61.00%+61.00%",
-                          "66.03%+66.03%",
-                          "71.06%+71.06%",
-                          "76.09%+76.09%",
-                          "81.13%+81.13%",
-                          "86.16%+86.16%",
-                          "91.19%+91.19%",
-                          "96.22%+96.22%",
-                          "101.25%+101.25%",
-                          "106.28%+106.28%",
-                          "111.32%+111.32%"
+                          "7.62%*2+34.28%+26.66%",
+                          "8.25%*2+37.09%+28.85%",
+                          "8.87%*2+39.90%+31.03%",
+                          "9.74%*2+43.83%+34.09%",
+                          "10.37%*2+46.64%+36.28%",
+                          "11.09%*2+49.87%+38.79%",
+                          "12.09%*2+54.37%+42.29%",
+                          "13.09%*2+58.87%+45.79%",
+                          "14.08%*2+63.36%+49.28%",
+                          "15.15%*2+68.14%+53.00%",
+                          "16.40%*2+73.76%+57.37%",
+                          "17.64%*2+79.38%+61.74%",
+                          "18.89%*2+85.00%+66.11%",
+                          "20.14%*2+90.62%+70.49%",
+                          "21.39%*2+96.24%+74.86%",
+                          "22.64%*2+101.86%+79.23%",
+                          "23.89%*2+107.49%+83.60%",
+                          "25.14%*2+113.11%+87.97%",
+                          "26.39%*2+118.73%+92.34%",
+                          "27.64%*2+124.35%+96.72%"
                         ]
                       },
                       {
-                        "label": "Basic Attack - Zephyr Stance Stage 3 DMG",
+                        "label": "Basic Attack - Answering Form Stage 3 DMG",
                         "values": [
-                          "21.03%+21.03%+28.04%",
-                          "22.75%+22.75%+30.34%",
-                          "24.48%+24.48%+32.63%",
-                          "26.89%+26.89%+35.85%",
-                          "28.61%+28.61%+38.15%",
-                          "30.60%+30.60%+40.79%",
-                          "33.36%+33.36%+44.47%",
-                          "36.11%+36.11%+48.15%",
-                          "38.87%+38.87%+51.83%",
-                          "41.80%+41.80%+55.74%",
-                          "45.25%+45.25%+60.33%",
-                          "48.70%+48.70%+64.93%",
-                          "52.15%+52.15%+69.53%",
-                          "55.59%+55.59%+74.12%",
-                          "59.04%+59.04%+78.72%",
-                          "62.49%+62.49%+83.32%",
-                          "65.94%+65.94%+87.92%",
-                          "69.39%+69.39%+92.51%",
-                          "72.83%+72.83%+97.11%",
-                          "76.28%+76.28%+101.71%"
+                          "15.85%*2+11.89%*2+23.78%",
+                          "17.15%*2+12.86%*2+25.72%",
+                          "18.45%*2+13.84%*2+27.67%",
+                          "20.27%*2+15.20%*2+30.40%",
+                          "21.57%*2+16.18%*2+32.35%",
+                          "23.06%*2+17.30%*2+34.59%",
+                          "25.14%*2+18.86%*2+37.71%",
+                          "27.22%*2+20.42%*2+40.83%",
+                          "29.30%*2+21.98%*2+43.95%",
+                          "31.51%*2+23.63%*2+47.26%",
+                          "34.11%*2+25.58%*2+51.16%",
+                          "36.71%*2+27.53%*2+55.06%",
+                          "39.31%*2+29.48%*2+58.96%",
+                          "41.91%*2+31.43%*2+62.86%",
+                          "44.50%*2+33.38%*2+66.75%",
+                          "47.10%*2+35.33%*2+70.65%",
+                          "49.70%*2+37.28%*2+74.55%",
+                          "52.30%*2+39.23%*2+78.45%",
+                          "54.90%*2+41.18%*2+82.35%",
+                          "57.50%*2+43.13%*2+86.25%"
                         ]
                       },
                       {
-                        "label": "Basic Attack - Zephyr Stance Stage 4 DMG",
+                        "label": "Basic Attack - Answering Form Stage 4 DMG",
                         "values": [
-                          "40.00%+8.00%*5",
-                          "43.28%+8.66%*5",
-                          "46.56%+9.32%*5",
-                          "51.16%+10.24%*5",
-                          "54.44%+10.89%*5",
-                          "58.21%+11.65%*5",
-                          "63.46%+12.70%*5",
-                          "68.70%+13.74%*5",
-                          "73.95%+14.79%*5",
-                          "79.53%+15.91%*5",
-                          "86.09%+17.22%*5",
-                          "92.65%+18.53%*5",
-                          "99.21%+19.85%*5",
-                          "105.77%+21.16%*5",
-                          "112.33%+22.47%*5",
-                          "118.89%+23.78%*5",
-                          "125.45%+25.09%*5",
-                          "132.01%+26.41%*5",
-                          "138.57%+27.72%*5",
-                          "145.13%+29.03%*5"
+                          "19.98%+19.98%+59.93%",
+                          "21.62%+21.62%+64.85%",
+                          "23.26%+23.26%+69.76%",
+                          "25.55%+25.55%+76.64%",
+                          "27.19%+27.19%+81.56%",
+                          "29.07%+29.07%+87.21%",
+                          "31.69%+31.69%+95.07%",
+                          "34.31%+34.31%+102.93%",
+                          "36.93%+36.93%+110.79%",
+                          "39.72%+39.72%+119.15%",
+                          "43.00%+43.00%+128.98%",
+                          "46.27%+46.27%+138.81%",
+                          "49.55%+49.55%+148.63%",
+                          "52.82%+52.82%+158.46%",
+                          "56.10%+56.10%+168.29%",
+                          "59.38%+59.38%+178.12%",
+                          "62.65%+62.65%+187.95%",
+                          "65.93%+65.93%+197.78%",
+                          "69.20%+69.20%+207.60%",
+                          "72.48%+72.48%+217.43%"
                         ]
                       },
                       {
-                        "label": "Mid-air Attack - Zephyr Stance DMG",
+                        "label": "Heavy Attack - Answering Form: Reign at Ease DMG",
                         "values": [
-                          "35.57%",
-                          "38.49%",
-                          "41.41%",
-                          "45.49%",
-                          "48.41%",
-                          "51.76%",
-                          "56.43%",
-                          "61.09%",
-                          "65.76%",
-                          "70.72%",
-                          "76.55%",
-                          "82.38%",
-                          "88.22%",
-                          "94.05%",
-                          "99.88%",
-                          "105.72%",
-                          "111.55%",
-                          "117.38%",
-                          "123.22%",
-                          "129.05%"
+                          "14.00%*25",
+                          "15.15%*25",
+                          "16.30%*25",
+                          "17.91%*25",
+                          "19.06%*25",
+                          "20.38%*25",
+                          "22.21%*25",
+                          "24.05%*25",
+                          "25.89%*25",
+                          "27.84%*25",
+                          "30.13%*25",
+                          "32.43%*25",
+                          "34.73%*25",
+                          "37.02%*25",
+                          "39.32%*25",
+                          "41.61%*25",
+                          "43.91%*25",
+                          "46.21%*25",
+                          "48.50%*25",
+                          "50.80%*25"
                         ]
                       },
                       {
-                        "label": "Dodge Counter - Zephyr Stance DMG",
+                        "label": "Mid-air Attack - Answering Form: Reign at Ease DMG",
                         "values": [
-                          "25.76%+25.76%+34.34%",
-                          "27.87%+27.87%+37.16%",
-                          "29.98%+29.98%+39.97%",
-                          "32.94%+32.94%+43.91%",
-                          "35.05%+35.05%+46.73%",
-                          "37.48%+37.48%+49.97%",
-                          "40.86%+40.86%+54.47%",
-                          "44.23%+44.23%+58.98%",
-                          "47.61%+47.61%+63.48%",
-                          "51.20%+51.20%+68.27%",
-                          "55.43%+55.43%+73.90%",
-                          "59.65%+59.65%+79.53%",
-                          "63.87%+63.87%+85.16%",
-                          "68.10%+68.10%+90.79%",
-                          "72.32%+72.32%+96.42%",
-                          "76.54%+76.54%+102.06%",
-                          "80.77%+80.77%+107.69%",
-                          "84.99%+84.99%+113.32%",
-                          "89.21%+89.21%+118.95%",
-                          "93.44%+93.44%+124.58%"
+                          "11.29%",
+                          "12.21%",
+                          "13.14%",
+                          "14.43%",
+                          "15.36%",
+                          "16.42%",
+                          "17.90%",
+                          "19.39%",
+                          "20.87%",
+                          "22.44%",
+                          "24.29%",
+                          "26.14%",
+                          "27.99%",
+                          "29.84%",
+                          "31.69%",
+                          "33.54%",
+                          "35.39%",
+                          "37.24%",
+                          "39.09%",
+                          "40.94%"
                         ]
                       },
                       {
-                        "label": "Mid-air Attack - Zephyr Stance STA Cost",
+                        "label": "Heavy Attack - Answering Form DMG",
+                        "values": [
+                          "5.17%+10.34%+5.17%+10.34%*3",
+                          "5.59%+11.18%+5.59%+11.18%*3",
+                          "6.02%+12.03%+6.02%+12.03%*3",
+                          "6.61%+13.22%+6.61%+13.22%*3",
+                          "7.03%+14.06%+7.03%+14.06%*3",
+                          "7.52%+15.04%+7.52%+15.04%*3",
+                          "8.20%+16.39%+8.20%+16.39%*3",
+                          "8.88%+17.75%+8.88%+17.75%*3",
+                          "9.56%+19.11%+9.56%+19.11%*3",
+                          "10.28%+20.55%+10.28%+20.55%*3",
+                          "11.12%+22.24%+11.12%+22.24%*3",
+                          "11.97%+23.93%+11.97%+23.93%*3",
+                          "12.82%+25.63%+12.82%+25.63%*3",
+                          "13.66%+27.32%+13.66%+27.32%*3",
+                          "14.51%+29.02%+14.51%+29.02%*3",
+                          "15.36%+30.71%+15.36%+30.71%*3",
+                          "16.21%+32.41%+16.21%+32.41%*3",
+                          "17.05%+34.10%+17.05%+34.10%*3",
+                          "17.90%+35.80%+17.90%+35.80%*3",
+                          "18.75%+37.49%+18.75%+37.49%*3"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Answering Form DMG",
+                        "values": [
+                          "11.29%",
+                          "12.21%",
+                          "13.14%",
+                          "14.43%",
+                          "15.36%",
+                          "16.42%",
+                          "17.90%",
+                          "19.39%",
+                          "20.87%",
+                          "22.44%",
+                          "24.29%",
+                          "26.14%",
+                          "27.99%",
+                          "29.84%",
+                          "31.69%",
+                          "33.54%",
+                          "35.39%",
+                          "37.24%",
+                          "39.09%",
+                          "40.94%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Answering Form DMG",
+                        "values": [
+                          "22.63%*2+33.94%+33.94%",
+                          "24.48%*2+36.72%+36.72%",
+                          "26.34%*2+39.51%+39.51%",
+                          "28.94%*2+43.40%+43.40%",
+                          "30.79%*2+46.19%+46.19%",
+                          "32.93%*2+49.39%+49.39%",
+                          "35.89%*2+53.84%+53.84%",
+                          "38.86%*2+58.29%+58.29%",
+                          "41.83%*2+62.74%+62.74%",
+                          "44.98%*2+67.47%+67.47%",
+                          "48.69%*2+73.04%+73.04%",
+                          "52.40%*2+78.60%+78.60%",
+                          "56.11%*2+84.17%+84.17%",
+                          "59.83%*2+89.74%+89.74%",
+                          "63.54%*2+95.30%+95.30%",
+                          "67.25%*2+100.87%+100.87%",
+                          "70.96%*2+106.43%+106.43%",
+                          "74.67%*2+112.00%+112.00%",
+                          "78.38%*2+117.56%+117.56%",
+                          "82.09%*2+123.13%+123.13%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form Stage 1 DMG",
+                        "values": [
+                          "6.32%*2+18.94%",
+                          "6.83%*2+20.49%",
+                          "7.35%*2+22.05%",
+                          "8.08%*2+24.22%",
+                          "8.59%*2+25.77%",
+                          "9.19%*2+27.56%",
+                          "10.02%*2+30.04%",
+                          "10.85%*2+32.53%",
+                          "11.67%*2+35.01%",
+                          "12.55%*2+37.65%",
+                          "13.59%*2+40.76%",
+                          "14.62%*2+43.86%",
+                          "15.66%*2+46.97%",
+                          "16.69%*2+50.07%",
+                          "17.73%*2+53.18%",
+                          "18.76%*2+56.28%",
+                          "19.80%*2+59.39%",
+                          "20.83%*2+62.49%",
+                          "21.87%*2+65.60%",
+                          "22.90%*2+68.70%"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form: Modular Heartlock DMG",
+                        "values": [
+                          "10.52%*2",
+                          "11.39%*2",
+                          "12.25%*2",
+                          "13.46%*2",
+                          "14.32%*2",
+                          "15.31%*2",
+                          "16.69%*2",
+                          "18.07%*2",
+                          "19.45%*2",
+                          "20.92%*2",
+                          "22.64%*2",
+                          "24.37%*2",
+                          "26.09%*2",
+                          "27.82%*2",
+                          "29.55%*2",
+                          "31.27%*2",
+                          "33.00%*2",
+                          "34.72%*2",
+                          "36.45%*2",
+                          "38.17%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form Stage 2 DMG",
+                        "values": [
+                          "17.50%*2",
+                          "18.94%*2",
+                          "20.37%*2",
+                          "22.38%*2",
+                          "23.82%*2",
+                          "25.47%*2",
+                          "27.77%*2",
+                          "30.06%*2",
+                          "32.36%*2",
+                          "34.80%*2",
+                          "37.67%*2",
+                          "40.54%*2",
+                          "43.41%*2",
+                          "46.28%*2",
+                          "49.15%*2",
+                          "52.02%*2",
+                          "54.89%*2",
+                          "57.76%*2",
+                          "60.63%*2",
+                          "63.50%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form Stage 3 DMG",
+                        "values": [
+                          "4.58%*4+9.16%*2+13.74%*4",
+                          "4.96%*4+9.91%*2+14.87%*4",
+                          "5.33%*4+10.66%*2+15.99%*4",
+                          "5.86%*4+11.71%*2+17.57%*4",
+                          "6.23%*4+12.46%*2+18.69%*4",
+                          "6.67%*4+13.33%*2+19.99%*4",
+                          "7.27%*4+14.53%*2+21.79%*4",
+                          "7.87%*4+15.73%*2+23.59%*4",
+                          "8.47%*4+16.93%*2+25.40%*4",
+                          "9.11%*4+18.21%*2+27.31%*4",
+                          "9.86%*4+19.71%*2+29.56%*4",
+                          "10.61%*4+21.21%*2+31.81%*4",
+                          "11.36%*4+22.71%*2+34.07%*4",
+                          "12.11%*4+24.21%*2+36.32%*4",
+                          "12.86%*4+25.72%*2+38.57%*4",
+                          "13.61%*4+27.22%*2+40.82%*4",
+                          "14.36%*4+28.72%*2+43.08%*4",
+                          "15.11%*4+30.22%*2+45.33%*4",
+                          "15.86%*4+31.72%*2+47.58%*4",
+                          "16.61%*4+33.22%*2+49.83%*4"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Illumining Form DMG",
+                        "values": [
+                          "27.13%*2",
+                          "29.35%*2",
+                          "31.58%*2",
+                          "34.69%*2",
+                          "36.92%*2",
+                          "39.47%*2",
+                          "43.03%*2",
+                          "46.59%*2",
+                          "50.15%*2",
+                          "53.93%*2",
+                          "58.38%*2",
+                          "62.83%*2",
+                          "67.28%*2",
+                          "71.73%*2",
+                          "76.17%*2",
+                          "80.62%*2",
+                          "85.07%*2",
+                          "89.52%*2",
+                          "93.97%*2",
+                          "98.42%*2"
+                        ]
+                      },
+                      {
+                        "label": "Upward Cut - Illumining Form DMG",
+                        "values": [
+                          "17.62%+26.43%",
+                          "19.07%+28.60%",
+                          "20.51%+30.77%",
+                          "22.53%+33.80%",
+                          "23.98%+35.97%",
+                          "25.64%+38.46%",
+                          "27.95%+41.93%",
+                          "30.26%+45.39%",
+                          "32.57%+48.86%",
+                          "35.03%+52.54%",
+                          "37.92%+56.88%",
+                          "40.81%+61.21%",
+                          "43.70%+65.55%",
+                          "46.59%+69.88%",
+                          "49.48%+74.21%",
+                          "52.37%+78.55%",
+                          "55.26%+82.88%",
+                          "58.14%+87.21%",
+                          "61.03%+91.55%",
+                          "63.92%+95.88%"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Illumining Form DMG",
+                        "values": [
+                          "6.78%+4.52%",
+                          "7.33%+4.89%",
+                          "7.89%+5.26%",
+                          "8.66%+5.78%",
+                          "9.22%+6.15%",
+                          "9.86%+6.57%",
+                          "10.74%+7.16%",
+                          "11.63%+7.76%",
+                          "12.52%+8.35%",
+                          "13.47%+8.98%",
+                          "14.58%+9.72%",
+                          "15.69%+10.46%",
+                          "16.80%+11.20%",
+                          "17.91%+11.94%",
+                          "19.02%+12.68%",
+                          "20.13%+13.42%",
+                          "21.24%+14.16%",
+                          "22.35%+14.90%",
+                          "23.46%+15.64%",
+                          "24.57%+16.38%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Illumining Form DMG",
+                        "values": [
+                          "48.13%*2",
+                          "52.08%*2",
+                          "56.02%*2",
+                          "61.55%*2",
+                          "65.49%*2",
+                          "70.03%*2",
+                          "76.35%*2",
+                          "82.66%*2",
+                          "88.97%*2",
+                          "95.68%*2",
+                          "103.57%*2",
+                          "111.47%*2",
+                          "119.36%*2",
+                          "127.25%*2",
+                          "135.14%*2",
+                          "143.04%*2",
+                          "150.93%*2",
+                          "158.82%*2",
+                          "166.71%*2",
+                          "174.61%*2"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form: Pillars Aligned Stage 1 DMG",
+                        "values": [
+                          "14.52%*3",
+                          "15.71%*3",
+                          "16.90%*3",
+                          "18.57%*3",
+                          "19.76%*3",
+                          "21.13%*3",
+                          "23.03%*3",
+                          "24.94%*3",
+                          "26.84%*3",
+                          "28.86%*3",
+                          "31.24%*3",
+                          "33.62%*3",
+                          "36.01%*3",
+                          "38.39%*3",
+                          "40.77%*3",
+                          "43.15%*3",
+                          "45.53%*3",
+                          "47.91%*3",
+                          "50.29%*3",
+                          "52.67%*3"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form: Pillars Aligned Stage 2 DMG",
+                        "values": [
+                          "19.23%*3",
+                          "20.81%*3",
+                          "22.39%*3",
+                          "24.60%*3",
+                          "26.17%*3",
+                          "27.99%*3",
+                          "30.51%*3",
+                          "33.03%*3",
+                          "35.55%*3",
+                          "38.23%*3",
+                          "41.39%*3",
+                          "44.54%*3",
+                          "47.69%*3",
+                          "50.85%*3",
+                          "54.00%*3",
+                          "57.16%*3",
+                          "60.31%*3",
+                          "63.46%*3",
+                          "66.62%*3",
+                          "69.77%*3"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form: Pillars Aligned Stage 3 DMG",
+                        "values": [
+                          "10.74%*5",
+                          "11.62%*5",
+                          "12.50%*5",
+                          "13.74%*5",
+                          "14.62%*5",
+                          "15.63%*5",
+                          "17.04%*5",
+                          "18.45%*5",
+                          "19.86%*5",
+                          "21.35%*5",
+                          "23.11%*5",
+                          "24.88%*5",
+                          "26.64%*5",
+                          "28.40%*5",
+                          "30.16%*5",
+                          "31.92%*5",
+                          "33.68%*5",
+                          "35.44%*5",
+                          "37.20%*5",
+                          "38.96%*5"
+                        ]
+                      },
+                      {
+                        "label": "Basic Attack - Illumining Form: Pillars Aligned Stage 4 DMG",
+                        "values": [
+                          "8.37%*7+25.10%",
+                          "9.06%*7+27.16%",
+                          "9.74%*7+29.22%",
+                          "10.70%*7+32.10%",
+                          "11.39%*7+34.15%",
+                          "12.18%*7+36.52%",
+                          "13.27%*7+39.81%",
+                          "14.37%*7+43.11%",
+                          "15.47%*7+46.40%",
+                          "16.64%*7+49.90%",
+                          "18.01%*7+54.01%",
+                          "19.38%*7+58.13%",
+                          "20.75%*7+62.24%",
+                          "22.12%*7+66.36%",
+                          "23.49%*7+70.47%",
+                          "24.87%*7+74.59%",
+                          "26.24%*7+78.71%",
+                          "27.61%*7+82.82%",
+                          "28.98%*7+86.94%",
+                          "30.35%*7+91.05%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter - Illumining Form: Pillars Aligned DMG",
+                        "values": [
+                          "19.23%*3",
+                          "20.81%*3",
+                          "22.39%*3",
+                          "24.60%*3",
+                          "26.17%*3",
+                          "27.99%*3",
+                          "30.51%*3",
+                          "33.03%*3",
+                          "35.55%*3",
+                          "38.23%*3",
+                          "41.39%*3",
+                          "44.54%*3",
+                          "47.69%*3",
+                          "50.85%*3",
+                          "54.00%*3",
+                          "57.16%*3",
+                          "60.31%*3",
+                          "63.46%*3",
+                          "66.62%*3",
+                          "69.77%*3"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Answering Form: Reign at Ease STA Cost per Second",
+                        "values": [
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack Answering Form: Reign at Ease STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Answering Form STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Answering Form STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack - Illumining Form STA Cost",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack - Illumining Form STA Cost",
                         "values": [
                           "30",
                           "30",
@@ -3252,186 +4171,144 @@
                 ]
               },
               {
-                "name": "Vernal Screen",
+                "name": "Heartward by Moon",
                 "type": "Resonance Skill",
-                "desc": "Resonance Skill - Zephyr Stance\nWhile in Zephyr Stance and Cloud Breath is not full, Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Cloud Breath.\nCan be cast in mid-air close to the ground.\nThis skill shares a Cooldown with Resonance Skill - Drizzle Stance.\n\nAwakening Spring\nWhile in Zephyr Stance and at full Cloud Breath, Resonance Skill - Zephyr Stance is replaced with Awakening Spring. Casting this skill consumes all Cloud Breath, pulls in nearby targets, and sends Suisui into Drizzle Stance, dealing Glacio DMG and inflicting Glacio Chafe on the target 1 time on hit.\n\nEnrichment\nCasting Awakening Spring or Intro Skill - Tinkling Jade grants all nearby Resonators in the team 1 stack of Enrichment. This effect can be triggered once every 25s. Incoming Resonators receive healing from Suisui at the cost of Enrichment.\n\nResonance Skill - Drizzle Stance\nWhile in Drizzle Stance, Resonance Skill - Zephyr Stance is replaced with Resonance Skill - Drizzle Stance.\n Resonance Skill to have Suisui thrust forward, dealing Glacio DMG. If Suisui is the active Resonator while casting the skill, restore Floral Epistle.\nCan be cast in mid-air close to the ground.\nThis skill shares a Cooldown with Resonance Skill - Zephyr Stance.",
+                "desc": "Resonance Skill - Answering Form\nWhile in Answering Form, if Hsin is on the ground, Resonance Skill to deal Electro DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 4.\n\nIf Hsin moves while on the ground within a short time after casting this skill, She turns into the Moon Fox.\n- While turned into the Moon Fox and out of combat, Hsin gains Dustless Tread. With Dustless Tread, Hsin can enter the target's aggro range without triggering combat. Dustless Tread is removed when Hsin enters combat, is switched out, or ends the Moon Fox form by having environmental, gameplay, or feature interactions.\n- While turned into the Moon Fox and out of combat, Hsin restores {0} of Max HP each second.\n- Casting Dodge or taking damage ends the Moon Fox form and makes Hsin immune to DMG and interruption for a short time. Switching to another Resonator or Normal Attack also ends the Moon Fox form and casts Basic Attack - Answering Form Stage 4.\n\nResonance Skill - Illumining Form\nWhile in Illumining Form and Hsin is on the ground, Resonance Skill to have Hsin command a Colossal Xuanfang Mechanism, dealing Electro DMG.",
                 "descFormat": [
                   {
                     "start": 0,
-                    "end": 31,
+                    "end": 32,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 41,
-                    "end": 54,
+                    "start": 42,
+                    "end": 56,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 59,
-                    "end": 71,
+                    "start": 84,
+                    "end": 99,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 85,
-                    "end": 100,
+                    "start": 108,
+                    "end": 119,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 147,
+                    "end": 160,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 140,
-                    "end": 150,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 219,
-                    "end": 231,
+                    "start": 189,
+                    "end": 226,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 311,
-                    "end": 343,
+                    "start": 328,
+                    "end": 336,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 346,
-                    "end": 362,
+                    "start": 362,
+                    "end": 370,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 401,
+                    "end": 415,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 422,
+                    "end": 436,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 505,
+                    "end": 519,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 585,
+                    "end": 593,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 683,
+                    "end": 691,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 762,
+                    "end": 767,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 794,
+                    "end": 802,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 906,
+                    "end": 919,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 934,
+                    "end": 942,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 958,
+                    "end": 995,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 998,
+                    "end": 1031,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 372,
-                    "end": 385,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 398,
-                    "end": 410,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 412,
-                    "end": 443,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 461,
-                    "end": 477,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 511,
-                    "end": 523,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 572,
-                    "end": 586,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 596,
-                    "end": 606,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 622,
-                    "end": 634,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 665,
-                    "end": 675,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 684,
-                    "end": 700,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 704,
-                    "end": 731,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 784,
-                    "end": 794,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 904,
-                    "end": 914,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 917,
-                    "end": 949,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 959,
-                    "end": 973,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 975,
-                    "end": 1006,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1024,
+                    "start": 1041,
                     "end": 1056,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1059,
-                    "end": 1074,
+                    "start": 1084,
+                    "end": 1099,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1114,
-                    "end": 1124,
+                    "start": 1160,
+                    "end": 1171,
                     "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 1193,
-                    "end": 1207,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1287,
-                    "end": 1318,
-                    "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "electro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinB1.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3459,153 +4336,103 @@
                     ],
                     "rows": [
                       {
-                        "label": "Resonance Skill - Zephyr Stance DMG",
+                        "label": "Resonance Skill - Answering Form DMG",
                         "values": [
-                          "12.00%*6",
-                          "12.99%*6",
-                          "13.97%*6",
-                          "15.35%*6",
-                          "16.33%*6",
-                          "17.47%*6",
-                          "19.04%*6",
-                          "20.61%*6",
-                          "22.19%*6",
-                          "23.86%*6",
-                          "25.83%*6",
-                          "27.80%*6",
-                          "29.77%*6",
-                          "31.73%*6",
-                          "33.70%*6",
-                          "35.67%*6",
-                          "37.64%*6",
-                          "39.61%*6",
-                          "41.57%*6",
-                          "43.54%*6"
+                          "12.60%+12.60%+12.60%+8.40%*2+29.40%",
+                          "13.64%+13.64%+13.64%+9.09%*2+31.82%",
+                          "14.67%+14.67%+14.67%+9.78%*2+34.23%",
+                          "16.12%+16.12%+16.12%+10.75%*2+37.60%",
+                          "17.15%+17.15%+17.15%+11.44%*2+40.01%",
+                          "18.34%+18.34%+18.34%+12.23%*2+42.78%",
+                          "19.99%+19.99%+19.99%+13.33%*2+46.64%",
+                          "21.65%+21.65%+21.65%+14.43%*2+50.50%",
+                          "23.30%+23.30%+23.30%+15.53%*2+54.36%",
+                          "25.06%+25.06%+25.06%+16.71%*2+58.46%",
+                          "27.12%+27.12%+27.12%+18.08%*2+63.28%",
+                          "29.19%+29.19%+29.19%+19.46%*2+68.10%",
+                          "31.25%+31.25%+31.25%+20.84%*2+72.92%",
+                          "33.32%+33.32%+33.32%+22.22%*2+77.74%",
+                          "35.39%+35.39%+35.39%+23.59%*2+82.56%",
+                          "37.45%+37.45%+37.45%+24.97%*2+87.38%",
+                          "39.52%+39.52%+39.52%+26.35%*2+92.21%",
+                          "41.59%+41.59%+41.59%+27.73%*2+97.03%",
+                          "43.65%+43.65%+43.65%+29.10%*2+101.85%",
+                          "45.72%+45.72%+45.72%+30.48%*2+106.67%"
                         ]
                       },
                       {
-                        "label": "Awakening Spring DMG",
+                        "label": "Resonance Skill - Illumining Form DMG",
                         "values": [
-                          "14.40%",
-                          "15.59%",
-                          "16.77%",
-                          "18.42%",
-                          "19.60%",
-                          "20.96%",
-                          "22.85%",
-                          "24.74%",
-                          "26.63%",
-                          "28.63%",
-                          "31.00%",
-                          "33.36%",
-                          "35.72%",
-                          "38.08%",
-                          "40.44%",
-                          "42.80%",
-                          "45.16%",
-                          "47.53%",
-                          "49.89%",
-                          "52.25%"
+                          "2.80%*4+100.80%",
+                          "3.03%*4+109.07%",
+                          "3.26%*4+117.34%",
+                          "3.59%*4+128.91%",
+                          "3.82%*4+137.17%",
+                          "4.08%*4+146.68%",
+                          "4.45%*4+159.90%",
+                          "4.81%*4+173.13%",
+                          "5.18%*4+186.35%",
+                          "5.57%*4+200.41%",
+                          "6.03%*4+216.94%",
+                          "6.49%*4+233.47%",
+                          "6.95%*4+250.00%",
+                          "7.41%*4+266.53%",
+                          "7.87%*4+283.06%",
+                          "8.33%*4+299.59%",
+                          "8.79%*4+316.12%",
+                          "9.25%*4+332.66%",
+                          "9.70%*4+349.19%",
+                          "10.16%*4+365.72%"
                         ]
                       },
                       {
-                        "label": "Resonance Skill - Drizzle Stance DMG",
+                        "label": "Resonance Skill - Answering Form Cooldown",
                         "values": [
-                          "6.00%*6+36.00%",
-                          "6.50%*6+38.96%",
-                          "6.99%*6+41.91%",
-                          "7.68%*6+46.04%",
-                          "8.17%*6+48.99%",
-                          "8.74%*6+52.39%",
-                          "9.52%*6+57.11%",
-                          "10.31%*6+61.83%",
-                          "11.10%*6+66.56%",
-                          "11.93%*6+71.58%",
-                          "12.92%*6+77.48%",
-                          "13.90%*6+83.38%",
-                          "14.89%*6+89.29%",
-                          "15.87%*6+95.19%",
-                          "16.85%*6+101.10%",
-                          "17.84%*6+107.00%",
-                          "18.82%*6+112.90%",
-                          "19.81%*6+118.81%",
-                          "20.79%*6+124.71%",
-                          "21.77%*6+130.62%"
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12"
                         ]
                       },
                       {
-                        "label": "Enrichment Healing",
+                        "label": "Resonance Skill - Illumining Form Cooldown",
                         "values": [
-                          "330+1.62%",
-                          "369+1.69%",
-                          "412+1.75%",
-                          "462+1.85%",
-                          "521+1.98%",
-                          "577+2.11%",
-                          "587+2.36%",
-                          "600+2.63%",
-                          "610+2.93%",
-                          "627+3.42%",
-                          "678+3.70%",
-                          "730+3.98%",
-                          "782+4.26%",
-                          "834+4.55%",
-                          "885+4.83%",
-                          "937+5.11%",
-                          "989+5.39%",
-                          "1041+5.68%",
-                          "1092+5.96%",
-                          "1144+6.24%"
-                        ]
-                      },
-                      {
-                        "label": "Resonance Skill - Zephyr Stance/Resonance Skill - Drizzle Stance Cooldown",
-                        "values": [
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6",
-                          "6"
-                        ]
-                      },
-                      {
-                        "label": "Awakening Spring Cooldown",
-                        "values": [
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15",
-                          "15"
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
                         ]
                       }
                     ]
@@ -3613,96 +4440,306 @@
                 ]
               },
               {
-                "name": "Song of Thoroughfare",
+                "name": "Nexus Alight",
                 "type": "Resonance Liberation",
-                "desc": "Casting the skill deploys Ceaseless Landscape that lasts for 30s. When Ceaseless Landscape is active, Suisui enters the Roaming Transcendent state when casting Outro Skill - Rippling Waters.\nCeaseless Landscape grants all nearby Resonators in the team the following enhancements:\n- Inflicting a target with Spectro Frazzle, Fusion Burst, Glacio Chafe, and Aero Erosion, or dealing the corresponding Negative Status DMG increases the max stack limit of the corresponding Negative Status the target can receive by 3 for {0}s. This effect does not stack.\n- Inflicting a target with Electro Flare or dealing the corresponding Negative Status DMG increases the max stack limits of Electro Flare and Electro Rage the target can receive by 3 for {1}s. This effect does not stack.\n- Consuming Havoc Bane stacks on the target after landing a skill allows the Resonator's Havoc DMG to ignore the target's DEF by {2} and Havoc RES by {3} for {4}s. This effect does not stack.\nCan be cast in mid-air close to the ground.",
+                "desc": "Formshift\nCasting Answering Form: Realm Wanderer unlocks Formshift.\nCast Formshift to unfurl the Manifold Sanctum. Hsin turns into Illumining Form, unlocking a new set of combat abilities, and enters the Heart Manifest state.\nCan be cast in mid-air close to the ground.\nWhile in Illumining Form, engaging in quest dialogue, performing a environmental interaction with an animation, or using a Utility switches Hsin back to Answering Form to perform the corresponding action.\nWhile in Illumining Form, Hsin can walk on the surface of water, and will continuously consume STA in the deep water areas. In Walking Mode, Hsin in Illumining Form can step off a cliff into the air and walk slowly in mid-air, continuously consuming STA in this state. Hsin cannot restore STA while in Illumining Form and air-borne.\n\nPillars Across Heaven\nCasting Illumining Form: Beholding All Horizons unlocks Pillars Across Heaven.\nCast Pillars Across Heaven to bring the Manifold Sanctum crashing down, dealing Electro DMG to the target, considered Resonance Skill DMG.\nCan be cast in mid-air close to the ground.\nHsin returns to Answering Form and exits the Heart Manifest state.\n\nEdict\nCasting Formshift grants Hsin {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Edict for {2}s. The effect cannot exceed {0} {Cus:Sap,S=stack P=stacks SapTag=0} and all stacks are removed when the duration ends.\nAfter the active Resonator in the team deals DMG, Hsin automatically consumes Edict in the following {1}s trigger the following effect up to once per second. Retriggering the effect resets the durtion:\n- When Edict is consumed, summon a Soaring Pillar from the Manifold Sanctum as a Coordinated Attack to strike the target once, dealing Electro DMG.\n- Edict can be automatically consumed up to 1 stack per second.\n- Damage dealt by Soaring Pillar does not trigger this effect.\n- When Hsin is knocked out, all Edict stacks are cleared.\n\nHeart Manifest\nIncreases Hsin's resistance to interruption for {2}s.\nEntering the Heart Manifest state resets Hsin's Illumining Heart.\nWhile in the Heart Manifest state and in Illumining Form, if Pillars Across Heaven has not been unlocked, Resonance Liberation to have Hsin cast Invoked Form: Answering. While in Answering Form, Resonance Liberation to have Hsin cast Invoked Form: Illumining.\n\nInvoked Form: Answering\nHsin temporarily reverts to Answering Form, pausing the duration timer of the Heart Manifest state.\nWhen this skill is cast, if Hsin is on the ground, She casts Basic Attack - Answering Form Stage 3; if She is in mid-air, She casts Mid-air Attack - Answering Form.\n\nInvoke",
                 "descFormat": [
                   {
-                    "start": 26,
-                    "end": 45,
+                    "start": 0,
+                    "end": 9,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 18,
+                    "end": 48,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 71,
-                    "end": 90,
+                    "start": 57,
+                    "end": 66,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 120,
-                    "end": 140,
+                    "start": 73,
+                    "end": 82,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 160,
-                    "end": 189,
+                    "start": 131,
+                    "end": 146,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 191,
-                    "end": 210,
+                    "start": 204,
+                    "end": 218,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 307,
+                    "start": 279,
+                    "end": 294,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 308,
                     "end": 322,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 324,
-                    "end": 336,
-                    "kind": "tone",
-                    "tone": "pyro"
-                  },
-                  {
-                    "start": 338,
-                    "end": 350,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 356,
-                    "end": 368,
-                    "kind": "tone",
-                    "tone": "anemo"
-                  },
-                  {
-                    "start": 470,
-                    "end": 485,
+                    "start": 337,
+                    "end": 380,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 579,
-                    "end": 592,
+                    "start": 393,
+                    "end": 400,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 423,
+                    "end": 437,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 484,
+                    "end": 499,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 624,
+                    "end": 639,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 777,
+                    "end": 792,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 809,
+                    "end": 830,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 839,
+                    "end": 878,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 887,
+                    "end": 908,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 915,
+                    "end": 936,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 990,
+                    "end": 1001,
                     "kind": "tone",
                     "tone": "electro"
                   },
                   {
-                    "start": 676,
-                    "end": 689,
+                    "start": 1028,
+                    "end": 1047,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1109,
+                    "end": 1123,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1138,
+                    "end": 1152,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1161,
+                    "end": 1166,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1175,
+                    "end": 1184,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1240,
+                    "end": 1245,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1450,
+                    "end": 1455,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1581,
+                    "end": 1586,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1609,
+                    "end": 1623,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1709,
+                    "end": 1720,
                     "kind": "tone",
                     "tone": "electro"
                   },
                   {
-                    "start": 694,
-                    "end": 706,
+                    "start": 1724,
+                    "end": 1729,
                     "kind": "tone",
-                    "tone": "electro"
+                    "tone": "spectro"
                   },
                   {
-                    "start": 785,
-                    "end": 795,
+                    "start": 1804,
+                    "end": 1818,
                     "kind": "tone",
-                    "tone": "havoc"
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1881,
+                    "end": 1886,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1908,
+                    "end": 1922,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 1990,
+                    "end": 2004,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2025,
+                    "end": 2041,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2056,
+                    "end": 2070,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2084,
+                    "end": 2099,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2104,
+                    "end": 2125,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2149,
+                    "end": 2169,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2188,
+                    "end": 2211,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2222,
+                    "end": 2236,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2238,
+                    "end": 2258,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2277,
+                    "end": 2301,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2304,
+                    "end": 2327,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 2356,
+                    "end": 2370,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2406,
+                    "end": 2420,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2489,
+                    "end": 2526,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2560,
+                    "end": 2591,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2594,
+                    "end": 2600,
+                    "kind": "tone",
+                    "tone": "accent"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinC1.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -3730,7 +4767,57 @@
                     ],
                     "rows": [
                       {
-                        "label": "Cooldown",
+                        "label": "Pillars Across Heaven DMG",
+                        "values": [
+                          "40.50%+45.56%+30.38%+50.62%+35.44%+809.88%",
+                          "43.82%+49.30%+32.87%+54.77%+38.34%+876.29%",
+                          "47.14%+53.03%+35.36%+58.92%+41.25%+942.70%",
+                          "51.79%+58.26%+38.84%+64.73%+45.32%+1035.67%",
+                          "55.11%+62.00%+41.33%+68.88%+48.22%+1102.08%",
+                          "58.93%+66.29%+44.20%+73.66%+51.56%+1178.45%",
+                          "64.24%+72.27%+48.18%+80.30%+56.21%+1284.71%",
+                          "69.55%+78.25%+52.17%+86.94%+60.86%+1390.97%",
+                          "74.87%+84.22%+56.15%+93.58%+65.51%+1497.22%",
+                          "80.51%+90.57%+60.38%+100.64%+70.45%+1610.12%",
+                          "87.15%+98.04%+65.36%+108.94%+76.26%+1742.94%",
+                          "93.79%+105.52%+70.35%+117.24%+82.07%+1875.76%",
+                          "100.43%+112.99%+75.33%+125.54%+87.88%+2008.58%",
+                          "107.07%+120.46%+80.31%+133.84%+93.69%+2141.40%",
+                          "113.72%+127.93%+85.29%+142.14%+99.50%+2274.22%",
+                          "120.36%+135.40%+90.27%+150.44%+105.31%+2407.04%",
+                          "127.00%+142.87%+95.25%+158.75%+111.12%+2539.86%",
+                          "133.64%+150.34%+100.23%+167.05%+116.93%+2672.68%",
+                          "140.28%+157.81%+105.21%+175.35%+122.75%+2805.49%",
+                          "146.92%+165.28%+110.19%+183.65%+128.56%+2938.31%"
+                        ]
+                      },
+                      {
+                        "label": "Soaring Pillar DMG",
+                        "values": [
+                          "5.72%",
+                          "6.19%",
+                          "6.66%",
+                          "7.31%",
+                          "7.78%",
+                          "8.32%",
+                          "9.07%",
+                          "9.82%",
+                          "10.57%",
+                          "11.37%",
+                          "12.30%",
+                          "13.24%",
+                          "14.18%",
+                          "15.11%",
+                          "16.05%",
+                          "16.99%",
+                          "17.93%",
+                          "18.86%",
+                          "19.80%",
+                          "20.74%"
+                        ]
+                      },
+                      {
+                        "label": "Formshift Cooldown",
                         "values": [
                           "25",
                           "25",
@@ -3755,32 +4842,32 @@
                         ]
                       },
                       {
-                        "label": "Resonance Cost",
+                        "label": "Pillars Across Heaven Resonance Cost",
                         "values": [
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175",
-                          "175"
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125",
+                          "125"
                         ]
                       },
                       {
-                        "label": "Concerto Regen",
+                        "label": "Formshift Concerto Regen",
                         "values": [
                           "20",
                           "20",
@@ -3805,28 +4892,28 @@
                         ]
                       },
                       {
-                        "label": "Healing per Plume Step",
+                        "label": "Pillars Across Heaven Concerto Regen",
                         "values": [
-                          "550+2.71%",
-                          "616+2.82%",
-                          "687+2.93%",
-                          "770+3.09%",
-                          "869+3.31%",
-                          "962+3.53%",
-                          "979+3.93%",
-                          "1001+4.39%",
-                          "1017+4.88%",
-                          "1045+5.70%",
-                          "1131+6.17%",
-                          "1217+6.64%",
-                          "1303+7.11%",
-                          "1390+7.58%",
-                          "1476+8.05%",
-                          "1562+8.52%",
-                          "1648+8.99%",
-                          "1735+9.46%",
-                          "1821+9.93%",
-                          "1907+10.40%"
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
                         ]
                       }
                     ]
@@ -3834,378 +4921,372 @@
                 ]
               },
               {
-                "name": "Lambent Gold",
+                "name": "Forms Turn, Heart Abides",
                 "type": "Forte Circuit",
-                "desc": "Zephyr Stance\nSuisui is in Zephyr Stance by default. When in Zephyr Stance, Suisui can obtain Cloud Breath through certain skills.\n\nDrizzle Stance\nEntering Drizzle Stance clears all Floral Epistle.\nDuring Drizzle Stance:\n- Suisui unlocks new combat moves and restores Floral Epistle through certain skills.\n-Suisui gains increased resistance to interruption.\n- Normal Attack within a certain time after triggering a successful Dodge via Dodge skills to cast Basic Attack - Drizzle Stance Stage 1.\nAfter entering Drizzle Stance for 15s, Suisui ends Drizzle Stance and clears all Floral Epistle upon exiting the state.\n\nDodge - Parting Mist\nWhile performing attacks on the ground, Dodge to cast Dodge - Parting Mist at the cost of STA.\nWhen in Zephyr Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Cloud Breath. Normal Attack shortly after triggering the Dodge to cast Dodge Counter - Zephyr Stance.\n- When in Drizzle Stance, triggering a successful Dodge while casting Dodge - Parting Mist restores Floral Epistle, and does not reset the cycle of Basic Attack - Drizzle Stance within a certain period.\n\nBasic Attack - Drizzle Stance\nWhen in Drizzle Stance, Basic Attack - Zephyr Stance is replaced with Basic Attack - Drizzle Stance.\n Normal Attack repeatedly to perform up to 4 consecutive attacks, dealing Glacio DMG and restoring Floral Epistle on hit.\nWhen casting Basic Attack - Drizzle Stance Stage 3, continuously pull in nearby targets.\nBasic Attack - Drizzle Stance Stage 4 inflicts Glacio Chafe 1 time on the target on hit.\n\nHeavy Attack - Drizzle Stance\nConsume STA to attack the target, dealing Glacio DMG and restoring Floral Epistle on hit.\n\nIlluminating Dew\nWhen in Drizzle Stance, keep holding Normal Attack after casting Heavy Attack - Drizzle Stance to cast this skill.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nSwallow's Cut\nWhen in Drizzle Stance, cast this skill in one of the following ways:\n- Release the Normal Attack button while casting Heavy Attack - Drizzle Stance.\n- Normal Attack while Suisui is mid-air.\nConsume STA to perform Plunging Attack, dealing Glacio DMG.\n\nCloud Breath\nMax {0} points.\nWhen in Zephyr Stance:\n- Basic Attack - Zephyr Stance and Dodge Counter - Zephyr Stance restore Cloud Breath on hit.\n- Casting Resonance Skill - Zephyr Stance restores {1} {Cus:Sap,S=point P=points SapTag=1} of Cloud Breath when Suisui is the active Resonator in the team.\n- Triggering a successful Dodge while casting Dodge - Parting Mist restores {2} {Cus:Sap,S=point P=points SapTag=2} of Cloud Breath.\n\nFloral Epistle\n",
+                "desc": "Forms Born of Heart\nWhile in Answering Form, Hsin can gain and consume Answering Heart.\nWhile in Illumining Form, Hsin can gain and consume Illumining Heart.\n\nAnswering Form: Realm Wanderer\nWhile in Answering Form, when Hsin's Answering Heart reaches {0} points, Heavy Attack - Answering Form is replaced with Answering Form: Realm Wanderer.\nHold Normal Attack to cast the skill at the cost of STA. Hsin is immune to DMG and interruption during the action, and deals Electro DMG to the target, considered Resonance Skill DMG.\nCasting Answering Form: Realm Wanderer grants Hsin Resolution of Wishes. This Answering Form: Realm Wanderer consumes Resolution of Wishes to become Answering Form: Realm Protector, dealing greater DMG. Resolution of Wishes can only be gained once every {16}s.\nWhile casting Answering Form: Realm Wanderer, if Hsin is not in the Heart Manifest state, consume {0} points of Answering Heart and unlock Resonance Liberation - Formshift.\n\nIllumining Form: Beholding All Horizons\nWhile in Illumining Form, when Hsin consumes all of her Illumining Heart during the Mechanism Dominion state, Heavy Attack - Illumining Form is replaced with Illumining Form: Beholding All Horizons.\nHold Normal Attack to cast the skill at the cost of STA, dealing Electro DMG to the target, considered Resonance Skill DMG.\nCasting Illumining Form: Beholding All Horizons grants Hsin Law of Heaven. This Illumining Form: Beholding All Horizons consumes Law of Heaven to become Illumining Form: Stilling All Horizons, dealing greater DMG. Law of Heaven can only be gained once every {16}s.\nAfter casting Illumining Form: Beholding All Horizons, Hsin exits the Mechanism Dominion state and Resonance Liberation - Pillars Across Heaven is unlocked.\n\nIllumining Form: Pillars Aligned\nWhile in Illumining Form, when Hsin's Illumining Heart reaches {1} points, Resonance Skill is replaced with Illumining Form: Pillars Aligned.\nWhen Hsin is on the ground, Resonance Skill to deal Electro DMG to surrounding targets, considered Resonance Skill DMG.\nAfter casting Illumining Form: Pillars Aligned, Hsin enters the Mechanism Dominion state.\n\nMechanism Dominion\nThe Mechanism Dominion state lasts {2}s.\nWhile this state is active, Basic Attack - Illumining Form is further enhanced into Basic Attack - Illumining Form: Pillars Aligned, and Dodge Counter - Illumining Form is replaced with Dodge Counter - Illumining Form: Pillars Aligned.\nWhen Basic Attack - Illumining Form: Pillars Aligned or Dodge Counter - Illumining Form: Pillars Aligned hits a target, Illumining Heart is consumed if Hsin is on the fiel",
                 "descFormat": [
                   {
                     "start": 0,
-                    "end": 13,
+                    "end": 19,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 27,
-                    "end": 40,
+                    "start": 29,
+                    "end": 43,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 61,
-                    "end": 74,
+                    "start": 71,
+                    "end": 86,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 94,
-                    "end": 106,
+                    "start": 97,
+                    "end": 112,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 132,
-                    "end": 146,
+                    "start": 140,
+                    "end": 156,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 159,
+                    "end": 189,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 156,
-                    "end": 170,
+                    "start": 199,
+                    "end": 213,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 182,
-                    "end": 196,
+                    "start": 227,
+                    "end": 242,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 205,
-                    "end": 219,
+                    "start": 263,
+                    "end": 292,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 268,
-                    "end": 282,
+                    "start": 310,
+                    "end": 340,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 361,
-                    "end": 374,
+                    "start": 347,
+                    "end": 360,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 437,
-                    "end": 449,
+                    "start": 467,
+                    "end": 478,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 505,
+                    "end": 524,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 458,
-                    "end": 495,
+                    "start": 534,
+                    "end": 564,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 512,
-                    "end": 526,
+                    "start": 577,
+                    "end": 597,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 548,
-                    "end": 562,
+                    "start": 604,
+                    "end": 634,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 578,
-                    "end": 592,
+                    "start": 644,
+                    "end": 664,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 618,
-                    "end": 638,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 679,
-                    "end": 684,
+                    "start": 675,
+                    "end": 706,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 693,
-                    "end": 713,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 742,
-                    "end": 755,
+                    "start": 729,
+                    "end": 749,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
                     "start": 801,
-                    "end": 821,
+                    "end": 831,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 831,
-                    "end": 843,
+                    "start": 855,
+                    "end": 869,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 845,
-                    "end": 858,
+                    "start": 899,
+                    "end": 914,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 902,
-                    "end": 931,
+                    "start": 926,
+                    "end": 958,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 943,
-                    "end": 957,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1003,
-                    "end": 1023,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1033,
-                    "end": 1047,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1081,
-                    "end": 1110,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1137,
-                    "end": 1166,
+                    "start": 961,
+                    "end": 1000,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1175,
-                    "end": 1189,
+                    "start": 1010,
+                    "end": 1025,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1191,
-                    "end": 1219,
+                    "start": 1057,
+                    "end": 1073,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1237,
-                    "end": 1266,
+                    "start": 1085,
+                    "end": 1103,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1269,
-                    "end": 1282,
+                    "start": 1111,
+                    "end": 1141,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1342,
-                    "end": 1352,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 1367,
-                    "end": 1381,
+                    "start": 1159,
+                    "end": 1198,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1403,
-                    "end": 1440,
+                    "start": 1205,
+                    "end": 1218,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1479,
-                    "end": 1516,
+                    "start": 1265,
+                    "end": 1276,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1303,
+                    "end": 1322,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1526,
-                    "end": 1538,
+                    "start": 1332,
+                    "end": 1371,
                     "kind": "tone",
-                    "tone": "cryo"
+                    "tone": "spectro"
                   },
                   {
-                    "start": 1569,
-                    "end": 1598,
+                    "start": 1384,
+                    "end": 1397,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1404,
+                    "end": 1443,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1453,
+                    "end": 1466,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1477,
+                    "end": 1515,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1538,
+                    "end": 1551,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1603,
+                    "end": 1642,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1659,
+                    "end": 1677,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1688,
+                    "end": 1732,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1747,
+                    "end": 1779,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1641,
-                    "end": 1651,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 1666,
-                    "end": 1680,
+                    "start": 1789,
+                    "end": 1804,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1690,
-                    "end": 1706,
+                    "start": 1818,
+                    "end": 1834,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1855,
+                    "end": 1870,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1888,
+                    "end": 1920,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1950,
+                    "end": 1965,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1974,
+                    "end": 1985,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 2021,
+                    "end": 2040,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2056,
+                    "end": 2088,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2106,
+                    "end": 2124,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 2133,
+                    "end": 2151,
                     "kind": "tone",
                     "tone": "accent"
                   },
                   {
-                    "start": 1715,
-                    "end": 1729,
+                    "start": 2156,
+                    "end": 2174,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1744,
-                    "end": 1757,
+                    "start": 2221,
+                    "end": 2251,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1772,
-                    "end": 1801,
+                    "start": 2277,
+                    "end": 2324,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1870,
-                    "end": 1880,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 1883,
-                    "end": 1896,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1905,
-                    "end": 1919,
+                    "start": 2330,
+                    "end": 2361,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 1981,
-                    "end": 1994,
+                    "start": 2379,
+                    "end": 2427,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2016,
-                    "end": 2045,
+                    "start": 2434,
+                    "end": 2481,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2049,
-                    "end": 2062,
+                    "start": 2485,
+                    "end": 2533,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 2136,
-                    "end": 2146,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 2149,
-                    "end": 2161,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 2186,
-                    "end": 2199,
+                    "start": 2549,
+                    "end": 2565,
                     "kind": "tone",
                     "tone": "spectro"
-                  },
-                  {
-                    "start": 2203,
-                    "end": 2231,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2236,
-                    "end": 2265,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2274,
-                    "end": 2286,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2305,
-                    "end": 2336,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2389,
-                    "end": 2401,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2497,
-                    "end": 2517,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2570,
-                    "end": 2582,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2585,
-                    "end": 2599,
-                    "kind": "tone",
-                    "tone": "accent"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinY.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -4233,182 +5314,157 @@
                     ],
                     "rows": [
                       {
-                        "label": "Basic Attack - Drizzle Stance Stage 1 DMG",
+                        "label": "Answering Form: Realm Wanderer DMG",
                         "values": [
-                          "9.84%*2+9.84%*2",
-                          "10.65%*2+10.65%*2",
-                          "11.46%*2+11.46%*2",
-                          "12.59%*2+12.59%*2",
-                          "13.40%*2+13.40%*2",
-                          "14.32%*2+14.32%*2",
-                          "15.61%*2+15.61%*2",
-                          "16.91%*2+16.91%*2",
-                          "18.20%*2+18.20%*2",
-                          "19.57%*2+19.57%*2",
-                          "21.18%*2+21.18%*2",
-                          "22.80%*2+22.80%*2",
-                          "24.41%*2+24.41%*2",
-                          "26.02%*2+26.02%*2",
-                          "27.64%*2+27.64%*2",
-                          "29.25%*2+29.25%*2",
-                          "30.86%*2+30.86%*2",
-                          "32.48%*2+32.48%*2",
-                          "34.09%*2+34.09%*2",
-                          "35.71%*2+35.71%*2"
+                          "22.96%+5.74%*6+229.59%",
+                          "24.85%+6.22%*6+248.42%",
+                          "26.73%+6.69%*6+267.25%",
+                          "29.36%+7.34%*6+293.60%",
+                          "31.25%+7.82%*6+312.43%",
+                          "33.41%+8.36%*6+334.08%",
+                          "36.42%+9.11%*6+364.20%",
+                          "39.44%+9.86%*6+394.32%",
+                          "42.45%+10.62%*6+424.45%",
+                          "45.65%+11.42%*6+456.45%",
+                          "49.41%+12.36%*6+494.10%",
+                          "53.18%+13.30%*6+531.75%",
+                          "56.95%+14.24%*6+569.41%",
+                          "60.71%+15.18%*6+607.06%",
+                          "64.48%+16.12%*6+644.71%",
+                          "68.24%+17.06%*6+682.36%",
+                          "72.01%+18.01%*6+720.02%",
+                          "75.77%+18.95%*6+757.67%",
+                          "79.54%+19.89%*6+795.32%",
+                          "83.30%+20.83%*6+832.97%"
                         ]
                       },
                       {
-                        "label": "Basic Attack - Drizzle Stance Stage 2 DMG",
+                        "label": "Answering Form: Realm Protector DMG",
                         "values": [
-                          "16.00%+8.00%*2+8.00%*2+16.00%+16.00%",
-                          "17.32%+8.66%*2+8.66%*2+17.32%+17.32%",
-                          "18.63%+9.32%*2+9.32%*2+18.63%+18.63%",
-                          "20.47%+10.24%*2+10.24%*2+20.47%+20.47%",
-                          "21.78%+10.89%*2+10.89%*2+21.78%+21.78%",
-                          "23.29%+11.65%*2+11.65%*2+23.29%+23.29%",
-                          "25.39%+12.70%*2+12.70%*2+25.39%+25.39%",
-                          "27.48%+13.74%*2+13.74%*2+27.48%+27.48%",
-                          "29.58%+14.79%*2+14.79%*2+29.58%+29.58%",
-                          "31.81%+15.91%*2+15.91%*2+31.81%+31.81%",
-                          "34.44%+17.22%*2+17.22%*2+34.44%+34.44%",
-                          "37.06%+18.53%*2+18.53%*2+37.06%+37.06%",
-                          "39.69%+19.85%*2+19.85%*2+39.69%+39.69%",
-                          "42.31%+21.16%*2+21.16%*2+42.31%+42.31%",
-                          "44.93%+22.47%*2+22.47%*2+44.93%+44.93%",
-                          "47.56%+23.78%*2+23.78%*2+47.56%+47.56%",
-                          "50.18%+25.09%*2+25.09%*2+50.18%+50.18%",
-                          "52.81%+26.41%*2+26.41%*2+52.81%+52.81%",
-                          "55.43%+27.72%*2+27.72%*2+55.43%+55.43%",
-                          "58.05%+29.03%*2+29.03%*2+58.05%+58.05%"
+                          "49.96%+12.49%*6+499.55%",
+                          "54.06%+13.52%*6+540.51%",
+                          "58.15%+14.54%*6+581.48%",
+                          "63.89%+15.98%*6+638.83%",
+                          "67.98%+17.00%*6+679.79%",
+                          "72.69%+18.18%*6+726.90%",
+                          "79.25%+19.82%*6+792.44%",
+                          "85.80%+21.45%*6+857.98%",
+                          "92.36%+23.09%*6+923.52%",
+                          "99.32%+24.83%*6+993.15%",
+                          "107.51%+26.88%*6+1075.08%",
+                          "115.71%+28.93%*6+1157.01%",
+                          "123.90%+30.98%*6+1238.93%",
+                          "132.09%+33.03%*6+1320.86%",
+                          "140.28%+35.07%*6+1402.78%",
+                          "148.48%+37.12%*6+1484.71%",
+                          "156.67%+39.17%*6+1566.63%",
+                          "164.86%+41.22%*6+1648.56%",
+                          "173.05%+43.27%*6+1730.49%",
+                          "181.25%+45.32%*6+1812.41%"
                         ]
                       },
                       {
-                        "label": "Basic Attack - Drizzle Stance Stage 3 DMG",
+                        "label": "Illumining Form: Beholding All Horizons DMG",
                         "values": [
-                          "6.92%*3+6.92%*3+6.92%*3+6.92%*3",
-                          "7.49%*3+7.49%*3+7.49%*3+7.49%*3",
-                          "8.06%*3+8.06%*3+8.06%*3+8.06%*3",
-                          "8.85%*3+8.85%*3+8.85%*3+8.85%*3",
-                          "9.42%*3+9.42%*3+9.42%*3+9.42%*3",
-                          "10.07%*3+10.07%*3+10.07%*3+10.07%*3",
-                          "10.98%*3+10.98%*3+10.98%*3+10.98%*3",
-                          "11.89%*3+11.89%*3+11.89%*3+11.89%*3",
-                          "12.80%*3+12.80%*3+12.80%*3+12.80%*3",
-                          "13.76%*3+13.76%*3+13.76%*3+13.76%*3",
-                          "14.90%*3+14.90%*3+14.90%*3+14.90%*3",
-                          "16.03%*3+16.03%*3+16.03%*3+16.03%*3",
-                          "17.17%*3+17.17%*3+17.17%*3+17.17%*3",
-                          "18.30%*3+18.30%*3+18.30%*3+18.30%*3",
-                          "19.44%*3+19.44%*3+19.44%*3+19.44%*3",
-                          "20.57%*3+20.57%*3+20.57%*3+20.57%*3",
-                          "21.71%*3+21.71%*3+21.71%*3+21.71%*3",
-                          "22.84%*3+22.84%*3+22.84%*3+22.84%*3",
-                          "23.98%*3+23.98%*3+23.98%*3+23.98%*3",
-                          "25.11%*3+25.11%*3+25.11%*3+25.11%*3"
+                          "5.17%*4+185.96%",
+                          "5.59%*4+201.20%",
+                          "6.02%*4+216.45%",
+                          "6.61%*4+237.80%",
+                          "7.03%*4+253.05%",
+                          "7.52%*4+270.58%",
+                          "8.20%*4+294.98%",
+                          "8.88%*4+319.38%",
+                          "9.55%*4+343.77%",
+                          "10.27%*4+369.70%",
+                          "11.12%*4+400.19%",
+                          "11.97%*4+430.69%",
+                          "12.82%*4+461.18%",
+                          "13.66%*4+491.68%",
+                          "14.51%*4+522.18%",
+                          "15.36%*4+552.67%",
+                          "16.20%*4+583.17%",
+                          "17.05%*4+613.66%",
+                          "17.90%*4+644.16%",
+                          "18.75%*4+674.66%"
                         ]
                       },
                       {
-                        "label": "Basic Attack - Drizzle Stance Stage 4 DMG",
+                        "label": "Illumining Form: Stilling All Horizons DMG",
                         "values": [
-                          "80.00%",
-                          "86.56%",
-                          "93.12%",
-                          "102.31%",
-                          "108.87%",
-                          "116.41%",
-                          "126.91%",
-                          "137.40%",
-                          "147.90%",
-                          "159.05%",
-                          "172.17%",
-                          "185.29%",
-                          "198.41%",
-                          "211.53%",
-                          "224.65%",
-                          "237.77%",
-                          "250.89%",
-                          "264.01%",
-                          "277.13%",
-                          "290.25%"
+                          "13.61%*4+489.66%",
+                          "14.72%*4+529.81%",
+                          "15.84%*4+569.96%",
+                          "17.40%*4+626.18%",
+                          "18.51%*4+666.33%",
+                          "19.80%*4+712.50%",
+                          "21.58%*4+776.75%",
+                          "23.37%*4+840.99%",
+                          "25.15%*4+905.23%",
+                          "27.05%*4+973.49%",
+                          "29.28%*4+1053.79%",
+                          "31.51%*4+1134.10%",
+                          "33.74%*4+1214.40%",
+                          "35.97%*4+1294.70%",
+                          "38.20%*4+1375.01%",
+                          "40.43%*4+1455.31%",
+                          "42.66%*4+1535.61%",
+                          "44.89%*4+1615.92%",
+                          "47.12%*4+1696.22%",
+                          "49.35%*4+1776.52%"
                         ]
                       },
                       {
-                        "label": "Heavy Attack - Drizzle Stance",
+                        "label": "Illumining Form: Pillars Aligned DMG",
                         "values": [
-                          "6.00%*10+60.00%",
-                          "6.50%*10+64.92%",
-                          "6.99%*10+69.84%",
-                          "7.68%*10+76.73%",
-                          "8.17%*10+81.65%",
-                          "8.74%*10+87.31%",
-                          "9.52%*10+95.18%",
-                          "10.31%*10+103.05%",
-                          "11.10%*10+110.93%",
-                          "11.93%*10+119.29%",
-                          "12.92%*10+129.13%",
-                          "13.90%*10+138.97%",
-                          "14.89%*10+148.81%",
-                          "15.87%*10+158.65%",
-                          "16.85%*10+168.49%",
-                          "17.84%*10+178.33%",
-                          "18.82%*10+188.17%",
-                          "19.81%*10+198.01%",
-                          "20.79%*10+207.85%",
-                          "21.77%*10+217.69%"
+                          "90.26%*4+9.03%+18.06%*2+22.57%*2",
+                          "97.66%*4+9.77%+19.54%*2+24.42%*2",
+                          "105.06%*4+10.51%+21.02%*2+26.27%*2",
+                          "115.42%*4+11.55%+23.09%*2+28.86%*2",
+                          "122.82%*4+12.29%+24.57%*2+30.71%*2",
+                          "131.33%*4+13.14%+26.27%*2+32.84%*2",
+                          "143.17%*4+14.32%+28.64%*2+35.80%*2",
+                          "155.01%*4+15.51%+31.01%*2+38.76%*2",
+                          "166.85%*4+16.69%+33.37%*2+41.72%*2",
+                          "179.43%*4+17.95%+35.89%*2+44.86%*2",
+                          "194.23%*4+19.43%+38.85%*2+48.56%*2",
+                          "209.04%*4+20.91%+41.81%*2+52.26%*2",
+                          "223.84%*4+22.39%+44.77%*2+55.96%*2",
+                          "238.64%*4+23.87%+47.73%*2+59.66%*2",
+                          "253.44%*4+25.35%+50.69%*2+63.36%*2",
+                          "268.24%*4+26.83%+53.65%*2+67.06%*2",
+                          "283.04%*4+28.31%+56.61%*2+70.76%*2",
+                          "297.84%*4+29.79%+59.57%*2+74.46%*2",
+                          "312.64%*4+31.27%+62.53%*2+78.16%*2",
+                          "327.44%*4+32.75%+65.49%*2+81.86%*2"
                         ]
                       },
                       {
-                        "label": "Illuminating Dew DMG",
+                        "label": "Illumining Form: Pillars Aligned Cooldown",
                         "values": [
-                          "52.80%",
-                          "57.13%",
-                          "61.46%",
-                          "67.53%",
-                          "71.86%",
-                          "76.83%",
-                          "83.76%",
-                          "90.69%",
-                          "97.62%",
-                          "104.98%",
-                          "113.64%",
-                          "122.30%",
-                          "130.95%",
-                          "139.61%",
-                          "148.27%",
-                          "156.93%",
-                          "165.59%",
-                          "174.25%",
-                          "182.91%",
-                          "191.57%"
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12",
+                          "12"
                         ]
                       },
                       {
-                        "label": "Swallow's Cut DMG",
-                        "values": [
-                          "54.15%",
-                          "58.59%",
-                          "63.03%",
-                          "69.24%",
-                          "73.68%",
-                          "78.79%",
-                          "85.89%",
-                          "93.00%",
-                          "100.10%",
-                          "107.65%",
-                          "116.53%",
-                          "125.41%",
-                          "134.29%",
-                          "143.17%",
-                          "152.05%",
-                          "160.93%",
-                          "169.81%",
-                          "178.69%",
-                          "187.57%",
-                          "196.44%"
-                        ]
-                      },
-                      {
-                        "label": "Dodge - Parting Mist STA Cost",
+                        "label": "Answering Form: Realm Wanderer STA Cost",
                         "values": [
                           "20",
                           "20",
@@ -4433,7 +5489,7 @@
                         ]
                       },
                       {
-                        "label": "Heavy Attack - Drizzle Stance STA Cost",
+                        "label": "Answering Form: Realm Protector STA Cost",
                         "values": [
                           "20",
                           "20",
@@ -4458,53 +5514,53 @@
                         ]
                       },
                       {
-                        "label": "Illuminating Dew STA Cost",
+                        "label": "Illumining Form: Beholding All Horizons STA Cost",
                         "values": [
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30"
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
                         ]
                       },
                       {
-                        "label": "Swallow's Cut STA Cost",
+                        "label": "Illumining Form: Stilling All Horizons STA Cost",
                         "values": [
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30",
-                          "30"
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20"
                         ]
                       }
                     ]
@@ -4512,36 +5568,138 @@
                 ]
               },
               {
-                "name": "Tinkling Jade",
+                "name": "Glance on a Whim",
                 "type": "Intro Skill",
-                "desc": "Attack the target, dealing Glacio DMG, and inflict Glacio Chafe 1 time on the target.\nWhile casting this skill, consume all Cloud Breath to pull in nearby targets and enter Drizzle Stance.",
+                "desc": "Intro Skill - Answering Form\nThis skill becomes available while in Answering Form. Attack the target, dealing Electro DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 3 (when in Resonance Mode - Unison) or Basic Attack - Answering Form Stage 4 (when in Resonance Mode - Electro Flare).\n\nIntro Skill - Answering Form: Manifold Unison\nThe skill becomes available when in Answering Form. Attack the target, dealing greater Electro DMG, considered Resonance Skill DMG.\nAfter casting this skill, Normal Attack within a short time to cast Basic Attack - Answering Form Stage 3.\n\nIntro Skill - Illumining Form\nThis skill becomes available while in Illumining Form. Attack the target, dealing Electro DMG.\n\nIntro Skill - Illumining Form: Manifold Unison\nThe skill becomes available when in Illumining Form. Attack the target, dealing greater Electro DMG, considered Resonance Skill DMG.",
                 "descFormat": [
                   {
-                    "start": 27,
-                    "end": 37,
+                    "start": 0,
+                    "end": 28,
                     "kind": "tone",
-                    "tone": "cryo"
+                    "tone": "accent"
                   },
                   {
-                    "start": 51,
-                    "end": 63,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 124,
-                    "end": 136,
+                    "start": 67,
+                    "end": 81,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 173,
-                    "end": 187,
+                    "start": 110,
+                    "end": 121,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 149,
+                    "end": 162,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 191,
+                    "end": 228,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 238,
+                    "end": 261,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 266,
+                    "end": 303,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 313,
+                    "end": 343,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 347,
+                    "end": 392,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 429,
+                    "end": 443,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 480,
+                    "end": 491,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 504,
+                    "end": 523,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 551,
+                    "end": 564,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 593,
+                    "end": 630,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 633,
+                    "end": 662,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 701,
+                    "end": 716,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 745,
+                    "end": 756,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 759,
+                    "end": 805,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 842,
+                    "end": 857,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 894,
+                    "end": 905,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 918,
+                    "end": 937,
                     "kind": "tone",
                     "tone": "spectro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.webp",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinQTE.webp",
                 "scaling": [
                   {
                     "title": "Skill Level Scaling",
@@ -4569,32 +5727,232 @@
                     ],
                     "rows": [
                       {
-                        "label": "Skill DMG",
+                        "label": "Intro Skill - Answering Form: Electro Flare DMG",
                         "values": [
-                          "14.40%",
-                          "15.59%",
-                          "16.77%",
-                          "18.42%",
-                          "19.60%",
-                          "20.96%",
-                          "22.85%",
-                          "24.74%",
-                          "26.63%",
-                          "28.63%",
-                          "31.00%",
-                          "33.36%",
-                          "35.72%",
-                          "38.08%",
-                          "40.44%",
-                          "42.80%",
-                          "45.16%",
-                          "47.53%",
-                          "49.89%",
-                          "52.25%"
+                          "3.97%*2+3.97%*2+63.39%",
+                          "4.29%*2+4.29%*2+68.59%",
+                          "4.62%*2+4.62%*2+73.79%",
+                          "5.07%*2+5.07%*2+81.06%",
+                          "5.40%*2+5.40%*2+86.26%",
+                          "5.77%*2+5.77%*2+92.24%",
+                          "6.29%*2+6.29%*2+100.56%",
+                          "6.81%*2+6.81%*2+108.87%",
+                          "7.33%*2+7.33%*2+117.19%",
+                          "7.88%*2+7.88%*2+126.02%",
+                          "8.53%*2+8.53%*2+136.42%",
+                          "9.18%*2+9.18%*2+146.82%",
+                          "9.83%*2+9.83%*2+157.21%",
+                          "10.48%*2+10.48%*2+167.61%",
+                          "11.13%*2+11.13%*2+178.00%",
+                          "11.78%*2+11.78%*2+188.40%",
+                          "12.43%*2+12.43%*2+198.79%",
+                          "13.08%*2+13.08%*2+209.19%",
+                          "13.73%*2+13.73%*2+219.58%",
+                          "14.38%*2+14.38%*2+229.98%"
                         ]
                       },
                       {
-                        "label": "Concerto Regen",
+                        "label": "Intro Skill - Answering Form: Unison DMG",
+                        "values": [
+                          "5.17%+10.34%+5.17%+10.34%*3",
+                          "5.59%+11.18%+5.59%+11.18%*3",
+                          "6.02%+12.03%+6.02%+12.03%*3",
+                          "6.61%+13.22%+6.61%+13.22%*3",
+                          "7.03%+14.06%+7.03%+14.06%*3",
+                          "7.52%+15.04%+7.52%+15.04%*3",
+                          "8.20%+16.39%+8.20%+16.39%*3",
+                          "8.88%+17.75%+8.88%+17.75%*3",
+                          "9.56%+19.11%+9.56%+19.11%*3",
+                          "10.28%+20.55%+10.28%+20.55%*3",
+                          "11.12%+22.24%+11.12%+22.24%*3",
+                          "11.97%+23.93%+11.97%+23.93%*3",
+                          "12.82%+25.63%+12.82%+25.63%*3",
+                          "13.66%+27.32%+13.66%+27.32%*3",
+                          "14.51%+29.02%+14.51%+29.02%*3",
+                          "15.36%+30.71%+15.36%+30.71%*3",
+                          "16.21%+32.41%+16.21%+32.41%*3",
+                          "17.05%+34.10%+17.05%+34.10%*3",
+                          "17.90%+35.80%+17.90%+35.80%*3",
+                          "18.75%+37.49%+18.75%+37.49%*3"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Answering Form: Manifold Unison DMG",
+                        "values": [
+                          "30.48%+60.95%+30.48%+60.95%*3",
+                          "32.98%+65.95%+32.98%+65.95%*3",
+                          "35.48%+70.95%+35.48%+70.95%*3",
+                          "38.98%+77.95%+38.98%+77.95%*3",
+                          "41.47%+82.94%+41.47%+82.94%*3",
+                          "44.35%+88.69%+44.35%+88.69%*3",
+                          "48.35%+96.69%+48.35%+96.69%*3",
+                          "52.35%+104.69%+52.35%+104.69%*3",
+                          "56.34%+112.68%+56.34%+112.68%*3",
+                          "60.59%+121.18%+60.59%+121.18%*3",
+                          "65.59%+131.17%+65.59%+131.17%*3",
+                          "70.59%+141.17%+70.59%+141.17%*3",
+                          "75.59%+151.17%+75.59%+151.17%*3",
+                          "80.58%+161.16%+80.58%+161.16%*3",
+                          "85.58%+171.16%+85.58%+171.16%*3",
+                          "90.58%+181.15%+90.58%+181.15%*3",
+                          "95.58%+191.15%+95.58%+191.15%*3",
+                          "100.57%+201.14%+100.57%+201.14%*3",
+                          "105.57%+211.14%+105.57%+211.14%*3",
+                          "110.57%+221.13%+110.57%+221.13%*3"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Illumining Form: Electro Flare DMG",
+                        "values": [
+                          "5.75%*4+5.75%*2+20.11%*4",
+                          "6.22%*4+6.22%*2+21.76%*4",
+                          "6.69%*4+6.69%*2+23.40%*4",
+                          "7.35%*4+7.35%*2+25.71%*4",
+                          "7.82%*4+7.82%*2+27.36%*4",
+                          "8.36%*4+8.36%*2+29.26%*4",
+                          "9.12%*4+9.12%*2+31.89%*4",
+                          "9.87%*4+9.87%*2+34.53%*4",
+                          "10.62%*4+10.62%*2+37.17%*4",
+                          "11.42%*4+11.42%*2+39.97%*4",
+                          "12.37%*4+12.37%*2+43.27%*4",
+                          "13.31%*4+13.31%*2+46.56%*4",
+                          "14.25%*4+14.25%*2+49.86%*4",
+                          "15.19%*4+15.19%*2+53.16%*4",
+                          "16.13%*4+16.13%*2+56.45%*4",
+                          "17.08%*4+17.08%*2+59.75%*4",
+                          "18.02%*4+18.02%*2+63.05%*4",
+                          "18.96%*4+18.96%*2+66.34%*4",
+                          "19.90%*4+19.90%*2+69.64%*4",
+                          "20.84%*4+20.84%*2+72.94%*4"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Illumining Form: Unison DMG",
+                        "values": [
+                          "28.47%*4+2.85%+5.70%*2+7.12%*2",
+                          "30.80%*4+3.08%+6.16%*2+7.70%*2",
+                          "33.13%*4+3.32%+6.63%*2+8.29%*2",
+                          "36.40%*4+3.64%+7.28%*2+9.10%*2",
+                          "38.74%*4+3.88%+7.75%*2+9.69%*2",
+                          "41.42%*4+4.15%+8.29%*2+10.36%*2",
+                          "45.15%*4+4.52%+9.03%*2+11.29%*2",
+                          "48.89%*4+4.89%+9.78%*2+12.23%*2",
+                          "52.62%*4+5.27%+10.53%*2+13.16%*2",
+                          "56.59%*4+5.66%+11.32%*2+14.15%*2",
+                          "61.26%*4+6.13%+12.26%*2+15.32%*2",
+                          "65.93%*4+6.60%+13.19%*2+16.49%*2",
+                          "70.59%*4+7.06%+14.12%*2+17.65%*2",
+                          "75.26%*4+7.53%+15.06%*2+18.82%*2",
+                          "79.93%*4+8.00%+15.99%*2+19.99%*2",
+                          "84.60%*4+8.46%+16.92%*2+21.15%*2",
+                          "89.26%*4+8.93%+17.86%*2+22.32%*2",
+                          "93.93%*4+9.40%+18.79%*2+23.49%*2",
+                          "98.60%*4+9.86%+19.72%*2+24.65%*2",
+                          "103.27%*4+10.33%+20.66%*2+25.82%*2"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Illumining Form: Manifold Unison DMG",
+                        "values": [
+                          "79.08%*4+7.91%+15.82%*2+19.77%*2",
+                          "85.57%*4+8.56%+17.12%*2+21.40%*2",
+                          "92.05%*4+9.21%+18.41%*2+23.02%*2",
+                          "101.13%*4+10.12%+20.23%*2+25.29%*2",
+                          "107.62%*4+10.77%+21.53%*2+26.91%*2",
+                          "115.07%*4+11.51%+23.02%*2+28.77%*2",
+                          "125.45%*4+12.55%+25.09%*2+31.37%*2",
+                          "135.82%*4+13.59%+27.17%*2+33.96%*2",
+                          "146.20%*4+14.62%+29.24%*2+36.55%*2",
+                          "157.22%*4+15.73%+31.45%*2+39.31%*2",
+                          "170.19%*4+17.02%+34.04%*2+42.55%*2",
+                          "183.16%*4+18.32%+36.64%*2+45.79%*2",
+                          "196.13%*4+19.62%+39.23%*2+49.04%*2",
+                          "209.10%*4+20.91%+41.82%*2+52.28%*2",
+                          "222.07%*4+22.21%+44.42%*2+55.52%*2",
+                          "235.04%*4+23.51%+47.01%*2+58.76%*2",
+                          "248.01%*4+24.81%+49.61%*2+62.01%*2",
+                          "260.97%*4+26.10%+52.20%*2+65.25%*2",
+                          "273.94%*4+27.40%+54.79%*2+68.49%*2",
+                          "286.91%*4+28.70%+57.39%*2+71.73%*2"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Answering Form Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Answering Form: Manifold Unison Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Illumining Form Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10"
+                        ]
+                      },
+                      {
+                        "label": "Intro Skill - Illumining Form: Manifold Unison Concerto Regen",
                         "values": [
                           "10",
                           "10",
@@ -4623,336 +5981,138 @@
                 ]
               },
               {
-                "name": "Rippling Waters",
+                "name": "Herself a Thousand Lanterns",
                 "type": "Outro Skill",
-                "desc": "Resonators in the team gain {0} All DMG Amplification for 30s.\n\nSuisui enters Roaming Transcendent when Ceaseless Landscape is active.\nSuisui exits Drizzle Stance and consumes all Floral Epistle and unlocks the following effects based on the amount of Floral Epistle consumed:\n\n0 Floral Epistle consumed:\n- All nearby Resonators in the team gain Reflecting Shadows for 6s. Resonators with Reflecting Shadows have increased resistance to interruption.\n\nAt least 200 Floral Epistle consumed:\n- If Ceaseless Landscape is active, Suisui may perform Plume Step for the first time within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 400 Floral Epistle consumed:\n- During this Roaming Transcendent state, the active Resonator within the Ceaseless Landscape deals more DMG if they have Reflecting Shadows. For every {2} of Suisui's Energy Regen over {1}, the Resonator deals {3} more DMG, up to {4}.\n- If Ceaseless Landscape is active, Suisui may perform the second Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\nAt least 600 Floral Epistle consumed:\n- When Suisui performs the first Plume Step, all nearby active Resonators in the team within the Ceaseless Landscape gain the following effects for the duration of this Roaming Transcendent:\n- When they cast Outro Skill, Suisui grants the incoming Resonator Undulating Mist. When Resonators with Undulating Mist consume Negative Status or Electro Rage stacks on the target, they gain an ATK increase: For every {6} of Suisui's Energy Regen over {5}, the Resonator's ATK is increased by {7} for {9}s, up to {8}. Undulating Mist lasts for 14s or until the Resonator is switched off the field. When Undulating Mist is removed, the ATK increase effect is also removed.\n- If Ceaseless Landscape is active, Suisui may perform the third Plume Step within a certain time into her Transcendent Dance while in Roaming Transcendent.\n\nRoaming Transcendent\nLasts for {10}s.\nDuring Roaming Transcendent, Suisui will merge with Ceaseless Landscape and start a Transcendent Dance, during which she will perform Plume Steps at intervals based on the amount of Floral Epistle consumed when Outro Skill - Rippling Waters is cast.\nWhen Suisui is the active Resonator in the team, she stops the Transcendent Dance.\nWhen Ceaseless Landscape isn't active, she will exit the Roaming Transcendent state.\n\nPlume Step\nPerforming Plume Step grants Reflecting Shadows to all nearby Resonators in the team for 6s, inflicts 1 stack of Glacio Chafe on all enemies within the Ceaseless Landscape, and heal",
+                "desc": "Attack the target, dealing Electro DMG equal to {0} of Hsin's ATK.\nHsin gains Nightglow after casting Resonance Liberation - Pillars Across Heaven. When Hsin casts Outro Skill, Nightglow is consumed to trigger various effects depending on the Resonance Mode She is in:\n- While in Resonance Mode - Unison, Resonators in the team other than Hsin gain Shared Light when they gain Unison. After Hsin casts Outro Skill, Resonators with Shared Light gain {1} All DMG Amplification for {2}s.\n- While in Resonance Mode - Electro Flare, Electro DMG dealt by Resonators in the team other than Hsin is Amplified by {3} for {4}s.\nThe above effects end early when Hsin switches Resonance Mode.",
                 "descFormat": [
                   {
+                    "start": 27,
+                    "end": 38,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
                     "start": 78,
-                    "end": 98,
+                    "end": 87,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 104,
-                    "end": 123,
+                    "start": 102,
+                    "end": 146,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 148,
-                    "end": 162,
+                    "start": 164,
+                    "end": 175,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 180,
-                    "end": 194,
+                    "start": 177,
+                    "end": 186,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 252,
-                    "end": 266,
+                    "start": 243,
+                    "end": 257,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
                     "start": 280,
-                    "end": 294,
+                    "end": 303,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 346,
-                    "end": 364,
+                    "start": 349,
+                    "end": 361,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 389,
-                    "end": 407,
+                    "start": 377,
+                    "end": 383,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 465,
-                    "end": 479,
+                    "start": 402,
+                    "end": 413,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 495,
-                    "end": 514,
+                    "start": 431,
+                    "end": 443,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 545,
-                    "end": 555,
+                    "start": 496,
+                    "end": 526,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Crit. Rate+",
+                "desc": "Crit. Rate increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.webp"
+              },
+              {
+                "name": "Tides of Succession",
+                "type": "Inherent Skill",
+                "desc": "While in Resonance Mode - Unison, when Hsin casts Intro Skill - Answering Form: Manifold Unison or Intro Skill - Illumining Form: Manifold Unison, She gains {0} Electro DMG Bonus for {1}s. Switching to another Resonator ends this effect.\n\nWhile in Resonance Mode - Electro Flare, after Resonators in the team inflict Electro Flare, Hsin gains {2} Electro DMG Bonus, stacking up to {3} times. Each Resonator can trigger this effect only once. In addition, if Rover: Electro is in the same team, when Rover: Electro casts Intro Skill - Thunderous Fury, both Hsin and Rover: Electro gain {6} Electro DMG Bonus for 7s.\nThis effect resets when a Resonator is added to the team or when Hsin switches Resonance Mode.",
+                "descFormat": [
+                  {
+                    "start": 9,
+                    "end": 32,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 634,
-                    "end": 654,
+                    "start": 50,
+                    "end": 95,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 670,
-                    "end": 684,
+                    "start": 99,
+                    "end": 145,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 709,
-                    "end": 729,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 769,
-                    "end": 788,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 817,
-                    "end": 835,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 936,
-                    "end": 955,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 997,
-                    "end": 1007,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1067,
-                    "end": 1087,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1103,
-                    "end": 1117,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1161,
-                    "end": 1171,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1225,
-                    "end": 1244,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1297,
-                    "end": 1317,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1386,
-                    "end": 1401,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1424,
-                    "end": 1439,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1448,
-                    "end": 1463,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1467,
-                    "end": 1479,
+                    "start": 248,
+                    "end": 278,
                     "kind": "tone",
                     "tone": "electro"
                   },
                   {
-                    "start": 1639,
-                    "end": 1654,
+                    "start": 317,
+                    "end": 330,
                     "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "electro"
                   },
                   {
-                    "start": 1724,
-                    "end": 1739,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1798,
-                    "end": 1817,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1858,
-                    "end": 1868,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1928,
-                    "end": 1948,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 1951,
-                    "end": 1971,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 1996,
-                    "end": 2016,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2041,
-                    "end": 2060,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2123,
-                    "end": 2134,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2171,
-                    "end": 2185,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2200,
-                    "end": 2229,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2327,
-                    "end": 2346,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2379,
-                    "end": 2399,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2408,
-                    "end": 2418,
-                    "kind": "tone",
-                    "tone": "accent"
-                  },
-                  {
-                    "start": 2430,
-                    "end": 2440,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2448,
-                    "end": 2466,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 2532,
-                    "end": 2544,
-                    "kind": "tone",
-                    "tone": "cryo"
-                  },
-                  {
-                    "start": 2571,
-                    "end": 2590,
+                    "start": 520,
+                    "end": 549,
                     "kind": "tone",
                     "tone": "spectro"
                   }
                 ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiT.webp"
-              },
-              {
-                "name": "Healing Bonus+",
-                "desc": "Healing Bonus increased by {0}.",
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.webp"
-              },
-              {
-                "name": "HP+",
-                "desc": "HP increased by {0}.",
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.webp"
-              },
-              {
-                "name": "Sky Over Water",
-                "type": "Inherent Skill",
-                "desc": "Consuming Enrichment grants the Resonator {0} {Cus:Sap,S=stack P=stacks SapTag=0} of Spring's Birth, up to {1} stacks. When the Resonator with Spring's Birth is not at full HP, restore their HP by {3} + {4} of Suisui's Max HP at the cost of 1 stack of Spring's Birth every {2}s.\n\nWhen Resonance Skill - Awakening Spring and Intro Skill - Tinkling Jade hit a target, they additionally restore {5} points of Concerto Energy and {6} points of Resonance Energy, and increase the attack's Crit. Rate by {7} and Glacio DMG by {8}. This effect can be triggered up to once every 25s.",
-                "descFormat": [
-                  {
-                    "start": 10,
-                    "end": 20,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 85,
-                    "end": 99,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 143,
-                    "end": 157,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 252,
-                    "end": 266,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 285,
-                    "end": 319,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 324,
-                    "end": 351,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ],
-                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiD1.webp"
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinD1.webp"
               },
               {
                 "name": "Tune Break: Rectifier",
@@ -4980,236 +6140,320 @@
             "title": "Resonance Chain",
             "entries": [
               {
-                "name": "Mountains Washed Into Paintings",
+                "name": "A Boat to Cross the Rising Tide",
                 "type": "Sequence 1",
-                "desc": "Resonators with Undulating Mist also gain ATK increase after inflicting Negative Status or dealing Negative Status DMG.\nThe duration of Reflecting Shadows obtained through the third Plume Step is extended by {1}.\nBasic Attack - Drizzle Stance, Heavy Attack - Drizzle Stance, Plunging Attack - Illuminating Dew and Plunging Attack - Swallow's Cut are immune to interruption.",
+                "desc": "Casting Resonance Liberation - Formshift grants Hsin 2 stacks of Radiance Ward, stacking up to {0} times. Switching to Answering Form clears all stacks. When Hsin takes DMG from an enemy target's attack, 1 stack of Radiance Ward can be consumed to make Her immune to interruption and reduce DMG taken by {1} for {2}s. This effect can be triggered once every {3}s.\n\nWhile in Resonance Mode - Unison:\nThe DMG Multipliers of Intro Skill - Answering Form: Manifold Unison and Intro Skill - Illumining Form: Manifold Unison are increased by {6}, and each stack of Unison Boon additionally increases the DMG Multipliers of Intro Skill - Answering Form: Manifold Unison and Intro Skill - Illumining Form: Manifold Unison by {7}, up to a total {8} stacks.\n\nWhile in Resonance Mode - Electro Flare:\nWhen Hsin enters combat, if Heart of Thunder is below {13} stacks, it is increased to {13} stacks, triggered once every {12}s.\nWhen Forte Circuit - Resonance Skill: Illumining Form hits a target, the DMG Multiplier of Electro Flare DMG dealt by consuming {14} {Cus:Sap,S=stack P=stacks SapTag=A} of Heart of Thunder is increased to {15}, and the DMG Multiplier of Electro Flare DMG dealt by consuming all remaining Heart of Thunder at once is increased to {16}.",
                 "descFormat": [
                   {
-                    "start": 16,
-                    "end": 31,
+                    "start": 8,
+                    "end": 40,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 72,
-                    "end": 87,
+                    "start": 65,
+                    "end": 78,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 99,
-                    "end": 118,
+                    "start": 119,
+                    "end": 133,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
-                    "start": 136,
+                    "start": 215,
+                    "end": 228,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 374,
+                    "end": 397,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 422,
+                    "end": 467,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 472,
+                    "end": 518,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 559,
+                    "end": 570,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 617,
+                    "end": 662,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 667,
+                    "end": 713,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 758,
+                    "end": 788,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 818,
+                    "end": 834,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 922,
+                    "end": 970,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 1008,
+                    "end": 1021,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1089,
+                    "end": 1105,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1154,
+                    "end": 1167,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 1205,
+                    "end": 1221,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ]
+              },
+              {
+                "name": "To Wake Is to Wonder What I Am",
+                "type": "Sequence 2",
+                "desc": "The DMG Multipliers of Answering Form: Realm Wanderer and Answering Form: Realm Protector are increased by {0}.\nThe DMG Multipliers of Illumining Form: Beholding All Horizons and Illumining Form: Stilling All Horizons are increased by {1}.\n\nWhen Hsin enters combat, the Cooldowns for Hsin to gain Resolution of Wishes and Law of Heaven are reset. If Hsin is in Answering Form, {2} additional points of Answering Heart are also restored. This effect can be triggered once every {3}s.",
+                "descFormat": [
+                  {
+                    "start": 23,
+                    "end": 53,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 58,
+                    "end": 89,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 135,
+                    "end": 174,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 179,
+                    "end": 217,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 297,
+                    "end": 317,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 322,
+                    "end": 335,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 361,
+                    "end": 375,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 402,
+                    "end": 417,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "A Dream of Return Among the Hills",
+                "type": "Sequence 3",
+                "desc": "The DMG Multiplier of Resonance Liberation - Pillars Across Heaven is increased by {0}.\n\nWhile in Resonance Mode - Unison:\nThe Crit. DMG of Resonance Liberation - Pillars Across Heaven is increased by {1}, and each stack of Unison Boon additionally increases its Crit. DMG by {2}, stacking up to {3} times.\n\nWhile in Resonance Mode - Electro Flare:\nWhen the last stage of Resonance Liberation - Pillars Across Heaven hits a target inflicted with Electro Flare, it triggers 1 instance of Electro Flare DMG, with its DMG Multiplier equal to {4} times the Electro Flare DMG Multiplier corresponding to the current Electro Flare stacks on the target.",
+                "descFormat": [
+                  {
+                    "start": 22,
+                    "end": 66,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 98,
+                    "end": 121,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 140,
+                    "end": 184,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 224,
+                    "end": 235,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 317,
+                    "end": 347,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 372,
+                    "end": 416,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 446,
+                    "end": 459,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 487,
+                    "end": 500,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 553,
+                    "end": 566,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 611,
+                    "end": 624,
+                    "kind": "tone",
+                    "tone": "electro"
+                  }
+                ]
+              },
+              {
+                "name": "A River of Lanterns, a River of Wishes",
+                "type": "Sequence 4",
+                "desc": "When Resonators in the team inflict Electro Flare or Electro Rage to a target, or when Resonators in the team gain Unison or trigger Unison Response, all Resonators in the team gain {0} All-Attribute DMG Bonus for {1}s.",
+                "descFormat": [
+                  {
+                    "start": 36,
+                    "end": 49,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 53,
+                    "end": 65,
+                    "kind": "tone",
+                    "tone": "electro"
+                  },
+                  {
+                    "start": 115,
+                    "end": 121,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 133,
+                    "end": 148,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Forms Turn as the Heart Wills",
+                "type": "Sequence 5",
+                "desc": "While in Illumining Form, DMG taken by Hsin is reduced by {0}.\nWhen Hsin takes a fatal blow, She will not be knocked out, but instead restores {1} of Max HP and becomes immune to DMG and interruption for {2}s. This effect can be triggered once every {3} {Cus:Sap,S=minute P=minutes SapTag=3}.",
+                "descFormat": [
+                  {
+                    "start": 9,
+                    "end": 24,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "The Moon Owes Its Light to the Living",
+                "type": "Sequence 6",
+                "desc": "Targets take {0} more Resonance Skill DMG from Hsin.\n\nResonance Skill DMG dealt by Hsin ignores {2} of the target's DEF.\n\nWhile in Resonance Mode - Unison:\nThe maximum stacks of the Unison Boon effect on Resonators in the team are increased by {1}. When a Resonator in the team triggers Unison Response, all Resonators in the team gain {1} {Cus:Sap,S=stack P=stacks SapTag=1} of Unison Boon for {5}s. This effect does not stack.\n\nWhile in Resonance Mode - Electro Flare:\nWhile in combat, Electro Flare DMG taken by targets within a certain range around Hsin can be Critical, with Crit. Rate fixed at {3} and Crit. DMG fixed at {4}.",
+                "descFormat": [
+                  {
+                    "start": 131,
                     "end": 154,
                     "kind": "tone",
                     "tone": "spectro"
                   },
                   {
                     "start": 182,
-                    "end": 192,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 213,
-                    "end": 242,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 244,
-                    "end": 273,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 275,
-                    "end": 309,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 314,
-                    "end": 345,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "Clouds Pour Like Molten Gold",
-                "type": "Sequence 2",
-                "desc": "All nearby Resonators in the team within the Ceaseless Landscape have their Crit. DMG increased by {0} for 30s after performing the following actions:\n- Inflicting Spectro Frazzle, Fusion Burst, Glacio Chafe, Aero Erosion, and Electro Flare, or dealing the corresponding Negative Status DMG.\n- Consuming Havoc Bane stacks on the target.\nWhen the active Resonator is not in the Ceaseless Landscape, this Crit. DMG bonus effect is disabled.",
-                "descFormat": [
-                  {
-                    "start": 45,
-                    "end": 64,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 164,
-                    "end": 179,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 181,
                     "end": 193,
                     "kind": "tone",
-                    "tone": "pyro"
+                    "tone": "spectro"
                   },
                   {
-                    "start": 195,
-                    "end": 207,
+                    "start": 287,
+                    "end": 302,
                     "kind": "tone",
-                    "tone": "cryo"
+                    "tone": "spectro"
                   },
                   {
-                    "start": 209,
-                    "end": 221,
+                    "start": 379,
+                    "end": 390,
                     "kind": "tone",
-                    "tone": "anemo"
+                    "tone": "spectro"
                   },
                   {
-                    "start": 227,
-                    "end": 240,
+                    "start": 439,
+                    "end": 469,
                     "kind": "tone",
                     "tone": "electro"
                   },
                   {
-                    "start": 304,
-                    "end": 314,
+                    "start": 488,
+                    "end": 501,
                     "kind": "tone",
-                    "tone": "havoc"
-                  },
-                  {
-                    "start": 377,
-                    "end": 396,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "Sparse Curtains Invite Evening Glow",
-                "type": "Sequence 3",
-                "desc": "Normal Attack shortly after casting Resonance Skill - Drizzle Stance to cast Basic Attack - Drizzle Stance Stage 4.\n\nCasting Resonance Skill - Drizzle Stance grants Kingfisher. Switching to another Resonator ends this effect. Casting Basic Attack - Drizzle Stance Stage 4 consumes Kingfisher to restore {0} points of Concerto Energy and {1} points of Floral Epistle. Kingfisher can be consumed up to once every {2}s.",
-                "descFormat": [
-                  {
-                    "start": 0,
-                    "end": 13,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 36,
-                    "end": 68,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 77,
-                    "end": 114,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 125,
-                    "end": 157,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 165,
-                    "end": 175,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 234,
-                    "end": 271,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 281,
-                    "end": 291,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 351,
-                    "end": 365,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 367,
-                    "end": 377,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "Autumn Mountains in Choir Sing",
-                "type": "Sequence 4",
-                "desc": "Healing provided by Enrichment and Spring's Birth are increased by {0}.",
-                "descFormat": [
-                  {
-                    "start": 20,
-                    "end": 30,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 35,
-                    "end": 49,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "I Long To Ride The Eastern Wind",
-                "type": "Sequence 5",
-                "desc": "The DMG Multipliers of Basic Attack - Drizzle Stance and Heavy Attack - Drizzle Stance are increased by {0}.",
-                "descFormat": [
-                  {
-                    "start": 23,
-                    "end": 52,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 57,
-                    "end": 86,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  }
-                ]
-              },
-              {
-                "name": "Staying True To This Splendid Realm",
-                "type": "Sequence 6",
-                "desc": "The Crit. DMG of Intro Skill - Tinkling Jade and Resonance Skill - Awakening Spring is increased by {0}.",
-                "descFormat": [
-                  {
-                    "start": 17,
-                    "end": 44,
-                    "kind": "tone",
-                    "tone": "spectro"
-                  },
-                  {
-                    "start": 49,
-                    "end": 83,
-                    "kind": "tone",
-                    "tone": "spectro"
+                    "tone": "electro"
                   }
                 ]
               }
@@ -5301,12 +6545,12 @@
             ]
           },
           {
-            "id": "42601610",
-            "name": "Flowborne Dream",
+            "id": "42601630",
+            "name": "Bloom of Hearkening",
             "qty": 60,
             "rar": 1,
             "kind": "mob",
-            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+            "icon": null,
             "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
             "sourceDetails": [
               {
@@ -5383,12 +6627,12 @@
                 ]
               },
               {
-                "id": "42601610",
-                "name": "Flowborne Dream",
+                "id": "42601630",
+                "name": "Bloom of Hearkening",
                 "qty": 4,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "icon": null,
                 "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
@@ -5442,12 +6686,12 @@
                 ]
               },
               {
-                "id": "42601610",
-                "name": "Flowborne Dream",
+                "id": "42601630",
+                "name": "Bloom of Hearkening",
                 "qty": 8,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "icon": null,
                 "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
@@ -5498,12 +6742,12 @@
                 ]
               },
               {
-                "id": "42601610",
-                "name": "Flowborne Dream",
+                "id": "42601630",
+                "name": "Bloom of Hearkening",
                 "qty": 12,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "icon": null,
                 "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
@@ -5554,12 +6798,12 @@
                 ]
               },
               {
-                "id": "42601610",
-                "name": "Flowborne Dream",
+                "id": "42601630",
+                "name": "Bloom of Hearkening",
                 "qty": 16,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "icon": null,
                 "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
@@ -5610,12 +6854,12 @@
                 ]
               },
               {
-                "id": "42601610",
-                "name": "Flowborne Dream",
+                "id": "42601630",
+                "name": "Bloom of Hearkening",
                 "qty": 20,
                 "rar": 1,
                 "kind": "mob",
-                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconC/T_IconC_087_UI.webp",
+                "icon": null,
                 "source": "Collection Spots / Overworld Collection / Huaxu Apothecary",
                 "sourceDetails": [
                   {
@@ -5701,17 +6945,16 @@
             ]
           },
           {
-            "id": "41400324",
-            "name": "Skyward Glazed Heart",
+            "id": "41400354",
+            "name": "Remnant of the Wheel",
             "qty": 26,
             "rar": 4,
             "kind": "weekly",
             "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
-            "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+            "source": "Suhsin the Inevitable",
             "sourceDetails": [
               {
-                "name": "Thousand-Puppet Pavilion",
-                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+                "name": "Suhsin the Inevitable"
               }
             ]
           },
@@ -5788,9 +7031,9 @@
         "talentCost": 2030000,
         "currency": 2530000,
         "weapon": {
-          "name": "Firstlight's Herald",
-          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp",
-          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21050096_UI.webp",
+          "name": "Blooming Jadehaven",
+          "icon": null,
+          "art": null,
           "items": [
             {
               "id": "41100061",
@@ -5926,30 +7169,2120 @@
           "cost": 330000
         }
       },
+      "recent": 1,
+      "betaStatus": "new"
+    },
+    {
+      "id": "ww-sanhua",
+      "n": "Sanhua",
+      "localizedNames": {
+        "en": "Sanhua",
+        "zh": "\u6563\u534e",
+        "ja": "\u6563\u83ef",
+        "ko": "\uc0b0\ud654"
+      },
+      "title": "Snow Waltz",
+      "slug": "sanhua",
+      "release": 1716422400000,
+      "releasePatch": "1.0",
+      "updated": 1787184000000,
+      "sourceOrder": 1102,
+      "voiceActors": {
+        "english": "Jennifer Armour",
+        "japanese": "Risae Matsuda|Matsuda Risae (ja=\u677e\u7530\u5229\u51b4)",
+        "chinese": "https://zh.moegirl.org.cn/\u5b8b\u5a9b\u5a9b|Song Yuanyuan (zh=\u5b8b\u5a9b\u5a9b)",
+        "korean": "https://namu.wiki/w/\uc720\uc601(\uc131\uc6b0)|Yooyoung (ko=\uc720\uc601)"
+      },
+      "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_UI.webp",
+      "art": "../../Database/GameData/ww/assets/characters/portraits/UIResources/Common/Image/PixActivity/T_ActivityRoleSanhua.webp",
+      "card": "../../Database/Prydwen/ww/assets/characters/sanhua-57e51bfbb2dc.webp",
+      "signatureWeapon": {
+        "id": "21020016",
+        "name": "Blazing Brilliance",
+        "type": "Sword",
+        "educated": true
+      },
+      "signatureWeaponId": "21020016",
+      "signatureWeaponName": "Blazing Brilliance",
+      "status": "live",
+      "labels": [],
+      "r": 4,
+      "el": "Glacio",
+      "w": "Sword",
+      "baseStats": {
+        "level1": {
+          "hp": 805,
+          "atk": 22,
+          "def": 77
+        },
+        "max": {
+          "level": 90,
+          "hp": 10062.5,
+          "atk": 275,
+          "def": 941.11
+        },
+        "levels": [
+          {
+            "label": "Lv. 1/20",
+            "level": 1,
+            "cap": 20,
+            "hp": 805,
+            "atk": 22,
+            "def": 77
+          },
+          {
+            "label": "Lv. 20/40",
+            "level": 20,
+            "cap": 40,
+            "hp": 2630.5,
+            "atk": 73.72,
+            "def": 247.45
+          },
+          {
+            "label": "Lv. 40/50",
+            "level": 40,
+            "cap": 50,
+            "hp": 4523.94,
+            "atk": 127.3,
+            "def": 424.25
+          },
+          {
+            "label": "Lv. 50/60",
+            "level": 50,
+            "cap": 60,
+            "hp": 5739.01,
+            "atk": 162.34,
+            "def": 537.6
+          },
+          {
+            "label": "Lv. 60/70",
+            "level": 60,
+            "cap": 70,
+            "hp": 6953.99,
+            "atk": 197.38,
+            "def": 650.96
+          },
+          {
+            "label": "Lv. 70/80",
+            "level": 70,
+            "cap": 80,
+            "hp": 8169.06,
+            "atk": 226.92,
+            "def": 764.31
+          },
+          {
+            "label": "Lv. 80/90",
+            "level": 80,
+            "cap": 90,
+            "hp": 9384.13,
+            "atk": 256.46,
+            "def": 877.66
+          },
+          {
+            "label": "Lv. 90/90",
+            "level": 90,
+            "cap": 90,
+            "hp": 10062.5,
+            "atk": 275,
+            "def": 941.11
+          }
+        ]
+      },
+      "facts": {
+        "birthday": "January 20",
+        "nation": "Huanglong",
+        "influence": "Jinzhou",
+        "title": "Snow Waltz"
+      },
+      "skillIcons": [
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaB1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaC1.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaY.webp",
+        "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaQTE.webp"
+      ],
+      "kit": {
+        "source": "Game data",
+        "channel": "beta",
+        "version": "3.7.0",
+        "sections": [
+          {
+            "title": "Skills",
+            "entries": [
+              {
+                "name": "Frigid Light",
+                "type": "Normal Attack",
+                "desc": "Basic Attack\nSanhua performs up to 5 consecutive attacks, dealing Glacio DMG.\n\nHeavy Attack\nSanhua consumes STA to launch attacks, dealing Glacio DMG.\n\nMid-air Attack\nSanhua consumes STA to perform a Mid-Air Plunging Attack, dealing Glacio DMG.\n\nDodge Counter\nUse Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 12,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 66,
+                    "end": 76,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 79,
+                    "end": 91,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 139,
+                    "end": 149,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 152,
+                    "end": 166,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 233,
+                    "end": 243,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 246,
+                    "end": 259,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 264,
+                    "end": 276,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 296,
+                    "end": 301,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 332,
+                    "end": 342,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Stage 1 DMG",
+                        "values": [
+                          "24.50%",
+                          "26.51%",
+                          "28.52%",
+                          "31.34%",
+                          "33.34%",
+                          "35.65%",
+                          "38.87%",
+                          "42.08%",
+                          "45.30%",
+                          "48.71%",
+                          "52.73%",
+                          "56.75%",
+                          "60.77%",
+                          "64.79%",
+                          "68.80%",
+                          "72.82%",
+                          "76.84%",
+                          "80.86%",
+                          "84.88%",
+                          "88.89%"
+                        ]
+                      },
+                      {
+                        "label": "Stage 2 DMG",
+                        "values": [
+                          "37.10%",
+                          "40.15%",
+                          "43.19%",
+                          "47.45%",
+                          "50.49%",
+                          "53.99%",
+                          "58.86%",
+                          "63.72%",
+                          "68.59%",
+                          "73.76%",
+                          "79.85%",
+                          "85.93%",
+                          "92.02%",
+                          "98.10%",
+                          "104.19%",
+                          "110.27%",
+                          "116.35%",
+                          "122.44%",
+                          "128.52%",
+                          "134.61%"
+                        ]
+                      },
+                      {
+                        "label": "Stage 3 DMG",
+                        "values": [
+                          "10.85%*4",
+                          "11.74%*4",
+                          "12.63%*4",
+                          "13.88%*4",
+                          "14.77%*4",
+                          "15.79%*4",
+                          "17.22%*4",
+                          "18.64%*4",
+                          "20.06%*4",
+                          "21.58%*4",
+                          "23.36%*4",
+                          "25.13%*4",
+                          "26.91%*4",
+                          "28.69%*4",
+                          "30.47%*4",
+                          "32.25%*4",
+                          "34.03%*4",
+                          "35.81%*4",
+                          "37.59%*4",
+                          "39.37%*4"
+                        ]
+                      },
+                      {
+                        "label": "Stage 4 DMG",
+                        "values": [
+                          "19.95%*2",
+                          "21.59%*2",
+                          "23.23%*2",
+                          "25.52%*2",
+                          "27.15%*2",
+                          "29.03%*2",
+                          "31.65%*2",
+                          "34.27%*2",
+                          "36.89%*2",
+                          "39.67%*2",
+                          "42.94%*2",
+                          "46.21%*2",
+                          "49.48%*2",
+                          "52.75%*2",
+                          "56.03%*2",
+                          "59.30%*2",
+                          "62.57%*2",
+                          "65.84%*2",
+                          "69.11%*2",
+                          "72.39%*2"
+                        ]
+                      },
+                      {
+                        "label": "Stage 5 DMG",
+                        "values": [
+                          "117.60%",
+                          "127.25%",
+                          "136.89%",
+                          "150.39%",
+                          "160.04%",
+                          "171.12%",
+                          "186.55%",
+                          "201.98%",
+                          "217.41%",
+                          "233.81%",
+                          "253.09%",
+                          "272.38%",
+                          "291.66%",
+                          "310.95%",
+                          "330.24%",
+                          "349.52%",
+                          "368.81%",
+                          "388.10%",
+                          "407.38%",
+                          "426.67%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack DMG",
+                        "values": [
+                          "11.20%*5",
+                          "12.12%*5",
+                          "13.04%*5",
+                          "14.33%*5",
+                          "15.25%*5",
+                          "16.30%*5",
+                          "17.77%*5",
+                          "19.24%*5",
+                          "20.71%*5",
+                          "22.27%*5",
+                          "24.11%*5",
+                          "25.95%*5",
+                          "27.78%*5",
+                          "29.62%*5",
+                          "31.46%*5",
+                          "33.29%*5",
+                          "35.13%*5",
+                          "36.97%*5",
+                          "38.80%*5",
+                          "40.64%*5"
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack DMG",
+                        "values": [
+                          "43.40%",
+                          "46.96%",
+                          "50.52%",
+                          "55.50%",
+                          "59.06%",
+                          "63.16%",
+                          "68.85%",
+                          "74.54%",
+                          "80.24%",
+                          "86.29%",
+                          "93.41%",
+                          "100.52%",
+                          "107.64%",
+                          "114.76%",
+                          "121.88%",
+                          "128.99%",
+                          "136.11%",
+                          "143.23%",
+                          "150.35%",
+                          "157.46%"
+                        ]
+                      },
+                      {
+                        "label": "Dodge Counter DMG",
+                        "values": [
+                          "84.00%",
+                          "90.89%",
+                          "97.78%",
+                          "107.42%",
+                          "114.31%",
+                          "122.23%",
+                          "133.25%",
+                          "144.27%",
+                          "155.30%",
+                          "167.01%",
+                          "180.78%",
+                          "194.56%",
+                          "208.33%",
+                          "222.11%",
+                          "235.89%",
+                          "249.66%",
+                          "263.44%",
+                          "277.21%",
+                          "290.99%",
+                          "304.77%"
+                        ]
+                      },
+                      {
+                        "label": "Heavy Attack STA Cost",
+                        "values": [
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "25",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Mid-air Attack STA Cost",
+                        "values": [
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "30",
+                          "",
+                          ""
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Eternal Frost",
+                "type": "Resonance Skill",
+                "desc": "Sanhua sends an air blade to create {0} Ice Prism on the ground, dealing Glacio DMG.",
+                "descFormat": [
+                  {
+                    "start": 73,
+                    "end": 83,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaB1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "181.00%",
+                          "195.85%",
+                          "210.69%",
+                          "231.47%",
+                          "246.31%",
+                          "263.38%",
+                          "287.13%",
+                          "310.87%",
+                          "334.62%",
+                          "359.85%",
+                          "389.54%",
+                          "419.22%",
+                          "448.90%",
+                          "478.59%",
+                          "508.27%",
+                          "537.96%",
+                          "567.64%",
+                          "597.32%",
+                          "627.01%",
+                          "656.69%"
+                        ]
+                      },
+                      {
+                        "label": "Cooldown",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "",
+                          ""
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Glacial Gaze",
+                "type": "Resonance Liberation",
+                "desc": "Sanhua deals Glacio DMG and creates {0} Glacier.",
+                "descFormat": [
+                  {
+                    "start": 13,
+                    "end": 23,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaC1.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "407.16%",
+                          "440.55%",
+                          "473.94%",
+                          "520.68%",
+                          "554.07%",
+                          "592.46%",
+                          "645.88%",
+                          "699.30%",
+                          "752.72%",
+                          "809.48%",
+                          "876.25%",
+                          "943.03%",
+                          "1009.80%",
+                          "1076.58%",
+                          "1143.35%",
+                          "1210.13%",
+                          "1276.90%",
+                          "1343.67%",
+                          "1410.45%",
+                          "1477.22%"
+                        ]
+                      },
+                      {
+                        "label": "Cooldown",
+                        "values": [
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "16",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Resonance Cost",
+                        "values": [
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "100",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "20",
+                          "",
+                          ""
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Clarity of Mind",
+                "type": "Forte Circuit",
+                "desc": "Heavy Attack: Detonate\nWhen holding Basic Attack, a cursor moves back and forth on the Forte Gauge. Release Basic Attack while cursor falls in the \"Frostbite\" area, to perform Heavy Attack Detonate, dealing Glacio DMG considered as Heavy Attack DMG.\n\nIce Burst\nSanhua's Heavy Attack Detonate detonates all \"Ice Thorns\", \"Ice Prisms\" and \"Glaciers\" within her attack range, dealing Glacio DMG. Ice Burst deals Resonance Skill DMG.\n\nFrostbite Area\nThe \"Frostbite\" area expands with every {0} stack of \"Clarity\". \"Clarity\" stacks up to {1} times.\nSanhua obtains {2} stack of \"Clarity\" upon performing Basic Attack 5.\nSanhua obtains {3} stack of \"Clarity\" upon casting Intro Skill Freezing Thorns.\nSanhua obtains {4} stack of \"Clarity\" upon casting Resonance Skill Eternal Frost.\nSanhua obtains {5} stack(s) of \"Clarity\" upon casting Resonance Liberation Glacial Gaze.\nUpon casting Heavy Attack Detonate, all \"Clarity\" is removed.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 22,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 36,
+                    "end": 48,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 108,
+                    "end": 120,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 189,
+                    "end": 197,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 207,
+                    "end": 217,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 251,
+                    "end": 260,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 283,
+                    "end": 291,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 381,
+                    "end": 391,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 393,
+                    "end": 402,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 431,
+                    "end": 445,
+                    "kind": "tone",
+                    "tone": "accent"
+                  },
+                  {
+                    "start": 598,
+                    "end": 612,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 677,
+                    "end": 692,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 761,
+                    "end": 774,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  },
+                  {
+                    "start": 851,
+                    "end": 863,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 891,
+                    "end": 899,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaY.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Detonate Damage",
+                        "values": [
+                          "93.70%*2",
+                          "101.39%*2",
+                          "109.07%*2",
+                          "119.83%*2",
+                          "127.51%*2",
+                          "136.35%*2",
+                          "148.64%*2",
+                          "160.93%*2",
+                          "173.23%*2",
+                          "186.29%*2",
+                          "201.66%*2",
+                          "217.02%*2",
+                          "232.39%*2",
+                          "247.76%*2",
+                          "263.12%*2",
+                          "278.49%*2",
+                          "293.86%*2",
+                          "309.22%*2",
+                          "324.59%*2",
+                          "339.96%*2"
+                        ]
+                      },
+                      {
+                        "label": "Glacier Burst Damage",
+                        "values": [
+                          "70.00%",
+                          "75.74%",
+                          "81.48%",
+                          "89.52%",
+                          "95.26%",
+                          "101.86%",
+                          "111.05%",
+                          "120.23%",
+                          "129.41%",
+                          "139.17%",
+                          "150.65%",
+                          "162.13%",
+                          "173.61%",
+                          "185.09%",
+                          "196.57%",
+                          "208.05%",
+                          "219.53%",
+                          "231.01%",
+                          "242.49%",
+                          "253.97%"
+                        ]
+                      },
+                      {
+                        "label": "Ice Prism Burst Damage",
+                        "values": [
+                          "40.00%",
+                          "43.28%",
+                          "46.56%",
+                          "51.16%",
+                          "54.44%",
+                          "58.21%",
+                          "63.46%",
+                          "68.70%",
+                          "73.95%",
+                          "79.53%",
+                          "86.09%",
+                          "92.65%",
+                          "99.21%",
+                          "105.77%",
+                          "112.33%",
+                          "118.89%",
+                          "125.45%",
+                          "132.01%",
+                          "138.57%",
+                          "145.13%"
+                        ]
+                      },
+                      {
+                        "label": "Ice Thorn Burst Damage",
+                        "values": [
+                          "30.00%",
+                          "32.46%",
+                          "34.92%",
+                          "38.37%",
+                          "40.83%",
+                          "43.66%",
+                          "47.59%",
+                          "51.53%",
+                          "55.47%",
+                          "59.65%",
+                          "64.57%",
+                          "69.49%",
+                          "74.41%",
+                          "79.33%",
+                          "84.25%",
+                          "89.17%",
+                          "94.09%",
+                          "99.01%",
+                          "103.93%",
+                          "108.85%"
+                        ]
+                      },
+                      {
+                        "label": "Clarity Duration",
+                        "values": [
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Glacier Duration",
+                        "values": [
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Ice Prism Duration",
+                        "values": [
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "5",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Ice Thorn Duration",
+                        "values": [
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "8",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Detonate Concerto Energy",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Glacier Burst Concerto Regen",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "",
+                          ""
+                        ]
+                      },
+                      {
+                        "label": "Ice Prism Burst Concerto Regen",
+                        "values": [
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "15",
+                          "",
+                          ""
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Freezing Thorns",
+                "type": "Intro Skill",
+                "desc": "Sanhua swings her blade downward and creates 1 Ice Thorn, dealing Glacio DMG.",
+                "descFormat": [
+                  {
+                    "start": 66,
+                    "end": 76,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaQTE.webp",
+                "scaling": [
+                  {
+                    "title": "Skill Level Scaling",
+                    "columns": [
+                      "Lv. 1",
+                      "Lv. 2",
+                      "Lv. 3",
+                      "Lv. 4",
+                      "Lv. 5",
+                      "Lv. 6",
+                      "Lv. 7",
+                      "Lv. 8",
+                      "Lv. 9",
+                      "Lv. 10",
+                      "Lv. 11",
+                      "Lv. 12",
+                      "Lv. 13",
+                      "Lv. 14",
+                      "Lv. 15",
+                      "Lv. 16",
+                      "Lv. 17",
+                      "Lv. 18",
+                      "Lv. 19",
+                      "Lv. 20"
+                    ],
+                    "rows": [
+                      {
+                        "label": "Skill DMG",
+                        "values": [
+                          "70.00%",
+                          "75.74%",
+                          "81.48%",
+                          "89.52%",
+                          "95.26%",
+                          "101.86%",
+                          "111.05%",
+                          "120.23%",
+                          "129.41%",
+                          "139.17%",
+                          "150.65%",
+                          "162.13%",
+                          "173.61%",
+                          "185.09%",
+                          "196.57%",
+                          "208.05%",
+                          "219.53%",
+                          "231.01%",
+                          "242.49%",
+                          "253.97%"
+                        ]
+                      },
+                      {
+                        "label": "Concerto Regen",
+                        "values": [
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "10",
+                          "",
+                          ""
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Silversnow",
+                "type": "Outro Skill",
+                "desc": "The incoming Resonator has their Basic Attack DMG Amplified by {0} for {1}s or until they are switched out.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaT.webp"
+              },
+              {
+                "name": "ATK+",
+                "desc": "ATK increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.webp"
+              },
+              {
+                "name": "Condensation",
+                "type": "Inherent Skill",
+                "desc": "Damage dealt by Sanhua's Resonance Skill is increased by {0} for {1}s after casting her Intro Skill.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaD1.webp"
+              },
+              {
+                "name": "Glacio DMG Bonus+",
+                "desc": "Glacio DMG Bonus increased by {0}.",
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Image/IconAttribute/T_Iconpropertyredice_UI.webp"
+              },
+              {
+                "name": "Tune Break: Sword",
+                "type": "Tune Break",
+                "desc": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target.",
+                "descFormat": [
+                  {
+                    "start": 18,
+                    "end": 32,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 65,
+                    "end": 75,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ],
+                "icon": "../../Database/GameData/ww/assets/skills/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.webp"
+              }
+            ]
+          },
+          {
+            "title": "Resonance Chain",
+            "entries": [
+              {
+                "name": "Solitude's Embrace",
+                "type": "Sequence 1",
+                "desc": "Basic Attack V increases Sanhua's Crit. Rate by {0} for {1}s.",
+                "descFormat": [
+                  {
+                    "start": 0,
+                    "end": 14,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Snowy Clarity",
+                "type": "Sequence 2",
+                "desc": "Heavy Attack Detonate STA cost is reduced by {0}. When Sanhua casts Resonance Skill Eternal Frost, her resistance to interruption is enhanced for {0}s.",
+                "descFormat": [
+                  {
+                    "start": 13,
+                    "end": 21,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 84,
+                    "end": 97,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ]
+              },
+              {
+                "name": "Anomalous Vision",
+                "type": "Sequence 3",
+                "desc": "Sanhua's damage dealt is increased by {1} against targets with HP below {0}."
+              },
+              {
+                "name": "Blade Mastery",
+                "type": "Sequence 4",
+                "desc": "Resonance Liberation Glacial Gaze restores {0} Resonance Energy.\nDMG of the next Heavy Attack Detonate within {1}s is increased by {2}.",
+                "descFormat": [
+                  {
+                    "start": 21,
+                    "end": 33,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  },
+                  {
+                    "start": 94,
+                    "end": 102,
+                    "kind": "tone",
+                    "tone": "spectro"
+                  }
+                ]
+              },
+              {
+                "name": "Unraveling Fate",
+                "type": "Sequence 5",
+                "desc": "Crit. DMG of Forte Circuit Ice Burst is increased by {0}. Ice Creations (Ice Thorn, Ice Prism, and Glacier) will explode even if they are not detonated.",
+                "descFormat": [
+                  {
+                    "start": 27,
+                    "end": 36,
+                    "kind": "tone",
+                    "tone": "cryo"
+                  }
+                ]
+              },
+              {
+                "name": "Daybreak Radiance",
+                "type": "Sequence 6",
+                "desc": "After an Ice Prism or a Glacier is detonated, all team members' ATK is increased by {0} for {1}s, stacking up to {2} times."
+              }
+            ]
+          }
+        ]
+      },
+      "req": {
+        "ascension": [
+          {
+            "id": "41100011",
+            "name": "LF Whisperin Core",
+            "qty": 4,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100012",
+            "name": "MF Whisperin Core",
+            "qty": 12,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100013",
+            "name": "HF Whisperin Core",
+            "qty": 12,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41100014",
+            "name": "FF Whisperin Core",
+            "qty": 4,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41400074",
+            "name": "Sound-Keeping Tacet Core",
+            "qty": 46,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+            "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Lampylumen Myriad",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+              }
+            ]
+          },
+          {
+            "id": "42300090",
+            "name": "Wintry Bell",
+            "qty": 60,
+            "rar": 1,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+            "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+            "sourceDetails": [
+              {
+                "name": "Overworld Collection"
+              },
+              {
+                "name": "Collection Spots"
+              },
+              {
+                "name": "Bell-Borne Ravine"
+              },
+              {
+                "name": "Shifang Pharmacy"
+              }
+            ]
+          }
+        ],
+        "ascensionStages": [
+          {
+            "cap": 40,
+            "items": [
+              {
+                "id": "41100011",
+                "name": "LF Whisperin Core",
+                "qty": 4,
+                "rar": 2,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              }
+            ],
+            "cost": 5000
+          },
+          {
+            "cap": 50,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 4,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 3,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 4,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 10000
+          },
+          {
+            "cap": 60,
+            "items": [
+              {
+                "id": "41100012",
+                "name": "MF Whisperin Core",
+                "qty": 8,
+                "rar": 3,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+                "source": "Whisperins / Forgery Challenge",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  },
+                  {
+                    "name": "Forgery Challenge"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 6,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 8,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 15000
+          },
+          {
+            "cap": 70,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 4,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 9,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 12,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 20000
+          },
+          {
+            "cap": 80,
+            "items": [
+              {
+                "id": "41100013",
+                "name": "HF Whisperin Core",
+                "qty": 8,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 12,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 16,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 40000
+          },
+          {
+            "cap": 90,
+            "items": [
+              {
+                "id": "41100014",
+                "name": "FF Whisperin Core",
+                "qty": 4,
+                "rar": 5,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+                "source": "Whisperins",
+                "sourceDetails": [
+                  {
+                    "name": "Whisperins"
+                  }
+                ]
+              },
+              {
+                "id": "41400074",
+                "name": "Sound-Keeping Tacet Core",
+                "qty": 16,
+                "rar": 4,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_007_UI.webp",
+                "source": "Lampylumen Myriad / Lampylumen Myriad - Early Access",
+                "sourceDetails": [
+                  {
+                    "name": "Lampylumen Myriad",
+                    "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_994_UI.webp"
+                  }
+                ]
+              },
+              {
+                "id": "42300090",
+                "name": "Wintry Bell",
+                "qty": 20,
+                "rar": 1,
+                "kind": "mob",
+                "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_SM_Gat_31A_UI.webp",
+                "source": "Overworld Collection / Collection Spots / Bell-Borne Ravine / Shifang Pharmacy",
+                "sourceDetails": [
+                  {
+                    "name": "Overworld Collection"
+                  },
+                  {
+                    "name": "Collection Spots"
+                  },
+                  {
+                    "name": "Bell-Borne Ravine"
+                  },
+                  {
+                    "name": "Shifang Pharmacy"
+                  }
+                ]
+              }
+            ],
+            "cost": 80000
+          }
+        ],
+        "talents": [
+          {
+            "id": "41100011",
+            "name": "LF Whisperin Core",
+            "qty": 25,
+            "rar": 2,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_1_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100012",
+            "name": "MF Whisperin Core",
+            "qty": 28,
+            "rar": 3,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_2_UI.webp",
+            "source": "Whisperins / Forgery Challenge",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              },
+              {
+                "name": "Forgery Challenge"
+              }
+            ]
+          },
+          {
+            "id": "41100013",
+            "name": "HF Whisperin Core",
+            "qty": 40,
+            "rar": 4,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_3_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41100014",
+            "name": "FF Whisperin Core",
+            "qty": 57,
+            "rar": 5,
+            "kind": "mob",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_002_4_UI.webp",
+            "source": "Whisperins",
+            "sourceDetails": [
+              {
+                "name": "Whisperins"
+              }
+            ]
+          },
+          {
+            "id": "41400114",
+            "name": "Unending Destruction",
+            "qty": 26,
+            "rar": 4,
+            "kind": "weekly",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
+            "source": "Scar / Scar - Early Access",
+            "sourceDetails": [
+              {
+                "name": "Scar: Lightbane Reversal",
+                "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1004_UI.webp"
+              },
+              {
+                "name": "Scar - Early Access"
+              }
+            ]
+          },
+          {
+            "id": "43020011",
+            "name": "Inert Metallic Drip",
+            "qty": 25,
+            "rar": 2,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+            "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Garden of Salvation"
+              },
+              {
+                "name": "Forgery Challenge: Flaming Remnants"
+              },
+              {
+                "name": "Souvenir Store"
+              }
+            ]
+          },
+          {
+            "id": "43020012",
+            "name": "Reactive Metallic Drip",
+            "qty": 28,
+            "rar": 3,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+            "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Garden of Salvation"
+              },
+              {
+                "name": "Forgery Challenge: Flaming Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43020013",
+            "name": "Polarized Metallic Drip",
+            "qty": 55,
+            "rar": 4,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+            "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Garden of Salvation"
+              },
+              {
+                "name": "Forgery Challenge: Flaming Remnants"
+              }
+            ]
+          },
+          {
+            "id": "43020014",
+            "name": "Heterized Metallic Drip",
+            "qty": 67,
+            "rar": 5,
+            "kind": "book",
+            "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+            "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+            "sourceDetails": [
+              {
+                "name": "Forgery Challenge: Garden of Salvation"
+              },
+              {
+                "name": "Forgery Challenge: Flaming Remnants"
+              }
+            ]
+          }
+        ],
+        "ascCost": 170000,
+        "talentCost": 2030000,
+        "currency": 2530000,
+        "weapon": {
+          "name": "Blazing Brilliance",
+          "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon21020016_UI.webp",
+          "items": [
+            {
+              "id": "41100021",
+              "name": "LF Howler Core",
+              "qty": 6,
+              "rar": 2,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_1_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100022",
+              "name": "MF Howler Core",
+              "qty": 6,
+              "rar": 3,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_2_UI.webp",
+              "source": "Howlers / Forgery Challenge",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                },
+                {
+                  "name": "Forgery Challenge"
+                }
+              ]
+            },
+            {
+              "id": "41100023",
+              "name": "HF Howler Core",
+              "qty": 10,
+              "rar": 4,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_3_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "41100024",
+              "name": "FF Howler Core",
+              "qty": 12,
+              "rar": 5,
+              "kind": "mob",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_E_002_4_UI.webp",
+              "source": "Howlers",
+              "sourceDetails": [
+                {
+                  "name": "Howlers"
+                }
+              ]
+            },
+            {
+              "id": "43020011",
+              "name": "Inert Metallic Drip",
+              "qty": 6,
+              "rar": 2,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_1_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants / Souvenir Store",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                },
+                {
+                  "name": "Souvenir Store"
+                }
+              ]
+            },
+            {
+              "id": "43020012",
+              "name": "Reactive Metallic Drip",
+              "qty": 8,
+              "rar": 3,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_2_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020013",
+              "name": "Polarized Metallic Drip",
+              "qty": 6,
+              "rar": 4,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_3_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            },
+            {
+              "id": "43020014",
+              "name": "Heterized Metallic Drip",
+              "qty": 20,
+              "rar": 5,
+              "kind": "book",
+              "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Setpup_004_4_UI.webp",
+              "source": "Forgery Challenge: Garden of Salvation / Forgery Challenge: Flaming Remnants",
+              "sourceDetails": [
+                {
+                  "name": "Forgery Challenge: Garden of Salvation"
+                },
+                {
+                  "name": "Forgery Challenge: Flaming Remnants"
+                }
+              ]
+            }
+          ],
+          "cost": 330000
+        }
+      },
       "betaStatus": "changed"
     }
   ],
   "weapons": [
     {
-      "id": "21010076",
-      "name": "Thousandfold Deliverance",
+      "id": "21050116",
+      "name": "Blooming Jadehaven",
       "rarity": 5,
-      "weaponType": "Broadblade",
-      "type": "Broadblade",
+      "weaponType": "Rectifier",
+      "type": "Rectifier",
       "icon": null,
       "art": null,
       "items": [
         {
-          "id": "41100081",
-          "name": "Fractured Exoswarm Pendant",
+          "id": "41100061",
+          "name": "LF Exoswarm Core",
           "qty": 6,
           "rar": 2,
           "kind": "mob",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_1_UI.webp",
-          "source": "Roya Outcasts / Forgery Challenge",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_021_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
           "sourceDetails": [
             {
-              "name": "Roya Outcasts"
+              "name": "Exoswarm"
             },
             {
               "name": "Forgery Challenge"
@@ -5957,16 +9290,16 @@
           ]
         },
         {
-          "id": "41100082",
-          "name": "Worn Exoswarm Pendant",
+          "id": "41100062",
+          "name": "MF Exoswarm Core",
           "qty": 6,
           "rar": 3,
           "kind": "mob",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_2_UI.webp",
-          "source": "Roya Outcasts / Forgery Challenge",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_022_UI.webp",
+          "source": "Exoswarm / Forgery Challenge",
           "sourceDetails": [
             {
-              "name": "Roya Outcasts"
+              "name": "Exoswarm"
             },
             {
               "name": "Forgery Challenge"
@@ -5974,98 +9307,98 @@
           ]
         },
         {
-          "id": "41100083",
-          "name": "Chipped Exoswarm Pendant",
+          "id": "41100063",
+          "name": "HF Exoswarm Core",
           "qty": 10,
           "rar": 4,
           "kind": "mob",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_3_UI.webp",
-          "source": "Roya Outcasts",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_023_UI.webp",
+          "source": "Exoswarm",
           "sourceDetails": [
             {
-              "name": "Roya Outcasts"
+              "name": "Exoswarm"
             }
           ]
         },
         {
-          "id": "41100084",
-          "name": "Intact Exoswarm Pendant",
+          "id": "41100064",
+          "name": "FF Exoswarm Core",
           "qty": 12,
           "rar": 5,
           "kind": "mob",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_007_4_UI.webp",
-          "source": "Roya Outcasts",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_024_UI.webp",
+          "source": "Exoswarm",
           "sourceDetails": [
             {
-              "name": "Roya Outcasts"
+              "name": "Exoswarm"
             }
           ]
         },
         {
-          "id": "43021041",
-          "name": "LF Carved Crystal",
+          "id": "43021031",
+          "name": "Spliced String",
           "qty": 6,
           "rar": 2,
           "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_1_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
             {
               "name": "Forgery Challenge: Cloudfall Chasm"
             },
             {
-              "name": "Forgery Challenge: Corroded Remnants"
+              "name": "Forgery Challenge: Lesson in Sunset"
             }
           ]
         },
         {
-          "id": "43021042",
-          "name": "MF Carved Crystal",
+          "id": "43021032",
+          "name": "Broken String",
           "qty": 8,
           "rar": 3,
           "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_2_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_2_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
             {
               "name": "Forgery Challenge: Cloudfall Chasm"
             },
             {
-              "name": "Forgery Challenge: Corroded Remnants"
+              "name": "Forgery Challenge: Lesson in Sunset"
             }
           ]
         },
         {
-          "id": "43021043",
-          "name": "HF Carved Crystal",
+          "id": "43021033",
+          "name": "Solidified String",
           "qty": 6,
           "rar": 4,
           "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_3_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_3_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
             {
               "name": "Forgery Challenge: Cloudfall Chasm"
             },
             {
-              "name": "Forgery Challenge: Corroded Remnants"
+              "name": "Forgery Challenge: Lesson in Sunset"
             }
           ]
         },
         {
-          "id": "43021044",
-          "name": "FF Carved Crystal",
+          "id": "43021034",
+          "name": "Melodic String",
           "qty": 20,
           "rar": 5,
           "kind": "book",
-          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_011_4_UI.webp",
-          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Corroded Remnants",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_O_012_4_UI.webp",
+          "source": "Forgery Challenge: Cloudfall Chasm / Forgery Challenge: Lesson in Sunset",
           "sourceDetails": [
             {
               "name": "Forgery Challenge: Cloudfall Chasm"
             },
             {
-              "name": "Forgery Challenge: Corroded Remnants"
+              "name": "Forgery Challenge: Lesson in Sunset"
             }
           ]
         }
@@ -6073,19 +9406,8 @@
       "cost": 330000
     },
     {
-      "id": "80080009",
-      "name": "80080009",
-      "rarity": 5,
-      "weaponType": "Sword",
-      "type": "Sword",
-      "icon": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.webp",
-      "art": "../../Database/GameData/ww/assets/weapons/UIResources/Common/Image/IconWeapon/T_IconWeapon80080009_UI.webp",
-      "items": [],
-      "cost": 0
-    },
-    {
-      "id": "21020106",
-      "name": "Glint of Clouds",
+      "id": "21020107",
+      "name": "Unspoken Rue",
       "rarity": 5,
       "weaponType": "Sword",
       "type": "Sword",
@@ -6224,6 +9546,332 @@
         }
       ],
       "cost": 330000
+    }
+  ],
+  "weeklyBosses": [
+    {
+      "bossName": "Bell-Borne Geochelone",
+      "drops": [
+        {
+          "id": "41400094",
+          "name": "Monument Bell",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_003_1_UI.webp",
+          "source": "Bell-Borne Geochelone / Bell-Borne Geochelone - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Bell-Borne Geochelone",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_992_UI.webp"
+            }
+          ],
+          "chars": [
+            "Aalto",
+            "Baizhi",
+            "Calcharo",
+            "Chixia",
+            "Jiyan",
+            "Mortefi",
+            "Verina",
+            "Youhu",
+            "Zhezhi"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Cetus the Tidebreaker",
+      "drops": [
+        {
+          "id": "41400104",
+          "name": "Wave-Cutting Tooth",
+          "n": "Wave-Cutting Tooth",
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_005_UI.webp",
+          "source": "Cetus the Tidebreaker",
+          "sourceDetails": [
+            {
+              "name": "Cetus the Tidebreaker"
+            }
+          ],
+          "chars": []
+        }
+      ]
+    },
+    {
+      "bossName": "Denia",
+      "drops": [
+        {
+          "id": "41400304",
+          "name": "We Who Question",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_026_UI.webp",
+          "source": "Denia / Denia - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Denia",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_UI.webp"
+            }
+          ],
+          "chars": [
+            "Denia",
+            "Hiyuki",
+            "Lucilla",
+            "Qingxiao",
+            "Rebecca",
+            "Rover"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Dreamless",
+      "drops": [
+        {
+          "id": "41400124",
+          "name": "Dreamless Feather",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_013_UI.webp",
+          "source": "Dreamless / Dreamless - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Dreamless",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.webp"
+            }
+          ],
+          "chars": [
+            "Camellya",
+            "Danjin",
+            "Lynae",
+            "Rover",
+            "Taoqi",
+            "Yinlin"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Fleurdelys",
+      "drops": [
+        {
+          "id": "41400204",
+          "name": "When Irises Bloom",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_017_UI.webp",
+          "source": "Fleurdelys / Fleurdelys - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Fleurdelys",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34012_UI.webp"
+            }
+          ],
+          "chars": [
+            "Augusta",
+            "Cantarella",
+            "Cartethyia",
+            "Chisa",
+            "Ciaccona",
+            "Rover"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Hecate",
+      "drops": [
+        {
+          "id": "41400194",
+          "name": "The Netherworld's Stare",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_007_UI.webp",
+          "source": "Hecate / Hecate - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Hecate",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.webp"
+            }
+          ],
+          "chars": [
+            "Brant",
+            "Carlotta",
+            "Iuno",
+            "Lupa",
+            "Mornye",
+            "Phrolova",
+            "Roccia",
+            "Zani"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Scar",
+      "drops": [
+        {
+          "id": "41400114",
+          "name": "Unending Destruction",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_014_UI.webp",
+          "source": "Scar / Scar - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Scar: Lightbane Reversal",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1004_UI.webp"
+            },
+            {
+              "name": "Scar - Early Access"
+            }
+          ],
+          "chars": [
+            "Encore",
+            "Jianxin",
+            "Lingyang",
+            "Rover",
+            "Sanhua",
+            "Xiangli Yao",
+            "Yangyang",
+            "Yuanwu"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sentinel Ju\u00e9",
+      "drops": [
+        {
+          "id": "41400144",
+          "name": "Sentinel's Dagger",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_005_UI.webp",
+          "source": "Sentinel Ju\u00e9 / Sentinel Ju\u00e9 - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Ju\u00e9",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.webp"
+            }
+          ],
+          "chars": [
+            "Changli",
+            "Jinhsi",
+            "Lumi",
+            "Phoebe",
+            "The Shorekeeper"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Sigillum",
+      "drops": [
+        {
+          "id": "41400294",
+          "name": "Gold in Memory",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_025_UI.webp",
+          "source": "Sigillum / Sigillum - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Sigillum",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_UI.webp"
+            }
+          ],
+          "chars": [
+            "Aemeath",
+            "Lucy",
+            "Luuk Herssen",
+            "Sigrika"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Suhsin the Inevitable",
+      "drops": [
+        {
+          "id": "41400354",
+          "name": "Remnant of the Wheel",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+          "source": "Suhsin the Inevitable",
+          "sourceDetails": [
+            {
+              "name": "Suhsin the Inevitable"
+            }
+          ],
+          "chars": [
+            "Hsin",
+            "Suoming"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Thousand-Puppet Pavilion",
+      "drops": [
+        {
+          "id": "41400324",
+          "name": "Skyward Glazed Heart",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp",
+          "source": "Thousand-Puppet Pavilion / Thousand-Puppet Pavilion - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Thousand-Puppet Pavilion",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.webp"
+            }
+          ],
+          "chars": [
+            "Jingran",
+            "Suisui",
+            "Yangyang Xuanling"
+          ]
+        }
+      ]
+    },
+    {
+      "bossName": "Threnodian: Leviathan",
+      "drops": [
+        {
+          "id": "41400254",
+          "name": "Curse of the Abyss",
+          "qty": 26,
+          "rar": 4,
+          "kind": "weekly",
+          "icon": "../../Database/GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_021_UI.webp",
+          "source": "Threnodian: Leviathan / Threnodian: Leviathan - Early Access",
+          "sourceDetails": [
+            {
+              "name": "Threnodian: Leviathan",
+              "icon": "../../Database/GameData/ww/assets/monsters/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34020_UI.webp"
+            }
+          ],
+          "chars": [
+            "Buling",
+            "Galbrena",
+            "Qiuyuan"
+          ]
+        }
+      ]
     }
   ]
 };

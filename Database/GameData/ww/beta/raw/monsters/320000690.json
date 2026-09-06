@@ -9,7 +9,7 @@
     4
   ],
   "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.T_IconMonsterHead_32069_UI",
-  "echo": 0,
+  "echo": 6000220,
   "base_stats": {
     "damage_resistance_phys": 1000,
     "damage_resistance_element1": 1000,

@@ -611,6 +611,18 @@
     "zh": "云琅",
     "ja": "雲琅"
   },
+  "21020107": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020107_UI.T_IconWeapon21020107_UI",
+    "rank": 5,
+    "type": 2,
+    "en": "Unspoken Rue",
+    "desc": "Stay tuned",
+    "atk": 588,
+    "sub": "Crit. Rate",
+    "ko": "적막한 어둠",
+    "zh": "沉冥",
+    "ja": "沈冥"
+  },
   "21030011": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030011_UI.T_IconWeapon21030011_UI",
     "rank": 1,
@@ -1462,6 +1474,18 @@
     "ko": "눈부신 빛",
     "zh": "曜光",
     "ja": "弾む輝き"
+  },
+  "21050116": {
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050116_UI.T_IconWeapon21050116_UI",
+    "rank": 5,
+    "type": 5,
+    "en": "Blooming Jadehaven",
+    "desc": "Stay tuned",
+    "atk": 588,
+    "sub": "Crit. Rate",
+    "ko": "옥궐에 피는 꽃",
+    "zh": "玉阙玄华",
+    "ja": "玉殿に咲き満ちる玄華"
   },
   "80080001": {
     "icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020019_UI.T_IconWeapon21020019_UI",

@@ -1602,7 +1602,7 @@
   },
   {
     "id": "83",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Regenerative Pistil",
     "rarity": 3,
     "type": 5,
@@ -1612,14 +1612,15 @@
     "description": "Upload data to the Bioprinter to print Resonator Ascension Collectibles native to the following regions:\nHuanglong - Jinzhou, Black Shores, Rinascita, Honami City",
     "background": "Thanks to the efforts of the Spacetrek Collective, the Upphaf Life Chamber located in the Roya Frostlands is now officially operational. \nSimply input compliant sample data, and the chamber can \"print\" the designated plants identical to the original specimens.",
     "source": [
-      "Item Exchange"
+      "Item Exchange",
+      "Synthesis - Conversion"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconTask/T_IconTask_Task_236_UI.webp"
     },
     "liveComparison": {
       "liveHash": "b32a16eaeaadd68bc5cb60f8fd9fe732e55134aac1878ecf45ca11896d3cd360",
-      "currentHash": "b32a16eaeaadd68bc5cb60f8fd9fe732e55134aac1878ecf45ca11896d3cd360"
+      "currentHash": "16bec6f6fcdcf58c6378d51db141a3c97f33a80d5f5c2af4846f56bd8ee73d1f"
     }
   },
   {
@@ -1639,6 +1640,42 @@
     "liveComparison": {
       "liveHash": "d6e016532491c80399cd5fc6db2d1ad936998b3704e1315e35f824f5b6d8bdbc",
       "currentHash": "d6e016532491c80399cd5fc6db2d1ad936998b3704e1315e35f824f5b6d8bdbc"
+    }
+  },
+  {
+    "id": "85",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 4,
+    "tag": [
+      "Event Item"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_Theme33_01_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "37417589b49f56fa3875c1c005762ba89210bb1064fe313e403e0b5fc46d456f"
+    }
+  },
+  {
+    "id": "86",
+    "contentStatus": "beta",
+    "name": "Adventure Log",
+    "rarity": 4,
+    "tag": [
+      "Consumable"
+    ],
+    "description": "A token earned by submitting exploration reports from various regions. Can be exchanged for \"Adventure Packages\" during the Beyond the Waves event series.",
+    "background": "\"If the Pioneer Association is the eyes of civilization, then Lollo Logistics aspires to be the feet that carry humanity forward,\" a Lollo Logistics member remarked during an interview.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_03_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "42c93023948ef914234c900dccfaf5dd7a4bb800eb8479de3d7a0950efc7c517"
     }
   },
   {
@@ -4603,6 +4640,44 @@
     }
   },
   {
+    "id": "55007",
+    "contentStatus": "beta",
+    "name": "55007",
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "description": "Used to unlock the corresponding Echo Aspect set.",
+    "background": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f708e251e128f418e7fe79b61e68ae3931d810e4708ccfaaff73cc5273482e39"
+    }
+  },
+  {
+    "id": "55008",
+    "contentStatus": "beta",
+    "name": "55008",
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "description": "Used to unlock the corresponding Echo Aspect set.",
+    "background": "Once bound by thorns, these wings now break free, soaring into the boundless sea of clouds.\nThe old laws no longer hold sway, for they will carry you to the farthest skies of freedom.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_7_a_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "78a973ccc06f296148c963d9348450c8996dc45b9dc40267db776d62514321c0"
+    }
+  },
+  {
     "id": "10001102",
     "contentStatus": "live",
     "name": "Sanhua's Waveband",
@@ -5234,6 +5309,44 @@
     "liveComparison": {
       "liveHash": "84e8f57c7a1c6d822cfb072a16946e5a50cc06399d162526096aa30525e5ea1c",
       "currentHash": "84e8f57c7a1c6d822cfb072a16946e5a50cc06399d162526096aa30525e5ea1c"
+    }
+  },
+  {
+    "id": "10001311",
+    "contentStatus": "beta",
+    "name": "Hsin's Waveband",
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Waveband"
+    ],
+    "description": "Used to activate Hsin's Resonance Chain.",
+    "background": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
+    "source": [
+      "Convene"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "e3c12cf3bb0182be56fb4ab96d3d6baa437284bfe92ebea267eadf8a18d3491b"
+    }
+  },
+  {
+    "id": "10001312",
+    "contentStatus": "beta",
+    "name": "Suoming's Waveband",
+    "rarity": 5,
+    "type": 7,
+    "tag": [
+      "Waveband"
+    ],
+    "description": "Used to activate Suoming's Resonance Chain.",
+    "background": "A Resonator's Forte is composed of countless Wavebands. When these Wavebands form a complete Resonance Chain, the Resonator can unleash their full power.",
+    "source": [
+      "Convene"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "13b0d7fb46d1017d51e907dad95fac80f3fb92ed2b218f24c0c2ca80a6db75f6"
     }
   },
   {
@@ -6480,6 +6593,192 @@
     "liveComparison": {
       "liveHash": "64e90b4bfdda40ecf28dac5cf01258a53ccc117a38036979e898b652628e5be8",
       "currentHash": "64e90b4bfdda40ecf28dac5cf01258a53ccc117a38036979e898b652628e5be8"
+    }
+  },
+  {
+    "id": "40050001",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 3,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c9b88821ff3495b035adc9e23b771b29630b60d99a24560be32c571756380b48"
+    }
+  },
+  {
+    "id": "40050002",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 4,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description",
+      "AccessPath_923302_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "37f81640ded86ec216c3cb570e47e1ab49fffc523ee5ef9560eb0fee6844aee6"
+    }
+  },
+  {
+    "id": "40050003",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description",
+      "AccessPath_923302_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "2b1e24364442f21dd47037115f2bf97fdd667d0658281702a5e2f44730f0c222"
+    }
+  },
+  {
+    "id": "40050011",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 3,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "55ec0c31ce4e13575cda9bfda113539f569a409856552051ff86d5dfe07c1df6"
+    }
+  },
+  {
+    "id": "40050012",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 4,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description",
+      "AccessPath_923302_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "56e1aa2b28264caded64507ffa3c0d58f0d67fb6004e3d4b4cbe03fc50034958"
+    }
+  },
+  {
+    "id": "40050013",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description",
+      "AccessPath_923302_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "3801879380fd0faa6164852e72469fa0e9bbdfdcf59597a217a44276e1f42e78"
+    }
+  },
+  {
+    "id": "40050021",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 3,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "ae482b325b2e56dd2b53bfd3d6b45efd075cbeae7bcaba84496fe6b70c242af8"
+    }
+  },
+  {
+    "id": "40050022",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 4,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description",
+      "AccessPath_923302_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "04042f8fb2f595267e5f45c18facf38146fc98baf33284719852625b48157d4a"
+    }
+  },
+  {
+    "id": "40050023",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "type": 5,
+    "tag": [
+      "Material"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [
+      "Stay tuned",
+      "AccessPath_923301_Description",
+      "AccessPath_923302_Description"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "691848c931ef901fa2137b4f74993cdb03b88d4a1704a1d5502e6904536b4dc4"
     }
   },
   {
@@ -8317,6 +8616,28 @@
     "liveComparison": {
       "liveHash": "35c737e824df429c0e732268c1882353c66a88a4d30dae4d21b0556b7fa8e149",
       "currentHash": "35c737e824df429c0e732268c1882353c66a88a4d30dae4d21b0556b7fa8e149"
+    }
+  },
+  {
+    "id": "41400354",
+    "contentStatus": "beta",
+    "name": "Remnant of the Wheel",
+    "rarity": 4,
+    "type": 4,
+    "tag": [
+      "Skill Upgrade Material"
+    ],
+    "description": "Suhsin the Inevitable: Law Incarnate's drop, used for Skill Upgrade.",
+    "background": "The Wheel of Prediction, a limiter forged by \"Hsin\" to bind Suhsin the Inevitable. \nOver their century-long struggle for authority, the Wheel was gradually devoured and corrupted, degenerating from an instrument of confinement into a medium for interfering with the Civilization Capsule. \"Hsin\" has since reclaimed the Wheel, leaving behind only a remnant, one that still bears the traces of Suhsin the Inevitable analyzing and corroding a Sentinel's authority...",
+    "source": [
+      "Supply Pack",
+      "Suhsin the Inevitable"
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMout/T_IconMout_L_028_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "ce5688381bf8cdbd76cdc5285dfb15912fa66a751b94bdc74093e839c3f339e3"
     }
   },
   {
@@ -13090,8 +13411,52 @@
     }
   },
   {
+    "id": "42601630",
+    "contentStatus": "beta",
+    "name": "Bloom of Hearkening",
+    "rarity": 1,
+    "type": 5,
+    "tag": [
+      "Ascension Material"
+    ],
+    "description": "A material used for Resonator Ascension.",
+    "background": "Legend has it that the Divine Fox once spent all Her divine power and became bound to the mortal world, all to light Mengzhou's endless night. In commemoration, people inscribe the year's blessings upon Moon Lanterns and set them adrift as invitations, bidding the mirth-loving Divine Fox to share in mortal joys. The Bloom of Hearkening is said to have taken shape from the divine power She left behind, and thus resonates with the emotions of all living things: it wilts in sorrow, blushes in joy, and bursts open in wrath. Seeing it as an incarnate of the Divine Fox Herself, people often confide their hearts to it.",
+    "source": [
+      "Supply Pack",
+      "Collection Spots",
+      "Overworld Collection",
+      "Huaxu Apothecary"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "741678cbe3674e5d89b1da59eb5486a47bd3106fb28e97b669fed81e2056b07c"
+    }
+  },
+  {
+    "id": "42601640",
+    "contentStatus": "beta",
+    "name": "Miasmic Branch",
+    "rarity": 1,
+    "type": 5,
+    "tag": [
+      "Ascension Material"
+    ],
+    "description": "A material used for Resonator Ascension.",
+    "background": "Originally a common tree of Mengzhou, it was corrupted by the Evil Miasma's Miasmic Thunder and reduced to a charred, blackened stump, upon which red lightning can still be seen darting. Though the Huaxu Academy and the Ministry of Sentinel Affairs have confirmed it poses no immediate danger, its contamination by the Evil Miasma has made it a scar upon the land, and few dare approach. Whether it is the remains of the Evil Miasma or the breeding ground of a new calamity has yet to be determined.",
+    "source": [
+      "Supply Pack",
+      "Collection Spots",
+      "Overworld Collection",
+      "Huaxu Apothecary"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "7fc0c2e0489f2888374a8ce3839cea9c0de3168b23c5446dc3a5d31ec0b3a04f"
+    }
+  },
+  {
     "id": "43010001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Basic Resonance Potion",
     "rarity": 2,
     "type": 4,
@@ -13103,22 +13468,22 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
-      "Quests",
-      "Exploring Solaris-3",
+      "Gladiator's Portrait",
       "Simulation Training",
-      "Gladiator's Portrait"
+      "Quests",
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_1_UI.webp"
     },
     "liveComparison": {
       "liveHash": "b344b48557ab4b61afe73a724b59b7146caef85de604ea3b355683a063484e4b",
-      "currentHash": "b344b48557ab4b61afe73a724b59b7146caef85de604ea3b355683a063484e4b"
+      "currentHash": "a73ef74a90181bcdbe66315e834f3511ebe3e42855e132aef9e7e0e058797888"
     }
   },
   {
     "id": "43010002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Medium Resonance Potion",
     "rarity": 3,
     "type": 4,
@@ -13130,23 +13495,23 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
+      "Gladiator's Portrait",
+      "Simulation Training",
       "Quests",
       "Supply Pack",
-      "Exploring Solaris-3",
-      "Simulation Training",
-      "Gladiator's Portrait"
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_2_UI.webp"
     },
     "liveComparison": {
       "liveHash": "4962851ebe85276f37abe600898c79c063913fa4b052cbbff25f9d914d8a9014",
-      "currentHash": "4962851ebe85276f37abe600898c79c063913fa4b052cbbff25f9d914d8a9014"
+      "currentHash": "288ee6cd657382f4e388497a4e1311e58e3926b716711a6a9b2fabd7f3b6caf8"
     }
   },
   {
     "id": "43010003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Advanced Resonance Potion",
     "rarity": 4,
     "type": 4,
@@ -13158,23 +13523,23 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
+      "Gladiator's Portrait",
+      "Simulation Training",
       "Quests",
       "Supply Pack",
-      "Exploring Solaris-3",
-      "Simulation Training",
-      "Gladiator's Portrait"
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_3_UI.webp"
     },
     "liveComparison": {
       "liveHash": "e3756d90d99ceff1353fe2a0e66b6c250dbe48aaf961b2e8f597229eae8e4c5b",
-      "currentHash": "e3756d90d99ceff1353fe2a0e66b6c250dbe48aaf961b2e8f597229eae8e4c5b"
+      "currentHash": "f12ed351560b64603d9e0481349bffcf12570e9bbf4a1783f5f70a695e3bb3e1"
     }
   },
   {
     "id": "43010004",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Premium Resonance Potion",
     "rarity": 5,
     "type": 4,
@@ -13186,23 +13551,23 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
+      "Gladiator's Portrait",
+      "Simulation Training",
       "Quests",
       "Supply Pack",
-      "Exploring Solaris-3",
-      "Simulation Training",
-      "Gladiator's Portrait"
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconRup/T_IconRup_exp_4_UI.webp"
     },
     "liveComparison": {
       "liveHash": "5ff4b4a36a3750781aab19017b25cb1f609fbcf5b1ec08f00d56211ce7b09ecb",
-      "currentHash": "5ff4b4a36a3750781aab19017b25cb1f609fbcf5b1ec08f00d56211ce7b09ecb"
+      "currentHash": "1f800e5b68ec595f4dcab6cdfee67e0cca8a8c63cec5766ee4541791d9a715c6"
     }
   },
   {
     "id": "43020001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Basic Energy Core",
     "rarity": 2,
     "type": 2,
@@ -13214,22 +13579,22 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
-      "Quests",
-      "Exploring Solaris-3",
+      "Gladiator's Portrait",
       "Simulation Training",
-      "Gladiator's Portrait"
+      "Quests",
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_1_UI.webp"
     },
     "liveComparison": {
       "liveHash": "732b0c8917fd13a051cc35a7187331a2d9e01f46f065773d70ee877fc694fc4b",
-      "currentHash": "732b0c8917fd13a051cc35a7187331a2d9e01f46f065773d70ee877fc694fc4b"
+      "currentHash": "15543f11e38376401f2d3342a9ed1d5a19bd13e7437d28d312484fe68665c1b2"
     }
   },
   {
     "id": "43020002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Medium Energy Core",
     "rarity": 3,
     "type": 2,
@@ -13241,23 +13606,23 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
+      "Gladiator's Portrait",
+      "Simulation Training",
       "Quests",
       "Supply Pack",
-      "Exploring Solaris-3",
-      "Simulation Training",
-      "Gladiator's Portrait"
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_2_UI.webp"
     },
     "liveComparison": {
       "liveHash": "84e2815fca9f5f1175d350e1840537324734932ea08f80eaa9065b4582c4afbf",
-      "currentHash": "84e2815fca9f5f1175d350e1840537324734932ea08f80eaa9065b4582c4afbf"
+      "currentHash": "867c6cdf1ea3cf6f5d7a19b48c8528e2624485614c969079fc43f50286687eae"
     }
   },
   {
     "id": "43020003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Advanced Energy Core",
     "rarity": 4,
     "type": 2,
@@ -13269,23 +13634,23 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
+      "Gladiator's Portrait",
+      "Simulation Training",
       "Quests",
       "Supply Pack",
-      "Exploring Solaris-3",
-      "Simulation Training",
-      "Gladiator's Portrait"
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_3_UI.webp"
     },
     "liveComparison": {
       "liveHash": "754485e484e1275f58ca2b4f55a17bfafbd7306d6c087407df5d5d25b03f5344",
-      "currentHash": "754485e484e1275f58ca2b4f55a17bfafbd7306d6c087407df5d5d25b03f5344"
+      "currentHash": "66d8ef349465d9c6ca1e91d40adfce5e783c2c18704d1dc93eddc426810dc9dd"
     }
   },
   {
     "id": "43020004",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Premium Energy Core",
     "rarity": 5,
     "type": 2,
@@ -13297,18 +13662,18 @@
     "source": [
       "Sparring Ground",
       "B.1.N.G.O.",
+      "Gladiator's Portrait",
+      "Simulation Training",
       "Quests",
       "Supply Pack",
-      "Exploring Solaris-3",
-      "Simulation Training",
-      "Gladiator's Portrait"
+      "Exploring Solaris-3"
     ],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconWup/T_IconWup_Exp_4_UI.webp"
     },
     "liveComparison": {
       "liveHash": "ae3425dbf8edc7aaa5dd7e534ecdb4d2b96eaebb56ee3119ca022ac2f9ea24e0",
-      "currentHash": "ae3425dbf8edc7aaa5dd7e534ecdb4d2b96eaebb56ee3119ca022ac2f9ea24e0"
+      "currentHash": "504bca4a55512cd9b4def34ba615c0e8aaf159ee0df8d5cd4d0fd79086723720"
     }
   },
   {
@@ -15220,6 +15585,38 @@
     }
   },
   {
+    "id": "44010065",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "type": 4,
+    "tag": [
+      "Phantom Appearance"
+    ],
+    "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "source": [],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "32d5a1cbd62ee7d30f7355a1c2d8865534720a0aa0f47f7ff608968ee99c42a0"
+    }
+  },
+  {
+    "id": "44010066",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "type": 4,
+    "tag": [
+      "Phantom Appearance"
+    ],
+    "description": "Unlocks the Phantom Appearance of the corresponding Echo.",
+    "source": [],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "f2362218a8a452a16c0386c516c444e2799d76cdf9358713bd99bea056354b4e"
+    }
+  },
+  {
     "id": "50000031",
     "contentStatus": "live",
     "name": "An error occurred. Please contact our Customer Service for assistance",
@@ -16762,14 +17159,14 @@
   },
   {
     "id": "50000118",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Weekly Challenge New Voyage Supply Pack",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Supply Chest"
     ],
-    "description": "Open to claim a type of advanced skill material of your choice:\n<color=Rare4>Skyward Glazed Heart x1</color>\n<color=Rare4>We Who Question x1</color>\n<color=Rare4>Curse of the Abyss x1</color>\n<color=Rare4>When Irises Bloom x1</color>\n...",
+    "description": "Open to claim a type of advanced skill material of your choice:\n<color=Rare4>Remnant of the Wheel x1</color>\n<color=Rare4>Skyward Glazed Heart x1</color>\n<color=Rare4>We Who Question x1</color>\n<color=Rare4>Curse of the Abyss x1</color>\n...",
     "background": "Upon touching the chest, you hear what sounds like a battle hymn.",
     "source": [],
     "assets": {
@@ -16777,7 +17174,7 @@
     },
     "liveComparison": {
       "liveHash": "930616d85e9954407dee1cfc67d2382ebda3a125228990d896e404c06bb769c9",
-      "currentHash": "930616d85e9954407dee1cfc67d2382ebda3a125228990d896e404c06bb769c9"
+      "currentHash": "9aad7e82236086210a2cf336981d055d73165089c1f615eb7fd4893e59a59e20"
     }
   },
   {
@@ -16798,6 +17195,25 @@
     "liveComparison": {
       "liveHash": "6bf68df97deb53f09a13347139dac42292e51cbf9ca35b761719db10b076de75",
       "currentHash": "6bf68df97deb53f09a13347139dac42292e51cbf9ca35b761719db10b076de75"
+    }
+  },
+  {
+    "id": "50000120",
+    "contentStatus": "beta",
+    "name": "Weekly Challenge Supply Pack VI",
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "description": "Open to claim a type of advanced skill material of your choice:\n<color=Rare4>Remnant of the Wheel x1</color>\n<color=Rare4>Skyward Glazed Heart x1</color>\n<color=Rare4>We Who Question x1</color>\n<color=Rare4>Curse of the Abyss x1</color>\n...",
+    "background": "Upon touching the chest, you hear what sounds like a battle hymn.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconGiftPack/T_IconGiftPack_068_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "2a91e9f459129f05696fc62eba25c625b86c2d3b79f34a98a0b46b2ba3da11f3"
     }
   },
   {
@@ -17420,14 +17836,14 @@
   },
   {
     "id": "50000210",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Gleaner's Ascension Supply",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Supply Chest"
     ],
-    "description": "Open to claim one material for Resonator Ascension of your choice:\nRimewisp *1\nGemini Spore *1\nArithmetic Shell *1\nSummer Flower *1\nStone Rose *1\n…",
+    "description": "Open to claim one material for Resonator Ascension of your choice:\nBloom of Hearkening x1\nMiasmic Branch x1\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\n...",
     "background": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "source": [],
     "assets": {
@@ -17435,19 +17851,19 @@
     },
     "liveComparison": {
       "liveHash": "b9564e18e3c46301b97c3bc8666838b22c5703bddbe0b662418384d27c5bd475",
-      "currentHash": "b9564e18e3c46301b97c3bc8666838b22c5703bddbe0b662418384d27c5bd475"
+      "currentHash": "bfdb0525a062a5b0bbd17b46ee062f9368740777de14877667bb3cede54c6782"
     }
   },
   {
     "id": "50000211",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Voyager's Ascension Supply",
     "rarity": 4,
     "type": 7,
     "tag": [
       "Supply Chest"
     ],
-    "description": "Open to claim one material for Resonator Ascension of your choice:\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\nRedbell x1\nForget-Me-Not x1\n...",
+    "description": "Open to claim one material for Resonator Ascension of your choice:\nBloom of Hearkening x1\nMiasmic Branch x1\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\n...",
     "background": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
     "source": [],
     "assets": {
@@ -17455,7 +17871,7 @@
     },
     "liveComparison": {
       "liveHash": "afaccdbb2b5a12a40b95cffff8fb76075e8ba06fae30208d6c8624bfed1f4109",
-      "currentHash": "afaccdbb2b5a12a40b95cffff8fb76075e8ba06fae30208d6c8624bfed1f4109"
+      "currentHash": "04a1e76e019c4bf35d8d5cabc556e1eee593f4724f741cb1d6273a54257f7192"
     }
   },
   {
@@ -17555,6 +17971,25 @@
     "liveComparison": {
       "liveHash": "3fd721809e3ea6803dd2426ff4209da645618b42a080c2d2d76e3529b5972fa3",
       "currentHash": "3fd721809e3ea6803dd2426ff4209da645618b42a080c2d2d76e3529b5972fa3"
+    }
+  },
+  {
+    "id": "50000217",
+    "contentStatus": "beta",
+    "name": "Gleaner's Ascension Supply V",
+    "rarity": 4,
+    "type": 7,
+    "tag": [
+      "Supply Chest"
+    ],
+    "description": "Open to claim one material for Resonator Ascension of your choice:\nBloom of Hearkening x1\nMiasmic Branch x1\nCloudperch Seed x1\nFlowborne Dream x1\nBlade Blossom x1\n...",
+    "background": "Bio samples collected by the Black Shores' Bloombearers during their fieldwork, which were later transplanted, preserved, and archived in the Bank of Life at Tethys' Deep. When necessary, specimens stored within may be used as supplies and freely accessed by personnel in need.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_cllb_05.webp"
+    },
+    "liveComparison": {
+      "currentHash": "104ee228c40f3b72763ff0a4910caad63e9e9fe8bd1b70a4ba5e2f316a1e099b"
     }
   },
   {
@@ -21272,7 +21707,7 @@
   },
   {
     "id": "50032001",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Morphable Song of Feathered Trace",
     "rarity": 5,
     "type": 3,
@@ -21283,17 +21718,15 @@
     "description": "Open to obtain a random Echo of the following Sonata Effect: Song of Feathered Trace.\n \n2pcs Set: Energy Regen +10%.\n\n5pcs Set: Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a 20% increase in Crit. Rate and 35% increase in Heavy Attack DMG Bonus to the Resonator, lasting 15s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a 0.1% increase in ATK to Resonators in the team for every 1% of the Resonator's Energy Regen, up to 25%, lasting 10s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
-    "assets": {
-      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
-    },
+    "assets": {},
     "liveComparison": {
       "liveHash": "deb431b34b55a2a25d2dc6f6d925cca0e4bf0d3994083e43237b83c194f1490b",
-      "currentHash": "deb431b34b55a2a25d2dc6f6d925cca0e4bf0d3994083e43237b83c194f1490b"
+      "currentHash": "c92d672bb60f11ae26f4b5f1bf98c4801be04e2b63dc3a4efe51a6483537697b"
     }
   },
   {
     "id": "50032002",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Morphable Heart of Evil's Purge",
     "rarity": 5,
     "type": 3,
@@ -21304,17 +21737,15 @@
     "description": "Open to obtain a random Echo of the following Sonata Effect: Heart of Evil's Purge\n \n2pcs Set: Aero DMG +10%.\n\n5pcs Set: Inflicting Tune Strain - Shifting increases Crit. DMG by 20% and Aero DMG Bonus by 30% for 15s.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
-    "assets": {
-      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
-    },
+    "assets": {},
     "liveComparison": {
       "liveHash": "1d5fb991aa3e614fc6cc2dde2682cabe056abf34c8ace316dbdc2e28e8335f8b",
-      "currentHash": "1d5fb991aa3e614fc6cc2dde2682cabe056abf34c8ace316dbdc2e28e8335f8b"
+      "currentHash": "b69f5bedb7c9f4cfa168c3d8a13dcc2db64f7644cf183902c9eb675278a5f9fd"
     }
   },
   {
     "id": "50032003",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Morphable Lamp of Nether Road",
     "rarity": 5,
     "type": 3,
@@ -21325,12 +21756,70 @@
     "description": "Open to obtain a random Echo of the following Sonata Effect: Lamp of Nether Road\n\n2pcs Set: HP+10%.\n\n5pcs Set: Upon gaining a Shield, gain 5% increase in Crit. Rate for 5s, max 4 stacks. This effect can be triggered every 0.5s. At max stacks, gain 15% Fusion DMG Bonus.",
     "background": "The footprints in the rift will never fade...",
     "source": [],
+    "assets": {},
+    "liveComparison": {
+      "liveHash": "cbe9bcc5cd4841fe86da2c34e2246482a92fedb6b812fa7eadc1761a152b23d3",
+      "currentHash": "b447da51ba6e6eb03259613be1771b77ef8a538deb8d721bb61569daf026569e"
+    }
+  },
+  {
+    "id": "50032004",
+    "contentStatus": "beta",
+    "name": "Morphable Echo - Heart of Sworn Vigil",
+    "rarity": 5,
+    "type": 3,
+    "tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Heart of Sworn Vigil.\n\n2pcs Set: Electro DMG +10%.\n\n5pcs Set: Inflicting Electro Flare on the target, obtaining Unison effect, or triggering Unison Response increases Crit. Rate by 15% and grants 22.5% Electro DMG Bonus for 30s.",
+    "background": "The footprints in the rift will never fade...",
+    "source": [],
     "assets": {
       "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
     },
     "liveComparison": {
-      "liveHash": "cbe9bcc5cd4841fe86da2c34e2246482a92fedb6b812fa7eadc1761a152b23d3",
-      "currentHash": "cbe9bcc5cd4841fe86da2c34e2246482a92fedb6b812fa7eadc1761a152b23d3"
+      "currentHash": "0f6a34751b42456f108d4a90e0086103434590f1ae87a0c01d5cc8208dd77e95"
+    }
+  },
+  {
+    "id": "50032005",
+    "contentStatus": "beta",
+    "name": "Morphable Echo - Flash of Electric Reflection",
+    "rarity": 5,
+    "type": 3,
+    "tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Flash of Electric Reflection.\n\n2pcs Set: Electro DMG +10%.\n\n5pcs Set: Inflicting Electro Flare on the target triggers the following effects: Gain 10% Electro DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Electro DMG Bonus for 15s.",
+    "background": "The footprints in the rift will never fade...",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3975fb012ebf1d876516f963d77e91a5a60d2f2f48853c3ce37e697370d1a3b2"
+    }
+  },
+  {
+    "id": "50032006",
+    "contentStatus": "beta",
+    "name": "Morphable Echo - Flower of Tinged Yearning",
+    "rarity": 5,
+    "type": 3,
+    "tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Flower of Tinged Yearning.\n\n2pcs Set: Healing Bonus+10%.\n\n5pcs Set: Healing a Resonator in the team increases the ATK of all Resonators in the team by 10% for 30s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison effect or triggers Unison Response, their ATK is further increased by 15%.",
+    "background": "The footprints in the rift will never fade...",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "2b57f03ae52374adec1fc9f0b17585995acfc9add95d1f3f87aa7100110533a2"
     }
   },
   {
@@ -21388,6 +21877,66 @@
     "liveComparison": {
       "liveHash": "34ea0989d2db49433cc1e4bb56161ece5511d3f7971c21ea202536415806fc75",
       "currentHash": "34ea0989d2db49433cc1e4bb56161ece5511d3f7971c21ea202536415806fc75"
+    }
+  },
+  {
+    "id": "50033004",
+    "contentStatus": "beta",
+    "name": "Morphable Echo - Heart of Sworn Vigil",
+    "rarity": 5,
+    "type": 3,
+    "tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Heart of Sworn Vigil.\n\n2pcs Set: Electro DMG +10%.\n\n5pcs Set: Inflicting Electro Flare on the target, obtaining Unison effect, or triggering Unison Response increases Crit. Rate by 15% and grants 22.5% Electro DMG Bonus for 30s.",
+    "background": "The footprints in the rift will never fade...",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "61a2efea2c77e4acd77b4a9a763194af42472663986205814506f2f0724de216"
+    }
+  },
+  {
+    "id": "50033005",
+    "contentStatus": "beta",
+    "name": "Morphable Echo - Flash of Electric Reflection",
+    "rarity": 5,
+    "type": 3,
+    "tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Flash of Electric Reflection.\n\n2pcs Set: Electro DMG +10%.\n\n5pcs Set: Inflicting Electro Flare on the target triggers the following effects: Gain 10% Electro DMG Bonus for 15s. While this effect is active, casting an Outro Skill grants the incoming Resonator 25% Electro DMG Bonus for 15s.",
+    "background": "The footprints in the rift will never fade...",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "7d94d92c1febc99476ffacd461ec72dcc7e5d971cfdc62068a4bd9d8284e2139"
+    }
+  },
+  {
+    "id": "50033006",
+    "contentStatus": "beta",
+    "name": "Morphable Echo - Flower of Tinged Yearning",
+    "rarity": 5,
+    "type": 3,
+    "tag": [
+      "Random Echo Item",
+      "Supply Chest"
+    ],
+    "description": "Open to obtain a random Echo of the following Sonata Effect: Flower of Tinged Yearning.\n\n2pcs Set: Healing Bonus+10%.\n\n5pcs Set: Healing a Resonator in the team increases the ATK of all Resonators in the team by 10% for 30s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison effect or triggers Unison Response, their ATK is further increased by 15%.",
+    "background": "The footprints in the rift will never fade...",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_shlb_36_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "affa8cee2755fc8efd6c468969c65bb93efa4f51baee3596c7b7e79a99aa5478"
     }
   },
   {
@@ -26301,6 +26850,44 @@
     }
   },
   {
+    "id": "70140023",
+    "contentStatus": "beta",
+    "name": "Skyshaker",
+    "rarity": 3,
+    "type": 7,
+    "tag": [
+      "Quest Item"
+    ],
+    "description": "A special firecracker sold at the Fireworks Shop. After equipping this to Utility, you can throw firecrackers to damage enemies. (Only available during the \"By Moon's Grace\" Event and will be removed from Backpack after the Event ends.)",
+    "background": "A special firecracker made by following a secret blueprint found in Xisha. Refrain from using this in crowded areas as it is both powerful and loud.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_ChasingMoon03_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "b925cc8937b1f1bb287931426def2a2c8e1dc339150b4f3631aca3338dc19408"
+    }
+  },
+  {
+    "id": "70140024",
+    "contentStatus": "beta",
+    "name": "Skyshaker",
+    "rarity": 3,
+    "type": 7,
+    "tag": [
+      "Quest Item"
+    ],
+    "description": "A special firecracker sold at the Fireworks Shop. After equipping this to Utility, you can throw firecrackers to damage enemies. (Only available during the \"By Moon's Grace\" Event and will be removed from Backpack after the Event ends.)",
+    "background": "A special firecracker made by following a secret blueprint found in Xisha. Refrain from using this in crowded areas as it is both powerful and loud.",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_ChasingMoon03_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "308c7e3d2735431ccd20a0474b39795fc7f170605f47c423f47bfb193939f8e0"
+    }
+  },
+  {
     "id": "70140025",
     "contentStatus": "live",
     "name": "Skyshaker",
@@ -27966,9 +28553,9 @@
   },
   {
     "id": "71200015",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Qingfu Pendant",
-    "rarity": 5,
+    "rarity": 4,
     "type": 6,
     "tag": [
       "Quest Item"
@@ -27981,14 +28568,14 @@
     },
     "liveComparison": {
       "liveHash": "21c3f35fc4a59300c7427afe427d730660ceca7f97b4cc9d6236f2bdc36f8a6c",
-      "currentHash": "21c3f35fc4a59300c7427afe427d730660ceca7f97b4cc9d6236f2bdc36f8a6c"
+      "currentHash": "ed5c38e01760f3e845a52278ddad9e8e7a51db3fddc0010a888f5d6fb6ec879b"
     }
   },
   {
     "id": "71200016",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Sword Talisman Pendant",
-    "rarity": 5,
+    "rarity": 4,
     "type": 6,
     "tag": [
       "Quest Item"
@@ -28001,14 +28588,14 @@
     },
     "liveComparison": {
       "liveHash": "9b62d85ef2bdf23be14ffcd8d98881fe87688d3db60a4e1d18fe225f2151e9a4",
-      "currentHash": "9b62d85ef2bdf23be14ffcd8d98881fe87688d3db60a4e1d18fe225f2151e9a4"
+      "currentHash": "688b9c6fe7439e2cfccb761a7b1ecf2a995160fe6a9ff95a15d709f81e5053cc"
     }
   },
   {
     "id": "71200017",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "\"Swordcraft of the Golden-Eyed One\"",
-    "rarity": 5,
+    "rarity": 4,
     "type": 6,
     "tag": [
       "Quest Item"
@@ -28021,7 +28608,7 @@
     },
     "liveComparison": {
       "liveHash": "50a51d5edc27f2f9d0fb4ac18b1d8cc9cb46d151a21050b9fcdcecb9b47bc1b3",
-      "currentHash": "50a51d5edc27f2f9d0fb4ac18b1d8cc9cb46d151a21050b9fcdcecb9b47bc1b3"
+      "currentHash": "dfe87ebd738b9edfec51a60c3cb598e89f0a7336639aaafe0d8fe8bba8709c76"
     }
   },
   {
@@ -28046,9 +28633,9 @@
   },
   {
     "id": "71200019",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Mirage Seeker's Tales (Advance Copy)",
-    "rarity": 5,
+    "rarity": 4,
     "type": 6,
     "tag": [
       "Quest Item"
@@ -28061,7 +28648,7 @@
     },
     "liveComparison": {
       "liveHash": "47e02f43b5eaaa93d00f40042046ec5fed7ae91336f3354d0f44918ef6dba1b4",
-      "currentHash": "47e02f43b5eaaa93d00f40042046ec5fed7ae91336f3354d0f44918ef6dba1b4"
+      "currentHash": "92e8a64e6cf53fc140da101f851e4dadb8b1b1b51110158f9056286d73fe3f63"
     }
   },
   {
@@ -31567,6 +32154,86 @@
     "liveComparison": {
       "liveHash": "5fca570b69bade1f6c385aa1d0f0fdb75405bb81bfa04bc181003c0af45a4d2c",
       "currentHash": "5fca570b69bade1f6c385aa1d0f0fdb75405bb81bfa04bc181003c0af45a4d2c"
+    }
+  },
+  {
+    "id": "71500106",
+    "contentStatus": "beta",
+    "name": "Reveler Captain's Seal",
+    "rarity": 4,
+    "tag": [
+      "Token"
+    ],
+    "description": "Amplifies all Attribute DMG by 25%.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "background": "Evil sank their ship, trying to stifle their joy. Instead, they turned their last moments into a fiery celebration, singing and dancing atop the blazing sea.",
+    "source": [
+      "Whimpering Wastes"
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_18.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a8d00e92657ce888cab4379f587e65f5b7f49e1bdb4bd028079888da087e6457"
+    }
+  },
+  {
+    "id": "71500107",
+    "contentStatus": "beta",
+    "name": "Lamp That Illuminates the Illusion",
+    "rarity": 5,
+    "tag": [
+      "Token"
+    ],
+    "description": "Gaining Shield grants the Resonator 3% Fusion DMG Bonus and increases their total Heavy Attack DMG by 2.5% for 3s, stacking up to 15 times. Retriggering this effect refreshes the duration.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "background": "The audience settled into their seats. The performer lit the lamp. A lively shadow sprang onto the screen. He cleared his throat, ready to sing. Yet what slipped from his lips was something he had never heard.",
+    "source": [
+      "Whimpering Wastes"
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_58.webp"
+    },
+    "liveComparison": {
+      "currentHash": "f6da2fa60ba72dce9acb934ebc9f2eecc8fb327814b177b65b1a4e0d0e8b038d"
+    }
+  },
+  {
+    "id": "71500108",
+    "contentStatus": "beta",
+    "name": "The Craft of Endless Inspiration",
+    "rarity": 5,
+    "tag": [
+      "Token"
+    ],
+    "description": "When a Resonator inflicts Electro Flare, they deal 65% more total DMG for 20s.\nWhen a Resonator is switched in by triggering Unison, they deal 60% more total Electro DMG for 20s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "background": "The artisan gazed upon the meteorite for three days, before shutting himself away in his home. Days later, officers came, who took the meteorite and burned the house to the ground with him still inside.",
+    "source": [
+      "Whimpering Wastes"
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_53.webp"
+    },
+    "liveComparison": {
+      "currentHash": "15a01f22d682841bb5cdf585bd51e8a6dc86f103eda835d47107aec99932dc83"
+    }
+  },
+  {
+    "id": "71500109",
+    "contentStatus": "beta",
+    "name": "The Scale of Heart and Soul",
+    "rarity": 5,
+    "tag": [
+      "Token"
+    ],
+    "description": "Inflicting Tune Strain - Shifting increases the Resonator's total DMG dealt by 40% for 30s.\nDealing Tune Break DMG grants 30% All-Attribute DMG Bonus plus an additional 30% Aero DMG Bonus to all Resonators in the team for 30s.\n\nThis Token can be used up to <color=#fee388>2</color> times in Whimpering Wastes.",
+    "background": "The left plate, blanketed in dust. The right, scabbed. Your Honor, please place your weight.",
+    "source": [
+      "Whimpering Wastes"
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconMowing/T_IconMowing_50.webp"
+    },
+    "liveComparison": {
+      "currentHash": "323a780217f3635ef3bec7b64ef508f2e3c8a06beceeb9b398cfd5922856e9e6"
     }
   },
   {
@@ -35393,6 +36060,23 @@
     }
   },
   {
+    "id": "80000098",
+    "contentStatus": "beta",
+    "name": "80000098",
+    "rarity": 3,
+    "type": 1,
+    "tag": [
+      "Dish"
+    ],
+    "source": [
+      "Cooking"
+    ],
+    "assets": {},
+    "liveComparison": {
+      "currentHash": "c7d4cf4d0a6c18f7a6891cdcbe41aed0a4d4fb13a8c73d6e8314451b0d08fc77"
+    }
+  },
+  {
     "id": "80001000",
     "contentStatus": "live",
     "name": "Liondance Companion",
@@ -38618,6 +39302,23 @@
     "liveComparison": {
       "liveHash": "2dea93ecc18ddd90d040cd47dbc52c5e930a51a8aced0d38fddc612371137ea6",
       "currentHash": "2dea93ecc18ddd90d040cd47dbc52c5e930a51a8aced0d38fddc612371137ea6"
+    }
+  },
+  {
+    "id": "80010098",
+    "contentStatus": "beta",
+    "name": "80010098",
+    "rarity": 3,
+    "type": 5,
+    "tag": [
+      "Recipe"
+    ],
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconCook/T_IconCook_036_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "6767c13f75e9464a515d57d2806c06387e5956b67bcc98513e9d31deeaad3e01"
     }
   },
   {
@@ -44685,6 +45386,42 @@
     }
   },
   {
+    "id": "80130068",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "tag": [
+      "Title"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "a3af23238f7aabbe8a7f0f61a66609fddefb10effd6d0e3e6bac01c424d70550"
+    }
+  },
+  {
+    "id": "80130069",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "rarity": 5,
+    "tag": [
+      "Title"
+    ],
+    "description": "Stay tuned",
+    "background": "Stay tuned",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Title_04_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "3b3f5e2c0b0d874ec96c6ffd2add00ed838f37000413bbc2c17826ed9af3f762"
+    }
+  },
+  {
     "id": "80131001",
     "contentStatus": "live",
     "name": "Catcher in the Tide",
@@ -46240,6 +46977,24 @@
     }
   },
   {
+    "id": "80700015",
+    "contentStatus": "beta",
+    "name": "Show Coin",
+    "rarity": 4,
+    "tag": [
+      "Consumable"
+    ],
+    "description": "A magical currency for redeeming rewards at the Backstage Store. It's actually chocolate candy in gold wrappers.",
+    "background": "Condensed from the stories and courage the Warriors gained during their battles, it can be exchanged for rewards to support the Warriors' adventures!\n\"Go on, take a bite. It's sweet!\"",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_Dango37_01_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "d0d2e321314e609d8af9938f8a15e59078504312f45383d0101c73ba058a3e2a"
+    }
+  },
+  {
     "id": "80700041",
     "contentStatus": "live",
     "name": "Startorch Academy Garage Key",
@@ -46279,6 +47034,24 @@
     "liveComparison": {
       "liveHash": "3e0019cd413458d081944bf89e99d6b193d0fbf5d3592029391b9de27fceb6a8",
       "currentHash": "3e0019cd413458d081944bf89e99d6b193d0fbf5d3592029391b9de27fceb6a8"
+    }
+  },
+  {
+    "id": "80700050",
+    "contentStatus": "beta",
+    "name": "Stage Badge",
+    "rarity": 4,
+    "tag": [
+      "Consumable"
+    ],
+    "description": "A medal dedicated to a Warrior for their brilliant performance on the stage.",
+    "background": "\"Where should I put it? How about somewhere that really sticks out!\"",
+    "source": [],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/Common/Image/IconA/T_IconA_Act_Dango37_02_UI.webp"
+    },
+    "liveComparison": {
+      "currentHash": "81eec3f5b84d5cc8378877be855fdb0a62a60ff863dbea0f530cbb175c1131c5"
     }
   },
   {
@@ -48502,6 +49275,120 @@
     }
   },
   {
+    "id": "89103067",
+    "contentStatus": "beta",
+    "name": "Jadie the Mightiest Autopuppet",
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "description": "Used to decorate the expedition motorbike's front and rear.",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp"
+    },
+    "liveComparison": {
+      "currentHash": "0646a0f12c2e4d3de708325f32267ce45937b278647cc1f9552815f02dd5e752"
+    }
+  },
+  {
+    "id": "89103068",
+    "contentStatus": "beta",
+    "name": "Jadie the Mightiest Autopuppet",
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "description": "Used to decorate the expedition motorbike's front and rear.",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp"
+    },
+    "liveComparison": {
+      "currentHash": "464158b46b7c3515ff650f95dd16b04ac822ae4d49b77a81864dde56e15ef7af"
+    }
+  },
+  {
+    "id": "89103069",
+    "contentStatus": "beta",
+    "name": "Jadie the Mightiest Autopuppet",
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "description": "Used to decorate the expedition motorbike's front and rear.",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp"
+    },
+    "liveComparison": {
+      "currentHash": "290124377bfc3e200ccb2a257a81818cf6626377f1a48a9b2bf72af482a5e0ad"
+    }
+  },
+  {
+    "id": "89103070",
+    "contentStatus": "beta",
+    "name": "Jadie the Mightiest Autopuppet",
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "description": "Used to decorate the expedition motorbike's front and rear.",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp"
+    },
+    "liveComparison": {
+      "currentHash": "de56dabd7c6112ee234f9c25de2c3260a769b1519106586234fdefdb5539c0cd"
+    }
+  },
+  {
+    "id": "89103071",
+    "contentStatus": "beta",
+    "name": "Jadie the Mightiest Autopuppet",
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "description": "Used to decorate the expedition motorbike's front and rear.",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp"
+    },
+    "liveComparison": {
+      "currentHash": "e42e54a83d646747d3d0bf68f3a7fe1ff41746aaa6be45dd3ce8f29bbf458a0e"
+    }
+  },
+  {
+    "id": "89103072",
+    "contentStatus": "beta",
+    "name": "Jadie the Mightiest Autopuppet",
+    "rarity": 4,
+    "tag": [
+      "Premium Livery"
+    ],
+    "description": "Used to decorate the expedition motorbike's front and rear.",
+    "source": [
+      "Complete Main Quest \"Song of the Heart Sword\""
+    ],
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYStickerIcon104.webp"
+    },
+    "liveComparison": {
+      "currentHash": "341162ee6ab0c800a40ca53ccd3d78ac24c50f32afed2dd668858344282cb9bc"
+    }
+  },
+  {
     "id": "89103926",
     "contentStatus": "live",
     "name": "Girl with Exostrider",
@@ -48772,17 +49659,19 @@
   },
   {
     "id": "89400006",
-    "contentStatus": "live",
-    "name": "89400006",
+    "contentStatus": "beta_changed",
+    "name": "Standard Chassis",
     "rarity": 1,
     "tag": [
       ""
     ],
     "source": [],
-    "assets": {},
+    "assets": {
+      "icon": "GameData/ww/assets/items/UIResources/UiActivity/Image/Activity30/MotoDIY/T_MotoDIYPresetIcon01.webp"
+    },
     "liveComparison": {
       "liveHash": "9a7ce18cfa1654fa5fed7a44b4cf31976ca440ed895fd7173dcf88db2b963de0",
-      "currentHash": "9a7ce18cfa1654fa5fed7a44b4cf31976ca440ed895fd7173dcf88db2b963de0"
+      "currentHash": "c89a31d294aaefef68f2a568e412501f73880800f6ad4118a25deae9be98f06f"
     }
   },
   {

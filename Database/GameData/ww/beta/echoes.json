@@ -16163,7 +16163,7 @@
   },
   {
     "id": "6000203",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Porcelain Picket",
     "code": "R13-",
     "rarity": [
@@ -16193,6 +16193,29 @@
               "5",
               "0.5",
               "15%"
+            ]
+          }
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
             ]
           }
         }
@@ -16273,12 +16296,12 @@
     "monsterInfo": 310000910,
     "liveComparison": {
       "liveHash": "8ebef0bb7ce44bca831c20be7b7c6834a98d8cf453a5cd3df88ad2f075718744",
-      "currentHash": "8ebef0bb7ce44bca831c20be7b7c6834a98d8cf453a5cd3df88ad2f075718744"
+      "currentHash": "1ecdef6367aa400a74e09dd828fc56f1ed635e5e7108f3209f63cf473f87b34e"
     }
   },
   {
     "id": "6000204",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Stone Picket",
     "code": "R14-",
     "rarity": [
@@ -16308,6 +16331,29 @@
               "5",
               "0.5",
               "15%"
+            ]
+          }
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
             ]
           }
         }
@@ -16366,12 +16412,12 @@
     "monsterInfo": 310000920,
     "liveComparison": {
       "liveHash": "527ccd83d29374983360954699cbd6a92d25957d1fea1a273b623dc0cfa5af79",
-      "currentHash": "527ccd83d29374983360954699cbd6a92d25957d1fea1a273b623dc0cfa5af79"
+      "currentHash": "b1ff49e82836c38ff47bab56d12c21b2261ca83be13ec6fc78f3f96d85a4ff18"
     }
   },
   {
     "id": "6000205",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Aureate Picket",
     "code": "R15-",
     "rarity": [
@@ -16398,6 +16444,29 @@
             "param": [
               "20%",
               "30%",
+              "15"
+            ]
+          }
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
               "15"
             ]
           }
@@ -16484,12 +16553,12 @@
     "monsterInfo": 310000930,
     "liveComparison": {
       "liveHash": "7cc0aba8ce4f75c4a93f48406bbbc81d552a8fdbb96d335d0bc85228175807f9",
-      "currentHash": "7cc0aba8ce4f75c4a93f48406bbbc81d552a8fdbb96d335d0bc85228175807f9"
+      "currentHash": "cea21a06db19d3ad4ed60a8bfdcba6531ccaab8817ebfd9bea6c998424d0930a"
     }
   },
   {
     "id": "6000206",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Kernel Puppet: Joy",
     "code": "R16-",
     "rarity": [
@@ -16521,6 +16590,28 @@
               "0.1%",
               "25%",
               "10"
+            ]
+          }
+        }
+      },
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
             ]
           }
         }
@@ -16579,12 +16670,12 @@
     "monsterInfo": 310000940,
     "liveComparison": {
       "liveHash": "f69d824f6733430bd49b9462ddc213c3180f959237c85073db2f08cdc27bb908",
-      "currentHash": "f69d824f6733430bd49b9462ddc213c3180f959237c85073db2f08cdc27bb908"
+      "currentHash": "d31cbac45ec7190f6d25e97859d58741b3472fb6e5251152d3e4e9b1e9c82331"
     }
   },
   {
     "id": "6000207",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Kernel Puppet: Anger",
     "code": "R17-",
     "rarity": [
@@ -16612,6 +16703,28 @@
               "20%",
               "30%",
               "15"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
+              "15%"
             ]
           }
         }
@@ -16670,12 +16783,12 @@
     "monsterInfo": 310000950,
     "liveComparison": {
       "liveHash": "1bbbf6a0c466fb61455801c2e365cdbb4d3bc1521cb6836262ec7cfa73c2909a",
-      "currentHash": "1bbbf6a0c466fb61455801c2e365cdbb4d3bc1521cb6836262ec7cfa73c2909a"
+      "currentHash": "d3123ca5b4167fdf1eeec827cca69862d848bc7ab0422736f90f9f1727e63c40"
     }
   },
   {
     "id": "6000208",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Kernel Puppet: Worry",
     "code": "R18-",
     "rarity": [
@@ -16702,6 +16815,29 @@
             "param": [
               "20%",
               "30%",
+              "15"
+            ]
+          }
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
               "15"
             ]
           }
@@ -16778,12 +16914,12 @@
     "monsterInfo": 310000960,
     "liveComparison": {
       "liveHash": "df28d3aa831c20b11edbdbb8c4a40bfe12c6267fa43d87eb32c0a91d06f941bf",
-      "currentHash": "df28d3aa831c20b11edbdbb8c4a40bfe12c6267fa43d87eb32c0a91d06f941bf"
+      "currentHash": "23a8a360389f94b95e0e3dcae9982f1e67277ca582765a1b756c665c612dace7"
     }
   },
   {
     "id": "6000209",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Kernel Puppet: Reflection",
     "code": "R19-",
     "rarity": [
@@ -16811,6 +16947,28 @@
               "20%",
               "30%",
               "15"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
+              "15%"
             ]
           }
         }
@@ -16869,12 +17027,12 @@
     "monsterInfo": 310000970,
     "liveComparison": {
       "liveHash": "54551051fb6825a2f68996af548bb3f1046043784c4fcbdaa98e44dd616e9022",
-      "currentHash": "54551051fb6825a2f68996af548bb3f1046043784c4fcbdaa98e44dd616e9022"
+      "currentHash": "a4fb453ae6a30aea7a9cfa74731e9664cc87168dec4c6f9902e9e8c9d6b2ebd5"
     }
   },
   {
     "id": "6000210",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Kernel Puppet: Grief",
     "code": "R20-",
     "rarity": [
@@ -16903,6 +17061,28 @@
               "4",
               "5",
               "0.5",
+              "15%"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
               "15%"
             ]
           }
@@ -16962,12 +17142,12 @@
     "monsterInfo": 310000980,
     "liveComparison": {
       "liveHash": "6e6a88dff5d5b4d81e7990727845d09b411455cb5a5e99ed780fb627794898a0",
-      "currentHash": "6e6a88dff5d5b4d81e7990727845d09b411455cb5a5e99ed780fb627794898a0"
+      "currentHash": "1d2adc749ab8f77b8558361624601a38a35a8dec2657d3d2dfa5eb80170e1080"
     }
   },
   {
     "id": "6000211",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Kernel Puppet: Fright",
     "code": "R21-",
     "rarity": [
@@ -16996,6 +17176,28 @@
               "4",
               "5",
               "0.5",
+              "15%"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
               "15%"
             ]
           }
@@ -17077,12 +17279,12 @@
     "monsterInfo": 310000990,
     "liveComparison": {
       "liveHash": "fb9349335174229e115538ebe4ec5400da2ca2bb4a1cd46cd279091767528650",
-      "currentHash": "fb9349335174229e115538ebe4ec5400da2ca2bb4a1cd46cd279091767528650"
+      "currentHash": "172872c0054d0883833b9fca05ee6a5a2ef1f6c992c150de74bcf342a6b1f1c6"
     }
   },
   {
     "id": "6000212",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fog Lionarch: Body",
     "code": "R22-",
     "rarity": [
@@ -17114,6 +17316,28 @@
               "0.1%",
               "25%",
               "10"
+            ]
+          }
+        }
+      },
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
             ]
           }
         }
@@ -17172,12 +17396,12 @@
     "monsterInfo": 310001000,
     "liveComparison": {
       "liveHash": "3f0358ca16ac7a6431f9de966a881ea63342a033954c674aed64b3685adf865b",
-      "currentHash": "3f0358ca16ac7a6431f9de966a881ea63342a033954c674aed64b3685adf865b"
+      "currentHash": "0eac356c8e0f4e3e460d84c283428bc2e7b9645b4554646dbdcf69a17eb7eca9"
     }
   },
   {
     "id": "6000213",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Fog Lionarch: Head",
     "code": "R23-",
     "rarity": [
@@ -17209,6 +17433,28 @@
               "0.1%",
               "25%",
               "10"
+            ]
+          }
+        }
+      },
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
             ]
           }
         }
@@ -17267,7 +17513,7 @@
     "monsterInfo": 310001010,
     "liveComparison": {
       "liveHash": "741e48c8d871ba16a0ae0f161ffd7c2f0add1d132c23e0f723c70522917e8e54",
-      "currentHash": "741e48c8d871ba16a0ae0f161ffd7c2f0add1d132c23e0f723c70522917e8e54"
+      "currentHash": "53b5779b3c4a0989e616417c547b822379387e0ca87553a64faaf42a27c74dc4"
     }
   },
   {
@@ -17809,7 +18055,7 @@
   },
   {
     "id": "6000218",
-    "contentStatus": "live",
+    "contentStatus": "beta_changed",
     "name": "Thousand-Puppet Pavilion",
     "code": "N91-",
     "rarity": [
@@ -17842,6 +18088,28 @@
               "0.1%",
               "25%",
               "10"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
+              "15%"
             ]
           }
         }
@@ -17942,7 +18210,233 @@
     "monsterInfo": 340000310,
     "liveComparison": {
       "liveHash": "d7b64e27be19f9421f7d9292c0006494980626234fc5b020a0602819a4b4ad5d",
-      "currentHash": "d7b64e27be19f9421f7d9292c0006494980626234fc5b020a0602819a4b4ad5d"
+      "currentHash": "2a56ec0ba5daa2c4965f0bdbb2d73e01a01f7d101557abd0aa60afea40c5d8c7"
+    }
+  },
+  {
+    "id": "6000219",
+    "contentStatus": "beta",
+    "name": "Jade Nether Serpent",
+    "code": "R24-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_31103_UI.webp",
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_31103_UI.webp"
+    },
+    "skill": {
+      "desc": "Summon a Jade Nether Serpent that bombards the target with fireballs, dealing {0} Fusion DMG 5 times, then {1} Fusion DMG once.\nCD: {2}s",
+      "simple_desc": "Summon a Jade Nether Serpent to deal Fusion DMG to the target.",
+      "param": [
+        [
+          "7.20%",
+          "36.00%",
+          "8"
+        ],
+        [
+          "8.64%",
+          "43.20%",
+          "8"
+        ],
+        [
+          "10.08%",
+          "50.40%",
+          "8"
+        ],
+        [
+          "11.52%",
+          "57.60%",
+          "8"
+        ],
+        [
+          "12.96%",
+          "64.80%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31103_UI.T_MstSkil_31103_UI",
+      "damage": {
+        "20015001": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            720,
+            864,
+            1008,
+            1152,
+            1296
+          ],
+          "energy": 18,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 720,
+          "weakness_lvl": 0
+        },
+        "20015002": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            3600,
+            4320,
+            5040,
+            5760,
+            6480
+          ],
+          "energy": 90,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 3600,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310001030,
+    "liveComparison": {
+      "currentHash": "7077794a97bfab899617d08ad908c1f4dea02398b4bea690d316a77304a2f1fb"
+    }
+  },
+  {
+    "id": "6000220",
+    "contentStatus": "beta",
+    "name": "Skywatch Lancer",
+    "code": "R72-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 1,
+    "group": {
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {
+      "icon": "GameData/ww/assets/echoes/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32069_UI.webp",
+      "skill": "GameData/ww/assets/echoes/skills/UIResources/Common/Image/MstSkill/T_MstSkil_32069_UI.webp"
+    },
+    "skill": {
+      "desc": "Summon a Skywatch Lancer to attack the target, dealing {0} Aero DMG 6 times.\nCD: {1}s",
+      "simple_desc": "Summon a Skywatch Lancer to deal Aero DMG to the target.",
+      "param": [
+        [
+          "17.83%",
+          "15"
+        ],
+        [
+          "21.39%",
+          "15"
+        ],
+        [
+          "24.96%",
+          "15"
+        ],
+        [
+          "28.52%",
+          "15"
+        ],
+        [
+          "32.09%",
+          "15"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32069_UI.T_MstSkil_32069_UI",
+      "damage": {
+        "20015101": {
+          "element": 4,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1783,
+            2139,
+            2496,
+            2852,
+            3209
+          ],
+          "energy": 44,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 1783,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 320000690,
+    "liveComparison": {
+      "currentHash": "14cb6142b8d33ea1ad32d9a6bdd3cdf09c66ab6b247cf10f7d47a08f9ba7cb5e"
     }
   },
   {
@@ -18074,6 +18568,570 @@
     "liveComparison": {
       "liveHash": "422afcc7012312ebf5eaf4ef2df5711b71a960d34e0ae0305082502d77e7e9e1",
       "currentHash": "422afcc7012312ebf5eaf4ef2df5711b71a960d34e0ae0305082502d77e7e9e1"
+    }
+  },
+  {
+    "id": "6000222",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "group": {
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {},
+    "skill": {
+      "desc": "Summon a Bloomburst Puppet to startle the target, dealing 1 instance of {0} Glacio DMG, followed by 2 instances of {1} Glacio DMG and 1 instance of {2} Glacio DMG.\nCD: {3}s",
+      "simple_desc": "",
+      "param": [
+        [
+          "14.40%",
+          "7.20%",
+          "43.20%",
+          "8"
+        ],
+        [
+          "17.28%",
+          "8.64%",
+          "51.84%",
+          "8"
+        ],
+        [
+          "20.16%",
+          "10.08%",
+          "60.48%",
+          "8"
+        ],
+        [
+          "23.04%",
+          "11.52%",
+          "69.12%",
+          "8"
+        ],
+        [
+          "25.92%",
+          "12.96%",
+          "77.76%",
+          "8"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31104_UI.T_MstSkil_31104_UI",
+      "damage": {
+        "20015201": {
+          "element": 1,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            720,
+            864,
+            1008,
+            1152,
+            1296
+          ],
+          "energy": 18,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 720,
+          "weakness_lvl": 0
+        },
+        "20015202": {
+          "element": 1,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            4320,
+            5184,
+            6048,
+            6912,
+            7776
+          ],
+          "energy": 108,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 4320,
+          "weakness_lvl": 0
+        },
+        "20015203": {
+          "element": 1,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1440,
+            1728,
+            2016,
+            2304,
+            2592
+          ],
+          "energy": 36,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 2880,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 310001040,
+    "liveComparison": {
+      "currentHash": "5be642969151753d7ee7ac063727ef1bdf124c55475b980e2fb5d6aa41474fd2"
+    }
+  },
+  {
+    "id": "6000223",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 1,
+    "group": {
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
+            ]
+          }
+        }
+      },
+      "38": {
+        "id": 38,
+        "name": "Flower of Tinged Yearning",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Healing + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Healing a Resonator in the team increases the ATK of all Resonators in the team by {0} for {1}s. Effects of the same name cannot be stacked. While the effect is active, if the Resonator gains Unison or triggers Unison Response, their ATK is further increased by {2}.",
+            "param": [
+              "10%",
+              "30",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {},
+    "skill": {
+      "desc": "",
+      "simple_desc": "",
+      "param": [
+        [
+          "152.00%",
+          "10.00%",
+          "20"
+        ],
+        [
+          "182.40%",
+          "10.00%",
+          "20"
+        ],
+        [
+          "212.80%",
+          "10.00%",
+          "20"
+        ],
+        [
+          "243.20%",
+          "10.00%",
+          "20"
+        ],
+        [
+          "273.60%",
+          "10.00%",
+          "20"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32070_UI.T_MstSkil_32070_UI",
+      "damage": {
+        "20015301": {
+          "element": 2,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            15200,
+            18240,
+            21280,
+            24320,
+            27360
+          ],
+          "energy": 380,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 15200,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 320000700,
+    "liveComparison": {
+      "currentHash": "38839de78d4aad5094032c4f3b4bc18cafecb2ec823d6a00d0440c2ceeb7b46c"
+    }
+  },
+  {
+    "id": "6000224",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 1,
+    "group": {
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
+            ]
+          }
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {},
+    "skill": {
+      "desc": "",
+      "simple_desc": "",
+      "param": [
+        [
+          "50.66%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "60.79%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "70.92%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "81.05%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "91.18%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32071_UI.T_MstSkil_32071_UI",
+      "damage": {
+        "20015401": {
+          "element": 3,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            5066,
+            6079,
+            7092,
+            8105,
+            9118
+          ],
+          "energy": 126,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 5066,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 320000710,
+    "liveComparison": {
+      "currentHash": "37cba03b7948bfda06dfd8c0ea8d907bf1ef4af67930ab5e07553e84b8e7538b"
+    }
+  },
+  {
+    "id": "6000225",
+    "contentStatus": "beta",
+    "name": "Stay tuned",
+    "code": "T1-",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intensity": 3,
+    "group": {
+      "36": {
+        "id": 36,
+        "name": "Heart of Sworn Vigil",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
+            ]
+          }
+        }
+      },
+      "37": {
+        "id": 37,
+        "name": "Flash of Electric Reflection",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "color": "FFFFFF00",
+        "set": {
+          "2": {
+            "desc": "Electro DMG + {0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "When the Resonator inflicts Electro Flare on enemies, they gain the following effects: Gain {0} Electro DMG Bonus for {1}s. While this effect is active, casting Outro Skill grants the incoming Resonator {2} Electro DMG Bonus for {3}s.",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "assets": {},
+    "skill": {
+      "desc": "Cast Echo Skill to deal 4 instances of {0} Electro DMG and 1 instance of {1} Electro DMG.\nWhen equipped by Hsin, the Echo Skill instead deals 5 instances of {2} Electro DMG and 1 instance of {3} Electro DMG to targets within a larger range.\nThe Resonator with this Echo equipped in their main slot gains {4} Electro DMG Bonus. Inflicting Electro Flare, gaining Unison, or triggering Unison Response grants the Resonator an extra {5} Electro DMG Bonus for {6}s.\nCD: {7}s",
+      "simple_desc": "Cast Echo Skill to deal Electro DMG.\nThe Resonator with this Echo equipped in their main slot deals more Electro DMG. Inflicting Electro Flare, gaining Unison, or triggering Unison Response grants the Resonator an extra Electro DMG Bonus.\nCD: {7}s",
+      "param": [
+        [
+          "15.20%",
+          "91.20%",
+          "7.60%",
+          "129.20%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "18.24%",
+          "109.44%",
+          "9.12%",
+          "155.04%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "21.28%",
+          "127.68%",
+          "10.64%",
+          "180.88%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "24.32%",
+          "145.92%",
+          "12.16%",
+          "206.72%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "27.36%",
+          "164.16%",
+          "13.68%",
+          "232.56%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ]
+      ],
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34033_UI.T_MstSkil_34033_UI",
+      "damage": {
+        "280045010": {
+          "element": 3,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            760,
+            912,
+            1064,
+            1216,
+            1368
+          ],
+          "energy": 19,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 760,
+          "weakness_lvl": 0
+        },
+        "280045011": {
+          "element": 3,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            12920,
+            15504,
+            18088,
+            20672,
+            23256
+          ],
+          "energy": 323,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 12920,
+          "weakness_lvl": 0
+        },
+        "280045012": {
+          "element": 3,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            1520,
+            1824,
+            2128,
+            2432,
+            2736
+          ],
+          "energy": 38,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 1520,
+          "weakness_lvl": 0
+        },
+        "280045013": {
+          "element": 3,
+          "related_property": "ATK",
+          "type": 5,
+          "rate_lv": [
+            9120,
+            10944,
+            12768,
+            14592,
+            16416
+          ],
+          "energy": 228,
+          "element_power": 0,
+          "hardness_lv": 10000,
+          "tough_lv": 9120,
+          "weakness_lvl": 0
+        }
+      }
+    },
+    "monsterInfo": 340000332,
+    "liveComparison": {
+      "currentHash": "b23871d886eddec5ca96cf8d8d475c6f183390aae772e71667952ed9b9849372"
     }
   },
   {

@@ -4,7 +4,7 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-05T16:56:50.759Z",
+  "generatedAt": "2026-09-06T07:15:56.422Z",
   "codes": {
     "updated": "2026-09-05T11:30:10.367Z",
     "maxAgeDays": 28,
@@ -994,10 +994,34 @@ var NYX_DB = {
           "subBanners": []
         },
         "upcoming": [],
+        "beta": [
+          {
+            "name": "Suoming",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Hsin",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          }
+        ],
         "roadmap": [
           {
             "name": "Suoming",
-            "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
@@ -1011,7 +1035,7 @@ var NYX_DB = {
           },
           {
             "name": "Hsin",
-            "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
@@ -184582,10 +184606,34 @@ var NYX_DB = {
           "subBanners": []
         },
         "upcoming": [],
+        "beta": [
+          {
+            "name": "Suoming",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          },
+          {
+            "name": "Hsin",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
+            "iconFallback": null,
+            "iconZoom": false,
+            "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+            "namecard": null,
+            "rarity": 5,
+            "debut": true,
+            "debutAt": null
+          }
+        ],
         "roadmap": [
           {
             "name": "Suoming",
-            "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
@@ -184599,7 +184647,7 @@ var NYX_DB = {
           },
           {
             "name": "Hsin",
-            "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
+            "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
             "iconFallback": null,
             "iconZoom": false,
             "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
@@ -185148,6 +185196,41 @@ var NYX_DB = {
           "forms": []
         },
         {
+          "id": "ww-suoming",
+          "name": "Suoming",
+          "aliases": [],
+          "rarity": 5,
+          "element": "Electro",
+          "role": "Sword",
+          "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
+          "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
+          "facts": {},
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
+          "id": "ww-hsin",
+          "name": "Hsin",
+          "aliases": [],
+          "title": "The Moon Fox",
+          "rarity": 5,
+          "element": "Electro",
+          "role": "Rectifier",
+          "icon": "../../Database/GameData/ww/assets/characters/icons/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
+          "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
+          "facts": {
+            "title": "The Moon Fox"
+          },
+          "status": "beta",
+          "upcoming": true,
+          "reliableData": false,
+          "noReliableInfo": true,
+          "forms": []
+        },
+        {
           "id": "ww-rebecca",
           "name": "Rebecca",
           "aliases": [],
@@ -185660,41 +185743,6 @@ var NYX_DB = {
             "title": "Snow Waltz"
           },
           "status": "live",
-          "forms": []
-        },
-        {
-          "id": "ww-hsin",
-          "name": "Hsin",
-          "aliases": [],
-          "title": "The Moon Fox",
-          "rarity": 5,
-          "element": "Electro",
-          "role": "Rectifier",
-          "icon": "../../Database/Prydwen/ww/assets/characters/hsin-ca1c715d65d0.webp",
-          "art": "../../Database/Prydwen/ww/assets/characters/hsin-652a82fc04a8.webp",
-          "facts": {
-            "title": "The Moon Fox"
-          },
-          "status": "beta",
-          "upcoming": true,
-          "reliableData": false,
-          "noReliableInfo": true,
-          "forms": []
-        },
-        {
-          "id": "ww-suoming",
-          "name": "Suoming",
-          "aliases": [],
-          "rarity": 5,
-          "element": "Electro",
-          "role": "Sword",
-          "icon": "../../Database/Prydwen/ww/assets/characters/suoming-21bccf295a95.webp",
-          "art": "../../Database/Prydwen/ww/assets/characters/suoming-bb9eb3850344.webp",
-          "facts": {},
-          "status": "beta",
-          "upcoming": true,
-          "reliableData": false,
-          "noReliableInfo": true,
           "forms": []
         }
       ]

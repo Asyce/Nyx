@@ -536,21 +536,9 @@
     },
     {
       "type": 2,
-      "title": "Dash: I",
+      "title": "Dash",
       "content": "Pick up the pace.",
       "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qingxiao_com_accelerate.play_favor_word_qingxiao_com_accelerate"
-    },
-    {
-      "type": 2,
-      "title": "Dash: II",
-      "content": "Catch the wind.",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qingxiao_skill_swordride_01.play_favor_word_qingxiao_skill_swordride_01"
-    },
-    {
-      "type": 2,
-      "title": "Dash: III",
-      "content": "Outrun the light.",
-      "voice": "/Game/Aki/WwiseAudio/Events/play_favor_word_qingxiao_skill_swordride_02.play_favor_word_qingxiao_skill_swordride_02"
     },
     {
       "type": 2,

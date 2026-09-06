@@ -1,7 +1,7 @@
 {
   "id": 6000219,
-  "code": "T1-",
-  "name": "Stay tuned",
+  "code": "R24-",
+  "name": "Jade Nether Serpent",
   "type": "",
   "intensity": "",
   "place": "",
@@ -36,7 +36,7 @@
         "8"
       ]
     ],
-    "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34020_UI.T_MstSkil_34020_UI",
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_31103_UI.T_MstSkil_31103_UI",
     "damage": {
       "20015001": {
         "element": 2,
@@ -75,28 +75,24 @@
     }
   },
   "group": {
-    "33": {
-      "id": 33,
-      "name": "Song of Feathered Trace",
-      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+    "36": {
+      "id": 36,
+      "name": "Heart of Sworn Vigil",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
       "color": "FFFFFF00",
       "set": {
         "2": {
-          "desc": "Energy Regen + {0}",
+          "desc": "Electro DMG + {0}",
           "param": [
             "10%"
           ]
         },
         "5": {
-          "desc": "Upon inflicting Havoc Bane, gain Xuanling's Feather, which grants a {0} increase in Crit. Rate and {1} increase in Heavy Attack DMG Bonus to the Resonator, lasting {2}s.\nUpon inflicting Glacio Chafe, gain Chongming's Feather, which grants a {4} increase in ATK to Resonators in the team for every {3} of the Resonator's Energy Regen, up to {5}, lasting {6}s.",
+          "desc": "Inflicting Electro Flare on the target, obtaining Unison, or triggering Unison Response increases the Resonator's Crit. Rate by {0} and grants them {1} Electro DMG for {2}s.",
           "param": [
-            "20%",
-            "35%",
-            "15",
-            "1%",
-            "0.1%",
-            "25%",
-            "10"
+            "15%",
+            "22.5%",
+            "30"
           ]
         }
       }

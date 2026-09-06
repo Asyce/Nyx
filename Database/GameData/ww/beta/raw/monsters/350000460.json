@@ -1,0 +1,15 @@
+{
+  "id": 350000460,
+  "name": "Stay tuned",
+  "desc": "Clad in steel feather armor, wielding a lance. It excels at proving covering firing from the sky. But its existence seems to only be found in the historical records of the Land of Xuanfang.",
+  "desc_open": "This enemy has a <color=HighlightB>higher RES</color> to <color=Wind>Areo DMG</color>.\nThe total Negative Status DMG taken by this enemy is increased by 100%.\n\nA type of Autopuppet developed by the Court of Savantae in Mengzhou to counter airborne Tacet Discords. Its exceptional mobility is designed for rapid deployment, enabling it to provide emergency support to Censure Courts across the region.\n\nIts design draws inspiration from the Xuanling Bird. The propulsion units mounted on either side employ the same levitation technology used in the Skywatch Ring.\n\nUnfortunately, before the Skywatch Lancer could enter large-scale production at Skyworks, the manufacturing lines were destroyed by Tacet Discords during the Fortress and Gorges War.",
+  "rarity": 2,
+  "element": 2,
+  "element_array": [
+    2
+  ],
+  "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_SG_32069_UI.T_IconMonsterHead_SG_32069_UI",
+  "echo": 6010220,
+  "base_stats": {},
+  "stats": {}
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T14:39:03.280Z",
+  "generatedAt": "2026-09-06T17:25:50.252Z",
   "games": {
     "gi": [
       {
@@ -19,6 +19,12 @@
         "code": "BALLETCOLLAB",
         "added": "2026-08-16",
         "amount": 30,
+        "currency": "Primogems"
+      },
+      {
+        "code": "MYSNEZHNAYACAREER",
+        "added": "2026-08-13",
+        "amount": 160,
         "currency": "Primogems"
       },
       {
@@ -96,5 +102,5 @@
       }
     ]
   },
-  "revision": "1ade0749300968cc64c1a0cbdbf37b4901c786ef14487aa5f68a659af76d783b"
+  "revision": "84cc4560124caeffdf7953d8fb27913d8ba7e54c4572a97840986f70099c471e"
 }

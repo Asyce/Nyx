@@ -4,9 +4,9 @@
 // ============================================================
 
 var NYX_DB = {
-  "generatedAt": "2026-09-06T14:39:23.526Z",
+  "generatedAt": "2026-09-06T17:26:10.106Z",
   "codes": {
-    "updated": "2026-09-06T14:39:03.280Z",
+    "updated": "2026-09-06T17:25:50.252Z",
     "maxAgeDays": 28,
     "games": {
       "gi": [
@@ -79,6 +79,20 @@ var NYX_DB = {
           "firstSeen": "2026-09-06T11:31:31.347Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
+        },
+        {
+          "code": "MYSNEZHNAYACAREER",
+          "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-13",
+          "firstSeen": "2026-09-06T17:25:50.252Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
         },
         {
           "code": "XVIZDH2B9WGX",
@@ -6376,6 +6390,20 @@ var NYX_DB = {
           "firstSeen": "2026-09-06T11:31:31.347Z",
           "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB",
           "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=GS70XRNWFB"
+        },
+        {
+          "code": "MYSNEZHNAYACAREER",
+          "reward": "160 Primogem, 20000 Mora, 3 Hero S Wit",
+          "premium": true,
+          "premiumCurrency": {
+            "name": "Primogems",
+            "needle": "primogem",
+            "icon": "../../Database/GameData/gi/assets/items/UI_ItemIcon_201.webp"
+          },
+          "added": "2026-08-13",
+          "firstSeen": "2026-09-06T17:25:50.252Z",
+          "sourceUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER",
+          "redeemUrl": "https://genshin.hoyoverse.com/en/gift?code=MYSNEZHNAYACAREER"
         },
         {
           "code": "XVIZDH2B9WGX",

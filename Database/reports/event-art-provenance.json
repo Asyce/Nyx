@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedBy": "Scraper/events/art.mjs",
-  "generatedAt": "2026-09-05T07:39:18.823Z",
+  "generatedAt": "2026-09-06T07:53:31.560Z",
   "runtimeHotlinks": false,
   "licenseClaim": null,
   "games": [
@@ -548,6 +548,25 @@
     },
     {
       "game": "hsr",
+      "fileName": "4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/06/22/7d5eeebab1c60716249e3c8e3bcdcac6_3528540804291998260_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "localPath": "Site/assets/events/hsr/4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7.png",
+      "sha256": "4323bfc92e8cf0e2d986f2b49a7e557ad6fbdb757f32bf43d2733a01a1e360f7",
+      "bytes": 1067535,
+      "mediaType": "image/png",
+      "width": 1380,
+      "height": 400,
+      "etag": "\"7d5eeebab1c60716249e3c8e3bcdcac6\"",
+      "lastModified": "Mon, 22 Jun 2026 03:18:53 GMT",
+      "retrievedAt": "2026-09-06T07:53:31.560Z",
+      "eventIds": [
+        "hsr-hoyo-ann-2b30d6cb1646"
+      ]
+    },
+    {
+      "game": "hsr",
       "fileName": "4890dcdf78efff35d45361cac65c1e826583186288f45930155966f41806c6eb.png",
       "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/08/19/322e416e5696a19131e06713e673e0ca_8856106087344286035_transformed.png",
       "requestUrl": null,
@@ -715,6 +734,25 @@
       "retrievedAt": "2026-08-26T04:03:13.267Z",
       "eventIds": [
         "hsr-hoyo-ann-469228a36704"
+      ]
+    },
+    {
+      "game": "hsr",
+      "fileName": "dcae66da02dadffcba5d6efa3dd1faf12f4d1be392873200222c818223e17ebd.png",
+      "sourceUrl": "https://sdk.hoyoverse.com/upload/ann/2026/09/01/6fd05d0694205abd84904f783f672240_5839266568159889453_transformed.png",
+      "requestUrl": null,
+      "runtimePath": "/assets/events/hsr/dcae66da02dadffcba5d6efa3dd1faf12f4d1be392873200222c818223e17ebd.png",
+      "localPath": "Site/assets/events/hsr/dcae66da02dadffcba5d6efa3dd1faf12f4d1be392873200222c818223e17ebd.png",
+      "sha256": "dcae66da02dadffcba5d6efa3dd1faf12f4d1be392873200222c818223e17ebd",
+      "bytes": 706550,
+      "mediaType": "image/png",
+      "width": 2150,
+      "height": 400,
+      "etag": "\"6fd05d0694205abd84904f783f672240\"",
+      "lastModified": "Tue, 01 Sep 2026 09:55:31 GMT",
+      "retrievedAt": "2026-09-06T07:53:31.560Z",
+      "eventIds": [
+        "hsr-hoyo-ann-8569a599bae4"
       ]
     },
     {

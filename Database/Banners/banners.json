@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-05T07:38:17.931Z",
-  "updated": "2026-09-05T07:38:17.931Z",
+  "checkedAt": "2026-09-06T07:52:31.060Z",
+  "updated": "2026-09-06T07:52:31.060Z",
   "games": [
     {
       "id": "hsr",
       "name": "Honkai: Star Rail",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-05T07:38:17.931Z",
-        "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+        "checkedAt": "2026-09-06T07:52:31.060Z",
+        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
         "source": "prydwen"
       },
       "current": {
@@ -93,8 +93,8 @@
       "name": "Genshin Impact",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-05T07:38:17.931Z",
-        "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+        "checkedAt": "2026-09-06T07:52:31.060Z",
+        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
         "source": "prydwen"
       },
       "current": {
@@ -232,8 +232,8 @@
       "name": "Wuthering Waves",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-05T07:38:17.931Z",
-        "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+        "checkedAt": "2026-09-06T07:52:31.060Z",
+        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
         "source": "prydwen"
       },
       "current": {
@@ -276,7 +276,34 @@
         "end": "2026-09-29T03:59:00.000Z",
         "source": "prydwen"
       },
-      "upcoming": [],
+      "upcoming": [
+        {
+          "phase": "Patch 3.7 Phase 1",
+          "characters": [
+            {
+              "name": "Hsin",
+              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_75_UI.webp",
+              "rarity": 5
+            }
+          ],
+          "start": null,
+          "end": null,
+          "teased": true
+        },
+        {
+          "phase": "Patch 3.7 Phase 2",
+          "characters": [
+            {
+              "name": "Suoming",
+              "image": "https://static.nanoka.cc/assets/ww/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_76_UI.webp",
+              "rarity": 5
+            }
+          ],
+          "start": null,
+          "end": null,
+          "teased": true
+        }
+      ],
       "roadmap": [
         {
           "name": "Suoming",
@@ -306,8 +333,8 @@
       "name": "Zenless Zone Zero",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-05T07:38:17.931Z",
-        "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+        "checkedAt": "2026-09-06T07:52:31.060Z",
+        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
         "source": "prydwen"
       },
       "current": {
@@ -435,8 +462,8 @@
       "name": "Arknights: Endfield",
       "freshness": {
         "status": "fresh",
-        "checkedAt": "2026-09-05T07:38:17.931Z",
-        "lastSuccessfulFetch": "2026-09-05T07:38:17.931Z",
+        "checkedAt": "2026-09-06T07:52:31.060Z",
+        "lastSuccessfulFetch": "2026-09-06T07:52:31.060Z",
         "source": "prydwen"
       },
       "current": {
